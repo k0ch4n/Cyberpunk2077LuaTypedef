@@ -4,6 +4,6 @@
 ---@class inkDebugSystemAccessor: inkILayerSystemAccesor
 inkDebugSystemAccessor = {}
 
----@param fields? table
+---@param fields? inkDebugSystemAccessor
 ---@return inkDebugSystemAccessor
 function inkDebugSystemAccessor.new(fields) return end

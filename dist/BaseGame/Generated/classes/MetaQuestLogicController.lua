@@ -19,7 +19,7 @@
 ---@field private animTooltip inkanimProxy
 MetaQuestLogicController = {}
 
----@param fields? table
+---@param fields? MetaQuestLogicController
 ---@return MetaQuestLogicController
 function MetaQuestLogicController.new(fields) return end
 

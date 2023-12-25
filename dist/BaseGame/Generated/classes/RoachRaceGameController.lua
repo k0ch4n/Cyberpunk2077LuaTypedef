@@ -7,7 +7,7 @@
 ---@field private isCutsceneInProgress Bool
 RoachRaceGameController = {}
 
----@param fields? table
+---@param fields? RoachRaceGameController
 ---@return RoachRaceGameController
 function RoachRaceGameController.new(fields) return end
 

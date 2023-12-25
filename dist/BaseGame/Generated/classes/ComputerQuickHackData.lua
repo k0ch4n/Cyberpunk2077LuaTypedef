@@ -8,6 +8,6 @@
 ---@field public operationType EMathOperationType
 ComputerQuickHackData = {}
 
----@param fields? table
+---@param fields? ComputerQuickHackData
 ---@return ComputerQuickHackData
 function ComputerQuickHackData.new(fields) return end

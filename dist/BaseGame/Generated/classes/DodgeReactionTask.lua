@@ -4,7 +4,7 @@
 ---@class DodgeReactionTask: AIbehaviortaskScript
 DodgeReactionTask = {}
 
----@param fields? table
+---@param fields? DodgeReactionTask
 ---@return DodgeReactionTask
 function DodgeReactionTask.new(fields) return end
 

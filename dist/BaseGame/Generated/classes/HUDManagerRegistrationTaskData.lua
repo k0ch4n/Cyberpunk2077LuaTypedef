@@ -5,6 +5,6 @@
 ---@field public shouldRegister Bool
 HUDManagerRegistrationTaskData = {}
 
----@param fields? table
+---@param fields? HUDManagerRegistrationTaskData
 ---@return HUDManagerRegistrationTaskData
 function HUDManagerRegistrationTaskData.new(fields) return end

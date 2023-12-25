@@ -6,7 +6,7 @@
 ---@field private wasRadioSetup Bool
 RadioControllerPS = {}
 
----@param fields? table
+---@param fields? RadioControllerPS
 ---@return RadioControllerPS
 function RadioControllerPS.new(fields) return end
 

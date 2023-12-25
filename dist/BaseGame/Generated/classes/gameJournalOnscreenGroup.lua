@@ -4,6 +4,6 @@
 ---@class gameJournalOnscreenGroup: gameJournalFileEntry
 gameJournalOnscreenGroup = {}
 
----@param fields? table
+---@param fields? gameJournalOnscreenGroup
 ---@return gameJournalOnscreenGroup
 function gameJournalOnscreenGroup.new(fields) return end

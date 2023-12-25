@@ -10,6 +10,6 @@
 ---@field public speed animFloatLink
 animAnimNode_ValueBySpeed = {}
 
----@param fields? table
+---@param fields? animAnimNode_ValueBySpeed
 ---@return animAnimNode_ValueBySpeed
 function animAnimNode_ValueBySpeed.new(fields) return end

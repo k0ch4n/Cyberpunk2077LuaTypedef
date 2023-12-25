@@ -7,6 +7,6 @@
 ---@field public hash Uint64
 animAnimSetup = {}
 
----@param fields? table
+---@param fields? animAnimSetup
 ---@return animAnimSetup
 function animAnimSetup.new(fields) return end

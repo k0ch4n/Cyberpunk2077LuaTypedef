@@ -14,6 +14,6 @@
 ---@field public thumbnailWidgetRecord TweakDBID
 AOEAreaSetup = {}
 
----@param fields? table
+---@param fields? AOEAreaSetup
 ---@return AOEAreaSetup
 function AOEAreaSetup.new(fields) return end

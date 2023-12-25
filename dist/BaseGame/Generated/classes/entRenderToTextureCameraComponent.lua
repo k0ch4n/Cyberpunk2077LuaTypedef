@@ -23,6 +23,6 @@
 ---@field public streamingDistance Float
 entRenderToTextureCameraComponent = {}
 
----@param fields? table
+---@param fields? entRenderToTextureCameraComponent
 ---@return entRenderToTextureCameraComponent
 function entRenderToTextureCameraComponent.new(fields) return end

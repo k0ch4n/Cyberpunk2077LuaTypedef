@@ -7,6 +7,6 @@
 ---@field public transformRegions Uint8[]
 animImportFacialInitialControlsDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialInitialControlsDesc
 ---@return animImportFacialInitialControlsDesc
 function animImportFacialInitialControlsDesc.new(fields) return end

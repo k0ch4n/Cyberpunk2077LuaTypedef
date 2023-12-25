@@ -4,6 +4,6 @@
 ---@class gameCompiledShootingSpotData: gameCompiledCoverData
 gameCompiledShootingSpotData = {}
 
----@param fields? table
+---@param fields? gameCompiledShootingSpotData
 ---@return gameCompiledShootingSpotData
 function gameCompiledShootingSpotData.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field private targetTrackerComponent AITargetTrackerComponent
 BossStealthComponent = {}
 
----@param fields? table
+---@param fields? BossStealthComponent
 ---@return BossStealthComponent
 function BossStealthComponent.new(fields) return end
 

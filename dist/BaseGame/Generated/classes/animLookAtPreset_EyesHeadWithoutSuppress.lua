@@ -6,6 +6,6 @@
 ---@field public softLimitAngle Float
 animLookAtPreset_EyesHeadWithoutSuppress = {}
 
----@param fields? table
+---@param fields? animLookAtPreset_EyesHeadWithoutSuppress
 ---@return animLookAtPreset_EyesHeadWithoutSuppress
 function animLookAtPreset_EyesHeadWithoutSuppress.new(fields) return end

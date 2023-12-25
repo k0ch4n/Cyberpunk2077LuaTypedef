@@ -5,6 +5,6 @@
 ---@field public FOV effectEffectParameterEvaluatorFloat
 effectTrackItemFOV = {}
 
----@param fields? table
+---@param fields? effectTrackItemFOV
 ---@return effectTrackItemFOV
 function effectTrackItemFOV.new(fields) return end

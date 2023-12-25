@@ -11,6 +11,6 @@
 ---@field public increaseTerrainStreamingDistance Bool
 worldBlockoutArea = {}
 
----@param fields? table
+---@param fields? worldBlockoutArea
 ---@return worldBlockoutArea
 function worldBlockoutArea.new(fields) return end

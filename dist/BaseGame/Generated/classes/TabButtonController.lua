@@ -9,7 +9,7 @@
 ---@field protected iconSet String
 TabButtonController = {}
 
----@param fields? table
+---@param fields? TabButtonController
 ---@return TabButtonController
 function TabButtonController.new(fields) return end
 

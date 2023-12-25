@@ -6,6 +6,6 @@
 ---@field public startDeescalate Bool
 ReprimandEscalationEvent = {}
 
----@param fields? table
+---@param fields? ReprimandEscalationEvent
 ---@return ReprimandEscalationEvent
 function ReprimandEscalationEvent.new(fields) return end

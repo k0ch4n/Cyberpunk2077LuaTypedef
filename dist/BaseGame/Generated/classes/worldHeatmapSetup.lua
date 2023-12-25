@@ -7,6 +7,6 @@
 ---@field public horizontalResolution Uint32
 worldHeatmapSetup = {}
 
----@param fields? table
+---@param fields? worldHeatmapSetup
 ---@return worldHeatmapSetup
 function worldHeatmapSetup.new(fields) return end

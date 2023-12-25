@@ -8,6 +8,6 @@
 ---@field public innerItemData gameInnerItemData
 gameSPartSlots = {}
 
----@param fields? table
+---@param fields? gameSPartSlots
 ---@return gameSPartSlots
 function gameSPartSlots.new(fields) return end

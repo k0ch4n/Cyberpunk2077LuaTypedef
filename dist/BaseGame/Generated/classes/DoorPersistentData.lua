@@ -10,6 +10,6 @@
 ---@field public passcode CName
 DoorPersistentData = {}
 
----@param fields? table
+---@param fields? DoorPersistentData
 ---@return DoorPersistentData
 function DoorPersistentData.new(fields) return end

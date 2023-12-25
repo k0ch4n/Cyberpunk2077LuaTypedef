@@ -8,6 +8,6 @@
 ---@field public animationData animActionAnimDatabase_AnimationData
 animActionAnimDatabase_DatabaseRow = {}
 
----@param fields? table
+---@param fields? animActionAnimDatabase_DatabaseRow
 ---@return animActionAnimDatabase_DatabaseRow
 function animActionAnimDatabase_DatabaseRow.new(fields) return end

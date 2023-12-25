@@ -7,7 +7,7 @@
 ---@field protected lastValue Bool
 HighestPrioritySignalCondition = {}
 
----@param fields? table
+---@param fields? HighestPrioritySignalCondition
 ---@return HighestPrioritySignalCondition
 function HighestPrioritySignalCondition.new(fields) return end
 

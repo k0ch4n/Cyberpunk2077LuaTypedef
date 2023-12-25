@@ -6,6 +6,6 @@
 ---@field public pathIdx Uint32
 worldTrafficGlobalPathPosition = {}
 
----@param fields? table
+---@param fields? worldTrafficGlobalPathPosition
 ---@return worldTrafficGlobalPathPosition
 function worldTrafficGlobalPathPosition.new(fields) return end

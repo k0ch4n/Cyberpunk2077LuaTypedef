@@ -8,6 +8,6 @@
 ---@field public boneName CName
 entSlot = {}
 
----@param fields? table
+---@param fields? entSlot
 ---@return entSlot
 function entSlot.new(fields) return end

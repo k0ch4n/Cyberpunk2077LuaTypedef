@@ -6,6 +6,6 @@
 ---@field public keepCursorPosition Bool
 inkPhotoModeCursorStateChangedEvent = {}
 
----@param fields? table
+---@param fields? inkPhotoModeCursorStateChangedEvent
 ---@return inkPhotoModeCursorStateChangedEvent
 function inkPhotoModeCursorStateChangedEvent.new(fields) return end

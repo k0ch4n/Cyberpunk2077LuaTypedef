@@ -13,6 +13,6 @@
 ---@field public wheel4Position Vector3
 audioVehicleEmitterPositionData = {}
 
----@param fields? table
+---@param fields? audioVehicleEmitterPositionData
 ---@return audioVehicleEmitterPositionData
 function audioVehicleEmitterPositionData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkFlexWidget: inkCompoundWidget
 inkFlexWidget = {}
 
----@param fields? table
+---@param fields? inkFlexWidget
 ---@return inkFlexWidget
 function inkFlexWidget.new(fields) return end

@@ -28,7 +28,7 @@
 ---@field public TEMP_isEquipped Bool
 UIInventoryItem = {}
 
----@param fields? table
+---@param fields? UIInventoryItem
 ---@return UIInventoryItem
 function UIInventoryItem.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private outlineData OutlineData
 OutlineRequest = {}
 
----@param fields? table
+---@param fields? OutlineRequest
 ---@return OutlineRequest
 function OutlineRequest.new(fields) return end
 

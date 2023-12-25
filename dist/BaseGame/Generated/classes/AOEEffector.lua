@@ -4,7 +4,7 @@
 ---@class AOEEffector: ActivatedDeviceTransfromAnim
 AOEEffector = {}
 
----@param fields? table
+---@param fields? AOEEffector
 ---@return AOEEffector
 function AOEEffector.new(fields) return end
 

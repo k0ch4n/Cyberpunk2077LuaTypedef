@@ -4,6 +4,6 @@
 ---@class inkWaitingSignSystem: inkIWaitingSignSystem
 inkWaitingSignSystem = {}
 
----@param fields? table
+---@param fields? inkWaitingSignSystem
 ---@return inkWaitingSignSystem
 function inkWaitingSignSystem.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public timeout Float
 AIbehaviorMonitorConditionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMonitorConditionNodeDefinition
 ---@return AIbehaviorMonitorConditionNodeDefinition
 function AIbehaviorMonitorConditionNodeDefinition.new(fields) return end

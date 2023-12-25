@@ -10,7 +10,7 @@
 ---@field private currentRadioStationId Int32
 RadioStationListItemController = {}
 
----@param fields? table
+---@param fields? RadioStationListItemController
 ---@return RadioStationListItemController
 function RadioStationListItemController.new(fields) return end
 

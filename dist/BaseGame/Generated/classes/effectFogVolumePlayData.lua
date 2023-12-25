@@ -4,6 +4,6 @@
 ---@class effectFogVolumePlayData: effectPlacedTrackItemPlayData
 effectFogVolumePlayData = {}
 
----@param fields? table
+---@param fields? effectFogVolumePlayData
 ---@return effectFogVolumePlayData
 function effectFogVolumePlayData.new(fields) return end

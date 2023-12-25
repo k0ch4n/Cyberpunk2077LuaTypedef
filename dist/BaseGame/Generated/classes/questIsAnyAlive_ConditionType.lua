@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questIsAnyAlive_ConditionType = {}
 
----@param fields? table
+---@param fields? questIsAnyAlive_ConditionType
 ---@return questIsAnyAlive_ConditionType
 function questIsAnyAlive_ConditionType.new(fields) return end

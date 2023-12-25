@@ -6,6 +6,6 @@
 ---@field public componentsCollisionMapArray questComponentCollisionMapArrayElement[]
 questNodeCollisionMapArrayElement = {}
 
----@param fields? table
+---@param fields? questNodeCollisionMapArrayElement
 ---@return questNodeCollisionMapArrayElement
 function questNodeCollisionMapArrayElement.new(fields) return end

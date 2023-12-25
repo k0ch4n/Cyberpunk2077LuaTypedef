@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionActivateScanning: gameIMuppetInputAction
 gameMuppetInputActionActivateScanning = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionActivateScanning
 ---@return gameMuppetInputActionActivateScanning
 function gameMuppetInputActionActivateScanning.new(fields) return end

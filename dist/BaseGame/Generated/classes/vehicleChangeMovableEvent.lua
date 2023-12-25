@@ -4,6 +4,6 @@
 ---@class vehicleChangeMovableEvent: redEvent
 vehicleChangeMovableEvent = {}
 
----@param fields? table
+---@param fields? vehicleChangeMovableEvent
 ---@return vehicleChangeMovableEvent
 function vehicleChangeMovableEvent.new(fields) return end

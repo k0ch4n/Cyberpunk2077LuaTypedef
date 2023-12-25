@@ -10,7 +10,7 @@
 ---@field private slot String
 InspectableObjectComponent = {}
 
----@param fields? table
+---@param fields? InspectableObjectComponent
 ---@return InspectableObjectComponent
 function InspectableObjectComponent.new(fields) return end
 

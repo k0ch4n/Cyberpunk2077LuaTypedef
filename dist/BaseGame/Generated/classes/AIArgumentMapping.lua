@@ -9,7 +9,7 @@
 ---@field public customTypeName CName
 AIArgumentMapping = {}
 
----@param fields? table
+---@param fields? AIArgumentMapping
 ---@return AIArgumentMapping
 function AIArgumentMapping.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public skipDynamicDecalGeneration Bool
 meshChunkFlags = {}
 
----@param fields? table
+---@param fields? meshChunkFlags
 ---@return meshChunkFlags
 function meshChunkFlags.new(fields) return end

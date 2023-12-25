@@ -6,6 +6,6 @@
 ---@field public behavior gamedataOutput
 TriggerDelayedReactionEvent = {}
 
----@param fields? table
+---@param fields? TriggerDelayedReactionEvent
 ---@return TriggerDelayedReactionEvent
 function TriggerDelayedReactionEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value Uint64
 gameNewMappinID = {}
 
----@param fields? table
+---@param fields? gameNewMappinID
 ---@return gameNewMappinID
 function gameNewMappinID.new(fields) return end

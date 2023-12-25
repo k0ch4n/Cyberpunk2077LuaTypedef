@@ -9,7 +9,7 @@
 ---@field private fixedmesh entIVisualComponent
 WireRepairable = {}
 
----@param fields? table
+---@param fields? WireRepairable
 ---@return WireRepairable
 function WireRepairable.new(fields) return end
 

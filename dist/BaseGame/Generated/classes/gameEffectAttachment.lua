@@ -4,6 +4,6 @@
 ---@class gameEffectAttachment: entIAttachment
 gameEffectAttachment = {}
 
----@param fields? table
+---@param fields? gameEffectAttachment
 ---@return gameEffectAttachment
 function gameEffectAttachment.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionInitialReaction_Record: gamedataAISubAction_Record
 gamedataAISubActionInitialReaction_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionInitialReaction_Record
 ---@return gamedataAISubActionInitialReaction_Record
 function gamedataAISubActionInitialReaction_Record.new(fields) return end
 

@@ -20,7 +20,7 @@
 ---@field protected destroyedMesh entPhysicalMeshComponent
 ServerNode = {}
 
----@param fields? table
+---@param fields? ServerNode
 ---@return ServerNode
 function ServerNode.new(fields) return end
 

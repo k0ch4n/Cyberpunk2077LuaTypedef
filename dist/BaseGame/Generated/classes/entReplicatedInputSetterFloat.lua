@@ -5,6 +5,6 @@
 ---@field public value Float
 entReplicatedInputSetterFloat = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetterFloat
 ---@return entReplicatedInputSetterFloat
 function entReplicatedInputSetterFloat.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public blurIntensity Float
 SWeaponPlaneParams = {}
 
----@param fields? table
+---@param fields? SWeaponPlaneParams
 ---@return SWeaponPlaneParams
 function SWeaponPlaneParams.new(fields) return end

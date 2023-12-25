@@ -6,6 +6,6 @@
 ---@field public effector TweakDBID
 gameFinisherSyncData = {}
 
----@param fields? table
+---@param fields? gameFinisherSyncData
 ---@return gameFinisherSyncData
 function gameFinisherSyncData.new(fields) return end

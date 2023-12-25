@@ -5,6 +5,6 @@
 ---@field public listener StatusEffectTriggerListener
 AddStatusEffectListenerEvent = {}
 
----@param fields? table
+---@param fields? AddStatusEffectListenerEvent
 ---@return AddStatusEffectListenerEvent
 function AddStatusEffectListenerEvent.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public characterRecord String
 grsHeistPlayerGameInfo = {}
 
----@param fields? table
+---@param fields? grsHeistPlayerGameInfo
 ---@return grsHeistPlayerGameInfo
 function grsHeistPlayerGameInfo.new(fields) return end

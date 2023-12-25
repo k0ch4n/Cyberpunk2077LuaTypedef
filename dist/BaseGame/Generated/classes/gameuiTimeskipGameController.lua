@@ -54,7 +54,7 @@
 ---@field private hoveredOver Bool
 gameuiTimeskipGameController = {}
 
----@param fields? table
+---@param fields? gameuiTimeskipGameController
 ---@return gameuiTimeskipGameController
 function gameuiTimeskipGameController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public val Bool
 questToggleForceBrake_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleForceBrake_NodeType
 ---@return questToggleForceBrake_NodeType
 function questToggleForceBrake_NodeType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataTweakDBRecord: IScriptable
 gamedataTweakDBRecord = {}
 
----@param fields? table
+---@param fields? gamedataTweakDBRecord
 ---@return gamedataTweakDBRecord
 function gamedataTweakDBRecord.new(fields) return end
 

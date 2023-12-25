@@ -6,6 +6,6 @@
 ---@field public killType gameKillType
 gameeventsKillRewardEvent = {}
 
----@param fields? table
+---@param fields? gameeventsKillRewardEvent
 ---@return gameeventsKillRewardEvent
 function gameeventsKillRewardEvent.new(fields) return end

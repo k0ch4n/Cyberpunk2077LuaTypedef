@@ -69,7 +69,7 @@
 ---@field public debugBool gamebbScriptID_Bool
 EffectSharedDataDef = {}
 
----@param fields? table
+---@param fields? EffectSharedDataDef
 ---@return EffectSharedDataDef
 function EffectSharedDataDef.new(fields) return end
 

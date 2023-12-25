@@ -6,6 +6,6 @@
 ---@field public easingType EEasingType
 EasingFunction = {}
 
----@param fields? table
+---@param fields? EasingFunction
 ---@return EasingFunction
 function EasingFunction.new(fields) return end

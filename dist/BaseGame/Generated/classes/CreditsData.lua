@@ -6,6 +6,6 @@
 ---@field public showRewardPrompt Bool
 CreditsData = {}
 
----@param fields? table
+---@param fields? CreditsData
 ---@return CreditsData
 function CreditsData.new(fields) return end

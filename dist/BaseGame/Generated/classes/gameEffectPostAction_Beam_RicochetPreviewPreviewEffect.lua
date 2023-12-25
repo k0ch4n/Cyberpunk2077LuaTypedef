@@ -9,6 +9,6 @@
 ---@field public forwardOffset Float
 gameEffectPostAction_Beam_RicochetPreviewPreviewEffect = {}
 
----@param fields? table
+---@param fields? gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
 ---@return gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
 function gameEffectPostAction_Beam_RicochetPreviewPreviewEffect.new(fields) return end

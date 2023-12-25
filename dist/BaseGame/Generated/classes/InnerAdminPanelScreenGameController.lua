@@ -23,7 +23,7 @@
 ---@field public isUIZoomDevice Bool
 InnerAdminPanelScreenGameController = {}
 
----@param fields? table
+---@param fields? InnerAdminPanelScreenGameController
 ---@return InnerAdminPanelScreenGameController
 function InnerAdminPanelScreenGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AirThrustersDecisions: LocomotionAirDecisions
 AirThrustersDecisions = {}
 
----@param fields? table
+---@param fields? AirThrustersDecisions
 ---@return AirThrustersDecisions
 function AirThrustersDecisions.new(fields) return end
 

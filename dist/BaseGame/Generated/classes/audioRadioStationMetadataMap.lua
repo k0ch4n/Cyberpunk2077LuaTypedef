@@ -9,6 +9,6 @@
 ---@field public defaultBackgroundJingle audioRadioStationJingleMetadata
 audioRadioStationMetadataMap = {}
 
----@param fields? table
+---@param fields? audioRadioStationMetadataMap
 ---@return audioRadioStationMetadataMap
 function audioRadioStationMetadataMap.new(fields) return end

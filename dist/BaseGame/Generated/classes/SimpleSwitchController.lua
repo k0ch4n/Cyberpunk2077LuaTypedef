@@ -4,7 +4,7 @@
 ---@class SimpleSwitchController: MasterController
 SimpleSwitchController = {}
 
----@param fields? table
+---@param fields? SimpleSwitchController
 ---@return SimpleSwitchController
 function SimpleSwitchController.new(fields) return end
 

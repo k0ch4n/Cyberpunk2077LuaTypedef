@@ -4,7 +4,7 @@
 ---@class ActionsSequencer: InteractiveMasterDevice
 ActionsSequencer = {}
 
----@param fields? table
+---@param fields? ActionsSequencer
 ---@return ActionsSequencer
 function ActionsSequencer.new(fields) return end
 

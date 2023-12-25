@@ -4,7 +4,7 @@
 ---@class SmartWindowController: ComputerController
 SmartWindowController = {}
 
----@param fields? table
+---@param fields? SmartWindowController
 ---@return SmartWindowController
 function SmartWindowController.new(fields) return end
 

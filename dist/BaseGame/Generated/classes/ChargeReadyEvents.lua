@@ -4,7 +4,7 @@
 ---@class ChargeReadyEvents: ChargeEventsAbstract
 ChargeReadyEvents = {}
 
----@param fields? table
+---@param fields? ChargeReadyEvents
 ---@return ChargeReadyEvents
 function ChargeReadyEvents.new(fields) return end
 

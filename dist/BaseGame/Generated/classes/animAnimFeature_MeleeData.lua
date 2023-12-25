@@ -23,6 +23,6 @@
 ---@field public throwReloadTime Float
 animAnimFeature_MeleeData = {}
 
----@param fields? table
+---@param fields? animAnimFeature_MeleeData
 ---@return animAnimFeature_MeleeData
 function animAnimFeature_MeleeData.new(fields) return end

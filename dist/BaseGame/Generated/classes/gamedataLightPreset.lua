@@ -6,6 +6,6 @@
 ---@field public preset TweakDBID
 gamedataLightPreset = {}
 
----@param fields? table
+---@param fields? gamedataLightPreset
 ---@return gamedataLightPreset
 function gamedataLightPreset.new(fields) return end

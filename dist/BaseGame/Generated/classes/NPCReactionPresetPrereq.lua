@@ -6,7 +6,7 @@
 ---@field public invert Bool
 NPCReactionPresetPrereq = {}
 
----@param fields? table
+---@param fields? NPCReactionPresetPrereq
 ---@return NPCReactionPresetPrereq
 function NPCReactionPresetPrereq.new(fields) return end
 

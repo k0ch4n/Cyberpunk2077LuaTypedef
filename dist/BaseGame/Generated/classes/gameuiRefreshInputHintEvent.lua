@@ -4,6 +4,6 @@
 ---@class gameuiRefreshInputHintEvent: redEvent
 gameuiRefreshInputHintEvent = {}
 
----@param fields? table
+---@param fields? gameuiRefreshInputHintEvent
 ---@return gameuiRefreshInputHintEvent
 function gameuiRefreshInputHintEvent.new(fields) return end

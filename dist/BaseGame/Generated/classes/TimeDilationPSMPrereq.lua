@@ -4,7 +4,7 @@
 ---@class TimeDilationPSMPrereq: PlayerStateMachinePrereq
 TimeDilationPSMPrereq = {}
 
----@param fields? table
+---@param fields? TimeDilationPSMPrereq
 ---@return TimeDilationPSMPrereq
 function TimeDilationPSMPrereq.new(fields) return end
 

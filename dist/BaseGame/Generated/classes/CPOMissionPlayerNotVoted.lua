@@ -4,7 +4,7 @@
 ---@class CPOMissionPlayerNotVoted: CPOMissionPlayerVoted
 CPOMissionPlayerNotVoted = {}
 
----@param fields? table
+---@param fields? CPOMissionPlayerNotVoted
 ---@return CPOMissionPlayerNotVoted
 function CPOMissionPlayerNotVoted.new(fields) return end
 

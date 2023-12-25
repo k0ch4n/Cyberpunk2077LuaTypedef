@@ -10,6 +10,6 @@
 ---@field public fStop Float
 CameraAreaSettings = {}
 
----@param fields? table
+---@param fields? CameraAreaSettings
 ---@return CameraAreaSettings
 function CameraAreaSettings.new(fields) return end

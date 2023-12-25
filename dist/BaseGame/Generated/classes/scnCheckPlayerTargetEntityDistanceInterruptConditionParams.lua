@@ -7,6 +7,6 @@
 ---@field public targetEntity gameEntityReference
 scnCheckPlayerTargetEntityDistanceInterruptConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 ---@return scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 function scnCheckPlayerTargetEntityDistanceInterruptConditionParams.new(fields) return end

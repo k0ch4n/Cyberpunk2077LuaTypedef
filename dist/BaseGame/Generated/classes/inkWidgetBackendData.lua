@@ -8,6 +8,6 @@
 ---@field public boundLibraryItemName CName
 inkWidgetBackendData = {}
 
----@param fields? table
+---@param fields? inkWidgetBackendData
 ---@return inkWidgetBackendData
 function inkWidgetBackendData.new(fields) return end

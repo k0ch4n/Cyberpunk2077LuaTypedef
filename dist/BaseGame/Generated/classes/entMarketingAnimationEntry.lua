@@ -7,6 +7,6 @@
 ---@field public frame Float
 entMarketingAnimationEntry = {}
 
----@param fields? table
+---@param fields? entMarketingAnimationEntry
 ---@return entMarketingAnimationEntry
 function entMarketingAnimationEntry.new(fields) return end

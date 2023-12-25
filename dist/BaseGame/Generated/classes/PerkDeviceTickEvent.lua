@@ -4,6 +4,6 @@
 ---@class PerkDeviceTickEvent: gameTickableEvent
 PerkDeviceTickEvent = {}
 
----@param fields? table
+---@param fields? PerkDeviceTickEvent
 ---@return PerkDeviceTickEvent
 function PerkDeviceTickEvent.new(fields) return end

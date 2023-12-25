@@ -4,6 +4,6 @@
 ---@class entAnimationControlAttachment: entIAttachment
 entAnimationControlAttachment = {}
 
----@param fields? table
+---@param fields? entAnimationControlAttachment
 ---@return entAnimationControlAttachment
 function entAnimationControlAttachment.new(fields) return end

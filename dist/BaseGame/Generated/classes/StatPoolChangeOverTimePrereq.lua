@@ -9,7 +9,7 @@
 ---@field public checkGain Bool
 StatPoolChangeOverTimePrereq = {}
 
----@param fields? table
+---@param fields? StatPoolChangeOverTimePrereq
 ---@return StatPoolChangeOverTimePrereq
 function StatPoolChangeOverTimePrereq.new(fields) return end
 

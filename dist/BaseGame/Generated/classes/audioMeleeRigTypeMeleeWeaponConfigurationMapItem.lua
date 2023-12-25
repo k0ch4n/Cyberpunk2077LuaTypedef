@@ -6,6 +6,6 @@
 ---@field public meleeWeaponConfiguration CName
 audioMeleeRigTypeMeleeWeaponConfigurationMapItem = {}
 
----@param fields? table
+---@param fields? audioMeleeRigTypeMeleeWeaponConfigurationMapItem
 ---@return audioMeleeRigTypeMeleeWeaponConfigurationMapItem
 function audioMeleeRigTypeMeleeWeaponConfigurationMapItem.new(fields) return end

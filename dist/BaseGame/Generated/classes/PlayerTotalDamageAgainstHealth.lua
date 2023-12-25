@@ -7,6 +7,6 @@
 ---@field public targetHealth Float
 PlayerTotalDamageAgainstHealth = {}
 
----@param fields? table
+---@param fields? PlayerTotalDamageAgainstHealth
 ---@return PlayerTotalDamageAgainstHealth
 function PlayerTotalDamageAgainstHealth.new(fields) return end

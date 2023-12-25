@@ -5,6 +5,6 @@
 ---@field public jobs HUDJob[]
 SendInstructionRequest = {}
 
----@param fields? table
+---@param fields? SendInstructionRequest
 ---@return SendInstructionRequest
 function SendInstructionRequest.new(fields) return end

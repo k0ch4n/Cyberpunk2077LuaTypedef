@@ -6,7 +6,7 @@
 ---@field public entryNames CName[]
 SpawnerData = {}
 
----@param fields? table
+---@param fields? SpawnerData
 ---@return SpawnerData
 function SpawnerData.new(fields) return end
 

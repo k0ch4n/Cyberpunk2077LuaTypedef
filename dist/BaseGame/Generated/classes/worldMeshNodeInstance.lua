@@ -4,6 +4,6 @@
 ---@class worldMeshNodeInstance: worldSnappableNodeInstance
 worldMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldMeshNodeInstance
 ---@return worldMeshNodeInstance
 function worldMeshNodeInstance.new(fields) return end

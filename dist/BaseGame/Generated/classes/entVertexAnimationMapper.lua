@@ -5,6 +5,6 @@
 ---@field public entries entVertexAnimationMapperEntry[]
 entVertexAnimationMapper = {}
 
----@param fields? table
+---@param fields? entVertexAnimationMapper
 ---@return entVertexAnimationMapper
 function entVertexAnimationMapper.new(fields) return end

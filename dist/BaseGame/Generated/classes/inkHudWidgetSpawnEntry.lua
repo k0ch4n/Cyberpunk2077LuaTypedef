@@ -23,6 +23,6 @@
 ---@field public hudScalingMarginCorrection inkMargin
 inkHudWidgetSpawnEntry = {}
 
----@param fields? table
+---@param fields? inkHudWidgetSpawnEntry
 ---@return inkHudWidgetSpawnEntry
 function inkHudWidgetSpawnEntry.new(fields) return end

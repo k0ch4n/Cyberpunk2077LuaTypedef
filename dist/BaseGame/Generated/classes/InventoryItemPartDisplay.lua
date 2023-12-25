@@ -8,7 +8,7 @@
 ---@field protected attachmentData gameInventoryItemAttachments
 InventoryItemPartDisplay = {}
 
----@param fields? table
+---@param fields? InventoryItemPartDisplay
 ---@return InventoryItemPartDisplay
 function InventoryItemPartDisplay.new(fields) return end
 

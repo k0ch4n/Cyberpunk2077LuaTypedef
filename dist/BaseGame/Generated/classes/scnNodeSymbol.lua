@@ -7,6 +7,6 @@
 ---@field public editorEventId Uint64
 scnNodeSymbol = {}
 
----@param fields? table
+---@param fields? scnNodeSymbol
 ---@return scnNodeSymbol
 function scnNodeSymbol.new(fields) return end

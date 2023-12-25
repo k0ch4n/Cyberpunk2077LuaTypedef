@@ -5,7 +5,7 @@
 ---@field public resists ScannerStatDetails[]
 ScannerResistances = {}
 
----@param fields? table
+---@param fields? ScannerResistances
 ---@return ScannerResistances
 function ScannerResistances.new(fields) return end
 

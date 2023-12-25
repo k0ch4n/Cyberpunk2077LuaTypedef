@@ -5,6 +5,6 @@
 ---@field public value Float
 TCSInputXAxisEvent = {}
 
----@param fields? table
+---@param fields? TCSInputXAxisEvent
 ---@return TCSInputXAxisEvent
 function TCSInputXAxisEvent.new(fields) return end

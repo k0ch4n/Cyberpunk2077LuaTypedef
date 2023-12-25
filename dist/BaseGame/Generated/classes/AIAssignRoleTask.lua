@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AIAssignRoleTask = {}
 
----@param fields? table
+---@param fields? AIAssignRoleTask
 ---@return AIAssignRoleTask
 function AIAssignRoleTask.new(fields) return end
 

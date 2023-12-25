@@ -5,7 +5,7 @@
 ---@field public effector StatPoolBasedTimeBankEffector
 StatPoolValueListener = {}
 
----@param fields? table
+---@param fields? StatPoolValueListener
 ---@return StatPoolValueListener
 function StatPoolValueListener.new(fields) return end
 

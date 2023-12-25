@@ -4,7 +4,7 @@
 ---@class FinisherEndEvents: FinisherTransition
 FinisherEndEvents = {}
 
----@param fields? table
+---@param fields? FinisherEndEvents
 ---@return FinisherEndEvents
 function FinisherEndEvents.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public target ScriptedPuppet
 PlayGrandFinaleVFX = {}
 
----@param fields? table
+---@param fields? PlayGrandFinaleVFX
 ---@return PlayGrandFinaleVFX
 function PlayGrandFinaleVFX.new(fields) return end

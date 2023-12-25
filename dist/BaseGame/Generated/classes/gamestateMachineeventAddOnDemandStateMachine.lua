@@ -8,6 +8,6 @@
 ---@field public owner gameObject
 gamestateMachineeventAddOnDemandStateMachine = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventAddOnDemandStateMachine
 ---@return gamestateMachineeventAddOnDemandStateMachine
 function gamestateMachineeventAddOnDemandStateMachine.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public eventOverrides audioGenericNameEventDictionary
 audioGenericNameEventMap = {}
 
----@param fields? table
+---@param fields? audioGenericNameEventMap
 ---@return audioGenericNameEventMap
 function audioGenericNameEventMap.new(fields) return end

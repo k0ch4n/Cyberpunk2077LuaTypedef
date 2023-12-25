@@ -4,7 +4,7 @@
 ---@class PreviousStation: ActionBool
 PreviousStation = {}
 
----@param fields? table
+---@param fields? PreviousStation
 ---@return PreviousStation
 function PreviousStation.new(fields) return end
 

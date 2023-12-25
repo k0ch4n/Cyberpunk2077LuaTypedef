@@ -7,6 +7,6 @@
 ---@field public looped Bool
 SequenceVideo = {}
 
----@param fields? table
+---@param fields? SequenceVideo
 ---@return SequenceVideo
 function SequenceVideo.new(fields) return end

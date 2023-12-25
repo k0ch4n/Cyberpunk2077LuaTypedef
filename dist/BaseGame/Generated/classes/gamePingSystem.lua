@@ -4,7 +4,7 @@
 ---@class gamePingSystem: gameIPingSystem
 gamePingSystem = {}
 
----@param fields? table
+---@param fields? gamePingSystem
 ---@return gamePingSystem
 function gamePingSystem.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ShouldNPCReEquipWeaponOnDismount: AIbehaviorconditionScript
 ShouldNPCReEquipWeaponOnDismount = {}
 
----@param fields? table
+---@param fields? ShouldNPCReEquipWeaponOnDismount
 ---@return ShouldNPCReEquipWeaponOnDismount
 function ShouldNPCReEquipWeaponOnDismount.new(fields) return end
 

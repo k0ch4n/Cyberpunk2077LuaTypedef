@@ -9,7 +9,7 @@
 ---@field public itemTemplates inkGridItemTemplate[]
 inkGridController = {}
 
----@param fields? table
+---@param fields? inkGridController
 ---@return inkGridController
 function inkGridController.new(fields) return end
 

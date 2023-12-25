@@ -5,6 +5,6 @@
 ---@field public workspotTree workWorkspotTree
 scnWorkspotData_EmbeddedWorkspotTree = {}
 
----@param fields? table
+---@param fields? scnWorkspotData_EmbeddedWorkspotTree
 ---@return scnWorkspotData_EmbeddedWorkspotTree
 function scnWorkspotData_EmbeddedWorkspotTree.new(fields) return end

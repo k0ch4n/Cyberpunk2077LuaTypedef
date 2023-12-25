@@ -6,7 +6,7 @@
 ---@field public OnscreenMessage gamebbScriptID_Variant
 UI_NotificationsDef = {}
 
----@param fields? table
+---@param fields? UI_NotificationsDef
 ---@return UI_NotificationsDef
 function UI_NotificationsDef.new(fields) return end
 

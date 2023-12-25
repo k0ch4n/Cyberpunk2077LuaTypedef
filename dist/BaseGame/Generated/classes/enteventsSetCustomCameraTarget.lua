@@ -4,6 +4,6 @@
 ---@class enteventsSetCustomCameraTarget: redEvent
 enteventsSetCustomCameraTarget = {}
 
----@param fields? table
+---@param fields? enteventsSetCustomCameraTarget
 ---@return enteventsSetCustomCameraTarget
 function enteventsSetCustomCameraTarget.new(fields) return end

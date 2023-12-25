@@ -4,7 +4,7 @@
 ---@class TestEffector: gameEffector
 TestEffector = {}
 
----@param fields? table
+---@param fields? TestEffector
 ---@return TestEffector
 function TestEffector.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public cameraCurves gameCameraCurveSet[]
 gameCameraCurvesLibrary = {}
 
----@param fields? table
+---@param fields? gameCameraCurvesLibrary
 ---@return gameCameraCurvesLibrary
 function gameCameraCurvesLibrary.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CallPolice: AIbehaviortaskScript
 CallPolice = {}
 
----@param fields? table
+---@param fields? CallPolice
 ---@return CallPolice
 function CallPolice.new(fields) return end
 

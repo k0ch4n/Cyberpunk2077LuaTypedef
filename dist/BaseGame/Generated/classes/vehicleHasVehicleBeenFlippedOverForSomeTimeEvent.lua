@@ -4,6 +4,6 @@
 ---@class vehicleHasVehicleBeenFlippedOverForSomeTimeEvent: redEvent
 vehicleHasVehicleBeenFlippedOverForSomeTimeEvent = {}
 
----@param fields? table
+---@param fields? vehicleHasVehicleBeenFlippedOverForSomeTimeEvent
 ---@return vehicleHasVehicleBeenFlippedOverForSomeTimeEvent
 function vehicleHasVehicleBeenFlippedOverForSomeTimeEvent.new(fields) return end

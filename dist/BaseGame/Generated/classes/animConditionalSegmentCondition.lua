@@ -8,6 +8,6 @@
 ---@field public animFeatureValue Bool
 animConditionalSegmentCondition = {}
 
----@param fields? table
+---@param fields? animConditionalSegmentCondition
 ---@return animConditionalSegmentCondition
 function animConditionalSegmentCondition.new(fields) return end

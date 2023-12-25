@@ -8,6 +8,6 @@
 ---@field public height Float
 inkRectangle = {}
 
----@param fields? table
+---@param fields? inkRectangle
 ---@return inkRectangle
 function inkRectangle.new(fields) return end

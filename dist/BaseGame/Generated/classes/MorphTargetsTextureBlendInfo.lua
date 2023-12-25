@@ -7,6 +7,6 @@
 ---@field public name CName
 MorphTargetsTextureBlendInfo = {}
 
----@param fields? table
+---@param fields? MorphTargetsTextureBlendInfo
 ---@return MorphTargetsTextureBlendInfo
 function MorphTargetsTextureBlendInfo.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public operationType EItemOperationType
 SInventoryOperationData = {}
 
----@param fields? table
+---@param fields? SInventoryOperationData
 ---@return SInventoryOperationData
 function SInventoryOperationData.new(fields) return end

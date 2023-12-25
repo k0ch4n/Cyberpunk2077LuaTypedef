@@ -8,6 +8,6 @@
 ---@field public entranceFromStand AIArgumentMapping
 AIbehaviorSelectWorkspotEntryTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSelectWorkspotEntryTaskDefinition
 ---@return AIbehaviorSelectWorkspotEntryTaskDefinition
 function AIbehaviorSelectWorkspotEntryTaskDefinition.new(fields) return end

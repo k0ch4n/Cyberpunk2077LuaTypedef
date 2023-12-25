@@ -5,7 +5,7 @@
 ---@field private isChoiceHubActive Bool
 DialogueChoiceHubPrereq = {}
 
----@param fields? table
+---@param fields? DialogueChoiceHubPrereq
 ---@return DialogueChoiceHubPrereq
 function DialogueChoiceHubPrereq.new(fields) return end
 

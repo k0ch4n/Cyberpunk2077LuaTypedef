@@ -5,7 +5,7 @@
 ---@field public countOnlyUnique Bool
 ModifyDamagePerHackEffector = {}
 
----@param fields? table
+---@param fields? ModifyDamagePerHackEffector
 ---@return ModifyDamagePerHackEffector
 function ModifyDamagePerHackEffector.new(fields) return end
 

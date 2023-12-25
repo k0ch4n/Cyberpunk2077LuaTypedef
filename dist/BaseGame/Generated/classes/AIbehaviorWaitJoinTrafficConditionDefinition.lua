@@ -4,6 +4,6 @@
 ---@class AIbehaviorWaitJoinTrafficConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitJoinTrafficConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitJoinTrafficConditionDefinition
 ---@return AIbehaviorWaitJoinTrafficConditionDefinition
 function AIbehaviorWaitJoinTrafficConditionDefinition.new(fields) return end

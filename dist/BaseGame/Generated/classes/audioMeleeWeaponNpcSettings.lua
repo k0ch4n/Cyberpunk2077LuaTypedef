@@ -4,6 +4,6 @@
 ---@class audioMeleeWeaponNpcSettings: audioMeleeWeaponSettings
 audioMeleeWeaponNpcSettings = {}
 
----@param fields? table
+---@param fields? audioMeleeWeaponNpcSettings
 ---@return audioMeleeWeaponNpcSettings
 function audioMeleeWeaponNpcSettings.new(fields) return end

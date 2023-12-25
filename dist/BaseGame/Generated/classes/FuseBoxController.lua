@@ -4,7 +4,7 @@
 ---@class FuseBoxController: MasterController
 FuseBoxController = {}
 
----@param fields? table
+---@param fields? FuseBoxController
 ---@return FuseBoxController
 function FuseBoxController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldCompiledCommunityAreaNodeInstance: worldINodeInstance
 worldCompiledCommunityAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldCompiledCommunityAreaNodeInstance
 ---@return worldCompiledCommunityAreaNodeInstance
 function worldCompiledCommunityAreaNodeInstance.new(fields) return end

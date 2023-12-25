@@ -17,6 +17,6 @@
 ---@field public statMaxValue Int32
 gameStatViewData = {}
 
----@param fields? table
+---@param fields? gameStatViewData
 ---@return gameStatViewData
 function gameStatViewData.new(fields) return end

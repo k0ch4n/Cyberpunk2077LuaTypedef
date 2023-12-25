@@ -9,7 +9,7 @@
 ---@field public victorSys inkWidgetReference
 DatatermLoginGameController = {}
 
----@param fields? table
+---@param fields? DatatermLoginGameController
 ---@return DatatermLoginGameController
 function DatatermLoginGameController.new(fields) return end
 

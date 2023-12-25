@@ -8,7 +8,7 @@
 ---@field public vehicle vehicleBaseObject
 CheckSpawningStrategy = {}
 
----@param fields? table
+---@param fields? CheckSpawningStrategy
 ---@return CheckSpawningStrategy
 function CheckSpawningStrategy.new(fields) return end
 

@@ -14,6 +14,6 @@
 ---@field public force Bool
 DiodeLightPreset = {}
 
----@param fields? table
+---@param fields? DiodeLightPreset
 ---@return DiodeLightPreset
 function DiodeLightPreset.new(fields) return end

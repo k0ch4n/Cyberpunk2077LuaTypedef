@@ -6,7 +6,7 @@
 ---@field public attackSubtype gamedataAttackSubtype
 BodyPartHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? BodyPartHitPrereqCondition
 ---@return BodyPartHitPrereqCondition
 function BodyPartHitPrereqCondition.new(fields) return end
 

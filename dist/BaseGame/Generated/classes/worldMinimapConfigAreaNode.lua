@@ -5,6 +5,6 @@
 ---@field public streamingRadius Float
 worldMinimapConfigAreaNode = {}
 
----@param fields? table
+---@param fields? worldMinimapConfigAreaNode
 ---@return worldMinimapConfigAreaNode
 function worldMinimapConfigAreaNode.new(fields) return end

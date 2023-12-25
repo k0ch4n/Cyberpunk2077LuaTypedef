@@ -5,6 +5,6 @@
 ---@field public IsHighlightON Bool
 HighlightConnectionComponentEvent = {}
 
----@param fields? table
+---@param fields? HighlightConnectionComponentEvent
 ---@return HighlightConnectionComponentEvent
 function HighlightConnectionComponentEvent.new(fields) return end

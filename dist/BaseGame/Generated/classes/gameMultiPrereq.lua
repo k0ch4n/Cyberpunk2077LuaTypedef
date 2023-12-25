@@ -6,6 +6,6 @@
 ---@field public nestedPrereqs gameIPrereq[]
 gameMultiPrereq = {}
 
----@param fields? table
+---@param fields? gameMultiPrereq
 ---@return gameMultiPrereq
 function gameMultiPrereq.new(fields) return end

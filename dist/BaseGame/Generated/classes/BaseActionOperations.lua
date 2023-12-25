@@ -5,7 +5,7 @@
 ---@field protected baseActionsOperations SBaseActionOperationData[]
 BaseActionOperations = {}
 
----@param fields? table
+---@param fields? BaseActionOperations
 ---@return BaseActionOperations
 function BaseActionOperations.new(fields) return end
 

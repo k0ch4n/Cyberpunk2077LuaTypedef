@@ -11,6 +11,6 @@
 ---@field public LegMaxStretchAdjustment Float
 animfssBodyOfflineParams = {}
 
----@param fields? table
+---@param fields? animfssBodyOfflineParams
 ---@return animfssBodyOfflineParams
 function animfssBodyOfflineParams.new(fields) return end

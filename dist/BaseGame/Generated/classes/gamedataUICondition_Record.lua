@@ -4,7 +4,7 @@
 ---@class gamedataUICondition_Record: gamedataTweakDBRecord
 gamedataUICondition_Record = {}
 
----@param fields? table
+---@param fields? gamedataUICondition_Record
 ---@return gamedataUICondition_Record
 function gamedataUICondition_Record.new(fields) return end
 

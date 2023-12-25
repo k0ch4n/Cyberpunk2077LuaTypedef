@@ -4,7 +4,7 @@
 ---@class PlayerDeadPrereq: gameIScriptablePrereq
 PlayerDeadPrereq = {}
 
----@param fields? table
+---@param fields? PlayerDeadPrereq
 ---@return PlayerDeadPrereq
 function PlayerDeadPrereq.new(fields) return end
 

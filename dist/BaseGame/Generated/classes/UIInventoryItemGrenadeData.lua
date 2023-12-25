@@ -15,7 +15,7 @@
 ---@field public Player PlayerPuppet
 UIInventoryItemGrenadeData = {}
 
----@param fields? table
+---@param fields? UIInventoryItemGrenadeData
 ---@return UIInventoryItemGrenadeData
 function UIInventoryItemGrenadeData.new(fields) return end
 

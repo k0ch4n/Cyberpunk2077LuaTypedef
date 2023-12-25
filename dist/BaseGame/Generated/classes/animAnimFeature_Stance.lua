@@ -5,7 +5,7 @@
 ---@field public stanceState Int32
 animAnimFeature_Stance = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Stance
 ---@return animAnimFeature_Stance
 function animAnimFeature_Stance.new(fields) return end
 

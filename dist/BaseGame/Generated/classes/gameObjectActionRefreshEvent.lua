@@ -4,6 +4,6 @@
 ---@class gameObjectActionRefreshEvent: redEvent
 gameObjectActionRefreshEvent = {}
 
----@param fields? table
+---@param fields? gameObjectActionRefreshEvent
 ---@return gameObjectActionRefreshEvent
 function gameObjectActionRefreshEvent.new(fields) return end

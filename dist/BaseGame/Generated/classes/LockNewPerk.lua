@@ -4,6 +4,6 @@
 ---@class LockNewPerk: NewPerkActionRequest
 LockNewPerk = {}
 
----@param fields? table
+---@param fields? LockNewPerk
 ---@return LockNewPerk
 function LockNewPerk.new(fields) return end

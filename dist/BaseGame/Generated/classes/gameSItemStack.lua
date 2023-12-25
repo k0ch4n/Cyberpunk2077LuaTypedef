@@ -11,6 +11,6 @@
 ---@field public dynamicTags CName[]
 gameSItemStack = {}
 
----@param fields? table
+---@param fields? gameSItemStack
 ---@return gameSItemStack
 function gameSItemStack.new(fields) return end

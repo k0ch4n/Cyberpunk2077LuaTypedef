@@ -13,6 +13,6 @@
 ---@field public initAnimationPoseMax Float
 animImportFacialInitialPoseEntryDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialInitialPoseEntryDesc
 ---@return animImportFacialInitialPoseEntryDesc
 function animImportFacialInitialPoseEntryDesc.new(fields) return end

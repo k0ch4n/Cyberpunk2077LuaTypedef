@@ -4,7 +4,7 @@
 ---@class WeaponsUtils: IScriptable
 WeaponsUtils = {}
 
----@param fields? table
+---@param fields? WeaponsUtils
 ---@return WeaponsUtils
 function WeaponsUtils.new(fields) return end
 

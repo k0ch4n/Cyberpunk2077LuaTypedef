@@ -11,6 +11,6 @@
 ---@field public compiledTopologyData meshCookedClothMeshTopologyData
 entSkinnedClothComponent = {}
 
----@param fields? table
+---@param fields? entSkinnedClothComponent
 ---@return entSkinnedClothComponent
 function entSkinnedClothComponent.new(fields) return end

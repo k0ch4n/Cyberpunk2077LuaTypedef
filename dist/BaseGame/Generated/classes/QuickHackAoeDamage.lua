@@ -4,7 +4,7 @@
 ---@class QuickHackAoeDamage: ActionBool
 QuickHackAoeDamage = {}
 
----@param fields? table
+---@param fields? QuickHackAoeDamage
 ---@return QuickHackAoeDamage
 function QuickHackAoeDamage.new(fields) return end
 

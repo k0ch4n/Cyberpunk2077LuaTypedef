@@ -5,6 +5,6 @@
 ---@field public spawnParameter gameObjectSpawnParameter
 populationSpawnModifier = {}
 
----@param fields? table
+---@param fields? populationSpawnModifier
 ---@return populationSpawnModifier
 function populationSpawnModifier.new(fields) return end

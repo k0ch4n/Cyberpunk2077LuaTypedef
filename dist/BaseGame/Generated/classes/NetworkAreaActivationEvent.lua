@@ -5,6 +5,6 @@
 ---@field public enable Bool
 NetworkAreaActivationEvent = {}
 
----@param fields? table
+---@param fields? NetworkAreaActivationEvent
 ---@return NetworkAreaActivationEvent
 function NetworkAreaActivationEvent.new(fields) return end

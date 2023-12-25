@@ -5,6 +5,6 @@
 ---@field public quickhackData QuickhackData
 OnSpecialQuickhackTriggeredEvent = {}
 
----@param fields? table
+---@param fields? OnSpecialQuickhackTriggeredEvent
 ---@return OnSpecialQuickhackTriggeredEvent
 function OnSpecialQuickhackTriggeredEvent.new(fields) return end

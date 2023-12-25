@@ -5,6 +5,6 @@
 ---@field public eventName CName
 animSyncMethodByEvent = {}
 
----@param fields? table
+---@param fields? animSyncMethodByEvent
 ---@return animSyncMethodByEvent
 function animSyncMethodByEvent.new(fields) return end

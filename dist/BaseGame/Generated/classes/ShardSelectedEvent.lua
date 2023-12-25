@@ -8,6 +8,6 @@
 ---@field public data ShardEntryData
 ShardSelectedEvent = {}
 
----@param fields? table
+---@param fields? ShardSelectedEvent
 ---@return ShardSelectedEvent
 function ShardSelectedEvent.new(fields) return end

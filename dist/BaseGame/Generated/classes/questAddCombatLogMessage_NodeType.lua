@@ -6,6 +6,6 @@
 ---@field public localizedMessage LocalizationString
 questAddCombatLogMessage_NodeType = {}
 
----@param fields? table
+---@param fields? questAddCombatLogMessage_NodeType
 ---@return questAddCombatLogMessage_NodeType
 function questAddCombatLogMessage_NodeType.new(fields) return end

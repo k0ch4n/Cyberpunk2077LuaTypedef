@@ -4,7 +4,7 @@
 ---@class gamedataOverrideRangedAttackPackageEffector_Record: gamedataEffector_Record
 gamedataOverrideRangedAttackPackageEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataOverrideRangedAttackPackageEffector_Record
 ---@return gamedataOverrideRangedAttackPackageEffector_Record
 function gamedataOverrideRangedAttackPackageEffector_Record.new(fields) return end
 

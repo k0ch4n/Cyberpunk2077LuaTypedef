@@ -8,6 +8,6 @@
 ---@field public choosenOnes gameuiarcadeShooterTransporterSpawnData[]
 gameuiarcadeShooterTransporterSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterTransporterSpawnerController
 ---@return gameuiarcadeShooterTransporterSpawnerController
 function gameuiarcadeShooterTransporterSpawnerController.new(fields) return end

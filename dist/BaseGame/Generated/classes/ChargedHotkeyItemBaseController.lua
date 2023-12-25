@@ -14,7 +14,7 @@
 ---@field protected chargeThreshold Float
 ChargedHotkeyItemBaseController = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemBaseController
 ---@return ChargedHotkeyItemBaseController
 function ChargedHotkeyItemBaseController.new(fields) return end
 

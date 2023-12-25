@@ -5,6 +5,6 @@
 ---@field public requester gameObject
 Disarm = {}
 
----@param fields? table
+---@param fields? Disarm
 ---@return Disarm
 function Disarm.new(fields) return end

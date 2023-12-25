@@ -4,7 +4,7 @@
 ---@class DisableAllWorldInteractionsNotEnabledPrereq: gameIScriptablePrereq
 DisableAllWorldInteractionsNotEnabledPrereq = {}
 
----@param fields? table
+---@param fields? DisableAllWorldInteractionsNotEnabledPrereq
 ---@return DisableAllWorldInteractionsNotEnabledPrereq
 function DisableAllWorldInteractionsNotEnabledPrereq.new(fields) return end
 

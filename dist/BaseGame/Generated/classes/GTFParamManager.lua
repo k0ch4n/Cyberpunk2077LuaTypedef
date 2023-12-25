@@ -4,7 +4,7 @@
 ---@class GTFParamManager: IScriptable
 GTFParamManager = {}
 
----@param fields? table
+---@param fields? GTFParamManager
 ---@return GTFParamManager
 function GTFParamManager.new(fields) return end
 

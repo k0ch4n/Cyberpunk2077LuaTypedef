@@ -10,6 +10,6 @@
 ---@field public targets gamedataStimTargets
 gameStimuliMergeInfo = {}
 
----@param fields? table
+---@param fields? gameStimuliMergeInfo
 ---@return gameStimuliMergeInfo
 function gameStimuliMergeInfo.new(fields) return end

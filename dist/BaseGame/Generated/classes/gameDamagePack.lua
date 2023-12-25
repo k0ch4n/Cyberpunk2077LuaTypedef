@@ -5,7 +5,7 @@
 ---@field public damageList gameDamage[]
 gameDamagePack = {}
 
----@param fields? table
+---@param fields? gameDamagePack
 ---@return gameDamagePack
 function gameDamagePack.new(fields) return end
 

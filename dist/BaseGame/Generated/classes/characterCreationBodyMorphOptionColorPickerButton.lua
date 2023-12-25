@@ -7,7 +7,7 @@
 ---@field private isTriggered Bool
 characterCreationBodyMorphOptionColorPickerButton = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphOptionColorPickerButton
 ---@return characterCreationBodyMorphOptionColorPickerButton
 function characterCreationBodyMorphOptionColorPickerButton.new(fields) return end
 

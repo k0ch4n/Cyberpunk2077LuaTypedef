@@ -7,7 +7,7 @@
 ---@field private slavesCached Bool
 VirtualSystemPS = {}
 
----@param fields? table
+---@param fields? VirtualSystemPS
 ---@return VirtualSystemPS
 function VirtualSystemPS.new(fields) return end
 

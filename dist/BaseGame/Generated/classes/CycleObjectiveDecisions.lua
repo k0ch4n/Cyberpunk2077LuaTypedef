@@ -4,7 +4,7 @@
 ---@class CycleObjectiveDecisions: QuickSlotsTapDecisions
 CycleObjectiveDecisions = {}
 
----@param fields? table
+---@param fields? CycleObjectiveDecisions
 ---@return CycleObjectiveDecisions
 function CycleObjectiveDecisions.new(fields) return end
 

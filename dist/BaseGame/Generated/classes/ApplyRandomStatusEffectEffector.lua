@@ -8,7 +8,7 @@
 ---@field public appliedEffect TweakDBID
 ApplyRandomStatusEffectEffector = {}
 
----@param fields? table
+---@param fields? ApplyRandomStatusEffectEffector
 ---@return ApplyRandomStatusEffectEffector
 function ApplyRandomStatusEffectEffector.new(fields) return end
 

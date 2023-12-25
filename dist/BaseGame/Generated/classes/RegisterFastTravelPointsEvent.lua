@@ -5,7 +5,7 @@
 ---@field public fastTravelNodes gameFastTravelPointData[]
 RegisterFastTravelPointsEvent = {}
 
----@param fields? table
+---@param fields? RegisterFastTravelPointsEvent
 ---@return RegisterFastTravelPointsEvent
 function RegisterFastTravelPointsEvent.new(fields) return end
 

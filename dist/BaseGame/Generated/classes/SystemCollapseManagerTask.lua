@@ -4,7 +4,7 @@
 ---@class SystemCollapseManagerTask: UnconsciousManagerTask
 SystemCollapseManagerTask = {}
 
----@param fields? table
+---@param fields? SystemCollapseManagerTask
 ---@return SystemCollapseManagerTask
 function SystemCollapseManagerTask.new(fields) return end
 

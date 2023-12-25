@@ -4,6 +4,6 @@
 ---@class gameInventoryScriptListener: gameIInventoryListener
 gameInventoryScriptListener = {}
 
----@param fields? table
+---@param fields? gameInventoryScriptListener
 ---@return gameInventoryScriptListener
 function gameInventoryScriptListener.new(fields) return end

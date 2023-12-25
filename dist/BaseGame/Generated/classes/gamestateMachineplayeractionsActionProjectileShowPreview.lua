@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsActionProjectileShowPreview: gamestateMachineplayeractionsActionCharge
 gamestateMachineplayeractionsActionProjectileShowPreview = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsActionProjectileShowPreview
 ---@return gamestateMachineplayeractionsActionProjectileShowPreview
 function gamestateMachineplayeractionsActionProjectileShowPreview.new(fields) return end

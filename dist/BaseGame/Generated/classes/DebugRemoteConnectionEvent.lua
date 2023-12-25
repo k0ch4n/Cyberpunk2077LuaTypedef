@@ -4,6 +4,6 @@
 ---@class DebugRemoteConnectionEvent: redEvent
 DebugRemoteConnectionEvent = {}
 
----@param fields? table
+---@param fields? DebugRemoteConnectionEvent
 ---@return DebugRemoteConnectionEvent
 function DebugRemoteConnectionEvent.new(fields) return end

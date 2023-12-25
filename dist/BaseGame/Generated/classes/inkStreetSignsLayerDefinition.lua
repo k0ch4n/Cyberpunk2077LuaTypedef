@@ -4,6 +4,6 @@
 ---@class inkStreetSignsLayerDefinition: inkLayerDefinition
 inkStreetSignsLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkStreetSignsLayerDefinition
 ---@return inkStreetSignsLayerDefinition
 function inkStreetSignsLayerDefinition.new(fields) return end

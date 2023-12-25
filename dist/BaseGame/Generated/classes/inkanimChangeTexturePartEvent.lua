@@ -5,6 +5,6 @@
 ---@field public imageTexturePartName CName
 inkanimChangeTexturePartEvent = {}
 
----@param fields? table
+---@param fields? inkanimChangeTexturePartEvent
 ---@return inkanimChangeTexturePartEvent
 function inkanimChangeTexturePartEvent.new(fields) return end

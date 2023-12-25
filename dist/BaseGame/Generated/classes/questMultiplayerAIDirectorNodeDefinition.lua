@@ -5,6 +5,6 @@
 ---@field public params questMultiplayerAIDirectorParams
 questMultiplayerAIDirectorNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMultiplayerAIDirectorNodeDefinition
 ---@return questMultiplayerAIDirectorNodeDefinition
 function questMultiplayerAIDirectorNodeDefinition.new(fields) return end

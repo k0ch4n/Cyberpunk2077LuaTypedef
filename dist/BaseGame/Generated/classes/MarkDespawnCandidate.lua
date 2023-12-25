@@ -5,7 +5,7 @@
 ---@field public onDeactivation Bool
 MarkDespawnCandidate = {}
 
----@param fields? table
+---@param fields? MarkDespawnCandidate
 ---@return MarkDespawnCandidate
 function MarkDespawnCandidate.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public variant gamedataMappinVariant
 questMappinVariantChangedEvent = {}
 
----@param fields? table
+---@param fields? questMappinVariantChangedEvent
 ---@return questMappinVariantChangedEvent
 function questMappinVariantChangedEvent.new(fields) return end
 

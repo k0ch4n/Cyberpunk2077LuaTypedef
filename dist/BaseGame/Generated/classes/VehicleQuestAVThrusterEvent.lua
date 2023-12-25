@@ -5,7 +5,7 @@
 ---@field public enable Bool
 VehicleQuestAVThrusterEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestAVThrusterEvent
 ---@return VehicleQuestAVThrusterEvent
 function VehicleQuestAVThrusterEvent.new(fields) return end
 

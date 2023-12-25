@@ -7,6 +7,6 @@
 ---@field public speakers scnAdditionalSpeaker[]
 scnAdditionalSpeakers = {}
 
----@param fields? table
+---@param fields? scnAdditionalSpeakers
 ---@return scnAdditionalSpeakers
 function scnAdditionalSpeakers.new(fields) return end

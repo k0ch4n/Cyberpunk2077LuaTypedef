@@ -13,7 +13,7 @@
 ---@field public animProxy inkanimProxy
 gameuiHUDCyberwareInfoGameController = {}
 
----@param fields? table
+---@param fields? gameuiHUDCyberwareInfoGameController
 ---@return gameuiHUDCyberwareInfoGameController
 function gameuiHUDCyberwareInfoGameController.new(fields) return end
 

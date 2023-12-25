@@ -9,6 +9,6 @@
 ---@field public weakDynamicEntityComponent entIComponent
 mpPersistentTestBoxState = {}
 
----@param fields? table
+---@param fields? mpPersistentTestBoxState
 ---@return mpPersistentTestBoxState
 function mpPersistentTestBoxState.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ElectricBoxController: MasterController
 ElectricBoxController = {}
 
----@param fields? table
+---@param fields? ElectricBoxController
 ---@return ElectricBoxController
 function ElectricBoxController.new(fields) return end
 

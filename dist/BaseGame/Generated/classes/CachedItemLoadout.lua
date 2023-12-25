@@ -6,6 +6,6 @@
 ---@field public slot TweakDBID
 CachedItemLoadout = {}
 
----@param fields? table
+---@param fields? CachedItemLoadout
 ---@return CachedItemLoadout
 function CachedItemLoadout.new(fields) return end

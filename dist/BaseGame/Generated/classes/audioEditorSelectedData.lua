@@ -6,6 +6,6 @@
 ---@field public selectedFootstepsEventName CName
 audioEditorSelectedData = {}
 
----@param fields? table
+---@param fields? audioEditorSelectedData
 ---@return audioEditorSelectedData
 function audioEditorSelectedData.new(fields) return end

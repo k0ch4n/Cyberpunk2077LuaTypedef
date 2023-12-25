@@ -4,7 +4,7 @@
 ---@class VehiclesManagerDataHelper: IScriptable
 VehiclesManagerDataHelper = {}
 
----@param fields? table
+---@param fields? VehiclesManagerDataHelper
 ---@return VehiclesManagerDataHelper
 function VehiclesManagerDataHelper.new(fields) return end
 

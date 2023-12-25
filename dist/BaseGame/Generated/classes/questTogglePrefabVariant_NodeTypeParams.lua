@@ -6,6 +6,6 @@
 ---@field public variantStates questVariantState[]
 questTogglePrefabVariant_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questTogglePrefabVariant_NodeTypeParams
 ---@return questTogglePrefabVariant_NodeTypeParams
 function questTogglePrefabVariant_NodeTypeParams.new(fields) return end

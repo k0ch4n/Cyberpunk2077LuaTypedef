@@ -5,7 +5,7 @@
 ---@field public setChance Float
 SetChancePrereq = {}
 
----@param fields? table
+---@param fields? SetChancePrereq
 ---@return SetChancePrereq
 function SetChancePrereq.new(fields) return end
 

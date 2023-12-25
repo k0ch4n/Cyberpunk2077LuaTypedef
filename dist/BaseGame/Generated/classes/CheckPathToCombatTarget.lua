@@ -5,7 +5,7 @@
 ---@field public path worldNavigationScriptPath
 CheckPathToCombatTarget = {}
 
----@param fields? table
+---@param fields? CheckPathToCombatTarget
 ---@return CheckPathToCombatTarget
 function CheckPathToCombatTarget.new(fields) return end
 

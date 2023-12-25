@@ -4,7 +4,7 @@
 ---@class MalfunctionHalfOpen: ToggleOpen
 MalfunctionHalfOpen = {}
 
----@param fields? table
+---@param fields? MalfunctionHalfOpen
 ---@return MalfunctionHalfOpen
 function MalfunctionHalfOpen.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public ownerPuppet PlayerPuppet
 ArmorStatListener = {}
 
----@param fields? table
+---@param fields? ArmorStatListener
 ---@return ArmorStatListener
 function ArmorStatListener.new(fields) return end
 

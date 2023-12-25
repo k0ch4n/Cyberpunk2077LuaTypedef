@@ -9,6 +9,6 @@
 ---@field public commandOut AIArgumentMapping
 AIbehaviorCommandConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCommandConditionDefinition
 ---@return AIbehaviorCommandConditionDefinition
 function AIbehaviorCommandConditionDefinition.new(fields) return end

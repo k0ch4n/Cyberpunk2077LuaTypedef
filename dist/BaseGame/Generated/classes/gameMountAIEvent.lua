@@ -5,6 +5,6 @@
 ---@field public data gameMountEventData
 gameMountAIEvent = {}
 
----@param fields? table
+---@param fields? gameMountAIEvent
 ---@return gameMountAIEvent
 function gameMountAIEvent.new(fields) return end

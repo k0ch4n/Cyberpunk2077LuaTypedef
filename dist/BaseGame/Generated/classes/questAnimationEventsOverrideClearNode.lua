@@ -6,6 +6,6 @@
 ---@field public resetActorsOverride Bool
 questAnimationEventsOverrideClearNode = {}
 
----@param fields? table
+---@param fields? questAnimationEventsOverrideClearNode
 ---@return questAnimationEventsOverrideClearNode
 function questAnimationEventsOverrideClearNode.new(fields) return end

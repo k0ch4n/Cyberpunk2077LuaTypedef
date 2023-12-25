@@ -5,7 +5,7 @@
 ---@field private entries EffectExecutor_SlashEffect_Entry[]
 EffectExecutor_SlashEffect = {}
 
----@param fields? table
+---@param fields? EffectExecutor_SlashEffect
 ---@return EffectExecutor_SlashEffect
 function EffectExecutor_SlashEffect.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class CerberusOpticalCamoVisibilityChange: AIbehaviortaskScript
 CerberusOpticalCamoVisibilityChange = {}
 
----@param fields? table
+---@param fields? CerberusOpticalCamoVisibilityChange
 ---@return CerberusOpticalCamoVisibilityChange
 function CerberusOpticalCamoVisibilityChange.new(fields) return end
 

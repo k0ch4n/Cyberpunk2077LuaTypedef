@@ -28,7 +28,7 @@
 ---@field private OnBraindanceFppChangeCallback redCallbackObject
 gameScanningComponent = {}
 
----@param fields? table
+---@param fields? gameScanningComponent
 ---@return gameScanningComponent
 function gameScanningComponent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public isInCombat Bool
 scnCheckPlayerCombatReturnConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerCombatReturnConditionParams
 ---@return scnCheckPlayerCombatReturnConditionParams
 function scnCheckPlayerCombatReturnConditionParams.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PauseMenuBackgroundGameController: gameuiWidgetGameController
 PauseMenuBackgroundGameController = {}
 
----@param fields? table
+---@param fields? PauseMenuBackgroundGameController
 ---@return PauseMenuBackgroundGameController
 function PauseMenuBackgroundGameController.new(fields) return end
 

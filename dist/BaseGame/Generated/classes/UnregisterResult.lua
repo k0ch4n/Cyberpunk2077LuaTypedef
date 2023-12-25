@@ -7,6 +7,6 @@
 ---@field public spawnedType gameDynamicVehicleType
 UnregisterResult = {}
 
----@param fields? table
+---@param fields? UnregisterResult
 ---@return UnregisterResult
 function UnregisterResult.new(fields) return end

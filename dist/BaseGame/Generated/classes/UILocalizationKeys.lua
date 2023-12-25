@@ -4,7 +4,7 @@
 ---@class UILocalizationKeys: IScriptable
 UILocalizationKeys = {}
 
----@param fields? table
+---@param fields? UILocalizationKeys
 ---@return UILocalizationKeys
 function UILocalizationKeys.new(fields) return end
 

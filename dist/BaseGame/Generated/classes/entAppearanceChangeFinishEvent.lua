@@ -4,6 +4,6 @@
 ---@class entAppearanceChangeFinishEvent: redEvent
 entAppearanceChangeFinishEvent = {}
 
----@param fields? table
+---@param fields? entAppearanceChangeFinishEvent
 ---@return entAppearanceChangeFinishEvent
 function entAppearanceChangeFinishEvent.new(fields) return end

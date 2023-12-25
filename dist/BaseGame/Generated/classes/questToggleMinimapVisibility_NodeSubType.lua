@@ -6,6 +6,6 @@
 ---@field public show Bool
 questToggleMinimapVisibility_NodeSubType = {}
 
----@param fields? table
+---@param fields? questToggleMinimapVisibility_NodeSubType
 ---@return questToggleMinimapVisibility_NodeSubType
 function questToggleMinimapVisibility_NodeSubType.new(fields) return end

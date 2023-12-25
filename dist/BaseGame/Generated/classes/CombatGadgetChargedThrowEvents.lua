@@ -7,7 +7,7 @@
 ---@field public localAimPosition Vector4
 CombatGadgetChargedThrowEvents = {}
 
----@param fields? table
+---@param fields? CombatGadgetChargedThrowEvents
 ---@return CombatGadgetChargedThrowEvents
 function CombatGadgetChargedThrowEvents.new(fields) return end
 

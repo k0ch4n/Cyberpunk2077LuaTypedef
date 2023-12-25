@@ -5,6 +5,6 @@
 ---@field public weaponOwner gameObject
 AmmoStateChangeEvent = {}
 
----@param fields? table
+---@param fields? AmmoStateChangeEvent
 ---@return AmmoStateChangeEvent
 function AmmoStateChangeEvent.new(fields) return end

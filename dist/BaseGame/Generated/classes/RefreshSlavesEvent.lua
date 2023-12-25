@@ -6,6 +6,6 @@
 ---@field public force Bool
 RefreshSlavesEvent = {}
 
----@param fields? table
+---@param fields? RefreshSlavesEvent
 ---@return RefreshSlavesEvent
 function RefreshSlavesEvent.new(fields) return end

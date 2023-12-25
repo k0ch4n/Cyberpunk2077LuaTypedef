@@ -4,7 +4,7 @@
 ---@class ShouldPoliceReactionBeAggressive: PreventionConditionAbstract
 ShouldPoliceReactionBeAggressive = {}
 
----@param fields? table
+---@param fields? ShouldPoliceReactionBeAggressive
 ---@return ShouldPoliceReactionBeAggressive
 function ShouldPoliceReactionBeAggressive.new(fields) return end
 

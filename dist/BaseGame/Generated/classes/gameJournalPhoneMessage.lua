@@ -10,7 +10,7 @@
 ---@field public isQuestImportant Bool
 gameJournalPhoneMessage = {}
 
----@param fields? table
+---@param fields? gameJournalPhoneMessage
 ---@return gameJournalPhoneMessage
 function gameJournalPhoneMessage.new(fields) return end
 

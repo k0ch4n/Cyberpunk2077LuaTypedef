@@ -5,6 +5,6 @@
 ---@field public voiceTagName CName
 communityVoiceTagInitializer = {}
 
----@param fields? table
+---@param fields? communityVoiceTagInitializer
 ---@return communityVoiceTagInitializer
 function communityVoiceTagInitializer.new(fields) return end

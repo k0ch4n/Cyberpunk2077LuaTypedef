@@ -4,7 +4,7 @@
 ---@class Distraction: ActionBool
 Distraction = {}
 
----@param fields? table
+---@param fields? Distraction
 ---@return Distraction
 function Distraction.new(fields) return end
 

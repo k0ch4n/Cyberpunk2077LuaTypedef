@@ -6,6 +6,6 @@
 ---@field public values gameuiCharacterCustomizationUiPresetValue[]
 gameuiCharacterCustomizationUiPreset = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationUiPreset
 ---@return gameuiCharacterCustomizationUiPreset
 function gameuiCharacterCustomizationUiPreset.new(fields) return end

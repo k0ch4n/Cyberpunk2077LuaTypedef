@@ -4,7 +4,7 @@
 ---@class gameContainerManager: gameIContainerManager
 gameContainerManager = {}
 
----@param fields? table
+---@param fields? gameContainerManager
 ---@return gameContainerManager
 function gameContainerManager.new(fields) return end
 

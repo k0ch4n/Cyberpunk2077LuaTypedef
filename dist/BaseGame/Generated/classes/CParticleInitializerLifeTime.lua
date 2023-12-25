@@ -5,6 +5,6 @@
 ---@field public lifeTime IEvaluatorFloat
 CParticleInitializerLifeTime = {}
 
----@param fields? table
+---@param fields? CParticleInitializerLifeTime
 ---@return CParticleInitializerLifeTime
 function CParticleInitializerLifeTime.new(fields) return end

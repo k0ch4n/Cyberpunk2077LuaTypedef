@@ -4,6 +4,6 @@
 ---@class DespawnSubCharacterRequest: DespawnUniqueSubCharacterRequest
 DespawnSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? DespawnSubCharacterRequest
 ---@return DespawnSubCharacterRequest
 function DespawnSubCharacterRequest.new(fields) return end

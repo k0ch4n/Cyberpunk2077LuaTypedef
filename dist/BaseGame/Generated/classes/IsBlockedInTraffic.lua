@@ -4,7 +4,7 @@
 ---@class IsBlockedInTraffic: AIbehaviorconditionScript
 IsBlockedInTraffic = {}
 
----@param fields? table
+---@param fields? IsBlockedInTraffic
 ---@return IsBlockedInTraffic
 function IsBlockedInTraffic.new(fields) return end
 

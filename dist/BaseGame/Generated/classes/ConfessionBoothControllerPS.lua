@@ -4,7 +4,7 @@
 ---@class ConfessionBoothControllerPS: BasicDistractionDeviceControllerPS
 ConfessionBoothControllerPS = {}
 
----@param fields? table
+---@param fields? ConfessionBoothControllerPS
 ---@return ConfessionBoothControllerPS
 function ConfessionBoothControllerPS.new(fields) return end
 

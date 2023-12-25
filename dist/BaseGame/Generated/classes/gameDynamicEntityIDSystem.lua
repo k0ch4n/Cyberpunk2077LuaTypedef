@@ -4,6 +4,6 @@
 ---@class gameDynamicEntityIDSystem: gameIDynamicEntityIDSystem
 gameDynamicEntityIDSystem = {}
 
----@param fields? table
+---@param fields? gameDynamicEntityIDSystem
 ---@return gameDynamicEntityIDSystem
 function gameDynamicEntityIDSystem.new(fields) return end

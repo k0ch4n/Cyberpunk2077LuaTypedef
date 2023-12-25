@@ -5,6 +5,6 @@
 ---@field public input String
 GenericMessageNotificationCloseData = {}
 
----@param fields? table
+---@param fields? GenericMessageNotificationCloseData
 ---@return GenericMessageNotificationCloseData
 function GenericMessageNotificationCloseData.new(fields) return end

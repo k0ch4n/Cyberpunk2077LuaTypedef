@@ -4,7 +4,7 @@
 ---@class DriverCombatMountedWeaponsReloadCrosshairStateDecisions: BaseCrosshairState
 DriverCombatMountedWeaponsReloadCrosshairStateDecisions = {}
 
----@param fields? table
+---@param fields? DriverCombatMountedWeaponsReloadCrosshairStateDecisions
 ---@return DriverCombatMountedWeaponsReloadCrosshairStateDecisions
 function DriverCombatMountedWeaponsReloadCrosshairStateDecisions.new(fields) return end
 

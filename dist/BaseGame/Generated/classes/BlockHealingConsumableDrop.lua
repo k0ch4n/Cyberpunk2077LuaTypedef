@@ -4,6 +4,6 @@
 ---@class BlockHealingConsumableDrop: gameScriptableSystemRequest
 BlockHealingConsumableDrop = {}
 
----@param fields? table
+---@param fields? BlockHealingConsumableDrop
 ---@return BlockHealingConsumableDrop
 function BlockHealingConsumableDrop.new(fields) return end

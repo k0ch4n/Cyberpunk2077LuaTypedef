@@ -8,7 +8,7 @@
 ---@field public active Bool
 WorldMapTooltipBaseController = {}
 
----@param fields? table
+---@param fields? WorldMapTooltipBaseController
 ---@return WorldMapTooltipBaseController
 function WorldMapTooltipBaseController.new(fields) return end
 

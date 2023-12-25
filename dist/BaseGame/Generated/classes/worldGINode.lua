@@ -6,6 +6,6 @@
 ---@field public location Int16[]
 worldGINode = {}
 
----@param fields? table
+---@param fields? worldGINode
 ---@return worldGINode
 function worldGINode.new(fields) return end

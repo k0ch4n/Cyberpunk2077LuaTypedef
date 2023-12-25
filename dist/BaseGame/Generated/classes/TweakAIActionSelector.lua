@@ -7,7 +7,7 @@
 ---@field public nodeIterator Int32
 TweakAIActionSelector = {}
 
----@param fields? table
+---@param fields? TweakAIActionSelector
 ---@return TweakAIActionSelector
 function TweakAIActionSelector.new(fields) return end
 

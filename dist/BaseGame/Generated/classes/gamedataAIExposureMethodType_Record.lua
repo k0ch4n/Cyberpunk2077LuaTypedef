@@ -4,7 +4,7 @@
 ---@class gamedataAIExposureMethodType_Record: gamedataTweakDBRecord
 gamedataAIExposureMethodType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIExposureMethodType_Record
 ---@return gamedataAIExposureMethodType_Record
 function gamedataAIExposureMethodType_Record.new(fields) return end
 

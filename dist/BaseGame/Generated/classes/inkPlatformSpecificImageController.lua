@@ -14,6 +14,6 @@
 ---@field public partName_Scarlett CName
 inkPlatformSpecificImageController = {}
 
----@param fields? table
+---@param fields? inkPlatformSpecificImageController
 ---@return inkPlatformSpecificImageController
 function inkPlatformSpecificImageController.new(fields) return end

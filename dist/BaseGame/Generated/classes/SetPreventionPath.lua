@@ -7,7 +7,7 @@
 ---@field public source CName
 SetPreventionPath = {}
 
----@param fields? table
+---@param fields? SetPreventionPath
 ---@return SetPreventionPath
 function SetPreventionPath.new(fields) return end
 

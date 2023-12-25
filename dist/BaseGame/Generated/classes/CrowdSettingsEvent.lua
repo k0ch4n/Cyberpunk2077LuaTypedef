@@ -5,6 +5,6 @@
 ---@field public movementType CName
 CrowdSettingsEvent = {}
 
----@param fields? table
+---@param fields? CrowdSettingsEvent
 ---@return CrowdSettingsEvent
 function CrowdSettingsEvent.new(fields) return end

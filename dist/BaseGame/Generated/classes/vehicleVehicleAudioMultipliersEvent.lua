@@ -5,6 +5,6 @@
 ---@field public multipliers audioVehicleMultipliers
 vehicleVehicleAudioMultipliersEvent = {}
 
----@param fields? table
+---@param fields? vehicleVehicleAudioMultipliersEvent
 ---@return vehicleVehicleAudioMultipliersEvent
 function vehicleVehicleAudioMultipliersEvent.new(fields) return end

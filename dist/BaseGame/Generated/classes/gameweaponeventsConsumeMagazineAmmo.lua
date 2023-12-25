@@ -5,6 +5,6 @@
 ---@field public amount Uint16
 gameweaponeventsConsumeMagazineAmmo = {}
 
----@param fields? table
+---@param fields? gameweaponeventsConsumeMagazineAmmo
 ---@return gameweaponeventsConsumeMagazineAmmo
 function gameweaponeventsConsumeMagazineAmmo.new(fields) return end

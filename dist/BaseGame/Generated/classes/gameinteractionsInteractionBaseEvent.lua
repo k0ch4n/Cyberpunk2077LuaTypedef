@@ -7,6 +7,6 @@
 ---@field public layerData gameinteractionsLayerData
 gameinteractionsInteractionBaseEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsInteractionBaseEvent
 ---@return gameinteractionsInteractionBaseEvent
 function gameinteractionsInteractionBaseEvent.new(fields) return end

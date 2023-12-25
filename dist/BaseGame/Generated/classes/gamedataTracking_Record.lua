@@ -4,7 +4,7 @@
 ---@class gamedataTracking_Record: gamedataProjectileLaunch_Record
 gamedataTracking_Record = {}
 
----@param fields? table
+---@param fields? gamedataTracking_Record
 ---@return gamedataTracking_Record
 function gamedataTracking_Record.new(fields) return end
 

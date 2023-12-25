@@ -5,6 +5,6 @@
 ---@field public script AIbehaviortaskStackScript
 AIbehaviorStackScriptTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorStackScriptTaskDefinition
 ---@return AIbehaviorStackScriptTaskDefinition
 function AIbehaviorStackScriptTaskDefinition.new(fields) return end

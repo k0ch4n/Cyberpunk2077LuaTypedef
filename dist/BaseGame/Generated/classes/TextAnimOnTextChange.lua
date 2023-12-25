@@ -9,7 +9,7 @@
 ---@field private bufferedValue String
 TextAnimOnTextChange = {}
 
----@param fields? table
+---@param fields? TextAnimOnTextChange
 ---@return TextAnimOnTextChange
 function TextAnimOnTextChange.new(fields) return end
 

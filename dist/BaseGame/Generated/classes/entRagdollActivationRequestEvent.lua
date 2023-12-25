@@ -5,7 +5,7 @@
 ---@field public data entragdollActivationRequestData
 entRagdollActivationRequestEvent = {}
 
----@param fields? table
+---@param fields? entRagdollActivationRequestEvent
 ---@return entRagdollActivationRequestEvent
 function entRagdollActivationRequestEvent.new(fields) return end
 

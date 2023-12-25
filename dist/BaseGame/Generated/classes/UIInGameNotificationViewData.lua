@@ -6,7 +6,7 @@
 ---@field public notificationType UIInGameNotificationType
 UIInGameNotificationViewData = {}
 
----@param fields? table
+---@param fields? UIInGameNotificationViewData
 ---@return UIInGameNotificationViewData
 function UIInGameNotificationViewData.new(fields) return end
 

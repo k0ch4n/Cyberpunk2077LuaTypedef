@@ -7,7 +7,7 @@
 ---@field public childMargin inkMargin
 inkCompoundWidget = {}
 
----@param fields? table
+---@param fields? inkCompoundWidget
 ---@return inkCompoundWidget
 function inkCompoundWidget.new(fields) return end
 

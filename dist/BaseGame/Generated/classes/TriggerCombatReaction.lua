@@ -4,7 +4,7 @@
 ---@class TriggerCombatReaction: AIbehaviortaskScript
 TriggerCombatReaction = {}
 
----@param fields? table
+---@param fields? TriggerCombatReaction
 ---@return TriggerCombatReaction
 function TriggerCombatReaction.new(fields) return end
 

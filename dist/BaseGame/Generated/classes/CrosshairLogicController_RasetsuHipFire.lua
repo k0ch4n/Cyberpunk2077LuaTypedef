@@ -13,7 +13,7 @@
 ---@field public targetColorChange inkWidgetReference
 CrosshairLogicController_RasetsuHipFire = {}
 
----@param fields? table
+---@param fields? CrosshairLogicController_RasetsuHipFire
 ---@return CrosshairLogicController_RasetsuHipFire
 function CrosshairLogicController_RasetsuHipFire.new(fields) return end
 

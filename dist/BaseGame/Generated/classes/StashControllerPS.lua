@@ -4,7 +4,7 @@
 ---@class StashControllerPS: ScriptableDeviceComponentPS
 StashControllerPS = {}
 
----@param fields? table
+---@param fields? StashControllerPS
 ---@return StashControllerPS
 function StashControllerPS.new(fields) return end
 

@@ -16,6 +16,6 @@
 ---@field public rubberBandingStayInFront Bool
 AIVehicleRacingCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleRacingCommand
 ---@return AIVehicleRacingCommand
 function AIVehicleRacingCommand.new(fields) return end

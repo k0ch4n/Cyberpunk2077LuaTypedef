@@ -5,7 +5,7 @@
 ---@field public Position gamebbScriptID_Vector4
 FollowNPCDef = {}
 
----@param fields? table
+---@param fields? FollowNPCDef
 ---@return FollowNPCDef
 function FollowNPCDef.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private AOEAreaSetup AOEAreaSetup
 AOEAreaControllerPS = {}
 
----@param fields? table
+---@param fields? AOEAreaControllerPS
 ---@return AOEAreaControllerPS
 function AOEAreaControllerPS.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkHierarchyPooler
 inkHierarchyPooler = {}
 
----@param fields? table
+---@param fields? inkHierarchyPooler
 ---@return inkHierarchyPooler
 function inkHierarchyPooler.new(fields) return end

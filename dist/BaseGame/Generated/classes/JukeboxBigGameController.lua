@@ -5,7 +5,7 @@
 ---@field private onTogglePlayListener redCallbackObject
 JukeboxBigGameController = {}
 
----@param fields? table
+---@param fields? JukeboxBigGameController
 ---@return JukeboxBigGameController
 function JukeboxBigGameController.new(fields) return end
 

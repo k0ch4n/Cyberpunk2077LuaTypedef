@@ -4,6 +4,6 @@
 ---@class inkInputDeviceCallback: inkCallbackBase
 inkInputDeviceCallback = {}
 
----@param fields? table
+---@param fields? inkInputDeviceCallback
 ---@return inkInputDeviceCallback
 function inkInputDeviceCallback.new(fields) return end

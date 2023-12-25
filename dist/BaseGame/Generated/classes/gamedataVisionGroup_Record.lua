@@ -4,7 +4,7 @@
 ---@class gamedataVisionGroup_Record: gamedataTweakDBRecord
 gamedataVisionGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataVisionGroup_Record
 ---@return gamedataVisionGroup_Record
 function gamedataVisionGroup_Record.new(fields) return end
 

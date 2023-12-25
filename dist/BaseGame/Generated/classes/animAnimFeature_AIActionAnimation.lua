@@ -5,6 +5,6 @@
 ---@field public animFeatureName CName
 animAnimFeature_AIActionAnimation = {}
 
----@param fields? table
+---@param fields? animAnimFeature_AIActionAnimation
 ---@return animAnimFeature_AIActionAnimation
 function animAnimFeature_AIActionAnimation.new(fields) return end

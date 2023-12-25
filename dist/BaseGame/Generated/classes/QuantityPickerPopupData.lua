@@ -11,6 +11,6 @@
 ---@field public sendQuantityChangedEvent Bool
 QuantityPickerPopupData = {}
 
----@param fields? table
+---@param fields? QuantityPickerPopupData
 ---@return QuantityPickerPopupData
 function QuantityPickerPopupData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ActionHitReactionScriptProxy: CActionScriptProxy
 ActionHitReactionScriptProxy = {}
 
----@param fields? table
+---@param fields? ActionHitReactionScriptProxy
 ---@return ActionHitReactionScriptProxy
 function ActionHitReactionScriptProxy.new(fields) return end
 

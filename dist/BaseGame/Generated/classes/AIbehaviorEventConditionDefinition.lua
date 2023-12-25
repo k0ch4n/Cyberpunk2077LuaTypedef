@@ -6,6 +6,6 @@
 ---@field public eventName CName
 AIbehaviorEventConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEventConditionDefinition
 ---@return AIbehaviorEventConditionDefinition
 function AIbehaviorEventConditionDefinition.new(fields) return end

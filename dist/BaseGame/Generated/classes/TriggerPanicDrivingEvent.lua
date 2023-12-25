@@ -4,6 +4,6 @@
 ---@class TriggerPanicDrivingEvent: redEvent
 TriggerPanicDrivingEvent = {}
 
----@param fields? table
+---@param fields? TriggerPanicDrivingEvent
 ---@return TriggerPanicDrivingEvent
 function TriggerPanicDrivingEvent.new(fields) return end

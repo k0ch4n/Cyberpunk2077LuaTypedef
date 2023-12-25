@@ -11,7 +11,7 @@
 ---@field public isTransparent Bool
 gametargetingSystemHitInfo = {}
 
----@param fields? table
+---@param fields? gametargetingSystemHitInfo
 ---@return gametargetingSystemHitInfo
 function gametargetingSystemHitInfo.new(fields) return end
 

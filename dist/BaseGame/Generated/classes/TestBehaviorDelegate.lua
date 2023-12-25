@@ -13,7 +13,7 @@
 ---@field public nodeRef NodeRef
 TestBehaviorDelegate = {}
 
----@param fields? table
+---@param fields? TestBehaviorDelegate
 ---@return TestBehaviorDelegate
 function TestBehaviorDelegate.new(fields) return end
 

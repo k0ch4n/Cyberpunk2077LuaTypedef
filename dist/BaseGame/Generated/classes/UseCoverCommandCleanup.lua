@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 UseCoverCommandCleanup = {}
 
----@param fields? table
+---@param fields? UseCoverCommandCleanup
 ---@return UseCoverCommandCleanup
 function UseCoverCommandCleanup.new(fields) return end
 

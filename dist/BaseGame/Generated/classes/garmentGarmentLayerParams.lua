@@ -8,6 +8,6 @@
 ---@field public hiddenTrianglesRemoval garmentHiddenTrianglesRemovalParams
 garmentGarmentLayerParams = {}
 
----@param fields? table
+---@param fields? garmentGarmentLayerParams
 ---@return garmentGarmentLayerParams
 function garmentGarmentLayerParams.new(fields) return end

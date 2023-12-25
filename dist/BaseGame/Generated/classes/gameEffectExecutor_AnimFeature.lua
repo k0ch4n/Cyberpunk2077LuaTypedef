@@ -8,6 +8,6 @@
 ---@field public ignoreWaterImpacts Bool
 gameEffectExecutor_AnimFeature = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_AnimFeature
 ---@return gameEffectExecutor_AnimFeature
 function gameEffectExecutor_AnimFeature.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class RefreshPowerOnSlavesEvent: ProcessDevicesEvent
 RefreshPowerOnSlavesEvent = {}
 
----@param fields? table
+---@param fields? RefreshPowerOnSlavesEvent
 ---@return RefreshPowerOnSlavesEvent
 function RefreshPowerOnSlavesEvent.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public sourcePresetName CName[]
 AIbehaviorSelectedCoversData = {}
 
----@param fields? table
+---@param fields? AIbehaviorSelectedCoversData
 ---@return AIbehaviorSelectedCoversData
 function AIbehaviorSelectedCoversData.new(fields) return end

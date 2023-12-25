@@ -4,7 +4,7 @@
 ---@class StepOutOfVehicle: AIbehaviortaskScript
 StepOutOfVehicle = {}
 
----@param fields? table
+---@param fields? StepOutOfVehicle
 ---@return StepOutOfVehicle
 function StepOutOfVehicle.new(fields) return end
 

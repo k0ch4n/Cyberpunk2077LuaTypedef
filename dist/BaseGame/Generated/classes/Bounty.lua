@@ -12,6 +12,6 @@
 ---@field public filteredOut Bool
 Bounty = {}
 
----@param fields? table
+---@param fields? Bounty
 ---@return Bounty
 function Bounty.new(fields) return end

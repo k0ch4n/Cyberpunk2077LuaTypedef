@@ -4,6 +4,6 @@
 ---@class ResetFacialEvent: redEvent
 ResetFacialEvent = {}
 
----@param fields? table
+---@param fields? ResetFacialEvent
 ---@return ResetFacialEvent
 function ResetFacialEvent.new(fields) return end

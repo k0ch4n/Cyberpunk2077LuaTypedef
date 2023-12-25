@@ -5,6 +5,6 @@
 ---@field public physicalPropSettings CName
 audioAuxiliaryMetadata = {}
 
----@param fields? table
+---@param fields? audioAuxiliaryMetadata
 ---@return audioAuxiliaryMetadata
 function audioAuxiliaryMetadata.new(fields) return end

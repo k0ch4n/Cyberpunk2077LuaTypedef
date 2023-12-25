@@ -4,7 +4,7 @@
 ---@class AICAgent: gameComponent
 AICAgent = {}
 
----@param fields? table
+---@param fields? AICAgent
 ---@return AICAgent
 function AICAgent.new(fields) return end
 

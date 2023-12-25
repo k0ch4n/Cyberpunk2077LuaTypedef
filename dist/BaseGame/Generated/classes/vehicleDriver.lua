@@ -4,6 +4,6 @@
 ---@class vehicleDriver
 vehicleDriver = {}
 
----@param fields? table
+---@param fields? vehicleDriver
 ---@return vehicleDriver
 function vehicleDriver.new(fields) return end

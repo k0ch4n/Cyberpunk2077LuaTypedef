@@ -7,6 +7,6 @@
 ---@field public targets inkanimSequenceTargetInfo[]
 inkanimSequence = {}
 
----@param fields? table
+---@param fields? inkanimSequence
 ---@return inkanimSequence
 function inkanimSequence.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public scoreboard inkWidgetReference
 gameuiarcadeArcadeGameController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeGameController
 ---@return gameuiarcadeArcadeGameController
 function gameuiarcadeArcadeGameController.new(fields) return end

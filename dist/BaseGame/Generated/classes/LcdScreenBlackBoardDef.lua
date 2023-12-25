@@ -5,6 +5,6 @@
 ---@field public MessegeData gamebbScriptID_Variant
 LcdScreenBlackBoardDef = {}
 
----@param fields? table
+---@param fields? LcdScreenBlackBoardDef
 ---@return LcdScreenBlackBoardDef
 function LcdScreenBlackBoardDef.new(fields) return end

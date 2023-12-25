@@ -5,6 +5,6 @@
 ---@field public cardData TarotCardData
 TarotCardPreviewData = {}
 
----@param fields? table
+---@param fields? TarotCardPreviewData
 ---@return TarotCardPreviewData
 function TarotCardPreviewData.new(fields) return end

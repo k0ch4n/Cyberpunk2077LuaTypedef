@@ -7,6 +7,6 @@
 ---@field public items UIInventoryItem[]
 InventoryTypeComparableItemsCache = {}
 
----@param fields? table
+---@param fields? InventoryTypeComparableItemsCache
 ---@return InventoryTypeComparableItemsCache
 function InventoryTypeComparableItemsCache.new(fields) return end

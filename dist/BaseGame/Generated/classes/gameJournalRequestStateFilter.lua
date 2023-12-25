@@ -8,6 +8,6 @@
 ---@field public failed Bool
 gameJournalRequestStateFilter = {}
 
----@param fields? table
+---@param fields? gameJournalRequestStateFilter
 ---@return gameJournalRequestStateFilter
 function gameJournalRequestStateFilter.new(fields) return end

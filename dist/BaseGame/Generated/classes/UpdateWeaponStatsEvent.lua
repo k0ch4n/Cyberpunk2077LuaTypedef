@@ -4,6 +4,6 @@
 ---@class UpdateWeaponStatsEvent: redEvent
 UpdateWeaponStatsEvent = {}
 
----@param fields? table
+---@param fields? UpdateWeaponStatsEvent
 ---@return UpdateWeaponStatsEvent
 function UpdateWeaponStatsEvent.new(fields) return end

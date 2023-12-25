@@ -9,7 +9,7 @@
 ---@field private itemIconGender gameItemIconGender
 CraftingSystem = {}
 
----@param fields? table
+---@param fields? CraftingSystem
 ---@return CraftingSystem
 function CraftingSystem.new(fields) return end
 

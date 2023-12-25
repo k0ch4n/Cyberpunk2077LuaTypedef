@@ -18,6 +18,6 @@
 ---@field public findEntityInWorldParams scnFindEntityInWorldParams
 scnPropDef = {}
 
----@param fields? table
+---@param fields? scnPropDef
 ---@return scnPropDef
 function scnPropDef.new(fields) return end

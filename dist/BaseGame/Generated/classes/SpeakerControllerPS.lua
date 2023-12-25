@@ -7,7 +7,7 @@
 ---@field private previousValue CName
 SpeakerControllerPS = {}
 
----@param fields? table
+---@param fields? SpeakerControllerPS
 ---@return SpeakerControllerPS
 function SpeakerControllerPS.new(fields) return end
 

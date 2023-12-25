@@ -5,6 +5,6 @@
 ---@field public animationName CName
 gameuiPanzerExplosion = {}
 
----@param fields? table
+---@param fields? gameuiPanzerExplosion
 ---@return gameuiPanzerExplosion
 function gameuiPanzerExplosion.new(fields) return end

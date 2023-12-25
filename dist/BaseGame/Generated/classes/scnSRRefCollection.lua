@@ -18,6 +18,6 @@
 ---@field public ridAnimationContainers scnRidAnimationContainerSRRef[]
 scnSRRefCollection = {}
 
----@param fields? table
+---@param fields? scnSRRefCollection
 ---@return scnSRRefCollection
 function scnSRRefCollection.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public parameterValue Float
 gameaudioeventsSoundParameter = {}
 
----@param fields? table
+---@param fields? gameaudioeventsSoundParameter
 ---@return gameaudioeventsSoundParameter
 function gameaudioeventsSoundParameter.new(fields) return end

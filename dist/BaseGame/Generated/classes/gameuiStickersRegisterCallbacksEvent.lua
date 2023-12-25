@@ -4,6 +4,6 @@
 ---@class gameuiStickersRegisterCallbacksEvent: redEvent
 gameuiStickersRegisterCallbacksEvent = {}
 
----@param fields? table
+---@param fields? gameuiStickersRegisterCallbacksEvent
 ---@return gameuiStickersRegisterCallbacksEvent
 function gameuiStickersRegisterCallbacksEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public pickedUp Bool
 SetBodyPositionEvent = {}
 
----@param fields? table
+---@param fields? SetBodyPositionEvent
 ---@return SetBodyPositionEvent
 function SetBodyPositionEvent.new(fields) return end

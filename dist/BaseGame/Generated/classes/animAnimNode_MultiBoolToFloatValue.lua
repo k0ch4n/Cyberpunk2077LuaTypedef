@@ -8,6 +8,6 @@
 ---@field public inputsData animAnimMultiBoolToFloatEntry[]
 animAnimNode_MultiBoolToFloatValue = {}
 
----@param fields? table
+---@param fields? animAnimNode_MultiBoolToFloatValue
 ---@return animAnimNode_MultiBoolToFloatValue
 function animAnimNode_MultiBoolToFloatValue.new(fields) return end

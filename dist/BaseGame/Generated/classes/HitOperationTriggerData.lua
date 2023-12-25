@@ -10,6 +10,6 @@
 ---@field public healthPercentage Float
 HitOperationTriggerData = {}
 
----@param fields? table
+---@param fields? HitOperationTriggerData
 ---@return HitOperationTriggerData
 function HitOperationTriggerData.new(fields) return end

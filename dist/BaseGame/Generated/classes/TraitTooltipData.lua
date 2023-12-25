@@ -9,7 +9,7 @@
 ---@field public attributeData AttributeData
 TraitTooltipData = {}
 
----@param fields? table
+---@param fields? TraitTooltipData
 ---@return TraitTooltipData
 function TraitTooltipData.new(fields) return end
 

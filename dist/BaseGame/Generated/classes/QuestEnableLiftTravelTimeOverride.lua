@@ -4,7 +4,7 @@
 ---@class QuestEnableLiftTravelTimeOverride: ActionBool
 QuestEnableLiftTravelTimeOverride = {}
 
----@param fields? table
+---@param fields? QuestEnableLiftTravelTimeOverride
 ---@return QuestEnableLiftTravelTimeOverride
 function QuestEnableLiftTravelTimeOverride.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public position Vector4
 SpawnUniquePursuitSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? SpawnUniquePursuitSubCharacterRequest
 ---@return SpawnUniquePursuitSubCharacterRequest
 function SpawnUniquePursuitSubCharacterRequest.new(fields) return end

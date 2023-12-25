@@ -8,6 +8,6 @@
 ---@field public communityAreaType worldCommunityRegistryItemAreaNodeType
 worldCommunityRegistryItem = {}
 
----@param fields? table
+---@param fields? worldCommunityRegistryItem
 ---@return worldCommunityRegistryItem
 function worldCommunityRegistryItem.new(fields) return end

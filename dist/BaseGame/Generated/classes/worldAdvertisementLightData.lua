@@ -60,6 +60,6 @@
 ---@field public rtxdiShadowStartingDistance Float
 worldAdvertisementLightData = {}
 
----@param fields? table
+---@param fields? worldAdvertisementLightData
 ---@return worldAdvertisementLightData
 function worldAdvertisementLightData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public MessageToOpen gameJournalEntry
 UsePhoneRequest = {}
 
----@param fields? table
+---@param fields? UsePhoneRequest
 ---@return UsePhoneRequest
 function UsePhoneRequest.new(fields) return end

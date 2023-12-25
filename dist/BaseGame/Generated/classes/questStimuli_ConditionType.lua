@@ -8,6 +8,6 @@
 ---@field public type gamedataStimType
 questStimuli_ConditionType = {}
 
----@param fields? table
+---@param fields? questStimuli_ConditionType
 ---@return questStimuli_ConditionType
 function questStimuli_ConditionType.new(fields) return end

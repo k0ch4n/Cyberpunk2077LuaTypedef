@@ -44,6 +44,6 @@
 ---@field public volumetricParticleNoiseVelocity Vector3
 rendRenderParticleBlobEmitterInfo = {}
 
----@param fields? table
+---@param fields? rendRenderParticleBlobEmitterInfo
 ---@return rendRenderParticleBlobEmitterInfo
 function rendRenderParticleBlobEmitterInfo.new(fields) return end

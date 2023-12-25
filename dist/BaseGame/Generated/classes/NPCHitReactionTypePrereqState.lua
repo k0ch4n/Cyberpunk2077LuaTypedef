@@ -5,6 +5,6 @@
 ---@field public listener PuppetListener
 NPCHitReactionTypePrereqState = {}
 
----@param fields? table
+---@param fields? NPCHitReactionTypePrereqState
 ---@return NPCHitReactionTypePrereqState
 function NPCHitReactionTypePrereqState.new(fields) return end

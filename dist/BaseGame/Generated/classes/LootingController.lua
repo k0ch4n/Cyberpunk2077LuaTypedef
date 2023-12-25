@@ -50,7 +50,7 @@
 ---@field private requestsCounter Int32
 LootingController = {}
 
----@param fields? table
+---@param fields? LootingController
 ---@return LootingController
 function LootingController.new(fields) return end
 

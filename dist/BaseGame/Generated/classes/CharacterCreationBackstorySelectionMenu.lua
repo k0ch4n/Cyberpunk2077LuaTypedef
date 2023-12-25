@@ -12,7 +12,7 @@
 ---@field private corpoTarget String
 CharacterCreationBackstorySelectionMenu = {}
 
----@param fields? table
+---@param fields? CharacterCreationBackstorySelectionMenu
 ---@return CharacterCreationBackstorySelectionMenu
 function CharacterCreationBackstorySelectionMenu.new(fields) return end
 

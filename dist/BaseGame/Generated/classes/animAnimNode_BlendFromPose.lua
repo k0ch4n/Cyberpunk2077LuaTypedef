@@ -9,6 +9,6 @@
 ---@field public requestedByTag CName
 animAnimNode_BlendFromPose = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendFromPose
 ---@return animAnimNode_BlendFromPose
 function animAnimNode_BlendFromPose.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public errorCode Uint32
 ExpansionErrorPopuppData = {}
 
----@param fields? table
+---@param fields? ExpansionErrorPopuppData
 ---@return ExpansionErrorPopuppData
 function ExpansionErrorPopuppData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAccelerateTowardsParameters_Record: gamedataTweakDBRecord
 gamedataAccelerateTowardsParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataAccelerateTowardsParameters_Record
 ---@return gamedataAccelerateTowardsParameters_Record
 function gamedataAccelerateTowardsParameters_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakAttachmentSlotsListener: gameIAttachmentSlotsListener
 AIbehaviortweakAttachmentSlotsListener = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakAttachmentSlotsListener
 ---@return AIbehaviortweakAttachmentSlotsListener
 function AIbehaviortweakAttachmentSlotsListener.new(fields) return end

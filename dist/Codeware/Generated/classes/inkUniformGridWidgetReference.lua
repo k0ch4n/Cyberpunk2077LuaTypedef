@@ -4,7 +4,7 @@
 ---@class inkUniformGridWidgetReference: inkCompoundWidgetReference
 inkUniformGridWidgetReference = {}
 
----@param fields? table
+---@param fields? inkUniformGridWidgetReference
 ---@return inkUniformGridWidgetReference
 function inkUniformGridWidgetReference.new(fields) return end
 

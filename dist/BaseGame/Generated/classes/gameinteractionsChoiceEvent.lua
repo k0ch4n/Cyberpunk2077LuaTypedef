@@ -6,6 +6,6 @@
 ---@field public actionType gameinputActionType
 gameinteractionsChoiceEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceEvent
 ---@return gameinteractionsChoiceEvent
 function gameinteractionsChoiceEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PersonnelSystemControllerPS: DeviceSystemBaseControllerPS
 PersonnelSystemControllerPS = {}
 
----@param fields? table
+---@param fields? PersonnelSystemControllerPS
 ---@return PersonnelSystemControllerPS
 function PersonnelSystemControllerPS.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public fullEventPipeline Bool
 DelayStimEvent = {}
 
----@param fields? table
+---@param fields? DelayStimEvent
 ---@return DelayStimEvent
 function DelayStimEvent.new(fields) return end

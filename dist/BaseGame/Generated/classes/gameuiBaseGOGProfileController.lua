@@ -4,7 +4,7 @@
 ---@class gameuiBaseGOGProfileController: gameuiWidgetGameController
 gameuiBaseGOGProfileController = {}
 
----@param fields? table
+---@param fields? gameuiBaseGOGProfileController
 ---@return gameuiBaseGOGProfileController
 function gameuiBaseGOGProfileController.new(fields) return end
 

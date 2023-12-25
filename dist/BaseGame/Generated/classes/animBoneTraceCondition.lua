@@ -9,6 +9,6 @@
 ---@field public translationTolerance Float
 animBoneTraceCondition = {}
 
----@param fields? table
+---@param fields? animBoneTraceCondition
 ---@return animBoneTraceCondition
 function animBoneTraceCondition.new(fields) return end

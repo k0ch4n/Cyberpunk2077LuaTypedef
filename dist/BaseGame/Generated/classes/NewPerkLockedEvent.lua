@@ -5,6 +5,6 @@
 ---@field public perkType gamedataNewPerkType
 NewPerkLockedEvent = {}
 
----@param fields? table
+---@param fields? NewPerkLockedEvent
 ---@return NewPerkLockedEvent
 function NewPerkLockedEvent.new(fields) return end

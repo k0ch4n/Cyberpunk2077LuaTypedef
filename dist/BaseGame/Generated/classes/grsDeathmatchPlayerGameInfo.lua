@@ -11,6 +11,6 @@
 ---@field public lastShooter netPeerID
 grsDeathmatchPlayerGameInfo = {}
 
----@param fields? table
+---@param fields? grsDeathmatchPlayerGameInfo
 ---@return grsDeathmatchPlayerGameInfo
 function grsDeathmatchPlayerGameInfo.new(fields) return end

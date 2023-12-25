@@ -4,6 +4,6 @@
 ---@class AttachVendorRequest: MarketSystemRequest
 AttachVendorRequest = {}
 
----@param fields? table
+---@param fields? AttachVendorRequest
 ---@return AttachVendorRequest
 function AttachVendorRequest.new(fields) return end

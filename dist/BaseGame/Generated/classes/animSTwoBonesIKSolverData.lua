@@ -25,6 +25,6 @@
 ---@field public ["Joint bend dir in lower's BS"] Vector4
 animSTwoBonesIKSolverData = {}
 
----@param fields? table
+---@param fields? animSTwoBonesIKSolverData
 ---@return animSTwoBonesIKSolverData
 function animSTwoBonesIKSolverData.new(fields) return end

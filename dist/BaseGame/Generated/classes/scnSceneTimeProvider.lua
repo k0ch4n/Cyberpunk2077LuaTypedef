@@ -4,6 +4,6 @@
 ---@class scnSceneTimeProvider: gameinteractionsvisIVisualizerTimeProvider
 scnSceneTimeProvider = {}
 
----@param fields? table
+---@param fields? scnSceneTimeProvider
 ---@return scnSceneTimeProvider
 function scnSceneTimeProvider.new(fields) return end

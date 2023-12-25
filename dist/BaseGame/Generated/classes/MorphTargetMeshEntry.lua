@@ -9,6 +9,6 @@
 ---@field public boneRigMatrices Matrix[]
 MorphTargetMeshEntry = {}
 
----@param fields? table
+---@param fields? MorphTargetMeshEntry
 ---@return MorphTargetMeshEntry
 function MorphTargetMeshEntry.new(fields) return end

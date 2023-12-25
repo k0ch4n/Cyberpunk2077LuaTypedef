@@ -13,7 +13,7 @@
 ---@field private styleWidget inkWidget
 ClothingSetController = {}
 
----@param fields? table
+---@param fields? ClothingSetController
 ---@return ClothingSetController
 function ClothingSetController.new(fields) return end
 

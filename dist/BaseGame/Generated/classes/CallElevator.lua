@@ -5,7 +5,7 @@
 ---@field public destination Int32
 CallElevator = {}
 
----@param fields? table
+---@param fields? CallElevator
 ---@return CallElevator
 function CallElevator.new(fields) return end
 

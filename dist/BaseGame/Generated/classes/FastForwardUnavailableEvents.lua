@@ -4,7 +4,7 @@
 ---@class FastForwardUnavailableEvents: ScenesFastForwardTransition
 FastForwardUnavailableEvents = {}
 
----@param fields? table
+---@param fields? FastForwardUnavailableEvents
 ---@return FastForwardUnavailableEvents
 function FastForwardUnavailableEvents.new(fields) return end
 

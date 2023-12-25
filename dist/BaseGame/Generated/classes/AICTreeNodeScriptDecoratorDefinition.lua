@@ -6,6 +6,6 @@
 ---@field public scriptName CName
 AICTreeNodeScriptDecoratorDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeScriptDecoratorDefinition
 ---@return AICTreeNodeScriptDecoratorDefinition
 function AICTreeNodeScriptDecoratorDefinition.new(fields) return end

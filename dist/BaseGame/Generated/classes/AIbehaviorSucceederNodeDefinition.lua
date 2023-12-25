@@ -4,6 +4,6 @@
 ---@class AIbehaviorSucceederNodeDefinition: AIbehaviorLeafTreeNodeDefinition
 AIbehaviorSucceederNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSucceederNodeDefinition
 ---@return AIbehaviorSucceederNodeDefinition
 function AIbehaviorSucceederNodeDefinition.new(fields) return end

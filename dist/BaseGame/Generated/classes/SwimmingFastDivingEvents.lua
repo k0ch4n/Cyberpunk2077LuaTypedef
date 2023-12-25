@@ -5,7 +5,7 @@
 ---@field public lapsedTime Float
 SwimmingFastDivingEvents = {}
 
----@param fields? table
+---@param fields? SwimmingFastDivingEvents
 ---@return SwimmingFastDivingEvents
 function SwimmingFastDivingEvents.new(fields) return end
 

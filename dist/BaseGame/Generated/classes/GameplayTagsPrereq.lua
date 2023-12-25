@@ -6,7 +6,7 @@
 ---@field public invert Bool
 GameplayTagsPrereq = {}
 
----@param fields? table
+---@param fields? GameplayTagsPrereq
 ---@return GameplayTagsPrereq
 function GameplayTagsPrereq.new(fields) return end
 

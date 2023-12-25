@@ -44,7 +44,7 @@
 ---@field private isCrafting Bool
 ProgramTooltipController = {}
 
----@param fields? table
+---@param fields? ProgramTooltipController
 ---@return ProgramTooltipController
 function ProgramTooltipController.new(fields) return end
 

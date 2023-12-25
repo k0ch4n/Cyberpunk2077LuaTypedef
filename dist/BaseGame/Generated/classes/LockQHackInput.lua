@@ -5,6 +5,6 @@
 ---@field public isLocked Bool
 LockQHackInput = {}
 
----@param fields? table
+---@param fields? LockQHackInput
 ---@return LockQHackInput
 function LockQHackInput.new(fields) return end

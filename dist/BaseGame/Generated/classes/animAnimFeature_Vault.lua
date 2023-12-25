@@ -7,7 +7,7 @@
 ---@field public obstacleDepth Float
 animAnimFeature_Vault = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Vault
 ---@return animAnimFeature_Vault
 function animAnimFeature_Vault.new(fields) return end
 

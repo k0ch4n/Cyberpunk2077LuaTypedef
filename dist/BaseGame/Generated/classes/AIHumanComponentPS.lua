@@ -5,6 +5,6 @@
 ---@field public spotUsageToken AISpotUsageToken
 AIHumanComponentPS = {}
 
----@param fields? table
+---@param fields? AIHumanComponentPS
 ---@return AIHumanComponentPS
 function AIHumanComponentPS.new(fields) return end

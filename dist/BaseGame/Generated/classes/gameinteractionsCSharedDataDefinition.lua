@@ -6,6 +6,6 @@
 ---@field public visualizer gameuiIChoiceVisualizer
 gameinteractionsCSharedDataDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCSharedDataDefinition
 ---@return gameinteractionsCSharedDataDefinition
 function gameinteractionsCSharedDataDefinition.new(fields) return end

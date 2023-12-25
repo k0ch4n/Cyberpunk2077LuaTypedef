@@ -9,7 +9,7 @@
 ---@field private parent vehicleUIGameController
 gametimeLogicController = {}
 
----@param fields? table
+---@param fields? gametimeLogicController
 ---@return gametimeLogicController
 function gametimeLogicController.new(fields) return end
 

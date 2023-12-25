@@ -6,6 +6,6 @@
 ---@field public type gamedataDevelopmentPointType
 questEntityManagerAddDevelopmentPoint_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerAddDevelopmentPoint_NodeType
 ---@return questEntityManagerAddDevelopmentPoint_NodeType
 function questEntityManagerAddDevelopmentPoint_NodeType.new(fields) return end

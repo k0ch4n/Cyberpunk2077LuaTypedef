@@ -17,7 +17,7 @@
 ---@field private factCallbackID Uint32
 hudCarRaceController = {}
 
----@param fields? table
+---@param fields? hudCarRaceController
 ---@return hudCarRaceController
 function hudCarRaceController.new(fields) return end
 

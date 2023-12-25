@@ -4,6 +4,6 @@
 ---@class inkanimAnimationCallback: inkCallbackBase
 inkanimAnimationCallback = {}
 
----@param fields? table
+---@param fields? inkanimAnimationCallback
 ---@return inkanimAnimationCallback
 function inkanimAnimationCallback.new(fields) return end

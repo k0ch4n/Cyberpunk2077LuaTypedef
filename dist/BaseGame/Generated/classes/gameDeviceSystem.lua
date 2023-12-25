@@ -4,7 +4,7 @@
 ---@class gameDeviceSystem: gameIDeviceSystem
 gameDeviceSystem = {}
 
----@param fields? table
+---@param fields? gameDeviceSystem
 ---@return gameDeviceSystem
 function gameDeviceSystem.new(fields) return end
 

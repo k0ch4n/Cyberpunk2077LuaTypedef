@@ -4,7 +4,7 @@
 ---@class worldEffectBlackboard: IScriptable
 worldEffectBlackboard = {}
 
----@param fields? table
+---@param fields? worldEffectBlackboard
 ---@return worldEffectBlackboard
 function worldEffectBlackboard.new(fields) return end
 

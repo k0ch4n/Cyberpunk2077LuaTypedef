@@ -4,7 +4,7 @@
 ---@class DisplayGlassController: ScriptableDeviceComponent
 DisplayGlassController = {}
 
----@param fields? table
+---@param fields? DisplayGlassController
 ---@return DisplayGlassController
 function DisplayGlassController.new(fields) return end
 

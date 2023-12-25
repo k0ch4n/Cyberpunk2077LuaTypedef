@@ -4,6 +4,6 @@
 ---@class gameeventsUserLeftCoverEvent: redEvent
 gameeventsUserLeftCoverEvent = {}
 
----@param fields? table
+---@param fields? gameeventsUserLeftCoverEvent
 ---@return gameeventsUserLeftCoverEvent
 function gameeventsUserLeftCoverEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuickHackDistractExplosive: ActionBool
 QuickHackDistractExplosive = {}
 
----@param fields? table
+---@param fields? QuickHackDistractExplosive
 ---@return QuickHackDistractExplosive
 function QuickHackDistractExplosive.new(fields) return end
 

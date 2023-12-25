@@ -4,7 +4,7 @@
 ---@class ScannerChunk: IScriptable
 ScannerChunk = {}
 
----@param fields? table
+---@param fields? ScannerChunk
 ---@return ScannerChunk
 function ScannerChunk.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public finishedOnClient Bool
 scnSceneSharedState = {}
 
----@param fields? table
+---@param fields? scnSceneSharedState
 ---@return scnSceneSharedState
 function scnSceneSharedState.new(fields) return end

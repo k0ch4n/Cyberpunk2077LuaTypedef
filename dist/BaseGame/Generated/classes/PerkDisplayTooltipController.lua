@@ -48,7 +48,7 @@
 ---@field protected bigFontEnabled Bool
 PerkDisplayTooltipController = {}
 
----@param fields? table
+---@param fields? PerkDisplayTooltipController
 ---@return PerkDisplayTooltipController
 function PerkDisplayTooltipController.new(fields) return end
 

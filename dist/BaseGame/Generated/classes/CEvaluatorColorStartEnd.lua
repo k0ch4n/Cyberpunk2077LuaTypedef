@@ -6,6 +6,6 @@
 ---@field public end Color
 CEvaluatorColorStartEnd = {}
 
----@param fields? table
+---@param fields? CEvaluatorColorStartEnd
 ---@return CEvaluatorColorStartEnd
 function CEvaluatorColorStartEnd.new(fields) return end

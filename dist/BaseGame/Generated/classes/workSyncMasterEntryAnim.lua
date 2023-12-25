@@ -4,6 +4,6 @@
 ---@class workSyncMasterEntryAnim: workEntryAnim
 workSyncMasterEntryAnim = {}
 
----@param fields? table
+---@param fields? workSyncMasterEntryAnim
 ---@return workSyncMasterEntryAnim
 function workSyncMasterEntryAnim.new(fields) return end

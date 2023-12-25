@@ -6,7 +6,7 @@
 ---@field private isStoringPlayerEquipement Bool
 SecurityLockerControllerPS = {}
 
----@param fields? table
+---@param fields? SecurityLockerControllerPS
 ---@return SecurityLockerControllerPS
 function SecurityLockerControllerPS.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private ctrl gameuiHDRSettingsGameController
 HDRSettingsVarListener = {}
 
----@param fields? table
+---@param fields? HDRSettingsVarListener
 ---@return HDRSettingsVarListener
 function HDRSettingsVarListener.new(fields) return end
 

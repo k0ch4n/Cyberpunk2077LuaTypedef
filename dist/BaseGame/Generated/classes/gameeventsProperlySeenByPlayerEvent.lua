@@ -4,6 +4,6 @@
 ---@class gameeventsProperlySeenByPlayerEvent: redEvent
 gameeventsProperlySeenByPlayerEvent = {}
 
----@param fields? table
+---@param fields? gameeventsProperlySeenByPlayerEvent
 ---@return gameeventsProperlySeenByPlayerEvent
 function gameeventsProperlySeenByPlayerEvent.new(fields) return end

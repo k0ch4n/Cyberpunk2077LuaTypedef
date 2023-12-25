@@ -6,6 +6,6 @@
 ---@field public systemType EVirtualSystem
 DeviceCounter = {}
 
----@param fields? table
+---@param fields? DeviceCounter
 ---@return DeviceCounter
 function DeviceCounter.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field private handsPerkIconName CName
 RipperdocPerkTooltip = {}
 
----@param fields? table
+---@param fields? RipperdocPerkTooltip
 ---@return RipperdocPerkTooltip
 function RipperdocPerkTooltip.new(fields) return end
 

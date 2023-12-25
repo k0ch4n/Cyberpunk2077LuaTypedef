@@ -5,6 +5,6 @@
 ---@field public curves CurveSetEntry[]
 CurveSet = {}
 
----@param fields? table
+---@param fields? CurveSet
 ---@return CurveSet
 function CurveSet.new(fields) return end

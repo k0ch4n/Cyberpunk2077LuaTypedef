@@ -4,7 +4,7 @@
 ---@class AlertedState: ChangeHighLevelStateAbstract
 AlertedState = {}
 
----@param fields? table
+---@param fields? AlertedState
 ---@return AlertedState
 function AlertedState.new(fields) return end
 

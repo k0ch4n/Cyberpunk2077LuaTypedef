@@ -5,7 +5,7 @@
 ---@field private ctrl NewPerksCyberwareTooltipController
 EspionageTooltipSettingsListener = {}
 
----@param fields? table
+---@param fields? EspionageTooltipSettingsListener
 ---@return EspionageTooltipSettingsListener
 function EspionageTooltipSettingsListener.new(fields) return end
 

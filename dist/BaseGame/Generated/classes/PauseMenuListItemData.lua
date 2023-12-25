@@ -6,6 +6,6 @@
 ---@field public action PauseMenuAction
 PauseMenuListItemData = {}
 
----@param fields? table
+---@param fields? PauseMenuListItemData
 ---@return PauseMenuListItemData
 function PauseMenuListItemData.new(fields) return end

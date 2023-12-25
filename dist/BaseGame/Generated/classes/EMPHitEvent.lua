@@ -5,6 +5,6 @@
 ---@field public lifetime Float
 EMPHitEvent = {}
 
----@param fields? table
+---@param fields? EMPHitEvent
 ---@return EMPHitEvent
 function EMPHitEvent.new(fields) return end

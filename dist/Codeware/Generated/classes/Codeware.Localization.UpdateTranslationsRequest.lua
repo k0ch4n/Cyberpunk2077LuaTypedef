@@ -5,7 +5,7 @@
 ---@field public force Bool
 Codeware_Localization_UpdateTranslationsRequest = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_UpdateTranslationsRequest
 ---@return Codeware_Localization_UpdateTranslationsRequest
 function Codeware_Localization_UpdateTranslationsRequest.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private introAnimation inkanimProxy
 CraftingNotification = {}
 
----@param fields? table
+---@param fields? CraftingNotification
 ---@return CraftingNotification
 function CraftingNotification.new(fields) return end
 

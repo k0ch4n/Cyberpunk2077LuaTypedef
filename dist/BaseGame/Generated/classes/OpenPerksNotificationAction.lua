@@ -5,7 +5,7 @@
 ---@field public eventDispatcher worlduiIWidgetGameController
 OpenPerksNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenPerksNotificationAction
 ---@return OpenPerksNotificationAction
 function OpenPerksNotificationAction.new(fields) return end
 

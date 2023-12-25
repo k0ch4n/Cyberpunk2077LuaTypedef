@@ -5,6 +5,6 @@
 ---@field public linkedCluekData LinkedFocusClueData
 UnregisterLinkedCluekRequest = {}
 
----@param fields? table
+---@param fields? UnregisterLinkedCluekRequest
 ---@return UnregisterLinkedCluekRequest
 function UnregisterLinkedCluekRequest.new(fields) return end

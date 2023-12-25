@@ -8,6 +8,6 @@
 ---@field public useExitAnim Bool
 questSetTier2Params_NodeType = {}
 
----@param fields? table
+---@param fields? questSetTier2Params_NodeType
 ---@return questSetTier2Params_NodeType
 function questSetTier2Params_NodeType.new(fields) return end

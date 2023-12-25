@@ -4,7 +4,7 @@
 ---@class gamedataAICoverCond_Record: gamedataAIActionSubCondition_Record
 gamedataAICoverCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAICoverCond_Record
 ---@return gamedataAICoverCond_Record
 function gamedataAICoverCond_Record.new(fields) return end
 

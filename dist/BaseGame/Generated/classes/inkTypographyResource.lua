@@ -5,6 +5,6 @@
 ---@field public languages inkLanguageDefinition[]
 inkTypographyResource = {}
 
----@param fields? table
+---@param fields? inkTypographyResource
 ---@return inkTypographyResource
 function inkTypographyResource.new(fields) return end

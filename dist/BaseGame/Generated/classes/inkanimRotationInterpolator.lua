@@ -7,7 +7,7 @@
 ---@field public goShortPath Bool
 inkanimRotationInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimRotationInterpolator
 ---@return inkanimRotationInterpolator
 function inkanimRotationInterpolator.new(fields) return end
 

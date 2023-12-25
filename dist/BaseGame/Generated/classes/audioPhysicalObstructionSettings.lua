@@ -6,6 +6,6 @@
 ---@field public absorptionPerMeter Float
 audioPhysicalObstructionSettings = {}
 
----@param fields? table
+---@param fields? audioPhysicalObstructionSettings
 ---@return audioPhysicalObstructionSettings
 function audioPhysicalObstructionSettings.new(fields) return end

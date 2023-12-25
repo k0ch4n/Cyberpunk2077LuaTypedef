@@ -7,6 +7,6 @@
 ---@field public gain Float
 audioReflectionMaterialSettings = {}
 
----@param fields? table
+---@param fields? audioReflectionMaterialSettings
 ---@return audioReflectionMaterialSettings
 function audioReflectionMaterialSettings.new(fields) return end

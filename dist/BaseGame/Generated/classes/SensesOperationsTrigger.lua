@@ -5,7 +5,7 @@
 ---@field protected triggerData SensesOperationTriggerData
 SensesOperationsTrigger = {}
 
----@param fields? table
+---@param fields? SensesOperationsTrigger
 ---@return SensesOperationsTrigger
 function SensesOperationsTrigger.new(fields) return end
 

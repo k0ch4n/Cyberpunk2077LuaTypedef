@@ -5,6 +5,6 @@
 ---@field public isAggressive Bool
 gameSetAggressiveMask = {}
 
----@param fields? table
+---@param fields? gameSetAggressiveMask
 ---@return gameSetAggressiveMask
 function gameSetAggressiveMask.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class DoorViabilityInterpreter: IScriptable
 DoorViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? DoorViabilityInterpreter
 ---@return DoorViabilityInterpreter
 function DoorViabilityInterpreter.new(fields) return end
 

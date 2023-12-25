@@ -5,6 +5,6 @@
 ---@field public subCharObject ScriptedPuppet
 AddSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? AddSubCharacterRequest
 ---@return AddSubCharacterRequest
 function AddSubCharacterRequest.new(fields) return end

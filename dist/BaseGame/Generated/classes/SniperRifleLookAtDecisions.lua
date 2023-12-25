@@ -4,6 +4,6 @@
 ---@class SniperRifleLookAtDecisions: lookAtPresetGunBaseDecisions
 SniperRifleLookAtDecisions = {}
 
----@param fields? table
+---@param fields? SniperRifleLookAtDecisions
 ---@return SniperRifleLookAtDecisions
 function SniperRifleLookAtDecisions.new(fields) return end

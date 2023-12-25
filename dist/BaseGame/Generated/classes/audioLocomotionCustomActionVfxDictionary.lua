@@ -6,6 +6,6 @@
 ---@field public entryType audioLocomotionCustomActionVfxDictionaryItem
 audioLocomotionCustomActionVfxDictionary = {}
 
----@param fields? table
+---@param fields? audioLocomotionCustomActionVfxDictionary
 ---@return audioLocomotionCustomActionVfxDictionary
 function audioLocomotionCustomActionVfxDictionary.new(fields) return end

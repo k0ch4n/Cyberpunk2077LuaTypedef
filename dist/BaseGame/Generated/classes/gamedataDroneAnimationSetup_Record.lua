@@ -4,7 +4,7 @@
 ---@class gamedataDroneAnimationSetup_Record: gamedataTweakDBRecord
 gamedataDroneAnimationSetup_Record = {}
 
----@param fields? table
+---@param fields? gamedataDroneAnimationSetup_Record
 ---@return gamedataDroneAnimationSetup_Record
 function gamedataDroneAnimationSetup_Record.new(fields) return end
 

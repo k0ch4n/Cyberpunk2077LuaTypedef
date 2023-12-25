@@ -7,6 +7,6 @@
 ---@field public amount Int32
 DeviceConnectionScannerData = {}
 
----@param fields? table
+---@param fields? DeviceConnectionScannerData
 ---@return DeviceConnectionScannerData
 function DeviceConnectionScannerData.new(fields) return end

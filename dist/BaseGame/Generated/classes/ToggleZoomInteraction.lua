@@ -4,7 +4,7 @@
 ---@class ToggleZoomInteraction: ActionBool
 ToggleZoomInteraction = {}
 
----@param fields? table
+---@param fields? ToggleZoomInteraction
 ---@return ToggleZoomInteraction
 function ToggleZoomInteraction.new(fields) return end
 

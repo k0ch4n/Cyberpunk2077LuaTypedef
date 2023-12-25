@@ -7,6 +7,6 @@
 ---@field public slot inkCompoundWidgetReference
 gameuiPhoneElementVisibility = {}
 
----@param fields? table
+---@param fields? gameuiPhoneElementVisibility
 ---@return gameuiPhoneElementVisibility
 function gameuiPhoneElementVisibility.new(fields) return end

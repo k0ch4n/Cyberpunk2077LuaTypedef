@@ -5,6 +5,6 @@
 ---@field public desiredOffset Float
 AnimFeature_DroneActionAltitudeOffset = {}
 
----@param fields? table
+---@param fields? AnimFeature_DroneActionAltitudeOffset
 ---@return AnimFeature_DroneActionAltitudeOffset
 function AnimFeature_DroneActionAltitudeOffset.new(fields) return end

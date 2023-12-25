@@ -6,6 +6,6 @@
 ---@field public cooldownTime Float
 scnGameplayActionSetVehicleSuspensionData = {}
 
----@param fields? table
+---@param fields? scnGameplayActionSetVehicleSuspensionData
 ---@return scnGameplayActionSetVehicleSuspensionData
 function scnGameplayActionSetVehicleSuspensionData.new(fields) return end

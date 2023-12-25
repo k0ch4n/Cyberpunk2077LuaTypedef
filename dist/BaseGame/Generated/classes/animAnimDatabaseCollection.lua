@@ -5,6 +5,6 @@
 ---@field public animDatabases animAnimDatabaseCollectionEntry[]
 animAnimDatabaseCollection = {}
 
----@param fields? table
+---@param fields? animAnimDatabaseCollection
 ---@return animAnimDatabaseCollection
 function animAnimDatabaseCollection.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field public suffix String
 inkTextValueProgressAnimationController = {}
 
----@param fields? table
+---@param fields? inkTextValueProgressAnimationController
 ---@return inkTextValueProgressAnimationController
 function inkTextValueProgressAnimationController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public markerRef NodeRef
 UpdateFastTravelPointRecordRequest = {}
 
----@param fields? table
+---@param fields? UpdateFastTravelPointRecordRequest
 ---@return UpdateFastTravelPointRecordRequest
 function UpdateFastTravelPointRecordRequest.new(fields) return end

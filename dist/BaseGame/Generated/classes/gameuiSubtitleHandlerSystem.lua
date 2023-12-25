@@ -4,7 +4,7 @@
 ---@class gameuiSubtitleHandlerSystem: gameISubtitleHandlerSystem
 gameuiSubtitleHandlerSystem = {}
 
----@param fields? table
+---@param fields? gameuiSubtitleHandlerSystem
 ---@return gameuiSubtitleHandlerSystem
 function gameuiSubtitleHandlerSystem.new(fields) return end
 

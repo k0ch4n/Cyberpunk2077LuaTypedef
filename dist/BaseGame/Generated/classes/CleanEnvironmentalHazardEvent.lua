@@ -5,6 +5,6 @@
 ---@field public stimEvent senseStimuliEvent
 CleanEnvironmentalHazardEvent = {}
 
----@param fields? table
+---@param fields? CleanEnvironmentalHazardEvent
 ---@return CleanEnvironmentalHazardEvent
 function CleanEnvironmentalHazardEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public hasAutoReveal Bool
 UpdateAutoRevealStatEvent = {}
 
----@param fields? table
+---@param fields? UpdateAutoRevealStatEvent
 ---@return UpdateAutoRevealStatEvent
 function UpdateAutoRevealStatEvent.new(fields) return end

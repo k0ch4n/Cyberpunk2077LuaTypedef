@@ -4,6 +4,6 @@
 ---@class gameImpostorComponentSlotListener: gameIAttachmentSlotsListener
 gameImpostorComponentSlotListener = {}
 
----@param fields? table
+---@param fields? gameImpostorComponentSlotListener
 ---@return gameImpostorComponentSlotListener
 function gameImpostorComponentSlotListener.new(fields) return end

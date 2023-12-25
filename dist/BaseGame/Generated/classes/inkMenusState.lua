@@ -4,7 +4,7 @@
 ---@class inkMenusState: IScriptable
 inkMenusState = {}
 
----@param fields? table
+---@param fields? inkMenusState
 ---@return inkMenusState
 function inkMenusState.new(fields) return end
 

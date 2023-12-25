@@ -8,6 +8,6 @@
 ---@field public hash Uint32
 GpuWrapApiVertexLayoutDesc = {}
 
----@param fields? table
+---@param fields? GpuWrapApiVertexLayoutDesc
 ---@return GpuWrapApiVertexLayoutDesc
 function GpuWrapApiVertexLayoutDesc.new(fields) return end

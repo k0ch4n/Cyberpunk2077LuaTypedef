@@ -4,7 +4,7 @@
 ---@class GunnerEvents: VehicleEventsTransition
 GunnerEvents = {}
 
----@param fields? table
+---@param fields? GunnerEvents
 ---@return GunnerEvents
 function GunnerEvents.new(fields) return end
 

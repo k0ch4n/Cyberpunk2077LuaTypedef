@@ -6,7 +6,7 @@
 ---@field private feederMesh1 entIPlacedComponent
 HoloFeeder = {}
 
----@param fields? table
+---@param fields? HoloFeeder
 ---@return HoloFeeder
 function HoloFeeder.new(fields) return end
 

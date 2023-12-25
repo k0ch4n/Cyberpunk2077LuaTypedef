@@ -9,7 +9,7 @@
 ---@field private Video2 inkVideoWidgetReference
 SimpleBinkGameController = {}
 
----@param fields? table
+---@param fields? SimpleBinkGameController
 ---@return SimpleBinkGameController
 function SimpleBinkGameController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public light worldWorldGlobalLightParameters
 LightColorSettings = {}
 
----@param fields? table
+---@param fields? LightColorSettings
 ---@return LightColorSettings
 function LightColorSettings.new(fields) return end

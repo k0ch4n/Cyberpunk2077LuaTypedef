@@ -4,7 +4,7 @@
 ---@class gamedataEquipmentMovementSound_Record: gamedataTweakDBRecord
 gamedataEquipmentMovementSound_Record = {}
 
----@param fields? table
+---@param fields? gamedataEquipmentMovementSound_Record
 ---@return gamedataEquipmentMovementSound_Record
 function gamedataEquipmentMovementSound_Record.new(fields) return end
 

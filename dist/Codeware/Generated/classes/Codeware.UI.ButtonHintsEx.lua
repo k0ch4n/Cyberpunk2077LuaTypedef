@@ -7,7 +7,7 @@
 ---@field public style CName
 Codeware_UI_ButtonHintsEx = {}
 
----@param fields? table
+---@param fields? Codeware_UI_ButtonHintsEx
 ---@return Codeware_UI_ButtonHintsEx
 function Codeware_UI_ButtonHintsEx.new(fields) return end
 

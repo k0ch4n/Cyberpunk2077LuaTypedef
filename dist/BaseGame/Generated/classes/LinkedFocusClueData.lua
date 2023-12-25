@@ -13,6 +13,6 @@
 ---@field public psData PSOwnerData
 LinkedFocusClueData = {}
 
----@param fields? table
+---@param fields? LinkedFocusClueData
 ---@return LinkedFocusClueData
 function LinkedFocusClueData.new(fields) return end

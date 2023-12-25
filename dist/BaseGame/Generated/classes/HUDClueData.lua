@@ -6,6 +6,6 @@
 ---@field public clueGroupID CName
 HUDClueData = {}
 
----@param fields? table
+---@param fields? HUDClueData
 ---@return HUDClueData
 function HUDClueData.new(fields) return end

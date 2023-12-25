@@ -4,7 +4,7 @@
 ---@class HitEventEffector: gameEffector
 HitEventEffector = {}
 
----@param fields? table
+---@param fields? HitEventEffector
 ---@return HitEventEffector
 function HitEventEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public expressionVarId Uint16
 animAnimMathExpressionQuaternionSocket = {}
 
----@param fields? table
+---@param fields? animAnimMathExpressionQuaternionSocket
 ---@return animAnimMathExpressionQuaternionSocket
 function animAnimMathExpressionQuaternionSocket.new(fields) return end

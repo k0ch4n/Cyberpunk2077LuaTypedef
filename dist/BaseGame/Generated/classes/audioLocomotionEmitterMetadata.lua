@@ -7,6 +7,6 @@
 ---@field public diveSuitName CName
 audioLocomotionEmitterMetadata = {}
 
----@param fields? table
+---@param fields? audioLocomotionEmitterMetadata
 ---@return audioLocomotionEmitterMetadata
 function audioLocomotionEmitterMetadata.new(fields) return end

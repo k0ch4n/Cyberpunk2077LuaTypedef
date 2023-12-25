@@ -4,7 +4,7 @@
 ---@class ShowVendor: ActionBool
 ShowVendor = {}
 
----@param fields? table
+---@param fields? ShowVendor
 ---@return ShowVendor
 function ShowVendor.new(fields) return end
 

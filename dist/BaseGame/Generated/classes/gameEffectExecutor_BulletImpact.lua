@@ -7,7 +7,7 @@
 ---@field public isMeleeAttack Bool
 gameEffectExecutor_BulletImpact = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_BulletImpact
 ---@return gameEffectExecutor_BulletImpact
 function gameEffectExecutor_BulletImpact.new(fields) return end
 

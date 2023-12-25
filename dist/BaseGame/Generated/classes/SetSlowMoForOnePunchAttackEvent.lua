@@ -4,6 +4,6 @@
 ---@class SetSlowMoForOnePunchAttackEvent: redEvent
 SetSlowMoForOnePunchAttackEvent = {}
 
----@param fields? table
+---@param fields? SetSlowMoForOnePunchAttackEvent
 ---@return SetSlowMoForOnePunchAttackEvent
 function SetSlowMoForOnePunchAttackEvent.new(fields) return end

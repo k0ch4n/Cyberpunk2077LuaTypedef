@@ -4,7 +4,7 @@
 ---@class DodgeAirLowGravityDecisions: LocomotionAirLowGravityDecisions
 DodgeAirLowGravityDecisions = {}
 
----@param fields? table
+---@param fields? DodgeAirLowGravityDecisions
 ---@return DodgeAirLowGravityDecisions
 function DodgeAirLowGravityDecisions.new(fields) return end
 

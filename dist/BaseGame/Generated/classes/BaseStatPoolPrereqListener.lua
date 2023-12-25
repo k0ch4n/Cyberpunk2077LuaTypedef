@@ -4,7 +4,7 @@
 ---@class BaseStatPoolPrereqListener: gameCustomValueStatPoolsListener
 BaseStatPoolPrereqListener = {}
 
----@param fields? table
+---@param fields? BaseStatPoolPrereqListener
 ---@return BaseStatPoolPrereqListener
 function BaseStatPoolPrereqListener.new(fields) return end
 

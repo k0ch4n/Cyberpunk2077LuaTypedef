@@ -160,7 +160,7 @@
 ---@field private screenDisplayContext ScreenDisplayContext
 RipperDocGameController = {}
 
----@param fields? table
+---@param fields? RipperDocGameController
 ---@return RipperDocGameController
 function RipperDocGameController.new(fields) return end
 

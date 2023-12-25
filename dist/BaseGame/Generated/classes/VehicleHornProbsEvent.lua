@@ -7,6 +7,6 @@
 ---@field public probability Float
 VehicleHornProbsEvent = {}
 
----@param fields? table
+---@param fields? VehicleHornProbsEvent
 ---@return VehicleHornProbsEvent
 function VehicleHornProbsEvent.new(fields) return end

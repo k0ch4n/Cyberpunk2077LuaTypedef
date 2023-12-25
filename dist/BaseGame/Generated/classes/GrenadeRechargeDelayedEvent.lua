@@ -4,6 +4,6 @@
 ---@class GrenadeRechargeDelayedEvent: redEvent
 GrenadeRechargeDelayedEvent = {}
 
----@param fields? table
+---@param fields? GrenadeRechargeDelayedEvent
 ---@return GrenadeRechargeDelayedEvent
 function GrenadeRechargeDelayedEvent.new(fields) return end

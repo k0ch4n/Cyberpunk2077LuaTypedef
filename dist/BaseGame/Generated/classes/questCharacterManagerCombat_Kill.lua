@@ -13,6 +13,6 @@
 ---@field public dismembermentStrenght Float
 questCharacterManagerCombat_Kill = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_Kill
 ---@return questCharacterManagerCombat_Kill
 function questCharacterManagerCombat_Kill.new(fields) return end

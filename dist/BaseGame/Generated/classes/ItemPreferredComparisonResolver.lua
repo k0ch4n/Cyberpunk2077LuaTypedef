@@ -10,7 +10,7 @@
 ---@field private useForceCompare Bool
 ItemPreferredComparisonResolver = {}
 
----@param fields? table
+---@param fields? ItemPreferredComparisonResolver
 ---@return ItemPreferredComparisonResolver
 function ItemPreferredComparisonResolver.new(fields) return end
 

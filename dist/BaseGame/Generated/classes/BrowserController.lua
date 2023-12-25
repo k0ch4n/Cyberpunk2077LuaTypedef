@@ -17,7 +17,7 @@
 ---@field private webPageSpawnRequest inkAsyncSpawnRequest
 BrowserController = {}
 
----@param fields? table
+---@param fields? BrowserController
 ---@return BrowserController
 function BrowserController.new(fields) return end
 

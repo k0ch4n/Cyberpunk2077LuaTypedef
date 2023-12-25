@@ -12,6 +12,6 @@
 ---@field public moveTargetVarName CName
 AICTreeNodeReadWorkspotParamsDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeReadWorkspotParamsDefinition
 ---@return AICTreeNodeReadWorkspotParamsDefinition
 function AICTreeNodeReadWorkspotParamsDefinition.new(fields) return end

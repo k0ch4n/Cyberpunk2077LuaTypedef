@@ -5,7 +5,7 @@
 ---@field private ctrl SettingsMainGameController
 SettingsVarListener = {}
 
----@param fields? table
+---@param fields? SettingsVarListener
 ---@return SettingsVarListener
 function SettingsVarListener.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ActivatorController: MasterController
 ActivatorController = {}
 
----@param fields? table
+---@param fields? ActivatorController
 ---@return ActivatorController
 function ActivatorController.new(fields) return end
 

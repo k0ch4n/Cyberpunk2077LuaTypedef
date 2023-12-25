@@ -6,7 +6,7 @@
 ---@field private iceMachineSFX IceMachineSFX
 IceMachineControllerPS = {}
 
----@param fields? table
+---@param fields? IceMachineControllerPS
 ---@return IceMachineControllerPS
 function IceMachineControllerPS.new(fields) return end
 

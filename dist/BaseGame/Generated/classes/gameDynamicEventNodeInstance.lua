@@ -4,6 +4,6 @@
 ---@class gameDynamicEventNodeInstance: worldAreaShapeNodeInstance
 gameDynamicEventNodeInstance = {}
 
----@param fields? table
+---@param fields? gameDynamicEventNodeInstance
 ---@return gameDynamicEventNodeInstance
 function gameDynamicEventNodeInstance.new(fields) return end

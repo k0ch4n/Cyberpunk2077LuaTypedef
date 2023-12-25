@@ -6,6 +6,6 @@
 ---@field public data String
 gamedataSimpleValueNode = {}
 
----@param fields? table
+---@param fields? gamedataSimpleValueNode
 ---@return gamedataSimpleValueNode
 function gamedataSimpleValueNode.new(fields) return end

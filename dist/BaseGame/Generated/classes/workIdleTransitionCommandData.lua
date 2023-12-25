@@ -4,6 +4,6 @@
 ---@class workIdleTransitionCommandData: workIWorkspotCommandData
 workIdleTransitionCommandData = {}
 
----@param fields? table
+---@param fields? workIdleTransitionCommandData
 ---@return workIdleTransitionCommandData
 function workIdleTransitionCommandData.new(fields) return end

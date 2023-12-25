@@ -4,7 +4,7 @@
 ---@class WallScreenController: TVController
 WallScreenController = {}
 
----@param fields? table
+---@param fields? WallScreenController
 ---@return WallScreenController
 function WallScreenController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ApplyEffectToDismemberedEffector: gameEffector
 ApplyEffectToDismemberedEffector = {}
 
----@param fields? table
+---@param fields? ApplyEffectToDismemberedEffector
 ---@return ApplyEffectToDismemberedEffector
 function ApplyEffectToDismemberedEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public instigator gameObject
 vehicleNotifyPassengersOfCollision = {}
 
----@param fields? table
+---@param fields? vehicleNotifyPassengersOfCollision
 ---@return vehicleNotifyPassengersOfCollision
 function vehicleNotifyPassengersOfCollision.new(fields) return end

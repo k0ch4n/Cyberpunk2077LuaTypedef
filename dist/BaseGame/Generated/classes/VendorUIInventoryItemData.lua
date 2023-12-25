@@ -10,6 +10,6 @@
 ---@field public IsNotInWardrobe Bool
 VendorUIInventoryItemData = {}
 
----@param fields? table
+---@param fields? VendorUIInventoryItemData
 ---@return VendorUIInventoryItemData
 function VendorUIInventoryItemData.new(fields) return end

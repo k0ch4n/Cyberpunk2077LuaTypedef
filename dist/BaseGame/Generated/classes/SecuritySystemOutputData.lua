@@ -7,6 +7,6 @@
 ---@field public delayDuration Float
 SecuritySystemOutputData = {}
 
----@param fields? table
+---@param fields? SecuritySystemOutputData
 ---@return SecuritySystemOutputData
 function SecuritySystemOutputData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PocketRadioWheelEvents: QuickSlotsHoldEvents
 PocketRadioWheelEvents = {}
 
----@param fields? table
+---@param fields? PocketRadioWheelEvents
 ---@return PocketRadioWheelEvents
 function PocketRadioWheelEvents.new(fields) return end
 

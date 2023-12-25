@@ -4,7 +4,7 @@
 ---@class KeyInputEvent: NamedEvent
 KeyInputEvent = {}
 
----@param fields? table
+---@param fields? KeyInputEvent
 ---@return KeyInputEvent
 function KeyInputEvent.new(fields) return end
 

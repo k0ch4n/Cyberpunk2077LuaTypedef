@@ -4,7 +4,7 @@
 ---@class TrafficLightControllerPS: ScriptableDeviceComponentPS
 TrafficLightControllerPS = {}
 
----@param fields? table
+---@param fields? TrafficLightControllerPS
 ---@return TrafficLightControllerPS
 function TrafficLightControllerPS.new(fields) return end
 

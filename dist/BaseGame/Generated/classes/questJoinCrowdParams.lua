@@ -5,6 +5,6 @@
 ---@field public repeatCommandOnInterrupt Bool
 questJoinCrowdParams = {}
 
----@param fields? table
+---@param fields? questJoinCrowdParams
 ---@return questJoinCrowdParams
 function questJoinCrowdParams.new(fields) return end

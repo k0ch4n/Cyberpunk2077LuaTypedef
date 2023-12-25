@@ -4,7 +4,7 @@
 ---@class ApplyAccumulatedDoTEffector: TriggerContinuousAttackEffector
 ApplyAccumulatedDoTEffector = {}
 
----@param fields? table
+---@param fields? ApplyAccumulatedDoTEffector
 ---@return ApplyAccumulatedDoTEffector
 function ApplyAccumulatedDoTEffector.new(fields) return end
 

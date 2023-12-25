@@ -4,7 +4,7 @@
 ---@class inkBaseScriptableDataSource: inkAbstractDataSourceWrapper
 inkBaseScriptableDataSource = {}
 
----@param fields? table
+---@param fields? inkBaseScriptableDataSource
 ---@return inkBaseScriptableDataSource
 function inkBaseScriptableDataSource.new(fields) return end
 

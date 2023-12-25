@@ -5,6 +5,6 @@
 ---@field public counter Int32
 SComputerMenuButtonWidgetPackage = {}
 
----@param fields? table
+---@param fields? SComputerMenuButtonWidgetPackage
 ---@return SComputerMenuButtonWidgetPackage
 function SComputerMenuButtonWidgetPackage.new(fields) return end

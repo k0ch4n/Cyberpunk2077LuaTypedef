@@ -8,6 +8,6 @@
 ---@field public objects ISerializable[]
 questdbgRuntimeData = {}
 
----@param fields? table
+---@param fields? questdbgRuntimeData
 ---@return questdbgRuntimeData
 function questdbgRuntimeData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public target gameObject
 NPCThrowingGrenadeEvent = {}
 
----@param fields? table
+---@param fields? NPCThrowingGrenadeEvent
 ---@return NPCThrowingGrenadeEvent
 function NPCThrowingGrenadeEvent.new(fields) return end

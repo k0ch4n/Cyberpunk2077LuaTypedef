@@ -5,7 +5,7 @@
 ---@field public combatPreset EAICombatPreset
 AISetCombatPresetCommandParams = {}
 
----@param fields? table
+---@param fields? AISetCombatPresetCommandParams
 ---@return AISetCombatPresetCommandParams
 function AISetCombatPresetCommandParams.new(fields) return end
 

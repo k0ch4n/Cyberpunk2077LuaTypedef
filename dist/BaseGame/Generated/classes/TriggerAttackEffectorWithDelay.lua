@@ -5,6 +5,6 @@
 ---@field public attack gameAttack_GameEffect
 TriggerAttackEffectorWithDelay = {}
 
----@param fields? table
+---@param fields? TriggerAttackEffectorWithDelay
 ---@return TriggerAttackEffectorWithDelay
 function TriggerAttackEffectorWithDelay.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class mpServerGameSession: mpGameSession
 mpServerGameSession = {}
 
----@param fields? table
+---@param fields? mpServerGameSession
 ---@return mpServerGameSession
 function mpServerGameSession.new(fields) return end

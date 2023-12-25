@@ -16,7 +16,7 @@
 ---@field private animPulseOptions inkanimPlaybackOptions
 inkButtonAnimatedController = {}
 
----@param fields? table
+---@param fields? inkButtonAnimatedController
 ---@return inkButtonAnimatedController
 function inkButtonAnimatedController.new(fields) return end
 

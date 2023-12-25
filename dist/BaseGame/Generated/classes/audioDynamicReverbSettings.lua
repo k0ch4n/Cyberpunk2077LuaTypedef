@@ -19,6 +19,6 @@
 ---@field public reportPositionType audioEchoPositionType
 audioDynamicReverbSettings = {}
 
----@param fields? table
+---@param fields? audioDynamicReverbSettings
 ---@return audioDynamicReverbSettings
 function audioDynamicReverbSettings.new(fields) return end

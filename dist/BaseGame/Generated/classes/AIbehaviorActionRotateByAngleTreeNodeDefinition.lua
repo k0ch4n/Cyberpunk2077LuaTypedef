@@ -6,6 +6,6 @@
 ---@field public angleTolerance AIArgumentMapping
 AIbehaviorActionRotateByAngleTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionRotateByAngleTreeNodeDefinition
 ---@return AIbehaviorActionRotateByAngleTreeNodeDefinition
 function AIbehaviorActionRotateByAngleTreeNodeDefinition.new(fields) return end

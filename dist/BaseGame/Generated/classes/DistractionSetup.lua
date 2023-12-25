@@ -15,6 +15,6 @@
 ---@field public explosionDefinition ExplosiveDeviceResourceDefinition[]
 DistractionSetup = {}
 
----@param fields? table
+---@param fields? DistractionSetup
 ---@return DistractionSetup
 function DistractionSetup.new(fields) return end

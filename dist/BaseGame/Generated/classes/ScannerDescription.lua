@@ -6,7 +6,7 @@
 ---@field private customDescriptions String[]
 ScannerDescription = {}
 
----@param fields? table
+---@param fields? ScannerDescription
 ---@return ScannerDescription
 function ScannerDescription.new(fields) return end
 

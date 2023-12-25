@@ -5,7 +5,7 @@
 ---@field public textLayerId Uint32
 StaggerDecisions = {}
 
----@param fields? table
+---@param fields? StaggerDecisions
 ---@return StaggerDecisions
 function StaggerDecisions.new(fields) return end
 

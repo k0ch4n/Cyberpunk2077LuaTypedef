@@ -5,6 +5,6 @@
 ---@field public enable Bool
 questAudioSetListenerOverrideNodeType = {}
 
----@param fields? table
+---@param fields? questAudioSetListenerOverrideNodeType
 ---@return questAudioSetListenerOverrideNodeType
 function questAudioSetListenerOverrideNodeType.new(fields) return end

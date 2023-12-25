@@ -17,6 +17,6 @@
 ---@field public CensorshipValid Bool
 entdismembermentWoundResource = {}
 
----@param fields? table
+---@param fields? entdismembermentWoundResource
 ---@return entdismembermentWoundResource
 function entdismembermentWoundResource.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiMinimapQuestAreaInitData: gameuiMappinControllerCustomData
 gameuiMinimapQuestAreaInitData = {}
 
----@param fields? table
+---@param fields? gameuiMinimapQuestAreaInitData
 ---@return gameuiMinimapQuestAreaInitData
 function gameuiMinimapQuestAreaInitData.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public position2 Vector4
 gamemappinsSenseCone = {}
 
----@param fields? table
+---@param fields? gamemappinsSenseCone
 ---@return gamemappinsSenseCone
 function gamemappinsSenseCone.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public stateToCheck EstatusEffectsState
 CheckWoundedStatusEffectState = {}
 
----@param fields? table
+---@param fields? CheckWoundedStatusEffectState
 ---@return CheckWoundedStatusEffectState
 function CheckWoundedStatusEffectState.new(fields) return end
 

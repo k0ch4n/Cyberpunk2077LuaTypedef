@@ -5,6 +5,6 @@
 ---@field public districts gameuiDistrictTriggerData[]
 gameuiWorldMapGameObject = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapGameObject
 ---@return gameuiWorldMapGameObject
 function gameuiWorldMapGameObject.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public path gameJournalPath
 questJournalTrackQuest_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalTrackQuest_NodeType
 ---@return questJournalTrackQuest_NodeType
 function questJournalTrackQuest_NodeType.new(fields) return end

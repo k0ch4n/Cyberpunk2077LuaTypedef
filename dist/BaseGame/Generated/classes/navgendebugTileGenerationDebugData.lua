@@ -8,6 +8,6 @@
 ---@field public polyMesh navgendebugPolyMesh
 navgendebugTileGenerationDebugData = {}
 
----@param fields? table
+---@param fields? navgendebugTileGenerationDebugData
 ---@return navgendebugTileGenerationDebugData
 function navgendebugTileGenerationDebugData.new(fields) return end

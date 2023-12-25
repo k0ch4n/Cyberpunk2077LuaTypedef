@@ -6,7 +6,7 @@
 ---@field private isActive Bool
 VentilationAreaControllerPS = {}
 
----@param fields? table
+---@param fields? VentilationAreaControllerPS
 ---@return VentilationAreaControllerPS
 function VentilationAreaControllerPS.new(fields) return end
 

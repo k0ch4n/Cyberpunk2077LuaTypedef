@@ -5,7 +5,7 @@
 ---@field public ModifiedHotkey gamebbScriptID_Variant
 UI_HotkeysDef = {}
 
----@param fields? table
+---@param fields? UI_HotkeysDef
 ---@return UI_HotkeysDef
 function UI_HotkeysDef.new(fields) return end
 

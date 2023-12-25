@@ -15,7 +15,7 @@
 ---@field private flipNegative Bool
 UIItemStatProperties = {}
 
----@param fields? table
+---@param fields? UIItemStatProperties
 ---@return UIItemStatProperties
 function UIItemStatProperties.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class EntityHasVisualTagPrereqState: gamePrereqState
 EntityHasVisualTagPrereqState = {}
 
----@param fields? table
+---@param fields? EntityHasVisualTagPrereqState
 ---@return EntityHasVisualTagPrereqState
 function EntityHasVisualTagPrereqState.new(fields) return end

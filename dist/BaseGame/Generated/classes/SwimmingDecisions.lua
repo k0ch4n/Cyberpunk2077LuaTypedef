@@ -4,7 +4,7 @@
 ---@class SwimmingDecisions: HighLevelTransition
 SwimmingDecisions = {}
 
----@param fields? table
+---@param fields? SwimmingDecisions
 ---@return SwimmingDecisions
 function SwimmingDecisions.new(fields) return end
 

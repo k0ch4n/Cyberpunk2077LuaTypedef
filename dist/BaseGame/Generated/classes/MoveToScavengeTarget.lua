@@ -7,7 +7,7 @@
 ---@field private timeoutDuration Float
 MoveToScavengeTarget = {}
 
----@param fields? table
+---@param fields? MoveToScavengeTarget
 ---@return MoveToScavengeTarget
 function MoveToScavengeTarget.new(fields) return end
 

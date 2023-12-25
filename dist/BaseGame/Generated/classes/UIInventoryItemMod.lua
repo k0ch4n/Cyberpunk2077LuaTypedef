@@ -4,6 +4,6 @@
 ---@class UIInventoryItemMod: IScriptable
 UIInventoryItemMod = {}
 
----@param fields? table
+---@param fields? UIInventoryItemMod
 ---@return UIInventoryItemMod
 function UIInventoryItemMod.new(fields) return end

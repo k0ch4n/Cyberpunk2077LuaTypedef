@@ -20,7 +20,7 @@
 ---@field protected isSelected Bool
 DeviceButtonLogicControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceButtonLogicControllerBase
 ---@return DeviceButtonLogicControllerBase
 function DeviceButtonLogicControllerBase.new(fields) return end
 

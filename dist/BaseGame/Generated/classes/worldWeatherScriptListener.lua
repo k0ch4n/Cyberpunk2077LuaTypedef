@@ -4,7 +4,7 @@
 ---@class worldWeatherScriptListener: IScriptable
 worldWeatherScriptListener = {}
 
----@param fields? table
+---@param fields? worldWeatherScriptListener
 ---@return worldWeatherScriptListener
 function worldWeatherScriptListener.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class SemiAutoEvents: WeaponEventsTransition
 SemiAutoEvents = {}
 
----@param fields? table
+---@param fields? SemiAutoEvents
 ---@return SemiAutoEvents
 function SemiAutoEvents.new(fields) return end
 

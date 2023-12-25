@@ -11,6 +11,6 @@
 ---@field public isEnabled Bool
 rendEmitterLOD = {}
 
----@param fields? table
+---@param fields? rendEmitterLOD
 ---@return rendEmitterLOD
 function rendEmitterLOD.new(fields) return end

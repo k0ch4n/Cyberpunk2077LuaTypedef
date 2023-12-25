@@ -4,7 +4,7 @@
 ---@class questObjectInspectListener: questIInspectListener
 questObjectInspectListener = {}
 
----@param fields? table
+---@param fields? questObjectInspectListener
 ---@return questObjectInspectListener
 function questObjectInspectListener.new(fields) return end
 

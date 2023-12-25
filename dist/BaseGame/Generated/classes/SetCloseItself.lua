@@ -5,7 +5,7 @@
 ---@field public automaticallyClosesItself Bool
 SetCloseItself = {}
 
----@param fields? table
+---@param fields? SetCloseItself
 ---@return SetCloseItself
 function SetCloseItself.new(fields) return end
 

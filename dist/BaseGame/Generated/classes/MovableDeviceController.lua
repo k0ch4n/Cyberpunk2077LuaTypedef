@@ -4,7 +4,7 @@
 ---@class MovableDeviceController: ScriptableDeviceComponent
 MovableDeviceController = {}
 
----@param fields? table
+---@param fields? MovableDeviceController
 ---@return MovableDeviceController
 function MovableDeviceController.new(fields) return end
 

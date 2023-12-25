@@ -6,6 +6,6 @@
 ---@field public threatRadius AIArgumentMapping
 AIbehaviorIsThreatOnPathConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsThreatOnPathConditionDefinition
 ---@return AIbehaviorIsThreatOnPathConditionDefinition
 function AIbehaviorIsThreatOnPathConditionDefinition.new(fields) return end

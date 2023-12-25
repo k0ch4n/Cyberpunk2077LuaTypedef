@@ -10,6 +10,6 @@
 ---@field public enabledByDefault Bool
 worldStreamingSectorVariant = {}
 
----@param fields? table
+---@param fields? worldStreamingSectorVariant
 ---@return worldStreamingSectorVariant
 function worldStreamingSectorVariant.new(fields) return end

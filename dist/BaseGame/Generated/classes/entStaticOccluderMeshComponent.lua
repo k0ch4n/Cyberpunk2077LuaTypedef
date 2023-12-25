@@ -9,6 +9,6 @@
 ---@field public occluderAutohideDistanceScale Uint8
 entStaticOccluderMeshComponent = {}
 
----@param fields? table
+---@param fields? entStaticOccluderMeshComponent
 ---@return entStaticOccluderMeshComponent
 function entStaticOccluderMeshComponent.new(fields) return end

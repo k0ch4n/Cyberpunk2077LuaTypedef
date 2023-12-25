@@ -5,6 +5,6 @@
 ---@field public nodeRef NodeRef
 STeleportOperationData = {}
 
----@param fields? table
+---@param fields? STeleportOperationData
 ---@return STeleportOperationData
 function STeleportOperationData.new(fields) return end

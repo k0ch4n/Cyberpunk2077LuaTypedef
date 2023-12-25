@@ -6,6 +6,6 @@
 ---@field public targetPoint Vector4
 StimuliEffectEvent = {}
 
----@param fields? table
+---@param fields? StimuliEffectEvent
 ---@return StimuliEffectEvent
 function StimuliEffectEvent.new(fields) return end

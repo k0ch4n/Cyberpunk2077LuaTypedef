@@ -16,6 +16,6 @@
 ---@field public wrinkleMapping Uint16[]
 animImportFacialSetupDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialSetupDesc
 ---@return animImportFacialSetupDesc
 function animImportFacialSetupDesc.new(fields) return end

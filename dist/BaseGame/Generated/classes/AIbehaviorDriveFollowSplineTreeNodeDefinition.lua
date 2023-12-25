@@ -23,6 +23,6 @@
 ---@field public audioCurvesParam AIArgumentMapping
 AIbehaviorDriveFollowSplineTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveFollowSplineTreeNodeDefinition
 ---@return AIbehaviorDriveFollowSplineTreeNodeDefinition
 function AIbehaviorDriveFollowSplineTreeNodeDefinition.new(fields) return end

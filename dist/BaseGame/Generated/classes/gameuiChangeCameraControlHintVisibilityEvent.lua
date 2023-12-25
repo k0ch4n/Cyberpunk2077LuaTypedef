@@ -5,6 +5,6 @@
 ---@field public visible Bool
 gameuiChangeCameraControlHintVisibilityEvent = {}
 
----@param fields? table
+---@param fields? gameuiChangeCameraControlHintVisibilityEvent
 ---@return gameuiChangeCameraControlHintVisibilityEvent
 function gameuiChangeCameraControlHintVisibilityEvent.new(fields) return end

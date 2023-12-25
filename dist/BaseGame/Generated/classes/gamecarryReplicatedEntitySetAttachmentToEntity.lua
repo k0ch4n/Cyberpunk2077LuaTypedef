@@ -7,6 +7,6 @@
 ---@field public localTransform Transform
 gamecarryReplicatedEntitySetAttachmentToEntity = {}
 
----@param fields? table
+---@param fields? gamecarryReplicatedEntitySetAttachmentToEntity
 ---@return gamecarryReplicatedEntitySetAttachmentToEntity
 function gamecarryReplicatedEntitySetAttachmentToEntity.new(fields) return end

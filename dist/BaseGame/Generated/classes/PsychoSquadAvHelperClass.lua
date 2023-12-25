@@ -4,7 +4,7 @@
 ---@class PsychoSquadAvHelperClass: gameScriptableSystem
 PsychoSquadAvHelperClass = {}
 
----@param fields? table
+---@param fields? PsychoSquadAvHelperClass
 ---@return PsychoSquadAvHelperClass
 function PsychoSquadAvHelperClass.new(fields) return end
 

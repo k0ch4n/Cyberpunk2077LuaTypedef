@@ -5,7 +5,7 @@
 ---@field private labelRef inkTextWidgetReference
 ItemTooltipAttributeRequirement = {}
 
----@param fields? table
+---@param fields? ItemTooltipAttributeRequirement
 ---@return ItemTooltipAttributeRequirement
 function ItemTooltipAttributeRequirement.new(fields) return end
 

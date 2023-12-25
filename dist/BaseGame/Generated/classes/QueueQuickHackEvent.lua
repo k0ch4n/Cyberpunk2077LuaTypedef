@@ -6,6 +6,6 @@
 ---@field public data GameplayRoleMappinData
 QueueQuickHackEvent = {}
 
----@param fields? table
+---@param fields? QueueQuickHackEvent
 ---@return QueueQuickHackEvent
 function QueueQuickHackEvent.new(fields) return end

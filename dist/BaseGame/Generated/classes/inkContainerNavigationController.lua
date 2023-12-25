@@ -6,6 +6,6 @@
 ---@field public useGlobalInput Bool
 inkContainerNavigationController = {}
 
----@param fields? table
+---@param fields? inkContainerNavigationController
 ---@return inkContainerNavigationController
 function inkContainerNavigationController.new(fields) return end

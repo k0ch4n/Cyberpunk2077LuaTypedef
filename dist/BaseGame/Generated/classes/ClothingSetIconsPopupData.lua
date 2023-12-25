@@ -7,6 +7,6 @@
 ---@field public IconIDs TweakDBID[]
 ClothingSetIconsPopupData = {}
 
----@param fields? table
+---@param fields? ClothingSetIconsPopupData
 ---@return ClothingSetIconsPopupData
 function ClothingSetIconsPopupData.new(fields) return end

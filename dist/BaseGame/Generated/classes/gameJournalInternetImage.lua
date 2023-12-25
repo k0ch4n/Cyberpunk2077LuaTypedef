@@ -6,7 +6,7 @@
 ---@field public texturePart CName
 gameJournalInternetImage = {}
 
----@param fields? table
+---@param fields? gameJournalInternetImage
 ---@return gameJournalInternetImage
 function gameJournalInternetImage.new(fields) return end
 

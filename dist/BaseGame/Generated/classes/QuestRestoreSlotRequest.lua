@@ -5,6 +5,6 @@
 ---@field public slot gamedataEquipmentArea
 QuestRestoreSlotRequest = {}
 
----@param fields? table
+---@param fields? QuestRestoreSlotRequest
 ---@return QuestRestoreSlotRequest
 function QuestRestoreSlotRequest.new(fields) return end

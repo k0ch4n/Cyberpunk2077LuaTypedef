@@ -6,6 +6,6 @@
 ---@field public time GameTime
 NotifyRecipientsRequest = {}
 
----@param fields? table
+---@param fields? NotifyRecipientsRequest
 ---@return NotifyRecipientsRequest
 function NotifyRecipientsRequest.new(fields) return end

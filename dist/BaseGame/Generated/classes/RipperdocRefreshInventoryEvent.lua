@@ -4,6 +4,6 @@
 ---@class RipperdocRefreshInventoryEvent: redEvent
 RipperdocRefreshInventoryEvent = {}
 
----@param fields? table
+---@param fields? RipperdocRefreshInventoryEvent
 ---@return RipperdocRefreshInventoryEvent
 function RipperdocRefreshInventoryEvent.new(fields) return end

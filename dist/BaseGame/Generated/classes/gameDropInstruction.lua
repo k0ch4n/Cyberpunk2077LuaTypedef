@@ -6,7 +6,7 @@
 ---@field public quantity Int32
 gameDropInstruction = {}
 
----@param fields? table
+---@param fields? gameDropInstruction
 ---@return gameDropInstruction
 function gameDropInstruction.new(fields) return end
 

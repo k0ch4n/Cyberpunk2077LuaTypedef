@@ -5,6 +5,6 @@
 ---@field public animations gameTransformAnimationDefinition[]
 gameRootTransformAnimatorComponent = {}
 
----@param fields? table
+---@param fields? gameRootTransformAnimatorComponent
 ---@return gameRootTransformAnimatorComponent
 function gameRootTransformAnimatorComponent.new(fields) return end

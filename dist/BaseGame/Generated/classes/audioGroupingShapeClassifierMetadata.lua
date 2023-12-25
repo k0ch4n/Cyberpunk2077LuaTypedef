@@ -13,6 +13,6 @@
 ---@field public maxDistanceLimit CName
 audioGroupingShapeClassifierMetadata = {}
 
----@param fields? table
+---@param fields? audioGroupingShapeClassifierMetadata
 ---@return audioGroupingShapeClassifierMetadata
 function audioGroupingShapeClassifierMetadata.new(fields) return end

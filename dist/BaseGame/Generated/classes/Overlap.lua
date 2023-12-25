@@ -8,6 +8,6 @@
 ---@field public rarity Int32
 Overlap = {}
 
----@param fields? table
+---@param fields? Overlap
 ---@return Overlap
 function Overlap.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class vehicleAutopilotTransformProvider
 vehicleAutopilotTransformProvider = {}
 
----@param fields? table
+---@param fields? vehicleAutopilotTransformProvider
 ---@return vehicleAutopilotTransformProvider
 function vehicleAutopilotTransformProvider.new(fields) return end

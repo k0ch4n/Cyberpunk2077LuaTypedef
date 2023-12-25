@@ -7,7 +7,7 @@
 ---@field protected isTVMoving Bool
 TV = {}
 
----@param fields? table
+---@param fields? TV
 ---@return TV
 function TV.new(fields) return end
 

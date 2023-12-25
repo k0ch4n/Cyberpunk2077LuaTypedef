@@ -4,6 +4,6 @@
 ---@class questPhaseFreezingAreaNotifier: worldITriggerAreaNotifer
 questPhaseFreezingAreaNotifier = {}
 
----@param fields? table
+---@param fields? questPhaseFreezingAreaNotifier
 ---@return questPhaseFreezingAreaNotifier
 function questPhaseFreezingAreaNotifier.new(fields) return end

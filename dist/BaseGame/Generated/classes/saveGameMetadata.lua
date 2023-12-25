@@ -46,6 +46,6 @@
 ---@field public facts String[]
 saveGameMetadata = {}
 
----@param fields? table
+---@param fields? saveGameMetadata
 ---@return saveGameMetadata
 function saveGameMetadata.new(fields) return end

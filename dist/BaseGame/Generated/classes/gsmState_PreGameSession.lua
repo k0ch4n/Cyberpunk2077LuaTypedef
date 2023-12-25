@@ -4,6 +4,6 @@
 ---@class gsmState_PreGameSession: gsmState_Session
 gsmState_PreGameSession = {}
 
----@param fields? table
+---@param fields? gsmState_PreGameSession
 ---@return gsmState_PreGameSession
 function gsmState_PreGameSession.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public name CName
 animAnimNode_FloatInput = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatInput
 ---@return animAnimNode_FloatInput
 function animAnimNode_FloatInput.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameOnLootAllEvent: redEvent
 gameOnLootAllEvent = {}
 
----@param fields? table
+---@param fields? gameOnLootAllEvent
 ---@return gameOnLootAllEvent
 function gameOnLootAllEvent.new(fields) return end

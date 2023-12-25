@@ -6,7 +6,7 @@
 ---@field private notificationData gameuiGenericNotificationData
 RewardNotificationCurrencyDelayed = {}
 
----@param fields? table
+---@param fields? RewardNotificationCurrencyDelayed
 ---@return RewardNotificationCurrencyDelayed
 function RewardNotificationCurrencyDelayed.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public run audioMeleeSound
 audioFoleyNPCMetadata = {}
 
----@param fields? table
+---@param fields? audioFoleyNPCMetadata
 ---@return audioFoleyNPCMetadata
 function audioFoleyNPCMetadata.new(fields) return end

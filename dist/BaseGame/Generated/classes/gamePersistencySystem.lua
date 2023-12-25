@@ -4,7 +4,7 @@
 ---@class gamePersistencySystem: gameIPersistencySystem
 gamePersistencySystem = {}
 
----@param fields? table
+---@param fields? gamePersistencySystem
 ---@return gamePersistencySystem
 function gamePersistencySystem.new(fields) return end
 

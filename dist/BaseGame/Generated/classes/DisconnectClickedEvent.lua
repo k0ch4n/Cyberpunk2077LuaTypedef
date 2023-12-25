@@ -4,6 +4,6 @@
 ---@class DisconnectClickedEvent: redEvent
 DisconnectClickedEvent = {}
 
----@param fields? table
+---@param fields? DisconnectClickedEvent
 ---@return DisconnectClickedEvent
 function DisconnectClickedEvent.new(fields) return end

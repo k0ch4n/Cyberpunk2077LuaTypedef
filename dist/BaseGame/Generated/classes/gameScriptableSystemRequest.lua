@@ -4,7 +4,7 @@
 ---@class gameScriptableSystemRequest: IScriptable
 gameScriptableSystemRequest = {}
 
----@param fields? table
+---@param fields? gameScriptableSystemRequest
 ---@return gameScriptableSystemRequest
 function gameScriptableSystemRequest.new(fields) return end
 

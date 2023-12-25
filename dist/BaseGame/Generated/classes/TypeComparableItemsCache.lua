@@ -6,6 +6,6 @@
 ---@field public items gameInventoryItemData[]
 TypeComparableItemsCache = {}
 
----@param fields? table
+---@param fields? TypeComparableItemsCache
 ---@return TypeComparableItemsCache
 function TypeComparableItemsCache.new(fields) return end

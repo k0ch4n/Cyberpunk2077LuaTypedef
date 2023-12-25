@@ -4,7 +4,7 @@
 ---@class inkScriptStringMap: IScriptable
 inkScriptStringMap = {}
 
----@param fields? table
+---@param fields? inkScriptStringMap
 ---@return inkScriptStringMap
 function inkScriptStringMap.new(fields) return end
 

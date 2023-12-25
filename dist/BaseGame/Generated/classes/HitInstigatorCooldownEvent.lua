@@ -5,6 +5,6 @@
 ---@field public instigatorID entEntityID
 HitInstigatorCooldownEvent = {}
 
----@param fields? table
+---@param fields? HitInstigatorCooldownEvent
 ---@return HitInstigatorCooldownEvent
 function HitInstigatorCooldownEvent.new(fields) return end

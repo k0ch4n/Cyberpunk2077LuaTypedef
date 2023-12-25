@@ -11,7 +11,7 @@
 ---@field private lastPlayedVideo redResourceReferenceScriptToken
 ComputerBannerWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerBannerWidgetController
 ---@return ComputerBannerWidgetController
 function ComputerBannerWidgetController.new(fields) return end
 

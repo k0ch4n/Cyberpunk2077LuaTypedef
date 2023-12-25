@@ -4,7 +4,7 @@
 ---@class VehicleDumpBody: ActionBool
 VehicleDumpBody = {}
 
----@param fields? table
+---@param fields? VehicleDumpBody
 ---@return VehicleDumpBody
 function VehicleDumpBody.new(fields) return end
 

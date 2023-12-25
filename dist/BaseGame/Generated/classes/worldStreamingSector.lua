@@ -8,6 +8,6 @@
 ---@field public category worldStreamingSectorCategory
 worldStreamingSector = {}
 
----@param fields? table
+---@param fields? worldStreamingSector
 ---@return worldStreamingSector
 function worldStreamingSector.new(fields) return end

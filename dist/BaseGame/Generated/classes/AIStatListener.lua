@@ -6,7 +6,7 @@
 ---@field private behaviorCallbackName CName
 AIStatListener = {}
 
----@param fields? table
+---@param fields? AIStatListener
 ---@return AIStatListener
 function AIStatListener.new(fields) return end
 

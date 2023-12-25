@@ -6,6 +6,6 @@
 ---@field public randomNewsFeedPack TweakDBID
 gameuiNewsFeedDataProvider = {}
 
----@param fields? table
+---@param fields? gameuiNewsFeedDataProvider
 ---@return gameuiNewsFeedDataProvider
 function gameuiNewsFeedDataProvider.new(fields) return end

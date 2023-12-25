@@ -6,6 +6,6 @@
 ---@field public value String
 BenchmarkLineData = {}
 
----@param fields? table
+---@param fields? BenchmarkLineData
 ---@return BenchmarkLineData
 function BenchmarkLineData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gsmMenuState_CreateSingleplayerSession: gsmMenuState
 gsmMenuState_CreateSingleplayerSession = {}
 
----@param fields? table
+---@param fields? gsmMenuState_CreateSingleplayerSession
 ---@return gsmMenuState_CreateSingleplayerSession
 function gsmMenuState_CreateSingleplayerSession.new(fields) return end

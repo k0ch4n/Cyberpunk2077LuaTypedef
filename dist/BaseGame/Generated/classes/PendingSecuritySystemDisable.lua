@@ -5,6 +5,6 @@
 ---@field public isPending Bool
 PendingSecuritySystemDisable = {}
 
----@param fields? table
+---@param fields? PendingSecuritySystemDisable
 ---@return PendingSecuritySystemDisable
 function PendingSecuritySystemDisable.new(fields) return end

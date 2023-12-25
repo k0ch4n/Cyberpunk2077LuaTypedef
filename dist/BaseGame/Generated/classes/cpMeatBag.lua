@@ -12,6 +12,6 @@
 ---@field public jiggleEffectName CName
 cpMeatBag = {}
 
----@param fields? table
+---@param fields? cpMeatBag
 ---@return cpMeatBag
 function cpMeatBag.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterPlayerLevelTransitionController: inkWidgetLogicController
 gameuiarcadeShooterPlayerLevelTransitionController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterPlayerLevelTransitionController
 ---@return gameuiarcadeShooterPlayerLevelTransitionController
 function gameuiarcadeShooterPlayerLevelTransitionController.new(fields) return end

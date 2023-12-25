@@ -12,7 +12,7 @@
 ---@field public MagazineAmmoID gamebbScriptID_Variant
 WeaponDataDef = {}
 
----@param fields? table
+---@param fields? WeaponDataDef
 ---@return WeaponDataDef
 function WeaponDataDef.new(fields) return end
 

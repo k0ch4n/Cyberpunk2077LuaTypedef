@@ -6,7 +6,7 @@
 ---@field public offset Vector2
 inkHudEntryInfo = {}
 
----@param fields? table
+---@param fields? inkHudEntryInfo
 ---@return inkHudEntryInfo
 function inkHudEntryInfo.new(fields) return end
 

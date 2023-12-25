@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemRepellerComponents: worldIRuntimeSystem
 worldRuntimeSystemRepellerComponents = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemRepellerComponents
 ---@return worldRuntimeSystemRepellerComponents
 function worldRuntimeSystemRepellerComponents.new(fields) return end

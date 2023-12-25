@@ -8,7 +8,7 @@
 ---@field private mappinInSystem Bool
 DropPoint = {}
 
----@param fields? table
+---@param fields? DropPoint
 ---@return DropPoint
 function DropPoint.new(fields) return end
 

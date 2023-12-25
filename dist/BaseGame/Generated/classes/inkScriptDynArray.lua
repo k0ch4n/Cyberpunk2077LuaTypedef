@@ -4,7 +4,7 @@
 ---@class inkScriptDynArray: IScriptable
 inkScriptDynArray = {}
 
----@param fields? table
+---@param fields? inkScriptDynArray
 ---@return inkScriptDynArray
 function inkScriptDynArray.new(fields) return end
 

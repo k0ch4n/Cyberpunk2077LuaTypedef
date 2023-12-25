@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 HighwaySignSelector = {}
 
----@param fields? table
+---@param fields? HighwaySignSelector
 ---@return HighwaySignSelector
 function HighwaySignSelector.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public isGPUBased Bool
 CParticleDrawerBillboard = {}
 
----@param fields? table
+---@param fields? CParticleDrawerBillboard
 ---@return CParticleDrawerBillboard
 function CParticleDrawerBillboard.new(fields) return end

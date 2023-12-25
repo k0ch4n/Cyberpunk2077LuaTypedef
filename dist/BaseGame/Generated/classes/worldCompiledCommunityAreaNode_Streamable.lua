@@ -5,6 +5,6 @@
 ---@field public streamingDistance Float
 worldCompiledCommunityAreaNode_Streamable = {}
 
----@param fields? table
+---@param fields? worldCompiledCommunityAreaNode_Streamable
 ---@return worldCompiledCommunityAreaNode_Streamable
 function worldCompiledCommunityAreaNode_Streamable.new(fields) return end

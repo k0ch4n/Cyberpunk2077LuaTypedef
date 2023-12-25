@@ -5,7 +5,7 @@
 ---@field public allowMovementModifier gameStatModifierData_Deprecated
 KerenzikovEvents = {}
 
----@param fields? table
+---@param fields? KerenzikovEvents
 ---@return KerenzikovEvents
 function KerenzikovEvents.new(fields) return end
 

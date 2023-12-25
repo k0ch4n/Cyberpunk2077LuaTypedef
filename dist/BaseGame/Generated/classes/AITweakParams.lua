@@ -4,7 +4,7 @@
 ---@class AITweakParams: IScriptable
 AITweakParams = {}
 
----@param fields? table
+---@param fields? AITweakParams
 ---@return AITweakParams
 function AITweakParams.new(fields) return end
 

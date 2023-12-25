@@ -5,7 +5,7 @@
 ---@field public text LocalizationString
 gameJournalInternetText = {}
 
----@param fields? table
+---@param fields? gameJournalInternetText
 ---@return gameJournalInternetText
 function gameJournalInternetText.new(fields) return end
 

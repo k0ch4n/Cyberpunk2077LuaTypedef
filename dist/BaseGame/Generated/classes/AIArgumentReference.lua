@@ -7,6 +7,6 @@
 ---@field public rttiClassName CName
 AIArgumentReference = {}
 
----@param fields? table
+---@param fields? AIArgumentReference
 ---@return AIArgumentReference
 function AIArgumentReference.new(fields) return end

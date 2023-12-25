@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsWeaponStart: gamestateMachineplayeractionsWeaponActionBase
 gamestateMachineplayeractionsWeaponStart = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsWeaponStart
 ---@return gamestateMachineplayeractionsWeaponStart
 function gamestateMachineplayeractionsWeaponStart.new(fields) return end

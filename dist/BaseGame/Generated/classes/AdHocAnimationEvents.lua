@@ -4,7 +4,7 @@
 ---@class AdHocAnimationEvents: TemporaryUnequipEvents
 AdHocAnimationEvents = {}
 
----@param fields? table
+---@param fields? AdHocAnimationEvents
 ---@return AdHocAnimationEvents
 function AdHocAnimationEvents.new(fields) return end
 

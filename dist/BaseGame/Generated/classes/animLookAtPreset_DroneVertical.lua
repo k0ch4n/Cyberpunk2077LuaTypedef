@@ -10,6 +10,6 @@
 ---@field public mode Int32
 animLookAtPreset_DroneVertical = {}
 
----@param fields? table
+---@param fields? animLookAtPreset_DroneVertical
 ---@return animLookAtPreset_DroneVertical
 function animLookAtPreset_DroneVertical.new(fields) return end

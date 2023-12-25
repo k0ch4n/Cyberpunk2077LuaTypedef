@@ -13,7 +13,7 @@
 ---@field protected isOpen Bool
 ListItemsGroupController = {}
 
----@param fields? table
+---@param fields? ListItemsGroupController
 ---@return ListItemsGroupController
 function ListItemsGroupController.new(fields) return end
 

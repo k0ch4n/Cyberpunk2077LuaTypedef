@@ -7,7 +7,7 @@
 ---@field private callbackID Uint32
 TimetableCallbackData = {}
 
----@param fields? table
+---@param fields? TimetableCallbackData
 ---@return TimetableCallbackData
 function TimetableCallbackData.new(fields) return end
 

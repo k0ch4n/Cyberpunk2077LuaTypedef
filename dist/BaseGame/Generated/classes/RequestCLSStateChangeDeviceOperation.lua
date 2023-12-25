@@ -8,7 +8,7 @@
 ---@field private removePreviousRequests Bool
 RequestCLSStateChangeDeviceOperation = {}
 
----@param fields? table
+---@param fields? RequestCLSStateChangeDeviceOperation
 ---@return RequestCLSStateChangeDeviceOperation
 function RequestCLSStateChangeDeviceOperation.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public taggedObject gameObject
 KillTaggedTargetEvent = {}
 
----@param fields? table
+---@param fields? KillTaggedTargetEvent
 ---@return KillTaggedTargetEvent
 function KillTaggedTargetEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameEngineTurnedOffEvent: redEvent
 gameEngineTurnedOffEvent = {}
 
----@param fields? table
+---@param fields? gameEngineTurnedOffEvent
 ---@return gameEngineTurnedOffEvent
 function gameEngineTurnedOffEvent.new(fields) return end

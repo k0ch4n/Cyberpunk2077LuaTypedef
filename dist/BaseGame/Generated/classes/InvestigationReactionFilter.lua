@@ -4,7 +4,7 @@
 ---@class InvestigationReactionFilter: gameEffectObjectSingleFilter_Scripted
 InvestigationReactionFilter = {}
 
----@param fields? table
+---@param fields? InvestigationReactionFilter
 ---@return InvestigationReactionFilter
 function InvestigationReactionFilter.new(fields) return end
 

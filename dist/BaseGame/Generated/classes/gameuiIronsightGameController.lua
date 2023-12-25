@@ -4,7 +4,7 @@
 ---@class gameuiIronsightGameController: gameuiWidgetGameController
 gameuiIronsightGameController = {}
 
----@param fields? table
+---@param fields? gameuiIronsightGameController
 ---@return gameuiIronsightGameController
 function gameuiIronsightGameController.new(fields) return end
 

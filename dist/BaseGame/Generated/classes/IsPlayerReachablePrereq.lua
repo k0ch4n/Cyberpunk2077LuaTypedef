@@ -11,7 +11,7 @@
 ---@field public verTolerance Float
 IsPlayerReachablePrereq = {}
 
----@param fields? table
+---@param fields? IsPlayerReachablePrereq
 ---@return IsPlayerReachablePrereq
 function IsPlayerReachablePrereq.new(fields) return end
 

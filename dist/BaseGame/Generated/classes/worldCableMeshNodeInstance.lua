@@ -4,6 +4,6 @@
 ---@class worldCableMeshNodeInstance: worldBendedMeshNodeInstance
 worldCableMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldCableMeshNodeInstance
 ---@return worldCableMeshNodeInstance
 function worldCableMeshNodeInstance.new(fields) return end

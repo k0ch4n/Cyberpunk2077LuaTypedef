@@ -5,7 +5,7 @@
 ---@field public lightPreset gamedataLightPreset_Record
 ApplyLightPresetEffector = {}
 
----@param fields? table
+---@param fields? ApplyLightPresetEffector
 ---@return ApplyLightPresetEffector
 function ApplyLightPresetEffector.new(fields) return end
 

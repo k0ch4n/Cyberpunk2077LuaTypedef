@@ -6,6 +6,6 @@
 ---@field public softLimitAngle Float
 animLookAtAdditionalPreset_BothArms = {}
 
----@param fields? table
+---@param fields? animLookAtAdditionalPreset_BothArms
 ---@return animLookAtAdditionalPreset_BothArms
 function animLookAtAdditionalPreset_BothArms.new(fields) return end

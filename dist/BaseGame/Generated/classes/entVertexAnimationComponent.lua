@@ -6,6 +6,6 @@
 ---@field public animatedComponent entISourceBinding
 entVertexAnimationComponent = {}
 
----@param fields? table
+---@param fields? entVertexAnimationComponent
 ---@return entVertexAnimationComponent
 function entVertexAnimationComponent.new(fields) return end

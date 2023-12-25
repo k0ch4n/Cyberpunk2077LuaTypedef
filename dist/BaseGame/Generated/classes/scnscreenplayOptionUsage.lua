@@ -5,6 +5,6 @@
 ---@field public playerGenderMask scnGenderMask
 scnscreenplayOptionUsage = {}
 
----@param fields? table
+---@param fields? scnscreenplayOptionUsage
 ---@return scnscreenplayOptionUsage
 function scnscreenplayOptionUsage.new(fields) return end

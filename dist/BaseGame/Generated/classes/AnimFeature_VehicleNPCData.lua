@@ -7,6 +7,6 @@
 ---@field public forcePanic Bool
 AnimFeature_VehicleNPCData = {}
 
----@param fields? table
+---@param fields? AnimFeature_VehicleNPCData
 ---@return AnimFeature_VehicleNPCData
 function AnimFeature_VehicleNPCData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class ReenableColliderEvent: redEvent
 ReenableColliderEvent = {}
 
----@param fields? table
+---@param fields? ReenableColliderEvent
 ---@return ReenableColliderEvent
 function ReenableColliderEvent.new(fields) return end

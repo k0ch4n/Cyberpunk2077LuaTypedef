@@ -5,6 +5,6 @@
 ---@field public squaredRange Float
 gamePlayerProximityPrereq = {}
 
----@param fields? table
+---@param fields? gamePlayerProximityPrereq
 ---@return gamePlayerProximityPrereq
 function gamePlayerProximityPrereq.new(fields) return end

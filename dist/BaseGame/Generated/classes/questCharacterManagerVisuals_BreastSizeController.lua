@@ -8,6 +8,6 @@
 ---@field public customizedSize Bool
 questCharacterManagerVisuals_BreastSizeController = {}
 
----@param fields? table
+---@param fields? questCharacterManagerVisuals_BreastSizeController
 ---@return questCharacterManagerVisuals_BreastSizeController
 function questCharacterManagerVisuals_BreastSizeController.new(fields) return end

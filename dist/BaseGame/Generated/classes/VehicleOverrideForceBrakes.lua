@@ -5,7 +5,7 @@
 ---@field public isRequestedFormOtherDevice Bool
 VehicleOverrideForceBrakes = {}
 
----@param fields? table
+---@param fields? VehicleOverrideForceBrakes
 ---@return VehicleOverrideForceBrakes
 function VehicleOverrideForceBrakes.new(fields) return end
 

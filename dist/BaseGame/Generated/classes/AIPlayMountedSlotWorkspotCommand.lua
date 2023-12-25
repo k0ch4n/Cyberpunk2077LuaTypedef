@@ -5,6 +5,6 @@
 ---@field public mountData gameMountDescriptor
 AIPlayMountedSlotWorkspotCommand = {}
 
----@param fields? table
+---@param fields? AIPlayMountedSlotWorkspotCommand
 ---@return AIPlayMountedSlotWorkspotCommand
 function AIPlayMountedSlotWorkspotCommand.new(fields) return end

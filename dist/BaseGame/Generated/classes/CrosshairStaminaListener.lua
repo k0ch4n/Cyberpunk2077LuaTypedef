@@ -5,7 +5,7 @@
 ---@field private controller gameuiCrosshairBaseGameController
 CrosshairStaminaListener = {}
 
----@param fields? table
+---@param fields? CrosshairStaminaListener
 ---@return CrosshairStaminaListener
 function CrosshairStaminaListener.new(fields) return end
 

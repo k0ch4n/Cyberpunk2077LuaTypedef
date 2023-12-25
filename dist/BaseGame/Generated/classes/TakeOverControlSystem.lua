@@ -18,7 +18,7 @@
 ---@field private timestampLastTCS Float
 TakeOverControlSystem = {}
 
----@param fields? table
+---@param fields? TakeOverControlSystem
 ---@return TakeOverControlSystem
 function TakeOverControlSystem.new(fields) return end
 

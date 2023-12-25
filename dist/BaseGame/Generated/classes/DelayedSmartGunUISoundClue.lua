@@ -6,7 +6,7 @@
 ---@field private audioEventName CName
 DelayedSmartGunUISoundClue = {}
 
----@param fields? table
+---@param fields? DelayedSmartGunUISoundClue
 ---@return DelayedSmartGunUISoundClue
 function DelayedSmartGunUISoundClue.new(fields) return end
 

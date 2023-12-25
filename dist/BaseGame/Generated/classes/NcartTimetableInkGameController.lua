@@ -18,7 +18,7 @@
 ---@field private animProxy inkanimProxy
 NcartTimetableInkGameController = {}
 
----@param fields? table
+---@param fields? NcartTimetableInkGameController
 ---@return NcartTimetableInkGameController
 function NcartTimetableInkGameController.new(fields) return end
 

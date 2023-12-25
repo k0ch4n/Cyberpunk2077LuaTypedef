@@ -11,7 +11,7 @@
 ---@field public effectorRecord gamedataForceDismembermentEffector_Record
 ForceDismembermentEffector = {}
 
----@param fields? table
+---@param fields? ForceDismembermentEffector
 ---@return ForceDismembermentEffector
 function ForceDismembermentEffector.new(fields) return end
 

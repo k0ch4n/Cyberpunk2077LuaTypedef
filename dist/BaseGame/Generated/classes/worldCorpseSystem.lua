@@ -4,6 +4,6 @@
 ---@class worldCorpseSystem: worldIRuntimeSystem
 worldCorpseSystem = {}
 
----@param fields? table
+---@param fields? worldCorpseSystem
 ---@return worldCorpseSystem
 function worldCorpseSystem.new(fields) return end

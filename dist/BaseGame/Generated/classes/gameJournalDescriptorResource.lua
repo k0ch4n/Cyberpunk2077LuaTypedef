@@ -5,6 +5,6 @@
 ---@field public entriesActivatedAtStart String[]
 gameJournalDescriptorResource = {}
 
----@param fields? table
+---@param fields? gameJournalDescriptorResource
 ---@return gameJournalDescriptorResource
 function gameJournalDescriptorResource.new(fields) return end

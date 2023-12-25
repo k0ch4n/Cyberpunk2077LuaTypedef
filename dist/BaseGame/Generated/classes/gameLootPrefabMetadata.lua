@@ -7,6 +7,6 @@
 ---@field public contentAssignment TweakDBID
 gameLootPrefabMetadata = {}
 
----@param fields? table
+---@param fields? gameLootPrefabMetadata
 ---@return gameLootPrefabMetadata
 function gameLootPrefabMetadata.new(fields) return end

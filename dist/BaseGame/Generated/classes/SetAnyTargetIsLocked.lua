@@ -5,6 +5,6 @@
 ---@field public wasSeen Bool
 SetAnyTargetIsLocked = {}
 
----@param fields? table
+---@param fields? SetAnyTargetIsLocked
 ---@return SetAnyTargetIsLocked
 function SetAnyTargetIsLocked.new(fields) return end

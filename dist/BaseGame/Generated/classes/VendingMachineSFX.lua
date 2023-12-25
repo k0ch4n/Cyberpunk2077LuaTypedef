@@ -6,6 +6,6 @@
 ---@field public glitchingStop CName
 VendingMachineSFX = {}
 
----@param fields? table
+---@param fields? VendingMachineSFX
 ---@return VendingMachineSFX
 function VendingMachineSFX.new(fields) return end

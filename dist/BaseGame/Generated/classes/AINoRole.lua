@@ -4,6 +4,6 @@
 ---@class AINoRole: AIRole
 AINoRole = {}
 
----@param fields? table
+---@param fields? AINoRole
 ---@return AINoRole
 function AINoRole.new(fields) return end

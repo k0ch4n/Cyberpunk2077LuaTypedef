@@ -5,6 +5,6 @@
 ---@field public choiceHubs gameinteractionsvisListChoiceHubData[]
 gameinteractionsvisDialogChoiceHubs = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisDialogChoiceHubs
 ---@return gameinteractionsvisDialogChoiceHubs
 function gameinteractionsvisDialogChoiceHubs.new(fields) return end

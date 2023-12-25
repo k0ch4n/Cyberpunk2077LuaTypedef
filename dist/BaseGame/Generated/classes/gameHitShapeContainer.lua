@@ -10,6 +10,6 @@
 ---@field public physicsMaterial physicsMaterialReference
 gameHitShapeContainer = {}
 
----@param fields? table
+---@param fields? gameHitShapeContainer
 ---@return gameHitShapeContainer
 function gameHitShapeContainer.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameJoinTrafficSettings: ISerializable
 gameJoinTrafficSettings = {}
 
----@param fields? table
+---@param fields? gameJoinTrafficSettings
 ---@return gameJoinTrafficSettings
 function gameJoinTrafficSettings.new(fields) return end

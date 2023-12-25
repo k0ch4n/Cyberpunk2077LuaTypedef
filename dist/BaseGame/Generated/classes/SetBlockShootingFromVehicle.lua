@@ -5,7 +5,7 @@
 ---@field public enable Bool
 SetBlockShootingFromVehicle = {}
 
----@param fields? table
+---@param fields? SetBlockShootingFromVehicle
 ---@return SetBlockShootingFromVehicle
 function SetBlockShootingFromVehicle.new(fields) return end
 

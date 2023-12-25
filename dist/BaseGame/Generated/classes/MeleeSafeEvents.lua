@@ -4,7 +4,7 @@
 ---@class MeleeSafeEvents: MeleePublicSafeEvents
 MeleeSafeEvents = {}
 
----@param fields? table
+---@param fields? MeleeSafeEvents
 ---@return MeleeSafeEvents
 function MeleeSafeEvents.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public replicatedPingEntries gamePingEntry[]
 gamePingSystemReplicatedState = {}
 
----@param fields? table
+---@param fields? gamePingSystemReplicatedState
 ---@return gamePingSystemReplicatedState
 function gamePingSystemReplicatedState.new(fields) return end

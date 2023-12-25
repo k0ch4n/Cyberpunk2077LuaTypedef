@@ -10,6 +10,6 @@
 ---@field public immediately Bool
 questCombatNodeParams_ThrowGrenade = {}
 
----@param fields? table
+---@param fields? questCombatNodeParams_ThrowGrenade
 ---@return questCombatNodeParams_ThrowGrenade
 function questCombatNodeParams_ThrowGrenade.new(fields) return end

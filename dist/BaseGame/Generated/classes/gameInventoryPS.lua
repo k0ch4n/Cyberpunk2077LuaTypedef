@@ -6,6 +6,6 @@
 ---@field public accessible Bool
 gameInventoryPS = {}
 
----@param fields? table
+---@param fields? gameInventoryPS
 ---@return gameInventoryPS
 function gameInventoryPS.new(fields) return end

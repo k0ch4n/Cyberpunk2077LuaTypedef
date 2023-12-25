@@ -4,6 +4,6 @@
 ---@class CancelSmartDespawnRequest: redEvent
 CancelSmartDespawnRequest = {}
 
----@param fields? table
+---@param fields? CancelSmartDespawnRequest
 ---@return CancelSmartDespawnRequest
 function CancelSmartDespawnRequest.new(fields) return end

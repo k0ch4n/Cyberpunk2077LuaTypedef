@@ -23,6 +23,6 @@
 ---@field public temperature CName
 audioVehicleMechanicalData = {}
 
----@param fields? table
+---@param fields? audioVehicleMechanicalData
 ---@return audioVehicleMechanicalData
 function audioVehicleMechanicalData.new(fields) return end

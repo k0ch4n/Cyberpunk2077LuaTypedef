@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionMeleeAttack: gameIMuppetInputAction
 gameMuppetInputActionMeleeAttack = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionMeleeAttack
 ---@return gameMuppetInputActionMeleeAttack
 function gameMuppetInputActionMeleeAttack.new(fields) return end

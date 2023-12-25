@@ -8,6 +8,6 @@
 ---@field public killingHitEvent CName
 audioMeleeAttackSettings = {}
 
----@param fields? table
+---@param fields? audioMeleeAttackSettings
 ---@return audioMeleeAttackSettings
 function audioMeleeAttackSettings.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataMultiPrereq_Record: gamedataIPrereq_Record
 gamedataMultiPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataMultiPrereq_Record
 ---@return gamedataMultiPrereq_Record
 function gamedataMultiPrereq_Record.new(fields) return end
 

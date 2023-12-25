@@ -4,6 +4,6 @@
 ---@class worldAudioSignpostTriggerNotifierInstance: worldITriggerAreaNotiferInstance
 worldAudioSignpostTriggerNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldAudioSignpostTriggerNotifierInstance
 ---@return worldAudioSignpostTriggerNotifierInstance
 function worldAudioSignpostTriggerNotifierInstance.new(fields) return end

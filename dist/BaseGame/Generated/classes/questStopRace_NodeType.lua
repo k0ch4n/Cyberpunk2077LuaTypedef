@@ -4,6 +4,6 @@
 ---@class questStopRace_NodeType: questIVehicleManagerNodeType
 questStopRace_NodeType = {}
 
----@param fields? table
+---@param fields? questStopRace_NodeType
 ---@return questStopRace_NodeType
 function questStopRace_NodeType.new(fields) return end

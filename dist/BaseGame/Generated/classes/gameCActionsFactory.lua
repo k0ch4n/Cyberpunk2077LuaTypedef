@@ -4,6 +4,6 @@
 ---@class gameCActionsFactory: gameIActionsFactory
 gameCActionsFactory = {}
 
----@param fields? table
+---@param fields? gameCActionsFactory
 ---@return gameCActionsFactory
 function gameCActionsFactory.new(fields) return end

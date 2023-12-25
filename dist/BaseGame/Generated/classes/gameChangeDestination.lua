@@ -5,6 +5,6 @@
 ---@field public destination Vector4
 gameChangeDestination = {}
 
----@param fields? table
+---@param fields? gameChangeDestination
 ---@return gameChangeDestination
 function gameChangeDestination.new(fields) return end

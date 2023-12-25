@@ -9,6 +9,6 @@
 ---@field public worldSpace Bool
 CParticleModificatorVelocityTurbulize = {}
 
----@param fields? table
+---@param fields? CParticleModificatorVelocityTurbulize
 ---@return CParticleModificatorVelocityTurbulize
 function CParticleModificatorVelocityTurbulize.new(fields) return end

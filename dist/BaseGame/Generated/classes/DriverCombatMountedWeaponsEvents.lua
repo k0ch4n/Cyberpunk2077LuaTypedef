@@ -5,7 +5,7 @@
 ---@field private activeWeapons gameweaponObject[]
 DriverCombatMountedWeaponsEvents = {}
 
----@param fields? table
+---@param fields? DriverCombatMountedWeaponsEvents
 ---@return DriverCombatMountedWeaponsEvents
 function DriverCombatMountedWeaponsEvents.new(fields) return end
 

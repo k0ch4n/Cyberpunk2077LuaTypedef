@@ -9,6 +9,6 @@
 ---@field public entrySnapedSocketName CName
 worldSplineNode = {}
 
----@param fields? table
+---@param fields? worldSplineNode
 ---@return worldSplineNode
 function worldSplineNode.new(fields) return end

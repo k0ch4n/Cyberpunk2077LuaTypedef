@@ -4,7 +4,7 @@
 ---@class gamedataSearchFilterMaskType_Record: gamedataTweakDBRecord
 gamedataSearchFilterMaskType_Record = {}
 
----@param fields? table
+---@param fields? gamedataSearchFilterMaskType_Record
 ---@return gamedataSearchFilterMaskType_Record
 function gamedataSearchFilterMaskType_Record.new(fields) return end
 

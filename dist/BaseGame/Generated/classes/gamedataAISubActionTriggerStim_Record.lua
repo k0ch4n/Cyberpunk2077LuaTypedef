@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionTriggerStim_Record: gamedataAISubAction_Record
 gamedataAISubActionTriggerStim_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionTriggerStim_Record
 ---@return gamedataAISubActionTriggerStim_Record
 function gamedataAISubActionTriggerStim_Record.new(fields) return end
 

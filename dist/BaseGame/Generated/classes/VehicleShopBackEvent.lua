@@ -4,6 +4,6 @@
 ---@class VehicleShopBackEvent: redEvent
 VehicleShopBackEvent = {}
 
----@param fields? table
+---@param fields? VehicleShopBackEvent
 ---@return VehicleShopBackEvent
 function VehicleShopBackEvent.new(fields) return end

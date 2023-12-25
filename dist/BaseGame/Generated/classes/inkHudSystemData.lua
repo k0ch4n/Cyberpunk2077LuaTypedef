@@ -6,6 +6,6 @@
 ---@field public entriesResource inkHudEntriesResource
 inkHudSystemData = {}
 
----@param fields? table
+---@param fields? inkHudSystemData
 ---@return inkHudSystemData
 function inkHudSystemData.new(fields) return end

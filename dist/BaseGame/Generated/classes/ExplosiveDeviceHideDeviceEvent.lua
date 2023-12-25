@@ -4,6 +4,6 @@
 ---@class ExplosiveDeviceHideDeviceEvent: redEvent
 ExplosiveDeviceHideDeviceEvent = {}
 
----@param fields? table
+---@param fields? ExplosiveDeviceHideDeviceEvent
 ---@return ExplosiveDeviceHideDeviceEvent
 function ExplosiveDeviceHideDeviceEvent.new(fields) return end

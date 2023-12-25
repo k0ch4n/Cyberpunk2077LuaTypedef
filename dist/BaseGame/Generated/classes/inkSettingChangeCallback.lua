@@ -4,6 +4,6 @@
 ---@class inkSettingChangeCallback: inkCallbackBase
 inkSettingChangeCallback = {}
 
----@param fields? table
+---@param fields? inkSettingChangeCallback
 ---@return inkSettingChangeCallback
 function inkSettingChangeCallback.new(fields) return end

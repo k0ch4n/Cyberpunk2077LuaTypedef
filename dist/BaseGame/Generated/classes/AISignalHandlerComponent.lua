@@ -4,7 +4,7 @@
 ---@class AISignalHandlerComponent: entIComponent
 AISignalHandlerComponent = {}
 
----@param fields? table
+---@param fields? AISignalHandlerComponent
 ---@return AISignalHandlerComponent
 function AISignalHandlerComponent.new(fields) return end
 

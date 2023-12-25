@@ -4,6 +4,6 @@
 ---@class gameStreamingSmartObjectsDataExtractor: resIStreamedResourceDataExtractor
 gameStreamingSmartObjectsDataExtractor = {}
 
----@param fields? table
+---@param fields? gameStreamingSmartObjectsDataExtractor
 ---@return gameStreamingSmartObjectsDataExtractor
 function gameStreamingSmartObjectsDataExtractor.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class EffectFilter_DamageOverTime: gameEffectObjectSingleFilter_Scripted
 EffectFilter_DamageOverTime = {}
 
----@param fields? table
+---@param fields? EffectFilter_DamageOverTime
 ---@return EffectFilter_DamageOverTime
 function EffectFilter_DamageOverTime.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public mode questTimeSkipMode
 questTimeSkipped_ConditionType = {}
 
----@param fields? table
+---@param fields? questTimeSkipped_ConditionType
 ---@return questTimeSkipped_ConditionType
 function questTimeSkipped_ConditionType.new(fields) return end

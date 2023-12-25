@@ -8,6 +8,6 @@
 ---@field public functor2DataDefinition gameinteractionsCFunctorDefinition
 gameinteractionsCPredicateDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCPredicateDefinition
 ---@return gameinteractionsCPredicateDefinition
 function gameinteractionsCPredicateDefinition.new(fields) return end

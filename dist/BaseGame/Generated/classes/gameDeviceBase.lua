@@ -5,7 +5,7 @@
 ---@field public isLogicReady Bool
 gameDeviceBase = {}
 
----@param fields? table
+---@param fields? gameDeviceBase
 ---@return gameDeviceBase
 function gameDeviceBase.new(fields) return end
 

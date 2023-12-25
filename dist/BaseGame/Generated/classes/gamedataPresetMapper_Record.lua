@@ -4,7 +4,7 @@
 ---@class gamedataPresetMapper_Record: gamedataTweakDBRecord
 gamedataPresetMapper_Record = {}
 
----@param fields? table
+---@param fields? gamedataPresetMapper_Record
 ---@return gamedataPresetMapper_Record
 function gamedataPresetMapper_Record.new(fields) return end
 

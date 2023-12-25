@@ -6,7 +6,7 @@
 ---@field private valueWidget inkTextWidgetReference
 BenchmarkLabelController = {}
 
----@param fields? table
+---@param fields? BenchmarkLabelController
 ---@return BenchmarkLabelController
 function BenchmarkLabelController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public open Bool
 ChangeSubwayGateStateEvent = {}
 
----@param fields? table
+---@param fields? ChangeSubwayGateStateEvent
 ---@return ChangeSubwayGateStateEvent
 function ChangeSubwayGateStateEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public targetPuppetRef gameEntityReference
 AIJoinTargetsSquadCommandParams = {}
 
----@param fields? table
+---@param fields? AIJoinTargetsSquadCommandParams
 ---@return AIJoinTargetsSquadCommandParams
 function AIJoinTargetsSquadCommandParams.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public itemRecordID TweakDBID
 questRecordSelector = {}
 
----@param fields? table
+---@param fields? questRecordSelector
 ---@return questRecordSelector
 function questRecordSelector.new(fields) return end

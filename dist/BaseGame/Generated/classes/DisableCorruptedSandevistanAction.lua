@@ -4,7 +4,7 @@
 ---@class DisableCorruptedSandevistanAction: UseAction
 DisableCorruptedSandevistanAction = {}
 
----@param fields? table
+---@param fields? DisableCorruptedSandevistanAction
 ---@return DisableCorruptedSandevistanAction
 function DisableCorruptedSandevistanAction.new(fields) return end
 

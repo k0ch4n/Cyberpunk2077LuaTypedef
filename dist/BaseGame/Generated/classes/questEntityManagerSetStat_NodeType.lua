@@ -9,6 +9,6 @@
 ---@field public setExactValue Bool
 questEntityManagerSetStat_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerSetStat_NodeType
 ---@return questEntityManagerSetStat_NodeType
 function questEntityManagerSetStat_NodeType.new(fields) return end

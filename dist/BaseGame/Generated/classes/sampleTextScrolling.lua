@@ -6,7 +6,7 @@
 ---@field private infiniteloop inkanimPlaybackOptions
 sampleTextScrolling = {}
 
----@param fields? table
+---@param fields? sampleTextScrolling
 ---@return sampleTextScrolling
 function sampleTextScrolling.new(fields) return end
 

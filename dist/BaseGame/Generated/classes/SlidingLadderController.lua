@@ -4,7 +4,7 @@
 ---@class SlidingLadderController: BaseAnimatedDeviceController
 SlidingLadderController = {}
 
----@param fields? table
+---@param fields? SlidingLadderController
 ---@return SlidingLadderController
 function SlidingLadderController.new(fields) return end
 

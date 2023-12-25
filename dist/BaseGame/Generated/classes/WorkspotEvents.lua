@@ -4,7 +4,7 @@
 ---@class WorkspotEvents: LocomotionGroundEvents
 WorkspotEvents = {}
 
----@param fields? table
+---@param fields? WorkspotEvents
 ---@return WorkspotEvents
 function WorkspotEvents.new(fields) return end
 

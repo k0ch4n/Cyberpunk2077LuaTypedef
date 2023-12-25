@@ -9,6 +9,6 @@
 ---@field public playUnique Bool
 gameaudioeventsPlaySound = {}
 
----@param fields? table
+---@param fields? gameaudioeventsPlaySound
 ---@return gameaudioeventsPlaySound
 function gameaudioeventsPlaySound.new(fields) return end

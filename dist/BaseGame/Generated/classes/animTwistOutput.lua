@@ -9,6 +9,6 @@
 ---@field public outputAngleTrack animNamedTrackIndex
 animTwistOutput = {}
 
----@param fields? table
+---@param fields? animTwistOutput
 ---@return animTwistOutput
 function animTwistOutput.new(fields) return end

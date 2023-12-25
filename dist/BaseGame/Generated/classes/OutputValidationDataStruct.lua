@@ -10,7 +10,7 @@
 ---@field public breachedAreas gamePersistentID[]
 OutputValidationDataStruct = {}
 
----@param fields? table
+---@param fields? OutputValidationDataStruct
 ---@return OutputValidationDataStruct
 function OutputValidationDataStruct.new(fields) return end
 

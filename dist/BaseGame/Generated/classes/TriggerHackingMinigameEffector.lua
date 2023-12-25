@@ -13,7 +13,7 @@
 ---@field public returnToJournal Bool
 TriggerHackingMinigameEffector = {}
 
----@param fields? table
+---@param fields? TriggerHackingMinigameEffector
 ---@return TriggerHackingMinigameEffector
 function TriggerHackingMinigameEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public additionalText String
 ImageButtonCustomData = {}
 
----@param fields? table
+---@param fields? ImageButtonCustomData
 ---@return ImageButtonCustomData
 function ImageButtonCustomData.new(fields) return end

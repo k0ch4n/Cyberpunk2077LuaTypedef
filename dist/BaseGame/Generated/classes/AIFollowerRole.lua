@@ -15,7 +15,7 @@
 ---@field private isOwnerSniper Bool
 AIFollowerRole = {}
 
----@param fields? table
+---@param fields? AIFollowerRole
 ---@return AIFollowerRole
 function AIFollowerRole.new(fields) return end
 

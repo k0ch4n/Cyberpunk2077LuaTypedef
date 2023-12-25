@@ -4,7 +4,7 @@
 ---@class EveningPreset: SmartHousePreset
 EveningPreset = {}
 
----@param fields? table
+---@param fields? EveningPreset
 ---@return EveningPreset
 function EveningPreset.new(fields) return end
 

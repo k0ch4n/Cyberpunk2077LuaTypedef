@@ -11,7 +11,7 @@
 ---@field public duration Float
 scnDialogLineData = {}
 
----@param fields? table
+---@param fields? scnDialogLineData
 ---@return scnDialogLineData
 function scnDialogLineData.new(fields) return end
 

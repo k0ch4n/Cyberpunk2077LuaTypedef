@@ -4,6 +4,6 @@
 ---@class PreventionConsoleLockRequest: gameScriptableSystemRequest
 PreventionConsoleLockRequest = {}
 
----@param fields? table
+---@param fields? PreventionConsoleLockRequest
 ---@return PreventionConsoleLockRequest
 function PreventionConsoleLockRequest.new(fields) return end

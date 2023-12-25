@@ -11,7 +11,7 @@
 ---@field public affectsPlayer Bool
 SetTimeDilationEffector = {}
 
----@param fields? table
+---@param fields? SetTimeDilationEffector
 ---@return SetTimeDilationEffector
 function SetTimeDilationEffector.new(fields) return end
 

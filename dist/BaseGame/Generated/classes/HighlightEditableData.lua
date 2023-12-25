@@ -11,6 +11,6 @@
 ---@field public patternType gameVisionModePatternType
 HighlightEditableData = {}
 
----@param fields? table
+---@param fields? HighlightEditableData
 ---@return HighlightEditableData
 function HighlightEditableData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public skillChecks Bool
 IllegalActionTypes = {}
 
----@param fields? table
+---@param fields? IllegalActionTypes
 ---@return IllegalActionTypes
 function IllegalActionTypes.new(fields) return end

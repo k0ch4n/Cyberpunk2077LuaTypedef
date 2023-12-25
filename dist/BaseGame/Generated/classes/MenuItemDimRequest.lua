@@ -5,6 +5,6 @@
 ---@field public dim Bool
 MenuItemDimRequest = {}
 
----@param fields? table
+---@param fields? MenuItemDimRequest
 ---@return MenuItemDimRequest
 function MenuItemDimRequest.new(fields) return end

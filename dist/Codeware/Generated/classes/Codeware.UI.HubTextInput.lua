@@ -18,7 +18,7 @@
 ---@field public focusFrameAnimProxy inkanimProxy
 Codeware_UI_HubTextInput = {}
 
----@param fields? table
+---@param fields? Codeware_UI_HubTextInput
 ---@return Codeware_UI_HubTextInput
 function Codeware_UI_HubTextInput.new(fields) return end
 

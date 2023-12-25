@@ -5,7 +5,7 @@
 ---@field public targetEntityID entEntityID
 QuestStopFollowingTarget = {}
 
----@param fields? table
+---@param fields? QuestStopFollowingTarget
 ---@return QuestStopFollowingTarget
 function QuestStopFollowingTarget.new(fields) return end
 

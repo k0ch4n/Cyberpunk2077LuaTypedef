@@ -6,7 +6,7 @@
 ---@field public stickersController gameuiPhotoModeStickersController
 PhotoModeSticker = {}
 
----@param fields? table
+---@param fields? PhotoModeSticker
 ---@return PhotoModeSticker
 function PhotoModeSticker.new(fields) return end
 

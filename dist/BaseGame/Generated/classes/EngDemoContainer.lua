@@ -6,7 +6,7 @@
 ---@field public demolitionCheck DemolitionSkillCheck
 EngDemoContainer = {}
 
----@param fields? table
+---@param fields? EngDemoContainer
 ---@return EngDemoContainer
 function EngDemoContainer.new(fields) return end
 

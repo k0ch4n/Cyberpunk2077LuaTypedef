@@ -16,7 +16,7 @@
 ---@field private blackboard gameIBlackboard
 gameuiCooldownGameController = {}
 
----@param fields? table
+---@param fields? gameuiCooldownGameController
 ---@return gameuiCooldownGameController
 function gameuiCooldownGameController.new(fields) return end
 

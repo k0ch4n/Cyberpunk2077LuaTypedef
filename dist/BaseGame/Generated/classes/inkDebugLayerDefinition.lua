@@ -5,6 +5,6 @@
 ---@field public entries inkDebugLayerEntry[]
 inkDebugLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkDebugLayerDefinition
 ---@return inkDebugLayerDefinition
 function inkDebugLayerDefinition.new(fields) return end

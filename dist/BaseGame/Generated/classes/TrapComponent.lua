@@ -4,7 +4,7 @@
 ---@class TrapComponent: gameScriptableComponent
 TrapComponent = {}
 
----@param fields? table
+---@param fields? TrapComponent
 ---@return TrapComponent
 function TrapComponent.new(fields) return end
 

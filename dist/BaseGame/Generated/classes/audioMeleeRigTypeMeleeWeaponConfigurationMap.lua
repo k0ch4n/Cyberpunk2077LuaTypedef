@@ -5,6 +5,6 @@
 ---@field public mapItems audioMeleeRigTypeMeleeWeaponConfigurationMapItem[]
 audioMeleeRigTypeMeleeWeaponConfigurationMap = {}
 
----@param fields? table
+---@param fields? audioMeleeRigTypeMeleeWeaponConfigurationMap
 ---@return audioMeleeRigTypeMeleeWeaponConfigurationMap
 function audioMeleeRigTypeMeleeWeaponConfigurationMap.new(fields) return end

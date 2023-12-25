@@ -4,7 +4,7 @@
 ---@class inkTextInputWidget: inkTextWidget
 inkTextInputWidget = {}
 
----@param fields? table
+---@param fields? inkTextInputWidget
 ---@return inkTextInputWidget
 function inkTextInputWidget.new(fields) return end
 

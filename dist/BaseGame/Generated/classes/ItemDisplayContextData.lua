@@ -8,7 +8,7 @@
 ---@field private tags CName[]
 ItemDisplayContextData = {}
 
----@param fields? table
+---@param fields? ItemDisplayContextData
 ---@return ItemDisplayContextData
 function ItemDisplayContextData.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public childSizeStep Vector2
 inkGridWidget = {}
 
----@param fields? table
+---@param fields? inkGridWidget
 ---@return inkGridWidget
 function inkGridWidget.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public zoneID gamePersistentID
 ModifyOverlappedSecurityAreas = {}
 
----@param fields? table
+---@param fields? ModifyOverlappedSecurityAreas
 ---@return ModifyOverlappedSecurityAreas
 function ModifyOverlappedSecurityAreas.new(fields) return end

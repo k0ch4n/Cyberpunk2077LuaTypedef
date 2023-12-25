@@ -4,7 +4,7 @@
 ---@class vehicleRacingSystem: vehicleIRacingSystem
 vehicleRacingSystem = {}
 
----@param fields? table
+---@param fields? vehicleRacingSystem
 ---@return vehicleRacingSystem
 function vehicleRacingSystem.new(fields) return end
 

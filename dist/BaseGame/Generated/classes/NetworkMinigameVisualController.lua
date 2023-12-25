@@ -35,7 +35,7 @@
 ---@field private fillProgress inkanimDefinition
 NetworkMinigameVisualController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameVisualController
 ---@return NetworkMinigameVisualController
 function NetworkMinigameVisualController.new(fields) return end
 

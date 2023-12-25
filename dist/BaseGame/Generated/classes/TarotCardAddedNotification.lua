@@ -6,7 +6,7 @@
 ---@field protected cardNameLabel inkTextWidgetReference
 TarotCardAddedNotification = {}
 
----@param fields? table
+---@param fields? TarotCardAddedNotification
 ---@return TarotCardAddedNotification
 function TarotCardAddedNotification.new(fields) return end
 

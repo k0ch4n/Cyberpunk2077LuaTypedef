@@ -4,6 +4,6 @@
 ---@class gameweaponeventsCycleTriggerModeEvent: redEvent
 gameweaponeventsCycleTriggerModeEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsCycleTriggerModeEvent
 ---@return gameweaponeventsCycleTriggerModeEvent
 function gameweaponeventsCycleTriggerModeEvent.new(fields) return end

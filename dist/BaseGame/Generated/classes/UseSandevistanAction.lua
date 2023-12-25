@@ -4,7 +4,7 @@
 ---@class UseSandevistanAction: UseAction
 UseSandevistanAction = {}
 
----@param fields? table
+---@param fields? UseSandevistanAction
 ---@return UseSandevistanAction
 function UseSandevistanAction.new(fields) return end
 

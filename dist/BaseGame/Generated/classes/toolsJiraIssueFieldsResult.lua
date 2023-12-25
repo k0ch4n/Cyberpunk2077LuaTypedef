@@ -39,6 +39,6 @@
 ---@field public customfield_10002 String
 toolsJiraIssueFieldsResult = {}
 
----@param fields? table
+---@param fields? toolsJiraIssueFieldsResult
 ---@return toolsJiraIssueFieldsResult
 function toolsJiraIssueFieldsResult.new(fields) return end

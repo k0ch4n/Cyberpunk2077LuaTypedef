@@ -7,6 +7,6 @@
 ---@field public initialValue Bool
 AIbehaviorEdgeConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEdgeConditionDefinition
 ---@return AIbehaviorEdgeConditionDefinition
 function AIbehaviorEdgeConditionDefinition.new(fields) return end

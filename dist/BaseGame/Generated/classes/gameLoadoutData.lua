@@ -6,6 +6,6 @@
 ---@field public itemID gameItemID
 gameLoadoutData = {}
 
----@param fields? table
+---@param fields? gameLoadoutData
 ---@return gameLoadoutData
 function gameLoadoutData.new(fields) return end

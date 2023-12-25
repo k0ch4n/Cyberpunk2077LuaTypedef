@@ -5,7 +5,7 @@
 ---@field protected triggerData TriggerVolumeOperationTriggerData
 TriggerVolumeOperationsTrigger = {}
 
----@param fields? table
+---@param fields? TriggerVolumeOperationsTrigger
 ---@return TriggerVolumeOperationsTrigger
 function TriggerVolumeOperationsTrigger.new(fields) return end
 

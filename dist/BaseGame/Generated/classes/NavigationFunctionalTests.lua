@@ -4,7 +4,7 @@
 ---@class NavigationFunctionalTests: IScriptable
 NavigationFunctionalTests = {}
 
----@param fields? table
+---@param fields? NavigationFunctionalTests
 ---@return NavigationFunctionalTests
 function NavigationFunctionalTests.new(fields) return end
 

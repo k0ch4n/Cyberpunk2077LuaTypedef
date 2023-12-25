@@ -4,7 +4,7 @@
 ---@class EnterVehicle: AIVehicleTaskAbstract
 EnterVehicle = {}
 
----@param fields? table
+---@param fields? EnterVehicle
 ---@return EnterVehicle
 function EnterVehicle.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class PublicSafeToReadyDecisions: WeaponTransition
 PublicSafeToReadyDecisions = {}
 
----@param fields? table
+---@param fields? PublicSafeToReadyDecisions
 ---@return PublicSafeToReadyDecisions
 function PublicSafeToReadyDecisions.new(fields) return end
 

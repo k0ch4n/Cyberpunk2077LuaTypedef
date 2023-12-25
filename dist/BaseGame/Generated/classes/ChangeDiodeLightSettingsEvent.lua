@@ -9,6 +9,6 @@
 ---@field public loop Bool
 ChangeDiodeLightSettingsEvent = {}
 
----@param fields? table
+---@param fields? ChangeDiodeLightSettingsEvent
 ---@return ChangeDiodeLightSettingsEvent
 function ChangeDiodeLightSettingsEvent.new(fields) return end

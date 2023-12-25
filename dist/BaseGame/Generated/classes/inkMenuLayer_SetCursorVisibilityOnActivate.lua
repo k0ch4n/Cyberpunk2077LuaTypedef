@@ -4,7 +4,7 @@
 ---@class inkMenuLayer_SetCursorVisibilityOnActivate: redEvent
 inkMenuLayer_SetCursorVisibilityOnActivate = {}
 
----@param fields? table
+---@param fields? inkMenuLayer_SetCursorVisibilityOnActivate
 ---@return inkMenuLayer_SetCursorVisibilityOnActivate
 function inkMenuLayer_SetCursorVisibilityOnActivate.new(fields) return end
 

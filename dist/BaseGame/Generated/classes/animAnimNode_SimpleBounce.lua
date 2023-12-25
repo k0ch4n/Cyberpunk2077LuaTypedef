@@ -16,6 +16,6 @@
 ---@field public trackOutputs animSimpleBounceTrackOutput[]
 animAnimNode_SimpleBounce = {}
 
----@param fields? table
+---@param fields? animAnimNode_SimpleBounce
 ---@return animAnimNode_SimpleBounce
 function animAnimNode_SimpleBounce.new(fields) return end

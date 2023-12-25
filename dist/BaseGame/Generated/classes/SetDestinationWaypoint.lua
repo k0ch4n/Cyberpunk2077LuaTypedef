@@ -9,7 +9,7 @@
 ---@field private finalDestinations Vector4[]
 SetDestinationWaypoint = {}
 
----@param fields? table
+---@param fields? SetDestinationWaypoint
 ---@return SetDestinationWaypoint
 function SetDestinationWaypoint.new(fields) return end
 

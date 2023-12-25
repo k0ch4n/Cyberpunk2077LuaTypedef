@@ -6,6 +6,6 @@
 ---@field public entryID CName
 gameNPCstubData = {}
 
----@param fields? table
+---@param fields? gameNPCstubData
 ---@return gameNPCstubData
 function gameNPCstubData.new(fields) return end

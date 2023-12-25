@@ -5,7 +5,7 @@
 ---@field public items gamedataInventoryItem_Record[]
 AddItemsEffector = {}
 
----@param fields? table
+---@param fields? AddItemsEffector
 ---@return AddItemsEffector
 function AddItemsEffector.new(fields) return end
 

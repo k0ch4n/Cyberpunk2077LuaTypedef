@@ -4,7 +4,7 @@
 ---@class gamedataWidgetDefinition_Record: gamedataTweakDBRecord
 gamedataWidgetDefinition_Record = {}
 
----@param fields? table
+---@param fields? gamedataWidgetDefinition_Record
 ---@return gamedataWidgetDefinition_Record
 function gamedataWidgetDefinition_Record.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public operationType EMathOperationType
 SFactToChange = {}
 
----@param fields? table
+---@param fields? SFactToChange
 ---@return SFactToChange
 function SFactToChange.new(fields) return end

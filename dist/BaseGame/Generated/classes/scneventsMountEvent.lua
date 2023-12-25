@@ -13,6 +13,6 @@
 ---@field public switchRenderPlane Bool
 scneventsMountEvent = {}
 
----@param fields? table
+---@param fields? scneventsMountEvent
 ---@return scneventsMountEvent
 function scneventsMountEvent.new(fields) return end

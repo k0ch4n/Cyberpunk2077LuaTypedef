@@ -4,6 +4,6 @@
 ---@class gamewatchdogSystem: gameIWatchdogSystem
 gamewatchdogSystem = {}
 
----@param fields? table
+---@param fields? gamewatchdogSystem
 ---@return gamewatchdogSystem
 function gamewatchdogSystem.new(fields) return end

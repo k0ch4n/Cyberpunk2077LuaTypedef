@@ -5,7 +5,7 @@
 ---@field public proficiencyType gamedataProficiencyType
 questLevelUpProficiency = {}
 
----@param fields? table
+---@param fields? questLevelUpProficiency
 ---@return questLevelUpProficiency
 function questLevelUpProficiency.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public partsInputs animCurvePathPartInput
 animCurvePathBakerAdvancedUserInput = {}
 
----@param fields? table
+---@param fields? animCurvePathBakerAdvancedUserInput
 ---@return animCurvePathBakerAdvancedUserInput
 function animCurvePathBakerAdvancedUserInput.new(fields) return end

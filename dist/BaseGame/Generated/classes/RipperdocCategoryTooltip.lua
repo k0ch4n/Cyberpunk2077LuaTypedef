@@ -10,7 +10,7 @@
 ---@field private NALabel inkWidgetReference
 RipperdocCategoryTooltip = {}
 
----@param fields? table
+---@param fields? RipperdocCategoryTooltip
 ---@return RipperdocCategoryTooltip
 function RipperdocCategoryTooltip.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public value QsTransform
 animAdditionalTransformEntry = {}
 
----@param fields? table
+---@param fields? animAdditionalTransformEntry
 ---@return animAdditionalTransformEntry
 function animAdditionalTransformEntry.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private mirroredSpeedIndicator inkImageWidgetReference
 SpeedIndicatorIconsManager = {}
 
----@param fields? table
+---@param fields? SpeedIndicatorIconsManager
 ---@return SpeedIndicatorIconsManager
 function SpeedIndicatorIconsManager.new(fields) return end
 

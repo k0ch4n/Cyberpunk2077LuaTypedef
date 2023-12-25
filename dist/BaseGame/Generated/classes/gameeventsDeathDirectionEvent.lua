@@ -5,6 +5,6 @@
 ---@field public direction gameeventsDeathDirection
 gameeventsDeathDirectionEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeathDirectionEvent
 ---@return gameeventsDeathDirectionEvent
 function gameeventsDeathDirectionEvent.new(fields) return end

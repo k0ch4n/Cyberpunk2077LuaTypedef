@@ -8,7 +8,7 @@
 ---@field public statusEffectOnVeryHardDifficulty TweakDBID
 ApplyStatusEffectBasedOnDifficultyEffector = {}
 
----@param fields? table
+---@param fields? ApplyStatusEffectBasedOnDifficultyEffector
 ---@return ApplyStatusEffectBasedOnDifficultyEffector
 function ApplyStatusEffectBasedOnDifficultyEffector.new(fields) return end
 

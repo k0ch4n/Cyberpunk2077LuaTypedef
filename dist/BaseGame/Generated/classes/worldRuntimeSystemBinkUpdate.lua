@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemBinkUpdate: worldIRuntimeSystem
 worldRuntimeSystemBinkUpdate = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemBinkUpdate
 ---@return worldRuntimeSystemBinkUpdate
 function worldRuntimeSystemBinkUpdate.new(fields) return end

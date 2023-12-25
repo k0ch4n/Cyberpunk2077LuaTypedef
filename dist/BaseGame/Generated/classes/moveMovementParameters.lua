@@ -9,6 +9,6 @@
 ---@field public rotationSpeed Float
 moveMovementParameters = {}
 
----@param fields? table
+---@param fields? moveMovementParameters
 ---@return moveMovementParameters
 function moveMovementParameters.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public overrideDilationToTutorialPreset Bool
 QuickHackTimeDilationOverride = {}
 
----@param fields? table
+---@param fields? QuickHackTimeDilationOverride
 ---@return QuickHackTimeDilationOverride
 function QuickHackTimeDilationOverride.new(fields) return end
 

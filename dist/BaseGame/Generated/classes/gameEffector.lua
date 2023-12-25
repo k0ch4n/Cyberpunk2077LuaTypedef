@@ -4,7 +4,7 @@
 ---@class gameEffector: IScriptable
 gameEffector = {}
 
----@param fields? table
+---@param fields? gameEffector
 ---@return gameEffector
 function gameEffector.new(fields) return end
 

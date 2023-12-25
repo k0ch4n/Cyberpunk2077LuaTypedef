@@ -4,6 +4,6 @@
 ---@class AIClearLineOfSightCoverSelection: AICoverSelectionParameters
 AIClearLineOfSightCoverSelection = {}
 
----@param fields? table
+---@param fields? AIClearLineOfSightCoverSelection
 ---@return AIClearLineOfSightCoverSelection
 function AIClearLineOfSightCoverSelection.new(fields) return end

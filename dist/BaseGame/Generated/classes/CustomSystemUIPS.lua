@@ -4,7 +4,7 @@
 ---@class CustomSystemUIPS: VirtualSystemPS
 CustomSystemUIPS = {}
 
----@param fields? table
+---@param fields? CustomSystemUIPS
 ---@return CustomSystemUIPS
 function CustomSystemUIPS.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public max Int32
 animAnimVariableInt = {}
 
----@param fields? table
+---@param fields? animAnimVariableInt
 ---@return animAnimVariableInt
 function animAnimVariableInt.new(fields) return end

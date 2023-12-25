@@ -4,6 +4,6 @@
 ---@class InputActivatedToUploadBlackwallEvent: redEvent
 InputActivatedToUploadBlackwallEvent = {}
 
----@param fields? table
+---@param fields? InputActivatedToUploadBlackwallEvent
 ---@return InputActivatedToUploadBlackwallEvent
 function InputActivatedToUploadBlackwallEvent.new(fields) return end

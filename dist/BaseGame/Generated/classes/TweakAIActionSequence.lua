@@ -7,7 +7,7 @@
 ---@field private sequenceIterator Int32
 TweakAIActionSequence = {}
 
----@param fields? table
+---@param fields? TweakAIActionSequence
 ---@return TweakAIActionSequence
 function TweakAIActionSequence.new(fields) return end
 

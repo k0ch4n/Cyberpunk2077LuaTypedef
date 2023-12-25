@@ -8,7 +8,7 @@
 ---@field protected playerMappin gamemappinsRemotePlayerMappin
 gameuiMinimapRemotePlayerMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapRemotePlayerMappinController
 ---@return gameuiMinimapRemotePlayerMappinController
 function gameuiMinimapRemotePlayerMappinController.new(fields) return end
 

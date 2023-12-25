@@ -8,6 +8,6 @@
 ---@field public fonts inkLanguageFont[]
 inkLanguageDefinition = {}
 
----@param fields? table
+---@param fields? inkLanguageDefinition
 ---@return inkLanguageDefinition
 function inkLanguageDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataNPCBehaviorState_Record: gamedataTweakDBRecord
 gamedataNPCBehaviorState_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCBehaviorState_Record
 ---@return gamedataNPCBehaviorState_Record
 function gamedataNPCBehaviorState_Record.new(fields) return end
 

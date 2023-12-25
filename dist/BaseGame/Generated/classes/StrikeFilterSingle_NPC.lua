@@ -6,7 +6,7 @@
 ---@field public onlyEnemies Bool
 StrikeFilterSingle_NPC = {}
 
----@param fields? table
+---@param fields? StrikeFilterSingle_NPC
 ---@return StrikeFilterSingle_NPC
 function StrikeFilterSingle_NPC.new(fields) return end
 

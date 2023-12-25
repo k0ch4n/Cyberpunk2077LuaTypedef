@@ -6,6 +6,6 @@
 ---@field public notClimbableColour Color
 worldDebugColoring_Climbable = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_Climbable
 ---@return worldDebugColoring_Climbable
 function worldDebugColoring_Climbable.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public setType gameEquipmentSetType
 SaveEquipmentSetRequest = {}
 
----@param fields? table
+---@param fields? SaveEquipmentSetRequest
 ---@return SaveEquipmentSetRequest
 function SaveEquipmentSetRequest.new(fields) return end

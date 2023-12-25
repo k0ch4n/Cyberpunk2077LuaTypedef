@@ -6,6 +6,6 @@
 ---@field public gunFalls CName
 WeaponVendingMachineSFX = {}
 
----@param fields? table
+---@param fields? WeaponVendingMachineSFX
 ---@return WeaponVendingMachineSFX
 function WeaponVendingMachineSFX.new(fields) return end

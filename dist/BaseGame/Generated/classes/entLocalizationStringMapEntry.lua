@@ -6,6 +6,6 @@
 ---@field public string LocalizationString
 entLocalizationStringMapEntry = {}
 
----@param fields? table
+---@param fields? entLocalizationStringMapEntry
 ---@return entLocalizationStringMapEntry
 function entLocalizationStringMapEntry.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field private defaultColor HDRColor
 NetworkMinigameGridCellController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameGridCellController
 ---@return NetworkMinigameGridCellController
 function NetworkMinigameGridCellController.new(fields) return end
 

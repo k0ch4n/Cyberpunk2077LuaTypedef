@@ -4,7 +4,7 @@
 ---@class ControlsActiveDecisions: BraindanceControlsTransition
 ControlsActiveDecisions = {}
 
----@param fields? table
+---@param fields? ControlsActiveDecisions
 ---@return ControlsActiveDecisions
 function ControlsActiveDecisions.new(fields) return end
 

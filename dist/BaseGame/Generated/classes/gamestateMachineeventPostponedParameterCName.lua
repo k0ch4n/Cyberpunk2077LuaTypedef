@@ -5,6 +5,6 @@
 ---@field public value CName
 gamestateMachineeventPostponedParameterCName = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventPostponedParameterCName
 ---@return gamestateMachineeventPostponedParameterCName
 function gamestateMachineeventPostponedParameterCName.new(fields) return end

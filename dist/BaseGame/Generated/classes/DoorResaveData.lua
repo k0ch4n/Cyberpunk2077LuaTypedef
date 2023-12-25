@@ -10,6 +10,6 @@
 ---@field public passcode CName
 DoorResaveData = {}
 
----@param fields? table
+---@param fields? DoorResaveData
 ---@return DoorResaveData
 function DoorResaveData.new(fields) return end

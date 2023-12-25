@@ -8,6 +8,6 @@
 ---@field public resetToMain Bool
 questCharacterManagerParameters_SetSensePreset = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetSensePreset
 ---@return questCharacterManagerParameters_SetSensePreset
 function questCharacterManagerParameters_SetSensePreset.new(fields) return end

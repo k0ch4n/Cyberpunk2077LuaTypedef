@@ -6,7 +6,7 @@
 ---@field protected turnOffSFX CName
 HoloFeederControllerPS = {}
 
----@param fields? table
+---@param fields? HoloFeederControllerPS
 ---@return HoloFeederControllerPS
 function HoloFeederControllerPS.new(fields) return end
 

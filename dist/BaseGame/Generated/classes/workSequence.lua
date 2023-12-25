@@ -7,6 +7,6 @@
 ---@field public category gamedataWorkspotCategory
 workSequence = {}
 
----@param fields? table
+---@param fields? workSequence
 ---@return workSequence
 function workSequence.new(fields) return end

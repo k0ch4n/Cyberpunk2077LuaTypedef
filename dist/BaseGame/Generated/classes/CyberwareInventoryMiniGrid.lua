@@ -25,7 +25,7 @@
 ---@field private root inkWidget
 CyberwareInventoryMiniGrid = {}
 
----@param fields? table
+---@param fields? CyberwareInventoryMiniGrid
 ---@return CyberwareInventoryMiniGrid
 function CyberwareInventoryMiniGrid.new(fields) return end
 

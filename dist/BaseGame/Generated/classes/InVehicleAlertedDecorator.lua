@@ -4,7 +4,7 @@
 ---@class InVehicleAlertedDecorator: AIVehicleTaskAbstract
 InVehicleAlertedDecorator = {}
 
----@param fields? table
+---@param fields? InVehicleAlertedDecorator
 ---@return InVehicleAlertedDecorator
 function InVehicleAlertedDecorator.new(fields) return end
 

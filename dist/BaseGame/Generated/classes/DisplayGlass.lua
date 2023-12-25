@@ -7,7 +7,7 @@
 ---@field protected isDestroyed Bool
 DisplayGlass = {}
 
----@param fields? table
+---@param fields? DisplayGlass
 ---@return DisplayGlass
 function DisplayGlass.new(fields) return end
 

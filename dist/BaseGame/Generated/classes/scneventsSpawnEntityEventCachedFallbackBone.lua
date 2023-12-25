@@ -6,6 +6,6 @@
 ---@field public modelSpaceTransform Transform
 scneventsSpawnEntityEventCachedFallbackBone = {}
 
----@param fields? table
+---@param fields? scneventsSpawnEntityEventCachedFallbackBone
 ---@return scneventsSpawnEntityEventCachedFallbackBone
 function scneventsSpawnEntityEventCachedFallbackBone.new(fields) return end

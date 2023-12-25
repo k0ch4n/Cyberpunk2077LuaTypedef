@@ -14,6 +14,6 @@
 ---@field public meshHeight Float
 worldFoliageNode = {}
 
----@param fields? table
+---@param fields? worldFoliageNode
 ---@return worldFoliageNode
 function worldFoliageNode.new(fields) return end

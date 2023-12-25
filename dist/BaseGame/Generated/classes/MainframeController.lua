@@ -4,7 +4,7 @@
 ---@class MainframeController: BaseAnimatedDeviceController
 MainframeController = {}
 
----@param fields? table
+---@param fields? MainframeController
 ---@return MainframeController
 function MainframeController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public poseCorrectionGroup animPoseCorrectionGroup
 scnPoseCorrectionEvent = {}
 
----@param fields? table
+---@param fields? scnPoseCorrectionEvent
 ---@return scnPoseCorrectionEvent
 function scnPoseCorrectionEvent.new(fields) return end

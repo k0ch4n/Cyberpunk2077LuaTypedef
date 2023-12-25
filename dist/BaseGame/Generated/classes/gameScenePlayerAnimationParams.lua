@@ -4,6 +4,6 @@
 ---@class gameScenePlayerAnimationParams
 gameScenePlayerAnimationParams = {}
 
----@param fields? table
+---@param fields? gameScenePlayerAnimationParams
 ---@return gameScenePlayerAnimationParams
 function gameScenePlayerAnimationParams.new(fields) return end

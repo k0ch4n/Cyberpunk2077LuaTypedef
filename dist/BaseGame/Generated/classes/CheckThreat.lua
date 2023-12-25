@@ -6,7 +6,7 @@
 ---@field protected targetThreat gameObject
 CheckThreat = {}
 
----@param fields? table
+---@param fields? CheckThreat
 ---@return CheckThreat
 function CheckThreat.new(fields) return end
 

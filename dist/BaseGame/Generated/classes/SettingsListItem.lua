@@ -6,7 +6,7 @@
 ---@field protected settingsSelector inkSettingsSelectorController
 SettingsListItem = {}
 
----@param fields? table
+---@param fields? SettingsListItem
 ---@return SettingsListItem
 function SettingsListItem.new(fields) return end
 

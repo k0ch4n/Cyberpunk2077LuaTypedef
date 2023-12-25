@@ -5,7 +5,7 @@
 ---@field public canBeMerged Bool
 AwacsAlertNotificationViewData = {}
 
----@param fields? table
+---@param fields? AwacsAlertNotificationViewData
 ---@return AwacsAlertNotificationViewData
 function AwacsAlertNotificationViewData.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class PlayerNotGrapplingPrereq: gameIScriptablePrereq
 PlayerNotGrapplingPrereq = {}
 
----@param fields? table
+---@param fields? PlayerNotGrapplingPrereq
 ---@return PlayerNotGrapplingPrereq
 function PlayerNotGrapplingPrereq.new(fields) return end
 

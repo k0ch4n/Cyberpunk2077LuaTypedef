@@ -5,7 +5,7 @@
 ---@field public StorageData gamebbScriptID_Variant
 StorageBlackboardDef = {}
 
----@param fields? table
+---@param fields? StorageBlackboardDef
 ---@return StorageBlackboardDef
 function StorageBlackboardDef.new(fields) return end
 

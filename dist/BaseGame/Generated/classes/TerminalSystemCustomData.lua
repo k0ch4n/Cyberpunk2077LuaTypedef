@@ -5,6 +5,6 @@
 ---@field public connectedDevices Int32
 TerminalSystemCustomData = {}
 
----@param fields? table
+---@param fields? TerminalSystemCustomData
 ---@return TerminalSystemCustomData
 function TerminalSystemCustomData.new(fields) return end

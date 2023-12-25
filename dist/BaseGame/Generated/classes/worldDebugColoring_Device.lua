@@ -5,6 +5,6 @@
 ---@field public defaultColor Color
 worldDebugColoring_Device = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_Device
 ---@return worldDebugColoring_Device
 function worldDebugColoring_Device.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public state Bool
 GrenadeSetTargetTrackerStateEvent = {}
 
----@param fields? table
+---@param fields? GrenadeSetTargetTrackerStateEvent
 ---@return GrenadeSetTargetTrackerStateEvent
 function GrenadeSetTargetTrackerStateEvent.new(fields) return end

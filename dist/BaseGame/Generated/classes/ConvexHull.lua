@@ -5,6 +5,6 @@
 ---@field public planes Vector4[]
 ConvexHull = {}
 
----@param fields? table
+---@param fields? ConvexHull
 ---@return ConvexHull
 function ConvexHull.new(fields) return end

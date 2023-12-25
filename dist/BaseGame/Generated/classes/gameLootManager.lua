@@ -4,7 +4,7 @@
 ---@class gameLootManager: gameILootManager
 gameLootManager = {}
 
----@param fields? table
+---@param fields? gameLootManager
 ---@return gameLootManager
 function gameLootManager.new(fields) return end
 

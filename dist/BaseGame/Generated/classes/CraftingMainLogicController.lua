@@ -53,7 +53,7 @@
 ---@field private progress Float
 CraftingMainLogicController = {}
 
----@param fields? table
+---@param fields? CraftingMainLogicController
 ---@return CraftingMainLogicController
 function CraftingMainLogicController.new(fields) return end
 

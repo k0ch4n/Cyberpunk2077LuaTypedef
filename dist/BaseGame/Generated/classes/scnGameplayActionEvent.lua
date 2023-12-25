@@ -6,6 +6,6 @@
 ---@field public gameplayActionData scnIGameplayActionData
 scnGameplayActionEvent = {}
 
----@param fields? table
+---@param fields? scnGameplayActionEvent
 ---@return scnGameplayActionEvent
 function scnGameplayActionEvent.new(fields) return end

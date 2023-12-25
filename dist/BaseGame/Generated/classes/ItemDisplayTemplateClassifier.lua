@@ -4,7 +4,7 @@
 ---@class ItemDisplayTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 ItemDisplayTemplateClassifier = {}
 
----@param fields? table
+---@param fields? ItemDisplayTemplateClassifier
 ---@return ItemDisplayTemplateClassifier
 function ItemDisplayTemplateClassifier.new(fields) return end
 

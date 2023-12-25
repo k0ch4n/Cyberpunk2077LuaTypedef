@@ -6,6 +6,6 @@
 ---@field public outgoingEventsFilter EFilterType
 EventsFilters = {}
 
----@param fields? table
+---@param fields? EventsFilters
 ---@return EventsFilters
 function EventsFilters.new(fields) return end

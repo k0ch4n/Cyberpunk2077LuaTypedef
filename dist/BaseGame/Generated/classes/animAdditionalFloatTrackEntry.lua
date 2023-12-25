@@ -7,6 +7,6 @@
 ---@field public values curveData
 animAdditionalFloatTrackEntry = {}
 
----@param fields? table
+---@param fields? animAdditionalFloatTrackEntry
 ---@return animAdditionalFloatTrackEntry
 function animAdditionalFloatTrackEntry.new(fields) return end

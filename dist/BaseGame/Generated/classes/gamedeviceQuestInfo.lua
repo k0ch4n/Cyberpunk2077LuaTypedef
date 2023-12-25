@@ -6,6 +6,6 @@
 ---@field public factName CName
 gamedeviceQuestInfo = {}
 
----@param fields? table
+---@param fields? gamedeviceQuestInfo
 ---@return gamedeviceQuestInfo
 function gamedeviceQuestInfo.new(fields) return end

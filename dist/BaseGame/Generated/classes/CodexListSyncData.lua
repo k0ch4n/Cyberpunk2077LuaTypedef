@@ -7,6 +7,6 @@
 ---@field public toggledLevels Int32[]
 CodexListSyncData = {}
 
----@param fields? table
+---@param fields? CodexListSyncData
 ---@return CodexListSyncData
 function CodexListSyncData.new(fields) return end

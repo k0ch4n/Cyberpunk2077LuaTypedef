@@ -6,6 +6,6 @@
 ---@field public propertyNames CName[]
 gameuiOnMiniGameStateUpdateEventAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiOnMiniGameStateUpdateEventAdvanced
 ---@return gameuiOnMiniGameStateUpdateEventAdvanced
 function gameuiOnMiniGameStateUpdateEventAdvanced.new(fields) return end

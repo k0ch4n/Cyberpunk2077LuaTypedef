@@ -5,6 +5,6 @@
 ---@field public direction Direction
 ArrowClickedEvent = {}
 
----@param fields? table
+---@param fields? ArrowClickedEvent
 ---@return ArrowClickedEvent
 function ArrowClickedEvent.new(fields) return end

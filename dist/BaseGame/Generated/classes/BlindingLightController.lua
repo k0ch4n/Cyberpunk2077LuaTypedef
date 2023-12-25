@@ -4,7 +4,7 @@
 ---@class BlindingLightController: BasicDistractionDeviceController
 BlindingLightController = {}
 
----@param fields? table
+---@param fields? BlindingLightController
 ---@return BlindingLightController
 function BlindingLightController.new(fields) return end
 

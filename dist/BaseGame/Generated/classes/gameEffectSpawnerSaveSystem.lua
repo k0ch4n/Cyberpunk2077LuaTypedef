@@ -4,6 +4,6 @@
 ---@class gameEffectSpawnerSaveSystem: gameIEffectSpawnerSaveSystem
 gameEffectSpawnerSaveSystem = {}
 
----@param fields? table
+---@param fields? gameEffectSpawnerSaveSystem
 ---@return gameEffectSpawnerSaveSystem
 function gameEffectSpawnerSaveSystem.new(fields) return end

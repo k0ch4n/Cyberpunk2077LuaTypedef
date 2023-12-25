@@ -4,6 +4,6 @@
 ---@class gameuiPhotoModeFailedToOpenEvent: redEvent
 gameuiPhotoModeFailedToOpenEvent = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeFailedToOpenEvent
 ---@return gameuiPhotoModeFailedToOpenEvent
 function gameuiPhotoModeFailedToOpenEvent.new(fields) return end

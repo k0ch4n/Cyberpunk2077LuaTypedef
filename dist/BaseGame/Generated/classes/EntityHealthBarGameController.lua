@@ -11,7 +11,7 @@
 ---@field private targetEntityID entEntityID
 EntityHealthBarGameController = {}
 
----@param fields? table
+---@param fields? EntityHealthBarGameController
 ---@return EntityHealthBarGameController
 function EntityHealthBarGameController.new(fields) return end
 

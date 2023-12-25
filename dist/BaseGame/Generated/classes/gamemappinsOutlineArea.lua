@@ -4,6 +4,6 @@
 ---@class gamemappinsOutlineArea: gamemappinsIArea
 gamemappinsOutlineArea = {}
 
----@param fields? table
+---@param fields? gamemappinsOutlineArea
 ---@return gamemappinsOutlineArea
 function gamemappinsOutlineArea.new(fields) return end

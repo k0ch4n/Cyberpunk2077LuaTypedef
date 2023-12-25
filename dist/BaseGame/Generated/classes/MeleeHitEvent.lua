@@ -8,6 +8,6 @@
 ---@field public hitBlocked Bool
 MeleeHitEvent = {}
 
----@param fields? table
+---@param fields? MeleeHitEvent
 ---@return MeleeHitEvent
 function MeleeHitEvent.new(fields) return end

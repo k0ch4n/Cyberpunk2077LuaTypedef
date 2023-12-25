@@ -13,6 +13,6 @@
 ---@field public visuals questPhoneCallVisuals
 questCallContact_NodeType = {}
 
----@param fields? table
+---@param fields? questCallContact_NodeType
 ---@return questCallContact_NodeType
 function questCallContact_NodeType.new(fields) return end

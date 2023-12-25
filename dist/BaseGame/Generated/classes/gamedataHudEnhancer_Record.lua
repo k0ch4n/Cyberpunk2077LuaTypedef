@@ -4,7 +4,7 @@
 ---@class gamedataHudEnhancer_Record: gamedataTweakDBRecord
 gamedataHudEnhancer_Record = {}
 
----@param fields? table
+---@param fields? gamedataHudEnhancer_Record
 ---@return gamedataHudEnhancer_Record
 function gamedataHudEnhancer_Record.new(fields) return end
 

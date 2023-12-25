@@ -6,6 +6,6 @@
 ---@field public IsNotifiedByMasterDevice Bool
 NotifyHighlightedDevice = {}
 
----@param fields? table
+---@param fields? NotifyHighlightedDevice
 ---@return NotifyHighlightedDevice
 function NotifyHighlightedDevice.new(fields) return end

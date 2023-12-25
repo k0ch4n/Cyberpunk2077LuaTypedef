@@ -4,6 +4,6 @@
 ---@class AICommsCallMoveToCommand: AIMoveToCommand
 AICommsCallMoveToCommand = {}
 
----@param fields? table
+---@param fields? AICommsCallMoveToCommand
 ---@return AICommsCallMoveToCommand
 function AICommsCallMoveToCommand.new(fields) return end

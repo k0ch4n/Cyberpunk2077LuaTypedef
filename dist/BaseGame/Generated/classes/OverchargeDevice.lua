@@ -4,7 +4,7 @@
 ---@class OverchargeDevice: ActionBool
 OverchargeDevice = {}
 
----@param fields? table
+---@param fields? OverchargeDevice
 ---@return OverchargeDevice
 function OverchargeDevice.new(fields) return end
 

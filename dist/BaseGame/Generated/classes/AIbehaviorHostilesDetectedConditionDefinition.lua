@@ -4,6 +4,6 @@
 ---@class AIbehaviorHostilesDetectedConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorHostilesDetectedConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorHostilesDetectedConditionDefinition
 ---@return AIbehaviorHostilesDetectedConditionDefinition
 function AIbehaviorHostilesDetectedConditionDefinition.new(fields) return end

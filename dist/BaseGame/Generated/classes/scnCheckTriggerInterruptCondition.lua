@@ -5,6 +5,6 @@
 ---@field public params scnCheckTriggerInterruptConditionParams
 scnCheckTriggerInterruptCondition = {}
 
----@param fields? table
+---@param fields? scnCheckTriggerInterruptCondition
 ---@return scnCheckTriggerInterruptCondition
 function scnCheckTriggerInterruptCondition.new(fields) return end

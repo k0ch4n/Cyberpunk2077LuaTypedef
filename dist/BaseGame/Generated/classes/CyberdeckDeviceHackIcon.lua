@@ -5,7 +5,7 @@
 ---@field protected image inkImageWidgetReference
 CyberdeckDeviceHackIcon = {}
 
----@param fields? table
+---@param fields? CyberdeckDeviceHackIcon
 ---@return CyberdeckDeviceHackIcon
 function CyberdeckDeviceHackIcon.new(fields) return end
 

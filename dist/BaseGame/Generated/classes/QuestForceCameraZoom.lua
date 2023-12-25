@@ -6,7 +6,7 @@
 ---@field private instant Bool
 QuestForceCameraZoom = {}
 
----@param fields? table
+---@param fields? QuestForceCameraZoom
 ---@return QuestForceCameraZoom
 function QuestForceCameraZoom.new(fields) return end
 

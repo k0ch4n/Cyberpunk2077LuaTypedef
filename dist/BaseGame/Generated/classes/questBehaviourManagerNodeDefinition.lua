@@ -7,6 +7,6 @@
 ---@field public newType questIBehaviourManager_NodeType
 questBehaviourManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questBehaviourManagerNodeDefinition
 ---@return questBehaviourManagerNodeDefinition
 function questBehaviourManagerNodeDefinition.new(fields) return end

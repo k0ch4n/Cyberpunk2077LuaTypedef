@@ -4,7 +4,7 @@
 ---@class SoundSystem: InteractiveMasterDevice
 SoundSystem = {}
 
----@param fields? table
+---@param fields? SoundSystem
 ---@return SoundSystem
 function SoundSystem.new(fields) return end
 

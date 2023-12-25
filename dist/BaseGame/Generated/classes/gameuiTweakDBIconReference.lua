@@ -5,6 +5,6 @@
 ---@field public iconID TweakDBID
 gameuiTweakDBIconReference = {}
 
----@param fields? table
+---@param fields? gameuiTweakDBIconReference
 ---@return gameuiTweakDBIconReference
 function gameuiTweakDBIconReference.new(fields) return end

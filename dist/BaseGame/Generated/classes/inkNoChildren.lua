@@ -4,6 +4,6 @@
 ---@class inkNoChildren: inkChildren
 inkNoChildren = {}
 
----@param fields? table
+---@param fields? inkNoChildren
 ---@return inkNoChildren
 function inkNoChildren.new(fields) return end

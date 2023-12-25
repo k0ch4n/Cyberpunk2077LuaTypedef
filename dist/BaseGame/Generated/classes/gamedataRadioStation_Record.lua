@@ -4,7 +4,7 @@
 ---@class gamedataRadioStation_Record: gamedataTweakDBRecord
 gamedataRadioStation_Record = {}
 
----@param fields? table
+---@param fields? gamedataRadioStation_Record
 ---@return gamedataRadioStation_Record
 function gamedataRadioStation_Record.new(fields) return end
 

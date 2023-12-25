@@ -4,7 +4,7 @@
 ---@class gameScanningController: IScriptable
 gameScanningController = {}
 
----@param fields? table
+---@param fields? gameScanningController
 ---@return gameScanningController
 function gameScanningController.new(fields) return end
 

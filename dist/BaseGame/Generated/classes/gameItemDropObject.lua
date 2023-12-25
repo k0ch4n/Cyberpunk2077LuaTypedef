@@ -8,7 +8,7 @@
 ---@field private spawnedItemID gameItemID
 gameItemDropObject = {}
 
----@param fields? table
+---@param fields? gameItemDropObject
 ---@return gameItemDropObject
 function gameItemDropObject.new(fields) return end
 

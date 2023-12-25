@@ -4,6 +4,6 @@
 ---@class ActivateLink: redEvent
 ActivateLink = {}
 
----@param fields? table
+---@param fields? ActivateLink
 ---@return ActivateLink
 function ActivateLink.new(fields) return end

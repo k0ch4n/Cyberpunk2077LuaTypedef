@@ -6,6 +6,6 @@
 ---@field public data IScriptable
 inkStepperData = {}
 
----@param fields? table
+---@param fields? inkStepperData
 ---@return inkStepperData
 function inkStepperData.new(fields) return end

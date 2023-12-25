@@ -6,6 +6,6 @@
 ---@field public trackedQuestPath Uint32
 gameJournalManagerSharedState = {}
 
----@param fields? table
+---@param fields? gameJournalManagerSharedState
 ---@return gameJournalManagerSharedState
 function gameJournalManagerSharedState.new(fields) return end

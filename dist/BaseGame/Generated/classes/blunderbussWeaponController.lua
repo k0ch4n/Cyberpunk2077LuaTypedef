@@ -16,7 +16,7 @@
 ---@field private blackboard gameIBlackboard
 blunderbussWeaponController = {}
 
----@param fields? table
+---@param fields? blunderbussWeaponController
 ---@return blunderbussWeaponController
 function blunderbussWeaponController.new(fields) return end
 

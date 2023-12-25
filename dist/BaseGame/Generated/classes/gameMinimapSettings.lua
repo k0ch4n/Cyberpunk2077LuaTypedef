@@ -20,6 +20,6 @@
 ---@field public smoothingEnabled Bool
 gameMinimapSettings = {}
 
----@param fields? table
+---@param fields? gameMinimapSettings
 ---@return gameMinimapSettings
 function gameMinimapSettings.new(fields) return end

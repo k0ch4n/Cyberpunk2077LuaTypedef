@@ -4,6 +4,6 @@
 ---@class EnablePlayerVisibilityEvent: redEvent
 EnablePlayerVisibilityEvent = {}
 
----@param fields? table
+---@param fields? EnablePlayerVisibilityEvent
 ---@return EnablePlayerVisibilityEvent
 function EnablePlayerVisibilityEvent.new(fields) return end

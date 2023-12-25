@@ -8,7 +8,7 @@
 ---@field protected shortGlitchDelayID gameDelayID
 VendingMachine = {}
 
----@param fields? table
+---@param fields? VendingMachine
 ---@return VendingMachine
 function VendingMachine.new(fields) return end
 

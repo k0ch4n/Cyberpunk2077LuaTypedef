@@ -5,7 +5,7 @@
 ---@field public npc NPCPuppet
 NPCPoiseListener = {}
 
----@param fields? table
+---@param fields? NPCPoiseListener
 ---@return NPCPoiseListener
 function NPCPoiseListener.new(fields) return end
 

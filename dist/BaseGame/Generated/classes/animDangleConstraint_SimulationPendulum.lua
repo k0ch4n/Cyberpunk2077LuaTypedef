@@ -28,6 +28,6 @@
 ---@field public sinOfHalfZAngle Float
 animDangleConstraint_SimulationPendulum = {}
 
----@param fields? table
+---@param fields? animDangleConstraint_SimulationPendulum
 ---@return animDangleConstraint_SimulationPendulum
 function animDangleConstraint_SimulationPendulum.new(fields) return end

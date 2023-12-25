@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionDisableCollider_Record: gamedataAISubAction_Record
 gamedataAISubActionDisableCollider_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionDisableCollider_Record
 ---@return gamedataAISubActionDisableCollider_Record
 function gamedataAISubActionDisableCollider_Record.new(fields) return end
 

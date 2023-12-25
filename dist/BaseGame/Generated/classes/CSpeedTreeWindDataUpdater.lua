@@ -4,6 +4,6 @@
 ---@class CSpeedTreeWindDataUpdater: ISceneStorageCustomData
 CSpeedTreeWindDataUpdater = {}
 
----@param fields? table
+---@param fields? CSpeedTreeWindDataUpdater
 ---@return CSpeedTreeWindDataUpdater
 function CSpeedTreeWindDataUpdater.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public isSetExclusive Bool
 gameSetExclusiveFocusClueEntityEvent = {}
 
----@param fields? table
+---@param fields? gameSetExclusiveFocusClueEntityEvent
 ---@return gameSetExclusiveFocusClueEntityEvent
 function gameSetExclusiveFocusClueEntityEvent.new(fields) return end

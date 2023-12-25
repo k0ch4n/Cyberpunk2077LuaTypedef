@@ -7,7 +7,7 @@
 ---@field public lowGravityStateMachineName CName
 GravityChangeTrigger = {}
 
----@param fields? table
+---@param fields? GravityChangeTrigger
 ---@return GravityChangeTrigger
 function GravityChangeTrigger.new(fields) return end
 

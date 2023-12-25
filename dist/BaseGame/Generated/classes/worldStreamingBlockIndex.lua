@@ -6,6 +6,6 @@
 ---@field public oup worldStreamingDataGroup
 worldStreamingBlockIndex = {}
 
----@param fields? table
+---@param fields? worldStreamingBlockIndex
 ---@return worldStreamingBlockIndex
 function worldStreamingBlockIndex.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public counterText inkTextWidgetReference
 gameuiarcadeTankCounterHUDController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankCounterHUDController
 ---@return gameuiarcadeTankCounterHUDController
 function gameuiarcadeTankCounterHUDController.new(fields) return end

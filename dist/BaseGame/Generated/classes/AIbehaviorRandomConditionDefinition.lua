@@ -5,6 +5,6 @@
 ---@field public chance Float
 AIbehaviorRandomConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorRandomConditionDefinition
 ---@return AIbehaviorRandomConditionDefinition
 function AIbehaviorRandomConditionDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestSetLiftTravelTimeOverride: ActionFloat
 QuestSetLiftTravelTimeOverride = {}
 
----@param fields? table
+---@param fields? QuestSetLiftTravelTimeOverride
 ---@return QuestSetLiftTravelTimeOverride
 function QuestSetLiftTravelTimeOverride.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameSquadMemberComponent: gameComponent
 gameSquadMemberComponent = {}
 
----@param fields? table
+---@param fields? gameSquadMemberComponent
 ---@return gameSquadMemberComponent
 function gameSquadMemberComponent.new(fields) return end
 

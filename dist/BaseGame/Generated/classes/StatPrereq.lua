@@ -12,7 +12,7 @@
 ---@field public objToCheck CName
 StatPrereq = {}
 
----@param fields? table
+---@param fields? StatPrereq
 ---@return StatPrereq
 function StatPrereq.new(fields) return end
 

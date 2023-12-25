@@ -4,7 +4,7 @@
 ---@class NPCIncapacitatedPrereq: gameIScriptablePrereq
 NPCIncapacitatedPrereq = {}
 
----@param fields? table
+---@param fields? NPCIncapacitatedPrereq
 ---@return NPCIncapacitatedPrereq
 function NPCIncapacitatedPrereq.new(fields) return end
 

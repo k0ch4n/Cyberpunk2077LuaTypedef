@@ -4,7 +4,7 @@
 ---@class gamedataConsumableType_Record: gamedataTweakDBRecord
 gamedataConsumableType_Record = {}
 
----@param fields? table
+---@param fields? gamedataConsumableType_Record
 ---@return gamedataConsumableType_Record
 function gamedataConsumableType_Record.new(fields) return end
 

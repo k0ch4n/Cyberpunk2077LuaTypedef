@@ -4,6 +4,6 @@
 ---@class gameeventsDeviceEndPlayerCameraControlEvent: redEvent
 gameeventsDeviceEndPlayerCameraControlEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeviceEndPlayerCameraControlEvent
 ---@return gameeventsDeviceEndPlayerCameraControlEvent
 function gameeventsDeviceEndPlayerCameraControlEvent.new(fields) return end

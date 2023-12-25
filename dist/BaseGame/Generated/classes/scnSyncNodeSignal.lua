@@ -8,6 +8,6 @@
 ---@field public numRuns Uint16
 scnSyncNodeSignal = {}
 
----@param fields? table
+---@param fields? scnSyncNodeSignal
 ---@return scnSyncNodeSignal
 function scnSyncNodeSignal.new(fields) return end

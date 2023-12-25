@@ -11,6 +11,6 @@
 ---@field public rtpcValue IEvaluatorFloat
 effectTrackItemSound = {}
 
----@param fields? table
+---@param fields? effectTrackItemSound
 ---@return effectTrackItemSound
 function effectTrackItemSound.new(fields) return end

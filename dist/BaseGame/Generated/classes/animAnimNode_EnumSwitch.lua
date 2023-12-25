@@ -5,6 +5,6 @@
 ---@field public enumName CName
 animAnimNode_EnumSwitch = {}
 
----@param fields? table
+---@param fields? animAnimNode_EnumSwitch
 ---@return animAnimNode_EnumSwitch
 function animAnimNode_EnumSwitch.new(fields) return end

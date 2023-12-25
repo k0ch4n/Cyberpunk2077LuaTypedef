@@ -9,7 +9,7 @@
 ---@field protected callbackID Uint32
 SmartHouseControllerPS = {}
 
----@param fields? table
+---@param fields? SmartHouseControllerPS
 ---@return SmartHouseControllerPS
 function SmartHouseControllerPS.new(fields) return end
 

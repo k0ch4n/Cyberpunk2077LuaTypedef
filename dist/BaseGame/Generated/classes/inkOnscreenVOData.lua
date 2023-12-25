@@ -5,6 +5,6 @@
 ---@field public text CRUID
 inkOnscreenVOData = {}
 
----@param fields? table
+---@param fields? inkOnscreenVOData
 ---@return inkOnscreenVOData
 function inkOnscreenVOData.new(fields) return end

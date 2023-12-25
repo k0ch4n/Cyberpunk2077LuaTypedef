@@ -18,6 +18,6 @@
 ---@field public trajectoryLOD scnAnimationMotionSample[]
 scnPlaySkAnimRootMotionData = {}
 
----@param fields? table
+---@param fields? scnPlaySkAnimRootMotionData
 ---@return scnPlaySkAnimRootMotionData
 function scnPlaySkAnimRootMotionData.new(fields) return end

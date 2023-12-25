@@ -4,7 +4,7 @@
 ---@class NumericDisplay: InteractiveDevice
 NumericDisplay = {}
 
----@param fields? table
+---@param fields? NumericDisplay
 ---@return NumericDisplay
 function NumericDisplay.new(fields) return end
 

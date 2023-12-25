@@ -5,6 +5,6 @@
 ---@field public amount Uint32
 cpBumpEvent = {}
 
----@param fields? table
+---@param fields? cpBumpEvent
 ---@return cpBumpEvent
 function cpBumpEvent.new(fields) return end

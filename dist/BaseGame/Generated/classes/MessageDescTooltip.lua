@@ -7,7 +7,7 @@
 ---@field protected descriptionLine inkWidgetReference
 MessageDescTooltip = {}
 
----@param fields? table
+---@param fields? MessageDescTooltip
 ---@return MessageDescTooltip
 function MessageDescTooltip.new(fields) return end
 

@@ -13,7 +13,7 @@
 ---@field private ownerID entEntityID
 DetectionMeterEffector = {}
 
----@param fields? table
+---@param fields? DetectionMeterEffector
 ---@return DetectionMeterEffector
 function DetectionMeterEffector.new(fields) return end
 

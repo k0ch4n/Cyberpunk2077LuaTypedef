@@ -14,7 +14,7 @@
 ---@field public roof Float
 VehicleQuestVisualDestructionEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestVisualDestructionEvent
 ---@return VehicleQuestVisualDestructionEvent
 function VehicleQuestVisualDestructionEvent.new(fields) return end
 

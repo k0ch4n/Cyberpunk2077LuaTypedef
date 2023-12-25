@@ -4,7 +4,7 @@
 ---@class gamedataReactionPreset_Record: gamedataTweakDBRecord
 gamedataReactionPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataReactionPreset_Record
 ---@return gamedataReactionPreset_Record
 function gamedataReactionPreset_Record.new(fields) return end
 

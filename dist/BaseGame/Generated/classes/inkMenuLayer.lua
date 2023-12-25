@@ -4,6 +4,6 @@
 ---@class inkMenuLayer: inkFullScreenLayer
 inkMenuLayer = {}
 
----@param fields? table
+---@param fields? inkMenuLayer
 ---@return inkMenuLayer
 function inkMenuLayer.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class UnstablePlatform: BaseAnimatedDevice
 UnstablePlatform = {}
 
----@param fields? table
+---@param fields? UnstablePlatform
 ---@return UnstablePlatform
 function UnstablePlatform.new(fields) return end
 

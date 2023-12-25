@@ -7,7 +7,7 @@
 ---@field protected menuListController inkListController
 gameuiMenuItemListGameController = {}
 
----@param fields? table
+---@param fields? gameuiMenuItemListGameController
 ---@return gameuiMenuItemListGameController
 function gameuiMenuItemListGameController.new(fields) return end
 

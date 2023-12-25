@@ -6,6 +6,6 @@
 ---@field public jammedWeaponStartTimeStamp Float
 WeaponJammedAction = {}
 
----@param fields? table
+---@param fields? WeaponJammedAction
 ---@return WeaponJammedAction
 function WeaponJammedAction.new(fields) return end

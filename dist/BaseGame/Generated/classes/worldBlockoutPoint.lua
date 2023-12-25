@@ -8,6 +8,6 @@
 ---@field public isFree Bool
 worldBlockoutPoint = {}
 
----@param fields? table
+---@param fields? worldBlockoutPoint
 ---@return worldBlockoutPoint
 function worldBlockoutPoint.new(fields) return end

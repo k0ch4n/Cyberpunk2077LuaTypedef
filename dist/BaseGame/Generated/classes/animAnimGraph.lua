@@ -19,6 +19,6 @@
 ---@field public hackAlwaysSample Bool
 animAnimGraph = {}
 
----@param fields? table
+---@param fields? animAnimGraph
 ---@return animAnimGraph
 function animAnimGraph.new(fields) return end

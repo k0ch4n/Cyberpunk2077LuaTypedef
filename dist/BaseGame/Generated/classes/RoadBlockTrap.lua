@@ -5,7 +5,7 @@
 ---@field protected areaComponent gameStaticTriggerAreaComponent
 RoadBlockTrap = {}
 
----@param fields? table
+---@param fields? RoadBlockTrap
 ---@return RoadBlockTrap
 function RoadBlockTrap.new(fields) return end
 

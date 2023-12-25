@@ -7,7 +7,7 @@
 ---@field private timeToNextUpdate Float
 StrikeDuration_Debug_VDB = {}
 
----@param fields? table
+---@param fields? StrikeDuration_Debug_VDB
 ---@return StrikeDuration_Debug_VDB
 function StrikeDuration_Debug_VDB.new(fields) return end
 

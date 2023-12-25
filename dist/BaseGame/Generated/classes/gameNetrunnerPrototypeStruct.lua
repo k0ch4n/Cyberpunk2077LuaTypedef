@@ -6,6 +6,6 @@
 ---@field public entityTemplate entEntityTemplate
 gameNetrunnerPrototypeStruct = {}
 
----@param fields? table
+---@param fields? gameNetrunnerPrototypeStruct
 ---@return gameNetrunnerPrototypeStruct
 function gameNetrunnerPrototypeStruct.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class entAnimatedRagdollNotifyDisabledEvent: redEvent
 entAnimatedRagdollNotifyDisabledEvent = {}
 
----@param fields? table
+---@param fields? entAnimatedRagdollNotifyDisabledEvent
 ---@return entAnimatedRagdollNotifyDisabledEvent
 function entAnimatedRagdollNotifyDisabledEvent.new(fields) return end

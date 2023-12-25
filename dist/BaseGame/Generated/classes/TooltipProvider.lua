@@ -6,7 +6,7 @@
 ---@field private visible Bool
 TooltipProvider = {}
 
----@param fields? table
+---@param fields? TooltipProvider
 ---@return TooltipProvider
 function TooltipProvider.new(fields) return end
 

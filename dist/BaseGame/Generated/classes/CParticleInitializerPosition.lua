@@ -7,6 +7,6 @@
 ---@field public worldSpace Bool
 CParticleInitializerPosition = {}
 
----@param fields? table
+---@param fields? CParticleInitializerPosition
 ---@return CParticleInitializerPosition
 function CParticleInitializerPosition.new(fields) return end

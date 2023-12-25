@@ -5,6 +5,6 @@
 ---@field public target entEntity
 ReevaluateDetectionOverwriteEvent = {}
 
----@param fields? table
+---@param fields? ReevaluateDetectionOverwriteEvent
 ---@return ReevaluateDetectionOverwriteEvent
 function ReevaluateDetectionOverwriteEvent.new(fields) return end

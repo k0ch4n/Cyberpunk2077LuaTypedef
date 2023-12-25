@@ -6,6 +6,6 @@
 ---@field public defaultValue NodeRef
 LibTreeDefTreeVariableNodeRef = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableNodeRef
 ---@return LibTreeDefTreeVariableNodeRef
 function LibTreeDefTreeVariableNodeRef.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public resistanceTooltip inkFlexWidgetReference
 CyberwareAttributes_ResistancesStruct = {}
 
----@param fields? table
+---@param fields? CyberwareAttributes_ResistancesStruct
 ---@return CyberwareAttributes_ResistancesStruct
 function CyberwareAttributes_ResistancesStruct.new(fields) return end

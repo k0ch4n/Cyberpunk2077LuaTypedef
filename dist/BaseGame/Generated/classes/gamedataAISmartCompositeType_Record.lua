@@ -4,7 +4,7 @@
 ---@class gamedataAISmartCompositeType_Record: gamedataTweakDBRecord
 gamedataAISmartCompositeType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISmartCompositeType_Record
 ---@return gamedataAISmartCompositeType_Record
 function gamedataAISmartCompositeType_Record.new(fields) return end
 

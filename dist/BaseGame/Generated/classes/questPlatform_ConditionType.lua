@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questPlatform_ConditionType = {}
 
----@param fields? table
+---@param fields? questPlatform_ConditionType
 ---@return questPlatform_ConditionType
 function questPlatform_ConditionType.new(fields) return end

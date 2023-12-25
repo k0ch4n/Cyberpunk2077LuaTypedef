@@ -5,6 +5,6 @@
 ---@field public limit LibTreeDefInt32
 AITreeNodeRepeatDefinition = {}
 
----@param fields? table
+---@param fields? AITreeNodeRepeatDefinition
 ---@return AITreeNodeRepeatDefinition
 function AITreeNodeRepeatDefinition.new(fields) return end

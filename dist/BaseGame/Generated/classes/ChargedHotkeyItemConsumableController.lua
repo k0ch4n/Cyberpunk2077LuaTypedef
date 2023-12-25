@@ -5,7 +5,7 @@
 ---@field public c_statPool gamedataStatPoolType
 ChargedHotkeyItemConsumableController = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemConsumableController
 ---@return ChargedHotkeyItemConsumableController
 function ChargedHotkeyItemConsumableController.new(fields) return end
 

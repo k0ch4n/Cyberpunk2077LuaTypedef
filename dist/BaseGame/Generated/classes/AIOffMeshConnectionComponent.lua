@@ -6,7 +6,7 @@
 ---@field public agentSize NavGenAgentSize
 AIOffMeshConnectionComponent = {}
 
----@param fields? table
+---@param fields? AIOffMeshConnectionComponent
 ---@return AIOffMeshConnectionComponent
 function AIOffMeshConnectionComponent.new(fields) return end
 

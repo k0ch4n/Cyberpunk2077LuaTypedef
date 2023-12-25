@@ -15,6 +15,6 @@
 ---@field public facePart Uint8
 animImportFacialMainPoseDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialMainPoseDesc
 ---@return animImportFacialMainPoseDesc
 function animImportFacialMainPoseDesc.new(fields) return end

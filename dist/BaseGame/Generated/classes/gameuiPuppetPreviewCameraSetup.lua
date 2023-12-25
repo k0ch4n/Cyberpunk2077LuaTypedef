@@ -7,6 +7,6 @@
 ---@field public interpolationTime Float
 gameuiPuppetPreviewCameraSetup = {}
 
----@param fields? table
+---@param fields? gameuiPuppetPreviewCameraSetup
 ---@return gameuiPuppetPreviewCameraSetup
 function gameuiPuppetPreviewCameraSetup.new(fields) return end

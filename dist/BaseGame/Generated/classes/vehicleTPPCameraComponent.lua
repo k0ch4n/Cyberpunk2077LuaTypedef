@@ -4,6 +4,6 @@
 ---@class vehicleTPPCameraComponent: gameCameraComponent
 vehicleTPPCameraComponent = {}
 
----@param fields? table
+---@param fields? vehicleTPPCameraComponent
 ---@return vehicleTPPCameraComponent
 function vehicleTPPCameraComponent.new(fields) return end

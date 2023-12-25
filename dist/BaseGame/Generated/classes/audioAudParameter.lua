@@ -10,6 +10,6 @@
 ---@field public exitCurveTime Float
 audioAudParameter = {}
 
----@param fields? table
+---@param fields? audioAudParameter
 ---@return audioAudParameter
 function audioAudParameter.new(fields) return end

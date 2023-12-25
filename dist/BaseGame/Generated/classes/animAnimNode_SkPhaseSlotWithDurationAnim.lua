@@ -6,6 +6,6 @@
 ---@field public actionAnimDatabaseRef animActionAnimDatabase
 animAnimNode_SkPhaseSlotWithDurationAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkPhaseSlotWithDurationAnim
 ---@return animAnimNode_SkPhaseSlotWithDurationAnim
 function animAnimNode_SkPhaseSlotWithDurationAnim.new(fields) return end

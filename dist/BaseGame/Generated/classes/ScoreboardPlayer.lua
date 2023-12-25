@@ -6,6 +6,6 @@
 ---@field public playerScore Int32
 ScoreboardPlayer = {}
 
----@param fields? table
+---@param fields? ScoreboardPlayer
 ---@return ScoreboardPlayer
 function ScoreboardPlayer.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameOffPavement: redEvent
 gameOffPavement = {}
 
----@param fields? table
+---@param fields? gameOffPavement
 ---@return gameOffPavement
 function gameOffPavement.new(fields) return end

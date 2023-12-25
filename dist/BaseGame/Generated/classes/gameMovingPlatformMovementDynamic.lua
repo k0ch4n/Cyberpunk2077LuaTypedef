@@ -5,6 +5,6 @@
 ---@field public curveName CName
 gameMovingPlatformMovementDynamic = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformMovementDynamic
 ---@return gameMovingPlatformMovementDynamic
 function gameMovingPlatformMovementDynamic.new(fields) return end

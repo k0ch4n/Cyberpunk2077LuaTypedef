@@ -4,6 +4,6 @@
 ---@class inkButtonProgressChangedCallback: inkCallbackBase
 inkButtonProgressChangedCallback = {}
 
----@param fields? table
+---@param fields? inkButtonProgressChangedCallback
 ---@return inkButtonProgressChangedCallback
 function inkButtonProgressChangedCallback.new(fields) return end

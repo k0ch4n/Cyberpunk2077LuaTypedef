@@ -5,6 +5,6 @@
 ---@field public bones CName
 entDismemberedBodyPartEvent = {}
 
----@param fields? table
+---@param fields? entDismemberedBodyPartEvent
 ---@return entDismemberedBodyPartEvent
 function entDismemberedBodyPartEvent.new(fields) return end

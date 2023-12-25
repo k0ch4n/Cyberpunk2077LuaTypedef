@@ -4,6 +4,6 @@
 ---@class gameStatsBundle
 gameStatsBundle = {}
 
----@param fields? table
+---@param fields? gameStatsBundle
 ---@return gameStatsBundle
 function gameStatsBundle.new(fields) return end

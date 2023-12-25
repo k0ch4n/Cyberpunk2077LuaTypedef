@@ -4,6 +4,6 @@
 ---@class gameWorldBoundaryNodeInstance: worldAreaShapeNodeInstance
 gameWorldBoundaryNodeInstance = {}
 
----@param fields? table
+---@param fields? gameWorldBoundaryNodeInstance
 ---@return gameWorldBoundaryNodeInstance
 function gameWorldBoundaryNodeInstance.new(fields) return end

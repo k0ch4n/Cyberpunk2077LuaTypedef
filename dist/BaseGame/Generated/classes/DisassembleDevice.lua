@@ -4,7 +4,7 @@
 ---@class DisassembleDevice: ActionBool
 DisassembleDevice = {}
 
----@param fields? table
+---@param fields? DisassembleDevice
 ---@return DisassembleDevice
 function DisassembleDevice.new(fields) return end
 

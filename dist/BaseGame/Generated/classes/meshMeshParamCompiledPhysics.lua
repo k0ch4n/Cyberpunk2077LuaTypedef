@@ -5,6 +5,6 @@
 ---@field public collection physicsDeferredCollection
 meshMeshParamCompiledPhysics = {}
 
----@param fields? table
+---@param fields? meshMeshParamCompiledPhysics
 ---@return meshMeshParamCompiledPhysics
 function meshMeshParamCompiledPhysics.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field private isClosing Bool
 TarotPreviewGameController = {}
 
----@param fields? table
+---@param fields? TarotPreviewGameController
 ---@return TarotPreviewGameController
 function TarotPreviewGameController.new(fields) return end
 

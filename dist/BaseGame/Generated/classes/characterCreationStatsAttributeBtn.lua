@@ -20,7 +20,7 @@
 ---@field private inputDisabled Bool
 characterCreationStatsAttributeBtn = {}
 
----@param fields? table
+---@param fields? characterCreationStatsAttributeBtn
 ---@return characterCreationStatsAttributeBtn
 function characterCreationStatsAttributeBtn.new(fields) return end
 

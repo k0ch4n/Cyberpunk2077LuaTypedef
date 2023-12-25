@@ -7,7 +7,7 @@
 ---@field public isActive Bool
 gameweaponAnimFeature_LoopableAction = {}
 
----@param fields? table
+---@param fields? gameweaponAnimFeature_LoopableAction
 ---@return gameweaponAnimFeature_LoopableAction
 function gameweaponAnimFeature_LoopableAction.new(fields) return end
 

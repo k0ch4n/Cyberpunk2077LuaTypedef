@@ -5,7 +5,7 @@
 ---@field public SomeNameProperty CName
 TestStackPassiveExpression = {}
 
----@param fields? table
+---@param fields? TestStackPassiveExpression
 ---@return TestStackPassiveExpression
 function TestStackPassiveExpression.new(fields) return end
 

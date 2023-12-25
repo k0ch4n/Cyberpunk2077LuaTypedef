@@ -5,6 +5,6 @@
 ---@field public cameraSettings gameuiEntityPreviewCameraSettings
 gameuiEntityPreviewGameObject = {}
 
----@param fields? table
+---@param fields? gameuiEntityPreviewGameObject
 ---@return gameuiEntityPreviewGameObject
 function gameuiEntityPreviewGameObject.new(fields) return end

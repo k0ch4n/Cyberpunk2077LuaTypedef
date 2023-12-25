@@ -7,6 +7,6 @@
 ---@field public unt Uint32
 rendOpacityMicromapUsageCounts = {}
 
----@param fields? table
+---@param fields? rendOpacityMicromapUsageCounts
 ---@return rendOpacityMicromapUsageCounts
 function rendOpacityMicromapUsageCounts.new(fields) return end

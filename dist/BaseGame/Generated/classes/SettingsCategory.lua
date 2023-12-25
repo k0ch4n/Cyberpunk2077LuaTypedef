@@ -9,6 +9,6 @@
 ---@field public groupPath CName
 SettingsCategory = {}
 
----@param fields? table
+---@param fields? SettingsCategory
 ---@return SettingsCategory
 function SettingsCategory.new(fields) return end

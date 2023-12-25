@@ -4,6 +4,6 @@
 ---@class BuyRequest: TransactionRequest
 BuyRequest = {}
 
----@param fields? table
+---@param fields? BuyRequest
 ---@return BuyRequest
 function BuyRequest.new(fields) return end

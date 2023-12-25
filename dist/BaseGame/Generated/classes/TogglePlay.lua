@@ -4,7 +4,7 @@
 ---@class TogglePlay: ActionBool
 TogglePlay = {}
 
----@param fields? table
+---@param fields? TogglePlay
 ---@return TogglePlay
 function TogglePlay.new(fields) return end
 

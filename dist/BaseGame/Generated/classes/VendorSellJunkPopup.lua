@@ -24,7 +24,7 @@
 ---@field private closeData VendorSellJunkPopupCloseData
 VendorSellJunkPopup = {}
 
----@param fields? table
+---@param fields? VendorSellJunkPopup
 ---@return VendorSellJunkPopup
 function VendorSellJunkPopup.new(fields) return end
 

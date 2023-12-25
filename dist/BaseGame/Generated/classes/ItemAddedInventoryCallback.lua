@@ -5,7 +5,7 @@
 ---@field public notificationQueue ItemsNotificationQueue
 ItemAddedInventoryCallback = {}
 
----@param fields? table
+---@param fields? ItemAddedInventoryCallback
 ---@return ItemAddedInventoryCallback
 function ItemAddedInventoryCallback.new(fields) return end
 

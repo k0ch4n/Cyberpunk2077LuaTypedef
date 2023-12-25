@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemCamera: worldIRuntimeSystem
 worldRuntimeSystemCamera = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemCamera
 ---@return worldRuntimeSystemCamera
 function worldRuntimeSystemCamera.new(fields) return end

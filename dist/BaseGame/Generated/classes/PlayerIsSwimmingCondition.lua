@@ -4,7 +4,7 @@
 ---@class PlayerIsSwimmingCondition: gameinteractionsInteractionScriptedCondition
 PlayerIsSwimmingCondition = {}
 
----@param fields? table
+---@param fields? PlayerIsSwimmingCondition
 ---@return PlayerIsSwimmingCondition
 function PlayerIsSwimmingCondition.new(fields) return end
 

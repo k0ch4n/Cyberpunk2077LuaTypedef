@@ -10,7 +10,7 @@
 ---@field private gameInstance ScriptGameInstance
 ProgressionWidgetGameController = {}
 
----@param fields? table
+---@param fields? ProgressionWidgetGameController
 ---@return ProgressionWidgetGameController
 function ProgressionWidgetGameController.new(fields) return end
 

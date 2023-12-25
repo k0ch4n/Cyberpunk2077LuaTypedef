@@ -4,7 +4,7 @@
 ---@class gamedataPoolValueModifier_Record: gamedataTweakDBRecord
 gamedataPoolValueModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataPoolValueModifier_Record
 ---@return gamedataPoolValueModifier_Record
 function gamedataPoolValueModifier_Record.new(fields) return end
 

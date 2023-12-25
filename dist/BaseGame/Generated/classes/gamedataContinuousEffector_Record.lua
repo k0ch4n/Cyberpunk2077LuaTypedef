@@ -4,7 +4,7 @@
 ---@class gamedataContinuousEffector_Record: gamedataEffector_Record
 gamedataContinuousEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataContinuousEffector_Record
 ---@return gamedataContinuousEffector_Record
 function gamedataContinuousEffector_Record.new(fields) return end
 

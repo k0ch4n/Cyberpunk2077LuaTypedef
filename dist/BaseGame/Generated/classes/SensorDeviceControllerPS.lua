@@ -30,7 +30,7 @@
 ---@field protected ignoreTargetTrackerComponent Bool
 SensorDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? SensorDeviceControllerPS
 ---@return SensorDeviceControllerPS
 function SensorDeviceControllerPS.new(fields) return end
 

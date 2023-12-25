@@ -6,7 +6,7 @@
 ---@field private updateEvt UpdateDamageChangeEvent
 DamageStatListener = {}
 
----@param fields? table
+---@param fields? DamageStatListener
 ---@return DamageStatListener
 function DamageStatListener.new(fields) return end
 

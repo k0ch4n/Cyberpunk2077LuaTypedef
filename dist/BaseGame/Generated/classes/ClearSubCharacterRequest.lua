@@ -4,6 +4,6 @@
 ---@class ClearSubCharacterRequest: gameScriptableSystemRequest
 ClearSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? ClearSubCharacterRequest
 ---@return ClearSubCharacterRequest
 function ClearSubCharacterRequest.new(fields) return end

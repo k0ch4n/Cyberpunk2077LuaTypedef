@@ -4,7 +4,7 @@
 ---@class gamedataStimPropagation_Record: gamedataTweakDBRecord
 gamedataStimPropagation_Record = {}
 
----@param fields? table
+---@param fields? gamedataStimPropagation_Record
 ---@return gamedataStimPropagation_Record
 function gamedataStimPropagation_Record.new(fields) return end
 

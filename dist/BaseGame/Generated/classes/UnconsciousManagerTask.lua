@@ -4,7 +4,7 @@
 ---@class UnconsciousManagerTask: StatusEffectTasks
 UnconsciousManagerTask = {}
 
----@param fields? table
+---@param fields? UnconsciousManagerTask
 ---@return UnconsciousManagerTask
 function UnconsciousManagerTask.new(fields) return end
 

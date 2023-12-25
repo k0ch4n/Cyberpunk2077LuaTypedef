@@ -4,6 +4,6 @@
 ---@class questGatherTriggerCondition: questTriggerCondition
 questGatherTriggerCondition = {}
 
----@param fields? table
+---@param fields? questGatherTriggerCondition
 ---@return questGatherTriggerCondition
 function questGatherTriggerCondition.new(fields) return end

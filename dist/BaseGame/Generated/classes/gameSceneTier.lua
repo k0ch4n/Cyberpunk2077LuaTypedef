@@ -4,7 +4,7 @@
 ---@class gameSceneTier: senseStimuliData
 gameSceneTier = {}
 
----@param fields? table
+---@param fields? gameSceneTier
 ---@return gameSceneTier
 function gameSceneTier.new(fields) return end
 

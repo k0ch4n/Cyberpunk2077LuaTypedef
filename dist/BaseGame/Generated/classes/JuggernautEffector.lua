@@ -7,7 +7,7 @@
 ---@field public statusEffectSystem gameStatusEffectSystem
 JuggernautEffector = {}
 
----@param fields? table
+---@param fields? JuggernautEffector
 ---@return JuggernautEffector
 function JuggernautEffector.new(fields) return end
 

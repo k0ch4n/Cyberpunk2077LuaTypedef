@@ -5,6 +5,6 @@
 ---@field public value Int32
 animAnimNode_IntConstant = {}
 
----@param fields? table
+---@param fields? animAnimNode_IntConstant
 ---@return animAnimNode_IntConstant
 function animAnimNode_IntConstant.new(fields) return end

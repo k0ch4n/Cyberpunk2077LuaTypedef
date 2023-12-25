@@ -5,7 +5,7 @@
 ---@field public categoryName LocalizationString
 gameJournalCodexCategory = {}
 
----@param fields? table
+---@param fields? gameJournalCodexCategory
 ---@return gameJournalCodexCategory
 function gameJournalCodexCategory.new(fields) return end
 

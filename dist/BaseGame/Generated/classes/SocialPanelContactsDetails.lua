@@ -7,7 +7,7 @@
 ---@field private ContactDescriptionRef inkTextWidgetReference
 SocialPanelContactsDetails = {}
 
----@param fields? table
+---@param fields? SocialPanelContactsDetails
 ---@return SocialPanelContactsDetails
 function SocialPanelContactsDetails.new(fields) return end
 

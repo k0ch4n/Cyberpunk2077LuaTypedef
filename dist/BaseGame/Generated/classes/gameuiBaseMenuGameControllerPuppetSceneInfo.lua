@@ -10,6 +10,6 @@
 ---@field public gender gameuiBaseMenuGameControllerPuppetGenderInfo
 gameuiBaseMenuGameControllerPuppetSceneInfo = {}
 
----@param fields? table
+---@param fields? gameuiBaseMenuGameControllerPuppetSceneInfo
 ---@return gameuiBaseMenuGameControllerPuppetSceneInfo
 function gameuiBaseMenuGameControllerPuppetSceneInfo.new(fields) return end

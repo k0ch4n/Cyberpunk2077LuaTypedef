@@ -6,7 +6,7 @@
 ---@field public owner gameObject
 ArmsCWInSlotPrereqState = {}
 
----@param fields? table
+---@param fields? ArmsCWInSlotPrereqState
 ---@return ArmsCWInSlotPrereqState
 function ArmsCWInSlotPrereqState.new(fields) return end
 

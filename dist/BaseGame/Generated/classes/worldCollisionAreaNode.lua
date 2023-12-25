@@ -7,6 +7,6 @@
 ---@field public filterData physicsFilterData
 worldCollisionAreaNode = {}
 
----@param fields? table
+---@param fields? worldCollisionAreaNode
 ---@return worldCollisionAreaNode
 function worldCollisionAreaNode.new(fields) return end

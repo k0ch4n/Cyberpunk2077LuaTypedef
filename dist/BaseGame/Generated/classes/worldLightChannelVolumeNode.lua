@@ -6,6 +6,6 @@
 ---@field public streamingDistanceFactor Float
 worldLightChannelVolumeNode = {}
 
----@param fields? table
+---@param fields? worldLightChannelVolumeNode
 ---@return worldLightChannelVolumeNode
 function worldLightChannelVolumeNode.new(fields) return end

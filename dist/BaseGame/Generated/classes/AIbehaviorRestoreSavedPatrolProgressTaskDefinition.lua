@@ -9,6 +9,6 @@
 ---@field public destinationTangent AIArgumentMapping
 AIbehaviorRestoreSavedPatrolProgressTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorRestoreSavedPatrolProgressTaskDefinition
 ---@return AIbehaviorRestoreSavedPatrolProgressTaskDefinition
 function AIbehaviorRestoreSavedPatrolProgressTaskDefinition.new(fields) return end

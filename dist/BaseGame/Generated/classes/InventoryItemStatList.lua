@@ -8,7 +8,7 @@
 ---@field private itemsList inkWidget[]
 InventoryItemStatList = {}
 
----@param fields? table
+---@param fields? InventoryItemStatList
 ---@return InventoryItemStatList
 function InventoryItemStatList.new(fields) return end
 

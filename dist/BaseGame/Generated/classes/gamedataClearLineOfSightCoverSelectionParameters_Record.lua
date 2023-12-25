@@ -4,7 +4,7 @@
 ---@class gamedataClearLineOfSightCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataClearLineOfSightCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataClearLineOfSightCoverSelectionParameters_Record
 ---@return gamedataClearLineOfSightCoverSelectionParameters_Record
 function gamedataClearLineOfSightCoverSelectionParameters_Record.new(fields) return end
 

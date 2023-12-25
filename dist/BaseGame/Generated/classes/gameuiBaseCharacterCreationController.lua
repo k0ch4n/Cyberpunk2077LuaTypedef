@@ -7,7 +7,7 @@
 ---@field protected nextPageHitArea inkWidgetReference
 gameuiBaseCharacterCreationController = {}
 
----@param fields? table
+---@param fields? gameuiBaseCharacterCreationController
 ---@return gameuiBaseCharacterCreationController
 function gameuiBaseCharacterCreationController.new(fields) return end
 

@@ -28,7 +28,7 @@
 ---@field private isValidResistances Bool
 ScannerResistancesGameController = {}
 
----@param fields? table
+---@param fields? ScannerResistancesGameController
 ---@return ScannerResistancesGameController
 function ScannerResistancesGameController.new(fields) return end
 

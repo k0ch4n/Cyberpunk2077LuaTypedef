@@ -4,7 +4,7 @@
 ---@class ForceRagdoll: RagdollTask
 ForceRagdoll = {}
 
----@param fields? table
+---@param fields? ForceRagdoll
 ---@return ForceRagdoll
 function ForceRagdoll.new(fields) return end
 

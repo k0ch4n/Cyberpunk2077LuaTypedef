@@ -6,6 +6,6 @@
 ---@field public runOnNavmesh AIArgumentMapping
 AIbehaviorInstantRunAwayConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorInstantRunAwayConditionDefinition
 ---@return AIbehaviorInstantRunAwayConditionDefinition
 function AIbehaviorInstantRunAwayConditionDefinition.new(fields) return end

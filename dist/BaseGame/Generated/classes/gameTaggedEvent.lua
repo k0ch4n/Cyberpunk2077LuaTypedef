@@ -5,6 +5,6 @@
 ---@field public state Bool
 gameTaggedEvent = {}
 
----@param fields? table
+---@param fields? gameTaggedEvent
 ---@return gameTaggedEvent
 function gameTaggedEvent.new(fields) return end

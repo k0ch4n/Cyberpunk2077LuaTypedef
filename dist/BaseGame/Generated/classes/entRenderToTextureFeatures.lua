@@ -12,6 +12,6 @@
 ---@field public reflections entRenderToTextureFeaturesPlatform
 entRenderToTextureFeatures = {}
 
----@param fields? table
+---@param fields? entRenderToTextureFeatures
 ---@return entRenderToTextureFeatures
 function entRenderToTextureFeatures.new(fields) return end

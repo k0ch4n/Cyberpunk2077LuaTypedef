@@ -20,7 +20,7 @@
 ---@field private marked Bool
 ServerInfoController = {}
 
----@param fields? table
+---@param fields? ServerInfoController
 ---@return ServerInfoController
 function ServerInfoController.new(fields) return end
 

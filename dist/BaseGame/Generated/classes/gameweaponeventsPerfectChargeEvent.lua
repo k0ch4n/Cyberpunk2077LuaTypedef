@@ -5,6 +5,6 @@
 ---@field public type CName
 gameweaponeventsPerfectChargeEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsPerfectChargeEvent
 ---@return gameweaponeventsPerfectChargeEvent
 function gameweaponeventsPerfectChargeEvent.new(fields) return end

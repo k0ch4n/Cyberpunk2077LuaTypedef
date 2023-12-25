@@ -5,6 +5,6 @@
 ---@field public activator gameObject
 RepeatPersonalLinkAnimFeaturesHACK = {}
 
----@param fields? table
+---@param fields? RepeatPersonalLinkAnimFeaturesHACK
 ---@return RepeatPersonalLinkAnimFeaturesHACK
 function RepeatPersonalLinkAnimFeaturesHACK.new(fields) return end

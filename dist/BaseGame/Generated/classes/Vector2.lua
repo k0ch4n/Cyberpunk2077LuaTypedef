@@ -6,6 +6,6 @@
 ---@field public Y Float
 Vector2 = {}
 
----@param fields? table
+---@param fields? Vector2
 ---@return Vector2
 function Vector2.new(fields) return end

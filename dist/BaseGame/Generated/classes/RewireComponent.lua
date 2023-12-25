@@ -10,7 +10,7 @@
 ---@field private isActive Bool
 RewireComponent = {}
 
----@param fields? table
+---@param fields? RewireComponent
 ---@return RewireComponent
 function RewireComponent.new(fields) return end
 

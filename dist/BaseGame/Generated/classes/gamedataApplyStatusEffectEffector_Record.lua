@@ -4,7 +4,7 @@
 ---@class gamedataApplyStatusEffectEffector_Record: gamedataEffector_Record
 gamedataApplyStatusEffectEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataApplyStatusEffectEffector_Record
 ---@return gamedataApplyStatusEffectEffector_Record
 function gamedataApplyStatusEffectEffector_Record.new(fields) return end
 

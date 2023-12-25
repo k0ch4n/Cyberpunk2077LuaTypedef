@@ -5,6 +5,6 @@
 ---@field public recordID TweakDBID
 gameDestructibleObject = {}
 
----@param fields? table
+---@param fields? gameDestructibleObject
 ---@return gameDestructibleObject
 function gameDestructibleObject.new(fields) return end

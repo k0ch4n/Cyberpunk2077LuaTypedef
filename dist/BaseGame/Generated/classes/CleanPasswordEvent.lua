@@ -4,6 +4,6 @@
 ---@class CleanPasswordEvent: redEvent
 CleanPasswordEvent = {}
 
----@param fields? table
+---@param fields? CleanPasswordEvent
 ---@return CleanPasswordEvent
 function CleanPasswordEvent.new(fields) return end

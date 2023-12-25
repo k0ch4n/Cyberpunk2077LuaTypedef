@@ -17,6 +17,6 @@
 ---@field public lambda curveData
 WaterAreaSettings = {}
 
----@param fields? table
+---@param fields? WaterAreaSettings
 ---@return WaterAreaSettings
 function WaterAreaSettings.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field private isAABBExtended Bool
 AOEArea = {}
 
----@param fields? table
+---@param fields? AOEArea
 ---@return AOEArea
 function AOEArea.new(fields) return end
 

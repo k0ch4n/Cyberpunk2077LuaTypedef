@@ -4,7 +4,7 @@
 ---@class CloseAd: ActionBool
 CloseAd = {}
 
----@param fields? table
+---@param fields? CloseAd
 ---@return CloseAd
 function CloseAd.new(fields) return end
 

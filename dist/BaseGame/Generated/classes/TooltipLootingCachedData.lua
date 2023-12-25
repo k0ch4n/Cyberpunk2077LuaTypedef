@@ -11,6 +11,6 @@
 ---@field public comparisonQualityF Float
 TooltipLootingCachedData = {}
 
----@param fields? table
+---@param fields? TooltipLootingCachedData
 ---@return TooltipLootingCachedData
 function TooltipLootingCachedData.new(fields) return end

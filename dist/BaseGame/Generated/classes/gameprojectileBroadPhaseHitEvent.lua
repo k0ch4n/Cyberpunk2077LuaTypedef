@@ -8,6 +8,6 @@
 ---@field public hitComponent entIComponent
 gameprojectileBroadPhaseHitEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileBroadPhaseHitEvent
 ---@return gameprojectileBroadPhaseHitEvent
 function gameprojectileBroadPhaseHitEvent.new(fields) return end

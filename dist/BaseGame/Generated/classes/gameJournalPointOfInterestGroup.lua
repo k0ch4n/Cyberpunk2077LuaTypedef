@@ -4,6 +4,6 @@
 ---@class gameJournalPointOfInterestGroup: gameJournalFileEntry
 gameJournalPointOfInterestGroup = {}
 
----@param fields? table
+---@param fields? gameJournalPointOfInterestGroup
 ---@return gameJournalPointOfInterestGroup
 function gameJournalPointOfInterestGroup.new(fields) return end

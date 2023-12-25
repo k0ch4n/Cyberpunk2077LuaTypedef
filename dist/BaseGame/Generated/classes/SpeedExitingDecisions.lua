@@ -4,7 +4,7 @@
 ---@class SpeedExitingDecisions: ExitingDecisions
 SpeedExitingDecisions = {}
 
----@param fields? table
+---@param fields? SpeedExitingDecisions
 ---@return SpeedExitingDecisions
 function SpeedExitingDecisions.new(fields) return end
 

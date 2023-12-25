@@ -6,7 +6,7 @@
 ---@field public zoomState Int32
 animAnimFeature_BasicAim = {}
 
----@param fields? table
+---@param fields? animAnimFeature_BasicAim
 ---@return animAnimFeature_BasicAim
 function animAnimFeature_BasicAim.new(fields) return end
 

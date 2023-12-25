@@ -29,7 +29,7 @@
 ---@field private isTabEnabled Bool
 CraftingMainGameController = {}
 
----@param fields? table
+---@param fields? CraftingMainGameController
 ---@return CraftingMainGameController
 function CraftingMainGameController.new(fields) return end
 

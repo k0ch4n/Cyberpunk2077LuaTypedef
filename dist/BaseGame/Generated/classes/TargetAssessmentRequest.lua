@@ -5,6 +5,6 @@
 ---@field public targetToAssess gameObject
 TargetAssessmentRequest = {}
 
----@param fields? table
+---@param fields? TargetAssessmentRequest
 ---@return TargetAssessmentRequest
 function TargetAssessmentRequest.new(fields) return end

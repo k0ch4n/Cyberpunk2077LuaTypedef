@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextEvents: InputContextTransitionEvents
 UiQuickHackPanelContextEvents = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextEvents
 ---@return UiQuickHackPanelContextEvents
 function UiQuickHackPanelContextEvents.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public movementOrientationType moveMovementOrientationType
 gameSmartObjectGate = {}
 
----@param fields? table
+---@param fields? gameSmartObjectGate
 ---@return gameSmartObjectGate
 function gameSmartObjectGate.new(fields) return end

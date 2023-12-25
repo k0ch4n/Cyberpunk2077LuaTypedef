@@ -5,7 +5,7 @@
 ---@field public active Bool
 FelledEvent = {}
 
----@param fields? table
+---@param fields? FelledEvent
 ---@return FelledEvent
 function FelledEvent.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class WidgetMenuComponent: WidgetMenuComponentInterface
 WidgetMenuComponent = {}
 
----@param fields? table
+---@param fields? WidgetMenuComponent
 ---@return WidgetMenuComponent
 function WidgetMenuComponent.new(fields) return end

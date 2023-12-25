@@ -5,6 +5,6 @@
 ---@field public label String
 ListItemData = {}
 
----@param fields? table
+---@param fields? ListItemData
 ---@return ListItemData
 function ListItemData.new(fields) return end

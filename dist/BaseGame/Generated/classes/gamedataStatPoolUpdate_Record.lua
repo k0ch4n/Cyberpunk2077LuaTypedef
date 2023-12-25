@@ -4,7 +4,7 @@
 ---@class gamedataStatPoolUpdate_Record: gamedataTweakDBRecord
 gamedataStatPoolUpdate_Record = {}
 
----@param fields? table
+---@param fields? gamedataStatPoolUpdate_Record
 ---@return gamedataStatPoolUpdate_Record
 function gamedataStatPoolUpdate_Record.new(fields) return end
 

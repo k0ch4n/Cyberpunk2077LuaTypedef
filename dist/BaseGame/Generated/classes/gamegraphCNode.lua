@@ -4,6 +4,6 @@
 ---@class gamegraphCNode: ISerializable
 gamegraphCNode = {}
 
----@param fields? table
+---@param fields? gamegraphCNode
 ---@return gamegraphCNode
 function gamegraphCNode.new(fields) return end

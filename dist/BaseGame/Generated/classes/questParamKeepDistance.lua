@@ -6,6 +6,6 @@
 ---@field public distance Float
 questParamKeepDistance = {}
 
----@param fields? table
+---@param fields? questParamKeepDistance
 ---@return questParamKeepDistance
 function questParamKeepDistance.new(fields) return end

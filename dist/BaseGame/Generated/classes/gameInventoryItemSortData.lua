@@ -15,6 +15,6 @@
 ---@field public IsPlayerFavourite Bool
 gameInventoryItemSortData = {}
 
----@param fields? table
+---@param fields? gameInventoryItemSortData
 ---@return gameInventoryItemSortData
 function gameInventoryItemSortData.new(fields) return end

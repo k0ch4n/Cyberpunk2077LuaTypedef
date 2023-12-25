@@ -6,6 +6,6 @@
 ---@field public conversations scnInterestingConversationData[]
 scnInterestingConversationsGroup = {}
 
----@param fields? table
+---@param fields? scnInterestingConversationsGroup
 ---@return scnInterestingConversationsGroup
 function scnInterestingConversationsGroup.new(fields) return end

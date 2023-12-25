@@ -5,6 +5,6 @@
 ---@field public hitRepresentationOverrides gameHitRepresentationOverride[]
 entHitRepresentationDataParameter = {}
 
----@param fields? table
+---@param fields? entHitRepresentationDataParameter
 ---@return entHitRepresentationDataParameter
 function entHitRepresentationDataParameter.new(fields) return end

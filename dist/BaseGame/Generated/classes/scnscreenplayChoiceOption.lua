@@ -7,6 +7,6 @@
 ---@field public locstringId scnlocLocstringId
 scnscreenplayChoiceOption = {}
 
----@param fields? table
+---@param fields? scnscreenplayChoiceOption
 ---@return scnscreenplayChoiceOption
 function scnscreenplayChoiceOption.new(fields) return end

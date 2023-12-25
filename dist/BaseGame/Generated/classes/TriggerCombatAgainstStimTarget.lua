@@ -4,7 +4,7 @@
 ---@class TriggerCombatAgainstStimTarget: AIbehaviortaskScript
 TriggerCombatAgainstStimTarget = {}
 
----@param fields? table
+---@param fields? TriggerCombatAgainstStimTarget
 ---@return TriggerCombatAgainstStimTarget
 function TriggerCombatAgainstStimTarget.new(fields) return end
 

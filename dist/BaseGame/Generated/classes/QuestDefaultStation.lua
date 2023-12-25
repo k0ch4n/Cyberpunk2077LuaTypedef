@@ -4,7 +4,7 @@
 ---@class QuestDefaultStation: ActionBool
 QuestDefaultStation = {}
 
----@param fields? table
+---@param fields? QuestDefaultStation
 ---@return QuestDefaultStation
 function QuestDefaultStation.new(fields) return end
 

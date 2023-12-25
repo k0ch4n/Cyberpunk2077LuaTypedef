@@ -5,6 +5,6 @@
 ---@field public show Bool
 inkShowEngagementScreen = {}
 
----@param fields? table
+---@param fields? inkShowEngagementScreen
 ---@return inkShowEngagementScreen
 function inkShowEngagementScreen.new(fields) return end

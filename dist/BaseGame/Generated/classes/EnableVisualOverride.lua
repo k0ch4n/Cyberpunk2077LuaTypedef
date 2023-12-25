@@ -4,7 +4,7 @@
 ---@class EnableVisualOverride: redEvent
 EnableVisualOverride = {}
 
----@param fields? table
+---@param fields? EnableVisualOverride
 ---@return EnableVisualOverride
 function EnableVisualOverride.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class LongBladeLookAtEvents: LookAtPresetMeleeBaseEvents
 LongBladeLookAtEvents = {}
 
----@param fields? table
+---@param fields? LongBladeLookAtEvents
 ---@return LongBladeLookAtEvents
 function LongBladeLookAtEvents.new(fields) return end

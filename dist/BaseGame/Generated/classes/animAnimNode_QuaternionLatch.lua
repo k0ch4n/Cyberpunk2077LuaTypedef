@@ -5,6 +5,6 @@
 ---@field public input animQuaternionLink
 animAnimNode_QuaternionLatch = {}
 
----@param fields? table
+---@param fields? animAnimNode_QuaternionLatch
 ---@return animAnimNode_QuaternionLatch
 function animAnimNode_QuaternionLatch.new(fields) return end

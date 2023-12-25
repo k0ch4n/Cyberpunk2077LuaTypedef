@@ -4,6 +4,6 @@
 ---@class worlduiViewportWidget: inkCanvasWidget
 worlduiViewportWidget = {}
 
----@param fields? table
+---@param fields? worlduiViewportWidget
 ---@return worlduiViewportWidget
 function worlduiViewportWidget.new(fields) return end

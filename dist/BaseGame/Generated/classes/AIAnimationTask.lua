@@ -13,7 +13,7 @@
 ---@field protected phaseDuration Float
 AIAnimationTask = {}
 
----@param fields? table
+---@param fields? AIAnimationTask
 ---@return AIAnimationTask
 function AIAnimationTask.new(fields) return end
 

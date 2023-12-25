@@ -5,7 +5,7 @@
 ---@field public data MenuData[]
 MenuDataBuilder = {}
 
----@param fields? table
+---@param fields? MenuDataBuilder
 ---@return MenuDataBuilder
 function MenuDataBuilder.new(fields) return end
 

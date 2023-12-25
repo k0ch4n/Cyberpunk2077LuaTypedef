@@ -5,7 +5,7 @@
 ---@field protected skillToCheck gamedataProficiencyType
 SkillCheckPrereq = {}
 
----@param fields? table
+---@param fields? SkillCheckPrereq
 ---@return SkillCheckPrereq
 function SkillCheckPrereq.new(fields) return end
 

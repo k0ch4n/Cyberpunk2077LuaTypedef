@@ -4,7 +4,7 @@
 ---@class TakedownPSMPrereq: PlayerStateMachinePrereq
 TakedownPSMPrereq = {}
 
----@param fields? table
+---@param fields? TakedownPSMPrereq
 ---@return TakedownPSMPrereq
 function TakedownPSMPrereq.new(fields) return end
 

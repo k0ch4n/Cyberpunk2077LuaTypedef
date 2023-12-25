@@ -4,7 +4,7 @@
 ---@class MeleeBlockAttackDecisions: MeleeAttackGenericDecisions
 MeleeBlockAttackDecisions = {}
 
----@param fields? table
+---@param fields? MeleeBlockAttackDecisions
 ---@return MeleeBlockAttackDecisions
 function MeleeBlockAttackDecisions.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public enabled Bool
 questHackingManager_SetEnabled = {}
 
----@param fields? table
+---@param fields? questHackingManager_SetEnabled
 ---@return questHackingManager_SetEnabled
 function questHackingManager_SetEnabled.new(fields) return end

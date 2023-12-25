@@ -12,7 +12,7 @@
 ---@field public outMaybeStairs AIArgumentMapping
 FindTeleportPositionKurt = {}
 
----@param fields? table
+---@param fields? FindTeleportPositionKurt
 ---@return FindTeleportPositionKurt
 function FindTeleportPositionKurt.new(fields) return end
 

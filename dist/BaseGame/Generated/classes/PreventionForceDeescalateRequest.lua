@@ -6,6 +6,6 @@
 ---@field public telemetryInfo String
 PreventionForceDeescalateRequest = {}
 
----@param fields? table
+---@param fields? PreventionForceDeescalateRequest
 ---@return PreventionForceDeescalateRequest
 function PreventionForceDeescalateRequest.new(fields) return end

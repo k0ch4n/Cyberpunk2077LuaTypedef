@@ -7,6 +7,6 @@
 ---@field public shaftsThresholdsScale Float
 ShaftsAreaSettings = {}
 
----@param fields? table
+---@param fields? ShaftsAreaSettings
 ---@return ShaftsAreaSettings
 function ShaftsAreaSettings.new(fields) return end

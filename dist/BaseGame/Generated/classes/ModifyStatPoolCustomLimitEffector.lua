@@ -9,7 +9,7 @@
 ---@field public owner gameObject
 ModifyStatPoolCustomLimitEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatPoolCustomLimitEffector
 ---@return ModifyStatPoolCustomLimitEffector
 function ModifyStatPoolCustomLimitEffector.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public v Int64
 LibTreeDefEnum = {}
 
----@param fields? table
+---@param fields? LibTreeDefEnum
 ---@return LibTreeDefEnum
 function LibTreeDefEnum.new(fields) return end

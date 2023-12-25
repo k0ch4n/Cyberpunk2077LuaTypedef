@@ -5,6 +5,6 @@
 ---@field public tag CName
 gameinteractionsLayerData = {}
 
----@param fields? table
+---@param fields? gameinteractionsLayerData
 ---@return gameinteractionsLayerData
 function gameinteractionsLayerData.new(fields) return end

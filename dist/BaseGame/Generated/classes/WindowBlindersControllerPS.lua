@@ -8,7 +8,7 @@
 ---@field protected alarmRaised Bool
 WindowBlindersControllerPS = {}
 
----@param fields? table
+---@param fields? WindowBlindersControllerPS
 ---@return WindowBlindersControllerPS
 function WindowBlindersControllerPS.new(fields) return end
 

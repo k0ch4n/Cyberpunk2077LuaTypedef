@@ -5,6 +5,6 @@
 ---@field public name CName
 animNamedTrackIndex = {}
 
----@param fields? table
+---@param fields? animNamedTrackIndex
 ---@return animNamedTrackIndex
 function animNamedTrackIndex.new(fields) return end

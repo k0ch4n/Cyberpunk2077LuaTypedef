@@ -9,6 +9,6 @@
 ---@field public breakingSound CName
 audioDeviceStateSettings = {}
 
----@param fields? table
+---@param fields? audioDeviceStateSettings
 ---@return audioDeviceStateSettings
 function audioDeviceStateSettings.new(fields) return end

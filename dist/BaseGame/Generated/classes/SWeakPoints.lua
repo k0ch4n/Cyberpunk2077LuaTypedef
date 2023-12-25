@@ -7,6 +7,6 @@
 ---@field public loc_desc_key String
 SWeakPoints = {}
 
----@param fields? table
+---@param fields? SWeakPoints
 ---@return SWeakPoints
 function SWeakPoints.new(fields) return end

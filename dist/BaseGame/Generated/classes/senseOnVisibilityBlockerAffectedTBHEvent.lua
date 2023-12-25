@@ -5,6 +5,6 @@
 ---@field public newTBHModifier Float
 senseOnVisibilityBlockerAffectedTBHEvent = {}
 
----@param fields? table
+---@param fields? senseOnVisibilityBlockerAffectedTBHEvent
 ---@return senseOnVisibilityBlockerAffectedTBHEvent
 function senseOnVisibilityBlockerAffectedTBHEvent.new(fields) return end

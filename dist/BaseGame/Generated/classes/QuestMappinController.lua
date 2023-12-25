@@ -23,7 +23,7 @@
 ---@field private vehicleMappinComponent VehicleMappinComponent
 QuestMappinController = {}
 
----@param fields? table
+---@param fields? QuestMappinController
 ---@return QuestMappinController
 function QuestMappinController.new(fields) return end
 

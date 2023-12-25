@@ -8,7 +8,7 @@
 ---@field protected commandDuration Float
 InjectLookatTargetCommandTask = {}
 
----@param fields? table
+---@param fields? InjectLookatTargetCommandTask
 ---@return InjectLookatTargetCommandTask
 function InjectLookatTargetCommandTask.new(fields) return end
 

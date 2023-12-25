@@ -4,6 +4,6 @@
 ---@class PocketRadioUIEvent: redEvent
 PocketRadioUIEvent = {}
 
----@param fields? table
+---@param fields? PocketRadioUIEvent
 ---@return PocketRadioUIEvent
 function PocketRadioUIEvent.new(fields) return end

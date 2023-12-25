@@ -6,6 +6,6 @@
 ---@field public stencilFunc PSODescDepthStencilModeComparisonMode
 PSODescStencilFuncDesc = {}
 
----@param fields? table
+---@param fields? PSODescStencilFuncDesc
 ---@return PSODescStencilFuncDesc
 function PSODescStencilFuncDesc.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestExitNoAnimation: ActionBool
 QuestExitNoAnimation = {}
 
----@param fields? table
+---@param fields? QuestExitNoAnimation
 ---@return QuestExitNoAnimation
 function QuestExitNoAnimation.new(fields) return end
 

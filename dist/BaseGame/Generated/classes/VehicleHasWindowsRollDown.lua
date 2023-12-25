@@ -4,7 +4,7 @@
 ---@class VehicleHasWindowsRollDown: PreventionConditionAbstract
 VehicleHasWindowsRollDown = {}
 
----@param fields? table
+---@param fields? VehicleHasWindowsRollDown
 ---@return VehicleHasWindowsRollDown
 function VehicleHasWindowsRollDown.new(fields) return end
 

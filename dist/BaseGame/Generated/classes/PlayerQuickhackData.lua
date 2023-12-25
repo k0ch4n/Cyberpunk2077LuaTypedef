@@ -7,6 +7,6 @@
 ---@field public quality Int32
 PlayerQuickhackData = {}
 
----@param fields? table
+---@param fields? PlayerQuickhackData
 ---@return PlayerQuickhackData
 function PlayerQuickhackData.new(fields) return end

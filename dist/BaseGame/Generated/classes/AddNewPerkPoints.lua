@@ -4,6 +4,6 @@
 ---@class AddNewPerkPoints: NewPerkPoinsActionRequest
 AddNewPerkPoints = {}
 
----@param fields? table
+---@param fields? AddNewPerkPoints
 ---@return AddNewPerkPoints
 function AddNewPerkPoints.new(fields) return end

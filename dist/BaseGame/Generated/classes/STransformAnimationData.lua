@@ -8,6 +8,6 @@
 ---@field public skipData STransformAnimationSkipEventData
 STransformAnimationData = {}
 
----@param fields? table
+---@param fields? STransformAnimationData
 ---@return STransformAnimationData
 function STransformAnimationData.new(fields) return end

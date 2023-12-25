@@ -12,6 +12,6 @@
 ---@field public ["everything else"] Color
 worldDebugColoring_NavigationImpact = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_NavigationImpact
 ---@return worldDebugColoring_NavigationImpact
 function worldDebugColoring_NavigationImpact.new(fields) return end

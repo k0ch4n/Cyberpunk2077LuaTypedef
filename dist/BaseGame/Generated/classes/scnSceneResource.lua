@@ -29,6 +29,6 @@
 ---@field public debugSymbols scnDebugSymbols
 scnSceneResource = {}
 
----@param fields? table
+---@param fields? scnSceneResource
 ---@return scnSceneResource
 function scnSceneResource.new(fields) return end

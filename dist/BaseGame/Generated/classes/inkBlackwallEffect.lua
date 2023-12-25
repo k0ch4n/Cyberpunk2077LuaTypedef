@@ -7,6 +7,6 @@
 ---@field public layerVisibility Float
 inkBlackwallEffect = {}
 
----@param fields? table
+---@param fields? inkBlackwallEffect
 ---@return inkBlackwallEffect
 function inkBlackwallEffect.new(fields) return end

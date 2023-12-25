@@ -4,7 +4,7 @@
 ---@class RegularLandEvents: AbstractLandEvents
 RegularLandEvents = {}
 
----@param fields? table
+---@param fields? RegularLandEvents
 ---@return RegularLandEvents
 function RegularLandEvents.new(fields) return end
 

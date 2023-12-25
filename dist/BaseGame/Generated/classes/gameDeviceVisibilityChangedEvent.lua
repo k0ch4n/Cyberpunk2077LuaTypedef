@@ -5,6 +5,6 @@
 ---@field public isVisible Uint32
 gameDeviceVisibilityChangedEvent = {}
 
----@param fields? table
+---@param fields? gameDeviceVisibilityChangedEvent
 ---@return gameDeviceVisibilityChangedEvent
 function gameDeviceVisibilityChangedEvent.new(fields) return end

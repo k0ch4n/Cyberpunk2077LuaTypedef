@@ -22,6 +22,6 @@
 ---@field public maxWindowOffset Float
 audioAcousticConstantsPreset = {}
 
----@param fields? table
+---@param fields? audioAcousticConstantsPreset
 ---@return audioAcousticConstantsPreset
 function audioAcousticConstantsPreset.new(fields) return end

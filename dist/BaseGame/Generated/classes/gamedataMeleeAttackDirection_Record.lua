@@ -4,7 +4,7 @@
 ---@class gamedataMeleeAttackDirection_Record: gamedataTweakDBRecord
 gamedataMeleeAttackDirection_Record = {}
 
----@param fields? table
+---@param fields? gamedataMeleeAttackDirection_Record
 ---@return gamedataMeleeAttackDirection_Record
 function gamedataMeleeAttackDirection_Record.new(fields) return end
 

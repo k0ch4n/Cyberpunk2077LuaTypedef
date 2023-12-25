@@ -4,7 +4,7 @@
 ---@class gamedataTriggerAttackEffector_Record: gamedataEffector_Record
 gamedataTriggerAttackEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataTriggerAttackEffector_Record
 ---@return gamedataTriggerAttackEffector_Record
 function gamedataTriggerAttackEffector_Record.new(fields) return end
 

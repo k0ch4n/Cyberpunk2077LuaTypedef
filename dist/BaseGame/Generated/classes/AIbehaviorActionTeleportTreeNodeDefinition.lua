@@ -8,6 +8,6 @@
 ---@field public waitForPositionUpdate AIArgumentMapping
 AIbehaviorActionTeleportTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionTeleportTreeNodeDefinition
 ---@return AIbehaviorActionTeleportTreeNodeDefinition
 function AIbehaviorActionTeleportTreeNodeDefinition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public isHidden Bool
 ToggleGameplayMappinVisibilityEvent = {}
 
----@param fields? table
+---@param fields? ToggleGameplayMappinVisibilityEvent
 ---@return ToggleGameplayMappinVisibilityEvent
 function ToggleGameplayMappinVisibilityEvent.new(fields) return end
 

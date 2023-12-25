@@ -7,6 +7,6 @@
 ---@field public spawnedObjects gameObject[]
 gameDSSSpawnRequestResult = {}
 
----@param fields? table
+---@param fields? gameDSSSpawnRequestResult
 ---@return gameDSSSpawnRequestResult
 function gameDSSSpawnRequestResult.new(fields) return end

@@ -22,7 +22,7 @@
 ---@field private currentState TransferSaveState
 TransferSaveSystemNotificationLogicController = {}
 
----@param fields? table
+---@param fields? TransferSaveSystemNotificationLogicController
 ---@return TransferSaveSystemNotificationLogicController
 function TransferSaveSystemNotificationLogicController.new(fields) return end
 

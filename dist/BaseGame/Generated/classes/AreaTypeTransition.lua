@@ -9,6 +9,6 @@
 ---@field public locked Bool
 AreaTypeTransition = {}
 
----@param fields? table
+---@param fields? AreaTypeTransition
 ---@return AreaTypeTransition
 function AreaTypeTransition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class InventoryComboBoxContentController: inkWidgetLogicController
 InventoryComboBoxContentController = {}
 
----@param fields? table
+---@param fields? InventoryComboBoxContentController
 ---@return InventoryComboBoxContentController
 function InventoryComboBoxContentController.new(fields) return end

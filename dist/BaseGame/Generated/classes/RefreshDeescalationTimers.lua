@@ -4,6 +4,6 @@
 ---@class RefreshDeescalationTimers: gameScriptableSystemRequest
 RefreshDeescalationTimers = {}
 
----@param fields? table
+---@param fields? RefreshDeescalationTimers
 ---@return RefreshDeescalationTimers
 function RefreshDeescalationTimers.new(fields) return end

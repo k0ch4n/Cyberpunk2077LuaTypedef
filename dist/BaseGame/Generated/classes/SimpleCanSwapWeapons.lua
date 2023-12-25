@@ -7,7 +7,7 @@
 ---@field private items gamedataNPCEquipmentItem_Record[]
 SimpleCanSwapWeapons = {}
 
----@param fields? table
+---@param fields? SimpleCanSwapWeapons
 ---@return SimpleCanSwapWeapons
 function SimpleCanSwapWeapons.new(fields) return end
 

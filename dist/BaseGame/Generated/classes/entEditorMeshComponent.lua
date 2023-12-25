@@ -4,6 +4,6 @@
 ---@class entEditorMeshComponent: entMeshComponent
 entEditorMeshComponent = {}
 
----@param fields? table
+---@param fields? entEditorMeshComponent
 ---@return entEditorMeshComponent
 function entEditorMeshComponent.new(fields) return end

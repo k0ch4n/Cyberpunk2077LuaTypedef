@@ -4,7 +4,7 @@
 ---@class gamedataBroadcastStimEffector_Record: gamedataContinuousEffector_Record
 gamedataBroadcastStimEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataBroadcastStimEffector_Record
 ---@return gamedataBroadcastStimEffector_Record
 function gamedataBroadcastStimEffector_Record.new(fields) return end
 

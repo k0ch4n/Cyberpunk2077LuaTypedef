@@ -6,7 +6,7 @@
 ---@field public amount Int32
 EffectExecutor_GivePlayerReward = {}
 
----@param fields? table
+---@param fields? EffectExecutor_GivePlayerReward
 ---@return EffectExecutor_GivePlayerReward
 function EffectExecutor_GivePlayerReward.new(fields) return end
 

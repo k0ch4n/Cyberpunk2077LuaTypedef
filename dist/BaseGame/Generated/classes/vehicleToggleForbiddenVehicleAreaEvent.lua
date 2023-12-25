@@ -4,6 +4,6 @@
 ---@class vehicleToggleForbiddenVehicleAreaEvent: redEvent
 vehicleToggleForbiddenVehicleAreaEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleForbiddenVehicleAreaEvent
 ---@return vehicleToggleForbiddenVehicleAreaEvent
 function vehicleToggleForbiddenVehicleAreaEvent.new(fields) return end

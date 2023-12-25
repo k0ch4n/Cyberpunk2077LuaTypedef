@@ -5,7 +5,7 @@
 ---@field public effector TweakDBID
 EffectExecutor_ApplyEffector = {}
 
----@param fields? table
+---@param fields? EffectExecutor_ApplyEffector
 ---@return EffectExecutor_ApplyEffector
 function EffectExecutor_ApplyEffector.new(fields) return end
 

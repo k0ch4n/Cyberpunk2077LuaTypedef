@@ -4,6 +4,6 @@
 ---@class SwimmingForceFreezeEvents: LocomotionSwimmingEvents
 SwimmingForceFreezeEvents = {}
 
----@param fields? table
+---@param fields? SwimmingForceFreezeEvents
 ---@return SwimmingForceFreezeEvents
 function SwimmingForceFreezeEvents.new(fields) return end

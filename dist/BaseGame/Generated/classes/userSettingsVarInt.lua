@@ -4,7 +4,7 @@
 ---@class userSettingsVarInt: userSettingsVar
 userSettingsVarInt = {}
 
----@param fields? table
+---@param fields? userSettingsVarInt
 ---@return userSettingsVarInt
 function userSettingsVarInt.new(fields) return end
 

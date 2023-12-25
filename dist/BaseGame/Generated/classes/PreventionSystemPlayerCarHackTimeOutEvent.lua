@@ -5,6 +5,6 @@
 ---@field public state VehiclePreventionHackState
 PreventionSystemPlayerCarHackTimeOutEvent = {}
 
----@param fields? table
+---@param fields? PreventionSystemPlayerCarHackTimeOutEvent
 ---@return PreventionSystemPlayerCarHackTimeOutEvent
 function PreventionSystemPlayerCarHackTimeOutEvent.new(fields) return end

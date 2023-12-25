@@ -7,6 +7,6 @@
 ---@field public secondInputNode animFloatLink
 animAnimNode_FloatMathOp = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatMathOp
 ---@return animAnimNode_FloatMathOp
 function animAnimNode_FloatMathOp.new(fields) return end

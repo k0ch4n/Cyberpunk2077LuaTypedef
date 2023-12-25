@@ -4,6 +4,6 @@
 ---@class PlayerDoesntHaveRecipePrereqState: gamePrereqState
 PlayerDoesntHaveRecipePrereqState = {}
 
----@param fields? table
+---@param fields? PlayerDoesntHaveRecipePrereqState
 ---@return PlayerDoesntHaveRecipePrereqState
 function PlayerDoesntHaveRecipePrereqState.new(fields) return end

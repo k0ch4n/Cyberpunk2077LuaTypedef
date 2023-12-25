@@ -6,6 +6,6 @@
 ---@field public logicOperator ELogicOperator
 ConditionGroupData = {}
 
----@param fields? table
+---@param fields? ConditionGroupData
 ---@return ConditionGroupData
 function ConditionGroupData.new(fields) return end

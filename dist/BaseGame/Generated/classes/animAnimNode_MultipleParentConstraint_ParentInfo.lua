@@ -11,6 +11,6 @@
 ---@field public offset QsTransform
 animAnimNode_MultipleParentConstraint_ParentInfo = {}
 
----@param fields? table
+---@param fields? animAnimNode_MultipleParentConstraint_ParentInfo
 ---@return animAnimNode_MultipleParentConstraint_ParentInfo
 function animAnimNode_MultipleParentConstraint_ParentInfo.new(fields) return end

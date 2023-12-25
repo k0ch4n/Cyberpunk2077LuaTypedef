@@ -7,7 +7,7 @@
 ---@field private destroyedPin Int32[]
 ServerNodeControllerPS = {}
 
----@param fields? table
+---@param fields? ServerNodeControllerPS
 ---@return ServerNodeControllerPS
 function ServerNodeControllerPS.new(fields) return end
 

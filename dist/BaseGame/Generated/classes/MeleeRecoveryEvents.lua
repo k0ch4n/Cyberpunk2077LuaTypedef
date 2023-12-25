@@ -4,7 +4,7 @@
 ---@class MeleeRecoveryEvents: MeleeNotReadyEvents
 MeleeRecoveryEvents = {}
 
----@param fields? table
+---@param fields? MeleeRecoveryEvents
 ---@return MeleeRecoveryEvents
 function MeleeRecoveryEvents.new(fields) return end
 

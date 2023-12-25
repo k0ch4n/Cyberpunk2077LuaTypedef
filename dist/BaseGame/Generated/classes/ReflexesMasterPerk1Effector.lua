@@ -10,7 +10,7 @@
 ---@field private lastTargetID entEntityID
 ReflexesMasterPerk1Effector = {}
 
----@param fields? table
+---@param fields? ReflexesMasterPerk1Effector
 ---@return ReflexesMasterPerk1Effector
 function ReflexesMasterPerk1Effector.new(fields) return end
 

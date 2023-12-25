@@ -5,6 +5,6 @@
 ---@field public transformId Uint16
 gameCompressedSmartObjectPointTransform = {}
 
----@param fields? table
+---@param fields? gameCompressedSmartObjectPointTransform
 ---@return gameCompressedSmartObjectPointTransform
 function gameCompressedSmartObjectPointTransform.new(fields) return end

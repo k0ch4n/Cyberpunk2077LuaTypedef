@@ -11,6 +11,6 @@
 ---@field public scoreboardScoreList inkTextWidgetReference[]
 gameuiarcadeArcadeScoreboardController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeScoreboardController
 ---@return gameuiarcadeArcadeScoreboardController
 function gameuiarcadeArcadeScoreboardController.new(fields) return end

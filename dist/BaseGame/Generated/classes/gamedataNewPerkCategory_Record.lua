@@ -4,7 +4,7 @@
 ---@class gamedataNewPerkCategory_Record: gamedataTweakDBRecord
 gamedataNewPerkCategory_Record = {}
 
----@param fields? table
+---@param fields? gamedataNewPerkCategory_Record
 ---@return gamedataNewPerkCategory_Record
 function gamedataNewPerkCategory_Record.new(fields) return end
 

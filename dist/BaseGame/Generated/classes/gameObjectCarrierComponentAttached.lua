@@ -4,6 +4,6 @@
 ---@class gameObjectCarrierComponentAttached: redEvent
 gameObjectCarrierComponentAttached = {}
 
----@param fields? table
+---@param fields? gameObjectCarrierComponentAttached
 ---@return gameObjectCarrierComponentAttached
 function gameObjectCarrierComponentAttached.new(fields) return end

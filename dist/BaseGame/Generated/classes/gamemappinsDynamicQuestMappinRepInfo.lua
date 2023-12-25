@@ -6,6 +6,6 @@
 ---@field public entity entEntity
 gamemappinsDynamicQuestMappinRepInfo = {}
 
----@param fields? table
+---@param fields? gamemappinsDynamicQuestMappinRepInfo
 ---@return gamemappinsDynamicQuestMappinRepInfo
 function gamemappinsDynamicQuestMappinRepInfo.new(fields) return end

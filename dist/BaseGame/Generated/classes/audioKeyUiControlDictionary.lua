@@ -6,6 +6,6 @@
 ---@field public entryType audioKeyUiControlPairDictionaryItem
 audioKeyUiControlDictionary = {}
 
----@param fields? table
+---@param fields? audioKeyUiControlDictionary
 ---@return audioKeyUiControlDictionary
 function audioKeyUiControlDictionary.new(fields) return end

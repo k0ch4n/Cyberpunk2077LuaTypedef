@@ -5,7 +5,7 @@
 ---@field public Repeat Bool
 QuickHackToggleON = {}
 
----@param fields? table
+---@param fields? QuickHackToggleON
 ---@return QuickHackToggleON
 function QuickHackToggleON.new(fields) return end
 

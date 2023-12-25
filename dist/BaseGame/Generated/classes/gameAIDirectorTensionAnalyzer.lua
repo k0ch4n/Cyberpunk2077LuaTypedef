@@ -4,6 +4,6 @@
 ---@class gameAIDirectorTensionAnalyzer
 gameAIDirectorTensionAnalyzer = {}
 
----@param fields? table
+---@param fields? gameAIDirectorTensionAnalyzer
 ---@return gameAIDirectorTensionAnalyzer
 function gameAIDirectorTensionAnalyzer.new(fields) return end

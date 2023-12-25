@@ -5,6 +5,6 @@
 ---@field public activate Bool
 VehicleUIactivateEvent = {}
 
----@param fields? table
+---@param fields? VehicleUIactivateEvent
 ---@return VehicleUIactivateEvent
 function VehicleUIactivateEvent.new(fields) return end

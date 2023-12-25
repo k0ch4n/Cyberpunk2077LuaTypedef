@@ -4,7 +4,7 @@
 ---@class servicesTrialHelper
 servicesTrialHelper = {}
 
----@param fields? table
+---@param fields? servicesTrialHelper
 ---@return servicesTrialHelper
 function servicesTrialHelper.new(fields) return end
 

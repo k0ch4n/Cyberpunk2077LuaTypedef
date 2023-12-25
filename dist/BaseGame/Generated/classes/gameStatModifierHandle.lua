@@ -4,6 +4,6 @@
 ---@class gameStatModifierHandle
 gameStatModifierHandle = {}
 
----@param fields? table
+---@param fields? gameStatModifierHandle
 ---@return gameStatModifierHandle
 function gameStatModifierHandle.new(fields) return end

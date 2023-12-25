@@ -7,6 +7,6 @@
 ---@field public externalDynamicTexture CName
 inkCacheWidget = {}
 
----@param fields? table
+---@param fields? inkCacheWidget
 ---@return inkCacheWidget
 function inkCacheWidget.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public floor String
 LiftArrivedEvent = {}
 
----@param fields? table
+---@param fields? LiftArrivedEvent
 ---@return LiftArrivedEvent
 function LiftArrivedEvent.new(fields) return end

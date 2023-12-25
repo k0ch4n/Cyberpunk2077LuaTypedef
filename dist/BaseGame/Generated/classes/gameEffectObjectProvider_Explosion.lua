@@ -7,6 +7,6 @@
 ---@field public destructibleAndDynamic Bool
 gameEffectObjectProvider_Explosion = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_Explosion
 ---@return gameEffectObjectProvider_Explosion
 function gameEffectObjectProvider_Explosion.new(fields) return end

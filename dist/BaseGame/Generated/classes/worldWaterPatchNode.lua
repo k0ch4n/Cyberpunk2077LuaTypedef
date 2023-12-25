@@ -7,6 +7,6 @@
 ---@field public generateNavmesh Bool
 worldWaterPatchNode = {}
 
----@param fields? table
+---@param fields? worldWaterPatchNode
 ---@return worldWaterPatchNode
 function worldWaterPatchNode.new(fields) return end

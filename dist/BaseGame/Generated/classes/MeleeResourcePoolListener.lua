@@ -5,7 +5,7 @@
 ---@field private meleeCrosshair CrosshairGameController_Melee
 MeleeResourcePoolListener = {}
 
----@param fields? table
+---@param fields? MeleeResourcePoolListener
 ---@return MeleeResourcePoolListener
 function MeleeResourcePoolListener.new(fields) return end
 

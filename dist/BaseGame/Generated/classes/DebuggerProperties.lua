@@ -8,6 +8,6 @@
 ---@field public layerIDs Uint32[]
 DebuggerProperties = {}
 
----@param fields? table
+---@param fields? DebuggerProperties
 ---@return DebuggerProperties
 function DebuggerProperties.new(fields) return end

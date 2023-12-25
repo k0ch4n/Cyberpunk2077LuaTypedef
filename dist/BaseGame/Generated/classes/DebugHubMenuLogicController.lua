@@ -9,7 +9,7 @@
 ---@field private defailtMenuName CName
 DebugHubMenuLogicController = {}
 
----@param fields? table
+---@param fields? DebugHubMenuLogicController
 ---@return DebugHubMenuLogicController
 function DebugHubMenuLogicController.new(fields) return end
 

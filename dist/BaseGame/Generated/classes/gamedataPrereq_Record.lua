@@ -4,7 +4,7 @@
 ---@class gamedataPrereq_Record: gamedataTweakDBRecord
 gamedataPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataPrereq_Record
 ---@return gamedataPrereq_Record
 function gamedataPrereq_Record.new(fields) return end
 

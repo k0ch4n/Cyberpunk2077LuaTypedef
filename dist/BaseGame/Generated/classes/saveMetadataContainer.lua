@@ -5,6 +5,6 @@
 ---@field public metadata saveMetadata
 saveMetadataContainer = {}
 
----@param fields? table
+---@param fields? saveMetadataContainer
 ---@return saveMetadataContainer
 function saveMetadataContainer.new(fields) return end

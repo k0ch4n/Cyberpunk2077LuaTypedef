@@ -20,7 +20,7 @@
 ---@field protected exitReleasedTime Float
 DriverCombatEvents = {}
 
----@param fields? table
+---@param fields? DriverCombatEvents
 ---@return DriverCombatEvents
 function DriverCombatEvents.new(fields) return end
 

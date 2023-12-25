@@ -4,7 +4,7 @@
 ---@class rendFragmentBuilderScriptProxy
 rendFragmentBuilderScriptProxy = {}
 
----@param fields? table
+---@param fields? rendFragmentBuilderScriptProxy
 ---@return rendFragmentBuilderScriptProxy
 function rendFragmentBuilderScriptProxy.new(fields) return end
 

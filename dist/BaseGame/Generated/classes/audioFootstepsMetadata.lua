@@ -11,6 +11,6 @@
 ---@field public footwearVfxMetadataArray CName[]
 audioFootstepsMetadata = {}
 
----@param fields? table
+---@param fields? audioFootstepsMetadata
 ---@return audioFootstepsMetadata
 function audioFootstepsMetadata.new(fields) return end

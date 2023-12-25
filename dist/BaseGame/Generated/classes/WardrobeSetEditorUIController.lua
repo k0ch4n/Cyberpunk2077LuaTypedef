@@ -39,7 +39,7 @@
 ---@field private displayContextData ItemDisplayContextData
 WardrobeSetEditorUIController = {}
 
----@param fields? table
+---@param fields? WardrobeSetEditorUIController
 ---@return WardrobeSetEditorUIController
 function WardrobeSetEditorUIController.new(fields) return end
 

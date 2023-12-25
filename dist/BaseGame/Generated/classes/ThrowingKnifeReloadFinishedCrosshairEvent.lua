@@ -4,6 +4,6 @@
 ---@class ThrowingKnifeReloadFinishedCrosshairEvent: redEvent
 ThrowingKnifeReloadFinishedCrosshairEvent = {}
 
----@param fields? table
+---@param fields? ThrowingKnifeReloadFinishedCrosshairEvent
 ---@return ThrowingKnifeReloadFinishedCrosshairEvent
 function ThrowingKnifeReloadFinishedCrosshairEvent.new(fields) return end

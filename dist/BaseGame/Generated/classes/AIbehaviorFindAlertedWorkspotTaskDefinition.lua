@@ -8,6 +8,6 @@
 ---@field public outWorkspotData AIArgumentMapping
 AIbehaviorFindAlertedWorkspotTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindAlertedWorkspotTaskDefinition
 ---@return AIbehaviorFindAlertedWorkspotTaskDefinition
 function AIbehaviorFindAlertedWorkspotTaskDefinition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private providedAuthorizationLevel ESecurityAccessLevel
 CoderControllerPS = {}
 
----@param fields? table
+---@param fields? CoderControllerPS
 ---@return CoderControllerPS
 function CoderControllerPS.new(fields) return end
 

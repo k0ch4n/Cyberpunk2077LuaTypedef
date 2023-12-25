@@ -13,7 +13,7 @@
 ---@field public autoUpdateWidgetState Bool
 inkButtonController = {}
 
----@param fields? table
+---@param fields? inkButtonController
 ---@return inkButtonController
 function inkButtonController.new(fields) return end
 

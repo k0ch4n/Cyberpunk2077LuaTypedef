@@ -14,6 +14,6 @@
 ---@field public allowStubMovement AIArgumentMapping
 AIbehaviorDriveFollowTargetTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveFollowTargetTreeNodeDefinition
 ---@return AIbehaviorDriveFollowTargetTreeNodeDefinition
 function AIbehaviorDriveFollowTargetTreeNodeDefinition.new(fields) return end

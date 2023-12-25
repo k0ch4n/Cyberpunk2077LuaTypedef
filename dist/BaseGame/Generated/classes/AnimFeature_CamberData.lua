@@ -12,6 +12,6 @@
 ---@field public leftBackCamberOffset Vector4
 AnimFeature_CamberData = {}
 
----@param fields? table
+---@param fields? AnimFeature_CamberData
 ---@return AnimFeature_CamberData
 function AnimFeature_CamberData.new(fields) return end

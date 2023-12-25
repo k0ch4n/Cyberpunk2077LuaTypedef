@@ -4,6 +4,6 @@
 ---@class gameuiarcadeArcadePermanentResourceManager: ISerializable
 gameuiarcadeArcadePermanentResourceManager = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadePermanentResourceManager
 ---@return gameuiarcadeArcadePermanentResourceManager
 function gameuiarcadeArcadePermanentResourceManager.new(fields) return end

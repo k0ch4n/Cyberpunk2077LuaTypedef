@@ -5,7 +5,7 @@
 ---@field public combatVoSettingsName CName
 scnVoicesetComponent = {}
 
----@param fields? table
+---@param fields? scnVoicesetComponent
 ---@return scnVoicesetComponent
 function scnVoicesetComponent.new(fields) return end
 

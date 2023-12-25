@@ -4,6 +4,6 @@
 ---@class inkDebugSystem: inkIDebugSystem
 inkDebugSystem = {}
 
----@param fields? table
+---@param fields? inkDebugSystem
 ---@return inkDebugSystem
 function inkDebugSystem.new(fields) return end

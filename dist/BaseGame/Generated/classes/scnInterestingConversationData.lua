@@ -6,6 +6,6 @@
 ---@field public interruptionOperations scnIInterruptionOperation[]
 scnInterestingConversationData = {}
 
----@param fields? table
+---@param fields? scnInterestingConversationData
 ---@return scnInterestingConversationData
 function scnInterestingConversationData.new(fields) return end

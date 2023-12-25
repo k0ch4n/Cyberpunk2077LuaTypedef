@@ -13,6 +13,6 @@
 ---@field public animVariation Int32
 NewHitDataEvent = {}
 
----@param fields? table
+---@param fields? NewHitDataEvent
 ---@return NewHitDataEvent
 function NewHitDataEvent.new(fields) return end

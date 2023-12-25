@@ -4,7 +4,7 @@
 ---@class VentilationEffectorController: ScriptableDeviceComponent
 VentilationEffectorController = {}
 
----@param fields? table
+---@param fields? VentilationEffectorController
 ---@return VentilationEffectorController
 function VentilationEffectorController.new(fields) return end
 

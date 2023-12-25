@@ -48,6 +48,6 @@
 ---@field public numPatrolLoops Uint32
 vehicleAutonomousData = {}
 
----@param fields? table
+---@param fields? vehicleAutonomousData
 ---@return vehicleAutonomousData
 function vehicleAutonomousData.new(fields) return end

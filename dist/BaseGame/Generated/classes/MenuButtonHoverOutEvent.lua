@@ -5,6 +5,6 @@
 ---@field public buttonId Int32
 MenuButtonHoverOutEvent = {}
 
----@param fields? table
+---@param fields? MenuButtonHoverOutEvent
 ---@return MenuButtonHoverOutEvent
 function MenuButtonHoverOutEvent.new(fields) return end

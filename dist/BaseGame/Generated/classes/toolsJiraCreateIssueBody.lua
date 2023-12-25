@@ -5,6 +5,6 @@
 ---@field public fields toolsJiraIssueFields
 toolsJiraCreateIssueBody = {}
 
----@param fields? table
+---@param fields? toolsJiraCreateIssueBody
 ---@return toolsJiraCreateIssueBody
 function toolsJiraCreateIssueBody.new(fields) return end

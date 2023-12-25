@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemVisibility: worldIRuntimeSystem
 worldRuntimeSystemVisibility = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemVisibility
 ---@return worldRuntimeSystemVisibility
 function worldRuntimeSystemVisibility.new(fields) return end

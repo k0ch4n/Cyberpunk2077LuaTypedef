@@ -4,7 +4,7 @@
 ---@class WeakspotOnDestroyEffector: gameEffector
 WeakspotOnDestroyEffector = {}
 
----@param fields? table
+---@param fields? WeakspotOnDestroyEffector
 ---@return WeakspotOnDestroyEffector
 function WeakspotOnDestroyEffector.new(fields) return end
 

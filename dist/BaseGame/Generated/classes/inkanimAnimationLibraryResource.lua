@@ -5,6 +5,6 @@
 ---@field public sequences inkanimSequence[]
 inkanimAnimationLibraryResource = {}
 
----@param fields? table
+---@param fields? inkanimAnimationLibraryResource
 ---@return inkanimAnimationLibraryResource
 function inkanimAnimationLibraryResource.new(fields) return end

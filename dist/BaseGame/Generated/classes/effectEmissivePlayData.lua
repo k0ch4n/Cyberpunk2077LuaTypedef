@@ -4,6 +4,6 @@
 ---@class effectEmissivePlayData: effectPlacedTrackItemPlayData
 effectEmissivePlayData = {}
 
----@param fields? table
+---@param fields? effectEmissivePlayData
 ---@return effectEmissivePlayData
 function effectEmissivePlayData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public bulletTimeMapItems audioAudBulletTimeModeMapItem[]
 audioAudBulletTimeModeMap = {}
 
----@param fields? table
+---@param fields? audioAudBulletTimeModeMap
 ---@return audioAudBulletTimeModeMap
 function audioAudBulletTimeModeMap.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public lockExitUntilScreenshot Bool
 questOpenPhotoMode_NodeType = {}
 
----@param fields? table
+---@param fields? questOpenPhotoMode_NodeType
 ---@return questOpenPhotoMode_NodeType
 function questOpenPhotoMode_NodeType.new(fields) return end

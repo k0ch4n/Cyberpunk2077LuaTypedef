@@ -7,7 +7,7 @@
 ---@field protected empty Bool
 ArmorEquipInventoryItemController = {}
 
----@param fields? table
+---@param fields? ArmorEquipInventoryItemController
 ---@return ArmorEquipInventoryItemController
 function ArmorEquipInventoryItemController.new(fields) return end
 

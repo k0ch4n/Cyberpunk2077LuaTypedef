@@ -18,6 +18,6 @@
 ---@field public coverDisablingDuration AIArgumentMapping
 AIbehaviorSelectCoverTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSelectCoverTaskDefinition
 ---@return AIbehaviorSelectCoverTaskDefinition
 function AIbehaviorSelectCoverTaskDefinition.new(fields) return end

@@ -23,6 +23,6 @@
 ---@field public actionWidgetRecord TweakDBID
 ActivatedDeviceSetup = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceSetup
 ---@return ActivatedDeviceSetup
 function ActivatedDeviceSetup.new(fields) return end

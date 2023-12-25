@@ -5,6 +5,6 @@
 ---@field public replicatedQuestPrefabs questQuestPrefabsEntry[]
 questQuestsSystemReplicatedState = {}
 
----@param fields? table
+---@param fields? questQuestsSystemReplicatedState
 ---@return questQuestsSystemReplicatedState
 function questQuestsSystemReplicatedState.new(fields) return end

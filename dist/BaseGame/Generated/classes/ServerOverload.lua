@@ -4,7 +4,7 @@
 ---@class ServerOverload: ActionBool
 ServerOverload = {}
 
----@param fields? table
+---@param fields? ServerOverload
 ---@return ServerOverload
 function ServerOverload.new(fields) return end
 

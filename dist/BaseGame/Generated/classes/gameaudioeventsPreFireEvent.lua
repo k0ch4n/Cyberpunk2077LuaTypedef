@@ -4,6 +4,6 @@
 ---@class gameaudioeventsPreFireEvent: redEvent
 gameaudioeventsPreFireEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsPreFireEvent
 ---@return gameaudioeventsPreFireEvent
 function gameaudioeventsPreFireEvent.new(fields) return end

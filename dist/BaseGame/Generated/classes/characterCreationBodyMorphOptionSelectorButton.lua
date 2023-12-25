@@ -5,7 +5,7 @@
 ---@field private overArrow inkWidgetReference
 characterCreationBodyMorphOptionSelectorButton = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphOptionSelectorButton
 ---@return characterCreationBodyMorphOptionSelectorButton
 function characterCreationBodyMorphOptionSelectorButton.new(fields) return end
 

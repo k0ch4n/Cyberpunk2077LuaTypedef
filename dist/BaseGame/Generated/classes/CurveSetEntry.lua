@@ -6,6 +6,6 @@
 ---@field public curve curveData
 CurveSetEntry = {}
 
----@param fields? table
+---@param fields? CurveSetEntry
 ---@return CurveSetEntry
 function CurveSetEntry.new(fields) return end

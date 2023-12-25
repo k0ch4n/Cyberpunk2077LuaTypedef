@@ -4,7 +4,7 @@
 ---@class AINPCPreviousHighLevelStateCheck: AINPCStateCheck
 AINPCPreviousHighLevelStateCheck = {}
 
----@param fields? table
+---@param fields? AINPCPreviousHighLevelStateCheck
 ---@return AINPCPreviousHighLevelStateCheck
 function AINPCPreviousHighLevelStateCheck.new(fields) return end
 

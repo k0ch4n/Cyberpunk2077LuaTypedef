@@ -5,6 +5,6 @@
 ---@field public isInside Bool
 audioPlayerInVehicleASTCD = {}
 
----@param fields? table
+---@param fields? audioPlayerInVehicleASTCD
 ---@return audioPlayerInVehicleASTCD
 function audioPlayerInVehicleASTCD.new(fields) return end

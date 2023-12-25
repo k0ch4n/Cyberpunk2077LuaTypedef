@@ -5,6 +5,6 @@
 ---@field public slotID Int32
 ReleaseSlotEvent = {}
 
----@param fields? table
+---@param fields? ReleaseSlotEvent
 ---@return ReleaseSlotEvent
 function ReleaseSlotEvent.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public listenerID redCallbackObject
 NPCDetectingPlayerPrereqState = {}
 
----@param fields? table
+---@param fields? NPCDetectingPlayerPrereqState
 ---@return NPCDetectingPlayerPrereqState
 function NPCDetectingPlayerPrereqState.new(fields) return end
 

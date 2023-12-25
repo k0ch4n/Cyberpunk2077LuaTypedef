@@ -4,7 +4,7 @@
 ---@class MenuScenario_Difficulty: MenuScenario_PreGameSubMenu
 MenuScenario_Difficulty = {}
 
----@param fields? table
+---@param fields? MenuScenario_Difficulty
 ---@return MenuScenario_Difficulty
 function MenuScenario_Difficulty.new(fields) return end
 

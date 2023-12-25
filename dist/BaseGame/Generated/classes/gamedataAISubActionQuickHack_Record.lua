@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionQuickHack_Record: gamedataAISubAction_Record
 gamedataAISubActionQuickHack_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionQuickHack_Record
 ---@return gamedataAISubActionQuickHack_Record
 function gamedataAISubActionQuickHack_Record.new(fields) return end
 

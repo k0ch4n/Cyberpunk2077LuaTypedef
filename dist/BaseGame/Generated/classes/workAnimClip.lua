@@ -6,6 +6,6 @@
 ---@field public blendOutTime Float
 workAnimClip = {}
 
----@param fields? table
+---@param fields? workAnimClip
 ---@return workAnimClip
 function workAnimClip.new(fields) return end

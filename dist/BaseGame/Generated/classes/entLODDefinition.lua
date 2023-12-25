@@ -12,6 +12,6 @@
 ---@field public consoleDistanceLODs Float
 entLODDefinition = {}
 
----@param fields? table
+---@param fields? entLODDefinition
 ---@return entLODDefinition
 function entLODDefinition.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public particleDamage ParticleDamage
 CParticleSystem = {}
 
----@param fields? table
+---@param fields? CParticleSystem
 ---@return CParticleSystem
 function CParticleSystem.new(fields) return end

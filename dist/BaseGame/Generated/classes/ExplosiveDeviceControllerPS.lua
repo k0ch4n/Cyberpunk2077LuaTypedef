@@ -15,7 +15,7 @@
 ---@field protected doExplosiveEngineerLogic Bool
 ExplosiveDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? ExplosiveDeviceControllerPS
 ---@return ExplosiveDeviceControllerPS
 function ExplosiveDeviceControllerPS.new(fields) return end
 

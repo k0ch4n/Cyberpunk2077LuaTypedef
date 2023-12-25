@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionLeaveCover_Record: gamedataAISubAction_Record
 gamedataAISubActionLeaveCover_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionLeaveCover_Record
 ---@return gamedataAISubActionLeaveCover_Record
 function gamedataAISubActionLeaveCover_Record.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public BarkPlayedTimeStamp gamebbScriptID_Float
 AISquadBlackBoardDef = {}
 
----@param fields? table
+---@param fields? AISquadBlackBoardDef
 ---@return AISquadBlackBoardDef
 function AISquadBlackBoardDef.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public isDisabled Bool
 SetContainerStateEvent = {}
 
----@param fields? table
+---@param fields? SetContainerStateEvent
 ---@return SetContainerStateEvent
 function SetContainerStateEvent.new(fields) return end
 

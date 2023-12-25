@@ -7,6 +7,6 @@
 ---@field public videoResPath redResourceReferenceScriptToken
 VideoCarouselData = {}
 
----@param fields? table
+---@param fields? VideoCarouselData
 ---@return VideoCarouselData
 function VideoCarouselData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public duration Float
 AIInjectLookatTargetCommand = {}
 
----@param fields? table
+---@param fields? AIInjectLookatTargetCommand
 ---@return AIInjectLookatTargetCommand
 function AIInjectLookatTargetCommand.new(fields) return end

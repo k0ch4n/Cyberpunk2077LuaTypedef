@@ -5,7 +5,7 @@
 ---@field protected isCheckInverted Bool
 IsMountedByPreventionNPCPrereq = {}
 
----@param fields? table
+---@param fields? IsMountedByPreventionNPCPrereq
 ---@return IsMountedByPreventionNPCPrereq
 function IsMountedByPreventionNPCPrereq.new(fields) return end
 

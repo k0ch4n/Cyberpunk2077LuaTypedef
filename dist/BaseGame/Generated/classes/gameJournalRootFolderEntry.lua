@@ -5,6 +5,6 @@
 ---@field public descriptor gameJournalDescriptorResource
 gameJournalRootFolderEntry = {}
 
----@param fields? table
+---@param fields? gameJournalRootFolderEntry
 ---@return gameJournalRootFolderEntry
 function gameJournalRootFolderEntry.new(fields) return end

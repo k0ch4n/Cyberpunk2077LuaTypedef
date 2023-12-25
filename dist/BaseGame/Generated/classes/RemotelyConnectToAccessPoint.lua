@@ -4,7 +4,7 @@
 ---@class RemotelyConnectToAccessPoint: gameEffectExecutor_Scripted
 RemotelyConnectToAccessPoint = {}
 
----@param fields? table
+---@param fields? RemotelyConnectToAccessPoint
 ---@return RemotelyConnectToAccessPoint
 function RemotelyConnectToAccessPoint.new(fields) return end
 

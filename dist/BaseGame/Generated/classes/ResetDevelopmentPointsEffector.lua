@@ -4,7 +4,7 @@
 ---@class ResetDevelopmentPointsEffector: gameEffector
 ResetDevelopmentPointsEffector = {}
 
----@param fields? table
+---@param fields? ResetDevelopmentPointsEffector
 ---@return ResetDevelopmentPointsEffector
 function ResetDevelopmentPointsEffector.new(fields) return end
 

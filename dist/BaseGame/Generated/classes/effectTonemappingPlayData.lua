@@ -4,6 +4,6 @@
 ---@class effectTonemappingPlayData: effectPlacedTrackItemPlayData
 effectTonemappingPlayData = {}
 
----@param fields? table
+---@param fields? effectTonemappingPlayData
 ---@return effectTonemappingPlayData
 function effectTonemappingPlayData.new(fields) return end

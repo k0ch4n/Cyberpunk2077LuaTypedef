@@ -7,6 +7,6 @@
 ---@field public autoCloseTime Float
 VehicleExternalDoorRequestEvent = {}
 
----@param fields? table
+---@param fields? VehicleExternalDoorRequestEvent
 ---@return VehicleExternalDoorRequestEvent
 function VehicleExternalDoorRequestEvent.new(fields) return end

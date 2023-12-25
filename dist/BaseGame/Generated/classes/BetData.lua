@@ -7,6 +7,6 @@
 ---@field public betOn CasinoTableBet
 BetData = {}
 
----@param fields? table
+---@param fields? BetData
 ---@return BetData
 function BetData.new(fields) return end

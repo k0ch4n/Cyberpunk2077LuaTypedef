@@ -4,7 +4,7 @@
 ---@class WeaponWheelEvents: QuickSlotsHoldEvents
 WeaponWheelEvents = {}
 
----@param fields? table
+---@param fields? WeaponWheelEvents
 ---@return WeaponWheelEvents
 function WeaponWheelEvents.new(fields) return end
 

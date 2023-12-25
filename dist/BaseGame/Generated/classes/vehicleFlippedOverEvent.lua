@@ -5,6 +5,6 @@
 ---@field public isFlippedOver Bool
 vehicleFlippedOverEvent = {}
 
----@param fields? table
+---@param fields? vehicleFlippedOverEvent
 ---@return vehicleFlippedOverEvent
 function vehicleFlippedOverEvent.new(fields) return end

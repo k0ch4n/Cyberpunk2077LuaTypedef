@@ -6,6 +6,6 @@
 ---@field public size Uint32
 meshLocalMaterialHeader = {}
 
----@param fields? table
+---@param fields? meshLocalMaterialHeader
 ---@return meshLocalMaterialHeader
 function meshLocalMaterialHeader.new(fields) return end

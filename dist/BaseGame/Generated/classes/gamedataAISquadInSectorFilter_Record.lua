@@ -4,7 +4,7 @@
 ---@class gamedataAISquadInSectorFilter_Record: gamedataAITicketFilter_Record
 gamedataAISquadInSectorFilter_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISquadInSectorFilter_Record
 ---@return gamedataAISquadInSectorFilter_Record
 function gamedataAISquadInSectorFilter_Record.new(fields) return end
 

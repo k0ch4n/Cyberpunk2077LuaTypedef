@@ -7,7 +7,7 @@
 ---@field protected entities entEntity[]
 SmokeMachine = {}
 
----@param fields? table
+---@param fields? SmokeMachine
 ---@return SmokeMachine
 function SmokeMachine.new(fields) return end
 

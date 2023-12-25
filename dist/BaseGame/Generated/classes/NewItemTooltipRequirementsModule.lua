@@ -6,7 +6,7 @@
 ---@field private line inkWidgetReference
 NewItemTooltipRequirementsModule = {}
 
----@param fields? table
+---@param fields? NewItemTooltipRequirementsModule
 ---@return NewItemTooltipRequirementsModule
 function NewItemTooltipRequirementsModule.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private fastOpenSoundName CName
 BunkerDoor = {}
 
----@param fields? table
+---@param fields? BunkerDoor
 ---@return BunkerDoor
 function BunkerDoor.new(fields) return end
 

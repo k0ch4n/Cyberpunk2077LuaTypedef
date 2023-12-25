@@ -6,7 +6,7 @@
 ---@field public PlayerHealthState gamebbScriptID_Uint32
 PhotoModeDef = {}
 
----@param fields? table
+---@param fields? PhotoModeDef
 ---@return PhotoModeDef
 function PhotoModeDef.new(fields) return end
 

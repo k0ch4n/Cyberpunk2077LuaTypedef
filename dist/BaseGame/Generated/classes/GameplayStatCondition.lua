@@ -7,7 +7,7 @@
 ---@field private difficulty EGameplayChallengeLevel
 GameplayStatCondition = {}
 
----@param fields? table
+---@param fields? GameplayStatCondition
 ---@return GameplayStatCondition
 function GameplayStatCondition.new(fields) return end
 

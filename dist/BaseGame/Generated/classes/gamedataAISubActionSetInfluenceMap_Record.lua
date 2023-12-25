@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSetInfluenceMap_Record: gamedataAISubAction_Record
 gamedataAISubActionSetInfluenceMap_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSetInfluenceMap_Record
 ---@return gamedataAISubActionSetInfluenceMap_Record
 function gamedataAISubActionSetInfluenceMap_Record.new(fields) return end
 

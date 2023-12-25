@@ -15,6 +15,6 @@
 ---@field public frameClampingEndFrame Int8
 animAnimation = {}
 
----@param fields? table
+---@param fields? animAnimation
 ---@return animAnimation
 function animAnimation.new(fields) return end

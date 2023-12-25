@@ -5,6 +5,6 @@
 ---@field public entriesData communityCommunityEntrySpotsData[]
 communityArea = {}
 
----@param fields? table
+---@param fields? communityArea
 ---@return communityArea
 function communityArea.new(fields) return end

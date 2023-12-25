@@ -5,6 +5,6 @@
 ---@field public vertexCustomSlotIndex Uint32
 entVertexAnimationMapperDestination = {}
 
----@param fields? table
+---@param fields? entVertexAnimationMapperDestination
 ---@return entVertexAnimationMapperDestination
 function entVertexAnimationMapperDestination.new(fields) return end

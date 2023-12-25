@@ -5,7 +5,7 @@
 ---@field public outThreatArgument AIArgumentMapping
 GetRandomThreat = {}
 
----@param fields? table
+---@param fields? GetRandomThreat
 ---@return GetRandomThreat
 function GetRandomThreat.new(fields) return end
 

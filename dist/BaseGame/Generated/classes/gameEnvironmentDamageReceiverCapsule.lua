@@ -6,6 +6,6 @@
 ---@field public height Float
 gameEnvironmentDamageReceiverCapsule = {}
 
----@param fields? table
+---@param fields? gameEnvironmentDamageReceiverCapsule
 ---@return gameEnvironmentDamageReceiverCapsule
 function gameEnvironmentDamageReceiverCapsule.new(fields) return end

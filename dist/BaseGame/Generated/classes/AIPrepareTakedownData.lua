@@ -4,7 +4,7 @@
 ---@class AIPrepareTakedownData: AIbehaviortaskScript
 AIPrepareTakedownData = {}
 
----@param fields? table
+---@param fields? AIPrepareTakedownData
 ---@return AIPrepareTakedownData
 function AIPrepareTakedownData.new(fields) return end
 

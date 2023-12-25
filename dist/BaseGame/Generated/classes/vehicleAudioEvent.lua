@@ -5,6 +5,6 @@
 ---@field public action vehicleAudioEventAction
 vehicleAudioEvent = {}
 
----@param fields? table
+---@param fields? vehicleAudioEvent
 ---@return vehicleAudioEvent
 function vehicleAudioEvent.new(fields) return end

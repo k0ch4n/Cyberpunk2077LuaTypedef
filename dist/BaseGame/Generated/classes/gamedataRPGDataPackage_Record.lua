@@ -4,7 +4,7 @@
 ---@class gamedataRPGDataPackage_Record: gamedataTweakDBRecord
 gamedataRPGDataPackage_Record = {}
 
----@param fields? table
+---@param fields? gamedataRPGDataPackage_Record
 ---@return gamedataRPGDataPackage_Record
 function gamedataRPGDataPackage_Record.new(fields) return end
 

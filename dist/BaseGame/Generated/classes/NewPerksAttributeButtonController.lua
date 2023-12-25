@@ -16,7 +16,7 @@
 ---@field private idleAnimProxy inkanimProxy
 NewPerksAttributeButtonController = {}
 
----@param fields? table
+---@param fields? NewPerksAttributeButtonController
 ---@return NewPerksAttributeButtonController
 function NewPerksAttributeButtonController.new(fields) return end
 

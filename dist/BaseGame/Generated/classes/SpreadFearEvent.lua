@@ -6,6 +6,6 @@
 ---@field public phase Int32
 SpreadFearEvent = {}
 
----@param fields? table
+---@param fields? SpreadFearEvent
 ---@return SpreadFearEvent
 function SpreadFearEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public activator gameObject
 DrillerUIEvent = {}
 
----@param fields? table
+---@param fields? DrillerUIEvent
 ---@return DrillerUIEvent
 function DrillerUIEvent.new(fields) return end

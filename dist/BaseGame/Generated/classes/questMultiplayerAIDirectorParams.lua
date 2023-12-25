@@ -9,6 +9,6 @@
 ---@field public scheduleName String
 questMultiplayerAIDirectorParams = {}
 
----@param fields? table
+---@param fields? questMultiplayerAIDirectorParams
 ---@return questMultiplayerAIDirectorParams
 function questMultiplayerAIDirectorParams.new(fields) return end

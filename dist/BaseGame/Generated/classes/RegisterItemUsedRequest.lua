@@ -5,6 +5,6 @@
 ---@field public itemUsed gameItemID
 RegisterItemUsedRequest = {}
 
----@param fields? table
+---@param fields? RegisterItemUsedRequest
 ---@return RegisterItemUsedRequest
 function RegisterItemUsedRequest.new(fields) return end

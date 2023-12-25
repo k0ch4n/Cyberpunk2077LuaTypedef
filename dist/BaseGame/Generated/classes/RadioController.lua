@@ -4,7 +4,7 @@
 ---@class RadioController: MediaDeviceController
 RadioController = {}
 
----@param fields? table
+---@param fields? RadioController
 ---@return RadioController
 function RadioController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public sceneBeforeChange scnSceneResource
 scnScenesVersionsChangedRecord = {}
 
----@param fields? table
+---@param fields? scnScenesVersionsChangedRecord
 ---@return scnScenesVersionsChangedRecord
 function scnScenesVersionsChangedRecord.new(fields) return end

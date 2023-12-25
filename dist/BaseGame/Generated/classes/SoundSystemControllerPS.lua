@@ -8,7 +8,7 @@
 ---@field protected cachedEvent ChangeMusicAction
 SoundSystemControllerPS = {}
 
----@param fields? table
+---@param fields? SoundSystemControllerPS
 ---@return SoundSystemControllerPS
 function SoundSystemControllerPS.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public forceFrameRate Bool
 scnPlayVideoEvent = {}
 
----@param fields? table
+---@param fields? scnPlayVideoEvent
 ---@return scnPlayVideoEvent
 function scnPlayVideoEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public listener PuppetListener
 NPCTrackingPlayerPrereqState = {}
 
----@param fields? table
+---@param fields? NPCTrackingPlayerPrereqState
 ---@return NPCTrackingPlayerPrereqState
 function NPCTrackingPlayerPrereqState.new(fields) return end

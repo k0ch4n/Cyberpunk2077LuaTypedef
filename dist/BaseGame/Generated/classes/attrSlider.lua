@@ -5,6 +5,6 @@
 ---@field public ep Float
 attrSlider = {}
 
----@param fields? table
+---@param fields? attrSlider
 ---@return attrSlider
 function attrSlider.new(fields) return end

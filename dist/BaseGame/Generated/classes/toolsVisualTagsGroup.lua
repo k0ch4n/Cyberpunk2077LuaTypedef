@@ -6,6 +6,6 @@
 ---@field public tags toolsVisualTagsDefinition[]
 toolsVisualTagsGroup = {}
 
----@param fields? table
+---@param fields? toolsVisualTagsGroup
 ---@return toolsVisualTagsGroup
 function toolsVisualTagsGroup.new(fields) return end

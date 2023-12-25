@@ -7,6 +7,6 @@
 ---@field public behavior AIbehaviorParameterizedBehavior
 questForcedBehaviourNodeDefinition = {}
 
----@param fields? table
+---@param fields? questForcedBehaviourNodeDefinition
 ---@return questForcedBehaviourNodeDefinition
 function questForcedBehaviourNodeDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class AccessPointController: MasterController
 AccessPointController = {}
 
----@param fields? table
+---@param fields? AccessPointController
 ---@return AccessPointController
 function AccessPointController.new(fields) return end
 

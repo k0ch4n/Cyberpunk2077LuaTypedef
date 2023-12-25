@@ -7,6 +7,6 @@
 ---@field public register Bool
 PreventionRegisterRequest = {}
 
----@param fields? table
+---@param fields? PreventionRegisterRequest
 ---@return PreventionRegisterRequest
 function PreventionRegisterRequest.new(fields) return end

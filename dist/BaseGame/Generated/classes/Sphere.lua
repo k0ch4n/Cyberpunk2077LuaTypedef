@@ -5,7 +5,7 @@
 ---@field public CenterRadius2 Vector4
 Sphere = {}
 
----@param fields? table
+---@param fields? Sphere
 ---@return Sphere
 function Sphere.new(fields) return end
 

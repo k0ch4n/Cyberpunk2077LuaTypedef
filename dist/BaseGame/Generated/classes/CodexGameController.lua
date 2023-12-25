@@ -25,7 +25,7 @@
 ---@field private onInputDeviceChangedCallbackID redCallbackObject
 CodexGameController = {}
 
----@param fields? table
+---@param fields? CodexGameController
 ---@return CodexGameController
 function CodexGameController.new(fields) return end
 

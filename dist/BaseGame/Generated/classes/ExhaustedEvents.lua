@@ -7,7 +7,7 @@
 ---@field public player PlayerPuppet
 ExhaustedEvents = {}
 
----@param fields? table
+---@param fields? ExhaustedEvents
 ---@return ExhaustedEvents
 function ExhaustedEvents.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field public statBasedValue Float
 ModifyDamageEffector = {}
 
----@param fields? table
+---@param fields? ModifyDamageEffector
 ---@return ModifyDamageEffector
 function ModifyDamageEffector.new(fields) return end
 

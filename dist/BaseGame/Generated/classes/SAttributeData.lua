@@ -6,6 +6,6 @@
 ---@field public unlockedPerks SNewPerk[]
 SAttributeData = {}
 
----@param fields? table
+---@param fields? SAttributeData
 ---@return SAttributeData
 function SAttributeData.new(fields) return end

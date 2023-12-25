@@ -5,6 +5,6 @@
 ---@field public properties gameSmartObjectPropertyDictionaryPropertyEntry[]
 gameSmartObjectPropertyDictionary = {}
 
----@param fields? table
+---@param fields? gameSmartObjectPropertyDictionary
 ---@return gameSmartObjectPropertyDictionary
 function gameSmartObjectPropertyDictionary.new(fields) return end

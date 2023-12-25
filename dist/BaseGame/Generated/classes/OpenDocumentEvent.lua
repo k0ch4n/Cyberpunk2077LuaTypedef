@@ -9,7 +9,7 @@
 ---@field public ownerID entEntityID
 OpenDocumentEvent = {}
 
----@param fields? table
+---@param fields? OpenDocumentEvent
 ---@return OpenDocumentEvent
 function OpenDocumentEvent.new(fields) return end
 

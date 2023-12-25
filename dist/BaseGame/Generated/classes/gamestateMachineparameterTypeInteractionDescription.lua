@@ -6,6 +6,6 @@
 ---@field public interactionType CName
 gamestateMachineparameterTypeInteractionDescription = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeInteractionDescription
 ---@return gamestateMachineparameterTypeInteractionDescription
 function gamestateMachineparameterTypeInteractionDescription.new(fields) return end

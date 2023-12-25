@@ -11,6 +11,6 @@
 ---@field public boostDrivingStats Bool
 AIVehicleChaseCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleChaseCommand
 ---@return AIVehicleChaseCommand
 function AIVehicleChaseCommand.new(fields) return end

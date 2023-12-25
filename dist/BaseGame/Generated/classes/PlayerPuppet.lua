@@ -140,7 +140,7 @@
 ---@field private choiceTokenTextDrawn Bool
 PlayerPuppet = {}
 
----@param fields? table
+---@param fields? PlayerPuppet
 ---@return PlayerPuppet
 function PlayerPuppet.new(fields) return end
 

@@ -16,7 +16,7 @@
 ---@field private animProxyTimeout inkanimProxy
 OnscreenMessageGameController = {}
 
----@param fields? table
+---@param fields? OnscreenMessageGameController
 ---@return OnscreenMessageGameController
 function OnscreenMessageGameController.new(fields) return end
 

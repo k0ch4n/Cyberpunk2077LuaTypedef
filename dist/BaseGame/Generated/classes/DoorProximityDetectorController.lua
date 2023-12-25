@@ -4,7 +4,7 @@
 ---@class DoorProximityDetectorController: ProximityDetectorController
 DoorProximityDetectorController = {}
 
----@param fields? table
+---@param fields? DoorProximityDetectorController
 ---@return DoorProximityDetectorController
 function DoorProximityDetectorController.new(fields) return end
 

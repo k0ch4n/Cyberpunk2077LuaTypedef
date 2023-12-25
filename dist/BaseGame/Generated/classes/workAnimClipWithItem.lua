@@ -5,6 +5,6 @@
 ---@field public itemActions workIWorkspotItemAction[]
 workAnimClipWithItem = {}
 
----@param fields? table
+---@param fields? workAnimClipWithItem
 ---@return workAnimClipWithItem
 function workAnimClipWithItem.new(fields) return end

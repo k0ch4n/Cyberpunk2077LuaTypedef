@@ -16,7 +16,7 @@
 ---@field private disappearingAnimProxy inkanimProxy
 activityLogEntryLogicController = {}
 
----@param fields? table
+---@param fields? activityLogEntryLogicController
 ---@return activityLogEntryLogicController
 function activityLogEntryLogicController.new(fields) return end
 

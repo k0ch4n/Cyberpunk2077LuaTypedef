@@ -6,6 +6,6 @@
 ---@field public animationData animGenericAnimDatabase_AnimationData
 animGenericAnimDatabase_DatabaseRow = {}
 
----@param fields? table
+---@param fields? animGenericAnimDatabase_DatabaseRow
 ---@return animGenericAnimDatabase_DatabaseRow
 function animGenericAnimDatabase_DatabaseRow.new(fields) return end

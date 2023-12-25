@@ -5,6 +5,6 @@
 ---@field public sharedVars AISharedVarTableDefinition
 AICTreeNodeSharedVarsDecoratorDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeSharedVarsDecoratorDefinition
 ---@return AICTreeNodeSharedVarsDecoratorDefinition
 function AICTreeNodeSharedVarsDecoratorDefinition.new(fields) return end

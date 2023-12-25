@@ -4,7 +4,7 @@
 ---@class HitStatPoolComparisonPrereqState: GenericHitPrereqState
 HitStatPoolComparisonPrereqState = {}
 
----@param fields? table
+---@param fields? HitStatPoolComparisonPrereqState
 ---@return HitStatPoolComparisonPrereqState
 function HitStatPoolComparisonPrereqState.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AIReturnToRestrictMovementArea: AIbehaviortaskScript
 AIReturnToRestrictMovementArea = {}
 
----@param fields? table
+---@param fields? AIReturnToRestrictMovementArea
 ---@return AIReturnToRestrictMovementArea
 function AIReturnToRestrictMovementArea.new(fields) return end
 

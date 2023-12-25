@@ -4,7 +4,7 @@
 ---@class gameuiMappinUIUtils
 gameuiMappinUIUtils = {}
 
----@param fields? table
+---@param fields? gameuiMappinUIUtils
 ---@return gameuiMappinUIUtils
 function gameuiMappinUIUtils.new(fields) return end
 

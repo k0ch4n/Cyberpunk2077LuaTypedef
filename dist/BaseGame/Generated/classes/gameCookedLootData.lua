@@ -6,6 +6,6 @@
 ---@field public contentAssignment TweakDBID
 gameCookedLootData = {}
 
----@param fields? table
+---@param fields? gameCookedLootData
 ---@return gameCookedLootData
 function gameCookedLootData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public Slot RadialSlot
 RadialWheelUserData = {}
 
----@param fields? table
+---@param fields? RadialWheelUserData
 ---@return RadialWheelUserData
 function RadialWheelUserData.new(fields) return end

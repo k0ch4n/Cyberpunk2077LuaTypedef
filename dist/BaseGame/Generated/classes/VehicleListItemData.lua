@@ -8,6 +8,6 @@
 ---@field public repairTimeRemaining Float
 VehicleListItemData = {}
 
----@param fields? table
+---@param fields? VehicleListItemData
 ---@return VehicleListItemData
 function VehicleListItemData.new(fields) return end

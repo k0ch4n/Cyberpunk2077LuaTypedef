@@ -6,7 +6,7 @@
 ---@field private interaction gameinteractionsComponent
 DebugInteractionObject = {}
 
----@param fields? table
+---@param fields? DebugInteractionObject
 ---@return DebugInteractionObject
 function DebugInteractionObject.new(fields) return end
 

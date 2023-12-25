@@ -7,6 +7,6 @@
 ---@field public removeAfterSingleUse Bool
 questSetInteractionVisualizerOverride = {}
 
----@param fields? table
+---@param fields? questSetInteractionVisualizerOverride
 ---@return questSetInteractionVisualizerOverride
 function questSetInteractionVisualizerOverride.new(fields) return end

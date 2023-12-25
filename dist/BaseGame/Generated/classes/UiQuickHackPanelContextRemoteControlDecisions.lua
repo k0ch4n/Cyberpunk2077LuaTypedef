@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextRemoteControlDecisions: UiQuickHackPanelContextDecisions
 UiQuickHackPanelContextRemoteControlDecisions = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextRemoteControlDecisions
 ---@return UiQuickHackPanelContextRemoteControlDecisions
 function UiQuickHackPanelContextRemoteControlDecisions.new(fields) return end
 

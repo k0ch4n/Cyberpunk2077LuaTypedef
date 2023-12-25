@@ -5,6 +5,6 @@
 ---@field public nodes animAnimNodeDebugState[]
 animAnimGraphDebugState = {}
 
----@param fields? table
+---@param fields? animAnimGraphDebugState
 ---@return animAnimGraphDebugState
 function animAnimGraphDebugState.new(fields) return end

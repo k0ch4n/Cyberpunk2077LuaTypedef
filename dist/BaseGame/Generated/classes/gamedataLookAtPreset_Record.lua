@@ -4,7 +4,7 @@
 ---@class gamedataLookAtPreset_Record: gamedataTweakDBRecord
 gamedataLookAtPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataLookAtPreset_Record
 ---@return gamedataLookAtPreset_Record
 function gamedataLookAtPreset_Record.new(fields) return end
 

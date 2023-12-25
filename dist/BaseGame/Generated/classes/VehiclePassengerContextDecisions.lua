@@ -4,7 +4,7 @@
 ---@class VehiclePassengerContextDecisions: VehicleGameplayContextDecisions
 VehiclePassengerContextDecisions = {}
 
----@param fields? table
+---@param fields? VehiclePassengerContextDecisions
 ---@return VehiclePassengerContextDecisions
 function VehiclePassengerContextDecisions.new(fields) return end
 

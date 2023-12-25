@@ -4,7 +4,7 @@
 ---@class inkPointerEvent: inkInputEvent
 inkPointerEvent = {}
 
----@param fields? table
+---@param fields? inkPointerEvent
 ---@return inkPointerEvent
 function inkPointerEvent.new(fields) return end
 

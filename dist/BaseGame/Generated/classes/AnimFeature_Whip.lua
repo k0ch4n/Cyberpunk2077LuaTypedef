@@ -7,6 +7,6 @@
 ---@field public targetPoint Vector4
 AnimFeature_Whip = {}
 
----@param fields? table
+---@param fields? AnimFeature_Whip
 ---@return AnimFeature_Whip
 function AnimFeature_Whip.new(fields) return end

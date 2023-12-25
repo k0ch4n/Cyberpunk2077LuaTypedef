@@ -7,6 +7,6 @@
 ---@field public teleportRotation AIArgumentMapping
 AIbehaviorFindTeleportPositionTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindTeleportPositionTaskDefinition
 ---@return AIbehaviorFindTeleportPositionTaskDefinition
 function AIbehaviorFindTeleportPositionTaskDefinition.new(fields) return end

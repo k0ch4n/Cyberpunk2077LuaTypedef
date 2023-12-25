@@ -5,7 +5,7 @@
 ---@field public type gamedataStatType
 BuyAttributeEffector = {}
 
----@param fields? table
+---@param fields? BuyAttributeEffector
 ---@return BuyAttributeEffector
 function BuyAttributeEffector.new(fields) return end
 

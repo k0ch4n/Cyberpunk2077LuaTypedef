@@ -4,7 +4,7 @@
 ---@class gameProjectileSystem: gameIProjectileSystem
 gameProjectileSystem = {}
 
----@param fields? table
+---@param fields? gameProjectileSystem
 ---@return gameProjectileSystem
 function gameProjectileSystem.new(fields) return end
 

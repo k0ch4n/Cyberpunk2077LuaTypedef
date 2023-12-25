@@ -5,7 +5,7 @@
 ---@field private baseSquadRecord gamedataAISquadParams_Record
 SquadMemberBaseComponent = {}
 
----@param fields? table
+---@param fields? SquadMemberBaseComponent
 ---@return SquadMemberBaseComponent
 function SquadMemberBaseComponent.new(fields) return end
 

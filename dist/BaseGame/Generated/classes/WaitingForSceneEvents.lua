@@ -4,6 +4,6 @@
 ---@class WaitingForSceneEvents: VehicleTransition
 WaitingForSceneEvents = {}
 
----@param fields? table
+---@param fields? WaitingForSceneEvents
 ---@return WaitingForSceneEvents
 function WaitingForSceneEvents.new(fields) return end

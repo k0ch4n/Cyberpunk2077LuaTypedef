@@ -20,7 +20,7 @@
 ---@field private timeUntilReset Float
 CraftingLogicController = {}
 
----@param fields? table
+---@param fields? CraftingLogicController
 ---@return CraftingLogicController
 function CraftingLogicController.new(fields) return end
 

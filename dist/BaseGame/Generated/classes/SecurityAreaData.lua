@@ -13,6 +13,6 @@
 ---@field public shouldHideOnMinimap Bool
 SecurityAreaData = {}
 
----@param fields? table
+---@param fields? SecurityAreaData
 ---@return SecurityAreaData
 function SecurityAreaData.new(fields) return end

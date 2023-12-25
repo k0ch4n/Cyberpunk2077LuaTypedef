@@ -6,6 +6,6 @@
 ---@field public testBool Bool
 customGameNotificationDataSet = {}
 
----@param fields? table
+---@param fields? customGameNotificationDataSet
 ---@return customGameNotificationDataSet
 function customGameNotificationDataSet.new(fields) return end

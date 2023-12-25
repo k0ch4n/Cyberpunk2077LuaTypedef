@@ -4,6 +4,6 @@
 ---@class worldCrowdPortalNode: worldNode
 worldCrowdPortalNode = {}
 
----@param fields? table
+---@param fields? worldCrowdPortalNode
 ---@return worldCrowdPortalNode
 function worldCrowdPortalNode.new(fields) return end

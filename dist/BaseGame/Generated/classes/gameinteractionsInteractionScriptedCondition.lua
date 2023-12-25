@@ -4,6 +4,6 @@
 ---@class gameinteractionsInteractionScriptedCondition: IScriptable
 gameinteractionsInteractionScriptedCondition = {}
 
----@param fields? table
+---@param fields? gameinteractionsInteractionScriptedCondition
 ---@return gameinteractionsInteractionScriptedCondition
 function gameinteractionsInteractionScriptedCondition.new(fields) return end

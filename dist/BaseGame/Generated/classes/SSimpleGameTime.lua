@@ -7,6 +7,6 @@
 ---@field public seconds Int32
 SSimpleGameTime = {}
 
----@param fields? table
+---@param fields? SSimpleGameTime
 ---@return SSimpleGameTime
 function SSimpleGameTime.new(fields) return end

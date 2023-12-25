@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionMissileRainCircular_Record: gamedataAISubActionShootWithWeapon_Record
 gamedataAISubActionMissileRainCircular_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionMissileRainCircular_Record
 ---@return gamedataAISubActionMissileRainCircular_Record
 function gamedataAISubActionMissileRainCircular_Record.new(fields) return end
 

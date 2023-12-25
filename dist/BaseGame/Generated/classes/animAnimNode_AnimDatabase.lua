@@ -6,6 +6,6 @@
 ---@field public inputLinks animIntLink[]
 animAnimNode_AnimDatabase = {}
 
----@param fields? table
+---@param fields? animAnimNode_AnimDatabase
 ---@return animAnimNode_AnimDatabase
 function animAnimNode_AnimDatabase.new(fields) return end

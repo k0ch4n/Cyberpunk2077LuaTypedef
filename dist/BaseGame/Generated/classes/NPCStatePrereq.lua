@@ -7,7 +7,7 @@
 ---@field private skipWhenApplied Bool
 NPCStatePrereq = {}
 
----@param fields? table
+---@param fields? NPCStatePrereq
 ---@return NPCStatePrereq
 function NPCStatePrereq.new(fields) return end
 

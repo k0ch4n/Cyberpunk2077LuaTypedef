@@ -4,6 +4,6 @@
 ---@class movePoliciesContractMoveToSmartObject: movePoliciesContract
 movePoliciesContractMoveToSmartObject = {}
 
----@param fields? table
+---@param fields? movePoliciesContractMoveToSmartObject
 ---@return movePoliciesContractMoveToSmartObject
 function movePoliciesContractMoveToSmartObject.new(fields) return end

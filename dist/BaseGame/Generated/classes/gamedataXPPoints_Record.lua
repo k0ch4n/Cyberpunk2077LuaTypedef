@@ -4,7 +4,7 @@
 ---@class gamedataXPPoints_Record: gamedataTweakDBRecord
 gamedataXPPoints_Record = {}
 
----@param fields? table
+---@param fields? gamedataXPPoints_Record
 ---@return gamedataXPPoints_Record
 function gamedataXPPoints_Record.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public data JournalNotificationData
 PhoneMessagePopupEvent = {}
 
----@param fields? table
+---@param fields? PhoneMessagePopupEvent
 ---@return PhoneMessagePopupEvent
 function PhoneMessagePopupEvent.new(fields) return end

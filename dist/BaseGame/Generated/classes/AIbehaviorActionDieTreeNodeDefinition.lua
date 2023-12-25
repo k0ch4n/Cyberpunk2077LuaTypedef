@@ -4,6 +4,6 @@
 ---@class AIbehaviorActionDieTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
 AIbehaviorActionDieTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionDieTreeNodeDefinition
 ---@return AIbehaviorActionDieTreeNodeDefinition
 function AIbehaviorActionDieTreeNodeDefinition.new(fields) return end

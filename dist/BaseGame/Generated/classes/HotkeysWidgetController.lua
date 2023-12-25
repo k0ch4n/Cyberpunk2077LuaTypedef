@@ -17,7 +17,7 @@
 ---@field private berserkEnabledBBId redCallbackObject
 HotkeysWidgetController = {}
 
----@param fields? table
+---@param fields? HotkeysWidgetController
 ---@return HotkeysWidgetController
 function HotkeysWidgetController.new(fields) return end
 

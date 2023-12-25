@@ -6,6 +6,6 @@
 ---@field public idle Int32
 AnimFeature_FacialReaction = {}
 
----@param fields? table
+---@param fields? AnimFeature_FacialReaction
 ---@return AnimFeature_FacialReaction
 function AnimFeature_FacialReaction.new(fields) return end

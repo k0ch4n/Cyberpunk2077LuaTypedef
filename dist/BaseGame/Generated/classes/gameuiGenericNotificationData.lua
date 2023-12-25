@@ -9,6 +9,6 @@
 ---@field public notificationData gameuiGenericNotificationViewData
 gameuiGenericNotificationData = {}
 
----@param fields? table
+---@param fields? gameuiGenericNotificationData
 ---@return gameuiGenericNotificationData
 function gameuiGenericNotificationData.new(fields) return end

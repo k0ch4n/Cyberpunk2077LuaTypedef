@@ -4,7 +4,7 @@
 ---@class UnitsLocalizationHelper: IScriptable
 UnitsLocalizationHelper = {}
 
----@param fields? table
+---@param fields? UnitsLocalizationHelper
 ---@return UnitsLocalizationHelper
 function UnitsLocalizationHelper.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class IsPlayerMovingPrereq: PlayerStateMachinePrereq
 IsPlayerMovingPrereq = {}
 
----@param fields? table
+---@param fields? IsPlayerMovingPrereq
 ---@return IsPlayerMovingPrereq
 function IsPlayerMovingPrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class IsPoliceUnawareOfThePlayerExactLocationCondition: PreventionConditionAbstract
 IsPoliceUnawareOfThePlayerExactLocationCondition = {}
 
----@param fields? table
+---@param fields? IsPoliceUnawareOfThePlayerExactLocationCondition
 ---@return IsPoliceUnawareOfThePlayerExactLocationCondition
 function IsPoliceUnawareOfThePlayerExactLocationCondition.new(fields) return end
 

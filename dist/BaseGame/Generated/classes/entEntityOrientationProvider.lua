@@ -8,6 +8,6 @@
 ---@field public orientationEntitySpace Quaternion
 entEntityOrientationProvider = {}
 
----@param fields? table
+---@param fields? entEntityOrientationProvider
 ---@return entEntityOrientationProvider
 function entEntityOrientationProvider.new(fields) return end

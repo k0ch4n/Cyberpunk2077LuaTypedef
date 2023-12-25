@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 UIScriptableSystemInventoryAddItem = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemInventoryAddItem
 ---@return UIScriptableSystemInventoryAddItem
 function UIScriptableSystemInventoryAddItem.new(fields) return end

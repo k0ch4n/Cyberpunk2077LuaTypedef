@@ -4,6 +4,6 @@
 ---@class UnequippedWaitingForExternalFactorsEvents: EquipmentBaseEvents
 UnequippedWaitingForExternalFactorsEvents = {}
 
----@param fields? table
+---@param fields? UnequippedWaitingForExternalFactorsEvents
 ---@return UnequippedWaitingForExternalFactorsEvents
 function UnequippedWaitingForExternalFactorsEvents.new(fields) return end

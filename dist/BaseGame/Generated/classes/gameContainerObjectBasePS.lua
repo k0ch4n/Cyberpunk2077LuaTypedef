@@ -4,6 +4,6 @@
 ---@class gameContainerObjectBasePS: gameLootContainerBasePS
 gameContainerObjectBasePS = {}
 
----@param fields? table
+---@param fields? gameContainerObjectBasePS
 ---@return gameContainerObjectBasePS
 function gameContainerObjectBasePS.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class ToggleGlassTintHack: ToggleGlassTint
 ToggleGlassTintHack = {}
 
----@param fields? table
+---@param fields? ToggleGlassTintHack
 ---@return ToggleGlassTintHack
 function ToggleGlassTintHack.new(fields) return end

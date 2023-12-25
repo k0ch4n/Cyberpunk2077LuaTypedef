@@ -11,7 +11,7 @@
 ---@field private isEnabled Bool
 ApplyShaderEffector = {}
 
----@param fields? table
+---@param fields? ApplyShaderEffector
 ---@return ApplyShaderEffector
 function ApplyShaderEffector.new(fields) return end
 

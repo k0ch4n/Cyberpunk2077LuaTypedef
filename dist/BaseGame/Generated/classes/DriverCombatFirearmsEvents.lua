@@ -14,7 +14,7 @@
 ---@field protected prevSpeed Float
 DriverCombatFirearmsEvents = {}
 
----@param fields? table
+---@param fields? DriverCombatFirearmsEvents
 ---@return DriverCombatFirearmsEvents
 function DriverCombatFirearmsEvents.new(fields) return end
 

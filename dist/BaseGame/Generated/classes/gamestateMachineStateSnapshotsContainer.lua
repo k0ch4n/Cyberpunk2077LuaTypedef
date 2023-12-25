@@ -5,7 +5,7 @@
 ---@field public snapshot gamestateMachineStateSnapshot[]
 gamestateMachineStateSnapshotsContainer = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateSnapshotsContainer
 ---@return gamestateMachineStateSnapshotsContainer
 function gamestateMachineStateSnapshotsContainer.new(fields) return end
 

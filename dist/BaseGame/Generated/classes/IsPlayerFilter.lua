@@ -4,7 +4,7 @@
 ---@class IsPlayerFilter: gameEffectObjectSingleFilter_Scripted
 IsPlayerFilter = {}
 
----@param fields? table
+---@param fields? IsPlayerFilter
 ---@return IsPlayerFilter
 function IsPlayerFilter.new(fields) return end
 

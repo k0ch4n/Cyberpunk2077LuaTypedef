@@ -6,6 +6,6 @@
 ---@field public callbackName CName
 AIbehaviorWaitingMountCommandConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitingMountCommandConditionDefinition
 ---@return AIbehaviorWaitingMountCommandConditionDefinition
 function AIbehaviorWaitingMountCommandConditionDefinition.new(fields) return end

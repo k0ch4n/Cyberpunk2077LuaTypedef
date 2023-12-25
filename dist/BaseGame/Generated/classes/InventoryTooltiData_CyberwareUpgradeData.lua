@@ -10,7 +10,7 @@
 ---@field public upgradeCost CyberwareUpgradeCostData
 InventoryTooltiData_CyberwareUpgradeData = {}
 
----@param fields? table
+---@param fields? InventoryTooltiData_CyberwareUpgradeData
 ---@return InventoryTooltiData_CyberwareUpgradeData
 function InventoryTooltiData_CyberwareUpgradeData.new(fields) return end
 

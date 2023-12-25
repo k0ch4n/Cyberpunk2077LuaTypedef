@@ -4,7 +4,7 @@
 ---@class gamedataAttack_Melee_Record: gamedataAttack_GameEffect_Record
 gamedataAttack_Melee_Record = {}
 
----@param fields? table
+---@param fields? gamedataAttack_Melee_Record
 ---@return gamedataAttack_Melee_Record
 function gamedataAttack_Melee_Record.new(fields) return end
 

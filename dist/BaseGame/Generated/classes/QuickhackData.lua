@@ -37,6 +37,6 @@
 ---@field public networkBreached Bool
 QuickhackData = {}
 
----@param fields? table
+---@param fields? QuickhackData
 ---@return QuickhackData
 function QuickhackData.new(fields) return end

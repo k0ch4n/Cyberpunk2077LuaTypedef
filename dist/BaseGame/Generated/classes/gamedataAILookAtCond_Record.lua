@@ -4,7 +4,7 @@
 ---@class gamedataAILookAtCond_Record: gamedataAIActionSubCondition_Record
 gamedataAILookAtCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAILookAtCond_Record
 ---@return gamedataAILookAtCond_Record
 function gamedataAILookAtCond_Record.new(fields) return end
 

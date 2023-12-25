@@ -18,6 +18,6 @@
 ---@field public weaponBlurIntensity_aim Float
 AnimFeature_WeaponBlur = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponBlur
 ---@return AnimFeature_WeaponBlur
 function AnimFeature_WeaponBlur.new(fields) return end

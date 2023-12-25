@@ -5,6 +5,6 @@
 ---@field public data gameSItemStackRequirementData
 VendorRequirementsNotMetNotificationData = {}
 
----@param fields? table
+---@param fields? VendorRequirementsNotMetNotificationData
 ---@return VendorRequirementsNotMetNotificationData
 function VendorRequirementsNotMetNotificationData.new(fields) return end

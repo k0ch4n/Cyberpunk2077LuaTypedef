@@ -8,7 +8,7 @@
 ---@field public overrideCurrentNotification Bool
 UIInGameNotificationEvent = {}
 
----@param fields? table
+---@param fields? UIInGameNotificationEvent
 ---@return UIInGameNotificationEvent
 function UIInGameNotificationEvent.new(fields) return end
 

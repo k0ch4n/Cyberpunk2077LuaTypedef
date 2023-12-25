@@ -10,6 +10,6 @@
 ---@field public retriggerAudioOnLoop Bool
 inkanimVideoInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimVideoInterpolator
 ---@return inkanimVideoInterpolator
 function inkanimVideoInterpolator.new(fields) return end

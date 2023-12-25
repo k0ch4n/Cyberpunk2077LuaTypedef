@@ -32,7 +32,7 @@
 ---@field private timeoutAnimationProxy inkanimProxy
 gameuiCyberwareBreachGameController = {}
 
----@param fields? table
+---@param fields? gameuiCyberwareBreachGameController
 ---@return gameuiCyberwareBreachGameController
 function gameuiCyberwareBreachGameController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public startAdjustmentAfterAnimEvent CName
 animAnimNode_LocomotionAdjusterOnEvent = {}
 
----@param fields? table
+---@param fields? animAnimNode_LocomotionAdjusterOnEvent
 ---@return animAnimNode_LocomotionAdjusterOnEvent
 function animAnimNode_LocomotionAdjusterOnEvent.new(fields) return end

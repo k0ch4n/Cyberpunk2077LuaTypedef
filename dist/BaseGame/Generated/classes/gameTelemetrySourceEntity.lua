@@ -6,6 +6,6 @@
 ---@field public sourceEntityRecord TweakDBID
 gameTelemetrySourceEntity = {}
 
----@param fields? table
+---@param fields? gameTelemetrySourceEntity
 ---@return gameTelemetrySourceEntity
 function gameTelemetrySourceEntity.new(fields) return end

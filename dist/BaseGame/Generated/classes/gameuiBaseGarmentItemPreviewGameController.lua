@@ -7,7 +7,7 @@
 ---@field protected initialItem gameItemID
 gameuiBaseGarmentItemPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiBaseGarmentItemPreviewGameController
 ---@return gameuiBaseGarmentItemPreviewGameController
 function gameuiBaseGarmentItemPreviewGameController.new(fields) return end
 

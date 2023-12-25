@@ -7,7 +7,7 @@
 ---@field private weaponEvolutionDescription inkTextWidgetReference
 ItemTooltipEvolutionModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipEvolutionModule
 ---@return ItemTooltipEvolutionModule
 function ItemTooltipEvolutionModule.new(fields) return end
 

@@ -14,7 +14,7 @@
 ---@field public playerPuppet PlayerPuppet
 MineBarrageProjectile = {}
 
----@param fields? table
+---@param fields? MineBarrageProjectile
 ---@return MineBarrageProjectile
 function MineBarrageProjectile.new(fields) return end
 

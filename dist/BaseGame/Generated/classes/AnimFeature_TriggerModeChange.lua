@@ -5,6 +5,6 @@
 ---@field public cycleTime Float
 AnimFeature_TriggerModeChange = {}
 
----@param fields? table
+---@param fields? AnimFeature_TriggerModeChange
 ---@return AnimFeature_TriggerModeChange
 function AnimFeature_TriggerModeChange.new(fields) return end

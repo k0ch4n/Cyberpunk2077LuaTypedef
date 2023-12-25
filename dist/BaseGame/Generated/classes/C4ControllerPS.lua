@@ -5,7 +5,7 @@
 ---@field private itemTweakDBString CName
 C4ControllerPS = {}
 
----@param fields? table
+---@param fields? C4ControllerPS
 ---@return C4ControllerPS
 function C4ControllerPS.new(fields) return end
 

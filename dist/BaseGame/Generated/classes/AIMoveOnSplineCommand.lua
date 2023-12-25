@@ -34,6 +34,6 @@
 ---@field public maxCompanionDistanceOnSpline Float
 AIMoveOnSplineCommand = {}
 
----@param fields? table
+---@param fields? AIMoveOnSplineCommand
 ---@return AIMoveOnSplineCommand
 function AIMoveOnSplineCommand.new(fields) return end

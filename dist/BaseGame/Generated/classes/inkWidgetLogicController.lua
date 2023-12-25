@@ -4,7 +4,7 @@
 ---@class inkWidgetLogicController: inkIWidgetLogicController
 inkWidgetLogicController = {}
 
----@param fields? table
+---@param fields? inkWidgetLogicController
 ---@return inkWidgetLogicController
 function inkWidgetLogicController.new(fields) return end
 

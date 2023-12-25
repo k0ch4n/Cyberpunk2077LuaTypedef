@@ -10,7 +10,7 @@
 ---@field public filterData physicsFilterData
 entPhysicalMeshComponent = {}
 
----@param fields? table
+---@param fields? entPhysicalMeshComponent
 ---@return entPhysicalMeshComponent
 function entPhysicalMeshComponent.new(fields) return end
 

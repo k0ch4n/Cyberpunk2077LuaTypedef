@@ -7,7 +7,7 @@
 ---@field private hoverEvent RipperdocPerkHoverEvent
 RipperdocPerkController = {}
 
----@param fields? table
+---@param fields? RipperdocPerkController
 ---@return RipperdocPerkController
 function RipperdocPerkController.new(fields) return end
 

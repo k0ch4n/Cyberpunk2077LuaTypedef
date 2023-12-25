@@ -7,7 +7,7 @@
 ---@field private shortGlitchDelayID gameDelayID
 Terminal = {}
 
----@param fields? table
+---@param fields? Terminal
 ---@return Terminal
 function Terminal.new(fields) return end
 

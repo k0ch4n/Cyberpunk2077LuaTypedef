@@ -5,7 +5,7 @@
 ---@field private savedOutputCache OutputValidationDataStruct[]
 SecuritySystem = {}
 
----@param fields? table
+---@param fields? SecuritySystem
 ---@return SecuritySystem
 function SecuritySystem.new(fields) return end
 

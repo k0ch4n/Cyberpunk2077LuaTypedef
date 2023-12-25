@@ -4,7 +4,7 @@
 ---@class gamedataProjectileCollision_Record: gamedataTweakDBRecord
 gamedataProjectileCollision_Record = {}
 
----@param fields? table
+---@param fields? gamedataProjectileCollision_Record
 ---@return gamedataProjectileCollision_Record
 function gamedataProjectileCollision_Record.new(fields) return end
 

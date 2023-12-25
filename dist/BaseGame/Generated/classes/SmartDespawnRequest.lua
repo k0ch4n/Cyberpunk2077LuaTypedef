@@ -4,6 +4,6 @@
 ---@class SmartDespawnRequest: redEvent
 SmartDespawnRequest = {}
 
----@param fields? table
+---@param fields? SmartDespawnRequest
 ---@return SmartDespawnRequest
 function SmartDespawnRequest.new(fields) return end

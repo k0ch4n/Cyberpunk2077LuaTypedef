@@ -7,6 +7,6 @@
 ---@field public vertices Vector3[]
 meshMeshParamUICollisionData = {}
 
----@param fields? table
+---@param fields? meshMeshParamUICollisionData
 ---@return meshMeshParamUICollisionData
 function meshMeshParamUICollisionData.new(fields) return end

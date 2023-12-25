@@ -13,7 +13,7 @@
 ---@field private labelValue Float
 RipperdocFillLabel = {}
 
----@param fields? table
+---@param fields? RipperdocFillLabel
 ---@return RipperdocFillLabel
 function RipperdocFillLabel.new(fields) return end
 

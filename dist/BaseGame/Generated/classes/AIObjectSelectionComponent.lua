@@ -4,7 +4,7 @@
 ---@class AIObjectSelectionComponent: entIComponent
 AIObjectSelectionComponent = {}
 
----@param fields? table
+---@param fields? AIObjectSelectionComponent
 ---@return AIObjectSelectionComponent
 function AIObjectSelectionComponent.new(fields) return end
 

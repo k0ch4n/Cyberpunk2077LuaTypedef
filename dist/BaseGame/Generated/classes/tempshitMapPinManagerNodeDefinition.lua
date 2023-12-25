@@ -9,6 +9,6 @@
 ---@field public forceCaption LocalizationString
 tempshitMapPinManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? tempshitMapPinManagerNodeDefinition
 ---@return tempshitMapPinManagerNodeDefinition
 function tempshitMapPinManagerNodeDefinition.new(fields) return end

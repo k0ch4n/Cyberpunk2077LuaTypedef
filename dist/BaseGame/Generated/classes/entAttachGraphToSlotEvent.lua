@@ -4,6 +4,6 @@
 ---@class entAttachGraphToSlotEvent: redEvent
 entAttachGraphToSlotEvent = {}
 
----@param fields? table
+---@param fields? entAttachGraphToSlotEvent
 ---@return entAttachGraphToSlotEvent
 function entAttachGraphToSlotEvent.new(fields) return end

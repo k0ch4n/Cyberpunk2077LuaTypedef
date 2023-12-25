@@ -11,6 +11,6 @@
 ---@field public effectTag CName
 gameEffectPostAction_BeamVFX_Custom = {}
 
----@param fields? table
+---@param fields? gameEffectPostAction_BeamVFX_Custom
 ---@return gameEffectPostAction_BeamVFX_Custom
 function gameEffectPostAction_BeamVFX_Custom.new(fields) return end

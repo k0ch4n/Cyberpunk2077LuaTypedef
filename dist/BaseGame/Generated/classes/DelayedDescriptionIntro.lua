@@ -4,6 +4,6 @@
 ---@class DelayedDescriptionIntro: redEvent
 DelayedDescriptionIntro = {}
 
----@param fields? table
+---@param fields? DelayedDescriptionIntro
 ---@return DelayedDescriptionIntro
 function DelayedDescriptionIntro.new(fields) return end

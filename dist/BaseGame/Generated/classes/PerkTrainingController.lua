@@ -4,7 +4,7 @@
 ---@class PerkTrainingController: ScriptableDeviceComponent
 PerkTrainingController = {}
 
----@param fields? table
+---@param fields? PerkTrainingController
 ---@return PerkTrainingController
 function PerkTrainingController.new(fields) return end
 

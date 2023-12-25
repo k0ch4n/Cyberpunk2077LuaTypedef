@@ -6,6 +6,6 @@
 ---@field public name CName
 scnLocalMarker = {}
 
----@param fields? table
+---@param fields? scnLocalMarker
 ---@return scnLocalMarker
 function scnLocalMarker.new(fields) return end

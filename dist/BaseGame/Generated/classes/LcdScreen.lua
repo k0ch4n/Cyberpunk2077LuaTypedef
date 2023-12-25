@@ -6,7 +6,7 @@
 ---@field protected shortGlitchDelayID gameDelayID
 LcdScreen = {}
 
----@param fields? table
+---@param fields? LcdScreen
 ---@return LcdScreen
 function LcdScreen.new(fields) return end
 

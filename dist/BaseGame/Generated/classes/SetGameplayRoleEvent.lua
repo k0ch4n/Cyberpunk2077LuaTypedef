@@ -5,7 +5,7 @@
 ---@field public gameplayRole EGameplayRole
 SetGameplayRoleEvent = {}
 
----@param fields? table
+---@param fields? SetGameplayRoleEvent
 ---@return SetGameplayRoleEvent
 function SetGameplayRoleEvent.new(fields) return end
 

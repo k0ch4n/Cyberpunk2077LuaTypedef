@@ -7,6 +7,6 @@
 ---@field public overrides gameAnimationOverrideDefinition[]
 gameBodyTypeAnimationDefinition = {}
 
----@param fields? table
+---@param fields? gameBodyTypeAnimationDefinition
 ---@return gameBodyTypeAnimationDefinition
 function gameBodyTypeAnimationDefinition.new(fields) return end

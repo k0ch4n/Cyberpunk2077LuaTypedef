@@ -4,7 +4,7 @@
 ---@class AiControlledDecisions: HighLevelTransition
 AiControlledDecisions = {}
 
----@param fields? table
+---@param fields? AiControlledDecisions
 ---@return AiControlledDecisions
 function AiControlledDecisions.new(fields) return end
 

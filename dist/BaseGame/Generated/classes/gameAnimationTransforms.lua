@@ -8,6 +8,6 @@
 ---@field public animsetHash Uint64
 gameAnimationTransforms = {}
 
----@param fields? table
+---@param fields? gameAnimationTransforms
 ---@return gameAnimationTransforms
 function gameAnimationTransforms.new(fields) return end

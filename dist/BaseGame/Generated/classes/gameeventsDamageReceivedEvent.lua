@@ -6,6 +6,6 @@
 ---@field public totalDamageReceived Float
 gameeventsDamageReceivedEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDamageReceivedEvent
 ---@return gameeventsDamageReceivedEvent
 function gameeventsDamageReceivedEvent.new(fields) return end

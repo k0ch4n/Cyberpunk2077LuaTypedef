@@ -4,6 +4,6 @@
 ---@class DelayedHighlightUpdateEvent: redEvent
 DelayedHighlightUpdateEvent = {}
 
----@param fields? table
+---@param fields? DelayedHighlightUpdateEvent
 ---@return DelayedHighlightUpdateEvent
 function DelayedHighlightUpdateEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkToggleChangedCallback: inkCallbackBase
 inkToggleChangedCallback = {}
 
----@param fields? table
+---@param fields? inkToggleChangedCallback
 ---@return inkToggleChangedCallback
 function inkToggleChangedCallback.new(fields) return end

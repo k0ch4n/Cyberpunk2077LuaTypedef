@@ -7,6 +7,6 @@
 ---@field public buffer DataBuffer
 gameRazerChromaAnimation = {}
 
----@param fields? table
+---@param fields? gameRazerChromaAnimation
 ---@return gameRazerChromaAnimation
 function gameRazerChromaAnimation.new(fields) return end

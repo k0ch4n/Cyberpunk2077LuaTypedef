@@ -18,7 +18,7 @@
 ---@field private ep1Cards Int32
 TarotMainGameController = {}
 
----@param fields? table
+---@param fields? TarotMainGameController
 ---@return TarotMainGameController
 function TarotMainGameController.new(fields) return end
 

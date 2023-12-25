@@ -4,7 +4,7 @@
 ---@class gameCustomValueStatPoolsListener: gameScriptStatPoolsListener
 gameCustomValueStatPoolsListener = {}
 
----@param fields? table
+---@param fields? gameCustomValueStatPoolsListener
 ---@return gameCustomValueStatPoolsListener
 function gameCustomValueStatPoolsListener.new(fields) return end
 

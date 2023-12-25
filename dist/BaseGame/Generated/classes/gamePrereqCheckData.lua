@@ -8,6 +8,6 @@
 ---@field public valueToCompare Float
 gamePrereqCheckData = {}
 
----@param fields? table
+---@param fields? gamePrereqCheckData
 ---@return gamePrereqCheckData
 function gamePrereqCheckData.new(fields) return end

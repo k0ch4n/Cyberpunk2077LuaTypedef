@@ -5,7 +5,7 @@
 ---@field public transformAnimations STransformAnimationData[]
 PlayTransformAnimationDeviceOperation = {}
 
----@param fields? table
+---@param fields? PlayTransformAnimationDeviceOperation
 ---@return PlayTransformAnimationDeviceOperation
 function PlayTransformAnimationDeviceOperation.new(fields) return end
 

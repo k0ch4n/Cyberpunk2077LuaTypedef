@@ -8,6 +8,6 @@
 ---@field public animations CName[]
 animLookAtAnimationDefinition = {}
 
----@param fields? table
+---@param fields? animLookAtAnimationDefinition
 ---@return animLookAtAnimationDefinition
 function animLookAtAnimationDefinition.new(fields) return end

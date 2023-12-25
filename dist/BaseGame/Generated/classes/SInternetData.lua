@@ -5,6 +5,6 @@
 ---@field public startingPage String
 SInternetData = {}
 
----@param fields? table
+---@param fields? SInternetData
 ---@return SInternetData
 function SInternetData.new(fields) return end

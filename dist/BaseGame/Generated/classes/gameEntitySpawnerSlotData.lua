@@ -6,6 +6,6 @@
 ---@field public spawnableObject TweakDBID
 gameEntitySpawnerSlotData = {}
 
----@param fields? table
+---@param fields? gameEntitySpawnerSlotData
 ---@return gameEntitySpawnerSlotData
 function gameEntitySpawnerSlotData.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public breadCrumbData SBreadCrumbUpdateData
 RequestBreadCrumbBarUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestBreadCrumbBarUpdateEvent
 ---@return RequestBreadCrumbBarUpdateEvent
 function RequestBreadCrumbBarUpdateEvent.new(fields) return end

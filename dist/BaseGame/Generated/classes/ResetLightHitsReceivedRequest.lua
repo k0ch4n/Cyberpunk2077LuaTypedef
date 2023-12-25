@@ -4,6 +4,6 @@
 ---@class ResetLightHitsReceivedRequest: gameScriptableSystemRequest
 ResetLightHitsReceivedRequest = {}
 
----@param fields? table
+---@param fields? ResetLightHitsReceivedRequest
 ---@return ResetLightHitsReceivedRequest
 function ResetLightHitsReceivedRequest.new(fields) return end

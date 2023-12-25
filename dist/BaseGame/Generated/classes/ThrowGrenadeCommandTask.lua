@@ -12,7 +12,7 @@
 ---@field protected targetID entEntityID
 ThrowGrenadeCommandTask = {}
 
----@param fields? table
+---@param fields? ThrowGrenadeCommandTask
 ---@return ThrowGrenadeCommandTask
 function ThrowGrenadeCommandTask.new(fields) return end
 

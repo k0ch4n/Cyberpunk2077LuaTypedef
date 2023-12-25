@@ -13,6 +13,6 @@
 ---@field public ignoreNavigation AIArgumentMapping
 AIbehaviorActionDynamicMoveTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionDynamicMoveTreeNodeDefinition
 ---@return AIbehaviorActionDynamicMoveTreeNodeDefinition
 function AIbehaviorActionDynamicMoveTreeNodeDefinition.new(fields) return end

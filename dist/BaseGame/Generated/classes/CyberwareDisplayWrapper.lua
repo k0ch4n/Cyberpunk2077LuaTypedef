@@ -5,6 +5,6 @@
 ---@field public displayData InventoryItemDisplayData
 CyberwareDisplayWrapper = {}
 
----@param fields? table
+---@param fields? CyberwareDisplayWrapper
 ---@return CyberwareDisplayWrapper
 function CyberwareDisplayWrapper.new(fields) return end

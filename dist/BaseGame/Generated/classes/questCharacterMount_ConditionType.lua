@@ -18,6 +18,6 @@
 ---@field public vehicleAfiliation gamedataAffiliation
 questCharacterMount_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterMount_ConditionType
 ---@return questCharacterMount_ConditionType
 function questCharacterMount_ConditionType.new(fields) return end

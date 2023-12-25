@@ -5,6 +5,6 @@
 ---@field public newOwnerId entEntityID
 senseSensorOwnerChangedEvent = {}
 
----@param fields? table
+---@param fields? senseSensorOwnerChangedEvent
 ---@return senseSensorOwnerChangedEvent
 function senseSensorOwnerChangedEvent.new(fields) return end

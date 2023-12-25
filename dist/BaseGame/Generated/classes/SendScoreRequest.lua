@@ -6,6 +6,6 @@
 ---@field public gameName String
 SendScoreRequest = {}
 
----@param fields? table
+---@param fields? SendScoreRequest
 ---@return SendScoreRequest
 function SendScoreRequest.new(fields) return end

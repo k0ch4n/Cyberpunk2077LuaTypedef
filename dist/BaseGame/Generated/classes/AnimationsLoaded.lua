@@ -4,6 +4,6 @@
 ---@class AnimationsLoaded: gameTaggedSignalUserData
 AnimationsLoaded = {}
 
----@param fields? table
+---@param fields? AnimationsLoaded
 ---@return AnimationsLoaded
 function AnimationsLoaded.new(fields) return end

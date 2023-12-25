@@ -6,6 +6,6 @@
 ---@field public deselected Uint64[]
 interopSelectionChangeInfo = {}
 
----@param fields? table
+---@param fields? interopSelectionChangeInfo
 ---@return interopSelectionChangeInfo
 function interopSelectionChangeInfo.new(fields) return end

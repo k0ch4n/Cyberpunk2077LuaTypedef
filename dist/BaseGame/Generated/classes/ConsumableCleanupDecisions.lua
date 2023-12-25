@@ -4,6 +4,6 @@
 ---@class ConsumableCleanupDecisions: ConsumableTransitions
 ConsumableCleanupDecisions = {}
 
----@param fields? table
+---@param fields? ConsumableCleanupDecisions
 ---@return ConsumableCleanupDecisions
 function ConsumableCleanupDecisions.new(fields) return end

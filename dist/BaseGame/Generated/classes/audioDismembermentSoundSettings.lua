@@ -7,6 +7,6 @@
 ---@field public legEvent CName
 audioDismembermentSoundSettings = {}
 
----@param fields? table
+---@param fields? audioDismembermentSoundSettings
 ---@return audioDismembermentSoundSettings
 function audioDismembermentSoundSettings.new(fields) return end

@@ -19,7 +19,7 @@
 ---@field public animationProxy inkanimProxy
 characterCreationBodyMorphOption = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphOption
 ---@return characterCreationBodyMorphOption
 function characterCreationBodyMorphOption.new(fields) return end
 

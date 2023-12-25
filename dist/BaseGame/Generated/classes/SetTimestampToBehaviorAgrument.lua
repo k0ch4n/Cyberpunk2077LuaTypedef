@@ -5,7 +5,7 @@
 ---@field public timestampArgument CName
 SetTimestampToBehaviorAgrument = {}
 
----@param fields? table
+---@param fields? SetTimestampToBehaviorAgrument
 ---@return SetTimestampToBehaviorAgrument
 function SetTimestampToBehaviorAgrument.new(fields) return end
 

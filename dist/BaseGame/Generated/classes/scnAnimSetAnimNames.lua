@@ -5,6 +5,6 @@
 ---@field public animationNames CName[]
 scnAnimSetAnimNames = {}
 
----@param fields? table
+---@param fields? scnAnimSetAnimNames
 ---@return scnAnimSetAnimNames
 function scnAnimSetAnimNames.new(fields) return end

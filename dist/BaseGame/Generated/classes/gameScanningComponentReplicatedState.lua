@@ -7,6 +7,6 @@
 ---@field public controllingPeerIDs netPeerID
 gameScanningComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? gameScanningComponentReplicatedState
 ---@return gameScanningComponentReplicatedState
 function gameScanningComponentReplicatedState.new(fields) return end

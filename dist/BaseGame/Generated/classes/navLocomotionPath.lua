@@ -9,6 +9,6 @@
 ---@field public userData navLocomotionPathPointUserDataEntry[]
 navLocomotionPath = {}
 
----@param fields? table
+---@param fields? navLocomotionPath
 ---@return navLocomotionPath
 function navLocomotionPath.new(fields) return end

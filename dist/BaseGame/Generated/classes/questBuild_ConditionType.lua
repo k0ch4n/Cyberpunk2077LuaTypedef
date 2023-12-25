@@ -4,6 +4,6 @@
 ---@class questBuild_ConditionType: questIStatsScriptConditionType
 questBuild_ConditionType = {}
 
----@param fields? table
+---@param fields? questBuild_ConditionType
 ---@return questBuild_ConditionType
 function questBuild_ConditionType.new(fields) return end

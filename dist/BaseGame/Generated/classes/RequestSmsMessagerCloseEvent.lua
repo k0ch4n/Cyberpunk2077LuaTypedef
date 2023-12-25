@@ -4,6 +4,6 @@
 ---@class RequestSmsMessagerCloseEvent: redEvent
 RequestSmsMessagerCloseEvent = {}
 
----@param fields? table
+---@param fields? RequestSmsMessagerCloseEvent
 ---@return RequestSmsMessagerCloseEvent
 function RequestSmsMessagerCloseEvent.new(fields) return end

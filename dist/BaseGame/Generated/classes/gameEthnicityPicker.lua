@@ -4,6 +4,6 @@
 ---@class gameEthnicityPicker
 gameEthnicityPicker = {}
 
----@param fields? table
+---@param fields? gameEthnicityPicker
 ---@return gameEthnicityPicker
 function gameEthnicityPicker.new(fields) return end

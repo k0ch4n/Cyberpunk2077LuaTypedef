@@ -12,6 +12,6 @@
 ---@field public rotationOffset Quaternion
 AnimFeature_SimpleIkSystem = {}
 
----@param fields? table
+---@param fields? AnimFeature_SimpleIkSystem
 ---@return AnimFeature_SimpleIkSystem
 function AnimFeature_SimpleIkSystem.new(fields) return end

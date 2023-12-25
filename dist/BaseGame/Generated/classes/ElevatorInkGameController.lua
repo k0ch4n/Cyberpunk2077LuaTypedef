@@ -20,7 +20,7 @@
 ---@field private onPausedChangeListener redCallbackObject
 ElevatorInkGameController = {}
 
----@param fields? table
+---@param fields? ElevatorInkGameController
 ---@return ElevatorInkGameController
 function ElevatorInkGameController.new(fields) return end
 

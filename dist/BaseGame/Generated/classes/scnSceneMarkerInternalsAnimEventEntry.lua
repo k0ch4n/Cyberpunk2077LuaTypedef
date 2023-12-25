@@ -11,6 +11,6 @@
 ---@field public flags Uint8
 scnSceneMarkerInternalsAnimEventEntry = {}
 
----@param fields? table
+---@param fields? scnSceneMarkerInternalsAnimEventEntry
 ---@return scnSceneMarkerInternalsAnimEventEntry
 function scnSceneMarkerInternalsAnimEventEntry.new(fields) return end

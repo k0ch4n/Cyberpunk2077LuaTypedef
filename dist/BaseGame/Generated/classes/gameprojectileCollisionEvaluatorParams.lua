@@ -14,6 +14,6 @@
 ---@field public isDestructible Bool
 gameprojectileCollisionEvaluatorParams = {}
 
----@param fields? table
+---@param fields? gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileCollisionEvaluatorParams
 function gameprojectileCollisionEvaluatorParams.new(fields) return end

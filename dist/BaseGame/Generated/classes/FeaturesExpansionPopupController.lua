@@ -23,7 +23,7 @@
 ---@field private isEp1Released Bool
 FeaturesExpansionPopupController = {}
 
----@param fields? table
+---@param fields? FeaturesExpansionPopupController
 ---@return FeaturesExpansionPopupController
 function FeaturesExpansionPopupController.new(fields) return end
 

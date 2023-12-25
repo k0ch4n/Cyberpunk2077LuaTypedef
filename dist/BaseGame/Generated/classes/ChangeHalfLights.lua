@@ -5,6 +5,6 @@
 ---@field public isAuthorization Bool
 ChangeHalfLights = {}
 
----@param fields? table
+---@param fields? ChangeHalfLights
 ---@return ChangeHalfLights
 function ChangeHalfLights.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public keys CName[]
 gameuiSideScrollerCheatCode = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerCheatCode
 ---@return gameuiSideScrollerCheatCode
 function gameuiSideScrollerCheatCode.new(fields) return end

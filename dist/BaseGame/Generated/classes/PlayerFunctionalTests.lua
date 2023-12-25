@@ -4,7 +4,7 @@
 ---@class PlayerFunctionalTests: IScriptable
 PlayerFunctionalTests = {}
 
----@param fields? table
+---@param fields? PlayerFunctionalTests
 ---@return PlayerFunctionalTests
 function PlayerFunctionalTests.new(fields) return end
 

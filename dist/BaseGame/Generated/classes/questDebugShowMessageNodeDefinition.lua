@@ -4,6 +4,6 @@
 ---@class questDebugShowMessageNodeDefinition: questDisableableNodeDefinition
 questDebugShowMessageNodeDefinition = {}
 
----@param fields? table
+---@param fields? questDebugShowMessageNodeDefinition
 ---@return questDebugShowMessageNodeDefinition
 function questDebugShowMessageNodeDefinition.new(fields) return end

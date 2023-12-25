@@ -6,6 +6,6 @@
 ---@field public mergedMeshColor Color
 worldDebugColoring_MergedMeshes = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_MergedMeshes
 ---@return worldDebugColoring_MergedMeshes
 function worldDebugColoring_MergedMeshes.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public entries AIbehaviorNodeStatusDebuggerCommandEntry[]
 AIbehaviorNodeStatusDebuggerCommand = {}
 
----@param fields? table
+---@param fields? AIbehaviorNodeStatusDebuggerCommand
 ---@return AIbehaviorNodeStatusDebuggerCommand
 function AIbehaviorNodeStatusDebuggerCommand.new(fields) return end

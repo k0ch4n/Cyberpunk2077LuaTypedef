@@ -7,6 +7,6 @@
 ---@field public boneIndex Uint8
 meshChunkIndicesOffset = {}
 
----@param fields? table
+---@param fields? meshChunkIndicesOffset
 ---@return meshChunkIndicesOffset
 function meshChunkIndicesOffset.new(fields) return end

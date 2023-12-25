@@ -9,7 +9,7 @@
 ---@field protected isInteractive Bool
 BaseCodexLinkController = {}
 
----@param fields? table
+---@param fields? BaseCodexLinkController
 ---@return BaseCodexLinkController
 function BaseCodexLinkController.new(fields) return end
 

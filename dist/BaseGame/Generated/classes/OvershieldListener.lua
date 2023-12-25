@@ -5,7 +5,7 @@
 ---@field private healthBar gameuiHudHealthbarGameController
 OvershieldListener = {}
 
----@param fields? table
+---@param fields? OvershieldListener
 ---@return OvershieldListener
 function OvershieldListener.new(fields) return end
 

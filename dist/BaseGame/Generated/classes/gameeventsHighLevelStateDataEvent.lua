@@ -6,6 +6,6 @@
 ---@field public currentNPCEntityID entEntityID
 gameeventsHighLevelStateDataEvent = {}
 
----@param fields? table
+---@param fields? gameeventsHighLevelStateDataEvent
 ---@return gameeventsHighLevelStateDataEvent
 function gameeventsHighLevelStateDataEvent.new(fields) return end

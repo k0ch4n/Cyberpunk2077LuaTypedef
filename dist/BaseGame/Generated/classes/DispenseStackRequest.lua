@@ -9,6 +9,6 @@
 ---@field public bypassStock Bool
 DispenseStackRequest = {}
 
----@param fields? table
+---@param fields? DispenseStackRequest
 ---@return DispenseStackRequest
 function DispenseStackRequest.new(fields) return end

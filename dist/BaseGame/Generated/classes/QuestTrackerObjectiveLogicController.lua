@@ -12,7 +12,7 @@
 ---@field private readyToRemove Bool
 QuestTrackerObjectiveLogicController = {}
 
----@param fields? table
+---@param fields? QuestTrackerObjectiveLogicController
 ---@return QuestTrackerObjectiveLogicController
 function QuestTrackerObjectiveLogicController.new(fields) return end
 

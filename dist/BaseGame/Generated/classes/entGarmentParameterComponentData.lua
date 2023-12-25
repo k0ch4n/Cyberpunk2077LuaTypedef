@@ -25,6 +25,6 @@
 ---@field public numOffsets Uint32
 entGarmentParameterComponentData = {}
 
----@param fields? table
+---@param fields? entGarmentParameterComponentData
 ---@return entGarmentParameterComponentData
 function entGarmentParameterComponentData.new(fields) return end

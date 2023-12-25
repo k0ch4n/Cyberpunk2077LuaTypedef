@@ -4,6 +4,6 @@
 ---@class vehicleFollowObject
 vehicleFollowObject = {}
 
----@param fields? table
+---@param fields? vehicleFollowObject
 ---@return vehicleFollowObject
 function vehicleFollowObject.new(fields) return end

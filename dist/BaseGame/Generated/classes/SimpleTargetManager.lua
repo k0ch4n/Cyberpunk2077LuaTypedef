@@ -4,7 +4,7 @@
 ---@class SimpleTargetManager: gameScriptableComponent
 SimpleTargetManager = {}
 
----@param fields? table
+---@param fields? SimpleTargetManager
 ---@return SimpleTargetManager
 function SimpleTargetManager.new(fields) return end
 

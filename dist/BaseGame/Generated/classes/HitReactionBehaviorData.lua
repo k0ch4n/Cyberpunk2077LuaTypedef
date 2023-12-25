@@ -7,7 +7,7 @@
 ---@field public hitReactionDuration Float
 HitReactionBehaviorData = {}
 
----@param fields? table
+---@param fields? HitReactionBehaviorData
 ---@return HitReactionBehaviorData
 function HitReactionBehaviorData.new(fields) return end
 

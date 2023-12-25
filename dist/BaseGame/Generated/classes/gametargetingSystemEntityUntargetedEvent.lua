@@ -5,6 +5,6 @@
 ---@field public targetingEntity entEntity
 gametargetingSystemEntityUntargetedEvent = {}
 
----@param fields? table
+---@param fields? gametargetingSystemEntityUntargetedEvent
 ---@return gametargetingSystemEntityUntargetedEvent
 function gametargetingSystemEntityUntargetedEvent.new(fields) return end

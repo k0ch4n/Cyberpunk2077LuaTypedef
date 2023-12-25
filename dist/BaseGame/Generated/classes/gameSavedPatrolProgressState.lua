@@ -12,6 +12,6 @@
 ---@field public currentDestinationTangent Vector3
 gameSavedPatrolProgressState = {}
 
----@param fields? table
+---@param fields? gameSavedPatrolProgressState
 ---@return gameSavedPatrolProgressState
 function gameSavedPatrolProgressState.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestBreachAccessPoint: ActionBool
 QuestBreachAccessPoint = {}
 
----@param fields? table
+---@param fields? QuestBreachAccessPoint
 ---@return QuestBreachAccessPoint
 function QuestBreachAccessPoint.new(fields) return end
 

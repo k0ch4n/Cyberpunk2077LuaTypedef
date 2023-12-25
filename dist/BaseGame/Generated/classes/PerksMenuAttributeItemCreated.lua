@@ -5,6 +5,6 @@
 ---@field public perksMenuAttributeItem PerksMenuAttributeItemController
 PerksMenuAttributeItemCreated = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemCreated
 ---@return PerksMenuAttributeItemCreated
 function PerksMenuAttributeItemCreated.new(fields) return end

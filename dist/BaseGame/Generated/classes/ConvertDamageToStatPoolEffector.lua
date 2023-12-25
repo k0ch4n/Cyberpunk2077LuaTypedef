@@ -7,7 +7,7 @@
 ---@field private value Float
 ConvertDamageToStatPoolEffector = {}
 
----@param fields? table
+---@param fields? ConvertDamageToStatPoolEffector
 ---@return ConvertDamageToStatPoolEffector
 function ConvertDamageToStatPoolEffector.new(fields) return end
 

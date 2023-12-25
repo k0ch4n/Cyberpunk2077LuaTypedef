@@ -4,7 +4,7 @@
 ---@class CompareArgumentsNames: CompareArguments
 CompareArgumentsNames = {}
 
----@param fields? table
+---@param fields? CompareArgumentsNames
 ---@return CompareArgumentsNames
 function CompareArgumentsNames.new(fields) return end
 

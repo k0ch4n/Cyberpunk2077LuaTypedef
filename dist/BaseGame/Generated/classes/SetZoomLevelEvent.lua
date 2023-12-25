@@ -5,7 +5,7 @@
 ---@field public value Int32
 SetZoomLevelEvent = {}
 
----@param fields? table
+---@param fields? SetZoomLevelEvent
 ---@return SetZoomLevelEvent
 function SetZoomLevelEvent.new(fields) return end
 

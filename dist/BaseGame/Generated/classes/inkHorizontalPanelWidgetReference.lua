@@ -4,6 +4,6 @@
 ---@class inkHorizontalPanelWidgetReference: inkBasePanelWidgetReference
 inkHorizontalPanelWidgetReference = {}
 
----@param fields? table
+---@param fields? inkHorizontalPanelWidgetReference
 ---@return inkHorizontalPanelWidgetReference
 function inkHorizontalPanelWidgetReference.new(fields) return end

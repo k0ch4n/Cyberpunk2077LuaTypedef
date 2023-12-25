@@ -4,7 +4,7 @@
 ---@class IsNPCMaxTac: PreventionConditionAbstract
 IsNPCMaxTac = {}
 
----@param fields? table
+---@param fields? IsNPCMaxTac
 ---@return IsNPCMaxTac
 function IsNPCMaxTac.new(fields) return end
 

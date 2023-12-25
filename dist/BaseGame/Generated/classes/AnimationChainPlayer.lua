@@ -9,7 +9,7 @@
 ---@field public owner inkWidgetLogicController
 AnimationChainPlayer = {}
 
----@param fields? table
+---@param fields? AnimationChainPlayer
 ---@return AnimationChainPlayer
 function AnimationChainPlayer.new(fields) return end
 

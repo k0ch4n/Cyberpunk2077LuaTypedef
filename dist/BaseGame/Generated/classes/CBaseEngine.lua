@@ -4,6 +4,6 @@
 ---@class CBaseEngine
 CBaseEngine = {}
 
----@param fields? table
+---@param fields? CBaseEngine
 ---@return CBaseEngine
 function CBaseEngine.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public vehicleLeaderRef gameEntityReference
 questAssignConvoy_NodeType = {}
 
----@param fields? table
+---@param fields? questAssignConvoy_NodeType
 ---@return questAssignConvoy_NodeType
 function questAssignConvoy_NodeType.new(fields) return end

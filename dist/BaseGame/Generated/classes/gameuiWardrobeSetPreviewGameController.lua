@@ -10,7 +10,7 @@
 ---@field private c_GARMENT_ROTATION_SPEED Float
 gameuiWardrobeSetPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiWardrobeSetPreviewGameController
 ---@return gameuiWardrobeSetPreviewGameController
 function gameuiWardrobeSetPreviewGameController.new(fields) return end
 

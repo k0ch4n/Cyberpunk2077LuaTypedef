@@ -5,7 +5,7 @@
 ---@field public effectAreaWidget inkCircleWidgetReference
 gameuiMinimapDeviceMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapDeviceMappinController
 ---@return gameuiMinimapDeviceMappinController
 function gameuiMinimapDeviceMappinController.new(fields) return end
 

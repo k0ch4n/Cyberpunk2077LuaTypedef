@@ -4,6 +4,6 @@
 ---@class AIPuppetBlackboardListener: ISerializable
 AIPuppetBlackboardListener = {}
 
----@param fields? table
+---@param fields? AIPuppetBlackboardListener
 ---@return AIPuppetBlackboardListener
 function AIPuppetBlackboardListener.new(fields) return end

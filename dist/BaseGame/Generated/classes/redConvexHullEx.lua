@@ -5,6 +5,6 @@
 ---@field public data DataBuffer
 redConvexHullEx = {}
 
----@param fields? table
+---@param fields? redConvexHullEx
 ---@return redConvexHullEx
 function redConvexHullEx.new(fields) return end

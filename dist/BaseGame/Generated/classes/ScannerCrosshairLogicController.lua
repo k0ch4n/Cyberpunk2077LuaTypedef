@@ -6,7 +6,7 @@
 ---@field private projection inkScreenProjection
 ScannerCrosshairLogicController = {}
 
----@param fields? table
+---@param fields? ScannerCrosshairLogicController
 ---@return ScannerCrosshairLogicController
 function ScannerCrosshairLogicController.new(fields) return end
 

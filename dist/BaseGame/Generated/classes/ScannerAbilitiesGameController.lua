@@ -8,7 +8,7 @@
 ---@field private asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerAbilitiesGameController = {}
 
----@param fields? table
+---@param fields? ScannerAbilitiesGameController
 ---@return ScannerAbilitiesGameController
 function ScannerAbilitiesGameController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public mapLocation Vector3
 gameJournalBriefingMapSection = {}
 
----@param fields? table
+---@param fields? gameJournalBriefingMapSection
 ---@return gameJournalBriefingMapSection
 function gameJournalBriefingMapSection.new(fields) return end
 

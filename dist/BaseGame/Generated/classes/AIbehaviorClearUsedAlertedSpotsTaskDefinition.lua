@@ -5,6 +5,6 @@
 ---@field public usedTokens AIArgumentMapping
 AIbehaviorClearUsedAlertedSpotsTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorClearUsedAlertedSpotsTaskDefinition
 ---@return AIbehaviorClearUsedAlertedSpotsTaskDefinition
 function AIbehaviorClearUsedAlertedSpotsTaskDefinition.new(fields) return end

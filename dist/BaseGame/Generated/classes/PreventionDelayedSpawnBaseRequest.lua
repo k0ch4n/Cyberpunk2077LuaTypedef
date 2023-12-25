@@ -5,6 +5,6 @@
 ---@field public heatStage EPreventionHeatStage
 PreventionDelayedSpawnBaseRequest = {}
 
----@param fields? table
+---@param fields? PreventionDelayedSpawnBaseRequest
 ---@return PreventionDelayedSpawnBaseRequest
 function PreventionDelayedSpawnBaseRequest.new(fields) return end

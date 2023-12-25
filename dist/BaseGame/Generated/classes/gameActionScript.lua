@@ -5,7 +5,7 @@
 ---@field public actionFlags Uint32
 gameActionScript = {}
 
----@param fields? table
+---@param fields? gameActionScript
 ---@return gameActionScript
 function gameActionScript.new(fields) return end
 

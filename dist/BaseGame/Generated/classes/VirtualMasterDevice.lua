@@ -4,6 +4,6 @@
 ---@class VirtualMasterDevice: Device
 VirtualMasterDevice = {}
 
----@param fields? table
+---@param fields? VirtualMasterDevice
 ---@return VirtualMasterDevice
 function VirtualMasterDevice.new(fields) return end

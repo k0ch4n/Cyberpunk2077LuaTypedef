@@ -6,6 +6,6 @@
 ---@field public npcID entEntityID
 DodgeToAvoidCombatEvent = {}
 
----@param fields? table
+---@param fields? DodgeToAvoidCombatEvent
 ---@return DodgeToAvoidCombatEvent
 function DodgeToAvoidCombatEvent.new(fields) return end

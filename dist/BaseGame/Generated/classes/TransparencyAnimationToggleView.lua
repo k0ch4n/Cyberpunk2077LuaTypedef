@@ -11,7 +11,7 @@
 ---@field private Targets inkWidgetReference[]
 TransparencyAnimationToggleView = {}
 
----@param fields? table
+---@param fields? TransparencyAnimationToggleView
 ---@return TransparencyAnimationToggleView
 function TransparencyAnimationToggleView.new(fields) return end
 

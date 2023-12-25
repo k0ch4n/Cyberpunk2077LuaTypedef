@@ -5,6 +5,6 @@
 ---@field public mappingName String
 SwapPresetEvent = {}
 
----@param fields? table
+---@param fields? SwapPresetEvent
 ---@return SwapPresetEvent
 function SwapPresetEvent.new(fields) return end

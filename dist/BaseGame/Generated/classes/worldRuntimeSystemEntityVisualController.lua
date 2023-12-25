@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemEntityVisualController: worldIRuntimeSystem
 worldRuntimeSystemEntityVisualController = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemEntityVisualController
 ---@return worldRuntimeSystemEntityVisualController
 function worldRuntimeSystemEntityVisualController.new(fields) return end

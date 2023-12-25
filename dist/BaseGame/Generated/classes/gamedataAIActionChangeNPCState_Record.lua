@@ -4,7 +4,7 @@
 ---@class gamedataAIActionChangeNPCState_Record: gamedataTweakDBRecord
 gamedataAIActionChangeNPCState_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionChangeNPCState_Record
 ---@return gamedataAIActionChangeNPCState_Record
 function gamedataAIActionChangeNPCState_Record.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public playbackOptions inkanimPlaybackOptions
 PlaybackOptionsUpdateData = {}
 
----@param fields? table
+---@param fields? PlaybackOptionsUpdateData
 ---@return PlaybackOptionsUpdateData
 function PlaybackOptionsUpdateData.new(fields) return end

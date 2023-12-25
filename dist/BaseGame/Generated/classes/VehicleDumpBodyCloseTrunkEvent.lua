@@ -4,6 +4,6 @@
 ---@class VehicleDumpBodyCloseTrunkEvent: redEvent
 VehicleDumpBodyCloseTrunkEvent = {}
 
----@param fields? table
+---@param fields? VehicleDumpBodyCloseTrunkEvent
 ---@return VehicleDumpBodyCloseTrunkEvent
 function VehicleDumpBodyCloseTrunkEvent.new(fields) return end

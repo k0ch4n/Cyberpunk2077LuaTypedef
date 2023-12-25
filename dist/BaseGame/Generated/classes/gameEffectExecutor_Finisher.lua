@@ -8,6 +8,6 @@
 ---@field public allowCameraMovement Bool
 gameEffectExecutor_Finisher = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_Finisher
 ---@return gameEffectExecutor_Finisher
 function gameEffectExecutor_Finisher.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public MetaQuest3Value Int32
 MetaQuestStatus = {}
 
----@param fields? table
+---@param fields? MetaQuestStatus
 ---@return MetaQuestStatus
 function MetaQuestStatus.new(fields) return end

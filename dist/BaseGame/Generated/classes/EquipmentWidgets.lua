@@ -5,6 +5,6 @@
 ---@field public widgetArray inkWidgetReference[]
 EquipmentWidgets = {}
 
----@param fields? table
+---@param fields? EquipmentWidgets
 ---@return EquipmentWidgets
 function EquipmentWidgets.new(fields) return end

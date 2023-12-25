@@ -6,7 +6,7 @@
 ---@field private collider entIComponent
 DisassemblableEntitySimple = {}
 
----@param fields? table
+---@param fields? DisassemblableEntitySimple
 ---@return DisassemblableEntitySimple
 function DisassemblableEntitySimple.new(fields) return end
 

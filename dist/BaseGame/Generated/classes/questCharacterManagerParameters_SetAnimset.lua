@@ -8,6 +8,6 @@
 ---@field public value Float
 questCharacterManagerParameters_SetAnimset = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetAnimset
 ---@return questCharacterManagerParameters_SetAnimset
 function questCharacterManagerParameters_SetAnimset.new(fields) return end

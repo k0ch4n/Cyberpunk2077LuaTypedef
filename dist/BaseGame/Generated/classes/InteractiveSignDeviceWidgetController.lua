@@ -8,6 +8,6 @@
 ---@field public backgroundWidget inkWidget
 InteractiveSignDeviceWidgetController = {}
 
----@param fields? table
+---@param fields? InteractiveSignDeviceWidgetController
 ---@return InteractiveSignDeviceWidgetController
 function InteractiveSignDeviceWidgetController.new(fields) return end

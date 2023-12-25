@@ -4,7 +4,7 @@
 ---@class QuestForceCloseScene: ActionBool
 QuestForceCloseScene = {}
 
----@param fields? table
+---@param fields? QuestForceCloseScene
 ---@return QuestForceCloseScene
 function QuestForceCloseScene.new(fields) return end
 

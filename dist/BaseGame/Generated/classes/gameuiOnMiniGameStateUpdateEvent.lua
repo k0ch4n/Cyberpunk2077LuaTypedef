@@ -6,6 +6,6 @@
 ---@field public gameName CName
 gameuiOnMiniGameStateUpdateEvent = {}
 
----@param fields? table
+---@param fields? gameuiOnMiniGameStateUpdateEvent
 ---@return gameuiOnMiniGameStateUpdateEvent
 function gameuiOnMiniGameStateUpdateEvent.new(fields) return end

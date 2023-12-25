@@ -7,6 +7,6 @@
 ---@field public maxOverrideAnimEntriesCount Uint16
 animAnimNode_MixerSlot = {}
 
----@param fields? table
+---@param fields? animAnimNode_MixerSlot
 ---@return animAnimNode_MixerSlot
 function animAnimNode_MixerSlot.new(fields) return end

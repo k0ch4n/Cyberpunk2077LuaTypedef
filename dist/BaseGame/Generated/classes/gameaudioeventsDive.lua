@@ -4,6 +4,6 @@
 ---@class gameaudioeventsDive: redEvent
 gameaudioeventsDive = {}
 
----@param fields? table
+---@param fields? gameaudioeventsDive
 ---@return gameaudioeventsDive
 function gameaudioeventsDive.new(fields) return end

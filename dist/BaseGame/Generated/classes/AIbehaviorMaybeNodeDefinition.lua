@@ -6,6 +6,6 @@
 ---@field public onChildFailure AIbehaviorMaybeNodeAction
 AIbehaviorMaybeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMaybeNodeDefinition
 ---@return AIbehaviorMaybeNodeDefinition
 function AIbehaviorMaybeNodeDefinition.new(fields) return end

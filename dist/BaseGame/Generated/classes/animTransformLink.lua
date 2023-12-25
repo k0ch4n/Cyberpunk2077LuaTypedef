@@ -5,6 +5,6 @@
 ---@field public node animAnimNode_TransformValue
 animTransformLink = {}
 
----@param fields? table
+---@param fields? animTransformLink
 ---@return animTransformLink
 function animTransformLink.new(fields) return end

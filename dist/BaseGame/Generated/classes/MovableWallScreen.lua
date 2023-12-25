@@ -6,7 +6,7 @@
 ---@field private animFeature AnimFeature_SimpleDevice
 MovableWallScreen = {}
 
----@param fields? table
+---@param fields? MovableWallScreen
 ---@return MovableWallScreen
 function MovableWallScreen.new(fields) return end
 

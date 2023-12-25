@@ -4,7 +4,7 @@
 ---@class gameDismembermentComponent: entIComponent
 gameDismembermentComponent = {}
 
----@param fields? table
+---@param fields? gameDismembermentComponent
 ---@return gameDismembermentComponent
 function gameDismembermentComponent.new(fields) return end
 

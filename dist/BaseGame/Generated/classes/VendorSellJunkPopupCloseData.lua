@@ -7,6 +7,6 @@
 ---@field public limitedItems VendorJunkSellItem[]
 VendorSellJunkPopupCloseData = {}
 
----@param fields? table
+---@param fields? VendorSellJunkPopupCloseData
 ---@return VendorSellJunkPopupCloseData
 function VendorSellJunkPopupCloseData.new(fields) return end

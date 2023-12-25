@@ -6,6 +6,6 @@
 ---@field public active Bool
 vehicleForceBrakesQuickhackEvent = {}
 
----@param fields? table
+---@param fields? vehicleForceBrakesQuickhackEvent
 ---@return vehicleForceBrakesQuickhackEvent
 function vehicleForceBrakesQuickhackEvent.new(fields) return end

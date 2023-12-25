@@ -4,6 +4,6 @@
 ---@class gameWasScannedPrereqState: gamePrereqState
 gameWasScannedPrereqState = {}
 
----@param fields? table
+---@param fields? gameWasScannedPrereqState
 ---@return gameWasScannedPrereqState
 function gameWasScannedPrereqState.new(fields) return end

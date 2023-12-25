@@ -7,7 +7,7 @@
 ---@field public NotificationResumed inkEmptyCallback
 gameuiGenericNotificationReceiverGameController = {}
 
----@param fields? table
+---@param fields? gameuiGenericNotificationReceiverGameController
 ---@return gameuiGenericNotificationReceiverGameController
 function gameuiGenericNotificationReceiverGameController.new(fields) return end
 

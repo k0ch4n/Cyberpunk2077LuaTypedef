@@ -6,6 +6,6 @@
 ---@field public stimEvent senseStimuliEvent
 HandleReactionEvent = {}
 
----@param fields? table
+---@param fields? HandleReactionEvent
 ---@return HandleReactionEvent
 function HandleReactionEvent.new(fields) return end

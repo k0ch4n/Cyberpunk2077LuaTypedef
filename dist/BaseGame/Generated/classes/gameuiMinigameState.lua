@@ -6,6 +6,6 @@
 ---@field public currentScore Int32
 gameuiMinigameState = {}
 
----@param fields? table
+---@param fields? gameuiMinigameState
 ---@return gameuiMinigameState
 function gameuiMinigameState.new(fields) return end

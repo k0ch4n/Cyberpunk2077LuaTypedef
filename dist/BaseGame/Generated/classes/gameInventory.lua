@@ -7,7 +7,7 @@
 ---@field public noInitialization Bool
 gameInventory = {}
 
----@param fields? table
+---@param fields? gameInventory
 ---@return gameInventory
 function gameInventory.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public selectionIndex Uint32
 QuestlListItemSelected = {}
 
----@param fields? table
+---@param fields? QuestlListItemSelected
 ---@return QuestlListItemSelected
 function QuestlListItemSelected.new(fields) return end

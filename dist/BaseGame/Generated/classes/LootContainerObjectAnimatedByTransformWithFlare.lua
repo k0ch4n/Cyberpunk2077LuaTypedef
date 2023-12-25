@@ -8,7 +8,7 @@
 ---@field public lightComponent2 entIComponent
 LootContainerObjectAnimatedByTransformWithFlare = {}
 
----@param fields? table
+---@param fields? LootContainerObjectAnimatedByTransformWithFlare
 ---@return LootContainerObjectAnimatedByTransformWithFlare
 function LootContainerObjectAnimatedByTransformWithFlare.new(fields) return end
 

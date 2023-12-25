@@ -23,6 +23,6 @@
 ---@field public headCollision Bool
 animAnimFeature_VehiclePassenger = {}
 
----@param fields? table
+---@param fields? animAnimFeature_VehiclePassenger
 ---@return animAnimFeature_VehiclePassenger
 function animAnimFeature_VehiclePassenger.new(fields) return end

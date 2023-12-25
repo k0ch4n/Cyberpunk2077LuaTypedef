@@ -5,7 +5,7 @@
 ---@field public game ScriptGameInstance
 Codeware_Localization_LanguageSettingsWatcher = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_LanguageSettingsWatcher
 ---@return Codeware_Localization_LanguageSettingsWatcher
 function Codeware_Localization_LanguageSettingsWatcher.new(fields) return end
 

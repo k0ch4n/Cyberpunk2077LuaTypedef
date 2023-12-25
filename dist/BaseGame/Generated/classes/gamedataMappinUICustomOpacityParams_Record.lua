@@ -4,7 +4,7 @@
 ---@class gamedataMappinUICustomOpacityParams_Record: gamedataTweakDBRecord
 gamedataMappinUICustomOpacityParams_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUICustomOpacityParams_Record
 ---@return gamedataMappinUICustomOpacityParams_Record
 function gamedataMappinUICustomOpacityParams_Record.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameObjectPoolSystem: gameIObjectPoolSystem
 gameObjectPoolSystem = {}
 
----@param fields? table
+---@param fields? gameObjectPoolSystem
 ---@return gameObjectPoolSystem
 function gameObjectPoolSystem.new(fields) return end
 

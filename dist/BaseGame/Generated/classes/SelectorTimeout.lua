@@ -4,7 +4,7 @@
 ---@class SelectorTimeout: AITimeoutCondition
 SelectorTimeout = {}
 
----@param fields? table
+---@param fields? SelectorTimeout
 ---@return SelectorTimeout
 function SelectorTimeout.new(fields) return end
 

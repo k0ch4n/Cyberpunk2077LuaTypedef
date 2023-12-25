@@ -8,6 +8,6 @@
 ---@field public zAngle Float
 physicsPhysicsJointLimitConePair = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointLimitConePair
 ---@return physicsPhysicsJointLimitConePair
 function physicsPhysicsJointLimitConePair.new(fields) return end

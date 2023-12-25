@@ -6,6 +6,6 @@
 ---@field public time Float
 RealTimeUpdateRequest = {}
 
----@param fields? table
+---@param fields? RealTimeUpdateRequest
 ---@return RealTimeUpdateRequest
 function RealTimeUpdateRequest.new(fields) return end

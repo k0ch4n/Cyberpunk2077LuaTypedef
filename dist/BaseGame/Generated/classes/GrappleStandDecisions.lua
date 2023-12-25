@@ -5,7 +5,7 @@
 ---@field public stateMachineInitData LocomotionTakedownInitData
 GrappleStandDecisions = {}
 
----@param fields? table
+---@param fields? GrappleStandDecisions
 ---@return GrappleStandDecisions
 function GrappleStandDecisions.new(fields) return end
 

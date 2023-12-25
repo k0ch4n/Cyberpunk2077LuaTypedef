@@ -4,7 +4,7 @@
 ---@class HitIsHumanPrereqState: GenericHitPrereqState
 HitIsHumanPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsHumanPrereqState
 ---@return HitIsHumanPrereqState
 function HitIsHumanPrereqState.new(fields) return end
 

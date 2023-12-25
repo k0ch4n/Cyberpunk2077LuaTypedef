@@ -15,6 +15,6 @@
 ---@field public quickMeleeHitSound CName
 audioNpcWeaponSettings = {}
 
----@param fields? table
+---@param fields? audioNpcWeaponSettings
 ---@return audioNpcWeaponSettings
 function audioNpcWeaponSettings.new(fields) return end

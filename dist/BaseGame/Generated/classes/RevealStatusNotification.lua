@@ -5,6 +5,6 @@
 ---@field public isRevealed Bool
 RevealStatusNotification = {}
 
----@param fields? table
+---@param fields? RevealStatusNotification
 ---@return RevealStatusNotification
 function RevealStatusNotification.new(fields) return end

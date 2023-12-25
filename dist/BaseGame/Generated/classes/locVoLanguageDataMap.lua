@@ -5,6 +5,6 @@
 ---@field public entries locVoLanguageDataEntry[]
 locVoLanguageDataMap = {}
 
----@param fields? table
+---@param fields? locVoLanguageDataMap
 ---@return locVoLanguageDataMap
 function locVoLanguageDataMap.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public operationType EEffectOperationType
 SSFXOperationData = {}
 
----@param fields? table
+---@param fields? SSFXOperationData
 ---@return SSFXOperationData
 function SSFXOperationData.new(fields) return end

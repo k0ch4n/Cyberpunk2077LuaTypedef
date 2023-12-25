@@ -17,6 +17,6 @@
 ---@field public noReactionRecordID TweakDBID
 questReactionPresetRecordSelector = {}
 
----@param fields? table
+---@param fields? questReactionPresetRecordSelector
 ---@return questReactionPresetRecordSelector
 function questReactionPresetRecordSelector.new(fields) return end

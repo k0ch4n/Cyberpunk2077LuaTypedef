@@ -4,7 +4,7 @@
 ---@class ProjectileLaunchHelper: IScriptable
 ProjectileLaunchHelper = {}
 
----@param fields? table
+---@param fields? ProjectileLaunchHelper
 ---@return ProjectileLaunchHelper
 function ProjectileLaunchHelper.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public hideOnInput Bool
 questShowOverlay_NodeSubType = {}
 
----@param fields? table
+---@param fields? questShowOverlay_NodeSubType
 ---@return questShowOverlay_NodeSubType
 function questShowOverlay_NodeSubType.new(fields) return end

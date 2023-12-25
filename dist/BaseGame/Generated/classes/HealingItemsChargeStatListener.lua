@@ -4,7 +4,7 @@
 ---@class HealingItemsChargeStatListener: BaseChargesStatListener
 HealingItemsChargeStatListener = {}
 
----@param fields? table
+---@param fields? HealingItemsChargeStatListener
 ---@return HealingItemsChargeStatListener
 function HealingItemsChargeStatListener.new(fields) return end
 

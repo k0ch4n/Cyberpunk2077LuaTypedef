@@ -4,7 +4,7 @@
 ---@class AirHoverDecisions: LocomotionAirDecisions
 AirHoverDecisions = {}
 
----@param fields? table
+---@param fields? AirHoverDecisions
 ---@return AirHoverDecisions
 function AirHoverDecisions.new(fields) return end
 

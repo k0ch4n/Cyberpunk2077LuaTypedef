@@ -5,7 +5,7 @@
 ---@field public hasEquipAttack Bool
 MeleeEquippingDecisions = {}
 
----@param fields? table
+---@param fields? MeleeEquippingDecisions
 ---@return MeleeEquippingDecisions
 function MeleeEquippingDecisions.new(fields) return end
 

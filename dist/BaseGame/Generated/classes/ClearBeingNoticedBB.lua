@@ -4,6 +4,6 @@
 ---@class ClearBeingNoticedBB: redEvent
 ClearBeingNoticedBB = {}
 
----@param fields? table
+---@param fields? ClearBeingNoticedBB
 ---@return ClearBeingNoticedBB
 function ClearBeingNoticedBB.new(fields) return end

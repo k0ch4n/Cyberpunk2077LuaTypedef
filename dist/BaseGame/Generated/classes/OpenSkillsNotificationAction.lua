@@ -5,7 +5,7 @@
 ---@field public eventDispatcher worlduiIWidgetGameController
 OpenSkillsNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenSkillsNotificationAction
 ---@return OpenSkillsNotificationAction
 function OpenSkillsNotificationAction.new(fields) return end
 

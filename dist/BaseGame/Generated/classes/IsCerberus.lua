@@ -4,7 +4,7 @@
 ---@class IsCerberus: AIbehaviorconditionScript
 IsCerberus = {}
 
----@param fields? table
+---@param fields? IsCerberus
 ---@return IsCerberus
 function IsCerberus.new(fields) return end
 

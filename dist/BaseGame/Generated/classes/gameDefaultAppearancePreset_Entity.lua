@@ -7,6 +7,6 @@
 ---@field public defaultAppearanceName CName
 gameDefaultAppearancePreset_Entity = {}
 
----@param fields? table
+---@param fields? gameDefaultAppearancePreset_Entity
 ---@return gameDefaultAppearancePreset_Entity
 function gameDefaultAppearancePreset_Entity.new(fields) return end

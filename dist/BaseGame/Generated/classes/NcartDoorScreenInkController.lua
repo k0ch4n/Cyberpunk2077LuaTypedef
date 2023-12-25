@@ -37,7 +37,7 @@
 ---@field private speedLastValue Float
 NcartDoorScreenInkController = {}
 
----@param fields? table
+---@param fields? NcartDoorScreenInkController
 ---@return NcartDoorScreenInkController
 function NcartDoorScreenInkController.new(fields) return end
 

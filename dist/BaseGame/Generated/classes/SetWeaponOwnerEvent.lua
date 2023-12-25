@@ -4,6 +4,6 @@
 ---@class SetWeaponOwnerEvent: redEvent
 SetWeaponOwnerEvent = {}
 
----@param fields? table
+---@param fields? SetWeaponOwnerEvent
 ---@return SetWeaponOwnerEvent
 function SetWeaponOwnerEvent.new(fields) return end

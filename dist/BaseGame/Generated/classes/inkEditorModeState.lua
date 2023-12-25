@@ -4,6 +4,6 @@
 ---@class inkEditorModeState: inkIStateMachineState
 inkEditorModeState = {}
 
----@param fields? table
+---@param fields? inkEditorModeState
 ---@return inkEditorModeState
 function inkEditorModeState.new(fields) return end

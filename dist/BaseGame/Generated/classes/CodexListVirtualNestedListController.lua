@@ -5,7 +5,7 @@
 ---@field private currentDataView CodexListVirtualNestedDataView
 CodexListVirtualNestedListController = {}
 
----@param fields? table
+---@param fields? CodexListVirtualNestedListController
 ---@return CodexListVirtualNestedListController
 function CodexListVirtualNestedListController.new(fields) return end
 

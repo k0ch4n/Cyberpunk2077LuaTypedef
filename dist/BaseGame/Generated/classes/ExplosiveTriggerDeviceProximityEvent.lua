@@ -5,6 +5,6 @@
 ---@field public instigator entEntityID
 ExplosiveTriggerDeviceProximityEvent = {}
 
----@param fields? table
+---@param fields? ExplosiveTriggerDeviceProximityEvent
 ---@return ExplosiveTriggerDeviceProximityEvent
 function ExplosiveTriggerDeviceProximityEvent.new(fields) return end

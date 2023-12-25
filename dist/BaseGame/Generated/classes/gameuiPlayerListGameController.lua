@@ -6,7 +6,7 @@
 ---@field private container inkCompoundWidgetReference
 gameuiPlayerListGameController = {}
 
----@param fields? table
+---@param fields? gameuiPlayerListGameController
 ---@return gameuiPlayerListGameController
 function gameuiPlayerListGameController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public isSoundStopped Bool
 VehicleRadioLogicController = {}
 
----@param fields? table
+---@param fields? VehicleRadioLogicController
 ---@return VehicleRadioLogicController
 function VehicleRadioLogicController.new(fields) return end
 

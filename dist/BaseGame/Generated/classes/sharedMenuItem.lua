@@ -12,6 +12,6 @@
 ---@field public checkGroup String
 sharedMenuItem = {}
 
----@param fields? table
+---@param fields? sharedMenuItem
 ---@return sharedMenuItem
 function sharedMenuItem.new(fields) return end

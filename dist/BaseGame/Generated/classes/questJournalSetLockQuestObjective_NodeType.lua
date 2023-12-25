@@ -6,6 +6,6 @@
 ---@field public lock Bool
 questJournalSetLockQuestObjective_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalSetLockQuestObjective_NodeType
 ---@return questJournalSetLockQuestObjective_NodeType
 function questJournalSetLockQuestObjective_NodeType.new(fields) return end

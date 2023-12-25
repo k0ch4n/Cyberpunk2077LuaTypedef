@@ -4,7 +4,7 @@
 ---@class DodgeAirEvents: LocomotionAirEvents
 DodgeAirEvents = {}
 
----@param fields? table
+---@param fields? DodgeAirEvents
 ---@return DodgeAirEvents
 function DodgeAirEvents.new(fields) return end
 

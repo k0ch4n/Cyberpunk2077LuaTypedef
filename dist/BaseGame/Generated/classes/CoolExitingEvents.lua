@@ -11,7 +11,7 @@
 ---@field public vehicleInTPPCallback redCallbackObject
 CoolExitingEvents = {}
 
----@param fields? table
+---@param fields? CoolExitingEvents
 ---@return CoolExitingEvents
 function CoolExitingEvents.new(fields) return end
 

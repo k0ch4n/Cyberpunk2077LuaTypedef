@@ -7,7 +7,7 @@
 ---@field protected predictionTime Float
 GetTargetLastKnownPosition = {}
 
----@param fields? table
+---@param fields? GetTargetLastKnownPosition
 ---@return GetTargetLastKnownPosition
 function GetTargetLastKnownPosition.new(fields) return end
 

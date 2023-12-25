@@ -8,6 +8,6 @@
 ---@field public speed Float
 cpTestPlatformController = {}
 
----@param fields? table
+---@param fields? cpTestPlatformController
 ---@return cpTestPlatformController
 function cpTestPlatformController.new(fields) return end

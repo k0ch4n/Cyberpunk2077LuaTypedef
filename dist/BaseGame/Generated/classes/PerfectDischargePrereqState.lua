@@ -7,7 +7,7 @@
 ---@field public wasPerfectlyCharged Bool
 PerfectDischargePrereqState = {}
 
----@param fields? table
+---@param fields? PerfectDischargePrereqState
 ---@return PerfectDischargePrereqState
 function PerfectDischargePrereqState.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameModdingSystem: gameIGameSystem
 gameModdingSystem = {}
 
----@param fields? table
+---@param fields? gameModdingSystem
 ---@return gameModdingSystem
 function gameModdingSystem.new(fields) return end

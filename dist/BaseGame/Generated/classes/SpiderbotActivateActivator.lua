@@ -4,7 +4,7 @@
 ---@class SpiderbotActivateActivator: ActionBool
 SpiderbotActivateActivator = {}
 
----@param fields? table
+---@param fields? SpiderbotActivateActivator
 ---@return SpiderbotActivateActivator
 function SpiderbotActivateActivator.new(fields) return end
 

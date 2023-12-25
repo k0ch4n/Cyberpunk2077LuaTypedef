@@ -5,7 +5,7 @@
 ---@field public currValue Uint32
 WoundedTriggeredPrereq = {}
 
----@param fields? table
+---@param fields? WoundedTriggeredPrereq
 ---@return WoundedTriggeredPrereq
 function WoundedTriggeredPrereq.new(fields) return end
 

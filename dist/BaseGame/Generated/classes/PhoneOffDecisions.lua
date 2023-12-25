@@ -4,7 +4,7 @@
 ---@class PhoneOffDecisions: ComDeviceTransition
 PhoneOffDecisions = {}
 
----@param fields? table
+---@param fields? PhoneOffDecisions
 ---@return PhoneOffDecisions
 function PhoneOffDecisions.new(fields) return end
 

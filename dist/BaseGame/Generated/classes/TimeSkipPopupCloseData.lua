@@ -5,6 +5,6 @@
 ---@field public timeChanged Bool
 TimeSkipPopupCloseData = {}
 
----@param fields? table
+---@param fields? TimeSkipPopupCloseData
 ---@return TimeSkipPopupCloseData
 function TimeSkipPopupCloseData.new(fields) return end

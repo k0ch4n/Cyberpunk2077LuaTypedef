@@ -4,6 +4,6 @@
 ---@class workFunctionalTestsDebuggerCommandData: workDebuggerCommandData
 workFunctionalTestsDebuggerCommandData = {}
 
----@param fields? table
+---@param fields? workFunctionalTestsDebuggerCommandData
 ---@return workFunctionalTestsDebuggerCommandData
 function workFunctionalTestsDebuggerCommandData.new(fields) return end

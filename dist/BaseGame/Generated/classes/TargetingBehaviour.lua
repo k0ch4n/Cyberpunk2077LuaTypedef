@@ -8,6 +8,6 @@
 ---@field public lostTargetSearchTime Float
 TargetingBehaviour = {}
 
----@param fields? table
+---@param fields? TargetingBehaviour
 ---@return TargetingBehaviour
 function TargetingBehaviour.new(fields) return end

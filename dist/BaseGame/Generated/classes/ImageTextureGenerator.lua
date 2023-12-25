@@ -4,6 +4,6 @@
 ---@class ImageTextureGenerator: IDynamicTextureGenerator
 ImageTextureGenerator = {}
 
----@param fields? table
+---@param fields? ImageTextureGenerator
 ---@return ImageTextureGenerator
 function ImageTextureGenerator.new(fields) return end

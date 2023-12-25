@@ -5,7 +5,7 @@
 ---@field protected candleSkillChecks EngDemoContainer
 CandleControllerPS = {}
 
----@param fields? table
+---@param fields? CandleControllerPS
 ---@return CandleControllerPS
 function CandleControllerPS.new(fields) return end
 

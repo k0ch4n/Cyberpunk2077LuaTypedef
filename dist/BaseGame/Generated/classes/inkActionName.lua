@@ -4,7 +4,7 @@
 ---@class inkActionName: IScriptable
 inkActionName = {}
 
----@param fields? table
+---@param fields? inkActionName
 ---@return inkActionName
 function inkActionName.new(fields) return end
 

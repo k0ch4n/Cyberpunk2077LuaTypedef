@@ -6,6 +6,6 @@
 ---@field public elementID Int32
 SBreadcrumbElementData = {}
 
----@param fields? table
+---@param fields? SBreadcrumbElementData
 ---@return SBreadcrumbElementData
 function SBreadcrumbElementData.new(fields) return end

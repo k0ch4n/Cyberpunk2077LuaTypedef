@@ -4,7 +4,7 @@
 ---@class HitReceivedCallback: HitCallback
 HitReceivedCallback = {}
 
----@param fields? table
+---@param fields? HitReceivedCallback
 ---@return HitReceivedCallback
 function HitReceivedCallback.new(fields) return end
 

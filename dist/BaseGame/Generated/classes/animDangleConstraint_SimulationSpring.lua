@@ -23,6 +23,6 @@
 ---@field public sinOfHalfYAngle Float
 animDangleConstraint_SimulationSpring = {}
 
----@param fields? table
+---@param fields? animDangleConstraint_SimulationSpring
 ---@return animDangleConstraint_SimulationSpring
 function animDangleConstraint_SimulationSpring.new(fields) return end

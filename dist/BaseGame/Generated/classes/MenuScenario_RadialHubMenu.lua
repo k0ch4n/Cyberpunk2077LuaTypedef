@@ -8,7 +8,7 @@
 ---@field public hubMenuInstanceID Uint32
 MenuScenario_RadialHubMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_RadialHubMenu
 ---@return MenuScenario_RadialHubMenu
 function MenuScenario_RadialHubMenu.new(fields) return end
 

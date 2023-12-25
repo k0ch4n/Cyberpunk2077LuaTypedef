@@ -4,6 +4,6 @@
 ---@class worldStaticMeshNodeInstance: worldMeshNodeInstance
 worldStaticMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticMeshNodeInstance
 ---@return worldStaticMeshNodeInstance
 function worldStaticMeshNodeInstance.new(fields) return end

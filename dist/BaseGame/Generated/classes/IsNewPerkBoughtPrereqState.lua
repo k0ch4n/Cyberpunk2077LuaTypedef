@@ -4,6 +4,6 @@
 ---@class IsNewPerkBoughtPrereqState: gamePrereqState
 IsNewPerkBoughtPrereqState = {}
 
----@param fields? table
+---@param fields? IsNewPerkBoughtPrereqState
 ---@return IsNewPerkBoughtPrereqState
 function IsNewPerkBoughtPrereqState.new(fields) return end

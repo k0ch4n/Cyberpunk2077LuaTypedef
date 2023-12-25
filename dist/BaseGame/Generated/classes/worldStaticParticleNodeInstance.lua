@@ -5,6 +5,6 @@
 ---@field public renderLayerMask RenderSceneLayerMask
 worldStaticParticleNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticParticleNodeInstance
 ---@return worldStaticParticleNodeInstance
 function worldStaticParticleNodeInstance.new(fields) return end

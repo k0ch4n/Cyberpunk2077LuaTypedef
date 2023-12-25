@@ -7,7 +7,7 @@
 ---@field private isConnected Bool
 InteractionMappinController = {}
 
----@param fields? table
+---@param fields? InteractionMappinController
 ---@return InteractionMappinController
 function InteractionMappinController.new(fields) return end
 

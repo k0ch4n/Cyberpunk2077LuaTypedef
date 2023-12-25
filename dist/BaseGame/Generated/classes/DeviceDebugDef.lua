@@ -6,7 +6,7 @@
 ---@field public DebuggedEntityIDAsString gamebbScriptID_String
 DeviceDebugDef = {}
 
----@param fields? table
+---@param fields? DeviceDebugDef
 ---@return DeviceDebugDef
 function DeviceDebugDef.new(fields) return end
 

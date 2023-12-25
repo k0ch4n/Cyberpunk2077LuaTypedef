@@ -7,6 +7,6 @@
 ---@field public overrideIdleEffect CName
 scnOverridePhantomParamsEventParams = {}
 
----@param fields? table
+---@param fields? scnOverridePhantomParamsEventParams
 ---@return scnOverridePhantomParamsEventParams
 function scnOverridePhantomParamsEventParams.new(fields) return end

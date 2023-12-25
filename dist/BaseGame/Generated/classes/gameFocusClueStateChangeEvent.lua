@@ -6,6 +6,6 @@
 ---@field public isEnabled Bool
 gameFocusClueStateChangeEvent = {}
 
----@param fields? table
+---@param fields? gameFocusClueStateChangeEvent
 ---@return gameFocusClueStateChangeEvent
 function gameFocusClueStateChangeEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public transitionDelay Float
 gameuiPuppetPreviewCameraController = {}
 
----@param fields? table
+---@param fields? gameuiPuppetPreviewCameraController
 ---@return gameuiPuppetPreviewCameraController
 function gameuiPuppetPreviewCameraController.new(fields) return end

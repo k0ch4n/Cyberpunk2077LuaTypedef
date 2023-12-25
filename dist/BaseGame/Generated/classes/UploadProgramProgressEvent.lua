@@ -13,6 +13,6 @@
 ---@field public statPoolType gamedataStatPoolType
 UploadProgramProgressEvent = {}
 
----@param fields? table
+---@param fields? UploadProgramProgressEvent
 ---@return UploadProgramProgressEvent
 function UploadProgramProgressEvent.new(fields) return end

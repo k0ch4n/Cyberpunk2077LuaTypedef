@@ -7,6 +7,6 @@
 ---@field public invert Bool
 inkMaskEffect = {}
 
----@param fields? table
+---@param fields? inkMaskEffect
 ---@return inkMaskEffect
 function inkMaskEffect.new(fields) return end

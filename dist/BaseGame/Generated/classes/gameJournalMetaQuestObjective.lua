@@ -7,7 +7,7 @@
 ---@field public iconID TweakDBID
 gameJournalMetaQuestObjective = {}
 
----@param fields? table
+---@param fields? gameJournalMetaQuestObjective
 ---@return gameJournalMetaQuestObjective
 function gameJournalMetaQuestObjective.new(fields) return end
 

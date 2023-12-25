@@ -4,7 +4,7 @@
 ---@class gamedataMappinUISettings_Record: gamedataMappinUIRuntimeProfile_Record
 gamedataMappinUISettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUISettings_Record
 ---@return gamedataMappinUISettings_Record
 function gamedataMappinUISettings_Record.new(fields) return end
 

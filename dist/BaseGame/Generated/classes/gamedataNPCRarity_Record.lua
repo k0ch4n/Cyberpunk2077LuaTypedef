@@ -4,7 +4,7 @@
 ---@class gamedataNPCRarity_Record: gamedataTweakDBRecord
 gamedataNPCRarity_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCRarity_Record
 ---@return gamedataNPCRarity_Record
 function gamedataNPCRarity_Record.new(fields) return end
 

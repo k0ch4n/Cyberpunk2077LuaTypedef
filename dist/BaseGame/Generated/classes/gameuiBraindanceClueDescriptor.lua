@@ -9,6 +9,6 @@
 ---@field public clueName CName
 gameuiBraindanceClueDescriptor = {}
 
----@param fields? table
+---@param fields? gameuiBraindanceClueDescriptor
 ---@return gameuiBraindanceClueDescriptor
 function gameuiBraindanceClueDescriptor.new(fields) return end

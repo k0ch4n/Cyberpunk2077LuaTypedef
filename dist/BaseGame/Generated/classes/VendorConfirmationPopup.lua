@@ -22,7 +22,7 @@
 ---@field private libraryPath inkWidgetLibraryReference
 VendorConfirmationPopup = {}
 
----@param fields? table
+---@param fields? VendorConfirmationPopup
 ---@return VendorConfirmationPopup
 function VendorConfirmationPopup.new(fields) return end
 

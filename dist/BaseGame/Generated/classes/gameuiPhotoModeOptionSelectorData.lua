@@ -6,6 +6,6 @@
 ---@field public optionText String
 gameuiPhotoModeOptionSelectorData = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeOptionSelectorData
 ---@return gameuiPhotoModeOptionSelectorData
 function gameuiPhotoModeOptionSelectorData.new(fields) return end

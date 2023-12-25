@@ -4,7 +4,7 @@
 ---@class IsFriendlyToPlayer: AIAutonomousConditions
 IsFriendlyToPlayer = {}
 
----@param fields? table
+---@param fields? IsFriendlyToPlayer
 ---@return IsFriendlyToPlayer
 function IsFriendlyToPlayer.new(fields) return end
 

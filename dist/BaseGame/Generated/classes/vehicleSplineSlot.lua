@@ -4,6 +4,6 @@
 ---@class vehicleSplineSlot
 vehicleSplineSlot = {}
 
----@param fields? table
+---@param fields? vehicleSplineSlot
 ---@return vehicleSplineSlot
 function vehicleSplineSlot.new(fields) return end

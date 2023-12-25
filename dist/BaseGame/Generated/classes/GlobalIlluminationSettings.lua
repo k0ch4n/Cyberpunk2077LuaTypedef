@@ -13,6 +13,6 @@
 ---@field public rayTracedSkyRadianceScale curveData
 GlobalIlluminationSettings = {}
 
----@param fields? table
+---@param fields? GlobalIlluminationSettings
 ---@return GlobalIlluminationSettings
 function GlobalIlluminationSettings.new(fields) return end

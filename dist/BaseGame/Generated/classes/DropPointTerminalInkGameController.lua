@@ -7,7 +7,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 DropPointTerminalInkGameController = {}
 
----@param fields? table
+---@param fields? DropPointTerminalInkGameController
 ---@return DropPointTerminalInkGameController
 function DropPointTerminalInkGameController.new(fields) return end
 

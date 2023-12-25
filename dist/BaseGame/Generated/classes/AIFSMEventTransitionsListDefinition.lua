@@ -6,6 +6,6 @@
 ---@field public transitions AIFSMTransitionListDefinition
 AIFSMEventTransitionsListDefinition = {}
 
----@param fields? table
+---@param fields? AIFSMEventTransitionsListDefinition
 ---@return AIFSMEventTransitionsListDefinition
 function AIFSMEventTransitionsListDefinition.new(fields) return end

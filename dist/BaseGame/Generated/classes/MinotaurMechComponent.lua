@@ -12,7 +12,7 @@
 ---@field private currentScanAnimation CName
 MinotaurMechComponent = {}
 
----@param fields? table
+---@param fields? MinotaurMechComponent
 ---@return MinotaurMechComponent
 function MinotaurMechComponent.new(fields) return end
 

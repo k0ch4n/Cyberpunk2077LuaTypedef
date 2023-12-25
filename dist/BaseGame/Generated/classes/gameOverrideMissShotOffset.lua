@@ -5,6 +5,6 @@
 ---@field public overrideRecord String
 gameOverrideMissShotOffset = {}
 
----@param fields? table
+---@param fields? gameOverrideMissShotOffset
 ---@return gameOverrideMissShotOffset
 function gameOverrideMissShotOffset.new(fields) return end

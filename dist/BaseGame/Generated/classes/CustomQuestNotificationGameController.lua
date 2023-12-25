@@ -11,7 +11,7 @@
 ---@field private animationProxy inkanimProxy
 CustomQuestNotificationGameController = {}
 
----@param fields? table
+---@param fields? CustomQuestNotificationGameController
 ---@return CustomQuestNotificationGameController
 function CustomQuestNotificationGameController.new(fields) return end
 

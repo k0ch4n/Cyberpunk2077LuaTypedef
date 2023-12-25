@@ -16,6 +16,6 @@
 ---@field public forceScale IEvaluatorFloat
 CParticleInitializerSpawnSphere = {}
 
----@param fields? table
+---@param fields? CParticleInitializerSpawnSphere
 ---@return CParticleInitializerSpawnSphere
 function CParticleInitializerSpawnSphere.new(fields) return end

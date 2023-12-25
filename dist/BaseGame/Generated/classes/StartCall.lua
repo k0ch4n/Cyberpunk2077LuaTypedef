@@ -4,7 +4,7 @@
 ---@class StartCall: ActionBool
 StartCall = {}
 
----@param fields? table
+---@param fields? StartCall
 ---@return StartCall
 function StartCall.new(fields) return end
 

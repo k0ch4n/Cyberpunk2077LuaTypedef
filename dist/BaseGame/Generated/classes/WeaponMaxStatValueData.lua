@@ -6,6 +6,6 @@
 ---@field public value Float
 WeaponMaxStatValueData = {}
 
----@param fields? table
+---@param fields? WeaponMaxStatValueData
 ---@return WeaponMaxStatValueData
 function WeaponMaxStatValueData.new(fields) return end

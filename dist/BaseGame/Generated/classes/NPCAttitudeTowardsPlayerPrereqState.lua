@@ -5,7 +5,7 @@
 ---@field public attitudeListener gameScriptedPrereqAttitudeListenerWrapper
 NPCAttitudeTowardsPlayerPrereqState = {}
 
----@param fields? table
+---@param fields? NPCAttitudeTowardsPlayerPrereqState
 ---@return NPCAttitudeTowardsPlayerPrereqState
 function NPCAttitudeTowardsPlayerPrereqState.new(fields) return end
 

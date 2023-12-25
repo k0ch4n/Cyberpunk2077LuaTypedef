@@ -4,7 +4,7 @@
 ---@class BunkerComputerController: ComputerController
 BunkerComputerController = {}
 
----@param fields? table
+---@param fields? BunkerComputerController
 ---@return BunkerComputerController
 function BunkerComputerController.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public linkedStatusEffectID TweakDBID
 EnableFastTravelRequest = {}
 
----@param fields? table
+---@param fields? EnableFastTravelRequest
 ---@return EnableFastTravelRequest
 function EnableFastTravelRequest.new(fields) return end
 

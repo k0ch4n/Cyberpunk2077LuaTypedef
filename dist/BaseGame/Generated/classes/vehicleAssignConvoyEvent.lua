@@ -4,6 +4,6 @@
 ---@class vehicleAssignConvoyEvent: redEvent
 vehicleAssignConvoyEvent = {}
 
----@param fields? table
+---@param fields? vehicleAssignConvoyEvent
 ---@return vehicleAssignConvoyEvent
 function vehicleAssignConvoyEvent.new(fields) return end

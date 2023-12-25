@@ -4,7 +4,7 @@
 ---@class gametargetingSystemTargetFilter_Script: gametargetingSystemTargetFilter
 gametargetingSystemTargetFilter_Script = {}
 
----@param fields? table
+---@param fields? gametargetingSystemTargetFilter_Script
 ---@return gametargetingSystemTargetFilter_Script
 function gametargetingSystemTargetFilter_Script.new(fields) return end
 

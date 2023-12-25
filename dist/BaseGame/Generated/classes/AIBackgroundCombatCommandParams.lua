@@ -5,7 +5,7 @@
 ---@field public steps AIBackgroundCombatStep[]
 AIBackgroundCombatCommandParams = {}
 
----@param fields? table
+---@param fields? AIBackgroundCombatCommandParams
 ---@return AIBackgroundCombatCommandParams
 function AIBackgroundCombatCommandParams.new(fields) return end
 

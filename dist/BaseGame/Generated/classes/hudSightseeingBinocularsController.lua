@@ -25,7 +25,7 @@
 ---@field private maxZoomLevel Int32
 hudSightseeingBinocularsController = {}
 
----@param fields? table
+---@param fields? hudSightseeingBinocularsController
 ---@return hudSightseeingBinocularsController
 function hudSightseeingBinocularsController.new(fields) return end
 

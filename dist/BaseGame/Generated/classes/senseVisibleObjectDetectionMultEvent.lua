@@ -5,6 +5,6 @@
 ---@field public multiplier Float
 senseVisibleObjectDetectionMultEvent = {}
 
----@param fields? table
+---@param fields? senseVisibleObjectDetectionMultEvent
 ---@return senseVisibleObjectDetectionMultEvent
 function senseVisibleObjectDetectionMultEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public laneX2 Float
 gameTrafficLaneSpanInfo = {}
 
----@param fields? table
+---@param fields? gameTrafficLaneSpanInfo
 ---@return gameTrafficLaneSpanInfo
 function gameTrafficLaneSpanInfo.new(fields) return end

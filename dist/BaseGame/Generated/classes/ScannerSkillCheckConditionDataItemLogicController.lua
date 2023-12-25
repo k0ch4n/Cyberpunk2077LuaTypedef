@@ -12,7 +12,7 @@
 ---@field private ConditionDescriptionList inkCompoundWidget
 ScannerSkillCheckConditionDataItemLogicController = {}
 
----@param fields? table
+---@param fields? ScannerSkillCheckConditionDataItemLogicController
 ---@return ScannerSkillCheckConditionDataItemLogicController
 function ScannerSkillCheckConditionDataItemLogicController.new(fields) return end
 

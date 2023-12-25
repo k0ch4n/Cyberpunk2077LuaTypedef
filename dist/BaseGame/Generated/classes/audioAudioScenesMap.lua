@@ -6,6 +6,6 @@
 ---@field public scenesToActivateByQuestEvent audioAudioSceneDictionary
 audioAudioScenesMap = {}
 
----@param fields? table
+---@param fields? audioAudioScenesMap
 ---@return audioAudioScenesMap
 function audioAudioScenesMap.new(fields) return end

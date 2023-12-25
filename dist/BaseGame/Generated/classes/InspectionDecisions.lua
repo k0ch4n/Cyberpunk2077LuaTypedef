@@ -4,7 +4,7 @@
 ---@class InspectionDecisions: HighLevelTransition
 InspectionDecisions = {}
 
----@param fields? table
+---@param fields? InspectionDecisions
 ---@return InspectionDecisions
 function InspectionDecisions.new(fields) return end
 

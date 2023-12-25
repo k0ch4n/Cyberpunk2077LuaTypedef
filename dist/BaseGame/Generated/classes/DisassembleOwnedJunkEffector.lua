@@ -4,7 +4,7 @@
 ---@class DisassembleOwnedJunkEffector: gameEffector
 DisassembleOwnedJunkEffector = {}
 
----@param fields? table
+---@param fields? DisassembleOwnedJunkEffector
 ---@return DisassembleOwnedJunkEffector
 function DisassembleOwnedJunkEffector.new(fields) return end
 

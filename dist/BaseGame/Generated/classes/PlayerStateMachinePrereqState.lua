@@ -7,7 +7,7 @@
 ---@field public prevValue Int32
 PlayerStateMachinePrereqState = {}
 
----@param fields? table
+---@param fields? PlayerStateMachinePrereqState
 ---@return PlayerStateMachinePrereqState
 function PlayerStateMachinePrereqState.new(fields) return end
 

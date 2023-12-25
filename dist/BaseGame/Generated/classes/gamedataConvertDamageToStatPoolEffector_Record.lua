@@ -4,7 +4,7 @@
 ---@class gamedataConvertDamageToStatPoolEffector_Record: gamedataEffector_Record
 gamedataConvertDamageToStatPoolEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataConvertDamageToStatPoolEffector_Record
 ---@return gamedataConvertDamageToStatPoolEffector_Record
 function gamedataConvertDamageToStatPoolEffector_Record.new(fields) return end
 

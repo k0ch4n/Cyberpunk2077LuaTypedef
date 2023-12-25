@@ -5,7 +5,7 @@
 ---@field private backpackInstance gameuiBackpackMainGameController
 BakcpackImmediateNotificationListener = {}
 
----@param fields? table
+---@param fields? BakcpackImmediateNotificationListener
 ---@return BakcpackImmediateNotificationListener
 function BakcpackImmediateNotificationListener.new(fields) return end
 

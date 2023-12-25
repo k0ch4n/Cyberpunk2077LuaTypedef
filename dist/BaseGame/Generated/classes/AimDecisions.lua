@@ -4,7 +4,7 @@
 ---@class AimDecisions: CanTransitionToThrowDecisions
 AimDecisions = {}
 
----@param fields? table
+---@param fields? AimDecisions
 ---@return AimDecisions
 function AimDecisions.new(fields) return end
 

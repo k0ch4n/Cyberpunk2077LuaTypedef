@@ -7,6 +7,6 @@
 ---@field public textWidgetRef inkTextWidgetReference
 gameuiInputHintController = {}
 
----@param fields? table
+---@param fields? gameuiInputHintController
 ---@return gameuiInputHintController
 function gameuiInputHintController.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public exclusionPaletteEntries audioAmbientPaletteEntry[]
 worldAmbientPaletteExclusionAreaNode = {}
 
----@param fields? table
+---@param fields? worldAmbientPaletteExclusionAreaNode
 ---@return worldAmbientPaletteExclusionAreaNode
 function worldAmbientPaletteExclusionAreaNode.new(fields) return end

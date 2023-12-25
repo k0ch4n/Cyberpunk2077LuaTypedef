@@ -12,6 +12,6 @@
 ---@field public sendLoopEvent Bool
 gameActionAnimationState = {}
 
----@param fields? table
+---@param fields? gameActionAnimationState
 ---@return gameActionAnimationState
 function gameActionAnimationState.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public damping Float
 physicsPhysicsJointDrive = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointDrive
 ---@return physicsPhysicsJointDrive
 function physicsPhysicsJointDrive.new(fields) return end

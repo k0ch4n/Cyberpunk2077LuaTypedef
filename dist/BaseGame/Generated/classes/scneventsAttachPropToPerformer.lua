@@ -11,6 +11,6 @@
 ---@field public fallbackData scneventsAttachPropToPerformerFallbackData[]
 scneventsAttachPropToPerformer = {}
 
----@param fields? table
+---@param fields? scneventsAttachPropToPerformer
 ---@return scneventsAttachPropToPerformer
 function scneventsAttachPropToPerformer.new(fields) return end

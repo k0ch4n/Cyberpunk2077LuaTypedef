@@ -4,6 +4,6 @@
 ---@class PhoneTimeoutRequest: gameScriptableSystemRequest
 PhoneTimeoutRequest = {}
 
----@param fields? table
+---@param fields? PhoneTimeoutRequest
 ---@return PhoneTimeoutRequest
 function PhoneTimeoutRequest.new(fields) return end

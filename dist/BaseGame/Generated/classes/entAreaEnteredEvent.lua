@@ -4,6 +4,6 @@
 ---@class entAreaEnteredEvent: entTriggerEvent
 entAreaEnteredEvent = {}
 
----@param fields? table
+---@param fields? entAreaEnteredEvent
 ---@return entAreaEnteredEvent
 function entAreaEnteredEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataGenericHighwaySign_Record: gamedataBaseSign_Record
 gamedataGenericHighwaySign_Record = {}
 
----@param fields? table
+---@param fields? gamedataGenericHighwaySign_Record
 ---@return gamedataGenericHighwaySign_Record
 function gamedataGenericHighwaySign_Record.new(fields) return end
 

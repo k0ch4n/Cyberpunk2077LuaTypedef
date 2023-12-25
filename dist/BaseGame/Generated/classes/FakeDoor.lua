@@ -5,7 +5,7 @@
 ---@field public interaction gameinteractionsComponent
 FakeDoor = {}
 
----@param fields? table
+---@param fields? FakeDoor
 ---@return FakeDoor
 function FakeDoor.new(fields) return end
 

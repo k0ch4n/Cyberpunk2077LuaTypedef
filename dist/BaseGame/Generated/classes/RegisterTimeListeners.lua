@@ -4,6 +4,6 @@
 ---@class RegisterTimeListeners: redEvent
 RegisterTimeListeners = {}
 
----@param fields? table
+---@param fields? RegisterTimeListeners
 ---@return RegisterTimeListeners
 function RegisterTimeListeners.new(fields) return end

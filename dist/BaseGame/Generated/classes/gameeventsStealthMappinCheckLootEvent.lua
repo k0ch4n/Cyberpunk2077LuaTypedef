@@ -4,6 +4,6 @@
 ---@class gameeventsStealthMappinCheckLootEvent: redEvent
 gameeventsStealthMappinCheckLootEvent = {}
 
----@param fields? table
+---@param fields? gameeventsStealthMappinCheckLootEvent
 ---@return gameeventsStealthMappinCheckLootEvent
 function gameeventsStealthMappinCheckLootEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class MenuScenario_CreditsPickerPause: MenuScenario_BaseMenu
 MenuScenario_CreditsPickerPause = {}
 
----@param fields? table
+---@param fields? MenuScenario_CreditsPickerPause
 ---@return MenuScenario_CreditsPickerPause
 function MenuScenario_CreditsPickerPause.new(fields) return end
 

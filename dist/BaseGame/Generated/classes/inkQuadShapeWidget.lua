@@ -7,6 +7,6 @@
 ---@field public vertexList Vector2[]
 inkQuadShapeWidget = {}
 
----@param fields? table
+---@param fields? inkQuadShapeWidget
 ---@return inkQuadShapeWidget
 function inkQuadShapeWidget.new(fields) return end

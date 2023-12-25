@@ -4,7 +4,7 @@
 ---@class UpdateDyingStimSource: AIbehaviortaskScript
 UpdateDyingStimSource = {}
 
----@param fields? table
+---@param fields? UpdateDyingStimSource
 ---@return UpdateDyingStimSource
 function UpdateDyingStimSource.new(fields) return end
 

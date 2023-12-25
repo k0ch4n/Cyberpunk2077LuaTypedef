@@ -4,7 +4,7 @@
 ---@class AISquadScriptInterface: IScriptable
 AISquadScriptInterface = {}
 
----@param fields? table
+---@param fields? AISquadScriptInterface
 ---@return AISquadScriptInterface
 function AISquadScriptInterface.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public container PerkDisplayContainerController
 PerkDisplayContainerCreatedEvent = {}
 
----@param fields? table
+---@param fields? PerkDisplayContainerCreatedEvent
 ---@return PerkDisplayContainerCreatedEvent
 function PerkDisplayContainerCreatedEvent.new(fields) return end

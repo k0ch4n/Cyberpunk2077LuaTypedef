@@ -4,6 +4,6 @@
 ---@class ShotgunLookAtEvents: lookAtPresetGunBaseEvents
 ShotgunLookAtEvents = {}
 
----@param fields? table
+---@param fields? ShotgunLookAtEvents
 ---@return ShotgunLookAtEvents
 function ShotgunLookAtEvents.new(fields) return end

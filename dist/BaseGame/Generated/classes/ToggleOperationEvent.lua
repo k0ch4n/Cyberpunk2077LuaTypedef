@@ -7,6 +7,6 @@
 ---@field public type EOperationClassType
 ToggleOperationEvent = {}
 
----@param fields? table
+---@param fields? ToggleOperationEvent
 ---@return ToggleOperationEvent
 function ToggleOperationEvent.new(fields) return end

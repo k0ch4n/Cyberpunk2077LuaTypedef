@@ -7,6 +7,6 @@
 ---@field public targetWeight Float
 scnAddIdleWithBlendAnimEvent = {}
 
----@param fields? table
+---@param fields? scnAddIdleWithBlendAnimEvent
 ---@return scnAddIdleWithBlendAnimEvent
 function scnAddIdleWithBlendAnimEvent.new(fields) return end

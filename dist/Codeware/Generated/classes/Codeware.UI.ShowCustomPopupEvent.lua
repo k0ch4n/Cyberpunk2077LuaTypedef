@@ -4,7 +4,7 @@
 ---@class Codeware_UI_ShowCustomPopupEvent: Codeware_UI_CustomPopupEvent
 Codeware_UI_ShowCustomPopupEvent = {}
 
----@param fields? table
+---@param fields? Codeware_UI_ShowCustomPopupEvent
 ---@return Codeware_UI_ShowCustomPopupEvent
 function Codeware_UI_ShowCustomPopupEvent.new(fields) return end
 

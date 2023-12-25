@@ -4,6 +4,6 @@
 ---@class ExpressionTreeExecutionListenerRef
 ExpressionTreeExecutionListenerRef = {}
 
----@param fields? table
+---@param fields? ExpressionTreeExecutionListenerRef
 ---@return ExpressionTreeExecutionListenerRef
 function ExpressionTreeExecutionListenerRef.new(fields) return end

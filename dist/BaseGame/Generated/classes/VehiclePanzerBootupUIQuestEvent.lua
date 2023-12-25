@@ -5,7 +5,7 @@
 ---@field public mode panzerBootupUI
 VehiclePanzerBootupUIQuestEvent = {}
 
----@param fields? table
+---@param fields? VehiclePanzerBootupUIQuestEvent
 ---@return VehiclePanzerBootupUIQuestEvent
 function VehiclePanzerBootupUIQuestEvent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AIFindPositionAroundTarget: AIbehaviortaskScript
 AIFindPositionAroundTarget = {}
 
----@param fields? table
+---@param fields? AIFindPositionAroundTarget
 ---@return AIFindPositionAroundTarget
 function AIFindPositionAroundTarget.new(fields) return end
 

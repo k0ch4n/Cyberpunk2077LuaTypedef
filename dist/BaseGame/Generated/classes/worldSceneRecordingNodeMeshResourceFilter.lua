@@ -6,6 +6,6 @@
 ---@field public forceFilterMatch CMesh[]
 worldSceneRecordingNodeMeshResourceFilter = {}
 
----@param fields? table
+---@param fields? worldSceneRecordingNodeMeshResourceFilter
 ---@return worldSceneRecordingNodeMeshResourceFilter
 function worldSceneRecordingNodeMeshResourceFilter.new(fields) return end

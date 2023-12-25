@@ -6,6 +6,6 @@
 ---@field public nodeRefs NodeRef[]
 worldDeviceConnections = {}
 
----@param fields? table
+---@param fields? worldDeviceConnections
 ---@return worldDeviceConnections
 function worldDeviceConnections.new(fields) return end

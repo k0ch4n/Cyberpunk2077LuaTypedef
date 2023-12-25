@@ -21,7 +21,7 @@
 ---@field private scroll inkScrollController
 ShardNotificationController = {}
 
----@param fields? table
+---@param fields? ShardNotificationController
 ---@return ShardNotificationController
 function ShardNotificationController.new(fields) return end
 

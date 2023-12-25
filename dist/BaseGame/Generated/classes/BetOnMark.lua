@@ -6,6 +6,6 @@
 ---@field public mark inkWidgetReference
 BetOnMark = {}
 
----@param fields? table
+---@param fields? BetOnMark
 ---@return BetOnMark
 function BetOnMark.new(fields) return end

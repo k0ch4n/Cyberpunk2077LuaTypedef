@@ -4,6 +4,6 @@
 ---@class HammerLookAtEvents: LookAtPresetMeleeBaseEvents
 HammerLookAtEvents = {}
 
----@param fields? table
+---@param fields? HammerLookAtEvents
 ---@return HammerLookAtEvents
 function HammerLookAtEvents.new(fields) return end

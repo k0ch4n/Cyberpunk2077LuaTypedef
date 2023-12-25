@@ -8,7 +8,7 @@
 ---@field private jammedSensorsArray SensorDevice[]
 AntiRadar = {}
 
----@param fields? table
+---@param fields? AntiRadar
 ---@return AntiRadar
 function AntiRadar.new(fields) return end
 

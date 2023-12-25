@@ -6,6 +6,6 @@
 ---@field public reserve Bool
 VehicleSeatReservationEvent = {}
 
----@param fields? table
+---@param fields? VehicleSeatReservationEvent
 ---@return VehicleSeatReservationEvent
 function VehicleSeatReservationEvent.new(fields) return end

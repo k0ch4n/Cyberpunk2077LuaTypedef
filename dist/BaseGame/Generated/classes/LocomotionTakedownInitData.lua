@@ -7,6 +7,6 @@
 ---@field public actionName CName
 LocomotionTakedownInitData = {}
 
----@param fields? table
+---@param fields? LocomotionTakedownInitData
 ---@return LocomotionTakedownInitData
 function LocomotionTakedownInitData.new(fields) return end

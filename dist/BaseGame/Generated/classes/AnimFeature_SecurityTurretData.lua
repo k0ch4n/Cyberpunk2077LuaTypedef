@@ -8,6 +8,6 @@
 ---@field public isOverriden Bool
 AnimFeature_SecurityTurretData = {}
 
----@param fields? table
+---@param fields? AnimFeature_SecurityTurretData
 ---@return AnimFeature_SecurityTurretData
 function AnimFeature_SecurityTurretData.new(fields) return end

@@ -13,7 +13,7 @@
 ---@field private breachingEnabled Bool
 EngagementScreenGameController = {}
 
----@param fields? table
+---@param fields? EngagementScreenGameController
 ---@return EngagementScreenGameController
 function EngagementScreenGameController.new(fields) return end
 

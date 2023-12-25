@@ -6,6 +6,6 @@
 ---@field public excludeTags CName[]
 meshImportedSnapTags = {}
 
----@param fields? table
+---@param fields? meshImportedSnapTags
 ---@return meshImportedSnapTags
 function meshImportedSnapTags.new(fields) return end

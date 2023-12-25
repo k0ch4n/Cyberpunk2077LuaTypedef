@@ -6,6 +6,6 @@
 ---@field public value Float
 enteventsPhysicalDeformShapesEvent = {}
 
----@param fields? table
+---@param fields? enteventsPhysicalDeformShapesEvent
 ---@return enteventsPhysicalDeformShapesEvent
 function enteventsPhysicalDeformShapesEvent.new(fields) return end

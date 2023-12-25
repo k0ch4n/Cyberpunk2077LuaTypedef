@@ -6,6 +6,6 @@
 ---@field public moneyAwarded Int32
 BountyCompletionEvent = {}
 
----@param fields? table
+---@param fields? BountyCompletionEvent
 ---@return BountyCompletionEvent
 function BountyCompletionEvent.new(fields) return end

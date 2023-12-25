@@ -5,6 +5,6 @@
 ---@field public localOffset AIArgumentMapping
 AIbehaviorActionSlideToLocalPositionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionSlideToLocalPositionNodeDefinition
 ---@return AIbehaviorActionSlideToLocalPositionNodeDefinition
 function AIbehaviorActionSlideToLocalPositionNodeDefinition.new(fields) return end

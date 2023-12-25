@@ -4,7 +4,7 @@
 ---@class ActionDodgeScriptProxy: CActionScriptProxy
 ActionDodgeScriptProxy = {}
 
----@param fields? table
+---@param fields? ActionDodgeScriptProxy
 ---@return ActionDodgeScriptProxy
 function ActionDodgeScriptProxy.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public value String
 gameuiSetupOptionButtonForAttributeEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetupOptionButtonForAttributeEvent
 ---@return gameuiSetupOptionButtonForAttributeEvent
 function gameuiSetupOptionButtonForAttributeEvent.new(fields) return end

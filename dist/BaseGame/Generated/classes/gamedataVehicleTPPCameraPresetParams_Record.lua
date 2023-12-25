@@ -4,7 +4,7 @@
 ---@class gamedataVehicleTPPCameraPresetParams_Record: gamedataTweakDBRecord
 gamedataVehicleTPPCameraPresetParams_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleTPPCameraPresetParams_Record
 ---@return gamedataVehicleTPPCameraPresetParams_Record
 function gamedataVehicleTPPCameraPresetParams_Record.new(fields) return end
 

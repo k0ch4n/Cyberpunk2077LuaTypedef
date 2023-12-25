@@ -5,6 +5,6 @@
 ---@field public pendingSubtitles scnDialogLineData[]
 gamePendingSubtitles = {}
 
----@param fields? table
+---@param fields? gamePendingSubtitles
 ---@return gamePendingSubtitles
 function gamePendingSubtitles.new(fields) return end

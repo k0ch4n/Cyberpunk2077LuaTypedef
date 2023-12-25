@@ -4,7 +4,7 @@
 ---@class EffectExecutor_TrackTargets: gameEffectExecutor_Scripted
 EffectExecutor_TrackTargets = {}
 
----@param fields? table
+---@param fields? EffectExecutor_TrackTargets
 ---@return EffectExecutor_TrackTargets
 function EffectExecutor_TrackTargets.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public baseRig animRig
 entCorpseParameter = {}
 
----@param fields? table
+---@param fields? entCorpseParameter
 ---@return entCorpseParameter
 function entCorpseParameter.new(fields) return end

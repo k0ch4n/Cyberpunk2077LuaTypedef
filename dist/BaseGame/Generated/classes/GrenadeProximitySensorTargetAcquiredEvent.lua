@@ -4,6 +4,6 @@
 ---@class GrenadeProximitySensorTargetAcquiredEvent: redEvent
 GrenadeProximitySensorTargetAcquiredEvent = {}
 
----@param fields? table
+---@param fields? GrenadeProximitySensorTargetAcquiredEvent
 ---@return GrenadeProximitySensorTargetAcquiredEvent
 function GrenadeProximitySensorTargetAcquiredEvent.new(fields) return end

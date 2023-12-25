@@ -20,7 +20,7 @@
 ---@field private target gameObject
 minibossPlasmaProjectile = {}
 
----@param fields? table
+---@param fields? minibossPlasmaProjectile
 ---@return minibossPlasmaProjectile
 function minibossPlasmaProjectile.new(fields) return end
 

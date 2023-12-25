@@ -4,6 +4,6 @@
 ---@class worldCommunityRegistryNodeInstance: worldINodeInstance
 worldCommunityRegistryNodeInstance = {}
 
----@param fields? table
+---@param fields? worldCommunityRegistryNodeInstance
 ---@return worldCommunityRegistryNodeInstance
 function worldCommunityRegistryNodeInstance.new(fields) return end

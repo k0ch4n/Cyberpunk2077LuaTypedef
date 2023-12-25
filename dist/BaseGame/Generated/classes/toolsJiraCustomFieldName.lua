@@ -5,6 +5,6 @@
 ---@field public name String
 toolsJiraCustomFieldName = {}
 
----@param fields? table
+---@param fields? toolsJiraCustomFieldName
 ---@return toolsJiraCustomFieldName
 function toolsJiraCustomFieldName.new(fields) return end

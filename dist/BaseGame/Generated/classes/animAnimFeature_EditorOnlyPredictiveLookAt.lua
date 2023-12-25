@@ -8,6 +8,6 @@
 ---@field public mode Int32
 animAnimFeature_EditorOnlyPredictiveLookAt = {}
 
----@param fields? table
+---@param fields? animAnimFeature_EditorOnlyPredictiveLookAt
 ---@return animAnimFeature_EditorOnlyPredictiveLookAt
 function animAnimFeature_EditorOnlyPredictiveLookAt.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataModifyStatPoolValueEffector_Record: gamedataEffector_Record
 gamedataModifyStatPoolValueEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataModifyStatPoolValueEffector_Record
 ---@return gamedataModifyStatPoolValueEffector_Record
 function gamedataModifyStatPoolValueEffector_Record.new(fields) return end
 

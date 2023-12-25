@@ -4,6 +4,6 @@
 ---@class AIbehaviorLeaveCoverImmediatelyNodeDefinition: AIbehaviorDecoratorNodeDefinition
 AIbehaviorLeaveCoverImmediatelyNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorLeaveCoverImmediatelyNodeDefinition
 ---@return AIbehaviorLeaveCoverImmediatelyNodeDefinition
 function AIbehaviorLeaveCoverImmediatelyNodeDefinition.new(fields) return end

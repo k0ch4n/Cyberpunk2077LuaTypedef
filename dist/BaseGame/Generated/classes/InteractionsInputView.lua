@@ -13,7 +13,7 @@
 ---@field private DefaultInputPartName CName
 InteractionsInputView = {}
 
----@param fields? table
+---@param fields? InteractionsInputView
 ---@return InteractionsInputView
 function InteractionsInputView.new(fields) return end
 

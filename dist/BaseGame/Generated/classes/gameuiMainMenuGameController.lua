@@ -5,7 +5,7 @@
 ---@field public backgroundContainer inkCompoundWidgetReference
 gameuiMainMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiMainMenuGameController
 ---@return gameuiMainMenuGameController
 function gameuiMainMenuGameController.new(fields) return end
 

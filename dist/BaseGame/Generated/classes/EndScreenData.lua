@@ -6,6 +6,6 @@
 ---@field public outcome OutcomeMessage
 EndScreenData = {}
 
----@param fields? table
+---@param fields? EndScreenData
 ---@return EndScreenData
 function EndScreenData.new(fields) return end

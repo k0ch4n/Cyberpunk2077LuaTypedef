@@ -5,6 +5,6 @@
 ---@field public entriesResource inkHudEntriesResource
 inkRequestNewHudEvent = {}
 
----@param fields? table
+---@param fields? inkRequestNewHudEvent
 ---@return inkRequestNewHudEvent
 function inkRequestNewHudEvent.new(fields) return end

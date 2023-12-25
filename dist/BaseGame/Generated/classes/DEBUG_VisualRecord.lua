@@ -8,6 +8,6 @@
 ---@field public showDuration Float
 DEBUG_VisualRecord = {}
 
----@param fields? table
+---@param fields? DEBUG_VisualRecord
 ---@return DEBUG_VisualRecord
 function DEBUG_VisualRecord.new(fields) return end

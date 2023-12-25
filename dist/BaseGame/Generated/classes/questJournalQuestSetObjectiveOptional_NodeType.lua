@@ -6,6 +6,6 @@
 ---@field public optional Bool
 questJournalQuestSetObjectiveOptional_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalQuestSetObjectiveOptional_NodeType
 ---@return questJournalQuestSetObjectiveOptional_NodeType
 function questJournalQuestSetObjectiveOptional_NodeType.new(fields) return end

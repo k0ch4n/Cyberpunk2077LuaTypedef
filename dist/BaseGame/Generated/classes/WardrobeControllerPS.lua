@@ -6,7 +6,7 @@
 ---@field protected hasInteraction Bool
 WardrobeControllerPS = {}
 
----@param fields? table
+---@param fields? WardrobeControllerPS
 ---@return WardrobeControllerPS
 function WardrobeControllerPS.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public lookupMatrixName CName
 gameaudioRagdollSubSystem = {}
 
----@param fields? table
+---@param fields? gameaudioRagdollSubSystem
 ---@return gameaudioRagdollSubSystem
 function gameaudioRagdollSubSystem.new(fields) return end

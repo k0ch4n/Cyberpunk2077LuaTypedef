@@ -6,6 +6,6 @@
 ---@field public isSprinting Bool
 gameMuppetInputActionMoveForward = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionMoveForward
 ---@return gameMuppetInputActionMoveForward
 function gameMuppetInputActionMoveForward.new(fields) return end

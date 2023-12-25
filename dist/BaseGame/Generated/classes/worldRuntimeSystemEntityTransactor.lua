@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemEntityTransactor: worldIRuntimeSystem
 worldRuntimeSystemEntityTransactor = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemEntityTransactor
 ---@return worldRuntimeSystemEntityTransactor
 function worldRuntimeSystemEntityTransactor.new(fields) return end

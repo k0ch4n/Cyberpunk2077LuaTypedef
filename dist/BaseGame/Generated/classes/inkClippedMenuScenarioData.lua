@@ -5,6 +5,6 @@
 ---@field public menus CName[]
 inkClippedMenuScenarioData = {}
 
----@param fields? table
+---@param fields? inkClippedMenuScenarioData
 ---@return inkClippedMenuScenarioData
 function inkClippedMenuScenarioData.new(fields) return end

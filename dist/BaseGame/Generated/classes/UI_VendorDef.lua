@@ -5,7 +5,7 @@
 ---@field public VendorData gamebbScriptID_Variant
 UI_VendorDef = {}
 
----@param fields? table
+---@param fields? UI_VendorDef
 ---@return UI_VendorDef
 function UI_VendorDef.new(fields) return end
 

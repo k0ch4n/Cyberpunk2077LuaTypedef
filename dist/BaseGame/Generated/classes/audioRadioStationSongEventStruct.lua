@@ -6,6 +6,6 @@
 ---@field public radioSongName CName
 audioRadioStationSongEventStruct = {}
 
----@param fields? table
+---@param fields? audioRadioStationSongEventStruct
 ---@return audioRadioStationSongEventStruct
 function audioRadioStationSongEventStruct.new(fields) return end

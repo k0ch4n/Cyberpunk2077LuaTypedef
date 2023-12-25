@@ -5,7 +5,7 @@
 ---@field public minimumQuality Int32
 RarityOfEquippedCyberdeckPrereq = {}
 
----@param fields? table
+---@param fields? RarityOfEquippedCyberdeckPrereq
 ---@return RarityOfEquippedCyberdeckPrereq
 function RarityOfEquippedCyberdeckPrereq.new(fields) return end
 

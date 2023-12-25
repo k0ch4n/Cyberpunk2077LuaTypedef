@@ -9,6 +9,6 @@
 ---@field public IsPurchase Bool
 RipperdocMeterCapacityApplyEvent = {}
 
----@param fields? table
+---@param fields? RipperdocMeterCapacityApplyEvent
 ---@return RipperdocMeterCapacityApplyEvent
 function RipperdocMeterCapacityApplyEvent.new(fields) return end

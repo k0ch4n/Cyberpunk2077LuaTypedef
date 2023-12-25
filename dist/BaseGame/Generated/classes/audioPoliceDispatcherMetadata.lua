@@ -10,6 +10,6 @@
 ---@field public sceneFilePath String
 audioPoliceDispatcherMetadata = {}
 
----@param fields? table
+---@param fields? audioPoliceDispatcherMetadata
 ---@return audioPoliceDispatcherMetadata
 function audioPoliceDispatcherMetadata.new(fields) return end

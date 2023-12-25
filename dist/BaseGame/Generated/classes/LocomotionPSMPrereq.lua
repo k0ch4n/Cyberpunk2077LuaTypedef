@@ -4,7 +4,7 @@
 ---@class LocomotionPSMPrereq: PlayerStateMachinePrereq
 LocomotionPSMPrereq = {}
 
----@param fields? table
+---@param fields? LocomotionPSMPrereq
 ---@return LocomotionPSMPrereq
 function LocomotionPSMPrereq.new(fields) return end
 

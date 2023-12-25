@@ -6,7 +6,7 @@
 ---@field public exclusiveProcessing Bool
 gameuiGenericNotificationGameController = {}
 
----@param fields? table
+---@param fields? gameuiGenericNotificationGameController
 ---@return gameuiGenericNotificationGameController
 function gameuiGenericNotificationGameController.new(fields) return end
 

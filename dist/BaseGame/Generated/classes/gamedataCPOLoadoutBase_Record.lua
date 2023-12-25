@@ -4,7 +4,7 @@
 ---@class gamedataCPOLoadoutBase_Record: gamedataTweakDBRecord
 gamedataCPOLoadoutBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataCPOLoadoutBase_Record
 ---@return gamedataCPOLoadoutBase_Record
 function gamedataCPOLoadoutBase_Record.new(fields) return end
 

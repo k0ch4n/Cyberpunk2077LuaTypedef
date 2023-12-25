@@ -26,7 +26,7 @@
 ---@field private animationProxy inkanimProxy
 ShardsMenuGameController = {}
 
----@param fields? table
+---@param fields? ShardsMenuGameController
 ---@return ShardsMenuGameController
 function ShardsMenuGameController.new(fields) return end
 

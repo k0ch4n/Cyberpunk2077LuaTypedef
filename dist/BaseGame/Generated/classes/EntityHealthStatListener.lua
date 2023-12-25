@@ -5,7 +5,7 @@
 ---@field private healthbar EntityHealthBarGameController
 EntityHealthStatListener = {}
 
----@param fields? table
+---@param fields? EntityHealthStatListener
 ---@return EntityHealthStatListener
 function EntityHealthStatListener.new(fields) return end
 

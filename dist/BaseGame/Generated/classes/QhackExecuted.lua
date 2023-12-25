@@ -4,6 +4,6 @@
 ---@class QhackExecuted: redEvent
 QhackExecuted = {}
 
----@param fields? table
+---@param fields? QhackExecuted
 ---@return QhackExecuted
 function QhackExecuted.new(fields) return end

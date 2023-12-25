@@ -4,7 +4,7 @@
 ---@class ResourceToken: IScriptable
 ResourceToken = {}
 
----@param fields? table
+---@param fields? ResourceToken
 ---@return ResourceToken
 function ResourceToken.new(fields) return end
 

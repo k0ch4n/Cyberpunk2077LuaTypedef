@@ -5,7 +5,7 @@
 ---@field public transition AreaTypeTransition
 QuestExecuteTransition = {}
 
----@param fields? table
+---@param fields? QuestExecuteTransition
 ---@return QuestExecuteTransition
 function QuestExecuteTransition.new(fields) return end
 

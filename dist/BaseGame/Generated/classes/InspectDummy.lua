@@ -7,7 +7,7 @@
 ---@field public inspectComp InspectableObjectComponent
 InspectDummy = {}
 
----@param fields? table
+---@param fields? InspectDummy
 ---@return InspectDummy
 function InspectDummy.new(fields) return end
 

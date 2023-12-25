@@ -4,6 +4,6 @@
 ---@class AIDirectorSystemSquadAudioMember: AISquadAudioMemberBase
 AIDirectorSystemSquadAudioMember = {}
 
----@param fields? table
+---@param fields? AIDirectorSystemSquadAudioMember
 ---@return AIDirectorSystemSquadAudioMember
 function AIDirectorSystemSquadAudioMember.new(fields) return end

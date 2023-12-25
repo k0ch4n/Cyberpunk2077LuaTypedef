@@ -8,6 +8,6 @@
 ---@field public isShown Bool
 PerkHoverEventTooltipData = {}
 
----@param fields? table
+---@param fields? PerkHoverEventTooltipData
 ---@return PerkHoverEventTooltipData
 function PerkHoverEventTooltipData.new(fields) return end

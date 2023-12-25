@@ -6,6 +6,6 @@
 ---@field public condition questIBaseCondition
 gameDynamicEventNode = {}
 
----@param fields? table
+---@param fields? gameDynamicEventNode
 ---@return gameDynamicEventNode
 function gameDynamicEventNode.new(fields) return end

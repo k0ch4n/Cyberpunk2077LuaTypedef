@@ -33,7 +33,7 @@
 ---@field private vehicleControllerPS vehicleControllerPS
 VehicleComponentPS = {}
 
----@param fields? table
+---@param fields? VehicleComponentPS
 ---@return VehicleComponentPS
 function VehicleComponentPS.new(fields) return end
 

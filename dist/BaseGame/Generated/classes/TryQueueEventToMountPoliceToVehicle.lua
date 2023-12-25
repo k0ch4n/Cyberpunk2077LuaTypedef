@@ -4,7 +4,7 @@
 ---@class TryQueueEventToMountPoliceToVehicle: PreventionConditionAbstract
 TryQueueEventToMountPoliceToVehicle = {}
 
----@param fields? table
+---@param fields? TryQueueEventToMountPoliceToVehicle
 ---@return TryQueueEventToMountPoliceToVehicle
 function TryQueueEventToMountPoliceToVehicle.new(fields) return end
 

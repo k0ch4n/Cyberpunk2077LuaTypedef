@@ -5,6 +5,6 @@
 ---@field public children LibTreeINodeDefinition[]
 AICTreeNodeChildrenListDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeChildrenListDefinition
 ---@return AICTreeNodeChildrenListDefinition
 function AICTreeNodeChildrenListDefinition.new(fields) return end

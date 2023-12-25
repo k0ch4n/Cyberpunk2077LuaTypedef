@@ -19,7 +19,7 @@
 ---@field private hoverOutAnim inkanimProxy
 inkSettingsSelectorController = {}
 
----@param fields? table
+---@param fields? inkSettingsSelectorController
 ---@return inkSettingsSelectorController
 function inkSettingsSelectorController.new(fields) return end
 

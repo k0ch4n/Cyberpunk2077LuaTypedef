@@ -6,6 +6,6 @@
 ---@field public widget inkWidget
 SkillRewardHoverOver = {}
 
----@param fields? table
+---@param fields? SkillRewardHoverOver
 ---@return SkillRewardHoverOver
 function SkillRewardHoverOver.new(fields) return end

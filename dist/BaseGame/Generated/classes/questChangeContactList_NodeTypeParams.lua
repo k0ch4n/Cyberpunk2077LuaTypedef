@@ -7,6 +7,6 @@
 ---@field public sendNotification Bool
 questChangeContactList_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questChangeContactList_NodeTypeParams
 ---@return questChangeContactList_NodeTypeParams
 function questChangeContactList_NodeTypeParams.new(fields) return end

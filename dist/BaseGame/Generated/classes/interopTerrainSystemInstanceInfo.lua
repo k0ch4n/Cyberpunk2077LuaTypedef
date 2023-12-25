@@ -16,6 +16,6 @@
 ---@field public numUsedLODCells Uint32[]
 interopTerrainSystemInstanceInfo = {}
 
----@param fields? table
+---@param fields? interopTerrainSystemInstanceInfo
 ---@return interopTerrainSystemInstanceInfo
 function interopTerrainSystemInstanceInfo.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private activationTimeStamp Float
 SelectorRevalutionBreak = {}
 
----@param fields? table
+---@param fields? SelectorRevalutionBreak
 ---@return SelectorRevalutionBreak
 function SelectorRevalutionBreak.new(fields) return end
 

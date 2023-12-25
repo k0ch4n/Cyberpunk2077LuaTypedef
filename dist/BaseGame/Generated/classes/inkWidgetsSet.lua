@@ -4,7 +4,7 @@
 ---@class inkWidgetsSet: IScriptable
 inkWidgetsSet = {}
 
----@param fields? table
+---@param fields? inkWidgetsSet
 ---@return inkWidgetsSet
 function inkWidgetsSet.new(fields) return end
 

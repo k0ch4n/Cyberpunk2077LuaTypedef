@@ -4,7 +4,7 @@
 ---@class MenuScenario_Storage: MenuScenario_BaseMenu
 MenuScenario_Storage = {}
 
----@param fields? table
+---@param fields? MenuScenario_Storage
 ---@return MenuScenario_Storage
 function MenuScenario_Storage.new(fields) return end
 

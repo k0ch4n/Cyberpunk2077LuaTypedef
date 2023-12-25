@@ -13,7 +13,7 @@
 ---@field private numberOfFrames Uint32
 sampleUIVideoPlayer = {}
 
----@param fields? table
+---@param fields? sampleUIVideoPlayer
 ---@return sampleUIVideoPlayer
 function sampleUIVideoPlayer.new(fields) return end
 

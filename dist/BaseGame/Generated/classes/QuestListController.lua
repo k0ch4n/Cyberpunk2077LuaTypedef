@@ -10,7 +10,7 @@
 ---@field private LastQuestData QuestDataWrapper
 QuestListController = {}
 
----@param fields? table
+---@param fields? QuestListController
 ---@return QuestListController
 function QuestListController.new(fields) return end
 

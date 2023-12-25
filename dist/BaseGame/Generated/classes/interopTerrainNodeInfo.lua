@@ -20,6 +20,6 @@
 ---@field public nodeIDPath toolsEditorObjectIDPath
 interopTerrainNodeInfo = {}
 
----@param fields? table
+---@param fields? interopTerrainNodeInfo
 ---@return interopTerrainNodeInfo
 function interopTerrainNodeInfo.new(fields) return end

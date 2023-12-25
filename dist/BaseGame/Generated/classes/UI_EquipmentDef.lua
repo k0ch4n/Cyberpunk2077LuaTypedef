@@ -9,7 +9,7 @@
 ---@field public EquipmentInProgress gamebbScriptID_Bool
 UI_EquipmentDef = {}
 
----@param fields? table
+---@param fields? UI_EquipmentDef
 ---@return UI_EquipmentDef
 function UI_EquipmentDef.new(fields) return end
 

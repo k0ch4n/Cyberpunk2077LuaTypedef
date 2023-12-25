@@ -5,6 +5,6 @@
 ---@field public reprimandData ReprimandData
 Reprimand = {}
 
----@param fields? table
+---@param fields? Reprimand
 ---@return Reprimand
 function Reprimand.new(fields) return end

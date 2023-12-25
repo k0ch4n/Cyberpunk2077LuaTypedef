@@ -8,7 +8,7 @@
 ---@field public ChainLocked gamebbScriptID_Bool
 DeviceTakeControlDef = {}
 
----@param fields? table
+---@param fields? DeviceTakeControlDef
 ---@return DeviceTakeControlDef
 function DeviceTakeControlDef.new(fields) return end
 

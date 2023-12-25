@@ -6,6 +6,6 @@
 ---@field public type ELinkType
 UnregisterNetworkLinksByIdAndTypeRequest = {}
 
----@param fields? table
+---@param fields? UnregisterNetworkLinksByIdAndTypeRequest
 ---@return UnregisterNetworkLinksByIdAndTypeRequest
 function UnregisterNetworkLinksByIdAndTypeRequest.new(fields) return end

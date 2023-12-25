@@ -4,6 +4,6 @@
 ---@class gamePhotoModeUtils
 gamePhotoModeUtils = {}
 
----@param fields? table
+---@param fields? gamePhotoModeUtils
 ---@return gamePhotoModeUtils
 function gamePhotoModeUtils.new(fields) return end

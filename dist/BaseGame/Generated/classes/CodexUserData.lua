@@ -5,7 +5,7 @@
 ---@field public DataSource CodexDataSource
 CodexUserData = {}
 
----@param fields? table
+---@param fields? CodexUserData
 ---@return CodexUserData
 function CodexUserData.new(fields) return end
 

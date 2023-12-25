@@ -4,7 +4,7 @@
 ---@class DeviceControlContextEvents: InputContextTransitionEvents
 DeviceControlContextEvents = {}
 
----@param fields? table
+---@param fields? DeviceControlContextEvents
 ---@return DeviceControlContextEvents
 function DeviceControlContextEvents.new(fields) return end
 

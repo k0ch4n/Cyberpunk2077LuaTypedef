@@ -4,6 +4,6 @@
 ---@class gameuiGridDataFillFinished: redEvent
 gameuiGridDataFillFinished = {}
 
----@param fields? table
+---@param fields? gameuiGridDataFillFinished
 ---@return gameuiGridDataFillFinished
 function gameuiGridDataFillFinished.new(fields) return end

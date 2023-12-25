@@ -5,6 +5,6 @@
 ---@field public script workIScriptedCondition
 workScriptedCondition = {}
 
----@param fields? table
+---@param fields? workScriptedCondition
 ---@return workScriptedCondition
 function workScriptedCondition.new(fields) return end

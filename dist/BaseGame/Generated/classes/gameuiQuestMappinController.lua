@@ -7,7 +7,7 @@
 ---@field public displayName inkTextWidgetReference
 gameuiQuestMappinController = {}
 
----@param fields? table
+---@param fields? gameuiQuestMappinController
 ---@return gameuiQuestMappinController
 function gameuiQuestMappinController.new(fields) return end
 

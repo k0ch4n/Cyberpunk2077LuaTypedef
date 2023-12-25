@@ -8,6 +8,6 @@
 ---@field public point4 Vector4
 Tetrahedron = {}
 
----@param fields? table
+---@param fields? Tetrahedron
 ---@return Tetrahedron
 function Tetrahedron.new(fields) return end

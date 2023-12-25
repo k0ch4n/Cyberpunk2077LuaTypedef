@@ -6,6 +6,6 @@
 ---@field public timePct Float
 gameScanningTooltipElementDef = {}
 
----@param fields? table
+---@param fields? gameScanningTooltipElementDef
 ---@return gameScanningTooltipElementDef
 function gameScanningTooltipElementDef.new(fields) return end

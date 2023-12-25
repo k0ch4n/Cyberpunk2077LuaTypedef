@@ -7,6 +7,6 @@
 ---@field public area Float
 AICombatSquadTacticRatio = {}
 
----@param fields? table
+---@param fields? AICombatSquadTacticRatio
 ---@return AICombatSquadTacticRatio
 function AICombatSquadTacticRatio.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class scnCheckSpeakerOrAddressDistractedInterruptCondition: scnIInterruptCondition
 scnCheckSpeakerOrAddressDistractedInterruptCondition = {}
 
----@param fields? table
+---@param fields? scnCheckSpeakerOrAddressDistractedInterruptCondition
 ---@return scnCheckSpeakerOrAddressDistractedInterruptCondition
 function scnCheckSpeakerOrAddressDistractedInterruptCondition.new(fields) return end

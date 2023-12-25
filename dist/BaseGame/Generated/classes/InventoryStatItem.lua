@@ -6,7 +6,7 @@
 ---@field private value inkTextWidget
 InventoryStatItem = {}
 
----@param fields? table
+---@param fields? InventoryStatItem
 ---@return InventoryStatItem
 function InventoryStatItem.new(fields) return end
 

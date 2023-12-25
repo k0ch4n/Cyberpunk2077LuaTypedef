@@ -8,7 +8,7 @@
 ---@field public ["lookAtData.m_yawRef"] Float
 gameFPPCameraComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? gameFPPCameraComponentReplicatedState
 ---@return gameFPPCameraComponentReplicatedState
 function gameFPPCameraComponentReplicatedState.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public ForcedTarget entEntityID
 QuestSpotTargetReference = {}
 
----@param fields? table
+---@param fields? QuestSpotTargetReference
 ---@return QuestSpotTargetReference
 function QuestSpotTargetReference.new(fields) return end
 

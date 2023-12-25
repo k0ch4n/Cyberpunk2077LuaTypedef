@@ -8,7 +8,7 @@
 ---@field public glitchMesh entMeshComponent
 HoloTable = {}
 
----@param fields? table
+---@param fields? HoloTable
 ---@return HoloTable
 function HoloTable.new(fields) return end
 

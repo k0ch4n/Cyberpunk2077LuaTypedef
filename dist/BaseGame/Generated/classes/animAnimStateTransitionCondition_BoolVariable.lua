@@ -6,6 +6,6 @@
 ---@field public compareValue Bool
 animAnimStateTransitionCondition_BoolVariable = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_BoolVariable
 ---@return animAnimStateTransitionCondition_BoolVariable
 function animAnimStateTransitionCondition_BoolVariable.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public calculateEarlyPositionGroundHeight Bool
 entragdollActivationRequestData = {}
 
----@param fields? table
+---@param fields? entragdollActivationRequestData
 ---@return entragdollActivationRequestData
 function entragdollActivationRequestData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public mountData AIArgumentMapping
 AIbehaviorUnmountImmediatelyNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorUnmountImmediatelyNodeDefinition
 ---@return AIbehaviorUnmountImmediatelyNodeDefinition
 function AIbehaviorUnmountImmediatelyNodeDefinition.new(fields) return end

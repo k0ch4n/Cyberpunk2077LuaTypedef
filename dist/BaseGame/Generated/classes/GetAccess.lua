@@ -4,7 +4,7 @@
 ---@class GetAccess: ActionBool
 GetAccess = {}
 
----@param fields? table
+---@param fields? GetAccess
 ---@return GetAccess
 function GetAccess.new(fields) return end
 

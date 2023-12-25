@@ -6,7 +6,7 @@
 ---@field public turnOnSirens AIArgumentMapping
 ManageSirensAndLightsInPoliceCar = {}
 
----@param fields? table
+---@param fields? ManageSirensAndLightsInPoliceCar
 ---@return ManageSirensAndLightsInPoliceCar
 function ManageSirensAndLightsInPoliceCar.new(fields) return end
 

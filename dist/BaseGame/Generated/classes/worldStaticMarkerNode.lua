@@ -7,6 +7,6 @@
 ---@field public data worldIMarker
 worldStaticMarkerNode = {}
 
----@param fields? table
+---@param fields? worldStaticMarkerNode
 ---@return worldStaticMarkerNode
 function worldStaticMarkerNode.new(fields) return end

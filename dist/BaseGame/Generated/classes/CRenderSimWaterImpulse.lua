@@ -6,7 +6,7 @@
 ---@field public simulationSpeed Float
 CRenderSimWaterImpulse = {}
 
----@param fields? table
+---@param fields? CRenderSimWaterImpulse
 ---@return CRenderSimWaterImpulse
 function CRenderSimWaterImpulse.new(fields) return end
 

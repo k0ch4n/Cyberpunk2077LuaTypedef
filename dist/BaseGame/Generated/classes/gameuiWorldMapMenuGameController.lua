@@ -83,7 +83,7 @@
 ---@field private startedFastTraveling Bool
 gameuiWorldMapMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapMenuGameController
 ---@return gameuiWorldMapMenuGameController
 function gameuiWorldMapMenuGameController.new(fields) return end
 

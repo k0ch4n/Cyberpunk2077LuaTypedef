@@ -8,7 +8,7 @@
 ---@field public Alpha Uint8
 Color = {}
 
----@param fields? table
+---@param fields? Color
 ---@return Color
 function Color.new(fields) return end
 

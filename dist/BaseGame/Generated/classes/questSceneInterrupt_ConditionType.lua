@@ -7,6 +7,6 @@
 ---@field public interruptConditions scnIInterruptCondition[]
 questSceneInterrupt_ConditionType = {}
 
----@param fields? table
+---@param fields? questSceneInterrupt_ConditionType
 ---@return questSceneInterrupt_ConditionType
 function questSceneInterrupt_ConditionType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class Wardrobe: InteractiveDevice
 Wardrobe = {}
 
----@param fields? table
+---@param fields? Wardrobe
 ---@return Wardrobe
 function Wardrobe.new(fields) return end
 

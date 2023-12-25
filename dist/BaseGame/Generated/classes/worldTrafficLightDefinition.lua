@@ -8,6 +8,6 @@
 ---@field public timeline worldTrafficLightStage[]
 worldTrafficLightDefinition = {}
 
----@param fields? table
+---@param fields? worldTrafficLightDefinition
 ---@return worldTrafficLightDefinition
 function worldTrafficLightDefinition.new(fields) return end

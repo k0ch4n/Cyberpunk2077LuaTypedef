@@ -4,6 +4,6 @@
 ---@class gameBlackboardUpdateProxy: gameIBlackboardUpdateProxy
 gameBlackboardUpdateProxy = {}
 
----@param fields? table
+---@param fields? gameBlackboardUpdateProxy
 ---@return gameBlackboardUpdateProxy
 function gameBlackboardUpdateProxy.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public rotationSpeedNode animFloatLink
 animAnimNode_DampQuaternion = {}
 
----@param fields? table
+---@param fields? animAnimNode_DampQuaternion
 ---@return animAnimNode_DampQuaternion
 function animAnimNode_DampQuaternion.new(fields) return end

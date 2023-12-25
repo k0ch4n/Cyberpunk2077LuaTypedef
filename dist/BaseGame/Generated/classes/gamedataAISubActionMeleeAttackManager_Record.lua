@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionMeleeAttackManager_Record: gamedataAISubAction_Record
 gamedataAISubActionMeleeAttackManager_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionMeleeAttackManager_Record
 ---@return gamedataAISubActionMeleeAttackManager_Record
 function gamedataAISubActionMeleeAttackManager_Record.new(fields) return end
 

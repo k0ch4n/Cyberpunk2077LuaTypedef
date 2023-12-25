@@ -4,6 +4,6 @@
 ---@class PrecisionRifleLookAtEvents: lookAtPresetGunBaseEvents
 PrecisionRifleLookAtEvents = {}
 
----@param fields? table
+---@param fields? PrecisionRifleLookAtEvents
 ---@return PrecisionRifleLookAtEvents
 function PrecisionRifleLookAtEvents.new(fields) return end

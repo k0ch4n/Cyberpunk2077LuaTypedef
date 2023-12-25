@@ -6,6 +6,6 @@
 ---@field public isDistanceDisconnect Bool
 vehicleRemoteControlDrivingUIData = {}
 
----@param fields? table
+---@param fields? vehicleRemoteControlDrivingUIData
 ---@return vehicleRemoteControlDrivingUIData
 function vehicleRemoteControlDrivingUIData.new(fields) return end

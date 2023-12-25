@@ -5,7 +5,7 @@
 ---@field public attackInstigatorPosition Vector4
 AIAlertedStateDelegate = {}
 
----@param fields? table
+---@param fields? AIAlertedStateDelegate
 ---@return AIAlertedStateDelegate
 function AIAlertedStateDelegate.new(fields) return end
 

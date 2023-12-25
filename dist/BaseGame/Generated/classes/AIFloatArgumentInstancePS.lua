@@ -5,6 +5,6 @@
 ---@field public value Float
 AIFloatArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AIFloatArgumentInstancePS
 ---@return AIFloatArgumentInstancePS
 function AIFloatArgumentInstancePS.new(fields) return end

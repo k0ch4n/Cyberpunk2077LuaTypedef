@@ -6,6 +6,6 @@
 ---@field public isPrimary Bool
 AIGuardAreaConnectedCommunity = {}
 
----@param fields? table
+---@param fields? AIGuardAreaConnectedCommunity
 ---@return AIGuardAreaConnectedCommunity
 function AIGuardAreaConnectedCommunity.new(fields) return end

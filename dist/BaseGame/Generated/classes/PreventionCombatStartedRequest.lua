@@ -6,6 +6,6 @@
 ---@field public requester gameObject
 PreventionCombatStartedRequest = {}
 
----@param fields? table
+---@param fields? PreventionCombatStartedRequest
 ---@return PreventionCombatStartedRequest
 function PreventionCombatStartedRequest.new(fields) return end

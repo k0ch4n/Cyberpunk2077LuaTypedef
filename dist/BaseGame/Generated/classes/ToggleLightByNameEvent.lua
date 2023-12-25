@@ -5,6 +5,6 @@
 ---@field public componentName CName
 ToggleLightByNameEvent = {}
 
----@param fields? table
+---@param fields? ToggleLightByNameEvent
 ---@return ToggleLightByNameEvent
 function ToggleLightByNameEvent.new(fields) return end

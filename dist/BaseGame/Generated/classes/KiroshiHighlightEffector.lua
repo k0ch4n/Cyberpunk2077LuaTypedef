@@ -15,7 +15,7 @@
 ---@field public isTechPreviewEnabled Bool
 KiroshiHighlightEffector = {}
 
----@param fields? table
+---@param fields? KiroshiHighlightEffector
 ---@return KiroshiHighlightEffector
 function KiroshiHighlightEffector.new(fields) return end
 

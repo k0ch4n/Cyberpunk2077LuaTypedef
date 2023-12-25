@@ -7,7 +7,7 @@
 ---@field private ZoneLabelText inkTextWidgetReference
 ZoneAlertNotification = {}
 
----@param fields? table
+---@param fields? ZoneAlertNotification
 ---@return ZoneAlertNotification
 function ZoneAlertNotification.new(fields) return end
 

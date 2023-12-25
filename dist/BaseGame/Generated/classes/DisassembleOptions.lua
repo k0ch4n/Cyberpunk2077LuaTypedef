@@ -5,6 +5,6 @@
 ---@field public canBeDisassembled Bool
 DisassembleOptions = {}
 
----@param fields? table
+---@param fields? DisassembleOptions
 ---@return DisassembleOptions
 function DisassembleOptions.new(fields) return end

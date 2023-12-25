@@ -12,6 +12,6 @@
 ---@field public id Uint64
 physicsMaterialResource = {}
 
----@param fields? table
+---@param fields? physicsMaterialResource
 ---@return physicsMaterialResource
 function physicsMaterialResource.new(fields) return end

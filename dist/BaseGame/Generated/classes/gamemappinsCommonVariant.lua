@@ -5,6 +5,6 @@
 ---@field public variant gamedataMappinVariant
 gamemappinsCommonVariant = {}
 
----@param fields? table
+---@param fields? gamemappinsCommonVariant
 ---@return gamemappinsCommonVariant
 function gamemappinsCommonVariant.new(fields) return end

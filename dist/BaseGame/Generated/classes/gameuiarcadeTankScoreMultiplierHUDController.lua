@@ -5,6 +5,6 @@
 ---@field public scoreMultiplierBarFill inkImageWidgetReference
 gameuiarcadeTankScoreMultiplierHUDController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankScoreMultiplierHUDController
 ---@return gameuiarcadeTankScoreMultiplierHUDController
 function gameuiarcadeTankScoreMultiplierHUDController.new(fields) return end

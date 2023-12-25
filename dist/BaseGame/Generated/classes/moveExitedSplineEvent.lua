@@ -4,6 +4,6 @@
 ---@class moveExitedSplineEvent: redEvent
 moveExitedSplineEvent = {}
 
----@param fields? table
+---@param fields? moveExitedSplineEvent
 ---@return moveExitedSplineEvent
 function moveExitedSplineEvent.new(fields) return end

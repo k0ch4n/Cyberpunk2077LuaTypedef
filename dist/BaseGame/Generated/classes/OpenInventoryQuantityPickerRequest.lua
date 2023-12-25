@@ -6,6 +6,6 @@
 ---@field public actionType QuantityPickerActionType
 OpenInventoryQuantityPickerRequest = {}
 
----@param fields? table
+---@param fields? OpenInventoryQuantityPickerRequest
 ---@return OpenInventoryQuantityPickerRequest
 function OpenInventoryQuantityPickerRequest.new(fields) return end

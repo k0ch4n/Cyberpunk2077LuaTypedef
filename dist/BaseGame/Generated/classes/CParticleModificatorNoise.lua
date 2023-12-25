@@ -11,6 +11,6 @@
 ---@field public noiseType ENoiseType
 CParticleModificatorNoise = {}
 
----@param fields? table
+---@param fields? CParticleModificatorNoise
 ---@return CParticleModificatorNoise
 function CParticleModificatorNoise.new(fields) return end

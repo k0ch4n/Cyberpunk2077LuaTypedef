@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemDismemberment: worldIRuntimeSystem
 worldRuntimeSystemDismemberment = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemDismemberment
 ---@return worldRuntimeSystemDismemberment
 function worldRuntimeSystemDismemberment.new(fields) return end

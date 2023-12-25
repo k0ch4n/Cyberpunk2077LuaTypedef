@@ -7,6 +7,6 @@
 ---@field public cameraID entEntityID
 FeedEvent = {}
 
----@param fields? table
+---@param fields? FeedEvent
 ---@return FeedEvent
 function FeedEvent.new(fields) return end

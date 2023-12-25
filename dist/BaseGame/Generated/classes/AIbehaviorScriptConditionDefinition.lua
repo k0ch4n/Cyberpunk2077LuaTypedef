@@ -6,6 +6,6 @@
 ---@field public disableLazyInitialization Bool
 AIbehaviorScriptConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptConditionDefinition
 ---@return AIbehaviorScriptConditionDefinition
 function AIbehaviorScriptConditionDefinition.new(fields) return end

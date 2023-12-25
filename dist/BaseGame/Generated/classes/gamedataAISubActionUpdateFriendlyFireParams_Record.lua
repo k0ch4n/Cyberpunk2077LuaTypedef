@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionUpdateFriendlyFireParams_Record: gamedataAISubAction_Record
 gamedataAISubActionUpdateFriendlyFireParams_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionUpdateFriendlyFireParams_Record
 ---@return gamedataAISubActionUpdateFriendlyFireParams_Record
 function gamedataAISubActionUpdateFriendlyFireParams_Record.new(fields) return end
 

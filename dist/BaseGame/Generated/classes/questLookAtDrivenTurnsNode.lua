@@ -8,6 +8,6 @@
 ---@field public canLookAtDrivenTurnsInterruptGesture Bool
 questLookAtDrivenTurnsNode = {}
 
----@param fields? table
+---@param fields? questLookAtDrivenTurnsNode
 ---@return questLookAtDrivenTurnsNode
 function questLookAtDrivenTurnsNode.new(fields) return end

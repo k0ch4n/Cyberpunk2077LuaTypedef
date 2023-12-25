@@ -6,6 +6,6 @@
 ---@field public kill Bool
 AnimFeature_ChestPress = {}
 
----@param fields? table
+---@param fields? AnimFeature_ChestPress
 ---@return AnimFeature_ChestPress
 function AnimFeature_ChestPress.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class workWorkspotFunctionalTestsDebuggingTool: workDebuggingTool
 workWorkspotFunctionalTestsDebuggingTool = {}
 
----@param fields? table
+---@param fields? workWorkspotFunctionalTestsDebuggingTool
 ---@return workWorkspotFunctionalTestsDebuggingTool
 function workWorkspotFunctionalTestsDebuggingTool.new(fields) return end

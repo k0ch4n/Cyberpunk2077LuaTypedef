@@ -4,7 +4,7 @@
 ---@class ExitingDecisions: VehicleTransition
 ExitingDecisions = {}
 
----@param fields? table
+---@param fields? ExitingDecisions
 ---@return ExitingDecisions
 function ExitingDecisions.new(fields) return end
 

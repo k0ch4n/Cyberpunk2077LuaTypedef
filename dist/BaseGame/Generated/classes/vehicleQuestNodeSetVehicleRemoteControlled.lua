@@ -7,6 +7,6 @@
 ---@field public shouldModifyInteractionState Bool
 vehicleQuestNodeSetVehicleRemoteControlled = {}
 
----@param fields? table
+---@param fields? vehicleQuestNodeSetVehicleRemoteControlled
 ---@return vehicleQuestNodeSetVehicleRemoteControlled
 function vehicleQuestNodeSetVehicleRemoteControlled.new(fields) return end

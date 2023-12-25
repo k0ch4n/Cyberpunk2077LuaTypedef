@@ -4,6 +4,6 @@
 ---@class questLogicalXorNodeDefinition: questLogicalBaseNodeDefinition
 questLogicalXorNodeDefinition = {}
 
----@param fields? table
+---@param fields? questLogicalXorNodeDefinition
 ---@return questLogicalXorNodeDefinition
 function questLogicalXorNodeDefinition.new(fields) return end

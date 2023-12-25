@@ -4,6 +4,6 @@
 ---@class worldPrefabNodeInstance: worldSnappableNodeInstance
 worldPrefabNodeInstance = {}
 
----@param fields? table
+---@param fields? worldPrefabNodeInstance
 ---@return worldPrefabNodeInstance
 function worldPrefabNodeInstance.new(fields) return end

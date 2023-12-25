@@ -5,6 +5,6 @@
 ---@field public secondsCounter Int32
 cpPlayerDetectorPS = {}
 
----@param fields? table
+---@param fields? cpPlayerDetectorPS
 ---@return cpPlayerDetectorPS
 function cpPlayerDetectorPS.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public potentialTargetSlots CName[]
 EffectExecutor_GrenadeTargetTracker = {}
 
----@param fields? table
+---@param fields? EffectExecutor_GrenadeTargetTracker
 ---@return EffectExecutor_GrenadeTargetTracker
 function EffectExecutor_GrenadeTargetTracker.new(fields) return end
 

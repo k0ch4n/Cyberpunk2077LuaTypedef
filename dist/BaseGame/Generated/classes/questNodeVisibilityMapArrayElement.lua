@@ -6,6 +6,6 @@
 ---@field public visible Bool
 questNodeVisibilityMapArrayElement = {}
 
----@param fields? table
+---@param fields? questNodeVisibilityMapArrayElement
 ---@return questNodeVisibilityMapArrayElement
 function questNodeVisibilityMapArrayElement.new(fields) return end

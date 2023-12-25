@@ -5,6 +5,6 @@
 ---@field public id CRUID
 scnVoicetagId = {}
 
----@param fields? table
+---@param fields? scnVoicetagId
 ---@return scnVoicetagId
 function scnVoicetagId.new(fields) return end

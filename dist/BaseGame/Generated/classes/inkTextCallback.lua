@@ -4,6 +4,6 @@
 ---@class inkTextCallback: inkCallbackBase
 inkTextCallback = {}
 
----@param fields? table
+---@param fields? inkTextCallback
 ---@return inkTextCallback
 function inkTextCallback.new(fields) return end

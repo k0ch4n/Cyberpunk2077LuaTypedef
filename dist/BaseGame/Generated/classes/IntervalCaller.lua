@@ -8,7 +8,7 @@
 ---@field private selfDelayID gameDelayID
 IntervalCaller = {}
 
----@param fields? table
+---@param fields? IntervalCaller
 ---@return IntervalCaller
 function IntervalCaller.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public provider Codeware_Localization_ModLocalizationProvider
 Codeware_Localization_RegisterProviderRequest = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_RegisterProviderRequest
 ---@return Codeware_Localization_RegisterProviderRequest
 function Codeware_Localization_RegisterProviderRequest.new(fields) return end
 

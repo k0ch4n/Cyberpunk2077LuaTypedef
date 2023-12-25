@@ -8,6 +8,6 @@
 ---@field public timeInterval Float
 questSetInspectMode_NodeType = {}
 
----@param fields? table
+---@param fields? questSetInspectMode_NodeType
 ---@return questSetInspectMode_NodeType
 function questSetInspectMode_NodeType.new(fields) return end

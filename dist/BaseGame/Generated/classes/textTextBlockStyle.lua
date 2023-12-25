@@ -9,6 +9,6 @@
 ---@field public fontSize Uint16
 textTextBlockStyle = {}
 
----@param fields? table
+---@param fields? textTextBlockStyle
 ---@return textTextBlockStyle
 function textTextBlockStyle.new(fields) return end

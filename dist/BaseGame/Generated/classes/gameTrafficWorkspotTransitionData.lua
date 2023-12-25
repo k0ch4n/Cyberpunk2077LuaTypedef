@@ -8,6 +8,6 @@
 ---@field public trafficLaneReturnTangent Vector3
 gameTrafficWorkspotTransitionData = {}
 
----@param fields? table
+---@param fields? gameTrafficWorkspotTransitionData
 ---@return gameTrafficWorkspotTransitionData
 function gameTrafficWorkspotTransitionData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class TrackedQuestPhaseUpdateRequest: redEvent
 TrackedQuestPhaseUpdateRequest = {}
 
----@param fields? table
+---@param fields? TrackedQuestPhaseUpdateRequest
 ---@return TrackedQuestPhaseUpdateRequest
 function TrackedQuestPhaseUpdateRequest.new(fields) return end

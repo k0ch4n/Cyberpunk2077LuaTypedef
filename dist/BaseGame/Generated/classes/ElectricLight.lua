@@ -6,7 +6,7 @@
 ---@field private lightDefinitions gamedataLightPreset[]
 ElectricLight = {}
 
----@param fields? table
+---@param fields? ElectricLight
 ---@return ElectricLight
 function ElectricLight.new(fields) return end
 

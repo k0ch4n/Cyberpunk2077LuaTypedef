@@ -6,6 +6,6 @@
 ---@field public whateverIE Float
 cpTestComponent = {}
 
----@param fields? table
+---@param fields? cpTestComponent
 ---@return cpTestComponent
 function cpTestComponent.new(fields) return end

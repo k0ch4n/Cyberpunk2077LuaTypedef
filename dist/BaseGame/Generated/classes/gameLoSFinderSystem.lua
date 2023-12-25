@@ -4,6 +4,6 @@
 ---@class gameLoSFinderSystem: gameLoSIFinderSystem
 gameLoSFinderSystem = {}
 
----@param fields? table
+---@param fields? gameLoSFinderSystem
 ---@return gameLoSFinderSystem
 function gameLoSFinderSystem.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public set Bool
 questCharacterManagerParameters_SetStatusEffect = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetStatusEffect
 ---@return questCharacterManagerParameters_SetStatusEffect
 function questCharacterManagerParameters_SetStatusEffect.new(fields) return end

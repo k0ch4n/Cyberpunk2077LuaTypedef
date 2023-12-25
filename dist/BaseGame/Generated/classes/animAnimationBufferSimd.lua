@@ -20,6 +20,6 @@
 ---@field public extraDataNames CName[]
 animAnimationBufferSimd = {}
 
----@param fields? table
+---@param fields? animAnimationBufferSimd
 ---@return animAnimationBufferSimd
 function animAnimationBufferSimd.new(fields) return end

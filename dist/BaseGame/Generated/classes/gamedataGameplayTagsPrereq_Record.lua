@@ -4,7 +4,7 @@
 ---@class gamedataGameplayTagsPrereq_Record: gamedataIPrereq_Record
 gamedataGameplayTagsPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataGameplayTagsPrereq_Record
 ---@return gamedataGameplayTagsPrereq_Record
 function gamedataGameplayTagsPrereq_Record.new(fields) return end
 

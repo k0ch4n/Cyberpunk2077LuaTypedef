@@ -6,7 +6,7 @@
 ---@field public multiplier Float
 SetVendorPriceMultiplierRequest = {}
 
----@param fields? table
+---@param fields? SetVendorPriceMultiplierRequest
 ---@return SetVendorPriceMultiplierRequest
 function SetVendorPriceMultiplierRequest.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameStackedItemData: gameItemData
 gameStackedItemData = {}
 
----@param fields? table
+---@param fields? gameStackedItemData
 ---@return gameStackedItemData
 function gameStackedItemData.new(fields) return end

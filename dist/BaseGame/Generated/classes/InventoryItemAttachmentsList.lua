@@ -8,7 +8,7 @@
 ---@field private data CName[]
 InventoryItemAttachmentsList = {}
 
----@param fields? table
+---@param fields? InventoryItemAttachmentsList
 ---@return InventoryItemAttachmentsList
 function InventoryItemAttachmentsList.new(fields) return end
 

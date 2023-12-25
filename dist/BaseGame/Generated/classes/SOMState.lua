@@ -10,6 +10,6 @@
 ---@field public stencilRef Uint8
 SOMState = {}
 
----@param fields? table
+---@param fields? SOMState
 ---@return SOMState
 function SOMState.new(fields) return end

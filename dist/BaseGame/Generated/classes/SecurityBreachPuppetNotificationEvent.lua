@@ -4,6 +4,6 @@
 ---@class SecurityBreachPuppetNotificationEvent: SecuritySystemInput
 SecurityBreachPuppetNotificationEvent = {}
 
----@param fields? table
+---@param fields? SecurityBreachPuppetNotificationEvent
 ---@return SecurityBreachPuppetNotificationEvent
 function SecurityBreachPuppetNotificationEvent.new(fields) return end

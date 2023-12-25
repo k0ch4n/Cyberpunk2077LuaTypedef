@@ -4,6 +4,6 @@
 ---@class RefreshSlavesState: redEvent
 RefreshSlavesState = {}
 
----@param fields? table
+---@param fields? RefreshSlavesState
 ---@return RefreshSlavesState
 function RefreshSlavesState.new(fields) return end

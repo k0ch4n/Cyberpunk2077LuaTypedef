@@ -7,7 +7,7 @@
 ---@field protected classifier QuestListVirtualTemplateClassifier
 SimpleMessengerContactsVirtualListController = {}
 
----@param fields? table
+---@param fields? SimpleMessengerContactsVirtualListController
 ---@return SimpleMessengerContactsVirtualListController
 function SimpleMessengerContactsVirtualListController.new(fields) return end
 

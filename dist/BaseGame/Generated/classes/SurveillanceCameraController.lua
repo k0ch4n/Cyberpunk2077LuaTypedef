@@ -4,7 +4,7 @@
 ---@class SurveillanceCameraController: SensorDeviceController
 SurveillanceCameraController = {}
 
----@param fields? table
+---@param fields? SurveillanceCameraController
 ---@return SurveillanceCameraController
 function SurveillanceCameraController.new(fields) return end
 

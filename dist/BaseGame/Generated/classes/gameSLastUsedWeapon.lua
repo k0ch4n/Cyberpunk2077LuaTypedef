@@ -8,6 +8,6 @@
 ---@field public lastUsedHeavy gameItemID
 gameSLastUsedWeapon = {}
 
----@param fields? table
+---@param fields? gameSLastUsedWeapon
 ---@return gameSLastUsedWeapon
 function gameSLastUsedWeapon.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public considerSourceAVehicleDriver Bool
 IsValidCombatTarget = {}
 
----@param fields? table
+---@param fields? IsValidCombatTarget
 ---@return IsValidCombatTarget
 function IsValidCombatTarget.new(fields) return end
 

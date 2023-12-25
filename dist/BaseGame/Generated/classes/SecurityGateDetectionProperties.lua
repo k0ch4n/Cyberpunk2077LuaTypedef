@@ -8,6 +8,6 @@
 ---@field public performCheckOnPlayerOnly Bool
 SecurityGateDetectionProperties = {}
 
----@param fields? table
+---@param fields? SecurityGateDetectionProperties
 ---@return SecurityGateDetectionProperties
 function SecurityGateDetectionProperties.new(fields) return end

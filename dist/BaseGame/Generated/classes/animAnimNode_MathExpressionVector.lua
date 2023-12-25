@@ -5,6 +5,6 @@
 ---@field public expressionData animMathExpressionNodeData
 animAnimNode_MathExpressionVector = {}
 
----@param fields? table
+---@param fields? animAnimNode_MathExpressionVector
 ---@return animAnimNode_MathExpressionVector
 function animAnimNode_MathExpressionVector.new(fields) return end

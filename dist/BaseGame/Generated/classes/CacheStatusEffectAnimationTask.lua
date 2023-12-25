@@ -4,7 +4,7 @@
 ---@class CacheStatusEffectAnimationTask: StatusEffectTasks
 CacheStatusEffectAnimationTask = {}
 
----@param fields? table
+---@param fields? CacheStatusEffectAnimationTask
 ---@return CacheStatusEffectAnimationTask
 function CacheStatusEffectAnimationTask.new(fields) return end
 

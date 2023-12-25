@@ -4,6 +4,6 @@
 ---@class PSInstantiateEvent: redEvent
 PSInstantiateEvent = {}
 
----@param fields? table
+---@param fields? PSInstantiateEvent
 ---@return PSInstantiateEvent
 function PSInstantiateEvent.new(fields) return end

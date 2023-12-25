@@ -6,6 +6,6 @@
 ---@field public nullAreaBlockadeData worldTrafficNullAreaDynamicBlockadeData
 worldTrafficNullAreaCollisionResource = {}
 
----@param fields? table
+---@param fields? worldTrafficNullAreaCollisionResource
 ---@return worldTrafficNullAreaCollisionResource
 function worldTrafficNullAreaCollisionResource.new(fields) return end

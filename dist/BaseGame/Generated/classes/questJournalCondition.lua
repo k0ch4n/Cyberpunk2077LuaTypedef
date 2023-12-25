@@ -5,6 +5,6 @@
 ---@field public type questIJournalConditionType
 questJournalCondition = {}
 
----@param fields? table
+---@param fields? questJournalCondition
 ---@return questJournalCondition
 function questJournalCondition.new(fields) return end

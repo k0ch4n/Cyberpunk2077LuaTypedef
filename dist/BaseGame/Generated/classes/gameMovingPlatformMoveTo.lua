@@ -8,6 +8,6 @@
 ---@field public isElevator Bool
 gameMovingPlatformMoveTo = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformMoveTo
 ---@return gameMovingPlatformMoveTo
 function gameMovingPlatformMoveTo.new(fields) return end

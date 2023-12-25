@@ -6,7 +6,7 @@
 ---@field private tollerance Float
 FilterTargetsByDistanceFromRoot = {}
 
----@param fields? table
+---@param fields? FilterTargetsByDistanceFromRoot
 ---@return FilterTargetsByDistanceFromRoot
 function FilterTargetsByDistanceFromRoot.new(fields) return end
 

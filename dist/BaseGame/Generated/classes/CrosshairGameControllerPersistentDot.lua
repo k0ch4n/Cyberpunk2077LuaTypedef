@@ -9,7 +9,7 @@
 ---@field private psmUpperBodyStateCallback redCallbackObject
 CrosshairGameControllerPersistentDot = {}
 
----@param fields? table
+---@param fields? CrosshairGameControllerPersistentDot
 ---@return CrosshairGameControllerPersistentDot
 function CrosshairGameControllerPersistentDot.new(fields) return end
 

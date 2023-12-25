@@ -4,6 +4,6 @@
 ---@class inkEditorLayer: inkFullScreenLayer
 inkEditorLayer = {}
 
----@param fields? table
+---@param fields? inkEditorLayer
 ---@return inkEditorLayer
 function inkEditorLayer.new(fields) return end

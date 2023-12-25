@@ -10,7 +10,7 @@
 ---@field protected active Bool
 DropdownElementController = {}
 
----@param fields? table
+---@param fields? DropdownElementController
 ---@return DropdownElementController
 function DropdownElementController.new(fields) return end
 

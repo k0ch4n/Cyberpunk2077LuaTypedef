@@ -5,6 +5,6 @@
 ---@field public crouch gameDelayID
 PlayerCombatControllerDelayCallbacksIds = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerDelayCallbacksIds
 ---@return PlayerCombatControllerDelayCallbacksIds
 function PlayerCombatControllerDelayCallbacksIds.new(fields) return end

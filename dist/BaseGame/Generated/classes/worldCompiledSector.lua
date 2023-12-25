@@ -4,6 +4,6 @@
 ---@class worldCompiledSector
 worldCompiledSector = {}
 
----@param fields? table
+---@param fields? worldCompiledSector
 ---@return worldCompiledSector
 function worldCompiledSector.new(fields) return end

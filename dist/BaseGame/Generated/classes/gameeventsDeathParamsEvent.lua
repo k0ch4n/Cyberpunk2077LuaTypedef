@@ -6,6 +6,6 @@
 ---@field public noRagdoll Bool
 gameeventsDeathParamsEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeathParamsEvent
 ---@return gameeventsDeathParamsEvent
 function gameeventsDeathParamsEvent.new(fields) return end

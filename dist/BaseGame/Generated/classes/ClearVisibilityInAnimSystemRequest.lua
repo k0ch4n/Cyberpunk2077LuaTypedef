@@ -5,6 +5,6 @@
 ---@field public entityID entEntityID
 ClearVisibilityInAnimSystemRequest = {}
 
----@param fields? table
+---@param fields? ClearVisibilityInAnimSystemRequest
 ---@return ClearVisibilityInAnimSystemRequest
 function ClearVisibilityInAnimSystemRequest.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public weatherStateValues Float[]
 worldWeatherAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldWeatherAreaNotifier
 ---@return worldWeatherAreaNotifier
 function worldWeatherAreaNotifier.new(fields) return end

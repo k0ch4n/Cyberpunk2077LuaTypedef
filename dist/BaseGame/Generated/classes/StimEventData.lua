@@ -6,6 +6,6 @@
 ---@field public stimType gamedataStimType
 StimEventData = {}
 
----@param fields? table
+---@param fields? StimEventData
 ---@return StimEventData
 function StimEventData.new(fields) return end

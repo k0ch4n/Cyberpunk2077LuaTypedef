@@ -6,7 +6,7 @@
 ---@field private linesWidget inkCanvasWidget
 artist_test_area_r = {}
 
----@param fields? table
+---@param fields? artist_test_area_r
 ---@return artist_test_area_r
 function artist_test_area_r.new(fields) return end
 

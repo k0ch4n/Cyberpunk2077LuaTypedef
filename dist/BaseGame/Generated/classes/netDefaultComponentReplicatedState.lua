@@ -4,6 +4,6 @@
 ---@class netDefaultComponentReplicatedState: netIComponentState
 netDefaultComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? netDefaultComponentReplicatedState
 ---@return netDefaultComponentReplicatedState
 function netDefaultComponentReplicatedState.new(fields) return end

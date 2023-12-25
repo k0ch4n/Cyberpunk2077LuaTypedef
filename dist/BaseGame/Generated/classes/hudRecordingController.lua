@@ -12,7 +12,7 @@
 ---@field private factListener Uint32
 hudRecordingController = {}
 
----@param fields? table
+---@param fields? hudRecordingController
 ---@return hudRecordingController
 function hudRecordingController.new(fields) return end
 

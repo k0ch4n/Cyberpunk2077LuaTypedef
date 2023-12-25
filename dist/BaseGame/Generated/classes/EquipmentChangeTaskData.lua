@@ -5,6 +5,6 @@
 ---@field public eqData SPaperdollEquipData
 EquipmentChangeTaskData = {}
 
----@param fields? table
+---@param fields? EquipmentChangeTaskData
 ---@return EquipmentChangeTaskData
 function EquipmentChangeTaskData.new(fields) return end

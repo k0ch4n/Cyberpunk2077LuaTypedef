@@ -10,6 +10,6 @@
 ---@field public idleControlCameraMs EulerAngles
 scnfppGenderSpecificParams = {}
 
----@param fields? table
+---@param fields? scnfppGenderSpecificParams
 ---@return scnfppGenderSpecificParams
 function scnfppGenderSpecificParams.new(fields) return end

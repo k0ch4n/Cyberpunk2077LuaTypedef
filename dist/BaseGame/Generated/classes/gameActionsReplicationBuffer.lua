@@ -4,6 +4,6 @@
 ---@class gameActionsReplicationBuffer
 gameActionsReplicationBuffer = {}
 
----@param fields? table
+---@param fields? gameActionsReplicationBuffer
 ---@return gameActionsReplicationBuffer
 function gameActionsReplicationBuffer.new(fields) return end

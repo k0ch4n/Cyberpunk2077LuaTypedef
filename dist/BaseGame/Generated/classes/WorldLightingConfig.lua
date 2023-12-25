@@ -5,6 +5,6 @@
 ---@field public lightAttenuationClamp Float
 WorldLightingConfig = {}
 
----@param fields? table
+---@param fields? WorldLightingConfig
 ---@return WorldLightingConfig
 function WorldLightingConfig.new(fields) return end

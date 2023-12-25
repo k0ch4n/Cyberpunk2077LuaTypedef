@@ -5,7 +5,7 @@
 ---@field public transitionOwner DefaultTransition
 DefaultTransitionStatListener = {}
 
----@param fields? table
+---@param fields? DefaultTransitionStatListener
 ---@return DefaultTransitionStatListener
 function DefaultTransitionStatListener.new(fields) return end
 

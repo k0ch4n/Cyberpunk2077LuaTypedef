@@ -5,7 +5,7 @@
 ---@field private phoneSystem PhoneSystem
 PhoneStatusEffectListener = {}
 
----@param fields? table
+---@param fields? PhoneStatusEffectListener
 ---@return PhoneStatusEffectListener
 function PhoneStatusEffectListener.new(fields) return end
 

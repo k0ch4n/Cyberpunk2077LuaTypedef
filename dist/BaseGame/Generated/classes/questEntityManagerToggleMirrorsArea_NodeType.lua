@@ -6,6 +6,6 @@
 ---@field public isInMirrorsArea Bool
 questEntityManagerToggleMirrorsArea_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerToggleMirrorsArea_NodeType
 ---@return questEntityManagerToggleMirrorsArea_NodeType
 function questEntityManagerToggleMirrorsArea_NodeType.new(fields) return end

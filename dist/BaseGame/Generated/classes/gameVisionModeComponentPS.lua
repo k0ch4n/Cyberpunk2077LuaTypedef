@@ -9,7 +9,7 @@
 ---@field private storedHighlightData FocusForcedHighlightPersistentData
 gameVisionModeComponentPS = {}
 
----@param fields? table
+---@param fields? gameVisionModeComponentPS
 ---@return gameVisionModeComponentPS
 function gameVisionModeComponentPS.new(fields) return end
 

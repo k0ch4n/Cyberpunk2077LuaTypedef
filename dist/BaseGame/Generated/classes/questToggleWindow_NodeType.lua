@@ -7,6 +7,6 @@
 ---@field public door vehicleEVehicleDoor
 questToggleWindow_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleWindow_NodeType
 ---@return questToggleWindow_NodeType
 function questToggleWindow_NodeType.new(fields) return end

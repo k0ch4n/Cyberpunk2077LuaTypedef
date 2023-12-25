@@ -6,6 +6,6 @@
 ---@field public state ExpansionStatus
 ExpansionPopupData = {}
 
----@param fields? table
+---@param fields? ExpansionPopupData
 ---@return ExpansionPopupData
 function ExpansionPopupData.new(fields) return end

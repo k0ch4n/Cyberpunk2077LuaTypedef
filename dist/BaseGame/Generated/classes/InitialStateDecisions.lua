@@ -4,7 +4,7 @@
 ---@class InitialStateDecisions: InputContextTransitionDecisions
 InitialStateDecisions = {}
 
----@param fields? table
+---@param fields? InitialStateDecisions
 ---@return InitialStateDecisions
 function InitialStateDecisions.new(fields) return end
 

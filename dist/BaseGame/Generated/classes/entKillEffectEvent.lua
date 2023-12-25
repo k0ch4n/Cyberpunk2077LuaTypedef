@@ -6,6 +6,6 @@
 ---@field public breakAllLoops Bool
 entKillEffectEvent = {}
 
----@param fields? table
+---@param fields? entKillEffectEvent
 ---@return entKillEffectEvent
 function entKillEffectEvent.new(fields) return end

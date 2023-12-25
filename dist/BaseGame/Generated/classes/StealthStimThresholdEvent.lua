@@ -6,6 +6,6 @@
 ---@field public timeThreshold Float
 StealthStimThresholdEvent = {}
 
----@param fields? table
+---@param fields? StealthStimThresholdEvent
 ---@return StealthStimThresholdEvent
 function StealthStimThresholdEvent.new(fields) return end

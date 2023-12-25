@@ -6,6 +6,6 @@
 ---@field public Quality gamedataQuality
 RipperdocShardData = {}
 
----@param fields? table
+---@param fields? RipperdocShardData
 ---@return RipperdocShardData
 function RipperdocShardData.new(fields) return end

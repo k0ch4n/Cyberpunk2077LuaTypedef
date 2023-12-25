@@ -19,7 +19,7 @@
 ---@field private animationProxy inkanimProxy
 stealthAlertGameController = {}
 
----@param fields? table
+---@param fields? stealthAlertGameController
 ---@return stealthAlertGameController
 function stealthAlertGameController.new(fields) return end
 

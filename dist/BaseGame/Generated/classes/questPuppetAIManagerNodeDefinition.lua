@@ -5,6 +5,6 @@
 ---@field public entries questPuppetAIManagerNodeDefinitionEntry[]
 questPuppetAIManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questPuppetAIManagerNodeDefinition
 ---@return questPuppetAIManagerNodeDefinition
 function questPuppetAIManagerNodeDefinition.new(fields) return end

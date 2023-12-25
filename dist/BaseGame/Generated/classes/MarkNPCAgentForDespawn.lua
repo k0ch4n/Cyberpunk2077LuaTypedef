@@ -4,7 +4,7 @@
 ---@class MarkNPCAgentForDespawn: AIbehaviortaskScript
 MarkNPCAgentForDespawn = {}
 
----@param fields? table
+---@param fields? MarkNPCAgentForDespawn
 ---@return MarkNPCAgentForDespawn
 function MarkNPCAgentForDespawn.new(fields) return end
 

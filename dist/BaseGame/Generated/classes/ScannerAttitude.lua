@@ -5,7 +5,7 @@
 ---@field private attitude EAIAttitude
 ScannerAttitude = {}
 
----@param fields? table
+---@param fields? ScannerAttitude
 ---@return ScannerAttitude
 function ScannerAttitude.new(fields) return end
 

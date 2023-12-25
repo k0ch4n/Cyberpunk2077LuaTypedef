@@ -7,6 +7,6 @@
 ---@field public displayName String
 toolsJiraPerson = {}
 
----@param fields? table
+---@param fields? toolsJiraPerson
 ---@return toolsJiraPerson
 function toolsJiraPerson.new(fields) return end

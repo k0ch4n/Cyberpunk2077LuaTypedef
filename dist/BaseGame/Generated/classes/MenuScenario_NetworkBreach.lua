@@ -4,7 +4,7 @@
 ---@class MenuScenario_NetworkBreach: MenuScenario_BaseMenu
 MenuScenario_NetworkBreach = {}
 
----@param fields? table
+---@param fields? MenuScenario_NetworkBreach
 ---@return MenuScenario_NetworkBreach
 function MenuScenario_NetworkBreach.new(fields) return end
 

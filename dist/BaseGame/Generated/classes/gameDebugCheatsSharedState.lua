@@ -7,6 +7,6 @@
 ---@field public debugTimeDilationPlayerIndex Uint32
 gameDebugCheatsSharedState = {}
 
----@param fields? table
+---@param fields? gameDebugCheatsSharedState
 ---@return gameDebugCheatsSharedState
 function gameDebugCheatsSharedState.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public mountData gameMountEventData
 gamemountingMountingRequest = {}
 
----@param fields? table
+---@param fields? gamemountingMountingRequest
 ---@return gamemountingMountingRequest
 function gamemountingMountingRequest.new(fields) return end

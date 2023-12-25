@@ -4,7 +4,7 @@
 ---@class questBluelineObject: IScriptable
 questBluelineObject = {}
 
----@param fields? table
+---@param fields? questBluelineObject
 ---@return questBluelineObject
 function questBluelineObject.new(fields) return end
 

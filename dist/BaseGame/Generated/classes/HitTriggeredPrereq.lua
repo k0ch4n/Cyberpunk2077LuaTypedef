@@ -4,6 +4,6 @@
 ---@class HitTriggeredPrereq: GenericHitPrereq
 HitTriggeredPrereq = {}
 
----@param fields? table
+---@param fields? HitTriggeredPrereq
 ---@return HitTriggeredPrereq
 function HitTriggeredPrereq.new(fields) return end

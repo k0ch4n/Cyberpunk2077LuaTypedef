@@ -15,6 +15,6 @@
 ---@field public hasEnoughQuantity Bool
 IngredientData = {}
 
----@param fields? table
+---@param fields? IngredientData
 ---@return IngredientData
 function IngredientData.new(fields) return end

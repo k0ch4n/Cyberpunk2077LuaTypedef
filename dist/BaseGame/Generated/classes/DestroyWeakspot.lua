@@ -7,7 +7,7 @@
 ---@field public weakspotArray gameWeakspotObject[]
 DestroyWeakspot = {}
 
----@param fields? table
+---@param fields? DestroyWeakspot
 ---@return DestroyWeakspot
 function DestroyWeakspot.new(fields) return end
 

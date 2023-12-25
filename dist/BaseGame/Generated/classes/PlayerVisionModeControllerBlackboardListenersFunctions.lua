@@ -13,6 +13,6 @@
 ---@field public isBriefingActive CName
 PlayerVisionModeControllerBlackboardListenersFunctions = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerBlackboardListenersFunctions
 ---@return PlayerVisionModeControllerBlackboardListenersFunctions
 function PlayerVisionModeControllerBlackboardListenersFunctions.new(fields) return end

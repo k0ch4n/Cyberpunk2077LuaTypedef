@@ -5,6 +5,6 @@
 ---@field public direction GlobalLightingTrajectoryOverride
 LightDirectionSettings = {}
 
----@param fields? table
+---@param fields? LightDirectionSettings
 ---@return LightDirectionSettings
 function LightDirectionSettings.new(fields) return end

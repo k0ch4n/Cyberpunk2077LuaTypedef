@@ -6,7 +6,7 @@
 ---@field public journalEntry gameJournalOnscreen
 QuestShardLinkController = {}
 
----@param fields? table
+---@param fields? QuestShardLinkController
 ---@return QuestShardLinkController
 function QuestShardLinkController.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public currentState gamebbScriptID_String
 UI_MapDef = {}
 
----@param fields? table
+---@param fields? UI_MapDef
 ---@return UI_MapDef
 function UI_MapDef.new(fields) return end
 

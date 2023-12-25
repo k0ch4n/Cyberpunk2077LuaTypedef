@@ -6,6 +6,6 @@
 ---@field public objectiveState gameJournalEntryState
 SetGameplayObjectiveStateRequest = {}
 
----@param fields? table
+---@param fields? SetGameplayObjectiveStateRequest
 ---@return SetGameplayObjectiveStateRequest
 function SetGameplayObjectiveStateRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemAudio: worldIRuntimeSystem
 worldRuntimeSystemAudio = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemAudio
 ---@return worldRuntimeSystemAudio
 function worldRuntimeSystemAudio.new(fields) return end

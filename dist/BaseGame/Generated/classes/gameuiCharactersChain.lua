@@ -9,6 +9,6 @@
 ---@field public isPossible Bool
 gameuiCharactersChain = {}
 
----@param fields? table
+---@param fields? gameuiCharactersChain
 ---@return gameuiCharactersChain
 function gameuiCharactersChain.new(fields) return end

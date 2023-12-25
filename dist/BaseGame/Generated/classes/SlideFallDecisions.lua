@@ -4,7 +4,7 @@
 ---@class SlideFallDecisions: LocomotionAirDecisions
 SlideFallDecisions = {}
 
----@param fields? table
+---@param fields? SlideFallDecisions
 ---@return SlideFallDecisions
 function SlideFallDecisions.new(fields) return end
 

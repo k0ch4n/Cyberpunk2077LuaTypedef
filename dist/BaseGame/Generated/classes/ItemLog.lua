@@ -15,7 +15,7 @@
 ---@field private AnimOptions inkanimPlaybackOptions
 ItemLog = {}
 
----@param fields? table
+---@param fields? ItemLog
 ---@return ItemLog
 function ItemLog.new(fields) return end
 

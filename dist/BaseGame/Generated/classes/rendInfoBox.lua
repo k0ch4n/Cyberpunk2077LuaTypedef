@@ -4,7 +4,7 @@
 ---@class rendInfoBox: IScriptable
 rendInfoBox = {}
 
----@param fields? table
+---@param fields? rendInfoBox
 ---@return rendInfoBox
 function rendInfoBox.new(fields) return end
 

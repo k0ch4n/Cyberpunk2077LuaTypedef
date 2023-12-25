@@ -13,7 +13,7 @@
 ---@field private pendingRequests Int32
 buffListGameController = {}
 
----@param fields? table
+---@param fields? buffListGameController
 ---@return buffListGameController
 function buffListGameController.new(fields) return end
 

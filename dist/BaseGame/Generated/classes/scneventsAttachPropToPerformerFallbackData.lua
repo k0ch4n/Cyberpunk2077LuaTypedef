@@ -9,6 +9,6 @@
 ---@field public fallbackAnimTime Float
 scneventsAttachPropToPerformerFallbackData = {}
 
----@param fields? table
+---@param fields? scneventsAttachPropToPerformerFallbackData
 ---@return scneventsAttachPropToPerformerFallbackData
 function scneventsAttachPropToPerformerFallbackData.new(fields) return end

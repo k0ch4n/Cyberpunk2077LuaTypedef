@@ -6,6 +6,6 @@
 ---@field public instruction HUDInstruction
 HUDJob = {}
 
----@param fields? table
+---@param fields? HUDJob
 ---@return HUDJob
 function HUDJob.new(fields) return end

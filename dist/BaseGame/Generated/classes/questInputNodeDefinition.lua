@@ -4,6 +4,6 @@
 ---@class questInputNodeDefinition: questIONodeDefinition
 questInputNodeDefinition = {}
 
----@param fields? table
+---@param fields? questInputNodeDefinition
 ---@return questInputNodeDefinition
 function questInputNodeDefinition.new(fields) return end

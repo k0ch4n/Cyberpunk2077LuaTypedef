@@ -7,7 +7,7 @@
 ---@field private listeners questObjectInspectListener[]
 InspectableObjectComponentPS = {}
 
----@param fields? table
+---@param fields? InspectableObjectComponentPS
 ---@return InspectableObjectComponentPS
 function InspectableObjectComponentPS.new(fields) return end
 

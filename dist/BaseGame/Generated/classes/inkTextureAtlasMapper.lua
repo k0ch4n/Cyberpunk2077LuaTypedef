@@ -7,6 +7,6 @@
 ---@field public clippingRectInUVCoords RectF
 inkTextureAtlasMapper = {}
 
----@param fields? table
+---@param fields? inkTextureAtlasMapper
 ---@return inkTextureAtlasMapper
 function inkTextureAtlasMapper.new(fields) return end

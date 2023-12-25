@@ -24,6 +24,6 @@
 ---@field public polygon Vector2[]
 worldTrafficLanePersistent = {}
 
----@param fields? table
+---@param fields? worldTrafficLanePersistent
 ---@return worldTrafficLanePersistent
 function worldTrafficLanePersistent.new(fields) return end

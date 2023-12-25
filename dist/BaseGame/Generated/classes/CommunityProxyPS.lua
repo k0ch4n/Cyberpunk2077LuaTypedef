@@ -4,7 +4,7 @@
 ---@class CommunityProxyPS: MasterControllerPS
 CommunityProxyPS = {}
 
----@param fields? table
+---@param fields? CommunityProxyPS
 ---@return CommunityProxyPS
 function CommunityProxyPS.new(fields) return end
 

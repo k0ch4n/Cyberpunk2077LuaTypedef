@@ -4,6 +4,6 @@
 ---@class redTOMLBaseValue: ISerializable
 redTOMLBaseValue = {}
 
----@param fields? table
+---@param fields? redTOMLBaseValue
 ---@return redTOMLBaseValue
 function redTOMLBaseValue.new(fields) return end

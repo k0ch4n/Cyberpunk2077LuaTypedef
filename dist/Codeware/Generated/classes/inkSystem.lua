@@ -5,7 +5,7 @@
 ---@field public clipboard String
 inkSystem = {}
 
----@param fields? table
+---@param fields? inkSystem
 ---@return inkSystem
 function inkSystem.new(fields) return end
 

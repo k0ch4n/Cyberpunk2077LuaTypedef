@@ -6,6 +6,6 @@
 ---@field public parentId Uint64
 questdbgCallstackBlock = {}
 
----@param fields? table
+---@param fields? questdbgCallstackBlock
 ---@return questdbgCallstackBlock
 function questdbgCallstackBlock.new(fields) return end

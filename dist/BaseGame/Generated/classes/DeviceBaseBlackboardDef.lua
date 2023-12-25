@@ -11,7 +11,7 @@
 ---@field public IsInvestigated gamebbScriptID_Bool
 DeviceBaseBlackboardDef = {}
 
----@param fields? table
+---@param fields? DeviceBaseBlackboardDef
 ---@return DeviceBaseBlackboardDef
 function DeviceBaseBlackboardDef.new(fields) return end
 

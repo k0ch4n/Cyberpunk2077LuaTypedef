@@ -5,6 +5,6 @@
 ---@field public subCharType gamedataSubCharacter
 RemoveSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? RemoveSubCharacterRequest
 ---@return RemoveSubCharacterRequest
 function RemoveSubCharacterRequest.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class VehiclesManagerDataView: inkScriptableDataViewWrapper
 VehiclesManagerDataView = {}
 
----@param fields? table
+---@param fields? VehiclesManagerDataView
 ---@return VehiclesManagerDataView
 function VehiclesManagerDataView.new(fields) return end
 

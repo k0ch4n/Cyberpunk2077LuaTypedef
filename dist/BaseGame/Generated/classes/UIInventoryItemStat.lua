@@ -9,7 +9,7 @@
 ---@field private propertiesFetched Bool
 UIInventoryItemStat = {}
 
----@param fields? table
+---@param fields? UIInventoryItemStat
 ---@return UIInventoryItemStat
 function UIInventoryItemStat.new(fields) return end
 

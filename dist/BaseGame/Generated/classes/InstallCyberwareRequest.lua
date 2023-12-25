@@ -4,6 +4,6 @@
 ---@class InstallCyberwareRequest: gameEquipRequest
 InstallCyberwareRequest = {}
 
----@param fields? table
+---@param fields? InstallCyberwareRequest
 ---@return InstallCyberwareRequest
 function InstallCyberwareRequest.new(fields) return end

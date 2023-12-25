@@ -4,7 +4,7 @@
 ---@class gamedataAimAssistConfigPreset_Record: gamedataTweakDBRecord
 gamedataAimAssistConfigPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataAimAssistConfigPreset_Record
 ---@return gamedataAimAssistConfigPreset_Record
 function gamedataAimAssistConfigPreset_Record.new(fields) return end
 

@@ -13,7 +13,7 @@
 ---@field private vignette inkWidget
 megatronModeInfoController = {}
 
----@param fields? table
+---@param fields? megatronModeInfoController
 ---@return megatronModeInfoController
 function megatronModeInfoController.new(fields) return end
 

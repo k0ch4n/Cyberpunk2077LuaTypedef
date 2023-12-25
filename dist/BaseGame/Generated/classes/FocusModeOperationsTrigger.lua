@@ -5,7 +5,7 @@
 ---@field public triggerData FocusModeOperationTriggerData
 FocusModeOperationsTrigger = {}
 
----@param fields? table
+---@param fields? FocusModeOperationsTrigger
 ---@return FocusModeOperationsTrigger
 function FocusModeOperationsTrigger.new(fields) return end
 

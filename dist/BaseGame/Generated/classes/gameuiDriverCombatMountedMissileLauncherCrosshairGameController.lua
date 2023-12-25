@@ -8,7 +8,7 @@
 ---@field private currentTarget entIPlacedComponent
 gameuiDriverCombatMountedMissileLauncherCrosshairGameController = {}
 
----@param fields? table
+---@param fields? gameuiDriverCombatMountedMissileLauncherCrosshairGameController
 ---@return gameuiDriverCombatMountedMissileLauncherCrosshairGameController
 function gameuiDriverCombatMountedMissileLauncherCrosshairGameController.new(fields) return end
 

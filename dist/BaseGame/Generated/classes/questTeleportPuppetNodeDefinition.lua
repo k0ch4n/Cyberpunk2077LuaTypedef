@@ -8,6 +8,6 @@
 ---@field public playerLookAt questPlayerLookAtParams
 questTeleportPuppetNodeDefinition = {}
 
----@param fields? table
+---@param fields? questTeleportPuppetNodeDefinition
 ---@return questTeleportPuppetNodeDefinition
 function questTeleportPuppetNodeDefinition.new(fields) return end

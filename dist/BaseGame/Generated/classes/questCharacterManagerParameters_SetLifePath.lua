@@ -5,6 +5,6 @@
 ---@field public lifePathID TweakDBID
 questCharacterManagerParameters_SetLifePath = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetLifePath
 ---@return questCharacterManagerParameters_SetLifePath
 function questCharacterManagerParameters_SetLifePath.new(fields) return end

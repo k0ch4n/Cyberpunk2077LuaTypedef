@@ -4,7 +4,7 @@
 ---@class QuestForceStopReplacingStream: ActionBool
 QuestForceStopReplacingStream = {}
 
----@param fields? table
+---@param fields? QuestForceStopReplacingStream
 ---@return QuestForceStopReplacingStream
 function QuestForceStopReplacingStream.new(fields) return end
 

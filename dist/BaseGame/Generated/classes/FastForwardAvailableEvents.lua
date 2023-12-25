@@ -6,7 +6,7 @@
 ---@field public delay Float
 FastForwardAvailableEvents = {}
 
----@param fields? table
+---@param fields? FastForwardAvailableEvents
 ---@return FastForwardAvailableEvents
 function FastForwardAvailableEvents.new(fields) return end
 

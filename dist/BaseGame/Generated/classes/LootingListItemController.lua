@@ -17,7 +17,7 @@
 ---@field protected lootingData MinimalLootingListItemData
 LootingListItemController = {}
 
----@param fields? table
+---@param fields? LootingListItemController
 ---@return LootingListItemController
 function LootingListItemController.new(fields) return end
 

@@ -12,7 +12,7 @@
 ---@field public instigator String
 ApplyStatusEffectEffector = {}
 
----@param fields? table
+---@param fields? ApplyStatusEffectEffector
 ---@return ApplyStatusEffectEffector
 function ApplyStatusEffectEffector.new(fields) return end
 

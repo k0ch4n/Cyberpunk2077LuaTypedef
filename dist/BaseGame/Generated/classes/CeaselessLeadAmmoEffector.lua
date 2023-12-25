@@ -5,7 +5,7 @@
 ---@field public percentToRefund Float
 CeaselessLeadAmmoEffector = {}
 
----@param fields? table
+---@param fields? CeaselessLeadAmmoEffector
 ---@return CeaselessLeadAmmoEffector
 function CeaselessLeadAmmoEffector.new(fields) return end
 

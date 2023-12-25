@@ -7,6 +7,6 @@
 ---@field public lookAtParams scneventsPlayerLookAtEventParams
 scneventsPlayerLookAtEvent = {}
 
----@param fields? table
+---@param fields? scneventsPlayerLookAtEvent
 ---@return scneventsPlayerLookAtEvent
 function scneventsPlayerLookAtEvent.new(fields) return end

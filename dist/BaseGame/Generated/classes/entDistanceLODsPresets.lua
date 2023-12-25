@@ -5,6 +5,6 @@
 ---@field public definitions entLODDefinition
 entDistanceLODsPresets = {}
 
----@param fields? table
+---@param fields? entDistanceLODsPresets
 ---@return entDistanceLODsPresets
 function entDistanceLODsPresets.new(fields) return end

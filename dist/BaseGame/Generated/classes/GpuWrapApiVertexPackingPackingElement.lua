@@ -9,6 +9,6 @@
 ---@field public streamType GpuWrapApiVertexPackingEStreamType
 GpuWrapApiVertexPackingPackingElement = {}
 
----@param fields? table
+---@param fields? GpuWrapApiVertexPackingPackingElement
 ---@return GpuWrapApiVertexPackingPackingElement
 function GpuWrapApiVertexPackingPackingElement.new(fields) return end

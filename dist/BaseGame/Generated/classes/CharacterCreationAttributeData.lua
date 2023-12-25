@@ -13,7 +13,7 @@
 ---@field public atMinimum Bool
 CharacterCreationAttributeData = {}
 
----@param fields? table
+---@param fields? CharacterCreationAttributeData
 ---@return CharacterCreationAttributeData
 function CharacterCreationAttributeData.new(fields) return end
 

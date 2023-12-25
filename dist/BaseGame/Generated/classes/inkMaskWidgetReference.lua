@@ -4,7 +4,7 @@
 ---@class inkMaskWidgetReference: inkLeafWidgetReference
 inkMaskWidgetReference = {}
 
----@param fields? table
+---@param fields? inkMaskWidgetReference
 ---@return inkMaskWidgetReference
 function inkMaskWidgetReference.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class inkScrollAreaWidget: inkCompoundWidget
 inkScrollAreaWidget = {}
 
----@param fields? table
+---@param fields? inkScrollAreaWidget
 ---@return inkScrollAreaWidget
 function inkScrollAreaWidget.new(fields) return end
 

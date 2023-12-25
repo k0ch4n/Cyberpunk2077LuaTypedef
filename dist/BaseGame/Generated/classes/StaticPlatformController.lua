@@ -4,7 +4,7 @@
 ---@class StaticPlatformController: ScriptableDeviceComponent
 StaticPlatformController = {}
 
----@param fields? table
+---@param fields? StaticPlatformController
 ---@return StaticPlatformController
 function StaticPlatformController.new(fields) return end
 

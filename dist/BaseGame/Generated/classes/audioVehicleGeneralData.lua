@@ -45,6 +45,6 @@
 ---@field public vehicleTemperatureSettings audioVehicleTemperatureSettings
 audioVehicleGeneralData = {}
 
----@param fields? table
+---@param fields? audioVehicleGeneralData
 ---@return audioVehicleGeneralData
 function audioVehicleGeneralData.new(fields) return end

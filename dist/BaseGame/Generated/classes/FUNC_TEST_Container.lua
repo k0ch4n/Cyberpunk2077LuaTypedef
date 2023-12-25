@@ -8,6 +8,6 @@
 ---@field public Widget inkWidgetReference
 FUNC_TEST_Container = {}
 
----@param fields? table
+---@param fields? FUNC_TEST_Container
 ---@return FUNC_TEST_Container
 function FUNC_TEST_Container.new(fields) return end

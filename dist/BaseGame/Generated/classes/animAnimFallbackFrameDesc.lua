@@ -7,6 +7,6 @@
 ---@field public mFloatTracks Uint16
 animAnimFallbackFrameDesc = {}
 
----@param fields? table
+---@param fields? animAnimFallbackFrameDesc
 ---@return animAnimFallbackFrameDesc
 function animAnimFallbackFrameDesc.new(fields) return end

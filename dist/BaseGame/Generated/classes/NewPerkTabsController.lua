@@ -19,7 +19,7 @@
 ---@field private isEspionageUnlocked Bool
 NewPerkTabsController = {}
 
----@param fields? table
+---@param fields? NewPerkTabsController
 ---@return NewPerkTabsController
 function NewPerkTabsController.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public index Int32
 characterCreationBodyMorphImageThumbnail = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphImageThumbnail
 ---@return characterCreationBodyMorphImageThumbnail
 function characterCreationBodyMorphImageThumbnail.new(fields) return end
 

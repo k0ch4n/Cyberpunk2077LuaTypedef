@@ -8,7 +8,7 @@
 ---@field public instigator gameObject
 StatusEffectTriggerListener = {}
 
----@param fields? table
+---@param fields? StatusEffectTriggerListener
 ---@return StatusEffectTriggerListener
 function StatusEffectTriggerListener.new(fields) return end
 

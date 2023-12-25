@@ -5,6 +5,6 @@
 ---@field public data Quaternion
 animAnimNodeSourceChannel_StaticQuat = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_StaticQuat
 ---@return animAnimNodeSourceChannel_StaticQuat
 function animAnimNodeSourceChannel_StaticQuat.new(fields) return end

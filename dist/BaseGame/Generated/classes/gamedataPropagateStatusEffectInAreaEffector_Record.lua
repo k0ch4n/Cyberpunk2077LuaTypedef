@@ -4,7 +4,7 @@
 ---@class gamedataPropagateStatusEffectInAreaEffector_Record: gamedataEffector_Record
 gamedataPropagateStatusEffectInAreaEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataPropagateStatusEffectInAreaEffector_Record
 ---@return gamedataPropagateStatusEffectInAreaEffector_Record
 function gamedataPropagateStatusEffectInAreaEffector_Record.new(fields) return end
 

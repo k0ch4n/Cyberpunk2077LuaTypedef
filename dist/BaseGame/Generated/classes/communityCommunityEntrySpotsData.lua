@@ -6,6 +6,6 @@
 ---@field public entryName CName
 communityCommunityEntrySpotsData = {}
 
----@param fields? table
+---@param fields? communityCommunityEntrySpotsData
 ---@return communityCommunityEntrySpotsData
 function communityCommunityEntrySpotsData.new(fields) return end

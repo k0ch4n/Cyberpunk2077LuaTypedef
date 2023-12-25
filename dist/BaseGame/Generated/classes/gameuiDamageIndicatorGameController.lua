@@ -5,7 +5,7 @@
 ---@field public maxVisibleParts Uint8
 gameuiDamageIndicatorGameController = {}
 
----@param fields? table
+---@param fields? gameuiDamageIndicatorGameController
 ---@return gameuiDamageIndicatorGameController
 function gameuiDamageIndicatorGameController.new(fields) return end
 

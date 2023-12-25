@@ -4,7 +4,7 @@
 ---@class FilterStimTargets: gameEffectObjectSingleFilter_Scripted
 FilterStimTargets = {}
 
----@param fields? table
+---@param fields? FilterStimTargets
 ---@return FilterStimTargets
 function FilterStimTargets.new(fields) return end
 

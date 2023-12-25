@@ -4,7 +4,7 @@
 ---@class ExitLightController: ScriptableDeviceComponent
 ExitLightController = {}
 
----@param fields? table
+---@param fields? ExitLightController
 ---@return ExitLightController
 function ExitLightController.new(fields) return end
 

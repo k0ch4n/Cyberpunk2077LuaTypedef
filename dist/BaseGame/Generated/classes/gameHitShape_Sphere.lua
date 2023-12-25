@@ -5,6 +5,6 @@
 ---@field public radius Float
 gameHitShape_Sphere = {}
 
----@param fields? table
+---@param fields? gameHitShape_Sphere
 ---@return gameHitShape_Sphere
 function gameHitShape_Sphere.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public arrowWidgetName CName
 gameuiInteractionMappinController = {}
 
----@param fields? table
+---@param fields? gameuiInteractionMappinController
 ---@return gameuiInteractionMappinController
 function gameuiInteractionMappinController.new(fields) return end

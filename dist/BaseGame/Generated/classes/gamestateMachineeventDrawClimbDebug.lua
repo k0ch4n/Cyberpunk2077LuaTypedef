@@ -4,6 +4,6 @@
 ---@class gamestateMachineeventDrawClimbDebug: redEvent
 gamestateMachineeventDrawClimbDebug = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventDrawClimbDebug
 ---@return gamestateMachineeventDrawClimbDebug
 function gamestateMachineeventDrawClimbDebug.new(fields) return end

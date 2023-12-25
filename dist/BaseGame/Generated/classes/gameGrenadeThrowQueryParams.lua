@@ -14,6 +14,6 @@
 ---@field public maxTargetAngleDegrees Float
 gameGrenadeThrowQueryParams = {}
 
----@param fields? table
+---@param fields? gameGrenadeThrowQueryParams
 ---@return gameGrenadeThrowQueryParams
 function gameGrenadeThrowQueryParams.new(fields) return end

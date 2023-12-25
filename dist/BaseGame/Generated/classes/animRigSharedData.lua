@@ -6,6 +6,6 @@
 ---@field public ikSetups animIRigIkSetup[]
 animRigSharedData = {}
 
----@param fields? table
+---@param fields? animRigSharedData
 ---@return animRigSharedData
 function animRigSharedData.new(fields) return end

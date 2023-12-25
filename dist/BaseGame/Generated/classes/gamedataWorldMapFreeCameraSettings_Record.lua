@@ -4,7 +4,7 @@
 ---@class gamedataWorldMapFreeCameraSettings_Record: gamedataTweakDBRecord
 gamedataWorldMapFreeCameraSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataWorldMapFreeCameraSettings_Record
 ---@return gamedataWorldMapFreeCameraSettings_Record
 function gamedataWorldMapFreeCameraSettings_Record.new(fields) return end
 

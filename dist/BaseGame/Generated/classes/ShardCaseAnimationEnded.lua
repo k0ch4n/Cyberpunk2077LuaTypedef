@@ -7,6 +7,6 @@
 ---@field public read Bool
 ShardCaseAnimationEnded = {}
 
----@param fields? table
+---@param fields? ShardCaseAnimationEnded
 ---@return ShardCaseAnimationEnded
 function ShardCaseAnimationEnded.new(fields) return end

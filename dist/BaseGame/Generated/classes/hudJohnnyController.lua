@@ -9,7 +9,7 @@
 ---@field private gameInstance ScriptGameInstance
 hudJohnnyController = {}
 
----@param fields? table
+---@param fields? hudJohnnyController
 ---@return hudJohnnyController
 function hudJohnnyController.new(fields) return end
 

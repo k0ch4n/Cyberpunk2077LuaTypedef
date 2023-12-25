@@ -7,7 +7,7 @@
 ---@field public gameInstance ScriptGameInstance
 RipperdocTokenManager = {}
 
----@param fields? table
+---@param fields? RipperdocTokenManager
 ---@return RipperdocTokenManager
 function RipperdocTokenManager.new(fields) return end
 

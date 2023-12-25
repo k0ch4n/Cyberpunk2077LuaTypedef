@@ -4,7 +4,7 @@
 ---@class MeleeCrouchAttackDecisions: MeleeAttackGenericDecisions
 MeleeCrouchAttackDecisions = {}
 
----@param fields? table
+---@param fields? MeleeCrouchAttackDecisions
 ---@return MeleeCrouchAttackDecisions
 function MeleeCrouchAttackDecisions.new(fields) return end
 

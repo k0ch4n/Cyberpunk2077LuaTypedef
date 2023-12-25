@@ -9,6 +9,6 @@
 ---@field public ownerID entEntityID
 EntityAttachementData = {}
 
----@param fields? table
+---@param fields? EntityAttachementData
 ---@return EntityAttachementData
 function EntityAttachementData.new(fields) return end

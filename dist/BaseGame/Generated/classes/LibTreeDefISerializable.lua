@@ -7,6 +7,6 @@
 ---@field public v ISerializable
 LibTreeDefISerializable = {}
 
----@param fields? table
+---@param fields? LibTreeDefISerializable
 ---@return LibTreeDefISerializable
 function LibTreeDefISerializable.new(fields) return end

@@ -26,7 +26,7 @@
 ---@field private buttonPressed Bool
 HudPhoneGameController = {}
 
----@param fields? table
+---@param fields? HudPhoneGameController
 ---@return HudPhoneGameController
 function HudPhoneGameController.new(fields) return end
 

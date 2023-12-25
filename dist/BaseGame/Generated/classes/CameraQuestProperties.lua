@@ -8,6 +8,6 @@
 ---@field public followedTargetID entEntityID
 CameraQuestProperties = {}
 
----@param fields? table
+---@param fields? CameraQuestProperties
 ---@return CameraQuestProperties
 function CameraQuestProperties.new(fields) return end

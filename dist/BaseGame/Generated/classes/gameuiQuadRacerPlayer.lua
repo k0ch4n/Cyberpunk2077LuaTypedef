@@ -12,6 +12,6 @@
 ---@field public straightTurnAtlasRegion CName
 gameuiQuadRacerPlayer = {}
 
----@param fields? table
+---@param fields? gameuiQuadRacerPlayer
 ---@return gameuiQuadRacerPlayer
 function gameuiQuadRacerPlayer.new(fields) return end

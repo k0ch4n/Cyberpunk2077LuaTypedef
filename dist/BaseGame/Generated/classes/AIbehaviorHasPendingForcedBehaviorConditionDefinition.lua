@@ -4,6 +4,6 @@
 ---@class AIbehaviorHasPendingForcedBehaviorConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorHasPendingForcedBehaviorConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorHasPendingForcedBehaviorConditionDefinition
 ---@return AIbehaviorHasPendingForcedBehaviorConditionDefinition
 function AIbehaviorHasPendingForcedBehaviorConditionDefinition.new(fields) return end

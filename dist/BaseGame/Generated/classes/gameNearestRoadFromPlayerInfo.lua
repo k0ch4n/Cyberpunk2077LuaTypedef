@@ -6,6 +6,6 @@
 ---@field public point Vector4
 gameNearestRoadFromPlayerInfo = {}
 
----@param fields? table
+---@param fields? gameNearestRoadFromPlayerInfo
 ---@return gameNearestRoadFromPlayerInfo
 function gameNearestRoadFromPlayerInfo.new(fields) return end

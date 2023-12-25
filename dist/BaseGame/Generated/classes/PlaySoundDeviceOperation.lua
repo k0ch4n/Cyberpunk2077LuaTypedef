@@ -5,7 +5,7 @@
 ---@field public SFXs SSFXOperationData[]
 PlaySoundDeviceOperation = {}
 
----@param fields? table
+---@param fields? PlaySoundDeviceOperation
 ---@return PlaySoundDeviceOperation
 function PlaySoundDeviceOperation.new(fields) return end
 

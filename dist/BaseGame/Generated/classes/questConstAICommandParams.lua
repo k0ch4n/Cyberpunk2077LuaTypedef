@@ -5,6 +5,6 @@
 ---@field public command AICommand
 questConstAICommandParams = {}
 
----@param fields? table
+---@param fields? questConstAICommandParams
 ---@return questConstAICommandParams
 function questConstAICommandParams.new(fields) return end

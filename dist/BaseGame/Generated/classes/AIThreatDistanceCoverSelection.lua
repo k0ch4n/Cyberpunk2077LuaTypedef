@@ -4,6 +4,6 @@
 ---@class AIThreatDistanceCoverSelection: AICoverSelectionParameters
 AIThreatDistanceCoverSelection = {}
 
----@param fields? table
+---@param fields? AIThreatDistanceCoverSelection
 ---@return AIThreatDistanceCoverSelection
 function AIThreatDistanceCoverSelection.new(fields) return end

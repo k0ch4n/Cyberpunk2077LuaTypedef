@@ -7,7 +7,7 @@
 ---@field public InitializedInputHintManagerList gamebbScriptID_Variant
 InputSchemesDef = {}
 
----@param fields? table
+---@param fields? InputSchemesDef
 ---@return InputSchemesDef
 function InputSchemesDef.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AICTreeNodeActionReloadWeaponDefinition: AICTreeNodeActionDefinition
 AICTreeNodeActionReloadWeaponDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeActionReloadWeaponDefinition
 ---@return AICTreeNodeActionReloadWeaponDefinition
 function AICTreeNodeActionReloadWeaponDefinition.new(fields) return end

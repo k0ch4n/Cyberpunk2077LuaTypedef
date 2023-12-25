@@ -12,7 +12,7 @@
 ---@field public type gamedataProficiencyType
 gameuiProgressionViewData = {}
 
----@param fields? table
+---@param fields? gameuiProgressionViewData
 ---@return gameuiProgressionViewData
 function gameuiProgressionViewData.new(fields) return end
 

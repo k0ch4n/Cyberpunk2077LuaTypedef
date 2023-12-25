@@ -5,6 +5,6 @@
 ---@field public valueProvider questIInt32ValueProvider
 questInt32ValueWrapper = {}
 
----@param fields? table
+---@param fields? questInt32ValueWrapper
 ---@return questInt32ValueWrapper
 function questInt32ValueWrapper.new(fields) return end

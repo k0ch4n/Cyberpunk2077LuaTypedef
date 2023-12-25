@@ -6,7 +6,7 @@
 ---@field private StatValueRef inkTextWidgetReference
 StatsDetailViewController = {}
 
----@param fields? table
+---@param fields? StatsDetailViewController
 ---@return StatsDetailViewController
 function StatsDetailViewController.new(fields) return end
 

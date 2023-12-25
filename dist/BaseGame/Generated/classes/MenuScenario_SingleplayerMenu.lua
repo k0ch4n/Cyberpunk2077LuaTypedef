@@ -5,7 +5,7 @@
 ---@field private expansionHintShown Bool
 MenuScenario_SingleplayerMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_SingleplayerMenu
 ---@return MenuScenario_SingleplayerMenu
 function MenuScenario_SingleplayerMenu.new(fields) return end
 

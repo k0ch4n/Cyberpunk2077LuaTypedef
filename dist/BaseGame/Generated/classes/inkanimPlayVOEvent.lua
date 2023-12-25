@@ -6,6 +6,6 @@
 ---@field public speakerName String
 inkanimPlayVOEvent = {}
 
----@param fields? table
+---@param fields? inkanimPlayVOEvent
 ---@return inkanimPlayVOEvent
 function inkanimPlayVOEvent.new(fields) return end

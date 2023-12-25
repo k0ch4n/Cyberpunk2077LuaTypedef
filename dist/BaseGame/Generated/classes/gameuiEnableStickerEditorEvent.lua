@@ -4,6 +4,6 @@
 ---@class gameuiEnableStickerEditorEvent: redEvent
 gameuiEnableStickerEditorEvent = {}
 
----@param fields? table
+---@param fields? gameuiEnableStickerEditorEvent
 ---@return gameuiEnableStickerEditorEvent
 function gameuiEnableStickerEditorEvent.new(fields) return end

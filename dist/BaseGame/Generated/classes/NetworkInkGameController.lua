@@ -33,7 +33,7 @@
 ---@field private onDevicesCountChangedListener redCallbackObject
 NetworkInkGameController = {}
 
----@param fields? table
+---@param fields? NetworkInkGameController
 ---@return NetworkInkGameController
 function NetworkInkGameController.new(fields) return end
 

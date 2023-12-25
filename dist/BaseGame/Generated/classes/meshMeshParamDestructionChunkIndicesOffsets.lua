@@ -7,6 +7,6 @@
 ---@field public indices DataBuffer[]
 meshMeshParamDestructionChunkIndicesOffsets = {}
 
----@param fields? table
+---@param fields? meshMeshParamDestructionChunkIndicesOffsets
 ---@return meshMeshParamDestructionChunkIndicesOffsets
 function meshMeshParamDestructionChunkIndicesOffsets.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private whoBreached gameObject
 SecurityAreaEvent = {}
 
----@param fields? table
+---@param fields? SecurityAreaEvent
 ---@return SecurityAreaEvent
 function SecurityAreaEvent.new(fields) return end
 

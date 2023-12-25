@@ -8,6 +8,6 @@
 ---@field public meshTargetBinding worlduiMeshTargetBinding
 WidgetMenuComponentInterface = {}
 
----@param fields? table
+---@param fields? WidgetMenuComponentInterface
 ---@return WidgetMenuComponentInterface
 function WidgetMenuComponentInterface.new(fields) return end

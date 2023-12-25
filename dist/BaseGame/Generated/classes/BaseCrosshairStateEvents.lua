@@ -4,7 +4,7 @@
 ---@class BaseCrosshairStateEvents: BaseCrosshairState
 BaseCrosshairStateEvents = {}
 
----@param fields? table
+---@param fields? BaseCrosshairStateEvents
 ---@return BaseCrosshairStateEvents
 function BaseCrosshairStateEvents.new(fields) return end
 

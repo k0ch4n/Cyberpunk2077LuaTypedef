@@ -5,7 +5,7 @@
 ---@field protected triggerVolumeOperations STriggerVolumeOperationData[]
 TriggerVolumeOperations = {}
 
----@param fields? table
+---@param fields? TriggerVolumeOperations
 ---@return TriggerVolumeOperations
 function TriggerVolumeOperations.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public tags gameEItemDynamicTags
 questSetItemTags_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questSetItemTags_NodeTypeParams
 ---@return questSetItemTags_NodeTypeParams
 function questSetItemTags_NodeTypeParams.new(fields) return end

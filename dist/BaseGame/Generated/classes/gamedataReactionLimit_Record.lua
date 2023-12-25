@@ -4,7 +4,7 @@
 ---@class gamedataReactionLimit_Record: gamedataTweakDBRecord
 gamedataReactionLimit_Record = {}
 
----@param fields? table
+---@param fields? gamedataReactionLimit_Record
 ---@return gamedataReactionLimit_Record
 function gamedataReactionLimit_Record.new(fields) return end
 

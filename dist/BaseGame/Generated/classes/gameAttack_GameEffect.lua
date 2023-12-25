@@ -4,7 +4,7 @@
 ---@class gameAttack_GameEffect: gameIAttack
 gameAttack_GameEffect = {}
 
----@param fields? table
+---@param fields? gameAttack_GameEffect
 ---@return gameAttack_GameEffect
 function gameAttack_GameEffect.new(fields) return end
 

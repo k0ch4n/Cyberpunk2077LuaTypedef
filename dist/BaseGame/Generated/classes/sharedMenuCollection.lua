@@ -5,6 +5,6 @@
 ---@field public items sharedMenuItem[]
 sharedMenuCollection = {}
 
----@param fields? table
+---@param fields? sharedMenuCollection
 ---@return sharedMenuCollection
 function sharedMenuCollection.new(fields) return end

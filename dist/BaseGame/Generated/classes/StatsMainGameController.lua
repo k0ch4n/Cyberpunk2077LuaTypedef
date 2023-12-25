@@ -38,7 +38,7 @@
 ---@field private animProxy inkanimProxy
 StatsMainGameController = {}
 
----@param fields? table
+---@param fields? StatsMainGameController
 ---@return StatsMainGameController
 function StatsMainGameController.new(fields) return end
 

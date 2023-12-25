@@ -4,6 +4,6 @@
 ---@class FadeOutOutlinesUpdate: gameTickableEvent
 FadeOutOutlinesUpdate = {}
 
----@param fields? table
+---@param fields? FadeOutOutlinesUpdate
 ---@return FadeOutOutlinesUpdate
 function FadeOutOutlinesUpdate.new(fields) return end

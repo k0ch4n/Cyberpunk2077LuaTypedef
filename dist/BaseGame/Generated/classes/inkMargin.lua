@@ -8,7 +8,7 @@
 ---@field public bottom Float
 inkMargin = {}
 
----@param fields? table
+---@param fields? inkMargin
 ---@return inkMargin
 function inkMargin.new(fields) return end
 

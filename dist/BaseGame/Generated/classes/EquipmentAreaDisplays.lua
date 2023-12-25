@@ -7,6 +7,6 @@
 ---@field public displayControllers InventoryItemDisplayController[]
 EquipmentAreaDisplays = {}
 
----@param fields? table
+---@param fields? EquipmentAreaDisplays
 ---@return EquipmentAreaDisplays
 function EquipmentAreaDisplays.new(fields) return end

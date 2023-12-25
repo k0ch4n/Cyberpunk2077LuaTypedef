@@ -6,6 +6,6 @@
 ---@field public schema CName
 entVisualTagsSchema = {}
 
----@param fields? table
+---@param fields? entVisualTagsSchema
 ---@return entVisualTagsSchema
 function entVisualTagsSchema.new(fields) return end

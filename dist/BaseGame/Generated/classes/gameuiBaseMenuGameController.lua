@@ -5,7 +5,7 @@
 ---@field public puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]
 gameuiBaseMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiBaseMenuGameController
 ---@return gameuiBaseMenuGameController
 function gameuiBaseMenuGameController.new(fields) return end
 

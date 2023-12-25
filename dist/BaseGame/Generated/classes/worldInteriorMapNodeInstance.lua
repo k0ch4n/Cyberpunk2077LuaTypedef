@@ -4,6 +4,6 @@
 ---@class worldInteriorMapNodeInstance: worldINodeInstance
 worldInteriorMapNodeInstance = {}
 
----@param fields? table
+---@param fields? worldInteriorMapNodeInstance
 ---@return worldInteriorMapNodeInstance
 function worldInteriorMapNodeInstance.new(fields) return end

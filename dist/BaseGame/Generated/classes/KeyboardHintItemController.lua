@@ -11,7 +11,7 @@
 ---@field private AnimationName CName
 KeyboardHintItemController = {}
 
----@param fields? table
+---@param fields? KeyboardHintItemController
 ---@return KeyboardHintItemController
 function KeyboardHintItemController.new(fields) return end
 

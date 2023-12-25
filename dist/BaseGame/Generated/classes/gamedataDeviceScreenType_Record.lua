@@ -4,7 +4,7 @@
 ---@class gamedataDeviceScreenType_Record: gamedataTweakDBRecord
 gamedataDeviceScreenType_Record = {}
 
----@param fields? table
+---@param fields? gamedataDeviceScreenType_Record
 ---@return gamedataDeviceScreenType_Record
 function gamedataDeviceScreenType_Record.new(fields) return end
 

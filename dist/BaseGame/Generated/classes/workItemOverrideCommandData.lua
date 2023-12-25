@@ -4,6 +4,6 @@
 ---@class workItemOverrideCommandData: workIWorkspotCommandData
 workItemOverrideCommandData = {}
 
----@param fields? table
+---@param fields? workItemOverrideCommandData
 ---@return workItemOverrideCommandData
 function workItemOverrideCommandData.new(fields) return end

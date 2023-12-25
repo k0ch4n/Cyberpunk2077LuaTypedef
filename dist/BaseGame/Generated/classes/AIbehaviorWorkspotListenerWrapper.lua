@@ -4,6 +4,6 @@
 ---@class AIbehaviorWorkspotListenerWrapper
 AIbehaviorWorkspotListenerWrapper = {}
 
----@param fields? table
+---@param fields? AIbehaviorWorkspotListenerWrapper
 ---@return AIbehaviorWorkspotListenerWrapper
 function AIbehaviorWorkspotListenerWrapper.new(fields) return end

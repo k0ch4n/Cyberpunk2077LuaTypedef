@@ -4,6 +4,6 @@
 ---@class inkOffscreenLayerDefinition: inkLayerDefinition
 inkOffscreenLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkOffscreenLayerDefinition
 ---@return inkOffscreenLayerDefinition
 function inkOffscreenLayerDefinition.new(fields) return end

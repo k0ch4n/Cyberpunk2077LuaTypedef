@@ -25,7 +25,7 @@
 ---@field public lastActiveOwnerId entEntityID
 LootingGameController = {}
 
----@param fields? table
+---@param fields? LootingGameController
 ---@return LootingGameController
 function LootingGameController.new(fields) return end
 

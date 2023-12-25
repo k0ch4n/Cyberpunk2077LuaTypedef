@@ -5,7 +5,7 @@
 ---@field public isGlobalTvOnly Bool
 SetGlobalTvOnly = {}
 
----@param fields? table
+---@param fields? SetGlobalTvOnly
 ---@return SetGlobalTvOnly
 function SetGlobalTvOnly.new(fields) return end
 

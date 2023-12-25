@@ -21,6 +21,6 @@
 ---@field public disableFootIK Bool
 questMoveOnSplineParams = {}
 
----@param fields? table
+---@param fields? questMoveOnSplineParams
 ---@return questMoveOnSplineParams
 function questMoveOnSplineParams.new(fields) return end

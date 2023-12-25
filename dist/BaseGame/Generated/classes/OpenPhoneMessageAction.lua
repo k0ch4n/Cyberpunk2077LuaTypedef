@@ -6,7 +6,7 @@
 ---@field public journalEntry gameJournalEntry
 OpenPhoneMessageAction = {}
 
----@param fields? table
+---@param fields? OpenPhoneMessageAction
 ---@return OpenPhoneMessageAction
 function OpenPhoneMessageAction.new(fields) return end
 

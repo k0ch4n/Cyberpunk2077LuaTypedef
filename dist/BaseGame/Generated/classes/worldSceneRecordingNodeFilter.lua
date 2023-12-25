@@ -8,6 +8,6 @@
 ---@field public meshResourceFilter worldSceneRecordingNodeMeshResourceFilter
 worldSceneRecordingNodeFilter = {}
 
----@param fields? table
+---@param fields? worldSceneRecordingNodeFilter
 ---@return worldSceneRecordingNodeFilter
 function worldSceneRecordingNodeFilter.new(fields) return end

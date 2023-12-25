@@ -6,7 +6,7 @@
 ---@field public textContent LocalizationString
 gameJournalCodexDescription = {}
 
----@param fields? table
+---@param fields? gameJournalCodexDescription
 ---@return gameJournalCodexDescription
 function gameJournalCodexDescription.new(fields) return end
 

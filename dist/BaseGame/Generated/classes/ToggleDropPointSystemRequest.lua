@@ -6,7 +6,7 @@
 ---@field public reason CName
 ToggleDropPointSystemRequest = {}
 
----@param fields? table
+---@param fields? ToggleDropPointSystemRequest
 ---@return ToggleDropPointSystemRequest
 function ToggleDropPointSystemRequest.new(fields) return end
 

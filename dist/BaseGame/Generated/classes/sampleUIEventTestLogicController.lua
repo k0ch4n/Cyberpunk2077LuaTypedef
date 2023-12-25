@@ -12,7 +12,7 @@
 ---@field private isEnabled Bool
 sampleUIEventTestLogicController = {}
 
----@param fields? table
+---@param fields? sampleUIEventTestLogicController
 ---@return sampleUIEventTestLogicController
 function sampleUIEventTestLogicController.new(fields) return end
 

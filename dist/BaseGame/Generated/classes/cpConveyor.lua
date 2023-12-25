@@ -11,6 +11,6 @@
 ---@field public audioParameterLineSpeed CName
 cpConveyor = {}
 
----@param fields? table
+---@param fields? cpConveyor
 ---@return cpConveyor
 function cpConveyor.new(fields) return end

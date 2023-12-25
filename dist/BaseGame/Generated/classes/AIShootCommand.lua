@@ -8,6 +8,6 @@
 ---@field public once Bool
 AIShootCommand = {}
 
----@param fields? table
+---@param fields? AIShootCommand
 ---@return AIShootCommand
 function AIShootCommand.new(fields) return end

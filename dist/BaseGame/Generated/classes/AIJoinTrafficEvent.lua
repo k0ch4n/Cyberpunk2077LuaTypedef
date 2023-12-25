@@ -4,6 +4,6 @@
 ---@class AIJoinTrafficEvent: AIAIEvent
 AIJoinTrafficEvent = {}
 
----@param fields? table
+---@param fields? AIJoinTrafficEvent
 ---@return AIJoinTrafficEvent
 function AIJoinTrafficEvent.new(fields) return end

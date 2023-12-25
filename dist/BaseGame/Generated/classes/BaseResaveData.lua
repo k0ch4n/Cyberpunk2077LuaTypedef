@@ -6,6 +6,6 @@
 ---@field public tweakDBRecord TweakDBID
 BaseResaveData = {}
 
----@param fields? table
+---@param fields? BaseResaveData
 ---@return BaseResaveData
 function BaseResaveData.new(fields) return end

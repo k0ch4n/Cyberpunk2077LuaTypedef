@@ -4,7 +4,7 @@
 ---@class gamedataAIAdditionalTraceType_Record: gamedataTweakDBRecord
 gamedataAIAdditionalTraceType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIAdditionalTraceType_Record
 ---@return gamedataAIAdditionalTraceType_Record
 function gamedataAIAdditionalTraceType_Record.new(fields) return end
 

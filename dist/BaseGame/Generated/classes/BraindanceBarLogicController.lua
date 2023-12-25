@@ -10,7 +10,7 @@
 ---@field private timelineDisabledAnimation inkanimProxy
 BraindanceBarLogicController = {}
 
----@param fields? table
+---@param fields? BraindanceBarLogicController
 ---@return BraindanceBarLogicController
 function BraindanceBarLogicController.new(fields) return end
 

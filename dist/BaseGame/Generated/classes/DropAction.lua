@@ -4,7 +4,7 @@
 ---@class DropAction: BaseItemAction
 DropAction = {}
 
----@param fields? table
+---@param fields? DropAction
 ---@return DropAction
 function DropAction.new(fields) return end
 

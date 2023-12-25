@@ -5,7 +5,7 @@
 ---@field public TriggersCombat Bool
 AITargetTrackerComponent = {}
 
----@param fields? table
+---@param fields? AITargetTrackerComponent
 ---@return AITargetTrackerComponent
 function AITargetTrackerComponent.new(fields) return end
 

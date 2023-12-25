@@ -6,6 +6,6 @@
 ---@field public entryType audioMaterialMeleeSoundDictionaryItem
 audioMaterialMeleeSoundDictionary = {}
 
----@param fields? table
+---@param fields? audioMaterialMeleeSoundDictionary
 ---@return audioMaterialMeleeSoundDictionary
 function audioMaterialMeleeSoundDictionary.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class TimerEvent: redEvent
 TimerEvent = {}
 
----@param fields? table
+---@param fields? TimerEvent
 ---@return TimerEvent
 function TimerEvent.new(fields) return end

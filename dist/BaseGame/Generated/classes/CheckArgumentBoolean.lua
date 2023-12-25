@@ -5,7 +5,7 @@
 ---@field public customVar Bool
 CheckArgumentBoolean = {}
 
----@param fields? table
+---@param fields? CheckArgumentBoolean
 ---@return CheckArgumentBoolean
 function CheckArgumentBoolean.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public resource worldTrafficPersistentResource
 worldTrafficPersistentNode = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentNode
 ---@return worldTrafficPersistentNode
 function worldTrafficPersistentNode.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public angleRange Vector2
 vehiclePatrolNearbyStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehiclePatrolNearbyStrategyRequest
 ---@return vehiclePatrolNearbyStrategyRequest
 function vehiclePatrolNearbyStrategyRequest.new(fields) return end
 

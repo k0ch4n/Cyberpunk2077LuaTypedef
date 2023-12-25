@@ -6,7 +6,7 @@
 ---@field public invert Bool
 NPCLocomotionTypePrereq = {}
 
----@param fields? table
+---@param fields? NPCLocomotionTypePrereq
 ---@return NPCLocomotionTypePrereq
 function NPCLocomotionTypePrereq.new(fields) return end
 

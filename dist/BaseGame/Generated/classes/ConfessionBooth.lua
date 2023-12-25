@@ -6,7 +6,7 @@
 ---@field private shortGlitchDelayID gameDelayID
 ConfessionBooth = {}
 
----@param fields? table
+---@param fields? ConfessionBooth
 ---@return ConfessionBooth
 function ConfessionBooth.new(fields) return end
 

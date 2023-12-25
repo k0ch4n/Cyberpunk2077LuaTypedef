@@ -7,6 +7,6 @@
 ---@field public binding entIBinding
 entTemplateBindingOverride = {}
 
----@param fields? table
+---@param fields? entTemplateBindingOverride
 ---@return entTemplateBindingOverride
 function entTemplateBindingOverride.new(fields) return end

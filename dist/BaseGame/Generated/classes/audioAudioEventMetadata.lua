@@ -11,6 +11,6 @@
 ---@field public tags CName[]
 audioAudioEventMetadata = {}
 
----@param fields? table
+---@param fields? audioAudioEventMetadata
 ---@return audioAudioEventMetadata
 function audioAudioEventMetadata.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public objectiveData GemplayObjectiveData
 RegisterGameplayObjectiveRequest = {}
 
----@param fields? table
+---@param fields? RegisterGameplayObjectiveRequest
 ---@return RegisterGameplayObjectiveRequest
 function RegisterGameplayObjectiveRequest.new(fields) return end

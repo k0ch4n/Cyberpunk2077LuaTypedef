@@ -4,7 +4,7 @@
 ---@class DeathWithoutAnimationCondition: AIDeathConditions
 DeathWithoutAnimationCondition = {}
 
----@param fields? table
+---@param fields? DeathWithoutAnimationCondition
 ---@return DeathWithoutAnimationCondition
 function DeathWithoutAnimationCondition.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public hotkey gameEHotkey
 ItemModeItemChanged = {}
 
----@param fields? table
+---@param fields? ItemModeItemChanged
 ---@return ItemModeItemChanged
 function ItemModeItemChanged.new(fields) return end

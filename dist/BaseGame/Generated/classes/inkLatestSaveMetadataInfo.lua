@@ -12,6 +12,6 @@
 ---@field public additionalContentIds CName[]
 inkLatestSaveMetadataInfo = {}
 
----@param fields? table
+---@param fields? inkLatestSaveMetadataInfo
 ---@return inkLatestSaveMetadataInfo
 function inkLatestSaveMetadataInfo.new(fields) return end

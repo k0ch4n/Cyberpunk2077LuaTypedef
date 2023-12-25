@@ -8,7 +8,7 @@
 ---@field private currentSetIndex Int32
 SettingsSelectorControllerLanguagesList = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerLanguagesList
 ---@return SettingsSelectorControllerLanguagesList
 function SettingsSelectorControllerLanguagesList.new(fields) return end
 

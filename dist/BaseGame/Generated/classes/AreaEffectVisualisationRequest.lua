@@ -6,6 +6,6 @@
 ---@field public show Bool
 AreaEffectVisualisationRequest = {}
 
----@param fields? table
+---@param fields? AreaEffectVisualisationRequest
 ---@return AreaEffectVisualisationRequest
 function AreaEffectVisualisationRequest.new(fields) return end

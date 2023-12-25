@@ -23,6 +23,6 @@
 ---@field public decalRenderMode EDecalRenderMode
 effectTrackItemDecal = {}
 
----@param fields? table
+---@param fields? effectTrackItemDecal
 ---@return effectTrackItemDecal
 function effectTrackItemDecal.new(fields) return end

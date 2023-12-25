@@ -10,6 +10,6 @@
 ---@field public reduceSpeedOnTurns Bool
 questMoveOnSplineControlRubberbanding_NodeType = {}
 
----@param fields? table
+---@param fields? questMoveOnSplineControlRubberbanding_NodeType
 ---@return questMoveOnSplineControlRubberbanding_NodeType
 function questMoveOnSplineControlRubberbanding_NodeType.new(fields) return end

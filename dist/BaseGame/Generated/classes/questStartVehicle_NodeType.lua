@@ -6,6 +6,6 @@
 ---@field public blendTime Float
 questStartVehicle_NodeType = {}
 
----@param fields? table
+---@param fields? questStartVehicle_NodeType
 ---@return questStartVehicle_NodeType
 function questStartVehicle_NodeType.new(fields) return end

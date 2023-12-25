@@ -5,6 +5,6 @@
 ---@field public linksData SNetworkLinkData[]
 RegisterPingNetworkLinkRequest = {}
 
----@param fields? table
+---@param fields? RegisterPingNetworkLinkRequest
 ---@return RegisterPingNetworkLinkRequest
 function RegisterPingNetworkLinkRequest.new(fields) return end

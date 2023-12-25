@@ -11,7 +11,7 @@
 ---@field private maxVisibilityDistance Float
 PreventionMinimapMappinComponent = {}
 
----@param fields? table
+---@param fields? PreventionMinimapMappinComponent
 ---@return PreventionMinimapMappinComponent
 function PreventionMinimapMappinComponent.new(fields) return end
 

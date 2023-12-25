@@ -4,6 +4,6 @@
 ---@class gameEffectComponentBinding: entISourceBinding
 gameEffectComponentBinding = {}
 
----@param fields? table
+---@param fields? gameEffectComponentBinding
 ---@return gameEffectComponentBinding
 function gameEffectComponentBinding.new(fields) return end

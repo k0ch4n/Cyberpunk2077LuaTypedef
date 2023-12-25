@@ -20,7 +20,7 @@
 ---@field protected isCollidedWithEnemy Bool
 MeleeProjectile = {}
 
----@param fields? table
+---@param fields? MeleeProjectile
 ---@return MeleeProjectile
 function MeleeProjectile.new(fields) return end
 

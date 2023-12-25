@@ -5,6 +5,6 @@
 ---@field public type questIUIManagerNodeType
 questUIManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questUIManagerNodeDefinition
 ---@return questUIManagerNodeDefinition
 function questUIManagerNodeDefinition.new(fields) return end

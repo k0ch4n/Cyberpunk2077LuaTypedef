@@ -5,6 +5,6 @@
 ---@field public property Bool
 Sample_Replicated_Pointed_Class = {}
 
----@param fields? table
+---@param fields? Sample_Replicated_Pointed_Class
 ---@return Sample_Replicated_Pointed_Class
 function Sample_Replicated_Pointed_Class.new(fields) return end

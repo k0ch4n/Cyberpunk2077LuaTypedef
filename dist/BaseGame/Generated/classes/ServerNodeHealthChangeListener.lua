@@ -5,7 +5,7 @@
 ---@field private serverNode ServerNode
 ServerNodeHealthChangeListener = {}
 
----@param fields? table
+---@param fields? ServerNodeHealthChangeListener
 ---@return ServerNodeHealthChangeListener
 function ServerNodeHealthChangeListener.new(fields) return end
 

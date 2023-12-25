@@ -5,6 +5,6 @@
 ---@field public driverAllowedToGetAggressive Bool
 VehicleHijackEvent = {}
 
----@param fields? table
+---@param fields? VehicleHijackEvent
 ---@return VehicleHijackEvent
 function VehicleHijackEvent.new(fields) return end

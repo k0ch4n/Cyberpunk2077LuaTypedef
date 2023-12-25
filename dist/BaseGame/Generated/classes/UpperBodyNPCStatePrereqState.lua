@@ -4,6 +4,6 @@
 ---@class UpperBodyNPCStatePrereqState: NPCStatePrereqState
 UpperBodyNPCStatePrereqState = {}
 
----@param fields? table
+---@param fields? UpperBodyNPCStatePrereqState
 ---@return UpperBodyNPCStatePrereqState
 function UpperBodyNPCStatePrereqState.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public signalTable gameBoolSignalTable
 ResetSignal = {}
 
----@param fields? table
+---@param fields? ResetSignal
 ---@return ResetSignal
 function ResetSignal.new(fields) return end

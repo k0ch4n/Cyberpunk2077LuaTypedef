@@ -8,6 +8,6 @@
 ---@field public playersInfo grsDeathmatchPlayerGameInfo
 grsDeathmatchState = {}
 
----@param fields? table
+---@param fields? grsDeathmatchState
 ---@return grsDeathmatchState
 function grsDeathmatchState.new(fields) return end

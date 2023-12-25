@@ -8,6 +8,6 @@
 ---@field public foliageShadowConfig FoliageShadowConfig
 WorldShadowConfig = {}
 
----@param fields? table
+---@param fields? WorldShadowConfig
 ---@return WorldShadowConfig
 function WorldShadowConfig.new(fields) return end

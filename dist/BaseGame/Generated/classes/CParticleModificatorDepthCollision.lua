@@ -9,6 +9,6 @@
 ---@field public collisionEffect EDepthCollisionEffect
 CParticleModificatorDepthCollision = {}
 
----@param fields? table
+---@param fields? CParticleModificatorDepthCollision
 ---@return CParticleModificatorDepthCollision
 function CParticleModificatorDepthCollision.new(fields) return end

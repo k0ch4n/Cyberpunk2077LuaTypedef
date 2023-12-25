@@ -5,6 +5,6 @@
 ---@field public statsData gameStatViewData
 CategoryClickedEvent = {}
 
----@param fields? table
+---@param fields? CategoryClickedEvent
 ---@return CategoryClickedEvent
 function CategoryClickedEvent.new(fields) return end

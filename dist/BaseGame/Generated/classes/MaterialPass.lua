@@ -14,6 +14,6 @@
 ---@field public enablePixelShader Bool
 MaterialPass = {}
 
----@param fields? table
+---@param fields? MaterialPass
 ---@return MaterialPass
 function MaterialPass.new(fields) return end

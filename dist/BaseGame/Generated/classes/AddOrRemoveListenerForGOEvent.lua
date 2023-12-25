@@ -6,6 +6,6 @@
 ---@field public shouldAdd Bool
 AddOrRemoveListenerForGOEvent = {}
 
----@param fields? table
+---@param fields? AddOrRemoveListenerForGOEvent
 ---@return AddOrRemoveListenerForGOEvent
 function AddOrRemoveListenerForGOEvent.new(fields) return end

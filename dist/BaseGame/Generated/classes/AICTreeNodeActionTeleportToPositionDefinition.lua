@@ -6,6 +6,6 @@
 ---@field public doNavTest Bool
 AICTreeNodeActionTeleportToPositionDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeActionTeleportToPositionDefinition
 ---@return AICTreeNodeActionTeleportToPositionDefinition
 function AICTreeNodeActionTeleportToPositionDefinition.new(fields) return end

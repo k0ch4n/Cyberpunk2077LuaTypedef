@@ -16,7 +16,7 @@
 ---@field private maxZoomLevel Int32
 hudSniperNestController = {}
 
----@param fields? table
+---@param fields? hudSniperNestController
 ---@return hudSniperNestController
 function hudSniperNestController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public value Float
 SystemCollapseModifyRevealBarEffector = {}
 
----@param fields? table
+---@param fields? SystemCollapseModifyRevealBarEffector
 ---@return SystemCollapseModifyRevealBarEffector
 function SystemCollapseModifyRevealBarEffector.new(fields) return end
 

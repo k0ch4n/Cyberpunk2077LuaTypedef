@@ -4,7 +4,7 @@
 ---@class gamedataWeaponSafeModeBound_Record: gamedataTweakDBRecord
 gamedataWeaponSafeModeBound_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeaponSafeModeBound_Record
 ---@return gamedataWeaponSafeModeBound_Record
 function gamedataWeaponSafeModeBound_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class CDebugConsole: IDebugConsole
 CDebugConsole = {}
 
----@param fields? table
+---@param fields? CDebugConsole
 ---@return CDebugConsole
 function CDebugConsole.new(fields) return end

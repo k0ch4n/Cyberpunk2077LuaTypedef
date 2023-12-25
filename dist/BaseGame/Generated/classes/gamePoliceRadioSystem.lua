@@ -6,7 +6,7 @@
 ---@field public isHeat1LineRequestOngoing Bool
 gamePoliceRadioSystem = {}
 
----@param fields? table
+---@param fields? gamePoliceRadioSystem
 ---@return gamePoliceRadioSystem
 function gamePoliceRadioSystem.new(fields) return end
 

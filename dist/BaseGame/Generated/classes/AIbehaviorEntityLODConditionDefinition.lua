@@ -7,6 +7,6 @@
 ---@field public none AIbehaviorEntityLODConditions[]
 AIbehaviorEntityLODConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEntityLODConditionDefinition
 ---@return AIbehaviorEntityLODConditionDefinition
 function AIbehaviorEntityLODConditionDefinition.new(fields) return end

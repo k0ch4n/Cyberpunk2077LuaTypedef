@@ -11,6 +11,6 @@
 ---@field public isVehicle Bool
 worldPopulationSpawnerNode = {}
 
----@param fields? table
+---@param fields? worldPopulationSpawnerNode
 ---@return worldPopulationSpawnerNode
 function worldPopulationSpawnerNode.new(fields) return end

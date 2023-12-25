@@ -10,6 +10,6 @@
 ---@field public stayInFront Bool
 questParamRubberbanding = {}
 
----@param fields? table
+---@param fields? questParamRubberbanding
 ---@return questParamRubberbanding
 function questParamRubberbanding.new(fields) return end

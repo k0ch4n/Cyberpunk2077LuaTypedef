@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionEquipOnSlot_Record: gamedataAISubActionCharacterRecordEquip_Record
 gamedataAISubActionEquipOnSlot_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionEquipOnSlot_Record
 ---@return gamedataAISubActionEquipOnSlot_Record
 function gamedataAISubActionEquipOnSlot_Record.new(fields) return end
 

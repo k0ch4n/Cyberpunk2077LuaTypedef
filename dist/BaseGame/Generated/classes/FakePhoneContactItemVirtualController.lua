@@ -5,7 +5,7 @@
 ---@field private dots inkWidgetReference
 FakePhoneContactItemVirtualController = {}
 
----@param fields? table
+---@param fields? FakePhoneContactItemVirtualController
 ---@return FakePhoneContactItemVirtualController
 function FakePhoneContactItemVirtualController.new(fields) return end
 

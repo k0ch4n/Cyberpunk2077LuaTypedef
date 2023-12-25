@@ -7,6 +7,6 @@
 ---@field public personality gamedataStatType
 LookAtData = {}
 
----@param fields? table
+---@param fields? LookAtData
 ---@return LookAtData
 function LookAtData.new(fields) return end

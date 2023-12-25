@@ -25,7 +25,7 @@
 ---@field private isVehicleReady Bool
 vehicleUIGameController = {}
 
----@param fields? table
+---@param fields? vehicleUIGameController
 ---@return vehicleUIGameController
 function vehicleUIGameController.new(fields) return end
 

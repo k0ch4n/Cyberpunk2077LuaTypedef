@@ -5,7 +5,7 @@
 ---@field public tweakDBPackage TweakDBID
 KnockdownReactionTask = {}
 
----@param fields? table
+---@param fields? KnockdownReactionTask
 ---@return KnockdownReactionTask
 function KnockdownReactionTask.new(fields) return end
 

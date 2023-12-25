@@ -5,6 +5,6 @@
 ---@field public detectionProgress Float
 gameuiDetectionParams = {}
 
----@param fields? table
+---@param fields? gameuiDetectionParams
 ---@return gameuiDetectionParams
 function gameuiDetectionParams.new(fields) return end

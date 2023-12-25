@@ -4,6 +4,6 @@
 ---@class gameCActionAIProxy
 gameCActionAIProxy = {}
 
----@param fields? table
+---@param fields? gameCActionAIProxy
 ---@return gameCActionAIProxy
 function gameCActionAIProxy.new(fields) return end

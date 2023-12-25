@@ -4,7 +4,7 @@
 ---@class BaseContextEvents: InputContextTransitionEvents
 BaseContextEvents = {}
 
----@param fields? table
+---@param fields? BaseContextEvents
 ---@return BaseContextEvents
 function BaseContextEvents.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public amount Int32
 VendorShoppingCartItem = {}
 
----@param fields? table
+---@param fields? VendorShoppingCartItem
 ---@return VendorShoppingCartItem
 function VendorShoppingCartItem.new(fields) return end

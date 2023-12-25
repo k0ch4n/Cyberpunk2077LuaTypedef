@@ -5,6 +5,6 @@
 ---@field public spawnPoolSize Uint32
 gameuiSideScrollerMiniGameDynObjectLogic = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameDynObjectLogic
 ---@return gameuiSideScrollerMiniGameDynObjectLogic
 function gameuiSideScrollerMiniGameDynObjectLogic.new(fields) return end

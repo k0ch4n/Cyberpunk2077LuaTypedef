@@ -22,7 +22,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 ComputerInkGameController = {}
 
----@param fields? table
+---@param fields? ComputerInkGameController
 ---@return ComputerInkGameController
 function ComputerInkGameController.new(fields) return end
 

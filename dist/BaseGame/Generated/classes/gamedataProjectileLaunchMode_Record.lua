@@ -4,7 +4,7 @@
 ---@class gamedataProjectileLaunchMode_Record: gamedataTweakDBRecord
 gamedataProjectileLaunchMode_Record = {}
 
----@param fields? table
+---@param fields? gamedataProjectileLaunchMode_Record
 ---@return gamedataProjectileLaunchMode_Record
 function gamedataProjectileLaunchMode_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public direction curveData
 WindAreaSettings = {}
 
----@param fields? table
+---@param fields? WindAreaSettings
 ---@return WindAreaSettings
 function WindAreaSettings.new(fields) return end

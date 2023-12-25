@@ -6,7 +6,7 @@
 ---@field protected wasOverloaded Bool
 NetrunnerChairControllerPS = {}
 
----@param fields? table
+---@param fields? NetrunnerChairControllerPS
 ---@return NetrunnerChairControllerPS
 function NetrunnerChairControllerPS.new(fields) return end
 

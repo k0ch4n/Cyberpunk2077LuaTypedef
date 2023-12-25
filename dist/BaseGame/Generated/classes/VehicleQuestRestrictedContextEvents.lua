@@ -4,7 +4,7 @@
 ---@class VehicleQuestRestrictedContextEvents: VehicleNoDriveContextEvents
 VehicleQuestRestrictedContextEvents = {}
 
----@param fields? table
+---@param fields? VehicleQuestRestrictedContextEvents
 ---@return VehicleQuestRestrictedContextEvents
 function VehicleQuestRestrictedContextEvents.new(fields) return end
 

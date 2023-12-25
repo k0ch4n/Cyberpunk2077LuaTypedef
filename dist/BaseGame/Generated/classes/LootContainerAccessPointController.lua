@@ -4,7 +4,7 @@
 ---@class LootContainerAccessPointController: AccessPointController
 LootContainerAccessPointController = {}
 
----@param fields? table
+---@param fields? LootContainerAccessPointController
 ---@return LootContainerAccessPointController
 function LootContainerAccessPointController.new(fields) return end
 

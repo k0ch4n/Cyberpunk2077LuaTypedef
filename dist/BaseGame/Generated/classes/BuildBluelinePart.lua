@@ -8,6 +8,6 @@
 ---@field public comparisonOperator ECompareOp
 BuildBluelinePart = {}
 
----@param fields? table
+---@param fields? BuildBluelinePart
 ---@return BuildBluelinePart
 function BuildBluelinePart.new(fields) return end

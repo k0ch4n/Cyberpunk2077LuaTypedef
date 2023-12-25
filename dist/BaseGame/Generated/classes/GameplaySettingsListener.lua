@@ -26,7 +26,7 @@
 ---@field private vehicleCombatHoldToShootOptionName CName
 GameplaySettingsListener = {}
 
----@param fields? table
+---@param fields? GameplaySettingsListener
 ---@return GameplaySettingsListener
 function GameplaySettingsListener.new(fields) return end
 

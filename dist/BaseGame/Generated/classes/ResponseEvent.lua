@@ -5,6 +5,6 @@
 ---@field public responseData IScriptable
 ResponseEvent = {}
 
----@param fields? table
+---@param fields? ResponseEvent
 ---@return ResponseEvent
 function ResponseEvent.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field private previousIndex Int32
 hubSelectorController = {}
 
----@param fields? table
+---@param fields? hubSelectorController
 ---@return hubSelectorController
 function hubSelectorController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameuiSetBackgroundEvent: redEvent
 gameuiSetBackgroundEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetBackgroundEvent
 ---@return gameuiSetBackgroundEvent
 function gameuiSetBackgroundEvent.new(fields) return end

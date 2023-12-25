@@ -5,7 +5,7 @@
 ---@field public isTagged Bool
 TagObjectEvent = {}
 
----@param fields? table
+---@param fields? TagObjectEvent
 ---@return TagObjectEvent
 function TagObjectEvent.new(fields) return end
 

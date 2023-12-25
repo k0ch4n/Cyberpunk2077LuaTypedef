@@ -6,7 +6,7 @@
 ---@field public skillCheckState SkillCheckPrereqState
 ModifySkillCheckPrereq = {}
 
----@param fields? table
+---@param fields? ModifySkillCheckPrereq
 ---@return ModifySkillCheckPrereq
 function ModifySkillCheckPrereq.new(fields) return end
 

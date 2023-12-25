@@ -6,6 +6,6 @@
 ---@field public placement rendRenderTextureBlobPlacement
 rendRenderTextureBlobMipMapInfo = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobMipMapInfo
 ---@return rendRenderTextureBlobMipMapInfo
 function rendRenderTextureBlobMipMapInfo.new(fields) return end

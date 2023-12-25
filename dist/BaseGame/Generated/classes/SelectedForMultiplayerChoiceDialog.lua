@@ -4,7 +4,7 @@
 ---@class SelectedForMultiplayerChoiceDialog: gameIScriptablePrereq
 SelectedForMultiplayerChoiceDialog = {}
 
----@param fields? table
+---@param fields? SelectedForMultiplayerChoiceDialog
 ---@return SelectedForMultiplayerChoiceDialog
 function SelectedForMultiplayerChoiceDialog.new(fields) return end
 

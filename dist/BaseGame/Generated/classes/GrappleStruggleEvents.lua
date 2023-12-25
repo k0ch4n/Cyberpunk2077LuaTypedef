@@ -4,7 +4,7 @@
 ---@class GrappleStruggleEvents: GrappleStandEvents
 GrappleStruggleEvents = {}
 
----@param fields? table
+---@param fields? GrappleStruggleEvents
 ---@return GrappleStruggleEvents
 function GrappleStruggleEvents.new(fields) return end
 

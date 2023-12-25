@@ -5,6 +5,6 @@
 ---@field public junkItemID TweakDBID
 JunkItemRecord = {}
 
----@param fields? table
+---@param fields? JunkItemRecord
 ---@return JunkItemRecord
 function JunkItemRecord.new(fields) return end

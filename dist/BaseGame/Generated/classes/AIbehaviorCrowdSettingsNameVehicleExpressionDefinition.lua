@@ -5,6 +5,6 @@
 ---@field public settingsName CName
 AIbehaviorCrowdSettingsNameVehicleExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCrowdSettingsNameVehicleExpressionDefinition
 ---@return AIbehaviorCrowdSettingsNameVehicleExpressionDefinition
 function AIbehaviorCrowdSettingsNameVehicleExpressionDefinition.new(fields) return end

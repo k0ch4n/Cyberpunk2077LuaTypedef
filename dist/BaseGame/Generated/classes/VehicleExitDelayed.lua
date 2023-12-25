@@ -5,6 +5,6 @@
 ---@field public isEmergencyExit Bool
 VehicleExitDelayed = {}
 
----@param fields? table
+---@param fields? VehicleExitDelayed
 ---@return VehicleExitDelayed
 function VehicleExitDelayed.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public park Bool
 vehicleParkedEvent = {}
 
----@param fields? table
+---@param fields? vehicleParkedEvent
 ---@return vehicleParkedEvent
 function vehicleParkedEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAIActionSmartComposite_Record: gamedataAIRecord_Record
 gamedataAIActionSmartComposite_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionSmartComposite_Record
 ---@return gamedataAIActionSmartComposite_Record
 function gamedataAIActionSmartComposite_Record.new(fields) return end
 

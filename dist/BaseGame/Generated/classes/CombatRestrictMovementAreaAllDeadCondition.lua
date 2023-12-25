@@ -4,7 +4,7 @@
 ---@class CombatRestrictMovementAreaAllDeadCondition: AICombatGuardAreaScriptCondition
 CombatRestrictMovementAreaAllDeadCondition = {}
 
----@param fields? table
+---@param fields? CombatRestrictMovementAreaAllDeadCondition
 ---@return CombatRestrictMovementAreaAllDeadCondition
 function CombatRestrictMovementAreaAllDeadCondition.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public componentName CName
 gamePersistentID = {}
 
----@param fields? table
+---@param fields? gamePersistentID
 ---@return gamePersistentID
 function gamePersistentID.new(fields) return end
 

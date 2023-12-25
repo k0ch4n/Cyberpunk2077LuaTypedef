@@ -4,7 +4,7 @@
 ---@class CyberwareTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 CyberwareTemplateClassifier = {}
 
----@param fields? table
+---@param fields? CyberwareTemplateClassifier
 ---@return CyberwareTemplateClassifier
 function CyberwareTemplateClassifier.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public invert Bool
 NPCIsFollowerPrereq = {}
 
----@param fields? table
+---@param fields? NPCIsFollowerPrereq
 ---@return NPCIsFollowerPrereq
 function NPCIsFollowerPrereq.new(fields) return end
 

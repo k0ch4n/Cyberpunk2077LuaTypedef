@@ -6,7 +6,7 @@
 ---@field public eventSource CName
 TogglePreventionGlobalQuestObjective = {}
 
----@param fields? table
+---@param fields? TogglePreventionGlobalQuestObjective
 ---@return TogglePreventionGlobalQuestObjective
 function TogglePreventionGlobalQuestObjective.new(fields) return end
 

@@ -33,7 +33,7 @@
 ---@field private transgressions TweakDBID[]
 ScriptedPuppetPS = {}
 
----@param fields? table
+---@param fields? ScriptedPuppetPS
 ---@return ScriptedPuppetPS
 function ScriptedPuppetPS.new(fields) return end
 

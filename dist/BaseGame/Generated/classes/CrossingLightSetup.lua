@@ -6,6 +6,6 @@
 ---@field public redLightSFX CName
 CrossingLightSetup = {}
 
----@param fields? table
+---@param fields? CrossingLightSetup
 ---@return CrossingLightSetup
 function CrossingLightSetup.new(fields) return end

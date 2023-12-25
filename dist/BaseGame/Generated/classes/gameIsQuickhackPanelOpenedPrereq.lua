@@ -5,6 +5,6 @@
 ---@field public inverted Bool
 gameIsQuickhackPanelOpenedPrereq = {}
 
----@param fields? table
+---@param fields? gameIsQuickhackPanelOpenedPrereq
 ---@return gameIsQuickhackPanelOpenedPrereq
 function gameIsQuickhackPanelOpenedPrereq.new(fields) return end

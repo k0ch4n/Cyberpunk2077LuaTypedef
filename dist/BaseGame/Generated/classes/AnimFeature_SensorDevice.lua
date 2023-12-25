@@ -17,6 +17,6 @@
 ---@field public currentRotation Vector4
 AnimFeature_SensorDevice = {}
 
----@param fields? table
+---@param fields? AnimFeature_SensorDevice
 ---@return AnimFeature_SensorDevice
 function AnimFeature_SensorDevice.new(fields) return end

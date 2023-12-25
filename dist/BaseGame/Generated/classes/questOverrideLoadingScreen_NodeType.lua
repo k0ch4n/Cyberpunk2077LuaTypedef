@@ -12,6 +12,6 @@
 ---@field public keepLoadingScreenWhileVideoIsPlaying Bool
 questOverrideLoadingScreen_NodeType = {}
 
----@param fields? table
+---@param fields? questOverrideLoadingScreen_NodeType
 ---@return questOverrideLoadingScreen_NodeType
 function questOverrideLoadingScreen_NodeType.new(fields) return end

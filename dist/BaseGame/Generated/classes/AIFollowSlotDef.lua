@@ -6,7 +6,7 @@
 ---@field public slotTransform gamebbScriptID_Variant
 AIFollowSlotDef = {}
 
----@param fields? table
+---@param fields? AIFollowSlotDef
 ---@return AIFollowSlotDef
 function AIFollowSlotDef.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field public applyOverclock Bool
 SpreadEffector = {}
 
----@param fields? table
+---@param fields? SpreadEffector
 ---@return SpreadEffector
 function SpreadEffector.new(fields) return end
 

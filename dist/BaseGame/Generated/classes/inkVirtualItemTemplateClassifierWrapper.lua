@@ -4,6 +4,6 @@
 ---@class inkVirtualItemTemplateClassifierWrapper: IScriptable
 inkVirtualItemTemplateClassifierWrapper = {}
 
----@param fields? table
+---@param fields? inkVirtualItemTemplateClassifierWrapper
 ---@return inkVirtualItemTemplateClassifierWrapper
 function inkVirtualItemTemplateClassifierWrapper.new(fields) return end

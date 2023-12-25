@@ -5,6 +5,6 @@
 ---@field public path gameJournalPath
 gameJournalQuestMapPinLink = {}
 
----@param fields? table
+---@param fields? gameJournalQuestMapPinLink
 ---@return gameJournalQuestMapPinLink
 function gameJournalQuestMapPinLink.new(fields) return end

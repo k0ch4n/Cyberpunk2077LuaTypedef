@@ -4,6 +4,6 @@
 ---@class scnEntityItemsListener: gameIAttachmentSlotsListener
 scnEntityItemsListener = {}
 
----@param fields? table
+---@param fields? scnEntityItemsListener
 ---@return scnEntityItemsListener
 function scnEntityItemsListener.new(fields) return end

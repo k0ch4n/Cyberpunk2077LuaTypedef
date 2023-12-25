@@ -6,6 +6,6 @@
 ---@field public transform Transform
 scnSceneMarkerInternalsWorkspotEntrySocket = {}
 
----@param fields? table
+---@param fields? scnSceneMarkerInternalsWorkspotEntrySocket
 ---@return scnSceneMarkerInternalsWorkspotEntrySocket
 function scnSceneMarkerInternalsWorkspotEntrySocket.new(fields) return end

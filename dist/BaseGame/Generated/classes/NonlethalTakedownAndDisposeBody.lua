@@ -4,7 +4,7 @@
 ---@class NonlethalTakedownAndDisposeBody: ActionDisposal
 NonlethalTakedownAndDisposeBody = {}
 
----@param fields? table
+---@param fields? NonlethalTakedownAndDisposeBody
 ---@return NonlethalTakedownAndDisposeBody
 function NonlethalTakedownAndDisposeBody.new(fields) return end
 

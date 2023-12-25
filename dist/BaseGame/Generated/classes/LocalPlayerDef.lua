@@ -5,7 +5,7 @@
 ---@field public InsideVehicleForbiddenAreasCount gamebbScriptID_Int32
 LocalPlayerDef = {}
 
----@param fields? table
+---@param fields? LocalPlayerDef
 ---@return LocalPlayerDef
 function LocalPlayerDef.new(fields) return end
 

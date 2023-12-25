@@ -5,6 +5,6 @@
 ---@field public enable Bool
 enteventsToggleImpulseDestruction = {}
 
----@param fields? table
+---@param fields? enteventsToggleImpulseDestruction
 ---@return enteventsToggleImpulseDestruction
 function enteventsToggleImpulseDestruction.new(fields) return end

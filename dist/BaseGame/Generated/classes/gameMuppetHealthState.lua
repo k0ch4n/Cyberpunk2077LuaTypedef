@@ -5,6 +5,6 @@
 ---@field public health Float
 gameMuppetHealthState = {}
 
----@param fields? table
+---@param fields? gameMuppetHealthState
 ---@return gameMuppetHealthState
 function gameMuppetHealthState.new(fields) return end

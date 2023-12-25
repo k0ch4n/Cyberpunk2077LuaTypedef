@@ -7,6 +7,6 @@
 ---@field public abort Bool
 PoliceSirenTimerRequest = {}
 
----@param fields? table
+---@param fields? PoliceSirenTimerRequest
 ---@return PoliceSirenTimerRequest
 function PoliceSirenTimerRequest.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public interruptConditions scnIInterruptCondition[]
 scnOverrideInterruptConditions_Operation = {}
 
----@param fields? table
+---@param fields? scnOverrideInterruptConditions_Operation
 ---@return scnOverrideInterruptConditions_Operation
 function scnOverrideInterruptConditions_Operation.new(fields) return end

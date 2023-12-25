@@ -5,6 +5,6 @@
 ---@field public ownerID entEntityID
 SetPerkDeviceAsUsedRequest = {}
 
----@param fields? table
+---@param fields? SetPerkDeviceAsUsedRequest
 ---@return SetPerkDeviceAsUsedRequest
 function SetPerkDeviceAsUsedRequest.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field private data CodexPopupData
 CodexPopupGameController = {}
 
----@param fields? table
+---@param fields? CodexPopupGameController
 ---@return CodexPopupGameController
 function CodexPopupGameController.new(fields) return end
 

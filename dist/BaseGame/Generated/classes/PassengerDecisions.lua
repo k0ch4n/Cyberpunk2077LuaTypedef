@@ -4,7 +4,7 @@
 ---@class PassengerDecisions: VehicleTransition
 PassengerDecisions = {}
 
----@param fields? table
+---@param fields? PassengerDecisions
 ---@return PassengerDecisions
 function PassengerDecisions.new(fields) return end
 

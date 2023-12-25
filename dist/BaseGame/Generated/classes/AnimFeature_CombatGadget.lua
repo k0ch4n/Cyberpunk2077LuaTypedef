@@ -7,6 +7,6 @@
 ---@field public isDetonated Bool
 AnimFeature_CombatGadget = {}
 
----@param fields? table
+---@param fields? AnimFeature_CombatGadget
 ---@return AnimFeature_CombatGadget
 function AnimFeature_CombatGadget.new(fields) return end

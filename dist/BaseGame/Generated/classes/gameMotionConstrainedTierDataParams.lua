@@ -10,6 +10,6 @@
 ---@field public notificationBackwardIndex Int32
 gameMotionConstrainedTierDataParams = {}
 
----@param fields? table
+---@param fields? gameMotionConstrainedTierDataParams
 ---@return gameMotionConstrainedTierDataParams
 function gameMotionConstrainedTierDataParams.new(fields) return end

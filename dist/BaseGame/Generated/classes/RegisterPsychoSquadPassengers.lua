@@ -4,7 +4,7 @@
 ---@class RegisterPsychoSquadPassengers: AIbehaviortaskScript
 RegisterPsychoSquadPassengers = {}
 
----@param fields? table
+---@param fields? RegisterPsychoSquadPassengers
 ---@return RegisterPsychoSquadPassengers
 function RegisterPsychoSquadPassengers.new(fields) return end
 

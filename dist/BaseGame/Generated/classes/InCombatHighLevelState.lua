@@ -4,7 +4,7 @@
 ---@class InCombatHighLevelState: AINPCHighLevelStateCheck
 InCombatHighLevelState = {}
 
----@param fields? table
+---@param fields? InCombatHighLevelState
 ---@return InCombatHighLevelState
 function InCombatHighLevelState.new(fields) return end
 

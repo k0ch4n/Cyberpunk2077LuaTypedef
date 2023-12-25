@@ -14,7 +14,7 @@
 ---@field public charCache inkScriptStringMap
 Codeware_UI_TextInput_TextMeasurer = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput_TextMeasurer
 ---@return Codeware_UI_TextInput_TextMeasurer
 function Codeware_UI_TextInput_TextMeasurer.new(fields) return end
 

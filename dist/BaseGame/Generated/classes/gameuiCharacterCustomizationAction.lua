@@ -8,6 +8,6 @@
 ---@field public applyImmediately Bool
 gameuiCharacterCustomizationAction = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationAction
 ---@return gameuiCharacterCustomizationAction
 function gameuiCharacterCustomizationAction.new(fields) return end

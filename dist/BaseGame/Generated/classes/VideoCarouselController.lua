@@ -16,7 +16,7 @@
 ---@field private isPaused Bool
 VideoCarouselController = {}
 
----@param fields? table
+---@param fields? VideoCarouselController
 ---@return VideoCarouselController
 function VideoCarouselController.new(fields) return end
 

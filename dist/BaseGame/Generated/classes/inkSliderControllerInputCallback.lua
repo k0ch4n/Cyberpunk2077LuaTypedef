@@ -4,6 +4,6 @@
 ---@class inkSliderControllerInputCallback: inkCallbackBase
 inkSliderControllerInputCallback = {}
 
----@param fields? table
+---@param fields? inkSliderControllerInputCallback
 ---@return inkSliderControllerInputCallback
 function inkSliderControllerInputCallback.new(fields) return end

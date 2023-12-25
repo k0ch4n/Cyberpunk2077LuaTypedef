@@ -10,7 +10,7 @@
 ---@field private rotationInterpolator inkanimRotationInterpolator
 LoadingScreenProgressBarController = {}
 
----@param fields? table
+---@param fields? LoadingScreenProgressBarController
 ---@return LoadingScreenProgressBarController
 function LoadingScreenProgressBarController.new(fields) return end
 

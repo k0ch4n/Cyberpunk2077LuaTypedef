@@ -5,7 +5,7 @@
 ---@field public channel TweakDBID
 SetGlobalTvChannel = {}
 
----@param fields? table
+---@param fields? SetGlobalTvChannel
 ---@return SetGlobalTvChannel
 function SetGlobalTvChannel.new(fields) return end
 

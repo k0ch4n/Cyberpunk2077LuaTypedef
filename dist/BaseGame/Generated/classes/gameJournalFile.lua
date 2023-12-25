@@ -9,7 +9,7 @@
 ---@field public pictureTweak TweakDBID
 gameJournalFile = {}
 
----@param fields? table
+---@param fields? gameJournalFile
 ---@return gameJournalFile
 function gameJournalFile.new(fields) return end
 

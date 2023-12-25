@@ -7,7 +7,7 @@
 ---@field private DefaultStateName CName
 ButtonCursorStateView = {}
 
----@param fields? table
+---@param fields? ButtonCursorStateView
 ---@return ButtonCursorStateView
 function ButtonCursorStateView.new(fields) return end
 

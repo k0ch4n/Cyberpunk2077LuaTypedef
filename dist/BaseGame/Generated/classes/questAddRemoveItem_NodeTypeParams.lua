@@ -16,6 +16,6 @@
 ---@field public tagsToIgnoreOnRemove CName[]
 questAddRemoveItem_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questAddRemoveItem_NodeTypeParams
 ---@return questAddRemoveItem_NodeTypeParams
 function questAddRemoveItem_NodeTypeParams.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public groupName CName
 questCharacterManagerParameters_SetAttitudeGroupForPuppet = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetAttitudeGroupForPuppet
 ---@return questCharacterManagerParameters_SetAttitudeGroupForPuppet
 function questCharacterManagerParameters_SetAttitudeGroupForPuppet.new(fields) return end

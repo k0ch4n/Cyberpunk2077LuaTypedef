@@ -5,6 +5,6 @@
 ---@field public hour communityECommunitySpawnTime
 communityTimePeriod = {}
 
----@param fields? table
+---@param fields? communityTimePeriod
 ---@return communityTimePeriod
 function communityTimePeriod.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public weaponStates gameWeaponsReplicatedState
 gameNpcPuppetReplicatedState = {}
 
----@param fields? table
+---@param fields? gameNpcPuppetReplicatedState
 ---@return gameNpcPuppetReplicatedState
 function gameNpcPuppetReplicatedState.new(fields) return end

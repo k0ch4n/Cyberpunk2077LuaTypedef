@@ -5,7 +5,7 @@
 ---@field private fanSetup FanSetup
 FanControllerPS = {}
 
----@param fields? table
+---@param fields? FanControllerPS
 ---@return FanControllerPS
 function FanControllerPS.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public logInModelSpace Bool
 animPoseInfoLoggerEntry_Transform = {}
 
----@param fields? table
+---@param fields? animPoseInfoLoggerEntry_Transform
 ---@return animPoseInfoLoggerEntry_Transform
 function animPoseInfoLoggerEntry_Transform.new(fields) return end

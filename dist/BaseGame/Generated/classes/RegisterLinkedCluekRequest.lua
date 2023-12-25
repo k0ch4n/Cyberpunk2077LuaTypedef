@@ -6,6 +6,6 @@
 ---@field public forceUpdate Bool
 RegisterLinkedCluekRequest = {}
 
----@param fields? table
+---@param fields? RegisterLinkedCluekRequest
 ---@return RegisterLinkedCluekRequest
 function RegisterLinkedCluekRequest.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public id Uint64
 scnSceneEventId = {}
 
----@param fields? table
+---@param fields? scnSceneEventId
 ---@return scnSceneEventId
 function scnSceneEventId.new(fields) return end

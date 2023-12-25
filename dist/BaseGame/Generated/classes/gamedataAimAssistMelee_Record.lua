@@ -4,7 +4,7 @@
 ---@class gamedataAimAssistMelee_Record: gamedataTweakDBRecord
 gamedataAimAssistMelee_Record = {}
 
----@param fields? table
+---@param fields? gamedataAimAssistMelee_Record
 ---@return gamedataAimAssistMelee_Record
 function gamedataAimAssistMelee_Record.new(fields) return end
 

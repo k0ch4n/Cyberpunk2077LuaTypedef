@@ -5,7 +5,7 @@
 ---@field public slowMoSet Bool
 MeleeDeflectAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeDeflectAttackEvents
 ---@return MeleeDeflectAttackEvents
 function MeleeDeflectAttackEvents.new(fields) return end
 

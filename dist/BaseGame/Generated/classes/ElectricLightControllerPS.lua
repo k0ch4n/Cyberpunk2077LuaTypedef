@@ -6,7 +6,7 @@
 ---@field private wasCLSInitTriggered Bool
 ElectricLightControllerPS = {}
 
----@param fields? table
+---@param fields? ElectricLightControllerPS
 ---@return ElectricLightControllerPS
 function ElectricLightControllerPS.new(fields) return end
 

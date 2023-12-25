@@ -4,7 +4,7 @@
 ---@class OpenWardrobeUI: ActionBool
 OpenWardrobeUI = {}
 
----@param fields? table
+---@param fields? OpenWardrobeUI
 ---@return OpenWardrobeUI
 function OpenWardrobeUI.new(fields) return end
 

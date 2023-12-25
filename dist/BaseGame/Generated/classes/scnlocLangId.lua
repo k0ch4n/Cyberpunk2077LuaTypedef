@@ -5,6 +5,6 @@
 ---@field public langId Uint8
 scnlocLangId = {}
 
----@param fields? table
+---@param fields? scnlocLangId
 ---@return scnlocLangId
 function scnlocLangId.new(fields) return end

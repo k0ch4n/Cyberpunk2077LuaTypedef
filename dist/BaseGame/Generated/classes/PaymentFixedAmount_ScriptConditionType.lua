@@ -5,7 +5,7 @@
 ---@field public payAmount Uint32
 PaymentFixedAmount_ScriptConditionType = {}
 
----@param fields? table
+---@param fields? PaymentFixedAmount_ScriptConditionType
 ---@return PaymentFixedAmount_ScriptConditionType
 function PaymentFixedAmount_ScriptConditionType.new(fields) return end
 

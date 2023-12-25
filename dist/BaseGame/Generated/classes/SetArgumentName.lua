@@ -5,7 +5,7 @@
 ---@field public customVar CName
 SetArgumentName = {}
 
----@param fields? table
+---@param fields? SetArgumentName
 ---@return SetArgumentName
 function SetArgumentName.new(fields) return end
 

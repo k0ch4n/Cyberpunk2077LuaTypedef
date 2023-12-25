@@ -4,6 +4,6 @@
 ---@class gameFootstepEvent: redEvent
 gameFootstepEvent = {}
 
----@param fields? table
+---@param fields? gameFootstepEvent
 ---@return gameFootstepEvent
 function gameFootstepEvent.new(fields) return end

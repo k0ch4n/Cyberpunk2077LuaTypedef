@@ -15,6 +15,6 @@
 ---@field public conclusionQuestState EConclusionQuestState
 FocusClueDefinition = {}
 
----@param fields? table
+---@param fields? FocusClueDefinition
 ---@return FocusClueDefinition
 function FocusClueDefinition.new(fields) return end

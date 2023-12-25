@@ -8,6 +8,6 @@
 ---@field public hudTooltipStylePath redResourceReferenceScriptToken
 TooltipWidgetStyledReference = {}
 
----@param fields? table
+---@param fields? TooltipWidgetStyledReference
 ---@return TooltipWidgetStyledReference
 function TooltipWidgetStyledReference.new(fields) return end

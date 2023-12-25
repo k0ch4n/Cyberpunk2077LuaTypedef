@@ -5,7 +5,7 @@
 ---@field public transitionOwner DefaultTransition
 DefaultTransitionAttachmentSlotsCallback = {}
 
----@param fields? table
+---@param fields? DefaultTransitionAttachmentSlotsCallback
 ---@return DefaultTransitionAttachmentSlotsCallback
 function DefaultTransitionAttachmentSlotsCallback.new(fields) return end
 

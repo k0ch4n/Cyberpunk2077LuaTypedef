@@ -6,6 +6,6 @@
 ---@field public names Uint8[]
 DynamicEntitySystemPS = {}
 
----@param fields? table
+---@param fields? DynamicEntitySystemPS
 ---@return DynamicEntitySystemPS
 function DynamicEntitySystemPS.new(fields) return end

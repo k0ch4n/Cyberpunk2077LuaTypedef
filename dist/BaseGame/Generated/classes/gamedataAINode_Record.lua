@@ -4,7 +4,7 @@
 ---@class gamedataAINode_Record: gamedataAIRecord_Record
 gamedataAINode_Record = {}
 
----@param fields? table
+---@param fields? gamedataAINode_Record
 ---@return gamedataAINode_Record
 function gamedataAINode_Record.new(fields) return end
 

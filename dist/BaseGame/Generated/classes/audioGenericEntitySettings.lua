@@ -4,6 +4,6 @@
 ---@class audioGenericEntitySettings: audioEntitySettings
 audioGenericEntitySettings = {}
 
----@param fields? table
+---@param fields? audioGenericEntitySettings
 ---@return audioGenericEntitySettings
 function audioGenericEntitySettings.new(fields) return end

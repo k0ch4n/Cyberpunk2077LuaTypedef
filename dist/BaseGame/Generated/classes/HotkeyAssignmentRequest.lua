@@ -7,7 +7,7 @@
 ---@field protected requestType EHotkeyRequestType
 HotkeyAssignmentRequest = {}
 
----@param fields? table
+---@param fields? HotkeyAssignmentRequest
 ---@return HotkeyAssignmentRequest
 function HotkeyAssignmentRequest.new(fields) return end
 

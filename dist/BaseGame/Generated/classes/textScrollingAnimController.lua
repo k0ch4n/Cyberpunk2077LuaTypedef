@@ -23,7 +23,7 @@
 ---@field private lineCount Int32
 textScrollingAnimController = {}
 
----@param fields? table
+---@param fields? textScrollingAnimController
 ---@return textScrollingAnimController
 function textScrollingAnimController.new(fields) return end
 

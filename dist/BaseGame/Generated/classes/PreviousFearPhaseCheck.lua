@@ -5,7 +5,7 @@
 ---@field public fearPhase Int32
 PreviousFearPhaseCheck = {}
 
----@param fields? table
+---@param fields? PreviousFearPhaseCheck
 ---@return PreviousFearPhaseCheck
 function PreviousFearPhaseCheck.new(fields) return end
 

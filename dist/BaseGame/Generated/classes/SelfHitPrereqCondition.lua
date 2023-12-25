@@ -4,7 +4,7 @@
 ---@class SelfHitPrereqCondition: BaseHitPrereqCondition
 SelfHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? SelfHitPrereqCondition
 ---@return SelfHitPrereqCondition
 function SelfHitPrereqCondition.new(fields) return end
 

@@ -19,7 +19,7 @@
 ---@field private vehPlayerStateDataCallback redCallbackObject
 VehicleMappinComponent = {}
 
----@param fields? table
+---@param fields? VehicleMappinComponent
 ---@return VehicleMappinComponent
 function VehicleMappinComponent.new(fields) return end
 

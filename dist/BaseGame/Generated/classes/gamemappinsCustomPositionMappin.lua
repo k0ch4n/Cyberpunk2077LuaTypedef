@@ -4,6 +4,6 @@
 ---@class gamemappinsCustomPositionMappin: gamemappinsRuntimeMappin
 gamemappinsCustomPositionMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsCustomPositionMappin
 ---@return gamemappinsCustomPositionMappin
 function gamemappinsCustomPositionMappin.new(fields) return end

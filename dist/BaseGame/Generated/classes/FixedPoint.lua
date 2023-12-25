@@ -5,6 +5,6 @@
 ---@field public Bits Int32
 FixedPoint = {}
 
----@param fields? table
+---@param fields? FixedPoint
 ---@return FixedPoint
 function FixedPoint.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public faces GeometryShapeFace[]
 GeometryShape = {}
 
----@param fields? table
+---@param fields? GeometryShape
 ---@return GeometryShape
 function GeometryShape.new(fields) return end

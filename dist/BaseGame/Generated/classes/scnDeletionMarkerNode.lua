@@ -4,6 +4,6 @@
 ---@class scnDeletionMarkerNode: scnSceneGraphNode
 scnDeletionMarkerNode = {}
 
----@param fields? table
+---@param fields? scnDeletionMarkerNode
 ---@return scnDeletionMarkerNode
 function scnDeletionMarkerNode.new(fields) return end

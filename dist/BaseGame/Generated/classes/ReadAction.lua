@@ -4,7 +4,7 @@
 ---@class ReadAction: BaseItemAction
 ReadAction = {}
 
----@param fields? table
+---@param fields? ReadAction
 ---@return ReadAction
 function ReadAction.new(fields) return end
 

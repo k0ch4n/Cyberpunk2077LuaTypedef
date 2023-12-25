@@ -23,7 +23,7 @@
 ---@field private animationCounterProxy inkanimProxy
 VehicleSummonWidgetGameController = {}
 
----@param fields? table
+---@param fields? VehicleSummonWidgetGameController
 ---@return VehicleSummonWidgetGameController
 function VehicleSummonWidgetGameController.new(fields) return end
 

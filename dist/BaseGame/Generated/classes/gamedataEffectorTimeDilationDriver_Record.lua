@@ -4,7 +4,7 @@
 ---@class gamedataEffectorTimeDilationDriver_Record: gamedataTweakDBRecord
 gamedataEffectorTimeDilationDriver_Record = {}
 
----@param fields? table
+---@param fields? gamedataEffectorTimeDilationDriver_Record
 ---@return gamedataEffectorTimeDilationDriver_Record
 function gamedataEffectorTimeDilationDriver_Record.new(fields) return end
 

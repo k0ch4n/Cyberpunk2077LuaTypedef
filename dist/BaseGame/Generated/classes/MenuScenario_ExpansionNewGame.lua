@@ -4,7 +4,7 @@
 ---@class MenuScenario_ExpansionNewGame: MenuScenario_PreGameSubMenu
 MenuScenario_ExpansionNewGame = {}
 
----@param fields? table
+---@param fields? MenuScenario_ExpansionNewGame
 ---@return MenuScenario_ExpansionNewGame
 function MenuScenario_ExpansionNewGame.new(fields) return end
 

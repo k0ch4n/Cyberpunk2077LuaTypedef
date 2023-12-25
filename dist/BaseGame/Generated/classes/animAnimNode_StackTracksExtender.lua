@@ -6,6 +6,6 @@
 ---@field public newTracks animFloatTrackInfo[]
 animAnimNode_StackTracksExtender = {}
 
----@param fields? table
+---@param fields? animAnimNode_StackTracksExtender
 ---@return animAnimNode_StackTracksExtender
 function animAnimNode_StackTracksExtender.new(fields) return end

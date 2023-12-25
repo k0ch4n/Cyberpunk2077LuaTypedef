@@ -8,6 +8,6 @@
 ---@field public draggedOff Bool
 AnimFeature_KnockOffData = {}
 
----@param fields? table
+---@param fields? AnimFeature_KnockOffData
 ---@return AnimFeature_KnockOffData
 function AnimFeature_KnockOffData.new(fields) return end

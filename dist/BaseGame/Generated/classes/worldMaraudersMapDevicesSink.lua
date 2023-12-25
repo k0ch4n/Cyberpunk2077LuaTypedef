@@ -4,7 +4,7 @@
 ---@class worldMaraudersMapDevicesSink: IScriptable
 worldMaraudersMapDevicesSink = {}
 
----@param fields? table
+---@param fields? worldMaraudersMapDevicesSink
 ---@return worldMaraudersMapDevicesSink
 function worldMaraudersMapDevicesSink.new(fields) return end
 

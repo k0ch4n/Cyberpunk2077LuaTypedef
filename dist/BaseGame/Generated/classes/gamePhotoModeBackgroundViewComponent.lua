@@ -6,6 +6,6 @@
 ---@field public targetPointRef NodeRef
 gamePhotoModeBackgroundViewComponent = {}
 
----@param fields? table
+---@param fields? gamePhotoModeBackgroundViewComponent
 ---@return gamePhotoModeBackgroundViewComponent
 function gamePhotoModeBackgroundViewComponent.new(fields) return end

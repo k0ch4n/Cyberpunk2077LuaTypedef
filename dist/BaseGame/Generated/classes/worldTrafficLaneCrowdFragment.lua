@@ -8,6 +8,6 @@
 ---@field public laneX2 Float
 worldTrafficLaneCrowdFragment = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneCrowdFragment
 ---@return worldTrafficLaneCrowdFragment
 function worldTrafficLaneCrowdFragment.new(fields) return end

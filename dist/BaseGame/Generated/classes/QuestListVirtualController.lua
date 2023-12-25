@@ -10,7 +10,7 @@
 ---@field private questSortType QuestListSortType
 QuestListVirtualController = {}
 
----@param fields? table
+---@param fields? QuestListVirtualController
 ---@return QuestListVirtualController
 function QuestListVirtualController.new(fields) return end
 

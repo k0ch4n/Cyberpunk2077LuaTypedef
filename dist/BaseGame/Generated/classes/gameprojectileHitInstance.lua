@@ -16,6 +16,6 @@
 ---@field public hitThroughWaterSurface Bool
 gameprojectileHitInstance = {}
 
----@param fields? table
+---@param fields? gameprojectileHitInstance
 ---@return gameprojectileHitInstance
 function gameprojectileHitInstance.new(fields) return end

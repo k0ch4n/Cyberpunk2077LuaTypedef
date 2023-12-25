@@ -7,7 +7,7 @@
 ---@field private currentQuestSortType QuestListSortType
 QuestListVirtualDataView = {}
 
----@param fields? table
+---@param fields? QuestListVirtualDataView
 ---@return QuestListVirtualDataView
 function QuestListVirtualDataView.new(fields) return end
 

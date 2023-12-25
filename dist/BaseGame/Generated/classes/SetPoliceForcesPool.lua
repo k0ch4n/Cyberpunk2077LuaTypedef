@@ -9,7 +9,7 @@
 ---@field public source CName
 SetPoliceForcesPool = {}
 
----@param fields? table
+---@param fields? SetPoliceForcesPool
 ---@return SetPoliceForcesPool
 function SetPoliceForcesPool.new(fields) return end
 

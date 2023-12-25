@@ -6,6 +6,6 @@
 ---@field public delay Float
 entAnimInputSetterAnimFeature = {}
 
----@param fields? table
+---@param fields? entAnimInputSetterAnimFeature
 ---@return entAnimInputSetterAnimFeature
 function entAnimInputSetterAnimFeature.new(fields) return end

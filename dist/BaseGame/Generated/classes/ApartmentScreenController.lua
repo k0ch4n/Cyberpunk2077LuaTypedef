@@ -4,7 +4,7 @@
 ---@class ApartmentScreenController: LcdScreenController
 ApartmentScreenController = {}
 
----@param fields? table
+---@param fields? ApartmentScreenController
 ---@return ApartmentScreenController
 function ApartmentScreenController.new(fields) return end
 

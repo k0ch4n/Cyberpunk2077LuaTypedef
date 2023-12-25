@@ -5,6 +5,6 @@
 ---@field public type questIEntityManager_NodeType
 questEntityManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questEntityManagerNodeDefinition
 ---@return questEntityManagerNodeDefinition
 function questEntityManagerNodeDefinition.new(fields) return end

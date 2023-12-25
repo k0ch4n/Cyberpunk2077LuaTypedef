@@ -4,6 +4,6 @@
 ---@class inkPointerEventCallback: inkCallbackBase
 inkPointerEventCallback = {}
 
----@param fields? table
+---@param fields? inkPointerEventCallback
 ---@return inkPointerEventCallback
 function inkPointerEventCallback.new(fields) return end

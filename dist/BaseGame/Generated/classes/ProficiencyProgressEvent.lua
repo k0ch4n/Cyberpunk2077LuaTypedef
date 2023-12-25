@@ -10,6 +10,6 @@
 ---@field public isLevelMaxed Bool
 ProficiencyProgressEvent = {}
 
----@param fields? table
+---@param fields? ProficiencyProgressEvent
 ---@return ProficiencyProgressEvent
 function ProficiencyProgressEvent.new(fields) return end

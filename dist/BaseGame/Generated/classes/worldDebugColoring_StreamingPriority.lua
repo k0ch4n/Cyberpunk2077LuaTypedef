@@ -4,6 +4,6 @@
 ---@class worldDebugColoring_StreamingPriority: worldEditorDebugColoringSettings
 worldDebugColoring_StreamingPriority = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_StreamingPriority
 ---@return worldDebugColoring_StreamingPriority
 function worldDebugColoring_StreamingPriority.new(fields) return end

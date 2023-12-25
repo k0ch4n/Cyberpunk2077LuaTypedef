@@ -5,7 +5,7 @@
 ---@field protected timeTable SDeviceTimetableEntry[]
 DeviceTimeTableManager = {}
 
----@param fields? table
+---@param fields? DeviceTimeTableManager
 ---@return DeviceTimeTableManager
 function DeviceTimeTableManager.new(fields) return end
 

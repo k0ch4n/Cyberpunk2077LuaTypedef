@@ -4,7 +4,7 @@
 ---@class LookAtTargetExecutor: gameEffectExecutor_Scripted
 LookAtTargetExecutor = {}
 
----@param fields? table
+---@param fields? LookAtTargetExecutor
 ---@return LookAtTargetExecutor
 function LookAtTargetExecutor.new(fields) return end
 

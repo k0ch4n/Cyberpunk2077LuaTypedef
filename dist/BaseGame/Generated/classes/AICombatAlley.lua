@@ -4,7 +4,7 @@
 ---@class AICombatAlley: IScriptable
 AICombatAlley = {}
 
----@param fields? table
+---@param fields? AICombatAlley
 ---@return AICombatAlley
 function AICombatAlley.new(fields) return end
 

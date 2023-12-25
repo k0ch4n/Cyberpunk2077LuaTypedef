@@ -15,7 +15,7 @@
 ---@field private slotOccupiedTimestamp Float
 ApproachVehicleDecorator = {}
 
----@param fields? table
+---@param fields? ApproachVehicleDecorator
 ---@return ApproachVehicleDecorator
 function ApproachVehicleDecorator.new(fields) return end
 

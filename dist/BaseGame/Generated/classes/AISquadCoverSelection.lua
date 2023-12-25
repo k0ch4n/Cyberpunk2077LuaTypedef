@@ -4,6 +4,6 @@
 ---@class AISquadCoverSelection: AICoverSelectionParameters
 AISquadCoverSelection = {}
 
----@param fields? table
+---@param fields? AISquadCoverSelection
 ---@return AISquadCoverSelection
 function AISquadCoverSelection.new(fields) return end

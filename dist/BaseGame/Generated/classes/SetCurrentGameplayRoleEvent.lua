@@ -5,6 +5,6 @@
 ---@field public gameplayRole EGameplayRole
 SetCurrentGameplayRoleEvent = {}
 
----@param fields? table
+---@param fields? SetCurrentGameplayRoleEvent
 ---@return SetCurrentGameplayRoleEvent
 function SetCurrentGameplayRoleEvent.new(fields) return end

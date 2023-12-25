@@ -7,7 +7,7 @@
 ---@field protected valueWidget inkTextWidgetReference
 InventoryStatsEntryController = {}
 
----@param fields? table
+---@param fields? InventoryStatsEntryController
 ---@return InventoryStatsEntryController
 function InventoryStatsEntryController.new(fields) return end
 

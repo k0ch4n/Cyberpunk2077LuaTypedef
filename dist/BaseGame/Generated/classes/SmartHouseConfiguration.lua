@@ -6,6 +6,6 @@
 ---@field public factName CName
 SmartHouseConfiguration = {}
 
----@param fields? table
+---@param fields? SmartHouseConfiguration
 ---@return SmartHouseConfiguration
 function SmartHouseConfiguration.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public debugCommand gameMuppetDebugCommand
 gameMuppetInputActionDebugCommand = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionDebugCommand
 ---@return gameMuppetInputActionDebugCommand
 function gameMuppetInputActionDebugCommand.new(fields) return end

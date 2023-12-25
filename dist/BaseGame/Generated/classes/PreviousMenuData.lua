@@ -5,6 +5,6 @@
 ---@field public openMenuRequest OpenMenuRequest
 PreviousMenuData = {}
 
----@param fields? table
+---@param fields? PreviousMenuData
 ---@return PreviousMenuData
 function PreviousMenuData.new(fields) return end

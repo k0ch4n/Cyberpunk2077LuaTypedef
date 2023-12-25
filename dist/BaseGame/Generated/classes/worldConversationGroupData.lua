@@ -8,6 +8,6 @@
 ---@field public ignoreGlobalLimit Bool
 worldConversationGroupData = {}
 
----@param fields? table
+---@param fields? worldConversationGroupData
 ---@return worldConversationGroupData
 function worldConversationGroupData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class GoToFloor: ActionBool
 GoToFloor = {}
 
----@param fields? table
+---@param fields? GoToFloor
 ---@return GoToFloor
 function GoToFloor.new(fields) return end
 

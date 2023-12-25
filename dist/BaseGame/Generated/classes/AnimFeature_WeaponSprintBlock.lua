@@ -5,6 +5,6 @@
 ---@field public active Bool
 AnimFeature_WeaponSprintBlock = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponSprintBlock
 ---@return AnimFeature_WeaponSprintBlock
 function AnimFeature_WeaponSprintBlock.new(fields) return end

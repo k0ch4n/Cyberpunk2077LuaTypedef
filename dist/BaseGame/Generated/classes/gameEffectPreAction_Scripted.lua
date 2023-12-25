@@ -4,6 +4,6 @@
 ---@class gameEffectPreAction_Scripted: gameEffectPreAction
 gameEffectPreAction_Scripted = {}
 
----@param fields? table
+---@param fields? gameEffectPreAction_Scripted
 ---@return gameEffectPreAction_Scripted
 function gameEffectPreAction_Scripted.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestEnterNoAnimation: ActionBool
 QuestEnterNoAnimation = {}
 
----@param fields? table
+---@param fields? QuestEnterNoAnimation
 ---@return QuestEnterNoAnimation
 function QuestEnterNoAnimation.new(fields) return end
 

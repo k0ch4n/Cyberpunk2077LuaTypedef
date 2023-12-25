@@ -4,6 +4,6 @@
 ---@class CRenderDistantIrradiancetData: ISceneStorageCustomData
 CRenderDistantIrradiancetData = {}
 
----@param fields? table
+---@param fields? CRenderDistantIrradiancetData
 ---@return CRenderDistantIrradiancetData
 function CRenderDistantIrradiancetData.new(fields) return end

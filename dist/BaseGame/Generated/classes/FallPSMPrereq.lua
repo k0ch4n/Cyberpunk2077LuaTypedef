@@ -4,7 +4,7 @@
 ---@class FallPSMPrereq: PlayerStateMachinePrereq
 FallPSMPrereq = {}
 
----@param fields? table
+---@param fields? FallPSMPrereq
 ---@return FallPSMPrereq
 function FallPSMPrereq.new(fields) return end
 

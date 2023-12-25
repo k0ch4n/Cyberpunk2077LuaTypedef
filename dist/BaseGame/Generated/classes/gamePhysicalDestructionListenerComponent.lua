@@ -6,6 +6,6 @@
 ---@field public thresholdLevels Float[]
 gamePhysicalDestructionListenerComponent = {}
 
----@param fields? table
+---@param fields? gamePhysicalDestructionListenerComponent
 ---@return gamePhysicalDestructionListenerComponent
 function gamePhysicalDestructionListenerComponent.new(fields) return end

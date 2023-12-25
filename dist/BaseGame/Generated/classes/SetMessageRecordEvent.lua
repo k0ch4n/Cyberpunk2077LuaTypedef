@@ -7,7 +7,7 @@
 ---@field public customNumber Int32
 SetMessageRecordEvent = {}
 
----@param fields? table
+---@param fields? SetMessageRecordEvent
 ---@return SetMessageRecordEvent
 function SetMessageRecordEvent.new(fields) return end
 

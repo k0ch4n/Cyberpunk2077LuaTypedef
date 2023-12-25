@@ -5,7 +5,7 @@
 ---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
 EquipCycleInitEvents = {}
 
----@param fields? table
+---@param fields? EquipCycleInitEvents
 ---@return EquipCycleInitEvents
 function EquipCycleInitEvents.new(fields) return end
 

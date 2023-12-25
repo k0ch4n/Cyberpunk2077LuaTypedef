@@ -11,6 +11,6 @@
 ---@field public dontRepeatLastAnims Int8
 workRandomList = {}
 
----@param fields? table
+---@param fields? workRandomList
 ---@return workRandomList
 function workRandomList.new(fields) return end

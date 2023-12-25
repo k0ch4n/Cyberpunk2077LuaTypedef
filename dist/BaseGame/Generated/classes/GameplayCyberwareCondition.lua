@@ -5,7 +5,7 @@
 ---@field public cyberwareToCheck TweakDBID
 GameplayCyberwareCondition = {}
 
----@param fields? table
+---@param fields? GameplayCyberwareCondition
 ---@return GameplayCyberwareCondition
 function GameplayCyberwareCondition.new(fields) return end
 

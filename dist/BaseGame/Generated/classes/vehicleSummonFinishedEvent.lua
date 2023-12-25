@@ -5,6 +5,6 @@
 ---@field public state vehicleSummonState
 vehicleSummonFinishedEvent = {}
 
----@param fields? table
+---@param fields? vehicleSummonFinishedEvent
 ---@return vehicleSummonFinishedEvent
 function vehicleSummonFinishedEvent.new(fields) return end

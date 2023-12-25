@@ -5,6 +5,6 @@
 ---@field public magnitude questImpulseMagnitude
 questVehicleCollision_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleCollision_ConditionType
 ---@return questVehicleCollision_ConditionType
 function questVehicleCollision_ConditionType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameEffectPreloadScriptContext
 gameEffectPreloadScriptContext = {}
 
----@param fields? table
+---@param fields? gameEffectPreloadScriptContext
 ---@return gameEffectPreloadScriptContext
 function gameEffectPreloadScriptContext.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldFoliageDestructionNodeInstance: worldCollisionNodeInstance
 worldFoliageDestructionNodeInstance = {}
 
----@param fields? table
+---@param fields? worldFoliageDestructionNodeInstance
 ---@return worldFoliageDestructionNodeInstance
 function worldFoliageDestructionNodeInstance.new(fields) return end

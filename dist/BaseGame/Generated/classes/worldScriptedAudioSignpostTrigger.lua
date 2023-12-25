@@ -4,7 +4,7 @@
 ---@class worldScriptedAudioSignpostTrigger: IScriptable
 worldScriptedAudioSignpostTrigger = {}
 
----@param fields? table
+---@param fields? worldScriptedAudioSignpostTrigger
 ---@return worldScriptedAudioSignpostTrigger
 function worldScriptedAudioSignpostTrigger.new(fields) return end
 

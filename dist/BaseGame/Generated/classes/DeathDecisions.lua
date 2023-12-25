@@ -4,7 +4,7 @@
 ---@class DeathDecisions: HighLevelTransition
 DeathDecisions = {}
 
----@param fields? table
+---@param fields? DeathDecisions
 ---@return DeathDecisions
 function DeathDecisions.new(fields) return end
 

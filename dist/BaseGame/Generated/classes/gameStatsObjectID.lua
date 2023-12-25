@@ -6,7 +6,7 @@
 ---@field public idType gameStatIDType
 gameStatsObjectID = {}
 
----@param fields? table
+---@param fields? gameStatsObjectID
 ---@return gameStatsObjectID
 function gameStatsObjectID.new(fields) return end
 

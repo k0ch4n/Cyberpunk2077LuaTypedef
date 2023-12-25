@@ -8,7 +8,7 @@
 ---@field public offset inkMargin
 inkComboBoxObjectController = {}
 
----@param fields? table
+---@param fields? inkComboBoxObjectController
 ---@return inkComboBoxObjectController
 function inkComboBoxObjectController.new(fields) return end
 

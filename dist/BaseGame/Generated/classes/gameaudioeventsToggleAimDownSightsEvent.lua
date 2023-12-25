@@ -5,6 +5,6 @@
 ---@field public toggleOn Bool
 gameaudioeventsToggleAimDownSightsEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsToggleAimDownSightsEvent
 ---@return gameaudioeventsToggleAimDownSightsEvent
 function gameaudioeventsToggleAimDownSightsEvent.new(fields) return end

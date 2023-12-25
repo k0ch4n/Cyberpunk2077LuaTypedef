@@ -29,7 +29,7 @@
 ---@field private HudRedLineAnimation inkanimProxy
 vehicleInteriorUIGameController = {}
 
----@param fields? table
+---@param fields? vehicleInteriorUIGameController
 ---@return vehicleInteriorUIGameController
 function vehicleInteriorUIGameController.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field public ItemActivated inkListControllerCallback
 inkListController = {}
 
----@param fields? table
+---@param fields? inkListController
 ---@return inkListController
 function inkListController.new(fields) return end
 

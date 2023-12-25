@@ -4,7 +4,7 @@
 ---@class PerkAttributeHelper
 PerkAttributeHelper = {}
 
----@param fields? table
+---@param fields? PerkAttributeHelper
 ---@return PerkAttributeHelper
 function PerkAttributeHelper.new(fields) return end
 

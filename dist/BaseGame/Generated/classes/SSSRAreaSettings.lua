@@ -6,6 +6,6 @@
 ---@field public depthFadeEnd Float
 SSSRAreaSettings = {}
 
----@param fields? table
+---@param fields? SSSRAreaSettings
 ---@return SSSRAreaSettings
 function SSSRAreaSettings.new(fields) return end

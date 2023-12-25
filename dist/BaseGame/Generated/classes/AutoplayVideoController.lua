@@ -4,7 +4,7 @@
 ---@class AutoplayVideoController: inkWidgetLogicController
 AutoplayVideoController = {}
 
----@param fields? table
+---@param fields? AutoplayVideoController
 ---@return AutoplayVideoController
 function AutoplayVideoController.new(fields) return end
 

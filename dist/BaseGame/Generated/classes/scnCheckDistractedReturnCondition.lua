@@ -5,6 +5,6 @@
 ---@field public params scnCheckDistractedReturnConditionParams
 scnCheckDistractedReturnCondition = {}
 
----@param fields? table
+---@param fields? scnCheckDistractedReturnCondition
 ---@return scnCheckDistractedReturnCondition
 function scnCheckDistractedReturnCondition.new(fields) return end

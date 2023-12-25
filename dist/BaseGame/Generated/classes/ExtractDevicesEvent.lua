@@ -8,6 +8,6 @@
 ---@field public lastExtractedIndex Int32
 ExtractDevicesEvent = {}
 
----@param fields? table
+---@param fields? ExtractDevicesEvent
 ---@return ExtractDevicesEvent
 function ExtractDevicesEvent.new(fields) return end

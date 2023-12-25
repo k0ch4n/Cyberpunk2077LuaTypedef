@@ -7,6 +7,6 @@
 ---@field public additionalContentName CName
 gsmMainQuest = {}
 
----@param fields? table
+---@param fields? gsmMainQuest
 ---@return gsmMainQuest
 function gsmMainQuest.new(fields) return end

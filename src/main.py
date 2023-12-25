@@ -277,7 +277,7 @@ class Annotation:
         self.add_custom(f"function {self.class_name}{operator}{name}({separator.join(param_names)}) return end")
 
     def add_constructor(self):
-        params = [{"name": "fields", "type": "table", "flags": Flags.Property.isOptional}]
+        params = [{"name": "fields", "type": self.class_name, "flags": Flags.Property.isOptional}]
         flags = Flags.Function.isStatic
 
         self.add_function("new", self.class_name, params, flags)

@@ -5,6 +5,6 @@
 ---@field public menuData MenuData
 MenuItemData = {}
 
----@param fields? table
+---@param fields? MenuItemData
 ---@return MenuItemData
 function MenuItemData.new(fields) return end

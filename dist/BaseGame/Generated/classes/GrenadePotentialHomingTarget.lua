@@ -6,6 +6,6 @@
 ---@field public targetSlot CName
 GrenadePotentialHomingTarget = {}
 
----@param fields? table
+---@param fields? GrenadePotentialHomingTarget
 ---@return GrenadePotentialHomingTarget
 function GrenadePotentialHomingTarget.new(fields) return end

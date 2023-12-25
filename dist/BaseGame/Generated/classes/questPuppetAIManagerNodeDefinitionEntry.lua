@@ -6,6 +6,6 @@
 ---@field public aiTier gameStoryTier
 questPuppetAIManagerNodeDefinitionEntry = {}
 
----@param fields? table
+---@param fields? questPuppetAIManagerNodeDefinitionEntry
 ---@return questPuppetAIManagerNodeDefinitionEntry
 function questPuppetAIManagerNodeDefinitionEntry.new(fields) return end

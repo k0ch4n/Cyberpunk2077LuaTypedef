@@ -13,7 +13,7 @@
 ---@field private isInTimeWindow Bool
 BraindanceClueLogicController = {}
 
----@param fields? table
+---@param fields? BraindanceClueLogicController
 ---@return BraindanceClueLogicController
 function BraindanceClueLogicController.new(fields) return end
 

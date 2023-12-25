@@ -9,6 +9,6 @@
 ---@field public forceMaxVisibility Bool
 scnFindEntityInContextParams = {}
 
----@param fields? table
+---@param fields? scnFindEntityInContextParams
 ---@return scnFindEntityInContextParams
 function scnFindEntityInContextParams.new(fields) return end

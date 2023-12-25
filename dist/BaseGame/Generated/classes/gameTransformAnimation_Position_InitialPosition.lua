@@ -6,6 +6,6 @@
 ---@field public offsetInWorldSpace Bool
 gameTransformAnimation_Position_InitialPosition = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Position_InitialPosition
 ---@return gameTransformAnimation_Position_InitialPosition
 function gameTransformAnimation_Position_InitialPosition.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public conditionList workIWorkspotCondition[]
 workConditionalSequence = {}
 
----@param fields? table
+---@param fields? workConditionalSequence
 ---@return workConditionalSequence
 function workConditionalSequence.new(fields) return end

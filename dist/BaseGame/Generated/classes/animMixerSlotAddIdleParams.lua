@@ -4,6 +4,6 @@
 ---@class animMixerSlotAddIdleParams: ISerializable
 animMixerSlotAddIdleParams = {}
 
----@param fields? table
+---@param fields? animMixerSlotAddIdleParams
 ---@return animMixerSlotAddIdleParams
 function animMixerSlotAddIdleParams.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public applyAfterUpsampling Bool
 FilmGrainAreaSettings = {}
 
----@param fields? table
+---@param fields? FilmGrainAreaSettings
 ---@return FilmGrainAreaSettings
 function FilmGrainAreaSettings.new(fields) return end

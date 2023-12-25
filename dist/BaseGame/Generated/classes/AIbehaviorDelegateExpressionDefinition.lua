@@ -6,6 +6,6 @@
 ---@field public behaviorCallbackNames CName[]
 AIbehaviorDelegateExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDelegateExpressionDefinition
 ---@return AIbehaviorDelegateExpressionDefinition
 function AIbehaviorDelegateExpressionDefinition.new(fields) return end

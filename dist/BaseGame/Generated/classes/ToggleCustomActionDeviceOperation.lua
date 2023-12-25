@@ -6,7 +6,7 @@
 ---@field public enabled Bool
 ToggleCustomActionDeviceOperation = {}
 
----@param fields? table
+---@param fields? ToggleCustomActionDeviceOperation
 ---@return ToggleCustomActionDeviceOperation
 function ToggleCustomActionDeviceOperation.new(fields) return end
 

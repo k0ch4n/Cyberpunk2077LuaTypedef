@@ -10,7 +10,7 @@
 ---@field private levelsControllers NewPerksSkillLevelLogicController[]
 NewPerksSkillBarLogicController = {}
 
----@param fields? table
+---@param fields? NewPerksSkillBarLogicController
 ---@return NewPerksSkillBarLogicController
 function NewPerksSkillBarLogicController.new(fields) return end
 

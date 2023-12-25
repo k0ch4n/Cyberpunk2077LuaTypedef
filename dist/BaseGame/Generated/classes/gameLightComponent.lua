@@ -21,7 +21,7 @@
 ---@field public genericCurveSetOverride CurveSet
 gameLightComponent = {}
 
----@param fields? table
+---@param fields? gameLightComponent
 ---@return gameLightComponent
 function gameLightComponent.new(fields) return end
 

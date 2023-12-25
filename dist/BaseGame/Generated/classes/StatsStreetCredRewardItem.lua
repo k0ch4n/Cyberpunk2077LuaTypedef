@@ -7,7 +7,7 @@
 ---@field private data LevelRewardDisplayData
 StatsStreetCredRewardItem = {}
 
----@param fields? table
+---@param fields? StatsStreetCredRewardItem
 ---@return StatsStreetCredRewardItem
 function StatsStreetCredRewardItem.new(fields) return end
 

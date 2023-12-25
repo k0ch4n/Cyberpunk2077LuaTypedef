@@ -18,7 +18,7 @@
 ---@field public holdTickProxy inkanimProxy
 Codeware_UI_TextInput = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput
 ---@return Codeware_UI_TextInput
 function Codeware_UI_TextInput.new(fields) return end
 

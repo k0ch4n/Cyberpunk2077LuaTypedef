@@ -12,6 +12,6 @@
 ---@field public otherVehicleRammed Bool
 vehicleGridDestructionEvent = {}
 
----@param fields? table
+---@param fields? vehicleGridDestructionEvent
 ---@return vehicleGridDestructionEvent
 function vehicleGridDestructionEvent.new(fields) return end

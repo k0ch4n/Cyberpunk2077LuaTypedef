@@ -6,6 +6,6 @@
 ---@field public FastForwardActive gamebbScriptID_Bool
 UI_FastForwardDef = {}
 
----@param fields? table
+---@param fields? UI_FastForwardDef
 ---@return UI_FastForwardDef
 function UI_FastForwardDef.new(fields) return end

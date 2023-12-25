@@ -4,6 +4,6 @@
 ---@class cpConveyorComponent: entIVisualComponent
 cpConveyorComponent = {}
 
----@param fields? table
+---@param fields? cpConveyorComponent
 ---@return cpConveyorComponent
 function cpConveyorComponent.new(fields) return end

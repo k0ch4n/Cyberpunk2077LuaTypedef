@@ -4,6 +4,6 @@
 ---@class gameuiarcadeBoundingCircle: gameuiarcadeBoundingShape
 gameuiarcadeBoundingCircle = {}
 
----@param fields? table
+---@param fields? gameuiarcadeBoundingCircle
 ---@return gameuiarcadeBoundingCircle
 function gameuiarcadeBoundingCircle.new(fields) return end

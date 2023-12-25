@@ -4,6 +4,6 @@
 ---@class AIDefAI: AIResourceReference
 AIDefAI = {}
 
----@param fields? table
+---@param fields? AIDefAI
 ---@return AIDefAI
 function AIDefAI.new(fields) return end

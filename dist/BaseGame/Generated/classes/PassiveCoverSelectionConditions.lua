@@ -7,7 +7,7 @@
 ---@field private statListener AIStatListener
 PassiveCoverSelectionConditions = {}
 
----@param fields? table
+---@param fields? PassiveCoverSelectionConditions
 ---@return PassiveCoverSelectionConditions
 function PassiveCoverSelectionConditions.new(fields) return end
 

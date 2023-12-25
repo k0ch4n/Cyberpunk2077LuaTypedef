@@ -4,7 +4,7 @@
 ---@class SmartWindowInkGameController: ComputerInkGameController
 SmartWindowInkGameController = {}
 
----@param fields? table
+---@param fields? SmartWindowInkGameController
 ---@return SmartWindowInkGameController
 function SmartWindowInkGameController.new(fields) return end
 

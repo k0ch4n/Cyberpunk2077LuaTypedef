@@ -5,6 +5,6 @@
 ---@field public enabled Bool
 InspectionEvent = {}
 
----@param fields? table
+---@param fields? InspectionEvent
 ---@return InspectionEvent
 function InspectionEvent.new(fields) return end

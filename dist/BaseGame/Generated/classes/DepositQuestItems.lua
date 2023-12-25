@@ -4,7 +4,7 @@
 ---@class DepositQuestItems: ActionBool
 DepositQuestItems = {}
 
----@param fields? table
+---@param fields? DepositQuestItems
 ---@return DepositQuestItems
 function DepositQuestItems.new(fields) return end
 

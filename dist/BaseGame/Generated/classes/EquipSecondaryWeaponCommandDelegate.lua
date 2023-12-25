@@ -6,7 +6,7 @@
 ---@field public unEquip Bool
 EquipSecondaryWeaponCommandDelegate = {}
 
----@param fields? table
+---@param fields? EquipSecondaryWeaponCommandDelegate
 ---@return EquipSecondaryWeaponCommandDelegate
 function EquipSecondaryWeaponCommandDelegate.new(fields) return end
 

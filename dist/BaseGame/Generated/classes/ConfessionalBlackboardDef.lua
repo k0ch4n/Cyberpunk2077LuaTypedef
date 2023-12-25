@@ -5,6 +5,6 @@
 ---@field public IsConfessing gamebbScriptID_Bool
 ConfessionalBlackboardDef = {}
 
----@param fields? table
+---@param fields? ConfessionalBlackboardDef
 ---@return ConfessionalBlackboardDef
 function ConfessionalBlackboardDef.new(fields) return end

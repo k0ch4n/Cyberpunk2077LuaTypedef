@@ -6,6 +6,6 @@
 ---@field public handle IScriptable
 scriptOptimizationsHandleWithValue = {}
 
----@param fields? table
+---@param fields? scriptOptimizationsHandleWithValue
 ---@return scriptOptimizationsHandleWithValue
 function scriptOptimizationsHandleWithValue.new(fields) return end

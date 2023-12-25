@@ -6,7 +6,7 @@
 ---@field public owner gameObject
 StopSFXEffector = {}
 
----@param fields? table
+---@param fields? StopSFXEffector
 ---@return StopSFXEffector
 function StopSFXEffector.new(fields) return end
 

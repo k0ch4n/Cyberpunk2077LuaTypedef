@@ -4,7 +4,7 @@
 ---@class ForcedRagdollDeathTask: AIDeathReactionsTask
 ForcedRagdollDeathTask = {}
 
----@param fields? table
+---@param fields? ForcedRagdollDeathTask
 ---@return ForcedRagdollDeathTask
 function ForcedRagdollDeathTask.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected isGlitching Bool
 AlarmLight = {}
 
----@param fields? table
+---@param fields? AlarmLight
 ---@return AlarmLight
 function AlarmLight.new(fields) return end
 

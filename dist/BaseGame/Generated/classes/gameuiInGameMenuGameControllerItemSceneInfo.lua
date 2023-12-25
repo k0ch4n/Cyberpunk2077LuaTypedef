@@ -8,6 +8,6 @@
 ---@field public markerRef NodeRef
 gameuiInGameMenuGameControllerItemSceneInfo = {}
 
----@param fields? table
+---@param fields? gameuiInGameMenuGameControllerItemSceneInfo
 ---@return gameuiInGameMenuGameControllerItemSceneInfo
 function gameuiInGameMenuGameControllerItemSceneInfo.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public MaxDamageReduction Float
 RipperdocArmorData = {}
 
----@param fields? table
+---@param fields? RipperdocArmorData
 ---@return RipperdocArmorData
 function RipperdocArmorData.new(fields) return end

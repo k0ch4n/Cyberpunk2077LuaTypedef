@@ -4,7 +4,7 @@
 ---@class TryDeactivatePreventionByMask: gameEffector
 TryDeactivatePreventionByMask = {}
 
----@param fields? table
+---@param fields? TryDeactivatePreventionByMask
 ---@return TryDeactivatePreventionByMask
 function TryDeactivatePreventionByMask.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public checkRemoteControl Bool
 questVehicleQuickHack_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleQuickHack_ConditionType
 ---@return questVehicleQuickHack_ConditionType
 function questVehicleQuickHack_ConditionType.new(fields) return end

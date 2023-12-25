@@ -7,6 +7,6 @@
 ---@field public deviceConnections worldDeviceConnections[]
 worldDeviceNode = {}
 
----@param fields? table
+---@param fields? worldDeviceNode
 ---@return worldDeviceNode
 function worldDeviceNode.new(fields) return end

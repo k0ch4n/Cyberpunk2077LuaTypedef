@@ -7,6 +7,6 @@
 ---@field public lineSymbolWidget inkWidgetReference
 ncartDoorScreenLineDataDef = {}
 
----@param fields? table
+---@param fields? ncartDoorScreenLineDataDef
 ---@return ncartDoorScreenLineDataDef
 function ncartDoorScreenLineDataDef.new(fields) return end

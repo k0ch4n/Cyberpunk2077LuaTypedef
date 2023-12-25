@@ -6,7 +6,7 @@
 ---@field public angle Float
 SetManouverPosition = {}
 
----@param fields? table
+---@param fields? SetManouverPosition
 ---@return SetManouverPosition
 function SetManouverPosition.new(fields) return end
 

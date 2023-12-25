@@ -4,7 +4,7 @@
 ---@class entEntityRequestComponentsInterface
 entEntityRequestComponentsInterface = {}
 
----@param fields? table
+---@param fields? entEntityRequestComponentsInterface
 ---@return entEntityRequestComponentsInterface
 function entEntityRequestComponentsInterface.new(fields) return end
 

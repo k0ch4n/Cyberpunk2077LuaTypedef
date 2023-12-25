@@ -27,6 +27,6 @@
 ---@field public startVelocityDirectionCheck Bool
 gameprojectileFollowCurveTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileFollowCurveTrajectoryParams
 ---@return gameprojectileFollowCurveTrajectoryParams
 function gameprojectileFollowCurveTrajectoryParams.new(fields) return end

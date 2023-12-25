@@ -4,7 +4,7 @@
 ---@class SpatialQueriesHelper: IScriptable
 SpatialQueriesHelper = {}
 
----@param fields? table
+---@param fields? SpatialQueriesHelper
 ---@return SpatialQueriesHelper
 function SpatialQueriesHelper.new(fields) return end
 

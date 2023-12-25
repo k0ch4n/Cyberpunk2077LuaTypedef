@@ -7,7 +7,7 @@
 ---@field public skillData ProficiencyDisplayData
 SkillTooltipData = {}
 
----@param fields? table
+---@param fields? SkillTooltipData
 ---@return SkillTooltipData
 function SkillTooltipData.new(fields) return end
 

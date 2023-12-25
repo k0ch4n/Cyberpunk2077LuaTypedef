@@ -15,7 +15,7 @@
 ---@field private shouldWinNextTime Bool
 SlotMachineController = {}
 
----@param fields? table
+---@param fields? SlotMachineController
 ---@return SlotMachineController
 function SlotMachineController.new(fields) return end
 

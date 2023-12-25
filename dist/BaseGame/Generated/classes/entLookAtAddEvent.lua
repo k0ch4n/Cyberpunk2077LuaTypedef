@@ -6,7 +6,7 @@
 ---@field public request animLookAtRequest
 entLookAtAddEvent = {}
 
----@param fields? table
+---@param fields? entLookAtAddEvent
 ---@return entLookAtAddEvent
 function entLookAtAddEvent.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private StatItems InventoryStatItemV2[]
 InventoryStatsDisplay = {}
 
----@param fields? table
+---@param fields? InventoryStatsDisplay
 ---@return InventoryStatsDisplay
 function InventoryStatsDisplay.new(fields) return end
 

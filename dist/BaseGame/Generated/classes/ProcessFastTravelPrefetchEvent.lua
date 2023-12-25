@@ -5,7 +5,7 @@
 ---@field public destinationRef NodeRef
 ProcessFastTravelPrefetchEvent = {}
 
----@param fields? table
+---@param fields? ProcessFastTravelPrefetchEvent
 ---@return ProcessFastTravelPrefetchEvent
 function ProcessFastTravelPrefetchEvent.new(fields) return end
 

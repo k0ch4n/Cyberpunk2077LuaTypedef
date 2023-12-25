@@ -7,6 +7,6 @@
 ---@field public lightElevation Float
 GlobalLightOverrideAreaSettings = {}
 
----@param fields? table
+---@param fields? GlobalLightOverrideAreaSettings
 ---@return GlobalLightOverrideAreaSettings
 function GlobalLightOverrideAreaSettings.new(fields) return end

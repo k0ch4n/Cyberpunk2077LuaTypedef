@@ -10,6 +10,6 @@
 ---@field public chance Float
 gameRicochetData = {}
 
----@param fields? table
+---@param fields? gameRicochetData
 ---@return gameRicochetData
 function gameRicochetData.new(fields) return end

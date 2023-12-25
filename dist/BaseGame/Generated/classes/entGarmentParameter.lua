@@ -7,6 +7,6 @@
 ---@field public lastUpdateDateTime CDateTime
 entGarmentParameter = {}
 
----@param fields? table
+---@param fields? entGarmentParameter
 ---@return entGarmentParameter
 function entGarmentParameter.new(fields) return end

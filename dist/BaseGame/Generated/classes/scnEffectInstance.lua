@@ -6,6 +6,6 @@
 ---@field public compiledEffect worldCompiledEffectInfo
 scnEffectInstance = {}
 
----@param fields? table
+---@param fields? scnEffectInstance
 ---@return scnEffectInstance
 function scnEffectInstance.new(fields) return end

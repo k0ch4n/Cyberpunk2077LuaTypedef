@@ -4,6 +4,6 @@
 ---@class inkBoolCallback: inkCallbackBase
 inkBoolCallback = {}
 
----@param fields? table
+---@param fields? inkBoolCallback
 ---@return inkBoolCallback
 function inkBoolCallback.new(fields) return end

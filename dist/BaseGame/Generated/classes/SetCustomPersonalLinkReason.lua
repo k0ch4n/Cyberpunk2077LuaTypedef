@@ -5,7 +5,7 @@
 ---@field public reason TweakDBID
 SetCustomPersonalLinkReason = {}
 
----@param fields? table
+---@param fields? SetCustomPersonalLinkReason
 ---@return SetCustomPersonalLinkReason
 function SetCustomPersonalLinkReason.new(fields) return end
 

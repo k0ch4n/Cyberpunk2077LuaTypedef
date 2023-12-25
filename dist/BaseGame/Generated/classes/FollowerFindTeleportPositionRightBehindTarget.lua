@@ -7,7 +7,7 @@
 ---@field private lastResultTimestamp Float
 FollowerFindTeleportPositionRightBehindTarget = {}
 
----@param fields? table
+---@param fields? FollowerFindTeleportPositionRightBehindTarget
 ---@return FollowerFindTeleportPositionRightBehindTarget
 function FollowerFindTeleportPositionRightBehindTarget.new(fields) return end
 

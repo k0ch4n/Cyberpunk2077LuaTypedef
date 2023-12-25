@@ -8,7 +8,7 @@
 ---@field public districtID String
 gameJournalQuest = {}
 
----@param fields? table
+---@param fields? gameJournalQuest
 ---@return gameJournalQuest
 function gameJournalQuest.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private progress inkImageWidgetReference
 KeyboardHoldIndicatorGameController = {}
 
----@param fields? table
+---@param fields? KeyboardHoldIndicatorGameController
 ---@return KeyboardHoldIndicatorGameController
 function KeyboardHoldIndicatorGameController.new(fields) return end
 

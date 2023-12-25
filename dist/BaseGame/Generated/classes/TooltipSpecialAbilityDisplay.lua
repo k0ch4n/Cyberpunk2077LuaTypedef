@@ -7,7 +7,7 @@
 ---@field private QualityRoot inkWidgetReference
 TooltipSpecialAbilityDisplay = {}
 
----@param fields? table
+---@param fields? TooltipSpecialAbilityDisplay
 ---@return TooltipSpecialAbilityDisplay
 function TooltipSpecialAbilityDisplay.new(fields) return end
 

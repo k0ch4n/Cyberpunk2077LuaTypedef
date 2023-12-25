@@ -8,6 +8,6 @@
 ---@field public renderTarget PSODescRenderTarget[]
 PSODescBlendModeDesc = {}
 
----@param fields? table
+---@param fields? PSODescBlendModeDesc
 ---@return PSODescBlendModeDesc
 function PSODescBlendModeDesc.new(fields) return end

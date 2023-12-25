@@ -6,7 +6,7 @@
 ---@field private soldOutText inkTextWidgetReference
 IceMachineInkGameController = {}
 
----@param fields? table
+---@param fields? IceMachineInkGameController
 ---@return IceMachineInkGameController
 function IceMachineInkGameController.new(fields) return end
 

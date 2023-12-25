@@ -7,6 +7,6 @@
 ---@field public recipeStats InventoryTooltipData_StatData[]
 MinimalItemTooltipRecipeData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipRecipeData
 ---@return MinimalItemTooltipRecipeData
 function MinimalItemTooltipRecipeData.new(fields) return end

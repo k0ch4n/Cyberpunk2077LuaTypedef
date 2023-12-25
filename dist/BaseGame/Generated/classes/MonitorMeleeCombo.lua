@@ -9,7 +9,7 @@
 ---@field public ComboToIdleBoolArgumentRef CName
 MonitorMeleeCombo = {}
 
----@param fields? table
+---@param fields? MonitorMeleeCombo
 ---@return MonitorMeleeCombo
 function MonitorMeleeCombo.new(fields) return end
 

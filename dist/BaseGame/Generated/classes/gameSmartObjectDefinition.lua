@@ -9,6 +9,6 @@
 ---@field public overrideGeneratedParameters Bool
 gameSmartObjectDefinition = {}
 
----@param fields? table
+---@param fields? gameSmartObjectDefinition
 ---@return gameSmartObjectDefinition
 function gameSmartObjectDefinition.new(fields) return end

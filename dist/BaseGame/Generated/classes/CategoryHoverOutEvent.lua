@@ -4,6 +4,6 @@
 ---@class CategoryHoverOutEvent: redEvent
 CategoryHoverOutEvent = {}
 
----@param fields? table
+---@param fields? CategoryHoverOutEvent
 ---@return CategoryHoverOutEvent
 function CategoryHoverOutEvent.new(fields) return end

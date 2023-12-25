@@ -5,6 +5,6 @@
 ---@field public slot AIArgumentMapping
 AIbehaviorSlotOccupiedConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSlotOccupiedConditionDefinition
 ---@return AIbehaviorSlotOccupiedConditionDefinition
 function AIbehaviorSlotOccupiedConditionDefinition.new(fields) return end

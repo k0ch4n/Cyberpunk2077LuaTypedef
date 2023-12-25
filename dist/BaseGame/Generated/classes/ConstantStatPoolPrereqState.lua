@@ -5,7 +5,7 @@
 ---@field public listenConstantly Bool
 ConstantStatPoolPrereqState = {}
 
----@param fields? table
+---@param fields? ConstantStatPoolPrereqState
 ---@return ConstantStatPoolPrereqState
 function ConstantStatPoolPrereqState.new(fields) return end
 

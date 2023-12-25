@@ -4,6 +4,6 @@
 ---@class ShowSmsMessagerEvent: redEvent
 ShowSmsMessagerEvent = {}
 
----@param fields? table
+---@param fields? ShowSmsMessagerEvent
 ---@return ShowSmsMessagerEvent
 function ShowSmsMessagerEvent.new(fields) return end

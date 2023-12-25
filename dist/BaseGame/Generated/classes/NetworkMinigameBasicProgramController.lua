@@ -4,7 +4,7 @@
 ---@class NetworkMinigameBasicProgramController: NetworkMinigameProgramController
 NetworkMinigameBasicProgramController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameBasicProgramController
 ---@return NetworkMinigameBasicProgramController
 function NetworkMinigameBasicProgramController.new(fields) return end
 

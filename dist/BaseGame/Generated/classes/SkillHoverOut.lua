@@ -4,6 +4,6 @@
 ---@class SkillHoverOut: redEvent
 SkillHoverOut = {}
 
----@param fields? table
+---@param fields? SkillHoverOut
 ---@return SkillHoverOut
 function SkillHoverOut.new(fields) return end

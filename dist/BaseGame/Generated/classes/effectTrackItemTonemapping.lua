@@ -9,6 +9,6 @@
 ---@field public midGrayScaleHDR effectEffectParameterEvaluatorFloat
 effectTrackItemTonemapping = {}
 
----@param fields? table
+---@param fields? effectTrackItemTonemapping
 ---@return effectTrackItemTonemapping
 function effectTrackItemTonemapping.new(fields) return end

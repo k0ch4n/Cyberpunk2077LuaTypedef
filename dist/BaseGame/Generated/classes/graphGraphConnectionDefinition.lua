@@ -6,6 +6,6 @@
 ---@field public destination graphGraphSocketDefinition
 graphGraphConnectionDefinition = {}
 
----@param fields? table
+---@param fields? graphGraphConnectionDefinition
 ---@return graphGraphConnectionDefinition
 function graphGraphConnectionDefinition.new(fields) return end

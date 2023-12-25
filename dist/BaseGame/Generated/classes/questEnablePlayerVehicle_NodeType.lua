@@ -8,6 +8,6 @@
 ---@field public makePlayerActiveVehicle Bool
 questEnablePlayerVehicle_NodeType = {}
 
----@param fields? table
+---@param fields? questEnablePlayerVehicle_NodeType
 ---@return questEnablePlayerVehicle_NodeType
 function questEnablePlayerVehicle_NodeType.new(fields) return end

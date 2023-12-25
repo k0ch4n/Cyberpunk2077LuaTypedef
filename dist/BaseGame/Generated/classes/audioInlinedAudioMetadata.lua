@@ -4,6 +4,6 @@
 ---@class audioInlinedAudioMetadata: audioAudioMetadataBase
 audioInlinedAudioMetadata = {}
 
----@param fields? table
+---@param fields? audioInlinedAudioMetadata
 ---@return audioInlinedAudioMetadata
 function audioInlinedAudioMetadata.new(fields) return end

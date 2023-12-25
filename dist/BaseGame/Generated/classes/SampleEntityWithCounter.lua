@@ -4,7 +4,7 @@
 ---@class SampleEntityWithCounter: gameObject
 SampleEntityWithCounter = {}
 
----@param fields? table
+---@param fields? SampleEntityWithCounter
 ---@return SampleEntityWithCounter
 function SampleEntityWithCounter.new(fields) return end
 

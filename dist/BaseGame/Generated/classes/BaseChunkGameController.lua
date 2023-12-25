@@ -7,7 +7,7 @@
 ---@field protected questClueBlackboardDef UI_ScannerDef
 BaseChunkGameController = {}
 
----@param fields? table
+---@param fields? BaseChunkGameController
 ---@return BaseChunkGameController
 function BaseChunkGameController.new(fields) return end
 

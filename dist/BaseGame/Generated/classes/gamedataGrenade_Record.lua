@@ -4,7 +4,7 @@
 ---@class gamedataGrenade_Record: gamedataGadget_Record
 gamedataGrenade_Record = {}
 
----@param fields? table
+---@param fields? gamedataGrenade_Record
 ---@return gamedataGrenade_Record
 function gamedataGrenade_Record.new(fields) return end
 

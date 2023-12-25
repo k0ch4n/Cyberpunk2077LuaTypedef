@@ -9,6 +9,6 @@
 ---@field public parentsWeights Float[]
 animImportFacialCorrectivePoseDataDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialCorrectivePoseDataDesc
 ---@return animImportFacialCorrectivePoseDataDesc
 function animImportFacialCorrectivePoseDataDesc.new(fields) return end

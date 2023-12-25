@@ -8,6 +8,6 @@
 ---@field public fireAnimEndOnceOnAnimEnd Bool
 animAnimNode_SkFrameAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkFrameAnim
 ---@return animAnimNode_SkFrameAnim
 function animAnimNode_SkFrameAnim.new(fields) return end

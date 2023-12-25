@@ -5,7 +5,7 @@
 ---@field private actionPackageType AIactionParamsPackageTypes
 AIScriptActionDelegate = {}
 
----@param fields? table
+---@param fields? AIScriptActionDelegate
 ---@return AIScriptActionDelegate
 function AIScriptActionDelegate.new(fields) return end
 

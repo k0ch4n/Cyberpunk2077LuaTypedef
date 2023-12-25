@@ -7,6 +7,6 @@
 ---@field public level Int32
 MessengerContactSyncData = {}
 
----@param fields? table
+---@param fields? MessengerContactSyncData
 ---@return MessengerContactSyncData
 function MessengerContactSyncData.new(fields) return end

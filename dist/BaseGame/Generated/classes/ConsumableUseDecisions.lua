@@ -4,7 +4,7 @@
 ---@class ConsumableUseDecisions: ConsumableTransitions
 ConsumableUseDecisions = {}
 
----@param fields? table
+---@param fields? ConsumableUseDecisions
 ---@return ConsumableUseDecisions
 function ConsumableUseDecisions.new(fields) return end
 

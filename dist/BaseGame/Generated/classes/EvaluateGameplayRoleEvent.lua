@@ -5,6 +5,6 @@
 ---@field public force Bool
 EvaluateGameplayRoleEvent = {}
 
----@param fields? table
+---@param fields? EvaluateGameplayRoleEvent
 ---@return EvaluateGameplayRoleEvent
 function EvaluateGameplayRoleEvent.new(fields) return end

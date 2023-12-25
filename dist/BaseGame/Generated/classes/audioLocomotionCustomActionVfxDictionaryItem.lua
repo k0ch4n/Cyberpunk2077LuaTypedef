@@ -6,6 +6,6 @@
 ---@field public value CResource
 audioLocomotionCustomActionVfxDictionaryItem = {}
 
----@param fields? table
+---@param fields? audioLocomotionCustomActionVfxDictionaryItem
 ---@return audioLocomotionCustomActionVfxDictionaryItem
 function audioLocomotionCustomActionVfxDictionaryItem.new(fields) return end

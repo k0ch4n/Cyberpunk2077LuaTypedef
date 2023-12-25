@@ -7,6 +7,6 @@
 ---@field public attackId TweakDBID
 gameReplicatedContinuousAttack = {}
 
----@param fields? table
+---@param fields? gameReplicatedContinuousAttack
 ---@return gameReplicatedContinuousAttack
 function gameReplicatedContinuousAttack.new(fields) return end

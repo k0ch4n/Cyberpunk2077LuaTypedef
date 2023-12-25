@@ -5,7 +5,7 @@
 ---@field public woundedTypeToCompare EWoundedBodyPart
 CheckCurrentWoundedState = {}
 
----@param fields? table
+---@param fields? CheckCurrentWoundedState
 ---@return CheckCurrentWoundedState
 function CheckCurrentWoundedState.new(fields) return end
 

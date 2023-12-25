@@ -4,6 +4,6 @@
 ---@class gamedataAISubActionChimeraMetalstorm_Record: gamedataAISubActionShootWithWeapon_Record
 gamedataAISubActionChimeraMetalstorm_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionChimeraMetalstorm_Record
 ---@return gamedataAISubActionChimeraMetalstorm_Record
 function gamedataAISubActionChimeraMetalstorm_Record.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AIInterruptionHandlerAllowDefinition: AIInterruptionHandlerDefinition
 AIInterruptionHandlerAllowDefinition = {}
 
----@param fields? table
+---@param fields? AIInterruptionHandlerAllowDefinition
 ---@return AIInterruptionHandlerAllowDefinition
 function AIInterruptionHandlerAllowDefinition.new(fields) return end

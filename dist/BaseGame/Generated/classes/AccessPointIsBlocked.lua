@@ -4,7 +4,7 @@
 ---@class AccessPointIsBlocked: gameIScriptablePrereq
 AccessPointIsBlocked = {}
 
----@param fields? table
+---@param fields? AccessPointIsBlocked
 ---@return AccessPointIsBlocked
 function AccessPointIsBlocked.new(fields) return end
 

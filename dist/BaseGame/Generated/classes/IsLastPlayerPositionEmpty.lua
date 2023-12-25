@@ -4,7 +4,7 @@
 ---@class IsLastPlayerPositionEmpty: PreventionConditionAbstract
 IsLastPlayerPositionEmpty = {}
 
----@param fields? table
+---@param fields? IsLastPlayerPositionEmpty
 ---@return IsLastPlayerPositionEmpty
 function IsLastPlayerPositionEmpty.new(fields) return end
 

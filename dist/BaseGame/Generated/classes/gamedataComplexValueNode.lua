@@ -5,6 +5,6 @@
 ---@field public data String[]
 gamedataComplexValueNode = {}
 
----@param fields? table
+---@param fields? gamedataComplexValueNode
 ---@return gamedataComplexValueNode
 function gamedataComplexValueNode.new(fields) return end

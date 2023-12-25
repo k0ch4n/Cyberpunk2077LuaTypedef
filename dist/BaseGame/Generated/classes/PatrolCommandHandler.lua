@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 PatrolCommandHandler = {}
 
----@param fields? table
+---@param fields? PatrolCommandHandler
 ---@return PatrolCommandHandler
 function PatrolCommandHandler.new(fields) return end
 

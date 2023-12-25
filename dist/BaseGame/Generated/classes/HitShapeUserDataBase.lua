@@ -12,7 +12,7 @@
 ---@field public hitShapeDamageMod Float
 HitShapeUserDataBase = {}
 
----@param fields? table
+---@param fields? HitShapeUserDataBase
 ---@return HitShapeUserDataBase
 function HitShapeUserDataBase.new(fields) return end
 

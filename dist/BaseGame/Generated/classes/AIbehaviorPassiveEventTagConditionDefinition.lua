@@ -6,6 +6,6 @@
 ---@field public deactivateEvents Bool
 AIbehaviorPassiveEventTagConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPassiveEventTagConditionDefinition
 ---@return AIbehaviorPassiveEventTagConditionDefinition
 function AIbehaviorPassiveEventTagConditionDefinition.new(fields) return end

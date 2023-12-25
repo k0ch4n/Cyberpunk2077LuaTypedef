@@ -5,7 +5,7 @@
 ---@field private activeVehicleType gamedataVehicleType
 QuickSlotsManagerPS = {}
 
----@param fields? table
+---@param fields? QuickSlotsManagerPS
 ---@return QuickSlotsManagerPS
 function QuickSlotsManagerPS.new(fields) return end
 

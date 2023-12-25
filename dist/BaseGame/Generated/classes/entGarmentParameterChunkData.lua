@@ -8,6 +8,6 @@
 ---@field public vertexTbn Uint32[]
 entGarmentParameterChunkData = {}
 
----@param fields? table
+---@param fields? entGarmentParameterChunkData
 ---@return entGarmentParameterChunkData
 function entGarmentParameterChunkData.new(fields) return end

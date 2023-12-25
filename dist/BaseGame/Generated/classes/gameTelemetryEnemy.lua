@@ -10,6 +10,6 @@
 ---@field public level Int32
 gameTelemetryEnemy = {}
 
----@param fields? table
+---@param fields? gameTelemetryEnemy
 ---@return gameTelemetryEnemy
 function gameTelemetryEnemy.new(fields) return end

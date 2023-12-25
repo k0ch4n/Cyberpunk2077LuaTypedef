@@ -9,7 +9,7 @@
 ---@field public playerCapsuleDimensions Vector4
 ClimbEvents = {}
 
----@param fields? table
+---@param fields? ClimbEvents
 ---@return ClimbEvents
 function ClimbEvents.new(fields) return end
 

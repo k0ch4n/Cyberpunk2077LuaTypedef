@@ -6,6 +6,6 @@
 ---@field public weight Float
 animTransformMask = {}
 
----@param fields? table
+---@param fields? animTransformMask
 ---@return animTransformMask
 function animTransformMask.new(fields) return end

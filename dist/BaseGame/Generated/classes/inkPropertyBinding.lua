@@ -6,6 +6,6 @@
 ---@field public stylePath CName
 inkPropertyBinding = {}
 
----@param fields? table
+---@param fields? inkPropertyBinding
 ---@return inkPropertyBinding
 function inkPropertyBinding.new(fields) return end

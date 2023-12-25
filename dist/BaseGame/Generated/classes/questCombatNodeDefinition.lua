@@ -7,6 +7,6 @@
 ---@field public params questAICommandParams
 questCombatNodeDefinition = {}
 
----@param fields? table
+---@param fields? questCombatNodeDefinition
 ---@return questCombatNodeDefinition
 function questCombatNodeDefinition.new(fields) return end

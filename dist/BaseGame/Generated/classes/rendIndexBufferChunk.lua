@@ -6,6 +6,6 @@
 ---@field public teOffset Uint32
 rendIndexBufferChunk = {}
 
----@param fields? table
+---@param fields? rendIndexBufferChunk
 ---@return rendIndexBufferChunk
 function rendIndexBufferChunk.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public itemID gameItemID
 gameAttachmentSlotsScriptCallback = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotsScriptCallback
 ---@return gameAttachmentSlotsScriptCallback
 function gameAttachmentSlotsScriptCallback.new(fields) return end
 

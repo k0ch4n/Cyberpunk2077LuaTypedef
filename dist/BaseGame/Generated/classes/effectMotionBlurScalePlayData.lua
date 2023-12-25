@@ -4,6 +4,6 @@
 ---@class effectMotionBlurScalePlayData: effectCameraComponentTrackItemPlayData
 effectMotionBlurScalePlayData = {}
 
----@param fields? table
+---@param fields? effectMotionBlurScalePlayData
 ---@return effectMotionBlurScalePlayData
 function effectMotionBlurScalePlayData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public listener PuppetListener
 NPCRevealedPrereqState = {}
 
----@param fields? table
+---@param fields? NPCRevealedPrereqState
 ---@return NPCRevealedPrereqState
 function NPCRevealedPrereqState.new(fields) return end

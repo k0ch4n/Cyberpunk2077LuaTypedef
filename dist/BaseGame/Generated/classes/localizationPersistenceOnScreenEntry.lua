@@ -8,6 +8,6 @@
 ---@field public maleVariant String
 localizationPersistenceOnScreenEntry = {}
 
----@param fields? table
+---@param fields? localizationPersistenceOnScreenEntry
 ---@return localizationPersistenceOnScreenEntry
 function localizationPersistenceOnScreenEntry.new(fields) return end

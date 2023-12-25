@@ -4,7 +4,7 @@
 ---@class AIbehaviorScriptBase: IScriptable
 AIbehaviorScriptBase = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptBase
 ---@return AIbehaviorScriptBase
 function AIbehaviorScriptBase.new(fields) return end
 

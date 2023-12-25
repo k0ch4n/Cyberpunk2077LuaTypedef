@@ -8,7 +8,7 @@
 ---@field public comparisonData UIInventoryItemComparisonManager
 UIInventoryItemTooltipWrapper = {}
 
----@param fields? table
+---@param fields? UIInventoryItemTooltipWrapper
 ---@return UIInventoryItemTooltipWrapper
 function UIInventoryItemTooltipWrapper.new(fields) return end
 

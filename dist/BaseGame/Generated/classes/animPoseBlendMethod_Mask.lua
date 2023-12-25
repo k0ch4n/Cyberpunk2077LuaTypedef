@@ -5,6 +5,6 @@
 ---@field public maskName CName
 animPoseBlendMethod_Mask = {}
 
----@param fields? table
+---@param fields? animPoseBlendMethod_Mask
 ---@return animPoseBlendMethod_Mask
 function animPoseBlendMethod_Mask.new(fields) return end

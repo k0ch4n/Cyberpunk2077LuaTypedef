@@ -4,6 +4,6 @@
 ---@class workWorkspotSystem: worldIWorkspotSystem
 workWorkspotSystem = {}
 
----@param fields? table
+---@param fields? workWorkspotSystem
 ---@return workWorkspotSystem
 function workWorkspotSystem.new(fields) return end

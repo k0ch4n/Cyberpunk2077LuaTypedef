@@ -8,7 +8,7 @@
 ---@field public description String
 GameplayFactCondition = {}
 
----@param fields? table
+---@param fields? GameplayFactCondition
 ---@return GameplayFactCondition
 function GameplayFactCondition.new(fields) return end
 

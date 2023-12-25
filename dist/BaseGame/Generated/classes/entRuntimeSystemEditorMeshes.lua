@@ -4,6 +4,6 @@
 ---@class entRuntimeSystemEditorMeshes: worldIRuntimeSystem
 entRuntimeSystemEditorMeshes = {}
 
----@param fields? table
+---@param fields? entRuntimeSystemEditorMeshes
 ---@return entRuntimeSystemEditorMeshes
 function entRuntimeSystemEditorMeshes.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public ignoreTerrain Bool
 worldSpeedSplineNode = {}
 
----@param fields? table
+---@param fields? worldSpeedSplineNode
 ---@return worldSpeedSplineNode
 function worldSpeedSplineNode.new(fields) return end

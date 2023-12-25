@@ -6,7 +6,7 @@
 ---@field public events inkanimEvent[]
 inkanimDefinition = {}
 
----@param fields? table
+---@param fields? inkanimDefinition
 ---@return inkanimDefinition
 function inkanimDefinition.new(fields) return end
 

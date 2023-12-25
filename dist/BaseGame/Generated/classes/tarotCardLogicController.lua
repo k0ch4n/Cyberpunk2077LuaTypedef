@@ -8,7 +8,7 @@
 ---@field private data TarotCardData
 tarotCardLogicController = {}
 
----@param fields? table
+---@param fields? tarotCardLogicController
 ---@return tarotCardLogicController
 function tarotCardLogicController.new(fields) return end
 

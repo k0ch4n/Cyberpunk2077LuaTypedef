@@ -7,6 +7,6 @@
 ---@field public SceneVersion scnSceneVersionCheck
 scnBraindancePerspective_ConditionType = {}
 
----@param fields? table
+---@param fields? scnBraindancePerspective_ConditionType
 ---@return scnBraindancePerspective_ConditionType
 function scnBraindancePerspective_ConditionType.new(fields) return end

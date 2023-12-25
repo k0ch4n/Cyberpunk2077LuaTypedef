@@ -4,6 +4,6 @@
 ---@class questAudioFocusNodeType: questIAudioNodeType
 questAudioFocusNodeType = {}
 
----@param fields? table
+---@param fields? questAudioFocusNodeType
 ---@return questAudioFocusNodeType
 function questAudioFocusNodeType.new(fields) return end

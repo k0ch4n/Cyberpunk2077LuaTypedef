@@ -4,7 +4,7 @@
 ---@class gamedataVehicleProceduralFPPCameraParams_Record: gamedataTweakDBRecord
 gamedataVehicleProceduralFPPCameraParams_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleProceduralFPPCameraParams_Record
 ---@return gamedataVehicleProceduralFPPCameraParams_Record
 function gamedataVehicleProceduralFPPCameraParams_Record.new(fields) return end
 

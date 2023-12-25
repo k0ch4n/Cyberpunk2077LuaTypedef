@@ -5,7 +5,7 @@
 ---@field public token inkGameNotificationToken
 gameNotificationsTest = {}
 
----@param fields? table
+---@param fields? gameNotificationsTest
 ---@return gameNotificationsTest
 function gameNotificationsTest.new(fields) return end
 

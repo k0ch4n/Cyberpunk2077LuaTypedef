@@ -5,6 +5,6 @@
 ---@field public amount Int32
 SampleBumpEvent = {}
 
----@param fields? table
+---@param fields? SampleBumpEvent
 ---@return SampleBumpEvent
 function SampleBumpEvent.new(fields) return end

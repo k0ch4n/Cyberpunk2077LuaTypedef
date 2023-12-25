@@ -8,7 +8,7 @@
 ---@field public WoundedStateHPThreshold gamebbScriptID_Float
 CustomCentaurBlackboardDef = {}
 
----@param fields? table
+---@param fields? CustomCentaurBlackboardDef
 ---@return CustomCentaurBlackboardDef
 function CustomCentaurBlackboardDef.new(fields) return end
 

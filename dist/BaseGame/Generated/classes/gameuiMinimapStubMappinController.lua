@@ -8,7 +8,7 @@
 ---@field private state CName
 gameuiMinimapStubMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapStubMappinController
 ---@return gameuiMinimapStubMappinController
 function gameuiMinimapStubMappinController.new(fields) return end
 

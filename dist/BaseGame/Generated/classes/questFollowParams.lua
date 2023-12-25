@@ -12,6 +12,6 @@
 ---@field public repeatCommandOnInterrupt Bool
 questFollowParams = {}
 
----@param fields? table
+---@param fields? questFollowParams
 ---@return questFollowParams
 function questFollowParams.new(fields) return end

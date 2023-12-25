@@ -8,6 +8,6 @@
 ---@field public segmentOffset Uint32
 gameuiRoadEditorObstacleSettings = {}
 
----@param fields? table
+---@param fields? gameuiRoadEditorObstacleSettings
 ---@return gameuiRoadEditorObstacleSettings
 function gameuiRoadEditorObstacleSettings.new(fields) return end

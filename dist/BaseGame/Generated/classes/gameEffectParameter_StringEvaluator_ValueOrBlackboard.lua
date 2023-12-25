@@ -6,6 +6,6 @@
 ---@field public value String
 gameEffectParameter_StringEvaluator_ValueOrBlackboard = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_StringEvaluator_ValueOrBlackboard
 ---@return gameEffectParameter_StringEvaluator_ValueOrBlackboard
 function gameEffectParameter_StringEvaluator_ValueOrBlackboard.new(fields) return end

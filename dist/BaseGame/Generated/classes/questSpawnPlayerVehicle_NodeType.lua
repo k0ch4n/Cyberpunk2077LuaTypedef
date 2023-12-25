@@ -12,6 +12,6 @@
 ---@field public retryUntilStubCreated Bool
 questSpawnPlayerVehicle_NodeType = {}
 
----@param fields? table
+---@param fields? questSpawnPlayerVehicle_NodeType
 ---@return questSpawnPlayerVehicle_NodeType
 function questSpawnPlayerVehicle_NodeType.new(fields) return end

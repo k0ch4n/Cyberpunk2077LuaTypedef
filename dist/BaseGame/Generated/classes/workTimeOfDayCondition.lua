@@ -6,6 +6,6 @@
 ---@field public activeUntil GameTime
 workTimeOfDayCondition = {}
 
----@param fields? table
+---@param fields? workTimeOfDayCondition
 ---@return workTimeOfDayCondition
 function workTimeOfDayCondition.new(fields) return end

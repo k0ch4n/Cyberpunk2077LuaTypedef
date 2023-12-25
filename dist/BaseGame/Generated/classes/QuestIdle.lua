@@ -4,7 +4,7 @@
 ---@class QuestIdle: ActionBool
 QuestIdle = {}
 
----@param fields? table
+---@param fields? QuestIdle
 ---@return QuestIdle
 function QuestIdle.new(fields) return end
 

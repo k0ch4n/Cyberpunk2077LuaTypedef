@@ -4,7 +4,7 @@
 ---@class gameTransactionSystem: gameITransactionSystem
 gameTransactionSystem = {}
 
----@param fields? table
+---@param fields? gameTransactionSystem
 ---@return gameTransactionSystem
 function gameTransactionSystem.new(fields) return end
 

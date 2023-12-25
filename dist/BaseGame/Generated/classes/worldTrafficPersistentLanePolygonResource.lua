@@ -4,6 +4,6 @@
 ---@class worldTrafficPersistentLanePolygonResource: resStreamedResource
 worldTrafficPersistentLanePolygonResource = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentLanePolygonResource
 ---@return worldTrafficPersistentLanePolygonResource
 function worldTrafficPersistentLanePolygonResource.new(fields) return end

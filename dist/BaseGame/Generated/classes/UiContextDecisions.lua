@@ -4,7 +4,7 @@
 ---@class UiContextDecisions: InputContextTransitionDecisions
 UiContextDecisions = {}
 
----@param fields? table
+---@param fields? UiContextDecisions
 ---@return UiContextDecisions
 function UiContextDecisions.new(fields) return end
 

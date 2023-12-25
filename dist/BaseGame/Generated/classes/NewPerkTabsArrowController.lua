@@ -7,7 +7,7 @@
 ---@field private pressed Bool
 NewPerkTabsArrowController = {}
 
----@param fields? table
+---@param fields? NewPerkTabsArrowController
 ---@return NewPerkTabsArrowController
 function NewPerkTabsArrowController.new(fields) return end
 

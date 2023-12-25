@@ -4,6 +4,6 @@
 ---@class entAnimDataChanged: redEvent
 entAnimDataChanged = {}
 
----@param fields? table
+---@param fields? entAnimDataChanged
 ---@return entAnimDataChanged
 function entAnimDataChanged.new(fields) return end

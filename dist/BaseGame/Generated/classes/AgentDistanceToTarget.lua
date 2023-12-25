@@ -6,6 +6,6 @@
 ---@field public index Int32
 AgentDistanceToTarget = {}
 
----@param fields? table
+---@param fields? AgentDistanceToTarget
 ---@return AgentDistanceToTarget
 function AgentDistanceToTarget.new(fields) return end

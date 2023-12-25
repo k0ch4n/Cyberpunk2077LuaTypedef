@@ -6,7 +6,7 @@
 ---@field public ignoreTimeDilation Bool
 EffectExecutor_VisualEffectAtTarget = {}
 
----@param fields? table
+---@param fields? EffectExecutor_VisualEffectAtTarget
 ---@return EffectExecutor_VisualEffectAtTarget
 function EffectExecutor_VisualEffectAtTarget.new(fields) return end
 

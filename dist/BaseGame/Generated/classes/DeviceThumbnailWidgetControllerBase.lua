@@ -7,7 +7,7 @@
 ---@field private thumbnailAction ThumbnailUI
 DeviceThumbnailWidgetControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceThumbnailWidgetControllerBase
 ---@return DeviceThumbnailWidgetControllerBase
 function DeviceThumbnailWidgetControllerBase.new(fields) return end
 

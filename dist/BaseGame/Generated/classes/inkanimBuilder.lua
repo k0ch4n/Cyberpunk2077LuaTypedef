@@ -4,7 +4,7 @@
 ---@class inkanimBuilder: IScriptable
 inkanimBuilder = {}
 
----@param fields? table
+---@param fields? inkanimBuilder
 ---@return inkanimBuilder
 function inkanimBuilder.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameGodModeSystem: gameIGodModeSystem
 gameGodModeSystem = {}
 
----@param fields? table
+---@param fields? gameGodModeSystem
 ---@return gameGodModeSystem
 function gameGodModeSystem.new(fields) return end
 

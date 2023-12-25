@@ -6,7 +6,7 @@
 ---@field protected FalseRecord String
 SpiderbotBoolAction = {}
 
----@param fields? table
+---@param fields? SpiderbotBoolAction
 ---@return SpiderbotBoolAction
 function SpiderbotBoolAction.new(fields) return end
 

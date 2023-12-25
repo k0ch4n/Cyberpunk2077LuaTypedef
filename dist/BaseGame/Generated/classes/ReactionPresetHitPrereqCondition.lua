@@ -5,7 +5,7 @@
 ---@field public reactionPreset String
 ReactionPresetHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? ReactionPresetHitPrereqCondition
 ---@return ReactionPresetHitPrereqCondition
 function ReactionPresetHitPrereqCondition.new(fields) return end
 

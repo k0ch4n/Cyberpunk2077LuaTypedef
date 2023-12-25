@@ -4,7 +4,7 @@
 ---@class CasinoTableObject: gameObject
 CasinoTableObject = {}
 
----@param fields? table
+---@param fields? CasinoTableObject
 ---@return CasinoTableObject
 function CasinoTableObject.new(fields) return end
 

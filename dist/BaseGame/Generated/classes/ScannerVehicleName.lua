@@ -5,7 +5,7 @@
 ---@field private vehicleName String
 ScannerVehicleName = {}
 
----@param fields? table
+---@param fields? ScannerVehicleName
 ---@return ScannerVehicleName
 function ScannerVehicleName.new(fields) return end
 

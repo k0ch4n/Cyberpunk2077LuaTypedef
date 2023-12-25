@@ -5,6 +5,6 @@
 ---@field public lockLeftHandAnimation Bool
 AnimFeature_LeftHandAnimation = {}
 
----@param fields? table
+---@param fields? AnimFeature_LeftHandAnimation
 ---@return AnimFeature_LeftHandAnimation
 function AnimFeature_LeftHandAnimation.new(fields) return end

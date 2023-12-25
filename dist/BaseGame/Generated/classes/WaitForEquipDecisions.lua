@@ -4,7 +4,7 @@
 ---@class WaitForEquipDecisions: UpperBodyTransition
 WaitForEquipDecisions = {}
 
----@param fields? table
+---@param fields? WaitForEquipDecisions
 ---@return WaitForEquipDecisions
 function WaitForEquipDecisions.new(fields) return end
 

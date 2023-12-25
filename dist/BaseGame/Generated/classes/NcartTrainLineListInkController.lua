@@ -33,7 +33,7 @@
 ---@field private cachedLine Uint32
 NcartTrainLineListInkController = {}
 
----@param fields? table
+---@param fields? NcartTrainLineListInkController
 ---@return NcartTrainLineListInkController
 function NcartTrainLineListInkController.new(fields) return end
 

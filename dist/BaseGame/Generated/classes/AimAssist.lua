@@ -4,6 +4,6 @@
 ---@class AimAssist: ModuleInstance
 AimAssist = {}
 
----@param fields? table
+---@param fields? AimAssist
 ---@return AimAssist
 function AimAssist.new(fields) return end

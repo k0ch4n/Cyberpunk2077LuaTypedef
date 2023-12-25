@@ -6,7 +6,7 @@
 ---@field public isTheNextQhInQueue Bool
 HitIsQuickhackPresentInQueuePrereqCondition = {}
 
----@param fields? table
+---@param fields? HitIsQuickhackPresentInQueuePrereqCondition
 ---@return HitIsQuickhackPresentInQueuePrereqCondition
 function HitIsQuickhackPresentInQueuePrereqCondition.new(fields) return end
 

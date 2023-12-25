@@ -7,6 +7,6 @@
 ---@field public forcePlay Bool
 gameTransformAnimationSkipEvent = {}
 
----@param fields? table
+---@param fields? gameTransformAnimationSkipEvent
 ---@return gameTransformAnimationSkipEvent
 function gameTransformAnimationSkipEvent.new(fields) return end

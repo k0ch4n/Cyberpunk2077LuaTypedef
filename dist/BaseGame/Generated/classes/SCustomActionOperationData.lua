@@ -6,6 +6,6 @@
 ---@field public operation SBaseDeviceOperationData
 SCustomActionOperationData = {}
 
----@param fields? table
+---@param fields? SCustomActionOperationData
 ---@return SCustomActionOperationData
 function SCustomActionOperationData.new(fields) return end

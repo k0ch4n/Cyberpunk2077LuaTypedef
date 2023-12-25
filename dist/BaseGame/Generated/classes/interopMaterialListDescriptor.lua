@@ -15,6 +15,6 @@
 ---@field public availableMaterials String[]
 interopMaterialListDescriptor = {}
 
----@param fields? table
+---@param fields? interopMaterialListDescriptor
 ---@return interopMaterialListDescriptor
 function interopMaterialListDescriptor.new(fields) return end

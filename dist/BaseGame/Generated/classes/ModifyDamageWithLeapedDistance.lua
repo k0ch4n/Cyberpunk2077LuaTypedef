@@ -7,7 +7,7 @@
 ---@field public maxDistance Float
 ModifyDamageWithLeapedDistance = {}
 
----@param fields? table
+---@param fields? ModifyDamageWithLeapedDistance
 ---@return ModifyDamageWithLeapedDistance
 function ModifyDamageWithLeapedDistance.new(fields) return end
 

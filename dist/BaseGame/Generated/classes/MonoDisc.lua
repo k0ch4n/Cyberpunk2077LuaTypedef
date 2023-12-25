@@ -22,7 +22,7 @@
 ---@field private animationController entAnimationControllerComponent
 MonoDisc = {}
 
----@param fields? table
+---@param fields? MonoDisc
 ---@return MonoDisc
 function MonoDisc.new(fields) return end
 

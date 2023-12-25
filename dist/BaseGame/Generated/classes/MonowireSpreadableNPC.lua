@@ -6,6 +6,6 @@
 ---@field public HitEvent gameeventsHitEvent
 MonowireSpreadableNPC = {}
 
----@param fields? table
+---@param fields? MonowireSpreadableNPC
 ---@return MonowireSpreadableNPC
 function MonowireSpreadableNPC.new(fields) return end

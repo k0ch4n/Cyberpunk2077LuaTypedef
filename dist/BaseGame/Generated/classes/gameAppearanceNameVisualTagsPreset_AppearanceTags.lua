@@ -6,6 +6,6 @@
 ---@field public visualTags redTagList
 gameAppearanceNameVisualTagsPreset_AppearanceTags = {}
 
----@param fields? table
+---@param fields? gameAppearanceNameVisualTagsPreset_AppearanceTags
 ---@return gameAppearanceNameVisualTagsPreset_AppearanceTags
 function gameAppearanceNameVisualTagsPreset_AppearanceTags.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class EffectExecutor_NanowireGrenadePull: gameEffectExecutor_Scripted
 EffectExecutor_NanowireGrenadePull = {}
 
----@param fields? table
+---@param fields? EffectExecutor_NanowireGrenadePull
 ---@return EffectExecutor_NanowireGrenadePull
 function EffectExecutor_NanowireGrenadePull.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class ResetSecuritySystemNetwork: redEvent
 ResetSecuritySystemNetwork = {}
 
----@param fields? table
+---@param fields? ResetSecuritySystemNetwork
 ---@return ResetSecuritySystemNetwork
 function ResetSecuritySystemNetwork.new(fields) return end

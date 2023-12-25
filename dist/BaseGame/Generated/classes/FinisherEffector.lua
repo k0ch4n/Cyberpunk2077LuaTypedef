@@ -4,7 +4,7 @@
 ---@class FinisherEffector: ApplyStatusEffectEffector
 FinisherEffector = {}
 
----@param fields? table
+---@param fields? FinisherEffector
 ---@return FinisherEffector
 function FinisherEffector.new(fields) return end
 

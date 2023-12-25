@@ -6,6 +6,6 @@
 ---@field public color Color
 rendHairProfileGradientEntry = {}
 
----@param fields? table
+---@param fields? rendHairProfileGradientEntry
 ---@return rendHairProfileGradientEntry
 function rendHairProfileGradientEntry.new(fields) return end

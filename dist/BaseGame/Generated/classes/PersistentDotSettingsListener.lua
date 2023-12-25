@@ -5,7 +5,7 @@
 ---@field private controller CrosshairGameControllerPersistentDot
 PersistentDotSettingsListener = {}
 
----@param fields? table
+---@param fields? PersistentDotSettingsListener
 ---@return PersistentDotSettingsListener
 function PersistentDotSettingsListener.new(fields) return end
 

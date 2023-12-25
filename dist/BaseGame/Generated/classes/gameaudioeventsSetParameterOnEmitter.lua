@@ -6,6 +6,6 @@
 ---@field public paramValue Float
 gameaudioeventsSetParameterOnEmitter = {}
 
----@param fields? table
+---@param fields? gameaudioeventsSetParameterOnEmitter
 ---@return gameaudioeventsSetParameterOnEmitter
 function gameaudioeventsSetParameterOnEmitter.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private activeScans ScanInstance[]
 ScannerModule = {}
 
----@param fields? table
+---@param fields? ScannerModule
 ---@return ScannerModule
 function ScannerModule.new(fields) return end
 

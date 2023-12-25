@@ -4,7 +4,7 @@
 ---@class gamedataPreventionFallbackUnitData_Record: gamedataTweakDBRecord
 gamedataPreventionFallbackUnitData_Record = {}
 
----@param fields? table
+---@param fields? gamedataPreventionFallbackUnitData_Record
 ---@return gamedataPreventionFallbackUnitData_Record
 function gamedataPreventionFallbackUnitData_Record.new(fields) return end
 

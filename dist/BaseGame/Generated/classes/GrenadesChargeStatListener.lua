@@ -4,7 +4,7 @@
 ---@class GrenadesChargeStatListener: BaseChargesStatListener
 GrenadesChargeStatListener = {}
 
----@param fields? table
+---@param fields? GrenadesChargeStatListener
 ---@return GrenadesChargeStatListener
 function GrenadesChargeStatListener.new(fields) return end
 

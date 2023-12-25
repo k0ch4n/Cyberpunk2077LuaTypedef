@@ -4,6 +4,6 @@
 ---@class gameAttachmentSlotsFunctorListener: gameIAttachmentSlotsListener
 gameAttachmentSlotsFunctorListener = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotsFunctorListener
 ---@return gameAttachmentSlotsFunctorListener
 function gameAttachmentSlotsFunctorListener.new(fields) return end

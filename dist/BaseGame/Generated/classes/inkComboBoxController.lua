@@ -6,7 +6,7 @@
 ---@field public ComboBoxVisibleChanged inkComboBoxVisibleChangedCallback
 inkComboBoxController = {}
 
----@param fields? table
+---@param fields? inkComboBoxController
 ---@return inkComboBoxController
 function inkComboBoxController.new(fields) return end
 

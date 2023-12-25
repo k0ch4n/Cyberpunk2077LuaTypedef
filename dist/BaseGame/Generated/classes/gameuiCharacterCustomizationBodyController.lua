@@ -4,6 +4,6 @@
 ---@class gameuiCharacterCustomizationBodyController: gameuiICharacterCustomizationBodyController
 gameuiCharacterCustomizationBodyController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationBodyController
 ---@return gameuiCharacterCustomizationBodyController
 function gameuiCharacterCustomizationBodyController.new(fields) return end

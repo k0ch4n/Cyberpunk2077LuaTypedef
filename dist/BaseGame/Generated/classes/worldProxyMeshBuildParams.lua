@@ -19,6 +19,6 @@
 ---@field public advancedParams worldProxyMeshAdvancedBuildParams
 worldProxyMeshBuildParams = {}
 
----@param fields? table
+---@param fields? worldProxyMeshBuildParams
 ---@return worldProxyMeshBuildParams
 function worldProxyMeshBuildParams.new(fields) return end

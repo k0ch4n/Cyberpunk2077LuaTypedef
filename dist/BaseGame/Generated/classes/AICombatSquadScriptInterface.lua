@@ -4,7 +4,7 @@
 ---@class AICombatSquadScriptInterface: AISquadScriptInterface
 AICombatSquadScriptInterface = {}
 
----@param fields? table
+---@param fields? AICombatSquadScriptInterface
 ---@return AICombatSquadScriptInterface
 function AICombatSquadScriptInterface.new(fields) return end
 

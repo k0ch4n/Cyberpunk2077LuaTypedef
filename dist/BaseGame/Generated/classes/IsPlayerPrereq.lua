@@ -5,7 +5,7 @@
 ---@field public invert Bool
 IsPlayerPrereq = {}
 
----@param fields? table
+---@param fields? IsPlayerPrereq
 ---@return IsPlayerPrereq
 function IsPlayerPrereq.new(fields) return end
 

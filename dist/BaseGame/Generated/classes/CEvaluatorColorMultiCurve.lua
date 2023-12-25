@@ -6,6 +6,6 @@
 ---@field public numberOfCurveSamples Uint32
 CEvaluatorColorMultiCurve = {}
 
----@param fields? table
+---@param fields? CEvaluatorColorMultiCurve
 ---@return CEvaluatorColorMultiCurve
 function CEvaluatorColorMultiCurve.new(fields) return end

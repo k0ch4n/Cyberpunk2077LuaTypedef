@@ -4,7 +4,7 @@
 ---@class MenuScenario_BoothMode: MenuScenario_PreGameSubMenu
 MenuScenario_BoothMode = {}
 
----@param fields? table
+---@param fields? MenuScenario_BoothMode
 ---@return MenuScenario_BoothMode
 function MenuScenario_BoothMode.new(fields) return end
 

@@ -18,6 +18,6 @@
 ---@field public byItem Bool
 questEquipItemParams = {}
 
----@param fields? table
+---@param fields? questEquipItemParams
 ---@return questEquipItemParams
 function questEquipItemParams.new(fields) return end

@@ -127,6 +127,6 @@
 ---@field public PoliceChaseParams PoliceChaseParamsDef
 gamebbAllScriptDefinitions = {}
 
----@param fields? table
+---@param fields? gamebbAllScriptDefinitions
 ---@return gamebbAllScriptDefinitions
 function gamebbAllScriptDefinitions.new(fields) return end

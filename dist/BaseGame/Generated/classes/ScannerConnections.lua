@@ -5,7 +5,7 @@
 ---@field private deviceConnections DeviceConnectionScannerData[]
 ScannerConnections = {}
 
----@param fields? table
+---@param fields? ScannerConnections
 ---@return ScannerConnections
 function ScannerConnections.new(fields) return end
 

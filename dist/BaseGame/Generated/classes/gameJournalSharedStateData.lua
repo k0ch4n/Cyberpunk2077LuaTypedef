@@ -6,6 +6,6 @@
 ---@field public entryState gameJournalEntryState
 gameJournalSharedStateData = {}
 
----@param fields? table
+---@param fields? gameJournalSharedStateData
 ---@return gameJournalSharedStateData
 function gameJournalSharedStateData.new(fields) return end

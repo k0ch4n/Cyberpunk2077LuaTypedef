@@ -4,7 +4,7 @@
 ---@class TakedownBeginEvents: LocomotionTakedownEvents
 TakedownBeginEvents = {}
 
----@param fields? table
+---@param fields? TakedownBeginEvents
 ---@return TakedownBeginEvents
 function TakedownBeginEvents.new(fields) return end
 

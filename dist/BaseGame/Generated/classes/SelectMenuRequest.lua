@@ -5,6 +5,6 @@
 ---@field public eventData MenuItemController
 SelectMenuRequest = {}
 
----@param fields? table
+---@param fields? SelectMenuRequest
 ---@return SelectMenuRequest
 function SelectMenuRequest.new(fields) return end

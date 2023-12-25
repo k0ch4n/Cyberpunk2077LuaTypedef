@@ -5,7 +5,7 @@
 ---@field public controller UpgradingScreenController
 DelayedTooltipCall = {}
 
----@param fields? table
+---@param fields? DelayedTooltipCall
 ---@return DelayedTooltipCall
 function DelayedTooltipCall.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemNodeStreaming: worldIRuntimeSystem
 worldRuntimeSystemNodeStreaming = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemNodeStreaming
 ---@return worldRuntimeSystemNodeStreaming
 function worldRuntimeSystemNodeStreaming.new(fields) return end

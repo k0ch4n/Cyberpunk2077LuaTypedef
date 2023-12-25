@@ -5,7 +5,7 @@
 ---@field private ownerData EquipmentSystemPlayerData[]
 EquipmentSystem = {}
 
----@param fields? table
+---@param fields? EquipmentSystem
 ---@return EquipmentSystem
 function EquipmentSystem.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private animFeature AnimFeature_RoboticArm
 RoboticArms = {}
 
----@param fields? table
+---@param fields? RoboticArms
 ---@return RoboticArms
 function RoboticArms.new(fields) return end
 

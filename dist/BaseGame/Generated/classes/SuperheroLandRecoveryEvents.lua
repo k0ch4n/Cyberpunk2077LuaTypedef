@@ -4,7 +4,7 @@
 ---@class SuperheroLandRecoveryEvents: AbstractLandEvents
 SuperheroLandRecoveryEvents = {}
 
----@param fields? table
+---@param fields? SuperheroLandRecoveryEvents
 ---@return SuperheroLandRecoveryEvents
 function SuperheroLandRecoveryEvents.new(fields) return end
 

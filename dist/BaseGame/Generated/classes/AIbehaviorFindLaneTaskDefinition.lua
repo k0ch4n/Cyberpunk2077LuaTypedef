@@ -6,6 +6,6 @@
 ---@field public filter worldFindLaneFilter
 AIbehaviorFindLaneTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindLaneTaskDefinition
 ---@return AIbehaviorFindLaneTaskDefinition
 function AIbehaviorFindLaneTaskDefinition.new(fields) return end

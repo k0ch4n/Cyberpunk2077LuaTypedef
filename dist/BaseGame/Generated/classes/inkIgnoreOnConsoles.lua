@@ -4,6 +4,6 @@
 ---@class inkIgnoreOnConsoles: inkUserData
 inkIgnoreOnConsoles = {}
 
----@param fields? table
+---@param fields? inkIgnoreOnConsoles
 ---@return inkIgnoreOnConsoles
 function inkIgnoreOnConsoles.new(fields) return end

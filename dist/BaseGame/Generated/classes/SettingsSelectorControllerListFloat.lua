@@ -4,7 +4,7 @@
 ---@class SettingsSelectorControllerListFloat: SettingsSelectorControllerList
 SettingsSelectorControllerListFloat = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerListFloat
 ---@return SettingsSelectorControllerListFloat
 function SettingsSelectorControllerListFloat.new(fields) return end
 

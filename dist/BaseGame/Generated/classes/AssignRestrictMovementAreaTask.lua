@@ -5,7 +5,7 @@
 ---@field public restrictMovementAreaRef AIArgumentMapping
 AssignRestrictMovementAreaTask = {}
 
----@param fields? table
+---@param fields? AssignRestrictMovementAreaTask
 ---@return AssignRestrictMovementAreaTask
 function AssignRestrictMovementAreaTask.new(fields) return end
 

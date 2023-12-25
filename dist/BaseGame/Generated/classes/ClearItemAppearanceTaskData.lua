@@ -6,6 +6,6 @@
 ---@field public area gamedataEquipmentArea
 ClearItemAppearanceTaskData = {}
 
----@param fields? table
+---@param fields? ClearItemAppearanceTaskData
 ---@return ClearItemAppearanceTaskData
 function ClearItemAppearanceTaskData.new(fields) return end

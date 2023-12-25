@@ -5,6 +5,6 @@
 ---@field public IsQuickhack Bool
 TCSTakeOverControlActivate = {}
 
----@param fields? table
+---@param fields? TCSTakeOverControlActivate
 ---@return TCSTakeOverControlActivate
 function TCSTakeOverControlActivate.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAIBlockCountCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIBlockCountCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIBlockCountCond_Record
 ---@return gamedataAIBlockCountCond_Record
 function gamedataAIBlockCountCond_Record.new(fields) return end
 

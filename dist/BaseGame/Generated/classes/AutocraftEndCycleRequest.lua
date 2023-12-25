@@ -4,6 +4,6 @@
 ---@class AutocraftEndCycleRequest: gameScriptableSystemRequest
 AutocraftEndCycleRequest = {}
 
----@param fields? table
+---@param fields? AutocraftEndCycleRequest
 ---@return AutocraftEndCycleRequest
 function AutocraftEndCycleRequest.new(fields) return end

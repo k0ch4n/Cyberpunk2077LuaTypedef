@@ -4,7 +4,7 @@
 ---@class gamedataVehicleDoorDetachRule_Record: gamedataTweakDBRecord
 gamedataVehicleDoorDetachRule_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleDoorDetachRule_Record
 ---@return gamedataVehicleDoorDetachRule_Record
 function gamedataVehicleDoorDetachRule_Record.new(fields) return end
 

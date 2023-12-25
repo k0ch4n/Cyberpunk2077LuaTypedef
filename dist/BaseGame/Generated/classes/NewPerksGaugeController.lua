@@ -10,7 +10,7 @@
 ---@field public levels NewPerksGaugePointDetails[]
 NewPerksGaugeController = {}
 
----@param fields? table
+---@param fields? NewPerksGaugeController
 ---@return NewPerksGaugeController
 function NewPerksGaugeController.new(fields) return end
 

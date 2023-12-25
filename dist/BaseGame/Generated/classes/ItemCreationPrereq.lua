@@ -8,7 +8,7 @@
 ---@field public comparisonType EComparisonType
 ItemCreationPrereq = {}
 
----@param fields? table
+---@param fields? ItemCreationPrereq
 ---@return ItemCreationPrereq
 function ItemCreationPrereq.new(fields) return end
 

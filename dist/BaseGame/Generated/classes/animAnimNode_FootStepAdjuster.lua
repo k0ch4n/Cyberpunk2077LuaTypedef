@@ -20,6 +20,6 @@
 ---@field public controlVectorNode animVectorLink
 animAnimNode_FootStepAdjuster = {}
 
----@param fields? table
+---@param fields? animAnimNode_FootStepAdjuster
 ---@return animAnimNode_FootStepAdjuster
 function animAnimNode_FootStepAdjuster.new(fields) return end

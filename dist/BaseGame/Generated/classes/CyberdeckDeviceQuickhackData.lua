@@ -12,6 +12,6 @@
 ---@field public Priority Float
 CyberdeckDeviceQuickhackData = {}
 
----@param fields? table
+---@param fields? CyberdeckDeviceQuickhackData
 ---@return CyberdeckDeviceQuickhackData
 function CyberdeckDeviceQuickhackData.new(fields) return end

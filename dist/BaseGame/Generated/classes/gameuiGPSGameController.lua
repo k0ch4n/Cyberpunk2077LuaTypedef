@@ -5,6 +5,6 @@
 ---@field public gpsSettings gamegpsSettings
 gameuiGPSGameController = {}
 
----@param fields? table
+---@param fields? gameuiGPSGameController
 ---@return gameuiGPSGameController
 function gameuiGPSGameController.new(fields) return end

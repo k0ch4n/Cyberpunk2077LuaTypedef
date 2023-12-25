@@ -6,6 +6,6 @@
 ---@field public mountData AIArgumentMapping
 AIbehaviorActionSceneAnimationMotionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionSceneAnimationMotionNodeDefinition
 ---@return AIbehaviorActionSceneAnimationMotionNodeDefinition
 function AIbehaviorActionSceneAnimationMotionNodeDefinition.new(fields) return end

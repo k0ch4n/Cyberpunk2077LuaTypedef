@@ -16,6 +16,6 @@
 ---@field public projectionPipeline Bool
 gameeventsHitEvent = {}
 
----@param fields? table
+---@param fields? gameeventsHitEvent
 ---@return gameeventsHitEvent
 function gameeventsHitEvent.new(fields) return end

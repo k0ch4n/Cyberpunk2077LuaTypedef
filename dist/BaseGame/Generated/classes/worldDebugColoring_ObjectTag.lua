@@ -6,6 +6,6 @@
 ---@field public color Color
 worldDebugColoring_ObjectTag = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_ObjectTag
 ---@return worldDebugColoring_ObjectTag
 function worldDebugColoring_ObjectTag.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public terminalInteractionActive Bool
 gameuiUIInteractionData = {}
 
----@param fields? table
+---@param fields? gameuiUIInteractionData
 ---@return gameuiUIInteractionData
 function gameuiUIInteractionData.new(fields) return end
 

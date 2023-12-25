@@ -4,7 +4,7 @@
 ---@class InReloadUpperBodyState: AINPCUpperBodyStateCheck
 InReloadUpperBodyState = {}
 
----@param fields? table
+---@param fields? InReloadUpperBodyState
 ---@return InReloadUpperBodyState
 function InReloadUpperBodyState.new(fields) return end
 

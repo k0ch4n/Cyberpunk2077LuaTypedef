@@ -5,6 +5,6 @@
 ---@field public playerEntityID entEntityID
 MissingWorkspotComponentFailsafeEvent = {}
 
----@param fields? table
+---@param fields? MissingWorkspotComponentFailsafeEvent
 ---@return MissingWorkspotComponentFailsafeEvent
 function MissingWorkspotComponentFailsafeEvent.new(fields) return end

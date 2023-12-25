@@ -4,7 +4,7 @@
 ---@class OpenFullscreenUI: ActionBool
 OpenFullscreenUI = {}
 
----@param fields? table
+---@param fields? OpenFullscreenUI
 ---@return OpenFullscreenUI
 function OpenFullscreenUI.new(fields) return end
 

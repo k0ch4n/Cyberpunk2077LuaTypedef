@@ -5,7 +5,7 @@
 ---@field public damageType gamedataDamageType
 DamageTypePrereq = {}
 
----@param fields? table
+---@param fields? DamageTypePrereq
 ---@return DamageTypePrereq
 function DamageTypePrereq.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public node animAnimNode_BoolValue
 animBoolLink = {}
 
----@param fields? table
+---@param fields? animBoolLink
 ---@return animBoolLink
 function animBoolLink.new(fields) return end

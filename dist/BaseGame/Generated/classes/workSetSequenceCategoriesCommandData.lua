@@ -5,6 +5,6 @@
 ---@field public sequenceCategories gameCategorySelectionProbability
 workSetSequenceCategoriesCommandData = {}
 
----@param fields? table
+---@param fields? workSetSequenceCategoriesCommandData
 ---@return workSetSequenceCategoriesCommandData
 function workSetSequenceCategoriesCommandData.new(fields) return end

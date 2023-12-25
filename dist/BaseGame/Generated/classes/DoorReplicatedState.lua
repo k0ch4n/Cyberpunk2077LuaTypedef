@@ -6,6 +6,6 @@
 ---@field public wasImmediateChange Bool
 DoorReplicatedState = {}
 
----@param fields? table
+---@param fields? DoorReplicatedState
 ---@return DoorReplicatedState
 function DoorReplicatedState.new(fields) return end

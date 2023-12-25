@@ -4,7 +4,7 @@
 ---@class SpiderbotEnableAccessPoint: ActionBool
 SpiderbotEnableAccessPoint = {}
 
----@param fields? table
+---@param fields? SpiderbotEnableAccessPoint
 ---@return SpiderbotEnableAccessPoint
 function SpiderbotEnableAccessPoint.new(fields) return end
 

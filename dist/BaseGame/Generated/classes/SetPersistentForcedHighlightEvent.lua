@@ -7,7 +7,7 @@
 ---@field public operation EToggleOperationType
 SetPersistentForcedHighlightEvent = {}
 
----@param fields? table
+---@param fields? SetPersistentForcedHighlightEvent
 ---@return SetPersistentForcedHighlightEvent
 function SetPersistentForcedHighlightEvent.new(fields) return end
 

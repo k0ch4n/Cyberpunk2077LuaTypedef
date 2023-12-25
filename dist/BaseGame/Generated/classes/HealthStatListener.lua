@@ -6,7 +6,7 @@
 ---@field private healthEvent HealthUpdateEvent
 HealthStatListener = {}
 
----@param fields? table
+---@param fields? HealthStatListener
 ---@return HealthStatListener
 function HealthStatListener.new(fields) return end
 

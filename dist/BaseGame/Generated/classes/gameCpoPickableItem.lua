@@ -6,7 +6,7 @@
 ---@field public quickSlotID Int32
 gameCpoPickableItem = {}
 
----@param fields? table
+---@param fields? gameCpoPickableItem
 ---@return gameCpoPickableItem
 function gameCpoPickableItem.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkSystemRequesResult: inkCallbackBase
 inkSystemRequesResult = {}
 
----@param fields? table
+---@param fields? inkSystemRequesResult
 ---@return inkSystemRequesResult
 function inkSystemRequesResult.new(fields) return end

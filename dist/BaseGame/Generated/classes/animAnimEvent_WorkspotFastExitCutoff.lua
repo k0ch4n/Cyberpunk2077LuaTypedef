@@ -4,6 +4,6 @@
 ---@class animAnimEvent_WorkspotFastExitCutoff: animAnimEvent
 animAnimEvent_WorkspotFastExitCutoff = {}
 
----@param fields? table
+---@param fields? animAnimEvent_WorkspotFastExitCutoff
 ---@return animAnimEvent_WorkspotFastExitCutoff
 function animAnimEvent_WorkspotFastExitCutoff.new(fields) return end

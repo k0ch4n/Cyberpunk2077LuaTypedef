@@ -7,6 +7,6 @@
 ---@field public sectorBounds Box
 physicsSectorCacheArtifact = {}
 
----@param fields? table
+---@param fields? physicsSectorCacheArtifact
 ---@return physicsSectorCacheArtifact
 function physicsSectorCacheArtifact.new(fields) return end

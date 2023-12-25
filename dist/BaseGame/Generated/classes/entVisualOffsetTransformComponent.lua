@@ -4,6 +4,6 @@
 ---@class entVisualOffsetTransformComponent: entTransformComponent
 entVisualOffsetTransformComponent = {}
 
----@param fields? table
+---@param fields? entVisualOffsetTransformComponent
 ---@return entVisualOffsetTransformComponent
 function entVisualOffsetTransformComponent.new(fields) return end

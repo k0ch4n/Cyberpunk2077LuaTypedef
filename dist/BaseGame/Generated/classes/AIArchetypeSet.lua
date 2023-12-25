@@ -5,6 +5,6 @@
 ---@field public archetypeResources AIArchetypeSetEntry[]
 AIArchetypeSet = {}
 
----@param fields? table
+---@param fields? AIArchetypeSet
 ---@return AIArchetypeSet
 function AIArchetypeSet.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataGender_Record: gamedataTweakDBRecord
 gamedataGender_Record = {}
 
----@param fields? table
+---@param fields? gamedataGender_Record
 ---@return gamedataGender_Record
 function gamedataGender_Record.new(fields) return end
 

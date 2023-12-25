@@ -4,7 +4,7 @@
 ---@class gameBlackboardSystem: gameIBlackboardSystem
 gameBlackboardSystem = {}
 
----@param fields? table
+---@param fields? gameBlackboardSystem
 ---@return gameBlackboardSystem
 function gameBlackboardSystem.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field public useRight Bool
 MoveToCoverCommandDelegate = {}
 
----@param fields? table
+---@param fields? MoveToCoverCommandDelegate
 ---@return MoveToCoverCommandDelegate
 function MoveToCoverCommandDelegate.new(fields) return end
 

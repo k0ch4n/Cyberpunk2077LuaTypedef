@@ -6,6 +6,6 @@
 ---@field public addCoef Vector3
 rendHistogramBias = {}
 
----@param fields? table
+---@param fields? rendHistogramBias
 ---@return rendHistogramBias
 function rendHistogramBias.new(fields) return end

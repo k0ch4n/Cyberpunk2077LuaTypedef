@@ -5,6 +5,6 @@
 ---@field public hash Uint32
 CodexEntrySelectedEvent = {}
 
----@param fields? table
+---@param fields? CodexEntrySelectedEvent
 ---@return CodexEntrySelectedEvent
 function CodexEntrySelectedEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public v Vector3
 LibTreeDefVector = {}
 
----@param fields? table
+---@param fields? LibTreeDefVector
 ---@return LibTreeDefVector
 function LibTreeDefVector.new(fields) return end

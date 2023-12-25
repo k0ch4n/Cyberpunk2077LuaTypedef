@@ -6,7 +6,7 @@
 ---@field public request Codeware_UI_CustomPopupAttachRequest
 Codeware_UI_CustomPopupAttachCallback = {}
 
----@param fields? table
+---@param fields? Codeware_UI_CustomPopupAttachCallback
 ---@return Codeware_UI_CustomPopupAttachCallback
 function Codeware_UI_CustomPopupAttachCallback.new(fields) return end
 

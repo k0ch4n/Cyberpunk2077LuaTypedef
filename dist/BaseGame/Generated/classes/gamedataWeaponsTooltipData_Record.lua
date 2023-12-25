@@ -4,7 +4,7 @@
 ---@class gamedataWeaponsTooltipData_Record: gamedataTweakDBRecord
 gamedataWeaponsTooltipData_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeaponsTooltipData_Record
 ---@return gamedataWeaponsTooltipData_Record
 function gamedataWeaponsTooltipData_Record.new(fields) return end
 

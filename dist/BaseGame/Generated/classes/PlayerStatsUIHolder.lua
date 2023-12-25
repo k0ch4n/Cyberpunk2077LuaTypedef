@@ -4,7 +4,7 @@
 ---@class PlayerStatsUIHolder: inkWidgetLogicController
 PlayerStatsUIHolder = {}
 
----@param fields? table
+---@param fields? PlayerStatsUIHolder
 ---@return PlayerStatsUIHolder
 function PlayerStatsUIHolder.new(fields) return end
 

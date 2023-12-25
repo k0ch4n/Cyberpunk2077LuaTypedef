@@ -6,7 +6,7 @@
 ---@field public object CName
 AgentMovingHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? AgentMovingHitPrereqCondition
 ---@return AgentMovingHitPrereqCondition
 function AgentMovingHitPrereqCondition.new(fields) return end
 

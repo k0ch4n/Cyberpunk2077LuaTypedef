@@ -6,6 +6,6 @@
 ---@field public debugVar Bool
 AnimFeature_CoverState = {}
 
----@param fields? table
+---@param fields? AnimFeature_CoverState
 ---@return AnimFeature_CoverState
 function AnimFeature_CoverState.new(fields) return end

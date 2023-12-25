@@ -10,6 +10,6 @@
 ---@field public isCachable Bool
 animPoseLimitWeights = {}
 
----@param fields? table
+---@param fields? animPoseLimitWeights
 ---@return animPoseLimitWeights
 function animPoseLimitWeights.new(fields) return end

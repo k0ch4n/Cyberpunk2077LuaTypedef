@@ -11,6 +11,6 @@
 ---@field public resetCyberdeckRAM Bool
 questCharacterManagerParameters_HealPlayer = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_HealPlayer
 ---@return questCharacterManagerParameters_HealPlayer
 function questCharacterManagerParameters_HealPlayer.new(fields) return end

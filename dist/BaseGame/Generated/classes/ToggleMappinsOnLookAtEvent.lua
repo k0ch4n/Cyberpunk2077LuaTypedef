@@ -5,6 +5,6 @@
 ---@field public state Bool
 ToggleMappinsOnLookAtEvent = {}
 
----@param fields? table
+---@param fields? ToggleMappinsOnLookAtEvent
 ---@return ToggleMappinsOnLookAtEvent
 function ToggleMappinsOnLookAtEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public marginToScalecorrectOverride inkMargin
 gameuiResolutionSensitiveWidget = {}
 
----@param fields? table
+---@param fields? gameuiResolutionSensitiveWidget
 ---@return gameuiResolutionSensitiveWidget
 function gameuiResolutionSensitiveWidget.new(fields) return end

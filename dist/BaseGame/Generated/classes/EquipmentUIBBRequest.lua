@@ -4,6 +4,6 @@
 ---@class EquipmentUIBBRequest: gamePlayerScriptableSystemRequest
 EquipmentUIBBRequest = {}
 
----@param fields? table
+---@param fields? EquipmentUIBBRequest
 ---@return EquipmentUIBBRequest
 function EquipmentUIBBRequest.new(fields) return end

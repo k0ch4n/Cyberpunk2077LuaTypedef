@@ -6,6 +6,6 @@
 ---@field public voHexID String
 gameuiVOWithDelay = {}
 
----@param fields? table
+---@param fields? gameuiVOWithDelay
 ---@return gameuiVOWithDelay
 function gameuiVOWithDelay.new(fields) return end

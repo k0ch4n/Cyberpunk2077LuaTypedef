@@ -4,6 +4,6 @@
 ---@class AICTreeNodeForcedBehaviourDefinition: AICTreeNodeDynamicDefinition
 AICTreeNodeForcedBehaviourDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeForcedBehaviourDefinition
 ---@return AICTreeNodeForcedBehaviourDefinition
 function AICTreeNodeForcedBehaviourDefinition.new(fields) return end

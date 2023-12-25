@@ -8,7 +8,7 @@
 ---@field private ongoingSequence ActionsSequence
 ActionsSequencerControllerPS = {}
 
----@param fields? table
+---@param fields? ActionsSequencerControllerPS
 ---@return ActionsSequencerControllerPS
 function ActionsSequencerControllerPS.new(fields) return end
 

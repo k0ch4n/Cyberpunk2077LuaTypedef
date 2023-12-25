@@ -8,6 +8,6 @@
 ---@field public default Quaternion
 animAnimVariableQuaternion = {}
 
----@param fields? table
+---@param fields? animAnimVariableQuaternion
 ---@return animAnimVariableQuaternion
 function animAnimVariableQuaternion.new(fields) return end

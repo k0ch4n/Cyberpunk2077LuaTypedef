@@ -4,7 +4,7 @@
 ---@class IsPreventionMaxtacCondition: PreventionConditionAbstract
 IsPreventionMaxtacCondition = {}
 
----@param fields? table
+---@param fields? IsPreventionMaxtacCondition
 ---@return IsPreventionMaxtacCondition
 function IsPreventionMaxtacCondition.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public checkMeleeInvulnerability Bool
 gameEffectObjectProvider_SweepMelee_Box = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_SweepMelee_Box
 ---@return gameEffectObjectProvider_SweepMelee_Box
 function gameEffectObjectProvider_SweepMelee_Box.new(fields) return end

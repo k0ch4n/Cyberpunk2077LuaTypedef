@@ -7,7 +7,7 @@
 ---@field public ownerID entEntityID
 GoToMenuEvent = {}
 
----@param fields? table
+---@param fields? GoToMenuEvent
 ---@return GoToMenuEvent
 function GoToMenuEvent.new(fields) return end
 

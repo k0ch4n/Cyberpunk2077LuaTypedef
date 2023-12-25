@@ -7,7 +7,7 @@
 ---@field public missEvent gameeventsMissEvent
 GenericHitPrereqState = {}
 
----@param fields? table
+---@param fields? GenericHitPrereqState
 ---@return GenericHitPrereqState
 function GenericHitPrereqState.new(fields) return end
 

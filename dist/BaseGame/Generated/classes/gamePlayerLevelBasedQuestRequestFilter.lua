@@ -5,6 +5,6 @@
 ---@field public percentMargin Uint32
 gamePlayerLevelBasedQuestRequestFilter = {}
 
----@param fields? table
+---@param fields? gamePlayerLevelBasedQuestRequestFilter
 ---@return gamePlayerLevelBasedQuestRequestFilter
 function gamePlayerLevelBasedQuestRequestFilter.new(fields) return end

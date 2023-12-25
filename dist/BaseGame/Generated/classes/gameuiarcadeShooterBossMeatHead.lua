@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterBossMeatHead: gameuiarcadeShooterBossController
 gameuiarcadeShooterBossMeatHead = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterBossMeatHead
 ---@return gameuiarcadeShooterBossMeatHead
 function gameuiarcadeShooterBossMeatHead.new(fields) return end

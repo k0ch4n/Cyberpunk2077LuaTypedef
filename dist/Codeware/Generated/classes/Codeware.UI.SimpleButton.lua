@@ -16,7 +16,7 @@
 ---@field public pressedFillAnimProxy inkanimProxy
 Codeware_UI_SimpleButton = {}
 
----@param fields? table
+---@param fields? Codeware_UI_SimpleButton
 ---@return Codeware_UI_SimpleButton
 function Codeware_UI_SimpleButton.new(fields) return end
 

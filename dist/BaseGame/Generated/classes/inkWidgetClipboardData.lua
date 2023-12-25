@@ -6,6 +6,6 @@
 ---@field public widgetPath inkWidgetPath
 inkWidgetClipboardData = {}
 
----@param fields? table
+---@param fields? inkWidgetClipboardData
 ---@return inkWidgetClipboardData
 function inkWidgetClipboardData.new(fields) return end

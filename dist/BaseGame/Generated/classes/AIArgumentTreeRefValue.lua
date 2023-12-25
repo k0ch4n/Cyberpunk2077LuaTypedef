@@ -6,6 +6,6 @@
 ---@field public defaultValue AIbehaviorParameterizedBehavior
 AIArgumentTreeRefValue = {}
 
----@param fields? table
+---@param fields? AIArgumentTreeRefValue
 ---@return AIArgumentTreeRefValue
 function AIArgumentTreeRefValue.new(fields) return end

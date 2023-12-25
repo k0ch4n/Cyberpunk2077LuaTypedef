@@ -4,6 +4,6 @@
 ---@class gameuiFinalBoardsGoToMainMenu: redEvent
 gameuiFinalBoardsGoToMainMenu = {}
 
----@param fields? table
+---@param fields? gameuiFinalBoardsGoToMainMenu
 ---@return gameuiFinalBoardsGoToMainMenu
 function gameuiFinalBoardsGoToMainMenu.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field public squadName CName
 PingSquadEffector = {}
 
----@param fields? table
+---@param fields? PingSquadEffector
 ---@return PingSquadEffector
 function PingSquadEffector.new(fields) return end
 

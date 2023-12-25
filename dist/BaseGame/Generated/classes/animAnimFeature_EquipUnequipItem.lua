@@ -9,6 +9,6 @@
 ---@field public swappingWeapons Bool
 animAnimFeature_EquipUnequipItem = {}
 
----@param fields? table
+---@param fields? animAnimFeature_EquipUnequipItem
 ---@return animAnimFeature_EquipUnequipItem
 function animAnimFeature_EquipUnequipItem.new(fields) return end

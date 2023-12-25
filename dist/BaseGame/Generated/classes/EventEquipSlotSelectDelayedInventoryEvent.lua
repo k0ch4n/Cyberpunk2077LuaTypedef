@@ -5,6 +5,6 @@
 ---@field public controller InventoryItemDisplayController
 EventEquipSlotSelectDelayedInventoryEvent = {}
 
----@param fields? table
+---@param fields? EventEquipSlotSelectDelayedInventoryEvent
 ---@return EventEquipSlotSelectDelayedInventoryEvent
 function EventEquipSlotSelectDelayedInventoryEvent.new(fields) return end

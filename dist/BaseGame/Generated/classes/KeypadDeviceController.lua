@@ -19,7 +19,7 @@
 ---@field private blackboard gameIBlackboard
 KeypadDeviceController = {}
 
----@param fields? table
+---@param fields? KeypadDeviceController
 ---@return KeypadDeviceController
 function KeypadDeviceController.new(fields) return end
 

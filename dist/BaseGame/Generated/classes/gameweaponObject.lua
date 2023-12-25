@@ -30,7 +30,7 @@
 ---@field private isCharged Bool
 gameweaponObject = {}
 
----@param fields? table
+---@param fields? gameweaponObject
 ---@return gameweaponObject
 function gameweaponObject.new(fields) return end
 

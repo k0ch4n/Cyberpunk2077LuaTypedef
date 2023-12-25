@@ -4,7 +4,7 @@
 ---@class gamedataKeepCurrentCoverCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataKeepCurrentCoverCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataKeepCurrentCoverCoverSelectionParameters_Record
 ---@return gamedataKeepCurrentCoverCoverSelectionParameters_Record
 function gamedataKeepCurrentCoverCoverSelectionParameters_Record.new(fields) return end
 

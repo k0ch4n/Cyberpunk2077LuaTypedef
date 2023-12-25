@@ -10,6 +10,6 @@
 ---@field public propagateChange Bool
 questJournalBulkUpdate_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalBulkUpdate_NodeType
 ---@return questJournalBulkUpdate_NodeType
 function questJournalBulkUpdate_NodeType.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public targetSlot CName
 GrenadeTrackerTargetAcquiredEvent = {}
 
----@param fields? table
+---@param fields? GrenadeTrackerTargetAcquiredEvent
 ---@return GrenadeTrackerTargetAcquiredEvent
 function GrenadeTrackerTargetAcquiredEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class IsInVehicle: AIVehicleConditionAbstract
 IsInVehicle = {}
 
----@param fields? table
+---@param fields? IsInVehicle
 ---@return IsInVehicle
 function IsInVehicle.new(fields) return end
 

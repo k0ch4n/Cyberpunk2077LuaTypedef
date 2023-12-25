@@ -8,6 +8,6 @@
 ---@field public tags CName[]
 worldOffMeshConnectionNode = {}
 
----@param fields? table
+---@param fields? worldOffMeshConnectionNode
 ---@return worldOffMeshConnectionNode
 function worldOffMeshConnectionNode.new(fields) return end

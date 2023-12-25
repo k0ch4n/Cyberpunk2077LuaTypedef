@@ -36,7 +36,7 @@
 ---@field private equipmentUICallbackID redCallbackObject
 RadialWheelController = {}
 
----@param fields? table
+---@param fields? RadialWheelController
 ---@return RadialWheelController
 function RadialWheelController.new(fields) return end
 

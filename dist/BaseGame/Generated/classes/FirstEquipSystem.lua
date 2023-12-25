@@ -5,7 +5,7 @@
 ---@field protected equipDataArray EFirstEquipData[]
 FirstEquipSystem = {}
 
----@param fields? table
+---@param fields? FirstEquipSystem
 ---@return FirstEquipSystem
 function FirstEquipSystem.new(fields) return end
 

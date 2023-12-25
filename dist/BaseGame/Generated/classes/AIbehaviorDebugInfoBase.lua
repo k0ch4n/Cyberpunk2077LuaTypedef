@@ -5,6 +5,6 @@
 ---@field public caption String
 AIbehaviorDebugInfoBase = {}
 
----@param fields? table
+---@param fields? AIbehaviorDebugInfoBase
 ---@return AIbehaviorDebugInfoBase
 function AIbehaviorDebugInfoBase.new(fields) return end

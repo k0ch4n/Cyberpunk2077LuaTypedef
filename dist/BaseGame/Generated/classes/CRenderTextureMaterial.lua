@@ -4,6 +4,6 @@
 ---@class CRenderTextureMaterial: IDynamicTextureGenerator
 CRenderTextureMaterial = {}
 
----@param fields? table
+---@param fields? CRenderTextureMaterial
 ---@return CRenderTextureMaterial
 function CRenderTextureMaterial.new(fields) return end

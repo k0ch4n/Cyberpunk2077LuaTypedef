@@ -23,6 +23,6 @@
 ---@field public maxCompanionDistanceOnSpline Float
 questWithCompanionMoveOnSplineParams = {}
 
----@param fields? table
+---@param fields? questWithCompanionMoveOnSplineParams
 ---@return questWithCompanionMoveOnSplineParams
 function questWithCompanionMoveOnSplineParams.new(fields) return end

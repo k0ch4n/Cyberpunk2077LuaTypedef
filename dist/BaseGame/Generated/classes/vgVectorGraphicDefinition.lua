@@ -6,6 +6,6 @@
 ---@field public dimensions Vector2
 vgVectorGraphicDefinition = {}
 
----@param fields? table
+---@param fields? vgVectorGraphicDefinition
 ---@return vgVectorGraphicDefinition
 function vgVectorGraphicDefinition.new(fields) return end

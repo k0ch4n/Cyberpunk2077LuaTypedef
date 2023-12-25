@@ -5,6 +5,6 @@
 ---@field public difficulty gameDifficulty
 questDifficulty_ConditionType = {}
 
----@param fields? table
+---@param fields? questDifficulty_ConditionType
 ---@return questDifficulty_ConditionType
 function questDifficulty_ConditionType.new(fields) return end

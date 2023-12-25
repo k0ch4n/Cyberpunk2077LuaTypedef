@@ -5,6 +5,6 @@
 ---@field public actionsPoints WorldTransform[]
 gameeventsUserEnteredCoverEvent = {}
 
----@param fields? table
+---@param fields? gameeventsUserEnteredCoverEvent
 ---@return gameeventsUserEnteredCoverEvent
 function gameeventsUserEnteredCoverEvent.new(fields) return end

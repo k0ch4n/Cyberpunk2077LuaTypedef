@@ -6,7 +6,7 @@
 ---@field public sounds Bool
 VehicleQuestSirenEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestSirenEvent
 ---@return VehicleQuestSirenEvent
 function VehicleQuestSirenEvent.new(fields) return end
 

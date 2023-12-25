@@ -18,7 +18,7 @@
 ---@field private animPulseOptions inkanimPlaybackOptions
 AnimatedListItemController = {}
 
----@param fields? table
+---@param fields? AnimatedListItemController
 ---@return AnimatedListItemController
 function AnimatedListItemController.new(fields) return end
 

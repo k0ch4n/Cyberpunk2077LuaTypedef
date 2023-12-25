@@ -5,7 +5,7 @@
 ---@field public invert Bool
 PuppetMortalPrereq = {}
 
----@param fields? table
+---@param fields? PuppetMortalPrereq
 ---@return PuppetMortalPrereq
 function PuppetMortalPrereq.new(fields) return end
 

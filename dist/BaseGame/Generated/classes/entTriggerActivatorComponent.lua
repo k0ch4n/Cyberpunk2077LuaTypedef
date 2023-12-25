@@ -10,6 +10,6 @@
 ---@field public isEnabled Bool
 entTriggerActivatorComponent = {}
 
----@param fields? table
+---@param fields? entTriggerActivatorComponent
 ---@return entTriggerActivatorComponent
 function entTriggerActivatorComponent.new(fields) return end

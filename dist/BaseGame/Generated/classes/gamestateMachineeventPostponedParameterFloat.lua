@@ -5,6 +5,6 @@
 ---@field public value Float
 gamestateMachineeventPostponedParameterFloat = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventPostponedParameterFloat
 ---@return gamestateMachineeventPostponedParameterFloat
 function gamestateMachineeventPostponedParameterFloat.new(fields) return end

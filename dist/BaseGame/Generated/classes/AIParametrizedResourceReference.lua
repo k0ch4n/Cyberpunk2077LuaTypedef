@@ -5,6 +5,6 @@
 ---@field public overrides LibTreeParametersForwarder
 AIParametrizedResourceReference = {}
 
----@param fields? table
+---@param fields? AIParametrizedResourceReference
 ---@return AIParametrizedResourceReference
 function AIParametrizedResourceReference.new(fields) return end

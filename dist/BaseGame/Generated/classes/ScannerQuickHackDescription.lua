@@ -5,7 +5,7 @@
 ---@field private QuickHackDescription QuickhackData
 ScannerQuickHackDescription = {}
 
----@param fields? table
+---@param fields? ScannerQuickHackDescription
 ---@return ScannerQuickHackDescription
 function ScannerQuickHackDescription.new(fields) return end
 

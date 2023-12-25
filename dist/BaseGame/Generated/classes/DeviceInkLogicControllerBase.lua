@@ -8,7 +8,7 @@
 ---@field protected targetWidget inkWidget
 DeviceInkLogicControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceInkLogicControllerBase
 ---@return DeviceInkLogicControllerBase
 function DeviceInkLogicControllerBase.new(fields) return end
 

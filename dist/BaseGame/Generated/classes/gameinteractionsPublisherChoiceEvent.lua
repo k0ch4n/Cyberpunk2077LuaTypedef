@@ -4,6 +4,6 @@
 ---@class gameinteractionsPublisherChoiceEvent: gameinteractionsPublisherBaseEvent
 gameinteractionsPublisherChoiceEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsPublisherChoiceEvent
 ---@return gameinteractionsPublisherChoiceEvent
 function gameinteractionsPublisherChoiceEvent.new(fields) return end

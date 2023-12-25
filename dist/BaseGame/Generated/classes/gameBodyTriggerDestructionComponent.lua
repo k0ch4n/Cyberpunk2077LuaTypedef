@@ -8,6 +8,6 @@
 ---@field public impulseRadius Float
 gameBodyTriggerDestructionComponent = {}
 
----@param fields? table
+---@param fields? gameBodyTriggerDestructionComponent
 ---@return gameBodyTriggerDestructionComponent
 function gameBodyTriggerDestructionComponent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public timeModeRTPC CName
 audioAudBulletTimeModeMapItem = {}
 
----@param fields? table
+---@param fields? audioAudBulletTimeModeMapItem
 ---@return audioAudBulletTimeModeMapItem
 function audioAudBulletTimeModeMapItem.new(fields) return end

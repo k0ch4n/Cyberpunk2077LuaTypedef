@@ -6,6 +6,6 @@
 ---@field public val Bool
 questSetAutopilot_NodeType = {}
 
----@param fields? table
+---@param fields? questSetAutopilot_NodeType
 ---@return questSetAutopilot_NodeType
 function questSetAutopilot_NodeType.new(fields) return end

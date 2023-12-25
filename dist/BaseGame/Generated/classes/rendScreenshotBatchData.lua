@@ -9,6 +9,6 @@
 ---@field public streamingObserverMode rendEStreamingObserverMode
 rendScreenshotBatchData = {}
 
----@param fields? table
+---@param fields? rendScreenshotBatchData
 ---@return rendScreenshotBatchData
 function rendScreenshotBatchData.new(fields) return end

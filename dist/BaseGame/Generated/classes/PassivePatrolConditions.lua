@@ -6,7 +6,7 @@
 ---@field private cmdCbId Uint32
 PassivePatrolConditions = {}
 
----@param fields? table
+---@param fields? PassivePatrolConditions
 ---@return PassivePatrolConditions
 function PassivePatrolConditions.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public textArray String[]
 ScrollingText = {}
 
----@param fields? table
+---@param fields? ScrollingText
 ---@return ScrollingText
 function ScrollingText.new(fields) return end

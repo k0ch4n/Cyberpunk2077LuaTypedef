@@ -4,7 +4,7 @@
 ---@class HaveScavengeTargets: AIbehaviorconditionScript
 HaveScavengeTargets = {}
 
----@param fields? table
+---@param fields? HaveScavengeTargets
 ---@return HaveScavengeTargets
 function HaveScavengeTargets.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private gameInstance ScriptGameInstance
 StatusEffectBasedTimeBankEffector = {}
 
----@param fields? table
+---@param fields? StatusEffectBasedTimeBankEffector
 ---@return StatusEffectBasedTimeBankEffector
 function StatusEffectBasedTimeBankEffector.new(fields) return end
 

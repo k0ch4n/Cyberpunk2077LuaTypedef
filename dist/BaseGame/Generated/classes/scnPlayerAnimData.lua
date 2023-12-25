@@ -8,6 +8,6 @@
 ---@field public isEndOfCarryingAnimation Bool
 scnPlayerAnimData = {}
 
----@param fields? table
+---@param fields? scnPlayerAnimData
 ---@return scnPlayerAnimData
 function scnPlayerAnimData.new(fields) return end

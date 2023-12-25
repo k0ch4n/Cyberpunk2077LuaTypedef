@@ -9,6 +9,6 @@
 ---@field public movement gameTransformAnimation_Movement
 gameTransformAnimation_RotateOnAxis = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_RotateOnAxis
 ---@return gameTransformAnimation_RotateOnAxis
 function gameTransformAnimation_RotateOnAxis.new(fields) return end

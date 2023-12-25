@@ -4,7 +4,7 @@
 ---@class gamedataPhotoModePoseCategory_Record: gamedataTweakDBRecord
 gamedataPhotoModePoseCategory_Record = {}
 
----@param fields? table
+---@param fields? gamedataPhotoModePoseCategory_Record
 ---@return gamedataPhotoModePoseCategory_Record
 function gamedataPhotoModePoseCategory_Record.new(fields) return end
 

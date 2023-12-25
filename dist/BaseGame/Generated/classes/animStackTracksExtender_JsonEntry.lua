@@ -6,6 +6,6 @@
 ---@field public referenceValue Float
 animStackTracksExtender_JsonEntry = {}
 
----@param fields? table
+---@param fields? animStackTracksExtender_JsonEntry
 ---@return animStackTracksExtender_JsonEntry
 function animStackTracksExtender_JsonEntry.new(fields) return end

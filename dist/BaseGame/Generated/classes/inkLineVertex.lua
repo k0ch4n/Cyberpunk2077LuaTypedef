@@ -6,6 +6,6 @@
 ---@field public neType inkLineType
 inkLineVertex = {}
 
----@param fields? table
+---@param fields? inkLineVertex
 ---@return inkLineVertex
 function inkLineVertex.new(fields) return end

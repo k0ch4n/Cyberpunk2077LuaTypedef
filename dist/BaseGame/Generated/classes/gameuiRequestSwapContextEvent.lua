@@ -6,6 +6,6 @@
 ---@field public newContext UIGameContext
 gameuiRequestSwapContextEvent = {}
 
----@param fields? table
+---@param fields? gameuiRequestSwapContextEvent
 ---@return gameuiRequestSwapContextEvent
 function gameuiRequestSwapContextEvent.new(fields) return end

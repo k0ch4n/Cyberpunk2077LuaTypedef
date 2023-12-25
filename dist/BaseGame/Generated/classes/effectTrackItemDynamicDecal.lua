@@ -11,6 +11,6 @@
 ---@field public randomRotation Bool
 effectTrackItemDynamicDecal = {}
 
----@param fields? table
+---@param fields? effectTrackItemDynamicDecal
 ---@return effectTrackItemDynamicDecal
 function effectTrackItemDynamicDecal.new(fields) return end

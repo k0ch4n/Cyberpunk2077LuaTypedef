@@ -6,6 +6,6 @@
 ---@field public fieldName CName
 gameBlackboardSerializableID = {}
 
----@param fields? table
+---@param fields? gameBlackboardSerializableID
 ---@return gameBlackboardSerializableID
 function gameBlackboardSerializableID.new(fields) return end

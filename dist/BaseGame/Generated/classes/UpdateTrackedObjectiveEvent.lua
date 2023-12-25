@@ -6,6 +6,6 @@
 ---@field public trackedQuest gameJournalQuest
 UpdateTrackedObjectiveEvent = {}
 
----@param fields? table
+---@param fields? UpdateTrackedObjectiveEvent
 ---@return UpdateTrackedObjectiveEvent
 function UpdateTrackedObjectiveEvent.new(fields) return end

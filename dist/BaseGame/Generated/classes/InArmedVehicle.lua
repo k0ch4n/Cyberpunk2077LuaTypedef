@@ -4,7 +4,7 @@
 ---@class InArmedVehicle: AIbehaviorconditionScript
 InArmedVehicle = {}
 
----@param fields? table
+---@param fields? InArmedVehicle
 ---@return InArmedVehicle
 function InArmedVehicle.new(fields) return end
 

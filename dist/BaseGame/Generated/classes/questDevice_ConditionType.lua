@@ -8,6 +8,6 @@
 ---@field public functionParameters questDevice_ConditionFunctionParameter[]
 questDevice_ConditionType = {}
 
----@param fields? table
+---@param fields? questDevice_ConditionType
 ---@return questDevice_ConditionType
 function questDevice_ConditionType.new(fields) return end

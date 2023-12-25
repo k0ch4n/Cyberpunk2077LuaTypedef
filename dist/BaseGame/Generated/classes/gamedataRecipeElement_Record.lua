@@ -4,7 +4,7 @@
 ---@class gamedataRecipeElement_Record: gamedataTweakDBRecord
 gamedataRecipeElement_Record = {}
 
----@param fields? table
+---@param fields? gamedataRecipeElement_Record
 ---@return gamedataRecipeElement_Record
 function gamedataRecipeElement_Record.new(fields) return end
 

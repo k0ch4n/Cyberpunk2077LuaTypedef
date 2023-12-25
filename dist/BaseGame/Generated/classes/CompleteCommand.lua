@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 CompleteCommand = {}
 
----@param fields? table
+---@param fields? CompleteCommand
 ---@return CompleteCommand
 function CompleteCommand.new(fields) return end
 

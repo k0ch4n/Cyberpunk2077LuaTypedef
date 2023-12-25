@@ -5,6 +5,6 @@
 ---@field public params questShowDialogIndicator_NodeTypeParams[]
 questShowDialogIndicator_NodeType = {}
 
----@param fields? table
+---@param fields? questShowDialogIndicator_NodeType
 ---@return questShowDialogIndicator_NodeType
 function questShowDialogIndicator_NodeType.new(fields) return end

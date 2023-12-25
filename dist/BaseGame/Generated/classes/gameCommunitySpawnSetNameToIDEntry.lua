@@ -6,6 +6,6 @@
 ---@field public nameReference CName
 gameCommunitySpawnSetNameToIDEntry = {}
 
----@param fields? table
+---@param fields? gameCommunitySpawnSetNameToIDEntry
 ---@return gameCommunitySpawnSetNameToIDEntry
 function gameCommunitySpawnSetNameToIDEntry.new(fields) return end

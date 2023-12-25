@@ -9,6 +9,6 @@
 ---@field public repeatCommandOnInterrupt Bool
 questMovePuppetNodeParams = {}
 
----@param fields? table
+---@param fields? questMovePuppetNodeParams
 ---@return questMovePuppetNodeParams
 function questMovePuppetNodeParams.new(fields) return end

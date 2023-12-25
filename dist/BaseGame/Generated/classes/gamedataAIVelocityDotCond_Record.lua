@@ -4,7 +4,7 @@
 ---@class gamedataAIVelocityDotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIVelocityDotCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIVelocityDotCond_Record
 ---@return gamedataAIVelocityDotCond_Record
 function gamedataAIVelocityDotCond_Record.new(fields) return end
 

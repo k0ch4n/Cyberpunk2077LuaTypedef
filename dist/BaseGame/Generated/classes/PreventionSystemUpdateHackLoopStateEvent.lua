@@ -4,6 +4,6 @@
 ---@class PreventionSystemUpdateHackLoopStateEvent: gameScriptableSystemRequest
 PreventionSystemUpdateHackLoopStateEvent = {}
 
----@param fields? table
+---@param fields? PreventionSystemUpdateHackLoopStateEvent
 ---@return PreventionSystemUpdateHackLoopStateEvent
 function PreventionSystemUpdateHackLoopStateEvent.new(fields) return end

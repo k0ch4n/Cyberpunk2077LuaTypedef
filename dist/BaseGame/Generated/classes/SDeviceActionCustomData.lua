@@ -19,7 +19,7 @@
 ---@field public callbackID Uint32
 SDeviceActionCustomData = {}
 
----@param fields? table
+---@param fields? SDeviceActionCustomData
 ---@return SDeviceActionCustomData
 function SDeviceActionCustomData.new(fields) return end
 

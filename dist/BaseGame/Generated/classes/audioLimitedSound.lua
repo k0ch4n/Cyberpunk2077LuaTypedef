@@ -6,6 +6,6 @@
 ---@field public attenuationDistance Float
 audioLimitedSound = {}
 
----@param fields? table
+---@param fields? audioLimitedSound
 ---@return audioLimitedSound
 function audioLimitedSound.new(fields) return end

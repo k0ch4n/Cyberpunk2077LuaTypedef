@@ -8,7 +8,7 @@
 ---@field public iconID TweakDBID
 gameJournalOnscreen = {}
 
----@param fields? table
+---@param fields? gameJournalOnscreen
 ---@return gameJournalOnscreen
 function gameJournalOnscreen.new(fields) return end
 

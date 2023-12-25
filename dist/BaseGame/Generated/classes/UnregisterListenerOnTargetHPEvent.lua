@@ -6,6 +6,6 @@
 ---@field public isFromListenerEvent Bool
 UnregisterListenerOnTargetHPEvent = {}
 
----@param fields? table
+---@param fields? UnregisterListenerOnTargetHPEvent
 ---@return UnregisterListenerOnTargetHPEvent
 function UnregisterListenerOnTargetHPEvent.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public isValid Bool
 StimRequestID = {}
 
----@param fields? table
+---@param fields? StimRequestID
 ---@return StimRequestID
 function StimRequestID.new(fields) return end
 

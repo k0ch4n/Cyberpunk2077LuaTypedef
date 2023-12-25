@@ -5,6 +5,6 @@
 ---@field public trespasserEntryIndex Int32
 InitiateScanner = {}
 
----@param fields? table
+---@param fields? InitiateScanner
 ---@return InitiateScanner
 function InitiateScanner.new(fields) return end

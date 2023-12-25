@@ -5,7 +5,7 @@
 ---@field public textInput Codeware_UI_TextInput
 GenericMessageNotification = {}
 
----@param fields? table
+---@param fields? GenericMessageNotification
 ---@return GenericMessageNotification
 function GenericMessageNotification.new(fields) return end
 

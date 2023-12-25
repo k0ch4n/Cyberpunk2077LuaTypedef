@@ -4,7 +4,7 @@
 ---@class MediaDeviceStatus: BaseDeviceStatus
 MediaDeviceStatus = {}
 
----@param fields? table
+---@param fields? MediaDeviceStatus
 ---@return MediaDeviceStatus
 function MediaDeviceStatus.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gamePhantomEntitySystem: gameIPhantomEntitySystem
 gamePhantomEntitySystem = {}
 
----@param fields? table
+---@param fields? gamePhantomEntitySystem
 ---@return gamePhantomEntitySystem
 function gamePhantomEntitySystem.new(fields) return end

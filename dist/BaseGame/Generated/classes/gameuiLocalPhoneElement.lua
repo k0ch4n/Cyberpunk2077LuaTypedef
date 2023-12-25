@@ -7,6 +7,6 @@
 ---@field public widget inkWidget
 gameuiLocalPhoneElement = {}
 
----@param fields? table
+---@param fields? gameuiLocalPhoneElement
 ---@return gameuiLocalPhoneElement
 function gameuiLocalPhoneElement.new(fields) return end

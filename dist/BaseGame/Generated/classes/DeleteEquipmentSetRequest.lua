@@ -5,6 +5,6 @@
 ---@field public setName String
 DeleteEquipmentSetRequest = {}
 
----@param fields? table
+---@param fields? DeleteEquipmentSetRequest
 ---@return DeleteEquipmentSetRequest
 function DeleteEquipmentSetRequest.new(fields) return end

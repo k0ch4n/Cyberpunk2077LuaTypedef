@@ -9,6 +9,6 @@
 ---@field public previousDampedSpringForce Float
 vehicleWheelRuntimePSData = {}
 
----@param fields? table
+---@param fields? vehicleWheelRuntimePSData
 ---@return vehicleWheelRuntimePSData
 function vehicleWheelRuntimePSData.new(fields) return end

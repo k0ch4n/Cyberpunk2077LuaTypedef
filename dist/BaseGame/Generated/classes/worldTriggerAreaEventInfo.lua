@@ -8,6 +8,6 @@
 ---@field public activatorID Uint32
 worldTriggerAreaEventInfo = {}
 
----@param fields? table
+---@param fields? worldTriggerAreaEventInfo
 ---@return worldTriggerAreaEventInfo
 function worldTriggerAreaEventInfo.new(fields) return end

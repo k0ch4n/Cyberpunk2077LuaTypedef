@@ -7,6 +7,6 @@
 ---@field public weight Float
 entMorphTargetWeightEntry = {}
 
----@param fields? table
+---@param fields? entMorphTargetWeightEntry
 ---@return entMorphTargetWeightEntry
 function entMorphTargetWeightEntry.new(fields) return end

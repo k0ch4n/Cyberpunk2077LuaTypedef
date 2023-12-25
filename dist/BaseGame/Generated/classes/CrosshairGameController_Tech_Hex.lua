@@ -25,7 +25,7 @@
 ---@field private spread Float
 CrosshairGameController_Tech_Hex = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Tech_Hex
 ---@return CrosshairGameController_Tech_Hex
 function CrosshairGameController_Tech_Hex.new(fields) return end
 

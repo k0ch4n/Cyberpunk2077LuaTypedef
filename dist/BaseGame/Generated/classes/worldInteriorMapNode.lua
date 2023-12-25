@@ -7,6 +7,6 @@
 ---@field public buffer serializationDeferredDataBuffer
 worldInteriorMapNode = {}
 
----@param fields? table
+---@param fields? worldInteriorMapNode
 ---@return worldInteriorMapNode
 function worldInteriorMapNode.new(fields) return end

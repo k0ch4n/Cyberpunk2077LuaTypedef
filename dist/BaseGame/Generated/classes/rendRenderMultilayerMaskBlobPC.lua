@@ -4,6 +4,6 @@
 ---@class rendRenderMultilayerMaskBlobPC: rendRenderMultilayerMaskBlob
 rendRenderMultilayerMaskBlobPC = {}
 
----@param fields? table
+---@param fields? rendRenderMultilayerMaskBlobPC
 ---@return rendRenderMultilayerMaskBlobPC
 function rendRenderMultilayerMaskBlobPC.new(fields) return end

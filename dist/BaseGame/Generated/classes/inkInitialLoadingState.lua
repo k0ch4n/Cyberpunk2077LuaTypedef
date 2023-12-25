@@ -4,6 +4,6 @@
 ---@class inkInitialLoadingState: inkIStateMachineState
 inkInitialLoadingState = {}
 
----@param fields? table
+---@param fields? inkInitialLoadingState
 ---@return inkInitialLoadingState
 function inkInitialLoadingState.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class EMPEnded: redEvent
 EMPEnded = {}
 
----@param fields? table
+---@param fields? EMPEnded
 ---@return EMPEnded
 function EMPEnded.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public delayChildActivationIfAttaching Bool
 AIbehaviorLimiterNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorLimiterNodeDefinition
 ---@return AIbehaviorLimiterNodeDefinition
 function AIbehaviorLimiterNodeDefinition.new(fields) return end

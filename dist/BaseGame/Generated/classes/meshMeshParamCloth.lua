@@ -8,6 +8,6 @@
 ---@field public capsules physicsclothClothCapsuleExportData
 meshMeshParamCloth = {}
 
----@param fields? table
+---@param fields? meshMeshParamCloth
 ---@return meshMeshParamCloth
 function meshMeshParamCloth.new(fields) return end

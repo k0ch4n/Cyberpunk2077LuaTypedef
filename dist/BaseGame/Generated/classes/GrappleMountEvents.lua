@@ -4,7 +4,7 @@
 ---@class GrappleMountEvents: LocomotionTakedownEvents
 GrappleMountEvents = {}
 
----@param fields? table
+---@param fields? GrappleMountEvents
 ---@return GrappleMountEvents
 function GrappleMountEvents.new(fields) return end
 

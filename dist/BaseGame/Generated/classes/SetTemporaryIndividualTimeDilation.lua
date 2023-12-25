@@ -4,7 +4,7 @@
 ---@class SetTemporaryIndividualTimeDilation: gameEffectExecutor_Scripted
 SetTemporaryIndividualTimeDilation = {}
 
----@param fields? table
+---@param fields? SetTemporaryIndividualTimeDilation
 ---@return SetTemporaryIndividualTimeDilation
 function SetTemporaryIndividualTimeDilation.new(fields) return end
 

@@ -25,7 +25,7 @@
 ---@field private factlistenerId Uint32
 BaseSubtitlesGameController = {}
 
----@param fields? table
+---@param fields? BaseSubtitlesGameController
 ---@return BaseSubtitlesGameController
 function BaseSubtitlesGameController.new(fields) return end
 

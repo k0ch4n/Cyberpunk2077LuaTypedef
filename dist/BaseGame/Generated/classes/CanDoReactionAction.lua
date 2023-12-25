@@ -5,7 +5,7 @@
 ---@field public reactionName CName
 CanDoReactionAction = {}
 
----@param fields? table
+---@param fields? CanDoReactionAction
 ---@return CanDoReactionAction
 function CanDoReactionAction.new(fields) return end
 

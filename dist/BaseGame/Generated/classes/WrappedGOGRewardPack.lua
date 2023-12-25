@@ -6,7 +6,7 @@
 ---@field public data gameRewardPack
 WrappedGOGRewardPack = {}
 
----@param fields? table
+---@param fields? WrappedGOGRewardPack
 ---@return WrappedGOGRewardPack
 function WrappedGOGRewardPack.new(fields) return end
 

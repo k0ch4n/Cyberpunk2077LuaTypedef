@@ -4,7 +4,7 @@
 ---@class QuestDisableRadio: ActionBool
 QuestDisableRadio = {}
 
----@param fields? table
+---@param fields? QuestDisableRadio
 ---@return QuestDisableRadio
 function QuestDisableRadio.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class TerminateReactionLookatEvent: redEvent
 TerminateReactionLookatEvent = {}
 
----@param fields? table
+---@param fields? TerminateReactionLookatEvent
 ---@return TerminateReactionLookatEvent
 function TerminateReactionLookatEvent.new(fields) return end

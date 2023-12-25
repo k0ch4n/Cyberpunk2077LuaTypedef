@@ -19,7 +19,7 @@
 ---@field private c_ITEM_ROTATION_SPEED Float
 ItemPreviewGameController = {}
 
----@param fields? table
+---@param fields? ItemPreviewGameController
 ---@return ItemPreviewGameController
 function ItemPreviewGameController.new(fields) return end
 

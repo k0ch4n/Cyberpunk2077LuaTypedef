@@ -4,7 +4,7 @@
 ---@class gameDynamicSpawnSystem: gameIDynamicSpawnSystem
 gameDynamicSpawnSystem = {}
 
----@param fields? table
+---@param fields? gameDynamicSpawnSystem
 ---@return gameDynamicSpawnSystem
 function gameDynamicSpawnSystem.new(fields) return end
 

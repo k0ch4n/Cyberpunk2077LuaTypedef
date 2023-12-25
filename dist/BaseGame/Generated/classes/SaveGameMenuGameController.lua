@@ -22,7 +22,7 @@
 ---@field private isEp1Enabled Bool
 SaveGameMenuGameController = {}
 
----@param fields? table
+---@param fields? SaveGameMenuGameController
 ---@return SaveGameMenuGameController
 function SaveGameMenuGameController.new(fields) return end
 

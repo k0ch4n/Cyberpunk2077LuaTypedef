@@ -4,6 +4,6 @@
 ---@class OnFocusLost: inkFocusEvent
 OnFocusLost = {}
 
----@param fields? table
+---@param fields? OnFocusLost
 ---@return OnFocusLost
 function OnFocusLost.new(fields) return end

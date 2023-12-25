@@ -4,7 +4,7 @@
 ---@class MeleeRecoveryDecisions: MeleeTransition
 MeleeRecoveryDecisions = {}
 
----@param fields? table
+---@param fields? MeleeRecoveryDecisions
 ---@return MeleeRecoveryDecisions
 function MeleeRecoveryDecisions.new(fields) return end
 

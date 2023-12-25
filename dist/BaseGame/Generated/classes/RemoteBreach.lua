@@ -4,7 +4,7 @@
 ---@class RemoteBreach: ActionBool
 RemoteBreach = {}
 
----@param fields? table
+---@param fields? RemoteBreach
 ---@return RemoteBreach
 function RemoteBreach.new(fields) return end
 

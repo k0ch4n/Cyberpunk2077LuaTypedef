@@ -7,6 +7,6 @@
 ---@field public onlyRemoveWeakLink Bool
 UnregisterNetworkLinkBetweenTwoEntitiesRequest = {}
 
----@param fields? table
+---@param fields? UnregisterNetworkLinkBetweenTwoEntitiesRequest
 ---@return UnregisterNetworkLinkBetweenTwoEntitiesRequest
 function UnregisterNetworkLinkBetweenTwoEntitiesRequest.new(fields) return end

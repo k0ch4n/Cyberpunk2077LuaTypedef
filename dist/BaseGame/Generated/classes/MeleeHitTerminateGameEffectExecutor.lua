@@ -5,7 +5,7 @@
 ---@field private ignoreWaterImpacts Bool
 MeleeHitTerminateGameEffectExecutor = {}
 
----@param fields? table
+---@param fields? MeleeHitTerminateGameEffectExecutor
 ---@return MeleeHitTerminateGameEffectExecutor
 function MeleeHitTerminateGameEffectExecutor.new(fields) return end
 

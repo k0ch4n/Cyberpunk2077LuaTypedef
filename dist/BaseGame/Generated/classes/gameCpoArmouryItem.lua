@@ -5,6 +5,6 @@
 ---@field public armouryItemID TweakDBID
 gameCpoArmouryItem = {}
 
----@param fields? table
+---@param fields? gameCpoArmouryItem
 ---@return gameCpoArmouryItem
 function gameCpoArmouryItem.new(fields) return end

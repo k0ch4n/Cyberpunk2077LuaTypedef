@@ -4,7 +4,7 @@
 ---@class UpperBodyPSMPrereq: PlayerStateMachinePrereq
 UpperBodyPSMPrereq = {}
 
----@param fields? table
+---@param fields? UpperBodyPSMPrereq
 ---@return UpperBodyPSMPrereq
 function UpperBodyPSMPrereq.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 IntercomInkGameController = {}
 
----@param fields? table
+---@param fields? IntercomInkGameController
 ---@return IntercomInkGameController
 function IntercomInkGameController.new(fields) return end
 

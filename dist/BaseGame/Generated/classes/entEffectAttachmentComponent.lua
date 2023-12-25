@@ -4,6 +4,6 @@
 ---@class entEffectAttachmentComponent: entIComponent
 entEffectAttachmentComponent = {}
 
----@param fields? table
+---@param fields? entEffectAttachmentComponent
 ---@return entEffectAttachmentComponent
 function entEffectAttachmentComponent.new(fields) return end

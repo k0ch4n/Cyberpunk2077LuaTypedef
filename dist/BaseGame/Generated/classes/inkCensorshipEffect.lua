@@ -5,6 +5,6 @@
 ---@field public censorshipFlags CensorshipFlags
 inkCensorshipEffect = {}
 
----@param fields? table
+---@param fields? inkCensorshipEffect
 ---@return inkCensorshipEffect
 function inkCensorshipEffect.new(fields) return end

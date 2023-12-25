@@ -4,6 +4,6 @@
 ---@class AISmartObjectManager: AIISmartObjectManager
 AISmartObjectManager = {}
 
----@param fields? table
+---@param fields? AISmartObjectManager
 ---@return AISmartObjectManager
 function AISmartObjectManager.new(fields) return end

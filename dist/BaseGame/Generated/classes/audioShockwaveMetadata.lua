@@ -8,6 +8,6 @@
 ---@field public revealMetadataName CName
 audioShockwaveMetadata = {}
 
----@param fields? table
+---@param fields? audioShockwaveMetadata
 ---@return audioShockwaveMetadata
 function audioShockwaveMetadata.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public hipsRequest animHipsIkRequest
 animAnimNode_AddSnapToTerrainIkRequest = {}
 
----@param fields? table
+---@param fields? animAnimNode_AddSnapToTerrainIkRequest
 ---@return animAnimNode_AddSnapToTerrainIkRequest
 function animAnimNode_AddSnapToTerrainIkRequest.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public isBossFinisher Bool
 gameeventsStartFinisherEvent = {}
 
----@param fields? table
+---@param fields? gameeventsStartFinisherEvent
 ---@return gameeventsStartFinisherEvent
 function gameeventsStartFinisherEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class VaultEvents: LocomotionGroundEvents
 VaultEvents = {}
 
----@param fields? table
+---@param fields? VaultEvents
 ---@return VaultEvents
 function VaultEvents.new(fields) return end
 

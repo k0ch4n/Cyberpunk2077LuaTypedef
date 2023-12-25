@@ -7,7 +7,7 @@
 ---@field public forceScene Bool
 VehicleDoorClose = {}
 
----@param fields? table
+---@param fields? VehicleDoorClose
 ---@return VehicleDoorClose
 function VehicleDoorClose.new(fields) return end
 

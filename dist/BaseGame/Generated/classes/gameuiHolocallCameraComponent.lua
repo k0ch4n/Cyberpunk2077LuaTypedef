@@ -4,6 +4,6 @@
 ---@class gameuiHolocallCameraComponent: entRenderToTextureCameraComponent
 gameuiHolocallCameraComponent = {}
 
----@param fields? table
+---@param fields? gameuiHolocallCameraComponent
 ---@return gameuiHolocallCameraComponent
 function gameuiHolocallCameraComponent.new(fields) return end

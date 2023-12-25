@@ -5,6 +5,6 @@
 ---@field public eventName CName
 gameaudioeventsMusicEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsMusicEvent
 ---@return gameaudioeventsMusicEvent
 function gameaudioeventsMusicEvent.new(fields) return end

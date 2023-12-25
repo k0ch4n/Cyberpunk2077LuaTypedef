@@ -6,7 +6,7 @@
 ---@field private slotBackground inkWidgetReference
 InventoryItemModSlotDisplay = {}
 
----@param fields? table
+---@param fields? InventoryItemModSlotDisplay
 ---@return InventoryItemModSlotDisplay
 function InventoryItemModSlotDisplay.new(fields) return end
 

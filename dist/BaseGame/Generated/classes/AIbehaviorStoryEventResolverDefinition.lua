@@ -5,6 +5,6 @@
 ---@field public storyTier AIArgumentMapping
 AIbehaviorStoryEventResolverDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorStoryEventResolverDefinition
 ---@return AIbehaviorStoryEventResolverDefinition
 function AIbehaviorStoryEventResolverDefinition.new(fields) return end

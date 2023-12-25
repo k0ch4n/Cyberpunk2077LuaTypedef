@@ -4,6 +4,6 @@
 ---@class PickupBodyWorkspotDelayEvent: redEvent
 PickupBodyWorkspotDelayEvent = {}
 
----@param fields? table
+---@param fields? PickupBodyWorkspotDelayEvent
 ---@return PickupBodyWorkspotDelayEvent
 function PickupBodyWorkspotDelayEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class VehicleState: ChangeStanceStateAbstract
 VehicleState = {}
 
----@param fields? table
+---@param fields? VehicleState
 ---@return VehicleState
 function VehicleState.new(fields) return end
 

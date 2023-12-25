@@ -7,7 +7,7 @@
 ---@field private itemEquippedListener redCallbackObject
 UIInventoryScriptableEquipmentListener = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableEquipmentListener
 ---@return UIInventoryScriptableEquipmentListener
 function UIInventoryScriptableEquipmentListener.new(fields) return end
 

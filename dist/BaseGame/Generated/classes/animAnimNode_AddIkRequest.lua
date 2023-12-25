@@ -14,6 +14,6 @@
 ---@field public priority Int32
 animAnimNode_AddIkRequest = {}
 
----@param fields? table
+---@param fields? animAnimNode_AddIkRequest
 ---@return animAnimNode_AddIkRequest
 function animAnimNode_AddIkRequest.new(fields) return end

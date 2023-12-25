@@ -22,7 +22,7 @@
 ---@field private isRadialMenuVisibleBBId redCallbackObject
 PhoneHotkeyController = {}
 
----@param fields? table
+---@param fields? PhoneHotkeyController
 ---@return PhoneHotkeyController
 function PhoneHotkeyController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAICalculatePathCond_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculatePathCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAICalculatePathCond_Record
 ---@return gamedataAICalculatePathCond_Record
 function gamedataAICalculatePathCond_Record.new(fields) return end
 

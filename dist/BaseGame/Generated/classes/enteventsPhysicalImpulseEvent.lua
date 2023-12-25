@@ -9,6 +9,6 @@
 ---@field public shapeIndex Uint32
 enteventsPhysicalImpulseEvent = {}
 
----@param fields? table
+---@param fields? enteventsPhysicalImpulseEvent
 ---@return enteventsPhysicalImpulseEvent
 function enteventsPhysicalImpulseEvent.new(fields) return end

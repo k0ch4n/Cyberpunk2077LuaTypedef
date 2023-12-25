@@ -35,7 +35,7 @@
 ---@field private decelerationMod gameConstantStatModifierData_Deprecated
 AimingStateEvents = {}
 
----@param fields? table
+---@param fields? AimingStateEvents
 ---@return AimingStateEvents
 function AimingStateEvents.new(fields) return end
 

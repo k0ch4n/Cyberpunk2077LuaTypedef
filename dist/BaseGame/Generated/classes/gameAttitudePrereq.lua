@@ -5,6 +5,6 @@
 ---@field public attitude EAIAttitude
 gameAttitudePrereq = {}
 
----@param fields? table
+---@param fields? gameAttitudePrereq
 ---@return gameAttitudePrereq
 function gameAttitudePrereq.new(fields) return end

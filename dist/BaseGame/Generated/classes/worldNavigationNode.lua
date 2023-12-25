@@ -5,6 +5,6 @@
 ---@field public navigationTileResource worldNavigationTileResource
 worldNavigationNode = {}
 
----@param fields? table
+---@param fields? worldNavigationNode
 ---@return worldNavigationNode
 function worldNavigationNode.new(fields) return end

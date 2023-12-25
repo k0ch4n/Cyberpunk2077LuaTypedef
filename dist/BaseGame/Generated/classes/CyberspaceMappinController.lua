@@ -5,7 +5,7 @@
 ---@field public image inkImageWidgetReference
 CyberspaceMappinController = {}
 
----@param fields? table
+---@param fields? CyberspaceMappinController
 ---@return CyberspaceMappinController
 function CyberspaceMappinController.new(fields) return end
 

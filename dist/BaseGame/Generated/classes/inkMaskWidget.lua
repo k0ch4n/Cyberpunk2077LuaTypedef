@@ -10,7 +10,7 @@
 ---@field public maskTransparency Float
 inkMaskWidget = {}
 
----@param fields? table
+---@param fields? inkMaskWidget
 ---@return inkMaskWidget
 function inkMaskWidget.new(fields) return end
 

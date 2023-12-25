@@ -7,6 +7,6 @@
 ---@field public isValid Bool
 interopGlobalNodeIDResult = {}
 
----@param fields? table
+---@param fields? interopGlobalNodeIDResult
 ---@return interopGlobalNodeIDResult
 function interopGlobalNodeIDResult.new(fields) return end

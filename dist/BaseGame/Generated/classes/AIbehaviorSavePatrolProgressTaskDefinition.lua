@@ -7,6 +7,6 @@
 ---@field public savedState AIArgumentMapping
 AIbehaviorSavePatrolProgressTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSavePatrolProgressTaskDefinition
 ---@return AIbehaviorSavePatrolProgressTaskDefinition
 function AIbehaviorSavePatrolProgressTaskDefinition.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public maxPriorityBoundsFactor Float
 gameinteractionsDistanceFromScreenCenterPredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsDistanceFromScreenCenterPredicate
 ---@return gameinteractionsDistanceFromScreenCenterPredicate
 function gameinteractionsDistanceFromScreenCenterPredicate.new(fields) return end

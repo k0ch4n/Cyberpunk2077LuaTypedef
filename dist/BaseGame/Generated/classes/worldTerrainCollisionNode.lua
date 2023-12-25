@@ -14,6 +14,6 @@
 ---@field public increaseStreamingDistance Bool
 worldTerrainCollisionNode = {}
 
----@param fields? table
+---@param fields? worldTerrainCollisionNode
 ---@return worldTerrainCollisionNode
 function worldTerrainCollisionNode.new(fields) return end

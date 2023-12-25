@@ -5,7 +5,7 @@
 ---@field public howManyAttacks Int32
 WeaponShootPrereq = {}
 
----@param fields? table
+---@param fields? WeaponShootPrereq
 ---@return WeaponShootPrereq
 function WeaponShootPrereq.new(fields) return end
 

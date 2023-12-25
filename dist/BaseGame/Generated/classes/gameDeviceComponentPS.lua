@@ -18,7 +18,7 @@
 ---@field protected maxDevicesToExtractInOneFrame Int32
 gameDeviceComponentPS = {}
 
----@param fields? table
+---@param fields? gameDeviceComponentPS
 ---@return gameDeviceComponentPS
 function gameDeviceComponentPS.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public scoreWidget inkTextWidgetReference
 gameuiPanzerScoreRecord = {}
 
----@param fields? table
+---@param fields? gameuiPanzerScoreRecord
 ---@return gameuiPanzerScoreRecord
 function gameuiPanzerScoreRecord.new(fields) return end

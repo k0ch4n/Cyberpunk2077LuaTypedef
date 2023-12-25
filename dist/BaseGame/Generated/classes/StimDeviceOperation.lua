@@ -5,7 +5,7 @@
 ---@field public stims SStimOperationData[]
 StimDeviceOperation = {}
 
----@param fields? table
+---@param fields? StimDeviceOperation
 ---@return StimDeviceOperation
 function StimDeviceOperation.new(fields) return end
 

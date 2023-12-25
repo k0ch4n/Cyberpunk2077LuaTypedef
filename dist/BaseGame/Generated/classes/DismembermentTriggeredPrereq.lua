@@ -5,7 +5,7 @@
 ---@field public currValue Uint32
 DismembermentTriggeredPrereq = {}
 
----@param fields? table
+---@param fields? DismembermentTriggeredPrereq
 ---@return DismembermentTriggeredPrereq
 function DismembermentTriggeredPrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class inkVectorGraphicWidget: inkLeafWidget
 inkVectorGraphicWidget = {}
 
----@param fields? table
+---@param fields? inkVectorGraphicWidget
 ---@return inkVectorGraphicWidget
 function inkVectorGraphicWidget.new(fields) return end
 

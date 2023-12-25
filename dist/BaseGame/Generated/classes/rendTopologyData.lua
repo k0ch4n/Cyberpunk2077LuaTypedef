@@ -8,6 +8,6 @@
 ---@field public metadataStride Uint32
 rendTopologyData = {}
 
----@param fields? table
+---@param fields? rendTopologyData
 ---@return rendTopologyData
 function rendTopologyData.new(fields) return end

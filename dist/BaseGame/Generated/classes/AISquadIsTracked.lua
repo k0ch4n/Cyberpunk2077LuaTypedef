@@ -5,6 +5,6 @@
 ---@field public isSquadTracked Bool
 AISquadIsTracked = {}
 
----@param fields? table
+---@param fields? AISquadIsTracked
 ---@return AISquadIsTracked
 function AISquadIsTracked.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ToggleLight: ActionBool
 ToggleLight = {}
 
----@param fields? table
+---@param fields? ToggleLight
 ---@return ToggleLight
 function ToggleLight.new(fields) return end
 

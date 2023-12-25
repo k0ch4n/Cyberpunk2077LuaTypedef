@@ -11,6 +11,6 @@
 ---@field public itemPerkGroup gamedataPerkWeaponGroupType
 InventoryItemPreviewData = {}
 
----@param fields? table
+---@param fields? InventoryItemPreviewData
 ---@return InventoryItemPreviewData
 function InventoryItemPreviewData.new(fields) return end

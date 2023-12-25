@@ -4,7 +4,7 @@
 ---@class gameDebugCheatsSystem: gameIDebugCheatsSystem
 gameDebugCheatsSystem = {}
 
----@param fields? table
+---@param fields? gameDebugCheatsSystem
 ---@return gameDebugCheatsSystem
 function gameDebugCheatsSystem.new(fields) return end
 

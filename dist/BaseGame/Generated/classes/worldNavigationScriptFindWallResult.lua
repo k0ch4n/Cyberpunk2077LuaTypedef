@@ -7,6 +7,6 @@
 ---@field public hitPosition Vector4
 worldNavigationScriptFindWallResult = {}
 
----@param fields? table
+---@param fields? worldNavigationScriptFindWallResult
 ---@return worldNavigationScriptFindWallResult
 function worldNavigationScriptFindWallResult.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public spentPerkPoints Int32
 SProficiency = {}
 
----@param fields? table
+---@param fields? SProficiency
 ---@return SProficiency
 function SProficiency.new(fields) return end

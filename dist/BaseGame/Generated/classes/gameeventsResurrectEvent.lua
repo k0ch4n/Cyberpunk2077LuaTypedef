@@ -4,6 +4,6 @@
 ---@class gameeventsResurrectEvent: redEvent
 gameeventsResurrectEvent = {}
 
----@param fields? table
+---@param fields? gameeventsResurrectEvent
 ---@return gameeventsResurrectEvent
 function gameeventsResurrectEvent.new(fields) return end

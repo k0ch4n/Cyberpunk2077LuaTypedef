@@ -6,6 +6,6 @@
 ---@field public weights Float[]
 animImportFacialInitialPoseWeightDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialInitialPoseWeightDesc
 ---@return animImportFacialInitialPoseWeightDesc
 function animImportFacialInitialPoseWeightDesc.new(fields) return end

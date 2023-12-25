@@ -8,6 +8,6 @@
 ---@field public sectorSpan Vector4
 worldDistantGINode = {}
 
----@param fields? table
+---@param fields? worldDistantGINode
 ---@return worldDistantGINode
 function worldDistantGINode.new(fields) return end

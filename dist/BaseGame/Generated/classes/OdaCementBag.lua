@@ -5,7 +5,7 @@
 ---@field private onCooldown Bool
 OdaCementBag = {}
 
----@param fields? table
+---@param fields? OdaCementBag
 ---@return OdaCementBag
 function OdaCementBag.new(fields) return end
 

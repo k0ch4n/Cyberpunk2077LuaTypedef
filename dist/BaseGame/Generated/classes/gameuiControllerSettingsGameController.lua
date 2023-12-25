@@ -27,7 +27,7 @@
 ---@field private inputSettingVar userSettingsVar
 gameuiControllerSettingsGameController = {}
 
----@param fields? table
+---@param fields? gameuiControllerSettingsGameController
 ---@return gameuiControllerSettingsGameController
 function gameuiControllerSettingsGameController.new(fields) return end
 

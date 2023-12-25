@@ -4,7 +4,7 @@
 ---@class gamedataVendorProgressionBasedStock_Record: gamedataTweakDBRecord
 gamedataVendorProgressionBasedStock_Record = {}
 
----@param fields? table
+---@param fields? gamedataVendorProgressionBasedStock_Record
 ---@return gamedataVendorProgressionBasedStock_Record
 function gamedataVendorProgressionBasedStock_Record.new(fields) return end
 

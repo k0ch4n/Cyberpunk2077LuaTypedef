@@ -6,6 +6,6 @@
 ---@field public radius Float
 gameinteractionsCSphereDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCSphereDefinition
 ---@return gameinteractionsCSphereDefinition
 function gameinteractionsCSphereDefinition.new(fields) return end

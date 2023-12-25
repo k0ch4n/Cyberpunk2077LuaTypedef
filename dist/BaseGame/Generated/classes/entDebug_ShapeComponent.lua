@@ -9,6 +9,6 @@
 ---@field public isEnabled Bool
 entDebug_ShapeComponent = {}
 
----@param fields? table
+---@param fields? entDebug_ShapeComponent
 ---@return entDebug_ShapeComponent
 function entDebug_ShapeComponent.new(fields) return end

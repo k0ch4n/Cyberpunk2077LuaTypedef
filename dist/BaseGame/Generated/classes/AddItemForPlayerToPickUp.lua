@@ -6,7 +6,7 @@
 ---@field public shouldAdd Bool
 AddItemForPlayerToPickUp = {}
 
----@param fields? table
+---@param fields? AddItemForPlayerToPickUp
 ---@return AddItemForPlayerToPickUp
 function AddItemForPlayerToPickUp.new(fields) return end
 

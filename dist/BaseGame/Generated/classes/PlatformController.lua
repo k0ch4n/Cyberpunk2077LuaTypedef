@@ -4,7 +4,7 @@
 ---@class PlatformController: ScriptableDeviceComponent
 PlatformController = {}
 
----@param fields? table
+---@param fields? PlatformController
 ---@return PlatformController
 function PlatformController.new(fields) return end
 

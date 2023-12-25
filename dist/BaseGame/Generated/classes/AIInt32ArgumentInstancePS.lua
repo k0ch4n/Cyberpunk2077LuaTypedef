@@ -5,6 +5,6 @@
 ---@field public value Int32
 AIInt32ArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AIInt32ArgumentInstancePS
 ---@return AIInt32ArgumentInstancePS
 function AIInt32ArgumentInstancePS.new(fields) return end

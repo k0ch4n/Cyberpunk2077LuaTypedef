@@ -10,7 +10,7 @@
 ---@field private activeQualityRangeInteraction CName
 gameLootBag = {}
 
----@param fields? table
+---@param fields? gameLootBag
 ---@return gameLootBag
 function gameLootBag.new(fields) return end
 

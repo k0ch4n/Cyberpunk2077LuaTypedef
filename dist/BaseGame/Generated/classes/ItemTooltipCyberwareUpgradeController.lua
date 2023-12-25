@@ -28,7 +28,7 @@
 ---@field private progressBarAnimProxy inkanimProxy
 ItemTooltipCyberwareUpgradeController = {}
 
----@param fields? table
+---@param fields? ItemTooltipCyberwareUpgradeController
 ---@return ItemTooltipCyberwareUpgradeController
 function ItemTooltipCyberwareUpgradeController.new(fields) return end
 

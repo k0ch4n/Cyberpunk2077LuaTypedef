@@ -5,6 +5,6 @@
 ---@field public animsetTags redTagList
 animAnimsetWithOverridesTagCondition = {}
 
----@param fields? table
+---@param fields? animAnimsetWithOverridesTagCondition
 ---@return animAnimsetWithOverridesTagCondition
 function animAnimsetWithOverridesTagCondition.new(fields) return end

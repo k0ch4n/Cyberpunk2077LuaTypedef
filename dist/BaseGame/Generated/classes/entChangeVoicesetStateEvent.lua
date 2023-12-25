@@ -7,6 +7,6 @@
 ---@field public inputsToBlock entVoicesetInputToBlock[]
 entChangeVoicesetStateEvent = {}
 
----@param fields? table
+---@param fields? entChangeVoicesetStateEvent
 ---@return entChangeVoicesetStateEvent
 function entChangeVoicesetStateEvent.new(fields) return end

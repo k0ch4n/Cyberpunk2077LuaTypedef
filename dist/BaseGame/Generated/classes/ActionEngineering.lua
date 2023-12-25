@@ -4,7 +4,7 @@
 ---@class ActionEngineering: ActionSkillCheck
 ActionEngineering = {}
 
----@param fields? table
+---@param fields? ActionEngineering
 ---@return ActionEngineering
 function ActionEngineering.new(fields) return end
 

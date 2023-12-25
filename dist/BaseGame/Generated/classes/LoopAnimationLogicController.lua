@@ -6,7 +6,7 @@
 ---@field private selectionRule inkSelectionRule
 LoopAnimationLogicController = {}
 
----@param fields? table
+---@param fields? LoopAnimationLogicController
 ---@return LoopAnimationLogicController
 function LoopAnimationLogicController.new(fields) return end
 

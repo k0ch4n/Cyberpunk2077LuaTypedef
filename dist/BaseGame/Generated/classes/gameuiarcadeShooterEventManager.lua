@@ -9,6 +9,6 @@
 ---@field public eventList gameuiarcadeShooterEventData[]
 gameuiarcadeShooterEventManager = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterEventManager
 ---@return gameuiarcadeShooterEventManager
 function gameuiarcadeShooterEventManager.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private statsList inkCompoundWidgetReference
 StatsDetailListController = {}
 
----@param fields? table
+---@param fields? StatsDetailListController
 ---@return StatsDetailListController
 function StatsDetailListController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private healthbar BossHealthBarGameController
 BossHealthStatListener = {}
 
----@param fields? table
+---@param fields? BossHealthStatListener
 ---@return BossHealthStatListener
 function BossHealthStatListener.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkHudSystem: inkIHudSystem
 inkHudSystem = {}
 
----@param fields? table
+---@param fields? inkHudSystem
 ---@return inkHudSystem
 function inkHudSystem.new(fields) return end

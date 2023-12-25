@@ -10,6 +10,6 @@
 ---@field public inputNode animFloatLink
 animAnimNode_FloatInterpolation = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatInterpolation
 ---@return animAnimNode_FloatInterpolation
 function animAnimNode_FloatInterpolation.new(fields) return end

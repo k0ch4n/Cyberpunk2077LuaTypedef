@@ -4,6 +4,6 @@
 ---@class gameJournalQuestObjective: gameJournalQuestObjectiveBase
 gameJournalQuestObjective = {}
 
----@param fields? table
+---@param fields? gameJournalQuestObjective
 ---@return gameJournalQuestObjective
 function gameJournalQuestObjective.new(fields) return end

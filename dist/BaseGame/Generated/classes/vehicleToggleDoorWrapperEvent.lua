@@ -7,6 +7,6 @@
 ---@field public forceScene Bool
 vehicleToggleDoorWrapperEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleDoorWrapperEvent
 ---@return vehicleToggleDoorWrapperEvent
 function vehicleToggleDoorWrapperEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public Status gamebbScriptID_Variant
 IntercomBlackboardDef = {}
 
----@param fields? table
+---@param fields? IntercomBlackboardDef
 ---@return IntercomBlackboardDef
 function IntercomBlackboardDef.new(fields) return end

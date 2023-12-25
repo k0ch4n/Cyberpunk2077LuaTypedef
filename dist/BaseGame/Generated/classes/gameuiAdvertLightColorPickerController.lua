@@ -5,6 +5,6 @@
 ---@field public lightColor Color
 gameuiAdvertLightColorPickerController = {}
 
----@param fields? table
+---@param fields? gameuiAdvertLightColorPickerController
 ---@return gameuiAdvertLightColorPickerController
 function gameuiAdvertLightColorPickerController.new(fields) return end

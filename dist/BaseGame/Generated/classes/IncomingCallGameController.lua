@@ -10,7 +10,7 @@
 ---@field private animProxy inkanimProxy
 IncomingCallGameController = {}
 
----@param fields? table
+---@param fields? IncomingCallGameController
 ---@return IncomingCallGameController
 function IncomingCallGameController.new(fields) return end
 

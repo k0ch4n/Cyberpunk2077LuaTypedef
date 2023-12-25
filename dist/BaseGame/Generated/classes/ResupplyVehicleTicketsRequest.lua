@@ -4,6 +4,6 @@
 ---@class ResupplyVehicleTicketsRequest: gameScriptableSystemRequest
 ResupplyVehicleTicketsRequest = {}
 
----@param fields? table
+---@param fields? ResupplyVehicleTicketsRequest
 ---@return ResupplyVehicleTicketsRequest
 function ResupplyVehicleTicketsRequest.new(fields) return end

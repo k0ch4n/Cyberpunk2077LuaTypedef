@@ -4,7 +4,7 @@
 ---@class GameplayLightControllerPS: ElectricLightControllerPS
 GameplayLightControllerPS = {}
 
----@param fields? table
+---@param fields? GameplayLightControllerPS
 ---@return GameplayLightControllerPS
 function GameplayLightControllerPS.new(fields) return end
 

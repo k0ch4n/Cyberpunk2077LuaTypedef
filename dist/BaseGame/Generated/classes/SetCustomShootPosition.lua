@@ -26,7 +26,7 @@
 ---@field private targetsPosition Vector4[]
 SetCustomShootPosition = {}
 
----@param fields? table
+---@param fields? SetCustomShootPosition
 ---@return SetCustomShootPosition
 function SetCustomShootPosition.new(fields) return end
 

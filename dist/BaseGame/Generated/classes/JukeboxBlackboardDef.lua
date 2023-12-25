@@ -5,6 +5,6 @@
 ---@field public IsPlaying gamebbScriptID_Bool
 JukeboxBlackboardDef = {}
 
----@param fields? table
+---@param fields? JukeboxBlackboardDef
 ---@return JukeboxBlackboardDef
 function JukeboxBlackboardDef.new(fields) return end

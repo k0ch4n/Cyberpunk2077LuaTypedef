@@ -10,7 +10,7 @@
 ---@field public stopTestOnFailure Bool
 TestStep = {}
 
----@param fields? table
+---@param fields? TestStep
 ---@return TestStep
 function TestStep.new(fields) return end
 

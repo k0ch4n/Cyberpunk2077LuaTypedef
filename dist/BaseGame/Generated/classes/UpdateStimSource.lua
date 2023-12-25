@@ -4,7 +4,7 @@
 ---@class UpdateStimSource: ReactionManagerTask
 UpdateStimSource = {}
 
----@param fields? table
+---@param fields? UpdateStimSource
 ---@return UpdateStimSource
 function UpdateStimSource.new(fields) return end
 

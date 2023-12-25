@@ -5,7 +5,7 @@
 ---@field private isTriggered Bool
 StaticPlatformControllerPS = {}
 
----@param fields? table
+---@param fields? StaticPlatformControllerPS
 ---@return StaticPlatformControllerPS
 function StaticPlatformControllerPS.new(fields) return end
 

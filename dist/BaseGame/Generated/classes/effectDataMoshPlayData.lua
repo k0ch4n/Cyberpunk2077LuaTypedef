@@ -4,6 +4,6 @@
 ---@class effectDataMoshPlayData: effectPlacedTrackItemPlayData
 effectDataMoshPlayData = {}
 
----@param fields? table
+---@param fields? effectDataMoshPlayData
 ---@return effectDataMoshPlayData
 function effectDataMoshPlayData.new(fields) return end

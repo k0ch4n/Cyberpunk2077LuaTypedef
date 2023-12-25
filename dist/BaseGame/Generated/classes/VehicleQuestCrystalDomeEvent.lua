@@ -6,7 +6,7 @@
 ---@field public removeQuestControl Bool
 VehicleQuestCrystalDomeEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestCrystalDomeEvent
 ---@return VehicleQuestCrystalDomeEvent
 function VehicleQuestCrystalDomeEvent.new(fields) return end
 

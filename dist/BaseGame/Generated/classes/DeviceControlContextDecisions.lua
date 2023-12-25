@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 DeviceControlContextDecisions = {}
 
----@param fields? table
+---@param fields? DeviceControlContextDecisions
 ---@return DeviceControlContextDecisions
 function DeviceControlContextDecisions.new(fields) return end
 

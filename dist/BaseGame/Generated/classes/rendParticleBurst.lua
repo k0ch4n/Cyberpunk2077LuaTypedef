@@ -8,6 +8,6 @@
 ---@field public repeatTime Float
 rendParticleBurst = {}
 
----@param fields? table
+---@param fields? rendParticleBurst
 ---@return rendParticleBurst
 function rendParticleBurst.new(fields) return end

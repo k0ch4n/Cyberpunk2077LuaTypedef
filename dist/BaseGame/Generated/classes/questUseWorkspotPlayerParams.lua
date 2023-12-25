@@ -12,6 +12,6 @@
 ---@field public parallaxSpace questCameraParallaxSpace
 questUseWorkspotPlayerParams = {}
 
----@param fields? table
+---@param fields? questUseWorkspotPlayerParams
 ---@return questUseWorkspotPlayerParams
 function questUseWorkspotPlayerParams.new(fields) return end

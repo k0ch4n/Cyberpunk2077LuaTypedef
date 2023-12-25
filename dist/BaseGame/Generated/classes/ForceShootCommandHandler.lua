@@ -6,7 +6,7 @@
 ---@field protected currentCommand AIForceShootCommand
 ForceShootCommandHandler = {}
 
----@param fields? table
+---@param fields? ForceShootCommandHandler
 ---@return ForceShootCommandHandler
 function ForceShootCommandHandler.new(fields) return end
 

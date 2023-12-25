@@ -4,7 +4,7 @@
 ---@class gamedataArcadeMinigameData_Record: gamedataTweakDBRecord
 gamedataArcadeMinigameData_Record = {}
 
----@param fields? table
+---@param fields? gamedataArcadeMinigameData_Record
 ---@return gamedataArcadeMinigameData_Record
 function gamedataArcadeMinigameData_Record.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public isRemote Bool
 ToggleNetrunnerDive = {}
 
----@param fields? table
+---@param fields? ToggleNetrunnerDive
 ---@return ToggleNetrunnerDive
 function ToggleNetrunnerDive.new(fields) return end
 

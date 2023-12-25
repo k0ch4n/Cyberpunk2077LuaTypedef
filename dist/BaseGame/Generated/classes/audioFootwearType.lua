@@ -5,6 +5,6 @@
 ---@field public itemNames CName[]
 audioFootwearType = {}
 
----@param fields? table
+---@param fields? audioFootwearType
 ---@return audioFootwearType
 function audioFootwearType.new(fields) return end

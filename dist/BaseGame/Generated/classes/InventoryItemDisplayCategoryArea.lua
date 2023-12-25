@@ -9,7 +9,7 @@
 ---@field protected categoryAreas InventoryItemDisplayEquipmentArea[]
 InventoryItemDisplayCategoryArea = {}
 
----@param fields? table
+---@param fields? InventoryItemDisplayCategoryArea
 ---@return InventoryItemDisplayCategoryArea
 function InventoryItemDisplayCategoryArea.new(fields) return end
 

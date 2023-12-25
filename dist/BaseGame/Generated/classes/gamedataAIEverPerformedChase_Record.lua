@@ -4,7 +4,7 @@
 ---@class gamedataAIEverPerformedChase_Record: gamedataAIActionSubCondition_Record
 gamedataAIEverPerformedChase_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIEverPerformedChase_Record
 ---@return gamedataAIEverPerformedChase_Record
 function gamedataAIEverPerformedChase_Record.new(fields) return end
 

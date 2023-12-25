@@ -5,7 +5,7 @@
 ---@field protected hasTriggered Bool
 BonusCollisionLogic = {}
 
----@param fields? table
+---@param fields? BonusCollisionLogic
 ---@return BonusCollisionLogic
 function BonusCollisionLogic.new(fields) return end
 

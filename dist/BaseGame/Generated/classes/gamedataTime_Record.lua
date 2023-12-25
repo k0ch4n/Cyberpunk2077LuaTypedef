@@ -4,7 +4,7 @@
 ---@class gamedataTime_Record: gamedataTweakDBRecord
 gamedataTime_Record = {}
 
----@param fields? table
+---@param fields? gamedataTime_Record
 ---@return gamedataTime_Record
 function gamedataTime_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public booleanArgument CName
 SetBooleanArgumentWhenActive = {}
 
----@param fields? table
+---@param fields? SetBooleanArgumentWhenActive
 ---@return SetBooleanArgumentWhenActive
 function SetBooleanArgumentWhenActive.new(fields) return end
 

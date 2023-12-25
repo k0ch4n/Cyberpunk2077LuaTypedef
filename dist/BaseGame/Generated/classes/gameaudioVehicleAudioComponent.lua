@@ -4,6 +4,6 @@
 ---@class gameaudioVehicleAudioComponent: gameaudioSoundComponentBase
 gameaudioVehicleAudioComponent = {}
 
----@param fields? table
+---@param fields? gameaudioVehicleAudioComponent
 ---@return gameaudioVehicleAudioComponent
 function gameaudioVehicleAudioComponent.new(fields) return end

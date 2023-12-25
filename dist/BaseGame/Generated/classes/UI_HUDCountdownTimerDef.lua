@@ -7,7 +7,7 @@
 ---@field public Progress gamebbScriptID_Float
 UI_HUDCountdownTimerDef = {}
 
----@param fields? table
+---@param fields? UI_HUDCountdownTimerDef
 ---@return UI_HUDCountdownTimerDef
 function UI_HUDCountdownTimerDef.new(fields) return end
 

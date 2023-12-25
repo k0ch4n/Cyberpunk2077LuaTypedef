@@ -4,6 +4,6 @@
 ---@class AICTreeNodeSequenceDefinition: AICTreeNodeChildrenListDefinition
 AICTreeNodeSequenceDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeSequenceDefinition
 ---@return AICTreeNodeSequenceDefinition
 function AICTreeNodeSequenceDefinition.new(fields) return end

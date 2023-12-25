@@ -5,6 +5,6 @@
 ---@field public test Int32
 moveCustomMoveEvent = {}
 
----@param fields? table
+---@param fields? moveCustomMoveEvent
 ---@return moveCustomMoveEvent
 function moveCustomMoveEvent.new(fields) return end

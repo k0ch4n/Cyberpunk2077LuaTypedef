@@ -5,6 +5,6 @@
 ---@field public instigator entEntityID
 entAnimatedRagdollNotifyEnabledEvent = {}
 
----@param fields? table
+---@param fields? entAnimatedRagdollNotifyEnabledEvent
 ---@return entAnimatedRagdollNotifyEnabledEvent
 function entAnimatedRagdollNotifyEnabledEvent.new(fields) return end

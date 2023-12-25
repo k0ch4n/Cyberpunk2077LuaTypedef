@@ -17,7 +17,7 @@
 ---@field private damageDigitsStickingModeBlackboardId redCallbackObject
 DamageDigitsGameController = {}
 
----@param fields? table
+---@param fields? DamageDigitsGameController
 ---@return DamageDigitsGameController
 function DamageDigitsGameController.new(fields) return end
 

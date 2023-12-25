@@ -9,6 +9,6 @@
 ---@field public rayMaxDistance Float
 worldProxyMeshAdvancedBuildParams = {}
 
----@param fields? table
+---@param fields? worldProxyMeshAdvancedBuildParams
 ---@return worldProxyMeshAdvancedBuildParams
 function worldProxyMeshAdvancedBuildParams.new(fields) return end

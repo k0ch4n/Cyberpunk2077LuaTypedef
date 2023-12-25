@@ -6,6 +6,6 @@
 ---@field public eventType questObjectInteractionEventType
 questInteraction_ConditionType = {}
 
----@param fields? table
+---@param fields? questInteraction_ConditionType
 ---@return questInteraction_ConditionType
 function questInteraction_ConditionType.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AIbehaviorDriveIdleTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveIdleTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveIdleTreeNodeDefinition
 ---@return AIbehaviorDriveIdleTreeNodeDefinition
 function AIbehaviorDriveIdleTreeNodeDefinition.new(fields) return end

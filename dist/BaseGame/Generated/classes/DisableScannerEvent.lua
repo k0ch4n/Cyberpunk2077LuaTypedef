@@ -5,7 +5,7 @@
 ---@field public isDisabled Bool
 DisableScannerEvent = {}
 
----@param fields? table
+---@param fields? DisableScannerEvent
 ---@return DisableScannerEvent
 function DisableScannerEvent.new(fields) return end
 

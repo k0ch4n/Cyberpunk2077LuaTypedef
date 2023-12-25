@@ -25,6 +25,6 @@
 ---@field public rainRipplesMask CBitmapTexture
 RainAreaSettings = {}
 
----@param fields? table
+---@param fields? RainAreaSettings
 ---@return RainAreaSettings
 function RainAreaSettings.new(fields) return end

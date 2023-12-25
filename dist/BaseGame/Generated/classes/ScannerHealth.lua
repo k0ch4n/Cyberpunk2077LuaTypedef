@@ -6,7 +6,7 @@
 ---@field private totalHealth Int32
 ScannerHealth = {}
 
----@param fields? table
+---@param fields? ScannerHealth
 ---@return ScannerHealth
 function ScannerHealth.new(fields) return end
 

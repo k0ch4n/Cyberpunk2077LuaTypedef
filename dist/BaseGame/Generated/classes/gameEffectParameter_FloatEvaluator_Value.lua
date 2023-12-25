@@ -5,6 +5,6 @@
 ---@field public value Float
 gameEffectParameter_FloatEvaluator_Value = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_FloatEvaluator_Value
 ---@return gameEffectParameter_FloatEvaluator_Value
 function gameEffectParameter_FloatEvaluator_Value.new(fields) return end

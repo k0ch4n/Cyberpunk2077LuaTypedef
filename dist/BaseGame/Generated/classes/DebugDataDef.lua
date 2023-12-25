@@ -9,7 +9,7 @@
 ---@field public Vehicle_BlockSwitchSeats gamebbScriptID_Bool
 DebugDataDef = {}
 
----@param fields? table
+---@param fields? DebugDataDef
 ---@return DebugDataDef
 function DebugDataDef.new(fields) return end
 

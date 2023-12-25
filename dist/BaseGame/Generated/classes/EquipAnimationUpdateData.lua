@@ -6,6 +6,6 @@
 ---@field public isEquip Bool
 EquipAnimationUpdateData = {}
 
----@param fields? table
+---@param fields? EquipAnimationUpdateData
 ---@return EquipAnimationUpdateData
 function EquipAnimationUpdateData.new(fields) return end

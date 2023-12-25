@@ -5,7 +5,7 @@
 ---@field public equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereq = {}
 
----@param fields? table
+---@param fields? ItemSlotsFilledPrereq
 ---@return ItemSlotsFilledPrereq
 function ItemSlotsFilledPrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class BillboardDeviceController: ScriptableDeviceComponent
 BillboardDeviceController = {}
 
----@param fields? table
+---@param fields? BillboardDeviceController
 ---@return BillboardDeviceController
 function BillboardDeviceController.new(fields) return end
 

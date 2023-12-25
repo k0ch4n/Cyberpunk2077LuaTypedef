@@ -4,7 +4,7 @@
 ---@class HasMeleeWeaponEquippedCondition: workIScriptedCondition
 HasMeleeWeaponEquippedCondition = {}
 
----@param fields? table
+---@param fields? HasMeleeWeaponEquippedCondition
 ---@return HasMeleeWeaponEquippedCondition
 function HasMeleeWeaponEquippedCondition.new(fields) return end
 

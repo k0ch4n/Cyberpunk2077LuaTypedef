@@ -4,6 +4,6 @@
 ---@class EnableGasCloudDelayedEvent: DelayEvent
 EnableGasCloudDelayedEvent = {}
 
----@param fields? table
+---@param fields? EnableGasCloudDelayedEvent
 ---@return EnableGasCloudDelayedEvent
 function EnableGasCloudDelayedEvent.new(fields) return end

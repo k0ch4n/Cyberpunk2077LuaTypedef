@@ -5,6 +5,6 @@
 ---@field public ikTargetsControllers animTEMP_IKTargetsControllerBodyType[]
 animAnimNode_HumanIk = {}
 
----@param fields? table
+---@param fields? animAnimNode_HumanIk
 ---@return animAnimNode_HumanIk
 function animAnimNode_HumanIk.new(fields) return end

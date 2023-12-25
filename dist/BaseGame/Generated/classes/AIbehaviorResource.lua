@@ -8,6 +8,6 @@
 ---@field public initializationEvents CName[]
 AIbehaviorResource = {}
 
----@param fields? table
+---@param fields? AIbehaviorResource
 ---@return AIbehaviorResource
 function AIbehaviorResource.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public lockW Bool
 CEvaluatorVectorRandomUniform = {}
 
----@param fields? table
+---@param fields? CEvaluatorVectorRandomUniform
 ---@return CEvaluatorVectorRandomUniform
 function CEvaluatorVectorRandomUniform.new(fields) return end

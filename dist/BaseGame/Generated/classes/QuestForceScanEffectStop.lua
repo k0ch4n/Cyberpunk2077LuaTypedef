@@ -4,7 +4,7 @@
 ---@class QuestForceScanEffectStop: ActionBool
 QuestForceScanEffectStop = {}
 
----@param fields? table
+---@param fields? QuestForceScanEffectStop
 ---@return QuestForceScanEffectStop
 function QuestForceScanEffectStop.new(fields) return end
 

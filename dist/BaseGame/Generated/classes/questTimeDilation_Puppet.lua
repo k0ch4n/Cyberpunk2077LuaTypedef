@@ -7,6 +7,6 @@
 ---@field public puppets gameEntityReference
 questTimeDilation_Puppet = {}
 
----@param fields? table
+---@param fields? questTimeDilation_Puppet
 ---@return questTimeDilation_Puppet
 function questTimeDilation_Puppet.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private isOpen Bool
 DoorSystemUIPS = {}
 
----@param fields? table
+---@param fields? DoorSystemUIPS
 ---@return DoorSystemUIPS
 function DoorSystemUIPS.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private holder gamePersistentID
 DropPointRequest = {}
 
----@param fields? table
+---@param fields? DropPointRequest
 ---@return DropPointRequest
 function DropPointRequest.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameSpatialQueriesSystem: gameISpatialQueriesSystem
 gameSpatialQueriesSystem = {}
 
----@param fields? table
+---@param fields? gameSpatialQueriesSystem
 ---@return gameSpatialQueriesSystem
 function gameSpatialQueriesSystem.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public is_yaw_off Float
 GameplayCameraData = {}
 
----@param fields? table
+---@param fields? GameplayCameraData
 ---@return GameplayCameraData
 function GameplayCameraData.new(fields) return end

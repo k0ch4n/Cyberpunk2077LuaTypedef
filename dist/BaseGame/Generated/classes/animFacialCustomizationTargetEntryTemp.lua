@@ -6,6 +6,6 @@
 ---@field public targetNames CName[]
 animFacialCustomizationTargetEntryTemp = {}
 
----@param fields? table
+---@param fields? animFacialCustomizationTargetEntryTemp
 ---@return animFacialCustomizationTargetEntryTemp
 function animFacialCustomizationTargetEntryTemp.new(fields) return end

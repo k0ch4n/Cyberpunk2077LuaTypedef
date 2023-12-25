@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 AICommandHandlerBase = {}
 
----@param fields? table
+---@param fields? AICommandHandlerBase
 ---@return AICommandHandlerBase
 function AICommandHandlerBase.new(fields) return end
 

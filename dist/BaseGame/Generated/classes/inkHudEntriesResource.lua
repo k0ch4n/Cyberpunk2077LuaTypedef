@@ -7,6 +7,6 @@
 ---@field public entries inkHudWidgetSpawnEntry[]
 inkHudEntriesResource = {}
 
----@param fields? table
+---@param fields? inkHudEntriesResource
 ---@return inkHudEntriesResource
 function inkHudEntriesResource.new(fields) return end

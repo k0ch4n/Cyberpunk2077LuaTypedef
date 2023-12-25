@@ -4,6 +4,6 @@
 ---@class animSBehaviorConstraintNodeFloorIKFrontBackWeightHandler
 animSBehaviorConstraintNodeFloorIKFrontBackWeightHandler = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKFrontBackWeightHandler
 ---@return animSBehaviorConstraintNodeFloorIKFrontBackWeightHandler
 function animSBehaviorConstraintNodeFloorIKFrontBackWeightHandler.new(fields) return end

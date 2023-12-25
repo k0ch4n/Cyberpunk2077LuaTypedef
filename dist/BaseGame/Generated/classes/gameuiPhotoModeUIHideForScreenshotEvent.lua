@@ -5,6 +5,6 @@
 ---@field public hide Bool
 gameuiPhotoModeUIHideForScreenshotEvent = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeUIHideForScreenshotEvent
 ---@return gameuiPhotoModeUIHideForScreenshotEvent
 function gameuiPhotoModeUIHideForScreenshotEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public requestedState entAppearanceStatus
 entShadowMeshChangeEvent = {}
 
----@param fields? table
+---@param fields? entShadowMeshChangeEvent
 ---@return entShadowMeshChangeEvent
 function entShadowMeshChangeEvent.new(fields) return end

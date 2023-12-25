@@ -4,7 +4,7 @@
 ---@class inkWidgetLibraryReference
 inkWidgetLibraryReference = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryReference
 ---@return inkWidgetLibraryReference
 function inkWidgetLibraryReference.new(fields) return end
 

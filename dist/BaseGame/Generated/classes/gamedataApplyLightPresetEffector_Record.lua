@@ -4,7 +4,7 @@
 ---@class gamedataApplyLightPresetEffector_Record: gamedataEffector_Record
 gamedataApplyLightPresetEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataApplyLightPresetEffector_Record
 ---@return gamedataApplyLightPresetEffector_Record
 function gamedataApplyLightPresetEffector_Record.new(fields) return end
 

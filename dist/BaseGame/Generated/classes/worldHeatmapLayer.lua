@@ -9,6 +9,6 @@
 ---@field public invert Bool
 worldHeatmapLayer = {}
 
----@param fields? table
+---@param fields? worldHeatmapLayer
 ---@return worldHeatmapLayer
 function worldHeatmapLayer.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public callstackRevision Uint32
 questdbgCallstackData = {}
 
----@param fields? table
+---@param fields? questdbgCallstackData
 ---@return questdbgCallstackData
 function questdbgCallstackData.new(fields) return end

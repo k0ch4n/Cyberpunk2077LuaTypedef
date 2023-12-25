@@ -4,7 +4,7 @@
 ---@class gamedataHitPrereqConditionType_Record: gamedataTweakDBRecord
 gamedataHitPrereqConditionType_Record = {}
 
----@param fields? table
+---@param fields? gamedataHitPrereqConditionType_Record
 ---@return gamedataHitPrereqConditionType_Record
 function gamedataHitPrereqConditionType_Record.new(fields) return end
 

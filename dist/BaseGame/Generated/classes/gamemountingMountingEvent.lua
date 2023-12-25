@@ -6,6 +6,6 @@
 ---@field public relationship gamemountingMountingRelationship
 gamemountingMountingEvent = {}
 
----@param fields? table
+---@param fields? gamemountingMountingEvent
 ---@return gamemountingMountingEvent
 function gamemountingMountingEvent.new(fields) return end

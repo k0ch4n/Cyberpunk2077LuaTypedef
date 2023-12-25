@@ -8,6 +8,6 @@
 ---@field public playerData scnPlayerAnimData
 scnPlaySkAnimEvent = {}
 
----@param fields? table
+---@param fields? scnPlaySkAnimEvent
 ---@return scnPlaySkAnimEvent
 function scnPlaySkAnimEvent.new(fields) return end

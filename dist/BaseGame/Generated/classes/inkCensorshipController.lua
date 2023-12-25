@@ -5,6 +5,6 @@
 ---@field public censorshipFlags CensorshipFlags
 inkCensorshipController = {}
 
----@param fields? table
+---@param fields? inkCensorshipController
 ---@return inkCensorshipController
 function inkCensorshipController.new(fields) return end

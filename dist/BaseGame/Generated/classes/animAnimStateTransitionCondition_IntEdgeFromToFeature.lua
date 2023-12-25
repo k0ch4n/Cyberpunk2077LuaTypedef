@@ -6,6 +6,6 @@
 ---@field public toValue Int32
 animAnimStateTransitionCondition_IntEdgeFromToFeature = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_IntEdgeFromToFeature
 ---@return animAnimStateTransitionCondition_IntEdgeFromToFeature
 function animAnimStateTransitionCondition_IntEdgeFromToFeature.new(fields) return end

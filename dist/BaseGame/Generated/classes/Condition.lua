@@ -6,6 +6,6 @@
 ---@field public description String
 Condition = {}
 
----@param fields? table
+---@param fields? Condition
 ---@return Condition
 function Condition.new(fields) return end

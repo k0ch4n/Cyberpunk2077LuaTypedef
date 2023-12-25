@@ -5,7 +5,7 @@
 ---@field public factName CName
 gameFactChangedEvent = {}
 
----@param fields? table
+---@param fields? gameFactChangedEvent
 ---@return gameFactChangedEvent
 function gameFactChangedEvent.new(fields) return end
 

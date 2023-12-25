@@ -7,6 +7,6 @@
 ---@field public isAvailable Bool
 WorkspotEntryData = {}
 
----@param fields? table
+---@param fields? WorkspotEntryData
 ---@return WorkspotEntryData
 function WorkspotEntryData.new(fields) return end

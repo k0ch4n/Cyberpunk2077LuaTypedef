@@ -4,6 +4,6 @@
 ---@class inkToggleBreachingCallback: inkCallbackBase
 inkToggleBreachingCallback = {}
 
----@param fields? table
+---@param fields? inkToggleBreachingCallback
 ---@return inkToggleBreachingCallback
 function inkToggleBreachingCallback.new(fields) return end

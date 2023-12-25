@@ -5,6 +5,6 @@
 ---@field public range Float
 cpPlayerDetector = {}
 
----@param fields? table
+---@param fields? cpPlayerDetector
 ---@return cpPlayerDetector
 function cpPlayerDetector.new(fields) return end

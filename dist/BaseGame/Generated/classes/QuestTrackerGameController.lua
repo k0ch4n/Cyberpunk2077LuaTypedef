@@ -23,7 +23,7 @@
 ---@field private currentMappin gamemappinsIMappin
 QuestTrackerGameController = {}
 
----@param fields? table
+---@param fields? QuestTrackerGameController
 ---@return QuestTrackerGameController
 function QuestTrackerGameController.new(fields) return end
 

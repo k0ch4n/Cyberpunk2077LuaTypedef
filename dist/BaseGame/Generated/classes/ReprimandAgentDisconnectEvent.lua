@@ -5,6 +5,6 @@
 ---@field public agentID entEntityID
 ReprimandAgentDisconnectEvent = {}
 
----@param fields? table
+---@param fields? ReprimandAgentDisconnectEvent
 ---@return ReprimandAgentDisconnectEvent
 function ReprimandAgentDisconnectEvent.new(fields) return end

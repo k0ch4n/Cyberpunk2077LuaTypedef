@@ -11,6 +11,6 @@
 ---@field public GroupingVerticallimit Float
 audioAmbientAreaGroupingSettings = {}
 
----@param fields? table
+---@param fields? audioAmbientAreaGroupingSettings
 ---@return audioAmbientAreaGroupingSettings
 function audioAmbientAreaGroupingSettings.new(fields) return end

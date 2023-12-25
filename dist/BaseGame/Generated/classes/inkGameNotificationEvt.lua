@@ -4,6 +4,6 @@
 ---@class inkGameNotificationEvt: redEvent
 inkGameNotificationEvt = {}
 
----@param fields? table
+---@param fields? inkGameNotificationEvt
 ---@return inkGameNotificationEvt
 function inkGameNotificationEvt.new(fields) return end

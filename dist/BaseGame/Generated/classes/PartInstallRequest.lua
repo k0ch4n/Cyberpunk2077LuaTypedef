@@ -6,6 +6,6 @@
 ---@field public partID gameItemID
 PartInstallRequest = {}
 
----@param fields? table
+---@param fields? PartInstallRequest
 ---@return PartInstallRequest
 function PartInstallRequest.new(fields) return end

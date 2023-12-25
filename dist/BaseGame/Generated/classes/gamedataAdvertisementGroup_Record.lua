@@ -4,7 +4,7 @@
 ---@class gamedataAdvertisementGroup_Record: gamedataTweakDBRecord
 gamedataAdvertisementGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataAdvertisementGroup_Record
 ---@return gamedataAdvertisementGroup_Record
 function gamedataAdvertisementGroup_Record.new(fields) return end
 

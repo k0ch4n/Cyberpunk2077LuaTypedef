@@ -4,7 +4,7 @@
 ---@class SecurityAlarmEscalate: ActionBool
 SecurityAlarmEscalate = {}
 
----@param fields? table
+---@param fields? SecurityAlarmEscalate
 ---@return SecurityAlarmEscalate
 function SecurityAlarmEscalate.new(fields) return end
 

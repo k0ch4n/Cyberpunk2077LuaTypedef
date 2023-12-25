@@ -4,7 +4,7 @@
 ---@class gameSignalUserData: IScriptable
 gameSignalUserData = {}
 
----@param fields? table
+---@param fields? gameSignalUserData
 ---@return gameSignalUserData
 function gameSignalUserData.new(fields) return end
 

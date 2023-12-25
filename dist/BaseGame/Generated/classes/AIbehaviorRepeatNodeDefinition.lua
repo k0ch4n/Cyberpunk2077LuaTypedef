@@ -6,6 +6,6 @@
 ---@field public repeatChildOnFailure Bool
 AIbehaviorRepeatNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorRepeatNodeDefinition
 ---@return AIbehaviorRepeatNodeDefinition
 function AIbehaviorRepeatNodeDefinition.new(fields) return end

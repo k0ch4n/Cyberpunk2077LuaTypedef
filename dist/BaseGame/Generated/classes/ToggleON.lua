@@ -6,7 +6,7 @@
 ---@field protected FalseRecordName String
 ToggleON = {}
 
----@param fields? table
+---@param fields? ToggleON
 ---@return ToggleON
 function ToggleON.new(fields) return end
 

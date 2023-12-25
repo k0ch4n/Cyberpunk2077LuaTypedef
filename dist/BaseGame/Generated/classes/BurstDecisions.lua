@@ -4,7 +4,7 @@
 ---@class BurstDecisions: WeaponTransition
 BurstDecisions = {}
 
----@param fields? table
+---@param fields? BurstDecisions
 ---@return BurstDecisions
 function BurstDecisions.new(fields) return end
 

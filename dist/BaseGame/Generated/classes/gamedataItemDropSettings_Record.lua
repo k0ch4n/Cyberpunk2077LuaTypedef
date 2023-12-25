@@ -4,7 +4,7 @@
 ---@class gamedataItemDropSettings_Record: gamedataTweakDBRecord
 gamedataItemDropSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataItemDropSettings_Record
 ---@return gamedataItemDropSettings_Record
 function gamedataItemDropSettings_Record.new(fields) return end
 

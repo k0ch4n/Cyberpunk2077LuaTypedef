@@ -4,7 +4,7 @@
 ---@class gamedataMappinUIParamGroup_Record: gamedataTweakDBRecord
 gamedataMappinUIParamGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUIParamGroup_Record
 ---@return gamedataMappinUIParamGroup_Record
 function gamedataMappinUIParamGroup_Record.new(fields) return end
 

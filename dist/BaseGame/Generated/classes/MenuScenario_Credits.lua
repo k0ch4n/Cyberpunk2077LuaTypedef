@@ -4,7 +4,7 @@
 ---@class MenuScenario_Credits: MenuScenario_PreGameSubMenu
 MenuScenario_Credits = {}
 
----@param fields? table
+---@param fields? MenuScenario_Credits
 ---@return MenuScenario_Credits
 function MenuScenario_Credits.new(fields) return end
 

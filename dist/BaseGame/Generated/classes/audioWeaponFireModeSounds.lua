@@ -9,6 +9,6 @@
 ---@field public windup CName
 audioWeaponFireModeSounds = {}
 
----@param fields? table
+---@param fields? audioWeaponFireModeSounds
 ---@return audioWeaponFireModeSounds
 function audioWeaponFireModeSounds.new(fields) return end

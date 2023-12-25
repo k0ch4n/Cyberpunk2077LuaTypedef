@@ -6,6 +6,6 @@
 ---@field public blockOtherCameras Bool
 questSetVehicleCamera_NodeType = {}
 
----@param fields? table
+---@param fields? questSetVehicleCamera_NodeType
 ---@return questSetVehicleCamera_NodeType
 function questSetVehicleCamera_NodeType.new(fields) return end

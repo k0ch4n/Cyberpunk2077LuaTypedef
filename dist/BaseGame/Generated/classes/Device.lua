@@ -55,7 +55,7 @@
 ---@field protected workspotActivator gameObject
 Device = {}
 
----@param fields? table
+---@param fields? Device
 ---@return Device
 function Device.new(fields) return end
 

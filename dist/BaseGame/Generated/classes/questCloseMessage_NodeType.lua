@@ -5,6 +5,6 @@
 ---@field public msg gameJournalPath
 questCloseMessage_NodeType = {}
 
----@param fields? table
+---@param fields? questCloseMessage_NodeType
 ---@return questCloseMessage_NodeType
 function questCloseMessage_NodeType.new(fields) return end

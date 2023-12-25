@@ -23,6 +23,6 @@
 ---@field public version Uint8
 entMeshComponent = {}
 
----@param fields? table
+---@param fields? entMeshComponent
 ---@return entMeshComponent
 function entMeshComponent.new(fields) return end

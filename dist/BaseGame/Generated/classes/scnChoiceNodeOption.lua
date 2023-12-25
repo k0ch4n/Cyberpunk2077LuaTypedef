@@ -21,6 +21,6 @@
 ---@field public timedCondition scnTimedCondition
 scnChoiceNodeOption = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeOption
 ---@return scnChoiceNodeOption
 function scnChoiceNodeOption.new(fields) return end

@@ -13,7 +13,7 @@
 ---@field public isRadialVariant Bool
 HubMenuLabelContentContainer = {}
 
----@param fields? table
+---@param fields? HubMenuLabelContentContainer
 ---@return HubMenuLabelContentContainer
 function HubMenuLabelContentContainer.new(fields) return end
 

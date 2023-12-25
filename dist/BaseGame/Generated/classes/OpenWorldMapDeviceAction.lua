@@ -5,7 +5,7 @@
 ---@field private fastTravelPointData gameFastTravelPointData
 OpenWorldMapDeviceAction = {}
 
----@param fields? table
+---@param fields? OpenWorldMapDeviceAction
 ---@return OpenWorldMapDeviceAction
 function OpenWorldMapDeviceAction.new(fields) return end
 

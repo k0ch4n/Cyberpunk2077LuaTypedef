@@ -8,6 +8,6 @@
 ---@field public distinguishInstancedMesh Bool
 worldDebugColoring_PrefabProxy = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_PrefabProxy
 ---@return worldDebugColoring_PrefabProxy
 function worldDebugColoring_PrefabProxy.new(fields) return end

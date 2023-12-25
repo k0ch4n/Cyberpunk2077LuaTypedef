@@ -6,7 +6,7 @@
 ---@field public isEnabled Bool
 senseSensorObjectComponent = {}
 
----@param fields? table
+---@param fields? senseSensorObjectComponent
 ---@return senseSensorObjectComponent
 function senseSensorObjectComponent.new(fields) return end
 

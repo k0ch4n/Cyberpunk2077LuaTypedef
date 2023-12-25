@@ -13,6 +13,6 @@
 ---@field public trackSkipFrameTolerance Float
 animSAnimationBufferBitwiseCompressionSettings = {}
 
----@param fields? table
+---@param fields? animSAnimationBufferBitwiseCompressionSettings
 ---@return animSAnimationBufferBitwiseCompressionSettings
 function animSAnimationBufferBitwiseCompressionSettings.new(fields) return end

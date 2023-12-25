@@ -4,7 +4,7 @@
 ---@class gamemappinsInteractionMappin: gamemappinsRuntimeMappin
 gamemappinsInteractionMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsInteractionMappin
 ---@return gamemappinsInteractionMappin
 function gamemappinsInteractionMappin.new(fields) return end
 

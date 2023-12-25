@@ -6,6 +6,6 @@
 ---@field public data entReplicatedVariableValue[]
 entReplicatedAnimWrapperVars = {}
 
----@param fields? table
+---@param fields? entReplicatedAnimWrapperVars
 ---@return entReplicatedAnimWrapperVars
 function entReplicatedAnimWrapperVars.new(fields) return end

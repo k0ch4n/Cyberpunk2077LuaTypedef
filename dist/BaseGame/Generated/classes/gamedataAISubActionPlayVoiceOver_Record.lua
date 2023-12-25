@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionPlayVoiceOver_Record: gamedataAISubAction_Record
 gamedataAISubActionPlayVoiceOver_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionPlayVoiceOver_Record
 ---@return gamedataAISubActionPlayVoiceOver_Record
 function gamedataAISubActionPlayVoiceOver_Record.new(fields) return end
 

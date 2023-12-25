@@ -16,7 +16,7 @@
 ---@field private currentExp Int32
 CraftingSkillWidget = {}
 
----@param fields? table
+---@param fields? CraftingSkillWidget
 ---@return CraftingSkillWidget
 function CraftingSkillWidget.new(fields) return end
 

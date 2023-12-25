@@ -5,6 +5,6 @@
 ---@field public listener PuppetListener
 NPCHitSourcePrereqState = {}
 
----@param fields? table
+---@param fields? NPCHitSourcePrereqState
 ---@return NPCHitSourcePrereqState
 function NPCHitSourcePrereqState.new(fields) return end

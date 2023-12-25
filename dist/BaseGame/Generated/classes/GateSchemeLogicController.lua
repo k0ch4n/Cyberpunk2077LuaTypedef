@@ -17,7 +17,7 @@
 ---@field public gameInstance ScriptGameInstance
 GateSchemeLogicController = {}
 
----@param fields? table
+---@param fields? GateSchemeLogicController
 ---@return GateSchemeLogicController
 function GateSchemeLogicController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameInnerItemData
 gameInnerItemData = {}
 
----@param fields? table
+---@param fields? gameInnerItemData
 ---@return gameInnerItemData
 function gameInnerItemData.new(fields) return end
 

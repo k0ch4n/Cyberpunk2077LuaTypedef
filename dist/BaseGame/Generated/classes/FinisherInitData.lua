@@ -7,6 +7,6 @@
 ---@field public IsBossFinisher Bool
 FinisherInitData = {}
 
----@param fields? table
+---@param fields? FinisherInitData
 ---@return FinisherInitData
 function FinisherInitData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class OpenFastTravelMenuForLastVisitedSubwayGate: gameScriptableSystemRequest
 OpenFastTravelMenuForLastVisitedSubwayGate = {}
 
----@param fields? table
+---@param fields? OpenFastTravelMenuForLastVisitedSubwayGate
 ---@return OpenFastTravelMenuForLastVisitedSubwayGate
 function OpenFastTravelMenuForLastVisitedSubwayGate.new(fields) return end
 

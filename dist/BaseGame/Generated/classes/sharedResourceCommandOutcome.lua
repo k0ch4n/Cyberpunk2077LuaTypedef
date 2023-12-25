@@ -7,6 +7,6 @@
 ---@field public message String
 sharedResourceCommandOutcome = {}
 
----@param fields? table
+---@param fields? sharedResourceCommandOutcome
 ---@return sharedResourceCommandOutcome
 function sharedResourceCommandOutcome.new(fields) return end

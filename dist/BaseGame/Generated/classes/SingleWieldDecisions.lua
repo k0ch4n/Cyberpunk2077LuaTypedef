@@ -4,7 +4,7 @@
 ---@class SingleWieldDecisions: UpperBodyTransition
 SingleWieldDecisions = {}
 
----@param fields? table
+---@param fields? SingleWieldDecisions
 ---@return SingleWieldDecisions
 function SingleWieldDecisions.new(fields) return end
 

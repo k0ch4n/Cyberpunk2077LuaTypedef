@@ -4,6 +4,6 @@
 ---@class entDebugPositionProvider: entIPositionProvider
 entDebugPositionProvider = {}
 
----@param fields? table
+---@param fields? entDebugPositionProvider
 ---@return entDebugPositionProvider
 function entDebugPositionProvider.new(fields) return end

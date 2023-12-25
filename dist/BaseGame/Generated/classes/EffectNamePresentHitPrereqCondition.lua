@@ -5,7 +5,7 @@
 ---@field public effectName CName
 EffectNamePresentHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? EffectNamePresentHitPrereqCondition
 ---@return EffectNamePresentHitPrereqCondition
 function EffectNamePresentHitPrereqCondition.new(fields) return end
 

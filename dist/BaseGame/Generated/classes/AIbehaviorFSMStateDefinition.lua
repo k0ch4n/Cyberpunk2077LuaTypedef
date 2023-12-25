@@ -8,6 +8,6 @@
 ---@field public completionStatus AIbehaviorStateCompletionStatus
 AIbehaviorFSMStateDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFSMStateDefinition
 ---@return AIbehaviorFSMStateDefinition
 function AIbehaviorFSMStateDefinition.new(fields) return end

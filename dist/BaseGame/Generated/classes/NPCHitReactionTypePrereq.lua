@@ -7,7 +7,7 @@
 ---@field public invert Bool
 NPCHitReactionTypePrereq = {}
 
----@param fields? table
+---@param fields? NPCHitReactionTypePrereq
 ---@return NPCHitReactionTypePrereq
 function NPCHitReactionTypePrereq.new(fields) return end
 

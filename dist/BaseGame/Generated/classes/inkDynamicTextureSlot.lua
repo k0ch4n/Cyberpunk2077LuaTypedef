@@ -6,6 +6,6 @@
 ---@field public parts inkTextureAtlasMapper[]
 inkDynamicTextureSlot = {}
 
----@param fields? table
+---@param fields? inkDynamicTextureSlot
 ---@return inkDynamicTextureSlot
 function inkDynamicTextureSlot.new(fields) return end

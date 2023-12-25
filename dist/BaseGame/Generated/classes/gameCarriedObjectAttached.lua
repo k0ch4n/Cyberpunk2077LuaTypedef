@@ -4,6 +4,6 @@
 ---@class gameCarriedObjectAttached: redEvent
 gameCarriedObjectAttached = {}
 
----@param fields? table
+---@param fields? gameCarriedObjectAttached
 ---@return gameCarriedObjectAttached
 function gameCarriedObjectAttached.new(fields) return end

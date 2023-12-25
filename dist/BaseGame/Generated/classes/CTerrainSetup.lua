@@ -6,6 +6,6 @@
 ---@field public physicalMaterial CName[]
 CTerrainSetup = {}
 
----@param fields? table
+---@param fields? CTerrainSetup
 ---@return CTerrainSetup
 function CTerrainSetup.new(fields) return end

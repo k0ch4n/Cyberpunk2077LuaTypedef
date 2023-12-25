@@ -4,7 +4,7 @@
 ---@class CerberusSensePresetChange: AIbehaviortaskScript
 CerberusSensePresetChange = {}
 
----@param fields? table
+---@param fields? CerberusSensePresetChange
 ---@return CerberusSensePresetChange
 function CerberusSensePresetChange.new(fields) return end
 

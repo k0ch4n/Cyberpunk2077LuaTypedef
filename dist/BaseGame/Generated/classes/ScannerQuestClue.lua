@@ -7,7 +7,7 @@
 ---@field private IconRef inkImageWidgetReference
 ScannerQuestClue = {}
 
----@param fields? table
+---@param fields? ScannerQuestClue
 ---@return ScannerQuestClue
 function ScannerQuestClue.new(fields) return end
 

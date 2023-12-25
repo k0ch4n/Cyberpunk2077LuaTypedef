@@ -9,6 +9,6 @@
 ---@field public offsetY Float
 AnimFeature_Inspection = {}
 
----@param fields? table
+---@param fields? AnimFeature_Inspection
 ---@return AnimFeature_Inspection
 function AnimFeature_Inspection.new(fields) return end

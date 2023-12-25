@@ -5,6 +5,6 @@
 ---@field public spawnObject EParticleEventSpawnObject
 CParticleEventReceiverSpawn = {}
 
----@param fields? table
+---@param fields? CParticleEventReceiverSpawn
 ---@return CParticleEventReceiverSpawn
 function CParticleEventReceiverSpawn.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataGOGReward_Record: gamedataTweakDBRecord
 gamedataGOGReward_Record = {}
 
----@param fields? table
+---@param fields? gamedataGOGReward_Record
 ---@return gamedataGOGReward_Record
 function gamedataGOGReward_Record.new(fields) return end
 

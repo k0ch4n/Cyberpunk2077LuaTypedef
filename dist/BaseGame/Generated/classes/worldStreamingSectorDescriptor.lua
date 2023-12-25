@@ -12,6 +12,6 @@
 ---@field public category worldStreamingSectorCategory
 worldStreamingSectorDescriptor = {}
 
----@param fields? table
+---@param fields? worldStreamingSectorDescriptor
 ---@return worldStreamingSectorDescriptor
 function worldStreamingSectorDescriptor.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public forwardDirection animAxis
 animAnimNode_EyesLookAt = {}
 
----@param fields? table
+---@param fields? animAnimNode_EyesLookAt
 ---@return animAnimNode_EyesLookAt
 function animAnimNode_EyesLookAt.new(fields) return end

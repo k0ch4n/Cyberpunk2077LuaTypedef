@@ -6,7 +6,7 @@
 ---@field public removeCost Bool
 RemoveAllPerks = {}
 
----@param fields? table
+---@param fields? RemoveAllPerks
 ---@return RemoveAllPerks
 function RemoveAllPerks.new(fields) return end
 

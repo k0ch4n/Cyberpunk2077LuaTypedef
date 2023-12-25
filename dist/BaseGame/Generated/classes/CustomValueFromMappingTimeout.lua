@@ -5,7 +5,7 @@
 ---@field public actionTweakIDMapping AIArgumentMapping
 CustomValueFromMappingTimeout = {}
 
----@param fields? table
+---@param fields? CustomValueFromMappingTimeout
 ---@return CustomValueFromMappingTimeout
 function CustomValueFromMappingTimeout.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public scrapingLoopEnd CName
 audioVehicleCollisionMapItem = {}
 
----@param fields? table
+---@param fields? audioVehicleCollisionMapItem
 ---@return audioVehicleCollisionMapItem
 function audioVehicleCollisionMapItem.new(fields) return end

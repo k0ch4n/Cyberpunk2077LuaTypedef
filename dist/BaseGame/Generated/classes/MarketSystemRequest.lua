@@ -6,6 +6,6 @@
 ---@field public vendorID TweakDBID
 MarketSystemRequest = {}
 
----@param fields? table
+---@param fields? MarketSystemRequest
 ---@return MarketSystemRequest
 function MarketSystemRequest.new(fields) return end

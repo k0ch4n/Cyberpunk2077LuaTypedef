@@ -4,7 +4,7 @@
 ---@class gamedataRandomStatModifier_Record: gamedataStatModifier_Record
 gamedataRandomStatModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataRandomStatModifier_Record
 ---@return gamedataRandomStatModifier_Record
 function gamedataRandomStatModifier_Record.new(fields) return end
 

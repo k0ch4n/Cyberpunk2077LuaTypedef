@@ -8,7 +8,7 @@
 ---@field private diffValue inkTextWidgetReference
 ProgramTooltipStatController = {}
 
----@param fields? table
+---@param fields? ProgramTooltipStatController
 ---@return ProgramTooltipStatController
 function ProgramTooltipStatController.new(fields) return end
 

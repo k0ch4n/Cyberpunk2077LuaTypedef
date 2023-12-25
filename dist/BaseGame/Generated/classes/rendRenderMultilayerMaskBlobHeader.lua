@@ -14,6 +14,6 @@
 ---@field public flags Uint32
 rendRenderMultilayerMaskBlobHeader = {}
 
----@param fields? table
+---@param fields? rendRenderMultilayerMaskBlobHeader
 ---@return rendRenderMultilayerMaskBlobHeader
 function rendRenderMultilayerMaskBlobHeader.new(fields) return end

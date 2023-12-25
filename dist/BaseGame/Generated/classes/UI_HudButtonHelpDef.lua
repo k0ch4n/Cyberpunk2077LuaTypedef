@@ -10,7 +10,7 @@
 ---@field public button3_Icon gamebbScriptID_CName
 UI_HudButtonHelpDef = {}
 
----@param fields? table
+---@param fields? UI_HudButtonHelpDef
 ---@return UI_HudButtonHelpDef
 function UI_HudButtonHelpDef.new(fields) return end
 

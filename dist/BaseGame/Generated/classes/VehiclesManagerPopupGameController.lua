@@ -16,7 +16,7 @@
 ---@field private initialIndex Uint32
 VehiclesManagerPopupGameController = {}
 
----@param fields? table
+---@param fields? VehiclesManagerPopupGameController
 ---@return VehiclesManagerPopupGameController
 function VehiclesManagerPopupGameController.new(fields) return end
 

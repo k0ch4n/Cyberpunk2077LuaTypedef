@@ -4,7 +4,7 @@
 ---@class DoorSystemController: BaseNetworkSystemController
 DoorSystemController = {}
 
----@param fields? table
+---@param fields? DoorSystemController
 ---@return DoorSystemController
 function DoorSystemController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class TimeSkipCursorInitFinishedEvent: redEvent
 TimeSkipCursorInitFinishedEvent = {}
 
----@param fields? table
+---@param fields? TimeSkipCursorInitFinishedEvent
 ---@return TimeSkipCursorInitFinishedEvent
 function TimeSkipCursorInitFinishedEvent.new(fields) return end

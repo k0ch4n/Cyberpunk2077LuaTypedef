@@ -5,6 +5,6 @@
 ---@field public wasRevealed Bool
 SetRevealedInNetwork = {}
 
----@param fields? table
+---@param fields? SetRevealedInNetwork
 ---@return SetRevealedInNetwork
 function SetRevealedInNetwork.new(fields) return end

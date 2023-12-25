@@ -4,7 +4,7 @@
 ---@class ForceWalkDecisions: LocomotionGroundDecisions
 ForceWalkDecisions = {}
 
----@param fields? table
+---@param fields? ForceWalkDecisions
 ---@return ForceWalkDecisions
 function ForceWalkDecisions.new(fields) return end
 

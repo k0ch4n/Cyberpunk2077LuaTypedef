@@ -8,6 +8,6 @@
 ---@field public amount Int32
 ItemRecipe = {}
 
----@param fields? table
+---@param fields? ItemRecipe
 ---@return ItemRecipe
 function ItemRecipe.new(fields) return end

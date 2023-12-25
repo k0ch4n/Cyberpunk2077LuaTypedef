@@ -9,6 +9,6 @@
 ---@field public canRequestInertialization Bool
 animAnimNode_BaseSwitch = {}
 
----@param fields? table
+---@param fields? animAnimNode_BaseSwitch
 ---@return animAnimNode_BaseSwitch
 function animAnimNode_BaseSwitch.new(fields) return end

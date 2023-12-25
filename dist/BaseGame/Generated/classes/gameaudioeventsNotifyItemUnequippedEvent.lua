@@ -5,6 +5,6 @@
 ---@field public itemName CName
 gameaudioeventsNotifyItemUnequippedEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsNotifyItemUnequippedEvent
 ---@return gameaudioeventsNotifyItemUnequippedEvent
 function gameaudioeventsNotifyItemUnequippedEvent.new(fields) return end

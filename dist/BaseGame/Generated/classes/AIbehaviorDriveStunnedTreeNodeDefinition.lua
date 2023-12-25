@@ -4,6 +4,6 @@
 ---@class AIbehaviorDriveStunnedTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveStunnedTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveStunnedTreeNodeDefinition
 ---@return AIbehaviorDriveStunnedTreeNodeDefinition
 function AIbehaviorDriveStunnedTreeNodeDefinition.new(fields) return end

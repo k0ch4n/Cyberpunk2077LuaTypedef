@@ -9,6 +9,6 @@
 ---@field public worldDescription String
 inkServerInfo = {}
 
----@param fields? table
+---@param fields? inkServerInfo
 ---@return inkServerInfo
 function inkServerInfo.new(fields) return end

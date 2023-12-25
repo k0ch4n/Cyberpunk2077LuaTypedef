@@ -6,6 +6,6 @@
 ---@field public partID gameItemID
 PartUninstallRequest = {}
 
----@param fields? table
+---@param fields? PartUninstallRequest
 ---@return PartUninstallRequest
 function PartUninstallRequest.new(fields) return end

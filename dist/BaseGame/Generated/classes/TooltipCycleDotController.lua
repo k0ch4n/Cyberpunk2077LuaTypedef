@@ -6,7 +6,7 @@
 ---@field private slotBackground inkWidgetReference
 TooltipCycleDotController = {}
 
----@param fields? table
+---@param fields? TooltipCycleDotController
 ---@return TooltipCycleDotController
 function TooltipCycleDotController.new(fields) return end
 

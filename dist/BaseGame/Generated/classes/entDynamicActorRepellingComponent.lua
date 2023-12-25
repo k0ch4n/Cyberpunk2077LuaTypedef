@@ -14,6 +14,6 @@
 ---@field public capsuleHeight Float
 entDynamicActorRepellingComponent = {}
 
----@param fields? table
+---@param fields? entDynamicActorRepellingComponent
 ---@return entDynamicActorRepellingComponent
 function entDynamicActorRepellingComponent.new(fields) return end

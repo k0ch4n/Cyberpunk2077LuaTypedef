@@ -4,7 +4,7 @@
 ---@class EffectObjectProvider_PhysicalCollisionTrapEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_PhysicalCollisionTrapEntities = {}
 
----@param fields? table
+---@param fields? EffectObjectProvider_PhysicalCollisionTrapEntities
 ---@return EffectObjectProvider_PhysicalCollisionTrapEntities
 function EffectObjectProvider_PhysicalCollisionTrapEntities.new(fields) return end
 

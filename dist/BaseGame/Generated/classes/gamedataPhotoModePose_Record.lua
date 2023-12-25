@@ -4,7 +4,7 @@
 ---@class gamedataPhotoModePose_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModePose_Record = {}
 
----@param fields? table
+---@param fields? gamedataPhotoModePose_Record
 ---@return gamedataPhotoModePose_Record
 function gamedataPhotoModePose_Record.new(fields) return end
 

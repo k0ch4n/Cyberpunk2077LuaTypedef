@@ -4,6 +4,6 @@
 ---@class gamemappinsIMappinData
 gamemappinsIMappinData = {}
 
----@param fields? table
+---@param fields? gamemappinsIMappinData
 ---@return gamemappinsIMappinData
 function gamemappinsIMappinData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private bloodswellEffector BloodswellEffector
 BloodswellCallback = {}
 
----@param fields? table
+---@param fields? BloodswellCallback
 ---@return BloodswellCallback
 function BloodswellCallback.new(fields) return end
 

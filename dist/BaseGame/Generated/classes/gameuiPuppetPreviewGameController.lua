@@ -5,7 +5,7 @@
 ---@field public cameraController gameuiPuppetPreviewCameraController
 gameuiPuppetPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiPuppetPreviewGameController
 ---@return gameuiPuppetPreviewGameController
 function gameuiPuppetPreviewGameController.new(fields) return end
 

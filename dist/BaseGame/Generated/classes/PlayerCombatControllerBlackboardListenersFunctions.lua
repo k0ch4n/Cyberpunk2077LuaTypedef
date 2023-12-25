@@ -5,6 +5,6 @@
 ---@field public crouchActive CName
 PlayerCombatControllerBlackboardListenersFunctions = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerBlackboardListenersFunctions
 ---@return PlayerCombatControllerBlackboardListenersFunctions
 function PlayerCombatControllerBlackboardListenersFunctions.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field public hitBodyPart Int32
 animAnimFeature_HitReactions = {}
 
----@param fields? table
+---@param fields? animAnimFeature_HitReactions
 ---@return animAnimFeature_HitReactions
 function animAnimFeature_HitReactions.new(fields) return end
 

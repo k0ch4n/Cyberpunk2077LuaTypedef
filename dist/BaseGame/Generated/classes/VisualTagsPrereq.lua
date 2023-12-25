@@ -6,7 +6,7 @@
 ---@field public invert Bool
 VisualTagsPrereq = {}
 
----@param fields? table
+---@param fields? VisualTagsPrereq
 ---@return VisualTagsPrereq
 function VisualTagsPrereq.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private gameSessionDataModules GameSessionDataModule[]
 GameSessionDataSystem = {}
 
----@param fields? table
+---@param fields? GameSessionDataSystem
 ---@return GameSessionDataSystem
 function GameSessionDataSystem.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private videoPath redResourceReferenceScriptToken
 inkDexLimoGameController = {}
 
----@param fields? table
+---@param fields? inkDexLimoGameController
 ---@return inkDexLimoGameController
 function inkDexLimoGameController.new(fields) return end
 

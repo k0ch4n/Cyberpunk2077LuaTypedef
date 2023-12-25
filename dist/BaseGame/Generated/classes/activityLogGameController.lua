@@ -11,7 +11,7 @@
 ---@field private onHide redCallbackObject
 activityLogGameController = {}
 
----@param fields? table
+---@param fields? activityLogGameController
 ---@return activityLogGameController
 function activityLogGameController.new(fields) return end
 

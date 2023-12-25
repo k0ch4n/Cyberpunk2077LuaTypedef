@@ -8,6 +8,6 @@
 ---@field public Selected Bool
 worldFoliageBrushItem = {}
 
----@param fields? table
+---@param fields? worldFoliageBrushItem
 ---@return worldFoliageBrushItem
 function worldFoliageBrushItem.new(fields) return end

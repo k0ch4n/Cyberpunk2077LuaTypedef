@@ -12,6 +12,6 @@
 ---@field public source PhoneScreenType
 JournalNotificationData = {}
 
----@param fields? table
+---@param fields? JournalNotificationData
 ---@return JournalNotificationData
 function JournalNotificationData.new(fields) return end

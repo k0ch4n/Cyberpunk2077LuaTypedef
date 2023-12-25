@@ -4,7 +4,7 @@
 ---@class PreCrouchLowGravityDecisions: LocomotionGroundDecisions
 PreCrouchLowGravityDecisions = {}
 
----@param fields? table
+---@param fields? PreCrouchLowGravityDecisions
 ---@return PreCrouchLowGravityDecisions
 function PreCrouchLowGravityDecisions.new(fields) return end
 

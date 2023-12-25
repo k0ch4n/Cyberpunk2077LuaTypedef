@@ -11,7 +11,7 @@
 ---@field public Change inkStepperChangedCallback
 inkStepperController = {}
 
----@param fields? table
+---@param fields? inkStepperController
 ---@return inkStepperController
 function inkStepperController.new(fields) return end
 

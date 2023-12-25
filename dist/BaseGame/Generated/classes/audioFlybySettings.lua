@@ -6,6 +6,6 @@
 ---@field public flybyEvent CName
 audioFlybySettings = {}
 
----@param fields? table
+---@param fields? audioFlybySettings
 ---@return audioFlybySettings
 function audioFlybySettings.new(fields) return end

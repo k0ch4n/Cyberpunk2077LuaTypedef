@@ -5,7 +5,7 @@
 ---@field public attackSubtype gamedataAttackSubtype
 HitAttackSubtypePrereq = {}
 
----@param fields? table
+---@param fields? HitAttackSubtypePrereq
 ---@return HitAttackSubtypePrereq
 function HitAttackSubtypePrereq.new(fields) return end
 

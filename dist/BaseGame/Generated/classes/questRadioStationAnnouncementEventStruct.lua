@@ -10,6 +10,6 @@
 ---@field public speaker audioRadioSpeakerType
 questRadioStationAnnouncementEventStruct = {}
 
----@param fields? table
+---@param fields? questRadioStationAnnouncementEventStruct
 ---@return questRadioStationAnnouncementEventStruct
 function questRadioStationAnnouncementEventStruct.new(fields) return end

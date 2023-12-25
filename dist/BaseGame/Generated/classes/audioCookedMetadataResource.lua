@@ -5,6 +5,6 @@
 ---@field public entries audioAudioMetadata[]
 audioCookedMetadataResource = {}
 
----@param fields? table
+---@param fields? audioCookedMetadataResource
 ---@return audioCookedMetadataResource
 function audioCookedMetadataResource.new(fields) return end

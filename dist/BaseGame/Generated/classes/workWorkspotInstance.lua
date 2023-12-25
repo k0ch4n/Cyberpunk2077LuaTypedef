@@ -4,6 +4,6 @@
 ---@class workWorkspotInstance: ISerializable
 workWorkspotInstance = {}
 
----@param fields? table
+---@param fields? workWorkspotInstance
 ---@return workWorkspotInstance
 function workWorkspotInstance.new(fields) return end

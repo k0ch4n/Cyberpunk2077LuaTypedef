@@ -11,6 +11,6 @@
 ---@field public sensitivityMultY Float
 gameSetCameraParamsWithOverridesEvent = {}
 
----@param fields? table
+---@param fields? gameSetCameraParamsWithOverridesEvent
 ---@return gameSetCameraParamsWithOverridesEvent
 function gameSetCameraParamsWithOverridesEvent.new(fields) return end

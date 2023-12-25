@@ -10,6 +10,6 @@
 ---@field public appearanceOverrides gameHitRepresentationOverride[]
 gameHitRepresentationComponent = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationComponent
 ---@return gameHitRepresentationComponent
 function gameHitRepresentationComponent.new(fields) return end

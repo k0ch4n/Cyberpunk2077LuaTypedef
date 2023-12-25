@@ -5,7 +5,7 @@
 ---@field public weapon gameweaponObject
 WeaponChargeStatListener = {}
 
----@param fields? table
+---@param fields? WeaponChargeStatListener
 ---@return WeaponChargeStatListener
 function WeaponChargeStatListener.new(fields) return end
 

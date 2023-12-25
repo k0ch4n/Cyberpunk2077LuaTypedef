@@ -6,6 +6,6 @@
 ---@field public weapon questVehicleWeaponQuestID
 questVehicleWeaponUsed_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleWeaponUsed_ConditionType
 ---@return questVehicleWeaponUsed_ConditionType
 function questVehicleWeaponUsed_ConditionType.new(fields) return end

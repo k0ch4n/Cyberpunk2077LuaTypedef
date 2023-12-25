@@ -8,6 +8,6 @@
 ---@field public blockCombat Bool
 vehicleForbiddenAreaState = {}
 
----@param fields? table
+---@param fields? vehicleForbiddenAreaState
 ---@return vehicleForbiddenAreaState
 function vehicleForbiddenAreaState.new(fields) return end

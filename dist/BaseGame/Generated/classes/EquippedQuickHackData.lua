@@ -5,7 +5,7 @@
 ---@field private programEntries ProgramEntry[]
 EquippedQuickHackData = {}
 
----@param fields? table
+---@param fields? EquippedQuickHackData
 ---@return EquippedQuickHackData
 function EquippedQuickHackData.new(fields) return end
 

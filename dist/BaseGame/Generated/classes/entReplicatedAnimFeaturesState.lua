@@ -6,6 +6,6 @@
 ---@field public lastAppliedActionsTime netTime
 entReplicatedAnimFeaturesState = {}
 
----@param fields? table
+---@param fields? entReplicatedAnimFeaturesState
 ---@return entReplicatedAnimFeaturesState
 function entReplicatedAnimFeaturesState.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public object gameObject
 RegisterInputListenerRequest = {}
 
----@param fields? table
+---@param fields? RegisterInputListenerRequest
 ---@return RegisterInputListenerRequest
 function RegisterInputListenerRequest.new(fields) return end

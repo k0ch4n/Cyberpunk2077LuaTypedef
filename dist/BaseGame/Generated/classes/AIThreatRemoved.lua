@@ -10,6 +10,6 @@
 ---@field public distanceBasedInstantDrop Bool
 AIThreatRemoved = {}
 
----@param fields? table
+---@param fields? AIThreatRemoved
 ---@return AIThreatRemoved
 function AIThreatRemoved.new(fields) return end

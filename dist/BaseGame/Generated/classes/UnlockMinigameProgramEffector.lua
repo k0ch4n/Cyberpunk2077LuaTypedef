@@ -5,7 +5,7 @@
 ---@field public minigameProgram gameuiMinigameProgramData
 UnlockMinigameProgramEffector = {}
 
----@param fields? table
+---@param fields? UnlockMinigameProgramEffector
 ---@return UnlockMinigameProgramEffector
 function UnlockMinigameProgramEffector.new(fields) return end
 

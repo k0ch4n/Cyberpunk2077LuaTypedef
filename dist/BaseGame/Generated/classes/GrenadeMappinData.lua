@@ -6,6 +6,6 @@
 ---@field public iconID TweakDBID
 GrenadeMappinData = {}
 
----@param fields? table
+---@param fields? GrenadeMappinData
 ---@return GrenadeMappinData
 function GrenadeMappinData.new(fields) return end

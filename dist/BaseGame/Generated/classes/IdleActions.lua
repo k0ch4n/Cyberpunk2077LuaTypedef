@@ -4,7 +4,7 @@
 ---@class IdleActions: TweakAIActionSmartComposite
 IdleActions = {}
 
----@param fields? table
+---@param fields? IdleActions
 ---@return IdleActions
 function IdleActions.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class DisableUndeadAnimFeatureEvent: redEvent
 DisableUndeadAnimFeatureEvent = {}
 
----@param fields? table
+---@param fields? DisableUndeadAnimFeatureEvent
 ---@return DisableUndeadAnimFeatureEvent
 function DisableUndeadAnimFeatureEvent.new(fields) return end

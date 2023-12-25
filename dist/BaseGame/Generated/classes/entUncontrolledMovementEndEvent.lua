@@ -4,6 +4,6 @@
 ---@class entUncontrolledMovementEndEvent: redEvent
 entUncontrolledMovementEndEvent = {}
 
----@param fields? table
+---@param fields? entUncontrolledMovementEndEvent
 ---@return entUncontrolledMovementEndEvent
 function entUncontrolledMovementEndEvent.new(fields) return end

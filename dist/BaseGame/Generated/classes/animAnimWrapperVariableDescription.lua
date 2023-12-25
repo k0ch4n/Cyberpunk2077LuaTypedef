@@ -6,6 +6,6 @@
 ---@field public defaultValue Float
 animAnimWrapperVariableDescription = {}
 
----@param fields? table
+---@param fields? animAnimWrapperVariableDescription
 ---@return animAnimWrapperVariableDescription
 function animAnimWrapperVariableDescription.new(fields) return end

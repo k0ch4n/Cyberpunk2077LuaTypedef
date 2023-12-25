@@ -4,7 +4,7 @@
 ---@class gameForceResetAmmoEvent: redEvent
 gameForceResetAmmoEvent = {}
 
----@param fields? table
+---@param fields? gameForceResetAmmoEvent
 ---@return gameForceResetAmmoEvent
 function gameForceResetAmmoEvent.new(fields) return end
 

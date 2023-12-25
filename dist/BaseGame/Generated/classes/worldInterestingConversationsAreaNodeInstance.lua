@@ -4,6 +4,6 @@
 ---@class worldInterestingConversationsAreaNodeInstance: worldTriggerAreaNodeInstance
 worldInterestingConversationsAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldInterestingConversationsAreaNodeInstance
 ---@return worldInterestingConversationsAreaNodeInstance
 function worldInterestingConversationsAreaNodeInstance.new(fields) return end

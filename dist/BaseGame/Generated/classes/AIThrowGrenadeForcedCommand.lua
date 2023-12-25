@@ -4,6 +4,6 @@
 ---@class AIThrowGrenadeForcedCommand: AIThrowGrenadeCommand
 AIThrowGrenadeForcedCommand = {}
 
----@param fields? table
+---@param fields? AIThrowGrenadeForcedCommand
 ---@return AIThrowGrenadeForcedCommand
 function AIThrowGrenadeForcedCommand.new(fields) return end

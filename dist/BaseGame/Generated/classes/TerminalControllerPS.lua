@@ -13,7 +13,7 @@
 ---@field protected forcedElevatorArrowsState EForcedElevatorArrowsState
 TerminalControllerPS = {}
 
----@param fields? table
+---@param fields? TerminalControllerPS
 ---@return TerminalControllerPS
 function TerminalControllerPS.new(fields) return end
 

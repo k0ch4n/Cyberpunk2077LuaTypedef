@@ -4,6 +4,6 @@
 ---@class worldStaticGpsLocationEntranceMarkerNodeInstance: worldINodeInstance
 worldStaticGpsLocationEntranceMarkerNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticGpsLocationEntranceMarkerNodeInstance
 ---@return worldStaticGpsLocationEntranceMarkerNodeInstance
 function worldStaticGpsLocationEntranceMarkerNodeInstance.new(fields) return end

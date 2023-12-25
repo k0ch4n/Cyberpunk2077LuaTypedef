@@ -5,7 +5,7 @@
 ---@field public cost Int32
 InteractionChoiceCaptionQuickhackCostPart = {}
 
----@param fields? table
+---@param fields? InteractionChoiceCaptionQuickhackCostPart
 ---@return InteractionChoiceCaptionQuickhackCostPart
 function InteractionChoiceCaptionQuickhackCostPart.new(fields) return end
 

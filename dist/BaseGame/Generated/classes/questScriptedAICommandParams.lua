@@ -4,7 +4,7 @@
 ---@class questScriptedAICommandParams: questMiscAICommandNodeParams
 questScriptedAICommandParams = {}
 
----@param fields? table
+---@param fields? questScriptedAICommandParams
 ---@return questScriptedAICommandParams
 function questScriptedAICommandParams.new(fields) return end
 

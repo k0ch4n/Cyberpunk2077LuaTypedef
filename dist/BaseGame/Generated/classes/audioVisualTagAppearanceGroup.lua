@@ -6,6 +6,6 @@
 ---@field public visualTags CName[]
 audioVisualTagAppearanceGroup = {}
 
----@param fields? table
+---@param fields? audioVisualTagAppearanceGroup
 ---@return audioVisualTagAppearanceGroup
 function audioVisualTagAppearanceGroup.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class PUPPET_ACtor: gameHudActor
 PUPPET_ACtor = {}
 
----@param fields? table
+---@param fields? PUPPET_ACtor
 ---@return PUPPET_ACtor
 function PUPPET_ACtor.new(fields) return end

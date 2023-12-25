@@ -6,6 +6,6 @@
 ---@field public delayedAlready Bool
 DelayReactionToMissingPassengersEvent = {}
 
----@param fields? table
+---@param fields? DelayReactionToMissingPassengersEvent
 ---@return DelayReactionToMissingPassengersEvent
 function DelayReactionToMissingPassengersEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CVisualDebug: IScriptable
 CVisualDebug = {}
 
----@param fields? table
+---@param fields? CVisualDebug
 ---@return CVisualDebug
 function CVisualDebug.new(fields) return end
 

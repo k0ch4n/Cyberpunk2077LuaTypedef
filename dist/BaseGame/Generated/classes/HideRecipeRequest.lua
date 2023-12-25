@@ -5,6 +5,6 @@
 ---@field public recipe TweakDBID
 HideRecipeRequest = {}
 
----@param fields? table
+---@param fields? HideRecipeRequest
 ---@return HideRecipeRequest
 function HideRecipeRequest.new(fields) return end

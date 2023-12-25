@@ -4,6 +4,6 @@
 ---@class gameuiMinimapSecurityAreaInitData: gameuiMappinControllerCustomData
 gameuiMinimapSecurityAreaInitData = {}
 
----@param fields? table
+---@param fields? gameuiMinimapSecurityAreaInitData
 ---@return gameuiMinimapSecurityAreaInitData
 function gameuiMinimapSecurityAreaInitData.new(fields) return end

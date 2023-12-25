@@ -7,7 +7,7 @@
 ---@field public scale Vector2
 Codeware_UI_VirtualResolutionData = {}
 
----@param fields? table
+---@param fields? Codeware_UI_VirtualResolutionData
 ---@return Codeware_UI_VirtualResolutionData
 function Codeware_UI_VirtualResolutionData.new(fields) return end
 

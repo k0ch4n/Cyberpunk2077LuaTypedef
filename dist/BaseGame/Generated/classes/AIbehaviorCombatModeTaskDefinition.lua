@@ -7,6 +7,6 @@
 ---@field public timeToLive Float
 AIbehaviorCombatModeTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCombatModeTaskDefinition
 ---@return AIbehaviorCombatModeTaskDefinition
 function AIbehaviorCombatModeTaskDefinition.new(fields) return end

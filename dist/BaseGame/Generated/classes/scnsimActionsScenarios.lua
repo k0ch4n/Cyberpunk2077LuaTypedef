@@ -5,6 +5,6 @@
 ---@field public allScenarios scnsimActionsScenariosNodeScenarios[]
 scnsimActionsScenarios = {}
 
----@param fields? table
+---@param fields? scnsimActionsScenarios
 ---@return scnsimActionsScenarios
 function scnsimActionsScenarios.new(fields) return end

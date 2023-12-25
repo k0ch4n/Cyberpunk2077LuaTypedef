@@ -4,7 +4,7 @@
 ---@class QuestForceJuryrigTrapDeactivated: ActionBool
 QuestForceJuryrigTrapDeactivated = {}
 
----@param fields? table
+---@param fields? QuestForceJuryrigTrapDeactivated
 ---@return QuestForceJuryrigTrapDeactivated
 function QuestForceJuryrigTrapDeactivated.new(fields) return end
 

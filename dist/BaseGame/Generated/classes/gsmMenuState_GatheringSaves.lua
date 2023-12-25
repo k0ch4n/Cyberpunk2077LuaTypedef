@@ -4,6 +4,6 @@
 ---@class gsmMenuState_GatheringSaves: gsmPopupState
 gsmMenuState_GatheringSaves = {}
 
----@param fields? table
+---@param fields? gsmMenuState_GatheringSaves
 ---@return gsmMenuState_GatheringSaves
 function gsmMenuState_GatheringSaves.new(fields) return end

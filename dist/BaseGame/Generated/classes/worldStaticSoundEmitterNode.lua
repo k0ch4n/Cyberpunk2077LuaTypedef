@@ -18,6 +18,6 @@
 ---@field public ambientPaletteTag CName
 worldStaticSoundEmitterNode = {}
 
----@param fields? table
+---@param fields? worldStaticSoundEmitterNode
 ---@return worldStaticSoundEmitterNode
 function worldStaticSoundEmitterNode.new(fields) return end

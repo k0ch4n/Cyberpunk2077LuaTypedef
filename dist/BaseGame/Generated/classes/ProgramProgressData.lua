@@ -8,6 +8,6 @@
 ---@field public revealLocalizedName Bool
 ProgramProgressData = {}
 
----@param fields? table
+---@param fields? ProgramProgressData
 ---@return ProgramProgressData
 function ProgramProgressData.new(fields) return end

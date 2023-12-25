@@ -4,7 +4,7 @@
 ---@class ReprimandEscalateAnimFeature: AIbehaviortaskScript
 ReprimandEscalateAnimFeature = {}
 
----@param fields? table
+---@param fields? ReprimandEscalateAnimFeature
 ---@return ReprimandEscalateAnimFeature
 function ReprimandEscalateAnimFeature.new(fields) return end
 

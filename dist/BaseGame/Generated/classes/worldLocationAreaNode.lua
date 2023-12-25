@@ -5,6 +5,6 @@
 ---@field public locationName String
 worldLocationAreaNode = {}
 
----@param fields? table
+---@param fields? worldLocationAreaNode
 ---@return worldLocationAreaNode
 function worldLocationAreaNode.new(fields) return end

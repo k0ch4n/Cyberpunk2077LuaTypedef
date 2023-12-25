@@ -14,7 +14,7 @@
 ---@field private weatherCallbackId Uint32
 CityLightSystem = {}
 
----@param fields? table
+---@param fields? CityLightSystem
 ---@return CityLightSystem
 function CityLightSystem.new(fields) return end
 

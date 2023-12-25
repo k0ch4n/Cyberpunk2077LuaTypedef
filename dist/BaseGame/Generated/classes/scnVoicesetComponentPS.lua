@@ -10,6 +10,6 @@
 ---@field public areVoicesetGruntsEnabled Bool
 scnVoicesetComponentPS = {}
 
----@param fields? table
+---@param fields? scnVoicesetComponentPS
 ---@return scnVoicesetComponentPS
 function scnVoicesetComponentPS.new(fields) return end

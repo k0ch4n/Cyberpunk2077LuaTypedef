@@ -5,6 +5,6 @@
 ---@field public actions questSpawnManagerNodeActionEntry[]
 questSpawnManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questSpawnManagerNodeDefinition
 ---@return questSpawnManagerNodeDefinition
 function questSpawnManagerNodeDefinition.new(fields) return end

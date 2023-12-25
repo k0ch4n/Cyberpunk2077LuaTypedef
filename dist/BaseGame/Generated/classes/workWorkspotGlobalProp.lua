@@ -7,6 +7,6 @@
 ---@field public prop entEntityTemplate
 workWorkspotGlobalProp = {}
 
----@param fields? table
+---@param fields? workWorkspotGlobalProp
 ---@return workWorkspotGlobalProp
 function workWorkspotGlobalProp.new(fields) return end

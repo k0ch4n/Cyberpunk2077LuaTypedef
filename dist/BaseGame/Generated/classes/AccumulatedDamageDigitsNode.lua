@@ -8,6 +8,6 @@
 ---@field public isDamageOverTime Bool
 AccumulatedDamageDigitsNode = {}
 
----@param fields? table
+---@param fields? AccumulatedDamageDigitsNode
 ---@return AccumulatedDamageDigitsNode
 function AccumulatedDamageDigitsNode.new(fields) return end

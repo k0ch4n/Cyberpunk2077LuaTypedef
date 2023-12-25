@@ -12,6 +12,6 @@
 ---@field public affectedByTimeDilation Bool
 gameRegisterNewCooldownRequest = {}
 
----@param fields? table
+---@param fields? gameRegisterNewCooldownRequest
 ---@return gameRegisterNewCooldownRequest
 function gameRegisterNewCooldownRequest.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public onUpdateCompleted Bool
 StaggerReactionTask = {}
 
----@param fields? table
+---@param fields? StaggerReactionTask
 ---@return StaggerReactionTask
 function StaggerReactionTask.new(fields) return end
 

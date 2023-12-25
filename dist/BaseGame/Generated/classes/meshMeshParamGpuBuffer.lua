@@ -6,6 +6,6 @@
 ---@field public data DataBuffer
 meshMeshParamGpuBuffer = {}
 
----@param fields? table
+---@param fields? meshMeshParamGpuBuffer
 ---@return meshMeshParamGpuBuffer
 function meshMeshParamGpuBuffer.new(fields) return end

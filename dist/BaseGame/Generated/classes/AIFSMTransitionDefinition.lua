@@ -6,6 +6,6 @@
 ---@field public condition Uint16
 AIFSMTransitionDefinition = {}
 
----@param fields? table
+---@param fields? AIFSMTransitionDefinition
 ---@return AIFSMTransitionDefinition
 function AIFSMTransitionDefinition.new(fields) return end

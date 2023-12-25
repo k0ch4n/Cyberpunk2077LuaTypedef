@@ -4,7 +4,7 @@
 ---@class TrafficLightRed: ActionBool
 TrafficLightRed = {}
 
----@param fields? table
+---@param fields? TrafficLightRed
 ---@return TrafficLightRed
 function TrafficLightRed.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private hasTriggered Bool
 QuadRacerBonusCollisionLogic = {}
 
----@param fields? table
+---@param fields? QuadRacerBonusCollisionLogic
 ---@return QuadRacerBonusCollisionLogic
 function QuadRacerBonusCollisionLogic.new(fields) return end
 

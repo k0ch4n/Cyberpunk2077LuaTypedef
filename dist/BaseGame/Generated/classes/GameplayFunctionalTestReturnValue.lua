@@ -6,6 +6,6 @@
 ---@field public errorInfo String
 GameplayFunctionalTestReturnValue = {}
 
----@param fields? table
+---@param fields? GameplayFunctionalTestReturnValue
 ---@return GameplayFunctionalTestReturnValue
 function GameplayFunctionalTestReturnValue.new(fields) return end

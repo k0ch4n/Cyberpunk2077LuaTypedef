@@ -5,7 +5,7 @@
 ---@field public IsNPCMounted AIArgumentMapping
 SetAnimsetOverrideForPassengerNPC = {}
 
----@param fields? table
+---@param fields? SetAnimsetOverrideForPassengerNPC
 ---@return SetAnimsetOverrideForPassengerNPC
 function SetAnimsetOverrideForPassengerNPC.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class CollectDropPointRewards: ActionBool
 CollectDropPointRewards = {}
 
----@param fields? table
+---@param fields? CollectDropPointRewards
 ---@return CollectDropPointRewards
 function CollectDropPointRewards.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public actionName CName
 VentilationAreaSetup = {}
 
----@param fields? table
+---@param fields? VentilationAreaSetup
 ---@return VentilationAreaSetup
 function VentilationAreaSetup.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public noConnectionText inkTextWidgetReference
 gameuiTimeDisplayLogicController = {}
 
----@param fields? table
+---@param fields? gameuiTimeDisplayLogicController
 ---@return gameuiTimeDisplayLogicController
 function gameuiTimeDisplayLogicController.new(fields) return end
 

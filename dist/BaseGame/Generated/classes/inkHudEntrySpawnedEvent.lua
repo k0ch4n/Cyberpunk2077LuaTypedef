@@ -4,6 +4,6 @@
 ---@class inkHudEntrySpawnedEvent: redEvent
 inkHudEntrySpawnedEvent = {}
 
----@param fields? table
+---@param fields? inkHudEntrySpawnedEvent
 ---@return inkHudEntrySpawnedEvent
 function inkHudEntrySpawnedEvent.new(fields) return end

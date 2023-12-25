@@ -6,6 +6,6 @@
 ---@field public entityID entEntityID
 NameplateVisibleEvent = {}
 
----@param fields? table
+---@param fields? NameplateVisibleEvent
 ---@return NameplateVisibleEvent
 function NameplateVisibleEvent.new(fields) return end

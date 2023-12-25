@@ -5,6 +5,6 @@
 ---@field public exposureCompensation Float
 ExposureCompensationAreaSettings = {}
 
----@param fields? table
+---@param fields? ExposureCompensationAreaSettings
 ---@return ExposureCompensationAreaSettings
 function ExposureCompensationAreaSettings.new(fields) return end

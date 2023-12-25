@@ -10,6 +10,6 @@
 ---@field public disableAction Bool
 questLevelUpData = {}
 
----@param fields? table
+---@param fields? questLevelUpData
 ---@return questLevelUpData
 function questLevelUpData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public length Float
 worldTrafficSyncPointDefinition = {}
 
----@param fields? table
+---@param fields? worldTrafficSyncPointDefinition
 ---@return worldTrafficSyncPointDefinition
 function worldTrafficSyncPointDefinition.new(fields) return end

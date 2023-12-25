@@ -4,7 +4,7 @@
 ---@class StandState: ChangeStanceStateAbstract
 StandState = {}
 
----@param fields? table
+---@param fields? StandState
 ---@return StandState
 function StandState.new(fields) return end
 

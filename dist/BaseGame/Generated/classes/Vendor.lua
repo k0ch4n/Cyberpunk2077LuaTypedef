@@ -20,7 +20,7 @@
 ---@field private playerHacks gameItemID[]
 Vendor = {}
 
----@param fields? table
+---@param fields? Vendor
 ---@return Vendor
 function Vendor.new(fields) return end
 

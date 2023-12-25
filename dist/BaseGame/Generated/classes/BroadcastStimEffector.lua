@@ -6,7 +6,7 @@
 ---@field public radius Float
 BroadcastStimEffector = {}
 
----@param fields? table
+---@param fields? BroadcastStimEffector
 ---@return BroadcastStimEffector
 function BroadcastStimEffector.new(fields) return end
 

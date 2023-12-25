@@ -5,6 +5,6 @@
 ---@field public node animPoseLink
 animAnimNode_Output = {}
 
----@param fields? table
+---@param fields? animAnimNode_Output
 ---@return animAnimNode_Output
 function animAnimNode_Output.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public ignoreRevealed Bool
 PingNetworkGridEvent = {}
 
----@param fields? table
+---@param fields? PingNetworkGridEvent
 ---@return PingNetworkGridEvent
 function PingNetworkGridEvent.new(fields) return end

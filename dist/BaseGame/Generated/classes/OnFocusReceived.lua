@@ -4,6 +4,6 @@
 ---@class OnFocusReceived: inkFocusEvent
 OnFocusReceived = {}
 
----@param fields? table
+---@param fields? OnFocusReceived
 ---@return OnFocusReceived
 function OnFocusReceived.new(fields) return end

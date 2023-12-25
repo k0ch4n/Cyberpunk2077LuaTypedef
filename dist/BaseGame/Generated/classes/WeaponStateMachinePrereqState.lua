@@ -4,6 +4,6 @@
 ---@class WeaponStateMachinePrereqState: gamePrereqState
 WeaponStateMachinePrereqState = {}
 
----@param fields? table
+---@param fields? WeaponStateMachinePrereqState
 ---@return WeaponStateMachinePrereqState
 function WeaponStateMachinePrereqState.new(fields) return end

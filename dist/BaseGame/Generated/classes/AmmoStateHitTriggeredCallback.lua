@@ -4,7 +4,7 @@
 ---@class AmmoStateHitTriggeredCallback: AmmoStateHitCallback
 AmmoStateHitTriggeredCallback = {}
 
----@param fields? table
+---@param fields? AmmoStateHitTriggeredCallback
 ---@return AmmoStateHitTriggeredCallback
 function AmmoStateHitTriggeredCallback.new(fields) return end
 

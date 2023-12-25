@@ -5,7 +5,7 @@
 ---@field public tweakDBPackage TweakDBID
 GuardbreakReactionTask = {}
 
----@param fields? table
+---@param fields? GuardbreakReactionTask
 ---@return GuardbreakReactionTask
 function GuardbreakReactionTask.new(fields) return end
 

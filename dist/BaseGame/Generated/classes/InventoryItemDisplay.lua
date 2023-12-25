@@ -23,7 +23,7 @@
 ---@field private owner gameObject
 InventoryItemDisplay = {}
 
----@param fields? table
+---@param fields? InventoryItemDisplay
 ---@return InventoryItemDisplay
 function InventoryItemDisplay.new(fields) return end
 

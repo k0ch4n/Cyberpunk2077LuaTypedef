@@ -6,7 +6,7 @@
 ---@field public invert Bool
 PlayerDoesntHaveRecipePrereq = {}
 
----@param fields? table
+---@param fields? PlayerDoesntHaveRecipePrereq
 ---@return PlayerDoesntHaveRecipePrereq
 function PlayerDoesntHaveRecipePrereq.new(fields) return end
 

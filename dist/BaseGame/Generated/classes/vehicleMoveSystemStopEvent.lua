@@ -4,6 +4,6 @@
 ---@class vehicleMoveSystemStopEvent: gameActionEvent
 vehicleMoveSystemStopEvent = {}
 
----@param fields? table
+---@param fields? vehicleMoveSystemStopEvent
 ---@return vehicleMoveSystemStopEvent
 function vehicleMoveSystemStopEvent.new(fields) return end

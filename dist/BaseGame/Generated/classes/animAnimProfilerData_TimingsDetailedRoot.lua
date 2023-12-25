@@ -6,6 +6,6 @@
 ---@field public timings animAnimProfilerData_TimingsDetailed[]
 animAnimProfilerData_TimingsDetailedRoot = {}
 
----@param fields? table
+---@param fields? animAnimProfilerData_TimingsDetailedRoot
 ---@return animAnimProfilerData_TimingsDetailedRoot
 function animAnimProfilerData_TimingsDetailedRoot.new(fields) return end

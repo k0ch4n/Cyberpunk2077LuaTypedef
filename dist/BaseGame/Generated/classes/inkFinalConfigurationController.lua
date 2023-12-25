@@ -5,6 +5,6 @@
 ---@field public visibilityFlag inkFinalConfigurationVisibility
 inkFinalConfigurationController = {}
 
----@param fields? table
+---@param fields? inkFinalConfigurationController
 ---@return inkFinalConfigurationController
 function inkFinalConfigurationController.new(fields) return end

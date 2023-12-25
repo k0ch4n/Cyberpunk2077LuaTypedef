@@ -8,6 +8,6 @@
 ---@field public equipToCurrentActiveSlot Bool
 gameEquipRequest = {}
 
----@param fields? table
+---@param fields? gameEquipRequest
 ---@return gameEquipRequest
 function gameEquipRequest.new(fields) return end

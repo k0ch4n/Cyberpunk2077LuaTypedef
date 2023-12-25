@@ -4,7 +4,7 @@
 ---@class ForceIdleDecisions: LocomotionGroundDecisions
 ForceIdleDecisions = {}
 
----@param fields? table
+---@param fields? ForceIdleDecisions
 ---@return ForceIdleDecisions
 function ForceIdleDecisions.new(fields) return end
 

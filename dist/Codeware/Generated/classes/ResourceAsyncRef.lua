@@ -4,7 +4,7 @@
 ---@class ResourceAsyncRef
 ResourceAsyncRef = {}
 
----@param fields? table
+---@param fields? ResourceAsyncRef
 ---@return ResourceAsyncRef
 function ResourceAsyncRef.new(fields) return end
 

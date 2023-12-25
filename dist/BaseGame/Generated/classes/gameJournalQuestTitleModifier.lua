@@ -5,7 +5,7 @@
 ---@field public title LocalizationString
 gameJournalQuestTitleModifier = {}
 
----@param fields? table
+---@param fields? gameJournalQuestTitleModifier
 ---@return gameJournalQuestTitleModifier
 function gameJournalQuestTitleModifier.new(fields) return end
 

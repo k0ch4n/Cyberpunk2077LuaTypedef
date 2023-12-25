@@ -6,6 +6,6 @@
 ---@field public socketId Uint32
 questConditionItem = {}
 
----@param fields? table
+---@param fields? questConditionItem
 ---@return questConditionItem
 function questConditionItem.new(fields) return end

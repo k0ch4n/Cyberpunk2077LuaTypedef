@@ -4,6 +4,6 @@
 ---@class gameDebugContextPtr
 gameDebugContextPtr = {}
 
----@param fields? table
+---@param fields? gameDebugContextPtr
 ---@return gameDebugContextPtr
 function gameDebugContextPtr.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public prefabVariants questPrefabVariantMapArrayElement[]
 questWorldStateSystemReplicatedState = {}
 
----@param fields? table
+---@param fields? questWorldStateSystemReplicatedState
 ---@return questWorldStateSystemReplicatedState
 function questWorldStateSystemReplicatedState.new(fields) return end

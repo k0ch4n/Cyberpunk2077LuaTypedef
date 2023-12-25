@@ -9,7 +9,7 @@
 ---@field public Added inkVirtualCompoundItemControllerCallback
 inkVirtualCompoundItemController = {}
 
----@param fields? table
+---@param fields? inkVirtualCompoundItemController
 ---@return inkVirtualCompoundItemController
 function inkVirtualCompoundItemController.new(fields) return end
 

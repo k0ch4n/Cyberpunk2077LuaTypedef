@@ -7,6 +7,6 @@
 ---@field public outlineColor HDRColor
 textTextBlockFontStyle = {}
 
----@param fields? table
+---@param fields? textTextBlockFontStyle
 ---@return textTextBlockFontStyle
 function textTextBlockFontStyle.new(fields) return end

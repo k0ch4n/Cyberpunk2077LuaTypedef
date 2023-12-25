@@ -4,7 +4,7 @@
 ---@class CerberusCustomEventSender: AISignalSenderTask
 CerberusCustomEventSender = {}
 
----@param fields? table
+---@param fields? CerberusCustomEventSender
 ---@return CerberusCustomEventSender
 function CerberusCustomEventSender.new(fields) return end
 

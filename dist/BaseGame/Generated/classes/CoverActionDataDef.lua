@@ -12,6 +12,6 @@
 ---@field public debugAdsLeaning gamebbScriptID_Bool
 CoverActionDataDef = {}
 
----@param fields? table
+---@param fields? CoverActionDataDef
 ---@return CoverActionDataDef
 function CoverActionDataDef.new(fields) return end

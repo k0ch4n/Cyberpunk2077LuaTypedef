@@ -8,6 +8,6 @@
 ---@field public midOut Float
 TonemappingModeLottesACES = {}
 
----@param fields? table
+---@param fields? TonemappingModeLottesACES
 ---@return TonemappingModeLottesACES
 function TonemappingModeLottesACES.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CodexUtils: IScriptable
 CodexUtils = {}
 
----@param fields? table
+---@param fields? CodexUtils
 ---@return CodexUtils
 function CodexUtils.new(fields) return end
 

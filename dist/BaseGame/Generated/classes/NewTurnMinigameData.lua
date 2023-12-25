@@ -20,6 +20,6 @@
 ---@field public enemyprogramsRemoved ProgramData[]
 NewTurnMinigameData = {}
 
----@param fields? table
+---@param fields? NewTurnMinigameData
 ---@return NewTurnMinigameData
 function NewTurnMinigameData.new(fields) return end

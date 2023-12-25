@@ -4,7 +4,7 @@
 ---@class ScavengeTarget: AIbehaviortaskScript
 ScavengeTarget = {}
 
----@param fields? table
+---@param fields? ScavengeTarget
 ---@return ScavengeTarget
 function ScavengeTarget.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIUnmountCommand: AIBaseMountCommand
 AIUnmountCommand = {}
 
----@param fields? table
+---@param fields? AIUnmountCommand
 ---@return AIUnmountCommand
 function AIUnmountCommand.new(fields) return end

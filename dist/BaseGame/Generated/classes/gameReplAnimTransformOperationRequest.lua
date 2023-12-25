@@ -6,6 +6,6 @@
 ---@field public operationType Uint8
 gameReplAnimTransformOperationRequest = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformOperationRequest
 ---@return gameReplAnimTransformOperationRequest
 function gameReplAnimTransformOperationRequest.new(fields) return end

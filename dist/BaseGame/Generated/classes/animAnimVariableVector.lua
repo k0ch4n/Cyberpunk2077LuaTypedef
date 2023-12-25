@@ -11,6 +11,6 @@
 ---@field public max Vector4
 animAnimVariableVector = {}
 
----@param fields? table
+---@param fields? animAnimVariableVector
 ---@return animAnimVariableVector
 function animAnimVariableVector.new(fields) return end

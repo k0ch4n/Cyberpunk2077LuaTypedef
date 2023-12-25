@@ -4,7 +4,7 @@
 ---@class DischargeDecisions: WeaponTransition
 DischargeDecisions = {}
 
----@param fields? table
+---@param fields? DischargeDecisions
 ---@return DischargeDecisions
 function DischargeDecisions.new(fields) return end
 

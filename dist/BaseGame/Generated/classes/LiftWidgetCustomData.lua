@@ -5,7 +5,7 @@
 ---@field private movementState gamePlatformMovementState
 LiftWidgetCustomData = {}
 
----@param fields? table
+---@param fields? LiftWidgetCustomData
 ---@return LiftWidgetCustomData
 function LiftWidgetCustomData.new(fields) return end
 

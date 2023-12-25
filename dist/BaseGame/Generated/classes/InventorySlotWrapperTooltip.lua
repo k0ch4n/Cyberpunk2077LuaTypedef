@@ -5,7 +5,7 @@
 ---@field protected itemDisplayController InventoryItemDisplayController
 InventorySlotWrapperTooltip = {}
 
----@param fields? table
+---@param fields? InventorySlotWrapperTooltip
 ---@return InventorySlotWrapperTooltip
 function InventorySlotWrapperTooltip.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class UseCorruptedSandevistanAction: UseAction
 UseCorruptedSandevistanAction = {}
 
----@param fields? table
+---@param fields? UseCorruptedSandevistanAction
 ---@return UseCorruptedSandevistanAction
 function UseCorruptedSandevistanAction.new(fields) return end
 

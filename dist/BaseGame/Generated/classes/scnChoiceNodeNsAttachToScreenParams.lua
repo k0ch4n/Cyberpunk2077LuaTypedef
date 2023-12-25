@@ -4,6 +4,6 @@
 ---@class scnChoiceNodeNsAttachToScreenParams
 scnChoiceNodeNsAttachToScreenParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsAttachToScreenParams
 ---@return scnChoiceNodeNsAttachToScreenParams
 function scnChoiceNodeNsAttachToScreenParams.new(fields) return end

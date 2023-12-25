@@ -27,7 +27,7 @@
 ---@field private inCombat Bool
 NPCStatesComponent = {}
 
----@param fields? table
+---@param fields? NPCStatesComponent
 ---@return NPCStatesComponent
 function NPCStatesComponent.new(fields) return end
 

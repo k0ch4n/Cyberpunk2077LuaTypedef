@@ -4,6 +4,6 @@
 ---@class DisableRagdollComponentEvent: redEvent
 DisableRagdollComponentEvent = {}
 
----@param fields? table
+---@param fields? DisableRagdollComponentEvent
 ---@return DisableRagdollComponentEvent
 function DisableRagdollComponentEvent.new(fields) return end

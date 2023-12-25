@@ -6,6 +6,6 @@
 ---@field public enterTime Float
 gameCursorInterpolationOverrides = {}
 
----@param fields? table
+---@param fields? gameCursorInterpolationOverrides
 ---@return gameCursorInterpolationOverrides
 function gameCursorInterpolationOverrides.new(fields) return end

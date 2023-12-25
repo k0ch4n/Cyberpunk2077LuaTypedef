@@ -7,7 +7,7 @@
 ---@field public previousWeapon gameweaponObject
 SameTargetHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? SameTargetHitPrereqCondition
 ---@return SameTargetHitPrereqCondition
 function SameTargetHitPrereqCondition.new(fields) return end
 

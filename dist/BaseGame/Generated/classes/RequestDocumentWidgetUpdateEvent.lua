@@ -6,6 +6,6 @@
 ---@field public documentAdress SDocumentAdress
 RequestDocumentWidgetUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestDocumentWidgetUpdateEvent
 ---@return RequestDocumentWidgetUpdateEvent
 function RequestDocumentWidgetUpdateEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public appearanceName CName
 entTemplateAppearance = {}
 
----@param fields? table
+---@param fields? entTemplateAppearance
 ---@return entTemplateAppearance
 function entTemplateAppearance.new(fields) return end

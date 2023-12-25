@@ -6,6 +6,6 @@
 ---@field public lastAppliedActionsTime netTime
 gameReplicatedAnimControllerEventsState = {}
 
----@param fields? table
+---@param fields? gameReplicatedAnimControllerEventsState
 ---@return gameReplicatedAnimControllerEventsState
 function gameReplicatedAnimControllerEventsState.new(fields) return end

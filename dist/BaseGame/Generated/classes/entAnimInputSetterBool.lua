@@ -5,6 +5,6 @@
 ---@field public value Bool
 entAnimInputSetterBool = {}
 
----@param fields? table
+---@param fields? entAnimInputSetterBool
 ---@return entAnimInputSetterBool
 function entAnimInputSetterBool.new(fields) return end

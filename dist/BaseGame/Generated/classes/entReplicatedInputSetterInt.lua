@@ -5,6 +5,6 @@
 ---@field public value Int32
 entReplicatedInputSetterInt = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetterInt
 ---@return entReplicatedInputSetterInt
 function entReplicatedInputSetterInt.new(fields) return end

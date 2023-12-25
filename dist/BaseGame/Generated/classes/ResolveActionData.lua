@@ -5,6 +5,6 @@
 ---@field public password String
 ResolveActionData = {}
 
----@param fields? table
+---@param fields? ResolveActionData
 ---@return ResolveActionData
 function ResolveActionData.new(fields) return end

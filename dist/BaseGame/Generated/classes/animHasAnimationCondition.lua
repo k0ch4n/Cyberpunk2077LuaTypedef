@@ -5,6 +5,6 @@
 ---@field public animationName CName
 animHasAnimationCondition = {}
 
----@param fields? table
+---@param fields? animHasAnimationCondition
 ---@return animHasAnimationCondition
 function animHasAnimationCondition.new(fields) return end

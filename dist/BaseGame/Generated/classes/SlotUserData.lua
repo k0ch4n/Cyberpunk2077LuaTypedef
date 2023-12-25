@@ -14,6 +14,6 @@
 ---@field public upgradeItemQuality gamedataQuality
 SlotUserData = {}
 
----@param fields? table
+---@param fields? SlotUserData
 ---@return SlotUserData
 function SlotUserData.new(fields) return end

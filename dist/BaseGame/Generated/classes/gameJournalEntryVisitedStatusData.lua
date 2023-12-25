@@ -7,6 +7,6 @@
 ---@field public isVisited Bool
 gameJournalEntryVisitedStatusData = {}
 
----@param fields? table
+---@param fields? gameJournalEntryVisitedStatusData
 ---@return gameJournalEntryVisitedStatusData
 function gameJournalEntryVisitedStatusData.new(fields) return end

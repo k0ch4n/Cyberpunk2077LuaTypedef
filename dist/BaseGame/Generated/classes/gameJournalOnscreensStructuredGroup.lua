@@ -4,7 +4,7 @@
 ---@class gameJournalOnscreensStructuredGroup: IScriptable
 gameJournalOnscreensStructuredGroup = {}
 
----@param fields? table
+---@param fields? gameJournalOnscreensStructuredGroup
 ---@return gameJournalOnscreensStructuredGroup
 function gameJournalOnscreensStructuredGroup.new(fields) return end
 

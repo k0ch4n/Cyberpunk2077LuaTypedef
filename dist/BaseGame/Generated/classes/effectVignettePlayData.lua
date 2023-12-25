@@ -4,6 +4,6 @@
 ---@class effectVignettePlayData: effectPlacedTrackItemPlayData
 effectVignettePlayData = {}
 
----@param fields? table
+---@param fields? effectVignettePlayData
 ---@return effectVignettePlayData
 function effectVignettePlayData.new(fields) return end

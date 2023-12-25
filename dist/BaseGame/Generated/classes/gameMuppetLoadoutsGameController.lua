@@ -4,6 +4,6 @@
 ---@class gameMuppetLoadoutsGameController: gameuiHUDGameController
 gameMuppetLoadoutsGameController = {}
 
----@param fields? table
+---@param fields? gameMuppetLoadoutsGameController
 ---@return gameMuppetLoadoutsGameController
 function gameMuppetLoadoutsGameController.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamegpsGPSSystem: gamegpsIGPSSystem
 gamegpsGPSSystem = {}
 
----@param fields? table
+---@param fields? gamegpsGPSSystem
 ---@return gamegpsGPSSystem
 function gamegpsGPSSystem.new(fields) return end

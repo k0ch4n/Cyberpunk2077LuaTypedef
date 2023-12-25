@@ -4,7 +4,7 @@
 ---@class gameInventoryManager: gameIInventoryManager
 gameInventoryManager = {}
 
----@param fields? table
+---@param fields? gameInventoryManager
 ---@return gameInventoryManager
 function gameInventoryManager.new(fields) return end
 

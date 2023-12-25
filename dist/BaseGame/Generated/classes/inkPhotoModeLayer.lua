@@ -4,6 +4,6 @@
 ---@class inkPhotoModeLayer: inkFullScreenLayer
 inkPhotoModeLayer = {}
 
----@param fields? table
+---@param fields? inkPhotoModeLayer
 ---@return inkPhotoModeLayer
 function inkPhotoModeLayer.new(fields) return end

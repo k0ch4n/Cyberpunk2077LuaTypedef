@@ -6,6 +6,6 @@
 ---@field public pricePerItem Int32
 SItemTransaction = {}
 
----@param fields? table
+---@param fields? SItemTransaction
 ---@return SItemTransaction
 function SItemTransaction.new(fields) return end

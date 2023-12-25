@@ -4,7 +4,7 @@
 ---@class BlindManagerTask: StatusEffectTasks
 BlindManagerTask = {}
 
----@param fields? table
+---@param fields? BlindManagerTask
 ---@return BlindManagerTask
 function BlindManagerTask.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public craftingMaterial CachedCraftingMaterial
 BackpackCraftingMaterialItemCallbackData = {}
 
----@param fields? table
+---@param fields? BackpackCraftingMaterialItemCallbackData
 ---@return BackpackCraftingMaterialItemCallbackData
 function BackpackCraftingMaterialItemCallbackData.new(fields) return end

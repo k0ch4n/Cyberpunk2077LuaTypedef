@@ -4,6 +4,6 @@
 ---@class TargetLockedEvent: redEvent
 TargetLockedEvent = {}
 
----@param fields? table
+---@param fields? TargetLockedEvent
 ---@return TargetLockedEvent
 function TargetLockedEvent.new(fields) return end

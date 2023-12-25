@@ -4,6 +4,6 @@
 ---@class inkanimTextOffsetInterpolator: inkanimTextInterpolator
 inkanimTextOffsetInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimTextOffsetInterpolator
 ---@return inkanimTextOffsetInterpolator
 function inkanimTextOffsetInterpolator.new(fields) return end

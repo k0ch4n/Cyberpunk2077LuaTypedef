@@ -13,6 +13,6 @@
 ---@field public playbackSpeedParameter Float
 audioDialogLineEventData = {}
 
----@param fields? table
+---@param fields? audioDialogLineEventData
 ---@return audioDialogLineEventData
 function audioDialogLineEventData.new(fields) return end

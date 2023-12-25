@@ -15,7 +15,7 @@
 ---@field private onDirectionChangedListener redCallbackObject
 NumericDispalyUIController = {}
 
----@param fields? table
+---@param fields? NumericDispalyUIController
 ---@return NumericDispalyUIController
 function NumericDispalyUIController.new(fields) return end
 

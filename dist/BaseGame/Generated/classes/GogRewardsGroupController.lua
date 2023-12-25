@@ -6,7 +6,7 @@
 ---@field private containerWidget inkWidgetReference
 GogRewardsGroupController = {}
 
----@param fields? table
+---@param fields? GogRewardsGroupController
 ---@return GogRewardsGroupController
 function GogRewardsGroupController.new(fields) return end
 

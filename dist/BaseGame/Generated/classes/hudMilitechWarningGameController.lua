@@ -7,7 +7,7 @@
 ---@field private factListenerId Uint32
 hudMilitechWarningGameController = {}
 
----@param fields? table
+---@param fields? hudMilitechWarningGameController
 ---@return hudMilitechWarningGameController
 function hudMilitechWarningGameController.new(fields) return end
 

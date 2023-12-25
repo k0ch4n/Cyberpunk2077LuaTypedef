@@ -4,7 +4,7 @@
 ---@class EscalateProvoke: AIbehaviorconditionScript
 EscalateProvoke = {}
 
----@param fields? table
+---@param fields? EscalateProvoke
 ---@return EscalateProvoke
 function EscalateProvoke.new(fields) return end
 

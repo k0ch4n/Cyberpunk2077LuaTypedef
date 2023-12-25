@@ -7,7 +7,7 @@
 ---@field private weakspots gameWeakspotObject[]
 RoyceHealthChangeListener = {}
 
----@param fields? table
+---@param fields? RoyceHealthChangeListener
 ---@return RoyceHealthChangeListener
 function RoyceHealthChangeListener.new(fields) return end
 

@@ -16,6 +16,6 @@
 ---@field public isBriefingActive PlayerVisionModeControllerRefreshPolicyEnum
 PlayerVisionModeControllerRefreshPolicy = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerRefreshPolicy
 ---@return PlayerVisionModeControllerRefreshPolicy
 function PlayerVisionModeControllerRefreshPolicy.new(fields) return end

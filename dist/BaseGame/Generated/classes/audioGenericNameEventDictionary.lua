@@ -6,6 +6,6 @@
 ---@field public entryType audioGenericNameEventItem
 audioGenericNameEventDictionary = {}
 
----@param fields? table
+---@param fields? audioGenericNameEventDictionary
 ---@return audioGenericNameEventDictionary
 function audioGenericNameEventDictionary.new(fields) return end

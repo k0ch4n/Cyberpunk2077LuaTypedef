@@ -4,7 +4,7 @@
 ---@class textTextParameterSet: IScriptable
 textTextParameterSet = {}
 
----@param fields? table
+---@param fields? textTextParameterSet
 ---@return textTextParameterSet
 function textTextParameterSet.new(fields) return end
 

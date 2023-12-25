@@ -6,7 +6,7 @@
 ---@field private spawnNormal Vector4
 MineDispenserPlaceEvents = {}
 
----@param fields? table
+---@param fields? MineDispenserPlaceEvents
 ---@return MineDispenserPlaceEvents
 function MineDispenserPlaceEvents.new(fields) return end
 

@@ -11,7 +11,7 @@
 ---@field private buttonHintsController ButtonHints
 gameuiStadiaControllersGameController = {}
 
----@param fields? table
+---@param fields? gameuiStadiaControllersGameController
 ---@return gameuiStadiaControllersGameController
 function gameuiStadiaControllersGameController.new(fields) return end
 

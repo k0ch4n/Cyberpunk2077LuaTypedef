@@ -13,6 +13,6 @@
 ---@field public isBriefingActive redCallbackObject
 PlayerVisionModeControllerBBListeners = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerBBListeners
 ---@return PlayerVisionModeControllerBBListeners
 function PlayerVisionModeControllerBBListeners.new(fields) return end

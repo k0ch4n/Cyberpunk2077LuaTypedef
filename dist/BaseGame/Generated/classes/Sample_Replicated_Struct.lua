@@ -8,6 +8,6 @@
 ---@field public d_not_replicated_still_OK Bool
 Sample_Replicated_Struct = {}
 
----@param fields? table
+---@param fields? Sample_Replicated_Struct
 ---@return Sample_Replicated_Struct
 function Sample_Replicated_Struct.new(fields) return end

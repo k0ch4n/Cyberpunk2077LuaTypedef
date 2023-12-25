@@ -12,6 +12,6 @@
 ---@field public frontRight audioVehicleDestructionGridCell
 audioVehicleDestructionGridLayer = {}
 
----@param fields? table
+---@param fields? audioVehicleDestructionGridLayer
 ---@return audioVehicleDestructionGridLayer
 function audioVehicleDestructionGridLayer.new(fields) return end

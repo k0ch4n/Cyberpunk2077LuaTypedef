@@ -4,7 +4,7 @@
 ---@class PachinkoMachineController: ArcadeMachineController
 PachinkoMachineController = {}
 
----@param fields? table
+---@param fields? PachinkoMachineController
 ---@return PachinkoMachineController
 function PachinkoMachineController.new(fields) return end
 

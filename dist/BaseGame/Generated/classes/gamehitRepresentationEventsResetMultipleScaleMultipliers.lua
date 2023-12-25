@@ -5,6 +5,6 @@
 ---@field public shapeNames CName[]
 gamehitRepresentationEventsResetMultipleScaleMultipliers = {}
 
----@param fields? table
+---@param fields? gamehitRepresentationEventsResetMultipleScaleMultipliers
 ---@return gamehitRepresentationEventsResetMultipleScaleMultipliers
 function gamehitRepresentationEventsResetMultipleScaleMultipliers.new(fields) return end

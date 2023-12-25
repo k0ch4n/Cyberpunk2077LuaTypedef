@@ -22,6 +22,6 @@
 ---@field public inplaceCompressedBuffer DataBuffer
 animAnimationBufferCompressed = {}
 
----@param fields? table
+---@param fields? animAnimationBufferCompressed
 ---@return animAnimationBufferCompressed
 function animAnimationBufferCompressed.new(fields) return end

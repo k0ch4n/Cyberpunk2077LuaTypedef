@@ -5,6 +5,6 @@
 ---@field public footPhase animEFootPhase
 entFootPhaseChangedEvent = {}
 
----@param fields? table
+---@param fields? entFootPhaseChangedEvent
 ---@return entFootPhaseChangedEvent
 function entFootPhaseChangedEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questShowHighlight_NodeSubType = {}
 
----@param fields? table
+---@param fields? questShowHighlight_NodeSubType
 ---@return questShowHighlight_NodeSubType
 function questShowHighlight_NodeSubType.new(fields) return end

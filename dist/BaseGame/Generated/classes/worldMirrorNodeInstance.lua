@@ -4,6 +4,6 @@
 ---@class worldMirrorNodeInstance: worldMeshNodeInstance
 worldMirrorNodeInstance = {}
 
----@param fields? table
+---@param fields? worldMirrorNodeInstance
 ---@return worldMirrorNodeInstance
 function worldMirrorNodeInstance.new(fields) return end

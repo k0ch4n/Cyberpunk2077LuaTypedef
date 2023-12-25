@@ -7,7 +7,7 @@
 ---@field public owner gameObject
 PlayBreathingAnimationEffector = {}
 
----@param fields? table
+---@param fields? PlayBreathingAnimationEffector
 ---@return PlayBreathingAnimationEffector
 function PlayBreathingAnimationEffector.new(fields) return end
 

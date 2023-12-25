@@ -6,6 +6,6 @@
 ---@field public height Float
 physicsColliderCapsule = {}
 
----@param fields? table
+---@param fields? physicsColliderCapsule
 ---@return physicsColliderCapsule
 function physicsColliderCapsule.new(fields) return end

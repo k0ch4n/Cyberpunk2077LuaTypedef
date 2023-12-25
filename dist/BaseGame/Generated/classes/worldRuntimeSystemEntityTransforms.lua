@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemEntityTransforms: worldIRuntimeSystem
 worldRuntimeSystemEntityTransforms = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemEntityTransforms
 ---@return worldRuntimeSystemEntityTransforms
 function worldRuntimeSystemEntityTransforms.new(fields) return end

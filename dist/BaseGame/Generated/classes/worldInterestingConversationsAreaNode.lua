@@ -9,6 +9,6 @@
 ---@field public savingStrategy audioConversationSavingStrategy
 worldInterestingConversationsAreaNode = {}
 
----@param fields? table
+---@param fields? worldInterestingConversationsAreaNode
 ---@return worldInterestingConversationsAreaNode
 function worldInterestingConversationsAreaNode.new(fields) return end

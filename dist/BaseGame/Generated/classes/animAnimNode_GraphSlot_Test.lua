@@ -6,6 +6,6 @@
 ---@field public copyAnimInputsAtAttachTime Bool
 animAnimNode_GraphSlot_Test = {}
 
----@param fields? table
+---@param fields? animAnimNode_GraphSlot_Test
 ---@return animAnimNode_GraphSlot_Test
 function animAnimNode_GraphSlot_Test.new(fields) return end

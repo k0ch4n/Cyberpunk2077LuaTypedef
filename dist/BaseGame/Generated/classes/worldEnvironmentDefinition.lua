@@ -12,6 +12,6 @@
 ---@field public resourceVersion Uint8
 worldEnvironmentDefinition = {}
 
----@param fields? table
+---@param fields? worldEnvironmentDefinition
 ---@return worldEnvironmentDefinition
 function worldEnvironmentDefinition.new(fields) return end

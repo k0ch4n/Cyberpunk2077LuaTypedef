@@ -5,7 +5,7 @@
 ---@field public hitType gameuiHitType
 SetAttackHitTypeEffector = {}
 
----@param fields? table
+---@param fields? SetAttackHitTypeEffector
 ---@return SetAttackHitTypeEffector
 function SetAttackHitTypeEffector.new(fields) return end
 

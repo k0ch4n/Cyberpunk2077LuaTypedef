@@ -8,7 +8,7 @@
 ---@field private messageRecordSelector ScreenMessageSelector
 LcdScreenControllerPS = {}
 
----@param fields? table
+---@param fields? LcdScreenControllerPS
 ---@return LcdScreenControllerPS
 function LcdScreenControllerPS.new(fields) return end
 

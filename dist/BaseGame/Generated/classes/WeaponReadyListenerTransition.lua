@@ -26,7 +26,7 @@
 ---@field protected weaponReadyListenerReturnValue Bool
 WeaponReadyListenerTransition = {}
 
----@param fields? table
+---@param fields? WeaponReadyListenerTransition
 ---@return WeaponReadyListenerTransition
 function WeaponReadyListenerTransition.new(fields) return end
 

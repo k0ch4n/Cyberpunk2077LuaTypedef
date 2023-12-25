@@ -4,7 +4,7 @@
 ---@class gameStatsBundleHandler: IScriptable
 gameStatsBundleHandler = {}
 
----@param fields? table
+---@param fields? gameStatsBundleHandler
 ---@return gameStatsBundleHandler
 function gameStatsBundleHandler.new(fields) return end
 

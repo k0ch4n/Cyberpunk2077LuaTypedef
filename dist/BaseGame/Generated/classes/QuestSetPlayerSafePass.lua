@@ -4,7 +4,7 @@
 ---@class QuestSetPlayerSafePass: ActionBool
 QuestSetPlayerSafePass = {}
 
----@param fields? table
+---@param fields? QuestSetPlayerSafePass
 ---@return QuestSetPlayerSafePass
 function QuestSetPlayerSafePass.new(fields) return end
 

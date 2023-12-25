@@ -6,7 +6,7 @@
 ---@field public listener redCallbackObject
 PlayerCombatStateTimePrereqState = {}
 
----@param fields? table
+---@param fields? PlayerCombatStateTimePrereqState
 ---@return PlayerCombatStateTimePrereqState
 function PlayerCombatStateTimePrereqState.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public maxWanderDistance AIArgumentMapping
 AISpiderbotFindBoredMovePosition = {}
 
----@param fields? table
+---@param fields? AISpiderbotFindBoredMovePosition
 ---@return AISpiderbotFindBoredMovePosition
 function AISpiderbotFindBoredMovePosition.new(fields) return end
 

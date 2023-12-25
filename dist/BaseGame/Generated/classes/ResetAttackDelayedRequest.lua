@@ -4,6 +4,6 @@
 ---@class ResetAttackDelayedRequest: gameScriptableSystemRequest
 ResetAttackDelayedRequest = {}
 
----@param fields? table
+---@param fields? ResetAttackDelayedRequest
 ---@return ResetAttackDelayedRequest
 function ResetAttackDelayedRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class ExitWorkspotSequenceEvent: redEvent
 ExitWorkspotSequenceEvent = {}
 
----@param fields? table
+---@param fields? ExitWorkspotSequenceEvent
 ---@return ExitWorkspotSequenceEvent
 function ExitWorkspotSequenceEvent.new(fields) return end

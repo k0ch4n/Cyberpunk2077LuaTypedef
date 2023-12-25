@@ -10,6 +10,6 @@
 ---@field public forcedStartSpeed AIArgumentMapping
 AIbehaviorDrivePatrolTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDrivePatrolTreeNodeDefinition
 ---@return AIbehaviorDrivePatrolTreeNodeDefinition
 function AIbehaviorDrivePatrolTreeNodeDefinition.new(fields) return end

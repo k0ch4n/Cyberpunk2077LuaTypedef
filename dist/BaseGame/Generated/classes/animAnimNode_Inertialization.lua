@@ -8,6 +8,6 @@
 ---@field public rotationLimits animInertializationRotationLimit[]
 animAnimNode_Inertialization = {}
 
----@param fields? table
+---@param fields? animAnimNode_Inertialization
 ---@return animAnimNode_Inertialization
 function animAnimNode_Inertialization.new(fields) return end

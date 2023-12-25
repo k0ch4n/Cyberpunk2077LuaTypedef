@@ -5,7 +5,7 @@
 ---@field private enteredAfterSprintWithNoInput Bool
 StandEvents = {}
 
----@param fields? table
+---@param fields? StandEvents
 ---@return StandEvents
 function StandEvents.new(fields) return end
 

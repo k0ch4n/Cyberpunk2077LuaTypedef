@@ -81,7 +81,7 @@
 ---@field private statusEffectTextureName String
 gameuiStealthMappinController = {}
 
----@param fields? table
+---@param fields? gameuiStealthMappinController
 ---@return gameuiStealthMappinController
 function gameuiStealthMappinController.new(fields) return end
 

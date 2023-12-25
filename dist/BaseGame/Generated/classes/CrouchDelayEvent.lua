@@ -4,6 +4,6 @@
 ---@class CrouchDelayEvent: redEvent
 CrouchDelayEvent = {}
 
----@param fields? table
+---@param fields? CrouchDelayEvent
 ---@return CrouchDelayEvent
 function CrouchDelayEvent.new(fields) return end

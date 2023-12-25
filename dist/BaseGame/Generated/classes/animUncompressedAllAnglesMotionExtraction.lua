@@ -6,6 +6,6 @@
 ---@field public frames Transform[]
 animUncompressedAllAnglesMotionExtraction = {}
 
----@param fields? table
+---@param fields? animUncompressedAllAnglesMotionExtraction
 ---@return animUncompressedAllAnglesMotionExtraction
 function animUncompressedAllAnglesMotionExtraction.new(fields) return end

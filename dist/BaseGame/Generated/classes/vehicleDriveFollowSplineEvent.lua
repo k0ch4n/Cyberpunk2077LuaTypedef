@@ -7,6 +7,6 @@
 ---@field public reverseSpline Bool
 vehicleDriveFollowSplineEvent = {}
 
----@param fields? table
+---@param fields? vehicleDriveFollowSplineEvent
 ---@return vehicleDriveFollowSplineEvent
 function vehicleDriveFollowSplineEvent.new(fields) return end

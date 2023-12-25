@@ -4,7 +4,7 @@
 ---@class EncumbranceEvaluationEffector: gameEffector
 EncumbranceEvaluationEffector = {}
 
----@param fields? table
+---@param fields? EncumbranceEvaluationEffector
 ---@return EncumbranceEvaluationEffector
 function EncumbranceEvaluationEffector.new(fields) return end
 

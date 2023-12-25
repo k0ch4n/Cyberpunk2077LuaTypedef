@@ -8,6 +8,6 @@
 ---@field public resolutionFilmGrainStrength curveData
 RenderSettingFactors = {}
 
----@param fields? table
+---@param fields? RenderSettingFactors
 ---@return RenderSettingFactors
 function RenderSettingFactors.new(fields) return end

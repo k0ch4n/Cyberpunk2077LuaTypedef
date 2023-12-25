@@ -22,6 +22,6 @@
 ---@field public THandle Sample_Replicated_Serializable
 Sample_All_Supported_Replicated_Types = {}
 
----@param fields? table
+---@param fields? Sample_All_Supported_Replicated_Types
 ---@return Sample_All_Supported_Replicated_Types
 function Sample_All_Supported_Replicated_Types.new(fields) return end

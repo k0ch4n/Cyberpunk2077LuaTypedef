@@ -4,7 +4,7 @@
 ---@class gamedataNetworkPingingParameteres_Record: gamedataTweakDBRecord
 gamedataNetworkPingingParameteres_Record = {}
 
----@param fields? table
+---@param fields? gamedataNetworkPingingParameteres_Record
 ---@return gamedataNetworkPingingParameteres_Record
 function gamedataNetworkPingingParameteres_Record.new(fields) return end
 

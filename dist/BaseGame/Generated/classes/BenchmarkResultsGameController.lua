@@ -14,7 +14,7 @@
 ---@field private settingsAcive Bool
 BenchmarkResultsGameController = {}
 
----@param fields? table
+---@param fields? BenchmarkResultsGameController
 ---@return BenchmarkResultsGameController
 function BenchmarkResultsGameController.new(fields) return end
 

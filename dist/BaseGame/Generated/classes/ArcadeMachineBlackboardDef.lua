@@ -4,6 +4,6 @@
 ---@class ArcadeMachineBlackboardDef: DeviceBaseBlackboardDef
 ArcadeMachineBlackboardDef = {}
 
----@param fields? table
+---@param fields? ArcadeMachineBlackboardDef
 ---@return ArcadeMachineBlackboardDef
 function ArcadeMachineBlackboardDef.new(fields) return end

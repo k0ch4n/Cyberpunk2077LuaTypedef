@@ -8,7 +8,7 @@
 ---@field private c_DisplayRangeNotAggressive Float
 SNameplateRangesData = {}
 
----@param fields? table
+---@param fields? SNameplateRangesData
 ---@return SNameplateRangesData
 function SNameplateRangesData.new(fields) return end
 

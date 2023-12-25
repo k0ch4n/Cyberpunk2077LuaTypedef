@@ -10,6 +10,6 @@
 ---@field public gruntInterruptMode audioVoGruntInterruptMode
 audioVoiceContextMapItem = {}
 
----@param fields? table
+---@param fields? audioVoiceContextMapItem
 ---@return audioVoiceContextMapItem
 function audioVoiceContextMapItem.new(fields) return end

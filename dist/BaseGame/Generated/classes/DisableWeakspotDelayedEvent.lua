@@ -4,6 +4,6 @@
 ---@class DisableWeakspotDelayedEvent: DelayEvent
 DisableWeakspotDelayedEvent = {}
 
----@param fields? table
+---@param fields? DisableWeakspotDelayedEvent
 ---@return DisableWeakspotDelayedEvent
 function DisableWeakspotDelayedEvent.new(fields) return end

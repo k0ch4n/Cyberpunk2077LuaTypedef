@@ -11,7 +11,7 @@
 ---@field public tickProxy inkanimProxy
 Codeware_UI_TextInput_TextFlow = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput_TextFlow
 ---@return Codeware_UI_TextInput_TextFlow
 function Codeware_UI_TextInput_TextFlow.new(fields) return end
 

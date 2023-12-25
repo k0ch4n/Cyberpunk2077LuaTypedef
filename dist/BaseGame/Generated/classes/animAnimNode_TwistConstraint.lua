@@ -9,6 +9,6 @@
 ---@field public debug Bool
 animAnimNode_TwistConstraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_TwistConstraint
 ---@return animAnimNode_TwistConstraint
 function animAnimNode_TwistConstraint.new(fields) return end

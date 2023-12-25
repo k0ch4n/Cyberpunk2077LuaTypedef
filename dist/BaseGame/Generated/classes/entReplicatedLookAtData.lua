@@ -5,6 +5,6 @@
 ---@field public creationNetTime netTime
 entReplicatedLookAtData = {}
 
----@param fields? table
+---@param fields? entReplicatedLookAtData
 ---@return entReplicatedLookAtData
 function entReplicatedLookAtData.new(fields) return end

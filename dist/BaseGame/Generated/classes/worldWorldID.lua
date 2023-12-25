@@ -4,6 +4,6 @@
 ---@class worldWorldID
 worldWorldID = {}
 
----@param fields? table
+---@param fields? worldWorldID
 ---@return worldWorldID
 function worldWorldID.new(fields) return end

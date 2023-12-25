@@ -5,6 +5,6 @@
 ---@field public components entIComponent[]
 entComponentsStorage = {}
 
----@param fields? table
+---@param fields? entComponentsStorage
 ---@return entComponentsStorage
 function entComponentsStorage.new(fields) return end

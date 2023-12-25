@@ -7,6 +7,6 @@
 ---@field public applyServerTime netTime
 entReplicatedVariableValue = {}
 
----@param fields? table
+---@param fields? entReplicatedVariableValue
 ---@return entReplicatedVariableValue
 function entReplicatedVariableValue.new(fields) return end

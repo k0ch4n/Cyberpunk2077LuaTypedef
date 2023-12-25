@@ -6,6 +6,6 @@
 ---@field public hash Uint64
 UIInventoryItemRemoved = {}
 
----@param fields? table
+---@param fields? UIInventoryItemRemoved
 ---@return UIInventoryItemRemoved
 function UIInventoryItemRemoved.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public factName CName
 scneventsClueEvent = {}
 
----@param fields? table
+---@param fields? scneventsClueEvent
 ---@return scneventsClueEvent
 function scneventsClueEvent.new(fields) return end

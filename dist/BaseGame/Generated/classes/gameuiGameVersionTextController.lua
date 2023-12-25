@@ -7,6 +7,6 @@
 ---@field public fluffWrapper inkCompoundWidgetReference
 gameuiGameVersionTextController = {}
 
----@param fields? table
+---@param fields? gameuiGameVersionTextController
 ---@return gameuiGameVersionTextController
 function gameuiGameVersionTextController.new(fields) return end

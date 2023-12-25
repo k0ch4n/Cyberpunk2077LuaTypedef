@@ -4,6 +4,6 @@
 ---@class VehicleDriverCombatMountedWeaponsContextEvents: VehicleDriverCombatContextEvents
 VehicleDriverCombatMountedWeaponsContextEvents = {}
 
----@param fields? table
+---@param fields? VehicleDriverCombatMountedWeaponsContextEvents
 ---@return VehicleDriverCombatMountedWeaponsContextEvents
 function VehicleDriverCombatMountedWeaponsContextEvents.new(fields) return end

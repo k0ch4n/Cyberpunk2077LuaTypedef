@@ -9,6 +9,6 @@
 ---@field public abilities gameInventoryItemAbility[]
 MinimalItemTooltipModAttachmentData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipModAttachmentData
 ---@return MinimalItemTooltipModAttachmentData
 function MinimalItemTooltipModAttachmentData.new(fields) return end

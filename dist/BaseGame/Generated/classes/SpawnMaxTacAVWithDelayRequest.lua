@@ -4,6 +4,6 @@
 ---@class SpawnMaxTacAVWithDelayRequest: gameScriptableSystemRequest
 SpawnMaxTacAVWithDelayRequest = {}
 
----@param fields? table
+---@param fields? SpawnMaxTacAVWithDelayRequest
 ---@return SpawnMaxTacAVWithDelayRequest
 function SpawnMaxTacAVWithDelayRequest.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAISlotCond_Record: gamedataAIItemCond_Record
 gamedataAISlotCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISlotCond_Record
 ---@return gamedataAISlotCond_Record
 function gamedataAISlotCond_Record.new(fields) return end
 

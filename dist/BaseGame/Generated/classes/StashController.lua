@@ -4,7 +4,7 @@
 ---@class StashController: ScriptableDeviceComponent
 StashController = {}
 
----@param fields? table
+---@param fields? StashController
 ---@return StashController
 function StashController.new(fields) return end
 

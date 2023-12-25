@@ -11,7 +11,7 @@
 ---@field private rootWidget inkWidget
 gameuiWorldMapDistrictLogicController = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapDistrictLogicController
 ---@return gameuiWorldMapDistrictLogicController
 function gameuiWorldMapDistrictLogicController.new(fields) return end
 

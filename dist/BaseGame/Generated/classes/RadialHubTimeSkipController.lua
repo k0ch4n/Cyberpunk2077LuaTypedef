@@ -13,7 +13,7 @@
 ---@field private canSkipTime Bool
 RadialHubTimeSkipController = {}
 
----@param fields? table
+---@param fields? RadialHubTimeSkipController
 ---@return RadialHubTimeSkipController
 function RadialHubTimeSkipController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public associatedPingType gamedataPingType
 gamePingComponent = {}
 
----@param fields? table
+---@param fields? gamePingComponent
 ---@return gamePingComponent
 function gamePingComponent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value Bool
 AIBoolArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AIBoolArgumentInstancePS
 ---@return AIBoolArgumentInstancePS
 function AIBoolArgumentInstancePS.new(fields) return end

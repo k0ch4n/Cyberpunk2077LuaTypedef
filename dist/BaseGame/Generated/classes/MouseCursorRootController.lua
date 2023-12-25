@@ -4,7 +4,7 @@
 ---@class MouseCursorRootController: CursorRootController
 MouseCursorRootController = {}
 
----@param fields? table
+---@param fields? MouseCursorRootController
 ---@return MouseCursorRootController
 function MouseCursorRootController.new(fields) return end
 

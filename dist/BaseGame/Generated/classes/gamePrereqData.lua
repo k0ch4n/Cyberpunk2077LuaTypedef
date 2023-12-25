@@ -6,6 +6,6 @@
 ---@field public prereqList gamePrereqCheckData[]
 gamePrereqData = {}
 
----@param fields? table
+---@param fields? gamePrereqData
 ---@return gamePrereqData
 function gamePrereqData.new(fields) return end

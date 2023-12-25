@@ -4,7 +4,7 @@
 ---@class IsWorkspotReaction: AIbehaviorconditionScript
 IsWorkspotReaction = {}
 
----@param fields? table
+---@param fields? IsWorkspotReaction
 ---@return IsWorkspotReaction
 function IsWorkspotReaction.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public hasPlayedFirstEquip Bool
 EFirstEquipData = {}
 
----@param fields? table
+---@param fields? EFirstEquipData
 ---@return EFirstEquipData
 function EFirstEquipData.new(fields) return end

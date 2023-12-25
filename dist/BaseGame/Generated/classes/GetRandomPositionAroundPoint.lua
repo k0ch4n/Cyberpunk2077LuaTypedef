@@ -11,7 +11,7 @@
 ---@field protected finalPosition Vector4
 GetRandomPositionAroundPoint = {}
 
----@param fields? table
+---@param fields? GetRandomPositionAroundPoint
 ---@return GetRandomPositionAroundPoint
 function GetRandomPositionAroundPoint.new(fields) return end
 

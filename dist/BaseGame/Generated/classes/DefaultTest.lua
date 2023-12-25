@@ -4,7 +4,7 @@
 ---@class DefaultTest: gamestateMachineFunctor
 DefaultTest = {}
 
----@param fields? table
+---@param fields? DefaultTest
 ---@return DefaultTest
 function DefaultTest.new(fields) return end
 

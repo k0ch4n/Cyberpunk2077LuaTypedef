@@ -6,6 +6,6 @@
 ---@field public skipToEnd Bool
 STransformAnimationSkipEventData = {}
 
----@param fields? table
+---@param fields? STransformAnimationSkipEventData
 ---@return STransformAnimationSkipEventData
 function STransformAnimationSkipEventData.new(fields) return end

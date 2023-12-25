@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questCyberdrill_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questCyberdrill_NodeTypeParams
 ---@return questCyberdrill_NodeTypeParams
 function questCyberdrill_NodeTypeParams.new(fields) return end

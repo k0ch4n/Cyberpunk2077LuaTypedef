@@ -9,6 +9,6 @@
 ---@field public isBuyback Bool
 QuantityPickerPopupCloseData = {}
 
----@param fields? table
+---@param fields? QuantityPickerPopupCloseData
 ---@return QuantityPickerPopupCloseData
 function QuantityPickerPopupCloseData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class entDetachGraphFromSlotEvent: redEvent
 entDetachGraphFromSlotEvent = {}
 
----@param fields? table
+---@param fields? entDetachGraphFromSlotEvent
 ---@return entDetachGraphFromSlotEvent
 function entDetachGraphFromSlotEvent.new(fields) return end

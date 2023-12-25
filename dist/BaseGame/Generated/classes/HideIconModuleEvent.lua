@@ -4,6 +4,6 @@
 ---@class HideIconModuleEvent: redEvent
 HideIconModuleEvent = {}
 
----@param fields? table
+---@param fields? HideIconModuleEvent
 ---@return HideIconModuleEvent
 function HideIconModuleEvent.new(fields) return end

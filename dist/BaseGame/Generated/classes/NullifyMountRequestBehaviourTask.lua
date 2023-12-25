@@ -4,7 +4,7 @@
 ---@class NullifyMountRequestBehaviourTask: AIVehicleTaskAbstract
 NullifyMountRequestBehaviourTask = {}
 
----@param fields? table
+---@param fields? NullifyMountRequestBehaviourTask
 ---@return NullifyMountRequestBehaviourTask
 function NullifyMountRequestBehaviourTask.new(fields) return end
 

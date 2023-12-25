@@ -4,7 +4,7 @@
 ---@class ForceDropBodyEvents: CarriedObjectEvents
 ForceDropBodyEvents = {}
 
----@param fields? table
+---@param fields? ForceDropBodyEvents
 ---@return ForceDropBodyEvents
 function ForceDropBodyEvents.new(fields) return end
 

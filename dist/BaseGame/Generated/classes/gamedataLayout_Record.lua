@@ -4,7 +4,7 @@
 ---@class gamedataLayout_Record: gamedataTweakDBRecord
 gamedataLayout_Record = {}
 
----@param fields? table
+---@param fields? gamedataLayout_Record
 ---@return gamedataLayout_Record
 function gamedataLayout_Record.new(fields) return end
 

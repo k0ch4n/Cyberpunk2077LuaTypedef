@@ -6,6 +6,6 @@
 ---@field public lastAppliedActionsTime netTime
 moveReplicatedMovePoliciesState = {}
 
----@param fields? table
+---@param fields? moveReplicatedMovePoliciesState
 ---@return moveReplicatedMovePoliciesState
 function moveReplicatedMovePoliciesState.new(fields) return end

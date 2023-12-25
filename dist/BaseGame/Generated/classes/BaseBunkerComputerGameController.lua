@@ -6,7 +6,7 @@
 ---@field public gateClosedFact CName
 BaseBunkerComputerGameController = {}
 
----@param fields? table
+---@param fields? BaseBunkerComputerGameController
 ---@return BaseBunkerComputerGameController
 function BaseBunkerComputerGameController.new(fields) return end
 

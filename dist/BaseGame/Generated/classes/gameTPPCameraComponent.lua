@@ -4,6 +4,6 @@
 ---@class gameTPPCameraComponent: gameCameraComponent
 gameTPPCameraComponent = {}
 
----@param fields? table
+---@param fields? gameTPPCameraComponent
 ---@return gameTPPCameraComponent
 function gameTPPCameraComponent.new(fields) return end

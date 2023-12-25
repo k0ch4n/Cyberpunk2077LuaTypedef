@@ -7,7 +7,7 @@
 ---@field public action CName
 gameinteractionsLootChoiceActionWrapper = {}
 
----@param fields? table
+---@param fields? gameinteractionsLootChoiceActionWrapper
 ---@return gameinteractionsLootChoiceActionWrapper
 function gameinteractionsLootChoiceActionWrapper.new(fields) return end
 

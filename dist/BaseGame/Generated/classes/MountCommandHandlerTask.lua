@@ -7,7 +7,7 @@
 ---@field public callbackName CName
 MountCommandHandlerTask = {}
 
----@param fields? table
+---@param fields? MountCommandHandlerTask
 ---@return MountCommandHandlerTask
 function MountCommandHandlerTask.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public timestampArgument CName
 CheckTimestamp = {}
 
----@param fields? table
+---@param fields? CheckTimestamp
 ---@return CheckTimestamp
 function CheckTimestamp.new(fields) return end
 

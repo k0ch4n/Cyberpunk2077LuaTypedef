@@ -4,6 +4,6 @@
 ---@class worldVehicleForbiddenAreaNodeInstance: worldTriggerAreaNodeInstance
 worldVehicleForbiddenAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldVehicleForbiddenAreaNodeInstance
 ---@return worldVehicleForbiddenAreaNodeInstance
 function worldVehicleForbiddenAreaNodeInstance.new(fields) return end

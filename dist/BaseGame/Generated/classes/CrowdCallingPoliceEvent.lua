@@ -4,6 +4,6 @@
 ---@class CrowdCallingPoliceEvent: redEvent
 CrowdCallingPoliceEvent = {}
 
----@param fields? table
+---@param fields? CrowdCallingPoliceEvent
 ---@return CrowdCallingPoliceEvent
 function CrowdCallingPoliceEvent.new(fields) return end

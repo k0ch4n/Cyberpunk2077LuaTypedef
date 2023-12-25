@@ -6,7 +6,7 @@
 ---@field public journalEntry gameJournalEntry
 OpenMessengerNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenMessengerNotificationAction
 ---@return OpenMessengerNotificationAction
 function OpenMessengerNotificationAction.new(fields) return end
 

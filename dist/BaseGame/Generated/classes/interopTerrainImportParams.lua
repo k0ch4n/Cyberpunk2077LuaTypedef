@@ -20,6 +20,6 @@
 ---@field public dstPrefabNodePath toolsEditorObjectIDPath
 interopTerrainImportParams = {}
 
----@param fields? table
+---@param fields? interopTerrainImportParams
 ---@return interopTerrainImportParams
 function interopTerrainImportParams.new(fields) return end

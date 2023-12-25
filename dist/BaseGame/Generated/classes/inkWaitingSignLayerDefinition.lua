@@ -12,6 +12,6 @@
 ---@field public outroTime Float
 inkWaitingSignLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkWaitingSignLayerDefinition
 ---@return inkWaitingSignLayerDefinition
 function inkWaitingSignLayerDefinition.new(fields) return end

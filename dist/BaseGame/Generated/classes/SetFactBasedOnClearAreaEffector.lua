@@ -12,7 +12,7 @@
 ---@field public height Float
 SetFactBasedOnClearAreaEffector = {}
 
----@param fields? table
+---@param fields? SetFactBasedOnClearAreaEffector
 ---@return SetFactBasedOnClearAreaEffector
 function SetFactBasedOnClearAreaEffector.new(fields) return end
 

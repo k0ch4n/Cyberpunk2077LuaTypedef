@@ -5,7 +5,7 @@
 ---@field protected requiredLevel Float
 DevelopmentCheckPrereq = {}
 
----@param fields? table
+---@param fields? DevelopmentCheckPrereq
 ---@return DevelopmentCheckPrereq
 function DevelopmentCheckPrereq.new(fields) return end
 

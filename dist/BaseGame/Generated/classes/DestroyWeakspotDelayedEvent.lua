@@ -4,6 +4,6 @@
 ---@class DestroyWeakspotDelayedEvent: redEvent
 DestroyWeakspotDelayedEvent = {}
 
----@param fields? table
+---@param fields? DestroyWeakspotDelayedEvent
 ---@return DestroyWeakspotDelayedEvent
 function DestroyWeakspotDelayedEvent.new(fields) return end

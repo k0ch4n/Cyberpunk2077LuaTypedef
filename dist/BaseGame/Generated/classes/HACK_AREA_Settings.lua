@@ -14,6 +14,6 @@
 ---@field public albedoMetalness Float
 HACK_AREA_Settings = {}
 
----@param fields? table
+---@param fields? HACK_AREA_Settings
 ---@return HACK_AREA_Settings
 function HACK_AREA_Settings.new(fields) return end

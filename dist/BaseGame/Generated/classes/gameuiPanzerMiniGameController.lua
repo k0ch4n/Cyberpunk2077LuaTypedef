@@ -4,6 +4,6 @@
 ---@class gameuiPanzerMiniGameController: gameuiSideScrollerMiniGameControllerAdvanced
 gameuiPanzerMiniGameController = {}
 
----@param fields? table
+---@param fields? gameuiPanzerMiniGameController
 ---@return gameuiPanzerMiniGameController
 function gameuiPanzerMiniGameController.new(fields) return end

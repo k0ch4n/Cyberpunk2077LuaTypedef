@@ -5,6 +5,6 @@
 ---@field public condition AIbehaviorExpressionSocket
 AIbehaviorIfElseNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIfElseNodeDefinition
 ---@return AIbehaviorIfElseNodeDefinition
 function AIbehaviorIfElseNodeDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class InDeadHighLevelState: AINPCHighLevelStateCheck
 InDeadHighLevelState = {}
 
----@param fields? table
+---@param fields? InDeadHighLevelState
 ---@return InDeadHighLevelState
 function InDeadHighLevelState.new(fields) return end
 

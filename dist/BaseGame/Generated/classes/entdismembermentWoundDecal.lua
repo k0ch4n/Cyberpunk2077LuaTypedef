@@ -11,6 +11,6 @@
 ---@field public Material IMaterial
 entdismembermentWoundDecal = {}
 
----@param fields? table
+---@param fields? entdismembermentWoundDecal
 ---@return entdismembermentWoundDecal
 function entdismembermentWoundDecal.new(fields) return end

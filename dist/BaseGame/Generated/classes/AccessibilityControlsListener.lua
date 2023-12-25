@@ -9,7 +9,7 @@
 ---@field private accessibilityControlsPath CName
 AccessibilityControlsListener = {}
 
----@param fields? table
+---@param fields? AccessibilityControlsListener
 ---@return AccessibilityControlsListener
 function AccessibilityControlsListener.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected offMeshConnection AIOffMeshConnectionComponent
 ActivatedDeviceCover = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceCover
 ---@return ActivatedDeviceCover
 function ActivatedDeviceCover.new(fields) return end
 

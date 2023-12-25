@@ -9,6 +9,6 @@
 ---@field public channelEntries animSimpleBounceTransformOutput_ChannelEntry[]
 animSimpleBounceTransformOutput = {}
 
----@param fields? table
+---@param fields? animSimpleBounceTransformOutput
 ---@return animSimpleBounceTransformOutput
 function animSimpleBounceTransformOutput.new(fields) return end

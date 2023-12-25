@@ -8,6 +8,6 @@
 ---@field public clearWrapperInfo Bool
 FillAnimWrapperInfoBasedOnEquippedItem = {}
 
----@param fields? table
+---@param fields? FillAnimWrapperInfoBasedOnEquippedItem
 ---@return FillAnimWrapperInfoBasedOnEquippedItem
 function FillAnimWrapperInfoBasedOnEquippedItem.new(fields) return end

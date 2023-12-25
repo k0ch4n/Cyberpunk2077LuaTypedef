@@ -5,7 +5,7 @@
 ---@field public stateMachineInitData LocomotionTakedownInitData
 LocomotionTakedownEvents = {}
 
----@param fields? table
+---@param fields? LocomotionTakedownEvents
 ---@return LocomotionTakedownEvents
 function LocomotionTakedownEvents.new(fields) return end
 

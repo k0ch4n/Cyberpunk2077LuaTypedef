@@ -4,7 +4,7 @@
 ---@class SpiderbotDistractDevice: ActionBool
 SpiderbotDistractDevice = {}
 
----@param fields? table
+---@param fields? SpiderbotDistractDevice
 ---@return SpiderbotDistractDevice
 function SpiderbotDistractDevice.new(fields) return end
 

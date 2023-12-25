@@ -7,6 +7,6 @@
 ---@field public actionName CName
 gameeventsStartTakedownEvent = {}
 
----@param fields? table
+---@param fields? gameeventsStartTakedownEvent
 ---@return gameeventsStartTakedownEvent
 function gameeventsStartTakedownEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public initialScenarioName CName
 inkMenuResource = {}
 
----@param fields? table
+---@param fields? inkMenuResource
 ---@return inkMenuResource
 function inkMenuResource.new(fields) return end

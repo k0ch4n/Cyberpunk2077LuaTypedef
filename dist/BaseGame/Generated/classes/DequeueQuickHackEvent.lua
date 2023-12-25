@@ -5,6 +5,6 @@
 ---@field public mappinID gameNewMappinID
 DequeueQuickHackEvent = {}
 
----@param fields? table
+---@param fields? DequeueQuickHackEvent
 ---@return DequeueQuickHackEvent
 function DequeueQuickHackEvent.new(fields) return end

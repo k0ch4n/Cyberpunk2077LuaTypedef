@@ -6,7 +6,7 @@
 ---@field public inputHint inkInputDisplayController
 Codeware_UI_ButtonHintsManager = {}
 
----@param fields? table
+---@param fields? Codeware_UI_ButtonHintsManager
 ---@return Codeware_UI_ButtonHintsManager
 function Codeware_UI_ButtonHintsManager.new(fields) return end
 

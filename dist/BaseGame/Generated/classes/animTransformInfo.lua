@@ -7,6 +7,6 @@
 ---@field public referenceTransformLs QsTransform
 animTransformInfo = {}
 
----@param fields? table
+---@param fields? animTransformInfo
 ---@return animTransformInfo
 function animTransformInfo.new(fields) return end

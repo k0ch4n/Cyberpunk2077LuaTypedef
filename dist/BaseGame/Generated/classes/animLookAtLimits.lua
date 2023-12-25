@@ -8,6 +8,6 @@
 ---@field public backLimitDegrees Float
 animLookAtLimits = {}
 
----@param fields? table
+---@param fields? animLookAtLimits
 ---@return animLookAtLimits
 function animLookAtLimits.new(fields) return end

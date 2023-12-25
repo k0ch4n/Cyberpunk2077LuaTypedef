@@ -6,6 +6,6 @@
 ---@field public filter gameEffectObjectSingleFilter
 gameEffectObjectSingleFilter_BlackboardBoolCondition = {}
 
----@param fields? table
+---@param fields? gameEffectObjectSingleFilter_BlackboardBoolCondition
 ---@return gameEffectObjectSingleFilter_BlackboardBoolCondition
 function gameEffectObjectSingleFilter_BlackboardBoolCondition.new(fields) return end

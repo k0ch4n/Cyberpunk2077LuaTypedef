@@ -9,6 +9,6 @@
 ---@field public prefetchAppearance Bool
 communitySpawnPhase = {}
 
----@param fields? table
+---@param fields? communitySpawnPhase
 ---@return communitySpawnPhase
 function communitySpawnPhase.new(fields) return end

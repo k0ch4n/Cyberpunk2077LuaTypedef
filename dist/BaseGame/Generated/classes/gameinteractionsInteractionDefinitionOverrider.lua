@@ -8,6 +8,6 @@
 ---@field public priorityMultiplier Float
 gameinteractionsInteractionDefinitionOverrider = {}
 
----@param fields? table
+---@param fields? gameinteractionsInteractionDefinitionOverrider
 ---@return gameinteractionsInteractionDefinitionOverrider
 function gameinteractionsInteractionDefinitionOverrider.new(fields) return end

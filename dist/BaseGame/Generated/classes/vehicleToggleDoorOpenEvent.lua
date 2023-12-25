@@ -4,6 +4,6 @@
 ---@class vehicleToggleDoorOpenEvent: redEvent
 vehicleToggleDoorOpenEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleDoorOpenEvent
 ---@return vehicleToggleDoorOpenEvent
 function vehicleToggleDoorOpenEvent.new(fields) return end

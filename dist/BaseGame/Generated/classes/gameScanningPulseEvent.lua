@@ -4,6 +4,6 @@
 ---@class gameScanningPulseEvent: redEvent
 gameScanningPulseEvent = {}
 
----@param fields? table
+---@param fields? gameScanningPulseEvent
 ---@return gameScanningPulseEvent
 function gameScanningPulseEvent.new(fields) return end

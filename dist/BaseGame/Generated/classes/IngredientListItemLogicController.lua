@@ -19,7 +19,7 @@
 ---@field private itemAmount Int32
 IngredientListItemLogicController = {}
 
----@param fields? table
+---@param fields? IngredientListItemLogicController
 ---@return IngredientListItemLogicController
 function IngredientListItemLogicController.new(fields) return end
 

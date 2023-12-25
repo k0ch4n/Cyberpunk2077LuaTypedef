@@ -4,7 +4,7 @@
 ---@class QuestResetDeviceToInitialState: ActionBool
 QuestResetDeviceToInitialState = {}
 
----@param fields? table
+---@param fields? QuestResetDeviceToInitialState
 ---@return QuestResetDeviceToInitialState
 function QuestResetDeviceToInitialState.new(fields) return end
 

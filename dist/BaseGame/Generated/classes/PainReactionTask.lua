@@ -5,7 +5,7 @@
 ---@field protected weaponOverride AnimFeature_WeaponOverride
 PainReactionTask = {}
 
----@param fields? table
+---@param fields? PainReactionTask
 ---@return PainReactionTask
 function PainReactionTask.new(fields) return end
 

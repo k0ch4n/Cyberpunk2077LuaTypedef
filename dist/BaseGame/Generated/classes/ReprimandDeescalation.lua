@@ -4,7 +4,7 @@
 ---@class ReprimandDeescalation: AIbehaviortaskScript
 ReprimandDeescalation = {}
 
----@param fields? table
+---@param fields? ReprimandDeescalation
 ---@return ReprimandDeescalation
 function ReprimandDeescalation.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public movementParameters moveMovementParameters
 AIArchetype = {}
 
----@param fields? table
+---@param fields? AIArchetype
 ---@return AIArchetype
 function AIArchetype.new(fields) return end

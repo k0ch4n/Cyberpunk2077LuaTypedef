@@ -15,7 +15,7 @@
 ---@field private mappinID gameNewMappinID
 gameuiRemoteControlDrivingHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiRemoteControlDrivingHUDGameController
 ---@return gameuiRemoteControlDrivingHUDGameController
 function gameuiRemoteControlDrivingHUDGameController.new(fields) return end
 

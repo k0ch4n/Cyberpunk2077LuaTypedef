@@ -8,7 +8,7 @@
 ---@field private requiredLevel Int32
 GameplaySkillCondition = {}
 
----@param fields? table
+---@param fields? GameplaySkillCondition
 ---@return GameplaySkillCondition
 function GameplaySkillCondition.new(fields) return end
 

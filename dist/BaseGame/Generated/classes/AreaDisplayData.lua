@@ -9,6 +9,6 @@
 ---@field public area gamedataPerkArea
 AreaDisplayData = {}
 
----@param fields? table
+---@param fields? AreaDisplayData
 ---@return AreaDisplayData
 function AreaDisplayData.new(fields) return end

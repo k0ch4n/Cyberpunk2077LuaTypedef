@@ -5,6 +5,6 @@
 ---@field public bodyPart EHitReactionZone
 WoundedInstigated = {}
 
----@param fields? table
+---@param fields? WoundedInstigated
 ---@return WoundedInstigated
 function WoundedInstigated.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public impulseMaxRadius Float
 audioLocomotionWaterContextSettings = {}
 
----@param fields? table
+---@param fields? audioLocomotionWaterContextSettings
 ---@return audioLocomotionWaterContextSettings
 function audioLocomotionWaterContextSettings.new(fields) return end

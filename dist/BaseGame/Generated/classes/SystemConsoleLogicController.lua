@@ -8,7 +8,7 @@
 ---@field public victorSys inkWidgetReference
 SystemConsoleLogicController = {}
 
----@param fields? table
+---@param fields? SystemConsoleLogicController
 ---@return SystemConsoleLogicController
 function SystemConsoleLogicController.new(fields) return end
 

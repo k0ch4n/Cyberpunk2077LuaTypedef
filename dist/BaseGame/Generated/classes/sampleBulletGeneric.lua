@@ -10,7 +10,7 @@
 ---@field private alive Bool
 sampleBulletGeneric = {}
 
----@param fields? table
+---@param fields? sampleBulletGeneric
 ---@return sampleBulletGeneric
 function sampleBulletGeneric.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public newState Bool
 SetIsInBraindance = {}
 
----@param fields? table
+---@param fields? SetIsInBraindance
 ---@return SetIsInBraindance
 function SetIsInBraindance.new(fields) return end

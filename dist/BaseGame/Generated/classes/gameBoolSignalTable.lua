@@ -4,7 +4,7 @@
 ---@class gameBoolSignalTable: IScriptable
 gameBoolSignalTable = {}
 
----@param fields? table
+---@param fields? gameBoolSignalTable
 ---@return gameBoolSignalTable
 function gameBoolSignalTable.new(fields) return end
 

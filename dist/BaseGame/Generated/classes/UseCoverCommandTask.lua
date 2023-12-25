@@ -6,7 +6,7 @@
 ---@field protected currentCommand AIUseCoverCommand
 UseCoverCommandTask = {}
 
----@param fields? table
+---@param fields? UseCoverCommandTask
 ---@return UseCoverCommandTask
 function UseCoverCommandTask.new(fields) return end
 

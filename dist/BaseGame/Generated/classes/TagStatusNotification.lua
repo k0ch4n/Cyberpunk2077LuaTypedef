@@ -5,6 +5,6 @@
 ---@field public isTagged Bool
 TagStatusNotification = {}
 
----@param fields? table
+---@param fields? TagStatusNotification
 ---@return TagStatusNotification
 function TagStatusNotification.new(fields) return end

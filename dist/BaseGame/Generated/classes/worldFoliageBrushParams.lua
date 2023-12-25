@@ -7,6 +7,6 @@
 ---@field public ScaleVariation Float
 worldFoliageBrushParams = {}
 
----@param fields? table
+---@param fields? worldFoliageBrushParams
 ---@return worldFoliageBrushParams
 function worldFoliageBrushParams.new(fields) return end

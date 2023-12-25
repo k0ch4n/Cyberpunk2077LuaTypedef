@@ -6,6 +6,6 @@
 ---@field public clueGroupID CName
 ClueStatusNotification = {}
 
----@param fields? table
+---@param fields? ClueStatusNotification
 ---@return ClueStatusNotification
 function ClueStatusNotification.new(fields) return end

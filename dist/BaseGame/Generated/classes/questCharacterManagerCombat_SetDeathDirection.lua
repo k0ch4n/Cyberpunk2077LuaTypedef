@@ -6,6 +6,6 @@
 ---@field public direction gameeventsDeathDirection
 questCharacterManagerCombat_SetDeathDirection = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_SetDeathDirection
 ---@return questCharacterManagerCombat_SetDeathDirection
 function questCharacterManagerCombat_SetDeathDirection.new(fields) return end

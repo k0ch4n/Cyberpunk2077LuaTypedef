@@ -5,6 +5,6 @@
 ---@field public index Int32
 ShowSingleMappinEvent = {}
 
----@param fields? table
+---@param fields? ShowSingleMappinEvent
 ---@return ShowSingleMappinEvent
 function ShowSingleMappinEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public effector StatPoolBasedStatusEffectEffector
 StatPoolBasedStatusEffectEffectorListener = {}
 
----@param fields? table
+---@param fields? StatPoolBasedStatusEffectEffectorListener
 ---@return StatPoolBasedStatusEffectEffectorListener
 function StatPoolBasedStatusEffectEffectorListener.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class QuestIllegalActionNotification: QuestSecuritySystemInput
 QuestIllegalActionNotification = {}
 
----@param fields? table
+---@param fields? QuestIllegalActionNotification
 ---@return QuestIllegalActionNotification
 function QuestIllegalActionNotification.new(fields) return end
 

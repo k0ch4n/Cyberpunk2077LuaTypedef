@@ -7,6 +7,6 @@
 ---@field public duration Float
 AIForceShootCommand = {}
 
----@param fields? table
+---@param fields? AIForceShootCommand
 ---@return AIForceShootCommand
 function AIForceShootCommand.new(fields) return end

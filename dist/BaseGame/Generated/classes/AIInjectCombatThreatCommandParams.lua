@@ -9,7 +9,7 @@
 ---@field public isPersistent Bool
 AIInjectCombatThreatCommandParams = {}
 
----@param fields? table
+---@param fields? AIInjectCombatThreatCommandParams
 ---@return AIInjectCombatThreatCommandParams
 function AIInjectCombatThreatCommandParams.new(fields) return end
 

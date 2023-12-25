@@ -4,7 +4,7 @@
 ---@class ActionAnimationScriptProxy: CActionScriptProxy
 ActionAnimationScriptProxy = {}
 
----@param fields? table
+---@param fields? ActionAnimationScriptProxy
 ---@return ActionAnimationScriptProxy
 function ActionAnimationScriptProxy.new(fields) return end
 

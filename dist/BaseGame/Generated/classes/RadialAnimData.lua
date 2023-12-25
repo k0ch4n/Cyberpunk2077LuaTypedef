@@ -8,6 +8,6 @@
 ---@field public cycle_out CName
 RadialAnimData = {}
 
----@param fields? table
+---@param fields? RadialAnimData
 ---@return RadialAnimData
 function RadialAnimData.new(fields) return end

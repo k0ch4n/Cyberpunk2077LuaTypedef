@@ -7,6 +7,6 @@
 ---@field public quantity Int32[]
 UIVendorItemsBoughtEvent = {}
 
----@param fields? table
+---@param fields? UIVendorItemsBoughtEvent
 ---@return UIVendorItemsBoughtEvent
 function UIVendorItemsBoughtEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PlayStartupLocoFearAnimation: AIbehaviorconditionScript
 PlayStartupLocoFearAnimation = {}
 
----@param fields? table
+---@param fields? PlayStartupLocoFearAnimation
 ---@return PlayStartupLocoFearAnimation
 function PlayStartupLocoFearAnimation.new(fields) return end
 

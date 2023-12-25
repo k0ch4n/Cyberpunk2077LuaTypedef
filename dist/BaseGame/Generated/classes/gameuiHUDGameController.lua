@@ -11,7 +11,7 @@
 ---@field private hideAnimProxy inkanimProxy
 gameuiHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiHUDGameController
 ---@return gameuiHUDGameController
 function gameuiHUDGameController.new(fields) return end
 

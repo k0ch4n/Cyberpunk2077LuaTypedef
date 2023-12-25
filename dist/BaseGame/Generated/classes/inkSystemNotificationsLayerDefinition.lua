@@ -5,6 +5,6 @@
 ---@field public cursorResource inkWidgetLibraryResource
 inkSystemNotificationsLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkSystemNotificationsLayerDefinition
 ---@return inkSystemNotificationsLayerDefinition
 function inkSystemNotificationsLayerDefinition.new(fields) return end

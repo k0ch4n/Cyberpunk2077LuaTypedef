@@ -9,7 +9,7 @@
 ---@field public quickhackInstruction QuickhackInstance
 HUDInstruction = {}
 
----@param fields? table
+---@param fields? HUDInstruction
 ---@return HUDInstruction
 function HUDInstruction.new(fields) return end
 

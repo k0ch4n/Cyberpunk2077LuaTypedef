@@ -7,7 +7,7 @@
 ---@field private IntroPlayed Bool
 InventoryFilterButton = {}
 
----@param fields? table
+---@param fields? InventoryFilterButton
 ---@return InventoryFilterButton
 function InventoryFilterButton.new(fields) return end
 

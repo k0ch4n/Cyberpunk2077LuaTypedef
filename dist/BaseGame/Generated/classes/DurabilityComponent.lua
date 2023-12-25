@@ -4,6 +4,6 @@
 ---@class DurabilityComponent: gameScriptableComponent
 DurabilityComponent = {}
 
----@param fields? table
+---@param fields? DurabilityComponent
 ---@return DurabilityComponent
 function DurabilityComponent.new(fields) return end

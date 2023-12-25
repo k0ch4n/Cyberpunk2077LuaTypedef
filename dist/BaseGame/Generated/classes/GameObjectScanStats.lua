@@ -5,6 +5,6 @@
 ---@field public scannerData scannerDataStructure
 GameObjectScanStats = {}
 
----@param fields? table
+---@param fields? GameObjectScanStats
 ---@return GameObjectScanStats
 function GameObjectScanStats.new(fields) return end

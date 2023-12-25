@@ -4,7 +4,7 @@
 ---@class QuestListVirtualTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 QuestListVirtualTemplateClassifier = {}
 
----@param fields? table
+---@param fields? QuestListVirtualTemplateClassifier
 ---@return QuestListVirtualTemplateClassifier
 function QuestListVirtualTemplateClassifier.new(fields) return end
 

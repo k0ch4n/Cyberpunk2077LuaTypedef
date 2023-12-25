@@ -6,6 +6,6 @@
 ---@field public explosionDuration Float
 gameEffectPostAction_BulletExplode = {}
 
----@param fields? table
+---@param fields? gameEffectPostAction_BulletExplode
 ---@return gameEffectPostAction_BulletExplode
 function gameEffectPostAction_BulletExplode.new(fields) return end

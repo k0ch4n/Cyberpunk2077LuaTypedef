@@ -7,6 +7,6 @@
 ---@field public overrides gameAnimsetOverrideData[]
 gameBodyTypeData = {}
 
----@param fields? table
+---@param fields? gameBodyTypeData
 ---@return gameBodyTypeData
 function gameBodyTypeData.new(fields) return end

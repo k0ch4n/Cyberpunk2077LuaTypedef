@@ -6,6 +6,6 @@
 ---@field public polygon Vector2[]
 worldTrafficLanePolygonRepresentation = {}
 
----@param fields? table
+---@param fields? worldTrafficLanePolygonRepresentation
 ---@return worldTrafficLanePolygonRepresentation
 function worldTrafficLanePolygonRepresentation.new(fields) return end

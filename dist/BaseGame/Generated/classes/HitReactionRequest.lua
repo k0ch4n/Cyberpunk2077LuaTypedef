@@ -5,6 +5,6 @@
 ---@field public hitEvent gameeventsHitEvent
 HitReactionRequest = {}
 
----@param fields? table
+---@param fields? HitReactionRequest
 ---@return HitReactionRequest
 function HitReactionRequest.new(fields) return end

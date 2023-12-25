@@ -25,6 +25,6 @@
 ---@field public eventSpawnObject Uint8
 rendRenderParticleUpdaterData = {}
 
----@param fields? table
+---@param fields? rendRenderParticleUpdaterData
 ---@return rendRenderParticleUpdaterData
 function rendRenderParticleUpdaterData.new(fields) return end

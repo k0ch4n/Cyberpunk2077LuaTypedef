@@ -5,6 +5,6 @@
 ---@field public nullAreasBlockades worldTrafficNullAreaDynamicBlockade[]
 worldTrafficNullAreaDynamicBlockadeData = {}
 
----@param fields? table
+---@param fields? worldTrafficNullAreaDynamicBlockadeData
 ---@return worldTrafficNullAreaDynamicBlockadeData
 function worldTrafficNullAreaDynamicBlockadeData.new(fields) return end

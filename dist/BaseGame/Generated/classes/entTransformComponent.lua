@@ -4,6 +4,6 @@
 ---@class entTransformComponent: entIPlacedComponent
 entTransformComponent = {}
 
----@param fields? table
+---@param fields? entTransformComponent
 ---@return entTransformComponent
 function entTransformComponent.new(fields) return end

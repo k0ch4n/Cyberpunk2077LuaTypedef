@@ -5,6 +5,6 @@
 ---@field public isEnabled Bool
 senseEnabledEvent = {}
 
----@param fields? table
+---@param fields? senseEnabledEvent
 ---@return senseEnabledEvent
 function senseEnabledEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public relativeRotation Quaternion
 effectBoneEntry = {}
 
----@param fields? table
+---@param fields? effectBoneEntry
 ---@return effectBoneEntry
 function effectBoneEntry.new(fields) return end

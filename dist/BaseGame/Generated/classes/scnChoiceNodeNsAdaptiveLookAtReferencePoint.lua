@@ -6,6 +6,6 @@
 ---@field public constantWeight Float
 scnChoiceNodeNsAdaptiveLookAtReferencePoint = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsAdaptiveLookAtReferencePoint
 ---@return scnChoiceNodeNsAdaptiveLookAtReferencePoint
 function scnChoiceNodeNsAdaptiveLookAtReferencePoint.new(fields) return end

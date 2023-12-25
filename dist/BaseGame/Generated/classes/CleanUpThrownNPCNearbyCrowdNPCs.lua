@@ -4,6 +4,6 @@
 ---@class CleanUpThrownNPCNearbyCrowdNPCs: redEvent
 CleanUpThrownNPCNearbyCrowdNPCs = {}
 
----@param fields? table
+---@param fields? CleanUpThrownNPCNearbyCrowdNPCs
 ---@return CleanUpThrownNPCNearbyCrowdNPCs
 function CleanUpThrownNPCNearbyCrowdNPCs.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field private currentNode gamedataAINode_Record
 TweakAIActionSmartComposite = {}
 
----@param fields? table
+---@param fields? TweakAIActionSmartComposite
 ---@return TweakAIActionSmartComposite
 function TweakAIActionSmartComposite.new(fields) return end
 

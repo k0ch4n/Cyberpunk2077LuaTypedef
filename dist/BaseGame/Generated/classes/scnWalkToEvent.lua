@@ -7,6 +7,6 @@
 ---@field public usePathfinding Bool
 scnWalkToEvent = {}
 
----@param fields? table
+---@param fields? scnWalkToEvent
 ---@return scnWalkToEvent
 function scnWalkToEvent.new(fields) return end

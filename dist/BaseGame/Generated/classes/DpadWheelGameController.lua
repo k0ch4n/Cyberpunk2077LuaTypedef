@@ -46,7 +46,7 @@
 ---@field private DpadWheelCyberwareAssignedBBID redCallbackObject
 DpadWheelGameController = {}
 
----@param fields? table
+---@param fields? DpadWheelGameController
 ---@return DpadWheelGameController
 function DpadWheelGameController.new(fields) return end
 

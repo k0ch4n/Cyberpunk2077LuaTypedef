@@ -8,6 +8,6 @@
 ---@field public targetWeatherState worldWeatherState
 worldWeatherStateTransition = {}
 
----@param fields? table
+---@param fields? worldWeatherStateTransition
 ---@return worldWeatherStateTransition
 function worldWeatherStateTransition.new(fields) return end

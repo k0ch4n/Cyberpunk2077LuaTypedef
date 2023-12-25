@@ -9,6 +9,6 @@
 ---@field public offset Vector3
 garmentCollarAreaParams = {}
 
----@param fields? table
+---@param fields? garmentCollarAreaParams
 ---@return garmentCollarAreaParams
 function garmentCollarAreaParams.new(fields) return end

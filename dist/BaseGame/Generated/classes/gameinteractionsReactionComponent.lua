@@ -6,7 +6,7 @@
 ---@field public triggerAutomatically Bool
 gameinteractionsReactionComponent = {}
 
----@param fields? table
+---@param fields? gameinteractionsReactionComponent
 ---@return gameinteractionsReactionComponent
 function gameinteractionsReactionComponent.new(fields) return end
 

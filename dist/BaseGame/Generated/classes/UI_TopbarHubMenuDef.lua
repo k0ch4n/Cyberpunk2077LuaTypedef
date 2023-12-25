@@ -6,7 +6,7 @@
 ---@field public MetaQuestStatus gamebbScriptID_Variant
 UI_TopbarHubMenuDef = {}
 
----@param fields? table
+---@param fields? UI_TopbarHubMenuDef
 ---@return UI_TopbarHubMenuDef
 function UI_TopbarHubMenuDef.new(fields) return end
 

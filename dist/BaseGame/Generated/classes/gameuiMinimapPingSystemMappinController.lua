@@ -5,7 +5,7 @@
 ---@field public rootWidget inkWidgetReference
 gameuiMinimapPingSystemMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapPingSystemMappinController
 ---@return gameuiMinimapPingSystemMappinController
 function gameuiMinimapPingSystemMappinController.new(fields) return end
 

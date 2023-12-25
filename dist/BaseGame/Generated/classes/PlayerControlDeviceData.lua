@@ -6,6 +6,6 @@
 ---@field public currentPitchModifier Float
 PlayerControlDeviceData = {}
 
----@param fields? table
+---@param fields? PlayerControlDeviceData
 ---@return PlayerControlDeviceData
 function PlayerControlDeviceData.new(fields) return end

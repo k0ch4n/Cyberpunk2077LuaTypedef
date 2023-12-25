@@ -7,6 +7,6 @@
 ---@field public duration scnSceneTime
 scnChoiceNodeNsTimedParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsTimedParams
 ---@return scnChoiceNodeNsTimedParams
 function scnChoiceNodeNsTimedParams.new(fields) return end

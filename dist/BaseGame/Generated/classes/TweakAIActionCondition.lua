@@ -5,7 +5,7 @@
 ---@field public record TweakDBID
 TweakAIActionCondition = {}
 
----@param fields? table
+---@param fields? TweakAIActionCondition
 ---@return TweakAIActionCondition
 function TweakAIActionCondition.new(fields) return end
 

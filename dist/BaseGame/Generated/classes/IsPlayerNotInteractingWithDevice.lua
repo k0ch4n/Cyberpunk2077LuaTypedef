@@ -4,7 +4,7 @@
 ---@class IsPlayerNotInteractingWithDevice: gameinteractionsInteractionScriptedCondition
 IsPlayerNotInteractingWithDevice = {}
 
----@param fields? table
+---@param fields? IsPlayerNotInteractingWithDevice
 ---@return IsPlayerNotInteractingWithDevice
 function IsPlayerNotInteractingWithDevice.new(fields) return end
 

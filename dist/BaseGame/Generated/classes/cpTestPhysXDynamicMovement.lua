@@ -4,6 +4,6 @@
 ---@class cpTestPhysXDynamicMovement: gameObject
 cpTestPhysXDynamicMovement = {}
 
----@param fields? table
+---@param fields? cpTestPhysXDynamicMovement
 ---@return cpTestPhysXDynamicMovement
 function cpTestPhysXDynamicMovement.new(fields) return end

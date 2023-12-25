@@ -4,6 +4,6 @@
 ---@class IsPlayerReachablePrereqState: gamePrereqState
 IsPlayerReachablePrereqState = {}
 
----@param fields? table
+---@param fields? IsPlayerReachablePrereqState
 ---@return IsPlayerReachablePrereqState
 function IsPlayerReachablePrereqState.new(fields) return end

@@ -17,6 +17,6 @@
 ---@field public isOutTransitionFromAction Bool
 animAnimStateTransitionDescription = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionDescription
 ---@return animAnimStateTransitionDescription
 function animAnimStateTransitionDescription.new(fields) return end

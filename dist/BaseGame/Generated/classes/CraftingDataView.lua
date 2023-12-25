@@ -8,7 +8,7 @@
 ---@field private uiScriptableSystem UIScriptableSystem
 CraftingDataView = {}
 
----@param fields? table
+---@param fields? CraftingDataView
 ---@return CraftingDataView
 function CraftingDataView.new(fields) return end
 

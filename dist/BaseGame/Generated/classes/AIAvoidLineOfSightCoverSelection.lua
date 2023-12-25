@@ -4,6 +4,6 @@
 ---@class AIAvoidLineOfSightCoverSelection: AICoverSelectionParameters
 AIAvoidLineOfSightCoverSelection = {}
 
----@param fields? table
+---@param fields? AIAvoidLineOfSightCoverSelection
 ---@return AIAvoidLineOfSightCoverSelection
 function AIAvoidLineOfSightCoverSelection.new(fields) return end

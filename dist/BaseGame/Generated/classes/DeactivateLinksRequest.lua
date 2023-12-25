@@ -6,6 +6,6 @@
 ---@field public instant Bool
 DeactivateLinksRequest = {}
 
----@param fields? table
+---@param fields? DeactivateLinksRequest
 ---@return DeactivateLinksRequest
 function DeactivateLinksRequest.new(fields) return end

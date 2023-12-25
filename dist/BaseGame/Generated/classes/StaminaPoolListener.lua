@@ -5,7 +5,7 @@
 ---@field private staminaBar StaminabarWidgetGameController
 StaminaPoolListener = {}
 
----@param fields? table
+---@param fields? StaminaPoolListener
 ---@return StaminaPoolListener
 function StaminaPoolListener.new(fields) return end
 

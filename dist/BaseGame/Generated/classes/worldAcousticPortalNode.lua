@@ -6,6 +6,6 @@
 ---@field public nominalRadius Uint8
 worldAcousticPortalNode = {}
 
----@param fields? table
+---@param fields? worldAcousticPortalNode
 ---@return worldAcousticPortalNode
 function worldAcousticPortalNode.new(fields) return end

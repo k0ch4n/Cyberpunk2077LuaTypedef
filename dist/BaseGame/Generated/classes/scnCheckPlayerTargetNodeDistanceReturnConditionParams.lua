@@ -7,6 +7,6 @@
 ---@field public targetNode NodeRef
 scnCheckPlayerTargetNodeDistanceReturnConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerTargetNodeDistanceReturnConditionParams
 ---@return scnCheckPlayerTargetNodeDistanceReturnConditionParams
 function scnCheckPlayerTargetNodeDistanceReturnConditionParams.new(fields) return end

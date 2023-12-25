@@ -13,7 +13,7 @@
 ---@field private latchVertical Float
 CrosshairGameController_Simple = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Simple
 ---@return CrosshairGameController_Simple
 function CrosshairGameController_Simple.new(fields) return end
 

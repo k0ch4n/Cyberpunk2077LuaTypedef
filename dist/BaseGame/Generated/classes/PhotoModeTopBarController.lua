@@ -5,7 +5,7 @@
 ---@field private photoModeTogglesArray inkWidgetReference[]
 PhotoModeTopBarController = {}
 
----@param fields? table
+---@param fields? PhotoModeTopBarController
 ---@return PhotoModeTopBarController
 function PhotoModeTopBarController.new(fields) return end
 

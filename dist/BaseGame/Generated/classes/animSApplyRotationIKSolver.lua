@@ -4,6 +4,6 @@
 ---@class animSApplyRotationIKSolver
 animSApplyRotationIKSolver = {}
 
----@param fields? table
+---@param fields? animSApplyRotationIKSolver
 ---@return animSApplyRotationIKSolver
 function animSApplyRotationIKSolver.new(fields) return end

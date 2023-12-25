@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterPlatformCollisionController: inkWidgetLogicController
 gameuiarcadeShooterPlatformCollisionController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterPlatformCollisionController
 ---@return gameuiarcadeShooterPlatformCollisionController
 function gameuiarcadeShooterPlatformCollisionController.new(fields) return end

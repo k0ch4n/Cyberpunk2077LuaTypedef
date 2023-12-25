@@ -5,7 +5,7 @@
 ---@field public minigame ArcadeMinigame
 ArcadeMinigameUserData = {}
 
----@param fields? table
+---@param fields? ArcadeMinigameUserData
 ---@return ArcadeMinigameUserData
 function ArcadeMinigameUserData.new(fields) return end
 

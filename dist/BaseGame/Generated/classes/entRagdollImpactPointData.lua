@@ -13,6 +13,6 @@
 ---@field public otherProxyActorIndex Uint32
 entRagdollImpactPointData = {}
 
----@param fields? table
+---@param fields? entRagdollImpactPointData
 ---@return entRagdollImpactPointData
 function entRagdollImpactPointData.new(fields) return end

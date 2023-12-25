@@ -6,6 +6,6 @@
 ---@field public position Vector4
 gameprojectileTickEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileTickEvent
 ---@return gameprojectileTickEvent
 function gameprojectileTickEvent.new(fields) return end

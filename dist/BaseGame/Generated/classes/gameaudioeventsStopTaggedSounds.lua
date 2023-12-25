@@ -5,6 +5,6 @@
 ---@field public audioTag CName
 gameaudioeventsStopTaggedSounds = {}
 
----@param fields? table
+---@param fields? gameaudioeventsStopTaggedSounds
 ---@return gameaudioeventsStopTaggedSounds
 function gameaudioeventsStopTaggedSounds.new(fields) return end

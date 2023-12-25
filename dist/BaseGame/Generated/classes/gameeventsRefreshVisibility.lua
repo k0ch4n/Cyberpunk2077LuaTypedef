@@ -4,6 +4,6 @@
 ---@class gameeventsRefreshVisibility: redEvent
 gameeventsRefreshVisibility = {}
 
----@param fields? table
+---@param fields? gameeventsRefreshVisibility
 ---@return gameeventsRefreshVisibility
 function gameeventsRefreshVisibility.new(fields) return end

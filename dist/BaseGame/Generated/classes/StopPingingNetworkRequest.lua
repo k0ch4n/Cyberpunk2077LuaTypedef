@@ -6,6 +6,6 @@
 ---@field public pingData PingCachedData
 StopPingingNetworkRequest = {}
 
----@param fields? table
+---@param fields? StopPingingNetworkRequest
 ---@return StopPingingNetworkRequest
 function StopPingingNetworkRequest.new(fields) return end

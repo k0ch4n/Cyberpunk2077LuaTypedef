@@ -20,6 +20,6 @@
 ---@field public poolsCurrentInfo FunctionalTestsDataMemoryPoolStaticData[]
 FunctionalTestsDataMemoryStatsData = {}
 
----@param fields? table
+---@param fields? FunctionalTestsDataMemoryStatsData
 ---@return FunctionalTestsDataMemoryStatsData
 function FunctionalTestsDataMemoryStatsData.new(fields) return end

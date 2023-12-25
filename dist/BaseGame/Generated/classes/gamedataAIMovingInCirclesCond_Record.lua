@@ -4,7 +4,7 @@
 ---@class gamedataAIMovingInCirclesCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIMovingInCirclesCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIMovingInCirclesCond_Record
 ---@return gamedataAIMovingInCirclesCond_Record
 function gamedataAIMovingInCirclesCond_Record.new(fields) return end
 

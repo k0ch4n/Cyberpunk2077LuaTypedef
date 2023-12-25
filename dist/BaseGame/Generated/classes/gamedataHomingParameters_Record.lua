@@ -4,7 +4,7 @@
 ---@class gamedataHomingParameters_Record: gamedataTweakDBRecord
 gamedataHomingParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataHomingParameters_Record
 ---@return gamedataHomingParameters_Record
 function gamedataHomingParameters_Record.new(fields) return end
 

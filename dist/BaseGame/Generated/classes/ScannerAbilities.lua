@@ -5,7 +5,7 @@
 ---@field public abilities gamedataGameplayAbility_Record[]
 ScannerAbilities = {}
 
----@param fields? table
+---@param fields? ScannerAbilities
 ---@return ScannerAbilities
 function ScannerAbilities.new(fields) return end
 

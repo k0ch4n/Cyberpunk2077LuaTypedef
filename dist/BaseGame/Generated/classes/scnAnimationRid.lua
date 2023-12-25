@@ -11,6 +11,6 @@
 ---@field public trajectoryBoneIndex Int32
 scnAnimationRid = {}
 
----@param fields? table
+---@param fields? scnAnimationRid
 ---@return scnAnimationRid
 function scnAnimationRid.new(fields) return end

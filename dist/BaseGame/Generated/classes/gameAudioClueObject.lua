@@ -4,6 +4,6 @@
 ---@class gameAudioClueObject: gameObject
 gameAudioClueObject = {}
 
----@param fields? table
+---@param fields? gameAudioClueObject
 ---@return gameAudioClueObject
 function gameAudioClueObject.new(fields) return end

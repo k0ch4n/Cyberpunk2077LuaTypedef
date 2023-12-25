@@ -4,6 +4,6 @@
 ---@class gameprojectileShootTargetEvent: gameprojectileShootEvent
 gameprojectileShootTargetEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileShootTargetEvent
 ---@return gameprojectileShootTargetEvent
 function gameprojectileShootTargetEvent.new(fields) return end

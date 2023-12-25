@@ -5,6 +5,6 @@
 ---@field public property Bool
 Sample_Basic_Replicated_Property = {}
 
----@param fields? table
+---@param fields? Sample_Basic_Replicated_Property
 ---@return Sample_Basic_Replicated_Property
 function Sample_Basic_Replicated_Property.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public entries communitySquadInitializerEntry[]
 communitySquadInitializer = {}
 
----@param fields? table
+---@param fields? communitySquadInitializer
 ---@return communitySquadInitializer
 function communitySquadInitializer.new(fields) return end

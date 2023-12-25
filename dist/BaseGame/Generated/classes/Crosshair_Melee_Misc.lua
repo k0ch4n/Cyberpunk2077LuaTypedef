@@ -5,7 +5,7 @@
 ---@field private targetColorChange inkWidgetReference
 Crosshair_Melee_Misc = {}
 
----@param fields? table
+---@param fields? Crosshair_Melee_Misc
 ---@return Crosshair_Melee_Misc
 function Crosshair_Melee_Misc.new(fields) return end
 

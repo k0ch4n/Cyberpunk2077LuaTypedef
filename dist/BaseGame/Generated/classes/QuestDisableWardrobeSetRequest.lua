@@ -5,6 +5,6 @@
 ---@field public blockReequipping Bool
 QuestDisableWardrobeSetRequest = {}
 
----@param fields? table
+---@param fields? QuestDisableWardrobeSetRequest
 ---@return QuestDisableWardrobeSetRequest
 function QuestDisableWardrobeSetRequest.new(fields) return end

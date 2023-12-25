@@ -7,7 +7,7 @@
 ---@field public textDescription inkTextWidgetReference
 GogRegisterController = {}
 
----@param fields? table
+---@param fields? GogRegisterController
 ---@return GogRegisterController
 function GogRegisterController.new(fields) return end
 

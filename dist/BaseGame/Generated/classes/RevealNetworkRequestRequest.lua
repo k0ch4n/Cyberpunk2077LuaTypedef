@@ -6,6 +6,6 @@
 ---@field public delay Float
 RevealNetworkRequestRequest = {}
 
----@param fields? table
+---@param fields? RevealNetworkRequestRequest
 ---@return RevealNetworkRequestRequest
 function RevealNetworkRequestRequest.new(fields) return end

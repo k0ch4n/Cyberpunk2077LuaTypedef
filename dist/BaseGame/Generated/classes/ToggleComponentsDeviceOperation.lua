@@ -5,7 +5,7 @@
 ---@field public components SComponentOperationData[]
 ToggleComponentsDeviceOperation = {}
 
----@param fields? table
+---@param fields? ToggleComponentsDeviceOperation
 ---@return ToggleComponentsDeviceOperation
 function ToggleComponentsDeviceOperation.new(fields) return end
 

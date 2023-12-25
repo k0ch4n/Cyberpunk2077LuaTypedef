@@ -7,6 +7,6 @@
 ---@field public entityID entEntityID
 DelayedVisibilityInAnimSystemRequest = {}
 
----@param fields? table
+---@param fields? DelayedVisibilityInAnimSystemRequest
 ---@return DelayedVisibilityInAnimSystemRequest
 function DelayedVisibilityInAnimSystemRequest.new(fields) return end

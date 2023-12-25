@@ -8,6 +8,6 @@
 ---@field public clientValue String
 gameMuppetComparisonReportItem = {}
 
----@param fields? table
+---@param fields? gameMuppetComparisonReportItem
 ---@return gameMuppetComparisonReportItem
 function gameMuppetComparisonReportItem.new(fields) return end

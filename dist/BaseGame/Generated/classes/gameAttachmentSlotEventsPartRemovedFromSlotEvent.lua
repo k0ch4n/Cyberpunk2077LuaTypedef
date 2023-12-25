@@ -6,6 +6,6 @@
 ---@field public removedPartID gameItemID
 gameAttachmentSlotEventsPartRemovedFromSlotEvent = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsPartRemovedFromSlotEvent
 ---@return gameAttachmentSlotEventsPartRemovedFromSlotEvent
 function gameAttachmentSlotEventsPartRemovedFromSlotEvent.new(fields) return end

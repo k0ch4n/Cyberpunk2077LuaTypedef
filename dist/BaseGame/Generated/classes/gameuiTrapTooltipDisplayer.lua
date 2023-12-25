@@ -7,7 +7,7 @@
 ---@field private animationProxy inkanimProxy
 gameuiTrapTooltipDisplayer = {}
 
----@param fields? table
+---@param fields? gameuiTrapTooltipDisplayer
 ---@return gameuiTrapTooltipDisplayer
 function gameuiTrapTooltipDisplayer.new(fields) return end
 

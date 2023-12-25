@@ -10,7 +10,7 @@
 ---@field public allowVehicleCollisionRagdoll Bool
 gamePuppetPS = {}
 
----@param fields? table
+---@param fields? gamePuppetPS
 ---@return gamePuppetPS
 function gamePuppetPS.new(fields) return end
 

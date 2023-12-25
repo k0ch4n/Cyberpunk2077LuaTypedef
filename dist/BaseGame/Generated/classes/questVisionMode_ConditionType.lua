@@ -6,6 +6,6 @@
 ---@field public visionModeType questVisionModeType
 questVisionMode_ConditionType = {}
 
----@param fields? table
+---@param fields? questVisionMode_ConditionType
 ---@return questVisionMode_ConditionType
 function questVisionMode_ConditionType.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public resetTokenSpawnTimer Bool
 questBlockTokenActivation_NodeSubType = {}
 
----@param fields? table
+---@param fields? questBlockTokenActivation_NodeSubType
 ---@return questBlockTokenActivation_NodeSubType
 function questBlockTokenActivation_NodeSubType.new(fields) return end

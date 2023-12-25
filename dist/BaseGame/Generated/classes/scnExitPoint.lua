@@ -6,6 +6,6 @@
 ---@field public nodeId scnNodeId
 scnExitPoint = {}
 
----@param fields? table
+---@param fields? scnExitPoint
 ---@return scnExitPoint
 function scnExitPoint.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public transforms animTransformIndex[]
 animAnimNode_MaskReset = {}
 
----@param fields? table
+---@param fields? animAnimNode_MaskReset
 ---@return animAnimNode_MaskReset
 function animAnimNode_MaskReset.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class redTOMLArrayTransform: redTOMLBaseValue
 redTOMLArrayTransform = {}
 
----@param fields? table
+---@param fields? redTOMLArrayTransform
 ---@return redTOMLArrayTransform
 function redTOMLArrayTransform.new(fields) return end

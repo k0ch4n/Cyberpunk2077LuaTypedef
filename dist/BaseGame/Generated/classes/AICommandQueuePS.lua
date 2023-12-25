@@ -6,6 +6,6 @@
 ---@field public aiRole AIRole
 AICommandQueuePS = {}
 
----@param fields? table
+---@param fields? AICommandQueuePS
 ---@return AICommandQueuePS
 function AICommandQueuePS.new(fields) return end

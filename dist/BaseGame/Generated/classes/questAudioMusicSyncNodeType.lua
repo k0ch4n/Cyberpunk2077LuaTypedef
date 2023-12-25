@@ -8,6 +8,6 @@
 ---@field public userCue CName
 questAudioMusicSyncNodeType = {}
 
----@param fields? table
+---@param fields? questAudioMusicSyncNodeType
 ---@return questAudioMusicSyncNodeType
 function questAudioMusicSyncNodeType.new(fields) return end

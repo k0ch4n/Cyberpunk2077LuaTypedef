@@ -5,6 +5,6 @@
 ---@field public ps gamePersistentState
 SPreventionAgentData = {}
 
----@param fields? table
+---@param fields? SPreventionAgentData
 ---@return SPreventionAgentData
 function SPreventionAgentData.new(fields) return end

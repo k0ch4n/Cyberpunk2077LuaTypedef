@@ -4,7 +4,7 @@
 ---@class UsingCoverPSMPrereq: PlayerStateMachinePrereq
 UsingCoverPSMPrereq = {}
 
----@param fields? table
+---@param fields? UsingCoverPSMPrereq
 ---@return UsingCoverPSMPrereq
 function UsingCoverPSMPrereq.new(fields) return end
 

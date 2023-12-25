@@ -6,7 +6,7 @@
 ---@field private journalEntry gameJournalEntry
 QuestCodexLinkController = {}
 
----@param fields? table
+---@param fields? QuestCodexLinkController
 ---@return QuestCodexLinkController
 function QuestCodexLinkController.new(fields) return end
 

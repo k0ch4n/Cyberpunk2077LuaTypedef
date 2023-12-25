@@ -5,6 +5,6 @@
 ---@field public entityId entEntityID
 gameCommunityID = {}
 
----@param fields? table
+---@param fields? gameCommunityID
 ---@return gameCommunityID
 function gameCommunityID.new(fields) return end

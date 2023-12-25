@@ -5,6 +5,6 @@
 ---@field public record TweakDBID
 PreventionSystemConfig = {}
 
----@param fields? table
+---@param fields? PreventionSystemConfig
 ---@return PreventionSystemConfig
 function PreventionSystemConfig.new(fields) return end

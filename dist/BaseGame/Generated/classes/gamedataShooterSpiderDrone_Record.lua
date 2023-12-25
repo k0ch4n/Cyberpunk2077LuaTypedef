@@ -4,7 +4,7 @@
 ---@class gamedataShooterSpiderDrone_Record: gamedataShooterAI_Record
 gamedataShooterSpiderDrone_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterSpiderDrone_Record
 ---@return gamedataShooterSpiderDrone_Record
 function gamedataShooterSpiderDrone_Record.new(fields) return end
 

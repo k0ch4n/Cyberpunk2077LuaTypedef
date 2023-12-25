@@ -4,7 +4,7 @@
 ---@class gameuiGameSystemUI: gameuiIGameSystemUI
 gameuiGameSystemUI = {}
 
----@param fields? table
+---@param fields? gameuiGameSystemUI
 ---@return gameuiGameSystemUI
 function gameuiGameSystemUI.new(fields) return end
 

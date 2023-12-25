@@ -17,7 +17,7 @@
 ---@field protected cool_out_proxy inkanimProxy
 PerksMenuAttributeItemController = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemController
 ---@return PerksMenuAttributeItemController
 function PerksMenuAttributeItemController.new(fields) return end
 

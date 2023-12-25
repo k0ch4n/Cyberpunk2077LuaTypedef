@@ -14,6 +14,6 @@
 ---@field public startStateFromBreath Bool
 audioBreathingTemporaryStateMetadata = {}
 
----@param fields? table
+---@param fields? audioBreathingTemporaryStateMetadata
 ---@return audioBreathingTemporaryStateMetadata
 function audioBreathingTemporaryStateMetadata.new(fields) return end

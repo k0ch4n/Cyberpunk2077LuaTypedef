@@ -12,6 +12,6 @@
 ---@field public callbackID Uint32
 SFakeFeatureChoice = {}
 
----@param fields? table
+---@param fields? SFakeFeatureChoice
 ---@return SFakeFeatureChoice
 function SFakeFeatureChoice.new(fields) return end

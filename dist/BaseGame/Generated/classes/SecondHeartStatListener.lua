@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 SecondHeartStatListener = {}
 
----@param fields? table
+---@param fields? SecondHeartStatListener
 ---@return SecondHeartStatListener
 function SecondHeartStatListener.new(fields) return end
 

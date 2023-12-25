@@ -4,7 +4,7 @@
 ---@class gamedataVehicleDestruction_Record: gamedataTweakDBRecord
 gamedataVehicleDestruction_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleDestruction_Record
 ---@return gamedataVehicleDestruction_Record
 function gamedataVehicleDestruction_Record.new(fields) return end
 

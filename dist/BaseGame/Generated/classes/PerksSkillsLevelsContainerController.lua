@@ -10,7 +10,7 @@
 ---@field protected proficiencyDisplayData ProficiencyDisplayData
 PerksSkillsLevelsContainerController = {}
 
----@param fields? table
+---@param fields? PerksSkillsLevelsContainerController
 ---@return PerksSkillsLevelsContainerController
 function PerksSkillsLevelsContainerController.new(fields) return end
 

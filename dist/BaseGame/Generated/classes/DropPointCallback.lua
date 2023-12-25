@@ -5,7 +5,7 @@
 ---@field public dps DropPointSystem
 DropPointCallback = {}
 
----@param fields? table
+---@param fields? DropPointCallback
 ---@return DropPointCallback
 function DropPointCallback.new(fields) return end
 

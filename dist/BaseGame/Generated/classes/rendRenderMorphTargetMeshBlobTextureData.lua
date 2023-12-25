@@ -10,6 +10,6 @@
 ---@field public targetDiffsMipLevelCounts Uint8
 rendRenderMorphTargetMeshBlobTextureData = {}
 
----@param fields? table
+---@param fields? rendRenderMorphTargetMeshBlobTextureData
 ---@return rendRenderMorphTargetMeshBlobTextureData
 function rendRenderMorphTargetMeshBlobTextureData.new(fields) return end

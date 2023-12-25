@@ -7,6 +7,6 @@
 ---@field public shuffle Bool
 audioCombatVoTriggerVariationsMapItem = {}
 
----@param fields? table
+---@param fields? audioCombatVoTriggerVariationsMapItem
 ---@return audioCombatVoTriggerVariationsMapItem
 function audioCombatVoTriggerVariationsMapItem.new(fields) return end

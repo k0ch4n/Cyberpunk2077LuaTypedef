@@ -8,6 +8,6 @@
 ---@field public scrollTime Float
 inkRollingListController = {}
 
----@param fields? table
+---@param fields? inkRollingListController
 ---@return inkRollingListController
 function inkRollingListController.new(fields) return end

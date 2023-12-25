@@ -4,6 +4,6 @@
 ---@class gameMovingPlatformMovementLinear: gameIMovingPlatformMovementPointToPoint
 gameMovingPlatformMovementLinear = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformMovementLinear
 ---@return gameMovingPlatformMovementLinear
 function gameMovingPlatformMovementLinear.new(fields) return end

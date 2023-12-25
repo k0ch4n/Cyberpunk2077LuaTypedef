@@ -4,7 +4,7 @@
 ---@class IsBoss: AIbehaviorconditionScript
 IsBoss = {}
 
----@param fields? table
+---@param fields? IsBoss
 ---@return IsBoss
 function IsBoss.new(fields) return end
 

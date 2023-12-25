@@ -5,6 +5,6 @@
 ---@field public localTransform Transform
 gamecarryReplicatedEntitySetAttachmentToWorld = {}
 
----@param fields? table
+---@param fields? gamecarryReplicatedEntitySetAttachmentToWorld
 ---@return gamecarryReplicatedEntitySetAttachmentToWorld
 function gamecarryReplicatedEntitySetAttachmentToWorld.new(fields) return end

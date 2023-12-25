@@ -14,6 +14,6 @@
 ---@field public levelFinishCard inkWidgetReference
 gameuiarcadeShooterHUDController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterHUDController
 ---@return gameuiarcadeShooterHUDController
 function gameuiarcadeShooterHUDController.new(fields) return end

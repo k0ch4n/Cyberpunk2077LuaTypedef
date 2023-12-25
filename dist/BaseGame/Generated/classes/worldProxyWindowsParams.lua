@@ -13,6 +13,6 @@
 ---@field public distantWindowsTurnedOf Float
 worldProxyWindowsParams = {}
 
----@param fields? table
+---@param fields? worldProxyWindowsParams
 ---@return worldProxyWindowsParams
 function worldProxyWindowsParams.new(fields) return end

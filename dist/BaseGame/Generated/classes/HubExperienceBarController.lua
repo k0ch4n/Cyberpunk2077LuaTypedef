@@ -5,7 +5,7 @@
 ---@field protected foregroundContainer inkWidgetReference
 HubExperienceBarController = {}
 
----@param fields? table
+---@param fields? HubExperienceBarController
 ---@return HubExperienceBarController
 function HubExperienceBarController.new(fields) return end
 

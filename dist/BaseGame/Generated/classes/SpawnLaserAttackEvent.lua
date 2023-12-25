@@ -9,6 +9,6 @@
 ---@field public playSlotAnimation Bool
 SpawnLaserAttackEvent = {}
 
----@param fields? table
+---@param fields? SpawnLaserAttackEvent
 ---@return SpawnLaserAttackEvent
 function SpawnLaserAttackEvent.new(fields) return end

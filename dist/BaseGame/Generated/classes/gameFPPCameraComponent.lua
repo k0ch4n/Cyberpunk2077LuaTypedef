@@ -12,7 +12,7 @@
 ---@field public timeDilationCurveName CName
 gameFPPCameraComponent = {}
 
----@param fields? table
+---@param fields? gameFPPCameraComponent
 ---@return gameFPPCameraComponent
 function gameFPPCameraComponent.new(fields) return end
 

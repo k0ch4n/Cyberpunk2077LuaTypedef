@@ -4,6 +4,6 @@
 ---@class inkBasePanelWidgetReference: inkCompoundWidgetReference
 inkBasePanelWidgetReference = {}
 
----@param fields? table
+---@param fields? inkBasePanelWidgetReference
 ---@return inkBasePanelWidgetReference
 function inkBasePanelWidgetReference.new(fields) return end

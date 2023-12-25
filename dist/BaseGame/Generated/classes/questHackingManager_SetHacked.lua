@@ -5,6 +5,6 @@
 ---@field public hacked Bool
 questHackingManager_SetHacked = {}
 
----@param fields? table
+---@param fields? questHackingManager_SetHacked
 ---@return questHackingManager_SetHacked
 function questHackingManager_SetHacked.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class scnCutControlNode: scnSceneGraphNode
 scnCutControlNode = {}
 
----@param fields? table
+---@param fields? scnCutControlNode
 ---@return scnCutControlNode
 function scnCutControlNode.new(fields) return end

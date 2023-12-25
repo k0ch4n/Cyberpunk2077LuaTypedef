@@ -6,6 +6,6 @@
 ---@field public targetFactor Float
 worldSpeedSplineNodeRoadAdjustmentFactorChangeSection = {}
 
----@param fields? table
+---@param fields? worldSpeedSplineNodeRoadAdjustmentFactorChangeSection
 ---@return worldSpeedSplineNodeRoadAdjustmentFactorChangeSection
 function worldSpeedSplineNodeRoadAdjustmentFactorChangeSection.new(fields) return end

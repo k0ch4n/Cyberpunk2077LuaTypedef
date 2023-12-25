@@ -11,7 +11,7 @@
 ---@field public isTriggerDown Bool
 gameweaponAnimFeature_WeaponData = {}
 
----@param fields? table
+---@param fields? gameweaponAnimFeature_WeaponData
 ---@return gameweaponAnimFeature_WeaponData
 function gameweaponAnimFeature_WeaponData.new(fields) return end
 

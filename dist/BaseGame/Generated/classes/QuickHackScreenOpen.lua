@@ -5,7 +5,7 @@
 ---@field public setToOpen Bool
 QuickHackScreenOpen = {}
 
----@param fields? table
+---@param fields? QuickHackScreenOpen
 ---@return QuickHackScreenOpen
 function QuickHackScreenOpen.new(fields) return end
 

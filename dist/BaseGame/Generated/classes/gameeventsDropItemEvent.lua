@@ -5,6 +5,6 @@
 ---@field public slotId TweakDBID
 gameeventsDropItemEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDropItemEvent
 ---@return gameeventsDropItemEvent
 function gameeventsDropItemEvent.new(fields) return end

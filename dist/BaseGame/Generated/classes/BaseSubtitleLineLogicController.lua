@@ -8,7 +8,7 @@
 ---@field private c_tier2_duration Float
 BaseSubtitleLineLogicController = {}
 
----@param fields? table
+---@param fields? BaseSubtitleLineLogicController
 ---@return BaseSubtitleLineLogicController
 function BaseSubtitleLineLogicController.new(fields) return end
 

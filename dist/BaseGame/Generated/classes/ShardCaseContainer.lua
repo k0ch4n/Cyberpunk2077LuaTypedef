@@ -6,7 +6,7 @@
 ---@field public shardMesh entMeshComponent
 ShardCaseContainer = {}
 
----@param fields? table
+---@param fields? ShardCaseContainer
 ---@return ShardCaseContainer
 function ShardCaseContainer.new(fields) return end
 

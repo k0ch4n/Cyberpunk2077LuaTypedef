@@ -8,6 +8,6 @@
 ---@field public materialOverrides CName[]
 audioPhysicalPropSettings = {}
 
----@param fields? table
+---@param fields? audioPhysicalPropSettings
 ---@return audioPhysicalPropSettings
 function audioPhysicalPropSettings.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class FastForwardActiveEvents: ScenesFastForwardTransition
 FastForwardActiveEvents = {}
 
----@param fields? table
+---@param fields? FastForwardActiveEvents
 ---@return FastForwardActiveEvents
 function FastForwardActiveEvents.new(fields) return end
 

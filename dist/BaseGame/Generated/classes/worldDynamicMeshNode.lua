@@ -10,6 +10,6 @@
 ---@field public useMeshNavmeshSettings Bool
 worldDynamicMeshNode = {}
 
----@param fields? table
+---@param fields? worldDynamicMeshNode
 ---@return worldDynamicMeshNode
 function worldDynamicMeshNode.new(fields) return end

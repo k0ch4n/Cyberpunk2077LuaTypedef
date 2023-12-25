@@ -10,7 +10,7 @@
 ---@field public AttackEffects DamageEffectUIEntry[]
 UIInventoryItemProgramData = {}
 
----@param fields? table
+---@param fields? UIInventoryItemProgramData
 ---@return UIInventoryItemProgramData
 function UIInventoryItemProgramData.new(fields) return end
 

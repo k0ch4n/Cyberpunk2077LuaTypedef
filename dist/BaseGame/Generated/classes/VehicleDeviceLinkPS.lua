@@ -4,7 +4,7 @@
 ---@class VehicleDeviceLinkPS: DeviceLinkComponentPS
 VehicleDeviceLinkPS = {}
 
----@param fields? table
+---@param fields? VehicleDeviceLinkPS
 ---@return VehicleDeviceLinkPS
 function VehicleDeviceLinkPS.new(fields) return end
 

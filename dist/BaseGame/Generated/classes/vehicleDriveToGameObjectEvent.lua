@@ -5,6 +5,6 @@
 ---@field public targetObjToReach gameObject
 vehicleDriveToGameObjectEvent = {}
 
----@param fields? table
+---@param fields? vehicleDriveToGameObjectEvent
 ---@return vehicleDriveToGameObjectEvent
 function vehicleDriveToGameObjectEvent.new(fields) return end

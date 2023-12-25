@@ -13,6 +13,6 @@
 ---@field public visibilityDistance Float
 worldStaticStickerNode = {}
 
----@param fields? table
+---@param fields? worldStaticStickerNode
 ---@return worldStaticStickerNode
 function worldStaticStickerNode.new(fields) return end

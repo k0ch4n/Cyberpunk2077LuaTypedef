@@ -6,6 +6,6 @@
 ---@field public itemOverrides workWorkspotItemOverrideItemOverride[]
 workWorkspotItemOverride = {}
 
----@param fields? table
+---@param fields? workWorkspotItemOverride
 ---@return workWorkspotItemOverride
 function workWorkspotItemOverride.new(fields) return end

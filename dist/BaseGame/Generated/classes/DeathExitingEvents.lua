@@ -4,6 +4,6 @@
 ---@class DeathExitingEvents: ImmediateExitWithForceEvents
 DeathExitingEvents = {}
 
----@param fields? table
+---@param fields? DeathExitingEvents
 ---@return DeathExitingEvents
 function DeathExitingEvents.new(fields) return end

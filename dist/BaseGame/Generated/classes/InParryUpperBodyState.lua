@@ -4,7 +4,7 @@
 ---@class InParryUpperBodyState: AINPCUpperBodyStateCheck
 InParryUpperBodyState = {}
 
----@param fields? table
+---@param fields? InParryUpperBodyState
 ---@return InParryUpperBodyState
 function InParryUpperBodyState.new(fields) return end
 

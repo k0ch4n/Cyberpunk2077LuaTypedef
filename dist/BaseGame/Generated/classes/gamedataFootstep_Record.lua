@@ -4,7 +4,7 @@
 ---@class gamedataFootstep_Record: gamedataTweakDBRecord
 gamedataFootstep_Record = {}
 
----@param fields? table
+---@param fields? gamedataFootstep_Record
 ---@return gamedataFootstep_Record
 function gamedataFootstep_Record.new(fields) return end
 

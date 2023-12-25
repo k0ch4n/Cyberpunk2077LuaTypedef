@@ -5,6 +5,6 @@
 ---@field public value Vector4
 entReplicatedInputSetterVector = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetterVector
 ---@return entReplicatedInputSetterVector
 function entReplicatedInputSetterVector.new(fields) return end

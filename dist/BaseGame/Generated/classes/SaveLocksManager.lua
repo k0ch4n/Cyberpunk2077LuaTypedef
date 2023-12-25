@@ -5,7 +5,7 @@
 ---@field private saveLocks CName[]
 SaveLocksManager = {}
 
----@param fields? table
+---@param fields? SaveLocksManager
 ---@return SaveLocksManager
 function SaveLocksManager.new(fields) return end
 

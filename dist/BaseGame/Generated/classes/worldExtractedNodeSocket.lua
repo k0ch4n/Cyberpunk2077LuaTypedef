@@ -12,6 +12,6 @@
 ---@field public color Color
 worldExtractedNodeSocket = {}
 
----@param fields? table
+---@param fields? worldExtractedNodeSocket
 ---@return worldExtractedNodeSocket
 function worldExtractedNodeSocket.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameTPPCustomizableAppearanceChangeFinishedEvent: redEvent
 gameTPPCustomizableAppearanceChangeFinishedEvent = {}
 
----@param fields? table
+---@param fields? gameTPPCustomizableAppearanceChangeFinishedEvent
 ---@return gameTPPCustomizableAppearanceChangeFinishedEvent
 function gameTPPCustomizableAppearanceChangeFinishedEvent.new(fields) return end

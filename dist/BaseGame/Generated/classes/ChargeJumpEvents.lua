@@ -4,7 +4,7 @@
 ---@class ChargeJumpEvents: LocomotionAirEvents
 ChargeJumpEvents = {}
 
----@param fields? table
+---@param fields? ChargeJumpEvents
 ---@return ChargeJumpEvents
 function ChargeJumpEvents.new(fields) return end
 

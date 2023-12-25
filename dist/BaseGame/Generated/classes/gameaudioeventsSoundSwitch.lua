@@ -6,6 +6,6 @@
 ---@field public switchValue CName
 gameaudioeventsSoundSwitch = {}
 
----@param fields? table
+---@param fields? gameaudioeventsSoundSwitch
 ---@return gameaudioeventsSoundSwitch
 function gameaudioeventsSoundSwitch.new(fields) return end

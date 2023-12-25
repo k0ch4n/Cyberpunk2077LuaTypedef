@@ -4,7 +4,7 @@
 ---@class ResetDoorState: redEvent
 ResetDoorState = {}
 
----@param fields? table
+---@param fields? ResetDoorState
 ---@return ResetDoorState
 function ResetDoorState.new(fields) return end
 

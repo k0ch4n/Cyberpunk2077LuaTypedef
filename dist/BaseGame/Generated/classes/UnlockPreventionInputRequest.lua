@@ -4,6 +4,6 @@
 ---@class UnlockPreventionInputRequest: gameScriptableSystemRequest
 UnlockPreventionInputRequest = {}
 
----@param fields? table
+---@param fields? UnlockPreventionInputRequest
 ---@return UnlockPreventionInputRequest
 function UnlockPreventionInputRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameSimpleStatPoolDataModifierStatListener: gameStatPoolDataModifierStatListener
 gameSimpleStatPoolDataModifierStatListener = {}
 
----@param fields? table
+---@param fields? gameSimpleStatPoolDataModifierStatListener
 ---@return gameSimpleStatPoolDataModifierStatListener
 function gameSimpleStatPoolDataModifierStatListener.new(fields) return end

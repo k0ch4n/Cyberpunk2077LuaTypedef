@@ -4,6 +4,6 @@
 ---@class gameInventoryChangedEvent: redEvent
 gameInventoryChangedEvent = {}
 
----@param fields? table
+---@param fields? gameInventoryChangedEvent
 ---@return gameInventoryChangedEvent
 function gameInventoryChangedEvent.new(fields) return end

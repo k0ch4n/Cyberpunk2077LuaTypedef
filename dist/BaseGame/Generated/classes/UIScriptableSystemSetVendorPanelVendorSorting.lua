@@ -5,6 +5,6 @@
 ---@field public sortMode Int32
 UIScriptableSystemSetVendorPanelVendorSorting = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemSetVendorPanelVendorSorting
 ---@return UIScriptableSystemSetVendorPanelVendorSorting
 function UIScriptableSystemSetVendorPanelVendorSorting.new(fields) return end

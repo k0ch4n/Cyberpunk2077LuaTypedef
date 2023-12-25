@@ -4,7 +4,7 @@
 ---@class gamedataBaseSign_Record: gamedataTweakDBRecord
 gamedataBaseSign_Record = {}
 
----@param fields? table
+---@param fields? gamedataBaseSign_Record
 ---@return gamedataBaseSign_Record
 function gamedataBaseSign_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakItemsInInventoryListener: gameIInventoryListener
 AIbehaviortweakItemsInInventoryListener = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakItemsInInventoryListener
 ---@return AIbehaviortweakItemsInInventoryListener
 function AIbehaviortweakItemsInInventoryListener.new(fields) return end

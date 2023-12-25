@@ -26,7 +26,7 @@
 ---@field private tranistionAnimProxy inkanimProxy
 LoadListItem = {}
 
----@param fields? table
+---@param fields? LoadListItem
 ---@return LoadListItem
 function LoadListItem.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class DoorOpeningToken: ActionBool
 DoorOpeningToken = {}
 
----@param fields? table
+---@param fields? DoorOpeningToken
 ---@return DoorOpeningToken
 function DoorOpeningToken.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public evt RemoveLinkedStatusEffectsEvent
 LinkedStatusEffectListener = {}
 
----@param fields? table
+---@param fields? LinkedStatusEffectListener
 ---@return LinkedStatusEffectListener
 function LinkedStatusEffectListener.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ToggleOpenFridge: ActionBool
 ToggleOpenFridge = {}
 
----@param fields? table
+---@param fields? ToggleOpenFridge
 ---@return ToggleOpenFridge
 function ToggleOpenFridge.new(fields) return end
 

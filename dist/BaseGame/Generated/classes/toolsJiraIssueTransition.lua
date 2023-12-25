@@ -5,6 +5,6 @@
 ---@field public id String
 toolsJiraIssueTransition = {}
 
----@param fields? table
+---@param fields? toolsJiraIssueTransition
 ---@return toolsJiraIssueTransition
 function toolsJiraIssueTransition.new(fields) return end

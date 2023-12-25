@@ -5,6 +5,6 @@
 ---@field public mappings worldFoliageDestructionMapping[]
 worldFoliageDestructionResource = {}
 
----@param fields? table
+---@param fields? worldFoliageDestructionResource
 ---@return worldFoliageDestructionResource
 function worldFoliageDestructionResource.new(fields) return end

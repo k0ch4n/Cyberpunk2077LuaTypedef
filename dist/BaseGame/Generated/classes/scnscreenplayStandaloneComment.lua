@@ -6,6 +6,6 @@
 ---@field public comment String
 scnscreenplayStandaloneComment = {}
 
----@param fields? table
+---@param fields? scnscreenplayStandaloneComment
 ---@return scnscreenplayStandaloneComment
 function scnscreenplayStandaloneComment.new(fields) return end

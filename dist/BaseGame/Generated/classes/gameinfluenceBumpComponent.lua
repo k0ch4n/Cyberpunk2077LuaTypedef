@@ -13,7 +13,7 @@
 ---@field public isBumpable Bool
 gameinfluenceBumpComponent = {}
 
----@param fields? table
+---@param fields? gameinfluenceBumpComponent
 ---@return gameinfluenceBumpComponent
 function gameinfluenceBumpComponent.new(fields) return end
 

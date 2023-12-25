@@ -4,6 +4,6 @@
 ---@class worldWaterNullAreaNode: worldAreaShapeNode
 worldWaterNullAreaNode = {}
 
----@param fields? table
+---@param fields? worldWaterNullAreaNode
 ---@return worldWaterNullAreaNode
 function worldWaterNullAreaNode.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public targetSpeed_M_P_S Float
 worldSpeedSplineNodeSpeedChangeSection = {}
 
----@param fields? table
+---@param fields? worldSpeedSplineNodeSpeedChangeSection
 ---@return worldSpeedSplineNodeSpeedChangeSection
 function worldSpeedSplineNodeSpeedChangeSection.new(fields) return end

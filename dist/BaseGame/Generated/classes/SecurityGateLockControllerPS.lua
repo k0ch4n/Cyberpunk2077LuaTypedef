@@ -8,7 +8,7 @@
 ---@field public isLocked Bool
 SecurityGateLockControllerPS = {}
 
----@param fields? table
+---@param fields? SecurityGateLockControllerPS
 ---@return SecurityGateLockControllerPS
 function SecurityGateLockControllerPS.new(fields) return end
 

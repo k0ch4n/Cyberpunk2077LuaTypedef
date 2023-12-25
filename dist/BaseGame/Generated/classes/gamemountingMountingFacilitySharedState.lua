@@ -9,6 +9,6 @@
 ---@field public childTypes gameMountingObjectType[]
 gamemountingMountingFacilitySharedState = {}
 
----@param fields? table
+---@param fields? gamemountingMountingFacilitySharedState
 ---@return gamemountingMountingFacilitySharedState
 function gamemountingMountingFacilitySharedState.new(fields) return end

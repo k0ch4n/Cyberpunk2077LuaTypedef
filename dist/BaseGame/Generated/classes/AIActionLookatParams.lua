@@ -18,6 +18,6 @@
 ---@field public additionalParts animLookAtPartRequest[]
 AIActionLookatParams = {}
 
----@param fields? table
+---@param fields? AIActionLookatParams
 ---@return AIActionLookatParams
 function AIActionLookatParams.new(fields) return end

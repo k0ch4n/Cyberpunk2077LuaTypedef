@@ -7,6 +7,6 @@
 ---@field public SetByUser Bool
 entdismembermentAppearanceMatch = {}
 
----@param fields? table
+---@param fields? entdismembermentAppearanceMatch
 ---@return entdismembermentAppearanceMatch
 function entdismembermentAppearanceMatch.new(fields) return end

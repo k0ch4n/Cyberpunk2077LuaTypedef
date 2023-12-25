@@ -4,6 +4,6 @@
 ---@class HitShieldEvent: redEvent
 HitShieldEvent = {}
 
----@param fields? table
+---@param fields? HitShieldEvent
 ---@return HitShieldEvent
 function HitShieldEvent.new(fields) return end

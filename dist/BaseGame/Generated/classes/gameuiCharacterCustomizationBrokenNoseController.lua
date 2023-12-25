@@ -7,6 +7,6 @@
 ---@field public finalSceneGroup CName
 gameuiCharacterCustomizationBrokenNoseController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationBrokenNoseController
 ---@return gameuiCharacterCustomizationBrokenNoseController
 function gameuiCharacterCustomizationBrokenNoseController.new(fields) return end

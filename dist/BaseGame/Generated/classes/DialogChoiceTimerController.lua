@@ -14,7 +14,7 @@
 ---@field private time Float
 DialogChoiceTimerController = {}
 
----@param fields? table
+---@param fields? DialogChoiceTimerController
 ---@return DialogChoiceTimerController
 function DialogChoiceTimerController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public entryIdToJumpTo Int32
 questJumpWorkspotAnim_NodeType = {}
 
----@param fields? table
+---@param fields? questJumpWorkspotAnim_NodeType
 ---@return questJumpWorkspotAnim_NodeType
 function questJumpWorkspotAnim_NodeType.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public hierarchical Bool
 gamehitRepresentationEventsToggleHitShapeEvent = {}
 
----@param fields? table
+---@param fields? gamehitRepresentationEventsToggleHitShapeEvent
 ---@return gamehitRepresentationEventsToggleHitShapeEvent
 function gamehitRepresentationEventsToggleHitShapeEvent.new(fields) return end

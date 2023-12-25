@@ -4,7 +4,7 @@
 ---@class WeakFenceController: ScriptableDeviceComponent
 WeakFenceController = {}
 
----@param fields? table
+---@param fields? WeakFenceController
 ---@return WeakFenceController
 function WeakFenceController.new(fields) return end
 

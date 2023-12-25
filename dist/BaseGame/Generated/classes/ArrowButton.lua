@@ -5,7 +5,7 @@
 ---@field private direction Direction
 ArrowButton = {}
 
----@param fields? table
+---@param fields? ArrowButton
 ---@return ArrowButton
 function ArrowButton.new(fields) return end
 

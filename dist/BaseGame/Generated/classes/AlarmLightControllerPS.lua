@@ -5,7 +5,7 @@
 ---@field protected securityAlarmState ESecuritySystemState
 AlarmLightControllerPS = {}
 
----@param fields? table
+---@param fields? AlarmLightControllerPS
 ---@return AlarmLightControllerPS
 function AlarmLightControllerPS.new(fields) return end
 

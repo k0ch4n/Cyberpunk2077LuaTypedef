@@ -5,6 +5,6 @@
 ---@field public userEntry SecuritySystemClearanceEntry
 AddUserEvent = {}
 
----@param fields? table
+---@param fields? AddUserEvent
 ---@return AddUserEvent
 function AddUserEvent.new(fields) return end

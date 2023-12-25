@@ -7,6 +7,6 @@
 ---@field public closesAt Uint32
 scnFlowControlNode = {}
 
----@param fields? table
+---@param fields? scnFlowControlNode
 ---@return scnFlowControlNode
 function scnFlowControlNode.new(fields) return end

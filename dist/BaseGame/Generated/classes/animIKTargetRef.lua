@@ -6,6 +6,6 @@
 ---@field public part CName
 animIKTargetRef = {}
 
----@param fields? table
+---@param fields? animIKTargetRef
 ---@return animIKTargetRef
 function animIKTargetRef.new(fields) return end

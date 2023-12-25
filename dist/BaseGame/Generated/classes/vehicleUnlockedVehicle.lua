@@ -6,6 +6,6 @@
 ---@field public health Float
 vehicleUnlockedVehicle = {}
 
----@param fields? table
+---@param fields? vehicleUnlockedVehicle
 ---@return vehicleUnlockedVehicle
 function vehicleUnlockedVehicle.new(fields) return end

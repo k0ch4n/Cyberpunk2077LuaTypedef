@@ -6,6 +6,6 @@
 ---@field public requestType gamedeviceRequestType
 PuppetActionContext = {}
 
----@param fields? table
+---@param fields? PuppetActionContext
 ---@return PuppetActionContext
 function PuppetActionContext.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public callBackID redCallbackObject
 SemiAutoDecisions = {}
 
----@param fields? table
+---@param fields? SemiAutoDecisions
 ---@return SemiAutoDecisions
 function SemiAutoDecisions.new(fields) return end
 

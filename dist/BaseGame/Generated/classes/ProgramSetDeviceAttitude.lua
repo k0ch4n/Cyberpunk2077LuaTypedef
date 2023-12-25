@@ -4,7 +4,7 @@
 ---@class ProgramSetDeviceAttitude: ActionBool
 ProgramSetDeviceAttitude = {}
 
----@param fields? table
+---@param fields? ProgramSetDeviceAttitude
 ---@return ProgramSetDeviceAttitude
 function ProgramSetDeviceAttitude.new(fields) return end
 

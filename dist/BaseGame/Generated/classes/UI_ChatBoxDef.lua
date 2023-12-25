@@ -5,7 +5,7 @@
 ---@field public TextList gamebbScriptID_Variant
 UI_ChatBoxDef = {}
 
----@param fields? table
+---@param fields? UI_ChatBoxDef
 ---@return UI_ChatBoxDef
 function UI_ChatBoxDef.new(fields) return end
 

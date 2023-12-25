@@ -4,7 +4,7 @@
 ---@class QuestSubObjectiveWrapper: ABaseQuestObjectiveWrapper
 QuestSubObjectiveWrapper = {}
 
----@param fields? table
+---@param fields? QuestSubObjectiveWrapper
 ---@return QuestSubObjectiveWrapper
 function QuestSubObjectiveWrapper.new(fields) return end
 

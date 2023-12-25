@@ -4,6 +4,6 @@
 ---@class cpStairsTrigger: gameObject
 cpStairsTrigger = {}
 
----@param fields? table
+---@param fields? cpStairsTrigger
 ---@return cpStairsTrigger
 function cpStairsTrigger.new(fields) return end

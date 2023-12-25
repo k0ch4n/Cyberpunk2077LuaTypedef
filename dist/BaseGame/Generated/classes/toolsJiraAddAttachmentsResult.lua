@@ -5,6 +5,6 @@
 ---@field public array toolsJiraAttachment[]
 toolsJiraAddAttachmentsResult = {}
 
----@param fields? table
+---@param fields? toolsJiraAddAttachmentsResult
 ---@return toolsJiraAddAttachmentsResult
 function toolsJiraAddAttachmentsResult.new(fields) return end

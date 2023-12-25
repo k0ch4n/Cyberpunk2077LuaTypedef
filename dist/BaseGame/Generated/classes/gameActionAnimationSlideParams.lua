@@ -20,6 +20,6 @@
 ---@field public zAlignmentThreshold Float
 gameActionAnimationSlideParams = {}
 
----@param fields? table
+---@param fields? gameActionAnimationSlideParams
 ---@return gameActionAnimationSlideParams
 function gameActionAnimationSlideParams.new(fields) return end

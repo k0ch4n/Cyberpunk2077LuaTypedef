@@ -5,6 +5,6 @@
 ---@field public uiControlsByName audioKeyUiControlDictionary
 audioUiControlMap = {}
 
----@param fields? table
+---@param fields? audioUiControlMap
 ---@return audioUiControlMap
 function audioUiControlMap.new(fields) return end

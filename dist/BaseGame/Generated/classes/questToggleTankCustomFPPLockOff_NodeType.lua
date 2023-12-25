@@ -7,6 +7,6 @@
 ---@field public val Bool
 questToggleTankCustomFPPLockOff_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleTankCustomFPPLockOff_NodeType
 ---@return questToggleTankCustomFPPLockOff_NodeType
 function questToggleTankCustomFPPLockOff_NodeType.new(fields) return end

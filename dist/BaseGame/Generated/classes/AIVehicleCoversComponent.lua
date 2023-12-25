@@ -4,6 +4,6 @@
 ---@class AIVehicleCoversComponent: entIComponent
 AIVehicleCoversComponent = {}
 
----@param fields? table
+---@param fields? AIVehicleCoversComponent
 ---@return AIVehicleCoversComponent
 function AIVehicleCoversComponent.new(fields) return end

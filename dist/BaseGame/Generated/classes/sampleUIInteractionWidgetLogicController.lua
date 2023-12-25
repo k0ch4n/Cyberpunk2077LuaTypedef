@@ -7,7 +7,7 @@
 ---@field private textWidget inkTextWidget
 sampleUIInteractionWidgetLogicController = {}
 
----@param fields? table
+---@param fields? sampleUIInteractionWidgetLogicController
 ---@return sampleUIInteractionWidgetLogicController
 function sampleUIInteractionWidgetLogicController.new(fields) return end
 

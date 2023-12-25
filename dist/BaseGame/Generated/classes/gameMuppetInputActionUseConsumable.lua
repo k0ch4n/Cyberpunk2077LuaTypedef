@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionUseConsumable: gameIMuppetInputAction
 gameMuppetInputActionUseConsumable = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionUseConsumable
 ---@return gameMuppetInputActionUseConsumable
 function gameMuppetInputActionUseConsumable.new(fields) return end

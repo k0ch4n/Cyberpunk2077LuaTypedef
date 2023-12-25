@@ -8,6 +8,6 @@
 ---@field public immediately Bool
 questCombatNodeParams_CombatTarget = {}
 
----@param fields? table
+---@param fields? questCombatNodeParams_CombatTarget
 ---@return questCombatNodeParams_CombatTarget
 function questCombatNodeParams_CombatTarget.new(fields) return end

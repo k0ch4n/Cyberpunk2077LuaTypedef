@@ -4,6 +4,6 @@
 ---@class CuttingGrenadeStopAttackEvent: redEvent
 CuttingGrenadeStopAttackEvent = {}
 
----@param fields? table
+---@param fields? CuttingGrenadeStopAttackEvent
 ---@return CuttingGrenadeStopAttackEvent
 function CuttingGrenadeStopAttackEvent.new(fields) return end

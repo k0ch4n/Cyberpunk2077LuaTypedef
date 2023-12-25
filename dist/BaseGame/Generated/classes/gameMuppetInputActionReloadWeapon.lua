@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionReloadWeapon: gameIMuppetInputAction
 gameMuppetInputActionReloadWeapon = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionReloadWeapon
 ---@return gameMuppetInputActionReloadWeapon
 function gameMuppetInputActionReloadWeapon.new(fields) return end

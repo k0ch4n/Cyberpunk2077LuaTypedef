@@ -12,6 +12,6 @@
 ---@field public boostDrivingStats AIArgumentMapping
 AIbehaviorDriveChaseTargetTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveChaseTargetTreeNodeDefinition
 ---@return AIbehaviorDriveChaseTargetTreeNodeDefinition
 function AIbehaviorDriveChaseTargetTreeNodeDefinition.new(fields) return end

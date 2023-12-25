@@ -8,6 +8,6 @@
 ---@field public entrySize Uint32
 physicsSectorEntry = {}
 
----@param fields? table
+---@param fields? physicsSectorEntry
 ---@return physicsSectorEntry
 function physicsSectorEntry.new(fields) return end

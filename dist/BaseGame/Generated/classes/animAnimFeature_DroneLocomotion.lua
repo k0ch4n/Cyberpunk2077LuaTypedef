@@ -9,6 +9,6 @@
 ---@field public pathCurvative Float
 animAnimFeature_DroneLocomotion = {}
 
----@param fields? table
+---@param fields? animAnimFeature_DroneLocomotion
 ---@return animAnimFeature_DroneLocomotion
 function animAnimFeature_DroneLocomotion.new(fields) return end

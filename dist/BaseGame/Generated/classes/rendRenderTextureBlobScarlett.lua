@@ -4,6 +4,6 @@
 ---@class rendRenderTextureBlobScarlett: rendIRenderTextureBlob
 rendRenderTextureBlobScarlett = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobScarlett
 ---@return rendRenderTextureBlobScarlett
 function rendRenderTextureBlobScarlett.new(fields) return end

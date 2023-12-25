@@ -4,7 +4,7 @@
 ---@class gameuiCyberspaceMappinsContainerController: gameuiMappinsContainerController
 gameuiCyberspaceMappinsContainerController = {}
 
----@param fields? table
+---@param fields? gameuiCyberspaceMappinsContainerController
 ---@return gameuiCyberspaceMappinsContainerController
 function gameuiCyberspaceMappinsContainerController.new(fields) return end
 

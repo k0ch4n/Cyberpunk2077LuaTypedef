@@ -16,6 +16,6 @@
 ---@field public tags CName[]
 gamedataGroupNode = {}
 
----@param fields? table
+---@param fields? gamedataGroupNode
 ---@return gamedataGroupNode
 function gamedataGroupNode.new(fields) return end

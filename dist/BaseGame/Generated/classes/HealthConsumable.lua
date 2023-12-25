@@ -8,7 +8,7 @@
 ---@field private respawnTime Float
 HealthConsumable = {}
 
----@param fields? table
+---@param fields? HealthConsumable
 ---@return HealthConsumable
 function HealthConsumable.new(fields) return end
 

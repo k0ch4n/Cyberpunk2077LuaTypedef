@@ -22,7 +22,7 @@
 ---@field private TEMP_separatorBarsEnabled Bool
 UIInventoryItemsManager = {}
 
----@param fields? table
+---@param fields? UIInventoryItemsManager
 ---@return UIInventoryItemsManager
 function UIInventoryItemsManager.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public slot TransmogSlots
 RestoreVisualSlot = {}
 
----@param fields? table
+---@param fields? RestoreVisualSlot
 ---@return RestoreVisualSlot
 function RestoreVisualSlot.new(fields) return end
 

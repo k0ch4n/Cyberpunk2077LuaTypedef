@@ -11,6 +11,6 @@
 ---@field public hitNpcMovementDirection Int32
 ForcedHitReactionEvent = {}
 
----@param fields? table
+---@param fields? ForcedHitReactionEvent
 ---@return ForcedHitReactionEvent
 function ForcedHitReactionEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamePuppetBlackboardUpdater: IScriptable
 gamePuppetBlackboardUpdater = {}
 
----@param fields? table
+---@param fields? gamePuppetBlackboardUpdater
 ---@return gamePuppetBlackboardUpdater
 function gamePuppetBlackboardUpdater.new(fields) return end
 

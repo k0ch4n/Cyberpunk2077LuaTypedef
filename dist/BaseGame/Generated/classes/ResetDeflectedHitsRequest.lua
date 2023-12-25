@@ -4,6 +4,6 @@
 ---@class ResetDeflectedHitsRequest: gameScriptableSystemRequest
 ResetDeflectedHitsRequest = {}
 
----@param fields? table
+---@param fields? ResetDeflectedHitsRequest
 ---@return ResetDeflectedHitsRequest
 function ResetDeflectedHitsRequest.new(fields) return end

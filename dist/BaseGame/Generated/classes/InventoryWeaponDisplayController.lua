@@ -9,7 +9,7 @@
 ---@field protected weaponAttachmentsDisplay InventoryItemPartDisplay[]
 InventoryWeaponDisplayController = {}
 
----@param fields? table
+---@param fields? InventoryWeaponDisplayController
 ---@return InventoryWeaponDisplayController
 function InventoryWeaponDisplayController.new(fields) return end
 

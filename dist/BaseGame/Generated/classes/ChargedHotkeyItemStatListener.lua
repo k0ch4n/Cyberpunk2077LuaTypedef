@@ -5,7 +5,7 @@
 ---@field private hotkeyController ChargedHotkeyItemBaseController
 ChargedHotkeyItemStatListener = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemStatListener
 ---@return ChargedHotkeyItemStatListener
 function ChargedHotkeyItemStatListener.new(fields) return end
 

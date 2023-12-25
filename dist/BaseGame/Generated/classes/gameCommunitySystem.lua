@@ -4,7 +4,7 @@
 ---@class gameCommunitySystem: gameICommunitySystem
 gameCommunitySystem = {}
 
----@param fields? table
+---@param fields? gameCommunitySystem
 ---@return gameCommunitySystem
 function gameCommunitySystem.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public items audioVoiceTriggerRewireMapItem[]
 audioVoiceTriggerRewireMap = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerRewireMap
 ---@return audioVoiceTriggerRewireMap
 function audioVoiceTriggerRewireMap.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value Bool
 animAnimNode_BoolConstant = {}
 
----@param fields? table
+---@param fields? animAnimNode_BoolConstant
 ---@return animAnimNode_BoolConstant
 function animAnimNode_BoolConstant.new(fields) return end

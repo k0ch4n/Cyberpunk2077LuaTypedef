@@ -4,7 +4,7 @@
 ---@class HitTriggeredCallback: HitCallback
 HitTriggeredCallback = {}
 
----@param fields? table
+---@param fields? HitTriggeredCallback
 ---@return HitTriggeredCallback
 function HitTriggeredCallback.new(fields) return end
 

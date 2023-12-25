@@ -5,6 +5,6 @@
 ---@field public soundEventName CName
 inkanimPlaySoundEvent = {}
 
----@param fields? table
+---@param fields? inkanimPlaySoundEvent
 ---@return inkanimPlaySoundEvent
 function inkanimPlaySoundEvent.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public offsetY Float
 inkInnerGlowEffect = {}
 
----@param fields? table
+---@param fields? inkInnerGlowEffect
 ---@return inkInnerGlowEffect
 function inkInnerGlowEffect.new(fields) return end

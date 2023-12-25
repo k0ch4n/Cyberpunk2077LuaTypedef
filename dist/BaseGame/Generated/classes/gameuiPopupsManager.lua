@@ -34,7 +34,7 @@
 ---@field private expansionStateToken inkGameNotificationToken
 gameuiPopupsManager = {}
 
----@param fields? table
+---@param fields? gameuiPopupsManager
 ---@return gameuiPopupsManager
 function gameuiPopupsManager.new(fields) return end
 

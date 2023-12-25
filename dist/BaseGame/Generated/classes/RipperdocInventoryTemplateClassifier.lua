@@ -4,7 +4,7 @@
 ---@class RipperdocInventoryTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 RipperdocInventoryTemplateClassifier = {}
 
----@param fields? table
+---@param fields? RipperdocInventoryTemplateClassifier
 ---@return RipperdocInventoryTemplateClassifier
 function RipperdocInventoryTemplateClassifier.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldReflectionProbeNodeInstance: worldINodeInstance
 worldReflectionProbeNodeInstance = {}
 
----@param fields? table
+---@param fields? worldReflectionProbeNodeInstance
 ---@return worldReflectionProbeNodeInstance
 function worldReflectionProbeNodeInstance.new(fields) return end

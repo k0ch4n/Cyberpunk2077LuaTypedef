@@ -5,6 +5,6 @@
 ---@field public IconID TweakDBID
 SetIconSelectEvent = {}
 
----@param fields? table
+---@param fields? SetIconSelectEvent
 ---@return SetIconSelectEvent
 function SetIconSelectEvent.new(fields) return end

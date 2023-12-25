@@ -4,7 +4,7 @@
 ---@class gamedataApplyStatusEffectByChanceEffector_Record: gamedataApplyStatusEffectEffector_Record
 gamedataApplyStatusEffectByChanceEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataApplyStatusEffectByChanceEffector_Record
 ---@return gamedataApplyStatusEffectByChanceEffector_Record
 function gamedataApplyStatusEffectByChanceEffector_Record.new(fields) return end
 

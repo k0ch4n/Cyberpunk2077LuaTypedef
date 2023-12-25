@@ -4,6 +4,6 @@
 ---@class gameConstantStatModifier: gameStatModifierBase
 gameConstantStatModifier = {}
 
----@param fields? table
+---@param fields? gameConstantStatModifier
 ---@return gameConstantStatModifier
 function gameConstantStatModifier.new(fields) return end

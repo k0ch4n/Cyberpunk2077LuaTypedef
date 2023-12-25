@@ -5,7 +5,7 @@
 ---@field private ctrl gameuiControllerSettingsGameController
 InputSettingsVarListener = {}
 
----@param fields? table
+---@param fields? InputSettingsVarListener
 ---@return InputSettingsVarListener
 function InputSettingsVarListener.new(fields) return end
 

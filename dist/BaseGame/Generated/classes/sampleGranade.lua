@@ -11,7 +11,7 @@
 ---@field private alive Bool
 sampleGranade = {}
 
----@param fields? table
+---@param fields? sampleGranade
 ---@return sampleGranade
 function sampleGranade.new(fields) return end
 

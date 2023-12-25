@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionChangeAttitude_Record: gamedataAISubAction_Record
 gamedataAISubActionChangeAttitude_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionChangeAttitude_Record
 ---@return gamedataAISubActionChangeAttitude_Record
 function gamedataAISubActionChangeAttitude_Record.new(fields) return end
 

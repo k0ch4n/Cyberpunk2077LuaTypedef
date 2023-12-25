@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 HandleItemEquippedNextFrameEvent = {}
 
----@param fields? table
+---@param fields? HandleItemEquippedNextFrameEvent
 ---@return HandleItemEquippedNextFrameEvent
 function HandleItemEquippedNextFrameEvent.new(fields) return end

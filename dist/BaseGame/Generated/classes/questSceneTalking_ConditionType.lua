@@ -10,6 +10,6 @@
 ---@field public isInverted Bool
 questSceneTalking_ConditionType = {}
 
----@param fields? table
+---@param fields? questSceneTalking_ConditionType
 ---@return questSceneTalking_ConditionType
 function questSceneTalking_ConditionType.new(fields) return end

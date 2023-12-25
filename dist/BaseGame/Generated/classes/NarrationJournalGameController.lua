@@ -6,7 +6,7 @@
 ---@field private narrationJournalBlackboardId redCallbackObject
 NarrationJournalGameController = {}
 
----@param fields? table
+---@param fields? NarrationJournalGameController
 ---@return NarrationJournalGameController
 function NarrationJournalGameController.new(fields) return end
 

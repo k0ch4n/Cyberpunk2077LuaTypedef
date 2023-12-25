@@ -8,7 +8,7 @@
 ---@field public compiledBuffer DataBuffer
 entSimpleColliderComponent = {}
 
----@param fields? table
+---@param fields? entSimpleColliderComponent
 ---@return entSimpleColliderComponent
 function entSimpleColliderComponent.new(fields) return end
 

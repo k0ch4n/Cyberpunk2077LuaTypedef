@@ -8,6 +8,6 @@
 ---@field public userData IScriptable
 HubMenuInitData = {}
 
----@param fields? table
+---@param fields? HubMenuInitData
 ---@return HubMenuInitData
 function HubMenuInitData.new(fields) return end

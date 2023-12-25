@@ -6,7 +6,7 @@
 ---@field public max Int32
 gamedeviceClearance = {}
 
----@param fields? table
+---@param fields? gamedeviceClearance
 ---@return gamedeviceClearance
 function gamedeviceClearance.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class CrowdMemberBaseComponent: gameCrowdMemberComponent
 CrowdMemberBaseComponent = {}
 
----@param fields? table
+---@param fields? CrowdMemberBaseComponent
 ---@return CrowdMemberBaseComponent
 function CrowdMemberBaseComponent.new(fields) return end

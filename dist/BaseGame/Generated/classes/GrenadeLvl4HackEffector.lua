@@ -6,7 +6,7 @@
 ---@field private grenadeChangedListener gameAttachmentSlotsScriptListener
 GrenadeLvl4HackEffector = {}
 
----@param fields? table
+---@param fields? GrenadeLvl4HackEffector
 ---@return GrenadeLvl4HackEffector
 function GrenadeLvl4HackEffector.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public green ScriptLightSettings
 LedColors = {}
 
----@param fields? table
+---@param fields? LedColors
 ---@return LedColors
 function LedColors.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public farBlendDistance Vector2
 CParticleModificatorAlphaByDistance = {}
 
----@param fields? table
+---@param fields? CParticleModificatorAlphaByDistance
 ---@return CParticleModificatorAlphaByDistance
 function CParticleModificatorAlphaByDistance.new(fields) return end

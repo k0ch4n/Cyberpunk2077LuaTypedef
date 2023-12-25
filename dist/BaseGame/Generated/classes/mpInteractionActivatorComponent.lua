@@ -4,6 +4,6 @@
 ---@class mpInteractionActivatorComponent: entIPlacedComponent
 mpInteractionActivatorComponent = {}
 
----@param fields? table
+---@param fields? mpInteractionActivatorComponent
 ---@return mpInteractionActivatorComponent
 function mpInteractionActivatorComponent.new(fields) return end

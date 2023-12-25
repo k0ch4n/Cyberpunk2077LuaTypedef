@@ -10,7 +10,7 @@
 ---@field private performedCustomActionsIDs CName[]
 GenericDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? GenericDeviceControllerPS
 ---@return GenericDeviceControllerPS
 function GenericDeviceControllerPS.new(fields) return end
 

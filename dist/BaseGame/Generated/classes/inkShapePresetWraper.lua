@@ -5,6 +5,6 @@
 ---@field public shapePreset inkShapePreset
 inkShapePresetWraper = {}
 
----@param fields? table
+---@param fields? inkShapePresetWraper
 ---@return inkShapePresetWraper
 function inkShapePresetWraper.new(fields) return end

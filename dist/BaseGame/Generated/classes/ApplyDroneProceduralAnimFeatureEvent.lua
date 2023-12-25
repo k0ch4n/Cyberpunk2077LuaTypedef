@@ -5,6 +5,6 @@
 ---@field public feature AnimFeature_DroneProcedural
 ApplyDroneProceduralAnimFeatureEvent = {}
 
----@param fields? table
+---@param fields? ApplyDroneProceduralAnimFeatureEvent
 ---@return ApplyDroneProceduralAnimFeatureEvent
 function ApplyDroneProceduralAnimFeatureEvent.new(fields) return end

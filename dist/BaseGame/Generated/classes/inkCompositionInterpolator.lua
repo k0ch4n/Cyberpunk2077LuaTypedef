@@ -9,6 +9,6 @@
 ---@field public startDelay Float
 inkCompositionInterpolator = {}
 
----@param fields? table
+---@param fields? inkCompositionInterpolator
 ---@return inkCompositionInterpolator
 function inkCompositionInterpolator.new(fields) return end

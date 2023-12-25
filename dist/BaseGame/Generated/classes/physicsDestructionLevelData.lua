@@ -6,6 +6,6 @@
 ---@field public fracturingEffect worldEffect
 physicsDestructionLevelData = {}
 
----@param fields? table
+---@param fields? physicsDestructionLevelData
 ---@return physicsDestructionLevelData
 function physicsDestructionLevelData.new(fields) return end

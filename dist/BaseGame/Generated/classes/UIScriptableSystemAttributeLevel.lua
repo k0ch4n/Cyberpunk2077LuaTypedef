@@ -6,6 +6,6 @@
 ---@field public level Int32
 UIScriptableSystemAttributeLevel = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemAttributeLevel
 ---@return UIScriptableSystemAttributeLevel
 function UIScriptableSystemAttributeLevel.new(fields) return end

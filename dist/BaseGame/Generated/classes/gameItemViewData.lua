@@ -14,6 +14,6 @@
 ---@field public comparedQuality gamedataQuality
 gameItemViewData = {}
 
----@param fields? table
+---@param fields? gameItemViewData
 ---@return gameItemViewData
 function gameItemViewData.new(fields) return end

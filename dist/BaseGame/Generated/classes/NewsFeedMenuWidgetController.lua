@@ -9,7 +9,7 @@
 ---@field protected fullBannerWidgetData SBannerWidgetPackage
 NewsFeedMenuWidgetController = {}
 
----@param fields? table
+---@param fields? NewsFeedMenuWidgetController
 ---@return NewsFeedMenuWidgetController
 function NewsFeedMenuWidgetController.new(fields) return end
 

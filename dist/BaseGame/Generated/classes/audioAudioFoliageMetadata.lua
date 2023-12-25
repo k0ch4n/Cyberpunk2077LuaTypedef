@@ -13,6 +13,6 @@
 ---@field public foliageMaterials audioAudioFoliageMaterialDictionary
 audioAudioFoliageMetadata = {}
 
----@param fields? table
+---@param fields? audioAudioFoliageMetadata
 ---@return audioAudioFoliageMetadata
 function audioAudioFoliageMetadata.new(fields) return end

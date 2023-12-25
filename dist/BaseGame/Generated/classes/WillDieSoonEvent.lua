@@ -4,6 +4,6 @@
 ---@class WillDieSoonEvent: redEvent
 WillDieSoonEvent = {}
 
----@param fields? table
+---@param fields? WillDieSoonEvent
 ---@return WillDieSoonEvent
 function WillDieSoonEvent.new(fields) return end

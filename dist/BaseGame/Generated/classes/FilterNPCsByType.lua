@@ -6,7 +6,7 @@
 ---@field public invert Bool
 FilterNPCsByType = {}
 
----@param fields? table
+---@param fields? FilterNPCsByType
 ---@return FilterNPCsByType
 function FilterNPCsByType.new(fields) return end
 

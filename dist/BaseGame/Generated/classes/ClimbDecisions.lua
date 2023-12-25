@@ -5,7 +5,7 @@
 ---@field public stateBodyDone Bool
 ClimbDecisions = {}
 
----@param fields? table
+---@param fields? ClimbDecisions
 ---@return ClimbDecisions
 function ClimbDecisions.new(fields) return end
 

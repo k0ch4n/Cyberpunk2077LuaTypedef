@@ -12,6 +12,6 @@
 ---@field public customParameters audioAudSimpleParameter[]
 audioMixingActionData = {}
 
----@param fields? table
+---@param fields? audioMixingActionData
 ---@return audioMixingActionData
 function audioMixingActionData.new(fields) return end

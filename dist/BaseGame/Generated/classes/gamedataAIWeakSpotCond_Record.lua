@@ -4,7 +4,7 @@
 ---@class gamedataAIWeakSpotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWeakSpotCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIWeakSpotCond_Record
 ---@return gamedataAIWeakSpotCond_Record
 function gamedataAIWeakSpotCond_Record.new(fields) return end
 

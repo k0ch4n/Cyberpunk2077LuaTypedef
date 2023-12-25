@@ -5,6 +5,6 @@
 ---@field public value Color
 CEvaluatorColorConst = {}
 
----@param fields? table
+---@param fields? CEvaluatorColorConst
 ---@return CEvaluatorColorConst
 function CEvaluatorColorConst.new(fields) return end

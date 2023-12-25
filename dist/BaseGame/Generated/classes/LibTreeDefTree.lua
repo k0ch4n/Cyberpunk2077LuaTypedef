@@ -7,6 +7,6 @@
 ---@field public v LibTreeCTreeReference
 LibTreeDefTree = {}
 
----@param fields? table
+---@param fields? LibTreeDefTree
 ---@return LibTreeDefTree
 function LibTreeDefTree.new(fields) return end

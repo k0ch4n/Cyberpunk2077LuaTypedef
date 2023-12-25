@@ -7,6 +7,6 @@
 ---@field public someArrayProperty String[]
 SampleMapArrayElement = {}
 
----@param fields? table
+---@param fields? SampleMapArrayElement
 ---@return SampleMapArrayElement
 function SampleMapArrayElement.new(fields) return end

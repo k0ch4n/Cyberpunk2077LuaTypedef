@@ -8,6 +8,6 @@
 ---@field public lastThrowStartType gamebbScriptID_Variant
 CombatGadgetDataDef = {}
 
----@param fields? table
+---@param fields? CombatGadgetDataDef
 ---@return CombatGadgetDataDef
 function CombatGadgetDataDef.new(fields) return end

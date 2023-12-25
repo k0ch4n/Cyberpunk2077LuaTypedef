@@ -6,6 +6,6 @@
 ---@field public endTime Float
 effectLoopData = {}
 
----@param fields? table
+---@param fields? effectLoopData
 ---@return effectLoopData
 function effectLoopData.new(fields) return end

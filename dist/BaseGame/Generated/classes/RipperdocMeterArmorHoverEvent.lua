@@ -11,6 +11,6 @@
 ---@field public isCyberwareEquipped Bool
 RipperdocMeterArmorHoverEvent = {}
 
----@param fields? table
+---@param fields? RipperdocMeterArmorHoverEvent
 ---@return RipperdocMeterArmorHoverEvent
 function RipperdocMeterArmorHoverEvent.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private offsetValue Float
 DeviceMappinsContainer = {}
 
----@param fields? table
+---@param fields? DeviceMappinsContainer
 ---@return DeviceMappinsContainer
 function DeviceMappinsContainer.new(fields) return end
 

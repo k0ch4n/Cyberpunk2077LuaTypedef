@@ -5,6 +5,6 @@
 ---@field public timerText inkTextWidgetReference
 gameuiTrialPeriodTimerController = {}
 
----@param fields? table
+---@param fields? gameuiTrialPeriodTimerController
 ---@return gameuiTrialPeriodTimerController
 function gameuiTrialPeriodTimerController.new(fields) return end

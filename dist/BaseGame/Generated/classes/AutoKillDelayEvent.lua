@@ -4,6 +4,6 @@
 ---@class AutoKillDelayEvent: redEvent
 AutoKillDelayEvent = {}
 
----@param fields? table
+---@param fields? AutoKillDelayEvent
 ---@return AutoKillDelayEvent
 function AutoKillDelayEvent.new(fields) return end

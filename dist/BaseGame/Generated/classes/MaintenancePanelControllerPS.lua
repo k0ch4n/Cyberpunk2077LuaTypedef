@@ -5,7 +5,7 @@
 ---@field private maintenancePanelSkillChecks EngineeringContainer
 MaintenancePanelControllerPS = {}
 
----@param fields? table
+---@param fields? MaintenancePanelControllerPS
 ---@return MaintenancePanelControllerPS
 function MaintenancePanelControllerPS.new(fields) return end
 

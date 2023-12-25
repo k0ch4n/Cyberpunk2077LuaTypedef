@@ -7,6 +7,6 @@
 ---@field public bootModule gamebbScriptID_Int32
 BackDoorDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? BackDoorDeviceBlackboardDef
 ---@return BackDoorDeviceBlackboardDef
 function BackDoorDeviceBlackboardDef.new(fields) return end

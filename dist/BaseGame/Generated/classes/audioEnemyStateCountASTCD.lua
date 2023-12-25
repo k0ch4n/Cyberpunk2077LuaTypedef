@@ -7,6 +7,6 @@
 ---@field public enemiesCount Uint32
 audioEnemyStateCountASTCD = {}
 
----@param fields? table
+---@param fields? audioEnemyStateCountASTCD
 ---@return audioEnemyStateCountASTCD
 function audioEnemyStateCountASTCD.new(fields) return end

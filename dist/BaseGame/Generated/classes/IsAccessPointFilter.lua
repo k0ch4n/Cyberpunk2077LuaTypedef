@@ -4,7 +4,7 @@
 ---@class IsAccessPointFilter: gameEffectObjectSingleFilter_Scripted
 IsAccessPointFilter = {}
 
----@param fields? table
+---@param fields? IsAccessPointFilter
 ---@return IsAccessPointFilter
 function IsAccessPointFilter.new(fields) return end
 

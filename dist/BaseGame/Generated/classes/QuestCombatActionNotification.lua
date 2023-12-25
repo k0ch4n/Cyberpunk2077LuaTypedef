@@ -4,7 +4,7 @@
 ---@class QuestCombatActionNotification: QuestSecuritySystemInput
 QuestCombatActionNotification = {}
 
----@param fields? table
+---@param fields? QuestCombatActionNotification
 ---@return QuestCombatActionNotification
 function QuestCombatActionNotification.new(fields) return end
 

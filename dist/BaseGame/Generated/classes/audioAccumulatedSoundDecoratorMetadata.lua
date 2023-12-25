@@ -12,6 +12,6 @@
 ---@field public spammingSoundInterval Float
 audioAccumulatedSoundDecoratorMetadata = {}
 
----@param fields? table
+---@param fields? audioAccumulatedSoundDecoratorMetadata
 ---@return audioAccumulatedSoundDecoratorMetadata
 function audioAccumulatedSoundDecoratorMetadata.new(fields) return end

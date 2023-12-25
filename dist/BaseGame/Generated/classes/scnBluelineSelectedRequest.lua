@@ -4,6 +4,6 @@
 ---@class scnBluelineSelectedRequest: gamePlayerScriptableSystemRequest
 scnBluelineSelectedRequest = {}
 
----@param fields? table
+---@param fields? scnBluelineSelectedRequest
 ---@return scnBluelineSelectedRequest
 function scnBluelineSelectedRequest.new(fields) return end

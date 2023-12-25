@@ -4,7 +4,7 @@
 ---@class Air: DefaultTransition
 Air = {}
 
----@param fields? table
+---@param fields? Air
 ---@return Air
 function Air.new(fields) return end
 

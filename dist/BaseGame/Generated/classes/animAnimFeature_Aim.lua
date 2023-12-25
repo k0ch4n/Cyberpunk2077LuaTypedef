@@ -5,7 +5,7 @@
 ---@field public aimPoint Vector4
 animAnimFeature_Aim = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Aim
 ---@return animAnimFeature_Aim
 function animAnimFeature_Aim.new(fields) return end
 

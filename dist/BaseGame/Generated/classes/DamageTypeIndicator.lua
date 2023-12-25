@@ -6,7 +6,7 @@
 ---@field private DamageTypeLabelRef inkTextWidgetReference
 DamageTypeIndicator = {}
 
----@param fields? table
+---@param fields? DamageTypeIndicator
 ---@return DamageTypeIndicator
 function DamageTypeIndicator.new(fields) return end
 

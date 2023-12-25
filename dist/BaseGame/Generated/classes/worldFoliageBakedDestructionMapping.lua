@@ -10,6 +10,6 @@
 ---@field public filterData physicsFilterData
 worldFoliageBakedDestructionMapping = {}
 
----@param fields? table
+---@param fields? worldFoliageBakedDestructionMapping
 ---@return worldFoliageBakedDestructionMapping
 function worldFoliageBakedDestructionMapping.new(fields) return end

@@ -30,7 +30,7 @@
 ---@field private useDebugUI Bool
 vehicleDebugUIGameController = {}
 
----@param fields? table
+---@param fields? vehicleDebugUIGameController
 ---@return vehicleDebugUIGameController
 function vehicleDebugUIGameController.new(fields) return end
 

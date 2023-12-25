@@ -4,7 +4,7 @@
 ---@class WithoutHitDataDeathTask: AIDeathReactionsTask
 WithoutHitDataDeathTask = {}
 
----@param fields? table
+---@param fields? WithoutHitDataDeathTask
 ---@return WithoutHitDataDeathTask
 function WithoutHitDataDeathTask.new(fields) return end
 

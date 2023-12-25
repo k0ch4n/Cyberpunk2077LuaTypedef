@@ -5,6 +5,6 @@
 ---@field public rotation IEvaluatorFloat
 CParticleInitializerRotation = {}
 
----@param fields? table
+---@param fields? CParticleInitializerRotation
 ---@return CParticleInitializerRotation
 function CParticleInitializerRotation.new(fields) return end

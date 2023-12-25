@@ -4,6 +4,6 @@
 ---@class SecuritySystemEnabled: redEvent
 SecuritySystemEnabled = {}
 
----@param fields? table
+---@param fields? SecuritySystemEnabled
 ---@return SecuritySystemEnabled
 function SecuritySystemEnabled.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class MultiplayerMenuGameController: PreGameSubMenuGameController
 MultiplayerMenuGameController = {}
 
----@param fields? table
+---@param fields? MultiplayerMenuGameController
 ---@return MultiplayerMenuGameController
 function MultiplayerMenuGameController.new(fields) return end
 

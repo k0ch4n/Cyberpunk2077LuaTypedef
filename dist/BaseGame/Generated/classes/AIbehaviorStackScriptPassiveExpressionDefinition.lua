@@ -4,7 +4,7 @@
 ---@class AIbehaviorStackScriptPassiveExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 AIbehaviorStackScriptPassiveExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorStackScriptPassiveExpressionDefinition
 ---@return AIbehaviorStackScriptPassiveExpressionDefinition
 function AIbehaviorStackScriptPassiveExpressionDefinition.new(fields) return end
 

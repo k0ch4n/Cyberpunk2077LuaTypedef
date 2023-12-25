@@ -8,7 +8,7 @@
 ---@field protected lootQuality gamedataQuality
 gameLootObject = {}
 
----@param fields? table
+---@param fields? gameLootObject
 ---@return gameLootObject
 function gameLootObject.new(fields) return end
 

@@ -13,6 +13,6 @@
 ---@field public resourceVersion Uint8
 CMaterialTemplate = {}
 
----@param fields? table
+---@param fields? CMaterialTemplate
 ---@return CMaterialTemplate
 function CMaterialTemplate.new(fields) return end

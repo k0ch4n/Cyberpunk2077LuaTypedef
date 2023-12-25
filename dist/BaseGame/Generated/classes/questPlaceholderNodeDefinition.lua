@@ -7,6 +7,6 @@
 ---@field public clipboardHolder ISerializable
 questPlaceholderNodeDefinition = {}
 
----@param fields? table
+---@param fields? questPlaceholderNodeDefinition
 ---@return questPlaceholderNodeDefinition
 function questPlaceholderNodeDefinition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public priority Uint32
 gameScriptableComponent = {}
 
----@param fields? table
+---@param fields? gameScriptableComponent
 ---@return gameScriptableComponent
 function gameScriptableComponent.new(fields) return end
 

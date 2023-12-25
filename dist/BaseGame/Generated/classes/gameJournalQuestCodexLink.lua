@@ -5,7 +5,7 @@
 ---@field public path gameJournalPath
 gameJournalQuestCodexLink = {}
 
----@param fields? table
+---@param fields? gameJournalQuestCodexLink
 ---@return gameJournalQuestCodexLink
 function gameJournalQuestCodexLink.new(fields) return end
 

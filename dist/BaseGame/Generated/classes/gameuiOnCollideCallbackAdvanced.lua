@@ -4,6 +4,6 @@
 ---@class gameuiOnCollideCallbackAdvanced: inkCallbackBase
 gameuiOnCollideCallbackAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiOnCollideCallbackAdvanced
 ---@return gameuiOnCollideCallbackAdvanced
 function gameuiOnCollideCallbackAdvanced.new(fields) return end

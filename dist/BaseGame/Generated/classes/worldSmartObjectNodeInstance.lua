@@ -4,6 +4,6 @@
 ---@class worldSmartObjectNodeInstance: worldINodeInstance
 worldSmartObjectNodeInstance = {}
 
----@param fields? table
+---@param fields? worldSmartObjectNodeInstance
 ---@return worldSmartObjectNodeInstance
 function worldSmartObjectNodeInstance.new(fields) return end

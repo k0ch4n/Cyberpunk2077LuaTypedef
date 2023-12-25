@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextDrivingDecisions: UiQuickHackPanelContextDecisions
 UiQuickHackPanelContextDrivingDecisions = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextDrivingDecisions
 ---@return UiQuickHackPanelContextDrivingDecisions
 function UiQuickHackPanelContextDrivingDecisions.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public maxZDiff Float
 RagdollDamagePollData = {}
 
----@param fields? table
+---@param fields? RagdollDamagePollData
 ---@return RagdollDamagePollData
 function RagdollDamagePollData.new(fields) return end

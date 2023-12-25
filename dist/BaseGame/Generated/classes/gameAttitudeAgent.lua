@@ -5,7 +5,7 @@
 ---@field public baseAttitudeGroup CName
 gameAttitudeAgent = {}
 
----@param fields? table
+---@param fields? gameAttitudeAgent
 ---@return gameAttitudeAgent
 function gameAttitudeAgent.new(fields) return end
 

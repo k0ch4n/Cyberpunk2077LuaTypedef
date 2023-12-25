@@ -5,7 +5,7 @@
 ---@field private map UILocRecord[]
 UILocalizationMap = {}
 
----@param fields? table
+---@param fields? UILocalizationMap
 ---@return UILocalizationMap
 function UILocalizationMap.new(fields) return end
 

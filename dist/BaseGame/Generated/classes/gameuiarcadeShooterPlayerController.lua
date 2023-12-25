@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterPlayerController: gameuiarcadeArcadePlayerController
 gameuiarcadeShooterPlayerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterPlayerController
 ---@return gameuiarcadeShooterPlayerController
 function gameuiarcadeShooterPlayerController.new(fields) return end

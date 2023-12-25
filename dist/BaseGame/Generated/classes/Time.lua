@@ -7,6 +7,6 @@
 ---@field public minutes Int32
 Time = {}
 
----@param fields? table
+---@param fields? Time
 ---@return Time
 function Time.new(fields) return end

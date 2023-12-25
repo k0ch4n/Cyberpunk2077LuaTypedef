@@ -11,7 +11,7 @@
 ---@field private isPreGame Bool
 BrightnessSettingsGameController = {}
 
----@param fields? table
+---@param fields? BrightnessSettingsGameController
 ---@return BrightnessSettingsGameController
 function BrightnessSettingsGameController.new(fields) return end
 

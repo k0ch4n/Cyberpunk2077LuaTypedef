@@ -4,7 +4,7 @@
 ---@class VirutalNestedListClassifier: inkVirtualItemTemplateClassifierWrapper
 VirutalNestedListClassifier = {}
 
----@param fields? table
+---@param fields? VirutalNestedListClassifier
 ---@return VirutalNestedListClassifier
 function VirutalNestedListClassifier.new(fields) return end
 

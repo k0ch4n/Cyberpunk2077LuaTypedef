@@ -12,6 +12,6 @@
 ---@field public maxVerticesPerPolygon Int32
 navgendebugPolyMesh = {}
 
----@param fields? table
+---@param fields? navgendebugPolyMesh
 ---@return navgendebugPolyMesh
 function navgendebugPolyMesh.new(fields) return end

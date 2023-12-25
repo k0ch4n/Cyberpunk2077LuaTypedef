@@ -7,7 +7,7 @@
 ---@field public autoToggleOnInput Bool
 inkToggleController = {}
 
----@param fields? table
+---@param fields? inkToggleController
 ---@return inkToggleController
 function inkToggleController.new(fields) return end
 

@@ -36,7 +36,7 @@
 ---@field public lastGrenadeThrowTimestamp gamebbScriptID_Float
 AIActionDataDef = {}
 
----@param fields? table
+---@param fields? AIActionDataDef
 ---@return AIActionDataDef
 function AIActionDataDef.new(fields) return end
 

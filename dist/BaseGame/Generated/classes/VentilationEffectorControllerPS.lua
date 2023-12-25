@@ -4,7 +4,7 @@
 ---@class VentilationEffectorControllerPS: ActivatedDeviceControllerPS
 VentilationEffectorControllerPS = {}
 
----@param fields? table
+---@param fields? VentilationEffectorControllerPS
 ---@return VentilationEffectorControllerPS
 function VentilationEffectorControllerPS.new(fields) return end
 

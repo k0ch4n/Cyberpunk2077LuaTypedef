@@ -4,6 +4,6 @@
 ---@class questShowPointOfNoReturnPromptEvent: redEvent
 questShowPointOfNoReturnPromptEvent = {}
 
----@param fields? table
+---@param fields? questShowPointOfNoReturnPromptEvent
 ---@return questShowPointOfNoReturnPromptEvent
 function questShowPointOfNoReturnPromptEvent.new(fields) return end

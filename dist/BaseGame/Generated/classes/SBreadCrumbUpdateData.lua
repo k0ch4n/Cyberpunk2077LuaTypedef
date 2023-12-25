@@ -7,6 +7,6 @@
 ---@field public context CName
 SBreadCrumbUpdateData = {}
 
----@param fields? table
+---@param fields? SBreadCrumbUpdateData
 ---@return SBreadCrumbUpdateData
 function SBreadCrumbUpdateData.new(fields) return end

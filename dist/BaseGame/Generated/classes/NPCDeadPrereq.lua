@@ -4,7 +4,7 @@
 ---@class NPCDeadPrereq: gameIScriptablePrereq
 NPCDeadPrereq = {}
 
----@param fields? table
+---@param fields? NPCDeadPrereq
 ---@return NPCDeadPrereq
 function NPCDeadPrereq.new(fields) return end
 

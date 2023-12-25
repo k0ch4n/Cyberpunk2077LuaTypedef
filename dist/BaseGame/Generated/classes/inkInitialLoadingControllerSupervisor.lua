@@ -4,6 +4,6 @@
 ---@class inkInitialLoadingControllerSupervisor: gameuiOnscreenVOPlayerController
 inkInitialLoadingControllerSupervisor = {}
 
----@param fields? table
+---@param fields? inkInitialLoadingControllerSupervisor
 ---@return inkInitialLoadingControllerSupervisor
 function inkInitialLoadingControllerSupervisor.new(fields) return end

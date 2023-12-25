@@ -4,6 +4,6 @@
 ---@class effectChromaticAberrationPlayData: effectPlacedTrackItemPlayData
 effectChromaticAberrationPlayData = {}
 
----@param fields? table
+---@param fields? effectChromaticAberrationPlayData
 ---@return effectChromaticAberrationPlayData
 function effectChromaticAberrationPlayData.new(fields) return end

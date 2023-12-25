@@ -7,6 +7,6 @@
 ---@field public meshGeometryHash Uint64
 appearanceChunkMaskSettings = {}
 
----@param fields? table
+---@param fields? appearanceChunkMaskSettings
 ---@return appearanceChunkMaskSettings
 function appearanceChunkMaskSettings.new(fields) return end

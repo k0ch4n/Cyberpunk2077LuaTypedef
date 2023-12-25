@@ -10,7 +10,7 @@
 ---@field private transactionSystem gameTransactionSystem
 UIInventoryItemModsManager = {}
 
----@param fields? table
+---@param fields? UIInventoryItemModsManager
 ---@return UIInventoryItemModsManager
 function UIInventoryItemModsManager.new(fields) return end
 

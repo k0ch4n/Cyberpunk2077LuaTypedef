@@ -4,7 +4,7 @@
 ---@class QuestUIUtils
 QuestUIUtils = {}
 
----@param fields? table
+---@param fields? QuestUIUtils
 ---@return QuestUIUtils
 function QuestUIUtils.new(fields) return end
 

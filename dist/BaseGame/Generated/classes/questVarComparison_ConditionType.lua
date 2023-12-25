@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questVarComparison_ConditionType = {}
 
----@param fields? table
+---@param fields? questVarComparison_ConditionType
 ---@return questVarComparison_ConditionType
 function questVarComparison_ConditionType.new(fields) return end

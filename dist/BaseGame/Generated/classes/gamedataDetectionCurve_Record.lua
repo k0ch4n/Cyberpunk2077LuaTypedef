@@ -4,7 +4,7 @@
 ---@class gamedataDetectionCurve_Record: gamedataTweakDBRecord
 gamedataDetectionCurve_Record = {}
 
----@param fields? table
+---@param fields? gamedataDetectionCurve_Record
 ---@return gamedataDetectionCurve_Record
 function gamedataDetectionCurve_Record.new(fields) return end
 

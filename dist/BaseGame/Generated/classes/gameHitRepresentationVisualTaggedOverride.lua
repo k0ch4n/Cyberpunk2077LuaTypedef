@@ -6,6 +6,6 @@
 ---@field public represenationOverride gameHitShapeContainer
 gameHitRepresentationVisualTaggedOverride = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationVisualTaggedOverride
 ---@return gameHitRepresentationVisualTaggedOverride
 function gameHitRepresentationVisualTaggedOverride.new(fields) return end

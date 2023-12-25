@@ -4,7 +4,7 @@
 ---@class DriverCombatDecisions: VehicleTransition
 DriverCombatDecisions = {}
 
----@param fields? table
+---@param fields? DriverCombatDecisions
 ---@return DriverCombatDecisions
 function DriverCombatDecisions.new(fields) return end
 

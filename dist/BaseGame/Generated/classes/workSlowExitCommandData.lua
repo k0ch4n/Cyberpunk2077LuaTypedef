@@ -4,6 +4,6 @@
 ---@class workSlowExitCommandData: workIWorkspotCommandData
 workSlowExitCommandData = {}
 
----@param fields? table
+---@param fields? workSlowExitCommandData
 ---@return workSlowExitCommandData
 function workSlowExitCommandData.new(fields) return end

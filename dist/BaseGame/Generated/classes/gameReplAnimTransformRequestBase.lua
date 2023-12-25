@@ -5,6 +5,6 @@
 ---@field public applyServerTime netTime
 gameReplAnimTransformRequestBase = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformRequestBase
 ---@return gameReplAnimTransformRequestBase
 function gameReplAnimTransformRequestBase.new(fields) return end

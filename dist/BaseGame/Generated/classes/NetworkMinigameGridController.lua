@@ -20,7 +20,7 @@
 ---@field private isHorizontal Bool
 NetworkMinigameGridController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameGridController
 ---@return NetworkMinigameGridController
 function NetworkMinigameGridController.new(fields) return end
 

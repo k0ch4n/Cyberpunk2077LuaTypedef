@@ -5,6 +5,6 @@
 ---@field public shapeName CName
 gamehitRepresentationEventsResetSingleScaleMultiplier = {}
 
----@param fields? table
+---@param fields? gamehitRepresentationEventsResetSingleScaleMultiplier
 ---@return gamehitRepresentationEventsResetSingleScaleMultiplier
 function gamehitRepresentationEventsResetSingleScaleMultiplier.new(fields) return end

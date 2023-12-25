@@ -5,7 +5,7 @@
 ---@field public seconds Int32
 GameTime = {}
 
----@param fields? table
+---@param fields? GameTime
 ---@return GameTime
 function GameTime.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public isPlayerCompanionCachedTimeStamp Float
 PlayerCompanionCacheDataEvent = {}
 
----@param fields? table
+---@param fields? PlayerCompanionCacheDataEvent
 ---@return PlayerCompanionCacheDataEvent
 function PlayerCompanionCacheDataEvent.new(fields) return end

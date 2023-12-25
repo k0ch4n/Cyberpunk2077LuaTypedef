@@ -5,6 +5,6 @@
 ---@field public syncTag CName
 animAnimNode_SkSyncedMasterAnimByTime = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkSyncedMasterAnimByTime
 ---@return animAnimNode_SkSyncedMasterAnimByTime
 function animAnimNode_SkSyncedMasterAnimByTime.new(fields) return end

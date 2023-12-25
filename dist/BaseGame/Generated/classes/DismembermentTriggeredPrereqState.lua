@@ -7,7 +7,7 @@
 ---@field protected dismembermentInfo DismembermentInstigatedInfo
 DismembermentTriggeredPrereqState = {}
 
----@param fields? table
+---@param fields? DismembermentTriggeredPrereqState
 ---@return DismembermentTriggeredPrereqState
 function DismembermentTriggeredPrereqState.new(fields) return end
 

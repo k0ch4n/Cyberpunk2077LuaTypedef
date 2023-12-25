@@ -8,6 +8,6 @@
 ---@field public entitiesProcessed Uint32
 gameEffectInfoEvent = {}
 
----@param fields? table
+---@param fields? gameEffectInfoEvent
 ---@return gameEffectInfoEvent
 function gameEffectInfoEvent.new(fields) return end

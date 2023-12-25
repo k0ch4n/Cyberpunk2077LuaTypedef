@@ -4,7 +4,7 @@
 ---@class CrouchSprintEvents: CrouchEvents
 CrouchSprintEvents = {}
 
----@param fields? table
+---@param fields? CrouchSprintEvents
 ---@return CrouchSprintEvents
 function CrouchSprintEvents.new(fields) return end
 

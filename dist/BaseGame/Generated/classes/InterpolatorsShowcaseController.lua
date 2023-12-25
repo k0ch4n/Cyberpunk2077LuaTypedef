@@ -24,7 +24,7 @@
 ---@field private animConstructor AnimationsConstructor
 InterpolatorsShowcaseController = {}
 
----@param fields? table
+---@param fields? InterpolatorsShowcaseController
 ---@return InterpolatorsShowcaseController
 function InterpolatorsShowcaseController.new(fields) return end
 

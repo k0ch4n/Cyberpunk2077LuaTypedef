@@ -4,7 +4,7 @@
 ---@class IsNPCInPrevention: PreventionConditionAbstract
 IsNPCInPrevention = {}
 
----@param fields? table
+---@param fields? IsNPCInPrevention
 ---@return IsNPCInPrevention
 function IsNPCInPrevention.new(fields) return end
 

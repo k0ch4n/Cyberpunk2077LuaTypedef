@@ -41,6 +41,6 @@
 ---@field public NoiseVelocity Vector3
 CParticleEmitter = {}
 
----@param fields? table
+---@param fields? CParticleEmitter
 ---@return CParticleEmitter
 function CParticleEmitter.new(fields) return end

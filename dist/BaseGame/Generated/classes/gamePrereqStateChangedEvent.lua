@@ -4,7 +4,7 @@
 ---@class gamePrereqStateChangedEvent: redEvent
 gamePrereqStateChangedEvent = {}
 
----@param fields? table
+---@param fields? gamePrereqStateChangedEvent
 ---@return gamePrereqStateChangedEvent
 function gamePrereqStateChangedEvent.new(fields) return end
 

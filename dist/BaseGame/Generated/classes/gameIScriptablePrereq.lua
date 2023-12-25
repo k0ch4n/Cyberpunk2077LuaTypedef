@@ -4,7 +4,7 @@
 ---@class gameIScriptablePrereq: gameIPrereq
 gameIScriptablePrereq = {}
 
----@param fields? table
+---@param fields? gameIScriptablePrereq
 ---@return gameIScriptablePrereq
 function gameIScriptablePrereq.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public entries gameCommunitySpawnSetNameToIDEntry[]
 gameCommunitySpawnSetNameToID = {}
 
----@param fields? table
+---@param fields? gameCommunitySpawnSetNameToID
 ---@return gameCommunitySpawnSetNameToID
 function gameCommunitySpawnSetNameToID.new(fields) return end

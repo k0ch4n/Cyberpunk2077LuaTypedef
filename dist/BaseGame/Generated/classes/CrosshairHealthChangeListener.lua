@@ -5,7 +5,7 @@
 ---@field private parentCrosshair gameuiCrosshairBaseGameController
 CrosshairHealthChangeListener = {}
 
----@param fields? table
+---@param fields? CrosshairHealthChangeListener
 ---@return CrosshairHealthChangeListener
 function CrosshairHealthChangeListener.new(fields) return end
 

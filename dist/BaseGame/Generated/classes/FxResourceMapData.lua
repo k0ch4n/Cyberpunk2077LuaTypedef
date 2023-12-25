@@ -6,6 +6,6 @@
 ---@field public resource gameFxResource
 FxResourceMapData = {}
 
----@param fields? table
+---@param fields? FxResourceMapData
 ---@return FxResourceMapData
 function FxResourceMapData.new(fields) return end

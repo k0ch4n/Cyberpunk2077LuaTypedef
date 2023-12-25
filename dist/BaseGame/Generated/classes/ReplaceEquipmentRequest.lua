@@ -11,6 +11,6 @@
 ---@field public transferInstalledParts Bool
 ReplaceEquipmentRequest = {}
 
----@param fields? table
+---@param fields? ReplaceEquipmentRequest
 ---@return ReplaceEquipmentRequest
 function ReplaceEquipmentRequest.new(fields) return end

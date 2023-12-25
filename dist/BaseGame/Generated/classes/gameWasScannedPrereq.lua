@@ -4,6 +4,6 @@
 ---@class gameWasScannedPrereq: gameIPrereq
 gameWasScannedPrereq = {}
 
----@param fields? table
+---@param fields? gameWasScannedPrereq
 ---@return gameWasScannedPrereq
 function gameWasScannedPrereq.new(fields) return end

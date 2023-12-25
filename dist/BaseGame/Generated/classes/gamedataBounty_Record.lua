@@ -4,7 +4,7 @@
 ---@class gamedataBounty_Record: gamedataTweakDBRecord
 gamedataBounty_Record = {}
 
----@param fields? table
+---@param fields? gamedataBounty_Record
 ---@return gamedataBounty_Record
 function gamedataBounty_Record.new(fields) return end
 

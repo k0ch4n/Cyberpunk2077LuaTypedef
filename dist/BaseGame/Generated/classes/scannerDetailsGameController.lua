@@ -25,7 +25,7 @@
 ---@field private scannerToggleTabAnimProxy inkanimProxy
 scannerDetailsGameController = {}
 
----@param fields? table
+---@param fields? scannerDetailsGameController
 ---@return scannerDetailsGameController
 function scannerDetailsGameController.new(fields) return end
 

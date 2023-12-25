@@ -4,7 +4,7 @@
 ---@class gamedataCyberwareArea_Record: gamedataEquipmentArea_Record
 gamedataCyberwareArea_Record = {}
 
----@param fields? table
+---@param fields? gamedataCyberwareArea_Record
 ---@return gamedataCyberwareArea_Record
 function gamedataCyberwareArea_Record.new(fields) return end
 

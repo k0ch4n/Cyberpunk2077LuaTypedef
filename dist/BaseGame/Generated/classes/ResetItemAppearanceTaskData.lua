@@ -7,6 +7,6 @@
 ---@field public force Bool
 ResetItemAppearanceTaskData = {}
 
----@param fields? table
+---@param fields? ResetItemAppearanceTaskData
 ---@return ResetItemAppearanceTaskData
 function ResetItemAppearanceTaskData.new(fields) return end

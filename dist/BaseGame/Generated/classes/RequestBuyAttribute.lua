@@ -5,6 +5,6 @@
 ---@field public type gamedataStatType
 RequestBuyAttribute = {}
 
----@param fields? table
+---@param fields? RequestBuyAttribute
 ---@return RequestBuyAttribute
 function RequestBuyAttribute.new(fields) return end

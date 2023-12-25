@@ -9,7 +9,7 @@
 ---@field protected cargoBox entPhysicalMeshComponent
 forklift = {}
 
----@param fields? table
+---@param fields? forklift
 ---@return forklift
 function forklift.new(fields) return end
 

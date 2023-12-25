@@ -6,7 +6,7 @@
 ---@field protected currSubMenuName CName
 MenuScenario_PreGameSubMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_PreGameSubMenu
 ---@return MenuScenario_PreGameSubMenu
 function MenuScenario_PreGameSubMenu.new(fields) return end
 

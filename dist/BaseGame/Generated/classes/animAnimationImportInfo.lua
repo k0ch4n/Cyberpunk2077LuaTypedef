@@ -9,6 +9,6 @@
 ---@field public MotionExtractionCompression animEMotionExtractionCompressionType
 animAnimationImportInfo = {}
 
----@param fields? table
+---@param fields? animAnimationImportInfo
 ---@return animAnimationImportInfo
 function animAnimationImportInfo.new(fields) return end

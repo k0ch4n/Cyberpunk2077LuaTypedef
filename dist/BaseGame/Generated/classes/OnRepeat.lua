@@ -4,6 +4,6 @@
 ---@class OnRepeat: inkPointerEvent
 OnRepeat = {}
 
----@param fields? table
+---@param fields? OnRepeat
 ---@return OnRepeat
 function OnRepeat.new(fields) return end

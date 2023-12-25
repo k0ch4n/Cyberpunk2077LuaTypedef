@@ -5,7 +5,7 @@
 ---@field private duration Float
 AuthorisationNotificationQueue = {}
 
----@param fields? table
+---@param fields? AuthorisationNotificationQueue
 ---@return AuthorisationNotificationQueue
 function AuthorisationNotificationQueue.new(fields) return end
 

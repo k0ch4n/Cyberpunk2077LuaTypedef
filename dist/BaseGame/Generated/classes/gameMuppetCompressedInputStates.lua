@@ -8,6 +8,6 @@
 ---@field public replicationTime netTime
 gameMuppetCompressedInputStates = {}
 
----@param fields? table
+---@param fields? gameMuppetCompressedInputStates
 ---@return gameMuppetCompressedInputStates
 function gameMuppetCompressedInputStates.new(fields) return end

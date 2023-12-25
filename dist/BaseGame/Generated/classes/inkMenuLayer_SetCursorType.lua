@@ -4,7 +4,7 @@
 ---@class inkMenuLayer_SetCursorType: redEvent
 inkMenuLayer_SetCursorType = {}
 
----@param fields? table
+---@param fields? inkMenuLayer_SetCursorType
 ---@return inkMenuLayer_SetCursorType
 function inkMenuLayer_SetCursorType.new(fields) return end
 

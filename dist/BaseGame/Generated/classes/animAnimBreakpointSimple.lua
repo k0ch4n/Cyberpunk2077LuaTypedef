@@ -5,6 +5,6 @@
 ---@field public hitCount Uint32
 animAnimBreakpointSimple = {}
 
----@param fields? table
+---@param fields? animAnimBreakpointSimple
 ---@return animAnimBreakpointSimple
 function animAnimBreakpointSimple.new(fields) return end

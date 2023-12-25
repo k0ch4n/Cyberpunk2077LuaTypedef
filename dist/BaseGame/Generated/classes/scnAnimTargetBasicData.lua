@@ -13,6 +13,6 @@
 ---@field public targetType scnLookAtTargetType
 scnAnimTargetBasicData = {}
 
----@param fields? table
+---@param fields? scnAnimTargetBasicData
 ---@return scnAnimTargetBasicData
 function scnAnimTargetBasicData.new(fields) return end

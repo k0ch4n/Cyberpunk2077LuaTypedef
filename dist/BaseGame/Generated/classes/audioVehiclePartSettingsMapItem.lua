@@ -7,6 +7,6 @@
 ---@field public onDetachAcousticsIsolationFactorReduction Float
 audioVehiclePartSettingsMapItem = {}
 
----@param fields? table
+---@param fields? audioVehiclePartSettingsMapItem
 ---@return audioVehiclePartSettingsMapItem
 function audioVehiclePartSettingsMapItem.new(fields) return end

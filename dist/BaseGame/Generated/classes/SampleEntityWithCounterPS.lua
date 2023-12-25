@@ -5,7 +5,7 @@
 ---@field protected counter Int32
 SampleEntityWithCounterPS = {}
 
----@param fields? table
+---@param fields? SampleEntityWithCounterPS
 ---@return SampleEntityWithCounterPS
 function SampleEntityWithCounterPS.new(fields) return end
 

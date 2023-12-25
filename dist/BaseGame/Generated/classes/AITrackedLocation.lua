@@ -17,6 +17,6 @@
 ---@field public sharedLastKnown AILocationInformation
 AITrackedLocation = {}
 
----@param fields? table
+---@param fields? AITrackedLocation
 ---@return AITrackedLocation
 function AITrackedLocation.new(fields) return end

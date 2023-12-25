@@ -12,6 +12,6 @@
 ---@field public is_offset Bool
 AnimFeature_CameraRecoil = {}
 
----@param fields? table
+---@param fields? AnimFeature_CameraRecoil
 ---@return AnimFeature_CameraRecoil
 function AnimFeature_CameraRecoil.new(fields) return end

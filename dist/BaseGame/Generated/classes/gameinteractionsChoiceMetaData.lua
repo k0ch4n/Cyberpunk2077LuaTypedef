@@ -7,7 +7,7 @@
 ---@field public type gameinteractionsChoiceTypeWrapper
 gameinteractionsChoiceMetaData = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceMetaData
 ---@return gameinteractionsChoiceMetaData
 function gameinteractionsChoiceMetaData.new(fields) return end
 

@@ -23,7 +23,7 @@
 ---@field public consumableBeingUsed gamebbScriptID_Variant
 UI_QuickSlotsDataDef = {}
 
----@param fields? table
+---@param fields? UI_QuickSlotsDataDef
 ---@return UI_QuickSlotsDataDef
 function UI_QuickSlotsDataDef.new(fields) return end
 

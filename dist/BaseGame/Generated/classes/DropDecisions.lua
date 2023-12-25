@@ -4,7 +4,7 @@
 ---@class DropDecisions: CarriedObjectDecisions
 DropDecisions = {}
 
----@param fields? table
+---@param fields? DropDecisions
 ---@return DropDecisions
 function DropDecisions.new(fields) return end
 

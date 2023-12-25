@@ -4,7 +4,7 @@
 ---@class QuestStopLookAtTarget: ActionBool
 QuestStopLookAtTarget = {}
 
----@param fields? table
+---@param fields? QuestStopLookAtTarget
 ---@return QuestStopLookAtTarget
 function QuestStopLookAtTarget.new(fields) return end
 

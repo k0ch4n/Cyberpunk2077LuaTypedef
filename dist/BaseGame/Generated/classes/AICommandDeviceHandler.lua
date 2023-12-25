@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AICommandDeviceHandler = {}
 
----@param fields? table
+---@param fields? AICommandDeviceHandler
 ---@return AICommandDeviceHandler
 function AICommandDeviceHandler.new(fields) return end
 

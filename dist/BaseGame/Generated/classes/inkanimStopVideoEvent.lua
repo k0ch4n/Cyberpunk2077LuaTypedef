@@ -4,6 +4,6 @@
 ---@class inkanimStopVideoEvent: inkanimEvent
 inkanimStopVideoEvent = {}
 
----@param fields? table
+---@param fields? inkanimStopVideoEvent
 ---@return inkanimStopVideoEvent
 function inkanimStopVideoEvent.new(fields) return end

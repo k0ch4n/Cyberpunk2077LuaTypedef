@@ -8,6 +8,6 @@
 ---@field public loc_desc_key String
 SCyberware = {}
 
----@param fields? table
+---@param fields? SCyberware
 ---@return SCyberware
 function SCyberware.new(fields) return end

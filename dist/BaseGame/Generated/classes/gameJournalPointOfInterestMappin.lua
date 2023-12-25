@@ -12,6 +12,6 @@
 ---@field public notificationTriggerAreaRef NodeRef
 gameJournalPointOfInterestMappin = {}
 
----@param fields? table
+---@param fields? gameJournalPointOfInterestMappin
 ---@return gameJournalPointOfInterestMappin
 function gameJournalPointOfInterestMappin.new(fields) return end

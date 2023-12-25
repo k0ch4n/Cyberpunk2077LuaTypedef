@@ -4,6 +4,6 @@
 ---@class inkCharacterEventCallback: inkCallbackBase
 inkCharacterEventCallback = {}
 
----@param fields? table
+---@param fields? inkCharacterEventCallback
 ---@return inkCharacterEventCallback
 function inkCharacterEventCallback.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public preyVelocity Vector4
 gameeventsVehicleHitEvent = {}
 
----@param fields? table
+---@param fields? gameeventsVehicleHitEvent
 ---@return gameeventsVehicleHitEvent
 function gameeventsVehicleHitEvent.new(fields) return end

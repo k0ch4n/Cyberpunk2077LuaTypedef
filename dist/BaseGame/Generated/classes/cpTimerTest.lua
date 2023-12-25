@@ -5,6 +5,6 @@
 ---@field public counter Int32
 cpTimerTest = {}
 
----@param fields? table
+---@param fields? cpTimerTest
 ---@return cpTimerTest
 function cpTimerTest.new(fields) return end

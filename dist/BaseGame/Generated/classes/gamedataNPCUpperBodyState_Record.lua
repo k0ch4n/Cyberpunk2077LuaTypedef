@@ -4,7 +4,7 @@
 ---@class gamedataNPCUpperBodyState_Record: gamedataTweakDBRecord
 gamedataNPCUpperBodyState_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCUpperBodyState_Record
 ---@return gamedataNPCUpperBodyState_Record
 function gamedataNPCUpperBodyState_Record.new(fields) return end
 

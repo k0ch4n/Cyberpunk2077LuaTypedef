@@ -6,6 +6,6 @@
 ---@field public force Bool
 DoorTriggerDelayedEvent = {}
 
----@param fields? table
+---@param fields? DoorTriggerDelayedEvent
 ---@return DoorTriggerDelayedEvent
 function DoorTriggerDelayedEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataArcadeSpawnableObject_Record: gamedataTweakDBRecord
 gamedataArcadeSpawnableObject_Record = {}
 
----@param fields? table
+---@param fields? gamedataArcadeSpawnableObject_Record
 ---@return gamedataArcadeSpawnableObject_Record
 function gamedataArcadeSpawnableObject_Record.new(fields) return end
 

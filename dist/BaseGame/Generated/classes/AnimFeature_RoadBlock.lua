@@ -7,6 +7,6 @@
 ---@field public initOpen Bool
 AnimFeature_RoadBlock = {}
 
----@param fields? table
+---@param fields? AnimFeature_RoadBlock
 ---@return AnimFeature_RoadBlock
 function AnimFeature_RoadBlock.new(fields) return end

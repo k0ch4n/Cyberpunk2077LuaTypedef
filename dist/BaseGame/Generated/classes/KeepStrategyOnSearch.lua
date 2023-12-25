@@ -4,7 +4,7 @@
 ---@class KeepStrategyOnSearch: AIVehicleConditionAbstract
 KeepStrategyOnSearch = {}
 
----@param fields? table
+---@param fields? KeepStrategyOnSearch
 ---@return KeepStrategyOnSearch
 function KeepStrategyOnSearch.new(fields) return end
 

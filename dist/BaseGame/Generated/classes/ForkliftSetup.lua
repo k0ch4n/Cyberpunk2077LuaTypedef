@@ -7,6 +7,6 @@
 ---@field public hasDistractionQuickhack Bool
 ForkliftSetup = {}
 
----@param fields? table
+---@param fields? ForkliftSetup
 ---@return ForkliftSetup
 function ForkliftSetup.new(fields) return end

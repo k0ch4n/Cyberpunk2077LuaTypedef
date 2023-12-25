@@ -9,6 +9,6 @@
 ---@field public frameRate Uint32
 gameBinkVideoSummary = {}
 
----@param fields? table
+---@param fields? gameBinkVideoSummary
 ---@return gameBinkVideoSummary
 function gameBinkVideoSummary.new(fields) return end

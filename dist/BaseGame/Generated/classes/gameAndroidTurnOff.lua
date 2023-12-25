@@ -4,6 +4,6 @@
 ---@class gameAndroidTurnOff: redEvent
 gameAndroidTurnOff = {}
 
----@param fields? table
+---@param fields? gameAndroidTurnOff
 ---@return gameAndroidTurnOff
 function gameAndroidTurnOff.new(fields) return end

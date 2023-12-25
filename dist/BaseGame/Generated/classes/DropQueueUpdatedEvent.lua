@@ -5,6 +5,6 @@
 ---@field public dropQueue gameItemModParams[]
 DropQueueUpdatedEvent = {}
 
----@param fields? table
+---@param fields? DropQueueUpdatedEvent
 ---@return DropQueueUpdatedEvent
 function DropQueueUpdatedEvent.new(fields) return end

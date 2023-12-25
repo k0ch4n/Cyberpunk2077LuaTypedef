@@ -4,7 +4,7 @@
 ---@class worldgeometryaverageNormalDetectionHelperQuery: IScriptable
 worldgeometryaverageNormalDetectionHelperQuery = {}
 
----@param fields? table
+---@param fields? worldgeometryaverageNormalDetectionHelperQuery
 ---@return worldgeometryaverageNormalDetectionHelperQuery
 function worldgeometryaverageNormalDetectionHelperQuery.new(fields) return end
 

@@ -18,6 +18,6 @@
 ---@field public resourceVersion Uint8
 worldCollisionNode = {}
 
----@param fields? table
+---@param fields? worldCollisionNode
 ---@return worldCollisionNode
 function worldCollisionNode.new(fields) return end

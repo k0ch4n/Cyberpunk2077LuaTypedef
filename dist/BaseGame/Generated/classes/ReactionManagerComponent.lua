@@ -90,7 +90,7 @@
 ---@field private recentAlertTimeStamp Float
 ReactionManagerComponent = {}
 
----@param fields? table
+---@param fields? ReactionManagerComponent
 ---@return ReactionManagerComponent
 function ReactionManagerComponent.new(fields) return end
 

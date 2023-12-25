@@ -4,6 +4,6 @@
 ---@class AIbehaviorSimpleParameterizedBehavior: AIbehaviorParameterizedBehavior
 AIbehaviorSimpleParameterizedBehavior = {}
 
----@param fields? table
+---@param fields? AIbehaviorSimpleParameterizedBehavior
 ---@return AIbehaviorSimpleParameterizedBehavior
 function AIbehaviorSimpleParameterizedBehavior.new(fields) return end

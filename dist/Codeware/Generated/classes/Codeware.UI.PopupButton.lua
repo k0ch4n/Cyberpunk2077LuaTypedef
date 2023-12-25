@@ -8,7 +8,7 @@
 ---@field public input inkInputDisplayController
 Codeware_UI_PopupButton = {}
 
----@param fields? table
+---@param fields? Codeware_UI_PopupButton
 ---@return Codeware_UI_PopupButton
 function Codeware_UI_PopupButton.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public data JournalNotificationData
 RefreshSmsMessagerEvent = {}
 
----@param fields? table
+---@param fields? RefreshSmsMessagerEvent
 ---@return RefreshSmsMessagerEvent
 function RefreshSmsMessagerEvent.new(fields) return end

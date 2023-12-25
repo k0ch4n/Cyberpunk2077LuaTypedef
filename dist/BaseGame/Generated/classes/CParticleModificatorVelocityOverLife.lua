@@ -8,6 +8,6 @@
 ---@field public absolute Bool
 CParticleModificatorVelocityOverLife = {}
 
----@param fields? table
+---@param fields? CParticleModificatorVelocityOverLife
 ---@return CParticleModificatorVelocityOverLife
 function CParticleModificatorVelocityOverLife.new(fields) return end

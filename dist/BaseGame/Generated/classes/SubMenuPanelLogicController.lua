@@ -31,7 +31,7 @@
 ---@field public hubMenuInstanceID Uint32
 SubMenuPanelLogicController = {}
 
----@param fields? table
+---@param fields? SubMenuPanelLogicController
 ---@return SubMenuPanelLogicController
 function SubMenuPanelLogicController.new(fields) return end
 

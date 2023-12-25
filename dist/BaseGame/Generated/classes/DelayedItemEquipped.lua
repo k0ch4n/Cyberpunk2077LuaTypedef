@@ -4,6 +4,6 @@
 ---@class DelayedItemEquipped: redEvent
 DelayedItemEquipped = {}
 
----@param fields? table
+---@param fields? DelayedItemEquipped
 ---@return DelayedItemEquipped
 function DelayedItemEquipped.new(fields) return end

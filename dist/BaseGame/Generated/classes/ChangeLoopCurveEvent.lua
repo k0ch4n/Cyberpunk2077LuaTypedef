@@ -6,7 +6,7 @@
 ---@field public loopCurve CName
 ChangeLoopCurveEvent = {}
 
----@param fields? table
+---@param fields? ChangeLoopCurveEvent
 ---@return ChangeLoopCurveEvent
 function ChangeLoopCurveEvent.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public comparisonParams questComparisonParam
 questCharacterSpawned_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterSpawned_ConditionType
 ---@return questCharacterSpawned_ConditionType
 function questCharacterSpawned_ConditionType.new(fields) return end

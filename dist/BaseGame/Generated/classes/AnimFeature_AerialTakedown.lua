@@ -5,6 +5,6 @@
 ---@field public state Int32
 AnimFeature_AerialTakedown = {}
 
----@param fields? table
+---@param fields? AnimFeature_AerialTakedown
 ---@return AnimFeature_AerialTakedown
 function AnimFeature_AerialTakedown.new(fields) return end

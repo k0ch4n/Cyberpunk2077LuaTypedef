@@ -5,6 +5,6 @@
 ---@field public reqLevel Float
 DEBUG_RebalanceItemEvent = {}
 
----@param fields? table
+---@param fields? DEBUG_RebalanceItemEvent
 ---@return DEBUG_RebalanceItemEvent
 function DEBUG_RebalanceItemEvent.new(fields) return end

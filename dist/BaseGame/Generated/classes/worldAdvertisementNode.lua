@@ -12,6 +12,6 @@
 ---@field public lightsData worldAdvertisementLightData[]
 worldAdvertisementNode = {}
 
----@param fields? table
+---@param fields? worldAdvertisementNode
 ---@return worldAdvertisementNode
 function worldAdvertisementNode.new(fields) return end

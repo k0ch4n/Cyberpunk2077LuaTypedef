@@ -4,7 +4,7 @@
 ---@class gameprojectileScriptCollisionEvaluator: gameprojectileCollisionEvaluator
 gameprojectileScriptCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? gameprojectileScriptCollisionEvaluator
 ---@return gameprojectileScriptCollisionEvaluator
 function gameprojectileScriptCollisionEvaluator.new(fields) return end
 

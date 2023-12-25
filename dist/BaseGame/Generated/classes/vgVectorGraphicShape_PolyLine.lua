@@ -6,6 +6,6 @@
 ---@field public roke Float
 vgVectorGraphicShape_PolyLine = {}
 
----@param fields? table
+---@param fields? vgVectorGraphicShape_PolyLine
 ---@return vgVectorGraphicShape_PolyLine
 function vgVectorGraphicShape_PolyLine.new(fields) return end

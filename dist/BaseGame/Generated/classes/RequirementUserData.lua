@@ -9,6 +9,6 @@
 ---@field public asyncSpawnRequest inkAsyncSpawnRequest
 RequirementUserData = {}
 
----@param fields? table
+---@param fields? RequirementUserData
 ---@return RequirementUserData
 function RequirementUserData.new(fields) return end

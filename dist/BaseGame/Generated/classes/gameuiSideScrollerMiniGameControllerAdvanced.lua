@@ -5,7 +5,7 @@
 ---@field public gameplayCanvas inkWidgetReference
 gameuiSideScrollerMiniGameControllerAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameControllerAdvanced
 ---@return gameuiSideScrollerMiniGameControllerAdvanced
 function gameuiSideScrollerMiniGameControllerAdvanced.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamePuppet: gamePuppetBase
 gamePuppet = {}
 
----@param fields? table
+---@param fields? gamePuppet
 ---@return gamePuppet
 function gamePuppet.new(fields) return end
 

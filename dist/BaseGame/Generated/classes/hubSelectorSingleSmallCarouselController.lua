@@ -4,6 +4,6 @@
 ---@class hubSelectorSingleSmallCarouselController: hubSelectorSingleCarouselController
 hubSelectorSingleSmallCarouselController = {}
 
----@param fields? table
+---@param fields? hubSelectorSingleSmallCarouselController
 ---@return hubSelectorSingleSmallCarouselController
 function hubSelectorSingleSmallCarouselController.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestForceCloseImmediate: ActionBool
 QuestForceCloseImmediate = {}
 
----@param fields? table
+---@param fields? QuestForceCloseImmediate
 ---@return QuestForceCloseImmediate
 function QuestForceCloseImmediate.new(fields) return end
 

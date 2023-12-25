@@ -7,6 +7,6 @@
 ---@field public activated Bool
 gameVisionModuleEvent = {}
 
----@param fields? table
+---@param fields? gameVisionModuleEvent
 ---@return gameVisionModuleEvent
 function gameVisionModuleEvent.new(fields) return end

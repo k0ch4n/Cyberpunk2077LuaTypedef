@@ -6,7 +6,7 @@
 ---@field public animationPriority Int32
 TargetHitIndicatorLogicController = {}
 
----@param fields? table
+---@param fields? TargetHitIndicatorLogicController
 ---@return TargetHitIndicatorLogicController
 function TargetHitIndicatorLogicController.new(fields) return end
 

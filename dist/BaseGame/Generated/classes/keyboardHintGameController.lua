@@ -12,7 +12,7 @@
 ---@field private KeyboardCommandBBID redCallbackObject
 keyboardHintGameController = {}
 
----@param fields? table
+---@param fields? keyboardHintGameController
 ---@return keyboardHintGameController
 function keyboardHintGameController.new(fields) return end
 

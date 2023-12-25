@@ -5,6 +5,6 @@
 ---@field public parentHash Int32
 MessageThreadReadEvent = {}
 
----@param fields? table
+---@param fields? MessageThreadReadEvent
 ---@return MessageThreadReadEvent
 function MessageThreadReadEvent.new(fields) return end

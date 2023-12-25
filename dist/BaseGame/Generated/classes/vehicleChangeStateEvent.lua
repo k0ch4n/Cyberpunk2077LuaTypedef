@@ -6,6 +6,6 @@
 ---@field public oldState vehicleEState
 vehicleChangeStateEvent = {}
 
----@param fields? table
+---@param fields? vehicleChangeStateEvent
 ---@return vehicleChangeStateEvent
 function vehicleChangeStateEvent.new(fields) return end

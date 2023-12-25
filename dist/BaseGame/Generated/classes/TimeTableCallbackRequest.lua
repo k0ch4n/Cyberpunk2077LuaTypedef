@@ -5,6 +5,6 @@
 ---@field public callBackID Uint32
 TimeTableCallbackRequest = {}
 
----@param fields? table
+---@param fields? TimeTableCallbackRequest
 ---@return TimeTableCallbackRequest
 function TimeTableCallbackRequest.new(fields) return end

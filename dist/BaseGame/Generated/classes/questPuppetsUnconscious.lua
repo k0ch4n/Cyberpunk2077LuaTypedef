@@ -5,6 +5,6 @@
 ---@field public setUnconscious Bool
 questPuppetsUnconscious = {}
 
----@param fields? table
+---@param fields? questPuppetsUnconscious
 ---@return questPuppetsUnconscious
 function questPuppetsUnconscious.new(fields) return end

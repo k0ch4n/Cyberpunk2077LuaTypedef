@@ -4,7 +4,7 @@
 ---@class gamedataUICharacterCreationAttributesPreset_Record: gamedataTweakDBRecord
 gamedataUICharacterCreationAttributesPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataUICharacterCreationAttributesPreset_Record
 ---@return gamedataUICharacterCreationAttributesPreset_Record
 function gamedataUICharacterCreationAttributesPreset_Record.new(fields) return end
 

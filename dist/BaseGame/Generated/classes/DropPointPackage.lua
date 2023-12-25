@@ -8,7 +8,7 @@
 ---@field private statusHistory DropPointPackageStatus[]
 DropPointPackage = {}
 
----@param fields? table
+---@param fields? DropPointPackage
 ---@return DropPointPackage
 function DropPointPackage.new(fields) return end
 

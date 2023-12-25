@@ -10,6 +10,6 @@
 ---@field public destructionTimeStamp EngineTime
 vehiclePlayerVehicle = {}
 
----@param fields? table
+---@param fields? vehiclePlayerVehicle
 ---@return vehiclePlayerVehicle
 function vehiclePlayerVehicle.new(fields) return end

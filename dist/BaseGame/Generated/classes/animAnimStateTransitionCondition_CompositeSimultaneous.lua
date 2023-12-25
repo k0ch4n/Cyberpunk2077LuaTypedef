@@ -5,6 +5,6 @@
 ---@field public conditions animIAnimStateTransitionCondition[]
 animAnimStateTransitionCondition_CompositeSimultaneous = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_CompositeSimultaneous
 ---@return animAnimStateTransitionCondition_CompositeSimultaneous
 function animAnimStateTransitionCondition_CompositeSimultaneous.new(fields) return end

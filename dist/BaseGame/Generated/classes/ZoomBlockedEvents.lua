@@ -6,7 +6,7 @@
 ---@field public previousCameraPerspectiveValid Bool
 ZoomBlockedEvents = {}
 
----@param fields? table
+---@param fields? ZoomBlockedEvents
 ---@return ZoomBlockedEvents
 function ZoomBlockedEvents.new(fields) return end
 

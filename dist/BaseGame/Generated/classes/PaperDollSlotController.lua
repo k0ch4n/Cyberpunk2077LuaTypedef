@@ -11,7 +11,7 @@
 ---@field protected locked Bool
 PaperDollSlotController = {}
 
----@param fields? table
+---@param fields? PaperDollSlotController
 ---@return PaperDollSlotController
 function PaperDollSlotController.new(fields) return end
 

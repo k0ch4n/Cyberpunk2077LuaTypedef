@@ -8,6 +8,6 @@
 ---@field public detected Bool
 AIThreatDeath = {}
 
----@param fields? table
+---@param fields? AIThreatDeath
 ---@return AIThreatDeath
 function AIThreatDeath.new(fields) return end

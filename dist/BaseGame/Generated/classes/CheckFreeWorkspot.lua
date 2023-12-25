@@ -8,7 +8,7 @@
 ---@field public globalRef worldGlobalNodeRef
 CheckFreeWorkspot = {}
 
----@param fields? table
+---@param fields? CheckFreeWorkspot
 ---@return CheckFreeWorkspot
 function CheckFreeWorkspot.new(fields) return end
 

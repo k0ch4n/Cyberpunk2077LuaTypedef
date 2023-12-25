@@ -4,7 +4,7 @@
 ---@class gamedataAIIsOnNavmeshCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsOnNavmeshCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIIsOnNavmeshCond_Record
 ---@return gamedataAIIsOnNavmeshCond_Record
 function gamedataAIIsOnNavmeshCond_Record.new(fields) return end
 

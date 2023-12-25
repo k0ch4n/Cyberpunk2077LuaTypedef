@@ -4,7 +4,7 @@
 ---@class SyncAnimDeathTask: WithoutHitDataDeathTask
 SyncAnimDeathTask = {}
 
----@param fields? table
+---@param fields? SyncAnimDeathTask
 ---@return SyncAnimDeathTask
 function SyncAnimDeathTask.new(fields) return end
 

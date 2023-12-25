@@ -19,7 +19,7 @@
 ---@field private zoomLerpDuration Float
 SniperNest = {}
 
----@param fields? table
+---@param fields? SniperNest
 ---@return SniperNest
 function SniperNest.new(fields) return end
 

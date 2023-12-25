@@ -4,7 +4,7 @@
 ---@class ForceAnimationOffScreen: AIbehaviortaskScript
 ForceAnimationOffScreen = {}
 
----@param fields? table
+---@param fields? ForceAnimationOffScreen
 ---@return ForceAnimationOffScreen
 function ForceAnimationOffScreen.new(fields) return end
 

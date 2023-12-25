@@ -12,6 +12,6 @@
 ---@field public isImmediate Bool
 audioBreathingStateTransitionMetadata = {}
 
----@param fields? table
+---@param fields? audioBreathingStateTransitionMetadata
 ---@return audioBreathingStateTransitionMetadata
 function audioBreathingStateTransitionMetadata.new(fields) return end

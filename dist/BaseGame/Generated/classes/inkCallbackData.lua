@@ -8,6 +8,6 @@
 ---@field public iconSrc TweakDBID
 inkCallbackData = {}
 
----@param fields? table
+---@param fields? inkCallbackData
 ---@return inkCallbackData
 function inkCallbackData.new(fields) return end

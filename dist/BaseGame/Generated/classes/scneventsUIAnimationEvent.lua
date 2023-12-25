@@ -7,6 +7,6 @@
 ---@field public nodeRef NodeRef
 scneventsUIAnimationEvent = {}
 
----@param fields? table
+---@param fields? scneventsUIAnimationEvent
 ---@return scneventsUIAnimationEvent
 function scneventsUIAnimationEvent.new(fields) return end

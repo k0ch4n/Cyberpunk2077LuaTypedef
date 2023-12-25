@@ -7,6 +7,6 @@
 ---@field public initialState CName
 audioBreathingSettings = {}
 
----@param fields? table
+---@param fields? audioBreathingSettings
 ---@return audioBreathingSettings
 function audioBreathingSettings.new(fields) return end

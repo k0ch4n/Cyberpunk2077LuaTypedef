@@ -13,7 +13,7 @@
 ---@field private statPoolsSystem gameStatPoolsSystem
 CompanionHealthBarGameController = {}
 
----@param fields? table
+---@param fields? CompanionHealthBarGameController
 ---@return CompanionHealthBarGameController
 function CompanionHealthBarGameController.new(fields) return end
 

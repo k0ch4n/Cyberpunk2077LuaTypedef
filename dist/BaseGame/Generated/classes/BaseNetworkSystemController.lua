@@ -4,7 +4,7 @@
 ---@class BaseNetworkSystemController: MasterController
 BaseNetworkSystemController = {}
 
----@param fields? table
+---@param fields? BaseNetworkSystemController
 ---@return BaseNetworkSystemController
 function BaseNetworkSystemController.new(fields) return end
 

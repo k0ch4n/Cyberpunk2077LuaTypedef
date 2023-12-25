@@ -4,6 +4,6 @@
 ---@class worldWeatherAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldWeatherAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldWeatherAreaNotifierInstance
 ---@return worldWeatherAreaNotifierInstance
 function worldWeatherAreaNotifierInstance.new(fields) return end

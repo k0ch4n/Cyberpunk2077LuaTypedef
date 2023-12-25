@@ -4,6 +4,6 @@
 ---@class questGraphDefinition: graphGraphDefinition
 questGraphDefinition = {}
 
----@param fields? table
+---@param fields? questGraphDefinition
 ---@return questGraphDefinition
 function questGraphDefinition.new(fields) return end

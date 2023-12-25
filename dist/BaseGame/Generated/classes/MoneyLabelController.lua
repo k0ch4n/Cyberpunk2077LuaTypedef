@@ -7,7 +7,7 @@
 ---@field private pulse PulseAnimation
 MoneyLabelController = {}
 
----@param fields? table
+---@param fields? MoneyLabelController
 ---@return MoneyLabelController
 function MoneyLabelController.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public forceRemoveAuthorization Bool
 BlacklistPlayer = {}
 
----@param fields? table
+---@param fields? BlacklistPlayer
 ---@return BlacklistPlayer
 function BlacklistPlayer.new(fields) return end
 

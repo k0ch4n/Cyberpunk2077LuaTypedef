@@ -4,7 +4,7 @@
 ---@class IsInWorkspotPSMPrereq: PlayerStateMachinePrereq
 IsInWorkspotPSMPrereq = {}
 
----@param fields? table
+---@param fields? IsInWorkspotPSMPrereq
 ---@return IsInWorkspotPSMPrereq
 function IsInWorkspotPSMPrereq.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public resetVelocities Bool
 questTeleportVehicleNodeDefinition = {}
 
----@param fields? table
+---@param fields? questTeleportVehicleNodeDefinition
 ---@return questTeleportVehicleNodeDefinition
 function questTeleportVehicleNodeDefinition.new(fields) return end

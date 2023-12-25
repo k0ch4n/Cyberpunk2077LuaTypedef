@@ -14,7 +14,7 @@
 ---@field protected openingTokens entEntityID[]
 DoorControllerPS = {}
 
----@param fields? table
+---@param fields? DoorControllerPS
 ---@return DoorControllerPS
 function DoorControllerPS.new(fields) return end
 

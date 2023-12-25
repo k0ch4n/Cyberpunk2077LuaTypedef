@@ -10,6 +10,6 @@
 ---@field public isPreGame Bool
 DlcDescriptionData = {}
 
----@param fields? table
+---@param fields? DlcDescriptionData
 ---@return DlcDescriptionData
 function DlcDescriptionData.new(fields) return end

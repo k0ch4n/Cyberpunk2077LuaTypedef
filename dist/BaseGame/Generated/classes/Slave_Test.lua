@@ -5,7 +5,7 @@
 ---@field public deviceComponent PSD_Detector
 Slave_Test = {}
 
----@param fields? table
+---@param fields? Slave_Test
 ---@return Slave_Test
 function Slave_Test.new(fields) return end
 

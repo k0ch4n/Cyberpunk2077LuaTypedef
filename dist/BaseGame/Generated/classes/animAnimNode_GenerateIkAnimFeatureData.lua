@@ -5,6 +5,6 @@
 ---@field public ikChainSettings animIKChainSettings[]
 animAnimNode_GenerateIkAnimFeatureData = {}
 
----@param fields? table
+---@param fields? animAnimNode_GenerateIkAnimFeatureData
 ---@return animAnimNode_GenerateIkAnimFeatureData
 function animAnimNode_GenerateIkAnimFeatureData.new(fields) return end

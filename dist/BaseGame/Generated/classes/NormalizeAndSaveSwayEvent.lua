@@ -5,6 +5,6 @@
 ---@field public sway Vector2
 NormalizeAndSaveSwayEvent = {}
 
----@param fields? table
+---@param fields? NormalizeAndSaveSwayEvent
 ---@return NormalizeAndSaveSwayEvent
 function NormalizeAndSaveSwayEvent.new(fields) return end

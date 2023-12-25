@@ -12,6 +12,6 @@
 ---@field public isPaused Bool
 gameMovingPlatformSavedData = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformSavedData
 ---@return gameMovingPlatformSavedData
 function gameMovingPlatformSavedData.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public entries interopRTTIClassDumpEntry[]
 interopRTTIClassDump = {}
 
----@param fields? table
+---@param fields? interopRTTIClassDump
 ---@return interopRTTIClassDump
 function interopRTTIClassDump.new(fields) return end

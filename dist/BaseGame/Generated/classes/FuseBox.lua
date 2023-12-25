@@ -12,7 +12,7 @@
 ---@field private componentsOFF entIPlacedComponent[]
 FuseBox = {}
 
----@param fields? table
+---@param fields? FuseBox
 ---@return FuseBox
 function FuseBox.new(fields) return end
 

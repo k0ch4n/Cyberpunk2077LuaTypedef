@@ -6,6 +6,6 @@
 ---@field public CurrentChannel gamebbScriptID_Int32
 TVDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? TVDeviceBlackboardDef
 ---@return TVDeviceBlackboardDef
 function TVDeviceBlackboardDef.new(fields) return end

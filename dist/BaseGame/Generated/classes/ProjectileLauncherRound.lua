@@ -28,7 +28,7 @@
 ---@field protected waterDetonationImpulseStrength Float
 ProjectileLauncherRound = {}
 
----@param fields? table
+---@param fields? ProjectileLauncherRound
 ---@return ProjectileLauncherRound
 function ProjectileLauncherRound.new(fields) return end
 

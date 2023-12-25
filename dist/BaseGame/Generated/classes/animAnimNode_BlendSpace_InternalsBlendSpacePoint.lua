@@ -10,6 +10,6 @@
 ---@field public staticPoseProgress Float
 animAnimNode_BlendSpace_InternalsBlendSpacePoint = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendSpace_InternalsBlendSpacePoint
 ---@return animAnimNode_BlendSpace_InternalsBlendSpacePoint
 function animAnimNode_BlendSpace_InternalsBlendSpacePoint.new(fields) return end

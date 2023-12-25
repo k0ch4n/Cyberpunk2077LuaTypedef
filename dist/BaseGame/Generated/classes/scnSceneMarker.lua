@@ -6,6 +6,6 @@
 ---@field public workspotMarkers scnSceneMarkerInternalsWorkspotEntry[]
 scnSceneMarker = {}
 
----@param fields? table
+---@param fields? scnSceneMarker
 ---@return scnSceneMarker
 function scnSceneMarker.new(fields) return end

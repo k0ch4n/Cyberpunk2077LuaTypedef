@@ -11,6 +11,6 @@
 ---@field public BannerWidgetsData gamebbScriptID_Variant
 ComputerDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? ComputerDeviceBlackboardDef
 ---@return ComputerDeviceBlackboardDef
 function ComputerDeviceBlackboardDef.new(fields) return end

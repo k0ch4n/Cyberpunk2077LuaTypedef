@@ -6,6 +6,6 @@
 ---@field public variant gamedataMappinVariant
 gamemappinsPhaseVariant = {}
 
----@param fields? table
+---@param fields? gamemappinsPhaseVariant
 ---@return gamemappinsPhaseVariant
 function gamemappinsPhaseVariant.new(fields) return end

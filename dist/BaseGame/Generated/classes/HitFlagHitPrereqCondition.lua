@@ -6,7 +6,7 @@
 ---@field public invertHitFlag Bool
 HitFlagHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? HitFlagHitPrereqCondition
 ---@return HitFlagHitPrereqCondition
 function HitFlagHitPrereqCondition.new(fields) return end
 

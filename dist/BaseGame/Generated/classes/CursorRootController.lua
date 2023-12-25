@@ -9,7 +9,7 @@
 ---@field protected animProxy inkanimProxy
 CursorRootController = {}
 
----@param fields? table
+---@param fields? CursorRootController
 ---@return CursorRootController
 function CursorRootController.new(fields) return end
 

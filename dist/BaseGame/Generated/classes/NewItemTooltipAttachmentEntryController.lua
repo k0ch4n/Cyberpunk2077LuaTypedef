@@ -13,7 +13,7 @@
 ---@field protected isCrafting Bool
 NewItemTooltipAttachmentEntryController = {}
 
----@param fields? table
+---@param fields? NewItemTooltipAttachmentEntryController
 ---@return NewItemTooltipAttachmentEntryController
 function NewItemTooltipAttachmentEntryController.new(fields) return end
 

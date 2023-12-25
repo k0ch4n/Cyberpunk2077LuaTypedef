@@ -6,6 +6,6 @@
 ---@field public value CName
 communitySquadInitializerEntry = {}
 
----@param fields? table
+---@param fields? communitySquadInitializerEntry
 ---@return communitySquadInitializerEntry
 function communitySquadInitializerEntry.new(fields) return end

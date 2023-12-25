@@ -6,6 +6,6 @@
 ---@field public comparisonType EComparisonType
 questStreetCredTier_ConditionType = {}
 
----@param fields? table
+---@param fields? questStreetCredTier_ConditionType
 ---@return questStreetCredTier_ConditionType
 function questStreetCredTier_ConditionType.new(fields) return end

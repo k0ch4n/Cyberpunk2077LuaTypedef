@@ -4,7 +4,7 @@
 ---@class cpPlayerSystem: gamePlayerSystem
 cpPlayerSystem = {}
 
----@param fields? table
+---@param fields? cpPlayerSystem
 ---@return cpPlayerSystem
 function cpPlayerSystem.new(fields) return end
 

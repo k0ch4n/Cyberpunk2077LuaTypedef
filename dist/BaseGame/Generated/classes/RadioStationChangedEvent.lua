@@ -5,6 +5,6 @@
 ---@field public radioIndex Int32
 RadioStationChangedEvent = {}
 
----@param fields? table
+---@param fields? RadioStationChangedEvent
 ---@return RadioStationChangedEvent
 function RadioStationChangedEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public condition questIBaseCondition
 questConditionNodeDefinition = {}
 
----@param fields? table
+---@param fields? questConditionNodeDefinition
 ---@return questConditionNodeDefinition
 function questConditionNodeDefinition.new(fields) return end

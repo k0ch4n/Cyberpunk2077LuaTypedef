@@ -6,6 +6,6 @@
 ---@field public namesText inkTextWidgetReference
 gameuiCreditsPositionController = {}
 
----@param fields? table
+---@param fields? gameuiCreditsPositionController
 ---@return gameuiCreditsPositionController
 function gameuiCreditsPositionController.new(fields) return end

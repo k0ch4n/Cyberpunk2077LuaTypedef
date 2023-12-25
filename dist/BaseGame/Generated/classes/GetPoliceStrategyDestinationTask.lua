@@ -4,7 +4,7 @@
 ---@class GetPoliceStrategyDestinationTask: AIbehaviortaskScript
 GetPoliceStrategyDestinationTask = {}
 
----@param fields? table
+---@param fields? GetPoliceStrategyDestinationTask
 ---@return GetPoliceStrategyDestinationTask
 function GetPoliceStrategyDestinationTask.new(fields) return end
 

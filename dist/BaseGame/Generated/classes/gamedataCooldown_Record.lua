@@ -4,7 +4,7 @@
 ---@class gamedataCooldown_Record: gamedataTweakDBRecord
 gamedataCooldown_Record = {}
 
----@param fields? table
+---@param fields? gamedataCooldown_Record
 ---@return gamedataCooldown_Record
 function gamedataCooldown_Record.new(fields) return end
 

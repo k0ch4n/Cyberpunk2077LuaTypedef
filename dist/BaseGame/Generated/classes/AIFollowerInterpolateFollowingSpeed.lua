@@ -13,7 +13,7 @@
 ---@field private reason CName
 AIFollowerInterpolateFollowingSpeed = {}
 
----@param fields? table
+---@param fields? AIFollowerInterpolateFollowingSpeed
 ---@return AIFollowerInterpolateFollowingSpeed
 function AIFollowerInterpolateFollowingSpeed.new(fields) return end
 

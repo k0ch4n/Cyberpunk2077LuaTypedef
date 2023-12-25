@@ -9,6 +9,6 @@
 ---@field public hideInInheritingStyles Bool
 inkStyleResource = {}
 
----@param fields? table
+---@param fields? inkStyleResource
 ---@return inkStyleResource
 function inkStyleResource.new(fields) return end

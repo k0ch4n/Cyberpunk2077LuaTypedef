@@ -12,6 +12,6 @@
 ---@field public isContinuous Bool
 DamageEffectUIEntry = {}
 
----@param fields? table
+---@param fields? DamageEffectUIEntry
 ---@return DamageEffectUIEntry
 function DamageEffectUIEntry.new(fields) return end

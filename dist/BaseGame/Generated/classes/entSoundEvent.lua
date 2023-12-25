@@ -8,6 +8,6 @@
 ---@field public dynamicParams CName[]
 entSoundEvent = {}
 
----@param fields? table
+---@param fields? entSoundEvent
 ---@return entSoundEvent
 function entSoundEvent.new(fields) return end

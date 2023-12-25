@@ -4,7 +4,7 @@
 ---@class gamedataUncontrolledMovementEffector_Record: gamedataEffector_Record
 gamedataUncontrolledMovementEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataUncontrolledMovementEffector_Record
 ---@return gamedataUncontrolledMovementEffector_Record
 function gamedataUncontrolledMovementEffector_Record.new(fields) return end
 

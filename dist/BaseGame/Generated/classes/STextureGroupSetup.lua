@@ -13,6 +13,6 @@
 ---@field public allowTextureDowngrade Bool
 STextureGroupSetup = {}
 
----@param fields? table
+---@param fields? STextureGroupSetup
 ---@return STextureGroupSetup
 function STextureGroupSetup.new(fields) return end

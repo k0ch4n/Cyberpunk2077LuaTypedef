@@ -7,6 +7,6 @@
 ---@field public state gameinteractionsReactionState
 gameinteractionsReactionEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsReactionEvent
 ---@return gameinteractionsReactionEvent
 function gameinteractionsReactionEvent.new(fields) return end

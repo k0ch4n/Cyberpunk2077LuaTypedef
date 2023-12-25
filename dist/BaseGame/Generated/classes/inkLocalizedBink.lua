@@ -5,6 +5,6 @@
 ---@field public binks inkBinkLanguageDescriptor[]
 inkLocalizedBink = {}
 
----@param fields? table
+---@param fields? inkLocalizedBink
 ---@return inkLocalizedBink
 function inkLocalizedBink.new(fields) return end

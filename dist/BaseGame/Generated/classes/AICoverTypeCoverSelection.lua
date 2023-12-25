@@ -4,6 +4,6 @@
 ---@class AICoverTypeCoverSelection: AICoverSelectionParameters
 AICoverTypeCoverSelection = {}
 
----@param fields? table
+---@param fields? AICoverTypeCoverSelection
 ---@return AICoverTypeCoverSelection
 function AICoverTypeCoverSelection.new(fields) return end

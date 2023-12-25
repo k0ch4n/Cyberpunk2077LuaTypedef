@@ -5,7 +5,7 @@
 ---@field public source CName
 SourceTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? SourceTypeHitPrereqCondition
 ---@return SourceTypeHitPrereqCondition
 function SourceTypeHitPrereqCondition.new(fields) return end
 

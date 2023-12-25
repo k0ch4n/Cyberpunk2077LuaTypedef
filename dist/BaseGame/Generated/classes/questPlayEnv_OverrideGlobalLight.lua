@@ -5,6 +5,6 @@
 ---@field public params worldWorldGlobalLightOverrideWithColorParameters
 questPlayEnv_OverrideGlobalLight = {}
 
----@param fields? table
+---@param fields? questPlayEnv_OverrideGlobalLight
 ---@return questPlayEnv_OverrideGlobalLight
 function questPlayEnv_OverrideGlobalLight.new(fields) return end

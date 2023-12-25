@@ -8,6 +8,6 @@
 ---@field public attachRightHandToLeftHand Int32
 animLookAtRequestForPart = {}
 
----@param fields? table
+---@param fields? animLookAtRequestForPart
 ---@return animLookAtRequestForPart
 function animLookAtRequestForPart.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuickHackToggleOpen: ActionBool
 QuickHackToggleOpen = {}
 
----@param fields? table
+---@param fields? QuickHackToggleOpen
 ---@return QuickHackToggleOpen
 function QuickHackToggleOpen.new(fields) return end
 

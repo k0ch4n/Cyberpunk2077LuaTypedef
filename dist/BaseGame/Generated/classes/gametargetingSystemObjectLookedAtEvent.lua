@@ -6,6 +6,6 @@
 ---@field public state Bool
 gametargetingSystemObjectLookedAtEvent = {}
 
----@param fields? table
+---@param fields? gametargetingSystemObjectLookedAtEvent
 ---@return gametargetingSystemObjectLookedAtEvent
 function gametargetingSystemObjectLookedAtEvent.new(fields) return end

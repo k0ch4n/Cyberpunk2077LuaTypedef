@@ -7,6 +7,6 @@
 ---@field public count Uint16
 meshChunkOffset = {}
 
----@param fields? table
+---@param fields? meshChunkOffset
 ---@return meshChunkOffset
 function meshChunkOffset.new(fields) return end

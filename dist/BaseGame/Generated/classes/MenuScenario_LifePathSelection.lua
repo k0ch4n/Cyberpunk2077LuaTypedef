@@ -4,7 +4,7 @@
 ---@class MenuScenario_LifePathSelection: MenuScenario_PreGameSubMenu
 MenuScenario_LifePathSelection = {}
 
----@param fields? table
+---@param fields? MenuScenario_LifePathSelection
 ---@return MenuScenario_LifePathSelection
 function MenuScenario_LifePathSelection.new(fields) return end
 

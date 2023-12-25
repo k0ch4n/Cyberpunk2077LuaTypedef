@@ -5,6 +5,6 @@
 ---@field public isCrypted Bool
 ShardEntryData = {}
 
----@param fields? table
+---@param fields? ShardEntryData
 ---@return ShardEntryData
 function ShardEntryData.new(fields) return end

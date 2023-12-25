@@ -20,7 +20,7 @@
 ---@field public MessageToOpenHash gamebbScriptID_Int32
 UI_ComDeviceDef = {}
 
----@param fields? table
+---@param fields? UI_ComDeviceDef
 ---@return UI_ComDeviceDef
 function UI_ComDeviceDef.new(fields) return end
 

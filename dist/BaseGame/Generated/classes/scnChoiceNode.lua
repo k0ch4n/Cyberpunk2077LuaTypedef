@@ -32,6 +32,6 @@
 ---@field public reminderCondition scnReminderCondition
 scnChoiceNode = {}
 
----@param fields? table
+---@param fields? scnChoiceNode
 ---@return scnChoiceNode
 function scnChoiceNode.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class DetectPlayerFromAV: AIbehaviortaskScript
 DetectPlayerFromAV = {}
 
----@param fields? table
+---@param fields? DetectPlayerFromAV
 ---@return DetectPlayerFromAV
 function DetectPlayerFromAV.new(fields) return end
 

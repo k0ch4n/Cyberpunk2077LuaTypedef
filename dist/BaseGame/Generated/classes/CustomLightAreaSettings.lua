@@ -5,6 +5,6 @@
 ---@field public characterLocalLightRoughnesBias curveData
 CustomLightAreaSettings = {}
 
----@param fields? table
+---@param fields? CustomLightAreaSettings
 ---@return CustomLightAreaSettings
 function CustomLightAreaSettings.new(fields) return end

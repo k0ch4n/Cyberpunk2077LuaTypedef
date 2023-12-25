@@ -4,7 +4,7 @@
 ---@class ConveyorController: ScriptableDeviceComponent
 ConveyorController = {}
 
----@param fields? table
+---@param fields? ConveyorController
 ---@return ConveyorController
 function ConveyorController.new(fields) return end
 

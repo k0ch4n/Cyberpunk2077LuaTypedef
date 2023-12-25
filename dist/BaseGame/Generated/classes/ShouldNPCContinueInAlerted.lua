@@ -4,7 +4,7 @@
 ---@class ShouldNPCContinueInAlerted: AIbehaviorconditionScript
 ShouldNPCContinueInAlerted = {}
 
----@param fields? table
+---@param fields? ShouldNPCContinueInAlerted
 ---@return ShouldNPCContinueInAlerted
 function ShouldNPCContinueInAlerted.new(fields) return end
 

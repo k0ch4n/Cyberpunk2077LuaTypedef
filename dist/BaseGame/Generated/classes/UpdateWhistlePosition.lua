@@ -4,7 +4,7 @@
 ---@class UpdateWhistlePosition: AIbehaviortaskScript
 UpdateWhistlePosition = {}
 
----@param fields? table
+---@param fields? UpdateWhistlePosition
 ---@return UpdateWhistlePosition
 function UpdateWhistlePosition.new(fields) return end
 

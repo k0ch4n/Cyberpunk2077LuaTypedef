@@ -7,6 +7,6 @@
 ---@field public durationSec Float
 questShowNarrativeEvent_NodeType = {}
 
----@param fields? table
+---@param fields? questShowNarrativeEvent_NodeType
 ---@return questShowNarrativeEvent_NodeType
 function questShowNarrativeEvent_NodeType.new(fields) return end

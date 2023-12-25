@@ -6,7 +6,7 @@
 ---@field protected lookatTargetObject gameObject
 SearchPatternMappingLookat = {}
 
----@param fields? table
+---@param fields? SearchPatternMappingLookat
 ---@return SearchPatternMappingLookat
 function SearchPatternMappingLookat.new(fields) return end
 

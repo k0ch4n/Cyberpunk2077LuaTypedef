@@ -28,7 +28,7 @@
 ---@field private currentAnimProxy inkanimProxy
 sampleUICustomizableAnimationsController = {}
 
----@param fields? table
+---@param fields? sampleUICustomizableAnimationsController
 ---@return sampleUICustomizableAnimationsController
 function sampleUICustomizableAnimationsController.new(fields) return end
 

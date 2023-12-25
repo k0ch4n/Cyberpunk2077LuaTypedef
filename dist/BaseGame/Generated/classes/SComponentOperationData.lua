@@ -6,6 +6,6 @@
 ---@field public operationType EComponentOperation
 SComponentOperationData = {}
 
----@param fields? table
+---@param fields? SComponentOperationData
 ---@return SComponentOperationData
 function SComponentOperationData.new(fields) return end

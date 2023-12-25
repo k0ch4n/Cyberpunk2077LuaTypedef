@@ -5,6 +5,6 @@
 ---@field public value CName
 AICNameArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AICNameArgumentInstancePS
 ---@return AICNameArgumentInstancePS
 function AICNameArgumentInstancePS.new(fields) return end

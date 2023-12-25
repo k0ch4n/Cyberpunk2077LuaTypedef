@@ -5,6 +5,6 @@
 ---@field public threatRadius AIArgumentMapping
 AIbehaviorAvoidPlayerTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorAvoidPlayerTaskDefinition
 ---@return AIbehaviorAvoidPlayerTaskDefinition
 function AIbehaviorAvoidPlayerTaskDefinition.new(fields) return end

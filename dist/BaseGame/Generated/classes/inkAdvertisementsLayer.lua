@@ -4,6 +4,6 @@
 ---@class inkAdvertisementsLayer: inkWorldFluffLayer
 inkAdvertisementsLayer = {}
 
----@param fields? table
+---@param fields? inkAdvertisementsLayer
 ---@return inkAdvertisementsLayer
 function inkAdvertisementsLayer.new(fields) return end

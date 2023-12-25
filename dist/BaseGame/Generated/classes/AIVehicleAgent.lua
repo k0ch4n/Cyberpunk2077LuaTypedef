@@ -6,7 +6,7 @@
 ---@field private initCmd AIVehicleCommand
 AIVehicleAgent = {}
 
----@param fields? table
+---@param fields? AIVehicleAgent
 ---@return AIVehicleAgent
 function AIVehicleAgent.new(fields) return end
 

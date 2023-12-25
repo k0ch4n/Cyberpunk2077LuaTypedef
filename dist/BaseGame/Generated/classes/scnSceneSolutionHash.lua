@@ -5,6 +5,6 @@
 ---@field public sceneSolutionHash scnSceneSolutionHashHash
 scnSceneSolutionHash = {}
 
----@param fields? table
+---@param fields? scnSceneSolutionHash
 ---@return scnSceneSolutionHash
 function scnSceneSolutionHash.new(fields) return end

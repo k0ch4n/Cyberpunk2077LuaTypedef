@@ -6,6 +6,6 @@
 ---@field public themeNameLocKey CName
 inkStyleThemeDescriptor = {}
 
----@param fields? table
+---@param fields? inkStyleThemeDescriptor
 ---@return inkStyleThemeDescriptor
 function inkStyleThemeDescriptor.new(fields) return end

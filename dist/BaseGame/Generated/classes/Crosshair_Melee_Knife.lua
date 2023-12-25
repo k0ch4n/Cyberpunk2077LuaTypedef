@@ -23,7 +23,7 @@
 ---@field private preloader inkCanvasWidget
 Crosshair_Melee_Knife = {}
 
----@param fields? table
+---@param fields? Crosshair_Melee_Knife
 ---@return Crosshair_Melee_Knife
 function Crosshair_Melee_Knife.new(fields) return end
 

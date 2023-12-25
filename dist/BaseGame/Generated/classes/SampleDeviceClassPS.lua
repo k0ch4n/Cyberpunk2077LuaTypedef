@@ -5,7 +5,7 @@
 ---@field protected counter Int32
 SampleDeviceClassPS = {}
 
----@param fields? table
+---@param fields? SampleDeviceClassPS
 ---@return SampleDeviceClassPS
 function SampleDeviceClassPS.new(fields) return end
 

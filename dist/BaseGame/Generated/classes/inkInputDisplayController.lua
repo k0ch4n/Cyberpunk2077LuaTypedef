@@ -14,7 +14,7 @@
 ---@field public fixedIconHeight Float
 inkInputDisplayController = {}
 
----@param fields? table
+---@param fields? inkInputDisplayController
 ---@return inkInputDisplayController
 function inkInputDisplayController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class HitIsSourceGrenadePrereq: GenericHitPrereq
 HitIsSourceGrenadePrereq = {}
 
----@param fields? table
+---@param fields? HitIsSourceGrenadePrereq
 ---@return HitIsSourceGrenadePrereq
 function HitIsSourceGrenadePrereq.new(fields) return end

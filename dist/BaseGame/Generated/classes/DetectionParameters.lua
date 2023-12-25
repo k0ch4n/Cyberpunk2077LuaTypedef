@@ -10,6 +10,6 @@
 ---@field public rotationSpeed Float
 DetectionParameters = {}
 
----@param fields? table
+---@param fields? DetectionParameters
 ---@return DetectionParameters
 function DetectionParameters.new(fields) return end

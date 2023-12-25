@@ -4,7 +4,7 @@
 ---@class gameAINetStateComponent: gameScriptableComponent
 gameAINetStateComponent = {}
 
----@param fields? table
+---@param fields? gameAINetStateComponent
 ---@return gameAINetStateComponent
 function gameAINetStateComponent.new(fields) return end
 

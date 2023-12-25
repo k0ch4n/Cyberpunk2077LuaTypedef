@@ -5,6 +5,6 @@
 ---@field public gradientEntries rendGradientEntry[]
 CGradient = {}
 
----@param fields? table
+---@param fields? CGradient
 ---@return CGradient
 function CGradient.new(fields) return end

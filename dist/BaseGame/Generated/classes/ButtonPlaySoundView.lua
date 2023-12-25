@@ -7,7 +7,7 @@
 ---@field private HoverSoundName CName
 ButtonPlaySoundView = {}
 
----@param fields? table
+---@param fields? ButtonPlaySoundView
 ---@return ButtonPlaySoundView
 function ButtonPlaySoundView.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public weightFloatTrack animNamedTrackIndex
 animAnimNode_AimConstraint_ObjectUp = {}
 
----@param fields? table
+---@param fields? animAnimNode_AimConstraint_ObjectUp
 ---@return animAnimNode_AimConstraint_ObjectUp
 function animAnimNode_AimConstraint_ObjectUp.new(fields) return end

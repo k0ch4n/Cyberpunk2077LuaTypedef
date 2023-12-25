@@ -7,7 +7,7 @@
 ---@field public minPathLength Float
 HasPositionFarFromThreat = {}
 
----@param fields? table
+---@param fields? HasPositionFarFromThreat
 ---@return HasPositionFarFromThreat
 function HasPositionFarFromThreat.new(fields) return end
 

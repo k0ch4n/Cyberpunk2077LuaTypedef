@@ -6,6 +6,6 @@
 ---@field public NextTrainLine gamebbScriptID_Int32
 NcartTimetableBlackboardDef = {}
 
----@param fields? table
+---@param fields? NcartTimetableBlackboardDef
 ---@return NcartTimetableBlackboardDef
 function NcartTimetableBlackboardDef.new(fields) return end

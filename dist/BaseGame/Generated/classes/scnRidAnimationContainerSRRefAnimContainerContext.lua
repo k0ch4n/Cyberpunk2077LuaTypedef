@@ -5,6 +5,6 @@
 ---@field public genderMask scnGenderMask
 scnRidAnimationContainerSRRefAnimContainerContext = {}
 
----@param fields? table
+---@param fields? scnRidAnimationContainerSRRefAnimContainerContext
 ---@return scnRidAnimationContainerSRRefAnimContainerContext
 function scnRidAnimationContainerSRRefAnimContainerContext.new(fields) return end

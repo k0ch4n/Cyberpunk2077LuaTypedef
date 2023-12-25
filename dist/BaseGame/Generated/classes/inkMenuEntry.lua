@@ -10,6 +10,6 @@
 ---@field public inputContext CName
 inkMenuEntry = {}
 
----@param fields? table
+---@param fields? inkMenuEntry
 ---@return inkMenuEntry
 function inkMenuEntry.new(fields) return end

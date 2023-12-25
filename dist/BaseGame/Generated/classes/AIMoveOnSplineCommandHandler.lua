@@ -10,7 +10,7 @@
 ---@field protected allowCrowdOnPath AIArgumentMapping
 AIMoveOnSplineCommandHandler = {}
 
----@param fields? table
+---@param fields? AIMoveOnSplineCommandHandler
 ---@return AIMoveOnSplineCommandHandler
 function AIMoveOnSplineCommandHandler.new(fields) return end
 

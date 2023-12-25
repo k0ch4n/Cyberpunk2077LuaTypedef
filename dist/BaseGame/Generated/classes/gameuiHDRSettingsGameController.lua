@@ -26,7 +26,7 @@
 ---@field private calibrationImagesCycleProxy inkanimProxy
 gameuiHDRSettingsGameController = {}
 
----@param fields? table
+---@param fields? gameuiHDRSettingsGameController
 ---@return gameuiHDRSettingsGameController
 function gameuiHDRSettingsGameController.new(fields) return end
 

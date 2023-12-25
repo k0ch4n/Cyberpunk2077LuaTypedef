@@ -5,6 +5,6 @@
 ---@field public value Uint32
 gameuiSetCasinoChipsAmountEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetCasinoChipsAmountEvent
 ---@return gameuiSetCasinoChipsAmountEvent
 function gameuiSetCasinoChipsAmountEvent.new(fields) return end

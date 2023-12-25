@@ -7,7 +7,7 @@
 ---@field public targetHintContainer CName
 gameuiUpdateInputHintMultipleEvent = {}
 
----@param fields? table
+---@param fields? gameuiUpdateInputHintMultipleEvent
 ---@return gameuiUpdateInputHintMultipleEvent
 function gameuiUpdateInputHintMultipleEvent.new(fields) return end
 

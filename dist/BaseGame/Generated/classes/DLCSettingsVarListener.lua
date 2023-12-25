@@ -5,7 +5,7 @@
 ---@field private ctrl DlcDescriptionController
 DLCSettingsVarListener = {}
 
----@param fields? table
+---@param fields? DLCSettingsVarListener
 ---@return DLCSettingsVarListener
 function DLCSettingsVarListener.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public defaultValue NodeRef
 AIArgumentNodeRefValue = {}
 
----@param fields? table
+---@param fields? AIArgumentNodeRefValue
 ---@return AIArgumentNodeRefValue
 function AIArgumentNodeRefValue.new(fields) return end

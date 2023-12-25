@@ -4,7 +4,7 @@
 ---@class InventoryItemDataComparator: IScriptable
 InventoryItemDataComparator = {}
 
----@param fields? table
+---@param fields? InventoryItemDataComparator
 ---@return InventoryItemDataComparator
 function InventoryItemDataComparator.new(fields) return end
 

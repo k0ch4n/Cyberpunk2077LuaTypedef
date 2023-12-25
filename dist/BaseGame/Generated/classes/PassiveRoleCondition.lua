@@ -6,7 +6,7 @@
 ---@field private roleCbId Uint32
 PassiveRoleCondition = {}
 
----@param fields? table
+---@param fields? PassiveRoleCondition
 ---@return PassiveRoleCondition
 function PassiveRoleCondition.new(fields) return end
 

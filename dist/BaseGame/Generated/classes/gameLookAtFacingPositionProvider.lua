@@ -4,7 +4,7 @@
 ---@class gameLookAtFacingPositionProvider: entIPositionProvider
 gameLookAtFacingPositionProvider = {}
 
----@param fields? table
+---@param fields? gameLookAtFacingPositionProvider
 ---@return gameLookAtFacingPositionProvider
 function gameLookAtFacingPositionProvider.new(fields) return end
 

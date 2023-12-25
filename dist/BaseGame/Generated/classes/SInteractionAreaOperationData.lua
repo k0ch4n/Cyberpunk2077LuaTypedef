@@ -9,6 +9,6 @@
 ---@field public operation SBaseDeviceOperationData
 SInteractionAreaOperationData = {}
 
----@param fields? table
+---@param fields? SInteractionAreaOperationData
 ---@return SInteractionAreaOperationData
 function SInteractionAreaOperationData.new(fields) return end

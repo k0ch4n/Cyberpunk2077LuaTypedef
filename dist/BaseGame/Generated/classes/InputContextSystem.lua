@@ -5,7 +5,7 @@
 ---@field private activeContext inputContextType
 InputContextSystem = {}
 
----@param fields? table
+---@param fields? InputContextSystem
 ---@return InputContextSystem
 function InputContextSystem.new(fields) return end
 

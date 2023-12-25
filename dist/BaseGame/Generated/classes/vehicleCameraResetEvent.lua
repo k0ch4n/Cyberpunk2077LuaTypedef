@@ -4,6 +4,6 @@
 ---@class vehicleCameraResetEvent: redEvent
 vehicleCameraResetEvent = {}
 
----@param fields? table
+---@param fields? vehicleCameraResetEvent
 ---@return vehicleCameraResetEvent
 function vehicleCameraResetEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public offerRecord gamedataVehicleOffer_Record
 VehicleShopPurchaseEvent = {}
 
----@param fields? table
+---@param fields? VehicleShopPurchaseEvent
 ---@return VehicleShopPurchaseEvent
 function VehicleShopPurchaseEvent.new(fields) return end

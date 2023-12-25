@@ -4,6 +4,6 @@
 ---@class UnregisterAllMappinsEvent: redEvent
 UnregisterAllMappinsEvent = {}
 
----@param fields? table
+---@param fields? UnregisterAllMappinsEvent
 ---@return UnregisterAllMappinsEvent
 function UnregisterAllMappinsEvent.new(fields) return end

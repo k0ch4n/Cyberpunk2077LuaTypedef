@@ -8,6 +8,6 @@
 ---@field public slotIDsToOmit TweakDBID[]
 gameImpostorComponent = {}
 
----@param fields? table
+---@param fields? gameImpostorComponent
 ---@return gameImpostorComponent
 function gameImpostorComponent.new(fields) return end

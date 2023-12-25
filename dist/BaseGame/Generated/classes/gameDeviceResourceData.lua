@@ -5,6 +5,6 @@
 ---@field public version Uint32
 gameDeviceResourceData = {}
 
----@param fields? table
+---@param fields? gameDeviceResourceData
 ---@return gameDeviceResourceData
 function gameDeviceResourceData.new(fields) return end

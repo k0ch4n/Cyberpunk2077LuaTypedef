@@ -8,6 +8,6 @@
 ---@field public shortShotInterval Float
 gameuiPanzerEnemyAV = {}
 
----@param fields? table
+---@param fields? gameuiPanzerEnemyAV
 ---@return gameuiPanzerEnemyAV
 function gameuiPanzerEnemyAV.new(fields) return end

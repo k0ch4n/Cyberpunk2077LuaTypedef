@@ -6,6 +6,6 @@
 ---@field public savable Bool
 gameSourceData = {}
 
----@param fields? table
+---@param fields? gameSourceData
 ---@return gameSourceData
 function gameSourceData.new(fields) return end

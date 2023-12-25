@@ -4,6 +4,6 @@
 ---@class gameStatsComponent: gameComponent
 gameStatsComponent = {}
 
----@param fields? table
+---@param fields? gameStatsComponent
 ---@return gameStatsComponent
 function gameStatsComponent.new(fields) return end

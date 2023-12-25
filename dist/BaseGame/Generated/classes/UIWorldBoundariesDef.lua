@@ -6,7 +6,7 @@
 ---@field public IsPlayerGoingDeeper gamebbScriptID_Bool
 UIWorldBoundariesDef = {}
 
----@param fields? table
+---@param fields? UIWorldBoundariesDef
 ---@return UIWorldBoundariesDef
 function UIWorldBoundariesDef.new(fields) return end
 

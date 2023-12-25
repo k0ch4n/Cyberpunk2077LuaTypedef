@@ -17,7 +17,7 @@
 ---@field private fragmentTags CName[]
 CyberEquipGameController = {}
 
----@param fields? table
+---@param fields? CyberEquipGameController
 ---@return CyberEquipGameController
 function CyberEquipGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class IsStimSourceInRestrictMovementArea: RestrictedMovementAreaCondition
 IsStimSourceInRestrictMovementArea = {}
 
----@param fields? table
+---@param fields? IsStimSourceInRestrictMovementArea
 ---@return IsStimSourceInRestrictMovementArea
 function IsStimSourceInRestrictMovementArea.new(fields) return end
 

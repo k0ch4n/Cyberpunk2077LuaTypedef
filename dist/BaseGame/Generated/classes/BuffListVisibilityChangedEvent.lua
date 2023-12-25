@@ -5,6 +5,6 @@
 ---@field public hasBuffs Bool
 BuffListVisibilityChangedEvent = {}
 
----@param fields? table
+---@param fields? BuffListVisibilityChangedEvent
 ---@return BuffListVisibilityChangedEvent
 function BuffListVisibilityChangedEvent.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public operationType gameinteractionsEInteractionEventType
 InteractionAreaOperationTriggerData = {}
 
----@param fields? table
+---@param fields? InteractionAreaOperationTriggerData
 ---@return InteractionAreaOperationTriggerData
 function InteractionAreaOperationTriggerData.new(fields) return end

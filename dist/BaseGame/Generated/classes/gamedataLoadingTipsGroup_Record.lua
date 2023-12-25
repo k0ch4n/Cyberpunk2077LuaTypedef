@@ -4,7 +4,7 @@
 ---@class gamedataLoadingTipsGroup_Record: gamedataTweakDBRecord
 gamedataLoadingTipsGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataLoadingTipsGroup_Record
 ---@return gamedataLoadingTipsGroup_Record
 function gamedataLoadingTipsGroup_Record.new(fields) return end
 

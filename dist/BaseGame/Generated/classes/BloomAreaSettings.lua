@@ -14,6 +14,6 @@
 ---@field public shaftsAreaSettings ShaftsAreaSettings
 BloomAreaSettings = {}
 
----@param fields? table
+---@param fields? BloomAreaSettings
 ---@return BloomAreaSettings
 function BloomAreaSettings.new(fields) return end

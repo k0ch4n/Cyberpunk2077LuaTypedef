@@ -5,7 +5,7 @@
 ---@field private owner NPCPuppet
 ChimeraHealthChangeListener = {}
 
----@param fields? table
+---@param fields? ChimeraHealthChangeListener
 ---@return ChimeraHealthChangeListener
 function ChimeraHealthChangeListener.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private sectorsInitialized Bool
 PuppetSquadInterface = {}
 
----@param fields? table
+---@param fields? PuppetSquadInterface
 ---@return PuppetSquadInterface
 function PuppetSquadInterface.new(fields) return end
 

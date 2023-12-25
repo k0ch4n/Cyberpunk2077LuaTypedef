@@ -7,6 +7,6 @@
 ---@field public action questTransformAnimatorNode_ActionType
 questTransformAnimatorNodeDefinition = {}
 
----@param fields? table
+---@param fields? questTransformAnimatorNodeDefinition
 ---@return questTransformAnimatorNodeDefinition
 function questTransformAnimatorNodeDefinition.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public duration Float
 animCAnimationBufferUncompressed = {}
 
----@param fields? table
+---@param fields? animCAnimationBufferUncompressed
 ---@return animCAnimationBufferUncompressed
 function animCAnimationBufferUncompressed.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestForceReplaceStreamWithVideo: ActionName
 QuestForceReplaceStreamWithVideo = {}
 
----@param fields? table
+---@param fields? QuestForceReplaceStreamWithVideo
 ---@return QuestForceReplaceStreamWithVideo
 function QuestForceReplaceStreamWithVideo.new(fields) return end
 

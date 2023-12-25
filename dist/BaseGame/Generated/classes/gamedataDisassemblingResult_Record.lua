@@ -4,7 +4,7 @@
 ---@class gamedataDisassemblingResult_Record: gamedataTweakDBRecord
 gamedataDisassemblingResult_Record = {}
 
----@param fields? table
+---@param fields? gamedataDisassemblingResult_Record
 ---@return gamedataDisassemblingResult_Record
 function gamedataDisassemblingResult_Record.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public lethal Bool
 questVehicleCrowdHit_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleCrowdHit_ConditionType
 ---@return questVehicleCrowdHit_ConditionType
 function questVehicleCrowdHit_ConditionType.new(fields) return end

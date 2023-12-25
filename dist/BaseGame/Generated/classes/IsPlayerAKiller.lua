@@ -4,7 +4,7 @@
 ---@class IsPlayerAKiller: AIbehaviorconditionScript
 IsPlayerAKiller = {}
 
----@param fields? table
+---@param fields? IsPlayerAKiller
 ---@return IsPlayerAKiller
 function IsPlayerAKiller.new(fields) return end
 

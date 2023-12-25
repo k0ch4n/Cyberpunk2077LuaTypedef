@@ -4,7 +4,7 @@
 ---@class CheckIfPatrolAllowed: AIDebugConditions
 CheckIfPatrolAllowed = {}
 
----@param fields? table
+---@param fields? CheckIfPatrolAllowed
 ---@return CheckIfPatrolAllowed
 function CheckIfPatrolAllowed.new(fields) return end
 

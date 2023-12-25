@@ -9,6 +9,6 @@
 ---@field public tagOperations questTransferItems_NodeTypeParams_TagOperationData[]
 questTransferItems_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questTransferItems_NodeTypeParams
 ---@return questTransferItems_NodeTypeParams
 function questTransferItems_NodeTypeParams.new(fields) return end

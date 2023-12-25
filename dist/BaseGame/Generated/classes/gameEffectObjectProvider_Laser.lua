@@ -6,6 +6,6 @@
 ---@field public inputRayOffset Vector4
 gameEffectObjectProvider_Laser = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_Laser
 ---@return gameEffectObjectProvider_Laser
 function gameEffectObjectProvider_Laser.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public identifier Int32
 FilterRadioItemHoverOver = {}
 
----@param fields? table
+---@param fields? FilterRadioItemHoverOver
 ---@return FilterRadioItemHoverOver
 function FilterRadioItemHoverOver.new(fields) return end

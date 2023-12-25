@@ -5,7 +5,7 @@
 ---@field public MenuEventToTrigger gamebbScriptID_CName
 MenuEventBlackboardDef = {}
 
----@param fields? table
+---@param fields? MenuEventBlackboardDef
 ---@return MenuEventBlackboardDef
 function MenuEventBlackboardDef.new(fields) return end
 

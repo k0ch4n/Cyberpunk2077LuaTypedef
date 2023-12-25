@@ -13,7 +13,7 @@
 ---@field public MessageType gamebbScriptID_Variant
 UI_HUDProgressBarDef = {}
 
----@param fields? table
+---@param fields? UI_HUDProgressBarDef
 ---@return UI_HUDProgressBarDef
 function UI_HUDProgressBarDef.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public damageType TweakDBID
 SDamageOperationData = {}
 
----@param fields? table
+---@param fields? SDamageOperationData
 ---@return SDamageOperationData
 function SDamageOperationData.new(fields) return end

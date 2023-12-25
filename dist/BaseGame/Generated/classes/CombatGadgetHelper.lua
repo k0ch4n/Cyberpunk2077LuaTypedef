@@ -4,7 +4,7 @@
 ---@class CombatGadgetHelper: IScriptable
 CombatGadgetHelper = {}
 
----@param fields? table
+---@param fields? CombatGadgetHelper
 ---@return CombatGadgetHelper
 function CombatGadgetHelper.new(fields) return end
 

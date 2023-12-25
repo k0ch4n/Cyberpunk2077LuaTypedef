@@ -4,6 +4,6 @@
 ---@class inkMenuLogicController: inkWidgetLogicController
 inkMenuLogicController = {}
 
----@param fields? table
+---@param fields? inkMenuLogicController
 ---@return inkMenuLogicController
 function inkMenuLogicController.new(fields) return end

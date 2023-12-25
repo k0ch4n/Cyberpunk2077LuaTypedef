@@ -5,6 +5,6 @@
 ---@field public expressionData animMathExpressionNodeData
 animAnimNode_MathExpressionQuaternion = {}
 
----@param fields? table
+---@param fields? animAnimNode_MathExpressionQuaternion
 ---@return animAnimNode_MathExpressionQuaternion
 function animAnimNode_MathExpressionQuaternion.new(fields) return end

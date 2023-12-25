@@ -4,7 +4,7 @@
 ---@class E3EndMenuGameController: gameuiMenuItemListGameController
 E3EndMenuGameController = {}
 
----@param fields? table
+---@param fields? E3EndMenuGameController
 ---@return E3EndMenuGameController
 function E3EndMenuGameController.new(fields) return end
 

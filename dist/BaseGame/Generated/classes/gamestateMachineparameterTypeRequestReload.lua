@@ -5,6 +5,6 @@
 ---@field public item gameItemObject
 gamestateMachineparameterTypeRequestReload = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeRequestReload
 ---@return gamestateMachineparameterTypeRequestReload
 function gamestateMachineparameterTypeRequestReload.new(fields) return end

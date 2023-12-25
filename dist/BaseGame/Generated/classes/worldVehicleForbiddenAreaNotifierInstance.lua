@@ -4,6 +4,6 @@
 ---@class worldVehicleForbiddenAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldVehicleForbiddenAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldVehicleForbiddenAreaNotifierInstance
 ---@return worldVehicleForbiddenAreaNotifierInstance
 function worldVehicleForbiddenAreaNotifierInstance.new(fields) return end

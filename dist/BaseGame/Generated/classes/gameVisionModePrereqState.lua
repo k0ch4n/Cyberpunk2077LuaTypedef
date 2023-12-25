@@ -4,6 +4,6 @@
 ---@class gameVisionModePrereqState: gamePrereqState
 gameVisionModePrereqState = {}
 
----@param fields? table
+---@param fields? gameVisionModePrereqState
 ---@return gameVisionModePrereqState
 function gameVisionModePrereqState.new(fields) return end

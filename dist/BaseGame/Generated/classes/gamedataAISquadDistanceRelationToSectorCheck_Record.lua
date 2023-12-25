@@ -4,7 +4,7 @@
 ---@class gamedataAISquadDistanceRelationToSectorCheck_Record: gamedataAITicketCheck_Record
 gamedataAISquadDistanceRelationToSectorCheck_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISquadDistanceRelationToSectorCheck_Record
 ---@return gamedataAISquadDistanceRelationToSectorCheck_Record
 function gamedataAISquadDistanceRelationToSectorCheck_Record.new(fields) return end
 

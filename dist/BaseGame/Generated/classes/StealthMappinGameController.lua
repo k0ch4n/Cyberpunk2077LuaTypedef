@@ -6,7 +6,7 @@
 ---@field private ownerNPC NPCPuppet
 StealthMappinGameController = {}
 
----@param fields? table
+---@param fields? StealthMappinGameController
 ---@return StealthMappinGameController
 function StealthMappinGameController.new(fields) return end
 

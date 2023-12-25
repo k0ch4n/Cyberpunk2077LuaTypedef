@@ -4,7 +4,7 @@
 ---@class InNormalUpperBodyState: AINPCUpperBodyStateCheck
 InNormalUpperBodyState = {}
 
----@param fields? table
+---@param fields? InNormalUpperBodyState
 ---@return InNormalUpperBodyState
 function InNormalUpperBodyState.new(fields) return end
 

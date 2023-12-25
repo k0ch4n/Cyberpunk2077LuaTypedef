@@ -8,7 +8,7 @@
 ---@field protected amountOfHits Int32
 WeaponTraining = {}
 
----@param fields? table
+---@param fields? WeaponTraining
 ---@return WeaponTraining
 function WeaponTraining.new(fields) return end
 

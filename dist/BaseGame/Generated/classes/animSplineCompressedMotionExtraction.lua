@@ -7,6 +7,6 @@
 ---@field public rotKeysData Uint8[]
 animSplineCompressedMotionExtraction = {}
 
----@param fields? table
+---@param fields? animSplineCompressedMotionExtraction
 ---@return animSplineCompressedMotionExtraction
 function animSplineCompressedMotionExtraction.new(fields) return end

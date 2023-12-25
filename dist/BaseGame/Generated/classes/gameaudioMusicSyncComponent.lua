@@ -10,6 +10,6 @@
 ---@field public syncTrack CName
 gameaudioMusicSyncComponent = {}
 
----@param fields? table
+---@param fields? gameaudioMusicSyncComponent
 ---@return gameaudioMusicSyncComponent
 function gameaudioMusicSyncComponent.new(fields) return end

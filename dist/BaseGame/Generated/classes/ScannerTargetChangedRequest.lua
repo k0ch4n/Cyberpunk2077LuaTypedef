@@ -5,6 +5,6 @@
 ---@field public scannerTarget entEntityID
 ScannerTargetChangedRequest = {}
 
----@param fields? table
+---@param fields? ScannerTargetChangedRequest
 ---@return ScannerTargetChangedRequest
 function ScannerTargetChangedRequest.new(fields) return end

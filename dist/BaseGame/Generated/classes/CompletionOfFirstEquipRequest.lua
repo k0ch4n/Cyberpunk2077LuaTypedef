@@ -5,6 +5,6 @@
 ---@field public weaponID TweakDBID
 CompletionOfFirstEquipRequest = {}
 
----@param fields? table
+---@param fields? CompletionOfFirstEquipRequest
 ---@return CompletionOfFirstEquipRequest
 function CompletionOfFirstEquipRequest.new(fields) return end

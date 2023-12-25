@@ -8,6 +8,6 @@
 ---@field public overridePosition Bool
 CParticleModificatorOrbit = {}
 
----@param fields? table
+---@param fields? CParticleModificatorOrbit
 ---@return CParticleModificatorOrbit
 function CParticleModificatorOrbit.new(fields) return end

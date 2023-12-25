@@ -4,7 +4,7 @@
 ---@class FridgeController: ScriptableDeviceComponent
 FridgeController = {}
 
----@param fields? table
+---@param fields? FridgeController
 ---@return FridgeController
 function FridgeController.new(fields) return end
 

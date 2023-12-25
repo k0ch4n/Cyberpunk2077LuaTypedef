@@ -9,7 +9,7 @@
 ---@field public owner gameObject
 OvershieldEffectorBase = {}
 
----@param fields? table
+---@param fields? OvershieldEffectorBase
 ---@return OvershieldEffectorBase
 function OvershieldEffectorBase.new(fields) return end
 

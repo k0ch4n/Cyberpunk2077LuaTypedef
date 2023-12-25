@@ -4,6 +4,6 @@
 ---@class gameSmartObjectVisualData
 gameSmartObjectVisualData = {}
 
----@param fields? table
+---@param fields? gameSmartObjectVisualData
 ---@return gameSmartObjectVisualData
 function gameSmartObjectVisualData.new(fields) return end

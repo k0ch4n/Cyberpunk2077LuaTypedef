@@ -5,7 +5,7 @@
 ---@field public library inkWidgetLibraryResource
 inkWidgetLibraryResourceWrapper = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryResourceWrapper
 ---@return inkWidgetLibraryResourceWrapper
 function inkWidgetLibraryResourceWrapper.new(fields) return end
 

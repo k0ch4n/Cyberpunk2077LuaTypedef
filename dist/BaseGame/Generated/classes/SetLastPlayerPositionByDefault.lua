@@ -4,7 +4,7 @@
 ---@class SetLastPlayerPositionByDefault: AIbehaviortaskScript
 SetLastPlayerPositionByDefault = {}
 
----@param fields? table
+---@param fields? SetLastPlayerPositionByDefault
 ---@return SetLastPlayerPositionByDefault
 function SetLastPlayerPositionByDefault.new(fields) return end
 

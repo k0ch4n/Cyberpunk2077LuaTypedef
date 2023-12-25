@@ -7,7 +7,7 @@
 ---@field protected statPoolType gamedataStatPoolType
 StopCallReinforcements = {}
 
----@param fields? table
+---@param fields? StopCallReinforcements
 ---@return StopCallReinforcements
 function StopCallReinforcements.new(fields) return end
 

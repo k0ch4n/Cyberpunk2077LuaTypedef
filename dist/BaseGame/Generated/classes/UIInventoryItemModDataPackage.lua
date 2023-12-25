@@ -7,6 +7,6 @@
 ---@field public AttunementData UIInventoryItemModAttunementData
 UIInventoryItemModDataPackage = {}
 
----@param fields? table
+---@param fields? UIInventoryItemModDataPackage
 ---@return UIInventoryItemModDataPackage
 function UIInventoryItemModDataPackage.new(fields) return end

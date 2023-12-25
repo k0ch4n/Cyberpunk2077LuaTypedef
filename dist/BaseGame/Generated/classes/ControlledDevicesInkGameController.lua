@@ -12,7 +12,7 @@
 ---@field private chainLocked_BBID redCallbackObject
 ControlledDevicesInkGameController = {}
 
----@param fields? table
+---@param fields? ControlledDevicesInkGameController
 ---@return ControlledDevicesInkGameController
 function ControlledDevicesInkGameController.new(fields) return end
 

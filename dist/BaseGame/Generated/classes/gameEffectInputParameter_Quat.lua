@@ -5,7 +5,7 @@
 ---@field public evaluator gameIEffectParameter_QuatEvaluator
 gameEffectInputParameter_Quat = {}
 
----@param fields? table
+---@param fields? gameEffectInputParameter_Quat
 ---@return gameEffectInputParameter_Quat
 function gameEffectInputParameter_Quat.new(fields) return end
 

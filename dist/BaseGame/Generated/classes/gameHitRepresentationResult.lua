@@ -6,6 +6,6 @@
 ---@field public tityID entEntityID
 gameHitRepresentationResult = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationResult
 ---@return gameHitRepresentationResult
 function gameHitRepresentationResult.new(fields) return end

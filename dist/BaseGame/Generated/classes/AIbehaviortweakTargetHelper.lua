@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakTargetHelper
 AIbehaviortweakTargetHelper = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakTargetHelper
 ---@return AIbehaviortweakTargetHelper
 function AIbehaviortweakTargetHelper.new(fields) return end

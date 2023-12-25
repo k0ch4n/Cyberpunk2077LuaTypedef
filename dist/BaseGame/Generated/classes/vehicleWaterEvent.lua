@@ -5,6 +5,6 @@
 ---@field public isInWater Bool
 vehicleWaterEvent = {}
 
----@param fields? table
+---@param fields? vehicleWaterEvent
 ---@return vehicleWaterEvent
 function vehicleWaterEvent.new(fields) return end

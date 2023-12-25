@@ -4,7 +4,7 @@
 ---@class NotReadyEvents: WeaponEventsTransition
 NotReadyEvents = {}
 
----@param fields? table
+---@param fields? NotReadyEvents
 ---@return NotReadyEvents
 function NotReadyEvents.new(fields) return end
 

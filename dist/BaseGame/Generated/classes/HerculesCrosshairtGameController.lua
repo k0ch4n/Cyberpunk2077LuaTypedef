@@ -13,7 +13,7 @@
 ---@field private targets entEntityID[]
 HerculesCrosshairtGameController = {}
 
----@param fields? table
+---@param fields? HerculesCrosshairtGameController
 ---@return HerculesCrosshairtGameController
 function HerculesCrosshairtGameController.new(fields) return end
 

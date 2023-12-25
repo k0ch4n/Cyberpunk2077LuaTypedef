@@ -6,6 +6,6 @@
 ---@field public privateAnimationName CName
 animAnimFeature_SmartObject = {}
 
----@param fields? table
+---@param fields? animAnimFeature_SmartObject
 ---@return animAnimFeature_SmartObject
 function animAnimFeature_SmartObject.new(fields) return end

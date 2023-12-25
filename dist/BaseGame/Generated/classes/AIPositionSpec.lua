@@ -6,7 +6,7 @@
 ---@field public worldPosition WorldPosition
 AIPositionSpec = {}
 
----@param fields? table
+---@param fields? AIPositionSpec
 ---@return AIPositionSpec
 function AIPositionSpec.new(fields) return end
 

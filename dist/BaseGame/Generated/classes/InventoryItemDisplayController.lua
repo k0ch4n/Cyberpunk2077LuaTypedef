@@ -119,7 +119,7 @@
 ---@field private parrentWrappedDataObject WrappedInventoryItemData
 InventoryItemDisplayController = {}
 
----@param fields? table
+---@param fields? InventoryItemDisplayController
 ---@return InventoryItemDisplayController
 function InventoryItemDisplayController.new(fields) return end
 

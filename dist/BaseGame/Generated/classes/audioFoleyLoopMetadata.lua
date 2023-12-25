@@ -6,6 +6,6 @@
 ---@field public stopEvent CName
 audioFoleyLoopMetadata = {}
 
----@param fields? table
+---@param fields? audioFoleyLoopMetadata
 ---@return audioFoleyLoopMetadata
 function audioFoleyLoopMetadata.new(fields) return end

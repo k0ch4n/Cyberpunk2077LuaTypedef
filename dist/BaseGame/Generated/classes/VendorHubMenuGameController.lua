@@ -51,7 +51,7 @@
 ---@field private storageBlackboard gameIBlackboard
 VendorHubMenuGameController = {}
 
----@param fields? table
+---@param fields? VendorHubMenuGameController
 ---@return VendorHubMenuGameController
 function VendorHubMenuGameController.new(fields) return end
 

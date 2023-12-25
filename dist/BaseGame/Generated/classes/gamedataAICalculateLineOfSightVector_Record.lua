@@ -4,7 +4,7 @@
 ---@class gamedataAICalculateLineOfSightVector_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculateLineOfSightVector_Record = {}
 
----@param fields? table
+---@param fields? gamedataAICalculateLineOfSightVector_Record
 ---@return gamedataAICalculateLineOfSightVector_Record
 function gamedataAICalculateLineOfSightVector_Record.new(fields) return end
 

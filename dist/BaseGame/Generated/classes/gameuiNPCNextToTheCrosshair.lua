@@ -18,6 +18,6 @@
 ---@field public playerDetectionAtMax Bool
 gameuiNPCNextToTheCrosshair = {}
 
----@param fields? table
+---@param fields? gameuiNPCNextToTheCrosshair
 ---@return gameuiNPCNextToTheCrosshair
 function gameuiNPCNextToTheCrosshair.new(fields) return end

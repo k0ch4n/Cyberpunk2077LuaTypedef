@@ -4,7 +4,7 @@
 ---@class LadderSprintDecisions: LadderDecisions
 LadderSprintDecisions = {}
 
----@param fields? table
+---@param fields? LadderSprintDecisions
 ---@return LadderSprintDecisions
 function LadderSprintDecisions.new(fields) return end
 

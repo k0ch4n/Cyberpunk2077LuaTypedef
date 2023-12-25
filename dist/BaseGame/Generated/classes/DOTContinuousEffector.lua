@@ -4,7 +4,7 @@
 ---@class DOTContinuousEffector: gameContinuousEffector
 DOTContinuousEffector = {}
 
----@param fields? table
+---@param fields? DOTContinuousEffector
 ---@return DOTContinuousEffector
 function DOTContinuousEffector.new(fields) return end
 

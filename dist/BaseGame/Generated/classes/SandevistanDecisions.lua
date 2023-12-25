@@ -5,7 +5,7 @@
 ---@field private statListener DefaultTransitionStatListener
 SandevistanDecisions = {}
 
----@param fields? table
+---@param fields? SandevistanDecisions
 ---@return SandevistanDecisions
 function SandevistanDecisions.new(fields) return end
 

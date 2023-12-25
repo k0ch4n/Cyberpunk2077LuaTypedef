@@ -4,7 +4,7 @@
 ---@class AimWalkEvents: LocomotionGroundEvents
 AimWalkEvents = {}
 
----@param fields? table
+---@param fields? AimWalkEvents
 ---@return AimWalkEvents
 function AimWalkEvents.new(fields) return end
 

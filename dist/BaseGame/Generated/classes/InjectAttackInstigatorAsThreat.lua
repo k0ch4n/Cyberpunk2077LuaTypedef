@@ -4,7 +4,7 @@
 ---@class InjectAttackInstigatorAsThreat: AIbehaviortaskScript
 InjectAttackInstigatorAsThreat = {}
 
----@param fields? table
+---@param fields? InjectAttackInstigatorAsThreat
 ---@return InjectAttackInstigatorAsThreat
 function InjectAttackInstigatorAsThreat.new(fields) return end
 

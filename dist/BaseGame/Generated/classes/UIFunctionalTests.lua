@@ -4,7 +4,7 @@
 ---@class UIFunctionalTests: IScriptable
 UIFunctionalTests = {}
 
----@param fields? table
+---@param fields? UIFunctionalTests
 ---@return UIFunctionalTests
 function UIFunctionalTests.new(fields) return end
 

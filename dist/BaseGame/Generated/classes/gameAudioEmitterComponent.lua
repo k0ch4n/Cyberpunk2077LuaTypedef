@@ -12,6 +12,6 @@
 ---@field public TagList redTagList
 gameAudioEmitterComponent = {}
 
----@param fields? table
+---@param fields? gameAudioEmitterComponent
 ---@return gameAudioEmitterComponent
 function gameAudioEmitterComponent.new(fields) return end

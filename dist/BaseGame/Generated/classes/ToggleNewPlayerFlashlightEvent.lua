@@ -4,6 +4,6 @@
 ---@class ToggleNewPlayerFlashlightEvent: redEvent
 ToggleNewPlayerFlashlightEvent = {}
 
----@param fields? table
+---@param fields? ToggleNewPlayerFlashlightEvent
 ---@return ToggleNewPlayerFlashlightEvent
 function ToggleNewPlayerFlashlightEvent.new(fields) return end

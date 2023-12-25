@@ -13,6 +13,6 @@
 ---@field public MatchToWoundByName Bool
 entdismembermentEffectResource = {}
 
----@param fields? table
+---@param fields? entdismembermentEffectResource
 ---@return entdismembermentEffectResource
 function entdismembermentEffectResource.new(fields) return end

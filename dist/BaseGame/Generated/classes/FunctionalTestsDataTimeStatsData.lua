@@ -14,6 +14,6 @@
 ---@field public playerOrientation String
 FunctionalTestsDataTimeStatsData = {}
 
----@param fields? table
+---@param fields? FunctionalTestsDataTimeStatsData
 ---@return FunctionalTestsDataTimeStatsData
 function FunctionalTestsDataTimeStatsData.new(fields) return end

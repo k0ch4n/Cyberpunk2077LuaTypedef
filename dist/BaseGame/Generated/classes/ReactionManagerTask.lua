@@ -5,7 +5,7 @@
 ---@field protected reactionData AIReactionData
 ReactionManagerTask = {}
 
----@param fields? table
+---@param fields? ReactionManagerTask
 ---@return ReactionManagerTask
 function ReactionManagerTask.new(fields) return end
 

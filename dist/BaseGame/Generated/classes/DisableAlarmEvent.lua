@@ -4,6 +4,6 @@
 ---@class DisableAlarmEvent: redEvent
 DisableAlarmEvent = {}
 
----@param fields? table
+---@param fields? DisableAlarmEvent
 ---@return DisableAlarmEvent
 function DisableAlarmEvent.new(fields) return end

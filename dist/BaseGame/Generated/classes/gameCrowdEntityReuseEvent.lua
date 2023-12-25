@@ -4,6 +4,6 @@
 ---@class gameCrowdEntityReuseEvent: redEvent
 gameCrowdEntityReuseEvent = {}
 
----@param fields? table
+---@param fields? gameCrowdEntityReuseEvent
 ---@return gameCrowdEntityReuseEvent
 function gameCrowdEntityReuseEvent.new(fields) return end

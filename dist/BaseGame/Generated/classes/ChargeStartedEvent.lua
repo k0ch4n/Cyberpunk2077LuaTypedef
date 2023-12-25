@@ -4,6 +4,6 @@
 ---@class ChargeStartedEvent: redEvent
 ChargeStartedEvent = {}
 
----@param fields? table
+---@param fields? ChargeStartedEvent
 ---@return ChargeStartedEvent
 function ChargeStartedEvent.new(fields) return end

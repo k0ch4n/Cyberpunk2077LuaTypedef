@@ -7,6 +7,6 @@
 ---@field public opacityScale curveData
 EmitterGroupAreaParams = {}
 
----@param fields? table
+---@param fields? EmitterGroupAreaParams
 ---@return EmitterGroupAreaParams
 function EmitterGroupAreaParams.new(fields) return end

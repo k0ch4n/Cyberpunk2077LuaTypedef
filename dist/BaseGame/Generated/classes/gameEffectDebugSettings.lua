@@ -7,6 +7,6 @@
 ---@field public color Color
 gameEffectDebugSettings = {}
 
----@param fields? table
+---@param fields? gameEffectDebugSettings
 ---@return gameEffectDebugSettings
 function gameEffectDebugSettings.new(fields) return end

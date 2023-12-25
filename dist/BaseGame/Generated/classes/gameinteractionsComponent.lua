@@ -9,7 +9,7 @@
 ---@field public isEnabled Bool
 gameinteractionsComponent = {}
 
----@param fields? table
+---@param fields? gameinteractionsComponent
 ---@return gameinteractionsComponent
 function gameinteractionsComponent.new(fields) return end
 

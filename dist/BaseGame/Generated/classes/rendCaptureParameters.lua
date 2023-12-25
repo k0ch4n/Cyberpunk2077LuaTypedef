@@ -20,6 +20,6 @@
 ---@field public saveFormat ESaveFormat
 rendCaptureParameters = {}
 
----@param fields? table
+---@param fields? rendCaptureParameters
 ---@return rendCaptureParameters
 function rendCaptureParameters.new(fields) return end

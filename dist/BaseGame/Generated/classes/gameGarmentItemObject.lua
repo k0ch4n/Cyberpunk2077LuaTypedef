@@ -4,6 +4,6 @@
 ---@class gameGarmentItemObject: gameItemObject
 gameGarmentItemObject = {}
 
----@param fields? table
+---@param fields? gameGarmentItemObject
 ---@return gameGarmentItemObject
 function gameGarmentItemObject.new(fields) return end

@@ -15,7 +15,7 @@
 ---@field private isCrafting Bool
 NewItemTooltipAttachmentGroupController = {}
 
----@param fields? table
+---@param fields? NewItemTooltipAttachmentGroupController
 ---@return NewItemTooltipAttachmentGroupController
 function NewItemTooltipAttachmentGroupController.new(fields) return end
 

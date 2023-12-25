@@ -8,7 +8,7 @@
 ---@field private componentsToToggle entIComponent[]
 StaticPlatform = {}
 
----@param fields? table
+---@param fields? StaticPlatform
 ---@return StaticPlatform
 function StaticPlatform.new(fields) return end
 

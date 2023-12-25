@@ -12,7 +12,7 @@
 ---@field public isValid Bool
 SWidgetPackageBase = {}
 
----@param fields? table
+---@param fields? SWidgetPackageBase
 ---@return SWidgetPackageBase
 function SWidgetPackageBase.new(fields) return end
 

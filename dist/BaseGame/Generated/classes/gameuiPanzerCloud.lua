@@ -4,6 +4,6 @@
 ---@class gameuiPanzerCloud: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 gameuiPanzerCloud = {}
 
----@param fields? table
+---@param fields? gameuiPanzerCloud
 ---@return gameuiPanzerCloud
 function gameuiPanzerCloud.new(fields) return end

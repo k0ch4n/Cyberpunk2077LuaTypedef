@@ -5,6 +5,6 @@
 ---@field public xt String
 attrTooltip = {}
 
----@param fields? table
+---@param fields? attrTooltip
 ---@return attrTooltip
 function attrTooltip.new(fields) return end

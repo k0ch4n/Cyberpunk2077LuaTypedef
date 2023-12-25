@@ -8,6 +8,6 @@
 ---@field public questMarkerHeight Float
 worldStaticQuestMarkerNode = {}
 
----@param fields? table
+---@param fields? worldStaticQuestMarkerNode
 ---@return worldStaticQuestMarkerNode
 function worldStaticQuestMarkerNode.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private onQuestAnimChangeListener redCallbackObject
 SceneScreenGameController = {}
 
----@param fields? table
+---@param fields? SceneScreenGameController
 ---@return SceneScreenGameController
 function SceneScreenGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class CPOMissionPlayerVoted: gameinteractionsInteractionScriptedCondition
 CPOMissionPlayerVoted = {}
 
----@param fields? table
+---@param fields? CPOMissionPlayerVoted
 ---@return CPOMissionPlayerVoted
 function CPOMissionPlayerVoted.new(fields) return end
 

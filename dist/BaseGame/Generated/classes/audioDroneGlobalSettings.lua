@@ -6,6 +6,6 @@
 ---@field public thrustRtpc CName
 audioDroneGlobalSettings = {}
 
----@param fields? table
+---@param fields? audioDroneGlobalSettings
 ---@return audioDroneGlobalSettings
 function audioDroneGlobalSettings.new(fields) return end

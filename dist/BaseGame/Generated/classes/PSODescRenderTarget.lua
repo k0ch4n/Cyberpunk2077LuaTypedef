@@ -12,6 +12,6 @@
 ---@field public srcAlphaFactor PSODescBlendModeFactor
 PSODescRenderTarget = {}
 
----@param fields? table
+---@param fields? PSODescRenderTarget
 ---@return PSODescRenderTarget
 function PSODescRenderTarget.new(fields) return end

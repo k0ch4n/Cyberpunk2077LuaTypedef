@@ -4,7 +4,7 @@
 ---@class PlayerCanTakeCPOMissionDataPrereq: gameinteractionsInteractionScriptedCondition
 PlayerCanTakeCPOMissionDataPrereq = {}
 
----@param fields? table
+---@param fields? PlayerCanTakeCPOMissionDataPrereq
 ---@return PlayerCanTakeCPOMissionDataPrereq
 function PlayerCanTakeCPOMissionDataPrereq.new(fields) return end
 

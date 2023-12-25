@@ -7,6 +7,6 @@
 ---@field public dependsOnTimeDilation Bool
 questPlayHUDEntryAnimation_NodeType = {}
 
----@param fields? table
+---@param fields? questPlayHUDEntryAnimation_NodeType
 ---@return questPlayHUDEntryAnimation_NodeType
 function questPlayHUDEntryAnimation_NodeType.new(fields) return end

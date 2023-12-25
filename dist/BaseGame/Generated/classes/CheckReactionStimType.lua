@@ -5,7 +5,7 @@
 ---@field public stimToCompare gamedataStimType
 CheckReactionStimType = {}
 
----@param fields? table
+---@param fields? CheckReactionStimType
 ---@return CheckReactionStimType
 function CheckReactionStimType.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public collisionCapsuleHeightExtent Float
 animDyngConstraintCone = {}
 
----@param fields? table
+---@param fields? animDyngConstraintCone
 ---@return animDyngConstraintCone
 function animDyngConstraintCone.new(fields) return end

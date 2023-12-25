@@ -8,7 +8,7 @@
 ---@field public W Float
 Vector4 = {}
 
----@param fields? table
+---@param fields? Vector4
 ---@return Vector4
 function Vector4.new(fields) return end
 

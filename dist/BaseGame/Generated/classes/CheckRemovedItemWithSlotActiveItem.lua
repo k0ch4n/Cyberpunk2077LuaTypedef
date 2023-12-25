@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 CheckRemovedItemWithSlotActiveItem = {}
 
----@param fields? table
+---@param fields? CheckRemovedItemWithSlotActiveItem
 ---@return CheckRemovedItemWithSlotActiveItem
 function CheckRemovedItemWithSlotActiveItem.new(fields) return end

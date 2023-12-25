@@ -6,6 +6,6 @@
 ---@field public result AIArgumentMapping
 AIbehaviorPuppetRefToGameObjectTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPuppetRefToGameObjectTaskDefinition
 ---@return AIbehaviorPuppetRefToGameObjectTaskDefinition
 function AIbehaviorPuppetRefToGameObjectTaskDefinition.new(fields) return end

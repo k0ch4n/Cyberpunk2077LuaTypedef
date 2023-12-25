@@ -8,6 +8,6 @@
 ---@field public False animPoseLink
 animAnimNode_StaticSwitch = {}
 
----@param fields? table
+---@param fields? animAnimNode_StaticSwitch
 ---@return animAnimNode_StaticSwitch
 function animAnimNode_StaticSwitch.new(fields) return end

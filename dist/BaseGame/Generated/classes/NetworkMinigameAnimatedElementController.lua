@@ -8,7 +8,7 @@
 ---@field protected onHighlightOffAnimation CName
 NetworkMinigameAnimatedElementController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameAnimatedElementController
 ---@return NetworkMinigameAnimatedElementController
 function NetworkMinigameAnimatedElementController.new(fields) return end
 

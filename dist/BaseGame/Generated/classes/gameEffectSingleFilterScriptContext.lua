@@ -4,7 +4,7 @@
 ---@class gameEffectSingleFilterScriptContext
 gameEffectSingleFilterScriptContext = {}
 
----@param fields? table
+---@param fields? gameEffectSingleFilterScriptContext
 ---@return gameEffectSingleFilterScriptContext
 function gameEffectSingleFilterScriptContext.new(fields) return end
 

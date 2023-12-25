@@ -7,6 +7,6 @@
 ---@field public nodeNameHash Uint64
 physicsStaticCollisionShapeDebugInfo = {}
 
----@param fields? table
+---@param fields? physicsStaticCollisionShapeDebugInfo
 ---@return physicsStaticCollisionShapeDebugInfo
 function physicsStaticCollisionShapeDebugInfo.new(fields) return end

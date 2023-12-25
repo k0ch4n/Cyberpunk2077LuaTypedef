@@ -4,6 +4,6 @@
 ---@class gameuiCharacterCustomizationSystem_OnPresetAppliedEvent: redEvent
 gameuiCharacterCustomizationSystem_OnPresetAppliedEvent = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationSystem_OnPresetAppliedEvent
 ---@return gameuiCharacterCustomizationSystem_OnPresetAppliedEvent
 function gameuiCharacterCustomizationSystem_OnPresetAppliedEvent.new(fields) return end

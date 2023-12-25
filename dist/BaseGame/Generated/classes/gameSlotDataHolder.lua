@@ -6,6 +6,6 @@
 ---@field public weapon gameSlotWeaponData
 gameSlotDataHolder = {}
 
----@param fields? table
+---@param fields? gameSlotDataHolder
 ---@return gameSlotDataHolder
 function gameSlotDataHolder.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemFoliage: worldIRuntimeSystem
 worldRuntimeSystemFoliage = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemFoliage
 ---@return worldRuntimeSystemFoliage
 function worldRuntimeSystemFoliage.new(fields) return end

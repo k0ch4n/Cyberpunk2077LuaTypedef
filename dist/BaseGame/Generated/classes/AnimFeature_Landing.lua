@@ -6,6 +6,6 @@
 ---@field public impactSpeed Float
 AnimFeature_Landing = {}
 
----@param fields? table
+---@param fields? AnimFeature_Landing
 ---@return AnimFeature_Landing
 function AnimFeature_Landing.new(fields) return end

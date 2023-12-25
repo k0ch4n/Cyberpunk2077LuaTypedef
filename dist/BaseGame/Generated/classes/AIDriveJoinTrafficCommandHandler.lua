@@ -6,7 +6,7 @@
 ---@field protected outNeedDriver AIArgumentMapping
 AIDriveJoinTrafficCommandHandler = {}
 
----@param fields? table
+---@param fields? AIDriveJoinTrafficCommandHandler
 ---@return AIDriveJoinTrafficCommandHandler
 function AIDriveJoinTrafficCommandHandler.new(fields) return end
 

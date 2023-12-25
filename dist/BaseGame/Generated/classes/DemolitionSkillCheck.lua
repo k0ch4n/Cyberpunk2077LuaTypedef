@@ -4,6 +4,6 @@
 ---@class DemolitionSkillCheck: SkillCheckBase
 DemolitionSkillCheck = {}
 
----@param fields? table
+---@param fields? DemolitionSkillCheck
 ---@return DemolitionSkillCheck
 function DemolitionSkillCheck.new(fields) return end

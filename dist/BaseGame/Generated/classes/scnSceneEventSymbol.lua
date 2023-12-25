@@ -7,6 +7,6 @@
 ---@field public sceneEventIds scnSceneEventId[]
 scnSceneEventSymbol = {}
 
----@param fields? table
+---@param fields? scnSceneEventSymbol
 ---@return scnSceneEventSymbol
 function scnSceneEventSymbol.new(fields) return end

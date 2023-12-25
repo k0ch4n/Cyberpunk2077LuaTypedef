@@ -31,6 +31,6 @@
 ---@field public remainingQuickMeleeCooldownTime Float
 gameMuppetUpperBodyState = {}
 
----@param fields? table
+---@param fields? gameMuppetUpperBodyState
 ---@return gameMuppetUpperBodyState
 function gameMuppetUpperBodyState.new(fields) return end

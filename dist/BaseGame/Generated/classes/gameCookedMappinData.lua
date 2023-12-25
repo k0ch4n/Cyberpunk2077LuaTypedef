@@ -7,6 +7,6 @@
 ---@field public volume gamemappinsIMappinVolume
 gameCookedMappinData = {}
 
----@param fields? table
+---@param fields? gameCookedMappinData
 ---@return gameCookedMappinData
 function gameCookedMappinData.new(fields) return end

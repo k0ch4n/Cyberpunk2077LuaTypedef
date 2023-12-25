@@ -4,7 +4,7 @@
 ---@class ElevatorFloorViabilityInterpreter: IScriptable
 ElevatorFloorViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? ElevatorFloorViabilityInterpreter
 ---@return ElevatorFloorViabilityInterpreter
 function ElevatorFloorViabilityInterpreter.new(fields) return end
 

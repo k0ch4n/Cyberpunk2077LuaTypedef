@@ -5,7 +5,7 @@
 ---@field public actionName CName
 inkHoldControllerActionData = {}
 
----@param fields? table
+---@param fields? inkHoldControllerActionData
 ---@return inkHoldControllerActionData
 function inkHoldControllerActionData.new(fields) return end
 

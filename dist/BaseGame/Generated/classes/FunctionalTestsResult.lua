@@ -6,7 +6,7 @@
 ---@field public msg String
 FunctionalTestsResult = {}
 
----@param fields? table
+---@param fields? FunctionalTestsResult
 ---@return FunctionalTestsResult
 function FunctionalTestsResult.new(fields) return end
 

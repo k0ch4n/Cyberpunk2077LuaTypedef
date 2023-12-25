@@ -4,7 +4,7 @@
 ---@class IVehicleModuleController: inkWidgetLogicController
 IVehicleModuleController = {}
 
----@param fields? table
+---@param fields? IVehicleModuleController
 ---@return IVehicleModuleController
 function IVehicleModuleController.new(fields) return end
 

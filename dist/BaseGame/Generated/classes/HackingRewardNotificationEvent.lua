@@ -6,6 +6,6 @@
 ---@field public icons String[]
 HackingRewardNotificationEvent = {}
 
----@param fields? table
+---@param fields? HackingRewardNotificationEvent
 ---@return HackingRewardNotificationEvent
 function HackingRewardNotificationEvent.new(fields) return end

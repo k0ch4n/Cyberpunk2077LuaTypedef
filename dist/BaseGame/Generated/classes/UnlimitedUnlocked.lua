@@ -4,6 +4,6 @@
 ---@class UnlimitedUnlocked: redEvent
 UnlimitedUnlocked = {}
 
----@param fields? table
+---@param fields? UnlimitedUnlocked
 ---@return UnlimitedUnlocked
 function UnlimitedUnlocked.new(fields) return end

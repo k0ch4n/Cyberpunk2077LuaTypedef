@@ -9,7 +9,7 @@
 ---@field private policeCaller entEntity
 ScriptedReactionSystem = {}
 
----@param fields? table
+---@param fields? ScriptedReactionSystem
 ---@return ScriptedReactionSystem
 function ScriptedReactionSystem.new(fields) return end
 

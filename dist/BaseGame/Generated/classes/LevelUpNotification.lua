@@ -22,7 +22,7 @@
 ---@field public unlockedActivites Int32
 LevelUpNotification = {}
 
----@param fields? table
+---@param fields? LevelUpNotification
 ---@return LevelUpNotification
 function LevelUpNotification.new(fields) return end
 

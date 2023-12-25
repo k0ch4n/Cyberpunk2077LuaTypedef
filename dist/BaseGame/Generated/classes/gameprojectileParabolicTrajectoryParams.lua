@@ -4,7 +4,7 @@
 ---@class gameprojectileParabolicTrajectoryParams: gameprojectileTrajectoryParams
 gameprojectileParabolicTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileParabolicTrajectoryParams
 ---@return gameprojectileParabolicTrajectoryParams
 function gameprojectileParabolicTrajectoryParams.new(fields) return end
 

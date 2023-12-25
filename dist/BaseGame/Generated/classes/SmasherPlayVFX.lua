@@ -14,7 +14,7 @@
 ---@field private startTime Float
 SmasherPlayVFX = {}
 
----@param fields? table
+---@param fields? SmasherPlayVFX
 ---@return SmasherPlayVFX
 function SmasherPlayVFX.new(fields) return end
 

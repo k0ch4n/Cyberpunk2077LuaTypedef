@@ -4,7 +4,7 @@
 ---@class gamedataLocomotionMode_Record: gamedataTweakDBRecord
 gamedataLocomotionMode_Record = {}
 
----@param fields? table
+---@param fields? gamedataLocomotionMode_Record
 ---@return gamedataLocomotionMode_Record
 function gamedataLocomotionMode_Record.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public contactDistance Float
 physicsPhysicsJointLimitBase = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointLimitBase
 ---@return physicsPhysicsJointLimitBase
 function physicsPhysicsJointLimitBase.new(fields) return end

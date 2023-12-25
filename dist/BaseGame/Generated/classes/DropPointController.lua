@@ -4,7 +4,7 @@
 ---@class DropPointController: ScriptableDeviceComponent
 DropPointController = {}
 
----@param fields? table
+---@param fields? DropPointController
 ---@return DropPointController
 function DropPointController.new(fields) return end
 

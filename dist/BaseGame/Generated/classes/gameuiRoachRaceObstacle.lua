@@ -6,6 +6,6 @@
 ---@field public dynObjectType CName
 gameuiRoachRaceObstacle = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceObstacle
 ---@return gameuiRoachRaceObstacle
 function gameuiRoachRaceObstacle.new(fields) return end

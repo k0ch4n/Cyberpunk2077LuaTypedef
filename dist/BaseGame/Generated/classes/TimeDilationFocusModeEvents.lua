@@ -10,7 +10,7 @@
 ---@field public timeDilationReason CName
 TimeDilationFocusModeEvents = {}
 
----@param fields? table
+---@param fields? TimeDilationFocusModeEvents
 ---@return TimeDilationFocusModeEvents
 function TimeDilationFocusModeEvents.new(fields) return end
 

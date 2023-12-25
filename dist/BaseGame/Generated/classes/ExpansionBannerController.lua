@@ -11,7 +11,7 @@
 ---@field private root inkWidget
 ExpansionBannerController = {}
 
----@param fields? table
+---@param fields? ExpansionBannerController
 ---@return ExpansionBannerController
 function ExpansionBannerController.new(fields) return end
 

@@ -41,7 +41,7 @@
 ---@field public questToOpen gameJournalQuest
 questLogGameController = {}
 
----@param fields? table
+---@param fields? questLogGameController
 ---@return questLogGameController
 function questLogGameController.new(fields) return end
 

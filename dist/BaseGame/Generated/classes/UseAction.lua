@@ -4,7 +4,7 @@
 ---@class UseAction: BaseItemAction
 UseAction = {}
 
----@param fields? table
+---@param fields? UseAction
 ---@return UseAction
 function UseAction.new(fields) return end
 

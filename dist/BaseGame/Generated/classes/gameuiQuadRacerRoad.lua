@@ -9,6 +9,6 @@
 ---@field public roadParts CName[]
 gameuiQuadRacerRoad = {}
 
----@param fields? table
+---@param fields? gameuiQuadRacerRoad
 ---@return gameuiQuadRacerRoad
 function gameuiQuadRacerRoad.new(fields) return end

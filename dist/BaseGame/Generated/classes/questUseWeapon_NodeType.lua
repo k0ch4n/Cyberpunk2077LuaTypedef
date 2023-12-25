@@ -9,6 +9,6 @@
 ---@field public attackTDBID TweakDBID
 questUseWeapon_NodeType = {}
 
----@param fields? table
+---@param fields? questUseWeapon_NodeType
 ---@return questUseWeapon_NodeType
 function questUseWeapon_NodeType.new(fields) return end

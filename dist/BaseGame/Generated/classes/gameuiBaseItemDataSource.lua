@@ -4,7 +4,7 @@
 ---@class gameuiBaseItemDataSource: inkAbstractDataSourceWrapper
 gameuiBaseItemDataSource = {}
 
----@param fields? table
+---@param fields? gameuiBaseItemDataSource
 ---@return gameuiBaseItemDataSource
 function gameuiBaseItemDataSource.new(fields) return end
 

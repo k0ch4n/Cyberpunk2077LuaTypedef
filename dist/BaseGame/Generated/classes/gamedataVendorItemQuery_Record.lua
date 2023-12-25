@@ -4,7 +4,7 @@
 ---@class gamedataVendorItemQuery_Record: gamedataVendorWare_Record
 gamedataVendorItemQuery_Record = {}
 
----@param fields? table
+---@param fields? gamedataVendorItemQuery_Record
 ---@return gamedataVendorItemQuery_Record
 function gamedataVendorItemQuery_Record.new(fields) return end
 

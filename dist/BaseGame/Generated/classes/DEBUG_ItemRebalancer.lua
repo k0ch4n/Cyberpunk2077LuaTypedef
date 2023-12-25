@@ -5,7 +5,7 @@
 ---@field public nodeRef NodeRef
 DEBUG_ItemRebalancer = {}
 
----@param fields? table
+---@param fields? DEBUG_ItemRebalancer
 ---@return DEBUG_ItemRebalancer
 function DEBUG_ItemRebalancer.new(fields) return end
 

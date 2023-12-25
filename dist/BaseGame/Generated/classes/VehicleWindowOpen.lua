@@ -6,7 +6,7 @@
 ---@field public speed CName
 VehicleWindowOpen = {}
 
----@param fields? table
+---@param fields? VehicleWindowOpen
 ---@return VehicleWindowOpen
 function VehicleWindowOpen.new(fields) return end
 

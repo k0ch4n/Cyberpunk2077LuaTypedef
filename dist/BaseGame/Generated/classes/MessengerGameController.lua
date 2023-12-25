@@ -13,7 +13,7 @@
 ---@field private activeData MessengerContactSyncData
 MessengerGameController = {}
 
----@param fields? table
+---@param fields? MessengerGameController
 ---@return MessengerGameController
 function MessengerGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class redResourceReferenceScriptToken
 redResourceReferenceScriptToken = {}
 
----@param fields? table
+---@param fields? redResourceReferenceScriptToken
 ---@return redResourceReferenceScriptToken
 function redResourceReferenceScriptToken.new(fields) return end
 

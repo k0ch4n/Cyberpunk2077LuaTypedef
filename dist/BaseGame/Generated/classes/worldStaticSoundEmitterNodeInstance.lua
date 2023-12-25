@@ -4,6 +4,6 @@
 ---@class worldStaticSoundEmitterNodeInstance: worldINodeInstance
 worldStaticSoundEmitterNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticSoundEmitterNodeInstance
 ---@return worldStaticSoundEmitterNodeInstance
 function worldStaticSoundEmitterNodeInstance.new(fields) return end

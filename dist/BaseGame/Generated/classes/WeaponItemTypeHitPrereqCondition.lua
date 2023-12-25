@@ -5,7 +5,7 @@
 ---@field public itemType gamedataItemType
 WeaponItemTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? WeaponItemTypeHitPrereqCondition
 ---@return WeaponItemTypeHitPrereqCondition
 function WeaponItemTypeHitPrereqCondition.new(fields) return end
 

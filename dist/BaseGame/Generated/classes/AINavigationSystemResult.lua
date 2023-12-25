@@ -13,6 +13,6 @@
 ---@field public closestReachablePoint WorldPosition
 AINavigationSystemResult = {}
 
----@param fields? table
+---@param fields? AINavigationSystemResult
 ---@return AINavigationSystemResult
 function AINavigationSystemResult.new(fields) return end

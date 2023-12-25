@@ -4,6 +4,6 @@
 ---@class vehicleRemoteControlCameraToggleEvent: redEvent
 vehicleRemoteControlCameraToggleEvent = {}
 
----@param fields? table
+---@param fields? vehicleRemoteControlCameraToggleEvent
 ---@return vehicleRemoteControlCameraToggleEvent
 function vehicleRemoteControlCameraToggleEvent.new(fields) return end

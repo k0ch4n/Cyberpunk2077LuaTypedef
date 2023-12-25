@@ -6,7 +6,7 @@
 ---@field public shouldPushPlayerAway Bool
 GrappleBreakFreeEvents = {}
 
----@param fields? table
+---@param fields? GrappleBreakFreeEvents
 ---@return GrappleBreakFreeEvents
 function GrappleBreakFreeEvents.new(fields) return end
 

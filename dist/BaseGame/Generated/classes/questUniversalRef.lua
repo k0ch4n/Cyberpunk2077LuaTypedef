@@ -7,6 +7,6 @@
 ---@field public mainPlayerObject Bool
 questUniversalRef = {}
 
----@param fields? table
+---@param fields? questUniversalRef
 ---@return questUniversalRef
 function questUniversalRef.new(fields) return end

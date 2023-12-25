@@ -12,6 +12,6 @@
 ---@field public normals DataBuffer
 meshPhxClothChunkData = {}
 
----@param fields? table
+---@param fields? meshPhxClothChunkData
 ---@return meshPhxClothChunkData
 function meshPhxClothChunkData.new(fields) return end

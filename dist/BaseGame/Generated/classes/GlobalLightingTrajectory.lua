@@ -8,6 +8,6 @@
 ---@field public timeOfYearSeason ETimeOfYearSeason
 GlobalLightingTrajectory = {}
 
----@param fields? table
+---@param fields? GlobalLightingTrajectory
 ---@return GlobalLightingTrajectory
 function GlobalLightingTrajectory.new(fields) return end

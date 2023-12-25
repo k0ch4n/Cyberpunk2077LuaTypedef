@@ -11,6 +11,6 @@
 ---@field public childNode AICTreeNodeDefinition
 AIFSMStateDefinition = {}
 
----@param fields? table
+---@param fields? AIFSMStateDefinition
 ---@return AIFSMStateDefinition
 function AIFSMStateDefinition.new(fields) return end

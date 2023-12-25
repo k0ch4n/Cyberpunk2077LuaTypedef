@@ -5,7 +5,7 @@
 ---@field public deviceComponent gameMasterDeviceComponent
 Master_Test = {}
 
----@param fields? table
+---@param fields? Master_Test
 ---@return Master_Test
 function Master_Test.new(fields) return end
 

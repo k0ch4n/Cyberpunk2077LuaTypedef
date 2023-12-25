@@ -4,7 +4,7 @@
 ---@class VehicleWheelEvents: QuickSlotsHoldEvents
 VehicleWheelEvents = {}
 
----@param fields? table
+---@param fields? VehicleWheelEvents
 ---@return VehicleWheelEvents
 function VehicleWheelEvents.new(fields) return end
 

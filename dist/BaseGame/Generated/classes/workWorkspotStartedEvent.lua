@@ -7,6 +7,6 @@
 ---@field public statusEffectID TweakDBID
 workWorkspotStartedEvent = {}
 
----@param fields? table
+---@param fields? workWorkspotStartedEvent
 ---@return workWorkspotStartedEvent
 function workWorkspotStartedEvent.new(fields) return end

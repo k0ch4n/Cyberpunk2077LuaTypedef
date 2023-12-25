@@ -9,6 +9,6 @@
 ---@field public openedWindows CName
 vehicleAudioPSData = {}
 
----@param fields? table
+---@param fields? vehicleAudioPSData
 ---@return vehicleAudioPSData
 function vehicleAudioPSData.new(fields) return end

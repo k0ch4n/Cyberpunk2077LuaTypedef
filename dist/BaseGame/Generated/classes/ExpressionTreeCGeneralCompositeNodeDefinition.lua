@@ -5,6 +5,6 @@
 ---@field public children LibTreeINodeDefinition[]
 ExpressionTreeCGeneralCompositeNodeDefinition = {}
 
----@param fields? table
+---@param fields? ExpressionTreeCGeneralCompositeNodeDefinition
 ---@return ExpressionTreeCGeneralCompositeNodeDefinition
 function ExpressionTreeCGeneralCompositeNodeDefinition.new(fields) return end

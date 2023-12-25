@@ -6,6 +6,6 @@
 ---@field public reactionData AIReactionData
 ReactionBehaviorStatus = {}
 
----@param fields? table
+---@param fields? ReactionBehaviorStatus
 ---@return ReactionBehaviorStatus
 function ReactionBehaviorStatus.new(fields) return end

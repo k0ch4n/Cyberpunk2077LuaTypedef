@@ -4,6 +4,6 @@
 ---@class questQuestStatPoolListener: gameIStatPoolsListener
 questQuestStatPoolListener = {}
 
----@param fields? table
+---@param fields? questQuestStatPoolListener
 ---@return questQuestStatPoolListener
 function questQuestStatPoolListener.new(fields) return end

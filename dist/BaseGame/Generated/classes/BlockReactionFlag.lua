@@ -5,7 +5,7 @@
 ---@field public target gameObject
 BlockReactionFlag = {}
 
----@param fields? table
+---@param fields? BlockReactionFlag
 ---@return BlockReactionFlag
 function BlockReactionFlag.new(fields) return end
 

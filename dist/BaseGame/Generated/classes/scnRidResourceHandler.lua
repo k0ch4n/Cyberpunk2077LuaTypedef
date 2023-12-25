@@ -6,6 +6,6 @@
 ---@field public ridResource scnRidResource
 scnRidResourceHandler = {}
 
----@param fields? table
+---@param fields? scnRidResourceHandler
 ---@return scnRidResourceHandler
 function scnRidResourceHandler.new(fields) return end

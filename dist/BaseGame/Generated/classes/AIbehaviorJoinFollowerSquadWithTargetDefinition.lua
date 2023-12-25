@@ -5,6 +5,6 @@
 ---@field public follower AIArgumentMapping
 AIbehaviorJoinFollowerSquadWithTargetDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorJoinFollowerSquadWithTargetDefinition
 ---@return AIbehaviorJoinFollowerSquadWithTargetDefinition
 function AIbehaviorJoinFollowerSquadWithTargetDefinition.new(fields) return end

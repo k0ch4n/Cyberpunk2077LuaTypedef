@@ -4,7 +4,7 @@
 ---@class TimeDilationFocusModeDecisions: TimeDilationTransitions
 TimeDilationFocusModeDecisions = {}
 
----@param fields? table
+---@param fields? TimeDilationFocusModeDecisions
 ---@return TimeDilationFocusModeDecisions
 function TimeDilationFocusModeDecisions.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public cursorForDevice CName
 inkCursorInfo = {}
 
----@param fields? table
+---@param fields? inkCursorInfo
 ---@return inkCursorInfo
 function inkCursorInfo.new(fields) return end
 

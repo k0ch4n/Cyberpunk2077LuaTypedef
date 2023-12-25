@@ -4,7 +4,7 @@
 ---@class GetOffThePsychoSquadAV: AIbehaviortaskScript
 GetOffThePsychoSquadAV = {}
 
----@param fields? table
+---@param fields? GetOffThePsychoSquadAV
 ---@return GetOffThePsychoSquadAV
 function GetOffThePsychoSquadAV.new(fields) return end
 

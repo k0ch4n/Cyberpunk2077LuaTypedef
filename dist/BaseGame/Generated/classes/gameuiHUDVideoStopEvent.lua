@@ -6,6 +6,6 @@
 ---@field public isSkip Bool
 gameuiHUDVideoStopEvent = {}
 
----@param fields? table
+---@param fields? gameuiHUDVideoStopEvent
 ---@return gameuiHUDVideoStopEvent
 function gameuiHUDVideoStopEvent.new(fields) return end

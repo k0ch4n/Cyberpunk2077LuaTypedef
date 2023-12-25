@@ -4,7 +4,7 @@
 ---@class CombatPSMPrereq: PlayerStateMachinePrereq
 CombatPSMPrereq = {}
 
----@param fields? table
+---@param fields? CombatPSMPrereq
 ---@return CombatPSMPrereq
 function CombatPSMPrereq.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public resourceVersion Uint8
 worldEnvironmentAreaParameters = {}
 
----@param fields? table
+---@param fields? worldEnvironmentAreaParameters
 ---@return worldEnvironmentAreaParameters
 function worldEnvironmentAreaParameters.new(fields) return end

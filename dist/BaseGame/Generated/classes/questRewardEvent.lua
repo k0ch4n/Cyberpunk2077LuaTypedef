@@ -5,6 +5,6 @@
 ---@field public rewardName TweakDBID
 questRewardEvent = {}
 
----@param fields? table
+---@param fields? questRewardEvent
 ---@return questRewardEvent
 function questRewardEvent.new(fields) return end

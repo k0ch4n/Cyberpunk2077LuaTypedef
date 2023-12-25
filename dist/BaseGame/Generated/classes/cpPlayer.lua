@@ -4,6 +4,6 @@
 ---@class cpPlayer: gamePlayer
 cpPlayer = {}
 
----@param fields? table
+---@param fields? cpPlayer
 ---@return cpPlayer
 function cpPlayer.new(fields) return end

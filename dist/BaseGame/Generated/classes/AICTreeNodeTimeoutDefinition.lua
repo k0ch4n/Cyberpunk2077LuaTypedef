@@ -5,6 +5,6 @@
 ---@field public timeout Float
 AICTreeNodeTimeoutDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeTimeoutDefinition
 ---@return AICTreeNodeTimeoutDefinition
 function AICTreeNodeTimeoutDefinition.new(fields) return end

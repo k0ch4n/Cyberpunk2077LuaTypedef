@@ -4,6 +4,6 @@
 ---@class gameJournalPrimaryFolderEntry: gameJournalFolderEntry
 gameJournalPrimaryFolderEntry = {}
 
----@param fields? table
+---@param fields? gameJournalPrimaryFolderEntry
 ---@return gameJournalPrimaryFolderEntry
 function gameJournalPrimaryFolderEntry.new(fields) return end

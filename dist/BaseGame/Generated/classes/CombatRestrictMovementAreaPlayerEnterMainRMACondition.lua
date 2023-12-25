@@ -4,7 +4,7 @@
 ---@class CombatRestrictMovementAreaPlayerEnterMainRMACondition: AICombatGuardAreaScriptCondition
 CombatRestrictMovementAreaPlayerEnterMainRMACondition = {}
 
----@param fields? table
+---@param fields? CombatRestrictMovementAreaPlayerEnterMainRMACondition
 ---@return CombatRestrictMovementAreaPlayerEnterMainRMACondition
 function CombatRestrictMovementAreaPlayerEnterMainRMACondition.new(fields) return end
 

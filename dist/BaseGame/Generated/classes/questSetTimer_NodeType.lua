@@ -6,6 +6,6 @@
 ---@field public duration Float
 questSetTimer_NodeType = {}
 
----@param fields? table
+---@param fields? questSetTimer_NodeType
 ---@return questSetTimer_NodeType
 function questSetTimer_NodeType.new(fields) return end

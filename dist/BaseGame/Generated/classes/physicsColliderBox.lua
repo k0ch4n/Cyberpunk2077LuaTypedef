@@ -6,6 +6,6 @@
 ---@field public isObstacle Bool
 physicsColliderBox = {}
 
----@param fields? table
+---@param fields? physicsColliderBox
 ---@return physicsColliderBox
 function physicsColliderBox.new(fields) return end

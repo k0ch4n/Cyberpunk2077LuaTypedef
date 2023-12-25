@@ -5,7 +5,7 @@
 ---@field public gameController TargetHitIndicatorGameController
 WeaponChangedListener = {}
 
----@param fields? table
+---@param fields? WeaponChangedListener
 ---@return WeaponChangedListener
 function WeaponChangedListener.new(fields) return end
 

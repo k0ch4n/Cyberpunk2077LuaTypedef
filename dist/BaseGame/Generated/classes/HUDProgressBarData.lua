@@ -11,6 +11,6 @@
 ---@field public type gameSimpleMessageType
 HUDProgressBarData = {}
 
----@param fields? table
+---@param fields? HUDProgressBarData
 ---@return HUDProgressBarData
 function HUDProgressBarData.new(fields) return end

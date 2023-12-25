@@ -14,7 +14,7 @@
 ---@field public interactionRecord String
 SDeviceActionData = {}
 
----@param fields? table
+---@param fields? SDeviceActionData
 ---@return SDeviceActionData
 function SDeviceActionData.new(fields) return end
 

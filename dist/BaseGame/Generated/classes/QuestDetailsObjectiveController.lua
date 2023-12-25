@@ -11,7 +11,7 @@
 ---@field private isTracked Bool
 QuestDetailsObjectiveController = {}
 
----@param fields? table
+---@param fields? QuestDetailsObjectiveController
 ---@return QuestDetailsObjectiveController
 function QuestDetailsObjectiveController.new(fields) return end
 

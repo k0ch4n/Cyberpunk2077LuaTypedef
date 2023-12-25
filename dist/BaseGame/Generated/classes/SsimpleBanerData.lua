@@ -7,6 +7,6 @@
 ---@field public content redResourceReferenceScriptToken
 SsimpleBanerData = {}
 
----@param fields? table
+---@param fields? SsimpleBanerData
 ---@return SsimpleBanerData
 function SsimpleBanerData.new(fields) return end

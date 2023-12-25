@@ -4,7 +4,7 @@
 ---@class IDisplayData: IScriptable
 IDisplayData = {}
 
----@param fields? table
+---@param fields? IDisplayData
 ---@return IDisplayData
 function IDisplayData.new(fields) return end
 

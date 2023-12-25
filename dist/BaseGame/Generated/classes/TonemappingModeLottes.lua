@@ -10,6 +10,6 @@
 ---@field public crosstalkSaturation Vector3
 TonemappingModeLottes = {}
 
----@param fields? table
+---@param fields? TonemappingModeLottes
 ---@return TonemappingModeLottes
 function TonemappingModeLottes.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public linkedLayers CName
 gameinteractionsMultipleSetEnableEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsMultipleSetEnableEvent
 ---@return gameinteractionsMultipleSetEnableEvent
 function gameinteractionsMultipleSetEnableEvent.new(fields) return end
 

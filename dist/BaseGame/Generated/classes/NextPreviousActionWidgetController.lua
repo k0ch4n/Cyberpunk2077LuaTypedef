@@ -8,7 +8,7 @@
 ---@field protected isProcessing Bool
 NextPreviousActionWidgetController = {}
 
----@param fields? table
+---@param fields? NextPreviousActionWidgetController
 ---@return NextPreviousActionWidgetController
 function NextPreviousActionWidgetController.new(fields) return end
 

@@ -26,6 +26,6 @@
 ---@field public specAppearance CName
 scnActorDef = {}
 
----@param fields? table
+---@param fields? scnActorDef
 ---@return scnActorDef
 function scnActorDef.new(fields) return end

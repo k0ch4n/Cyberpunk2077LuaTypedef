@@ -6,6 +6,6 @@
 ---@field public vendorObject gameObject
 UIVendorAttachedEvent = {}
 
----@param fields? table
+---@param fields? UIVendorAttachedEvent
 ---@return UIVendorAttachedEvent
 function UIVendorAttachedEvent.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public reapplyInterruptionOperationsAfterGameLoad Bool
 questSceneNodeDefinition = {}
 
----@param fields? table
+---@param fields? questSceneNodeDefinition
 ---@return questSceneNodeDefinition
 function questSceneNodeDefinition.new(fields) return end

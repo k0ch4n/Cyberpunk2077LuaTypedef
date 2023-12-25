@@ -4,7 +4,7 @@
 ---@class Codeware_UI_InMenuPopupFooter: Codeware_UI_inkCustomController
 Codeware_UI_InMenuPopupFooter = {}
 
----@param fields? table
+---@param fields? Codeware_UI_InMenuPopupFooter
 ---@return Codeware_UI_InMenuPopupFooter
 function Codeware_UI_InMenuPopupFooter.new(fields) return end
 

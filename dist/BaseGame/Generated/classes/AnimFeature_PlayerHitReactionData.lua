@@ -13,6 +13,6 @@
 ---@field public meleeAttackDirection Int32
 AnimFeature_PlayerHitReactionData = {}
 
----@param fields? table
+---@param fields? AnimFeature_PlayerHitReactionData
 ---@return AnimFeature_PlayerHitReactionData
 function AnimFeature_PlayerHitReactionData.new(fields) return end

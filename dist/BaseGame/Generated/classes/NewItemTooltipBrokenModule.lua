@@ -5,7 +5,7 @@
 ---@field private descriptionText inkTextWidgetReference
 NewItemTooltipBrokenModule = {}
 
----@param fields? table
+---@param fields? NewItemTooltipBrokenModule
 ---@return NewItemTooltipBrokenModule
 function NewItemTooltipBrokenModule.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataQuestSystemSetup_Record: gamedataTweakDBRecord
 gamedataQuestSystemSetup_Record = {}
 
----@param fields? table
+---@param fields? gamedataQuestSystemSetup_Record
 ---@return gamedataQuestSystemSetup_Record
 function gamedataQuestSystemSetup_Record.new(fields) return end
 

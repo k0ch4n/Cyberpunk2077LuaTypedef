@@ -7,6 +7,6 @@
 ---@field public parent inkCompoundWidgetReference
 RipperdocCategory = {}
 
----@param fields? table
+---@param fields? RipperdocCategory
 ---@return RipperdocCategory
 function RipperdocCategory.new(fields) return end

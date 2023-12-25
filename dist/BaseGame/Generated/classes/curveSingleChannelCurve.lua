@@ -7,6 +7,6 @@
 ---@field public data DataBuffer
 curveSingleChannelCurve = {}
 
----@param fields? table
+---@param fields? curveSingleChannelCurve
 ---@return curveSingleChannelCurve
 function curveSingleChannelCurve.new(fields) return end

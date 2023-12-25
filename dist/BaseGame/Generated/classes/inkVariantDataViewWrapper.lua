@@ -4,7 +4,7 @@
 ---@class inkVariantDataViewWrapper: inkBaseVariantDataSource
 inkVariantDataViewWrapper = {}
 
----@param fields? table
+---@param fields? inkVariantDataViewWrapper
 ---@return inkVariantDataViewWrapper
 function inkVariantDataViewWrapper.new(fields) return end
 

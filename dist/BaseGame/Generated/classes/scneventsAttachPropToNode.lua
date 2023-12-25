@@ -8,6 +8,6 @@
 ---@field public customOffsetRot Quaternion
 scneventsAttachPropToNode = {}
 
----@param fields? table
+---@param fields? scneventsAttachPropToNode
 ---@return scneventsAttachPropToNode
 function scneventsAttachPropToNode.new(fields) return end

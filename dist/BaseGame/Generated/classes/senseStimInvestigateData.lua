@@ -17,6 +17,6 @@
 ---@field public investigateController Bool
 senseStimInvestigateData = {}
 
----@param fields? table
+---@param fields? senseStimInvestigateData
 ---@return senseStimInvestigateData
 function senseStimInvestigateData.new(fields) return end

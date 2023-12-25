@@ -5,7 +5,7 @@
 ---@field public packageName String
 gamestateMachineComponent = {}
 
----@param fields? table
+---@param fields? gamestateMachineComponent
 ---@return gamestateMachineComponent
 function gamestateMachineComponent.new(fields) return end
 

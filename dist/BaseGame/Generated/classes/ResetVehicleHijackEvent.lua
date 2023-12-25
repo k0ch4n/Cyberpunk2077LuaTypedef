@@ -4,6 +4,6 @@
 ---@class ResetVehicleHijackEvent: redEvent
 ResetVehicleHijackEvent = {}
 
----@param fields? table
+---@param fields? ResetVehicleHijackEvent
 ---@return ResetVehicleHijackEvent
 function ResetVehicleHijackEvent.new(fields) return end

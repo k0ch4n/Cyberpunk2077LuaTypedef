@@ -7,6 +7,6 @@
 ---@field public hitShapes CName[]
 gameLastHitData = {}
 
----@param fields? table
+---@param fields? gameLastHitData
 ---@return gameLastHitData
 function gameLastHitData.new(fields) return end

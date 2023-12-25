@@ -4,7 +4,7 @@
 ---@class DetectorModuleComponent: gameScriptableComponent
 DetectorModuleComponent = {}
 
----@param fields? table
+---@param fields? DetectorModuleComponent
 ---@return DetectorModuleComponent
 function DetectorModuleComponent.new(fields) return end
 

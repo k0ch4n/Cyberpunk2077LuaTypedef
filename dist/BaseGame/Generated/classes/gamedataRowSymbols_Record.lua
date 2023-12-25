@@ -4,7 +4,7 @@
 ---@class gamedataRowSymbols_Record: gamedataTweakDBRecord
 gamedataRowSymbols_Record = {}
 
----@param fields? table
+---@param fields? gamedataRowSymbols_Record
 ---@return gamedataRowSymbols_Record
 function gamedataRowSymbols_Record.new(fields) return end
 

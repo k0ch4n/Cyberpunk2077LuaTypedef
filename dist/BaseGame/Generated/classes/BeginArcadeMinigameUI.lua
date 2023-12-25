@@ -4,7 +4,7 @@
 ---@class BeginArcadeMinigameUI: ActionBool
 BeginArcadeMinigameUI = {}
 
----@param fields? table
+---@param fields? BeginArcadeMinigameUI
 ---@return BeginArcadeMinigameUI
 function BeginArcadeMinigameUI.new(fields) return end
 

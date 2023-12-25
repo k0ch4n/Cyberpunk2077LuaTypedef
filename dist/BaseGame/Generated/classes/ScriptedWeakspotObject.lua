@@ -19,7 +19,7 @@
 ---@field private blockDamage Bool
 ScriptedWeakspotObject = {}
 
----@param fields? table
+---@param fields? ScriptedWeakspotObject
 ---@return ScriptedWeakspotObject
 function ScriptedWeakspotObject.new(fields) return end
 

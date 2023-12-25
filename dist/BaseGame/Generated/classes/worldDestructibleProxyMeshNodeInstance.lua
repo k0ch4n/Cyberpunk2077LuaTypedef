@@ -4,6 +4,6 @@
 ---@class worldDestructibleProxyMeshNodeInstance: worldPrefabProxyMeshNodeInstance
 worldDestructibleProxyMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldDestructibleProxyMeshNodeInstance
 ---@return worldDestructibleProxyMeshNodeInstance
 function worldDestructibleProxyMeshNodeInstance.new(fields) return end

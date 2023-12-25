@@ -5,6 +5,6 @@
 ---@field public canStreamVideo Bool
 CameraSetup = {}
 
----@param fields? table
+---@param fields? CameraSetup
 ---@return CameraSetup
 function CameraSetup.new(fields) return end

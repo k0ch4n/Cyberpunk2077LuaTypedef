@@ -8,7 +8,7 @@
 ---@field public quantity Int32
 CachedCraftingMaterial = {}
 
----@param fields? table
+---@param fields? CachedCraftingMaterial
 ---@return CachedCraftingMaterial
 function CachedCraftingMaterial.new(fields) return end
 

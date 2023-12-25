@@ -7,6 +7,6 @@
 ---@field public entity entEntityID
 QueueCombatExperience = {}
 
----@param fields? table
+---@param fields? QueueCombatExperience
 ---@return QueueCombatExperience
 function QueueCombatExperience.new(fields) return end

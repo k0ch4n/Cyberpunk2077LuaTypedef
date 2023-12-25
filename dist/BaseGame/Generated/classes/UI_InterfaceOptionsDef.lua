@@ -9,7 +9,7 @@
 ---@field public HUDMarkersEnabled gamebbScriptID_Bool
 UI_InterfaceOptionsDef = {}
 
----@param fields? table
+---@param fields? UI_InterfaceOptionsDef
 ---@return UI_InterfaceOptionsDef
 function UI_InterfaceOptionsDef.new(fields) return end
 

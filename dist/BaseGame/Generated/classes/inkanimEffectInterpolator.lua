@@ -9,7 +9,7 @@
 ---@field public paramName CName
 inkanimEffectInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimEffectInterpolator
 ---@return inkanimEffectInterpolator
 function inkanimEffectInterpolator.new(fields) return end
 

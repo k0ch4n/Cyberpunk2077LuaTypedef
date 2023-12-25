@@ -4,6 +4,6 @@
 ---@class RangedWeaponPSMPrereqState: PlayerStateMachinePrereqState
 RangedWeaponPSMPrereqState = {}
 
----@param fields? table
+---@param fields? RangedWeaponPSMPrereqState
 ---@return RangedWeaponPSMPrereqState
 function RangedWeaponPSMPrereqState.new(fields) return end

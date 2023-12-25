@@ -8,6 +8,6 @@
 ---@field public quaternionSockets animAnimMathExpressionQuaternionSocket[]
 animMathExpressionNodeData = {}
 
----@param fields? table
+---@param fields? animMathExpressionNodeData
 ---@return animMathExpressionNodeData
 function animMathExpressionNodeData.new(fields) return end

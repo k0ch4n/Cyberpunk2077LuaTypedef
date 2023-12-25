@@ -9,6 +9,6 @@
 ---@field public isSequence Bool
 communityPhaseTimePeriod = {}
 
----@param fields? table
+---@param fields? communityPhaseTimePeriod
 ---@return communityPhaseTimePeriod
 function communityPhaseTimePeriod.new(fields) return end

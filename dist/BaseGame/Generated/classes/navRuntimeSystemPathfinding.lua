@@ -4,6 +4,6 @@
 ---@class navRuntimeSystemPathfinding: worldIRuntimeSystem
 navRuntimeSystemPathfinding = {}
 
----@param fields? table
+---@param fields? navRuntimeSystemPathfinding
 ---@return navRuntimeSystemPathfinding
 function navRuntimeSystemPathfinding.new(fields) return end

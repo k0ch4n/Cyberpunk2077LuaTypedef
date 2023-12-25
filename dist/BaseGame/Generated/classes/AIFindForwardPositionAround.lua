@@ -4,7 +4,7 @@
 ---@class AIFindForwardPositionAround: AIbehaviortaskScript
 AIFindForwardPositionAround = {}
 
----@param fields? table
+---@param fields? AIFindForwardPositionAround
 ---@return AIFindForwardPositionAround
 function AIFindForwardPositionAround.new(fields) return end
 

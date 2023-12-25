@@ -8,7 +8,7 @@
 ---@field public owner gameObject
 RemoveStatusEffectOnAttackEffector = {}
 
----@param fields? table
+---@param fields? RemoveStatusEffectOnAttackEffector
 ---@return RemoveStatusEffectOnAttackEffector
 function RemoveStatusEffectOnAttackEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public register Bool
 questInspectListenerEvent = {}
 
----@param fields? table
+---@param fields? questInspectListenerEvent
 ---@return questInspectListenerEvent
 function questInspectListenerEvent.new(fields) return end

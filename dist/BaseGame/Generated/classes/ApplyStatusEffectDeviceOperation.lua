@@ -5,7 +5,7 @@
 ---@field public statusEffects SStatusEffectOperationData[]
 ApplyStatusEffectDeviceOperation = {}
 
----@param fields? table
+---@param fields? ApplyStatusEffectDeviceOperation
 ---@return ApplyStatusEffectDeviceOperation
 function ApplyStatusEffectDeviceOperation.new(fields) return end
 

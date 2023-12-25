@@ -10,6 +10,6 @@
 ---@field public comparisonType EComparisonType
 questInventory_ConditionType = {}
 
----@param fields? table
+---@param fields? questInventory_ConditionType
 ---@return questInventory_ConditionType
 function questInventory_ConditionType.new(fields) return end

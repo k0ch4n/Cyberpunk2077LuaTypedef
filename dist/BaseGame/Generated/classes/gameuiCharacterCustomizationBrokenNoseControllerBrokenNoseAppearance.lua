@@ -6,6 +6,6 @@
 ---@field public definition CName
 gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
 ---@return gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
 function gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance.new(fields) return end

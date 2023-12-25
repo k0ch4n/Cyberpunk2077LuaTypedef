@@ -8,7 +8,7 @@
 ---@field protected itemFilterType ItemFilterCategory
 BackpackDataView = {}
 
----@param fields? table
+---@param fields? BackpackDataView
 ---@return BackpackDataView
 function BackpackDataView.new(fields) return end
 

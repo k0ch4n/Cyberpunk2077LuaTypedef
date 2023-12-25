@@ -4,6 +4,6 @@
 ---@class gameShootingSpotDefinition: gameCoverDefinition
 gameShootingSpotDefinition = {}
 
----@param fields? table
+---@param fields? gameShootingSpotDefinition
 ---@return gameShootingSpotDefinition
 function gameShootingSpotDefinition.new(fields) return end

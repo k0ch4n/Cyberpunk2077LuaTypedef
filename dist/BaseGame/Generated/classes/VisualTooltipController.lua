@@ -4,7 +4,7 @@
 ---@class VisualTooltipController: ItemTooltipCommonController
 VisualTooltipController = {}
 
----@param fields? table
+---@param fields? VisualTooltipController
 ---@return VisualTooltipController
 function VisualTooltipController.new(fields) return end
 

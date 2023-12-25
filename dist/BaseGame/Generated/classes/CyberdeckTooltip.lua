@@ -73,7 +73,7 @@
 ---@field protected tooltipDisplayContext InventoryTooltipDisplayContext
 CyberdeckTooltip = {}
 
----@param fields? table
+---@param fields? CyberdeckTooltip
 ---@return CyberdeckTooltip
 function CyberdeckTooltip.new(fields) return end
 

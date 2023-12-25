@@ -7,6 +7,6 @@
 ---@field public isPlayer Bool
 questEntityManagerDestroyCarriedObject = {}
 
----@param fields? table
+---@param fields? questEntityManagerDestroyCarriedObject
 ---@return questEntityManagerDestroyCarriedObject
 function questEntityManagerDestroyCarriedObject.new(fields) return end

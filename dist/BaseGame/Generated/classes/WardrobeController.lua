@@ -4,7 +4,7 @@
 ---@class WardrobeController: ScriptableDeviceComponent
 WardrobeController = {}
 
----@param fields? table
+---@param fields? WardrobeController
 ---@return WardrobeController
 function WardrobeController.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public operationType EEffectOperationType
 SVFXOperationData = {}
 
----@param fields? table
+---@param fields? SVFXOperationData
 ---@return SVFXOperationData
 function SVFXOperationData.new(fields) return end

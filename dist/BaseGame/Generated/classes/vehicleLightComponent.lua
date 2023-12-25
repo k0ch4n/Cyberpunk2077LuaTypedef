@@ -10,6 +10,6 @@
 ---@field public highBeamConeMultiplier Float
 vehicleLightComponent = {}
 
----@param fields? table
+---@param fields? vehicleLightComponent
 ---@return vehicleLightComponent
 function vehicleLightComponent.new(fields) return end

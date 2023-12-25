@@ -5,7 +5,7 @@
 ---@field public isWalking Bool
 GrappleStandEvents = {}
 
----@param fields? table
+---@param fields? GrappleStandEvents
 ---@return GrappleStandEvents
 function GrappleStandEvents.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private iconsNameResolver gameuiIconsNameResolver
 ItemTooltipIconModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipIconModule
 ---@return ItemTooltipIconModule
 function ItemTooltipIconModule.new(fields) return end
 

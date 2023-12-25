@@ -5,7 +5,7 @@
 ---@field private previousTarget entEntity
 RoyceLaserSight = {}
 
----@param fields? table
+---@param fields? RoyceLaserSight
 ---@return RoyceLaserSight
 function RoyceLaserSight.new(fields) return end
 

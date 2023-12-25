@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextDecisions: InputContextTransitionDecisions
 UiQuickHackPanelContextDecisions = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextDecisions
 ---@return UiQuickHackPanelContextDecisions
 function UiQuickHackPanelContextDecisions.new(fields) return end
 

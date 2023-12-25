@@ -4,6 +4,6 @@
 ---@class gameItemsMeshesLoaded: redEvent
 gameItemsMeshesLoaded = {}
 
----@param fields? table
+---@param fields? gameItemsMeshesLoaded
 ---@return gameItemsMeshesLoaded
 function gameItemsMeshesLoaded.new(fields) return end

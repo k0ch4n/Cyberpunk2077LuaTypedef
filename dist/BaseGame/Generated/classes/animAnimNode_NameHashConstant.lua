@@ -5,6 +5,6 @@
 ---@field public value CName
 animAnimNode_NameHashConstant = {}
 
----@param fields? table
+---@param fields? animAnimNode_NameHashConstant
 ---@return animAnimNode_NameHashConstant
 function animAnimNode_NameHashConstant.new(fields) return end

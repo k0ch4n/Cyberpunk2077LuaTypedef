@@ -8,6 +8,6 @@
 ---@field public transformNames CName[]
 animImportFacialPoseDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialPoseDesc
 ---@return animImportFacialPoseDesc
 function animImportFacialPoseDesc.new(fields) return end

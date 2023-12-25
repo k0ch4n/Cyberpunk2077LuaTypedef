@@ -8,6 +8,6 @@
 ---@field public p4 Vector4
 Quad = {}
 
----@param fields? table
+---@param fields? Quad
 ---@return Quad
 function Quad.new(fields) return end

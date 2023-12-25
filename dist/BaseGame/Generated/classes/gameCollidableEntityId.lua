@@ -4,6 +4,6 @@
 ---@class gameCollidableEntityId: ISerializable
 gameCollidableEntityId = {}
 
----@param fields? table
+---@param fields? gameCollidableEntityId
 ---@return gameCollidableEntityId
 function gameCollidableEntityId.new(fields) return end

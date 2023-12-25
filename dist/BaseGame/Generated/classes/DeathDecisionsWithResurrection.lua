@@ -4,7 +4,7 @@
 ---@class DeathDecisionsWithResurrection: HighLevelTransition
 DeathDecisionsWithResurrection = {}
 
----@param fields? table
+---@param fields? DeathDecisionsWithResurrection
 ---@return DeathDecisionsWithResurrection
 function DeathDecisionsWithResurrection.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ChestPressController: ScriptableDeviceComponent
 ChestPressController = {}
 
----@param fields? table
+---@param fields? ChestPressController
 ---@return ChestPressController
 function ChestPressController.new(fields) return end
 

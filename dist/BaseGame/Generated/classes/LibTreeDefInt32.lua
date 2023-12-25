@@ -7,6 +7,6 @@
 ---@field public v Int32
 LibTreeDefInt32 = {}
 
----@param fields? table
+---@param fields? LibTreeDefInt32
 ---@return LibTreeDefInt32
 function LibTreeDefInt32.new(fields) return end

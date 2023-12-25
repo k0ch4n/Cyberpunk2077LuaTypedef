@@ -5,6 +5,6 @@
 ---@field public components gameWeakspotPhysicalDestructionComponent[]
 gameWeakspotDestroyPhysicalComponentsEvent = {}
 
----@param fields? table
+---@param fields? gameWeakspotDestroyPhysicalComponentsEvent
 ---@return gameWeakspotDestroyPhysicalComponentsEvent
 function gameWeakspotDestroyPhysicalComponentsEvent.new(fields) return end

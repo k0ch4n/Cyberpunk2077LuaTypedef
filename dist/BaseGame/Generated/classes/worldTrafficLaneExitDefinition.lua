@@ -10,6 +10,6 @@
 ---@field public outLaneReversed Bool
 worldTrafficLaneExitDefinition = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneExitDefinition
 ---@return worldTrafficLaneExitDefinition
 function worldTrafficLaneExitDefinition.new(fields) return end

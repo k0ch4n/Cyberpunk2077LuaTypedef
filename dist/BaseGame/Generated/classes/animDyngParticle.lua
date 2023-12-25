@@ -13,6 +13,6 @@
 ---@field public projectionType animDyngParticleProjectionType
 animDyngParticle = {}
 
----@param fields? table
+---@param fields? animDyngParticle
 ---@return animDyngParticle
 function animDyngParticle.new(fields) return end

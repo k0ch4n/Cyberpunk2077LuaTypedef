@@ -11,6 +11,6 @@
 ---@field public maxPathDisplayLength Float
 gamegpsSettings = {}
 
----@param fields? table
+---@param fields? gamegpsSettings
 ---@return gamegpsSettings
 function gamegpsSettings.new(fields) return end

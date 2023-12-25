@@ -17,6 +17,6 @@
 ---@field public easeOut Bool
 scneventsPlayerLookAtEventParams = {}
 
----@param fields? table
+---@param fields? scneventsPlayerLookAtEventParams
 ---@return scneventsPlayerLookAtEventParams
 function scneventsPlayerLookAtEventParams.new(fields) return end

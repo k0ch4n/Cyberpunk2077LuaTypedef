@@ -5,6 +5,6 @@
 ---@field public useCustomColor Bool
 worldAmbientAreaNode = {}
 
----@param fields? table
+---@param fields? worldAmbientAreaNode
 ---@return worldAmbientAreaNode
 function worldAmbientAreaNode.new(fields) return end

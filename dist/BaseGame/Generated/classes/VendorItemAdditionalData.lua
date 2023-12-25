@@ -6,7 +6,7 @@
 ---@field public IsAvailable Bool
 VendorItemAdditionalData = {}
 
----@param fields? table
+---@param fields? VendorItemAdditionalData
 ---@return VendorItemAdditionalData
 function VendorItemAdditionalData.new(fields) return end
 

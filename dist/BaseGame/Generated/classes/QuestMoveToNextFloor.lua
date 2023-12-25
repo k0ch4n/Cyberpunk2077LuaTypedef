@@ -5,7 +5,7 @@
 ---@field public floor NodeRef
 QuestMoveToNextFloor = {}
 
----@param fields? table
+---@param fields? QuestMoveToNextFloor
 ---@return QuestMoveToNextFloor
 function QuestMoveToNextFloor.new(fields) return end
 

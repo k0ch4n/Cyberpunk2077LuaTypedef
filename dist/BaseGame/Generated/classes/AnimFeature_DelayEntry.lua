@@ -5,6 +5,6 @@
 ---@field public thresholdPassed Bool
 AnimFeature_DelayEntry = {}
 
----@param fields? table
+---@param fields? AnimFeature_DelayEntry
 ---@return AnimFeature_DelayEntry
 function AnimFeature_DelayEntry.new(fields) return end

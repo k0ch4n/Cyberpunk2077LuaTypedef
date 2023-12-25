@@ -4,7 +4,7 @@
 ---@class gamedataAIDirectorSchedulePlanEnemyEntry_Record: gamedataTweakDBRecord
 gamedataAIDirectorSchedulePlanEnemyEntry_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIDirectorSchedulePlanEnemyEntry_Record
 ---@return gamedataAIDirectorSchedulePlanEnemyEntry_Record
 function gamedataAIDirectorSchedulePlanEnemyEntry_Record.new(fields) return end
 

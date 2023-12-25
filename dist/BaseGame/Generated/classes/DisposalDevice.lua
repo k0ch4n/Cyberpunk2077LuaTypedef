@@ -24,7 +24,7 @@
 ---@field private OnCarryingChangedCallback redCallbackObject
 DisposalDevice = {}
 
----@param fields? table
+---@param fields? DisposalDevice
 ---@return DisposalDevice
 function DisposalDevice.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public wantedWeapon gameItemID
 gameMuppetInputActionSelectWeapon = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionSelectWeapon
 ---@return gameMuppetInputActionSelectWeapon
 function gameMuppetInputActionSelectWeapon.new(fields) return end

@@ -36,7 +36,7 @@
 ---@field private isHubVisiale Bool
 PhoneMessagePopupGameController = {}
 
----@param fields? table
+---@param fields? PhoneMessagePopupGameController
 ---@return PhoneMessagePopupGameController
 function PhoneMessagePopupGameController.new(fields) return end
 

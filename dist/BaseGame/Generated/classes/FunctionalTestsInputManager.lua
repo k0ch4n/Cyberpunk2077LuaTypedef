@@ -4,6 +4,6 @@
 ---@class FunctionalTestsInputManager
 FunctionalTestsInputManager = {}
 
----@param fields? table
+---@param fields? FunctionalTestsInputManager
 ---@return FunctionalTestsInputManager
 function FunctionalTestsInputManager.new(fields) return end

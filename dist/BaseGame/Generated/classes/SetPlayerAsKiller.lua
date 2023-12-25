@@ -4,7 +4,7 @@
 ---@class SetPlayerAsKiller: AIbehaviortaskScript
 SetPlayerAsKiller = {}
 
----@param fields? table
+---@param fields? SetPlayerAsKiller
 ---@return SetPlayerAsKiller
 function SetPlayerAsKiller.new(fields) return end
 

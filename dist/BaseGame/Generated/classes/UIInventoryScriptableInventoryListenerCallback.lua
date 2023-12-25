@@ -5,7 +5,7 @@
 ---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem
 UIInventoryScriptableInventoryListenerCallback = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableInventoryListenerCallback
 ---@return UIInventoryScriptableInventoryListenerCallback
 function UIInventoryScriptableInventoryListenerCallback.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public amount Uint32
 gameInventoryPrereq = {}
 
----@param fields? table
+---@param fields? gameInventoryPrereq
 ---@return gameInventoryPrereq
 function gameInventoryPrereq.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class TestFalseConditon: workIScriptedCondition
 TestFalseConditon = {}
 
----@param fields? table
+---@param fields? TestFalseConditon
 ---@return TestFalseConditon
 function TestFalseConditon.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public asyncSpawnRequest inkAsyncSpawnRequest
 QuestEntryUserData = {}
 
----@param fields? table
+---@param fields? QuestEntryUserData
 ---@return QuestEntryUserData
 function QuestEntryUserData.new(fields) return end

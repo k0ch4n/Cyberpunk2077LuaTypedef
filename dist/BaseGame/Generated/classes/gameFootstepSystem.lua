@@ -4,6 +4,6 @@
 ---@class gameFootstepSystem: gameIFootstepSystem
 gameFootstepSystem = {}
 
----@param fields? table
+---@param fields? gameFootstepSystem
 ---@return gameFootstepSystem
 function gameFootstepSystem.new(fields) return end

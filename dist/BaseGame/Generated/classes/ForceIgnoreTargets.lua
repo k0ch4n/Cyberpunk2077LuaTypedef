@@ -6,7 +6,7 @@
 ---@field public Attitude EAIAttitude
 ForceIgnoreTargets = {}
 
----@param fields? table
+---@param fields? ForceIgnoreTargets
 ---@return ForceIgnoreTargets
 function ForceIgnoreTargets.new(fields) return end
 

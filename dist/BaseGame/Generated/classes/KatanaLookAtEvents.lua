@@ -4,6 +4,6 @@
 ---@class KatanaLookAtEvents: LookAtPresetMeleeBaseEvents
 KatanaLookAtEvents = {}
 
----@param fields? table
+---@param fields? KatanaLookAtEvents
 ---@return KatanaLookAtEvents
 function KatanaLookAtEvents.new(fields) return end

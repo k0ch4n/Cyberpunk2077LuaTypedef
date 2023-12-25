@@ -10,6 +10,6 @@
 ---@field public attackComputed gameAttackComputed
 gameeventsMissEvent = {}
 
----@param fields? table
+---@param fields? gameeventsMissEvent
 ---@return gameeventsMissEvent
 function gameeventsMissEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public showItem Bool
 ObjectInspectEvent = {}
 
----@param fields? table
+---@param fields? ObjectInspectEvent
 ---@return ObjectInspectEvent
 function ObjectInspectEvent.new(fields) return end

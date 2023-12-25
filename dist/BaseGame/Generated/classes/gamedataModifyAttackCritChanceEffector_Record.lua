@@ -4,7 +4,7 @@
 ---@class gamedataModifyAttackCritChanceEffector_Record: gamedataEffector_Record
 gamedataModifyAttackCritChanceEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataModifyAttackCritChanceEffector_Record
 ---@return gamedataModifyAttackCritChanceEffector_Record
 function gamedataModifyAttackCritChanceEffector_Record.new(fields) return end
 

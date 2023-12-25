@@ -10,6 +10,6 @@
 ---@field public usePhysicalCollision Bool
 gameFreeCamera = {}
 
----@param fields? table
+---@param fields? gameFreeCamera
 ---@return gameFreeCamera
 function gameFreeCamera.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public facts SFactOperationData[]
 FactsDeviceOperation = {}
 
----@param fields? table
+---@param fields? FactsDeviceOperation
 ---@return FactsDeviceOperation
 function FactsDeviceOperation.new(fields) return end
 

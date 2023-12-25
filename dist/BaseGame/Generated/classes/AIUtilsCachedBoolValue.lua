@@ -4,7 +4,7 @@
 ---@class AIUtilsCachedBoolValue
 AIUtilsCachedBoolValue = {}
 
----@param fields? table
+---@param fields? AIUtilsCachedBoolValue
 ---@return AIUtilsCachedBoolValue
 function AIUtilsCachedBoolValue.new(fields) return end
 

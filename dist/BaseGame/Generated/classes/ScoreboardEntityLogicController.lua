@@ -5,7 +5,7 @@
 ---@field private label inkTextWidgetReference
 ScoreboardEntityLogicController = {}
 
----@param fields? table
+---@param fields? ScoreboardEntityLogicController
 ---@return ScoreboardEntityLogicController
 function ScoreboardEntityLogicController.new(fields) return end
 

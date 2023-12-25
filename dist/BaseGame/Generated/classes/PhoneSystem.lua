@@ -20,7 +20,7 @@
 ---@field private PlayerDetachedCallbackID Uint32
 PhoneSystem = {}
 
----@param fields? table
+---@param fields? PhoneSystem
 ---@return PhoneSystem
 function PhoneSystem.new(fields) return end
 

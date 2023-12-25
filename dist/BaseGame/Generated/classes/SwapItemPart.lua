@@ -8,7 +8,7 @@
 ---@field public slotID TweakDBID
 SwapItemPart = {}
 
----@param fields? table
+---@param fields? SwapItemPart
 ---@return SwapItemPart
 function SwapItemPart.new(fields) return end
 

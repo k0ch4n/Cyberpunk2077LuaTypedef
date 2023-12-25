@@ -6,7 +6,7 @@
 ---@field public forceAlerted Bool
 PatrolRoleCommandDelegate = {}
 
----@param fields? table
+---@param fields? PatrolRoleCommandDelegate
 ---@return PatrolRoleCommandDelegate
 function PatrolRoleCommandDelegate.new(fields) return end
 

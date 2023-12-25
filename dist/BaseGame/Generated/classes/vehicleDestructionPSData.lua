@@ -11,6 +11,6 @@
 ---@field public detachedParts CName[]
 vehicleDestructionPSData = {}
 
----@param fields? table
+---@param fields? vehicleDestructionPSData
 ---@return vehicleDestructionPSData
 function vehicleDestructionPSData.new(fields) return end

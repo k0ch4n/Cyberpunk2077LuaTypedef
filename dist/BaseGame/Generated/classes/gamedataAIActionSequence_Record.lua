@@ -4,7 +4,7 @@
 ---@class gamedataAIActionSequence_Record: gamedataAINode_Record
 gamedataAIActionSequence_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionSequence_Record
 ---@return gamedataAIActionSequence_Record
 function gamedataAIActionSequence_Record.new(fields) return end
 

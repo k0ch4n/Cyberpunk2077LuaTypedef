@@ -6,6 +6,6 @@
 ---@field public executor gameObject
 UIActionEvent = {}
 
----@param fields? table
+---@param fields? UIActionEvent
 ---@return UIActionEvent
 function UIActionEvent.new(fields) return end

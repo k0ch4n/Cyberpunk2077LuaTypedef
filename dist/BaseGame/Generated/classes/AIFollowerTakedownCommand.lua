@@ -8,6 +8,6 @@
 ---@field public target gameObject
 AIFollowerTakedownCommand = {}
 
----@param fields? table
+---@param fields? AIFollowerTakedownCommand
 ---@return AIFollowerTakedownCommand
 function AIFollowerTakedownCommand.new(fields) return end

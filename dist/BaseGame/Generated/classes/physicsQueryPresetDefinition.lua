@@ -6,6 +6,6 @@
 ---@field public queryGroups CName[]
 physicsQueryPresetDefinition = {}
 
----@param fields? table
+---@param fields? physicsQueryPresetDefinition
 ---@return physicsQueryPresetDefinition
 function physicsQueryPresetDefinition.new(fields) return end

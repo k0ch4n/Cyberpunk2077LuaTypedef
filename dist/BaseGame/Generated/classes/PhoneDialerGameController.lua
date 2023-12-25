@@ -26,7 +26,7 @@
 ---@field private firstInit Bool
 PhoneDialerGameController = {}
 
----@param fields? table
+---@param fields? PhoneDialerGameController
 ---@return PhoneDialerGameController
 function PhoneDialerGameController.new(fields) return end
 

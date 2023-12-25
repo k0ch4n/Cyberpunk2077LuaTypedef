@@ -4,7 +4,7 @@
 ---@class gamedataAIDirectorScheduleSpawningDesc_Record: gamedataTweakDBRecord
 gamedataAIDirectorScheduleSpawningDesc_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIDirectorScheduleSpawningDesc_Record
 ---@return gamedataAIDirectorScheduleSpawningDesc_Record
 function gamedataAIDirectorScheduleSpawningDesc_Record.new(fields) return end
 

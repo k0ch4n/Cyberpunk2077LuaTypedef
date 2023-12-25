@@ -8,6 +8,6 @@
 ---@field public movementType Int32
 animAnimFeature_CoverAction = {}
 
----@param fields? table
+---@param fields? animAnimFeature_CoverAction
 ---@return animAnimFeature_CoverAction
 function animAnimFeature_CoverAction.new(fields) return end

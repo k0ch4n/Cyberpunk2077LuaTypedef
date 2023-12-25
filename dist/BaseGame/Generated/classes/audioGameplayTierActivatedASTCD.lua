@@ -5,6 +5,6 @@
 ---@field public gameplayTier audioGameplayTier
 audioGameplayTierActivatedASTCD = {}
 
----@param fields? table
+---@param fields? audioGameplayTierActivatedASTCD
 ---@return audioGameplayTierActivatedASTCD
 function audioGameplayTierActivatedASTCD.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SceneTierVEvents: SceneTierAbstractEvents
 SceneTierVEvents = {}
 
----@param fields? table
+---@param fields? SceneTierVEvents
 ---@return SceneTierVEvents
 function SceneTierVEvents.new(fields) return end
 

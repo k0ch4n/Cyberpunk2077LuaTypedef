@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 UIInventoryScriptableSystemInventoryQuantityChanged = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableSystemInventoryQuantityChanged
 ---@return UIInventoryScriptableSystemInventoryQuantityChanged
 function UIInventoryScriptableSystemInventoryQuantityChanged.new(fields) return end

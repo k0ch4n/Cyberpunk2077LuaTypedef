@@ -12,7 +12,7 @@
 ---@field protected shopStockInit Bool
 VendingMachineControllerPS = {}
 
----@param fields? table
+---@param fields? VendingMachineControllerPS
 ---@return VendingMachineControllerPS
 function VendingMachineControllerPS.new(fields) return end
 

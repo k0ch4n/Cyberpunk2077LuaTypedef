@@ -6,6 +6,6 @@
 ---@field public signal CName
 audioVoLineSignal = {}
 
----@param fields? table
+---@param fields? audioVoLineSignal
 ---@return audioVoLineSignal
 function audioVoLineSignal.new(fields) return end

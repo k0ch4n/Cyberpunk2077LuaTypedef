@@ -5,6 +5,6 @@
 ---@field public value Int64
 AIInt64ArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AIInt64ArgumentInstancePS
 ---@return AIInt64ArgumentInstancePS
 function AIInt64ArgumentInstancePS.new(fields) return end

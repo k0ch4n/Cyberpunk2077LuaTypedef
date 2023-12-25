@@ -4,7 +4,7 @@
 ---@class IsCombatModuleEquipped: AIAutonomousConditions
 IsCombatModuleEquipped = {}
 
----@param fields? table
+---@param fields? IsCombatModuleEquipped
 ---@return IsCombatModuleEquipped
 function IsCombatModuleEquipped.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public storedSpeedValue Float
 ForceWalkEvents = {}
 
----@param fields? table
+---@param fields? ForceWalkEvents
 ---@return ForceWalkEvents
 function ForceWalkEvents.new(fields) return end
 

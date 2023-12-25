@@ -7,6 +7,6 @@
 ---@field public worldName String
 worldWorldListResourceEntry = {}
 
----@param fields? table
+---@param fields? worldWorldListResourceEntry
 ---@return worldWorldListResourceEntry
 function worldWorldListResourceEntry.new(fields) return end

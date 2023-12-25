@@ -4,6 +4,6 @@
 ---@class PlayerDoesntHaveQuickhackPrereqState: gamePrereqState
 PlayerDoesntHaveQuickhackPrereqState = {}
 
----@param fields? table
+---@param fields? PlayerDoesntHaveQuickhackPrereqState
 ---@return PlayerDoesntHaveQuickhackPrereqState
 function PlayerDoesntHaveQuickhackPrereqState.new(fields) return end

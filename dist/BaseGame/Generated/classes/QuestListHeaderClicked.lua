@@ -5,6 +5,6 @@
 ---@field public questType Int32
 QuestListHeaderClicked = {}
 
----@param fields? table
+---@param fields? QuestListHeaderClicked
 ---@return QuestListHeaderClicked
 function QuestListHeaderClicked.new(fields) return end

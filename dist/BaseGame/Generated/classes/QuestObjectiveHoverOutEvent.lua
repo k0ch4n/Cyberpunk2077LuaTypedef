@@ -4,6 +4,6 @@
 ---@class QuestObjectiveHoverOutEvent: redEvent
 QuestObjectiveHoverOutEvent = {}
 
----@param fields? table
+---@param fields? QuestObjectiveHoverOutEvent
 ---@return QuestObjectiveHoverOutEvent
 function QuestObjectiveHoverOutEvent.new(fields) return end

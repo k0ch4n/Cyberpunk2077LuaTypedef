@@ -5,6 +5,6 @@
 ---@field public itemTDBID TweakDBID
 gameLootSlotSingleItem = {}
 
----@param fields? table
+---@param fields? gameLootSlotSingleItem
 ---@return gameLootSlotSingleItem
 function gameLootSlotSingleItem.new(fields) return end

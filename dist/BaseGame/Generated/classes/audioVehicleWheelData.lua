@@ -14,6 +14,6 @@
 ---@field public minWheelTimeInAirBeforeLanding Float
 audioVehicleWheelData = {}
 
----@param fields? table
+---@param fields? audioVehicleWheelData
 ---@return audioVehicleWheelData
 function audioVehicleWheelData.new(fields) return end

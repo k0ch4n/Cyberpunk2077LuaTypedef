@@ -6,7 +6,7 @@
 ---@field public instigatorID TweakDBID
 ApplyNewStatusEffectEvent = {}
 
----@param fields? table
+---@param fields? ApplyNewStatusEffectEvent
 ---@return ApplyNewStatusEffectEvent
 function ApplyNewStatusEffectEvent.new(fields) return end
 

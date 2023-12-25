@@ -6,6 +6,6 @@
 ---@field public documentID Int32
 SDocumentAdress = {}
 
----@param fields? table
+---@param fields? SDocumentAdress
 ---@return SDocumentAdress
 function SDocumentAdress.new(fields) return end

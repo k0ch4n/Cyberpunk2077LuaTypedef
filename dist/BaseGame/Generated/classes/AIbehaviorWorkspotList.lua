@@ -5,6 +5,6 @@
 ---@field public spots NodeRef[]
 AIbehaviorWorkspotList = {}
 
----@param fields? table
+---@param fields? AIbehaviorWorkspotList
 ---@return AIbehaviorWorkspotList
 function AIbehaviorWorkspotList.new(fields) return end

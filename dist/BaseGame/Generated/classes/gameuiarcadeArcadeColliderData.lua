@@ -6,6 +6,6 @@
 ---@field public shape gameuiarcadeBoundingShape
 gameuiarcadeArcadeColliderData = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeColliderData
 ---@return gameuiarcadeArcadeColliderData
 function gameuiarcadeArcadeColliderData.new(fields) return end

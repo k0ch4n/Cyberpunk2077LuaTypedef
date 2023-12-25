@@ -5,7 +5,7 @@
 ---@field public timeToSkip Float
 inkTextOffsetAnimationController = {}
 
----@param fields? table
+---@param fields? inkTextOffsetAnimationController
 ---@return inkTextOffsetAnimationController
 function inkTextOffsetAnimationController.new(fields) return end
 

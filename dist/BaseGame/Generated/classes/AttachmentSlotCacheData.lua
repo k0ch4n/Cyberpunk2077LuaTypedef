@@ -8,6 +8,6 @@
 ---@field public slotId TweakDBID
 AttachmentSlotCacheData = {}
 
----@param fields? table
+---@param fields? AttachmentSlotCacheData
 ---@return AttachmentSlotCacheData
 function AttachmentSlotCacheData.new(fields) return end

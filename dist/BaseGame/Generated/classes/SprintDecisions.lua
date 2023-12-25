@@ -7,7 +7,7 @@
 ---@field private dodgeForwardPressed Bool
 SprintDecisions = {}
 
----@param fields? table
+---@param fields? SprintDecisions
 ---@return SprintDecisions
 function SprintDecisions.new(fields) return end
 

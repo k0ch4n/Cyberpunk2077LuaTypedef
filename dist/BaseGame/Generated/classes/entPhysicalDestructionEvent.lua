@@ -6,6 +6,6 @@
 ---@field public levelOfDestruction Uint8
 entPhysicalDestructionEvent = {}
 
----@param fields? table
+---@param fields? entPhysicalDestructionEvent
 ---@return entPhysicalDestructionEvent
 function entPhysicalDestructionEvent.new(fields) return end

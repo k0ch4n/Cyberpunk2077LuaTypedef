@@ -5,7 +5,7 @@
 ---@field public newState Bool
 AISetAutocraftingState = {}
 
----@param fields? table
+---@param fields? AISetAutocraftingState
 ---@return AISetAutocraftingState
 function AISetAutocraftingState.new(fields) return end
 

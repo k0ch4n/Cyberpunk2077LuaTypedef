@@ -9,7 +9,7 @@
 ---@field public TintControlRef inkWidgetReference
 inkButtonTintController = {}
 
----@param fields? table
+---@param fields? inkButtonTintController
 ---@return inkButtonTintController
 function inkButtonTintController.new(fields) return end
 

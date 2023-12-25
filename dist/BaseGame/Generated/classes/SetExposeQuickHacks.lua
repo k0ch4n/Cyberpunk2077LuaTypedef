@@ -5,7 +5,7 @@
 ---@field public isRemote Bool
 SetExposeQuickHacks = {}
 
----@param fields? table
+---@param fields? SetExposeQuickHacks
 ---@return SetExposeQuickHacks
 function SetExposeQuickHacks.new(fields) return end
 

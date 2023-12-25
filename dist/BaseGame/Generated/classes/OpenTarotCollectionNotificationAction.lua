@@ -5,7 +5,7 @@
 ---@field public eventDispatcher worlduiIWidgetGameController
 OpenTarotCollectionNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenTarotCollectionNotificationAction
 ---@return OpenTarotCollectionNotificationAction
 function OpenTarotCollectionNotificationAction.new(fields) return end
 

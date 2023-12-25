@@ -4,7 +4,7 @@
 ---@class MenuScenario_LoadGame: MenuScenario_PreGameSubMenu
 MenuScenario_LoadGame = {}
 
----@param fields? table
+---@param fields? MenuScenario_LoadGame
 ---@return MenuScenario_LoadGame
 function MenuScenario_LoadGame.new(fields) return end
 

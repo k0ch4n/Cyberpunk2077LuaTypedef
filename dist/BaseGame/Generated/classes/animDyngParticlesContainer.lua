@@ -8,6 +8,6 @@
 ---@field public gravityWS Float
 animDyngParticlesContainer = {}
 
----@param fields? table
+---@param fields? animDyngParticlesContainer
 ---@return animDyngParticlesContainer
 function animDyngParticlesContainer.new(fields) return end

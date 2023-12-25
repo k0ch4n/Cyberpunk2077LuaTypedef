@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AITakedownHandler = {}
 
----@param fields? table
+---@param fields? AITakedownHandler
 ---@return AITakedownHandler
 function AITakedownHandler.new(fields) return end
 

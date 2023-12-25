@@ -4,6 +4,6 @@
 ---@class AIStopCoverCommand: AICommand
 AIStopCoverCommand = {}
 
----@param fields? table
+---@param fields? AIStopCoverCommand
 ---@return AIStopCoverCommand
 function AIStopCoverCommand.new(fields) return end

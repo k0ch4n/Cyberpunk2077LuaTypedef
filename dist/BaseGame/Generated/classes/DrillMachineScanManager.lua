@@ -10,7 +10,7 @@
 ---@field private ppOffFrameDelay Int32
 DrillMachineScanManager = {}
 
----@param fields? table
+---@param fields? DrillMachineScanManager
 ---@return DrillMachineScanManager
 function DrillMachineScanManager.new(fields) return end
 

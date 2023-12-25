@@ -4,6 +4,6 @@
 ---@class inkTrialVersionRemainingTimeUpdate: inkCallbackBase
 inkTrialVersionRemainingTimeUpdate = {}
 
----@param fields? table
+---@param fields? inkTrialVersionRemainingTimeUpdate
 ---@return inkTrialVersionRemainingTimeUpdate
 function inkTrialVersionRemainingTimeUpdate.new(fields) return end

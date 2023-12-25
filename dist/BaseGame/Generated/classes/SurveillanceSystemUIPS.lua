@@ -4,7 +4,7 @@
 ---@class SurveillanceSystemUIPS: VirtualSystemPS
 SurveillanceSystemUIPS = {}
 
----@param fields? table
+---@param fields? SurveillanceSystemUIPS
 ---@return SurveillanceSystemUIPS
 function SurveillanceSystemUIPS.new(fields) return end
 

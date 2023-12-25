@@ -4,6 +4,6 @@
 ---@class gameMuppetPhysicsComponent: gameMuppetComponent
 gameMuppetPhysicsComponent = {}
 
----@param fields? table
+---@param fields? gameMuppetPhysicsComponent
 ---@return gameMuppetPhysicsComponent
 function gameMuppetPhysicsComponent.new(fields) return end

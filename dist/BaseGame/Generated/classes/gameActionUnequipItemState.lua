@@ -8,6 +8,6 @@
 ---@field public duration Float
 gameActionUnequipItemState = {}
 
----@param fields? table
+---@param fields? gameActionUnequipItemState
 ---@return gameActionUnequipItemState
 function gameActionUnequipItemState.new(fields) return end

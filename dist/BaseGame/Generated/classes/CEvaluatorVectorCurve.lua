@@ -6,6 +6,6 @@
 ---@field public numberOfCurveSamples Uint32
 CEvaluatorVectorCurve = {}
 
----@param fields? table
+---@param fields? CEvaluatorVectorCurve
 ---@return CEvaluatorVectorCurve
 function CEvaluatorVectorCurve.new(fields) return end

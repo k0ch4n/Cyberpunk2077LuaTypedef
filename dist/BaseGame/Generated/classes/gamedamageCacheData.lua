@@ -8,6 +8,6 @@
 ---@field public logFlags Int64
 gamedamageCacheData = {}
 
----@param fields? table
+---@param fields? gamedamageCacheData
 ---@return gamedamageCacheData
 function gamedamageCacheData.new(fields) return end

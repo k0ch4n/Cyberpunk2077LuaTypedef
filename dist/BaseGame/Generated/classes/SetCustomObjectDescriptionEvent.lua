@@ -5,7 +5,7 @@
 ---@field private objectDescription ObjectScanningDescription
 SetCustomObjectDescriptionEvent = {}
 
----@param fields? table
+---@param fields? SetCustomObjectDescriptionEvent
 ---@return SetCustomObjectDescriptionEvent
 function SetCustomObjectDescriptionEvent.new(fields) return end
 

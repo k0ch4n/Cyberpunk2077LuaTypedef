@@ -4,7 +4,7 @@
 ---@class QuestIncreaseNumber: ActionBool
 QuestIncreaseNumber = {}
 
----@param fields? table
+---@param fields? QuestIncreaseNumber
 ---@return QuestIncreaseNumber
 function QuestIncreaseNumber.new(fields) return end
 

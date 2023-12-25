@@ -8,6 +8,6 @@
 ---@field public nodePosition Vector3
 gameCookedDeviceData = {}
 
----@param fields? table
+---@param fields? gameCookedDeviceData
 ---@return gameCookedDeviceData
 function gameCookedDeviceData.new(fields) return end

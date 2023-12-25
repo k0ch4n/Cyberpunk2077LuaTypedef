@@ -6,6 +6,6 @@
 ---@field public inventoryScriptableSystem UIInventoryScriptableSystem
 BackpackEquipSlotChooserData = {}
 
----@param fields? table
+---@param fields? BackpackEquipSlotChooserData
 ---@return BackpackEquipSlotChooserData
 function BackpackEquipSlotChooserData.new(fields) return end

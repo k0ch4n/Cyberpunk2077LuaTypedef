@@ -4,7 +4,7 @@
 ---@class AIActionParams: IScriptable
 AIActionParams = {}
 
----@param fields? table
+---@param fields? AIActionParams
 ---@return AIActionParams
 function AIActionParams.new(fields) return end
 

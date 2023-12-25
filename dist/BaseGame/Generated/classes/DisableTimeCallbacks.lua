@@ -4,7 +4,7 @@
 ---@class DisableTimeCallbacks: redEvent
 DisableTimeCallbacks = {}
 
----@param fields? table
+---@param fields? DisableTimeCallbacks
 ---@return DisableTimeCallbacks
 function DisableTimeCallbacks.new(fields) return end
 

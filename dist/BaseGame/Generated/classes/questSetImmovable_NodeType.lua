@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questSetImmovable_NodeType = {}
 
----@param fields? table
+---@param fields? questSetImmovable_NodeType
 ---@return questSetImmovable_NodeType
 function questSetImmovable_NodeType.new(fields) return end

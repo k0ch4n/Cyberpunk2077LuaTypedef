@@ -6,6 +6,6 @@
 ---@field public state EGlitchState
 GlitchData = {}
 
----@param fields? table
+---@param fields? GlitchData
 ---@return GlitchData
 function GlitchData.new(fields) return end

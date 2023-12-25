@@ -17,7 +17,7 @@
 ---@field private targetTrackerComponent AITargetTrackerComponent
 ChimeraComponent = {}
 
----@param fields? table
+---@param fields? ChimeraComponent
 ---@return ChimeraComponent
 function ChimeraComponent.new(fields) return end
 

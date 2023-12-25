@@ -4,7 +4,7 @@
 ---@class VehicleDriverCombatTPPContextEvents: VehicleDriverCombatContextEvents
 VehicleDriverCombatTPPContextEvents = {}
 
----@param fields? table
+---@param fields? VehicleDriverCombatTPPContextEvents
 ---@return VehicleDriverCombatTPPContextEvents
 function VehicleDriverCombatTPPContextEvents.new(fields) return end
 

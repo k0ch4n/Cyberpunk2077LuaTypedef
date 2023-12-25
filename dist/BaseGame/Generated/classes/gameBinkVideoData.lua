@@ -5,6 +5,6 @@
 ---@field public data gameBinkVideoRecord[]
 gameBinkVideoData = {}
 
----@param fields? table
+---@param fields? gameBinkVideoData
 ---@return gameBinkVideoData
 function gameBinkVideoData.new(fields) return end

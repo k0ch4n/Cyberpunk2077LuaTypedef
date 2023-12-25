@@ -4,7 +4,7 @@
 ---@class HasShootFromVehicleTicket: PreventionConditionAbstract
 HasShootFromVehicleTicket = {}
 
----@param fields? table
+---@param fields? HasShootFromVehicleTicket
 ---@return HasShootFromVehicleTicket
 function HasShootFromVehicleTicket.new(fields) return end
 

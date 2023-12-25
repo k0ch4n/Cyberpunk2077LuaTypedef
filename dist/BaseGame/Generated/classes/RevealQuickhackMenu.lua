@@ -5,6 +5,6 @@
 ---@field public shouldOpenWheel Bool
 RevealQuickhackMenu = {}
 
----@param fields? table
+---@param fields? RevealQuickhackMenu
 ---@return RevealQuickhackMenu
 function RevealQuickhackMenu.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public persistentState gamePersistentState
 gameComponent = {}
 
----@param fields? table
+---@param fields? gameComponent
 ---@return gameComponent
 function gameComponent.new(fields) return end
 

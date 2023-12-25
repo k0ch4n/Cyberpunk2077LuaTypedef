@@ -4,7 +4,7 @@
 ---@class AIAggressiveReactionPresetCondition: AIbehaviorconditionScript
 AIAggressiveReactionPresetCondition = {}
 
----@param fields? table
+---@param fields? AIAggressiveReactionPresetCondition
 ---@return AIAggressiveReactionPresetCondition
 function AIAggressiveReactionPresetCondition.new(fields) return end
 

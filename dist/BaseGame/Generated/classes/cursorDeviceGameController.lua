@@ -18,7 +18,7 @@
 ---@field private interactionDeviceState Bool
 cursorDeviceGameController = {}
 
----@param fields? table
+---@param fields? cursorDeviceGameController
 ---@return cursorDeviceGameController
 function cursorDeviceGameController.new(fields) return end
 

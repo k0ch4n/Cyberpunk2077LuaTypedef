@@ -4,7 +4,7 @@
 ---@class HasVehicleAnyCommand: PreventionConditionAbstract
 HasVehicleAnyCommand = {}
 
----@param fields? table
+---@param fields? HasVehicleAnyCommand
 ---@return HasVehicleAnyCommand
 function HasVehicleAnyCommand.new(fields) return end
 

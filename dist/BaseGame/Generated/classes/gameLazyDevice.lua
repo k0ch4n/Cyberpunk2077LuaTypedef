@@ -4,7 +4,7 @@
 ---@class gameLazyDevice: IScriptable
 gameLazyDevice = {}
 
----@param fields? table
+---@param fields? gameLazyDevice
 ---@return gameLazyDevice
 function gameLazyDevice.new(fields) return end
 

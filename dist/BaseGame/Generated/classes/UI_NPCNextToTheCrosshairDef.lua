@@ -7,7 +7,7 @@
 ---@field public DebuffsList gamebbScriptID_Variant
 UI_NPCNextToTheCrosshairDef = {}
 
----@param fields? table
+---@param fields? UI_NPCNextToTheCrosshairDef
 ---@return UI_NPCNextToTheCrosshairDef
 function UI_NPCNextToTheCrosshairDef.new(fields) return end
 

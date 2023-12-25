@@ -5,6 +5,6 @@
 ---@field public rainIntensity worldRainIntensity
 worldRainEvent = {}
 
----@param fields? table
+---@param fields? worldRainEvent
 ---@return worldRainEvent
 function worldRainEvent.new(fields) return end

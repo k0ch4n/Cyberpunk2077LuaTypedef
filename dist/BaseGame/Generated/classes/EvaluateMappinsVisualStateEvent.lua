@@ -4,6 +4,6 @@
 ---@class EvaluateMappinsVisualStateEvent: redEvent
 EvaluateMappinsVisualStateEvent = {}
 
----@param fields? table
+---@param fields? EvaluateMappinsVisualStateEvent
 ---@return EvaluateMappinsVisualStateEvent
 function EvaluateMappinsVisualStateEvent.new(fields) return end

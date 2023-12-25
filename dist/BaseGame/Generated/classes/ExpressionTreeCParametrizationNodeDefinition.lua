@@ -4,6 +4,6 @@
 ---@class ExpressionTreeCParametrizationNodeDefinition: ExpressionTreeCNodeDefinition
 ExpressionTreeCParametrizationNodeDefinition = {}
 
----@param fields? table
+---@param fields? ExpressionTreeCParametrizationNodeDefinition
 ---@return ExpressionTreeCParametrizationNodeDefinition
 function ExpressionTreeCParametrizationNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamePSChangedEvent: redEvent
 gamePSChangedEvent = {}
 
----@param fields? table
+---@param fields? gamePSChangedEvent
 ---@return gamePSChangedEvent
 function gamePSChangedEvent.new(fields) return end

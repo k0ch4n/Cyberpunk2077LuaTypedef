@@ -4,6 +4,6 @@
 ---@class inkInitialLoadingScreenData: inkILoadingScreenData
 inkInitialLoadingScreenData = {}
 
----@param fields? table
+---@param fields? inkInitialLoadingScreenData
 ---@return inkInitialLoadingScreenData
 function inkInitialLoadingScreenData.new(fields) return end

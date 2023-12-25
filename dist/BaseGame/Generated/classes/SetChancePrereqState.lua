@@ -4,6 +4,6 @@
 ---@class SetChancePrereqState: gamePrereqState
 SetChancePrereqState = {}
 
----@param fields? table
+---@param fields? SetChancePrereqState
 ---@return SetChancePrereqState
 function SetChancePrereqState.new(fields) return end

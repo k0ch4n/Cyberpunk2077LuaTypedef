@@ -4,7 +4,7 @@
 ---@class MenuScenario_PauseMenu: MenuScenario_BaseMenu
 MenuScenario_PauseMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_PauseMenu
 ---@return MenuScenario_PauseMenu
 function MenuScenario_PauseMenu.new(fields) return end
 

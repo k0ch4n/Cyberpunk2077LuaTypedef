@@ -5,6 +5,6 @@
 ---@field public target gameObject
 TargetScavengedEvent = {}
 
----@param fields? table
+---@param fields? TargetScavengedEvent
 ---@return TargetScavengedEvent
 function TargetScavengedEvent.new(fields) return end

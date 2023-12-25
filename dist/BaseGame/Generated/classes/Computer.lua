@@ -10,7 +10,7 @@
 ---@field private currentAnimationState EComputerAnimationState
 Computer = {}
 
----@param fields? table
+---@param fields? Computer
 ---@return Computer
 function Computer.new(fields) return end
 

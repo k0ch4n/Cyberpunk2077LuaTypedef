@@ -23,7 +23,7 @@
 ---@field private previousHealth Int32
 gameuiRoachRaceGameLogicController = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceGameLogicController
 ---@return gameuiRoachRaceGameLogicController
 function gameuiRoachRaceGameLogicController.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public gameObjectRef NodeRef
 TeleportNodetoSlotOperation = {}
 
----@param fields? table
+---@param fields? TeleportNodetoSlotOperation
 ---@return TeleportNodetoSlotOperation
 function TeleportNodetoSlotOperation.new(fields) return end
 

@@ -28,7 +28,7 @@
 ---@field private kmOn Bool
 hudCarController = {}
 
----@param fields? table
+---@param fields? hudCarController
 ---@return hudCarController
 function hudCarController.new(fields) return end
 

@@ -11,7 +11,7 @@
 ---@field protected belowWidget inkWidget
 gameuiBaseMinimapMappinController = {}
 
----@param fields? table
+---@param fields? gameuiBaseMinimapMappinController
 ---@return gameuiBaseMinimapMappinController
 function gameuiBaseMinimapMappinController.new(fields) return end
 

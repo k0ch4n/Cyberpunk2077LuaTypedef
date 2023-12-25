@@ -8,6 +8,6 @@
 ---@field public customOffsetRot Quaternion
 questEntityManagerSetAttachment_ToWorld = {}
 
----@param fields? table
+---@param fields? questEntityManagerSetAttachment_ToWorld
 ---@return questEntityManagerSetAttachment_ToWorld
 function questEntityManagerSetAttachment_ToWorld.new(fields) return end

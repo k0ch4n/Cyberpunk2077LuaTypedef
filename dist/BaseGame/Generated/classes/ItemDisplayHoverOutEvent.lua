@@ -4,6 +4,6 @@
 ---@class ItemDisplayHoverOutEvent: redEvent
 ItemDisplayHoverOutEvent = {}
 
----@param fields? table
+---@param fields? ItemDisplayHoverOutEvent
 ---@return ItemDisplayHoverOutEvent
 function ItemDisplayHoverOutEvent.new(fields) return end

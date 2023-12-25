@@ -7,6 +7,6 @@
 ---@field public equipmentData EquipmentSystemPlayerData
 SSubCharacter = {}
 
----@param fields? table
+---@param fields? SSubCharacter
 ---@return SSubCharacter
 function SSubCharacter.new(fields) return end

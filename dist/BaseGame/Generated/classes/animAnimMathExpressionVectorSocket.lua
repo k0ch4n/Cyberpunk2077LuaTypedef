@@ -6,6 +6,6 @@
 ---@field public expressionVarId Uint16
 animAnimMathExpressionVectorSocket = {}
 
----@param fields? table
+---@param fields? animAnimMathExpressionVectorSocket
 ---@return animAnimMathExpressionVectorSocket
 function animAnimMathExpressionVectorSocket.new(fields) return end

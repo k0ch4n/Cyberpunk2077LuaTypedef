@@ -11,6 +11,6 @@
 ---@field public mountedVehicleStolen Bool
 vehicleGarageComponentPS = {}
 
----@param fields? table
+---@param fields? vehicleGarageComponentPS
 ---@return vehicleGarageComponentPS
 function vehicleGarageComponentPS.new(fields) return end

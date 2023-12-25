@@ -6,6 +6,6 @@
 ---@field public mode animNodeProfileTimerMode
 animNodeProfileTimerInfo = {}
 
----@param fields? table
+---@param fields? animNodeProfileTimerInfo
 ---@return animNodeProfileTimerInfo
 function animNodeProfileTimerInfo.new(fields) return end

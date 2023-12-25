@@ -4,7 +4,7 @@
 ---@class GamepadCursorRootController: CursorRootController
 GamepadCursorRootController = {}
 
----@param fields? table
+---@param fields? GamepadCursorRootController
 ---@return GamepadCursorRootController
 function GamepadCursorRootController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class entPhysicalBodyInterface: IScriptable
 entPhysicalBodyInterface = {}
 
----@param fields? table
+---@param fields? entPhysicalBodyInterface
 ---@return entPhysicalBodyInterface
 function entPhysicalBodyInterface.new(fields) return end
 

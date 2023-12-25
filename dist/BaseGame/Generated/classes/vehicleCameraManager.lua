@@ -4,7 +4,7 @@
 ---@class vehicleCameraManager: IScriptable
 vehicleCameraManager = {}
 
----@param fields? table
+---@param fields? vehicleCameraManager
 ---@return vehicleCameraManager
 function vehicleCameraManager.new(fields) return end
 

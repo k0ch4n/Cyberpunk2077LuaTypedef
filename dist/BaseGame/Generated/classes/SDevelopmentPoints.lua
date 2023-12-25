@@ -7,6 +7,6 @@
 ---@field public unspent Int32
 SDevelopmentPoints = {}
 
----@param fields? table
+---@param fields? SDevelopmentPoints
 ---@return SDevelopmentPoints
 function SDevelopmentPoints.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class BodySlamJumpDecisions: JumpDecisions
 BodySlamJumpDecisions = {}
 
----@param fields? table
+---@param fields? BodySlamJumpDecisions
 ---@return BodySlamJumpDecisions
 function BodySlamJumpDecisions.new(fields) return end

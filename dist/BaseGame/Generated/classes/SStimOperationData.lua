@@ -9,6 +9,6 @@
 ---@field public nodeRef NodeRef
 SStimOperationData = {}
 
----@param fields? table
+---@param fields? SStimOperationData
 ---@return SStimOperationData
 function SStimOperationData.new(fields) return end

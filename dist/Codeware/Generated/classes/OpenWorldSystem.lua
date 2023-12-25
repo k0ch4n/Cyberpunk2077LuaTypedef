@@ -4,7 +4,7 @@
 ---@class OpenWorldSystem: gameIGameSystem
 OpenWorldSystem = {}
 
----@param fields? table
+---@param fields? OpenWorldSystem
 ---@return OpenWorldSystem
 function OpenWorldSystem.new(fields) return end
 

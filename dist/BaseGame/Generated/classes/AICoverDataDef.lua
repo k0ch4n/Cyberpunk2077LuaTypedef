@@ -21,7 +21,7 @@
 ---@field public startCoverEvaluationTimeStamp gamebbScriptID_Float
 AICoverDataDef = {}
 
----@param fields? table
+---@param fields? AICoverDataDef
 ---@return AICoverDataDef
 function AICoverDataDef.new(fields) return end
 

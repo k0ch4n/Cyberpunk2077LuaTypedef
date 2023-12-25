@@ -31,7 +31,7 @@
 ---@field private deactivateLinksDelayID gameDelayID
 NetworkSystem = {}
 
----@param fields? table
+---@param fields? NetworkSystem
 ---@return NetworkSystem
 function NetworkSystem.new(fields) return end
 

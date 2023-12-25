@@ -17,6 +17,6 @@
 ---@field public ignoreDisabledTutorials Bool
 questShowPopup_NodeSubType = {}
 
----@param fields? table
+---@param fields? questShowPopup_NodeSubType
 ---@return questShowPopup_NodeSubType
 function questShowPopup_NodeSubType.new(fields) return end

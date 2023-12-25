@@ -5,6 +5,6 @@
 ---@field public compiledSmartObjects gameCompiledSmartObjectNode[]
 gameCompiledNodes = {}
 
----@param fields? table
+---@param fields? gameCompiledNodes
 ---@return gameCompiledNodes
 function gameCompiledNodes.new(fields) return end

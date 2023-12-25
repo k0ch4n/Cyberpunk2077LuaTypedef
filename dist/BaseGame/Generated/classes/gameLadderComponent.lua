@@ -12,6 +12,6 @@
 ---@field public enterOffset Float
 gameLadderComponent = {}
 
----@param fields? table
+---@param fields? gameLadderComponent
 ---@return gameLadderComponent
 function gameLadderComponent.new(fields) return end

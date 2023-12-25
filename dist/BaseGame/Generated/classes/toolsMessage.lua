@@ -9,6 +9,6 @@
 ---@field public verbosity toolsMessageVerbosity
 toolsMessage = {}
 
----@param fields? table
+---@param fields? toolsMessage
 ---@return toolsMessage
 function toolsMessage.new(fields) return end

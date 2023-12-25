@@ -6,6 +6,6 @@
 ---@field public permanentParameters gamestateMachineStateContextParameters
 gamestateMachineStateContext = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateContext
 ---@return gamestateMachineStateContext
 function gamestateMachineStateContext.new(fields) return end

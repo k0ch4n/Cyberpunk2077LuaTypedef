@@ -11,6 +11,6 @@
 ---@field public weightNode animFloatLink
 animAnimNode_LookAt = {}
 
----@param fields? table
+---@param fields? animAnimNode_LookAt
 ---@return animAnimNode_LookAt
 function animAnimNode_LookAt.new(fields) return end

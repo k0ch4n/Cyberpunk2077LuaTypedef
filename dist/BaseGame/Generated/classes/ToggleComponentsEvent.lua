@@ -5,6 +5,6 @@
 ---@field public componentsData SComponentOperationData[]
 ToggleComponentsEvent = {}
 
----@param fields? table
+---@param fields? ToggleComponentsEvent
 ---@return ToggleComponentsEvent
 function ToggleComponentsEvent.new(fields) return end

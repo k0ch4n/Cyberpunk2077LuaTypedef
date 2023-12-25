@@ -5,7 +5,7 @@
 ---@field public anchorLocation inkEAnchor
 sampleUIAnchorButton = {}
 
----@param fields? table
+---@param fields? sampleUIAnchorButton
 ---@return sampleUIAnchorButton
 function sampleUIAnchorButton.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public resimulationSubsteps gameMuppetSubStepData[]
 gameMuppetSubStepData = {}
 
----@param fields? table
+---@param fields? gameMuppetSubStepData
 ---@return gameMuppetSubStepData
 function gameMuppetSubStepData.new(fields) return end

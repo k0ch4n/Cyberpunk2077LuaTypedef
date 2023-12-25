@@ -5,6 +5,6 @@
 ---@field public ownExpansion Bool
 PatchNotesCheckData = {}
 
----@param fields? table
+---@param fields? PatchNotesCheckData
 ---@return PatchNotesCheckData
 function PatchNotesCheckData.new(fields) return end

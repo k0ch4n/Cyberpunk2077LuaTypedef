@@ -4,6 +4,6 @@
 ---@class WardrobeUserData: inkUserData
 WardrobeUserData = {}
 
----@param fields? table
+---@param fields? WardrobeUserData
 ---@return WardrobeUserData
 function WardrobeUserData.new(fields) return end

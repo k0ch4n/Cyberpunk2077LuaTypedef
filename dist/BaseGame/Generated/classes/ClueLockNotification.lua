@@ -5,6 +5,6 @@
 ---@field public isLocked Bool
 ClueLockNotification = {}
 
----@param fields? table
+---@param fields? ClueLockNotification
 ---@return ClueLockNotification
 function ClueLockNotification.new(fields) return end

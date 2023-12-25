@@ -4,7 +4,7 @@
 ---@class InkAnimHelper: IScriptable
 InkAnimHelper = {}
 
----@param fields? table
+---@param fields? InkAnimHelper
 ---@return InkAnimHelper
 function InkAnimHelper.new(fields) return end
 

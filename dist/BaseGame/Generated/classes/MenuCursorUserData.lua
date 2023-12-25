@@ -6,7 +6,7 @@
 ---@field private actions CName[]
 MenuCursorUserData = {}
 
----@param fields? table
+---@param fields? MenuCursorUserData
 ---@return MenuCursorUserData
 function MenuCursorUserData.new(fields) return end
 

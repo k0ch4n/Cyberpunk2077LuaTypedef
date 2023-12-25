@@ -4,7 +4,7 @@
 ---@class AINavigationSystem: AIINavigationSystem
 AINavigationSystem = {}
 
----@param fields? table
+---@param fields? AINavigationSystem
 ---@return AINavigationSystem
 function AINavigationSystem.new(fields) return end
 

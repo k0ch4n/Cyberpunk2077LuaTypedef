@@ -11,6 +11,6 @@
 ---@field public dofBlendOutTime Float
 AnimFeature_DOFControl = {}
 
----@param fields? table
+---@param fields? AnimFeature_DOFControl
 ---@return AnimFeature_DOFControl
 function AnimFeature_DOFControl.new(fields) return end

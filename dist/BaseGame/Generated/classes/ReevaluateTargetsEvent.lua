@@ -4,6 +4,6 @@
 ---@class ReevaluateTargetsEvent: redEvent
 ReevaluateTargetsEvent = {}
 
----@param fields? table
+---@param fields? ReevaluateTargetsEvent
 ---@return ReevaluateTargetsEvent
 function ReevaluateTargetsEvent.new(fields) return end

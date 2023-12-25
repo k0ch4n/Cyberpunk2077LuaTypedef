@@ -4,6 +4,6 @@
 ---@class gameprojectileCollisionEvaluator: IScriptable
 gameprojectileCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? gameprojectileCollisionEvaluator
 ---@return gameprojectileCollisionEvaluator
 function gameprojectileCollisionEvaluator.new(fields) return end

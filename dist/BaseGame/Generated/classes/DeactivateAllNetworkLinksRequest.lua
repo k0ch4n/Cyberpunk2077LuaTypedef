@@ -4,6 +4,6 @@
 ---@class DeactivateAllNetworkLinksRequest: gameScriptableSystemRequest
 DeactivateAllNetworkLinksRequest = {}
 
----@param fields? table
+---@param fields? DeactivateAllNetworkLinksRequest
 ---@return DeactivateAllNetworkLinksRequest
 function DeactivateAllNetworkLinksRequest.new(fields) return end

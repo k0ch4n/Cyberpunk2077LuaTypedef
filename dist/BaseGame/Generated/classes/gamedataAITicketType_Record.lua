@@ -4,7 +4,7 @@
 ---@class gamedataAITicketType_Record: gamedataTweakDBRecord
 gamedataAITicketType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAITicketType_Record
 ---@return gamedataAITicketType_Record
 function gamedataAITicketType_Record.new(fields) return end
 

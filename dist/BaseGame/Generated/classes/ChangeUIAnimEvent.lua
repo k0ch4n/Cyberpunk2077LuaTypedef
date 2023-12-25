@@ -5,7 +5,7 @@
 ---@field public animName CName
 ChangeUIAnimEvent = {}
 
----@param fields? table
+---@param fields? ChangeUIAnimEvent
 ---@return ChangeUIAnimEvent
 function ChangeUIAnimEvent.new(fields) return end
 

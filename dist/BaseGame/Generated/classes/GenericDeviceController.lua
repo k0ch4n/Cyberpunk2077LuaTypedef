@@ -4,7 +4,7 @@
 ---@class GenericDeviceController: ScriptableDeviceComponent
 GenericDeviceController = {}
 
----@param fields? table
+---@param fields? GenericDeviceController
 ---@return GenericDeviceController
 function GenericDeviceController.new(fields) return end
 

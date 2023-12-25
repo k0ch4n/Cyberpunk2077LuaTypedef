@@ -5,6 +5,6 @@
 ---@field public context gameGetActionsContext
 DetermineInteractionStateTaskData = {}
 
----@param fields? table
+---@param fields? DetermineInteractionStateTaskData
 ---@return DetermineInteractionStateTaskData
 function DetermineInteractionStateTaskData.new(fields) return end

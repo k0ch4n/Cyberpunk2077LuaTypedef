@@ -10,7 +10,7 @@
 ---@field private onToggleHologramListener redCallbackObject
 DataTermInkGameController = {}
 
----@param fields? table
+---@param fields? DataTermInkGameController
 ---@return DataTermInkGameController
 function DataTermInkGameController.new(fields) return end
 

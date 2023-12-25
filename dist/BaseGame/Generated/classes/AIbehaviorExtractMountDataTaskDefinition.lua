@@ -8,6 +8,6 @@
 ---@field public outAllowFailsafeTeleport AIArgumentMapping
 AIbehaviorExtractMountDataTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorExtractMountDataTaskDefinition
 ---@return AIbehaviorExtractMountDataTaskDefinition
 function AIbehaviorExtractMountDataTaskDefinition.new(fields) return end

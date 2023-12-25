@@ -4,7 +4,7 @@
 ---@class DamageManager: IScriptable
 DamageManager = {}
 
----@param fields? table
+---@param fields? DamageManager
 ---@return DamageManager
 function DamageManager.new(fields) return end
 

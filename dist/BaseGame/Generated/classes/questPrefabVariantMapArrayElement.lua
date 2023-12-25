@@ -6,6 +6,6 @@
 ---@field public PrefabVariantsReplicatedInfos questPrefabVariantReplicatedInfo[]
 questPrefabVariantMapArrayElement = {}
 
----@param fields? table
+---@param fields? questPrefabVariantMapArrayElement
 ---@return questPrefabVariantMapArrayElement
 function questPrefabVariantMapArrayElement.new(fields) return end

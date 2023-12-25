@@ -4,7 +4,7 @@
 ---@class ScriptableDeviceComponent: gameDeviceComponent
 ScriptableDeviceComponent = {}
 
----@param fields? table
+---@param fields? ScriptableDeviceComponent
 ---@return ScriptableDeviceComponent
 function ScriptableDeviceComponent.new(fields) return end
 

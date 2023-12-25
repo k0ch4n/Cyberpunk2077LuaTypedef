@@ -13,7 +13,7 @@
 ---@field private isCrafted Bool
 TooltipProgessBarController = {}
 
----@param fields? table
+---@param fields? TooltipProgessBarController
 ---@return TooltipProgessBarController
 function TooltipProgessBarController.new(fields) return end
 

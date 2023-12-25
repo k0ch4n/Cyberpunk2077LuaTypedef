@@ -4,7 +4,7 @@
 ---@class AlertedConditions: AIAutonomousConditions
 AlertedConditions = {}
 
----@param fields? table
+---@param fields? AlertedConditions
 ---@return AlertedConditions
 function AlertedConditions.new(fields) return end
 

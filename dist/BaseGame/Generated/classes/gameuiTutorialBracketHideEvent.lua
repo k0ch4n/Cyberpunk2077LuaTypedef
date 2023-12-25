@@ -5,6 +5,6 @@
 ---@field public bracketID CName
 gameuiTutorialBracketHideEvent = {}
 
----@param fields? table
+---@param fields? gameuiTutorialBracketHideEvent
 ---@return gameuiTutorialBracketHideEvent
 function gameuiTutorialBracketHideEvent.new(fields) return end

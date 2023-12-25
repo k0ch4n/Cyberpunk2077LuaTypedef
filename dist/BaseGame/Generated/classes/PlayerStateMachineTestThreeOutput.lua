@@ -5,6 +5,6 @@
 ---@field public counter Int32
 PlayerStateMachineTestThreeOutput = {}
 
----@param fields? table
+---@param fields? PlayerStateMachineTestThreeOutput
 ---@return PlayerStateMachineTestThreeOutput
 function PlayerStateMachineTestThreeOutput.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public target CombatTarget
 AddTargetToHighlightEvent = {}
 
----@param fields? table
+---@param fields? AddTargetToHighlightEvent
 ---@return AddTargetToHighlightEvent
 function AddTargetToHighlightEvent.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private noWeaponsRestrictionApplied Bool
 PassengerEvents = {}
 
----@param fields? table
+---@param fields? PassengerEvents
 ---@return PassengerEvents
 function PassengerEvents.new(fields) return end
 

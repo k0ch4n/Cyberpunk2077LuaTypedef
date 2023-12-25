@@ -4,6 +4,6 @@
 ---@class gameuiarcadeRoachRaceCollisionSystem: IScriptable
 gameuiarcadeRoachRaceCollisionSystem = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceCollisionSystem
 ---@return gameuiarcadeRoachRaceCollisionSystem
 function gameuiarcadeRoachRaceCollisionSystem.new(fields) return end

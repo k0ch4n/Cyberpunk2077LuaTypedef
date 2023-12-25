@@ -5,7 +5,7 @@
 ---@field public recordID TweakDBID
 UncontrolledMovementEffector = {}
 
----@param fields? table
+---@param fields? UncontrolledMovementEffector
 ---@return UncontrolledMovementEffector
 function UncontrolledMovementEffector.new(fields) return end
 

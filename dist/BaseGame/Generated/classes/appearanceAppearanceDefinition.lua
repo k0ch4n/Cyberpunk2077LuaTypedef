@@ -21,6 +21,6 @@
 ---@field public censorFlags Uint32
 appearanceAppearanceDefinition = {}
 
----@param fields? table
+---@param fields? appearanceAppearanceDefinition
 ---@return appearanceAppearanceDefinition
 function appearanceAppearanceDefinition.new(fields) return end

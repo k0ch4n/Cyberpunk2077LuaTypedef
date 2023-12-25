@@ -6,6 +6,6 @@
 ---@field public customEvent CName
 animAnimEvent_FootPlant = {}
 
----@param fields? table
+---@param fields? animAnimEvent_FootPlant
 ---@return animAnimEvent_FootPlant
 function animAnimEvent_FootPlant.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class TempClearForcedCombatTarget: AIbehaviortaskScript
 TempClearForcedCombatTarget = {}
 
----@param fields? table
+---@param fields? TempClearForcedCombatTarget
 ---@return TempClearForcedCombatTarget
 function TempClearForcedCombatTarget.new(fields) return end
 

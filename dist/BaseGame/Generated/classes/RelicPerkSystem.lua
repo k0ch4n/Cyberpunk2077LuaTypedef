@@ -5,7 +5,7 @@
 ---@field private registeredPerkDevices PerkDeviceMappinData[]
 RelicPerkSystem = {}
 
----@param fields? table
+---@param fields? RelicPerkSystem
 ---@return RelicPerkSystem
 function RelicPerkSystem.new(fields) return end
 

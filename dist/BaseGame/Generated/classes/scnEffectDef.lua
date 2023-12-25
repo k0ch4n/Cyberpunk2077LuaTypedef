@@ -6,6 +6,6 @@
 ---@field public effect worldEffect
 scnEffectDef = {}
 
----@param fields? table
+---@param fields? scnEffectDef
 ---@return scnEffectDef
 function scnEffectDef.new(fields) return end

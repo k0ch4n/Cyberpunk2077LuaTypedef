@@ -8,6 +8,6 @@
 ---@field public customActionVfx audioLocomotionCustomActionVfxDictionary
 audioFootwearVsMaterialVfxMetadata = {}
 
----@param fields? table
+---@param fields? audioFootwearVsMaterialVfxMetadata
 ---@return audioFootwearVsMaterialVfxMetadata
 function audioFootwearVsMaterialVfxMetadata.new(fields) return end

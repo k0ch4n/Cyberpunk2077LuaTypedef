@@ -6,6 +6,6 @@
 ---@field public controller AGenericTooltipController
 NamedTooltipController = {}
 
----@param fields? table
+---@param fields? NamedTooltipController
 ---@return NamedTooltipController
 function NamedTooltipController.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field public IsDogtown gamebbScriptID_Bool
 UI_WantedBarDef = {}
 
----@param fields? table
+---@param fields? UI_WantedBarDef
 ---@return UI_WantedBarDef
 function UI_WantedBarDef.new(fields) return end
 

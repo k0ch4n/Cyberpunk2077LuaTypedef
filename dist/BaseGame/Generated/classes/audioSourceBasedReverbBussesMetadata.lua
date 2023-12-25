@@ -8,6 +8,6 @@
 ---@field public interiorSmall CName
 audioSourceBasedReverbBussesMetadata = {}
 
----@param fields? table
+---@param fields? audioSourceBasedReverbBussesMetadata
 ---@return audioSourceBasedReverbBussesMetadata
 function audioSourceBasedReverbBussesMetadata.new(fields) return end

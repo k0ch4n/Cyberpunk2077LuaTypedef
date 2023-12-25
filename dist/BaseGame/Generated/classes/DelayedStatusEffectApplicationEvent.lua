@@ -5,6 +5,6 @@
 ---@field public statusEffectEvent gameeventsApplyStatusEffectEvent
 DelayedStatusEffectApplicationEvent = {}
 
----@param fields? table
+---@param fields? DelayedStatusEffectApplicationEvent
 ---@return DelayedStatusEffectApplicationEvent
 function DelayedStatusEffectApplicationEvent.new(fields) return end

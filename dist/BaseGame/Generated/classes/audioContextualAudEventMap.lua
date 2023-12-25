@@ -5,6 +5,6 @@
 ---@field public contextualAudEventMapItems audioContextualAudEventMapItem[]
 audioContextualAudEventMap = {}
 
----@param fields? table
+---@param fields? audioContextualAudEventMap
 ---@return audioContextualAudEventMap
 function audioContextualAudEventMap.new(fields) return end

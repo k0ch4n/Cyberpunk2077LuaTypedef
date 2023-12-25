@@ -5,7 +5,7 @@
 ---@field public isCensored Bool
 UndressPlayer = {}
 
----@param fields? table
+---@param fields? UndressPlayer
 ---@return UndressPlayer
 function UndressPlayer.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public slotID TweakDBID
 ItemChooserUnequipMod = {}
 
----@param fields? table
+---@param fields? ItemChooserUnequipMod
 ---@return ItemChooserUnequipMod
 function ItemChooserUnequipMod.new(fields) return end

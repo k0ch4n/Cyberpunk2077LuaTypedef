@@ -4,7 +4,7 @@
 ---@class AIStopCoverCommandParams: questScriptedAICommandParams
 AIStopCoverCommandParams = {}
 
----@param fields? table
+---@param fields? AIStopCoverCommandParams
 ---@return AIStopCoverCommandParams
 function AIStopCoverCommandParams.new(fields) return end
 

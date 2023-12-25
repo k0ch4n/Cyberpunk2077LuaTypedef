@@ -7,7 +7,7 @@
 ---@field private atlasTexture CName
 DispenceItemFromVendor = {}
 
----@param fields? table
+---@param fields? DispenceItemFromVendor
 ---@return DispenceItemFromVendor
 function DispenceItemFromVendor.new(fields) return end
 

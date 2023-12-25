@@ -4,7 +4,7 @@
 ---@class Pay: ActionBool
 Pay = {}
 
----@param fields? table
+---@param fields? Pay
 ---@return Pay
 function Pay.new(fields) return end
 

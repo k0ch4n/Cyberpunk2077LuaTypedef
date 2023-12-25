@@ -6,6 +6,6 @@
 ---@field public operands AIbehaviorExpressionSocket[]
 AIbehaviorNaryOperatorExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorNaryOperatorExpressionDefinition
 ---@return AIbehaviorNaryOperatorExpressionDefinition
 function AIbehaviorNaryOperatorExpressionDefinition.new(fields) return end

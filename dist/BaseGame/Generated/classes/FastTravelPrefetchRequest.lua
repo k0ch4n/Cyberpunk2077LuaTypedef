@@ -5,7 +5,7 @@
 ---@field public destinationRef NodeRef
 FastTravelPrefetchRequest = {}
 
----@param fields? table
+---@param fields? FastTravelPrefetchRequest
 ---@return FastTravelPrefetchRequest
 function FastTravelPrefetchRequest.new(fields) return end
 

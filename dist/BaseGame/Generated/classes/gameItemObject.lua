@@ -8,7 +8,7 @@
 ---@field private isBroken Bool
 gameItemObject = {}
 
----@param fields? table
+---@param fields? gameItemObject
 ---@return gameItemObject
 function gameItemObject.new(fields) return end
 

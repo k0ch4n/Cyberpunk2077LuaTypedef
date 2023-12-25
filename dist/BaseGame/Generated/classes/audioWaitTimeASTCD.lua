@@ -5,6 +5,6 @@
 ---@field public timeToWait Float
 audioWaitTimeASTCD = {}
 
----@param fields? table
+---@param fields? audioWaitTimeASTCD
 ---@return audioWaitTimeASTCD
 function audioWaitTimeASTCD.new(fields) return end

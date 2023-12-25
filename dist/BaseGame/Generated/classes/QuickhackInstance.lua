@@ -6,7 +6,7 @@
 ---@field private process Bool
 QuickhackInstance = {}
 
----@param fields? table
+---@param fields? QuickhackInstance
 ---@return QuickhackInstance
 function QuickhackInstance.new(fields) return end
 

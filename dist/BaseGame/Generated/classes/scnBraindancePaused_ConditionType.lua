@@ -6,6 +6,6 @@
 ---@field public SceneVersion scnSceneVersionCheck
 scnBraindancePaused_ConditionType = {}
 
----@param fields? table
+---@param fields? scnBraindancePaused_ConditionType
 ---@return scnBraindancePaused_ConditionType
 function scnBraindancePaused_ConditionType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CheckLastTriggeredStimuli: AIbehaviorconditionScript
 CheckLastTriggeredStimuli = {}
 
----@param fields? table
+---@param fields? CheckLastTriggeredStimuli
 ---@return CheckLastTriggeredStimuli
 function CheckLastTriggeredStimuli.new(fields) return end
 

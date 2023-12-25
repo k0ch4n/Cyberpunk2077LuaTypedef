@@ -18,7 +18,7 @@
 ---@field private rawStatsData gameStatViewData[]
 CyberwareMainGameController = {}
 
----@param fields? table
+---@param fields? CyberwareMainGameController
 ---@return CyberwareMainGameController
 function CyberwareMainGameController.new(fields) return end
 

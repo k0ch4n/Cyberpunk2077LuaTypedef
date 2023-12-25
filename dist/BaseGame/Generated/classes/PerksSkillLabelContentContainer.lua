@@ -7,7 +7,7 @@
 ---@field public skillData ProficiencyDisplayData
 PerksSkillLabelContentContainer = {}
 
----@param fields? table
+---@param fields? PerksSkillLabelContentContainer
 ---@return PerksSkillLabelContentContainer
 function PerksSkillLabelContentContainer.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public mounted Bool
 gameuiBaseVehicleHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiBaseVehicleHUDGameController
 ---@return gameuiBaseVehicleHUDGameController
 function gameuiBaseVehicleHUDGameController.new(fields) return end
 

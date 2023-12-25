@@ -7,7 +7,7 @@
 ---@field private currentAnimation inkanimProxy
 gameuiRoachRacePlayerController = {}
 
----@param fields? table
+---@param fields? gameuiRoachRacePlayerController
 ---@return gameuiRoachRacePlayerController
 function gameuiRoachRacePlayerController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public asyncSpawnRequest inkAsyncSpawnRequest
 AbilityUserData = {}
 
----@param fields? table
+---@param fields? AbilityUserData
 ---@return AbilityUserData
 function AbilityUserData.new(fields) return end

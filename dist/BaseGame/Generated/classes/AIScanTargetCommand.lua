@@ -5,6 +5,6 @@
 ---@field public targetPuppetRef gameEntityReference
 AIScanTargetCommand = {}
 
----@param fields? table
+---@param fields? AIScanTargetCommand
 ---@return AIScanTargetCommand
 function AIScanTargetCommand.new(fields) return end

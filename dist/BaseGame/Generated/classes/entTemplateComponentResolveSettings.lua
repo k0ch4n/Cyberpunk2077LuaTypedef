@@ -7,6 +7,6 @@
 ---@field public mode entTemplateComponentResolveMode
 entTemplateComponentResolveSettings = {}
 
----@param fields? table
+---@param fields? entTemplateComponentResolveSettings
 ---@return entTemplateComponentResolveSettings
 function entTemplateComponentResolveSettings.new(fields) return end

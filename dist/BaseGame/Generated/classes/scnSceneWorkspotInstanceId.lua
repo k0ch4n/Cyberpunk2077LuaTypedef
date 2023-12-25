@@ -5,6 +5,6 @@
 ---@field public id Uint32
 scnSceneWorkspotInstanceId = {}
 
----@param fields? table
+---@param fields? scnSceneWorkspotInstanceId
 ---@return scnSceneWorkspotInstanceId
 function scnSceneWorkspotInstanceId.new(fields) return end

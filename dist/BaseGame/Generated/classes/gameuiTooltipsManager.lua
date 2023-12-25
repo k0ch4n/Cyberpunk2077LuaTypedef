@@ -30,7 +30,7 @@
 ---@field private isHidden Bool
 gameuiTooltipsManager = {}
 
----@param fields? table
+---@param fields? gameuiTooltipsManager
 ---@return gameuiTooltipsManager
 function gameuiTooltipsManager.new(fields) return end
 

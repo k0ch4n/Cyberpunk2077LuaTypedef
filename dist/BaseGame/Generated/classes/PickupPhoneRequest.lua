@@ -6,6 +6,6 @@
 ---@field public shouldBeRejected Bool
 PickupPhoneRequest = {}
 
----@param fields? table
+---@param fields? PickupPhoneRequest
 ---@return PickupPhoneRequest
 function PickupPhoneRequest.new(fields) return end

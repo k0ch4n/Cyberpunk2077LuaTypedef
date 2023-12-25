@@ -7,7 +7,7 @@
 ---@field public HUDData HUDProgressBarData
 AIQuickHackAction = {}
 
----@param fields? table
+---@param fields? AIQuickHackAction
 ---@return AIQuickHackAction
 function AIQuickHackAction.new(fields) return end
 

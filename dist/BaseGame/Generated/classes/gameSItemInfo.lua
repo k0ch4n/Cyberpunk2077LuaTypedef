@@ -6,6 +6,6 @@
 ---@field public slotIndex Int32
 gameSItemInfo = {}
 
----@param fields? table
+---@param fields? gameSItemInfo
 ---@return gameSItemInfo
 function gameSItemInfo.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public localBoundingBox Box
 gameSmartObjectsCompiledResource = {}
 
----@param fields? table
+---@param fields? gameSmartObjectsCompiledResource
 ---@return gameSmartObjectsCompiledResource
 function gameSmartObjectsCompiledResource.new(fields) return end

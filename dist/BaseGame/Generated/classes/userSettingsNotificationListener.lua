@@ -4,7 +4,7 @@
 ---@class userSettingsNotificationListener: IScriptable
 userSettingsNotificationListener = {}
 
----@param fields? table
+---@param fields? userSettingsNotificationListener
 ---@return userSettingsNotificationListener
 function userSettingsNotificationListener.new(fields) return end
 

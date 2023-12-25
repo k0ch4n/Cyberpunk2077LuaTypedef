@@ -5,7 +5,7 @@
 ---@field private projectileStopAndStick Bool
 ThrowingMeleeCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? ThrowingMeleeCollisionEvaluator
 ---@return ThrowingMeleeCollisionEvaluator
 function ThrowingMeleeCollisionEvaluator.new(fields) return end
 

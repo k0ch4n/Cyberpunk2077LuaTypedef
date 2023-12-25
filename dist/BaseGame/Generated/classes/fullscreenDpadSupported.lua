@@ -8,7 +8,7 @@
 ---@field public targetPath_DpadRight inkWidget
 fullscreenDpadSupported = {}
 
----@param fields? table
+---@param fields? fullscreenDpadSupported
 ---@return fullscreenDpadSupported
 function fullscreenDpadSupported.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public phaseName CName
 questSpawnSet_NodeType = {}
 
----@param fields? table
+---@param fields? questSpawnSet_NodeType
 ---@return questSpawnSet_NodeType
 function questSpawnSet_NodeType.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field private animationController entAnimationControllerComponent
 ApplyAnimWrappersOnWeapon = {}
 
----@param fields? table
+---@param fields? ApplyAnimWrappersOnWeapon
 ---@return ApplyAnimWrappersOnWeapon
 function ApplyAnimWrappersOnWeapon.new(fields) return end
 

@@ -41,6 +41,6 @@
 ---@field public customfield_31700 String
 toolsJiraIssueFields = {}
 
----@param fields? table
+---@param fields? toolsJiraIssueFields
 ---@return toolsJiraIssueFields
 function toolsJiraIssueFields.new(fields) return end

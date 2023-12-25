@@ -4,7 +4,7 @@
 ---@class DodgeLowGravityEvents: LocomotionGroundEvents
 DodgeLowGravityEvents = {}
 
----@param fields? table
+---@param fields? DodgeLowGravityEvents
 ---@return DodgeLowGravityEvents
 function DodgeLowGravityEvents.new(fields) return end
 

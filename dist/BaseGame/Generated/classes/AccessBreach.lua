@@ -9,7 +9,7 @@
 ---@field public isSuicide Bool
 AccessBreach = {}
 
----@param fields? table
+---@param fields? AccessBreach
 ---@return AccessBreach
 function AccessBreach.new(fields) return end
 

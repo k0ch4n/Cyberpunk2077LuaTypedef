@@ -6,6 +6,6 @@
 ---@field public reference gameEntityReference
 questPuppeteerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questPuppeteerNodeDefinition
 ---@return questPuppeteerNodeDefinition
 function questPuppeteerNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameEthnicityComponent: entIComponent
 gameEthnicityComponent = {}
 
----@param fields? table
+---@param fields? gameEthnicityComponent
 ---@return gameEthnicityComponent
 function gameEthnicityComponent.new(fields) return end

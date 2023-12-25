@@ -4,7 +4,7 @@
 ---@class KurtzComponent: gameScriptableComponent
 KurtzComponent = {}
 
----@param fields? table
+---@param fields? KurtzComponent
 ---@return KurtzComponent
 function KurtzComponent.new(fields) return end
 

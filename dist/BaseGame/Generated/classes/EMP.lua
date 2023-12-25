@@ -4,7 +4,7 @@
 ---@class EMP: gameEffectExecutor_Scripted
 EMP = {}
 
----@param fields? table
+---@param fields? EMP
 ---@return EMP
 function EMP.new(fields) return end
 

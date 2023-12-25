@@ -4,7 +4,7 @@
 ---@class HitFlagPrereqState: GenericHitPrereqState
 HitFlagPrereqState = {}
 
----@param fields? table
+---@param fields? HitFlagPrereqState
 ---@return HitFlagPrereqState
 function HitFlagPrereqState.new(fields) return end
 

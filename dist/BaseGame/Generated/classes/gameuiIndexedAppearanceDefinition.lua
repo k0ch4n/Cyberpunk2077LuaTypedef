@@ -11,6 +11,6 @@
 ---@field public tags redTagList
 gameuiIndexedAppearanceDefinition = {}
 
----@param fields? table
+---@param fields? gameuiIndexedAppearanceDefinition
 ---@return gameuiIndexedAppearanceDefinition
 function gameuiIndexedAppearanceDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class WorldMapFiltersList: inkWidgetLogicController
 WorldMapFiltersList = {}
 
----@param fields? table
+---@param fields? WorldMapFiltersList
 ---@return WorldMapFiltersList
 function WorldMapFiltersList.new(fields) return end
 

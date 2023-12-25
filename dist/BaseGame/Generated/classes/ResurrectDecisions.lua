@@ -4,7 +4,7 @@
 ---@class ResurrectDecisions: HighLevelTransition
 ResurrectDecisions = {}
 
----@param fields? table
+---@param fields? ResurrectDecisions
 ---@return ResurrectDecisions
 function ResurrectDecisions.new(fields) return end
 

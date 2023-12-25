@@ -6,6 +6,6 @@
 ---@field public craftingCommand CraftingCommands
 CraftingPopupData = {}
 
----@param fields? table
+---@param fields? CraftingPopupData
 ---@return CraftingPopupData
 function CraftingPopupData.new(fields) return end

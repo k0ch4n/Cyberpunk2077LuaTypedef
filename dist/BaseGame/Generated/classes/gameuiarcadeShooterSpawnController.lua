@@ -13,6 +13,6 @@
 ---@field public enemyParameter String
 gameuiarcadeShooterSpawnController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterSpawnController
 ---@return gameuiarcadeShooterSpawnController
 function gameuiarcadeShooterSpawnController.new(fields) return end

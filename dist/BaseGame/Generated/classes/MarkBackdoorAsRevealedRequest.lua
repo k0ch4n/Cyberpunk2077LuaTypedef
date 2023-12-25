@@ -5,6 +5,6 @@
 ---@field public device SharedGameplayPS
 MarkBackdoorAsRevealedRequest = {}
 
----@param fields? table
+---@param fields? MarkBackdoorAsRevealedRequest
 ---@return MarkBackdoorAsRevealedRequest
 function MarkBackdoorAsRevealedRequest.new(fields) return end

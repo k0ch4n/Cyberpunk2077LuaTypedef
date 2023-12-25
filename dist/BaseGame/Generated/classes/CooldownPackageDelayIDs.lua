@@ -6,6 +6,6 @@
 ---@field public delayIDs gameDelayID[]
 CooldownPackageDelayIDs = {}
 
----@param fields? table
+---@param fields? CooldownPackageDelayIDs
 ---@return CooldownPackageDelayIDs
 function CooldownPackageDelayIDs.new(fields) return end

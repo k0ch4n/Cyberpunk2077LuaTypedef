@@ -5,7 +5,7 @@
 ---@field public blockReequipping Bool
 DisableVisualOverride = {}
 
----@param fields? table
+---@param fields? DisableVisualOverride
 ---@return DisableVisualOverride
 function DisableVisualOverride.new(fields) return end
 

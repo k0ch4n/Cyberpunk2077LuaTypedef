@@ -12,7 +12,7 @@
 ---@field public isAirDashSaveLockTriggered Bool
 DodgeEvents = {}
 
----@param fields? table
+---@param fields? DodgeEvents
 ---@return DodgeEvents
 function DodgeEvents.new(fields) return end
 

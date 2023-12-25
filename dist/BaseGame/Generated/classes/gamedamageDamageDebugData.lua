@@ -7,6 +7,6 @@
 ---@field public value Float
 gamedamageDamageDebugData = {}
 
----@param fields? table
+---@param fields? gamedamageDamageDebugData
 ---@return gamedamageDamageDebugData
 function gamedamageDamageDebugData.new(fields) return end

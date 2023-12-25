@@ -14,7 +14,7 @@
 ---@field public useHitPosition Bool
 TriggerAttackOnAttackEffect = {}
 
----@param fields? table
+---@param fields? TriggerAttackOnAttackEffect
 ---@return TriggerAttackOnAttackEffect
 function TriggerAttackOnAttackEffect.new(fields) return end
 

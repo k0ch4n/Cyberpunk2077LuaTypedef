@@ -6,7 +6,7 @@
 ---@field public textWidget inkTextWidget
 TechQA_ImageSwappingButtonController = {}
 
----@param fields? table
+---@param fields? TechQA_ImageSwappingButtonController
 ---@return TechQA_ImageSwappingButtonController
 function TechQA_ImageSwappingButtonController.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public hideTime Float
 gameuiGarmentSwitchEffectController = {}
 
----@param fields? table
+---@param fields? gameuiGarmentSwitchEffectController
 ---@return gameuiGarmentSwitchEffectController
 function gameuiGarmentSwitchEffectController.new(fields) return end

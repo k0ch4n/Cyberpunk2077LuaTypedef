@@ -6,6 +6,6 @@
 ---@field public nodeRef2 gameEntityReference
 questObjectDistance = {}
 
----@param fields? table
+---@param fields? questObjectDistance
 ---@return questObjectDistance
 function questObjectDistance.new(fields) return end

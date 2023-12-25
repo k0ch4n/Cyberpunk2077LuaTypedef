@@ -5,6 +5,6 @@
 ---@field public data inkScreenProjection[]
 gameuiScreenProjectionsData = {}
 
----@param fields? table
+---@param fields? gameuiScreenProjectionsData
 ---@return gameuiScreenProjectionsData
 function gameuiScreenProjectionsData.new(fields) return end

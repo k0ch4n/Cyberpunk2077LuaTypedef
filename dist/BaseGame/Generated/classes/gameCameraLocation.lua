@@ -6,6 +6,6 @@
 ---@field public rotation EulerAngles
 gameCameraLocation = {}
 
----@param fields? table
+---@param fields? gameCameraLocation
 ---@return gameCameraLocation
 function gameCameraLocation.new(fields) return end

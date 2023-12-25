@@ -4,7 +4,7 @@
 ---@class gamedataBuildEquipmentSet_Record: gamedataTweakDBRecord
 gamedataBuildEquipmentSet_Record = {}
 
----@param fields? table
+---@param fields? gamedataBuildEquipmentSet_Record
 ---@return gamedataBuildEquipmentSet_Record
 function gamedataBuildEquipmentSet_Record.new(fields) return end
 

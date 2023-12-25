@@ -9,7 +9,7 @@
 ---@field public listenerHorizontal redCallbackObject
 IsPlayerMovingPrereqState = {}
 
----@param fields? table
+---@param fields? IsPlayerMovingPrereqState
 ---@return IsPlayerMovingPrereqState
 function IsPlayerMovingPrereqState.new(fields) return end
 

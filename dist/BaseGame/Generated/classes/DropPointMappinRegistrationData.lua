@@ -8,7 +8,7 @@
 ---@field private trackingAlternativeMappinID gameNewMappinID
 DropPointMappinRegistrationData = {}
 
----@param fields? table
+---@param fields? DropPointMappinRegistrationData
 ---@return DropPointMappinRegistrationData
 function DropPointMappinRegistrationData.new(fields) return end
 

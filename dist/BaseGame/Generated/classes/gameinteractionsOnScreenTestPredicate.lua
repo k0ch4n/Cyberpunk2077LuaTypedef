@@ -4,6 +4,6 @@
 ---@class gameinteractionsOnScreenTestPredicate: gameinteractionsIPredicateType
 gameinteractionsOnScreenTestPredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsOnScreenTestPredicate
 ---@return gameinteractionsOnScreenTestPredicate
 function gameinteractionsOnScreenTestPredicate.new(fields) return end

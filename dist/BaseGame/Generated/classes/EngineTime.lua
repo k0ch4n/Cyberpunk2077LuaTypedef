@@ -4,7 +4,7 @@
 ---@class EngineTime
 EngineTime = {}
 
----@param fields? table
+---@param fields? EngineTime
 ---@return EngineTime
 function EngineTime.new(fields) return end
 

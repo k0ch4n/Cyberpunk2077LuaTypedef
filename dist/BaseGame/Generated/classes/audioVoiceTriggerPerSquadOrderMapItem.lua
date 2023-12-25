@@ -6,6 +6,6 @@
 ---@field public triggerName CName
 audioVoiceTriggerPerSquadOrderMapItem = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerPerSquadOrderMapItem
 ---@return audioVoiceTriggerPerSquadOrderMapItem
 function audioVoiceTriggerPerSquadOrderMapItem.new(fields) return end

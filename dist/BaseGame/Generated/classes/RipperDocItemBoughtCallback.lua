@@ -5,7 +5,7 @@
 ---@field private eventTarget RipperDocGameController
 RipperDocItemBoughtCallback = {}
 
----@param fields? table
+---@param fields? RipperDocItemBoughtCallback
 ---@return RipperDocItemBoughtCallback
 function RipperDocItemBoughtCallback.new(fields) return end
 

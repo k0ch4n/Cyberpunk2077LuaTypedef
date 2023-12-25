@@ -4,6 +4,6 @@
 ---@class workInSyncCondition: workIWorkspotCondition
 workInSyncCondition = {}
 
----@param fields? table
+---@param fields? workInSyncCondition
 ---@return workInSyncCondition
 function workInSyncCondition.new(fields) return end

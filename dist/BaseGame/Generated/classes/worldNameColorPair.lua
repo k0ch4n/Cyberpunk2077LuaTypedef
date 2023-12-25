@@ -6,6 +6,6 @@
 ---@field public color Color
 worldNameColorPair = {}
 
----@param fields? table
+---@param fields? worldNameColorPair
 ---@return worldNameColorPair
 function worldNameColorPair.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameInputTriggerState
 gameInputTriggerState = {}
 
----@param fields? table
+---@param fields? gameInputTriggerState
 ---@return gameInputTriggerState
 function gameInputTriggerState.new(fields) return end
 

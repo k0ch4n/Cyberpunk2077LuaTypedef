@@ -6,7 +6,7 @@
 ---@field public event Bool
 CombatGadgetQuickThrowEvents = {}
 
----@param fields? table
+---@param fields? CombatGadgetQuickThrowEvents
 ---@return CombatGadgetQuickThrowEvents
 function CombatGadgetQuickThrowEvents.new(fields) return end
 

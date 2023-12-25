@@ -22,6 +22,6 @@
 ---@field public exposeQuickHacksIfNotConnectedToAP Bool
 DoorSetup = {}
 
----@param fields? table
+---@param fields? DoorSetup
 ---@return DoorSetup
 function DoorSetup.new(fields) return end

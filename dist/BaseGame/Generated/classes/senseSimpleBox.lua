@@ -5,6 +5,6 @@
 ---@field public box Box
 senseSimpleBox = {}
 
----@param fields? table
+---@param fields? senseSimpleBox
 ---@return senseSimpleBox
 function senseSimpleBox.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public requests animLookAtRequestForPart[]
 scnLookAtAdvancedEventData = {}
 
----@param fields? table
+---@param fields? scnLookAtAdvancedEventData
 ---@return scnLookAtAdvancedEventData
 function scnLookAtAdvancedEventData.new(fields) return end

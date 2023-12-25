@@ -4,7 +4,7 @@
 ---@class gamePreventionSpawnSystem: gameIPreventionSpawnSystem
 gamePreventionSpawnSystem = {}
 
----@param fields? table
+---@param fields? gamePreventionSpawnSystem
 ---@return gamePreventionSpawnSystem
 function gamePreventionSpawnSystem.new(fields) return end
 

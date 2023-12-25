@@ -10,7 +10,7 @@
 ---@field private tutorialManager questTutorialManager
 gameuiTutorialOverlayLogicController = {}
 
----@param fields? table
+---@param fields? gameuiTutorialOverlayLogicController
 ---@return gameuiTutorialOverlayLogicController
 function gameuiTutorialOverlayLogicController.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public radius Float
 audioSpatialSoundLimitMetadata = {}
 
----@param fields? table
+---@param fields? audioSpatialSoundLimitMetadata
 ---@return audioSpatialSoundLimitMetadata
 function audioSpatialSoundLimitMetadata.new(fields) return end

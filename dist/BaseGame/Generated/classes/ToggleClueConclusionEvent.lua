@@ -7,7 +7,7 @@
 ---@field public updatePS Bool
 ToggleClueConclusionEvent = {}
 
----@param fields? table
+---@param fields? ToggleClueConclusionEvent
 ---@return ToggleClueConclusionEvent
 function ToggleClueConclusionEvent.new(fields) return end
 

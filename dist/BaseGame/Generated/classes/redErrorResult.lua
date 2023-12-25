@@ -6,6 +6,6 @@
 ---@field public userData Variant
 redErrorResult = {}
 
----@param fields? table
+---@param fields? redErrorResult
 ---@return redErrorResult
 function redErrorResult.new(fields) return end

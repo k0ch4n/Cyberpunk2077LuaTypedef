@@ -5,6 +5,6 @@
 ---@field public soundBank CName
 audioSoundBankStruct = {}
 
----@param fields? table
+---@param fields? audioSoundBankStruct
 ---@return audioSoundBankStruct
 function audioSoundBankStruct.new(fields) return end

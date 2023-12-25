@@ -4,7 +4,7 @@
 ---@class InputMenuNavigationActionHelper: IScriptable
 InputMenuNavigationActionHelper = {}
 
----@param fields? table
+---@param fields? InputMenuNavigationActionHelper
 ---@return InputMenuNavigationActionHelper
 function InputMenuNavigationActionHelper.new(fields) return end
 

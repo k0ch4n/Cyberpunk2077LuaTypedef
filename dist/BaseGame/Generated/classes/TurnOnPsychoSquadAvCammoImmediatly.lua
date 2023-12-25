@@ -4,7 +4,7 @@
 ---@class TurnOnPsychoSquadAvCammoImmediatly: AIbehaviortaskScript
 TurnOnPsychoSquadAvCammoImmediatly = {}
 
----@param fields? table
+---@param fields? TurnOnPsychoSquadAvCammoImmediatly
 ---@return TurnOnPsychoSquadAvCammoImmediatly
 function TurnOnPsychoSquadAvCammoImmediatly.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public attackRecord gamedataAttack_Record
 InitiateCyberwareExplosionEffector = {}
 
----@param fields? table
+---@param fields? InitiateCyberwareExplosionEffector
 ---@return InitiateCyberwareExplosionEffector
 function InitiateCyberwareExplosionEffector.new(fields) return end
 

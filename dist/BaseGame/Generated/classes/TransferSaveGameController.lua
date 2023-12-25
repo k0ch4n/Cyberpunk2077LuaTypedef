@@ -5,7 +5,7 @@
 ---@field private notificationController inkWidgetReference
 TransferSaveGameController = {}
 
----@param fields? table
+---@param fields? TransferSaveGameController
 ---@return TransferSaveGameController
 function TransferSaveGameController.new(fields) return end
 

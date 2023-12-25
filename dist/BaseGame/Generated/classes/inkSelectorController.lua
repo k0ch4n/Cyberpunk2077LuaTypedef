@@ -18,7 +18,7 @@
 ---@field protected leftArrowButton inkButtonController
 inkSelectorController = {}
 
----@param fields? table
+---@param fields? inkSelectorController
 ---@return inkSelectorController
 function inkSelectorController.new(fields) return end
 

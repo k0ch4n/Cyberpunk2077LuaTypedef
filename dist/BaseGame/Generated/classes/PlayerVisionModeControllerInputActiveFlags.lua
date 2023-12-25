@@ -8,6 +8,6 @@
 ---@field public driverCombatButtonActivate Bool
 PlayerVisionModeControllerInputActiveFlags = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerInputActiveFlags
 ---@return PlayerVisionModeControllerInputActiveFlags
 function PlayerVisionModeControllerInputActiveFlags.new(fields) return end

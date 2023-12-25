@@ -5,7 +5,7 @@
 ---@field public languageId inkLanguageId
 inkLanguageOverrideProvider = {}
 
----@param fields? table
+---@param fields? inkLanguageOverrideProvider
 ---@return inkLanguageOverrideProvider
 function inkLanguageOverrideProvider.new(fields) return end
 

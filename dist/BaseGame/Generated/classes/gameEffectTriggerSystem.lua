@@ -4,6 +4,6 @@
 ---@class gameEffectTriggerSystem: gameIEffectTriggerSystem
 gameEffectTriggerSystem = {}
 
----@param fields? table
+---@param fields? gameEffectTriggerSystem
 ---@return gameEffectTriggerSystem
 function gameEffectTriggerSystem.new(fields) return end

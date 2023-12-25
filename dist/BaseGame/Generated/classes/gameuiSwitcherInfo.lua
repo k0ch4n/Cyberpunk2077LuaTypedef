@@ -7,6 +7,6 @@
 ---@field public switchVisibility Bool
 gameuiSwitcherInfo = {}
 
----@param fields? table
+---@param fields? gameuiSwitcherInfo
 ---@return gameuiSwitcherInfo
 function gameuiSwitcherInfo.new(fields) return end

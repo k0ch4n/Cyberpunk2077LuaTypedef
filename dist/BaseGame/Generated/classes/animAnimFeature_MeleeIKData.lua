@@ -8,6 +8,6 @@
 ---@field public ikOffset Vector4
 animAnimFeature_MeleeIKData = {}
 
----@param fields? table
+---@param fields? animAnimFeature_MeleeIKData
 ---@return animAnimFeature_MeleeIKData
 function animAnimFeature_MeleeIKData.new(fields) return end

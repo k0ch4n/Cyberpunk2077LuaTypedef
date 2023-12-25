@@ -17,7 +17,7 @@
 ---@field private bossPuppets NPCPuppet[]
 BossHealthBarGameController = {}
 
----@param fields? table
+---@param fields? BossHealthBarGameController
 ---@return BossHealthBarGameController
 function BossHealthBarGameController.new(fields) return end
 

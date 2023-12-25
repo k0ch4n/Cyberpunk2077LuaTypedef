@@ -4,7 +4,7 @@
 ---@class gamedataArcadeBackgroundLayer_Record: gamedataTweakDBRecord
 gamedataArcadeBackgroundLayer_Record = {}
 
----@param fields? table
+---@param fields? gamedataArcadeBackgroundLayer_Record
 ---@return gamedataArcadeBackgroundLayer_Record
 function gamedataArcadeBackgroundLayer_Record.new(fields) return end
 

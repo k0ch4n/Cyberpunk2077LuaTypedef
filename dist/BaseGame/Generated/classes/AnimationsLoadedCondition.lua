@@ -6,7 +6,7 @@
 ---@field public melee Bool
 AnimationsLoadedCondition = {}
 
----@param fields? table
+---@param fields? AnimationsLoadedCondition
 ---@return AnimationsLoadedCondition
 function AnimationsLoadedCondition.new(fields) return end
 

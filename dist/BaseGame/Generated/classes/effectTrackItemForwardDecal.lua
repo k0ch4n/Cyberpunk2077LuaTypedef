@@ -17,6 +17,6 @@
 ---@field public fadeInTime Float
 effectTrackItemForwardDecal = {}
 
----@param fields? table
+---@param fields? effectTrackItemForwardDecal
 ---@return effectTrackItemForwardDecal
 function effectTrackItemForwardDecal.new(fields) return end

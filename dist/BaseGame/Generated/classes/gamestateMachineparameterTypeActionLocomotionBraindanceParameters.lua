@@ -4,7 +4,7 @@
 ---@class gamestateMachineparameterTypeActionLocomotionBraindanceParameters: gamestateMachineparameterTypeActionLocomotionParameters
 gamestateMachineparameterTypeActionLocomotionBraindanceParameters = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeActionLocomotionBraindanceParameters
 ---@return gamestateMachineparameterTypeActionLocomotionBraindanceParameters
 function gamestateMachineparameterTypeActionLocomotionBraindanceParameters.new(fields) return end
 

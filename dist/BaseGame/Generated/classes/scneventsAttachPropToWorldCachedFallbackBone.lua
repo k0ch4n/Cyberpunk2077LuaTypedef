@@ -6,6 +6,6 @@
 ---@field public modelSpaceTransform Transform
 scneventsAttachPropToWorldCachedFallbackBone = {}
 
----@param fields? table
+---@param fields? scneventsAttachPropToWorldCachedFallbackBone
 ---@return scneventsAttachPropToWorldCachedFallbackBone
 function scneventsAttachPropToWorldCachedFallbackBone.new(fields) return end

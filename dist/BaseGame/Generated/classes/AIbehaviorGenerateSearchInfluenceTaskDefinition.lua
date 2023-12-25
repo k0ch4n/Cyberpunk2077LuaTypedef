@@ -7,6 +7,6 @@
 ---@field public radius AIArgumentMapping
 AIbehaviorGenerateSearchInfluenceTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorGenerateSearchInfluenceTaskDefinition
 ---@return AIbehaviorGenerateSearchInfluenceTaskDefinition
 function AIbehaviorGenerateSearchInfluenceTaskDefinition.new(fields) return end

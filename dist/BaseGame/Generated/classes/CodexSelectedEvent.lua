@@ -9,6 +9,6 @@
 ---@field public activeDataSync CodexListSyncData
 CodexSelectedEvent = {}
 
----@param fields? table
+---@param fields? CodexSelectedEvent
 ---@return CodexSelectedEvent
 function CodexSelectedEvent.new(fields) return end

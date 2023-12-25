@@ -6,6 +6,6 @@
 ---@field public nameLocKey CName
 QuestListHeaderData = {}
 
----@param fields? table
+---@param fields? QuestListHeaderData
 ---@return QuestListHeaderData
 function QuestListHeaderData.new(fields) return end

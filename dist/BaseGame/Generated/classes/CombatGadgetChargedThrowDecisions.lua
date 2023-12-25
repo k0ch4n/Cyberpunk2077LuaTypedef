@@ -4,7 +4,7 @@
 ---@class CombatGadgetChargedThrowDecisions: CombatGadgetTransitions
 CombatGadgetChargedThrowDecisions = {}
 
----@param fields? table
+---@param fields? CombatGadgetChargedThrowDecisions
 ---@return CombatGadgetChargedThrowDecisions
 function CombatGadgetChargedThrowDecisions.new(fields) return end
 

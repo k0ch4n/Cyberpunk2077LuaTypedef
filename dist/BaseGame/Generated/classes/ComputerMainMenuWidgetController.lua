@@ -7,7 +7,7 @@
 ---@field private computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
 ComputerMainMenuWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerMainMenuWidgetController
 ---@return ComputerMainMenuWidgetController
 function ComputerMainMenuWidgetController.new(fields) return end
 

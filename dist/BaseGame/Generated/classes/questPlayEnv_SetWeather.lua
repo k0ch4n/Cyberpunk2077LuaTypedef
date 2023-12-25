@@ -9,6 +9,6 @@
 ---@field public source CName
 questPlayEnv_SetWeather = {}
 
----@param fields? table
+---@param fields? questPlayEnv_SetWeather
 ---@return questPlayEnv_SetWeather
 function questPlayEnv_SetWeather.new(fields) return end

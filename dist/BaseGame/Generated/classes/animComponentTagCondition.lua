@@ -5,6 +5,6 @@
 ---@field public animTag CName
 animComponentTagCondition = {}
 
----@param fields? table
+---@param fields? animComponentTagCondition
 ---@return animComponentTagCondition
 function animComponentTagCondition.new(fields) return end

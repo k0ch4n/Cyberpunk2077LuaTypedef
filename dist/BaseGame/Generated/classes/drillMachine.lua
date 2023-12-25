@@ -12,7 +12,7 @@
 ---@field private targetDevice gameObject
 drillMachine = {}
 
----@param fields? table
+---@param fields? drillMachine
 ---@return drillMachine
 function drillMachine.new(fields) return end
 

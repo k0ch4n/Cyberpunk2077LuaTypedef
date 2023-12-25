@@ -5,6 +5,6 @@
 ---@field public rootEntries gameJournalRootFolderEntry[]
 gameJournalTree = {}
 
----@param fields? table
+---@param fields? gameJournalTree
 ---@return gameJournalTree
 function gameJournalTree.new(fields) return end

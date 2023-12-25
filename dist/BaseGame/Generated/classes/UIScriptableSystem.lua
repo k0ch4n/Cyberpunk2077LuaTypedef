@@ -22,7 +22,7 @@
 ---@field private DEV_useLongScanTooltips Bool
 UIScriptableSystem = {}
 
----@param fields? table
+---@param fields? UIScriptableSystem
 ---@return UIScriptableSystem
 function UIScriptableSystem.new(fields) return end
 

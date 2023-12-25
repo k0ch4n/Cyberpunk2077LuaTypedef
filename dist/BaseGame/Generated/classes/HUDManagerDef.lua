@@ -6,7 +6,7 @@
 ---@field public HudHintMessegeContent gamebbScriptID_String
 HUDManagerDef = {}
 
----@param fields? table
+---@param fields? HUDManagerDef
 ---@return HUDManagerDef
 function HUDManagerDef.new(fields) return end
 

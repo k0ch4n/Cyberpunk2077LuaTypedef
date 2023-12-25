@@ -4,7 +4,7 @@
 ---@class gamedataItemQueryElement_Record: gamedataLootTableElement_Record
 gamedataItemQueryElement_Record = {}
 
----@param fields? table
+---@param fields? gamedataItemQueryElement_Record
 ---@return gamedataItemQueryElement_Record
 function gamedataItemQueryElement_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public transition Float
 inkRadialWipeEffect = {}
 
----@param fields? table
+---@param fields? inkRadialWipeEffect
 ---@return inkRadialWipeEffect
 function inkRadialWipeEffect.new(fields) return end

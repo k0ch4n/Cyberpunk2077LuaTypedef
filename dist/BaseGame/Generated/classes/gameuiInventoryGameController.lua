@@ -75,7 +75,7 @@
 ---@field private openItemMode Bool
 gameuiInventoryGameController = {}
 
----@param fields? table
+---@param fields? gameuiInventoryGameController
 ---@return gameuiInventoryGameController
 function gameuiInventoryGameController.new(fields) return end
 

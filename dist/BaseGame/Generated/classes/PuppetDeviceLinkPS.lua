@@ -5,7 +5,7 @@
 ---@field private securitySystemData SecuritySystemData
 PuppetDeviceLinkPS = {}
 
----@param fields? table
+---@param fields? PuppetDeviceLinkPS
 ---@return PuppetDeviceLinkPS
 function PuppetDeviceLinkPS.new(fields) return end
 

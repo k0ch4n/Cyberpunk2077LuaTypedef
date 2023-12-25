@@ -4,7 +4,7 @@
 ---@class LeftHandCyberwareWaitForUnequipEvents: LeftHandCyberwareEventsTransition
 LeftHandCyberwareWaitForUnequipEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareWaitForUnequipEvents
 ---@return LeftHandCyberwareWaitForUnequipEvents
 function LeftHandCyberwareWaitForUnequipEvents.new(fields) return end
 

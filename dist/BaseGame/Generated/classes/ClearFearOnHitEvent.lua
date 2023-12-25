@@ -4,6 +4,6 @@
 ---@class ClearFearOnHitEvent: redEvent
 ClearFearOnHitEvent = {}
 
----@param fields? table
+---@param fields? ClearFearOnHitEvent
 ---@return ClearFearOnHitEvent
 function ClearFearOnHitEvent.new(fields) return end

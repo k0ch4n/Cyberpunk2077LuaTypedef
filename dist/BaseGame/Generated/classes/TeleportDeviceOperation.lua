@@ -5,7 +5,7 @@
 ---@field public teleport STeleportOperationData
 TeleportDeviceOperation = {}
 
----@param fields? table
+---@param fields? TeleportDeviceOperation
 ---@return TeleportDeviceOperation
 function TeleportDeviceOperation.new(fields) return end
 

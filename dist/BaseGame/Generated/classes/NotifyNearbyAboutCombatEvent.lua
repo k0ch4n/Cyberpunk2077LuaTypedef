@@ -4,6 +4,6 @@
 ---@class NotifyNearbyAboutCombatEvent: redEvent
 NotifyNearbyAboutCombatEvent = {}
 
----@param fields? table
+---@param fields? NotifyNearbyAboutCombatEvent
 ---@return NotifyNearbyAboutCombatEvent
 function NotifyNearbyAboutCombatEvent.new(fields) return end

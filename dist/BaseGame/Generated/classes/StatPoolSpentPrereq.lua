@@ -6,7 +6,7 @@
 ---@field public valueToCheck Float
 StatPoolSpentPrereq = {}
 
----@param fields? table
+---@param fields? StatPoolSpentPrereq
 ---@return StatPoolSpentPrereq
 function StatPoolSpentPrereq.new(fields) return end
 

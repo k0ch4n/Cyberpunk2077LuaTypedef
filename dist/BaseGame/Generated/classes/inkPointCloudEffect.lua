@@ -12,6 +12,6 @@
 ---@field public depthToBrightness Float
 inkPointCloudEffect = {}
 
----@param fields? table
+---@param fields? inkPointCloudEffect
 ---@return inkPointCloudEffect
 function inkPointCloudEffect.new(fields) return end

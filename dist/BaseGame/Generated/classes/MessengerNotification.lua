@@ -17,7 +17,7 @@
 ---@field private mappinSystem gamemappinsMappinSystem
 MessengerNotification = {}
 
----@param fields? table
+---@param fields? MessengerNotification
 ---@return MessengerNotification
 function MessengerNotification.new(fields) return end
 

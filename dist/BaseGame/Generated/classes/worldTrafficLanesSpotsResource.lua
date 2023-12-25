@@ -4,6 +4,6 @@
 ---@class worldTrafficLanesSpotsResource: resStreamedResource
 worldTrafficLanesSpotsResource = {}
 
----@param fields? table
+---@param fields? worldTrafficLanesSpotsResource
 ---@return worldTrafficLanesSpotsResource
 function worldTrafficLanesSpotsResource.new(fields) return end

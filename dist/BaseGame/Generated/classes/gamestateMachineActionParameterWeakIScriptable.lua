@@ -6,6 +6,6 @@
 ---@field public value IScriptable
 gamestateMachineActionParameterWeakIScriptable = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterWeakIScriptable
 ---@return gamestateMachineActionParameterWeakIScriptable
 function gamestateMachineActionParameterWeakIScriptable.new(fields) return end

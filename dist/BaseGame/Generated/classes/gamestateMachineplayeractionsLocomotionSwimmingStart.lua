@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsLocomotionSwimmingStart: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsLocomotionSwimmingStart = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsLocomotionSwimmingStart
 ---@return gamestateMachineplayeractionsLocomotionSwimmingStart
 function gamestateMachineplayeractionsLocomotionSwimmingStart.new(fields) return end

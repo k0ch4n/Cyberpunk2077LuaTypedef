@@ -8,7 +8,7 @@
 ---@field protected tintedAppearance CName
 DisplayGlassControllerPS = {}
 
----@param fields? table
+---@param fields? DisplayGlassControllerPS
 ---@return DisplayGlassControllerPS
 function DisplayGlassControllerPS.new(fields) return end
 

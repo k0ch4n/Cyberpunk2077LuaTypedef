@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questSetConveyorState_NodeType = {}
 
----@param fields? table
+---@param fields? questSetConveyorState_NodeType
 ---@return questSetConveyorState_NodeType
 function questSetConveyorState_NodeType.new(fields) return end

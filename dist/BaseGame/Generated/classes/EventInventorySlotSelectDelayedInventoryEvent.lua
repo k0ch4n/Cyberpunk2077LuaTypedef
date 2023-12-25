@@ -6,6 +6,6 @@
 ---@field public target inkWidget
 EventInventorySlotSelectDelayedInventoryEvent = {}
 
----@param fields? table
+---@param fields? EventInventorySlotSelectDelayedInventoryEvent
 ---@return EventInventorySlotSelectDelayedInventoryEvent
 function EventInventorySlotSelectDelayedInventoryEvent.new(fields) return end

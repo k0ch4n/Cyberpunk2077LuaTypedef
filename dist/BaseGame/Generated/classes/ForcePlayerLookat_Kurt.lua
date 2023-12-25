@@ -4,7 +4,7 @@
 ---@class ForcePlayerLookat_Kurt: AIbehaviortaskScript
 ForcePlayerLookat_Kurt = {}
 
----@param fields? table
+---@param fields? ForcePlayerLookat_Kurt
 ---@return ForcePlayerLookat_Kurt
 function ForcePlayerLookat_Kurt.new(fields) return end
 

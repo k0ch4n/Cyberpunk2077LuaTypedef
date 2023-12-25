@@ -5,7 +5,7 @@
 ---@field private fastTravelNodes gameFastTravelPointData[]
 FastTravelComponent = {}
 
----@param fields? table
+---@param fields? FastTravelComponent
 ---@return FastTravelComponent
 function FastTravelComponent.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private forceFollow Bool
 IntercomControllerPS = {}
 
----@param fields? table
+---@param fields? IntercomControllerPS
 ---@return IntercomControllerPS
 function IntercomControllerPS.new(fields) return end
 

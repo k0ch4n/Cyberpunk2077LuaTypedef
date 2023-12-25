@@ -6,6 +6,6 @@
 ---@field public isNest Bool
 ControlledDeviceData = {}
 
----@param fields? table
+---@param fields? ControlledDeviceData
 ---@return ControlledDeviceData
 function ControlledDeviceData.new(fields) return end

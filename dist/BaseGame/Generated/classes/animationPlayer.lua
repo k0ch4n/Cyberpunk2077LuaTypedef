@@ -14,7 +14,7 @@
 ---@field private anim inkanimProxy
 animationPlayer = {}
 
----@param fields? table
+---@param fields? animationPlayer
 ---@return animationPlayer
 function animationPlayer.new(fields) return end
 

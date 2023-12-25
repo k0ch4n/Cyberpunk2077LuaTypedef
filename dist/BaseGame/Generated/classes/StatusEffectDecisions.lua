@@ -7,7 +7,7 @@
 ---@field private statusEffectEnumName String
 StatusEffectDecisions = {}
 
----@param fields? table
+---@param fields? StatusEffectDecisions
 ---@return StatusEffectDecisions
 function StatusEffectDecisions.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class VolCloudsCustomData: ICameraStorageCustomData
 VolCloudsCustomData = {}
 
----@param fields? table
+---@param fields? VolCloudsCustomData
 ---@return VolCloudsCustomData
 function VolCloudsCustomData.new(fields) return end

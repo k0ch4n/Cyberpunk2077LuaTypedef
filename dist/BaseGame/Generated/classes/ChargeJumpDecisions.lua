@@ -4,7 +4,7 @@
 ---@class ChargeJumpDecisions: LocomotionAirDecisions
 ChargeJumpDecisions = {}
 
----@param fields? table
+---@param fields? ChargeJumpDecisions
 ---@return ChargeJumpDecisions
 function ChargeJumpDecisions.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public areaStack CName[]
 TrespasserEntry = {}
 
----@param fields? table
+---@param fields? TrespasserEntry
 ---@return TrespasserEntry
 function TrespasserEntry.new(fields) return end

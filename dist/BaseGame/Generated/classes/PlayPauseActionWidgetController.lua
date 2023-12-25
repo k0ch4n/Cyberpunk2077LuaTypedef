@@ -6,7 +6,7 @@
 ---@field private isPlaying Bool
 PlayPauseActionWidgetController = {}
 
----@param fields? table
+---@param fields? PlayPauseActionWidgetController
 ---@return PlayPauseActionWidgetController
 function PlayPauseActionWidgetController.new(fields) return end
 

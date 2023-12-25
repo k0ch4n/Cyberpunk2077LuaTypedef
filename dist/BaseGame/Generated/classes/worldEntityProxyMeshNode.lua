@@ -6,6 +6,6 @@
 ---@field public entityAttachDistance Float
 worldEntityProxyMeshNode = {}
 
----@param fields? table
+---@param fields? worldEntityProxyMeshNode
 ---@return worldEntityProxyMeshNode
 function worldEntityProxyMeshNode.new(fields) return end

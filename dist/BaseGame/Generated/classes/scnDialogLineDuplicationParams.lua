@@ -7,6 +7,6 @@
 ---@field public isHolocallSpeaker Bool
 scnDialogLineDuplicationParams = {}
 
----@param fields? table
+---@param fields? scnDialogLineDuplicationParams
 ---@return scnDialogLineDuplicationParams
 function scnDialogLineDuplicationParams.new(fields) return end

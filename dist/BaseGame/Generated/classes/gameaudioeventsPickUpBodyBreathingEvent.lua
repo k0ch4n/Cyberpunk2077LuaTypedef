@@ -4,6 +4,6 @@
 ---@class gameaudioeventsPickUpBodyBreathingEvent: redEvent
 gameaudioeventsPickUpBodyBreathingEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsPickUpBodyBreathingEvent
 ---@return gameaudioeventsPickUpBodyBreathingEvent
 function gameaudioeventsPickUpBodyBreathingEvent.new(fields) return end

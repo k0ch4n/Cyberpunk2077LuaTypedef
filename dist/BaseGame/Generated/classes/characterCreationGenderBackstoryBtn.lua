@@ -6,7 +6,7 @@
 ---@field public fluffText inkWidgetReference
 characterCreationGenderBackstoryBtn = {}
 
----@param fields? table
+---@param fields? characterCreationGenderBackstoryBtn
 ---@return characterCreationGenderBackstoryBtn
 function characterCreationGenderBackstoryBtn.new(fields) return end
 

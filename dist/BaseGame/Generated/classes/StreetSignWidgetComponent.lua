@@ -9,6 +9,6 @@
 ---@field public signVersion Uint32
 StreetSignWidgetComponent = {}
 
----@param fields? table
+---@param fields? StreetSignWidgetComponent
 ---@return StreetSignWidgetComponent
 function StreetSignWidgetComponent.new(fields) return end

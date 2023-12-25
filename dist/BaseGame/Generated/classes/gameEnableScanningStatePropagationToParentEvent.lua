@@ -5,6 +5,6 @@
 ---@field public isEnabled Bool
 gameEnableScanningStatePropagationToParentEvent = {}
 
----@param fields? table
+---@param fields? gameEnableScanningStatePropagationToParentEvent
 ---@return gameEnableScanningStatePropagationToParentEvent
 function gameEnableScanningStatePropagationToParentEvent.new(fields) return end

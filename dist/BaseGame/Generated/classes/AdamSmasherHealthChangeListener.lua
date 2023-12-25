@@ -9,7 +9,7 @@
 ---@field private statPoolSystem gameStatPoolsSystem
 AdamSmasherHealthChangeListener = {}
 
----@param fields? table
+---@param fields? AdamSmasherHealthChangeListener
 ---@return AdamSmasherHealthChangeListener
 function AdamSmasherHealthChangeListener.new(fields) return end
 

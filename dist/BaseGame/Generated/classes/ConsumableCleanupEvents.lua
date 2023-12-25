@@ -4,7 +4,7 @@
 ---@class ConsumableCleanupEvents: ConsumableTransitions
 ConsumableCleanupEvents = {}
 
----@param fields? table
+---@param fields? ConsumableCleanupEvents
 ---@return ConsumableCleanupEvents
 function ConsumableCleanupEvents.new(fields) return end
 

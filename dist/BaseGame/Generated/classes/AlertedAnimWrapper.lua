@@ -4,7 +4,7 @@
 ---@class AlertedAnimWrapper: AIbehaviortaskScript
 AlertedAnimWrapper = {}
 
----@param fields? table
+---@param fields? AlertedAnimWrapper
 ---@return AlertedAnimWrapper
 function AlertedAnimWrapper.new(fields) return end
 

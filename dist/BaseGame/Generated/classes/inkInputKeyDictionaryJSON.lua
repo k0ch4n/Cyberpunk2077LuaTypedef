@@ -5,6 +5,6 @@
 ---@field public devicesMappings inkInputDevicesMappingsJSON[]
 inkInputKeyDictionaryJSON = {}
 
----@param fields? table
+---@param fields? inkInputKeyDictionaryJSON
 ---@return inkInputKeyDictionaryJSON
 function inkInputKeyDictionaryJSON.new(fields) return end

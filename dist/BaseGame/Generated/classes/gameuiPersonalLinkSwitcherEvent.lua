@@ -5,6 +5,6 @@
 ---@field public isAdvanced Bool
 gameuiPersonalLinkSwitcherEvent = {}
 
----@param fields? table
+---@param fields? gameuiPersonalLinkSwitcherEvent
 ---@return gameuiPersonalLinkSwitcherEvent
 function gameuiPersonalLinkSwitcherEvent.new(fields) return end

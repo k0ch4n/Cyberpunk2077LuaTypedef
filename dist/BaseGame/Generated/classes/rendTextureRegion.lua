@@ -7,6 +7,6 @@
 ---@field public regionParts rendTextureRegionPart[]
 rendTextureRegion = {}
 
----@param fields? table
+---@param fields? rendTextureRegion
 ---@return rendTextureRegion
 function rendTextureRegion.new(fields) return end

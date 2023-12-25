@@ -4,6 +4,6 @@
 ---@class AIbehaviorDebugger: AIbehaviorIDebugger
 AIbehaviorDebugger = {}
 
----@param fields? table
+---@param fields? AIbehaviorDebugger
 ---@return AIbehaviorDebugger
 function AIbehaviorDebugger.new(fields) return end

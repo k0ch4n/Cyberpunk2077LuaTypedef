@@ -5,7 +5,7 @@
 ---@field public videoWidget inkVideoWidgetReference
 WardrobeOutfitInfoTooltipController = {}
 
----@param fields? table
+---@param fields? WardrobeOutfitInfoTooltipController
 ---@return WardrobeOutfitInfoTooltipController
 function WardrobeOutfitInfoTooltipController.new(fields) return end
 

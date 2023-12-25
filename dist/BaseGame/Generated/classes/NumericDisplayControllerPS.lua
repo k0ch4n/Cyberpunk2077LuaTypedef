@@ -6,7 +6,7 @@
 ---@field private targetNumber Int32
 NumericDisplayControllerPS = {}
 
----@param fields? table
+---@param fields? NumericDisplayControllerPS
 ---@return NumericDisplayControllerPS
 function NumericDisplayControllerPS.new(fields) return end
 

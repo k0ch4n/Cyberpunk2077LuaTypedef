@@ -14,7 +14,7 @@
 ---@field private virtualItems IScriptable[]
 NewPerkSkillsLogicController = {}
 
----@param fields? table
+---@param fields? NewPerkSkillsLogicController
 ---@return NewPerkSkillsLogicController
 function NewPerkSkillsLogicController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public outlineOpacity Float
 OutlineData = {}
 
----@param fields? table
+---@param fields? OutlineData
 ---@return OutlineData
 function OutlineData.new(fields) return end

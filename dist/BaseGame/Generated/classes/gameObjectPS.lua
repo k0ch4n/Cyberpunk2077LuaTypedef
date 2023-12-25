@@ -4,6 +4,6 @@
 ---@class gameObjectPS: gamePersistentState
 gameObjectPS = {}
 
----@param fields? table
+---@param fields? gameObjectPS
 ---@return gameObjectPS
 function gameObjectPS.new(fields) return end

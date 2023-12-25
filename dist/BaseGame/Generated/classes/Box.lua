@@ -6,7 +6,7 @@
 ---@field public Max Vector4
 Box = {}
 
----@param fields? table
+---@param fields? Box
 ---@return Box
 function Box.new(fields) return end
 

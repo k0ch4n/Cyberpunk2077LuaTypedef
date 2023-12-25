@@ -4,6 +4,6 @@
 ---@class gameWeaponsReplicatedState
 gameWeaponsReplicatedState = {}
 
----@param fields? table
+---@param fields? gameWeaponsReplicatedState
 ---@return gameWeaponsReplicatedState
 function gameWeaponsReplicatedState.new(fields) return end

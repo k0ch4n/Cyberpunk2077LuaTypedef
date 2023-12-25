@@ -16,6 +16,6 @@
 ---@field public damp_value_sprint Float
 AnimFeature_ProceduralLean = {}
 
----@param fields? table
+---@param fields? AnimFeature_ProceduralLean
 ---@return AnimFeature_ProceduralLean
 function AnimFeature_ProceduralLean.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected outPosition AIArgumentMapping
 GetOwnPosition = {}
 
----@param fields? table
+---@param fields? GetOwnPosition
 ---@return GetOwnPosition
 function GetOwnPosition.new(fields) return end
 

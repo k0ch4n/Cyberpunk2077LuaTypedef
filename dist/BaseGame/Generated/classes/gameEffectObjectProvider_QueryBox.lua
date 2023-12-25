@@ -7,6 +7,6 @@
 ---@field public inputPosition gameEffectInputParameter_Vector
 gameEffectObjectProvider_QueryBox = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_QueryBox
 ---@return gameEffectObjectProvider_QueryBox
 function gameEffectObjectProvider_QueryBox.new(fields) return end

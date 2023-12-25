@@ -6,7 +6,7 @@
 ---@field private isHard Bool
 ScannerLevel = {}
 
----@param fields? table
+---@param fields? ScannerLevel
 ---@return ScannerLevel
 function ScannerLevel.new(fields) return end
 

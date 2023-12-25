@@ -14,6 +14,6 @@
 ---@field public purelyDirect Bool
 BroadcastEvent = {}
 
----@param fields? table
+---@param fields? BroadcastEvent
 ---@return BroadcastEvent
 function BroadcastEvent.new(fields) return end

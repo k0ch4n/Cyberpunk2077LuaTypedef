@@ -4,6 +4,6 @@
 ---@class gameOnScannableBraindanceClueEnabledEvent: redEvent
 gameOnScannableBraindanceClueEnabledEvent = {}
 
----@param fields? table
+---@param fields? gameOnScannableBraindanceClueEnabledEvent
 ---@return gameOnScannableBraindanceClueEnabledEvent
 function gameOnScannableBraindanceClueEnabledEvent.new(fields) return end

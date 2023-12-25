@@ -6,6 +6,6 @@
 ---@field public resetToDefault Bool
 questSetTargetingQueryRange_NodeType = {}
 
----@param fields? table
+---@param fields? questSetTargetingQueryRange_NodeType
 ---@return questSetTargetingQueryRange_NodeType
 function questSetTargetingQueryRange_NodeType.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public commandParams questVehicleCommandParams
 questVehicleNodeCommandDefinition = {}
 
----@param fields? table
+---@param fields? questVehicleNodeCommandDefinition
 ---@return questVehicleNodeCommandDefinition
 function questVehicleNodeCommandDefinition.new(fields) return end

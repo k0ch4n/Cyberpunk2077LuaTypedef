@@ -4,7 +4,7 @@
 ---@class gameAttack_Continuous: gameAttack_GameEffect
 gameAttack_Continuous = {}
 
----@param fields? table
+---@param fields? gameAttack_Continuous
 ---@return gameAttack_Continuous
 function gameAttack_Continuous.new(fields) return end
 

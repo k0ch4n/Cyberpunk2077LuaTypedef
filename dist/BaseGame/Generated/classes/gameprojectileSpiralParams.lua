@@ -15,6 +15,6 @@
 ---@field public randomizeDirection Bool
 gameprojectileSpiralParams = {}
 
----@param fields? table
+---@param fields? gameprojectileSpiralParams
 ---@return gameprojectileSpiralParams
 function gameprojectileSpiralParams.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field protected failureColor Color
 NetworkMinigameEndScreenController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameEndScreenController
 ---@return NetworkMinigameEndScreenController
 function NetworkMinigameEndScreenController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class DoubleJumpDecisions: JumpDecisions
 DoubleJumpDecisions = {}
 
----@param fields? table
+---@param fields? DoubleJumpDecisions
 ---@return DoubleJumpDecisions
 function DoubleJumpDecisions.new(fields) return end
 

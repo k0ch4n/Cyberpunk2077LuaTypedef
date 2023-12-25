@@ -4,7 +4,7 @@
 ---@class IconsModule: HUDModule
 IconsModule = {}
 
----@param fields? table
+---@param fields? IconsModule
 ---@return IconsModule
 function IconsModule.new(fields) return end
 

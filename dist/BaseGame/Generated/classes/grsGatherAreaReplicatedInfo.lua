@@ -7,6 +7,6 @@
 ---@field public enabled Bool
 grsGatherAreaReplicatedInfo = {}
 
----@param fields? table
+---@param fields? grsGatherAreaReplicatedInfo
 ---@return grsGatherAreaReplicatedInfo
 function grsGatherAreaReplicatedInfo.new(fields) return end

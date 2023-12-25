@@ -7,6 +7,6 @@
 ---@field public killType gameKillType
 gameuiKillInfo = {}
 
----@param fields? table
+---@param fields? gameuiKillInfo
 ---@return gameuiKillInfo
 function gameuiKillInfo.new(fields) return end

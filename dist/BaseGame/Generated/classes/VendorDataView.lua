@@ -6,7 +6,7 @@
 ---@field protected openTime GameTime
 VendorDataView = {}
 
----@param fields? table
+---@param fields? VendorDataView
 ---@return VendorDataView
 function VendorDataView.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public inverted Bool
 questCharacterStatusEffect_CondtionType = {}
 
----@param fields? table
+---@param fields? questCharacterStatusEffect_CondtionType
 ---@return questCharacterStatusEffect_CondtionType
 function questCharacterStatusEffect_CondtionType.new(fields) return end

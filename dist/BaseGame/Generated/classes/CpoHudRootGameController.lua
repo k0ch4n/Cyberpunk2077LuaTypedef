@@ -11,7 +11,7 @@
 ---@field public loadouts inkWidget
 CpoHudRootGameController = {}
 
----@param fields? table
+---@param fields? CpoHudRootGameController
 ---@return CpoHudRootGameController
 function CpoHudRootGameController.new(fields) return end
 

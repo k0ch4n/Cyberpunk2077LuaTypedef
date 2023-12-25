@@ -8,6 +8,6 @@
 ---@field public blockCombat Bool
 questForbiddenTrigger_NodeType = {}
 
----@param fields? table
+---@param fields? questForbiddenTrigger_NodeType
 ---@return questForbiddenTrigger_NodeType
 function questForbiddenTrigger_NodeType.new(fields) return end

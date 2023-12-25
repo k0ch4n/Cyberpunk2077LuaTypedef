@@ -6,6 +6,6 @@
 ---@field public positionMs animVectorLink
 animAnimNode_SetBonePosition = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetBonePosition
 ---@return animAnimNode_SetBonePosition
 function animAnimNode_SetBonePosition.new(fields) return end

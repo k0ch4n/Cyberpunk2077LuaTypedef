@@ -5,6 +5,6 @@
 ---@field public errorMessages String[]
 toolsJiraCommentIssueResult = {}
 
----@param fields? table
+---@param fields? toolsJiraCommentIssueResult
 ---@return toolsJiraCommentIssueResult
 function toolsJiraCommentIssueResult.new(fields) return end

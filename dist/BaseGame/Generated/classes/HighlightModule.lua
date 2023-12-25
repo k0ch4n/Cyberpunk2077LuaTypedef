@@ -4,7 +4,7 @@
 ---@class HighlightModule: HUDModule
 HighlightModule = {}
 
----@param fields? table
+---@param fields? HighlightModule
 ---@return HighlightModule
 function HighlightModule.new(fields) return end
 

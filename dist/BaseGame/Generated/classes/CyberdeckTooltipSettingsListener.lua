@@ -6,7 +6,7 @@
 ---@field private statctrl CyberdeckStatController
 CyberdeckTooltipSettingsListener = {}
 
----@param fields? table
+---@param fields? CyberdeckTooltipSettingsListener
 ---@return CyberdeckTooltipSettingsListener
 function CyberdeckTooltipSettingsListener.new(fields) return end
 

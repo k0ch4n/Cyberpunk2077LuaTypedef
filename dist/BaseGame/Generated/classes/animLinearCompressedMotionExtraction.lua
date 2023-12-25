@@ -9,6 +9,6 @@
 ---@field public posTime Float[]
 animLinearCompressedMotionExtraction = {}
 
----@param fields? table
+---@param fields? animLinearCompressedMotionExtraction
 ---@return animLinearCompressedMotionExtraction
 function animLinearCompressedMotionExtraction.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public targetPosition Vector3
 vehicleStartDynamicMovementEvent = {}
 
----@param fields? table
+---@param fields? vehicleStartDynamicMovementEvent
 ---@return vehicleStartDynamicMovementEvent
 function vehicleStartDynamicMovementEvent.new(fields) return end

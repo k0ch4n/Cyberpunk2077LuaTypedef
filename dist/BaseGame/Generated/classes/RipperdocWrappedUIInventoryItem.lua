@@ -13,7 +13,7 @@
 ---@field public AdditionalData IScriptable
 RipperdocWrappedUIInventoryItem = {}
 
----@param fields? table
+---@param fields? RipperdocWrappedUIInventoryItem
 ---@return RipperdocWrappedUIInventoryItem
 function RipperdocWrappedUIInventoryItem.new(fields) return end
 

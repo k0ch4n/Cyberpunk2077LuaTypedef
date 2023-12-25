@@ -4,7 +4,7 @@
 ---@class gamedataUINameplateDisplayType_Record: gamedataTweakDBRecord
 gamedataUINameplateDisplayType_Record = {}
 
----@param fields? table
+---@param fields? gamedataUINameplateDisplayType_Record
 ---@return gamedataUINameplateDisplayType_Record
 function gamedataUINameplateDisplayType_Record.new(fields) return end
 

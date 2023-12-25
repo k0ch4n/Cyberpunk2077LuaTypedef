@@ -6,7 +6,7 @@
 ---@field public invert Bool
 CurrentStanceNPCStatePrereq = {}
 
----@param fields? table
+---@param fields? CurrentStanceNPCStatePrereq
 ---@return CurrentStanceNPCStatePrereq
 function CurrentStanceNPCStatePrereq.new(fields) return end
 

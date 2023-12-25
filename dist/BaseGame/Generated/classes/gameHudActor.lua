@@ -17,7 +17,7 @@
 ---@field private shouldRefreshQHack Bool
 gameHudActor = {}
 
----@param fields? table
+---@param fields? gameHudActor
 ---@return gameHudActor
 function gameHudActor.new(fields) return end
 

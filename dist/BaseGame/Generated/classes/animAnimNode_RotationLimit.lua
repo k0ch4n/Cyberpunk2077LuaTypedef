@@ -10,6 +10,6 @@
 ---@field public weightLink animFloatLink
 animAnimNode_RotationLimit = {}
 
----@param fields? table
+---@param fields? animAnimNode_RotationLimit
 ---@return animAnimNode_RotationLimit
 function animAnimNode_RotationLimit.new(fields) return end

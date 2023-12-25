@@ -4,7 +4,7 @@
 ---@class gamedataPreventionHeatDataMatrix_Record: gamedataTweakDBRecord
 gamedataPreventionHeatDataMatrix_Record = {}
 
----@param fields? table
+---@param fields? gamedataPreventionHeatDataMatrix_Record
 ---@return gamedataPreventionHeatDataMatrix_Record
 function gamedataPreventionHeatDataMatrix_Record.new(fields) return end
 

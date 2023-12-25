@@ -8,6 +8,6 @@
 ---@field public flaggedAsSilent Bool
 gameItemAddedEvent = {}
 
----@param fields? table
+---@param fields? gameItemAddedEvent
 ---@return gameItemAddedEvent
 function gameItemAddedEvent.new(fields) return end

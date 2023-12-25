@@ -6,7 +6,7 @@
 ---@field private disassembleTargetRequesters gameObject[]
 DisassemblableComponent = {}
 
----@param fields? table
+---@param fields? DisassemblableComponent
 ---@return DisassemblableComponent
 function DisassemblableComponent.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public distanceRange Vector2
 questDynamicVehicleSpawn_NodeType = {}
 
----@param fields? table
+---@param fields? questDynamicVehicleSpawn_NodeType
 ---@return questDynamicVehicleSpawn_NodeType
 function questDynamicVehicleSpawn_NodeType.new(fields) return end

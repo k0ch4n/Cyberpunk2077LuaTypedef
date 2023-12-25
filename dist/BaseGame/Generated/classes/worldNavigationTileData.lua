@@ -13,6 +13,6 @@
 ---@field public allVariantIDs Uint32[]
 worldNavigationTileData = {}
 
----@param fields? table
+---@param fields? worldNavigationTileData
 ---@return worldNavigationTileData
 function worldNavigationTileData.new(fields) return end

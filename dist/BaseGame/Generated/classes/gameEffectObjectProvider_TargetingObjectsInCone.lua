@@ -9,6 +9,6 @@
 ---@field public usePlayerPosAndForward Bool
 gameEffectObjectProvider_TargetingObjectsInCone = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_TargetingObjectsInCone
 ---@return gameEffectObjectProvider_TargetingObjectsInCone
 function gameEffectObjectProvider_TargetingObjectsInCone.new(fields) return end

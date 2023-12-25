@@ -6,6 +6,6 @@
 ---@field public netTime netTime
 entReplicatedItem = {}
 
----@param fields? table
+---@param fields? entReplicatedItem
 ---@return entReplicatedItem
 function entReplicatedItem.new(fields) return end

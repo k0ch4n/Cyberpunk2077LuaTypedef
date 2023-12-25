@@ -10,7 +10,7 @@
 ---@field public objToCheck ObjectToCheck
 StatPoolPrereq = {}
 
----@param fields? table
+---@param fields? StatPoolPrereq
 ---@return StatPoolPrereq
 function StatPoolPrereq.new(fields) return end
 

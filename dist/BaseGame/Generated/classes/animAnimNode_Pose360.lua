@@ -6,6 +6,6 @@
 ---@field public animation CName
 animAnimNode_Pose360 = {}
 
----@param fields? table
+---@param fields? animAnimNode_Pose360
 ---@return animAnimNode_Pose360
 function animAnimNode_Pose360.new(fields) return end

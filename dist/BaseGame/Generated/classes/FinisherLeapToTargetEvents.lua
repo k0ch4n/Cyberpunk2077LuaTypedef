@@ -5,7 +5,7 @@
 ---@field public stateMachineInitData FinisherInitData
 FinisherLeapToTargetEvents = {}
 
----@param fields? table
+---@param fields? FinisherLeapToTargetEvents
 ---@return FinisherLeapToTargetEvents
 function FinisherLeapToTargetEvents.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public save Bool
 questPlayFX_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questPlayFX_NodeTypeParams
 ---@return questPlayFX_NodeTypeParams
 function questPlayFX_NodeTypeParams.new(fields) return end

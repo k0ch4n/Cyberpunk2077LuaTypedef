@@ -5,6 +5,6 @@
 ---@field public wasSeen Bool
 SetQuestTargetWasSeen = {}
 
----@param fields? table
+---@param fields? SetQuestTargetWasSeen
 ---@return SetQuestTargetWasSeen
 function SetQuestTargetWasSeen.new(fields) return end

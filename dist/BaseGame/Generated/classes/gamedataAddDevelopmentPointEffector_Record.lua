@@ -4,7 +4,7 @@
 ---@class gamedataAddDevelopmentPointEffector_Record: gamedataEffector_Record
 gamedataAddDevelopmentPointEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataAddDevelopmentPointEffector_Record
 ---@return gamedataAddDevelopmentPointEffector_Record
 function gamedataAddDevelopmentPointEffector_Record.new(fields) return end
 

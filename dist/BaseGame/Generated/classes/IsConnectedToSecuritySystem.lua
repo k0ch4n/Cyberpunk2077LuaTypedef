@@ -4,7 +4,7 @@
 ---@class IsConnectedToSecuritySystem: AIAutonomousConditions
 IsConnectedToSecuritySystem = {}
 
----@param fields? table
+---@param fields? IsConnectedToSecuritySystem
 ---@return IsConnectedToSecuritySystem
 function IsConnectedToSecuritySystem.new(fields) return end
 

@@ -15,7 +15,7 @@
 ---@field protected inCrafting Bool
 ItemTooltipStatController = {}
 
----@param fields? table
+---@param fields? ItemTooltipStatController
 ---@return ItemTooltipStatController
 function ItemTooltipStatController.new(fields) return end
 

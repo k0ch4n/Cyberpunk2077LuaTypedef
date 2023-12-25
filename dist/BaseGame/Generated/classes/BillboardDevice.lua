@@ -7,7 +7,7 @@
 ---@field private shortGlitchDelayID gameDelayID
 BillboardDevice = {}
 
----@param fields? table
+---@param fields? BillboardDevice
 ---@return BillboardDevice
 function BillboardDevice.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIbehaviorScriptBehaviorDelegate: AIbehaviorBehaviorDelegate
 AIbehaviorScriptBehaviorDelegate = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptBehaviorDelegate
 ---@return AIbehaviorScriptBehaviorDelegate
 function AIbehaviorScriptBehaviorDelegate.new(fields) return end

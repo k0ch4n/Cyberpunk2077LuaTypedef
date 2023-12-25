@@ -6,6 +6,6 @@
 ---@field public end Vector4
 CEvaluatorVectorStartEnd = {}
 
----@param fields? table
+---@param fields? CEvaluatorVectorStartEnd
 ---@return CEvaluatorVectorStartEnd
 function CEvaluatorVectorStartEnd.new(fields) return end

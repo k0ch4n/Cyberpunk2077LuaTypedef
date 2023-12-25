@@ -5,6 +5,6 @@
 ---@field public chunks garmentMeshParamGarmentChunkData[]
 garmentMeshParamGarment = {}
 
----@param fields? table
+---@param fields? garmentMeshParamGarment
 ---@return garmentMeshParamGarment
 function garmentMeshParamGarment.new(fields) return end

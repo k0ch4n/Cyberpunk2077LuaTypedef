@@ -4,7 +4,7 @@
 ---@class ForceKurtStatusEffect: AIbehaviortaskScript
 ForceKurtStatusEffect = {}
 
----@param fields? table
+---@param fields? ForceKurtStatusEffect
 ---@return ForceKurtStatusEffect
 function ForceKurtStatusEffect.new(fields) return end
 

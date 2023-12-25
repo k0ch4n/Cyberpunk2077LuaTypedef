@@ -5,7 +5,7 @@
 ---@field private inverse Bool
 PlayerControlsDevicePrereq = {}
 
----@param fields? table
+---@param fields? PlayerControlsDevicePrereq
 ---@return PlayerControlsDevicePrereq
 function PlayerControlsDevicePrereq.new(fields) return end
 

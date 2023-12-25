@@ -6,7 +6,7 @@
 ---@field public proficiencies ProficiencyDisplayData[]
 AttributeDisplayData = {}
 
----@param fields? table
+---@param fields? AttributeDisplayData
 ---@return AttributeDisplayData
 function AttributeDisplayData.new(fields) return end
 

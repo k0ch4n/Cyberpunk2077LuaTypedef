@@ -5,6 +5,6 @@
 ---@field public tags CName[]
 gameTagSpawParameter = {}
 
----@param fields? table
+---@param fields? gameTagSpawParameter
 ---@return gameTagSpawParameter
 function gameTagSpawParameter.new(fields) return end

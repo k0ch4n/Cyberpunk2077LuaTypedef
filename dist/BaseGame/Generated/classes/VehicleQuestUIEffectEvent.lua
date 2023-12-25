@@ -10,7 +10,7 @@
 ---@field public panamScreenType4 Bool
 VehicleQuestUIEffectEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestUIEffectEvent
 ---@return VehicleQuestUIEffectEvent
 function VehicleQuestUIEffectEvent.new(fields) return end
 

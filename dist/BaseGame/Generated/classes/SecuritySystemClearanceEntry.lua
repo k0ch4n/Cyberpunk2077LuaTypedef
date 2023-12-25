@@ -6,6 +6,6 @@
 ---@field public level ESecurityAccessLevel
 SecuritySystemClearanceEntry = {}
 
----@param fields? table
+---@param fields? SecuritySystemClearanceEntry
 ---@return SecuritySystemClearanceEntry
 function SecuritySystemClearanceEntry.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class HotkeyRefreshRequest: gamePlayerScriptableSystemRequest
 HotkeyRefreshRequest = {}
 
----@param fields? table
+---@param fields? HotkeyRefreshRequest
 ---@return HotkeyRefreshRequest
 function HotkeyRefreshRequest.new(fields) return end

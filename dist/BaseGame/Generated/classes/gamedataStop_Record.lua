@@ -4,6 +4,6 @@
 ---@class gamedataStop_Record: gamedataProjectileCollision_Record
 gamedataStop_Record = {}
 
----@param fields? table
+---@param fields? gamedataStop_Record
 ---@return gamedataStop_Record
 function gamedataStop_Record.new(fields) return end

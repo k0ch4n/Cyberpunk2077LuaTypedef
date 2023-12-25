@@ -5,6 +5,6 @@
 ---@field public enable Bool
 gameaudioeventsSetListenerOverride = {}
 
----@param fields? table
+---@param fields? gameaudioeventsSetListenerOverride
 ---@return gameaudioeventsSetListenerOverride
 function gameaudioeventsSetListenerOverride.new(fields) return end

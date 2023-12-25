@@ -4,6 +4,6 @@
 ---@class inkIsAbleToSwapHorizontally: inkUserData
 inkIsAbleToSwapHorizontally = {}
 
----@param fields? table
+---@param fields? inkIsAbleToSwapHorizontally
 ---@return inkIsAbleToSwapHorizontally
 function inkIsAbleToSwapHorizontally.new(fields) return end

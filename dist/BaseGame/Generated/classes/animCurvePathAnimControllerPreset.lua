@@ -8,6 +8,6 @@
 ---@field public rightAnimationName CName
 animCurvePathAnimControllerPreset = {}
 
----@param fields? table
+---@param fields? animCurvePathAnimControllerPreset
 ---@return animCurvePathAnimControllerPreset
 function animCurvePathAnimControllerPreset.new(fields) return end

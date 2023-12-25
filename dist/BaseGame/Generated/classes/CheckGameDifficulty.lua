@@ -9,7 +9,7 @@
 ---@field public comparedDifficultyValue Int32
 CheckGameDifficulty = {}
 
----@param fields? table
+---@param fields? CheckGameDifficulty
 ---@return CheckGameDifficulty
 function CheckGameDifficulty.new(fields) return end
 

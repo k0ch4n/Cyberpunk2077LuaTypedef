@@ -5,6 +5,6 @@
 ---@field public value Bool
 ExpressionTreeCConstBoolNodeDefinition = {}
 
----@param fields? table
+---@param fields? ExpressionTreeCConstBoolNodeDefinition
 ---@return ExpressionTreeCConstBoolNodeDefinition
 function ExpressionTreeCConstBoolNodeDefinition.new(fields) return end

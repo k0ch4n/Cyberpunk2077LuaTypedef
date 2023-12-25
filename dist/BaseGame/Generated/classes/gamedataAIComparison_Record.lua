@@ -4,7 +4,7 @@
 ---@class gamedataAIComparison_Record: gamedataTweakDBRecord
 gamedataAIComparison_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIComparison_Record
 ---@return gamedataAIComparison_Record
 function gamedataAIComparison_Record.new(fields) return end
 

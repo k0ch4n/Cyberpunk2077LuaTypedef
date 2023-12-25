@@ -4,7 +4,7 @@
 ---@class gamedataMappinPhase_Record: gamedataTweakDBRecord
 gamedataMappinPhase_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinPhase_Record
 ---@return gamedataMappinPhase_Record
 function gamedataMappinPhase_Record.new(fields) return end
 

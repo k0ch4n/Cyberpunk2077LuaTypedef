@@ -5,6 +5,6 @@
 ---@field public dPadItemDirection EDPadSlot
 QuickSlotButtonTap = {}
 
----@param fields? table
+---@param fields? QuickSlotButtonTap
 ---@return QuickSlotButtonTap
 function QuickSlotButtonTap.new(fields) return end

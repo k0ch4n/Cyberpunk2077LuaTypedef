@@ -4,6 +4,6 @@
 ---@class gameJournalBriefing: gameJournalFileEntry
 gameJournalBriefing = {}
 
----@param fields? table
+---@param fields? gameJournalBriefing
 ---@return gameJournalBriefing
 function gameJournalBriefing.new(fields) return end

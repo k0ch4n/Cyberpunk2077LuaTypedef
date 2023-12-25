@@ -37,7 +37,7 @@
 ---@field public useOffMeshBlockedTags Bool
 movePolicies = {}
 
----@param fields? table
+---@param fields? movePolicies
 ---@return movePolicies
 function movePolicies.new(fields) return end
 

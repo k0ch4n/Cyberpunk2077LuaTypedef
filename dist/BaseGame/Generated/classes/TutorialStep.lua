@@ -10,6 +10,6 @@
 ---@field public allowedActions CName[]
 TutorialStep = {}
 
----@param fields? table
+---@param fields? TutorialStep
 ---@return TutorialStep
 function TutorialStep.new(fields) return end

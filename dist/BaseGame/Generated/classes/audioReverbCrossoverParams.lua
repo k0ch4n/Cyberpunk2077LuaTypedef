@@ -6,6 +6,6 @@
 ---@field public fade Float
 audioReverbCrossoverParams = {}
 
----@param fields? table
+---@param fields? audioReverbCrossoverParams
 ---@return audioReverbCrossoverParams
 function audioReverbCrossoverParams.new(fields) return end

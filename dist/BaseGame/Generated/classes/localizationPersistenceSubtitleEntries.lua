@@ -5,6 +5,6 @@
 ---@field public entries localizationPersistenceSubtitleEntry[]
 localizationPersistenceSubtitleEntries = {}
 
----@param fields? table
+---@param fields? localizationPersistenceSubtitleEntries
 ---@return localizationPersistenceSubtitleEntries
 function localizationPersistenceSubtitleEntries.new(fields) return end

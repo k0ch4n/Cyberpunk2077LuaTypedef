@@ -4,7 +4,7 @@
 ---@class gamedataChatterHelperRadius_Record: gamedataTweakDBRecord
 gamedataChatterHelperRadius_Record = {}
 
----@param fields? table
+---@param fields? gamedataChatterHelperRadius_Record
 ---@return gamedataChatterHelperRadius_Record
 function gamedataChatterHelperRadius_Record.new(fields) return end
 

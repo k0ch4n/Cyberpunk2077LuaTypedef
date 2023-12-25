@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AISetSoloModeHandler = {}
 
----@param fields? table
+---@param fields? AISetSoloModeHandler
 ---@return AISetSoloModeHandler
 function AISetSoloModeHandler.new(fields) return end
 

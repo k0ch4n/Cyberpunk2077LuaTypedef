@@ -7,6 +7,6 @@
 ---@field public streamsToBind Uint32
 MaterialTechnique = {}
 
----@param fields? table
+---@param fields? MaterialTechnique
 ---@return MaterialTechnique
 function MaterialTechnique.new(fields) return end

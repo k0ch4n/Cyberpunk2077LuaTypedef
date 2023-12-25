@@ -4,6 +4,6 @@
 ---@class AIbehaviorWaitSummonConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitSummonConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitSummonConditionDefinition
 ---@return AIbehaviorWaitSummonConditionDefinition
 function AIbehaviorWaitSummonConditionDefinition.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public owner gameObject
 VoiceOverQuickHackFeedbackEvent = {}
 
----@param fields? table
+---@param fields? VoiceOverQuickHackFeedbackEvent
 ---@return VoiceOverQuickHackFeedbackEvent
 function VoiceOverQuickHackFeedbackEvent.new(fields) return end

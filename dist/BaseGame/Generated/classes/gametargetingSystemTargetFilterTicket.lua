@@ -4,6 +4,6 @@
 ---@class gametargetingSystemTargetFilterTicket
 gametargetingSystemTargetFilterTicket = {}
 
----@param fields? table
+---@param fields? gametargetingSystemTargetFilterTicket
 ---@return gametargetingSystemTargetFilterTicket
 function gametargetingSystemTargetFilterTicket.new(fields) return end

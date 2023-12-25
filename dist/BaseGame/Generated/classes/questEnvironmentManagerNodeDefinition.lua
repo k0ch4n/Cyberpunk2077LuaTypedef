@@ -5,6 +5,6 @@
 ---@field public type questIEnvironmentManagerNodeType
 questEnvironmentManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questEnvironmentManagerNodeDefinition
 ---@return questEnvironmentManagerNodeDefinition
 function questEnvironmentManagerNodeDefinition.new(fields) return end

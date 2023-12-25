@@ -5,6 +5,6 @@
 ---@field public ProjectileCaught gamebbScriptID_Bool
 LeftHandCyberwareDataDef = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareDataDef
 ---@return LeftHandCyberwareDataDef
 function LeftHandCyberwareDataDef.new(fields) return end

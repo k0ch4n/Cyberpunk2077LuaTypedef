@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextDriverCombatEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextDriverCombatEvents = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextDriverCombatEvents
 ---@return UiQuickHackPanelContextDriverCombatEvents
 function UiQuickHackPanelContextDriverCombatEvents.new(fields) return end
 

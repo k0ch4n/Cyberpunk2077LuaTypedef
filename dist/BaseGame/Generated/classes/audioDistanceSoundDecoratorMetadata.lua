@@ -8,6 +8,6 @@
 ---@field public stopOnlyVirtualSounds Bool
 audioDistanceSoundDecoratorMetadata = {}
 
----@param fields? table
+---@param fields? audioDistanceSoundDecoratorMetadata
 ---@return audioDistanceSoundDecoratorMetadata
 function audioDistanceSoundDecoratorMetadata.new(fields) return end

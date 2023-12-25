@@ -4,7 +4,7 @@
 ---@class OverheatEvents: WeaponEventsTransition
 OverheatEvents = {}
 
----@param fields? table
+---@param fields? OverheatEvents
 ---@return OverheatEvents
 function OverheatEvents.new(fields) return end
 

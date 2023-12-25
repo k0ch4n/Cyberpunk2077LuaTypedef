@@ -10,7 +10,7 @@
 ---@field public IsPlayerInterestingFromSecuritySystemPOV gamebbScriptID_Bool
 PuppetDef = {}
 
----@param fields? table
+---@param fields? PuppetDef
 ---@return PuppetDef
 function PuppetDef.new(fields) return end
 

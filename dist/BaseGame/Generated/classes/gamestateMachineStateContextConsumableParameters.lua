@@ -13,6 +13,6 @@
 ---@field public tweakDBIDParameters gamestateMachineConsumableParameterTweakDBID
 gamestateMachineStateContextConsumableParameters = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateContextConsumableParameters
 ---@return gamestateMachineStateContextConsumableParameters
 function gamestateMachineStateContextConsumableParameters.new(fields) return end

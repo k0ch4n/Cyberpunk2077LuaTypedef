@@ -5,6 +5,6 @@
 ---@field public velocity Vector4
 entRagdollNotifyVelocityTresholdEvent = {}
 
----@param fields? table
+---@param fields? entRagdollNotifyVelocityTresholdEvent
 ---@return entRagdollNotifyVelocityTresholdEvent
 function entRagdollNotifyVelocityTresholdEvent.new(fields) return end

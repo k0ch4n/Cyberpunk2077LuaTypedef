@@ -4,7 +4,7 @@
 ---@class SlideDecisions: CrouchDecisions
 SlideDecisions = {}
 
----@param fields? table
+---@param fields? SlideDecisions
 ---@return SlideDecisions
 function SlideDecisions.new(fields) return end
 

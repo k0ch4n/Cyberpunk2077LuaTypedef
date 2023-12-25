@@ -7,7 +7,7 @@
 ---@field public aimOutTime Float
 gameweaponAnimFeature_AimPlayer = {}
 
----@param fields? table
+---@param fields? gameweaponAnimFeature_AimPlayer
 ---@return gameweaponAnimFeature_AimPlayer
 function gameweaponAnimFeature_AimPlayer.new(fields) return end
 

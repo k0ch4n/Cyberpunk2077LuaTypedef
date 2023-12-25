@@ -5,6 +5,6 @@
 ---@field public state CName
 inkanimChangeStateEvent = {}
 
----@param fields? table
+---@param fields? inkanimChangeStateEvent
 ---@return inkanimChangeStateEvent
 function inkanimChangeStateEvent.new(fields) return end

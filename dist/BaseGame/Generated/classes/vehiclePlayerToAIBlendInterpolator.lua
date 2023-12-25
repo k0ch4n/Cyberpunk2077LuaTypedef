@@ -4,6 +4,6 @@
 ---@class vehiclePlayerToAIBlendInterpolator
 vehiclePlayerToAIBlendInterpolator = {}
 
----@param fields? table
+---@param fields? vehiclePlayerToAIBlendInterpolator
 ---@return vehiclePlayerToAIBlendInterpolator
 function vehiclePlayerToAIBlendInterpolator.new(fields) return end

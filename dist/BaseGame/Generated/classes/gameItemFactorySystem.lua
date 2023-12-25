@@ -4,6 +4,6 @@
 ---@class gameItemFactorySystem: gameIItemFactorySystem
 gameItemFactorySystem = {}
 
----@param fields? table
+---@param fields? gameItemFactorySystem
 ---@return gameItemFactorySystem
 function gameItemFactorySystem.new(fields) return end

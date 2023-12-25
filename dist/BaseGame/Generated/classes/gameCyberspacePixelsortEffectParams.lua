@@ -11,6 +11,6 @@
 ---@field public timeBlend Float
 gameCyberspacePixelsortEffectParams = {}
 
----@param fields? table
+---@param fields? gameCyberspacePixelsortEffectParams
 ---@return gameCyberspacePixelsortEffectParams
 function gameCyberspacePixelsortEffectParams.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public propertyType CName
 gameBlackboardPropertyBindingDefinition = {}
 
----@param fields? table
+---@param fields? gameBlackboardPropertyBindingDefinition
 ---@return gameBlackboardPropertyBindingDefinition
 function gameBlackboardPropertyBindingDefinition.new(fields) return end

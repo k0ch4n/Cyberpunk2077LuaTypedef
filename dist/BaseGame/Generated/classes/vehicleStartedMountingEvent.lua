@@ -10,6 +10,6 @@
 ---@field public silent Bool
 vehicleStartedMountingEvent = {}
 
----@param fields? table
+---@param fields? vehicleStartedMountingEvent
 ---@return vehicleStartedMountingEvent
 function vehicleStartedMountingEvent.new(fields) return end

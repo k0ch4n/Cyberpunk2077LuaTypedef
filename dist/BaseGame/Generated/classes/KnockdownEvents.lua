@@ -12,7 +12,7 @@
 ---@field public bikeKnockdown Bool
 KnockdownEvents = {}
 
----@param fields? table
+---@param fields? KnockdownEvents
 ---@return KnockdownEvents
 function KnockdownEvents.new(fields) return end
 

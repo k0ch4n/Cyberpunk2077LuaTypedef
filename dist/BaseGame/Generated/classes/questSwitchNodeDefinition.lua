@@ -6,6 +6,6 @@
 ---@field public conditions questConditionItem[]
 questSwitchNodeDefinition = {}
 
----@param fields? table
+---@param fields? questSwitchNodeDefinition
 ---@return questSwitchNodeDefinition
 function questSwitchNodeDefinition.new(fields) return end

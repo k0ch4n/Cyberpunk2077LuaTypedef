@@ -6,6 +6,6 @@
 ---@field public showVendor gamebbScriptID_Bool
 InteractiveDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? InteractiveDeviceBlackboardDef
 ---@return InteractiveDeviceBlackboardDef
 function InteractiveDeviceBlackboardDef.new(fields) return end

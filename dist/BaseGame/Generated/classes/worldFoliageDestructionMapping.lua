@@ -6,6 +6,6 @@
 ---@field public destructibleMesh CMesh
 worldFoliageDestructionMapping = {}
 
----@param fields? table
+---@param fields? worldFoliageDestructionMapping
 ---@return worldFoliageDestructionMapping
 function worldFoliageDestructionMapping.new(fields) return end

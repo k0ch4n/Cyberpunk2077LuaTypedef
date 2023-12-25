@@ -5,7 +5,7 @@
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectOutputParameter_Int = {}
 
----@param fields? table
+---@param fields? gameEffectOutputParameter_Int
 ---@return gameEffectOutputParameter_Int
 function gameEffectOutputParameter_Int.new(fields) return end
 

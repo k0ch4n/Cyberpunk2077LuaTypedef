@@ -4,7 +4,7 @@
 ---@class QuestExplode: ActionBool
 QuestExplode = {}
 
----@param fields? table
+---@param fields? QuestExplode
 ---@return QuestExplode
 function QuestExplode.new(fields) return end
 

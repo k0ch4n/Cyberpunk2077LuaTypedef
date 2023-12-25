@@ -8,6 +8,6 @@
 ---@field public files gamedataFileNode[]
 gamedataPackageNode = {}
 
----@param fields? table
+---@param fields? gamedataPackageNode
 ---@return gamedataPackageNode
 function gamedataPackageNode.new(fields) return end

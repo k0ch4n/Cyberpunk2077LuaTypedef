@@ -10,6 +10,6 @@
 ---@field public fovExposureDegrees Float
 gameCoverObject = {}
 
----@param fields? table
+---@param fields? gameCoverObject
 ---@return gameCoverObject
 function gameCoverObject.new(fields) return end

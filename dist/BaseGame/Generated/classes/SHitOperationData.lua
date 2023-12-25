@@ -11,6 +11,6 @@
 ---@field public operation SBaseDeviceOperationData
 SHitOperationData = {}
 
----@param fields? table
+---@param fields? SHitOperationData
 ---@return SHitOperationData
 function SHitOperationData.new(fields) return end

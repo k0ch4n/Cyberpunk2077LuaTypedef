@@ -4,7 +4,7 @@
 ---@class ItemCraftingPreviewGameController: gameuiItemPreviewGameController
 ItemCraftingPreviewGameController = {}
 
----@param fields? table
+---@param fields? ItemCraftingPreviewGameController
 ---@return ItemCraftingPreviewGameController
 function ItemCraftingPreviewGameController.new(fields) return end
 

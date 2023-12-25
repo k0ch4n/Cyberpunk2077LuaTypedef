@@ -18,7 +18,7 @@
 ---@field private BulletCollisionEvaluator BulletCollisionEvaluator
 ExplodingBullet = {}
 
----@param fields? table
+---@param fields? ExplodingBullet
 ---@return ExplodingBullet
 function ExplodingBullet.new(fields) return end
 

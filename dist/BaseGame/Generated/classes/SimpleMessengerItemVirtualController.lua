@@ -16,7 +16,7 @@
 ---@field private isItemToggled Bool
 SimpleMessengerItemVirtualController = {}
 
----@param fields? table
+---@param fields? SimpleMessengerItemVirtualController
 ---@return SimpleMessengerItemVirtualController
 function SimpleMessengerItemVirtualController.new(fields) return end
 

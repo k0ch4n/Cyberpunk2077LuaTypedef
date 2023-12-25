@@ -4,7 +4,7 @@
 ---@class CustomEventSender: AISignalSenderTask
 CustomEventSender = {}
 
----@param fields? table
+---@param fields? CustomEventSender
 ---@return CustomEventSender
 function CustomEventSender.new(fields) return end
 

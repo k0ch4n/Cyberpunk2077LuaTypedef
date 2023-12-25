@@ -11,6 +11,6 @@
 ---@field public namePersistentInstanceEditable CName
 cpTestComponentPS = {}
 
----@param fields? table
+---@param fields? cpTestComponentPS
 ---@return cpTestComponentPS
 function cpTestComponentPS.new(fields) return end

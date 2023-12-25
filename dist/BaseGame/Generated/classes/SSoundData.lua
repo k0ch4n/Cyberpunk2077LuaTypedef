@@ -9,6 +9,6 @@
 ---@field public onHoverOutKey CName
 SSoundData = {}
 
----@param fields? table
+---@param fields? SSoundData
 ---@return SSoundData
 function SSoundData.new(fields) return end

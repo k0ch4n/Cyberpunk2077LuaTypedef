@@ -5,6 +5,6 @@
 ---@field public numberOfUses Int32
 MovableDeviceSetup = {}
 
----@param fields? table
+---@param fields? MovableDeviceSetup
 ---@return MovableDeviceSetup
 function MovableDeviceSetup.new(fields) return end

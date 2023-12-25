@@ -11,7 +11,7 @@
 ---@field private currentState gamePSMLeftHandCyberware
 CrosshairGameController_Launcher = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Launcher
 ---@return CrosshairGameController_Launcher
 function CrosshairGameController_Launcher.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public forceCreatingToken Bool
 questForceTokenActivation_NodeSubType = {}
 
----@param fields? table
+---@param fields? questForceTokenActivation_NodeSubType
 ---@return questForceTokenActivation_NodeSubType
 function questForceTokenActivation_NodeSubType.new(fields) return end

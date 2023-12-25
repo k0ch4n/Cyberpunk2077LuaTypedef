@@ -13,6 +13,6 @@
 ---@field public flybyMinDistance Float
 audioWeaponAmmoSettingsMap = {}
 
----@param fields? table
+---@param fields? audioWeaponAmmoSettingsMap
 ---@return audioWeaponAmmoSettingsMap
 function audioWeaponAmmoSettingsMap.new(fields) return end

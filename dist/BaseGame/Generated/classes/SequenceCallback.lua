@@ -7,6 +7,6 @@
 ---@field public actionToForward ScriptableDeviceAction
 SequenceCallback = {}
 
----@param fields? table
+---@param fields? SequenceCallback
 ---@return SequenceCallback
 function SequenceCallback.new(fields) return end

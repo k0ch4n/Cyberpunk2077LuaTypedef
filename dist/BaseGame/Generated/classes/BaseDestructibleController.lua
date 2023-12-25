@@ -4,7 +4,7 @@
 ---@class BaseDestructibleController: ScriptableDeviceComponent
 BaseDestructibleController = {}
 
----@param fields? table
+---@param fields? BaseDestructibleController
 ---@return BaseDestructibleController
 function BaseDestructibleController.new(fields) return end
 

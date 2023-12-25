@@ -5,6 +5,6 @@
 ---@field public strength Float
 MotionBlurAreaSettings = {}
 
----@param fields? table
+---@param fields? MotionBlurAreaSettings
 ---@return MotionBlurAreaSettings
 function MotionBlurAreaSettings.new(fields) return end

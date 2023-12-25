@@ -5,6 +5,6 @@
 ---@field public squadName CName
 AddPingedSquadRequest = {}
 
----@param fields? table
+---@param fields? AddPingedSquadRequest
 ---@return AddPingedSquadRequest
 function AddPingedSquadRequest.new(fields) return end

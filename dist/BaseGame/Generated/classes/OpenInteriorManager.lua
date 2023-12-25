@@ -4,7 +4,7 @@
 ---@class OpenInteriorManager: ActionBool
 OpenInteriorManager = {}
 
----@param fields? table
+---@param fields? OpenInteriorManager
 ---@return OpenInteriorManager
 function OpenInteriorManager.new(fields) return end
 

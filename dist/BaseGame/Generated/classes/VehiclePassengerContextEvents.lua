@@ -4,7 +4,7 @@
 ---@class VehiclePassengerContextEvents: InputContextTransitionEvents
 VehiclePassengerContextEvents = {}
 
----@param fields? table
+---@param fields? VehiclePassengerContextEvents
 ---@return VehiclePassengerContextEvents
 function VehiclePassengerContextEvents.new(fields) return end
 

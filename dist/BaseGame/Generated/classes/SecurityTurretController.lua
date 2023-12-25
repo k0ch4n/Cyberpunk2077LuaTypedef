@@ -4,7 +4,7 @@
 ---@class SecurityTurretController: SensorDeviceController
 SecurityTurretController = {}
 
----@param fields? table
+---@param fields? SecurityTurretController
 ---@return SecurityTurretController
 function SecurityTurretController.new(fields) return end
 

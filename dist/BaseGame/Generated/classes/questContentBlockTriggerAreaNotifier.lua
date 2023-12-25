@@ -5,6 +5,6 @@
 ---@field public resetTokenSpawnTimer Bool
 questContentBlockTriggerAreaNotifier = {}
 
----@param fields? table
+---@param fields? questContentBlockTriggerAreaNotifier
 ---@return questContentBlockTriggerAreaNotifier
 function questContentBlockTriggerAreaNotifier.new(fields) return end

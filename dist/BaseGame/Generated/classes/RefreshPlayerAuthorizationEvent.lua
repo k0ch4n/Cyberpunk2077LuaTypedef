@@ -4,6 +4,6 @@
 ---@class RefreshPlayerAuthorizationEvent: redEvent
 RefreshPlayerAuthorizationEvent = {}
 
----@param fields? table
+---@param fields? RefreshPlayerAuthorizationEvent
 ---@return RefreshPlayerAuthorizationEvent
 function RefreshPlayerAuthorizationEvent.new(fields) return end

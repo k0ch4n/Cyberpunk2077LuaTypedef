@@ -14,7 +14,7 @@
 ---@field private regenMod gameStatPoolModifier
 StatPoolBasedTimeBankEffector = {}
 
----@param fields? table
+---@param fields? StatPoolBasedTimeBankEffector
 ---@return StatPoolBasedTimeBankEffector
 function StatPoolBasedTimeBankEffector.new(fields) return end
 

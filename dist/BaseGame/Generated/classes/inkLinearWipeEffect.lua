@@ -6,6 +6,6 @@
 ---@field public transition Float
 inkLinearWipeEffect = {}
 
----@param fields? table
+---@param fields? inkLinearWipeEffect
 ---@return inkLinearWipeEffect
 function inkLinearWipeEffect.new(fields) return end

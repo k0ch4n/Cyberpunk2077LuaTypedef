@@ -9,7 +9,7 @@
 ---@field private vehBB gameIBlackboard
 gearboxLogicController = {}
 
----@param fields? table
+---@param fields? gearboxLogicController
 ---@return gearboxLogicController
 function gearboxLogicController.new(fields) return end
 

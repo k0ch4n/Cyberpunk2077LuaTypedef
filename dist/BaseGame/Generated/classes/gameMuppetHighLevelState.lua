@@ -6,6 +6,6 @@
 ---@field public deathFrameId Uint32
 gameMuppetHighLevelState = {}
 
----@param fields? table
+---@param fields? gameMuppetHighLevelState
 ---@return gameMuppetHighLevelState
 function gameMuppetHighLevelState.new(fields) return end

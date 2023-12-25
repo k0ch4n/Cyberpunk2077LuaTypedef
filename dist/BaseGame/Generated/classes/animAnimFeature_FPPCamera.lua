@@ -46,7 +46,7 @@
 ---@field public t4CameraControlIdleOrientation Quaternion
 animAnimFeature_FPPCamera = {}
 
----@param fields? table
+---@param fields? animAnimFeature_FPPCamera
 ---@return animAnimFeature_FPPCamera
 function animAnimFeature_FPPCamera.new(fields) return end
 

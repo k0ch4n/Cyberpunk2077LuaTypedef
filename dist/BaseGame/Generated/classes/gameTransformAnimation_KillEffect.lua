@@ -5,6 +5,6 @@
 ---@field public effectTag CName
 gameTransformAnimation_KillEffect = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_KillEffect
 ---@return gameTransformAnimation_KillEffect
 function gameTransformAnimation_KillEffect.new(fields) return end

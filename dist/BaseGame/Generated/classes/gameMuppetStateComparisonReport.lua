@@ -6,6 +6,6 @@
 ---@field public items gameMuppetComparisonReportItem[]
 gameMuppetStateComparisonReport = {}
 
----@param fields? table
+---@param fields? gameMuppetStateComparisonReport
 ---@return gameMuppetStateComparisonReport
 function gameMuppetStateComparisonReport.new(fields) return end

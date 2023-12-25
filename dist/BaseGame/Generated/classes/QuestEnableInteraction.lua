@@ -4,7 +4,7 @@
 ---@class QuestEnableInteraction: ActionBool
 QuestEnableInteraction = {}
 
----@param fields? table
+---@param fields? QuestEnableInteraction
 ---@return QuestEnableInteraction
 function QuestEnableInteraction.new(fields) return end
 

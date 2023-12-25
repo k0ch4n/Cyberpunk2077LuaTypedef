@@ -9,6 +9,6 @@
 ---@field public phaseGraph questGraphDefinition
 questPhaseNodeDefinition = {}
 
----@param fields? table
+---@param fields? questPhaseNodeDefinition
 ---@return questPhaseNodeDefinition
 function questPhaseNodeDefinition.new(fields) return end

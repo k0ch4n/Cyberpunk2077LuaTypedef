@@ -4,6 +4,6 @@
 ---@class AISquadAudioMemberBase: AISquadMemberBase
 AISquadAudioMemberBase = {}
 
----@param fields? table
+---@param fields? AISquadAudioMemberBase
 ---@return AISquadAudioMemberBase
 function AISquadAudioMemberBase.new(fields) return end

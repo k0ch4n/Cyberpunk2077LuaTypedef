@@ -4,6 +4,6 @@
 ---@class servicesGameServicesWin: servicesGameServices
 servicesGameServicesWin = {}
 
----@param fields? table
+---@param fields? servicesGameServicesWin
 ---@return servicesGameServicesWin
 function servicesGameServicesWin.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class IgnoreAlreadyAffectedEntities: gameEffectObjectSingleFilter_Scripted
 IgnoreAlreadyAffectedEntities = {}
 
----@param fields? table
+---@param fields? IgnoreAlreadyAffectedEntities
 ---@return IgnoreAlreadyAffectedEntities
 function IgnoreAlreadyAffectedEntities.new(fields) return end
 

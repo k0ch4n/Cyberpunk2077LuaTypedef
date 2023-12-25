@@ -8,6 +8,6 @@
 ---@field public isAvailable Bool
 FollowSlot = {}
 
----@param fields? table
+---@param fields? FollowSlot
 ---@return FollowSlot
 function FollowSlot.new(fields) return end

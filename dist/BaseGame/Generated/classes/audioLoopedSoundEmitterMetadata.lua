@@ -5,6 +5,6 @@
 ---@field public loopSound CName
 audioLoopedSoundEmitterMetadata = {}
 
----@param fields? table
+---@param fields? audioLoopedSoundEmitterMetadata
 ---@return audioLoopedSoundEmitterMetadata
 function audioLoopedSoundEmitterMetadata.new(fields) return end

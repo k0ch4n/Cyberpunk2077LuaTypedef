@@ -4,6 +4,6 @@
 ---@class gameuiResetStickersEvent: redEvent
 gameuiResetStickersEvent = {}
 
----@param fields? table
+---@param fields? gameuiResetStickersEvent
 ---@return gameuiResetStickersEvent
 function gameuiResetStickersEvent.new(fields) return end

@@ -15,6 +15,6 @@
 ---@field public targetTextureDiffsData rendRenderMorphTargetMeshBlobTextureData[]
 rendRenderMorphTargetMeshBlobHeader = {}
 
----@param fields? table
+---@param fields? rendRenderMorphTargetMeshBlobHeader
 ---@return rendRenderMorphTargetMeshBlobHeader
 function rendRenderMorphTargetMeshBlobHeader.new(fields) return end

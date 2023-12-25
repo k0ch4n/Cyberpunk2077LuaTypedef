@@ -4,7 +4,7 @@
 ---@class CrouchSprintDecisions: CrouchDecisions
 CrouchSprintDecisions = {}
 
----@param fields? table
+---@param fields? CrouchSprintDecisions
 ---@return CrouchSprintDecisions
 function CrouchSprintDecisions.new(fields) return end
 

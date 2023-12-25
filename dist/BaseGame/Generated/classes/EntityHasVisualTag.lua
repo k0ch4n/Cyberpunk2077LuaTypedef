@@ -6,7 +6,7 @@
 ---@field private hasTag Bool
 EntityHasVisualTag = {}
 
----@param fields? table
+---@param fields? EntityHasVisualTag
 ---@return EntityHasVisualTag
 function EntityHasVisualTag.new(fields) return end
 

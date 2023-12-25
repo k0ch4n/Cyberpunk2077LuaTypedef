@@ -5,6 +5,6 @@
 ---@field public buffer serializationDeferredDataBuffer
 physicsDeferredCollection = {}
 
----@param fields? table
+---@param fields? physicsDeferredCollection
 ---@return physicsDeferredCollection
 function physicsDeferredCollection.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public isInputRequested Bool
 inkTutorialOverlayInputRequest = {}
 
----@param fields? table
+---@param fields? inkTutorialOverlayInputRequest
 ---@return inkTutorialOverlayInputRequest
 function inkTutorialOverlayInputRequest.new(fields) return end

@@ -21,7 +21,7 @@
 ---@field public shootingFromCar gamebbScriptID_Bool
 AIShootingDataDef = {}
 
----@param fields? table
+---@param fields? AIShootingDataDef
 ---@return AIShootingDataDef
 function AIShootingDataDef.new(fields) return end
 

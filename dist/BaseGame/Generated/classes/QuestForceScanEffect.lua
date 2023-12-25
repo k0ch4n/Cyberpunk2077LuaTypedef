@@ -4,7 +4,7 @@
 ---@class QuestForceScanEffect: ActionBool
 QuestForceScanEffect = {}
 
----@param fields? table
+---@param fields? QuestForceScanEffect
 ---@return QuestForceScanEffect
 function QuestForceScanEffect.new(fields) return end
 

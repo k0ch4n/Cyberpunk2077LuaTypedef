@@ -7,7 +7,7 @@
 ---@field private startEvt StartOverheatEffectEvent
 OverheatStatListener = {}
 
----@param fields? table
+---@param fields? OverheatStatListener
 ---@return OverheatStatListener
 function OverheatStatListener.new(fields) return end
 

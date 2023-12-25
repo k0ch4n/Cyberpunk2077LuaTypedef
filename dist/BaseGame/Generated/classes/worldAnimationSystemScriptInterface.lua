@@ -4,7 +4,7 @@
 ---@class worldAnimationSystemScriptInterface: IScriptable
 worldAnimationSystemScriptInterface = {}
 
----@param fields? table
+---@param fields? worldAnimationSystemScriptInterface
 ---@return worldAnimationSystemScriptInterface
 function worldAnimationSystemScriptInterface.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public weightFloatTrack CName
 animMultipleParentConstraint_JsonProperties = {}
 
----@param fields? table
+---@param fields? animMultipleParentConstraint_JsonProperties
 ---@return animMultipleParentConstraint_JsonProperties
 function animMultipleParentConstraint_JsonProperties.new(fields) return end

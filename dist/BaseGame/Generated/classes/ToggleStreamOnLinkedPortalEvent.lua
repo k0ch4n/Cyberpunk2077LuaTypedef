@@ -5,6 +5,6 @@
 ---@field public activate Bool
 ToggleStreamOnLinkedPortalEvent = {}
 
----@param fields? table
+---@param fields? ToggleStreamOnLinkedPortalEvent
 ---@return ToggleStreamOnLinkedPortalEvent
 function ToggleStreamOnLinkedPortalEvent.new(fields) return end

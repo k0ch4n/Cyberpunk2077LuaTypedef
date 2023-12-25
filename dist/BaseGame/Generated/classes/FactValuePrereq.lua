@@ -8,7 +8,7 @@
 ---@field public repeated Bool
 FactValuePrereq = {}
 
----@param fields? table
+---@param fields? FactValuePrereq
 ---@return FactValuePrereq
 function FactValuePrereq.new(fields) return end
 

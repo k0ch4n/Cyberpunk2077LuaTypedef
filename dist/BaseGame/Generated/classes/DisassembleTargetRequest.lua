@@ -5,6 +5,6 @@
 ---@field public requester gameObject
 DisassembleTargetRequest = {}
 
----@param fields? table
+---@param fields? DisassembleTargetRequest
 ---@return DisassembleTargetRequest
 function DisassembleTargetRequest.new(fields) return end

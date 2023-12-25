@@ -4,6 +4,6 @@
 ---@class PatchNotesPopupData: inkGameNotificationData
 PatchNotesPopupData = {}
 
----@param fields? table
+---@param fields? PatchNotesPopupData
 ---@return PatchNotesPopupData
 function PatchNotesPopupData.new(fields) return end

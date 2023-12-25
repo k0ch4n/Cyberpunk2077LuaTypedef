@@ -5,6 +5,6 @@
 ---@field public mapIndex Int32
 BunkerMapObject = {}
 
----@param fields? table
+---@param fields? BunkerMapObject
 ---@return BunkerMapObject
 function BunkerMapObject.new(fields) return end

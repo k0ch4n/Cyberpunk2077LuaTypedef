@@ -5,6 +5,6 @@
 ---@field public e3_lockInReferencePose Bool
 AnimFeature_DeviceWorkspot = {}
 
----@param fields? table
+---@param fields? AnimFeature_DeviceWorkspot
 ---@return AnimFeature_DeviceWorkspot
 function AnimFeature_DeviceWorkspot.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionRandomize_Record: gamedataAISubAction_Record
 gamedataAISubActionRandomize_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionRandomize_Record
 ---@return gamedataAISubActionRandomize_Record
 function gamedataAISubActionRandomize_Record.new(fields) return end
 

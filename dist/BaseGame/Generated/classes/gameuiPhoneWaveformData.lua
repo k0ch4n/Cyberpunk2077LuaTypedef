@@ -5,6 +5,6 @@
 ---@field public points Vector4[]
 gameuiPhoneWaveformData = {}
 
----@param fields? table
+---@param fields? gameuiPhoneWaveformData
 ---@return gameuiPhoneWaveformData
 function gameuiPhoneWaveformData.new(fields) return end

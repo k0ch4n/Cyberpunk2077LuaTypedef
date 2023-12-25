@@ -6,6 +6,6 @@
 ---@field public offset Vector3
 gameTransformAnimation_Rotation_MarkerRotation = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Rotation_MarkerRotation
 ---@return gameTransformAnimation_Rotation_MarkerRotation
 function gameTransformAnimation_Rotation_MarkerRotation.new(fields) return end

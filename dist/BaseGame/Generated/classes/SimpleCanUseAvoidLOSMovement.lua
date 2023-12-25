@@ -6,7 +6,7 @@
 ---@field private result Bool
 SimpleCanUseAvoidLOSMovement = {}
 
----@param fields? table
+---@param fields? SimpleCanUseAvoidLOSMovement
 ---@return SimpleCanUseAvoidLOSMovement
 function SimpleCanUseAvoidLOSMovement.new(fields) return end
 

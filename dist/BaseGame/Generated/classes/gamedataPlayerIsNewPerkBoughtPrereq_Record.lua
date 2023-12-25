@@ -4,7 +4,7 @@
 ---@class gamedataPlayerIsNewPerkBoughtPrereq_Record: gamedataIPrereq_Record
 gamedataPlayerIsNewPerkBoughtPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataPlayerIsNewPerkBoughtPrereq_Record
 ---@return gamedataPlayerIsNewPerkBoughtPrereq_Record
 function gamedataPlayerIsNewPerkBoughtPrereq_Record.new(fields) return end
 

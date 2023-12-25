@@ -4,6 +4,6 @@
 ---@class inkGameState: inkIStateMachineState
 inkGameState = {}
 
----@param fields? table
+---@param fields? inkGameState
 ---@return inkGameState
 function inkGameState.new(fields) return end

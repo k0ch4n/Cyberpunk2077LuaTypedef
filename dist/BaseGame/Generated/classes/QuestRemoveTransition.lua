@@ -5,7 +5,7 @@
 ---@field public removeTransitionFrom Int32
 QuestRemoveTransition = {}
 
----@param fields? table
+---@param fields? QuestRemoveTransition
 ---@return QuestRemoveTransition
 function QuestRemoveTransition.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class DownloadFundsAction: BaseItemAction
 DownloadFundsAction = {}
 
----@param fields? table
+---@param fields? DownloadFundsAction
 ---@return DownloadFundsAction
 function DownloadFundsAction.new(fields) return end

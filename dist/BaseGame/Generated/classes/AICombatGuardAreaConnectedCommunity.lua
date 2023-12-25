@@ -6,6 +6,6 @@
 ---@field public conditions AIICombatGuardAreaCondition[]
 AICombatGuardAreaConnectedCommunity = {}
 
----@param fields? table
+---@param fields? AICombatGuardAreaConnectedCommunity
 ---@return AICombatGuardAreaConnectedCommunity
 function AICombatGuardAreaConnectedCommunity.new(fields) return end

@@ -50,7 +50,7 @@
 ---@field private weaponizedVehicleMissileLauncherRechargeElapsedTime Float
 gameuiWeaponRosterGameController = {}
 
----@param fields? table
+---@param fields? gameuiWeaponRosterGameController
 ---@return gameuiWeaponRosterGameController
 function gameuiWeaponRosterGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ParryReactionTask: AIbehaviortaskScript
 ParryReactionTask = {}
 
----@param fields? table
+---@param fields? ParryReactionTask
 ---@return ParryReactionTask
 function ParryReactionTask.new(fields) return end
 

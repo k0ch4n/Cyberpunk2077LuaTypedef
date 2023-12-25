@@ -15,6 +15,6 @@
 ---@field public crowdBlacklist redTagList
 worldAISpotNode = {}
 
----@param fields? table
+---@param fields? worldAISpotNode
 ---@return worldAISpotNode
 function worldAISpotNode.new(fields) return end

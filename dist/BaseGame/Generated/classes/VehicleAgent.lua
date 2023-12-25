@@ -13,7 +13,7 @@
 ---@field public nearTimeStamp Float
 VehicleAgent = {}
 
----@param fields? table
+---@param fields? VehicleAgent
 ---@return VehicleAgent
 function VehicleAgent.new(fields) return end
 

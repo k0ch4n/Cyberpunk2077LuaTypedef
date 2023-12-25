@@ -4,7 +4,7 @@
 ---@class InstallKeylogger: ActionBool
 InstallKeylogger = {}
 
----@param fields? table
+---@param fields? InstallKeylogger
 ---@return InstallKeylogger
 function InstallKeylogger.new(fields) return end
 

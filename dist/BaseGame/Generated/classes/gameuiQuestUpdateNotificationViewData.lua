@@ -14,7 +14,7 @@
 ---@field public priority EGenericNotificationPriority
 gameuiQuestUpdateNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiQuestUpdateNotificationViewData
 ---@return gameuiQuestUpdateNotificationViewData
 function gameuiQuestUpdateNotificationViewData.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public npcPuppet ScriptedPuppet
 UploadFromNPCToNPCListener = {}
 
----@param fields? table
+---@param fields? UploadFromNPCToNPCListener
 ---@return UploadFromNPCToNPCListener
 function UploadFromNPCToNPCListener.new(fields) return end
 

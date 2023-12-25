@@ -5,6 +5,6 @@
 ---@field public entityID entEntityID
 PreventionUnitDespawnedRequest = {}
 
----@param fields? table
+---@param fields? PreventionUnitDespawnedRequest
 ---@return PreventionUnitDespawnedRequest
 function PreventionUnitDespawnedRequest.new(fields) return end

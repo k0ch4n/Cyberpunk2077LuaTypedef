@@ -5,6 +5,6 @@
 ---@field public enable Bool
 questEntityManagerEnablePlayerTPPRepresentation_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerEnablePlayerTPPRepresentation_NodeType
 ---@return questEntityManagerEnablePlayerTPPRepresentation_NodeType
 function questEntityManagerEnablePlayerTPPRepresentation_NodeType.new(fields) return end

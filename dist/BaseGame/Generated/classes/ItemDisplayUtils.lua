@@ -4,7 +4,7 @@
 ---@class ItemDisplayUtils: IScriptable
 ItemDisplayUtils = {}
 
----@param fields? table
+---@param fields? ItemDisplayUtils
 ---@return ItemDisplayUtils
 function ItemDisplayUtils.new(fields) return end
 

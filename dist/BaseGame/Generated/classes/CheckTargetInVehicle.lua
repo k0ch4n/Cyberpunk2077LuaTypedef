@@ -4,7 +4,7 @@
 ---@class CheckTargetInVehicle: AIbehaviorconditionScript
 CheckTargetInVehicle = {}
 
----@param fields? table
+---@param fields? CheckTargetInVehicle
 ---@return CheckTargetInVehicle
 function CheckTargetInVehicle.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public tooManyPlayingSoundsLimitation audioLimitedSound[]
 audioSoundsLimiterMetadata = {}
 
----@param fields? table
+---@param fields? audioSoundsLimiterMetadata
 ---@return audioSoundsLimiterMetadata
 function audioSoundsLimiterMetadata.new(fields) return end

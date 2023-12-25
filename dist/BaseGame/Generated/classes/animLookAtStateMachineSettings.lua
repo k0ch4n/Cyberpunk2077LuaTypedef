@@ -16,6 +16,6 @@
 ---@field public allowToBlendBehindBack Bool
 animLookAtStateMachineSettings = {}
 
----@param fields? table
+---@param fields? animLookAtStateMachineSettings
 ---@return animLookAtStateMachineSettings
 function animLookAtStateMachineSettings.new(fields) return end

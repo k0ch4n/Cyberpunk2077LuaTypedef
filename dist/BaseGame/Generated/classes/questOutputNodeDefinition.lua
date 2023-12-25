@@ -5,6 +5,6 @@
 ---@field public type questExitType
 questOutputNodeDefinition = {}
 
----@param fields? table
+---@param fields? questOutputNodeDefinition
 ---@return questOutputNodeDefinition
 function questOutputNodeDefinition.new(fields) return end

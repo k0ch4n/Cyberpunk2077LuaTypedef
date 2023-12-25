@@ -7,6 +7,6 @@
 ---@field public defaultValue Float
 entAnimTrackParameter = {}
 
----@param fields? table
+---@param fields? entAnimTrackParameter
 ---@return entAnimTrackParameter
 function entAnimTrackParameter.new(fields) return end

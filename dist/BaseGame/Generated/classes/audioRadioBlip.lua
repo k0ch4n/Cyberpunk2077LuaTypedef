@@ -5,6 +5,6 @@
 ---@field public blipEventName CName
 audioRadioBlip = {}
 
----@param fields? table
+---@param fields? audioRadioBlip
 ---@return audioRadioBlip
 function audioRadioBlip.new(fields) return end

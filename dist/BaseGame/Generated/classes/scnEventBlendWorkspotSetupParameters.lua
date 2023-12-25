@@ -9,6 +9,6 @@
 ---@field public itemOverride workWorkspotItemOverride
 scnEventBlendWorkspotSetupParameters = {}
 
----@param fields? table
+---@param fields? scnEventBlendWorkspotSetupParameters
 ---@return scnEventBlendWorkspotSetupParameters
 function scnEventBlendWorkspotSetupParameters.new(fields) return end

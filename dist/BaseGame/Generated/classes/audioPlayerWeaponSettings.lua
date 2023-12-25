@@ -26,6 +26,6 @@
 ---@field public perfectChargePerkSounds audioPerfectChargePerkSounds
 audioPlayerWeaponSettings = {}
 
----@param fields? table
+---@param fields? audioPlayerWeaponSettings
 ---@return audioPlayerWeaponSettings
 function audioPlayerWeaponSettings.new(fields) return end

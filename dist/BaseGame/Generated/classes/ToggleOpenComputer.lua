@@ -4,7 +4,7 @@
 ---@class ToggleOpenComputer: ActionBool
 ToggleOpenComputer = {}
 
----@param fields? table
+---@param fields? ToggleOpenComputer
 ---@return ToggleOpenComputer
 function ToggleOpenComputer.new(fields) return end
 

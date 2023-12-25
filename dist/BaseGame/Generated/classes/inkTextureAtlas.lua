@@ -13,6 +13,6 @@
 ---@field public isSingleTextureMode Bool
 inkTextureAtlas = {}
 
----@param fields? table
+---@param fields? inkTextureAtlas
 ---@return inkTextureAtlas
 function inkTextureAtlas.new(fields) return end

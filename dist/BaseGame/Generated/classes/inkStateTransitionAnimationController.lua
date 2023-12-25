@@ -6,6 +6,6 @@
 ---@field public stopActiveAnimation Bool
 inkStateTransitionAnimationController = {}
 
----@param fields? table
+---@param fields? inkStateTransitionAnimationController
 ---@return inkStateTransitionAnimationController
 function inkStateTransitionAnimationController.new(fields) return end

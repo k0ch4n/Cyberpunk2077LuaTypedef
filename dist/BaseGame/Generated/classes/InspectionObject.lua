@@ -5,7 +5,7 @@
 ---@field public interaction gameinteractionsComponent
 InspectionObject = {}
 
----@param fields? table
+---@param fields? InspectionObject
 ---@return InspectionObject
 function InspectionObject.new(fields) return end
 

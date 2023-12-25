@@ -5,6 +5,6 @@
 ---@field public value Bool
 entReplicatedInputSetterBool = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetterBool
 ---@return entReplicatedInputSetterBool
 function entReplicatedInputSetterBool.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private MarkedStateName CName
 InventoryItemAttachmentDisplay = {}
 
----@param fields? table
+---@param fields? InventoryItemAttachmentDisplay
 ---@return InventoryItemAttachmentDisplay
 function InventoryItemAttachmentDisplay.new(fields) return end
 

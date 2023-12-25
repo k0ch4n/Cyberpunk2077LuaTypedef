@@ -4,7 +4,7 @@
 ---@class SwimmingLadderDecisions: LocomotionGroundDecisions
 SwimmingLadderDecisions = {}
 
----@param fields? table
+---@param fields? SwimmingLadderDecisions
 ---@return SwimmingLadderDecisions
 function SwimmingLadderDecisions.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public tagsToIgnore CName[]
 questTransferItems_NodeTypeParams_TransferAllOperationData = {}
 
----@param fields? table
+---@param fields? questTransferItems_NodeTypeParams_TransferAllOperationData
 ---@return questTransferItems_NodeTypeParams_TransferAllOperationData
 function questTransferItems_NodeTypeParams_TransferAllOperationData.new(fields) return end

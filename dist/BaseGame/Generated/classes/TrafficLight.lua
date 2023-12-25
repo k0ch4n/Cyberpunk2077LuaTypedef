@@ -7,7 +7,7 @@
 ---@field protected destroyedMesh entPhysicalMeshComponent
 TrafficLight = {}
 
----@param fields? table
+---@param fields? TrafficLight
 ---@return TrafficLight
 function TrafficLight.new(fields) return end
 

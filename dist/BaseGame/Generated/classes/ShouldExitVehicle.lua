@@ -7,7 +7,7 @@
 ---@field protected initialized Bool
 ShouldExitVehicle = {}
 
----@param fields? table
+---@param fields? ShouldExitVehicle
 ---@return ShouldExitVehicle
 function ShouldExitVehicle.new(fields) return end
 

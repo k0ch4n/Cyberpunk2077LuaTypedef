@@ -4,6 +4,6 @@
 ---@class effectTrackBase: effectBaseItem
 effectTrackBase = {}
 
----@param fields? table
+---@param fields? effectTrackBase
 ---@return effectTrackBase
 function effectTrackBase.new(fields) return end

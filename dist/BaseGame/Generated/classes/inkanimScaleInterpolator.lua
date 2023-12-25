@@ -6,7 +6,7 @@
 ---@field public endValue Vector2
 inkanimScaleInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimScaleInterpolator
 ---@return inkanimScaleInterpolator
 function inkanimScaleInterpolator.new(fields) return end
 

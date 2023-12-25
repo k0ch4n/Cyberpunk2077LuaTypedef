@@ -8,6 +8,6 @@
 ---@field public dataBuffer DataBuffer
 worldFoliageCompiledResource = {}
 
----@param fields? table
+---@param fields? worldFoliageCompiledResource
 ---@return worldFoliageCompiledResource
 function worldFoliageCompiledResource.new(fields) return end

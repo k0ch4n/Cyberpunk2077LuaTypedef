@@ -6,6 +6,6 @@
 ---@field public params questEquipItemParams
 questEquipItemNodeDefinition = {}
 
----@param fields? table
+---@param fields? questEquipItemNodeDefinition
 ---@return questEquipItemNodeDefinition
 function questEquipItemNodeDefinition.new(fields) return end

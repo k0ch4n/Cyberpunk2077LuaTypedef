@@ -8,6 +8,6 @@
 ---@field public actorsInitialWorkspotNodeRefHash Uint64
 audioConversationCharacterCondition = {}
 
----@param fields? table
+---@param fields? audioConversationCharacterCondition
 ---@return audioConversationCharacterCondition
 function audioConversationCharacterCondition.new(fields) return end

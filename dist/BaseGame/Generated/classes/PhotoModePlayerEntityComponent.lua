@@ -27,7 +27,7 @@
 ---@field private cyberwareArmsItem gameItemID
 PhotoModePlayerEntityComponent = {}
 
----@param fields? table
+---@param fields? PhotoModePlayerEntityComponent
 ---@return PhotoModePlayerEntityComponent
 function PhotoModePlayerEntityComponent.new(fields) return end
 

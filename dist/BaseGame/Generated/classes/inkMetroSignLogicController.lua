@@ -9,6 +9,6 @@
 ---@field public metroStationTextWidgetName CName
 inkMetroSignLogicController = {}
 
----@param fields? table
+---@param fields? inkMetroSignLogicController
 ---@return inkMetroSignLogicController
 function inkMetroSignLogicController.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field private propagateToInstigator Bool
 PropagateStatusEffectInAreaEffector = {}
 
----@param fields? table
+---@param fields? PropagateStatusEffectInAreaEffector
 ---@return PropagateStatusEffectInAreaEffector
 function PropagateStatusEffectInAreaEffector.new(fields) return end
 

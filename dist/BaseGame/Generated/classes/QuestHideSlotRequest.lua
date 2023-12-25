@@ -5,6 +5,6 @@
 ---@field public slot gamedataEquipmentArea
 QuestHideSlotRequest = {}
 
----@param fields? table
+---@param fields? QuestHideSlotRequest
 ---@return QuestHideSlotRequest
 function QuestHideSlotRequest.new(fields) return end

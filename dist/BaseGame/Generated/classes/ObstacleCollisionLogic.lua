@@ -6,7 +6,7 @@
 ---@field private invincibityBonusTime Float
 ObstacleCollisionLogic = {}
 
----@param fields? table
+---@param fields? ObstacleCollisionLogic
 ---@return ObstacleCollisionLogic
 function ObstacleCollisionLogic.new(fields) return end
 

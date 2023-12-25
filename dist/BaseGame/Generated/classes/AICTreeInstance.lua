@@ -4,6 +4,6 @@
 ---@class AICTreeInstance
 AICTreeInstance = {}
 
----@param fields? table
+---@param fields? AICTreeInstance
 ---@return AICTreeInstance
 function AICTreeInstance.new(fields) return end

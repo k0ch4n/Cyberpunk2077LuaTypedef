@@ -5,6 +5,6 @@
 ---@field public restrictMovementAreaRef NodeRef
 AIAssignGuardAreaCommand = {}
 
----@param fields? table
+---@param fields? AIAssignGuardAreaCommand
 ---@return AIAssignGuardAreaCommand
 function AIAssignGuardAreaCommand.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public isEnabled gamebbScriptID_Bool
 UI_VisionModeDef = {}
 
----@param fields? table
+---@param fields? UI_VisionModeDef
 ---@return UI_VisionModeDef
 function UI_VisionModeDef.new(fields) return end
 

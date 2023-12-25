@@ -4,6 +4,6 @@
 ---@class AIbehaviorIsBeingSummonedDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorIsBeingSummonedDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsBeingSummonedDefinition
 ---@return AIbehaviorIsBeingSummonedDefinition
 function AIbehaviorIsBeingSummonedDefinition.new(fields) return end

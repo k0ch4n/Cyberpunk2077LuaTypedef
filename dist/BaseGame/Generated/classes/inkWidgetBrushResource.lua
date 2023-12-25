@@ -5,6 +5,6 @@
 ---@field public brush inkWidgetBrush
 inkWidgetBrushResource = {}
 
----@param fields? table
+---@param fields? inkWidgetBrushResource
 ---@return inkWidgetBrushResource
 function inkWidgetBrushResource.new(fields) return end

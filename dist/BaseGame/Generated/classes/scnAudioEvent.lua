@@ -9,6 +9,6 @@
 ---@field public fastForwardSupport scnAudioFastForwardSupport
 scnAudioEvent = {}
 
----@param fields? table
+---@param fields? scnAudioEvent
 ---@return scnAudioEvent
 function scnAudioEvent.new(fields) return end

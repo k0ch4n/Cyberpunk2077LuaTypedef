@@ -6,7 +6,7 @@
 ---@field private requestersList entEntityID[]
 RevealRequestsStorage = {}
 
----@param fields? table
+---@param fields? RevealRequestsStorage
 ---@return RevealRequestsStorage
 function RevealRequestsStorage.new(fields) return end
 

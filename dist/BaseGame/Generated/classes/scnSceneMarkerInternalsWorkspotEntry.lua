@@ -8,6 +8,6 @@
 ---@field public exits scnSceneMarkerInternalsWorkspotEntrySocket[]
 scnSceneMarkerInternalsWorkspotEntry = {}
 
----@param fields? table
+---@param fields? scnSceneMarkerInternalsWorkspotEntry
 ---@return scnSceneMarkerInternalsWorkspotEntry
 function scnSceneMarkerInternalsWorkspotEntry.new(fields) return end

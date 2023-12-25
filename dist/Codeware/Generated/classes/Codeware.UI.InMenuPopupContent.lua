@@ -6,7 +6,7 @@
 ---@field public title inkTextWidget
 Codeware_UI_InMenuPopupContent = {}
 
----@param fields? table
+---@param fields? Codeware_UI_InMenuPopupContent
 ---@return Codeware_UI_InMenuPopupContent
 function Codeware_UI_InMenuPopupContent.new(fields) return end
 

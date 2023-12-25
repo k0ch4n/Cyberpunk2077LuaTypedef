@@ -5,6 +5,6 @@
 ---@field public entityID entEntityID
 ForceFadeOutlineEventForWeapon = {}
 
----@param fields? table
+---@param fields? ForceFadeOutlineEventForWeapon
 ---@return ForceFadeOutlineEventForWeapon
 function ForceFadeOutlineEventForWeapon.new(fields) return end

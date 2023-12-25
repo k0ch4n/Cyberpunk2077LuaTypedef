@@ -4,6 +4,6 @@
 ---@class entAppearanceMeshLoadedEvent: redEvent
 entAppearanceMeshLoadedEvent = {}
 
----@param fields? table
+---@param fields? entAppearanceMeshLoadedEvent
 ---@return entAppearanceMeshLoadedEvent
 function entAppearanceMeshLoadedEvent.new(fields) return end

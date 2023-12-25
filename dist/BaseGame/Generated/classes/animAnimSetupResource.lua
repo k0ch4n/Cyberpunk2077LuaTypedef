@@ -5,6 +5,6 @@
 ---@field public dependencies animAnimSet[]
 animAnimSetupResource = {}
 
----@param fields? table
+---@param fields? animAnimSetupResource
 ---@return animAnimSetupResource
 function animAnimSetupResource.new(fields) return end

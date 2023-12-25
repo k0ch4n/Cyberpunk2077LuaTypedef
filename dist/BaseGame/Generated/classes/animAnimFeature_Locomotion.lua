@@ -16,6 +16,6 @@
 ---@field public areAnimWrappersUnlocked Bool
 animAnimFeature_Locomotion = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Locomotion
 ---@return animAnimFeature_Locomotion
 function animAnimFeature_Locomotion.new(fields) return end

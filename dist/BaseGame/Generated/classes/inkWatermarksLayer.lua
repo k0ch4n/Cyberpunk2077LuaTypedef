@@ -4,6 +4,6 @@
 ---@class inkWatermarksLayer: inkFullScreenLayer
 inkWatermarksLayer = {}
 
----@param fields? table
+---@param fields? inkWatermarksLayer
 ---@return inkWatermarksLayer
 function inkWatermarksLayer.new(fields) return end

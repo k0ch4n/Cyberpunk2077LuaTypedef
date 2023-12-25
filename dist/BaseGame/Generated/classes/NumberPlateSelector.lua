@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 NumberPlateSelector = {}
 
----@param fields? table
+---@param fields? NumberPlateSelector
 ---@return NumberPlateSelector
 function NumberPlateSelector.new(fields) return end
 

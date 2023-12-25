@@ -6,6 +6,6 @@
 ---@field public params audioAudSimpleParameter[]
 audioMeleeEvent = {}
 
----@param fields? table
+---@param fields? audioMeleeEvent
 ---@return audioMeleeEvent
 function audioMeleeEvent.new(fields) return end

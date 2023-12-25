@@ -5,6 +5,6 @@
 ---@field public value Bool
 UIScriptableSystemSetComparisionTooltipDisabled = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemSetComparisionTooltipDisabled
 ---@return UIScriptableSystemSetComparisionTooltipDisabled
 function UIScriptableSystemSetComparisionTooltipDisabled.new(fields) return end

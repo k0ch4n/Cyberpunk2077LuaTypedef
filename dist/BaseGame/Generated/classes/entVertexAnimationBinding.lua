@@ -4,6 +4,6 @@
 ---@class entVertexAnimationBinding: entISourceBinding
 entVertexAnimationBinding = {}
 
----@param fields? table
+---@param fields? entVertexAnimationBinding
 ---@return entVertexAnimationBinding
 function entVertexAnimationBinding.new(fields) return end

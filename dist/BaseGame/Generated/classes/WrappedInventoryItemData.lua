@@ -15,6 +15,6 @@
 ---@field public IsQuestBought Bool
 WrappedInventoryItemData = {}
 
----@param fields? table
+---@param fields? WrappedInventoryItemData
 ---@return WrappedInventoryItemData
 function WrappedInventoryItemData.new(fields) return end

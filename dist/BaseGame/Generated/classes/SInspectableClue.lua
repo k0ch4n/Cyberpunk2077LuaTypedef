@@ -6,6 +6,6 @@
 ---@field public isScanned Bool
 SInspectableClue = {}
 
----@param fields? table
+---@param fields? SInspectableClue
 ---@return SInspectableClue
 function SInspectableClue.new(fields) return end

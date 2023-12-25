@@ -4,6 +4,6 @@
 ---@class inkWidgetSlotController: inkIWidgetSlotController
 inkWidgetSlotController = {}
 
----@param fields? table
+---@param fields? inkWidgetSlotController
 ---@return inkWidgetSlotController
 function inkWidgetSlotController.new(fields) return end

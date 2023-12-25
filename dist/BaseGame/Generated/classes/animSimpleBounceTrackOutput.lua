@@ -6,6 +6,6 @@
 ---@field public multiplier Float
 animSimpleBounceTrackOutput = {}
 
----@param fields? table
+---@param fields? animSimpleBounceTrackOutput
 ---@return animSimpleBounceTrackOutput
 function animSimpleBounceTrackOutput.new(fields) return end

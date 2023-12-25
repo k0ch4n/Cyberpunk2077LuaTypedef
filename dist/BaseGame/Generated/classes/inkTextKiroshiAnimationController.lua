@@ -10,7 +10,7 @@
 ---@field public translatedTextWidget inkTextWidgetReference
 inkTextKiroshiAnimationController = {}
 
----@param fields? table
+---@param fields? inkTextKiroshiAnimationController
 ---@return inkTextKiroshiAnimationController
 function inkTextKiroshiAnimationController.new(fields) return end
 

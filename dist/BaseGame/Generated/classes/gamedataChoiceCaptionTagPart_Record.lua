@@ -4,7 +4,7 @@
 ---@class gamedataChoiceCaptionTagPart_Record: gamedataChoiceCaptionPart_Record
 gamedataChoiceCaptionTagPart_Record = {}
 
----@param fields? table
+---@param fields? gamedataChoiceCaptionTagPart_Record
 ---@return gamedataChoiceCaptionTagPart_Record
 function gamedataChoiceCaptionTagPart_Record.new(fields) return end
 

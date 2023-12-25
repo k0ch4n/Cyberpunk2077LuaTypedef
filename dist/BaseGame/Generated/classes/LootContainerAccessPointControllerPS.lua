@@ -5,7 +5,7 @@
 ---@field protected objRef NodeRef
 LootContainerAccessPointControllerPS = {}
 
----@param fields? table
+---@param fields? LootContainerAccessPointControllerPS
 ---@return LootContainerAccessPointControllerPS
 function LootContainerAccessPointControllerPS.new(fields) return end
 

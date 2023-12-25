@@ -4,6 +4,6 @@
 ---@class workMaxAnimTimeLimitCommandData: workIWorkspotCommandData
 workMaxAnimTimeLimitCommandData = {}
 
----@param fields? table
+---@param fields? workMaxAnimTimeLimitCommandData
 ---@return workMaxAnimTimeLimitCommandData
 function workMaxAnimTimeLimitCommandData.new(fields) return end

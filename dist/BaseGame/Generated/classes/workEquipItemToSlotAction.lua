@@ -6,6 +6,6 @@
 ---@field public itemSlot TweakDBID
 workEquipItemToSlotAction = {}
 
----@param fields? table
+---@param fields? workEquipItemToSlotAction
 ---@return workEquipItemToSlotAction
 function workEquipItemToSlotAction.new(fields) return end

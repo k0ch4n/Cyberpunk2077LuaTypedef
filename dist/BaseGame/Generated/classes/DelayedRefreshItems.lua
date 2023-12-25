@@ -4,6 +4,6 @@
 ---@class DelayedRefreshItems: redEvent
 DelayedRefreshItems = {}
 
----@param fields? table
+---@param fields? DelayedRefreshItems
 ---@return DelayedRefreshItems
 function DelayedRefreshItems.new(fields) return end

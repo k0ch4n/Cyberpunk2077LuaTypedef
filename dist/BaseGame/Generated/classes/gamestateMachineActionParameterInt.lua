@@ -6,6 +6,6 @@
 ---@field public value Int32
 gamestateMachineActionParameterInt = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterInt
 ---@return gamestateMachineActionParameterInt
 function gamestateMachineActionParameterInt.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public currentAttitudeGroupUnsavable CName
 gameAttitudeAgentPS = {}
 
----@param fields? table
+---@param fields? gameAttitudeAgentPS
 ---@return gameAttitudeAgentPS
 function gameAttitudeAgentPS.new(fields) return end

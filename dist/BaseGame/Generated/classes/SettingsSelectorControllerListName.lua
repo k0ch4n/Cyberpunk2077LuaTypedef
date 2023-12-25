@@ -6,7 +6,7 @@
 ---@field protected currentIndex Int32
 SettingsSelectorControllerListName = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerListName
 ---@return SettingsSelectorControllerListName
 function SettingsSelectorControllerListName.new(fields) return end
 

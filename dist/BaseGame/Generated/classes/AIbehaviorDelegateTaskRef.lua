@@ -5,6 +5,6 @@
 ---@field public name CName
 AIbehaviorDelegateTaskRef = {}
 
----@param fields? table
+---@param fields? AIbehaviorDelegateTaskRef
 ---@return AIbehaviorDelegateTaskRef
 function AIbehaviorDelegateTaskRef.new(fields) return end

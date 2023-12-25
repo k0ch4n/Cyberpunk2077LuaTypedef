@@ -7,6 +7,6 @@
 ---@field public speed CName
 VehicleExternalWindowRequestEvent = {}
 
----@param fields? table
+---@param fields? VehicleExternalWindowRequestEvent
 ---@return VehicleExternalWindowRequestEvent
 function VehicleExternalWindowRequestEvent.new(fields) return end

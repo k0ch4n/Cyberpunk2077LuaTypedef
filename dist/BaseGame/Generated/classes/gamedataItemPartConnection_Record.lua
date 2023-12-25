@@ -4,7 +4,7 @@
 ---@class gamedataItemPartConnection_Record: gamedataTweakDBRecord
 gamedataItemPartConnection_Record = {}
 
----@param fields? table
+---@param fields? gamedataItemPartConnection_Record
 ---@return gamedataItemPartConnection_Record
 function gamedataItemPartConnection_Record.new(fields) return end
 

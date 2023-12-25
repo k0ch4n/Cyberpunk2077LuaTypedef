@@ -13,6 +13,6 @@
 ---@field public falseInputLink animFloatLink
 animAnimNode_FloatComparator = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatComparator
 ---@return animAnimNode_FloatComparator
 function animAnimNode_FloatComparator.new(fields) return end

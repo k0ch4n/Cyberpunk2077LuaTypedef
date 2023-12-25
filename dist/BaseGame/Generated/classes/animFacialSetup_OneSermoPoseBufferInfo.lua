@@ -10,6 +10,6 @@
 ---@field public numCorrectiveScales Uint32
 animFacialSetup_OneSermoPoseBufferInfo = {}
 
----@param fields? table
+---@param fields? animFacialSetup_OneSermoPoseBufferInfo
 ---@return animFacialSetup_OneSermoPoseBufferInfo
 function animFacialSetup_OneSermoPoseBufferInfo.new(fields) return end

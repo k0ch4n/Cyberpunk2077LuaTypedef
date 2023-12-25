@@ -7,7 +7,7 @@
 ---@field public iconID TweakDBID
 gameClothingSet = {}
 
----@param fields? table
+---@param fields? gameClothingSet
 ---@return gameClothingSet
 function gameClothingSet.new(fields) return end
 

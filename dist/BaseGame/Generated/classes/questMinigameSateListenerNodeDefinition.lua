@@ -4,6 +4,6 @@
 ---@class questMinigameSateListenerNodeDefinition: questSignalStoppingNodeDefinition
 questMinigameSateListenerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMinigameSateListenerNodeDefinition
 ---@return questMinigameSateListenerNodeDefinition
 function questMinigameSateListenerNodeDefinition.new(fields) return end

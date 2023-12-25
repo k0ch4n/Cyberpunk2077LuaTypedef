@@ -4,7 +4,7 @@
 ---@class BountyManager: IScriptable
 BountyManager = {}
 
----@param fields? table
+---@param fields? BountyManager
 ---@return BountyManager
 function BountyManager.new(fields) return end
 

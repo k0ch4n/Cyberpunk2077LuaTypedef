@@ -4,7 +4,7 @@
 ---@class senseVisionBlockersRegistrar: IScriptable
 senseVisionBlockersRegistrar = {}
 
----@param fields? table
+---@param fields? senseVisionBlockersRegistrar
 ---@return senseVisionBlockersRegistrar
 function senseVisionBlockersRegistrar.new(fields) return end
 

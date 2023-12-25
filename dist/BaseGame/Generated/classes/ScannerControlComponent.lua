@@ -11,7 +11,7 @@
 ---@field private isScanningPlayer Bool
 ScannerControlComponent = {}
 
----@param fields? table
+---@param fields? ScannerControlComponent
 ---@return ScannerControlComponent
 function ScannerControlComponent.new(fields) return end
 

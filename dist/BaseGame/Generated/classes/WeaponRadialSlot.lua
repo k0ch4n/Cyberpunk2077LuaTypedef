@@ -6,7 +6,7 @@
 ---@field private index Int32
 WeaponRadialSlot = {}
 
----@param fields? table
+---@param fields? WeaponRadialSlot
 ---@return WeaponRadialSlot
 function WeaponRadialSlot.new(fields) return end
 

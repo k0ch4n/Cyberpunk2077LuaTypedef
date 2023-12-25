@@ -4,7 +4,7 @@
 ---@class MenuScenario_TimeSkip: MenuScenario_BaseMenu
 MenuScenario_TimeSkip = {}
 
----@param fields? table
+---@param fields? MenuScenario_TimeSkip
 ---@return MenuScenario_TimeSkip
 function MenuScenario_TimeSkip.new(fields) return end
 

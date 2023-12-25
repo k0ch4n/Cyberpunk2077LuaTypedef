@@ -8,6 +8,6 @@
 ---@field public leaveRagdollEnabled Bool
 RagdollToggleDelayEvent = {}
 
----@param fields? table
+---@param fields? RagdollToggleDelayEvent
 ---@return RagdollToggleDelayEvent
 function RagdollToggleDelayEvent.new(fields) return end

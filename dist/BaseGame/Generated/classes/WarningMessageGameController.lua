@@ -22,7 +22,7 @@
 ---@field private animProxyTimeout inkanimProxy
 WarningMessageGameController = {}
 
----@param fields? table
+---@param fields? WarningMessageGameController
 ---@return WarningMessageGameController
 function WarningMessageGameController.new(fields) return end
 

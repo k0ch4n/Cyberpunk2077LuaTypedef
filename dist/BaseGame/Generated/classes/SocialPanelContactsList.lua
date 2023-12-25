@@ -9,7 +9,7 @@
 ---@field private LastClickedContact gameJournalContact
 SocialPanelContactsList = {}
 
----@param fields? table
+---@param fields? SocialPanelContactsList
 ---@return SocialPanelContactsList
 function SocialPanelContactsList.new(fields) return end
 

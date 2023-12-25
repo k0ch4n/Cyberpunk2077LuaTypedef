@@ -4,7 +4,7 @@
 ---@class QuestForceIndestructible: ActionBool
 QuestForceIndestructible = {}
 
----@param fields? table
+---@param fields? QuestForceIndestructible
 ---@return QuestForceIndestructible
 function QuestForceIndestructible.new(fields) return end
 

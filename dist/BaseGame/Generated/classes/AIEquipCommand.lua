@@ -8,6 +8,6 @@
 ---@field public durationOverride Float
 AIEquipCommand = {}
 
----@param fields? table
+---@param fields? AIEquipCommand
 ---@return AIEquipCommand
 function AIEquipCommand.new(fields) return end

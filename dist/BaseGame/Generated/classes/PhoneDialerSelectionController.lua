@@ -16,7 +16,7 @@
 ---@field private currentIndex Int32
 PhoneDialerSelectionController = {}
 
----@param fields? table
+---@param fields? PhoneDialerSelectionController
 ---@return PhoneDialerSelectionController
 function PhoneDialerSelectionController.new(fields) return end
 

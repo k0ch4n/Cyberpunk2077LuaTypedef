@@ -4,7 +4,7 @@
 ---@class AIRandomTasks: AIbehaviortaskScript
 AIRandomTasks = {}
 
----@param fields? table
+---@param fields? AIRandomTasks
 ---@return AIRandomTasks
 function AIRandomTasks.new(fields) return end
 

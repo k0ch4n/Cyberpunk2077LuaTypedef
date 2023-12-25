@@ -5,6 +5,6 @@
 ---@field public throwCooldownSE TweakDBID
 ThrowingKnifePickupEvent = {}
 
----@param fields? table
+---@param fields? ThrowingKnifePickupEvent
 ---@return ThrowingKnifePickupEvent
 function ThrowingKnifePickupEvent.new(fields) return end

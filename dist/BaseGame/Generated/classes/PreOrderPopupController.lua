@@ -9,7 +9,7 @@
 ---@field private buttonController inkButtonController
 PreOrderPopupController = {}
 
----@param fields? table
+---@param fields? PreOrderPopupController
 ---@return PreOrderPopupController
 function PreOrderPopupController.new(fields) return end
 

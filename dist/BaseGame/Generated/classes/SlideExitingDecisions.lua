@@ -4,7 +4,7 @@
 ---@class SlideExitingDecisions: ExitingDecisions
 SlideExitingDecisions = {}
 
----@param fields? table
+---@param fields? SlideExitingDecisions
 ---@return SlideExitingDecisions
 function SlideExitingDecisions.new(fields) return end
 

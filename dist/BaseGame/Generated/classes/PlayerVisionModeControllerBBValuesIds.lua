@@ -13,6 +13,6 @@
 ---@field public isBriefingActive gamebbScriptID_Bool
 PlayerVisionModeControllerBBValuesIds = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerBBValuesIds
 ---@return PlayerVisionModeControllerBBValuesIds
 function PlayerVisionModeControllerBBValuesIds.new(fields) return end

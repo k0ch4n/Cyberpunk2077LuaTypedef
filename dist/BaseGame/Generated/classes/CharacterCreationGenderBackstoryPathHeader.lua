@@ -11,7 +11,7 @@
 ---@field private textUnselectedColor Color
 CharacterCreationGenderBackstoryPathHeader = {}
 
----@param fields? table
+---@param fields? CharacterCreationGenderBackstoryPathHeader
 ---@return CharacterCreationGenderBackstoryPathHeader
 function CharacterCreationGenderBackstoryPathHeader.new(fields) return end
 

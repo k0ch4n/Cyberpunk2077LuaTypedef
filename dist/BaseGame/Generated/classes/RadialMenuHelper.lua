@@ -4,7 +4,7 @@
 ---@class RadialMenuHelper: IScriptable
 RadialMenuHelper = {}
 
----@param fields? table
+---@param fields? RadialMenuHelper
 ---@return RadialMenuHelper
 function RadialMenuHelper.new(fields) return end
 

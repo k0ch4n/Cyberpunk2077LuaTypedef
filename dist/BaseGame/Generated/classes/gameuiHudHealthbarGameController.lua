@@ -92,7 +92,7 @@
 ---@field private healthMemoryFlashAnim inkanimProxy
 gameuiHudHealthbarGameController = {}
 
----@param fields? table
+---@param fields? gameuiHudHealthbarGameController
 ---@return gameuiHudHealthbarGameController
 function gameuiHudHealthbarGameController.new(fields) return end
 

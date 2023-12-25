@@ -6,7 +6,7 @@
 ---@field public statCheckState StatCheckPrereqState
 ModifyStatCheckPrereq = {}
 
----@param fields? table
+---@param fields? ModifyStatCheckPrereq
 ---@return ModifyStatCheckPrereq
 function ModifyStatCheckPrereq.new(fields) return end
 

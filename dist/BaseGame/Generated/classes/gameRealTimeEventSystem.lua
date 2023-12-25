@@ -4,6 +4,6 @@
 ---@class gameRealTimeEventSystem: gameIRealTimeEventSystem
 gameRealTimeEventSystem = {}
 
----@param fields? table
+---@param fields? gameRealTimeEventSystem
 ---@return gameRealTimeEventSystem
 function gameRealTimeEventSystem.new(fields) return end

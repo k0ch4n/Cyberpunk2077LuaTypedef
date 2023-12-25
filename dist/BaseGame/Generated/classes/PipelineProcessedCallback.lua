@@ -4,7 +4,7 @@
 ---@class PipelineProcessedCallback: HitCallback
 PipelineProcessedCallback = {}
 
----@param fields? table
+---@param fields? PipelineProcessedCallback
 ---@return PipelineProcessedCallback
 function PipelineProcessedCallback.new(fields) return end
 

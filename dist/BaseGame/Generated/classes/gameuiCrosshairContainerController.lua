@@ -23,7 +23,7 @@
 ---@field private HiddenTextCanvas inkWidgetReference
 gameuiCrosshairContainerController = {}
 
----@param fields? table
+---@param fields? gameuiCrosshairContainerController
 ---@return gameuiCrosshairContainerController
 function gameuiCrosshairContainerController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gamemappinsRuntimeQuestMappinData: gamemappinsIRuntimeMappinData
 gamemappinsRuntimeQuestMappinData = {}
 
----@param fields? table
+---@param fields? gamemappinsRuntimeQuestMappinData
 ---@return gamemappinsRuntimeQuestMappinData
 function gamemappinsRuntimeQuestMappinData.new(fields) return end

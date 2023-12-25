@@ -6,6 +6,6 @@
 ---@field public useScoring Bool
 AICTreeNodeBrainDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeBrainDefinition
 ---@return AICTreeNodeBrainDefinition
 function AICTreeNodeBrainDefinition.new(fields) return end

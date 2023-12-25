@@ -7,6 +7,6 @@
 ---@field public eventValue Float
 animAnimNode_Event = {}
 
----@param fields? table
+---@param fields? animAnimNode_Event
 ---@return animAnimNode_Event
 function animAnimNode_Event.new(fields) return end

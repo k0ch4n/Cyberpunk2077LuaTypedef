@@ -27,7 +27,7 @@
 ---@field private equipmentInProgressCallback redCallbackObject
 WardrobeUIGameController = {}
 
----@param fields? table
+---@param fields? WardrobeUIGameController
 ---@return WardrobeUIGameController
 function WardrobeUIGameController.new(fields) return end
 

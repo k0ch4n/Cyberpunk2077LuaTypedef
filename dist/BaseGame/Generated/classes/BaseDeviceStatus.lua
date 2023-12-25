@@ -5,7 +5,7 @@
 ---@field public isRestarting Bool
 BaseDeviceStatus = {}
 
----@param fields? table
+---@param fields? BaseDeviceStatus
 ---@return BaseDeviceStatus
 function BaseDeviceStatus.new(fields) return end
 

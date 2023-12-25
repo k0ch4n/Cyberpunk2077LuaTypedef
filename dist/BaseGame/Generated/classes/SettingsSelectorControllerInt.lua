@@ -7,7 +7,7 @@
 ---@field private sliderController inkSliderController
 SettingsSelectorControllerInt = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerInt
 ---@return SettingsSelectorControllerInt
 function SettingsSelectorControllerInt.new(fields) return end
 

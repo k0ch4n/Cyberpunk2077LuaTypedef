@@ -4,7 +4,7 @@
 ---@class NPCIsHumanoidPrereq: gameIScriptablePrereq
 NPCIsHumanoidPrereq = {}
 
----@param fields? table
+---@param fields? NPCIsHumanoidPrereq
 ---@return NPCIsHumanoidPrereq
 function NPCIsHumanoidPrereq.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public investigator entEntityID
 AddInvestigatorEvent = {}
 
----@param fields? table
+---@param fields? AddInvestigatorEvent
 ---@return AddInvestigatorEvent
 function AddInvestigatorEvent.new(fields) return end

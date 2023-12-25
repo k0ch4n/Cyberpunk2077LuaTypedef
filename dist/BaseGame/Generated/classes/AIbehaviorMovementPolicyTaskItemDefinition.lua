@@ -6,6 +6,6 @@
 ---@field public params AIbehaviorExpressionSocket
 AIbehaviorMovementPolicyTaskItemDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMovementPolicyTaskItemDefinition
 ---@return AIbehaviorMovementPolicyTaskItemDefinition
 function AIbehaviorMovementPolicyTaskItemDefinition.new(fields) return end

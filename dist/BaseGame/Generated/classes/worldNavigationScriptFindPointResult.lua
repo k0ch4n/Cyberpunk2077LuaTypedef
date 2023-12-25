@@ -6,6 +6,6 @@
 ---@field public point Vector4
 worldNavigationScriptFindPointResult = {}
 
----@param fields? table
+---@param fields? worldNavigationScriptFindPointResult
 ---@return worldNavigationScriptFindPointResult
 function worldNavigationScriptFindPointResult.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public isActive Bool
 TogglePreventionSystem = {}
 
----@param fields? table
+---@param fields? TogglePreventionSystem
 ---@return TogglePreventionSystem
 function TogglePreventionSystem.new(fields) return end

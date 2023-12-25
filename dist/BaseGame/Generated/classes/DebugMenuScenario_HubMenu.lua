@@ -6,7 +6,7 @@
 ---@field private cpoDefaultMenu CName
 DebugMenuScenario_HubMenu = {}
 
----@param fields? table
+---@param fields? DebugMenuScenario_HubMenu
 ---@return DebugMenuScenario_HubMenu
 function DebugMenuScenario_HubMenu.new(fields) return end
 

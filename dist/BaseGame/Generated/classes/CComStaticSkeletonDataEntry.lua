@@ -7,6 +7,6 @@
 ---@field public locationLS Vector4
 CComStaticSkeletonDataEntry = {}
 
----@param fields? table
+---@param fields? CComStaticSkeletonDataEntry
 ---@return CComStaticSkeletonDataEntry
 function CComStaticSkeletonDataEntry.new(fields) return end

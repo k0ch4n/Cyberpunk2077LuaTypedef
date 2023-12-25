@@ -5,6 +5,6 @@
 ---@field public value Float
 gameRandomStatModifierData_Deprecated = {}
 
----@param fields? table
+---@param fields? gameRandomStatModifierData_Deprecated
 ---@return gameRandomStatModifierData_Deprecated
 function gameRandomStatModifierData_Deprecated.new(fields) return end

@@ -24,7 +24,7 @@
 ---@field private isAreaCache Bool
 RipperdocInventoryController = {}
 
----@param fields? table
+---@param fields? RipperdocInventoryController
 ---@return RipperdocInventoryController
 function RipperdocInventoryController.new(fields) return end
 

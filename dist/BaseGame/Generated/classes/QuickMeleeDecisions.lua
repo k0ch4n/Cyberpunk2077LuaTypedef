@@ -4,7 +4,7 @@
 ---@class QuickMeleeDecisions: WeaponTransition
 QuickMeleeDecisions = {}
 
----@param fields? table
+---@param fields? QuickMeleeDecisions
 ---@return QuickMeleeDecisions
 function QuickMeleeDecisions.new(fields) return end
 

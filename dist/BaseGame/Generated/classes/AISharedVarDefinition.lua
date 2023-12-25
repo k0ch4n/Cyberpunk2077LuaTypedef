@@ -6,6 +6,6 @@
 ---@field public name LibTreeSharedVarRegistrationName
 AISharedVarDefinition = {}
 
----@param fields? table
+---@param fields? AISharedVarDefinition
 ---@return AISharedVarDefinition
 function AISharedVarDefinition.new(fields) return end

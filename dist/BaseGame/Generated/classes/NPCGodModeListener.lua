@@ -5,7 +5,7 @@
 ---@field public owner NPCPuppet
 NPCGodModeListener = {}
 
----@param fields? table
+---@param fields? NPCGodModeListener
 ---@return NPCGodModeListener
 function NPCGodModeListener.new(fields) return end
 

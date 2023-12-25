@@ -4,7 +4,7 @@
 ---@class TakeOverSecuritySystem: ActionBool
 TakeOverSecuritySystem = {}
 
----@param fields? table
+---@param fields? TakeOverSecuritySystem
 ---@return TakeOverSecuritySystem
 function TakeOverSecuritySystem.new(fields) return end
 

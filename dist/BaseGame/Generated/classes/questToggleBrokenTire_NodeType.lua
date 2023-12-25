@@ -7,6 +7,6 @@
 ---@field public tire Uint32
 questToggleBrokenTire_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleBrokenTire_NodeType
 ---@return questToggleBrokenTire_NodeType
 function questToggleBrokenTire_NodeType.new(fields) return end

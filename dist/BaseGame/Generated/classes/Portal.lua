@@ -13,7 +13,7 @@
 ---@field protected screen entMeshComponent
 Portal = {}
 
----@param fields? table
+---@param fields? Portal
 ---@return Portal
 function Portal.new(fields) return end
 

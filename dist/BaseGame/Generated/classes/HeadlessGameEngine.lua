@@ -4,6 +4,6 @@
 ---@class HeadlessGameEngine: BaseGameEngine
 HeadlessGameEngine = {}
 
----@param fields? table
+---@param fields? HeadlessGameEngine
 ---@return HeadlessGameEngine
 function HeadlessGameEngine.new(fields) return end

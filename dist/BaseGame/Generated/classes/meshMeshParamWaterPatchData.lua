@@ -7,6 +7,6 @@
 ---@field public nodes Float
 meshMeshParamWaterPatchData = {}
 
----@param fields? table
+---@param fields? meshMeshParamWaterPatchData
 ---@return meshMeshParamWaterPatchData
 function meshMeshParamWaterPatchData.new(fields) return end

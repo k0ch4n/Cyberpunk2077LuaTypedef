@@ -8,7 +8,7 @@
 ---@field public statsObjID gameStatsObjectID
 ConsumableChargesPrereqState = {}
 
----@param fields? table
+---@param fields? ConsumableChargesPrereqState
 ---@return ConsumableChargesPrereqState
 function ConsumableChargesPrereqState.new(fields) return end
 

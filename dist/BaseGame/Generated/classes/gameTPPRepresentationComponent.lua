@@ -7,6 +7,6 @@
 ---@field public affectedAppearanceSlots TweakDBID[]
 gameTPPRepresentationComponent = {}
 
----@param fields? table
+---@param fields? gameTPPRepresentationComponent
 ---@return gameTPPRepresentationComponent
 function gameTPPRepresentationComponent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private c_impulseMagThreshold Float
 entMechanicalImpactComponent = {}
 
----@param fields? table
+---@param fields? entMechanicalImpactComponent
 ---@return entMechanicalImpactComponent
 function entMechanicalImpactComponent.new(fields) return end
 

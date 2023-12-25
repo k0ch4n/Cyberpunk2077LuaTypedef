@@ -5,6 +5,6 @@
 ---@field public voiceTags locVoiceTag[]
 locVoiceTagListResource = {}
 
----@param fields? table
+---@param fields? locVoiceTagListResource
 ---@return locVoiceTagListResource
 function locVoiceTagListResource.new(fields) return end

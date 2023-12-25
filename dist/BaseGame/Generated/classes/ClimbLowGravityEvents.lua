@@ -4,7 +4,7 @@
 ---@class ClimbLowGravityEvents: LocomotionGroundEvents
 ClimbLowGravityEvents = {}
 
----@param fields? table
+---@param fields? ClimbLowGravityEvents
 ---@return ClimbLowGravityEvents
 function ClimbLowGravityEvents.new(fields) return end
 

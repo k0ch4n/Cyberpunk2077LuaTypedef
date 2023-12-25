@@ -10,7 +10,7 @@
 ---@field private projectilePierced Bool
 ProjectileLauncherRoundCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? ProjectileLauncherRoundCollisionEvaluator
 ---@return ProjectileLauncherRoundCollisionEvaluator
 function ProjectileLauncherRoundCollisionEvaluator.new(fields) return end
 

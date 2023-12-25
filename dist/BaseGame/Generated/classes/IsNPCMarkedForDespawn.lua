@@ -4,7 +4,7 @@
 ---@class IsNPCMarkedForDespawn: AIbehaviorconditionScript
 IsNPCMarkedForDespawn = {}
 
----@param fields? table
+---@param fields? IsNPCMarkedForDespawn
 ---@return IsNPCMarkedForDespawn
 function IsNPCMarkedForDespawn.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public surfaceFlavourName CName
 gameaudioeventsNotifyFootstepMaterialContextChanged = {}
 
----@param fields? table
+---@param fields? gameaudioeventsNotifyFootstepMaterialContextChanged
 ---@return gameaudioeventsNotifyFootstepMaterialContextChanged
 function gameaudioeventsNotifyFootstepMaterialContextChanged.new(fields) return end

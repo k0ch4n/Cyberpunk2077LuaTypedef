@@ -5,7 +5,7 @@
 ---@field public patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromNextControlPoint = {}
 
----@param fields? table
+---@param fields? ShouldContinuePatrolFromNextControlPoint
 ---@return ShouldContinuePatrolFromNextControlPoint
 function ShouldContinuePatrolFromNextControlPoint.new(fields) return end
 

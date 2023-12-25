@@ -4,6 +4,6 @@
 ---@class gameItemEventsPropagateRenderingPlane: redEvent
 gameItemEventsPropagateRenderingPlane = {}
 
----@param fields? table
+---@param fields? gameItemEventsPropagateRenderingPlane
 ---@return gameItemEventsPropagateRenderingPlane
 function gameItemEventsPropagateRenderingPlane.new(fields) return end

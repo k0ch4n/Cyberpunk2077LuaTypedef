@@ -5,6 +5,6 @@
 ---@field public allow Bool
 entAllowVehicleCollisionRagdollInSceneEvent = {}
 
----@param fields? table
+---@param fields? entAllowVehicleCollisionRagdollInSceneEvent
 ---@return entAllowVehicleCollisionRagdollInSceneEvent
 function entAllowVehicleCollisionRagdollInSceneEvent.new(fields) return end

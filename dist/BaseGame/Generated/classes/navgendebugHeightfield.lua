@@ -15,6 +15,6 @@
 ---@field public maxDistancefieldValue Uint16
 navgendebugHeightfield = {}
 
----@param fields? table
+---@param fields? navgendebugHeightfield
 ---@return navgendebugHeightfield
 function navgendebugHeightfield.new(fields) return end

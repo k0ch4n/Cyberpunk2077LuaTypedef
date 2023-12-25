@@ -4,6 +4,6 @@
 ---@class worldAISpotNodeInstance: worldSocketNodeInstance
 worldAISpotNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAISpotNodeInstance
 ---@return worldAISpotNodeInstance
 function worldAISpotNodeInstance.new(fields) return end

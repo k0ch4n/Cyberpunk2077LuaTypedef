@@ -7,6 +7,6 @@
 ---@field public False animPoseLink
 animAnimNode_RuntimeSwitch = {}
 
----@param fields? table
+---@param fields? animAnimNode_RuntimeSwitch
 ---@return animAnimNode_RuntimeSwitch
 function animAnimNode_RuntimeSwitch.new(fields) return end

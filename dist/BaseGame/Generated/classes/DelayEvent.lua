@@ -4,7 +4,7 @@
 ---@class DelayEvent: ActionBool
 DelayEvent = {}
 
----@param fields? table
+---@param fields? DelayEvent
 ---@return DelayEvent
 function DelayEvent.new(fields) return end
 

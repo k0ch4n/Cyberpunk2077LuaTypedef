@@ -53,7 +53,7 @@
 ---@field protected inCrafting Bool
 NewItemTooltipCommonController = {}
 
----@param fields? table
+---@param fields? NewItemTooltipCommonController
 ---@return NewItemTooltipCommonController
 function NewItemTooltipCommonController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public quickhackID TweakDBID
 PlayerDoesntHaveQuickhackPrereq = {}
 
----@param fields? table
+---@param fields? PlayerDoesntHaveQuickhackPrereq
 ---@return PlayerDoesntHaveQuickhackPrereq
 function PlayerDoesntHaveQuickhackPrereq.new(fields) return end
 

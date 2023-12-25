@@ -11,6 +11,6 @@
 ---@field public lootID TweakDBID
 gameAreaData = {}
 
----@param fields? table
+---@param fields? gameAreaData
 ---@return gameAreaData
 function gameAreaData.new(fields) return end

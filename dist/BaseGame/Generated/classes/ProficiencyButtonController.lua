@@ -9,7 +9,7 @@
 ---@field private index Int32
 ProficiencyButtonController = {}
 
----@param fields? table
+---@param fields? ProficiencyButtonController
 ---@return ProficiencyButtonController
 function ProficiencyButtonController.new(fields) return end
 

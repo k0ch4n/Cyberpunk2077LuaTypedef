@@ -6,6 +6,6 @@
 ---@field public duration Float
 animUncompressedMotionExtraction = {}
 
----@param fields? table
+---@param fields? animUncompressedMotionExtraction
 ---@return animUncompressedMotionExtraction
 function animUncompressedMotionExtraction.new(fields) return end

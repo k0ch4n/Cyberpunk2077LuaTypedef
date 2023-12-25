@@ -5,6 +5,6 @@
 ---@field public originalNotification SecuritySystemInput
 AutomaticDeescalationEvent = {}
 
----@param fields? table
+---@param fields? AutomaticDeescalationEvent
 ---@return AutomaticDeescalationEvent
 function AutomaticDeescalationEvent.new(fields) return end

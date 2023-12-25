@@ -6,7 +6,7 @@
 ---@field public journalManager gameJournalManager
 ShardCollectedInventoryCallback = {}
 
----@param fields? table
+---@param fields? ShardCollectedInventoryCallback
 ---@return ShardCollectedInventoryCallback
 function ShardCollectedInventoryCallback.new(fields) return end
 

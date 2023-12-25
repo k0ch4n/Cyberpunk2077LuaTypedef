@@ -5,7 +5,7 @@
 ---@field private questMappin gamemappinsQuestMappin
 gameuiMinimapQuestMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapQuestMappinController
 ---@return gameuiMinimapQuestMappinController
 function gameuiMinimapQuestMappinController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public id String
 toolsJiraFixVersion = {}
 
----@param fields? table
+---@param fields? toolsJiraFixVersion
 ---@return toolsJiraFixVersion
 function toolsJiraFixVersion.new(fields) return end

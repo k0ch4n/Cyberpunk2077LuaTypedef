@@ -5,6 +5,6 @@
 ---@field public filter worldSceneRecordingNodeFilter
 worldSceneRecordingContentObserverNode = {}
 
----@param fields? table
+---@param fields? worldSceneRecordingContentObserverNode
 ---@return worldSceneRecordingContentObserverNode
 function worldSceneRecordingContentObserverNode.new(fields) return end

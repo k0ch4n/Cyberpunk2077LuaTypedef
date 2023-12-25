@@ -13,7 +13,7 @@
 ---@field private fadeOutStarted Bool
 CerberusRangedKillTask = {}
 
----@param fields? table
+---@param fields? CerberusRangedKillTask
 ---@return CerberusRangedKillTask
 function CerberusRangedKillTask.new(fields) return end
 

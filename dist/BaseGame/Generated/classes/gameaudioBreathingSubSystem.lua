@@ -5,6 +5,6 @@
 ---@field public metadataName CName
 gameaudioBreathingSubSystem = {}
 
----@param fields? table
+---@param fields? gameaudioBreathingSubSystem
 ---@return gameaudioBreathingSubSystem
 function gameaudioBreathingSubSystem.new(fields) return end

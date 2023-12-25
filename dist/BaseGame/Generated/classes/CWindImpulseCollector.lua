@@ -4,6 +4,6 @@
 ---@class CWindImpulseCollector: ISceneStorageCustomData
 CWindImpulseCollector = {}
 
----@param fields? table
+---@param fields? CWindImpulseCollector
 ---@return CWindImpulseCollector
 function CWindImpulseCollector.new(fields) return end

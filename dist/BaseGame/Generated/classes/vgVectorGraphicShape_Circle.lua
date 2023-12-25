@@ -5,6 +5,6 @@
 ---@field public dius Float
 vgVectorGraphicShape_Circle = {}
 
----@param fields? table
+---@param fields? vgVectorGraphicShape_Circle
 ---@return vgVectorGraphicShape_Circle
 function vgVectorGraphicShape_Circle.new(fields) return end

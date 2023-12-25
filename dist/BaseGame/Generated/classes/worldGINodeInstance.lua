@@ -4,6 +4,6 @@
 ---@class worldGINodeInstance: worldINodeInstance
 worldGINodeInstance = {}
 
----@param fields? table
+---@param fields? worldGINodeInstance
 ---@return worldGINodeInstance
 function worldGINodeInstance.new(fields) return end

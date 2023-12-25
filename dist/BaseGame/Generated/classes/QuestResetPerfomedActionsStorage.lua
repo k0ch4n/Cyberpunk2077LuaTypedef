@@ -4,7 +4,7 @@
 ---@class QuestResetPerfomedActionsStorage: ActionBool
 QuestResetPerfomedActionsStorage = {}
 
----@param fields? table
+---@param fields? QuestResetPerfomedActionsStorage
 ---@return QuestResetPerfomedActionsStorage
 function QuestResetPerfomedActionsStorage.new(fields) return end
 

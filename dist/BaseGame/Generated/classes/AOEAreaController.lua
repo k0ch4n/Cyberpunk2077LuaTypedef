@@ -4,7 +4,7 @@
 ---@class AOEAreaController: MasterController
 AOEAreaController = {}
 
----@param fields? table
+---@param fields? AOEAreaController
 ---@return AOEAreaController
 function AOEAreaController.new(fields) return end
 

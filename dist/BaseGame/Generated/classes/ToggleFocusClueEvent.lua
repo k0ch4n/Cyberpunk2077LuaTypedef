@@ -8,7 +8,7 @@
 ---@field public updatePS Bool
 ToggleFocusClueEvent = {}
 
----@param fields? table
+---@param fields? ToggleFocusClueEvent
 ---@return ToggleFocusClueEvent
 function ToggleFocusClueEvent.new(fields) return end
 

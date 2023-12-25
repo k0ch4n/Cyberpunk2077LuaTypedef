@@ -9,6 +9,6 @@
 ---@field public radioStationMetadata CName
 audioAmbientPaletteBrush = {}
 
----@param fields? table
+---@param fields? audioAmbientPaletteBrush
 ---@return audioAmbientPaletteBrush
 function audioAmbientPaletteBrush.new(fields) return end

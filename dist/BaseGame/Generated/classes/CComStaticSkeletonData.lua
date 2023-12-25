@@ -5,6 +5,6 @@
 ---@field public entries CComStaticSkeletonDataEntry[]
 CComStaticSkeletonData = {}
 
----@param fields? table
+---@param fields? CComStaticSkeletonData
 ---@return CComStaticSkeletonData
 function CComStaticSkeletonData.new(fields) return end

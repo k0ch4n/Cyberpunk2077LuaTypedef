@@ -7,6 +7,6 @@
 ---@field public parentGameController CName
 at_uiWidgetData = {}
 
----@param fields? table
+---@param fields? at_uiWidgetData
 ---@return at_uiWidgetData
 function at_uiWidgetData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private lastTarget gameObject
 TargetBreachCanGetKilledByDamagePrereqCondition = {}
 
----@param fields? table
+---@param fields? TargetBreachCanGetKilledByDamagePrereqCondition
 ---@return TargetBreachCanGetKilledByDamagePrereqCondition
 function TargetBreachCanGetKilledByDamagePrereqCondition.new(fields) return end
 

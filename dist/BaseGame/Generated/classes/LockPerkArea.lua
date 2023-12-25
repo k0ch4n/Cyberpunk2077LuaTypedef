@@ -5,7 +5,7 @@
 ---@field public perkArea gamedataPerkArea
 LockPerkArea = {}
 
----@param fields? table
+---@param fields? LockPerkArea
 ---@return LockPerkArea
 function LockPerkArea.new(fields) return end
 

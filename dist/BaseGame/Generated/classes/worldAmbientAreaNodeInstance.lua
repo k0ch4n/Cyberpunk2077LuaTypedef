@@ -4,6 +4,6 @@
 ---@class worldAmbientAreaNodeInstance: worldTriggerAreaNodeInstance
 worldAmbientAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAmbientAreaNodeInstance
 ---@return worldAmbientAreaNodeInstance
 function worldAmbientAreaNodeInstance.new(fields) return end

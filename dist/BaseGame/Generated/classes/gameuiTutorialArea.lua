@@ -5,6 +5,6 @@
 ---@field public bracketID CName
 gameuiTutorialArea = {}
 
----@param fields? table
+---@param fields? gameuiTutorialArea
 ---@return gameuiTutorialArea
 function gameuiTutorialArea.new(fields) return end

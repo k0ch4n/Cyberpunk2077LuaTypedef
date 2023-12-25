@@ -20,6 +20,6 @@
 ---@field public componentMissingTexture CBitmapTexture
 inkEngineSettingsResource = {}
 
----@param fields? table
+---@param fields? inkEngineSettingsResource
 ---@return inkEngineSettingsResource
 function inkEngineSettingsResource.new(fields) return end

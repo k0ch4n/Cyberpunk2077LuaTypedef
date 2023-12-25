@@ -6,6 +6,6 @@
 ---@field public outlinePoints Vector2[]
 gamemappinsOutlineMappinVolume = {}
 
----@param fields? table
+---@param fields? gamemappinsOutlineMappinVolume
 ---@return gamemappinsOutlineMappinVolume
 function gamemappinsOutlineMappinVolume.new(fields) return end

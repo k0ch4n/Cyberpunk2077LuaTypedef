@@ -12,7 +12,7 @@
 ---@field public systemsToNotifyFlags Uint16
 entPhysicalDestructionComponent = {}
 
----@param fields? table
+---@param fields? entPhysicalDestructionComponent
 ---@return entPhysicalDestructionComponent
 function entPhysicalDestructionComponent.new(fields) return end
 

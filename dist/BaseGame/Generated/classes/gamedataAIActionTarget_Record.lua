@@ -4,7 +4,7 @@
 ---@class gamedataAIActionTarget_Record: gamedataTweakDBRecord
 gamedataAIActionTarget_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionTarget_Record
 ---@return gamedataAIActionTarget_Record
 function gamedataAIActionTarget_Record.new(fields) return end
 

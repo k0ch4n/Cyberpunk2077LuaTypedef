@@ -10,7 +10,7 @@
 ---@field private femaleAnimProxy inkanimProxy
 CharacterCreationGenderSelectionMenu = {}
 
----@param fields? table
+---@param fields? CharacterCreationGenderSelectionMenu
 ---@return CharacterCreationGenderSelectionMenu
 function CharacterCreationGenderSelectionMenu.new(fields) return end
 

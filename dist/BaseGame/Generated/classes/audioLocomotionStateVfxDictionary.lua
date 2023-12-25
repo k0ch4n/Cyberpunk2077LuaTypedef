@@ -6,6 +6,6 @@
 ---@field public entryType audioLocomotionStateVfxDictionaryItem
 audioLocomotionStateVfxDictionary = {}
 
----@param fields? table
+---@param fields? audioLocomotionStateVfxDictionary
 ---@return audioLocomotionStateVfxDictionary
 function audioLocomotionStateVfxDictionary.new(fields) return end

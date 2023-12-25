@@ -6,7 +6,7 @@
 ---@field protected blackboard gameIBlackboard
 SceneScreen = {}
 
----@param fields? table
+---@param fields? SceneScreen
 ---@return SceneScreen
 function SceneScreen.new(fields) return end
 

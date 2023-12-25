@@ -8,6 +8,6 @@
 ---@field public customFilterData physicsCustomFilterData
 physicsFilterData = {}
 
----@param fields? table
+---@param fields? physicsFilterData
 ---@return physicsFilterData
 function physicsFilterData.new(fields) return end

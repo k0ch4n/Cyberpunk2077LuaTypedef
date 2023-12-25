@@ -29,7 +29,7 @@
 ---@field public isOptional Bool
 ObjectiveEntryLogicController = {}
 
----@param fields? table
+---@param fields? ObjectiveEntryLogicController
 ---@return ObjectiveEntryLogicController
 function ObjectiveEntryLogicController.new(fields) return end
 

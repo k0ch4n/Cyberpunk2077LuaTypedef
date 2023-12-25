@@ -4,7 +4,7 @@
 ---@class inkScriptableDataViewWrapper: inkBaseScriptableDataSource
 inkScriptableDataViewWrapper = {}
 
----@param fields? table
+---@param fields? inkScriptableDataViewWrapper
 ---@return inkScriptableDataViewWrapper
 function inkScriptableDataViewWrapper.new(fields) return end
 

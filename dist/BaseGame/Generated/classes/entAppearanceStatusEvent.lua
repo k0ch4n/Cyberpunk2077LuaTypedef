@@ -5,6 +5,6 @@
 ---@field public status entAppearanceStatus
 entAppearanceStatusEvent = {}
 
----@param fields? table
+---@param fields? entAppearanceStatusEvent
 ---@return entAppearanceStatusEvent
 function entAppearanceStatusEvent.new(fields) return end

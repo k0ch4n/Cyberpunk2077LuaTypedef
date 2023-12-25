@@ -4,6 +4,6 @@
 ---@class gameaudioScanningSystem: gameaudioIScanningSystem
 gameaudioScanningSystem = {}
 
----@param fields? table
+---@param fields? gameaudioScanningSystem
 ---@return gameaudioScanningSystem
 function gameaudioScanningSystem.new(fields) return end

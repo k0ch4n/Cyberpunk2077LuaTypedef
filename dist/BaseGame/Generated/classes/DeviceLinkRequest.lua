@@ -5,7 +5,7 @@
 ---@field private deviceLink DeviceLink
 DeviceLinkRequest = {}
 
----@param fields? table
+---@param fields? DeviceLinkRequest
 ---@return DeviceLinkRequest
 function DeviceLinkRequest.new(fields) return end
 

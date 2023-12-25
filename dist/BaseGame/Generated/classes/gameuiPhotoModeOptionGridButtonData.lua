@@ -7,6 +7,6 @@
 ---@field public optionData Int32
 gameuiPhotoModeOptionGridButtonData = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeOptionGridButtonData
 ---@return gameuiPhotoModeOptionGridButtonData
 function gameuiPhotoModeOptionGridButtonData.new(fields) return end

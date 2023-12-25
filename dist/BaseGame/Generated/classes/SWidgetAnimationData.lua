@@ -14,6 +14,6 @@
 ---@field public onEndLoop CName
 SWidgetAnimationData = {}
 
----@param fields? table
+---@param fields? SWidgetAnimationData
 ---@return SWidgetAnimationData
 function SWidgetAnimationData.new(fields) return end

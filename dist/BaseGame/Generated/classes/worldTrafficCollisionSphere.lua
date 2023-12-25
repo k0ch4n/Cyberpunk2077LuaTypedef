@@ -9,6 +9,6 @@
 ---@field public flags Uint8
 worldTrafficCollisionSphere = {}
 
----@param fields? table
+---@param fields? worldTrafficCollisionSphere
 ---@return worldTrafficCollisionSphere
 function worldTrafficCollisionSphere.new(fields) return end

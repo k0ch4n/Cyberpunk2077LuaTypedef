@@ -9,7 +9,7 @@
 ---@field public textLayerId Uint32
 MeleeLeapEvents = {}
 
----@param fields? table
+---@param fields? MeleeLeapEvents
 ---@return MeleeLeapEvents
 function MeleeLeapEvents.new(fields) return end
 

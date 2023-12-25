@@ -9,7 +9,7 @@
 ---@field protected outTryDriveAwayFromPlayer AIArgumentMapping
 AIDrivePanicCommandHandler = {}
 
----@param fields? table
+---@param fields? AIDrivePanicCommandHandler
 ---@return AIDrivePanicCommandHandler
 function AIDrivePanicCommandHandler.new(fields) return end
 

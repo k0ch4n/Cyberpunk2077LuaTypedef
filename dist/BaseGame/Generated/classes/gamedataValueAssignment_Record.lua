@@ -4,7 +4,7 @@
 ---@class gamedataValueAssignment_Record: gamedataContentAssignment_Record
 gamedataValueAssignment_Record = {}
 
----@param fields? table
+---@param fields? gamedataValueAssignment_Record
 ---@return gamedataValueAssignment_Record
 function gamedataValueAssignment_Record.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class QuestForceClearGlass: ActionBool
 QuestForceClearGlass = {}
 
----@param fields? table
+---@param fields? QuestForceClearGlass
 ---@return QuestForceClearGlass
 function QuestForceClearGlass.new(fields) return end
 

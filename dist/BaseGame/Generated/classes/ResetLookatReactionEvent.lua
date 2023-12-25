@@ -4,6 +4,6 @@
 ---@class ResetLookatReactionEvent: redEvent
 ResetLookatReactionEvent = {}
 
----@param fields? table
+---@param fields? ResetLookatReactionEvent
 ---@return ResetLookatReactionEvent
 function ResetLookatReactionEvent.new(fields) return end

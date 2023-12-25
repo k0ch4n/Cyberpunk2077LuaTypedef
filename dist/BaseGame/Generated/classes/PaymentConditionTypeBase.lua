@@ -6,7 +6,7 @@
 ---@field public payWhenSucceded Bool
 PaymentConditionTypeBase = {}
 
----@param fields? table
+---@param fields? PaymentConditionTypeBase
 ---@return PaymentConditionTypeBase
 function PaymentConditionTypeBase.new(fields) return end
 

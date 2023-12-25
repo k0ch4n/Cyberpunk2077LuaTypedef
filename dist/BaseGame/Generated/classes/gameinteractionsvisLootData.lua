@@ -13,6 +13,6 @@
 ---@field public isLocked Bool
 gameinteractionsvisLootData = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisLootData
 ---@return gameinteractionsvisLootData
 function gameinteractionsvisLootData.new(fields) return end

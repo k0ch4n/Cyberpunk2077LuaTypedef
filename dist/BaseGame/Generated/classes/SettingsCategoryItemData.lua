@@ -4,6 +4,6 @@
 ---@class SettingsCategoryItemData: ListItemData
 SettingsCategoryItemData = {}
 
----@param fields? table
+---@param fields? SettingsCategoryItemData
 ---@return SettingsCategoryItemData
 function SettingsCategoryItemData.new(fields) return end

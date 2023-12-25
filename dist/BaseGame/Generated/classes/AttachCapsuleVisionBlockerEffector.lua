@@ -14,7 +14,7 @@
 ---@field private blocksParent Bool
 AttachCapsuleVisionBlockerEffector = {}
 
----@param fields? table
+---@param fields? AttachCapsuleVisionBlockerEffector
 ---@return AttachCapsuleVisionBlockerEffector
 function AttachCapsuleVisionBlockerEffector.new(fields) return end
 

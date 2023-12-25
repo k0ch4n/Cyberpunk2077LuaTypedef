@@ -5,7 +5,7 @@
 ---@field private entities AnimationSystemForcedVisibilityEntityData[]
 AnimationSystemForcedVisibilityManager = {}
 
----@param fields? table
+---@param fields? AnimationSystemForcedVisibilityManager
 ---@return AnimationSystemForcedVisibilityManager
 function AnimationSystemForcedVisibilityManager.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 VehicleBlockInputContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleBlockInputContextDecisions
 ---@return VehicleBlockInputContextDecisions
 function VehicleBlockInputContextDecisions.new(fields) return end
 

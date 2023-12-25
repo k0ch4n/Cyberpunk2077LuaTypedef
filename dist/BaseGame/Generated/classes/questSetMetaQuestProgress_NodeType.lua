@@ -7,6 +7,6 @@
 ---@field public text LocalizationString
 questSetMetaQuestProgress_NodeType = {}
 
----@param fields? table
+---@param fields? questSetMetaQuestProgress_NodeType
 ---@return questSetMetaQuestProgress_NodeType
 function questSetMetaQuestProgress_NodeType.new(fields) return end

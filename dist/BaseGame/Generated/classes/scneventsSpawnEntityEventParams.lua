@@ -9,6 +9,6 @@
 ---@field public fallbackData scneventsSpawnEntityEventFallbackData[]
 scneventsSpawnEntityEventParams = {}
 
----@param fields? table
+---@param fields? scneventsSpawnEntityEventParams
 ---@return scneventsSpawnEntityEventParams
 function scneventsSpawnEntityEventParams.new(fields) return end

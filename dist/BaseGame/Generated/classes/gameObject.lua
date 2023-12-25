@@ -38,7 +38,7 @@
 ---@field protected isTargetedWithSmartWeapon Bool
 gameObject = {}
 
----@param fields? table
+---@param fields? gameObject
 ---@return gameObject
 function gameObject.new(fields) return end
 

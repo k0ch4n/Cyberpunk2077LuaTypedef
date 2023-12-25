@@ -5,6 +5,6 @@
 ---@field public controllers gameMuppetControllerSnapshot[]
 gameMuppetControllersSnapshot = {}
 
----@param fields? table
+---@param fields? gameMuppetControllersSnapshot
 ---@return gameMuppetControllersSnapshot
 function gameMuppetControllersSnapshot.new(fields) return end

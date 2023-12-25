@@ -5,6 +5,6 @@
 ---@field public shakeStrength Float
 gameeventsCameraShakeEvent = {}
 
----@param fields? table
+---@param fields? gameeventsCameraShakeEvent
 ---@return gameeventsCameraShakeEvent
 function gameeventsCameraShakeEvent.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public vehicleGlobalName CName
 questVehicleSpawned_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleSpawned_ConditionType
 ---@return questVehicleSpawned_ConditionType
 function questVehicleSpawned_ConditionType.new(fields) return end

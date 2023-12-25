@@ -13,7 +13,7 @@
 ---@field private onMessegeChangedListener redCallbackObject
 LcdScreenInkGameController = {}
 
----@param fields? table
+---@param fields? LcdScreenInkGameController
 ---@return LcdScreenInkGameController
 function LcdScreenInkGameController.new(fields) return end
 

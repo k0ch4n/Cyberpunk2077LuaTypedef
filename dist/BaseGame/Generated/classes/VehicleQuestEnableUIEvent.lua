@@ -5,7 +5,7 @@
 ---@field public mode vehicleQuestUIEnable
 VehicleQuestEnableUIEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestEnableUIEvent
 ---@return VehicleQuestEnableUIEvent
 function VehicleQuestEnableUIEvent.new(fields) return end
 

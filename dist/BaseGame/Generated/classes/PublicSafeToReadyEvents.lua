@@ -4,7 +4,7 @@
 ---@class PublicSafeToReadyEvents: WeaponEventsTransition
 PublicSafeToReadyEvents = {}
 
----@param fields? table
+---@param fields? PublicSafeToReadyEvents
 ---@return PublicSafeToReadyEvents
 function PublicSafeToReadyEvents.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameDeactivateTriggerDestructionComponentEvent: redEvent
 gameDeactivateTriggerDestructionComponentEvent = {}
 
----@param fields? table
+---@param fields? gameDeactivateTriggerDestructionComponentEvent
 ---@return gameDeactivateTriggerDestructionComponentEvent
 function gameDeactivateTriggerDestructionComponentEvent.new(fields) return end

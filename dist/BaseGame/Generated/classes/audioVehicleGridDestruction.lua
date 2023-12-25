@@ -9,6 +9,6 @@
 ---@field public upperLayer audioVehicleDestructionGridLayer
 audioVehicleGridDestruction = {}
 
----@param fields? table
+---@param fields? audioVehicleGridDestruction
 ---@return audioVehicleGridDestruction
 function audioVehicleGridDestruction.new(fields) return end

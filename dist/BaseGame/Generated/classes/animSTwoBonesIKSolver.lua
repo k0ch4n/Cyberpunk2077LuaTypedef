@@ -4,6 +4,6 @@
 ---@class animSTwoBonesIKSolver
 animSTwoBonesIKSolver = {}
 
----@param fields? table
+---@param fields? animSTwoBonesIKSolver
 ---@return animSTwoBonesIKSolver
 function animSTwoBonesIKSolver.new(fields) return end

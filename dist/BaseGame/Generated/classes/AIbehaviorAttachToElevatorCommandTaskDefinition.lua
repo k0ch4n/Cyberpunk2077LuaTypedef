@@ -5,6 +5,6 @@
 ---@field public command AIArgumentMapping
 AIbehaviorAttachToElevatorCommandTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorAttachToElevatorCommandTaskDefinition
 ---@return AIbehaviorAttachToElevatorCommandTaskDefinition
 function AIbehaviorAttachToElevatorCommandTaskDefinition.new(fields) return end

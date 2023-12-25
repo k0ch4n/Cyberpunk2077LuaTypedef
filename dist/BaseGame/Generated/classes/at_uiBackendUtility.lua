@@ -4,7 +4,7 @@
 ---@class at_uiBackendUtility: IScriptable
 at_uiBackendUtility = {}
 
----@param fields? table
+---@param fields? at_uiBackendUtility
 ---@return at_uiBackendUtility
 function at_uiBackendUtility.new(fields) return end
 

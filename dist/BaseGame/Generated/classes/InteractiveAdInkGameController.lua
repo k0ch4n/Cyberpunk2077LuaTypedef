@@ -13,7 +13,7 @@
 ---@field private onShowVendorListener redCallbackObject
 InteractiveAdInkGameController = {}
 
----@param fields? table
+---@param fields? InteractiveAdInkGameController
 ---@return InteractiveAdInkGameController
 function InteractiveAdInkGameController.new(fields) return end
 

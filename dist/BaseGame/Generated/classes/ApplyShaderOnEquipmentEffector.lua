@@ -9,7 +9,7 @@
 ---@field private ownerEffect gameEffectInstance
 ApplyShaderOnEquipmentEffector = {}
 
----@param fields? table
+---@param fields? ApplyShaderOnEquipmentEffector
 ---@return ApplyShaderOnEquipmentEffector
 function ApplyShaderOnEquipmentEffector.new(fields) return end
 

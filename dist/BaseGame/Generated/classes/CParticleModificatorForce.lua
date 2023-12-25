@@ -8,6 +8,6 @@
 ---@field public damp IEvaluatorVector
 CParticleModificatorForce = {}
 
----@param fields? table
+---@param fields? CParticleModificatorForce
 ---@return CParticleModificatorForce
 function CParticleModificatorForce.new(fields) return end

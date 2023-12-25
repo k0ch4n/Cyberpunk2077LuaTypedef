@@ -5,6 +5,6 @@
 ---@field public value Float
 CEvaluatorFloatConst = {}
 
----@param fields? table
+---@param fields? CEvaluatorFloatConst
 ---@return CEvaluatorFloatConst
 function CEvaluatorFloatConst.new(fields) return end

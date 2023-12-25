@@ -9,7 +9,7 @@
 ---@field private isHovered Bool
 WorldMapFiltersListItem = {}
 
----@param fields? table
+---@param fields? WorldMapFiltersListItem
 ---@return WorldMapFiltersListItem
 function WorldMapFiltersListItem.new(fields) return end
 

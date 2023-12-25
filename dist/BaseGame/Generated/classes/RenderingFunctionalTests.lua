@@ -4,7 +4,7 @@
 ---@class RenderingFunctionalTests: IScriptable
 RenderingFunctionalTests = {}
 
----@param fields? table
+---@param fields? RenderingFunctionalTests
 ---@return RenderingFunctionalTests
 function RenderingFunctionalTests.new(fields) return end
 

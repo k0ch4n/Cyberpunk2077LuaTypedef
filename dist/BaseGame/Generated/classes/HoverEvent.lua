@@ -5,6 +5,6 @@
 ---@field public hooverOn Bool
 HoverEvent = {}
 
----@param fields? table
+---@param fields? HoverEvent
 ---@return HoverEvent
 function HoverEvent.new(fields) return end

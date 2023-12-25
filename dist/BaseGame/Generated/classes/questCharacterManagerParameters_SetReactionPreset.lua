@@ -6,6 +6,6 @@
 ---@field public recordSelector questReactionPresetRecordSelector
 questCharacterManagerParameters_SetReactionPreset = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetReactionPreset
 ---@return questCharacterManagerParameters_SetReactionPreset
 function questCharacterManagerParameters_SetReactionPreset.new(fields) return end

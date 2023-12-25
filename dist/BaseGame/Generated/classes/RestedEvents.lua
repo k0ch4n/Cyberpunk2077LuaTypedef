@@ -4,7 +4,7 @@
 ---@class RestedEvents: StaminaEventsTransition
 RestedEvents = {}
 
----@param fields? table
+---@param fields? RestedEvents
 ---@return RestedEvents
 function RestedEvents.new(fields) return end
 

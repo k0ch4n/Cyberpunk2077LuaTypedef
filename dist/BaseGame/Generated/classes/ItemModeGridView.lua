@@ -4,7 +4,7 @@
 ---@class ItemModeGridView: CommonItemsGridView
 ItemModeGridView = {}
 
----@param fields? table
+---@param fields? ItemModeGridView
 ---@return ItemModeGridView
 function ItemModeGridView.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameuiInGameMenuGameCustomizationStateUpdater: gameuiICustomizationStateUpdater
 gameuiInGameMenuGameCustomizationStateUpdater = {}
 
----@param fields? table
+---@param fields? gameuiInGameMenuGameCustomizationStateUpdater
 ---@return gameuiInGameMenuGameCustomizationStateUpdater
 function gameuiInGameMenuGameCustomizationStateUpdater.new(fields) return end

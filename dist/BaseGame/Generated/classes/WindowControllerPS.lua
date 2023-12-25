@@ -5,7 +5,7 @@
 ---@field private windowSkillChecks EngDemoContainer
 WindowControllerPS = {}
 
----@param fields? table
+---@param fields? WindowControllerPS
 ---@return WindowControllerPS
 function WindowControllerPS.new(fields) return end
 

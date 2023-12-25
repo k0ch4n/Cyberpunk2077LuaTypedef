@@ -11,6 +11,6 @@
 ---@field public token inkGameNotificationToken
 inkGameNotificationData = {}
 
----@param fields? table
+---@param fields? inkGameNotificationData
 ---@return inkGameNotificationData
 function inkGameNotificationData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public effector StatusEffectBasedTimeBankEffector
 TimeBankOnStatusEffectAppliedListener = {}
 
----@param fields? table
+---@param fields? TimeBankOnStatusEffectAppliedListener
 ---@return TimeBankOnStatusEffectAppliedListener
 function TimeBankOnStatusEffectAppliedListener.new(fields) return end
 

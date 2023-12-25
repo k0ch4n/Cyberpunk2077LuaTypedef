@@ -6,6 +6,6 @@
 ---@field public hash Int32
 CodexForceSelectionEvent = {}
 
----@param fields? table
+---@param fields? CodexForceSelectionEvent
 ---@return CodexForceSelectionEvent
 function CodexForceSelectionEvent.new(fields) return end

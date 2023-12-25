@@ -30,7 +30,7 @@
 ---@field private menuVisited Bool
 CharacterCreationStatsMenu = {}
 
----@param fields? table
+---@param fields? CharacterCreationStatsMenu
 ---@return CharacterCreationStatsMenu
 function CharacterCreationStatsMenu.new(fields) return end
 

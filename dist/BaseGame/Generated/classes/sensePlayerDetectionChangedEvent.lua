@@ -6,6 +6,6 @@
 ---@field public newDetectionValue Float
 sensePlayerDetectionChangedEvent = {}
 
----@param fields? table
+---@param fields? sensePlayerDetectionChangedEvent
 ---@return sensePlayerDetectionChangedEvent
 function sensePlayerDetectionChangedEvent.new(fields) return end

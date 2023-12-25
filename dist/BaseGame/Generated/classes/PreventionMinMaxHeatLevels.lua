@@ -7,6 +7,6 @@
 ---@field public isDefault Bool
 PreventionMinMaxHeatLevels = {}
 
----@param fields? table
+---@param fields? PreventionMinMaxHeatLevels
 ---@return PreventionMinMaxHeatLevels
 function PreventionMinMaxHeatLevels.new(fields) return end

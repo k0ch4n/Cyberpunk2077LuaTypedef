@@ -7,6 +7,6 @@
 ---@field public slotIndex Int32
 InventoryItemDisplayData = {}
 
----@param fields? table
+---@param fields? InventoryItemDisplayData
 ---@return InventoryItemDisplayData
 function InventoryItemDisplayData.new(fields) return end

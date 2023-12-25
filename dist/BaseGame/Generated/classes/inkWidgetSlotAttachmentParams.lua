@@ -7,6 +7,6 @@
 ---@field public layoutOverride inkWidgetLayout
 inkWidgetSlotAttachmentParams = {}
 
----@param fields? table
+---@param fields? inkWidgetSlotAttachmentParams
 ---@return inkWidgetSlotAttachmentParams
 function inkWidgetSlotAttachmentParams.new(fields) return end

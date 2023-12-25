@@ -5,6 +5,6 @@
 ---@field public returnConditions scnIReturnCondition[]
 scnOverrideReturnConditions_Operation = {}
 
----@param fields? table
+---@param fields? scnOverrideReturnConditions_Operation
 ---@return scnOverrideReturnConditions_Operation
 function scnOverrideReturnConditions_Operation.new(fields) return end

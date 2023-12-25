@@ -5,7 +5,7 @@
 ---@field public statusEffectID TweakDBID
 MonitorStatusEffectBehavior = {}
 
----@param fields? table
+---@param fields? MonitorStatusEffectBehavior
 ---@return MonitorStatusEffectBehavior
 function MonitorStatusEffectBehavior.new(fields) return end
 

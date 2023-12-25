@@ -4,7 +4,7 @@
 ---@class gamedataAINPCRarityCond_Record: gamedataAIActionSubCondition_Record
 gamedataAINPCRarityCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAINPCRarityCond_Record
 ---@return gamedataAINPCRarityCond_Record
 function gamedataAINPCRarityCond_Record.new(fields) return end
 

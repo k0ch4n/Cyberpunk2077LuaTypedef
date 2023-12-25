@@ -4,6 +4,6 @@
 ---@class mpRemotePlayer: mpPlayer
 mpRemotePlayer = {}
 
----@param fields? table
+---@param fields? mpRemotePlayer
 ---@return mpRemotePlayer
 function mpRemotePlayer.new(fields) return end

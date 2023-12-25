@@ -4,6 +4,6 @@
 ---@class StopShortGlitchEvent: redEvent
 StopShortGlitchEvent = {}
 
----@param fields? table
+---@param fields? StopShortGlitchEvent
 ---@return StopShortGlitchEvent
 function StopShortGlitchEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkOnGogLoginStatusChangedResult: inkCallbackBase
 inkOnGogLoginStatusChangedResult = {}
 
----@param fields? table
+---@param fields? inkOnGogLoginStatusChangedResult
 ---@return inkOnGogLoginStatusChangedResult
 function inkOnGogLoginStatusChangedResult.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field public fallbackInterval Float
 StimBroadcasterComponent = {}
 
----@param fields? table
+---@param fields? StimBroadcasterComponent
 ---@return StimBroadcasterComponent
 function StimBroadcasterComponent.new(fields) return end
 

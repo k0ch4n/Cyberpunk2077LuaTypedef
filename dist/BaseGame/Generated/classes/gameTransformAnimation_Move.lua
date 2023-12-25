@@ -7,6 +7,6 @@
 ---@field public movement gameTransformAnimation_Movement
 gameTransformAnimation_Move = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Move
 ---@return gameTransformAnimation_Move
 function gameTransformAnimation_Move.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public prereq gameIPrereq
 gamePrereqDefinition = {}
 
----@param fields? table
+---@param fields? gamePrereqDefinition
 ---@return gamePrereqDefinition
 function gamePrereqDefinition.new(fields) return end

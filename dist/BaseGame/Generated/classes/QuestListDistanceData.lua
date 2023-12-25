@@ -6,6 +6,6 @@
 ---@field public distance Float
 QuestListDistanceData = {}
 
----@param fields? table
+---@param fields? QuestListDistanceData
 ---@return QuestListDistanceData
 function QuestListDistanceData.new(fields) return end

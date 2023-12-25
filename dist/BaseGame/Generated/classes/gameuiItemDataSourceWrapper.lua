@@ -4,7 +4,7 @@
 ---@class gameuiItemDataSourceWrapper: gameuiBaseItemDataSource
 gameuiItemDataSourceWrapper = {}
 
----@param fields? table
+---@param fields? gameuiItemDataSourceWrapper
 ---@return gameuiItemDataSourceWrapper
 function gameuiItemDataSourceWrapper.new(fields) return end
 

@@ -11,7 +11,7 @@
 ---@field protected targetID entEntityID
 ShootCommandTask = {}
 
----@param fields? table
+---@param fields? ShootCommandTask
 ---@return ShootCommandTask
 function ShootCommandTask.new(fields) return end
 

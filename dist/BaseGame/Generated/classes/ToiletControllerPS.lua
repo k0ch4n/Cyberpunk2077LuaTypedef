@@ -8,7 +8,7 @@
 ---@field protected isFlushing Bool
 ToiletControllerPS = {}
 
----@param fields? table
+---@param fields? ToiletControllerPS
 ---@return ToiletControllerPS
 function ToiletControllerPS.new(fields) return end
 

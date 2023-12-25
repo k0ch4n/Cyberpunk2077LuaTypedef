@@ -5,7 +5,7 @@
 ---@field private factTextArray FactTextStruct[]
 FactTextGameController = {}
 
----@param fields? table
+---@param fields? FactTextGameController
 ---@return FactTextGameController
 function FactTextGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ToiletController: ScriptableDeviceComponent
 ToiletController = {}
 
----@param fields? table
+---@param fields? ToiletController
 ---@return ToiletController
 function ToiletController.new(fields) return end
 

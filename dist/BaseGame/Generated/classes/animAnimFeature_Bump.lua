@@ -9,6 +9,6 @@
 ---@field public bumpType Int32
 animAnimFeature_Bump = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Bump
 ---@return animAnimFeature_Bump
 function animAnimFeature_Bump.new(fields) return end

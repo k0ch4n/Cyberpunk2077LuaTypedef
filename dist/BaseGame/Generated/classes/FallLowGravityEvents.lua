@@ -4,7 +4,7 @@
 ---@class FallLowGravityEvents: LocomotionAirLowGravityEvents
 FallLowGravityEvents = {}
 
----@param fields? table
+---@param fields? FallLowGravityEvents
 ---@return FallLowGravityEvents
 function FallLowGravityEvents.new(fields) return end
 

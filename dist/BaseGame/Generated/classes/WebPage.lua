@@ -12,7 +12,7 @@
 ---@field private HOME_TEXT_NAME String
 WebPage = {}
 
----@param fields? table
+---@param fields? WebPage
 ---@return WebPage
 function WebPage.new(fields) return end
 

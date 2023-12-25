@@ -4,6 +4,6 @@
 ---@class entSlotAttachment: entITransformAttachment
 entSlotAttachment = {}
 
----@param fields? table
+---@param fields? entSlotAttachment
 ---@return entSlotAttachment
 function entSlotAttachment.new(fields) return end

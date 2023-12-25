@@ -9,6 +9,6 @@
 ---@field public outChanelType animAnimNode_SetDrivenKey_InternalsEChannelType
 animAnimNode_SetDrivenKey_InternalsEntry = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetDrivenKey_InternalsEntry
 ---@return animAnimNode_SetDrivenKey_InternalsEntry
 function animAnimNode_SetDrivenKey_InternalsEntry.new(fields) return end

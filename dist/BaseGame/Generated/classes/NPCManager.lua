@@ -5,7 +5,7 @@
 ---@field private owner NPCPuppet
 NPCManager = {}
 
----@param fields? table
+---@param fields? NPCManager
 ---@return NPCManager
 function NPCManager.new(fields) return end
 

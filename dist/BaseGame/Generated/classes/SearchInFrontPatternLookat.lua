@@ -4,7 +4,7 @@
 ---@class SearchInFrontPatternLookat: AISearchingLookat
 SearchInFrontPatternLookat = {}
 
----@param fields? table
+---@param fields? SearchInFrontPatternLookat
 ---@return SearchInFrontPatternLookat
 function SearchInFrontPatternLookat.new(fields) return end
 

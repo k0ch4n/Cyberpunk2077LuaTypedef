@@ -4,7 +4,7 @@
 ---@class TryStopMovingOnTrafficLane: AIbehaviortaskScript
 TryStopMovingOnTrafficLane = {}
 
----@param fields? table
+---@param fields? TryStopMovingOnTrafficLane
 ---@return TryStopMovingOnTrafficLane
 function TryStopMovingOnTrafficLane.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public defaultValue Bool
 AIArgumentBoolValue = {}
 
----@param fields? table
+---@param fields? AIArgumentBoolValue
 ---@return AIArgumentBoolValue
 function AIArgumentBoolValue.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private ctrl BaseSubtitlesGameController
 SubtitlesSettingsListener = {}
 
----@param fields? table
+---@param fields? SubtitlesSettingsListener
 ---@return SubtitlesSettingsListener
 function SubtitlesSettingsListener.new(fields) return end
 

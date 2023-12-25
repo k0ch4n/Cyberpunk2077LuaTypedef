@@ -4,7 +4,7 @@
 ---@class LiftController: MasterController
 LiftController = {}
 
----@param fields? table
+---@param fields? LiftController
 ---@return LiftController
 function LiftController.new(fields) return end
 

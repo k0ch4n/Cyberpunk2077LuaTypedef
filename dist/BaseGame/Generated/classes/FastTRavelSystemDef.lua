@@ -10,7 +10,7 @@
 ---@field public LastSubwayGateUsed gamebbScriptID_EntityID
 FastTRavelSystemDef = {}
 
----@param fields? table
+---@param fields? FastTRavelSystemDef
 ---@return FastTRavelSystemDef
 function FastTRavelSystemDef.new(fields) return end
 

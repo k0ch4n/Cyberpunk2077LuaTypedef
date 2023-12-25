@@ -6,6 +6,6 @@
 ---@field public value Variant
 AIbehaviorConstantExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorConstantExpressionDefinition
 ---@return AIbehaviorConstantExpressionDefinition
 function AIbehaviorConstantExpressionDefinition.new(fields) return end

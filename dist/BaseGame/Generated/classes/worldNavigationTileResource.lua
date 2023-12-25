@@ -8,6 +8,6 @@
 ---@field public agentSize NavGenAgentSize
 worldNavigationTileResource = {}
 
----@param fields? table
+---@param fields? worldNavigationTileResource
 ---@return worldNavigationTileResource
 function worldNavigationTileResource.new(fields) return end

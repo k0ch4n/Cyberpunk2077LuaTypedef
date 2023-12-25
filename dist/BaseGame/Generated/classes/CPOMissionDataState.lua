@@ -11,7 +11,7 @@
 ---@field private dataDamageTextLayerId Uint32
 CPOMissionDataState = {}
 
----@param fields? table
+---@param fields? CPOMissionDataState
 ---@return CPOMissionDataState
 function CPOMissionDataState.new(fields) return end
 

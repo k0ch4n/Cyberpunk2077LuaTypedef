@@ -9,6 +9,6 @@
 ---@field public roll Float
 AnimFeature_ProceduralDriverCombatData = {}
 
----@param fields? table
+---@param fields? AnimFeature_ProceduralDriverCombatData
 ---@return AnimFeature_ProceduralDriverCombatData
 function AnimFeature_ProceduralDriverCombatData.new(fields) return end

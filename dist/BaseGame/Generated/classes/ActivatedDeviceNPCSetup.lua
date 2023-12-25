@@ -6,6 +6,6 @@
 ---@field public npcSpawned NPCPuppet
 ActivatedDeviceNPCSetup = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceNPCSetup
 ---@return ActivatedDeviceNPCSetup
 function ActivatedDeviceNPCSetup.new(fields) return end

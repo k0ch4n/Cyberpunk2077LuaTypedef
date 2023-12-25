@@ -4,7 +4,7 @@
 ---@class AdHocAnimationDecisions: UpperBodyEventsTransition
 AdHocAnimationDecisions = {}
 
----@param fields? table
+---@param fields? AdHocAnimationDecisions
 ---@return AdHocAnimationDecisions
 function AdHocAnimationDecisions.new(fields) return end
 

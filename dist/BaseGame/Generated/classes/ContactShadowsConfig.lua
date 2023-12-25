@@ -9,6 +9,6 @@
 ---@field public distanceFadeRange Float
 ContactShadowsConfig = {}
 
----@param fields? table
+---@param fields? ContactShadowsConfig
 ---@return ContactShadowsConfig
 function ContactShadowsConfig.new(fields) return end

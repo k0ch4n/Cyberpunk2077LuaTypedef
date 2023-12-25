@@ -16,6 +16,6 @@
 ---@field public activeDataSync CodexListSyncData
 GenericCodexEntryData = {}
 
----@param fields? table
+---@param fields? GenericCodexEntryData
 ---@return GenericCodexEntryData
 function GenericCodexEntryData.new(fields) return end

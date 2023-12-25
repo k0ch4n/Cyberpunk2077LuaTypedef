@@ -6,6 +6,6 @@
 ---@field public IsNegative Bool
 OnProgressBarAnimFinish = {}
 
----@param fields? table
+---@param fields? OnProgressBarAnimFinish
 ---@return OnProgressBarAnimFinish
 function OnProgressBarAnimFinish.new(fields) return end

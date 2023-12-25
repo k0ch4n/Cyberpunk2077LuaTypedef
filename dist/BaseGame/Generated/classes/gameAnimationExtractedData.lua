@@ -7,6 +7,6 @@
 ---@field public smartObjectPointType gameSmartObjectPointType
 gameAnimationExtractedData = {}
 
----@param fields? table
+---@param fields? gameAnimationExtractedData
 ---@return gameAnimationExtractedData
 function gameAnimationExtractedData.new(fields) return end

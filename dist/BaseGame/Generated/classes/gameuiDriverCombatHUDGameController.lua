@@ -28,7 +28,7 @@
 ---@field private debugTuningStatusText inkTextWidgetReference
 gameuiDriverCombatHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiDriverCombatHUDGameController
 ---@return gameuiDriverCombatHUDGameController
 function gameuiDriverCombatHUDGameController.new(fields) return end
 

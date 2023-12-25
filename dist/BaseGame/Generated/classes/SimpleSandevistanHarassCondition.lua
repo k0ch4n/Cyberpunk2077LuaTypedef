@@ -6,7 +6,7 @@
 ---@field private result Bool
 SimpleSandevistanHarassCondition = {}
 
----@param fields? table
+---@param fields? SimpleSandevistanHarassCondition
 ---@return SimpleSandevistanHarassCondition
 function SimpleSandevistanHarassCondition.new(fields) return end
 

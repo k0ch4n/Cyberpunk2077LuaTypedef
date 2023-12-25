@@ -6,6 +6,6 @@
 ---@field public valid Bool
 gamestateMachineResultCName = {}
 
----@param fields? table
+---@param fields? gamestateMachineResultCName
 ---@return gamestateMachineResultCName
 function gamestateMachineResultCName.new(fields) return end

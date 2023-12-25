@@ -8,7 +8,7 @@
 ---@field private selectedIndex Int32
 characterCreationBodyMorphOptionColorPicker = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphOptionColorPicker
 ---@return characterCreationBodyMorphOptionColorPicker
 function characterCreationBodyMorphOptionColorPicker.new(fields) return end
 

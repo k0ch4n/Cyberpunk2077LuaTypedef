@@ -15,7 +15,7 @@
 ---@field private combatStateListener redCallbackObject
 ArcadeMachine = {}
 
----@param fields? table
+---@param fields? ArcadeMachine
 ---@return ArcadeMachine
 function ArcadeMachine.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public shouldDisableEnterCondition Bool
 VaultDecisions = {}
 
----@param fields? table
+---@param fields? VaultDecisions
 ---@return VaultDecisions
 function VaultDecisions.new(fields) return end
 

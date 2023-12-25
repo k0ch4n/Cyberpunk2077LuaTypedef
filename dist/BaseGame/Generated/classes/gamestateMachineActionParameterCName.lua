@@ -6,6 +6,6 @@
 ---@field public value CName
 gamestateMachineActionParameterCName = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterCName
 ---@return gamestateMachineActionParameterCName
 function gamestateMachineActionParameterCName.new(fields) return end

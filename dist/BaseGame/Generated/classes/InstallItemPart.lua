@@ -8,7 +8,7 @@
 ---@field public slotID TweakDBID
 InstallItemPart = {}
 
----@param fields? table
+---@param fields? InstallItemPart
 ---@return InstallItemPart
 function InstallItemPart.new(fields) return end
 

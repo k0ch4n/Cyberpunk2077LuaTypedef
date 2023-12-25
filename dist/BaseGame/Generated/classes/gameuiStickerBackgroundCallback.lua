@@ -4,6 +4,6 @@
 ---@class gameuiStickerBackgroundCallback: inkCallbackBase
 gameuiStickerBackgroundCallback = {}
 
----@param fields? table
+---@param fields? gameuiStickerBackgroundCallback
 ---@return gameuiStickerBackgroundCallback
 function gameuiStickerBackgroundCallback.new(fields) return end

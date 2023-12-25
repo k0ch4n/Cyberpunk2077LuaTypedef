@@ -4,7 +4,7 @@
 ---@class gamedataAINodeMapField_Record: gamedataTweakDBRecord
 gamedataAINodeMapField_Record = {}
 
----@param fields? table
+---@param fields? gamedataAINodeMapField_Record
 ---@return gamedataAINodeMapField_Record
 function gamedataAINodeMapField_Record.new(fields) return end
 

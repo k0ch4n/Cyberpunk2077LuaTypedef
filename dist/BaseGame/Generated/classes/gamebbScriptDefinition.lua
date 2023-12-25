@@ -4,6 +4,6 @@
 ---@class gamebbScriptDefinition: IScriptable
 gamebbScriptDefinition = {}
 
----@param fields? table
+---@param fields? gamebbScriptDefinition
 ---@return gamebbScriptDefinition
 function gamebbScriptDefinition.new(fields) return end

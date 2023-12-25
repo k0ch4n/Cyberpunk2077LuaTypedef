@@ -8,7 +8,7 @@
 ---@field private highScores ScoreboardPlayer[]
 ScoreboardLogicController = {}
 
----@param fields? table
+---@param fields? ScoreboardLogicController
 ---@return ScoreboardLogicController
 function ScoreboardLogicController.new(fields) return end
 

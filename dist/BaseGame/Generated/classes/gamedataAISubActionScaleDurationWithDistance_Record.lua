@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionScaleDurationWithDistance_Record: gamedataAISubAction_Record
 gamedataAISubActionScaleDurationWithDistance_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionScaleDurationWithDistance_Record
 ---@return gamedataAISubActionScaleDurationWithDistance_Record
 function gamedataAISubActionScaleDurationWithDistance_Record.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public invert Bool
 IgnoreBarbedWirePrereq = {}
 
----@param fields? table
+---@param fields? IgnoreBarbedWirePrereq
 ---@return IgnoreBarbedWirePrereq
 function IgnoreBarbedWirePrereq.new(fields) return end
 

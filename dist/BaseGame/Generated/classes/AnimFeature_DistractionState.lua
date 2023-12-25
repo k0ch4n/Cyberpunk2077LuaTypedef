@@ -5,6 +5,6 @@
 ---@field public isOn Bool
 AnimFeature_DistractionState = {}
 
----@param fields? table
+---@param fields? AnimFeature_DistractionState
 ---@return AnimFeature_DistractionState
 function AnimFeature_DistractionState.new(fields) return end

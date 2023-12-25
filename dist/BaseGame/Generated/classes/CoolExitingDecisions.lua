@@ -4,7 +4,7 @@
 ---@class CoolExitingDecisions: ExitingDecisions
 CoolExitingDecisions = {}
 
----@param fields? table
+---@param fields? CoolExitingDecisions
 ---@return CoolExitingDecisions
 function CoolExitingDecisions.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public fallbackSlots entFallbackSlot[]
 entSlotComponent = {}
 
----@param fields? table
+---@param fields? entSlotComponent
 ---@return entSlotComponent
 function entSlotComponent.new(fields) return end
 

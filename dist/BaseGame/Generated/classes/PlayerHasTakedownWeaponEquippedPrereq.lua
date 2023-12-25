@@ -4,7 +4,7 @@
 ---@class PlayerHasTakedownWeaponEquippedPrereq: gameIScriptablePrereq
 PlayerHasTakedownWeaponEquippedPrereq = {}
 
----@param fields? table
+---@param fields? PlayerHasTakedownWeaponEquippedPrereq
 ---@return PlayerHasTakedownWeaponEquippedPrereq
 function PlayerHasTakedownWeaponEquippedPrereq.new(fields) return end
 

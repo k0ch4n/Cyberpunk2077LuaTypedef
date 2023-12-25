@@ -10,7 +10,7 @@
 ---@field private malfanctioningBehaviourActive Bool
 BunkerDoorControllerPS = {}
 
----@param fields? table
+---@param fields? BunkerDoorControllerPS
 ---@return BunkerDoorControllerPS
 function BunkerDoorControllerPS.new(fields) return end
 

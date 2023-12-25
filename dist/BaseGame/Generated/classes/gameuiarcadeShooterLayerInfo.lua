@@ -7,6 +7,6 @@
 ---@field public layerName CName
 gameuiarcadeShooterLayerInfo = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterLayerInfo
 ---@return gameuiarcadeShooterLayerInfo
 function gameuiarcadeShooterLayerInfo.new(fields) return end

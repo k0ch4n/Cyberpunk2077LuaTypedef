@@ -4,7 +4,7 @@
 ---@class AiControlledEvents: HighLevelTransition
 AiControlledEvents = {}
 
----@param fields? table
+---@param fields? AiControlledEvents
 ---@return AiControlledEvents
 function AiControlledEvents.new(fields) return end
 

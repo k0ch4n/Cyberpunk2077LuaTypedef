@@ -4,6 +4,6 @@
 ---@class KatanaMagFieldHitDelayEvent: redEvent
 KatanaMagFieldHitDelayEvent = {}
 
----@param fields? table
+---@param fields? KatanaMagFieldHitDelayEvent
 ---@return KatanaMagFieldHitDelayEvent
 function KatanaMagFieldHitDelayEvent.new(fields) return end

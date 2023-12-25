@@ -4,6 +4,6 @@
 ---@class inkTrialOnBuyFullGame: inkCallbackBase
 inkTrialOnBuyFullGame = {}
 
----@param fields? table
+---@param fields? inkTrialOnBuyFullGame
 ---@return inkTrialOnBuyFullGame
 function inkTrialOnBuyFullGame.new(fields) return end

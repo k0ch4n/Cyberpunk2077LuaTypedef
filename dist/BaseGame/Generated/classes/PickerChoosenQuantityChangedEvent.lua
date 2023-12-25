@@ -5,6 +5,6 @@
 ---@field public choosenQuantity Int32
 PickerChoosenQuantityChangedEvent = {}
 
----@param fields? table
+---@param fields? PickerChoosenQuantityChangedEvent
 ---@return PickerChoosenQuantityChangedEvent
 function PickerChoosenQuantityChangedEvent.new(fields) return end

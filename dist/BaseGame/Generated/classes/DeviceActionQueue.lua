@@ -7,7 +7,7 @@
 ---@field private locked Bool
 DeviceActionQueue = {}
 
----@param fields? table
+---@param fields? DeviceActionQueue
 ---@return DeviceActionQueue
 function DeviceActionQueue.new(fields) return end
 

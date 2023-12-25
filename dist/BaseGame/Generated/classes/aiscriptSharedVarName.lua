@@ -5,7 +5,7 @@
 ---@field public varName LibTreeSharedVarReferenceName
 aiscriptSharedVarName = {}
 
----@param fields? table
+---@param fields? aiscriptSharedVarName
 ---@return aiscriptSharedVarName
 function aiscriptSharedVarName.new(fields) return end
 

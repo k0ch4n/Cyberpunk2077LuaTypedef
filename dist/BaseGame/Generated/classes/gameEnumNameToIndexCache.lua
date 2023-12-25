@@ -4,7 +4,7 @@
 ---@class gameEnumNameToIndexCache
 gameEnumNameToIndexCache = {}
 
----@param fields? table
+---@param fields? gameEnumNameToIndexCache
 ---@return gameEnumNameToIndexCache
 function gameEnumNameToIndexCache.new(fields) return end
 

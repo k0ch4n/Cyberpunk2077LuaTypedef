@@ -6,6 +6,6 @@
 ---@field public data Int32
 gameMovingPlatformArrivedAt = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformArrivedAt
 ---@return gameMovingPlatformArrivedAt
 function gameMovingPlatformArrivedAt.new(fields) return end

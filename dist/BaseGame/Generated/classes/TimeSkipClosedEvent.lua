@@ -4,6 +4,6 @@
 ---@class TimeSkipClosedEvent: redEvent
 TimeSkipClosedEvent = {}
 
----@param fields? table
+---@param fields? TimeSkipClosedEvent
 ---@return TimeSkipClosedEvent
 function TimeSkipClosedEvent.new(fields) return end

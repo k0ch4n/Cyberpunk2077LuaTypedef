@@ -5,6 +5,6 @@
 ---@field public FOV Float
 questSetFOV_NodeType = {}
 
----@param fields? table
+---@param fields? questSetFOV_NodeType
 ---@return questSetFOV_NodeType
 function questSetFOV_NodeType.new(fields) return end

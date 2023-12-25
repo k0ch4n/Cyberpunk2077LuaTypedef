@@ -8,6 +8,6 @@
 ---@field public puppetVehicleState scnPuppetVehicleState
 scnPlayDefaultMountedSlotWorkspotEvent = {}
 
----@param fields? table
+---@param fields? scnPlayDefaultMountedSlotWorkspotEvent
 ---@return scnPlayDefaultMountedSlotWorkspotEvent
 function scnPlayDefaultMountedSlotWorkspotEvent.new(fields) return end

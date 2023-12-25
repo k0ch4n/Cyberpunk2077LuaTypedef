@@ -7,7 +7,7 @@
 ---@field public itemRarity CName
 gameuiItemAddedNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiItemAddedNotificationViewData
 ---@return gameuiItemAddedNotificationViewData
 function gameuiItemAddedNotificationViewData.new(fields) return end
 

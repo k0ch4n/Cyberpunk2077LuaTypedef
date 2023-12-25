@@ -4,7 +4,7 @@
 ---@class CandleController: ScriptableDeviceComponent
 CandleController = {}
 
----@param fields? table
+---@param fields? CandleController
 ---@return CandleController
 function CandleController.new(fields) return end
 

@@ -24,7 +24,7 @@
 ---@field private playerPuppet gameObject
 StaminabarWidgetGameController = {}
 
----@param fields? table
+---@param fields? StaminabarWidgetGameController
 ---@return StaminabarWidgetGameController
 function StaminabarWidgetGameController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public parkingSpaceId Uint32
 worldCompiledCrowdParkingSpaceNode = {}
 
----@param fields? table
+---@param fields? worldCompiledCrowdParkingSpaceNode
 ---@return worldCompiledCrowdParkingSpaceNode
 function worldCompiledCrowdParkingSpaceNode.new(fields) return end

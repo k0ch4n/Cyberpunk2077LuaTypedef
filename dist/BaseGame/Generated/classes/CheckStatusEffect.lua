@@ -5,7 +5,7 @@
 ---@field public statusEffectID TweakDBID
 CheckStatusEffect = {}
 
----@param fields? table
+---@param fields? CheckStatusEffect
 ---@return CheckStatusEffect
 function CheckStatusEffect.new(fields) return end
 

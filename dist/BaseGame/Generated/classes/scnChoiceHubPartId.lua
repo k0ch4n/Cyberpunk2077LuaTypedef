@@ -5,6 +5,6 @@
 ---@field public id Uint32
 scnChoiceHubPartId = {}
 
----@param fields? table
+---@param fields? scnChoiceHubPartId
 ---@return scnChoiceHubPartId
 function scnChoiceHubPartId.new(fields) return end

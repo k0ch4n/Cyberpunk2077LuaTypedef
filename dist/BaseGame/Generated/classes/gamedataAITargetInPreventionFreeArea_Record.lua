@@ -4,7 +4,7 @@
 ---@class gamedataAITargetInPreventionFreeArea_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetInPreventionFreeArea_Record = {}
 
----@param fields? table
+---@param fields? gamedataAITargetInPreventionFreeArea_Record
 ---@return gamedataAITargetInPreventionFreeArea_Record
 function gamedataAITargetInPreventionFreeArea_Record.new(fields) return end
 

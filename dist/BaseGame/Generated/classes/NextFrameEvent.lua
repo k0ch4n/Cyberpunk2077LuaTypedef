@@ -4,6 +4,6 @@
 ---@class NextFrameEvent: redEvent
 NextFrameEvent = {}
 
----@param fields? table
+---@param fields? NextFrameEvent
 ---@return NextFrameEvent
 function NextFrameEvent.new(fields) return end

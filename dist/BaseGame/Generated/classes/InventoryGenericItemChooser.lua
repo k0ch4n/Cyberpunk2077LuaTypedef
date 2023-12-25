@@ -20,7 +20,7 @@
 ---@field private transmogIndicator inkWidget
 InventoryGenericItemChooser = {}
 
----@param fields? table
+---@param fields? InventoryGenericItemChooser
 ---@return InventoryGenericItemChooser
 function InventoryGenericItemChooser.new(fields) return end
 

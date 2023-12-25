@@ -5,7 +5,7 @@
 ---@field public itemID gameItemID
 SellItemToVendor = {}
 
----@param fields? table
+---@param fields? SellItemToVendor
 ---@return SellItemToVendor
 function SellItemToVendor.new(fields) return end
 

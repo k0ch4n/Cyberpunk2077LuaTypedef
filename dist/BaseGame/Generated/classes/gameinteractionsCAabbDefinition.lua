@@ -6,6 +6,6 @@
 ---@field public max Vector4
 gameinteractionsCAabbDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCAabbDefinition
 ---@return gameinteractionsCAabbDefinition
 function gameinteractionsCAabbDefinition.new(fields) return end

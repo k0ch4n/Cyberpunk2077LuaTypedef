@@ -6,6 +6,6 @@
 ---@field public Reversed Bool
 worldCollisionGroupEntry = {}
 
----@param fields? table
+---@param fields? worldCollisionGroupEntry
 ---@return worldCollisionGroupEntry
 function worldCollisionGroupEntry.new(fields) return end

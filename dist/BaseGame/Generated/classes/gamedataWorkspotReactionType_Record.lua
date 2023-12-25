@@ -4,7 +4,7 @@
 ---@class gamedataWorkspotReactionType_Record: gamedataTweakDBRecord
 gamedataWorkspotReactionType_Record = {}
 
----@param fields? table
+---@param fields? gamedataWorkspotReactionType_Record
 ---@return gamedataWorkspotReactionType_Record
 function gamedataWorkspotReactionType_Record.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class MenuScenario_FinalBoardsEp1: MenuScenario_BaseMenu
 MenuScenario_FinalBoardsEp1 = {}
 
----@param fields? table
+---@param fields? MenuScenario_FinalBoardsEp1
 ---@return MenuScenario_FinalBoardsEp1
 function MenuScenario_FinalBoardsEp1.new(fields) return end
 

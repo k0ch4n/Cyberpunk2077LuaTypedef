@@ -5,6 +5,6 @@
 ---@field public voices CName[]
 audioNpcGunChoirSettings = {}
 
----@param fields? table
+---@param fields? audioNpcGunChoirSettings
 ---@return audioNpcGunChoirSettings
 function audioNpcGunChoirSettings.new(fields) return end

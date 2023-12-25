@@ -4,7 +4,7 @@
 ---@class gamedataConsumableItem_Record: gamedataItem_Record
 gamedataConsumableItem_Record = {}
 
----@param fields? table
+---@param fields? gamedataConsumableItem_Record
 ---@return gamedataConsumableItem_Record
 function gamedataConsumableItem_Record.new(fields) return end
 

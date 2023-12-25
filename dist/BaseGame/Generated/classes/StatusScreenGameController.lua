@@ -10,7 +10,7 @@
 ---@field protected victorBackupSys inkWidgetReference
 StatusScreenGameController = {}
 
----@param fields? table
+---@param fields? StatusScreenGameController
 ---@return StatusScreenGameController
 function StatusScreenGameController.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private isEnabled Bool
 SettingsLanguageInstallProgressBar = {}
 
----@param fields? table
+---@param fields? SettingsLanguageInstallProgressBar
 ---@return SettingsLanguageInstallProgressBar
 function SettingsLanguageInstallProgressBar.new(fields) return end
 

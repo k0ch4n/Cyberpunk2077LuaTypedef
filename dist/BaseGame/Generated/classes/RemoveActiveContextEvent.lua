@@ -5,6 +5,6 @@
 ---@field public context gamedeviceRequestType
 RemoveActiveContextEvent = {}
 
----@param fields? table
+---@param fields? RemoveActiveContextEvent
 ---@return RemoveActiveContextEvent
 function RemoveActiveContextEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public trackingAlternativeMappinID gameNewMappinID
 RegisterDropPointMappinRequest = {}
 
----@param fields? table
+---@param fields? RegisterDropPointMappinRequest
 ---@return RegisterDropPointMappinRequest
 function RegisterDropPointMappinRequest.new(fields) return end

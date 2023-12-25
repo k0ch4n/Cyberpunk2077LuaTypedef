@@ -4,7 +4,7 @@
 ---@class gameChatterHelper: IScriptable
 gameChatterHelper = {}
 
----@param fields? table
+---@param fields? gameChatterHelper
 ---@return gameChatterHelper
 function gameChatterHelper.new(fields) return end
 

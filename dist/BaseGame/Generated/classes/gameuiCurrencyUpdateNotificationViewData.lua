@@ -6,7 +6,7 @@
 ---@field public total Uint32
 gameuiCurrencyUpdateNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiCurrencyUpdateNotificationViewData
 ---@return gameuiCurrencyUpdateNotificationViewData
 function gameuiCurrencyUpdateNotificationViewData.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class HeadLookatCombatTarget: LookatCombatTarget
 HeadLookatCombatTarget = {}
 
----@param fields? table
+---@param fields? HeadLookatCombatTarget
 ---@return HeadLookatCombatTarget
 function HeadLookatCombatTarget.new(fields) return end
 

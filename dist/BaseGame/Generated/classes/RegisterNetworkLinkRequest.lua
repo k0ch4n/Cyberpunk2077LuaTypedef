@@ -5,6 +5,6 @@
 ---@field public linksData SNetworkLinkData[]
 RegisterNetworkLinkRequest = {}
 
----@param fields? table
+---@param fields? RegisterNetworkLinkRequest
 ---@return RegisterNetworkLinkRequest
 function RegisterNetworkLinkRequest.new(fields) return end

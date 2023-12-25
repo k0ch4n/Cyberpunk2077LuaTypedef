@@ -9,7 +9,7 @@
 ---@field protected hovered Bool
 CodexFilterButtonController = {}
 
----@param fields? table
+---@param fields? CodexFilterButtonController
 ---@return CodexFilterButtonController
 function CodexFilterButtonController.new(fields) return end
 

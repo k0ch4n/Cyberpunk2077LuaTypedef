@@ -4,6 +4,6 @@
 ---@class inkAdditionalContentDataReloadProgress: inkCallbackBase
 inkAdditionalContentDataReloadProgress = {}
 
----@param fields? table
+---@param fields? inkAdditionalContentDataReloadProgress
 ---@return inkAdditionalContentDataReloadProgress
 function inkAdditionalContentDataReloadProgress.new(fields) return end

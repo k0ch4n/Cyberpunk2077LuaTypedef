@@ -4,7 +4,7 @@
 ---@class QuickHackHighPitchNoise: ActionBool
 QuickHackHighPitchNoise = {}
 
----@param fields? table
+---@param fields? QuickHackHighPitchNoise
 ---@return QuickHackHighPitchNoise
 function QuickHackHighPitchNoise.new(fields) return end
 

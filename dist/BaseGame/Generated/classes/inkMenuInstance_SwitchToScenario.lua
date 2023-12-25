@@ -4,7 +4,7 @@
 ---@class inkMenuInstance_SwitchToScenario: redEvent
 inkMenuInstance_SwitchToScenario = {}
 
----@param fields? table
+---@param fields? inkMenuInstance_SwitchToScenario
 ---@return inkMenuInstance_SwitchToScenario
 function inkMenuInstance_SwitchToScenario.new(fields) return end
 

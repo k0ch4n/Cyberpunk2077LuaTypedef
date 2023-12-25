@@ -42,7 +42,7 @@
 ---@field private showWidgetAnimation inkanimProxy
 BraindanceGameController = {}
 
----@param fields? table
+---@param fields? BraindanceGameController
 ---@return BraindanceGameController
 function BraindanceGameController.new(fields) return end
 

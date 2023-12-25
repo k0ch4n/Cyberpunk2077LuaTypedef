@@ -11,7 +11,7 @@
 ---@field private pingedSquads CName[]
 AccessPointControllerPS = {}
 
----@param fields? table
+---@param fields? AccessPointControllerPS
 ---@return AccessPointControllerPS
 function AccessPointControllerPS.new(fields) return end
 

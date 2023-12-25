@@ -4,7 +4,7 @@
 ---@class gamedataSenseShape_Record: gamedataTweakDBRecord
 gamedataSenseShape_Record = {}
 
----@param fields? table
+---@param fields? gamedataSenseShape_Record
 ---@return gamedataSenseShape_Record
 function gamedataSenseShape_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class entPostInitializeEvent: redEvent
 entPostInitializeEvent = {}
 
----@param fields? table
+---@param fields? entPostInitializeEvent
 ---@return entPostInitializeEvent
 function entPostInitializeEvent.new(fields) return end

@@ -89,7 +89,7 @@
 ---@field private playAnimation Bool
 ItemTooltipController = {}
 
----@param fields? table
+---@param fields? ItemTooltipController
 ---@return ItemTooltipController
 function ItemTooltipController.new(fields) return end
 

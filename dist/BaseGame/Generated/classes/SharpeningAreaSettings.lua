@@ -7,6 +7,6 @@
 ---@field public sharpeningStrengthUpscalingTreshold Float
 SharpeningAreaSettings = {}
 
----@param fields? table
+---@param fields? SharpeningAreaSettings
 ---@return SharpeningAreaSettings
 function SharpeningAreaSettings.new(fields) return end

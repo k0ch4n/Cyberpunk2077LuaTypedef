@@ -5,6 +5,6 @@
 ---@field public compassWidget inkWidgetReference
 gameuiCompassWidgetGameController = {}
 
----@param fields? table
+---@param fields? gameuiCompassWidgetGameController
 ---@return gameuiCompassWidgetGameController
 function gameuiCompassWidgetGameController.new(fields) return end

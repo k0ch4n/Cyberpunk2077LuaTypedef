@@ -12,7 +12,7 @@
 ---@field public stateUsedOnRequest EStarState
 PlayRadioArgs = {}
 
----@param fields? table
+---@param fields? PlayRadioArgs
 ---@return PlayRadioArgs
 function PlayRadioArgs.new(fields) return end
 

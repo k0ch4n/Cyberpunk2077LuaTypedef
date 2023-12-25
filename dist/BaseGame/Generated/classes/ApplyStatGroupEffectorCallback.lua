@@ -5,7 +5,7 @@
 ---@field public effector ApplyStatGroupEffector
 ApplyStatGroupEffectorCallback = {}
 
----@param fields? table
+---@param fields? ApplyStatGroupEffectorCallback
 ---@return ApplyStatGroupEffectorCallback
 function ApplyStatGroupEffectorCallback.new(fields) return end
 

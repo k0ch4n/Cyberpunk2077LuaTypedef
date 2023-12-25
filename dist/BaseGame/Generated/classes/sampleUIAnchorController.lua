@@ -5,7 +5,7 @@
 ---@field public rectangleAnchor inkRectangleWidgetReference
 sampleUIAnchorController = {}
 
----@param fields? table
+---@param fields? sampleUIAnchorController
 ---@return sampleUIAnchorController
 function sampleUIAnchorController.new(fields) return end
 

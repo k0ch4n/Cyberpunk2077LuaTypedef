@@ -61,7 +61,7 @@
 ---@field private driveJoinTrafficCommand AIVehicleJoinTrafficCommand
 AIDriveCommandsDelegate = {}
 
----@param fields? table
+---@param fields? AIDriveCommandsDelegate
 ---@return AIDriveCommandsDelegate
 function AIDriveCommandsDelegate.new(fields) return end
 

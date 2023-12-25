@@ -4,6 +4,6 @@
 ---@class enteventsSetPlaneSetting: redEvent
 enteventsSetPlaneSetting = {}
 
----@param fields? table
+---@param fields? enteventsSetPlaneSetting
 ---@return enteventsSetPlaneSetting
 function enteventsSetPlaneSetting.new(fields) return end

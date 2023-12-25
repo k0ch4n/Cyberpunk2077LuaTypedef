@@ -4,7 +4,7 @@
 ---@class vehicleCameraManagerComponent: gameComponent
 vehicleCameraManagerComponent = {}
 
----@param fields? table
+---@param fields? vehicleCameraManagerComponent
 ---@return vehicleCameraManagerComponent
 function vehicleCameraManagerComponent.new(fields) return end
 

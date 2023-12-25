@@ -4,7 +4,7 @@
 ---@class ContactDataHelper: IScriptable
 ContactDataHelper = {}
 
----@param fields? table
+---@param fields? ContactDataHelper
 ---@return ContactDataHelper
 function ContactDataHelper.new(fields) return end
 

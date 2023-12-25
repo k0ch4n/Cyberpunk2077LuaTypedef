@@ -6,6 +6,6 @@
 ---@field public bones effectBoneEntry[]
 effectBoneEntries = {}
 
----@param fields? table
+---@param fields? effectBoneEntries
 ---@return effectBoneEntries
 function effectBoneEntries.new(fields) return end

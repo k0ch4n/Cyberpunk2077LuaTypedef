@@ -9,7 +9,7 @@
 ---@field private bbAlignmentEventID redCallbackObject
 BriefingScreen = {}
 
----@param fields? table
+---@param fields? BriefingScreen
 ---@return BriefingScreen
 function BriefingScreen.new(fields) return end
 

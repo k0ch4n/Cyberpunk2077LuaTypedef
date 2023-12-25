@@ -8,6 +8,6 @@
 ---@field public behaviorCallbackNames CName[]
 AIbehaviorMappingExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMappingExpressionDefinition
 ---@return AIbehaviorMappingExpressionDefinition
 function AIbehaviorMappingExpressionDefinition.new(fields) return end

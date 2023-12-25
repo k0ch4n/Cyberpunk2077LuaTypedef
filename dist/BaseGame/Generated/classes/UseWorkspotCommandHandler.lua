@@ -7,7 +7,7 @@
 ---@field protected outContinueInCombat AIArgumentMapping
 UseWorkspotCommandHandler = {}
 
----@param fields? table
+---@param fields? UseWorkspotCommandHandler
 ---@return UseWorkspotCommandHandler
 function UseWorkspotCommandHandler.new(fields) return end
 

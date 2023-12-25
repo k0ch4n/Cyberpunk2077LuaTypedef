@@ -4,7 +4,7 @@
 ---@class TurretBeginDecisions: TurretTransition
 TurretBeginDecisions = {}
 
----@param fields? table
+---@param fields? TurretBeginDecisions
 ---@return TurretBeginDecisions
 function TurretBeginDecisions.new(fields) return end
 

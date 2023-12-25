@@ -4,7 +4,7 @@
 ---@class TestScriptableComponent: gameScriptableComponent
 TestScriptableComponent = {}
 
----@param fields? table
+---@param fields? TestScriptableComponent
 ---@return TestScriptableComponent
 function TestScriptableComponent.new(fields) return end
 

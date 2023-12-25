@@ -6,6 +6,6 @@
 ---@field public override Bool
 effectTrackItemWeaponPlaneBlur = {}
 
----@param fields? table
+---@param fields? effectTrackItemWeaponPlaneBlur
 ---@return effectTrackItemWeaponPlaneBlur
 function effectTrackItemWeaponPlaneBlur.new(fields) return end

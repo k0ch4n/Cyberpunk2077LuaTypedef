@@ -9,6 +9,6 @@
 ---@field public telemetryPartData gameTelemetryInventoryItem
 InstallModConfirmationData = {}
 
----@param fields? table
+---@param fields? InstallModConfirmationData
 ---@return InstallModConfirmationData
 function InstallModConfirmationData.new(fields) return end

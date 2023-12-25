@@ -6,7 +6,7 @@
 ---@field public modifiersValueToCheck Float
 StatPrereqState = {}
 
----@param fields? table
+---@param fields? StatPrereqState
 ---@return StatPrereqState
 function StatPrereqState.new(fields) return end
 

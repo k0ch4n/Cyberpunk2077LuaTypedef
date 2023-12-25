@@ -4,7 +4,7 @@
 ---@class mpCMultiplayerDebugFunctions
 mpCMultiplayerDebugFunctions = {}
 
----@param fields? table
+---@param fields? mpCMultiplayerDebugFunctions
 ---@return mpCMultiplayerDebugFunctions
 function mpCMultiplayerDebugFunctions.new(fields) return end
 

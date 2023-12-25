@@ -4,7 +4,7 @@
 ---@class IsNPCAloneInVehicle: AIVehicleConditionAbstract
 IsNPCAloneInVehicle = {}
 
----@param fields? table
+---@param fields? IsNPCAloneInVehicle
 ---@return IsNPCAloneInVehicle
 function IsNPCAloneInVehicle.new(fields) return end
 

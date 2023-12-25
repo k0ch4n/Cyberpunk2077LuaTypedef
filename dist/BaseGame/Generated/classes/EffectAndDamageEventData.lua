@@ -7,6 +7,6 @@
 ---@field public effectorInstance TriggerAttackOnNearbyEnemiesEffector
 EffectAndDamageEventData = {}
 
----@param fields? table
+---@param fields? EffectAndDamageEventData
 ---@return EffectAndDamageEventData
 function EffectAndDamageEventData.new(fields) return end

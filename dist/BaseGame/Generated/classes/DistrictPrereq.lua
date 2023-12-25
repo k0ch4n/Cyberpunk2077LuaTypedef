@@ -5,7 +5,7 @@
 ---@field private district gamedataDistrict_Record
 DistrictPrereq = {}
 
----@param fields? table
+---@param fields? DistrictPrereq
 ---@return DistrictPrereq
 function DistrictPrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class BunkerCursorGameController: CursorGameController
 BunkerCursorGameController = {}
 
----@param fields? table
+---@param fields? BunkerCursorGameController
 ---@return BunkerCursorGameController
 function BunkerCursorGameController.new(fields) return end
 

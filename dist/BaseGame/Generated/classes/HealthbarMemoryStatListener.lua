@@ -5,7 +5,7 @@
 ---@field public healthbar gameuiHudHealthbarGameController
 HealthbarMemoryStatListener = {}
 
----@param fields? table
+---@param fields? HealthbarMemoryStatListener
 ---@return HealthbarMemoryStatListener
 function HealthbarMemoryStatListener.new(fields) return end
 

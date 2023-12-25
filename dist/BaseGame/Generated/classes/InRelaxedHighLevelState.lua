@@ -4,7 +4,7 @@
 ---@class InRelaxedHighLevelState: AINPCHighLevelStateCheck
 InRelaxedHighLevelState = {}
 
----@param fields? table
+---@param fields? InRelaxedHighLevelState
 ---@return InRelaxedHighLevelState
 function InRelaxedHighLevelState.new(fields) return end
 

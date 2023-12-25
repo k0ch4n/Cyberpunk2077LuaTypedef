@@ -5,7 +5,7 @@
 ---@field public numberOfSquadMembers Int32
 ScannerSquadInfo = {}
 
----@param fields? table
+---@param fields? ScannerSquadInfo
 ---@return ScannerSquadInfo
 function ScannerSquadInfo.new(fields) return end
 

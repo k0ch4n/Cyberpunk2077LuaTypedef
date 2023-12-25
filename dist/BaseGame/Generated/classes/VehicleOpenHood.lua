@@ -4,7 +4,7 @@
 ---@class VehicleOpenHood: ActionBool
 VehicleOpenHood = {}
 
----@param fields? table
+---@param fields? VehicleOpenHood
 ---@return VehicleOpenHood
 function VehicleOpenHood.new(fields) return end
 

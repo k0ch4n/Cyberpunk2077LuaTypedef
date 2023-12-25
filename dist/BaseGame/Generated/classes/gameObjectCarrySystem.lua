@@ -4,6 +4,6 @@
 ---@class gameObjectCarrySystem: gameIObjectCarrySystem
 gameObjectCarrySystem = {}
 
----@param fields? table
+---@param fields? gameObjectCarrySystem
 ---@return gameObjectCarrySystem
 function gameObjectCarrySystem.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class HasPatrolAction: AIbehaviorconditionScript
 HasPatrolAction = {}
 
----@param fields? table
+---@param fields? HasPatrolAction
 ---@return HasPatrolAction
 function HasPatrolAction.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public mapPosition03 inkWidgetReference
 BunkerMapGameController = {}
 
----@param fields? table
+---@param fields? BunkerMapGameController
 ---@return BunkerMapGameController
 function BunkerMapGameController.new(fields) return end
 

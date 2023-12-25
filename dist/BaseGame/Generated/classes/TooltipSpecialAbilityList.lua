@@ -9,7 +9,7 @@
 ---@field private qualityName CName
 TooltipSpecialAbilityList = {}
 
----@param fields? table
+---@param fields? TooltipSpecialAbilityList
 ---@return TooltipSpecialAbilityList
 function TooltipSpecialAbilityList.new(fields) return end
 

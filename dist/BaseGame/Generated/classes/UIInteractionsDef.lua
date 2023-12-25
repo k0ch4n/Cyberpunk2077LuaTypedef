@@ -19,7 +19,7 @@
 ---@field public IsQuestNotificationUp gamebbScriptID_Bool
 UIInteractionsDef = {}
 
----@param fields? table
+---@param fields? UIInteractionsDef
 ---@return UIInteractionsDef
 function UIInteractionsDef.new(fields) return end
 

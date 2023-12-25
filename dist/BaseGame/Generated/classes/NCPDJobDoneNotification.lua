@@ -7,7 +7,7 @@
 ---@field private NCPD_SC_RewardText inkTextWidgetReference
 NCPDJobDoneNotification = {}
 
----@param fields? table
+---@param fields? NCPDJobDoneNotification
 ---@return NCPDJobDoneNotification
 function NCPDJobDoneNotification.new(fields) return end
 

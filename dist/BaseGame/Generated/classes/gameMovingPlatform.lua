@@ -8,7 +8,7 @@
 ---@field public soundPositionName CName
 gameMovingPlatform = {}
 
----@param fields? table
+---@param fields? gameMovingPlatform
 ---@return gameMovingPlatform
 function gameMovingPlatform.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class LeftHandCyberwareUnequipEvents: LeftHandCyberwareEventsTransition
 LeftHandCyberwareUnequipEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareUnequipEvents
 ---@return LeftHandCyberwareUnequipEvents
 function LeftHandCyberwareUnequipEvents.new(fields) return end
 

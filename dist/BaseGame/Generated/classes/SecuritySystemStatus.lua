@@ -4,7 +4,7 @@
 ---@class SecuritySystemStatus: BaseDeviceStatus
 SecuritySystemStatus = {}
 
----@param fields? table
+---@param fields? SecuritySystemStatus
 ---@return SecuritySystemStatus
 function SecuritySystemStatus.new(fields) return end
 

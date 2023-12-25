@@ -12,6 +12,6 @@
 ---@field public blendOutTime Float
 workEntryAnim = {}
 
----@param fields? table
+---@param fields? workEntryAnim
 ---@return workEntryAnim
 function workEntryAnim.new(fields) return end

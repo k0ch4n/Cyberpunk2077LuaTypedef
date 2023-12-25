@@ -14,7 +14,7 @@
 ---@field public behaviorTime_PostAction Float
 animAnimFeature_Cover = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Cover
 ---@return animAnimFeature_Cover
 function animAnimFeature_Cover.new(fields) return end
 

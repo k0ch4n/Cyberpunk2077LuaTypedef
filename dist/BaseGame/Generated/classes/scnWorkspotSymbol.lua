@@ -7,6 +7,6 @@
 ---@field public wsEditorEventId Uint64
 scnWorkspotSymbol = {}
 
----@param fields? table
+---@param fields? scnWorkspotSymbol
 ---@return scnWorkspotSymbol
 function scnWorkspotSymbol.new(fields) return end

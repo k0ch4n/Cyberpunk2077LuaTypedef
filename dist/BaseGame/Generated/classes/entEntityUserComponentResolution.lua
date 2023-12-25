@@ -7,6 +7,6 @@
 ---@field public mode entEntityUserComponentResolutionMode
 entEntityUserComponentResolution = {}
 
----@param fields? table
+---@param fields? entEntityUserComponentResolution
 ---@return entEntityUserComponentResolution
 function entEntityUserComponentResolution.new(fields) return end

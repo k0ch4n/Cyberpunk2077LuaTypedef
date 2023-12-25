@@ -6,7 +6,7 @@
 ---@field private DpadHintLibraryPath inkWidgetLibraryReference
 HotkeyCustomRadioWidgetController = {}
 
----@param fields? table
+---@param fields? HotkeyCustomRadioWidgetController
 ---@return HotkeyCustomRadioWidgetController
 function HotkeyCustomRadioWidgetController.new(fields) return end
 

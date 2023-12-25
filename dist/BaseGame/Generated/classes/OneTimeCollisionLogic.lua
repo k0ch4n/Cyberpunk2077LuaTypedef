@@ -4,7 +4,7 @@
 ---@class OneTimeCollisionLogic: QuadRacerBonusCollisionLogic
 OneTimeCollisionLogic = {}
 
----@param fields? table
+---@param fields? OneTimeCollisionLogic
 ---@return OneTimeCollisionLogic
 function OneTimeCollisionLogic.new(fields) return end
 

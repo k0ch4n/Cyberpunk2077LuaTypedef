@@ -17,6 +17,6 @@
 ---@field public phxNumSimulated Uint32
 meshCookedClothMeshTopologyData = {}
 
----@param fields? table
+---@param fields? meshCookedClothMeshTopologyData
 ---@return meshCookedClothMeshTopologyData
 function meshCookedClothMeshTopologyData.new(fields) return end

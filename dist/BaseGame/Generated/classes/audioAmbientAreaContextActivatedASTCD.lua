@@ -5,6 +5,6 @@
 ---@field public areaMixingContext CName
 audioAmbientAreaContextActivatedASTCD = {}
 
----@param fields? table
+---@param fields? audioAmbientAreaContextActivatedASTCD
 ---@return audioAmbientAreaContextActivatedASTCD
 function audioAmbientAreaContextActivatedASTCD.new(fields) return end

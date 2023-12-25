@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsActionWindup: gamestateMachineplayeractionsWeaponActionBase
 gamestateMachineplayeractionsActionWindup = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsActionWindup
 ---@return gamestateMachineplayeractionsActionWindup
 function gamestateMachineplayeractionsActionWindup.new(fields) return end

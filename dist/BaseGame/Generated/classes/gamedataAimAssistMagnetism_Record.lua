@@ -4,7 +4,7 @@
 ---@class gamedataAimAssistMagnetism_Record: gamedataTweakDBRecord
 gamedataAimAssistMagnetism_Record = {}
 
----@param fields? table
+---@param fields? gamedataAimAssistMagnetism_Record
 ---@return gamedataAimAssistMagnetism_Record
 function gamedataAimAssistMagnetism_Record.new(fields) return end
 

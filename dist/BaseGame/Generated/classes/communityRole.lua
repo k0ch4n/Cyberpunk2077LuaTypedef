@@ -5,6 +5,6 @@
 ---@field public roleName CName
 communityRole = {}
 
----@param fields? table
+---@param fields? communityRole
 ---@return communityRole
 function communityRole.new(fields) return end

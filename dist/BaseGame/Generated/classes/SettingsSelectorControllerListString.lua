@@ -4,7 +4,7 @@
 ---@class SettingsSelectorControllerListString: SettingsSelectorControllerList
 SettingsSelectorControllerListString = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerListString
 ---@return SettingsSelectorControllerListString
 function SettingsSelectorControllerListString.new(fields) return end
 

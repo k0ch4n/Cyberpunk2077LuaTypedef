@@ -4,7 +4,7 @@
 ---@class ConstantStatPoolPrereq: StatPoolPrereq
 ConstantStatPoolPrereq = {}
 
----@param fields? table
+---@param fields? ConstantStatPoolPrereq
 ---@return ConstantStatPoolPrereq
 function ConstantStatPoolPrereq.new(fields) return end
 

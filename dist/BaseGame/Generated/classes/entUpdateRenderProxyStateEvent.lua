@@ -4,6 +4,6 @@
 ---@class entUpdateRenderProxyStateEvent: redEvent
 entUpdateRenderProxyStateEvent = {}
 
----@param fields? table
+---@param fields? entUpdateRenderProxyStateEvent
 ---@return entUpdateRenderProxyStateEvent
 function entUpdateRenderProxyStateEvent.new(fields) return end

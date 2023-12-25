@@ -5,7 +5,7 @@
 ---@field public inspectableClues SInspectableClue[]
 InspectableItemObject = {}
 
----@param fields? table
+---@param fields? InspectableItemObject
 ---@return InspectableItemObject
 function InspectableItemObject.new(fields) return end
 

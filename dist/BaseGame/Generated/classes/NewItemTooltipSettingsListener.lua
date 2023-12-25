@@ -5,7 +5,7 @@
 ---@field private ctrl NewItemTooltipCommonController
 NewItemTooltipSettingsListener = {}
 
----@param fields? table
+---@param fields? NewItemTooltipSettingsListener
 ---@return NewItemTooltipSettingsListener
 function NewItemTooltipSettingsListener.new(fields) return end
 

@@ -12,7 +12,7 @@
 ---@field private animProxy inkanimProxy
 ExpansionErrorPopupController = {}
 
----@param fields? table
+---@param fields? ExpansionErrorPopupController
 ---@return ExpansionErrorPopupController
 function ExpansionErrorPopupController.new(fields) return end
 

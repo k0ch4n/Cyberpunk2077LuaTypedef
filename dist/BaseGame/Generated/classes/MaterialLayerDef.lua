@@ -8,6 +8,6 @@
 ---@field public material CMaterialInstance
 MaterialLayerDef = {}
 
----@param fields? table
+---@param fields? MaterialLayerDef
 ---@return MaterialLayerDef
 function MaterialLayerDef.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private opSymbol CName
 ModifyStaminaHandlerEffector = {}
 
----@param fields? table
+---@param fields? ModifyStaminaHandlerEffector
 ---@return ModifyStaminaHandlerEffector
 function ModifyStaminaHandlerEffector.new(fields) return end
 

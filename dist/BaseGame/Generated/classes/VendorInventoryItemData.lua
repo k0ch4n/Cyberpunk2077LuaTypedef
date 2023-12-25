@@ -8,6 +8,6 @@
 ---@field public IsDLCAddedActiveItem Bool
 VendorInventoryItemData = {}
 
----@param fields? table
+---@param fields? VendorInventoryItemData
 ---@return VendorInventoryItemData
 function VendorInventoryItemData.new(fields) return end

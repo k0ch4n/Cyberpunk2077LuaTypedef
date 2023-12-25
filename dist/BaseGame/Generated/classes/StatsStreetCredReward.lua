@@ -12,7 +12,7 @@
 ---@field private tooltipsManager gameuiTooltipsManager
 StatsStreetCredReward = {}
 
----@param fields? table
+---@param fields? StatsStreetCredReward
 ---@return StatsStreetCredReward
 function StatsStreetCredReward.new(fields) return end
 

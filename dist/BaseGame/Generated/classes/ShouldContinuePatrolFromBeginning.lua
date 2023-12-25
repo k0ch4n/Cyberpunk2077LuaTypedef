@@ -5,7 +5,7 @@
 ---@field public patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromBeginning = {}
 
----@param fields? table
+---@param fields? ShouldContinuePatrolFromBeginning
 ---@return ShouldContinuePatrolFromBeginning
 function ShouldContinuePatrolFromBeginning.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public specialAction ECoverSpecialAction
 AIMoveToCoverCommandParams = {}
 
----@param fields? table
+---@param fields? AIMoveToCoverCommandParams
 ---@return AIMoveToCoverCommandParams
 function AIMoveToCoverCommandParams.new(fields) return end
 

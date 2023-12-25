@@ -10,7 +10,7 @@
 ---@field private overChargeListener CrosshairWeaponStatsListener
 BaseTechCrosshairController = {}
 
----@param fields? table
+---@param fields? BaseTechCrosshairController
 ---@return BaseTechCrosshairController
 function BaseTechCrosshairController.new(fields) return end
 

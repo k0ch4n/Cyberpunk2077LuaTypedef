@@ -4,7 +4,7 @@
 ---@class QuestForcePersonalLinkUnderStrictQuestControl: ActionBool
 QuestForcePersonalLinkUnderStrictQuestControl = {}
 
----@param fields? table
+---@param fields? QuestForcePersonalLinkUnderStrictQuestControl
 ---@return QuestForcePersonalLinkUnderStrictQuestControl
 function QuestForcePersonalLinkUnderStrictQuestControl.new(fields) return end
 

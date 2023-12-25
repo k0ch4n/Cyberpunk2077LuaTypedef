@@ -5,7 +5,7 @@
 ---@field public reactionValue EReactionValue
 CheckReactionValueThreshold = {}
 
----@param fields? table
+---@param fields? CheckReactionValueThreshold
 ---@return CheckReactionValueThreshold
 function CheckReactionValueThreshold.new(fields) return end
 

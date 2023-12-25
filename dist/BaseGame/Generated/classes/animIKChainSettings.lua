@@ -8,6 +8,6 @@
 ---@field public ikEndRotationOffset Quaternion
 animIKChainSettings = {}
 
----@param fields? table
+---@param fields? animIKChainSettings
 ---@return animIKChainSettings
 function animIKChainSettings.new(fields) return end

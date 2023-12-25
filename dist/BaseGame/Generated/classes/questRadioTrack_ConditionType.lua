@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questRadioTrack_ConditionType = {}
 
----@param fields? table
+---@param fields? questRadioTrack_ConditionType
 ---@return questRadioTrack_ConditionType
 function questRadioTrack_ConditionType.new(fields) return end

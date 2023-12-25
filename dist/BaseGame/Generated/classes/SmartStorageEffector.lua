@@ -10,7 +10,7 @@
 ---@field private currentChance Float
 SmartStorageEffector = {}
 
----@param fields? table
+---@param fields? SmartStorageEffector
 ---@return SmartStorageEffector
 function SmartStorageEffector.new(fields) return end
 

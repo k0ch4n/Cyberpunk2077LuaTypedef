@@ -5,6 +5,6 @@
 ---@field public params scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 scnCheckPlayerTargetEntityDistanceInterruptCondition = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerTargetEntityDistanceInterruptCondition
 ---@return scnCheckPlayerTargetEntityDistanceInterruptCondition
 function scnCheckPlayerTargetEntityDistanceInterruptCondition.new(fields) return end

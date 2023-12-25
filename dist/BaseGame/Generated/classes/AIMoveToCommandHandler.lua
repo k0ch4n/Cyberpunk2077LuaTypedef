@@ -15,7 +15,7 @@
 ---@field protected outFinishWhenDestinationReached AIArgumentMapping
 AIMoveToCommandHandler = {}
 
----@param fields? table
+---@param fields? AIMoveToCommandHandler
 ---@return AIMoveToCommandHandler
 function AIMoveToCommandHandler.new(fields) return end
 

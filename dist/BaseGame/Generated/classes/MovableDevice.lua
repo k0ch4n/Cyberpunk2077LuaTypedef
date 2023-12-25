@@ -12,7 +12,7 @@
 ---@field protected shouldMoveRight Bool
 MovableDevice = {}
 
----@param fields? table
+---@param fields? MovableDevice
 ---@return MovableDevice
 function MovableDevice.new(fields) return end
 

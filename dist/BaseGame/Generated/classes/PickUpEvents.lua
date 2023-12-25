@@ -7,7 +7,7 @@
 ---@field public noMovementApplied Bool
 PickUpEvents = {}
 
----@param fields? table
+---@param fields? PickUpEvents
 ---@return PickUpEvents
 function PickUpEvents.new(fields) return end
 

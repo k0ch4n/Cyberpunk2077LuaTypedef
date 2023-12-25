@@ -6,7 +6,7 @@
 ---@field public doorTypeSideTwo EDoorType
 SetDoorType = {}
 
----@param fields? table
+---@param fields? SetDoorType
 ---@return SetDoorType
 function SetDoorType.new(fields) return end
 

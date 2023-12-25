@@ -4,7 +4,7 @@
 ---@class Confess: Pay
 Confess = {}
 
----@param fields? table
+---@param fields? Confess
 ---@return Confess
 function Confess.new(fields) return end
 

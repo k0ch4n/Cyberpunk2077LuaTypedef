@@ -4,7 +4,7 @@
 ---@class VehicleQuestDoorLocked: ActionBool
 VehicleQuestDoorLocked = {}
 
----@param fields? table
+---@param fields? VehicleQuestDoorLocked
 ---@return VehicleQuestDoorLocked
 function VehicleQuestDoorLocked.new(fields) return end
 

@@ -13,7 +13,7 @@
 ---@field private blocked String
 RadialSlot = {}
 
----@param fields? table
+---@param fields? RadialSlot
 ---@return RadialSlot
 function RadialSlot.new(fields) return end
 

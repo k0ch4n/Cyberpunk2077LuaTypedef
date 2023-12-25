@@ -4,7 +4,7 @@
 ---@class SendPatrolEndSignal: AIbehaviortaskScript
 SendPatrolEndSignal = {}
 
----@param fields? table
+---@param fields? SendPatrolEndSignal
 ---@return SendPatrolEndSignal
 function SendPatrolEndSignal.new(fields) return end
 

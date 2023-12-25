@@ -7,6 +7,6 @@
 ---@field public forceSelectEntry Int32
 RequestChangeTrackedObjective = {}
 
----@param fields? table
+---@param fields? RequestChangeTrackedObjective
 ---@return RequestChangeTrackedObjective
 function RequestChangeTrackedObjective.new(fields) return end

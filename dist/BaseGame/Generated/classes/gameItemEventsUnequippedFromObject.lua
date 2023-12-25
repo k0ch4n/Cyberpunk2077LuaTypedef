@@ -4,6 +4,6 @@
 ---@class gameItemEventsUnequippedFromObject: redEvent
 gameItemEventsUnequippedFromObject = {}
 
----@param fields? table
+---@param fields? gameItemEventsUnequippedFromObject
 ---@return gameItemEventsUnequippedFromObject
 function gameItemEventsUnequippedFromObject.new(fields) return end

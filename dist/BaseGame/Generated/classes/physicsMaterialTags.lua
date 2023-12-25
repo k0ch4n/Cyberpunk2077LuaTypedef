@@ -9,6 +9,6 @@
 ---@field public vehicleTraction physicsMaterialTagVehicleTraction
 physicsMaterialTags = {}
 
----@param fields? table
+---@param fields? physicsMaterialTags
 ---@return physicsMaterialTags
 function physicsMaterialTags.new(fields) return end

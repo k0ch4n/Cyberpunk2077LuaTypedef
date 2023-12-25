@@ -4,6 +4,6 @@
 ---@class TimeSkipFinishEvent: redEvent
 TimeSkipFinishEvent = {}
 
----@param fields? table
+---@param fields? TimeSkipFinishEvent
 ---@return TimeSkipFinishEvent
 function TimeSkipFinishEvent.new(fields) return end

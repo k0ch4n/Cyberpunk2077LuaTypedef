@@ -5,7 +5,7 @@
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectOutputParameter_Float = {}
 
----@param fields? table
+---@param fields? gameEffectOutputParameter_Float
 ---@return gameEffectOutputParameter_Float
 function gameEffectOutputParameter_Float.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataStatusEffectAIBehaviorFlag_Record: gamedataTweakDBRecord
 gamedataStatusEffectAIBehaviorFlag_Record = {}
 
----@param fields? table
+---@param fields? gamedataStatusEffectAIBehaviorFlag_Record
 ---@return gamedataStatusEffectAIBehaviorFlag_Record
 function gamedataStatusEffectAIBehaviorFlag_Record.new(fields) return end
 

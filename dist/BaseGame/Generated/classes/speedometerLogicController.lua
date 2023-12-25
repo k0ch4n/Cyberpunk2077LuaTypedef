@@ -9,7 +9,7 @@
 ---@field private currentSpeed Int32
 speedometerLogicController = {}
 
----@param fields? table
+---@param fields? speedometerLogicController
 ---@return speedometerLogicController
 function speedometerLogicController.new(fields) return end
 

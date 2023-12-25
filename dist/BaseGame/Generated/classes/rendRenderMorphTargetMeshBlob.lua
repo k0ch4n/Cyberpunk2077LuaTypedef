@@ -9,6 +9,6 @@
 ---@field public baseBlob IRenderResourceBlob
 rendRenderMorphTargetMeshBlob = {}
 
----@param fields? table
+---@param fields? rendRenderMorphTargetMeshBlob
 ---@return rendRenderMorphTargetMeshBlob
 function rendRenderMorphTargetMeshBlob.new(fields) return end

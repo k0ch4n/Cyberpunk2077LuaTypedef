@@ -4,7 +4,7 @@
 ---@class ElectricBox: InteractiveMasterDevice
 ElectricBox = {}
 
----@param fields? table
+---@param fields? ElectricBox
 ---@return ElectricBox
 function ElectricBox.new(fields) return end
 

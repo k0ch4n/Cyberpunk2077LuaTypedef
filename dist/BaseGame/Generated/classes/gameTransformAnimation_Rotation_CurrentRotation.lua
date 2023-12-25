@@ -5,6 +5,6 @@
 ---@field public offset Quaternion
 gameTransformAnimation_Rotation_CurrentRotation = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Rotation_CurrentRotation
 ---@return gameTransformAnimation_Rotation_CurrentRotation
 function gameTransformAnimation_Rotation_CurrentRotation.new(fields) return end

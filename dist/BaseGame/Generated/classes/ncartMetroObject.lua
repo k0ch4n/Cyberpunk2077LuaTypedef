@@ -13,7 +13,7 @@
 ---@field public pitchAngleLevelOutTreshold Float
 ncartMetroObject = {}
 
----@param fields? table
+---@param fields? ncartMetroObject
 ---@return ncartMetroObject
 function ncartMetroObject.new(fields) return end
 

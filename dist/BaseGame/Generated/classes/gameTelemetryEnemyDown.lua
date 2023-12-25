@@ -7,6 +7,6 @@
 ---@field public killType gameKillType
 gameTelemetryEnemyDown = {}
 
----@param fields? table
+---@param fields? gameTelemetryEnemyDown
 ---@return gameTelemetryEnemyDown
 function gameTelemetryEnemyDown.new(fields) return end

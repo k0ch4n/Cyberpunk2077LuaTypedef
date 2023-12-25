@@ -25,7 +25,7 @@
 ---@field private itemsRestored Bool
 UIInventoryScriptableSystem = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableSystem
 ---@return UIInventoryScriptableSystem
 function UIInventoryScriptableSystem.new(fields) return end
 

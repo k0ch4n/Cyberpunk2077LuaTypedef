@@ -6,6 +6,6 @@
 ---@field public area Uint8
 navgendebugInputGeometryTriangle = {}
 
----@param fields? table
+---@param fields? navgendebugInputGeometryTriangle
 ---@return navgendebugInputGeometryTriangle
 function navgendebugInputGeometryTriangle.new(fields) return end

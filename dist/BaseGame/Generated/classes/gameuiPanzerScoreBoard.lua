@@ -7,6 +7,6 @@
 ---@field public recordWidgetLibraryName CName
 gameuiPanzerScoreBoard = {}
 
----@param fields? table
+---@param fields? gameuiPanzerScoreBoard
 ---@return gameuiPanzerScoreBoard
 function gameuiPanzerScoreBoard.new(fields) return end

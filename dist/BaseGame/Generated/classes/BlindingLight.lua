@@ -6,7 +6,7 @@
 ---@field protected highLightActive Bool
 BlindingLight = {}
 
----@param fields? table
+---@param fields? BlindingLight
 ---@return BlindingLight
 function BlindingLight.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected triggerData CustomActionOperationTriggerData
 CustomActionOperationsTriggers = {}
 
----@param fields? table
+---@param fields? CustomActionOperationsTriggers
 ---@return CustomActionOperationsTriggers
 function CustomActionOperationsTriggers.new(fields) return end
 

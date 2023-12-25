@@ -6,7 +6,7 @@
 ---@field private highlightedConnectionsIDs entEntityID[]
 DeviceConnectionsHighlightSystem = {}
 
----@param fields? table
+---@param fields? DeviceConnectionsHighlightSystem
 ---@return DeviceConnectionsHighlightSystem
 function DeviceConnectionsHighlightSystem.new(fields) return end
 

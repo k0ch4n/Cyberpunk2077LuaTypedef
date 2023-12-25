@@ -5,6 +5,6 @@
 ---@field public tokens AISpotUsageToken[]
 AIbehaviorUsedSpotTokensList = {}
 
----@param fields? table
+---@param fields? AIbehaviorUsedSpotTokensList
 ---@return AIbehaviorUsedSpotTokensList
 function AIbehaviorUsedSpotTokensList.new(fields) return end

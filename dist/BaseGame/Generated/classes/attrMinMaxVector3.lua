@@ -6,6 +6,6 @@
 ---@field public x Vector3
 attrMinMaxVector3 = {}
 
----@param fields? table
+---@param fields? attrMinMaxVector3
 ---@return attrMinMaxVector3
 function attrMinMaxVector3.new(fields) return end

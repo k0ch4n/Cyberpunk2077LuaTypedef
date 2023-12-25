@@ -8,6 +8,6 @@
 ---@field public VICTOR_FACT CName
 BunkerSystemsFactsSet = {}
 
----@param fields? table
+---@param fields? BunkerSystemsFactsSet
 ---@return BunkerSystemsFactsSet
 function BunkerSystemsFactsSet.new(fields) return end

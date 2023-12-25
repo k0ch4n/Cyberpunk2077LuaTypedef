@@ -11,6 +11,6 @@
 ---@field public baseTexture ITexture
 MorphTargetMesh = {}
 
----@param fields? table
+---@param fields? MorphTargetMesh
 ---@return MorphTargetMesh
 function MorphTargetMesh.new(fields) return end

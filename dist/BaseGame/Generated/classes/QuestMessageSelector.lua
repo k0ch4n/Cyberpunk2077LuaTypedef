@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 QuestMessageSelector = {}
 
----@param fields? table
+---@param fields? QuestMessageSelector
 ---@return QuestMessageSelector
 function QuestMessageSelector.new(fields) return end
 

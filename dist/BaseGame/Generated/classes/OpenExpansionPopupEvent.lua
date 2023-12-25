@@ -7,6 +7,6 @@
 ---@field public forcibly Bool
 OpenExpansionPopupEvent = {}
 
----@param fields? table
+---@param fields? OpenExpansionPopupEvent
 ---@return OpenExpansionPopupEvent
 function OpenExpansionPopupEvent.new(fields) return end

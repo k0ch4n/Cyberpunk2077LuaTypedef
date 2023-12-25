@@ -7,6 +7,6 @@
 ---@field public expPlatformImageDetails gameuiarcadeShooterExplodingPlatformsImageWidgetDetail[]
 gameuiarcadeShooterBackgroundController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterBackgroundController
 ---@return gameuiarcadeShooterBackgroundController
 function gameuiarcadeShooterBackgroundController.new(fields) return end

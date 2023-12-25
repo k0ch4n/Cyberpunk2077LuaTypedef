@@ -9,7 +9,7 @@
 ---@field public impulseUp Float
 JumpPod = {}
 
----@param fields? table
+---@param fields? JumpPod
 ---@return JumpPod
 function JumpPod.new(fields) return end
 

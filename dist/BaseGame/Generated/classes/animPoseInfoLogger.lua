@@ -8,6 +8,6 @@
 ---@field public entries animPoseInfoLoggerEntry[]
 animPoseInfoLogger = {}
 
----@param fields? table
+---@param fields? animPoseInfoLogger
 ---@return animPoseInfoLogger
 function animPoseInfoLogger.new(fields) return end

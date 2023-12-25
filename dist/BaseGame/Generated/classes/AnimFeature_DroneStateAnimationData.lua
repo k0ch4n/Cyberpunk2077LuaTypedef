@@ -5,6 +5,6 @@
 ---@field public statePose Int32
 AnimFeature_DroneStateAnimationData = {}
 
----@param fields? table
+---@param fields? AnimFeature_DroneStateAnimationData
 ---@return AnimFeature_DroneStateAnimationData
 function AnimFeature_DroneStateAnimationData.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public isInteractive Bool
 MediaDeviceData = {}
 
----@param fields? table
+---@param fields? MediaDeviceData
 ---@return MediaDeviceData
 function MediaDeviceData.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field private weakspotDestroyed Bool
 RoyceComponent = {}
 
----@param fields? table
+---@param fields? RoyceComponent
 ---@return RoyceComponent
 function RoyceComponent.new(fields) return end
 

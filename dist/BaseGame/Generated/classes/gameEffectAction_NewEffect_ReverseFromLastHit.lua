@@ -8,6 +8,6 @@
 ---@field public childEffectTag CName
 gameEffectAction_NewEffect_ReverseFromLastHit = {}
 
----@param fields? table
+---@param fields? gameEffectAction_NewEffect_ReverseFromLastHit
 ---@return gameEffectAction_NewEffect_ReverseFromLastHit
 function gameEffectAction_NewEffect_ReverseFromLastHit.new(fields) return end

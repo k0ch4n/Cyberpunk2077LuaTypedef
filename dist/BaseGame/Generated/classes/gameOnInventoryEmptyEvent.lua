@@ -4,6 +4,6 @@
 ---@class gameOnInventoryEmptyEvent: redEvent
 gameOnInventoryEmptyEvent = {}
 
----@param fields? table
+---@param fields? gameOnInventoryEmptyEvent
 ---@return gameOnInventoryEmptyEvent
 function gameOnInventoryEmptyEvent.new(fields) return end

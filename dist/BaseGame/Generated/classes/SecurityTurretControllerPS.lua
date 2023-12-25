@@ -10,7 +10,7 @@
 ---@field private vfxNameOnShoot CName
 SecurityTurretControllerPS = {}
 
----@param fields? table
+---@param fields? SecurityTurretControllerPS
 ---@return SecurityTurretControllerPS
 function SecurityTurretControllerPS.new(fields) return end
 

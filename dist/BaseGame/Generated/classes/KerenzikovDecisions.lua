@@ -6,7 +6,7 @@
 ---@field public activationGracePeriod Float
 KerenzikovDecisions = {}
 
----@param fields? table
+---@param fields? KerenzikovDecisions
 ---@return KerenzikovDecisions
 function KerenzikovDecisions.new(fields) return end
 

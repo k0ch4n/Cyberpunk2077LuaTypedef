@@ -5,7 +5,7 @@
 ---@field private healthBar gameuiHudHealthbarGameController
 OverclockListener = {}
 
----@param fields? table
+---@param fields? OverclockListener
 ---@return OverclockListener
 function OverclockListener.new(fields) return end
 

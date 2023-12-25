@@ -11,6 +11,6 @@
 ---@field public virtualNetworkShapeID TweakDBID
 StartPingingNetworkRequest = {}
 
----@param fields? table
+---@param fields? StartPingingNetworkRequest
 ---@return StartPingingNetworkRequest
 function StartPingingNetworkRequest.new(fields) return end

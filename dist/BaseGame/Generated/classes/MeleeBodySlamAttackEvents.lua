@@ -18,7 +18,7 @@
 ---@field public weakAttackIndex Int32
 MeleeBodySlamAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeBodySlamAttackEvents
 ---@return MeleeBodySlamAttackEvents
 function MeleeBodySlamAttackEvents.new(fields) return end
 

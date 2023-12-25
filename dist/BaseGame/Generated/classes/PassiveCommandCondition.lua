@@ -7,7 +7,7 @@
 ---@field private cmdCbId Uint32
 PassiveCommandCondition = {}
 
----@param fields? table
+---@param fields? PassiveCommandCondition
 ---@return PassiveCommandCondition
 function PassiveCommandCondition.new(fields) return end
 

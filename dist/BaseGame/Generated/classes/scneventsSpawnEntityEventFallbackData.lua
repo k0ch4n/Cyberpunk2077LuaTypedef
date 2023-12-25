@@ -9,6 +9,6 @@
 ---@field public fallbackAnimTime Float
 scneventsSpawnEntityEventFallbackData = {}
 
----@param fields? table
+---@param fields? scneventsSpawnEntityEventFallbackData
 ---@return scneventsSpawnEntityEventFallbackData
 function scneventsSpawnEntityEventFallbackData.new(fields) return end

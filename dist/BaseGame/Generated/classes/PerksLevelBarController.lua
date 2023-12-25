@@ -6,7 +6,7 @@
 ---@field protected backgroundImage inkWidgetReference
 PerksLevelBarController = {}
 
----@param fields? table
+---@param fields? PerksLevelBarController
 ---@return PerksLevelBarController
 function PerksLevelBarController.new(fields) return end
 

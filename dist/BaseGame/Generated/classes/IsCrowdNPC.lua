@@ -4,7 +4,7 @@
 ---@class IsCrowdNPC: AIbehaviorconditionScript
 IsCrowdNPC = {}
 
----@param fields? table
+---@param fields? IsCrowdNPC
 ---@return IsCrowdNPC
 function IsCrowdNPC.new(fields) return end
 

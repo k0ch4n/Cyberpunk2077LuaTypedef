@@ -4,6 +4,6 @@
 ---@class gameCombatQueriesSystem: gameICombatQueriesSystem
 gameCombatQueriesSystem = {}
 
----@param fields? table
+---@param fields? gameCombatQueriesSystem
 ---@return gameCombatQueriesSystem
 function gameCombatQueriesSystem.new(fields) return end

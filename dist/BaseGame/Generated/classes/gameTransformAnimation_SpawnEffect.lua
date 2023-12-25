@@ -7,6 +7,6 @@
 ---@field public persistOnDetach Bool
 gameTransformAnimation_SpawnEffect = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_SpawnEffect
 ---@return gameTransformAnimation_SpawnEffect
 function gameTransformAnimation_SpawnEffect.new(fields) return end

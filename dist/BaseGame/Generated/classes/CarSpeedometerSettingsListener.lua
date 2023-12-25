@@ -5,7 +5,7 @@
 ---@field private ctrl hudCarController
 CarSpeedometerSettingsListener = {}
 
----@param fields? table
+---@param fields? CarSpeedometerSettingsListener
 ---@return CarSpeedometerSettingsListener
 function CarSpeedometerSettingsListener.new(fields) return end
 

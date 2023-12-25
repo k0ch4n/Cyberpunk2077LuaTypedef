@@ -5,6 +5,6 @@
 ---@field public type gamedataProficiencyType
 questEntityManagerLevelUpProficiency_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerLevelUpProficiency_NodeType
 ---@return questEntityManagerLevelUpProficiency_NodeType
 function questEntityManagerLevelUpProficiency_NodeType.new(fields) return end

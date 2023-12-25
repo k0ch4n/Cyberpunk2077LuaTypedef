@@ -10,6 +10,6 @@
 ---@field public buttonHoldTapCount Int32
 PlayerVisionModeControllerOtherVars = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerOtherVars
 ---@return PlayerVisionModeControllerOtherVars
 function PlayerVisionModeControllerOtherVars.new(fields) return end

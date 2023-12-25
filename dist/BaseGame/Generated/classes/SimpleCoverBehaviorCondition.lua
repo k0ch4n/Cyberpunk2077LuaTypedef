@@ -7,7 +7,7 @@
 ---@field private isHeavyRanged Bool
 SimpleCoverBehaviorCondition = {}
 
----@param fields? table
+---@param fields? SimpleCoverBehaviorCondition
 ---@return SimpleCoverBehaviorCondition
 function SimpleCoverBehaviorCondition.new(fields) return end
 

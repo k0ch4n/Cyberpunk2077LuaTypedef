@@ -7,6 +7,6 @@
 ---@field public isDebug Bool
 ExperiencePointsEvent = {}
 
----@param fields? table
+---@param fields? ExperiencePointsEvent
 ---@return ExperiencePointsEvent
 function ExperiencePointsEvent.new(fields) return end

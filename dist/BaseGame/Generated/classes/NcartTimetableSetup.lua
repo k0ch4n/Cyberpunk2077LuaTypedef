@@ -7,6 +7,6 @@
 ---@field public trainLines Int32[]
 NcartTimetableSetup = {}
 
----@param fields? table
+---@param fields? NcartTimetableSetup
 ---@return NcartTimetableSetup
 function NcartTimetableSetup.new(fields) return end

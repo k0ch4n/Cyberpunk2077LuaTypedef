@@ -6,7 +6,7 @@
 ---@field private lightDefinitions gamedataLightPreset[]
 DestructibleMasterLight = {}
 
----@param fields? table
+---@param fields? DestructibleMasterLight
 ---@return DestructibleMasterLight
 function DestructibleMasterLight.new(fields) return end
 

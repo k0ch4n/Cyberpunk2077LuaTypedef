@@ -10,7 +10,7 @@
 ---@field public Appearance gamebbScriptID_CName
 UI_HUDSignalProgressBarDef = {}
 
----@param fields? table
+---@param fields? UI_HUDSignalProgressBarDef
 ---@return UI_HUDSignalProgressBarDef
 function UI_HUDSignalProgressBarDef.new(fields) return end
 

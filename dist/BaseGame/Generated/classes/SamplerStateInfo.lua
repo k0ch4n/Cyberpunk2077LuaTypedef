@@ -12,6 +12,6 @@
 ---@field public register Uint8
 SamplerStateInfo = {}
 
----@param fields? table
+---@param fields? SamplerStateInfo
 ---@return SamplerStateInfo
 function SamplerStateInfo.new(fields) return end

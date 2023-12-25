@@ -5,6 +5,6 @@
 ---@field public cookedData gameCookedPointOfInterestMappinData[]
 gamePointOfInterestMappinResource = {}
 
----@param fields? table
+---@param fields? gamePointOfInterestMappinResource
 ---@return gamePointOfInterestMappinResource
 function gamePointOfInterestMappinResource.new(fields) return end

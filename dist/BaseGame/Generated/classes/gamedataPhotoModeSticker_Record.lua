@@ -4,7 +4,7 @@
 ---@class gamedataPhotoModeSticker_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModeSticker_Record = {}
 
----@param fields? table
+---@param fields? gamedataPhotoModeSticker_Record
 ---@return gamedataPhotoModeSticker_Record
 function gamedataPhotoModeSticker_Record.new(fields) return end
 

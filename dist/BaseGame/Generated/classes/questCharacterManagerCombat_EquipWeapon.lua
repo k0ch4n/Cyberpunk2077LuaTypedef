@@ -11,6 +11,6 @@
 ---@field public ignoreStateMachine Bool
 questCharacterManagerCombat_EquipWeapon = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_EquipWeapon
 ---@return questCharacterManagerCombat_EquipWeapon
 function questCharacterManagerCombat_EquipWeapon.new(fields) return end

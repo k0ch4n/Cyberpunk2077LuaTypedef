@@ -6,6 +6,6 @@
 ---@field public internalEvent gameActionInternalEvent
 gameActionEvent = {}
 
----@param fields? table
+---@param fields? gameActionEvent
 ---@return gameActionEvent
 function gameActionEvent.new(fields) return end

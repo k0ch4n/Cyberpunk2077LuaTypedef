@@ -4,7 +4,7 @@
 ---@class MenuScenario_CreditsPicker: MenuScenario_PreGameSubMenu
 MenuScenario_CreditsPicker = {}
 
----@param fields? table
+---@param fields? MenuScenario_CreditsPicker
 ---@return MenuScenario_CreditsPicker
 function MenuScenario_CreditsPicker.new(fields) return end
 

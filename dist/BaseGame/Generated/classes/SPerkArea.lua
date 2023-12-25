@@ -7,6 +7,6 @@
 ---@field public boughtPerks SPerk[]
 SPerkArea = {}
 
----@param fields? table
+---@param fields? SPerkArea
 ---@return SPerkArea
 function SPerkArea.new(fields) return end

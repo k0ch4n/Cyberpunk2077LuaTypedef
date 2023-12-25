@@ -10,7 +10,7 @@
 ---@field private readyToUnmount Bool
 VehicleDeathTask = {}
 
----@param fields? table
+---@param fields? VehicleDeathTask
 ---@return VehicleDeathTask
 function VehicleDeathTask.new(fields) return end
 

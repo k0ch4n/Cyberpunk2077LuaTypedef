@@ -4,7 +4,7 @@
 ---@class gamedataSensePreset_Record: gamedataTweakDBRecord
 gamedataSensePreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataSensePreset_Record
 ---@return gamedataSensePreset_Record
 function gamedataSensePreset_Record.new(fields) return end
 

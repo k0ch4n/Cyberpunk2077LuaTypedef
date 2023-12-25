@@ -8,6 +8,6 @@
 ---@field public seed Uint32
 gameStatModifierSave = {}
 
----@param fields? table
+---@param fields? gameStatModifierSave
 ---@return gameStatModifierSave
 function gameStatModifierSave.new(fields) return end

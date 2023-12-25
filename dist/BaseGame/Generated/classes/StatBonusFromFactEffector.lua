@@ -9,7 +9,7 @@
 ---@field public modifier gameConstantStatModifierData_Deprecated
 StatBonusFromFactEffector = {}
 
----@param fields? table
+---@param fields? StatBonusFromFactEffector
 ---@return StatBonusFromFactEffector
 function StatBonusFromFactEffector.new(fields) return end
 

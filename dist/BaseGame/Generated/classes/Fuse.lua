@@ -4,7 +4,7 @@
 ---@class Fuse: InteractiveMasterDevice
 Fuse = {}
 
----@param fields? table
+---@param fields? Fuse
 ---@return Fuse
 function Fuse.new(fields) return end
 

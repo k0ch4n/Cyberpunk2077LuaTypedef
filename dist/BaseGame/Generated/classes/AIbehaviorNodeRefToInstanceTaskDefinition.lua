@@ -4,6 +4,6 @@
 ---@class AIbehaviorNodeRefToInstanceTaskDefinition: AIbehaviorNodeRefConverterTaskDefinition
 AIbehaviorNodeRefToInstanceTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorNodeRefToInstanceTaskDefinition
 ---@return AIbehaviorNodeRefToInstanceTaskDefinition
 function AIbehaviorNodeRefToInstanceTaskDefinition.new(fields) return end

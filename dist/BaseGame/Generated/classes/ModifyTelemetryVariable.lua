@@ -6,6 +6,6 @@
 ---@field public value Int32
 ModifyTelemetryVariable = {}
 
----@param fields? table
+---@param fields? ModifyTelemetryVariable
 ---@return ModifyTelemetryVariable
 function ModifyTelemetryVariable.new(fields) return end

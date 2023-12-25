@@ -4,7 +4,7 @@
 ---@class EmptyHandsEvents: UpperBodyEventsTransition
 EmptyHandsEvents = {}
 
----@param fields? table
+---@param fields? EmptyHandsEvents
 ---@return EmptyHandsEvents
 function EmptyHandsEvents.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public playSpeedModifiers scnRewindableSectionPlaySpeedModifiers
 scnRewindableSectionNode = {}
 
----@param fields? table
+---@param fields? scnRewindableSectionNode
 ---@return scnRewindableSectionNode
 function scnRewindableSectionNode.new(fields) return end

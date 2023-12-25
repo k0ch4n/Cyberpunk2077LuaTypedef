@@ -4,6 +4,6 @@
 ---@class gameeventsEndTakedownEvent: redEvent
 gameeventsEndTakedownEvent = {}
 
----@param fields? table
+---@param fields? gameeventsEndTakedownEvent
 ---@return gameeventsEndTakedownEvent
 function gameeventsEndTakedownEvent.new(fields) return end

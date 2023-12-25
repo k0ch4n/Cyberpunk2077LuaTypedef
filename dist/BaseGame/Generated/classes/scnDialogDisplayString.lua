@@ -9,6 +9,6 @@
 ---@field public language scnDialogLineLanguage
 scnDialogDisplayString = {}
 
----@param fields? table
+---@param fields? scnDialogDisplayString
 ---@return scnDialogDisplayString
 function scnDialogDisplayString.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private braindanceSetHidden inkWidgetReference[]
 scannerBorderLogicController = {}
 
----@param fields? table
+---@param fields? scannerBorderLogicController
 ---@return scannerBorderLogicController
 function scannerBorderLogicController.new(fields) return end
 

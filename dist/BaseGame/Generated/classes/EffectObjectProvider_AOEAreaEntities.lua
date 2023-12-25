@@ -4,7 +4,7 @@
 ---@class EffectObjectProvider_AOEAreaEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_AOEAreaEntities = {}
 
----@param fields? table
+---@param fields? EffectObjectProvider_AOEAreaEntities
 ---@return EffectObjectProvider_AOEAreaEntities
 function EffectObjectProvider_AOEAreaEntities.new(fields) return end
 

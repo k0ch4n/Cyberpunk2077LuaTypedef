@@ -5,6 +5,6 @@
 ---@field public HiddenItem inkVirtualCompoundItemController
 PhoneContactHiddenEvent = {}
 
----@param fields? table
+---@param fields? PhoneContactHiddenEvent
 ---@return PhoneContactHiddenEvent
 function PhoneContactHiddenEvent.new(fields) return end

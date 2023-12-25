@@ -7,6 +7,6 @@
 ---@field public mode Int32
 scnLookAtHeadProperties = {}
 
----@param fields? table
+---@param fields? scnLookAtHeadProperties
 ---@return scnLookAtHeadProperties
 function scnLookAtHeadProperties.new(fields) return end

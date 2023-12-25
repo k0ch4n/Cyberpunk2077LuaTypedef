@@ -4,7 +4,7 @@
 ---@class RandomChancePrereq: gameIScriptablePrereq
 RandomChancePrereq = {}
 
----@param fields? table
+---@param fields? RandomChancePrereq
 ---@return RandomChancePrereq
 function RandomChancePrereq.new(fields) return end
 

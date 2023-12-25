@@ -6,6 +6,6 @@
 ---@field public clearReinitData Bool
 questResetContainers_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questResetContainers_NodeTypeParams
 ---@return questResetContainers_NodeTypeParams
 function questResetContainers_NodeTypeParams.new(fields) return end

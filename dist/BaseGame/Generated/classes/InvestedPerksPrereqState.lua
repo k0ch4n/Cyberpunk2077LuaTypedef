@@ -4,6 +4,6 @@
 ---@class InvestedPerksPrereqState: gamePrereqState
 InvestedPerksPrereqState = {}
 
----@param fields? table
+---@param fields? InvestedPerksPrereqState
 ---@return InvestedPerksPrereqState
 function InvestedPerksPrereqState.new(fields) return end

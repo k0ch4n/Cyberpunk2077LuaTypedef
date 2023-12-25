@@ -6,6 +6,6 @@
 ---@field public slicePitch Uint32
 rendRenderTextureBlobMemoryLayout = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobMemoryLayout
 ---@return rendRenderTextureBlobMemoryLayout
 function rendRenderTextureBlobMemoryLayout.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private inputPressed Bool
 ChargeDecisions = {}
 
----@param fields? table
+---@param fields? ChargeDecisions
 ---@return ChargeDecisions
 function ChargeDecisions.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ComputerController: TerminalController
 ComputerController = {}
 
----@param fields? table
+---@param fields? ComputerController
 ---@return ComputerController
 function ComputerController.new(fields) return end
 

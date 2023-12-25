@@ -6,6 +6,6 @@
 ---@field public newFailedAttempts Float
 UpdateShardFailedDropsRequest = {}
 
----@param fields? table
+---@param fields? UpdateShardFailedDropsRequest
 ---@return UpdateShardFailedDropsRequest
 function UpdateShardFailedDropsRequest.new(fields) return end

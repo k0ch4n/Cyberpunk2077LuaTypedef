@@ -4,6 +4,6 @@
 ---@class workEquipItemCommandData: workIWorkspotCommandData
 workEquipItemCommandData = {}
 
----@param fields? table
+---@param fields? workEquipItemCommandData
 ---@return workEquipItemCommandData
 function workEquipItemCommandData.new(fields) return end

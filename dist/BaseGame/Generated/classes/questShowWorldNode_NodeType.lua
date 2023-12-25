@@ -8,6 +8,6 @@
 ---@field public componentName CName
 questShowWorldNode_NodeType = {}
 
----@param fields? table
+---@param fields? questShowWorldNode_NodeType
 ---@return questShowWorldNode_NodeType
 function questShowWorldNode_NodeType.new(fields) return end

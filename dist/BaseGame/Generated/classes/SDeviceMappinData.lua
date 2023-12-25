@@ -18,6 +18,6 @@
 ---@field public visualStateData GameplayRoleMappinData
 SDeviceMappinData = {}
 
----@param fields? table
+---@param fields? SDeviceMappinData
 ---@return SDeviceMappinData
 function SDeviceMappinData.new(fields) return end

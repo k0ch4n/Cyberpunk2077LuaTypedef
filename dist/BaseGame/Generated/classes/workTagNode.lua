@@ -5,6 +5,6 @@
 ---@field public tag CName
 workTagNode = {}
 
----@param fields? table
+---@param fields? workTagNode
 ---@return workTagNode
 function workTagNode.new(fields) return end

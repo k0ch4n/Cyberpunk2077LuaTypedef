@@ -4,7 +4,7 @@
 ---@class gameScriptedDamageSystemListener: gameIDamageSystemListener
 gameScriptedDamageSystemListener = {}
 
----@param fields? table
+---@param fields? gameScriptedDamageSystemListener
 ---@return gameScriptedDamageSystemListener
 function gameScriptedDamageSystemListener.new(fields) return end
 

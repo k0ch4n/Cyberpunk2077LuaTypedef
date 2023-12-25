@@ -5,7 +5,7 @@
 ---@field public perkType gamedataPerkType
 RemovePerk = {}
 
----@param fields? table
+---@param fields? RemovePerk
 ---@return RemovePerk
 function RemovePerk.new(fields) return end
 

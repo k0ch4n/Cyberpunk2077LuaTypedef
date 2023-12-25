@@ -4,6 +4,6 @@
 ---@class PreventionTransitionToGreyStateTimerRequest: gameScriptableSystemRequest
 PreventionTransitionToGreyStateTimerRequest = {}
 
----@param fields? table
+---@param fields? PreventionTransitionToGreyStateTimerRequest
 ---@return PreventionTransitionToGreyStateTimerRequest
 function PreventionTransitionToGreyStateTimerRequest.new(fields) return end

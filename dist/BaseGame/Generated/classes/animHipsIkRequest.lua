@@ -9,6 +9,6 @@
 ---@field public rightFootTransformIndex animTransformIndex
 animHipsIkRequest = {}
 
----@param fields? table
+---@param fields? animHipsIkRequest
 ---@return animHipsIkRequest
 function animHipsIkRequest.new(fields) return end

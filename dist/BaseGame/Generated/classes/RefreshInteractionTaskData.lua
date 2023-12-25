@@ -6,6 +6,6 @@
 ---@field public executor gameObject
 RefreshInteractionTaskData = {}
 
----@param fields? table
+---@param fields? RefreshInteractionTaskData
 ---@return RefreshInteractionTaskData
 function RefreshInteractionTaskData.new(fields) return end

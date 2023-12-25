@@ -4,7 +4,7 @@
 ---@class JukeboxController: ScriptableDeviceComponent
 JukeboxController = {}
 
----@param fields? table
+---@param fields? JukeboxController
 ---@return JukeboxController
 function JukeboxController.new(fields) return end
 

@@ -61,7 +61,7 @@
 ---@field public DEBUG_iconErrorInfo DEBUG_IconErrorInfo
 InventoryTooltipData = {}
 
----@param fields? table
+---@param fields? InventoryTooltipData
 ---@return InventoryTooltipData
 function InventoryTooltipData.new(fields) return end
 

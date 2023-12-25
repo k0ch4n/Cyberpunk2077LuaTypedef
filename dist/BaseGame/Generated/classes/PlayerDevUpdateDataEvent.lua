@@ -4,6 +4,6 @@
 ---@class PlayerDevUpdateDataEvent: redEvent
 PlayerDevUpdateDataEvent = {}
 
----@param fields? table
+---@param fields? PlayerDevUpdateDataEvent
 ---@return PlayerDevUpdateDataEvent
 function PlayerDevUpdateDataEvent.new(fields) return end

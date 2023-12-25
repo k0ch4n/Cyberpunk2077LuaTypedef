@@ -4,6 +4,6 @@
 ---@class BraindanceInstance: ModuleInstance
 BraindanceInstance = {}
 
----@param fields? table
+---@param fields? BraindanceInstance
 ---@return BraindanceInstance
 function BraindanceInstance.new(fields) return end

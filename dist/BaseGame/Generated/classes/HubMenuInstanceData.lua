@@ -5,6 +5,6 @@
 ---@field public ID Uint32
 HubMenuInstanceData = {}
 
----@param fields? table
+---@param fields? HubMenuInstanceData
 ---@return HubMenuInstanceData
 function HubMenuInstanceData.new(fields) return end

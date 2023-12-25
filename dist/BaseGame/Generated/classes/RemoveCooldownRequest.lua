@@ -5,6 +5,6 @@
 ---@field public cid Int32
 RemoveCooldownRequest = {}
 
----@param fields? table
+---@param fields? RemoveCooldownRequest
 ---@return RemoveCooldownRequest
 function RemoveCooldownRequest.new(fields) return end

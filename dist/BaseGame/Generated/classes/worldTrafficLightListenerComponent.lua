@@ -6,6 +6,6 @@
 ---@field public groupIdx Uint32
 worldTrafficLightListenerComponent = {}
 
----@param fields? table
+---@param fields? worldTrafficLightListenerComponent
 ---@return worldTrafficLightListenerComponent
 function worldTrafficLightListenerComponent.new(fields) return end

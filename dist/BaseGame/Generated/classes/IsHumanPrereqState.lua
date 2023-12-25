@@ -4,6 +4,6 @@
 ---@class IsHumanPrereqState: gamePrereqState
 IsHumanPrereqState = {}
 
----@param fields? table
+---@param fields? IsHumanPrereqState
 ---@return IsHumanPrereqState
 function IsHumanPrereqState.new(fields) return end

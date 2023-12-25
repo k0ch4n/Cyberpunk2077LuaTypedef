@@ -9,7 +9,7 @@
 ---@field private c_stick_dead_zone Float
 gameuiHudSafezonesEditorGameController = {}
 
----@param fields? table
+---@param fields? gameuiHudSafezonesEditorGameController
 ---@return gameuiHudSafezonesEditorGameController
 function gameuiHudSafezonesEditorGameController.new(fields) return end
 

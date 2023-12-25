@@ -6,6 +6,6 @@
 ---@field public specularSkyScale Float
 RTXDIAreaSettings = {}
 
----@param fields? table
+---@param fields? RTXDIAreaSettings
 ---@return RTXDIAreaSettings
 function RTXDIAreaSettings.new(fields) return end

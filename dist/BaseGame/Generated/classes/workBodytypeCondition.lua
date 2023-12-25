@@ -5,6 +5,6 @@
 ---@field public rig animRig
 workBodytypeCondition = {}
 
----@param fields? table
+---@param fields? workBodytypeCondition
 ---@return workBodytypeCondition
 function workBodytypeCondition.new(fields) return end

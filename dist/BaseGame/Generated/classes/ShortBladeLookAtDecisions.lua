@@ -4,6 +4,6 @@
 ---@class ShortBladeLookAtDecisions: LookAtPresetMeleeBaseDecisions
 ShortBladeLookAtDecisions = {}
 
----@param fields? table
+---@param fields? ShortBladeLookAtDecisions
 ---@return ShortBladeLookAtDecisions
 function ShortBladeLookAtDecisions.new(fields) return end

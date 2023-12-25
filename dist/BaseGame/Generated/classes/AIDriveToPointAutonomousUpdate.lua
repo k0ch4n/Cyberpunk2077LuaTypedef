@@ -7,7 +7,7 @@
 ---@field public driveDownTheRoadIndefinitely Bool
 AIDriveToPointAutonomousUpdate = {}
 
----@param fields? table
+---@param fields? AIDriveToPointAutonomousUpdate
 ---@return AIDriveToPointAutonomousUpdate
 function AIDriveToPointAutonomousUpdate.new(fields) return end
 

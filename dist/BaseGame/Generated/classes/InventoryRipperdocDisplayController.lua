@@ -6,7 +6,7 @@
 ---@field private ownedSign inkWidgetReference
 InventoryRipperdocDisplayController = {}
 
----@param fields? table
+---@param fields? InventoryRipperdocDisplayController
 ---@return InventoryRipperdocDisplayController
 function InventoryRipperdocDisplayController.new(fields) return end
 

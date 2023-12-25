@@ -7,6 +7,6 @@
 ---@field public inputNode animFloatLink
 animAnimNode_FloatClamp = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatClamp
 ---@return animAnimNode_FloatClamp
 function animAnimNode_FloatClamp.new(fields) return end

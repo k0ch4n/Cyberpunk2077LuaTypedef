@@ -4,7 +4,7 @@
 ---@class gamedataAIMovementCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIMovementCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIMovementCond_Record
 ---@return gamedataAIMovementCond_Record
 function gamedataAIMovementCond_Record.new(fields) return end
 

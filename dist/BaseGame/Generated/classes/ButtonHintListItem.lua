@@ -8,7 +8,7 @@
 ---@field private actionName CName
 ButtonHintListItem = {}
 
----@param fields? table
+---@param fields? ButtonHintListItem
 ---@return ButtonHintListItem
 function ButtonHintListItem.new(fields) return end
 

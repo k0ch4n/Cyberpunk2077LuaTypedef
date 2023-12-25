@@ -6,6 +6,6 @@
 ---@field public boundSize Vector2
 gameuiarcadeShooterBullet = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterBullet
 ---@return gameuiarcadeShooterBullet
 function gameuiarcadeShooterBullet.new(fields) return end

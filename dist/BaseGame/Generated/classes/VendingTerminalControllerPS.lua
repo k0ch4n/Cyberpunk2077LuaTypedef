@@ -7,7 +7,7 @@
 ---@field private VendorDataManager VendorDataManager
 VendingTerminalControllerPS = {}
 
----@param fields? table
+---@param fields? VendingTerminalControllerPS
 ---@return VendingTerminalControllerPS
 function VendingTerminalControllerPS.new(fields) return end
 

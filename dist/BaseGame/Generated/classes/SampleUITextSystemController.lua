@@ -23,7 +23,7 @@
 ---@field private animateValueWidget inkTextWidgetReference
 SampleUITextSystemController = {}
 
----@param fields? table
+---@param fields? SampleUITextSystemController
 ---@return SampleUITextSystemController
 function SampleUITextSystemController.new(fields) return end
 

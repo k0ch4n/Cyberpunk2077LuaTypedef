@@ -4,6 +4,6 @@
 ---@class gamedataStreetSign_Record: gamedataBaseSign_Record
 gamedataStreetSign_Record = {}
 
----@param fields? table
+---@param fields? gamedataStreetSign_Record
 ---@return gamedataStreetSign_Record
 function gamedataStreetSign_Record.new(fields) return end

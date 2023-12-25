@@ -6,6 +6,6 @@
 ---@field public provider animAnimNode_SetDrivenKey_InternalsISetDrivenKeyEntryProvider
 animAnimNode_SetDrivenKey = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetDrivenKey
 ---@return animAnimNode_SetDrivenKey
 function animAnimNode_SetDrivenKey.new(fields) return end

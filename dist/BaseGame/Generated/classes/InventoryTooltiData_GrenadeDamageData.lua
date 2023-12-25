@@ -6,6 +6,6 @@
 ---@field public value Float
 InventoryTooltiData_GrenadeDamageData = {}
 
----@param fields? table
+---@param fields? InventoryTooltiData_GrenadeDamageData
 ---@return InventoryTooltiData_GrenadeDamageData
 function InventoryTooltiData_GrenadeDamageData.new(fields) return end

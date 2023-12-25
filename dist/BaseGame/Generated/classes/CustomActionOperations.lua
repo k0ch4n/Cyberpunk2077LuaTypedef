@@ -6,7 +6,7 @@
 ---@field protected customActionsOperations SCustomActionOperationData[]
 CustomActionOperations = {}
 
----@param fields? table
+---@param fields? CustomActionOperations
 ---@return CustomActionOperations
 function CustomActionOperations.new(fields) return end
 

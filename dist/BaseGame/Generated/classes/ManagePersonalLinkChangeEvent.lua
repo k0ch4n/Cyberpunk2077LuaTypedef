@@ -5,7 +5,7 @@
 ---@field public shouldEquip Bool
 ManagePersonalLinkChangeEvent = {}
 
----@param fields? table
+---@param fields? ManagePersonalLinkChangeEvent
 ---@return ManagePersonalLinkChangeEvent
 function ManagePersonalLinkChangeEvent.new(fields) return end
 

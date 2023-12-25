@@ -4,6 +4,6 @@
 ---@class gameSmartObjectWorkspotInstance
 gameSmartObjectWorkspotInstance = {}
 
----@param fields? table
+---@param fields? gameSmartObjectWorkspotInstance
 ---@return gameSmartObjectWorkspotInstance
 function gameSmartObjectWorkspotInstance.new(fields) return end

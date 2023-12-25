@@ -5,6 +5,6 @@
 ---@field public stateMachines gameMuppetStateMachineSnapshot[]
 gameMuppetStateMachinesSnapshot = {}
 
----@param fields? table
+---@param fields? gameMuppetStateMachinesSnapshot
 ---@return gameMuppetStateMachinesSnapshot
 function gameMuppetStateMachinesSnapshot.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AIResourceReference: LibTreeCTreeReference
 AIResourceReference = {}
 
----@param fields? table
+---@param fields? AIResourceReference
 ---@return AIResourceReference
 function AIResourceReference.new(fields) return end

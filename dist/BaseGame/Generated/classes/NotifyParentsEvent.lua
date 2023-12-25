@@ -4,6 +4,6 @@
 ---@class NotifyParentsEvent: redEvent
 NotifyParentsEvent = {}
 
----@param fields? table
+---@param fields? NotifyParentsEvent
 ---@return NotifyParentsEvent
 function NotifyParentsEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public delayID gameDelayID
 NPCHitTypeTimeoutStruct = {}
 
----@param fields? table
+---@param fields? NPCHitTypeTimeoutStruct
 ---@return NPCHitTypeTimeoutStruct
 function NPCHitTypeTimeoutStruct.new(fields) return end

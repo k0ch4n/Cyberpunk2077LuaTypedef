@@ -17,6 +17,6 @@
 ---@field public attackIsExplosion Bool
 DismembermentInstigatedInfo = {}
 
----@param fields? table
+---@param fields? DismembermentInstigatedInfo
 ---@return DismembermentInstigatedInfo
 function DismembermentInstigatedInfo.new(fields) return end

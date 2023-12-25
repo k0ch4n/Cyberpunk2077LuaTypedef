@@ -5,6 +5,6 @@
 ---@field public wasQuickHackAttempt Bool
 SetQuickHackAttemptEvent = {}
 
----@param fields? table
+---@param fields? SetQuickHackAttemptEvent
 ---@return SetQuickHackAttemptEvent
 function SetQuickHackAttemptEvent.new(fields) return end

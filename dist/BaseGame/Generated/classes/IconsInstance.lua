@@ -5,7 +5,7 @@
 ---@field public isForcedVisibleThroughWalls Bool
 IconsInstance = {}
 
----@param fields? table
+---@param fields? IconsInstance
 ---@return IconsInstance
 function IconsInstance.new(fields) return end
 

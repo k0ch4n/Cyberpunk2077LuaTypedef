@@ -5,6 +5,6 @@
 ---@field public itemData gameItemData
 ResolveQualityRangeInteractionLayerEvent = {}
 
----@param fields? table
+---@param fields? ResolveQualityRangeInteractionLayerEvent
 ---@return ResolveQualityRangeInteractionLayerEvent
 function ResolveQualityRangeInteractionLayerEvent.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public CharacterRecordId gamebbScriptID_Variant
 UI_CpoCharacterSelectionDef = {}
 
----@param fields? table
+---@param fields? UI_CpoCharacterSelectionDef
 ---@return UI_CpoCharacterSelectionDef
 function UI_CpoCharacterSelectionDef.new(fields) return end
 

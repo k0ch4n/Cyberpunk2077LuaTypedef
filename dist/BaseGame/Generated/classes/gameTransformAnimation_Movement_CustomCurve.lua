@@ -5,6 +5,6 @@
 ---@field public curve curveData
 gameTransformAnimation_Movement_CustomCurve = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Movement_CustomCurve
 ---@return gameTransformAnimation_Movement_CustomCurve
 function gameTransformAnimation_Movement_CustomCurve.new(fields) return end

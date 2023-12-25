@@ -6,7 +6,7 @@
 ---@field private blackboard gameIBlackboard
 CodexSystem = {}
 
----@param fields? table
+---@param fields? CodexSystem
 ---@return CodexSystem
 function CodexSystem.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public magicFloat Float
 FastTravelConsoleInstructionRequest = {}
 
----@param fields? table
+---@param fields? FastTravelConsoleInstructionRequest
 ---@return FastTravelConsoleInstructionRequest
 function FastTravelConsoleInstructionRequest.new(fields) return end

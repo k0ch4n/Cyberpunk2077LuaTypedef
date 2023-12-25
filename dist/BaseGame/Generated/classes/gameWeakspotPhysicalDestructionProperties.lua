@@ -5,6 +5,6 @@
 ---@field public velocity Float
 gameWeakspotPhysicalDestructionProperties = {}
 
----@param fields? table
+---@param fields? gameWeakspotPhysicalDestructionProperties
 ---@return gameWeakspotPhysicalDestructionProperties
 function gameWeakspotPhysicalDestructionProperties.new(fields) return end

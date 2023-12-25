@@ -4,6 +4,6 @@
 ---@class CheckComfortZoneEvent: redEvent
 CheckComfortZoneEvent = {}
 
----@param fields? table
+---@param fields? CheckComfortZoneEvent
 ---@return CheckComfortZoneEvent
 function CheckComfortZoneEvent.new(fields) return end

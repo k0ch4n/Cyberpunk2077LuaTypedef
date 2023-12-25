@@ -14,6 +14,6 @@
 ---@field public documentType EDocumentType
 SDocumentWidgetPackage = {}
 
----@param fields? table
+---@param fields? SDocumentWidgetPackage
 ---@return SDocumentWidgetPackage
 function SDocumentWidgetPackage.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public outPatrolPath AIArgumentMapping
 AIPatrolCommandPrologue = {}
 
----@param fields? table
+---@param fields? AIPatrolCommandPrologue
 ---@return AIPatrolCommandPrologue
 function AIPatrolCommandPrologue.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public controlPointIndex Uint32
 gamePatrolSplineProgress = {}
 
----@param fields? table
+---@param fields? gamePatrolSplineProgress
 ---@return gamePatrolSplineProgress
 function gamePatrolSplineProgress.new(fields) return end
 

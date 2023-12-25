@@ -4,7 +4,7 @@
 ---@class RetractableAdController: BaseAnimatedDeviceController
 RetractableAdController = {}
 
----@param fields? table
+---@param fields? RetractableAdController
 ---@return RetractableAdController
 function RetractableAdController.new(fields) return end
 

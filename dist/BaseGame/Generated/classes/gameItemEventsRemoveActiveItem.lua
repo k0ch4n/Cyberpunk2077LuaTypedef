@@ -4,6 +4,6 @@
 ---@class gameItemEventsRemoveActiveItem: redEvent
 gameItemEventsRemoveActiveItem = {}
 
----@param fields? table
+---@param fields? gameItemEventsRemoveActiveItem
 ---@return gameItemEventsRemoveActiveItem
 function gameItemEventsRemoveActiveItem.new(fields) return end

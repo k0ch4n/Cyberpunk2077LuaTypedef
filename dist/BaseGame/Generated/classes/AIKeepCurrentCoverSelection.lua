@@ -4,6 +4,6 @@
 ---@class AIKeepCurrentCoverSelection: AICoverSelectionParameters
 AIKeepCurrentCoverSelection = {}
 
----@param fields? table
+---@param fields? AIKeepCurrentCoverSelection
 ---@return AIKeepCurrentCoverSelection
 function AIKeepCurrentCoverSelection.new(fields) return end

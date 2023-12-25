@@ -10,7 +10,7 @@
 ---@field private activeVideo redResourceReferenceScriptToken
 TvDeviceWidgetController = {}
 
----@param fields? table
+---@param fields? TvDeviceWidgetController
 ---@return TvDeviceWidgetController
 function TvDeviceWidgetController.new(fields) return end
 

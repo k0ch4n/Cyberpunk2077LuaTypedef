@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 UIInventoryScriptableSystemInventoryRemoveItem = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableSystemInventoryRemoveItem
 ---@return UIInventoryScriptableSystemInventoryRemoveItem
 function UIInventoryScriptableSystemInventoryRemoveItem.new(fields) return end

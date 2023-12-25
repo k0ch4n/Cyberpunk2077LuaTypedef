@@ -9,7 +9,7 @@
 ---@field public currentLocomotionState CName
 SceneTierIIEvents = {}
 
----@param fields? table
+---@param fields? SceneTierIIEvents
 ---@return SceneTierIIEvents
 function SceneTierIIEvents.new(fields) return end
 

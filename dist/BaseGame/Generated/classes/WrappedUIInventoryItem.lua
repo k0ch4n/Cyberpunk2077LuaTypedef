@@ -6,7 +6,7 @@
 ---@field public AdditionalData IScriptable
 WrappedUIInventoryItem = {}
 
----@param fields? table
+---@param fields? WrappedUIInventoryItem
 ---@return WrappedUIInventoryItem
 function WrappedUIInventoryItem.new(fields) return end
 

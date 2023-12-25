@@ -6,6 +6,6 @@
 ---@field public componentName CName
 effectTrackGroup = {}
 
----@param fields? table
+---@param fields? effectTrackGroup
 ---@return effectTrackGroup
 function effectTrackGroup.new(fields) return end

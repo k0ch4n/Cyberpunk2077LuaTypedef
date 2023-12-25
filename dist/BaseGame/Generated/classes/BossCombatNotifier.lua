@@ -6,6 +6,6 @@
 ---@field public combatEnded Bool
 BossCombatNotifier = {}
 
----@param fields? table
+---@param fields? BossCombatNotifier
 ---@return BossCombatNotifier
 function BossCombatNotifier.new(fields) return end

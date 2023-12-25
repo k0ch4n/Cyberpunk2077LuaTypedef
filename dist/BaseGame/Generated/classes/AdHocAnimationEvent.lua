@@ -8,6 +8,6 @@
 ---@field public animationDuration Float
 AdHocAnimationEvent = {}
 
----@param fields? table
+---@param fields? AdHocAnimationEvent
 ---@return AdHocAnimationEvent
 function AdHocAnimationEvent.new(fields) return end

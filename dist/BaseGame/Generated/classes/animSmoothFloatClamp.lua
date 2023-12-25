@@ -7,6 +7,6 @@
 ---@field public marginEaseOutCurve curveData
 animSmoothFloatClamp = {}
 
----@param fields? table
+---@param fields? animSmoothFloatClamp
 ---@return animSmoothFloatClamp
 function animSmoothFloatClamp.new(fields) return end

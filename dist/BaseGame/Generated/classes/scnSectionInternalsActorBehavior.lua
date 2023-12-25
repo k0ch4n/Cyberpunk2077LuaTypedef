@@ -6,6 +6,6 @@
 ---@field public behaviorMode scnSectionInternalsActorBehaviorMode
 scnSectionInternalsActorBehavior = {}
 
----@param fields? table
+---@param fields? scnSectionInternalsActorBehavior
 ---@return scnSectionInternalsActorBehavior
 function scnSectionInternalsActorBehavior.new(fields) return end

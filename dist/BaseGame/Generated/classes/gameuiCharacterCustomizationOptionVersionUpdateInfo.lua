@@ -10,6 +10,6 @@
 ---@field public replaceCurOption Bool
 gameuiCharacterCustomizationOptionVersionUpdateInfo = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationOptionVersionUpdateInfo
 ---@return gameuiCharacterCustomizationOptionVersionUpdateInfo
 function gameuiCharacterCustomizationOptionVersionUpdateInfo.new(fields) return end

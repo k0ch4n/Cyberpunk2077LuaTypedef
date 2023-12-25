@@ -4,7 +4,7 @@
 ---@class gameRazerChromaEffectsSystem: gameIRazerChromaEffectsSystem
 gameRazerChromaEffectsSystem = {}
 
----@param fields? table
+---@param fields? gameRazerChromaEffectsSystem
 ---@return gameRazerChromaEffectsSystem
 function gameRazerChromaEffectsSystem.new(fields) return end
 

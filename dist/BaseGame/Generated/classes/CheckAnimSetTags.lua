@@ -5,7 +5,7 @@
 ---@field public animsetTagToCompare CName[]
 CheckAnimSetTags = {}
 
----@param fields? table
+---@param fields? CheckAnimSetTags
 ---@return CheckAnimSetTags
 function CheckAnimSetTags.new(fields) return end
 

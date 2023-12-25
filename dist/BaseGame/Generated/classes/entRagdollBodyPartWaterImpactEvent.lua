@@ -8,6 +8,6 @@
 ---@field public isTorso Bool
 entRagdollBodyPartWaterImpactEvent = {}
 
----@param fields? table
+---@param fields? entRagdollBodyPartWaterImpactEvent
 ---@return entRagdollBodyPartWaterImpactEvent
 function entRagdollBodyPartWaterImpactEvent.new(fields) return end

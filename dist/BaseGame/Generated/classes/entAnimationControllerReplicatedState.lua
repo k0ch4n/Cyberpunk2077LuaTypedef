@@ -8,6 +8,6 @@
 ---@field public inputSettersState entReplicatedInputSetters
 entAnimationControllerReplicatedState = {}
 
----@param fields? table
+---@param fields? entAnimationControllerReplicatedState
 ---@return entAnimationControllerReplicatedState
 function entAnimationControllerReplicatedState.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public consumed Bool
 gamestateMachineConsumableParameterCName = {}
 
----@param fields? table
+---@param fields? gamestateMachineConsumableParameterCName
 ---@return gamestateMachineConsumableParameterCName
 function gamestateMachineConsumableParameterCName.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public v Float
 LibTreeDefFloat = {}
 
----@param fields? table
+---@param fields? LibTreeDefFloat
 ---@return LibTreeDefFloat
 function LibTreeDefFloat.new(fields) return end

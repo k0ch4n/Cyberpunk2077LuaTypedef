@@ -9,6 +9,6 @@
 ---@field public maximumArmor Int32
 gameuiPlayerBioMonitor = {}
 
----@param fields? table
+---@param fields? gameuiPlayerBioMonitor
 ---@return gameuiPlayerBioMonitor
 function gameuiPlayerBioMonitor.new(fields) return end

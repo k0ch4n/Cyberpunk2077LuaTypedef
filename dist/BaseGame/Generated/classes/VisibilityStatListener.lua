@@ -5,7 +5,7 @@
 ---@field public owner gameObject
 VisibilityStatListener = {}
 
----@param fields? table
+---@param fields? VisibilityStatListener
 ---@return VisibilityStatListener
 function VisibilityStatListener.new(fields) return end
 

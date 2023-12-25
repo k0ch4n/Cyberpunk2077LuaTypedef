@@ -10,6 +10,6 @@
 ---@field public minYaw Float
 CameraRotationData = {}
 
----@param fields? table
+---@param fields? CameraRotationData
 ---@return CameraRotationData
 function CameraRotationData.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public acceptNotInstant Bool
 AIbehaviorMountRequestConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMountRequestConditionDefinition
 ---@return AIbehaviorMountRequestConditionDefinition
 function AIbehaviorMountRequestConditionDefinition.new(fields) return end

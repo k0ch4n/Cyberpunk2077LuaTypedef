@@ -4,6 +4,6 @@
 ---@class gameNPCStatsListener: gamePuppetStatsListener
 gameNPCStatsListener = {}
 
----@param fields? table
+---@param fields? gameNPCStatsListener
 ---@return gameNPCStatsListener
 function gameNPCStatsListener.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public exitMarker scnMarker
 scnVehicleMoveOnSpline_Overrides = {}
 
----@param fields? table
+---@param fields? scnVehicleMoveOnSpline_Overrides
 ---@return scnVehicleMoveOnSpline_Overrides
 function scnVehicleMoveOnSpline_Overrides.new(fields) return end

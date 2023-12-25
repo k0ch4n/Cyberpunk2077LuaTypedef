@@ -6,6 +6,6 @@
 ---@field public commandClassNames CName[]
 CommandSignal = {}
 
----@param fields? table
+---@param fields? CommandSignal
 ---@return CommandSignal
 function CommandSignal.new(fields) return end

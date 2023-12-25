@@ -4,6 +4,6 @@
 ---@class ClearAllWeaponSlotsRequest: gamePlayerScriptableSystemRequest
 ClearAllWeaponSlotsRequest = {}
 
----@param fields? table
+---@param fields? ClearAllWeaponSlotsRequest
 ---@return ClearAllWeaponSlotsRequest
 function ClearAllWeaponSlotsRequest.new(fields) return end

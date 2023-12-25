@@ -5,6 +5,6 @@
 ---@field public body String
 toolsJiraCommentIssueBody = {}
 
----@param fields? table
+---@param fields? toolsJiraCommentIssueBody
 ---@return toolsJiraCommentIssueBody
 function toolsJiraCommentIssueBody.new(fields) return end

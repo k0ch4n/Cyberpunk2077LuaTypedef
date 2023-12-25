@@ -7,7 +7,7 @@
 ---@field private animProxy inkanimProxy
 MessageTooltip = {}
 
----@param fields? table
+---@param fields? MessageTooltip
 ---@return MessageTooltip
 function MessageTooltip.new(fields) return end
 

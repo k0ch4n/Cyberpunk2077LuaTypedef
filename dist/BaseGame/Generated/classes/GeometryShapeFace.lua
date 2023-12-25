@@ -5,6 +5,6 @@
 ---@field public indices Uint32[]
 GeometryShapeFace = {}
 
----@param fields? table
+---@param fields? GeometryShapeFace
 ---@return GeometryShapeFace
 function GeometryShapeFace.new(fields) return end

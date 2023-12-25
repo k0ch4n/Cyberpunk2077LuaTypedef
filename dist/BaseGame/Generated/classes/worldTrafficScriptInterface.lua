@@ -4,7 +4,7 @@
 ---@class worldTrafficScriptInterface: IScriptable
 worldTrafficScriptInterface = {}
 
----@param fields? table
+---@param fields? worldTrafficScriptInterface
 ---@return worldTrafficScriptInterface
 function worldTrafficScriptInterface.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private aimInTimeRemaining Float
 MeleeTargetingEvents = {}
 
----@param fields? table
+---@param fields? MeleeTargetingEvents
 ---@return MeleeTargetingEvents
 function MeleeTargetingEvents.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field protected FalseRecordName String
 TogglePower = {}
 
----@param fields? table
+---@param fields? TogglePower
 ---@return TogglePower
 function TogglePower.new(fields) return end
 

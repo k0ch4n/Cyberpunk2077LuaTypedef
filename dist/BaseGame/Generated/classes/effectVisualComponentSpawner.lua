@@ -5,6 +5,6 @@
 ---@field public componentName CName[]
 effectVisualComponentSpawner = {}
 
----@param fields? table
+---@param fields? effectVisualComponentSpawner
 ---@return effectVisualComponentSpawner
 function effectVisualComponentSpawner.new(fields) return end

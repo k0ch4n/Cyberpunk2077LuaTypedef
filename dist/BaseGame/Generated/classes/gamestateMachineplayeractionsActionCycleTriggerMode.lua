@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsActionCycleTriggerMode: gamestateMachineplayeractionsWeaponActionBase
 gamestateMachineplayeractionsActionCycleTriggerMode = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsActionCycleTriggerMode
 ---@return gamestateMachineplayeractionsActionCycleTriggerMode
 function gamestateMachineplayeractionsActionCycleTriggerMode.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public data gameSceneTierData
 gameGlobalTierSaveData = {}
 
----@param fields? table
+---@param fields? gameGlobalTierSaveData
 ---@return gameGlobalTierSaveData
 function gameGlobalTierSaveData.new(fields) return end

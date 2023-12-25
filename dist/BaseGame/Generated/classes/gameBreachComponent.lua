@@ -6,7 +6,7 @@
 ---@field public healthPercentageOverride Float
 gameBreachComponent = {}
 
----@param fields? table
+---@param fields? gameBreachComponent
 ---@return gameBreachComponent
 function gameBreachComponent.new(fields) return end
 

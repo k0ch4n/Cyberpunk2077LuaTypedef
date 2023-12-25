@@ -14,7 +14,7 @@
 ---@field private warningMessageCallbackId redCallbackObject
 LevelUpNotificationQueue = {}
 
----@param fields? table
+---@param fields? LevelUpNotificationQueue
 ---@return LevelUpNotificationQueue
 function LevelUpNotificationQueue.new(fields) return end
 

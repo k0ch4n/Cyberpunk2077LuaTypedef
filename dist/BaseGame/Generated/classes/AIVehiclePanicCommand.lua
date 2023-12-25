@@ -9,6 +9,6 @@
 ---@field public tryDriveAwayFromPlayer Bool
 AIVehiclePanicCommand = {}
 
----@param fields? table
+---@param fields? AIVehiclePanicCommand
 ---@return AIVehiclePanicCommand
 function AIVehiclePanicCommand.new(fields) return end

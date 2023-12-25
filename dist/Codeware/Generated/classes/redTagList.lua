@@ -4,7 +4,7 @@
 ---@class redTagList
 redTagList = {}
 
----@param fields? table
+---@param fields? redTagList
 ---@return redTagList
 function redTagList.new(fields) return end
 

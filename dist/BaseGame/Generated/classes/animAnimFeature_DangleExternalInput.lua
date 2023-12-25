@@ -5,6 +5,6 @@
 ---@field public fictitiousAccelerationWs Vector4
 animAnimFeature_DangleExternalInput = {}
 
----@param fields? table
+---@param fields? animAnimFeature_DangleExternalInput
 ---@return animAnimFeature_DangleExternalInput
 function animAnimFeature_DangleExternalInput.new(fields) return end

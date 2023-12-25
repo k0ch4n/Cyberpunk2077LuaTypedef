@@ -7,7 +7,7 @@
 ---@field private wiresConnections NewPerksWireConnection[]
 NewPerksPerkContainerLogicController = {}
 
----@param fields? table
+---@param fields? NewPerksPerkContainerLogicController
 ---@return NewPerksPerkContainerLogicController
 function NewPerksPerkContainerLogicController.new(fields) return end
 

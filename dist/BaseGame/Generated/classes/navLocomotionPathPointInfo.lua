@@ -6,6 +6,6 @@
 ---@field public userDataIndex Uint32
 navLocomotionPathPointInfo = {}
 
----@param fields? table
+---@param fields? navLocomotionPathPointInfo
 ---@return navLocomotionPathPointInfo
 function navLocomotionPathPointInfo.new(fields) return end

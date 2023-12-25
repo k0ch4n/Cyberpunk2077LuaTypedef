@@ -6,6 +6,6 @@
 ---@field public skipToEnd Bool
 questTransformAnimatorNode_Action_Skip = {}
 
----@param fields? table
+---@param fields? questTransformAnimatorNode_Action_Skip
 ---@return questTransformAnimatorNode_Action_Skip
 function questTransformAnimatorNode_Action_Skip.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public forceRagdoll Bool
 ForcedDeathEvent = {}
 
----@param fields? table
+---@param fields? ForcedDeathEvent
 ---@return ForcedDeathEvent
 function ForcedDeathEvent.new(fields) return end

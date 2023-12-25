@@ -5,7 +5,7 @@
 ---@field public signalName CName
 AIStackSignalCondition = {}
 
----@param fields? table
+---@param fields? AIStackSignalCondition
 ---@return AIStackSignalCondition
 function AIStackSignalCondition.new(fields) return end
 

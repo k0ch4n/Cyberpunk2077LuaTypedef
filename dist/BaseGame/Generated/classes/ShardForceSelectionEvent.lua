@@ -6,6 +6,6 @@
 ---@field public hash Int32
 ShardForceSelectionEvent = {}
 
----@param fields? table
+---@param fields? ShardForceSelectionEvent
 ---@return ShardForceSelectionEvent
 function ShardForceSelectionEvent.new(fields) return end

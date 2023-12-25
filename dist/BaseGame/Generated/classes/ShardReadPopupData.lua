@@ -9,6 +9,6 @@
 ---@field public imageId TweakDBID
 ShardReadPopupData = {}
 
----@param fields? table
+---@param fields? ShardReadPopupData
 ---@return ShardReadPopupData
 function ShardReadPopupData.new(fields) return end

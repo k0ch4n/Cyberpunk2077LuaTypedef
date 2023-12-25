@@ -8,6 +8,6 @@
 ---@field public isHostile Bool
 AIThreatInvalid = {}
 
----@param fields? table
+---@param fields? AIThreatInvalid
 ---@return AIThreatInvalid
 function AIThreatInvalid.new(fields) return end

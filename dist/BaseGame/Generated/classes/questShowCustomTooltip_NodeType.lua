@@ -9,6 +9,6 @@
 ---@field public queuePriority Int32
 questShowCustomTooltip_NodeType = {}
 
----@param fields? table
+---@param fields? questShowCustomTooltip_NodeType
 ---@return questShowCustomTooltip_NodeType
 function questShowCustomTooltip_NodeType.new(fields) return end

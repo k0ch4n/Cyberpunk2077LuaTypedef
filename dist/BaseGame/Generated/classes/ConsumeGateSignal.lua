@@ -6,6 +6,6 @@
 ---@field public signalToConsume GateSignal
 ConsumeGateSignal = {}
 
----@param fields? table
+---@param fields? ConsumeGateSignal
 ---@return ConsumeGateSignal
 function ConsumeGateSignal.new(fields) return end

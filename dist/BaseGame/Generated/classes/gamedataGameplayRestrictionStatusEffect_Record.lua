@@ -4,7 +4,7 @@
 ---@class gamedataGameplayRestrictionStatusEffect_Record: gamedataStatusEffect_Record
 gamedataGameplayRestrictionStatusEffect_Record = {}
 
----@param fields? table
+---@param fields? gamedataGameplayRestrictionStatusEffect_Record
 ---@return gamedataGameplayRestrictionStatusEffect_Record
 function gamedataGameplayRestrictionStatusEffect_Record.new(fields) return end
 

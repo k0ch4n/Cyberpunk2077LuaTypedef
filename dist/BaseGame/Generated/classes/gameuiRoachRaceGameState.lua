@@ -7,6 +7,6 @@
 ---@field public speedMultiplicator Float
 gameuiRoachRaceGameState = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceGameState
 ---@return gameuiRoachRaceGameState
 function gameuiRoachRaceGameState.new(fields) return end

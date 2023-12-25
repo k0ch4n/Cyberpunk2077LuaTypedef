@@ -4,7 +4,7 @@
 ---@class gameCrowdMemberComponent: entIComponent
 gameCrowdMemberComponent = {}
 
----@param fields? table
+---@param fields? gameCrowdMemberComponent
 ---@return gameCrowdMemberComponent
 function gameCrowdMemberComponent.new(fields) return end
 

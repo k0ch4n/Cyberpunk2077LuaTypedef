@@ -4,6 +4,6 @@
 ---@class IUpdatableSystem: IScriptable
 IUpdatableSystem = {}
 
----@param fields? table
+---@param fields? IUpdatableSystem
 ---@return IUpdatableSystem
 function IUpdatableSystem.new(fields) return end

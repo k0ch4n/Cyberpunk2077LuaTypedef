@@ -8,6 +8,6 @@
 ---@field public stopControllerName CName
 animCurvePathControllersSetup = {}
 
----@param fields? table
+---@param fields? animCurvePathControllersSetup
 ---@return animCurvePathControllersSetup
 function animCurvePathControllersSetup.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public entry gameJournalEntry
 OnVisitedJournalEntryEvent = {}
 
----@param fields? table
+---@param fields? OnVisitedJournalEntryEvent
 ---@return OnVisitedJournalEntryEvent
 function OnVisitedJournalEntryEvent.new(fields) return end

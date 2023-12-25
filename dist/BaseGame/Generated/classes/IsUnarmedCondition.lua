@@ -4,7 +4,7 @@
 ---@class IsUnarmedCondition: workIScriptedCondition
 IsUnarmedCondition = {}
 
----@param fields? table
+---@param fields? IsUnarmedCondition
 ---@return IsUnarmedCondition
 function IsUnarmedCondition.new(fields) return end
 

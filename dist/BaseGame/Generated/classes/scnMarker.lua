@@ -10,6 +10,6 @@
 ---@field public isMounted Bool
 scnMarker = {}
 
----@param fields? table
+---@param fields? scnMarker
 ---@return scnMarker
 function scnMarker.new(fields) return end

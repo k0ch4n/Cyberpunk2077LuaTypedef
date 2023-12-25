@@ -4,6 +4,6 @@
 ---@class gameuiPreGamePuppetAttachmentSlotsListener: gameIAttachmentSlotsListener
 gameuiPreGamePuppetAttachmentSlotsListener = {}
 
----@param fields? table
+---@param fields? gameuiPreGamePuppetAttachmentSlotsListener
 ---@return gameuiPreGamePuppetAttachmentSlotsListener
 function gameuiPreGamePuppetAttachmentSlotsListener.new(fields) return end

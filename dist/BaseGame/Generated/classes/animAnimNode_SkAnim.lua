@@ -21,6 +21,6 @@
 ---@field public applyInertializationOnAnimSetSwap Bool
 animAnimNode_SkAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkAnim
 ---@return animAnimNode_SkAnim
 function animAnimNode_SkAnim.new(fields) return end

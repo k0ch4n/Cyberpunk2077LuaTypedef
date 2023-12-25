@@ -7,7 +7,7 @@
 ---@field private delayFromStat gamedataStatType
 GameTimePrereq = {}
 
----@param fields? table
+---@param fields? GameTimePrereq
 ---@return GameTimePrereq
 function GameTimePrereq.new(fields) return end
 

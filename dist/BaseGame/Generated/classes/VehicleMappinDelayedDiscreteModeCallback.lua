@@ -5,7 +5,7 @@
 ---@field public vehicleMappinComponent VehicleMappinComponent
 VehicleMappinDelayedDiscreteModeCallback = {}
 
----@param fields? table
+---@param fields? VehicleMappinDelayedDiscreteModeCallback
 ---@return VehicleMappinDelayedDiscreteModeCallback
 function VehicleMappinDelayedDiscreteModeCallback.new(fields) return end
 

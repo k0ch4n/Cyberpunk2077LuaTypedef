@@ -13,7 +13,7 @@
 ---@field private minigameBB gameIBlackboard
 PlayerPuppetPS = {}
 
----@param fields? table
+---@param fields? PlayerPuppetPS
 ---@return PlayerPuppetPS
 function PlayerPuppetPS.new(fields) return end
 

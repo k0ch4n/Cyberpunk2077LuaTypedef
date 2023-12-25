@@ -4,7 +4,7 @@
 ---@class CombatGadgetStartDecisions: DefaultTransition
 CombatGadgetStartDecisions = {}
 
----@param fields? table
+---@param fields? CombatGadgetStartDecisions
 ---@return CombatGadgetStartDecisions
 function CombatGadgetStartDecisions.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public isPaused gamebbScriptID_Bool
 ElevatorDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? ElevatorDeviceBlackboardDef
 ---@return ElevatorDeviceBlackboardDef
 function ElevatorDeviceBlackboardDef.new(fields) return end

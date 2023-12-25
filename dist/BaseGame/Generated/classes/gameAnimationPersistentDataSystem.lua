@@ -4,6 +4,6 @@
 ---@class gameAnimationPersistentDataSystem: gameIGameSystem
 gameAnimationPersistentDataSystem = {}
 
----@param fields? table
+---@param fields? gameAnimationPersistentDataSystem
 ---@return gameAnimationPersistentDataSystem
 function gameAnimationPersistentDataSystem.new(fields) return end

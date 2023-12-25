@@ -8,6 +8,6 @@
 ---@field public enable Bool
 questCharacterManagerVisuals_GenitalsManager = {}
 
----@param fields? table
+---@param fields? questCharacterManagerVisuals_GenitalsManager
 ---@return questCharacterManagerVisuals_GenitalsManager
 function questCharacterManagerVisuals_GenitalsManager.new(fields) return end

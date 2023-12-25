@@ -7,6 +7,6 @@
 ---@field public shouldReveal Bool
 RevealInteractionWheel = {}
 
----@param fields? table
+---@param fields? RevealInteractionWheel
 ---@return RevealInteractionWheel
 function RevealInteractionWheel.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ReflectionType: IScriptable
 ReflectionType = {}
 
----@param fields? table
+---@param fields? ReflectionType
 ---@return ReflectionType
 function ReflectionType.new(fields) return end
 

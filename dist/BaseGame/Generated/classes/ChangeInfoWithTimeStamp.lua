@@ -6,6 +6,6 @@
 ---@field public Change Float
 ChangeInfoWithTimeStamp = {}
 
----@param fields? table
+---@param fields? ChangeInfoWithTimeStamp
 ---@return ChangeInfoWithTimeStamp
 function ChangeInfoWithTimeStamp.new(fields) return end

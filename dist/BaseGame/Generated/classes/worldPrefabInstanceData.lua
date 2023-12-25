@@ -5,6 +5,6 @@
 ---@field public buffer DataBuffer
 worldPrefabInstanceData = {}
 
----@param fields? table
+---@param fields? worldPrefabInstanceData
 ---@return worldPrefabInstanceData
 function worldPrefabInstanceData.new(fields) return end

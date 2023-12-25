@@ -11,6 +11,6 @@
 ---@field public legacyCharactersData Bool
 gameCrowdTemplateEntryPhase = {}
 
----@param fields? table
+---@param fields? gameCrowdTemplateEntryPhase
 ---@return gameCrowdTemplateEntryPhase
 function gameCrowdTemplateEntryPhase.new(fields) return end

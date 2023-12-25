@@ -19,6 +19,6 @@
 ---@field public returnConditions scnIReturnCondition[]
 scnInterruptionScenario = {}
 
----@param fields? table
+---@param fields? scnInterruptionScenario
 ---@return scnInterruptionScenario
 function scnInterruptionScenario.new(fields) return end

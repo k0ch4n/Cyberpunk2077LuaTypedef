@@ -6,6 +6,6 @@
 ---@field public actions gameinputActionDisplayData[]
 gameinputContextDisplayData = {}
 
----@param fields? table
+---@param fields? gameinputContextDisplayData
 ---@return gameinputContextDisplayData
 function gameinputContextDisplayData.new(fields) return end

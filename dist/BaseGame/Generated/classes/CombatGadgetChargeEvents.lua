@@ -6,7 +6,7 @@
 ---@field public itemSwitched Bool
 CombatGadgetChargeEvents = {}
 
----@param fields? table
+---@param fields? CombatGadgetChargeEvents
 ---@return CombatGadgetChargeEvents
 function CombatGadgetChargeEvents.new(fields) return end
 

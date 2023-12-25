@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSetTargetByTag_Record: gamedataAISubAction_Record
 gamedataAISubActionSetTargetByTag_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSetTargetByTag_Record
 ---@return gamedataAISubActionSetTargetByTag_Record
 function gamedataAISubActionSetTargetByTag_Record.new(fields) return end
 

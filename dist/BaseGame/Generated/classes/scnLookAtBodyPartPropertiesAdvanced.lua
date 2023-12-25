@@ -5,6 +5,6 @@
 ---@field public bodyPartName CName
 scnLookAtBodyPartPropertiesAdvanced = {}
 
----@param fields? table
+---@param fields? scnLookAtBodyPartPropertiesAdvanced
 ---@return scnLookAtBodyPartPropertiesAdvanced
 function scnLookAtBodyPartPropertiesAdvanced.new(fields) return end

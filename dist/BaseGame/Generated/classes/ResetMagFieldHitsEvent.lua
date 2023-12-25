@@ -4,6 +4,6 @@
 ---@class ResetMagFieldHitsEvent: redEvent
 ResetMagFieldHitsEvent = {}
 
----@param fields? table
+---@param fields? ResetMagFieldHitsEvent
 ---@return ResetMagFieldHitsEvent
 function ResetMagFieldHitsEvent.new(fields) return end

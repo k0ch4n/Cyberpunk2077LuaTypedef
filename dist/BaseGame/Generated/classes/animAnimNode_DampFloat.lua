@@ -14,6 +14,6 @@
 ---@field public decreaseSpeedNode animFloatLink
 animAnimNode_DampFloat = {}
 
----@param fields? table
+---@param fields? animAnimNode_DampFloat
 ---@return animAnimNode_DampFloat
 function animAnimNode_DampFloat.new(fields) return end

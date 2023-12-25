@@ -7,6 +7,6 @@
 ---@field public lootState gameLootSlotState
 gameLootSlot = {}
 
----@param fields? table
+---@param fields? gameLootSlot
 ---@return gameLootSlot
 function gameLootSlot.new(fields) return end

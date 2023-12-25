@@ -8,7 +8,7 @@
 ---@field private canThrowInitialized Bool
 CanTransitionToThrowDecisions = {}
 
----@param fields? table
+---@param fields? CanTransitionToThrowDecisions
 ---@return CanTransitionToThrowDecisions
 function CanTransitionToThrowDecisions.new(fields) return end
 

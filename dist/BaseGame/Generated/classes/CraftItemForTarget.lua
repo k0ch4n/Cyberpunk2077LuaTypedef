@@ -5,7 +5,7 @@
 ---@field public itemID TweakDBID
 CraftItemForTarget = {}
 
----@param fields? table
+---@param fields? CraftItemForTarget
 ---@return CraftItemForTarget
 function CraftItemForTarget.new(fields) return end
 

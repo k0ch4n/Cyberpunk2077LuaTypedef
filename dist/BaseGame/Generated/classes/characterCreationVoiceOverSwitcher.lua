@@ -17,7 +17,7 @@
 ---@field private inputDisabled Bool
 characterCreationVoiceOverSwitcher = {}
 
----@param fields? table
+---@param fields? characterCreationVoiceOverSwitcher
 ---@return characterCreationVoiceOverSwitcher
 function characterCreationVoiceOverSwitcher.new(fields) return end
 

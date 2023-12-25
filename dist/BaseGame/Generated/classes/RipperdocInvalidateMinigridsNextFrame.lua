@@ -4,6 +4,6 @@
 ---@class RipperdocInvalidateMinigridsNextFrame: redEvent
 RipperdocInvalidateMinigridsNextFrame = {}
 
----@param fields? table
+---@param fields? RipperdocInvalidateMinigridsNextFrame
 ---@return RipperdocInvalidateMinigridsNextFrame
 function RipperdocInvalidateMinigridsNextFrame.new(fields) return end

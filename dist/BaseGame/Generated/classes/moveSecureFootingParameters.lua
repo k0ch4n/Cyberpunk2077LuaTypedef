@@ -15,6 +15,6 @@
 ---@field public slopeCurveName CName
 moveSecureFootingParameters = {}
 
----@param fields? table
+---@param fields? moveSecureFootingParameters
 ---@return moveSecureFootingParameters
 function moveSecureFootingParameters.new(fields) return end

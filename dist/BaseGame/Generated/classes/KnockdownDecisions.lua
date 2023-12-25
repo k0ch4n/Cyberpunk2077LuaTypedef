@@ -4,7 +4,7 @@
 ---@class KnockdownDecisions: StatusEffectDecisions
 KnockdownDecisions = {}
 
----@param fields? table
+---@param fields? KnockdownDecisions
 ---@return KnockdownDecisions
 function KnockdownDecisions.new(fields) return end
 

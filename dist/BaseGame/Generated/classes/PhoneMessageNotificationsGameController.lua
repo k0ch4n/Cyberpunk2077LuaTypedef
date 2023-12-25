@@ -12,7 +12,7 @@
 ---@field private data JournalNotificationData
 PhoneMessageNotificationsGameController = {}
 
----@param fields? table
+---@param fields? PhoneMessageNotificationsGameController
 ---@return PhoneMessageNotificationsGameController
 function PhoneMessageNotificationsGameController.new(fields) return end
 

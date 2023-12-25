@@ -4,7 +4,7 @@
 ---@class RevealAccessPointPrereq: gameIScriptablePrereq
 RevealAccessPointPrereq = {}
 
----@param fields? table
+---@param fields? RevealAccessPointPrereq
 ---@return RevealAccessPointPrereq
 function RevealAccessPointPrereq.new(fields) return end
 

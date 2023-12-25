@@ -6,6 +6,6 @@
 ---@field public lockedOnByPlayer Bool
 gamesmartGunSmartGunLockEvent = {}
 
----@param fields? table
+---@param fields? gamesmartGunSmartGunLockEvent
 ---@return gamesmartGunSmartGunLockEvent
 function gamesmartGunSmartGunLockEvent.new(fields) return end

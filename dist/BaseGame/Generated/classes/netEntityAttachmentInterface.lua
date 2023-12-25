@@ -5,6 +5,6 @@
 ---@field public time netTime
 netEntityAttachmentInterface = {}
 
----@param fields? table
+---@param fields? netEntityAttachmentInterface
 ---@return netEntityAttachmentInterface
 function netEntityAttachmentInterface.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public isLocalInstance Bool
 CMeshMaterialEntry = {}
 
----@param fields? table
+---@param fields? CMeshMaterialEntry
 ---@return CMeshMaterialEntry
 function CMeshMaterialEntry.new(fields) return end

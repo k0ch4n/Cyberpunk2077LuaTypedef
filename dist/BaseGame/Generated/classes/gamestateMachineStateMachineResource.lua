@@ -4,6 +4,6 @@
 ---@class gamestateMachineStateMachineResource: graphGraphResource
 gamestateMachineStateMachineResource = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateMachineResource
 ---@return gamestateMachineStateMachineResource
 function gamestateMachineStateMachineResource.new(fields) return end

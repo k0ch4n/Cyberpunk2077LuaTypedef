@@ -5,6 +5,6 @@
 ---@field public destinationNode NodeRef
 gameMovingPlatformTeleportTo = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformTeleportTo
 ---@return gameMovingPlatformTeleportTo
 function gameMovingPlatformTeleportTo.new(fields) return end

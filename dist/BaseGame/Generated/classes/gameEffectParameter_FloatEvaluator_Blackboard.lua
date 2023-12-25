@@ -5,6 +5,6 @@
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectParameter_FloatEvaluator_Blackboard = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_FloatEvaluator_Blackboard
 ---@return gameEffectParameter_FloatEvaluator_Blackboard
 function gameEffectParameter_FloatEvaluator_Blackboard.new(fields) return end

@@ -14,6 +14,6 @@
 ---@field public ["Max angle from upright normal to revert orientation"] Float
 animSBehaviorConstraintNodeFloorIKLegsData = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKLegsData
 ---@return animSBehaviorConstraintNodeFloorIKLegsData
 function animSBehaviorConstraintNodeFloorIKLegsData.new(fields) return end

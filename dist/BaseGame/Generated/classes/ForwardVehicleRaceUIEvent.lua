@@ -7,6 +7,6 @@
 ---@field public maxCheckpoints Int32
 ForwardVehicleRaceUIEvent = {}
 
----@param fields? table
+---@param fields? ForwardVehicleRaceUIEvent
 ---@return ForwardVehicleRaceUIEvent
 function ForwardVehicleRaceUIEvent.new(fields) return end

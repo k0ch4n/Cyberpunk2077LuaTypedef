@@ -4,6 +4,6 @@
 ---@class inkListItemControllerCallback: inkCallbackBase
 inkListItemControllerCallback = {}
 
----@param fields? table
+---@param fields? inkListItemControllerCallback
 ---@return inkListItemControllerCallback
 function inkListItemControllerCallback.new(fields) return end

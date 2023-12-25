@@ -8,6 +8,6 @@
 ---@field public absolutePosition Vector2
 inkDrawArea = {}
 
----@param fields? table
+---@param fields? inkDrawArea
 ---@return inkDrawArea
 function inkDrawArea.new(fields) return end

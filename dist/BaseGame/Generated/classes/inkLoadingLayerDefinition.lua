@@ -8,6 +8,6 @@
 ---@field public fallbackLoadingScreenResource inkWidgetLibraryResource
 inkLoadingLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkLoadingLayerDefinition
 ---@return inkLoadingLayerDefinition
 function inkLoadingLayerDefinition.new(fields) return end

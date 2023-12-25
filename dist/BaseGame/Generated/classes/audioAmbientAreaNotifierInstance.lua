@@ -4,6 +4,6 @@
 ---@class audioAmbientAreaNotifierInstance: worldITriggerAreaNotiferInstance
 audioAmbientAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? audioAmbientAreaNotifierInstance
 ---@return audioAmbientAreaNotifierInstance
 function audioAmbientAreaNotifierInstance.new(fields) return end

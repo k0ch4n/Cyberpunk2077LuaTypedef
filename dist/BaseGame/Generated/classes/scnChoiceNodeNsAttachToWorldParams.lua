@@ -8,6 +8,6 @@
 ---@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToWorldParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsAttachToWorldParams
 ---@return scnChoiceNodeNsAttachToWorldParams
 function scnChoiceNodeNsAttachToWorldParams.new(fields) return end

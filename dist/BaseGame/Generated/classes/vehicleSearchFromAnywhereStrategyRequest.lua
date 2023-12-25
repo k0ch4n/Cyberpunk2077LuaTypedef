@@ -5,7 +5,7 @@
 ---@field public angleRange Vector2
 vehicleSearchFromAnywhereStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleSearchFromAnywhereStrategyRequest
 ---@return vehicleSearchFromAnywhereStrategyRequest
 function vehicleSearchFromAnywhereStrategyRequest.new(fields) return end
 

@@ -30,7 +30,7 @@
 ---@field private pressedOpacity Float
 inkSliderController = {}
 
----@param fields? table
+---@param fields? inkSliderController
 ---@return inkSliderController
 function inkSliderController.new(fields) return end
 

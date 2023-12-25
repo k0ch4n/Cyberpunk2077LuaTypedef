@@ -5,6 +5,6 @@
 ---@field public input animVectorLink
 animAnimNode_VectorJoin = {}
 
----@param fields? table
+---@param fields? animAnimNode_VectorJoin
 ---@return animAnimNode_VectorJoin
 function animAnimNode_VectorJoin.new(fields) return end

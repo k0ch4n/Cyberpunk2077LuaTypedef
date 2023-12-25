@@ -7,6 +7,6 @@
 ---@field public highlightTime Float
 CombatTarget = {}
 
----@param fields? table
+---@param fields? CombatTarget
 ---@return CombatTarget
 function CombatTarget.new(fields) return end

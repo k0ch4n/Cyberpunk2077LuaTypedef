@@ -10,6 +10,6 @@
 ---@field public patrolAction TweakDBID
 AIPatrolCommand = {}
 
----@param fields? table
+---@param fields? AIPatrolCommand
 ---@return AIPatrolCommand
 function AIPatrolCommand.new(fields) return end

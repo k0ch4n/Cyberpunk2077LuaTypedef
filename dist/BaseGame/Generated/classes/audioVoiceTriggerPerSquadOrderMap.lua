@@ -5,6 +5,6 @@
 ---@field public items audioVoiceTriggerPerSquadOrderMapItem[]
 audioVoiceTriggerPerSquadOrderMap = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerPerSquadOrderMap
 ---@return audioVoiceTriggerPerSquadOrderMap
 function audioVoiceTriggerPerSquadOrderMap.new(fields) return end

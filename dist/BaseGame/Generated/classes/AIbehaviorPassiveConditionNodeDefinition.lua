@@ -6,6 +6,6 @@
 ---@field public resultIfFailed AIbehaviorCompletionStatus
 AIbehaviorPassiveConditionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPassiveConditionNodeDefinition
 ---@return AIbehaviorPassiveConditionNodeDefinition
 function AIbehaviorPassiveConditionNodeDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class GenericNotificationBaseAction: IScriptable
 GenericNotificationBaseAction = {}
 
----@param fields? table
+---@param fields? GenericNotificationBaseAction
 ---@return GenericNotificationBaseAction
 function GenericNotificationBaseAction.new(fields) return end
 

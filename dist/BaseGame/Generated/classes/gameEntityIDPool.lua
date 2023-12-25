@@ -4,6 +4,6 @@
 ---@class gameEntityIDPool
 gameEntityIDPool = {}
 
----@param fields? table
+---@param fields? gameEntityIDPool
 ---@return gameEntityIDPool
 function gameEntityIDPool.new(fields) return end

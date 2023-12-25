@@ -5,6 +5,6 @@
 ---@field public removeCachedStatusEffect Bool
 CacheStatusEffectAnimEvent = {}
 
----@param fields? table
+---@param fields? CacheStatusEffectAnimEvent
 ---@return CacheStatusEffectAnimEvent
 function CacheStatusEffectAnimEvent.new(fields) return end

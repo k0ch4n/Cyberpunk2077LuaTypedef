@@ -5,7 +5,7 @@
 ---@field protected uiComponentBig IWorldWidgetComponent
 Jukebox = {}
 
----@param fields? table
+---@param fields? Jukebox
 ---@return Jukebox
 function Jukebox.new(fields) return end
 

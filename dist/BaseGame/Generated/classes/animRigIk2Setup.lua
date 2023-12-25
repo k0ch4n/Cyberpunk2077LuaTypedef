@@ -11,6 +11,6 @@
 ---@field public endBoneIdx Int16
 animRigIk2Setup = {}
 
----@param fields? table
+---@param fields? animRigIk2Setup
 ---@return animRigIk2Setup
 function animRigIk2Setup.new(fields) return end

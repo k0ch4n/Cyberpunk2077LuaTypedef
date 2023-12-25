@@ -4,7 +4,7 @@
 ---@class IntComparator: IScriptable
 IntComparator = {}
 
----@param fields? table
+---@param fields? IntComparator
 ---@return IntComparator
 function IntComparator.new(fields) return end
 

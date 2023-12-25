@@ -5,6 +5,6 @@
 ---@field public sults gameHitRepresentationResult[]
 gameHitRepresentationResults = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationResults
 ---@return gameHitRepresentationResults
 function gameHitRepresentationResults.new(fields) return end

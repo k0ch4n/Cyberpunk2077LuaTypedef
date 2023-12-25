@@ -5,7 +5,7 @@
 ---@field protected cleaningMachineSkillChecks EngDemoContainer
 CleaningMachineControllerPS = {}
 
----@param fields? table
+---@param fields? CleaningMachineControllerPS
 ---@return CleaningMachineControllerPS
 function CleaningMachineControllerPS.new(fields) return end
 

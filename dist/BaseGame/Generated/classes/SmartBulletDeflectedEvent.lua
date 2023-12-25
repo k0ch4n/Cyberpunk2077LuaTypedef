@@ -7,6 +7,6 @@
 ---@field public weapon gameObject
 SmartBulletDeflectedEvent = {}
 
----@param fields? table
+---@param fields? SmartBulletDeflectedEvent
 ---@return SmartBulletDeflectedEvent
 function SmartBulletDeflectedEvent.new(fields) return end

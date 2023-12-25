@@ -13,6 +13,6 @@
 ---@field public extraOffsetAtMaxDistance Vector3
 inkScreenProjectionData = {}
 
----@param fields? table
+---@param fields? inkScreenProjectionData
 ---@return inkScreenProjectionData
 function inkScreenProjectionData.new(fields) return end

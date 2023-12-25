@@ -6,6 +6,6 @@
 ---@field public positionOffset Vector3
 animPoleVectorDetails = {}
 
----@param fields? table
+---@param fields? animPoleVectorDetails
 ---@return animPoleVectorDetails
 function animPoleVectorDetails.new(fields) return end

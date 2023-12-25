@@ -4,7 +4,7 @@
 ---@class SoundSystemController: MasterController
 SoundSystemController = {}
 
----@param fields? table
+---@param fields? SoundSystemController
 ---@return SoundSystemController
 function SoundSystemController.new(fields) return end
 

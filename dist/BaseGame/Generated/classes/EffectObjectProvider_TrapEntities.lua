@@ -4,7 +4,7 @@
 ---@class EffectObjectProvider_TrapEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_TrapEntities = {}
 
----@param fields? table
+---@param fields? EffectObjectProvider_TrapEntities
 ---@return EffectObjectProvider_TrapEntities
 function EffectObjectProvider_TrapEntities.new(fields) return end
 

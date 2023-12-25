@@ -5,6 +5,6 @@
 ---@field public params questChangeVoicesetState_NodeTypeParams[]
 questChangeVoicesetState_NodeType = {}
 
----@param fields? table
+---@param fields? questChangeVoicesetState_NodeType
 ---@return questChangeVoicesetState_NodeType
 function questChangeVoicesetState_NodeType.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public content redResourceReferenceScriptToken
 SBannerWidgetPackage = {}
 
----@param fields? table
+---@param fields? SBannerWidgetPackage
 ---@return SBannerWidgetPackage
 function SBannerWidgetPackage.new(fields) return end

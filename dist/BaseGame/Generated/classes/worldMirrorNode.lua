@@ -6,6 +6,6 @@
 ---@field public cullingBoxOffset Vector3
 worldMirrorNode = {}
 
----@param fields? table
+---@param fields? worldMirrorNode
 ---@return worldMirrorNode
 function worldMirrorNode.new(fields) return end

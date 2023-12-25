@@ -6,7 +6,7 @@
 ---@field public stateMachineInitData EquipmentInitData
 UnequippedDecisions = {}
 
----@param fields? table
+---@param fields? UnequippedDecisions
 ---@return UnequippedDecisions
 function UnequippedDecisions.new(fields) return end
 

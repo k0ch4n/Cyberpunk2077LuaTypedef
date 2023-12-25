@@ -6,6 +6,6 @@
 ---@field public audioAttractSoundSettings worldAudioAttractAreaNodeSettings[]
 worldAudioAttractAreaNode = {}
 
----@param fields? table
+---@param fields? worldAudioAttractAreaNode
 ---@return worldAudioAttractAreaNode
 function worldAudioAttractAreaNode.new(fields) return end

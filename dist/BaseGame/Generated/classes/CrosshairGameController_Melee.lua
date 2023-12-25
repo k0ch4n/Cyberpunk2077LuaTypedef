@@ -18,7 +18,7 @@
 ---@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Melee = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Melee
 ---@return CrosshairGameController_Melee
 function CrosshairGameController_Melee.new(fields) return end
 

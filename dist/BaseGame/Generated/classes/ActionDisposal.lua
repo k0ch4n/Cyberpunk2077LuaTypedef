@@ -4,7 +4,7 @@
 ---@class ActionDisposal: ActionBool
 ActionDisposal = {}
 
----@param fields? table
+---@param fields? ActionDisposal
 ---@return ActionDisposal
 function ActionDisposal.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public speed Float
 AIRotateToCommand = {}
 
----@param fields? table
+---@param fields? AIRotateToCommand
 ---@return AIRotateToCommand
 function AIRotateToCommand.new(fields) return end

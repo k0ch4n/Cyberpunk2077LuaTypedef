@@ -5,6 +5,6 @@
 ---@field public globalTiers gameGlobalTierSaveData[]
 gameTierSaveData = {}
 
----@param fields? table
+---@param fields? gameTierSaveData
 ---@return gameTierSaveData
 function gameTierSaveData.new(fields) return end

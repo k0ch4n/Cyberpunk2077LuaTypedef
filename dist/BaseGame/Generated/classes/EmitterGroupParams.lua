@@ -7,6 +7,6 @@
 ---@field public opacityScale Float
 EmitterGroupParams = {}
 
----@param fields? table
+---@param fields? EmitterGroupParams
 ---@return EmitterGroupParams
 function EmitterGroupParams.new(fields) return end

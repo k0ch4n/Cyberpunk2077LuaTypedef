@@ -8,6 +8,6 @@
 ---@field public message String
 GenericMessageNotificationData = {}
 
----@param fields? table
+---@param fields? GenericMessageNotificationData
 ---@return GenericMessageNotificationData
 function GenericMessageNotificationData.new(fields) return end

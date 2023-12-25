@@ -5,6 +5,6 @@
 ---@field public asyncAnimSet animAnimSet
 scnGameplayAnimSetSRRef = {}
 
----@param fields? table
+---@param fields? scnGameplayAnimSetSRRef
 ---@return scnGameplayAnimSetSRRef
 function scnGameplayAnimSetSRRef.new(fields) return end

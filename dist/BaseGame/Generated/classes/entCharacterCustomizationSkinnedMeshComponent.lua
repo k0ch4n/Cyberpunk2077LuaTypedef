@@ -5,6 +5,6 @@
 ---@field public tags redTagList
 entCharacterCustomizationSkinnedMeshComponent = {}
 
----@param fields? table
+---@param fields? entCharacterCustomizationSkinnedMeshComponent
 ---@return entCharacterCustomizationSkinnedMeshComponent
 function entCharacterCustomizationSkinnedMeshComponent.new(fields) return end

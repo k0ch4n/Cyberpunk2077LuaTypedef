@@ -5,7 +5,7 @@
 ---@field public secondary Bool
 SendEquipWeaponCommand = {}
 
----@param fields? table
+---@param fields? SendEquipWeaponCommand
 ---@return SendEquipWeaponCommand
 function SendEquipWeaponCommand.new(fields) return end
 

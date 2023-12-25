@@ -4,6 +4,6 @@
 ---@class UnregisterAllNetworkLinksRequest: gameScriptableSystemRequest
 UnregisterAllNetworkLinksRequest = {}
 
----@param fields? table
+---@param fields? UnregisterAllNetworkLinksRequest
 ---@return UnregisterAllNetworkLinksRequest
 function UnregisterAllNetworkLinksRequest.new(fields) return end

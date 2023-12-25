@@ -16,6 +16,6 @@
 ---@field public facialIdleKey_FemaleAnimation CName
 animAnimNode_WorkspotHub = {}
 
----@param fields? table
+---@param fields? animAnimNode_WorkspotHub
 ---@return animAnimNode_WorkspotHub
 function animAnimNode_WorkspotHub.new(fields) return end

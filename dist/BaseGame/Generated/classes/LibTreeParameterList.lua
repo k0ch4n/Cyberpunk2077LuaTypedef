@@ -5,6 +5,6 @@
 ---@field public parameters LibTreeParameter[]
 LibTreeParameterList = {}
 
----@param fields? table
+---@param fields? LibTreeParameterList
 ---@return LibTreeParameterList
 function LibTreeParameterList.new(fields) return end

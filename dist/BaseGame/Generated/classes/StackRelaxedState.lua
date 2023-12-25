@@ -4,7 +4,7 @@
 ---@class StackRelaxedState: StackChangeHighLevelStateAbstract
 StackRelaxedState = {}
 
----@param fields? table
+---@param fields? StackRelaxedState
 ---@return StackRelaxedState
 function StackRelaxedState.new(fields) return end
 

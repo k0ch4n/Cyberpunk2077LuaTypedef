@@ -5,6 +5,6 @@
 ---@field public childrenNames CName[]
 audioCompoundEmitterMetadata = {}
 
----@param fields? table
+---@param fields? audioCompoundEmitterMetadata
 ---@return audioCompoundEmitterMetadata
 function audioCompoundEmitterMetadata.new(fields) return end

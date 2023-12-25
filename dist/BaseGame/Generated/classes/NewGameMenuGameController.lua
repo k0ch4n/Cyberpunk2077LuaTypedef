@@ -7,7 +7,7 @@
 ---@field private genders inkSelectorController
 NewGameMenuGameController = {}
 
----@param fields? table
+---@param fields? NewGameMenuGameController
 ---@return NewGameMenuGameController
 function NewGameMenuGameController.new(fields) return end
 

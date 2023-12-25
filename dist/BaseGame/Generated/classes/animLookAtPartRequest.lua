@@ -8,6 +8,6 @@
 ---@field public mode Int32
 animLookAtPartRequest = {}
 
----@param fields? table
+---@param fields? animLookAtPartRequest
 ---@return animLookAtPartRequest
 function animLookAtPartRequest.new(fields) return end

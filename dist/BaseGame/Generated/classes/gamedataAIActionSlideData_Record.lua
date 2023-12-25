@@ -4,7 +4,7 @@
 ---@class gamedataAIActionSlideData_Record: gamedataTweakDBRecord
 gamedataAIActionSlideData_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionSlideData_Record
 ---@return gamedataAIActionSlideData_Record
 function gamedataAIActionSlideData_Record.new(fields) return end
 

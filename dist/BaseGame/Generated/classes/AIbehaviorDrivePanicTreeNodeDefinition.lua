@@ -10,6 +10,6 @@
 ---@field public needDriver AIArgumentMapping
 AIbehaviorDrivePanicTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDrivePanicTreeNodeDefinition
 ---@return AIbehaviorDrivePanicTreeNodeDefinition
 function AIbehaviorDrivePanicTreeNodeDefinition.new(fields) return end

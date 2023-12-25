@@ -14,6 +14,6 @@
 ---@field public applyAfterLUT Bool
 STonemappingACESParams = {}
 
----@param fields? table
+---@param fields? STonemappingACESParams
 ---@return STonemappingACESParams
 function STonemappingACESParams.new(fields) return end

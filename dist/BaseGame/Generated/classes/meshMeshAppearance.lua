@@ -7,6 +7,6 @@
 ---@field public tags CName[]
 meshMeshAppearance = {}
 
----@param fields? table
+---@param fields? meshMeshAppearance
 ---@return meshMeshAppearance
 function meshMeshAppearance.new(fields) return end

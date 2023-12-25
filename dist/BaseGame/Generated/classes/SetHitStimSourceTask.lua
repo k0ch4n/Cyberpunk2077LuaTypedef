@@ -4,7 +4,7 @@
 ---@class SetHitStimSourceTask: StatusEffectTasks
 SetHitStimSourceTask = {}
 
----@param fields? table
+---@param fields? SetHitStimSourceTask
 ---@return SetHitStimSourceTask
 function SetHitStimSourceTask.new(fields) return end
 

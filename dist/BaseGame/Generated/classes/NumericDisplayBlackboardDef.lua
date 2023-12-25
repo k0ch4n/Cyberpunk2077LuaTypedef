@@ -6,6 +6,6 @@
 ---@field public Direction gamebbScriptID_Int32
 NumericDisplayBlackboardDef = {}
 
----@param fields? table
+---@param fields? NumericDisplayBlackboardDef
 ---@return NumericDisplayBlackboardDef
 function NumericDisplayBlackboardDef.new(fields) return end

@@ -17,6 +17,6 @@
 ---@field public size Vector2
 questHUDVideo_NodeType = {}
 
----@param fields? table
+---@param fields? questHUDVideo_NodeType
 ---@return questHUDVideo_NodeType
 function questHUDVideo_NodeType.new(fields) return end

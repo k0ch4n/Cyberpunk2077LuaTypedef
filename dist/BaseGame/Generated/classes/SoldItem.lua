@@ -7,6 +7,6 @@
 ---@field public piecePrice Int32
 SoldItem = {}
 
----@param fields? table
+---@param fields? SoldItem
 ---@return SoldItem
 function SoldItem.new(fields) return end

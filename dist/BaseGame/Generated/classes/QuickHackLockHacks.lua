@@ -5,7 +5,7 @@
 ---@field public IsLocked Bool
 QuickHackLockHacks = {}
 
----@param fields? table
+---@param fields? QuickHackLockHacks
 ---@return QuickHackLockHacks
 function QuickHackLockHacks.new(fields) return end
 

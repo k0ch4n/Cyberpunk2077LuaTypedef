@@ -6,6 +6,6 @@
 ---@field public state Int32
 VehEntityPlayerStateData = {}
 
----@param fields? table
+---@param fields? VehEntityPlayerStateData
 ---@return VehEntityPlayerStateData
 function VehEntityPlayerStateData.new(fields) return end

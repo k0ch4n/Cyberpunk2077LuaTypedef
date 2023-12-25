@@ -6,6 +6,6 @@
 ---@field public comparisonType EComparisonType
 scnCheckSpeakersDistanceInterruptConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckSpeakersDistanceInterruptConditionParams
 ---@return scnCheckSpeakersDistanceInterruptConditionParams
 function scnCheckSpeakersDistanceInterruptConditionParams.new(fields) return end

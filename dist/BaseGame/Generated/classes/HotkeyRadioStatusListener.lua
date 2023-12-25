@@ -5,7 +5,7 @@
 ---@field public radioWidgetController HotkeyConsumableWidgetController
 HotkeyRadioStatusListener = {}
 
----@param fields? table
+---@param fields? HotkeyRadioStatusListener
 ---@return HotkeyRadioStatusListener
 function HotkeyRadioStatusListener.new(fields) return end
 

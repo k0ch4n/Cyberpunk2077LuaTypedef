@@ -4,6 +4,6 @@
 ---@class OnReleaseWorkspotEvent: OnWorkspotAvailabilityEvent
 OnReleaseWorkspotEvent = {}
 
----@param fields? table
+---@param fields? OnReleaseWorkspotEvent
 ---@return OnReleaseWorkspotEvent
 function OnReleaseWorkspotEvent.new(fields) return end

@@ -30,6 +30,6 @@
 ---@field public ambientPaletteEntries audioAmbientPaletteEntry[]
 audioAmbientAreaSettings = {}
 
----@param fields? table
+---@param fields? audioAmbientAreaSettings
 ---@return audioAmbientAreaSettings
 function audioAmbientAreaSettings.new(fields) return end

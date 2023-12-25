@@ -5,7 +5,7 @@
 ---@field public parts gameinteractionsChoiceCaptionPart[]
 gameinteractionsChoiceCaption = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceCaption
 ---@return gameinteractionsChoiceCaption
 function gameinteractionsChoiceCaption.new(fields) return end
 

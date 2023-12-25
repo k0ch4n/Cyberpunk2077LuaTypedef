@@ -5,6 +5,6 @@
 ---@field public pulse Bool
 gameVisionModeUpdateVisuals = {}
 
----@param fields? table
+---@param fields? gameVisionModeUpdateVisuals
 ---@return gameVisionModeUpdateVisuals
 function gameVisionModeUpdateVisuals.new(fields) return end

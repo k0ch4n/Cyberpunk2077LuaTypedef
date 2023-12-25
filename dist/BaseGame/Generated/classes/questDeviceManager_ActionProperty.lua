@@ -8,6 +8,6 @@
 ---@field public max Float
 questDeviceManager_ActionProperty = {}
 
----@param fields? table
+---@param fields? questDeviceManager_ActionProperty
 ---@return questDeviceManager_ActionProperty
 function questDeviceManager_ActionProperty.new(fields) return end

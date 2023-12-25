@@ -6,6 +6,6 @@
 ---@field public videoSequence inkVideoSequenceEntry[]
 inkVideoSequenceController = {}
 
----@param fields? table
+---@param fields? inkVideoSequenceController
 ---@return inkVideoSequenceController
 function inkVideoSequenceController.new(fields) return end

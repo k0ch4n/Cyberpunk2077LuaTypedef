@@ -4,6 +4,6 @@
 ---@class CFrustum
 CFrustum = {}
 
----@param fields? table
+---@param fields? CFrustum
 ---@return CFrustum
 function CFrustum.new(fields) return end

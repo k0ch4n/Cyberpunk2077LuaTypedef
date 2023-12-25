@@ -4,7 +4,7 @@
 ---@class gameScriptedPrereqMountingListenerWrapper: IScriptable
 gameScriptedPrereqMountingListenerWrapper = {}
 
----@param fields? table
+---@param fields? gameScriptedPrereqMountingListenerWrapper
 ---@return gameScriptedPrereqMountingListenerWrapper
 function gameScriptedPrereqMountingListenerWrapper.new(fields) return end
 

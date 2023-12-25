@@ -6,6 +6,6 @@
 ---@field public itemStack gameSItemStack
 VendorGameItemData = {}
 
----@param fields? table
+---@param fields? VendorGameItemData
 ---@return VendorGameItemData
 function VendorGameItemData.new(fields) return end

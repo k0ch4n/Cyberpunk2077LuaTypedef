@@ -5,6 +5,6 @@
 ---@field public devices gameDeviceComponentPS[]
 ProcessDevicesEvent = {}
 
----@param fields? table
+---@param fields? ProcessDevicesEvent
 ---@return ProcessDevicesEvent
 function ProcessDevicesEvent.new(fields) return end

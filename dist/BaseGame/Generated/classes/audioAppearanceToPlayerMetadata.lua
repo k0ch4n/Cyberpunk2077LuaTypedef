@@ -7,6 +7,6 @@
 ---@field public priority audioFoleyItemPriority
 audioAppearanceToPlayerMetadata = {}
 
----@param fields? table
+---@param fields? audioAppearanceToPlayerMetadata
 ---@return audioAppearanceToPlayerMetadata
 function audioAppearanceToPlayerMetadata.new(fields) return end

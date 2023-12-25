@@ -5,6 +5,6 @@
 ---@field public rewardRecordId TweakDBID
 questGOGReward_ConditionType = {}
 
----@param fields? table
+---@param fields? questGOGReward_ConditionType
 ---@return questGOGReward_ConditionType
 function questGOGReward_ConditionType.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 DEBUG_DamageInputReceiver = {}
 
----@param fields? table
+---@param fields? DEBUG_DamageInputReceiver
 ---@return DEBUG_DamageInputReceiver
 function DEBUG_DamageInputReceiver.new(fields) return end
 

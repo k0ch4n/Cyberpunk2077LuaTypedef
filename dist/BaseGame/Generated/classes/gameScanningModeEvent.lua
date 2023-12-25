@@ -5,6 +5,6 @@
 ---@field public mode gameScanningMode
 gameScanningModeEvent = {}
 
----@param fields? table
+---@param fields? gameScanningModeEvent
 ---@return gameScanningModeEvent
 function gameScanningModeEvent.new(fields) return end

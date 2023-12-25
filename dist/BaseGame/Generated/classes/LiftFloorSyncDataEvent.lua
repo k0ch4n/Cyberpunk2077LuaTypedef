@@ -6,6 +6,6 @@
 ---@field public isInactive Bool
 LiftFloorSyncDataEvent = {}
 
----@param fields? table
+---@param fields? LiftFloorSyncDataEvent
 ---@return LiftFloorSyncDataEvent
 function LiftFloorSyncDataEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public tracks CName[]
 audioPlaylistMetadata = {}
 
----@param fields? table
+---@param fields? audioPlaylistMetadata
 ---@return audioPlaylistMetadata
 function audioPlaylistMetadata.new(fields) return end

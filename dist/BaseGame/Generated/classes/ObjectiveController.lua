@@ -16,7 +16,7 @@
 ---@field private ToTrack ABaseQuestObjectiveWrapper
 ObjectiveController = {}
 
----@param fields? table
+---@param fields? ObjectiveController
 ---@return ObjectiveController
 function ObjectiveController.new(fields) return end
 

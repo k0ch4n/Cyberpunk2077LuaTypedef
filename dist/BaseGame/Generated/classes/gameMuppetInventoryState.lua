@@ -6,6 +6,6 @@
 ---@field public activeSlot Int32
 gameMuppetInventoryState = {}
 
----@param fields? table
+---@param fields? gameMuppetInventoryState
 ---@return gameMuppetInventoryState
 function gameMuppetInventoryState.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public inputLink animPoseLink
 animAnimNode_WorkspotAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_WorkspotAnim
 ---@return animAnimNode_WorkspotAnim
 function animAnimNode_WorkspotAnim.new(fields) return end

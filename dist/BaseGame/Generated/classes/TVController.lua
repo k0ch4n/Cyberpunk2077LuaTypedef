@@ -4,7 +4,7 @@
 ---@class TVController: MediaDeviceController
 TVController = {}
 
----@param fields? table
+---@param fields? TVController
 ---@return TVController
 function TVController.new(fields) return end
 

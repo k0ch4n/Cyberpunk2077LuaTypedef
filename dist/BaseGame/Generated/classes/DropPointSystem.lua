@@ -8,7 +8,7 @@
 ---@field private dropPointSystemLocks DropPointSystemLock[]
 DropPointSystem = {}
 
----@param fields? table
+---@param fields? DropPointSystem
 ---@return DropPointSystem
 function DropPointSystem.new(fields) return end
 

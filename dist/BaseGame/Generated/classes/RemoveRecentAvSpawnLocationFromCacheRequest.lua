@@ -4,6 +4,6 @@
 ---@class RemoveRecentAvSpawnLocationFromCacheRequest: gameScriptableSystemRequest
 RemoveRecentAvSpawnLocationFromCacheRequest = {}
 
----@param fields? table
+---@param fields? RemoveRecentAvSpawnLocationFromCacheRequest
 ---@return RemoveRecentAvSpawnLocationFromCacheRequest
 function RemoveRecentAvSpawnLocationFromCacheRequest.new(fields) return end

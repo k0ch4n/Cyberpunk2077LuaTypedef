@@ -15,6 +15,6 @@
 ---@field public overrideVisualStyle Bool
 entTriggerVOEvent = {}
 
----@param fields? table
+---@param fields? entTriggerVOEvent
 ---@return entTriggerVOEvent
 function entTriggerVOEvent.new(fields) return end

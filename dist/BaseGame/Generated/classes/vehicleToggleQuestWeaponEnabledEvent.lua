@@ -4,6 +4,6 @@
 ---@class vehicleToggleQuestWeaponEnabledEvent: redEvent
 vehicleToggleQuestWeaponEnabledEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleQuestWeaponEnabledEvent
 ---@return vehicleToggleQuestWeaponEnabledEvent
 function vehicleToggleQuestWeaponEnabledEvent.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field protected forceAlerted Bool
 AIPatrolRole = {}
 
----@param fields? table
+---@param fields? AIPatrolRole
 ---@return AIPatrolRole
 function AIPatrolRole.new(fields) return end
 

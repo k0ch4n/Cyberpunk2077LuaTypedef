@@ -5,6 +5,6 @@
 ---@field public onName String
 attrIcon = {}
 
----@param fields? table
+---@param fields? attrIcon
 ---@return attrIcon
 function attrIcon.new(fields) return end

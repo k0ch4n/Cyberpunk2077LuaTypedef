@@ -5,7 +5,7 @@
 ---@field protected radioStation ERadioStationList
 PlayRadio = {}
 
----@param fields? table
+---@param fields? PlayRadio
 ---@return PlayRadio
 function PlayRadio.new(fields) return end
 

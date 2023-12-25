@@ -6,7 +6,7 @@
 ---@field public duration Float
 SetFriendlyEffector = {}
 
----@param fields? table
+---@param fields? SetFriendlyEffector
 ---@return SetFriendlyEffector
 function SetFriendlyEffector.new(fields) return end
 

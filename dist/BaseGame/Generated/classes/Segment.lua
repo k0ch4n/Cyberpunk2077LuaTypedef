@@ -6,6 +6,6 @@
 ---@field public direction Vector4
 Segment = {}
 
----@param fields? table
+---@param fields? Segment
 ---@return Segment
 function Segment.new(fields) return end

@@ -13,7 +13,7 @@
 ---@field private revengeActive Bool
 gameuiDamageIndicatorPartLogicController = {}
 
----@param fields? table
+---@param fields? gameuiDamageIndicatorPartLogicController
 ---@return gameuiDamageIndicatorPartLogicController
 function gameuiDamageIndicatorPartLogicController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public tree LibTreeDefTree
 AICTreeNodeIncludedTreeDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeIncludedTreeDefinition
 ---@return AICTreeNodeIncludedTreeDefinition
 function AICTreeNodeIncludedTreeDefinition.new(fields) return end

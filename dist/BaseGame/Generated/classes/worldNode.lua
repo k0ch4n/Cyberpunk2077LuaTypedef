@@ -6,6 +6,6 @@
 ---@field public isHostOnly Bool
 worldNode = {}
 
----@param fields? table
+---@param fields? worldNode
 ---@return worldNode
 function worldNode.new(fields) return end

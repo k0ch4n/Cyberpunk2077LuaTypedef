@@ -5,6 +5,6 @@
 ---@field private rectangle inkWidgetReference
 LootingScrollBlockController = {}
 
----@param fields? table
+---@param fields? LootingScrollBlockController
 ---@return LootingScrollBlockController
 function LootingScrollBlockController.new(fields) return end

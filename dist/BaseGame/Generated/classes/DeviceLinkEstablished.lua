@@ -5,6 +5,6 @@
 ---@field public deviceLinkPS DeviceLinkComponentPS
 DeviceLinkEstablished = {}
 
----@param fields? table
+---@param fields? DeviceLinkEstablished
 ---@return DeviceLinkEstablished
 function DeviceLinkEstablished.new(fields) return end

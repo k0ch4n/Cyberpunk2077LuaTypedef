@@ -5,6 +5,6 @@
 ---@field public entity entEntity
 gameMovingPlatformAttachEntity = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformAttachEntity
 ---@return gameMovingPlatformAttachEntity
 function gameMovingPlatformAttachEntity.new(fields) return end

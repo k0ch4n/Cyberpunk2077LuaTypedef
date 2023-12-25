@@ -5,6 +5,6 @@
 ---@field public gameState gameuiSideScrollerMiniGameStateAdvanced
 gameuiOnGameFinishEventAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiOnGameFinishEventAdvanced
 ---@return gameuiOnGameFinishEventAdvanced
 function gameuiOnGameFinishEventAdvanced.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameCooldownSystem: gameICooldownSystem
 gameCooldownSystem = {}
 
----@param fields? table
+---@param fields? gameCooldownSystem
 ---@return gameCooldownSystem
 function gameCooldownSystem.new(fields) return end

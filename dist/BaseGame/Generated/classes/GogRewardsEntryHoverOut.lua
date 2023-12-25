@@ -4,6 +4,6 @@
 ---@class GogRewardsEntryHoverOut: redEvent
 GogRewardsEntryHoverOut = {}
 
----@param fields? table
+---@param fields? GogRewardsEntryHoverOut
 ---@return GogRewardsEntryHoverOut
 function GogRewardsEntryHoverOut.new(fields) return end

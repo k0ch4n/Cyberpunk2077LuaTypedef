@@ -5,7 +5,7 @@
 ---@field protected isPrevOrNextBtnHoveredOver Bool
 CharacterCreationBodyMorphBaseOption = {}
 
----@param fields? table
+---@param fields? CharacterCreationBodyMorphBaseOption
 ---@return CharacterCreationBodyMorphBaseOption
 function CharacterCreationBodyMorphBaseOption.new(fields) return end
 

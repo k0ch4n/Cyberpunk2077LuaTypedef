@@ -21,7 +21,7 @@
 ---@field private factListenerID Uint32
 ZoneAlertNotificationQueue = {}
 
----@param fields? table
+---@param fields? ZoneAlertNotificationQueue
 ---@return ZoneAlertNotificationQueue
 function ZoneAlertNotificationQueue.new(fields) return end
 

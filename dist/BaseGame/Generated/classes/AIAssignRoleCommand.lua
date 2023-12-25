@@ -5,6 +5,6 @@
 ---@field public role AIRole
 AIAssignRoleCommand = {}
 
----@param fields? table
+---@param fields? AIAssignRoleCommand
 ---@return AIAssignRoleCommand
 function AIAssignRoleCommand.new(fields) return end

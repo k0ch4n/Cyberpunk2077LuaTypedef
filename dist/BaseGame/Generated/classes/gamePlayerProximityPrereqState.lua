@@ -4,6 +4,6 @@
 ---@class gamePlayerProximityPrereqState: gamePrereqState
 gamePlayerProximityPrereqState = {}
 
----@param fields? table
+---@param fields? gamePlayerProximityPrereqState
 ---@return gamePlayerProximityPrereqState
 function gamePlayerProximityPrereqState.new(fields) return end

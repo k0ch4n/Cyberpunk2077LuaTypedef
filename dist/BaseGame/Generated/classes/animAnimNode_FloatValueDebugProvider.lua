@@ -11,6 +11,6 @@
 ---@field public wrap Bool
 animAnimNode_FloatValueDebugProvider = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatValueDebugProvider
 ---@return animAnimNode_FloatValueDebugProvider
 function animAnimNode_FloatValueDebugProvider.new(fields) return end

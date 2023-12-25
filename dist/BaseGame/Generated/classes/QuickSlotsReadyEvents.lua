@@ -6,7 +6,7 @@
 ---@field public timePressed Float
 QuickSlotsReadyEvents = {}
 
----@param fields? table
+---@param fields? QuickSlotsReadyEvents
 ---@return QuickSlotsReadyEvents
 function QuickSlotsReadyEvents.new(fields) return end
 

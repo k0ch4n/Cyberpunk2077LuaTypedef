@@ -5,6 +5,6 @@
 ---@field public setName String
 LoadEquipmentSetRequest = {}
 
----@param fields? table
+---@param fields? LoadEquipmentSetRequest
 ---@return LoadEquipmentSetRequest
 function LoadEquipmentSetRequest.new(fields) return end

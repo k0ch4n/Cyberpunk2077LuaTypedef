@@ -19,6 +19,6 @@
 ---@field public score200ChanceCoeff Uint32
 gameuiPanzerEnemy = {}
 
----@param fields? table
+---@param fields? gameuiPanzerEnemy
 ---@return gameuiPanzerEnemy
 function gameuiPanzerEnemy.new(fields) return end

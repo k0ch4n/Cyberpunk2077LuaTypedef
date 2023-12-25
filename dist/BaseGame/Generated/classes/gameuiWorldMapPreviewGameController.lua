@@ -8,7 +8,7 @@
 ---@field public canvas inkImageWidgetReference
 gameuiWorldMapPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapPreviewGameController
 ---@return gameuiWorldMapPreviewGameController
 function gameuiWorldMapPreviewGameController.new(fields) return end
 

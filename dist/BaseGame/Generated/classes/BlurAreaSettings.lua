@@ -5,6 +5,6 @@
 ---@field public circularBlurRadius Float
 BlurAreaSettings = {}
 
----@param fields? table
+---@param fields? BlurAreaSettings
 ---@return BlurAreaSettings
 function BlurAreaSettings.new(fields) return end

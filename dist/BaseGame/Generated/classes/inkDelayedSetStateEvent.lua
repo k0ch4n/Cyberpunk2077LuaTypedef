@@ -4,6 +4,6 @@
 ---@class inkDelayedSetStateEvent: redEvent
 inkDelayedSetStateEvent = {}
 
----@param fields? table
+---@param fields? inkDelayedSetStateEvent
 ---@return inkDelayedSetStateEvent
 function inkDelayedSetStateEvent.new(fields) return end

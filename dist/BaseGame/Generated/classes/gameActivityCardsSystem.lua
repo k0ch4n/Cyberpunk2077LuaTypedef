@@ -4,6 +4,6 @@
 ---@class gameActivityCardsSystem: gameIActivityCardsSystem
 gameActivityCardsSystem = {}
 
----@param fields? table
+---@param fields? gameActivityCardsSystem
 ---@return gameActivityCardsSystem
 function gameActivityCardsSystem.new(fields) return end

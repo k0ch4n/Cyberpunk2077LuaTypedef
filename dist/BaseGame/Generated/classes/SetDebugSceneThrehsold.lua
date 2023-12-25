@@ -5,6 +5,6 @@
 ---@field public newThreshold Int32
 SetDebugSceneThrehsold = {}
 
----@param fields? table
+---@param fields? SetDebugSceneThrehsold
 ---@return SetDebugSceneThrehsold
 function SetDebugSceneThrehsold.new(fields) return end

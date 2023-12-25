@@ -4,6 +4,6 @@
 ---@class scnCheckAnyoneDistractedInterruptCondition: scnIInterruptCondition
 scnCheckAnyoneDistractedInterruptCondition = {}
 
----@param fields? table
+---@param fields? scnCheckAnyoneDistractedInterruptCondition
 ---@return scnCheckAnyoneDistractedInterruptCondition
 function scnCheckAnyoneDistractedInterruptCondition.new(fields) return end

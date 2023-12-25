@@ -133,7 +133,7 @@
 ---@field private hitReactionData animAnimFeature_HitReactionsData
 HitReactionComponent = {}
 
----@param fields? table
+---@param fields? HitReactionComponent
 ---@return HitReactionComponent
 function HitReactionComponent.new(fields) return end
 

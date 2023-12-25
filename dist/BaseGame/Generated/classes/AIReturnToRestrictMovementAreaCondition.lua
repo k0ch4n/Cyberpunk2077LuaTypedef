@@ -4,7 +4,7 @@
 ---@class AIReturnToRestrictMovementAreaCondition: RestrictedMovementAreaCondition
 AIReturnToRestrictMovementAreaCondition = {}
 
----@param fields? table
+---@param fields? AIReturnToRestrictMovementAreaCondition
 ---@return AIReturnToRestrictMovementAreaCondition
 function AIReturnToRestrictMovementAreaCondition.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class HoloTableControllerPS: MediaDeviceControllerPS
 HoloTableControllerPS = {}
 
----@param fields? table
+---@param fields? HoloTableControllerPS
 ---@return HoloTableControllerPS
 function HoloTableControllerPS.new(fields) return end
 

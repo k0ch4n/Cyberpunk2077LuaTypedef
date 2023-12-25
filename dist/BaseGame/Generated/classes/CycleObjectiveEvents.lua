@@ -4,7 +4,7 @@
 ---@class CycleObjectiveEvents: QuickSlotsTapEvents
 CycleObjectiveEvents = {}
 
----@param fields? table
+---@param fields? CycleObjectiveEvents
 ---@return CycleObjectiveEvents
 function CycleObjectiveEvents.new(fields) return end
 

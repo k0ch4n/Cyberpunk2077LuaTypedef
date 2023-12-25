@@ -5,6 +5,6 @@
 ---@field public name CName
 toolsVisualTagsDefinition = {}
 
----@param fields? table
+---@param fields? toolsVisualTagsDefinition
 ---@return toolsVisualTagsDefinition
 function toolsVisualTagsDefinition.new(fields) return end

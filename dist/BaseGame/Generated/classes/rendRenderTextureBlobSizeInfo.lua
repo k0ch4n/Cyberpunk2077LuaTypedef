@@ -7,6 +7,6 @@
 ---@field public depth Uint16
 rendRenderTextureBlobSizeInfo = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobSizeInfo
 ---@return rendRenderTextureBlobSizeInfo
 function rendRenderTextureBlobSizeInfo.new(fields) return end

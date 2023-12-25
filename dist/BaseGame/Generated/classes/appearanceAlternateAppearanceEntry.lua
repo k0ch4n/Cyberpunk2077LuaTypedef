@@ -7,6 +7,6 @@
 ---@field public AlternateAppearanceIndex Uint8
 appearanceAlternateAppearanceEntry = {}
 
----@param fields? table
+---@param fields? appearanceAlternateAppearanceEntry
 ---@return appearanceAlternateAppearanceEntry
 function appearanceAlternateAppearanceEntry.new(fields) return end

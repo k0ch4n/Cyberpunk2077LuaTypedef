@@ -5,6 +5,6 @@
 ---@field public exposed Bool
 DelaySetCoverNPCCurrentlyExposed = {}
 
----@param fields? table
+---@param fields? DelaySetCoverNPCCurrentlyExposed
 ---@return DelaySetCoverNPCCurrentlyExposed
 function DelaySetCoverNPCCurrentlyExposed.new(fields) return end

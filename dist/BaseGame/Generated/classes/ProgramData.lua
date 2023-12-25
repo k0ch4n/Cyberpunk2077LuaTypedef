@@ -11,6 +11,6 @@
 ---@field public wasCompleted Bool
 ProgramData = {}
 
----@param fields? table
+---@param fields? ProgramData
 ---@return ProgramData
 function ProgramData.new(fields) return end

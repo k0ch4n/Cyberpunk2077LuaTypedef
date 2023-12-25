@@ -5,6 +5,6 @@
 ---@field public newContext inputContextType
 ChangeActiveContextRequest = {}
 
----@param fields? table
+---@param fields? ChangeActiveContextRequest
 ---@return ChangeActiveContextRequest
 function ChangeActiveContextRequest.new(fields) return end

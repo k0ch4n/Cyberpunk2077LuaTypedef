@@ -4,6 +4,6 @@
 ---@class OnRelease: inkPointerEvent
 OnRelease = {}
 
----@param fields? table
+---@param fields? OnRelease
 ---@return OnRelease
 function OnRelease.new(fields) return end

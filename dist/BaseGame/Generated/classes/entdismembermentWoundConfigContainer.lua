@@ -6,6 +6,6 @@
 ---@field public Wounds entdismembermentWoundConfig[]
 entdismembermentWoundConfigContainer = {}
 
----@param fields? table
+---@param fields? entdismembermentWoundConfigContainer
 ---@return entdismembermentWoundConfigContainer
 function entdismembermentWoundConfigContainer.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class inkScrollController: inkWidgetLogicController
 inkScrollController = {}
 
----@param fields? table
+---@param fields? inkScrollController
 ---@return inkScrollController
 function inkScrollController.new(fields) return end
 

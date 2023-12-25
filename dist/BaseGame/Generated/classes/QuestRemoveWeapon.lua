@@ -4,7 +4,7 @@
 ---@class QuestRemoveWeapon: ActionBool
 QuestRemoveWeapon = {}
 
----@param fields? table
+---@param fields? QuestRemoveWeapon
 ---@return QuestRemoveWeapon
 function QuestRemoveWeapon.new(fields) return end
 

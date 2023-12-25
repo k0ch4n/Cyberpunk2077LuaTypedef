@@ -7,6 +7,6 @@
 ---@field public useEmitterDurationRange Bool
 EmitterDurationSettings = {}
 
----@param fields? table
+---@param fields? EmitterDurationSettings
 ---@return EmitterDurationSettings
 function EmitterDurationSettings.new(fields) return end

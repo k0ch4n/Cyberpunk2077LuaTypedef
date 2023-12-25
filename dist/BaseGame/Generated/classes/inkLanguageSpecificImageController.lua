@@ -7,6 +7,6 @@
 ---@field public fallbackPartName CName
 inkLanguageSpecificImageController = {}
 
----@param fields? table
+---@param fields? inkLanguageSpecificImageController
 ---@return inkLanguageSpecificImageController
 function inkLanguageSpecificImageController.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected audioLightIsGreen Bool
 CrossingLight = {}
 
----@param fields? table
+---@param fields? CrossingLight
 ---@return CrossingLight
 function CrossingLight.new(fields) return end
 

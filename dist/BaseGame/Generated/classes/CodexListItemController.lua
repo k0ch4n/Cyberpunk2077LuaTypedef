@@ -7,7 +7,7 @@
 ---@field protected stateMapper ListItemStateMapper
 CodexListItemController = {}
 
----@param fields? table
+---@param fields? CodexListItemController
 ---@return CodexListItemController
 function CodexListItemController.new(fields) return end
 

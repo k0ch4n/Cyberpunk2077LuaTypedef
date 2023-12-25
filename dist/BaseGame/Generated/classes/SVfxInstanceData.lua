@@ -6,6 +6,6 @@
 ---@field public id CName
 SVfxInstanceData = {}
 
----@param fields? table
+---@param fields? SVfxInstanceData
 ---@return SVfxInstanceData
 function SVfxInstanceData.new(fields) return end

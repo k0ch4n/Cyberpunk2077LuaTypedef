@@ -4,7 +4,7 @@
 ---@class movePoliciesComponent: entIComponent
 movePoliciesComponent = {}
 
----@param fields? table
+---@param fields? movePoliciesComponent
 ---@return movePoliciesComponent
 function movePoliciesComponent.new(fields) return end
 

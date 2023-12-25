@@ -11,7 +11,7 @@
 ---@field private animationProxy inkanimProxy
 CarRadioGameController = {}
 
----@param fields? table
+---@param fields? CarRadioGameController
 ---@return CarRadioGameController
 function CarRadioGameController.new(fields) return end
 

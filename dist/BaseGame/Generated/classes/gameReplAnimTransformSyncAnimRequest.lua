@@ -4,6 +4,6 @@
 ---@class gameReplAnimTransformSyncAnimRequest: gameReplAnimTransformRequestBase
 gameReplAnimTransformSyncAnimRequest = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformSyncAnimRequest
 ---@return gameReplAnimTransformSyncAnimRequest
 function gameReplAnimTransformSyncAnimRequest.new(fields) return end

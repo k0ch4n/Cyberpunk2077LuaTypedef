@@ -6,6 +6,6 @@
 ---@field public radius Float
 gameinfluenceObstacleAgent = {}
 
----@param fields? table
+---@param fields? gameinfluenceObstacleAgent
 ---@return gameinfluenceObstacleAgent
 function gameinfluenceObstacleAgent.new(fields) return end

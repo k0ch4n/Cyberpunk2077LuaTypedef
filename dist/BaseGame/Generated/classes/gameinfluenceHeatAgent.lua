@@ -7,6 +7,6 @@
 ---@field public heatValue Float
 gameinfluenceHeatAgent = {}
 
----@param fields? table
+---@param fields? gameinfluenceHeatAgent
 ---@return gameinfluenceHeatAgent
 function gameinfluenceHeatAgent.new(fields) return end

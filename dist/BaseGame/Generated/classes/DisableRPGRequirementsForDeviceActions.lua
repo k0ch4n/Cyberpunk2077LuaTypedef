@@ -6,7 +6,7 @@
 ---@field public disable Bool
 DisableRPGRequirementsForDeviceActions = {}
 
----@param fields? table
+---@param fields? DisableRPGRequirementsForDeviceActions
 ---@return DisableRPGRequirementsForDeviceActions
 function DisableRPGRequirementsForDeviceActions.new(fields) return end
 

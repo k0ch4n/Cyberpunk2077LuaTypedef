@@ -4,7 +4,7 @@
 ---@class InitiateTrafficLightChange: ActionBool
 InitiateTrafficLightChange = {}
 
----@param fields? table
+---@param fields? InitiateTrafficLightChange
 ---@return InitiateTrafficLightChange
 function InitiateTrafficLightChange.new(fields) return end
 

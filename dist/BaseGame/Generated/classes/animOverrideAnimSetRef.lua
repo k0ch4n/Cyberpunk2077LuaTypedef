@@ -6,6 +6,6 @@
 ---@field public variableName CName
 animOverrideAnimSetRef = {}
 
----@param fields? table
+---@param fields? animOverrideAnimSetRef
 ---@return animOverrideAnimSetRef
 function animOverrideAnimSetRef.new(fields) return end

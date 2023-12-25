@@ -4,7 +4,7 @@
 ---@class gamedataRoachRaceObstacleTexturePartPair_Record: gamedataTweakDBRecord
 gamedataRoachRaceObstacleTexturePartPair_Record = {}
 
----@param fields? table
+---@param fields? gamedataRoachRaceObstacleTexturePartPair_Record
 ---@return gamedataRoachRaceObstacleTexturePartPair_Record
 function gamedataRoachRaceObstacleTexturePartPair_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public EnemyNeutralized gamebbScriptID_Variant
 UI_CrosshairDef = {}
 
----@param fields? table
+---@param fields? UI_CrosshairDef
 ---@return UI_CrosshairDef
 function UI_CrosshairDef.new(fields) return end
 

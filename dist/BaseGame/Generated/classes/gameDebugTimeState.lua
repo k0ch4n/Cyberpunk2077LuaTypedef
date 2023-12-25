@@ -4,6 +4,6 @@
 ---@class gameDebugTimeState: gameITimeState
 gameDebugTimeState = {}
 
----@param fields? table
+---@param fields? gameDebugTimeState
 ---@return gameDebugTimeState
 function gameDebugTimeState.new(fields) return end

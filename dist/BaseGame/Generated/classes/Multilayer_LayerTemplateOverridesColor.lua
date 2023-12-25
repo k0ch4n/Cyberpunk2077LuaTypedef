@@ -6,6 +6,6 @@
 ---@field public v Float[]
 Multilayer_LayerTemplateOverridesColor = {}
 
----@param fields? table
+---@param fields? Multilayer_LayerTemplateOverridesColor
 ---@return Multilayer_LayerTemplateOverridesColor
 function Multilayer_LayerTemplateOverridesColor.new(fields) return end

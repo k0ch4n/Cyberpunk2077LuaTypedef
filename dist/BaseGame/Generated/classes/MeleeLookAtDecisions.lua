@@ -4,6 +4,6 @@
 ---@class MeleeLookAtDecisions: LookAtPresetMeleeBaseDecisions
 MeleeLookAtDecisions = {}
 
----@param fields? table
+---@param fields? MeleeLookAtDecisions
 ---@return MeleeLookAtDecisions
 function MeleeLookAtDecisions.new(fields) return end

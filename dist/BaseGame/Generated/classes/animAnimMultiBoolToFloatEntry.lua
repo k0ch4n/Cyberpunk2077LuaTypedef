@@ -6,6 +6,6 @@
 ---@field public name CName
 animAnimMultiBoolToFloatEntry = {}
 
----@param fields? table
+---@param fields? animAnimMultiBoolToFloatEntry
 ---@return animAnimMultiBoolToFloatEntry
 function animAnimMultiBoolToFloatEntry.new(fields) return end

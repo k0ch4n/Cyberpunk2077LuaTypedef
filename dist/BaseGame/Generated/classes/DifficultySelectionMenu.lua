@@ -20,7 +20,7 @@
 ---@field private isInputLocked Bool
 DifficultySelectionMenu = {}
 
----@param fields? table
+---@param fields? DifficultySelectionMenu
 ---@return DifficultySelectionMenu
 function DifficultySelectionMenu.new(fields) return end
 

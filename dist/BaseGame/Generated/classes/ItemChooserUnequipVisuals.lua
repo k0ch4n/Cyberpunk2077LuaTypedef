@@ -5,6 +5,6 @@
 ---@field public itemData gameInventoryItemData
 ItemChooserUnequipVisuals = {}
 
----@param fields? table
+---@param fields? ItemChooserUnequipVisuals
 ---@return ItemChooserUnequipVisuals
 function ItemChooserUnequipVisuals.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public vpeIndex Uint32
 scnlocLocStoreEmbeddedVariantDescriptorEntry = {}
 
----@param fields? table
+---@param fields? scnlocLocStoreEmbeddedVariantDescriptorEntry
 ---@return scnlocLocStoreEmbeddedVariantDescriptorEntry
 function scnlocLocStoreEmbeddedVariantDescriptorEntry.new(fields) return end

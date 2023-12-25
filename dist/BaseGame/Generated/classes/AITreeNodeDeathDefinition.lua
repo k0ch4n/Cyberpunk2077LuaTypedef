@@ -4,6 +4,6 @@
 ---@class AITreeNodeDeathDefinition: AICTreeNodeActionDefinition
 AITreeNodeDeathDefinition = {}
 
----@param fields? table
+---@param fields? AITreeNodeDeathDefinition
 ---@return AITreeNodeDeathDefinition
 function AITreeNodeDeathDefinition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private lasers handle[]
 LaserDetector = {}
 
----@param fields? table
+---@param fields? LaserDetector
 ---@return LaserDetector
 function LaserDetector.new(fields) return end
 

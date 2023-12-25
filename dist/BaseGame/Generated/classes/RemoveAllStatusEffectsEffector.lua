@@ -4,7 +4,7 @@
 ---@class RemoveAllStatusEffectsEffector: gameEffector
 RemoveAllStatusEffectsEffector = {}
 
----@param fields? table
+---@param fields? RemoveAllStatusEffectsEffector
 ---@return RemoveAllStatusEffectsEffector
 function RemoveAllStatusEffectsEffector.new(fields) return end
 

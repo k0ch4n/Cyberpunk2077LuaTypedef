@@ -4,7 +4,7 @@
 ---@class NoAmmoEvents: WeaponEventsTransition
 NoAmmoEvents = {}
 
----@param fields? table
+---@param fields? NoAmmoEvents
 ---@return NoAmmoEvents
 function NoAmmoEvents.new(fields) return end
 

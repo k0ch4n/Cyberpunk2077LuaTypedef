@@ -7,6 +7,6 @@
 ---@field public clearedAreaAngle AIArgumentMapping
 AIbehaviorClearSearchInfluenceTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorClearSearchInfluenceTaskDefinition
 ---@return AIbehaviorClearSearchInfluenceTaskDefinition
 function AIbehaviorClearSearchInfluenceTaskDefinition.new(fields) return end

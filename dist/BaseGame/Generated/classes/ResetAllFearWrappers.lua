@@ -4,7 +4,7 @@
 ---@class ResetAllFearWrappers: AIbehaviortaskScript
 ResetAllFearWrappers = {}
 
----@param fields? table
+---@param fields? ResetAllFearWrappers
 ---@return ResetAllFearWrappers
 function ResetAllFearWrappers.new(fields) return end
 

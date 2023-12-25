@@ -7,6 +7,6 @@
 ---@field public master Bool
 SActionTypeForward = {}
 
----@param fields? table
+---@param fields? SActionTypeForward
 ---@return SActionTypeForward
 function SActionTypeForward.new(fields) return end

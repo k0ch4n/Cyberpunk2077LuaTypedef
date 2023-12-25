@@ -4,7 +4,7 @@
 ---@class gamedataComputerUIStyle_Record: gamedataTweakDBRecord
 gamedataComputerUIStyle_Record = {}
 
----@param fields? table
+---@param fields? gamedataComputerUIStyle_Record
 ---@return gamedataComputerUIStyle_Record
 function gamedataComputerUIStyle_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public descriptions String[]
 redResourceListResource = {}
 
----@param fields? table
+---@param fields? redResourceListResource
 ---@return redResourceListResource
 function redResourceListResource.new(fields) return end

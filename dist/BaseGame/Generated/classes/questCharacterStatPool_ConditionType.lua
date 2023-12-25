@@ -9,6 +9,6 @@
 ---@field public statPoolType gamedataStatPoolType
 questCharacterStatPool_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterStatPool_ConditionType
 ---@return questCharacterStatPool_ConditionType
 function questCharacterStatPool_ConditionType.new(fields) return end

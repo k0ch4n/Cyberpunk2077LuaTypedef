@@ -4,7 +4,7 @@
 ---@class CrowdWalkAwayAfterCombat: AIbehaviortaskScript
 CrowdWalkAwayAfterCombat = {}
 
----@param fields? table
+---@param fields? CrowdWalkAwayAfterCombat
 ---@return CrowdWalkAwayAfterCombat
 function CrowdWalkAwayAfterCombat.new(fields) return end
 

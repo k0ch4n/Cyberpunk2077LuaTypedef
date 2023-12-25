@@ -4,7 +4,7 @@
 ---@class ClearAllDevPointsRequest: gamePlayerScriptableSystemRequest
 ClearAllDevPointsRequest = {}
 
----@param fields? table
+---@param fields? ClearAllDevPointsRequest
 ---@return ClearAllDevPointsRequest
 function ClearAllDevPointsRequest.new(fields) return end
 

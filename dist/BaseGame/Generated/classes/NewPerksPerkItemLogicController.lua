@@ -18,7 +18,7 @@
 ---@field private isRelic Bool
 NewPerksPerkItemLogicController = {}
 
----@param fields? table
+---@param fields? NewPerksPerkItemLogicController
 ---@return NewPerksPerkItemLogicController
 function NewPerksPerkItemLogicController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AISetCombatPresetTask = {}
 
----@param fields? table
+---@param fields? AISetCombatPresetTask
 ---@return AISetCombatPresetTask
 function AISetCombatPresetTask.new(fields) return end
 

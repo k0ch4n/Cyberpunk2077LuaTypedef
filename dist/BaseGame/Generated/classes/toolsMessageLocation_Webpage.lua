@@ -6,6 +6,6 @@
 ---@field public text String
 toolsMessageLocation_Webpage = {}
 
----@param fields? table
+---@param fields? toolsMessageLocation_Webpage
 ---@return toolsMessageLocation_Webpage
 function toolsMessageLocation_Webpage.new(fields) return end

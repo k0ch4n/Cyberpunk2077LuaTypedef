@@ -5,6 +5,6 @@
 ---@field public key CName
 entAnimInputSetter = {}
 
----@param fields? table
+---@param fields? entAnimInputSetter
 ---@return entAnimInputSetter
 function entAnimInputSetter.new(fields) return end

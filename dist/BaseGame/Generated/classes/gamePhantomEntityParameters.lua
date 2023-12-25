@@ -10,6 +10,6 @@
 ---@field public blendableAppearanceMatches gamePhantomEntityParametersBlendableAppearanceMatch[]
 gamePhantomEntityParameters = {}
 
----@param fields? table
+---@param fields? gamePhantomEntityParameters
 ---@return gamePhantomEntityParameters
 function gamePhantomEntityParameters.new(fields) return end

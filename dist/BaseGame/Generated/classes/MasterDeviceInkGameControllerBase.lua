@@ -8,7 +8,7 @@
 ---@field private keypadController KeypadDeviceController
 MasterDeviceInkGameControllerBase = {}
 
----@param fields? table
+---@param fields? MasterDeviceInkGameControllerBase
 ---@return MasterDeviceInkGameControllerBase
 function MasterDeviceInkGameControllerBase.new(fields) return end
 

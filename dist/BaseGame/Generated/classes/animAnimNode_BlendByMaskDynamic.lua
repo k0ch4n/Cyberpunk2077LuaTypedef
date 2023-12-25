@@ -10,6 +10,6 @@
 ---@field public syncMethod animISyncMethod
 animAnimNode_BlendByMaskDynamic = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendByMaskDynamic
 ---@return animAnimNode_BlendByMaskDynamic
 function animAnimNode_BlendByMaskDynamic.new(fields) return end

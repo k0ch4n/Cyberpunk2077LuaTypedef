@@ -8,6 +8,6 @@
 ---@field public placement gameuiETooltipPlacement
 MainMenuTooltipData = {}
 
----@param fields? table
+---@param fields? MainMenuTooltipData
 ---@return MainMenuTooltipData
 function MainMenuTooltipData.new(fields) return end

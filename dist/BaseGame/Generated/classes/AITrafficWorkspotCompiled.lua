@@ -4,6 +4,6 @@
 ---@class AITrafficWorkspotCompiled: worldTrafficSpotCompiled
 AITrafficWorkspotCompiled = {}
 
----@param fields? table
+---@param fields? AITrafficWorkspotCompiled
 ---@return AITrafficWorkspotCompiled
 function AITrafficWorkspotCompiled.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class UiPhoneContextDecisions: InputContextTransitionDecisions
 UiPhoneContextDecisions = {}
 
----@param fields? table
+---@param fields? UiPhoneContextDecisions
 ---@return UiPhoneContextDecisions
 function UiPhoneContextDecisions.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public scale Float
 CParticleModificatorDrag = {}
 
----@param fields? table
+---@param fields? CParticleModificatorDrag
 ---@return CParticleModificatorDrag
 function CParticleModificatorDrag.new(fields) return end

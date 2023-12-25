@@ -7,6 +7,6 @@
 ---@field public value Bool
 questUIElement_ConditionType = {}
 
----@param fields? table
+---@param fields? questUIElement_ConditionType
 ---@return questUIElement_ConditionType
 function questUIElement_ConditionType.new(fields) return end

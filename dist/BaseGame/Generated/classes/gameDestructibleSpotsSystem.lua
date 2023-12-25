@@ -4,7 +4,7 @@
 ---@class gameDestructibleSpotsSystem: worldIDestructibleSpotsSystem
 gameDestructibleSpotsSystem = {}
 
----@param fields? table
+---@param fields? gameDestructibleSpotsSystem
 ---@return gameDestructibleSpotsSystem
 function gameDestructibleSpotsSystem.new(fields) return end
 

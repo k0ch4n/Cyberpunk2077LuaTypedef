@@ -5,6 +5,6 @@
 ---@field public bone animTransformIndex
 animSApplyRotationIKSolverData = {}
 
----@param fields? table
+---@param fields? animSApplyRotationIKSolverData
 ---@return animSApplyRotationIKSolverData
 function animSApplyRotationIKSolverData.new(fields) return end

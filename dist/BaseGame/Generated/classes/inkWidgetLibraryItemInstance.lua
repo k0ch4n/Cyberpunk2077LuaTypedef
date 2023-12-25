@@ -7,6 +7,6 @@
 ---@field public rootResolution inkETextureResolution
 inkWidgetLibraryItemInstance = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryItemInstance
 ---@return inkWidgetLibraryItemInstance
 function inkWidgetLibraryItemInstance.new(fields) return end

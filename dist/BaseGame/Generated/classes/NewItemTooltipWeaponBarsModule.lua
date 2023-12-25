@@ -11,7 +11,7 @@
 ---@field private disableSeparators Bool
 NewItemTooltipWeaponBarsModule = {}
 
----@param fields? table
+---@param fields? NewItemTooltipWeaponBarsModule
 ---@return NewItemTooltipWeaponBarsModule
 function NewItemTooltipWeaponBarsModule.new(fields) return end
 

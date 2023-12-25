@@ -11,7 +11,7 @@
 ---@field private animProxy inkanimProxy
 MaterialTooltip = {}
 
----@param fields? table
+---@param fields? MaterialTooltip
 ---@return MaterialTooltip
 function MaterialTooltip.new(fields) return end
 

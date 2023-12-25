@@ -4,7 +4,7 @@
 ---@class CandleDevice: InteractiveDevice
 CandleDevice = {}
 
----@param fields? table
+---@param fields? CandleDevice
 ---@return CandleDevice
 function CandleDevice.new(fields) return end
 

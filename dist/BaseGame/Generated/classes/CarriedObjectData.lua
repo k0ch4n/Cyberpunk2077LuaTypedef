@@ -5,6 +5,6 @@
 ---@field public instant Bool
 CarriedObjectData = {}
 
----@param fields? table
+---@param fields? CarriedObjectData
 ---@return CarriedObjectData
 function CarriedObjectData.new(fields) return end

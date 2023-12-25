@@ -4,7 +4,7 @@
 ---@class userSettingsVarListener: IScriptable
 userSettingsVarListener = {}
 
----@param fields? table
+---@param fields? userSettingsVarListener
 ---@return userSettingsVarListener
 function userSettingsVarListener.new(fields) return end
 

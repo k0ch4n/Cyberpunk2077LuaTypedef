@@ -5,7 +5,7 @@
 ---@field protected hitOperations SHitOperationData[]
 HitOperations = {}
 
----@param fields? table
+---@param fields? HitOperations
 ---@return HitOperations
 function HitOperations.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public cameraDeadBodyData CameraDeadBodyInternalData[]
 CameraDeadBodySessionDataModule = {}
 
----@param fields? table
+---@param fields? CameraDeadBodySessionDataModule
 ---@return CameraDeadBodySessionDataModule
 function CameraDeadBodySessionDataModule.new(fields) return end
 

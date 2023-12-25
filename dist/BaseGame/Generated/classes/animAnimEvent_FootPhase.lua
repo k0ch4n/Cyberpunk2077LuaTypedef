@@ -5,6 +5,6 @@
 ---@field public phase animEFootPhase
 animAnimEvent_FootPhase = {}
 
----@param fields? table
+---@param fields? animAnimEvent_FootPhase
 ---@return animAnimEvent_FootPhase
 function animAnimEvent_FootPhase.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public followObject gameObject
 gameprojectileFollowEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileFollowEvent
 ---@return gameprojectileFollowEvent
 function gameprojectileFollowEvent.new(fields) return end

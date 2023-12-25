@@ -5,7 +5,7 @@
 ---@field private duration Float
 CraftingNotificationQueue = {}
 
----@param fields? table
+---@param fields? CraftingNotificationQueue
 ---@return CraftingNotificationQueue
 function CraftingNotificationQueue.new(fields) return end
 

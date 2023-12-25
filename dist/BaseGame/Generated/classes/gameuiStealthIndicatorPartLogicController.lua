@@ -13,7 +13,7 @@
 ---@field private scaleAnimDef inkanimDefinition
 gameuiStealthIndicatorPartLogicController = {}
 
----@param fields? table
+---@param fields? gameuiStealthIndicatorPartLogicController
 ---@return gameuiStealthIndicatorPartLogicController
 function gameuiStealthIndicatorPartLogicController.new(fields) return end
 

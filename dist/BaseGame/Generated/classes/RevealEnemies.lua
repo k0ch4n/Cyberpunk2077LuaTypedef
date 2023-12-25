@@ -4,7 +4,7 @@
 ---@class RevealEnemies: ActionBool
 RevealEnemies = {}
 
----@param fields? table
+---@param fields? RevealEnemies
 ---@return RevealEnemies
 function RevealEnemies.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkInitialLoadingScreenSaveData: inkILoadingScreenPersistentData
 inkInitialLoadingScreenSaveData = {}
 
----@param fields? table
+---@param fields? inkInitialLoadingScreenSaveData
 ---@return inkInitialLoadingScreenSaveData
 function inkInitialLoadingScreenSaveData.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public positions Vector3[]
 gameCookedMultiMappinData = {}
 
----@param fields? table
+---@param fields? gameCookedMultiMappinData
 ---@return gameCookedMultiMappinData
 function gameCookedMultiMappinData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public enforceScreenSpaceReflectionsUberQuality Bool
 gameRenderGameplayEffectsManagerSaveData = {}
 
----@param fields? table
+---@param fields? gameRenderGameplayEffectsManagerSaveData
 ---@return gameRenderGameplayEffectsManagerSaveData
 function gameRenderGameplayEffectsManagerSaveData.new(fields) return end

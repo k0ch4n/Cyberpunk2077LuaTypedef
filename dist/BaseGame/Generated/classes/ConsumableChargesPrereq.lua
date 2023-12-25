@@ -4,7 +4,7 @@
 ---@class ConsumableChargesPrereq: StatPoolPrereq
 ConsumableChargesPrereq = {}
 
----@param fields? table
+---@param fields? ConsumableChargesPrereq
 ---@return ConsumableChargesPrereq
 function ConsumableChargesPrereq.new(fields) return end
 

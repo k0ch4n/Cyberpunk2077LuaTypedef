@@ -10,6 +10,6 @@
 ---@field public doorID CName
 questToggleDoor_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleDoor_NodeType
 ---@return questToggleDoor_NodeType
 function questToggleDoor_NodeType.new(fields) return end

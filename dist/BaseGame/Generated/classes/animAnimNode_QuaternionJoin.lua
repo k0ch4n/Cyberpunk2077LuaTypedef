@@ -5,6 +5,6 @@
 ---@field public input animQuaternionLink
 animAnimNode_QuaternionJoin = {}
 
----@param fields? table
+---@param fields? animAnimNode_QuaternionJoin
 ---@return animAnimNode_QuaternionJoin
 function animAnimNode_QuaternionJoin.new(fields) return end

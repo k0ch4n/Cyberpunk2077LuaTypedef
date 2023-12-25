@@ -4,7 +4,7 @@
 ---@class scnScriptInterface: IScriptable
 scnScriptInterface = {}
 
----@param fields? table
+---@param fields? scnScriptInterface
 ---@return scnScriptInterface
 function scnScriptInterface.new(fields) return end
 

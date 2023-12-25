@@ -4,6 +4,6 @@
 ---@class worldCrowdParkingSpaceNode: worldNode
 worldCrowdParkingSpaceNode = {}
 
----@param fields? table
+---@param fields? worldCrowdParkingSpaceNode
 ---@return worldCrowdParkingSpaceNode
 function worldCrowdParkingSpaceNode.new(fields) return end

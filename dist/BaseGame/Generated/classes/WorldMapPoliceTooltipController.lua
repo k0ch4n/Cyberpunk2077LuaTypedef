@@ -4,7 +4,7 @@
 ---@class WorldMapPoliceTooltipController: WorldMapTooltipController
 WorldMapPoliceTooltipController = {}
 
----@param fields? table
+---@param fields? WorldMapPoliceTooltipController
 ---@return WorldMapPoliceTooltipController
 function WorldMapPoliceTooltipController.new(fields) return end
 

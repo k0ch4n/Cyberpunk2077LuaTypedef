@@ -15,6 +15,6 @@
 ---@field public version Uint8
 entMorphTargetSkinnedMeshComponent = {}
 
----@param fields? table
+---@param fields? entMorphTargetSkinnedMeshComponent
 ---@return entMorphTargetSkinnedMeshComponent
 function entMorphTargetSkinnedMeshComponent.new(fields) return end

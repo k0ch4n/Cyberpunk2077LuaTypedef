@@ -5,6 +5,6 @@
 ---@field public eqManipulationVarName CName
 EquipmentInitData = {}
 
----@param fields? table
+---@param fields? EquipmentInitData
 ---@return EquipmentInitData
 function EquipmentInitData.new(fields) return end

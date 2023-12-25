@@ -4,7 +4,7 @@
 ---@class AIbehaviortaskStackScript: AIbehaviorScriptBase
 AIbehaviortaskStackScript = {}
 
----@param fields? table
+---@param fields? AIbehaviortaskStackScript
 ---@return AIbehaviortaskStackScript
 function AIbehaviortaskStackScript.new(fields) return end
 

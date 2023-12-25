@@ -6,6 +6,6 @@
 ---@field public sender entEntityID
 CommunicationEvent = {}
 
----@param fields? table
+---@param fields? CommunicationEvent
 ---@return CommunicationEvent
 function CommunicationEvent.new(fields) return end

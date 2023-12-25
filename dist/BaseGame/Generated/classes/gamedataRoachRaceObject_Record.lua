@@ -4,7 +4,7 @@
 ---@class gamedataRoachRaceObject_Record: gamedataArcadeObject_Record
 gamedataRoachRaceObject_Record = {}
 
----@param fields? table
+---@param fields? gamedataRoachRaceObject_Record
 ---@return gamedataRoachRaceObject_Record
 function gamedataRoachRaceObject_Record.new(fields) return end
 

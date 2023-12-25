@@ -7,7 +7,7 @@
 ---@field private leavingArea gameStaticTriggerAreaComponent
 SecurityGateLock = {}
 
----@param fields? table
+---@param fields? SecurityGateLock
 ---@return SecurityGateLock
 function SecurityGateLock.new(fields) return end
 

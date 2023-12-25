@@ -5,7 +5,7 @@
 ---@field public invert Bool
 PerfectDischargePrereq = {}
 
----@param fields? table
+---@param fields? PerfectDischargePrereq
 ---@return PerfectDischargePrereq
 function PerfectDischargePrereq.new(fields) return end
 

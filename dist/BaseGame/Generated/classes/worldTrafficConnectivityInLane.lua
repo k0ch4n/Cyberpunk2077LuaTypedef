@@ -4,6 +4,6 @@
 ---@class worldTrafficConnectivityInLane
 worldTrafficConnectivityInLane = {}
 
----@param fields? table
+---@param fields? worldTrafficConnectivityInLane
 ---@return worldTrafficConnectivityInLane
 function worldTrafficConnectivityInLane.new(fields) return end

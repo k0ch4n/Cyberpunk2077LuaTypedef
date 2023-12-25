@@ -4,7 +4,7 @@
 ---@class TeleportFailsafeHelper: AIbehaviortaskScript
 TeleportFailsafeHelper = {}
 
----@param fields? table
+---@param fields? TeleportFailsafeHelper
 ---@return TeleportFailsafeHelper
 function TeleportFailsafeHelper.new(fields) return end
 

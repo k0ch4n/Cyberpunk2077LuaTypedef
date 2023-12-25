@@ -4,6 +4,6 @@
 ---@class gamebbDynArrayBlackboardStorage
 gamebbDynArrayBlackboardStorage = {}
 
----@param fields? table
+---@param fields? gamebbDynArrayBlackboardStorage
 ---@return gamebbDynArrayBlackboardStorage
 function gamebbDynArrayBlackboardStorage.new(fields) return end

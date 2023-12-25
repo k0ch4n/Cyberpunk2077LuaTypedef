@@ -6,6 +6,6 @@
 ---@field public isChainForced Bool
 RequestQuestTakeControlInputLock = {}
 
----@param fields? table
+---@param fields? RequestQuestTakeControlInputLock
 ---@return RequestQuestTakeControlInputLock
 function RequestQuestTakeControlInputLock.new(fields) return end

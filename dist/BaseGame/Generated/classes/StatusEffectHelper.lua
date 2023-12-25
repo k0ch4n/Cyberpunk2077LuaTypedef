@@ -4,7 +4,7 @@
 ---@class StatusEffectHelper: IScriptable
 StatusEffectHelper = {}
 
----@param fields? table
+---@param fields? StatusEffectHelper
 ---@return StatusEffectHelper
 function StatusEffectHelper.new(fields) return end
 

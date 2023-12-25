@@ -60,7 +60,7 @@
 ---@field private screenDisplayContext ScreenDisplayContext
 NewPerksCategoriesGameController = {}
 
----@param fields? table
+---@param fields? NewPerksCategoriesGameController
 ---@return NewPerksCategoriesGameController
 function NewPerksCategoriesGameController.new(fields) return end
 

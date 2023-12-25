@@ -4,6 +4,6 @@
 ---@class gameGameSessionDesc
 gameGameSessionDesc = {}
 
----@param fields? table
+---@param fields? gameGameSessionDesc
 ---@return gameGameSessionDesc
 function gameGameSessionDesc.new(fields) return end

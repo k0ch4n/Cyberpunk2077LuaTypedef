@@ -4,6 +4,6 @@
 ---@class InternalFunctionalTestsGameEngine: CGameEngine
 InternalFunctionalTestsGameEngine = {}
 
----@param fields? table
+---@param fields? InternalFunctionalTestsGameEngine
 ---@return InternalFunctionalTestsGameEngine
 function InternalFunctionalTestsGameEngine.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private weaponVendingMachineSFX WeaponVendingMachineSFX
 WeaponVendingMachineControllerPS = {}
 
----@param fields? table
+---@param fields? WeaponVendingMachineControllerPS
 ---@return WeaponVendingMachineControllerPS
 function WeaponVendingMachineControllerPS.new(fields) return end
 

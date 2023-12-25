@@ -48,7 +48,7 @@
 ---@field private selectorCtrl inkListController
 SettingsMainGameController = {}
 
----@param fields? table
+---@param fields? SettingsMainGameController
 ---@return SettingsMainGameController
 function SettingsMainGameController.new(fields) return end
 

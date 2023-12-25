@@ -37,7 +37,7 @@
 ---@field private UILayerID3 Uint32
 WeaponPositionComponent = {}
 
----@param fields? table
+---@param fields? WeaponPositionComponent
 ---@return WeaponPositionComponent
 function WeaponPositionComponent.new(fields) return end
 

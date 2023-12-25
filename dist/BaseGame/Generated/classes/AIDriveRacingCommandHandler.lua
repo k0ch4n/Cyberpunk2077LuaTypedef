@@ -18,7 +18,7 @@
 ---@field protected outRubberBandingStayInFront AIArgumentMapping
 AIDriveRacingCommandHandler = {}
 
----@param fields? table
+---@param fields? AIDriveRacingCommandHandler
 ---@return AIDriveRacingCommandHandler
 function AIDriveRacingCommandHandler.new(fields) return end
 

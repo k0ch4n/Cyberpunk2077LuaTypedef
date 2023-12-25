@@ -4,7 +4,7 @@
 ---@class AICombatGuardAreaScriptCondition: AIICombatGuardAreaCondition
 AICombatGuardAreaScriptCondition = {}
 
----@param fields? table
+---@param fields? AICombatGuardAreaScriptCondition
 ---@return AICombatGuardAreaScriptCondition
 function AICombatGuardAreaScriptCondition.new(fields) return end
 

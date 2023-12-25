@@ -5,7 +5,7 @@
 ---@field public bountyID TweakDBID
 SetBountyEvent = {}
 
----@param fields? table
+---@param fields? SetBountyEvent
 ---@return SetBountyEvent
 function SetBountyEvent.new(fields) return end
 

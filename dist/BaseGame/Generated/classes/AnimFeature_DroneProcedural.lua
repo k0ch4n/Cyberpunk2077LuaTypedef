@@ -17,6 +17,6 @@
 ---@field public combat_default_z_offset Float
 AnimFeature_DroneProcedural = {}
 
----@param fields? table
+---@param fields? AnimFeature_DroneProcedural
 ---@return AnimFeature_DroneProcedural
 function AnimFeature_DroneProcedural.new(fields) return end

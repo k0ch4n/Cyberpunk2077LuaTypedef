@@ -13,6 +13,6 @@
 ---@field public isBriefingActive gamebbScriptDefinition
 PlayerVisionModeControllerBBIds = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerBBIds
 ---@return PlayerVisionModeControllerBBIds
 function PlayerVisionModeControllerBBIds.new(fields) return end

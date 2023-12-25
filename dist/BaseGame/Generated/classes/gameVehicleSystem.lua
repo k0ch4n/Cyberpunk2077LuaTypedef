@@ -5,7 +5,7 @@
 ---@field private restrictionTags CName[]
 gameVehicleSystem = {}
 
----@param fields? table
+---@param fields? gameVehicleSystem
 ---@return gameVehicleSystem
 function gameVehicleSystem.new(fields) return end
 

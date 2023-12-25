@@ -5,7 +5,7 @@
 ---@field public SpreadMap gamebbScriptID_Variant
 HackingDataDef = {}
 
----@param fields? table
+---@param fields? HackingDataDef
 ---@return HackingDataDef
 function HackingDataDef.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public delayIDs gameDelayID[]
 ActionsSequence = {}
 
----@param fields? table
+---@param fields? ActionsSequence
 ---@return ActionsSequence
 function ActionsSequence.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field public objectToCheck CName
 StatusEffectPrereq = {}
 
----@param fields? table
+---@param fields? StatusEffectPrereq
 ---@return StatusEffectPrereq
 function StatusEffectPrereq.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public user entEntityID
 AreaEntry = {}
 
----@param fields? table
+---@param fields? AreaEntry
 ---@return AreaEntry
 function AreaEntry.new(fields) return end

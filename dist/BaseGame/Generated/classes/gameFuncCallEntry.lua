@@ -6,6 +6,6 @@
 ---@field public callId Uint32
 gameFuncCallEntry = {}
 
----@param fields? table
+---@param fields? gameFuncCallEntry
 ---@return gameFuncCallEntry
 function gameFuncCallEntry.new(fields) return end

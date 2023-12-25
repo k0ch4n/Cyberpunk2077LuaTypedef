@@ -4,6 +4,6 @@
 ---@class gameinfluenceHeatAgentComponent: entIPlacedComponent
 gameinfluenceHeatAgentComponent = {}
 
----@param fields? table
+---@param fields? gameinfluenceHeatAgentComponent
 ---@return gameinfluenceHeatAgentComponent
 function gameinfluenceHeatAgentComponent.new(fields) return end

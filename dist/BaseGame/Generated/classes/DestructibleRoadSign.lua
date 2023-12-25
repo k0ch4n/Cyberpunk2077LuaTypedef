@@ -7,7 +7,7 @@
 ---@field protected uiMesh_2 entMeshComponent
 DestructibleRoadSign = {}
 
----@param fields? table
+---@param fields? DestructibleRoadSign
 ---@return DestructibleRoadSign
 function DestructibleRoadSign.new(fields) return end
 

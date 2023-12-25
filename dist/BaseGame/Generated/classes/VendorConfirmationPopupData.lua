@@ -9,6 +9,6 @@
 ---@field public price Int32
 VendorConfirmationPopupData = {}
 
----@param fields? table
+---@param fields? VendorConfirmationPopupData
 ---@return VendorConfirmationPopupData
 function VendorConfirmationPopupData.new(fields) return end

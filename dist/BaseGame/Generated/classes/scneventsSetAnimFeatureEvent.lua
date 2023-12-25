@@ -7,6 +7,6 @@
 ---@field public animFeature animAnimFeature
 scneventsSetAnimFeatureEvent = {}
 
----@param fields? table
+---@param fields? scneventsSetAnimFeatureEvent
 ---@return scneventsSetAnimFeatureEvent
 function scneventsSetAnimFeatureEvent.new(fields) return end

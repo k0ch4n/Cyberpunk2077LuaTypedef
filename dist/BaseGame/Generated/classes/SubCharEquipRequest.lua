@@ -5,6 +5,6 @@
 ---@field public subCharType gamedataSubCharacter
 SubCharEquipRequest = {}
 
----@param fields? table
+---@param fields? SubCharEquipRequest
 ---@return SubCharEquipRequest
 function SubCharEquipRequest.new(fields) return end

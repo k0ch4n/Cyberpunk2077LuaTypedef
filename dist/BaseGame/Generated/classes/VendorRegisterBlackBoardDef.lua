@@ -5,7 +5,7 @@
 ---@field public vendors gamebbScriptID_Variant
 VendorRegisterBlackBoardDef = {}
 
----@param fields? table
+---@param fields? VendorRegisterBlackBoardDef
 ---@return VendorRegisterBlackBoardDef
 function VendorRegisterBlackBoardDef.new(fields) return end
 

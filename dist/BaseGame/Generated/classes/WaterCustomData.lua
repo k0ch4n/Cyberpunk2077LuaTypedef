@@ -4,6 +4,6 @@
 ---@class WaterCustomData: ICameraStorageCustomData
 WaterCustomData = {}
 
----@param fields? table
+---@param fields? WaterCustomData
 ---@return WaterCustomData
 function WaterCustomData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public enable Bool
 questPopulactionControllerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questPopulactionControllerNodeDefinition
 ---@return questPopulactionControllerNodeDefinition
 function questPopulactionControllerNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsEquipItem: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsEquipItem = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsEquipItem
 ---@return gamestateMachineplayeractionsEquipItem
 function gamestateMachineplayeractionsEquipItem.new(fields) return end

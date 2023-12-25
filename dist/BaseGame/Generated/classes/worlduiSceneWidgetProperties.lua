@@ -13,6 +13,6 @@
 ---@field public faceVector Vector3
 worlduiSceneWidgetProperties = {}
 
----@param fields? table
+---@param fields? worlduiSceneWidgetProperties
 ---@return worlduiSceneWidgetProperties
 function worlduiSceneWidgetProperties.new(fields) return end

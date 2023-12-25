@@ -6,6 +6,6 @@
 ---@field public destinations scnInputSocketId[]
 scnOutputSocket = {}
 
----@param fields? table
+---@param fields? scnOutputSocket
 ---@return scnOutputSocket
 function scnOutputSocket.new(fields) return end

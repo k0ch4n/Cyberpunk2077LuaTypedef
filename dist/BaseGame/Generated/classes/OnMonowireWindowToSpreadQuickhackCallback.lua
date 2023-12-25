@@ -6,7 +6,7 @@
 ---@field public PlayerPuppet PlayerPuppet
 OnMonowireWindowToSpreadQuickhackCallback = {}
 
----@param fields? table
+---@param fields? OnMonowireWindowToSpreadQuickhackCallback
 ---@return OnMonowireWindowToSpreadQuickhackCallback
 function OnMonowireWindowToSpreadQuickhackCallback.new(fields) return end
 

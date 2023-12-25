@@ -6,6 +6,6 @@
 ---@field public isTilted Bool
 WindowBlindersReplicatedState = {}
 
----@param fields? table
+---@param fields? WindowBlindersReplicatedState
 ---@return WindowBlindersReplicatedState
 function WindowBlindersReplicatedState.new(fields) return end

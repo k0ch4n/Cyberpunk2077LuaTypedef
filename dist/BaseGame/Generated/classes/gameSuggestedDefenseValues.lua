@@ -8,6 +8,6 @@
 ---@field public maxProtection Float
 gameSuggestedDefenseValues = {}
 
----@param fields? table
+---@param fields? gameSuggestedDefenseValues
 ---@return gameSuggestedDefenseValues
 function gameSuggestedDefenseValues.new(fields) return end

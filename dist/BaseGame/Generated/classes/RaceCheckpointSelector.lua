@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 RaceCheckpointSelector = {}
 
----@param fields? table
+---@param fields? RaceCheckpointSelector
 ---@return RaceCheckpointSelector
 function RaceCheckpointSelector.new(fields) return end
 

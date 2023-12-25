@@ -5,6 +5,6 @@
 ---@field public sampleNavmesh Bool
 vehicleApplyZOffsetFromGroundEvent = {}
 
----@param fields? table
+---@param fields? vehicleApplyZOffsetFromGroundEvent
 ---@return vehicleApplyZOffsetFromGroundEvent
 function vehicleApplyZOffsetFromGroundEvent.new(fields) return end

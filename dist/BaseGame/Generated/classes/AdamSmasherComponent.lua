@@ -18,7 +18,7 @@
 ---@field private weakspotDestroyed Bool
 AdamSmasherComponent = {}
 
----@param fields? table
+---@param fields? AdamSmasherComponent
 ---@return AdamSmasherComponent
 function AdamSmasherComponent.new(fields) return end
 

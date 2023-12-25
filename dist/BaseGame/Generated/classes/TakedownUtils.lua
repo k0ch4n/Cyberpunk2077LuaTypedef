@@ -4,7 +4,7 @@
 ---@class TakedownUtils: IScriptable
 TakedownUtils = {}
 
----@param fields? table
+---@param fields? TakedownUtils
 ---@return TakedownUtils
 function TakedownUtils.new(fields) return end
 

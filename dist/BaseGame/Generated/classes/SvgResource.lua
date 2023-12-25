@@ -5,6 +5,6 @@
 ---@field public vectorGraphicDef vgVectorGraphicDefinition
 SvgResource = {}
 
----@param fields? table
+---@param fields? SvgResource
 ---@return SvgResource
 function SvgResource.new(fields) return end

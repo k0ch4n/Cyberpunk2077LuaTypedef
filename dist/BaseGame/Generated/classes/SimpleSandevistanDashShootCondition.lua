@@ -6,7 +6,7 @@
 ---@field private result Bool
 SimpleSandevistanDashShootCondition = {}
 
----@param fields? table
+---@param fields? SimpleSandevistanDashShootCondition
 ---@return SimpleSandevistanDashShootCondition
 function SimpleSandevistanDashShootCondition.new(fields) return end
 

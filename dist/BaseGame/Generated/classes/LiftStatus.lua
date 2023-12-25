@@ -5,7 +5,7 @@
 ---@field public libraryName CName
 LiftStatus = {}
 
----@param fields? table
+---@param fields? LiftStatus
 ---@return LiftStatus
 function LiftStatus.new(fields) return end
 

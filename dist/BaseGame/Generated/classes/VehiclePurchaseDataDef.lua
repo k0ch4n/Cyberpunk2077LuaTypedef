@@ -5,7 +5,7 @@
 ---@field public PurchasedVehicleRecordID gamebbScriptID_Variant
 VehiclePurchaseDataDef = {}
 
----@param fields? table
+---@param fields? VehiclePurchaseDataDef
 ---@return VehiclePurchaseDataDef
 function VehiclePurchaseDataDef.new(fields) return end
 

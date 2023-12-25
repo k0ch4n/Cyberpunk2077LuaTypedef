@@ -5,7 +5,7 @@
 ---@field private equipped Bool
 VisualDisplayController = {}
 
----@param fields? table
+---@param fields? VisualDisplayController
 ---@return VisualDisplayController
 function VisualDisplayController.new(fields) return end
 

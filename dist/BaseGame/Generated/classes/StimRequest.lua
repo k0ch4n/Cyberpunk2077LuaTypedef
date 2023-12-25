@@ -8,6 +8,6 @@
 ---@field public requestID StimRequestID
 StimRequest = {}
 
----@param fields? table
+---@param fields? StimRequest
 ---@return StimRequest
 function StimRequest.new(fields) return end

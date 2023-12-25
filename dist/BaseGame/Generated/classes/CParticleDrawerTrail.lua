@@ -9,6 +9,6 @@
 ---@field public ribbonTesselationDelta Float
 CParticleDrawerTrail = {}
 
----@param fields? table
+---@param fields? CParticleDrawerTrail
 ---@return CParticleDrawerTrail
 function CParticleDrawerTrail.new(fields) return end

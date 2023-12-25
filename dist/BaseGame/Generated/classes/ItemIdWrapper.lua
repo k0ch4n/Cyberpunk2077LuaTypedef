@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 ItemIdWrapper = {}
 
----@param fields? table
+---@param fields? ItemIdWrapper
 ---@return ItemIdWrapper
 function ItemIdWrapper.new(fields) return end

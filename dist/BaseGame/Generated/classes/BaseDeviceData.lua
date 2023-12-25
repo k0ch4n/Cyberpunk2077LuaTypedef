@@ -9,6 +9,6 @@
 ---@field public hackOwner gameObject
 BaseDeviceData = {}
 
----@param fields? table
+---@param fields? BaseDeviceData
 ---@return BaseDeviceData
 function BaseDeviceData.new(fields) return end

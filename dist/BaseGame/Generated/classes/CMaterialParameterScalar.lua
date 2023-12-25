@@ -7,6 +7,6 @@
 ---@field public max Float
 CMaterialParameterScalar = {}
 
----@param fields? table
+---@param fields? CMaterialParameterScalar
 ---@return CMaterialParameterScalar
 function CMaterialParameterScalar.new(fields) return end

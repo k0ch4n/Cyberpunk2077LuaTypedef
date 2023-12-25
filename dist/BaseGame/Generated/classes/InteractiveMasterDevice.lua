@@ -4,7 +4,7 @@
 ---@class InteractiveMasterDevice: InteractiveDevice
 InteractiveMasterDevice = {}
 
----@param fields? table
+---@param fields? InteractiveMasterDevice
 ---@return InteractiveMasterDevice
 function InteractiveMasterDevice.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public speakerType audioRadioSpeakerType
 questRadio_ConditionType = {}
 
----@param fields? table
+---@param fields? questRadio_ConditionType
 ---@return questRadio_ConditionType
 function questRadio_ConditionType.new(fields) return end

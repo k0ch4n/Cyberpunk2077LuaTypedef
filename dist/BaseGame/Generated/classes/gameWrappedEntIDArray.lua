@@ -5,6 +5,6 @@
 ---@field public arr entEntityID[]
 gameWrappedEntIDArray = {}
 
----@param fields? table
+---@param fields? gameWrappedEntIDArray
 ---@return gameWrappedEntIDArray
 function gameWrappedEntIDArray.new(fields) return end

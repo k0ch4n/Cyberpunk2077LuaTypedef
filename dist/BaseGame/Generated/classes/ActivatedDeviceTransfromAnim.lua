@@ -5,7 +5,7 @@
 ---@field private animationState Int32
 ActivatedDeviceTransfromAnim = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceTransfromAnim
 ---@return ActivatedDeviceTransfromAnim
 function ActivatedDeviceTransfromAnim.new(fields) return end
 

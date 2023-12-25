@@ -4,6 +4,6 @@
 ---@class MetroPitchAdjustmentEvent: redEvent
 MetroPitchAdjustmentEvent = {}
 
----@param fields? table
+---@param fields? MetroPitchAdjustmentEvent
 ---@return MetroPitchAdjustmentEvent
 function MetroPitchAdjustmentEvent.new(fields) return end

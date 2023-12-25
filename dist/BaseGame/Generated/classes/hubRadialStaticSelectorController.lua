@@ -20,7 +20,7 @@
 ---@field private debugText inkTextWidgetReference
 hubRadialStaticSelectorController = {}
 
----@param fields? table
+---@param fields? hubRadialStaticSelectorController
 ---@return hubRadialStaticSelectorController
 function hubRadialStaticSelectorController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public gameState gameuiMinigameState
 gameuiOnHitPlayerEvent = {}
 
----@param fields? table
+---@param fields? gameuiOnHitPlayerEvent
 ---@return gameuiOnHitPlayerEvent
 function gameuiOnHitPlayerEvent.new(fields) return end

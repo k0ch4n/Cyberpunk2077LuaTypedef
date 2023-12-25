@@ -4,7 +4,7 @@
 ---@class IronsightDetail: IScriptable
 IronsightDetail = {}
 
----@param fields? table
+---@param fields? IronsightDetail
 ---@return IronsightDetail
 function IronsightDetail.new(fields) return end
 

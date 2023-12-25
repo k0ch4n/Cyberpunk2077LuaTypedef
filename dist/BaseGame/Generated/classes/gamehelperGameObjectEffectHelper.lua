@@ -4,7 +4,7 @@
 ---@class gamehelperGameObjectEffectHelper: IScriptable
 gamehelperGameObjectEffectHelper = {}
 
----@param fields? table
+---@param fields? gamehelperGameObjectEffectHelper
 ---@return gamehelperGameObjectEffectHelper
 function gamehelperGameObjectEffectHelper.new(fields) return end
 

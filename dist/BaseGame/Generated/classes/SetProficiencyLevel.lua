@@ -7,7 +7,7 @@
 ---@field public telemetryLevelGainReason telemetryLevelGainReason
 SetProficiencyLevel = {}
 
----@param fields? table
+---@param fields? SetProficiencyLevel
 ---@return SetProficiencyLevel
 function SetProficiencyLevel.new(fields) return end
 

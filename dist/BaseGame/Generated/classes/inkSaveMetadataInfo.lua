@@ -22,7 +22,7 @@
 ---@field public additionalContentIds CName[]
 inkSaveMetadataInfo = {}
 
----@param fields? table
+---@param fields? inkSaveMetadataInfo
 ---@return inkSaveMetadataInfo
 function inkSaveMetadataInfo.new(fields) return end
 

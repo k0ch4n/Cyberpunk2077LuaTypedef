@@ -8,6 +8,6 @@
 ---@field public alternativeName Bool
 questSwitchNameplate_NodeType = {}
 
----@param fields? table
+---@param fields? questSwitchNameplate_NodeType
 ---@return questSwitchNameplate_NodeType
 function questSwitchNameplate_NodeType.new(fields) return end

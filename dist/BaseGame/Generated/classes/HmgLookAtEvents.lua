@@ -4,6 +4,6 @@
 ---@class HmgLookAtEvents: lookAtPresetGunBaseEvents
 HmgLookAtEvents = {}
 
----@param fields? table
+---@param fields? HmgLookAtEvents
 ---@return HmgLookAtEvents
 function HmgLookAtEvents.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class MasterDeviceDestroyed: ActionBool
 MasterDeviceDestroyed = {}
 
----@param fields? table
+---@param fields? MasterDeviceDestroyed
 ---@return MasterDeviceDestroyed
 function MasterDeviceDestroyed.new(fields) return end
 

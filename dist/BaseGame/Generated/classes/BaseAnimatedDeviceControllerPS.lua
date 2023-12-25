@@ -9,7 +9,7 @@
 ---@field protected nameForDeactivation TweakDBID
 BaseAnimatedDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? BaseAnimatedDeviceControllerPS
 ---@return BaseAnimatedDeviceControllerPS
 function BaseAnimatedDeviceControllerPS.new(fields) return end
 

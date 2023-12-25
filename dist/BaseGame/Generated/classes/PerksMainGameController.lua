@@ -36,7 +36,7 @@
 ---@field private lastHoveredAttribute PerkMenuAttribute
 PerksMainGameController = {}
 
----@param fields? table
+---@param fields? PerksMainGameController
 ---@return PerksMainGameController
 function PerksMainGameController.new(fields) return end
 

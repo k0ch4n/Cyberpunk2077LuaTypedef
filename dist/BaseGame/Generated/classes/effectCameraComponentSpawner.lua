@@ -4,6 +4,6 @@
 ---@class effectCameraComponentSpawner: effectSpawner
 effectCameraComponentSpawner = {}
 
----@param fields? table
+---@param fields? effectCameraComponentSpawner
 ---@return effectCameraComponentSpawner
 function effectCameraComponentSpawner.new(fields) return end

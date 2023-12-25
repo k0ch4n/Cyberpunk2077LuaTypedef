@@ -6,7 +6,7 @@
 ---@field private playerDetachedCallbackID Uint32
 FocusModeTaggingSystem = {}
 
----@param fields? table
+---@param fields? FocusModeTaggingSystem
 ---@return FocusModeTaggingSystem
 function FocusModeTaggingSystem.new(fields) return end
 

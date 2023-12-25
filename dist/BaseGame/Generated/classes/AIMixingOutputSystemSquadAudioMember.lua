@@ -4,6 +4,6 @@
 ---@class AIMixingOutputSystemSquadAudioMember: AISquadAudioMemberBase
 AIMixingOutputSystemSquadAudioMember = {}
 
----@param fields? table
+---@param fields? AIMixingOutputSystemSquadAudioMember
 ---@return AIMixingOutputSystemSquadAudioMember
 function AIMixingOutputSystemSquadAudioMember.new(fields) return end

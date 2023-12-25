@@ -5,6 +5,6 @@
 ---@field public contactShadows ContactShadowsConfig
 ContactShadowsSettings = {}
 
----@param fields? table
+---@param fields? ContactShadowsSettings
 ---@return ContactShadowsSettings
 function ContactShadowsSettings.new(fields) return end

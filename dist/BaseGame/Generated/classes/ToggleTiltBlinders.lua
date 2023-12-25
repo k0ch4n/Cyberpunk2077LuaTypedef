@@ -4,7 +4,7 @@
 ---@class ToggleTiltBlinders: ActionBool
 ToggleTiltBlinders = {}
 
----@param fields? table
+---@param fields? ToggleTiltBlinders
 ---@return ToggleTiltBlinders
 function ToggleTiltBlinders.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameScriptableSystem: gameIScriptableSystem
 gameScriptableSystem = {}
 
----@param fields? table
+---@param fields? gameScriptableSystem
 ---@return gameScriptableSystem
 function gameScriptableSystem.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public offset QsTransform
 animMultipleParentConstraint_JsonEntry = {}
 
----@param fields? table
+---@param fields? animMultipleParentConstraint_JsonEntry
 ---@return animMultipleParentConstraint_JsonEntry
 function animMultipleParentConstraint_JsonEntry.new(fields) return end

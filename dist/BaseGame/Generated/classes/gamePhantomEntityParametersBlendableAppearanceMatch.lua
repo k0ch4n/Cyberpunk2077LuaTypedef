@@ -6,6 +6,6 @@
 ---@field public notBlendable CName
 gamePhantomEntityParametersBlendableAppearanceMatch = {}
 
----@param fields? table
+---@param fields? gamePhantomEntityParametersBlendableAppearanceMatch
 ---@return gamePhantomEntityParametersBlendableAppearanceMatch
 function gamePhantomEntityParametersBlendableAppearanceMatch.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public data questLevelUpData
 LevelUpUserData = {}
 
----@param fields? table
+---@param fields? LevelUpUserData
 ---@return LevelUpUserData
 function LevelUpUserData.new(fields) return end

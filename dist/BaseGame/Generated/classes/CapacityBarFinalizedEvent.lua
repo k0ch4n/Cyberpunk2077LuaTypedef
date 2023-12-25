@@ -4,6 +4,6 @@
 ---@class CapacityBarFinalizedEvent: redEvent
 CapacityBarFinalizedEvent = {}
 
----@param fields? table
+---@param fields? CapacityBarFinalizedEvent
 ---@return CapacityBarFinalizedEvent
 function CapacityBarFinalizedEvent.new(fields) return end

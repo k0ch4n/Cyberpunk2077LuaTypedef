@@ -9,6 +9,6 @@
 ---@field public endAdjustmentEventName CName
 animAnimNode_SkAnimAdjuster = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkAnimAdjuster
 ---@return animAnimNode_SkAnimAdjuster
 function animAnimNode_SkAnimAdjuster.new(fields) return end

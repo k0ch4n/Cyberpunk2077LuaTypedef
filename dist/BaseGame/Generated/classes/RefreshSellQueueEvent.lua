@@ -4,6 +4,6 @@
 ---@class RefreshSellQueueEvent: redEvent
 RefreshSellQueueEvent = {}
 
----@param fields? table
+---@param fields? RefreshSellQueueEvent
 ---@return RefreshSellQueueEvent
 function RefreshSellQueueEvent.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public operation SBaseDeviceOperationData
 STriggerVolumeOperationData = {}
 
----@param fields? table
+---@param fields? STriggerVolumeOperationData
 ---@return STriggerVolumeOperationData
 function STriggerVolumeOperationData.new(fields) return end

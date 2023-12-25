@@ -8,7 +8,7 @@
 ---@field public isFirstAttempt Bool
 MinigameGenerationRuleScalingPrograms = {}
 
----@param fields? table
+---@param fields? MinigameGenerationRuleScalingPrograms
 ---@return MinigameGenerationRuleScalingPrograms
 function MinigameGenerationRuleScalingPrograms.new(fields) return end
 

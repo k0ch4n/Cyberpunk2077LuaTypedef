@@ -6,6 +6,6 @@
 ---@field public taskRef AIbehaviorDelegateTaskRef
 TestBehaviorDelegateTask = {}
 
----@param fields? table
+---@param fields? TestBehaviorDelegateTask
 ---@return TestBehaviorDelegateTask
 function TestBehaviorDelegateTask.new(fields) return end

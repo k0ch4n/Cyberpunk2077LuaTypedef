@@ -4,7 +4,7 @@
 ---@class PlayerHasNanoWiresEquippedPrereq: gameIScriptablePrereq
 PlayerHasNanoWiresEquippedPrereq = {}
 
----@param fields? table
+---@param fields? PlayerHasNanoWiresEquippedPrereq
 ---@return PlayerHasNanoWiresEquippedPrereq
 function PlayerHasNanoWiresEquippedPrereq.new(fields) return end
 

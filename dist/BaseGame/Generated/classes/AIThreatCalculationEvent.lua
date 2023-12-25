@@ -6,6 +6,6 @@
 ---@field public temporaryThreatCalculationType EAIThreatCalculationType
 AIThreatCalculationEvent = {}
 
----@param fields? table
+---@param fields? AIThreatCalculationEvent
 ---@return AIThreatCalculationEvent
 function AIThreatCalculationEvent.new(fields) return end

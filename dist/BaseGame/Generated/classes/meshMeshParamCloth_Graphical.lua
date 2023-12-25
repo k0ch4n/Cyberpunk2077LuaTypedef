@@ -7,6 +7,6 @@
 ---@field public latchers Uint16[][][]
 meshMeshParamCloth_Graphical = {}
 
----@param fields? table
+---@param fields? meshMeshParamCloth_Graphical
 ---@return meshMeshParamCloth_Graphical
 function meshMeshParamCloth_Graphical.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class HitIsBodyPartTorsoPrereqState: GenericHitPrereqState
 HitIsBodyPartTorsoPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsBodyPartTorsoPrereqState
 ---@return HitIsBodyPartTorsoPrereqState
 function HitIsBodyPartTorsoPrereqState.new(fields) return end
 

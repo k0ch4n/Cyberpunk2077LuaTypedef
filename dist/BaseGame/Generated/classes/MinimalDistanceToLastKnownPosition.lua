@@ -7,7 +7,7 @@
 ---@field public preventionSystem PreventionSystem
 MinimalDistanceToLastKnownPosition = {}
 
----@param fields? table
+---@param fields? MinimalDistanceToLastKnownPosition
 ---@return MinimalDistanceToLastKnownPosition
 function MinimalDistanceToLastKnownPosition.new(fields) return end
 

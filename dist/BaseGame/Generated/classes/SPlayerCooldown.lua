@@ -6,6 +6,6 @@
 ---@field public instigatorID TweakDBID
 SPlayerCooldown = {}
 
----@param fields? table
+---@param fields? SPlayerCooldown
 ---@return SPlayerCooldown
 function SPlayerCooldown.new(fields) return end

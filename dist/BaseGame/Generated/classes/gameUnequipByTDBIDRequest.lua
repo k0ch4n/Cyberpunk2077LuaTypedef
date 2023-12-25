@@ -5,6 +5,6 @@
 ---@field public itemTDBID TweakDBID
 gameUnequipByTDBIDRequest = {}
 
----@param fields? table
+---@param fields? gameUnequipByTDBIDRequest
 ---@return gameUnequipByTDBIDRequest
 function gameUnequipByTDBIDRequest.new(fields) return end

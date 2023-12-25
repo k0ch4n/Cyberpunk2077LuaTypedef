@@ -5,6 +5,6 @@
 ---@field public tier GameplayTier
 gameTierPrereq = {}
 
----@param fields? table
+---@param fields? gameTierPrereq
 ---@return gameTierPrereq
 function gameTierPrereq.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private triggerExploded Bool
 ExplosiveTriggerDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? ExplosiveTriggerDeviceControllerPS
 ---@return ExplosiveTriggerDeviceControllerPS
 function ExplosiveTriggerDeviceControllerPS.new(fields) return end
 

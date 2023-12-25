@@ -4,6 +4,6 @@
 ---@class HitReactionStopMotionExtraction: redEvent
 HitReactionStopMotionExtraction = {}
 
----@param fields? table
+---@param fields? HitReactionStopMotionExtraction
 ---@return HitReactionStopMotionExtraction
 function HitReactionStopMotionExtraction.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value Bool
 entAnimInputSetterUsesSleepMode = {}
 
----@param fields? table
+---@param fields? entAnimInputSetterUsesSleepMode
 ---@return entAnimInputSetterUsesSleepMode
 function entAnimInputSetterUsesSleepMode.new(fields) return end

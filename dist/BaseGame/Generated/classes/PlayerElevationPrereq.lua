@@ -5,7 +5,7 @@
 ---@field public elevationThreshold Float
 PlayerElevationPrereq = {}
 
----@param fields? table
+---@param fields? PlayerElevationPrereq
 ---@return PlayerElevationPrereq
 function PlayerElevationPrereq.new(fields) return end
 

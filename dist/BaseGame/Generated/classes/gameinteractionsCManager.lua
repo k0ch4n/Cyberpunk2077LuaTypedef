@@ -4,7 +4,7 @@
 ---@class gameinteractionsCManager: gameinteractionsIManager
 gameinteractionsCManager = {}
 
----@param fields? table
+---@param fields? gameinteractionsCManager
 ---@return gameinteractionsCManager
 function gameinteractionsCManager.new(fields) return end
 

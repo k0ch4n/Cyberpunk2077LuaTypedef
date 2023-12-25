@@ -5,6 +5,6 @@
 ---@field public start Bool
 RegisterPostionEvent = {}
 
----@param fields? table
+---@param fields? RegisterPostionEvent
 ---@return RegisterPostionEvent
 function RegisterPostionEvent.new(fields) return end

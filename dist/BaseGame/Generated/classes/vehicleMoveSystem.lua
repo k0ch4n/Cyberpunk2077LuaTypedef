@@ -4,6 +4,6 @@
 ---@class vehicleMoveSystem: vehicleIMoveSystem
 vehicleMoveSystem = {}
 
----@param fields? table
+---@param fields? vehicleMoveSystem
 ---@return vehicleMoveSystem
 function vehicleMoveSystem.new(fields) return end

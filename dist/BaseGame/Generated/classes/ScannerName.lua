@@ -7,7 +7,7 @@
 ---@field private textParams textTextParameterSet
 ScannerName = {}
 
----@param fields? table
+---@param fields? ScannerName
 ---@return ScannerName
 function ScannerName.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public currentQuantity Int32
 gameItemBeingRemovedEvent = {}
 
----@param fields? table
+---@param fields? gameItemBeingRemovedEvent
 ---@return gameItemBeingRemovedEvent
 function gameItemBeingRemovedEvent.new(fields) return end

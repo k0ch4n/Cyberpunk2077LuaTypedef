@@ -7,6 +7,6 @@
 ---@field public enumeratedType AIArgumentType
 AIbehaviorTypeRef = {}
 
----@param fields? table
+---@param fields? AIbehaviorTypeRef
 ---@return AIbehaviorTypeRef
 function AIbehaviorTypeRef.new(fields) return end

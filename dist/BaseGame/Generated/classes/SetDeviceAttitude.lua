@@ -7,7 +7,7 @@
 ---@field public Attitude EAIAttitude
 SetDeviceAttitude = {}
 
----@param fields? table
+---@param fields? SetDeviceAttitude
 ---@return SetDeviceAttitude
 function SetDeviceAttitude.new(fields) return end
 

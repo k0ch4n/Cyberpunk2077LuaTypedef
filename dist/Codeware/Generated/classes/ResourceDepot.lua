@@ -4,7 +4,7 @@
 ---@class ResourceDepot: IScriptable
 ResourceDepot = {}
 
----@param fields? table
+---@param fields? ResourceDepot
 ---@return ResourceDepot
 function ResourceDepot.new(fields) return end
 

@@ -88,7 +88,7 @@
 ---@field private isInteractive Bool
 ScriptableDeviceComponentPS = {}
 
----@param fields? table
+---@param fields? ScriptableDeviceComponentPS
 ---@return ScriptableDeviceComponentPS
 function ScriptableDeviceComponentPS.new(fields) return end
 

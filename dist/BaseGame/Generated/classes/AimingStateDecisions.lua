@@ -29,7 +29,7 @@
 ---@field private mouseZoomLevel Float
 AimingStateDecisions = {}
 
----@param fields? table
+---@param fields? AimingStateDecisions
 ---@return AimingStateDecisions
 function AimingStateDecisions.new(fields) return end
 

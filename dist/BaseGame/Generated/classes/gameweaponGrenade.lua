@@ -6,7 +6,7 @@
 ---@field public deliveryMethod gamedataGrenadeDeliveryMethodType
 gameweaponGrenade = {}
 
----@param fields? table
+---@param fields? gameweaponGrenade
 ---@return gameweaponGrenade
 function gameweaponGrenade.new(fields) return end
 

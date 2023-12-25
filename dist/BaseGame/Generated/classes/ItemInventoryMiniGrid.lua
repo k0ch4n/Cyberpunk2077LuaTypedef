@@ -8,7 +8,7 @@
 ---@field private gridData InventoryItemDisplay[]
 ItemInventoryMiniGrid = {}
 
----@param fields? table
+---@param fields? ItemInventoryMiniGrid
 ---@return ItemInventoryMiniGrid
 function ItemInventoryMiniGrid.new(fields) return end
 

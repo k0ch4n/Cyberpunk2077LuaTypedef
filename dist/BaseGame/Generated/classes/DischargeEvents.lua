@@ -8,7 +8,7 @@
 ---@field private weaponID entEntityID
 DischargeEvents = {}
 
----@param fields? table
+---@param fields? DischargeEvents
 ---@return DischargeEvents
 function DischargeEvents.new(fields) return end
 

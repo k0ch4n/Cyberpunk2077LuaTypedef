@@ -4,6 +4,6 @@
 ---@class AIOwnerThreatCoverSelection: AICoverSelectionParameters
 AIOwnerThreatCoverSelection = {}
 
----@param fields? table
+---@param fields? AIOwnerThreatCoverSelection
 ---@return AIOwnerThreatCoverSelection
 function AIOwnerThreatCoverSelection.new(fields) return end

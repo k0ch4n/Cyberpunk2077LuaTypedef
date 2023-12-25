@@ -8,7 +8,7 @@
 ---@field private selectionMark inkWidgetReference
 characterCreationBodyMorphOptionColorPickerItem = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphOptionColorPickerItem
 ---@return characterCreationBodyMorphOptionColorPickerItem
 function characterCreationBodyMorphOptionColorPickerItem.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private playing Bool
 QuestAnimationMappinController = {}
 
----@param fields? table
+---@param fields? QuestAnimationMappinController
 ---@return QuestAnimationMappinController
 function QuestAnimationMappinController.new(fields) return end
 

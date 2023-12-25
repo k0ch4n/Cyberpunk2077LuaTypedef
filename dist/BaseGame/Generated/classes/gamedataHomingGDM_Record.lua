@@ -4,7 +4,7 @@
 ---@class gamedataHomingGDM_Record: gamedataGrenadeDeliveryMethod_Record
 gamedataHomingGDM_Record = {}
 
----@param fields? table
+---@param fields? gamedataHomingGDM_Record
 ---@return gamedataHomingGDM_Record
 function gamedataHomingGDM_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public context scnRidAnimationContainerSRRefAnimContainerContext
 scnRidAnimationContainerSRRefAnimContainer = {}
 
----@param fields? table
+---@param fields? scnRidAnimationContainerSRRefAnimContainer
 ---@return scnRidAnimationContainerSRRefAnimContainer
 function scnRidAnimationContainerSRRefAnimContainer.new(fields) return end

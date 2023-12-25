@@ -14,6 +14,6 @@
 ---@field public health Float
 RipperdocBarTooltipTooltipData = {}
 
----@param fields? table
+---@param fields? RipperdocBarTooltipTooltipData
 ---@return RipperdocBarTooltipTooltipData
 function RipperdocBarTooltipTooltipData.new(fields) return end

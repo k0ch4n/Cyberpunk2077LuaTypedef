@@ -6,6 +6,6 @@
 ---@field public itemID gameItemID
 VenodrRequestQueueEntry = {}
 
----@param fields? table
+---@param fields? VenodrRequestQueueEntry
 ---@return VenodrRequestQueueEntry
 function VenodrRequestQueueEntry.new(fields) return end

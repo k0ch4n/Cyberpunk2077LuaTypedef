@@ -6,7 +6,7 @@
 ---@field public initialized Bool
 PlayInitFearAnimation = {}
 
----@param fields? table
+---@param fields? PlayInitFearAnimation
 ---@return PlayInitFearAnimation
 function PlayInitFearAnimation.new(fields) return end
 

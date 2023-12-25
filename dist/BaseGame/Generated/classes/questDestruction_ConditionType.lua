@@ -6,6 +6,6 @@
 ---@field public threshold Float
 questDestruction_ConditionType = {}
 
----@param fields? table
+---@param fields? questDestruction_ConditionType
 ---@return questDestruction_ConditionType
 function questDestruction_ConditionType.new(fields) return end

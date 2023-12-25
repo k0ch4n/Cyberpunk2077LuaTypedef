@@ -14,7 +14,7 @@
 ---@field protected outTrafficTryNeighborsForEnd AIArgumentMapping
 AIDriveToNodeCommandHandler = {}
 
----@param fields? table
+---@param fields? AIDriveToNodeCommandHandler
 ---@return AIDriveToNodeCommandHandler
 function AIDriveToNodeCommandHandler.new(fields) return end
 

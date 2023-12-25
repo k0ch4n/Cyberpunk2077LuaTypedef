@@ -26,7 +26,7 @@
 ---@field private discount Float
 VehicleDetailsLogicController = {}
 
----@param fields? table
+---@param fields? VehicleDetailsLogicController
 ---@return VehicleDetailsLogicController
 function VehicleDetailsLogicController.new(fields) return end
 

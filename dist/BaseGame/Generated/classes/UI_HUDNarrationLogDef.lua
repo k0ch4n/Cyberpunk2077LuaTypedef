@@ -5,7 +5,7 @@
 ---@field public LastEvent gamebbScriptID_Variant
 UI_HUDNarrationLogDef = {}
 
----@param fields? table
+---@param fields? UI_HUDNarrationLogDef
 ---@return UI_HUDNarrationLogDef
 function UI_HUDNarrationLogDef.new(fields) return end
 

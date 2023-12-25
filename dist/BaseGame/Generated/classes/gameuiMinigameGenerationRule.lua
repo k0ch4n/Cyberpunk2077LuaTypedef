@@ -11,7 +11,7 @@
 ---@field public isItemBreach Bool
 gameuiMinigameGenerationRule = {}
 
----@param fields? table
+---@param fields? gameuiMinigameGenerationRule
 ---@return gameuiMinigameGenerationRule
 function gameuiMinigameGenerationRule.new(fields) return end
 

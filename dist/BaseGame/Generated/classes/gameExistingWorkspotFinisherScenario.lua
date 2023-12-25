@@ -8,6 +8,6 @@
 ---@field public blendTime Float
 gameExistingWorkspotFinisherScenario = {}
 
----@param fields? table
+---@param fields? gameExistingWorkspotFinisherScenario
 ---@return gameExistingWorkspotFinisherScenario
 function gameExistingWorkspotFinisherScenario.new(fields) return end

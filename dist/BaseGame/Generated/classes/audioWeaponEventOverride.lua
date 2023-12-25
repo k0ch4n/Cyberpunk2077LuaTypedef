@@ -6,6 +6,6 @@
 ---@field public value CName
 audioWeaponEventOverride = {}
 
----@param fields? table
+---@param fields? audioWeaponEventOverride
 ---@return audioWeaponEventOverride
 function audioWeaponEventOverride.new(fields) return end

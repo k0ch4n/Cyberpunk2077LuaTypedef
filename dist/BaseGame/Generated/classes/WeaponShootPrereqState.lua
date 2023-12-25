@@ -11,7 +11,7 @@
 ---@field public remainingAttacks Int32
 WeaponShootPrereqState = {}
 
----@param fields? table
+---@param fields? WeaponShootPrereqState
 ---@return WeaponShootPrereqState
 function WeaponShootPrereqState.new(fields) return end
 

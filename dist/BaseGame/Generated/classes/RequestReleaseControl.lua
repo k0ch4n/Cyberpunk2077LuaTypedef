@@ -6,6 +6,6 @@
 ---@field public followupEventEntityID entEntityID
 RequestReleaseControl = {}
 
----@param fields? table
+---@param fields? RequestReleaseControl
 ---@return RequestReleaseControl
 function RequestReleaseControl.new(fields) return end

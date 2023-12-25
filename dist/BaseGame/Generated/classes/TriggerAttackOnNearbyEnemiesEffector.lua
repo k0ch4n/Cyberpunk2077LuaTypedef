@@ -14,7 +14,7 @@
 ---@field public enemySlotTransform CName
 TriggerAttackOnNearbyEnemiesEffector = {}
 
----@param fields? table
+---@param fields? TriggerAttackOnNearbyEnemiesEffector
 ---@return TriggerAttackOnNearbyEnemiesEffector
 function TriggerAttackOnNearbyEnemiesEffector.new(fields) return end
 

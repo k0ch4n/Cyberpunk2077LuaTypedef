@@ -4,7 +4,7 @@
 ---@class SmartWindowViabilityInterpreter: IScriptable
 SmartWindowViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? SmartWindowViabilityInterpreter
 ---@return SmartWindowViabilityInterpreter
 function SmartWindowViabilityInterpreter.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIEntityStubHandlerProviderSystem: AIIEntityStubHandlerProviderSystem
 AIEntityStubHandlerProviderSystem = {}
 
----@param fields? table
+---@param fields? AIEntityStubHandlerProviderSystem
 ---@return AIEntityStubHandlerProviderSystem
 function AIEntityStubHandlerProviderSystem.new(fields) return end

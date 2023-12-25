@@ -6,6 +6,6 @@
 ---@field public elements SNewsFeedElementData[]
 SNewsFeedData = {}
 
----@param fields? table
+---@param fields? SNewsFeedData
 ---@return SNewsFeedData
 function SNewsFeedData.new(fields) return end

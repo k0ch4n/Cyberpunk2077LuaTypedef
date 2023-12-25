@@ -8,6 +8,6 @@
 ---@field public previewSettings inkCompositionPreviewSettings
 inkFullscreenCompositionResource = {}
 
----@param fields? table
+---@param fields? inkFullscreenCompositionResource
 ---@return inkFullscreenCompositionResource
 function inkFullscreenCompositionResource.new(fields) return end

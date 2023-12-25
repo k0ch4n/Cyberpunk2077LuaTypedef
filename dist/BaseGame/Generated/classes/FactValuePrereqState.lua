@@ -5,7 +5,7 @@
 ---@field public listenerID Uint32
 FactValuePrereqState = {}
 
----@param fields? table
+---@param fields? FactValuePrereqState
 ---@return FactValuePrereqState
 function FactValuePrereqState.new(fields) return end
 

@@ -13,6 +13,6 @@
 ---@field public entrySlotName CName
 questAssignCharacter_NodeType = {}
 
----@param fields? table
+---@param fields? questAssignCharacter_NodeType
 ---@return questAssignCharacter_NodeType
 function questAssignCharacter_NodeType.new(fields) return end

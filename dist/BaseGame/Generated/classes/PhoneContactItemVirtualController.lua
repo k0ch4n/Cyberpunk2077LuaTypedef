@@ -22,7 +22,7 @@
 ---@field protected root inkWidget
 PhoneContactItemVirtualController = {}
 
----@param fields? table
+---@param fields? PhoneContactItemVirtualController
 ---@return PhoneContactItemVirtualController
 function PhoneContactItemVirtualController.new(fields) return end
 

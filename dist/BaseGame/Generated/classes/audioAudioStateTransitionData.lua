@@ -11,6 +11,6 @@
 ---@field public conditions CName[]
 audioAudioStateTransitionData = {}
 
----@param fields? table
+---@param fields? audioAudioStateTransitionData
 ---@return audioAudioStateTransitionData
 function audioAudioStateTransitionData.new(fields) return end

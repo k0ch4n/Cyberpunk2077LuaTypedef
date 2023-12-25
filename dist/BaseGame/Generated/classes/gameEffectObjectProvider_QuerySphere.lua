@@ -7,6 +7,6 @@
 ---@field public queryPreset physicsQueryPreset
 gameEffectObjectProvider_QuerySphere = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_QuerySphere
 ---@return gameEffectObjectProvider_QuerySphere
 function gameEffectObjectProvider_QuerySphere.new(fields) return end

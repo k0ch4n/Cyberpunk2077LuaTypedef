@@ -13,6 +13,6 @@
 ---@field public finishWhenDestinationReached Bool
 AIMoveToCommand = {}
 
----@param fields? table
+---@param fields? AIMoveToCommand
 ---@return AIMoveToCommand
 function AIMoveToCommand.new(fields) return end

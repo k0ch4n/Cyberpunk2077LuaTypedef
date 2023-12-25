@@ -28,7 +28,7 @@
 ---@field private uiScriptableSystem UIScriptableSystem
 QuickHackDescriptionGameController = {}
 
----@param fields? table
+---@param fields? QuickHackDescriptionGameController
 ---@return QuickHackDescriptionGameController
 function QuickHackDescriptionGameController.new(fields) return end
 

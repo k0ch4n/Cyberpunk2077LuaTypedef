@@ -4,7 +4,7 @@
 ---@class gamedataTweakDBInterface: IScriptable
 gamedataTweakDBInterface = {}
 
----@param fields? table
+---@param fields? gamedataTweakDBInterface
 ---@return gamedataTweakDBInterface
 function gamedataTweakDBInterface.new(fields) return end
 

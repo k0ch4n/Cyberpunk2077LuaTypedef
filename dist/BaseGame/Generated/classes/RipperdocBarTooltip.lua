@@ -47,7 +47,7 @@
 ---@field private armorPerk1LocKey CName
 RipperdocBarTooltip = {}
 
----@param fields? table
+---@param fields? RipperdocBarTooltip
 ---@return RipperdocBarTooltip
 function RipperdocBarTooltip.new(fields) return end
 

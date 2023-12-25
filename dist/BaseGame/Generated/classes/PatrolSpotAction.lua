@@ -5,7 +5,7 @@
 ---@field public patrolAction AIArgumentMapping
 PatrolSpotAction = {}
 
----@param fields? table
+---@param fields? PatrolSpotAction
 ---@return PatrolSpotAction
 function PatrolSpotAction.new(fields) return end
 

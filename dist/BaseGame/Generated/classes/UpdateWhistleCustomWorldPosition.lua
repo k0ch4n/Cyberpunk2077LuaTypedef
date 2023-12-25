@@ -5,7 +5,7 @@
 ---@field public outPositionArgument AIArgumentMapping
 UpdateWhistleCustomWorldPosition = {}
 
----@param fields? table
+---@param fields? UpdateWhistleCustomWorldPosition
 ---@return UpdateWhistleCustomWorldPosition
 function UpdateWhistleCustomWorldPosition.new(fields) return end
 

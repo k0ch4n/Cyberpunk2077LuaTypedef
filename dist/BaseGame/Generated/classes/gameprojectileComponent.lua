@@ -18,7 +18,7 @@
 ---@field public gameEffectRef gameEffectRef
 gameprojectileComponent = {}
 
----@param fields? table
+---@param fields? gameprojectileComponent
 ---@return gameprojectileComponent
 function gameprojectileComponent.new(fields) return end
 

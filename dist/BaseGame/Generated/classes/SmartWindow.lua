@@ -4,7 +4,7 @@
 ---@class SmartWindow: Computer
 SmartWindow = {}
 
----@param fields? table
+---@param fields? SmartWindow
 ---@return SmartWindow
 function SmartWindow.new(fields) return end
 

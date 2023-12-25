@@ -7,6 +7,6 @@
 ---@field public quantity Uint32
 gameMuppetInventorySlotInfo = {}
 
----@param fields? table
+---@param fields? gameMuppetInventorySlotInfo
 ---@return gameMuppetInventorySlotInfo
 function gameMuppetInventorySlotInfo.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public sceneChanges scnScenesVersionsChangedRecord[]
 scnScenesVersionsSceneChanges = {}
 
----@param fields? table
+---@param fields? scnScenesVersionsSceneChanges
 ---@return scnScenesVersionsSceneChanges
 function scnScenesVersionsSceneChanges.new(fields) return end

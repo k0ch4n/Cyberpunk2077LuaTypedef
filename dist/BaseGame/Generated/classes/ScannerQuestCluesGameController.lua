@@ -11,7 +11,7 @@
 ---@field private asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerQuestCluesGameController = {}
 
----@param fields? table
+---@param fields? ScannerQuestCluesGameController
 ---@return ScannerQuestCluesGameController
 function ScannerQuestCluesGameController.new(fields) return end
 

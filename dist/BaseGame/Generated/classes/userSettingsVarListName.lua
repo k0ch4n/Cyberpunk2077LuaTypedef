@@ -4,7 +4,7 @@
 ---@class userSettingsVarListName: userSettingsVar
 userSettingsVarListName = {}
 
----@param fields? table
+---@param fields? userSettingsVarListName
 ---@return userSettingsVarListName
 function userSettingsVarListName.new(fields) return end
 

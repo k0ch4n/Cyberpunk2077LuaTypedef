@@ -4,7 +4,7 @@
 ---@class TerminalController: MasterController
 TerminalController = {}
 
----@param fields? table
+---@param fields? TerminalController
 ---@return TerminalController
 function TerminalController.new(fields) return end
 

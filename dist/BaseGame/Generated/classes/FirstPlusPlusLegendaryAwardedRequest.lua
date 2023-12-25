@@ -4,6 +4,6 @@
 ---@class FirstPlusPlusLegendaryAwardedRequest: gameScriptableSystemRequest
 FirstPlusPlusLegendaryAwardedRequest = {}
 
----@param fields? table
+---@param fields? FirstPlusPlusLegendaryAwardedRequest
 ---@return FirstPlusPlusLegendaryAwardedRequest
 function FirstPlusPlusLegendaryAwardedRequest.new(fields) return end

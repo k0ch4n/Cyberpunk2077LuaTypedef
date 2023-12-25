@@ -7,7 +7,7 @@
 ---@field public level Int32
 PlayerIsNewPerkBoughtPrereq = {}
 
----@param fields? table
+---@param fields? PlayerIsNewPerkBoughtPrereq
 ---@return PlayerIsNewPerkBoughtPrereq
 function PlayerIsNewPerkBoughtPrereq.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public script AIbehavioreventResolverScript
 AIbehaviorScriptEventResolverDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptEventResolverDefinition
 ---@return AIbehaviorScriptEventResolverDefinition
 function AIbehaviorScriptEventResolverDefinition.new(fields) return end

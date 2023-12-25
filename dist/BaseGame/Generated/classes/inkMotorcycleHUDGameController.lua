@@ -44,7 +44,7 @@
 ---@field private fluffBlinking inkanimController
 inkMotorcycleHUDGameController = {}
 
----@param fields? table
+---@param fields? inkMotorcycleHUDGameController
 ---@return inkMotorcycleHUDGameController
 function inkMotorcycleHUDGameController.new(fields) return end
 

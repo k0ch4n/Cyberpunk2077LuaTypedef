@@ -4,7 +4,7 @@
 ---@class RoadBlockTrapController: MasterController
 RoadBlockTrapController = {}
 
----@param fields? table
+---@param fields? RoadBlockTrapController
 ---@return RoadBlockTrapController
 function RoadBlockTrapController.new(fields) return end
 

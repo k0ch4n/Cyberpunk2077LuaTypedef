@@ -8,7 +8,7 @@
 ---@field protected itemIDName TweakDBID
 CheckEquippedWeapon = {}
 
----@param fields? table
+---@param fields? CheckEquippedWeapon
 ---@return CheckEquippedWeapon
 function CheckEquippedWeapon.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public intensity Float
 SetGlitchOnUIEvent = {}
 
----@param fields? table
+---@param fields? SetGlitchOnUIEvent
 ---@return SetGlitchOnUIEvent
 function SetGlitchOnUIEvent.new(fields) return end
 

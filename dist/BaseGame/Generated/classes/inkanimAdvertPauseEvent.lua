@@ -4,6 +4,6 @@
 ---@class inkanimAdvertPauseEvent: inkanimEvent
 inkanimAdvertPauseEvent = {}
 
----@param fields? table
+---@param fields? inkanimAdvertPauseEvent
 ---@return inkanimAdvertPauseEvent
 function inkanimAdvertPauseEvent.new(fields) return end

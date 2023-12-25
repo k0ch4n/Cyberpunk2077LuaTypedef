@@ -7,7 +7,7 @@
 ---@field public content inkWidgetReference
 sampleStyleManagerGameController = {}
 
----@param fields? table
+---@param fields? sampleStyleManagerGameController
 ---@return sampleStyleManagerGameController
 function sampleStyleManagerGameController.new(fields) return end
 

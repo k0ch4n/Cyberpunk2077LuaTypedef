@@ -13,7 +13,7 @@
 ---@field private isCLSInitialized Bool
 FuseControllerPS = {}
 
----@param fields? table
+---@param fields? FuseControllerPS
 ---@return FuseControllerPS
 function FuseControllerPS.new(fields) return end
 

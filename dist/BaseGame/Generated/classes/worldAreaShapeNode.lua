@@ -6,6 +6,6 @@
 ---@field public outline AreaShapeOutline
 worldAreaShapeNode = {}
 
----@param fields? table
+---@param fields? worldAreaShapeNode
 ---@return worldAreaShapeNode
 function worldAreaShapeNode.new(fields) return end

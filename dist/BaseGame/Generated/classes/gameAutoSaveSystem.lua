@@ -4,7 +4,7 @@
 ---@class gameAutoSaveSystem: gameIAutoSaveSystem
 gameAutoSaveSystem = {}
 
----@param fields? table
+---@param fields? gameAutoSaveSystem
 ---@return gameAutoSaveSystem
 function gameAutoSaveSystem.new(fields) return end
 

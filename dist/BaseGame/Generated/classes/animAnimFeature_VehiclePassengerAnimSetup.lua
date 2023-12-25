@@ -6,6 +6,6 @@
 ---@field public additiveScale Float
 animAnimFeature_VehiclePassengerAnimSetup = {}
 
----@param fields? table
+---@param fields? animAnimFeature_VehiclePassengerAnimSetup
 ---@return animAnimFeature_VehiclePassengerAnimSetup
 function animAnimFeature_VehiclePassengerAnimSetup.new(fields) return end

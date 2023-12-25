@@ -6,6 +6,6 @@
 ---@field public rawDataHeaders meshLocalMaterialHeader[]
 meshMeshMaterialBuffer = {}
 
----@param fields? table
+---@param fields? meshMeshMaterialBuffer
 ---@return meshMeshMaterialBuffer
 function meshMeshMaterialBuffer.new(fields) return end

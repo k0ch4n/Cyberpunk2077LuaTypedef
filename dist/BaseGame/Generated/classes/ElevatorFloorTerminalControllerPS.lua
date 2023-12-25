@@ -7,7 +7,7 @@
 ---@field protected isElevatorAtThisFloor Bool
 ElevatorFloorTerminalControllerPS = {}
 
----@param fields? table
+---@param fields? ElevatorFloorTerminalControllerPS
 ---@return ElevatorFloorTerminalControllerPS
 function ElevatorFloorTerminalControllerPS.new(fields) return end
 

@@ -25,7 +25,7 @@
 ---@field protected activeAnimations inkanimProxy[]
 hubSelectorSingleCarouselController = {}
 
----@param fields? table
+---@param fields? hubSelectorSingleCarouselController
 ---@return hubSelectorSingleCarouselController
 function hubSelectorSingleCarouselController.new(fields) return end
 

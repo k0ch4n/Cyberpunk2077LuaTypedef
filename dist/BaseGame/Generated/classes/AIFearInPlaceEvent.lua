@@ -4,6 +4,6 @@
 ---@class AIFearInPlaceEvent: AIAIEvent
 AIFearInPlaceEvent = {}
 
----@param fields? table
+---@param fields? AIFearInPlaceEvent
 ---@return AIFearInPlaceEvent
 function AIFearInPlaceEvent.new(fields) return end

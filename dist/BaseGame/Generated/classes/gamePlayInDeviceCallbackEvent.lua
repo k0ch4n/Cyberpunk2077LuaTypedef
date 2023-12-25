@@ -5,6 +5,6 @@
 ---@field public wasPlayInDeviceSuccessful Bool
 gamePlayInDeviceCallbackEvent = {}
 
----@param fields? table
+---@param fields? gamePlayInDeviceCallbackEvent
 ---@return gamePlayInDeviceCallbackEvent
 function gamePlayInDeviceCallbackEvent.new(fields) return end

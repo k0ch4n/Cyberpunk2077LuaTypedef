@@ -9,7 +9,7 @@
 ---@field private Owner gameObject
 MessageCounterController = {}
 
----@param fields? table
+---@param fields? MessageCounterController
 ---@return MessageCounterController
 function MessageCounterController.new(fields) return end
 

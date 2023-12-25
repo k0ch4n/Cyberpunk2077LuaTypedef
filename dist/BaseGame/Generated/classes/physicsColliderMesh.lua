@@ -6,6 +6,6 @@
 ---@field public compiledGeometryBuffer DataBuffer
 physicsColliderMesh = {}
 
----@param fields? table
+---@param fields? physicsColliderMesh
 ---@return physicsColliderMesh
 function physicsColliderMesh.new(fields) return end

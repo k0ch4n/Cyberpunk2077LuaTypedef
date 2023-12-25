@@ -7,7 +7,7 @@
 ---@field public debug Bool
 AddExperience = {}
 
----@param fields? table
+---@param fields? AddExperience
 ---@return AddExperience
 function AddExperience.new(fields) return end
 

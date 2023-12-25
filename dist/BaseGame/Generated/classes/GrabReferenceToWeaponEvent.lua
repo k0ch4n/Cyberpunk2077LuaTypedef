@@ -4,6 +4,6 @@
 ---@class GrabReferenceToWeaponEvent: redEvent
 GrabReferenceToWeaponEvent = {}
 
----@param fields? table
+---@param fields? GrabReferenceToWeaponEvent
 ---@return GrabReferenceToWeaponEvent
 function GrabReferenceToWeaponEvent.new(fields) return end

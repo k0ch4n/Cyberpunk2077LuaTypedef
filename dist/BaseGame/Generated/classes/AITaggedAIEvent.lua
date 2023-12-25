@@ -5,7 +5,7 @@
 ---@field public tags CName[]
 AITaggedAIEvent = {}
 
----@param fields? table
+---@param fields? AITaggedAIEvent
 ---@return AITaggedAIEvent
 function AITaggedAIEvent.new(fields) return end
 

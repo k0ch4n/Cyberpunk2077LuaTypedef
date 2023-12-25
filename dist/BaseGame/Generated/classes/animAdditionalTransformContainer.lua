@@ -5,6 +5,6 @@
 ---@field public entries animAdditionalTransformEntry[]
 animAdditionalTransformContainer = {}
 
----@param fields? table
+---@param fields? animAdditionalTransformContainer
 ---@return animAdditionalTransformContainer
 function animAdditionalTransformContainer.new(fields) return end

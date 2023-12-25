@@ -5,7 +5,7 @@
 ---@field public owner vehicleBaseObject
 VehicleHealthStatPoolListener = {}
 
----@param fields? table
+---@param fields? VehicleHealthStatPoolListener
 ---@return VehicleHealthStatPoolListener
 function VehicleHealthStatPoolListener.new(fields) return end
 

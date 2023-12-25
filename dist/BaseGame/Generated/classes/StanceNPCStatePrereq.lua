@@ -5,7 +5,7 @@
 ---@field public valueToListen gamedataNPCStanceState
 StanceNPCStatePrereq = {}
 
----@param fields? table
+---@param fields? StanceNPCStatePrereq
 ---@return StanceNPCStatePrereq
 function StanceNPCStatePrereq.new(fields) return end
 

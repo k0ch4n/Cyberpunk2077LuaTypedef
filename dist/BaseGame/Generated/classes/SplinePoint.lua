@@ -10,6 +10,6 @@
 ---@field public id Uint32
 SplinePoint = {}
 
----@param fields? table
+---@param fields? SplinePoint
 ---@return SplinePoint
 function SplinePoint.new(fields) return end

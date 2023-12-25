@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 MetroSignSelector = {}
 
----@param fields? table
+---@param fields? MetroSignSelector
 ---@return MetroSignSelector
 function MetroSignSelector.new(fields) return end
 

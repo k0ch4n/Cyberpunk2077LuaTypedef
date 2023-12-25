@@ -4,6 +4,6 @@
 ---@class gamestateMachineStateMachineBody: gamestateMachineIStateMachineBody
 gamestateMachineStateMachineBody = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateMachineBody
 ---@return gamestateMachineStateMachineBody
 function gamestateMachineStateMachineBody.new(fields) return end

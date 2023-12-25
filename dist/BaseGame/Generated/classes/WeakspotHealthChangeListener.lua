@@ -7,7 +7,7 @@
 ---@field private statPoolSystem gameStatPoolsSystem
 WeakspotHealthChangeListener = {}
 
----@param fields? table
+---@param fields? WeakspotHealthChangeListener
 ---@return WeakspotHealthChangeListener
 function WeakspotHealthChangeListener.new(fields) return end
 

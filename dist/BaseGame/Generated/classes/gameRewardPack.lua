@@ -11,6 +11,6 @@
 ---@field public rewards Uint64[]
 gameRewardPack = {}
 
----@param fields? table
+---@param fields? gameRewardPack
 ---@return gameRewardPack
 function gameRewardPack.new(fields) return end

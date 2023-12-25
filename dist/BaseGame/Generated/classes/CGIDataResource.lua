@@ -6,6 +6,6 @@
 ---@field public sectorHash Uint64
 CGIDataResource = {}
 
----@param fields? table
+---@param fields? CGIDataResource
 ---@return CGIDataResource
 function CGIDataResource.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public weaponUnequipRequestSent Bool
 PublicSafeEvents = {}
 
----@param fields? table
+---@param fields? PublicSafeEvents
 ---@return PublicSafeEvents
 function PublicSafeEvents.new(fields) return end
 

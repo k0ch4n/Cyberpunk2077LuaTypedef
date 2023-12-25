@@ -12,7 +12,7 @@
 ---@field protected InventoryManager InventoryDataManagerV2
 InventoryItemsList = {}
 
----@param fields? table
+---@param fields? InventoryItemsList
 ---@return InventoryItemsList
 function InventoryItemsList.new(fields) return end
 

@@ -16,7 +16,7 @@
 ---@field public active Bool
 DynamicEntitySpec = {}
 
----@param fields? table
+---@param fields? DynamicEntitySpec
 ---@return DynamicEntitySpec
 function DynamicEntitySpec.new(fields) return end
 

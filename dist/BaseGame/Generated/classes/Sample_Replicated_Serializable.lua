@@ -5,6 +5,6 @@
 ---@field public property Bool
 Sample_Replicated_Serializable = {}
 
----@param fields? table
+---@param fields? Sample_Replicated_Serializable
 ---@return Sample_Replicated_Serializable
 function Sample_Replicated_Serializable.new(fields) return end

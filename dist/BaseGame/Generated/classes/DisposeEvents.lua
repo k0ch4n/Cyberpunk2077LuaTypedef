@@ -4,7 +4,7 @@
 ---@class DisposeEvents: CarriedObjectEvents
 DisposeEvents = {}
 
----@param fields? table
+---@param fields? DisposeEvents
 ---@return DisposeEvents
 function DisposeEvents.new(fields) return end
 

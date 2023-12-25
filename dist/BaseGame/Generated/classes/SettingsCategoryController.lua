@@ -5,7 +5,7 @@
 ---@field protected label inkTextWidgetReference
 SettingsCategoryController = {}
 
----@param fields? table
+---@param fields? SettingsCategoryController
 ---@return SettingsCategoryController
 function SettingsCategoryController.new(fields) return end
 

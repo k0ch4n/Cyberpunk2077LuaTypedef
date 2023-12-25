@@ -4,6 +4,6 @@
 ---@class gameAppearancesReadyTPPRepresentationEvent: redEvent
 gameAppearancesReadyTPPRepresentationEvent = {}
 
----@param fields? table
+---@param fields? gameAppearancesReadyTPPRepresentationEvent
 ---@return gameAppearancesReadyTPPRepresentationEvent
 function gameAppearancesReadyTPPRepresentationEvent.new(fields) return end

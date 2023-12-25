@@ -4,6 +4,6 @@
 ---@class Blacklist: MorphData
 Blacklist = {}
 
----@param fields? table
+---@param fields? Blacklist
 ---@return Blacklist
 function Blacklist.new(fields) return end

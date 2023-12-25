@@ -4,7 +4,7 @@
 ---@class SetStressOnTrafficLane: AIbehaviortaskScript
 SetStressOnTrafficLane = {}
 
----@param fields? table
+---@param fields? SetStressOnTrafficLane
 ---@return SetStressOnTrafficLane
 function SetStressOnTrafficLane.new(fields) return end
 

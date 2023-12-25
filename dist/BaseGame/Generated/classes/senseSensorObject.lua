@@ -11,6 +11,6 @@
 ---@field public sensorObjectType gamedataSenseObjectType
 senseSensorObject = {}
 
----@param fields? table
+---@param fields? senseSensorObject
 ---@return senseSensorObject
 function senseSensorObject.new(fields) return end

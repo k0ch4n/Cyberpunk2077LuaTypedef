@@ -6,6 +6,6 @@
 ---@field public customActions SCustomDeviceActionsData
 SGenericDevicePersistentData = {}
 
----@param fields? table
+---@param fields? SGenericDevicePersistentData
 ---@return SGenericDevicePersistentData
 function SGenericDevicePersistentData.new(fields) return end

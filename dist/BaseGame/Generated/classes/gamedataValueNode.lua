@@ -6,6 +6,6 @@
 ---@field public group gamedataGroupNode
 gamedataValueNode = {}
 
----@param fields? table
+---@param fields? gamedataValueNode
 ---@return gamedataValueNode
 function gamedataValueNode.new(fields) return end

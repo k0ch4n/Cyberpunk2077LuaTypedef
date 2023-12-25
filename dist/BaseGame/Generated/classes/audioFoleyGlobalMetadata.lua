@@ -6,6 +6,6 @@
 ---@field public fadeoutRtpc CName
 audioFoleyGlobalMetadata = {}
 
----@param fields? table
+---@param fields? audioFoleyGlobalMetadata
 ---@return audioFoleyGlobalMetadata
 function audioFoleyGlobalMetadata.new(fields) return end

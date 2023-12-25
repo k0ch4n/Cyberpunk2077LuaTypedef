@@ -5,6 +5,6 @@
 ---@field public isScannableThroughWalls Bool
 gameSetScannableThroughWallsEvent = {}
 
----@param fields? table
+---@param fields? gameSetScannableThroughWallsEvent
 ---@return gameSetScannableThroughWallsEvent
 function gameSetScannableThroughWallsEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class questCharacterEquippedItemAttachmentSlotsListener: gameIAttachmentSlotsListener
 questCharacterEquippedItemAttachmentSlotsListener = {}
 
----@param fields? table
+---@param fields? questCharacterEquippedItemAttachmentSlotsListener
 ---@return questCharacterEquippedItemAttachmentSlotsListener
 function questCharacterEquippedItemAttachmentSlotsListener.new(fields) return end

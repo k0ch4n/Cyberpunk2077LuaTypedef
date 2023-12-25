@@ -4,7 +4,7 @@
 ---@class SinglePlayerPrereq: gameIScriptablePrereq
 SinglePlayerPrereq = {}
 
----@param fields? table
+---@param fields? SinglePlayerPrereq
 ---@return SinglePlayerPrereq
 function SinglePlayerPrereq.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public white ScriptLightSettings
 LedColors_SensorDevice = {}
 
----@param fields? table
+---@param fields? LedColors_SensorDevice
 ---@return LedColors_SensorDevice
 function LedColors_SensorDevice.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field protected onItemAddedToSlotCbId Uint32
 PassiveNoWeaponCombatConditions = {}
 
----@param fields? table
+---@param fields? PassiveNoWeaponCombatConditions
 ---@return PassiveNoWeaponCombatConditions
 function PassiveNoWeaponCombatConditions.new(fields) return end
 

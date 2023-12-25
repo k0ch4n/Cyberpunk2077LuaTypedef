@@ -18,7 +18,7 @@
 ---@field private canFireOutOfCover Bool
 AIBackgroundCombatDelegate = {}
 
----@param fields? table
+---@param fields? AIBackgroundCombatDelegate
 ---@return AIBackgroundCombatDelegate
 function AIBackgroundCombatDelegate.new(fields) return end
 

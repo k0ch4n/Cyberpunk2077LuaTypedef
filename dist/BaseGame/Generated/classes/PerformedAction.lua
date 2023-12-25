@@ -5,6 +5,6 @@
 ---@field public action gamedeviceAction
 PerformedAction = {}
 
----@param fields? table
+---@param fields? PerformedAction
 ---@return PerformedAction
 function PerformedAction.new(fields) return end

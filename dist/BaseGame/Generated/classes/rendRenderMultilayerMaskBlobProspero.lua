@@ -4,6 +4,6 @@
 ---@class rendRenderMultilayerMaskBlobProspero: rendRenderMultilayerMaskBlob
 rendRenderMultilayerMaskBlobProspero = {}
 
----@param fields? table
+---@param fields? rendRenderMultilayerMaskBlobProspero
 ---@return rendRenderMultilayerMaskBlobProspero
 function rendRenderMultilayerMaskBlobProspero.new(fields) return end

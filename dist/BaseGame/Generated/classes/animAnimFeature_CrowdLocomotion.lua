@@ -7,6 +7,6 @@
 ---@field public isCrowd Bool
 animAnimFeature_CrowdLocomotion = {}
 
----@param fields? table
+---@param fields? animAnimFeature_CrowdLocomotion
 ---@return animAnimFeature_CrowdLocomotion
 function animAnimFeature_CrowdLocomotion.new(fields) return end

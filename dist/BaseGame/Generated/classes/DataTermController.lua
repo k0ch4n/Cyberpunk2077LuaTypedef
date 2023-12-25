@@ -4,7 +4,7 @@
 ---@class DataTermController: ScriptableDeviceComponent
 DataTermController = {}
 
----@param fields? table
+---@param fields? DataTermController
 ---@return DataTermController
 function DataTermController.new(fields) return end
 

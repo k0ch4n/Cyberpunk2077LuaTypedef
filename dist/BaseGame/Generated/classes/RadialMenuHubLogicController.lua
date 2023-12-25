@@ -33,7 +33,7 @@
 ---@field private panelHoverOutAnimProxy inkanimProxy
 RadialMenuHubLogicController = {}
 
----@param fields? table
+---@param fields? RadialMenuHubLogicController
 ---@return RadialMenuHubLogicController
 function RadialMenuHubLogicController.new(fields) return end
 

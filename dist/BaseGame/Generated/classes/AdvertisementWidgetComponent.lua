@@ -10,7 +10,7 @@
 ---@field public useOnlyAttachedLights Bool
 AdvertisementWidgetComponent = {}
 
----@param fields? table
+---@param fields? AdvertisementWidgetComponent
 ---@return AdvertisementWidgetComponent
 function AdvertisementWidgetComponent.new(fields) return end
 

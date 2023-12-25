@@ -9,6 +9,6 @@
 ---@field public sucess Bool
 RewireEvent = {}
 
----@param fields? table
+---@param fields? RewireEvent
 ---@return RewireEvent
 function RewireEvent.new(fields) return end

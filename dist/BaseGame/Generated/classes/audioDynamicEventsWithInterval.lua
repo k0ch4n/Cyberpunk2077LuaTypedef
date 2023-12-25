@@ -6,6 +6,6 @@
 ---@field public interval Float
 audioDynamicEventsWithInterval = {}
 
----@param fields? table
+---@param fields? audioDynamicEventsWithInterval
 ---@return audioDynamicEventsWithInterval
 function audioDynamicEventsWithInterval.new(fields) return end

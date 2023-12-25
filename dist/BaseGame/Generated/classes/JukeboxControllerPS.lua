@@ -7,7 +7,7 @@
 ---@field protected isPlaying Bool
 JukeboxControllerPS = {}
 
----@param fields? table
+---@param fields? JukeboxControllerPS
 ---@return JukeboxControllerPS
 function JukeboxControllerPS.new(fields) return end
 

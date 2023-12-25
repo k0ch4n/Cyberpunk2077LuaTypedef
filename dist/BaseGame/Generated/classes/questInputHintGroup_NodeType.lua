@@ -9,6 +9,6 @@
 ---@field public localizedDescription String
 questInputHintGroup_NodeType = {}
 
----@param fields? table
+---@param fields? questInputHintGroup_NodeType
 ---@return questInputHintGroup_NodeType
 function questInputHintGroup_NodeType.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class redTOMLArrayFloat: redTOMLBaseValue
 redTOMLArrayFloat = {}
 
----@param fields? table
+---@param fields? redTOMLArrayFloat
 ---@return redTOMLArrayFloat
 function redTOMLArrayFloat.new(fields) return end

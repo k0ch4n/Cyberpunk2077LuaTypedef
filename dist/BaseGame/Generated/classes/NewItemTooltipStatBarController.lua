@@ -17,7 +17,7 @@
 ---@field private width Float
 NewItemTooltipStatBarController = {}
 
----@param fields? table
+---@param fields? NewItemTooltipStatBarController
 ---@return NewItemTooltipStatBarController
 function NewItemTooltipStatBarController.new(fields) return end
 

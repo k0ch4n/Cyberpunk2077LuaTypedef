@@ -4,7 +4,7 @@
 ---@class inkGameNotificationToken: IScriptable
 inkGameNotificationToken = {}
 
----@param fields? table
+---@param fields? inkGameNotificationToken
 ---@return inkGameNotificationToken
 function inkGameNotificationToken.new(fields) return end
 

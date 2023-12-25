@@ -13,6 +13,6 @@
 ---@field public smartAudioEventsDelays Float[]
 gamesmartGunUIParameters = {}
 
----@param fields? table
+---@param fields? gamesmartGunUIParameters
 ---@return gamesmartGunUIParameters
 function gamesmartGunUIParameters.new(fields) return end

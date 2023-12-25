@@ -4,7 +4,7 @@
 ---@class IsPlayerControlsDevicePrereq: gameIScriptablePrereq
 IsPlayerControlsDevicePrereq = {}
 
----@param fields? table
+---@param fields? IsPlayerControlsDevicePrereq
 ---@return IsPlayerControlsDevicePrereq
 function IsPlayerControlsDevicePrereq.new(fields) return end
 

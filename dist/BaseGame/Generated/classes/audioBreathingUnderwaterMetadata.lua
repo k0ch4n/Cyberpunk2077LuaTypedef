@@ -11,6 +11,6 @@
 ---@field public lowOxygen Float
 audioBreathingUnderwaterMetadata = {}
 
----@param fields? table
+---@param fields? audioBreathingUnderwaterMetadata
 ---@return audioBreathingUnderwaterMetadata
 function audioBreathingUnderwaterMetadata.new(fields) return end

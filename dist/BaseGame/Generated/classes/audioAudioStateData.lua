@@ -11,6 +11,6 @@
 ---@field public writeVariableActions audioAudioSceneVariableWriteActionData[]
 audioAudioStateData = {}
 
----@param fields? table
+---@param fields? audioAudioStateData
 ---@return audioAudioStateData
 function audioAudioStateData.new(fields) return end

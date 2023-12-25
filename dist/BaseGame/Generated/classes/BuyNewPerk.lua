@@ -4,6 +4,6 @@
 ---@class BuyNewPerk: NewPerkActionRequest
 BuyNewPerk = {}
 
----@param fields? table
+---@param fields? BuyNewPerk
 ---@return BuyNewPerk
 function BuyNewPerk.new(fields) return end

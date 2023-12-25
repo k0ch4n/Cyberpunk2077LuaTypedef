@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemEffectAttachments: worldIRuntimeSystem
 worldRuntimeSystemEffectAttachments = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemEffectAttachments
 ---@return worldRuntimeSystemEffectAttachments
 function worldRuntimeSystemEffectAttachments.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public meleeSoundsByMaterial audioMaterialMeleeSoundDictionary
 audioMeleeHitSoundMetadata = {}
 
----@param fields? table
+---@param fields? audioMeleeHitSoundMetadata
 ---@return audioMeleeHitSoundMetadata
 function audioMeleeHitSoundMetadata.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private dependableEntities NodeRef[]
 sampleVisWireMasterTwo = {}
 
----@param fields? table
+---@param fields? sampleVisWireMasterTwo
 ---@return sampleVisWireMasterTwo
 function sampleVisWireMasterTwo.new(fields) return end
 

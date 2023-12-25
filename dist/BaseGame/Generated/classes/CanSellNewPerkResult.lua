@@ -8,6 +8,6 @@
 ---@field public perkType gamedataNewPerkType
 CanSellNewPerkResult = {}
 
----@param fields? table
+---@param fields? CanSellNewPerkResult
 ---@return CanSellNewPerkResult
 function CanSellNewPerkResult.new(fields) return end

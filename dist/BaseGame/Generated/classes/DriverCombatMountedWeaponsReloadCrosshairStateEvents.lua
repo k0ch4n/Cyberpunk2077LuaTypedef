@@ -4,6 +4,6 @@
 ---@class DriverCombatMountedWeaponsReloadCrosshairStateEvents: BaseCrosshairStateEvents
 DriverCombatMountedWeaponsReloadCrosshairStateEvents = {}
 
----@param fields? table
+---@param fields? DriverCombatMountedWeaponsReloadCrosshairStateEvents
 ---@return DriverCombatMountedWeaponsReloadCrosshairStateEvents
 function DriverCombatMountedWeaponsReloadCrosshairStateEvents.new(fields) return end

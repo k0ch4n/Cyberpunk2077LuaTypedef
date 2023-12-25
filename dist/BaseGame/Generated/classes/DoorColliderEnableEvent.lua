@@ -4,6 +4,6 @@
 ---@class DoorColliderEnableEvent: redEvent
 DoorColliderEnableEvent = {}
 
----@param fields? table
+---@param fields? DoorColliderEnableEvent
 ---@return DoorColliderEnableEvent
 function DoorColliderEnableEvent.new(fields) return end

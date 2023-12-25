@@ -6,6 +6,6 @@
 ---@field public enableRagdoll Bool
 questCharacterManagerCombat_ManageRagdoll = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_ManageRagdoll
 ---@return questCharacterManagerCombat_ManageRagdoll
 function questCharacterManagerCombat_ManageRagdoll.new(fields) return end

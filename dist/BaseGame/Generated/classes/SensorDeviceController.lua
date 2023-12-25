@@ -4,7 +4,7 @@
 ---@class SensorDeviceController: ExplosiveDeviceController
 SensorDeviceController = {}
 
----@param fields? table
+---@param fields? SensorDeviceController
 ---@return SensorDeviceController
 function SensorDeviceController.new(fields) return end
 

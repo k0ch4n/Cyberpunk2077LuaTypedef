@@ -7,7 +7,7 @@
 ---@field public player PlayerPuppet
 CurrencyUpdateCallback = {}
 
----@param fields? table
+---@param fields? CurrencyUpdateCallback
 ---@return CurrencyUpdateCallback
 function CurrencyUpdateCallback.new(fields) return end
 

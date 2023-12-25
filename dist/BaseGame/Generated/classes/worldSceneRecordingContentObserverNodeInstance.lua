@@ -4,6 +4,6 @@
 ---@class worldSceneRecordingContentObserverNodeInstance: worldINodeInstance
 worldSceneRecordingContentObserverNodeInstance = {}
 
----@param fields? table
+---@param fields? worldSceneRecordingContentObserverNodeInstance
 ---@return worldSceneRecordingContentObserverNodeInstance
 function worldSceneRecordingContentObserverNodeInstance.new(fields) return end

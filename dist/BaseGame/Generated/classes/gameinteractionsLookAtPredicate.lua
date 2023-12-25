@@ -7,6 +7,6 @@
 ---@field public stopOnTransparent Bool
 gameinteractionsLookAtPredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsLookAtPredicate
 ---@return gameinteractionsLookAtPredicate
 function gameinteractionsLookAtPredicate.new(fields) return end

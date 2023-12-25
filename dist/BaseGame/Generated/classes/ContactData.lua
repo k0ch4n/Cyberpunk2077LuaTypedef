@@ -27,6 +27,6 @@
 ---@field public repliesCount Int32
 ContactData = {}
 
----@param fields? table
+---@param fields? ContactData
 ---@return ContactData
 function ContactData.new(fields) return end

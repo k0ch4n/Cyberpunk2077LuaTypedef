@@ -5,7 +5,7 @@
 ---@field private owner gameObject
 ReloadWeaponEffector = {}
 
----@param fields? table
+---@param fields? ReloadWeaponEffector
 ---@return ReloadWeaponEffector
 function ReloadWeaponEffector.new(fields) return end
 

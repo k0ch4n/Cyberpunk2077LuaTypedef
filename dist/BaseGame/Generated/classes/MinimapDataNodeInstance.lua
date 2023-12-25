@@ -4,6 +4,6 @@
 ---@class MinimapDataNodeInstance: worldINodeInstance
 MinimapDataNodeInstance = {}
 
----@param fields? table
+---@param fields? MinimapDataNodeInstance
 ---@return MinimapDataNodeInstance
 function MinimapDataNodeInstance.new(fields) return end

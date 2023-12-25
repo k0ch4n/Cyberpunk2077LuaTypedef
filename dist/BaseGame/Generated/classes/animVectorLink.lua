@@ -5,6 +5,6 @@
 ---@field public node animAnimNode_VectorValue
 animVectorLink = {}
 
----@param fields? table
+---@param fields? animVectorLink
 ---@return animVectorLink
 function animVectorLink.new(fields) return end

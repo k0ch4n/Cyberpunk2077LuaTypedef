@@ -7,6 +7,6 @@
 ---@field public spawnPoints Vector3[]
 gameAVSpawnPointsRequestResult = {}
 
----@param fields? table
+---@param fields? gameAVSpawnPointsRequestResult
 ---@return gameAVSpawnPointsRequestResult
 function gameAVSpawnPointsRequestResult.new(fields) return end

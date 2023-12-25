@@ -12,6 +12,6 @@
 ---@field public currentPackageProgress Int32
 FixerTooltipMapData = {}
 
----@param fields? table
+---@param fields? FixerTooltipMapData
 ---@return FixerTooltipMapData
 function FixerTooltipMapData.new(fields) return end

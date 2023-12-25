@@ -53,6 +53,6 @@
 ---@field public rayTracedPathTracingEnabled Bool
 worldBenchmarkSummary = {}
 
----@param fields? table
+---@param fields? worldBenchmarkSummary
 ---@return worldBenchmarkSummary
 function worldBenchmarkSummary.new(fields) return end

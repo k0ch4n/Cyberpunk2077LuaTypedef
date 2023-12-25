@@ -6,7 +6,7 @@
 ---@field public sortMethod ContactsSortMethod
 DialerContactDataView = {}
 
----@param fields? table
+---@param fields? DialerContactDataView
 ---@return DialerContactDataView
 function DialerContactDataView.new(fields) return end
 

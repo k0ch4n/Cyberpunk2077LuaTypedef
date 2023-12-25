@@ -16,6 +16,6 @@
 ---@field public normalize180Input animBoolLink
 animAnimNode_FloatCumulative = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatCumulative
 ---@return animAnimNode_FloatCumulative
 function animAnimNode_FloatCumulative.new(fields) return end

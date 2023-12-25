@@ -6,6 +6,6 @@
 ---@field public grunts audioDynamicEventsWithInterval[]
 audioDynamicEventsPerVisualTags = {}
 
----@param fields? table
+---@param fields? audioDynamicEventsPerVisualTags
 ---@return audioDynamicEventsPerVisualTags
 function audioDynamicEventsPerVisualTags.new(fields) return end

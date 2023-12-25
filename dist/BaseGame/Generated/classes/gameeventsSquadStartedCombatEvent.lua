@@ -5,6 +5,6 @@
 ---@field public started Bool
 gameeventsSquadStartedCombatEvent = {}
 
----@param fields? table
+---@param fields? gameeventsSquadStartedCombatEvent
 ---@return gameeventsSquadStartedCombatEvent
 function gameeventsSquadStartedCombatEvent.new(fields) return end

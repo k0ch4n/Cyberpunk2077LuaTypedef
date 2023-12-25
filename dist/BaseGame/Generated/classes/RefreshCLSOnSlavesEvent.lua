@@ -7,6 +7,6 @@
 ---@field public restorePower Bool
 RefreshCLSOnSlavesEvent = {}
 
----@param fields? table
+---@param fields? RefreshCLSOnSlavesEvent
 ---@return RefreshCLSOnSlavesEvent
 function RefreshCLSOnSlavesEvent.new(fields) return end

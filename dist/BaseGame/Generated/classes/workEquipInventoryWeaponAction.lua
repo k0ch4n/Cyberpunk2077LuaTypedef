@@ -8,6 +8,6 @@
 ---@field public fallbackSlot TweakDBID
 workEquipInventoryWeaponAction = {}
 
----@param fields? table
+---@param fields? workEquipInventoryWeaponAction
 ---@return workEquipInventoryWeaponAction
 function workEquipInventoryWeaponAction.new(fields) return end

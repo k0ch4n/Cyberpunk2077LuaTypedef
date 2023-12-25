@@ -21,6 +21,6 @@
 ---@field public applyMaxStreamingDistance Bool
 worldPrefabNode = {}
 
----@param fields? table
+---@param fields? worldPrefabNode
 ---@return worldPrefabNode
 function worldPrefabNode.new(fields) return end

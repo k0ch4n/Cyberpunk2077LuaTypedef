@@ -10,6 +10,6 @@
 ---@field public questType String
 gameTelemetryTrackedQuest = {}
 
----@param fields? table
+---@param fields? gameTelemetryTrackedQuest
 ---@return gameTelemetryTrackedQuest
 function gameTelemetryTrackedQuest.new(fields) return end

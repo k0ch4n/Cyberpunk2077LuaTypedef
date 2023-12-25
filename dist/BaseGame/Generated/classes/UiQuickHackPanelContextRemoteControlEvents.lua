@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextRemoteControlEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextRemoteControlEvents = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextRemoteControlEvents
 ---@return UiQuickHackPanelContextRemoteControlEvents
 function UiQuickHackPanelContextRemoteControlEvents.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public variableToCompare CName
 animAnimsetVariableCondition = {}
 
----@param fields? table
+---@param fields? animAnimsetVariableCondition
 ---@return animAnimsetVariableCondition
 function animAnimsetVariableCondition.new(fields) return end

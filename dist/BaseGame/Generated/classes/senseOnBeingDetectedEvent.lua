@@ -7,7 +7,7 @@
 ---@field public shapeId TweakDBID
 senseOnBeingDetectedEvent = {}
 
----@param fields? table
+---@param fields? senseOnBeingDetectedEvent
 ---@return senseOnBeingDetectedEvent
 function senseOnBeingDetectedEvent.new(fields) return end
 

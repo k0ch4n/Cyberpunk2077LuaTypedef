@@ -4,7 +4,7 @@
 ---@class VehicleInsideWheelDecisions: QuickSlotsHoldDecisions
 VehicleInsideWheelDecisions = {}
 
----@param fields? table
+---@param fields? VehicleInsideWheelDecisions
 ---@return VehicleInsideWheelDecisions
 function VehicleInsideWheelDecisions.new(fields) return end
 

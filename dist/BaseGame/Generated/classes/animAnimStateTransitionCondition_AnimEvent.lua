@@ -5,6 +5,6 @@
 ---@field public eventName CName
 animAnimStateTransitionCondition_AnimEvent = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_AnimEvent
 ---@return animAnimStateTransitionCondition_AnimEvent
 function animAnimStateTransitionCondition_AnimEvent.new(fields) return end

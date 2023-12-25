@@ -4,6 +4,6 @@
 ---@class gameuiCharacterCustomizationOptionImpl: gameuiCharacterCustomizationOption
 gameuiCharacterCustomizationOptionImpl = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationOptionImpl
 ---@return gameuiCharacterCustomizationOptionImpl
 function gameuiCharacterCustomizationOptionImpl.new(fields) return end

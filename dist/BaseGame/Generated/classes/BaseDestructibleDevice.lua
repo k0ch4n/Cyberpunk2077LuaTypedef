@@ -7,7 +7,7 @@
 ---@field protected destroyedMesh entPhysicalMeshComponent
 BaseDestructibleDevice = {}
 
----@param fields? table
+---@param fields? BaseDestructibleDevice
 ---@return BaseDestructibleDevice
 function BaseDestructibleDevice.new(fields) return end
 

@@ -18,7 +18,7 @@
 ---@field private useBareStats Bool
 UIInventoryItemStatsManager = {}
 
----@param fields? table
+---@param fields? UIInventoryItemStatsManager
 ---@return UIInventoryItemStatsManager
 function UIInventoryItemStatsManager.new(fields) return end
 

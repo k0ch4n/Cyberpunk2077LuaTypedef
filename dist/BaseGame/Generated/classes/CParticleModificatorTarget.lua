@@ -8,6 +8,6 @@
 ---@field public maxForce Float
 CParticleModificatorTarget = {}
 
----@param fields? table
+---@param fields? CParticleModificatorTarget
 ---@return CParticleModificatorTarget
 function CParticleModificatorTarget.new(fields) return end

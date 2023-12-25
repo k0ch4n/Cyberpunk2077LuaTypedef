@@ -4,7 +4,7 @@
 ---@class worldWeatherScriptInterface: IScriptable
 worldWeatherScriptInterface = {}
 
----@param fields? table
+---@param fields? worldWeatherScriptInterface
 ---@return worldWeatherScriptInterface
 function worldWeatherScriptInterface.new(fields) return end
 

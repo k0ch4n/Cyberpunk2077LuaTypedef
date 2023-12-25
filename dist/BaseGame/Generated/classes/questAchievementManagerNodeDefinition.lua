@@ -5,6 +5,6 @@
 ---@field public type questIAchievementManagerNodeType
 questAchievementManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questAchievementManagerNodeDefinition
 ---@return questAchievementManagerNodeDefinition
 function questAchievementManagerNodeDefinition.new(fields) return end

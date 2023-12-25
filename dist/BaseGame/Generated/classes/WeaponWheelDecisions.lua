@@ -4,7 +4,7 @@
 ---@class WeaponWheelDecisions: QuickSlotsHoldDecisions
 WeaponWheelDecisions = {}
 
----@param fields? table
+---@param fields? WeaponWheelDecisions
 ---@return WeaponWheelDecisions
 function WeaponWheelDecisions.new(fields) return end
 

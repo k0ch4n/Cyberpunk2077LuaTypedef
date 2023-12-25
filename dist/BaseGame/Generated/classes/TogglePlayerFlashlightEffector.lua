@@ -4,7 +4,7 @@
 ---@class TogglePlayerFlashlightEffector: gameEffector
 TogglePlayerFlashlightEffector = {}
 
----@param fields? table
+---@param fields? TogglePlayerFlashlightEffector
 ---@return TogglePlayerFlashlightEffector
 function TogglePlayerFlashlightEffector.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public hideOnItemsAdded gamedataItem_Record[]
 AddRecipeRequest = {}
 
----@param fields? table
+---@param fields? AddRecipeRequest
 ---@return AddRecipeRequest
 function AddRecipeRequest.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public AppearanceName String
 WardrobeWrappedInventoryItemData = {}
 
----@param fields? table
+---@param fields? WardrobeWrappedInventoryItemData
 ---@return WardrobeWrappedInventoryItemData
 function WardrobeWrappedInventoryItemData.new(fields) return end

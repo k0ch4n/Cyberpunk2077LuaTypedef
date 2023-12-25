@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AIJoinTargetsSquadTask = {}
 
----@param fields? table
+---@param fields? AIJoinTargetsSquadTask
 ---@return AIJoinTargetsSquadTask
 function AIJoinTargetsSquadTask.new(fields) return end
 

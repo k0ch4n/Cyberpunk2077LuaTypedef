@@ -4,6 +4,6 @@
 ---@class questQuestResource: questQuestPhaseResource
 questQuestResource = {}
 
----@param fields? table
+---@param fields? questQuestResource
 ---@return questQuestResource
 function questQuestResource.new(fields) return end

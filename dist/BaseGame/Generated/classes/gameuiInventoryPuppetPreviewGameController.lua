@@ -10,7 +10,7 @@
 ---@field protected mouseRotationSpeed Float
 gameuiInventoryPuppetPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiInventoryPuppetPreviewGameController
 ---@return gameuiInventoryPuppetPreviewGameController
 function gameuiInventoryPuppetPreviewGameController.new(fields) return end
 

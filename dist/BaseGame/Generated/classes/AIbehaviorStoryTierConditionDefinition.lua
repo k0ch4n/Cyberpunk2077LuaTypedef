@@ -6,6 +6,6 @@
 ---@field public storyTier AIArgumentMapping
 AIbehaviorStoryTierConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorStoryTierConditionDefinition
 ---@return AIbehaviorStoryTierConditionDefinition
 function AIbehaviorStoryTierConditionDefinition.new(fields) return end

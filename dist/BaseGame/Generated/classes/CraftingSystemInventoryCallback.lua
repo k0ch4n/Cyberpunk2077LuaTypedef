@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 CraftingSystemInventoryCallback = {}
 
----@param fields? table
+---@param fields? CraftingSystemInventoryCallback
 ---@return CraftingSystemInventoryCallback
 function CraftingSystemInventoryCallback.new(fields) return end
 

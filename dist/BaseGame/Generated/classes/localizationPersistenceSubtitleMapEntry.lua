@@ -6,6 +6,6 @@
 ---@field public subtitleFile JsonResource
 localizationPersistenceSubtitleMapEntry = {}
 
----@param fields? table
+---@param fields? localizationPersistenceSubtitleMapEntry
 ---@return localizationPersistenceSubtitleMapEntry
 function localizationPersistenceSubtitleMapEntry.new(fields) return end

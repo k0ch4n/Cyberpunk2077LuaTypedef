@@ -38,7 +38,7 @@
 ---@field private closeData QuantityPickerPopupCloseData
 ItemQuantityPickerController = {}
 
----@param fields? table
+---@param fields? ItemQuantityPickerController
 ---@return ItemQuantityPickerController
 function ItemQuantityPickerController.new(fields) return end
 

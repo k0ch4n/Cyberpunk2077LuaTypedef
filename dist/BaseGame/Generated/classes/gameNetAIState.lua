@@ -7,6 +7,6 @@
 ---@field public time Float
 gameNetAIState = {}
 
----@param fields? table
+---@param fields? gameNetAIState
 ---@return gameNetAIState
 function gameNetAIState.new(fields) return end

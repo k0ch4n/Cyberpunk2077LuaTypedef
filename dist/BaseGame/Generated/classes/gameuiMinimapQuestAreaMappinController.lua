@@ -5,7 +5,7 @@
 ---@field public areaShapeWidget inkShapeWidgetReference
 gameuiMinimapQuestAreaMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapQuestAreaMappinController
 ---@return gameuiMinimapQuestAreaMappinController
 function gameuiMinimapQuestAreaMappinController.new(fields) return end
 

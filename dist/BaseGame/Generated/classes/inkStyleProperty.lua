@@ -6,6 +6,6 @@
 ---@field public value Variant
 inkStyleProperty = {}
 
----@param fields? table
+---@param fields? inkStyleProperty
 ---@return inkStyleProperty
 function inkStyleProperty.new(fields) return end

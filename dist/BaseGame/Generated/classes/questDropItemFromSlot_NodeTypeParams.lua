@@ -7,6 +7,6 @@
 ---@field public useGravity Bool
 questDropItemFromSlot_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questDropItemFromSlot_NodeTypeParams
 ---@return questDropItemFromSlot_NodeTypeParams
 function questDropItemFromSlot_NodeTypeParams.new(fields) return end

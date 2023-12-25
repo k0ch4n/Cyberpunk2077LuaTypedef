@@ -5,7 +5,7 @@
 ---@field protected crossingLightSFXSetup CrossingLightSetup
 CrossingLightControllerPS = {}
 
----@param fields? table
+---@param fields? CrossingLightControllerPS
 ---@return CrossingLightControllerPS
 function CrossingLightControllerPS.new(fields) return end
 

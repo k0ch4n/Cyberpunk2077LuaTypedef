@@ -4,7 +4,7 @@
 ---@class NotInDefeated: gameEffectObjectSingleFilter_Scripted
 NotInDefeated = {}
 
----@param fields? table
+---@param fields? NotInDefeated
 ---@return NotInDefeated
 function NotInDefeated.new(fields) return end
 

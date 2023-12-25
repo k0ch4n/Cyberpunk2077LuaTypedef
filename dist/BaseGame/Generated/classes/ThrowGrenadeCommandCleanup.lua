@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 ThrowGrenadeCommandCleanup = {}
 
----@param fields? table
+---@param fields? ThrowGrenadeCommandCleanup
 ---@return ThrowGrenadeCommandCleanup
 function ThrowGrenadeCommandCleanup.new(fields) return end
 

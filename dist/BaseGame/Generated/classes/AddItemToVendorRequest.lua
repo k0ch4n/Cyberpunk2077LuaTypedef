@@ -7,7 +7,7 @@
 ---@field public quantity Int32
 AddItemToVendorRequest = {}
 
----@param fields? table
+---@param fields? AddItemToVendorRequest
 ---@return AddItemToVendorRequest
 function AddItemToVendorRequest.new(fields) return end
 

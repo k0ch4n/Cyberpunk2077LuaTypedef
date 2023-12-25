@@ -4,7 +4,7 @@
 ---@class ContainerStateInteractionCondition: gameinteractionsInteractionScriptedCondition
 ContainerStateInteractionCondition = {}
 
----@param fields? table
+---@param fields? ContainerStateInteractionCondition
 ---@return ContainerStateInteractionCondition
 function ContainerStateInteractionCondition.new(fields) return end
 

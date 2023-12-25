@@ -4,7 +4,7 @@
 ---@class GlitchedTurretController: ScriptableDeviceComponent
 GlitchedTurretController = {}
 
----@param fields? table
+---@param fields? GlitchedTurretController
 ---@return GlitchedTurretController
 function GlitchedTurretController.new(fields) return end
 

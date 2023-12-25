@@ -6,6 +6,6 @@
 ---@field public stealthGrunt CName
 audioContextualVoiceGrunt = {}
 
----@param fields? table
+---@param fields? audioContextualVoiceGrunt
 ---@return audioContextualVoiceGrunt
 function audioContextualVoiceGrunt.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private baseEventDispatcher inkMenuEventDispatcher
 gameuiMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiMenuGameController
 ---@return gameuiMenuGameController
 function gameuiMenuGameController.new(fields) return end
 

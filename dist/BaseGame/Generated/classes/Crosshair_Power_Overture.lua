@@ -8,7 +8,7 @@
 ---@field private botPart inkWidgetReference
 Crosshair_Power_Overture = {}
 
----@param fields? table
+---@param fields? Crosshair_Power_Overture
 ---@return Crosshair_Power_Overture
 function Crosshair_Power_Overture.new(fields) return end
 

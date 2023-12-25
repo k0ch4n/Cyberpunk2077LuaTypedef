@@ -9,7 +9,7 @@
 ---@field public prefetchVideo Bool
 inkVideoWidget = {}
 
----@param fields? table
+---@param fields? inkVideoWidget
 ---@return inkVideoWidget
 function inkVideoWidget.new(fields) return end
 

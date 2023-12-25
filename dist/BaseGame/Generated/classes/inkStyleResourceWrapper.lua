@@ -5,6 +5,6 @@
 ---@field public styleResource inkStyleResource
 inkStyleResourceWrapper = {}
 
----@param fields? table
+---@param fields? inkStyleResourceWrapper
 ---@return inkStyleResourceWrapper
 function inkStyleResourceWrapper.new(fields) return end

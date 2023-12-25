@@ -5,6 +5,6 @@
 ---@field public isWeaponHolstered Bool
 AnimFeature_PlayerCoverActionWeaponHolster = {}
 
----@param fields? table
+---@param fields? AnimFeature_PlayerCoverActionWeaponHolster
 ---@return AnimFeature_PlayerCoverActionWeaponHolster
 function AnimFeature_PlayerCoverActionWeaponHolster.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field private animProxy inkanimProxy
 ProgressBarButton = {}
 
----@param fields? table
+---@param fields? ProgressBarButton
 ---@return ProgressBarButton
 function ProgressBarButton.new(fields) return end
 

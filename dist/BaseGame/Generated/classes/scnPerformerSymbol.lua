@@ -7,6 +7,6 @@
 ---@field public editorPerformerId CRUID
 scnPerformerSymbol = {}
 
----@param fields? table
+---@param fields? scnPerformerSymbol
 ---@return scnPerformerSymbol
 function scnPerformerSymbol.new(fields) return end

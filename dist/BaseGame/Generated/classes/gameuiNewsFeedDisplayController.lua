@@ -7,6 +7,6 @@
 ---@field public randomNewsContainer inkCompoundWidgetReference
 gameuiNewsFeedDisplayController = {}
 
----@param fields? table
+---@param fields? gameuiNewsFeedDisplayController
 ---@return gameuiNewsFeedDisplayController
 function gameuiNewsFeedDisplayController.new(fields) return end

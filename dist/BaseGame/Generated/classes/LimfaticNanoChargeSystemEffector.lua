@@ -8,7 +8,7 @@
 ---@field public statusEffectIsApplied Bool
 LimfaticNanoChargeSystemEffector = {}
 
----@param fields? table
+---@param fields? LimfaticNanoChargeSystemEffector
 ---@return LimfaticNanoChargeSystemEffector
 function LimfaticNanoChargeSystemEffector.new(fields) return end
 

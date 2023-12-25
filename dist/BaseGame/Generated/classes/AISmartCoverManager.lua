@@ -4,7 +4,7 @@
 ---@class AISmartCoverManager: AIISmartCoverManager
 AISmartCoverManager = {}
 
----@param fields? table
+---@param fields? AISmartCoverManager
 ---@return AISmartCoverManager
 function AISmartCoverManager.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public lor Vector4
 gameFreeCameraLightSettings = {}
 
----@param fields? table
+---@param fields? gameFreeCameraLightSettings
 ---@return gameFreeCameraLightSettings
 function gameFreeCameraLightSettings.new(fields) return end

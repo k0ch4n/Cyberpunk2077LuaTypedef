@@ -5,6 +5,6 @@
 ---@field public hash Uint32
 ShardEntrySelectedEvent = {}
 
----@param fields? table
+---@param fields? ShardEntrySelectedEvent
 ---@return ShardEntrySelectedEvent
 function ShardEntrySelectedEvent.new(fields) return end

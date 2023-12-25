@@ -7,6 +7,6 @@
 ---@field public state vehicleVehicleDoorState
 questVehicleDoor_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleDoor_ConditionType
 ---@return questVehicleDoor_ConditionType
 function questVehicleDoor_ConditionType.new(fields) return end

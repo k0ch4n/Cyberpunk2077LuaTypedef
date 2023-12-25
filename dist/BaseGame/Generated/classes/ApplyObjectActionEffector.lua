@@ -7,7 +7,7 @@
 ---@field public probability Float
 ApplyObjectActionEffector = {}
 
----@param fields? table
+---@param fields? ApplyObjectActionEffector
 ---@return ApplyObjectActionEffector
 function ApplyObjectActionEffector.new(fields) return end
 

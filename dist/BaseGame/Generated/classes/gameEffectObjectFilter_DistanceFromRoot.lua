@@ -6,6 +6,6 @@
 ---@field public bonusRange Float
 gameEffectObjectFilter_DistanceFromRoot = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_DistanceFromRoot
 ---@return gameEffectObjectFilter_DistanceFromRoot
 function gameEffectObjectFilter_DistanceFromRoot.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public type gamedataPerkType
 PerkDisplayData = {}
 
----@param fields? table
+---@param fields? PerkDisplayData
 ---@return PerkDisplayData
 function PerkDisplayData.new(fields) return end
 

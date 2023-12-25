@@ -5,6 +5,6 @@
 ---@field public newState EJuryrigTrapState
 ChangeJuryrigTrapState = {}
 
----@param fields? table
+---@param fields? ChangeJuryrigTrapState
 ---@return ChangeJuryrigTrapState
 function ChangeJuryrigTrapState.new(fields) return end

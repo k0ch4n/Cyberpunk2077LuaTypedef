@@ -9,6 +9,6 @@
 ---@field public isEnabled Bool
 entParticlesComponent = {}
 
----@param fields? table
+---@param fields? entParticlesComponent
 ---@return entParticlesComponent
 function entParticlesComponent.new(fields) return end

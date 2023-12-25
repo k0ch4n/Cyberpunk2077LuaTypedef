@@ -4,6 +4,6 @@
 ---@class worldTrafficSpotNode: worldAISpotNode
 worldTrafficSpotNode = {}
 
----@param fields? table
+---@param fields? worldTrafficSpotNode
 ---@return worldTrafficSpotNode
 function worldTrafficSpotNode.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public rightFootSlot CName
 gameFootstepComponent = {}
 
----@param fields? table
+---@param fields? gameFootstepComponent
 ---@return gameFootstepComponent
 function gameFootstepComponent.new(fields) return end

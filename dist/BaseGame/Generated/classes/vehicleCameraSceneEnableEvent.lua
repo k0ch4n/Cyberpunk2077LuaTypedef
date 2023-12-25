@@ -5,6 +5,6 @@
 ---@field public scene Bool
 vehicleCameraSceneEnableEvent = {}
 
----@param fields? table
+---@param fields? vehicleCameraSceneEnableEvent
 ---@return vehicleCameraSceneEnableEvent
 function vehicleCameraSceneEnableEvent.new(fields) return end

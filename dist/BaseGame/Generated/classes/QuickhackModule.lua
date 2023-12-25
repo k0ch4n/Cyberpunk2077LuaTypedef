@@ -5,7 +5,7 @@
 ---@field private calculateClose Bool
 QuickhackModule = {}
 
----@param fields? table
+---@param fields? QuickhackModule
 ---@return QuickhackModule
 function QuickhackModule.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public register Bool
 WeaponRegisterChargeStatListener = {}
 
----@param fields? table
+---@param fields? WeaponRegisterChargeStatListener
 ---@return WeaponRegisterChargeStatListener
 function WeaponRegisterChargeStatListener.new(fields) return end

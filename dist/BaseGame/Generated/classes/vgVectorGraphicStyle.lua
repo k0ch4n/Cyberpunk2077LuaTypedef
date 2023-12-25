@@ -5,6 +5,6 @@
 ---@field public attributes vgAttributeTypeValuePair[]
 vgVectorGraphicStyle = {}
 
----@param fields? table
+---@param fields? vgVectorGraphicStyle
 ---@return vgVectorGraphicStyle
 function vgVectorGraphicStyle.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public hubPriority Uint8
 gameinteractionsvisListChoiceHubData = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisListChoiceHubData
 ---@return gameinteractionsvisListChoiceHubData
 function gameinteractionsvisListChoiceHubData.new(fields) return end

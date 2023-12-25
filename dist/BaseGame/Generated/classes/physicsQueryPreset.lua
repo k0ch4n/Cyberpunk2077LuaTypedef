@@ -5,6 +5,6 @@
 ---@field public presetName CName
 physicsQueryPreset = {}
 
----@param fields? table
+---@param fields? physicsQueryPreset
 ---@return physicsQueryPreset
 function physicsQueryPreset.new(fields) return end

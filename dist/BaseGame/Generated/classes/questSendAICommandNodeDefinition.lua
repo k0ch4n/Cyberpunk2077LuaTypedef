@@ -6,6 +6,6 @@
 ---@field public commandParams questAICommandParams
 questSendAICommandNodeDefinition = {}
 
----@param fields? table
+---@param fields? questSendAICommandNodeDefinition
 ---@return questSendAICommandNodeDefinition
 function questSendAICommandNodeDefinition.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public enable Bool
 SToggleDeviceOperationData = {}
 
----@param fields? table
+---@param fields? SToggleDeviceOperationData
 ---@return SToggleDeviceOperationData
 function SToggleDeviceOperationData.new(fields) return end

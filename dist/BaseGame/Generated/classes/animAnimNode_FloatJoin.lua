@@ -5,6 +5,6 @@
 ---@field public input animFloatLink
 animAnimNode_FloatJoin = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatJoin
 ---@return animAnimNode_FloatJoin
 function animAnimNode_FloatJoin.new(fields) return end

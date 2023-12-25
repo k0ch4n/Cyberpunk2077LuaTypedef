@@ -7,7 +7,7 @@
 ---@field public Z Float
 Vector3 = {}
 
----@param fields? table
+---@param fields? Vector3
 ---@return Vector3
 function Vector3.new(fields) return end
 

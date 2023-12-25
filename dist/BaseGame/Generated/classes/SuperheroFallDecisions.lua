@@ -4,7 +4,7 @@
 ---@class SuperheroFallDecisions: LocomotionAirDecisions
 SuperheroFallDecisions = {}
 
----@param fields? table
+---@param fields? SuperheroFallDecisions
 ---@return SuperheroFallDecisions
 function SuperheroFallDecisions.new(fields) return end
 

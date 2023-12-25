@@ -5,6 +5,6 @@
 ---@field public buffer DataBuffer
 entEntityInstanceData = {}
 
----@param fields? table
+---@param fields? entEntityInstanceData
 ---@return entEntityInstanceData
 function entEntityInstanceData.new(fields) return end

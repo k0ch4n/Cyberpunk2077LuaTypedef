@@ -5,7 +5,7 @@
 ---@field private backpackInstance gameuiBackpackMainGameController
 BackpackInventoryListenerCallback = {}
 
----@param fields? table
+---@param fields? BackpackInventoryListenerCallback
 ---@return BackpackInventoryListenerCallback
 function BackpackInventoryListenerCallback.new(fields) return end
 

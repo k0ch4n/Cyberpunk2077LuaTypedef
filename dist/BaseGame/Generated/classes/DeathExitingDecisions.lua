@@ -4,7 +4,7 @@
 ---@class DeathExitingDecisions: ExitingDecisions
 DeathExitingDecisions = {}
 
----@param fields? table
+---@param fields? DeathExitingDecisions
 ---@return DeathExitingDecisions
 function DeathExitingDecisions.new(fields) return end
 

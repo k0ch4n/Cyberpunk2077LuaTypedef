@@ -5,6 +5,6 @@
 ---@field public newState Int32
 GrenadeAnimFeatureChangeEvent = {}
 
----@param fields? table
+---@param fields? GrenadeAnimFeatureChangeEvent
 ---@return GrenadeAnimFeatureChangeEvent
 function GrenadeAnimFeatureChangeEvent.new(fields) return end

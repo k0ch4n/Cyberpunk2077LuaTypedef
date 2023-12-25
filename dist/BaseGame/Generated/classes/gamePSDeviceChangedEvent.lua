@@ -6,6 +6,6 @@
 ---@field public className CName
 gamePSDeviceChangedEvent = {}
 
----@param fields? table
+---@param fields? gamePSDeviceChangedEvent
 ---@return gamePSDeviceChangedEvent
 function gamePSDeviceChangedEvent.new(fields) return end

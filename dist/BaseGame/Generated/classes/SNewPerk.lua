@@ -6,6 +6,6 @@
 ---@field public currLevel Int32
 SNewPerk = {}
 
----@param fields? table
+---@param fields? SNewPerk
 ---@return SNewPerk
 function SNewPerk.new(fields) return end

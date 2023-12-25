@@ -11,7 +11,7 @@
 ---@field public DmgIndicatorMode gamebbScriptID_Variant
 UI_DamageInfoDef = {}
 
----@param fields? table
+---@param fields? UI_DamageInfoDef
 ---@return UI_DamageInfoDef
 function UI_DamageInfoDef.new(fields) return end
 

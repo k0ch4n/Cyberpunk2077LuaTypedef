@@ -9,6 +9,6 @@
 ---@field public useWhiteNoiseFX Bool
 TVResaveData = {}
 
----@param fields? table
+---@param fields? TVResaveData
 ---@return TVResaveData
 function TVResaveData.new(fields) return end

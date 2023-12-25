@@ -4,6 +4,6 @@
 ---@class gamePlayerManager: gameIPlayerManager
 gamePlayerManager = {}
 
----@param fields? table
+---@param fields? gamePlayerManager
 ---@return gamePlayerManager
 function gamePlayerManager.new(fields) return end

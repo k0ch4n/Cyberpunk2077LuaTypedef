@@ -4,7 +4,7 @@
 ---@class gamedataSearchFilterMaskTypeValue_Record: gamedataSearchFilterMaskTypeCondition_Record
 gamedataSearchFilterMaskTypeValue_Record = {}
 
----@param fields? table
+---@param fields? gamedataSearchFilterMaskTypeValue_Record
 ---@return gamedataSearchFilterMaskTypeValue_Record
 function gamedataSearchFilterMaskTypeValue_Record.new(fields) return end
 

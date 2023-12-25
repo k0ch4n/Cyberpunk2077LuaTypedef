@@ -7,6 +7,6 @@
 ---@field public defaultValue Variant
 ParamData = {}
 
----@param fields? table
+---@param fields? ParamData
 ---@return ParamData
 function ParamData.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public applicationTarget CName
 PlayVFXOnHitPositionEffector = {}
 
----@param fields? table
+---@param fields? PlayVFXOnHitPositionEffector
 ---@return PlayVFXOnHitPositionEffector
 function PlayVFXOnHitPositionEffector.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public outTransitionSpeed Float
 entReplicatedLookAtRemove = {}
 
----@param fields? table
+---@param fields? entReplicatedLookAtRemove
 ---@return entReplicatedLookAtRemove
 function entReplicatedLookAtRemove.new(fields) return end

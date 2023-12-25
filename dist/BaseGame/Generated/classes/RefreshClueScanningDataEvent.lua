@@ -4,6 +4,6 @@
 ---@class RefreshClueScanningDataEvent: redEvent
 RefreshClueScanningDataEvent = {}
 
----@param fields? table
+---@param fields? RefreshClueScanningDataEvent
 ---@return RefreshClueScanningDataEvent
 function RefreshClueScanningDataEvent.new(fields) return end

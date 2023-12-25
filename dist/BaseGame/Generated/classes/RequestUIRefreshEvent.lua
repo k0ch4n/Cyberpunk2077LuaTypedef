@@ -6,6 +6,6 @@
 ---@field public context CName
 RequestUIRefreshEvent = {}
 
----@param fields? table
+---@param fields? RequestUIRefreshEvent
 ---@return RequestUIRefreshEvent
 function RequestUIRefreshEvent.new(fields) return end

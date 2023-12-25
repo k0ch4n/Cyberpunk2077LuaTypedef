@@ -4,7 +4,7 @@
 ---@class NcartTimetableController: ScriptableDeviceComponent
 NcartTimetableController = {}
 
----@param fields? table
+---@param fields? NcartTimetableController
 ---@return NcartTimetableController
 function NcartTimetableController.new(fields) return end
 

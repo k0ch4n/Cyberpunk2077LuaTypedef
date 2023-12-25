@@ -5,6 +5,6 @@
 ---@field public priority Float
 gamestateMachineTransitionDefinition = {}
 
----@param fields? table
+---@param fields? gamestateMachineTransitionDefinition
 ---@return gamestateMachineTransitionDefinition
 function gamestateMachineTransitionDefinition.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public hasDirection Bool
 Spline = {}
 
----@param fields? table
+---@param fields? Spline
 ---@return Spline
 function Spline.new(fields) return end

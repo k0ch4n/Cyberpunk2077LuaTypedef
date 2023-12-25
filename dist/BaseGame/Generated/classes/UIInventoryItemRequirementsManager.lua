@@ -21,7 +21,7 @@
 ---@field private attachedItem UIInventoryItem
 UIInventoryItemRequirementsManager = {}
 
----@param fields? table
+---@param fields? UIInventoryItemRequirementsManager
 ---@return UIInventoryItemRequirementsManager
 function UIInventoryItemRequirementsManager.new(fields) return end
 

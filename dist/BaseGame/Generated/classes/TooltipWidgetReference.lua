@@ -6,6 +6,6 @@
 ---@field public widgetLibraryReference inkWidgetLibraryReference
 TooltipWidgetReference = {}
 
----@param fields? table
+---@param fields? TooltipWidgetReference
 ---@return TooltipWidgetReference
 function TooltipWidgetReference.new(fields) return end

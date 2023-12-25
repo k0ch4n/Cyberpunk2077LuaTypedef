@@ -11,7 +11,7 @@
 ---@field public ownerID entEntityID
 CustomUIAnimationEvent = {}
 
----@param fields? table
+---@param fields? CustomUIAnimationEvent
 ---@return CustomUIAnimationEvent
 function CustomUIAnimationEvent.new(fields) return end
 

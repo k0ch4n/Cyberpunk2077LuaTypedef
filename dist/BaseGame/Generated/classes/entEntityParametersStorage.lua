@@ -5,6 +5,6 @@
 ---@field public parameters entEntityParameter[]
 entEntityParametersStorage = {}
 
----@param fields? table
+---@param fields? entEntityParametersStorage
 ---@return entEntityParametersStorage
 function entEntityParametersStorage.new(fields) return end

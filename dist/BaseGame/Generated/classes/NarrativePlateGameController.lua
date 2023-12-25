@@ -9,7 +9,7 @@
 ---@field private logicController NarrativePlateLogicController
 NarrativePlateGameController = {}
 
----@param fields? table
+---@param fields? NarrativePlateGameController
 ---@return NarrativePlateGameController
 function NarrativePlateGameController.new(fields) return end
 

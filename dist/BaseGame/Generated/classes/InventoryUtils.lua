@@ -4,7 +4,7 @@
 ---@class InventoryUtils: IScriptable
 InventoryUtils = {}
 
----@param fields? table
+---@param fields? InventoryUtils
 ---@return InventoryUtils
 function InventoryUtils.new(fields) return end
 

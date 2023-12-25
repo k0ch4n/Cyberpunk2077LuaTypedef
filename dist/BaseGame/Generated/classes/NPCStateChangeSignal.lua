@@ -20,6 +20,6 @@
 ---@field public phaseStateValid Bool
 NPCStateChangeSignal = {}
 
----@param fields? table
+---@param fields? NPCStateChangeSignal
 ---@return NPCStateChangeSignal
 function NPCStateChangeSignal.new(fields) return end

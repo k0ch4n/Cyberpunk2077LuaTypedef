@@ -5,6 +5,6 @@
 ---@field public params questMultiplayerTeleportPuppetParams
 questMultiplayerTeleportPuppetNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMultiplayerTeleportPuppetNodeDefinition
 ---@return questMultiplayerTeleportPuppetNodeDefinition
 function questMultiplayerTeleportPuppetNodeDefinition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected triggerData InteractionAreaOperationTriggerData
 InteractionAreaOperationsTrigger = {}
 
----@param fields? table
+---@param fields? InteractionAreaOperationsTrigger
 ---@return InteractionAreaOperationsTrigger
 function InteractionAreaOperationsTrigger.new(fields) return end
 

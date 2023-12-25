@@ -4,7 +4,7 @@
 ---@class gamestateMachineparameterTypeClimbParameters: gamestateMachineparameterTypeClimbParametersBase
 gamestateMachineparameterTypeClimbParameters = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeClimbParameters
 ---@return gamestateMachineparameterTypeClimbParameters
 function gamestateMachineparameterTypeClimbParameters.new(fields) return end
 

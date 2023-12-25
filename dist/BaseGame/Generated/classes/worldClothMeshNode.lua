@@ -6,6 +6,6 @@
 ---@field public collisionMask physicsEClothCollisionMaskEnum
 worldClothMeshNode = {}
 
----@param fields? table
+---@param fields? worldClothMeshNode
 ---@return worldClothMeshNode
 function worldClothMeshNode.new(fields) return end

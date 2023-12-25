@@ -6,7 +6,7 @@
 ---@field public isInteractionSource Bool
 VehicleDoorDetached = {}
 
----@param fields? table
+---@param fields? VehicleDoorDetached
 ---@return VehicleDoorDetached
 function VehicleDoorDetached.new(fields) return end
 

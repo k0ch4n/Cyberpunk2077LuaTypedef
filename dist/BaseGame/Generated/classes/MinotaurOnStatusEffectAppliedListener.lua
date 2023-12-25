@@ -6,7 +6,7 @@
 ---@field private minotaurMechComponent MinotaurMechComponent
 MinotaurOnStatusEffectAppliedListener = {}
 
----@param fields? table
+---@param fields? MinotaurOnStatusEffectAppliedListener
 ---@return MinotaurOnStatusEffectAppliedListener
 function MinotaurOnStatusEffectAppliedListener.new(fields) return end
 

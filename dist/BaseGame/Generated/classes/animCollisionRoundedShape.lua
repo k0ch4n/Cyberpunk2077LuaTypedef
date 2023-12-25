@@ -10,6 +10,6 @@
 ---@field public zBoxExtent Float
 animCollisionRoundedShape = {}
 
----@param fields? table
+---@param fields? animCollisionRoundedShape
 ---@return animCollisionRoundedShape
 function animCollisionRoundedShape.new(fields) return end

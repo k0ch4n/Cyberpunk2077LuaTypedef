@@ -5,7 +5,7 @@
 ---@field public names CName[]
 inkWidgetPath = {}
 
----@param fields? table
+---@param fields? inkWidgetPath
 ---@return inkWidgetPath
 function inkWidgetPath.new(fields) return end
 

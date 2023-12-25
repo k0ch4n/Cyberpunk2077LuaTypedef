@@ -4,7 +4,7 @@
 ---@class AISafeAreaManager: AIISafeAreaManager
 AISafeAreaManager = {}
 
----@param fields? table
+---@param fields? AISafeAreaManager
 ---@return AISafeAreaManager
 function AISafeAreaManager.new(fields) return end
 

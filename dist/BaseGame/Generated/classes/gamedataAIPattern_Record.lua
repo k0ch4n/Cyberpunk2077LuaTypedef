@@ -4,7 +4,7 @@
 ---@class gamedataAIPattern_Record: gamedataTweakDBRecord
 gamedataAIPattern_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIPattern_Record
 ---@return gamedataAIPattern_Record
 function gamedataAIPattern_Record.new(fields) return end
 

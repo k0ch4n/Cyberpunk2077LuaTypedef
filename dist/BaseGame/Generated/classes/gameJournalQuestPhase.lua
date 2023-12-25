@@ -5,6 +5,6 @@
 ---@field public locationPrefabRef NodeRef
 gameJournalQuestPhase = {}
 
----@param fields? table
+---@param fields? gameJournalQuestPhase
 ---@return gameJournalQuestPhase
 function gameJournalQuestPhase.new(fields) return end

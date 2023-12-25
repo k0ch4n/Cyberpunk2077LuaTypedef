@@ -4,7 +4,7 @@
 ---@class senseVisionBlockerShape_BasicSphere: senseIVisionBlockerShape
 senseVisionBlockerShape_BasicSphere = {}
 
----@param fields? table
+---@param fields? senseVisionBlockerShape_BasicSphere
 ---@return senseVisionBlockerShape_BasicSphere
 function senseVisionBlockerShape_BasicSphere.new(fields) return end
 

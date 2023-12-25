@@ -8,7 +8,7 @@
 ---@field public uploadTime Float
 ApplyQuickhackEffector = {}
 
----@param fields? table
+---@param fields? ApplyQuickhackEffector
 ---@return ApplyQuickhackEffector
 function ApplyQuickhackEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public placement gameuiETooltipPlacement
 gameuiTooltipSlotData = {}
 
----@param fields? table
+---@param fields? gameuiTooltipSlotData
 ---@return gameuiTooltipSlotData
 function gameuiTooltipSlotData.new(fields) return end

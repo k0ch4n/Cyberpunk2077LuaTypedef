@@ -5,6 +5,6 @@
 ---@field public bounty Bounty
 SetBountyObjectEvent = {}
 
----@param fields? table
+---@param fields? SetBountyObjectEvent
 ---@return SetBountyObjectEvent
 function SetBountyObjectEvent.new(fields) return end

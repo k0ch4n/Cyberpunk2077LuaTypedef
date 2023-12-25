@@ -4,7 +4,7 @@
 ---@class inkGridWidgetReference: inkCompoundWidgetReference
 inkGridWidgetReference = {}
 
----@param fields? table
+---@param fields? inkGridWidgetReference
 ---@return inkGridWidgetReference
 function inkGridWidgetReference.new(fields) return end
 

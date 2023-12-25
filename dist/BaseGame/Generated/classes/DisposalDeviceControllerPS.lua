@@ -11,7 +11,7 @@
 ---@field private isPlayerCurrentlyPerformingDisposal Bool
 DisposalDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? DisposalDeviceControllerPS
 ---@return DisposalDeviceControllerPS
 function DisposalDeviceControllerPS.new(fields) return end
 

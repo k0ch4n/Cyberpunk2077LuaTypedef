@@ -5,6 +5,6 @@
 ---@field public visualOffset Transform
 gameprojectileProjectilePreviewEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileProjectilePreviewEvent
 ---@return gameprojectileProjectilePreviewEvent
 function gameprojectileProjectilePreviewEvent.new(fields) return end

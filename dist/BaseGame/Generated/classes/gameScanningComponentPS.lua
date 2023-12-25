@@ -11,7 +11,7 @@
 ---@field private objectDescriptionOverride ObjectScanningDescription
 gameScanningComponentPS = {}
 
----@param fields? table
+---@param fields? gameScanningComponentPS
 ---@return gameScanningComponentPS
 function gameScanningComponentPS.new(fields) return end
 

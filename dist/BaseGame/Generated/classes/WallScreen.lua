@@ -7,7 +7,7 @@
 ---@field private objectMover ObjectMoverComponent
 WallScreen = {}
 
----@param fields? table
+---@param fields? WallScreen
 ---@return WallScreen
 function WallScreen.new(fields) return end
 

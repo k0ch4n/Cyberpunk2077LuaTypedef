@@ -4,6 +4,6 @@
 ---@class worldTrafficCompiledNodeInstance: worldINodeInstance
 worldTrafficCompiledNodeInstance = {}
 
----@param fields? table
+---@param fields? worldTrafficCompiledNodeInstance
 ---@return worldTrafficCompiledNodeInstance
 function worldTrafficCompiledNodeInstance.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public data DataBuffer
 CDistantLightsResource = {}
 
----@param fields? table
+---@param fields? CDistantLightsResource
 ---@return CDistantLightsResource
 function CDistantLightsResource.new(fields) return end

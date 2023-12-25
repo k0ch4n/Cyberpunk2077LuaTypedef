@@ -5,6 +5,6 @@
 ---@field public name CName
 physicsMaterialReference = {}
 
----@param fields? table
+---@param fields? physicsMaterialReference
 ---@return physicsMaterialReference
 function physicsMaterialReference.new(fields) return end

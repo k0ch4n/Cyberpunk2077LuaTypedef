@@ -7,7 +7,7 @@
 ---@field private hasPlayerCollectedReward Bool
 DropPointControllerPS = {}
 
----@param fields? table
+---@param fields? DropPointControllerPS
 ---@return DropPointControllerPS
 function DropPointControllerPS.new(fields) return end
 

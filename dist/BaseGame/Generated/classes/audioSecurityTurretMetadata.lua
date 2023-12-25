@@ -14,6 +14,6 @@
 ---@field public occlusionEnabled Bool
 audioSecurityTurretMetadata = {}
 
----@param fields? table
+---@param fields? audioSecurityTurretMetadata
 ---@return audioSecurityTurretMetadata
 function audioSecurityTurretMetadata.new(fields) return end

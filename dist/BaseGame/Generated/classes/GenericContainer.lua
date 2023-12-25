@@ -7,7 +7,7 @@
 ---@field public demolitionCheck DemolitionSkillCheck
 GenericContainer = {}
 
----@param fields? table
+---@param fields? GenericContainer
 ---@return GenericContainer
 function GenericContainer.new(fields) return end
 

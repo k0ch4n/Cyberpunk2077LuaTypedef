@@ -4,7 +4,7 @@
 ---@class UseHealChargeAction: BaseItemAction
 UseHealChargeAction = {}
 
----@param fields? table
+---@param fields? UseHealChargeAction
 ---@return UseHealChargeAction
 function UseHealChargeAction.new(fields) return end
 

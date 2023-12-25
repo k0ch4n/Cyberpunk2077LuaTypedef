@@ -8,6 +8,6 @@
 ---@field public isCritical Bool
 RequestDismembermentEvent = {}
 
----@param fields? table
+---@param fields? RequestDismembermentEvent
 ---@return RequestDismembermentEvent
 function RequestDismembermentEvent.new(fields) return end

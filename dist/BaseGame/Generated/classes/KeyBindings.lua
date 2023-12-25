@@ -6,6 +6,6 @@
 ---@field public RB TweakDBID
 KeyBindings = {}
 
----@param fields? table
+---@param fields? KeyBindings
 ---@return KeyBindings
 function KeyBindings.new(fields) return end

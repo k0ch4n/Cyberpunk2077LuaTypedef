@@ -6,6 +6,6 @@
 ---@field public elements worldRelativeNodePathElement[]
 worldRelativeNodePath = {}
 
----@param fields? table
+---@param fields? worldRelativeNodePath
 ---@return worldRelativeNodePath
 function worldRelativeNodePath.new(fields) return end

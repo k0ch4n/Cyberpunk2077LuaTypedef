@@ -4,7 +4,7 @@
 ---@class BlackwallForceInteractionCondition: gameinteractionsInteractionScriptedCondition
 BlackwallForceInteractionCondition = {}
 
----@param fields? table
+---@param fields? BlackwallForceInteractionCondition
 ---@return BlackwallForceInteractionCondition
 function BlackwallForceInteractionCondition.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public items worldFoliageBrushItem[]
 worldFoliageBrush = {}
 
----@param fields? table
+---@param fields? worldFoliageBrush
 ---@return worldFoliageBrush
 function worldFoliageBrush.new(fields) return end

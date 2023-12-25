@@ -5,7 +5,7 @@
 ---@field public variants String[]
 Codeware_Localization_GenderSensitiveEntry = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_GenderSensitiveEntry
 ---@return Codeware_Localization_GenderSensitiveEntry
 function Codeware_Localization_GenderSensitiveEntry.new(fields) return end
 

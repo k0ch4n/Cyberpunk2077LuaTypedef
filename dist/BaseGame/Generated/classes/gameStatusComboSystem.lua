@@ -4,6 +4,6 @@
 ---@class gameStatusComboSystem: gameIStatusComboSystem
 gameStatusComboSystem = {}
 
----@param fields? table
+---@param fields? gameStatusComboSystem
 ---@return gameStatusComboSystem
 function gameStatusComboSystem.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public initialLocation Vector3
 gameDeviceBaseReplicationProxy = {}
 
----@param fields? table
+---@param fields? gameDeviceBaseReplicationProxy
 ---@return gameDeviceBaseReplicationProxy
 function gameDeviceBaseReplicationProxy.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataSceneInterruptionScenarios_Record: gamedataTweakDBRecord
 gamedataSceneInterruptionScenarios_Record = {}
 
----@param fields? table
+---@param fields? gamedataSceneInterruptionScenarios_Record
 ---@return gamedataSceneInterruptionScenarios_Record
 function gamedataSceneInterruptionScenarios_Record.new(fields) return end
 

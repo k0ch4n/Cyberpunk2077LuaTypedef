@@ -11,7 +11,7 @@
 ---@field protected targetID entEntityID
 InjectCombatTargetCommandTask = {}
 
----@param fields? table
+---@param fields? InjectCombatTargetCommandTask
 ---@return InjectCombatTargetCommandTask
 function InjectCombatTargetCommandTask.new(fields) return end
 

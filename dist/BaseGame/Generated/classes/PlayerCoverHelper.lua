@@ -4,7 +4,7 @@
 ---@class PlayerCoverHelper: IScriptable
 PlayerCoverHelper = {}
 
----@param fields? table
+---@param fields? PlayerCoverHelper
 ---@return PlayerCoverHelper
 function PlayerCoverHelper.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public texture ITexture
 CMaterialParameterTexture = {}
 
----@param fields? table
+---@param fields? CMaterialParameterTexture
 ---@return CMaterialParameterTexture
 function CMaterialParameterTexture.new(fields) return end

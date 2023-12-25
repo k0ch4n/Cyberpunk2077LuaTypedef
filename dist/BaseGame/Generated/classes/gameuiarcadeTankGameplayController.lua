@@ -12,6 +12,6 @@
 ---@field public hudScoreMultiplier inkWidgetReference
 gameuiarcadeTankGameplayController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankGameplayController
 ---@return gameuiarcadeTankGameplayController
 function gameuiarcadeTankGameplayController.new(fields) return end

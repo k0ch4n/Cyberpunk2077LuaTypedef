@@ -4,7 +4,7 @@
 ---@class gamedataSubStatModifier_Record: gamedataStatModifier_Record
 gamedataSubStatModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataSubStatModifier_Record
 ---@return gamedataSubStatModifier_Record
 function gamedataSubStatModifier_Record.new(fields) return end
 

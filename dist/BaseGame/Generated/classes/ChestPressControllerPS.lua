@@ -7,7 +7,7 @@
 ---@field private wasWeighHacked Bool
 ChestPressControllerPS = {}
 
----@param fields? table
+---@param fields? ChestPressControllerPS
 ---@return ChestPressControllerPS
 function ChestPressControllerPS.new(fields) return end
 

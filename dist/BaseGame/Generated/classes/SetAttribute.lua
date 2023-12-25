@@ -6,7 +6,7 @@
 ---@field public attributeType gamedataStatType
 SetAttribute = {}
 
----@param fields? table
+---@param fields? SetAttribute
 ---@return SetAttribute
 function SetAttribute.new(fields) return end
 

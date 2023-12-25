@@ -8,6 +8,6 @@
 ---@field public force Bool
 ApplyDiodeLightPresetEvent = {}
 
----@param fields? table
+---@param fields? ApplyDiodeLightPresetEvent
 ---@return ApplyDiodeLightPresetEvent
 function ApplyDiodeLightPresetEvent.new(fields) return end

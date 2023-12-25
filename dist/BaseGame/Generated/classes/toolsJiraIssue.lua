@@ -8,6 +8,6 @@
 ---@field public fields toolsJiraIssueFields
 toolsJiraIssue = {}
 
----@param fields? table
+---@param fields? toolsJiraIssue
 ---@return toolsJiraIssue
 function toolsJiraIssue.new(fields) return end

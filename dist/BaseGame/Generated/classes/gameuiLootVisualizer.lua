@@ -4,6 +4,6 @@
 ---@class gameuiLootVisualizer: gameuiIChoiceVisualizer
 gameuiLootVisualizer = {}
 
----@param fields? table
+---@param fields? gameuiLootVisualizer
 ---@return gameuiLootVisualizer
 function gameuiLootVisualizer.new(fields) return end

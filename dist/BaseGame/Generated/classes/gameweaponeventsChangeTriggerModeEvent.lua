@@ -5,6 +5,6 @@
 ---@field public triggerMode gamedataTriggerMode
 gameweaponeventsChangeTriggerModeEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsChangeTriggerModeEvent
 ---@return gameweaponeventsChangeTriggerModeEvent
 function gameweaponeventsChangeTriggerModeEvent.new(fields) return end

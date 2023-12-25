@@ -11,6 +11,6 @@
 ---@field public resetOnActivation Bool
 animAnimNode_TranslateBone = {}
 
----@param fields? table
+---@param fields? animAnimNode_TranslateBone
 ---@return animAnimNode_TranslateBone
 function animAnimNode_TranslateBone.new(fields) return end

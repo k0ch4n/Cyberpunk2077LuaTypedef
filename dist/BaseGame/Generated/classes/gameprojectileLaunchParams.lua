@@ -10,6 +10,6 @@
 ---@field public ownerVelocityProvider entIVelocityProvider
 gameprojectileLaunchParams = {}
 
----@param fields? table
+---@param fields? gameprojectileLaunchParams
 ---@return gameprojectileLaunchParams
 function gameprojectileLaunchParams.new(fields) return end

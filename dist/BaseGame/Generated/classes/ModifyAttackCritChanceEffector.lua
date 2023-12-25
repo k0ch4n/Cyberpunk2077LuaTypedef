@@ -5,7 +5,7 @@
 ---@field public applicationChanceMods gamedataStatModifier_Record[]
 ModifyAttackCritChanceEffector = {}
 
----@param fields? table
+---@param fields? ModifyAttackCritChanceEffector
 ---@return ModifyAttackCritChanceEffector
 function ModifyAttackCritChanceEffector.new(fields) return end
 

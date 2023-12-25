@@ -4,7 +4,7 @@
 ---@class HoloDeviceController: ScriptableDeviceComponent
 HoloDeviceController = {}
 
----@param fields? table
+---@param fields? HoloDeviceController
 ---@return HoloDeviceController
 function HoloDeviceController.new(fields) return end
 

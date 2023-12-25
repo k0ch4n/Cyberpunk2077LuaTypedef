@@ -5,7 +5,7 @@
 ---@field public effector KiroshiHighlightEffector
 KiroshiEffectorIsAimingStatListener = {}
 
----@param fields? table
+---@param fields? KiroshiEffectorIsAimingStatListener
 ---@return KiroshiEffectorIsAimingStatListener
 function KiroshiEffectorIsAimingStatListener.new(fields) return end
 

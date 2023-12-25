@@ -8,6 +8,6 @@
 ---@field public occupiedByNonFriendly Bool
 VehicleTransitionInitData = {}
 
----@param fields? table
+---@param fields? VehicleTransitionInitData
 ---@return VehicleTransitionInitData
 function VehicleTransitionInitData.new(fields) return end

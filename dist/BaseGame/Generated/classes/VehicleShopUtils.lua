@@ -4,7 +4,7 @@
 ---@class VehicleShopUtils: IScriptable
 VehicleShopUtils = {}
 
----@param fields? table
+---@param fields? VehicleShopUtils
 ---@return VehicleShopUtils
 function VehicleShopUtils.new(fields) return end
 

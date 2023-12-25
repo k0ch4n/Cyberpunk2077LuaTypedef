@@ -5,6 +5,6 @@
 ---@field public tag CName
 workActorTagCondition = {}
 
----@param fields? table
+---@param fields? workActorTagCondition
 ---@return workActorTagCondition
 function workActorTagCondition.new(fields) return end

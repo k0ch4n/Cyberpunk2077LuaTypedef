@@ -8,6 +8,6 @@
 ---@field public value Variant
 LibTreeParameter = {}
 
----@param fields? table
+---@param fields? LibTreeParameter
 ---@return LibTreeParameter
 function LibTreeParameter.new(fields) return end

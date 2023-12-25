@@ -5,7 +5,7 @@
 ---@field public presetID ESmartHousePreset
 ChangePresetEvent = {}
 
----@param fields? table
+---@param fields? ChangePresetEvent
 ---@return ChangePresetEvent
 function ChangePresetEvent.new(fields) return end
 

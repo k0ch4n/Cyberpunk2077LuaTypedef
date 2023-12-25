@@ -4,7 +4,7 @@
 ---@class WaitBeforeExiting: AIVehicleTaskAbstract
 WaitBeforeExiting = {}
 
----@param fields? table
+---@param fields? WaitBeforeExiting
 ---@return WaitBeforeExiting
 function WaitBeforeExiting.new(fields) return end
 

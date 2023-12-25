@@ -8,7 +8,7 @@
 ---@field public widgetData SDeviceWidgetPackage
 KeypadButtonSpawnData = {}
 
----@param fields? table
+---@param fields? KeypadButtonSpawnData
 ---@return KeypadButtonSpawnData
 function KeypadButtonSpawnData.new(fields) return end
 

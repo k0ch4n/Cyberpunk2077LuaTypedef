@@ -4,6 +4,6 @@
 ---@class animAnimFeatureEvent
 animAnimFeatureEvent = {}
 
----@param fields? table
+---@param fields? animAnimFeatureEvent
 ---@return animAnimFeatureEvent
 function animAnimFeatureEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public rootItemName CName
 questVendorPanelData = {}
 
----@param fields? table
+---@param fields? questVendorPanelData
 ---@return questVendorPanelData
 function questVendorPanelData.new(fields) return end

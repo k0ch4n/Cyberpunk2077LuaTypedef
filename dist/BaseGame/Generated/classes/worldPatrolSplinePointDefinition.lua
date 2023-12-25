@@ -7,6 +7,6 @@
 ---@field public target gameEntityReference
 worldPatrolSplinePointDefinition = {}
 
----@param fields? table
+---@param fields? worldPatrolSplinePointDefinition
 ---@return worldPatrolSplinePointDefinition
 function worldPatrolSplinePointDefinition.new(fields) return end

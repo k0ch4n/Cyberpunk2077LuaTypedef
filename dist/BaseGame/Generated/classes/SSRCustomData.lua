@@ -4,6 +4,6 @@
 ---@class SSRCustomData: ICameraStorageCustomData
 SSRCustomData = {}
 
----@param fields? table
+---@param fields? SSRCustomData
 ---@return SSRCustomData
 function SSRCustomData.new(fields) return end

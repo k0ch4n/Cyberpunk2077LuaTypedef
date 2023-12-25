@@ -6,6 +6,6 @@
 ---@field public alarmSound CName
 SecurityAlarmSetup = {}
 
----@param fields? table
+---@param fields? SecurityAlarmSetup
 ---@return SecurityAlarmSetup
 function SecurityAlarmSetup.new(fields) return end

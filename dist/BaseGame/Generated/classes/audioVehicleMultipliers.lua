@@ -6,6 +6,6 @@
 ---@field public rpmMultiplier Float
 audioVehicleMultipliers = {}
 
----@param fields? table
+---@param fields? audioVehicleMultipliers
 ---@return audioVehicleMultipliers
 function audioVehicleMultipliers.new(fields) return end

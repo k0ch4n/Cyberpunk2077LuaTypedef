@@ -4,7 +4,7 @@
 ---@class gametargetingTargetPartInfo
 gametargetingTargetPartInfo = {}
 
----@param fields? table
+---@param fields? gametargetingTargetPartInfo
 ---@return gametargetingTargetPartInfo
 function gametargetingTargetPartInfo.new(fields) return end
 

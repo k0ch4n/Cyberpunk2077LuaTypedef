@@ -5,6 +5,6 @@
 ---@field public creationData gameCrowdCreationData[]
 gameCrowdCreationDataRegistry = {}
 
----@param fields? table
+---@param fields? gameCrowdCreationDataRegistry
 ---@return gameCrowdCreationDataRegistry
 function gameCrowdCreationDataRegistry.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AICArchetypeManager: AIIArchetypeManager
 AICArchetypeManager = {}
 
----@param fields? table
+---@param fields? AICArchetypeManager
 ---@return AICArchetypeManager
 function AICArchetypeManager.new(fields) return end

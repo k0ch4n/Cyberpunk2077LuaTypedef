@@ -4,7 +4,7 @@
 ---@class IsNPCInVehicle: PreventionConditionAbstract
 IsNPCInVehicle = {}
 
----@param fields? table
+---@param fields? IsNPCInVehicle
 ---@return IsNPCInVehicle
 function IsNPCInVehicle.new(fields) return end
 

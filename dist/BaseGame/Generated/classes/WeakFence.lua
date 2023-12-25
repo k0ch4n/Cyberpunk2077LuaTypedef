@@ -11,7 +11,7 @@
 ---@field protected physicalMesh entIPlacedComponent
 WeakFence = {}
 
----@param fields? table
+---@param fields? WeakFence
 ---@return WeakFence
 function WeakFence.new(fields) return end
 

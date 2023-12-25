@@ -5,6 +5,6 @@
 ---@field public isContentBlocked Bool
 questContentLock_ConditionType = {}
 
----@param fields? table
+---@param fields? questContentLock_ConditionType
 ---@return questContentLock_ConditionType
 function questContentLock_ConditionType.new(fields) return end

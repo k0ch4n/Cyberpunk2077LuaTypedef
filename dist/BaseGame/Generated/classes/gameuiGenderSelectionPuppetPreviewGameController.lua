@@ -6,7 +6,7 @@
 ---@field public cameraRef NodeRef
 gameuiGenderSelectionPuppetPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiGenderSelectionPuppetPreviewGameController
 ---@return gameuiGenderSelectionPuppetPreviewGameController
 function gameuiGenderSelectionPuppetPreviewGameController.new(fields) return end
 

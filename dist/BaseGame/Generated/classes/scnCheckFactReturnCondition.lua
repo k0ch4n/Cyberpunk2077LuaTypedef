@@ -5,6 +5,6 @@
 ---@field public params scnCheckFactReturnConditionParams
 scnCheckFactReturnCondition = {}
 
----@param fields? table
+---@param fields? scnCheckFactReturnCondition
 ---@return scnCheckFactReturnCondition
 function scnCheckFactReturnCondition.new(fields) return end

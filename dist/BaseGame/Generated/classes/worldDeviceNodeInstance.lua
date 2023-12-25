@@ -4,6 +4,6 @@
 ---@class worldDeviceNodeInstance: worldEntityNodeInstance
 worldDeviceNodeInstance = {}
 
----@param fields? table
+---@param fields? worldDeviceNodeInstance
 ---@return worldDeviceNodeInstance
 function worldDeviceNodeInstance.new(fields) return end

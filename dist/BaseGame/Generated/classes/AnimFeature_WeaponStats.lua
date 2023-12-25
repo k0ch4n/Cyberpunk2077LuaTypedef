@@ -6,6 +6,6 @@
 ---@field public cycleTime Float
 AnimFeature_WeaponStats = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponStats
 ---@return AnimFeature_WeaponStats
 function AnimFeature_WeaponStats.new(fields) return end

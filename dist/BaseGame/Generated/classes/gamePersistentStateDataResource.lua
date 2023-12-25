@@ -5,6 +5,6 @@
 ---@field public buffer DataBuffer
 gamePersistentStateDataResource = {}
 
----@param fields? table
+---@param fields? gamePersistentStateDataResource
 ---@return gamePersistentStateDataResource
 function gamePersistentStateDataResource.new(fields) return end

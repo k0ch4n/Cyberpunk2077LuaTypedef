@@ -4,6 +4,6 @@
 ---@class gameuiPanzerLifeBonus: gameuiPanzerBonus
 gameuiPanzerLifeBonus = {}
 
----@param fields? table
+---@param fields? gameuiPanzerLifeBonus
 ---@return gameuiPanzerLifeBonus
 function gameuiPanzerLifeBonus.new(fields) return end

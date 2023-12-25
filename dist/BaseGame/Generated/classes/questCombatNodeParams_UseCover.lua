@@ -9,6 +9,6 @@
 ---@field public immediately Bool
 questCombatNodeParams_UseCover = {}
 
----@param fields? table
+---@param fields? questCombatNodeParams_UseCover
 ---@return questCombatNodeParams_UseCover
 function questCombatNodeParams_UseCover.new(fields) return end

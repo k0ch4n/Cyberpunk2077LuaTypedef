@@ -5,6 +5,6 @@
 ---@field public reactionZonesSide ReactionZones_Humanoid_Side
 HitData_Humanoid = {}
 
----@param fields? table
+---@param fields? HitData_Humanoid
 ---@return HitData_Humanoid
 function HitData_Humanoid.new(fields) return end

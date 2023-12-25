@@ -66,7 +66,7 @@
 ---@field protected cpoTimeBeforeRelease Float
 BaseGrenade = {}
 
----@param fields? table
+---@param fields? BaseGrenade
 ---@return BaseGrenade
 function BaseGrenade.new(fields) return end
 

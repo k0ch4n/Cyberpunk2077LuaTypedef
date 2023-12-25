@@ -5,7 +5,7 @@
 ---@field private ctrl BrightnessSettingsGameController
 BrightnessSettingsVarListener = {}
 
----@param fields? table
+---@param fields? BrightnessSettingsVarListener
 ---@return BrightnessSettingsVarListener
 function BrightnessSettingsVarListener.new(fields) return end
 

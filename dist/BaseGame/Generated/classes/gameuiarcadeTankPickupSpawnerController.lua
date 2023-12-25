@@ -4,6 +4,6 @@
 ---@class gameuiarcadeTankPickupSpawnerController: gameuiarcadeArcadeSpawnerController
 gameuiarcadeTankPickupSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankPickupSpawnerController
 ---@return gameuiarcadeTankPickupSpawnerController
 function gameuiarcadeTankPickupSpawnerController.new(fields) return end

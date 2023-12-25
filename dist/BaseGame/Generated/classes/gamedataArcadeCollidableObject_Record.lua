@@ -4,7 +4,7 @@
 ---@class gamedataArcadeCollidableObject_Record: gamedataArcadeObject_Record
 gamedataArcadeCollidableObject_Record = {}
 
----@param fields? table
+---@param fields? gamedataArcadeCollidableObject_Record
 ---@return gamedataArcadeCollidableObject_Record
 function gamedataArcadeCollidableObject_Record.new(fields) return end
 

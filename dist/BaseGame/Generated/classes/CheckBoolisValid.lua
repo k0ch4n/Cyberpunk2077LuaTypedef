@@ -5,7 +5,7 @@
 ---@field public actionTweakIDMapping AIArgumentMapping
 CheckBoolisValid = {}
 
----@param fields? table
+---@param fields? CheckBoolisValid
 ---@return CheckBoolisValid
 function CheckBoolisValid.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public isActive Bool
 gameMuppetControllerSnapshot = {}
 
----@param fields? table
+---@param fields? gameMuppetControllerSnapshot
 ---@return gameMuppetControllerSnapshot
 function gameMuppetControllerSnapshot.new(fields) return end

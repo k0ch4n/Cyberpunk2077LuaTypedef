@@ -5,6 +5,6 @@
 ---@field public factCondition scnInterruptFactConditionType
 scnCheckFactReturnConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckFactReturnConditionParams
 ---@return scnCheckFactReturnConditionParams
 function scnCheckFactReturnConditionParams.new(fields) return end

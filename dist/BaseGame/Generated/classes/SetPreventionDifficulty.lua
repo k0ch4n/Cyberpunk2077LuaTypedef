@@ -8,7 +8,7 @@
 ---@field public source CName
 SetPreventionDifficulty = {}
 
----@param fields? table
+---@param fields? SetPreventionDifficulty
 ---@return SetPreventionDifficulty
 function SetPreventionDifficulty.new(fields) return end
 

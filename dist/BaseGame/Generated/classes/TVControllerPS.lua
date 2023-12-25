@@ -9,7 +9,7 @@
 ---@field private backupCustomChannels STvChannel[]
 TVControllerPS = {}
 
----@param fields? table
+---@param fields? TVControllerPS
 ---@return TVControllerPS
 function TVControllerPS.new(fields) return end
 

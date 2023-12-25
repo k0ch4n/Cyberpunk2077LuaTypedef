@@ -5,6 +5,6 @@
 ---@field public externalComponentName CName
 entExternalComponent = {}
 
----@param fields? table
+---@param fields? entExternalComponent
 ---@return entExternalComponent
 function entExternalComponent.new(fields) return end

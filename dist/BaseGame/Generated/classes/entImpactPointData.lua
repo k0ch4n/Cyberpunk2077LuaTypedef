@@ -10,6 +10,6 @@
 ---@field public maxImpulseMagnitude Float
 entImpactPointData = {}
 
----@param fields? table
+---@param fields? entImpactPointData
 ---@return entImpactPointData
 function entImpactPointData.new(fields) return end

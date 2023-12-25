@@ -17,6 +17,6 @@
 ---@field public anyStatRequirements MinimalItemTooltipDataStatRequirement[]
 MinimalItemTooltipDataRequirements = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipDataRequirements
 ---@return MinimalItemTooltipDataRequirements
 function MinimalItemTooltipDataRequirements.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public resultOnNoChange AIbehaviorCompletionStatus
 AssignRestrictMovementAreaHandler = {}
 
----@param fields? table
+---@param fields? AssignRestrictMovementAreaHandler
 ---@return AssignRestrictMovementAreaHandler
 function AssignRestrictMovementAreaHandler.new(fields) return end
 

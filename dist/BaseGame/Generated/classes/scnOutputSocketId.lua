@@ -6,6 +6,6 @@
 ---@field public osockStamp scnOutputSocketStamp
 scnOutputSocketId = {}
 
----@param fields? table
+---@param fields? scnOutputSocketId
 ---@return scnOutputSocketId
 function scnOutputSocketId.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public recordID TweakDBID
 questUseWeapon_MissileRainGrid_NodeType = {}
 
----@param fields? table
+---@param fields? questUseWeapon_MissileRainGrid_NodeType
 ---@return questUseWeapon_MissileRainGrid_NodeType
 function questUseWeapon_MissileRainGrid_NodeType.new(fields) return end

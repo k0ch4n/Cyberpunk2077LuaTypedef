@@ -9,7 +9,7 @@
 ---@field public imageId TweakDBID
 ShardCollectedNotificationViewData = {}
 
----@param fields? table
+---@param fields? ShardCollectedNotificationViewData
 ---@return ShardCollectedNotificationViewData
 function ShardCollectedNotificationViewData.new(fields) return end
 

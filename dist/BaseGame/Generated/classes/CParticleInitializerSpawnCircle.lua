@@ -9,6 +9,6 @@
 ---@field public spawnToLocal Matrix
 CParticleInitializerSpawnCircle = {}
 
----@param fields? table
+---@param fields? CParticleInitializerSpawnCircle
 ---@return CParticleInitializerSpawnCircle
 function CParticleInitializerSpawnCircle.new(fields) return end

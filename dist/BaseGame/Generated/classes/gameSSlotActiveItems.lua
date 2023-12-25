@@ -6,6 +6,6 @@
 ---@field public leftHandItem gameItemID
 gameSSlotActiveItems = {}
 
----@param fields? table
+---@param fields? gameSSlotActiveItems
 ---@return gameSSlotActiveItems
 function gameSSlotActiveItems.new(fields) return end

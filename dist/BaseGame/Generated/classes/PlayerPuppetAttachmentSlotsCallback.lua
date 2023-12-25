@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 PlayerPuppetAttachmentSlotsCallback = {}
 
----@param fields? table
+---@param fields? PlayerPuppetAttachmentSlotsCallback
 ---@return PlayerPuppetAttachmentSlotsCallback
 function PlayerPuppetAttachmentSlotsCallback.new(fields) return end
 

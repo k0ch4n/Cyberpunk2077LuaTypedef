@@ -15,7 +15,7 @@
 ---@field public patternType gameVisionModePatternType
 FocusForcedHighlightData = {}
 
----@param fields? table
+---@param fields? FocusForcedHighlightData
 ---@return FocusForcedHighlightData
 function FocusForcedHighlightData.new(fields) return end
 

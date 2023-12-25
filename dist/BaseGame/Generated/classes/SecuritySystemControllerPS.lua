@@ -33,7 +33,7 @@
 ---@field private inputsReceived Int32
 SecuritySystemControllerPS = {}
 
----@param fields? table
+---@param fields? SecuritySystemControllerPS
 ---@return SecuritySystemControllerPS
 function SecuritySystemControllerPS.new(fields) return end
 

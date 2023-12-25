@@ -9,6 +9,6 @@
 ---@field public shouldForceVirtualSystem Bool
 TerminalSetup = {}
 
----@param fields? table
+---@param fields? TerminalSetup
 ---@return TerminalSetup
 function TerminalSetup.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public conserveMomentum Bool
 CParticleInitializerVelocitySpread = {}
 
----@param fields? table
+---@param fields? CParticleInitializerVelocitySpread
 ---@return CParticleInitializerVelocitySpread
 function CParticleInitializerVelocitySpread.new(fields) return end

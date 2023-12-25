@@ -10,6 +10,6 @@
 ---@field public frequency Float
 audioTriggerEffectMetadata = {}
 
----@param fields? table
+---@param fields? audioTriggerEffectMetadata
 ---@return audioTriggerEffectMetadata
 function audioTriggerEffectMetadata.new(fields) return end

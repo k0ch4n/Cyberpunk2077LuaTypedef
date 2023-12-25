@@ -8,7 +8,7 @@
 ---@field protected animationName CName
 ItemAddedNotification = {}
 
----@param fields? table
+---@param fields? ItemAddedNotification
 ---@return ItemAddedNotification
 function ItemAddedNotification.new(fields) return end
 

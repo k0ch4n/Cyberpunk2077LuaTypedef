@@ -12,7 +12,7 @@
 ---@field public blinkAnimProxy inkanimProxy
 Codeware_UI_TextInput_Caret = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput_Caret
 ---@return Codeware_UI_TextInput_Caret
 function Codeware_UI_TextInput_Caret.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class workSyncBindBaseCommandData: workIWorkspotCommandData
 workSyncBindBaseCommandData = {}
 
----@param fields? table
+---@param fields? workSyncBindBaseCommandData
 ---@return workSyncBindBaseCommandData
 function workSyncBindBaseCommandData.new(fields) return end

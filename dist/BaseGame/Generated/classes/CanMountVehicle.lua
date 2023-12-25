@@ -4,7 +4,7 @@
 ---@class CanMountVehicle: AIVehicleConditionAbstract
 CanMountVehicle = {}
 
----@param fields? table
+---@param fields? CanMountVehicle
 ---@return CanMountVehicle
 function CanMountVehicle.new(fields) return end
 

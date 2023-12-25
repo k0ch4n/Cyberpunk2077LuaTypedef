@@ -6,6 +6,6 @@
 ---@field public method AICoverExposureMethod
 gameAvailableExposureMethodResult = {}
 
----@param fields? table
+---@param fields? gameAvailableExposureMethodResult
 ---@return gameAvailableExposureMethodResult
 function gameAvailableExposureMethodResult.new(fields) return end

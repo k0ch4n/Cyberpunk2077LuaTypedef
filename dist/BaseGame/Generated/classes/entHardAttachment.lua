@@ -4,6 +4,6 @@
 ---@class entHardAttachment: entITransformAttachment
 entHardAttachment = {}
 
----@param fields? table
+---@param fields? entHardAttachment
 ---@return entHardAttachment
 function entHardAttachment.new(fields) return end

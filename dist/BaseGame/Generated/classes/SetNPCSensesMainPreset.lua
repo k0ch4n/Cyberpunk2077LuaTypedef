@@ -5,7 +5,7 @@
 ---@field public newSensesPresetName String
 SetNPCSensesMainPreset = {}
 
----@param fields? table
+---@param fields? SetNPCSensesMainPreset
 ---@return SetNPCSensesMainPreset
 function SetNPCSensesMainPreset.new(fields) return end
 

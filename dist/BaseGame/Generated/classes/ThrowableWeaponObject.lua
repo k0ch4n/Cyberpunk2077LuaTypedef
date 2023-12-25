@@ -6,7 +6,7 @@
 ---@field protected weaponOwner gameObject
 ThrowableWeaponObject = {}
 
----@param fields? table
+---@param fields? ThrowableWeaponObject
 ---@return ThrowableWeaponObject
 function ThrowableWeaponObject.new(fields) return end
 

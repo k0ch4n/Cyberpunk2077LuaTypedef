@@ -4,6 +4,6 @@
 ---@class CRenderLightVolumeAllocator: ISceneStorageCustomData
 CRenderLightVolumeAllocator = {}
 
----@param fields? table
+---@param fields? CRenderLightVolumeAllocator
 ---@return CRenderLightVolumeAllocator
 function CRenderLightVolumeAllocator.new(fields) return end

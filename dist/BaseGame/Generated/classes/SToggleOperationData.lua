@@ -7,6 +7,6 @@
 ---@field public classType EOperationClassType
 SToggleOperationData = {}
 
----@param fields? table
+---@param fields? SToggleOperationData
 ---@return SToggleOperationData
 function SToggleOperationData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public hasProperAnimations Bool
 ActivatedDeviceNPC = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceNPC
 ---@return ActivatedDeviceNPC
 function ActivatedDeviceNPC.new(fields) return end
 

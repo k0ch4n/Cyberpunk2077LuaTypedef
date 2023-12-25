@@ -6,7 +6,7 @@
 ---@field public isDebug Bool
 SetProgressionBuild = {}
 
----@param fields? table
+---@param fields? SetProgressionBuild
 ---@return SetProgressionBuild
 function SetProgressionBuild.new(fields) return end
 

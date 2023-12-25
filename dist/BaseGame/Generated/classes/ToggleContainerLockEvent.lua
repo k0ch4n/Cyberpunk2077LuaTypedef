@@ -5,7 +5,7 @@
 ---@field public isLocked Bool
 ToggleContainerLockEvent = {}
 
----@param fields? table
+---@param fields? ToggleContainerLockEvent
 ---@return ToggleContainerLockEvent
 function ToggleContainerLockEvent.new(fields) return end
 

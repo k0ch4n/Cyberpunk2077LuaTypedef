@@ -5,7 +5,7 @@
 ---@field public perkType gamedataNewPerkType
 NewPerkActionRequest = {}
 
----@param fields? table
+---@param fields? NewPerkActionRequest
 ---@return NewPerkActionRequest
 function NewPerkActionRequest.new(fields) return end
 

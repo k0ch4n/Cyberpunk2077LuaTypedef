@@ -11,7 +11,7 @@
 ---@field private data DropdownItemData[]
 DropdownListController = {}
 
----@param fields? table
+---@param fields? DropdownListController
 ---@return DropdownListController
 function DropdownListController.new(fields) return end
 

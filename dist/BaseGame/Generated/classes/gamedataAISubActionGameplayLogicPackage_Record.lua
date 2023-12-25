@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionGameplayLogicPackage_Record: gamedataAISubAction_Record
 gamedataAISubActionGameplayLogicPackage_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionGameplayLogicPackage_Record
 ---@return gamedataAISubActionGameplayLogicPackage_Record
 function gamedataAISubActionGameplayLogicPackage_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public effecName CName
 AddForceHighlightTargetEvent = {}
 
----@param fields? table
+---@param fields? AddForceHighlightTargetEvent
 ---@return AddForceHighlightTargetEvent
 function AddForceHighlightTargetEvent.new(fields) return end

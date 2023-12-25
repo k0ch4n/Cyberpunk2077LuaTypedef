@@ -6,7 +6,7 @@
 ---@field private manager UIInventoryItemsManager
 DefaultUIInventoryItemStatsProvider = {}
 
----@param fields? table
+---@param fields? DefaultUIInventoryItemStatsProvider
 ---@return DefaultUIInventoryItemStatsProvider
 function DefaultUIInventoryItemStatsProvider.new(fields) return end
 

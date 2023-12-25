@@ -5,6 +5,6 @@
 ---@field public slotID TweakDBID
 gameSynchronizeAttachmentSlotRequest = {}
 
----@param fields? table
+---@param fields? gameSynchronizeAttachmentSlotRequest
 ---@return gameSynchronizeAttachmentSlotRequest
 function gameSynchronizeAttachmentSlotRequest.new(fields) return end

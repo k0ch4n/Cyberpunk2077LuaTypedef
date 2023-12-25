@@ -4,7 +4,7 @@
 ---@class ChestPressWeightHack: ActionBool
 ChestPressWeightHack = {}
 
----@param fields? table
+---@param fields? ChestPressWeightHack
 ---@return ChestPressWeightHack
 function ChestPressWeightHack.new(fields) return end
 

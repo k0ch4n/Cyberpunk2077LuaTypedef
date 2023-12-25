@@ -7,6 +7,6 @@
 ---@field public spawnSetReference CName
 communityCommunityTemplateData = {}
 
----@param fields? table
+---@param fields? communityCommunityTemplateData
 ---@return communityCommunityTemplateData
 function communityCommunityTemplateData.new(fields) return end

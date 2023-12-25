@@ -21,7 +21,7 @@
 ---@field public currentPitchModifier Float
 SurveillanceCamera = {}
 
----@param fields? table
+---@param fields? SurveillanceCamera
 ---@return SurveillanceCamera
 function SurveillanceCamera.new(fields) return end
 

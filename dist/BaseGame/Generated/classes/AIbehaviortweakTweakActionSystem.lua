@@ -4,7 +4,7 @@
 ---@class AIbehaviortweakTweakActionSystem: gameIGameSystem
 AIbehaviortweakTweakActionSystem = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakTweakActionSystem
 ---@return AIbehaviortweakTweakActionSystem
 function AIbehaviortweakTweakActionSystem.new(fields) return end
 

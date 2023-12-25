@@ -4,6 +4,6 @@
 ---@class gameMuppetRawInput: gameMuppetComponent
 gameMuppetRawInput = {}
 
----@param fields? table
+---@param fields? gameMuppetRawInput
 ---@return gameMuppetRawInput
 function gameMuppetRawInput.new(fields) return end

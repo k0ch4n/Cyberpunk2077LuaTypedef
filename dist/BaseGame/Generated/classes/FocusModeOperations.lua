@@ -5,7 +5,7 @@
 ---@field protected focusModeOperations SFocusModeOperationData[]
 FocusModeOperations = {}
 
----@param fields? table
+---@param fields? FocusModeOperations
 ---@return FocusModeOperations
 function FocusModeOperations.new(fields) return end
 

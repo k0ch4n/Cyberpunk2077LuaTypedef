@@ -4,6 +4,6 @@
 ---@class DialogueChoiceHubPrereqState: gamePrereqState
 DialogueChoiceHubPrereqState = {}
 
----@param fields? table
+---@param fields? DialogueChoiceHubPrereqState
 ---@return DialogueChoiceHubPrereqState
 function DialogueChoiceHubPrereqState.new(fields) return end

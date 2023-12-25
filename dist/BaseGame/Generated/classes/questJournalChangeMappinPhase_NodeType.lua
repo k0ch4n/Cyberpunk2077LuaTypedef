@@ -7,6 +7,6 @@
 ---@field public notifyUI Bool
 questJournalChangeMappinPhase_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalChangeMappinPhase_NodeType
 ---@return questJournalChangeMappinPhase_NodeType
 function questJournalChangeMappinPhase_NodeType.new(fields) return end

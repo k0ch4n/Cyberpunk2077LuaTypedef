@@ -4,7 +4,7 @@
 ---@class HitDamageOverTimePrereqState: GenericHitPrereqState
 HitDamageOverTimePrereqState = {}
 
----@param fields? table
+---@param fields? HitDamageOverTimePrereqState
 ---@return HitDamageOverTimePrereqState
 function HitDamageOverTimePrereqState.new(fields) return end
 

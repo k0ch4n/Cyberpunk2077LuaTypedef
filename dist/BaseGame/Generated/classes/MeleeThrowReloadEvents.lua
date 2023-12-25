@@ -5,7 +5,7 @@
 ---@field public isSwitchingWeapon Bool
 MeleeThrowReloadEvents = {}
 
----@param fields? table
+---@param fields? MeleeThrowReloadEvents
 ---@return MeleeThrowReloadEvents
 function MeleeThrowReloadEvents.new(fields) return end
 

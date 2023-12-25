@@ -4,6 +4,6 @@
 ---@class DamageInflictedEvent: redEvent
 DamageInflictedEvent = {}
 
----@param fields? table
+---@param fields? DamageInflictedEvent
 ---@return DamageInflictedEvent
 function DamageInflictedEvent.new(fields) return end

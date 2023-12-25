@@ -4,6 +4,6 @@
 ---@class DialogHubPostInitializeEvent: redEvent
 DialogHubPostInitializeEvent = {}
 
----@param fields? table
+---@param fields? DialogHubPostInitializeEvent
 ---@return DialogHubPostInitializeEvent
 function DialogHubPostInitializeEvent.new(fields) return end

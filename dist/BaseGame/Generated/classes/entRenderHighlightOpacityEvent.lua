@@ -5,6 +5,6 @@
 ---@field public opacity Float
 entRenderHighlightOpacityEvent = {}
 
----@param fields? table
+---@param fields? entRenderHighlightOpacityEvent
 ---@return entRenderHighlightOpacityEvent
 function entRenderHighlightOpacityEvent.new(fields) return end

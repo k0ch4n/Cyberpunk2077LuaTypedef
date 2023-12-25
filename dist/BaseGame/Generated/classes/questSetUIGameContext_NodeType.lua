@@ -6,6 +6,6 @@
 ---@field public context UIGameContext
 questSetUIGameContext_NodeType = {}
 
----@param fields? table
+---@param fields? questSetUIGameContext_NodeType
 ---@return questSetUIGameContext_NodeType
 function questSetUIGameContext_NodeType.new(fields) return end

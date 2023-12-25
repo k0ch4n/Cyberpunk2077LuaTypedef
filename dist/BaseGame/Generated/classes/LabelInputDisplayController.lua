@@ -5,7 +5,7 @@
 ---@field private inputLabel inkTextWidgetReference
 LabelInputDisplayController = {}
 
----@param fields? table
+---@param fields? LabelInputDisplayController
 ---@return LabelInputDisplayController
 function LabelInputDisplayController.new(fields) return end
 

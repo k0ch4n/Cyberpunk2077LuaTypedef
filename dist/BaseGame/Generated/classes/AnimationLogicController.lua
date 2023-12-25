@@ -5,7 +5,7 @@
 ---@field private imageView inkImageWidgetReference
 AnimationLogicController = {}
 
----@param fields? table
+---@param fields? AnimationLogicController
 ---@return AnimationLogicController
 function AnimationLogicController.new(fields) return end
 

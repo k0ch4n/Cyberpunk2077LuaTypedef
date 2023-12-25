@@ -4,7 +4,7 @@
 ---@class gamedataWidgetRatio_Record: gamedataTweakDBRecord
 gamedataWidgetRatio_Record = {}
 
----@param fields? table
+---@param fields? gamedataWidgetRatio_Record
 ---@return gamedataWidgetRatio_Record
 function gamedataWidgetRatio_Record.new(fields) return end
 

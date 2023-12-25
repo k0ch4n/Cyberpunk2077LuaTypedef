@@ -4,6 +4,6 @@
 ---@class ShortBladeLookAtEvents: LookAtPresetMeleeBaseEvents
 ShortBladeLookAtEvents = {}
 
----@param fields? table
+---@param fields? ShortBladeLookAtEvents
 ---@return ShortBladeLookAtEvents
 function ShortBladeLookAtEvents.new(fields) return end

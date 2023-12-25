@@ -7,6 +7,6 @@
 ---@field public loadingHandles animAnimSet[]
 workWorkspotAnimsetEntry = {}
 
----@param fields? table
+---@param fields? workWorkspotAnimsetEntry
 ---@return workWorkspotAnimsetEntry
 function workWorkspotAnimsetEntry.new(fields) return end

@@ -33,7 +33,7 @@
 ---@field private uiSystem gameuiGameSystemUI
 TargetHitIndicatorGameController = {}
 
----@param fields? table
+---@param fields? TargetHitIndicatorGameController
 ---@return TargetHitIndicatorGameController
 function TargetHitIndicatorGameController.new(fields) return end
 

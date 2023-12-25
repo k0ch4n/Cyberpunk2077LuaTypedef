@@ -12,6 +12,6 @@
 ---@field public wasThrown Bool
 AnimFeature_Carry = {}
 
----@param fields? table
+---@param fields? AnimFeature_Carry
 ---@return AnimFeature_Carry
 function AnimFeature_Carry.new(fields) return end

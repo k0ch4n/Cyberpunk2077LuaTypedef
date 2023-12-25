@@ -11,6 +11,6 @@
 ---@field public includeMeshNodes Bool
 interopSelectByDefinitionOptions = {}
 
----@param fields? table
+---@param fields? interopSelectByDefinitionOptions
 ---@return interopSelectByDefinitionOptions
 function interopSelectByDefinitionOptions.new(fields) return end

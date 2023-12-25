@@ -9,6 +9,6 @@
 ---@field public boneName CName
 physicsclothExportedCapsule = {}
 
----@param fields? table
+---@param fields? physicsclothExportedCapsule
 ---@return physicsclothExportedCapsule
 function physicsclothExportedCapsule.new(fields) return end

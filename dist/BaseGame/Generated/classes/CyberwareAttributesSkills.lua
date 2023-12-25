@@ -18,7 +18,7 @@
 ---@field private OnChemicalResistanceChangedCallback redCallbackObject
 CyberwareAttributesSkills = {}
 
----@param fields? table
+---@param fields? CyberwareAttributesSkills
 ---@return CyberwareAttributesSkills
 function CyberwareAttributesSkills.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public speedInTraffic Float
 vehicleDriveToPointEvent = {}
 
----@param fields? table
+---@param fields? vehicleDriveToPointEvent
 ---@return vehicleDriveToPointEvent
 function vehicleDriveToPointEvent.new(fields) return end

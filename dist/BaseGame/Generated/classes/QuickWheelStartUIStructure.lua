@@ -6,6 +6,6 @@
 ---@field public dpadSlot EDPadSlot
 QuickWheelStartUIStructure = {}
 
----@param fields? table
+---@param fields? QuickWheelStartUIStructure
 ---@return QuickWheelStartUIStructure
 function QuickWheelStartUIStructure.new(fields) return end

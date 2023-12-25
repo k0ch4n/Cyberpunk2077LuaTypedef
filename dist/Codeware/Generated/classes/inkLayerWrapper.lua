@@ -4,7 +4,7 @@
 ---@class inkLayerWrapper: IScriptable
 inkLayerWrapper = {}
 
----@param fields? table
+---@param fields? inkLayerWrapper
 ---@return inkLayerWrapper
 function inkLayerWrapper.new(fields) return end
 

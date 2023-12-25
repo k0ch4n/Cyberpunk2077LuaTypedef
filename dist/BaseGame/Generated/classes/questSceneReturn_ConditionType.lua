@@ -7,6 +7,6 @@
 ---@field public returnConditions scnIReturnCondition[]
 questSceneReturn_ConditionType = {}
 
----@param fields? table
+---@param fields? questSceneReturn_ConditionType
 ---@return questSceneReturn_ConditionType
 function questSceneReturn_ConditionType.new(fields) return end

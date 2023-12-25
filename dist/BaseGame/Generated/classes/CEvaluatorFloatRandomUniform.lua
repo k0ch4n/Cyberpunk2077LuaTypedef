@@ -6,6 +6,6 @@
 ---@field public max Float
 CEvaluatorFloatRandomUniform = {}
 
----@param fields? table
+---@param fields? CEvaluatorFloatRandomUniform
 ---@return CEvaluatorFloatRandomUniform
 function CEvaluatorFloatRandomUniform.new(fields) return end

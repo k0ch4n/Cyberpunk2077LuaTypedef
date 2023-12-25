@@ -5,6 +5,6 @@
 ---@field public visualTag CName
 animVisualTagCondition = {}
 
----@param fields? table
+---@param fields? animVisualTagCondition
 ---@return animVisualTagCondition
 function animVisualTagCondition.new(fields) return end

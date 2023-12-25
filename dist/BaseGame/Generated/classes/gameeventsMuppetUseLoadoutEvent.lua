@@ -5,6 +5,6 @@
 ---@field public adout gamedataCPOLoadoutBase_Record
 gameeventsMuppetUseLoadoutEvent = {}
 
----@param fields? table
+---@param fields? gameeventsMuppetUseLoadoutEvent
 ---@return gameeventsMuppetUseLoadoutEvent
 function gameeventsMuppetUseLoadoutEvent.new(fields) return end

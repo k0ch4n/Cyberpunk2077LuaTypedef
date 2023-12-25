@@ -5,6 +5,6 @@
 ---@field public buildID TweakDBID
 questCharacterManagerParameters_SetProgressionBuild = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetProgressionBuild
 ---@return questCharacterManagerParameters_SetProgressionBuild
 function questCharacterManagerParameters_SetProgressionBuild.new(fields) return end

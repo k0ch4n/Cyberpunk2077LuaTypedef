@@ -7,6 +7,6 @@
 ---@field public variationNumber Uint32
 entVoicesetInputToBlock = {}
 
----@param fields? table
+---@param fields? entVoicesetInputToBlock
 ---@return entVoicesetInputToBlock
 function entVoicesetInputToBlock.new(fields) return end

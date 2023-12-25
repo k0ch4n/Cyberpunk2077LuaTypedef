@@ -7,7 +7,7 @@
 ---@field private NumSlots Int32
 CyberwareSlot = {}
 
----@param fields? table
+---@param fields? CyberwareSlot
 ---@return CyberwareSlot
 function CyberwareSlot.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private isDespawningFlathead Bool
 SubCharacterSystem = {}
 
----@param fields? table
+---@param fields? SubCharacterSystem
 ---@return SubCharacterSystem
 function SubCharacterSystem.new(fields) return end
 

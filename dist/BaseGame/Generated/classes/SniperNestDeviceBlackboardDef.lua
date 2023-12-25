@@ -8,7 +8,7 @@
 ---@field public SniperNestZoomedSpeedMultiplier gamebbScriptID_Float
 SniperNestDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? SniperNestDeviceBlackboardDef
 ---@return SniperNestDeviceBlackboardDef
 function SniperNestDeviceBlackboardDef.new(fields) return end
 

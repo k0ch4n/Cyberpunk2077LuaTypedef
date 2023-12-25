@@ -4,6 +4,6 @@
 ---@class inkanimToggleVisibilityEvent: inkanimEvent
 inkanimToggleVisibilityEvent = {}
 
----@param fields? table
+---@param fields? inkanimToggleVisibilityEvent
 ---@return inkanimToggleVisibilityEvent
 function inkanimToggleVisibilityEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public currOption gameuiCharacterCustomizationOption
 gameuiSwitchPair = {}
 
----@param fields? table
+---@param fields? gameuiSwitchPair
 ---@return gameuiSwitchPair
 function gameuiSwitchPair.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameTargetingComponentData
 gameTargetingComponentData = {}
 
----@param fields? table
+---@param fields? gameTargetingComponentData
 ---@return gameTargetingComponentData
 function gameTargetingComponentData.new(fields) return end

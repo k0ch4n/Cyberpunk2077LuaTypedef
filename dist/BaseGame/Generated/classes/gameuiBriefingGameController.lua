@@ -5,6 +5,6 @@
 ---@field public briefingPlayerType questBriefingPlayerType
 gameuiBriefingGameController = {}
 
----@param fields? table
+---@param fields? gameuiBriefingGameController
 ---@return gameuiBriefingGameController
 function gameuiBriefingGameController.new(fields) return end

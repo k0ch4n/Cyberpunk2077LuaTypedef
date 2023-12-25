@@ -5,7 +5,7 @@
 ---@field private minAmountOfAmmoReloaded Int32
 ReloadFromEmptyPrereq = {}
 
----@param fields? table
+---@param fields? ReloadFromEmptyPrereq
 ---@return ReloadFromEmptyPrereq
 function ReloadFromEmptyPrereq.new(fields) return end
 

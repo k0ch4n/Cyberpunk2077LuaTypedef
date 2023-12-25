@@ -21,7 +21,7 @@
 ---@field private isValidDeviceStatus Bool
 ScannerDeviceHeaderGameController = {}
 
----@param fields? table
+---@param fields? ScannerDeviceHeaderGameController
 ---@return ScannerDeviceHeaderGameController
 function ScannerDeviceHeaderGameController.new(fields) return end
 

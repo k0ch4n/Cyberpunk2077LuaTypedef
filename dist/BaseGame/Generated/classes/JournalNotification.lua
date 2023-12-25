@@ -8,7 +8,7 @@
 ---@field protected questNotificationData gameuiQuestUpdateNotificationViewData
 JournalNotification = {}
 
----@param fields? table
+---@param fields? JournalNotification
 ---@return JournalNotification
 function JournalNotification.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class MasterController: ScriptableDeviceComponent
 MasterController = {}
 
----@param fields? table
+---@param fields? MasterController
 ---@return MasterController
 function MasterController.new(fields) return end
 

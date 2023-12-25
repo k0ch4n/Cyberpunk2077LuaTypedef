@@ -6,7 +6,7 @@
 ---@field protected conditions workIScriptedCondition[]
 LogicalCondition = {}
 
----@param fields? table
+---@param fields? LogicalCondition
 ---@return LogicalCondition
 function LogicalCondition.new(fields) return end
 

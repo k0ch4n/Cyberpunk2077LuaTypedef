@@ -6,7 +6,7 @@
 ---@field private owner_id entEntityID
 KurtzBossComponent = {}
 
----@param fields? table
+---@param fields? KurtzBossComponent
 ---@return KurtzBossComponent
 function KurtzBossComponent.new(fields) return end
 

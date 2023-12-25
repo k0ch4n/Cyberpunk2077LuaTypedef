@@ -5,7 +5,7 @@
 ---@field protected weaponType WorkspotWeaponConditionEnum
 EquippedWeaponTypeCondition = {}
 
----@param fields? table
+---@param fields? EquippedWeaponTypeCondition
 ---@return EquippedWeaponTypeCondition
 function EquippedWeaponTypeCondition.new(fields) return end
 

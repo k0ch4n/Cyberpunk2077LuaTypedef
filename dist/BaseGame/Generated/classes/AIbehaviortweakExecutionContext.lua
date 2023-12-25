@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakExecutionContext
 AIbehaviortweakExecutionContext = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakExecutionContext
 ---@return AIbehaviortweakExecutionContext
 function AIbehaviortweakExecutionContext.new(fields) return end

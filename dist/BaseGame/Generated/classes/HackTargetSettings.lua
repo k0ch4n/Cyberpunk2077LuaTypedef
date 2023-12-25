@@ -8,6 +8,6 @@
 ---@field public HUDData HUDProgressBarData
 HackTargetSettings = {}
 
----@param fields? table
+---@param fields? HackTargetSettings
 ---@return HackTargetSettings
 function HackTargetSettings.new(fields) return end

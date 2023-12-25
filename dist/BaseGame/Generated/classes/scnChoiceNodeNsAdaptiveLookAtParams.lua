@@ -13,6 +13,6 @@
 ---@field public auxiliaryRelativePoint Vector3
 scnChoiceNodeNsAdaptiveLookAtParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsAdaptiveLookAtParams
 ---@return scnChoiceNodeNsAdaptiveLookAtParams
 function scnChoiceNodeNsAdaptiveLookAtParams.new(fields) return end

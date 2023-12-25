@@ -4,6 +4,6 @@
 ---@class gameTimeDilationEvent: redEvent
 gameTimeDilationEvent = {}
 
----@param fields? table
+---@param fields? gameTimeDilationEvent
 ---@return gameTimeDilationEvent
 function gameTimeDilationEvent.new(fields) return end

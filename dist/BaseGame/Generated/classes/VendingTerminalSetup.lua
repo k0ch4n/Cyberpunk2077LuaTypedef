@@ -7,6 +7,6 @@
 ---@field public timeToCompletePurchase Float
 VendingTerminalSetup = {}
 
----@param fields? table
+---@param fields? VendingTerminalSetup
 ---@return VendingTerminalSetup
 function VendingTerminalSetup.new(fields) return end

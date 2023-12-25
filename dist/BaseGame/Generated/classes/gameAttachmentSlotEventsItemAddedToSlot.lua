@@ -4,7 +4,7 @@
 ---@class gameAttachmentSlotEventsItemAddedToSlot: gameAttachmentSlotEventsItemAddedToSlotBase
 gameAttachmentSlotEventsItemAddedToSlot = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsItemAddedToSlot
 ---@return gameAttachmentSlotEventsItemAddedToSlot
 function gameAttachmentSlotEventsItemAddedToSlot.new(fields) return end
 

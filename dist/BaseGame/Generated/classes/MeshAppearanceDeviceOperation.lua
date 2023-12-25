@@ -5,7 +5,7 @@
 ---@field public meshesAppearence CName
 MeshAppearanceDeviceOperation = {}
 
----@param fields? table
+---@param fields? MeshAppearanceDeviceOperation
 ---@return MeshAppearanceDeviceOperation
 function MeshAppearanceDeviceOperation.new(fields) return end
 

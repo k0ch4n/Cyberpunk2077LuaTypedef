@@ -4,7 +4,7 @@
 ---@class gamedataAIOptimalDistanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIOptimalDistanceCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIOptimalDistanceCond_Record
 ---@return gamedataAIOptimalDistanceCond_Record
 function gamedataAIOptimalDistanceCond_Record.new(fields) return end
 

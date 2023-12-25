@@ -4,6 +4,6 @@
 ---@class HitIsBodyPartHeadPrereq: GenericHitPrereq
 HitIsBodyPartHeadPrereq = {}
 
----@param fields? table
+---@param fields? HitIsBodyPartHeadPrereq
 ---@return HitIsBodyPartHeadPrereq
 function HitIsBodyPartHeadPrereq.new(fields) return end

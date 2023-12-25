@@ -6,6 +6,6 @@
 ---@field public tiredness Float
 AnimFeature_Stamina = {}
 
----@param fields? table
+---@param fields? AnimFeature_Stamina
 ---@return AnimFeature_Stamina
 function AnimFeature_Stamina.new(fields) return end

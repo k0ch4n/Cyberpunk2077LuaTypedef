@@ -7,6 +7,6 @@
 ---@field public heightDelta Float
 gameRagdollHitEvent = {}
 
----@param fields? table
+---@param fields? gameRagdollHitEvent
 ---@return gameRagdollHitEvent
 function gameRagdollHitEvent.new(fields) return end

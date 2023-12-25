@@ -5,6 +5,6 @@
 ---@field public materialNames CName[]
 meshChunkMaterials = {}
 
----@param fields? table
+---@param fields? meshChunkMaterials
 ---@return meshChunkMaterials
 function meshChunkMaterials.new(fields) return end

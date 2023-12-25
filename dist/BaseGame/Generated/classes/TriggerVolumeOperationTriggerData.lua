@@ -9,6 +9,6 @@
 ---@field public operationType ETriggerOperationType
 TriggerVolumeOperationTriggerData = {}
 
----@param fields? table
+---@param fields? TriggerVolumeOperationTriggerData
 ---@return TriggerVolumeOperationTriggerData
 function TriggerVolumeOperationTriggerData.new(fields) return end

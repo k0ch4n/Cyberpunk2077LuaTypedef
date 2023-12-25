@@ -5,7 +5,7 @@
 ---@field public playerWorkspot SWorkspotData
 PlayerWokrspotDeviceOperation = {}
 
----@param fields? table
+---@param fields? PlayerWokrspotDeviceOperation
 ---@return PlayerWokrspotDeviceOperation
 function PlayerWokrspotDeviceOperation.new(fields) return end
 

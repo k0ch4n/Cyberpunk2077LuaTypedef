@@ -5,7 +5,7 @@
 ---@field public type gamedataNPCType
 TargetNPCTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? TargetNPCTypeHitPrereqCondition
 ---@return TargetNPCTypeHitPrereqCondition
 function TargetNPCTypeHitPrereqCondition.new(fields) return end
 

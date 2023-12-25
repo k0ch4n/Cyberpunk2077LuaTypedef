@@ -4,6 +4,6 @@
 ---@class AttemptedToStopFactsSet: BunkerSystemsFactsSet
 AttemptedToStopFactsSet = {}
 
----@param fields? table
+---@param fields? AttemptedToStopFactsSet
 ---@return AttemptedToStopFactsSet
 function AttemptedToStopFactsSet.new(fields) return end

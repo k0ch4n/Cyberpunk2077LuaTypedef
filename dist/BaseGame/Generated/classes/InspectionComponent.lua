@@ -19,7 +19,7 @@
 ---@field private lastInspectedObjID entEntityID
 InspectionComponent = {}
 
----@param fields? table
+---@param fields? InspectionComponent
 ---@return InspectionComponent
 function InspectionComponent.new(fields) return end
 

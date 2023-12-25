@@ -7,6 +7,6 @@
 ---@field public spawnedType gameDynamicVehicleType
 AgentBase = {}
 
----@param fields? table
+---@param fields? AgentBase
 ---@return AgentBase
 function AgentBase.new(fields) return end

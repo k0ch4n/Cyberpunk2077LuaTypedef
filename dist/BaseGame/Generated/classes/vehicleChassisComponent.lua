@@ -6,6 +6,6 @@
 ---@field public optionalPlayerOnlyCollisionResource physicsSystemResource
 vehicleChassisComponent = {}
 
----@param fields? table
+---@param fields? vehicleChassisComponent
 ---@return vehicleChassisComponent
 function vehicleChassisComponent.new(fields) return end

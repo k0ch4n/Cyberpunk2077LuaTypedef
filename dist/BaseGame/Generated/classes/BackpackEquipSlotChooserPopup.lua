@@ -21,7 +21,7 @@
 ---@field private closeData BackpackEquipSlotChooserCloseData
 BackpackEquipSlotChooserPopup = {}
 
----@param fields? table
+---@param fields? BackpackEquipSlotChooserPopup
 ---@return BackpackEquipSlotChooserPopup
 function BackpackEquipSlotChooserPopup.new(fields) return end
 

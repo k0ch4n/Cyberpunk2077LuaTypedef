@@ -6,6 +6,6 @@
 ---@field public transform Transform
 scnAnimationMotionSample = {}
 
----@param fields? table
+---@param fields? scnAnimationMotionSample
 ---@return scnAnimationMotionSample
 function scnAnimationMotionSample.new(fields) return end

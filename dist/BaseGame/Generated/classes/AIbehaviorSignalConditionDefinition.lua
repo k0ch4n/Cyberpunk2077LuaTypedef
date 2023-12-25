@@ -7,6 +7,6 @@
 ---@field public tagSignal Bool
 AIbehaviorSignalConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSignalConditionDefinition
 ---@return AIbehaviorSignalConditionDefinition
 function AIbehaviorSignalConditionDefinition.new(fields) return end

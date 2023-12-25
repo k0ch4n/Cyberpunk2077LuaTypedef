@@ -8,6 +8,6 @@
 ---@field public isNew Bool
 OutfitWardrobeSlotSpawnData = {}
 
----@param fields? table
+---@param fields? OutfitWardrobeSlotSpawnData
 ---@return OutfitWardrobeSlotSpawnData
 function OutfitWardrobeSlotSpawnData.new(fields) return end

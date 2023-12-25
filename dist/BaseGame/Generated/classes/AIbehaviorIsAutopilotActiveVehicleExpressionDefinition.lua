@@ -4,6 +4,6 @@
 ---@class AIbehaviorIsAutopilotActiveVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorIsAutopilotActiveVehicleExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsAutopilotActiveVehicleExpressionDefinition
 ---@return AIbehaviorIsAutopilotActiveVehicleExpressionDefinition
 function AIbehaviorIsAutopilotActiveVehicleExpressionDefinition.new(fields) return end

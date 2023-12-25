@@ -5,6 +5,6 @@
 ---@field public blueline gameinteractionsvisBluelineDescription
 gameinteractionsChoiceCaptionBluelinePart = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceCaptionBluelinePart
 ---@return gameinteractionsChoiceCaptionBluelinePart
 function gameinteractionsChoiceCaptionBluelinePart.new(fields) return end

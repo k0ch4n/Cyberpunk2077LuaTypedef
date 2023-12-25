@@ -4,6 +4,6 @@
 ---@class CloseSmsMessengerEvent: redEvent
 CloseSmsMessengerEvent = {}
 
----@param fields? table
+---@param fields? CloseSmsMessengerEvent
 ---@return CloseSmsMessengerEvent
 function CloseSmsMessengerEvent.new(fields) return end

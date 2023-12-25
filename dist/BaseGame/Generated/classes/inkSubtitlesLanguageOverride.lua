@@ -4,6 +4,6 @@
 ---@class inkSubtitlesLanguageOverride: inkUserData
 inkSubtitlesLanguageOverride = {}
 
----@param fields? table
+---@param fields? inkSubtitlesLanguageOverride
 ---@return inkSubtitlesLanguageOverride
 function inkSubtitlesLanguageOverride.new(fields) return end

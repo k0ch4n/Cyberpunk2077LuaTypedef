@@ -7,6 +7,6 @@
 ---@field public version Int32
 interopOpaqueData = {}
 
----@param fields? table
+---@param fields? interopOpaqueData
 ---@return interopOpaqueData
 function interopOpaqueData.new(fields) return end

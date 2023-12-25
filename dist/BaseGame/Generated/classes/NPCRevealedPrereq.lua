@@ -4,7 +4,7 @@
 ---@class NPCRevealedPrereq: gameIScriptablePrereq
 NPCRevealedPrereq = {}
 
----@param fields? table
+---@param fields? NPCRevealedPrereq
 ---@return NPCRevealedPrereq
 function NPCRevealedPrereq.new(fields) return end
 

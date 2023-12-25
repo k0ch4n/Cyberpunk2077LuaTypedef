@@ -5,7 +5,7 @@
 ---@field public bValue Bool
 UsingCoverPSMPrereqState = {}
 
----@param fields? table
+---@param fields? UsingCoverPSMPrereqState
 ---@return UsingCoverPSMPrereqState
 function UsingCoverPSMPrereqState.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public IsActive Bool
 gameAnimFeature_TPPRepresentation = {}
 
----@param fields? table
+---@param fields? gameAnimFeature_TPPRepresentation
 ---@return gameAnimFeature_TPPRepresentation
 function gameAnimFeature_TPPRepresentation.new(fields) return end

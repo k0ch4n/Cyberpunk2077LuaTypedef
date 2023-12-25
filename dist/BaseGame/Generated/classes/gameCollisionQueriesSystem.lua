@@ -4,6 +4,6 @@
 ---@class gameCollisionQueriesSystem: gameICollisionQueriesSystem
 gameCollisionQueriesSystem = {}
 
----@param fields? table
+---@param fields? gameCollisionQueriesSystem
 ---@return gameCollisionQueriesSystem
 function gameCollisionQueriesSystem.new(fields) return end

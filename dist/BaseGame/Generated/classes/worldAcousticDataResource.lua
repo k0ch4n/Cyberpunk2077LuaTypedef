@@ -5,6 +5,6 @@
 ---@field public cells worldAcousticDataCell[]
 worldAcousticDataResource = {}
 
----@param fields? table
+---@param fields? worldAcousticDataResource
 ---@return worldAcousticDataResource
 function worldAcousticDataResource.new(fields) return end

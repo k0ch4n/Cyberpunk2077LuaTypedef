@@ -6,6 +6,6 @@
 ---@field public defaultValue ISerializable
 AIArgumentSerializableValue = {}
 
----@param fields? table
+---@param fields? AIArgumentSerializableValue
 ---@return AIArgumentSerializableValue
 function AIArgumentSerializableValue.new(fields) return end

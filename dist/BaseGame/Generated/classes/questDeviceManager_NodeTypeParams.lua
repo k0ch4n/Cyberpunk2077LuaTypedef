@@ -10,6 +10,6 @@
 ---@field public actionProperties questDeviceManager_ActionProperty[]
 questDeviceManager_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questDeviceManager_NodeTypeParams
 ---@return questDeviceManager_NodeTypeParams
 function questDeviceManager_NodeTypeParams.new(fields) return end

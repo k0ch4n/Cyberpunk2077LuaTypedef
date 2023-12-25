@@ -5,7 +5,7 @@
 ---@field public stateBodyDone Bool
 ForceEmptyHandsDecisions = {}
 
----@param fields? table
+---@param fields? ForceEmptyHandsDecisions
 ---@return ForceEmptyHandsDecisions
 function ForceEmptyHandsDecisions.new(fields) return end
 

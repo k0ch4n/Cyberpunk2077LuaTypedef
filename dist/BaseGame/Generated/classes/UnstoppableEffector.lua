@@ -4,7 +4,7 @@
 ---@class UnstoppableEffector: OvershieldEffectorBase
 UnstoppableEffector = {}
 
----@param fields? table
+---@param fields? UnstoppableEffector
 ---@return UnstoppableEffector
 function UnstoppableEffector.new(fields) return end
 

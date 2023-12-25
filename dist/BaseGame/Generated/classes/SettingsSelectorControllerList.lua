@@ -5,7 +5,7 @@
 ---@field protected dotsContainer inkHorizontalPanelWidgetReference
 SettingsSelectorControllerList = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerList
 ---@return SettingsSelectorControllerList
 function SettingsSelectorControllerList.new(fields) return end
 

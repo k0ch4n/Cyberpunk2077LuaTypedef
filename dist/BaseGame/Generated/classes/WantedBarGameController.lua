@@ -21,7 +21,7 @@
 ---@field private WANTED_MIN Float
 WantedBarGameController = {}
 
----@param fields? table
+---@param fields? WantedBarGameController
 ---@return WantedBarGameController
 function WantedBarGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class IgnoreMoveCommandInCombatCondition: AIbehaviorconditionScript
 IgnoreMoveCommandInCombatCondition = {}
 
----@param fields? table
+---@param fields? IgnoreMoveCommandInCombatCondition
 ---@return IgnoreMoveCommandInCombatCondition
 function IgnoreMoveCommandInCombatCondition.new(fields) return end
 

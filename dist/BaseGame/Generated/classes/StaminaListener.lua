@@ -12,7 +12,7 @@
 ---@field private delayID gameDelayID
 StaminaListener = {}
 
----@param fields? table
+---@param fields? StaminaListener
 ---@return StaminaListener
 function StaminaListener.new(fields) return end
 

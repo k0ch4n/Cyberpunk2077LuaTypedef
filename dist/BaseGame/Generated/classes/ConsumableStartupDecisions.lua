@@ -4,7 +4,7 @@
 ---@class ConsumableStartupDecisions: ConsumableTransitions
 ConsumableStartupDecisions = {}
 
----@param fields? table
+---@param fields? ConsumableStartupDecisions
 ---@return ConsumableStartupDecisions
 function ConsumableStartupDecisions.new(fields) return end
 

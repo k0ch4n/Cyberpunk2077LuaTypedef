@@ -4,6 +4,6 @@
 ---@class inkILoadingScreenPersistentData: inkILoadingScreenData
 inkILoadingScreenPersistentData = {}
 
----@param fields? table
+---@param fields? inkILoadingScreenPersistentData
 ---@return inkILoadingScreenPersistentData
 function inkILoadingScreenPersistentData.new(fields) return end

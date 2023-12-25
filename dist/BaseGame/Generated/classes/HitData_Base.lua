@@ -7,7 +7,7 @@
 ---@field public hitShapeType HitShape_Type
 HitData_Base = {}
 
----@param fields? table
+---@param fields? HitData_Base
 ---@return HitData_Base
 function HitData_Base.new(fields) return end
 

@@ -11,7 +11,7 @@
 ---@field private AnimOptions inkanimPlaybackOptions
 ItemLogPopupLogicController = {}
 
----@param fields? table
+---@param fields? ItemLogPopupLogicController
 ---@return ItemLogPopupLogicController
 function ItemLogPopupLogicController.new(fields) return end
 

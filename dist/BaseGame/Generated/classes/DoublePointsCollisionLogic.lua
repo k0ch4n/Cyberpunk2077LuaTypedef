@@ -4,7 +4,7 @@
 ---@class DoublePointsCollisionLogic: BonusCollisionLogic
 DoublePointsCollisionLogic = {}
 
----@param fields? table
+---@param fields? DoublePointsCollisionLogic
 ---@return DoublePointsCollisionLogic
 function DoublePointsCollisionLogic.new(fields) return end
 

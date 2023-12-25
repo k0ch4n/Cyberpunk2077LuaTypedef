@@ -4,7 +4,7 @@
 ---@class WoundedLookatController: AIGenericEntityLookatTask
 WoundedLookatController = {}
 
----@param fields? table
+---@param fields? WoundedLookatController
 ---@return WoundedLookatController
 function WoundedLookatController.new(fields) return end
 

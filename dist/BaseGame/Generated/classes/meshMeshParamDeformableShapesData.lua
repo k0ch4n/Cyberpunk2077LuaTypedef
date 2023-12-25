@@ -7,6 +7,6 @@
 ---@field public finalPose Transform[]
 meshMeshParamDeformableShapesData = {}
 
----@param fields? table
+---@param fields? meshMeshParamDeformableShapesData
 ---@return meshMeshParamDeformableShapesData
 function meshMeshParamDeformableShapesData.new(fields) return end

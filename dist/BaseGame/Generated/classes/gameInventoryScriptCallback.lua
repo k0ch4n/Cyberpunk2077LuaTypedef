@@ -5,7 +5,7 @@
 ---@field public itemID gameItemID
 gameInventoryScriptCallback = {}
 
----@param fields? table
+---@param fields? gameInventoryScriptCallback
 ---@return gameInventoryScriptCallback
 function gameInventoryScriptCallback.new(fields) return end
 

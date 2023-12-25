@@ -15,7 +15,7 @@
 ---@field private PlayerEnteredVehicleListener redCallbackObject
 HotkeyConsumableWidgetController = {}
 
----@param fields? table
+---@param fields? HotkeyConsumableWidgetController
 ---@return HotkeyConsumableWidgetController
 function HotkeyConsumableWidgetController.new(fields) return end
 

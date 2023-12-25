@@ -6,6 +6,6 @@
 ---@field public object gameObject
 moveStrafingTarget = {}
 
----@param fields? table
+---@param fields? moveStrafingTarget
 ---@return moveStrafingTarget
 function moveStrafingTarget.new(fields) return end

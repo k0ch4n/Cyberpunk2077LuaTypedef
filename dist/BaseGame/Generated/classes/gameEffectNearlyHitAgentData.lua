@@ -9,6 +9,6 @@
 ---@field public wasHit Bool
 gameEffectNearlyHitAgentData = {}
 
----@param fields? table
+---@param fields? gameEffectNearlyHitAgentData
 ---@return gameEffectNearlyHitAgentData
 function gameEffectNearlyHitAgentData.new(fields) return end

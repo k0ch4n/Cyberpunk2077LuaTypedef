@@ -8,6 +8,6 @@
 ---@field public inverted Bool
 questCharacterEquippedWeapon_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterEquippedWeapon_ConditionType
 ---@return questCharacterEquippedWeapon_ConditionType
 function questCharacterEquippedWeapon_ConditionType.new(fields) return end

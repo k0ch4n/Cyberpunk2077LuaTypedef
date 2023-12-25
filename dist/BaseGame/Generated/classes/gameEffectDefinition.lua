@@ -14,6 +14,6 @@
 ---@field public debugSettings gameEffectDebugSettings
 gameEffectDefinition = {}
 
----@param fields? table
+---@param fields? gameEffectDefinition
 ---@return gameEffectDefinition
 function gameEffectDefinition.new(fields) return end

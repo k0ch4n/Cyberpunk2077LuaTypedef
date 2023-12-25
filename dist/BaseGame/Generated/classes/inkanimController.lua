@@ -4,7 +4,7 @@
 ---@class inkanimController: IScriptable
 inkanimController = {}
 
----@param fields? table
+---@param fields? inkanimController
 ---@return inkanimController
 function inkanimController.new(fields) return end
 

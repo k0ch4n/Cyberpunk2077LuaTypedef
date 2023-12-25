@@ -65,7 +65,7 @@
 ---@field protected upperBodyState gamePSMUpperBodyStates
 IronsightGameController = {}
 
----@param fields? table
+---@param fields? IronsightGameController
 ---@return IronsightGameController
 function IronsightGameController.new(fields) return end
 

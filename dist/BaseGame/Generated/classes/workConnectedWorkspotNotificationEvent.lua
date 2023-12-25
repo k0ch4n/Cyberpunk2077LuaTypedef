@@ -5,6 +5,6 @@
 ---@field public evtName CName
 workConnectedWorkspotNotificationEvent = {}
 
----@param fields? table
+---@param fields? workConnectedWorkspotNotificationEvent
 ---@return workConnectedWorkspotNotificationEvent
 function workConnectedWorkspotNotificationEvent.new(fields) return end

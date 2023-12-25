@@ -4,6 +4,6 @@
 ---@class TCSUpdate: gameScriptableSystemRequest
 TCSUpdate = {}
 
----@param fields? table
+---@param fields? TCSUpdate
 ---@return TCSUpdate
 function TCSUpdate.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private isPasswordKnown Bool
 DoorWidgetCustomData = {}
 
----@param fields? table
+---@param fields? DoorWidgetCustomData
 ---@return DoorWidgetCustomData
 function DoorWidgetCustomData.new(fields) return end
 

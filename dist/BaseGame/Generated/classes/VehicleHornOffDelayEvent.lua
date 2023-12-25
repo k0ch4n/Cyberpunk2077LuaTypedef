@@ -4,6 +4,6 @@
 ---@class VehicleHornOffDelayEvent: redEvent
 VehicleHornOffDelayEvent = {}
 
----@param fields? table
+---@param fields? VehicleHornOffDelayEvent
 ---@return VehicleHornOffDelayEvent
 function VehicleHornOffDelayEvent.new(fields) return end

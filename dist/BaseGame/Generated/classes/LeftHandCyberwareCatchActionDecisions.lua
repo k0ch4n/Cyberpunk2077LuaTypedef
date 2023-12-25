@@ -4,6 +4,6 @@
 ---@class LeftHandCyberwareCatchActionDecisions: LeftHandCyberwareActionAbstractDecisions
 LeftHandCyberwareCatchActionDecisions = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareCatchActionDecisions
 ---@return LeftHandCyberwareCatchActionDecisions
 function LeftHandCyberwareCatchActionDecisions.new(fields) return end

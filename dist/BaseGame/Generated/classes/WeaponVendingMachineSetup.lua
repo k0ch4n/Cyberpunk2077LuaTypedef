@@ -7,6 +7,6 @@
 ---@field public timeToCompletePurchase Float
 WeaponVendingMachineSetup = {}
 
----@param fields? table
+---@param fields? WeaponVendingMachineSetup
 ---@return WeaponVendingMachineSetup
 function WeaponVendingMachineSetup.new(fields) return end

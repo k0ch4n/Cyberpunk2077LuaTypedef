@@ -5,6 +5,6 @@
 ---@field public sortMode Int32
 UIScriptableSystemSetBackpackSorting = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemSetBackpackSorting
 ---@return UIScriptableSystemSetBackpackSorting
 function UIScriptableSystemSetBackpackSorting.new(fields) return end

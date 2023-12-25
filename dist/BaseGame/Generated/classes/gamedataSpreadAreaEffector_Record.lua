@@ -4,7 +4,7 @@
 ---@class gamedataSpreadAreaEffector_Record: gamedataEffector_Record
 gamedataSpreadAreaEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataSpreadAreaEffector_Record
 ---@return gamedataSpreadAreaEffector_Record
 function gamedataSpreadAreaEffector_Record.new(fields) return end
 

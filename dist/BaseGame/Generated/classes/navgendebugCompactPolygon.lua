@@ -10,6 +10,6 @@
 ---@field public flags Uint16
 navgendebugCompactPolygon = {}
 
----@param fields? table
+---@param fields? navgendebugCompactPolygon
 ---@return navgendebugCompactPolygon
 function navgendebugCompactPolygon.new(fields) return end

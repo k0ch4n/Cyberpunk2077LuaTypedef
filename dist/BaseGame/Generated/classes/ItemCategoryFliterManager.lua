@@ -8,7 +8,7 @@
 ---@field private isOrderDirty Bool
 ItemCategoryFliterManager = {}
 
----@param fields? table
+---@param fields? ItemCategoryFliterManager
 ---@return ItemCategoryFliterManager
 function ItemCategoryFliterManager.new(fields) return end
 

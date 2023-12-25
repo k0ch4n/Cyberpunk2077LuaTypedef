@@ -8,6 +8,6 @@
 ---@field public recordID TweakDBID
 gameStatPoolModifierRuntimeData = {}
 
----@param fields? table
+---@param fields? gameStatPoolModifierRuntimeData
 ---@return gameStatPoolModifierRuntimeData
 function gameStatPoolModifierRuntimeData.new(fields) return end

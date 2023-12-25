@@ -6,6 +6,6 @@
 ---@field public isInstantRemovable String
 meshMeshParamDestructionStepData = {}
 
----@param fields? table
+---@param fields? meshMeshParamDestructionStepData
 ---@return meshMeshParamDestructionStepData
 function meshMeshParamDestructionStepData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAIDirectorEntryStartType_Record: gamedataTweakDBRecord
 gamedataAIDirectorEntryStartType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIDirectorEntryStartType_Record
 ---@return gamedataAIDirectorEntryStartType_Record
 function gamedataAIDirectorEntryStartType_Record.new(fields) return end
 

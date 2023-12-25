@@ -6,7 +6,7 @@
 ---@field public EnableVehicleToggleSummonMode gamebbScriptID_Bool
 GameplaySettingsDef = {}
 
----@param fields? table
+---@param fields? GameplaySettingsDef
 ---@return GameplaySettingsDef
 function GameplaySettingsDef.new(fields) return end
 

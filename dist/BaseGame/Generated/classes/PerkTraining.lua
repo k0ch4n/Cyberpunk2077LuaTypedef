@@ -9,7 +9,7 @@
 ---@field private uiSlots entSlotComponent
 PerkTraining = {}
 
----@param fields? table
+---@param fields? PerkTraining
 ---@return PerkTraining
 function PerkTraining.new(fields) return end
 

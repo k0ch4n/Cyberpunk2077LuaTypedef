@@ -4,7 +4,7 @@
 ---@class gameMinimapSystem: gameIMinimapSystem
 gameMinimapSystem = {}
 
----@param fields? table
+---@param fields? gameMinimapSystem
 ---@return gameMinimapSystem
 function gameMinimapSystem.new(fields) return end
 

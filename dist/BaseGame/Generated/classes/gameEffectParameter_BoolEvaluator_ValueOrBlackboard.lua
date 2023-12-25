@@ -6,6 +6,6 @@
 ---@field public value Bool
 gameEffectParameter_BoolEvaluator_ValueOrBlackboard = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_BoolEvaluator_ValueOrBlackboard
 ---@return gameEffectParameter_BoolEvaluator_ValueOrBlackboard
 function gameEffectParameter_BoolEvaluator_ValueOrBlackboard.new(fields) return end

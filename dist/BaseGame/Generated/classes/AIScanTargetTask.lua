@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AIScanTargetTask = {}
 
----@param fields? table
+---@param fields? AIScanTargetTask
 ---@return AIScanTargetTask
 function AIScanTargetTask.new(fields) return end
 

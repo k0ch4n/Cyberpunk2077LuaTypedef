@@ -46,7 +46,7 @@
 ---@field private ScrollBarLineInitOpacity Float
 PhotoModeMenuListItem = {}
 
----@param fields? table
+---@param fields? PhotoModeMenuListItem
 ---@return PhotoModeMenuListItem
 function PhotoModeMenuListItem.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public alwaysUseBrainGender Bool
 scnDialogLineVoParams = {}
 
----@param fields? table
+---@param fields? scnDialogLineVoParams
 ---@return scnDialogLineVoParams
 function scnDialogLineVoParams.new(fields) return end

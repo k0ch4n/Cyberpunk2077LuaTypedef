@@ -12,6 +12,6 @@
 ---@field public partsToAdd gameItemID[]
 GameplayEquipRequest = {}
 
----@param fields? table
+---@param fields? GameplayEquipRequest
 ---@return GameplayEquipRequest
 function GameplayEquipRequest.new(fields) return end

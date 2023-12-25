@@ -10,7 +10,7 @@
 ---@field private lastHitTime Float
 ConsecutiveHitsPrereqCondition = {}
 
----@param fields? table
+---@param fields? ConsecutiveHitsPrereqCondition
 ---@return ConsecutiveHitsPrereqCondition
 function ConsecutiveHitsPrereqCondition.new(fields) return end
 

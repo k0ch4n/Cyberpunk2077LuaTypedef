@@ -8,7 +8,7 @@
 ---@field private widget inkWidget
 ListItemStateMapper = {}
 
----@param fields? table
+---@param fields? ListItemStateMapper
 ---@return ListItemStateMapper
 function ListItemStateMapper.new(fields) return end
 

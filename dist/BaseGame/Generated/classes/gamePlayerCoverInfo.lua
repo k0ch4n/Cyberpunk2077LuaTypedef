@@ -4,6 +4,6 @@
 ---@class gamePlayerCoverInfo: IScriptable
 gamePlayerCoverInfo = {}
 
----@param fields? table
+---@param fields? gamePlayerCoverInfo
 ---@return gamePlayerCoverInfo
 function gamePlayerCoverInfo.new(fields) return end

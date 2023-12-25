@@ -4,7 +4,7 @@
 ---@class AICoverDemandHolder: IScriptable
 AICoverDemandHolder = {}
 
----@param fields? table
+---@param fields? AICoverDemandHolder
 ---@return AICoverDemandHolder
 function AICoverDemandHolder.new(fields) return end
 

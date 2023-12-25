@@ -4,6 +4,6 @@
 ---@class OnAttachedEvent: redEvent
 OnAttachedEvent = {}
 
----@param fields? table
+---@param fields? OnAttachedEvent
 ---@return OnAttachedEvent
 function OnAttachedEvent.new(fields) return end

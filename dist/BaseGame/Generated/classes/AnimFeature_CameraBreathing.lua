@@ -7,6 +7,6 @@
 ---@field public dampDecreaseSpeed Float
 AnimFeature_CameraBreathing = {}
 
----@param fields? table
+---@param fields? AnimFeature_CameraBreathing
 ---@return AnimFeature_CameraBreathing
 function AnimFeature_CameraBreathing.new(fields) return end

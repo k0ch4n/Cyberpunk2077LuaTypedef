@@ -11,6 +11,6 @@
 ---@field public dontHighlightOnLookat Bool
 ExplosiveDeviceResourceDefinition = {}
 
----@param fields? table
+---@param fields? ExplosiveDeviceResourceDefinition
 ---@return ExplosiveDeviceResourceDefinition
 function ExplosiveDeviceResourceDefinition.new(fields) return end

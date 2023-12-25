@@ -5,7 +5,7 @@
 ---@field public owner gameObject
 AutoRevealStatListener = {}
 
----@param fields? table
+---@param fields? AutoRevealStatListener
 ---@return AutoRevealStatListener
 function AutoRevealStatListener.new(fields) return end
 

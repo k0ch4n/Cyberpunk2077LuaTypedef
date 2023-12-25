@@ -6,6 +6,6 @@
 ---@field public state Bool
 gameScanningLookAtEvent = {}
 
----@param fields? table
+---@param fields? gameScanningLookAtEvent
 ---@return gameScanningLookAtEvent
 function gameScanningLookAtEvent.new(fields) return end

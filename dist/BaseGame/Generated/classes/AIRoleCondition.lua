@@ -5,7 +5,7 @@
 ---@field public role EAIRole
 AIRoleCondition = {}
 
----@param fields? table
+---@param fields? AIRoleCondition
 ---@return AIRoleCondition
 function AIRoleCondition.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public ID gameDelayID
 AlarmEvent = {}
 
----@param fields? table
+---@param fields? AlarmEvent
 ---@return AlarmEvent
 function AlarmEvent.new(fields) return end

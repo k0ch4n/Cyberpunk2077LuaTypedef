@@ -4,6 +4,6 @@
 ---@class rendRenderTextureBlobXboxOne: rendIRenderTextureBlob
 rendRenderTextureBlobXboxOne = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobXboxOne
 ---@return rendRenderTextureBlobXboxOne
 function rendRenderTextureBlobXboxOne.new(fields) return end

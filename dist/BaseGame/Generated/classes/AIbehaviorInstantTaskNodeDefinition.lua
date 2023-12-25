@@ -4,6 +4,6 @@
 ---@class AIbehaviorInstantTaskNodeDefinition: AIbehaviorTaskNodeDefinition
 AIbehaviorInstantTaskNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorInstantTaskNodeDefinition
 ---@return AIbehaviorInstantTaskNodeDefinition
 function AIbehaviorInstantTaskNodeDefinition.new(fields) return end

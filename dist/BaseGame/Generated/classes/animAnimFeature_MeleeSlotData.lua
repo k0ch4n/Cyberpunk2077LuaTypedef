@@ -11,6 +11,6 @@
 ---@field public recoverHitDuration Float
 animAnimFeature_MeleeSlotData = {}
 
----@param fields? table
+---@param fields? animAnimFeature_MeleeSlotData
 ---@return animAnimFeature_MeleeSlotData
 function animAnimFeature_MeleeSlotData.new(fields) return end

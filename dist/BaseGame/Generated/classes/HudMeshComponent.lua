@@ -4,6 +4,6 @@
 ---@class HudMeshComponent: entMeshComponent
 HudMeshComponent = {}
 
----@param fields? table
+---@param fields? HudMeshComponent
 ---@return HudMeshComponent
 function HudMeshComponent.new(fields) return end

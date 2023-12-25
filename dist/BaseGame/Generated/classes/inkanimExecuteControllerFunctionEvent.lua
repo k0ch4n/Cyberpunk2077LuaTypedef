@@ -7,6 +7,6 @@
 ---@field public params String
 inkanimExecuteControllerFunctionEvent = {}
 
----@param fields? table
+---@param fields? inkanimExecuteControllerFunctionEvent
 ---@return inkanimExecuteControllerFunctionEvent
 function inkanimExecuteControllerFunctionEvent.new(fields) return end

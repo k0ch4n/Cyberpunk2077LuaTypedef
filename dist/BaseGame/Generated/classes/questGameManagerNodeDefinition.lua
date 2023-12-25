@@ -5,6 +5,6 @@
 ---@field public type questIGameManagerNodeType
 questGameManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questGameManagerNodeDefinition
 ---@return questGameManagerNodeDefinition
 function questGameManagerNodeDefinition.new(fields) return end

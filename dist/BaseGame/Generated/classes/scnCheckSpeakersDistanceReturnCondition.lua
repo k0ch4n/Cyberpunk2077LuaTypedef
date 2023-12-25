@@ -5,6 +5,6 @@
 ---@field public params scnCheckSpeakersDistanceReturnConditionParams
 scnCheckSpeakersDistanceReturnCondition = {}
 
----@param fields? table
+---@param fields? scnCheckSpeakersDistanceReturnCondition
 ---@return scnCheckSpeakersDistanceReturnCondition
 function scnCheckSpeakersDistanceReturnCondition.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public listenerInfo redCallbackObject
 UsedHealingItemOrCyberwarePrereqState = {}
 
----@param fields? table
+---@param fields? UsedHealingItemOrCyberwarePrereqState
 ---@return UsedHealingItemOrCyberwarePrereqState
 function UsedHealingItemOrCyberwarePrereqState.new(fields) return end
 

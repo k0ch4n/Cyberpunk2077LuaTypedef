@@ -11,6 +11,6 @@
 ---@field public hasDotAccumulator Bool
 DamageEntry = {}
 
----@param fields? table
+---@param fields? DamageEntry
 ---@return DamageEntry
 function DamageEntry.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public shapeLocalPose Transform
 physicsTriggerShape = {}
 
----@param fields? table
+---@param fields? physicsTriggerShape
 ---@return physicsTriggerShape
 function physicsTriggerShape.new(fields) return end

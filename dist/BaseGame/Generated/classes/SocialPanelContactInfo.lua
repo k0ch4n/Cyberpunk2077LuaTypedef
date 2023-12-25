@@ -6,6 +6,6 @@
 ---@field public Contact gameJournalContact
 SocialPanelContactInfo = {}
 
----@param fields? table
+---@param fields? SocialPanelContactInfo
 ---@return SocialPanelContactInfo
 function SocialPanelContactInfo.new(fields) return end

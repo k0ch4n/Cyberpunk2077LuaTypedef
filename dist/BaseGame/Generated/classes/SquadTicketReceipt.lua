@@ -12,6 +12,6 @@
 ---@field public cooldownID Int32
 SquadTicketReceipt = {}
 
----@param fields? table
+---@param fields? SquadTicketReceipt
 ---@return SquadTicketReceipt
 function SquadTicketReceipt.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public event CName
 audioAudEventStruct = {}
 
----@param fields? table
+---@param fields? audioAudEventStruct
 ---@return audioAudEventStruct
 function audioAudEventStruct.new(fields) return end

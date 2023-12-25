@@ -5,6 +5,6 @@
 ---@field public input animTransformLink
 animAnimNode_TransformLatch = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformLatch
 ---@return animAnimNode_TransformLatch
 function animAnimNode_TransformLatch.new(fields) return end

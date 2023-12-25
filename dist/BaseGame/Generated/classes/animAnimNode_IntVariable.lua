@@ -5,6 +5,6 @@
 ---@field public variableName CName
 animAnimNode_IntVariable = {}
 
----@param fields? table
+---@param fields? animAnimNode_IntVariable
 ---@return animAnimNode_IntVariable
 function animAnimNode_IntVariable.new(fields) return end

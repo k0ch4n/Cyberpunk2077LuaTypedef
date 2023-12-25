@@ -4,7 +4,7 @@
 ---@class WebsiteLoadingSpinner: inkWidgetLogicController
 WebsiteLoadingSpinner = {}
 
----@param fields? table
+---@param fields? WebsiteLoadingSpinner
 ---@return WebsiteLoadingSpinner
 function WebsiteLoadingSpinner.new(fields) return end
 

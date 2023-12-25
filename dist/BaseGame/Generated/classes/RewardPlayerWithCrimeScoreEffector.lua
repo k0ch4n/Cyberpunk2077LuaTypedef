@@ -4,7 +4,7 @@
 ---@class RewardPlayerWithCrimeScoreEffector: gameEffector
 RewardPlayerWithCrimeScoreEffector = {}
 
----@param fields? table
+---@param fields? RewardPlayerWithCrimeScoreEffector
 ---@return RewardPlayerWithCrimeScoreEffector
 function RewardPlayerWithCrimeScoreEffector.new(fields) return end
 

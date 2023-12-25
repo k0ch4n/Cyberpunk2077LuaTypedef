@@ -4,7 +4,7 @@
 ---@class gameinteractionsChoiceCaptionScriptPart: gameinteractionsChoiceCaptionPart
 gameinteractionsChoiceCaptionScriptPart = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceCaptionScriptPart
 ---@return gameinteractionsChoiceCaptionScriptPart
 function gameinteractionsChoiceCaptionScriptPart.new(fields) return end
 

@@ -4,9 +4,8 @@
 ---@class ScriptGameInstance
 ScriptGameInstance = {}
 
----@param fields? table
 ---@return ScriptGameInstance
-function ScriptGameInstance.new(fields) return end
+function ScriptGameInstance.new() return end
 
 ---@param entityId entEntityID
 ---@return entEntity

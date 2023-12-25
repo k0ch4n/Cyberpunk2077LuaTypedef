@@ -7,6 +7,6 @@
 ---@field private function CName
 Codeware_UI_inkPendingCallback = {}
 
----@param fields? table
+---@param fields? Codeware_UI_inkPendingCallback
 ---@return Codeware_UI_inkPendingCallback
 function Codeware_UI_inkPendingCallback.new(fields) return end

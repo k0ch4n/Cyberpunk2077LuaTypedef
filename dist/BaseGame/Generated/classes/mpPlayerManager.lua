@@ -4,7 +4,7 @@
 ---@class mpPlayerManager: gameIPlayerManager
 mpPlayerManager = {}
 
----@param fields? table
+---@param fields? mpPlayerManager
 ---@return mpPlayerManager
 function mpPlayerManager.new(fields) return end
 

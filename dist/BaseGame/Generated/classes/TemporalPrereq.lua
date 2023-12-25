@@ -5,7 +5,7 @@
 ---@field public totalDuration Float
 TemporalPrereq = {}
 
----@param fields? table
+---@param fields? TemporalPrereq
 ---@return TemporalPrereq
 function TemporalPrereq.new(fields) return end
 

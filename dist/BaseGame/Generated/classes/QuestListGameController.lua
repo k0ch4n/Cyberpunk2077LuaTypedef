@@ -19,7 +19,7 @@
 ---@field private lastNonOptionalObjective QuestObjectiveWrapper
 QuestListGameController = {}
 
----@param fields? table
+---@param fields? QuestListGameController
 ---@return QuestListGameController
 function QuestListGameController.new(fields) return end
 

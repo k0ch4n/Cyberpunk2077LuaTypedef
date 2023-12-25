@@ -4,6 +4,6 @@
 ---@class inkIconReference: IScriptable
 inkIconReference = {}
 
----@param fields? table
+---@param fields? inkIconReference
 ---@return inkIconReference
 function inkIconReference.new(fields) return end

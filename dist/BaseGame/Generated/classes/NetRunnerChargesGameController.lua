@@ -16,7 +16,7 @@
 ---@field private root inkWidget
 NetRunnerChargesGameController = {}
 
----@param fields? table
+---@param fields? NetRunnerChargesGameController
 ---@return NetRunnerChargesGameController
 function NetRunnerChargesGameController.new(fields) return end
 

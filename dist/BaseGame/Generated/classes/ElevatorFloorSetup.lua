@@ -11,7 +11,7 @@
 ---@field public doorShouldOpenFrontLeftRight Bool[]
 ElevatorFloorSetup = {}
 
----@param fields? table
+---@param fields? ElevatorFloorSetup
 ---@return ElevatorFloorSetup
 function ElevatorFloorSetup.new(fields) return end
 

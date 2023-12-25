@@ -14,7 +14,7 @@
 ---@field private nextAlpha Float
 NetworkMinigameBufferController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameBufferController
 ---@return NetworkMinigameBufferController
 function NetworkMinigameBufferController.new(fields) return end
 

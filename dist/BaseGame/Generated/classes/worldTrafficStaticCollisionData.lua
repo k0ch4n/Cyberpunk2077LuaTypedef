@@ -5,6 +5,6 @@
 ---@field public laneCollisions worldStaticLaneCollisions[]
 worldTrafficStaticCollisionData = {}
 
----@param fields? table
+---@param fields? worldTrafficStaticCollisionData
 ---@return worldTrafficStaticCollisionData
 function worldTrafficStaticCollisionData.new(fields) return end

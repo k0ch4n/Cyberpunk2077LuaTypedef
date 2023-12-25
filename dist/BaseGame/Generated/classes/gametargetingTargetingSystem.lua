@@ -4,7 +4,7 @@
 ---@class gametargetingTargetingSystem: gameITargetingSystem
 gametargetingTargetingSystem = {}
 
----@param fields? table
+---@param fields? gametargetingTargetingSystem
 ---@return gametargetingTargetingSystem
 function gametargetingTargetingSystem.new(fields) return end
 

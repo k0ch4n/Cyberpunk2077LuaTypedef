@@ -9,7 +9,7 @@
 ---@field protected activeStation Int32
 MediaDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? MediaDeviceControllerPS
 ---@return MediaDeviceControllerPS
 function MediaDeviceControllerPS.new(fields) return end
 

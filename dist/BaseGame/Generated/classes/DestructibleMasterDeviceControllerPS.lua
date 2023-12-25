@@ -5,7 +5,7 @@
 ---@field protected isDestroyed Bool
 DestructibleMasterDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? DestructibleMasterDeviceControllerPS
 ---@return DestructibleMasterDeviceControllerPS
 function DestructibleMasterDeviceControllerPS.new(fields) return end
 

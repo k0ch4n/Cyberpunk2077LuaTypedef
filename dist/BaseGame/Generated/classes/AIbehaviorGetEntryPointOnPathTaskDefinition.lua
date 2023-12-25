@@ -7,6 +7,6 @@
 ---@field public entryTangent AIArgumentMapping
 AIbehaviorGetEntryPointOnPathTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorGetEntryPointOnPathTaskDefinition
 ---@return AIbehaviorGetEntryPointOnPathTaskDefinition
 function AIbehaviorGetEntryPointOnPathTaskDefinition.new(fields) return end

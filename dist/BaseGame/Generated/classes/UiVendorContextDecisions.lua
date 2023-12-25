@@ -4,7 +4,7 @@
 ---@class UiVendorContextDecisions: InputContextTransitionDecisions
 UiVendorContextDecisions = {}
 
----@param fields? table
+---@param fields? UiVendorContextDecisions
 ---@return UiVendorContextDecisions
 function UiVendorContextDecisions.new(fields) return end
 

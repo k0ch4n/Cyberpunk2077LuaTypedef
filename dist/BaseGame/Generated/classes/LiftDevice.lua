@@ -17,7 +17,7 @@
 ---@field private usedFallbackOnce Bool
 LiftDevice = {}
 
----@param fields? table
+---@param fields? LiftDevice
 ---@return LiftDevice
 function LiftDevice.new(fields) return end
 

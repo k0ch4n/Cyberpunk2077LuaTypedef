@@ -4,7 +4,7 @@
 ---@class QuickSlotsDisabledEvents: QuickSlotsEvents
 QuickSlotsDisabledEvents = {}
 
----@param fields? table
+---@param fields? QuickSlotsDisabledEvents
 ---@return QuickSlotsDisabledEvents
 function QuickSlotsDisabledEvents.new(fields) return end
 

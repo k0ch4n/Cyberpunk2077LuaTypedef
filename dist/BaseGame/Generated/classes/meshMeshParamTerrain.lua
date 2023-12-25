@@ -5,6 +5,6 @@
 ---@field public chunkBoundingBoxes Box[]
 meshMeshParamTerrain = {}
 
----@param fields? table
+---@param fields? meshMeshParamTerrain
 ---@return meshMeshParamTerrain
 function meshMeshParamTerrain.new(fields) return end

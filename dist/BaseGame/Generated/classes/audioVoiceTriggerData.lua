@@ -8,6 +8,6 @@
 ---@field public overridingVoContext locVoiceoverContext
 audioVoiceTriggerData = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerData
 ---@return audioVoiceTriggerData
 function audioVoiceTriggerData.new(fields) return end

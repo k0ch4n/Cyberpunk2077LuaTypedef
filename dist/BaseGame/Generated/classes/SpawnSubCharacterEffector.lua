@@ -6,7 +6,7 @@
 ---@field public subCharacterTDBID TweakDBID
 SpawnSubCharacterEffector = {}
 
----@param fields? table
+---@param fields? SpawnSubCharacterEffector
 ---@return SpawnSubCharacterEffector
 function SpawnSubCharacterEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public options CName[]
 gameuiOptionsGroup = {}
 
----@param fields? table
+---@param fields? gameuiOptionsGroup
 ---@return gameuiOptionsGroup
 function gameuiOptionsGroup.new(fields) return end

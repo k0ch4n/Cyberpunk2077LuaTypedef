@@ -5,6 +5,6 @@
 ---@field public investigator entEntityID
 UpdateWillingInvestigators = {}
 
----@param fields? table
+---@param fields? UpdateWillingInvestigators
 ---@return UpdateWillingInvestigators
 function UpdateWillingInvestigators.new(fields) return end

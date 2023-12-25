@@ -4,6 +4,6 @@
 ---@class PhotoModeQuestPrefabStateListener: worldIQuestPrefabStateListener
 PhotoModeQuestPrefabStateListener = {}
 
----@param fields? table
+---@param fields? PhotoModeQuestPrefabStateListener
 ---@return PhotoModeQuestPrefabStateListener
 function PhotoModeQuestPrefabStateListener.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class InteractiveSignController: ScriptableDeviceComponent
 InteractiveSignController = {}
 
----@param fields? table
+---@param fields? InteractiveSignController
 ---@return InteractiveSignController
 function InteractiveSignController.new(fields) return end
 

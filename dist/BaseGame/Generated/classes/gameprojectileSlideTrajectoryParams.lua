@@ -6,6 +6,6 @@
 ---@field public constAccel Vector4
 gameprojectileSlideTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileSlideTrajectoryParams
 ---@return gameprojectileSlideTrajectoryParams
 function gameprojectileSlideTrajectoryParams.new(fields) return end

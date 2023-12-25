@@ -6,6 +6,6 @@
 ---@field public NPCWeaponConfigurationName CName
 audioMeleeWeaponVariations = {}
 
----@param fields? table
+---@param fields? audioMeleeWeaponVariations
 ---@return audioMeleeWeaponVariations
 function audioMeleeWeaponVariations.new(fields) return end

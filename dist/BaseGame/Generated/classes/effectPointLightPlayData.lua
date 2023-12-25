@@ -4,6 +4,6 @@
 ---@class effectPointLightPlayData: effectPlacedTrackItemPlayData
 effectPointLightPlayData = {}
 
----@param fields? table
+---@param fields? effectPointLightPlayData
 ---@return effectPointLightPlayData
 function effectPointLightPlayData.new(fields) return end

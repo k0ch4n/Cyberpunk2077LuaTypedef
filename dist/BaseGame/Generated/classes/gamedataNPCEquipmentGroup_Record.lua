@@ -4,7 +4,7 @@
 ---@class gamedataNPCEquipmentGroup_Record: gamedataTweakDBRecord
 gamedataNPCEquipmentGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCEquipmentGroup_Record
 ---@return gamedataNPCEquipmentGroup_Record
 function gamedataNPCEquipmentGroup_Record.new(fields) return end
 

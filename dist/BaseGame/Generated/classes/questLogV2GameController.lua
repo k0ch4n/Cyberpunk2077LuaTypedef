@@ -31,7 +31,7 @@
 ---@field private buttonHintsController ButtonHints
 questLogV2GameController = {}
 
----@param fields? table
+---@param fields? questLogV2GameController
 ---@return questLogV2GameController
 function questLogV2GameController.new(fields) return end
 

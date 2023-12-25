@@ -4,7 +4,7 @@
 ---@class animAnimFeature_PlayerStateMachineState: animAnimFeature
 animAnimFeature_PlayerStateMachineState = {}
 
----@param fields? table
+---@param fields? animAnimFeature_PlayerStateMachineState
 ---@return animAnimFeature_PlayerStateMachineState
 function animAnimFeature_PlayerStateMachineState.new(fields) return end
 

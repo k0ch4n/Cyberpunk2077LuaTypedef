@@ -10,6 +10,6 @@
 ---@field public slaveEntity entEntityID
 DrawBetweenEntitiesEvent = {}
 
----@param fields? table
+---@param fields? DrawBetweenEntitiesEvent
 ---@return DrawBetweenEntitiesEvent
 function DrawBetweenEntitiesEvent.new(fields) return end

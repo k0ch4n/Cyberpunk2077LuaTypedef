@@ -7,6 +7,6 @@
 ---@field public entryActiveOnStart Bool
 worldCommunityEntryInitialState = {}
 
----@param fields? table
+---@param fields? worldCommunityEntryInitialState
 ---@return worldCommunityEntryInitialState
 function worldCommunityEntryInitialState.new(fields) return end

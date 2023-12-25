@@ -4,6 +4,6 @@
 ---@class BaseGameEngine: CBaseEngine
 BaseGameEngine = {}
 
----@param fields? table
+---@param fields? BaseGameEngine
 ---@return BaseGameEngine
 function BaseGameEngine.new(fields) return end

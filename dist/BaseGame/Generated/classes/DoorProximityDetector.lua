@@ -7,7 +7,7 @@
 ---@field private authorizationLevel ESecurityAccessLevel
 DoorProximityDetector = {}
 
----@param fields? table
+---@param fields? DoorProximityDetector
 ---@return DoorProximityDetector
 function DoorProximityDetector.new(fields) return end
 

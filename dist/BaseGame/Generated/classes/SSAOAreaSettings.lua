@@ -22,6 +22,6 @@
 ---@field public foliageDimSpecular curveData
 SSAOAreaSettings = {}
 
----@param fields? table
+---@param fields? SSAOAreaSettings
 ---@return SSAOAreaSettings
 function SSAOAreaSettings.new(fields) return end

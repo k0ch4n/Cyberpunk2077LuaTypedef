@@ -7,6 +7,6 @@
 ---@field public threatId Uint32
 AIThreatExpectationInvalid = {}
 
----@param fields? table
+---@param fields? AIThreatExpectationInvalid
 ---@return AIThreatExpectationInvalid
 function AIThreatExpectationInvalid.new(fields) return end

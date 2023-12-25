@@ -11,6 +11,6 @@
 ---@field public transitionDuration curveData
 worldWeatherState = {}
 
----@param fields? table
+---@param fields? worldWeatherState
 ---@return worldWeatherState
 function worldWeatherState.new(fields) return end

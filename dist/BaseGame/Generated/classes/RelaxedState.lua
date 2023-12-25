@@ -4,7 +4,7 @@
 ---@class RelaxedState: ChangeHighLevelStateAbstract
 RelaxedState = {}
 
----@param fields? table
+---@param fields? RelaxedState
 ---@return RelaxedState
 function RelaxedState.new(fields) return end
 

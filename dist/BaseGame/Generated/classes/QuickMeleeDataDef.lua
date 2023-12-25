@@ -5,7 +5,7 @@
 ---@field public NPCHit gamebbScriptID_Bool
 QuickMeleeDataDef = {}
 
----@param fields? table
+---@param fields? QuickMeleeDataDef
 ---@return QuickMeleeDataDef
 function QuickMeleeDataDef.new(fields) return end
 

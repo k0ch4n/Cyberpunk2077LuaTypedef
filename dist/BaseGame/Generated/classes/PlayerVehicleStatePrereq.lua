@@ -4,7 +4,7 @@
 ---@class PlayerVehicleStatePrereq: gameIScriptablePrereq
 PlayerVehicleStatePrereq = {}
 
----@param fields? table
+---@param fields? PlayerVehicleStatePrereq
 ---@return PlayerVehicleStatePrereq
 function PlayerVehicleStatePrereq.new(fields) return end
 

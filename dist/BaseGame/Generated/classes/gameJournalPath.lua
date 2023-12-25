@@ -7,7 +7,7 @@
 ---@field public className CName
 gameJournalPath = {}
 
----@param fields? table
+---@param fields? gameJournalPath
 ---@return gameJournalPath
 function gameJournalPath.new(fields) return end
 

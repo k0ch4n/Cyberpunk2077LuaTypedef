@@ -7,6 +7,6 @@
 ---@field public hold Bool
 inkInputIconMappingJSON = {}
 
----@param fields? table
+---@param fields? inkInputIconMappingJSON
 ---@return inkInputIconMappingJSON
 function inkInputIconMappingJSON.new(fields) return end

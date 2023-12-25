@@ -6,6 +6,6 @@
 ---@field public lightBlockerComponentVersion Uint8
 entLightBlockingComponent = {}
 
----@param fields? table
+---@param fields? entLightBlockingComponent
 ---@return entLightBlockingComponent
 function entLightBlockingComponent.new(fields) return end

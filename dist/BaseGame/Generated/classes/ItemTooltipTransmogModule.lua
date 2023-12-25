@@ -7,7 +7,7 @@
 ---@field private buttonHint LabelInputDisplayController
 ItemTooltipTransmogModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipTransmogModule
 ---@return ItemTooltipTransmogModule
 function ItemTooltipTransmogModule.new(fields) return end
 

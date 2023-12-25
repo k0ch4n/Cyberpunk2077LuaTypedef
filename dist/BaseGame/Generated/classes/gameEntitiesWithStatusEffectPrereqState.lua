@@ -4,6 +4,6 @@
 ---@class gameEntitiesWithStatusEffectPrereqState: gamePrereqState
 gameEntitiesWithStatusEffectPrereqState = {}
 
----@param fields? table
+---@param fields? gameEntitiesWithStatusEffectPrereqState
 ---@return gameEntitiesWithStatusEffectPrereqState
 function gameEntitiesWithStatusEffectPrereqState.new(fields) return end

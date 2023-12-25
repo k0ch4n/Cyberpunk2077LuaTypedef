@@ -23,6 +23,6 @@
 ---@field public decorators CName[]
 audioDroneMetadata = {}
 
----@param fields? table
+---@param fields? audioDroneMetadata
 ---@return audioDroneMetadata
 function audioDroneMetadata.new(fields) return end

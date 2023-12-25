@@ -4,7 +4,7 @@
 ---@class QuickHackCrosshairStateDecisions: BaseCrosshairState
 QuickHackCrosshairStateDecisions = {}
 
----@param fields? table
+---@param fields? QuickHackCrosshairStateDecisions
 ---@return QuickHackCrosshairStateDecisions
 function QuickHackCrosshairStateDecisions.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public cost Float
 worldNavigationScriptCostModCircle = {}
 
----@param fields? table
+---@param fields? worldNavigationScriptCostModCircle
 ---@return worldNavigationScriptCostModCircle
 function worldNavigationScriptCostModCircle.new(fields) return end

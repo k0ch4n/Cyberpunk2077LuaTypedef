@@ -11,7 +11,7 @@
 ---@field private isInitialized Bool
 FxResourceMapperComponent = {}
 
----@param fields? table
+---@param fields? FxResourceMapperComponent
 ---@return FxResourceMapperComponent
 function FxResourceMapperComponent.new(fields) return end
 

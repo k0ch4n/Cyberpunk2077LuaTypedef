@@ -4,7 +4,7 @@
 ---@class HeartAttackManagerTask: StatusEffectTasks
 HeartAttackManagerTask = {}
 
----@param fields? table
+---@param fields? HeartAttackManagerTask
 ---@return HeartAttackManagerTask
 function HeartAttackManagerTask.new(fields) return end
 

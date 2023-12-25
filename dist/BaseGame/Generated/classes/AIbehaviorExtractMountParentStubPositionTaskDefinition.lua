@@ -6,6 +6,6 @@
 ---@field public position AIArgumentMapping
 AIbehaviorExtractMountParentStubPositionTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorExtractMountParentStubPositionTaskDefinition
 ---@return AIbehaviorExtractMountParentStubPositionTaskDefinition
 function AIbehaviorExtractMountParentStubPositionTaskDefinition.new(fields) return end

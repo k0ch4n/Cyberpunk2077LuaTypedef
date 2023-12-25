@@ -9,6 +9,6 @@
 ---@field public useTraffic Bool
 vehicleDriveFollowEvent = {}
 
----@param fields? table
+---@param fields? vehicleDriveFollowEvent
 ---@return vehicleDriveFollowEvent
 function vehicleDriveFollowEvent.new(fields) return end

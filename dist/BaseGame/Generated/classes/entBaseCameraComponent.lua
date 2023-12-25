@@ -9,6 +9,6 @@
 ---@field public motionBlurScale Float
 entBaseCameraComponent = {}
 
----@param fields? table
+---@param fields? entBaseCameraComponent
 ---@return entBaseCameraComponent
 function entBaseCameraComponent.new(fields) return end

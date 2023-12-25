@@ -4,6 +4,6 @@
 ---@class gameMuppetBlackboardsComponent: gameMuppetComponent
 gameMuppetBlackboardsComponent = {}
 
----@param fields? table
+---@param fields? gameMuppetBlackboardsComponent
 ---@return gameMuppetBlackboardsComponent
 function gameMuppetBlackboardsComponent.new(fields) return end

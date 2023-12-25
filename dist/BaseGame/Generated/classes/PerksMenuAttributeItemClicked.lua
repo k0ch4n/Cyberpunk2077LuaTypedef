@@ -8,6 +8,6 @@
 ---@field public isHeld Bool
 PerksMenuAttributeItemClicked = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemClicked
 ---@return PerksMenuAttributeItemClicked
 function PerksMenuAttributeItemClicked.new(fields) return end

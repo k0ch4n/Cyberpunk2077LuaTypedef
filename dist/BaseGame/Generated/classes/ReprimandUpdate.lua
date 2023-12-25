@@ -8,7 +8,7 @@
 ---@field public currentPerformer gameObject
 ReprimandUpdate = {}
 
----@param fields? table
+---@param fields? ReprimandUpdate
 ---@return ReprimandUpdate
 function ReprimandUpdate.new(fields) return end
 

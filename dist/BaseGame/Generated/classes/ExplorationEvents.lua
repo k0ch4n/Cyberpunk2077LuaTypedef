@@ -4,7 +4,7 @@
 ---@class ExplorationEvents: HighLevelTransition
 ExplorationEvents = {}
 
----@param fields? table
+---@param fields? ExplorationEvents
 ---@return ExplorationEvents
 function ExplorationEvents.new(fields) return end
 

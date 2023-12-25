@@ -8,6 +8,6 @@
 ---@field public weapon questVehicleWeaponQuestID
 questToggleWeaponEnabled_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleWeaponEnabled_NodeType
 ---@return questToggleWeaponEnabled_NodeType
 function questToggleWeaponEnabled_NodeType.new(fields) return end

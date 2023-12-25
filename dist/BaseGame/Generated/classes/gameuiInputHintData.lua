@@ -15,6 +15,6 @@
 ---@field public enableHoldAnimation Bool
 gameuiInputHintData = {}
 
----@param fields? table
+---@param fields? gameuiInputHintData
 ---@return gameuiInputHintData
 function gameuiInputHintData.new(fields) return end

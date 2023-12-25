@@ -4,6 +4,6 @@
 ---@class TimeSkipHoverOutEvent: redEvent
 TimeSkipHoverOutEvent = {}
 
----@param fields? table
+---@param fields? TimeSkipHoverOutEvent
 ---@return TimeSkipHoverOutEvent
 function TimeSkipHoverOutEvent.new(fields) return end

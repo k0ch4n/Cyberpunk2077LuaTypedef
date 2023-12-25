@@ -8,6 +8,6 @@
 ---@field public localRotation Quaternion
 physicsPhysicalJointPin = {}
 
----@param fields? table
+---@param fields? physicsPhysicalJointPin
 ---@return physicsPhysicalJointPin
 function physicsPhysicalJointPin.new(fields) return end

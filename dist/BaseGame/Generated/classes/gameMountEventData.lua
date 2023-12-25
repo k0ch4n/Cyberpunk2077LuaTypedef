@@ -18,7 +18,7 @@
 ---@field public mountEventOptions gameMountEventOptions
 gameMountEventData = {}
 
----@param fields? table
+---@param fields? gameMountEventData
 ---@return gameMountEventData
 function gameMountEventData.new(fields) return end
 

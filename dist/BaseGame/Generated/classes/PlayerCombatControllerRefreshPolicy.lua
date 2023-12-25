@@ -9,6 +9,6 @@
 ---@field public usingQuickHack PlayerCombatControllerRefreshPolicyEnum
 PlayerCombatControllerRefreshPolicy = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerRefreshPolicy
 ---@return PlayerCombatControllerRefreshPolicy
 function PlayerCombatControllerRefreshPolicy.new(fields) return end

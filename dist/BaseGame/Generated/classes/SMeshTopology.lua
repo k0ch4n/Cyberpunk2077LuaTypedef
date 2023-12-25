@@ -6,6 +6,6 @@
 ---@field public metadata DataBuffer
 SMeshTopology = {}
 
----@param fields? table
+---@param fields? SMeshTopology
 ---@return SMeshTopology
 function SMeshTopology.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class LcdScreenController: ScriptableDeviceComponent
 LcdScreenController = {}
 
----@param fields? table
+---@param fields? LcdScreenController
 ---@return LcdScreenController
 function LcdScreenController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public mode questEDebugViewMode
 questSetDebugView_NodeType = {}
 
----@param fields? table
+---@param fields? questSetDebugView_NodeType
 ---@return questSetDebugView_NodeType
 function questSetDebugView_NodeType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SafeCrosshairStateDecisions: BaseCrosshairState
 SafeCrosshairStateDecisions = {}
 
----@param fields? table
+---@param fields? SafeCrosshairStateDecisions
 ---@return SafeCrosshairStateDecisions
 function SafeCrosshairStateDecisions.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AIActionChecks: IScriptable
 AIActionChecks = {}
 
----@param fields? table
+---@param fields? AIActionChecks
 ---@return AIActionChecks
 function AIActionChecks.new(fields) return end
 

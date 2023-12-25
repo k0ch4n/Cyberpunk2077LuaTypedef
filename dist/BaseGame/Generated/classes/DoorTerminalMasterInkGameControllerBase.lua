@@ -5,7 +5,7 @@
 ---@field protected currentlyActiveDevices gamePersistentID[]
 DoorTerminalMasterInkGameControllerBase = {}
 
----@param fields? table
+---@param fields? DoorTerminalMasterInkGameControllerBase
 ---@return DoorTerminalMasterInkGameControllerBase
 function DoorTerminalMasterInkGameControllerBase.new(fields) return end
 

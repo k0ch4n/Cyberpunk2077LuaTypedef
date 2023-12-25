@@ -4,6 +4,6 @@
 ---@class gameCooldownRemovedEvent: gameCooldownSystemEvent
 gameCooldownRemovedEvent = {}
 
----@param fields? table
+---@param fields? gameCooldownRemovedEvent
 ---@return gameCooldownRemovedEvent
 function gameCooldownRemovedEvent.new(fields) return end

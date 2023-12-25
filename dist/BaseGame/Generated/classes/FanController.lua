@@ -4,7 +4,7 @@
 ---@class FanController: BasicDistractionDeviceController
 FanController = {}
 
----@param fields? table
+---@param fields? FanController
 ---@return FanController
 function FanController.new(fields) return end
 

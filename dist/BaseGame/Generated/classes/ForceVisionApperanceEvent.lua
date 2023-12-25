@@ -9,6 +9,6 @@
 ---@field public responseData IScriptable
 ForceVisionApperanceEvent = {}
 
----@param fields? table
+---@param fields? ForceVisionApperanceEvent
 ---@return ForceVisionApperanceEvent
 function ForceVisionApperanceEvent.new(fields) return end

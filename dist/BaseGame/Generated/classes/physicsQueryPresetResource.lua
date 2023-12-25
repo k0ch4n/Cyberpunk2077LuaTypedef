@@ -5,6 +5,6 @@
 ---@field public presets physicsQueryPresetDefinition[]
 physicsQueryPresetResource = {}
 
----@param fields? table
+---@param fields? physicsQueryPresetResource
 ---@return physicsQueryPresetResource
 function physicsQueryPresetResource.new(fields) return end

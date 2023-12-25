@@ -5,6 +5,6 @@
 ---@field public patchIntrosNeeded gameuiPatchIntro[]
 gameuiPatchIntroPackage = {}
 
----@param fields? table
+---@param fields? gameuiPatchIntroPackage
 ---@return gameuiPatchIntroPackage
 function gameuiPatchIntroPackage.new(fields) return end

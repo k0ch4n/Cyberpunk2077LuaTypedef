@@ -14,7 +14,7 @@
 ---@field private ownerID entEntityID
 CustomAnimationsHudGameController = {}
 
----@param fields? table
+---@param fields? CustomAnimationsHudGameController
 ---@return CustomAnimationsHudGameController
 function CustomAnimationsHudGameController.new(fields) return end
 

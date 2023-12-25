@@ -10,6 +10,6 @@
 ---@field public bodyPartMask CName
 scnPlayAnimEventData = {}
 
----@param fields? table
+---@param fields? scnPlayAnimEventData
 ---@return scnPlayAnimEventData
 function scnPlayAnimEventData.new(fields) return end

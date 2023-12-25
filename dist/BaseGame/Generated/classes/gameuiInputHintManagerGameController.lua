@@ -9,6 +9,6 @@
 ---@field public groupLibRef inkWidgetLibraryReference
 gameuiInputHintManagerGameController = {}
 
----@param fields? table
+---@param fields? gameuiInputHintManagerGameController
 ---@return gameuiInputHintManagerGameController
 function gameuiInputHintManagerGameController.new(fields) return end

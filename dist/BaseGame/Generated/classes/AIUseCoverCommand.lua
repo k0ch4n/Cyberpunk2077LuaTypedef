@@ -9,6 +9,6 @@
 ---@field public limitToTheseExposureMethods CoverCommandParams
 AIUseCoverCommand = {}
 
----@param fields? table
+---@param fields? AIUseCoverCommand
 ---@return AIUseCoverCommand
 function AIUseCoverCommand.new(fields) return end

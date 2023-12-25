@@ -5,7 +5,7 @@
 ---@field public outputRicochetVector gameEffectOutputParameter_Vector
 gameEffectExecutor_Ricochet = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_Ricochet
 ---@return gameEffectExecutor_Ricochet
 function gameEffectExecutor_Ricochet.new(fields) return end
 

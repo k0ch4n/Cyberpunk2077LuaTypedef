@@ -4,7 +4,7 @@
 ---@class gamedataAdvertisementFormatsEnum_Record: gamedataTweakDBRecord
 gamedataAdvertisementFormatsEnum_Record = {}
 
----@param fields? table
+---@param fields? gamedataAdvertisementFormatsEnum_Record
 ---@return gamedataAdvertisementFormatsEnum_Record
 function gamedataAdvertisementFormatsEnum_Record.new(fields) return end
 

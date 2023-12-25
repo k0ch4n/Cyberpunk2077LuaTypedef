@@ -5,6 +5,6 @@
 ---@field public projectionDist Float
 gamePuppetTriggerDestructionComponent = {}
 
----@param fields? table
+---@param fields? gamePuppetTriggerDestructionComponent
 ---@return gamePuppetTriggerDestructionComponent
 function gamePuppetTriggerDestructionComponent.new(fields) return end

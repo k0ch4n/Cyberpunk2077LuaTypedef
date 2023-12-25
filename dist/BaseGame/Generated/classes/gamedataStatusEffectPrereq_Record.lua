@@ -4,7 +4,7 @@
 ---@class gamedataStatusEffectPrereq_Record: gamedataIPrereq_Record
 gamedataStatusEffectPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataStatusEffectPrereq_Record
 ---@return gamedataStatusEffectPrereq_Record
 function gamedataStatusEffectPrereq_Record.new(fields) return end
 

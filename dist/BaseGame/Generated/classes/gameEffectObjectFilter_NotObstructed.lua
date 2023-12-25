@@ -6,6 +6,6 @@
 ---@field public queryPreset physicsQueryPreset
 gameEffectObjectFilter_NotObstructed = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_NotObstructed
 ---@return gameEffectObjectFilter_NotObstructed
 function gameEffectObjectFilter_NotObstructed.new(fields) return end

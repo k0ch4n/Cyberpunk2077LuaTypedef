@@ -7,7 +7,7 @@
 ---@field private root inkWidget
 characterCreationNavigationBtn = {}
 
----@param fields? table
+---@param fields? characterCreationNavigationBtn
 ---@return characterCreationNavigationBtn
 function characterCreationNavigationBtn.new(fields) return end
 

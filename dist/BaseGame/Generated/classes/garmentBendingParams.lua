@@ -5,6 +5,6 @@
 ---@field public bendPowerOffsetInCM Float
 garmentBendingParams = {}
 
----@param fields? table
+---@param fields? garmentBendingParams
 ---@return garmentBendingParams
 function garmentBendingParams.new(fields) return end

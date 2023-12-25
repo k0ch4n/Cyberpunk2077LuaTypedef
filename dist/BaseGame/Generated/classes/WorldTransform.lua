@@ -6,7 +6,7 @@
 ---@field public Orientation Quaternion
 WorldTransform = {}
 
----@param fields? table
+---@param fields? WorldTransform
 ---@return WorldTransform
 function WorldTransform.new(fields) return end
 

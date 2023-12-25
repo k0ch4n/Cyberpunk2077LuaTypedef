@@ -12,6 +12,6 @@
 ---@field public version inkWidgetResourceVersion
 inkWidgetLibraryResource = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryResource
 ---@return inkWidgetLibraryResource
 function inkWidgetLibraryResource.new(fields) return end

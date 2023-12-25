@@ -6,6 +6,6 @@
 ---@field public amount Int32
 ItemCraftedDataTrackingRequest = {}
 
----@param fields? table
+---@param fields? ItemCraftedDataTrackingRequest
 ---@return ItemCraftedDataTrackingRequest
 function ItemCraftedDataTrackingRequest.new(fields) return end

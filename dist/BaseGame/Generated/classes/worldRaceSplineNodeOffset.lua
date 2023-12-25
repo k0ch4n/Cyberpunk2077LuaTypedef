@@ -8,6 +8,6 @@
 ---@field public right Float
 worldRaceSplineNodeOffset = {}
 
----@param fields? table
+---@param fields? worldRaceSplineNodeOffset
 ---@return worldRaceSplineNodeOffset
 function worldRaceSplineNodeOffset.new(fields) return end

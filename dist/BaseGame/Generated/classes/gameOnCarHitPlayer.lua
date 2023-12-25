@@ -7,6 +7,6 @@
 ---@field public carId entEntityID
 gameOnCarHitPlayer = {}
 
----@param fields? table
+---@param fields? gameOnCarHitPlayer
 ---@return gameOnCarHitPlayer
 function gameOnCarHitPlayer.new(fields) return end

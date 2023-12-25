@@ -5,6 +5,6 @@
 ---@field public content String
 gameinteractionsChoiceCaptionStringPart = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceCaptionStringPart
 ---@return gameinteractionsChoiceCaptionStringPart
 function gameinteractionsChoiceCaptionStringPart.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private hasStatusEffect Bool
 QuickSlotsDisabledDecisions = {}
 
----@param fields? table
+---@param fields? QuickSlotsDisabledDecisions
 ---@return QuickSlotsDisabledDecisions
 function QuickSlotsDisabledDecisions.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public collectionData DataBuffer
 physicsMaterialLibraryResource = {}
 
----@param fields? table
+---@param fields? physicsMaterialLibraryResource
 ---@return physicsMaterialLibraryResource
 function physicsMaterialLibraryResource.new(fields) return end

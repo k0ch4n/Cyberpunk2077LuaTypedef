@@ -7,7 +7,7 @@
 ---@field public exitLadderParameter Bool
 gamestateMachineComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? gamestateMachineComponentReplicatedState
 ---@return gamestateMachineComponentReplicatedState
 function gamestateMachineComponentReplicatedState.new(fields) return end
 

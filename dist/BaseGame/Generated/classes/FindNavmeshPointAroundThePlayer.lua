@@ -5,7 +5,7 @@
 ---@field public outPositionArgument AIArgumentMapping
 FindNavmeshPointAroundThePlayer = {}
 
----@param fields? table
+---@param fields? FindNavmeshPointAroundThePlayer
 ---@return FindNavmeshPointAroundThePlayer
 function FindNavmeshPointAroundThePlayer.new(fields) return end
 

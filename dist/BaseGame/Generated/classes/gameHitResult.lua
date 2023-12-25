@@ -7,6 +7,6 @@
 ---@field public enterDistanceFromOriginSq Float
 gameHitResult = {}
 
----@param fields? table
+---@param fields? gameHitResult
 ---@return gameHitResult
 function gameHitResult.new(fields) return end

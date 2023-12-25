@@ -4,7 +4,7 @@
 ---@class LookatCompanion: AIGenericAdvancedLookatTask
 LookatCompanion = {}
 
----@param fields? table
+---@param fields? LookatCompanion
 ---@return LookatCompanion
 function LookatCompanion.new(fields) return end
 

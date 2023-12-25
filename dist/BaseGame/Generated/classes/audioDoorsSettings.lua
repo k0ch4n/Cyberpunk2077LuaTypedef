@@ -11,6 +11,6 @@
 ---@field public soundBank CName
 audioDoorsSettings = {}
 
----@param fields? table
+---@param fields? audioDoorsSettings
 ---@return audioDoorsSettings
 function audioDoorsSettings.new(fields) return end

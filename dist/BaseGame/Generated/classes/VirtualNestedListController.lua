@@ -9,7 +9,7 @@
 ---@field protected toggledLevels Int32[]
 VirtualNestedListController = {}
 
----@param fields? table
+---@param fields? VirtualNestedListController
 ---@return VirtualNestedListController
 function VirtualNestedListController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public delayed Bool
 gameuiPuppetPreview_SetCameraSetupEvent = {}
 
----@param fields? table
+---@param fields? gameuiPuppetPreview_SetCameraSetupEvent
 ---@return gameuiPuppetPreview_SetCameraSetupEvent
 function gameuiPuppetPreview_SetCameraSetupEvent.new(fields) return end

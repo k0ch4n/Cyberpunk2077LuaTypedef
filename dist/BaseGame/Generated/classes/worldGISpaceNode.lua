@@ -9,6 +9,6 @@
 ---@field public updated Bool
 worldGISpaceNode = {}
 
----@param fields? table
+---@param fields? worldGISpaceNode
 ---@return worldGISpaceNode
 function worldGISpaceNode.new(fields) return end

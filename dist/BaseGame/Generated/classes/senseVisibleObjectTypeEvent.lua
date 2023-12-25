@@ -5,6 +5,6 @@
 ---@field public type gamedataSenseObjectType
 senseVisibleObjectTypeEvent = {}
 
----@param fields? table
+---@param fields? senseVisibleObjectTypeEvent
 ---@return senseVisibleObjectTypeEvent
 function senseVisibleObjectTypeEvent.new(fields) return end

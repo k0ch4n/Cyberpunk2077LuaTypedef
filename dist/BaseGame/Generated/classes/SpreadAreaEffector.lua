@@ -8,7 +8,7 @@
 ---@field public player PlayerPuppet
 SpreadAreaEffector = {}
 
----@param fields? table
+---@param fields? SpreadAreaEffector
 ---@return SpreadAreaEffector
 function SpreadAreaEffector.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public eventType gameinteractionsEInteractionEventType
 VehicleActionsContext = {}
 
----@param fields? table
+---@param fields? VehicleActionsContext
 ---@return VehicleActionsContext
 function VehicleActionsContext.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameIsVisualizerActivePrereqState: gamePrereqState
 gameIsVisualizerActivePrereqState = {}
 
----@param fields? table
+---@param fields? gameIsVisualizerActivePrereqState
 ---@return gameIsVisualizerActivePrereqState
 function gameIsVisualizerActivePrereqState.new(fields) return end

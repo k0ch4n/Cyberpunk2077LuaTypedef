@@ -5,7 +5,7 @@
 ---@field private animFeature AnimFeature_AnimatedDevice
 AnimatedSign = {}
 
----@param fields? table
+---@param fields? AnimatedSign
 ---@return AnimatedSign
 function AnimatedSign.new(fields) return end
 

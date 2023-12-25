@@ -6,7 +6,7 @@
 ---@field private requestedModules HUDModule[]
 RefreshActorRequest = {}
 
----@param fields? table
+---@param fields? RefreshActorRequest
 ---@return RefreshActorRequest
 function RefreshActorRequest.new(fields) return end
 

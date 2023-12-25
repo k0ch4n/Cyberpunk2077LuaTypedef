@@ -8,7 +8,7 @@
 ---@field private industrialArmAnimationOverride Int32
 ActivatedDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceControllerPS
 ---@return ActivatedDeviceControllerPS
 function ActivatedDeviceControllerPS.new(fields) return end
 

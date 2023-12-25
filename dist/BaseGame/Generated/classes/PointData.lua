@@ -6,6 +6,6 @@
 ---@field public direction Vector4
 PointData = {}
 
----@param fields? table
+---@param fields? PointData
 ---@return PointData
 function PointData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public scale effectEffectParameterEvaluatorFloat
 effectTrackItemMotionBlurScale = {}
 
----@param fields? table
+---@param fields? effectTrackItemMotionBlurScale
 ---@return effectTrackItemMotionBlurScale
 function effectTrackItemMotionBlurScale.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field private activeCrosshairs Crosshair[]
 CrosshairModule = {}
 
----@param fields? table
+---@param fields? CrosshairModule
 ---@return CrosshairModule
 function CrosshairModule.new(fields) return end

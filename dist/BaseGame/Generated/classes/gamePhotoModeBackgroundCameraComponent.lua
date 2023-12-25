@@ -14,6 +14,6 @@
 ---@field public streamingDistance Float
 gamePhotoModeBackgroundCameraComponent = {}
 
----@param fields? table
+---@param fields? gamePhotoModeBackgroundCameraComponent
 ---@return gamePhotoModeBackgroundCameraComponent
 function gamePhotoModeBackgroundCameraComponent.new(fields) return end

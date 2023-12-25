@@ -5,6 +5,6 @@
 ---@field public consumed Bool
 gamestateMachineConsumableParameterTweakDBID = {}
 
----@param fields? table
+---@param fields? gamestateMachineConsumableParameterTweakDBID
 ---@return gamestateMachineConsumableParameterTweakDBID
 function gamestateMachineConsumableParameterTweakDBID.new(fields) return end

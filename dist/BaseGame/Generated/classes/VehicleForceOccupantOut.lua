@@ -5,7 +5,7 @@
 ---@field public slotID CName
 VehicleForceOccupantOut = {}
 
----@param fields? table
+---@param fields? VehicleForceOccupantOut
 ---@return VehicleForceOccupantOut
 function VehicleForceOccupantOut.new(fields) return end
 

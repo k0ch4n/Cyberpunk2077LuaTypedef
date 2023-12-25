@@ -4,7 +4,7 @@
 ---@class LowFPSSelectCoverMode: AIbehaviortaskScript
 LowFPSSelectCoverMode = {}
 
----@param fields? table
+---@param fields? LowFPSSelectCoverMode
 ---@return LowFPSSelectCoverMode
 function LowFPSSelectCoverMode.new(fields) return end
 

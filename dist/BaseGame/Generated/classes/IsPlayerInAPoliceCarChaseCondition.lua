@@ -4,7 +4,7 @@
 ---@class IsPlayerInAPoliceCarChaseCondition: PreventionConditionAbstract
 IsPlayerInAPoliceCarChaseCondition = {}
 
----@param fields? table
+---@param fields? IsPlayerInAPoliceCarChaseCondition
 ---@return IsPlayerInAPoliceCarChaseCondition
 function IsPlayerInAPoliceCarChaseCondition.new(fields) return end
 

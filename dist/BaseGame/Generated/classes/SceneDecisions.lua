@@ -5,7 +5,7 @@
 ---@field public sceneTierCallback redCallbackObject
 SceneDecisions = {}
 
----@param fields? table
+---@param fields? SceneDecisions
 ---@return SceneDecisions
 function SceneDecisions.new(fields) return end
 

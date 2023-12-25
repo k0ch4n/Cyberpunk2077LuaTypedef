@@ -5,6 +5,6 @@
 ---@field public events animAnimEvent[]
 animEventsContainer = {}
 
----@param fields? table
+---@param fields? animEventsContainer
 ---@return animEventsContainer
 function animEventsContainer.new(fields) return end

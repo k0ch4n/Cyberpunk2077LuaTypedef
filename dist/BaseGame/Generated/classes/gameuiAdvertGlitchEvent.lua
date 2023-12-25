@@ -5,7 +5,7 @@
 ---@field public glitchValue Float
 gameuiAdvertGlitchEvent = {}
 
----@param fields? table
+---@param fields? gameuiAdvertGlitchEvent
 ---@return gameuiAdvertGlitchEvent
 function gameuiAdvertGlitchEvent.new(fields) return end
 

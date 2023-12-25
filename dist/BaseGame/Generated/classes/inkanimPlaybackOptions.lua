@@ -15,6 +15,6 @@
 ---@field public customTimeDilation Float
 inkanimPlaybackOptions = {}
 
----@param fields? table
+---@param fields? inkanimPlaybackOptions
 ---@return inkanimPlaybackOptions
 function inkanimPlaybackOptions.new(fields) return end

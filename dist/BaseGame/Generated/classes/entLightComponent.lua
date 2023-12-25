@@ -56,7 +56,7 @@
 ---@field public isEnabled Bool
 entLightComponent = {}
 
----@param fields? table
+---@param fields? entLightComponent
 ---@return entLightComponent
 function entLightComponent.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkEndGameLoadingState: inkIStateMachineState
 inkEndGameLoadingState = {}
 
----@param fields? table
+---@param fields? inkEndGameLoadingState
 ---@return inkEndGameLoadingState
 function inkEndGameLoadingState.new(fields) return end

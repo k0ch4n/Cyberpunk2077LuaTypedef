@@ -7,7 +7,7 @@
 ---@field private activeBg inkRectangleWidget
 ControlledDeviceLogicController = {}
 
----@param fields? table
+---@param fields? ControlledDeviceLogicController
 ---@return ControlledDeviceLogicController
 function ControlledDeviceLogicController.new(fields) return end
 

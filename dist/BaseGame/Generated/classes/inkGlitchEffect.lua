@@ -9,6 +9,6 @@
 ---@field public sizeY Float
 inkGlitchEffect = {}
 
----@param fields? table
+---@param fields? inkGlitchEffect
 ---@return inkGlitchEffect
 function inkGlitchEffect.new(fields) return end

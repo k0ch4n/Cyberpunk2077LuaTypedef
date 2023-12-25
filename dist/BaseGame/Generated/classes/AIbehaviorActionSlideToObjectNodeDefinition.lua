@@ -6,6 +6,6 @@
 ---@field public offset AIArgumentMapping
 AIbehaviorActionSlideToObjectNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionSlideToObjectNodeDefinition
 ---@return AIbehaviorActionSlideToObjectNodeDefinition
 function AIbehaviorActionSlideToObjectNodeDefinition.new(fields) return end

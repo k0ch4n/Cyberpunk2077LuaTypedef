@@ -7,6 +7,6 @@
 ---@field public contentScale TweakDBID
 GameAttachedEvent = {}
 
----@param fields? table
+---@param fields? GameAttachedEvent
 ---@return GameAttachedEvent
 function GameAttachedEvent.new(fields) return end

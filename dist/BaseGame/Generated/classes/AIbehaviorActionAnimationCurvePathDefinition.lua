@@ -20,6 +20,6 @@
 ---@field public stopSnapToTerrainBlendTime AIArgumentMapping
 AIbehaviorActionAnimationCurvePathDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionAnimationCurvePathDefinition
 ---@return AIbehaviorActionAnimationCurvePathDefinition
 function AIbehaviorActionAnimationCurvePathDefinition.new(fields) return end

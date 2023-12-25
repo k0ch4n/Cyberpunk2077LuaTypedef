@@ -5,7 +5,7 @@
 ---@field public hash Uint64
 entEntityID = {}
 
----@param fields? table
+---@param fields? entEntityID
 ---@return entEntityID
 function entEntityID.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIbehaviorDriveFollowSlotTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveFollowSlotTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveFollowSlotTreeNodeDefinition
 ---@return AIbehaviorDriveFollowSlotTreeNodeDefinition
 function AIbehaviorDriveFollowSlotTreeNodeDefinition.new(fields) return end

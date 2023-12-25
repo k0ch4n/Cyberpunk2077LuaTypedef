@@ -6,7 +6,7 @@
 ---@field public source CName
 LockDeviceChainCreation = {}
 
----@param fields? table
+---@param fields? LockDeviceChainCreation
 ---@return LockDeviceChainCreation
 function LockDeviceChainCreation.new(fields) return end
 

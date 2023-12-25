@@ -5,6 +5,6 @@
 ---@field public isStrongAttack Bool
 MeleeHitSlowMoEvent = {}
 
----@param fields? table
+---@param fields? MeleeHitSlowMoEvent
 ---@return MeleeHitSlowMoEvent
 function MeleeHitSlowMoEvent.new(fields) return end

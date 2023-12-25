@@ -6,6 +6,6 @@
 ---@field public value Variant
 questDevice_ConditionFunctionParameter = {}
 
----@param fields? table
+---@param fields? questDevice_ConditionFunctionParameter
 ---@return questDevice_ConditionFunctionParameter
 function questDevice_ConditionFunctionParameter.new(fields) return end

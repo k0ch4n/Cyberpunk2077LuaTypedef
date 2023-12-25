@@ -5,6 +5,6 @@
 ---@field public isFinalRemoval Bool
 gameeventsRemoveStatusEffect = {}
 
----@param fields? table
+---@param fields? gameeventsRemoveStatusEffect
 ---@return gameeventsRemoveStatusEffect
 function gameeventsRemoveStatusEffect.new(fields) return end

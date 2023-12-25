@@ -4,7 +4,7 @@
 ---@class TimeDilationHelper: IScriptable
 TimeDilationHelper = {}
 
----@param fields? table
+---@param fields? TimeDilationHelper
 ---@return TimeDilationHelper
 function TimeDilationHelper.new(fields) return end
 

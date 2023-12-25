@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextDrivingEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextDrivingEvents = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextDrivingEvents
 ---@return UiQuickHackPanelContextDrivingEvents
 function UiQuickHackPanelContextDrivingEvents.new(fields) return end
 

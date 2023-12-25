@@ -6,6 +6,6 @@
 ---@field public killHistory gamedamageServerKillData[]
 gameDamageSystemSharedState = {}
 
----@param fields? table
+---@param fields? gameDamageSystemSharedState
 ---@return gameDamageSystemSharedState
 function gameDamageSystemSharedState.new(fields) return end

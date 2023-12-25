@@ -8,6 +8,6 @@
 ---@field public uniqueName CName
 redTaskNameMessage = {}
 
----@param fields? table
+---@param fields? redTaskNameMessage
 ---@return redTaskNameMessage
 function redTaskNameMessage.new(fields) return end

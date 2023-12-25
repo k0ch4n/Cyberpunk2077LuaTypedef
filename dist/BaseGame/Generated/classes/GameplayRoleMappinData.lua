@@ -24,6 +24,6 @@
 ---@field public action ScriptableDeviceAction
 GameplayRoleMappinData = {}
 
----@param fields? table
+---@param fields? GameplayRoleMappinData
 ---@return GameplayRoleMappinData
 function GameplayRoleMappinData.new(fields) return end

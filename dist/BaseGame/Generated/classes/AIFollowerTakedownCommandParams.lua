@@ -7,7 +7,7 @@
 ---@field public doNotTeleportIfTargetIsVisible Bool
 AIFollowerTakedownCommandParams = {}
 
----@param fields? table
+---@param fields? AIFollowerTakedownCommandParams
 ---@return AIFollowerTakedownCommandParams
 function AIFollowerTakedownCommandParams.new(fields) return end
 

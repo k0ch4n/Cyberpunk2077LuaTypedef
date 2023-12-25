@@ -11,7 +11,7 @@
 ---@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Mantis_Blade = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Mantis_Blade
 ---@return CrosshairGameController_Mantis_Blade
 function CrosshairGameController_Mantis_Blade.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public eventsSortedByRUID worldCompiledEffectEventInfo[]
 worldCompiledEffectInfo = {}
 
----@param fields? table
+---@param fields? worldCompiledEffectInfo
 ---@return worldCompiledEffectInfo
 function worldCompiledEffectInfo.new(fields) return end

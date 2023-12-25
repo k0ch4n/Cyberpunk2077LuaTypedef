@@ -4,7 +4,7 @@
 ---@class StatPoolsManager: IScriptable
 StatPoolsManager = {}
 
----@param fields? table
+---@param fields? StatPoolsManager
 ---@return StatPoolsManager
 function StatPoolsManager.new(fields) return end
 

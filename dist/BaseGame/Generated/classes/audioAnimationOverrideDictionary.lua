@@ -6,6 +6,6 @@
 ---@field public entryType audioAnimationOverrideDictionaryItem
 audioAnimationOverrideDictionary = {}
 
----@param fields? table
+---@param fields? audioAnimationOverrideDictionary
 ---@return audioAnimationOverrideDictionary
 function audioAnimationOverrideDictionary.new(fields) return end

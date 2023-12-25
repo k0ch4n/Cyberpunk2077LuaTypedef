@@ -6,6 +6,6 @@
 ---@field public data Variant
 DataEntryRequest = {}
 
----@param fields? table
+---@param fields? DataEntryRequest
 ---@return DataEntryRequest
 function DataEntryRequest.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public menuVisited Bool
 StatsMenuUserData = {}
 
----@param fields? table
+---@param fields? StatsMenuUserData
 ---@return StatsMenuUserData
 function StatsMenuUserData.new(fields) return end

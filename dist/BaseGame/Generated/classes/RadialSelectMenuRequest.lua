@@ -5,6 +5,6 @@
 ---@field public eventData RadialMenuItemController
 RadialSelectMenuRequest = {}
 
----@param fields? table
+---@param fields? RadialSelectMenuRequest
 ---@return RadialSelectMenuRequest
 function RadialSelectMenuRequest.new(fields) return end

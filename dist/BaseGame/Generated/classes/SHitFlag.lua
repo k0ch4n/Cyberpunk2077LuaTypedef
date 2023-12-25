@@ -6,6 +6,6 @@
 ---@field public source CName
 SHitFlag = {}
 
----@param fields? table
+---@param fields? SHitFlag
 ---@return SHitFlag
 function SHitFlag.new(fields) return end

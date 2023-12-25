@@ -12,7 +12,7 @@
 ---@field private isHidden Bool
 TooltipAnimationController = {}
 
----@param fields? table
+---@param fields? TooltipAnimationController
 ---@return TooltipAnimationController
 function TooltipAnimationController.new(fields) return end
 

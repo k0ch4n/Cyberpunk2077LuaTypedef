@@ -5,7 +5,7 @@
 ---@field public state Bool
 SetRagdollComponentStateEffector = {}
 
----@param fields? table
+---@param fields? SetRagdollComponentStateEffector
 ---@return SetRagdollComponentStateEffector
 function SetRagdollComponentStateEffector.new(fields) return end
 

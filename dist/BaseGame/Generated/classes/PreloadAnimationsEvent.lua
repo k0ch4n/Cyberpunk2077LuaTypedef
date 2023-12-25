@@ -6,6 +6,6 @@
 ---@field public highPriority Bool
 PreloadAnimationsEvent = {}
 
----@param fields? table
+---@param fields? PreloadAnimationsEvent
 ---@return PreloadAnimationsEvent
 function PreloadAnimationsEvent.new(fields) return end

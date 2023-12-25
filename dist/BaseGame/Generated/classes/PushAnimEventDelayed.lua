@@ -6,6 +6,6 @@
 ---@field public go gameObject
 PushAnimEventDelayed = {}
 
----@param fields? table
+---@param fields? PushAnimEventDelayed
 ---@return PushAnimEventDelayed
 function PushAnimEventDelayed.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field public page inkWidget
 CasinoTableSlotLogicController = {}
 
----@param fields? table
+---@param fields? CasinoTableSlotLogicController
 ---@return CasinoTableSlotLogicController
 function CasinoTableSlotLogicController.new(fields) return end
 

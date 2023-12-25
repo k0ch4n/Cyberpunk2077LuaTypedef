@@ -8,6 +8,6 @@
 ---@field public forceOpenDuringFadeout Bool
 questSwitchToScenario_NodeType = {}
 
----@param fields? table
+---@param fields? questSwitchToScenario_NodeType
 ---@return questSwitchToScenario_NodeType
 function questSwitchToScenario_NodeType.new(fields) return end

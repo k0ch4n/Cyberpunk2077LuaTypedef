@@ -9,7 +9,7 @@
 ---@field public reloaded Bool
 WeaponFirstReloadStatePrereqState = {}
 
----@param fields? table
+---@param fields? WeaponFirstReloadStatePrereqState
 ---@return WeaponFirstReloadStatePrereqState
 function WeaponFirstReloadStatePrereqState.new(fields) return end
 

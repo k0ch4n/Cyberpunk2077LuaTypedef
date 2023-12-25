@@ -4,7 +4,7 @@
 ---@class DoorSystem: DeviceSystemBase
 DoorSystem = {}
 
----@param fields? table
+---@param fields? DoorSystem
 ---@return DoorSystem
 function DoorSystem.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public owner gameObject
 gameprojectileSpawnerAttachEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileSpawnerAttachEvent
 ---@return gameprojectileSpawnerAttachEvent
 function gameprojectileSpawnerAttachEvent.new(fields) return end

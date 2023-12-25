@@ -4,6 +4,6 @@
 ---@class inkDefaultCallback: inkCallbackBase
 inkDefaultCallback = {}
 
----@param fields? table
+---@param fields? inkDefaultCallback
 ---@return inkDefaultCallback
 function inkDefaultCallback.new(fields) return end

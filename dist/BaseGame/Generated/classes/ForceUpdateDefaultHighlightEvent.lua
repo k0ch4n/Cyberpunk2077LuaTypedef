@@ -4,6 +4,6 @@
 ---@class ForceUpdateDefaultHighlightEvent: redEvent
 ForceUpdateDefaultHighlightEvent = {}
 
----@param fields? table
+---@param fields? ForceUpdateDefaultHighlightEvent
 ---@return ForceUpdateDefaultHighlightEvent
 function ForceUpdateDefaultHighlightEvent.new(fields) return end

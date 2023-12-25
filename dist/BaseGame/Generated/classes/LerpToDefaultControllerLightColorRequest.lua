@@ -5,6 +5,6 @@
 ---@field public notQuest Bool
 LerpToDefaultControllerLightColorRequest = {}
 
----@param fields? table
+---@param fields? LerpToDefaultControllerLightColorRequest
 ---@return LerpToDefaultControllerLightColorRequest
 function LerpToDefaultControllerLightColorRequest.new(fields) return end

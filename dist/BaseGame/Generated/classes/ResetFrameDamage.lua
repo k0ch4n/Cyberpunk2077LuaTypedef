@@ -4,6 +4,6 @@
 ---@class ResetFrameDamage: redEvent
 ResetFrameDamage = {}
 
----@param fields? table
+---@param fields? ResetFrameDamage
 ---@return ResetFrameDamage
 function ResetFrameDamage.new(fields) return end

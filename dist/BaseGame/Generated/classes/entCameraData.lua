@@ -5,6 +5,6 @@
 ---@field public rotation Quaternion
 entCameraData = {}
 
----@param fields? table
+---@param fields? entCameraData
 ---@return entCameraData
 function entCameraData.new(fields) return end

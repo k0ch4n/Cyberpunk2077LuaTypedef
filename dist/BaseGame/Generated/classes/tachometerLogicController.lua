@@ -13,7 +13,7 @@
 ---@field private currentRPM Int32
 tachometerLogicController = {}
 
----@param fields? table
+---@param fields? tachometerLogicController
 ---@return tachometerLogicController
 function tachometerLogicController.new(fields) return end
 

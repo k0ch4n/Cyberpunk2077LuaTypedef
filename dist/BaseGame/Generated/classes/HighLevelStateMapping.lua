@@ -5,7 +5,7 @@
 ---@field public stateNameMapping AIArgumentMapping
 HighLevelStateMapping = {}
 
----@param fields? table
+---@param fields? HighLevelStateMapping
 ---@return HighLevelStateMapping
 function HighLevelStateMapping.new(fields) return end
 

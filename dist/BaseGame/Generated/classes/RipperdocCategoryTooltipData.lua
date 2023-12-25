@@ -8,6 +8,6 @@
 ---@field public screenType CyberwareScreenType
 RipperdocCategoryTooltipData = {}
 
----@param fields? table
+---@param fields? RipperdocCategoryTooltipData
 ---@return RipperdocCategoryTooltipData
 function RipperdocCategoryTooltipData.new(fields) return end

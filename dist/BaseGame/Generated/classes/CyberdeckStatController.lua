@@ -10,7 +10,7 @@
 ---@field protected bigFontEnabled Bool
 CyberdeckStatController = {}
 
----@param fields? table
+---@param fields? CyberdeckStatController
 ---@return CyberdeckStatController
 function CyberdeckStatController.new(fields) return end
 

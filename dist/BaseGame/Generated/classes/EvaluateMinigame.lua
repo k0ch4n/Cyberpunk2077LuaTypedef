@@ -12,6 +12,6 @@
 ---@field public returnToJournal Bool
 EvaluateMinigame = {}
 
----@param fields? table
+---@param fields? EvaluateMinigame
 ---@return EvaluateMinigame
 function EvaluateMinigame.new(fields) return end

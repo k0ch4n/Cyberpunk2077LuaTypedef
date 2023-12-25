@@ -4,6 +4,6 @@
 ---@class worldGIShapeNodeInstance: worldGeometryShapeNodeInstance
 worldGIShapeNodeInstance = {}
 
----@param fields? table
+---@param fields? worldGIShapeNodeInstance
 ---@return worldGIShapeNodeInstance
 function worldGIShapeNodeInstance.new(fields) return end

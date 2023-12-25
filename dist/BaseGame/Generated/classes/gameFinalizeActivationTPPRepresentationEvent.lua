@@ -4,6 +4,6 @@
 ---@class gameFinalizeActivationTPPRepresentationEvent: redEvent
 gameFinalizeActivationTPPRepresentationEvent = {}
 
----@param fields? table
+---@param fields? gameFinalizeActivationTPPRepresentationEvent
 ---@return gameFinalizeActivationTPPRepresentationEvent
 function gameFinalizeActivationTPPRepresentationEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public healingItemChargeRestorePercentage Float
 SadismEffector = {}
 
----@param fields? table
+---@param fields? SadismEffector
 ---@return SadismEffector
 function SadismEffector.new(fields) return end
 

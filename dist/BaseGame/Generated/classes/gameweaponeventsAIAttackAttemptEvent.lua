@@ -9,6 +9,6 @@
 ---@field public minimumOpacity Float
 gameweaponeventsAIAttackAttemptEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsAIAttackAttemptEvent
 ---@return gameweaponeventsAIAttackAttemptEvent
 function gameweaponeventsAIAttackAttemptEvent.new(fields) return end

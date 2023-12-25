@@ -10,6 +10,6 @@
 ---@field public inMotion Bool
 gameExtendedWorkspotInfo = {}
 
----@param fields? table
+---@param fields? gameExtendedWorkspotInfo
 ---@return gameExtendedWorkspotInfo
 function gameExtendedWorkspotInfo.new(fields) return end

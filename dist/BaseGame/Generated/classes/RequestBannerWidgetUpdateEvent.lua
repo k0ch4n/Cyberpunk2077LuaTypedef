@@ -4,6 +4,6 @@
 ---@class RequestBannerWidgetUpdateEvent: RequestWidgetUpdateEvent
 RequestBannerWidgetUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestBannerWidgetUpdateEvent
 ---@return RequestBannerWidgetUpdateEvent
 function RequestBannerWidgetUpdateEvent.new(fields) return end

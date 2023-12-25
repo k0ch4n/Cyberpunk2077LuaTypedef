@@ -4,6 +4,6 @@
 ---@class SpiderbotOrderCompletedEvent: redEvent
 SpiderbotOrderCompletedEvent = {}
 
----@param fields? table
+---@param fields? SpiderbotOrderCompletedEvent
 ---@return SpiderbotOrderCompletedEvent
 function SpiderbotOrderCompletedEvent.new(fields) return end

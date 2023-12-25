@@ -6,6 +6,6 @@
 ---@field public loop audioFoleyLoopMetadata
 audioAppearanceToFoleyLoopMetadata = {}
 
----@param fields? table
+---@param fields? audioAppearanceToFoleyLoopMetadata
 ---@return audioAppearanceToFoleyLoopMetadata
 function audioAppearanceToFoleyLoopMetadata.new(fields) return end

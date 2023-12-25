@@ -5,6 +5,6 @@
 ---@field public device Device
 RegisterDebuggerCanditateEvent = {}
 
----@param fields? table
+---@param fields? RegisterDebuggerCanditateEvent
 ---@return RegisterDebuggerCanditateEvent
 function RegisterDebuggerCanditateEvent.new(fields) return end

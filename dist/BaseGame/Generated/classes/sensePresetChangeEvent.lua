@@ -7,6 +7,6 @@
 ---@field public reset Bool
 sensePresetChangeEvent = {}
 
----@param fields? table
+---@param fields? sensePresetChangeEvent
 ---@return sensePresetChangeEvent
 function sensePresetChangeEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public locoTag CName
 animAnimNode_LocoState = {}
 
----@param fields? table
+---@param fields? animAnimNode_LocoState
 ---@return animAnimNode_LocoState
 function animAnimNode_LocoState.new(fields) return end

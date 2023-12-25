@@ -13,7 +13,7 @@
 ---@field public numberOfLoops Int32
 animAnimFeaturePlaySlotAnim = {}
 
----@param fields? table
+---@param fields? animAnimFeaturePlaySlotAnim
 ---@return animAnimFeaturePlaySlotAnim
 function animAnimFeaturePlaySlotAnim.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class questEndNodeDefinition: questStartEndNodeDefinition
 questEndNodeDefinition = {}
 
----@param fields? table
+---@param fields? questEndNodeDefinition
 ---@return questEndNodeDefinition
 function questEndNodeDefinition.new(fields) return end

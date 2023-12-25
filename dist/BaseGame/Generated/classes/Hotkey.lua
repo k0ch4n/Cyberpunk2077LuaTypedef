@@ -7,7 +7,7 @@
 ---@field private scope gamedataItemType[]
 Hotkey = {}
 
----@param fields? table
+---@param fields? Hotkey
 ---@return Hotkey
 function Hotkey.new(fields) return end
 

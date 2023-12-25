@@ -8,7 +8,7 @@
 ---@field private owner gameObject
 ChangeAppearanceEffector = {}
 
----@param fields? table
+---@param fields? ChangeAppearanceEffector
 ---@return ChangeAppearanceEffector
 function ChangeAppearanceEffector.new(fields) return end
 

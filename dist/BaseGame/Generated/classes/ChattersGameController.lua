@@ -21,7 +21,7 @@
 ---@field private OnOnDialogsDataCallback redCallbackObject
 ChattersGameController = {}
 
----@param fields? table
+---@param fields? ChattersGameController
 ---@return ChattersGameController
 function ChattersGameController.new(fields) return end
 

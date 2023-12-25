@@ -34,6 +34,6 @@
 ---@field public uiLayer4Weight Float
 fxCompositionShaderParams = {}
 
----@param fields? table
+---@param fields? fxCompositionShaderParams
 ---@return fxCompositionShaderParams
 function fxCompositionShaderParams.new(fields) return end

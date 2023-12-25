@@ -5,7 +5,7 @@
 ---@field public valueToListen EMagazineAmmoState
 AmmoStateHitTriggeredPrereq = {}
 
----@param fields? table
+---@param fields? AmmoStateHitTriggeredPrereq
 ---@return AmmoStateHitTriggeredPrereq
 function AmmoStateHitTriggeredPrereq.new(fields) return end
 

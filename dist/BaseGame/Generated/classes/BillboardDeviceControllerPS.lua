@@ -8,7 +8,7 @@
 ---@field public useDeviceAppearence Bool
 BillboardDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? BillboardDeviceControllerPS
 ---@return BillboardDeviceControllerPS
 function BillboardDeviceControllerPS.new(fields) return end
 

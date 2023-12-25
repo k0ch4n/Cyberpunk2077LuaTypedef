@@ -8,7 +8,7 @@
 ---@field public objectToCheck CName
 StatusEffectPresentHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? StatusEffectPresentHitPrereqCondition
 ---@return StatusEffectPresentHitPrereqCondition
 function StatusEffectPresentHitPrereqCondition.new(fields) return end
 

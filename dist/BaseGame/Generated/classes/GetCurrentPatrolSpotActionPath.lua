@@ -5,7 +5,7 @@
 ---@field public outPathArgument AIArgumentMapping
 GetCurrentPatrolSpotActionPath = {}
 
----@param fields? table
+---@param fields? GetCurrentPatrolSpotActionPath
 ---@return GetCurrentPatrolSpotActionPath
 function GetCurrentPatrolSpotActionPath.new(fields) return end
 

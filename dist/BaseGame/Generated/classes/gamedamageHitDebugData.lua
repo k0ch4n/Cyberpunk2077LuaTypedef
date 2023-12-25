@@ -20,6 +20,6 @@
 ---@field public hitFlags CName
 gamedamageHitDebugData = {}
 
----@param fields? table
+---@param fields? gamedamageHitDebugData
 ---@return gamedamageHitDebugData
 function gamedamageHitDebugData.new(fields) return end

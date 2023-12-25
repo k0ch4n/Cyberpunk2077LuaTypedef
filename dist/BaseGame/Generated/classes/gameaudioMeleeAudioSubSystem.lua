@@ -4,6 +4,6 @@
 ---@class gameaudioMeleeAudioSubSystem: gameaudioIWeaponAudioComponentSubSystem
 gameaudioMeleeAudioSubSystem = {}
 
----@param fields? table
+---@param fields? gameaudioMeleeAudioSubSystem
 ---@return gameaudioMeleeAudioSubSystem
 function gameaudioMeleeAudioSubSystem.new(fields) return end

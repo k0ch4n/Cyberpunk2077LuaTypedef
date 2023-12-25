@@ -4,6 +4,6 @@
 ---@class AIbehaviorInstance
 AIbehaviorInstance = {}
 
----@param fields? table
+---@param fields? AIbehaviorInstance
 ---@return AIbehaviorInstance
 function AIbehaviorInstance.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ItemModeGridClassifier: inkVirtualItemTemplateClassifierWrapper
 ItemModeGridClassifier = {}
 
----@param fields? table
+---@param fields? ItemModeGridClassifier
 ---@return ItemModeGridClassifier
 function ItemModeGridClassifier.new(fields) return end
 

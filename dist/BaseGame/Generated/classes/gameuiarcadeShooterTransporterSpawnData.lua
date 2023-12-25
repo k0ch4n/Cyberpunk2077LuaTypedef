@@ -7,6 +7,6 @@
 ---@field public count Int32
 gameuiarcadeShooterTransporterSpawnData = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterTransporterSpawnData
 ---@return gameuiarcadeShooterTransporterSpawnData
 function gameuiarcadeShooterTransporterSpawnData.new(fields) return end

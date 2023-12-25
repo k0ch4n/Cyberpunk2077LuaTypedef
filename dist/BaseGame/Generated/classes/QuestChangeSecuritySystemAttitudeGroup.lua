@@ -5,7 +5,7 @@
 ---@field public newAttitudeGroup TweakDBID
 QuestChangeSecuritySystemAttitudeGroup = {}
 
----@param fields? table
+---@param fields? QuestChangeSecuritySystemAttitudeGroup
 ---@return QuestChangeSecuritySystemAttitudeGroup
 function QuestChangeSecuritySystemAttitudeGroup.new(fields) return end
 

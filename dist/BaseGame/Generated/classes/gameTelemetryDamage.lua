@@ -12,6 +12,6 @@
 ---@field public time Float
 gameTelemetryDamage = {}
 
----@param fields? table
+---@param fields? gameTelemetryDamage
 ---@return gameTelemetryDamage
 function gameTelemetryDamage.new(fields) return end

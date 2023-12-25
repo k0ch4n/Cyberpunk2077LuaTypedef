@@ -7,7 +7,7 @@
 ---@field private progressionBuildUpdated Bool
 PlayerDevelopmentSystem = {}
 
----@param fields? table
+---@param fields? PlayerDevelopmentSystem
 ---@return PlayerDevelopmentSystem
 function PlayerDevelopmentSystem.new(fields) return end
 

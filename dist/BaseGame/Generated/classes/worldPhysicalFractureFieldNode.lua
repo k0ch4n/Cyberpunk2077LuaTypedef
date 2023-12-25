@@ -6,6 +6,6 @@
 ---@field public fractureFieldParams physicsFractureFieldParams
 worldPhysicalFractureFieldNode = {}
 
----@param fields? table
+---@param fields? worldPhysicalFractureFieldNode
 ---@return worldPhysicalFractureFieldNode
 function worldPhysicalFractureFieldNode.new(fields) return end

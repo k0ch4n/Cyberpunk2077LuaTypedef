@@ -4,6 +4,6 @@
 ---@class worldQuestPreventionNotifierInstance: worldITriggerAreaNotiferInstance
 worldQuestPreventionNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldQuestPreventionNotifierInstance
 ---@return worldQuestPreventionNotifierInstance
 function worldQuestPreventionNotifierInstance.new(fields) return end

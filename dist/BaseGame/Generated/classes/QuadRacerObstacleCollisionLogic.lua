@@ -4,7 +4,7 @@
 ---@class QuadRacerObstacleCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 QuadRacerObstacleCollisionLogic = {}
 
----@param fields? table
+---@param fields? QuadRacerObstacleCollisionLogic
 ---@return QuadRacerObstacleCollisionLogic
 function QuadRacerObstacleCollisionLogic.new(fields) return end
 

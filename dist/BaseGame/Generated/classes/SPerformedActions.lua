@@ -6,7 +6,7 @@
 ---@field public ActionContext EActionContext[]
 SPerformedActions = {}
 
----@param fields? table
+---@param fields? SPerformedActions
 ---@return SPerformedActions
 function SPerformedActions.new(fields) return end
 

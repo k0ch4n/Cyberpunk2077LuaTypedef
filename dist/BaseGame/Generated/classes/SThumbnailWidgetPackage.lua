@@ -6,6 +6,6 @@
 ---@field public deviceStatus String
 SThumbnailWidgetPackage = {}
 
----@param fields? table
+---@param fields? SThumbnailWidgetPackage
 ---@return SThumbnailWidgetPackage
 function SThumbnailWidgetPackage.new(fields) return end

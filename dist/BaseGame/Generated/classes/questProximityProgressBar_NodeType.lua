@@ -13,6 +13,6 @@
 ---@field public appearance CName
 questProximityProgressBar_NodeType = {}
 
----@param fields? table
+---@param fields? questProximityProgressBar_NodeType
 ---@return questProximityProgressBar_NodeType
 function questProximityProgressBar_NodeType.new(fields) return end

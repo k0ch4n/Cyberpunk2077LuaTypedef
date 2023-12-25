@@ -4,6 +4,6 @@
 ---@class AIbehavioreventResolverScript: IScriptable
 AIbehavioreventResolverScript = {}
 
----@param fields? table
+---@param fields? AIbehavioreventResolverScript
 ---@return AIbehavioreventResolverScript
 function AIbehavioreventResolverScript.new(fields) return end

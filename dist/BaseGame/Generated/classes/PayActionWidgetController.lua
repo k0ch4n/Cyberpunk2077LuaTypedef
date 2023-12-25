@@ -10,7 +10,7 @@
 ---@field private isProcessingPayment Bool
 PayActionWidgetController = {}
 
----@param fields? table
+---@param fields? PayActionWidgetController
 ---@return PayActionWidgetController
 function PayActionWidgetController.new(fields) return end
 

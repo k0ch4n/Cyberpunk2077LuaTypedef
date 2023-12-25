@@ -5,6 +5,6 @@
 ---@field public targetID entEntityID
 ForceBlackwallKillNPCSEvent = {}
 
----@param fields? table
+---@param fields? ForceBlackwallKillNPCSEvent
 ---@return ForceBlackwallKillNPCSEvent
 function ForceBlackwallKillNPCSEvent.new(fields) return end

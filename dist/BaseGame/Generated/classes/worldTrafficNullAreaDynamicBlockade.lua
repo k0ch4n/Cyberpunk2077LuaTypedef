@@ -8,6 +8,6 @@
 ---@field public permanentlyEnabledByDefault Bool
 worldTrafficNullAreaDynamicBlockade = {}
 
----@param fields? table
+---@param fields? worldTrafficNullAreaDynamicBlockade
 ---@return worldTrafficNullAreaDynamicBlockade
 function worldTrafficNullAreaDynamicBlockade.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public device ScriptableDeviceComponentPS
 NewBackdoorDeviceRequest = {}
 
----@param fields? table
+---@param fields? NewBackdoorDeviceRequest
 ---@return NewBackdoorDeviceRequest
 function NewBackdoorDeviceRequest.new(fields) return end

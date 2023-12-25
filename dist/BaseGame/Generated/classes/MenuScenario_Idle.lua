@@ -4,7 +4,7 @@
 ---@class MenuScenario_Idle: inkMenuScenario
 MenuScenario_Idle = {}
 
----@param fields? table
+---@param fields? MenuScenario_Idle
 ---@return MenuScenario_Idle
 function MenuScenario_Idle.new(fields) return end
 

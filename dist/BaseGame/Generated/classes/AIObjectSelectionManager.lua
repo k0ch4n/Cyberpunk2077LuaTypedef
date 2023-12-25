@@ -4,6 +4,6 @@
 ---@class AIObjectSelectionManager: AIObjectSelectionManagerInterface
 AIObjectSelectionManager = {}
 
----@param fields? table
+---@param fields? AIObjectSelectionManager
 ---@return AIObjectSelectionManager
 function AIObjectSelectionManager.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkHyperlinkCallback: inkCallbackBase
 inkHyperlinkCallback = {}
 
----@param fields? table
+---@param fields? inkHyperlinkCallback
 ---@return inkHyperlinkCallback
 function inkHyperlinkCallback.new(fields) return end

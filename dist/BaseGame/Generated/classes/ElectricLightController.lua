@@ -4,7 +4,7 @@
 ---@class ElectricLightController: ScriptableDeviceComponent
 ElectricLightController = {}
 
----@param fields? table
+---@param fields? ElectricLightController
 ---@return ElectricLightController
 function ElectricLightController.new(fields) return end
 

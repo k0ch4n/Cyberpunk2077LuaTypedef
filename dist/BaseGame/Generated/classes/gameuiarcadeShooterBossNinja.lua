@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterBossNinja: gameuiarcadeShooterBossController
 gameuiarcadeShooterBossNinja = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterBossNinja
 ---@return gameuiarcadeShooterBossNinja
 function gameuiarcadeShooterBossNinja.new(fields) return end

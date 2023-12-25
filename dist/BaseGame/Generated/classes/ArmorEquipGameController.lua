@@ -47,7 +47,7 @@
 ---@field protected operationsMode operationsMode
 ArmorEquipGameController = {}
 
----@param fields? table
+---@param fields? ArmorEquipGameController
 ---@return ArmorEquipGameController
 function ArmorEquipGameController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public active Bool
 ToggleChargeHighlightEvent = {}
 
----@param fields? table
+---@param fields? ToggleChargeHighlightEvent
 ---@return ToggleChargeHighlightEvent
 function ToggleChargeHighlightEvent.new(fields) return end

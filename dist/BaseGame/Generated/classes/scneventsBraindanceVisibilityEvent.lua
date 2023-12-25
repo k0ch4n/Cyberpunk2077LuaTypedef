@@ -13,6 +13,6 @@
 ---@field public renderSettingsTPP WorldRenderAreaSettings
 scneventsBraindanceVisibilityEvent = {}
 
----@param fields? table
+---@param fields? scneventsBraindanceVisibilityEvent
 ---@return scneventsBraindanceVisibilityEvent
 function scneventsBraindanceVisibilityEvent.new(fields) return end

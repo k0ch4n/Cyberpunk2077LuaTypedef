@@ -15,6 +15,6 @@
 ---@field public reminderParams scnChoiceNodeNsReminderParams
 scnReminderCondition = {}
 
----@param fields? table
+---@param fields? scnReminderCondition
 ---@return scnReminderCondition
 function scnReminderCondition.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public entityRef gameEntityReference
 questUpdateEntityHealthListenersEvent = {}
 
----@param fields? table
+---@param fields? questUpdateEntityHealthListenersEvent
 ---@return questUpdateEntityHealthListenersEvent
 function questUpdateEntityHealthListenersEvent.new(fields) return end

@@ -22,7 +22,7 @@
 ---@field private isProcessingPurchase Bool
 ExpansionPopupGameController = {}
 
----@param fields? table
+---@param fields? ExpansionPopupGameController
 ---@return ExpansionPopupGameController
 function ExpansionPopupGameController.new(fields) return end
 

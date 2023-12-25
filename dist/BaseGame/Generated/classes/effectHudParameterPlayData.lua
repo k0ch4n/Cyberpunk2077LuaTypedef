@@ -4,6 +4,6 @@
 ---@class effectHudParameterPlayData: effectVisualComponentTrackItemPlayData
 effectHudParameterPlayData = {}
 
----@param fields? table
+---@param fields? effectHudParameterPlayData
 ---@return effectHudParameterPlayData
 function effectHudParameterPlayData.new(fields) return end

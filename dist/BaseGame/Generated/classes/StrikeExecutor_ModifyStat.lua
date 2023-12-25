@@ -4,7 +4,7 @@
 ---@class StrikeExecutor_ModifyStat: gameEffectExecutor_Scripted
 StrikeExecutor_ModifyStat = {}
 
----@param fields? table
+---@param fields? StrikeExecutor_ModifyStat
 ---@return StrikeExecutor_ModifyStat
 function StrikeExecutor_ModifyStat.new(fields) return end
 

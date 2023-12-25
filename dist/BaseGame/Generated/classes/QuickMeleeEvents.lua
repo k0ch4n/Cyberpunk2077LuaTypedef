@@ -9,7 +9,7 @@
 ---@field public quickMeleeAttackData QuickMeleeAttackData
 QuickMeleeEvents = {}
 
----@param fields? table
+---@param fields? QuickMeleeEvents
 ---@return QuickMeleeEvents
 function QuickMeleeEvents.new(fields) return end
 

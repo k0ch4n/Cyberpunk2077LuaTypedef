@@ -4,7 +4,7 @@
 ---@class IsReprimandOngoing: AIAutonomousConditions
 IsReprimandOngoing = {}
 
----@param fields? table
+---@param fields? IsReprimandOngoing
 ---@return IsReprimandOngoing
 function IsReprimandOngoing.new(fields) return end
 

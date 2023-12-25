@@ -4,7 +4,7 @@
 ---@class IceMachineController: VendingMachineController
 IceMachineController = {}
 
----@param fields? table
+---@param fields? IceMachineController
 ---@return IceMachineController
 function IceMachineController.new(fields) return end
 

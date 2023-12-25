@@ -9,6 +9,6 @@
 ---@field public role gameMountingSlotRole
 questMountedObjectInfo = {}
 
----@param fields? table
+---@param fields? questMountedObjectInfo
 ---@return questMountedObjectInfo
 function questMountedObjectInfo.new(fields) return end

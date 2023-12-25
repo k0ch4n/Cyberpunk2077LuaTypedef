@@ -4,7 +4,7 @@
 ---@class AxisInputEvent: KeyInputEvent
 AxisInputEvent = {}
 
----@param fields? table
+---@param fields? AxisInputEvent
 ---@return AxisInputEvent
 function AxisInputEvent.new(fields) return end
 

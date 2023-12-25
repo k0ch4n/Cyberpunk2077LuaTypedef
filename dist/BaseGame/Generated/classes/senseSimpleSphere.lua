@@ -5,6 +5,6 @@
 ---@field public sphere Sphere
 senseSimpleSphere = {}
 
----@param fields? table
+---@param fields? senseSimpleSphere
 ---@return senseSimpleSphere
 function senseSimpleSphere.new(fields) return end

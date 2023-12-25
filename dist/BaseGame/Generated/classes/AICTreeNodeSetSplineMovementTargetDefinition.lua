@@ -6,6 +6,6 @@
 ---@field public movementTarget LibTreeSharedVarRegistrationName
 AICTreeNodeSetSplineMovementTargetDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeSetSplineMovementTargetDefinition
 ---@return AICTreeNodeSetSplineMovementTargetDefinition
 function AICTreeNodeSetSplineMovementTargetDefinition.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field protected meshAppearanceNameOFF CName
 BasicDistractionDevice = {}
 
----@param fields? table
+---@param fields? BasicDistractionDevice
 ---@return BasicDistractionDevice
 function BasicDistractionDevice.new(fields) return end
 

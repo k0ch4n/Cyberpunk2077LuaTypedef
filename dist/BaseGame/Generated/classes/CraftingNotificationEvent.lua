@@ -6,6 +6,6 @@
 ---@field public perkName String
 CraftingNotificationEvent = {}
 
----@param fields? table
+---@param fields? CraftingNotificationEvent
 ---@return CraftingNotificationEvent
 function CraftingNotificationEvent.new(fields) return end

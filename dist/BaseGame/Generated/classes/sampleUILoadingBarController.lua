@@ -11,7 +11,7 @@
 ---@field private textWidget inkTextWidget
 sampleUILoadingBarController = {}
 
----@param fields? table
+---@param fields? sampleUILoadingBarController
 ---@return sampleUILoadingBarController
 function sampleUILoadingBarController.new(fields) return end
 

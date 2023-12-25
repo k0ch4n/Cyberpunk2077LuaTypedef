@@ -6,7 +6,7 @@
 ---@field private forceHighlightTargets entEntityID[]
 GameEffectTargetVisualizationData = {}
 
----@param fields? table
+---@param fields? GameEffectTargetVisualizationData
 ---@return GameEffectTargetVisualizationData
 function GameEffectTargetVisualizationData.new(fields) return end
 

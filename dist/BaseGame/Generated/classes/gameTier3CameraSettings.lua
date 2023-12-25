@@ -10,6 +10,6 @@
 ---@field public yawSpeedMultiplier Float
 gameTier3CameraSettings = {}
 
----@param fields? table
+---@param fields? gameTier3CameraSettings
 ---@return gameTier3CameraSettings
 function gameTier3CameraSettings.new(fields) return end

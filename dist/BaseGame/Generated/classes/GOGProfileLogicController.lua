@@ -5,7 +5,7 @@
 ---@field public gogMenuState EGOGMenuState
 GOGProfileLogicController = {}
 
----@param fields? table
+---@param fields? GOGProfileLogicController
 ---@return GOGProfileLogicController
 function GOGProfileLogicController.new(fields) return end
 

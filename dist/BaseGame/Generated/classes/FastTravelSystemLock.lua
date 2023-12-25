@@ -6,6 +6,6 @@
 ---@field public linkedStatusEffectID TweakDBID
 FastTravelSystemLock = {}
 
----@param fields? table
+---@param fields? FastTravelSystemLock
 ---@return FastTravelSystemLock
 function FastTravelSystemLock.new(fields) return end

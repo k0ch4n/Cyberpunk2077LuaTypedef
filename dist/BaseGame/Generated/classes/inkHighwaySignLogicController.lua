@@ -8,6 +8,6 @@
 ---@field public metroStationIconRight inkImageWidgetReference
 inkHighwaySignLogicController = {}
 
----@param fields? table
+---@param fields? inkHighwaySignLogicController
 ---@return inkHighwaySignLogicController
 function inkHighwaySignLogicController.new(fields) return end

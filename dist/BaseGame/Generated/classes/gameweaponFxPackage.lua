@@ -4,7 +4,7 @@
 ---@class gameweaponFxPackage: gameweaponIFxPackage
 gameweaponFxPackage = {}
 
----@param fields? table
+---@param fields? gameweaponFxPackage
 ---@return gameweaponFxPackage
 function gameweaponFxPackage.new(fields) return end
 

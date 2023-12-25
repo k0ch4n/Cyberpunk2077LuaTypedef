@@ -6,6 +6,6 @@
 ---@field public door vehicleEVehicleDoor
 vehicleChangeWindowStateEvent = {}
 
----@param fields? table
+---@param fields? vehicleChangeWindowStateEvent
 ---@return vehicleChangeWindowStateEvent
 function vehicleChangeWindowStateEvent.new(fields) return end

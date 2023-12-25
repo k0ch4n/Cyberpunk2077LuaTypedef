@@ -6,7 +6,7 @@
 ---@field private bountyNotification CName
 BountyCollectedNotificationQueue = {}
 
----@param fields? table
+---@param fields? BountyCollectedNotificationQueue
 ---@return BountyCollectedNotificationQueue
 function BountyCollectedNotificationQueue.new(fields) return end
 

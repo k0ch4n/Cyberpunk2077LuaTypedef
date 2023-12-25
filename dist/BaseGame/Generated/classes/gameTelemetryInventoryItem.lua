@@ -12,6 +12,6 @@
 ---@field public isSilenced Bool
 gameTelemetryInventoryItem = {}
 
----@param fields? table
+---@param fields? gameTelemetryInventoryItem
 ---@return gameTelemetryInventoryItem
 function gameTelemetryInventoryItem.new(fields) return end

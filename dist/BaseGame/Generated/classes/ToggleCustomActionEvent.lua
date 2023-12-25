@@ -6,6 +6,6 @@
 ---@field public enabled Bool
 ToggleCustomActionEvent = {}
 
----@param fields? table
+---@param fields? ToggleCustomActionEvent
 ---@return ToggleCustomActionEvent
 function ToggleCustomActionEvent.new(fields) return end

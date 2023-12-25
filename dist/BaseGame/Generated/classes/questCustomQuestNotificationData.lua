@@ -8,6 +8,6 @@
 ---@field public fluffHeader String
 questCustomQuestNotificationData = {}
 
----@param fields? table
+---@param fields? questCustomQuestNotificationData
 ---@return questCustomQuestNotificationData
 function questCustomQuestNotificationData.new(fields) return end

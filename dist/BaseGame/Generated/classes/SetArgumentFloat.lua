@@ -5,7 +5,7 @@
 ---@field public customVar Float
 SetArgumentFloat = {}
 
----@param fields? table
+---@param fields? SetArgumentFloat
 ---@return SetArgumentFloat
 function SetArgumentFloat.new(fields) return end
 

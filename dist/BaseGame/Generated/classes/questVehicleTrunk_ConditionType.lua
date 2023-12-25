@@ -11,6 +11,6 @@
 ---@field public isInside Bool
 questVehicleTrunk_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleTrunk_ConditionType
 ---@return questVehicleTrunk_ConditionType
 function questVehicleTrunk_ConditionType.new(fields) return end

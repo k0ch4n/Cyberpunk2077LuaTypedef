@@ -9,7 +9,7 @@
 ---@field public Pins gamebbScriptID_Variant
 UI_CompassInfoDef = {}
 
----@param fields? table
+---@param fields? UI_CompassInfoDef
 ---@return UI_CompassInfoDef
 function UI_CompassInfoDef.new(fields) return end
 

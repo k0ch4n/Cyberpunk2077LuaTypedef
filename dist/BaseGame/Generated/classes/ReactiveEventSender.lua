@@ -8,7 +8,7 @@
 ---@field public reactiveType CName
 ReactiveEventSender = {}
 
----@param fields? table
+---@param fields? ReactiveEventSender
 ---@return ReactiveEventSender
 function ReactiveEventSender.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public isVisible Bool
 gameeventsObjectMarkerVisibilityUpdated = {}
 
----@param fields? table
+---@param fields? gameeventsObjectMarkerVisibilityUpdated
 ---@return gameeventsObjectMarkerVisibilityUpdated
 function gameeventsObjectMarkerVisibilityUpdated.new(fields) return end

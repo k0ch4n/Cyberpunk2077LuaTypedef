@@ -7,6 +7,6 @@
 ---@field public falseBranch LibTreeINodeDefinition
 ExpressionTreeCGeneralIfNodeDefinition = {}
 
----@param fields? table
+---@param fields? ExpressionTreeCGeneralIfNodeDefinition
 ---@return ExpressionTreeCGeneralIfNodeDefinition
 function ExpressionTreeCGeneralIfNodeDefinition.new(fields) return end

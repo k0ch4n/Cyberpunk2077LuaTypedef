@@ -8,6 +8,6 @@
 ---@field public attitude EAIAttitude
 questCharacterManagerParameters_SetGroupsAttitude = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetGroupsAttitude
 ---@return questCharacterManagerParameters_SetGroupsAttitude
 function questCharacterManagerParameters_SetGroupsAttitude.new(fields) return end

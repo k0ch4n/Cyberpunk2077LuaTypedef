@@ -4,7 +4,7 @@
 ---@class gameStimuliSystem: gameIStimuliSystem
 gameStimuliSystem = {}
 
----@param fields? table
+---@param fields? gameStimuliSystem
 ---@return gameStimuliSystem
 function gameStimuliSystem.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AIDeviceFeedbackData: AIbehaviortaskScript
 AIDeviceFeedbackData = {}
 
----@param fields? table
+---@param fields? AIDeviceFeedbackData
 ---@return AIDeviceFeedbackData
 function AIDeviceFeedbackData.new(fields) return end
 

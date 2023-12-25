@@ -4,7 +4,7 @@
 ---@class gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record
 ---@return gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record
 function gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record.new(fields) return end
 

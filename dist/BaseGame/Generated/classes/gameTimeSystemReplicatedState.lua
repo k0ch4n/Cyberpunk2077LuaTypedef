@@ -6,6 +6,6 @@
 ---@field public gameTime GameTime
 gameTimeSystemReplicatedState = {}
 
----@param fields? table
+---@param fields? gameTimeSystemReplicatedState
 ---@return gameTimeSystemReplicatedState
 function gameTimeSystemReplicatedState.new(fields) return end

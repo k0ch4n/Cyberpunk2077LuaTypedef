@@ -5,6 +5,6 @@
 ---@field public objectThatNoticed gameObject
 OnBeingNoticed = {}
 
----@param fields? table
+---@param fields? OnBeingNoticed
 ---@return OnBeingNoticed
 function OnBeingNoticed.new(fields) return end

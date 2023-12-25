@@ -7,6 +7,6 @@
 ---@field public surfaceOnly Bool
 CParticleInitializerSpawnBox = {}
 
----@param fields? table
+---@param fields? CParticleInitializerSpawnBox
 ---@return CParticleInitializerSpawnBox
 function CParticleInitializerSpawnBox.new(fields) return end

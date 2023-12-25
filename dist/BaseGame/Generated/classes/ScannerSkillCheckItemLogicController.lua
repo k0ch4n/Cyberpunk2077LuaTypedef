@@ -10,7 +10,7 @@
 ---@field private FailedStateName CName
 ScannerSkillCheckItemLogicController = {}
 
----@param fields? table
+---@param fields? ScannerSkillCheckItemLogicController
 ---@return ScannerSkillCheckItemLogicController
 function ScannerSkillCheckItemLogicController.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public useOffMeshLinkReservation AIArgumentMapping
 AIbehaviorPatrolActionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPatrolActionNodeDefinition
 ---@return AIbehaviorPatrolActionNodeDefinition
 function AIbehaviorPatrolActionNodeDefinition.new(fields) return end

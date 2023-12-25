@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 scnVarComparison_FactConditionTypeParams = {}
 
----@param fields? table
+---@param fields? scnVarComparison_FactConditionTypeParams
 ---@return scnVarComparison_FactConditionTypeParams
 function scnVarComparison_FactConditionTypeParams.new(fields) return end

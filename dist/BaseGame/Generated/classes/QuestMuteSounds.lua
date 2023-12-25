@@ -4,7 +4,7 @@
 ---@class QuestMuteSounds: ActionBool
 QuestMuteSounds = {}
 
----@param fields? table
+---@param fields? QuestMuteSounds
 ---@return QuestMuteSounds
 function QuestMuteSounds.new(fields) return end
 

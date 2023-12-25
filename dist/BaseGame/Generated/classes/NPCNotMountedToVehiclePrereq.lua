@@ -4,7 +4,7 @@
 ---@class NPCNotMountedToVehiclePrereq: gameIScriptablePrereq
 NPCNotMountedToVehiclePrereq = {}
 
----@param fields? table
+---@param fields? NPCNotMountedToVehiclePrereq
 ---@return NPCNotMountedToVehiclePrereq
 function NPCNotMountedToVehiclePrereq.new(fields) return end
 

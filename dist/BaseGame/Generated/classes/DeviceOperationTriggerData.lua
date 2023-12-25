@@ -5,6 +5,6 @@
 ---@field public operationsToExecute OperationExecutionData[]
 DeviceOperationTriggerData = {}
 
----@param fields? table
+---@param fields? DeviceOperationTriggerData
 ---@return DeviceOperationTriggerData
 function DeviceOperationTriggerData.new(fields) return end

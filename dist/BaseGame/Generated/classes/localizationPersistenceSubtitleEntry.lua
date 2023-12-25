@@ -7,6 +7,6 @@
 ---@field public maleVariant String
 localizationPersistenceSubtitleEntry = {}
 
----@param fields? table
+---@param fields? localizationPersistenceSubtitleEntry
 ---@return localizationPersistenceSubtitleEntry
 function localizationPersistenceSubtitleEntry.new(fields) return end

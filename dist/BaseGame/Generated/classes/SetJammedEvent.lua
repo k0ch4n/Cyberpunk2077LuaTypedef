@@ -6,6 +6,6 @@
 ---@field public instigator gameweaponObject
 SetJammedEvent = {}
 
----@param fields? table
+---@param fields? SetJammedEvent
 ---@return SetJammedEvent
 function SetJammedEvent.new(fields) return end

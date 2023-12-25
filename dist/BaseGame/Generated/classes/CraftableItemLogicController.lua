@@ -10,7 +10,7 @@
 ---@field private displayToCreate CName
 CraftableItemLogicController = {}
 
----@param fields? table
+---@param fields? CraftableItemLogicController
 ---@return CraftableItemLogicController
 function CraftableItemLogicController.new(fields) return end
 

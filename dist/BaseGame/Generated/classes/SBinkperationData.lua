@@ -8,6 +8,6 @@
 ---@field public operationType EBinkOperationType
 SBinkperationData = {}
 
----@param fields? table
+---@param fields? SBinkperationData
 ---@return SBinkperationData
 function SBinkperationData.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private libraryPath inkWidgetLibraryReference
 ClothingSetIconsPopup = {}
 
----@param fields? table
+---@param fields? ClothingSetIconsPopup
 ---@return ClothingSetIconsPopup
 function ClothingSetIconsPopup.new(fields) return end
 

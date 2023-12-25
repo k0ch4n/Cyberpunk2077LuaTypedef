@@ -12,7 +12,7 @@
 ---@field private token inkTextWidget
 FindServersMenuGameController = {}
 
----@param fields? table
+---@param fields? FindServersMenuGameController
 ---@return FindServersMenuGameController
 function FindServersMenuGameController.new(fields) return end
 

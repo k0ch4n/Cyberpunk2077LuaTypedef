@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionQueueAIEvent_Record: gamedataAISubAction_Record
 gamedataAISubActionQueueAIEvent_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionQueueAIEvent_Record
 ---@return gamedataAISubActionQueueAIEvent_Record
 function gamedataAISubActionQueueAIEvent_Record.new(fields) return end
 

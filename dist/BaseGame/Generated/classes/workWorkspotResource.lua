@@ -5,6 +5,6 @@
 ---@field public workspotTree workWorkspotTree
 workWorkspotResource = {}
 
----@param fields? table
+---@param fields? workWorkspotResource
 ---@return workWorkspotResource
 function workWorkspotResource.new(fields) return end

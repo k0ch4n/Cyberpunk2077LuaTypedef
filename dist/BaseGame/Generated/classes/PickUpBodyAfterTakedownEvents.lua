@@ -4,7 +4,7 @@
 ---@class PickUpBodyAfterTakedownEvents: LocomotionTakedownEvents
 PickUpBodyAfterTakedownEvents = {}
 
----@param fields? table
+---@param fields? PickUpBodyAfterTakedownEvents
 ---@return PickUpBodyAfterTakedownEvents
 function PickUpBodyAfterTakedownEvents.new(fields) return end
 

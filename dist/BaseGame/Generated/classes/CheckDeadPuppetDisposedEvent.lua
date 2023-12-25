@@ -4,6 +4,6 @@
 ---@class CheckDeadPuppetDisposedEvent: redEvent
 CheckDeadPuppetDisposedEvent = {}
 
----@param fields? table
+---@param fields? CheckDeadPuppetDisposedEvent
 ---@return CheckDeadPuppetDisposedEvent
 function CheckDeadPuppetDisposedEvent.new(fields) return end

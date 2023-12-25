@@ -12,7 +12,7 @@
 ---@field public DataSetByToken inkEmptyCallback
 inkGenericSystemNotificationLogicController = {}
 
----@param fields? table
+---@param fields? inkGenericSystemNotificationLogicController
 ---@return inkGenericSystemNotificationLogicController
 function inkGenericSystemNotificationLogicController.new(fields) return end
 

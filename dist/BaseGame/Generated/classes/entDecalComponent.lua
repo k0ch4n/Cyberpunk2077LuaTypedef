@@ -20,6 +20,6 @@
 ---@field public isEnabled Bool
 entDecalComponent = {}
 
----@param fields? table
+---@param fields? entDecalComponent
 ---@return entDecalComponent
 function entDecalComponent.new(fields) return end

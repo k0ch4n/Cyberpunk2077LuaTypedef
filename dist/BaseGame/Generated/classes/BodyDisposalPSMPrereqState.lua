@@ -4,6 +4,6 @@
 ---@class BodyDisposalPSMPrereqState: PlayerStateMachinePrereqState
 BodyDisposalPSMPrereqState = {}
 
----@param fields? table
+---@param fields? BodyDisposalPSMPrereqState
 ---@return BodyDisposalPSMPrereqState
 function BodyDisposalPSMPrereqState.new(fields) return end

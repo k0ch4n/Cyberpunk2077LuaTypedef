@@ -5,7 +5,7 @@
 ---@field public items SInventoryOperationData[]
 ItemsDeviceOperation = {}
 
----@param fields? table
+---@param fields? ItemsDeviceOperation
 ---@return ItemsDeviceOperation
 function ItemsDeviceOperation.new(fields) return end
 

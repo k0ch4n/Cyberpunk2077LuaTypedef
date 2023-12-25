@@ -5,7 +5,7 @@
 ---@field public usingCover Bool
 ActivateCoverEvents = {}
 
----@param fields? table
+---@param fields? ActivateCoverEvents
 ---@return ActivateCoverEvents
 function ActivateCoverEvents.new(fields) return end
 

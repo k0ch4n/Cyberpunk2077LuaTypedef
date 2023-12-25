@@ -7,6 +7,6 @@
 ---@field public networkRef gameEntityReference
 questMinigameNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMinigameNodeDefinition
 ---@return questMinigameNodeDefinition
 function questMinigameNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamePlayerTakeControlAsParent: redEvent
 gamePlayerTakeControlAsParent = {}
 
----@param fields? table
+---@param fields? gamePlayerTakeControlAsParent
 ---@return gamePlayerTakeControlAsParent
 function gamePlayerTakeControlAsParent.new(fields) return end

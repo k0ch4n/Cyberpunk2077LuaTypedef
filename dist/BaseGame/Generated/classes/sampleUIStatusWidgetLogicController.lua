@@ -8,7 +8,7 @@
 ---@field private iconWidget inkRectangleWidget
 sampleUIStatusWidgetLogicController = {}
 
----@param fields? table
+---@param fields? sampleUIStatusWidgetLogicController
 ---@return sampleUIStatusWidgetLogicController
 function sampleUIStatusWidgetLogicController.new(fields) return end
 

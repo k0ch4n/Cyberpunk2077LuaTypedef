@@ -4,6 +4,6 @@
 ---@class AISystemImpl: AIISystem
 AISystemImpl = {}
 
----@param fields? table
+---@param fields? AISystemImpl
 ---@return AISystemImpl
 function AISystemImpl.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class TurretEndEvents: TurretTransition
 TurretEndEvents = {}
 
----@param fields? table
+---@param fields? TurretEndEvents
 ---@return TurretEndEvents
 function TurretEndEvents.new(fields) return end
 

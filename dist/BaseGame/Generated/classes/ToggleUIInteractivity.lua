@@ -5,7 +5,7 @@
 ---@field public isInteractive Bool
 ToggleUIInteractivity = {}
 
----@param fields? table
+---@param fields? ToggleUIInteractivity
 ---@return ToggleUIInteractivity
 function ToggleUIInteractivity.new(fields) return end
 

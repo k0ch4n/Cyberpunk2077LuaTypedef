@@ -5,6 +5,6 @@
 ---@field public toggle Bool
 AdvanceInteractionStateResolveEvent = {}
 
----@param fields? table
+---@param fields? AdvanceInteractionStateResolveEvent
 ---@return AdvanceInteractionStateResolveEvent
 function AdvanceInteractionStateResolveEvent.new(fields) return end

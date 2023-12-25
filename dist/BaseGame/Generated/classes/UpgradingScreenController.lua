@@ -13,7 +13,7 @@
 ---@field private DELAYED_TOOLTIP_RIGHT Float
 UpgradingScreenController = {}
 
----@param fields? table
+---@param fields? UpgradingScreenController
 ---@return UpgradingScreenController
 function UpgradingScreenController.new(fields) return end
 

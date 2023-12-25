@@ -4,6 +4,6 @@
 ---@class tickScriptTimeDilationListener: tickITimeDilationListener
 tickScriptTimeDilationListener = {}
 
----@param fields? table
+---@param fields? tickScriptTimeDilationListener
 ---@return tickScriptTimeDilationListener
 function tickScriptTimeDilationListener.new(fields) return end

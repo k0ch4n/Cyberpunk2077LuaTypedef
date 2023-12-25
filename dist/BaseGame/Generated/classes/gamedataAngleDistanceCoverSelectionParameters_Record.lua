@@ -4,7 +4,7 @@
 ---@class gamedataAngleDistanceCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataAngleDistanceCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataAngleDistanceCoverSelectionParameters_Record
 ---@return gamedataAngleDistanceCoverSelectionParameters_Record
 function gamedataAngleDistanceCoverSelectionParameters_Record.new(fields) return end
 

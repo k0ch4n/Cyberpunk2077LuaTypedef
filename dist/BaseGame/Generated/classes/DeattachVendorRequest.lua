@@ -4,6 +4,6 @@
 ---@class DeattachVendorRequest: MarketSystemRequest
 DeattachVendorRequest = {}
 
----@param fields? table
+---@param fields? DeattachVendorRequest
 ---@return DeattachVendorRequest
 function DeattachVendorRequest.new(fields) return end

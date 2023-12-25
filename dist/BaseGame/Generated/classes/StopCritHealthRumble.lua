@@ -4,6 +4,6 @@
 ---@class StopCritHealthRumble: redEvent
 StopCritHealthRumble = {}
 
----@param fields? table
+---@param fields? StopCritHealthRumble
 ---@return StopCritHealthRumble
 function StopCritHealthRumble.new(fields) return end

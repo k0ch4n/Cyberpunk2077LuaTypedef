@@ -6,7 +6,7 @@
 ---@field private valueToListen Uint32
 EntityNoticedPlayerPrereq = {}
 
----@param fields? table
+---@param fields? EntityNoticedPlayerPrereq
 ---@return EntityNoticedPlayerPrereq
 function EntityNoticedPlayerPrereq.new(fields) return end
 

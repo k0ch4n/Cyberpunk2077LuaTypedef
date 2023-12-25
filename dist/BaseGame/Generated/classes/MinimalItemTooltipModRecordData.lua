@@ -7,6 +7,6 @@
 ---@field public attunementData MinimalItemTooltipModsAttunementData
 MinimalItemTooltipModRecordData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipModRecordData
 ---@return MinimalItemTooltipModRecordData
 function MinimalItemTooltipModRecordData.new(fields) return end

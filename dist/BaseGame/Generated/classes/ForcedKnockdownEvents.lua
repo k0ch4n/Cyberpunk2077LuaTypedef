@@ -5,7 +5,7 @@
 ---@field public firstUpdate Bool
 ForcedKnockdownEvents = {}
 
----@param fields? table
+---@param fields? ForcedKnockdownEvents
 ---@return ForcedKnockdownEvents
 function ForcedKnockdownEvents.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class SmokeMachineController: BasicDistractionDeviceController
 SmokeMachineController = {}
 
----@param fields? table
+---@param fields? SmokeMachineController
 ---@return SmokeMachineController
 function SmokeMachineController.new(fields) return end
 

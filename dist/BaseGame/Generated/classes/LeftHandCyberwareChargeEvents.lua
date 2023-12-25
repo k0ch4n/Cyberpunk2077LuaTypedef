@@ -7,7 +7,7 @@
 ---@field private aimInTimeRemaining Float
 LeftHandCyberwareChargeEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareChargeEvents
 ---@return LeftHandCyberwareChargeEvents
 function LeftHandCyberwareChargeEvents.new(fields) return end
 

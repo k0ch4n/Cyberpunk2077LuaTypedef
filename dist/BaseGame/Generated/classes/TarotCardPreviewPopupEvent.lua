@@ -5,6 +5,6 @@
 ---@field public data TarotCardPreviewData
 TarotCardPreviewPopupEvent = {}
 
----@param fields? table
+---@param fields? TarotCardPreviewPopupEvent
 ---@return TarotCardPreviewPopupEvent
 function TarotCardPreviewPopupEvent.new(fields) return end

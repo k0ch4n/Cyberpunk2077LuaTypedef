@@ -5,6 +5,6 @@
 ---@field public represenationOverride gameHitShapeContainer
 gameHitRepresentationOverride = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationOverride
 ---@return gameHitRepresentationOverride
 function gameHitRepresentationOverride.new(fields) return end

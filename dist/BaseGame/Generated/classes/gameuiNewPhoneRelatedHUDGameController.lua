@@ -10,7 +10,7 @@
 ---@field protected remoteControlledVehicleDataCallback redCallbackObject
 gameuiNewPhoneRelatedHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiNewPhoneRelatedHUDGameController
 ---@return gameuiNewPhoneRelatedHUDGameController
 function gameuiNewPhoneRelatedHUDGameController.new(fields) return end
 

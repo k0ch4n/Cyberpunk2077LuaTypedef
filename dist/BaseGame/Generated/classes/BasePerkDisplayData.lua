@@ -14,6 +14,6 @@
 ---@field public proficiency gamedataProficiencyType
 BasePerkDisplayData = {}
 
----@param fields? table
+---@param fields? BasePerkDisplayData
 ---@return BasePerkDisplayData
 function BasePerkDisplayData.new(fields) return end

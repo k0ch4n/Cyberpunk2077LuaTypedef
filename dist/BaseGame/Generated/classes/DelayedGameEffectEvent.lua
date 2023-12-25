@@ -9,6 +9,6 @@
 ---@field public statusEffect String
 DelayedGameEffectEvent = {}
 
----@param fields? table
+---@param fields? DelayedGameEffectEvent
 ---@return DelayedGameEffectEvent
 function DelayedGameEffectEvent.new(fields) return end

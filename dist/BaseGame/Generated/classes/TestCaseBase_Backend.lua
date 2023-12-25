@@ -4,7 +4,7 @@
 ---@class TestCaseBase_Backend: IScriptable
 TestCaseBase_Backend = {}
 
----@param fields? table
+---@param fields? TestCaseBase_Backend
 ---@return TestCaseBase_Backend
 function TestCaseBase_Backend.new(fields) return end
 

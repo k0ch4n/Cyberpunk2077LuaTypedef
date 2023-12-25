@@ -4,7 +4,7 @@
 ---@class gameuiSideScrollerMiniGameCollisionLogicAdvanced: inkWidgetLogicController
 gameuiSideScrollerMiniGameCollisionLogicAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameCollisionLogicAdvanced
 ---@return gameuiSideScrollerMiniGameCollisionLogicAdvanced
 function gameuiSideScrollerMiniGameCollisionLogicAdvanced.new(fields) return end
 

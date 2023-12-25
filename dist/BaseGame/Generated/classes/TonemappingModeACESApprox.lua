@@ -4,6 +4,6 @@
 ---@class TonemappingModeACESApprox: ITonemappingMode
 TonemappingModeACESApprox = {}
 
----@param fields? table
+---@param fields? TonemappingModeACESApprox
 ---@return TonemappingModeACESApprox
 function TonemappingModeACESApprox.new(fields) return end

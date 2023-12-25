@@ -4,7 +4,7 @@
 ---@class TakedownExecuteTakedownAndDisposeDecisions: LocomotionTakedownDecisions
 TakedownExecuteTakedownAndDisposeDecisions = {}
 
----@param fields? table
+---@param fields? TakedownExecuteTakedownAndDisposeDecisions
 ---@return TakedownExecuteTakedownAndDisposeDecisions
 function TakedownExecuteTakedownAndDisposeDecisions.new(fields) return end
 

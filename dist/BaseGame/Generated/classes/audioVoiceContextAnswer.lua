@@ -6,6 +6,6 @@
 ---@field public radius Float
 audioVoiceContextAnswer = {}
 
----@param fields? table
+---@param fields? audioVoiceContextAnswer
 ---@return audioVoiceContextAnswer
 function audioVoiceContextAnswer.new(fields) return end

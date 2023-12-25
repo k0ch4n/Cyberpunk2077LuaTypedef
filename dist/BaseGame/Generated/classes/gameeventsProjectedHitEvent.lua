@@ -4,6 +4,6 @@
 ---@class gameeventsProjectedHitEvent: gameeventsHitEvent
 gameeventsProjectedHitEvent = {}
 
----@param fields? table
+---@param fields? gameeventsProjectedHitEvent
 ---@return gameeventsProjectedHitEvent
 function gameeventsProjectedHitEvent.new(fields) return end

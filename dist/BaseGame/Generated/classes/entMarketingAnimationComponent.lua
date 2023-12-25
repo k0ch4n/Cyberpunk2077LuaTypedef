@@ -12,6 +12,6 @@
 ---@field public lookAtTargetYaw Float
 entMarketingAnimationComponent = {}
 
----@param fields? table
+---@param fields? entMarketingAnimationComponent
 ---@return entMarketingAnimationComponent
 function entMarketingAnimationComponent.new(fields) return end

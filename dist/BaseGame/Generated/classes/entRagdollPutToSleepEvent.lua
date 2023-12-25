@@ -4,6 +4,6 @@
 ---@class entRagdollPutToSleepEvent: redEvent
 entRagdollPutToSleepEvent = {}
 
----@param fields? table
+---@param fields? entRagdollPutToSleepEvent
 ---@return entRagdollPutToSleepEvent
 function entRagdollPutToSleepEvent.new(fields) return end

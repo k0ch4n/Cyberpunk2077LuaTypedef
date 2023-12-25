@@ -6,6 +6,6 @@
 ---@field public stronglyConnectedComponentId Uint16
 worldTrafficLanePlayerGPSInfo = {}
 
----@param fields? table
+---@param fields? worldTrafficLanePlayerGPSInfo
 ---@return worldTrafficLanePlayerGPSInfo
 function worldTrafficLanePlayerGPSInfo.new(fields) return end

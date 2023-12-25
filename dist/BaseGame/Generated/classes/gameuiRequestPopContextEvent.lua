@@ -6,6 +6,6 @@
 ---@field public invalidate Bool
 gameuiRequestPopContextEvent = {}
 
----@param fields? table
+---@param fields? gameuiRequestPopContextEvent
 ---@return gameuiRequestPopContextEvent
 function gameuiRequestPopContextEvent.new(fields) return end

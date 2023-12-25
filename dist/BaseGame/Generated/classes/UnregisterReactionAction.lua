@@ -6,7 +6,7 @@
 ---@field public onDeactivation Bool
 UnregisterReactionAction = {}
 
----@param fields? table
+---@param fields? UnregisterReactionAction
 ---@return UnregisterReactionAction
 function UnregisterReactionAction.new(fields) return end
 

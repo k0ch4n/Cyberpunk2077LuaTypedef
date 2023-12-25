@@ -4,7 +4,7 @@
 ---@class VirtualComponentBinder
 VirtualComponentBinder = {}
 
----@param fields? table
+---@param fields? VirtualComponentBinder
 ---@return VirtualComponentBinder
 function VirtualComponentBinder.new(fields) return end
 

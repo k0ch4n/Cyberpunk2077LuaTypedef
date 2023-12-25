@@ -4,7 +4,7 @@
 ---@class gamedataParentAttachmentType_Record: gamedataTweakDBRecord
 gamedataParentAttachmentType_Record = {}
 
----@param fields? table
+---@param fields? gamedataParentAttachmentType_Record
 ---@return gamedataParentAttachmentType_Record
 function gamedataParentAttachmentType_Record.new(fields) return end
 

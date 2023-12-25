@@ -4,6 +4,6 @@
 ---@class gameTargetingActivatorComponent: entIComponent
 gameTargetingActivatorComponent = {}
 
----@param fields? table
+---@param fields? gameTargetingActivatorComponent
 ---@return gameTargetingActivatorComponent
 function gameTargetingActivatorComponent.new(fields) return end

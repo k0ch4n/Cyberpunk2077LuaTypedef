@@ -4,6 +4,6 @@
 ---@class gamePlayerControlledComponent: entIComponent
 gamePlayerControlledComponent = {}
 
----@param fields? table
+---@param fields? gamePlayerControlledComponent
 ---@return gamePlayerControlledComponent
 function gamePlayerControlledComponent.new(fields) return end

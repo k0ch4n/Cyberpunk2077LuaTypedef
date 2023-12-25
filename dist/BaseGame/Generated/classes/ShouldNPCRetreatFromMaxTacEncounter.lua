@@ -6,7 +6,7 @@
 ---@field public threatLocation AITrackedLocation
 ShouldNPCRetreatFromMaxTacEncounter = {}
 
----@param fields? table
+---@param fields? ShouldNPCRetreatFromMaxTacEncounter
 ---@return ShouldNPCRetreatFromMaxTacEncounter
 function ShouldNPCRetreatFromMaxTacEncounter.new(fields) return end
 

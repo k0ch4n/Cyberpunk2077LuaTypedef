@@ -7,6 +7,6 @@
 ---@field public properties inkStyleProperty[]
 inkStyle = {}
 
----@param fields? table
+---@param fields? inkStyle
 ---@return inkStyle
 function inkStyle.new(fields) return end

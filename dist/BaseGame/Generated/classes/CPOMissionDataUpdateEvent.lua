@@ -4,6 +4,6 @@
 ---@class CPOMissionDataUpdateEvent: redEvent
 CPOMissionDataUpdateEvent = {}
 
----@param fields? table
+---@param fields? CPOMissionDataUpdateEvent
 ---@return CPOMissionDataUpdateEvent
 function CPOMissionDataUpdateEvent.new(fields) return end

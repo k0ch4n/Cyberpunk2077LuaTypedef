@@ -5,6 +5,6 @@
 ---@field public rotationRate IEvaluatorVector
 CParticleModificatorRotationRate3DOverLife = {}
 
----@param fields? table
+---@param fields? CParticleModificatorRotationRate3DOverLife
 ---@return CParticleModificatorRotationRate3DOverLife
 function CParticleModificatorRotationRate3DOverLife.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public offset QsTransform
 animStackTransformsExtender_JsonEntry = {}
 
----@param fields? table
+---@param fields? animStackTransformsExtender_JsonEntry
 ---@return animStackTransformsExtender_JsonEntry
 function animStackTransformsExtender_JsonEntry.new(fields) return end

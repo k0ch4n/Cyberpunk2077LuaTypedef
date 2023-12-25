@@ -4,6 +4,6 @@
 ---@class ShardSyncBackEvent: redEvent
 ShardSyncBackEvent = {}
 
----@param fields? table
+---@param fields? ShardSyncBackEvent
 ---@return ShardSyncBackEvent
 function ShardSyncBackEvent.new(fields) return end

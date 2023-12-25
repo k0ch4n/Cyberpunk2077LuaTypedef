@@ -6,6 +6,6 @@
 ---@field public flatFeetGroupName CName
 gameuiCharacterCustomizationFeetController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationFeetController
 ---@return gameuiCharacterCustomizationFeetController
 function gameuiCharacterCustomizationFeetController.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public speed Float
 AnimFeature_RagdollState = {}
 
----@param fields? table
+---@param fields? AnimFeature_RagdollState
 ---@return AnimFeature_RagdollState
 function AnimFeature_RagdollState.new(fields) return end

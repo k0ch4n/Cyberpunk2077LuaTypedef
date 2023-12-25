@@ -5,6 +5,6 @@
 ---@field public params questSetGender_NodeTypeParams[]
 questCharacterManagerParameters_SetGender = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetGender
 ---@return questCharacterManagerParameters_SetGender
 function questCharacterManagerParameters_SetGender.new(fields) return end

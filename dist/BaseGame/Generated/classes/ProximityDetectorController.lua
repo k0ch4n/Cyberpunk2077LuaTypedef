@@ -4,7 +4,7 @@
 ---@class ProximityDetectorController: ScriptableDeviceComponent
 ProximityDetectorController = {}
 
----@param fields? table
+---@param fields? ProximityDetectorController
 ---@return ProximityDetectorController
 function ProximityDetectorController.new(fields) return end
 

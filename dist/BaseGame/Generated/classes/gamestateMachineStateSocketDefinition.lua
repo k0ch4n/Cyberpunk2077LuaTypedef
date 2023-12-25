@@ -4,6 +4,6 @@
 ---@class gamestateMachineStateSocketDefinition: graphGraphSocketDefinition
 gamestateMachineStateSocketDefinition = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateSocketDefinition
 ---@return gamestateMachineStateSocketDefinition
 function gamestateMachineStateSocketDefinition.new(fields) return end

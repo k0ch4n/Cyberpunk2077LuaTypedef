@@ -4,7 +4,7 @@
 ---@class DisableAllVehicleInteractionsNotEnabledPrereq: gameIScriptablePrereq
 DisableAllVehicleInteractionsNotEnabledPrereq = {}
 
----@param fields? table
+---@param fields? DisableAllVehicleInteractionsNotEnabledPrereq
 ---@return DisableAllVehicleInteractionsNotEnabledPrereq
 function DisableAllVehicleInteractionsNotEnabledPrereq.new(fields) return end
 

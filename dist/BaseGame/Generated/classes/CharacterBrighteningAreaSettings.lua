@@ -8,6 +8,6 @@
 ---@field public envMultiplier curveData
 CharacterBrighteningAreaSettings = {}
 
----@param fields? table
+---@param fields? CharacterBrighteningAreaSettings
 ---@return CharacterBrighteningAreaSettings
 function CharacterBrighteningAreaSettings.new(fields) return end

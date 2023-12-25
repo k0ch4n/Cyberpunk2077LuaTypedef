@@ -4,7 +4,7 @@
 ---@class CerberusDetectionCombat: AIbehaviorconditionScript
 CerberusDetectionCombat = {}
 
----@param fields? table
+---@param fields? CerberusDetectionCombat
 ---@return CerberusDetectionCombat
 function CerberusDetectionCombat.new(fields) return end
 

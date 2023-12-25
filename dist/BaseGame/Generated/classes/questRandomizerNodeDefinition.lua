@@ -6,6 +6,6 @@
 ---@field public outputWeights Uint8[]
 questRandomizerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questRandomizerNodeDefinition
 ---@return questRandomizerNodeDefinition
 function questRandomizerNodeDefinition.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public BriefingAlignment gamebbScriptID_Variant
 UI_BriefingDef = {}
 
----@param fields? table
+---@param fields? UI_BriefingDef
 ---@return UI_BriefingDef
 function UI_BriefingDef.new(fields) return end
 

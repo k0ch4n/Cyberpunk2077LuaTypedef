@@ -19,6 +19,6 @@
 ---@field public skipButtonPanel inkCompoundWidgetReference
 inkSplashScreenLoadingScreenLogicController = {}
 
----@param fields? table
+---@param fields? inkSplashScreenLoadingScreenLogicController
 ---@return inkSplashScreenLoadingScreenLogicController
 function inkSplashScreenLoadingScreenLogicController.new(fields) return end

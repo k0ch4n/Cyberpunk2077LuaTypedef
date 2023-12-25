@@ -4,6 +4,6 @@
 ---@class gameRPGPrereqState: gamePrereqState
 gameRPGPrereqState = {}
 
----@param fields? table
+---@param fields? gameRPGPrereqState
 ---@return gameRPGPrereqState
 function gameRPGPrereqState.new(fields) return end

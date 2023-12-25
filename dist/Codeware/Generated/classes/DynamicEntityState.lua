@@ -6,6 +6,6 @@
 ---@field public entitySpec DynamicEntitySpec
 DynamicEntityState = {}
 
----@param fields? table
+---@param fields? DynamicEntityState
 ---@return DynamicEntityState
 function DynamicEntityState.new(fields) return end

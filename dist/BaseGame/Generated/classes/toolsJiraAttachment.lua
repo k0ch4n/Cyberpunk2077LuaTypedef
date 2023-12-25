@@ -8,6 +8,6 @@
 ---@field public thumbnail String
 toolsJiraAttachment = {}
 
----@param fields? table
+---@param fields? toolsJiraAttachment
 ---@return toolsJiraAttachment
 function toolsJiraAttachment.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionUseSensePreset_Record: gamedataAISubAction_Record
 gamedataAISubActionUseSensePreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionUseSensePreset_Record
 ---@return gamedataAISubActionUseSensePreset_Record
 function gamedataAISubActionUseSensePreset_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private followSlots FollowSlot[]
 FollowSlotsComponent = {}
 
----@param fields? table
+---@param fields? FollowSlotsComponent
 ---@return FollowSlotsComponent
 function FollowSlotsComponent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public simCS DataBuffer[]
 rendEmitterSimulationShaders = {}
 
----@param fields? table
+---@param fields? rendEmitterSimulationShaders
 ---@return rendEmitterSimulationShaders
 function rendEmitterSimulationShaders.new(fields) return end

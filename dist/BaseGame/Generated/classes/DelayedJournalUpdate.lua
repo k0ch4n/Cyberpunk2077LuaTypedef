@@ -10,6 +10,6 @@
 ---@field public contactHash Int32
 DelayedJournalUpdate = {}
 
----@param fields? table
+---@param fields? DelayedJournalUpdate
 ---@return DelayedJournalUpdate
 function DelayedJournalUpdate.new(fields) return end

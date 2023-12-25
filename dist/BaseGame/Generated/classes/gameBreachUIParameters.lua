@@ -13,6 +13,6 @@
 ---@field public maxHealth Float
 gameBreachUIParameters = {}
 
----@param fields? table
+---@param fields? gameBreachUIParameters
 ---@return gameBreachUIParameters
 function gameBreachUIParameters.new(fields) return end

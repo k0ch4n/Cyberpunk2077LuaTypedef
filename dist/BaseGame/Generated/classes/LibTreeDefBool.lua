@@ -7,6 +7,6 @@
 ---@field public v Bool
 LibTreeDefBool = {}
 
----@param fields? table
+---@param fields? LibTreeDefBool
 ---@return LibTreeDefBool
 function LibTreeDefBool.new(fields) return end

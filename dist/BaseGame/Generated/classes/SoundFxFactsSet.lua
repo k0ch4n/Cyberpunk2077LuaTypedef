@@ -4,6 +4,6 @@
 ---@class SoundFxFactsSet: BunkerSystemsFactsSet
 SoundFxFactsSet = {}
 
----@param fields? table
+---@param fields? SoundFxFactsSet
 ---@return SoundFxFactsSet
 function SoundFxFactsSet.new(fields) return end

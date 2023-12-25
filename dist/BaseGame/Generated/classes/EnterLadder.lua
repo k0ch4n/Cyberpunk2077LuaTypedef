@@ -4,7 +4,7 @@
 ---@class EnterLadder: ActionBool
 EnterLadder = {}
 
----@param fields? table
+---@param fields? EnterLadder
 ---@return EnterLadder
 function EnterLadder.new(fields) return end
 

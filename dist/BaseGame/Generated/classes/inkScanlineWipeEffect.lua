@@ -7,6 +7,6 @@
 ---@field public width Float
 inkScanlineWipeEffect = {}
 
----@param fields? table
+---@param fields? inkScanlineWipeEffect
 ---@return inkScanlineWipeEffect
 function inkScanlineWipeEffect.new(fields) return end

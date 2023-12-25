@@ -11,7 +11,7 @@
 ---@field private slotComponent2 entSlotComponent
 TankTurretComponent = {}
 
----@param fields? table
+---@param fields? TankTurretComponent
 ---@return TankTurretComponent
 function TankTurretComponent.new(fields) return end
 

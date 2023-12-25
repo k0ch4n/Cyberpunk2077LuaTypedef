@@ -11,6 +11,6 @@
 ---@field public fractureFieldValueType physicsFractureFieldValueType
 physicsFractureFieldParams = {}
 
----@param fields? table
+---@param fields? physicsFractureFieldParams
 ---@return physicsFractureFieldParams
 function physicsFractureFieldParams.new(fields) return end

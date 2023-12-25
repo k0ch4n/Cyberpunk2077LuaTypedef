@@ -6,7 +6,7 @@
 ---@field public colliderSizeOffset Vector2
 gameuiSideScrollerMiniGameCollisionLogic = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameCollisionLogic
 ---@return gameuiSideScrollerMiniGameCollisionLogic
 function gameuiSideScrollerMiniGameCollisionLogic.new(fields) return end
 

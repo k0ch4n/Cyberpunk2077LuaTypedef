@@ -5,7 +5,7 @@
 ---@field public toggle Bool
 TogglePreventionCrowdSpawns = {}
 
----@param fields? table
+---@param fields? TogglePreventionCrowdSpawns
 ---@return TogglePreventionCrowdSpawns
 function TogglePreventionCrowdSpawns.new(fields) return end
 

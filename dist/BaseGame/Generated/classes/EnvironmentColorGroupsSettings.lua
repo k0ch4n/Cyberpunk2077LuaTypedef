@@ -6,6 +6,6 @@
 ---@field public colorGroup curveData[]
 EnvironmentColorGroupsSettings = {}
 
----@param fields? table
+---@param fields? EnvironmentColorGroupsSettings
 ---@return EnvironmentColorGroupsSettings
 function EnvironmentColorGroupsSettings.new(fields) return end

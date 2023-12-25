@@ -4,7 +4,7 @@
 ---@class gameuiIconsNameResolver: IScriptable
 gameuiIconsNameResolver = {}
 
----@param fields? table
+---@param fields? gameuiIconsNameResolver
 ---@return gameuiIconsNameResolver
 function gameuiIconsNameResolver.new(fields) return end
 

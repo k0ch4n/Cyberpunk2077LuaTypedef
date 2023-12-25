@@ -5,6 +5,6 @@
 ---@field public textureMinMipBias Uint32
 gameuiTextureMinMipBiasChangeEvent = {}
 
----@param fields? table
+---@param fields? gameuiTextureMinMipBiasChangeEvent
 ---@return gameuiTextureMinMipBiasChangeEvent
 function gameuiTextureMinMipBiasChangeEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ToggleVehicle: ActionBool
 ToggleVehicle = {}
 
----@param fields? table
+---@param fields? ToggleVehicle
 ---@return ToggleVehicle
 function ToggleVehicle.new(fields) return end
 

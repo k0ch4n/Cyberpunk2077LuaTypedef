@@ -5,7 +5,7 @@
 ---@field public effect worldEffect
 gameFxResource = {}
 
----@param fields? table
+---@param fields? gameFxResource
 ---@return gameFxResource
 function gameFxResource.new(fields) return end
 

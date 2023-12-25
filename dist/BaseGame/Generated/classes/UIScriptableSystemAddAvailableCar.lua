@@ -5,6 +5,6 @@
 ---@field public carFact CName
 UIScriptableSystemAddAvailableCar = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemAddAvailableCar
 ---@return UIScriptableSystemAddAvailableCar
 function UIScriptableSystemAddAvailableCar.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class HitIsSourceGrenadePrereqState: GenericHitPrereqState
 HitIsSourceGrenadePrereqState = {}
 
----@param fields? table
+---@param fields? HitIsSourceGrenadePrereqState
 ---@return HitIsSourceGrenadePrereqState
 function HitIsSourceGrenadePrereqState.new(fields) return end
 

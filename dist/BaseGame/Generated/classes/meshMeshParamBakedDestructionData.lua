@@ -6,6 +6,6 @@
 ---@field public indices DataBuffer[]
 meshMeshParamBakedDestructionData = {}
 
----@param fields? table
+---@param fields? meshMeshParamBakedDestructionData
 ---@return meshMeshParamBakedDestructionData
 function meshMeshParamBakedDestructionData.new(fields) return end

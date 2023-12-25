@@ -8,7 +8,7 @@
 ---@field private animationProxy inkanimProxy
 CharacterCreationTopBarHeader = {}
 
----@param fields? table
+---@param fields? CharacterCreationTopBarHeader
 ---@return CharacterCreationTopBarHeader
 function CharacterCreationTopBarHeader.new(fields) return end
 

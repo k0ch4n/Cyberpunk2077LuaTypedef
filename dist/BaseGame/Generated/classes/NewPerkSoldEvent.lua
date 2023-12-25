@@ -6,6 +6,6 @@
 ---@field public perkLevelSold Int32
 NewPerkSoldEvent = {}
 
----@param fields? table
+---@param fields? NewPerkSoldEvent
 ---@return NewPerkSoldEvent
 function NewPerkSoldEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public vFX CName
 FireFXEvent = {}
 
----@param fields? table
+---@param fields? FireFXEvent
 ---@return FireFXEvent
 function FireFXEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public endWidgetPath CName
 inkanimTranslationBetweenWidgetsInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimTranslationBetweenWidgetsInterpolator
 ---@return inkanimTranslationBetweenWidgetsInterpolator
 function inkanimTranslationBetweenWidgetsInterpolator.new(fields) return end

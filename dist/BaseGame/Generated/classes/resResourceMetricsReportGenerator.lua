@@ -4,7 +4,7 @@
 ---@class resResourceMetricsReportGenerator: IScriptable
 resResourceMetricsReportGenerator = {}
 
----@param fields? table
+---@param fields? resResourceMetricsReportGenerator
 ---@return resResourceMetricsReportGenerator
 function resResourceMetricsReportGenerator.new(fields) return end
 

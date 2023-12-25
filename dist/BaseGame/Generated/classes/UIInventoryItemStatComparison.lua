@@ -6,6 +6,6 @@
 ---@field public Value Float
 UIInventoryItemStatComparison = {}
 
----@param fields? table
+---@param fields? UIInventoryItemStatComparison
 ---@return UIInventoryItemStatComparison
 function UIInventoryItemStatComparison.new(fields) return end

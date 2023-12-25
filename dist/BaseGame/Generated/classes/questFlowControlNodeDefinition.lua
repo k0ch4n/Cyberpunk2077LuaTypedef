@@ -7,6 +7,6 @@
 ---@field public closesAt Uint16
 questFlowControlNodeDefinition = {}
 
----@param fields? table
+---@param fields? questFlowControlNodeDefinition
 ---@return questFlowControlNodeDefinition
 function questFlowControlNodeDefinition.new(fields) return end

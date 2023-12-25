@@ -21,7 +21,7 @@
 ---@field private equipAreaIndexCache Int32[]
 EquipmentSystemPlayerData = {}
 
----@param fields? table
+---@param fields? EquipmentSystemPlayerData
 ---@return EquipmentSystemPlayerData
 function EquipmentSystemPlayerData.new(fields) return end
 

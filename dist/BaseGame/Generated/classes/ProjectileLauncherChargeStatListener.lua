@@ -4,7 +4,7 @@
 ---@class ProjectileLauncherChargeStatListener: BaseChargesStatListener
 ProjectileLauncherChargeStatListener = {}
 
----@param fields? table
+---@param fields? ProjectileLauncherChargeStatListener
 ---@return ProjectileLauncherChargeStatListener
 function ProjectileLauncherChargeStatListener.new(fields) return end
 

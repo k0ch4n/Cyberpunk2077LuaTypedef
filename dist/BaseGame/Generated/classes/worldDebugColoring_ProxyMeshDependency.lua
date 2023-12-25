@@ -7,6 +7,6 @@
 ---@field public discardColor Color
 worldDebugColoring_ProxyMeshDependency = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_ProxyMeshDependency
 ---@return worldDebugColoring_ProxyMeshDependency
 function worldDebugColoring_ProxyMeshDependency.new(fields) return end

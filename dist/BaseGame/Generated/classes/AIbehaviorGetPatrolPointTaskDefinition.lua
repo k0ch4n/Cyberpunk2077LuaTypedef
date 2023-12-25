@@ -7,6 +7,6 @@
 ---@field public outFollowTrailPoint AIArgumentMapping
 AIbehaviorGetPatrolPointTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorGetPatrolPointTaskDefinition
 ---@return AIbehaviorGetPatrolPointTaskDefinition
 function AIbehaviorGetPatrolPointTaskDefinition.new(fields) return end

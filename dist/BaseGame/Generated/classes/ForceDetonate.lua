@@ -4,7 +4,7 @@
 ---@class ForceDetonate: ActionBool
 ForceDetonate = {}
 
----@param fields? table
+---@param fields? ForceDetonate
 ---@return ForceDetonate
 function ForceDetonate.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameStatPoolPrereqState: gamePrereqState
 gameStatPoolPrereqState = {}
 
----@param fields? table
+---@param fields? gameStatPoolPrereqState
 ---@return gameStatPoolPrereqState
 function gameStatPoolPrereqState.new(fields) return end

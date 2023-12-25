@@ -16,7 +16,7 @@
 ---@field private data CraftingPopupData
 CraftingPopupController = {}
 
----@param fields? table
+---@param fields? CraftingPopupController
 ---@return CraftingPopupController
 function CraftingPopupController.new(fields) return end
 

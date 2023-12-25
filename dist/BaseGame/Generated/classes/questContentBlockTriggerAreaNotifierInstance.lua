@@ -4,6 +4,6 @@
 ---@class questContentBlockTriggerAreaNotifierInstance: worldITriggerAreaNotiferInstance
 questContentBlockTriggerAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? questContentBlockTriggerAreaNotifierInstance
 ---@return questContentBlockTriggerAreaNotifierInstance
 function questContentBlockTriggerAreaNotifierInstance.new(fields) return end

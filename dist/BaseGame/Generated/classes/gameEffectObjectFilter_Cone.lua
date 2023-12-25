@@ -4,6 +4,6 @@
 ---@class gameEffectObjectFilter_Cone: gameEffectObjectSingleFilter
 gameEffectObjectFilter_Cone = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_Cone
 ---@return gameEffectObjectFilter_Cone
 function gameEffectObjectFilter_Cone.new(fields) return end

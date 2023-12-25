@@ -4,7 +4,7 @@
 ---@class questTutorialManager: questITutorialManager
 questTutorialManager = {}
 
----@param fields? table
+---@param fields? questTutorialManager
 ---@return questTutorialManager
 function questTutorialManager.new(fields) return end
 

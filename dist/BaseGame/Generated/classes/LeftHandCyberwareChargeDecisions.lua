@@ -4,7 +4,7 @@
 ---@class LeftHandCyberwareChargeDecisions: LeftHandCyberwareTransition
 LeftHandCyberwareChargeDecisions = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareChargeDecisions
 ---@return LeftHandCyberwareChargeDecisions
 function LeftHandCyberwareChargeDecisions.new(fields) return end
 

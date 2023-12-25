@@ -5,6 +5,6 @@
 ---@field public params gameSceneAnimationMotionActionParams
 AIRootMotionCommand = {}
 
----@param fields? table
+---@param fields? AIRootMotionCommand
 ---@return AIRootMotionCommand
 function AIRootMotionCommand.new(fields) return end

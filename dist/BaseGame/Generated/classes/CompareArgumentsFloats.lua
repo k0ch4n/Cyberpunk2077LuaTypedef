@@ -5,7 +5,7 @@
 ---@field public comparator ECompareOp
 CompareArgumentsFloats = {}
 
----@param fields? table
+---@param fields? CompareArgumentsFloats
 ---@return CompareArgumentsFloats
 function CompareArgumentsFloats.new(fields) return end
 

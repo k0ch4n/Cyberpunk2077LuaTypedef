@@ -19,7 +19,7 @@
 ---@field public flags Uint32
 worldgeometryDescriptionQuery = {}
 
----@param fields? table
+---@param fields? worldgeometryDescriptionQuery
 ---@return worldgeometryDescriptionQuery
 function worldgeometryDescriptionQuery.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private togglePersonalLinkAction TogglePersonalLink
 ConnectionEndedEvent = {}
 
----@param fields? table
+---@param fields? ConnectionEndedEvent
 ---@return ConnectionEndedEvent
 function ConnectionEndedEvent.new(fields) return end
 

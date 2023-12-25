@@ -4,7 +4,7 @@
 ---@class GameTimeUtils
 GameTimeUtils = {}
 
----@param fields? table
+---@param fields? GameTimeUtils
 ---@return GameTimeUtils
 function GameTimeUtils.new(fields) return end
 

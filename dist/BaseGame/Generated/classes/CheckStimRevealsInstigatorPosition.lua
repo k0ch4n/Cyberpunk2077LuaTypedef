@@ -6,7 +6,7 @@
 ---@field public stimType gamedataStimType
 CheckStimRevealsInstigatorPosition = {}
 
----@param fields? table
+---@param fields? CheckStimRevealsInstigatorPosition
 ---@return CheckStimRevealsInstigatorPosition
 function CheckStimRevealsInstigatorPosition.new(fields) return end
 

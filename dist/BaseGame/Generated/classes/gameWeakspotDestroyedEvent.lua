@@ -4,6 +4,6 @@
 ---@class gameWeakspotDestroyedEvent: redEvent
 gameWeakspotDestroyedEvent = {}
 
----@param fields? table
+---@param fields? gameWeakspotDestroyedEvent
 ---@return gameWeakspotDestroyedEvent
 function gameWeakspotDestroyedEvent.new(fields) return end

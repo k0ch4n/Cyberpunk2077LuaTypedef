@@ -8,6 +8,6 @@
 ---@field public fallbackVideo Bink
 inkLanguageSpecificVideoController = {}
 
----@param fields? table
+---@param fields? inkLanguageSpecificVideoController
 ---@return inkLanguageSpecificVideoController
 function inkLanguageSpecificVideoController.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public isLookedAt Bool
 FocusModeOperationTriggerData = {}
 
----@param fields? table
+---@param fields? FocusModeOperationTriggerData
 ---@return FocusModeOperationTriggerData
 function FocusModeOperationTriggerData.new(fields) return end

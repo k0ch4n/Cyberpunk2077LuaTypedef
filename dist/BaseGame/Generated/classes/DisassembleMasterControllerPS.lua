@@ -4,7 +4,7 @@
 ---@class DisassembleMasterControllerPS: MasterControllerPS
 DisassembleMasterControllerPS = {}
 
----@param fields? table
+---@param fields? DisassembleMasterControllerPS
 ---@return DisassembleMasterControllerPS
 function DisassembleMasterControllerPS.new(fields) return end
 

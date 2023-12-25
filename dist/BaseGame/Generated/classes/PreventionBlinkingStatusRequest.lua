@@ -6,6 +6,6 @@
 ---@field public telemetryInfo String
 PreventionBlinkingStatusRequest = {}
 
----@param fields? table
+---@param fields? PreventionBlinkingStatusRequest
 ---@return PreventionBlinkingStatusRequest
 function PreventionBlinkingStatusRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameEffectorObject: ISerializable
 gameEffectorObject = {}
 
----@param fields? table
+---@param fields? gameEffectorObject
 ---@return gameEffectorObject
 function gameEffectorObject.new(fields) return end

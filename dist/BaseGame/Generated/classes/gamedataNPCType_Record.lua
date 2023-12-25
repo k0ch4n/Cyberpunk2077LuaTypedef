@@ -4,7 +4,7 @@
 ---@class gamedataNPCType_Record: gamedataTweakDBRecord
 gamedataNPCType_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCType_Record
 ---@return gamedataNPCType_Record
 function gamedataNPCType_Record.new(fields) return end
 

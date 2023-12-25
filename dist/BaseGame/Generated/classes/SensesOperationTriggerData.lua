@@ -8,6 +8,6 @@
 ---@field public operationType ETriggerOperationType
 SensesOperationTriggerData = {}
 
----@param fields? table
+---@param fields? SensesOperationTriggerData
 ---@return SensesOperationTriggerData
 function SensesOperationTriggerData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataTankDriveModelData_Record: gamedataVehicleDriveModelData_Record
 gamedataTankDriveModelData_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankDriveModelData_Record
 ---@return gamedataTankDriveModelData_Record
 function gamedataTankDriveModelData_Record.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public sceneNodesDebugSymbols scnNodeSymbol[]
 scnDebugSymbols = {}
 
----@param fields? table
+---@param fields? scnDebugSymbols
 ---@return scnDebugSymbols
 function scnDebugSymbols.new(fields) return end

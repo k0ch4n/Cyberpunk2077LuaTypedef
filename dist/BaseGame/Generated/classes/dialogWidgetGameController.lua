@@ -21,7 +21,7 @@
 ---@field private uiSystemId redCallbackObject
 dialogWidgetGameController = {}
 
----@param fields? table
+---@param fields? dialogWidgetGameController
 ---@return dialogWidgetGameController
 function dialogWidgetGameController.new(fields) return end
 

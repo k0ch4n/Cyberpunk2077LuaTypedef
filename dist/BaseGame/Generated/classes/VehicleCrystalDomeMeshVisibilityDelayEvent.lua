@@ -4,6 +4,6 @@
 ---@class VehicleCrystalDomeMeshVisibilityDelayEvent: redEvent
 VehicleCrystalDomeMeshVisibilityDelayEvent = {}
 
----@param fields? table
+---@param fields? VehicleCrystalDomeMeshVisibilityDelayEvent
 ---@return VehicleCrystalDomeMeshVisibilityDelayEvent
 function VehicleCrystalDomeMeshVisibilityDelayEvent.new(fields) return end

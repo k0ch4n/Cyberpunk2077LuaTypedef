@@ -6,6 +6,6 @@
 ---@field public instance inkWidgetLibraryItemInstance
 inkWidgetLibraryItemUnpackedView = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryItemUnpackedView
 ---@return inkWidgetLibraryItemUnpackedView
 function inkWidgetLibraryItemUnpackedView.new(fields) return end

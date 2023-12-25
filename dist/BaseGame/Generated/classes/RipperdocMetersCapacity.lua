@@ -41,7 +41,7 @@
 ---@field private C_costLabelAnchorPoint_EQUIPPED_EDGRUNNER Vector2
 RipperdocMetersCapacity = {}
 
----@param fields? table
+---@param fields? RipperdocMetersCapacity
 ---@return RipperdocMetersCapacity
 function RipperdocMetersCapacity.new(fields) return end
 

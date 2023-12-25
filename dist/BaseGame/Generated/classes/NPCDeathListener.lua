@@ -5,7 +5,7 @@
 ---@field public npc NPCPuppet
 NPCDeathListener = {}
 
----@param fields? table
+---@param fields? NPCDeathListener
 ---@return NPCDeathListener
 function NPCDeathListener.new(fields) return end
 

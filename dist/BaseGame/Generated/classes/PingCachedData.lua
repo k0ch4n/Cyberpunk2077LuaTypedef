@@ -18,7 +18,7 @@
 ---@field public virtualNetworkShape gamedataVirtualNetwork_Record
 PingCachedData = {}
 
----@param fields? table
+---@param fields? PingCachedData
 ---@return PingCachedData
 function PingCachedData.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameAchievementSystem: gameIAchievementSystem
 gameAchievementSystem = {}
 
----@param fields? table
+---@param fields? gameAchievementSystem
 ---@return gameAchievementSystem
 function gameAchievementSystem.new(fields) return end
 

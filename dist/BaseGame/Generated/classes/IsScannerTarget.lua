@@ -4,7 +4,7 @@
 ---@class IsScannerTarget: gameIScriptablePrereq
 IsScannerTarget = {}
 
----@param fields? table
+---@param fields? IsScannerTarget
 ---@return IsScannerTarget
 function IsScannerTarget.new(fields) return end
 

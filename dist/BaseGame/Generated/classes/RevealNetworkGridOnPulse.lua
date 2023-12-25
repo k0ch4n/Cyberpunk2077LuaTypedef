@@ -7,6 +7,6 @@
 ---@field public revealMaster Bool
 RevealNetworkGridOnPulse = {}
 
----@param fields? table
+---@param fields? RevealNetworkGridOnPulse
 ---@return RevealNetworkGridOnPulse
 function RevealNetworkGridOnPulse.new(fields) return end

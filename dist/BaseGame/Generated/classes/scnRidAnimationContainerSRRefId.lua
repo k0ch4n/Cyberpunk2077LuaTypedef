@@ -4,6 +4,6 @@
 ---@class scnRidAnimationContainerSRRefId
 scnRidAnimationContainerSRRefId = {}
 
----@param fields? table
+---@param fields? scnRidAnimationContainerSRRefId
 ---@return scnRidAnimationContainerSRRefId
 function scnRidAnimationContainerSRRefId.new(fields) return end

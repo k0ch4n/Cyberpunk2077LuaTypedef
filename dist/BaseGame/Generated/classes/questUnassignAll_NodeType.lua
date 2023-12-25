@@ -7,6 +7,6 @@
 ---@field public clearAssignedVehicleId Bool
 questUnassignAll_NodeType = {}
 
----@param fields? table
+---@param fields? questUnassignAll_NodeType
 ---@return questUnassignAll_NodeType
 function questUnassignAll_NodeType.new(fields) return end

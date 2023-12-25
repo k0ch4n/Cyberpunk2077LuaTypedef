@@ -7,6 +7,6 @@
 ---@field public operationType EWorkspotOperationType
 SWorkspotData = {}
 
----@param fields? table
+---@param fields? SWorkspotData
 ---@return SWorkspotData
 function SWorkspotData.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public fullyBehindCover Bool
 gamePlayerCoverStatusChangedEvent = {}
 
----@param fields? table
+---@param fields? gamePlayerCoverStatusChangedEvent
 ---@return gamePlayerCoverStatusChangedEvent
 function gamePlayerCoverStatusChangedEvent.new(fields) return end

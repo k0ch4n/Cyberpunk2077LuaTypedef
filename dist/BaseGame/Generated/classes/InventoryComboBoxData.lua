@@ -10,6 +10,6 @@
 ---@field public ForceDouble Bool
 InventoryComboBoxData = {}
 
----@param fields? table
+---@param fields? InventoryComboBoxData
 ---@return InventoryComboBoxData
 function InventoryComboBoxData.new(fields) return end

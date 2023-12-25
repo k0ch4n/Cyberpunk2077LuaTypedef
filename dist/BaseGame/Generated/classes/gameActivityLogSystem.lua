@@ -4,7 +4,7 @@
 ---@class gameActivityLogSystem: gameIActivityLogSystem
 gameActivityLogSystem = {}
 
----@param fields? table
+---@param fields? gameActivityLogSystem
 ---@return gameActivityLogSystem
 function gameActivityLogSystem.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public blendTime Float
 scneventsCameraEvent = {}
 
----@param fields? table
+---@param fields? scneventsCameraEvent
 ---@return scneventsCameraEvent
 function scneventsCameraEvent.new(fields) return end

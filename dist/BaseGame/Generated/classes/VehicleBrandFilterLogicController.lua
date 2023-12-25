@@ -12,7 +12,7 @@
 ---@field private newOffers CName[]
 VehicleBrandFilterLogicController = {}
 
----@param fields? table
+---@param fields? VehicleBrandFilterLogicController
 ---@return VehicleBrandFilterLogicController
 function VehicleBrandFilterLogicController.new(fields) return end
 

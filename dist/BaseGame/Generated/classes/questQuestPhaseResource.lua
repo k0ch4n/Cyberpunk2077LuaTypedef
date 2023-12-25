@@ -6,6 +6,6 @@
 ---@field public inplacePhases CResource[]
 questQuestPhaseResource = {}
 
----@param fields? table
+---@param fields? questQuestPhaseResource
 ---@return questQuestPhaseResource
 function questQuestPhaseResource.new(fields) return end

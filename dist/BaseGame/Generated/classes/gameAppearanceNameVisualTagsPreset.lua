@@ -5,6 +5,6 @@
 ---@field public presets gameAppearanceNameVisualTagsPreset_Entity[]
 gameAppearanceNameVisualTagsPreset = {}
 
----@param fields? table
+---@param fields? gameAppearanceNameVisualTagsPreset
 ---@return gameAppearanceNameVisualTagsPreset
 function gameAppearanceNameVisualTagsPreset.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private ctrl NewItemTooltipAttachmentEntryController
 NewItemTooltipAttachmentEntrySettingsListener = {}
 
----@param fields? table
+---@param fields? NewItemTooltipAttachmentEntrySettingsListener
 ---@return NewItemTooltipAttachmentEntrySettingsListener
 function NewItemTooltipAttachmentEntrySettingsListener.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class BeginOne: DefaultTest
 BeginOne = {}
 
----@param fields? table
+---@param fields? BeginOne
 ---@return BeginOne
 function BeginOne.new(fields) return end
 

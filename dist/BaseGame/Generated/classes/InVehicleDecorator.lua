@@ -4,7 +4,7 @@
 ---@class InVehicleDecorator: AIVehicleTaskAbstract
 InVehicleDecorator = {}
 
----@param fields? table
+---@param fields? InVehicleDecorator
 ---@return InVehicleDecorator
 function InVehicleDecorator.new(fields) return end
 

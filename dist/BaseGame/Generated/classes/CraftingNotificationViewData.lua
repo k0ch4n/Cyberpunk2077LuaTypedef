@@ -5,7 +5,7 @@
 ---@field public canBeMerged Bool
 CraftingNotificationViewData = {}
 
----@param fields? table
+---@param fields? CraftingNotificationViewData
 ---@return CraftingNotificationViewData
 function CraftingNotificationViewData.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataScreenMessageData_Record: gamedataTweakDBRecord
 gamedataScreenMessageData_Record = {}
 
----@param fields? table
+---@param fields? gamedataScreenMessageData_Record
 ---@return gamedataScreenMessageData_Record
 function gamedataScreenMessageData_Record.new(fields) return end
 

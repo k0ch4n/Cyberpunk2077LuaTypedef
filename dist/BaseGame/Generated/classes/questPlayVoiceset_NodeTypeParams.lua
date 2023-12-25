@@ -14,6 +14,6 @@
 ---@field public overridingVisualStyle scnDialogLineVisualStyle
 questPlayVoiceset_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questPlayVoiceset_NodeTypeParams
 ---@return questPlayVoiceset_NodeTypeParams
 function questPlayVoiceset_NodeTypeParams.new(fields) return end

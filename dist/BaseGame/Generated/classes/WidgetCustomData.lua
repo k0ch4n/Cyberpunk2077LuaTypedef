@@ -4,6 +4,6 @@
 ---@class WidgetCustomData: IScriptable
 WidgetCustomData = {}
 
----@param fields? table
+---@param fields? WidgetCustomData
 ---@return WidgetCustomData
 function WidgetCustomData.new(fields) return end

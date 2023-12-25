@@ -7,6 +7,6 @@
 ---@field public equipped Int32
 gameAmmoData = {}
 
----@param fields? table
+---@param fields? gameAmmoData
 ---@return gameAmmoData
 function gameAmmoData.new(fields) return end

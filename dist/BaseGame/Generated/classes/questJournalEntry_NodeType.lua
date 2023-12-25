@@ -6,6 +6,6 @@
 ---@field public sendNotification Bool
 questJournalEntry_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalEntry_NodeType
 ---@return questJournalEntry_NodeType
 function questJournalEntry_NodeType.new(fields) return end

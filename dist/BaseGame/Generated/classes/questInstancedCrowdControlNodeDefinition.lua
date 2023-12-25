@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questInstancedCrowdControlNodeDefinition = {}
 
----@param fields? table
+---@param fields? questInstancedCrowdControlNodeDefinition
 ---@return questInstancedCrowdControlNodeDefinition
 function questInstancedCrowdControlNodeDefinition.new(fields) return end

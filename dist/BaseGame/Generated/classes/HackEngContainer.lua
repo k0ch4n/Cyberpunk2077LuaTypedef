@@ -6,7 +6,7 @@
 ---@field public engineeringCheck EngineeringSkillCheck
 HackEngContainer = {}
 
----@param fields? table
+---@param fields? HackEngContainer
 ---@return HackEngContainer
 function HackEngContainer.new(fields) return end
 

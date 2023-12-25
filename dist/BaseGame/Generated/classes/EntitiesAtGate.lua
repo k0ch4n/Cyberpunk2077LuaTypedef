@@ -5,6 +5,6 @@
 ---@field public entitiesAtGate entEntityID[]
 EntitiesAtGate = {}
 
----@param fields? table
+---@param fields? EntitiesAtGate
 ---@return EntitiesAtGate
 function EntitiesAtGate.new(fields) return end

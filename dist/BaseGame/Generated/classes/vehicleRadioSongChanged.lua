@@ -5,6 +5,6 @@
 ---@field public radioSongName CName
 vehicleRadioSongChanged = {}
 
----@param fields? table
+---@param fields? vehicleRadioSongChanged
 ---@return vehicleRadioSongChanged
 function vehicleRadioSongChanged.new(fields) return end

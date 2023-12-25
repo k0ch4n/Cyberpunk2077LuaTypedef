@@ -15,6 +15,6 @@
 ---@field public duration Float
 QuickMeleeAttackData = {}
 
----@param fields? table
+---@param fields? QuickMeleeAttackData
 ---@return QuickMeleeAttackData
 function QuickMeleeAttackData.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public Abilities gameInventoryItemAbility[]
 UIInventoryItemModAttachment = {}
 
----@param fields? table
+---@param fields? UIInventoryItemModAttachment
 ---@return UIInventoryItemModAttachment
 function UIInventoryItemModAttachment.new(fields) return end

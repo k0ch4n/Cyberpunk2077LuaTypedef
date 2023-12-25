@@ -8,6 +8,6 @@
 ---@field public pickUpWeaponSFX CName
 SecurityLockerProperties = {}
 
----@param fields? table
+---@param fields? SecurityLockerProperties
 ---@return SecurityLockerProperties
 function SecurityLockerProperties.new(fields) return end

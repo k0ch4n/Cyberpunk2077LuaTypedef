@@ -4,6 +4,6 @@
 ---@class gameMuppetUpperBodyRequestsComponent: gameMuppetComponent
 gameMuppetUpperBodyRequestsComponent = {}
 
----@param fields? table
+---@param fields? gameMuppetUpperBodyRequestsComponent
 ---@return gameMuppetUpperBodyRequestsComponent
 function gameMuppetUpperBodyRequestsComponent.new(fields) return end

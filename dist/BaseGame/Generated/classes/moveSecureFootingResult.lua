@@ -10,6 +10,6 @@
 ---@field public type moveSecureFootingFailureType
 moveSecureFootingResult = {}
 
----@param fields? table
+---@param fields? moveSecureFootingResult
 ---@return moveSecureFootingResult
 function moveSecureFootingResult.new(fields) return end

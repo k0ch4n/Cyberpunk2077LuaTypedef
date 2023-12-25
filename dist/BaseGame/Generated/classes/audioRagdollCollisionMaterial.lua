@@ -7,6 +7,6 @@
 ---@field public dismemberedLimbCollisionEventName CName
 audioRagdollCollisionMaterial = {}
 
----@param fields? table
+---@param fields? audioRagdollCollisionMaterial
 ---@return audioRagdollCollisionMaterial
 function audioRagdollCollisionMaterial.new(fields) return end

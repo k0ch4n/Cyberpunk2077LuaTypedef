@@ -8,6 +8,6 @@
 ---@field public exitCurveTime Float
 audioVehicleEngageMovingFasterInterpolationData = {}
 
----@param fields? table
+---@param fields? audioVehicleEngageMovingFasterInterpolationData
 ---@return audioVehicleEngageMovingFasterInterpolationData
 function audioVehicleEngageMovingFasterInterpolationData.new(fields) return end

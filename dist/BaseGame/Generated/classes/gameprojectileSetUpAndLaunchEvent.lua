@@ -6,6 +6,6 @@
 ---@field public lerpMultiplier Float
 gameprojectileSetUpAndLaunchEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileSetUpAndLaunchEvent
 ---@return gameprojectileSetUpAndLaunchEvent
 function gameprojectileSetUpAndLaunchEvent.new(fields) return end

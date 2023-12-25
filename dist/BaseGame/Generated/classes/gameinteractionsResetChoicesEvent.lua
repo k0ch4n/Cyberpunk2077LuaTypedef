@@ -5,6 +5,6 @@
 ---@field public layer CName
 gameinteractionsResetChoicesEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsResetChoicesEvent
 ---@return gameinteractionsResetChoicesEvent
 function gameinteractionsResetChoicesEvent.new(fields) return end

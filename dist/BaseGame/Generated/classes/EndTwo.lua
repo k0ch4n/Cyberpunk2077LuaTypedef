@@ -4,7 +4,7 @@
 ---@class EndTwo: DefaultTest
 EndTwo = {}
 
----@param fields? table
+---@param fields? EndTwo
 ---@return EndTwo
 function EndTwo.new(fields) return end
 

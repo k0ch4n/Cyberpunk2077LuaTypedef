@@ -7,6 +7,6 @@
 ---@field public scriptedConditionClass gameinteractionsInteractionScriptedCondition
 gameinteractionsCHotSpotGameLogicFilterDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCHotSpotGameLogicFilterDefinition
 ---@return gameinteractionsCHotSpotGameLogicFilterDefinition
 function gameinteractionsCHotSpotGameLogicFilterDefinition.new(fields) return end

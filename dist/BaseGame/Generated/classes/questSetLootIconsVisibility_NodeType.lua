@@ -5,6 +5,6 @@
 ---@field public lootIconsVisible Bool
 questSetLootIconsVisibility_NodeType = {}
 
----@param fields? table
+---@param fields? questSetLootIconsVisibility_NodeType
 ---@return questSetLootIconsVisibility_NodeType
 function questSetLootIconsVisibility_NodeType.new(fields) return end

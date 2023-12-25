@@ -6,6 +6,6 @@
 ---@field public rotation EulerAngles
 interopTransformInfo = {}
 
----@param fields? table
+---@param fields? interopTransformInfo
 ---@return interopTransformInfo
 function interopTransformInfo.new(fields) return end

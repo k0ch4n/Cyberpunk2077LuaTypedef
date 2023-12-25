@@ -10,7 +10,7 @@
 ---@field private isSmartBullet Bool
 BulletCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? BulletCollisionEvaluator
 ---@return BulletCollisionEvaluator
 function BulletCollisionEvaluator.new(fields) return end
 

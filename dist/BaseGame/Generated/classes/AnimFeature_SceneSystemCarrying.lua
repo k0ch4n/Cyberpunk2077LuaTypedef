@@ -5,6 +5,6 @@
 ---@field public carrying Bool
 AnimFeature_SceneSystemCarrying = {}
 
----@param fields? table
+---@param fields? AnimFeature_SceneSystemCarrying
 ---@return AnimFeature_SceneSystemCarrying
 function AnimFeature_SceneSystemCarrying.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class inkWidgetUtils
 inkWidgetUtils = {}
 
----@param fields? table
+---@param fields? inkWidgetUtils
 ---@return inkWidgetUtils
 function inkWidgetUtils.new(fields) return end
 

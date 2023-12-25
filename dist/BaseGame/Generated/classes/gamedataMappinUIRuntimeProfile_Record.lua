@@ -4,7 +4,7 @@
 ---@class gamedataMappinUIRuntimeProfile_Record: gamedataTweakDBRecord
 gamedataMappinUIRuntimeProfile_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUIRuntimeProfile_Record
 ---@return gamedataMappinUIRuntimeProfile_Record
 function gamedataMappinUIRuntimeProfile_Record.new(fields) return end
 

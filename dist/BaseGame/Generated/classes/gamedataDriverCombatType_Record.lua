@@ -4,7 +4,7 @@
 ---@class gamedataDriverCombatType_Record: gamedataTweakDBRecord
 gamedataDriverCombatType_Record = {}
 
----@param fields? table
+---@param fields? gamedataDriverCombatType_Record
 ---@return gamedataDriverCombatType_Record
 function gamedataDriverCombatType_Record.new(fields) return end
 

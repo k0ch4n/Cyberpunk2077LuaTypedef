@@ -14,6 +14,6 @@
 ---@field public numVariants Uint32
 animAnimNode_LocomotionMachine = {}
 
----@param fields? table
+---@param fields? animAnimNode_LocomotionMachine
 ---@return animAnimNode_LocomotionMachine
 function animAnimNode_LocomotionMachine.new(fields) return end

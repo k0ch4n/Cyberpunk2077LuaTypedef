@@ -5,6 +5,6 @@
 ---@field public treeReference AIArgumentMapping
 AIbehaviorIncludedTreeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIncludedTreeDefinition
 ---@return AIbehaviorIncludedTreeDefinition
 function AIbehaviorIncludedTreeDefinition.new(fields) return end

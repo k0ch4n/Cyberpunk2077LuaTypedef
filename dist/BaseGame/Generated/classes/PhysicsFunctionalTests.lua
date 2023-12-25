@@ -4,7 +4,7 @@
 ---@class PhysicsFunctionalTests: IScriptable
 PhysicsFunctionalTests = {}
 
----@param fields? table
+---@param fields? PhysicsFunctionalTests
 ---@return PhysicsFunctionalTests
 function PhysicsFunctionalTests.new(fields) return end
 

@@ -13,7 +13,7 @@
 ---@field public applicationChance Float
 TriggerAttackOnTargetEffect = {}
 
----@param fields? table
+---@param fields? TriggerAttackOnTargetEffect
 ---@return TriggerAttackOnTargetEffect
 function TriggerAttackOnTargetEffect.new(fields) return end
 

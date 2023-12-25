@@ -4,6 +4,6 @@
 ---@class KeepPhoneOpenWhenInHubMenuEvent: redEvent
 KeepPhoneOpenWhenInHubMenuEvent = {}
 
----@param fields? table
+---@param fields? KeepPhoneOpenWhenInHubMenuEvent
 ---@return KeepPhoneOpenWhenInHubMenuEvent
 function KeepPhoneOpenWhenInHubMenuEvent.new(fields) return end

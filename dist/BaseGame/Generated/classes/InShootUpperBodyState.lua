@@ -4,7 +4,7 @@
 ---@class InShootUpperBodyState: AINPCUpperBodyStateCheck
 InShootUpperBodyState = {}
 
----@param fields? table
+---@param fields? InShootUpperBodyState
 ---@return InShootUpperBodyState
 function InShootUpperBodyState.new(fields) return end
 

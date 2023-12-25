@@ -5,6 +5,6 @@
 ---@field public isMoving Bool
 gameMovingPlatformMovementStateChanged = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformMovementStateChanged
 ---@return gameMovingPlatformMovementStateChanged
 function gameMovingPlatformMovementStateChanged.new(fields) return end

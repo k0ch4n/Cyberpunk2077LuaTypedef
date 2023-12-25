@@ -4,6 +4,6 @@
 ---@class FollowVehicleTask: AIbehaviortaskScript
 FollowVehicleTask = {}
 
----@param fields? table
+---@param fields? FollowVehicleTask
 ---@return FollowVehicleTask
 function FollowVehicleTask.new(fields) return end

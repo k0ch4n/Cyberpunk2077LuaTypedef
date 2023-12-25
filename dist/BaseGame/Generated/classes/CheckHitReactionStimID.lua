@@ -4,7 +4,7 @@
 ---@class CheckHitReactionStimID: CheckStimID
 CheckHitReactionStimID = {}
 
----@param fields? table
+---@param fields? CheckHitReactionStimID
 ---@return CheckHitReactionStimID
 function CheckHitReactionStimID.new(fields) return end
 

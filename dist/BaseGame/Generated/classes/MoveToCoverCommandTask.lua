@@ -7,7 +7,7 @@
 ---@field private coverID Uint64
 MoveToCoverCommandTask = {}
 
----@param fields? table
+---@param fields? MoveToCoverCommandTask
 ---@return MoveToCoverCommandTask
 function MoveToCoverCommandTask.new(fields) return end
 

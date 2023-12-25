@@ -5,6 +5,6 @@
 ---@field public value Float
 UpdateOverheatEvent = {}
 
----@param fields? table
+---@param fields? UpdateOverheatEvent
 ---@return UpdateOverheatEvent
 function UpdateOverheatEvent.new(fields) return end

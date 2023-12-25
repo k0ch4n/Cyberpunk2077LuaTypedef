@@ -6,6 +6,6 @@
 ---@field public crimePosition Vector4
 RegisterPoliceCaller = {}
 
----@param fields? table
+---@param fields? RegisterPoliceCaller
 ---@return RegisterPoliceCaller
 function RegisterPoliceCaller.new(fields) return end

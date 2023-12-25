@@ -10,6 +10,6 @@
 ---@field public QueryDetect CName[]
 physicsCollisionPresetDefinition = {}
 
----@param fields? table
+---@param fields? physicsCollisionPresetDefinition
 ---@return physicsCollisionPresetDefinition
 function physicsCollisionPresetDefinition.new(fields) return end

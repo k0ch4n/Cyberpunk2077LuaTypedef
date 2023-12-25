@@ -5,6 +5,6 @@
 ---@field public paths navLocomotionPath[]
 navLocomotionPathResource = {}
 
----@param fields? table
+---@param fields? navLocomotionPathResource
 ---@return navLocomotionPathResource
 function navLocomotionPathResource.new(fields) return end

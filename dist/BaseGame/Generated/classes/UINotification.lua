@@ -4,7 +4,7 @@
 ---@class UINotification: GenericNotificationController
 UINotification = {}
 
----@param fields? table
+---@param fields? UINotification
 ---@return UINotification
 function UINotification.new(fields) return end
 

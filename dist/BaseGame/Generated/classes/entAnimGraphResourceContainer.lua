@@ -5,6 +5,6 @@
 ---@field public animGraphLookupTable entAnimGraphResourceContainerEntry[]
 entAnimGraphResourceContainer = {}
 
----@param fields? table
+---@param fields? entAnimGraphResourceContainer
 ---@return entAnimGraphResourceContainer
 function entAnimGraphResourceContainer.new(fields) return end

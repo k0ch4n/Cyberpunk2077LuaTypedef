@@ -5,6 +5,6 @@
 ---@field public ownerID entEntityID
 RegisterActiveClueOwnerkRequest = {}
 
----@param fields? table
+---@param fields? RegisterActiveClueOwnerkRequest
 ---@return RegisterActiveClueOwnerkRequest
 function RegisterActiveClueOwnerkRequest.new(fields) return end

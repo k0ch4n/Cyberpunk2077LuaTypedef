@@ -7,7 +7,7 @@
 ---@field public z FixedPoint
 WorldPosition = {}
 
----@param fields? table
+---@param fields? WorldPosition
 ---@return WorldPosition
 function WorldPosition.new(fields) return end
 

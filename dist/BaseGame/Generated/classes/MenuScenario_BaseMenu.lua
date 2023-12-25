@@ -8,7 +8,7 @@
 ---@field protected prevMenuName CName
 MenuScenario_BaseMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_BaseMenu
 ---@return MenuScenario_BaseMenu
 function MenuScenario_BaseMenu.new(fields) return end
 

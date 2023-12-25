@@ -11,6 +11,6 @@
 ---@field public randomWeight Uint8
 entEffectDesc = {}
 
----@param fields? table
+---@param fields? entEffectDesc
 ---@return entEffectDesc
 function entEffectDesc.new(fields) return end

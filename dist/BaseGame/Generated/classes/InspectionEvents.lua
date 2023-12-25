@@ -4,7 +4,7 @@
 ---@class InspectionEvents: HighLevelTransition
 InspectionEvents = {}
 
----@param fields? table
+---@param fields? InspectionEvents
 ---@return InspectionEvents
 function InspectionEvents.new(fields) return end
 

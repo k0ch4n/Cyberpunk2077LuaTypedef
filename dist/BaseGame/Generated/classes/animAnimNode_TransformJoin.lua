@@ -5,6 +5,6 @@
 ---@field public input animTransformLink
 animAnimNode_TransformJoin = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformJoin
 ---@return animAnimNode_TransformJoin
 function animAnimNode_TransformJoin.new(fields) return end

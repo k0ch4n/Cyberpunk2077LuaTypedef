@@ -5,6 +5,6 @@
 ---@field public value Int32
 questInt32FixedValueProvider = {}
 
----@param fields? table
+---@param fields? questInt32FixedValueProvider
 ---@return questInt32FixedValueProvider
 function questInt32FixedValueProvider.new(fields) return end

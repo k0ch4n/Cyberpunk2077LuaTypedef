@@ -6,6 +6,6 @@
 ---@field public areaID gamePersistentID
 PreventionSecurityAreaRequest = {}
 
----@param fields? table
+---@param fields? PreventionSecurityAreaRequest
 ---@return PreventionSecurityAreaRequest
 function PreventionSecurityAreaRequest.new(fields) return end

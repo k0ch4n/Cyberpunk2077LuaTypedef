@@ -12,6 +12,6 @@
 ---@field public useStop Bool
 gameActionMoveToDynamicNodeState = {}
 
----@param fields? table
+---@param fields? gameActionMoveToDynamicNodeState
 ---@return gameActionMoveToDynamicNodeState
 function gameActionMoveToDynamicNodeState.new(fields) return end

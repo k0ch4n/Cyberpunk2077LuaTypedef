@@ -9,6 +9,6 @@
 ---@field public inspectedObjID entEntityID
 InspectionTriggerEvent = {}
 
----@param fields? table
+---@param fields? InspectionTriggerEvent
 ---@return InspectionTriggerEvent
 function InspectionTriggerEvent.new(fields) return end

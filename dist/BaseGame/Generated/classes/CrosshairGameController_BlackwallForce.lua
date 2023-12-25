@@ -10,7 +10,7 @@
 ---@field public owner gameObject
 CrosshairGameController_BlackwallForce = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_BlackwallForce
 ---@return CrosshairGameController_BlackwallForce
 function CrosshairGameController_BlackwallForce.new(fields) return end
 

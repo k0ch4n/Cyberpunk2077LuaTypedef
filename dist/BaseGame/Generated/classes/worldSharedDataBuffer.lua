@@ -5,6 +5,6 @@
 ---@field public buffer DataBuffer
 worldSharedDataBuffer = {}
 
----@param fields? table
+---@param fields? worldSharedDataBuffer
 ---@return worldSharedDataBuffer
 function worldSharedDataBuffer.new(fields) return end

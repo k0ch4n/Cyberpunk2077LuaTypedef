@@ -12,6 +12,6 @@
 ---@field public markCamerCut Bool
 scneventsPlayRidCameraAnimEvent = {}
 
----@param fields? table
+---@param fields? scneventsPlayRidCameraAnimEvent
 ---@return scneventsPlayRidCameraAnimEvent
 function scneventsPlayRidCameraAnimEvent.new(fields) return end

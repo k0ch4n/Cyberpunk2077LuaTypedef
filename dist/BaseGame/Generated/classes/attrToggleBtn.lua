@@ -5,6 +5,6 @@
 ---@field public nLabel String
 attrToggleBtn = {}
 
----@param fields? table
+---@param fields? attrToggleBtn
 ---@return attrToggleBtn
 function attrToggleBtn.new(fields) return end

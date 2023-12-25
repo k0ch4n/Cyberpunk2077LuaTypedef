@@ -4,7 +4,7 @@
 ---@class HitStatusEffectPresentPrereqState: GenericHitPrereqState
 HitStatusEffectPresentPrereqState = {}
 
----@param fields? table
+---@param fields? HitStatusEffectPresentPrereqState
 ---@return HitStatusEffectPresentPrereqState
 function HitStatusEffectPresentPrereqState.new(fields) return end
 

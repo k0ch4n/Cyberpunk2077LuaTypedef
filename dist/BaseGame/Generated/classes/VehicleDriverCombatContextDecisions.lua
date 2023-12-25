@@ -9,7 +9,7 @@
 ---@field protected isAiming Bool
 VehicleDriverCombatContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleDriverCombatContextDecisions
 ---@return VehicleDriverCombatContextDecisions
 function VehicleDriverCombatContextDecisions.new(fields) return end
 

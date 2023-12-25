@@ -4,6 +4,6 @@
 ---@class gamemappinsStealthMappinStatsListener: gameIStatsListener
 gamemappinsStealthMappinStatsListener = {}
 
----@param fields? table
+---@param fields? gamemappinsStealthMappinStatsListener
 ---@return gamemappinsStealthMappinStatsListener
 function gamemappinsStealthMappinStatsListener.new(fields) return end

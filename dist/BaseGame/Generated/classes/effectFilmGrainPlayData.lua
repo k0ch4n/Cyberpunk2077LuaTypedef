@@ -4,6 +4,6 @@
 ---@class effectFilmGrainPlayData: effectPlacedTrackItemPlayData
 effectFilmGrainPlayData = {}
 
----@param fields? table
+---@param fields? effectFilmGrainPlayData
 ---@return effectFilmGrainPlayData
 function effectFilmGrainPlayData.new(fields) return end

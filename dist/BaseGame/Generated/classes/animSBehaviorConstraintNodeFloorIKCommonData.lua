@@ -9,6 +9,6 @@
 ---@field public slidingOnSlopeBlendTime Float
 animSBehaviorConstraintNodeFloorIKCommonData = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKCommonData
 ---@return animSBehaviorConstraintNodeFloorIKCommonData
 function animSBehaviorConstraintNodeFloorIKCommonData.new(fields) return end

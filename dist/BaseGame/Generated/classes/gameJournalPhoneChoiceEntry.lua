@@ -7,7 +7,7 @@
 ---@field public questCondition questIBaseCondition
 gameJournalPhoneChoiceEntry = {}
 
----@param fields? table
+---@param fields? gameJournalPhoneChoiceEntry
 ---@return gameJournalPhoneChoiceEntry
 function gameJournalPhoneChoiceEntry.new(fields) return end
 

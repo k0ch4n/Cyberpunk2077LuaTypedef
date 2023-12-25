@@ -5,7 +5,7 @@
 ---@field protected reflectorSFX ReflectorSFX
 BlindingLightControllerPS = {}
 
----@param fields? table
+---@param fields? BlindingLightControllerPS
 ---@return BlindingLightControllerPS
 function BlindingLightControllerPS.new(fields) return end
 

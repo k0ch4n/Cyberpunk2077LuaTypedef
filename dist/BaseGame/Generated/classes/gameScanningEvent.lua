@@ -5,6 +5,6 @@
 ---@field public state gameScanningState
 gameScanningEvent = {}
 
----@param fields? table
+---@param fields? gameScanningEvent
 ---@return gameScanningEvent
 function gameScanningEvent.new(fields) return end

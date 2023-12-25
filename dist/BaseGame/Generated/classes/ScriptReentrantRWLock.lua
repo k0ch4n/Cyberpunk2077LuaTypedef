@@ -4,7 +4,7 @@
 ---@class ScriptReentrantRWLock
 ScriptReentrantRWLock = {}
 
----@param fields? table
+---@param fields? ScriptReentrantRWLock
 ---@return ScriptReentrantRWLock
 function ScriptReentrantRWLock.new(fields) return end
 

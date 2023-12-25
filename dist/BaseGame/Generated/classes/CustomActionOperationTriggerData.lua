@@ -5,6 +5,6 @@
 ---@field public actionID CName
 CustomActionOperationTriggerData = {}
 
----@param fields? table
+---@param fields? CustomActionOperationTriggerData
 ---@return CustomActionOperationTriggerData
 function CustomActionOperationTriggerData.new(fields) return end

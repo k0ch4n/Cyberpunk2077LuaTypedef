@@ -7,7 +7,7 @@
 ---@field public vehicleOnEngineOff Bool
 VehicleQuestToggleEngineEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestToggleEngineEvent
 ---@return VehicleQuestToggleEngineEvent
 function VehicleQuestToggleEngineEvent.new(fields) return end
 

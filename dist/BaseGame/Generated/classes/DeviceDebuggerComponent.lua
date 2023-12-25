@@ -12,7 +12,7 @@
 ---@field private layerIDs Uint32[]
 DeviceDebuggerComponent = {}
 
----@param fields? table
+---@param fields? DeviceDebuggerComponent
 ---@return DeviceDebuggerComponent
 function DeviceDebuggerComponent.new(fields) return end
 

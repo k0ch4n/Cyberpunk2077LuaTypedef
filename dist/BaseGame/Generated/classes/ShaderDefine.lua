@@ -6,6 +6,6 @@
 ---@field public value String
 ShaderDefine = {}
 
----@param fields? table
+---@param fields? ShaderDefine
 ---@return ShaderDefine
 function ShaderDefine.new(fields) return end

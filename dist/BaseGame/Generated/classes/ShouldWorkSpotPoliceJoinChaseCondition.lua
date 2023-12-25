@@ -4,7 +4,7 @@
 ---@class ShouldWorkSpotPoliceJoinChaseCondition: PreventionConditionAbstract
 ShouldWorkSpotPoliceJoinChaseCondition = {}
 
----@param fields? table
+---@param fields? ShouldWorkSpotPoliceJoinChaseCondition
 ---@return ShouldWorkSpotPoliceJoinChaseCondition
 function ShouldWorkSpotPoliceJoinChaseCondition.new(fields) return end
 

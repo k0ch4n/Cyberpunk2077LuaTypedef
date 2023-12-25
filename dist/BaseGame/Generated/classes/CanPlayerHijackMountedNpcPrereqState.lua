@@ -5,7 +5,7 @@
 ---@field public mountingListener gameScriptedPrereqMountingListenerWrapper
 CanPlayerHijackMountedNpcPrereqState = {}
 
----@param fields? table
+---@param fields? CanPlayerHijackMountedNpcPrereqState
 ---@return CanPlayerHijackMountedNpcPrereqState
 function CanPlayerHijackMountedNpcPrereqState.new(fields) return end
 

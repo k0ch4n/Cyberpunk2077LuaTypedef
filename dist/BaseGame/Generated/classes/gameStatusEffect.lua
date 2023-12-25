@@ -18,7 +18,7 @@
 ---@field public applicationSource CName
 gameStatusEffect = {}
 
----@param fields? table
+---@param fields? gameStatusEffect
 ---@return gameStatusEffect
 function gameStatusEffect.new(fields) return end
 

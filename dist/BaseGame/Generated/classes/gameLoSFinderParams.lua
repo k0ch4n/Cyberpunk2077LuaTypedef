@@ -4,7 +4,7 @@
 ---@class gameLoSFinderParams: IScriptable
 gameLoSFinderParams = {}
 
----@param fields? table
+---@param fields? gameLoSFinderParams
 ---@return gameLoSFinderParams
 function gameLoSFinderParams.new(fields) return end
 

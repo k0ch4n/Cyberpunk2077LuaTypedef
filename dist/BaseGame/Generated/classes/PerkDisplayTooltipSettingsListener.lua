@@ -5,7 +5,7 @@
 ---@field private ctrl PerkDisplayTooltipController
 PerkDisplayTooltipSettingsListener = {}
 
----@param fields? table
+---@param fields? PerkDisplayTooltipSettingsListener
 ---@return PerkDisplayTooltipSettingsListener
 function PerkDisplayTooltipSettingsListener.new(fields) return end
 

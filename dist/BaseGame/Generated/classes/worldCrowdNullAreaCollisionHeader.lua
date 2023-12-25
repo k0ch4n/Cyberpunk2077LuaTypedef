@@ -9,6 +9,6 @@
 ---@field public userData Uint64
 worldCrowdNullAreaCollisionHeader = {}
 
----@param fields? table
+---@param fields? worldCrowdNullAreaCollisionHeader
 ---@return worldCrowdNullAreaCollisionHeader
 function worldCrowdNullAreaCollisionHeader.new(fields) return end

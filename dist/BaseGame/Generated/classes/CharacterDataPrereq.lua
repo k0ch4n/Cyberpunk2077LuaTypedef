@@ -5,7 +5,7 @@
 ---@field public idToCheck TweakDBID
 CharacterDataPrereq = {}
 
----@param fields? table
+---@param fields? CharacterDataPrereq
 ---@return CharacterDataPrereq
 function CharacterDataPrereq.new(fields) return end
 

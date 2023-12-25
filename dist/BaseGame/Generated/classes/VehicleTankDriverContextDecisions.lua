@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 VehicleTankDriverContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleTankDriverContextDecisions
 ---@return VehicleTankDriverContextDecisions
 function VehicleTankDriverContextDecisions.new(fields) return end
 

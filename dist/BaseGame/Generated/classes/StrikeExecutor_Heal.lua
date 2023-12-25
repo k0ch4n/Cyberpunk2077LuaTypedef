@@ -5,7 +5,7 @@
 ---@field private healthPerc Float
 StrikeExecutor_Heal = {}
 
----@param fields? table
+---@param fields? StrikeExecutor_Heal
 ---@return StrikeExecutor_Heal
 function StrikeExecutor_Heal.new(fields) return end
 

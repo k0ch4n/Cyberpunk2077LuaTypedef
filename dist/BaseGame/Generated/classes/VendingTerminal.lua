@@ -7,7 +7,7 @@
 ---@field protected vendingBlacklist EVendorMode[]
 VendingTerminal = {}
 
----@param fields? table
+---@param fields? VendingTerminal
 ---@return VendingTerminal
 function VendingTerminal.new(fields) return end
 

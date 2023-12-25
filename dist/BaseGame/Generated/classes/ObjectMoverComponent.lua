@@ -4,6 +4,6 @@
 ---@class ObjectMoverComponent: gameScriptableComponent
 ObjectMoverComponent = {}
 
----@param fields? table
+---@param fields? ObjectMoverComponent
 ---@return ObjectMoverComponent
 function ObjectMoverComponent.new(fields) return end

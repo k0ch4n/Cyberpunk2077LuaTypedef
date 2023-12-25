@@ -13,6 +13,6 @@
 ---@field public trafficTryNeighborsForEnd Bool
 questvehicleToNodeParams = {}
 
----@param fields? table
+---@param fields? questvehicleToNodeParams
 ---@return questvehicleToNodeParams
 function questvehicleToNodeParams.new(fields) return end

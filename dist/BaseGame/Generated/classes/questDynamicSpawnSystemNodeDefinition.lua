@@ -5,6 +5,6 @@
 ---@field public type questIDynamicSpawnSystemType
 questDynamicSpawnSystemNodeDefinition = {}
 
----@param fields? table
+---@param fields? questDynamicSpawnSystemNodeDefinition
 ---@return questDynamicSpawnSystemNodeDefinition
 function questDynamicSpawnSystemNodeDefinition.new(fields) return end

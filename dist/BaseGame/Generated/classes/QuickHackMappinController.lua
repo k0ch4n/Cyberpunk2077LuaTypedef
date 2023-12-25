@@ -15,7 +15,7 @@
 ---@field private animQueue inkanimProxy
 QuickHackMappinController = {}
 
----@param fields? table
+---@param fields? QuickHackMappinController
 ---@return QuickHackMappinController
 function QuickHackMappinController.new(fields) return end
 

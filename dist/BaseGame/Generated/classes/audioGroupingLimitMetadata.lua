@@ -5,6 +5,6 @@
 ---@field public limit Float
 audioGroupingLimitMetadata = {}
 
----@param fields? table
+---@param fields? audioGroupingLimitMetadata
 ---@return audioGroupingLimitMetadata
 function audioGroupingLimitMetadata.new(fields) return end

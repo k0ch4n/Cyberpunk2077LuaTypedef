@@ -6,6 +6,6 @@
 ---@field public controller GogRewardEntryController
 GogRewardsEntryHoverOver = {}
 
----@param fields? table
+---@param fields? GogRewardsEntryHoverOver
 ---@return GogRewardsEntryHoverOver
 function GogRewardsEntryHoverOver.new(fields) return end

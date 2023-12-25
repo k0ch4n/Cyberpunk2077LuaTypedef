@@ -4,7 +4,7 @@
 ---@class InStealthHighLevelState: AINPCHighLevelStateCheck
 InStealthHighLevelState = {}
 
----@param fields? table
+---@param fields? InStealthHighLevelState
 ---@return InStealthHighLevelState
 function InStealthHighLevelState.new(fields) return end
 

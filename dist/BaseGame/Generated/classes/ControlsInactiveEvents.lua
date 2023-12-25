@@ -4,7 +4,7 @@
 ---@class ControlsInactiveEvents: BraindanceControlsTransition
 ControlsInactiveEvents = {}
 
----@param fields? table
+---@param fields? ControlsInactiveEvents
 ---@return ControlsInactiveEvents
 function ControlsInactiveEvents.new(fields) return end
 

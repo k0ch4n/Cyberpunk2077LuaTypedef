@@ -8,6 +8,6 @@
 ---@field public AttributeID TweakDBID
 RipperdocPerkHoverEvent = {}
 
----@param fields? table
+---@param fields? RipperdocPerkHoverEvent
 ---@return RipperdocPerkHoverEvent
 function RipperdocPerkHoverEvent.new(fields) return end

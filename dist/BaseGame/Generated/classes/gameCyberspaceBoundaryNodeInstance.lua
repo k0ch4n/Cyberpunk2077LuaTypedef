@@ -4,6 +4,6 @@
 ---@class gameCyberspaceBoundaryNodeInstance: worldTriggerAreaNodeInstance
 gameCyberspaceBoundaryNodeInstance = {}
 
----@param fields? table
+---@param fields? gameCyberspaceBoundaryNodeInstance
 ---@return gameCyberspaceBoundaryNodeInstance
 function gameCyberspaceBoundaryNodeInstance.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public input animBoolLink
 animAnimNode_BoolLatch = {}
 
----@param fields? table
+---@param fields? animAnimNode_BoolLatch
 ---@return animAnimNode_BoolLatch
 function animAnimNode_BoolLatch.new(fields) return end

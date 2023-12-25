@@ -6,7 +6,7 @@
 ---@field public delayTime Float
 VehicleQuestDelayedHornEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestDelayedHornEvent
 ---@return VehicleQuestDelayedHornEvent
 function VehicleQuestDelayedHornEvent.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameCurrentTargetPrereq: gameIPrereq
 gameCurrentTargetPrereq = {}
 
----@param fields? table
+---@param fields? gameCurrentTargetPrereq
 ---@return gameCurrentTargetPrereq
 function gameCurrentTargetPrereq.new(fields) return end

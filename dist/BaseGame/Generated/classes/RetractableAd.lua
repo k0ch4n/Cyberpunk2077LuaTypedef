@@ -8,7 +8,7 @@
 ---@field protected isPartOfTheTrap Bool
 RetractableAd = {}
 
----@param fields? table
+---@param fields? RetractableAd
 ---@return RetractableAd
 function RetractableAd.new(fields) return end
 

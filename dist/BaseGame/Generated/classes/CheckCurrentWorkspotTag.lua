@@ -5,7 +5,7 @@
 ---@field public tag AIArgumentMapping
 CheckCurrentWorkspotTag = {}
 
----@param fields? table
+---@param fields? CheckCurrentWorkspotTag
 ---@return CheckCurrentWorkspotTag
 function CheckCurrentWorkspotTag.new(fields) return end
 

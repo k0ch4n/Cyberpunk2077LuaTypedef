@@ -4,7 +4,7 @@
 ---@class PopupStateUtils: IScriptable
 PopupStateUtils = {}
 
----@param fields? table
+---@param fields? PopupStateUtils
 ---@return PopupStateUtils
 function PopupStateUtils.new(fields) return end
 

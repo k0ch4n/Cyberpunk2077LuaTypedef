@@ -41,6 +41,6 @@
 ---@field public enableAdjustingPlayerPositionToTarget Bool
 gameMeleeAttackData = {}
 
----@param fields? table
+---@param fields? gameMeleeAttackData
 ---@return gameMeleeAttackData
 function gameMeleeAttackData.new(fields) return end

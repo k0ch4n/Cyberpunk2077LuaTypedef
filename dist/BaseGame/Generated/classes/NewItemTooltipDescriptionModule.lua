@@ -6,7 +6,7 @@
 ---@field private defaultMargin inkMargin
 NewItemTooltipDescriptionModule = {}
 
----@param fields? table
+---@param fields? NewItemTooltipDescriptionModule
 ---@return NewItemTooltipDescriptionModule
 function NewItemTooltipDescriptionModule.new(fields) return end
 

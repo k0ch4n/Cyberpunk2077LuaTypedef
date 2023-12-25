@@ -5,7 +5,7 @@
 ---@field private hitReactionComponent HitReactionComponent
 SimpleShouldEvadeCondition = {}
 
----@param fields? table
+---@param fields? SimpleShouldEvadeCondition
 ---@return SimpleShouldEvadeCondition
 function SimpleShouldEvadeCondition.new(fields) return end
 

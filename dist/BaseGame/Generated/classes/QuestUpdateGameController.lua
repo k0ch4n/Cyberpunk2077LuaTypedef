@@ -11,7 +11,7 @@
 ---@field private journalMgr gameJournalManager
 QuestUpdateGameController = {}
 
----@param fields? table
+---@param fields? QuestUpdateGameController
 ---@return QuestUpdateGameController
 function QuestUpdateGameController.new(fields) return end
 

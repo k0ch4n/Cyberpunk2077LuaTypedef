@@ -4,7 +4,7 @@
 ---@class FactInvokerController: MasterController
 FactInvokerController = {}
 
----@param fields? table
+---@param fields? FactInvokerController
 ---@return FactInvokerController
 function FactInvokerController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameResetContainerEvent: redEvent
 gameResetContainerEvent = {}
 
----@param fields? table
+---@param fields? gameResetContainerEvent
 ---@return gameResetContainerEvent
 function gameResetContainerEvent.new(fields) return end

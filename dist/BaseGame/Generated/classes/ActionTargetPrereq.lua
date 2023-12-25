@@ -6,7 +6,7 @@
 ---@field public invert Bool
 ActionTargetPrereq = {}
 
----@param fields? table
+---@param fields? ActionTargetPrereq
 ---@return ActionTargetPrereq
 function ActionTargetPrereq.new(fields) return end
 

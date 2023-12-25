@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemWorldStreaming: worldIRuntimeSystem
 worldRuntimeSystemWorldStreaming = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemWorldStreaming
 ---@return worldRuntimeSystemWorldStreaming
 function worldRuntimeSystemWorldStreaming.new(fields) return end

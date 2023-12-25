@@ -4,6 +4,6 @@
 ---@class UpdateVisibilityModifierEvent: redEvent
 UpdateVisibilityModifierEvent = {}
 
----@param fields? table
+---@param fields? UpdateVisibilityModifierEvent
 ---@return UpdateVisibilityModifierEvent
 function UpdateVisibilityModifierEvent.new(fields) return end

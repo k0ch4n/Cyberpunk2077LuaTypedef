@@ -6,6 +6,6 @@
 ---@field public distantLightFadeDistance Float
 DistantLightsAreaSettings = {}
 
----@param fields? table
+---@param fields? DistantLightsAreaSettings
 ---@return DistantLightsAreaSettings
 function DistantLightsAreaSettings.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public cameraAnimationLOD scnCameraAnimationLOD
 scnCameraAnimationRid = {}
 
----@param fields? table
+---@param fields? scnCameraAnimationRid
 ---@return scnCameraAnimationRid
 function scnCameraAnimationRid.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public type questIDynamicSpawnSystemConditionType
 questDynamicSpawnSystemCondition = {}
 
----@param fields? table
+---@param fields? questDynamicSpawnSystemCondition
 ---@return questDynamicSpawnSystemCondition
 function questDynamicSpawnSystemCondition.new(fields) return end

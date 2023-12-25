@@ -5,6 +5,6 @@
 ---@field public iteration Int32
 ResolveSensorDeviceBehaviour = {}
 
----@param fields? table
+---@param fields? ResolveSensorDeviceBehaviour
 ---@return ResolveSensorDeviceBehaviour
 function ResolveSensorDeviceBehaviour.new(fields) return end

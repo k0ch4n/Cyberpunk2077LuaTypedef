@@ -6,6 +6,6 @@
 ---@field public blackboard gameIBlackboard
 CreateCustomBlackboardEvent = {}
 
----@param fields? table
+---@param fields? CreateCustomBlackboardEvent
 ---@return CreateCustomBlackboardEvent
 function CreateCustomBlackboardEvent.new(fields) return end

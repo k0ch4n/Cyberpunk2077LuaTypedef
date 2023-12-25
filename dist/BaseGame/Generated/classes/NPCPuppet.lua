@@ -80,7 +80,7 @@
 ---@field private despawnTicks Uint32
 NPCPuppet = {}
 
----@param fields? table
+---@param fields? NPCPuppet
 ---@return NPCPuppet
 function NPCPuppet.new(fields) return end
 

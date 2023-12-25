@@ -4,6 +4,6 @@
 ---@class gameHitShapeUserData: IScriptable
 gameHitShapeUserData = {}
 
----@param fields? table
+---@param fields? gameHitShapeUserData
 ---@return gameHitShapeUserData
 function gameHitShapeUserData.new(fields) return end

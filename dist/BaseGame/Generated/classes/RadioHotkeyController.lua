@@ -11,7 +11,7 @@
 ---@field private isInDefaultState Bool
 RadioHotkeyController = {}
 
----@param fields? table
+---@param fields? RadioHotkeyController
 ---@return RadioHotkeyController
 function RadioHotkeyController.new(fields) return end
 

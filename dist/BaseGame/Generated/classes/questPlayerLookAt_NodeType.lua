@@ -19,6 +19,6 @@
 ---@field public easeOut Bool
 questPlayerLookAt_NodeType = {}
 
----@param fields? table
+---@param fields? questPlayerLookAt_NodeType
 ---@return questPlayerLookAt_NodeType
 function questPlayerLookAt_NodeType.new(fields) return end

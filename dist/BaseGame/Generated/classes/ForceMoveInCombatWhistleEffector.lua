@@ -5,7 +5,7 @@
 ---@field public targetPosition Vector4
 ForceMoveInCombatWhistleEffector = {}
 
----@param fields? table
+---@param fields? ForceMoveInCombatWhistleEffector
 ---@return ForceMoveInCombatWhistleEffector
 function ForceMoveInCombatWhistleEffector.new(fields) return end
 

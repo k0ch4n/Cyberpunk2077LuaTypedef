@@ -8,6 +8,6 @@
 ---@field public exitCurveTime Float
 audioAcousticZoneParameterMapItem = {}
 
----@param fields? table
+---@param fields? audioAcousticZoneParameterMapItem
 ---@return audioAcousticZoneParameterMapItem
 function audioAcousticZoneParameterMapItem.new(fields) return end

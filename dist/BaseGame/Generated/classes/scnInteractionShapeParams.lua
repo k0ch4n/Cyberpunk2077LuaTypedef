@@ -12,6 +12,6 @@
 ---@field public activationHeight Float
 scnInteractionShapeParams = {}
 
----@param fields? table
+---@param fields? scnInteractionShapeParams
 ---@return scnInteractionShapeParams
 function scnInteractionShapeParams.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class LadderEnterContextDecisions: InputContextTransitionDecisions
 LadderEnterContextDecisions = {}
 
----@param fields? table
+---@param fields? LadderEnterContextDecisions
 ---@return LadderEnterContextDecisions
 function LadderEnterContextDecisions.new(fields) return end
 

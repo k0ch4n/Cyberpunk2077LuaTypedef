@@ -5,7 +5,7 @@
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcMountedInSlotPrereqState = {}
 
----@param fields? table
+---@param fields? IsNpcMountedInSlotPrereqState
 ---@return IsNpcMountedInSlotPrereqState
 function IsNpcMountedInSlotPrereqState.new(fields) return end
 

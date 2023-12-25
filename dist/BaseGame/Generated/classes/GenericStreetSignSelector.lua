@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 GenericStreetSignSelector = {}
 
----@param fields? table
+---@param fields? GenericStreetSignSelector
 ---@return GenericStreetSignSelector
 function GenericStreetSignSelector.new(fields) return end
 

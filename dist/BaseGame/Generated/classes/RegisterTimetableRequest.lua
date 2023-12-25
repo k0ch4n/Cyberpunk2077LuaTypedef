@@ -7,6 +7,6 @@
 ---@field public lights Int32
 RegisterTimetableRequest = {}
 
----@param fields? table
+---@param fields? RegisterTimetableRequest
 ---@return RegisterTimetableRequest
 function RegisterTimetableRequest.new(fields) return end

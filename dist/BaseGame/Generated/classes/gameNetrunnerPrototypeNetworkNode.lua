@@ -5,7 +5,7 @@
 ---@field public colorIndex Int8
 gameNetrunnerPrototypeNetworkNode = {}
 
----@param fields? table
+---@param fields? gameNetrunnerPrototypeNetworkNode
 ---@return gameNetrunnerPrototypeNetworkNode
 function gameNetrunnerPrototypeNetworkNode.new(fields) return end
 

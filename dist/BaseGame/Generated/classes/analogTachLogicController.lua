@@ -11,7 +11,7 @@
 ---@field private rpmMinValue Float
 analogTachLogicController = {}
 
----@param fields? table
+---@param fields? analogTachLogicController
 ---@return analogTachLogicController
 function analogTachLogicController.new(fields) return end
 

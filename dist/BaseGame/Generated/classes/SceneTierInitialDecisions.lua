@@ -4,7 +4,7 @@
 ---@class SceneTierInitialDecisions: SceneTierAbstract
 SceneTierInitialDecisions = {}
 
----@param fields? table
+---@param fields? SceneTierInitialDecisions
 ---@return SceneTierInitialDecisions
 function SceneTierInitialDecisions.new(fields) return end
 

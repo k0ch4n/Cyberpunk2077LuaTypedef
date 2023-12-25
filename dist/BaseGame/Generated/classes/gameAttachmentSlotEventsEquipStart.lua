@@ -4,7 +4,7 @@
 ---@class gameAttachmentSlotEventsEquipStart: gameAttachmentSlotEventsAttachmentSlotEvent
 gameAttachmentSlotEventsEquipStart = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsEquipStart
 ---@return gameAttachmentSlotEventsEquipStart
 function gameAttachmentSlotEventsEquipStart.new(fields) return end
 

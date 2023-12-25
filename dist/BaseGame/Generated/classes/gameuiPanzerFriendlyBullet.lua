@@ -4,6 +4,6 @@
 ---@class gameuiPanzerFriendlyBullet: gameuiPanzerBullet
 gameuiPanzerFriendlyBullet = {}
 
----@param fields? table
+---@param fields? gameuiPanzerFriendlyBullet
 ---@return gameuiPanzerFriendlyBullet
 function gameuiPanzerFriendlyBullet.new(fields) return end

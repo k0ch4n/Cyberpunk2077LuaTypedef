@@ -6,6 +6,6 @@
 ---@field public component entIComponent
 enteventsHitCharacterControllerEvent = {}
 
----@param fields? table
+---@param fields? enteventsHitCharacterControllerEvent
 ---@return enteventsHitCharacterControllerEvent
 function enteventsHitCharacterControllerEvent.new(fields) return end

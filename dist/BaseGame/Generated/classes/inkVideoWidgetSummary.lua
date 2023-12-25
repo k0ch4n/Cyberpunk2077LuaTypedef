@@ -11,6 +11,6 @@
 ---@field public frameRate Uint32
 inkVideoWidgetSummary = {}
 
----@param fields? table
+---@param fields? inkVideoWidgetSummary
 ---@return inkVideoWidgetSummary
 function inkVideoWidgetSummary.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field public owner ScriptGameInstance
 ChargedItemsPrereqState = {}
 
----@param fields? table
+---@param fields? ChargedItemsPrereqState
 ---@return ChargedItemsPrereqState
 function ChargedItemsPrereqState.new(fields) return end
 

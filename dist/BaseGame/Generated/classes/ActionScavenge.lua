@@ -4,7 +4,7 @@
 ---@class ActionScavenge: ActionInt
 ActionScavenge = {}
 
----@param fields? table
+---@param fields? ActionScavenge
 ---@return ActionScavenge
 function ActionScavenge.new(fields) return end
 

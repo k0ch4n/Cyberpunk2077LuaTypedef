@@ -6,6 +6,6 @@
 ---@field public forceMaxVisibility Bool
 scnFindEntityInWorldParams = {}
 
----@param fields? table
+---@param fields? scnFindEntityInWorldParams
 ---@return scnFindEntityInWorldParams
 function scnFindEntityInWorldParams.new(fields) return end

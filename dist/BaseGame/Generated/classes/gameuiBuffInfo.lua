@@ -8,6 +8,6 @@
 ---@field public stackCount Uint32
 gameuiBuffInfo = {}
 
----@param fields? table
+---@param fields? gameuiBuffInfo
 ---@return gameuiBuffInfo
 function gameuiBuffInfo.new(fields) return end

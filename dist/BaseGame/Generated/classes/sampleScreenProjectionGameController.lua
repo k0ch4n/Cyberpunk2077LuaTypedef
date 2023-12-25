@@ -5,7 +5,7 @@
 ---@field private OnTargetHitCallback redCallbackObject
 sampleScreenProjectionGameController = {}
 
----@param fields? table
+---@param fields? sampleScreenProjectionGameController
 ---@return sampleScreenProjectionGameController
 function sampleScreenProjectionGameController.new(fields) return end
 

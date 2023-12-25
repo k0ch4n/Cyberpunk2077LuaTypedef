@@ -7,6 +7,6 @@
 ---@field public rightHandSide AIbehaviorExpressionSocket
 AIbehaviorComparisonExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorComparisonExpressionDefinition
 ---@return AIbehaviorComparisonExpressionDefinition
 function AIbehaviorComparisonExpressionDefinition.new(fields) return end

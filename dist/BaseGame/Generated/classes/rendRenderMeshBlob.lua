@@ -6,6 +6,6 @@
 ---@field public renderBuffer DataBuffer
 rendRenderMeshBlob = {}
 
----@param fields? table
+---@param fields? rendRenderMeshBlob
 ---@return rendRenderMeshBlob
 function rendRenderMeshBlob.new(fields) return end

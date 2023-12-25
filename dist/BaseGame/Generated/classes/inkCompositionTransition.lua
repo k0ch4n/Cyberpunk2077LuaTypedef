@@ -6,6 +6,6 @@
 ---@field public interpolators inkCompositionInterpolator[]
 inkCompositionTransition = {}
 
----@param fields? table
+---@param fields? inkCompositionTransition
 ---@return inkCompositionTransition
 function inkCompositionTransition.new(fields) return end

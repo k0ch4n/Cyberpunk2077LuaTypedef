@@ -4,7 +4,7 @@
 ---@class inkMenuScenario: IScriptable
 inkMenuScenario = {}
 
----@param fields? table
+---@param fields? inkMenuScenario
 ---@return inkMenuScenario
 function inkMenuScenario.new(fields) return end
 

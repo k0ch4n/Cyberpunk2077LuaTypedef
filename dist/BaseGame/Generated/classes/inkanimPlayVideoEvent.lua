@@ -5,6 +5,6 @@
 ---@field public videoResource Bink
 inkanimPlayVideoEvent = {}
 
----@param fields? table
+---@param fields? inkanimPlayVideoEvent
 ---@return inkanimPlayVideoEvent
 function inkanimPlayVideoEvent.new(fields) return end

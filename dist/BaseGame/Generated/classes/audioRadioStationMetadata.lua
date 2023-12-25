@@ -7,6 +7,6 @@
 ---@field public speaker audioRadioSpeakerType
 audioRadioStationMetadata = {}
 
----@param fields? table
+---@param fields? audioRadioStationMetadata
 ---@return audioRadioStationMetadata
 function audioRadioStationMetadata.new(fields) return end

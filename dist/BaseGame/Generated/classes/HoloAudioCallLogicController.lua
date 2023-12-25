@@ -8,7 +8,7 @@
 ---@field private Owner gameObject
 HoloAudioCallLogicController = {}
 
----@param fields? table
+---@param fields? HoloAudioCallLogicController
 ---@return HoloAudioCallLogicController
 function HoloAudioCallLogicController.new(fields) return end
 

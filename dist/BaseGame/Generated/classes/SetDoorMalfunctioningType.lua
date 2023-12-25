@@ -5,7 +5,7 @@
 ---@field public malfunctioningType EMalfunctioningType
 SetDoorMalfunctioningType = {}
 
----@param fields? table
+---@param fields? SetDoorMalfunctioningType
 ---@return SetDoorMalfunctioningType
 function SetDoorMalfunctioningType.new(fields) return end
 

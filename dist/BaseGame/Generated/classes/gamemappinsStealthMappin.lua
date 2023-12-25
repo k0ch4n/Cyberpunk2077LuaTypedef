@@ -4,7 +4,7 @@
 ---@class gamemappinsStealthMappin: gamemappinsRuntimeMappin
 gamemappinsStealthMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsStealthMappin
 ---@return gamemappinsStealthMappin
 function gamemappinsStealthMappin.new(fields) return end
 

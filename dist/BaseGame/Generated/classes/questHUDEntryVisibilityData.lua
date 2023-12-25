@@ -6,6 +6,6 @@
 ---@field public visibility worlduiEntryVisibility
 questHUDEntryVisibilityData = {}
 
----@param fields? table
+---@param fields? questHUDEntryVisibilityData
 ---@return questHUDEntryVisibilityData
 function questHUDEntryVisibilityData.new(fields) return end

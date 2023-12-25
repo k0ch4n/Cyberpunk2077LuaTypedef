@@ -4,6 +4,6 @@
 ---@class animSyncMethodByFootPhase: animISyncMethod
 animSyncMethodByFootPhase = {}
 
----@param fields? table
+---@param fields? animSyncMethodByFootPhase
 ---@return animSyncMethodByFootPhase
 function animSyncMethodByFootPhase.new(fields) return end

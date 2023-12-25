@@ -6,7 +6,7 @@
 ---@field protected isCheckInverted Bool
 CanPlayerHijackMountedNpcPrereq = {}
 
----@param fields? table
+---@param fields? CanPlayerHijackMountedNpcPrereq
 ---@return CanPlayerHijackMountedNpcPrereq
 function CanPlayerHijackMountedNpcPrereq.new(fields) return end
 

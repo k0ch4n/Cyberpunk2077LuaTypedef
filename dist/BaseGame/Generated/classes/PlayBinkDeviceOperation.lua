@@ -5,7 +5,7 @@
 ---@field public bink SBinkperationData
 PlayBinkDeviceOperation = {}
 
----@param fields? table
+---@param fields? PlayBinkDeviceOperation
 ---@return PlayBinkDeviceOperation
 function PlayBinkDeviceOperation.new(fields) return end
 

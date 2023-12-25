@@ -4,6 +4,6 @@
 ---@class DelayedBikeKnockOffEvent: redEvent
 DelayedBikeKnockOffEvent = {}
 
----@param fields? table
+---@param fields? DelayedBikeKnockOffEvent
 ---@return DelayedBikeKnockOffEvent
 function DelayedBikeKnockOffEvent.new(fields) return end

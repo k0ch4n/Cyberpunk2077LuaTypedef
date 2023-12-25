@@ -6,7 +6,7 @@
 ---@field public hitComponent entIComponent
 gametargetingSystemTargetFilterResult = {}
 
----@param fields? table
+---@param fields? gametargetingSystemTargetFilterResult
 ---@return gametargetingSystemTargetFilterResult
 function gametargetingSystemTargetFilterResult.new(fields) return end
 

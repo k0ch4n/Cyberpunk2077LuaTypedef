@@ -4,6 +4,6 @@
 ---@class entAnimEntityToEntityAttachmentEvent: redEvent
 entAnimEntityToEntityAttachmentEvent = {}
 
----@param fields? table
+---@param fields? entAnimEntityToEntityAttachmentEvent
 ---@return entAnimEntityToEntityAttachmentEvent
 function entAnimEntityToEntityAttachmentEvent.new(fields) return end

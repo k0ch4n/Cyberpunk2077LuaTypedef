@@ -8,6 +8,6 @@
 ---@field public failure gamedebugFailure
 AIbehaviorNodeStatusDebuggerCommandEntry = {}
 
----@param fields? table
+---@param fields? AIbehaviorNodeStatusDebuggerCommandEntry
 ---@return AIbehaviorNodeStatusDebuggerCommandEntry
 function AIbehaviorNodeStatusDebuggerCommandEntry.new(fields) return end

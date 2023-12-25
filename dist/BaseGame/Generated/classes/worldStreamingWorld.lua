@@ -29,6 +29,6 @@
 ---@field public streamingQueryDataResource worldStreamingQueryDataResource
 worldStreamingWorld = {}
 
----@param fields? table
+---@param fields? worldStreamingWorld
 ---@return worldStreamingWorld
 function worldStreamingWorld.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field public markedToBeDespawned Bool
 NPCAgent = {}
 
----@param fields? table
+---@param fields? NPCAgent
 ---@return NPCAgent
 function NPCAgent.new(fields) return end
 

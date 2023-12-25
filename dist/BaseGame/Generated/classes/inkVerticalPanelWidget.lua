@@ -4,6 +4,6 @@
 ---@class inkVerticalPanelWidget: inkBasePanelWidget
 inkVerticalPanelWidget = {}
 
----@param fields? table
+---@param fields? inkVerticalPanelWidget
 ---@return inkVerticalPanelWidget
 function inkVerticalPanelWidget.new(fields) return end

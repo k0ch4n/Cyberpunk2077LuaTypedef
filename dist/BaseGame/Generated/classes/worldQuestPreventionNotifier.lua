@@ -6,6 +6,6 @@
 ---@field public activation worldQuestPreventionNotifierActivation
 worldQuestPreventionNotifier = {}
 
----@param fields? table
+---@param fields? worldQuestPreventionNotifier
 ---@return worldQuestPreventionNotifier
 function worldQuestPreventionNotifier.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestPause: ActionBool
 QuestPause = {}
 
----@param fields? table
+---@param fields? QuestPause
 ---@return QuestPause
 function QuestPause.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class StatusEffectSlot: RadialSlot
 StatusEffectSlot = {}
 
----@param fields? table
+---@param fields? StatusEffectSlot
 ---@return StatusEffectSlot
 function StatusEffectSlot.new(fields) return end
 

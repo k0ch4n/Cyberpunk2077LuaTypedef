@@ -8,7 +8,7 @@
 ---@field protected itemDisplayContext gameItemDisplayContext
 ItemTooltipModuleController = {}
 
----@param fields? table
+---@param fields? ItemTooltipModuleController
 ---@return ItemTooltipModuleController
 function ItemTooltipModuleController.new(fields) return end
 

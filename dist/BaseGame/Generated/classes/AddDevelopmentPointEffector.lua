@@ -7,7 +7,7 @@
 ---@field public tdbid TweakDBID
 AddDevelopmentPointEffector = {}
 
----@param fields? table
+---@param fields? AddDevelopmentPointEffector
 ---@return AddDevelopmentPointEffector
 function AddDevelopmentPointEffector.new(fields) return end
 

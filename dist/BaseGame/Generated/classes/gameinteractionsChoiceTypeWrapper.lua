@@ -5,7 +5,7 @@
 ---@field public properties Uint32
 gameinteractionsChoiceTypeWrapper = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceTypeWrapper
 ---@return gameinteractionsChoiceTypeWrapper
 function gameinteractionsChoiceTypeWrapper.new(fields) return end
 

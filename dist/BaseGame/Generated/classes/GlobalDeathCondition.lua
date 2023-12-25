@@ -4,7 +4,7 @@
 ---@class GlobalDeathCondition: AIDeathConditions
 GlobalDeathCondition = {}
 
----@param fields? table
+---@param fields? GlobalDeathCondition
 ---@return GlobalDeathCondition
 function GlobalDeathCondition.new(fields) return end
 

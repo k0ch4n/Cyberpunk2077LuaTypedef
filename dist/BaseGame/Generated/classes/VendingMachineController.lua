@@ -4,7 +4,7 @@
 ---@class VendingMachineController: ScriptableDeviceComponent
 VendingMachineController = {}
 
----@param fields? table
+---@param fields? VendingMachineController
 ---@return VendingMachineController
 function VendingMachineController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameuiMinimapHazardWarningMappinController: gameuiBaseMinimapMappinController
 gameuiMinimapHazardWarningMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapHazardWarningMappinController
 ---@return gameuiMinimapHazardWarningMappinController
 function gameuiMinimapHazardWarningMappinController.new(fields) return end

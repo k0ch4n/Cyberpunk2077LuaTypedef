@@ -4,7 +4,7 @@
 ---@class LocomotionSwimming: LocomotionTransition
 LocomotionSwimming = {}
 
----@param fields? table
+---@param fields? LocomotionSwimming
 ---@return LocomotionSwimming
 function LocomotionSwimming.new(fields) return end
 

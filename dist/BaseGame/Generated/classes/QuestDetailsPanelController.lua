@@ -33,7 +33,7 @@
 ---@field private objectiveActionsCount Int32
 QuestDetailsPanelController = {}
 
----@param fields? table
+---@param fields? QuestDetailsPanelController
 ---@return QuestDetailsPanelController
 function QuestDetailsPanelController.new(fields) return end
 

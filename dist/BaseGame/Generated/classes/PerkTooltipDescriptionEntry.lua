@@ -9,6 +9,6 @@
 ---@field public highlightLabel inkWidgetReference
 PerkTooltipDescriptionEntry = {}
 
----@param fields? table
+---@param fields? PerkTooltipDescriptionEntry
 ---@return PerkTooltipDescriptionEntry
 function PerkTooltipDescriptionEntry.new(fields) return end

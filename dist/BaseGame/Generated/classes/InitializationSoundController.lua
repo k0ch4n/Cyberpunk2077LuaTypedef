@@ -7,7 +7,7 @@
 ---@field private unitializeSoundName CName
 InitializationSoundController = {}
 
----@param fields? table
+---@param fields? InitializationSoundController
 ---@return InitializationSoundController
 function InitializationSoundController.new(fields) return end
 

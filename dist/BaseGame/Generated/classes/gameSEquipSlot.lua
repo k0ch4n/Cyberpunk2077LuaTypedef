@@ -8,6 +8,6 @@
 ---@field public visibleWhenLocked Bool
 gameSEquipSlot = {}
 
----@param fields? table
+---@param fields? gameSEquipSlot
 ---@return gameSEquipSlot
 function gameSEquipSlot.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public useVisualDebug Bool
 AICTreeNodeDebugLogDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeDebugLogDefinition
 ---@return AICTreeNodeDebugLogDefinition
 function AICTreeNodeDebugLogDefinition.new(fields) return end

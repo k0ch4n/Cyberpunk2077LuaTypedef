@@ -6,6 +6,6 @@
 ---@field public type gameVisionModeType
 gameVisionModeEvent = {}
 
----@param fields? table
+---@param fields? gameVisionModeEvent
 ---@return gameVisionModeEvent
 function gameVisionModeEvent.new(fields) return end

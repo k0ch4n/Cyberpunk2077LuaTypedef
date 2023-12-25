@@ -5,7 +5,7 @@
 ---@field public video Bink
 gameuiBinkResource = {}
 
----@param fields? table
+---@param fields? gameuiBinkResource
 ---@return gameuiBinkResource
 function gameuiBinkResource.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private data LevelUpUserData
 CharacterLevelUpGameController = {}
 
----@param fields? table
+---@param fields? CharacterLevelUpGameController
 ---@return CharacterLevelUpGameController
 function CharacterLevelUpGameController.new(fields) return end
 

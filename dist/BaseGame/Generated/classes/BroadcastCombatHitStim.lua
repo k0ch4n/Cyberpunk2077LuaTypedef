@@ -4,7 +4,7 @@
 ---@class BroadcastCombatHitStim: AIbehaviortaskScript
 BroadcastCombatHitStim = {}
 
----@param fields? table
+---@param fields? BroadcastCombatHitStim
 ---@return BroadcastCombatHitStim
 function BroadcastCombatHitStim.new(fields) return end
 

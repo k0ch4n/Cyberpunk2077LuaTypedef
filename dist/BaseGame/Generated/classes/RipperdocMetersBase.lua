@@ -27,7 +27,7 @@
 ---@field protected isIntroPlayed Bool
 RipperdocMetersBase = {}
 
----@param fields? table
+---@param fields? RipperdocMetersBase
 ---@return RipperdocMetersBase
 function RipperdocMetersBase.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public respawnPlatformDetails gameuiarcadeShooterExplodingPlatformSpawnDetail[]
 gameuiarcadeShooterCollisionController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterCollisionController
 ---@return gameuiarcadeShooterCollisionController
 function gameuiarcadeShooterCollisionController.new(fields) return end

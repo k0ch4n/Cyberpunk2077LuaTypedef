@@ -4,7 +4,7 @@
 ---@class gamedataNPCHighLevelState_Record: gamedataTweakDBRecord
 gamedataNPCHighLevelState_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCHighLevelState_Record
 ---@return gamedataNPCHighLevelState_Record
 function gamedataNPCHighLevelState_Record.new(fields) return end
 

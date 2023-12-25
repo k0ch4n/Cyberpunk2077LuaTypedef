@@ -4,6 +4,6 @@
 ---@class questNotImplementedAICommandParams: questAICommandParams
 questNotImplementedAICommandParams = {}
 
----@param fields? table
+---@param fields? questNotImplementedAICommandParams
 ---@return questNotImplementedAICommandParams
 function questNotImplementedAICommandParams.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public e3HackBlock Bool
 GameObjectListener = {}
 
----@param fields? table
+---@param fields? GameObjectListener
 ---@return GameObjectListener
 function GameObjectListener.new(fields) return end
 

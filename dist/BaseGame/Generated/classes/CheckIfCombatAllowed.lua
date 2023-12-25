@@ -4,7 +4,7 @@
 ---@class CheckIfCombatAllowed: AIDebugConditions
 CheckIfCombatAllowed = {}
 
----@param fields? table
+---@param fields? CheckIfCombatAllowed
 ---@return CheckIfCombatAllowed
 function CheckIfCombatAllowed.new(fields) return end
 

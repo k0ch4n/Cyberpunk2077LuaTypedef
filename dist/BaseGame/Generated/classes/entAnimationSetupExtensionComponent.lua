@@ -7,6 +7,6 @@
 ---@field public controlBinding entAnimationControlBinding
 entAnimationSetupExtensionComponent = {}
 
----@param fields? table
+---@param fields? entAnimationSetupExtensionComponent
 ---@return entAnimationSetupExtensionComponent
 function entAnimationSetupExtensionComponent.new(fields) return end

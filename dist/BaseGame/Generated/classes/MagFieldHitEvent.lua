@@ -4,6 +4,6 @@
 ---@class MagFieldHitEvent: redEvent
 MagFieldHitEvent = {}
 
----@param fields? table
+---@param fields? MagFieldHitEvent
 ---@return MagFieldHitEvent
 function MagFieldHitEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class VehicleRemoteControlDriverContextDecisions: VehicleGameplayContextDecisions
 VehicleRemoteControlDriverContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleRemoteControlDriverContextDecisions
 ---@return VehicleRemoteControlDriverContextDecisions
 function VehicleRemoteControlDriverContextDecisions.new(fields) return end
 

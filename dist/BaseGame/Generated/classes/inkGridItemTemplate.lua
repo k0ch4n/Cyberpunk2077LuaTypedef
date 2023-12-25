@@ -7,6 +7,6 @@
 ---@field public widget inkWidgetLibraryReference
 inkGridItemTemplate = {}
 
----@param fields? table
+---@param fields? inkGridItemTemplate
 ---@return inkGridItemTemplate
 function inkGridItemTemplate.new(fields) return end

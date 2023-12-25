@@ -8,6 +8,6 @@
 ---@field public alwaysSpawned gameAlwaysSpawnedState
 dbgSpawner = {}
 
----@param fields? table
+---@param fields? dbgSpawner
 ---@return dbgSpawner
 function dbgSpawner.new(fields) return end

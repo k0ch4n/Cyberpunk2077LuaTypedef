@@ -7,6 +7,6 @@
 ---@field public weight Float
 animAnimFeature_IK = {}
 
----@param fields? table
+---@param fields? animAnimFeature_IK
 ---@return animAnimFeature_IK
 function animAnimFeature_IK.new(fields) return end

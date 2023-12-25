@@ -6,7 +6,7 @@
 ---@field public mask2 Uint64
 physicsQueryFilter = {}
 
----@param fields? table
+---@param fields? physicsQueryFilter
 ---@return physicsQueryFilter
 function physicsQueryFilter.new(fields) return end
 

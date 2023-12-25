@@ -11,7 +11,7 @@
 ---@field private initialized Bool
 SimpleSetUnequipWeapons = {}
 
----@param fields? table
+---@param fields? SimpleSetUnequipWeapons
 ---@return SimpleSetUnequipWeapons
 function SimpleSetUnequipWeapons.new(fields) return end
 

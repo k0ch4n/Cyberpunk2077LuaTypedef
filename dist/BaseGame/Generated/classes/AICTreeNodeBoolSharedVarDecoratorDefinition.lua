@@ -4,6 +4,6 @@
 ---@class AICTreeNodeBoolSharedVarDecoratorDefinition: AICTreeNodeSingleSharedVarDecoratorDefinition
 AICTreeNodeBoolSharedVarDecoratorDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeBoolSharedVarDecoratorDefinition
 ---@return AICTreeNodeBoolSharedVarDecoratorDefinition
 function AICTreeNodeBoolSharedVarDecoratorDefinition.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameScriptsDebugOverlaySystem: gameIScriptsDebugOverlaySystem
 gameScriptsDebugOverlaySystem = {}
 
----@param fields? table
+---@param fields? gameScriptsDebugOverlaySystem
 ---@return gameScriptsDebugOverlaySystem
 function gameScriptsDebugOverlaySystem.new(fields) return end
 

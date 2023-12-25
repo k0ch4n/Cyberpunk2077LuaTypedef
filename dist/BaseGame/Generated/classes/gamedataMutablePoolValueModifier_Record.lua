@@ -4,7 +4,7 @@
 ---@class gamedataMutablePoolValueModifier_Record: gamedataPoolValueModifier_Record
 gamedataMutablePoolValueModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataMutablePoolValueModifier_Record
 ---@return gamedataMutablePoolValueModifier_Record
 function gamedataMutablePoolValueModifier_Record.new(fields) return end
 

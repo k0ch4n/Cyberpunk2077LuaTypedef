@@ -7,6 +7,6 @@
 ---@field public isProxyDependencyModeDiscardedSet Bool
 worldEditorDebugFilterSettings_NodeConditional = {}
 
----@param fields? table
+---@param fields? worldEditorDebugFilterSettings_NodeConditional
 ---@return worldEditorDebugFilterSettings_NodeConditional
 function worldEditorDebugFilterSettings_NodeConditional.new(fields) return end

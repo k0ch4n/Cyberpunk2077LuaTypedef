@@ -12,7 +12,7 @@
 ---@field public type gamedataStatType
 AttributeData = {}
 
----@param fields? table
+---@param fields? AttributeData
 ---@return AttributeData
 function AttributeData.new(fields) return end
 

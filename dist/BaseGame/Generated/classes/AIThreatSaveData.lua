@@ -6,6 +6,6 @@
 ---@field public persistenceSourceBitMask Uint32
 AIThreatSaveData = {}
 
----@param fields? table
+---@param fields? AIThreatSaveData
 ---@return AIThreatSaveData
 function AIThreatSaveData.new(fields) return end

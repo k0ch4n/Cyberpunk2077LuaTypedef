@@ -9,6 +9,6 @@
 ---@field public originMarker scnMarker
 scnWorkspotInstance = {}
 
----@param fields? table
+---@param fields? scnWorkspotInstance
 ---@return scnWorkspotInstance
 function scnWorkspotInstance.new(fields) return end

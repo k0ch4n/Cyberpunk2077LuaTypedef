@@ -6,6 +6,6 @@
 ---@field public blocks Int32
 gameMuppetAbility = {}
 
----@param fields? table
+---@param fields? gameMuppetAbility
 ---@return gameMuppetAbility
 function gameMuppetAbility.new(fields) return end

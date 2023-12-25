@@ -8,6 +8,6 @@
 ---@field public isExecuting Bool
 AIbehaviorCommandConditionExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCommandConditionExpressionDefinition
 ---@return AIbehaviorCommandConditionExpressionDefinition
 function AIbehaviorCommandConditionExpressionDefinition.new(fields) return end

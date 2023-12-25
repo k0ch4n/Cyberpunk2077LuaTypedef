@@ -6,6 +6,6 @@
 ---@field public events animEventsContainer
 animAnimSetEntry = {}
 
----@param fields? table
+---@param fields? animAnimSetEntry
 ---@return animAnimSetEntry
 function animAnimSetEntry.new(fields) return end

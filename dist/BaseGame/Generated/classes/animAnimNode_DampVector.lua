@@ -11,6 +11,6 @@
 ---@field public decreaseSpeedNode animVectorLink
 animAnimNode_DampVector = {}
 
----@param fields? table
+---@param fields? animAnimNode_DampVector
 ---@return animAnimNode_DampVector
 function animAnimNode_DampVector.new(fields) return end

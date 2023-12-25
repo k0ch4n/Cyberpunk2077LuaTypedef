@@ -4,7 +4,7 @@
 ---@class gamedataDPadUIData_Record: gamedataTweakDBRecord
 gamedataDPadUIData_Record = {}
 
----@param fields? table
+---@param fields? gamedataDPadUIData_Record
 ---@return gamedataDPadUIData_Record
 function gamedataDPadUIData_Record.new(fields) return end
 

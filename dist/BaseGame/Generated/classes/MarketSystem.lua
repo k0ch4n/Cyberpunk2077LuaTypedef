@@ -6,7 +6,7 @@
 ---@field private vendingMachinesVendors Vendor[]
 MarketSystem = {}
 
----@param fields? table
+---@param fields? MarketSystem
 ---@return MarketSystem
 function MarketSystem.new(fields) return end
 

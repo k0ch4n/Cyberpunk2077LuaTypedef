@@ -9,7 +9,7 @@
 ---@field private isTracked Bool
 QuestMappinLinkController = {}
 
----@param fields? table
+---@param fields? QuestMappinLinkController
 ---@return QuestMappinLinkController
 function QuestMappinLinkController.new(fields) return end
 

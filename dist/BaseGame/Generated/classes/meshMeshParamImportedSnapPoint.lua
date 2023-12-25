@@ -5,6 +5,6 @@
 ---@field public snapFeatureData meshMeshImportedSnapPoint[]
 meshMeshParamImportedSnapPoint = {}
 
----@param fields? table
+---@param fields? meshMeshParamImportedSnapPoint
 ---@return meshMeshParamImportedSnapPoint
 function meshMeshParamImportedSnapPoint.new(fields) return end

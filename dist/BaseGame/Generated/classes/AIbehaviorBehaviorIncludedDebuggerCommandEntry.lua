@@ -6,6 +6,6 @@
 ---@field public includedBehaviorResourcePath String
 AIbehaviorBehaviorIncludedDebuggerCommandEntry = {}
 
----@param fields? table
+---@param fields? AIbehaviorBehaviorIncludedDebuggerCommandEntry
 ---@return AIbehaviorBehaviorIncludedDebuggerCommandEntry
 function AIbehaviorBehaviorIncludedDebuggerCommandEntry.new(fields) return end

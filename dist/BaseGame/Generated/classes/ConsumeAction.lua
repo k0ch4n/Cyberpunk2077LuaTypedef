@@ -4,7 +4,7 @@
 ---@class ConsumeAction: BaseItemAction
 ConsumeAction = {}
 
----@param fields? table
+---@param fields? ConsumeAction
 ---@return ConsumeAction
 function ConsumeAction.new(fields) return end
 

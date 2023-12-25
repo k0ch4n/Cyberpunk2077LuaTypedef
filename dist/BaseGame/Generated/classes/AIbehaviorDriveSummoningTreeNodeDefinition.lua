@@ -4,6 +4,6 @@
 ---@class AIbehaviorDriveSummoningTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveSummoningTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveSummoningTreeNodeDefinition
 ---@return AIbehaviorDriveSummoningTreeNodeDefinition
 function AIbehaviorDriveSummoningTreeNodeDefinition.new(fields) return end

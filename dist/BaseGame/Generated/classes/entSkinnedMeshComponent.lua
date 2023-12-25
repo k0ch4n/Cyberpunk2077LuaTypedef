@@ -20,6 +20,6 @@
 ---@field public version Uint8
 entSkinnedMeshComponent = {}
 
----@param fields? table
+---@param fields? entSkinnedMeshComponent
 ---@return entSkinnedMeshComponent
 function entSkinnedMeshComponent.new(fields) return end

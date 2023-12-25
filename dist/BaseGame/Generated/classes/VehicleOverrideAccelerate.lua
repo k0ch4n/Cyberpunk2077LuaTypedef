@@ -5,7 +5,7 @@
 ---@field public isRequestedFormOtherDevice Bool
 VehicleOverrideAccelerate = {}
 
----@param fields? table
+---@param fields? VehicleOverrideAccelerate
 ---@return VehicleOverrideAccelerate
 function VehicleOverrideAccelerate.new(fields) return end
 

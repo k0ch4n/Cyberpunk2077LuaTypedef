@@ -12,6 +12,6 @@
 ---@field public rules gameuiMinigameGenerationRule[]
 gameuiMinigameData = {}
 
----@param fields? table
+---@param fields? gameuiMinigameData
 ---@return gameuiMinigameData
 function gameuiMinigameData.new(fields) return end

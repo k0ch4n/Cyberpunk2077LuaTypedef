@@ -5,6 +5,6 @@
 ---@field public puppet ScriptedPuppet
 RegisterNPCRequest = {}
 
----@param fields? table
+---@param fields? RegisterNPCRequest
 ---@return RegisterNPCRequest
 function RegisterNPCRequest.new(fields) return end

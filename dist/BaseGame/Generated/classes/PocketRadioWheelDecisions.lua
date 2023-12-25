@@ -4,7 +4,7 @@
 ---@class PocketRadioWheelDecisions: QuickSlotsHoldDecisions
 PocketRadioWheelDecisions = {}
 
----@param fields? table
+---@param fields? PocketRadioWheelDecisions
 ---@return PocketRadioWheelDecisions
 function PocketRadioWheelDecisions.new(fields) return end
 

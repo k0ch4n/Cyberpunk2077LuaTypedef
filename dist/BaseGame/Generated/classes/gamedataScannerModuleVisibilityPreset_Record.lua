@@ -4,7 +4,7 @@
 ---@class gamedataScannerModuleVisibilityPreset_Record: gamedataTweakDBRecord
 gamedataScannerModuleVisibilityPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataScannerModuleVisibilityPreset_Record
 ---@return gamedataScannerModuleVisibilityPreset_Record
 function gamedataScannerModuleVisibilityPreset_Record.new(fields) return end
 

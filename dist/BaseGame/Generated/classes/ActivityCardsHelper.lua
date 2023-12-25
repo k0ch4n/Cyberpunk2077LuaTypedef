@@ -4,7 +4,7 @@
 ---@class ActivityCardsHelper: IScriptable
 ActivityCardsHelper = {}
 
----@param fields? table
+---@param fields? ActivityCardsHelper
 ---@return ActivityCardsHelper
 function ActivityCardsHelper.new(fields) return end
 

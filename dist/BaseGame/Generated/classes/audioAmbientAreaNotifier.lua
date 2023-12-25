@@ -12,6 +12,6 @@
 ---@field public useAutoOutdoorness Bool
 audioAmbientAreaNotifier = {}
 
----@param fields? table
+---@param fields? audioAmbientAreaNotifier
 ---@return audioAmbientAreaNotifier
 function audioAmbientAreaNotifier.new(fields) return end

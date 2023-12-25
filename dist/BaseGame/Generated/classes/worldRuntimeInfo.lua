@@ -4,7 +4,7 @@
 ---@class worldRuntimeInfo: IScriptable
 worldRuntimeInfo = {}
 
----@param fields? table
+---@param fields? worldRuntimeInfo
 ---@return worldRuntimeInfo
 function worldRuntimeInfo.new(fields) return end
 

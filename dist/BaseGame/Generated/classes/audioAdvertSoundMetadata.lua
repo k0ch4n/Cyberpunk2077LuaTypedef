@@ -14,6 +14,6 @@
 ---@field public soundDelay4 Float
 audioAdvertSoundMetadata = {}
 
----@param fields? table
+---@param fields? audioAdvertSoundMetadata
 ---@return audioAdvertSoundMetadata
 function audioAdvertSoundMetadata.new(fields) return end

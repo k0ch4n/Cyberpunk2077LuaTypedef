@@ -6,6 +6,6 @@
 ---@field public showItem Bool
 gameSVisualTagProcessing = {}
 
----@param fields? table
+---@param fields? gameSVisualTagProcessing
 ---@return gameSVisualTagProcessing
 function gameSVisualTagProcessing.new(fields) return end

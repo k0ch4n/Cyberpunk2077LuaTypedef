@@ -5,6 +5,6 @@
 ---@field public vehicleWheelMaterials audioVehicleWheelMaterialsMapItem[]
 audioVehicleWheelMaterialsMap = {}
 
----@param fields? table
+---@param fields? audioVehicleWheelMaterialsMap
 ---@return audioVehicleWheelMaterialsMap
 function audioVehicleWheelMaterialsMap.new(fields) return end

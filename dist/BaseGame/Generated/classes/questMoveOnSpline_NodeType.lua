@@ -16,6 +16,6 @@
 ---@field public audioCurves vehicleAudioVehicleCurveSet
 questMoveOnSpline_NodeType = {}
 
----@param fields? table
+---@param fields? questMoveOnSpline_NodeType
 ---@return questMoveOnSpline_NodeType
 function questMoveOnSpline_NodeType.new(fields) return end

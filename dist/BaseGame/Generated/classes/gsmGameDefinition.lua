@@ -9,6 +9,6 @@
 ---@field public spawnPointTags redTagList
 gsmGameDefinition = {}
 
----@param fields? table
+---@param fields? gsmGameDefinition
 ---@return gsmGameDefinition
 function gsmGameDefinition.new(fields) return end

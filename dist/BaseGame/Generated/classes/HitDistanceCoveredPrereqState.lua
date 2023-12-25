@@ -4,7 +4,7 @@
 ---@class HitDistanceCoveredPrereqState: GenericHitPrereqState
 HitDistanceCoveredPrereqState = {}
 
----@param fields? table
+---@param fields? HitDistanceCoveredPrereqState
 ---@return HitDistanceCoveredPrereqState
 function HitDistanceCoveredPrereqState.new(fields) return end
 

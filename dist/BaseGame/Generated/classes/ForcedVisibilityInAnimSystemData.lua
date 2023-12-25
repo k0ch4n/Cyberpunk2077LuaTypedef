@@ -7,6 +7,6 @@
 ---@field public forcedVisibleOnlyInFrustum Bool
 ForcedVisibilityInAnimSystemData = {}
 
----@param fields? table
+---@param fields? ForcedVisibilityInAnimSystemData
 ---@return ForcedVisibilityInAnimSystemData
 function ForcedVisibilityInAnimSystemData.new(fields) return end

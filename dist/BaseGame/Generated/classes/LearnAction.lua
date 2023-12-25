@@ -4,6 +4,6 @@
 ---@class LearnAction: ConsumeAction
 LearnAction = {}
 
----@param fields? table
+---@param fields? LearnAction
 ---@return LearnAction
 function LearnAction.new(fields) return end

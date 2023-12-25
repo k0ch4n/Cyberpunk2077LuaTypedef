@@ -5,7 +5,7 @@
 ---@field public pointDiff Int32
 NewPerkPoinsActionRequest = {}
 
----@param fields? table
+---@param fields? NewPerkPoinsActionRequest
 ---@return NewPerkPoinsActionRequest
 function NewPerkPoinsActionRequest.new(fields) return end
 

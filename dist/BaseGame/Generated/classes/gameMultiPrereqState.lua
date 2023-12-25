@@ -5,6 +5,6 @@
 ---@field public nestedStates gamePrereqState[]
 gameMultiPrereqState = {}
 
----@param fields? table
+---@param fields? gameMultiPrereqState
 ---@return gameMultiPrereqState
 function gameMultiPrereqState.new(fields) return end

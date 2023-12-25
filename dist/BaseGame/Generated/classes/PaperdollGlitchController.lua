@@ -6,7 +6,7 @@
 ---@field private GlitchAnimationName CName
 PaperdollGlitchController = {}
 
----@param fields? table
+---@param fields? PaperdollGlitchController
 ---@return PaperdollGlitchController
 function PaperdollGlitchController.new(fields) return end
 

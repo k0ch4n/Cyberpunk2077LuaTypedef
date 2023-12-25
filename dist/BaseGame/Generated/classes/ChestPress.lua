@@ -6,7 +6,7 @@
 ---@field private animFeatureDataName CName
 ChestPress = {}
 
----@param fields? table
+---@param fields? ChestPress
 ---@return ChestPress
 function ChestPress.new(fields) return end
 

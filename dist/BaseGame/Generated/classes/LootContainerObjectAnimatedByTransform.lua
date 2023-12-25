@@ -5,7 +5,7 @@
 ---@field protected wasOpened Bool
 LootContainerObjectAnimatedByTransform = {}
 
----@param fields? table
+---@param fields? LootContainerObjectAnimatedByTransform
 ---@return LootContainerObjectAnimatedByTransform
 function LootContainerObjectAnimatedByTransform.new(fields) return end
 

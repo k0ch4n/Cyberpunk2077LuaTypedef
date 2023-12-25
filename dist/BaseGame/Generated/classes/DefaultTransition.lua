@@ -4,7 +4,7 @@
 ---@class DefaultTransition: gamestateMachineFunctor
 DefaultTransition = {}
 
----@param fields? table
+---@param fields? DefaultTransition
 ---@return DefaultTransition
 function DefaultTransition.new(fields) return end
 

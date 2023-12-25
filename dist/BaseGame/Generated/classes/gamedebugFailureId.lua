@@ -6,6 +6,6 @@
 ---@field public unsignedId Uint32
 gamedebugFailureId = {}
 
----@param fields? table
+---@param fields? gamedebugFailureId
 ---@return gamedebugFailureId
 function gamedebugFailureId.new(fields) return end

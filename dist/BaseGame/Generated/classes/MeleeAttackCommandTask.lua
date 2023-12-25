@@ -9,7 +9,7 @@
 ---@field protected commandDuration Float
 MeleeAttackCommandTask = {}
 
----@param fields? table
+---@param fields? MeleeAttackCommandTask
 ---@return MeleeAttackCommandTask
 function MeleeAttackCommandTask.new(fields) return end
 

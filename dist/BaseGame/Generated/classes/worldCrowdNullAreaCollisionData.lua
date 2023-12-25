@@ -6,6 +6,6 @@
 ---@field public collisions worldTrafficStaticCollisionSphere[]
 worldCrowdNullAreaCollisionData = {}
 
----@param fields? table
+---@param fields? worldCrowdNullAreaCollisionData
 ---@return worldCrowdNullAreaCollisionData
 function worldCrowdNullAreaCollisionData.new(fields) return end

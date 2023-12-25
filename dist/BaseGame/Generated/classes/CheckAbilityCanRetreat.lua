@@ -4,7 +4,7 @@
 ---@class CheckAbilityCanRetreat: AIbehaviorconditionScript
 CheckAbilityCanRetreat = {}
 
----@param fields? table
+---@param fields? CheckAbilityCanRetreat
 ---@return CheckAbilityCanRetreat
 function CheckAbilityCanRetreat.new(fields) return end
 

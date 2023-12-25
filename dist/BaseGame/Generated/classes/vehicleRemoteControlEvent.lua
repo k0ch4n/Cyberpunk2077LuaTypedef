@@ -8,6 +8,6 @@
 ---@field public isDistanceDisconnect Bool
 vehicleRemoteControlEvent = {}
 
----@param fields? table
+---@param fields? vehicleRemoteControlEvent
 ---@return vehicleRemoteControlEvent
 function vehicleRemoteControlEvent.new(fields) return end

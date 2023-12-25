@@ -9,6 +9,6 @@
 ---@field public tags redTagList
 gameuiSwitcherOption = {}
 
----@param fields? table
+---@param fields? gameuiSwitcherOption
 ---@return gameuiSwitcherOption
 function gameuiSwitcherOption.new(fields) return end

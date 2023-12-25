@@ -4,6 +4,6 @@
 ---@class AddSpyTreePerkPoints: NewPerkPoinsActionRequest
 AddSpyTreePerkPoints = {}
 
----@param fields? table
+---@param fields? AddSpyTreePerkPoints
 ---@return AddSpyTreePerkPoints
 function AddSpyTreePerkPoints.new(fields) return end

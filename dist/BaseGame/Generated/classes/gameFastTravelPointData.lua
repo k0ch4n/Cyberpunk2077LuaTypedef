@@ -9,7 +9,7 @@
 ---@field public mappinID gameNewMappinID
 gameFastTravelPointData = {}
 
----@param fields? table
+---@param fields? gameFastTravelPointData
 ---@return gameFastTravelPointData
 function gameFastTravelPointData.new(fields) return end
 

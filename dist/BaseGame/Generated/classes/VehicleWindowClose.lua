@@ -7,7 +7,7 @@
 ---@field public isInteractionSource Bool
 VehicleWindowClose = {}
 
----@param fields? table
+---@param fields? VehicleWindowClose
 ---@return VehicleWindowClose
 function VehicleWindowClose.new(fields) return end
 

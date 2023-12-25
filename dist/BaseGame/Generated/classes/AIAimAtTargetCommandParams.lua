@@ -7,7 +7,7 @@
 ---@field public duration Float
 AIAimAtTargetCommandParams = {}
 
----@param fields? table
+---@param fields? AIAimAtTargetCommandParams
 ---@return AIAimAtTargetCommandParams
 function AIAimAtTargetCommandParams.new(fields) return end
 

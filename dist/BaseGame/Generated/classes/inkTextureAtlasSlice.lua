@@ -6,6 +6,6 @@
 ---@field public nineSliceScaleRect RectF
 inkTextureAtlasSlice = {}
 
----@param fields? table
+---@param fields? inkTextureAtlasSlice
 ---@return inkTextureAtlasSlice
 function inkTextureAtlasSlice.new(fields) return end

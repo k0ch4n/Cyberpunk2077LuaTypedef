@@ -5,7 +5,7 @@
 ---@field private damage CName
 ScannerWeaponDetailed = {}
 
----@param fields? table
+---@param fields? ScannerWeaponDetailed
 ---@return ScannerWeaponDetailed
 function ScannerWeaponDetailed.new(fields) return end
 

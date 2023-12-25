@@ -10,6 +10,6 @@
 ---@field public cameraToggleAction Bool
 SBraindanceInputMask = {}
 
----@param fields? table
+---@param fields? SBraindanceInputMask
 ---@return SBraindanceInputMask
 function SBraindanceInputMask.new(fields) return end

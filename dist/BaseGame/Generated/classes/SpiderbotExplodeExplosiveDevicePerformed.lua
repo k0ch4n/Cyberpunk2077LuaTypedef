@@ -4,7 +4,7 @@
 ---@class SpiderbotExplodeExplosiveDevicePerformed: ActionBool
 SpiderbotExplodeExplosiveDevicePerformed = {}
 
----@param fields? table
+---@param fields? SpiderbotExplodeExplosiveDevicePerformed
 ---@return SpiderbotExplodeExplosiveDevicePerformed
 function SpiderbotExplodeExplosiveDevicePerformed.new(fields) return end
 

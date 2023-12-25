@@ -7,6 +7,6 @@
 ---@field public streamingContext CName
 animGenericAnimDatabase_AnimationData = {}
 
----@param fields? table
+---@param fields? animGenericAnimDatabase_AnimationData
 ---@return animGenericAnimDatabase_AnimationData
 function animGenericAnimDatabase_AnimationData.new(fields) return end

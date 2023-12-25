@@ -8,6 +8,6 @@
 ---@field public vignetteColor Color
 VignetteAreaSettings = {}
 
----@param fields? table
+---@param fields? VignetteAreaSettings
 ---@return VignetteAreaSettings
 function VignetteAreaSettings.new(fields) return end

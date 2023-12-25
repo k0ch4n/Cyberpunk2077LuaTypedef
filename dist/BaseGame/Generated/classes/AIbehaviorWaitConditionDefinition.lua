@@ -4,6 +4,6 @@
 ---@class AIbehaviorWaitConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitConditionDefinition
 ---@return AIbehaviorWaitConditionDefinition
 function AIbehaviorWaitConditionDefinition.new(fields) return end

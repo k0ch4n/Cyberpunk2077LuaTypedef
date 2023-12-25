@@ -5,7 +5,7 @@
 ---@field public pauseTime Float
 QuestResume = {}
 
----@param fields? table
+---@param fields? QuestResume
 ---@return QuestResume
 function QuestResume.new(fields) return end
 

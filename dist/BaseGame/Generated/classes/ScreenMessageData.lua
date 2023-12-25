@@ -7,6 +7,6 @@
 ---@field public customNumber Int32
 ScreenMessageData = {}
 
----@param fields? table
+---@param fields? ScreenMessageData
 ---@return ScreenMessageData
 function ScreenMessageData.new(fields) return end

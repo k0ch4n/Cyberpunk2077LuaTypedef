@@ -13,7 +13,7 @@
 ---@field protected dpadAnim inkanimProxy
 HotkeyItemController = {}
 
----@param fields? table
+---@param fields? HotkeyItemController
 ---@return HotkeyItemController
 function HotkeyItemController.new(fields) return end
 

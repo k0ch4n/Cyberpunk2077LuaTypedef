@@ -4,7 +4,7 @@
 ---@class gamedataAIWorkspotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWorkspotCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIWorkspotCond_Record
 ---@return gamedataAIWorkspotCond_Record
 function gamedataAIWorkspotCond_Record.new(fields) return end
 

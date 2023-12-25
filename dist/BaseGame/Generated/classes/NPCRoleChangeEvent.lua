@@ -5,6 +5,6 @@
 ---@field public newRole AIRole
 NPCRoleChangeEvent = {}
 
----@param fields? table
+---@param fields? NPCRoleChangeEvent
 ---@return NPCRoleChangeEvent
 function NPCRoleChangeEvent.new(fields) return end

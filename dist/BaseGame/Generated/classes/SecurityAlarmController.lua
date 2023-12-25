@@ -4,7 +4,7 @@
 ---@class SecurityAlarmController: MasterController
 SecurityAlarmController = {}
 
----@param fields? table
+---@param fields? SecurityAlarmController
 ---@return SecurityAlarmController
 function SecurityAlarmController.new(fields) return end
 

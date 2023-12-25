@@ -4,7 +4,7 @@
 ---@class gamedataRangedAttack_Record: gamedataTweakDBRecord
 gamedataRangedAttack_Record = {}
 
----@param fields? table
+---@param fields? gamedataRangedAttack_Record
 ---@return gamedataRangedAttack_Record
 function gamedataRangedAttack_Record.new(fields) return end
 

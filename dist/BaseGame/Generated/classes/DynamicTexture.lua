@@ -11,6 +11,6 @@
 ---@field public generator IDynamicTextureGenerator
 DynamicTexture = {}
 
----@param fields? table
+---@param fields? DynamicTexture
 ---@return DynamicTexture
 function DynamicTexture.new(fields) return end

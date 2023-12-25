@@ -22,6 +22,6 @@
 ---@field public endTargetOrientationNode animQuaternionLink
 animAnimNode_Ik2 = {}
 
----@param fields? table
+---@param fields? animAnimNode_Ik2
 ---@return animAnimNode_Ik2
 function animAnimNode_Ik2.new(fields) return end

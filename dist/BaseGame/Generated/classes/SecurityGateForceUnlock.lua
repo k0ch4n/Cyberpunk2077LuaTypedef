@@ -6,6 +6,6 @@
 ---@field public shouldUnlock Bool
 SecurityGateForceUnlock = {}
 
----@param fields? table
+---@param fields? SecurityGateForceUnlock
 ---@return SecurityGateForceUnlock
 function SecurityGateForceUnlock.new(fields) return end

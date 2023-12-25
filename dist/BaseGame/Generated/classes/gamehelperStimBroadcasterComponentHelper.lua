@@ -4,7 +4,7 @@
 ---@class gamehelperStimBroadcasterComponentHelper: IScriptable
 gamehelperStimBroadcasterComponentHelper = {}
 
----@param fields? table
+---@param fields? gamehelperStimBroadcasterComponentHelper
 ---@return gamehelperStimBroadcasterComponentHelper
 function gamehelperStimBroadcasterComponentHelper.new(fields) return end
 

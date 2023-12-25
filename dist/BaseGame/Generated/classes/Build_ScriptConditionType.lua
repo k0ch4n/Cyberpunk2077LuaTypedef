@@ -8,7 +8,7 @@
 ---@field public comparisonType ECompareOp
 Build_ScriptConditionType = {}
 
----@param fields? table
+---@param fields? Build_ScriptConditionType
 ---@return Build_ScriptConditionType
 function Build_ScriptConditionType.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public timeToMove Float
 animAnimFeature_MoveTo = {}
 
----@param fields? table
+---@param fields? animAnimFeature_MoveTo
 ---@return animAnimFeature_MoveTo
 function animAnimFeature_MoveTo.new(fields) return end
 

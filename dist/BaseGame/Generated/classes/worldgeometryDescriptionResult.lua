@@ -25,6 +25,6 @@
 ---@field public climbedEntity entEntity
 worldgeometryDescriptionResult = {}
 
----@param fields? table
+---@param fields? worldgeometryDescriptionResult
 ---@return worldgeometryDescriptionResult
 function worldgeometryDescriptionResult.new(fields) return end

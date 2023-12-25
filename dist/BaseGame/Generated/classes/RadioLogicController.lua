@@ -11,7 +11,7 @@
 ---@field private radioTextWidgetSize Vector2
 RadioLogicController = {}
 
----@param fields? table
+---@param fields? RadioLogicController
 ---@return RadioLogicController
 function RadioLogicController.new(fields) return end
 

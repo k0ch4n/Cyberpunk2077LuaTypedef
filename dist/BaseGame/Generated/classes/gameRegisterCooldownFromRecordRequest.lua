@@ -8,6 +8,6 @@
 ---@field public cooldownRecord gamedataCooldown_Record
 gameRegisterCooldownFromRecordRequest = {}
 
----@param fields? table
+---@param fields? gameRegisterCooldownFromRecordRequest
 ---@return gameRegisterCooldownFromRecordRequest
 function gameRegisterCooldownFromRecordRequest.new(fields) return end

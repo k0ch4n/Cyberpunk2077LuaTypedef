@@ -5,7 +5,7 @@
 ---@field public bb gameIBlackboard
 WeaponMalfunctionHudEffector = {}
 
----@param fields? table
+---@param fields? WeaponMalfunctionHudEffector
 ---@return WeaponMalfunctionHudEffector
 function WeaponMalfunctionHudEffector.new(fields) return end
 

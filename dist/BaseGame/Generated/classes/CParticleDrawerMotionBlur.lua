@@ -6,6 +6,6 @@
 ---@field public isGPUBased Bool
 CParticleDrawerMotionBlur = {}
 
----@param fields? table
+---@param fields? CParticleDrawerMotionBlur
 ---@return CParticleDrawerMotionBlur
 function CParticleDrawerMotionBlur.new(fields) return end

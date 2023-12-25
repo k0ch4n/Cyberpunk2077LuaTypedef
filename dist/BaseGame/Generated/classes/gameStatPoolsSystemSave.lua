@@ -6,6 +6,6 @@
 ---@field public statPools gameStatPoolData[]
 gameStatPoolsSystemSave = {}
 
----@param fields? table
+---@param fields? gameStatPoolsSystemSave
 ---@return gameStatPoolsSystemSave
 function gameStatPoolsSystemSave.new(fields) return end

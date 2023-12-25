@@ -6,6 +6,6 @@
 ---@field public propId scnPropId
 scnChoiceNodeNsDeprecatedParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsDeprecatedParams
 ---@return scnChoiceNodeNsDeprecatedParams
 function scnChoiceNodeNsDeprecatedParams.new(fields) return end

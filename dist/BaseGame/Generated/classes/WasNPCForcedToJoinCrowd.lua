@@ -4,7 +4,7 @@
 ---@class WasNPCForcedToJoinCrowd: AIbehaviorconditionScript
 WasNPCForcedToJoinCrowd = {}
 
----@param fields? table
+---@param fields? WasNPCForcedToJoinCrowd
 ---@return WasNPCForcedToJoinCrowd
 function WasNPCForcedToJoinCrowd.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public position Vector3
 gameCookedPointOfInterestMappinData = {}
 
----@param fields? table
+---@param fields? gameCookedPointOfInterestMappinData
 ---@return gameCookedPointOfInterestMappinData
 function gameCookedPointOfInterestMappinData.new(fields) return end

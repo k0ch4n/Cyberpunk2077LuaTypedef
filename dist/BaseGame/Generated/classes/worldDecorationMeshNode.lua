@@ -7,6 +7,6 @@
 ---@field public filterData physicsFilterData
 worldDecorationMeshNode = {}
 
----@param fields? table
+---@param fields? worldDecorationMeshNode
 ---@return worldDecorationMeshNode
 function worldDecorationMeshNode.new(fields) return end

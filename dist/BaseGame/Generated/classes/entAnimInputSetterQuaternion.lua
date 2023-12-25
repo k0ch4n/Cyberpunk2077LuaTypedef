@@ -5,6 +5,6 @@
 ---@field public value Quaternion
 entAnimInputSetterQuaternion = {}
 
----@param fields? table
+---@param fields? entAnimInputSetterQuaternion
 ---@return entAnimInputSetterQuaternion
 function entAnimInputSetterQuaternion.new(fields) return end

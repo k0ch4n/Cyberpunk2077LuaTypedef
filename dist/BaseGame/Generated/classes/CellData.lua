@@ -9,6 +9,6 @@
 ---@field public consumed Bool
 CellData = {}
 
----@param fields? table
+---@param fields? CellData
 ---@return CellData
 function CellData.new(fields) return end

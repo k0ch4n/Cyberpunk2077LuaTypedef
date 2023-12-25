@@ -10,6 +10,6 @@
 ---@field public timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisDeviceVisualizerDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisDeviceVisualizerDefinition
 ---@return gameinteractionsvisDeviceVisualizerDefinition
 function gameinteractionsvisDeviceVisualizerDefinition.new(fields) return end

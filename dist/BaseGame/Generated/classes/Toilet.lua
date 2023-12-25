@@ -4,7 +4,7 @@
 ---@class Toilet: InteractiveDevice
 Toilet = {}
 
----@param fields? table
+---@param fields? Toilet
 ---@return Toilet
 function Toilet.new(fields) return end
 

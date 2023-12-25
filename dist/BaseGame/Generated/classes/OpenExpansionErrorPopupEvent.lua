@@ -7,6 +7,6 @@
 ---@field public errorCode Uint32
 OpenExpansionErrorPopupEvent = {}
 
----@param fields? table
+---@param fields? OpenExpansionErrorPopupEvent
 ---@return OpenExpansionErrorPopupEvent
 function OpenExpansionErrorPopupEvent.new(fields) return end

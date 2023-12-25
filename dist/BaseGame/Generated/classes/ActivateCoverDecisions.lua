@@ -4,7 +4,7 @@
 ---@class ActivateCoverDecisions: CoverActionTransition
 ActivateCoverDecisions = {}
 
----@param fields? table
+---@param fields? ActivateCoverDecisions
 ---@return ActivateCoverDecisions
 function ActivateCoverDecisions.new(fields) return end
 

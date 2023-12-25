@@ -9,7 +9,7 @@
 ---@field public armor Float
 gameMuppetReplicatedState = {}
 
----@param fields? table
+---@param fields? gameMuppetReplicatedState
 ---@return gameMuppetReplicatedState
 function gameMuppetReplicatedState.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public normalStrength Multilayer_LayerTemplateOverridesNormalStrength[]
 Multilayer_LayerTemplateOverrides = {}
 
----@param fields? table
+---@param fields? Multilayer_LayerTemplateOverrides
 ---@return Multilayer_LayerTemplateOverrides
 function Multilayer_LayerTemplateOverrides.new(fields) return end

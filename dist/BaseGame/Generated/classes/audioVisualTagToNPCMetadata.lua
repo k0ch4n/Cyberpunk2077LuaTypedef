@@ -6,6 +6,6 @@
 ---@field public foleyNPCMetadata CName
 audioVisualTagToNPCMetadata = {}
 
----@param fields? table
+---@param fields? audioVisualTagToNPCMetadata
 ---@return audioVisualTagToNPCMetadata
 function audioVisualTagToNPCMetadata.new(fields) return end

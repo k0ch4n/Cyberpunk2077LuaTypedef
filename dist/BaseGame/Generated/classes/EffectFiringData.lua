@@ -7,6 +7,6 @@
 ---@field public SFX CName
 EffectFiringData = {}
 
----@param fields? table
+---@param fields? EffectFiringData
 ---@return EffectFiringData
 function EffectFiringData.new(fields) return end

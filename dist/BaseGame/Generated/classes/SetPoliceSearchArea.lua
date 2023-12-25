@@ -8,7 +8,7 @@
 ---@field public source CName
 SetPoliceSearchArea = {}
 
----@param fields? table
+---@param fields? SetPoliceSearchArea
 ---@return SetPoliceSearchArea
 function SetPoliceSearchArea.new(fields) return end
 

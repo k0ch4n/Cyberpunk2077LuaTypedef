@@ -5,7 +5,7 @@
 ---@field private interiorManagerSlot inkWidget
 SmartHouseDeviceWidgetController = {}
 
----@param fields? table
+---@param fields? SmartHouseDeviceWidgetController
 ---@return SmartHouseDeviceWidgetController
 function SmartHouseDeviceWidgetController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameMuppetInventory: gameMuppetComponent
 gameMuppetInventory = {}
 
----@param fields? table
+---@param fields? gameMuppetInventory
 ---@return gameMuppetInventory
 function gameMuppetInventory.new(fields) return end

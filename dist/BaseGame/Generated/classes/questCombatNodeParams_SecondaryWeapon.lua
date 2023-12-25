@@ -5,6 +5,6 @@
 ---@field public unEquip Bool
 questCombatNodeParams_SecondaryWeapon = {}
 
----@param fields? table
+---@param fields? questCombatNodeParams_SecondaryWeapon
 ---@return questCombatNodeParams_SecondaryWeapon
 function questCombatNodeParams_SecondaryWeapon.new(fields) return end

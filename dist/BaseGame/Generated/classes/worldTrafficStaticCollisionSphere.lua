@@ -5,6 +5,6 @@
 ---@field public worldPos Vector3
 worldTrafficStaticCollisionSphere = {}
 
----@param fields? table
+---@param fields? worldTrafficStaticCollisionSphere
 ---@return worldTrafficStaticCollisionSphere
 function worldTrafficStaticCollisionSphere.new(fields) return end

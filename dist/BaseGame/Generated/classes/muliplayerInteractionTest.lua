@@ -5,7 +5,7 @@
 ---@field public counter Int32
 muliplayerInteractionTest = {}
 
----@param fields? table
+---@param fields? muliplayerInteractionTest
 ---@return muliplayerInteractionTest
 function muliplayerInteractionTest.new(fields) return end
 

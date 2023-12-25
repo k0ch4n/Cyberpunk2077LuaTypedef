@@ -57,7 +57,7 @@
 ---@field private resetNpcGuardbreakReqDelayID gameDelayID
 DataTrackingSystem = {}
 
----@param fields? table
+---@param fields? DataTrackingSystem
 ---@return DataTrackingSystem
 function DataTrackingSystem.new(fields) return end
 

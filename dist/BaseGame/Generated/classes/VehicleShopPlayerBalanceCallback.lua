@@ -5,7 +5,7 @@
 ---@field public owner gameuiVehicleShopGameController
 VehicleShopPlayerBalanceCallback = {}
 
----@param fields? table
+---@param fields? VehicleShopPlayerBalanceCallback
 ---@return VehicleShopPlayerBalanceCallback
 function VehicleShopPlayerBalanceCallback.new(fields) return end
 

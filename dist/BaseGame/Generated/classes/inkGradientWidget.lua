@@ -8,6 +8,6 @@
 ---@field public angle Float
 inkGradientWidget = {}
 
----@param fields? table
+---@param fields? inkGradientWidget
 ---@return inkGradientWidget
 function inkGradientWidget.new(fields) return end

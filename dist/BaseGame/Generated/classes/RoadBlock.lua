@@ -13,7 +13,7 @@
 ---@field private areGlobalCoverRefsInitialized Bool
 RoadBlock = {}
 
----@param fields? table
+---@param fields? RoadBlock
 ---@return RoadBlock
 function RoadBlock.new(fields) return end
 

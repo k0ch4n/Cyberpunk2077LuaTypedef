@@ -4,6 +4,6 @@
 ---@class ResetGuardBreakRequest: gameScriptableSystemRequest
 ResetGuardBreakRequest = {}
 
----@param fields? table
+---@param fields? ResetGuardBreakRequest
 ---@return ResetGuardBreakRequest
 function ResetGuardBreakRequest.new(fields) return end

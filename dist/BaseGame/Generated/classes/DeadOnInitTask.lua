@@ -5,7 +5,7 @@
 ---@field public preventSkippingDeathAnimation Bool
 DeadOnInitTask = {}
 
----@param fields? table
+---@param fields? DeadOnInitTask
 ---@return DeadOnInitTask
 function DeadOnInitTask.new(fields) return end
 

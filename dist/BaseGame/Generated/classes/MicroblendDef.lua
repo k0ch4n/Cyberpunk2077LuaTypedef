@@ -6,6 +6,6 @@
 ---@field public texture CBitmapTexture
 MicroblendDef = {}
 
----@param fields? table
+---@param fields? MicroblendDef
 ---@return MicroblendDef
 function MicroblendDef.new(fields) return end

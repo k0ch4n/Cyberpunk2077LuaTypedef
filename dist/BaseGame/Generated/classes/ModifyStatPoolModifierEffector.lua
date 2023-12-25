@@ -10,7 +10,7 @@
 ---@field public cachedModifier gameStatPoolModifier
 ModifyStatPoolModifierEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatPoolModifierEffector
 ---@return ModifyStatPoolModifierEffector
 function ModifyStatPoolModifierEffector.new(fields) return end
 

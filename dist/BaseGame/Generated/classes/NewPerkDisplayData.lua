@@ -7,7 +7,7 @@
 ---@field public isRipperdoc Bool
 NewPerkDisplayData = {}
 
----@param fields? table
+---@param fields? NewPerkDisplayData
 ---@return NewPerkDisplayData
 function NewPerkDisplayData.new(fields) return end
 

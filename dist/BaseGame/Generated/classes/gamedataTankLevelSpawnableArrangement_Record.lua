@@ -4,7 +4,7 @@
 ---@class gamedataTankLevelSpawnableArrangement_Record: gamedataTweakDBRecord
 gamedataTankLevelSpawnableArrangement_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankLevelSpawnableArrangement_Record
 ---@return gamedataTankLevelSpawnableArrangement_Record
 function gamedataTankLevelSpawnableArrangement_Record.new(fields) return end
 

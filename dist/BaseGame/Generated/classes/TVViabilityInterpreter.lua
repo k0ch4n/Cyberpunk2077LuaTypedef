@@ -4,7 +4,7 @@
 ---@class TVViabilityInterpreter: IScriptable
 TVViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? TVViabilityInterpreter
 ---@return TVViabilityInterpreter
 function TVViabilityInterpreter.new(fields) return end
 

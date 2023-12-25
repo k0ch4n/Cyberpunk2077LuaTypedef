@@ -6,7 +6,7 @@
 ---@field public samplesAmount Uint32
 entTransformHistoryComponent = {}
 
----@param fields? table
+---@param fields? entTransformHistoryComponent
 ---@return entTransformHistoryComponent
 function entTransformHistoryComponent.new(fields) return end
 

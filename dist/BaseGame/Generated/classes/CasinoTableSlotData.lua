@@ -8,6 +8,6 @@
 ---@field public slotUser gameObject
 CasinoTableSlotData = {}
 
----@param fields? table
+---@param fields? CasinoTableSlotData
 ---@return CasinoTableSlotData
 function CasinoTableSlotData.new(fields) return end

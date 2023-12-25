@@ -7,7 +7,7 @@
 ---@field private owner gameObject
 ToggleMaterialOverlayEffector = {}
 
----@param fields? table
+---@param fields? ToggleMaterialOverlayEffector
 ---@return ToggleMaterialOverlayEffector
 function ToggleMaterialOverlayEffector.new(fields) return end
 

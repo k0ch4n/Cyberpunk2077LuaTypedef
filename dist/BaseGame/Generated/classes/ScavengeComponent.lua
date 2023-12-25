@@ -5,7 +5,7 @@
 ---@field public scavengeTargets gameObject[]
 ScavengeComponent = {}
 
----@param fields? table
+---@param fields? ScavengeComponent
 ---@return ScavengeComponent
 function ScavengeComponent.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field public spreadCallbackID gameDelayID
 MonoWireQuickHackApplyEffector = {}
 
----@param fields? table
+---@param fields? MonoWireQuickHackApplyEffector
 ---@return MonoWireQuickHackApplyEffector
 function MonoWireQuickHackApplyEffector.new(fields) return end
 

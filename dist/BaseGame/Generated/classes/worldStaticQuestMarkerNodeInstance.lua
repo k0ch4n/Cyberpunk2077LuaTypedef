@@ -4,6 +4,6 @@
 ---@class worldStaticQuestMarkerNodeInstance: worldINodeInstance
 worldStaticQuestMarkerNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticQuestMarkerNodeInstance
 ---@return worldStaticQuestMarkerNodeInstance
 function worldStaticQuestMarkerNodeInstance.new(fields) return end

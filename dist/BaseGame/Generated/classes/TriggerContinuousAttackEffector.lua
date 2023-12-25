@@ -9,7 +9,7 @@
 ---@field public timeDilationDriver gamedataEffectorTimeDilationDriver
 TriggerContinuousAttackEffector = {}
 
----@param fields? table
+---@param fields? TriggerContinuousAttackEffector
 ---@return TriggerContinuousAttackEffector
 function TriggerContinuousAttackEffector.new(fields) return end
 

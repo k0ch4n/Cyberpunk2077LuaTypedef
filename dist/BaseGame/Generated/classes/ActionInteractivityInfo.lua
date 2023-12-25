@@ -7,6 +7,6 @@
 ---@field public isDirect Bool
 ActionInteractivityInfo = {}
 
----@param fields? table
+---@param fields? ActionInteractivityInfo
 ---@return ActionInteractivityInfo
 function ActionInteractivityInfo.new(fields) return end

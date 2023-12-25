@@ -5,7 +5,7 @@
 ---@field public item TweakDBID
 DispenseFreeSpecificItem = {}
 
----@param fields? table
+---@param fields? DispenseFreeSpecificItem
 ---@return DispenseFreeSpecificItem
 function DispenseFreeSpecificItem.new(fields) return end
 

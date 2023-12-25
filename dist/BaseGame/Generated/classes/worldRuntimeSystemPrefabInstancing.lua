@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemPrefabInstancing: worldIRuntimeSystem
 worldRuntimeSystemPrefabInstancing = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemPrefabInstancing
 ---@return worldRuntimeSystemPrefabInstancing
 function worldRuntimeSystemPrefabInstancing.new(fields) return end

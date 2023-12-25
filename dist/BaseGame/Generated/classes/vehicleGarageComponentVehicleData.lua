@@ -8,6 +8,6 @@
 ---@field public despawnOnDistanceEnabled Bool
 vehicleGarageComponentVehicleData = {}
 
----@param fields? table
+---@param fields? vehicleGarageComponentVehicleData
 ---@return vehicleGarageComponentVehicleData
 function vehicleGarageComponentVehicleData.new(fields) return end

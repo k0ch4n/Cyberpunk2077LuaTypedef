@@ -5,6 +5,6 @@
 ---@field public actionMask SBraindanceInputMask
 EnableFields = {}
 
----@param fields? table
+---@param fields? EnableFields
 ---@return EnableFields
 function EnableFields.new(fields) return end

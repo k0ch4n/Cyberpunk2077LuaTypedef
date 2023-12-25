@@ -7,6 +7,6 @@
 ---@field public isReady Bool
 VendingMachineFinishedEvent = {}
 
----@param fields? table
+---@param fields? VendingMachineFinishedEvent
 ---@return VendingMachineFinishedEvent
 function VendingMachineFinishedEvent.new(fields) return end

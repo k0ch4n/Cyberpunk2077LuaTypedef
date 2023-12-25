@@ -5,7 +5,7 @@
 ---@field public state gamedataNPCStanceState
 CheckStanceState = {}
 
----@param fields? table
+---@param fields? CheckStanceState
 ---@return CheckStanceState
 function CheckStanceState.new(fields) return end
 

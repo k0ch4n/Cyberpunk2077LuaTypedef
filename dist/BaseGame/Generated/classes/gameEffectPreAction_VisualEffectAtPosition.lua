@@ -9,6 +9,6 @@
 ---@field public effectTag CName
 gameEffectPreAction_VisualEffectAtPosition = {}
 
----@param fields? table
+---@param fields? gameEffectPreAction_VisualEffectAtPosition
 ---@return gameEffectPreAction_VisualEffectAtPosition
 function gameEffectPreAction_VisualEffectAtPosition.new(fields) return end

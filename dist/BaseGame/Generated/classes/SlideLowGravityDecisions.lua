@@ -4,7 +4,7 @@
 ---@class SlideLowGravityDecisions: CrouchLowGravityDecisions
 SlideLowGravityDecisions = {}
 
----@param fields? table
+---@param fields? SlideLowGravityDecisions
 ---@return SlideLowGravityDecisions
 function SlideLowGravityDecisions.new(fields) return end
 

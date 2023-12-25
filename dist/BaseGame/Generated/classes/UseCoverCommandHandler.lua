@@ -6,7 +6,7 @@
 ---@field protected currentCommand AIUseCoverCommand
 UseCoverCommandHandler = {}
 
----@param fields? table
+---@param fields? UseCoverCommandHandler
 ---@return UseCoverCommandHandler
 function UseCoverCommandHandler.new(fields) return end
 

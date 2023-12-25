@@ -4,6 +4,6 @@
 ---@class effectDecalPlayData: effectPlacedTrackItemPlayData
 effectDecalPlayData = {}
 
----@param fields? table
+---@param fields? effectDecalPlayData
 ---@return effectDecalPlayData
 function effectDecalPlayData.new(fields) return end

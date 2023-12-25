@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 UIEquipmentReplacedEvent = {}
 
----@param fields? table
+---@param fields? UIEquipmentReplacedEvent
 ---@return UIEquipmentReplacedEvent
 function UIEquipmentReplacedEvent.new(fields) return end

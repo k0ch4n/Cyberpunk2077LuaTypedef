@@ -25,7 +25,7 @@
 ---@field public ScannerLookAt gamebbScriptID_Bool
 UI_ScannerDef = {}
 
----@param fields? table
+---@param fields? UI_ScannerDef
 ---@return UI_ScannerDef
 function UI_ScannerDef.new(fields) return end
 

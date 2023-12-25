@@ -7,7 +7,7 @@
 ---@field private districtRecord gamedataDistrict_Record
 District = {}
 
----@param fields? table
+---@param fields? District
 ---@return District
 function District.new(fields) return end
 

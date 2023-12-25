@@ -6,7 +6,7 @@
 ---@field protected movableDeviceSkillChecks DemolitionContainer
 MovableDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? MovableDeviceControllerPS
 ---@return MovableDeviceControllerPS
 function MovableDeviceControllerPS.new(fields) return end
 

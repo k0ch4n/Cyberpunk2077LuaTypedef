@@ -5,6 +5,6 @@
 ---@field public resPathHash Uint64
 scnSceneId = {}
 
----@param fields? table
+---@param fields? scnSceneId
 ---@return scnSceneId
 function scnSceneId.new(fields) return end

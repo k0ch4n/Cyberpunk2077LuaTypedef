@@ -5,7 +5,7 @@
 ---@field protected params AIArgumentMapping
 RootMotionCommandHandler = {}
 
----@param fields? table
+---@param fields? RootMotionCommandHandler
 ---@return RootMotionCommandHandler
 function RootMotionCommandHandler.new(fields) return end
 

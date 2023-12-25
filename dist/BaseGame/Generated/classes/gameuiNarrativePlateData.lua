@@ -7,6 +7,6 @@
 ---@field public entity gameObject
 gameuiNarrativePlateData = {}
 
----@param fields? table
+---@param fields? gameuiNarrativePlateData
 ---@return gameuiNarrativePlateData
 function gameuiNarrativePlateData.new(fields) return end

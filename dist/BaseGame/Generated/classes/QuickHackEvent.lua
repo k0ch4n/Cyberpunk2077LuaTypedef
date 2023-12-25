@@ -4,6 +4,6 @@
 ---@class QuickHackEvent: redEvent
 QuickHackEvent = {}
 
----@param fields? table
+---@param fields? QuickHackEvent
 ---@return QuickHackEvent
 function QuickHackEvent.new(fields) return end

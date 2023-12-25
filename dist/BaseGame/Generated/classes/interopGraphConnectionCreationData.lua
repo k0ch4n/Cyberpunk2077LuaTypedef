@@ -6,6 +6,6 @@
 ---@field public extraData String[]
 interopGraphConnectionCreationData = {}
 
----@param fields? table
+---@param fields? interopGraphConnectionCreationData
 ---@return interopGraphConnectionCreationData
 function interopGraphConnectionCreationData.new(fields) return end

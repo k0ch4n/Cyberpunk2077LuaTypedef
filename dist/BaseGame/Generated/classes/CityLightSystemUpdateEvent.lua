@@ -4,6 +4,6 @@
 ---@class CityLightSystemUpdateEvent: redEvent
 CityLightSystemUpdateEvent = {}
 
----@param fields? table
+---@param fields? CityLightSystemUpdateEvent
 ---@return CityLightSystemUpdateEvent
 function CityLightSystemUpdateEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public minimized Bool
 questMinimizeCallRequest = {}
 
----@param fields? table
+---@param fields? questMinimizeCallRequest
 ---@return questMinimizeCallRequest
 function questMinimizeCallRequest.new(fields) return end

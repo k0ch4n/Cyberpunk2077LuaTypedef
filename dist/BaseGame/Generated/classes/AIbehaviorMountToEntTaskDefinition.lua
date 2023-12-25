@@ -5,6 +5,6 @@
 ---@field public mountData AIArgumentMapping
 AIbehaviorMountToEntTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMountToEntTaskDefinition
 ---@return AIbehaviorMountToEntTaskDefinition
 function AIbehaviorMountToEntTaskDefinition.new(fields) return end

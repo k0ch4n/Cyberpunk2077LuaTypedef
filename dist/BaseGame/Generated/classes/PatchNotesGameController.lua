@@ -15,7 +15,7 @@
 ---@field private requestHandler inkISystemRequestsHandler
 PatchNotesGameController = {}
 
----@param fields? table
+---@param fields? PatchNotesGameController
 ---@return PatchNotesGameController
 function PatchNotesGameController.new(fields) return end
 

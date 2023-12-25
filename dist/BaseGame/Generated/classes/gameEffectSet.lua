@@ -5,6 +5,6 @@
 ---@field public effects gameEffectDefinition[]
 gameEffectSet = {}
 
----@param fields? table
+---@param fields? gameEffectSet
 ---@return gameEffectSet
 function gameEffectSet.new(fields) return end

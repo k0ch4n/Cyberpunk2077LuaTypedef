@@ -7,7 +7,7 @@
 ---@field protected locationAdded Bool
 InteractiveAdControllerPS = {}
 
----@param fields? table
+---@param fields? InteractiveAdControllerPS
 ---@return InteractiveAdControllerPS
 function InteractiveAdControllerPS.new(fields) return end
 

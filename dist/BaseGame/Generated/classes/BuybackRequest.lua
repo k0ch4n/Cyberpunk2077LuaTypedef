@@ -4,6 +4,6 @@
 ---@class BuybackRequest: TransactionRequest
 BuybackRequest = {}
 
----@param fields? table
+---@param fields? BuybackRequest
 ---@return BuybackRequest
 function BuybackRequest.new(fields) return end

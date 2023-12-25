@@ -5,6 +5,6 @@
 ---@field public buffer serializationDeferredDataBuffer
 animAnimDataChunk = {}
 
----@param fields? table
+---@param fields? animAnimDataChunk
 ---@return animAnimDataChunk
 function animAnimDataChunk.new(fields) return end

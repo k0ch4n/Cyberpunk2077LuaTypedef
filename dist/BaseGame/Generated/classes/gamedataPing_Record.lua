@@ -4,7 +4,7 @@
 ---@class gamedataPing_Record: gamedataTweakDBRecord
 gamedataPing_Record = {}
 
----@param fields? table
+---@param fields? gamedataPing_Record
 ---@return gamedataPing_Record
 function gamedataPing_Record.new(fields) return end
 

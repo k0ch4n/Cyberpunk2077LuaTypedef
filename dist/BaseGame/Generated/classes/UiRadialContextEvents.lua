@@ -5,7 +5,7 @@
 ---@field public mouse Vector4
 UiRadialContextEvents = {}
 
----@param fields? table
+---@param fields? UiRadialContextEvents
 ---@return UiRadialContextEvents
 function UiRadialContextEvents.new(fields) return end
 

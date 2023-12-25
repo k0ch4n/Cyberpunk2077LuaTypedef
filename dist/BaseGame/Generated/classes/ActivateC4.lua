@@ -5,7 +5,7 @@
 ---@field public itemID gameItemID
 ActivateC4 = {}
 
----@param fields? table
+---@param fields? ActivateC4
 ---@return ActivateC4
 function ActivateC4.new(fields) return end
 

@@ -12,7 +12,7 @@
 ---@field private questEntryHash Int32
 QuestMissionLinkController = {}
 
----@param fields? table
+---@param fields? QuestMissionLinkController
 ---@return QuestMissionLinkController
 function QuestMissionLinkController.new(fields) return end
 

@@ -13,6 +13,6 @@
 ---@field public specularTint curveData
 LightAreaSettings = {}
 
----@param fields? table
+---@param fields? LightAreaSettings
 ---@return LightAreaSettings
 function LightAreaSettings.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field protected additionalInfoToShow ItemAdditionalInfoType
 InventoryWideItemDisplay = {}
 
----@param fields? table
+---@param fields? InventoryWideItemDisplay
 ---@return InventoryWideItemDisplay
 function InventoryWideItemDisplay.new(fields) return end
 

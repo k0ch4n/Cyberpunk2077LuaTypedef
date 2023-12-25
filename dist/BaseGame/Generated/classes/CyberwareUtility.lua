@@ -4,7 +4,7 @@
 ---@class CyberwareUtility: IScriptable
 CyberwareUtility = {}
 
----@param fields? table
+---@param fields? CyberwareUtility
 ---@return CyberwareUtility
 function CyberwareUtility.new(fields) return end
 

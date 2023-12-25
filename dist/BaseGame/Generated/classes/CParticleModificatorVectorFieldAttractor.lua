@@ -8,6 +8,6 @@
 ---@field public restitution IEvaluatorFloat
 CParticleModificatorVectorFieldAttractor = {}
 
----@param fields? table
+---@param fields? CParticleModificatorVectorFieldAttractor
 ---@return CParticleModificatorVectorFieldAttractor
 function CParticleModificatorVectorFieldAttractor.new(fields) return end

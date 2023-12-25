@@ -4,7 +4,7 @@
 ---@class rendDebugDrawerScriptProxy
 rendDebugDrawerScriptProxy = {}
 
----@param fields? table
+---@param fields? rendDebugDrawerScriptProxy
 ---@return rendDebugDrawerScriptProxy
 function rendDebugDrawerScriptProxy.new(fields) return end
 

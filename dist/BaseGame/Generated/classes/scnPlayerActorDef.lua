@@ -22,6 +22,6 @@
 ---@field public playerName String
 scnPlayerActorDef = {}
 
----@param fields? table
+---@param fields? scnPlayerActorDef
 ---@return scnPlayerActorDef
 function scnPlayerActorDef.new(fields) return end

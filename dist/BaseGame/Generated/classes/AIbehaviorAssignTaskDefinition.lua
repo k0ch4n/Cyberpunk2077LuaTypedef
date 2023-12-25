@@ -6,6 +6,6 @@
 ---@field public endAssignments AIbehaviorAssignTaskItem[]
 AIbehaviorAssignTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorAssignTaskDefinition
 ---@return AIbehaviorAssignTaskDefinition
 function AIbehaviorAssignTaskDefinition.new(fields) return end

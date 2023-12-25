@@ -4,7 +4,7 @@
 ---@class ItemPositionProvider: inkItemPositionProviderWrapper
 ItemPositionProvider = {}
 
----@param fields? table
+---@param fields? ItemPositionProvider
 ---@return ItemPositionProvider
 function ItemPositionProvider.new(fields) return end
 

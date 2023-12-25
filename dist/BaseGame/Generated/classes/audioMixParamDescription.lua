@@ -6,6 +6,6 @@
 ---@field public defaultValue Float
 audioMixParamDescription = {}
 
----@param fields? table
+---@param fields? audioMixParamDescription
 ---@return audioMixParamDescription
 function audioMixParamDescription.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class Bink: CResource
 Bink = {}
 
----@param fields? table
+---@param fields? Bink
 ---@return Bink
 function Bink.new(fields) return end

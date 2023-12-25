@@ -10,6 +10,6 @@
 ---@field public flags gamedeviceActionPropertyFlags
 gamedeviceActionProperty = {}
 
----@param fields? table
+---@param fields? gamedeviceActionProperty
 ---@return gamedeviceActionProperty
 function gamedeviceActionProperty.new(fields) return end

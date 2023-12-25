@@ -9,7 +9,7 @@
 ---@field public harvestOutroAnimName CName
 OuterBunkerComputerEntranceGameController = {}
 
----@param fields? table
+---@param fields? OuterBunkerComputerEntranceGameController
 ---@return OuterBunkerComputerEntranceGameController
 function OuterBunkerComputerEntranceGameController.new(fields) return end
 

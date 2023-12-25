@@ -5,6 +5,6 @@
 ---@field public value ISerializable
 AIISerializableArgumentInstancePS = {}
 
----@param fields? table
+---@param fields? AIISerializableArgumentInstancePS
 ---@return AIISerializableArgumentInstancePS
 function AIISerializableArgumentInstancePS.new(fields) return end

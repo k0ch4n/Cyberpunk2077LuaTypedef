@@ -8,7 +8,7 @@
 ---@field public colorIndex Uint8
 gameNetrunnerPrototypeSpawnRequestEvent = {}
 
----@param fields? table
+---@param fields? gameNetrunnerPrototypeSpawnRequestEvent
 ---@return gameNetrunnerPrototypeSpawnRequestEvent
 function gameNetrunnerPrototypeSpawnRequestEvent.new(fields) return end
 

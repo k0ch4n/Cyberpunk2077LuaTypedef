@@ -6,6 +6,6 @@
 ---@field public linkedPerks gamedataNewPerkType[]
 NewPerksRequirementsLinks = {}
 
----@param fields? table
+---@param fields? NewPerksRequirementsLinks
 ---@return NewPerksRequirementsLinks
 function NewPerksRequirementsLinks.new(fields) return end

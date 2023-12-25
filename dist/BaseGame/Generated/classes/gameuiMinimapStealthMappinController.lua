@@ -51,7 +51,7 @@
 ---@field private preventionAnimProxy inkanimProxy
 gameuiMinimapStealthMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapStealthMappinController
 ---@return gameuiMinimapStealthMappinController
 function gameuiMinimapStealthMappinController.new(fields) return end
 

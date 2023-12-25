@@ -4,6 +4,6 @@
 ---@class ReevaluateOxygenEvent: redEvent
 ReevaluateOxygenEvent = {}
 
----@param fields? table
+---@param fields? ReevaluateOxygenEvent
 ---@return ReevaluateOxygenEvent
 function ReevaluateOxygenEvent.new(fields) return end

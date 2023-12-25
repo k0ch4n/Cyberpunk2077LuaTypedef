@@ -4,7 +4,7 @@
 ---@class AccessPointHasCPOMissionDataPrereq: gameIScriptablePrereq
 AccessPointHasCPOMissionDataPrereq = {}
 
----@param fields? table
+---@param fields? AccessPointHasCPOMissionDataPrereq
 ---@return AccessPointHasCPOMissionDataPrereq
 function AccessPointHasCPOMissionDataPrereq.new(fields) return end
 

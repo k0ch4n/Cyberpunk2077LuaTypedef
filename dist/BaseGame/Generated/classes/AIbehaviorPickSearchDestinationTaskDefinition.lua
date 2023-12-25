@@ -11,6 +11,6 @@
 ---@field public ignoreRestrictMovementArea AIArgumentMapping
 AIbehaviorPickSearchDestinationTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPickSearchDestinationTaskDefinition
 ---@return AIbehaviorPickSearchDestinationTaskDefinition
 function AIbehaviorPickSearchDestinationTaskDefinition.new(fields) return end

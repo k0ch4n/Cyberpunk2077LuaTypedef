@@ -8,6 +8,6 @@
 ---@field public driverCombatButtonActivate CName
 PlayerVisionModeControllerInputActionsNames = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerInputActionsNames
 ---@return PlayerVisionModeControllerInputActionsNames
 function PlayerVisionModeControllerInputActionsNames.new(fields) return end

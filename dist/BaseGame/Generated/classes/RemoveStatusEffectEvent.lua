@@ -6,7 +6,7 @@
 ---@field public removeCount Uint32
 RemoveStatusEffectEvent = {}
 
----@param fields? table
+---@param fields? RemoveStatusEffectEvent
 ---@return RemoveStatusEffectEvent
 function RemoveStatusEffectEvent.new(fields) return end
 

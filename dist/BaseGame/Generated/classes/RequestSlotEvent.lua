@@ -6,6 +6,6 @@
 ---@field public requester gameObject
 RequestSlotEvent = {}
 
----@param fields? table
+---@param fields? RequestSlotEvent
 ---@return RequestSlotEvent
 function RequestSlotEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class KillEntity: AIActionHelperTask
 KillEntity = {}
 
----@param fields? table
+---@param fields? KillEntity
 ---@return KillEntity
 function KillEntity.new(fields) return end
 

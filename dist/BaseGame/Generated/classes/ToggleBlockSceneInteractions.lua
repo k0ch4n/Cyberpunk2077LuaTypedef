@@ -5,7 +5,7 @@
 ---@field public block Bool
 ToggleBlockSceneInteractions = {}
 
----@param fields? table
+---@param fields? ToggleBlockSceneInteractions
 ---@return ToggleBlockSceneInteractions
 function ToggleBlockSceneInteractions.new(fields) return end
 

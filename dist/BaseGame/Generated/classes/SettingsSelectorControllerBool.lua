@@ -8,7 +8,7 @@
 ---@field protected offStateBody inkWidgetReference
 SettingsSelectorControllerBool = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerBool
 ---@return SettingsSelectorControllerBool
 function SettingsSelectorControllerBool.new(fields) return end
 

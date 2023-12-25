@@ -4,6 +4,6 @@
 ---@class UnblockHealingConsumableDrop: gameScriptableSystemRequest
 UnblockHealingConsumableDrop = {}
 
----@param fields? table
+---@param fields? UnblockHealingConsumableDrop
 ---@return UnblockHealingConsumableDrop
 function UnblockHealingConsumableDrop.new(fields) return end

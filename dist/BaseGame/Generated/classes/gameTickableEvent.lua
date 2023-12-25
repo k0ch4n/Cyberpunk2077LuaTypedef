@@ -5,7 +5,7 @@
 ---@field public state gameTickableEventState
 gameTickableEvent = {}
 
----@param fields? table
+---@param fields? gameTickableEvent
 ---@return gameTickableEvent
 function gameTickableEvent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataPhotoModeBackground_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModeBackground_Record = {}
 
----@param fields? table
+---@param fields? gamedataPhotoModeBackground_Record
 ---@return gamedataPhotoModeBackground_Record
 function gamedataPhotoModeBackground_Record.new(fields) return end
 

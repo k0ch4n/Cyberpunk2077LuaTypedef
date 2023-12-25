@@ -4,7 +4,7 @@
 ---@class FindClosestScavengeTarget: AIbehaviortaskScript
 FindClosestScavengeTarget = {}
 
----@param fields? table
+---@param fields? FindClosestScavengeTarget
 ---@return FindClosestScavengeTarget
 function FindClosestScavengeTarget.new(fields) return end
 

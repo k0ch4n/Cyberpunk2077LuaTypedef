@@ -8,6 +8,6 @@
 ---@field public position Point
 interopTerrainImportedTile = {}
 
----@param fields? table
+---@param fields? interopTerrainImportedTile
 ---@return interopTerrainImportedTile
 function interopTerrainImportedTile.new(fields) return end

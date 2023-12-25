@@ -17,7 +17,7 @@
 ---@field private opacityScalingSpeed Float
 PhotoModeGridButton = {}
 
----@param fields? table
+---@param fields? PhotoModeGridButton
 ---@return PhotoModeGridButton
 function PhotoModeGridButton.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private vulnerabilities Vulnerability[]
 ScannerVulnerabilities = {}
 
----@param fields? table
+---@param fields? ScannerVulnerabilities
 ---@return ScannerVulnerabilities
 function ScannerVulnerabilities.new(fields) return end
 

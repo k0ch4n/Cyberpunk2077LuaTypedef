@@ -14,6 +14,6 @@
 ---@field public footstepMaterialOverride CName
 audioAcousticZoneMetadata = {}
 
----@param fields? table
+---@param fields? audioAcousticZoneMetadata
 ---@return audioAcousticZoneMetadata
 function audioAcousticZoneMetadata.new(fields) return end

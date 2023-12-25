@@ -4,7 +4,7 @@
 ---@class SkillCheckPrereqState: gamePrereqState
 SkillCheckPrereqState = {}
 
----@param fields? table
+---@param fields? SkillCheckPrereqState
 ---@return SkillCheckPrereqState
 function SkillCheckPrereqState.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameIPlayerHandicapSystem: gameScriptableSystem
 gameIPlayerHandicapSystem = {}
 
----@param fields? table
+---@param fields? gameIPlayerHandicapSystem
 ---@return gameIPlayerHandicapSystem
 function gameIPlayerHandicapSystem.new(fields) return end

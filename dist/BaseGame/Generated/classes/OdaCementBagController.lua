@@ -4,7 +4,7 @@
 ---@class OdaCementBagController: ScriptableDeviceComponent
 OdaCementBagController = {}
 
----@param fields? table
+---@param fields? OdaCementBagController
 ---@return OdaCementBagController
 function OdaCementBagController.new(fields) return end
 

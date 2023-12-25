@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemSmartObjects: worldIRuntimeSystem
 worldRuntimeSystemSmartObjects = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemSmartObjects
 ---@return worldRuntimeSystemSmartObjects
 function worldRuntimeSystemSmartObjects.new(fields) return end

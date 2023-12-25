@@ -6,7 +6,7 @@
 ---@field public repeated Bool
 GameTimePrereqState = {}
 
----@param fields? table
+---@param fields? GameTimePrereqState
 ---@return GameTimePrereqState
 function GameTimePrereqState.new(fields) return end
 

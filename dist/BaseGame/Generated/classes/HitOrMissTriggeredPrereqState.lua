@@ -4,7 +4,7 @@
 ---@class HitOrMissTriggeredPrereqState: GenericHitPrereqState
 HitOrMissTriggeredPrereqState = {}
 
----@param fields? table
+---@param fields? HitOrMissTriggeredPrereqState
 ---@return HitOrMissTriggeredPrereqState
 function HitOrMissTriggeredPrereqState.new(fields) return end
 

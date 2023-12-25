@@ -15,7 +15,7 @@
 ---@field private removeAllLocksLisenerID CName
 FastTravelSystem = {}
 
----@param fields? table
+---@param fields? FastTravelSystem
 ---@return FastTravelSystem
 function FastTravelSystem.new(fields) return end
 

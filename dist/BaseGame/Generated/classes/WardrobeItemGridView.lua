@@ -4,7 +4,7 @@
 ---@class WardrobeItemGridView: CommonItemsGridView
 WardrobeItemGridView = {}
 
----@param fields? table
+---@param fields? WardrobeItemGridView
 ---@return WardrobeItemGridView
 function WardrobeItemGridView.new(fields) return end
 

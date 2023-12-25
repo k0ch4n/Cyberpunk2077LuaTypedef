@@ -8,7 +8,7 @@
 ---@field private imagePresets CName[]
 SlotMachineSlot = {}
 
----@param fields? table
+---@param fields? SlotMachineSlot
 ---@return SlotMachineSlot
 function SlotMachineSlot.new(fields) return end
 

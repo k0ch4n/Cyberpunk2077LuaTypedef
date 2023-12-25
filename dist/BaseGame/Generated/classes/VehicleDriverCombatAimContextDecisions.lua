@@ -4,7 +4,7 @@
 ---@class VehicleDriverCombatAimContextDecisions: VehicleDriverCombatContextDecisions
 VehicleDriverCombatAimContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleDriverCombatAimContextDecisions
 ---@return VehicleDriverCombatAimContextDecisions
 function VehicleDriverCombatAimContextDecisions.new(fields) return end
 

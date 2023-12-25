@@ -8,7 +8,7 @@
 ---@field public lifeTime Float
 AIGateSignal = {}
 
----@param fields? table
+---@param fields? AIGateSignal
 ---@return AIGateSignal
 function AIGateSignal.new(fields) return end
 

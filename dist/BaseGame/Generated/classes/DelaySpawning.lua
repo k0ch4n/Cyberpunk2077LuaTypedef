@@ -4,6 +4,6 @@
 ---@class DelaySpawning: redEvent
 DelaySpawning = {}
 
----@param fields? table
+---@param fields? DelaySpawning
 ---@return DelaySpawning
 function DelaySpawning.new(fields) return end

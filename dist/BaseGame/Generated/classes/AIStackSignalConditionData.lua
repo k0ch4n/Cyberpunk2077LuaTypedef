@@ -6,6 +6,6 @@
 ---@field public lastValue Bool
 AIStackSignalConditionData = {}
 
----@param fields? table
+---@param fields? AIStackSignalConditionData
 ---@return AIStackSignalConditionData
 function AIStackSignalConditionData.new(fields) return end

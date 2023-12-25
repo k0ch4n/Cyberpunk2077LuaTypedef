@@ -5,6 +5,6 @@
 ---@field public networkId Uint32
 scnFindNetworkPlayerParams = {}
 
----@param fields? table
+---@param fields? scnFindNetworkPlayerParams
 ---@return scnFindNetworkPlayerParams
 function scnFindNetworkPlayerParams.new(fields) return end

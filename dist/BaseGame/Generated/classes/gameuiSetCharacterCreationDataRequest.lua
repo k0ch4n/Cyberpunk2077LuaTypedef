@@ -6,6 +6,6 @@
 ---@field public attributes gameuiCharacterCustomizationAttribute[]
 gameuiSetCharacterCreationDataRequest = {}
 
----@param fields? table
+---@param fields? gameuiSetCharacterCreationDataRequest
 ---@return gameuiSetCharacterCreationDataRequest
 function gameuiSetCharacterCreationDataRequest.new(fields) return end

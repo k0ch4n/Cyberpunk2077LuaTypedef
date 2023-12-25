@@ -8,6 +8,6 @@
 ---@field public transitionTime Float
 audioAnyStateTransitionEntry = {}
 
----@param fields? table
+---@param fields? audioAnyStateTransitionEntry
 ---@return audioAnyStateTransitionEntry
 function audioAnyStateTransitionEntry.new(fields) return end

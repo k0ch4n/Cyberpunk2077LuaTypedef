@@ -11,7 +11,7 @@
 ---@field public hoverFillAnimProxy inkanimProxy
 Codeware_UI_HubLinkButton = {}
 
----@param fields? table
+---@param fields? Codeware_UI_HubLinkButton
 ---@return Codeware_UI_HubLinkButton
 function Codeware_UI_HubLinkButton.new(fields) return end
 

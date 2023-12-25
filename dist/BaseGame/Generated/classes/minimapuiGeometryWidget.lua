@@ -6,6 +6,6 @@
 ---@field public settings minimapuiSettings
 minimapuiGeometryWidget = {}
 
----@param fields? table
+---@param fields? minimapuiGeometryWidget
 ---@return minimapuiGeometryWidget
 function minimapuiGeometryWidget.new(fields) return end

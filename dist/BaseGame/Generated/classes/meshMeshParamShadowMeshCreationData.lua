@@ -6,6 +6,6 @@
 ---@field public bonesPerGeometry Int32[]
 meshMeshParamShadowMeshCreationData = {}
 
----@param fields? table
+---@param fields? meshMeshParamShadowMeshCreationData
 ---@return meshMeshParamShadowMeshCreationData
 function meshMeshParamShadowMeshCreationData.new(fields) return end

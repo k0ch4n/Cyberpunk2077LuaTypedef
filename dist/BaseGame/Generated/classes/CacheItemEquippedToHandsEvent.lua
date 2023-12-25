@@ -6,6 +6,6 @@
 ---@field public slot TweakDBID
 CacheItemEquippedToHandsEvent = {}
 
----@param fields? table
+---@param fields? CacheItemEquippedToHandsEvent
 ---@return CacheItemEquippedToHandsEvent
 function CacheItemEquippedToHandsEvent.new(fields) return end

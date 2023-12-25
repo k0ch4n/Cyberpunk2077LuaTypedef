@@ -31,6 +31,6 @@
 ---@field public isPlayerShadowMesh Bool
 CMesh = {}
 
----@param fields? table
+---@param fields? CMesh
 ---@return CMesh
 function CMesh.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public traps ETrap[]
 SpecialProperties = {}
 
----@param fields? table
+---@param fields? SpecialProperties
 ---@return SpecialProperties
 function SpecialProperties.new(fields) return end

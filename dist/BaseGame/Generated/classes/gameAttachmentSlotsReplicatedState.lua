@@ -6,6 +6,6 @@
 ---@field public slots gameAttachmentSlotReplicatedState[]
 gameAttachmentSlotsReplicatedState = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotsReplicatedState
 ---@return gameAttachmentSlotsReplicatedState
 function gameAttachmentSlotsReplicatedState.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkBaseShapeWidget: inkLeafWidget
 inkBaseShapeWidget = {}
 
----@param fields? table
+---@param fields? inkBaseShapeWidget
 ---@return inkBaseShapeWidget
 function inkBaseShapeWidget.new(fields) return end

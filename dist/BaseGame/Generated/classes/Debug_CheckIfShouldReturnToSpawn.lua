@@ -4,7 +4,7 @@
 ---@class Debug_CheckIfShouldReturnToSpawn: AIDebugConditions
 Debug_CheckIfShouldReturnToSpawn = {}
 
----@param fields? table
+---@param fields? Debug_CheckIfShouldReturnToSpawn
 ---@return Debug_CheckIfShouldReturnToSpawn
 function Debug_CheckIfShouldReturnToSpawn.new(fields) return end
 

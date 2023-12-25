@@ -5,7 +5,7 @@
 ---@field protected statName inkTextWidgetReference
 ItemRandomizedStatsController = {}
 
----@param fields? table
+---@param fields? ItemRandomizedStatsController
 ---@return ItemRandomizedStatsController
 function ItemRandomizedStatsController.new(fields) return end
 

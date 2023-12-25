@@ -8,6 +8,6 @@
 ---@field public version Uint32
 scnRidResource = {}
 
----@param fields? table
+---@param fields? scnRidResource
 ---@return scnRidResource
 function scnRidResource.new(fields) return end

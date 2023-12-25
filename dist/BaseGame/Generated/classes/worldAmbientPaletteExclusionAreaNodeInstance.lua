@@ -4,6 +4,6 @@
 ---@class worldAmbientPaletteExclusionAreaNodeInstance: worldAreaShapeNodeInstance
 worldAmbientPaletteExclusionAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAmbientPaletteExclusionAreaNodeInstance
 ---@return worldAmbientPaletteExclusionAreaNodeInstance
 function worldAmbientPaletteExclusionAreaNodeInstance.new(fields) return end

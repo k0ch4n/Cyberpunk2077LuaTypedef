@@ -5,6 +5,6 @@
 ---@field public parameters audioAudSimpleParameter[]
 audioAudioSceneDefaults = {}
 
----@param fields? table
+---@param fields? audioAudioSceneDefaults
 ---@return audioAudioSceneDefaults
 function audioAudioSceneDefaults.new(fields) return end

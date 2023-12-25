@@ -5,7 +5,7 @@
 ---@field protected triggerData HitOperationTriggerData
 HitOperationsTrigger = {}
 
----@param fields? table
+---@param fields? HitOperationsTrigger
 ---@return HitOperationsTrigger
 function HitOperationsTrigger.new(fields) return end
 

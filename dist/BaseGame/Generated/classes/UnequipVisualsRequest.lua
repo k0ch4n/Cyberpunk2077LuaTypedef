@@ -6,6 +6,6 @@
 ---@field public removeItem Bool
 UnequipVisualsRequest = {}
 
----@param fields? table
+---@param fields? UnequipVisualsRequest
 ---@return UnequipVisualsRequest
 function UnequipVisualsRequest.new(fields) return end

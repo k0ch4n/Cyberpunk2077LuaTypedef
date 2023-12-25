@@ -6,6 +6,6 @@
 ---@field public disablePreviousMappins Bool
 questMappinManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMappinManagerNodeDefinition
 ---@return questMappinManagerNodeDefinition
 function questMappinManagerNodeDefinition.new(fields) return end

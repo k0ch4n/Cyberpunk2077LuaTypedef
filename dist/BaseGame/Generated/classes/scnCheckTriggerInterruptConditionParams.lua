@@ -6,6 +6,6 @@
 ---@field public triggerArea NodeRef
 scnCheckTriggerInterruptConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckTriggerInterruptConditionParams
 ---@return scnCheckTriggerInterruptConditionParams
 function scnCheckTriggerInterruptConditionParams.new(fields) return end

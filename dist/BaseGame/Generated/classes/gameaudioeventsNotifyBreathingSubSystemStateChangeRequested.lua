@@ -4,6 +4,6 @@
 ---@class gameaudioeventsNotifyBreathingSubSystemStateChangeRequested: redEvent
 gameaudioeventsNotifyBreathingSubSystemStateChangeRequested = {}
 
----@param fields? table
+---@param fields? gameaudioeventsNotifyBreathingSubSystemStateChangeRequested
 ---@return gameaudioeventsNotifyBreathingSubSystemStateChangeRequested
 function gameaudioeventsNotifyBreathingSubSystemStateChangeRequested.new(fields) return end

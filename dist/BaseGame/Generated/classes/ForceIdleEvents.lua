@@ -4,7 +4,7 @@
 ---@class ForceIdleEvents: LocomotionGroundEvents
 ForceIdleEvents = {}
 
----@param fields? table
+---@param fields? ForceIdleEvents
 ---@return ForceIdleEvents
 function ForceIdleEvents.new(fields) return end
 

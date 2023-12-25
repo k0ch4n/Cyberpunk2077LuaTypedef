@@ -4,6 +4,6 @@
 ---@class moveDroneMotionPlannerComponent: moveMotionPlannerComponent
 moveDroneMotionPlannerComponent = {}
 
----@param fields? table
+---@param fields? moveDroneMotionPlannerComponent
 ---@return moveDroneMotionPlannerComponent
 function moveDroneMotionPlannerComponent.new(fields) return end

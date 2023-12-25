@@ -6,7 +6,7 @@
 ---@field public endValue inkMargin
 inkanimPaddingInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimPaddingInterpolator
 ---@return inkanimPaddingInterpolator
 function inkanimPaddingInterpolator.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public quickhackObjectActionRecord gamedataObjectAction_Record
 ICECounterHackEffector = {}
 
----@param fields? table
+---@param fields? ICECounterHackEffector
 ---@return ICECounterHackEffector
 function ICECounterHackEffector.new(fields) return end
 

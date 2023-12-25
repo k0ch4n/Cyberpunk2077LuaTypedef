@@ -4,7 +4,7 @@
 ---@class SampleComponentWithCounter: gameScriptableComponent
 SampleComponentWithCounter = {}
 
----@param fields? table
+---@param fields? SampleComponentWithCounter
 ---@return SampleComponentWithCounter
 function SampleComponentWithCounter.new(fields) return end
 

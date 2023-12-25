@@ -4,7 +4,7 @@
 ---@class gamedataShooterVFX_Record: gamedataShooterObject_Record
 gamedataShooterVFX_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterVFX_Record
 ---@return gamedataShooterVFX_Record
 function gamedataShooterVFX_Record.new(fields) return end
 

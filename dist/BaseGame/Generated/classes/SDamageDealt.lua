@@ -7,6 +7,6 @@
 ---@field public affectedStatPool gamedataStatPoolType
 SDamageDealt = {}
 
----@param fields? table
+---@param fields? SDamageDealt
 ---@return SDamageDealt
 function SDamageDealt.new(fields) return end

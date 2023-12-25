@@ -10,6 +10,6 @@
 ---@field public defeated Bool
 questCharacterKilled_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterKilled_ConditionType
 ---@return questCharacterKilled_ConditionType
 function questCharacterKilled_ConditionType.new(fields) return end

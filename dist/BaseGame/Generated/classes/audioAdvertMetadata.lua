@@ -9,6 +9,6 @@
 ---@field public filter audioAdvertIndoorFilter
 audioAdvertMetadata = {}
 
----@param fields? table
+---@param fields? audioAdvertMetadata
 ---@return audioAdvertMetadata
 function audioAdvertMetadata.new(fields) return end

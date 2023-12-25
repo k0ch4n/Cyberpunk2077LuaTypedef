@@ -9,6 +9,6 @@
 ---@field public success Bool
 gameSpawnRequestResult = {}
 
----@param fields? table
+---@param fields? gameSpawnRequestResult
 ---@return gameSpawnRequestResult
 function gameSpawnRequestResult.new(fields) return end

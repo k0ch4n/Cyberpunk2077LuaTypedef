@@ -5,6 +5,6 @@
 ---@field public inputPoses animPoseLink[]
 animAnimNode_Stage = {}
 
----@param fields? table
+---@param fields? animAnimNode_Stage
 ---@return animAnimNode_Stage
 function animAnimNode_Stage.new(fields) return end

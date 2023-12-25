@@ -4,7 +4,7 @@
 ---@class gamedataUIIconCensorFlag_Record: gamedataTweakDBRecord
 gamedataUIIconCensorFlag_Record = {}
 
----@param fields? table
+---@param fields? gamedataUIIconCensorFlag_Record
 ---@return gamedataUIIconCensorFlag_Record
 function gamedataUIIconCensorFlag_Record.new(fields) return end
 

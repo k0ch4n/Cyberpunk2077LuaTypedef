@@ -7,6 +7,6 @@
 ---@field public shouldPlay Bool
 BinkVideoEvent = {}
 
----@param fields? table
+---@param fields? BinkVideoEvent
 ---@return BinkVideoEvent
 function BinkVideoEvent.new(fields) return end

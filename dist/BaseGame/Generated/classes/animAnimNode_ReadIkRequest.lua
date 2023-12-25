@@ -6,6 +6,6 @@
 ---@field public outTransform animTransformIndex
 animAnimNode_ReadIkRequest = {}
 
----@param fields? table
+---@param fields? animAnimNode_ReadIkRequest
 ---@return animAnimNode_ReadIkRequest
 function animAnimNode_ReadIkRequest.new(fields) return end

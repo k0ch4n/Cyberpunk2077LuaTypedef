@@ -20,6 +20,6 @@
 ---@field public numWrinkles Uint16
 animFacialSetup_OneSermoBufferInfo = {}
 
----@param fields? table
+---@param fields? animFacialSetup_OneSermoBufferInfo
 ---@return animFacialSetup_OneSermoBufferInfo
 function animFacialSetup_OneSermoBufferInfo.new(fields) return end

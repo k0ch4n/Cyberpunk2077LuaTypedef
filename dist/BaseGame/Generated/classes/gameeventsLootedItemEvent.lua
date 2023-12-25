@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 gameeventsLootedItemEvent = {}
 
----@param fields? table
+---@param fields? gameeventsLootedItemEvent
 ---@return gameeventsLootedItemEvent
 function gameeventsLootedItemEvent.new(fields) return end

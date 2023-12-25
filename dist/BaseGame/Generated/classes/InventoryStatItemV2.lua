@@ -10,7 +10,7 @@
 ---@field private IntroPlayed Bool
 InventoryStatItemV2 = {}
 
----@param fields? table
+---@param fields? InventoryStatItemV2
 ---@return InventoryStatItemV2
 function InventoryStatItemV2.new(fields) return end
 

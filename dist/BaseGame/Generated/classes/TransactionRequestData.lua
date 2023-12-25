@@ -7,6 +7,6 @@
 ---@field public powerLevel Float
 TransactionRequestData = {}
 
----@param fields? table
+---@param fields? TransactionRequestData
 ---@return TransactionRequestData
 function TransactionRequestData.new(fields) return end

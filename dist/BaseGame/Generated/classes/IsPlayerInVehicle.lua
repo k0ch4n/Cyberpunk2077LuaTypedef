@@ -4,7 +4,7 @@
 ---@class IsPlayerInVehicle: PreventionConditionAbstract
 IsPlayerInVehicle = {}
 
----@param fields? table
+---@param fields? IsPlayerInVehicle
 ---@return IsPlayerInVehicle
 function IsPlayerInVehicle.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public commandStarted Bool
 ForceMoveInCombatEffector = {}
 
----@param fields? table
+---@param fields? ForceMoveInCombatEffector
 ---@return ForceMoveInCombatEffector
 function ForceMoveInCombatEffector.new(fields) return end
 

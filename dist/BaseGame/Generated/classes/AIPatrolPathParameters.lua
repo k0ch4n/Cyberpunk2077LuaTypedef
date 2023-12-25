@@ -14,6 +14,6 @@
 ---@field public patrolAction TweakDBID
 AIPatrolPathParameters = {}
 
----@param fields? table
+---@param fields? AIPatrolPathParameters
 ---@return AIPatrolPathParameters
 function AIPatrolPathParameters.new(fields) return end

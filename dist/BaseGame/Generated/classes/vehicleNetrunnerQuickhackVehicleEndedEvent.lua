@@ -7,6 +7,6 @@
 ---@field public shouldRejoinTraffic Bool
 vehicleNetrunnerQuickhackVehicleEndedEvent = {}
 
----@param fields? table
+---@param fields? vehicleNetrunnerQuickhackVehicleEndedEvent
 ---@return vehicleNetrunnerQuickhackVehicleEndedEvent
 function vehicleNetrunnerQuickhackVehicleEndedEvent.new(fields) return end

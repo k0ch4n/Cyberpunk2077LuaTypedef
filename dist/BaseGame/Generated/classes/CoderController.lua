@@ -4,7 +4,7 @@
 ---@class CoderController: ScriptableDeviceComponent
 CoderController = {}
 
----@param fields? table
+---@param fields? CoderController
 ---@return CoderController
 function CoderController.new(fields) return end
 

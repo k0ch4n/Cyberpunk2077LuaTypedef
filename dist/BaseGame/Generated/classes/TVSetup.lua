@@ -10,6 +10,6 @@
 ---@field public isGlobalTvOnly Bool
 TVSetup = {}
 
----@param fields? table
+---@param fields? TVSetup
 ---@return TVSetup
 function TVSetup.new(fields) return end

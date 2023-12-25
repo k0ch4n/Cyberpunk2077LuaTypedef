@@ -6,7 +6,7 @@
 ---@field private ammoBar inkImageWidget
 megatronFullAutoController = {}
 
----@param fields? table
+---@param fields? megatronFullAutoController
 ---@return megatronFullAutoController
 function megatronFullAutoController.new(fields) return end
 

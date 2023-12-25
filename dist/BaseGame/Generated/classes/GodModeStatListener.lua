@@ -5,7 +5,7 @@
 ---@field public healthbar gameuiHudHealthbarGameController
 GodModeStatListener = {}
 
----@param fields? table
+---@param fields? GodModeStatListener
 ---@return GodModeStatListener
 function GodModeStatListener.new(fields) return end
 

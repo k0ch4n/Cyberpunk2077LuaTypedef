@@ -4,6 +4,6 @@
 ---@class gamePhotoModeCameraObject: gameObject
 gamePhotoModeCameraObject = {}
 
----@param fields? table
+---@param fields? gamePhotoModeCameraObject
 ---@return gamePhotoModeCameraObject
 function gamePhotoModeCameraObject.new(fields) return end

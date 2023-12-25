@@ -4,7 +4,7 @@
 ---@class gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record: gamedataAIActionSubCondition_Record
 gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
 ---@return gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
 function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record.new(fields) return end
 

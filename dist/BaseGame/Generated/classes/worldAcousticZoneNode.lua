@@ -7,6 +7,6 @@
 ---@field public tagSpread Float
 worldAcousticZoneNode = {}
 
----@param fields? table
+---@param fields? worldAcousticZoneNode
 ---@return worldAcousticZoneNode
 function worldAcousticZoneNode.new(fields) return end

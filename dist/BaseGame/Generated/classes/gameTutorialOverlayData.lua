@@ -6,6 +6,6 @@
 ---@field public itemName CName
 gameTutorialOverlayData = {}
 
----@param fields? table
+---@param fields? gameTutorialOverlayData
 ---@return gameTutorialOverlayData
 function gameTutorialOverlayData.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field protected launchMode ELaunchMode
 NanoWireProjectile = {}
 
----@param fields? table
+---@param fields? NanoWireProjectile
 ---@return NanoWireProjectile
 function NanoWireProjectile.new(fields) return end
 

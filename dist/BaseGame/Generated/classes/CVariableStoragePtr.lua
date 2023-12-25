@@ -4,6 +4,6 @@
 ---@class CVariableStoragePtr
 CVariableStoragePtr = {}
 
----@param fields? table
+---@param fields? CVariableStoragePtr
 ---@return CVariableStoragePtr
 function CVariableStoragePtr.new(fields) return end

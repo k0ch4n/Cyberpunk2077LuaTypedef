@@ -4,6 +4,6 @@
 ---@class entAppearanceProxyMeshComponent: entPhysicalMeshComponent
 entAppearanceProxyMeshComponent = {}
 
----@param fields? table
+---@param fields? entAppearanceProxyMeshComponent
 ---@return entAppearanceProxyMeshComponent
 function entAppearanceProxyMeshComponent.new(fields) return end

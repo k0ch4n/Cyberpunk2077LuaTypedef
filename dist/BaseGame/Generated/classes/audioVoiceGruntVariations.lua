@@ -5,6 +5,6 @@
 ---@field public cachedVariations CName[]
 audioVoiceGruntVariations = {}
 
----@param fields? table
+---@param fields? audioVoiceGruntVariations
 ---@return audioVoiceGruntVariations
 function audioVoiceGruntVariations.new(fields) return end

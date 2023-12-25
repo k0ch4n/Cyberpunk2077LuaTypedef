@@ -15,7 +15,7 @@
 ---@field private names String[]
 RipperdocSelectorController = {}
 
----@param fields? table
+---@param fields? RipperdocSelectorController
 ---@return RipperdocSelectorController
 function RipperdocSelectorController.new(fields) return end
 

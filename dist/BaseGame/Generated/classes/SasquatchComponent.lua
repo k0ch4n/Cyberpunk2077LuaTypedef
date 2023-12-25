@@ -8,7 +8,7 @@
 ---@field private player PlayerPuppet
 SasquatchComponent = {}
 
----@param fields? table
+---@param fields? SasquatchComponent
 ---@return SasquatchComponent
 function SasquatchComponent.new(fields) return end
 

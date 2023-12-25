@@ -6,6 +6,6 @@
 ---@field public layerName CName
 gameinteractionsLayerActivatedPredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsLayerActivatedPredicate
 ---@return gameinteractionsLayerActivatedPredicate
 function gameinteractionsLayerActivatedPredicate.new(fields) return end

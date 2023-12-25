@@ -6,6 +6,6 @@
 ---@field public ordinal Uint16
 scnInputSocketStamp = {}
 
----@param fields? table
+---@param fields? scnInputSocketStamp
 ---@return scnInputSocketStamp
 function scnInputSocketStamp.new(fields) return end

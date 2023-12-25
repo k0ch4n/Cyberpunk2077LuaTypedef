@@ -4,6 +4,6 @@
 ---@class gameinteractionsvisDeviceVisualizerFamily: gameinteractionsvisFamilyBase
 gameinteractionsvisDeviceVisualizerFamily = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisDeviceVisualizerFamily
 ---@return gameinteractionsvisDeviceVisualizerFamily
 function gameinteractionsvisDeviceVisualizerFamily.new(fields) return end

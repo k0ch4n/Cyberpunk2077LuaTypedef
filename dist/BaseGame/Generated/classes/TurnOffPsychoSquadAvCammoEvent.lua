@@ -5,6 +5,6 @@
 ---@field public go gameObject
 TurnOffPsychoSquadAvCammoEvent = {}
 
----@param fields? table
+---@param fields? TurnOffPsychoSquadAvCammoEvent
 ---@return TurnOffPsychoSquadAvCammoEvent
 function TurnOffPsychoSquadAvCammoEvent.new(fields) return end

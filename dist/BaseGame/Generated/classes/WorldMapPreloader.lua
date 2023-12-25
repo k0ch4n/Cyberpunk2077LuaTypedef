@@ -14,7 +14,7 @@
 ---@field public spinnerFadeOutProxy inkanimProxy
 WorldMapPreloader = {}
 
----@param fields? table
+---@param fields? WorldMapPreloader
 ---@return WorldMapPreloader
 function WorldMapPreloader.new(fields) return end
 

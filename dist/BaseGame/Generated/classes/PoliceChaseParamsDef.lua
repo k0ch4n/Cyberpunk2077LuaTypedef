@@ -6,7 +6,7 @@
 ---@field public ChasePlayerDistance gamebbScriptID_Float
 PoliceChaseParamsDef = {}
 
----@param fields? table
+---@param fields? PoliceChaseParamsDef
 ---@return PoliceChaseParamsDef
 function PoliceChaseParamsDef.new(fields) return end
 

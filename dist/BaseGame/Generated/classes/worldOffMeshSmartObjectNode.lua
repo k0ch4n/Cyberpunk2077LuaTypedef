@@ -5,6 +5,6 @@
 ---@field public object gameSmartObjectDefinition
 worldOffMeshSmartObjectNode = {}
 
----@param fields? table
+---@param fields? worldOffMeshSmartObjectNode
 ---@return worldOffMeshSmartObjectNode
 function worldOffMeshSmartObjectNode.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public xt String
 vgVectorGraphicShape_Text = {}
 
----@param fields? table
+---@param fields? vgVectorGraphicShape_Text
 ---@return vgVectorGraphicShape_Text
 function vgVectorGraphicShape_Text.new(fields) return end

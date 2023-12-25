@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 MoveCommandCleanup = {}
 
----@param fields? table
+---@param fields? MoveCommandCleanup
 ---@return MoveCommandCleanup
 function MoveCommandCleanup.new(fields) return end
 

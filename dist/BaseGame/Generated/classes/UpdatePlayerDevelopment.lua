@@ -5,7 +5,7 @@
 ---@field public ForceRefresh Bool
 UpdatePlayerDevelopment = {}
 
----@param fields? table
+---@param fields? UpdatePlayerDevelopment
 ---@return UpdatePlayerDevelopment
 function UpdatePlayerDevelopment.new(fields) return end
 

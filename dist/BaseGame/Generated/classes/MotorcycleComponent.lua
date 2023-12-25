@@ -4,7 +4,7 @@
 ---@class MotorcycleComponent: VehicleComponent
 MotorcycleComponent = {}
 
----@param fields? table
+---@param fields? MotorcycleComponent
 ---@return MotorcycleComponent
 function MotorcycleComponent.new(fields) return end
 

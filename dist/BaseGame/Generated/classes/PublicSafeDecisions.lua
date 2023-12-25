@@ -13,7 +13,7 @@
 ---@field private rangedAttackPressed Bool
 PublicSafeDecisions = {}
 
----@param fields? table
+---@param fields? PublicSafeDecisions
 ---@return PublicSafeDecisions
 function PublicSafeDecisions.new(fields) return end
 

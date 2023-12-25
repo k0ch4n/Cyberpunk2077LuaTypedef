@@ -8,6 +8,6 @@
 ---@field public currentQuantity Int32
 gameItemChangedEvent = {}
 
----@param fields? table
+---@param fields? gameItemChangedEvent
 ---@return gameItemChangedEvent
 function gameItemChangedEvent.new(fields) return end

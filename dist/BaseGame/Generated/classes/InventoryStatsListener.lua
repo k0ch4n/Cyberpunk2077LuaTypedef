@@ -6,7 +6,7 @@
 ---@field public controller InventoryStatsController
 InventoryStatsListener = {}
 
----@param fields? table
+---@param fields? InventoryStatsListener
 ---@return InventoryStatsListener
 function InventoryStatsListener.new(fields) return end
 

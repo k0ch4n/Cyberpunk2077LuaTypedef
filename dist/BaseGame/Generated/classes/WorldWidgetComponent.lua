@@ -12,7 +12,7 @@
 ---@field protected screenDefinition SUIScreenDefinition
 WorldWidgetComponent = {}
 
----@param fields? table
+---@param fields? WorldWidgetComponent
 ---@return WorldWidgetComponent
 function WorldWidgetComponent.new(fields) return end
 

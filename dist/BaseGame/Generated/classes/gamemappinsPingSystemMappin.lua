@@ -5,7 +5,7 @@
 ---@field public pingType gamedataPingType
 gamemappinsPingSystemMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsPingSystemMappin
 ---@return gamemappinsPingSystemMappin
 function gamemappinsPingSystemMappin.new(fields) return end
 

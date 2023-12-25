@@ -4,6 +4,6 @@
 ---@class gameCompiledCoverData: gameCompiledSmartObjectData
 gameCompiledCoverData = {}
 
----@param fields? table
+---@param fields? gameCompiledCoverData
 ---@return gameCompiledCoverData
 function gameCompiledCoverData.new(fields) return end

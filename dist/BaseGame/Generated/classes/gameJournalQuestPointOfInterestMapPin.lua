@@ -4,6 +4,6 @@
 ---@class gameJournalQuestPointOfInterestMapPin: gameJournalQuestMapPinBase
 gameJournalQuestPointOfInterestMapPin = {}
 
----@param fields? table
+---@param fields? gameJournalQuestPointOfInterestMapPin
 ---@return gameJournalQuestPointOfInterestMapPin
 function gameJournalQuestPointOfInterestMapPin.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public staticOrientation Quaternion
 entStaticOrientationProvider = {}
 
----@param fields? table
+---@param fields? entStaticOrientationProvider
 ---@return entStaticOrientationProvider
 function entStaticOrientationProvider.new(fields) return end

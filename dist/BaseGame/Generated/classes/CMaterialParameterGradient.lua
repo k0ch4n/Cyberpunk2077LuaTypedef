@@ -5,6 +5,6 @@
 ---@field public gradient CGradient
 CMaterialParameterGradient = {}
 
----@param fields? table
+---@param fields? CMaterialParameterGradient
 ---@return CMaterialParameterGradient
 function CMaterialParameterGradient.new(fields) return end

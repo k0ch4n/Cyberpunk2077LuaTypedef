@@ -5,7 +5,7 @@
 ---@field protected shouldOpen Bool
 ToggleLock = {}
 
----@param fields? table
+---@param fields? ToggleLock
 ---@return ToggleLock
 function ToggleLock.new(fields) return end
 

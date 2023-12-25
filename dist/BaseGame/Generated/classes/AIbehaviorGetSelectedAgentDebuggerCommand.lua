@@ -4,6 +4,6 @@
 ---@class AIbehaviorGetSelectedAgentDebuggerCommand: AIbehaviorIDebuggerCommand
 AIbehaviorGetSelectedAgentDebuggerCommand = {}
 
----@param fields? table
+---@param fields? AIbehaviorGetSelectedAgentDebuggerCommand
 ---@return AIbehaviorGetSelectedAgentDebuggerCommand
 function AIbehaviorGetSelectedAgentDebuggerCommand.new(fields) return end

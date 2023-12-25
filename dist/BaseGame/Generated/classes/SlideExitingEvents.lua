@@ -5,7 +5,7 @@
 ---@field public exitMomentum Vector4
 SlideExitingEvents = {}
 
----@param fields? table
+---@param fields? SlideExitingEvents
 ---@return SlideExitingEvents
 function SlideExitingEvents.new(fields) return end
 

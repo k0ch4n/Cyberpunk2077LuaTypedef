@@ -17,7 +17,7 @@
 ---@field private firstInit Bool
 BaseModalListPopupGameController = {}
 
----@param fields? table
+---@param fields? BaseModalListPopupGameController
 ---@return BaseModalListPopupGameController
 function BaseModalListPopupGameController.new(fields) return end
 

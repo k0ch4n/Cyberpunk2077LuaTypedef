@@ -6,7 +6,7 @@
 ---@field public isInteractionSource Bool
 VehicleDoorInteraction = {}
 
----@param fields? table
+---@param fields? VehicleDoorInteraction
 ---@return VehicleDoorInteraction
 function VehicleDoorInteraction.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public isSleeping Bool
 entRagdollComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? entRagdollComponentReplicatedState
 ---@return entRagdollComponentReplicatedState
 function entRagdollComponentReplicatedState.new(fields) return end

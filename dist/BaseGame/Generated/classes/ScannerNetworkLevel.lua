@@ -5,7 +5,7 @@
 ---@field private networkLevel Int32
 ScannerNetworkLevel = {}
 
----@param fields? table
+---@param fields? ScannerNetworkLevel
 ---@return ScannerNetworkLevel
 function ScannerNetworkLevel.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public ActionsData gamebbScriptID_Variant
 UI_HUDButtonHintDef = {}
 
----@param fields? table
+---@param fields? UI_HUDButtonHintDef
 ---@return UI_HUDButtonHintDef
 function UI_HUDButtonHintDef.new(fields) return end

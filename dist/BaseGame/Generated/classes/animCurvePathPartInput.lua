@@ -10,6 +10,6 @@
 ---@field public startBlendTime Float
 animCurvePathPartInput = {}
 
----@param fields? table
+---@param fields? animCurvePathPartInput
 ---@return animCurvePathPartInput
 function animCurvePathPartInput.new(fields) return end

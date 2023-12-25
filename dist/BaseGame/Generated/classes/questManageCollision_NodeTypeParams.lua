@@ -8,6 +8,6 @@
 ---@field public components CName[]
 questManageCollision_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questManageCollision_NodeTypeParams
 ---@return questManageCollision_NodeTypeParams
 function questManageCollision_NodeTypeParams.new(fields) return end

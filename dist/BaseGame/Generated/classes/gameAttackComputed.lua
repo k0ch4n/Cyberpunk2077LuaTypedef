@@ -4,7 +4,7 @@
 ---@class gameAttackComputed: IScriptable
 gameAttackComputed = {}
 
----@param fields? table
+---@param fields? gameAttackComputed
 ---@return gameAttackComputed
 function gameAttackComputed.new(fields) return end
 

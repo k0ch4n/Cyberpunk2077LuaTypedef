@@ -11,6 +11,6 @@
 ---@field public scriptData gamemappinsMappinScriptData
 gamemappinsMappinData = {}
 
----@param fields? table
+---@param fields? gamemappinsMappinData
 ---@return gamemappinsMappinData
 function gamemappinsMappinData.new(fields) return end

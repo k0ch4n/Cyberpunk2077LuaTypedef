@@ -5,7 +5,7 @@
 ---@field public invert Bool
 NPCIsAggressivePrereq = {}
 
----@param fields? table
+---@param fields? NPCIsAggressivePrereq
 ---@return NPCIsAggressivePrereq
 function NPCIsAggressivePrereq.new(fields) return end
 

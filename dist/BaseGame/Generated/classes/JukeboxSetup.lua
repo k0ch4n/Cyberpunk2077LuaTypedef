@@ -8,6 +8,6 @@
 ---@field public paymentRecordID TweakDBID
 JukeboxSetup = {}
 
----@param fields? table
+---@param fields? JukeboxSetup
 ---@return JukeboxSetup
 function JukeboxSetup.new(fields) return end

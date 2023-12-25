@@ -15,6 +15,6 @@
 ---@field public accuracy Float
 gameprojectileAccelerateTowardsTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileAccelerateTowardsTrajectoryParams
 ---@return gameprojectileAccelerateTowardsTrajectoryParams
 function gameprojectileAccelerateTowardsTrajectoryParams.new(fields) return end

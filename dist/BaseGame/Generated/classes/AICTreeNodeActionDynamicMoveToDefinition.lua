@@ -8,6 +8,6 @@
 ---@field public keepDistance Bool
 AICTreeNodeActionDynamicMoveToDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeActionDynamicMoveToDefinition
 ---@return AICTreeNodeActionDynamicMoveToDefinition
 function AICTreeNodeActionDynamicMoveToDefinition.new(fields) return end

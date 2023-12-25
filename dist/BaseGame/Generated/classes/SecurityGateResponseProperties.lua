@@ -6,6 +6,6 @@
 ---@field public securityLevelAccessGranted ESecurityAccessLevel
 SecurityGateResponseProperties = {}
 
----@param fields? table
+---@param fields? SecurityGateResponseProperties
 ---@return SecurityGateResponseProperties
 function SecurityGateResponseProperties.new(fields) return end

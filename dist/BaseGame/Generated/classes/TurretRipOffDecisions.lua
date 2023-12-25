@@ -4,6 +4,6 @@
 ---@class TurretRipOffDecisions: TurretTransition
 TurretRipOffDecisions = {}
 
----@param fields? table
+---@param fields? TurretRipOffDecisions
 ---@return TurretRipOffDecisions
 function TurretRipOffDecisions.new(fields) return end

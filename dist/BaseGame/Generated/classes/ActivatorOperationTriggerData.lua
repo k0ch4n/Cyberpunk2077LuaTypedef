@@ -4,6 +4,6 @@
 ---@class ActivatorOperationTriggerData: DeviceOperationTriggerData
 ActivatorOperationTriggerData = {}
 
----@param fields? table
+---@param fields? ActivatorOperationTriggerData
 ---@return ActivatorOperationTriggerData
 function ActivatorOperationTriggerData.new(fields) return end

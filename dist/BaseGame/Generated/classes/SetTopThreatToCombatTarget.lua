@@ -9,7 +9,7 @@
 ---@field private targetChangeTime Float
 SetTopThreatToCombatTarget = {}
 
----@param fields? table
+---@param fields? SetTopThreatToCombatTarget
 ---@return SetTopThreatToCombatTarget
 function SetTopThreatToCombatTarget.new(fields) return end
 

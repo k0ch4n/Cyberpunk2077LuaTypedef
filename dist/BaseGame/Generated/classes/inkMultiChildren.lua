@@ -5,6 +5,6 @@
 ---@field public children inkWidget[]
 inkMultiChildren = {}
 
----@param fields? table
+---@param fields? inkMultiChildren
 ---@return inkMultiChildren
 function inkMultiChildren.new(fields) return end

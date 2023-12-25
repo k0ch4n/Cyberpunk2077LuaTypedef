@@ -4,6 +4,6 @@
 ---@class worldOffMeshUserData: ISerializable
 worldOffMeshUserData = {}
 
----@param fields? table
+---@param fields? worldOffMeshUserData
 ---@return worldOffMeshUserData
 function worldOffMeshUserData.new(fields) return end

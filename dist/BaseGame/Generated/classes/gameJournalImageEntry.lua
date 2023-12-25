@@ -6,7 +6,7 @@
 ---@field public thumbnailImageId TweakDBID
 gameJournalImageEntry = {}
 
----@param fields? table
+---@param fields? gameJournalImageEntry
 ---@return gameJournalImageEntry
 function gameJournalImageEntry.new(fields) return end
 

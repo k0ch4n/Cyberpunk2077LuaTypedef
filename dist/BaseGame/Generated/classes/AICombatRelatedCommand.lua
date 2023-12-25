@@ -5,6 +5,6 @@
 ---@field public immediately Bool
 AICombatRelatedCommand = {}
 
----@param fields? table
+---@param fields? AICombatRelatedCommand
 ---@return AICombatRelatedCommand
 function AICombatRelatedCommand.new(fields) return end

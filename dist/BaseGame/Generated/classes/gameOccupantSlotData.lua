@@ -9,6 +9,6 @@
 ---@field public role gameMountingSlotRole
 gameOccupantSlotData = {}
 
----@param fields? table
+---@param fields? gameOccupantSlotData
 ---@return gameOccupantSlotData
 function gameOccupantSlotData.new(fields) return end

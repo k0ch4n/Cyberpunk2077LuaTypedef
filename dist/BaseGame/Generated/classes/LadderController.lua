@@ -4,7 +4,7 @@
 ---@class LadderController: ScriptableDeviceComponent
 LadderController = {}
 
----@param fields? table
+---@param fields? LadderController
 ---@return LadderController
 function LadderController.new(fields) return end
 

@@ -57,7 +57,7 @@
 ---@field private vehicleEnterCallback redCallbackObject
 NewHudPhoneGameController = {}
 
----@param fields? table
+---@param fields? NewHudPhoneGameController
 ---@return NewHudPhoneGameController
 function NewHudPhoneGameController.new(fields) return end
 

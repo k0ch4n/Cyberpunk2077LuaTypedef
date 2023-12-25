@@ -6,7 +6,7 @@
 ---@field public crouchedAfterLeapAttack Bool
 MeleeStrongAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeStrongAttackEvents
 ---@return MeleeStrongAttackEvents
 function MeleeStrongAttackEvents.new(fields) return end
 

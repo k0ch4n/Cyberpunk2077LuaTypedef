@@ -6,6 +6,6 @@
 ---@field public shape GeometryShape
 worldGeometryShapeNode = {}
 
----@param fields? table
+---@param fields? worldGeometryShapeNode
 ---@return worldGeometryShapeNode
 function worldGeometryShapeNode.new(fields) return end

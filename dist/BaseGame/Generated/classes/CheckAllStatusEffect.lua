@@ -7,7 +7,7 @@
 ---@field public behaviorArgumentNameFlag CName
 CheckAllStatusEffect = {}
 
----@param fields? table
+---@param fields? CheckAllStatusEffect
 ---@return CheckAllStatusEffect
 function CheckAllStatusEffect.new(fields) return end
 

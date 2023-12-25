@@ -4,7 +4,7 @@
 ---@class StealthState: ChangeHighLevelStateAbstract
 StealthState = {}
 
----@param fields? table
+---@param fields? StealthState
 ---@return StealthState
 function StealthState.new(fields) return end
 

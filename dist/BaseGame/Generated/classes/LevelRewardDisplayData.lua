@@ -11,6 +11,6 @@
 ---@field public isLock Bool
 LevelRewardDisplayData = {}
 
----@param fields? table
+---@param fields? LevelRewardDisplayData
 ---@return LevelRewardDisplayData
 function LevelRewardDisplayData.new(fields) return end

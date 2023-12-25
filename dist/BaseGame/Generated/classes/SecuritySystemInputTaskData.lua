@@ -5,6 +5,6 @@
 ---@field public cachedEvt SecuritySystemInput
 SecuritySystemInputTaskData = {}
 
----@param fields? table
+---@param fields? SecuritySystemInputTaskData
 ---@return SecuritySystemInputTaskData
 function SecuritySystemInputTaskData.new(fields) return end

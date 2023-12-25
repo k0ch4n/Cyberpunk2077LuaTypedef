@@ -4,7 +4,7 @@
 ---@class QuickHackCallElevator: ActionBool
 QuickHackCallElevator = {}
 
----@param fields? table
+---@param fields? QuickHackCallElevator
 ---@return QuickHackCallElevator
 function QuickHackCallElevator.new(fields) return end
 

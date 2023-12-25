@@ -7,6 +7,6 @@
 ---@field public voTriggers CName[]
 audioCpoConversation = {}
 
----@param fields? table
+---@param fields? audioCpoConversation
 ---@return audioCpoConversation
 function audioCpoConversation.new(fields) return end

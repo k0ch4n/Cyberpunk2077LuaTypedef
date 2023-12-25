@@ -4,6 +4,6 @@
 ---@class gameJournalInternetRectangle: gameJournalInternetBase
 gameJournalInternetRectangle = {}
 
----@param fields? table
+---@param fields? gameJournalInternetRectangle
 ---@return gameJournalInternetRectangle
 function gameJournalInternetRectangle.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public cloudSpawner inkWidgetReference
 gameuiarcadeRoachRaceBackgroundController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceBackgroundController
 ---@return gameuiarcadeRoachRaceBackgroundController
 function gameuiarcadeRoachRaceBackgroundController.new(fields) return end

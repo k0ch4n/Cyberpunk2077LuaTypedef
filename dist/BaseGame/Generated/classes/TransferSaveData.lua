@@ -6,6 +6,6 @@
 ---@field public action TransferSaveAction
 TransferSaveData = {}
 
----@param fields? table
+---@param fields? TransferSaveData
 ---@return TransferSaveData
 function TransferSaveData.new(fields) return end

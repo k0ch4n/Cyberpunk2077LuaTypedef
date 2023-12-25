@@ -10,7 +10,7 @@
 ---@field public padSize Float
 Codeware_UI_TextInput_Selection = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput_Selection
 ---@return Codeware_UI_TextInput_Selection
 function Codeware_UI_TextInput_Selection.new(fields) return end
 

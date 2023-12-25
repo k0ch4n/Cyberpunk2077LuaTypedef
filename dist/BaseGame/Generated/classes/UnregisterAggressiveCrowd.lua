@@ -4,6 +4,6 @@
 ---@class UnregisterAggressiveCrowd: redEvent
 UnregisterAggressiveCrowd = {}
 
----@param fields? table
+---@param fields? UnregisterAggressiveCrowd
 ---@return UnregisterAggressiveCrowd
 function UnregisterAggressiveCrowd.new(fields) return end

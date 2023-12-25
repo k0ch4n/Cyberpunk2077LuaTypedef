@@ -13,7 +13,7 @@
 ---@field private isPreGame Bool
 DlcDescriptionController = {}
 
----@param fields? table
+---@param fields? DlcDescriptionController
 ---@return DlcDescriptionController
 function DlcDescriptionController.new(fields) return end
 

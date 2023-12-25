@@ -4,7 +4,7 @@
 ---@class AIFollowerBeforeTakedown: AIbehaviortaskScript
 AIFollowerBeforeTakedown = {}
 
----@param fields? table
+---@param fields? AIFollowerBeforeTakedown
 ---@return AIFollowerBeforeTakedown
 function AIFollowerBeforeTakedown.new(fields) return end
 

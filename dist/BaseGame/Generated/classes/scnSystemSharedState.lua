@@ -4,6 +4,6 @@
 ---@class scnSystemSharedState
 scnSystemSharedState = {}
 
----@param fields? table
+---@param fields? scnSystemSharedState
 ---@return scnSystemSharedState
 function scnSystemSharedState.new(fields) return end

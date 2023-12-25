@@ -4,6 +4,6 @@
 ---@class tempshitJournalNodeDefinition: questDisableableNodeDefinition
 tempshitJournalNodeDefinition = {}
 
----@param fields? table
+---@param fields? tempshitJournalNodeDefinition
 ---@return tempshitJournalNodeDefinition
 function tempshitJournalNodeDefinition.new(fields) return end

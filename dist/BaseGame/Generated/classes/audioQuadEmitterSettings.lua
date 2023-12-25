@@ -10,6 +10,6 @@
 ---@field public Events audioAudEventStruct[]
 audioQuadEmitterSettings = {}
 
----@param fields? table
+---@param fields? audioQuadEmitterSettings
 ---@return audioQuadEmitterSettings
 function audioQuadEmitterSettings.new(fields) return end

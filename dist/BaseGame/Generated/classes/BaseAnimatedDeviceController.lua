@@ -4,7 +4,7 @@
 ---@class BaseAnimatedDeviceController: ScriptableDeviceComponent
 BaseAnimatedDeviceController = {}
 
----@param fields? table
+---@param fields? BaseAnimatedDeviceController
 ---@return BaseAnimatedDeviceController
 function BaseAnimatedDeviceController.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public trafficTryNeighborsForEnd Bool
 AIVehicleFollowCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleFollowCommand
 ---@return AIVehicleFollowCommand
 function AIVehicleFollowCommand.new(fields) return end

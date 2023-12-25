@@ -6,6 +6,6 @@
 ---@field public normalAndHeight Vector4
 Cylinder = {}
 
----@param fields? table
+---@param fields? Cylinder
 ---@return Cylinder
 function Cylinder.new(fields) return end

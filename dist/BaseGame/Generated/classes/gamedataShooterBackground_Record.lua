@@ -4,7 +4,7 @@
 ---@class gamedataShooterBackground_Record: gamedataTweakDBRecord
 gamedataShooterBackground_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterBackground_Record
 ---@return gamedataShooterBackground_Record
 function gamedataShooterBackground_Record.new(fields) return end
 

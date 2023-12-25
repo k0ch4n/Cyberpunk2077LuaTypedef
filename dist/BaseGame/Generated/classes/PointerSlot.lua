@@ -4,7 +4,7 @@
 ---@class PointerSlot: RadialSlot
 PointerSlot = {}
 
----@param fields? table
+---@param fields? PointerSlot
 ---@return PointerSlot
 function PointerSlot.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public forceEntryAnimName CName
 questUseWorkspotParams = {}
 
----@param fields? table
+---@param fields? questUseWorkspotParams
 ---@return questUseWorkspotParams
 function questUseWorkspotParams.new(fields) return end

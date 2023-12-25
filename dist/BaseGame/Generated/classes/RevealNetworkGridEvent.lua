@@ -10,6 +10,6 @@
 ---@field public revealMaster Bool
 RevealNetworkGridEvent = {}
 
----@param fields? table
+---@param fields? RevealNetworkGridEvent
 ---@return RevealNetworkGridEvent
 function RevealNetworkGridEvent.new(fields) return end

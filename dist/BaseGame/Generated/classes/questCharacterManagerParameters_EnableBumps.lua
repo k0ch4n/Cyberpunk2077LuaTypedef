@@ -8,6 +8,6 @@
 ---@field public policy AIinfluenceEBumpPolicy
 questCharacterManagerParameters_EnableBumps = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_EnableBumps
 ---@return questCharacterManagerParameters_EnableBumps
 function questCharacterManagerParameters_EnableBumps.new(fields) return end

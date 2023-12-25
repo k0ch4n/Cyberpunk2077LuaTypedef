@@ -11,6 +11,6 @@
 ---@field public weightNode animFloatLink
 animAnimNode_Blend2 = {}
 
----@param fields? table
+---@param fields? animAnimNode_Blend2
 ---@return animAnimNode_Blend2
 function animAnimNode_Blend2.new(fields) return end

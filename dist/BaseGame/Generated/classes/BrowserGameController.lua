@@ -7,7 +7,7 @@
 ---@field private locationTags CName[]
 BrowserGameController = {}
 
----@param fields? table
+---@param fields? BrowserGameController
 ---@return BrowserGameController
 function BrowserGameController.new(fields) return end
 

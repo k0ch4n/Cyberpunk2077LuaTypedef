@@ -23,6 +23,6 @@
 ---@field public useMeshNavmeshSettings Bool
 worldBakedDestructionNode = {}
 
----@param fields? table
+---@param fields? worldBakedDestructionNode
 ---@return worldBakedDestructionNode
 function worldBakedDestructionNode.new(fields) return end

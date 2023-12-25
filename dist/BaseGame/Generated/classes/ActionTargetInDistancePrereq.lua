@@ -8,7 +8,7 @@
 ---@field public invert Bool
 ActionTargetInDistancePrereq = {}
 
----@param fields? table
+---@param fields? ActionTargetInDistancePrereq
 ---@return ActionTargetInDistancePrereq
 function ActionTargetInDistancePrereq.new(fields) return end
 

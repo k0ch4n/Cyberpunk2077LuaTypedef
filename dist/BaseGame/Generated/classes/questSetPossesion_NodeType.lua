@@ -5,6 +5,6 @@
 ---@field public playerPossesion gamedataPlayerPossesion
 questSetPossesion_NodeType = {}
 
----@param fields? table
+---@param fields? questSetPossesion_NodeType
 ---@return questSetPossesion_NodeType
 function questSetPossesion_NodeType.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiSetFrameImageEvent: redEvent
 gameuiSetFrameImageEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetFrameImageEvent
 ---@return gameuiSetFrameImageEvent
 function gameuiSetFrameImageEvent.new(fields) return end

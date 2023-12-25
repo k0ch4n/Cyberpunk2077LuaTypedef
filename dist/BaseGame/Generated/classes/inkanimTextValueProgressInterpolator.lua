@@ -4,6 +4,6 @@
 ---@class inkanimTextValueProgressInterpolator: inkanimTextInterpolator
 inkanimTextValueProgressInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimTextValueProgressInterpolator
 ---@return inkanimTextValueProgressInterpolator
 function inkanimTextValueProgressInterpolator.new(fields) return end

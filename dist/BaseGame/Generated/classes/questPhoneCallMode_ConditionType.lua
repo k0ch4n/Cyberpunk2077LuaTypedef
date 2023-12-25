@@ -5,6 +5,6 @@
 ---@field public callMode questPhoneCallMode
 questPhoneCallMode_ConditionType = {}
 
----@param fields? table
+---@param fields? questPhoneCallMode_ConditionType
 ---@return questPhoneCallMode_ConditionType
 function questPhoneCallMode_ConditionType.new(fields) return end

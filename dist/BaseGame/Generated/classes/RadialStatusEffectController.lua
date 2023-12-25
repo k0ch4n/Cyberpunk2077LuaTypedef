@@ -9,7 +9,7 @@
 ---@field private effects SingleCooldownManager[]
 RadialStatusEffectController = {}
 
----@param fields? table
+---@param fields? RadialStatusEffectController
 ---@return RadialStatusEffectController
 function RadialStatusEffectController.new(fields) return end
 

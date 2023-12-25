@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionStartCooldown_Record: gamedataAISubAction_Record
 gamedataAISubActionStartCooldown_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionStartCooldown_Record
 ---@return gamedataAISubActionStartCooldown_Record
 function gamedataAISubActionStartCooldown_Record.new(fields) return end
 

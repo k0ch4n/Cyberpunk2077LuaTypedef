@@ -10,6 +10,6 @@
 ---@field public connectedRoadsCount Uint16
 worldStreamingQueryRoadData = {}
 
----@param fields? table
+---@param fields? worldStreamingQueryRoadData
 ---@return worldStreamingQueryRoadData
 function worldStreamingQueryRoadData.new(fields) return end

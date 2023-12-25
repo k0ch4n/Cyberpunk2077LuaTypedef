@@ -5,6 +5,6 @@
 ---@field public data SBinkperationData
 PlayBinkEvent = {}
 
----@param fields? table
+---@param fields? PlayBinkEvent
 ---@return PlayBinkEvent
 function PlayBinkEvent.new(fields) return end

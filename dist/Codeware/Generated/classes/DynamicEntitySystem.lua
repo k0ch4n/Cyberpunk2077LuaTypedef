@@ -4,7 +4,7 @@
 ---@class DynamicEntitySystem: gameIGameSystem
 DynamicEntitySystem = {}
 
----@param fields? table
+---@param fields? DynamicEntitySystem
 ---@return DynamicEntitySystem
 function DynamicEntitySystem.new(fields) return end
 

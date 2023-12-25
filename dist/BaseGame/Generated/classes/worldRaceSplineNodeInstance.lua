@@ -4,6 +4,6 @@
 ---@class worldRaceSplineNodeInstance: worldSpeedSplineNodeInstance
 worldRaceSplineNodeInstance = {}
 
----@param fields? table
+---@param fields? worldRaceSplineNodeInstance
 ---@return worldRaceSplineNodeInstance
 function worldRaceSplineNodeInstance.new(fields) return end

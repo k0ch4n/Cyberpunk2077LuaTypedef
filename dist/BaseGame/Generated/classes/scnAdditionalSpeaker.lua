@@ -6,6 +6,6 @@
 ---@field public type scnAdditionalSpeakerType
 scnAdditionalSpeaker = {}
 
----@param fields? table
+---@param fields? scnAdditionalSpeaker
 ---@return scnAdditionalSpeaker
 function scnAdditionalSpeaker.new(fields) return end

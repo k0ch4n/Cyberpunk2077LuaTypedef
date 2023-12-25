@@ -4,7 +4,7 @@
 ---@class TargetNPCIsCrowdHitPrereqCondition: BaseHitPrereqCondition
 TargetNPCIsCrowdHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? TargetNPCIsCrowdHitPrereqCondition
 ---@return TargetNPCIsCrowdHitPrereqCondition
 function TargetNPCIsCrowdHitPrereqCondition.new(fields) return end
 

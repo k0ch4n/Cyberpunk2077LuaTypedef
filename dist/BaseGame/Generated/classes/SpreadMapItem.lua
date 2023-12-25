@@ -7,6 +7,6 @@
 ---@field public range Float
 SpreadMapItem = {}
 
----@param fields? table
+---@param fields? SpreadMapItem
 ---@return SpreadMapItem
 function SpreadMapItem.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public isInteractingWithDevice Bool
 AnimFeature_WorkspotIK = {}
 
----@param fields? table
+---@param fields? AnimFeature_WorkspotIK
 ---@return AnimFeature_WorkspotIK
 function AnimFeature_WorkspotIK.new(fields) return end

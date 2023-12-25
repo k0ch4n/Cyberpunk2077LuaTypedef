@@ -4,7 +4,7 @@
 ---@class gamedataOffMeshLinkTag_Record: gamedataTweakDBRecord
 gamedataOffMeshLinkTag_Record = {}
 
----@param fields? table
+---@param fields? gamedataOffMeshLinkTag_Record
 ---@return gamedataOffMeshLinkTag_Record
 function gamedataOffMeshLinkTag_Record.new(fields) return end
 

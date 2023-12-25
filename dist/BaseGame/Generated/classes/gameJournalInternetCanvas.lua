@@ -5,7 +5,7 @@
 ---@field public isHidden Bool
 gameJournalInternetCanvas = {}
 
----@param fields? table
+---@param fields? gameJournalInternetCanvas
 ---@return gameJournalInternetCanvas
 function gameJournalInternetCanvas.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public queueIndex Int32
 Codeware_UI_CustomPopupAttachRequest = {}
 
----@param fields? table
+---@param fields? Codeware_UI_CustomPopupAttachRequest
 ---@return Codeware_UI_CustomPopupAttachRequest
 function Codeware_UI_CustomPopupAttachRequest.new(fields) return end
 

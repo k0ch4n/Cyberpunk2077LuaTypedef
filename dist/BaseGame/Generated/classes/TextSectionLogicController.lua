@@ -7,7 +7,7 @@
 ---@field private showAnimProxy inkanimProxy
 TextSectionLogicController = {}
 
----@param fields? table
+---@param fields? TextSectionLogicController
 ---@return TextSectionLogicController
 function TextSectionLogicController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 StreetNameSelector = {}
 
----@param fields? table
+---@param fields? StreetNameSelector
 ---@return StreetNameSelector
 function StreetNameSelector.new(fields) return end
 

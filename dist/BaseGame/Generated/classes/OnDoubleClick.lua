@@ -4,6 +4,6 @@
 ---@class OnDoubleClick: inkPointerEvent
 OnDoubleClick = {}
 
----@param fields? table
+---@param fields? OnDoubleClick
 ---@return OnDoubleClick
 function OnDoubleClick.new(fields) return end

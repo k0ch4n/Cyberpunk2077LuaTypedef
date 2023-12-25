@@ -4,6 +4,6 @@
 ---@class UnTagAllObjectRequest: gameScriptableSystemRequest
 UnTagAllObjectRequest = {}
 
----@param fields? table
+---@param fields? UnTagAllObjectRequest
 ---@return UnTagAllObjectRequest
 function UnTagAllObjectRequest.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataWeather_Record: gamedataTweakDBRecord
 gamedataWeather_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeather_Record
 ---@return gamedataWeather_Record
 function gamedataWeather_Record.new(fields) return end
 

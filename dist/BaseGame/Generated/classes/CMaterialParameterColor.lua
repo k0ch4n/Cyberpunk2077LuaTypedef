@@ -5,6 +5,6 @@
 ---@field public color Color
 CMaterialParameterColor = {}
 
----@param fields? table
+---@param fields? CMaterialParameterColor
 ---@return CMaterialParameterColor
 function CMaterialParameterColor.new(fields) return end

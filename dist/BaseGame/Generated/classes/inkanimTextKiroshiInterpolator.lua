@@ -4,6 +4,6 @@
 ---@class inkanimTextKiroshiInterpolator: inkanimTextInterpolator
 inkanimTextKiroshiInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimTextKiroshiInterpolator
 ---@return inkanimTextKiroshiInterpolator
 function inkanimTextKiroshiInterpolator.new(fields) return end

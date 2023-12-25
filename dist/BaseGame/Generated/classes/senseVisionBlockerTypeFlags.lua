@@ -4,7 +4,7 @@
 ---@class senseVisionBlockerTypeFlags
 senseVisionBlockerTypeFlags = {}
 
----@param fields? table
+---@param fields? senseVisionBlockerTypeFlags
 ---@return senseVisionBlockerTypeFlags
 function senseVisionBlockerTypeFlags.new(fields) return end
 

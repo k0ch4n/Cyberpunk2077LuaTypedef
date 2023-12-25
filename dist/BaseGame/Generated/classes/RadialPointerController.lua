@@ -6,7 +6,7 @@
 ---@field private feedback inkImageWidgetReference
 RadialPointerController = {}
 
----@param fields? table
+---@param fields? RadialPointerController
 ---@return RadialPointerController
 function RadialPointerController.new(fields) return end
 

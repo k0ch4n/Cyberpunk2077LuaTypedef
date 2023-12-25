@@ -8,6 +8,6 @@
 ---@field public loop Bool
 ChangeLightEvent = {}
 
----@param fields? table
+---@param fields? ChangeLightEvent
 ---@return ChangeLightEvent
 function ChangeLightEvent.new(fields) return end

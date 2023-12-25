@@ -4,7 +4,7 @@
 ---@class StackClearCombatTarget: AIbehaviortaskStackScript
 StackClearCombatTarget = {}
 
----@param fields? table
+---@param fields? StackClearCombatTarget
 ---@return StackClearCombatTarget
 function StackClearCombatTarget.new(fields) return end
 

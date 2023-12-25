@@ -6,6 +6,6 @@
 ---@field public normal Vector4
 PlaceMineEvent = {}
 
----@param fields? table
+---@param fields? PlaceMineEvent
 ---@return PlaceMineEvent
 function PlaceMineEvent.new(fields) return end

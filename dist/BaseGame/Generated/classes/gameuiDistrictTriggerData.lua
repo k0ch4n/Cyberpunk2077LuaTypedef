@@ -6,6 +6,6 @@
 ---@field public triggerName CName
 gameuiDistrictTriggerData = {}
 
----@param fields? table
+---@param fields? gameuiDistrictTriggerData
 ---@return gameuiDistrictTriggerData
 function gameuiDistrictTriggerData.new(fields) return end

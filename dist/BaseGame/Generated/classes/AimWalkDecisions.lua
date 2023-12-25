@@ -9,7 +9,7 @@
 ---@field private isLeftHandChanging Bool
 AimWalkDecisions = {}
 
----@param fields? table
+---@param fields? AimWalkDecisions
 ---@return AimWalkDecisions
 function AimWalkDecisions.new(fields) return end
 

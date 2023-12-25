@@ -4,6 +4,6 @@
 ---@class AssualtRifleLookAtDecisions: lookAtPresetGunBaseDecisions
 AssualtRifleLookAtDecisions = {}
 
----@param fields? table
+---@param fields? AssualtRifleLookAtDecisions
 ---@return AssualtRifleLookAtDecisions
 function AssualtRifleLookAtDecisions.new(fields) return end

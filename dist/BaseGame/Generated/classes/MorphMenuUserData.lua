@@ -7,6 +7,6 @@
 ---@field public editMode gameuiCharacterCustomizationEditTag
 MorphMenuUserData = {}
 
----@param fields? table
+---@param fields? MorphMenuUserData
 ---@return MorphMenuUserData
 function MorphMenuUserData.new(fields) return end

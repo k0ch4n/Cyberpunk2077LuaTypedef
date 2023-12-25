@@ -5,7 +5,7 @@
 ---@field public invert Bool
 HitIsHumanPrereq = {}
 
----@param fields? table
+---@param fields? HitIsHumanPrereq
 ---@return HitIsHumanPrereq
 function HitIsHumanPrereq.new(fields) return end
 

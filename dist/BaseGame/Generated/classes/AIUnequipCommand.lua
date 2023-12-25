@@ -6,6 +6,6 @@
 ---@field public durationOverride Float
 AIUnequipCommand = {}
 
----@param fields? table
+---@param fields? AIUnequipCommand
 ---@return AIUnequipCommand
 function AIUnequipCommand.new(fields) return end

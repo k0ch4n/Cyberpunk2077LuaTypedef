@@ -18,6 +18,6 @@
 ---@field public inModelSpace Bool
 animAnimNode_RotateBone = {}
 
----@param fields? table
+---@param fields? animAnimNode_RotateBone
 ---@return animAnimNode_RotateBone
 function animAnimNode_RotateBone.new(fields) return end

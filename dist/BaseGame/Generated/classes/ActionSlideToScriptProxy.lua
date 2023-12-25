@@ -4,7 +4,7 @@
 ---@class ActionSlideToScriptProxy: CActionScriptProxy
 ActionSlideToScriptProxy = {}
 
----@param fields? table
+---@param fields? ActionSlideToScriptProxy
 ---@return ActionSlideToScriptProxy
 function ActionSlideToScriptProxy.new(fields) return end
 

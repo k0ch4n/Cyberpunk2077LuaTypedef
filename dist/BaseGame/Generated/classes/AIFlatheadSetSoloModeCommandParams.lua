@@ -5,7 +5,7 @@
 ---@field public soloMode Bool
 AIFlatheadSetSoloModeCommandParams = {}
 
----@param fields? table
+---@param fields? AIFlatheadSetSoloModeCommandParams
 ---@return AIFlatheadSetSoloModeCommandParams
 function AIFlatheadSetSoloModeCommandParams.new(fields) return end
 

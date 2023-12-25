@@ -6,7 +6,7 @@
 ---@field private fxInstances SVfxInstanceData[]
 PlayEffectDeviceOperation = {}
 
----@param fields? table
+---@param fields? PlayEffectDeviceOperation
 ---@return PlayEffectDeviceOperation
 function PlayEffectDeviceOperation.new(fields) return end
 

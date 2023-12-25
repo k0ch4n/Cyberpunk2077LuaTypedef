@@ -4,7 +4,7 @@
 ---@class gameFxInstance: IScriptable
 gameFxInstance = {}
 
----@param fields? table
+---@param fields? gameFxInstance
 ---@return gameFxInstance
 function gameFxInstance.new(fields) return end
 

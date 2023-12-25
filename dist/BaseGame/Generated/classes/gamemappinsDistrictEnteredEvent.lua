@@ -7,6 +7,6 @@
 ---@field public district TweakDBID
 gamemappinsDistrictEnteredEvent = {}
 
----@param fields? table
+---@param fields? gamemappinsDistrictEnteredEvent
 ---@return gamemappinsDistrictEnteredEvent
 function gamemappinsDistrictEnteredEvent.new(fields) return end

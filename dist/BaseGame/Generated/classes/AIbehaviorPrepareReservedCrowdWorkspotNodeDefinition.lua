@@ -10,6 +10,6 @@
 ---@field public overrideExit AIArgumentMapping
 AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition
 ---@return AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition
 function AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition.new(fields) return end

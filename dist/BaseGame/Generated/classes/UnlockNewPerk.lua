@@ -4,6 +4,6 @@
 ---@class UnlockNewPerk: NewPerkActionRequest
 UnlockNewPerk = {}
 
----@param fields? table
+---@param fields? UnlockNewPerk
 ---@return UnlockNewPerk
 function UnlockNewPerk.new(fields) return end

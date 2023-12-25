@@ -4,7 +4,7 @@
 ---@class vehicleVcarRootLogicController: inkWidgetLogicController
 vehicleVcarRootLogicController = {}
 
----@param fields? table
+---@param fields? vehicleVcarRootLogicController
 ---@return vehicleVcarRootLogicController
 function vehicleVcarRootLogicController.new(fields) return end
 

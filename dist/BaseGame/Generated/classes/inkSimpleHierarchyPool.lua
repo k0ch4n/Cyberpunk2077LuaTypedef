@@ -4,6 +4,6 @@
 ---@class inkSimpleHierarchyPool
 inkSimpleHierarchyPool = {}
 
----@param fields? table
+---@param fields? inkSimpleHierarchyPool
 ---@return inkSimpleHierarchyPool
 function inkSimpleHierarchyPool.new(fields) return end

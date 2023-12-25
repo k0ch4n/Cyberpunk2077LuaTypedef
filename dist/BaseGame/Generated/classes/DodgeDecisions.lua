@@ -5,7 +5,7 @@
 ---@field public shouldDisableEnterCondition Bool
 DodgeDecisions = {}
 
----@param fields? table
+---@param fields? DodgeDecisions
 ---@return DodgeDecisions
 function DodgeDecisions.new(fields) return end
 

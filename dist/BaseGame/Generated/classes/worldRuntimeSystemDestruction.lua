@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemDestruction: worldIRuntimeSystem
 worldRuntimeSystemDestruction = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemDestruction
 ---@return worldRuntimeSystemDestruction
 function worldRuntimeSystemDestruction.new(fields) return end

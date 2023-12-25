@@ -5,6 +5,6 @@
 ---@field public conversations audioConversationItemMetadata[]
 audioConversationMetadata = {}
 
----@param fields? table
+---@param fields? audioConversationMetadata
 ---@return audioConversationMetadata
 function audioConversationMetadata.new(fields) return end

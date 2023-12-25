@@ -20,6 +20,6 @@
 ---@field public prefetchAppearance Bool
 scnSpawnDespawnEntityParams = {}
 
----@param fields? table
+---@param fields? scnSpawnDespawnEntityParams
 ---@return scnSpawnDespawnEntityParams
 function scnSpawnDespawnEntityParams.new(fields) return end

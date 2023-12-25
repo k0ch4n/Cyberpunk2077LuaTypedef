@@ -6,6 +6,6 @@
 ---@field public controller WardrobeOutfitSlotController
 WardrobeOutfitSlotHoverOverEvent = {}
 
----@param fields? table
+---@param fields? WardrobeOutfitSlotHoverOverEvent
 ---@return WardrobeOutfitSlotHoverOverEvent
 function WardrobeOutfitSlotHoverOverEvent.new(fields) return end

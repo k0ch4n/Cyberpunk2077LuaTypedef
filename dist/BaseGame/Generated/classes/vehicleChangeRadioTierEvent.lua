@@ -4,6 +4,6 @@
 ---@class vehicleChangeRadioTierEvent: redEvent
 vehicleChangeRadioTierEvent = {}
 
----@param fields? table
+---@param fields? vehicleChangeRadioTierEvent
 ---@return vehicleChangeRadioTierEvent
 function vehicleChangeRadioTierEvent.new(fields) return end

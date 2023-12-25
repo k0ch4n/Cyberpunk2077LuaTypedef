@@ -30,6 +30,6 @@
 ---@field public exitNotificationDisplayTime Float
 gameuiCreditsController = {}
 
----@param fields? table
+---@param fields? gameuiCreditsController
 ---@return gameuiCreditsController
 function gameuiCreditsController.new(fields) return end

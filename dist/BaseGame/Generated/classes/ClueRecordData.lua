@@ -8,6 +8,6 @@
 ---@field public wasInspected Bool
 ClueRecordData = {}
 
----@param fields? table
+---@param fields? ClueRecordData
 ---@return ClueRecordData
 function ClueRecordData.new(fields) return end

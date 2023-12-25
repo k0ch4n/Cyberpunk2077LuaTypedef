@@ -4,6 +4,6 @@
 ---@class gameTPPRepresentationPositionProvider: entIPositionProvider
 gameTPPRepresentationPositionProvider = {}
 
----@param fields? table
+---@param fields? gameTPPRepresentationPositionProvider
 ---@return gameTPPRepresentationPositionProvider
 function gameTPPRepresentationPositionProvider.new(fields) return end

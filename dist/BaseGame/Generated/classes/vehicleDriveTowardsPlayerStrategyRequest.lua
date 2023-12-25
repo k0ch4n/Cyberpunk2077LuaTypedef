@@ -4,7 +4,7 @@
 ---@class vehicleDriveTowardsPlayerStrategyRequest: vehicleBaseStrategyRequest
 vehicleDriveTowardsPlayerStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleDriveTowardsPlayerStrategyRequest
 ---@return vehicleDriveTowardsPlayerStrategyRequest
 function vehicleDriveTowardsPlayerStrategyRequest.new(fields) return end
 

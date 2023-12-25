@@ -7,6 +7,6 @@
 ---@field public clearEventName CName
 animAnimNode_FrozenFrame = {}
 
----@param fields? table
+---@param fields? animAnimNode_FrozenFrame
 ---@return animAnimNode_FrozenFrame
 function animAnimNode_FrozenFrame.new(fields) return end

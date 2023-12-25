@@ -9,7 +9,7 @@
 ---@field private RootWidget inkWidget
 RipperdocShardController = {}
 
----@param fields? table
+---@param fields? RipperdocShardController
 ---@return RipperdocShardController
 function RipperdocShardController.new(fields) return end
 

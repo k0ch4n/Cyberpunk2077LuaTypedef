@@ -8,7 +8,7 @@
 ---@field private reprimandID Int32
 BlacklistEntry = {}
 
----@param fields? table
+---@param fields? BlacklistEntry
 ---@return BlacklistEntry
 function BlacklistEntry.new(fields) return end
 

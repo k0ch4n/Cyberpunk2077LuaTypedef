@@ -9,6 +9,6 @@
 ---@field public updateBucket Uint8
 gameActionReplicatedState = {}
 
----@param fields? table
+---@param fields? gameActionReplicatedState
 ---@return gameActionReplicatedState
 function gameActionReplicatedState.new(fields) return end

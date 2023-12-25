@@ -14,6 +14,6 @@
 ---@field public exposureScale curveData
 EmissiveColorSettings = {}
 
----@param fields? table
+---@param fields? EmissiveColorSettings
 ---@return EmissiveColorSettings
 function EmissiveColorSettings.new(fields) return end

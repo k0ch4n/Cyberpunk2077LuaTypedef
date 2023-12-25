@@ -6,6 +6,6 @@
 ---@field public mappinWithJournalState Uint32[]
 gamemappinsMappinSystemReplicatedState = {}
 
----@param fields? table
+---@param fields? gamemappinsMappinSystemReplicatedState
 ---@return gamemappinsMappinSystemReplicatedState
 function gamemappinsMappinSystemReplicatedState.new(fields) return end

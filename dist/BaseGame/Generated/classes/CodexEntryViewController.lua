@@ -15,7 +15,7 @@
 ---@field private scroll inkScrollController
 CodexEntryViewController = {}
 
----@param fields? table
+---@param fields? CodexEntryViewController
 ---@return CodexEntryViewController
 function CodexEntryViewController.new(fields) return end
 

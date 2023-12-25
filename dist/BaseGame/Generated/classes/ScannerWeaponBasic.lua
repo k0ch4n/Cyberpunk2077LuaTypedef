@@ -5,7 +5,7 @@
 ---@field protected weapon CName
 ScannerWeaponBasic = {}
 
----@param fields? table
+---@param fields? ScannerWeaponBasic
 ---@return ScannerWeaponBasic
 function ScannerWeaponBasic.new(fields) return end
 

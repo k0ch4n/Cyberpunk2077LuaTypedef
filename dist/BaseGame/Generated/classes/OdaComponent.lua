@@ -14,7 +14,7 @@
 ---@field private weakspotDestroyed Bool
 OdaComponent = {}
 
----@param fields? table
+---@param fields? OdaComponent
 ---@return OdaComponent
 function OdaComponent.new(fields) return end
 

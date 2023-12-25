@@ -8,7 +8,7 @@
 ---@field private IGNORED_COLOR HDRColor
 LinkController = {}
 
----@param fields? table
+---@param fields? LinkController
 ---@return LinkController
 function LinkController.new(fields) return end
 

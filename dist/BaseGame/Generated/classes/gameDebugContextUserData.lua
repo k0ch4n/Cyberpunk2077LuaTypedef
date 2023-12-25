@@ -4,6 +4,6 @@
 ---@class gameDebugContextUserData
 gameDebugContextUserData = {}
 
----@param fields? table
+---@param fields? gameDebugContextUserData
 ---@return gameDebugContextUserData
 function gameDebugContextUserData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class KnifeLookAtEvents: LookAtPresetMeleeBaseEvents
 KnifeLookAtEvents = {}
 
----@param fields? table
+---@param fields? KnifeLookAtEvents
 ---@return KnifeLookAtEvents
 function KnifeLookAtEvents.new(fields) return end

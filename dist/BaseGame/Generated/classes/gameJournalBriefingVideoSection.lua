@@ -5,7 +5,7 @@
 ---@field public videoResource Bink
 gameJournalBriefingVideoSection = {}
 
----@param fields? table
+---@param fields? gameJournalBriefingVideoSection
 ---@return gameJournalBriefingVideoSection
 function gameJournalBriefingVideoSection.new(fields) return end
 

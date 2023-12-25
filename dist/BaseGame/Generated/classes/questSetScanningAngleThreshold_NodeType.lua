@@ -6,6 +6,6 @@
 ---@field public debugSource CName
 questSetScanningAngleThreshold_NodeType = {}
 
----@param fields? table
+---@param fields? questSetScanningAngleThreshold_NodeType
 ---@return questSetScanningAngleThreshold_NodeType
 function questSetScanningAngleThreshold_NodeType.new(fields) return end

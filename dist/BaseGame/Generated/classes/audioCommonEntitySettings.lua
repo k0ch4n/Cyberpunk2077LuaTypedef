@@ -7,6 +7,6 @@
 ---@field public stopAllSoundsOnDetach Bool
 audioCommonEntitySettings = {}
 
----@param fields? table
+---@param fields? audioCommonEntitySettings
 ---@return audioCommonEntitySettings
 function audioCommonEntitySettings.new(fields) return end

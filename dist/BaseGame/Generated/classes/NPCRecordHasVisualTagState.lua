@@ -4,6 +4,6 @@
 ---@class NPCRecordHasVisualTagState: gamePrereqState
 NPCRecordHasVisualTagState = {}
 
----@param fields? table
+---@param fields? NPCRecordHasVisualTagState
 ---@return NPCRecordHasVisualTagState
 function NPCRecordHasVisualTagState.new(fields) return end

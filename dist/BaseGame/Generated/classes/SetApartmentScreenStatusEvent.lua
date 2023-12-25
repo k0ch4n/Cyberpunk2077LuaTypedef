@@ -5,7 +5,7 @@
 ---@field public rentStatus ERentStatus
 SetApartmentScreenStatusEvent = {}
 
----@param fields? table
+---@param fields? SetApartmentScreenStatusEvent
 ---@return SetApartmentScreenStatusEvent
 function SetApartmentScreenStatusEvent.new(fields) return end
 

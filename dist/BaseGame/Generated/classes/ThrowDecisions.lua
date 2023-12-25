@@ -4,7 +4,7 @@
 ---@class ThrowDecisions: CarriedObjectDecisions
 ThrowDecisions = {}
 
----@param fields? table
+---@param fields? ThrowDecisions
 ---@return ThrowDecisions
 function ThrowDecisions.new(fields) return end
 

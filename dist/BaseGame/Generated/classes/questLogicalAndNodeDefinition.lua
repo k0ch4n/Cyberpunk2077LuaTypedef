@@ -4,6 +4,6 @@
 ---@class questLogicalAndNodeDefinition: questLogicalBaseNodeDefinition
 questLogicalAndNodeDefinition = {}
 
----@param fields? table
+---@param fields? questLogicalAndNodeDefinition
 ---@return questLogicalAndNodeDefinition
 function questLogicalAndNodeDefinition.new(fields) return end

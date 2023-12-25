@@ -10,6 +10,6 @@
 ---@field public onStartupEvent CName
 audioMixSettings = {}
 
----@param fields? table
+---@param fields? audioMixSettings
 ---@return audioMixSettings
 function audioMixSettings.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public animWrapperVariables animAnimWrapperVariableDescription[]
 animAnimSetCollection = {}
 
----@param fields? table
+---@param fields? animAnimSetCollection
 ---@return animAnimSetCollection
 function animAnimSetCollection.new(fields) return end

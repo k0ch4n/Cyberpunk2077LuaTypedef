@@ -4,7 +4,7 @@
 ---@class ZoomLevel3Events: ZoomEventsTransition
 ZoomLevel3Events = {}
 
----@param fields? table
+---@param fields? ZoomLevel3Events
 ---@return ZoomLevel3Events
 function ZoomLevel3Events.new(fields) return end
 

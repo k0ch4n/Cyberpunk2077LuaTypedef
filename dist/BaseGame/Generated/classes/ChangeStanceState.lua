@@ -5,7 +5,7 @@
 ---@field public newState gamedataNPCStanceState
 ChangeStanceState = {}
 
----@param fields? table
+---@param fields? ChangeStanceState
 ---@return ChangeStanceState
 function ChangeStanceState.new(fields) return end
 

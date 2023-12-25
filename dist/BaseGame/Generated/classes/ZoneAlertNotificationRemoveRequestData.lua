@@ -5,6 +5,6 @@
 ---@field public areaType ESecurityAreaType
 ZoneAlertNotificationRemoveRequestData = {}
 
----@param fields? table
+---@param fields? ZoneAlertNotificationRemoveRequestData
 ---@return ZoneAlertNotificationRemoveRequestData
 function ZoneAlertNotificationRemoveRequestData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public isFree Bool
 worldBlockoutEdge = {}
 
----@param fields? table
+---@param fields? worldBlockoutEdge
 ---@return worldBlockoutEdge
 function worldBlockoutEdge.new(fields) return end

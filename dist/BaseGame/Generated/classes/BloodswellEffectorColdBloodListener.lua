@@ -6,7 +6,7 @@
 ---@field public gameInstance ScriptGameInstance
 BloodswellEffectorColdBloodListener = {}
 
----@param fields? table
+---@param fields? BloodswellEffectorColdBloodListener
 ---@return BloodswellEffectorColdBloodListener
 function BloodswellEffectorColdBloodListener.new(fields) return end
 

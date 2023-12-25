@@ -11,7 +11,7 @@
 ---@field private ammoIcon inkImageWidgetReference
 NewItemTooltipBottomModule = {}
 
----@param fields? table
+---@param fields? NewItemTooltipBottomModule
 ---@return NewItemTooltipBottomModule
 function NewItemTooltipBottomModule.new(fields) return end
 

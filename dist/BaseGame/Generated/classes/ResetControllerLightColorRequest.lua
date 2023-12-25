@@ -5,6 +5,6 @@
 ---@field public notQuest Bool
 ResetControllerLightColorRequest = {}
 
----@param fields? table
+---@param fields? ResetControllerLightColorRequest
 ---@return ResetControllerLightColorRequest
 function ResetControllerLightColorRequest.new(fields) return end

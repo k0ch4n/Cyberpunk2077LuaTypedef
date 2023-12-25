@@ -12,7 +12,7 @@
 ---@field private c_capacityBoosterKey CName
 ChargedHotkeyItemCyberwareController = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemCyberwareController
 ---@return ChargedHotkeyItemCyberwareController
 function ChargedHotkeyItemCyberwareController.new(fields) return end
 

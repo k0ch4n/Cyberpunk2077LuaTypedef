@@ -4,7 +4,7 @@
 ---@class NotifyPoliceEffector: gameEffector
 NotifyPoliceEffector = {}
 
----@param fields? table
+---@param fields? NotifyPoliceEffector
 ---@return NotifyPoliceEffector
 function NotifyPoliceEffector.new(fields) return end
 

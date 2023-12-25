@@ -6,6 +6,6 @@
 ---@field public bodyTypesData gameBodyTypeData[]
 gameSmartObjectAnimationDatabase = {}
 
----@param fields? table
+---@param fields? gameSmartObjectAnimationDatabase
 ---@return gameSmartObjectAnimationDatabase
 function gameSmartObjectAnimationDatabase.new(fields) return end

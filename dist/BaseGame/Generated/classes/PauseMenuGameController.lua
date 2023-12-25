@@ -15,7 +15,7 @@
 ---@field private dpadInputReceived Bool
 PauseMenuGameController = {}
 
----@param fields? table
+---@param fields? PauseMenuGameController
 ---@return PauseMenuGameController
 function PauseMenuGameController.new(fields) return end
 

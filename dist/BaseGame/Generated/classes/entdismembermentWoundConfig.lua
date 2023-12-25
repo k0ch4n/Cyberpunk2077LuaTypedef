@@ -6,6 +6,6 @@
 ---@field public ResourceSet entdismembermentResourceSetE
 entdismembermentWoundConfig = {}
 
----@param fields? table
+---@param fields? entdismembermentWoundConfig
 ---@return entdismembermentWoundConfig
 function entdismembermentWoundConfig.new(fields) return end

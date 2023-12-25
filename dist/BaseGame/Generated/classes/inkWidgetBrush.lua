@@ -8,7 +8,7 @@
 ---@field public mirrorType inkBrushMirrorType
 inkWidgetBrush = {}
 
----@param fields? table
+---@param fields? inkWidgetBrush
 ---@return inkWidgetBrush
 function inkWidgetBrush.new(fields) return end
 

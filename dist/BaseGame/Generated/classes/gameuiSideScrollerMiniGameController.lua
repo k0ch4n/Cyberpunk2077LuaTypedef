@@ -6,7 +6,7 @@
 ---@field public gameName CName
 gameuiSideScrollerMiniGameController = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameController
 ---@return gameuiSideScrollerMiniGameController
 function gameuiSideScrollerMiniGameController.new(fields) return end
 

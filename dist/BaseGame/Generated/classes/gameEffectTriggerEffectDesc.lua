@@ -10,6 +10,6 @@
 ---@field public playTillHour Uint32
 gameEffectTriggerEffectDesc = {}
 
----@param fields? table
+---@param fields? gameEffectTriggerEffectDesc
 ---@return gameEffectTriggerEffectDesc
 function gameEffectTriggerEffectDesc.new(fields) return end

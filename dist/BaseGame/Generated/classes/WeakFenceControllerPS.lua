@@ -6,7 +6,7 @@
 ---@field protected weakFenceSetup WeakFenceSetup
 WeakFenceControllerPS = {}
 
----@param fields? table
+---@param fields? WeakFenceControllerPS
 ---@return WeakFenceControllerPS
 function WeakFenceControllerPS.new(fields) return end
 

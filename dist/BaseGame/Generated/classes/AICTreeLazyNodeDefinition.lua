@@ -5,6 +5,6 @@
 ---@field public tree LibTreeCTreeResource
 AICTreeLazyNodeDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeLazyNodeDefinition
 ---@return AICTreeLazyNodeDefinition
 function AICTreeLazyNodeDefinition.new(fields) return end

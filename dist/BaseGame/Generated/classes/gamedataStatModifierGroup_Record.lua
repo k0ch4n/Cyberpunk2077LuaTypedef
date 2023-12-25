@@ -4,7 +4,7 @@
 ---@class gamedataStatModifierGroup_Record: gamedataTweakDBRecord
 gamedataStatModifierGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataStatModifierGroup_Record
 ---@return gamedataStatModifierGroup_Record
 function gamedataStatModifierGroup_Record.new(fields) return end
 

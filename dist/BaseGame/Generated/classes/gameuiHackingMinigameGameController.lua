@@ -24,7 +24,7 @@
 ---@field private bbControllerStateListener redCallbackObject
 gameuiHackingMinigameGameController = {}
 
----@param fields? table
+---@param fields? gameuiHackingMinigameGameController
 ---@return gameuiHackingMinigameGameController
 function gameuiHackingMinigameGameController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public restrictionIDs TweakDBID[]
 questGameplayRestrictions_NodeType = {}
 
----@param fields? table
+---@param fields? questGameplayRestrictions_NodeType
 ---@return questGameplayRestrictions_NodeType
 function questGameplayRestrictions_NodeType.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private data NewAreaDiscoveredUserData
 NewAreaGameController = {}
 
----@param fields? table
+---@param fields? NewAreaGameController
 ---@return NewAreaGameController
 function NewAreaGameController.new(fields) return end
 

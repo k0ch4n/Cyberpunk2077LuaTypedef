@@ -6,6 +6,6 @@
 ---@field public deriveInfo gamedataVariableNodeVariableValueDeriveInfo
 gamedataVariableNodeVariableValue = {}
 
----@param fields? table
+---@param fields? gamedataVariableNodeVariableValue
 ---@return gamedataVariableNodeVariableValue
 function gamedataVariableNodeVariableValue.new(fields) return end

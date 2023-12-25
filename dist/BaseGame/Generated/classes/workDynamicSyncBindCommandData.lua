@@ -5,6 +5,6 @@
 ---@field public masterID entEntityID
 workDynamicSyncBindCommandData = {}
 
----@param fields? table
+---@param fields? workDynamicSyncBindCommandData
 ---@return workDynamicSyncBindCommandData
 function workDynamicSyncBindCommandData.new(fields) return end

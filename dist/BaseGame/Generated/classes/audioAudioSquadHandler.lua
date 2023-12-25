@@ -4,6 +4,6 @@
 ---@class audioAudioSquadHandler: audioBaseAudioSquadHandler
 audioAudioSquadHandler = {}
 
----@param fields? table
+---@param fields? audioAudioSquadHandler
 ---@return audioAudioSquadHandler
 function audioAudioSquadHandler.new(fields) return end

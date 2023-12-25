@@ -5,6 +5,6 @@
 ---@field public isInCombat Bool
 scnCheckPlayerCombatInterruptConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerCombatInterruptConditionParams
 ---@return scnCheckPlayerCombatInterruptConditionParams
 function scnCheckPlayerCombatInterruptConditionParams.new(fields) return end

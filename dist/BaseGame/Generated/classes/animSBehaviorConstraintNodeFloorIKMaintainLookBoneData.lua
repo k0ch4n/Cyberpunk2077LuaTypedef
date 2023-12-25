@@ -6,6 +6,6 @@
 ---@field public amountOfRotation Float
 animSBehaviorConstraintNodeFloorIKMaintainLookBoneData = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKMaintainLookBoneData
 ---@return animSBehaviorConstraintNodeFloorIKMaintainLookBoneData
 function animSBehaviorConstraintNodeFloorIKMaintainLookBoneData.new(fields) return end

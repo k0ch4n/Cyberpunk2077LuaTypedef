@@ -6,7 +6,7 @@
 ---@field public listener BaseStatPoolPrereqListener
 StatPoolSpentPrereqState = {}
 
----@param fields? table
+---@param fields? StatPoolSpentPrereqState
 ---@return StatPoolSpentPrereqState
 function StatPoolSpentPrereqState.new(fields) return end
 

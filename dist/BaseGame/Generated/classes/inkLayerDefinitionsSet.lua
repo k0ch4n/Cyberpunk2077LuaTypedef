@@ -6,6 +6,6 @@
 ---@field public layersSystemConnections inkLayerSystemConnection[]
 inkLayerDefinitionsSet = {}
 
----@param fields? table
+---@param fields? inkLayerDefinitionsSet
 ---@return inkLayerDefinitionsSet
 function inkLayerDefinitionsSet.new(fields) return end

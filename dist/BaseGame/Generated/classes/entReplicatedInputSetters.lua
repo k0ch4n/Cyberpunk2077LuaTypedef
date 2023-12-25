@@ -5,6 +5,6 @@
 ---@field public serverReplicatedTime netTime
 entReplicatedInputSetters = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetters
 ---@return entReplicatedInputSetters
 function entReplicatedInputSetters.new(fields) return end

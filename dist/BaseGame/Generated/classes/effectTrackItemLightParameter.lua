@@ -8,6 +8,6 @@
 ---@field public radius effectEffectParameterEvaluatorFloat
 effectTrackItemLightParameter = {}
 
----@param fields? table
+---@param fields? effectTrackItemLightParameter
 ---@return effectTrackItemLightParameter
 function effectTrackItemLightParameter.new(fields) return end

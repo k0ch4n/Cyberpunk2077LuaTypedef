@@ -6,6 +6,6 @@
 ---@field public acceleration Float
 gameprojectileLinearTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileLinearTrajectoryParams
 ---@return gameprojectileLinearTrajectoryParams
 function gameprojectileLinearTrajectoryParams.new(fields) return end

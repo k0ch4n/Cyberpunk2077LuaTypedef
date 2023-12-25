@@ -4,7 +4,7 @@
 ---@class MediaDeviceController: ScriptableDeviceComponent
 MediaDeviceController = {}
 
----@param fields? table
+---@param fields? MediaDeviceController
 ---@return MediaDeviceController
 function MediaDeviceController.new(fields) return end
 

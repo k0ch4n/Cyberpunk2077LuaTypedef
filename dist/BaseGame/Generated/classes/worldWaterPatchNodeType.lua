@@ -5,6 +5,6 @@
 ---@field public typeName CName
 worldWaterPatchNodeType = {}
 
----@param fields? table
+---@param fields? worldWaterPatchNodeType
 ---@return worldWaterPatchNodeType
 function worldWaterPatchNodeType.new(fields) return end

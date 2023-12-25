@@ -9,6 +9,6 @@
 ---@field public stackOffset Vector3
 worldProxyBoundingBoxSyncParams = {}
 
----@param fields? table
+---@param fields? worldProxyBoundingBoxSyncParams
 ---@return worldProxyBoundingBoxSyncParams
 function worldProxyBoundingBoxSyncParams.new(fields) return end

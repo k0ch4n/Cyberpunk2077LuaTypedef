@@ -6,6 +6,6 @@
 ---@field public active Bool
 questMappinState_ConditionType = {}
 
----@param fields? table
+---@param fields? questMappinState_ConditionType
 ---@return questMappinState_ConditionType
 function questMappinState_ConditionType.new(fields) return end

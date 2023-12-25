@@ -9,7 +9,7 @@
 ---@field public effectorChanceMods gamedataStatModifier_Record[]
 ApplyStatusEffectByChanceEffector = {}
 
----@param fields? table
+---@param fields? ApplyStatusEffectByChanceEffector
 ---@return ApplyStatusEffectByChanceEffector
 function ApplyStatusEffectByChanceEffector.new(fields) return end
 

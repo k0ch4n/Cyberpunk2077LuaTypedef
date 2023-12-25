@@ -7,7 +7,7 @@
 ---@field public valueOff Int32
 ToggleFactEffector = {}
 
----@param fields? table
+---@param fields? ToggleFactEffector
 ---@return ToggleFactEffector
 function ToggleFactEffector.new(fields) return end
 

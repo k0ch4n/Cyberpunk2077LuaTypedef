@@ -4,7 +4,7 @@
 ---@class SetLastKnownPosition: AIbehaviortaskScript
 SetLastKnownPosition = {}
 
----@param fields? table
+---@param fields? SetLastKnownPosition
 ---@return SetLastKnownPosition
 function SetLastKnownPosition.new(fields) return end
 

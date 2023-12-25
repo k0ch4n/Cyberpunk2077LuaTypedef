@@ -6,6 +6,6 @@
 ---@field public loopEnd CName
 audioAudioFoliageMaterial = {}
 
----@param fields? table
+---@param fields? audioAudioFoliageMaterial
 ---@return audioAudioFoliageMaterial
 function audioAudioFoliageMaterial.new(fields) return end

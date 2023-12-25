@@ -4,6 +4,6 @@
 ---@class RevealNetworkGridNetworkRequest: redEvent
 RevealNetworkGridNetworkRequest = {}
 
----@param fields? table
+---@param fields? RevealNetworkGridNetworkRequest
 ---@return RevealNetworkGridNetworkRequest
 function RevealNetworkGridNetworkRequest.new(fields) return end

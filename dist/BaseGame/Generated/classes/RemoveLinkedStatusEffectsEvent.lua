@@ -5,6 +5,6 @@
 ---@field public ssAction Bool
 RemoveLinkedStatusEffectsEvent = {}
 
----@param fields? table
+---@param fields? RemoveLinkedStatusEffectsEvent
 ---@return RemoveLinkedStatusEffectsEvent
 function RemoveLinkedStatusEffectsEvent.new(fields) return end

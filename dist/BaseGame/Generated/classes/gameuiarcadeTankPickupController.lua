@@ -6,6 +6,6 @@
 ---@field public pickupText inkWidgetReference
 gameuiarcadeTankPickupController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankPickupController
 ---@return gameuiarcadeTankPickupController
 function gameuiarcadeTankPickupController.new(fields) return end

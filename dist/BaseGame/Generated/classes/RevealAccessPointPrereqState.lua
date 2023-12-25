@@ -5,6 +5,6 @@
 ---@field public listener GameObjectListener
 RevealAccessPointPrereqState = {}
 
----@param fields? table
+---@param fields? RevealAccessPointPrereqState
 ---@return RevealAccessPointPrereqState
 function RevealAccessPointPrereqState.new(fields) return end

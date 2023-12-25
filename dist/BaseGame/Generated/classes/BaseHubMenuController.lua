@@ -6,7 +6,7 @@
 ---@field private menuData IScriptable
 BaseHubMenuController = {}
 
----@param fields? table
+---@param fields? BaseHubMenuController
 ---@return BaseHubMenuController
 function BaseHubMenuController.new(fields) return end
 

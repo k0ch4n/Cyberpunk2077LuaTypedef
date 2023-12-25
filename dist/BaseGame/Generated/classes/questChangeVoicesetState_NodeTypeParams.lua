@@ -9,6 +9,6 @@
 ---@field public inputsToBlock entVoicesetInputToBlock[]
 questChangeVoicesetState_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questChangeVoicesetState_NodeTypeParams
 ---@return questChangeVoicesetState_NodeTypeParams
 function questChangeVoicesetState_NodeTypeParams.new(fields) return end

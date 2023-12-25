@@ -6,6 +6,6 @@
 ---@field public angularVelocity Vector4
 physicsPhysicsJointDriveVelocity = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointDriveVelocity
 ---@return physicsPhysicsJointDriveVelocity
 function physicsPhysicsJointDriveVelocity.new(fields) return end

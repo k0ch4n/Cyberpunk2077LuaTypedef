@@ -6,6 +6,6 @@
 ---@field public result GenericMessageNotificationResult
 GenericMessageNotificationCloseData = {}
 
----@param fields? table
+---@param fields? GenericMessageNotificationCloseData
 ---@return GenericMessageNotificationCloseData
 function GenericMessageNotificationCloseData.new(fields) return end

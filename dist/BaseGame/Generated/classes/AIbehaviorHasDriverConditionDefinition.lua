@@ -4,6 +4,6 @@
 ---@class AIbehaviorHasDriverConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorHasDriverConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorHasDriverConditionDefinition
 ---@return AIbehaviorHasDriverConditionDefinition
 function AIbehaviorHasDriverConditionDefinition.new(fields) return end

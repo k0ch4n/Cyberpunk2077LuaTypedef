@@ -12,6 +12,6 @@
 ---@field public valid Bool
 PSODescRasterizerModeDesc = {}
 
----@param fields? table
+---@param fields? PSODescRasterizerModeDesc
 ---@return PSODescRasterizerModeDesc
 function PSODescRasterizerModeDesc.new(fields) return end

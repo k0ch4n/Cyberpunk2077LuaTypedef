@@ -5,6 +5,6 @@
 ---@field public id gameBlackboardSerializableID
 AIAIBlackboardSerializableID = {}
 
----@param fields? table
+---@param fields? AIAIBlackboardSerializableID
 ---@return AIAIBlackboardSerializableID
 function AIAIBlackboardSerializableID.new(fields) return end

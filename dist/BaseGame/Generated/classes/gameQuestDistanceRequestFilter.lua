@@ -5,6 +5,6 @@
 ---@field public distanceSquared Float
 gameQuestDistanceRequestFilter = {}
 
----@param fields? table
+---@param fields? gameQuestDistanceRequestFilter
 ---@return gameQuestDistanceRequestFilter
 function gameQuestDistanceRequestFilter.new(fields) return end

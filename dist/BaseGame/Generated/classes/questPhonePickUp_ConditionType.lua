@@ -7,6 +7,6 @@
 ---@field public releaseOnRejection Bool
 questPhonePickUp_ConditionType = {}
 
----@param fields? table
+---@param fields? questPhonePickUp_ConditionType
 ---@return questPhonePickUp_ConditionType
 function questPhonePickUp_ConditionType.new(fields) return end

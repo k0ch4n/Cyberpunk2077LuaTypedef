@@ -11,6 +11,6 @@
 ---@field public enemyPrograms ProgramData[]
 NetworkMinigameData = {}
 
----@param fields? table
+---@param fields? NetworkMinigameData
 ---@return NetworkMinigameData
 function NetworkMinigameData.new(fields) return end

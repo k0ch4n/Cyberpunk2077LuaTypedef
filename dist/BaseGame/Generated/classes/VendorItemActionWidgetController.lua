@@ -8,7 +8,7 @@
 ---@field protected processingStatusContainer inkWidgetReference
 VendorItemActionWidgetController = {}
 
----@param fields? table
+---@param fields? VendorItemActionWidgetController
 ---@return VendorItemActionWidgetController
 function VendorItemActionWidgetController.new(fields) return end
 

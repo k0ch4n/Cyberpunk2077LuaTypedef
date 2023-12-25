@@ -8,6 +8,6 @@
 ---@field public enableFootLockFloatTrack animNamedTrackIndex
 animSnapToTerrainIkRequest = {}
 
----@param fields? table
+---@param fields? animSnapToTerrainIkRequest
 ---@return animSnapToTerrainIkRequest
 function animSnapToTerrainIkRequest.new(fields) return end

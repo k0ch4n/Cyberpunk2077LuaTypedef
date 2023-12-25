@@ -6,7 +6,7 @@
 ---@field public owner gameObject
 ItemInSlotPrereqState = {}
 
----@param fields? table
+---@param fields? ItemInSlotPrereqState
 ---@return ItemInSlotPrereqState
 function ItemInSlotPrereqState.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public mappings audioVoiceTagAppearanceGroup[]
 audioVoiceTagAppearanceMapping = {}
 
----@param fields? table
+---@param fields? audioVoiceTagAppearanceMapping
 ---@return audioVoiceTagAppearanceMapping
 function audioVoiceTagAppearanceMapping.new(fields) return end

@@ -24,7 +24,7 @@
 ---@field private discountApplicable Bool
 VehicleOfferLogicController = {}
 
----@param fields? table
+---@param fields? VehicleOfferLogicController
 ---@return VehicleOfferLogicController
 function VehicleOfferLogicController.new(fields) return end
 

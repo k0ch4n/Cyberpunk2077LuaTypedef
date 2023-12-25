@@ -4,6 +4,6 @@
 ---@class ForceRadialWheelRebuild: redEvent
 ForceRadialWheelRebuild = {}
 
----@param fields? table
+---@param fields? ForceRadialWheelRebuild
 ---@return ForceRadialWheelRebuild
 function ForceRadialWheelRebuild.new(fields) return end

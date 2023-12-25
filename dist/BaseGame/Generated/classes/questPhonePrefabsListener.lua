@@ -4,6 +4,6 @@
 ---@class questPhonePrefabsListener: worldIQuestPrefabStateListener
 questPhonePrefabsListener = {}
 
----@param fields? table
+---@param fields? questPhonePrefabsListener
 ---@return questPhonePrefabsListener
 function questPhonePrefabsListener.new(fields) return end

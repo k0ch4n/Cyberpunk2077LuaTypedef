@@ -4,6 +4,6 @@
 ---@class DeactivateQuickHackIndicatorEvent: redEvent
 DeactivateQuickHackIndicatorEvent = {}
 
----@param fields? table
+---@param fields? DeactivateQuickHackIndicatorEvent
 ---@return DeactivateQuickHackIndicatorEvent
 function DeactivateQuickHackIndicatorEvent.new(fields) return end

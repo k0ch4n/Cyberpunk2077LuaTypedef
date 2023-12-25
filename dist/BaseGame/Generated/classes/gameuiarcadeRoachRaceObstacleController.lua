@@ -5,6 +5,6 @@
 ---@field public collider gameuiarcadeBoundingRect
 gameuiarcadeRoachRaceObstacleController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceObstacleController
 ---@return gameuiarcadeRoachRaceObstacleController
 function gameuiarcadeRoachRaceObstacleController.new(fields) return end

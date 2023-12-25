@@ -5,6 +5,6 @@
 ---@field public text String
 toolsMessageToken_Text = {}
 
----@param fields? table
+---@param fields? toolsMessageToken_Text
 ---@return toolsMessageToken_Text
 function toolsMessageToken_Text.new(fields) return end

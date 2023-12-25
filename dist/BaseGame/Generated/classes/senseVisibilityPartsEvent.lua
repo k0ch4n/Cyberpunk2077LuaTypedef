@@ -8,6 +8,6 @@
 ---@field public description CName
 senseVisibilityPartsEvent = {}
 
----@param fields? table
+---@param fields? senseVisibilityPartsEvent
 ---@return senseVisibilityPartsEvent
 function senseVisibilityPartsEvent.new(fields) return end

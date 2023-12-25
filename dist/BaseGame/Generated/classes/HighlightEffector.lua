@@ -10,7 +10,7 @@
 ---@field protected targetingSet CName
 HighlightEffector = {}
 
----@param fields? table
+---@param fields? HighlightEffector
 ---@return HighlightEffector
 function HighlightEffector.new(fields) return end
 

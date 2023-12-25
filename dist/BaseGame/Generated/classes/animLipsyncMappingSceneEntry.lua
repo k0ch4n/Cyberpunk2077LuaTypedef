@@ -6,6 +6,6 @@
 ---@field public animSets animAnimSet[]
 animLipsyncMappingSceneEntry = {}
 
----@param fields? table
+---@param fields? animLipsyncMappingSceneEntry
 ---@return animLipsyncMappingSceneEntry
 function animLipsyncMappingSceneEntry.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public layerDefinitionsSet inkLayerDefinitionsSet
 inkLayersResource = {}
 
----@param fields? table
+---@param fields? inkLayersResource
 ---@return inkLayersResource
 function inkLayersResource.new(fields) return end

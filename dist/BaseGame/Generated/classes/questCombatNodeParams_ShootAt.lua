@@ -9,6 +9,6 @@
 ---@field public immediately Bool
 questCombatNodeParams_ShootAt = {}
 
----@param fields? table
+---@param fields? questCombatNodeParams_ShootAt
 ---@return questCombatNodeParams_ShootAt
 function questCombatNodeParams_ShootAt.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public controller gameuiWardrobeSetPreviewGameController
 RegisterPreviewControllerEvent = {}
 
----@param fields? table
+---@param fields? RegisterPreviewControllerEvent
 ---@return RegisterPreviewControllerEvent
 function RegisterPreviewControllerEvent.new(fields) return end

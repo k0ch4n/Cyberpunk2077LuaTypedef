@@ -4,7 +4,7 @@
 ---@class QuestForceOverheat: ActionBool
 QuestForceOverheat = {}
 
----@param fields? table
+---@param fields? QuestForceOverheat
 ---@return QuestForceOverheat
 function QuestForceOverheat.new(fields) return end
 

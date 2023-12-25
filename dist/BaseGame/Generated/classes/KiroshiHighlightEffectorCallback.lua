@@ -5,7 +5,7 @@
 ---@field public effector KiroshiHighlightEffector
 KiroshiHighlightEffectorCallback = {}
 
----@param fields? table
+---@param fields? KiroshiHighlightEffectorCallback
 ---@return KiroshiHighlightEffectorCallback
 function KiroshiHighlightEffectorCallback.new(fields) return end
 

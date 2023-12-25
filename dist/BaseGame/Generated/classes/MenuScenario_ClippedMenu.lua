@@ -4,7 +4,7 @@
 ---@class MenuScenario_ClippedMenu: inkMenuScenario
 MenuScenario_ClippedMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_ClippedMenu
 ---@return MenuScenario_ClippedMenu
 function MenuScenario_ClippedMenu.new(fields) return end
 

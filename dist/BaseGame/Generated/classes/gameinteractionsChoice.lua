@@ -10,6 +10,6 @@
 ---@field public doNotTurnOffPreventionSystem Bool
 gameinteractionsChoice = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoice
 ---@return gameinteractionsChoice
 function gameinteractionsChoice.new(fields) return end

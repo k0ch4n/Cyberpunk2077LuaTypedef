@@ -6,6 +6,6 @@
 ---@field public requestVersion Int32
 WidgetsPoolItemSpawnData = {}
 
----@param fields? table
+---@param fields? WidgetsPoolItemSpawnData
 ---@return WidgetsPoolItemSpawnData
 function WidgetsPoolItemSpawnData.new(fields) return end

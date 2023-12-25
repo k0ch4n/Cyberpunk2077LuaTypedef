@@ -31,6 +31,6 @@
 ---@field public systemLockEventSources String[]
 gamePreventionSystemDebugData = {}
 
----@param fields? table
+---@param fields? gamePreventionSystemDebugData
 ---@return gamePreventionSystemDebugData
 function gamePreventionSystemDebugData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public newValue Int32
 gameJournalQuestObjectiveCounterData = {}
 
----@param fields? table
+---@param fields? gameJournalQuestObjectiveCounterData
 ---@return gameJournalQuestObjectiveCounterData
 function gameJournalQuestObjectiveCounterData.new(fields) return end

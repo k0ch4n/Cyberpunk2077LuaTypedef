@@ -4,7 +4,7 @@
 ---@class SetClosed: ActionBool
 SetClosed = {}
 
----@param fields? table
+---@param fields? SetClosed
 ---@return SetClosed
 function SetClosed.new(fields) return end
 

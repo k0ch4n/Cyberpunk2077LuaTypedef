@@ -8,6 +8,6 @@
 ---@field public patternType gameVisionModePatternType
 gameVisionAppearance = {}
 
----@param fields? table
+---@param fields? gameVisionAppearance
 ---@return gameVisionAppearance
 function gameVisionAppearance.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class IsNotWeakspotFilter: gameEffectObjectSingleFilter_Scripted
 IsNotWeakspotFilter = {}
 
----@param fields? table
+---@param fields? IsNotWeakspotFilter
 ---@return IsNotWeakspotFilter
 function IsNotWeakspotFilter.new(fields) return end
 

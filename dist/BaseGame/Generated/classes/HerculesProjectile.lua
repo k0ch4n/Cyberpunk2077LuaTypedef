@@ -4,7 +4,7 @@
 ---@class HerculesProjectile: ExplodingBullet
 HerculesProjectile = {}
 
----@param fields? table
+---@param fields? HerculesProjectile
 ---@return HerculesProjectile
 function HerculesProjectile.new(fields) return end
 

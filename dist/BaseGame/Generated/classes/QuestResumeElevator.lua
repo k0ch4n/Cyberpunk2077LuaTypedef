@@ -4,7 +4,7 @@
 ---@class QuestResumeElevator: ActionBool
 QuestResumeElevator = {}
 
----@param fields? table
+---@param fields? QuestResumeElevator
 ---@return QuestResumeElevator
 function QuestResumeElevator.new(fields) return end
 

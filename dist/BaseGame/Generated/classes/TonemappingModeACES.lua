@@ -5,6 +5,6 @@
 ---@field public params STonemappingACESParams
 TonemappingModeACES = {}
 
----@param fields? table
+---@param fields? TonemappingModeACES
 ---@return TonemappingModeACES
 function TonemappingModeACES.new(fields) return end

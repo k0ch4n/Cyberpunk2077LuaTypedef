@@ -6,6 +6,6 @@
 ---@field public referenceValue Float
 animFloatTrackInfo = {}
 
----@param fields? table
+---@param fields? animFloatTrackInfo
 ---@return animFloatTrackInfo
 function animFloatTrackInfo.new(fields) return end

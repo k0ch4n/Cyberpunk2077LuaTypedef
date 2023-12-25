@@ -4,7 +4,7 @@
 ---@class InCoverStanceState: AINPCStanceStateCheck
 InCoverStanceState = {}
 
----@param fields? table
+---@param fields? InCoverStanceState
 ---@return InCoverStanceState
 function InCoverStanceState.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private textWidget inkTextWidget
 sampleUISoundsLogicController = {}
 
----@param fields? table
+---@param fields? sampleUISoundsLogicController
 ---@return sampleUISoundsLogicController
 function sampleUISoundsLogicController.new(fields) return end
 

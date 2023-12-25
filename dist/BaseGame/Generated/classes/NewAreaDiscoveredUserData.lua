@@ -5,6 +5,6 @@
 ---@field public data String
 NewAreaDiscoveredUserData = {}
 
----@param fields? table
+---@param fields? NewAreaDiscoveredUserData
 ---@return NewAreaDiscoveredUserData
 function NewAreaDiscoveredUserData.new(fields) return end

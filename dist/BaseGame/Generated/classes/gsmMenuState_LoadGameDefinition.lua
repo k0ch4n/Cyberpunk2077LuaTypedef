@@ -4,6 +4,6 @@
 ---@class gsmMenuState_LoadGameDefinition: gsmMenuState
 gsmMenuState_LoadGameDefinition = {}
 
----@param fields? table
+---@param fields? gsmMenuState_LoadGameDefinition
 ---@return gsmMenuState_LoadGameDefinition
 function gsmMenuState_LoadGameDefinition.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field public stateMachineBBDef gamebbScriptDefinition
 gamestateMachineScriptInterface = {}
 
----@param fields? table
+---@param fields? gamestateMachineScriptInterface
 ---@return gamestateMachineScriptInterface
 function gamestateMachineScriptInterface.new(fields) return end
 

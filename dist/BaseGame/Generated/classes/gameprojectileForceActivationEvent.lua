@@ -4,6 +4,6 @@
 ---@class gameprojectileForceActivationEvent: redEvent
 gameprojectileForceActivationEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileForceActivationEvent
 ---@return gameprojectileForceActivationEvent
 function gameprojectileForceActivationEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class LocomotionBraindance: LocomotionTransition
 LocomotionBraindance = {}
 
----@param fields? table
+---@param fields? LocomotionBraindance
 ---@return LocomotionBraindance
 function LocomotionBraindance.new(fields) return end
 

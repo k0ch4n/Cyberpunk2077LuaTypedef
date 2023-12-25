@@ -4,6 +4,6 @@
 ---@class HideSmsMessagerEvent: redEvent
 HideSmsMessagerEvent = {}
 
----@param fields? table
+---@param fields? HideSmsMessagerEvent
 ---@return HideSmsMessagerEvent
 function HideSmsMessagerEvent.new(fields) return end

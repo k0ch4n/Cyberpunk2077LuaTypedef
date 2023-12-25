@@ -4,6 +4,6 @@
 ---@class HUDButtonHints: gameuiWidgetGameController
 HUDButtonHints = {}
 
----@param fields? table
+---@param fields? HUDButtonHints
 ---@return HUDButtonHints
 function HUDButtonHints.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public childrenShapeNames CName[]
 gameHitShapeBVH = {}
 
----@param fields? table
+---@param fields? gameHitShapeBVH
 ---@return gameHitShapeBVH
 function gameHitShapeBVH.new(fields) return end

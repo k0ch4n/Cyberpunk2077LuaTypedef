@@ -4,7 +4,7 @@
 ---@class StatCheckPrereqState: gamePrereqState
 StatCheckPrereqState = {}
 
----@param fields? table
+---@param fields? StatCheckPrereqState
 ---@return StatCheckPrereqState
 function StatCheckPrereqState.new(fields) return end
 

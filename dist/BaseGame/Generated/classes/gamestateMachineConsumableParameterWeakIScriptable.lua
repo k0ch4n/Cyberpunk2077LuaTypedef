@@ -5,6 +5,6 @@
 ---@field public consumed Bool
 gamestateMachineConsumableParameterWeakIScriptable = {}
 
----@param fields? table
+---@param fields? gamestateMachineConsumableParameterWeakIScriptable
 ---@return gamestateMachineConsumableParameterWeakIScriptable
 function gamestateMachineConsumableParameterWeakIScriptable.new(fields) return end

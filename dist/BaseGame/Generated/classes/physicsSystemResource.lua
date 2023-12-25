@@ -6,6 +6,6 @@
 ---@field public joints physicsSystemJoint[]
 physicsSystemResource = {}
 
----@param fields? table
+---@param fields? physicsSystemResource
 ---@return physicsSystemResource
 function physicsSystemResource.new(fields) return end

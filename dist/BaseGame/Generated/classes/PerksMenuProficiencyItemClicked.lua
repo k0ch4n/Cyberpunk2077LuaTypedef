@@ -5,6 +5,6 @@
 ---@field public index Int32
 PerksMenuProficiencyItemClicked = {}
 
----@param fields? table
+---@param fields? PerksMenuProficiencyItemClicked
 ---@return PerksMenuProficiencyItemClicked
 function PerksMenuProficiencyItemClicked.new(fields) return end

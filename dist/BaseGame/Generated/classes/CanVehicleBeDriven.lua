@@ -4,7 +4,7 @@
 ---@class CanVehicleBeDriven: PreventionConditionAbstract
 CanVehicleBeDriven = {}
 
----@param fields? table
+---@param fields? CanVehicleBeDriven
 ---@return CanVehicleBeDriven
 function CanVehicleBeDriven.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public attackData gamedamageAttackData
 gameeventsCloseByEvent = {}
 
----@param fields? table
+---@param fields? gameeventsCloseByEvent
 ---@return gameeventsCloseByEvent
 function gameeventsCloseByEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameKillTriggerNodeInstance: worldAreaShapeNodeInstance
 gameKillTriggerNodeInstance = {}
 
----@param fields? table
+---@param fields? gameKillTriggerNodeInstance
 ---@return gameKillTriggerNodeInstance
 function gameKillTriggerNodeInstance.new(fields) return end

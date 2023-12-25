@@ -6,6 +6,6 @@
 ---@field public type gamedataDamageType
 DPSPackage = {}
 
----@param fields? table
+---@param fields? DPSPackage
 ---@return DPSPackage
 function DPSPackage.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public enabled Bool
 animCorrectivePoseEntry = {}
 
----@param fields? table
+---@param fields? animCorrectivePoseEntry
 ---@return animCorrectivePoseEntry
 function animCorrectivePoseEntry.new(fields) return end

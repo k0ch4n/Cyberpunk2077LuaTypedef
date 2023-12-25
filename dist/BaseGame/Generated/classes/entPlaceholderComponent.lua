@@ -4,6 +4,6 @@
 ---@class entPlaceholderComponent: entIPlacedComponent
 entPlaceholderComponent = {}
 
----@param fields? table
+---@param fields? entPlaceholderComponent
 ---@return entPlaceholderComponent
 function entPlaceholderComponent.new(fields) return end

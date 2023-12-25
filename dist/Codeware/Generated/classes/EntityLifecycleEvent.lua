@@ -4,7 +4,7 @@
 ---@class EntityLifecycleEvent: NamedEvent
 EntityLifecycleEvent = {}
 
----@param fields? table
+---@param fields? EntityLifecycleEvent
 ---@return EntityLifecycleEvent
 function EntityLifecycleEvent.new(fields) return end
 

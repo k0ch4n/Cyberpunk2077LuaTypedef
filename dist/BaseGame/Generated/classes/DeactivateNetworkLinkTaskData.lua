@@ -6,6 +6,6 @@
 ---@field public instant Bool
 DeactivateNetworkLinkTaskData = {}
 
----@param fields? table
+---@param fields? DeactivateNetworkLinkTaskData
 ---@return DeactivateNetworkLinkTaskData
 function DeactivateNetworkLinkTaskData.new(fields) return end

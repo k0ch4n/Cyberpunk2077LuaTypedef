@@ -12,7 +12,7 @@
 ---@field private animProxy inkanimProxy
 DamagePreviewController = {}
 
----@param fields? table
+---@param fields? DamagePreviewController
 ---@return DamagePreviewController
 function DamagePreviewController.new(fields) return end
 

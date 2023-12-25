@@ -5,7 +5,7 @@
 ---@field public mountingListener gameScriptedPrereqMountingListenerWrapper
 IsMountedByPreventionNPCPrereqState = {}
 
----@param fields? table
+---@param fields? IsMountedByPreventionNPCPrereqState
 ---@return IsMountedByPreventionNPCPrereqState
 function IsMountedByPreventionNPCPrereqState.new(fields) return end
 

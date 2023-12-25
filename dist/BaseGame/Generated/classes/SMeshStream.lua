@@ -6,6 +6,6 @@
 ---@field public type EMeshStreamType
 SMeshStream = {}
 
----@param fields? table
+---@param fields? SMeshStream
 ---@return SMeshStream
 function SMeshStream.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field protected ownerEntityID entEntityID
 DeviceLinkComponentPS = {}
 
----@param fields? table
+---@param fields? DeviceLinkComponentPS
 ---@return DeviceLinkComponentPS
 function DeviceLinkComponentPS.new(fields) return end
 

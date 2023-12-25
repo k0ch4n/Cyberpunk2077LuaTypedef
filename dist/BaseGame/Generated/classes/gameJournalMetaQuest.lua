@@ -5,7 +5,7 @@
 ---@field public title LocalizationString
 gameJournalMetaQuest = {}
 
----@param fields? table
+---@param fields? gameJournalMetaQuest
 ---@return gameJournalMetaQuest
 function gameJournalMetaQuest.new(fields) return end
 

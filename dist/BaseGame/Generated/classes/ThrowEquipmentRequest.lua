@@ -5,6 +5,6 @@
 ---@field public itemObject gameItemObject
 ThrowEquipmentRequest = {}
 
----@param fields? table
+---@param fields? ThrowEquipmentRequest
 ---@return ThrowEquipmentRequest
 function ThrowEquipmentRequest.new(fields) return end

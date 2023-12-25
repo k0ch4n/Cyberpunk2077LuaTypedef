@@ -4,6 +4,6 @@
 ---@class NotifiedSecSysAboutCombat: redEvent
 NotifiedSecSysAboutCombat = {}
 
----@param fields? table
+---@param fields? NotifiedSecSysAboutCombat
 ---@return NotifiedSecSysAboutCombat
 function NotifiedSecSysAboutCombat.new(fields) return end

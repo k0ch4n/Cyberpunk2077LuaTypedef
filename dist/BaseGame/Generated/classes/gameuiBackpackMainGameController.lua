@@ -63,7 +63,7 @@
 ---@field protected afterCloseRequest Bool
 gameuiBackpackMainGameController = {}
 
----@param fields? table
+---@param fields? gameuiBackpackMainGameController
 ---@return gameuiBackpackMainGameController
 function gameuiBackpackMainGameController.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public negativeShapes gameinteractionsIShapeDefinition[]
 gameinteractionsCHotSpotAreaFilterDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCHotSpotAreaFilterDefinition
 ---@return gameinteractionsCHotSpotAreaFilterDefinition
 function gameinteractionsCHotSpotAreaFilterDefinition.new(fields) return end

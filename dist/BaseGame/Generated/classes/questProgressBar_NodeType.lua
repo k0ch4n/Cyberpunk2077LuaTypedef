@@ -9,6 +9,6 @@
 ---@field public type gameSimpleMessageType
 questProgressBar_NodeType = {}
 
----@param fields? table
+---@param fields? questProgressBar_NodeType
 ---@return questProgressBar_NodeType
 function questProgressBar_NodeType.new(fields) return end

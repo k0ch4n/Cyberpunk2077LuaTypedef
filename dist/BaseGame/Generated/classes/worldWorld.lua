@@ -4,6 +4,6 @@
 ---@class worldWorld: worldPrefab
 worldWorld = {}
 
----@param fields? table
+---@param fields? worldWorld
 ---@return worldWorld
 function worldWorld.new(fields) return end

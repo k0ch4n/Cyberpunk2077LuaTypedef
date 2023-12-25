@@ -10,6 +10,6 @@
 ---@field public mode questChoiceSection_ConditionTypeMode
 questChoiceSection_ConditionType = {}
 
----@param fields? table
+---@param fields? questChoiceSection_ConditionType
 ---@return questChoiceSection_ConditionType
 function questChoiceSection_ConditionType.new(fields) return end

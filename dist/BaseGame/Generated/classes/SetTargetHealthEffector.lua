@@ -5,7 +5,7 @@
 ---@field public healthValueToSet Float
 SetTargetHealthEffector = {}
 
----@param fields? table
+---@param fields? SetTargetHealthEffector
 ---@return SetTargetHealthEffector
 function SetTargetHealthEffector.new(fields) return end
 

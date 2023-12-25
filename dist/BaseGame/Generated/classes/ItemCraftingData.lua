@@ -8,6 +8,6 @@
 ---@field public isSelected Bool
 ItemCraftingData = {}
 
----@param fields? table
+---@param fields? ItemCraftingData
 ---@return ItemCraftingData
 function ItemCraftingData.new(fields) return end

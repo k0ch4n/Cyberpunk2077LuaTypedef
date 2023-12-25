@@ -7,7 +7,7 @@
 ---@field public supportsHoldInput Bool
 inkDiscreteNavigationController = {}
 
----@param fields? table
+---@param fields? inkDiscreteNavigationController
 ---@return inkDiscreteNavigationController
 function inkDiscreteNavigationController.new(fields) return end
 

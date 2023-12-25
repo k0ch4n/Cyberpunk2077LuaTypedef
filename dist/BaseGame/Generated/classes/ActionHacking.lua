@@ -4,7 +4,7 @@
 ---@class ActionHacking: ActionSkillCheck
 ActionHacking = {}
 
----@param fields? table
+---@param fields? ActionHacking
 ---@return ActionHacking
 function ActionHacking.new(fields) return end
 

@@ -19,6 +19,6 @@
 ---@field public overrideSubMenuUserData Bool
 MenuData = {}
 
----@param fields? table
+---@param fields? MenuData
 ---@return MenuData
 function MenuData.new(fields) return end

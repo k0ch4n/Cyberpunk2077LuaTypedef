@@ -4,7 +4,7 @@
 ---@class gamedataApplyStatGroupEffector_Record: gamedataEffector_Record
 gamedataApplyStatGroupEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataApplyStatGroupEffector_Record
 ---@return gamedataApplyStatGroupEffector_Record
 function gamedataApplyStatGroupEffector_Record.new(fields) return end
 

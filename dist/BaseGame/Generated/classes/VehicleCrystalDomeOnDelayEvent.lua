@@ -4,6 +4,6 @@
 ---@class VehicleCrystalDomeOnDelayEvent: redEvent
 VehicleCrystalDomeOnDelayEvent = {}
 
----@param fields? table
+---@param fields? VehicleCrystalDomeOnDelayEvent
 ---@return VehicleCrystalDomeOnDelayEvent
 function VehicleCrystalDomeOnDelayEvent.new(fields) return end

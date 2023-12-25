@@ -7,6 +7,6 @@
 ---@field public attributeData AttributeData
 PerksMenuAttributeItemHoverOut = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemHoverOut
 ---@return PerksMenuAttributeItemHoverOut
 function PerksMenuAttributeItemHoverOut.new(fields) return end

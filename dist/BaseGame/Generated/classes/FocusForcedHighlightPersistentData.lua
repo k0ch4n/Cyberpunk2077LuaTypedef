@@ -13,7 +13,7 @@
 ---@field private patternType gameVisionModePatternType
 FocusForcedHighlightPersistentData = {}
 
----@param fields? table
+---@param fields? FocusForcedHighlightPersistentData
 ---@return FocusForcedHighlightPersistentData
 function FocusForcedHighlightPersistentData.new(fields) return end
 

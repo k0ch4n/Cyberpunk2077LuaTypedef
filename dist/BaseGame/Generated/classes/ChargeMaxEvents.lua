@@ -4,7 +4,7 @@
 ---@class ChargeMaxEvents: ChargeEventsAbstract
 ChargeMaxEvents = {}
 
----@param fields? table
+---@param fields? ChargeMaxEvents
 ---@return ChargeMaxEvents
 function ChargeMaxEvents.new(fields) return end
 

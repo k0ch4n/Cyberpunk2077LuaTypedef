@@ -4,7 +4,7 @@
 ---@class gamedataAimAssistFinishing_Record: gamedataTweakDBRecord
 gamedataAimAssistFinishing_Record = {}
 
----@param fields? table
+---@param fields? gamedataAimAssistFinishing_Record
 ---@return gamedataAimAssistFinishing_Record
 function gamedataAimAssistFinishing_Record.new(fields) return end
 

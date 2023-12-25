@@ -6,7 +6,7 @@
 ---@field private deviceStatusFriendlyName String
 ScannerDeviceStatus = {}
 
----@param fields? table
+---@param fields? ScannerDeviceStatus
 ---@return ScannerDeviceStatus
 function ScannerDeviceStatus.new(fields) return end
 

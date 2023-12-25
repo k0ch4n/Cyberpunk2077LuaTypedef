@@ -4,7 +4,7 @@
 ---@class SecurityGateLockController: ScriptableDeviceComponent
 SecurityGateLockController = {}
 
----@param fields? table
+---@param fields? SecurityGateLockController
 ---@return SecurityGateLockController
 function SecurityGateLockController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameuiQuadRacerSprite: gameuiSideScrollerMiniGameDynObjectLogic
 gameuiQuadRacerSprite = {}
 
----@param fields? table
+---@param fields? gameuiQuadRacerSprite
 ---@return gameuiQuadRacerSprite
 function gameuiQuadRacerSprite.new(fields) return end

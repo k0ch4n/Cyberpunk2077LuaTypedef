@@ -4,6 +4,6 @@
 ---@class inkDeleteRequestResult: inkCallbackBase
 inkDeleteRequestResult = {}
 
----@param fields? table
+---@param fields? inkDeleteRequestResult
 ---@return inkDeleteRequestResult
 function inkDeleteRequestResult.new(fields) return end

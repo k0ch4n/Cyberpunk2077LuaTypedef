@@ -5,6 +5,6 @@
 ---@field public spawnPointTag CName
 questSetMultiplayerHeistSpawnPointTag_NodeType = {}
 
----@param fields? table
+---@param fields? questSetMultiplayerHeistSpawnPointTag_NodeType
 ---@return questSetMultiplayerHeistSpawnPointTag_NodeType
 function questSetMultiplayerHeistSpawnPointTag_NodeType.new(fields) return end

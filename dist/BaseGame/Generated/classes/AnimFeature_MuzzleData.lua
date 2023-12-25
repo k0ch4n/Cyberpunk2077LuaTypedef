@@ -5,6 +5,6 @@
 ---@field public muzzleOffset Vector4
 AnimFeature_MuzzleData = {}
 
----@param fields? table
+---@param fields? AnimFeature_MuzzleData
 ---@return AnimFeature_MuzzleData
 function AnimFeature_MuzzleData.new(fields) return end

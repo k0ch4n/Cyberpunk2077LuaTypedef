@@ -5,6 +5,6 @@
 ---@field public poseCorrections animPoseCorrection
 animPoseCorrectionGroup = {}
 
----@param fields? table
+---@param fields? animPoseCorrectionGroup
 ---@return animPoseCorrectionGroup
 function animPoseCorrectionGroup.new(fields) return end

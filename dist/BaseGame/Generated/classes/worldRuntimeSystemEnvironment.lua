@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemEnvironment: worldIRuntimeSystem
 worldRuntimeSystemEnvironment = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemEnvironment
 ---@return worldRuntimeSystemEnvironment
 function worldRuntimeSystemEnvironment.new(fields) return end

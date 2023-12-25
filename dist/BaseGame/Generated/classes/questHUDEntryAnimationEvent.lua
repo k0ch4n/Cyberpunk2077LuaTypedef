@@ -7,6 +7,6 @@
 ---@field public dependsOnTimeDilation Bool
 questHUDEntryAnimationEvent = {}
 
----@param fields? table
+---@param fields? questHUDEntryAnimationEvent
 ---@return questHUDEntryAnimationEvent
 function questHUDEntryAnimationEvent.new(fields) return end

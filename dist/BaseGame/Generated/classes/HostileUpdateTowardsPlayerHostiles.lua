@@ -4,6 +4,6 @@
 ---@class HostileUpdateTowardsPlayerHostiles: redEvent
 HostileUpdateTowardsPlayerHostiles = {}
 
----@param fields? table
+---@param fields? HostileUpdateTowardsPlayerHostiles
 ---@return HostileUpdateTowardsPlayerHostiles
 function HostileUpdateTowardsPlayerHostiles.new(fields) return end

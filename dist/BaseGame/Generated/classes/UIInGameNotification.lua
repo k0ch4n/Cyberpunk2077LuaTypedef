@@ -4,7 +4,7 @@
 ---@class UIInGameNotification: GenericNotificationController
 UIInGameNotification = {}
 
----@param fields? table
+---@param fields? UIInGameNotification
 ---@return UIInGameNotification
 function UIInGameNotification.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public targetPersistentID gamePersistentID
 SampleCounterDisplayComponent = {}
 
----@param fields? table
+---@param fields? SampleCounterDisplayComponent
 ---@return SampleCounterDisplayComponent
 function SampleCounterDisplayComponent.new(fields) return end
 

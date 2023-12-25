@@ -4,7 +4,7 @@
 ---@class gamedataInteractionMountBase_Record: gamedataInteractionBase_Record
 gamedataInteractionMountBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataInteractionMountBase_Record
 ---@return gamedataInteractionMountBase_Record
 function gamedataInteractionMountBase_Record.new(fields) return end
 

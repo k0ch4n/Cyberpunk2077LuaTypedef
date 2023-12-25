@@ -4,6 +4,6 @@
 ---@class gameuiProgramFromDataGenRule: gameuiMinigameGenerationRule
 gameuiProgramFromDataGenRule = {}
 
----@param fields? table
+---@param fields? gameuiProgramFromDataGenRule
 ---@return gameuiProgramFromDataGenRule
 function gameuiProgramFromDataGenRule.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field private isValidDeviceAuthorization Bool
 ScannerDeviceBodyGameController = {}
 
----@param fields? table
+---@param fields? ScannerDeviceBodyGameController
 ---@return ScannerDeviceBodyGameController
 function ScannerDeviceBodyGameController.new(fields) return end
 

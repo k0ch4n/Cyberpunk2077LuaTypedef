@@ -9,7 +9,7 @@
 ---@field public MovingVFX CName
 PlatformDevice = {}
 
----@param fields? table
+---@param fields? PlatformDevice
 ---@return PlatformDevice
 function PlatformDevice.new(fields) return end
 

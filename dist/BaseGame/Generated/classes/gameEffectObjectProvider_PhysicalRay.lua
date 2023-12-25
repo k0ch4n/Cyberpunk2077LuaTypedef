@@ -10,6 +10,6 @@
 ---@field public queryPreset physicsQueryPreset
 gameEffectObjectProvider_PhysicalRay = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_PhysicalRay
 ---@return gameEffectObjectProvider_PhysicalRay
 function gameEffectObjectProvider_PhysicalRay.new(fields) return end

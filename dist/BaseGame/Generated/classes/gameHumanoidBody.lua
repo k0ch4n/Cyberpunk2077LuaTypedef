@@ -9,6 +9,6 @@
 ---@field public aimAnimFeatureName CName
 gameHumanoidBody = {}
 
----@param fields? table
+---@param fields? gameHumanoidBody
 ---@return gameHumanoidBody
 function gameHumanoidBody.new(fields) return end

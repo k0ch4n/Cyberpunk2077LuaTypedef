@@ -7,7 +7,7 @@
 ---@field public comparator ECompareOp
 CheckQuestFact = {}
 
----@param fields? table
+---@param fields? CheckQuestFact
 ---@return CheckQuestFact
 function CheckQuestFact.new(fields) return end
 

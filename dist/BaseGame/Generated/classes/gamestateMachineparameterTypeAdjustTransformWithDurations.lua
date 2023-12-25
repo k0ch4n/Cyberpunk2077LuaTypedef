@@ -4,7 +4,7 @@
 ---@class gamestateMachineparameterTypeAdjustTransformWithDurations: gamestateMachineparameterTypeAdjustTransform
 gamestateMachineparameterTypeAdjustTransformWithDurations = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeAdjustTransformWithDurations
 ---@return gamestateMachineparameterTypeAdjustTransformWithDurations
 function gamestateMachineparameterTypeAdjustTransformWithDurations.new(fields) return end
 

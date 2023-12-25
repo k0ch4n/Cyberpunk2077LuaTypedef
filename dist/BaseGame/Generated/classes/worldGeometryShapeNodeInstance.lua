@@ -4,6 +4,6 @@
 ---@class worldGeometryShapeNodeInstance: worldINodeInstance
 worldGeometryShapeNodeInstance = {}
 
----@param fields? table
+---@param fields? worldGeometryShapeNodeInstance
 ---@return worldGeometryShapeNodeInstance
 function worldGeometryShapeNodeInstance.new(fields) return end

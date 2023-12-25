@@ -4,6 +4,6 @@
 ---@class ObjectMoverComponentPS: gameComponentPS
 ObjectMoverComponentPS = {}
 
----@param fields? table
+---@param fields? ObjectMoverComponentPS
 ---@return ObjectMoverComponentPS
 function ObjectMoverComponentPS.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field protected isInactive Bool
 DeviceActionWidgetControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceActionWidgetControllerBase
 ---@return DeviceActionWidgetControllerBase
 function DeviceActionWidgetControllerBase.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class BreachAccessPointEvent: redEvent
 BreachAccessPointEvent = {}
 
----@param fields? table
+---@param fields? BreachAccessPointEvent
 ---@return BreachAccessPointEvent
 function BreachAccessPointEvent.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private visitedDistricts TweakDBID[]
 DistrictManager = {}
 
----@param fields? table
+---@param fields? DistrictManager
 ---@return DistrictManager
 function DistrictManager.new(fields) return end
 

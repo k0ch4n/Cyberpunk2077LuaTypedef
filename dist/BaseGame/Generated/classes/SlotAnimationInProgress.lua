@@ -4,7 +4,7 @@
 ---@class SlotAnimationInProgress: AIbehaviorconditionScript
 SlotAnimationInProgress = {}
 
----@param fields? table
+---@param fields? SlotAnimationInProgress
 ---@return SlotAnimationInProgress
 function SlotAnimationInProgress.new(fields) return end
 

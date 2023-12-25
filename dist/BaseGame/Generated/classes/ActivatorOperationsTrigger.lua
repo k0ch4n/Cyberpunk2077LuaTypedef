@@ -5,7 +5,7 @@
 ---@field protected triggerData ActivatorOperationTriggerData
 ActivatorOperationsTrigger = {}
 
----@param fields? table
+---@param fields? ActivatorOperationsTrigger
 ---@return ActivatorOperationsTrigger
 function ActivatorOperationsTrigger.new(fields) return end
 

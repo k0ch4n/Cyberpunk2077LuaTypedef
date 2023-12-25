@@ -5,6 +5,6 @@
 ---@field public vehicleRef gameEntityReference
 questForcePhysicsWakeUp_NodeType = {}
 
----@param fields? table
+---@param fields? questForcePhysicsWakeUp_NodeType
 ---@return questForcePhysicsWakeUp_NodeType
 function questForcePhysicsWakeUp_NodeType.new(fields) return end

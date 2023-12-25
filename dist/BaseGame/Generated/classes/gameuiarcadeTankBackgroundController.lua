@@ -5,6 +5,6 @@
 ---@field public decorationSpawner inkWidgetReference
 gameuiarcadeTankBackgroundController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankBackgroundController
 ---@return gameuiarcadeTankBackgroundController
 function gameuiarcadeTankBackgroundController.new(fields) return end

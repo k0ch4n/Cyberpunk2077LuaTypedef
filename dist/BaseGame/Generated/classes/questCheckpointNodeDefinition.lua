@@ -11,6 +11,6 @@
 ---@field public debugString String
 questCheckpointNodeDefinition = {}
 
----@param fields? table
+---@param fields? questCheckpointNodeDefinition
 ---@return questCheckpointNodeDefinition
 function questCheckpointNodeDefinition.new(fields) return end

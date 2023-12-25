@@ -4,7 +4,7 @@
 ---@class ArcadeMachineController: ScriptableDeviceComponent
 ArcadeMachineController = {}
 
----@param fields? table
+---@param fields? ArcadeMachineController
 ---@return ArcadeMachineController
 function ArcadeMachineController.new(fields) return end
 

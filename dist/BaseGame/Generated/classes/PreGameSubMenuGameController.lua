@@ -5,7 +5,7 @@
 ---@field protected menuEventDispatcher inkMenuEventDispatcher
 PreGameSubMenuGameController = {}
 
----@param fields? table
+---@param fields? PreGameSubMenuGameController
 ---@return PreGameSubMenuGameController
 function PreGameSubMenuGameController.new(fields) return end
 

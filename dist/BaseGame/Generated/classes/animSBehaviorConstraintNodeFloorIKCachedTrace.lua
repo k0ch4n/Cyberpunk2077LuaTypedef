@@ -4,6 +4,6 @@
 ---@class animSBehaviorConstraintNodeFloorIKCachedTrace
 animSBehaviorConstraintNodeFloorIKCachedTrace = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKCachedTrace
 ---@return animSBehaviorConstraintNodeFloorIKCachedTrace
 function animSBehaviorConstraintNodeFloorIKCachedTrace.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public hovered Bool
 PerkScreenTierInfo = {}
 
----@param fields? table
+---@param fields? PerkScreenTierInfo
 ---@return PerkScreenTierInfo
 function PerkScreenTierInfo.new(fields) return end

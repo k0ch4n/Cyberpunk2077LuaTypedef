@@ -6,7 +6,7 @@
 ---@field public window vehicleQuestWindowDestruction
 VehicleQuestWindowDestructionEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestWindowDestructionEvent
 ---@return VehicleQuestWindowDestructionEvent
 function VehicleQuestWindowDestructionEvent.new(fields) return end
 

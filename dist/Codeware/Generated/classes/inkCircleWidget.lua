@@ -4,7 +4,7 @@
 ---@class inkCircleWidget: inkBaseShapeWidget
 inkCircleWidget = {}
 
----@param fields? table
+---@param fields? inkCircleWidget
 ---@return inkCircleWidget
 function inkCircleWidget.new(fields) return end
 

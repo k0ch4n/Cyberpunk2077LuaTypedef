@@ -4,7 +4,7 @@
 ---@class CerberusDetectionOpticalCamo: AIbehaviorconditionScript
 CerberusDetectionOpticalCamo = {}
 
----@param fields? table
+---@param fields? CerberusDetectionOpticalCamo
 ---@return CerberusDetectionOpticalCamo
 function CerberusDetectionOpticalCamo.new(fields) return end
 

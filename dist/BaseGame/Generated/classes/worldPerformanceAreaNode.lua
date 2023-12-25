@@ -8,6 +8,6 @@
 ---@field public globalEntityLODDistanceScale Float
 worldPerformanceAreaNode = {}
 
----@param fields? table
+---@param fields? worldPerformanceAreaNode
 ---@return worldPerformanceAreaNode
 function worldPerformanceAreaNode.new(fields) return end

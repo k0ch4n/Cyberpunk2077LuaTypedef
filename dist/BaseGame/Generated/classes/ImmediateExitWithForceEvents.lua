@@ -7,7 +7,7 @@
 ---@field public knockOverBike KnockOverBikeEvent
 ImmediateExitWithForceEvents = {}
 
----@param fields? table
+---@param fields? ImmediateExitWithForceEvents
 ---@return ImmediateExitWithForceEvents
 function ImmediateExitWithForceEvents.new(fields) return end
 

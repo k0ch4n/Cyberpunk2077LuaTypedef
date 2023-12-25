@@ -5,7 +5,7 @@
 ---@field protected soundEvent CName
 PlaySoundEvent = {}
 
----@param fields? table
+---@param fields? PlaySoundEvent
 ---@return PlaySoundEvent
 function PlaySoundEvent.new(fields) return end
 

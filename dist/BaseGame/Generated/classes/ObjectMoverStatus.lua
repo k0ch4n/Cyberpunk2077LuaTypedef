@@ -6,6 +6,6 @@
 ---@field public direction EMovementDirection
 ObjectMoverStatus = {}
 
----@param fields? table
+---@param fields? ObjectMoverStatus
 ---@return ObjectMoverStatus
 function ObjectMoverStatus.new(fields) return end

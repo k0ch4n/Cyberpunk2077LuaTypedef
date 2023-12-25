@@ -9,6 +9,6 @@
 ---@field public mountType gameMountDescriptorMountType
 gameMountDescriptor = {}
 
----@param fields? table
+---@param fields? gameMountDescriptor
 ---@return gameMountDescriptor
 function gameMountDescriptor.new(fields) return end

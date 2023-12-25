@@ -6,6 +6,6 @@
 ---@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToPropParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsAttachToPropParams
 ---@return scnChoiceNodeNsAttachToPropParams
 function scnChoiceNodeNsAttachToPropParams.new(fields) return end

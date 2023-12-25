@@ -4,7 +4,7 @@
 ---@class IsSourceDeviceActveFilter: gameEffectObjectGroupFilter_Scripted
 IsSourceDeviceActveFilter = {}
 
----@param fields? table
+---@param fields? IsSourceDeviceActveFilter
 ---@return IsSourceDeviceActveFilter
 function IsSourceDeviceActveFilter.new(fields) return end
 

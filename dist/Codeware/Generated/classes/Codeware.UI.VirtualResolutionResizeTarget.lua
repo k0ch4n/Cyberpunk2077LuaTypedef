@@ -5,7 +5,7 @@
 ---@field public size Vector2
 Codeware_UI_VirtualResolutionResizeTarget = {}
 
----@param fields? table
+---@param fields? Codeware_UI_VirtualResolutionResizeTarget
 ---@return Codeware_UI_VirtualResolutionResizeTarget
 function Codeware_UI_VirtualResolutionResizeTarget.new(fields) return end
 

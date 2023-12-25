@@ -17,7 +17,7 @@
 ---@field public playerWorkspot SWorkspotData
 GenericDeviceOperation = {}
 
----@param fields? table
+---@param fields? GenericDeviceOperation
 ---@return GenericDeviceOperation
 function GenericDeviceOperation.new(fields) return end
 

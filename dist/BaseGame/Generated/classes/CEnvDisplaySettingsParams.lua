@@ -17,6 +17,6 @@
 ---@field public gamma Float
 CEnvDisplaySettingsParams = {}
 
----@param fields? table
+---@param fields? CEnvDisplaySettingsParams
 ---@return CEnvDisplaySettingsParams
 function CEnvDisplaySettingsParams.new(fields) return end

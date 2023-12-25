@@ -15,7 +15,7 @@
 ---@field private crosshairState gamePSMCrosshairStates
 megatronCrosshairGameController = {}
 
----@param fields? table
+---@param fields? megatronCrosshairGameController
 ---@return megatronCrosshairGameController
 function megatronCrosshairGameController.new(fields) return end
 

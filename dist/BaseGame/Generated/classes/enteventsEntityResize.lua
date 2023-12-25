@@ -5,6 +5,6 @@
 ---@field public extents Vector3
 enteventsEntityResize = {}
 
----@param fields? table
+---@param fields? enteventsEntityResize
 ---@return enteventsEntityResize
 function enteventsEntityResize.new(fields) return end

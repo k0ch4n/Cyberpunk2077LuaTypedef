@@ -10,6 +10,6 @@
 ---@field public isOpened Bool
 SDocumentThumbnailWidgetPackage = {}
 
----@param fields? table
+---@param fields? SDocumentThumbnailWidgetPackage
 ---@return SDocumentThumbnailWidgetPackage
 function SDocumentThumbnailWidgetPackage.new(fields) return end

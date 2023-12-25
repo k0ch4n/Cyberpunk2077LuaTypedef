@@ -5,7 +5,7 @@
 ---@field private mass Int32
 ScannerVehicleMass = {}
 
----@param fields? table
+---@param fields? ScannerVehicleMass
 ---@return ScannerVehicleMass
 function ScannerVehicleMass.new(fields) return end
 

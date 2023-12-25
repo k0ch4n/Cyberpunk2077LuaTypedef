@@ -7,6 +7,6 @@
 ---@field public appearancesAndTheirColorVariants gameEntityAppearanceColorVariantsArray[]
 gameEntityToAppearancesAndColorVariantsMapEntry = {}
 
----@param fields? table
+---@param fields? gameEntityToAppearancesAndColorVariantsMapEntry
 ---@return gameEntityToAppearancesAndColorVariantsMapEntry
 function gameEntityToAppearancesAndColorVariantsMapEntry.new(fields) return end

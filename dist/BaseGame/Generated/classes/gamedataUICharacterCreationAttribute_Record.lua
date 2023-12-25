@@ -4,7 +4,7 @@
 ---@class gamedataUICharacterCreationAttribute_Record: gamedataTweakDBRecord
 gamedataUICharacterCreationAttribute_Record = {}
 
----@param fields? table
+---@param fields? gamedataUICharacterCreationAttribute_Record
 ---@return gamedataUICharacterCreationAttribute_Record
 function gamedataUICharacterCreationAttribute_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public value Bool
 SetSkipDeathAnimationTask = {}
 
----@param fields? table
+---@param fields? SetSkipDeathAnimationTask
 ---@return SetSkipDeathAnimationTask
 function SetSkipDeathAnimationTask.new(fields) return end
 

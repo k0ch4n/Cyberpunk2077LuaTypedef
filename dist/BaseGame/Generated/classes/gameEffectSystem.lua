@@ -4,7 +4,7 @@
 ---@class gameEffectSystem: gameIEffectSystem
 gameEffectSystem = {}
 
----@param fields? table
+---@param fields? gameEffectSystem
 ---@return gameEffectSystem
 function gameEffectSystem.new(fields) return end
 

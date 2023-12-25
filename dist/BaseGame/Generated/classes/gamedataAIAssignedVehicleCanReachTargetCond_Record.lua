@@ -4,7 +4,7 @@
 ---@class gamedataAIAssignedVehicleCanReachTargetCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleCanReachTargetCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIAssignedVehicleCanReachTargetCond_Record
 ---@return gamedataAIAssignedVehicleCanReachTargetCond_Record
 function gamedataAIAssignedVehicleCanReachTargetCond_Record.new(fields) return end
 

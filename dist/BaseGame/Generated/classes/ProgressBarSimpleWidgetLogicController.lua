@@ -28,7 +28,7 @@
 ---@field protected rootWidget inkCompoundWidget
 ProgressBarSimpleWidgetLogicController = {}
 
----@param fields? table
+---@param fields? ProgressBarSimpleWidgetLogicController
 ---@return ProgressBarSimpleWidgetLogicController
 function ProgressBarSimpleWidgetLogicController.new(fields) return end
 

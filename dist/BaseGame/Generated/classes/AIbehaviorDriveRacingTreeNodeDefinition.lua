@@ -23,6 +23,6 @@
 ---@field public rubberBandingStayInFront AIArgumentMapping
 AIbehaviorDriveRacingTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveRacingTreeNodeDefinition
 ---@return AIbehaviorDriveRacingTreeNodeDefinition
 function AIbehaviorDriveRacingTreeNodeDefinition.new(fields) return end

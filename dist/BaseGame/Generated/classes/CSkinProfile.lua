@@ -10,6 +10,6 @@
 ---@field public lobeMix Float
 CSkinProfile = {}
 
----@param fields? table
+---@param fields? CSkinProfile
 ---@return CSkinProfile
 function CSkinProfile.new(fields) return end

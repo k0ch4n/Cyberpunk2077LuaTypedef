@@ -4,6 +4,6 @@
 ---@class inkStreetSignsLayer: inkWorldFluffLayer
 inkStreetSignsLayer = {}
 
----@param fields? table
+---@param fields? inkStreetSignsLayer
 ---@return inkStreetSignsLayer
 function inkStreetSignsLayer.new(fields) return end

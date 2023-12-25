@@ -39,7 +39,7 @@
 ---@field public currentRequest OpenMenuRequest
 MenuHubGameController = {}
 
----@param fields? table
+---@param fields? MenuHubGameController
 ---@return MenuHubGameController
 function MenuHubGameController.new(fields) return end
 

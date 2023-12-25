@@ -9,6 +9,6 @@
 ---@field public shouldCrouch Bool
 workWorkspotResourceComponent = {}
 
----@param fields? table
+---@param fields? workWorkspotResourceComponent
 ---@return workWorkspotResourceComponent
 function workWorkspotResourceComponent.new(fields) return end

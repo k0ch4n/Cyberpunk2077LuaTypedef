@@ -4,7 +4,7 @@
 ---@class gamedataApperanceToEthnicities_Record: gamedataTweakDBRecord
 gamedataApperanceToEthnicities_Record = {}
 
----@param fields? table
+---@param fields? gamedataApperanceToEthnicities_Record
 ---@return gamedataApperanceToEthnicities_Record
 function gamedataApperanceToEthnicities_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private fastTravelPointData gameFastTravelPointData
 FastTravelDeviceAction = {}
 
----@param fields? table
+---@param fields? FastTravelDeviceAction
 ---@return FastTravelDeviceAction
 function FastTravelDeviceAction.new(fields) return end
 

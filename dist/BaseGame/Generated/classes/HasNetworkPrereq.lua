@@ -5,7 +5,7 @@
 ---@field public invert Bool
 HasNetworkPrereq = {}
 
----@param fields? table
+---@param fields? HasNetworkPrereq
 ---@return HasNetworkPrereq
 function HasNetworkPrereq.new(fields) return end
 

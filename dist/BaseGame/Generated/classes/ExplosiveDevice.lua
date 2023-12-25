@@ -24,7 +24,7 @@
 ---@field private componentsOFF entIPlacedComponent[]
 ExplosiveDevice = {}
 
----@param fields? table
+---@param fields? ExplosiveDevice
 ---@return ExplosiveDevice
 function ExplosiveDevice.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class GenerateHeatAroundLastTriggeredStimuli: AIbehaviortaskScript
 GenerateHeatAroundLastTriggeredStimuli = {}
 
----@param fields? table
+---@param fields? GenerateHeatAroundLastTriggeredStimuli
 ---@return GenerateHeatAroundLastTriggeredStimuli
 function GenerateHeatAroundLastTriggeredStimuli.new(fields) return end
 

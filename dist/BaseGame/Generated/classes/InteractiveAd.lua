@@ -9,7 +9,7 @@
 ---@field protected showVendor Bool
 InteractiveAd = {}
 
----@param fields? table
+---@param fields? InteractiveAd
 ---@return InteractiveAd
 function InteractiveAd.new(fields) return end
 

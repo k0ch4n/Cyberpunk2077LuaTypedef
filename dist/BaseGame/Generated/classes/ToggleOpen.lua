@@ -4,7 +4,7 @@
 ---@class ToggleOpen: ActionBool
 ToggleOpen = {}
 
----@param fields? table
+---@param fields? ToggleOpen
 ---@return ToggleOpen
 function ToggleOpen.new(fields) return end
 

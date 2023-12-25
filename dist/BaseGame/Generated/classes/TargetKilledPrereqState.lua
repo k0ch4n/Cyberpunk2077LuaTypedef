@@ -4,7 +4,7 @@
 ---@class TargetKilledPrereqState: GenericHitPrereqState
 TargetKilledPrereqState = {}
 
----@param fields? table
+---@param fields? TargetKilledPrereqState
 ---@return TargetKilledPrereqState
 function TargetKilledPrereqState.new(fields) return end
 

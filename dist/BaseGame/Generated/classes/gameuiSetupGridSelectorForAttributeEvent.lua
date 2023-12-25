@@ -5,6 +5,6 @@
 ---@field public attribute Uint32
 gameuiSetupGridSelectorForAttributeEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetupGridSelectorForAttributeEvent
 ---@return gameuiSetupGridSelectorForAttributeEvent
 function gameuiSetupGridSelectorForAttributeEvent.new(fields) return end

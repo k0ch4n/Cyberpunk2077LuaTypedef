@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 OverheatDecisions = {}
 
----@param fields? table
+---@param fields? OverheatDecisions
 ---@return OverheatDecisions
 function OverheatDecisions.new(fields) return end
 

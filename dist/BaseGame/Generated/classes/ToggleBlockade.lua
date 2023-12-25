@@ -6,7 +6,7 @@
 ---@field protected FalseRecordName String
 ToggleBlockade = {}
 
----@param fields? table
+---@param fields? ToggleBlockade
 ---@return ToggleBlockade
 function ToggleBlockade.new(fields) return end
 

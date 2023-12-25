@@ -4,7 +4,7 @@
 ---@class gameScriptsDebugOverlaySink
 gameScriptsDebugOverlaySink = {}
 
----@param fields? table
+---@param fields? gameScriptsDebugOverlaySink
 ---@return gameScriptsDebugOverlaySink
 function gameScriptsDebugOverlaySink.new(fields) return end
 

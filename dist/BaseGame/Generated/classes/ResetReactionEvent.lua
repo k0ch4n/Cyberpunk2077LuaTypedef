@@ -5,6 +5,6 @@
 ---@field public data AIReactionData
 ResetReactionEvent = {}
 
----@param fields? table
+---@param fields? ResetReactionEvent
 ---@return ResetReactionEvent
 function ResetReactionEvent.new(fields) return end

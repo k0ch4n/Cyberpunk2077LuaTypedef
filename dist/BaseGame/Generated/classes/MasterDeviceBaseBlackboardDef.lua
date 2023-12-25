@@ -6,6 +6,6 @@
 ---@field public CleanPassword gamebbScriptID_Bool
 MasterDeviceBaseBlackboardDef = {}
 
----@param fields? table
+---@param fields? MasterDeviceBaseBlackboardDef
 ---@return MasterDeviceBaseBlackboardDef
 function MasterDeviceBaseBlackboardDef.new(fields) return end

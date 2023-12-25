@@ -5,6 +5,6 @@
 ---@field public moduleName CName
 ItemTooltipModuleSpawnedCallbackData = {}
 
----@param fields? table
+---@param fields? ItemTooltipModuleSpawnedCallbackData
 ---@return ItemTooltipModuleSpawnedCallbackData
 function ItemTooltipModuleSpawnedCallbackData.new(fields) return end

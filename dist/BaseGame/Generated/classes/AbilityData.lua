@@ -14,6 +14,6 @@
 ---@field public AssignedIndex Int32
 AbilityData = {}
 
----@param fields? table
+---@param fields? AbilityData
 ---@return AbilityData
 function AbilityData.new(fields) return end

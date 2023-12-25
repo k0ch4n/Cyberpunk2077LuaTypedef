@@ -6,6 +6,6 @@
 ---@field public value Variant
 gameBlackboardPrereq = {}
 
----@param fields? table
+---@param fields? gameBlackboardPrereq
 ---@return gameBlackboardPrereq
 function gameBlackboardPrereq.new(fields) return end

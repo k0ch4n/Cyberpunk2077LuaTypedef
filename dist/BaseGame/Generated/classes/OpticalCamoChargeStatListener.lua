@@ -4,7 +4,7 @@
 ---@class OpticalCamoChargeStatListener: BaseChargesStatListener
 OpticalCamoChargeStatListener = {}
 
----@param fields? table
+---@param fields? OpticalCamoChargeStatListener
 ---@return OpticalCamoChargeStatListener
 function OpticalCamoChargeStatListener.new(fields) return end
 

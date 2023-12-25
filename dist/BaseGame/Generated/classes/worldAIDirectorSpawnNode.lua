@@ -5,6 +5,6 @@
 ---@field public tags redTagList
 worldAIDirectorSpawnNode = {}
 
----@param fields? table
+---@param fields? worldAIDirectorSpawnNode
 ---@return worldAIDirectorSpawnNode
 function worldAIDirectorSpawnNode.new(fields) return end

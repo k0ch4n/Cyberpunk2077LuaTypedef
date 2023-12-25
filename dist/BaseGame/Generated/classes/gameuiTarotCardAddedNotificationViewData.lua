@@ -7,6 +7,6 @@
 ---@field public animation CName
 gameuiTarotCardAddedNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiTarotCardAddedNotificationViewData
 ---@return gameuiTarotCardAddedNotificationViewData
 function gameuiTarotCardAddedNotificationViewData.new(fields) return end

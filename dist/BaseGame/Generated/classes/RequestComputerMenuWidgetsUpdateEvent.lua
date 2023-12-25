@@ -4,6 +4,6 @@
 ---@class RequestComputerMenuWidgetsUpdateEvent: RequestWidgetUpdateEvent
 RequestComputerMenuWidgetsUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestComputerMenuWidgetsUpdateEvent
 ---@return RequestComputerMenuWidgetsUpdateEvent
 function RequestComputerMenuWidgetsUpdateEvent.new(fields) return end

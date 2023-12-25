@@ -5,6 +5,6 @@
 ---@field public effectName CName
 animAnimEvent_Effect = {}
 
----@param fields? table
+---@param fields? animAnimEvent_Effect
 ---@return animAnimEvent_Effect
 function animAnimEvent_Effect.new(fields) return end

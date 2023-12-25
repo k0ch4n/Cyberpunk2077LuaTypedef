@@ -8,7 +8,7 @@
 ---@field private enabled Bool
 GenericButtonController = {}
 
----@param fields? table
+---@param fields? GenericButtonController
 ---@return GenericButtonController
 function GenericButtonController.new(fields) return end
 

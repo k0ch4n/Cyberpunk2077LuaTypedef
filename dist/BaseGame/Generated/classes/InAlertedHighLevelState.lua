@@ -4,7 +4,7 @@
 ---@class InAlertedHighLevelState: AINPCHighLevelStateCheck
 InAlertedHighLevelState = {}
 
----@param fields? table
+---@param fields? InAlertedHighLevelState
 ---@return InAlertedHighLevelState
 function InAlertedHighLevelState.new(fields) return end
 

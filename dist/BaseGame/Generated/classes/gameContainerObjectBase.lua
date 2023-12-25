@@ -6,7 +6,7 @@
 ---@field protected lockedByKey TweakDBID
 gameContainerObjectBase = {}
 
----@param fields? table
+---@param fields? gameContainerObjectBase
 ---@return gameContainerObjectBase
 function gameContainerObjectBase.new(fields) return end
 

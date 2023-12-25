@@ -4,6 +4,6 @@
 ---@class gamegraphCGraphResource: CResource
 gamegraphCGraphResource = {}
 
----@param fields? table
+---@param fields? gamegraphCGraphResource
 ---@return gamegraphCGraphResource
 function gamegraphCGraphResource.new(fields) return end

@@ -22,6 +22,6 @@
 ---@field public enableSelfCollision Bool
 physicsclothRuntimeInfo = {}
 
----@param fields? table
+---@param fields? physicsclothRuntimeInfo
 ---@return physicsclothRuntimeInfo
 function physicsclothRuntimeInfo.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SetExplosionInstigatorPositionAsStimSource: AIbehaviortaskScript
 SetExplosionInstigatorPositionAsStimSource = {}
 
----@param fields? table
+---@param fields? SetExplosionInstigatorPositionAsStimSource
 ---@return SetExplosionInstigatorPositionAsStimSource
 function SetExplosionInstigatorPositionAsStimSource.new(fields) return end
 

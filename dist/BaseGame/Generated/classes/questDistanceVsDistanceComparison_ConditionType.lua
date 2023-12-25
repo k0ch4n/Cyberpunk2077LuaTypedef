@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questDistanceVsDistanceComparison_ConditionType = {}
 
----@param fields? table
+---@param fields? questDistanceVsDistanceComparison_ConditionType
 ---@return questDistanceVsDistanceComparison_ConditionType
 function questDistanceVsDistanceComparison_ConditionType.new(fields) return end

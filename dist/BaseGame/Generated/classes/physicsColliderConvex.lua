@@ -8,6 +8,6 @@
 ---@field public compiledGeometryBuffer DataBuffer
 physicsColliderConvex = {}
 
----@param fields? table
+---@param fields? physicsColliderConvex
 ---@return physicsColliderConvex
 function physicsColliderConvex.new(fields) return end

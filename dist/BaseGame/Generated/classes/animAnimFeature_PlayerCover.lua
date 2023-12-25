@@ -9,6 +9,6 @@
 ---@field public autoCoverActivationFrame Bool
 animAnimFeature_PlayerCover = {}
 
----@param fields? table
+---@param fields? animAnimFeature_PlayerCover
 ---@return animAnimFeature_PlayerCover
 function animAnimFeature_PlayerCover.new(fields) return end

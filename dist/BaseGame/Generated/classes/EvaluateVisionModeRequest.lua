@@ -5,6 +5,6 @@
 ---@field public mode gameVisionModeType
 EvaluateVisionModeRequest = {}
 
----@param fields? table
+---@param fields? EvaluateVisionModeRequest
 ---@return EvaluateVisionModeRequest
 function EvaluateVisionModeRequest.new(fields) return end

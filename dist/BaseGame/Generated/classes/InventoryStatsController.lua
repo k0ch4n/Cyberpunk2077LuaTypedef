@@ -9,7 +9,7 @@
 ---@field protected staminaEntryController InventoryStatsEntryController
 InventoryStatsController = {}
 
----@param fields? table
+---@param fields? InventoryStatsController
 ---@return InventoryStatsController
 function InventoryStatsController.new(fields) return end
 

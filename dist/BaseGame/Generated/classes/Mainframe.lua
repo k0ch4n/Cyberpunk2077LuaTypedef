@@ -4,7 +4,7 @@
 ---@class Mainframe: BaseAnimatedDevice
 Mainframe = {}
 
----@param fields? table
+---@param fields? Mainframe
 ---@return Mainframe
 function Mainframe.new(fields) return end
 

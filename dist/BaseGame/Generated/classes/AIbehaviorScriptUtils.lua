@@ -4,7 +4,7 @@
 ---@class AIbehaviorScriptUtils
 AIbehaviorScriptUtils = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptUtils
 ---@return AIbehaviorScriptUtils
 function AIbehaviorScriptUtils.new(fields) return end
 

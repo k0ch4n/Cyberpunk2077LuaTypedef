@@ -7,7 +7,7 @@
 ---@field private lifePathIconRef inkImageWidgetReference
 StatsPlayTimeController = {}
 
----@param fields? table
+---@param fields? StatsPlayTimeController
 ---@return StatsPlayTimeController
 function StatsPlayTimeController.new(fields) return end
 

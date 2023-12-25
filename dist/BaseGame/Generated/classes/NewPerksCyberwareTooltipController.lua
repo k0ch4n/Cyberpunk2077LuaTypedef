@@ -28,7 +28,7 @@
 ---@field private c_swipeRightIn CName
 NewPerksCyberwareTooltipController = {}
 
----@param fields? table
+---@param fields? NewPerksCyberwareTooltipController
 ---@return NewPerksCyberwareTooltipController
 function NewPerksCyberwareTooltipController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AvStartDescentSFXBehaviour: AIbehaviortaskScript
 AvStartDescentSFXBehaviour = {}
 
----@param fields? table
+---@param fields? AvStartDescentSFXBehaviour
 ---@return AvStartDescentSFXBehaviour
 function AvStartDescentSFXBehaviour.new(fields) return end
 

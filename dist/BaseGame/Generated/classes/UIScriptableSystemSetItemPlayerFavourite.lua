@@ -6,6 +6,6 @@
 ---@field public favourite Bool
 UIScriptableSystemSetItemPlayerFavourite = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemSetItemPlayerFavourite
 ---@return UIScriptableSystemSetItemPlayerFavourite
 function UIScriptableSystemSetItemPlayerFavourite.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public physicsData physicsSystemResource
 meshMeshParamPhysics = {}
 
----@param fields? table
+---@param fields? meshMeshParamPhysics
 ---@return meshMeshParamPhysics
 function meshMeshParamPhysics.new(fields) return end

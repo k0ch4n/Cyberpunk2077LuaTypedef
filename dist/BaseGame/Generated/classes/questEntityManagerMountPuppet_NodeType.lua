@@ -12,6 +12,6 @@
 ---@field public removePitchRollRotation Bool
 questEntityManagerMountPuppet_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerMountPuppet_NodeType
 ---@return questEntityManagerMountPuppet_NodeType
 function questEntityManagerMountPuppet_NodeType.new(fields) return end

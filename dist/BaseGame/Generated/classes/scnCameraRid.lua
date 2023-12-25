@@ -6,6 +6,6 @@
 ---@field public animations scnCameraAnimationRid[]
 scnCameraRid = {}
 
----@param fields? table
+---@param fields? scnCameraRid
 ---@return scnCameraRid
 function scnCameraRid.new(fields) return end

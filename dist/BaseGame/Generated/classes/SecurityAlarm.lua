@@ -7,7 +7,7 @@
 ---@field protected isGlitching Bool
 SecurityAlarm = {}
 
----@param fields? table
+---@param fields? SecurityAlarm
 ---@return SecurityAlarm
 function SecurityAlarm.new(fields) return end
 

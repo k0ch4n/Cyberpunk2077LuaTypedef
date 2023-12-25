@@ -17,7 +17,7 @@
 ---@field private isCrafting Bool
 ItemTooltipDetailsModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipDetailsModule
 ---@return ItemTooltipDetailsModule
 function ItemTooltipDetailsModule.new(fields) return end
 

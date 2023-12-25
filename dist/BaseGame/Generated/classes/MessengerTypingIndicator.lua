@@ -7,7 +7,7 @@
 ---@field private textParams textTextParameterSet
 MessengerTypingIndicator = {}
 
----@param fields? table
+---@param fields? MessengerTypingIndicator
 ---@return MessengerTypingIndicator
 function MessengerTypingIndicator.new(fields) return end
 

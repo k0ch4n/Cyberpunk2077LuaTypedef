@@ -8,6 +8,6 @@
 ---@field public generateCrouchableAreas Bool
 worldNavigationConfigAreaNode = {}
 
----@param fields? table
+---@param fields? worldNavigationConfigAreaNode
 ---@return worldNavigationConfigAreaNode
 function worldNavigationConfigAreaNode.new(fields) return end

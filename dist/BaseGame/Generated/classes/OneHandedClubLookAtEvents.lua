@@ -4,6 +4,6 @@
 ---@class OneHandedClubLookAtEvents: LookAtPresetMeleeBaseEvents
 OneHandedClubLookAtEvents = {}
 
----@param fields? table
+---@param fields? OneHandedClubLookAtEvents
 ---@return OneHandedClubLookAtEvents
 function OneHandedClubLookAtEvents.new(fields) return end

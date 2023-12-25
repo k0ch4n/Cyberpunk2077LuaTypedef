@@ -13,7 +13,7 @@
 ---@field private localizedIconicText String
 NewItemTooltipHeaderController = {}
 
----@param fields? table
+---@param fields? NewItemTooltipHeaderController
 ---@return NewItemTooltipHeaderController
 function NewItemTooltipHeaderController.new(fields) return end
 

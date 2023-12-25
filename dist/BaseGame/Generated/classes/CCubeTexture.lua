@@ -8,6 +8,6 @@
 ---@field public renderTextureResource rendRenderTextureResource
 CCubeTexture = {}
 
----@param fields? table
+---@param fields? CCubeTexture
 ---@return CCubeTexture
 function CCubeTexture.new(fields) return end

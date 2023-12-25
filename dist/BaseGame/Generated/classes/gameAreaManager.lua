@@ -4,6 +4,6 @@
 ---@class gameAreaManager: gameIAreaManager
 gameAreaManager = {}
 
----@param fields? table
+---@param fields? gameAreaManager
 ---@return gameAreaManager
 function gameAreaManager.new(fields) return end

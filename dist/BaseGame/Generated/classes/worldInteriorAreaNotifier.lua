@@ -7,6 +7,6 @@
 ---@field public setTier2 Bool
 worldInteriorAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldInteriorAreaNotifier
 ---@return worldInteriorAreaNotifier
 function worldInteriorAreaNotifier.new(fields) return end

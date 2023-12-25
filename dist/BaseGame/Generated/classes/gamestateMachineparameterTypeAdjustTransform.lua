@@ -6,7 +6,7 @@
 ---@field public rotation Quaternion
 gamestateMachineparameterTypeAdjustTransform = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeAdjustTransform
 ---@return gamestateMachineparameterTypeAdjustTransform
 function gamestateMachineparameterTypeAdjustTransform.new(fields) return end
 

@@ -51,7 +51,7 @@
 ---@field public callingEnabled Bool
 PhoneDialerLogicController = {}
 
----@param fields? table
+---@param fields? PhoneDialerLogicController
 ---@return PhoneDialerLogicController
 function PhoneDialerLogicController.new(fields) return end
 

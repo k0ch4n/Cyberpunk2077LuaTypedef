@@ -9,6 +9,6 @@
 ---@field public rotationLerpSpeed Float
 questFollowObject_NodeType = {}
 
----@param fields? table
+---@param fields? questFollowObject_NodeType
 ---@return questFollowObject_NodeType
 function questFollowObject_NodeType.new(fields) return end

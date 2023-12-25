@@ -6,6 +6,6 @@
 ---@field public end GameTime
 questTimePeriod_ConditionType = {}
 
----@param fields? table
+---@param fields? questTimePeriod_ConditionType
 ---@return questTimePeriod_ConditionType
 function questTimePeriod_ConditionType.new(fields) return end

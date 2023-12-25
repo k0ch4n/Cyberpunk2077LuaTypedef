@@ -4,6 +4,6 @@
 ---@class RefreshPlayerItemSlotsEvent: redEvent
 RefreshPlayerItemSlotsEvent = {}
 
----@param fields? table
+---@param fields? RefreshPlayerItemSlotsEvent
 ---@return RefreshPlayerItemSlotsEvent
 function RefreshPlayerItemSlotsEvent.new(fields) return end

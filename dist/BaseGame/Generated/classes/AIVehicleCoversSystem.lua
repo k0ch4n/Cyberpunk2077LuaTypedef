@@ -4,6 +4,6 @@
 ---@class AIVehicleCoversSystem: AIIVehicleCoversSystem
 AIVehicleCoversSystem = {}
 
----@param fields? table
+---@param fields? AIVehicleCoversSystem
 ---@return AIVehicleCoversSystem
 function AIVehicleCoversSystem.new(fields) return end

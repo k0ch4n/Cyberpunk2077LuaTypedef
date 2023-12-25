@@ -11,6 +11,6 @@
 ---@field public delay Float
 gameJournalEntryStateChangeDelayData = {}
 
----@param fields? table
+---@param fields? gameJournalEntryStateChangeDelayData
 ---@return gameJournalEntryStateChangeDelayData
 function gameJournalEntryStateChangeDelayData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class StartOverheatEffectEvent: redEvent
 StartOverheatEffectEvent = {}
 
----@param fields? table
+---@param fields? StartOverheatEffectEvent
 ---@return StartOverheatEffectEvent
 function StartOverheatEffectEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameuiGamepadLightController: gameuiIGamepadLightController
 gameuiGamepadLightController = {}
 
----@param fields? table
+---@param fields? gameuiGamepadLightController
 ---@return gameuiGamepadLightController
 function gameuiGamepadLightController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public isBuff Bool
 UIBuffInfo = {}
 
----@param fields? table
+---@param fields? UIBuffInfo
 ---@return UIBuffInfo
 function UIBuffInfo.new(fields) return end

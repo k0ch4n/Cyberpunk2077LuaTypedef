@@ -35,7 +35,7 @@
 ---@field public ObjectType gamebbScriptID_Int32
 UI_ScannerModulesDef = {}
 
----@param fields? table
+---@param fields? UI_ScannerModulesDef
 ---@return UI_ScannerModulesDef
 function UI_ScannerModulesDef.new(fields) return end
 

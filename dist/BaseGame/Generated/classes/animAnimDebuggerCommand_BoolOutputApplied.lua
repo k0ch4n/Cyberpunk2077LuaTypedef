@@ -4,6 +4,6 @@
 ---@class animAnimDebuggerCommand_BoolOutputApplied: animIAnimDebuggerCommand
 animAnimDebuggerCommand_BoolOutputApplied = {}
 
----@param fields? table
+---@param fields? animAnimDebuggerCommand_BoolOutputApplied
 ---@return animAnimDebuggerCommand_BoolOutputApplied
 function animAnimDebuggerCommand_BoolOutputApplied.new(fields) return end

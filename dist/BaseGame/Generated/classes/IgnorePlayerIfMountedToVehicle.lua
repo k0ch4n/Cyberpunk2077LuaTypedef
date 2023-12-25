@@ -4,7 +4,7 @@
 ---@class IgnorePlayerIfMountedToVehicle: gameEffectObjectSingleFilter_Scripted
 IgnorePlayerIfMountedToVehicle = {}
 
----@param fields? table
+---@param fields? IgnorePlayerIfMountedToVehicle
 ---@return IgnorePlayerIfMountedToVehicle
 function IgnorePlayerIfMountedToVehicle.new(fields) return end
 

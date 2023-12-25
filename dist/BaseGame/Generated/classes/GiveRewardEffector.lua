@@ -6,7 +6,7 @@
 ---@field public target entEntityID
 GiveRewardEffector = {}
 
----@param fields? table
+---@param fields? GiveRewardEffector
 ---@return GiveRewardEffector
 function GiveRewardEffector.new(fields) return end
 

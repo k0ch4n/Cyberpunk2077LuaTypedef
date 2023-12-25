@@ -5,6 +5,6 @@
 ---@field public boundingBoxes Box[]
 ParticleDamage = {}
 
----@param fields? table
+---@param fields? ParticleDamage
 ---@return ParticleDamage
 function ParticleDamage.new(fields) return end

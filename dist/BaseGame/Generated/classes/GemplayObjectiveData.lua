@@ -12,7 +12,7 @@
 ---@field private objectiveState gameJournalEntryState
 GemplayObjectiveData = {}
 
----@param fields? table
+---@param fields? GemplayObjectiveData
 ---@return GemplayObjectiveData
 function GemplayObjectiveData.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public fullyRewindable Bool
 scneventsVFXBraindanceEvent = {}
 
----@param fields? table
+---@param fields? scneventsVFXBraindanceEvent
 ---@return scneventsVFXBraindanceEvent
 function scneventsVFXBraindanceEvent.new(fields) return end

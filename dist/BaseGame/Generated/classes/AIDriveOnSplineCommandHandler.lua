@@ -24,7 +24,7 @@
 ---@field protected outAudioCurvesParam AIArgumentMapping
 AIDriveOnSplineCommandHandler = {}
 
----@param fields? table
+---@param fields? AIDriveOnSplineCommandHandler
 ---@return AIDriveOnSplineCommandHandler
 function AIDriveOnSplineCommandHandler.new(fields) return end
 

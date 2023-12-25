@@ -17,6 +17,6 @@
 ---@field public Version Uint32
 minimapEncodedShapes = {}
 
----@param fields? table
+---@param fields? minimapEncodedShapes
 ---@return minimapEncodedShapes
 function minimapEncodedShapes.new(fields) return end

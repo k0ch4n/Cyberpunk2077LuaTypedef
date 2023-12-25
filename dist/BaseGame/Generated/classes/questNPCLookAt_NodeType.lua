@@ -8,6 +8,6 @@
 ---@field public refPlayer Bool
 questNPCLookAt_NodeType = {}
 
----@param fields? table
+---@param fields? questNPCLookAt_NodeType
 ---@return questNPCLookAt_NodeType
 function questNPCLookAt_NodeType.new(fields) return end

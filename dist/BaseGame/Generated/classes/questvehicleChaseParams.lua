@@ -12,6 +12,6 @@
 ---@field public boostDrivingStats Bool
 questvehicleChaseParams = {}
 
----@param fields? table
+---@param fields? questvehicleChaseParams
 ---@return questvehicleChaseParams
 function questvehicleChaseParams.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public marginToScalecorrectOverride inkMargin
 gameuiHudScalingSensitiveWidget = {}
 
----@param fields? table
+---@param fields? gameuiHudScalingSensitiveWidget
 ---@return gameuiHudScalingSensitiveWidget
 function gameuiHudScalingSensitiveWidget.new(fields) return end

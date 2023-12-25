@@ -4,6 +4,6 @@
 ---@class UpdateGatePosition: redEvent
 UpdateGatePosition = {}
 
----@param fields? table
+---@param fields? UpdateGatePosition
 ---@return UpdateGatePosition
 function UpdateGatePosition.new(fields) return end

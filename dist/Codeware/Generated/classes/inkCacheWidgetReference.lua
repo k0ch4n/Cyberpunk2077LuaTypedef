@@ -4,7 +4,7 @@
 ---@class inkCacheWidgetReference: inkCompoundWidgetReference
 inkCacheWidgetReference = {}
 
----@param fields? table
+---@param fields? inkCacheWidgetReference
 ---@return inkCacheWidgetReference
 function inkCacheWidgetReference.new(fields) return end
 

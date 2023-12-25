@@ -5,7 +5,7 @@
 ---@field public timeStamp Float
 ReadyEvents = {}
 
----@param fields? table
+---@param fields? ReadyEvents
 ---@return ReadyEvents
 function ReadyEvents.new(fields) return end
 

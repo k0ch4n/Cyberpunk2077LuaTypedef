@@ -5,6 +5,6 @@
 ---@field public durationLink animFloatLink
 animAnimNode_SkPhaseWithDurationAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkPhaseWithDurationAnim
 ---@return animAnimNode_SkPhaseWithDurationAnim
 function animAnimNode_SkPhaseWithDurationAnim.new(fields) return end

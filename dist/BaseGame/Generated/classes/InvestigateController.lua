@@ -5,7 +5,7 @@
 ---@field protected investigateData senseStimInvestigateData
 InvestigateController = {}
 
----@param fields? table
+---@param fields? InvestigateController
 ---@return InvestigateController
 function InvestigateController.new(fields) return end
 

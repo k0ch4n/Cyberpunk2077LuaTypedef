@@ -7,6 +7,6 @@
 ---@field public isPassingThrough Bool
 AIApproachingAreaResponseEvent = {}
 
----@param fields? table
+---@param fields? AIApproachingAreaResponseEvent
 ---@return AIApproachingAreaResponseEvent
 function AIApproachingAreaResponseEvent.new(fields) return end

@@ -44,7 +44,7 @@
 ---@field private playerPuppet gameObject
 gameuiScannerGameController = {}
 
----@param fields? table
+---@param fields? gameuiScannerGameController
 ---@return gameuiScannerGameController
 function gameuiScannerGameController.new(fields) return end
 

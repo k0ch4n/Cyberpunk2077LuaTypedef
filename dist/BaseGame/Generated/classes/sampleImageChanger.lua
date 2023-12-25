@@ -8,7 +8,7 @@
 ---@field private imageWidget inkImageWidget
 sampleImageChanger = {}
 
----@param fields? table
+---@param fields? sampleImageChanger
 ---@return sampleImageChanger
 function sampleImageChanger.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public wires inkWidgetReference[]
 NewPerksWireConnection = {}
 
----@param fields? table
+---@param fields? NewPerksWireConnection
 ---@return NewPerksWireConnection
 function NewPerksWireConnection.new(fields) return end

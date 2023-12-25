@@ -4,7 +4,7 @@
 ---@class Ground: DefaultTransition
 Ground = {}
 
----@param fields? table
+---@param fields? Ground
 ---@return Ground
 function Ground.new(fields) return end
 

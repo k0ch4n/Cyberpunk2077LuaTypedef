@@ -6,6 +6,6 @@
 ---@field public emptyReloadSpeed Float
 AnimFeature_WeaponReloadSpeedData = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponReloadSpeedData
 ---@return AnimFeature_WeaponReloadSpeedData
 function AnimFeature_WeaponReloadSpeedData.new(fields) return end

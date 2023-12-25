@@ -6,6 +6,6 @@
 ---@field public stimData StimEventData
 StimParams = {}
 
----@param fields? table
+---@param fields? StimParams
 ---@return StimParams
 function StimParams.new(fields) return end

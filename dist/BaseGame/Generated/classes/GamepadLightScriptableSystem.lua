@@ -14,7 +14,7 @@
 ---@field private currrentId gameDelayID
 GamepadLightScriptableSystem = {}
 
----@param fields? table
+---@param fields? GamepadLightScriptableSystem
 ---@return GamepadLightScriptableSystem
 function GamepadLightScriptableSystem.new(fields) return end
 

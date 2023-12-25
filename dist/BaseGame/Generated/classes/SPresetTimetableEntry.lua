@@ -8,6 +8,6 @@
 ---@field public entryID Uint32
 SPresetTimetableEntry = {}
 
----@param fields? table
+---@param fields? SPresetTimetableEntry
 ---@return SPresetTimetableEntry
 function SPresetTimetableEntry.new(fields) return end

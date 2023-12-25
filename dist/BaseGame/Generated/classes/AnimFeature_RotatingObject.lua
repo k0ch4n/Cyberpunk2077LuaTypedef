@@ -8,6 +8,6 @@
 ---@field public timeToMaxRotation Float
 AnimFeature_RotatingObject = {}
 
----@param fields? table
+---@param fields? AnimFeature_RotatingObject
 ---@return AnimFeature_RotatingObject
 function AnimFeature_RotatingObject.new(fields) return end

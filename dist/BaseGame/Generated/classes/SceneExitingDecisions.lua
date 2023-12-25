@@ -4,7 +4,7 @@
 ---@class SceneExitingDecisions: VehicleTransition
 SceneExitingDecisions = {}
 
----@param fields? table
+---@param fields? SceneExitingDecisions
 ---@return SceneExitingDecisions
 function SceneExitingDecisions.new(fields) return end
 

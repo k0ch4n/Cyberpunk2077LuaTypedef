@@ -8,6 +8,6 @@
 ---@field public equipped Bool
 SPaperdollEquipData = {}
 
----@param fields? table
+---@param fields? SPaperdollEquipData
 ---@return SPaperdollEquipData
 function SPaperdollEquipData.new(fields) return end

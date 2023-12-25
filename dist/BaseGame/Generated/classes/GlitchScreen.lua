@@ -4,7 +4,7 @@
 ---@class GlitchScreen: ActionBool
 GlitchScreen = {}
 
----@param fields? table
+---@param fields? GlitchScreen
 ---@return GlitchScreen
 function GlitchScreen.new(fields) return end
 

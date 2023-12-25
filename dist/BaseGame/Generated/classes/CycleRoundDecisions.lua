@@ -4,7 +4,7 @@
 ---@class CycleRoundDecisions: WeaponTransition
 CycleRoundDecisions = {}
 
----@param fields? table
+---@param fields? CycleRoundDecisions
 ---@return CycleRoundDecisions
 function CycleRoundDecisions.new(fields) return end
 

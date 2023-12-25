@@ -5,6 +5,6 @@
 ---@field public queryParams gameGrenadeThrowQueryParams
 StartGrenadeThrowQueryEvent = {}
 
----@param fields? table
+---@param fields? StartGrenadeThrowQueryEvent
 ---@return StartGrenadeThrowQueryEvent
 function StartGrenadeThrowQueryEvent.new(fields) return end

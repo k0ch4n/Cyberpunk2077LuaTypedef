@@ -7,6 +7,6 @@
 ---@field public attributeData AttributeData
 PerksMenuAttributeItemHoverOver = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemHoverOver
 ---@return PerksMenuAttributeItemHoverOver
 function PerksMenuAttributeItemHoverOver.new(fields) return end

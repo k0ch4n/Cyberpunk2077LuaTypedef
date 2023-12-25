@@ -8,6 +8,6 @@
 ---@field public defaultLibraryItemAnchor inkEAnchor
 SceneScreenUIAnimationsData = {}
 
----@param fields? table
+---@param fields? SceneScreenUIAnimationsData
 ---@return SceneScreenUIAnimationsData
 function SceneScreenUIAnimationsData.new(fields) return end

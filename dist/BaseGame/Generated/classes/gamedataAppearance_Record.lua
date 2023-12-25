@@ -4,7 +4,7 @@
 ---@class gamedataAppearance_Record: gamedataTweakDBRecord
 gamedataAppearance_Record = {}
 
----@param fields? table
+---@param fields? gamedataAppearance_Record
 ---@return gamedataAppearance_Record
 function gamedataAppearance_Record.new(fields) return end
 

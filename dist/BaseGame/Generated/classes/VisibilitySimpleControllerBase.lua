@@ -7,7 +7,7 @@
 ---@field private widget inkWidget
 VisibilitySimpleControllerBase = {}
 
----@param fields? table
+---@param fields? VisibilitySimpleControllerBase
 ---@return VisibilitySimpleControllerBase
 function VisibilitySimpleControllerBase.new(fields) return end
 

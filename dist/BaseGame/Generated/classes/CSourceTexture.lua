@@ -9,6 +9,6 @@
 ---@field public format ETextureRawFormat
 CSourceTexture = {}
 
----@param fields? table
+---@param fields? CSourceTexture
 ---@return CSourceTexture
 function CSourceTexture.new(fields) return end

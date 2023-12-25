@@ -8,7 +8,7 @@
 ---@field public notificationQueues CName[]
 Codeware_UI_CustomPopupManager = {}
 
----@param fields? table
+---@param fields? Codeware_UI_CustomPopupManager
 ---@return Codeware_UI_CustomPopupManager
 function Codeware_UI_CustomPopupManager.new(fields) return end
 

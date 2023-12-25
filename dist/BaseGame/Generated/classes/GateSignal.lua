@@ -7,6 +7,6 @@
 ---@field public lifeTime Float
 GateSignal = {}
 
----@param fields? table
+---@param fields? GateSignal
 ---@return GateSignal
 function GateSignal.new(fields) return end

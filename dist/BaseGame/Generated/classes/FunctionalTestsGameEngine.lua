@@ -4,6 +4,6 @@
 ---@class FunctionalTestsGameEngine: CGameEngine
 FunctionalTestsGameEngine = {}
 
----@param fields? table
+---@param fields? FunctionalTestsGameEngine
 ---@return FunctionalTestsGameEngine
 function FunctionalTestsGameEngine.new(fields) return end

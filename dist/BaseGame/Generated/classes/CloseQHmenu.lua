@@ -4,6 +4,6 @@
 ---@class CloseQHmenu: redEvent
 CloseQHmenu = {}
 
----@param fields? table
+---@param fields? CloseQHmenu
 ---@return CloseQHmenu
 function CloseQHmenu.new(fields) return end

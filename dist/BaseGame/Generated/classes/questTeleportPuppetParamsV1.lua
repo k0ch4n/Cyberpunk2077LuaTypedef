@@ -9,6 +9,6 @@
 ---@field public healAtTeleport Bool
 questTeleportPuppetParamsV1 = {}
 
----@param fields? table
+---@param fields? questTeleportPuppetParamsV1
 ---@return questTeleportPuppetParamsV1
 function questTeleportPuppetParamsV1.new(fields) return end

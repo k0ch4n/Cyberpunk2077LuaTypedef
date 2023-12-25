@@ -5,7 +5,7 @@
 ---@field public owner WardrobeSetEditorUIController
 WardrobeSetEditorUIDelayCallback = {}
 
----@param fields? table
+---@param fields? WardrobeSetEditorUIDelayCallback
 ---@return WardrobeSetEditorUIDelayCallback
 function WardrobeSetEditorUIDelayCallback.new(fields) return end
 

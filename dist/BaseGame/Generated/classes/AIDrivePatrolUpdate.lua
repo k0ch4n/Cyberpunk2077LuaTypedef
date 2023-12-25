@@ -6,7 +6,7 @@
 ---@field public emergencyPatrol Bool
 AIDrivePatrolUpdate = {}
 
----@param fields? table
+---@param fields? AIDrivePatrolUpdate
 ---@return AIDrivePatrolUpdate
 function AIDrivePatrolUpdate.new(fields) return end
 

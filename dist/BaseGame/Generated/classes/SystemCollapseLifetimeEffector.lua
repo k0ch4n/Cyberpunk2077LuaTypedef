@@ -4,7 +4,7 @@
 ---@class SystemCollapseLifetimeEffector: gameEffector
 SystemCollapseLifetimeEffector = {}
 
----@param fields? table
+---@param fields? SystemCollapseLifetimeEffector
 ---@return SystemCollapseLifetimeEffector
 function SystemCollapseLifetimeEffector.new(fields) return end
 

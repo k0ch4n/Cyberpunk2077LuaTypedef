@@ -4,7 +4,7 @@
 ---@class QuestCustomAction: ActionName
 QuestCustomAction = {}
 
----@param fields? table
+---@param fields? QuestCustomAction
 ---@return QuestCustomAction
 function QuestCustomAction.new(fields) return end
 

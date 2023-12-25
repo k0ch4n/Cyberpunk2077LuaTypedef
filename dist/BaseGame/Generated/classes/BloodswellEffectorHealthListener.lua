@@ -5,7 +5,7 @@
 ---@field public effector BloodswellEffector
 BloodswellEffectorHealthListener = {}
 
----@param fields? table
+---@param fields? BloodswellEffectorHealthListener
 ---@return BloodswellEffectorHealthListener
 function BloodswellEffectorHealthListener.new(fields) return end
 

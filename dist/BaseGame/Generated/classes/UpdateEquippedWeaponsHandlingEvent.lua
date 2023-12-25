@@ -5,6 +5,6 @@
 ---@field public currentStaminaValue Float
 UpdateEquippedWeaponsHandlingEvent = {}
 
----@param fields? table
+---@param fields? UpdateEquippedWeaponsHandlingEvent
 ---@return UpdateEquippedWeaponsHandlingEvent
 function UpdateEquippedWeaponsHandlingEvent.new(fields) return end

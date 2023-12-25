@@ -4,7 +4,7 @@
 ---@class ConsumableStartupEvents: ConsumableTransitions
 ConsumableStartupEvents = {}
 
----@param fields? table
+---@param fields? ConsumableStartupEvents
 ---@return ConsumableStartupEvents
 function ConsumableStartupEvents.new(fields) return end
 

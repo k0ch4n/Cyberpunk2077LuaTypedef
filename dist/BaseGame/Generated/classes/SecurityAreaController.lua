@@ -4,7 +4,7 @@
 ---@class SecurityAreaController: MasterController
 SecurityAreaController = {}
 
----@param fields? table
+---@param fields? SecurityAreaController
 ---@return SecurityAreaController
 function SecurityAreaController.new(fields) return end
 

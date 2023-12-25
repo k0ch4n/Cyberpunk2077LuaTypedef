@@ -4,6 +4,6 @@
 ---@class AIJoinCrowdCommand: AIMoveCommand
 AIJoinCrowdCommand = {}
 
----@param fields? table
+---@param fields? AIJoinCrowdCommand
 ---@return AIJoinCrowdCommand
 function AIJoinCrowdCommand.new(fields) return end

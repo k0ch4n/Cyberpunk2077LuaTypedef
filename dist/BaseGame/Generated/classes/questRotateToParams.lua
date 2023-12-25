@@ -7,6 +7,6 @@
 ---@field public speed Float
 questRotateToParams = {}
 
----@param fields? table
+---@param fields? questRotateToParams
 ---@return questRotateToParams
 function questRotateToParams.new(fields) return end

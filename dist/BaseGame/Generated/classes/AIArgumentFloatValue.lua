@@ -6,6 +6,6 @@
 ---@field public defaultValue Float
 AIArgumentFloatValue = {}
 
----@param fields? table
+---@param fields? AIArgumentFloatValue
 ---@return AIArgumentFloatValue
 function AIArgumentFloatValue.new(fields) return end

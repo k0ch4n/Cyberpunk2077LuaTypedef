@@ -7,6 +7,6 @@
 ---@field public chromaticAberrationExp effectEffectParameterEvaluatorFloat
 effectTrackItemChromaticAberration = {}
 
----@param fields? table
+---@param fields? effectTrackItemChromaticAberration
 ---@return effectTrackItemChromaticAberration
 function effectTrackItemChromaticAberration.new(fields) return end

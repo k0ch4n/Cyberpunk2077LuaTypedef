@@ -4,7 +4,7 @@
 ---@class IntercomController: ScriptableDeviceComponent
 IntercomController = {}
 
----@param fields? table
+---@param fields? IntercomController
 ---@return IntercomController
 function IntercomController.new(fields) return end
 

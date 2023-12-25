@@ -7,7 +7,7 @@
 ---@field private tokenAlreadyGiven Bool
 questMultiplayerGiveChoiceTokenEvent = {}
 
----@param fields? table
+---@param fields? questMultiplayerGiveChoiceTokenEvent
 ---@return questMultiplayerGiveChoiceTokenEvent
 function questMultiplayerGiveChoiceTokenEvent.new(fields) return end
 

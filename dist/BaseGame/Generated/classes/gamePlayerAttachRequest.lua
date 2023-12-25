@@ -4,6 +4,6 @@
 ---@class gamePlayerAttachRequest: gamePlayerScriptableSystemRequest
 gamePlayerAttachRequest = {}
 
----@param fields? table
+---@param fields? gamePlayerAttachRequest
 ---@return gamePlayerAttachRequest
 function gamePlayerAttachRequest.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public codexRecordID TweakDBID
 CodexAddRecordRequest = {}
 
----@param fields? table
+---@param fields? CodexAddRecordRequest
 ---@return CodexAddRecordRequest
 function CodexAddRecordRequest.new(fields) return end

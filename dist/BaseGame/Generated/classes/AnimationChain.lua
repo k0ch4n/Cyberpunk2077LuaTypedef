@@ -6,7 +6,7 @@
 ---@field public name CName
 AnimationChain = {}
 
----@param fields? table
+---@param fields? AnimationChain
 ---@return AnimationChain
 function AnimationChain.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameCompanionSystem: gameICompanionSystem
 gameCompanionSystem = {}
 
----@param fields? table
+---@param fields? gameCompanionSystem
 ---@return gameCompanionSystem
 function gameCompanionSystem.new(fields) return end
 

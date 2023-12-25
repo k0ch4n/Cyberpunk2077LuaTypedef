@@ -5,6 +5,6 @@
 ---@field public show Bool
 gameeventsToggleMinimapVisibilityEvent = {}
 
----@param fields? table
+---@param fields? gameeventsToggleMinimapVisibilityEvent
 ---@return gameeventsToggleMinimapVisibilityEvent
 function gameeventsToggleMinimapVisibilityEvent.new(fields) return end

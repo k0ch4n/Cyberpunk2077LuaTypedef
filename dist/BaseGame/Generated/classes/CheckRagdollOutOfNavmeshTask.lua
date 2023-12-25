@@ -7,7 +7,7 @@
 ---@field public outPositionArgument AIArgumentMapping
 CheckRagdollOutOfNavmeshTask = {}
 
----@param fields? table
+---@param fields? CheckRagdollOutOfNavmeshTask
 ---@return CheckRagdollOutOfNavmeshTask
 function CheckRagdollOutOfNavmeshTask.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public invokeCallback Bool
 entReplicatedAnimFeature = {}
 
----@param fields? table
+---@param fields? entReplicatedAnimFeature
 ---@return entReplicatedAnimFeature
 function entReplicatedAnimFeature.new(fields) return end

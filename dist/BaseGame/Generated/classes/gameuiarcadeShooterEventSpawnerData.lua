@@ -9,6 +9,6 @@
 ---@field public delayDuration Float
 gameuiarcadeShooterEventSpawnerData = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterEventSpawnerData
 ---@return gameuiarcadeShooterEventSpawnerData
 function gameuiarcadeShooterEventSpawnerData.new(fields) return end

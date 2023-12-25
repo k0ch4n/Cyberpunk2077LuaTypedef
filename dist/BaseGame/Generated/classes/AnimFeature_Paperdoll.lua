@@ -27,6 +27,6 @@
 ---@field public inventoryScreen_OuterChest Bool
 AnimFeature_Paperdoll = {}
 
----@param fields? table
+---@param fields? AnimFeature_Paperdoll
 ---@return AnimFeature_Paperdoll
 function AnimFeature_Paperdoll.new(fields) return end

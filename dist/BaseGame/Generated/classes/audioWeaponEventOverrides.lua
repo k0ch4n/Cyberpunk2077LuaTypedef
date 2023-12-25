@@ -6,6 +6,6 @@
 ---@field public entryType audioWeaponEventOverride
 audioWeaponEventOverrides = {}
 
----@param fields? table
+---@param fields? audioWeaponEventOverrides
 ---@return audioWeaponEventOverrides
 function audioWeaponEventOverrides.new(fields) return end

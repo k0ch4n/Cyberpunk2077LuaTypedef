@@ -30,7 +30,7 @@
 ---@field private breakingTypingAnimProxy inkanimProxy
 MessengerDialogViewController = {}
 
----@param fields? table
+---@param fields? MessengerDialogViewController
 ---@return MessengerDialogViewController
 function MessengerDialogViewController.new(fields) return end
 

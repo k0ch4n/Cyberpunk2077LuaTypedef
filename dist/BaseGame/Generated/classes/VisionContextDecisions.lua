@@ -9,7 +9,7 @@
 ---@field private visionHoldPressed Bool
 VisionContextDecisions = {}
 
----@param fields? table
+---@param fields? VisionContextDecisions
 ---@return VisionContextDecisions
 function VisionContextDecisions.new(fields) return end
 

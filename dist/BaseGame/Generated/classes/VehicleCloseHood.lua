@@ -4,7 +4,7 @@
 ---@class VehicleCloseHood: ActionBool
 VehicleCloseHood = {}
 
----@param fields? table
+---@param fields? VehicleCloseHood
 ---@return VehicleCloseHood
 function VehicleCloseHood.new(fields) return end
 

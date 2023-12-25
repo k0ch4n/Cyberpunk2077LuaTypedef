@@ -9,6 +9,6 @@
 ---@field public usingQuickHack Bool
 PlayerCombatControllerActiveFlags = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerActiveFlags
 ---@return PlayerCombatControllerActiveFlags
 function PlayerCombatControllerActiveFlags.new(fields) return end

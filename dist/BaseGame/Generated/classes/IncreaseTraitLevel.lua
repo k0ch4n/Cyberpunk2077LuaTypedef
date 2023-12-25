@@ -5,7 +5,7 @@
 ---@field public trait gamedataTraitType
 IncreaseTraitLevel = {}
 
----@param fields? table
+---@param fields? IncreaseTraitLevel
 ---@return IncreaseTraitLevel
 function IncreaseTraitLevel.new(fields) return end
 

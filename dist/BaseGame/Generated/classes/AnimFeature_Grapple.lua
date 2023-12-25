@@ -5,6 +5,6 @@
 ---@field public inGrapple Bool
 AnimFeature_Grapple = {}
 
----@param fields? table
+---@param fields? AnimFeature_Grapple
 ---@return AnimFeature_Grapple
 function AnimFeature_Grapple.new(fields) return end

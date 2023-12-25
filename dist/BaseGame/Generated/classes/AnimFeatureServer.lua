@@ -6,6 +6,6 @@
 ---@field public serverState Int32
 AnimFeatureServer = {}
 
----@param fields? table
+---@param fields? AnimFeatureServer
 ---@return AnimFeatureServer
 function AnimFeatureServer.new(fields) return end

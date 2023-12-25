@@ -5,7 +5,7 @@
 ---@field public phaseStateValue ENPCPhaseState
 AIPhaseStateEventHandlerComponent = {}
 
----@param fields? table
+---@param fields? AIPhaseStateEventHandlerComponent
 ---@return AIPhaseStateEventHandlerComponent
 function AIPhaseStateEventHandlerComponent.new(fields) return end
 

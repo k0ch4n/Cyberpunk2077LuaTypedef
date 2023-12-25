@@ -10,7 +10,7 @@
 ---@field protected numPatrolLoops AIArgumentMapping
 InVehicleDrivePatrolDecorator = {}
 
----@param fields? table
+---@param fields? InVehicleDrivePatrolDecorator
 ---@return InVehicleDrivePatrolDecorator
 function InVehicleDrivePatrolDecorator.new(fields) return end
 

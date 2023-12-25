@@ -13,6 +13,6 @@
 ---@field public hasCWPerk Bool
 AnimFeature_LeftHandCyberware = {}
 
----@param fields? table
+---@param fields? AnimFeature_LeftHandCyberware
 ---@return AnimFeature_LeftHandCyberware
 function AnimFeature_LeftHandCyberware.new(fields) return end

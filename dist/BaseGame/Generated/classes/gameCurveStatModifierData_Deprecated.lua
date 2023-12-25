@@ -7,6 +7,6 @@
 ---@field public curveStat gamedataStatType
 gameCurveStatModifierData_Deprecated = {}
 
----@param fields? table
+---@param fields? gameCurveStatModifierData_Deprecated
 ---@return gameCurveStatModifierData_Deprecated
 function gameCurveStatModifierData_Deprecated.new(fields) return end

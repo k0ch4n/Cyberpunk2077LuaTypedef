@@ -12,7 +12,7 @@
 ---@field private statusEffectRecord gamedataStatusEffect_Record
 buffListItemLogicController = {}
 
----@param fields? table
+---@param fields? buffListItemLogicController
 ---@return buffListItemLogicController
 function buffListItemLogicController.new(fields) return end
 

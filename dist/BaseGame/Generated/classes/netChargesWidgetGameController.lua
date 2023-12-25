@@ -17,7 +17,7 @@
 ---@field private chargeList inkHorizontalPanelWidget
 netChargesWidgetGameController = {}
 
----@param fields? table
+---@param fields? netChargesWidgetGameController
 ---@return netChargesWidgetGameController
 function netChargesWidgetGameController.new(fields) return end
 

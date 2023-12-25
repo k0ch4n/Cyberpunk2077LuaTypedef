@@ -5,6 +5,6 @@
 ---@field public isLocked Bool
 LockReleaseOnHit = {}
 
----@param fields? table
+---@param fields? LockReleaseOnHit
 ---@return LockReleaseOnHit
 function LockReleaseOnHit.new(fields) return end

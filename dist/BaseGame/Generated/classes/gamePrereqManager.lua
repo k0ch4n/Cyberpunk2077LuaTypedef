@@ -4,7 +4,7 @@
 ---@class gamePrereqManager: gameIPrereqManager
 gamePrereqManager = {}
 
----@param fields? table
+---@param fields? gamePrereqManager
 ---@return gamePrereqManager
 function gamePrereqManager.new(fields) return end
 

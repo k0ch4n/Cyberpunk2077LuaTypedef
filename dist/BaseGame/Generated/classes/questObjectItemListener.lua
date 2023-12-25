@@ -4,6 +4,6 @@
 ---@class questObjectItemListener: gameIInventoryListener
 questObjectItemListener = {}
 
----@param fields? table
+---@param fields? questObjectItemListener
 ---@return questObjectItemListener
 function questObjectItemListener.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public void Bool
 audioFoleyAppearanceName = {}
 
----@param fields? table
+---@param fields? audioFoleyAppearanceName
 ---@return audioFoleyAppearanceName
 function audioFoleyAppearanceName.new(fields) return end

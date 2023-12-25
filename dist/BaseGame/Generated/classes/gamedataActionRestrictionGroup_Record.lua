@@ -4,7 +4,7 @@
 ---@class gamedataActionRestrictionGroup_Record: gamedataTweakDBRecord
 gamedataActionRestrictionGroup_Record = {}
 
----@param fields? table
+---@param fields? gamedataActionRestrictionGroup_Record
 ---@return gamedataActionRestrictionGroup_Record
 function gamedataActionRestrictionGroup_Record.new(fields) return end
 

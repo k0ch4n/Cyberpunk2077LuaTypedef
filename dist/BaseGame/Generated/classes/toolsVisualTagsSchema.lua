@@ -7,6 +7,6 @@
 ---@field public presets toolsVisualTagsGroup[]
 toolsVisualTagsSchema = {}
 
----@param fields? table
+---@param fields? toolsVisualTagsSchema
 ---@return toolsVisualTagsSchema
 function toolsVisualTagsSchema.new(fields) return end

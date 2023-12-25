@@ -4,7 +4,7 @@
 ---@class KurtMeleeTakedownCooldownActive: AIbehaviorconditionScript
 KurtMeleeTakedownCooldownActive = {}
 
----@param fields? table
+---@param fields? KurtMeleeTakedownCooldownActive
 ---@return KurtMeleeTakedownCooldownActive
 function KurtMeleeTakedownCooldownActive.new(fields) return end
 

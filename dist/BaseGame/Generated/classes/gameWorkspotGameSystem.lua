@@ -4,7 +4,7 @@
 ---@class gameWorkspotGameSystem: gameIWorkspotGameSystem
 gameWorkspotGameSystem = {}
 
----@param fields? table
+---@param fields? gameWorkspotGameSystem
 ---@return gameWorkspotGameSystem
 function gameWorkspotGameSystem.new(fields) return end
 

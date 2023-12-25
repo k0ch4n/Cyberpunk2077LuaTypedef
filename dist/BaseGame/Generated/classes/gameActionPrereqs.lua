@@ -6,6 +6,6 @@
 ---@field public prereqs gameIPrereq[]
 gameActionPrereqs = {}
 
----@param fields? table
+---@param fields? gameActionPrereqs
 ---@return gameActionPrereqs
 function gameActionPrereqs.new(fields) return end

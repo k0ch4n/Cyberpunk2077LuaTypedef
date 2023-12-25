@@ -5,6 +5,6 @@
 ---@field public setID gameWardrobeClothingSetIndex
 DeleteWardrobeSetRequest = {}
 
----@param fields? table
+---@param fields? DeleteWardrobeSetRequest
 ---@return DeleteWardrobeSetRequest
 function DeleteWardrobeSetRequest.new(fields) return end

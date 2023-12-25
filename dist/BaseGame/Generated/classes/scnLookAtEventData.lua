@@ -27,6 +27,6 @@
 ---@field public eyesLimits animLookAtLimits
 scnLookAtEventData = {}
 
----@param fields? table
+---@param fields? scnLookAtEventData
 ---@return scnLookAtEventData
 function scnLookAtEventData.new(fields) return end

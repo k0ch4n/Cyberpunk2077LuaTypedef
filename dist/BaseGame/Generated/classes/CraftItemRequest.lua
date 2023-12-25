@@ -8,6 +8,6 @@
 ---@field public bulletAmount Int32
 CraftItemRequest = {}
 
----@param fields? table
+---@param fields? CraftItemRequest
 ---@return CraftItemRequest
 function CraftItemRequest.new(fields) return end

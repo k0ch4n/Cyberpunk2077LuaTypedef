@@ -23,7 +23,7 @@
 ---@field private PayHolder inkCompoundWidgetReference
 CaptionImageIconsLogicController = {}
 
----@param fields? table
+---@param fields? CaptionImageIconsLogicController
 ---@return CaptionImageIconsLogicController
 function CaptionImageIconsLogicController.new(fields) return end
 

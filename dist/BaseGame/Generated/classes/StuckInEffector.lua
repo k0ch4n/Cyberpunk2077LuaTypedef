@@ -7,7 +7,7 @@
 ---@field public statusEffectID TweakDBID
 StuckInEffector = {}
 
----@param fields? table
+---@param fields? StuckInEffector
 ---@return StuckInEffector
 function StuckInEffector.new(fields) return end
 

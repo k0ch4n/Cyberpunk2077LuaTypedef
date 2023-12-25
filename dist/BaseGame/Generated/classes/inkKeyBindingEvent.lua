@@ -5,6 +5,6 @@
 ---@field public keyName CName
 inkKeyBindingEvent = {}
 
----@param fields? table
+---@param fields? inkKeyBindingEvent
 ---@return inkKeyBindingEvent
 function inkKeyBindingEvent.new(fields) return end

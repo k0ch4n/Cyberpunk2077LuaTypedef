@@ -6,6 +6,6 @@
 ---@field public probability Float
 gameSpotSequenceCategory = {}
 
----@param fields? table
+---@param fields? gameSpotSequenceCategory
 ---@return gameSpotSequenceCategory
 function gameSpotSequenceCategory.new(fields) return end

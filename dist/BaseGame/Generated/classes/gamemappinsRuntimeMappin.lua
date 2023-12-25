@@ -4,7 +4,7 @@
 ---@class gamemappinsRuntimeMappin: gamemappinsIMappin
 gamemappinsRuntimeMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsRuntimeMappin
 ---@return gamemappinsRuntimeMappin
 function gamemappinsRuntimeMappin.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataCone_Record: gamedataSenseShape_Record
 gamedataCone_Record = {}
 
----@param fields? table
+---@param fields? gamedataCone_Record
 ---@return gamedataCone_Record
 function gamedataCone_Record.new(fields) return end
 

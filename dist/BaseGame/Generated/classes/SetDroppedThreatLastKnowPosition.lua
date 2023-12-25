@@ -4,7 +4,7 @@
 ---@class SetDroppedThreatLastKnowPosition: AIbehaviortaskScript
 SetDroppedThreatLastKnowPosition = {}
 
----@param fields? table
+---@param fields? SetDroppedThreatLastKnowPosition
 ---@return SetDroppedThreatLastKnowPosition
 function SetDroppedThreatLastKnowPosition.new(fields) return end
 

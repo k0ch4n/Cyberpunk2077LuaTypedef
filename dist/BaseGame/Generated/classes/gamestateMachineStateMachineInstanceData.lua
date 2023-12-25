@@ -7,6 +7,6 @@
 ---@field public initData IScriptable
 gamestateMachineStateMachineInstanceData = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateMachineInstanceData
 ---@return gamestateMachineStateMachineInstanceData
 function gamestateMachineStateMachineInstanceData.new(fields) return end

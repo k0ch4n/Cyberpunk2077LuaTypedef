@@ -9,6 +9,6 @@
 ---@field public dataAddrFallback Uint32
 animSAnimationBufferBitwiseCompressedData = {}
 
----@param fields? table
+---@param fields? animSAnimationBufferBitwiseCompressedData
 ---@return animSAnimationBufferBitwiseCompressedData
 function animSAnimationBufferBitwiseCompressedData.new(fields) return end

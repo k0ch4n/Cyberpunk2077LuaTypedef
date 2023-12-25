@@ -9,7 +9,7 @@
 ---@field public active Bool
 QuestListFilterButtonController = {}
 
----@param fields? table
+---@param fields? QuestListFilterButtonController
 ---@return QuestListFilterButtonController
 function QuestListFilterButtonController.new(fields) return end
 

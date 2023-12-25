@@ -7,6 +7,6 @@
 ---@field public inputValidityDependentWidgets inkWidgetReference[]
 inkInputActionValidityController = {}
 
----@param fields? table
+---@param fields? inkInputActionValidityController
 ---@return inkInputActionValidityController
 function inkInputActionValidityController.new(fields) return end

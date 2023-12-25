@@ -44,7 +44,7 @@
 ---@field private nextDistanceCheckTime Float
 gameuiNpcNameplateGameController = {}
 
----@param fields? table
+---@param fields? gameuiNpcNameplateGameController
 ---@return gameuiNpcNameplateGameController
 function gameuiNpcNameplateGameController.new(fields) return end
 

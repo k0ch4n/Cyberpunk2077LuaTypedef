@@ -12,7 +12,7 @@
 ---@field private debugText2 inkTextWidget
 DebugNpcNameplateGameController = {}
 
----@param fields? table
+---@param fields? DebugNpcNameplateGameController
 ---@return DebugNpcNameplateGameController
 function DebugNpcNameplateGameController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public transitionTime Float
 ToggleVisibilityInAnimSystemEvent = {}
 
----@param fields? table
+---@param fields? ToggleVisibilityInAnimSystemEvent
 ---@return ToggleVisibilityInAnimSystemEvent
 function ToggleVisibilityInAnimSystemEvent.new(fields) return end

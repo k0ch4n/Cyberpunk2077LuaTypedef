@@ -12,6 +12,6 @@
 ---@field public inputContext CName
 inkLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkLayerDefinition
 ---@return inkLayerDefinition
 function inkLayerDefinition.new(fields) return end

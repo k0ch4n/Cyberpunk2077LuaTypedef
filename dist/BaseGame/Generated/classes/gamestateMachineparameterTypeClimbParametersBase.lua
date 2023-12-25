@@ -4,7 +4,7 @@
 ---@class gamestateMachineparameterTypeClimbParametersBase: IScriptable
 gamestateMachineparameterTypeClimbParametersBase = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeClimbParametersBase
 ---@return gamestateMachineparameterTypeClimbParametersBase
 function gamestateMachineparameterTypeClimbParametersBase.new(fields) return end
 

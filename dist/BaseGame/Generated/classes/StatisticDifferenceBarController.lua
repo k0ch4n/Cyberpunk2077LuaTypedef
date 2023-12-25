@@ -7,7 +7,7 @@
 ---@field private empty inkWidgetReference
 StatisticDifferenceBarController = {}
 
----@param fields? table
+---@param fields? StatisticDifferenceBarController
 ---@return StatisticDifferenceBarController
 function StatisticDifferenceBarController.new(fields) return end
 

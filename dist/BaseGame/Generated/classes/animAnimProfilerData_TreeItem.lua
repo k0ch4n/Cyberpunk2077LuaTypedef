@@ -8,6 +8,6 @@
 ---@field public children animAnimProfilerData_TreeItem[]
 animAnimProfilerData_TreeItem = {}
 
----@param fields? table
+---@param fields? animAnimProfilerData_TreeItem
 ---@return animAnimProfilerData_TreeItem
 function animAnimProfilerData_TreeItem.new(fields) return end

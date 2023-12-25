@@ -4,7 +4,7 @@
 ---@class SprintWindupLowGravityEvents: SprintLowGravityEvents
 SprintWindupLowGravityEvents = {}
 
----@param fields? table
+---@param fields? SprintWindupLowGravityEvents
 ---@return SprintWindupLowGravityEvents
 function SprintWindupLowGravityEvents.new(fields) return end
 

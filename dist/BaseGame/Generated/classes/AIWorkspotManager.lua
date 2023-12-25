@@ -4,6 +4,6 @@
 ---@class AIWorkspotManager: AIIWorkspotManager
 AIWorkspotManager = {}
 
----@param fields? table
+---@param fields? AIWorkspotManager
 ---@return AIWorkspotManager
 function AIWorkspotManager.new(fields) return end

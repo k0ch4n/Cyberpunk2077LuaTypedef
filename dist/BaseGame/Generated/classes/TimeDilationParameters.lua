@@ -10,6 +10,6 @@
 ---@field public easeOutCurve CName
 TimeDilationParameters = {}
 
----@param fields? table
+---@param fields? TimeDilationParameters
 ---@return TimeDilationParameters
 function TimeDilationParameters.new(fields) return end

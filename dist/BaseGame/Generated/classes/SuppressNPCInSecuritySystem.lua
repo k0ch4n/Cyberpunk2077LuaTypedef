@@ -6,7 +6,7 @@
 ---@field public suppressOutgoingEvents Bool
 SuppressNPCInSecuritySystem = {}
 
----@param fields? table
+---@param fields? SuppressNPCInSecuritySystem
 ---@return SuppressNPCInSecuritySystem
 function SuppressNPCInSecuritySystem.new(fields) return end
 

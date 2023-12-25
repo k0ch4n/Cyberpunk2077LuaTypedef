@@ -4,7 +4,7 @@
 ---@class WorldMapCursorRootController: CursorRootController
 WorldMapCursorRootController = {}
 
----@param fields? table
+---@param fields? WorldMapCursorRootController
 ---@return WorldMapCursorRootController
 function WorldMapCursorRootController.new(fields) return end
 

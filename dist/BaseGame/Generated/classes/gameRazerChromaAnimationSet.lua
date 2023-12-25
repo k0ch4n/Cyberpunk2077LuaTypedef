@@ -6,6 +6,6 @@
 ---@field public animations gameRazerChromaAnimation[]
 gameRazerChromaAnimationSet = {}
 
----@param fields? table
+---@param fields? gameRazerChromaAnimationSet
 ---@return gameRazerChromaAnimationSet
 function gameRazerChromaAnimationSet.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public visibility Bool
 questSetHUDEntryVisibility_NodeType = {}
 
----@param fields? table
+---@param fields? questSetHUDEntryVisibility_NodeType
 ---@return questSetHUDEntryVisibility_NodeType
 function questSetHUDEntryVisibility_NodeType.new(fields) return end

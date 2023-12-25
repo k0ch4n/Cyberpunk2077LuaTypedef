@@ -4,7 +4,7 @@
 ---@class JumpEvents: LocomotionAirEvents
 JumpEvents = {}
 
----@param fields? table
+---@param fields? JumpEvents
 ---@return JumpEvents
 function JumpEvents.new(fields) return end
 

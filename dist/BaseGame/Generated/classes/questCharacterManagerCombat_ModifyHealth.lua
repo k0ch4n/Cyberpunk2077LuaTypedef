@@ -10,6 +10,6 @@
 ---@field public damageSourceRef gameEntityReference
 questCharacterManagerCombat_ModifyHealth = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_ModifyHealth
 ---@return questCharacterManagerCombat_ModifyHealth
 function questCharacterManagerCombat_ModifyHealth.new(fields) return end

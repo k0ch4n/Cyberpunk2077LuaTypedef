@@ -7,7 +7,7 @@
 ---@field private isOverriden Bool
 ElectricBoxControllerPS = {}
 
----@param fields? table
+---@param fields? ElectricBoxControllerPS
 ---@return ElectricBoxControllerPS
 function ElectricBoxControllerPS.new(fields) return end
 

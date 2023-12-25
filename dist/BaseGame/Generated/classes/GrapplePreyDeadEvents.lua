@@ -4,7 +4,7 @@
 ---@class GrapplePreyDeadEvents: LocomotionTakedownEvents
 GrapplePreyDeadEvents = {}
 
----@param fields? table
+---@param fields? GrapplePreyDeadEvents
 ---@return GrapplePreyDeadEvents
 function GrapplePreyDeadEvents.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class entGarmentSkinnedMeshComponent: entSkinnedMeshComponent
 entGarmentSkinnedMeshComponent = {}
 
----@param fields? table
+---@param fields? entGarmentSkinnedMeshComponent
 ---@return entGarmentSkinnedMeshComponent
 function entGarmentSkinnedMeshComponent.new(fields) return end

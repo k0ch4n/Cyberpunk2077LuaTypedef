@@ -4,7 +4,7 @@
 ---@class WorldStateSystem: gameIGameSystem
 WorldStateSystem = {}
 
----@param fields? table
+---@param fields? WorldStateSystem
 ---@return WorldStateSystem
 function WorldStateSystem.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public finished Bool
 questHUDEntryAnimationFinished = {}
 
----@param fields? table
+---@param fields? questHUDEntryAnimationFinished
 ---@return questHUDEntryAnimationFinished
 function questHUDEntryAnimationFinished.new(fields) return end

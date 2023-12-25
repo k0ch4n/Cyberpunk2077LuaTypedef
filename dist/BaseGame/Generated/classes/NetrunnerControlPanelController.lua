@@ -4,7 +4,7 @@
 ---@class NetrunnerControlPanelController: BasicDistractionDeviceController
 NetrunnerControlPanelController = {}
 
----@param fields? table
+---@param fields? NetrunnerControlPanelController
 ---@return NetrunnerControlPanelController
 function NetrunnerControlPanelController.new(fields) return end
 

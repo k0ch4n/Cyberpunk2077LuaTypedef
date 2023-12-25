@@ -4,6 +4,6 @@
 ---@class ConsumablesChargesReworkEvent: redEvent
 ConsumablesChargesReworkEvent = {}
 
----@param fields? table
+---@param fields? ConsumablesChargesReworkEvent
 ---@return ConsumablesChargesReworkEvent
 function ConsumablesChargesReworkEvent.new(fields) return end

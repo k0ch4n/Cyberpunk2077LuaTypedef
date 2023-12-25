@@ -11,6 +11,6 @@
 ---@field public playerGenderAlt animAnimEventGenderAlt
 animAnimEvent_Sound = {}
 
----@param fields? table
+---@param fields? animAnimEvent_Sound
 ---@return animAnimEvent_Sound
 function animAnimEvent_Sound.new(fields) return end

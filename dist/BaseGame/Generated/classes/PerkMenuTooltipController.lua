@@ -20,7 +20,7 @@
 ---@field public maxProficiencyLevel Int32
 PerkMenuTooltipController = {}
 
----@param fields? table
+---@param fields? PerkMenuTooltipController
 ---@return PerkMenuTooltipController
 function PerkMenuTooltipController.new(fields) return end
 

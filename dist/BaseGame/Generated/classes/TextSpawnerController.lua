@@ -7,7 +7,7 @@
 ---@field private texts inkWidget[]
 TextSpawnerController = {}
 
----@param fields? table
+---@param fields? TextSpawnerController
 ---@return TextSpawnerController
 function TextSpawnerController.new(fields) return end
 

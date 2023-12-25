@@ -11,6 +11,6 @@
 ---@field public isEnabled Bool
 entFogVolumeComponent = {}
 
----@param fields? table
+---@param fields? entFogVolumeComponent
 ---@return entFogVolumeComponent
 function entFogVolumeComponent.new(fields) return end

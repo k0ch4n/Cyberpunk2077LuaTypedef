@@ -8,6 +8,6 @@
 ---@field public isStreamingFriendly Bool
 audioRadioTrack = {}
 
----@param fields? table
+---@param fields? audioRadioTrack
 ---@return audioRadioTrack
 function audioRadioTrack.new(fields) return end

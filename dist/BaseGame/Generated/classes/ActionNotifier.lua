@@ -7,7 +7,7 @@
 ---@field public failed Bool
 ActionNotifier = {}
 
----@param fields? table
+---@param fields? ActionNotifier
 ---@return ActionNotifier
 function ActionNotifier.new(fields) return end
 

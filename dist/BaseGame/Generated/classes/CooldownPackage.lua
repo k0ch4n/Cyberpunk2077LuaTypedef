@@ -9,7 +9,7 @@
 ---@field private packageStatus PackageStatus
 CooldownPackage = {}
 
----@param fields? table
+---@param fields? CooldownPackage
 ---@return CooldownPackage
 function CooldownPackage.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class MinigameDecisions: HighLevelTransition
 MinigameDecisions = {}
 
----@param fields? table
+---@param fields? MinigameDecisions
 ---@return MinigameDecisions
 function MinigameDecisions.new(fields) return end
 

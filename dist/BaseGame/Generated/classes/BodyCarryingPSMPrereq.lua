@@ -4,7 +4,7 @@
 ---@class BodyCarryingPSMPrereq: PlayerStateMachinePrereq
 BodyCarryingPSMPrereq = {}
 
----@param fields? table
+---@param fields? BodyCarryingPSMPrereq
 ---@return BodyCarryingPSMPrereq
 function BodyCarryingPSMPrereq.new(fields) return end
 

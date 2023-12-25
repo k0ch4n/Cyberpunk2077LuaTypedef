@@ -5,7 +5,7 @@
 ---@field public ForcedTarget entEntityID
 QuestLookAtTarget = {}
 
----@param fields? table
+---@param fields? QuestLookAtTarget
 ---@return QuestLookAtTarget
 function QuestLookAtTarget.new(fields) return end
 

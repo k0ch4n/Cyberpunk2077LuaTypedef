@@ -8,6 +8,6 @@
 ---@field public radius2 Float
 senseSimpleCone = {}
 
----@param fields? table
+---@param fields? senseSimpleCone
 ---@return senseSimpleCone
 function senseSimpleCone.new(fields) return end

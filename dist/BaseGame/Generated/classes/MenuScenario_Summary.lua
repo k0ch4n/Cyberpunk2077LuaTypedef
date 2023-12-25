@@ -4,7 +4,7 @@
 ---@class MenuScenario_Summary: MenuScenario_PreGameSubMenu
 MenuScenario_Summary = {}
 
----@param fields? table
+---@param fields? MenuScenario_Summary
 ---@return MenuScenario_Summary
 function MenuScenario_Summary.new(fields) return end
 

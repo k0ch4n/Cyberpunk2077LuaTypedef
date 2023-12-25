@@ -7,6 +7,6 @@
 ---@field public owner gameObject
 subtitleLineMapEntry = {}
 
----@param fields? table
+---@param fields? subtitleLineMapEntry
 ---@return subtitleLineMapEntry
 function subtitleLineMapEntry.new(fields) return end

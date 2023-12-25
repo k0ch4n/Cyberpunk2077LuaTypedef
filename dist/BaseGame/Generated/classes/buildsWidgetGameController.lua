@@ -5,7 +5,7 @@
 ---@field private horizontalPanelsList inkHorizontalPanelWidget[]
 buildsWidgetGameController = {}
 
----@param fields? table
+---@param fields? buildsWidgetGameController
 ---@return buildsWidgetGameController
 function buildsWidgetGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataWeaponFxPackage_Record: gamedataTweakDBRecord
 gamedataWeaponFxPackage_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeaponFxPackage_Record
 ---@return gamedataWeaponFxPackage_Record
 function gamedataWeaponFxPackage_Record.new(fields) return end
 

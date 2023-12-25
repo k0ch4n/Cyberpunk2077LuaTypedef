@@ -25,6 +25,6 @@
 ---@field public initialGlobalNameHash String
 worldNodeEditorData = {}
 
----@param fields? table
+---@param fields? worldNodeEditorData
 ---@return worldNodeEditorData
 function worldNodeEditorData.new(fields) return end

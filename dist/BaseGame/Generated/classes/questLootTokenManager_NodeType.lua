@@ -5,6 +5,6 @@
 ---@field public params questLootTokenManager_NodeTypeParams[]
 questLootTokenManager_NodeType = {}
 
----@param fields? table
+---@param fields? questLootTokenManager_NodeType
 ---@return questLootTokenManager_NodeType
 function questLootTokenManager_NodeType.new(fields) return end

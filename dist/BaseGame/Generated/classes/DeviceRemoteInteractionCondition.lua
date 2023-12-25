@@ -4,7 +4,7 @@
 ---@class DeviceRemoteInteractionCondition: gameinteractionsInteractionScriptedCondition
 DeviceRemoteInteractionCondition = {}
 
----@param fields? table
+---@param fields? DeviceRemoteInteractionCondition
 ---@return DeviceRemoteInteractionCondition
 function DeviceRemoteInteractionCondition.new(fields) return end
 

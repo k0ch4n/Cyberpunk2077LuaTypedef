@@ -6,7 +6,7 @@
 ---@field public objectives GemplayObjectiveData[]
 GamplayQuestData = {}
 
----@param fields? table
+---@param fields? GamplayQuestData
 ---@return GamplayQuestData
 function GamplayQuestData.new(fields) return end
 

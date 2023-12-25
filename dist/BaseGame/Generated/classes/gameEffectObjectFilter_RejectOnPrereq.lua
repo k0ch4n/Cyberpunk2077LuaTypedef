@@ -5,6 +5,6 @@
 ---@field public prereq gameIPrereq
 gameEffectObjectFilter_RejectOnPrereq = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_RejectOnPrereq
 ---@return gameEffectObjectFilter_RejectOnPrereq
 function gameEffectObjectFilter_RejectOnPrereq.new(fields) return end

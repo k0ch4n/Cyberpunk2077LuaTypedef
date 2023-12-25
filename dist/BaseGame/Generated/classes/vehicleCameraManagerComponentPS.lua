@@ -5,6 +5,6 @@
 ---@field public perspective vehicleCameraPerspective
 vehicleCameraManagerComponentPS = {}
 
----@param fields? table
+---@param fields? vehicleCameraManagerComponentPS
 ---@return vehicleCameraManagerComponentPS
 function vehicleCameraManagerComponentPS.new(fields) return end

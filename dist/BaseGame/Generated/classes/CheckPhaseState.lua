@@ -5,7 +5,7 @@
 ---@field public phaseStateValue ENPCPhaseState
 CheckPhaseState = {}
 
----@param fields? table
+---@param fields? CheckPhaseState
 ---@return CheckPhaseState
 function CheckPhaseState.new(fields) return end
 

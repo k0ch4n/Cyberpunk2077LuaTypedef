@@ -7,6 +7,6 @@
 ---@field public targetHintContainer CName
 gameuiAddInputGroupEvent = {}
 
----@param fields? table
+---@param fields? gameuiAddInputGroupEvent
 ---@return gameuiAddInputGroupEvent
 function gameuiAddInputGroupEvent.new(fields) return end

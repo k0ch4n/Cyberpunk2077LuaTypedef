@@ -16,7 +16,7 @@
 ---@field public id Uint32
 senseStimuliEvent = {}
 
----@param fields? table
+---@param fields? senseStimuliEvent
 ---@return senseStimuliEvent
 function senseStimuliEvent.new(fields) return end
 

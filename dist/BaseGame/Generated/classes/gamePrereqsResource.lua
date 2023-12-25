@@ -5,6 +5,6 @@
 ---@field public prereqs gamePrereqDefinition[]
 gamePrereqsResource = {}
 
----@param fields? table
+---@param fields? gamePrereqsResource
 ---@return gamePrereqsResource
 function gamePrereqsResource.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class workIsPlayerCondition: workIWorkspotCondition
 workIsPlayerCondition = {}
 
----@param fields? table
+---@param fields? workIsPlayerCondition
 ---@return workIsPlayerCondition
 function workIsPlayerCondition.new(fields) return end

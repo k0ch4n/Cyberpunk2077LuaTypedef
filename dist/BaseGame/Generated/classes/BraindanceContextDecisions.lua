@@ -4,7 +4,7 @@
 ---@class BraindanceContextDecisions: InputContextTransitionDecisions
 BraindanceContextDecisions = {}
 
----@param fields? table
+---@param fields? BraindanceContextDecisions
 ---@return BraindanceContextDecisions
 function BraindanceContextDecisions.new(fields) return end
 

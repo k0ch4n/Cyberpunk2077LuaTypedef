@@ -4,7 +4,7 @@
 ---@class gamedataDynamicDownforceHelper_Record: gamedataDriveHelper_Record
 gamedataDynamicDownforceHelper_Record = {}
 
----@param fields? table
+---@param fields? gamedataDynamicDownforceHelper_Record
 ---@return gamedataDynamicDownforceHelper_Record
 function gamedataDynamicDownforceHelper_Record.new(fields) return end
 

@@ -57,7 +57,7 @@
 ---@field private isPresetHoveredOver Bool
 characterCreationBodyMorphMenu = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphMenu
 ---@return characterCreationBodyMorphMenu
 function characterCreationBodyMorphMenu.new(fields) return end
 

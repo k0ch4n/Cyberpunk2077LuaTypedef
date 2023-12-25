@@ -4,7 +4,7 @@
 ---@class PlayDeafeningMusic: ActionBool
 PlayDeafeningMusic = {}
 
----@param fields? table
+---@param fields? PlayDeafeningMusic
 ---@return PlayDeafeningMusic
 function PlayDeafeningMusic.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public blob IRenderResourceBlob
 CRenderResourceBlobContainer = {}
 
----@param fields? table
+---@param fields? CRenderResourceBlobContainer
 ---@return CRenderResourceBlobContainer
 function CRenderResourceBlobContainer.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public slotId gamemountingMountingSlotId
 gamemountingMountingRelationship = {}
 
----@param fields? table
+---@param fields? gamemountingMountingRelationship
 ---@return gamemountingMountingRelationship
 function gamemountingMountingRelationship.new(fields) return end

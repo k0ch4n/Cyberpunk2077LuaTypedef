@@ -4,7 +4,7 @@
 ---@class gamedataBox_Record: gamedataSenseShape_Record
 gamedataBox_Record = {}
 
----@param fields? table
+---@param fields? gamedataBox_Record
 ---@return gamedataBox_Record
 function gamedataBox_Record.new(fields) return end
 

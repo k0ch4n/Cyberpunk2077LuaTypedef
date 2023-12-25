@@ -5,6 +5,6 @@
 ---@field public logMessage AIArgumentMapping
 AIbehaviorDebugFailsafeConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDebugFailsafeConditionDefinition
 ---@return AIbehaviorDebugFailsafeConditionDefinition
 function AIbehaviorDebugFailsafeConditionDefinition.new(fields) return end

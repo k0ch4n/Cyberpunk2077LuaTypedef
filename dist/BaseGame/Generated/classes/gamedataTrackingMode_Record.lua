@@ -4,7 +4,7 @@
 ---@class gamedataTrackingMode_Record: gamedataTweakDBRecord
 gamedataTrackingMode_Record = {}
 
----@param fields? table
+---@param fields? gamedataTrackingMode_Record
 ---@return gamedataTrackingMode_Record
 function gamedataTrackingMode_Record.new(fields) return end
 

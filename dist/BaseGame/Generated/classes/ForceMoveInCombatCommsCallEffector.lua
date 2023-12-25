@@ -4,7 +4,7 @@
 ---@class ForceMoveInCombatCommsCallEffector: ForceMoveInCombatEffector
 ForceMoveInCombatCommsCallEffector = {}
 
----@param fields? table
+---@param fields? ForceMoveInCombatCommsCallEffector
 ---@return ForceMoveInCombatCommsCallEffector
 function ForceMoveInCombatCommsCallEffector.new(fields) return end
 

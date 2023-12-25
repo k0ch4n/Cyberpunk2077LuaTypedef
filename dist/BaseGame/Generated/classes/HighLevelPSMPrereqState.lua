@@ -4,6 +4,6 @@
 ---@class HighLevelPSMPrereqState: PlayerStateMachinePrereqState
 HighLevelPSMPrereqState = {}
 
----@param fields? table
+---@param fields? HighLevelPSMPrereqState
 ---@return HighLevelPSMPrereqState
 function HighLevelPSMPrereqState.new(fields) return end

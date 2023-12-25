@@ -4,6 +4,6 @@
 ---@class ClearHitStimEvent: redEvent
 ClearHitStimEvent = {}
 
----@param fields? table
+---@param fields? ClearHitStimEvent
 ---@return ClearHitStimEvent
 function ClearHitStimEvent.new(fields) return end

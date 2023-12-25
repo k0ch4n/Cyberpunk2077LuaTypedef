@@ -7,7 +7,7 @@
 ---@field public lastIngredients gamebbScriptID_Variant
 UI_CraftingDef = {}
 
----@param fields? table
+---@param fields? UI_CraftingDef
 ---@return UI_CraftingDef
 function UI_CraftingDef.new(fields) return end
 

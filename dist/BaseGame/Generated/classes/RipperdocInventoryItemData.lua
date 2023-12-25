@@ -10,6 +10,6 @@
 ---@field public Delay Float
 RipperdocInventoryItemData = {}
 
----@param fields? table
+---@param fields? RipperdocInventoryItemData
 ---@return RipperdocInventoryItemData
 function RipperdocInventoryItemData.new(fields) return end

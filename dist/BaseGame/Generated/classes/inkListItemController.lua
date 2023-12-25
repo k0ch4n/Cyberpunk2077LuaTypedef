@@ -10,7 +10,7 @@
 ---@field public labelPathRef inkTextWidgetReference
 inkListItemController = {}
 
----@param fields? table
+---@param fields? inkListItemController
 ---@return inkListItemController
 function inkListItemController.new(fields) return end
 

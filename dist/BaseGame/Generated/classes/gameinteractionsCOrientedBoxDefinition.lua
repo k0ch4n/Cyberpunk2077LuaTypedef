@@ -8,6 +8,6 @@
 ---@field public up Vector4
 gameinteractionsCOrientedBoxDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCOrientedBoxDefinition
 ---@return gameinteractionsCOrientedBoxDefinition
 function gameinteractionsCOrientedBoxDefinition.new(fields) return end

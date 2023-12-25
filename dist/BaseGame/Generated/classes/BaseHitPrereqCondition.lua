@@ -7,7 +7,7 @@
 ---@field public lastAttackTime Float
 BaseHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? BaseHitPrereqCondition
 ---@return BaseHitPrereqCondition
 function BaseHitPrereqCondition.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public ignoreDisabledTutorials Bool
 questShowBracket_NodeSubType = {}
 
----@param fields? table
+---@param fields? questShowBracket_NodeSubType
 ---@return questShowBracket_NodeSubType
 function questShowBracket_NodeSubType.new(fields) return end

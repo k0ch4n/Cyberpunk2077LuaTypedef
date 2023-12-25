@@ -7,6 +7,6 @@
 ---@field public nodeParams questAICommandParams
 questMovePuppetNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMovePuppetNodeDefinition
 ---@return questMovePuppetNodeDefinition
 function questMovePuppetNodeDefinition.new(fields) return end

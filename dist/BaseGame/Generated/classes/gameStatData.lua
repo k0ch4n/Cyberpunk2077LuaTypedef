@@ -6,6 +6,6 @@
 ---@field public statType gamedataStatType
 gameStatData = {}
 
----@param fields? table
+---@param fields? gameStatData
 ---@return gameStatData
 function gameStatData.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public spawnDelay AIArgumentMapping
 AIbehaviorActionEquipItemNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionEquipItemNodeDefinition
 ---@return AIbehaviorActionEquipItemNodeDefinition
 function AIbehaviorActionEquipItemNodeDefinition.new(fields) return end

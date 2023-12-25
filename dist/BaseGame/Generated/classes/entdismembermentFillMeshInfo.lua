@@ -7,6 +7,6 @@
 ---@field public Dangle entdismembermentDangleInfo
 entdismembermentFillMeshInfo = {}
 
----@param fields? table
+---@param fields? entdismembermentFillMeshInfo
 ---@return entdismembermentFillMeshInfo
 function entdismembermentFillMeshInfo.new(fields) return end

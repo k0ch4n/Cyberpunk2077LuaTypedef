@@ -14,7 +14,7 @@
 ---@field private progressBarController LoadingScreenProgressBarController
 inkFastTravelLoadingScreenLogicController = {}
 
----@param fields? table
+---@param fields? inkFastTravelLoadingScreenLogicController
 ---@return inkFastTravelLoadingScreenLogicController
 function inkFastTravelLoadingScreenLogicController.new(fields) return end
 

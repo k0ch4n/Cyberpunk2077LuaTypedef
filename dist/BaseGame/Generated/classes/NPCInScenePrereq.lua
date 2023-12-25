@@ -5,7 +5,7 @@
 ---@field public invert Bool
 NPCInScenePrereq = {}
 
----@param fields? table
+---@param fields? NPCInScenePrereq
 ---@return NPCInScenePrereq
 function NPCInScenePrereq.new(fields) return end
 

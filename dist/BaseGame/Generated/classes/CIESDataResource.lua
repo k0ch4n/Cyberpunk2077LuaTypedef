@@ -5,6 +5,6 @@
 ---@field public samples Uint16[]
 CIESDataResource = {}
 
----@param fields? table
+---@param fields? CIESDataResource
 ---@return CIESDataResource
 function CIESDataResource.new(fields) return end

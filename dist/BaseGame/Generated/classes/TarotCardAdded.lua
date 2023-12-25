@@ -6,6 +6,6 @@
 ---@field public cardName String
 TarotCardAdded = {}
 
----@param fields? table
+---@param fields? TarotCardAdded
 ---@return TarotCardAdded
 function TarotCardAdded.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public additionalSpeakers scnAdditionalSpeakers
 scnDialogLineEvent = {}
 
----@param fields? table
+---@param fields? scnDialogLineEvent
 ---@return scnDialogLineEvent
 function scnDialogLineEvent.new(fields) return end

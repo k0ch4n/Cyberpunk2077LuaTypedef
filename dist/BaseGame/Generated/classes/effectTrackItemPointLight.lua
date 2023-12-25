@@ -21,6 +21,6 @@
 ---@field public flicker rendSLightFlickering
 effectTrackItemPointLight = {}
 
----@param fields? table
+---@param fields? effectTrackItemPointLight
 ---@return effectTrackItemPointLight
 function effectTrackItemPointLight.new(fields) return end

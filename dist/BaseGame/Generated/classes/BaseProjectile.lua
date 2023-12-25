@@ -12,7 +12,7 @@
 ---@field public tweakDBPath String
 BaseProjectile = {}
 
----@param fields? table
+---@param fields? BaseProjectile
 ---@return BaseProjectile
 function BaseProjectile.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field private asyncSpawnRequest inkAsyncSpawnRequest
 ScannerNPCBodyGameController = {}
 
----@param fields? table
+---@param fields? ScannerNPCBodyGameController
 ---@return ScannerNPCBodyGameController
 function ScannerNPCBodyGameController.new(fields) return end
 

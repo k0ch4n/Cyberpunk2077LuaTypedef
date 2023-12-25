@@ -4,6 +4,6 @@
 ---@class inkVirtualCompoundBackgroundController: inkWidgetLogicController
 inkVirtualCompoundBackgroundController = {}
 
----@param fields? table
+---@param fields? inkVirtualCompoundBackgroundController
 ---@return inkVirtualCompoundBackgroundController
 function inkVirtualCompoundBackgroundController.new(fields) return end

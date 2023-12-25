@@ -4,7 +4,7 @@
 ---@class QuestCloseAllDoors: ActionBool
 QuestCloseAllDoors = {}
 
----@param fields? table
+---@param fields? QuestCloseAllDoors
 ---@return QuestCloseAllDoors
 function QuestCloseAllDoors.new(fields) return end
 

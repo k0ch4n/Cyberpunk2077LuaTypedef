@@ -13,6 +13,6 @@
 ---@field public resultIfChildFailed AIbehaviorCompletionStatus
 AIbehaviorCommandHandlerNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCommandHandlerNodeDefinition
 ---@return AIbehaviorCommandHandlerNodeDefinition
 function AIbehaviorCommandHandlerNodeDefinition.new(fields) return end

@@ -16,7 +16,7 @@
 ---@field private inputDisabled Bool
 characterCreationBodyMorphColorOption = {}
 
----@param fields? table
+---@param fields? characterCreationBodyMorphColorOption
 ---@return characterCreationBodyMorphColorOption
 function characterCreationBodyMorphColorOption.new(fields) return end
 

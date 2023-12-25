@@ -5,7 +5,7 @@
 ---@field protected tint inkWidgetReference
 PerksSkillsLevelDisplayController = {}
 
----@param fields? table
+---@param fields? PerksSkillsLevelDisplayController
 ---@return PerksSkillsLevelDisplayController
 function PerksSkillsLevelDisplayController.new(fields) return end
 

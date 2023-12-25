@@ -12,7 +12,7 @@
 ---@field public playImpact Bool
 AnimFeature_StatusEffect = {}
 
----@param fields? table
+---@param fields? AnimFeature_StatusEffect
 ---@return AnimFeature_StatusEffect
 function AnimFeature_StatusEffect.new(fields) return end
 

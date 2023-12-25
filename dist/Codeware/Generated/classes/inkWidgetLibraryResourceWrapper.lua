@@ -4,7 +4,7 @@
 ---@class inkWidgetLibraryResourceWrapper
 inkWidgetLibraryResourceWrapper = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryResourceWrapper
 ---@return inkWidgetLibraryResourceWrapper
 function inkWidgetLibraryResourceWrapper.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIStoppedBeingTrackedAsHostile: AIAIEvent
 AIStoppedBeingTrackedAsHostile = {}
 
----@param fields? table
+---@param fields? AIStoppedBeingTrackedAsHostile
 ---@return AIStoppedBeingTrackedAsHostile
 function AIStoppedBeingTrackedAsHostile.new(fields) return end

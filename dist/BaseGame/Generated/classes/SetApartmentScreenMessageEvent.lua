@@ -6,7 +6,7 @@
 ---@field public targetRentStatus ERentStatus
 SetApartmentScreenMessageEvent = {}
 
----@param fields? table
+---@param fields? SetApartmentScreenMessageEvent
 ---@return SetApartmentScreenMessageEvent
 function SetApartmentScreenMessageEvent.new(fields) return end
 

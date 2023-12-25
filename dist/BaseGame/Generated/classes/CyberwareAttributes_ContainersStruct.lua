@@ -14,6 +14,6 @@
 ---@field public logicTech CyberwareAttributes_Logic
 CyberwareAttributes_ContainersStruct = {}
 
----@param fields? table
+---@param fields? CyberwareAttributes_ContainersStruct
 ---@return CyberwareAttributes_ContainersStruct
 function CyberwareAttributes_ContainersStruct.new(fields) return end

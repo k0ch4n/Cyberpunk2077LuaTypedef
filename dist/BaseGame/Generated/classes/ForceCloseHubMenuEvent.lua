@@ -4,6 +4,6 @@
 ---@class ForceCloseHubMenuEvent: redEvent
 ForceCloseHubMenuEvent = {}
 
----@param fields? table
+---@param fields? ForceCloseHubMenuEvent
 ---@return ForceCloseHubMenuEvent
 function ForceCloseHubMenuEvent.new(fields) return end

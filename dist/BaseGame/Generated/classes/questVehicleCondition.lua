@@ -5,6 +5,6 @@
 ---@field public type questIVehicleConditionType
 questVehicleCondition = {}
 
----@param fields? table
+---@param fields? questVehicleCondition
 ---@return questVehicleCondition
 function questVehicleCondition.new(fields) return end

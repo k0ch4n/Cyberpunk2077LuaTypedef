@@ -6,6 +6,6 @@
 ---@field public outWorkspotData AIArgumentMapping
 AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition
 ---@return AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition
 function AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition.new(fields) return end

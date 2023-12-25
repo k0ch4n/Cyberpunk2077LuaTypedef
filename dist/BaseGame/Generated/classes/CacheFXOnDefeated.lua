@@ -5,7 +5,7 @@
 ---@field public npcPuppet NPCPuppet
 CacheFXOnDefeated = {}
 
----@param fields? table
+---@param fields? CacheFXOnDefeated
 ---@return CacheFXOnDefeated
 function CacheFXOnDefeated.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public lightType vehicleELightType
 VehicleLightQuestToggleEvent = {}
 
----@param fields? table
+---@param fields? VehicleLightQuestToggleEvent
 ---@return VehicleLightQuestToggleEvent
 function VehicleLightQuestToggleEvent.new(fields) return end
 

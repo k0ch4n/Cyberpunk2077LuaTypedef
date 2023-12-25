@@ -7,6 +7,6 @@
 ---@field public paymentAmount Uint32
 questPaymentConditionData = {}
 
----@param fields? table
+---@param fields? questPaymentConditionData
 ---@return questPaymentConditionData
 function questPaymentConditionData.new(fields) return end

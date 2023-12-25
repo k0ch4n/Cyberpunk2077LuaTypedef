@@ -4,6 +4,6 @@
 ---@class AIDistanceFromOthersCoverSelection: AICoverSelectionParameters
 AIDistanceFromOthersCoverSelection = {}
 
----@param fields? table
+---@param fields? AIDistanceFromOthersCoverSelection
 ---@return AIDistanceFromOthersCoverSelection
 function AIDistanceFromOthersCoverSelection.new(fields) return end

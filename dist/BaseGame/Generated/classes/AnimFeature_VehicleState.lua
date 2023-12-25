@@ -5,6 +5,6 @@
 ---@field public tppEnabled Bool
 AnimFeature_VehicleState = {}
 
----@param fields? table
+---@param fields? AnimFeature_VehicleState
 ---@return AnimFeature_VehicleState
 function AnimFeature_VehicleState.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public cameraList SurveillanceCamera[]
 CameraTagEnemyLimitDataModule = {}
 
----@param fields? table
+---@param fields? CameraTagEnemyLimitDataModule
 ---@return CameraTagEnemyLimitDataModule
 function CameraTagEnemyLimitDataModule.new(fields) return end
 

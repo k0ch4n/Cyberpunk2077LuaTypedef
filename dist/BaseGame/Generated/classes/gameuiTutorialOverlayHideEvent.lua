@@ -5,6 +5,6 @@
 ---@field public itemName CName
 gameuiTutorialOverlayHideEvent = {}
 
----@param fields? table
+---@param fields? gameuiTutorialOverlayHideEvent
 ---@return gameuiTutorialOverlayHideEvent
 function gameuiTutorialOverlayHideEvent.new(fields) return end

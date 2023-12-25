@@ -5,6 +5,6 @@
 ---@field public contextName CName
 entContextualLookAtRemoveEvent = {}
 
----@param fields? table
+---@param fields? entContextualLookAtRemoveEvent
 ---@return entContextualLookAtRemoveEvent
 function entContextualLookAtRemoveEvent.new(fields) return end

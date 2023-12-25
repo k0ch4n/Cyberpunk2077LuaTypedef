@@ -6,7 +6,7 @@
 ---@field public statusEffectTagToCompare CName
 CheckCurrentStatusEffect = {}
 
----@param fields? table
+---@param fields? CheckCurrentStatusEffect
 ---@return CheckCurrentStatusEffect
 function CheckCurrentStatusEffect.new(fields) return end
 

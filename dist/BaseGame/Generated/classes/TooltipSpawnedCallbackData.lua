@@ -8,6 +8,6 @@
 ---@field public styleResRef redResourceReferenceScriptToken
 TooltipSpawnedCallbackData = {}
 
----@param fields? table
+---@param fields? TooltipSpawnedCallbackData
 ---@return TooltipSpawnedCallbackData
 function TooltipSpawnedCallbackData.new(fields) return end

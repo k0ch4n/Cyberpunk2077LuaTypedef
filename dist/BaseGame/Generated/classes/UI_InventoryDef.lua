@@ -6,7 +6,7 @@
 ---@field public itemRemoved gamebbScriptID_Variant
 UI_InventoryDef = {}
 
----@param fields? table
+---@param fields? UI_InventoryDef
 ---@return UI_InventoryDef
 function UI_InventoryDef.new(fields) return end
 

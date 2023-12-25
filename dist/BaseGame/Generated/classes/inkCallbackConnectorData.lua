@@ -5,7 +5,7 @@
 ---@field public userData IScriptable
 inkCallbackConnectorData = {}
 
----@param fields? table
+---@param fields? inkCallbackConnectorData
 ---@return inkCallbackConnectorData
 function inkCallbackConnectorData.new(fields) return end
 

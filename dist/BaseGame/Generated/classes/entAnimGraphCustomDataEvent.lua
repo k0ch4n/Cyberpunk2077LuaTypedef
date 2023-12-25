@@ -4,6 +4,6 @@
 ---@class entAnimGraphCustomDataEvent: redEvent
 entAnimGraphCustomDataEvent = {}
 
----@param fields? table
+---@param fields? entAnimGraphCustomDataEvent
 ---@return entAnimGraphCustomDataEvent
 function entAnimGraphCustomDataEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private compareBuilder CompareBuilder
 SimpleMessengerContactDataView = {}
 
----@param fields? table
+---@param fields? SimpleMessengerContactDataView
 ---@return SimpleMessengerContactDataView
 function SimpleMessengerContactDataView.new(fields) return end
 

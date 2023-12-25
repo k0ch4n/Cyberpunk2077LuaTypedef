@@ -12,7 +12,7 @@
 ---@field public textStatuses inkTextWidgetReference[]
 InnerBunkerSystemStatusLogicController = {}
 
----@param fields? table
+---@param fields? InnerBunkerSystemStatusLogicController
 ---@return InnerBunkerSystemStatusLogicController
 function InnerBunkerSystemStatusLogicController.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field protected dataTrackingSystem DataTrackingSystem
 DelayedAchivementCallback = {}
 
----@param fields? table
+---@param fields? DelayedAchivementCallback
 ---@return DelayedAchivementCallback
 function DelayedAchivementCallback.new(fields) return end
 

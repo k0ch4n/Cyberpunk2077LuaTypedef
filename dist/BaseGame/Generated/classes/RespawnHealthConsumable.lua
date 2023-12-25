@@ -4,6 +4,6 @@
 ---@class RespawnHealthConsumable: redEvent
 RespawnHealthConsumable = {}
 
----@param fields? table
+---@param fields? RespawnHealthConsumable
 ---@return RespawnHealthConsumable
 function RespawnHealthConsumable.new(fields) return end

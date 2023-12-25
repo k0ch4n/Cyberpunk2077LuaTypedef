@@ -4,7 +4,7 @@
 ---@class HasNPCVehicleAssigned: PreventionConditionAbstract
 HasNPCVehicleAssigned = {}
 
----@param fields? table
+---@param fields? HasNPCVehicleAssigned
 ---@return HasNPCVehicleAssigned
 function HasNPCVehicleAssigned.new(fields) return end
 

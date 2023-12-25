@@ -4,7 +4,7 @@
 ---@class CarryDecisions: CanTransitionToThrowDecisions
 CarryDecisions = {}
 
----@param fields? table
+---@param fields? CarryDecisions
 ---@return CarryDecisions
 function CarryDecisions.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public withCompanionParams questWithCompanionMoveOnSplineParams
 questMoveOnSplineAdditionalParams = {}
 
----@param fields? table
+---@param fields? questMoveOnSplineAdditionalParams
 ---@return questMoveOnSplineAdditionalParams
 function questMoveOnSplineAdditionalParams.new(fields) return end

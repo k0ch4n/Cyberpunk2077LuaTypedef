@@ -4,7 +4,7 @@
 ---@class QuicksortInventoryItemData: IScriptable
 QuicksortInventoryItemData = {}
 
----@param fields? table
+---@param fields? QuicksortInventoryItemData
 ---@return QuicksortInventoryItemData
 function QuicksortInventoryItemData.new(fields) return end
 

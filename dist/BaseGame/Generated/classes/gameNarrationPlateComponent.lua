@@ -7,6 +7,6 @@
 ---@field public isEnabled Bool
 gameNarrationPlateComponent = {}
 
----@param fields? table
+---@param fields? gameNarrationPlateComponent
 ---@return gameNarrationPlateComponent
 function gameNarrationPlateComponent.new(fields) return end

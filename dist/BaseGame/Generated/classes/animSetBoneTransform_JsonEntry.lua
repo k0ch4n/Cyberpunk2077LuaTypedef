@@ -11,6 +11,6 @@
 ---@field public offset QsTransform
 animSetBoneTransform_JsonEntry = {}
 
----@param fields? table
+---@param fields? animSetBoneTransform_JsonEntry
 ---@return animSetBoneTransform_JsonEntry
 function animSetBoneTransform_JsonEntry.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public probability Float
 audioShockwavePropertyMetadata = {}
 
----@param fields? table
+---@param fields? audioShockwavePropertyMetadata
 ---@return audioShockwavePropertyMetadata
 function audioShockwavePropertyMetadata.new(fields) return end

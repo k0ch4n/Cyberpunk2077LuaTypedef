@@ -4,6 +4,6 @@
 ---@class ConfessionCompletedEvent: redEvent
 ConfessionCompletedEvent = {}
 
----@param fields? table
+---@param fields? ConfessionCompletedEvent
 ---@return ConfessionCompletedEvent
 function ConfessionCompletedEvent.new(fields) return end

@@ -15,7 +15,7 @@
 ---@field private TEXT_OFFSET Float
 DEBUG_VisualizerComponent = {}
 
----@param fields? table
+---@param fields? DEBUG_VisualizerComponent
 ---@return DEBUG_VisualizerComponent
 function DEBUG_VisualizerComponent.new(fields) return end
 

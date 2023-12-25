@@ -6,7 +6,7 @@
 ---@field protected timeoutValue Float
 MappingTimeout = {}
 
----@param fields? table
+---@param fields? MappingTimeout
 ---@return MappingTimeout
 function MappingTimeout.new(fields) return end
 

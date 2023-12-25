@@ -9,6 +9,6 @@
 ---@field public dyngConstraint animIDyngConstraint
 animDangleConstraint_SimulationDyng = {}
 
----@param fields? table
+---@param fields? animDangleConstraint_SimulationDyng
 ---@return animDangleConstraint_SimulationDyng
 function animDangleConstraint_SimulationDyng.new(fields) return end

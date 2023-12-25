@@ -4,7 +4,7 @@
 ---@class HubMenuUtils: IScriptable
 HubMenuUtils = {}
 
----@param fields? table
+---@param fields? HubMenuUtils
 ---@return HubMenuUtils
 function HubMenuUtils.new(fields) return end
 

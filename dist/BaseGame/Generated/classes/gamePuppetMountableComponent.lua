@@ -4,7 +4,7 @@
 ---@class gamePuppetMountableComponent: gamemountingMountableComponent
 gamePuppetMountableComponent = {}
 
----@param fields? table
+---@param fields? gamePuppetMountableComponent
 ---@return gamePuppetMountableComponent
 function gamePuppetMountableComponent.new(fields) return end
 

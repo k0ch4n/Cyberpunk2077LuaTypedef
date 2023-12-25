@@ -5,7 +5,7 @@
 ---@field private quests GamplayQuestData[]
 GameplayQuestSystem = {}
 
----@param fields? table
+---@param fields? GameplayQuestSystem
 ---@return GameplayQuestSystem
 function GameplayQuestSystem.new(fields) return end
 

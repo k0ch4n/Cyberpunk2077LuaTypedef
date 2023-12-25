@@ -4,7 +4,7 @@
 ---@class TryResetPreventionFreeArea: gameScriptableSystemRequest
 TryResetPreventionFreeArea = {}
 
----@param fields? table
+---@param fields? TryResetPreventionFreeArea
 ---@return TryResetPreventionFreeArea
 function TryResetPreventionFreeArea.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public weight Float
 gameCrowdTemplateCharacterData = {}
 
----@param fields? table
+---@param fields? gameCrowdTemplateCharacterData
 ---@return gameCrowdTemplateCharacterData
 function gameCrowdTemplateCharacterData.new(fields) return end

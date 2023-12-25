@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 PlayerMuntedToMyVehicle = {}
 
----@param fields? table
+---@param fields? PlayerMuntedToMyVehicle
 ---@return PlayerMuntedToMyVehicle
 function PlayerMuntedToMyVehicle.new(fields) return end
 

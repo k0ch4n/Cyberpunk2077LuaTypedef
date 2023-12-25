@@ -4,6 +4,6 @@
 ---@class CGlobalIlluminationSceneData: ISceneStorageCustomData
 CGlobalIlluminationSceneData = {}
 
----@param fields? table
+---@param fields? CGlobalIlluminationSceneData
 ---@return CGlobalIlluminationSceneData
 function CGlobalIlluminationSceneData.new(fields) return end

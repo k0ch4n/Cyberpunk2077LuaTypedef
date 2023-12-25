@@ -5,6 +5,6 @@
 ---@field public object gameObject
 gameUnTagObjectRequest = {}
 
----@param fields? table
+---@param fields? gameUnTagObjectRequest
 ---@return gameUnTagObjectRequest
 function gameUnTagObjectRequest.new(fields) return end

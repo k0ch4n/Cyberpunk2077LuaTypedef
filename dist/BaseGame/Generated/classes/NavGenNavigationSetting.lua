@@ -5,6 +5,6 @@
 ---@field public navmeshImpact NavGenNavmeshImpact
 NavGenNavigationSetting = {}
 
----@param fields? table
+---@param fields? NavGenNavigationSetting
 ---@return NavGenNavigationSetting
 function NavGenNavigationSetting.new(fields) return end

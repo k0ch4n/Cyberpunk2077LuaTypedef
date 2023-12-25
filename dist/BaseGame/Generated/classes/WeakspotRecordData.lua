@@ -7,6 +7,6 @@
 ---@field public reducedMeleeDamage Bool
 WeakspotRecordData = {}
 
----@param fields? table
+---@param fields? WeakspotRecordData
 ---@return WeakspotRecordData
 function WeakspotRecordData.new(fields) return end

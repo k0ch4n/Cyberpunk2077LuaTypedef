@@ -10,7 +10,7 @@
 ---@field private progressBarController LoadingScreenProgressBarController
 InitializeUserScreenGameController = {}
 
----@param fields? table
+---@param fields? InitializeUserScreenGameController
 ---@return InitializeUserScreenGameController
 function InitializeUserScreenGameController.new(fields) return end
 

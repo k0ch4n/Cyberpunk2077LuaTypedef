@@ -5,6 +5,6 @@
 ---@field public data gameJournalQuest
 QuestUpdateUserData = {}
 
----@param fields? table
+---@param fields? QuestUpdateUserData
 ---@return QuestUpdateUserData
 function QuestUpdateUserData.new(fields) return end

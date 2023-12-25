@@ -10,6 +10,6 @@
 ---@field public isEp1 Bool
 TarotCardData = {}
 
----@param fields? table
+---@param fields? TarotCardData
 ---@return TarotCardData
 function TarotCardData.new(fields) return end

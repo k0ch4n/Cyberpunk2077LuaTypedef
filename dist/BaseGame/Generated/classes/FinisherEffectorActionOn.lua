@@ -5,6 +5,6 @@
 ---@field public instigator gameObject
 FinisherEffectorActionOn = {}
 
----@param fields? table
+---@param fields? FinisherEffectorActionOn
 ---@return FinisherEffectorActionOn
 function FinisherEffectorActionOn.new(fields) return end

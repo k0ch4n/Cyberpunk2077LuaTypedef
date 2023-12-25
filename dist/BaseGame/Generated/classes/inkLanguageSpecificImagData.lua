@@ -7,6 +7,6 @@
 ---@field public partNameForLanguage CName
 inkLanguageSpecificImagData = {}
 
----@param fields? table
+---@param fields? inkLanguageSpecificImagData
 ---@return inkLanguageSpecificImagData
 function inkLanguageSpecificImagData.new(fields) return end

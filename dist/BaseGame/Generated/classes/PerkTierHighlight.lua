@@ -6,6 +6,6 @@
 ---@field public height Float
 PerkTierHighlight = {}
 
----@param fields? table
+---@param fields? PerkTierHighlight
 ---@return PerkTierHighlight
 function PerkTierHighlight.new(fields) return end

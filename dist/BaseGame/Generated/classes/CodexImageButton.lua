@@ -8,7 +8,7 @@
 ---@field protected selectTranslationX Float
 CodexImageButton = {}
 
----@param fields? table
+---@param fields? CodexImageButton
 ---@return CodexImageButton
 function CodexImageButton.new(fields) return end
 

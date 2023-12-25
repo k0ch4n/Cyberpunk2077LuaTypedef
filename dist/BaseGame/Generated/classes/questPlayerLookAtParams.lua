@@ -19,6 +19,6 @@
 ---@field public easeOut Bool
 questPlayerLookAtParams = {}
 
----@param fields? table
+---@param fields? questPlayerLookAtParams
 ---@return questPlayerLookAtParams
 function questPlayerLookAtParams.new(fields) return end

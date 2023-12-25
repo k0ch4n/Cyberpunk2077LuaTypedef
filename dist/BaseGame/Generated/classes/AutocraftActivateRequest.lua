@@ -4,6 +4,6 @@
 ---@class AutocraftActivateRequest: gameScriptableSystemRequest
 AutocraftActivateRequest = {}
 
----@param fields? table
+---@param fields? AutocraftActivateRequest
 ---@return AutocraftActivateRequest
 function AutocraftActivateRequest.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field private activeEffectIndex Int32
 AreaEffectVisualizationComponent = {}
 
----@param fields? table
+---@param fields? AreaEffectVisualizationComponent
 ---@return AreaEffectVisualizationComponent
 function AreaEffectVisualizationComponent.new(fields) return end
 

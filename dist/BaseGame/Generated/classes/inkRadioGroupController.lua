@@ -8,7 +8,7 @@
 ---@field public ValueChanged inkRadioGroupChangedCallback
 inkRadioGroupController = {}
 
----@param fields? table
+---@param fields? inkRadioGroupController
 ---@return inkRadioGroupController
 function inkRadioGroupController.new(fields) return end
 

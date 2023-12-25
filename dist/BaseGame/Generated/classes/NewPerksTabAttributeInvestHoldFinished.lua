@@ -5,6 +5,6 @@
 ---@field public attribute PerkMenuAttribute
 NewPerksTabAttributeInvestHoldFinished = {}
 
----@param fields? table
+---@param fields? NewPerksTabAttributeInvestHoldFinished
 ---@return NewPerksTabAttributeInvestHoldFinished
 function NewPerksTabAttributeInvestHoldFinished.new(fields) return end

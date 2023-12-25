@@ -6,6 +6,6 @@
 ---@field public transformInfo interopTransformInfo
 interopNodeTransformInfo = {}
 
----@param fields? table
+---@param fields? interopNodeTransformInfo
 ---@return interopNodeTransformInfo
 function interopNodeTransformInfo.new(fields) return end

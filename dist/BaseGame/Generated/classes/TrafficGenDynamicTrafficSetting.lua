@@ -5,6 +5,6 @@
 ---@field public impact TrafficGenDynamicImpact
 TrafficGenDynamicTrafficSetting = {}
 
----@param fields? table
+---@param fields? TrafficGenDynamicTrafficSetting
 ---@return TrafficGenDynamicTrafficSetting
 function TrafficGenDynamicTrafficSetting.new(fields) return end

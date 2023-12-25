@@ -5,6 +5,6 @@
 ---@field public switchName CName
 questContentSwitch_ConditionType = {}
 
----@param fields? table
+---@param fields? questContentSwitch_ConditionType
 ---@return questContentSwitch_ConditionType
 function questContentSwitch_ConditionType.new(fields) return end

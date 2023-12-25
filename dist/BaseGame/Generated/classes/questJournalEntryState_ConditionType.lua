@@ -7,6 +7,6 @@
 ---@field public inverted Bool
 questJournalEntryState_ConditionType = {}
 
----@param fields? table
+---@param fields? questJournalEntryState_ConditionType
 ---@return questJournalEntryState_ConditionType
 function questJournalEntryState_ConditionType.new(fields) return end

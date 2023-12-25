@@ -5,6 +5,6 @@
 ---@field public alpha Uint8
 worldDebugColoring_SameResourceName = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_SameResourceName
 ---@return worldDebugColoring_SameResourceName
 function worldDebugColoring_SameResourceName.new(fields) return end

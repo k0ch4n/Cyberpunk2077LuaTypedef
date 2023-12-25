@@ -7,6 +7,6 @@
 ---@field public canBeUsedAsQuickHack Bool
 SoundSystemSettings = {}
 
----@param fields? table
+---@param fields? SoundSystemSettings
 ---@return SoundSystemSettings
 function SoundSystemSettings.new(fields) return end

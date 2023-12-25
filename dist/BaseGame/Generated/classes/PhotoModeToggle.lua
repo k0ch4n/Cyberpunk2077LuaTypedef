@@ -11,7 +11,7 @@
 ---@field private fade2Anim inkanimProxy
 PhotoModeToggle = {}
 
----@param fields? table
+---@param fields? PhotoModeToggle
 ---@return PhotoModeToggle
 function PhotoModeToggle.new(fields) return end
 

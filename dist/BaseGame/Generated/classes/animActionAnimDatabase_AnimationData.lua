@@ -11,6 +11,6 @@
 ---@field public streamingContext CName
 animActionAnimDatabase_AnimationData = {}
 
----@param fields? table
+---@param fields? animActionAnimDatabase_AnimationData
 ---@return animActionAnimDatabase_AnimationData
 function animActionAnimDatabase_AnimationData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class OnUnstoppableStateSignal: gameTaggedSignalUserData
 OnUnstoppableStateSignal = {}
 
----@param fields? table
+---@param fields? OnUnstoppableStateSignal
 ---@return OnUnstoppableStateSignal
 function OnUnstoppableStateSignal.new(fields) return end

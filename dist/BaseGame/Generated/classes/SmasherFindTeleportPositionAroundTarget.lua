@@ -22,7 +22,7 @@
 ---@field private blackboard gameIBlackboard
 SmasherFindTeleportPositionAroundTarget = {}
 
----@param fields? table
+---@param fields? SmasherFindTeleportPositionAroundTarget
 ---@return SmasherFindTeleportPositionAroundTarget
 function SmasherFindTeleportPositionAroundTarget.new(fields) return end
 

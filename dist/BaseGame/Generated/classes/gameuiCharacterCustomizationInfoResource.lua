@@ -15,6 +15,6 @@
 ---@field public versionUpdateInfo gameuiCharacterCustomizationVersionUpdateInfo[]
 gameuiCharacterCustomizationInfoResource = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationInfoResource
 ---@return gameuiCharacterCustomizationInfoResource
 function gameuiCharacterCustomizationInfoResource.new(fields) return end

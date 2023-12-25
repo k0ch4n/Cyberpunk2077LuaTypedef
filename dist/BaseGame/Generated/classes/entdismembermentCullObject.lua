@@ -12,6 +12,6 @@
 ---@field public RagdollBodyIndex Uint16
 entdismembermentCullObject = {}
 
----@param fields? table
+---@param fields? entdismembermentCullObject
 ---@return entdismembermentCullObject
 function entdismembermentCullObject.new(fields) return end

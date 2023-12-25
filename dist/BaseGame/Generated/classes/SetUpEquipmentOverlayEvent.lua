@@ -7,6 +7,6 @@
 ---@field public meshOverlaySlots TweakDBID[]
 SetUpEquipmentOverlayEvent = {}
 
----@param fields? table
+---@param fields? SetUpEquipmentOverlayEvent
 ---@return SetUpEquipmentOverlayEvent
 function SetUpEquipmentOverlayEvent.new(fields) return end

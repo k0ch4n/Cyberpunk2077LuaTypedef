@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakCompiledActionConditionData
 AIbehaviortweakCompiledActionConditionData = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakCompiledActionConditionData
 ---@return AIbehaviortweakCompiledActionConditionData
 function AIbehaviortweakCompiledActionConditionData.new(fields) return end

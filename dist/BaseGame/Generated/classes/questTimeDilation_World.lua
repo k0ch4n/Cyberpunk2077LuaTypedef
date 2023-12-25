@@ -6,6 +6,6 @@
 ---@field public operation questTimeDilation_Operation
 questTimeDilation_World = {}
 
----@param fields? table
+---@param fields? questTimeDilation_World
 ---@return questTimeDilation_World
 function questTimeDilation_World.new(fields) return end

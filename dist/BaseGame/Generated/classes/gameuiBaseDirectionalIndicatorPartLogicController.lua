@@ -6,7 +6,7 @@
 ---@field public adjustedForwardFovRange Float
 gameuiBaseDirectionalIndicatorPartLogicController = {}
 
----@param fields? table
+---@param fields? gameuiBaseDirectionalIndicatorPartLogicController
 ---@return gameuiBaseDirectionalIndicatorPartLogicController
 function gameuiBaseDirectionalIndicatorPartLogicController.new(fields) return end
 

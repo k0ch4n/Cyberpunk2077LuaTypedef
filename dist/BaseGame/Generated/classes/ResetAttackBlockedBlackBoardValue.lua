@@ -4,6 +4,6 @@
 ---@class ResetAttackBlockedBlackBoardValue: redEvent
 ResetAttackBlockedBlackBoardValue = {}
 
----@param fields? table
+---@param fields? ResetAttackBlockedBlackBoardValue
 ---@return ResetAttackBlockedBlackBoardValue
 function ResetAttackBlockedBlackBoardValue.new(fields) return end

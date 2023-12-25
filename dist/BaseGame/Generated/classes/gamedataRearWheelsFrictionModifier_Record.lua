@@ -4,7 +4,7 @@
 ---@class gamedataRearWheelsFrictionModifier_Record: gamedataDriveHelper_Record
 gamedataRearWheelsFrictionModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataRearWheelsFrictionModifier_Record
 ---@return gamedataRearWheelsFrictionModifier_Record
 function gamedataRearWheelsFrictionModifier_Record.new(fields) return end
 

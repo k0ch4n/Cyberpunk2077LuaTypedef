@@ -4,6 +4,6 @@
 ---@class vehicleTeleportEvent: redEvent
 vehicleTeleportEvent = {}
 
----@param fields? table
+---@param fields? vehicleTeleportEvent
 ---@return vehicleTeleportEvent
 function vehicleTeleportEvent.new(fields) return end

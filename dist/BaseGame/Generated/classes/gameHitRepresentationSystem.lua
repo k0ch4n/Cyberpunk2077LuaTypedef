@@ -4,6 +4,6 @@
 ---@class gameHitRepresentationSystem: gameIHitRepresentationSystem
 gameHitRepresentationSystem = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationSystem
 ---@return gameHitRepresentationSystem
 function gameHitRepresentationSystem.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamedataAIActionTicket_Record: gamedataAITicket_Record
 gamedataAIActionTicket_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionTicket_Record
 ---@return gamedataAIActionTicket_Record
 function gamedataAIActionTicket_Record.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class PerksMenuAttributeItemReleased: redEvent
 PerksMenuAttributeItemReleased = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemReleased
 ---@return PerksMenuAttributeItemReleased
 function PerksMenuAttributeItemReleased.new(fields) return end

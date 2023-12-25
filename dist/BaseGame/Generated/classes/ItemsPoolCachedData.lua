@@ -5,6 +5,6 @@
 ---@field public tooltipData ATooltipData
 ItemsPoolCachedData = {}
 
----@param fields? table
+---@param fields? ItemsPoolCachedData
 ---@return ItemsPoolCachedData
 function ItemsPoolCachedData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public sizes Uint32[]
 meshMeshParamTopologyMetadata = {}
 
----@param fields? table
+---@param fields? meshMeshParamTopologyMetadata
 ---@return meshMeshParamTopologyMetadata
 function meshMeshParamTopologyMetadata.new(fields) return end

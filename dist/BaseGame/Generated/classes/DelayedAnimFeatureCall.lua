@@ -7,7 +7,7 @@
 ---@field public scriptInterface gamestateMachineGameScriptInterface
 DelayedAnimFeatureCall = {}
 
----@param fields? table
+---@param fields? DelayedAnimFeatureCall
 ---@return DelayedAnimFeatureCall
 function DelayedAnimFeatureCall.new(fields) return end
 

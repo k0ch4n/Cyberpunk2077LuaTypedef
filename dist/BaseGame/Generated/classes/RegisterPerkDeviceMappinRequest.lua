@@ -6,6 +6,6 @@
 ---@field public position Vector4
 RegisterPerkDeviceMappinRequest = {}
 
----@param fields? table
+---@param fields? RegisterPerkDeviceMappinRequest
 ---@return RegisterPerkDeviceMappinRequest
 function RegisterPerkDeviceMappinRequest.new(fields) return end

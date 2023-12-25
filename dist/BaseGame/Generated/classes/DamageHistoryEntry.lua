@@ -11,6 +11,6 @@
 ---@field public target gameObject
 DamageHistoryEntry = {}
 
----@param fields? table
+---@param fields? DamageHistoryEntry
 ---@return DamageHistoryEntry
 function DamageHistoryEntry.new(fields) return end

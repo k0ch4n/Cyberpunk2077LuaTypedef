@@ -6,7 +6,7 @@
 ---@field public fearStage gameFearStage
 SetTrafficLaneMovementParams = {}
 
----@param fields? table
+---@param fields? SetTrafficLaneMovementParams
 ---@return SetTrafficLaneMovementParams
 function SetTrafficLaneMovementParams.new(fields) return end
 

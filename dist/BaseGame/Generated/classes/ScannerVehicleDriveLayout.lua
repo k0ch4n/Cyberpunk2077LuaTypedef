@@ -5,7 +5,7 @@
 ---@field private vehicleDriveLayout String
 ScannerVehicleDriveLayout = {}
 
----@param fields? table
+---@param fields? ScannerVehicleDriveLayout
 ---@return ScannerVehicleDriveLayout
 function ScannerVehicleDriveLayout.new(fields) return end
 

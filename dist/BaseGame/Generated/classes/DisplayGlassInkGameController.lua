@@ -4,7 +4,7 @@
 ---@class DisplayGlassInkGameController: DeviceInkGameControllerBase
 DisplayGlassInkGameController = {}
 
----@param fields? table
+---@param fields? DisplayGlassInkGameController
 ---@return DisplayGlassInkGameController
 function DisplayGlassInkGameController.new(fields) return end
 

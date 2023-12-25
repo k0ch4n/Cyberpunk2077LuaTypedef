@@ -15,7 +15,7 @@
 ---@field private gameObject gameObject
 CerberusComponent = {}
 
----@param fields? table
+---@param fields? CerberusComponent
 ---@return CerberusComponent
 function CerberusComponent.new(fields) return end
 

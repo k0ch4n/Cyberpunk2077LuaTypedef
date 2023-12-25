@@ -4,7 +4,7 @@
 ---@class InteractiveAdController: ScriptableDeviceComponent
 InteractiveAdController = {}
 
----@param fields? table
+---@param fields? InteractiveAdController
 ---@return InteractiveAdController
 function InteractiveAdController.new(fields) return end
 

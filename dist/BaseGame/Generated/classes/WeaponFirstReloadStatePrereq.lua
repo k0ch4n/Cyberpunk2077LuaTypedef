@@ -4,7 +4,7 @@
 ---@class WeaponFirstReloadStatePrereq: gameIScriptablePrereq
 WeaponFirstReloadStatePrereq = {}
 
----@param fields? table
+---@param fields? WeaponFirstReloadStatePrereq
 ---@return WeaponFirstReloadStatePrereq
 function WeaponFirstReloadStatePrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class HasPlayerTakenMyVehicle: PreventionConditionAbstract
 HasPlayerTakenMyVehicle = {}
 
----@param fields? table
+---@param fields? HasPlayerTakenMyVehicle
 ---@return HasPlayerTakenMyVehicle
 function HasPlayerTakenMyVehicle.new(fields) return end
 

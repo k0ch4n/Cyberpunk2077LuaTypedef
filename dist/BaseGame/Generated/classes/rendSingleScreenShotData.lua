@@ -11,6 +11,6 @@
 ---@field public saveFormat ESaveFormat
 rendSingleScreenShotData = {}
 
----@param fields? table
+---@param fields? rendSingleScreenShotData
 ---@return rendSingleScreenShotData
 function rendSingleScreenShotData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public text String
 gameJournalMetaQuestScriptedData = {}
 
----@param fields? table
+---@param fields? gameJournalMetaQuestScriptedData
 ---@return gameJournalMetaQuestScriptedData
 function gameJournalMetaQuestScriptedData.new(fields) return end

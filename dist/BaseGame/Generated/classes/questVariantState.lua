@@ -6,6 +6,6 @@
 ---@field public show Bool
 questVariantState = {}
 
----@param fields? table
+---@param fields? questVariantState
 ---@return questVariantState
 function questVariantState.new(fields) return end

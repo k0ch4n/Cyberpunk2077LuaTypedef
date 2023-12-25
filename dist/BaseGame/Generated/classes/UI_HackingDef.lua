@@ -5,7 +5,7 @@
 ---@field public ammoIndicator gamebbScriptID_Bool
 UI_HackingDef = {}
 
----@param fields? table
+---@param fields? UI_HackingDef
 ---@return UI_HackingDef
 function UI_HackingDef.new(fields) return end
 

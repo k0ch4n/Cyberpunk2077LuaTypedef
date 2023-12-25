@@ -14,7 +14,7 @@
 ---@field private ammoWrapper inkWidgetReference
 ItemTooltipWeaponInfoModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipWeaponInfoModule
 ---@return ItemTooltipWeaponInfoModule
 function ItemTooltipWeaponInfoModule.new(fields) return end
 

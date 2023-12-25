@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakStateCallback
 AIbehaviortweakStateCallback = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakStateCallback
 ---@return AIbehaviortweakStateCallback
 function AIbehaviortweakStateCallback.new(fields) return end

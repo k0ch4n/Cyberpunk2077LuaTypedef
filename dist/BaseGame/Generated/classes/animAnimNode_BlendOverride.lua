@@ -16,6 +16,6 @@
 ---@field public postProcess animIAnimNode_PostProcess
 animAnimNode_BlendOverride = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendOverride
 ---@return animAnimNode_BlendOverride
 function animAnimNode_BlendOverride.new(fields) return end

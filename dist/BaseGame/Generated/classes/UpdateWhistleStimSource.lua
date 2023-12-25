@@ -4,7 +4,7 @@
 ---@class UpdateWhistleStimSource: UpdateWhistlePosition
 UpdateWhistleStimSource = {}
 
----@param fields? table
+---@param fields? UpdateWhistleStimSource
 ---@return UpdateWhistleStimSource
 function UpdateWhistleStimSource.new(fields) return end
 

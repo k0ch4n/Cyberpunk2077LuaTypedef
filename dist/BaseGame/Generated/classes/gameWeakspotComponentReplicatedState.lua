@@ -5,6 +5,6 @@
 ---@field public WeakspotRepInfos gameWeakSpotReplicatedInfo[]
 gameWeakspotComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? gameWeakspotComponentReplicatedState
 ---@return gameWeakspotComponentReplicatedState
 function gameWeakspotComponentReplicatedState.new(fields) return end

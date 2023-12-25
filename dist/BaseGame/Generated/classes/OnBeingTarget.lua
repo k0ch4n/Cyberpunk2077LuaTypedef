@@ -6,6 +6,6 @@
 ---@field public noLongerTarget Bool
 OnBeingTarget = {}
 
----@param fields? table
+---@param fields? OnBeingTarget
 ---@return OnBeingTarget
 function OnBeingTarget.new(fields) return end

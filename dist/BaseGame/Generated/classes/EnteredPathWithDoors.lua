@@ -4,6 +4,6 @@
 ---@class EnteredPathWithDoors: redEvent
 EnteredPathWithDoors = {}
 
----@param fields? table
+---@param fields? EnteredPathWithDoors
 ---@return EnteredPathWithDoors
 function EnteredPathWithDoors.new(fields) return end

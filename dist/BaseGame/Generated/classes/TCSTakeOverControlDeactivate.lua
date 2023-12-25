@@ -4,6 +4,6 @@
 ---@class TCSTakeOverControlDeactivate: redEvent
 TCSTakeOverControlDeactivate = {}
 
----@param fields? table
+---@param fields? TCSTakeOverControlDeactivate
 ---@return TCSTakeOverControlDeactivate
 function TCSTakeOverControlDeactivate.new(fields) return end

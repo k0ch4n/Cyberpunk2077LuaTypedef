@@ -13,7 +13,7 @@
 ---@field private proximityExplosionEventSent Bool
 ExplosiveTriggerDevice = {}
 
----@param fields? table
+---@param fields? ExplosiveTriggerDevice
 ---@return ExplosiveTriggerDevice
 function ExplosiveTriggerDevice.new(fields) return end
 

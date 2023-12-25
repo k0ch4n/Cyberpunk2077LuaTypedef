@@ -4,7 +4,7 @@
 ---@class gamedataCrowdSettingsPackageBase_Record: gamedataTweakDBRecord
 gamedataCrowdSettingsPackageBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataCrowdSettingsPackageBase_Record
 ---@return gamedataCrowdSettingsPackageBase_Record
 function gamedataCrowdSettingsPackageBase_Record.new(fields) return end
 

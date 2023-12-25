@@ -8,7 +8,7 @@
 ---@field private itemFallSFX CName
 VendorComponent = {}
 
----@param fields? table
+---@param fields? VendorComponent
 ---@return VendorComponent
 function VendorComponent.new(fields) return end
 

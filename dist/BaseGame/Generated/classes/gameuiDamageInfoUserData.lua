@@ -6,6 +6,6 @@
 ---@field public hitShapeType EHitShapeType
 gameuiDamageInfoUserData = {}
 
----@param fields? table
+---@param fields? gameuiDamageInfoUserData
 ---@return gameuiDamageInfoUserData
 function gameuiDamageInfoUserData.new(fields) return end

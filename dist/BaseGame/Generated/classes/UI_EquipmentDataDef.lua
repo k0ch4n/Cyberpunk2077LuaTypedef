@@ -7,7 +7,7 @@
 ---@field public ammoLooted gamebbScriptID_Bool
 UI_EquipmentDataDef = {}
 
----@param fields? table
+---@param fields? UI_EquipmentDataDef
 ---@return UI_EquipmentDataDef
 function UI_EquipmentDataDef.new(fields) return end
 

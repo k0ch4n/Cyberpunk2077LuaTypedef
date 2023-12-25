@@ -4,7 +4,7 @@
 ---@class gameGameFeatureManager: IScriptable
 gameGameFeatureManager = {}
 
----@param fields? table
+---@param fields? gameGameFeatureManager
 ---@return gameGameFeatureManager
 function gameGameFeatureManager.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public invert Bool
 NetworkBreachedPrereq = {}
 
----@param fields? table
+---@param fields? NetworkBreachedPrereq
 ---@return NetworkBreachedPrereq
 function NetworkBreachedPrereq.new(fields) return end
 

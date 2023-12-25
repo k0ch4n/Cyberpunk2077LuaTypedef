@@ -4,7 +4,7 @@
 ---@class inkScriptFIFOQueue: IScriptable
 inkScriptFIFOQueue = {}
 
----@param fields? table
+---@param fields? inkScriptFIFOQueue
 ---@return inkScriptFIFOQueue
 function inkScriptFIFOQueue.new(fields) return end
 

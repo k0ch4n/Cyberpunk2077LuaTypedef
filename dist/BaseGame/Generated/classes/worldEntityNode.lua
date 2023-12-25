@@ -9,6 +9,6 @@
 ---@field public entityLod Uint16
 worldEntityNode = {}
 
----@param fields? table
+---@param fields? worldEntityNode
 ---@return worldEntityNode
 function worldEntityNode.new(fields) return end

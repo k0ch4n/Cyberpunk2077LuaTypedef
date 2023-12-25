@@ -4,6 +4,6 @@
 ---@class ClearPreventionSystemLocks: gameScriptableSystemRequest
 ClearPreventionSystemLocks = {}
 
----@param fields? table
+---@param fields? ClearPreventionSystemLocks
 ---@return ClearPreventionSystemLocks
 function ClearPreventionSystemLocks.new(fields) return end

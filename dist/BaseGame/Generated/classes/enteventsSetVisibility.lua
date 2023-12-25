@@ -6,6 +6,6 @@
 ---@field public source entVisibilityParamSource
 enteventsSetVisibility = {}
 
----@param fields? table
+---@param fields? enteventsSetVisibility
 ---@return enteventsSetVisibility
 function enteventsSetVisibility.new(fields) return end

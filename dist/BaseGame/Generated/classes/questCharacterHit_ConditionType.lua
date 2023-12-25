@@ -12,6 +12,6 @@
 ---@field public excludeHitShapes CName[]
 questCharacterHit_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterHit_ConditionType
 ---@return questCharacterHit_ConditionType
 function questCharacterHit_ConditionType.new(fields) return end

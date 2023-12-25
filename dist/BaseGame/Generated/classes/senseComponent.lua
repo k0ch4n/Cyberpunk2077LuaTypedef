@@ -26,7 +26,7 @@
 ---@field private playerInPerception PlayerPuppet
 senseComponent = {}
 
----@param fields? table
+---@param fields? senseComponent
 ---@return senseComponent
 function senseComponent.new(fields) return end
 

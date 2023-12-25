@@ -18,7 +18,7 @@
 ---@field private lastStatusChangeDay Int32
 ApartmentScreenControllerPS = {}
 
----@param fields? table
+---@param fields? ApartmentScreenControllerPS
 ---@return ApartmentScreenControllerPS
 function ApartmentScreenControllerPS.new(fields) return end
 

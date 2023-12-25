@@ -5,6 +5,6 @@
 ---@field public wardrobeSet gameWardrobeClothingSetIndex
 UIScriptableSystemWardrobeSetAdded = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemWardrobeSetAdded
 ---@return UIScriptableSystemWardrobeSetAdded
 function UIScriptableSystemWardrobeSetAdded.new(fields) return end

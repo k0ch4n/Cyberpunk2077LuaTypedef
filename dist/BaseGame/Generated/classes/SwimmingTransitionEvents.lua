@@ -7,7 +7,7 @@
 ---@field public upwardsImpulseStrength Float
 SwimmingTransitionEvents = {}
 
----@param fields? table
+---@param fields? SwimmingTransitionEvents
 ---@return SwimmingTransitionEvents
 function SwimmingTransitionEvents.new(fields) return end
 

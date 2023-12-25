@@ -7,6 +7,6 @@
 ---@field public offset Float
 FlickerEvent = {}
 
----@param fields? table
+---@param fields? FlickerEvent
 ---@return FlickerEvent
 function FlickerEvent.new(fields) return end

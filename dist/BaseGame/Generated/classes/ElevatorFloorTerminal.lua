@@ -4,7 +4,7 @@
 ---@class ElevatorFloorTerminal: Terminal
 ElevatorFloorTerminal = {}
 
----@param fields? table
+---@param fields? ElevatorFloorTerminal
 ---@return ElevatorFloorTerminal
 function ElevatorFloorTerminal.new(fields) return end
 

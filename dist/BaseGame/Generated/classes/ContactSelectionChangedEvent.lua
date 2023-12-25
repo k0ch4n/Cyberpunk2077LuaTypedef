@@ -5,6 +5,6 @@
 ---@field public ContactData ContactData
 ContactSelectionChangedEvent = {}
 
----@param fields? table
+---@param fields? ContactSelectionChangedEvent
 ---@return ContactSelectionChangedEvent
 function ContactSelectionChangedEvent.new(fields) return end

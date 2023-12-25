@@ -5,6 +5,6 @@
 ---@field public unEquip Bool
 AISwitchToSecondaryWeaponCommand = {}
 
----@param fields? table
+---@param fields? AISwitchToSecondaryWeaponCommand
 ---@return AISwitchToSecondaryWeaponCommand
 function AISwitchToSecondaryWeaponCommand.new(fields) return end

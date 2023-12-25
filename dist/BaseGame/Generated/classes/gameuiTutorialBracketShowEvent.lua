@@ -5,6 +5,6 @@
 ---@field public data gameTutorialBracketData
 gameuiTutorialBracketShowEvent = {}
 
----@param fields? table
+---@param fields? gameuiTutorialBracketShowEvent
 ---@return gameuiTutorialBracketShowEvent
 function gameuiTutorialBracketShowEvent.new(fields) return end

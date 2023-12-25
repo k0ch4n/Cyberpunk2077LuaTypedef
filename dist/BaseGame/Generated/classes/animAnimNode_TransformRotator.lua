@@ -12,6 +12,6 @@
 ---@field public angleSpeedNode animFloatLink
 animAnimNode_TransformRotator = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformRotator
 ---@return animAnimNode_TransformRotator
 function animAnimNode_TransformRotator.new(fields) return end

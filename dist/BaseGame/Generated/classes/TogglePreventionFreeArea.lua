@@ -6,7 +6,7 @@
 ---@field public enable Bool
 TogglePreventionFreeArea = {}
 
----@param fields? table
+---@param fields? TogglePreventionFreeArea
 ---@return TogglePreventionFreeArea
 function TogglePreventionFreeArea.new(fields) return end
 

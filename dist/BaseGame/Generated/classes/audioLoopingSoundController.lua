@@ -7,6 +7,6 @@
 ---@field public stopEvent CName
 audioLoopingSoundController = {}
 
----@param fields? table
+---@param fields? audioLoopingSoundController
 ---@return audioLoopingSoundController
 function audioLoopingSoundController.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuickHackDistraction: ActionBool
 QuickHackDistraction = {}
 
----@param fields? table
+---@param fields? QuickHackDistraction
 ---@return QuickHackDistraction
 function QuickHackDistraction.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private buttonRef WeaponVendorActionWidgetController
 WeaponMachineInkGameController = {}
 
----@param fields? table
+---@param fields? WeaponMachineInkGameController
 ---@return WeaponMachineInkGameController
 function WeaponMachineInkGameController.new(fields) return end
 

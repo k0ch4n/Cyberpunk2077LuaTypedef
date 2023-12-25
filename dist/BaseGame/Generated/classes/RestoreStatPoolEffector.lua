@@ -7,7 +7,7 @@
 ---@field public percentage Bool
 RestoreStatPoolEffector = {}
 
----@param fields? table
+---@param fields? RestoreStatPoolEffector
 ---@return RestoreStatPoolEffector
 function RestoreStatPoolEffector.new(fields) return end
 

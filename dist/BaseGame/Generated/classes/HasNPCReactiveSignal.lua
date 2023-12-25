@@ -4,7 +4,7 @@
 ---@class HasNPCReactiveSignal: PreventionConditionAbstract
 HasNPCReactiveSignal = {}
 
----@param fields? table
+---@param fields? HasNPCReactiveSignal
 ---@return HasNPCReactiveSignal
 function HasNPCReactiveSignal.new(fields) return end
 

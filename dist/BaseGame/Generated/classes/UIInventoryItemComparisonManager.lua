@@ -7,7 +7,7 @@
 ---@field private comparisonHash Uint64
 UIInventoryItemComparisonManager = {}
 
----@param fields? table
+---@param fields? UIInventoryItemComparisonManager
 ---@return UIInventoryItemComparisonManager
 function UIInventoryItemComparisonManager.new(fields) return end
 

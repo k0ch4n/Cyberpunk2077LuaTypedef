@@ -4,7 +4,7 @@
 ---@class InvincibilityCollisionLogic: BonusCollisionLogic
 InvincibilityCollisionLogic = {}
 
----@param fields? table
+---@param fields? InvincibilityCollisionLogic
 ---@return InvincibilityCollisionLogic
 function InvincibilityCollisionLogic.new(fields) return end
 

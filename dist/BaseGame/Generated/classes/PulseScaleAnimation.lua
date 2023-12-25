@@ -4,7 +4,7 @@
 ---@class PulseScaleAnimation: PulseAnimation
 PulseScaleAnimation = {}
 
----@param fields? table
+---@param fields? PulseScaleAnimation
 ---@return PulseScaleAnimation
 function PulseScaleAnimation.new(fields) return end
 

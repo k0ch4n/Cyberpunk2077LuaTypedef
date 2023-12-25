@@ -11,7 +11,7 @@
 ---@field private disableSeparators Bool
 ItemTooltipCyberwareWeaponModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipCyberwareWeaponModule
 ---@return ItemTooltipCyberwareWeaponModule
 function ItemTooltipCyberwareWeaponModule.new(fields) return end
 

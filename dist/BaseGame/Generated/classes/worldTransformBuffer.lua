@@ -7,6 +7,6 @@
 ---@field public numElements Uint32
 worldTransformBuffer = {}
 
----@param fields? table
+---@param fields? worldTransformBuffer
 ---@return worldTransformBuffer
 function worldTransformBuffer.new(fields) return end

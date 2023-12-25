@@ -7,6 +7,6 @@
 ---@field public constraints gameEffectInputParameter_Vector
 gameEffectObjectFilter_AxisRange = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_AxisRange
 ---@return gameEffectObjectFilter_AxisRange
 function gameEffectObjectFilter_AxisRange.new(fields) return end

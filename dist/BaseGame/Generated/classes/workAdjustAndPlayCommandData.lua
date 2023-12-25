@@ -4,6 +4,6 @@
 ---@class workAdjustAndPlayCommandData: workIWorkspotCommandData
 workAdjustAndPlayCommandData = {}
 
----@param fields? table
+---@param fields? workAdjustAndPlayCommandData
 ---@return workAdjustAndPlayCommandData
 function workAdjustAndPlayCommandData.new(fields) return end

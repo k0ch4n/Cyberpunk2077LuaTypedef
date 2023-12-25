@@ -5,6 +5,6 @@
 ---@field public sceneryObjectSpawnTime Float
 gameuiarcadeRoachRaceSceneryObjectSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceSceneryObjectSpawnerController
 ---@return gameuiarcadeRoachRaceSceneryObjectSpawnerController
 function gameuiarcadeRoachRaceSceneryObjectSpawnerController.new(fields) return end

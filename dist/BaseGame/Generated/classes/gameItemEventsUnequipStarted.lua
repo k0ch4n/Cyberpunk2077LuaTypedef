@@ -4,6 +4,6 @@
 ---@class gameItemEventsUnequipStarted: redEvent
 gameItemEventsUnequipStarted = {}
 
----@param fields? table
+---@param fields? gameItemEventsUnequipStarted
 ---@return gameItemEventsUnequipStarted
 function gameItemEventsUnequipStarted.new(fields) return end

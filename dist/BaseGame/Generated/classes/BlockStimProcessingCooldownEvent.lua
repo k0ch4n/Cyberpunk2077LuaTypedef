@@ -5,6 +5,6 @@
 ---@field public stimData StimIdentificationData
 BlockStimProcessingCooldownEvent = {}
 
----@param fields? table
+---@param fields? BlockStimProcessingCooldownEvent
 ---@return BlockStimProcessingCooldownEvent
 function BlockStimProcessingCooldownEvent.new(fields) return end

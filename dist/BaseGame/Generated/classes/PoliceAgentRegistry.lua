@@ -8,7 +8,7 @@
 ---@field private requestTickets TicketData[]
 PoliceAgentRegistry = {}
 
----@param fields? table
+---@param fields? PoliceAgentRegistry
 ---@return PoliceAgentRegistry
 function PoliceAgentRegistry.new(fields) return end
 

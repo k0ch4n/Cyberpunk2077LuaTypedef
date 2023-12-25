@@ -15,7 +15,7 @@
 ---@field protected isRadialVariant Bool
 HubMenuLabelController = {}
 
----@param fields? table
+---@param fields? HubMenuLabelController
 ---@return HubMenuLabelController
 function HubMenuLabelController.new(fields) return end
 

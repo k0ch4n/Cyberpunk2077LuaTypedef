@@ -6,6 +6,6 @@
 ---@field public lightColorOverride HDRColor
 worldWorldGlobalLightOverrideWithColorParameters = {}
 
----@param fields? table
+---@param fields? worldWorldGlobalLightOverrideWithColorParameters
 ---@return worldWorldGlobalLightOverrideWithColorParameters
 function worldWorldGlobalLightOverrideWithColorParameters.new(fields) return end

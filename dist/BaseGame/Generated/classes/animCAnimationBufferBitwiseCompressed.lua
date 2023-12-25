@@ -18,6 +18,6 @@
 ---@field public numExtraBones Uint32
 animCAnimationBufferBitwiseCompressed = {}
 
----@param fields? table
+---@param fields? animCAnimationBufferBitwiseCompressed
 ---@return animCAnimationBufferBitwiseCompressed
 function animCAnimationBufferBitwiseCompressed.new(fields) return end

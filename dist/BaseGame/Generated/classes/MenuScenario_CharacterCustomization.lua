@@ -4,7 +4,7 @@
 ---@class MenuScenario_CharacterCustomization: MenuScenario_PreGameSubMenu
 MenuScenario_CharacterCustomization = {}
 
----@param fields? table
+---@param fields? MenuScenario_CharacterCustomization
 ---@return MenuScenario_CharacterCustomization
 function MenuScenario_CharacterCustomization.new(fields) return end
 

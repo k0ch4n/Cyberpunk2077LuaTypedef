@@ -4,6 +4,6 @@
 ---@class gameRemains: gameObject
 gameRemains = {}
 
----@param fields? table
+---@param fields? gameRemains
 ---@return gameRemains
 function gameRemains.new(fields) return end

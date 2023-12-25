@@ -4,6 +4,6 @@
 ---@class HighLevelNPCStatePrereqState: NPCStatePrereqState
 HighLevelNPCStatePrereqState = {}
 
----@param fields? table
+---@param fields? HighLevelNPCStatePrereqState
 ---@return HighLevelNPCStatePrereqState
 function HighLevelNPCStatePrereqState.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public visuals questPhoneCallVisuals
 TalkingTriggerRequest = {}
 
----@param fields? table
+---@param fields? TalkingTriggerRequest
 ---@return TalkingTriggerRequest
 function TalkingTriggerRequest.new(fields) return end

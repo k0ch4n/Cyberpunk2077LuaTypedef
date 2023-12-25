@@ -5,6 +5,6 @@
 ---@field public isPurchased Bool
 EdgrunnerPerkEvent = {}
 
----@param fields? table
+---@param fields? EdgrunnerPerkEvent
 ---@return EdgrunnerPerkEvent
 function EdgrunnerPerkEvent.new(fields) return end

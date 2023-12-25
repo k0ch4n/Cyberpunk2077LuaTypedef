@@ -6,6 +6,6 @@
 ---@field public coverExitDirection Int32
 animAnimFeature_ExitCover = {}
 
----@param fields? table
+---@param fields? animAnimFeature_ExitCover
 ---@return animAnimFeature_ExitCover
 function animAnimFeature_ExitCover.new(fields) return end

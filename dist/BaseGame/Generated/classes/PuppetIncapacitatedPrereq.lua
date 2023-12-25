@@ -4,7 +4,7 @@
 ---@class PuppetIncapacitatedPrereq: gameIScriptablePrereq
 PuppetIncapacitatedPrereq = {}
 
----@param fields? table
+---@param fields? PuppetIncapacitatedPrereq
 ---@return PuppetIncapacitatedPrereq
 function PuppetIncapacitatedPrereq.new(fields) return end
 

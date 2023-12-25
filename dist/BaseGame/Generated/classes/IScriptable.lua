@@ -4,7 +4,7 @@
 ---@class IScriptable: ISerializable
 IScriptable = {}
 
----@param fields? table
+---@param fields? IScriptable
 ---@return IScriptable
 function IScriptable.new(fields) return end
 

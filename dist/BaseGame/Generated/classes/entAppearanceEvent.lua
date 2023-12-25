@@ -6,6 +6,6 @@
 ---@field public componentName CName
 entAppearanceEvent = {}
 
----@param fields? table
+---@param fields? entAppearanceEvent
 ---@return entAppearanceEvent
 function entAppearanceEvent.new(fields) return end

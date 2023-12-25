@@ -4,6 +4,6 @@
 ---@class inkAdditionalContentStatusUpdateCallback: inkCallbackBase
 inkAdditionalContentStatusUpdateCallback = {}
 
----@param fields? table
+---@param fields? inkAdditionalContentStatusUpdateCallback
 ---@return inkAdditionalContentStatusUpdateCallback
 function inkAdditionalContentStatusUpdateCallback.new(fields) return end

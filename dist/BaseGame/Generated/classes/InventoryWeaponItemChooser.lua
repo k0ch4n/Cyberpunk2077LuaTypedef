@@ -15,7 +15,7 @@
 ---@field protected softwareModsContainer inkWidgetReference
 InventoryWeaponItemChooser = {}
 
----@param fields? table
+---@param fields? InventoryWeaponItemChooser
 ---@return InventoryWeaponItemChooser
 function InventoryWeaponItemChooser.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public playerListEntry inkWidget
 PlayerListEntryData = {}
 
----@param fields? table
+---@param fields? PlayerListEntryData
 ---@return PlayerListEntryData
 function PlayerListEntryData.new(fields) return end

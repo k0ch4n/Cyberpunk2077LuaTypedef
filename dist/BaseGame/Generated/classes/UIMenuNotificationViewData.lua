@@ -6,7 +6,7 @@
 ---@field public notificationType UIMenuNotificationType
 UIMenuNotificationViewData = {}
 
----@param fields? table
+---@param fields? UIMenuNotificationViewData
 ---@return UIMenuNotificationViewData
 function UIMenuNotificationViewData.new(fields) return end
 

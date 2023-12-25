@@ -6,7 +6,7 @@
 ---@field public shapes gameEnvironmentDamageReceiverShape[]
 gameEnvironmentDamageReceiverComponent = {}
 
----@param fields? table
+---@param fields? gameEnvironmentDamageReceiverComponent
 ---@return gameEnvironmentDamageReceiverComponent
 function gameEnvironmentDamageReceiverComponent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameuiPreGameMenuGameController: gameuiBaseMenuGameController
 gameuiPreGameMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiPreGameMenuGameController
 ---@return gameuiPreGameMenuGameController
 function gameuiPreGameMenuGameController.new(fields) return end
 

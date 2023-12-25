@@ -4,7 +4,7 @@
 ---@class inkMenuInstance_SpawnAddressedEvent: inkMenuInstance_SpawnEvent
 inkMenuInstance_SpawnAddressedEvent = {}
 
----@param fields? table
+---@param fields? inkMenuInstance_SpawnAddressedEvent
 ---@return inkMenuInstance_SpawnAddressedEvent
 function inkMenuInstance_SpawnAddressedEvent.new(fields) return end
 

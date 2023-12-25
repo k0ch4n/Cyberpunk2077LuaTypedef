@@ -7,6 +7,6 @@
 ---@field public NoIcon Bool
 TransmogMessageTooltipData = {}
 
----@param fields? table
+---@param fields? TransmogMessageTooltipData
 ---@return TransmogMessageTooltipData
 function TransmogMessageTooltipData.new(fields) return end

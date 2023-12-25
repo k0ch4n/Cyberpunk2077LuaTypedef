@@ -6,7 +6,7 @@
 ---@field private animationName CName
 ExpansionStatePopupGameController = {}
 
----@param fields? table
+---@param fields? ExpansionStatePopupGameController
 ---@return ExpansionStatePopupGameController
 function ExpansionStatePopupGameController.new(fields) return end
 

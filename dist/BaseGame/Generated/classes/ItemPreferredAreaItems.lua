@@ -6,6 +6,6 @@
 ---@field public items gameInventoryItemData[]
 ItemPreferredAreaItems = {}
 
----@param fields? table
+---@param fields? ItemPreferredAreaItems
 ---@return ItemPreferredAreaItems
 function ItemPreferredAreaItems.new(fields) return end

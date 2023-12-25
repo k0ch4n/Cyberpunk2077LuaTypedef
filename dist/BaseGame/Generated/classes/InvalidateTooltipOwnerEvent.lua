@@ -4,6 +4,6 @@
 ---@class InvalidateTooltipOwnerEvent: redEvent
 InvalidateTooltipOwnerEvent = {}
 
----@param fields? table
+---@param fields? InvalidateTooltipOwnerEvent
 ---@return InvalidateTooltipOwnerEvent
 function InvalidateTooltipOwnerEvent.new(fields) return end

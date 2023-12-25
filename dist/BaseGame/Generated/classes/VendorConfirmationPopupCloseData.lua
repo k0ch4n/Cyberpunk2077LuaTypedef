@@ -9,6 +9,6 @@
 ---@field public type VendorConfirmationPopupType
 VendorConfirmationPopupCloseData = {}
 
----@param fields? table
+---@param fields? VendorConfirmationPopupCloseData
 ---@return VendorConfirmationPopupCloseData
 function VendorConfirmationPopupCloseData.new(fields) return end

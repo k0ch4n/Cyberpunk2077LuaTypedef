@@ -7,6 +7,6 @@
 ---@field public devPoints SDevelopmentPoints[]
 LevelUpdateEvent = {}
 
----@param fields? table
+---@param fields? LevelUpdateEvent
 ---@return LevelUpdateEvent
 function LevelUpdateEvent.new(fields) return end

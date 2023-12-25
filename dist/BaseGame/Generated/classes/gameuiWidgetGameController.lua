@@ -4,7 +4,7 @@
 ---@class gameuiWidgetGameController: worlduiIWidgetGameController
 gameuiWidgetGameController = {}
 
----@param fields? table
+---@param fields? gameuiWidgetGameController
 ---@return gameuiWidgetGameController
 function gameuiWidgetGameController.new(fields) return end
 

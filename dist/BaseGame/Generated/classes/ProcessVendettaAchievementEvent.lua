@@ -5,6 +5,6 @@
 ---@field public deathInstigator gameObject
 ProcessVendettaAchievementEvent = {}
 
----@param fields? table
+---@param fields? ProcessVendettaAchievementEvent
 ---@return ProcessVendettaAchievementEvent
 function ProcessVendettaAchievementEvent.new(fields) return end

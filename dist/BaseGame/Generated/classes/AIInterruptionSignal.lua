@@ -6,6 +6,6 @@
 ---@field public signal CName
 AIInterruptionSignal = {}
 
----@param fields? table
+---@param fields? AIInterruptionSignal
 ---@return AIInterruptionSignal
 function AIInterruptionSignal.new(fields) return end

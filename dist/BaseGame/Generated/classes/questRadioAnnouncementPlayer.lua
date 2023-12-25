@@ -4,6 +4,6 @@
 ---@class questRadioAnnouncementPlayer: audioBaseRadioAnnouncementPlayer
 questRadioAnnouncementPlayer = {}
 
----@param fields? table
+---@param fields? questRadioAnnouncementPlayer
 ---@return questRadioAnnouncementPlayer
 function questRadioAnnouncementPlayer.new(fields) return end

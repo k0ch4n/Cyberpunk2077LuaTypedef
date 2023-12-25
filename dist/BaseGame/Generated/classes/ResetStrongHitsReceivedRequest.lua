@@ -4,6 +4,6 @@
 ---@class ResetStrongHitsReceivedRequest: gameScriptableSystemRequest
 ResetStrongHitsReceivedRequest = {}
 
----@param fields? table
+---@param fields? ResetStrongHitsReceivedRequest
 ---@return ResetStrongHitsReceivedRequest
 function ResetStrongHitsReceivedRequest.new(fields) return end

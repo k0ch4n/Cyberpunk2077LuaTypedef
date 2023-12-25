@@ -5,6 +5,6 @@
 ---@field public items effectTrackItem[]
 effectTrack = {}
 
----@param fields? table
+---@param fields? effectTrack
 ---@return effectTrack
 function effectTrack.new(fields) return end

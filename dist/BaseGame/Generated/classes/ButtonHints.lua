@@ -5,7 +5,7 @@
 ---@field public horizontalHolder inkCompoundWidgetReference
 ButtonHints = {}
 
----@param fields? table
+---@param fields? ButtonHints
 ---@return ButtonHints
 function ButtonHints.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public layer gameuiEBraindanceLayer
 questAddBraindanceClue_NodeType = {}
 
----@param fields? table
+---@param fields? questAddBraindanceClue_NodeType
 ---@return questAddBraindanceClue_NodeType
 function questAddBraindanceClue_NodeType.new(fields) return end

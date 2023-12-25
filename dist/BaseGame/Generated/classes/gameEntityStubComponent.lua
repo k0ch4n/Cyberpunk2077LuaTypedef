@@ -4,6 +4,6 @@
 ---@class gameEntityStubComponent: gameComponent
 gameEntityStubComponent = {}
 
----@param fields? table
+---@param fields? gameEntityStubComponent
 ---@return gameEntityStubComponent
 function gameEntityStubComponent.new(fields) return end

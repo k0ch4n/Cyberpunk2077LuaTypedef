@@ -4,7 +4,7 @@
 ---@class ToggleAlarm: ActionBool
 ToggleAlarm = {}
 
----@param fields? table
+---@param fields? ToggleAlarm
 ---@return ToggleAlarm
 function ToggleAlarm.new(fields) return end
 

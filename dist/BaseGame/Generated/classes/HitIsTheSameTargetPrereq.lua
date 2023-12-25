@@ -7,7 +7,7 @@
 ---@field public invert Bool
 HitIsTheSameTargetPrereq = {}
 
----@param fields? table
+---@param fields? HitIsTheSameTargetPrereq
 ---@return HitIsTheSameTargetPrereq
 function HitIsTheSameTargetPrereq.new(fields) return end
 

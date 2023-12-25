@@ -6,6 +6,6 @@
 ---@field public repeatCommandOnInterrupt Bool
 questPatrolParams = {}
 
----@param fields? table
+---@param fields? questPatrolParams
 ---@return questPatrolParams
 function questPatrolParams.new(fields) return end

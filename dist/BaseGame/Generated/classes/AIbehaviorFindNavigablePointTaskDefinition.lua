@@ -7,6 +7,6 @@
 ---@field public outWasAdjusted AIArgumentMapping
 AIbehaviorFindNavigablePointTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindNavigablePointTaskDefinition
 ---@return AIbehaviorFindNavigablePointTaskDefinition
 function AIbehaviorFindNavigablePointTaskDefinition.new(fields) return end

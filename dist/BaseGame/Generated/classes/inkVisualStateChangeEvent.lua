@@ -5,6 +5,6 @@
 ---@field public visualState CName
 inkVisualStateChangeEvent = {}
 
----@param fields? table
+---@param fields? inkVisualStateChangeEvent
 ---@return inkVisualStateChangeEvent
 function inkVisualStateChangeEvent.new(fields) return end

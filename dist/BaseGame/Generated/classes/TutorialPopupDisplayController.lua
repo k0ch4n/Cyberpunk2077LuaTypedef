@@ -13,7 +13,7 @@
 ---@field private data TutorialPopupData
 TutorialPopupDisplayController = {}
 
----@param fields? table
+---@param fields? TutorialPopupDisplayController
 ---@return TutorialPopupDisplayController
 function TutorialPopupDisplayController.new(fields) return end
 

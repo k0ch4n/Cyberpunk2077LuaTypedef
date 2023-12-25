@@ -6,6 +6,6 @@
 ---@field public name CName
 entVertexAnimationMapperSource = {}
 
----@param fields? table
+---@param fields? entVertexAnimationMapperSource
 ---@return entVertexAnimationMapperSource
 function entVertexAnimationMapperSource.new(fields) return end

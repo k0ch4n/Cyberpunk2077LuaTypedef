@@ -4,7 +4,7 @@
 ---@class FullAutoEvents: WeaponEventsTransition
 FullAutoEvents = {}
 
----@param fields? table
+---@param fields? FullAutoEvents
 ---@return FullAutoEvents
 function FullAutoEvents.new(fields) return end
 

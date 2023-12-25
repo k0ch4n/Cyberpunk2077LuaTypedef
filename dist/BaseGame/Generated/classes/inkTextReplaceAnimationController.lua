@@ -9,7 +9,7 @@
 ---@field public targetTextLocalized LocalizationString
 inkTextReplaceAnimationController = {}
 
----@param fields? table
+---@param fields? inkTextReplaceAnimationController
 ---@return inkTextReplaceAnimationController
 function inkTextReplaceAnimationController.new(fields) return end
 

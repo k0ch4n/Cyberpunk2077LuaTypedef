@@ -4,6 +4,6 @@
 ---@class StealthZonesGameController: gameuiHUDGameController
 StealthZonesGameController = {}
 
----@param fields? table
+---@param fields? StealthZonesGameController
 ---@return StealthZonesGameController
 function StealthZonesGameController.new(fields) return end

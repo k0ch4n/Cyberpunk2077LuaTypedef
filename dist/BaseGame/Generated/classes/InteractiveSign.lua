@@ -7,7 +7,7 @@
 ---@field private message String
 InteractiveSign = {}
 
----@param fields? table
+---@param fields? InteractiveSign
 ---@return InteractiveSign
 function InteractiveSign.new(fields) return end
 

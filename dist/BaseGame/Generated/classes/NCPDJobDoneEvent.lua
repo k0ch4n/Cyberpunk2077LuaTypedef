@@ -6,6 +6,6 @@
 ---@field public streetCredXPAwarded Int32
 NCPDJobDoneEvent = {}
 
----@param fields? table
+---@param fields? NCPDJobDoneEvent
 ---@return NCPDJobDoneEvent
 function NCPDJobDoneEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public triggerMode gamedataTriggerMode
 TriggerModeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? TriggerModeHitPrereqCondition
 ---@return TriggerModeHitPrereqCondition
 function TriggerModeHitPrereqCondition.new(fields) return end
 

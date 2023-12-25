@@ -4,7 +4,7 @@
 ---@class Reflection
 Reflection = {}
 
----@param fields? table
+---@param fields? Reflection
 ---@return Reflection
 function Reflection.new(fields) return end
 

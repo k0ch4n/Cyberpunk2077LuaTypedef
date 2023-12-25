@@ -5,6 +5,6 @@
 ---@field public partName CName
 vehicleOnPartDetachedEvent = {}
 
----@param fields? table
+---@param fields? vehicleOnPartDetachedEvent
 ---@return vehicleOnPartDetachedEvent
 function vehicleOnPartDetachedEvent.new(fields) return end

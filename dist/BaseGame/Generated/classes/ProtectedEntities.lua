@@ -5,6 +5,6 @@
 ---@field public protectedEntities entEntityID[]
 ProtectedEntities = {}
 
----@param fields? table
+---@param fields? ProtectedEntities
 ---@return ProtectedEntities
 function ProtectedEntities.new(fields) return end

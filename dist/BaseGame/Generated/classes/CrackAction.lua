@@ -4,7 +4,7 @@
 ---@class CrackAction: BaseItemAction
 CrackAction = {}
 
----@param fields? table
+---@param fields? CrackAction
 ---@return CrackAction
 function CrackAction.new(fields) return end
 

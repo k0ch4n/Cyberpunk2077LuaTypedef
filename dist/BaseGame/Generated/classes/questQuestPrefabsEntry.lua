@@ -6,6 +6,6 @@
 ---@field public loadingMode worldQuestPrefabLoadingMode
 questQuestPrefabsEntry = {}
 
----@param fields? table
+---@param fields? questQuestPrefabsEntry
 ---@return questQuestPrefabsEntry
 function questQuestPrefabsEntry.new(fields) return end

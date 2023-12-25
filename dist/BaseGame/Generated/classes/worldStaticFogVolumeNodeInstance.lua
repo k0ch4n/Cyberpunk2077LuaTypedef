@@ -4,6 +4,6 @@
 ---@class worldStaticFogVolumeNodeInstance: worldINodeInstance
 worldStaticFogVolumeNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticFogVolumeNodeInstance
 ---@return worldStaticFogVolumeNodeInstance
 function worldStaticFogVolumeNodeInstance.new(fields) return end

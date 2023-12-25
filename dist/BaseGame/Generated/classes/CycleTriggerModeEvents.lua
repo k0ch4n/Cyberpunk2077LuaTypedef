@@ -4,7 +4,7 @@
 ---@class CycleTriggerModeEvents: WeaponEventsTransition
 CycleTriggerModeEvents = {}
 
----@param fields? table
+---@param fields? CycleTriggerModeEvents
 ---@return CycleTriggerModeEvents
 function CycleTriggerModeEvents.new(fields) return end
 

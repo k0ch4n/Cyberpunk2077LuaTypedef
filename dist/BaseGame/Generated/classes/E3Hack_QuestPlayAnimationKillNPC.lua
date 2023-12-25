@@ -4,7 +4,7 @@
 ---@class E3Hack_QuestPlayAnimationKillNPC: ActionBool
 E3Hack_QuestPlayAnimationKillNPC = {}
 
----@param fields? table
+---@param fields? E3Hack_QuestPlayAnimationKillNPC
 ---@return E3Hack_QuestPlayAnimationKillNPC
 function E3Hack_QuestPlayAnimationKillNPC.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public restartDuration Int32
 FullSystemRestart = {}
 
----@param fields? table
+---@param fields? FullSystemRestart
 ---@return FullSystemRestart
 function FullSystemRestart.new(fields) return end
 

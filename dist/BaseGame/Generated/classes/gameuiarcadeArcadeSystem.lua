@@ -4,6 +4,6 @@
 ---@class gameuiarcadeArcadeSystem: gameIGameSystem
 gameuiarcadeArcadeSystem = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeSystem
 ---@return gameuiarcadeArcadeSystem
 function gameuiarcadeArcadeSystem.new(fields) return end

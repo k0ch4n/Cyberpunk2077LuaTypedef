@@ -10,6 +10,6 @@
 ---@field public microblends MicroblendDef[]
 CMaterialLayerLibrary = {}
 
----@param fields? table
+---@param fields? CMaterialLayerLibrary
 ---@return CMaterialLayerLibrary
 function CMaterialLayerLibrary.new(fields) return end

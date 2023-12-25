@@ -7,7 +7,7 @@
 ---@field public order Int32
 TvChannelSpawnData = {}
 
----@param fields? table
+---@param fields? TvChannelSpawnData
 ---@return TvChannelSpawnData
 function TvChannelSpawnData.new(fields) return end
 

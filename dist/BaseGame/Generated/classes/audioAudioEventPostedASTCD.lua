@@ -5,6 +5,6 @@
 ---@field public audioEvent CName
 audioAudioEventPostedASTCD = {}
 
----@param fields? table
+---@param fields? audioAudioEventPostedASTCD
 ---@return audioAudioEventPostedASTCD
 function audioAudioEventPostedASTCD.new(fields) return end

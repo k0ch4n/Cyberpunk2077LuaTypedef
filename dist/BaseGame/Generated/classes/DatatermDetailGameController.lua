@@ -26,7 +26,7 @@
 ---@field public isAttemptedToStop Bool
 DatatermDetailGameController = {}
 
----@param fields? table
+---@param fields? DatatermDetailGameController
 ---@return DatatermDetailGameController
 function DatatermDetailGameController.new(fields) return end
 

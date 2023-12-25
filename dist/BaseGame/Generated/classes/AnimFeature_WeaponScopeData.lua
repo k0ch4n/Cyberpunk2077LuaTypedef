@@ -6,6 +6,6 @@
 ---@field public hasScope Bool
 AnimFeature_WeaponScopeData = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponScopeData
 ---@return AnimFeature_WeaponScopeData
 function AnimFeature_WeaponScopeData.new(fields) return end

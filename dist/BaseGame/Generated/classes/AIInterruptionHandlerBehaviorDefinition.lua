@@ -8,6 +8,6 @@
 ---@field public blockInterruption Bool
 AIInterruptionHandlerBehaviorDefinition = {}
 
----@param fields? table
+---@param fields? AIInterruptionHandlerBehaviorDefinition
 ---@return AIInterruptionHandlerBehaviorDefinition
 function AIInterruptionHandlerBehaviorDefinition.new(fields) return end

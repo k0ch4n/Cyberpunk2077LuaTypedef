@@ -5,7 +5,7 @@
 ---@field private factProperties ComputerQuickHackData
 FactQuickHack = {}
 
----@param fields? table
+---@param fields? FactQuickHack
 ---@return FactQuickHack
 function FactQuickHack.new(fields) return end
 

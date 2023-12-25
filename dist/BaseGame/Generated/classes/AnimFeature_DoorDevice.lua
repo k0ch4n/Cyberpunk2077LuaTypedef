@@ -7,6 +7,6 @@
 ---@field public isSealed Bool
 AnimFeature_DoorDevice = {}
 
----@param fields? table
+---@param fields? AnimFeature_DoorDevice
 ---@return AnimFeature_DoorDevice
 function AnimFeature_DoorDevice.new(fields) return end

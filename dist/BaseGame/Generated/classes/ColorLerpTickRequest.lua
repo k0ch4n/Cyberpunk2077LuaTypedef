@@ -4,6 +4,6 @@
 ---@class ColorLerpTickRequest: gameScriptableSystemRequest
 ColorLerpTickRequest = {}
 
----@param fields? table
+---@param fields? ColorLerpTickRequest
 ---@return ColorLerpTickRequest
 function ColorLerpTickRequest.new(fields) return end

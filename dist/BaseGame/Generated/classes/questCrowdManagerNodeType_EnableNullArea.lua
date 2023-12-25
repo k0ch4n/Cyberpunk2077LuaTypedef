@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questCrowdManagerNodeType_EnableNullArea = {}
 
----@param fields? table
+---@param fields? questCrowdManagerNodeType_EnableNullArea
 ---@return questCrowdManagerNodeType_EnableNullArea
 function questCrowdManagerNodeType_EnableNullArea.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field private actionRestrictionCallbackID redCallbackObject
 InteractiveDevice = {}
 
----@param fields? table
+---@param fields? InteractiveDevice
 ---@return InteractiveDevice
 function InteractiveDevice.new(fields) return end
 

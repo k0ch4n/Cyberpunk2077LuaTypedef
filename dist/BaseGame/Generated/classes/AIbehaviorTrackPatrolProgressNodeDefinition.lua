@@ -12,6 +12,6 @@
 ---@field public fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorTrackPatrolProgressNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorTrackPatrolProgressNodeDefinition
 ---@return AIbehaviorTrackPatrolProgressNodeDefinition
 function AIbehaviorTrackPatrolProgressNodeDefinition.new(fields) return end

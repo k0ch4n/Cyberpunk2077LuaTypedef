@@ -9,7 +9,7 @@
 ---@field public entireFolder Bool
 EnableDocumentEvent = {}
 
----@param fields? table
+---@param fields? EnableDocumentEvent
 ---@return EnableDocumentEvent
 function EnableDocumentEvent.new(fields) return end
 

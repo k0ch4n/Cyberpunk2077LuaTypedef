@@ -4,6 +4,6 @@
 ---@class RemoveCachedStatusEffectFXEvent: redEvent
 RemoveCachedStatusEffectFXEvent = {}
 
----@param fields? table
+---@param fields? RemoveCachedStatusEffectFXEvent
 ---@return RemoveCachedStatusEffectFXEvent
 function RemoveCachedStatusEffectFXEvent.new(fields) return end

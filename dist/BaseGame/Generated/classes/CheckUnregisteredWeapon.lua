@@ -9,7 +9,7 @@
 ---@field private initialized Bool
 CheckUnregisteredWeapon = {}
 
----@param fields? table
+---@param fields? CheckUnregisteredWeapon
 ---@return CheckUnregisteredWeapon
 function CheckUnregisteredWeapon.new(fields) return end
 

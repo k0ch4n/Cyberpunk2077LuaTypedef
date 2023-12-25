@@ -6,7 +6,7 @@
 ---@field protected delayEvaluationCbId Uint32
 PassiveAlertedConditions = {}
 
----@param fields? table
+---@param fields? PassiveAlertedConditions
 ---@return PassiveAlertedConditions
 function PassiveAlertedConditions.new(fields) return end
 

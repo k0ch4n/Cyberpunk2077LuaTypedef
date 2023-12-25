@@ -6,6 +6,6 @@
 ---@field public value CName
 audioAudSwitch = {}
 
----@param fields? table
+---@param fields? audioAudSwitch
 ---@return audioAudSwitch
 function audioAudSwitch.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public flatId TweakDBID
 gamedataGroupNodeGroupVariable = {}
 
----@param fields? table
+---@param fields? gamedataGroupNodeGroupVariable
 ---@return gamedataGroupNodeGroupVariable
 function gamedataGroupNodeGroupVariable.new(fields) return end

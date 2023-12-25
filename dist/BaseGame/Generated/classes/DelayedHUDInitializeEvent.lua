@@ -4,6 +4,6 @@
 ---@class DelayedHUDInitializeEvent: redEvent
 DelayedHUDInitializeEvent = {}
 
----@param fields? table
+---@param fields? DelayedHUDInitializeEvent
 ---@return DelayedHUDInitializeEvent
 function DelayedHUDInitializeEvent.new(fields) return end

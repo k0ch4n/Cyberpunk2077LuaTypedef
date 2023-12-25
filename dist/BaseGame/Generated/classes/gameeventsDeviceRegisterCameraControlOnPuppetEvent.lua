@@ -6,6 +6,6 @@
 ---@field public register Bool
 gameeventsDeviceRegisterCameraControlOnPuppetEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeviceRegisterCameraControlOnPuppetEvent
 ---@return gameeventsDeviceRegisterCameraControlOnPuppetEvent
 function gameeventsDeviceRegisterCameraControlOnPuppetEvent.new(fields) return end

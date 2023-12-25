@@ -4,6 +4,6 @@
 ---@class gameuiSpawnNewFeedEvent: redEvent
 gameuiSpawnNewFeedEvent = {}
 
----@param fields? table
+---@param fields? gameuiSpawnNewFeedEvent
 ---@return gameuiSpawnNewFeedEvent
 function gameuiSpawnNewFeedEvent.new(fields) return end

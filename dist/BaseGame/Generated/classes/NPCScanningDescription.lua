@@ -6,7 +6,7 @@
 ---@field protected NPCCustomDescriptions TweakDBID[]
 NPCScanningDescription = {}
 
----@param fields? table
+---@param fields? NPCScanningDescription
 ---@return NPCScanningDescription
 function NPCScanningDescription.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public subCharacterID TweakDBID
 DespawnUniqueSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? DespawnUniqueSubCharacterRequest
 ---@return DespawnUniqueSubCharacterRequest
 function DespawnUniqueSubCharacterRequest.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public farDistanceSizeMultiplier IEvaluatorFloat
 CParticleModificatorSizeByDistance = {}
 
----@param fields? table
+---@param fields? CParticleModificatorSizeByDistance
 ---@return CParticleModificatorSizeByDistance
 function CParticleModificatorSizeByDistance.new(fields) return end

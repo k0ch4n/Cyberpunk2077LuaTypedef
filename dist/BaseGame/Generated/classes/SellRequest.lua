@@ -4,6 +4,6 @@
 ---@class SellRequest: TransactionRequest
 SellRequest = {}
 
----@param fields? table
+---@param fields? SellRequest
 ---@return SellRequest
 function SellRequest.new(fields) return end

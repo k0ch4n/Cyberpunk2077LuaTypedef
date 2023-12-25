@@ -62,7 +62,7 @@
 ---@field private matchTargetSpeed Bool
 AIMoveCommandsDelegate = {}
 
----@param fields? table
+---@param fields? AIMoveCommandsDelegate
 ---@return AIMoveCommandsDelegate
 function AIMoveCommandsDelegate.new(fields) return end
 

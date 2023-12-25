@@ -7,6 +7,6 @@
 ---@field public statPoolType gamedataStatPoolType
 PauseResumePhoneCallEvent = {}
 
----@param fields? table
+---@param fields? PauseResumePhoneCallEvent
 ---@return PauseResumePhoneCallEvent
 function PauseResumePhoneCallEvent.new(fields) return end

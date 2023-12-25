@@ -11,6 +11,6 @@
 ---@field public stanceState Int32
 questCharacterState_PuppetSubType = {}
 
----@param fields? table
+---@param fields? questCharacterState_PuppetSubType
 ---@return questCharacterState_PuppetSubType
 function questCharacterState_PuppetSubType.new(fields) return end

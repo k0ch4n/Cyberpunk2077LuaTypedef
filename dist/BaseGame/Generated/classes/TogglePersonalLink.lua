@@ -6,7 +6,7 @@
 ---@field public shouldSkipMiniGame Bool
 TogglePersonalLink = {}
 
----@param fields? table
+---@param fields? TogglePersonalLink
 ---@return TogglePersonalLink
 function TogglePersonalLink.new(fields) return end
 

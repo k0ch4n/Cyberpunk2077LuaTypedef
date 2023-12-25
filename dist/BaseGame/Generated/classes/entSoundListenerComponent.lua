@@ -4,6 +4,6 @@
 ---@class entSoundListenerComponent: entIPlacedComponent
 entSoundListenerComponent = {}
 
----@param fields? table
+---@param fields? entSoundListenerComponent
 ---@return entSoundListenerComponent
 function entSoundListenerComponent.new(fields) return end

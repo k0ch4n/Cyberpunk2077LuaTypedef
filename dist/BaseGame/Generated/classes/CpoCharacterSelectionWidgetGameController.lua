@@ -8,7 +8,7 @@
 ---@field private amount Int32
 CpoCharacterSelectionWidgetGameController = {}
 
----@param fields? table
+---@param fields? CpoCharacterSelectionWidgetGameController
 ---@return CpoCharacterSelectionWidgetGameController
 function CpoCharacterSelectionWidgetGameController.new(fields) return end
 

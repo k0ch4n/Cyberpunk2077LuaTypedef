@@ -4,6 +4,6 @@
 ---@class AIMusicSystemSquadAudioMember: AISquadAudioMemberBase
 AIMusicSystemSquadAudioMember = {}
 
----@param fields? table
+---@param fields? AIMusicSystemSquadAudioMember
 ---@return AIMusicSystemSquadAudioMember
 function AIMusicSystemSquadAudioMember.new(fields) return end

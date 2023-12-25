@@ -23,7 +23,7 @@
 ---@field public isReplacer gamebbScriptID_Bool
 UI_PlayerStatsDef = {}
 
----@param fields? table
+---@param fields? UI_PlayerStatsDef
 ---@return UI_PlayerStatsDef
 function UI_PlayerStatsDef.new(fields) return end
 

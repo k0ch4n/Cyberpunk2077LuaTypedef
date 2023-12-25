@@ -4,7 +4,7 @@
 ---@class gameuiGlobalTvSystem: gameIGlobalTvSystem
 gameuiGlobalTvSystem = {}
 
----@param fields? table
+---@param fields? gameuiGlobalTvSystem
 ---@return gameuiGlobalTvSystem
 function gameuiGlobalTvSystem.new(fields) return end
 

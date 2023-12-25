@@ -4,7 +4,7 @@
 ---@class gamedataVisionModuleBase_Record: gamedataTweakDBRecord
 gamedataVisionModuleBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataVisionModuleBase_Record
 ---@return gamedataVisionModuleBase_Record
 function gamedataVisionModuleBase_Record.new(fields) return end
 

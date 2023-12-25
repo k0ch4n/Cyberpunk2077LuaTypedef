@@ -5,7 +5,7 @@
 ---@field public newState gamedataNPCUpperBodyState
 ChangeUpperBodyState = {}
 
----@param fields? table
+---@param fields? ChangeUpperBodyState
 ---@return ChangeUpperBodyState
 function ChangeUpperBodyState.new(fields) return end
 

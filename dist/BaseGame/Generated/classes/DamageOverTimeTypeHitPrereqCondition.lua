@@ -5,7 +5,7 @@
 ---@field public dotType gamedataStatusEffectType
 DamageOverTimeTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? DamageOverTimeTypeHitPrereqCondition
 ---@return DamageOverTimeTypeHitPrereqCondition
 function DamageOverTimeTypeHitPrereqCondition.new(fields) return end
 

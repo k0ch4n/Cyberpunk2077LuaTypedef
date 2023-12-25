@@ -34,6 +34,6 @@
 ---@field public fractureFieldMask physicsFractureFieldType
 physicsDestructionParams = {}
 
----@param fields? table
+---@param fields? physicsDestructionParams
 ---@return physicsDestructionParams
 function physicsDestructionParams.new(fields) return end

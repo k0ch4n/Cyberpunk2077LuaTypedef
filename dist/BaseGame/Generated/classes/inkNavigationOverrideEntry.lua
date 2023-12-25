@@ -7,6 +7,6 @@
 ---@field public to inkWidgetReference
 inkNavigationOverrideEntry = {}
 
----@param fields? table
+---@param fields? inkNavigationOverrideEntry
 ---@return inkNavigationOverrideEntry
 function inkNavigationOverrideEntry.new(fields) return end

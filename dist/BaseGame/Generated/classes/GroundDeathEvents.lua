@@ -4,7 +4,7 @@
 ---@class GroundDeathEvents: DeathEvents
 GroundDeathEvents = {}
 
----@param fields? table
+---@param fields? GroundDeathEvents
 ---@return GroundDeathEvents
 function GroundDeathEvents.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public localizedMessage LocalizationString
 questDisplayMessageBox_NodeType = {}
 
----@param fields? table
+---@param fields? questDisplayMessageBox_NodeType
 ---@return questDisplayMessageBox_NodeType
 function questDisplayMessageBox_NodeType.new(fields) return end

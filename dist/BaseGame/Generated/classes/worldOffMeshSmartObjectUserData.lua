@@ -9,6 +9,6 @@
 ---@field public type worldOffMeshConnectionType
 worldOffMeshSmartObjectUserData = {}
 
----@param fields? table
+---@param fields? worldOffMeshSmartObjectUserData
 ---@return worldOffMeshSmartObjectUserData
 function worldOffMeshSmartObjectUserData.new(fields) return end

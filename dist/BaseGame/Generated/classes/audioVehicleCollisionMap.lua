@@ -17,6 +17,6 @@
 ---@field public collisionSettings audioVehicleCollisionMapItem[]
 audioVehicleCollisionMap = {}
 
----@param fields? table
+---@param fields? audioVehicleCollisionMap
 ---@return audioVehicleCollisionMap
 function audioVehicleCollisionMap.new(fields) return end

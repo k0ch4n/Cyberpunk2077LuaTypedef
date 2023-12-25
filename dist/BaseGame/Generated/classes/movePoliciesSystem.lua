@@ -4,6 +4,6 @@
 ---@class movePoliciesSystem: moveIPoliciesSystem
 movePoliciesSystem = {}
 
----@param fields? table
+---@param fields? movePoliciesSystem
 ---@return movePoliciesSystem
 function movePoliciesSystem.new(fields) return end

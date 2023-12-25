@@ -4,7 +4,7 @@
 ---@class BurstEvents: WeaponEventsTransition
 BurstEvents = {}
 
----@param fields? table
+---@param fields? BurstEvents
 ---@return BurstEvents
 function BurstEvents.new(fields) return end
 

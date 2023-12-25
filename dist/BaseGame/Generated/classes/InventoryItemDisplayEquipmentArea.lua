@@ -6,7 +6,7 @@
 ---@field protected numberOfSlots Int32
 InventoryItemDisplayEquipmentArea = {}
 
----@param fields? table
+---@param fields? InventoryItemDisplayEquipmentArea
 ---@return InventoryItemDisplayEquipmentArea
 function InventoryItemDisplayEquipmentArea.new(fields) return end
 

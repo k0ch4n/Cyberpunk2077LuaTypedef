@@ -4,6 +4,6 @@
 ---@class ReloadingExpansionPopupCloseEvent: redEvent
 ReloadingExpansionPopupCloseEvent = {}
 
----@param fields? table
+---@param fields? ReloadingExpansionPopupCloseEvent
 ---@return ReloadingExpansionPopupCloseEvent
 function ReloadingExpansionPopupCloseEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class SecurityLockerUserEntry
 SecurityLockerUserEntry = {}
 
----@param fields? table
+---@param fields? SecurityLockerUserEntry
 ---@return SecurityLockerUserEntry
 function SecurityLockerUserEntry.new(fields) return end

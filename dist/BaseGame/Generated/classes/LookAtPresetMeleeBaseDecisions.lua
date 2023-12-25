@@ -4,6 +4,6 @@
 ---@class LookAtPresetMeleeBaseDecisions: LookAtPresetBaseDecisions
 LookAtPresetMeleeBaseDecisions = {}
 
----@param fields? table
+---@param fields? LookAtPresetMeleeBaseDecisions
 ---@return LookAtPresetMeleeBaseDecisions
 function LookAtPresetMeleeBaseDecisions.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class UseSecurityLocker: ActionBool
 UseSecurityLocker = {}
 
----@param fields? table
+---@param fields? UseSecurityLocker
 ---@return UseSecurityLocker
 function UseSecurityLocker.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public ta Uint8[]
 physicsGeometryKey = {}
 
----@param fields? table
+---@param fields? physicsGeometryKey
 ---@return physicsGeometryKey
 function physicsGeometryKey.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class ClearQuickhackQueueEffector: gameEffector
 ClearQuickhackQueueEffector = {}
 
----@param fields? table
+---@param fields? ClearQuickhackQueueEffector
 ---@return ClearQuickhackQueueEffector
 function ClearQuickhackQueueEffector.new(fields) return end
 

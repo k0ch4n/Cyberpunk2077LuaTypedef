@@ -4,7 +4,7 @@
 ---@class IsNPCInCourier: AIbehaviorconditionScript
 IsNPCInCourier = {}
 
----@param fields? table
+---@param fields? IsNPCInCourier
 ---@return IsNPCInCourier
 function IsNPCInCourier.new(fields) return end
 

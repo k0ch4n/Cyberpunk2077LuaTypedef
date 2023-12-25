@@ -4,7 +4,7 @@
 ---@class ExitLight: ElectricLight
 ExitLight = {}
 
----@param fields? table
+---@param fields? ExitLight
 ---@return ExitLight
 function ExitLight.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public entriesResource inkHudEntriesResource
 inkHUDLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkHUDLayerDefinition
 ---@return inkHUDLayerDefinition
 function inkHUDLayerDefinition.new(fields) return end

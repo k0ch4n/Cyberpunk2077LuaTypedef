@@ -13,6 +13,6 @@
 ---@field public alwaysCreateDefaultEmitter Bool
 audioEntityMetadata = {}
 
----@param fields? table
+---@param fields? audioEntityMetadata
 ---@return audioEntityMetadata
 function audioEntityMetadata.new(fields) return end

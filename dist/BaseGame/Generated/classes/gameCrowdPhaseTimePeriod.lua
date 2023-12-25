@@ -12,6 +12,6 @@
 ---@field public useDensityPreset Bool
 gameCrowdPhaseTimePeriod = {}
 
----@param fields? table
+---@param fields? gameCrowdPhaseTimePeriod
 ---@return gameCrowdPhaseTimePeriod
 function gameCrowdPhaseTimePeriod.new(fields) return end

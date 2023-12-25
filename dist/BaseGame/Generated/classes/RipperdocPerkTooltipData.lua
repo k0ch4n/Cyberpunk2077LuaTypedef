@@ -5,6 +5,6 @@
 ---@field public ripperdocHoverState RipperdocHoverState
 RipperdocPerkTooltipData = {}
 
----@param fields? table
+---@param fields? RipperdocPerkTooltipData
 ---@return RipperdocPerkTooltipData
 function RipperdocPerkTooltipData.new(fields) return end

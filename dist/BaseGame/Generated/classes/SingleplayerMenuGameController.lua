@@ -42,7 +42,7 @@
 ---@field private gameVersionAnim inkanimProxy
 SingleplayerMenuGameController = {}
 
----@param fields? table
+---@param fields? SingleplayerMenuGameController
 ---@return SingleplayerMenuGameController
 function SingleplayerMenuGameController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected contentText inkTextWidgetReference
 OnscreenDisplayManager = {}
 
----@param fields? table
+---@param fields? OnscreenDisplayManager
 ---@return OnscreenDisplayManager
 function OnscreenDisplayManager.new(fields) return end
 

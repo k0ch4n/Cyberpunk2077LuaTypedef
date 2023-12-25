@@ -4,6 +4,6 @@
 ---@class gameIsVisualizerActivePrereq: gameIPrereq
 gameIsVisualizerActivePrereq = {}
 
----@param fields? table
+---@param fields? gameIsVisualizerActivePrereq
 ---@return gameIsVisualizerActivePrereq
 function gameIsVisualizerActivePrereq.new(fields) return end

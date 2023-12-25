@@ -4,7 +4,7 @@
 ---@class RevealPlayerPositionEffector: gameEffector
 RevealPlayerPositionEffector = {}
 
----@param fields? table
+---@param fields? RevealPlayerPositionEffector
 ---@return RevealPlayerPositionEffector
 function RevealPlayerPositionEffector.new(fields) return end
 

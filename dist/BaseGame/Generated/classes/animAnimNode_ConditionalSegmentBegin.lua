@@ -5,6 +5,6 @@
 ---@field public condition animConditionalSegmentCondition
 animAnimNode_ConditionalSegmentBegin = {}
 
----@param fields? table
+---@param fields? animAnimNode_ConditionalSegmentBegin
 ---@return animAnimNode_ConditionalSegmentBegin
 function animAnimNode_ConditionalSegmentBegin.new(fields) return end

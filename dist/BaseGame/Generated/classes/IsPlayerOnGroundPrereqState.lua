@@ -7,7 +7,7 @@
 ---@field public owner gameObject
 IsPlayerOnGroundPrereqState = {}
 
----@param fields? table
+---@param fields? IsPlayerOnGroundPrereqState
 ---@return IsPlayerOnGroundPrereqState
 function IsPlayerOnGroundPrereqState.new(fields) return end
 

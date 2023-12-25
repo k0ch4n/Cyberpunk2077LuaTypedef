@@ -6,6 +6,6 @@
 ---@field public newItemId CName
 workWorkspotItemOverridePropOverride = {}
 
----@param fields? table
+---@param fields? workWorkspotItemOverridePropOverride
 ---@return workWorkspotItemOverridePropOverride
 function workWorkspotItemOverridePropOverride.new(fields) return end

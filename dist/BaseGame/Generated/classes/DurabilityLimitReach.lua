@@ -4,6 +4,6 @@
 ---@class DurabilityLimitReach: redEvent
 DurabilityLimitReach = {}
 
----@param fields? table
+---@param fields? DurabilityLimitReach
 ---@return DurabilityLimitReach
 function DurabilityLimitReach.new(fields) return end

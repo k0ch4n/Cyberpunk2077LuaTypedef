@@ -4,6 +4,6 @@
 ---@class inkVirtualCompoundItemControllerCallback: inkCallbackBase
 inkVirtualCompoundItemControllerCallback = {}
 
----@param fields? table
+---@param fields? inkVirtualCompoundItemControllerCallback
 ---@return inkVirtualCompoundItemControllerCallback
 function inkVirtualCompoundItemControllerCallback.new(fields) return end

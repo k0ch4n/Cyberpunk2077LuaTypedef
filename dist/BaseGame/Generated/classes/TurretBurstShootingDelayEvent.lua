@@ -4,6 +4,6 @@
 ---@class TurretBurstShootingDelayEvent: redEvent
 TurretBurstShootingDelayEvent = {}
 
----@param fields? table
+---@param fields? TurretBurstShootingDelayEvent
 ---@return TurretBurstShootingDelayEvent
 function TurretBurstShootingDelayEvent.new(fields) return end

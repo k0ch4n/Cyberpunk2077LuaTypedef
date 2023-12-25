@@ -4,7 +4,7 @@
 ---@class ForceFreezeDecisions: LocomotionGroundDecisions
 ForceFreezeDecisions = {}
 
----@param fields? table
+---@param fields? ForceFreezeDecisions
 ---@return ForceFreezeDecisions
 function ForceFreezeDecisions.new(fields) return end
 

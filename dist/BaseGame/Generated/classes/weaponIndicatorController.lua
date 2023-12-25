@@ -19,7 +19,7 @@
 ---@field private InventoryManager InventoryDataManagerV2
 weaponIndicatorController = {}
 
----@param fields? table
+---@param fields? weaponIndicatorController
 ---@return weaponIndicatorController
 function weaponIndicatorController.new(fields) return end
 

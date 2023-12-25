@@ -6,6 +6,6 @@
 ---@field public material worldRoadMaterial
 worldRoadMaterialInfo = {}
 
----@param fields? table
+---@param fields? worldRoadMaterialInfo
 ---@return worldRoadMaterialInfo
 function worldRoadMaterialInfo.new(fields) return end

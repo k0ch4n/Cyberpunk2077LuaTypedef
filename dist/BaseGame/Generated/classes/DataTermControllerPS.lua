@@ -7,7 +7,7 @@
 ---@field private fastTravelDeviceType EFastTravelDeviceType
 DataTermControllerPS = {}
 
----@param fields? table
+---@param fields? DataTermControllerPS
 ---@return DataTermControllerPS
 function DataTermControllerPS.new(fields) return end
 

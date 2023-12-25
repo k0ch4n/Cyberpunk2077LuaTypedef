@@ -5,7 +5,7 @@
 ---@field public type CName
 WeaponTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? WeaponTypeHitPrereqCondition
 ---@return WeaponTypeHitPrereqCondition
 function WeaponTypeHitPrereqCondition.new(fields) return end
 

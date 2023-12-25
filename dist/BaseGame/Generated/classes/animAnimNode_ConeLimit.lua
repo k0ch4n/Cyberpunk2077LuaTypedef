@@ -31,6 +31,6 @@
 ---@field public applyDebugConeScalling Bool
 animAnimNode_ConeLimit = {}
 
----@param fields? table
+---@param fields? animAnimNode_ConeLimit
 ---@return animAnimNode_ConeLimit
 function animAnimNode_ConeLimit.new(fields) return end

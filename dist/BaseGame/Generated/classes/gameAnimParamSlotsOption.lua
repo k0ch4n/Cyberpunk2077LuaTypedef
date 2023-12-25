@@ -7,6 +7,6 @@
 ---@field public function entAnimParamSlotFunction
 gameAnimParamSlotsOption = {}
 
----@param fields? table
+---@param fields? gameAnimParamSlotsOption
 ---@return gameAnimParamSlotsOption
 function gameAnimParamSlotsOption.new(fields) return end

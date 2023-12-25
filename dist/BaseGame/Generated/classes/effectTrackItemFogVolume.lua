@@ -10,6 +10,6 @@
 ---@field public color IEvaluatorColor
 effectTrackItemFogVolume = {}
 
----@param fields? table
+---@param fields? effectTrackItemFogVolume
 ---@return effectTrackItemFogVolume
 function effectTrackItemFogVolume.new(fields) return end

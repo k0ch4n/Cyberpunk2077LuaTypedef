@@ -8,6 +8,6 @@
 ---@field public entryTag CName
 AIUseWorkspotCommand = {}
 
----@param fields? table
+---@param fields? AIUseWorkspotCommand
 ---@return AIUseWorkspotCommand
 function AIUseWorkspotCommand.new(fields) return end

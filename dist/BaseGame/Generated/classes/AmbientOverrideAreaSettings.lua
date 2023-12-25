@@ -5,6 +5,6 @@
 ---@field public color curveData[]
 AmbientOverrideAreaSettings = {}
 
----@param fields? table
+---@param fields? AmbientOverrideAreaSettings
 ---@return AmbientOverrideAreaSettings
 function AmbientOverrideAreaSettings.new(fields) return end

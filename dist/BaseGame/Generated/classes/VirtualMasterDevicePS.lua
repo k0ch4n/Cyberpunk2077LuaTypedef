@@ -8,7 +8,7 @@
 ---@field public connectedDevices gameDeviceComponentPS[]
 VirtualMasterDevicePS = {}
 
----@param fields? table
+---@param fields? VirtualMasterDevicePS
 ---@return VirtualMasterDevicePS
 function VirtualMasterDevicePS.new(fields) return end
 

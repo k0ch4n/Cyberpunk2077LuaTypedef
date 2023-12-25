@@ -9,6 +9,6 @@
 ---@field public intensity Float
 inkLightSweepEffect = {}
 
----@param fields? table
+---@param fields? inkLightSweepEffect
 ---@return inkLightSweepEffect
 function inkLightSweepEffect.new(fields) return end

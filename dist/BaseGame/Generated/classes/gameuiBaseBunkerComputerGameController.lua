@@ -4,7 +4,7 @@
 ---@class gameuiBaseBunkerComputerGameController: gameuiWidgetGameController
 gameuiBaseBunkerComputerGameController = {}
 
----@param fields? table
+---@param fields? gameuiBaseBunkerComputerGameController
 ---@return gameuiBaseBunkerComputerGameController
 function gameuiBaseBunkerComputerGameController.new(fields) return end
 

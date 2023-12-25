@@ -9,7 +9,7 @@
 ---@field private centaurBlackboard gameIBlackboard
 CentaurShieldController = {}
 
----@param fields? table
+---@param fields? CentaurShieldController
 ---@return CentaurShieldController
 function CentaurShieldController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataInitLoadingScreen_Record: gamedataTweakDBRecord
 gamedataInitLoadingScreen_Record = {}
 
----@param fields? table
+---@param fields? gamedataInitLoadingScreen_Record
 ---@return gamedataInitLoadingScreen_Record
 function gamedataInitLoadingScreen_Record.new(fields) return end
 

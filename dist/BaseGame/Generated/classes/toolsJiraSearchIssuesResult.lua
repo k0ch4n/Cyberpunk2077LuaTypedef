@@ -10,6 +10,6 @@
 ---@field public warningMessages String[]
 toolsJiraSearchIssuesResult = {}
 
----@param fields? table
+---@param fields? toolsJiraSearchIssuesResult
 ---@return toolsJiraSearchIssuesResult
 function toolsJiraSearchIssuesResult.new(fields) return end

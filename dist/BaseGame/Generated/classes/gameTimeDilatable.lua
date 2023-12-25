@@ -4,7 +4,7 @@
 ---@class gameTimeDilatable: gameObject
 gameTimeDilatable = {}
 
----@param fields? table
+---@param fields? gameTimeDilatable
 ---@return gameTimeDilatable
 function gameTimeDilatable.new(fields) return end
 

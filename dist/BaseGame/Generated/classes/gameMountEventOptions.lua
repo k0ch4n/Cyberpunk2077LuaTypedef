@@ -8,6 +8,6 @@
 ---@field public occupiedByNonFriendly Bool
 gameMountEventOptions = {}
 
----@param fields? table
+---@param fields? gameMountEventOptions
 ---@return gameMountEventOptions
 function gameMountEventOptions.new(fields) return end

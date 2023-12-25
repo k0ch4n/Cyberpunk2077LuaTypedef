@@ -7,6 +7,6 @@
 ---@field public visualTag CName
 gameSSlotInfo = {}
 
----@param fields? table
+---@param fields? gameSSlotInfo
 ---@return gameSSlotInfo
 function gameSSlotInfo.new(fields) return end

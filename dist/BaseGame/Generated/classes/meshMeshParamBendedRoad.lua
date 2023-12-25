@@ -16,6 +16,6 @@
 ---@field public collFaceMaterialNames String[][]
 meshMeshParamBendedRoad = {}
 
----@param fields? table
+---@param fields? meshMeshParamBendedRoad
 ---@return meshMeshParamBendedRoad
 function meshMeshParamBendedRoad.new(fields) return end

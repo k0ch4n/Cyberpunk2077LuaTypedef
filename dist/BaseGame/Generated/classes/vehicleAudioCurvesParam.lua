@@ -5,6 +5,6 @@
 ---@field public audioCurves vehicleAudioVehicleCurveSet
 vehicleAudioCurvesParam = {}
 
----@param fields? table
+---@param fields? vehicleAudioCurvesParam
 ---@return vehicleAudioCurvesParam
 function vehicleAudioCurvesParam.new(fields) return end

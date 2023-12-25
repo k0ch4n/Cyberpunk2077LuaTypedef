@@ -8,6 +8,6 @@
 ---@field public isPoke Bool
 AnimFeature_IndustrialArm = {}
 
----@param fields? table
+---@param fields? AnimFeature_IndustrialArm
 ---@return AnimFeature_IndustrialArm
 function AnimFeature_IndustrialArm.new(fields) return end

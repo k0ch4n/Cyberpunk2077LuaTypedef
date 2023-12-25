@@ -18,6 +18,6 @@
 ---@field public alwaysUseStealth Bool
 questMoveToParams = {}
 
----@param fields? table
+---@param fields? questMoveToParams
 ---@return questMoveToParams
 function questMoveToParams.new(fields) return end

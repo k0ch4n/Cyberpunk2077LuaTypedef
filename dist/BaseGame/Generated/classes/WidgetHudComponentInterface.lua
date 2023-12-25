@@ -7,7 +7,7 @@
 ---@field public meshTargetBinding worlduiMeshTargetBinding
 WidgetHudComponentInterface = {}
 
----@param fields? table
+---@param fields? WidgetHudComponentInterface
 ---@return WidgetHudComponentInterface
 function WidgetHudComponentInterface.new(fields) return end
 

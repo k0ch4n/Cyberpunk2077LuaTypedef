@@ -8,7 +8,7 @@
 ---@field public paymentQuantity Int32
 gamedeviceAction = {}
 
----@param fields? table
+---@param fields? gamedeviceAction
 ---@return gamedeviceAction
 function gamedeviceAction.new(fields) return end
 

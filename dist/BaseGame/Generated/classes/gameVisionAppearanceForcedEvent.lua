@@ -5,6 +5,6 @@
 ---@field public state Bool
 gameVisionAppearanceForcedEvent = {}
 
----@param fields? table
+---@param fields? gameVisionAppearanceForcedEvent
 ---@return gameVisionAppearanceForcedEvent
 function gameVisionAppearanceForcedEvent.new(fields) return end

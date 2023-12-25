@@ -4,7 +4,7 @@
 ---@class gamedataArchetypeType_Record: gamedataTweakDBRecord
 gamedataArchetypeType_Record = {}
 
----@param fields? table
+---@param fields? gamedataArchetypeType_Record
 ---@return gamedataArchetypeType_Record
 function gamedataArchetypeType_Record.new(fields) return end
 

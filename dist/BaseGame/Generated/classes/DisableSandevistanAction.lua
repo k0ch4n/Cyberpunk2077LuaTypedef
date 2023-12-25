@@ -4,7 +4,7 @@
 ---@class DisableSandevistanAction: UseAction
 DisableSandevistanAction = {}
 
----@param fields? table
+---@param fields? DisableSandevistanAction
 ---@return DisableSandevistanAction
 function DisableSandevistanAction.new(fields) return end
 

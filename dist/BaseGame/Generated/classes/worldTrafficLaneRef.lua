@@ -7,6 +7,6 @@
 ---@field public isReversed Bool
 worldTrafficLaneRef = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneRef
 ---@return worldTrafficLaneRef
 function worldTrafficLaneRef.new(fields) return end

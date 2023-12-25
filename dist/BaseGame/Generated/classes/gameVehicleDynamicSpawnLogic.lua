@@ -4,6 +4,6 @@
 ---@class gameVehicleDynamicSpawnLogic
 gameVehicleDynamicSpawnLogic = {}
 
----@param fields? table
+---@param fields? gameVehicleDynamicSpawnLogic
 ---@return gameVehicleDynamicSpawnLogic
 function gameVehicleDynamicSpawnLogic.new(fields) return end

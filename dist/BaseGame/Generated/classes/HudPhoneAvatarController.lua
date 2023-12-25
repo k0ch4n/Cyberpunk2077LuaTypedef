@@ -32,7 +32,7 @@
 ---@field private showAvatar Bool
 HudPhoneAvatarController = {}
 
----@param fields? table
+---@param fields? HudPhoneAvatarController
 ---@return HudPhoneAvatarController
 function HudPhoneAvatarController.new(fields) return end
 

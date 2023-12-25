@@ -7,6 +7,6 @@
 ---@field public amount Int32
 DisassembleItemRequest = {}
 
----@param fields? table
+---@param fields? DisassembleItemRequest
 ---@return DisassembleItemRequest
 function DisassembleItemRequest.new(fields) return end

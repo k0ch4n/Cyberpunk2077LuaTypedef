@@ -6,6 +6,6 @@
 ---@field public mountData AIArgumentMapping
 AIbehaviorInfluenceExcludeObstaclePointTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorInfluenceExcludeObstaclePointTaskDefinition
 ---@return AIbehaviorInfluenceExcludeObstaclePointTaskDefinition
 function AIbehaviorInfluenceExcludeObstaclePointTaskDefinition.new(fields) return end

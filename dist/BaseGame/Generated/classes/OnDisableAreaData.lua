@@ -6,6 +6,6 @@
 ---@field public remainingAreas SecurityAreaControllerPS[]
 OnDisableAreaData = {}
 
----@param fields? table
+---@param fields? OnDisableAreaData
 ---@return OnDisableAreaData
 function OnDisableAreaData.new(fields) return end

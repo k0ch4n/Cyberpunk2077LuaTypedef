@@ -7,6 +7,6 @@
 ---@field public zFactor Float
 gameprojectileVelocityParams = {}
 
----@param fields? table
+---@param fields? gameprojectileVelocityParams
 ---@return gameprojectileVelocityParams
 function gameprojectileVelocityParams.new(fields) return end

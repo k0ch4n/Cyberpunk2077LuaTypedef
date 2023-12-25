@@ -23,6 +23,6 @@
 ---@field public physicalDestructionComponents gameWeakspotPhysicalDestructionComponent[]
 WeakspotOnDestroyProperties = {}
 
----@param fields? table
+---@param fields? WeakspotOnDestroyProperties
 ---@return WeakspotOnDestroyProperties
 function WeakspotOnDestroyProperties.new(fields) return end

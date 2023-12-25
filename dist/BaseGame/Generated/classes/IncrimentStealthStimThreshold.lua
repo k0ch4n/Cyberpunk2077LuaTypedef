@@ -5,7 +5,7 @@
 ---@field public thresholdTimeout Float
 IncrimentStealthStimThreshold = {}
 
----@param fields? table
+---@param fields? IncrimentStealthStimThreshold
 ---@return IncrimentStealthStimThreshold
 function IncrimentStealthStimThreshold.new(fields) return end
 

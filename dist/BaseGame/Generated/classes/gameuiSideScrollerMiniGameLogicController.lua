@@ -13,7 +13,7 @@
 ---@field protected isGameRunning Bool
 gameuiSideScrollerMiniGameLogicController = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameLogicController
 ---@return gameuiSideScrollerMiniGameLogicController
 function gameuiSideScrollerMiniGameLogicController.new(fields) return end
 

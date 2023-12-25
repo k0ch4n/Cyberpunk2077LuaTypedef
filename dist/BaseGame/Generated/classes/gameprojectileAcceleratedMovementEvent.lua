@@ -4,6 +4,6 @@
 ---@class gameprojectileAcceleratedMovementEvent: gameprojectileLinearMovementEvent
 gameprojectileAcceleratedMovementEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileAcceleratedMovementEvent
 ---@return gameprojectileAcceleratedMovementEvent
 function gameprojectileAcceleratedMovementEvent.new(fields) return end

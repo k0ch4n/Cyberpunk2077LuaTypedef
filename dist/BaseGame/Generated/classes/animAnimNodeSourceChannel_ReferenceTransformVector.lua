@@ -5,6 +5,6 @@
 ---@field public transformIndex animTransformIndex
 animAnimNodeSourceChannel_ReferenceTransformVector = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_ReferenceTransformVector
 ---@return animAnimNodeSourceChannel_ReferenceTransformVector
 function animAnimNodeSourceChannel_ReferenceTransformVector.new(fields) return end

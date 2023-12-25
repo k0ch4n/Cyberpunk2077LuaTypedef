@@ -4,6 +4,6 @@
 ---@class gameDeviceComponent: gameComponent
 gameDeviceComponent = {}
 
----@param fields? table
+---@param fields? gameDeviceComponent
 ---@return gameDeviceComponent
 function gameDeviceComponent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public additionalTransforms animAdditionalTransformContainer
 animAnimNode_AdditionalTransform = {}
 
----@param fields? table
+---@param fields? animAnimNode_AdditionalTransform
 ---@return animAnimNode_AdditionalTransform
 function animAnimNode_AdditionalTransform.new(fields) return end

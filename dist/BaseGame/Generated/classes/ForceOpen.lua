@@ -4,7 +4,7 @@
 ---@class ForceOpen: ActionBool
 ForceOpen = {}
 
----@param fields? table
+---@param fields? ForceOpen
 ---@return ForceOpen
 function ForceOpen.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class ResetTickEvent: gameTickableEvent
 ResetTickEvent = {}
 
----@param fields? table
+---@param fields? ResetTickEvent
 ---@return ResetTickEvent
 function ResetTickEvent.new(fields) return end

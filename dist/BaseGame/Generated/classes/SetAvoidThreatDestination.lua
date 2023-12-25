@@ -4,7 +4,7 @@
 ---@class SetAvoidThreatDestination: AIbehaviortaskScript
 SetAvoidThreatDestination = {}
 
----@param fields? table
+---@param fields? SetAvoidThreatDestination
 ---@return SetAvoidThreatDestination
 function SetAvoidThreatDestination.new(fields) return end
 

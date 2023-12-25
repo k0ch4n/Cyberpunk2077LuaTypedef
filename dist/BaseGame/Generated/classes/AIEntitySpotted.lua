@@ -7,6 +7,6 @@
 ---@field public isHostile Bool
 AIEntitySpotted = {}
 
----@param fields? table
+---@param fields? AIEntitySpotted
 ---@return AIEntitySpotted
 function AIEntitySpotted.new(fields) return end

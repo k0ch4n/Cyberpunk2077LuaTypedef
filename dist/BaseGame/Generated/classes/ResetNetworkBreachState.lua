@@ -4,7 +4,7 @@
 ---@class ResetNetworkBreachState: ActionBool
 ResetNetworkBreachState = {}
 
----@param fields? table
+---@param fields? ResetNetworkBreachState
 ---@return ResetNetworkBreachState
 function ResetNetworkBreachState.new(fields) return end
 

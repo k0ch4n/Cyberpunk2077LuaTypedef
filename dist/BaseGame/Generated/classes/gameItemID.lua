@@ -8,7 +8,7 @@
 ---@field public flags Uint8
 gameItemID = {}
 
----@param fields? table
+---@param fields? gameItemID
 ---@return gameItemID
 function gameItemID.new(fields) return end
 

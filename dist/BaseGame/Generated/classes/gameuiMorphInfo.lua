@@ -5,6 +5,6 @@
 ---@field public morphNames gameuiIndexedMorphName[]
 gameuiMorphInfo = {}
 
----@param fields? table
+---@param fields? gameuiMorphInfo
 ---@return gameuiMorphInfo
 function gameuiMorphInfo.new(fields) return end

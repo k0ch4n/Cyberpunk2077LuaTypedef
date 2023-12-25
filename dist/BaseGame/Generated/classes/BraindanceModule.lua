@@ -4,7 +4,7 @@
 ---@class BraindanceModule: HUDModule
 BraindanceModule = {}
 
----@param fields? table
+---@param fields? BraindanceModule
 ---@return BraindanceModule
 function BraindanceModule.new(fields) return end
 

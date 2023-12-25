@@ -6,6 +6,6 @@
 ---@field public menu String
 VendorUserData = {}
 
----@param fields? table
+---@param fields? VendorUserData
 ---@return VendorUserData
 function VendorUserData.new(fields) return end

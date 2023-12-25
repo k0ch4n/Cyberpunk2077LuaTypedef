@@ -7,6 +7,6 @@
 ---@field public maleResPath locVoResource
 locVoLineEntry = {}
 
----@param fields? table
+---@param fields? locVoLineEntry
 ---@return locVoLineEntry
 function locVoLineEntry.new(fields) return end

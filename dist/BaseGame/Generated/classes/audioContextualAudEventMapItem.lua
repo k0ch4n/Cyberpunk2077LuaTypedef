@@ -6,6 +6,6 @@
 ---@field public event CName
 audioContextualAudEventMapItem = {}
 
----@param fields? table
+---@param fields? audioContextualAudEventMapItem
 ---@return audioContextualAudEventMapItem
 function audioContextualAudEventMapItem.new(fields) return end

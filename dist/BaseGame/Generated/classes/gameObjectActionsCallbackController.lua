@@ -4,7 +4,7 @@
 ---@class gameObjectActionsCallbackController: IScriptable
 gameObjectActionsCallbackController = {}
 
----@param fields? table
+---@param fields? gameObjectActionsCallbackController
 ---@return gameObjectActionsCallbackController
 function gameObjectActionsCallbackController.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public customTransitionAnim CName
 animFacialEmotionTransitionBaked = {}
 
----@param fields? table
+---@param fields? animFacialEmotionTransitionBaked
 ---@return animFacialEmotionTransitionBaked
 function animFacialEmotionTransitionBaked.new(fields) return end

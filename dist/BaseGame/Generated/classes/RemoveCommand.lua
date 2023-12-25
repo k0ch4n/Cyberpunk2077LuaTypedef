@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 RemoveCommand = {}
 
----@param fields? table
+---@param fields? RemoveCommand
 ---@return RemoveCommand
 function RemoveCommand.new(fields) return end
 

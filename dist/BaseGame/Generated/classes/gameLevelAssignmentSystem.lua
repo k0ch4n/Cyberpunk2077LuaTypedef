@@ -4,7 +4,7 @@
 ---@class gameLevelAssignmentSystem: gameILevelAssignmentSystem
 gameLevelAssignmentSystem = {}
 
----@param fields? table
+---@param fields? gameLevelAssignmentSystem
 ---@return gameLevelAssignmentSystem
 function gameLevelAssignmentSystem.new(fields) return end
 

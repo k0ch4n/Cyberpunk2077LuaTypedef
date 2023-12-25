@@ -5,7 +5,7 @@
 ---@field public currentFilter CodexCategoryType
 CodexListVirtualNestedDataView = {}
 
----@param fields? table
+---@param fields? CodexListVirtualNestedDataView
 ---@return CodexListVirtualNestedDataView
 function CodexListVirtualNestedDataView.new(fields) return end
 

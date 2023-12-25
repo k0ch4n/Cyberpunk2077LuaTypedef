@@ -7,7 +7,7 @@
 ---@field private TooltipsManager gameuiTooltipsManager
 TabRadioGroup = {}
 
----@param fields? table
+---@param fields? TabRadioGroup
 ---@return TabRadioGroup
 function TabRadioGroup.new(fields) return end
 

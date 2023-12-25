@@ -7,6 +7,6 @@
 ---@field public forceMaxVisibility Bool
 scnCommunityParams = {}
 
----@param fields? table
+---@param fields? scnCommunityParams
 ---@return scnCommunityParams
 function scnCommunityParams.new(fields) return end

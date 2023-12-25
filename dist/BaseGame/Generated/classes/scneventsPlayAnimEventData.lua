@@ -11,6 +11,6 @@
 ---@field public blendOutCurve scnEasingType
 scneventsPlayAnimEventData = {}
 
----@param fields? table
+---@param fields? scneventsPlayAnimEventData
 ---@return scneventsPlayAnimEventData
 function scneventsPlayAnimEventData.new(fields) return end

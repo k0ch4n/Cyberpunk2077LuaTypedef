@@ -4,6 +4,6 @@
 ---@class worldOnAreaShapeCompiledEvent
 worldOnAreaShapeCompiledEvent = {}
 
----@param fields? table
+---@param fields? worldOnAreaShapeCompiledEvent
 ---@return worldOnAreaShapeCompiledEvent
 function worldOnAreaShapeCompiledEvent.new(fields) return end

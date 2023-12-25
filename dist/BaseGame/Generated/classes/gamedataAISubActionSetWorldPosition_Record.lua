@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSetWorldPosition_Record: gamedataAISubAction_Record
 gamedataAISubActionSetWorldPosition_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSetWorldPosition_Record
 ---@return gamedataAISubActionSetWorldPosition_Record
 function gamedataAISubActionSetWorldPosition_Record.new(fields) return end
 

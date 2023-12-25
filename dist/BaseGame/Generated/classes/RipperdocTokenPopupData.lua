@@ -17,6 +17,6 @@
 ---@field public option3SideItemData gameItemData
 RipperdocTokenPopupData = {}
 
----@param fields? table
+---@param fields? RipperdocTokenPopupData
 ---@return RipperdocTokenPopupData
 function RipperdocTokenPopupData.new(fields) return end

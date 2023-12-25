@@ -6,6 +6,6 @@
 ---@field public object SurveillanceCamera
 CameraTagLimitData = {}
 
----@param fields? table
+---@param fields? CameraTagLimitData
 ---@return CameraTagLimitData
 function CameraTagLimitData.new(fields) return end

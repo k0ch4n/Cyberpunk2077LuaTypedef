@@ -11,6 +11,6 @@
 ---@field public highDamageDistance Float
 audioBulletImpactSettings = {}
 
----@param fields? table
+---@param fields? audioBulletImpactSettings
 ---@return audioBulletImpactSettings
 function audioBulletImpactSettings.new(fields) return end

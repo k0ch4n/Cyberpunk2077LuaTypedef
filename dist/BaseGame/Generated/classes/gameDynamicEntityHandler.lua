@@ -4,6 +4,6 @@
 ---@class gameDynamicEntityHandler
 gameDynamicEntityHandler = {}
 
----@param fields? table
+---@param fields? gameDynamicEntityHandler
 ---@return gameDynamicEntityHandler
 function gameDynamicEntityHandler.new(fields) return end

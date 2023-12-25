@@ -6,7 +6,7 @@
 ---@field public listenerInt redCallbackObject
 WoundedTriggeredPrereqState = {}
 
----@param fields? table
+---@param fields? WoundedTriggeredPrereqState
 ---@return WoundedTriggeredPrereqState
 function WoundedTriggeredPrereqState.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public usingPointValues Bool
 gameStatPoolModifier = {}
 
----@param fields? table
+---@param fields? gameStatPoolModifier
 ---@return gameStatPoolModifier
 function gameStatPoolModifier.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public displayContext ItemDisplayContextData
 ShardTooltipWrapper = {}
 
----@param fields? table
+---@param fields? ShardTooltipWrapper
 ---@return ShardTooltipWrapper
 function ShardTooltipWrapper.new(fields) return end

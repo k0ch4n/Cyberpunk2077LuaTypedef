@@ -9,6 +9,6 @@
 ---@field public DangleCollisionSphereRadius Float
 entdismembermentDangleInfo = {}
 
----@param fields? table
+---@param fields? entdismembermentDangleInfo
 ---@return entdismembermentDangleInfo
 function entdismembermentDangleInfo.new(fields) return end

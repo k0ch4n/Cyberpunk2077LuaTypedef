@@ -8,7 +8,7 @@
 ---@field protected arrow inkImageWidgetReference
 DropdownButtonController = {}
 
----@param fields? table
+---@param fields? DropdownButtonController
 ---@return DropdownButtonController
 function DropdownButtonController.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public buttonHints Codeware_UI_ButtonHintsEx
 Codeware_UI_InGamePopupFooter = {}
 
----@param fields? table
+---@param fields? Codeware_UI_InGamePopupFooter
 ---@return Codeware_UI_InGamePopupFooter
 function Codeware_UI_InGamePopupFooter.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public streamingDistance Float
 gameaudioSoundComponent = {}
 
----@param fields? table
+---@param fields? gameaudioSoundComponent
 ---@return gameaudioSoundComponent
 function gameaudioSoundComponent.new(fields) return end

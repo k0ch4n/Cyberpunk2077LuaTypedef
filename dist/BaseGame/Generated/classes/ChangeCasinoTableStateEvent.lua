@@ -8,6 +8,6 @@
 ---@field public betData BetData
 ChangeCasinoTableStateEvent = {}
 
----@param fields? table
+---@param fields? ChangeCasinoTableStateEvent
 ---@return ChangeCasinoTableStateEvent
 function ChangeCasinoTableStateEvent.new(fields) return end

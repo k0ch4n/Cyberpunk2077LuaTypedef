@@ -5,6 +5,6 @@
 ---@field public entries localizationPersistenceLocDataMapEntry[]
 localizationPersistenceLocDataMap = {}
 
----@param fields? table
+---@param fields? localizationPersistenceLocDataMap
 ---@return localizationPersistenceLocDataMap
 function localizationPersistenceLocDataMap.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class TimeOfDayVisibilityResource: CResource
 TimeOfDayVisibilityResource = {}
 
----@param fields? table
+---@param fields? TimeOfDayVisibilityResource
 ---@return TimeOfDayVisibilityResource
 function TimeOfDayVisibilityResource.new(fields) return end

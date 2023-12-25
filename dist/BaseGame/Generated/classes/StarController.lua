@@ -26,7 +26,7 @@
 ---@field private dogtownIconBgName CName
 StarController = {}
 
----@param fields? table
+---@param fields? StarController
 ---@return StarController
 function StarController.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public callbackID Uint32
 Codeware_Localization_PlayerGenderWatcher = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_PlayerGenderWatcher
 ---@return Codeware_Localization_PlayerGenderWatcher
 function Codeware_Localization_PlayerGenderWatcher.new(fields) return end
 

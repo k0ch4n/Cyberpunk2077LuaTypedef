@@ -4,6 +4,6 @@
 ---@class ProjectileLauncherRoundDetonationDelayEvent: redEvent
 ProjectileLauncherRoundDetonationDelayEvent = {}
 
----@param fields? table
+---@param fields? ProjectileLauncherRoundDetonationDelayEvent
 ---@return ProjectileLauncherRoundDetonationDelayEvent
 function ProjectileLauncherRoundDetonationDelayEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public mode Int32
 scnLookAtBodyPartProperties = {}
 
----@param fields? table
+---@param fields? scnLookAtBodyPartProperties
 ---@return scnLookAtBodyPartProperties
 function scnLookAtBodyPartProperties.new(fields) return end

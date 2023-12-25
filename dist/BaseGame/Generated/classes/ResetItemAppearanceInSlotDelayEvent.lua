@@ -5,6 +5,6 @@
 ---@field public slotID TweakDBID
 ResetItemAppearanceInSlotDelayEvent = {}
 
----@param fields? table
+---@param fields? ResetItemAppearanceInSlotDelayEvent
 ---@return ResetItemAppearanceInSlotDelayEvent
 function ResetItemAppearanceInSlotDelayEvent.new(fields) return end

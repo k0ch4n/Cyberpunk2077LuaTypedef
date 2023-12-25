@@ -4,6 +4,6 @@
 ---@class ZonesPSMPrereqState: PlayerStateMachinePrereqState
 ZonesPSMPrereqState = {}
 
----@param fields? table
+---@param fields? ZonesPSMPrereqState
 ---@return ZonesPSMPrereqState
 function ZonesPSMPrereqState.new(fields) return end

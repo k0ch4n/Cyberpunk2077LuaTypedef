@@ -4,7 +4,7 @@
 ---@class gamedataItemsFactoryAppearanceSuffixOrder_Record: gamedataTweakDBRecord
 gamedataItemsFactoryAppearanceSuffixOrder_Record = {}
 
----@param fields? table
+---@param fields? gamedataItemsFactoryAppearanceSuffixOrder_Record
 ---@return gamedataItemsFactoryAppearanceSuffixOrder_Record
 function gamedataItemsFactoryAppearanceSuffixOrder_Record.new(fields) return end
 

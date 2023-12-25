@@ -4,7 +4,7 @@
 ---@class CoolExitJumpEvents: LocomotionAirEvents
 CoolExitJumpEvents = {}
 
----@param fields? table
+---@param fields? CoolExitJumpEvents
 ---@return CoolExitJumpEvents
 function CoolExitJumpEvents.new(fields) return end
 

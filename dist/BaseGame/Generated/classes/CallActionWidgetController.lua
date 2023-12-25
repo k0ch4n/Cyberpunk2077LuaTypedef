@@ -8,7 +8,7 @@
 ---@field protected status IntercomStatus
 CallActionWidgetController = {}
 
----@param fields? table
+---@param fields? CallActionWidgetController
 ---@return CallActionWidgetController
 function CallActionWidgetController.new(fields) return end
 

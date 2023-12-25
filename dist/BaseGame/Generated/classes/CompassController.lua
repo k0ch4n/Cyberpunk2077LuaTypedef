@@ -14,7 +14,7 @@
 ---@field private precisionEpsilon Float
 CompassController = {}
 
----@param fields? table
+---@param fields? CompassController
 ---@return CompassController
 function CompassController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class userSettingsUserSettings: IScriptable
 userSettingsUserSettings = {}
 
----@param fields? table
+---@param fields? userSettingsUserSettings
 ---@return userSettingsUserSettings
 function userSettingsUserSettings.new(fields) return end
 

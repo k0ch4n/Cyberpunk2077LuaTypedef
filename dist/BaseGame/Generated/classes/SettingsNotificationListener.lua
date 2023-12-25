@@ -5,7 +5,7 @@
 ---@field private ctrl SettingsMainGameController
 SettingsNotificationListener = {}
 
----@param fields? table
+---@param fields? SettingsNotificationListener
 ---@return SettingsNotificationListener
 function SettingsNotificationListener.new(fields) return end
 

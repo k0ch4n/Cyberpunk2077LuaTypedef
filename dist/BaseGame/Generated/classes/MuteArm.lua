@@ -6,7 +6,7 @@
 ---@field private gameEffectInstance gameEffectInstance
 MuteArm = {}
 
----@param fields? table
+---@param fields? MuteArm
 ---@return MuteArm
 function MuteArm.new(fields) return end
 

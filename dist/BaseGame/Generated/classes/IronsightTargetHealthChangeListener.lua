@@ -5,7 +5,7 @@
 ---@field private parentIronsight IronsightGameController
 IronsightTargetHealthChangeListener = {}
 
----@param fields? table
+---@param fields? IronsightTargetHealthChangeListener
 ---@return IronsightTargetHealthChangeListener
 function IronsightTargetHealthChangeListener.new(fields) return end
 

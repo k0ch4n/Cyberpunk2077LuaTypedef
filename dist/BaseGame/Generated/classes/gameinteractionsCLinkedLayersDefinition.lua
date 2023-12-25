@@ -7,6 +7,6 @@
 ---@field public tag CName
 gameinteractionsCLinkedLayersDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCLinkedLayersDefinition
 ---@return gameinteractionsCLinkedLayersDefinition
 function gameinteractionsCLinkedLayersDefinition.new(fields) return end

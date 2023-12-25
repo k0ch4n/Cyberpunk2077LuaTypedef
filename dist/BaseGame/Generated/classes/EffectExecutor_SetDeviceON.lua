@@ -4,7 +4,7 @@
 ---@class EffectExecutor_SetDeviceON: EffectExecutor_Device
 EffectExecutor_SetDeviceON = {}
 
----@param fields? table
+---@param fields? EffectExecutor_SetDeviceON
 ---@return EffectExecutor_SetDeviceON
 function EffectExecutor_SetDeviceON.new(fields) return end
 

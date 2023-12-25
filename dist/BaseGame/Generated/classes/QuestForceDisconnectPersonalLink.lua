@@ -4,7 +4,7 @@
 ---@class QuestForceDisconnectPersonalLink: ActionBool
 QuestForceDisconnectPersonalLink = {}
 
----@param fields? table
+---@param fields? QuestForceDisconnectPersonalLink
 ---@return QuestForceDisconnectPersonalLink
 function QuestForceDisconnectPersonalLink.new(fields) return end
 

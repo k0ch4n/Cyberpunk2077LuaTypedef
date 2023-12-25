@@ -5,6 +5,6 @@
 ---@field public uiEventToAudioEventDictionary audioKeySoundEventDictionary
 audioUiGenericControlSettingsMapItem = {}
 
----@param fields? table
+---@param fields? audioUiGenericControlSettingsMapItem
 ---@return audioUiGenericControlSettingsMapItem
 function audioUiGenericControlSettingsMapItem.new(fields) return end

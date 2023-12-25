@@ -7,7 +7,7 @@
 ---@field public priority Float
 AIGateSignalSender = {}
 
----@param fields? table
+---@param fields? AIGateSignalSender
 ---@return AIGateSignalSender
 function AIGateSignalSender.new(fields) return end
 

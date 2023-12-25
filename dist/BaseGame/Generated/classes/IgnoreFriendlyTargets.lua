@@ -4,7 +4,7 @@
 ---@class IgnoreFriendlyTargets: gameEffectObjectSingleFilter_Scripted
 IgnoreFriendlyTargets = {}
 
----@param fields? table
+---@param fields? IgnoreFriendlyTargets
 ---@return IgnoreFriendlyTargets
 function IgnoreFriendlyTargets.new(fields) return end
 

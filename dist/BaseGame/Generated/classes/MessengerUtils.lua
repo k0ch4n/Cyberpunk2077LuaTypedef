@@ -4,7 +4,7 @@
 ---@class MessengerUtils: IScriptable
 MessengerUtils = {}
 
----@param fields? table
+---@param fields? MessengerUtils
 ---@return MessengerUtils
 function MessengerUtils.new(fields) return end
 

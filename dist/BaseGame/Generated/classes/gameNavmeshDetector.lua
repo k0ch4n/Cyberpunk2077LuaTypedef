@@ -4,7 +4,7 @@
 ---@class gameNavmeshDetector: entIPlacedComponent
 gameNavmeshDetector = {}
 
----@param fields? table
+---@param fields? gameNavmeshDetector
 ---@return gameNavmeshDetector
 function gameNavmeshDetector.new(fields) return end
 

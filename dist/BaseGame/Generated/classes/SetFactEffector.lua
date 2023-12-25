@@ -6,7 +6,7 @@
 ---@field public value Int32
 SetFactEffector = {}
 
----@param fields? table
+---@param fields? SetFactEffector
 ---@return SetFactEffector
 function SetFactEffector.new(fields) return end
 

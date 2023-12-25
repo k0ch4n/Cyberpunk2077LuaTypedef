@@ -6,7 +6,7 @@
 ---@field public targetPlaneSize Vector2
 entVirtualCameraViewComponent = {}
 
----@param fields? table
+---@param fields? entVirtualCameraViewComponent
 ---@return entVirtualCameraViewComponent
 function entVirtualCameraViewComponent.new(fields) return end
 

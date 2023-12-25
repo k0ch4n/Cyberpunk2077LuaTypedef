@@ -14,7 +14,7 @@
 ---@field private uiSystemId redCallbackObject
 CurrencyNotification = {}
 
----@param fields? table
+---@param fields? CurrencyNotification
 ---@return CurrencyNotification
 function CurrencyNotification.new(fields) return end
 

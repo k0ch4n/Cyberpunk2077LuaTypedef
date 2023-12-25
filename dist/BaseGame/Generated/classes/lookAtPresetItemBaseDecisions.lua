@@ -4,6 +4,6 @@
 ---@class lookAtPresetItemBaseDecisions: LookAtPresetBaseDecisions
 lookAtPresetItemBaseDecisions = {}
 
----@param fields? table
+---@param fields? lookAtPresetItemBaseDecisions
 ---@return lookAtPresetItemBaseDecisions
 function lookAtPresetItemBaseDecisions.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected vendorID String
 DEBUG_VirtualShopkeeper = {}
 
----@param fields? table
+---@param fields? DEBUG_VirtualShopkeeper
 ---@return DEBUG_VirtualShopkeeper
 function DEBUG_VirtualShopkeeper.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public hash Uint32
 QuestMappinHighlightEvent = {}
 
----@param fields? table
+---@param fields? QuestMappinHighlightEvent
 ---@return QuestMappinHighlightEvent
 function QuestMappinHighlightEvent.new(fields) return end

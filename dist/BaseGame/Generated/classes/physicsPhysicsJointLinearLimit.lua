@@ -8,6 +8,6 @@
 ---@field public value Float
 physicsPhysicsJointLinearLimit = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointLinearLimit
 ---@return physicsPhysicsJointLinearLimit
 function physicsPhysicsJointLinearLimit.new(fields) return end

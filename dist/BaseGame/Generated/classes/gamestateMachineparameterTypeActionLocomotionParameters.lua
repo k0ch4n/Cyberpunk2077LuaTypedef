@@ -14,7 +14,7 @@
 ---@field public doSpeedBoost Bool
 gamestateMachineparameterTypeActionLocomotionParameters = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeActionLocomotionParameters
 ---@return gamestateMachineparameterTypeActionLocomotionParameters
 function gamestateMachineparameterTypeActionLocomotionParameters.new(fields) return end
 

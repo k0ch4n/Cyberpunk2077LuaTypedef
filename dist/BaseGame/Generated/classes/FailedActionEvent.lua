@@ -6,6 +6,6 @@
 ---@field public whoFailed gamePersistentID
 FailedActionEvent = {}
 
----@param fields? table
+---@param fields? FailedActionEvent
 ---@return FailedActionEvent
 function FailedActionEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public unique Bool
 gameTransformAnimation_PlaySound = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_PlaySound
 ---@return gameTransformAnimation_PlaySound
 function gameTransformAnimation_PlaySound.new(fields) return end

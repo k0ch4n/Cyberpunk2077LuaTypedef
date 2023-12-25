@@ -5,7 +5,7 @@
 ---@field protected state ConsumableChargesPrereqState
 ConsumableChargesPrereqListener = {}
 
----@param fields? table
+---@param fields? ConsumableChargesPrereqListener
 ---@return ConsumableChargesPrereqListener
 function ConsumableChargesPrereqListener.new(fields) return end
 

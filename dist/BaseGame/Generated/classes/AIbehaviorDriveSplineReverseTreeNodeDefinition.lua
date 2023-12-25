@@ -5,6 +5,6 @@
 ---@field public spline AIArgumentMapping
 AIbehaviorDriveSplineReverseTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveSplineReverseTreeNodeDefinition
 ---@return AIbehaviorDriveSplineReverseTreeNodeDefinition
 function AIbehaviorDriveSplineReverseTreeNodeDefinition.new(fields) return end

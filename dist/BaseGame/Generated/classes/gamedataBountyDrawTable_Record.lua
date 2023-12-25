@@ -4,7 +4,7 @@
 ---@class gamedataBountyDrawTable_Record: gamedataTweakDBRecord
 gamedataBountyDrawTable_Record = {}
 
----@param fields? table
+---@param fields? gamedataBountyDrawTable_Record
 ---@return gamedataBountyDrawTable_Record
 function gamedataBountyDrawTable_Record.new(fields) return end
 

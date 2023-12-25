@@ -4,7 +4,7 @@
 ---@class ChargeReadyDecisions: WeaponTransition
 ChargeReadyDecisions = {}
 
----@param fields? table
+---@param fields? ChargeReadyDecisions
 ---@return ChargeReadyDecisions
 function ChargeReadyDecisions.new(fields) return end
 

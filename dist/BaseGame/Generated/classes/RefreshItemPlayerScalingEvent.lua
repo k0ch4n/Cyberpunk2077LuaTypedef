@@ -4,6 +4,6 @@
 ---@class RefreshItemPlayerScalingEvent: redEvent
 RefreshItemPlayerScalingEvent = {}
 
----@param fields? table
+---@param fields? RefreshItemPlayerScalingEvent
 ---@return RefreshItemPlayerScalingEvent
 function RefreshItemPlayerScalingEvent.new(fields) return end

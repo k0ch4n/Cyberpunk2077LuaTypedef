@@ -6,6 +6,6 @@
 ---@field public isEnabled Bool
 entClothComponent = {}
 
----@param fields? table
+---@param fields? entClothComponent
 ---@return entClothComponent
 function entClothComponent.new(fields) return end

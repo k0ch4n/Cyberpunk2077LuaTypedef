@@ -7,6 +7,6 @@
 ---@field public excludedTags redTagList
 entTagMask = {}
 
----@param fields? table
+---@param fields? entTagMask
 ---@return entTagMask
 function entTagMask.new(fields) return end

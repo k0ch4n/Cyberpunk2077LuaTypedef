@@ -9,6 +9,6 @@
 ---@field public launched Bool
 gameweaponGrenadeReplicatedState = {}
 
----@param fields? table
+---@param fields? gameweaponGrenadeReplicatedState
 ---@return gameweaponGrenadeReplicatedState
 function gameweaponGrenadeReplicatedState.new(fields) return end

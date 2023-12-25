@@ -19,6 +19,6 @@
 ---@field public dynamicAnimSetupHash Uint64
 gameSceneAnimationMotionActionParams = {}
 
----@param fields? table
+---@param fields? gameSceneAnimationMotionActionParams
 ---@return gameSceneAnimationMotionActionParams
 function gameSceneAnimationMotionActionParams.new(fields) return end

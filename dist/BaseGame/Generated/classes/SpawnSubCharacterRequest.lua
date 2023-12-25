@@ -4,6 +4,6 @@
 ---@class SpawnSubCharacterRequest: SpawnUniqueSubCharacterRequest
 SpawnSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? SpawnSubCharacterRequest
 ---@return SpawnSubCharacterRequest
 function SpawnSubCharacterRequest.new(fields) return end

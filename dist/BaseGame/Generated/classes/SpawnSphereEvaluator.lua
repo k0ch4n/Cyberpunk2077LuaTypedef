@@ -4,6 +4,6 @@
 ---@class SpawnSphereEvaluator: PhysicsParticleInitializer
 SpawnSphereEvaluator = {}
 
----@param fields? table
+---@param fields? SpawnSphereEvaluator
 ---@return SpawnSphereEvaluator
 function SpawnSphereEvaluator.new(fields) return end

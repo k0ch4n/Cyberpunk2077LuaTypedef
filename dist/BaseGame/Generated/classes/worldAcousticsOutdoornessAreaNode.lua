@@ -5,6 +5,6 @@
 ---@field public outdoor Float
 worldAcousticsOutdoornessAreaNode = {}
 
----@param fields? table
+---@param fields? worldAcousticsOutdoornessAreaNode
 ---@return worldAcousticsOutdoornessAreaNode
 function worldAcousticsOutdoornessAreaNode.new(fields) return end

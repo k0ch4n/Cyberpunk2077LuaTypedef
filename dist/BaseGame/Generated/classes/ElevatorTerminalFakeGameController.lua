@@ -5,7 +5,7 @@
 ---@field private elevatorTerminalWidget inkCanvasWidgetReference
 ElevatorTerminalFakeGameController = {}
 
----@param fields? table
+---@param fields? ElevatorTerminalFakeGameController
 ---@return ElevatorTerminalFakeGameController
 function ElevatorTerminalFakeGameController.new(fields) return end
 

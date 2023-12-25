@@ -6,7 +6,7 @@
 ---@field public rarity gamedataNPCRarity
 HitIsRarityPrereq = {}
 
----@param fields? table
+---@param fields? HitIsRarityPrereq
 ---@return HitIsRarityPrereq
 function HitIsRarityPrereq.new(fields) return end
 

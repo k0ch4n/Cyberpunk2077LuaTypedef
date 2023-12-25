@@ -4,7 +4,7 @@
 ---@class AdjustAnimWrappersForDeescalatingFearPhase: AIbehaviortaskScript
 AdjustAnimWrappersForDeescalatingFearPhase = {}
 
----@param fields? table
+---@param fields? AdjustAnimWrappersForDeescalatingFearPhase
 ---@return AdjustAnimWrappersForDeescalatingFearPhase
 function AdjustAnimWrappersForDeescalatingFearPhase.new(fields) return end
 

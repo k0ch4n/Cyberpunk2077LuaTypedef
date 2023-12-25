@@ -6,6 +6,6 @@
 ---@field public eventsByLocomotionState audioLocomotionStateEventDictionary
 audioFootstepDecalMaterialEntry = {}
 
----@param fields? table
+---@param fields? audioFootstepDecalMaterialEntry
 ---@return audioFootstepDecalMaterialEntry
 function audioFootstepDecalMaterialEntry.new(fields) return end

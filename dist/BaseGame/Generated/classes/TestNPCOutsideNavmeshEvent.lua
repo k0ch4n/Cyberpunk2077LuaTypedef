@@ -7,6 +7,6 @@
 ---@field public enable Bool
 TestNPCOutsideNavmeshEvent = {}
 
----@param fields? table
+---@param fields? TestNPCOutsideNavmeshEvent
 ---@return TestNPCOutsideNavmeshEvent
 function TestNPCOutsideNavmeshEvent.new(fields) return end

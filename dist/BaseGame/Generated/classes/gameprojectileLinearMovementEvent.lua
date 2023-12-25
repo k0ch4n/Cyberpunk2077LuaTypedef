@@ -5,6 +5,6 @@
 ---@field public targetPosition Vector4
 gameprojectileLinearMovementEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileLinearMovementEvent
 ---@return gameprojectileLinearMovementEvent
 function gameprojectileLinearMovementEvent.new(fields) return end

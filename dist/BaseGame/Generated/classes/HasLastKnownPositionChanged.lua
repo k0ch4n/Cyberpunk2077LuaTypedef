@@ -4,7 +4,7 @@
 ---@class HasLastKnownPositionChanged: PreventionConditionAbstract
 HasLastKnownPositionChanged = {}
 
----@param fields? table
+---@param fields? HasLastKnownPositionChanged
 ---@return HasLastKnownPositionChanged
 function HasLastKnownPositionChanged.new(fields) return end
 

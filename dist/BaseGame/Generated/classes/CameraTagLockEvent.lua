@@ -5,6 +5,6 @@
 ---@field public isLocked Bool
 CameraTagLockEvent = {}
 
----@param fields? table
+---@param fields? CameraTagLockEvent
 ---@return CameraTagLockEvent
 function CameraTagLockEvent.new(fields) return end

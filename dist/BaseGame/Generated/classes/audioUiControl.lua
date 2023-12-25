@@ -5,6 +5,6 @@
 ---@field public uiEventsByAction audioKeyUiSoundDictionary
 audioUiControl = {}
 
----@param fields? table
+---@param fields? audioUiControl
 ---@return audioUiControl
 function audioUiControl.new(fields) return end

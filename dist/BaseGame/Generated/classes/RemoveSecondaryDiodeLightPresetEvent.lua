@@ -4,6 +4,6 @@
 ---@class RemoveSecondaryDiodeLightPresetEvent: redEvent
 RemoveSecondaryDiodeLightPresetEvent = {}
 
----@param fields? table
+---@param fields? RemoveSecondaryDiodeLightPresetEvent
 ---@return RemoveSecondaryDiodeLightPresetEvent
 function RemoveSecondaryDiodeLightPresetEvent.new(fields) return end

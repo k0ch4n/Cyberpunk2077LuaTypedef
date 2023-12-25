@@ -17,6 +17,6 @@
 ---@field public quality gamedataQuality
 RecipeData = {}
 
----@param fields? table
+---@param fields? RecipeData
 ---@return RecipeData
 function RecipeData.new(fields) return end

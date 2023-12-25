@@ -23,7 +23,7 @@
 ---@field public errorPopupAnimProxy inkanimProxy
 InnerSubsystemScreenGameController = {}
 
----@param fields? table
+---@param fields? InnerSubsystemScreenGameController
 ---@return InnerSubsystemScreenGameController
 function InnerSubsystemScreenGameController.new(fields) return end
 

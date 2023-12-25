@@ -4,6 +4,6 @@
 ---@class OnHoverOver: inkPointerEvent
 OnHoverOver = {}
 
----@param fields? table
+---@param fields? OnHoverOver
 ---@return OnHoverOver
 function OnHoverOver.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field protected amount inkTextWidgetReference
 InventoryCyberwareDisplayController = {}
 
----@param fields? table
+---@param fields? InventoryCyberwareDisplayController
 ---@return InventoryCyberwareDisplayController
 function InventoryCyberwareDisplayController.new(fields) return end
 

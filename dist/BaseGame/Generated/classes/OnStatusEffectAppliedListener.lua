@@ -7,7 +7,7 @@
 ---@field public owner gameObject
 OnStatusEffectAppliedListener = {}
 
----@param fields? table
+---@param fields? OnStatusEffectAppliedListener
 ---@return OnStatusEffectAppliedListener
 function OnStatusEffectAppliedListener.new(fields) return end
 

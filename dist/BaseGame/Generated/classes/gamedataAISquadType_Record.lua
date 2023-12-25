@@ -4,7 +4,7 @@
 ---@class gamedataAISquadType_Record: gamedataTweakDBRecord
 gamedataAISquadType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISquadType_Record
 ---@return gamedataAISquadType_Record
 function gamedataAISquadType_Record.new(fields) return end
 

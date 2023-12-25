@@ -4,7 +4,7 @@
 ---@class IdleActionsCondition: AIbehaviorconditionScript
 IdleActionsCondition = {}
 
----@param fields? table
+---@param fields? IdleActionsCondition
 ---@return IdleActionsCondition
 function IdleActionsCondition.new(fields) return end
 

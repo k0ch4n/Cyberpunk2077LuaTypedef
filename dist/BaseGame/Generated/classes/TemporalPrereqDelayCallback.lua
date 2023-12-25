@@ -5,7 +5,7 @@
 ---@field protected state TemporalPrereqState
 TemporalPrereqDelayCallback = {}
 
----@param fields? table
+---@param fields? TemporalPrereqDelayCallback
 ---@return TemporalPrereqDelayCallback
 function TemporalPrereqDelayCallback.new(fields) return end
 

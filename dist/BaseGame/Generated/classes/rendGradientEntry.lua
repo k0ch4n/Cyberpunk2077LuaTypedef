@@ -6,6 +6,6 @@
 ---@field public color Color
 rendGradientEntry = {}
 
----@param fields? table
+---@param fields? rendGradientEntry
 ---@return rendGradientEntry
 function rendGradientEntry.new(fields) return end

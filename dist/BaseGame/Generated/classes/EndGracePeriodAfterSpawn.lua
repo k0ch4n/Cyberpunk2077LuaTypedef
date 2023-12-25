@@ -4,6 +4,6 @@
 ---@class EndGracePeriodAfterSpawn: redEvent
 EndGracePeriodAfterSpawn = {}
 
----@param fields? table
+---@param fields? EndGracePeriodAfterSpawn
 ---@return EndGracePeriodAfterSpawn
 function EndGracePeriodAfterSpawn.new(fields) return end

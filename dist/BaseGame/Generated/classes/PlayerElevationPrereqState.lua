@@ -9,7 +9,7 @@
 ---@field public owner gameObject
 PlayerElevationPrereqState = {}
 
----@param fields? table
+---@param fields? PlayerElevationPrereqState
 ---@return PlayerElevationPrereqState
 function PlayerElevationPrereqState.new(fields) return end
 

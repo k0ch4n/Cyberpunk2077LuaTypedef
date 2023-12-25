@@ -37,6 +37,6 @@
 ---@field public volCoverageOffset Vector2
 CloudAreaSettings = {}
 
----@param fields? table
+---@param fields? CloudAreaSettings
 ---@return CloudAreaSettings
 function CloudAreaSettings.new(fields) return end

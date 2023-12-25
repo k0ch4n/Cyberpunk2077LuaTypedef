@@ -50,7 +50,7 @@
 ---@field private currentDamagePreviewValue Int32
 NameplateVisualsLogicController = {}
 
----@param fields? table
+---@param fields? NameplateVisualsLogicController
 ---@return NameplateVisualsLogicController
 function NameplateVisualsLogicController.new(fields) return end
 

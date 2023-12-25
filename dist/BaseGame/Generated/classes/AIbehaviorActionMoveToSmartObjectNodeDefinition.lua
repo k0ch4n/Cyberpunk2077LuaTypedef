@@ -13,6 +13,6 @@
 ---@field public forcedEntryAnimation AIArgumentMapping
 AIbehaviorActionMoveToSmartObjectNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionMoveToSmartObjectNodeDefinition
 ---@return AIbehaviorActionMoveToSmartObjectNodeDefinition
 function AIbehaviorActionMoveToSmartObjectNodeDefinition.new(fields) return end

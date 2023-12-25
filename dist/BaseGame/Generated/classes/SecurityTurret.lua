@@ -24,7 +24,7 @@
 ---@field private netClientCurrentlyAppliedState SecurityTurretReplicatedState
 SecurityTurret = {}
 
----@param fields? table
+---@param fields? SecurityTurret
 ---@return SecurityTurret
 function SecurityTurret.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public drawMetrics inkSingleDrawMetric[]
 inkWindowDrawMetrics = {}
 
----@param fields? table
+---@param fields? inkWindowDrawMetrics
 ---@return inkWindowDrawMetrics
 function inkWindowDrawMetrics.new(fields) return end

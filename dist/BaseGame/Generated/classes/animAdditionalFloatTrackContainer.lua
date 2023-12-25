@@ -6,6 +6,6 @@
 ---@field public overwriteExistingValues Bool
 animAdditionalFloatTrackContainer = {}
 
----@param fields? table
+---@param fields? animAdditionalFloatTrackContainer
 ---@return animAdditionalFloatTrackContainer
 function animAdditionalFloatTrackContainer.new(fields) return end

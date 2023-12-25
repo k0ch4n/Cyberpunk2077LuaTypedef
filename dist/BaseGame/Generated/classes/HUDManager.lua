@@ -51,7 +51,7 @@
 ---@field private previousStickInput Vector4
 HUDManager = {}
 
----@param fields? table
+---@param fields? HUDManager
 ---@return HUDManager
 function HUDManager.new(fields) return end
 

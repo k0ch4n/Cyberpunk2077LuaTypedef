@@ -4,6 +4,6 @@
 ---@class gameRecordIdSpawnModifier: populationModifier
 gameRecordIdSpawnModifier = {}
 
----@param fields? table
+---@param fields? gameRecordIdSpawnModifier
 ---@return gameRecordIdSpawnModifier
 function gameRecordIdSpawnModifier.new(fields) return end

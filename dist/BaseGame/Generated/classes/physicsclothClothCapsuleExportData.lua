@@ -5,6 +5,6 @@
 ---@field public capsules physicsclothExportedCapsule[]
 physicsclothClothCapsuleExportData = {}
 
----@param fields? table
+---@param fields? physicsclothClothCapsuleExportData
 ---@return physicsclothClothCapsuleExportData
 function physicsclothClothCapsuleExportData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataItemBlueprintElement_Record: gamedataTweakDBRecord
 gamedataItemBlueprintElement_Record = {}
 
----@param fields? table
+---@param fields? gamedataItemBlueprintElement_Record
 ---@return gamedataItemBlueprintElement_Record
 function gamedataItemBlueprintElement_Record.new(fields) return end
 

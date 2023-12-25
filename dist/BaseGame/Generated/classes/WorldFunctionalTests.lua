@@ -4,7 +4,7 @@
 ---@class WorldFunctionalTests: IScriptable
 WorldFunctionalTests = {}
 
----@param fields? table
+---@param fields? WorldFunctionalTests
 ---@return WorldFunctionalTests
 function WorldFunctionalTests.new(fields) return end
 

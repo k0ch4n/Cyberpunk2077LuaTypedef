@@ -4,7 +4,7 @@
 ---@class gamedataSenseObjectType_Record: gamedataTweakDBRecord
 gamedataSenseObjectType_Record = {}
 
----@param fields? table
+---@param fields? gamedataSenseObjectType_Record
 ---@return gamedataSenseObjectType_Record
 function gamedataSenseObjectType_Record.new(fields) return end
 

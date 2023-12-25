@@ -8,7 +8,7 @@
 ---@field public TrackedMappin gamebbScriptID_Variant
 UI_SystemDef = {}
 
----@param fields? table
+---@param fields? UI_SystemDef
 ---@return UI_SystemDef
 function UI_SystemDef.new(fields) return end
 

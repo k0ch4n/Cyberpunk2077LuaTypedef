@@ -6,6 +6,6 @@
 ---@field public environmentSounds audioDynamicEventsWithInterval[]
 audioAudioAttractAreaSounds = {}
 
----@param fields? table
+---@param fields? audioAudioAttractAreaSounds
 ---@return audioAudioAttractAreaSounds
 function audioAudioAttractAreaSounds.new(fields) return end

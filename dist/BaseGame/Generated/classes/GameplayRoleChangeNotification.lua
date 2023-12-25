@@ -6,6 +6,6 @@
 ---@field public oldRole EGameplayRole
 GameplayRoleChangeNotification = {}
 
----@param fields? table
+---@param fields? GameplayRoleChangeNotification
 ---@return GameplayRoleChangeNotification
 function GameplayRoleChangeNotification.new(fields) return end

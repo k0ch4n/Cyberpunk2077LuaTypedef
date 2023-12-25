@@ -4,6 +4,6 @@
 ---@class inkButtonStateChangeCallback: inkCallbackBase
 inkButtonStateChangeCallback = {}
 
----@param fields? table
+---@param fields? inkButtonStateChangeCallback
 ---@return inkButtonStateChangeCallback
 function inkButtonStateChangeCallback.new(fields) return end

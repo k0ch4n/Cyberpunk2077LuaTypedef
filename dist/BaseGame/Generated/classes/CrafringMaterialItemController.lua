@@ -16,7 +16,7 @@
 ---@field private hideIfZero Bool
 CrafringMaterialItemController = {}
 
----@param fields? table
+---@param fields? CrafringMaterialItemController
 ---@return CrafringMaterialItemController
 function CrafringMaterialItemController.new(fields) return end
 

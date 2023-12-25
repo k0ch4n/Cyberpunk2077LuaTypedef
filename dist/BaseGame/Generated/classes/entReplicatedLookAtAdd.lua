@@ -8,6 +8,6 @@
 ---@field public ref animLookAtRef
 entReplicatedLookAtAdd = {}
 
----@param fields? table
+---@param fields? entReplicatedLookAtAdd
 ---@return entReplicatedLookAtAdd
 function entReplicatedLookAtAdd.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AIbehaviorClearActiveNodesDebuggerCommand: AIbehaviorIDebuggerCommand
 AIbehaviorClearActiveNodesDebuggerCommand = {}
 
----@param fields? table
+---@param fields? AIbehaviorClearActiveNodesDebuggerCommand
 ---@return AIbehaviorClearActiveNodesDebuggerCommand
 function AIbehaviorClearActiveNodesDebuggerCommand.new(fields) return end

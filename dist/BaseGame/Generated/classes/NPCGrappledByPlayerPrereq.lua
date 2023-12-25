@@ -4,7 +4,7 @@
 ---@class NPCGrappledByPlayerPrereq: gameIScriptablePrereq
 NPCGrappledByPlayerPrereq = {}
 
----@param fields? table
+---@param fields? NPCGrappledByPlayerPrereq
 ---@return NPCGrappledByPlayerPrereq
 function NPCGrappledByPlayerPrereq.new(fields) return end
 

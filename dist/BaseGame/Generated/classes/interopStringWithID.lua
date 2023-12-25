@@ -6,6 +6,6 @@
 ---@field public id Uint64
 interopStringWithID = {}
 
----@param fields? table
+---@param fields? interopStringWithID
 ---@return interopStringWithID
 function interopStringWithID.new(fields) return end

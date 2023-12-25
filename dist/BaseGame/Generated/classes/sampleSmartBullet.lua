@@ -48,7 +48,7 @@
 ---@field private trackedTargetComponent gameTargetingComponent
 sampleSmartBullet = {}
 
----@param fields? table
+---@param fields? sampleSmartBullet
 ---@return sampleSmartBullet
 function sampleSmartBullet.new(fields) return end
 

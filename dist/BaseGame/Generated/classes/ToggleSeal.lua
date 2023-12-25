@@ -4,7 +4,7 @@
 ---@class ToggleSeal: ActionBool
 ToggleSeal = {}
 
----@param fields? table
+---@param fields? ToggleSeal
 ---@return ToggleSeal
 function ToggleSeal.new(fields) return end
 

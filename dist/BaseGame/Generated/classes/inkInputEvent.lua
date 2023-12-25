@@ -4,7 +4,7 @@
 ---@class inkInputEvent: inkEvent
 inkInputEvent = {}
 
----@param fields? table
+---@param fields? inkInputEvent
 ---@return inkInputEvent
 function inkInputEvent.new(fields) return end
 

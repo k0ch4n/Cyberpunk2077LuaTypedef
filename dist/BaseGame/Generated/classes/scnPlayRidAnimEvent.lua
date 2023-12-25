@@ -10,6 +10,6 @@
 ---@field public blendInTrajectoryBone Float
 scnPlayRidAnimEvent = {}
 
----@param fields? table
+---@param fields? scnPlayRidAnimEvent
 ---@return scnPlayRidAnimEvent
 function scnPlayRidAnimEvent.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public lapsPassed Int32
 gameuiQuadRacerGameState = {}
 
----@param fields? table
+---@param fields? gameuiQuadRacerGameState
 ---@return gameuiQuadRacerGameState
 function gameuiQuadRacerGameState.new(fields) return end

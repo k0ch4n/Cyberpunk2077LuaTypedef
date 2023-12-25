@@ -5,6 +5,6 @@
 ---@field public lootAppearance CName
 gameLootSlotSingleAppearance = {}
 
----@param fields? table
+---@param fields? gameLootSlotSingleAppearance
 ---@return gameLootSlotSingleAppearance
 function gameLootSlotSingleAppearance.new(fields) return end

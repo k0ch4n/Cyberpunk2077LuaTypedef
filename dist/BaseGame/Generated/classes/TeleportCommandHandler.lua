@@ -7,7 +7,7 @@
 ---@field protected doNavTest AIArgumentMapping
 TeleportCommandHandler = {}
 
----@param fields? table
+---@param fields? TeleportCommandHandler
 ---@return TeleportCommandHandler
 function TeleportCommandHandler.new(fields) return end
 

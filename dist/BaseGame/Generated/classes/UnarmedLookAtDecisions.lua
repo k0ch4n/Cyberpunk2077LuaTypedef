@@ -4,7 +4,7 @@
 ---@class UnarmedLookAtDecisions: LookAtPresetBaseDecisions
 UnarmedLookAtDecisions = {}
 
----@param fields? table
+---@param fields? UnarmedLookAtDecisions
 ---@return UnarmedLookAtDecisions
 function UnarmedLookAtDecisions.new(fields) return end
 

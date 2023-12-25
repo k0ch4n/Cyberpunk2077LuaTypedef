@@ -5,6 +5,6 @@
 ---@field public widget inkWidget
 RefreshTooltipEvent = {}
 
----@param fields? table
+---@param fields? RefreshTooltipEvent
 ---@return RefreshTooltipEvent
 function RefreshTooltipEvent.new(fields) return end

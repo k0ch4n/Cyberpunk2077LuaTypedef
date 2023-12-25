@@ -8,6 +8,6 @@
 ---@field public a Int32
 interopRTTIClassDumpEntry = {}
 
----@param fields? table
+---@param fields? interopRTTIClassDumpEntry
 ---@return interopRTTIClassDumpEntry
 function interopRTTIClassDumpEntry.new(fields) return end

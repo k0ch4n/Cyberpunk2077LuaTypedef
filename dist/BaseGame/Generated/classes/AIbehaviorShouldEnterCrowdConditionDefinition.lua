@@ -4,6 +4,6 @@
 ---@class AIbehaviorShouldEnterCrowdConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorShouldEnterCrowdConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorShouldEnterCrowdConditionDefinition
 ---@return AIbehaviorShouldEnterCrowdConditionDefinition
 function AIbehaviorShouldEnterCrowdConditionDefinition.new(fields) return end

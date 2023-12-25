@@ -7,6 +7,6 @@
 ---@field public useThumbnails Bool
 gameuiAppearanceInfo = {}
 
----@param fields? table
+---@param fields? gameuiAppearanceInfo
 ---@return gameuiAppearanceInfo
 function gameuiAppearanceInfo.new(fields) return end

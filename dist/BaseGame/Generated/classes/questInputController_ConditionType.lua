@@ -5,6 +5,6 @@
 ---@field public inputController questInputDevice
 questInputController_ConditionType = {}
 
----@param fields? table
+---@param fields? questInputController_ConditionType
 ---@return questInputController_ConditionType
 function questInputController_ConditionType.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamePlayerCommandConsumerComponent: entIComponent
 gamePlayerCommandConsumerComponent = {}
 
----@param fields? table
+---@param fields? gamePlayerCommandConsumerComponent
 ---@return gamePlayerCommandConsumerComponent
 function gamePlayerCommandConsumerComponent.new(fields) return end

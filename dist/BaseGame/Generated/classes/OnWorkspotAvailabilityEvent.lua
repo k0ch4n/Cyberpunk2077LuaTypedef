@@ -5,6 +5,6 @@
 ---@field public workspotRef NodeRef
 OnWorkspotAvailabilityEvent = {}
 
----@param fields? table
+---@param fields? OnWorkspotAvailabilityEvent
 ---@return OnWorkspotAvailabilityEvent
 function OnWorkspotAvailabilityEvent.new(fields) return end

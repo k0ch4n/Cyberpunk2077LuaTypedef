@@ -6,7 +6,7 @@
 ---@field public lsitenTarget gameObject
 TargetedObjectDeathListener = {}
 
----@param fields? table
+---@param fields? TargetedObjectDeathListener
 ---@return TargetedObjectDeathListener
 function TargetedObjectDeathListener.new(fields) return end
 

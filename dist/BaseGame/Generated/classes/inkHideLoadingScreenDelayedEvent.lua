@@ -4,6 +4,6 @@
 ---@class inkHideLoadingScreenDelayedEvent: redEvent
 inkHideLoadingScreenDelayedEvent = {}
 
----@param fields? table
+---@param fields? inkHideLoadingScreenDelayedEvent
 ---@return inkHideLoadingScreenDelayedEvent
 function inkHideLoadingScreenDelayedEvent.new(fields) return end

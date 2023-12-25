@@ -7,6 +7,6 @@
 ---@field public avarageInclusiveTimeMS Float
 animAnimProfilerData_Timings = {}
 
----@param fields? table
+---@param fields? animAnimProfilerData_Timings
 ---@return animAnimProfilerData_Timings
 function animAnimProfilerData_Timings.new(fields) return end

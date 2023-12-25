@@ -6,6 +6,6 @@
 ---@field public box Box
 toolsMessageLocation_BoundingBox = {}
 
----@param fields? table
+---@param fields? toolsMessageLocation_BoundingBox
 ---@return toolsMessageLocation_BoundingBox
 function toolsMessageLocation_BoundingBox.new(fields) return end

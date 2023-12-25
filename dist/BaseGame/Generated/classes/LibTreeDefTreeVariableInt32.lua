@@ -6,6 +6,6 @@
 ---@field public defaultValue Int32
 LibTreeDefTreeVariableInt32 = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableInt32
 ---@return LibTreeDefTreeVariableInt32
 function LibTreeDefTreeVariableInt32.new(fields) return end

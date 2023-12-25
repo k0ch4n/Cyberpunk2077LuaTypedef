@@ -33,7 +33,7 @@
 ---@field private sourceIndex Int32
 LoadGameMenuGameController = {}
 
----@param fields? table
+---@param fields? LoadGameMenuGameController
 ---@return LoadGameMenuGameController
 function LoadGameMenuGameController.new(fields) return end
 

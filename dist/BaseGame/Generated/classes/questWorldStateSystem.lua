@@ -4,6 +4,6 @@
 ---@class questWorldStateSystem: questIWorldStateSystem
 questWorldStateSystem = {}
 
----@param fields? table
+---@param fields? questWorldStateSystem
 ---@return questWorldStateSystem
 function questWorldStateSystem.new(fields) return end

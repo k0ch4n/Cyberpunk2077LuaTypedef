@@ -5,6 +5,6 @@
 ---@field public statusEffect TweakDBID
 gameStatusEffectTDBPicker = {}
 
----@param fields? table
+---@param fields? gameStatusEffectTDBPicker
 ---@return gameStatusEffectTDBPicker
 function gameStatusEffectTDBPicker.new(fields) return end

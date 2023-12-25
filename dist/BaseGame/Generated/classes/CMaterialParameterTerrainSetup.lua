@@ -5,6 +5,6 @@
 ---@field public setup CTerrainSetup
 CMaterialParameterTerrainSetup = {}
 
----@param fields? table
+---@param fields? CMaterialParameterTerrainSetup
 ---@return CMaterialParameterTerrainSetup
 function CMaterialParameterTerrainSetup.new(fields) return end

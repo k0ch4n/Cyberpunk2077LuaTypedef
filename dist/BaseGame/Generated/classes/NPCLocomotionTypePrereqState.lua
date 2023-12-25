@@ -6,7 +6,7 @@
 ---@field public listenerInt redCallbackObject
 NPCLocomotionTypePrereqState = {}
 
----@param fields? table
+---@param fields? NPCLocomotionTypePrereqState
 ---@return NPCLocomotionTypePrereqState
 function NPCLocomotionTypePrereqState.new(fields) return end
 

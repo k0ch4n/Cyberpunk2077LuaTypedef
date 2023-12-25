@@ -4,7 +4,7 @@
 ---@class gamedataUIStatsMap_Record: gamedataTweakDBRecord
 gamedataUIStatsMap_Record = {}
 
----@param fields? table
+---@param fields? gamedataUIStatsMap_Record
 ---@return gamedataUIStatsMap_Record
 function gamedataUIStatsMap_Record.new(fields) return end
 

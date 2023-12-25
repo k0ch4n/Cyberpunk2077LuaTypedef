@@ -6,7 +6,7 @@
 ---@field private queryStarted Bool
 ExampleNavigationTask = {}
 
----@param fields? table
+---@param fields? ExampleNavigationTask
 ---@return ExampleNavigationTask
 function ExampleNavigationTask.new(fields) return end
 

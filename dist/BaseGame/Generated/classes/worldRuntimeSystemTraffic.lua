@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemTraffic: worldIRuntimeSystem
 worldRuntimeSystemTraffic = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemTraffic
 ---@return worldRuntimeSystemTraffic
 function worldRuntimeSystemTraffic.new(fields) return end

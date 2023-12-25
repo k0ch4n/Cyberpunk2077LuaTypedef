@@ -15,7 +15,7 @@
 ---@field private isItemCollapsed Bool
 CodexListVirtualGroup = {}
 
----@param fields? table
+---@param fields? CodexListVirtualGroup
 ---@return CodexListVirtualGroup
 function CodexListVirtualGroup.new(fields) return end
 

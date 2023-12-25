@@ -6,6 +6,6 @@
 ---@field public removeEvent Bool
 IgnoreListEvent = {}
 
----@param fields? table
+---@param fields? IgnoreListEvent
 ---@return IgnoreListEvent
 function IgnoreListEvent.new(fields) return end

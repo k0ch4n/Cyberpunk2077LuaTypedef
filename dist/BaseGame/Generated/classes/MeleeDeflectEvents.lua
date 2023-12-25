@@ -5,7 +5,7 @@
 ---@field public deflectStatFlag gameStatModifierData_Deprecated
 MeleeDeflectEvents = {}
 
----@param fields? table
+---@param fields? MeleeDeflectEvents
 ---@return MeleeDeflectEvents
 function MeleeDeflectEvents.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AvHoverIdleSFXBehaviour: AIbehaviortaskScript
 AvHoverIdleSFXBehaviour = {}
 
----@param fields? table
+---@param fields? AvHoverIdleSFXBehaviour
 ---@return AvHoverIdleSFXBehaviour
 function AvHoverIdleSFXBehaviour.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class RemoveStatusEffectsOnStoryTier: StatusEffectTasks
 RemoveStatusEffectsOnStoryTier = {}
 
----@param fields? table
+---@param fields? RemoveStatusEffectsOnStoryTier
 ---@return RemoveStatusEffectsOnStoryTier
 function RemoveStatusEffectsOnStoryTier.new(fields) return end
 

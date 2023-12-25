@@ -4,6 +4,6 @@
 ---@class DetectionRiseEvent: senseVisibilityEvent
 DetectionRiseEvent = {}
 
----@param fields? table
+---@param fields? DetectionRiseEvent
 ---@return DetectionRiseEvent
 function DetectionRiseEvent.new(fields) return end

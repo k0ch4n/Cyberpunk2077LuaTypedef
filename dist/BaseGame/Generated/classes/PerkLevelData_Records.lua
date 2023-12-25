@@ -5,7 +5,7 @@
 ---@field private arr gamedataPerkLevelData_Record[]
 PerkLevelData_Records = {}
 
----@param fields? table
+---@param fields? PerkLevelData_Records
 ---@return PerkLevelData_Records
 function PerkLevelData_Records.new(fields) return end
 

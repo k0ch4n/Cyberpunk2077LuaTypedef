@@ -13,7 +13,7 @@
 ---@field private owner gameObject
 PlayerCombatController = {}
 
----@param fields? table
+---@param fields? PlayerCombatController
 ---@return PlayerCombatController
 function PlayerCombatController.new(fields) return end
 

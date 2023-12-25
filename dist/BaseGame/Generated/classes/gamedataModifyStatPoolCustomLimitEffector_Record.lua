@@ -4,7 +4,7 @@
 ---@class gamedataModifyStatPoolCustomLimitEffector_Record: gamedataEffector_Record
 gamedataModifyStatPoolCustomLimitEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataModifyStatPoolCustomLimitEffector_Record
 ---@return gamedataModifyStatPoolCustomLimitEffector_Record
 function gamedataModifyStatPoolCustomLimitEffector_Record.new(fields) return end
 

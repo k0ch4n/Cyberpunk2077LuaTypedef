@@ -9,6 +9,6 @@
 ---@field public vectorEvaluator gameEffectVectorEvaluator
 gameEffectExecutor_VisualEffect = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_VisualEffect
 ---@return gameEffectExecutor_VisualEffect
 function gameEffectExecutor_VisualEffect.new(fields) return end

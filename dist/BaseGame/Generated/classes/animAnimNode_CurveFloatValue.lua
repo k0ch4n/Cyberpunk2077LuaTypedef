@@ -6,6 +6,6 @@
 ---@field public argument animFloatLink
 animAnimNode_CurveFloatValue = {}
 
----@param fields? table
+---@param fields? animAnimNode_CurveFloatValue
 ---@return animAnimNode_CurveFloatValue
 function animAnimNode_CurveFloatValue.new(fields) return end

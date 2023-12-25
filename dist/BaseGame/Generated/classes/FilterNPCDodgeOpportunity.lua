@@ -6,7 +6,7 @@
 ---@field private doDodgingTargetsGetFilteredOut Bool
 FilterNPCDodgeOpportunity = {}
 
----@param fields? table
+---@param fields? FilterNPCDodgeOpportunity
 ---@return FilterNPCDodgeOpportunity
 function FilterNPCDodgeOpportunity.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public playerStates AIActionPlayerStates
 AIActionTargetStates = {}
 
----@param fields? table
+---@param fields? AIActionTargetStates
 ---@return AIActionTargetStates
 function AIActionTargetStates.new(fields) return end

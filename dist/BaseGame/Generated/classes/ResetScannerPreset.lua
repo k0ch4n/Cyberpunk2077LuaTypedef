@@ -4,7 +4,7 @@
 ---@class ResetScannerPreset: redEvent
 ResetScannerPreset = {}
 
----@param fields? table
+---@param fields? ResetScannerPreset
 ---@return ResetScannerPreset
 function ResetScannerPreset.new(fields) return end
 

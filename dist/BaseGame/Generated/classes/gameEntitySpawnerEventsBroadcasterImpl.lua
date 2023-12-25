@@ -4,7 +4,7 @@
 ---@class gameEntitySpawnerEventsBroadcasterImpl: gameIEntitySpawnerEventsBroadcaster
 gameEntitySpawnerEventsBroadcasterImpl = {}
 
----@param fields? table
+---@param fields? gameEntitySpawnerEventsBroadcasterImpl
 ---@return gameEntitySpawnerEventsBroadcasterImpl
 function gameEntitySpawnerEventsBroadcasterImpl.new(fields) return end
 

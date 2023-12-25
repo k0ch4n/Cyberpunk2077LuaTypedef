@@ -4,6 +4,6 @@
 ---@class vehicleGarageComponent: gameComponent
 vehicleGarageComponent = {}
 
----@param fields? table
+---@param fields? vehicleGarageComponent
 ---@return vehicleGarageComponent
 function vehicleGarageComponent.new(fields) return end

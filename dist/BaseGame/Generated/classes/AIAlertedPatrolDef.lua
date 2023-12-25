@@ -14,6 +14,6 @@
 ---@field public patrolInProgress gamebbScriptID_Bool
 AIAlertedPatrolDef = {}
 
----@param fields? table
+---@param fields? AIAlertedPatrolDef
 ---@return AIAlertedPatrolDef
 function AIAlertedPatrolDef.new(fields) return end

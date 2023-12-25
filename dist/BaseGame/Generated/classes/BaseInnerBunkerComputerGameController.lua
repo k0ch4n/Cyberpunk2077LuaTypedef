@@ -4,7 +4,7 @@
 ---@class BaseInnerBunkerComputerGameController: gameuiBaseBunkerComputerGameController
 BaseInnerBunkerComputerGameController = {}
 
----@param fields? table
+---@param fields? BaseInnerBunkerComputerGameController
 ---@return BaseInnerBunkerComputerGameController
 function BaseInnerBunkerComputerGameController.new(fields) return end
 

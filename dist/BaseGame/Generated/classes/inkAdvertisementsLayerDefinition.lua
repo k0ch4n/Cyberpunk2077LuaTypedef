@@ -4,6 +4,6 @@
 ---@class inkAdvertisementsLayerDefinition: inkLayerDefinition
 inkAdvertisementsLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkAdvertisementsLayerDefinition
 ---@return inkAdvertisementsLayerDefinition
 function inkAdvertisementsLayerDefinition.new(fields) return end

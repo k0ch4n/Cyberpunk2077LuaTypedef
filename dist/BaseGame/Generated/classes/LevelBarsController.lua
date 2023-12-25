@@ -10,7 +10,7 @@
 ---@field protected bars inkWidgetReference[]
 LevelBarsController = {}
 
----@param fields? table
+---@param fields? LevelBarsController
 ---@return LevelBarsController
 function LevelBarsController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public player gameObject
 PerformFastTravelRequest = {}
 
----@param fields? table
+---@param fields? PerformFastTravelRequest
 ---@return PerformFastTravelRequest
 function PerformFastTravelRequest.new(fields) return end

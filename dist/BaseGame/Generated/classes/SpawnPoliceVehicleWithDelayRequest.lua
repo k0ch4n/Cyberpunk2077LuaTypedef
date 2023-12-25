@@ -4,6 +4,6 @@
 ---@class SpawnPoliceVehicleWithDelayRequest: gameScriptableSystemRequest
 SpawnPoliceVehicleWithDelayRequest = {}
 
----@param fields? table
+---@param fields? SpawnPoliceVehicleWithDelayRequest
 ---@return SpawnPoliceVehicleWithDelayRequest
 function SpawnPoliceVehicleWithDelayRequest.new(fields) return end

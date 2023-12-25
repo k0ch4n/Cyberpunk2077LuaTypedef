@@ -7,7 +7,7 @@
 ---@field public marks BetOnMark[]
 CasinoTableGamePageLogicController = {}
 
----@param fields? table
+---@param fields? CasinoTableGamePageLogicController
 ---@return CasinoTableGamePageLogicController
 function CasinoTableGamePageLogicController.new(fields) return end
 

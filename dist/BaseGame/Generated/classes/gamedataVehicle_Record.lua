@@ -4,7 +4,7 @@
 ---@class gamedataVehicle_Record: gamedataSpawnableObject_Record
 gamedataVehicle_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicle_Record
 ---@return gamedataVehicle_Record
 function gamedataVehicle_Record.new(fields) return end
 

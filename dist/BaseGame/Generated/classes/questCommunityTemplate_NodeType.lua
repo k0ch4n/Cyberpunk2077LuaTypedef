@@ -7,6 +7,6 @@
 ---@field public communityEntryPhaseName CName
 questCommunityTemplate_NodeType = {}
 
----@param fields? table
+---@param fields? questCommunityTemplate_NodeType
 ---@return questCommunityTemplate_NodeType
 function questCommunityTemplate_NodeType.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public offsets Matrix[]
 meshMeshParamWorkspotOffsets = {}
 
----@param fields? table
+---@param fields? meshMeshParamWorkspotOffsets
 ---@return meshMeshParamWorkspotOffsets
 function meshMeshParamWorkspotOffsets.new(fields) return end

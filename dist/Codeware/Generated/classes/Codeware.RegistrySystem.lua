@@ -5,7 +5,7 @@
 ---@field public container inkScriptHashMap
 Codeware_RegistrySystem = {}
 
----@param fields? table
+---@param fields? Codeware_RegistrySystem
 ---@return Codeware_RegistrySystem
 function Codeware_RegistrySystem.new(fields) return end
 

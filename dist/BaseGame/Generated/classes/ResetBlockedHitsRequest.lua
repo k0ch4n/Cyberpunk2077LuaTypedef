@@ -4,6 +4,6 @@
 ---@class ResetBlockedHitsRequest: gameScriptableSystemRequest
 ResetBlockedHitsRequest = {}
 
----@param fields? table
+---@param fields? ResetBlockedHitsRequest
 ---@return ResetBlockedHitsRequest
 function ResetBlockedHitsRequest.new(fields) return end

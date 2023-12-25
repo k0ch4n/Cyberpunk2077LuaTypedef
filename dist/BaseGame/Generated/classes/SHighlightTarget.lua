@@ -6,6 +6,6 @@
 ---@field public highlightType EFocusForcedHighlightType
 SHighlightTarget = {}
 
----@param fields? table
+---@param fields? SHighlightTarget
 ---@return SHighlightTarget
 function SHighlightTarget.new(fields) return end

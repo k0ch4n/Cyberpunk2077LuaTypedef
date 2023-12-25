@@ -5,7 +5,7 @@
 ---@field private owner gameObject
 DisableTargetingEffector = {}
 
----@param fields? table
+---@param fields? DisableTargetingEffector
 ---@return DisableTargetingEffector
 function DisableTargetingEffector.new(fields) return end
 

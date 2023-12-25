@@ -7,7 +7,7 @@
 ---@field public maxCheckpoints Int32
 VehicleRaceQuestEvent = {}
 
----@param fields? table
+---@param fields? VehicleRaceQuestEvent
 ---@return VehicleRaceQuestEvent
 function VehicleRaceQuestEvent.new(fields) return end
 

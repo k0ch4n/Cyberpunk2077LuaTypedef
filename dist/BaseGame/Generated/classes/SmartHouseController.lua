@@ -4,7 +4,7 @@
 ---@class SmartHouseController: MasterController
 SmartHouseController = {}
 
----@param fields? table
+---@param fields? SmartHouseController
 ---@return SmartHouseController
 function SmartHouseController.new(fields) return end
 

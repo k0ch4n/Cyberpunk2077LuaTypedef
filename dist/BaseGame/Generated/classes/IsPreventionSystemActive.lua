@@ -4,7 +4,7 @@
 ---@class IsPreventionSystemActive: PreventionConditionAbstract
 IsPreventionSystemActive = {}
 
----@param fields? table
+---@param fields? IsPreventionSystemActive
 ---@return IsPreventionSystemActive
 function IsPreventionSystemActive.new(fields) return end
 

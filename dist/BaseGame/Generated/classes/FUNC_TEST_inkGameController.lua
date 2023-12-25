@@ -19,6 +19,6 @@
 ---@field public AdditionalFields FUNC_TEST_Container
 FUNC_TEST_inkGameController = {}
 
----@param fields? table
+---@param fields? FUNC_TEST_inkGameController
 ---@return FUNC_TEST_inkGameController
 function FUNC_TEST_inkGameController.new(fields) return end

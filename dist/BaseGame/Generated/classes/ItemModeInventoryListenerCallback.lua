@@ -5,7 +5,7 @@
 ---@field private itemModeInstance InventoryItemModeLogicController
 ItemModeInventoryListenerCallback = {}
 
----@param fields? table
+---@param fields? ItemModeInventoryListenerCallback
 ---@return ItemModeInventoryListenerCallback
 function ItemModeInventoryListenerCallback.new(fields) return end
 

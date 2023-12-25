@@ -5,6 +5,6 @@
 ---@field public scalingInterpolationValue Float
 inkEnableHUDScaleOverride = {}
 
----@param fields? table
+---@param fields? inkEnableHUDScaleOverride
 ---@return inkEnableHUDScaleOverride
 function inkEnableHUDScaleOverride.new(fields) return end

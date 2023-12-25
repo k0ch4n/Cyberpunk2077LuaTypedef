@@ -9,7 +9,7 @@
 ---@field private localizedIconicText String
 ItemTooltipHeaderController = {}
 
----@param fields? table
+---@param fields? ItemTooltipHeaderController
 ---@return ItemTooltipHeaderController
 function ItemTooltipHeaderController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAIActionSecurityNotificationType_Record: gamedataTweakDBRecord
 gamedataAIActionSecurityNotificationType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionSecurityNotificationType_Record
 ---@return gamedataAIActionSecurityNotificationType_Record
 function gamedataAIActionSecurityNotificationType_Record.new(fields) return end
 

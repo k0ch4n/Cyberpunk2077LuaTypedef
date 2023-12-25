@@ -4,6 +4,6 @@
 ---@class animMotionWrapper
 animMotionWrapper = {}
 
----@param fields? table
+---@param fields? animMotionWrapper
 ---@return animMotionWrapper
 function animMotionWrapper.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public excludedTeleportPosition gamebbScriptID_Vector4
 AIActionBossDataDef = {}
 
----@param fields? table
+---@param fields? AIActionBossDataDef
 ---@return AIActionBossDataDef
 function AIActionBossDataDef.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class inkLinePatternWidgetReference: inkImageWidgetReference
 inkLinePatternWidgetReference = {}
 
----@param fields? table
+---@param fields? inkLinePatternWidgetReference
 ---@return inkLinePatternWidgetReference
 function inkLinePatternWidgetReference.new(fields) return end

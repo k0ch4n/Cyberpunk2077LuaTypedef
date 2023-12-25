@@ -6,6 +6,6 @@
 ---@field public externalLibraries inkWidgetLibraryResource[]
 inkWidgetLibraryUnpackedView = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryUnpackedView
 ---@return inkWidgetLibraryUnpackedView
 function inkWidgetLibraryUnpackedView.new(fields) return end

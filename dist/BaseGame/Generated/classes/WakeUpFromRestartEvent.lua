@@ -4,6 +4,6 @@
 ---@class WakeUpFromRestartEvent: redEvent
 WakeUpFromRestartEvent = {}
 
----@param fields? table
+---@param fields? WakeUpFromRestartEvent
 ---@return WakeUpFromRestartEvent
 function WakeUpFromRestartEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public linkedCluekData LinkedFocusClueData
 TagLinkedCluekRequest = {}
 
----@param fields? table
+---@param fields? TagLinkedCluekRequest
 ---@return TagLinkedCluekRequest
 function TagLinkedCluekRequest.new(fields) return end

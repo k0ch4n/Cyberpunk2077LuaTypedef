@@ -9,7 +9,7 @@
 ---@field public isTargetKilled Bool
 PreventionDamage = {}
 
----@param fields? table
+---@param fields? PreventionDamage
 ---@return PreventionDamage
 function PreventionDamage.new(fields) return end
 

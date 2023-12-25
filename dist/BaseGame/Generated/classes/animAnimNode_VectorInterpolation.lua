@@ -7,6 +7,6 @@
 ---@field public weight animFloatLink
 animAnimNode_VectorInterpolation = {}
 
----@param fields? table
+---@param fields? animAnimNode_VectorInterpolation
 ---@return animAnimNode_VectorInterpolation
 function animAnimNode_VectorInterpolation.new(fields) return end

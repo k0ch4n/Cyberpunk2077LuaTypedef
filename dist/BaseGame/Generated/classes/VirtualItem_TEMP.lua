@@ -11,7 +11,7 @@
 ---@field public mesh4 entPhysicalMeshComponent
 VirtualItem_TEMP = {}
 
----@param fields? table
+---@param fields? VirtualItem_TEMP
 ---@return VirtualItem_TEMP
 function VirtualItem_TEMP.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataTankScoreMultiplierBreakpoint_Record: gamedataTweakDBRecord
 gamedataTankScoreMultiplierBreakpoint_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankScoreMultiplierBreakpoint_Record
 ---@return gamedataTankScoreMultiplierBreakpoint_Record
 function gamedataTankScoreMultiplierBreakpoint_Record.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public qrCodePNGBlob Uint8[]
 gameuiRefreshGOGState = {}
 
----@param fields? table
+---@param fields? gameuiRefreshGOGState
 ---@return gameuiRefreshGOGState
 function gameuiRefreshGOGState.new(fields) return end

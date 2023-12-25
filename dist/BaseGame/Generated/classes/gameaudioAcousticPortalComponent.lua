@@ -7,6 +7,6 @@
 ---@field public initialyOpen Bool
 gameaudioAcousticPortalComponent = {}
 
----@param fields? table
+---@param fields? gameaudioAcousticPortalComponent
 ---@return gameaudioAcousticPortalComponent
 function gameaudioAcousticPortalComponent.new(fields) return end

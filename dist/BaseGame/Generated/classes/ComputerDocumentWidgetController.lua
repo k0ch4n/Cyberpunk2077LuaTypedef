@@ -16,7 +16,7 @@
 ---@field private lastPlayedVideo redResourceReferenceScriptToken
 ComputerDocumentWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerDocumentWidgetController
 ---@return ComputerDocumentWidgetController
 function ComputerDocumentWidgetController.new(fields) return end
 

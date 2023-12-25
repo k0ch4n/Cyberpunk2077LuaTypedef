@@ -10,6 +10,6 @@
 ---@field public earthquakeLevel2ChargeThreshold Float
 gameEffectExecutor_GroundSlamEffects = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_GroundSlamEffects
 ---@return gameEffectExecutor_GroundSlamEffects
 function gameEffectExecutor_GroundSlamEffects.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkVirtualWindow: inkWindow
 inkVirtualWindow = {}
 
----@param fields? table
+---@param fields? inkVirtualWindow
 ---@return inkVirtualWindow
 function inkVirtualWindow.new(fields) return end

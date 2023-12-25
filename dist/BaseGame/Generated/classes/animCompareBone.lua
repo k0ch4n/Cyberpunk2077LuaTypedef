@@ -6,6 +6,6 @@
 ---@field public boneRotationLs Quaternion
 animCompareBone = {}
 
----@param fields? table
+---@param fields? animCompareBone
 ---@return animCompareBone
 function animCompareBone.new(fields) return end

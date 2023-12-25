@@ -6,7 +6,7 @@
 ---@field public enabledSceneMode Bool
 SwitchSeatsEvents = {}
 
----@param fields? table
+---@param fields? SwitchSeatsEvents
 ---@return SwitchSeatsEvents
 function SwitchSeatsEvents.new(fields) return end
 

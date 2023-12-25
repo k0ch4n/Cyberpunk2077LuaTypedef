@@ -4,6 +4,6 @@
 ---@class AIFriendlyTargetAngleDistanceCoverSelection: AICoverSelectionParameters
 AIFriendlyTargetAngleDistanceCoverSelection = {}
 
----@param fields? table
+---@param fields? AIFriendlyTargetAngleDistanceCoverSelection
 ---@return AIFriendlyTargetAngleDistanceCoverSelection
 function AIFriendlyTargetAngleDistanceCoverSelection.new(fields) return end

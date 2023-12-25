@@ -6,6 +6,6 @@
 ---@field public value TweakDBID
 gamestateMachineActionParameterTweakDBID = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterTweakDBID
 ---@return gamestateMachineActionParameterTweakDBID
 function gamestateMachineActionParameterTweakDBID.new(fields) return end

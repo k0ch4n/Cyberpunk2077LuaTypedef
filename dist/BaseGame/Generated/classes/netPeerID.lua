@@ -5,6 +5,6 @@
 ---@field public value Uint8
 netPeerID = {}
 
----@param fields? table
+---@param fields? netPeerID
 ---@return netPeerID
 function netPeerID.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field private Queue gameJournalPhoneMessage[]
 HudPhoneMessageController = {}
 
----@param fields? table
+---@param fields? HudPhoneMessageController
 ---@return HudPhoneMessageController
 function HudPhoneMessageController.new(fields) return end
 

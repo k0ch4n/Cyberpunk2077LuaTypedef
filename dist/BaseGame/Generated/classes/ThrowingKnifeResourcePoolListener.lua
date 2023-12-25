@@ -7,7 +7,7 @@
 ---@field private evt ThrowingKnifeReloadFinishedCrosshairEvent
 ThrowingKnifeResourcePoolListener = {}
 
----@param fields? table
+---@param fields? ThrowingKnifeResourcePoolListener
 ---@return ThrowingKnifeResourcePoolListener
 function ThrowingKnifeResourcePoolListener.new(fields) return end
 

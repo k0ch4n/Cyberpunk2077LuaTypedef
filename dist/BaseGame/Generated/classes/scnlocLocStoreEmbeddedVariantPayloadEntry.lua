@@ -6,6 +6,6 @@
 ---@field public content String
 scnlocLocStoreEmbeddedVariantPayloadEntry = {}
 
----@param fields? table
+---@param fields? scnlocLocStoreEmbeddedVariantPayloadEntry
 ---@return scnlocLocStoreEmbeddedVariantPayloadEntry
 function scnlocLocStoreEmbeddedVariantPayloadEntry.new(fields) return end

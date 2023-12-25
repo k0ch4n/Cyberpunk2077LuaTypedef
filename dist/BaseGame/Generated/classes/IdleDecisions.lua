@@ -4,7 +4,7 @@
 ---@class IdleDecisions: VehicleTransition
 IdleDecisions = {}
 
----@param fields? table
+---@param fields? IdleDecisions
 ---@return IdleDecisions
 function IdleDecisions.new(fields) return end
 

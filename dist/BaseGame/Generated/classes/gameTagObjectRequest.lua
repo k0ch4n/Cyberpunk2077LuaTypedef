@@ -5,6 +5,6 @@
 ---@field public object gameObject
 gameTagObjectRequest = {}
 
----@param fields? table
+---@param fields? gameTagObjectRequest
 ---@return gameTagObjectRequest
 function gameTagObjectRequest.new(fields) return end

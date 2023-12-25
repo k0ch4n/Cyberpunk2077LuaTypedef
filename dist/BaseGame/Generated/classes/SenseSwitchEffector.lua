@@ -4,7 +4,7 @@
 ---@class SenseSwitchEffector: gameEffector
 SenseSwitchEffector = {}
 
----@param fields? table
+---@param fields? SenseSwitchEffector
 ---@return SenseSwitchEffector
 function SenseSwitchEffector.new(fields) return end
 

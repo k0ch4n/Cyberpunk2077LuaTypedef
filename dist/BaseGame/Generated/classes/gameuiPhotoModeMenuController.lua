@@ -41,7 +41,7 @@
 ---@field private uiVisiblityFadeAnim inkanimProxy
 gameuiPhotoModeMenuController = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeMenuController
 ---@return gameuiPhotoModeMenuController
 function gameuiPhotoModeMenuController.new(fields) return end
 

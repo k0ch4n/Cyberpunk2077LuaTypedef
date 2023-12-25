@@ -4,6 +4,6 @@
 ---@class worldCurvePathNodeInstance: worldSplineNodeInstance
 worldCurvePathNodeInstance = {}
 
----@param fields? table
+---@param fields? worldCurvePathNodeInstance
 ---@return worldCurvePathNodeInstance
 function worldCurvePathNodeInstance.new(fields) return end

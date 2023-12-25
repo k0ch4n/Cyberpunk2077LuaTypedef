@@ -10,7 +10,7 @@
 ---@field private map CooldownPackageDelayIDs[]
 CooldownStorage = {}
 
----@param fields? table
+---@param fields? CooldownStorage
 ---@return CooldownStorage
 function CooldownStorage.new(fields) return end
 

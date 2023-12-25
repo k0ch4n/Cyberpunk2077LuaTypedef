@@ -6,7 +6,7 @@
 ---@field private className CName
 DeviceLink = {}
 
----@param fields? table
+---@param fields? DeviceLink
 ---@return DeviceLink
 function DeviceLink.new(fields) return end
 

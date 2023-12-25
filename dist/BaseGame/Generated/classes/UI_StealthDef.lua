@@ -8,7 +8,7 @@
 ---@field public highestHostileDetectionOnPlayer gamebbScriptID_Float
 UI_StealthDef = {}
 
----@param fields? table
+---@param fields? UI_StealthDef
 ---@return UI_StealthDef
 function UI_StealthDef.new(fields) return end
 

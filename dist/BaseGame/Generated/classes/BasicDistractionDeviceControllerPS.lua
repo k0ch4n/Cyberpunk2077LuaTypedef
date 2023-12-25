@@ -10,7 +10,7 @@
 ---@field public overrideDistractionActionId TweakDBID
 BasicDistractionDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? BasicDistractionDeviceControllerPS
 ---@return BasicDistractionDeviceControllerPS
 function BasicDistractionDeviceControllerPS.new(fields) return end
 

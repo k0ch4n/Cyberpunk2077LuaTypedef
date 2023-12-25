@@ -7,6 +7,6 @@
 ---@field public customPartsToInstall gameItemID[]
 gameItemModParams = {}
 
----@param fields? table
+---@param fields? gameItemModParams
 ---@return gameItemModParams
 function gameItemModParams.new(fields) return end

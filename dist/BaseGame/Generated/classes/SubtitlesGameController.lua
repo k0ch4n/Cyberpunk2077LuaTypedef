@@ -9,7 +9,7 @@
 ---@field private uiSceneCommentsBlackboard gameIBlackboard
 SubtitlesGameController = {}
 
----@param fields? table
+---@param fields? SubtitlesGameController
 ---@return SubtitlesGameController
 function SubtitlesGameController.new(fields) return end
 

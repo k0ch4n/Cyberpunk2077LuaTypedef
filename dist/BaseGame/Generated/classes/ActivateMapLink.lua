@@ -4,6 +4,6 @@
 ---@class ActivateMapLink: redEvent
 ActivateMapLink = {}
 
----@param fields? table
+---@param fields? ActivateMapLink
 ---@return ActivateMapLink
 function ActivateMapLink.new(fields) return end

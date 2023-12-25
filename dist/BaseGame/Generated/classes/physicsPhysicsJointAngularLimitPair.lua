@@ -7,6 +7,6 @@
 ---@field public lower Float
 physicsPhysicsJointAngularLimitPair = {}
 
----@param fields? table
+---@param fields? physicsPhysicsJointAngularLimitPair
 ---@return physicsPhysicsJointAngularLimitPair
 function physicsPhysicsJointAngularLimitPair.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class TriggerFearRunningVO: AIbehaviortaskScript
 TriggerFearRunningVO = {}
 
----@param fields? table
+---@param fields? TriggerFearRunningVO
 ---@return TriggerFearRunningVO
 function TriggerFearRunningVO.new(fields) return end
 

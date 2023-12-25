@@ -6,7 +6,7 @@
 ---@field public grantAttributePoint Bool
 BuyAttribute = {}
 
----@param fields? table
+---@param fields? BuyAttribute
 ---@return BuyAttribute
 function BuyAttribute.new(fields) return end
 

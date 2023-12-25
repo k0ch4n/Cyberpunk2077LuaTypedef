@@ -19,6 +19,6 @@
 ---@field public ignoreSleepMode Bool
 ComputerSetup = {}
 
----@param fields? table
+---@param fields? ComputerSetup
 ---@return ComputerSetup
 function ComputerSetup.new(fields) return end

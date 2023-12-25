@@ -5,6 +5,6 @@
 ---@field public squadInterface AISquadScriptInterface
 AIHostLeftSquad = {}
 
----@param fields? table
+---@param fields? AIHostLeftSquad
 ---@return AIHostLeftSquad
 function AIHostLeftSquad.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private questSubObjectives QuestSubObjectiveWrapper[]
 QuestObjectiveWrapper = {}
 
----@param fields? table
+---@param fields? QuestObjectiveWrapper
 ---@return QuestObjectiveWrapper
 function QuestObjectiveWrapper.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public add Bool
 UpdateMiniGameProgramsEvent = {}
 
----@param fields? table
+---@param fields? UpdateMiniGameProgramsEvent
 ---@return UpdateMiniGameProgramsEvent
 function UpdateMiniGameProgramsEvent.new(fields) return end

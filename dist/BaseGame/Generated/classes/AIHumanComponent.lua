@@ -30,7 +30,7 @@
 ---@field private activeCommands AIbehaviorUniqueActiveCommandList
 AIHumanComponent = {}
 
----@param fields? table
+---@param fields? AIHumanComponent
 ---@return AIHumanComponent
 function AIHumanComponent.new(fields) return end
 

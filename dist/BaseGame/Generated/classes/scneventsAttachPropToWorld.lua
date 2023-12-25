@@ -12,6 +12,6 @@
 ---@field public fallbackData scneventsAttachPropToWorldFallbackData[]
 scneventsAttachPropToWorld = {}
 
----@param fields? table
+---@param fields? scneventsAttachPropToWorld
 ---@return scneventsAttachPropToWorld
 function scneventsAttachPropToWorld.new(fields) return end

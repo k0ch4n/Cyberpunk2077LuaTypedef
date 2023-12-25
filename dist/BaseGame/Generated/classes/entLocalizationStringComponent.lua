@@ -5,7 +5,7 @@
 ---@field public Strings entLocalizationStringMapEntry[]
 entLocalizationStringComponent = {}
 
----@param fields? table
+---@param fields? entLocalizationStringComponent
 ---@return entLocalizationStringComponent
 function entLocalizationStringComponent.new(fields) return end
 

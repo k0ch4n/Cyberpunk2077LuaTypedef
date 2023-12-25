@@ -6,7 +6,7 @@
 ---@field protected isCheckInverted Bool
 IsNpcMountedInSlotPrereq = {}
 
----@param fields? table
+---@param fields? IsNpcMountedInSlotPrereq
 ---@return IsNpcMountedInSlotPrereq
 function IsNpcMountedInSlotPrereq.new(fields) return end
 

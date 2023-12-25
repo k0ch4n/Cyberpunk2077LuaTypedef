@@ -7,6 +7,6 @@
 ---@field public scale animSAnimationBufferBitwiseCompressedData
 animSAnimationBufferBitwiseCompressedBoneTrack = {}
 
----@param fields? table
+---@param fields? animSAnimationBufferBitwiseCompressedBoneTrack
 ---@return animSAnimationBufferBitwiseCompressedBoneTrack
 function animSAnimationBufferBitwiseCompressedBoneTrack.new(fields) return end

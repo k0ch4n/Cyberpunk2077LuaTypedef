@@ -4,6 +4,6 @@
 ---@class RetrySaveDataRequestDelay: redEvent
 RetrySaveDataRequestDelay = {}
 
----@param fields? table
+---@param fields? RetrySaveDataRequestDelay
 ---@return RetrySaveDataRequestDelay
 function RetrySaveDataRequestDelay.new(fields) return end

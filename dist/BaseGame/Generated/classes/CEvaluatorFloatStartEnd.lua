@@ -6,6 +6,6 @@
 ---@field public end Float
 CEvaluatorFloatStartEnd = {}
 
----@param fields? table
+---@param fields? CEvaluatorFloatStartEnd
 ---@return CEvaluatorFloatStartEnd
 function CEvaluatorFloatStartEnd.new(fields) return end

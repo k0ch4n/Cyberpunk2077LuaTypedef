@@ -5,6 +5,6 @@
 ---@field public movementType CName
 ApplyDroneLocomotionWrapperEvent = {}
 
----@param fields? table
+---@param fields? ApplyDroneLocomotionWrapperEvent
 ---@return ApplyDroneLocomotionWrapperEvent
 function ApplyDroneLocomotionWrapperEvent.new(fields) return end

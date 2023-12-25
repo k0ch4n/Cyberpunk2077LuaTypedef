@@ -6,6 +6,6 @@
 ---@field public requesterID entEntityID
 ClueScannedEvent = {}
 
----@param fields? table
+---@param fields? ClueScannedEvent
 ---@return ClueScannedEvent
 function ClueScannedEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class JoinTrafficOnFoot: AIVehicleTaskAbstract
 JoinTrafficOnFoot = {}
 
----@param fields? table
+---@param fields? JoinTrafficOnFoot
 ---@return JoinTrafficOnFoot
 function JoinTrafficOnFoot.new(fields) return end
 

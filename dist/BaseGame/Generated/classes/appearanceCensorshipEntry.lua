@@ -7,6 +7,6 @@
 ---@field public CensorFlags Uint32
 appearanceCensorshipEntry = {}
 
----@param fields? table
+---@param fields? appearanceCensorshipEntry
 ---@return appearanceCensorshipEntry
 function appearanceCensorshipEntry.new(fields) return end

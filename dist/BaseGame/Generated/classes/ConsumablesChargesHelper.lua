@@ -4,7 +4,7 @@
 ---@class ConsumablesChargesHelper: IScriptable
 ConsumablesChargesHelper = {}
 
----@param fields? table
+---@param fields? ConsumablesChargesHelper
 ---@return ConsumablesChargesHelper
 function ConsumablesChargesHelper.new(fields) return end
 

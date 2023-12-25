@@ -8,6 +8,6 @@
 ---@field public callbackID Uint32
 FactOperationTriggerData = {}
 
----@param fields? table
+---@param fields? FactOperationTriggerData
 ---@return FactOperationTriggerData
 function FactOperationTriggerData.new(fields) return end

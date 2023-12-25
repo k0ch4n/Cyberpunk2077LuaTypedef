@@ -4,7 +4,7 @@
 ---@class WaitIfEnteringOrLeavingCover: AIbehaviortaskScript
 WaitIfEnteringOrLeavingCover = {}
 
----@param fields? table
+---@param fields? WaitIfEnteringOrLeavingCover
 ---@return WaitIfEnteringOrLeavingCover
 function WaitIfEnteringOrLeavingCover.new(fields) return end
 

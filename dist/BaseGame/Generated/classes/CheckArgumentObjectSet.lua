@@ -4,7 +4,7 @@
 ---@class CheckArgumentObjectSet: CheckArguments
 CheckArgumentObjectSet = {}
 
----@param fields? table
+---@param fields? CheckArgumentObjectSet
 ---@return CheckArgumentObjectSet
 function CheckArgumentObjectSet.new(fields) return end
 

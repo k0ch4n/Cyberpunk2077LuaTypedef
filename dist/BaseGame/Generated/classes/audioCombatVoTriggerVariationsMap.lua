@@ -5,6 +5,6 @@
 ---@field public voTriggerVariations audioCombatVoTriggerVariationsMapItem[]
 audioCombatVoTriggerVariationsMap = {}
 
----@param fields? table
+---@param fields? audioCombatVoTriggerVariationsMap
 ---@return audioCombatVoTriggerVariationsMap
 function audioCombatVoTriggerVariationsMap.new(fields) return end

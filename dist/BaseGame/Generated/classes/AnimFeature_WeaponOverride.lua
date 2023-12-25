@@ -5,6 +5,6 @@
 ---@field public state Int32
 AnimFeature_WeaponOverride = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponOverride
 ---@return AnimFeature_WeaponOverride
 function AnimFeature_WeaponOverride.new(fields) return end

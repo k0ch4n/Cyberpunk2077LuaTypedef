@@ -4,6 +4,6 @@
 ---@class gameMovingPlatformSystem: gameIMovingPlatformSystem
 gameMovingPlatformSystem = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformSystem
 ---@return gameMovingPlatformSystem
 function gameMovingPlatformSystem.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected preset SmartHousePreset
 PresetAction = {}
 
----@param fields? table
+---@param fields? PresetAction
 ---@return PresetAction
 function PresetAction.new(fields) return end
 

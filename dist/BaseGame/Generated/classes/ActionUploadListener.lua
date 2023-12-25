@@ -6,6 +6,6 @@
 ---@field public gameInstance ScriptGameInstance
 ActionUploadListener = {}
 
----@param fields? table
+---@param fields? ActionUploadListener
 ---@return ActionUploadListener
 function ActionUploadListener.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public recentInput SecuritySystemInput
 UpdateDebuggerRequest = {}
 
----@param fields? table
+---@param fields? UpdateDebuggerRequest
 ---@return UpdateDebuggerRequest
 function UpdateDebuggerRequest.new(fields) return end

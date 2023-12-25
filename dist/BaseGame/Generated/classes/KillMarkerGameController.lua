@@ -7,7 +7,7 @@
 ---@field private animProxy inkanimProxy
 KillMarkerGameController = {}
 
----@param fields? table
+---@param fields? KillMarkerGameController
 ---@return KillMarkerGameController
 function KillMarkerGameController.new(fields) return end
 

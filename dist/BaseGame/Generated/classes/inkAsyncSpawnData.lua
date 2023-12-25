@@ -9,7 +9,7 @@
 ---@field public introAnimation CName
 inkAsyncSpawnData = {}
 
----@param fields? table
+---@param fields? inkAsyncSpawnData
 ---@return inkAsyncSpawnData
 function inkAsyncSpawnData.new(fields) return end
 

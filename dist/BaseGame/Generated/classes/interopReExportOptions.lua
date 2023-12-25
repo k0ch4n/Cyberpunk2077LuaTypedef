@@ -37,6 +37,6 @@
 ---@field public generatePlayerBlockingCollision Bool
 interopReExportOptions = {}
 
----@param fields? table
+---@param fields? interopReExportOptions
 ---@return interopReExportOptions
 function interopReExportOptions.new(fields) return end

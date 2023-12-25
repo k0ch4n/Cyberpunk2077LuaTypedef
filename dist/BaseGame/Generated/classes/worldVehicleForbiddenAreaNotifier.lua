@@ -12,6 +12,6 @@
 ---@field public enableSummoning Bool
 worldVehicleForbiddenAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldVehicleForbiddenAreaNotifier
 ---@return worldVehicleForbiddenAreaNotifier
 function worldVehicleForbiddenAreaNotifier.new(fields) return end

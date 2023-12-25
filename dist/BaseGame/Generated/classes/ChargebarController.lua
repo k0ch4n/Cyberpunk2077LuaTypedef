@@ -25,7 +25,7 @@
 ---@field protected isCharged Bool
 ChargebarController = {}
 
----@param fields? table
+---@param fields? ChargebarController
 ---@return ChargebarController
 function ChargebarController.new(fields) return end
 

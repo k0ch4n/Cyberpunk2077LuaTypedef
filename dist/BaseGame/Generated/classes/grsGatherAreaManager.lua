@@ -5,6 +5,6 @@
 ---@field public activeGatherAreaRepInfo grsGatherAreaReplicatedInfo
 grsGatherAreaManager = {}
 
----@param fields? table
+---@param fields? grsGatherAreaManager
 ---@return grsGatherAreaManager
 function grsGatherAreaManager.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class NcartTrainInkControllerBase: DeviceInkGameControllerBase
 NcartTrainInkControllerBase = {}
 
----@param fields? table
+---@param fields? NcartTrainInkControllerBase
 ---@return NcartTrainInkControllerBase
 function NcartTrainInkControllerBase.new(fields) return end
 

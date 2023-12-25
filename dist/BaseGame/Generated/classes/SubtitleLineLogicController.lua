@@ -15,7 +15,7 @@
 ---@field private spekerNameParams textTextParameterSet
 SubtitleLineLogicController = {}
 
----@param fields? table
+---@param fields? SubtitleLineLogicController
 ---@return SubtitleLineLogicController
 function SubtitleLineLogicController.new(fields) return end
 

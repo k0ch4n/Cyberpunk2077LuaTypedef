@@ -5,7 +5,7 @@
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectInputParameter_Variant = {}
 
----@param fields? table
+---@param fields? gameEffectInputParameter_Variant
 ---@return gameEffectInputParameter_Variant
 function gameEffectInputParameter_Variant.new(fields) return end
 

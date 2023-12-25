@@ -4,6 +4,6 @@
 ---@class worldRuntimeScene
 worldRuntimeScene = {}
 
----@param fields? table
+---@param fields? worldRuntimeScene
 ---@return worldRuntimeScene
 function worldRuntimeScene.new(fields) return end

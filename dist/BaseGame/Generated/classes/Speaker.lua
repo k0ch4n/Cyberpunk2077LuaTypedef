@@ -10,7 +10,7 @@
 ---@field protected statusEffect TweakDBID
 Speaker = {}
 
----@param fields? table
+---@param fields? Speaker
 ---@return Speaker
 function Speaker.new(fields) return end
 

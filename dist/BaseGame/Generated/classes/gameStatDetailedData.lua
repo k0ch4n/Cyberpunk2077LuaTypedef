@@ -10,6 +10,6 @@
 ---@field public boolStatType Bool
 gameStatDetailedData = {}
 
----@param fields? table
+---@param fields? gameStatDetailedData
 ---@return gameStatDetailedData
 function gameStatDetailedData.new(fields) return end

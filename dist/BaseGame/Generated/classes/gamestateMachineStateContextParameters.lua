@@ -12,6 +12,6 @@
 ---@field public tweakDBIDParameters gamestateMachineActionParameterTweakDBID
 gamestateMachineStateContextParameters = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateContextParameters
 ---@return gamestateMachineStateContextParameters
 function gamestateMachineStateContextParameters.new(fields) return end

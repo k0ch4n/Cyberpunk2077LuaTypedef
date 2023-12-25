@@ -5,7 +5,7 @@
 ---@field public triggerData FactOperationTriggerData
 FactOperationsTrigger = {}
 
----@param fields? table
+---@param fields? FactOperationsTrigger
 ---@return FactOperationsTrigger
 function FactOperationsTrigger.new(fields) return end
 

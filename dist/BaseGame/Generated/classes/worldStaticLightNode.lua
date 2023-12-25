@@ -56,6 +56,6 @@
 ---@field public autoHideDistance Float
 worldStaticLightNode = {}
 
----@param fields? table
+---@param fields? worldStaticLightNode
 ---@return worldStaticLightNode
 function worldStaticLightNode.new(fields) return end

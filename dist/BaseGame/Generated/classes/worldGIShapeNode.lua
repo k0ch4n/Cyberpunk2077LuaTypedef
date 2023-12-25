@@ -9,6 +9,6 @@
 ---@field public updated Bool
 worldGIShapeNode = {}
 
----@param fields? table
+---@param fields? worldGIShapeNode
 ---@return worldGIShapeNode
 function worldGIShapeNode.new(fields) return end

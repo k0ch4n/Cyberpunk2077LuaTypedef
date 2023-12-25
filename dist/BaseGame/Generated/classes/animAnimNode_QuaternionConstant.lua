@@ -5,6 +5,6 @@
 ---@field public value Quaternion
 animAnimNode_QuaternionConstant = {}
 
----@param fields? table
+---@param fields? animAnimNode_QuaternionConstant
 ---@return animAnimNode_QuaternionConstant
 function animAnimNode_QuaternionConstant.new(fields) return end

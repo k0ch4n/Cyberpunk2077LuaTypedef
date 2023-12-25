@@ -7,6 +7,6 @@
 ---@field public audioOverrideAppearanceName CName
 questReplacer_NodeType = {}
 
----@param fields? table
+---@param fields? questReplacer_NodeType
 ---@return questReplacer_NodeType
 function questReplacer_NodeType.new(fields) return end

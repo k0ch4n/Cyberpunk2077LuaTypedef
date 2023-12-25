@@ -4,6 +4,6 @@
 ---@class OnHold: inkPointerEvent
 OnHold = {}
 
----@param fields? table
+---@param fields? OnHold
 ---@return OnHold
 function OnHold.new(fields) return end

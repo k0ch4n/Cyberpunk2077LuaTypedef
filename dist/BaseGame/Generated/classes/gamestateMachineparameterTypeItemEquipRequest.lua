@@ -7,6 +7,6 @@
 ---@field public startingRenderingPlane ERenderingPlane
 gamestateMachineparameterTypeItemEquipRequest = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeItemEquipRequest
 ---@return gamestateMachineparameterTypeItemEquipRequest
 function gamestateMachineparameterTypeItemEquipRequest.new(fields) return end

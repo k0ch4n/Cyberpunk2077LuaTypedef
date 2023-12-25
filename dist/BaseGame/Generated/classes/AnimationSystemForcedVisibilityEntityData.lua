@@ -10,7 +10,7 @@
 ---@field private hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
 AnimationSystemForcedVisibilityEntityData = {}
 
----@param fields? table
+---@param fields? AnimationSystemForcedVisibilityEntityData
 ---@return AnimationSystemForcedVisibilityEntityData
 function AnimationSystemForcedVisibilityEntityData.new(fields) return end
 

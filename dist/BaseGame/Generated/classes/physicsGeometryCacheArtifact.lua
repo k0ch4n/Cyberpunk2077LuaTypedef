@@ -7,6 +7,6 @@
 ---@field public entryTable physicsCacheEntry[]
 physicsGeometryCacheArtifact = {}
 
----@param fields? table
+---@param fields? physicsGeometryCacheArtifact
 ---@return physicsGeometryCacheArtifact
 function physicsGeometryCacheArtifact.new(fields) return end

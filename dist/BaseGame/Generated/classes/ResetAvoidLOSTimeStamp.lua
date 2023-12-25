@@ -7,7 +7,7 @@
 ---@field private actionBBoard gameIBlackboard
 ResetAvoidLOSTimeStamp = {}
 
----@param fields? table
+---@param fields? ResetAvoidLOSTimeStamp
 ---@return ResetAvoidLOSTimeStamp
 function ResetAvoidLOSTimeStamp.new(fields) return end
 

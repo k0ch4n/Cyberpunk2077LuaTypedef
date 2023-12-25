@@ -8,7 +8,7 @@
 ---@field protected reactionData AIReactionData
 SetDesiredReaction = {}
 
----@param fields? table
+---@param fields? SetDesiredReaction
 ---@return SetDesiredReaction
 function SetDesiredReaction.new(fields) return end
 

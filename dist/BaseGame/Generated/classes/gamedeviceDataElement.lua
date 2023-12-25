@@ -15,6 +15,6 @@
 ---@field public isEnabled Bool
 gamedeviceDataElement = {}
 
----@param fields? table
+---@param fields? gamedeviceDataElement
 ---@return gamedeviceDataElement
 function gamedeviceDataElement.new(fields) return end

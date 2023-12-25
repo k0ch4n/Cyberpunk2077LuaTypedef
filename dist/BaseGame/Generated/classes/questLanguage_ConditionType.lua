@@ -7,6 +7,6 @@
 ---@field public inverted Bool
 questLanguage_ConditionType = {}
 
----@param fields? table
+---@param fields? questLanguage_ConditionType
 ---@return questLanguage_ConditionType
 function questLanguage_ConditionType.new(fields) return end

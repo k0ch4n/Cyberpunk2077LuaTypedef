@@ -4,7 +4,7 @@
 ---@class gamedataAISquadItemCategoryPriorityFilter_Record: gamedataAISquadItemPriorityFilter_Record
 gamedataAISquadItemCategoryPriorityFilter_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISquadItemCategoryPriorityFilter_Record
 ---@return gamedataAISquadItemCategoryPriorityFilter_Record
 function gamedataAISquadItemCategoryPriorityFilter_Record.new(fields) return end
 

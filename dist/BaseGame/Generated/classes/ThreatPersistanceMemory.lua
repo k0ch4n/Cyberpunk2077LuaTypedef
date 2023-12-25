@@ -6,6 +6,6 @@
 ---@field public isPersistent Bool[]
 ThreatPersistanceMemory = {}
 
----@param fields? table
+---@param fields? ThreatPersistanceMemory
 ---@return ThreatPersistanceMemory
 function ThreatPersistanceMemory.new(fields) return end

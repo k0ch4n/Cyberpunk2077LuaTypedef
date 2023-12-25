@@ -417,6 +417,6 @@
 ---@field public head_neck_dn_turnWrnkl Float
 animSermoTestController = {}
 
----@param fields? table
+---@param fields? animSermoTestController
 ---@return animSermoTestController
 function animSermoTestController.new(fields) return end

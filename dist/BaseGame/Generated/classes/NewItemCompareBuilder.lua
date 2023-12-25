@@ -7,7 +7,7 @@
 ---@field private compareBuilder CompareBuilder
 NewItemCompareBuilder = {}
 
----@param fields? table
+---@param fields? NewItemCompareBuilder
 ---@return NewItemCompareBuilder
 function NewItemCompareBuilder.new(fields) return end
 

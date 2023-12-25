@@ -7,6 +7,6 @@
 ---@field public cableRadius Float
 worldCableMeshNode = {}
 
----@param fields? table
+---@param fields? worldCableMeshNode
 ---@return worldCableMeshNode
 function worldCableMeshNode.new(fields) return end

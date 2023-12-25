@@ -15,6 +15,6 @@
 ---@field public video redResourceReferenceScriptToken
 TutorialPopupData = {}
 
----@param fields? table
+---@param fields? TutorialPopupData
 ---@return TutorialPopupData
 function TutorialPopupData.new(fields) return end

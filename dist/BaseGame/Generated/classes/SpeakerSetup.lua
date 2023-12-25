@@ -9,6 +9,6 @@
 ---@field public useOnlyGlitchSFX Bool
 SpeakerSetup = {}
 
----@param fields? table
+---@param fields? SpeakerSetup
 ---@return SpeakerSetup
 function SpeakerSetup.new(fields) return end

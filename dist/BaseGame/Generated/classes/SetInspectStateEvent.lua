@@ -5,6 +5,6 @@
 ---@field public state questObjectInspectEventType
 SetInspectStateEvent = {}
 
----@param fields? table
+---@param fields? SetInspectStateEvent
 ---@return SetInspectStateEvent
 function SetInspectStateEvent.new(fields) return end

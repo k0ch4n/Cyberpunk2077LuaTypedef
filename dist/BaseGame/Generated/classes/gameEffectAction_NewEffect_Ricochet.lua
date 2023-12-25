@@ -8,6 +8,6 @@
 ---@field public childEffectTag CName
 gameEffectAction_NewEffect_Ricochet = {}
 
----@param fields? table
+---@param fields? gameEffectAction_NewEffect_Ricochet
 ---@return gameEffectAction_NewEffect_Ricochet
 function gameEffectAction_NewEffect_Ricochet.new(fields) return end

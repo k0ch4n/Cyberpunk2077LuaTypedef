@@ -4,7 +4,7 @@
 ---@class VentilationAreaController: MasterController
 VentilationAreaController = {}
 
----@param fields? table
+---@param fields? VentilationAreaController
 ---@return VentilationAreaController
 function VentilationAreaController.new(fields) return end
 

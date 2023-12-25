@@ -5,6 +5,6 @@
 ---@field public crouchActive gamebbScriptDefinition
 PlayerCombatControllerBBIds = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerBBIds
 ---@return PlayerCombatControllerBBIds
 function PlayerCombatControllerBBIds.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public revealPlayerSettings RevealPlayerSettings
 QuestCombatActionAreaNotification = {}
 
----@param fields? table
+---@param fields? QuestCombatActionAreaNotification
 ---@return QuestCombatActionAreaNotification
 function QuestCombatActionAreaNotification.new(fields) return end
 

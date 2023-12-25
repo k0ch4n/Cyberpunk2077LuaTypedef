@@ -10,6 +10,6 @@
 ---@field public selfCollisionChannel DataBuffer[]
 meshRawClothData = {}
 
----@param fields? table
+---@param fields? meshRawClothData
 ---@return meshRawClothData
 function meshRawClothData.new(fields) return end

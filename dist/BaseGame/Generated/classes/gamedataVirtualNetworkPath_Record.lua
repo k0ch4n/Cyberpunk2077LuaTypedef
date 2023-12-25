@@ -4,7 +4,7 @@
 ---@class gamedataVirtualNetworkPath_Record: gamedataTweakDBRecord
 gamedataVirtualNetworkPath_Record = {}
 
----@param fields? table
+---@param fields? gamedataVirtualNetworkPath_Record
 ---@return gamedataVirtualNetworkPath_Record
 function gamedataVirtualNetworkPath_Record.new(fields) return end
 

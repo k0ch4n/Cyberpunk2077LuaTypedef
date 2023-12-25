@@ -5,7 +5,7 @@
 ---@field public eventDispatcher worlduiIWidgetGameController
 OpenWorldMapNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenWorldMapNotificationAction
 ---@return OpenWorldMapNotificationAction
 function OpenWorldMapNotificationAction.new(fields) return end
 

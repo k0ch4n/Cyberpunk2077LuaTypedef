@@ -5,6 +5,6 @@
 ---@field public attributeType gamedataStatType
 AttributeBoughtEvent = {}
 
----@param fields? table
+---@param fields? AttributeBoughtEvent
 ---@return AttributeBoughtEvent
 function AttributeBoughtEvent.new(fields) return end

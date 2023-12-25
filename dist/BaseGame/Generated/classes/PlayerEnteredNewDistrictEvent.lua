@@ -6,6 +6,6 @@
 ---@field public explosionRange Float
 PlayerEnteredNewDistrictEvent = {}
 
----@param fields? table
+---@param fields? PlayerEnteredNewDistrictEvent
 ---@return PlayerEnteredNewDistrictEvent
 function PlayerEnteredNewDistrictEvent.new(fields) return end

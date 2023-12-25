@@ -33,7 +33,7 @@
 ---@field private shardTransactionListener gameInventoryScriptListener
 JournalNotificationQueue = {}
 
----@param fields? table
+---@param fields? JournalNotificationQueue
 ---@return JournalNotificationQueue
 function JournalNotificationQueue.new(fields) return end
 

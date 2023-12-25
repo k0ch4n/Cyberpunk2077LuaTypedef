@@ -4,7 +4,7 @@
 ---@class AimingContextEvents: InputContextTransitionEvents
 AimingContextEvents = {}
 
----@param fields? table
+---@param fields? AimingContextEvents
 ---@return AimingContextEvents
 function AimingContextEvents.new(fields) return end
 

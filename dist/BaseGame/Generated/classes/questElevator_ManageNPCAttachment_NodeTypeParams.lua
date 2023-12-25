@@ -7,6 +7,6 @@
 ---@field public action questElevator_ManageNPCAttachment_NodeTypeParamsAction
 questElevator_ManageNPCAttachment_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questElevator_ManageNPCAttachment_NodeTypeParams
 ---@return questElevator_ManageNPCAttachment_NodeTypeParams
 function questElevator_ManageNPCAttachment_NodeTypeParams.new(fields) return end

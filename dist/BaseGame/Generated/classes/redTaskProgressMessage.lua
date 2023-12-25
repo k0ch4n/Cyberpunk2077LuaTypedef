@@ -8,6 +8,6 @@
 ---@field public processingTime Float
 redTaskProgressMessage = {}
 
----@param fields? table
+---@param fields? redTaskProgressMessage
 ---@return redTaskProgressMessage
 function redTaskProgressMessage.new(fields) return end

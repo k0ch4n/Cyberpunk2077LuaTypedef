@@ -5,6 +5,6 @@
 ---@field public context UIGameContext
 gameuiRequestPushContextEvent = {}
 
----@param fields? table
+---@param fields? gameuiRequestPushContextEvent
 ---@return gameuiRequestPushContextEvent
 function gameuiRequestPushContextEvent.new(fields) return end

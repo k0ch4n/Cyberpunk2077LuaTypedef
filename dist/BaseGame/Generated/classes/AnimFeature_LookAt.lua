@@ -24,6 +24,6 @@
 ---@field public lookAtTwoHandedOverride Float
 AnimFeature_LookAt = {}
 
----@param fields? table
+---@param fields? AnimFeature_LookAt
 ---@return AnimFeature_LookAt
 function AnimFeature_LookAt.new(fields) return end

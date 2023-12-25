@@ -5,7 +5,7 @@
 ---@field private entered Bool
 SecurityAreaCrossingPerimeter = {}
 
----@param fields? table
+---@param fields? SecurityAreaCrossingPerimeter
 ---@return SecurityAreaCrossingPerimeter
 function SecurityAreaCrossingPerimeter.new(fields) return end
 

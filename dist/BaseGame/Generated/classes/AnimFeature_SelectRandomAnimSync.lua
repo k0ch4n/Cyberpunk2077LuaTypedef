@@ -5,6 +5,6 @@
 ---@field public value Int32
 AnimFeature_SelectRandomAnimSync = {}
 
----@param fields? table
+---@param fields? AnimFeature_SelectRandomAnimSync
 ---@return AnimFeature_SelectRandomAnimSync
 function AnimFeature_SelectRandomAnimSync.new(fields) return end

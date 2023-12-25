@@ -5,7 +5,7 @@
 ---@field public timeTableSetup DeviceTimeTableManager
 DeviceTimetable = {}
 
----@param fields? table
+---@param fields? DeviceTimetable
 ---@return DeviceTimetable
 function DeviceTimetable.new(fields) return end
 

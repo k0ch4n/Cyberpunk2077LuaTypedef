@@ -25,7 +25,7 @@
 ---@field private isHyperlink Bool
 RadialMenuItemController = {}
 
----@param fields? table
+---@param fields? RadialMenuItemController
 ---@return RadialMenuItemController
 function RadialMenuItemController.new(fields) return end
 

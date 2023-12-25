@@ -6,7 +6,7 @@
 ---@field public orientation inkEOrientation
 inkUniformGridWidget = {}
 
----@param fields? table
+---@param fields? inkUniformGridWidget
 ---@return inkUniformGridWidget
 function inkUniformGridWidget.new(fields) return end
 

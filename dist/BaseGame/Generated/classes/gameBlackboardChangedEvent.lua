@@ -6,7 +6,7 @@
 ---@field public id gamebbScriptID
 gameBlackboardChangedEvent = {}
 
----@param fields? table
+---@param fields? gameBlackboardChangedEvent
 ---@return gameBlackboardChangedEvent
 function gameBlackboardChangedEvent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class AIActionHelper: IScriptable
 AIActionHelper = {}
 
----@param fields? table
+---@param fields? AIActionHelper
 ---@return AIActionHelper
 function AIActionHelper.new(fields) return end
 

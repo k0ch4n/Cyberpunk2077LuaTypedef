@@ -8,6 +8,6 @@
 ---@field public piecesPrice Int32[]
 UIVendorItemsSoldEvent = {}
 
----@param fields? table
+---@param fields? UIVendorItemsSoldEvent
 ---@return UIVendorItemsSoldEvent
 function UIVendorItemsSoldEvent.new(fields) return end

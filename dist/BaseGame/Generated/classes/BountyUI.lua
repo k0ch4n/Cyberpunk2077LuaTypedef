@@ -10,7 +10,7 @@
 ---@field public level Int32
 BountyUI = {}
 
----@param fields? table
+---@param fields? BountyUI
 ---@return BountyUI
 function BountyUI.new(fields) return end
 

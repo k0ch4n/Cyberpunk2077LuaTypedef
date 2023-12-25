@@ -16,6 +16,6 @@
 ---@field public timeInStep Float
 animAnimNode_Drag = {}
 
----@param fields? table
+---@param fields? animAnimNode_Drag
 ---@return animAnimNode_Drag
 function animAnimNode_Drag.new(fields) return end

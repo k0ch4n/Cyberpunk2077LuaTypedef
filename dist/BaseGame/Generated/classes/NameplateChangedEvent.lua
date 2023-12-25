@@ -5,6 +5,6 @@
 ---@field public entity entEntityID
 NameplateChangedEvent = {}
 
----@param fields? table
+---@param fields? NameplateChangedEvent
 ---@return NameplateChangedEvent
 function NameplateChangedEvent.new(fields) return end

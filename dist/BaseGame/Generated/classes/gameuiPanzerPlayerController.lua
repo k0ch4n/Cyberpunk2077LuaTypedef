@@ -11,6 +11,6 @@
 ---@field public explosionLibraryName CName
 gameuiPanzerPlayerController = {}
 
----@param fields? table
+---@param fields? gameuiPanzerPlayerController
 ---@return gameuiPanzerPlayerController
 function gameuiPanzerPlayerController.new(fields) return end

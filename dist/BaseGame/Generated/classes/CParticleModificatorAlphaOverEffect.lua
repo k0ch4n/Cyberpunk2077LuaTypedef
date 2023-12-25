@@ -4,6 +4,6 @@
 ---@class CParticleModificatorAlphaOverEffect: IParticleModificator
 CParticleModificatorAlphaOverEffect = {}
 
----@param fields? table
+---@param fields? CParticleModificatorAlphaOverEffect
 ---@return CParticleModificatorAlphaOverEffect
 function CParticleModificatorAlphaOverEffect.new(fields) return end

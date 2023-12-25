@@ -10,6 +10,6 @@
 ---@field public gameLogicFilterDefinition gameinteractionsCHotSpotGameLogicFilterDefinition
 gameinteractionsCHotSpotLayerDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCHotSpotLayerDefinition
 ---@return gameinteractionsCHotSpotLayerDefinition
 function gameinteractionsCHotSpotLayerDefinition.new(fields) return end

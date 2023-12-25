@@ -47,7 +47,7 @@
 ---@field private playerDevelopmentData PlayerDevelopmentData
 CrosshairGameController_Smart_Rifl = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Smart_Rifl
 ---@return CrosshairGameController_Smart_Rifl
 function CrosshairGameController_Smart_Rifl.new(fields) return end
 

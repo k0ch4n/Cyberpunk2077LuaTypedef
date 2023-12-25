@@ -10,6 +10,6 @@
 ---@field public fadeOutAngle Float
 effectTrackItemExposureScale = {}
 
----@param fields? table
+---@param fields? effectTrackItemExposureScale
 ---@return effectTrackItemExposureScale
 function effectTrackItemExposureScale.new(fields) return end

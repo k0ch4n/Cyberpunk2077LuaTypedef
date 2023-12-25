@@ -5,7 +5,7 @@
 ---@field public reactionToCompare gamedataOutput
 CheckReaction = {}
 
----@param fields? table
+---@param fields? CheckReaction
 ---@return CheckReaction
 function CheckReaction.new(fields) return end
 

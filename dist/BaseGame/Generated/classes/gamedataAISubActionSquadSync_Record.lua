@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSquadSync_Record: gamedataAISubAction_Record
 gamedataAISubActionSquadSync_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSquadSync_Record
 ---@return gamedataAISubActionSquadSync_Record
 function gamedataAISubActionSquadSync_Record.new(fields) return end
 

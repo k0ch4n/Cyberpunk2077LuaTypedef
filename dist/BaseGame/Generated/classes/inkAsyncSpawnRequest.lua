@@ -4,7 +4,7 @@
 ---@class inkAsyncSpawnRequest: IScriptable
 inkAsyncSpawnRequest = {}
 
----@param fields? table
+---@param fields? inkAsyncSpawnRequest
 ---@return inkAsyncSpawnRequest
 function inkAsyncSpawnRequest.new(fields) return end
 

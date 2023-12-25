@@ -4,7 +4,7 @@
 ---@class ClearCombatTarget: AIbehaviortaskScript
 ClearCombatTarget = {}
 
----@param fields? table
+---@param fields? ClearCombatTarget
 ---@return ClearCombatTarget
 function ClearCombatTarget.new(fields) return end
 

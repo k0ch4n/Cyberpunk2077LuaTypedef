@@ -5,7 +5,7 @@
 ---@field private isRevealingEnemies Bool
 SurveillanceSystemControllerPS = {}
 
----@param fields? table
+---@param fields? SurveillanceSystemControllerPS
 ---@return SurveillanceSystemControllerPS
 function SurveillanceSystemControllerPS.new(fields) return end
 

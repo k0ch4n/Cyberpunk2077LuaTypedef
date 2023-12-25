@@ -11,7 +11,7 @@
 ---@field private updateComp UpdateComponent
 Fan = {}
 
----@param fields? table
+---@param fields? Fan
 ---@return Fan
 function Fan.new(fields) return end
 

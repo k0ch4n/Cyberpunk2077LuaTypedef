@@ -7,6 +7,6 @@
 ---@field public ToRebuild Bool
 InventoryPartsData = {}
 
----@param fields? table
+---@param fields? InventoryPartsData
 ---@return InventoryPartsData
 function InventoryPartsData.new(fields) return end

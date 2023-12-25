@@ -8,6 +8,6 @@
 ---@field public targetLocalOffset Vector3
 gameReplicatedShotData = {}
 
----@param fields? table
+---@param fields? gameReplicatedShotData
 ---@return gameReplicatedShotData
 function gameReplicatedShotData.new(fields) return end

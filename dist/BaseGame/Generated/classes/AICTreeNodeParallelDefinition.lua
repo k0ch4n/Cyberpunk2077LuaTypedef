@@ -5,6 +5,6 @@
 ---@field public forwardChildrenCompleteness Bool
 AICTreeNodeParallelDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeParallelDefinition
 ---@return AICTreeNodeParallelDefinition
 function AICTreeNodeParallelDefinition.new(fields) return end

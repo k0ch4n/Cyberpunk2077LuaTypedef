@@ -21,6 +21,6 @@
 ---@field public bounceNumberScreenshot Uint32
 PathTracingSettings = {}
 
----@param fields? table
+---@param fields? PathTracingSettings
 ---@return PathTracingSettings
 function PathTracingSettings.new(fields) return end

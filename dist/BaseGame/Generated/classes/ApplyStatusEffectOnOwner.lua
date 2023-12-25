@@ -5,7 +5,7 @@
 ---@field public statusEffectID TweakDBID
 ApplyStatusEffectOnOwner = {}
 
----@param fields? table
+---@param fields? ApplyStatusEffectOnOwner
 ---@return ApplyStatusEffectOnOwner
 function ApplyStatusEffectOnOwner.new(fields) return end
 

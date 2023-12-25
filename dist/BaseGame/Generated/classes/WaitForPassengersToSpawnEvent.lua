@@ -4,6 +4,6 @@
 ---@class WaitForPassengersToSpawnEvent: redEvent
 WaitForPassengersToSpawnEvent = {}
 
----@param fields? table
+---@param fields? WaitForPassengersToSpawnEvent
 ---@return WaitForPassengersToSpawnEvent
 function WaitForPassengersToSpawnEvent.new(fields) return end

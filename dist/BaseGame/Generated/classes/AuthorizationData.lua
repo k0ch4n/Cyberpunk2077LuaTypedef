@@ -7,7 +7,7 @@
 ---@field public authorizationDataEntry SecurityAccessLevelEntryClient
 AuthorizationData = {}
 
----@param fields? table
+---@param fields? AuthorizationData
 ---@return AuthorizationData
 function AuthorizationData.new(fields) return end
 

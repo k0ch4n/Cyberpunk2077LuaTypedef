@@ -8,6 +8,6 @@
 ---@field public IconPath String
 CyberwareSlotTooltipData = {}
 
----@param fields? table
+---@param fields? CyberwareSlotTooltipData
 ---@return CyberwareSlotTooltipData
 function CyberwareSlotTooltipData.new(fields) return end

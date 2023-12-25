@@ -5,7 +5,7 @@
 ---@field private shouldForward Bool
 PingSquad = {}
 
----@param fields? table
+---@param fields? PingSquad
 ---@return PingSquad
 function PingSquad.new(fields) return end
 

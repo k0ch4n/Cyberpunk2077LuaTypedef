@@ -9,6 +9,6 @@
 ---@field public layer gameuiEBraindanceLayer
 BraindanceClueData = {}
 
----@param fields? table
+---@param fields? BraindanceClueData
 ---@return BraindanceClueData
 function BraindanceClueData.new(fields) return end

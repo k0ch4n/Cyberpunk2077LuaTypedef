@@ -5,7 +5,7 @@
 ---@field private healthbar CompanionHealthBarGameController
 CompanionHealthStatListener = {}
 
----@param fields? table
+---@param fields? CompanionHealthStatListener
 ---@return CompanionHealthStatListener
 function CompanionHealthStatListener.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public pursuitRange Float
 worldGuardAreaNode = {}
 
----@param fields? table
+---@param fields? worldGuardAreaNode
 ---@return worldGuardAreaNode
 function worldGuardAreaNode.new(fields) return end

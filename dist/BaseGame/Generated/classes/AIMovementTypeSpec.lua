@@ -6,7 +6,7 @@
 ---@field public movementType moveMovementType
 AIMovementTypeSpec = {}
 
----@param fields? table
+---@param fields? AIMovementTypeSpec
 ---@return AIMovementTypeSpec
 function AIMovementTypeSpec.new(fields) return end
 

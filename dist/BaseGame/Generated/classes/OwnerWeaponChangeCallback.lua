@@ -5,7 +5,7 @@
 ---@field public followerRole AIFollowerRole
 OwnerWeaponChangeCallback = {}
 
----@param fields? table
+---@param fields? OwnerWeaponChangeCallback
 ---@return OwnerWeaponChangeCallback
 function OwnerWeaponChangeCallback.new(fields) return end
 

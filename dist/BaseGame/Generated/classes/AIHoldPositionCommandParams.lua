@@ -5,7 +5,7 @@
 ---@field public duration Float
 AIHoldPositionCommandParams = {}
 
----@param fields? table
+---@param fields? AIHoldPositionCommandParams
 ---@return AIHoldPositionCommandParams
 function AIHoldPositionCommandParams.new(fields) return end
 

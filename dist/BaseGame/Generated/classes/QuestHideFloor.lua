@@ -4,7 +4,7 @@
 ---@class QuestHideFloor: ActionInt
 QuestHideFloor = {}
 
----@param fields? table
+---@param fields? QuestHideFloor
 ---@return QuestHideFloor
 function QuestHideFloor.new(fields) return end
 

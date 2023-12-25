@@ -12,6 +12,6 @@
 ---@field public hubMenuInstanceID Uint32
 OpenMenuRequest = {}
 
----@param fields? table
+---@param fields? OpenMenuRequest
 ---@return OpenMenuRequest
 function OpenMenuRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class SetBusyEvent: redEvent
 SetBusyEvent = {}
 
----@param fields? table
+---@param fields? SetBusyEvent
 ---@return SetBusyEvent
 function SetBusyEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class Crosshair: ModuleInstance
 Crosshair = {}
 
----@param fields? table
+---@param fields? Crosshair
 ---@return Crosshair
 function Crosshair.new(fields) return end

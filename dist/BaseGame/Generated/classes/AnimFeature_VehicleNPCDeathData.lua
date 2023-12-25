@@ -6,6 +6,6 @@
 ---@field public side Int32
 AnimFeature_VehicleNPCDeathData = {}
 
----@param fields? table
+---@param fields? AnimFeature_VehicleNPCDeathData
 ---@return AnimFeature_VehicleNPCDeathData
 function AnimFeature_VehicleNPCDeathData.new(fields) return end

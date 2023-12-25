@@ -4,7 +4,7 @@
 ---@class ForceSafeDecisions: UpperBodyTransition
 ForceSafeDecisions = {}
 
----@param fields? table
+---@param fields? ForceSafeDecisions
 ---@return ForceSafeDecisions
 function ForceSafeDecisions.new(fields) return end
 

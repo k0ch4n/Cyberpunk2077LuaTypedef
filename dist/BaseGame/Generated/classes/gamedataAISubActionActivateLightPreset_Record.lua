@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionActivateLightPreset_Record: gamedataAISubAction_Record
 gamedataAISubActionActivateLightPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionActivateLightPreset_Record
 ---@return gamedataAISubActionActivateLightPreset_Record
 function gamedataAISubActionActivateLightPreset_Record.new(fields) return end
 

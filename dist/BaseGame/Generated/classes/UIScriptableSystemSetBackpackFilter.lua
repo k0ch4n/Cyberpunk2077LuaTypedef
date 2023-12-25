@@ -5,6 +5,6 @@
 ---@field public filterMode Int32
 UIScriptableSystemSetBackpackFilter = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemSetBackpackFilter
 ---@return UIScriptableSystemSetBackpackFilter
 function UIScriptableSystemSetBackpackFilter.new(fields) return end

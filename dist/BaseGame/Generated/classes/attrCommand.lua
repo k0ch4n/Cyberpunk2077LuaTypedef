@@ -4,6 +4,6 @@
 ---@class attrCommand: attrAttribute
 attrCommand = {}
 
----@param fields? table
+---@param fields? attrCommand
 ---@return attrCommand
 function attrCommand.new(fields) return end

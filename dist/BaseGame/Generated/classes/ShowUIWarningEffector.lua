@@ -8,7 +8,7 @@
 ---@field public owner gameObject
 ShowUIWarningEffector = {}
 
----@param fields? table
+---@param fields? ShowUIWarningEffector
 ---@return ShowUIWarningEffector
 function ShowUIWarningEffector.new(fields) return end
 

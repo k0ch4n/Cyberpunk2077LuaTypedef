@@ -4,7 +4,7 @@
 ---@class ShardsNestedListDataView: VirtualNestedListDataView
 ShardsNestedListDataView = {}
 
----@param fields? table
+---@param fields? ShardsNestedListDataView
 ---@return ShardsNestedListDataView
 function ShardsNestedListDataView.new(fields) return end
 

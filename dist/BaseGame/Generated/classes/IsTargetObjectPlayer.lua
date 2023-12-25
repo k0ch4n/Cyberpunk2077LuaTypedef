@@ -5,7 +5,7 @@
 ---@field protected targetObject AIArgumentMapping
 IsTargetObjectPlayer = {}
 
----@param fields? table
+---@param fields? IsTargetObjectPlayer
 ---@return IsTargetObjectPlayer
 function IsTargetObjectPlayer.new(fields) return end
 

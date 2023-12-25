@@ -4,7 +4,7 @@
 ---@class ResourceRef
 ResourceRef = {}
 
----@param fields? table
+---@param fields? ResourceRef
 ---@return ResourceRef
 function ResourceRef.new(fields) return end
 

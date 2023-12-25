@@ -7,6 +7,6 @@
 ---@field public clearTrafficOnPath Bool
 AIDriveCommandUpdate = {}
 
----@param fields? table
+---@param fields? AIDriveCommandUpdate
 ---@return AIDriveCommandUpdate
 function AIDriveCommandUpdate.new(fields) return end

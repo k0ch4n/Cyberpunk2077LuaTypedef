@@ -6,7 +6,7 @@
 ---@field public oxygenVfxBlackboard worldEffectBlackboard
 OxygenStatListener = {}
 
----@param fields? table
+---@param fields? OxygenStatListener
 ---@return OxygenStatListener
 function OxygenStatListener.new(fields) return end
 

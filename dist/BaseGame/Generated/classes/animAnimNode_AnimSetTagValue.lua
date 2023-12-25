@@ -5,6 +5,6 @@
 ---@field public tags redTagList
 animAnimNode_AnimSetTagValue = {}
 
----@param fields? table
+---@param fields? animAnimNode_AnimSetTagValue
 ---@return animAnimNode_AnimSetTagValue
 function animAnimNode_AnimSetTagValue.new(fields) return end

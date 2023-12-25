@@ -5,7 +5,7 @@
 ---@field public eventDispatcher gameuiGameSystemUI
 OpenShardNotificationAction = {}
 
----@param fields? table
+---@param fields? OpenShardNotificationAction
 ---@return OpenShardNotificationAction
 function OpenShardNotificationAction.new(fields) return end
 

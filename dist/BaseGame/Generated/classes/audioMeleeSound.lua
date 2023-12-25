@@ -5,6 +5,6 @@
 ---@field public events audioMeleeEvent[]
 audioMeleeSound = {}
 
----@param fields? table
+---@param fields? audioMeleeSound
 ---@return audioMeleeSound
 function audioMeleeSound.new(fields) return end

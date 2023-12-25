@@ -5,7 +5,7 @@
 ---@field public curValue Uint32
 UsedHealingItemOrCyberwarePrereq = {}
 
----@param fields? table
+---@param fields? UsedHealingItemOrCyberwarePrereq
 ---@return UsedHealingItemOrCyberwarePrereq
 function UsedHealingItemOrCyberwarePrereq.new(fields) return end
 

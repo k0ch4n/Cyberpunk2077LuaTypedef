@@ -4,6 +4,6 @@
 ---@class gameContainerVisibilityChangedEvent: redEvent
 gameContainerVisibilityChangedEvent = {}
 
----@param fields? table
+---@param fields? gameContainerVisibilityChangedEvent
 ---@return gameContainerVisibilityChangedEvent
 function gameContainerVisibilityChangedEvent.new(fields) return end

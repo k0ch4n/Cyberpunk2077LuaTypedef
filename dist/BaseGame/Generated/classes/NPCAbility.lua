@@ -5,6 +5,6 @@
 ---@field public abilityName String
 NPCAbility = {}
 
----@param fields? table
+---@param fields? NPCAbility
 ---@return NPCAbility
 function NPCAbility.new(fields) return end

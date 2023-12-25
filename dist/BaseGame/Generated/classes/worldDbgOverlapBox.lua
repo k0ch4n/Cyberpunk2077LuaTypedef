@@ -8,6 +8,6 @@
 ---@field public isHit Bool
 worldDbgOverlapBox = {}
 
----@param fields? table
+---@param fields? worldDbgOverlapBox
 ---@return worldDbgOverlapBox
 function worldDbgOverlapBox.new(fields) return end

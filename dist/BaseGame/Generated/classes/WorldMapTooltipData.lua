@@ -11,6 +11,6 @@
 ---@field public isCollection Bool
 WorldMapTooltipData = {}
 
----@param fields? table
+---@param fields? WorldMapTooltipData
 ---@return WorldMapTooltipData
 function WorldMapTooltipData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CanNPCMountVehicle: PreventionConditionAbstract
 CanNPCMountVehicle = {}
 
----@param fields? table
+---@param fields? CanNPCMountVehicle
 ---@return CanNPCMountVehicle
 function CanNPCMountVehicle.new(fields) return end
 

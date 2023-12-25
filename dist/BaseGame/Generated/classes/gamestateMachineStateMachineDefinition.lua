@@ -4,6 +4,6 @@
 ---@class gamestateMachineStateMachineDefinition: graphGraphDefinition
 gamestateMachineStateMachineDefinition = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateMachineDefinition
 ---@return gamestateMachineStateMachineDefinition
 function gamestateMachineStateMachineDefinition.new(fields) return end

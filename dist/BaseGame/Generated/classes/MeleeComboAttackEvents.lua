@@ -4,7 +4,7 @@
 ---@class MeleeComboAttackEvents: MeleeAttackGenericEvents
 MeleeComboAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeComboAttackEvents
 ---@return MeleeComboAttackEvents
 function MeleeComboAttackEvents.new(fields) return end
 

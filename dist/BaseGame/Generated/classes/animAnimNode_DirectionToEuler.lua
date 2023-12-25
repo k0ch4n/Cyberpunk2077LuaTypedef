@@ -7,6 +7,6 @@
 ---@field public conversionType animEDirectionToEuler
 animAnimNode_DirectionToEuler = {}
 
----@param fields? table
+---@param fields? animAnimNode_DirectionToEuler
 ---@return animAnimNode_DirectionToEuler
 function animAnimNode_DirectionToEuler.new(fields) return end

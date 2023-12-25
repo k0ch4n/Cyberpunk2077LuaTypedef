@@ -7,7 +7,7 @@
 ---@field public melee Bool
 AnimationsLoadedTask = {}
 
----@param fields? table
+---@param fields? AnimationsLoadedTask
 ---@return AnimationsLoadedTask
 function AnimationsLoadedTask.new(fields) return end
 

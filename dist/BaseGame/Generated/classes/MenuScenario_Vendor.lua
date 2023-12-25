@@ -4,7 +4,7 @@
 ---@class MenuScenario_Vendor: MenuScenario_BaseMenu
 MenuScenario_Vendor = {}
 
----@param fields? table
+---@param fields? MenuScenario_Vendor
 ---@return MenuScenario_Vendor
 function MenuScenario_Vendor.new(fields) return end
 

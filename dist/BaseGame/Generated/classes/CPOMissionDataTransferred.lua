@@ -10,6 +10,6 @@
 ---@field public choiceTokenTimeout Uint32
 CPOMissionDataTransferred = {}
 
----@param fields? table
+---@param fields? CPOMissionDataTransferred
 ---@return CPOMissionDataTransferred
 function CPOMissionDataTransferred.new(fields) return end

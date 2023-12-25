@@ -11,6 +11,6 @@
 ---@field public weaponId Int32
 gameuiWeaponRosterInfo = {}
 
----@param fields? table
+---@param fields? gameuiWeaponRosterInfo
 ---@return gameuiWeaponRosterInfo
 function gameuiWeaponRosterInfo.new(fields) return end

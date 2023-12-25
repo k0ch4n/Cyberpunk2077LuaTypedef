@@ -4,7 +4,7 @@
 ---@class sampleVisWireSlaveTwo: gameObject
 sampleVisWireSlaveTwo = {}
 
----@param fields? table
+---@param fields? sampleVisWireSlaveTwo
 ---@return sampleVisWireSlaveTwo
 function sampleVisWireSlaveTwo.new(fields) return end
 

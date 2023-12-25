@@ -8,6 +8,6 @@
 ---@field public rotation Float
 inkUITransform = {}
 
----@param fields? table
+---@param fields? inkUITransform
 ---@return inkUITransform
 function inkUITransform.new(fields) return end

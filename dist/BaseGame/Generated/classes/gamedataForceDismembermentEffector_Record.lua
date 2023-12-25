@@ -4,7 +4,7 @@
 ---@class gamedataForceDismembermentEffector_Record: gamedataEffector_Record
 gamedataForceDismembermentEffector_Record = {}
 
----@param fields? table
+---@param fields? gamedataForceDismembermentEffector_Record
 ---@return gamedataForceDismembermentEffector_Record
 function gamedataForceDismembermentEffector_Record.new(fields) return end
 

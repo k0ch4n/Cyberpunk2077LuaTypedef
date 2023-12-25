@@ -5,7 +5,7 @@
 ---@field public timeSystemCallbackID Uint32
 ApartmentScreen = {}
 
----@param fields? table
+---@param fields? ApartmentScreen
 ---@return ApartmentScreen
 function ApartmentScreen.new(fields) return end
 

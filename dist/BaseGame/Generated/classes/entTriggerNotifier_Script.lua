@@ -4,6 +4,6 @@
 ---@class entTriggerNotifier_Script: worldITriggerAreaNotifer
 entTriggerNotifier_Script = {}
 
----@param fields? table
+---@param fields? entTriggerNotifier_Script
 ---@return entTriggerNotifier_Script
 function entTriggerNotifier_Script.new(fields) return end

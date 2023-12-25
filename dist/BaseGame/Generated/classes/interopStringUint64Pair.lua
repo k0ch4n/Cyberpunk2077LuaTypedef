@@ -6,6 +6,6 @@
 ---@field public number Uint64
 interopStringUint64Pair = {}
 
----@param fields? table
+---@param fields? interopStringUint64Pair
 ---@return interopStringUint64Pair
 function interopStringUint64Pair.new(fields) return end

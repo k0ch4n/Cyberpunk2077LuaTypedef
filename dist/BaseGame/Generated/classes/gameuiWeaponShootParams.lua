@@ -6,6 +6,6 @@
 ---@field public forward Vector4
 gameuiWeaponShootParams = {}
 
----@param fields? table
+---@param fields? gameuiWeaponShootParams
 ---@return gameuiWeaponShootParams
 function gameuiWeaponShootParams.new(fields) return end

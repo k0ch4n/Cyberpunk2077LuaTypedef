@@ -5,6 +5,6 @@
 ---@field public None gamebbID
 gamebbScriptID = {}
 
----@param fields? table
+---@param fields? gamebbScriptID
 ---@return gamebbScriptID
 function gamebbScriptID.new(fields) return end

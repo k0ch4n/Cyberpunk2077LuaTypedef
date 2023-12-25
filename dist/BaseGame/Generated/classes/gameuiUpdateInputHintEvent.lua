@@ -7,6 +7,6 @@
 ---@field public targetHintContainer CName
 gameuiUpdateInputHintEvent = {}
 
----@param fields? table
+---@param fields? gameuiUpdateInputHintEvent
 ---@return gameuiUpdateInputHintEvent
 function gameuiUpdateInputHintEvent.new(fields) return end

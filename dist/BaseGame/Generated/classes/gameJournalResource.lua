@@ -5,6 +5,6 @@
 ---@field public entry gameJournalEntry
 gameJournalResource = {}
 
----@param fields? table
+---@param fields? gameJournalResource
 ---@return gameJournalResource
 function gameJournalResource.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public investigationPositionsArray Vector4[]
 SetInvestigationPositionsArrayEvent = {}
 
----@param fields? table
+---@param fields? SetInvestigationPositionsArrayEvent
 ---@return SetInvestigationPositionsArrayEvent
 function SetInvestigationPositionsArrayEvent.new(fields) return end

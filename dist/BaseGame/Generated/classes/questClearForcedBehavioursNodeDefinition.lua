@@ -5,6 +5,6 @@
 ---@field public puppet gameEntityReference
 questClearForcedBehavioursNodeDefinition = {}
 
----@param fields? table
+---@param fields? questClearForcedBehavioursNodeDefinition
 ---@return questClearForcedBehavioursNodeDefinition
 function questClearForcedBehavioursNodeDefinition.new(fields) return end

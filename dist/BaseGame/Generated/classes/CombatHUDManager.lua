@@ -8,7 +8,7 @@
 ---@field public timeSinceLastUpdate Float
 CombatHUDManager = {}
 
----@param fields? table
+---@param fields? CombatHUDManager
 ---@return CombatHUDManager
 function CombatHUDManager.new(fields) return end
 

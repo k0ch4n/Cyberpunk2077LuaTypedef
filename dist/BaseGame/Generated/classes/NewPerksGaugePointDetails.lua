@@ -7,6 +7,6 @@
 ---@field public widget inkWidgetReference
 NewPerksGaugePointDetails = {}
 
----@param fields? table
+---@param fields? NewPerksGaugePointDetails
 ---@return NewPerksGaugePointDetails
 function NewPerksGaugePointDetails.new(fields) return end

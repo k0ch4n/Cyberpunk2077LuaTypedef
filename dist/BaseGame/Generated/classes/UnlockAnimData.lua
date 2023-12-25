@@ -6,6 +6,6 @@
 ---@field public levelTo Int32
 UnlockAnimData = {}
 
----@param fields? table
+---@param fields? UnlockAnimData
 ---@return UnlockAnimData
 function UnlockAnimData.new(fields) return end

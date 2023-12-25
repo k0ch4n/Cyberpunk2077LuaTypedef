@@ -10,7 +10,7 @@
 ---@field protected finalPosition Vector4
 AIFindPositionAroundSelf = {}
 
----@param fields? table
+---@param fields? AIFindPositionAroundSelf
 ---@return AIFindPositionAroundSelf
 function AIFindPositionAroundSelf.new(fields) return end
 

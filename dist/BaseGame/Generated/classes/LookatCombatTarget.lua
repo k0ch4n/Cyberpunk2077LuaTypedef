@@ -4,7 +4,7 @@
 ---@class LookatCombatTarget: AIGenericEntityLookatTask
 LookatCombatTarget = {}
 
----@param fields? table
+---@param fields? LookatCombatTarget
 ---@return LookatCombatTarget
 function LookatCombatTarget.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class DoesVehicleSupportCombat: AIVehicleConditionAbstract
 DoesVehicleSupportCombat = {}
 
----@param fields? table
+---@param fields? DoesVehicleSupportCombat
 ---@return DoesVehicleSupportCombat
 function DoesVehicleSupportCombat.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public playlistName CName
 questPlaylistTrackChanged_ConditionType = {}
 
----@param fields? table
+---@param fields? questPlaylistTrackChanged_ConditionType
 ---@return questPlaylistTrackChanged_ConditionType
 function questPlaylistTrackChanged_ConditionType.new(fields) return end

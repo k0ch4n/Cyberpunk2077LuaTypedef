@@ -4,7 +4,7 @@
 ---@class gamePhotoModeEnableEvent: redEvent
 gamePhotoModeEnableEvent = {}
 
----@param fields? table
+---@param fields? gamePhotoModeEnableEvent
 ---@return gamePhotoModeEnableEvent
 function gamePhotoModeEnableEvent.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected thumbnailWidgetPackage SThumbnailWidgetPackage
 ThumbnailUI = {}
 
----@param fields? table
+---@param fields? ThumbnailUI
 ---@return ThumbnailUI
 function ThumbnailUI.new(fields) return end
 

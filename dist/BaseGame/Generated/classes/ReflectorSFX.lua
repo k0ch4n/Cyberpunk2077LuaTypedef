@@ -7,6 +7,6 @@
 ---@field public turnOff CName
 ReflectorSFX = {}
 
----@param fields? table
+---@param fields? ReflectorSFX
 ---@return ReflectorSFX
 function ReflectorSFX.new(fields) return end

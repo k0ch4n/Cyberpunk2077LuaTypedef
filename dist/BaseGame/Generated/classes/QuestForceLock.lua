@@ -4,7 +4,7 @@
 ---@class QuestForceLock: ActionBool
 QuestForceLock = {}
 
----@param fields? table
+---@param fields? QuestForceLock
 ---@return QuestForceLock
 function QuestForceLock.new(fields) return end
 

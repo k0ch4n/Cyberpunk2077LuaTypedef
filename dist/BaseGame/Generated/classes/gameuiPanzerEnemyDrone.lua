@@ -7,6 +7,6 @@
 ---@field public shootIntervalMaximum Float
 gameuiPanzerEnemyDrone = {}
 
----@param fields? table
+---@param fields? gameuiPanzerEnemyDrone
 ---@return gameuiPanzerEnemyDrone
 function gameuiPanzerEnemyDrone.new(fields) return end

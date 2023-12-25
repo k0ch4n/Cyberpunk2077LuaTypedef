@@ -5,6 +5,6 @@
 ---@field public state VehiclePreventionHackState
 DelayedForceAboutToExplodeStateRequest = {}
 
----@param fields? table
+---@param fields? DelayedForceAboutToExplodeStateRequest
 ---@return DelayedForceAboutToExplodeStateRequest
 function DelayedForceAboutToExplodeStateRequest.new(fields) return end

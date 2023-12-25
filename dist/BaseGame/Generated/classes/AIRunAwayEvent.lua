@@ -4,6 +4,6 @@
 ---@class AIRunAwayEvent: AIAIEvent
 AIRunAwayEvent = {}
 
----@param fields? table
+---@param fields? AIRunAwayEvent
 ---@return AIRunAwayEvent
 function AIRunAwayEvent.new(fields) return end

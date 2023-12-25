@@ -4,6 +4,6 @@
 ---@class gameuiItemDataSourceListener: gameIInventoryListener
 gameuiItemDataSourceListener = {}
 
----@param fields? table
+---@param fields? gameuiItemDataSourceListener
 ---@return gameuiItemDataSourceListener
 function gameuiItemDataSourceListener.new(fields) return end

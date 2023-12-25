@@ -5,6 +5,6 @@
 ---@field public sensor SensorDevice
 SensorJammed = {}
 
----@param fields? table
+---@param fields? SensorJammed
 ---@return SensorJammed
 function SensorJammed.new(fields) return end

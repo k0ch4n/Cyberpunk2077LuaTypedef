@@ -5,6 +5,6 @@
 ---@field public show Bool
 gameVisionModeMappinEvent = {}
 
----@param fields? table
+---@param fields? gameVisionModeMappinEvent
 ---@return gameVisionModeMappinEvent
 function gameVisionModeMappinEvent.new(fields) return end

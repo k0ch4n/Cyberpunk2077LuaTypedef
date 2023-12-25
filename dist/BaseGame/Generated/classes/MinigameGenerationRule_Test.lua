@@ -4,7 +4,7 @@
 ---@class MinigameGenerationRule_Test: gameuiMinigameGenerationRule
 MinigameGenerationRule_Test = {}
 
----@param fields? table
+---@param fields? MinigameGenerationRule_Test
 ---@return MinigameGenerationRule_Test
 function MinigameGenerationRule_Test.new(fields) return end
 

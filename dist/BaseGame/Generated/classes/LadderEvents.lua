@@ -4,7 +4,7 @@
 ---@class LadderEvents: LocomotionGroundEvents
 LadderEvents = {}
 
----@param fields? table
+---@param fields? LadderEvents
 ---@return LadderEvents
 function LadderEvents.new(fields) return end
 

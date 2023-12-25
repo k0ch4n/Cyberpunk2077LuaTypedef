@@ -19,7 +19,7 @@
 ---@field public vertexList Vector2[]
 inkShapeWidget = {}
 
----@param fields? table
+---@param fields? inkShapeWidget
 ---@return inkShapeWidget
 function inkShapeWidget.new(fields) return end
 

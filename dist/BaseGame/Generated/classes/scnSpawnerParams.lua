@@ -6,6 +6,6 @@
 ---@field public forceMaxVisibility Bool
 scnSpawnerParams = {}
 
----@param fields? table
+---@param fields? scnSpawnerParams
 ---@return scnSpawnerParams
 function scnSpawnerParams.new(fields) return end

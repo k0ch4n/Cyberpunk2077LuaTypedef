@@ -5,7 +5,7 @@
 ---@field public eventName CName
 CustomEventCondition = {}
 
----@param fields? table
+---@param fields? CustomEventCondition
 ---@return CustomEventCondition
 function CustomEventCondition.new(fields) return end
 

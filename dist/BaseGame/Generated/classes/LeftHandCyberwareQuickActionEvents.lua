@@ -4,7 +4,7 @@
 ---@class LeftHandCyberwareQuickActionEvents: LeftHandCyberwareActionAbstractEvents
 LeftHandCyberwareQuickActionEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareQuickActionEvents
 ---@return LeftHandCyberwareQuickActionEvents
 function LeftHandCyberwareQuickActionEvents.new(fields) return end
 

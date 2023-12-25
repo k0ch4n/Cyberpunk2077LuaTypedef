@@ -4,7 +4,7 @@
 ---@class ZoomBlockedDecisions: ZoomDecisionsTransition
 ZoomBlockedDecisions = {}
 
----@param fields? table
+---@param fields? ZoomBlockedDecisions
 ---@return ZoomBlockedDecisions
 function ZoomBlockedDecisions.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public owner gameObject
 CraftBook = {}
 
----@param fields? table
+---@param fields? CraftBook
 ---@return CraftBook
 function CraftBook.new(fields) return end
 

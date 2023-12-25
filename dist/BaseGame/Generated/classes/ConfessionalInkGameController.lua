@@ -13,7 +13,7 @@
 ---@field private onConfessListener redCallbackObject
 ConfessionalInkGameController = {}
 
----@param fields? table
+---@param fields? ConfessionalInkGameController
 ---@return ConfessionalInkGameController
 function ConfessionalInkGameController.new(fields) return end
 

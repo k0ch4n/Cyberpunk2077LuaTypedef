@@ -6,6 +6,6 @@
 ---@field public tag CName
 gameEffectRef = {}
 
----@param fields? table
+---@param fields? gameEffectRef
 ---@return gameEffectRef
 function gameEffectRef.new(fields) return end

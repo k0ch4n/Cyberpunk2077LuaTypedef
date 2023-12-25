@@ -5,6 +5,6 @@
 ---@field public type moveExplorationType
 moveExplorationLeftEvent = {}
 
----@param fields? table
+---@param fields? moveExplorationLeftEvent
 ---@return moveExplorationLeftEvent
 function moveExplorationLeftEvent.new(fields) return end

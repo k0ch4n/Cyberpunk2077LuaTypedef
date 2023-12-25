@@ -4,6 +4,6 @@
 ---@class gameEntityIDArrayPrereq: gameIPrereq
 gameEntityIDArrayPrereq = {}
 
----@param fields? table
+---@param fields? gameEntityIDArrayPrereq
 ---@return gameEntityIDArrayPrereq
 function gameEntityIDArrayPrereq.new(fields) return end

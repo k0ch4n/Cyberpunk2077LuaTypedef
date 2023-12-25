@@ -6,7 +6,7 @@
 ---@field public password CName
 SecurityAccessLevelEntry = {}
 
----@param fields? table
+---@param fields? SecurityAccessLevelEntry
 ---@return SecurityAccessLevelEntry
 function SecurityAccessLevelEntry.new(fields) return end
 

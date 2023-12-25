@@ -4,7 +4,7 @@
 ---@class MeleeThrowReloadDecisions: MeleeTransition
 MeleeThrowReloadDecisions = {}
 
----@param fields? table
+---@param fields? MeleeThrowReloadDecisions
 ---@return MeleeThrowReloadDecisions
 function MeleeThrowReloadDecisions.new(fields) return end
 

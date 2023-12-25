@@ -108,7 +108,7 @@
 ---@field public IsWeaponFirstEquip gamebbScriptID_Bool
 PlayerStateMachineDef = {}
 
----@param fields? table
+---@param fields? PlayerStateMachineDef
 ---@return PlayerStateMachineDef
 function PlayerStateMachineDef.new(fields) return end
 

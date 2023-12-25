@@ -4,7 +4,7 @@
 ---@class CrossingLightController: TrafficLightController
 CrossingLightController = {}
 
----@param fields? table
+---@param fields? CrossingLightController
 ---@return CrossingLightController
 function CrossingLightController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSendSignal_Record: gamedataAISubAction_Record
 gamedataAISubActionSendSignal_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSendSignal_Record
 ---@return gamedataAISubActionSendSignal_Record
 function gamedataAISubActionSendSignal_Record.new(fields) return end
 

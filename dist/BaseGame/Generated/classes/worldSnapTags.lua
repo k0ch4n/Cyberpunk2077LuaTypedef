@@ -6,6 +6,6 @@
 ---@field public excludeTags CName[]
 worldSnapTags = {}
 
----@param fields? table
+---@param fields? worldSnapTags
 ---@return worldSnapTags
 function worldSnapTags.new(fields) return end

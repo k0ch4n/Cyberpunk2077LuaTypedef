@@ -5,6 +5,6 @@
 ---@field public stateMachineIdentifier gamestateMachineStateMachineIdentifier
 gamestateMachineeventStartStateMachine = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventStartStateMachine
 ---@return gamestateMachineeventStartStateMachine
 function gamestateMachineeventStartStateMachine.new(fields) return end

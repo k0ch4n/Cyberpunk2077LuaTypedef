@@ -8,6 +8,6 @@
 ---@field public subwayGateOpen gamebbScriptID_Bool
 DataTermDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? DataTermDeviceBlackboardDef
 ---@return DataTermDeviceBlackboardDef
 function DataTermDeviceBlackboardDef.new(fields) return end

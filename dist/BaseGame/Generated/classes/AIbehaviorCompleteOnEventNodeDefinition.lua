@@ -6,6 +6,6 @@
 ---@field public resultOnEvent AIbehaviorCompletionStatus
 AIbehaviorCompleteOnEventNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCompleteOnEventNodeDefinition
 ---@return AIbehaviorCompleteOnEventNodeDefinition
 function AIbehaviorCompleteOnEventNodeDefinition.new(fields) return end

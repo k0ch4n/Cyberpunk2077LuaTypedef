@@ -10,6 +10,6 @@
 ---@field public backwardSlow Float
 scnRewindableSectionPlaySpeedModifiers = {}
 
----@param fields? table
+---@param fields? scnRewindableSectionPlaySpeedModifiers
 ---@return scnRewindableSectionPlaySpeedModifiers
 function scnRewindableSectionPlaySpeedModifiers.new(fields) return end

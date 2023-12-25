@@ -5,6 +5,6 @@
 ---@field public tier Int32
 AnimFeature_SceneSystem = {}
 
----@param fields? table
+---@param fields? AnimFeature_SceneSystem
 ---@return AnimFeature_SceneSystem
 function AnimFeature_SceneSystem.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public entries AIbehaviorAgentInfoDebuggerCommandEntry[]
 AIbehaviorAgentInfoDebuggerCommand = {}
 
----@param fields? table
+---@param fields? AIbehaviorAgentInfoDebuggerCommand
 ---@return AIbehaviorAgentInfoDebuggerCommand
 function AIbehaviorAgentInfoDebuggerCommand.new(fields) return end

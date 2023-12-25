@@ -5,6 +5,6 @@
 ---@field public WidgetPackage SWidgetPackage
 SWidgetPackageWrapper = {}
 
----@param fields? table
+---@param fields? SWidgetPackageWrapper
 ---@return SWidgetPackageWrapper
 function SWidgetPackageWrapper.new(fields) return end

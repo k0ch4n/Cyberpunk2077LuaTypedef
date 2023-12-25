@@ -6,7 +6,7 @@
 ---@field public targetObject gameObject
 MeleeThrowAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeThrowAttackEvents
 ---@return MeleeThrowAttackEvents
 function MeleeThrowAttackEvents.new(fields) return end
 

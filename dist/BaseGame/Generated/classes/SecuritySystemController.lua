@@ -4,7 +4,7 @@
 ---@class SecuritySystemController: DeviceSystemBaseController
 SecuritySystemController = {}
 
----@param fields? table
+---@param fields? SecuritySystemController
 ---@return SecuritySystemController
 function SecuritySystemController.new(fields) return end
 

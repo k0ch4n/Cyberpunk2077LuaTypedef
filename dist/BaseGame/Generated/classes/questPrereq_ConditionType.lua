@@ -7,6 +7,6 @@
 ---@field public prereq gameIPrereq
 questPrereq_ConditionType = {}
 
----@param fields? table
+---@param fields? questPrereq_ConditionType
 ---@return questPrereq_ConditionType
 function questPrereq_ConditionType.new(fields) return end

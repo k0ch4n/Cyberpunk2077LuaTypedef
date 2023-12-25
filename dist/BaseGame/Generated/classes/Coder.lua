@@ -4,7 +4,7 @@
 ---@class Coder: BasicDistractionDevice
 Coder = {}
 
----@param fields? table
+---@param fields? Coder
 ---@return Coder
 function Coder.new(fields) return end
 

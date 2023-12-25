@@ -4,7 +4,7 @@
 ---@class ReleaseEvents: CarriedObjectEvents
 ReleaseEvents = {}
 
----@param fields? table
+---@param fields? ReleaseEvents
 ---@return ReleaseEvents
 function ReleaseEvents.new(fields) return end
 

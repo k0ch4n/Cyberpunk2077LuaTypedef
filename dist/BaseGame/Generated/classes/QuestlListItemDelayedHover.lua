@@ -4,6 +4,6 @@
 ---@class QuestlListItemDelayedHover: redEvent
 QuestlListItemDelayedHover = {}
 
----@param fields? table
+---@param fields? QuestlListItemDelayedHover
 ---@return QuestlListItemDelayedHover
 function QuestlListItemDelayedHover.new(fields) return end

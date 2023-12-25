@@ -8,7 +8,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 ArcadeMachineInkGameController = {}
 
----@param fields? table
+---@param fields? ArcadeMachineInkGameController
 ---@return ArcadeMachineInkGameController
 function ArcadeMachineInkGameController.new(fields) return end
 

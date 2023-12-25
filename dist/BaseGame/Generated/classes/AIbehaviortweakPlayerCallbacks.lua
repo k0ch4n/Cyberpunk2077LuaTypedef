@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakPlayerCallbacks
 AIbehaviortweakPlayerCallbacks = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakPlayerCallbacks
 ---@return AIbehaviortweakPlayerCallbacks
 function AIbehaviortweakPlayerCallbacks.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field public isCallableDefault Bool
 gameJournalContact = {}
 
----@param fields? table
+---@param fields? gameJournalContact
 ---@return gameJournalContact
 function gameJournalContact.new(fields) return end
 

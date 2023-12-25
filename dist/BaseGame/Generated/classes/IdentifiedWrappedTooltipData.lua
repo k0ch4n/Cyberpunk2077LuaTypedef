@@ -7,7 +7,7 @@
 ---@field public data ATooltipData
 IdentifiedWrappedTooltipData = {}
 
----@param fields? table
+---@param fields? IdentifiedWrappedTooltipData
 ---@return IdentifiedWrappedTooltipData
 function IdentifiedWrappedTooltipData.new(fields) return end
 

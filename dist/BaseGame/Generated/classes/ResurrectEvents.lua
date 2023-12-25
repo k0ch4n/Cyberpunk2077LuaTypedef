@@ -4,7 +4,7 @@
 ---@class ResurrectEvents: HighLevelTransition
 ResurrectEvents = {}
 
----@param fields? table
+---@param fields? ResurrectEvents
 ---@return ResurrectEvents
 function ResurrectEvents.new(fields) return end
 

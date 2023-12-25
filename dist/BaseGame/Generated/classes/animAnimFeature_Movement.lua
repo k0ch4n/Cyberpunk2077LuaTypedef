@@ -13,7 +13,7 @@
 ---@field public locomotionState Int32
 animAnimFeature_Movement = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Movement
 ---@return animAnimFeature_Movement
 function animAnimFeature_Movement.new(fields) return end
 

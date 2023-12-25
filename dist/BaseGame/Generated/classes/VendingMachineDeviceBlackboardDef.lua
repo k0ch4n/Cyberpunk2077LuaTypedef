@@ -6,6 +6,6 @@
 ---@field public SoldOut gamebbScriptID_Bool
 VendingMachineDeviceBlackboardDef = {}
 
----@param fields? table
+---@param fields? VendingMachineDeviceBlackboardDef
 ---@return VendingMachineDeviceBlackboardDef
 function VendingMachineDeviceBlackboardDef.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestSetRadioStation: ActionInt
 QuestSetRadioStation = {}
 
----@param fields? table
+---@param fields? QuestSetRadioStation
 ---@return QuestSetRadioStation
 function QuestSetRadioStation.new(fields) return end
 

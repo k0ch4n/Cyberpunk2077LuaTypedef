@@ -12,7 +12,7 @@
 ---@field public ignoreSelfInflictedPressureWave Bool
 GenericHitPrereq = {}
 
----@param fields? table
+---@param fields? GenericHitPrereq
 ---@return GenericHitPrereq
 function GenericHitPrereq.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public toggle Bool
 vehicleToggleBrokenTireEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleBrokenTireEvent
 ---@return vehicleToggleBrokenTireEvent
 function vehicleToggleBrokenTireEvent.new(fields) return end

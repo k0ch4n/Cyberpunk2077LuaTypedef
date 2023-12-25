@@ -4,6 +4,6 @@
 ---@class gameweaponeventsRequestAmmoChange: redEvent
 gameweaponeventsRequestAmmoChange = {}
 
----@param fields? table
+---@param fields? gameweaponeventsRequestAmmoChange
 ---@return gameweaponeventsRequestAmmoChange
 function gameweaponeventsRequestAmmoChange.new(fields) return end

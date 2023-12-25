@@ -4,6 +4,6 @@
 ---@class AIScriptGuardArea
 AIScriptGuardArea = {}
 
----@param fields? table
+---@param fields? AIScriptGuardArea
 ---@return AIScriptGuardArea
 function AIScriptGuardArea.new(fields) return end

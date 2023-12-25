@@ -4,7 +4,7 @@
 ---@class QuestToggleAds: ActionBool
 QuestToggleAds = {}
 
----@param fields? table
+---@param fields? QuestToggleAds
 ---@return QuestToggleAds
 function QuestToggleAds.new(fields) return end
 

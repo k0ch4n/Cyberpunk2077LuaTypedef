@@ -13,6 +13,6 @@
 ---@field public mulFactorNode animFloatLink
 animAnimNode_TransformToTrack = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformToTrack
 ---@return animAnimNode_TransformToTrack
 function animAnimNode_TransformToTrack.new(fields) return end

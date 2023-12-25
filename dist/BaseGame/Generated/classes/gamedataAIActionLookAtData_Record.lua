@@ -4,7 +4,7 @@
 ---@class gamedataAIActionLookAtData_Record: gamedataTweakDBRecord
 gamedataAIActionLookAtData_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionLookAtData_Record
 ---@return gamedataAIActionLookAtData_Record
 function gamedataAIActionLookAtData_Record.new(fields) return end
 

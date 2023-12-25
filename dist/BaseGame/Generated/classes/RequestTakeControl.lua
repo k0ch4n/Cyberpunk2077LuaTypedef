@@ -6,6 +6,6 @@
 ---@field public originalEvent ToggleTakeOverControl
 RequestTakeControl = {}
 
----@param fields? table
+---@param fields? RequestTakeControl
 ---@return RequestTakeControl
 function RequestTakeControl.new(fields) return end

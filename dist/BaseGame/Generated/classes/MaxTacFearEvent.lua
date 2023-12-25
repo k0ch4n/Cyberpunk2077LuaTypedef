@@ -6,6 +6,6 @@
 ---@field public av gameObject
 MaxTacFearEvent = {}
 
----@param fields? table
+---@param fields? MaxTacFearEvent
 ---@return MaxTacFearEvent
 function MaxTacFearEvent.new(fields) return end

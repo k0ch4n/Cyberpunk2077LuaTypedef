@@ -8,7 +8,7 @@
 ---@field public characterTDBID TweakDBID
 gameTargetShootComponent = {}
 
----@param fields? table
+---@param fields? gameTargetShootComponent
 ---@return gameTargetShootComponent
 function gameTargetShootComponent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public explosionSound CName
 audioGrenadeEntitySettings = {}
 
----@param fields? table
+---@param fields? audioGrenadeEntitySettings
 ---@return audioGrenadeEntitySettings
 function audioGrenadeEntitySettings.new(fields) return end

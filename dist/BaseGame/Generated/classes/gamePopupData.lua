@@ -11,7 +11,7 @@
 ---@field public video Bink
 gamePopupData = {}
 
----@param fields? table
+---@param fields? gamePopupData
 ---@return gamePopupData
 function gamePopupData.new(fields) return end
 

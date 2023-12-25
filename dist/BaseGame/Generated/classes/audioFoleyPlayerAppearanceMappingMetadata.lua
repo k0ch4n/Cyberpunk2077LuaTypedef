@@ -9,6 +9,6 @@
 ---@field public jewelrySettings audioAppearanceToPlayerMetadata[]
 audioFoleyPlayerAppearanceMappingMetadata = {}
 
----@param fields? table
+---@param fields? audioFoleyPlayerAppearanceMappingMetadata
 ---@return audioFoleyPlayerAppearanceMappingMetadata
 function audioFoleyPlayerAppearanceMappingMetadata.new(fields) return end

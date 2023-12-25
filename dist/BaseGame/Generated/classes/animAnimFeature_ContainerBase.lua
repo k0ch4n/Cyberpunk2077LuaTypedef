@@ -6,7 +6,7 @@
 ---@field public transitionDuration Float
 animAnimFeature_ContainerBase = {}
 
----@param fields? table
+---@param fields? animAnimFeature_ContainerBase
 ---@return animAnimFeature_ContainerBase
 function animAnimFeature_ContainerBase.new(fields) return end
 

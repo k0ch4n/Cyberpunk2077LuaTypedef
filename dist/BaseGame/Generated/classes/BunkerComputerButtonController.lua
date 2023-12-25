@@ -5,7 +5,7 @@
 ---@field public usePopupDefault Bool
 BunkerComputerButtonController = {}
 
----@param fields? table
+---@param fields? BunkerComputerButtonController
 ---@return BunkerComputerButtonController
 function BunkerComputerButtonController.new(fields) return end
 

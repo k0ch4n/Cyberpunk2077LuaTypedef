@@ -5,7 +5,7 @@
 ---@field private result AIbehaviorUpdateOutcome
 MountAssigendVehicle = {}
 
----@param fields? table
+---@param fields? MountAssigendVehicle
 ---@return MountAssigendVehicle
 function MountAssigendVehicle.new(fields) return end
 

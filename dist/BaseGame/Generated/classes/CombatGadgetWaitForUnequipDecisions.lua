@@ -4,7 +4,7 @@
 ---@class CombatGadgetWaitForUnequipDecisions: CombatGadgetTransitions
 CombatGadgetWaitForUnequipDecisions = {}
 
----@param fields? table
+---@param fields? CombatGadgetWaitForUnequipDecisions
 ---@return CombatGadgetWaitForUnequipDecisions
 function CombatGadgetWaitForUnequipDecisions.new(fields) return end
 

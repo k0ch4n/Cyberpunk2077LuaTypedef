@@ -12,7 +12,7 @@
 ---@field private notReplacedWorkaroundEnabled Bool
 gameUILocalizationDataPackage = {}
 
----@param fields? table
+---@param fields? gameUILocalizationDataPackage
 ---@return gameUILocalizationDataPackage
 function gameUILocalizationDataPackage.new(fields) return end
 

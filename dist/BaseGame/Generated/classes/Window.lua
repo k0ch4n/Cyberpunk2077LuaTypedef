@@ -7,7 +7,7 @@
 ---@field private duplicateDestruction Bool
 Window = {}
 
----@param fields? table
+---@param fields? Window
 ---@return Window
 function Window.new(fields) return end
 

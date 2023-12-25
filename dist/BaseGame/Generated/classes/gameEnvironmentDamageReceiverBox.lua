@@ -5,6 +5,6 @@
 ---@field public dimensions Vector3
 gameEnvironmentDamageReceiverBox = {}
 
----@param fields? table
+---@param fields? gameEnvironmentDamageReceiverBox
 ---@return gameEnvironmentDamageReceiverBox
 function gameEnvironmentDamageReceiverBox.new(fields) return end

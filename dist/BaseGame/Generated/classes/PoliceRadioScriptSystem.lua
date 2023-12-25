@@ -4,7 +4,7 @@
 ---@class PoliceRadioScriptSystem: gameScriptableSystem
 PoliceRadioScriptSystem = {}
 
----@param fields? table
+---@param fields? PoliceRadioScriptSystem
 ---@return PoliceRadioScriptSystem
 function PoliceRadioScriptSystem.new(fields) return end
 

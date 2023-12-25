@@ -4,7 +4,7 @@
 ---@class gamestateMachineGameScriptInterface: gamestateMachineScriptInterface
 gamestateMachineGameScriptInterface = {}
 
----@param fields? table
+---@param fields? gamestateMachineGameScriptInterface
 ---@return gamestateMachineGameScriptInterface
 function gamestateMachineGameScriptInterface.new(fields) return end
 

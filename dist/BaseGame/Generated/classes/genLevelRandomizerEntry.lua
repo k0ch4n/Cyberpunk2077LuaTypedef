@@ -8,6 +8,6 @@
 ---@field public probability Float
 genLevelRandomizerEntry = {}
 
----@param fields? table
+---@param fields? genLevelRandomizerEntry
 ---@return genLevelRandomizerEntry
 function genLevelRandomizerEntry.new(fields) return end

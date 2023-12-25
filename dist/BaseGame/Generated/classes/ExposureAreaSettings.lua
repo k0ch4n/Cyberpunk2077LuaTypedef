@@ -14,6 +14,6 @@
 ---@field public cameraVelocityFaloff Float
 ExposureAreaSettings = {}
 
----@param fields? table
+---@param fields? ExposureAreaSettings
 ---@return ExposureAreaSettings
 function ExposureAreaSettings.new(fields) return end

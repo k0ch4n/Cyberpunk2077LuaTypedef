@@ -6,6 +6,6 @@
 ---@field public partID gameItemID
 gameAttachmentSlotEventsPartAddedToSlotEvent = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsPartAddedToSlotEvent
 ---@return gameAttachmentSlotEventsPartAddedToSlotEvent
 function gameAttachmentSlotEventsPartAddedToSlotEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamestateMachineStateContextScript: IScriptable
 gamestateMachineStateContextScript = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateContextScript
 ---@return gamestateMachineStateContextScript
 function gamestateMachineStateContextScript.new(fields) return end
 

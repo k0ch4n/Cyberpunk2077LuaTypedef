@@ -4,6 +4,6 @@
 ---@class questMultiplayerJunctionDialogNodeDefinition: questDisableableNodeDefinition
 questMultiplayerJunctionDialogNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMultiplayerJunctionDialogNodeDefinition
 ---@return questMultiplayerJunctionDialogNodeDefinition
 function questMultiplayerJunctionDialogNodeDefinition.new(fields) return end

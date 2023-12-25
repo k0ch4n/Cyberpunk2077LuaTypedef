@@ -8,7 +8,7 @@
 ---@field public improveWithDistance Bool
 ModifyDamageWithDistance = {}
 
----@param fields? table
+---@param fields? ModifyDamageWithDistance
 ---@return ModifyDamageWithDistance
 function ModifyDamageWithDistance.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public cleared entEntityID[]
 AIGuardAreasSavedState = {}
 
----@param fields? table
+---@param fields? AIGuardAreasSavedState
 ---@return AIGuardAreasSavedState
 function AIGuardAreasSavedState.new(fields) return end

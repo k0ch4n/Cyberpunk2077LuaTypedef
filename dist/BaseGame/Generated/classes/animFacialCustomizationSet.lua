@@ -16,6 +16,6 @@
 ---@field public isCooked Bool
 animFacialCustomizationSet = {}
 
----@param fields? table
+---@param fields? animFacialCustomizationSet
 ---@return animFacialCustomizationSet
 function animFacialCustomizationSet.new(fields) return end

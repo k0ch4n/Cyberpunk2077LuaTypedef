@@ -4,7 +4,7 @@
 ---@class ForceFreezeEvents: LocomotionGroundEvents
 ForceFreezeEvents = {}
 
----@param fields? table
+---@param fields? ForceFreezeEvents
 ---@return ForceFreezeEvents
 function ForceFreezeEvents.new(fields) return end
 

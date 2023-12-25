@@ -6,6 +6,6 @@
 ---@field public edges Uint32[]
 worldBlockoutAreaOutline = {}
 
----@param fields? table
+---@param fields? worldBlockoutAreaOutline
 ---@return worldBlockoutAreaOutline
 function worldBlockoutAreaOutline.new(fields) return end

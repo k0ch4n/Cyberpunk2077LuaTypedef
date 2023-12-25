@@ -6,6 +6,6 @@
 ---@field public desiredDistance Float
 SpawnUniqueSubCharacterRequest = {}
 
----@param fields? table
+---@param fields? SpawnUniqueSubCharacterRequest
 ---@return SpawnUniqueSubCharacterRequest
 function SpawnUniqueSubCharacterRequest.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private effectTags CName[]
 RemoveStatusEffectsEffector = {}
 
----@param fields? table
+---@param fields? RemoveStatusEffectsEffector
 ---@return RemoveStatusEffectsEffector
 function RemoveStatusEffectsEffector.new(fields) return end
 

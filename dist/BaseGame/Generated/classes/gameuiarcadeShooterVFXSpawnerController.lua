@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterVFXSpawnerController: gameuiarcadeArcadeSpawnerController
 gameuiarcadeShooterVFXSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterVFXSpawnerController
 ---@return gameuiarcadeShooterVFXSpawnerController
 function gameuiarcadeShooterVFXSpawnerController.new(fields) return end

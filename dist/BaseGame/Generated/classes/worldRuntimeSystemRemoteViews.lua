@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemRemoteViews: worldIRuntimeSystem
 worldRuntimeSystemRemoteViews = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemRemoteViews
 ---@return worldRuntimeSystemRemoteViews
 function worldRuntimeSystemRemoteViews.new(fields) return end

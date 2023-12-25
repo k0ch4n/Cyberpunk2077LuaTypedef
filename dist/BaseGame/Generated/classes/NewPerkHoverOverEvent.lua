@@ -7,6 +7,6 @@
 ---@field public perkData NewPerkDisplayData
 NewPerkHoverOverEvent = {}
 
----@param fields? table
+---@param fields? NewPerkHoverOverEvent
 ---@return NewPerkHoverOverEvent
 function NewPerkHoverOverEvent.new(fields) return end

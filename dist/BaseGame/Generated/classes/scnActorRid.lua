@@ -8,6 +8,6 @@
 ---@field public cyberwareAnimations scnAnimationRid[]
 scnActorRid = {}
 
----@param fields? table
+---@param fields? scnActorRid
 ---@return scnActorRid
 function scnActorRid.new(fields) return end

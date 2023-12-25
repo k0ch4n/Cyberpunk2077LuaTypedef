@@ -4,7 +4,7 @@
 ---@class ButtonHelpBarMenuGameController: inkWidgetLogicController
 ButtonHelpBarMenuGameController = {}
 
----@param fields? table
+---@param fields? ButtonHelpBarMenuGameController
 ---@return ButtonHelpBarMenuGameController
 function ButtonHelpBarMenuGameController.new(fields) return end
 

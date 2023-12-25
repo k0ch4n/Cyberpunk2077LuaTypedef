@@ -4,7 +4,7 @@
 ---@class BraindanceFastFlyEvents: LocomotionBraindanceEvents
 BraindanceFastFlyEvents = {}
 
----@param fields? table
+---@param fields? BraindanceFastFlyEvents
 ---@return BraindanceFastFlyEvents
 function BraindanceFastFlyEvents.new(fields) return end
 

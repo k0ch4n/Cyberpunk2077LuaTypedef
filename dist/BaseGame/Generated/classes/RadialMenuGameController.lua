@@ -10,7 +10,7 @@
 ---@field private inputAxisCallbackId redCallbackObject
 RadialMenuGameController = {}
 
----@param fields? table
+---@param fields? RadialMenuGameController
 ---@return RadialMenuGameController
 function RadialMenuGameController.new(fields) return end
 

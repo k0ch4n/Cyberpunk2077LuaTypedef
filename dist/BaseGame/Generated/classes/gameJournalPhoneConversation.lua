@@ -5,7 +5,7 @@
 ---@field public title LocalizationString
 gameJournalPhoneConversation = {}
 
----@param fields? table
+---@param fields? gameJournalPhoneConversation
 ---@return gameJournalPhoneConversation
 function gameJournalPhoneConversation.new(fields) return end
 

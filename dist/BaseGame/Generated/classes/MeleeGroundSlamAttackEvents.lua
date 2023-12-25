@@ -6,7 +6,7 @@
 ---@field public stunImmunityModifier gameStatModifierData_Deprecated
 MeleeGroundSlamAttackEvents = {}
 
----@param fields? table
+---@param fields? MeleeGroundSlamAttackEvents
 ---@return MeleeGroundSlamAttackEvents
 function MeleeGroundSlamAttackEvents.new(fields) return end
 

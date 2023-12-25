@@ -4,6 +4,6 @@
 ---@class inkRadioGroupChangedCallback: inkCallbackBase
 inkRadioGroupChangedCallback = {}
 
----@param fields? table
+---@param fields? inkRadioGroupChangedCallback
 ---@return inkRadioGroupChangedCallback
 function inkRadioGroupChangedCallback.new(fields) return end

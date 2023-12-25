@@ -7,6 +7,6 @@
 ---@field public FillMeshes entdismembermentFillMeshInfo[]
 entdismembermentWoundMeshes = {}
 
----@param fields? table
+---@param fields? entdismembermentWoundMeshes
 ---@return entdismembermentWoundMeshes
 function entdismembermentWoundMeshes.new(fields) return end

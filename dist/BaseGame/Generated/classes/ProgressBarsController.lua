@@ -5,7 +5,7 @@
 ---@field protected mask inkWidgetReference
 ProgressBarsController = {}
 
----@param fields? table
+---@param fields? ProgressBarsController
 ---@return ProgressBarsController
 function ProgressBarsController.new(fields) return end
 

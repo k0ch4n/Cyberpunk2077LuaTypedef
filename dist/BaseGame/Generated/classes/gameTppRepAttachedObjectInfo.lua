@@ -6,6 +6,6 @@
 ---@field public itemID TweakDBID
 gameTppRepAttachedObjectInfo = {}
 
----@param fields? table
+---@param fields? gameTppRepAttachedObjectInfo
 ---@return gameTppRepAttachedObjectInfo
 function gameTppRepAttachedObjectInfo.new(fields) return end

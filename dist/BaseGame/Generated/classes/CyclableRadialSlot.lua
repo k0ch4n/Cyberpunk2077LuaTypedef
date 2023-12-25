@@ -12,7 +12,7 @@
 ---@field private hotkey gameEHotkey
 CyclableRadialSlot = {}
 
----@param fields? table
+---@param fields? CyclableRadialSlot
 ---@return CyclableRadialSlot
 function CyclableRadialSlot.new(fields) return end
 

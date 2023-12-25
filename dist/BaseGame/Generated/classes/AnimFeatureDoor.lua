@@ -9,6 +9,6 @@
 ---@field public malfunctioning Int32
 AnimFeatureDoor = {}
 
----@param fields? table
+---@param fields? AnimFeatureDoor
 ---@return AnimFeatureDoor
 function AnimFeatureDoor.new(fields) return end

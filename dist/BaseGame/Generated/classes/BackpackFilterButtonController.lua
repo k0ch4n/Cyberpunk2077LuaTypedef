@@ -9,7 +9,7 @@
 ---@field private hovered Bool
 BackpackFilterButtonController = {}
 
----@param fields? table
+---@param fields? BackpackFilterButtonController
 ---@return BackpackFilterButtonController
 function BackpackFilterButtonController.new(fields) return end
 

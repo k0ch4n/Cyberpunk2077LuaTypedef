@@ -11,6 +11,6 @@
 ---@field public openedFolderIDX Int32
 ComputerPersistentData = {}
 
----@param fields? table
+---@param fields? ComputerPersistentData
 ---@return ComputerPersistentData
 function ComputerPersistentData.new(fields) return end

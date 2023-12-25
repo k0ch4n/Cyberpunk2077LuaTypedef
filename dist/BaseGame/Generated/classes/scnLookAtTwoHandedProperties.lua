@@ -7,6 +7,6 @@
 ---@field public mode Int32
 scnLookAtTwoHandedProperties = {}
 
----@param fields? table
+---@param fields? scnLookAtTwoHandedProperties
 ---@return scnLookAtTwoHandedProperties
 function scnLookAtTwoHandedProperties.new(fields) return end

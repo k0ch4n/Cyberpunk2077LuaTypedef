@@ -10,6 +10,6 @@
 ---@field public type gameSimpleMessageType
 questWarningMessage_NodeType = {}
 
----@param fields? table
+---@param fields? questWarningMessage_NodeType
 ---@return questWarningMessage_NodeType
 function questWarningMessage_NodeType.new(fields) return end

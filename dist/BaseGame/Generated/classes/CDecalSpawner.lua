@@ -34,6 +34,6 @@
 ---@field public autoHideDistance Float
 CDecalSpawner = {}
 
----@param fields? table
+---@param fields? CDecalSpawner
 ---@return CDecalSpawner
 function CDecalSpawner.new(fields) return end

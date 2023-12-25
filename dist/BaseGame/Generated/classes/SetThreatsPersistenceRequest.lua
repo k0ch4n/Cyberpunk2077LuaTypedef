@@ -6,6 +6,6 @@
 ---@field public isPersistent Bool
 SetThreatsPersistenceRequest = {}
 
----@param fields? table
+---@param fields? SetThreatsPersistenceRequest
 ---@return SetThreatsPersistenceRequest
 function SetThreatsPersistenceRequest.new(fields) return end

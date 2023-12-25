@@ -7,7 +7,7 @@
 ---@field protected data Int32
 ToggleController = {}
 
----@param fields? table
+---@param fields? ToggleController
 ---@return ToggleController
 function ToggleController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public Fallback animPoseLink
 animAnimNode_SkAnimDecorator = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkAnimDecorator
 ---@return animAnimNode_SkAnimDecorator
 function animAnimNode_SkAnimDecorator.new(fields) return end

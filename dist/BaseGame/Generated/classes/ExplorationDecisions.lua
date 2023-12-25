@@ -4,7 +4,7 @@
 ---@class ExplorationDecisions: HighLevelTransition
 ExplorationDecisions = {}
 
----@param fields? table
+---@param fields? ExplorationDecisions
 ---@return ExplorationDecisions
 function ExplorationDecisions.new(fields) return end
 

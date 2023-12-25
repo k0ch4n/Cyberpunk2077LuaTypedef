@@ -25,7 +25,7 @@
 ---@field public coreStatusAnimProxy inkanimProxy
 InnerBunkerCoreScreenGameController = {}
 
----@param fields? table
+---@param fields? InnerBunkerCoreScreenGameController
 ---@return InnerBunkerCoreScreenGameController
 function InnerBunkerCoreScreenGameController.new(fields) return end
 

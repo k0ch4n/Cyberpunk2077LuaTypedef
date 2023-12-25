@@ -8,7 +8,7 @@
 ---@field protected icon inkImageWidgetReference
 TransmogMessageDescTooltip = {}
 
----@param fields? table
+---@param fields? TransmogMessageDescTooltip
 ---@return TransmogMessageDescTooltip
 function TransmogMessageDescTooltip.new(fields) return end
 

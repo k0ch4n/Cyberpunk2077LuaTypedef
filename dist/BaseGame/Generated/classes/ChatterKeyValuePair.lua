@@ -7,6 +7,6 @@
 ---@field public Owner gameObject
 ChatterKeyValuePair = {}
 
----@param fields? table
+---@param fields? ChatterKeyValuePair
 ---@return ChatterKeyValuePair
 function ChatterKeyValuePair.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private full inkWidgetReference
 QuickhackBarController = {}
 
----@param fields? table
+---@param fields? QuickhackBarController
 ---@return QuickhackBarController
 function QuickhackBarController.new(fields) return end
 

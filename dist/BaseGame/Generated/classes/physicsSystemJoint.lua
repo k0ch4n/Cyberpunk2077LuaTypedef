@@ -24,6 +24,6 @@
 ---@field public breakingTorque Float
 physicsSystemJoint = {}
 
----@param fields? table
+---@param fields? physicsSystemJoint
 ---@return physicsSystemJoint
 function physicsSystemJoint.new(fields) return end

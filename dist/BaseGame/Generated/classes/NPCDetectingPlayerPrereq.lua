@@ -5,7 +5,7 @@
 ---@field public threshold Float
 NPCDetectingPlayerPrereq = {}
 
----@param fields? table
+---@param fields? NPCDetectingPlayerPrereq
 ---@return NPCDetectingPlayerPrereq
 function NPCDetectingPlayerPrereq.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected destroyed Bool
 BaseDestructibleControllerPS = {}
 
----@param fields? table
+---@param fields? BaseDestructibleControllerPS
 ---@return BaseDestructibleControllerPS
 function BaseDestructibleControllerPS.new(fields) return end
 

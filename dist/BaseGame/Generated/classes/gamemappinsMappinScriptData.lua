@@ -5,6 +5,6 @@
 ---@field public statPoolType gamedataStatPoolType
 gamemappinsMappinScriptData = {}
 
----@param fields? table
+---@param fields? gamemappinsMappinScriptData
 ---@return gamemappinsMappinScriptData
 function gamemappinsMappinScriptData.new(fields) return end

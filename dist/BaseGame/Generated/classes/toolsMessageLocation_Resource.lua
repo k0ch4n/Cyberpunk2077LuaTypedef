@@ -5,6 +5,6 @@
 ---@field public path MessageResourcePath
 toolsMessageLocation_Resource = {}
 
----@param fields? table
+---@param fields? toolsMessageLocation_Resource
 ---@return toolsMessageLocation_Resource
 function toolsMessageLocation_Resource.new(fields) return end

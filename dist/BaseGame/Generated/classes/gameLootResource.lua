@@ -5,6 +5,6 @@
 ---@field public data gameLootResourceData
 gameLootResource = {}
 
----@param fields? table
+---@param fields? gameLootResource
 ---@return gameLootResource
 function gameLootResource.new(fields) return end

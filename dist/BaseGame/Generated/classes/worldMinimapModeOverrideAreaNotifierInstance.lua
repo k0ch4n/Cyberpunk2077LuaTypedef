@@ -4,6 +4,6 @@
 ---@class worldMinimapModeOverrideAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldMinimapModeOverrideAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldMinimapModeOverrideAreaNotifierInstance
 ---@return worldMinimapModeOverrideAreaNotifierInstance
 function worldMinimapModeOverrideAreaNotifierInstance.new(fields) return end

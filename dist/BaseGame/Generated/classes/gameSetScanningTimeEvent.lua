@@ -5,6 +5,6 @@
 ---@field public time Float
 gameSetScanningTimeEvent = {}
 
----@param fields? table
+---@param fields? gameSetScanningTimeEvent
 ---@return gameSetScanningTimeEvent
 function gameSetScanningTimeEvent.new(fields) return end

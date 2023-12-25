@@ -8,6 +8,6 @@
 ---@field public isApuc Bool
 locVoiceTag = {}
 
----@param fields? table
+---@param fields? locVoiceTag
 ---@return locVoiceTag
 function locVoiceTag.new(fields) return end

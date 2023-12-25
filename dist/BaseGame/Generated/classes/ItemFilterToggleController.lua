@@ -6,7 +6,7 @@
 ---@field private useCategoryFilter Bool
 ItemFilterToggleController = {}
 
----@param fields? table
+---@param fields? ItemFilterToggleController
 ---@return ItemFilterToggleController
 function ItemFilterToggleController.new(fields) return end
 

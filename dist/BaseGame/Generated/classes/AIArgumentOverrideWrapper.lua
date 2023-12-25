@@ -7,6 +7,6 @@
 ---@field public definition AIArgumentDefinition
 AIArgumentOverrideWrapper = {}
 
----@param fields? table
+---@param fields? AIArgumentOverrideWrapper
 ---@return AIArgumentOverrideWrapper
 function AIArgumentOverrideWrapper.new(fields) return end

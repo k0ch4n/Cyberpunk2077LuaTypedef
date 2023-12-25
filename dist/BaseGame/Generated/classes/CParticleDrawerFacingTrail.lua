@@ -4,6 +4,6 @@
 ---@class CParticleDrawerFacingTrail: CParticleDrawerTrail
 CParticleDrawerFacingTrail = {}
 
----@param fields? table
+---@param fields? CParticleDrawerFacingTrail
 ---@return CParticleDrawerFacingTrail
 function CParticleDrawerFacingTrail.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class UnregisterPoliceCaller: gameScriptableSystemRequest
 UnregisterPoliceCaller = {}
 
----@param fields? table
+---@param fields? UnregisterPoliceCaller
 ---@return UnregisterPoliceCaller
 function UnregisterPoliceCaller.new(fields) return end

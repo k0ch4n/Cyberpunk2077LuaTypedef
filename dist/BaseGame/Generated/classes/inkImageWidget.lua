@@ -18,7 +18,7 @@
 ---@field public tileVAlign inkEVerticalAlign
 inkImageWidget = {}
 
----@param fields? table
+---@param fields? inkImageWidget
 ---@return inkImageWidget
 function inkImageWidget.new(fields) return end
 

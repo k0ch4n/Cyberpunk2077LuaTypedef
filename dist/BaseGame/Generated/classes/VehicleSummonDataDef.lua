@@ -8,7 +8,7 @@
 ---@field public SummonedVehicleEntityID gamebbScriptID_EntityID
 VehicleSummonDataDef = {}
 
----@param fields? table
+---@param fields? VehicleSummonDataDef
 ---@return VehicleSummonDataDef
 function VehicleSummonDataDef.new(fields) return end
 

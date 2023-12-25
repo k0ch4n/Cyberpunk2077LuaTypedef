@@ -4,6 +4,6 @@
 ---@class inkRectangleWidget: inkBaseShapeWidget
 inkRectangleWidget = {}
 
----@param fields? table
+---@param fields? inkRectangleWidget
 ---@return inkRectangleWidget
 function inkRectangleWidget.new(fields) return end

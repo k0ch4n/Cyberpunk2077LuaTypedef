@@ -5,7 +5,7 @@
 ---@field public textWidget inkWidgetReference
 PhotoModeCameraLocation = {}
 
----@param fields? table
+---@param fields? PhotoModeCameraLocation
 ---@return PhotoModeCameraLocation
 function PhotoModeCameraLocation.new(fields) return end
 

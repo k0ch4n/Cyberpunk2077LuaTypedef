@@ -4,6 +4,6 @@
 ---@class gameuiTooltipAttachmentSlot: inkWidgetLogicController
 gameuiTooltipAttachmentSlot = {}
 
----@param fields? table
+---@param fields? gameuiTooltipAttachmentSlot
 ---@return gameuiTooltipAttachmentSlot
 function gameuiTooltipAttachmentSlot.new(fields) return end

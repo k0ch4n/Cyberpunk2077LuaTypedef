@@ -4,6 +4,6 @@
 ---@class scnIsAliveListener: gameIStatPoolsListener
 scnIsAliveListener = {}
 
----@param fields? table
+---@param fields? scnIsAliveListener
 ---@return scnIsAliveListener
 function scnIsAliveListener.new(fields) return end

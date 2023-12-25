@@ -7,6 +7,6 @@
 ---@field public isActive Bool
 gameVendorData = {}
 
----@param fields? table
+---@param fields? gameVendorData
 ---@return gameVendorData
 function gameVendorData.new(fields) return end

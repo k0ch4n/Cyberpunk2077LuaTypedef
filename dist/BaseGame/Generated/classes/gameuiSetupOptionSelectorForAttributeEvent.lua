@@ -8,6 +8,6 @@
 ---@field public doApply Bool
 gameuiSetupOptionSelectorForAttributeEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetupOptionSelectorForAttributeEvent
 ---@return gameuiSetupOptionSelectorForAttributeEvent
 function gameuiSetupOptionSelectorForAttributeEvent.new(fields) return end

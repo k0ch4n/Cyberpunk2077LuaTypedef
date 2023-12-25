@@ -6,7 +6,7 @@
 ---@field public visibleObjectDescription CName
 ToggleVisibleObjectComponent = {}
 
----@param fields? table
+---@param fields? ToggleVisibleObjectComponent
 ---@return ToggleVisibleObjectComponent
 function ToggleVisibleObjectComponent.new(fields) return end
 

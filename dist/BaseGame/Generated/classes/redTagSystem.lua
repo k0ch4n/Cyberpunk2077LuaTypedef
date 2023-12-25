@@ -4,6 +4,6 @@
 ---@class redTagSystem
 redTagSystem = {}
 
----@param fields? table
+---@param fields? redTagSystem
 ---@return redTagSystem
 function redTagSystem.new(fields) return end

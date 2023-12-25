@@ -5,7 +5,7 @@
 ---@field private trafficLightStatus worldTrafficLightColor
 TrafficIntersectionManagerControllerPS = {}
 
----@param fields? table
+---@param fields? TrafficIntersectionManagerControllerPS
 ---@return TrafficIntersectionManagerControllerPS
 function TrafficIntersectionManagerControllerPS.new(fields) return end
 

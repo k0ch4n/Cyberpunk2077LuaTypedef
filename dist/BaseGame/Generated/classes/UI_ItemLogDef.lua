@@ -5,7 +5,7 @@
 ---@field public ItemLogItem gamebbScriptID_Variant
 UI_ItemLogDef = {}
 
----@param fields? table
+---@param fields? UI_ItemLogDef
 ---@return UI_ItemLogDef
 function UI_ItemLogDef.new(fields) return end
 

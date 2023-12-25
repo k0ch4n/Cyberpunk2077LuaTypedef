@@ -8,7 +8,7 @@
 ---@field public translatedTextWidget inkTextWidgetReference
 inkTextMotherTongueController = {}
 
----@param fields? table
+---@param fields? inkTextMotherTongueController
 ---@return inkTextMotherTongueController
 function inkTextMotherTongueController.new(fields) return end
 

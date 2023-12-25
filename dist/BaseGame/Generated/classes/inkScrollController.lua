@@ -19,7 +19,7 @@
 ---@field public contentSize Vector2
 inkScrollController = {}
 
----@param fields? table
+---@param fields? inkScrollController
 ---@return inkScrollController
 function inkScrollController.new(fields) return end
 

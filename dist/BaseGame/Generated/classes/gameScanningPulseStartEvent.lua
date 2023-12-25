@@ -5,6 +5,6 @@
 ---@field public targetsAffected Int32
 gameScanningPulseStartEvent = {}
 
----@param fields? table
+---@param fields? gameScanningPulseStartEvent
 ---@return gameScanningPulseStartEvent
 function gameScanningPulseStartEvent.new(fields) return end

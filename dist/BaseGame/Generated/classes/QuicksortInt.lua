@@ -4,7 +4,7 @@
 ---@class QuicksortInt: IScriptable
 QuicksortInt = {}
 
----@param fields? table
+---@param fields? QuicksortInt
 ---@return QuicksortInt
 function QuicksortInt.new(fields) return end
 

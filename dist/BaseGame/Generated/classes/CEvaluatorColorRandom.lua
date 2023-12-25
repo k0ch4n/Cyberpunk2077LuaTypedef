@@ -7,6 +7,6 @@
 ---@field public randomPerChannel Bool
 CEvaluatorColorRandom = {}
 
----@param fields? table
+---@param fields? CEvaluatorColorRandom
 ---@return CEvaluatorColorRandom
 function CEvaluatorColorRandom.new(fields) return end

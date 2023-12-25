@@ -9,6 +9,6 @@
 ---@field public Scale Float
 worldFoliageRawItem = {}
 
----@param fields? table
+---@param fields? worldFoliageRawItem
 ---@return worldFoliageRawItem
 function worldFoliageRawItem.new(fields) return end

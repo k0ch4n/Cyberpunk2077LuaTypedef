@@ -6,7 +6,7 @@
 ---@field public qualityLessThan gamedataQuality
 RarityOfEquippedConsumableItemPrereq = {}
 
----@param fields? table
+---@param fields? RarityOfEquippedConsumableItemPrereq
 ---@return RarityOfEquippedConsumableItemPrereq
 function RarityOfEquippedConsumableItemPrereq.new(fields) return end
 

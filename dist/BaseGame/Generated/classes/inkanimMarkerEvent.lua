@@ -5,6 +5,6 @@
 ---@field public markerName CName
 inkanimMarkerEvent = {}
 
----@param fields? table
+---@param fields? inkanimMarkerEvent
 ---@return inkanimMarkerEvent
 function inkanimMarkerEvent.new(fields) return end

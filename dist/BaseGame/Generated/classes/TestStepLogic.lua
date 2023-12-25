@@ -7,7 +7,7 @@
 ---@field public paramsData ParamData[]
 TestStepLogic = {}
 
----@param fields? table
+---@param fields? TestStepLogic
 ---@return TestStepLogic
 function TestStepLogic.new(fields) return end
 

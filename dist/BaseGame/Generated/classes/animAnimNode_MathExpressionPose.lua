@@ -6,6 +6,6 @@
 ---@field public outputFloatTrack animNamedTrackIndex
 animAnimNode_MathExpressionPose = {}
 
----@param fields? table
+---@param fields? animAnimNode_MathExpressionPose
 ---@return animAnimNode_MathExpressionPose
 function animAnimNode_MathExpressionPose.new(fields) return end

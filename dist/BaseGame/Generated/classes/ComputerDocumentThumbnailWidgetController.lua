@@ -8,7 +8,7 @@
 ---@field protected questInfo gamedeviceQuestInfo
 ComputerDocumentThumbnailWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerDocumentThumbnailWidgetController
 ---@return ComputerDocumentThumbnailWidgetController
 function ComputerDocumentThumbnailWidgetController.new(fields) return end
 

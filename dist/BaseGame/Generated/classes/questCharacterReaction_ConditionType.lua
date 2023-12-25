@@ -7,6 +7,6 @@
 ---@field public reactionBehaviorID TweakDBID
 questCharacterReaction_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterReaction_ConditionType
 ---@return questCharacterReaction_ConditionType
 function questCharacterReaction_ConditionType.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field protected stationLogoWidget inkImageWidgetReference
 RadioInkGameController = {}
 
----@param fields? table
+---@param fields? RadioInkGameController
 ---@return RadioInkGameController
 function RadioInkGameController.new(fields) return end
 

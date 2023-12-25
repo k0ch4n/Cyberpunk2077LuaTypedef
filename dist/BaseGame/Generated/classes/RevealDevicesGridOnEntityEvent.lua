@@ -5,6 +5,6 @@
 ---@field public shouldDraw Bool
 RevealDevicesGridOnEntityEvent = {}
 
----@param fields? table
+---@param fields? RevealDevicesGridOnEntityEvent
 ---@return RevealDevicesGridOnEntityEvent
 function RevealDevicesGridOnEntityEvent.new(fields) return end

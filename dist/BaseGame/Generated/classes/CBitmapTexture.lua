@@ -12,6 +12,6 @@
 ---@field public renderTextureResource rendRenderTextureResource
 CBitmapTexture = {}
 
----@param fields? table
+---@param fields? CBitmapTexture
 ---@return CBitmapTexture
 function CBitmapTexture.new(fields) return end

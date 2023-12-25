@@ -4,6 +4,6 @@
 ---@class entHistoryPositionProvider: entIPositionProvider
 entHistoryPositionProvider = {}
 
----@param fields? table
+---@param fields? entHistoryPositionProvider
 ---@return entHistoryPositionProvider
 function entHistoryPositionProvider.new(fields) return end

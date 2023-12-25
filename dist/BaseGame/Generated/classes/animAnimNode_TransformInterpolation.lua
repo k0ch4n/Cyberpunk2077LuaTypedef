@@ -8,6 +8,6 @@
 ---@field public weight animFloatLink
 animAnimNode_TransformInterpolation = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformInterpolation
 ---@return animAnimNode_TransformInterpolation
 function animAnimNode_TransformInterpolation.new(fields) return end

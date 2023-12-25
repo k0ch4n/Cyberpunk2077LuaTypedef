@@ -6,6 +6,6 @@
 ---@field public id TweakDBID
 SHitStatusEffect = {}
 
----@param fields? table
+---@param fields? SHitStatusEffect
 ---@return SHitStatusEffect
 function SHitStatusEffect.new(fields) return end

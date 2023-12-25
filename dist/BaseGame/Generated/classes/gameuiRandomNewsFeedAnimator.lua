@@ -6,6 +6,6 @@
 ---@field public animDuration Float
 gameuiRandomNewsFeedAnimator = {}
 
----@param fields? table
+---@param fields? gameuiRandomNewsFeedAnimator
 ---@return gameuiRandomNewsFeedAnimator
 function gameuiRandomNewsFeedAnimator.new(fields) return end

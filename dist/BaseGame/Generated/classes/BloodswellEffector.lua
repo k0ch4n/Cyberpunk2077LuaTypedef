@@ -9,7 +9,7 @@
 ---@field private isImmortal Bool
 BloodswellEffector = {}
 
----@param fields? table
+---@param fields? BloodswellEffector
 ---@return BloodswellEffector
 function BloodswellEffector.new(fields) return end
 

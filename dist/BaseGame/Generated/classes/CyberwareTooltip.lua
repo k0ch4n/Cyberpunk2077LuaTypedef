@@ -7,7 +7,7 @@
 ---@field private data CyberwareTooltipData
 CyberwareTooltip = {}
 
----@param fields? table
+---@param fields? CyberwareTooltip
 ---@return CyberwareTooltip
 function CyberwareTooltip.new(fields) return end
 

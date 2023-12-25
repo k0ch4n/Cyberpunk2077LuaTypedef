@@ -6,7 +6,7 @@
 ---@field public bodyIDs entEntityID[]
 CameraDeadBodyInternalData = {}
 
----@param fields? table
+---@param fields? CameraDeadBodyInternalData
 ---@return CameraDeadBodyInternalData
 function CameraDeadBodyInternalData.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public HoldStop inkEmptyCallback
 gameuiHoldIndicatorGameController = {}
 
----@param fields? table
+---@param fields? gameuiHoldIndicatorGameController
 ---@return gameuiHoldIndicatorGameController
 function gameuiHoldIndicatorGameController.new(fields) return end
 

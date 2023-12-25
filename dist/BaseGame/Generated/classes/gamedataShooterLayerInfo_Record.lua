@@ -4,7 +4,7 @@
 ---@class gamedataShooterLayerInfo_Record: gamedataTweakDBRecord
 gamedataShooterLayerInfo_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterLayerInfo_Record
 ---@return gamedataShooterLayerInfo_Record
 function gamedataShooterLayerInfo_Record.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public canAimDownSight gameMuppetAbility
 gameMuppetAbilities = {}
 
----@param fields? table
+---@param fields? gameMuppetAbilities
 ---@return gameMuppetAbilities
 function gameMuppetAbilities.new(fields) return end

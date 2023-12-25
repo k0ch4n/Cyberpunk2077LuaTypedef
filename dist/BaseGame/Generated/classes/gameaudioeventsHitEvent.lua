@@ -11,6 +11,6 @@
 ---@field public isTargetPuppetHead Bool
 gameaudioeventsHitEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsHitEvent
 ---@return gameaudioeventsHitEvent
 function gameaudioeventsHitEvent.new(fields) return end

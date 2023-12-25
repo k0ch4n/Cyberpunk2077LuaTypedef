@@ -4,6 +4,6 @@
 ---@class DelayedSetItemModeShown: redEvent
 DelayedSetItemModeShown = {}
 
----@param fields? table
+---@param fields? DelayedSetItemModeShown
 ---@return DelayedSetItemModeShown
 function DelayedSetItemModeShown.new(fields) return end

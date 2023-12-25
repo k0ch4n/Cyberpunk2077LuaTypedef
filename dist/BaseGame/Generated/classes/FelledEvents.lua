@@ -5,7 +5,7 @@
 ---@field private animFeatureFelled AnimFeature_Felled
 FelledEvents = {}
 
----@param fields? table
+---@param fields? FelledEvents
 ---@return FelledEvents
 function FelledEvents.new(fields) return end
 

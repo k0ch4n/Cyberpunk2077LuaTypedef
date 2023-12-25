@@ -9,7 +9,7 @@
 ---@field public useInternalMask Bool
 inkScrollAreaWidget = {}
 
----@param fields? table
+---@param fields? inkScrollAreaWidget
 ---@return inkScrollAreaWidget
 function inkScrollAreaWidget.new(fields) return end
 

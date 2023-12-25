@@ -5,6 +5,6 @@
 ---@field public counterWidget inkTextWidgetReference
 gameuiFPSCounterGameController = {}
 
----@param fields? table
+---@param fields? gameuiFPSCounterGameController
 ---@return gameuiFPSCounterGameController
 function gameuiFPSCounterGameController.new(fields) return end

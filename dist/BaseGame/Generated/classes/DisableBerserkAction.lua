@@ -4,7 +4,7 @@
 ---@class DisableBerserkAction: UseAction
 DisableBerserkAction = {}
 
----@param fields? table
+---@param fields? DisableBerserkAction
 ---@return DisableBerserkAction
 function DisableBerserkAction.new(fields) return end
 

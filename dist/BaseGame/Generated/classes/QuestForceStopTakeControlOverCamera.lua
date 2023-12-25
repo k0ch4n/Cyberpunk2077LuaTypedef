@@ -4,7 +4,7 @@
 ---@class QuestForceStopTakeControlOverCamera: ActionBool
 QuestForceStopTakeControlOverCamera = {}
 
----@param fields? table
+---@param fields? QuestForceStopTakeControlOverCamera
 ---@return QuestForceStopTakeControlOverCamera
 function QuestForceStopTakeControlOverCamera.new(fields) return end
 

@@ -14,7 +14,7 @@
 ---@field public textStatuses inkTextWidgetReference[]
 SystemStatusLogicController = {}
 
----@param fields? table
+---@param fields? SystemStatusLogicController
 ---@return SystemStatusLogicController
 function SystemStatusLogicController.new(fields) return end
 

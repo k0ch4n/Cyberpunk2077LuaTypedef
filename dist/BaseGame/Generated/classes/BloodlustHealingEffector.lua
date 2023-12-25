@@ -9,7 +9,7 @@
 ---@field public lastActivationTime Float
 BloodlustHealingEffector = {}
 
----@param fields? table
+---@param fields? BloodlustHealingEffector
 ---@return BloodlustHealingEffector
 function BloodlustHealingEffector.new(fields) return end
 

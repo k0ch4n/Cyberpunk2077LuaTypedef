@@ -4,7 +4,7 @@
 ---@class SpiderbotDistractionPerformed: ActionBool
 SpiderbotDistractionPerformed = {}
 
----@param fields? table
+---@param fields? SpiderbotDistractionPerformed
 ---@return SpiderbotDistractionPerformed
 function SpiderbotDistractionPerformed.new(fields) return end
 

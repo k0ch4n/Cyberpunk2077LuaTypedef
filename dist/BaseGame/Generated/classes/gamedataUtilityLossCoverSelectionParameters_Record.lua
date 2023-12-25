@@ -4,7 +4,7 @@
 ---@class gamedataUtilityLossCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataUtilityLossCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataUtilityLossCoverSelectionParameters_Record
 ---@return gamedataUtilityLossCoverSelectionParameters_Record
 function gamedataUtilityLossCoverSelectionParameters_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public argumentsOverrides AIArgumentOverrideWrapper[]
 AIbehaviorParameterizedBehavior = {}
 
----@param fields? table
+---@param fields? AIbehaviorParameterizedBehavior
 ---@return AIbehaviorParameterizedBehavior
 function AIbehaviorParameterizedBehavior.new(fields) return end

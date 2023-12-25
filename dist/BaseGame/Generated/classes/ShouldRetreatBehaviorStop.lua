@@ -5,7 +5,7 @@
 ---@field public agentRegistry PoliceAgentRegistry
 ShouldRetreatBehaviorStop = {}
 
----@param fields? table
+---@param fields? ShouldRetreatBehaviorStop
 ---@return ShouldRetreatBehaviorStop
 function ShouldRetreatBehaviorStop.new(fields) return end
 

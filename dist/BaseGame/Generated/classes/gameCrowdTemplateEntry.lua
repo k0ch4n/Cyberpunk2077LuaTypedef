@@ -8,6 +8,6 @@
 ---@field public type gameCrowdEntryType
 gameCrowdTemplateEntry = {}
 
----@param fields? table
+---@param fields? gameCrowdTemplateEntry
 ---@return gameCrowdTemplateEntry
 function gameCrowdTemplateEntry.new(fields) return end

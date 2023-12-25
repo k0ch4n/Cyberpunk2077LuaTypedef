@@ -4,6 +4,6 @@
 ---@class CRenderTerrainCellCollector: ISceneStorageCustomData
 CRenderTerrainCellCollector = {}
 
----@param fields? table
+---@param fields? CRenderTerrainCellCollector
 ---@return CRenderTerrainCellCollector
 function CRenderTerrainCellCollector.new(fields) return end

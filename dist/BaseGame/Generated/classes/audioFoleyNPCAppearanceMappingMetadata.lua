@@ -8,6 +8,6 @@
 ---@field public NPCsPerAdditive audioVisualTagToNPCMetadata[]
 audioFoleyNPCAppearanceMappingMetadata = {}
 
----@param fields? table
+---@param fields? audioFoleyNPCAppearanceMappingMetadata
 ---@return audioFoleyNPCAppearanceMappingMetadata
 function audioFoleyNPCAppearanceMappingMetadata.new(fields) return end

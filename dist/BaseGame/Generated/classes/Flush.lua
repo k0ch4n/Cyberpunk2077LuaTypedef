@@ -4,7 +4,7 @@
 ---@class Flush: ActionBool
 Flush = {}
 
----@param fields? table
+---@param fields? Flush
 ---@return Flush
 function Flush.new(fields) return end
 

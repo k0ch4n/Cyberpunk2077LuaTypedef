@@ -4,7 +4,7 @@
 ---@class DoorController: ScriptableDeviceComponent
 DoorController = {}
 
----@param fields? table
+---@param fields? DoorController
 ---@return DoorController
 function DoorController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected cementEffectCooldown Float
 OdaCementBagControllerPS = {}
 
----@param fields? table
+---@param fields? OdaCementBagControllerPS
 ---@return OdaCementBagControllerPS
 function OdaCementBagControllerPS.new(fields) return end
 

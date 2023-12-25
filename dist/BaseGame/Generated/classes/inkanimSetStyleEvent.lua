@@ -5,6 +5,6 @@
 ---@field public style inkStyleResource
 inkanimSetStyleEvent = {}
 
----@param fields? table
+---@param fields? inkanimSetStyleEvent
 ---@return inkanimSetStyleEvent
 function inkanimSetStyleEvent.new(fields) return end

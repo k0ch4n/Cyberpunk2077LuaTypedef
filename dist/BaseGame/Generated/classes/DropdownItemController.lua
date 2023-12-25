@@ -4,7 +4,7 @@
 ---@class DropdownItemController: BaseButtonView
 DropdownItemController = {}
 
----@param fields? table
+---@param fields? DropdownItemController
 ---@return DropdownItemController
 function DropdownItemController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public cloudSpawnTime Float
 gameuiarcadeRoachRaceCloudSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceCloudSpawnerController
 ---@return gameuiarcadeRoachRaceCloudSpawnerController
 function gameuiarcadeRoachRaceCloudSpawnerController.new(fields) return end

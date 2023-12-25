@@ -8,6 +8,6 @@
 ---@field public slotID TweakDBID
 ItemChooserItemChanged = {}
 
----@param fields? table
+---@param fields? ItemChooserItemChanged
 ---@return ItemChooserItemChanged
 function ItemChooserItemChanged.new(fields) return end

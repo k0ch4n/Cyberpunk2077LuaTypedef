@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionQuickMelee: gameIMuppetInputAction
 gameMuppetInputActionQuickMelee = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionQuickMelee
 ---@return gameMuppetInputActionQuickMelee
 function gameMuppetInputActionQuickMelee.new(fields) return end

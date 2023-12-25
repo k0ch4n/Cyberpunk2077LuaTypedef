@@ -8,6 +8,6 @@
 ---@field public SlotType gameInventoryItemAttachmentType
 gameInventoryItemAttachments = {}
 
----@param fields? table
+---@param fields? gameInventoryItemAttachments
 ---@return gameInventoryItemAttachments
 function gameInventoryItemAttachments.new(fields) return end

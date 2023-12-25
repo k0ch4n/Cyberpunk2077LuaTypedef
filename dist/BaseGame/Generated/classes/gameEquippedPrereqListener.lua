@@ -4,6 +4,6 @@
 ---@class gameEquippedPrereqListener: gameIAttachmentSlotsListener
 gameEquippedPrereqListener = {}
 
----@param fields? table
+---@param fields? gameEquippedPrereqListener
 ---@return gameEquippedPrereqListener
 function gameEquippedPrereqListener.new(fields) return end

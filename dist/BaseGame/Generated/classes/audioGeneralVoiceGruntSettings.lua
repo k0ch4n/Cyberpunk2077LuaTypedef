@@ -30,6 +30,6 @@
 ---@field public gruntVariations audioVoiceGruntVariations
 audioGeneralVoiceGruntSettings = {}
 
----@param fields? table
+---@param fields? audioGeneralVoiceGruntSettings
 ---@return audioGeneralVoiceGruntSettings
 function audioGeneralVoiceGruntSettings.new(fields) return end

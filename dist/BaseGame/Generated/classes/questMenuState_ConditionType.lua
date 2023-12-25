@@ -5,6 +5,6 @@
 ---@field public state questEUIMenuState
 questMenuState_ConditionType = {}
 
----@param fields? table
+---@param fields? questMenuState_ConditionType
 ---@return questMenuState_ConditionType
 function questMenuState_ConditionType.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public obstacles gameuiRoachRaceObstacle[]
 gameuiRoachRaceChunk = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceChunk
 ---@return gameuiRoachRaceChunk
 function gameuiRoachRaceChunk.new(fields) return end

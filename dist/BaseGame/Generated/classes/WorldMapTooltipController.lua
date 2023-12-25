@@ -24,7 +24,7 @@
 ---@field private gigBarTotalText inkTextWidgetReference
 WorldMapTooltipController = {}
 
----@param fields? table
+---@param fields? WorldMapTooltipController
 ---@return WorldMapTooltipController
 function WorldMapTooltipController.new(fields) return end
 

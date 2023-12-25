@@ -6,6 +6,6 @@
 ---@field public ignoreZAxis Bool
 cpConveyorObject = {}
 
----@param fields? table
+---@param fields? cpConveyorObject
 ---@return cpConveyorObject
 function cpConveyorObject.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public initialObjectsCount Uint32
 gameuiarcadeArcadeSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeSpawnerController
 ---@return gameuiarcadeArcadeSpawnerController
 function gameuiarcadeArcadeSpawnerController.new(fields) return end

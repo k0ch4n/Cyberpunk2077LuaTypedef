@@ -6,6 +6,6 @@
 ---@field public targetWaypoint scnMarker
 scnPlacementEvent = {}
 
----@param fields? table
+---@param fields? scnPlacementEvent
 ---@return scnPlacementEvent
 function scnPlacementEvent.new(fields) return end

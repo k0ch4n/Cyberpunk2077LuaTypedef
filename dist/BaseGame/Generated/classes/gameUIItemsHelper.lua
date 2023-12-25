@@ -4,7 +4,7 @@
 ---@class gameUIItemsHelper: IScriptable
 gameUIItemsHelper = {}
 
----@param fields? table
+---@param fields? gameUIItemsHelper
 ---@return gameUIItemsHelper
 function gameUIItemsHelper.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gamePlayerReleaseControlAsChild: redEvent
 gamePlayerReleaseControlAsChild = {}
 
----@param fields? table
+---@param fields? gamePlayerReleaseControlAsChild
 ---@return gamePlayerReleaseControlAsChild
 function gamePlayerReleaseControlAsChild.new(fields) return end

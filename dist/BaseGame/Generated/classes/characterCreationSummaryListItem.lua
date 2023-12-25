@@ -7,7 +7,7 @@
 ---@field public data CharacterCreationSummaryListItemData
 characterCreationSummaryListItem = {}
 
----@param fields? table
+---@param fields? characterCreationSummaryListItem
 ---@return characterCreationSummaryListItem
 function characterCreationSummaryListItem.new(fields) return end
 

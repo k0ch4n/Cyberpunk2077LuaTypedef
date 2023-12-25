@@ -9,6 +9,6 @@
 ---@field public vaultValid Bool
 gamePlayerClimbInfo = {}
 
----@param fields? table
+---@param fields? gamePlayerClimbInfo
 ---@return gamePlayerClimbInfo
 function gamePlayerClimbInfo.new(fields) return end

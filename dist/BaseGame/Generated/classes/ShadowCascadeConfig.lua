@@ -8,6 +8,6 @@
 ---@field public biasOffset Float
 ShadowCascadeConfig = {}
 
----@param fields? table
+---@param fields? ShadowCascadeConfig
 ---@return ShadowCascadeConfig
 function ShadowCascadeConfig.new(fields) return end

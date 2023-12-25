@@ -5,6 +5,6 @@
 ---@field public entry gameJournalCodexEntry
 OnOpenCodexAtEntryEvent = {}
 
----@param fields? table
+---@param fields? OnOpenCodexAtEntryEvent
 ---@return OnOpenCodexAtEntryEvent
 function OnOpenCodexAtEntryEvent.new(fields) return end

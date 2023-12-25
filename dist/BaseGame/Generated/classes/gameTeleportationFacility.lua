@@ -4,7 +4,7 @@
 ---@class gameTeleportationFacility: gameITeleportationFacility
 gameTeleportationFacility = {}
 
----@param fields? table
+---@param fields? gameTeleportationFacility
 ---@return gameTeleportationFacility
 function gameTeleportationFacility.new(fields) return end
 

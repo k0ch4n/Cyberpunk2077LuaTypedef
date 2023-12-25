@@ -6,7 +6,7 @@
 ---@field public comparator ECompareOp
 CheckElapsedTimeFromArgumentFloat = {}
 
----@param fields? table
+---@param fields? CheckElapsedTimeFromArgumentFloat
 ---@return CheckElapsedTimeFromArgumentFloat
 function CheckElapsedTimeFromArgumentFloat.new(fields) return end
 

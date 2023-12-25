@@ -4,7 +4,7 @@
 ---@class EquipItemLeftDecisions: DefaultTransition
 EquipItemLeftDecisions = {}
 
----@param fields? table
+---@param fields? EquipItemLeftDecisions
 ---@return EquipItemLeftDecisions
 function EquipItemLeftDecisions.new(fields) return end
 

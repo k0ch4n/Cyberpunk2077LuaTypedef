@@ -8,6 +8,6 @@
 ---@field public hash Uint64
 scnSceneInstanceId = {}
 
----@param fields? table
+---@param fields? scnSceneInstanceId
 ---@return scnSceneInstanceId
 function scnSceneInstanceId.new(fields) return end

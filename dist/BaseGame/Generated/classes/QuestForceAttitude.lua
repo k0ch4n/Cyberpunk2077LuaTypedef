@@ -4,7 +4,7 @@
 ---@class QuestForceAttitude: ActionName
 QuestForceAttitude = {}
 
----@param fields? table
+---@param fields? QuestForceAttitude
 ---@return QuestForceAttitude
 function QuestForceAttitude.new(fields) return end
 

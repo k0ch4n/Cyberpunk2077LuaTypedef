@@ -7,6 +7,6 @@
 ---@field public subtreesToChange animRigPartBoneTree[]
 animRigPartBoneTree = {}
 
----@param fields? table
+---@param fields? animRigPartBoneTree
 ---@return animRigPartBoneTree
 function animRigPartBoneTree.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public isOpened Bool
 QuickHackPanelStateEvent = {}
 
----@param fields? table
+---@param fields? QuickHackPanelStateEvent
 ---@return QuickHackPanelStateEvent
 function QuickHackPanelStateEvent.new(fields) return end

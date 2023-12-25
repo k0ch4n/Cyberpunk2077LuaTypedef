@@ -7,6 +7,6 @@
 ---@field public isTargetPlayer Bool
 questCharacterAttack_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterAttack_ConditionType
 ---@return questCharacterAttack_ConditionType
 function questCharacterAttack_ConditionType.new(fields) return end

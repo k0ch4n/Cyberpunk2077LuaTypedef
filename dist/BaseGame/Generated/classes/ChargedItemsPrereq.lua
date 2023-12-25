@@ -6,7 +6,7 @@
 ---@field public typeOfItem EChargesItem
 ChargedItemsPrereq = {}
 
----@param fields? table
+---@param fields? ChargedItemsPrereq
 ---@return ChargedItemsPrereq
 function ChargedItemsPrereq.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataFastTravelScreenData_Record: gamedataTweakDBRecord
 gamedataFastTravelScreenData_Record = {}
 
----@param fields? table
+---@param fields? gamedataFastTravelScreenData_Record
 ---@return gamedataFastTravelScreenData_Record
 function gamedataFastTravelScreenData_Record.new(fields) return end
 

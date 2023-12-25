@@ -5,6 +5,6 @@
 ---@field public node animAnimNode_FloatValue
 animFloatLink = {}
 
----@param fields? table
+---@param fields? animFloatLink
 ---@return animFloatLink
 function animFloatLink.new(fields) return end

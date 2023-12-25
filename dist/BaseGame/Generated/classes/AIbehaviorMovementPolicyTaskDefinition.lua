@@ -8,6 +8,6 @@
 ---@field public policies AIbehaviorMovementPolicyTaskItemDefinition[]
 AIbehaviorMovementPolicyTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMovementPolicyTaskDefinition
 ---@return AIbehaviorMovementPolicyTaskDefinition
 function AIbehaviorMovementPolicyTaskDefinition.new(fields) return end

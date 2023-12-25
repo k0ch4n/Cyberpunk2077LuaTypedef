@@ -4,7 +4,7 @@
 ---@class CanAIReactToStimTypeFilter: gameEffectObjectSingleFilter_Scripted
 CanAIReactToStimTypeFilter = {}
 
----@param fields? table
+---@param fields? CanAIReactToStimTypeFilter
 ---@return CanAIReactToStimTypeFilter
 function CanAIReactToStimTypeFilter.new(fields) return end
 

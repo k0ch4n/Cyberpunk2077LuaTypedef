@@ -6,6 +6,6 @@
 ---@field public defaultValue Vector3
 AIArgumentVectorValue = {}
 
----@param fields? table
+---@param fields? AIArgumentVectorValue
 ---@return AIArgumentVectorValue
 function AIArgumentVectorValue.new(fields) return end

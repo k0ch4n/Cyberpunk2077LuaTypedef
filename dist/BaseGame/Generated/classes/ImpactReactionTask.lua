@@ -5,7 +5,7 @@
 ---@field public tweakDBPackage TweakDBID
 ImpactReactionTask = {}
 
----@param fields? table
+---@param fields? ImpactReactionTask
 ---@return ImpactReactionTask
 function ImpactReactionTask.new(fields) return end
 

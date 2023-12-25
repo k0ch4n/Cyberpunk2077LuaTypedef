@@ -6,6 +6,6 @@
 ---@field public defaultValue gameObject
 AIArgumentObjectValue = {}
 
----@param fields? table
+---@param fields? AIArgumentObjectValue
 ---@return AIArgumentObjectValue
 function AIArgumentObjectValue.new(fields) return end

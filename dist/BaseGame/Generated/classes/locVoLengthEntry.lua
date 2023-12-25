@@ -7,6 +7,6 @@
 ---@field public maleLength Float
 locVoLengthEntry = {}
 
----@param fields? table
+---@param fields? locVoLengthEntry
 ---@return locVoLengthEntry
 function locVoLengthEntry.new(fields) return end

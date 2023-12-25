@@ -4,6 +4,6 @@
 ---@class BackActionCallback: redEvent
 BackActionCallback = {}
 
----@param fields? table
+---@param fields? BackActionCallback
 ---@return BackActionCallback
 function BackActionCallback.new(fields) return end

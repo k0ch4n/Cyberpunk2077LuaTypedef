@@ -4,7 +4,7 @@
 ---@class gamedataAimAssistAimSnap_Record: gamedataTweakDBRecord
 gamedataAimAssistAimSnap_Record = {}
 
----@param fields? table
+---@param fields? gamedataAimAssistAimSnap_Record
 ---@return gamedataAimAssistAimSnap_Record
 function gamedataAimAssistAimSnap_Record.new(fields) return end
 

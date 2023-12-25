@@ -9,6 +9,6 @@
 ---@field public actionName inkActionName
 ItemDisplayHoldEvent = {}
 
----@param fields? table
+---@param fields? ItemDisplayHoldEvent
 ---@return ItemDisplayHoldEvent
 function ItemDisplayHoldEvent.new(fields) return end

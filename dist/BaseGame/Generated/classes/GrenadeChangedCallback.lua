@@ -6,7 +6,7 @@
 ---@field public grenadeChangeListener gameAttachmentSlotsScriptListener
 GrenadeChangedCallback = {}
 
----@param fields? table
+---@param fields? GrenadeChangedCallback
 ---@return GrenadeChangedCallback
 function GrenadeChangedCallback.new(fields) return end
 

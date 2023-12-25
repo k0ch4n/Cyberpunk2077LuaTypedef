@@ -4,7 +4,7 @@
 ---@class gameCAttitudeManager: gameIAttitudeManager
 gameCAttitudeManager = {}
 
----@param fields? table
+---@param fields? gameCAttitudeManager
 ---@return gameCAttitudeManager
 function gameCAttitudeManager.new(fields) return end
 

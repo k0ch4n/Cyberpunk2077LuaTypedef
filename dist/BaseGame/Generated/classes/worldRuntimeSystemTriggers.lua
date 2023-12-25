@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemTriggers: worldIRuntimeSystem
 worldRuntimeSystemTriggers = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemTriggers
 ---@return worldRuntimeSystemTriggers
 function worldRuntimeSystemTriggers.new(fields) return end

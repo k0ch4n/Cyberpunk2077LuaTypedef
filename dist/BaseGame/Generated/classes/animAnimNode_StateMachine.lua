@@ -12,6 +12,6 @@
 ---@field public notifyOnEnterState Bool
 animAnimNode_StateMachine = {}
 
----@param fields? table
+---@param fields? animAnimNode_StateMachine
 ---@return animAnimNode_StateMachine
 function animAnimNode_StateMachine.new(fields) return end

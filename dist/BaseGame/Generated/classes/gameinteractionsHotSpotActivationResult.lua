@@ -5,6 +5,6 @@
 ---@field public priority Float
 gameinteractionsHotSpotActivationResult = {}
 
----@param fields? table
+---@param fields? gameinteractionsHotSpotActivationResult
 ---@return gameinteractionsHotSpotActivationResult
 function gameinteractionsHotSpotActivationResult.new(fields) return end

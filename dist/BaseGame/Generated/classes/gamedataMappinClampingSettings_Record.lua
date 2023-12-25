@@ -4,7 +4,7 @@
 ---@class gamedataMappinClampingSettings_Record: gamedataTweakDBRecord
 gamedataMappinClampingSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinClampingSettings_Record
 ---@return gamedataMappinClampingSettings_Record
 function gamedataMappinClampingSettings_Record.new(fields) return end
 

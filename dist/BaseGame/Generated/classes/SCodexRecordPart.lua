@@ -7,6 +7,6 @@
 ---@field public Unlocked Bool
 SCodexRecordPart = {}
 
----@param fields? table
+---@param fields? SCodexRecordPart
 ---@return SCodexRecordPart
 function SCodexRecordPart.new(fields) return end

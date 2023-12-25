@@ -4,7 +4,7 @@
 ---@class vehicleVehicleMountableComponent: gamemountingMountableComponent
 vehicleVehicleMountableComponent = {}
 
----@param fields? table
+---@param fields? vehicleVehicleMountableComponent
 ---@return vehicleVehicleMountableComponent
 function vehicleVehicleMountableComponent.new(fields) return end
 

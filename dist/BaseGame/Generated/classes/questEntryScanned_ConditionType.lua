@@ -6,6 +6,6 @@
 ---@field public entryID TweakDBID
 questEntryScanned_ConditionType = {}
 
----@param fields? table
+---@param fields? questEntryScanned_ConditionType
 ---@return questEntryScanned_ConditionType
 function questEntryScanned_ConditionType.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private pendingChildAttachements EntityAttachementData[]
 EntityAttachementComponentPS = {}
 
----@param fields? table
+---@param fields? EntityAttachementComponentPS
 ---@return EntityAttachementComponentPS
 function EntityAttachementComponentPS.new(fields) return end
 

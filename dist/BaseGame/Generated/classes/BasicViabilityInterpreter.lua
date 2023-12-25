@@ -4,7 +4,7 @@
 ---@class BasicViabilityInterpreter: IScriptable
 BasicViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? BasicViabilityInterpreter
 ---@return BasicViabilityInterpreter
 function BasicViabilityInterpreter.new(fields) return end
 

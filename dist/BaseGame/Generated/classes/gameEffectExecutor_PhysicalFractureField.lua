@@ -8,6 +8,6 @@
 ---@field public fieldDimensions Vector3
 gameEffectExecutor_PhysicalFractureField = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_PhysicalFractureField
 ---@return gameEffectExecutor_PhysicalFractureField
 function gameEffectExecutor_PhysicalFractureField.new(fields) return end

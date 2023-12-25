@@ -6,6 +6,6 @@
 ---@field public customStatus CName
 questSetPhoneStatus_NodeType = {}
 
----@param fields? table
+---@param fields? questSetPhoneStatus_NodeType
 ---@return questSetPhoneStatus_NodeType
 function questSetPhoneStatus_NodeType.new(fields) return end

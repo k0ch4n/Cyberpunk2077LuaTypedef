@@ -4,7 +4,7 @@
 ---@class DefaultActionsParametersHolder: IScriptable
 DefaultActionsParametersHolder = {}
 
----@param fields? table
+---@param fields? DefaultActionsParametersHolder
 ---@return DefaultActionsParametersHolder
 function DefaultActionsParametersHolder.new(fields) return end
 

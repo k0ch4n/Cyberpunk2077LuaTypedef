@@ -6,6 +6,6 @@
 ---@field public strength Float
 DismembermentDebrisEvent = {}
 
----@param fields? table
+---@param fields? DismembermentDebrisEvent
 ---@return DismembermentDebrisEvent
 function DismembermentDebrisEvent.new(fields) return end

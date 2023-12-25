@@ -6,6 +6,6 @@
 ---@field public slot TweakDBID
 gameEquippedPrereq = {}
 
----@param fields? table
+---@param fields? gameEquippedPrereq
 ---@return gameEquippedPrereq
 function gameEquippedPrereq.new(fields) return end

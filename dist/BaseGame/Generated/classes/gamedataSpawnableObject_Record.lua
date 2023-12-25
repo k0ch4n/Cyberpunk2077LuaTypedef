@@ -4,7 +4,7 @@
 ---@class gamedataSpawnableObject_Record: gamedataBaseObject_Record
 gamedataSpawnableObject_Record = {}
 
----@param fields? table
+---@param fields? gamedataSpawnableObject_Record
 ---@return gamedataSpawnableObject_Record
 function gamedataSpawnableObject_Record.new(fields) return end
 

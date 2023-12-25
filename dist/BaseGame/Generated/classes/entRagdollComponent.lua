@@ -5,6 +5,6 @@
 ---@field public isEnabled Bool
 entRagdollComponent = {}
 
----@param fields? table
+---@param fields? entRagdollComponent
 ---@return entRagdollComponent
 function entRagdollComponent.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public exposureMethod AICoverExposureMethod
 AIBackgroundCombatStep = {}
 
----@param fields? table
+---@param fields? AIBackgroundCombatStep
 ---@return AIBackgroundCombatStep
 function AIBackgroundCombatStep.new(fields) return end

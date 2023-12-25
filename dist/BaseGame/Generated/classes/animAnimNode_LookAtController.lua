@@ -10,6 +10,6 @@
 ---@field public isFacial Bool
 animAnimNode_LookAtController = {}
 
----@param fields? table
+---@param fields? animAnimNode_LookAtController
 ---@return animAnimNode_LookAtController
 function animAnimNode_LookAtController.new(fields) return end

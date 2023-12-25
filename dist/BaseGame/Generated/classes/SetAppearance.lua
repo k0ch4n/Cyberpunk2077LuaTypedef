@@ -5,7 +5,7 @@
 ---@field public appearance CName
 SetAppearance = {}
 
----@param fields? table
+---@param fields? SetAppearance
 ---@return SetAppearance
 function SetAppearance.new(fields) return end
 

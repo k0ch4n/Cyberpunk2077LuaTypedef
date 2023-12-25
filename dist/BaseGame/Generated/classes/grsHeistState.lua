@@ -7,6 +7,6 @@
 ---@field public playersInfo grsHeistPlayerGameInfo
 grsHeistState = {}
 
----@param fields? table
+---@param fields? grsHeistState
 ---@return grsHeistState
 function grsHeistState.new(fields) return end

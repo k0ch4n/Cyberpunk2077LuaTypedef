@@ -7,6 +7,6 @@
 ---@field public material CName
 physicsApperanceMaterial = {}
 
----@param fields? table
+---@param fields? physicsApperanceMaterial
 ---@return physicsApperanceMaterial
 function physicsApperanceMaterial.new(fields) return end

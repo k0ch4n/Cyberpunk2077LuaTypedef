@@ -4,6 +4,6 @@
 ---@class gameAIDirectorTensionAnalyzeComponent: entIComponent
 gameAIDirectorTensionAnalyzeComponent = {}
 
----@param fields? table
+---@param fields? gameAIDirectorTensionAnalyzeComponent
 ---@return gameAIDirectorTensionAnalyzeComponent
 function gameAIDirectorTensionAnalyzeComponent.new(fields) return end

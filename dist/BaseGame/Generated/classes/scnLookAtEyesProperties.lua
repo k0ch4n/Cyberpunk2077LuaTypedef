@@ -7,6 +7,6 @@
 ---@field public mode Int32
 scnLookAtEyesProperties = {}
 
----@param fields? table
+---@param fields? scnLookAtEyesProperties
 ---@return scnLookAtEyesProperties
 function scnLookAtEyesProperties.new(fields) return end

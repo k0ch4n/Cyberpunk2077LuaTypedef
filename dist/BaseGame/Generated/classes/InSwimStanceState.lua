@@ -4,7 +4,7 @@
 ---@class InSwimStanceState: AINPCStanceStateCheck
 InSwimStanceState = {}
 
----@param fields? table
+---@param fields? InSwimStanceState
 ---@return InSwimStanceState
 function InSwimStanceState.new(fields) return end
 

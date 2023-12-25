@@ -4,7 +4,7 @@
 ---@class HitIsInstigatorPlayerPrereqState: GenericHitPrereqState
 HitIsInstigatorPlayerPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsInstigatorPlayerPrereqState
 ---@return HitIsInstigatorPlayerPrereqState
 function HitIsInstigatorPlayerPrereqState.new(fields) return end
 

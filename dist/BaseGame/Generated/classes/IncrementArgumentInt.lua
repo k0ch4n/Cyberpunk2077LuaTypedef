@@ -5,7 +5,7 @@
 ---@field public argumentIntName CName
 IncrementArgumentInt = {}
 
----@param fields? table
+---@param fields? IncrementArgumentInt
 ---@return IncrementArgumentInt
 function IncrementArgumentInt.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public forceHideGenitals Bool
 gameuiCharacterCustomizationGenitalsController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationGenitalsController
 ---@return gameuiCharacterCustomizationGenitalsController
 function gameuiCharacterCustomizationGenitalsController.new(fields) return end

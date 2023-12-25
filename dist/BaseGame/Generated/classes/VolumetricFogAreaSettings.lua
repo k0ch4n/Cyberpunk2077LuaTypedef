@@ -25,6 +25,6 @@
 ---@field public distantShadowAmbientDarkening curveData
 VolumetricFogAreaSettings = {}
 
----@param fields? table
+---@param fields? VolumetricFogAreaSettings
 ---@return VolumetricFogAreaSettings
 function VolumetricFogAreaSettings.new(fields) return end

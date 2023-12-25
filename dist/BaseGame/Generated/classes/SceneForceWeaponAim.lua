@@ -4,7 +4,7 @@
 ---@class SceneForceWeaponAim: redEvent
 SceneForceWeaponAim = {}
 
----@param fields? table
+---@param fields? SceneForceWeaponAim
 ---@return SceneForceWeaponAim
 function SceneForceWeaponAim.new(fields) return end
 

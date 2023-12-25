@@ -4,6 +4,6 @@
 ---@class TurnOnVisibilitySenseComponent: redEvent
 TurnOnVisibilitySenseComponent = {}
 
----@param fields? table
+---@param fields? TurnOnVisibilitySenseComponent
 ---@return TurnOnVisibilitySenseComponent
 function TurnOnVisibilitySenseComponent.new(fields) return end

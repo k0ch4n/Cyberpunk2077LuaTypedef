@@ -5,6 +5,6 @@
 ---@field public action gamedeviceAction
 QuickSlotCommandUsed = {}
 
----@param fields? table
+---@param fields? QuickSlotCommandUsed
 ---@return QuickSlotCommandUsed
 function QuickSlotCommandUsed.new(fields) return end

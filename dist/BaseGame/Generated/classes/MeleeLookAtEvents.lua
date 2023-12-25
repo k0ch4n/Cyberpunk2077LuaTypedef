@@ -4,6 +4,6 @@
 ---@class MeleeLookAtEvents: LookAtPresetMeleeBaseEvents
 MeleeLookAtEvents = {}
 
----@param fields? table
+---@param fields? MeleeLookAtEvents
 ---@return MeleeLookAtEvents
 function MeleeLookAtEvents.new(fields) return end

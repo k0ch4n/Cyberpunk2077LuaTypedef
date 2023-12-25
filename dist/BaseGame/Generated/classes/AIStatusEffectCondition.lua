@@ -4,7 +4,7 @@
 ---@class AIStatusEffectCondition: AIbehaviorconditionScript
 AIStatusEffectCondition = {}
 
----@param fields? table
+---@param fields? AIStatusEffectCondition
 ---@return AIStatusEffectCondition
 function AIStatusEffectCondition.new(fields) return end
 

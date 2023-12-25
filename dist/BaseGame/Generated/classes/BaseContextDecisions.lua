@@ -4,7 +4,7 @@
 ---@class BaseContextDecisions: InputContextTransitionDecisions
 BaseContextDecisions = {}
 
----@param fields? table
+---@param fields? BaseContextDecisions
 ---@return BaseContextDecisions
 function BaseContextDecisions.new(fields) return end
 

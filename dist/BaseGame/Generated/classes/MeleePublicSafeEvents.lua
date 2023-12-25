@@ -5,7 +5,7 @@
 ---@field public unequipTime Float
 MeleePublicSafeEvents = {}
 
----@param fields? table
+---@param fields? MeleePublicSafeEvents
 ---@return MeleePublicSafeEvents
 function MeleePublicSafeEvents.new(fields) return end
 

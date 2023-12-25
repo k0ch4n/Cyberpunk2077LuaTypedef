@@ -5,7 +5,7 @@
 ---@field protected deviceName CName
 CPOVotingDevice = {}
 
----@param fields? table
+---@param fields? CPOVotingDevice
 ---@return CPOVotingDevice
 function CPOVotingDevice.new(fields) return end
 

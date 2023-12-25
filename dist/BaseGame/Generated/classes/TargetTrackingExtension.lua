@@ -10,7 +10,7 @@
 ---@field private playerPuppet gameObject
 TargetTrackingExtension = {}
 
----@param fields? table
+---@param fields? TargetTrackingExtension
 ---@return TargetTrackingExtension
 function TargetTrackingExtension.new(fields) return end
 

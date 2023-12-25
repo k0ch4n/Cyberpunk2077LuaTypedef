@@ -4,6 +4,6 @@
 ---@class worldAudioAttractAreaNotifier: worldITriggerAreaNotifer
 worldAudioAttractAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldAudioAttractAreaNotifier
 ---@return worldAudioAttractAreaNotifier
 function worldAudioAttractAreaNotifier.new(fields) return end

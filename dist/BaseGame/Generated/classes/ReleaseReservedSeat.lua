@@ -4,7 +4,7 @@
 ---@class ReleaseReservedSeat: AIbehaviortaskScript
 ReleaseReservedSeat = {}
 
----@param fields? table
+---@param fields? ReleaseReservedSeat
 ---@return ReleaseReservedSeat
 function ReleaseReservedSeat.new(fields) return end
 

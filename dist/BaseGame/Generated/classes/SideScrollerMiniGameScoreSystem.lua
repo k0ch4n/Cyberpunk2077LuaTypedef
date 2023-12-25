@@ -6,7 +6,7 @@
 ---@field private gameNames String[]
 SideScrollerMiniGameScoreSystem = {}
 
----@param fields? table
+---@param fields? SideScrollerMiniGameScoreSystem
 ---@return SideScrollerMiniGameScoreSystem
 function SideScrollerMiniGameScoreSystem.new(fields) return end
 

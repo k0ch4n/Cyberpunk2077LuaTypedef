@@ -7,7 +7,7 @@
 ---@field public previousWeapon gameweaponObject
 HitIsTheSameTargetPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsTheSameTargetPrereqState
 ---@return HitIsTheSameTargetPrereqState
 function HitIsTheSameTargetPrereqState.new(fields) return end
 

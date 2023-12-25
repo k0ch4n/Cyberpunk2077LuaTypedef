@@ -4,7 +4,7 @@
 ---@class RevealEnemiesProgram: ProgramAction
 RevealEnemiesProgram = {}
 
----@param fields? table
+---@param fields? RevealEnemiesProgram
 ---@return RevealEnemiesProgram
 function RevealEnemiesProgram.new(fields) return end
 

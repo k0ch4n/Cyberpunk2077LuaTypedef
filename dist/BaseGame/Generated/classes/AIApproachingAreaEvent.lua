@@ -7,6 +7,6 @@
 ---@field public responseTarget entEntity
 AIApproachingAreaEvent = {}
 
----@param fields? table
+---@param fields? AIApproachingAreaEvent
 ---@return AIApproachingAreaEvent
 function AIApproachingAreaEvent.new(fields) return end

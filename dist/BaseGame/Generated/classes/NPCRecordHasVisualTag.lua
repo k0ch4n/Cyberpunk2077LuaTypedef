@@ -6,7 +6,7 @@
 ---@field public hasTag Bool
 NPCRecordHasVisualTag = {}
 
----@param fields? table
+---@param fields? NPCRecordHasVisualTag
 ---@return NPCRecordHasVisualTag
 function NPCRecordHasVisualTag.new(fields) return end
 

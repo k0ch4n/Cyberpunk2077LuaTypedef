@@ -7,6 +7,6 @@
 ---@field public status Bool
 AIHostileThreatDetected = {}
 
----@param fields? table
+---@param fields? AIHostileThreatDetected
 ---@return AIHostileThreatDetected
 function AIHostileThreatDetected.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public subtype questIContentTokenManager_NodeSubType
 questContentTokenManager_NodeType = {}
 
----@param fields? table
+---@param fields? questContentTokenManager_NodeType
 ---@return questContentTokenManager_NodeType
 function questContentTokenManager_NodeType.new(fields) return end

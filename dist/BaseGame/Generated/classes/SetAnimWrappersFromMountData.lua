@@ -5,7 +5,7 @@
 ---@field protected mountData AIArgumentMapping
 SetAnimWrappersFromMountData = {}
 
----@param fields? table
+---@param fields? SetAnimWrappersFromMountData
 ---@return SetAnimWrappersFromMountData
 function SetAnimWrappersFromMountData.new(fields) return end
 

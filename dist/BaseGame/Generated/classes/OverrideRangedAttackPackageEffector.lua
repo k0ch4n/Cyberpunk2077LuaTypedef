@@ -5,7 +5,7 @@
 ---@field public attackPackage gamedataRangedAttackPackage_Record
 OverrideRangedAttackPackageEffector = {}
 
----@param fields? table
+---@param fields? OverrideRangedAttackPackageEffector
 ---@return OverrideRangedAttackPackageEffector
 function OverrideRangedAttackPackageEffector.new(fields) return end
 

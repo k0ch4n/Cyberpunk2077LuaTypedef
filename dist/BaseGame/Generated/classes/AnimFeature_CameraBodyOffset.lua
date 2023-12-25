@@ -15,6 +15,6 @@
 ---@field public lookat_offset_vertical Float
 AnimFeature_CameraBodyOffset = {}
 
----@param fields? table
+---@param fields? AnimFeature_CameraBodyOffset
 ---@return AnimFeature_CameraBodyOffset
 function AnimFeature_CameraBodyOffset.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public override CName
 audioMaterialOverride = {}
 
----@param fields? table
+---@param fields? audioMaterialOverride
 ---@return audioMaterialOverride
 function audioMaterialOverride.new(fields) return end

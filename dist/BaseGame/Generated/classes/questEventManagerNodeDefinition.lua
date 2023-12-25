@@ -11,6 +11,6 @@
 ---@field public componentName CName
 questEventManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questEventManagerNodeDefinition
 ---@return questEventManagerNodeDefinition
 function questEventManagerNodeDefinition.new(fields) return end

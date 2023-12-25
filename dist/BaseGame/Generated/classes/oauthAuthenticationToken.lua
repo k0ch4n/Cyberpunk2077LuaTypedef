@@ -9,6 +9,6 @@
 ---@field public authorizationExpiresIn Uint64
 oauthAuthenticationToken = {}
 
----@param fields? table
+---@param fields? oauthAuthenticationToken
 ---@return oauthAuthenticationToken
 function oauthAuthenticationToken.new(fields) return end

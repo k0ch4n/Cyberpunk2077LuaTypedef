@@ -9,6 +9,6 @@
 ---@field public sharedVars AISharedVarTableDefinition
 AICTreeNodeFSMDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeFSMDefinition
 ---@return AICTreeNodeFSMDefinition
 function AICTreeNodeFSMDefinition.new(fields) return end

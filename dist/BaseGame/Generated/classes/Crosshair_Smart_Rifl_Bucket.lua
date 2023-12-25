@@ -13,7 +13,7 @@
 ---@field public deadEyeAnimProxy inkanimProxy
 Crosshair_Smart_Rifl_Bucket = {}
 
----@param fields? table
+---@param fields? Crosshair_Smart_Rifl_Bucket
 ---@return Crosshair_Smart_Rifl_Bucket
 function Crosshair_Smart_Rifl_Bucket.new(fields) return end
 

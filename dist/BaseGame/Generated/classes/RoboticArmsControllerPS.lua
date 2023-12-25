@@ -4,7 +4,7 @@
 ---@class RoboticArmsControllerPS: ScriptableDeviceComponentPS
 RoboticArmsControllerPS = {}
 
----@param fields? table
+---@param fields? RoboticArmsControllerPS
 ---@return RoboticArmsControllerPS
 function RoboticArmsControllerPS.new(fields) return end
 

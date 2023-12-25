@@ -6,6 +6,6 @@
 ---@field public hideTime Float
 minimapuiSettings = {}
 
----@param fields? table
+---@param fields? minimapuiSettings
 ---@return minimapuiSettings
 function minimapuiSettings.new(fields) return end

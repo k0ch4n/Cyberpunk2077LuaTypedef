@@ -9,7 +9,7 @@
 ---@field private fileThumbnailWidgetsData SDocumentThumbnailWidgetPackage[]
 ComputerMenuWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerMenuWidgetController
 ---@return ComputerMenuWidgetController
 function ComputerMenuWidgetController.new(fields) return end
 

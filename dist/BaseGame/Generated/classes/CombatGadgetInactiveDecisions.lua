@@ -4,7 +4,7 @@
 ---@class CombatGadgetInactiveDecisions: CombatGadgetTransitions
 CombatGadgetInactiveDecisions = {}
 
----@param fields? table
+---@param fields? CombatGadgetInactiveDecisions
 ---@return CombatGadgetInactiveDecisions
 function CombatGadgetInactiveDecisions.new(fields) return end
 

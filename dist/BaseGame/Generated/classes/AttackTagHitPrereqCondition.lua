@@ -5,7 +5,7 @@
 ---@field public attackTag CName
 AttackTagHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? AttackTagHitPrereqCondition
 ---@return AttackTagHitPrereqCondition
 function AttackTagHitPrereqCondition.new(fields) return end
 

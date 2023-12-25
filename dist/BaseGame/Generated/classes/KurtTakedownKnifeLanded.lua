@@ -4,7 +4,7 @@
 ---@class KurtTakedownKnifeLanded: AIbehaviorconditionScript
 KurtTakedownKnifeLanded = {}
 
----@param fields? table
+---@param fields? KurtTakedownKnifeLanded
 ---@return KurtTakedownKnifeLanded
 function KurtTakedownKnifeLanded.new(fields) return end
 

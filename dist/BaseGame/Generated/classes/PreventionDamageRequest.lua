@@ -14,6 +14,6 @@
 ---@field public telemetryInfo String
 PreventionDamageRequest = {}
 
----@param fields? table
+---@param fields? PreventionDamageRequest
 ---@return PreventionDamageRequest
 function PreventionDamageRequest.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public inputNode animFloatLink
 animAnimNode_CriticalSpringDamp = {}
 
----@param fields? table
+---@param fields? animAnimNode_CriticalSpringDamp
 ---@return animAnimNode_CriticalSpringDamp
 function animAnimNode_CriticalSpringDamp.new(fields) return end

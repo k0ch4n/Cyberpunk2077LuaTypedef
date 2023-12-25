@@ -6,6 +6,6 @@
 ---@field public trackName CName
 audioPlaylistTrackEventStruct = {}
 
----@param fields? table
+---@param fields? audioPlaylistTrackEventStruct
 ---@return audioPlaylistTrackEventStruct
 function audioPlaylistTrackEventStruct.new(fields) return end

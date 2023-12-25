@@ -4,6 +4,6 @@
 ---@class redTOMLTable: redTOMLBaseValue
 redTOMLTable = {}
 
----@param fields? table
+---@param fields? redTOMLTable
 ---@return redTOMLTable
 function redTOMLTable.new(fields) return end

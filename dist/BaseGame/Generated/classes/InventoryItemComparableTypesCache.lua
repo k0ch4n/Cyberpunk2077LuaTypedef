@@ -8,6 +8,6 @@
 ---@field public comparableRecordTypes gamedataItemType_Record[]
 InventoryItemComparableTypesCache = {}
 
----@param fields? table
+---@param fields? InventoryItemComparableTypesCache
 ---@return InventoryItemComparableTypesCache
 function InventoryItemComparableTypesCache.new(fields) return end

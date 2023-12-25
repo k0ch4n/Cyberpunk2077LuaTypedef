@@ -7,6 +7,6 @@
 ---@field public nCoeffWhenMounted Float
 worldDesiredSlotsCountInfo = {}
 
----@param fields? table
+---@param fields? worldDesiredSlotsCountInfo
 ---@return worldDesiredSlotsCountInfo
 function worldDesiredSlotsCountInfo.new(fields) return end

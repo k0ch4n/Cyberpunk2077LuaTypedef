@@ -4,7 +4,7 @@
 ---@class ResetProgressionForNewPerks: gamePlayerScriptableSystemRequest
 ResetProgressionForNewPerks = {}
 
----@param fields? table
+---@param fields? ResetProgressionForNewPerks
 ---@return ResetProgressionForNewPerks
 function ResetProgressionForNewPerks.new(fields) return end
 

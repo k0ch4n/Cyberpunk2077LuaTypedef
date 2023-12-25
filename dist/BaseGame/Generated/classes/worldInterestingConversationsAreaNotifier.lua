@@ -4,6 +4,6 @@
 ---@class worldInterestingConversationsAreaNotifier: worldITriggerAreaNotifer
 worldInterestingConversationsAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldInterestingConversationsAreaNotifier
 ---@return worldInterestingConversationsAreaNotifier
 function worldInterestingConversationsAreaNotifier.new(fields) return end

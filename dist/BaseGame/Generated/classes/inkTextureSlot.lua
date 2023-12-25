@@ -7,6 +7,6 @@
 ---@field public slices inkTextureAtlasSlice[]
 inkTextureSlot = {}
 
----@param fields? table
+---@param fields? inkTextureSlot
 ---@return inkTextureSlot
 function inkTextureSlot.new(fields) return end

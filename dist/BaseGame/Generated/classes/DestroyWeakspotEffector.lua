@@ -5,7 +5,7 @@
 ---@field public weakspotIndex Int32
 DestroyWeakspotEffector = {}
 
----@param fields? table
+---@param fields? DestroyWeakspotEffector
 ---@return DestroyWeakspotEffector
 function DestroyWeakspotEffector.new(fields) return end
 

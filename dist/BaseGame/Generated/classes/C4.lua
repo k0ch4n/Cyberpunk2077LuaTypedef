@@ -4,7 +4,7 @@
 ---@class C4: ExplosiveDevice
 C4 = {}
 
----@param fields? table
+---@param fields? C4
 ---@return C4
 function C4.new(fields) return end
 

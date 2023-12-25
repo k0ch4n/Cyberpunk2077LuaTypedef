@@ -4,7 +4,7 @@
 ---@class HotkeyManager
 HotkeyManager = {}
 
----@param fields? table
+---@param fields? HotkeyManager
 ---@return HotkeyManager
 function HotkeyManager.new(fields) return end
 

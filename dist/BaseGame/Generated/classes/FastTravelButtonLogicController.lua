@@ -9,7 +9,7 @@
 ---@field private fastTravelPointData gameFastTravelPointData
 FastTravelButtonLogicController = {}
 
----@param fields? table
+---@param fields? FastTravelButtonLogicController
 ---@return FastTravelButtonLogicController
 function FastTravelButtonLogicController.new(fields) return end
 

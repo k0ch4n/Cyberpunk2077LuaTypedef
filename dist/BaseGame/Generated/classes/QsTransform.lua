@@ -7,6 +7,6 @@
 ---@field public Scale Vector4
 QsTransform = {}
 
----@param fields? table
+---@param fields? QsTransform
 ---@return QsTransform
 function QsTransform.new(fields) return end

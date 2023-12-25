@@ -4,6 +4,6 @@
 ---@class inkIconAtlas: inkIIconAtlas
 inkIconAtlas = {}
 
----@param fields? table
+---@param fields? inkIconAtlas
 ---@return inkIconAtlas
 function inkIconAtlas.new(fields) return end

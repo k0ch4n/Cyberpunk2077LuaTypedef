@@ -8,6 +8,6 @@
 ---@field public entities NodeRef[]
 questTimeDilation_Entity = {}
 
----@param fields? table
+---@param fields? questTimeDilation_Entity
 ---@return questTimeDilation_Entity
 function questTimeDilation_Entity.new(fields) return end

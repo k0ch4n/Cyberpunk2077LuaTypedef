@@ -5,6 +5,6 @@
 ---@field public instigator gameObject
 gameeventsDeathEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeathEvent
 ---@return gameeventsDeathEvent
 function gameeventsDeathEvent.new(fields) return end

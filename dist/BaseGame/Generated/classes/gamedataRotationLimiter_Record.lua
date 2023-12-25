@@ -4,7 +4,7 @@
 ---@class gamedataRotationLimiter_Record: gamedataDriveHelper_Record
 gamedataRotationLimiter_Record = {}
 
----@param fields? table
+---@param fields? gamedataRotationLimiter_Record
 ---@return gamedataRotationLimiter_Record
 function gamedataRotationLimiter_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class AIGameToneDetectorSquadAudioMember: AISquadAudioMemberBase
 AIGameToneDetectorSquadAudioMember = {}
 
----@param fields? table
+---@param fields? AIGameToneDetectorSquadAudioMember
 ---@return AIGameToneDetectorSquadAudioMember
 function AIGameToneDetectorSquadAudioMember.new(fields) return end

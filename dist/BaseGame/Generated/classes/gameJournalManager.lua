@@ -4,7 +4,7 @@
 ---@class gameJournalManager: gameIJournalManager
 gameJournalManager = {}
 
----@param fields? table
+---@param fields? gameJournalManager
 ---@return gameJournalManager
 function gameJournalManager.new(fields) return end
 

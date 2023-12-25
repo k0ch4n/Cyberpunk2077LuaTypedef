@@ -4,6 +4,6 @@
 ---@class ResloveFocusClueDescriptionEvent: redEvent
 ResloveFocusClueDescriptionEvent = {}
 
----@param fields? table
+---@param fields? ResloveFocusClueDescriptionEvent
 ---@return ResloveFocusClueDescriptionEvent
 function ResloveFocusClueDescriptionEvent.new(fields) return end

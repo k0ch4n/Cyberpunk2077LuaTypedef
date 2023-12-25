@@ -5,6 +5,6 @@
 ---@field public rotation Float
 CParticleDrawerBeam = {}
 
----@param fields? table
+---@param fields? CParticleDrawerBeam
 ---@return CParticleDrawerBeam
 function CParticleDrawerBeam.new(fields) return end

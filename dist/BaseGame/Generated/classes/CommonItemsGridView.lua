@@ -7,7 +7,7 @@
 ---@field protected uiScriptableSystem UIScriptableSystem
 CommonItemsGridView = {}
 
----@param fields? table
+---@param fields? CommonItemsGridView
 ---@return CommonItemsGridView
 function CommonItemsGridView.new(fields) return end
 

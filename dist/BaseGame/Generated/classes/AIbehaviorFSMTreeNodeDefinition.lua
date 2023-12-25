@@ -7,6 +7,6 @@
 ---@field public initialState AIbehaviorFSMStateDefinition
 AIbehaviorFSMTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFSMTreeNodeDefinition
 ---@return AIbehaviorFSMTreeNodeDefinition
 function AIbehaviorFSMTreeNodeDefinition.new(fields) return end

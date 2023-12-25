@@ -18,6 +18,6 @@
 ---@field public version Uint8
 worldMeshNode = {}
 
----@param fields? table
+---@param fields? worldMeshNode
 ---@return worldMeshNode
 function worldMeshNode.new(fields) return end

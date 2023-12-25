@@ -4,7 +4,7 @@
 ---@class IsNotInstigatorProjectileFilter: gameEffectObjectSingleFilter_Scripted
 IsNotInstigatorProjectileFilter = {}
 
----@param fields? table
+---@param fields? IsNotInstigatorProjectileFilter
 ---@return IsNotInstigatorProjectileFilter
 function IsNotInstigatorProjectileFilter.new(fields) return end
 

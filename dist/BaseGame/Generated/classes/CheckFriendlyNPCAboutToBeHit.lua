@@ -7,7 +7,7 @@
 ---@field public outPositionArgument AIArgumentMapping
 CheckFriendlyNPCAboutToBeHit = {}
 
----@param fields? table
+---@param fields? CheckFriendlyNPCAboutToBeHit
 ---@return CheckFriendlyNPCAboutToBeHit
 function CheckFriendlyNPCAboutToBeHit.new(fields) return end
 

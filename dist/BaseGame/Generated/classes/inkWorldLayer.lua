@@ -4,6 +4,6 @@
 ---@class inkWorldLayer: inkLayer
 inkWorldLayer = {}
 
----@param fields? table
+---@param fields? inkWorldLayer
 ---@return inkWorldLayer
 function inkWorldLayer.new(fields) return end

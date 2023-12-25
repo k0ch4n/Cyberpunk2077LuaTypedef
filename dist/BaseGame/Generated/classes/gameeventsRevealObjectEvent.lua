@@ -7,6 +7,6 @@
 ---@field public lifetime Float
 gameeventsRevealObjectEvent = {}
 
----@param fields? table
+---@param fields? gameeventsRevealObjectEvent
 ---@return gameeventsRevealObjectEvent
 function gameeventsRevealObjectEvent.new(fields) return end

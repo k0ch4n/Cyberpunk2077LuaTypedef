@@ -13,7 +13,7 @@
 ---@field private uiSystem gameuiGameSystemUI
 GOGProfileGameController = {}
 
----@param fields? table
+---@param fields? GOGProfileGameController
 ---@return GOGProfileGameController
 function GOGProfileGameController.new(fields) return end
 

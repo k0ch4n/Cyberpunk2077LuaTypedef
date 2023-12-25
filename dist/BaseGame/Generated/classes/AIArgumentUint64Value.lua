@@ -6,6 +6,6 @@
 ---@field public defaultValue Uint64
 AIArgumentUint64Value = {}
 
----@param fields? table
+---@param fields? AIArgumentUint64Value
 ---@return AIArgumentUint64Value
 function AIArgumentUint64Value.new(fields) return end

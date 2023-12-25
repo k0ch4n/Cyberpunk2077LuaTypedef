@@ -6,7 +6,7 @@
 ---@field private actionBBoard gameIBlackboard
 SetAvoidLOSTimeStamp = {}
 
----@param fields? table
+---@param fields? SetAvoidLOSTimeStamp
 ---@return SetAvoidLOSTimeStamp
 function SetAvoidLOSTimeStamp.new(fields) return end
 

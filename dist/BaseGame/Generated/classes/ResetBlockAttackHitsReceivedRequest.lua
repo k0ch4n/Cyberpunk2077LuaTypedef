@@ -4,6 +4,6 @@
 ---@class ResetBlockAttackHitsReceivedRequest: gameScriptableSystemRequest
 ResetBlockAttackHitsReceivedRequest = {}
 
----@param fields? table
+---@param fields? ResetBlockAttackHitsReceivedRequest
 ---@return ResetBlockAttackHitsReceivedRequest
 function ResetBlockAttackHitsReceivedRequest.new(fields) return end

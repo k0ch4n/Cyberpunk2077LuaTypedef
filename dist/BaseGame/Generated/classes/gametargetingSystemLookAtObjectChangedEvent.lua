@@ -5,6 +5,6 @@
 ---@field public lookatObject gameObject
 gametargetingSystemLookAtObjectChangedEvent = {}
 
----@param fields? table
+---@param fields? gametargetingSystemLookAtObjectChangedEvent
 ---@return gametargetingSystemLookAtObjectChangedEvent
 function gametargetingSystemLookAtObjectChangedEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public isReady Bool
 SetLogicReadyEvent = {}
 
----@param fields? table
+---@param fields? SetLogicReadyEvent
 ---@return SetLogicReadyEvent
 function SetLogicReadyEvent.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public zoom Float
 rendGridGeneratorData = {}
 
----@param fields? table
+---@param fields? rendGridGeneratorData
 ---@return rendGridGeneratorData
 function rendGridGeneratorData.new(fields) return end

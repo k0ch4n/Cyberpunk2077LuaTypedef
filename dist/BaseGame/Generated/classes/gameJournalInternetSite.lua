@@ -9,7 +9,7 @@
 ---@field public texturePart CName
 gameJournalInternetSite = {}
 
----@param fields? table
+---@param fields? gameJournalInternetSite
 ---@return gameJournalInternetSite
 function gameJournalInternetSite.new(fields) return end
 

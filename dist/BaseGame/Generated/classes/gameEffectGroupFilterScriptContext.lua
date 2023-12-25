@@ -5,7 +5,7 @@
 ---@field public resultIndices Int32[]
 gameEffectGroupFilterScriptContext = {}
 
----@param fields? table
+---@param fields? gameEffectGroupFilterScriptContext
 ---@return gameEffectGroupFilterScriptContext
 function gameEffectGroupFilterScriptContext.new(fields) return end
 

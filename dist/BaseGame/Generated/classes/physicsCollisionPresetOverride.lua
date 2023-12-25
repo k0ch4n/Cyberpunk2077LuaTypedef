@@ -6,6 +6,6 @@
 ---@field public to CName
 physicsCollisionPresetOverride = {}
 
----@param fields? table
+---@param fields? physicsCollisionPresetOverride
 ---@return physicsCollisionPresetOverride
 function physicsCollisionPresetOverride.new(fields) return end

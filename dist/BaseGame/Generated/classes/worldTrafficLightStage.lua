@@ -6,6 +6,6 @@
 ---@field public duration Float
 worldTrafficLightStage = {}
 
----@param fields? table
+---@param fields? worldTrafficLightStage
 ---@return worldTrafficLightStage
 function worldTrafficLightStage.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public taggedObjectIDs entEntityID[]
 gameScanningControllerReplicatedState = {}
 
----@param fields? table
+---@param fields? gameScanningControllerReplicatedState
 ---@return gameScanningControllerReplicatedState
 function gameScanningControllerReplicatedState.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field public cameraRef NodeRef
 gameuiItemPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiItemPreviewGameController
 ---@return gameuiItemPreviewGameController
 function gameuiItemPreviewGameController.new(fields) return end
 

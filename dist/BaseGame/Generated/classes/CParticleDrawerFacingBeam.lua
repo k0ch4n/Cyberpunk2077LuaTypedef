@@ -12,6 +12,6 @@
 ---@field public debugTargetTranslation Vector3
 CParticleDrawerFacingBeam = {}
 
----@param fields? table
+---@param fields? CParticleDrawerFacingBeam
 ---@return CParticleDrawerFacingBeam
 function CParticleDrawerFacingBeam.new(fields) return end

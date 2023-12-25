@@ -4,6 +4,6 @@
 ---@class AITacticLimiter: AICoverSelectionParameters
 AITacticLimiter = {}
 
----@param fields? table
+---@param fields? AITacticLimiter
 ---@return AITacticLimiter
 function AITacticLimiter.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiInGameCharacterCustomizationPuppetAttachmentSlotsListener: gameIAttachmentSlotsListener
 gameuiInGameCharacterCustomizationPuppetAttachmentSlotsListener = {}
 
----@param fields? table
+---@param fields? gameuiInGameCharacterCustomizationPuppetAttachmentSlotsListener
 ---@return gameuiInGameCharacterCustomizationPuppetAttachmentSlotsListener
 function gameuiInGameCharacterCustomizationPuppetAttachmentSlotsListener.new(fields) return end

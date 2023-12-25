@@ -5,6 +5,6 @@
 ---@field public activated Bool
 OverclockHudEvent = {}
 
----@param fields? table
+---@param fields? OverclockHudEvent
 ---@return OverclockHudEvent
 function OverclockHudEvent.new(fields) return end

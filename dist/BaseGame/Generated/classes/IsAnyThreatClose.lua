@@ -5,7 +5,7 @@
 ---@field public distance Float
 IsAnyThreatClose = {}
 
----@param fields? table
+---@param fields? IsAnyThreatClose
 ---@return IsAnyThreatClose
 function IsAnyThreatClose.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class exEntitySpawner: gameIGameSystem
 exEntitySpawner = {}
 
----@param fields? table
+---@param fields? exEntitySpawner
 ---@return exEntitySpawner
 function exEntitySpawner.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public owner ReflexesMasterPerk1Effector
 ReflexesMasterPerk1EffectorListener = {}
 
----@param fields? table
+---@param fields? ReflexesMasterPerk1EffectorListener
 ---@return ReflexesMasterPerk1EffectorListener
 function ReflexesMasterPerk1EffectorListener.new(fields) return end
 

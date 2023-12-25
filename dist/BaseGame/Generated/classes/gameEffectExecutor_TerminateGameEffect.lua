@@ -5,6 +5,6 @@
 ---@field public onlyWithPlayerInstigator Bool
 gameEffectExecutor_TerminateGameEffect = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_TerminateGameEffect
 ---@return gameEffectExecutor_TerminateGameEffect
 function gameEffectExecutor_TerminateGameEffect.new(fields) return end

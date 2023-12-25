@@ -5,7 +5,7 @@
 ---@field public thresholdNumber Int32
 HearStimThreshold = {}
 
----@param fields? table
+---@param fields? HearStimThreshold
 ---@return HearStimThreshold
 function HearStimThreshold.new(fields) return end
 

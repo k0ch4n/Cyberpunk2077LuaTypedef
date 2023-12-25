@@ -10,7 +10,7 @@
 ---@field public animationDuration Float
 inkHoverResizeController = {}
 
----@param fields? table
+---@param fields? inkHoverResizeController
 ---@return inkHoverResizeController
 function inkHoverResizeController.new(fields) return end
 

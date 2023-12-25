@@ -7,6 +7,6 @@
 ---@field public useExponentialCurve Bool
 LerpToColorControllerLightRequest = {}
 
----@param fields? table
+---@param fields? LerpToColorControllerLightRequest
 ---@return LerpToColorControllerLightRequest
 function LerpToColorControllerLightRequest.new(fields) return end

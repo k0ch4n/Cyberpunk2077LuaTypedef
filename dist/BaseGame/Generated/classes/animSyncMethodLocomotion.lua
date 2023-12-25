@@ -6,6 +6,6 @@
 ---@field public accelStopTimeEvent CName
 animSyncMethodLocomotion = {}
 
----@param fields? table
+---@param fields? animSyncMethodLocomotion
 ---@return animSyncMethodLocomotion
 function animSyncMethodLocomotion.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field protected immediateNotificationListener ImmediateNotificationListener
 ItemDisplayVirtualController = {}
 
----@param fields? table
+---@param fields? ItemDisplayVirtualController
 ---@return ItemDisplayVirtualController
 function ItemDisplayVirtualController.new(fields) return end
 

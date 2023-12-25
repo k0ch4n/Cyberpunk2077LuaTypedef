@@ -6,6 +6,6 @@
 ---@field public finalTransform Transform
 scnprvSpawnDespawnItem = {}
 
----@param fields? table
+---@param fields? scnprvSpawnDespawnItem
 ---@return scnprvSpawnDespawnItem
 function scnprvSpawnDespawnItem.new(fields) return end

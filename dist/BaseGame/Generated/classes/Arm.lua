@@ -5,6 +5,6 @@
 ---@field public requester gameObject
 Arm = {}
 
----@param fields? table
+---@param fields? Arm
 ---@return Arm
 function Arm.new(fields) return end

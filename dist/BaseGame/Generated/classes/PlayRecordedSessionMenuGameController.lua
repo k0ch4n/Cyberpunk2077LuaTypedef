@@ -6,7 +6,7 @@
 ---@field private records String[]
 PlayRecordedSessionMenuGameController = {}
 
----@param fields? table
+---@param fields? PlayRecordedSessionMenuGameController
 ---@return PlayRecordedSessionMenuGameController
 function PlayRecordedSessionMenuGameController.new(fields) return end
 

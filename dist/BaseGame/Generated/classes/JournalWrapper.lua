@@ -9,7 +9,7 @@
 ---@field private gameInstance ScriptGameInstance
 JournalWrapper = {}
 
----@param fields? table
+---@param fields? JournalWrapper
 ---@return JournalWrapper
 function JournalWrapper.new(fields) return end
 

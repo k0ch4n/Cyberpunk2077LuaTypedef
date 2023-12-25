@@ -13,6 +13,6 @@
 ---@field public IKPoint Vector4
 gameinteractionsReactionData = {}
 
----@param fields? table
+---@param fields? gameinteractionsReactionData
 ---@return gameinteractionsReactionData
 function gameinteractionsReactionData.new(fields) return end

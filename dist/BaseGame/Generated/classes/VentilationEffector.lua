@@ -5,7 +5,7 @@
 ---@field protected effectComponent entIPlacedComponent
 VentilationEffector = {}
 
----@param fields? table
+---@param fields? VentilationEffector
 ---@return VentilationEffector
 function VentilationEffector.new(fields) return end
 

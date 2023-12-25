@@ -9,6 +9,6 @@
 ---@field public coneAngle Float
 gameSpreadingData = {}
 
----@param fields? table
+---@param fields? gameSpreadingData
 ---@return gameSpreadingData
 function gameSpreadingData.new(fields) return end

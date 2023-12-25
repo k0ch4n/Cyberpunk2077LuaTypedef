@@ -11,6 +11,6 @@
 ---@field public version Uint32
 gameuiCharacterCustomizationPreset = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationPreset
 ---@return gameuiCharacterCustomizationPreset
 function gameuiCharacterCustomizationPreset.new(fields) return end

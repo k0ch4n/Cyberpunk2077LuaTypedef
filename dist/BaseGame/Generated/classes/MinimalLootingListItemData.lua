@@ -20,6 +20,6 @@
 ---@field public comparedQualityF Float
 MinimalLootingListItemData = {}
 
----@param fields? table
+---@param fields? MinimalLootingListItemData
 ---@return MinimalLootingListItemData
 function MinimalLootingListItemData.new(fields) return end

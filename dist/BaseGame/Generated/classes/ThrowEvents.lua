@@ -4,7 +4,7 @@
 ---@class ThrowEvents: CarriedObjectEvents
 ThrowEvents = {}
 
----@param fields? table
+---@param fields? ThrowEvents
 ---@return ThrowEvents
 function ThrowEvents.new(fields) return end
 

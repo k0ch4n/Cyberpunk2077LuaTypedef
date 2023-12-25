@@ -6,7 +6,7 @@
 ---@field public prevSys PreventionSystem
 IsAVSpawned = {}
 
----@param fields? table
+---@param fields? IsAVSpawned
 ---@return IsAVSpawned
 function IsAVSpawned.new(fields) return end
 

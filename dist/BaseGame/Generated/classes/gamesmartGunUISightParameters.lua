@@ -7,6 +7,6 @@
 ---@field public reticleSize Vector2
 gamesmartGunUISightParameters = {}
 
----@param fields? table
+---@param fields? gamesmartGunUISightParameters
 ---@return gamesmartGunUISightParameters
 function gamesmartGunUISightParameters.new(fields) return end

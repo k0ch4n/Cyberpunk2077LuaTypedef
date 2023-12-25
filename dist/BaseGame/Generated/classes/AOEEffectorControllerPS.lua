@@ -5,7 +5,7 @@
 ---@field protected effectsToPlay CName[]
 AOEEffectorControllerPS = {}
 
----@param fields? table
+---@param fields? AOEEffectorControllerPS
 ---@return AOEEffectorControllerPS
 function AOEEffectorControllerPS.new(fields) return end
 

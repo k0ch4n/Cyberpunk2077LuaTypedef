@@ -6,6 +6,6 @@
 ---@field public overrides gameHitRepresentationVisualTaggedOverride[]
 gameHitRepresentationResource = {}
 
----@param fields? table
+---@param fields? gameHitRepresentationResource
 ---@return gameHitRepresentationResource
 function gameHitRepresentationResource.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class CraftingItemTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 CraftingItemTemplateClassifier = {}
 
----@param fields? table
+---@param fields? CraftingItemTemplateClassifier
 ---@return CraftingItemTemplateClassifier
 function CraftingItemTemplateClassifier.new(fields) return end
 

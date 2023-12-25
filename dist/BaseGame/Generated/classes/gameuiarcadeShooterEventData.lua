@@ -7,6 +7,6 @@
 ---@field public spawnerDataList gameuiarcadeShooterEventSpawnerData[]
 gameuiarcadeShooterEventData = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterEventData
 ---@return gameuiarcadeShooterEventData
 function gameuiarcadeShooterEventData.new(fields) return end

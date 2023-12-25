@@ -6,6 +6,6 @@
 ---@field public stateDuration Float
 AnimFeature_PlayerVitals = {}
 
----@param fields? table
+---@param fields? AnimFeature_PlayerVitals
 ---@return AnimFeature_PlayerVitals
 function AnimFeature_PlayerVitals.new(fields) return end

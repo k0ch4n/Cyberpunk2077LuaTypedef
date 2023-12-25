@@ -6,6 +6,6 @@
 ---@field public styleResource inkStyleResource
 inkStyleOverride = {}
 
----@param fields? table
+---@param fields? inkStyleOverride
 ---@return inkStyleOverride
 function inkStyleOverride.new(fields) return end

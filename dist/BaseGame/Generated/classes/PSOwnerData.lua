@@ -6,6 +6,6 @@
 ---@field public className CName
 PSOwnerData = {}
 
----@param fields? table
+---@param fields? PSOwnerData
 ---@return PSOwnerData
 function PSOwnerData.new(fields) return end

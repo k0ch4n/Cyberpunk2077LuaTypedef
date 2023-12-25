@@ -5,6 +5,6 @@
 ---@field public duration Float
 AIRoadBlockadeMemberCommand = {}
 
----@param fields? table
+---@param fields? AIRoadBlockadeMemberCommand
 ---@return AIRoadBlockadeMemberCommand
 function AIRoadBlockadeMemberCommand.new(fields) return end

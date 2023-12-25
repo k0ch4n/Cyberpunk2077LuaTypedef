@@ -5,7 +5,7 @@
 ---@field public followerRole AIFollowerRole
 FriendlyTargetWeaponChangeCallback = {}
 
----@param fields? table
+---@param fields? FriendlyTargetWeaponChangeCallback
 ---@return FriendlyTargetWeaponChangeCallback
 function FriendlyTargetWeaponChangeCallback.new(fields) return end
 

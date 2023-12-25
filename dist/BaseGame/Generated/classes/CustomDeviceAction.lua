@@ -4,7 +4,7 @@
 ---@class CustomDeviceAction: ActionBool
 CustomDeviceAction = {}
 
----@param fields? table
+---@param fields? CustomDeviceAction
 ---@return CustomDeviceAction
 function CustomDeviceAction.new(fields) return end
 

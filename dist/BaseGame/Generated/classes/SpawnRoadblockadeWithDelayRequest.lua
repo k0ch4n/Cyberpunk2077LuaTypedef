@@ -4,6 +4,6 @@
 ---@class SpawnRoadblockadeWithDelayRequest: gameScriptableSystemRequest
 SpawnRoadblockadeWithDelayRequest = {}
 
----@param fields? table
+---@param fields? SpawnRoadblockadeWithDelayRequest
 ---@return SpawnRoadblockadeWithDelayRequest
 function SpawnRoadblockadeWithDelayRequest.new(fields) return end

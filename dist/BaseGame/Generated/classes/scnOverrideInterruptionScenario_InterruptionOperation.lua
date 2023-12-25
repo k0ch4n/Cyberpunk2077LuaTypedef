@@ -6,6 +6,6 @@
 ---@field public scenarioOperations scnIInterruptionScenarioOperation[]
 scnOverrideInterruptionScenario_InterruptionOperation = {}
 
----@param fields? table
+---@param fields? scnOverrideInterruptionScenario_InterruptionOperation
 ---@return scnOverrideInterruptionScenario_InterruptionOperation
 function scnOverrideInterruptionScenario_InterruptionOperation.new(fields) return end

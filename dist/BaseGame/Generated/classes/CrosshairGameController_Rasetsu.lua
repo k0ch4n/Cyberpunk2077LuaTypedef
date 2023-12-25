@@ -24,7 +24,7 @@
 ---@field public isRootVisible Bool
 CrosshairGameController_Rasetsu = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Rasetsu
 ---@return CrosshairGameController_Rasetsu
 function CrosshairGameController_Rasetsu.new(fields) return end
 

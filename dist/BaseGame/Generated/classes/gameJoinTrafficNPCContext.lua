@@ -9,6 +9,6 @@
 ---@field public usePreviousPosition Bool
 gameJoinTrafficNPCContext = {}
 
----@param fields? table
+---@param fields? gameJoinTrafficNPCContext
 ---@return gameJoinTrafficNPCContext
 function gameJoinTrafficNPCContext.new(fields) return end

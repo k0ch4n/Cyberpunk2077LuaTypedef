@@ -5,7 +5,7 @@
 ---@field private damageReduction Float
 PowerBlockEffector = {}
 
----@param fields? table
+---@param fields? PowerBlockEffector
 ---@return PowerBlockEffector
 function PowerBlockEffector.new(fields) return end
 

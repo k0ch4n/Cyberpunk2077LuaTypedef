@@ -20,7 +20,7 @@
 ---@field private closeData GenericMessageNotificationCloseData
 GenericMessageNotification = {}
 
----@param fields? table
+---@param fields? GenericMessageNotification
 ---@return GenericMessageNotification
 function GenericMessageNotification.new(fields) return end
 

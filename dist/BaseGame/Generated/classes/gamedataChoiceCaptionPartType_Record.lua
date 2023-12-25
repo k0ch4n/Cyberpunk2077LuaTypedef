@@ -4,7 +4,7 @@
 ---@class gamedataChoiceCaptionPartType_Record: gamedataTweakDBRecord
 gamedataChoiceCaptionPartType_Record = {}
 
----@param fields? table
+---@param fields? gamedataChoiceCaptionPartType_Record
 ---@return gamedataChoiceCaptionPartType_Record
 function gamedataChoiceCaptionPartType_Record.new(fields) return end
 

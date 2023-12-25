@@ -14,7 +14,7 @@
 ---@field public state Int32
 animAnimFeature_Climb = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Climb
 ---@return animAnimFeature_Climb
 function animAnimFeature_Climb.new(fields) return end
 

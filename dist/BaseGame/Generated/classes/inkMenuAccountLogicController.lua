@@ -8,7 +8,7 @@
 ---@field private changeAccountEnabled Bool
 inkMenuAccountLogicController = {}
 
----@param fields? table
+---@param fields? inkMenuAccountLogicController
 ---@return inkMenuAccountLogicController
 function inkMenuAccountLogicController.new(fields) return end
 

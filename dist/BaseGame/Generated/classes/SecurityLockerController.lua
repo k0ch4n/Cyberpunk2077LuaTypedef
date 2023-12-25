@@ -4,7 +4,7 @@
 ---@class SecurityLockerController: ScriptableDeviceComponent
 SecurityLockerController = {}
 
----@param fields? table
+---@param fields? SecurityLockerController
 ---@return SecurityLockerController
 function SecurityLockerController.new(fields) return end
 

@@ -22,6 +22,6 @@
 ---@field public genderSpecificParams scnfppGenderSpecificParams[]
 scnPlayFPPControlAnimEvent = {}
 
----@param fields? table
+---@param fields? scnPlayFPPControlAnimEvent
 ---@return scnPlayFPPControlAnimEvent
 function scnPlayFPPControlAnimEvent.new(fields) return end

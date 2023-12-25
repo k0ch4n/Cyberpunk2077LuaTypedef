@@ -4,6 +4,6 @@
 ---@class worldTrafficLaneStreamed
 worldTrafficLaneStreamed = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneStreamed
 ---@return worldTrafficLaneStreamed
 function worldTrafficLaneStreamed.new(fields) return end

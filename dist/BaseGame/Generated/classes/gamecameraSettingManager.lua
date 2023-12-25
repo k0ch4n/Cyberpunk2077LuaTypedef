@@ -4,6 +4,6 @@
 ---@class gamecameraSettingManager: gamecameraISettingManager
 gamecameraSettingManager = {}
 
----@param fields? table
+---@param fields? gamecameraSettingManager
 ---@return gamecameraSettingManager
 function gamecameraSettingManager.new(fields) return end

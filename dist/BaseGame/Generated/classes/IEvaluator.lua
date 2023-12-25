@@ -4,6 +4,6 @@
 ---@class IEvaluator: ISerializable
 IEvaluator = {}
 
----@param fields? table
+---@param fields? IEvaluator
 ---@return IEvaluator
 function IEvaluator.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class CCombatTargetDataPtr
 CCombatTargetDataPtr = {}
 
----@param fields? table
+---@param fields? CCombatTargetDataPtr
 ---@return CCombatTargetDataPtr
 function CCombatTargetDataPtr.new(fields) return end

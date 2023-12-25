@@ -5,7 +5,7 @@
 ---@field public statusEffectID TweakDBID
 RemoveStatusEffectOnOwner = {}
 
----@param fields? table
+---@param fields? RemoveStatusEffectOnOwner
 ---@return RemoveStatusEffectOnOwner
 function RemoveStatusEffectOnOwner.new(fields) return end
 

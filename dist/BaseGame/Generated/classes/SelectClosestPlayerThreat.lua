@@ -4,7 +4,7 @@
 ---@class SelectClosestPlayerThreat: AIbehaviortaskScript
 SelectClosestPlayerThreat = {}
 
----@param fields? table
+---@param fields? SelectClosestPlayerThreat
 ---@return SelectClosestPlayerThreat
 function SelectClosestPlayerThreat.new(fields) return end
 

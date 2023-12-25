@@ -4,7 +4,7 @@
 ---@class gamedataAttack_GameEffect_Record: gamedataAttack_Record
 gamedataAttack_GameEffect_Record = {}
 
----@param fields? table
+---@param fields? gamedataAttack_GameEffect_Record
 ---@return gamedataAttack_GameEffect_Record
 function gamedataAttack_GameEffect_Record.new(fields) return end
 

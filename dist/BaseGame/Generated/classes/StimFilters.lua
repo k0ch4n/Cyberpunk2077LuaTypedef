@@ -4,7 +4,7 @@
 ---@class StimFilters: IScriptable
 StimFilters = {}
 
----@param fields? table
+---@param fields? StimFilters
 ---@return StimFilters
 function StimFilters.new(fields) return end
 

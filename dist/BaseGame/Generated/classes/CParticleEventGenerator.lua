@@ -7,6 +7,6 @@
 ---@field public probability Float
 CParticleEventGenerator = {}
 
----@param fields? table
+---@param fields? CParticleEventGenerator
 ---@return CParticleEventGenerator
 function CParticleEventGenerator.new(fields) return end

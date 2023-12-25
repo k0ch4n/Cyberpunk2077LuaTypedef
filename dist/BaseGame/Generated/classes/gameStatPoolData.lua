@@ -18,6 +18,6 @@
 ---@field public modificationStatus gameStatPoolDataStatPoolModificationStatus
 gameStatPoolData = {}
 
----@param fields? table
+---@param fields? gameStatPoolData
 ---@return gameStatPoolData
 function gameStatPoolData.new(fields) return end

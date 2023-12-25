@@ -4,6 +4,6 @@
 ---@class worldAcousticZoneNodeInstance: worldINodeInstance
 worldAcousticZoneNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAcousticZoneNodeInstance
 ---@return worldAcousticZoneNodeInstance
 function worldAcousticZoneNodeInstance.new(fields) return end

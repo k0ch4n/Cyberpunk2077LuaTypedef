@@ -6,6 +6,6 @@
 ---@field public squadVerb EAISquadVerb
 SquadActionEvent = {}
 
----@param fields? table
+---@param fields? SquadActionEvent
 ---@return SquadActionEvent
 function SquadActionEvent.new(fields) return end

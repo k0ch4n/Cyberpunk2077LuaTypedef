@@ -7,6 +7,6 @@
 ---@field public widget inkWidget
 gameuiTutorialAreaSpawnEvent = {}
 
----@param fields? table
+---@param fields? gameuiTutorialAreaSpawnEvent
 ---@return gameuiTutorialAreaSpawnEvent
 function gameuiTutorialAreaSpawnEvent.new(fields) return end

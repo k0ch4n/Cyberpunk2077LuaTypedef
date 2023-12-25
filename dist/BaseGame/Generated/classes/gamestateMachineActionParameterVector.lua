@@ -6,6 +6,6 @@
 ---@field public value Vector4
 gamestateMachineActionParameterVector = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterVector
 ---@return gamestateMachineActionParameterVector
 function gamestateMachineActionParameterVector.new(fields) return end

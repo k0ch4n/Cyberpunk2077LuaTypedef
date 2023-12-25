@@ -4,7 +4,7 @@
 ---@class HitAttackSubtypePrereqState: GenericHitPrereqState
 HitAttackSubtypePrereqState = {}
 
----@param fields? table
+---@param fields? HitAttackSubtypePrereqState
 ---@return HitAttackSubtypePrereqState
 function HitAttackSubtypePrereqState.new(fields) return end
 

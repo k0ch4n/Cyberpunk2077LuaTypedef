@@ -4,7 +4,7 @@
 ---@class ForkliftController: ScriptableDeviceComponent
 ForkliftController = {}
 
----@param fields? table
+---@param fields? ForkliftController
 ---@return ForkliftController
 function ForkliftController.new(fields) return end
 

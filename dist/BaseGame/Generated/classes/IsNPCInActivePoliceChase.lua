@@ -4,7 +4,7 @@
 ---@class IsNPCInActivePoliceChase: PreventionConditionAbstract
 IsNPCInActivePoliceChase = {}
 
----@param fields? table
+---@param fields? IsNPCInActivePoliceChase
 ---@return IsNPCInActivePoliceChase
 function IsNPCInActivePoliceChase.new(fields) return end
 

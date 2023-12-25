@@ -6,7 +6,7 @@
 ---@field public listenerInt redCallbackObject
 EntityNoticedPlayerPrereqState = {}
 
----@param fields? table
+---@param fields? EntityNoticedPlayerPrereqState
 ---@return EntityNoticedPlayerPrereqState
 function EntityNoticedPlayerPrereqState.new(fields) return end
 

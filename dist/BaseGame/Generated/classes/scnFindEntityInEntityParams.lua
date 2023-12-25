@@ -10,6 +10,6 @@
 ---@field public ownershipTransferOptions scnPropOwnershipTransferOptions
 scnFindEntityInEntityParams = {}
 
----@param fields? table
+---@param fields? scnFindEntityInEntityParams
 ---@return scnFindEntityInEntityParams
 function scnFindEntityInEntityParams.new(fields) return end

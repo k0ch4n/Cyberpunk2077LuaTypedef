@@ -6,6 +6,6 @@
 ---@field public currentEmpty Bool
 QHackWheelItemChangedEvent = {}
 
----@param fields? table
+---@param fields? QHackWheelItemChangedEvent
 ---@return QHackWheelItemChangedEvent
 function QHackWheelItemChangedEvent.new(fields) return end

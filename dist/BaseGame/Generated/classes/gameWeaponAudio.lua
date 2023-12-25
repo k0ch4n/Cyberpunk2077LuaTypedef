@@ -4,6 +4,6 @@
 ---@class gameWeaponAudio: ISerializable
 gameWeaponAudio = {}
 
----@param fields? table
+---@param fields? gameWeaponAudio
 ---@return gameWeaponAudio
 function gameWeaponAudio.new(fields) return end

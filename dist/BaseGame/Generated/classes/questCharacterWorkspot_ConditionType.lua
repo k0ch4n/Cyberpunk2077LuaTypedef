@@ -9,6 +9,6 @@
 ---@field public waitForAnimEnd Bool
 questCharacterWorkspot_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterWorkspot_ConditionType
 ---@return questCharacterWorkspot_ConditionType
 function questCharacterWorkspot_ConditionType.new(fields) return end

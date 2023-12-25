@@ -4,6 +4,6 @@
 ---@class mpPersistentTestBox: gameObject
 mpPersistentTestBox = {}
 
----@param fields? table
+---@param fields? mpPersistentTestBox
 ---@return mpPersistentTestBox
 function mpPersistentTestBox.new(fields) return end

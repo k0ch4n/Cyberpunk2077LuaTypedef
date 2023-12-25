@@ -4,6 +4,6 @@
 ---@class animAnimNodeSourceChannel_SocketQuat: animIAnimNodeSourceChannel_Quat
 animAnimNodeSourceChannel_SocketQuat = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_SocketQuat
 ---@return animAnimNodeSourceChannel_SocketQuat
 function animAnimNodeSourceChannel_SocketQuat.new(fields) return end

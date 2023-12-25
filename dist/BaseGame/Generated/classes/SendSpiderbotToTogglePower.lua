@@ -4,7 +4,7 @@
 ---@class SendSpiderbotToTogglePower: ActionBool
 SendSpiderbotToTogglePower = {}
 
----@param fields? table
+---@param fields? SendSpiderbotToTogglePower
 ---@return SendSpiderbotToTogglePower
 function SendSpiderbotToTogglePower.new(fields) return end
 

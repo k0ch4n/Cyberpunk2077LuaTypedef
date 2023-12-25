@@ -7,6 +7,6 @@
 ---@field public inputFloatTrack animNamedTrackIndex
 animAnimMathExpressionFloatSocket = {}
 
----@param fields? table
+---@param fields? animAnimMathExpressionFloatSocket
 ---@return animAnimMathExpressionFloatSocket
 function animAnimMathExpressionFloatSocket.new(fields) return end

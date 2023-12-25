@@ -6,6 +6,6 @@
 ---@field public outgoingFilters EQuestFilterType
 QuestModifyFilters = {}
 
----@param fields? table
+---@param fields? QuestModifyFilters
 ---@return QuestModifyFilters
 function QuestModifyFilters.new(fields) return end

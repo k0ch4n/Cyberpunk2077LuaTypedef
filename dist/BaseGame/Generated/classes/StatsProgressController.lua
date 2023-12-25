@@ -15,7 +15,7 @@
 ---@field private barLenght Float
 StatsProgressController = {}
 
----@param fields? table
+---@param fields? StatsProgressController
 ---@return StatsProgressController
 function StatsProgressController.new(fields) return end
 

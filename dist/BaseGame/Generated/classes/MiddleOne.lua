@@ -4,7 +4,7 @@
 ---@class MiddleOne: DefaultTest
 MiddleOne = {}
 
----@param fields? table
+---@param fields? MiddleOne
 ---@return MiddleOne
 function MiddleOne.new(fields) return end
 

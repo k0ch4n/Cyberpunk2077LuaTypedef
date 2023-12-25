@@ -5,6 +5,6 @@
 ---@field public lookDir EulerAngles
 gameMuppetLookState = {}
 
----@param fields? table
+---@param fields? gameMuppetLookState
 ---@return gameMuppetLookState
 function gameMuppetLookState.new(fields) return end

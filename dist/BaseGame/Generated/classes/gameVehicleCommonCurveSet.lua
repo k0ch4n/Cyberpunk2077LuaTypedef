@@ -4,6 +4,6 @@
 ---@class gameVehicleCommonCurveSet: CurveSet
 gameVehicleCommonCurveSet = {}
 
----@param fields? table
+---@param fields? gameVehicleCommonCurveSet
 ---@return gameVehicleCommonCurveSet
 function gameVehicleCommonCurveSet.new(fields) return end

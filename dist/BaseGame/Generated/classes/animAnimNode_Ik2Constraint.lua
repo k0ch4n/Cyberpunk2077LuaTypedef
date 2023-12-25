@@ -17,6 +17,6 @@
 ---@field public maxHingeAngle Float
 animAnimNode_Ik2Constraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_Ik2Constraint
 ---@return animAnimNode_Ik2Constraint
 function animAnimNode_Ik2Constraint.new(fields) return end

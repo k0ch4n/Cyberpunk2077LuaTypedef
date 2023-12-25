@@ -6,7 +6,7 @@
 ---@field public developmentPointType gamedataDevelopmentPointType
 questAddDevelopmentPointsRequest = {}
 
----@param fields? table
+---@param fields? questAddDevelopmentPointsRequest
 ---@return questAddDevelopmentPointsRequest
 function questAddDevelopmentPointsRequest.new(fields) return end
 

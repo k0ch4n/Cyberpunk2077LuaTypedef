@@ -5,7 +5,7 @@
 ---@field protected distractionFXName CName
 PachinkoMachine = {}
 
----@param fields? table
+---@param fields? PachinkoMachine
 ---@return PachinkoMachine
 function PachinkoMachine.new(fields) return end
 

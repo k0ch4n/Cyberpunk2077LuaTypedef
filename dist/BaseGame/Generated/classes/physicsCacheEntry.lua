@@ -6,6 +6,6 @@
 ---@field public entrySize Uint32
 physicsCacheEntry = {}
 
----@param fields? table
+---@param fields? physicsCacheEntry
 ---@return physicsCacheEntry
 function physicsCacheEntry.new(fields) return end

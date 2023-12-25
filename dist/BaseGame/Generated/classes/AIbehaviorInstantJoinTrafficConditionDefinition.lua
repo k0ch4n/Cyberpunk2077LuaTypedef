@@ -8,6 +8,6 @@
 ---@field public runOnTraffic AIArgumentMapping
 AIbehaviorInstantJoinTrafficConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorInstantJoinTrafficConditionDefinition
 ---@return AIbehaviorInstantJoinTrafficConditionDefinition
 function AIbehaviorInstantJoinTrafficConditionDefinition.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public langsInProject audioLanguageMapItem[]
 audioLanguageGameConfiguration = {}
 
----@param fields? table
+---@param fields? audioLanguageGameConfiguration
 ---@return audioLanguageGameConfiguration
 function audioLanguageGameConfiguration.new(fields) return end

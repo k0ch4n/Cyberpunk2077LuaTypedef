@@ -5,6 +5,6 @@
 ---@field public repeat Bool
 EndLookatEvent = {}
 
----@param fields? table
+---@param fields? EndLookatEvent
 ---@return EndLookatEvent
 function EndLookatEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class vehicleCarBaseObject: vehicleWheeledBaseObject
 vehicleCarBaseObject = {}
 
----@param fields? table
+---@param fields? vehicleCarBaseObject
 ---@return vehicleCarBaseObject
 function vehicleCarBaseObject.new(fields) return end

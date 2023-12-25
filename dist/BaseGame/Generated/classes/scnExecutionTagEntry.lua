@@ -6,6 +6,6 @@
 ---@field public flags Uint8
 scnExecutionTagEntry = {}
 
----@param fields? table
+---@param fields? scnExecutionTagEntry
 ---@return scnExecutionTagEntry
 function scnExecutionTagEntry.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private triggers DeviceOperationsTrigger[]
 DeviceOperationsContainer = {}
 
----@param fields? table
+---@param fields? DeviceOperationsContainer
 ---@return DeviceOperationsContainer
 function DeviceOperationsContainer.new(fields) return end
 

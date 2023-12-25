@@ -4,6 +4,6 @@
 ---@class inkRichTextBoxWidgetReference: inkTextWidgetReference
 inkRichTextBoxWidgetReference = {}
 
----@param fields? table
+---@param fields? inkRichTextBoxWidgetReference
 ---@return inkRichTextBoxWidgetReference
 function inkRichTextBoxWidgetReference.new(fields) return end

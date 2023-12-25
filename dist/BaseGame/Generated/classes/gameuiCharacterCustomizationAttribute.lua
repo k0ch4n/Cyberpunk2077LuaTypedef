@@ -6,6 +6,6 @@
 ---@field public value Uint32
 gameuiCharacterCustomizationAttribute = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationAttribute
 ---@return gameuiCharacterCustomizationAttribute
 function gameuiCharacterCustomizationAttribute.new(fields) return end

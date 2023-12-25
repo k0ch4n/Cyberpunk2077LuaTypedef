@@ -6,6 +6,6 @@
 ---@field public to CName
 animAnimTransformMappingEntry = {}
 
----@param fields? table
+---@param fields? animAnimTransformMappingEntry
 ---@return animAnimTransformMappingEntry
 function animAnimTransformMappingEntry.new(fields) return end

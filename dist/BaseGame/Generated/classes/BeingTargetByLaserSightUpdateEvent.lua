@@ -6,6 +6,6 @@
 ---@field public state LaserTargettingState
 BeingTargetByLaserSightUpdateEvent = {}
 
----@param fields? table
+---@param fields? BeingTargetByLaserSightUpdateEvent
 ---@return BeingTargetByLaserSightUpdateEvent
 function BeingTargetByLaserSightUpdateEvent.new(fields) return end

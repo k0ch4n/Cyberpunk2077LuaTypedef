@@ -12,6 +12,6 @@
 ---@field public teleport Bool
 AIFollowTargetCommand = {}
 
----@param fields? table
+---@param fields? AIFollowTargetCommand
 ---@return AIFollowTargetCommand
 function AIFollowTargetCommand.new(fields) return end

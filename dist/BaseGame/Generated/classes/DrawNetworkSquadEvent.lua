@@ -12,6 +12,6 @@
 ---@field public duration Float
 DrawNetworkSquadEvent = {}
 
----@param fields? table
+---@param fields? DrawNetworkSquadEvent
 ---@return DrawNetworkSquadEvent
 function DrawNetworkSquadEvent.new(fields) return end

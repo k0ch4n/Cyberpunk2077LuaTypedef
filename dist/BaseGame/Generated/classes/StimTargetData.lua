@@ -6,7 +6,7 @@
 ---@field public entryID CName
 StimTargetData = {}
 
----@param fields? table
+---@param fields? StimTargetData
 ---@return StimTargetData
 function StimTargetData.new(fields) return end
 

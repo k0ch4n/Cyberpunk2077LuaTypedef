@@ -18,6 +18,6 @@
 ---@field public statMod gameStatModifierData_Deprecated
 SCooldown = {}
 
----@param fields? table
+---@param fields? SCooldown
 ---@return SCooldown
 function SCooldown.new(fields) return end

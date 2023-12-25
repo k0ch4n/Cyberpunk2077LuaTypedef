@@ -4,7 +4,7 @@
 ---@class inkAbstractDataSourceWrapper: IScriptable
 inkAbstractDataSourceWrapper = {}
 
----@param fields? table
+---@param fields? inkAbstractDataSourceWrapper
 ---@return inkAbstractDataSourceWrapper
 function inkAbstractDataSourceWrapper.new(fields) return end
 

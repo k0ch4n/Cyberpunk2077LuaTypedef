@@ -4,6 +4,6 @@
 ---@class entPreUninitializeEvent: redEvent
 entPreUninitializeEvent = {}
 
----@param fields? table
+---@param fields? entPreUninitializeEvent
 ---@return entPreUninitializeEvent
 function entPreUninitializeEvent.new(fields) return end

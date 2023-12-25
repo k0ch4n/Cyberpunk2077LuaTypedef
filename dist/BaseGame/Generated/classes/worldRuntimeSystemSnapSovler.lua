@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemSnapSovler: worldIRuntimeSystem
 worldRuntimeSystemSnapSovler = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemSnapSovler
 ---@return worldRuntimeSystemSnapSovler
 function worldRuntimeSystemSnapSovler.new(fields) return end

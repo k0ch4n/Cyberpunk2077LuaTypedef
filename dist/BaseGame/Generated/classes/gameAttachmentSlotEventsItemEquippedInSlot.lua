@@ -4,6 +4,6 @@
 ---@class gameAttachmentSlotEventsItemEquippedInSlot: gameAttachmentSlotEventsAttachmentSlotEvent
 gameAttachmentSlotEventsItemEquippedInSlot = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsItemEquippedInSlot
 ---@return gameAttachmentSlotEventsItemEquippedInSlot
 function gameAttachmentSlotEventsItemEquippedInSlot.new(fields) return end

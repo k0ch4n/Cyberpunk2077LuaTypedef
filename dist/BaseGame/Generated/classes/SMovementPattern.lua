@@ -7,6 +7,6 @@
 ---@field public direction EMovementDirection
 SMovementPattern = {}
 
----@param fields? table
+---@param fields? SMovementPattern
 ---@return SMovementPattern
 function SMovementPattern.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public isInMirrorsArea Bool
 questIsInMirrorsAreaMapArrayElement = {}
 
----@param fields? table
+---@param fields? questIsInMirrorsAreaMapArrayElement
 ---@return questIsInMirrorsAreaMapArrayElement
 function questIsInMirrorsAreaMapArrayElement.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public pixelsortVfx Bool
 effectTrackItemDataMosh = {}
 
----@param fields? table
+---@param fields? effectTrackItemDataMosh
 ---@return effectTrackItemDataMosh
 function effectTrackItemDataMosh.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field private hit Bool
 SpiderbotHeavyProjectile = {}
 
----@param fields? table
+---@param fields? SpiderbotHeavyProjectile
 ---@return SpiderbotHeavyProjectile
 function SpiderbotHeavyProjectile.new(fields) return end
 

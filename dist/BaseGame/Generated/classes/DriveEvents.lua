@@ -5,7 +5,7 @@
 ---@field private inCombatBlockingForbiddenZone Bool
 DriveEvents = {}
 
----@param fields? table
+---@param fields? DriveEvents
 ---@return DriveEvents
 function DriveEvents.new(fields) return end
 

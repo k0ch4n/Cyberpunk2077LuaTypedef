@@ -5,6 +5,6 @@
 ---@field public minigameState gameuiHackingMinigameState
 gameuiAccessPointMiniGameStatus = {}
 
----@param fields? table
+---@param fields? gameuiAccessPointMiniGameStatus
 ---@return gameuiAccessPointMiniGameStatus
 function gameuiAccessPointMiniGameStatus.new(fields) return end

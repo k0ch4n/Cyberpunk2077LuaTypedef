@@ -6,6 +6,6 @@
 ---@field public cameraTransformLS Transform
 scneventsCameraPlacementEvent = {}
 
----@param fields? table
+---@param fields? scneventsCameraPlacementEvent
 ---@return scneventsCameraPlacementEvent
 function scneventsCameraPlacementEvent.new(fields) return end

@@ -31,7 +31,7 @@
 ---@field private opticalCamoListener OpticalCamoListener
 gameuiCrosshairBaseGameController = {}
 
----@param fields? table
+---@param fields? gameuiCrosshairBaseGameController
 ---@return gameuiCrosshairBaseGameController
 function gameuiCrosshairBaseGameController.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public entries audioFootstepDecalMaterialEntry[]
 audioFootstepDecalMaterialsMap = {}
 
----@param fields? table
+---@param fields? audioFootstepDecalMaterialsMap
 ---@return audioFootstepDecalMaterialsMap
 function audioFootstepDecalMaterialsMap.new(fields) return end

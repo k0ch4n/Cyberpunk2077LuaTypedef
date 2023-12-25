@@ -4,6 +4,6 @@
 ---@class ResolveQuickHackRadialRequest: HUDManagerRequest
 ResolveQuickHackRadialRequest = {}
 
----@param fields? table
+---@param fields? ResolveQuickHackRadialRequest
 ---@return ResolveQuickHackRadialRequest
 function ResolveQuickHackRadialRequest.new(fields) return end

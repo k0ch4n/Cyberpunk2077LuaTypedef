@@ -5,6 +5,6 @@
 ---@field public segmentsNumber Uint32
 inkCircleWidget = {}
 
----@param fields? table
+---@param fields? inkCircleWidget
 ---@return inkCircleWidget
 function inkCircleWidget.new(fields) return end

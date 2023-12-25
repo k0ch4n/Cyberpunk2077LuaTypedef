@@ -6,6 +6,6 @@
 ---@field public contexts audioVoiceContextMapItem[]
 audioVoiceContextMap = {}
 
----@param fields? table
+---@param fields? audioVoiceContextMap
 ---@return audioVoiceContextMap
 function audioVoiceContextMap.new(fields) return end

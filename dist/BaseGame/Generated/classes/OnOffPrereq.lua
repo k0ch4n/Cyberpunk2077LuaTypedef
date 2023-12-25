@@ -4,7 +4,7 @@
 ---@class OnOffPrereq: gameIScriptablePrereq
 OnOffPrereq = {}
 
----@param fields? table
+---@param fields? OnOffPrereq
 ---@return OnOffPrereq
 function OnOffPrereq.new(fields) return end
 

@@ -14,6 +14,6 @@
 ---@field public version Uint32
 animFacialSetup = {}
 
----@param fields? table
+---@param fields? animFacialSetup
 ---@return animFacialSetup
 function animFacialSetup.new(fields) return end

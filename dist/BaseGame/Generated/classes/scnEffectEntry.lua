@@ -6,6 +6,6 @@
 ---@field public effectName CName
 scnEffectEntry = {}
 
----@param fields? table
+---@param fields? scnEffectEntry
 ---@return scnEffectEntry
 function scnEffectEntry.new(fields) return end

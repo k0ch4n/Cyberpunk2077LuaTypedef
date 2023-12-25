@@ -7,6 +7,6 @@
 ---@field public distanceType questDistanceType
 questDynamicSpawnSystemEnemyDistance = {}
 
----@param fields? table
+---@param fields? questDynamicSpawnSystemEnemyDistance
 ---@return questDynamicSpawnSystemEnemyDistance
 function questDynamicSpawnSystemEnemyDistance.new(fields) return end

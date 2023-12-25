@@ -17,6 +17,6 @@
 ---@field public lights gameFreeCameraLightSettings[]
 gameFreeCameraSettings = {}
 
----@param fields? table
+---@param fields? gameFreeCameraSettings
 ---@return gameFreeCameraSettings
 function gameFreeCameraSettings.new(fields) return end

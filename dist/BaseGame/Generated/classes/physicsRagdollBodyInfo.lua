@@ -20,6 +20,6 @@
 ---@field public FilterDataOverride CName
 physicsRagdollBodyInfo = {}
 
----@param fields? table
+---@param fields? physicsRagdollBodyInfo
 ---@return physicsRagdollBodyInfo
 function physicsRagdollBodyInfo.new(fields) return end

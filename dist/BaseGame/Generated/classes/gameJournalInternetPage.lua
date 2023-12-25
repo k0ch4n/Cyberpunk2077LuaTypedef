@@ -15,7 +15,7 @@
 ---@field public canvases gameJournalInternetCanvas[]
 gameJournalInternetPage = {}
 
----@param fields? table
+---@param fields? gameJournalInternetPage
 ---@return gameJournalInternetPage
 function gameJournalInternetPage.new(fields) return end
 

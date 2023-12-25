@@ -10,7 +10,7 @@
 ---@field private meleeBlockActive Bool
 AimingContextDecisions = {}
 
----@param fields? table
+---@param fields? AimingContextDecisions
 ---@return AimingContextDecisions
 function AimingContextDecisions.new(fields) return end
 

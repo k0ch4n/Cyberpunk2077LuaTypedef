@@ -7,6 +7,6 @@
 ---@field public caption String
 gameuiCyberspaceUIObject = {}
 
----@param fields? table
+---@param fields? gameuiCyberspaceUIObject
 ---@return gameuiCyberspaceUIObject
 function gameuiCyberspaceUIObject.new(fields) return end

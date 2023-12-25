@@ -4,7 +4,7 @@
 ---@class AIRole: IScriptable
 AIRole = {}
 
----@param fields? table
+---@param fields? AIRole
 ---@return AIRole
 function AIRole.new(fields) return end
 

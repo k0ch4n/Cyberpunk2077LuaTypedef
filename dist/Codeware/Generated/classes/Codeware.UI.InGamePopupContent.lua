@@ -5,7 +5,7 @@
 ---@field public content inkFlexWidget
 Codeware_UI_InGamePopupContent = {}
 
----@param fields? table
+---@param fields? Codeware_UI_InGamePopupContent
 ---@return Codeware_UI_InGamePopupContent
 function Codeware_UI_InGamePopupContent.new(fields) return end
 

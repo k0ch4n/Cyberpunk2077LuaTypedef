@@ -7,6 +7,6 @@
 ---@field public returnVarType Uint16
 mathExprExpression = {}
 
----@param fields? table
+---@param fields? mathExprExpression
 ---@return mathExprExpression
 function mathExprExpression.new(fields) return end

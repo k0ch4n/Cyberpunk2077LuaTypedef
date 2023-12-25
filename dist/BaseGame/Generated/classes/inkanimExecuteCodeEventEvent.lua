@@ -5,6 +5,6 @@
 ---@field public eventToExecute redEvent
 inkanimExecuteCodeEventEvent = {}
 
----@param fields? table
+---@param fields? inkanimExecuteCodeEventEvent
 ---@return inkanimExecuteCodeEventEvent
 function inkanimExecuteCodeEventEvent.new(fields) return end

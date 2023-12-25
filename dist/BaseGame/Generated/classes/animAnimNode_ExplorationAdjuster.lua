@@ -10,6 +10,6 @@
 ---@field public totalTimeToAdjust3 animFloatLink
 animAnimNode_ExplorationAdjuster = {}
 
----@param fields? table
+---@param fields? animAnimNode_ExplorationAdjuster
 ---@return animAnimNode_ExplorationAdjuster
 function animAnimNode_ExplorationAdjuster.new(fields) return end

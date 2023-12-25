@@ -4,7 +4,7 @@
 ---@class QuestForceClose: ActionFloat
 QuestForceClose = {}
 
----@param fields? table
+---@param fields? QuestForceClose
 ---@return QuestForceClose
 function QuestForceClose.new(fields) return end
 

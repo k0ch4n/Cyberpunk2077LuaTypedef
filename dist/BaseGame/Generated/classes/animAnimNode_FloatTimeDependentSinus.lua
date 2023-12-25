@@ -8,6 +8,6 @@
 ---@field public phaseFactor Float
 animAnimNode_FloatTimeDependentSinus = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatTimeDependentSinus
 ---@return animAnimNode_FloatTimeDependentSinus
 function animAnimNode_FloatTimeDependentSinus.new(fields) return end

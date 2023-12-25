@@ -9,7 +9,7 @@
 ---@field public maxAllowedAnglePitch Float
 IsFacingTowardsSource = {}
 
----@param fields? table
+---@param fields? IsFacingTowardsSource
 ---@return IsFacingTowardsSource
 function IsFacingTowardsSource.new(fields) return end
 

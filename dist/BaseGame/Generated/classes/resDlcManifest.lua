@@ -22,6 +22,6 @@
 ---@field public colorVariantsMap CResource
 resDlcManifest = {}
 
----@param fields? table
+---@param fields? resDlcManifest
 ---@return resDlcManifest
 function resDlcManifest.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private c_GARMENT_ROTATION_SPEED Float
 GarmentItemPreviewGameController = {}
 
----@param fields? table
+---@param fields? GarmentItemPreviewGameController
 ---@return GarmentItemPreviewGameController
 function GarmentItemPreviewGameController.new(fields) return end
 

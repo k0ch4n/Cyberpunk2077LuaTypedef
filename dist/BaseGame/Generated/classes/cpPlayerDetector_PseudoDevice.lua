@@ -5,6 +5,6 @@
 ---@field public playerDetector NodeRef
 cpPlayerDetector_PseudoDevice = {}
 
----@param fields? table
+---@param fields? cpPlayerDetector_PseudoDevice
 ---@return cpPlayerDetector_PseudoDevice
 function cpPlayerDetector_PseudoDevice.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected onDeathCbId Uint32
 PassiveGlobalDeathCondition = {}
 
----@param fields? table
+---@param fields? PassiveGlobalDeathCondition
 ---@return PassiveGlobalDeathCondition
 function PassiveGlobalDeathCondition.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public notificationQueue ItemsNotificationQueue
 CurrencyChangeInventoryCallback = {}
 
----@param fields? table
+---@param fields? CurrencyChangeInventoryCallback
 ---@return CurrencyChangeInventoryCallback
 function CurrencyChangeInventoryCallback.new(fields) return end
 

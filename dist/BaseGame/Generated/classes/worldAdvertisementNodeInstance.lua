@@ -4,6 +4,6 @@
 ---@class worldAdvertisementNodeInstance: worldStaticMeshNodeInstance
 worldAdvertisementNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAdvertisementNodeInstance
 ---@return worldAdvertisementNodeInstance
 function worldAdvertisementNodeInstance.new(fields) return end

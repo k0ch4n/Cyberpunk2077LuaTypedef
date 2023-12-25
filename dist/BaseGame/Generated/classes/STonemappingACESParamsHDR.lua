@@ -4,6 +4,6 @@
 ---@class STonemappingACESParamsHDR: STonemappingACESParams
 STonemappingACESParamsHDR = {}
 
----@param fields? table
+---@param fields? STonemappingACESParamsHDR
 ---@return STonemappingACESParamsHDR
 function STonemappingACESParamsHDR.new(fields) return end

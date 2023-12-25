@@ -6,6 +6,6 @@
 ---@field public active Bool
 questUIContextState_ConditionType = {}
 
----@param fields? table
+---@param fields? questUIContextState_ConditionType
 ---@return questUIContextState_ConditionType
 function questUIContextState_ConditionType.new(fields) return end

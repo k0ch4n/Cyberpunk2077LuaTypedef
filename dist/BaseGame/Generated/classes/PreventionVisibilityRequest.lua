@@ -6,6 +6,6 @@
 ---@field public seePlayer Bool
 PreventionVisibilityRequest = {}
 
----@param fields? table
+---@param fields? PreventionVisibilityRequest
 ---@return PreventionVisibilityRequest
 function PreventionVisibilityRequest.new(fields) return end

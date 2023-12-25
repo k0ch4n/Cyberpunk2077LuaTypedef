@@ -23,7 +23,7 @@
 ---@field private enabledMinimapMappins gamedataMappinVariant[]
 GameplayRoleComponent = {}
 
----@param fields? table
+---@param fields? GameplayRoleComponent
 ---@return GameplayRoleComponent
 function GameplayRoleComponent.new(fields) return end
 

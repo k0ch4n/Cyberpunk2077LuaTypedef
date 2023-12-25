@@ -7,6 +7,6 @@
 ---@field public tryExecuteCommand Bool
 QuickSlotButtonHoldEndEvent = {}
 
----@param fields? table
+---@param fields? QuickSlotButtonHoldEndEvent
 ---@return QuickSlotButtonHoldEndEvent
 function QuickSlotButtonHoldEndEvent.new(fields) return end

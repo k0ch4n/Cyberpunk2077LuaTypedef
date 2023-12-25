@@ -5,6 +5,6 @@
 ---@field public transformIndex animTransformIndex
 animAnimNodeSourceChannel_TransformQsTransform = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_TransformQsTransform
 ---@return animAnimNodeSourceChannel_TransformQsTransform
 function animAnimNodeSourceChannel_TransformQsTransform.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field private districtFluffIcon inkImageWidgetReference
 NewLocationNotification = {}
 
----@param fields? table
+---@param fields? NewLocationNotification
 ---@return NewLocationNotification
 function NewLocationNotification.new(fields) return end
 

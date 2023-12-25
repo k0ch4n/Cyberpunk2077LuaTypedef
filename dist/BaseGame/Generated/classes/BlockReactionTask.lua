@@ -4,7 +4,7 @@
 ---@class BlockReactionTask: AIbehaviortaskScript
 BlockReactionTask = {}
 
----@param fields? table
+---@param fields? BlockReactionTask
 ---@return BlockReactionTask
 function BlockReactionTask.new(fields) return end
 

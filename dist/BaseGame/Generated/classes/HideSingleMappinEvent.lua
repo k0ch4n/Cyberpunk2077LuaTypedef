@@ -5,6 +5,6 @@
 ---@field public index Int32
 HideSingleMappinEvent = {}
 
----@param fields? table
+---@param fields? HideSingleMappinEvent
 ---@return HideSingleMappinEvent
 function HideSingleMappinEvent.new(fields) return end

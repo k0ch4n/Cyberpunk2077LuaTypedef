@@ -5,6 +5,6 @@
 ---@field public ruid CRUID
 scnlocLocstringId = {}
 
----@param fields? table
+---@param fields? scnlocLocstringId
 ---@return scnlocLocstringId
 function scnlocLocstringId.new(fields) return end

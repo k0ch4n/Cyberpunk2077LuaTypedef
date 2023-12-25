@@ -5,6 +5,6 @@
 ---@field public isNewPhoneEnabled Bool
 gameuiNewPhoneRelatedGameController = {}
 
----@param fields? table
+---@param fields? gameuiNewPhoneRelatedGameController
 ---@return gameuiNewPhoneRelatedGameController
 function gameuiNewPhoneRelatedGameController.new(fields) return end

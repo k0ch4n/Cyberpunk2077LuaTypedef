@@ -4,6 +4,6 @@
 ---@class VRSCustomData: ICameraStorageCustomData
 VRSCustomData = {}
 
----@param fields? table
+---@param fields? VRSCustomData
 ---@return VRSCustomData
 function VRSCustomData.new(fields) return end

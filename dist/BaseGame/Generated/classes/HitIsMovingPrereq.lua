@@ -6,7 +6,7 @@
 ---@field public object String
 HitIsMovingPrereq = {}
 
----@param fields? table
+---@param fields? HitIsMovingPrereq
 ---@return HitIsMovingPrereq
 function HitIsMovingPrereq.new(fields) return end
 

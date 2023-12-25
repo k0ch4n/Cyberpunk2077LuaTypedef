@@ -4,6 +4,6 @@
 ---@class entStaticPositionProvider: entIPositionProvider
 entStaticPositionProvider = {}
 
----@param fields? table
+---@param fields? entStaticPositionProvider
 ---@return entStaticPositionProvider
 function entStaticPositionProvider.new(fields) return end

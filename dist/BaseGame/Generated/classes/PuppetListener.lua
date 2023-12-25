@@ -5,7 +5,7 @@
 ---@field public prereqOwner gamePrereqState
 PuppetListener = {}
 
----@param fields? table
+---@param fields? PuppetListener
 ---@return PuppetListener
 function PuppetListener.new(fields) return end
 

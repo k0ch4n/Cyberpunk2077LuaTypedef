@@ -11,7 +11,7 @@
 ---@field public queryTarget entEntityID
 gameTargetSearchQuery = {}
 
----@param fields? table
+---@param fields? gameTargetSearchQuery
 ---@return gameTargetSearchQuery
 function gameTargetSearchQuery.new(fields) return end
 

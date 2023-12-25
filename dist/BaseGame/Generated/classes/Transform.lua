@@ -6,7 +6,7 @@
 ---@field public orientation Quaternion
 Transform = {}
 
----@param fields? table
+---@param fields? Transform
 ---@return Transform
 function Transform.new(fields) return end
 

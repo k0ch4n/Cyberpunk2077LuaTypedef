@@ -4,7 +4,7 @@
 ---@class BunkerDoorController: DoorController
 BunkerDoorController = {}
 
----@param fields? table
+---@param fields? BunkerDoorController
 ---@return BunkerDoorController
 function BunkerDoorController.new(fields) return end
 

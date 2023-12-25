@@ -4,7 +4,7 @@
 ---@class gamedataWeaponVFXSet_Record: gamedataTweakDBRecord
 gamedataWeaponVFXSet_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeaponVFXSet_Record
 ---@return gamedataWeaponVFXSet_Record
 function gamedataWeaponVFXSet_Record.new(fields) return end
 

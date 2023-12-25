@@ -12,6 +12,6 @@
 ---@field public carrotSpawnTime Float
 gameuiarcadeRoachRaceObstacleSpawnerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceObstacleSpawnerController
 ---@return gameuiarcadeRoachRaceObstacleSpawnerController
 function gameuiarcadeRoachRaceObstacleSpawnerController.new(fields) return end

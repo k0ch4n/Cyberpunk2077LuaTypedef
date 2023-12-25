@@ -5,7 +5,7 @@
 ---@field public valueToListen gamedataNPCHighLevelState
 HighLevelNPCStatePrereq = {}
 
----@param fields? table
+---@param fields? HighLevelNPCStatePrereq
 ---@return HighLevelNPCStatePrereq
 function HighLevelNPCStatePrereq.new(fields) return end
 

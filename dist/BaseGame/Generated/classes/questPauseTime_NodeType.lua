@@ -6,6 +6,6 @@
 ---@field public source CName
 questPauseTime_NodeType = {}
 
----@param fields? table
+---@param fields? questPauseTime_NodeType
 ---@return questPauseTime_NodeType
 function questPauseTime_NodeType.new(fields) return end

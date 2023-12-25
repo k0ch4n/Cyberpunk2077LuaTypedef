@@ -5,7 +5,7 @@
 ---@field public fromDriverCombat Bool
 ExitingEvents = {}
 
----@param fields? table
+---@param fields? ExitingEvents
 ---@return ExitingEvents
 function ExitingEvents.new(fields) return end
 

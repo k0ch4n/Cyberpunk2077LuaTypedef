@@ -5,7 +5,7 @@
 ---@field private loopAnim inkanimProxy
 gameuiTutorialBracketLogicController = {}
 
----@param fields? table
+---@param fields? gameuiTutorialBracketLogicController
 ---@return gameuiTutorialBracketLogicController
 function gameuiTutorialBracketLogicController.new(fields) return end
 

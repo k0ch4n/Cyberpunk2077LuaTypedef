@@ -7,6 +7,6 @@
 ---@field public compareFunc animCompareFunc
 animAnimStateTransitionCondition_IntVariable = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_IntVariable
 ---@return animAnimStateTransitionCondition_IntVariable
 function animAnimStateTransitionCondition_IntVariable.new(fields) return end

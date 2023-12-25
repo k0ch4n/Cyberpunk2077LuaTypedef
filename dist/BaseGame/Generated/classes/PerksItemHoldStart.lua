@@ -7,6 +7,6 @@
 ---@field public perkData BasePerkDisplayData
 PerksItemHoldStart = {}
 
----@param fields? table
+---@param fields? PerksItemHoldStart
 ---@return PerksItemHoldStart
 function PerksItemHoldStart.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public mask Uint8
 scnGenderMask = {}
 
----@param fields? table
+---@param fields? scnGenderMask
 ---@return scnGenderMask
 function scnGenderMask.new(fields) return end

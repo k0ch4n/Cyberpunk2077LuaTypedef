@@ -5,6 +5,6 @@
 ---@field public hash Uint64
 scnSceneInstanceOwnerId = {}
 
----@param fields? table
+---@param fields? scnSceneInstanceOwnerId
 ---@return scnSceneInstanceOwnerId
 function scnSceneInstanceOwnerId.new(fields) return end

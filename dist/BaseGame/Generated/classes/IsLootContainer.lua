@@ -5,7 +5,7 @@
 ---@field public invert Bool
 IsLootContainer = {}
 
----@param fields? table
+---@param fields? IsLootContainer
 ---@return IsLootContainer
 function IsLootContainer.new(fields) return end
 

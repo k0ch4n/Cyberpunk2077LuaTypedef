@@ -21,6 +21,6 @@
 ---@field public decalNodeVersion Uint8
 worldStaticDecalNode = {}
 
----@param fields? table
+---@param fields? worldStaticDecalNode
 ---@return worldStaticDecalNode
 function worldStaticDecalNode.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public slotData CyberwareSlotTooltipData[]
 CyberwareTooltipData = {}
 
----@param fields? table
+---@param fields? CyberwareTooltipData
 ---@return CyberwareTooltipData
 function CyberwareTooltipData.new(fields) return end
 

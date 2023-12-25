@@ -5,6 +5,6 @@
 ---@field public destination worldGlobalNodeID
 AIEntityReuseEvent = {}
 
----@param fields? table
+---@param fields? AIEntityReuseEvent
 ---@return AIEntityReuseEvent
 function AIEntityReuseEvent.new(fields) return end

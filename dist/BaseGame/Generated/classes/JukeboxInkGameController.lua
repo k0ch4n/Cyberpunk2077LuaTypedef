@@ -9,7 +9,7 @@
 ---@field private previousButton NextPreviousActionWidgetController
 JukeboxInkGameController = {}
 
----@param fields? table
+---@param fields? JukeboxInkGameController
 ---@return JukeboxInkGameController
 function JukeboxInkGameController.new(fields) return end
 

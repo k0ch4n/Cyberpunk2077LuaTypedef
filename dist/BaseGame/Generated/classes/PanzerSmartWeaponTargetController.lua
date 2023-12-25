@@ -6,7 +6,7 @@
 ---@field private lockingAnimationProxy inkanimProxy
 PanzerSmartWeaponTargetController = {}
 
----@param fields? table
+---@param fields? PanzerSmartWeaponTargetController
 ---@return PanzerSmartWeaponTargetController
 function PanzerSmartWeaponTargetController.new(fields) return end
 

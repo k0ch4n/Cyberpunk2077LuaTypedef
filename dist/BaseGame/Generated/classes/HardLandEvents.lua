@@ -4,7 +4,7 @@
 ---@class HardLandEvents: FailedLandingAbstractEvents
 HardLandEvents = {}
 
----@param fields? table
+---@param fields? HardLandEvents
 ---@return HardLandEvents
 function HardLandEvents.new(fields) return end
 

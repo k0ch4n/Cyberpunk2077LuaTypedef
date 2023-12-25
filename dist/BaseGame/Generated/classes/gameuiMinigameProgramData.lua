@@ -6,6 +6,6 @@
 ---@field public programName CName
 gameuiMinigameProgramData = {}
 
----@param fields? table
+---@param fields? gameuiMinigameProgramData
 ---@return gameuiMinigameProgramData
 function gameuiMinigameProgramData.new(fields) return end

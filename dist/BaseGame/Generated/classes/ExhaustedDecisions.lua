@@ -5,7 +5,7 @@
 ---@field private staminaRatioEnterCondition Float
 ExhaustedDecisions = {}
 
----@param fields? table
+---@param fields? ExhaustedDecisions
 ---@return ExhaustedDecisions
 function ExhaustedDecisions.new(fields) return end
 

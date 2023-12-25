@@ -16,6 +16,6 @@
 ---@field public isBriefingActive Bool
 PlayerVisionModeControllerActiveFlags = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerActiveFlags
 ---@return PlayerVisionModeControllerActiveFlags
 function PlayerVisionModeControllerActiveFlags.new(fields) return end

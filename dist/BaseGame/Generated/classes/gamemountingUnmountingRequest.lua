@@ -7,6 +7,6 @@
 ---@field public delay Float
 gamemountingUnmountingRequest = {}
 
----@param fields? table
+---@param fields? gamemountingUnmountingRequest
 ---@return gamemountingUnmountingRequest
 function gamemountingUnmountingRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameCompiledSmartObjectData: ISerializable
 gameCompiledSmartObjectData = {}
 
----@param fields? table
+---@param fields? gameCompiledSmartObjectData
 ---@return gameCompiledSmartObjectData
 function gameCompiledSmartObjectData.new(fields) return end

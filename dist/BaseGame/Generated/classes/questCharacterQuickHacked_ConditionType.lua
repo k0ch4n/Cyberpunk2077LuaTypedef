@@ -6,6 +6,6 @@
 ---@field public quickHacked Bool
 questCharacterQuickHacked_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterQuickHacked_ConditionType
 ---@return questCharacterQuickHacked_ConditionType
 function questCharacterQuickHacked_ConditionType.new(fields) return end

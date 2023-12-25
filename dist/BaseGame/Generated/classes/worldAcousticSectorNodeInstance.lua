@@ -4,6 +4,6 @@
 ---@class worldAcousticSectorNodeInstance: worldINodeInstance
 worldAcousticSectorNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAcousticSectorNodeInstance
 ---@return worldAcousticSectorNodeInstance
 function worldAcousticSectorNodeInstance.new(fields) return end

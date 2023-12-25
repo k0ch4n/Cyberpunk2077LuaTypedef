@@ -5,6 +5,6 @@
 ---@field public value Quaternion
 gameEffectParameter_QuatEvaluator_Value = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_QuatEvaluator_Value
 ---@return gameEffectParameter_QuatEvaluator_Value
 function gameEffectParameter_QuatEvaluator_Value.new(fields) return end

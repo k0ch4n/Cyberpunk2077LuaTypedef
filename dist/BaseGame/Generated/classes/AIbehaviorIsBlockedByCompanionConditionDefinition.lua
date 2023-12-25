@@ -5,6 +5,6 @@
 ---@field public distance AIArgumentMapping
 AIbehaviorIsBlockedByCompanionConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsBlockedByCompanionConditionDefinition
 ---@return AIbehaviorIsBlockedByCompanionConditionDefinition
 function AIbehaviorIsBlockedByCompanionConditionDefinition.new(fields) return end

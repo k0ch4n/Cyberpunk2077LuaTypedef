@@ -4,6 +4,6 @@
 ---@class gameuiSetStickerImageEvent: redEvent
 gameuiSetStickerImageEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetStickerImageEvent
 ---@return gameuiSetStickerImageEvent
 function gameuiSetStickerImageEvent.new(fields) return end

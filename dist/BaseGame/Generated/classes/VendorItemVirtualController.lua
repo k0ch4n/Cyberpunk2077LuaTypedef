@@ -8,7 +8,7 @@
 ---@field public isSpawnInProgress Bool
 VendorItemVirtualController = {}
 
----@param fields? table
+---@param fields? VendorItemVirtualController
 ---@return VendorItemVirtualController
 function VendorItemVirtualController.new(fields) return end
 

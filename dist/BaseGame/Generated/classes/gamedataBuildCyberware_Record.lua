@@ -4,7 +4,7 @@
 ---@class gamedataBuildCyberware_Record: gamedataTweakDBRecord
 gamedataBuildCyberware_Record = {}
 
----@param fields? table
+---@param fields? gamedataBuildCyberware_Record
 ---@return gamedataBuildCyberware_Record
 function gamedataBuildCyberware_Record.new(fields) return end
 

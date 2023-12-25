@@ -7,6 +7,6 @@
 ---@field public shouldSceneInstanceBeSaved Bool
 audioConversationItemMetadata = {}
 
----@param fields? table
+---@param fields? audioConversationItemMetadata
 ---@return audioConversationItemMetadata
 function audioConversationItemMetadata.new(fields) return end

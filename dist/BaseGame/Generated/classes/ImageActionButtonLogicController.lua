@@ -6,7 +6,7 @@
 ---@field protected price Int32
 ImageActionButtonLogicController = {}
 
----@param fields? table
+---@param fields? ImageActionButtonLogicController
 ---@return ImageActionButtonLogicController
 function ImageActionButtonLogicController.new(fields) return end
 

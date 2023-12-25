@@ -5,7 +5,7 @@
 ---@field public widget inkWidget
 inkWidgetReference = {}
 
----@param fields? table
+---@param fields? inkWidgetReference
 ---@return inkWidgetReference
 function inkWidgetReference.new(fields) return end
 

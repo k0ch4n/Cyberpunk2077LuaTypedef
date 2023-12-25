@@ -6,7 +6,7 @@
 ---@field public invert Bool
 NPCRarityPrereq = {}
 
----@param fields? table
+---@param fields? NPCRarityPrereq
 ---@return NPCRarityPrereq
 function NPCRarityPrereq.new(fields) return end
 

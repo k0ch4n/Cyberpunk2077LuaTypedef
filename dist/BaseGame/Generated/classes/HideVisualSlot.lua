@@ -5,7 +5,7 @@
 ---@field public slot TransmogSlots
 HideVisualSlot = {}
 
----@param fields? table
+---@param fields? HideVisualSlot
 ---@return HideVisualSlot
 function HideVisualSlot.new(fields) return end
 

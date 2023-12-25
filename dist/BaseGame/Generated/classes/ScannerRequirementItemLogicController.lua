@@ -9,7 +9,7 @@
 ---@field private requirementUserData RequirementUserData
 ScannerRequirementItemLogicController = {}
 
----@param fields? table
+---@param fields? ScannerRequirementItemLogicController
 ---@return ScannerRequirementItemLogicController
 function ScannerRequirementItemLogicController.new(fields) return end
 

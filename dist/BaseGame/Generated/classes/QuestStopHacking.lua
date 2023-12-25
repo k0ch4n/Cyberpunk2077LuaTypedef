@@ -4,7 +4,7 @@
 ---@class QuestStopHacking: ActionBool
 QuestStopHacking = {}
 
----@param fields? table
+---@param fields? QuestStopHacking
 ---@return QuestStopHacking
 function QuestStopHacking.new(fields) return end
 

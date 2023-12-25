@@ -4,6 +4,6 @@
 ---@class audioNullPositionStrategy: audioApplySoundPositionStrategy
 audioNullPositionStrategy = {}
 
----@param fields? table
+---@param fields? audioNullPositionStrategy
 ---@return audioNullPositionStrategy
 function audioNullPositionStrategy.new(fields) return end

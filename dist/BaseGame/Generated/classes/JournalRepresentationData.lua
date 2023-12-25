@@ -8,6 +8,6 @@
 ---@field public IsNew Bool
 JournalRepresentationData = {}
 
----@param fields? table
+---@param fields? JournalRepresentationData
 ---@return JournalRepresentationData
 function JournalRepresentationData.new(fields) return end

@@ -14,6 +14,6 @@
 ---@field public impulseFalloffFactor Float
 ProjectileHitAoEData = {}
 
----@param fields? table
+---@param fields? ProjectileHitAoEData
 ---@return ProjectileHitAoEData
 function ProjectileHitAoEData.new(fields) return end

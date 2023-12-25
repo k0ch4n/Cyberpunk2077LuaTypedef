@@ -9,6 +9,6 @@
 ---@field public color effectEffectParameterEvaluatorColor
 effectTrackItemVignette = {}
 
----@param fields? table
+---@param fields? effectTrackItemVignette
 ---@return effectTrackItemVignette
 function effectTrackItemVignette.new(fields) return end

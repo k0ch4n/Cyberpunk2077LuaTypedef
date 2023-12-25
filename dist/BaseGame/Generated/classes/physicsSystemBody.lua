@@ -10,6 +10,6 @@
 ---@field public isQueryBodyOnly Bool
 physicsSystemBody = {}
 
----@param fields? table
+---@param fields? physicsSystemBody
 ---@return physicsSystemBody
 function physicsSystemBody.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public rayLengthMorphOffsetFactor Float
 garmentHiddenTrianglesRemovalParams = {}
 
----@param fields? table
+---@param fields? garmentHiddenTrianglesRemovalParams
 ---@return garmentHiddenTrianglesRemovalParams
 function garmentHiddenTrianglesRemovalParams.new(fields) return end

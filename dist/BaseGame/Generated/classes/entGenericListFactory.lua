@@ -4,6 +4,6 @@
 ---@class entGenericListFactory: entFactory
 entGenericListFactory = {}
 
----@param fields? table
+---@param fields? entGenericListFactory
 ---@return entGenericListFactory
 function entGenericListFactory.new(fields) return end

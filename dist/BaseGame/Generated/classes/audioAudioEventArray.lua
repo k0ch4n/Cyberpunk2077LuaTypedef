@@ -12,6 +12,6 @@
 ---@field public bus audioAudioEventMetadataArrayElement[]
 audioAudioEventArray = {}
 
----@param fields? table
+---@param fields? audioAudioEventArray
 ---@return audioAudioEventArray
 function audioAudioEventArray.new(fields) return end

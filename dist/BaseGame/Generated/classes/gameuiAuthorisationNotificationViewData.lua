@@ -5,6 +5,6 @@
 ---@field public authType gameuiAuthorisationNotificationType
 gameuiAuthorisationNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiAuthorisationNotificationViewData
 ---@return gameuiAuthorisationNotificationViewData
 function gameuiAuthorisationNotificationViewData.new(fields) return end

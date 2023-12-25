@@ -5,6 +5,6 @@
 ---@field public eventToForward redEvent
 gameprojectileForwardEventToProjectileEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileForwardEventToProjectileEvent
 ---@return gameprojectileForwardEventToProjectileEvent
 function gameprojectileForwardEventToProjectileEvent.new(fields) return end

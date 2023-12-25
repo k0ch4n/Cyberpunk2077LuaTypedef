@@ -7,6 +7,6 @@
 ---@field public isPlayer Bool
 questRumble_NodeType = {}
 
----@param fields? table
+---@param fields? questRumble_NodeType
 ---@return questRumble_NodeType
 function questRumble_NodeType.new(fields) return end

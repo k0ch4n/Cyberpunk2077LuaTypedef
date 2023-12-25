@@ -5,6 +5,6 @@
 ---@field public owner gameObject
 gamePlayerScriptableSystemRequest = {}
 
----@param fields? table
+---@param fields? gamePlayerScriptableSystemRequest
 ---@return gamePlayerScriptableSystemRequest
 function gamePlayerScriptableSystemRequest.new(fields) return end

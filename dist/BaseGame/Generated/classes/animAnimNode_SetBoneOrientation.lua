@@ -6,6 +6,6 @@
 ---@field public orientationMs animQuaternionLink
 animAnimNode_SetBoneOrientation = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetBoneOrientation
 ---@return animAnimNode_SetBoneOrientation
 function animAnimNode_SetBoneOrientation.new(fields) return end

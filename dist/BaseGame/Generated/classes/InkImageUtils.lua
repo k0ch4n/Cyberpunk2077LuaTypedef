@@ -4,7 +4,7 @@
 ---@class InkImageUtils: IScriptable
 InkImageUtils = {}
 
----@param fields? table
+---@param fields? InkImageUtils
 ---@return InkImageUtils
 function InkImageUtils.new(fields) return end
 

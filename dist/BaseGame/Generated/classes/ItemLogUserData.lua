@@ -6,6 +6,6 @@
 ---@field public itemLogQueueEmpty Bool
 ItemLogUserData = {}
 
----@param fields? table
+---@param fields? ItemLogUserData
 ---@return ItemLogUserData
 function ItemLogUserData.new(fields) return end

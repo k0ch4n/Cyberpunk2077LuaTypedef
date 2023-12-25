@@ -7,7 +7,7 @@
 ---@field private isToggledState Bool
 ProficiencyTabButtonController = {}
 
----@param fields? table
+---@param fields? ProficiencyTabButtonController
 ---@return ProficiencyTabButtonController
 function ProficiencyTabButtonController.new(fields) return end
 

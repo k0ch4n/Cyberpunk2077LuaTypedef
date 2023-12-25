@@ -5,7 +5,7 @@
 ---@field private rootWidget inkCompoundWidget
 gameuiStealthIndicatorGameController = {}
 
----@param fields? table
+---@param fields? gameuiStealthIndicatorGameController
 ---@return gameuiStealthIndicatorGameController
 function gameuiStealthIndicatorGameController.new(fields) return end
 

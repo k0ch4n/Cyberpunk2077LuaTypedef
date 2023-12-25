@@ -5,6 +5,6 @@
 ---@field public renderResourceBlobPC IRenderResourceBlob
 rendRenderMultilayerMaskResource = {}
 
----@param fields? table
+---@param fields? rendRenderMultilayerMaskResource
 ---@return rendRenderMultilayerMaskResource
 function rendRenderMultilayerMaskResource.new(fields) return end

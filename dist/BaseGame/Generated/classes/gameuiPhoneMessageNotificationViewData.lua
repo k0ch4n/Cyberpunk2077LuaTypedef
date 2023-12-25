@@ -6,7 +6,7 @@
 ---@field public contactHash Int32
 gameuiPhoneMessageNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiPhoneMessageNotificationViewData
 ---@return gameuiPhoneMessageNotificationViewData
 function gameuiPhoneMessageNotificationViewData.new(fields) return end
 

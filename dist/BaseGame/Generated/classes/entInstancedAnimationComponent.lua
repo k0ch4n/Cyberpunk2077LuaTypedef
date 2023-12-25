@@ -8,6 +8,6 @@
 ---@field public variantTriggerTag CName
 entInstancedAnimationComponent = {}
 
----@param fields? table
+---@param fields? entInstancedAnimationComponent
 ---@return entInstancedAnimationComponent
 function entInstancedAnimationComponent.new(fields) return end

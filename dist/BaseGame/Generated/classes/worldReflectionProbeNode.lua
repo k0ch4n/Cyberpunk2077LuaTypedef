@@ -30,6 +30,6 @@
 ---@field public noFadeBlend Bool
 worldReflectionProbeNode = {}
 
----@param fields? table
+---@param fields? worldReflectionProbeNode
 ---@return worldReflectionProbeNode
 function worldReflectionProbeNode.new(fields) return end

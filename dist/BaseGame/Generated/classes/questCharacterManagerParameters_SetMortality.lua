@@ -9,6 +9,6 @@
 ---@field public source CName
 questCharacterManagerParameters_SetMortality = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetMortality
 ---@return questCharacterManagerParameters_SetMortality
 function questCharacterManagerParameters_SetMortality.new(fields) return end

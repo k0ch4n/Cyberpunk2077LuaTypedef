@@ -5,7 +5,7 @@
 ---@field public currentBehavior CName
 CacheAnimationForPotentialRagdoll = {}
 
----@param fields? table
+---@param fields? CacheAnimationForPotentialRagdoll
 ---@return CacheAnimationForPotentialRagdoll
 function CacheAnimationForPotentialRagdoll.new(fields) return end
 

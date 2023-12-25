@@ -12,6 +12,6 @@
 ---@field public closeTime Float
 audioDoorDecoratorMetadata = {}
 
----@param fields? table
+---@param fields? audioDoorDecoratorMetadata
 ---@return audioDoorDecoratorMetadata
 function audioDoorDecoratorMetadata.new(fields) return end

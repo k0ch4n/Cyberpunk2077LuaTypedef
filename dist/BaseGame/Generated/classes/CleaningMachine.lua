@@ -4,7 +4,7 @@
 ---@class CleaningMachine: BasicDistractionDevice
 CleaningMachine = {}
 
----@param fields? table
+---@param fields? CleaningMachine
 ---@return CleaningMachine
 function CleaningMachine.new(fields) return end
 

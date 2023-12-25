@@ -6,6 +6,6 @@
 ---@field public impactPoints entImpactPointData[]
 entMechanicalComponentImpactEvent = {}
 
----@param fields? table
+---@param fields? entMechanicalComponentImpactEvent
 ---@return entMechanicalComponentImpactEvent
 function entMechanicalComponentImpactEvent.new(fields) return end

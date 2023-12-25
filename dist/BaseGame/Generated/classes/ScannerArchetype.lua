@@ -5,7 +5,7 @@
 ---@field private archetype gamedataArchetypeType
 ScannerArchetype = {}
 
----@param fields? table
+---@param fields? ScannerArchetype
 ---@return ScannerArchetype
 function ScannerArchetype.new(fields) return end
 

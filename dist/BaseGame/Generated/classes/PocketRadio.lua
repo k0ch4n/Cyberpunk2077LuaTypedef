@@ -16,7 +16,7 @@
 ---@field private isInMetro Bool
 PocketRadio = {}
 
----@param fields? table
+---@param fields? PocketRadio
 ---@return PocketRadio
 function PocketRadio.new(fields) return end
 

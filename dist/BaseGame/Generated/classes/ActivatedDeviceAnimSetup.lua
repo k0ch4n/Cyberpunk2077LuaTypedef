@@ -5,6 +5,6 @@
 ---@field public animationTime Float
 ActivatedDeviceAnimSetup = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceAnimSetup
 ---@return ActivatedDeviceAnimSetup
 function ActivatedDeviceAnimSetup.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public styleModifer CName
 inkLanguageFontMapping = {}
 
----@param fields? table
+---@param fields? inkLanguageFontMapping
 ---@return inkLanguageFontMapping
 function inkLanguageFontMapping.new(fields) return end

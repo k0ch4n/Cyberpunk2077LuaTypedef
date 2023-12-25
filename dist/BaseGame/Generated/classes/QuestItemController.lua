@@ -21,7 +21,7 @@
 ---@field private QuestData QuestDataWrapper
 QuestItemController = {}
 
----@param fields? table
+---@param fields? QuestItemController
 ---@return QuestItemController
 function QuestItemController.new(fields) return end
 

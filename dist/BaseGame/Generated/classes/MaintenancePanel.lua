@@ -5,7 +5,7 @@
 ---@field private animFeature AnimFeature_SimpleDevice
 MaintenancePanel = {}
 
----@param fields? table
+---@param fields? MaintenancePanel
 ---@return MaintenancePanel
 function MaintenancePanel.new(fields) return end
 

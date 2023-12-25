@@ -5,6 +5,6 @@
 ---@field public value IScriptable
 gamestateMachineeventPostponedParameterScriptable = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventPostponedParameterScriptable
 ---@return gamestateMachineeventPostponedParameterScriptable
 function gamestateMachineeventPostponedParameterScriptable.new(fields) return end

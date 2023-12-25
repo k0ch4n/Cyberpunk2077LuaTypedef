@@ -4,6 +4,6 @@
 ---@class NPCRarityPrereqState: gamePrereqState
 NPCRarityPrereqState = {}
 
----@param fields? table
+---@param fields? NPCRarityPrereqState
 ---@return NPCRarityPrereqState
 function NPCRarityPrereqState.new(fields) return end

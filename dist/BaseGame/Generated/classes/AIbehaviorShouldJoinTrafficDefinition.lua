@@ -4,6 +4,6 @@
 ---@class AIbehaviorShouldJoinTrafficDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorShouldJoinTrafficDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorShouldJoinTrafficDefinition
 ---@return AIbehaviorShouldJoinTrafficDefinition
 function AIbehaviorShouldJoinTrafficDefinition.new(fields) return end

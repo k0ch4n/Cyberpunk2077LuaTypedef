@@ -7,6 +7,6 @@
 ---@field public deviceClassName CName
 worldDeviceRef = {}
 
----@param fields? table
+---@param fields? worldDeviceRef
 ---@return worldDeviceRef
 function worldDeviceRef.new(fields) return end

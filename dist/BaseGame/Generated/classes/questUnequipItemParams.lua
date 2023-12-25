@@ -6,6 +6,6 @@
 ---@field public unequipDurationOverride Float
 questUnequipItemParams = {}
 
----@param fields? table
+---@param fields? questUnequipItemParams
 ---@return questUnequipItemParams
 function questUnequipItemParams.new(fields) return end

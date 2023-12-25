@@ -4,6 +4,6 @@
 ---@class ToggleDoorInteractionEvent: redEvent
 ToggleDoorInteractionEvent = {}
 
----@param fields? table
+---@param fields? ToggleDoorInteractionEvent
 ---@return ToggleDoorInteractionEvent
 function ToggleDoorInteractionEvent.new(fields) return end

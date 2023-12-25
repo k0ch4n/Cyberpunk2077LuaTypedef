@@ -10,7 +10,7 @@
 ---@field public attributeData AttributeData
 PerkTooltipData = {}
 
----@param fields? table
+---@param fields? PerkTooltipData
 ---@return PerkTooltipData
 function PerkTooltipData.new(fields) return end
 

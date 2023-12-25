@@ -6,6 +6,6 @@
 ---@field public initValue Float
 gameIMovingPlatformMovementInitData = {}
 
----@param fields? table
+---@param fields? gameIMovingPlatformMovementInitData
 ---@return gameIMovingPlatformMovementInitData
 function gameIMovingPlatformMovementInitData.new(fields) return end

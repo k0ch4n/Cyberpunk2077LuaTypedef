@@ -7,6 +7,6 @@
 ---@field public recordID TweakDBID
 scannerQuestEntry = {}
 
----@param fields? table
+---@param fields? scannerQuestEntry
 ---@return scannerQuestEntry
 function scannerQuestEntry.new(fields) return end

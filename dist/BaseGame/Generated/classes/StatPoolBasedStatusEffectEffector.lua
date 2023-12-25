@@ -24,7 +24,7 @@
 ---@field private ownerWeaponID entEntityID
 StatPoolBasedStatusEffectEffector = {}
 
----@param fields? table
+---@param fields? StatPoolBasedStatusEffectEffector
 ---@return StatPoolBasedStatusEffectEffector
 function StatPoolBasedStatusEffectEffector.new(fields) return end
 

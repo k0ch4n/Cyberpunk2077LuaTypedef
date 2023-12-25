@@ -5,7 +5,7 @@
 ---@field protected sensesOperations SSensesOperationData[]
 SensesOperations = {}
 
----@param fields? table
+---@param fields? SensesOperations
 ---@return SensesOperations
 function SensesOperations.new(fields) return end
 

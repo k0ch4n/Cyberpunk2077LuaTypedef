@@ -10,7 +10,7 @@
 ---@field private marginAnimation inkanimProxy
 RipperdocFillBar = {}
 
----@param fields? table
+---@param fields? RipperdocFillBar
 ---@return RipperdocFillBar
 function RipperdocFillBar.new(fields) return end
 

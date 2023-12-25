@@ -10,7 +10,7 @@
 ---@field public logicControllers inkWidgetLogicController[]
 Codeware_UI_VirtualResolutionWatcher = {}
 
----@param fields? table
+---@param fields? Codeware_UI_VirtualResolutionWatcher
 ---@return Codeware_UI_VirtualResolutionWatcher
 function Codeware_UI_VirtualResolutionWatcher.new(fields) return end
 

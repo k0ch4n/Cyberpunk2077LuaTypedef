@@ -8,6 +8,6 @@
 ---@field public type redTaskTextMessageType
 redTaskTextMessage = {}
 
----@param fields? table
+---@param fields? redTaskTextMessage
 ---@return redTaskTextMessage
 function redTaskTextMessage.new(fields) return end

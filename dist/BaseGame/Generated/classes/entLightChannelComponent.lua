@@ -7,6 +7,6 @@
 ---@field public shape GeometryShape
 entLightChannelComponent = {}
 
----@param fields? table
+---@param fields? entLightChannelComponent
 ---@return entLightChannelComponent
 function entLightChannelComponent.new(fields) return end

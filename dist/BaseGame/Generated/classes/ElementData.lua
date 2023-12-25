@@ -5,6 +5,6 @@
 ---@field public id String
 ElementData = {}
 
----@param fields? table
+---@param fields? ElementData
 ---@return ElementData
 function ElementData.new(fields) return end

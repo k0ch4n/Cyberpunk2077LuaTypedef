@@ -29,7 +29,7 @@
 ---@field private C_costLabelAnchorPoint_EQUIPPED Vector2
 RipperdocMetersArmor = {}
 
----@param fields? table
+---@param fields? RipperdocMetersArmor
 ---@return RipperdocMetersArmor
 function RipperdocMetersArmor.new(fields) return end
 

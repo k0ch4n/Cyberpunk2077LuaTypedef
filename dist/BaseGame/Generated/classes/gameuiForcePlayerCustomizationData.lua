@@ -11,6 +11,6 @@
 ---@field public definition CName
 gameuiForcePlayerCustomizationData = {}
 
----@param fields? table
+---@param fields? gameuiForcePlayerCustomizationData
 ---@return gameuiForcePlayerCustomizationData
 function gameuiForcePlayerCustomizationData.new(fields) return end

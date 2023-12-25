@@ -5,7 +5,7 @@
 ---@field public editorState Bool
 ForceBraindanceCameraToggle = {}
 
----@param fields? table
+---@param fields? ForceBraindanceCameraToggle
 ---@return ForceBraindanceCameraToggle
 function ForceBraindanceCameraToggle.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public explodingPlatformsNames CName[]
 gameuiarcadeShooterExplodingPlatformSpawnDetail = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterExplodingPlatformSpawnDetail
 ---@return gameuiarcadeShooterExplodingPlatformSpawnDetail
 function gameuiarcadeShooterExplodingPlatformSpawnDetail.new(fields) return end

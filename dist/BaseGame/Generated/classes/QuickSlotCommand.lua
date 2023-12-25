@@ -23,7 +23,7 @@
 ---@field public interactiveActionOwner entEntityID
 QuickSlotCommand = {}
 
----@param fields? table
+---@param fields? QuickSlotCommand
 ---@return QuickSlotCommand
 function QuickSlotCommand.new(fields) return end
 

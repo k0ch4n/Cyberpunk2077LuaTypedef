@@ -6,6 +6,6 @@
 ---@field public value Float
 audioAudSimpleParameter = {}
 
----@param fields? table
+---@param fields? audioAudSimpleParameter
 ---@return audioAudSimpleParameter
 function audioAudSimpleParameter.new(fields) return end

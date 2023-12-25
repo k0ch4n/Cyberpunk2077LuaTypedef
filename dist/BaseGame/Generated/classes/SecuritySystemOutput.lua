@@ -8,7 +8,7 @@
 ---@field private securityStateChanged Bool
 SecuritySystemOutput = {}
 
----@param fields? table
+---@param fields? SecuritySystemOutput
 ---@return SecuritySystemOutput
 function SecuritySystemOutput.new(fields) return end
 

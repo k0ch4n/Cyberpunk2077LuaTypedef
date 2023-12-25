@@ -4,6 +4,6 @@
 ---@class GAMEOBJECT_Actor: gameHudActor
 GAMEOBJECT_Actor = {}
 
----@param fields? table
+---@param fields? GAMEOBJECT_Actor
 ---@return GAMEOBJECT_Actor
 function GAMEOBJECT_Actor.new(fields) return end

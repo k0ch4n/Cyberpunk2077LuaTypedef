@@ -5,6 +5,6 @@
 ---@field public isQuestResolved Bool
 QuestListItemHoverOverEvent = {}
 
----@param fields? table
+---@param fields? QuestListItemHoverOverEvent
 ---@return QuestListItemHoverOverEvent
 function QuestListItemHoverOverEvent.new(fields) return end

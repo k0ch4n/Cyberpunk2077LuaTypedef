@@ -5,7 +5,7 @@
 ---@field private resources FxResourceMapData[]
 ResourceLibraryComponent = {}
 
----@param fields? table
+---@param fields? ResourceLibraryComponent
 ---@return ResourceLibraryComponent
 function ResourceLibraryComponent.new(fields) return end
 

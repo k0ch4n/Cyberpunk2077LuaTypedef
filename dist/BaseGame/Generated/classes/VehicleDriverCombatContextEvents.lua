@@ -5,7 +5,7 @@
 ---@field protected weapon gameweaponObject
 VehicleDriverCombatContextEvents = {}
 
----@param fields? table
+---@param fields? VehicleDriverCombatContextEvents
 ---@return VehicleDriverCombatContextEvents
 function VehicleDriverCombatContextEvents.new(fields) return end
 

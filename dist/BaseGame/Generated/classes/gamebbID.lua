@@ -5,6 +5,6 @@
 ---@field public g CName
 gamebbID = {}
 
----@param fields? table
+---@param fields? gamebbID
 ---@return gamebbID
 function gamebbID.new(fields) return end

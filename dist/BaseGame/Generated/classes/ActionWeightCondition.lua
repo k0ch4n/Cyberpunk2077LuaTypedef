@@ -6,7 +6,7 @@
 ---@field public thisIndex Int32
 ActionWeightCondition = {}
 
----@param fields? table
+---@param fields? ActionWeightCondition
 ---@return ActionWeightCondition
 function ActionWeightCondition.new(fields) return end
 

@@ -73,7 +73,7 @@
 ---@field private interiorFluff2Anim2WidgetPath CName
 vehicleVcarGameController = {}
 
----@param fields? table
+---@param fields? vehicleVcarGameController
 ---@return vehicleVcarGameController
 function vehicleVcarGameController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameDebugPlayerBreadcrumbs: gameIDebugPlayerBreadcrumbs
 gameDebugPlayerBreadcrumbs = {}
 
----@param fields? table
+---@param fields? gameDebugPlayerBreadcrumbs
 ---@return gameDebugPlayerBreadcrumbs
 function gameDebugPlayerBreadcrumbs.new(fields) return end

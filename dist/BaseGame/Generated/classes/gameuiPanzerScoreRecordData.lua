@@ -6,6 +6,6 @@
 ---@field public score Uint32
 gameuiPanzerScoreRecordData = {}
 
----@param fields? table
+---@param fields? gameuiPanzerScoreRecordData
 ---@return gameuiPanzerScoreRecordData
 function gameuiPanzerScoreRecordData.new(fields) return end

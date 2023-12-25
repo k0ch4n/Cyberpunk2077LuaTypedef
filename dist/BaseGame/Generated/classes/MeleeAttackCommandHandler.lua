@@ -6,7 +6,7 @@
 ---@field protected currentCommand AIMeleeAttackCommand
 MeleeAttackCommandHandler = {}
 
----@param fields? table
+---@param fields? MeleeAttackCommandHandler
 ---@return MeleeAttackCommandHandler
 function MeleeAttackCommandHandler.new(fields) return end
 

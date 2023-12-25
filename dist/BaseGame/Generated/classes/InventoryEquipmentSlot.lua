@@ -20,7 +20,7 @@
 ---@field protected bigSize Vector2
 InventoryEquipmentSlot = {}
 
----@param fields? table
+---@param fields? InventoryEquipmentSlot
 ---@return InventoryEquipmentSlot
 function InventoryEquipmentSlot.new(fields) return end
 

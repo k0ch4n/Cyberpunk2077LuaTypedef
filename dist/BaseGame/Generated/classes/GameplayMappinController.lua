@@ -6,7 +6,7 @@
 ---@field private isVisibleThroughWalls Bool
 GameplayMappinController = {}
 
----@param fields? table
+---@param fields? GameplayMappinController
 ---@return GameplayMappinController
 function GameplayMappinController.new(fields) return end
 

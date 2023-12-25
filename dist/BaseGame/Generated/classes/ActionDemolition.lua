@@ -5,7 +5,7 @@
 ---@field public slotID gamemountingMountingSlotId
 ActionDemolition = {}
 
----@param fields? table
+---@param fields? ActionDemolition
 ---@return ActionDemolition
 function ActionDemolition.new(fields) return end
 

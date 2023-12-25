@@ -4,7 +4,7 @@
 ---@class PreCrouchLowGravityEvents: LocomotionGroundEvents
 PreCrouchLowGravityEvents = {}
 
----@param fields? table
+---@param fields? PreCrouchLowGravityEvents
 ---@return PreCrouchLowGravityEvents
 function PreCrouchLowGravityEvents.new(fields) return end
 

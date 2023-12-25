@@ -12,6 +12,6 @@
 ---@field public revealMaster Bool
 ProcessRelevantDevicesForNetworkGridEvent = {}
 
----@param fields? table
+---@param fields? ProcessRelevantDevicesForNetworkGridEvent
 ---@return ProcessRelevantDevicesForNetworkGridEvent
 function ProcessRelevantDevicesForNetworkGridEvent.new(fields) return end

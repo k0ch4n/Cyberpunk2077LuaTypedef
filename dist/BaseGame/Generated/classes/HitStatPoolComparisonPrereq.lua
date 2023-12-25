@@ -8,7 +8,7 @@
 ---@field public statPoolToCompare gamedataStatPoolType
 HitStatPoolComparisonPrereq = {}
 
----@param fields? table
+---@param fields? HitStatPoolComparisonPrereq
 ---@return HitStatPoolComparisonPrereq
 function HitStatPoolComparisonPrereq.new(fields) return end
 

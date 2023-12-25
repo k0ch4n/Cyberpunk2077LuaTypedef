@@ -10,7 +10,7 @@
 ---@field public selectedColorVariantName CName
 gameEntityStubComponentPS = {}
 
----@param fields? table
+---@param fields? gameEntityStubComponentPS
 ---@return gameEntityStubComponentPS
 function gameEntityStubComponentPS.new(fields) return end
 

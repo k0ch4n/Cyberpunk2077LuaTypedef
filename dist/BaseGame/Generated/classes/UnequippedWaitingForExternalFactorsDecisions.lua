@@ -6,7 +6,7 @@
 ---@field public stateMachineInitData EquipmentInitData
 UnequippedWaitingForExternalFactorsDecisions = {}
 
----@param fields? table
+---@param fields? UnequippedWaitingForExternalFactorsDecisions
 ---@return UnequippedWaitingForExternalFactorsDecisions
 function UnequippedWaitingForExternalFactorsDecisions.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public object IScriptable
 StackTraceEntry = {}
 
----@param fields? table
+---@param fields? StackTraceEntry
 ---@return StackTraceEntry
 function StackTraceEntry.new(fields) return end

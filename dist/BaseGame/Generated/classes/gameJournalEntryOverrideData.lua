@@ -7,7 +7,7 @@
 ---@field public overriddenLocalizationString LocalizationString
 gameJournalEntryOverrideData = {}
 
----@param fields? table
+---@param fields? gameJournalEntryOverrideData
 ---@return gameJournalEntryOverrideData
 function gameJournalEntryOverrideData.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class IdleEvents: VehicleEventsTransition
 IdleEvents = {}
 
----@param fields? table
+---@param fields? IdleEvents
 ---@return IdleEvents
 function IdleEvents.new(fields) return end
 

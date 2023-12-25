@@ -7,7 +7,7 @@
 ---@field public slotName CName
 gameprojectileSpawnComponent = {}
 
----@param fields? table
+---@param fields? gameprojectileSpawnComponent
 ---@return gameprojectileSpawnComponent
 function gameprojectileSpawnComponent.new(fields) return end
 

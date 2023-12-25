@@ -5,6 +5,6 @@
 ---@field public hash Int32
 ScrollToJournalEntryEvent = {}
 
----@param fields? table
+---@param fields? ScrollToJournalEntryEvent
 ---@return ScrollToJournalEntryEvent
 function ScrollToJournalEntryEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public baseValue Float
 ScannerStatDetails = {}
 
----@param fields? table
+---@param fields? ScannerStatDetails
 ---@return ScannerStatDetails
 function ScannerStatDetails.new(fields) return end

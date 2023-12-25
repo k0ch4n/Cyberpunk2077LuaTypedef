@@ -5,6 +5,6 @@
 ---@field public screenAreaMultiplier Float
 gameuiScreenAreaMultiplierChangeEvent = {}
 
----@param fields? table
+---@param fields? gameuiScreenAreaMultiplierChangeEvent
 ---@return gameuiScreenAreaMultiplierChangeEvent
 function gameuiScreenAreaMultiplierChangeEvent.new(fields) return end

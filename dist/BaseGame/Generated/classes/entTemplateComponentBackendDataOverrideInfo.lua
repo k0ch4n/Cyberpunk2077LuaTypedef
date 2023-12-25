@@ -6,6 +6,6 @@
 ---@field public offset Vector2
 entTemplateComponentBackendDataOverrideInfo = {}
 
----@param fields? table
+---@param fields? entTemplateComponentBackendDataOverrideInfo
 ---@return entTemplateComponentBackendDataOverrideInfo
 function entTemplateComponentBackendDataOverrideInfo.new(fields) return end

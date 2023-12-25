@@ -4,7 +4,7 @@
 ---@class worldNavigationScriptInterface: IScriptable
 worldNavigationScriptInterface = {}
 
----@param fields? table
+---@param fields? worldNavigationScriptInterface
 ---@return worldNavigationScriptInterface
 function worldNavigationScriptInterface.new(fields) return end
 

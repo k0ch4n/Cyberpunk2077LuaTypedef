@@ -5,7 +5,7 @@
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsVehicleDoorLockedState = {}
 
----@param fields? table
+---@param fields? IsVehicleDoorLockedState
 ---@return IsVehicleDoorLockedState
 function IsVehicleDoorLockedState.new(fields) return end
 

@@ -16,7 +16,7 @@
 ---@field private movementRequests Int32
 WorkspotFunctionalTestsDebugListener = {}
 
----@param fields? table
+---@param fields? WorkspotFunctionalTestsDebugListener
 ---@return WorkspotFunctionalTestsDebugListener
 function WorkspotFunctionalTestsDebugListener.new(fields) return end
 

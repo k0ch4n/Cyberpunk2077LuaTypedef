@@ -4,7 +4,7 @@
 ---@class gamedataShooterVFXList_Record: gamedataTweakDBRecord
 gamedataShooterVFXList_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterVFXList_Record
 ---@return gamedataShooterVFXList_Record
 function gamedataShooterVFXList_Record.new(fields) return end
 

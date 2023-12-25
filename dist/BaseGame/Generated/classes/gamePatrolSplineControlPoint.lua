@@ -4,6 +4,6 @@
 ---@class gamePatrolSplineControlPoint
 gamePatrolSplineControlPoint = {}
 
----@param fields? table
+---@param fields? gamePatrolSplineControlPoint
 ---@return gamePatrolSplineControlPoint
 function gamePatrolSplineControlPoint.new(fields) return end

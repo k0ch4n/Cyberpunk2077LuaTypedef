@@ -4,7 +4,7 @@
 ---@class gameDelaySystem: gameIDelaySystem
 gameDelaySystem = {}
 
----@param fields? table
+---@param fields? gameDelaySystem
 ---@return gameDelaySystem
 function gameDelaySystem.new(fields) return end
 

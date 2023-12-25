@@ -4,7 +4,7 @@
 ---@class gameItemCreationPrereqDataWrapper: IScriptable
 gameItemCreationPrereqDataWrapper = {}
 
----@param fields? table
+---@param fields? gameItemCreationPrereqDataWrapper
 ---@return gameItemCreationPrereqDataWrapper
 function gameItemCreationPrereqDataWrapper.new(fields) return end
 

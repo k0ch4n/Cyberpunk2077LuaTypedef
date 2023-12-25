@@ -9,6 +9,6 @@
 ---@field public subpixelDispersal Float
 ChromaticAberrationAreaSettings = {}
 
----@param fields? table
+---@param fields? ChromaticAberrationAreaSettings
 ---@return ChromaticAberrationAreaSettings
 function ChromaticAberrationAreaSettings.new(fields) return end

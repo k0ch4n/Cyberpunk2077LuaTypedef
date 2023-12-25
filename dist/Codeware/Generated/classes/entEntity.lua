@@ -4,7 +4,7 @@
 ---@class entEntity: IScriptable
 entEntity = {}
 
----@param fields? table
+---@param fields? entEntity
 ---@return entEntity
 function entEntity.new(fields) return end
 

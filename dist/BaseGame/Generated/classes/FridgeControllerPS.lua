@@ -5,7 +5,7 @@
 ---@field private isOpen Bool
 FridgeControllerPS = {}
 
----@param fields? table
+---@param fields? FridgeControllerPS
 ---@return FridgeControllerPS
 function FridgeControllerPS.new(fields) return end
 

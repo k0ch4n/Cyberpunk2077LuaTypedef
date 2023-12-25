@@ -7,6 +7,6 @@
 ---@field public outputMapping EColorMappingFunction
 ColorGradingLutParams = {}
 
----@param fields? table
+---@param fields? ColorGradingLutParams
 ---@return ColorGradingLutParams
 function ColorGradingLutParams.new(fields) return end

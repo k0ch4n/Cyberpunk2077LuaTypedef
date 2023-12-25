@@ -5,7 +5,7 @@
 ---@field protected state StatPoolPrereqState
 StatPoolPrereqListener = {}
 
----@param fields? table
+---@param fields? StatPoolPrereqListener
 ---@return StatPoolPrereqListener
 function StatPoolPrereqListener.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public position Vector4
 AIDroppedThreatData = {}
 
----@param fields? table
+---@param fields? AIDroppedThreatData
 ---@return AIDroppedThreatData
 function AIDroppedThreatData.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public nickname String
 gamePlayerSpawnParams = {}
 
----@param fields? table
+---@param fields? gamePlayerSpawnParams
 ---@return gamePlayerSpawnParams
 function gamePlayerSpawnParams.new(fields) return end

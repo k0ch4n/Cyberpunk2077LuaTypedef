@@ -6,6 +6,6 @@
 ---@field public item gameItemObject
 WeaponEquipEvent = {}
 
----@param fields? table
+---@param fields? WeaponEquipEvent
 ---@return WeaponEquipEvent
 function WeaponEquipEvent.new(fields) return end

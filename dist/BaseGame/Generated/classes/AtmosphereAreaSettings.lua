@@ -36,6 +36,6 @@
 ---@field public probeAlphaOverrideZenith curveData
 AtmosphereAreaSettings = {}
 
----@param fields? table
+---@param fields? AtmosphereAreaSettings
 ---@return AtmosphereAreaSettings
 function AtmosphereAreaSettings.new(fields) return end

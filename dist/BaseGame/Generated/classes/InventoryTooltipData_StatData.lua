@@ -15,6 +15,6 @@
 ---@field public state EInventoryDataStatDisplayType
 InventoryTooltipData_StatData = {}
 
----@param fields? table
+---@param fields? InventoryTooltipData_StatData
 ---@return InventoryTooltipData_StatData
 function InventoryTooltipData_StatData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class StatusEffectRemovedPrereq: StatusEffectPrereq
 StatusEffectRemovedPrereq = {}
 
----@param fields? table
+---@param fields? StatusEffectRemovedPrereq
 ---@return StatusEffectRemovedPrereq
 function StatusEffectRemovedPrereq.new(fields) return end
 

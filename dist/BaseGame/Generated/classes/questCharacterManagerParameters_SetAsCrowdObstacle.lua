@@ -5,6 +5,6 @@
 ---@field public params questSetAsCrowdObstacle_NodeTypeParams[]
 questCharacterManagerParameters_SetAsCrowdObstacle = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetAsCrowdObstacle
 ---@return questCharacterManagerParameters_SetAsCrowdObstacle
 function questCharacterManagerParameters_SetAsCrowdObstacle.new(fields) return end

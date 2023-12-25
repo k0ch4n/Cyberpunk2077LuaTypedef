@@ -10,6 +10,6 @@
 ---@field public imageId TweakDBID
 NotifyShardRead = {}
 
----@param fields? table
+---@param fields? NotifyShardRead
 ---@return NotifyShardRead
 function NotifyShardRead.new(fields) return end

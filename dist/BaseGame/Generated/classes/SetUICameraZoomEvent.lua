@@ -5,6 +5,6 @@
 ---@field public hasUICameraZoom Bool
 SetUICameraZoomEvent = {}
 
----@param fields? table
+---@param fields? SetUICameraZoomEvent
 ---@return SetUICameraZoomEvent
 function SetUICameraZoomEvent.new(fields) return end

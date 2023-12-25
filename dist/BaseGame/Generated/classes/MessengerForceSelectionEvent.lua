@@ -7,6 +7,6 @@
 ---@field public toggle Bool
 MessengerForceSelectionEvent = {}
 
----@param fields? table
+---@param fields? MessengerForceSelectionEvent
 ---@return MessengerForceSelectionEvent
 function MessengerForceSelectionEvent.new(fields) return end

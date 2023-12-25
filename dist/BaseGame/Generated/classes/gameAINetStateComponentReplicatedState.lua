@@ -12,6 +12,6 @@
 ---@field public replLocomotionMode gameNetAIState
 gameAINetStateComponentReplicatedState = {}
 
----@param fields? table
+---@param fields? gameAINetStateComponentReplicatedState
 ---@return gameAINetStateComponentReplicatedState
 function gameAINetStateComponentReplicatedState.new(fields) return end

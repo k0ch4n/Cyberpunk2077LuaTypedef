@@ -14,6 +14,6 @@
 ---@field public userData worldOffMeshUserData[]
 worldOffMeshConnectionsData = {}
 
----@param fields? table
+---@param fields? worldOffMeshConnectionsData
 ---@return worldOffMeshConnectionsData
 function worldOffMeshConnectionsData.new(fields) return end

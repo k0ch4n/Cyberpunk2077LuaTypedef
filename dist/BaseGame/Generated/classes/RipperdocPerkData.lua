@@ -7,6 +7,6 @@
 ---@field public Level Int32
 RipperdocPerkData = {}
 
----@param fields? table
+---@param fields? RipperdocPerkData
 ---@return RipperdocPerkData
 function RipperdocPerkData.new(fields) return end

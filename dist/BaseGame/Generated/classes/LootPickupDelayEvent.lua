@@ -5,6 +5,6 @@
 ---@field public enableLootInteraction Bool
 LootPickupDelayEvent = {}
 
----@param fields? table
+---@param fields? LootPickupDelayEvent
 ---@return LootPickupDelayEvent
 function LootPickupDelayEvent.new(fields) return end

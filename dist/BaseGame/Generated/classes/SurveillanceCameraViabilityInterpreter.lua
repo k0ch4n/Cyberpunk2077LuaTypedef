@@ -4,7 +4,7 @@
 ---@class SurveillanceCameraViabilityInterpreter: IScriptable
 SurveillanceCameraViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? SurveillanceCameraViabilityInterpreter
 ---@return SurveillanceCameraViabilityInterpreter
 function SurveillanceCameraViabilityInterpreter.new(fields) return end
 

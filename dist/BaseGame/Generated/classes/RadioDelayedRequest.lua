@@ -5,6 +5,6 @@
 ---@field public data PlayRadioArgs
 RadioDelayedRequest = {}
 
----@param fields? table
+---@param fields? RadioDelayedRequest
 ---@return RadioDelayedRequest
 function RadioDelayedRequest.new(fields) return end

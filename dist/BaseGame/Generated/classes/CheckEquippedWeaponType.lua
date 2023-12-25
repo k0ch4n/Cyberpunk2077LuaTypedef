@@ -5,7 +5,7 @@
 ---@field public weaponTypeToCheck CName
 CheckEquippedWeaponType = {}
 
----@param fields? table
+---@param fields? CheckEquippedWeaponType
 ---@return CheckEquippedWeaponType
 function CheckEquippedWeaponType.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAIThreatPersistenceSource_Record: gamedataTweakDBRecord
 gamedataAIThreatPersistenceSource_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIThreatPersistenceSource_Record
 ---@return gamedataAIThreatPersistenceSource_Record
 function gamedataAIThreatPersistenceSource_Record.new(fields) return end
 

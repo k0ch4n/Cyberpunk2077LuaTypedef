@@ -8,6 +8,6 @@
 ---@field public snapTags meshImportedSnapTags
 meshMeshImportedSnapPoint = {}
 
----@param fields? table
+---@param fields? meshMeshImportedSnapPoint
 ---@return meshMeshImportedSnapPoint
 function meshMeshImportedSnapPoint.new(fields) return end

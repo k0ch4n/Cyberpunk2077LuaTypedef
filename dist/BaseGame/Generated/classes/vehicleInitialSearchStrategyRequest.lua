@@ -4,7 +4,7 @@
 ---@class vehicleInitialSearchStrategyRequest: vehicleBaseStrategyRequest
 vehicleInitialSearchStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleInitialSearchStrategyRequest
 ---@return vehicleInitialSearchStrategyRequest
 function vehicleInitialSearchStrategyRequest.new(fields) return end
 

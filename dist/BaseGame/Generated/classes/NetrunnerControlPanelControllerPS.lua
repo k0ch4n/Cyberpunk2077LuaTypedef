@@ -6,7 +6,7 @@
 ---@field private quickhackPerformed Bool
 NetrunnerControlPanelControllerPS = {}
 
----@param fields? table
+---@param fields? NetrunnerControlPanelControllerPS
 ---@return NetrunnerControlPanelControllerPS
 function NetrunnerControlPanelControllerPS.new(fields) return end
 

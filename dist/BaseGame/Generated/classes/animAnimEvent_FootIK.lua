@@ -5,6 +5,6 @@
 ---@field public leg animLeg
 animAnimEvent_FootIK = {}
 
----@param fields? table
+---@param fields? animAnimEvent_FootIK
 ---@return animAnimEvent_FootIK
 function animAnimEvent_FootIK.new(fields) return end

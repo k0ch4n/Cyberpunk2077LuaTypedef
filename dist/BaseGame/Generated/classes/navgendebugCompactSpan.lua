@@ -5,6 +5,6 @@
 ---@field public spanData Uint32
 navgendebugCompactSpan = {}
 
----@param fields? table
+---@param fields? navgendebugCompactSpan
 ---@return navgendebugCompactSpan
 function navgendebugCompactSpan.new(fields) return end

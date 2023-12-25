@@ -12,6 +12,6 @@
 ---@field public fullGroupCount Float
 audioGroupingTagMetadata = {}
 
----@param fields? table
+---@param fields? audioGroupingTagMetadata
 ---@return audioGroupingTagMetadata
 function audioGroupingTagMetadata.new(fields) return end

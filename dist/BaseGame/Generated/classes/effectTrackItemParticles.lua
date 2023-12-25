@@ -12,6 +12,6 @@
 ---@field public renderLayerMask RenderSceneLayerMask
 effectTrackItemParticles = {}
 
----@param fields? table
+---@param fields? effectTrackItemParticles
 ---@return effectTrackItemParticles
 function effectTrackItemParticles.new(fields) return end

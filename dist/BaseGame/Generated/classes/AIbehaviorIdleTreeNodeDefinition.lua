@@ -4,6 +4,6 @@
 ---@class AIbehaviorIdleTreeNodeDefinition: AIbehaviorLeafTreeNodeDefinition
 AIbehaviorIdleTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIdleTreeNodeDefinition
 ---@return AIbehaviorIdleTreeNodeDefinition
 function AIbehaviorIdleTreeNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiarcadeShooterAIProp: gameuiarcadeShooterAIController
 gameuiarcadeShooterAIProp = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterAIProp
 ---@return gameuiarcadeShooterAIProp
 function gameuiarcadeShooterAIProp.new(fields) return end

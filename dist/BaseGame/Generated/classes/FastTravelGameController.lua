@@ -6,7 +6,7 @@
 ---@field private menuEventDispatcher inkMenuEventDispatcher
 FastTravelGameController = {}
 
----@param fields? table
+---@param fields? FastTravelGameController
 ---@return FastTravelGameController
 function FastTravelGameController.new(fields) return end
 

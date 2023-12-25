@@ -8,7 +8,7 @@
 ---@field private slotComponent entSlotComponent
 Katana = {}
 
----@param fields? table
+---@param fields? Katana
 ---@return Katana
 function Katana.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public targetItem InventoryItemDisplayController
 ItemChooserItemHoverOver = {}
 
----@param fields? table
+---@param fields? ItemChooserItemHoverOver
 ---@return ItemChooserItemHoverOver
 function ItemChooserItemHoverOver.new(fields) return end

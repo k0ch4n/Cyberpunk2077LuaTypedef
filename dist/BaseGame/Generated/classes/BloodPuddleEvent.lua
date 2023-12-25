@@ -6,6 +6,6 @@
 ---@field public cyberBlood Bool
 BloodPuddleEvent = {}
 
----@param fields? table
+---@param fields? BloodPuddleEvent
 ---@return BloodPuddleEvent
 function BloodPuddleEvent.new(fields) return end

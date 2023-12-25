@@ -6,6 +6,6 @@
 ---@field public action PuppetAction
 ExecutePuppetActionEvent = {}
 
----@param fields? table
+---@param fields? ExecutePuppetActionEvent
 ---@return ExecutePuppetActionEvent
 function ExecutePuppetActionEvent.new(fields) return end

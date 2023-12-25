@@ -6,6 +6,6 @@
 ---@field public isOwnerMountedToVehicle Bool
 AnimFeature_WeaponOwnerVehicleData = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponOwnerVehicleData
 ---@return AnimFeature_WeaponOwnerVehicleData
 function AnimFeature_WeaponOwnerVehicleData.new(fields) return end

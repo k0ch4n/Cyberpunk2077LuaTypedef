@@ -21,6 +21,6 @@
 ---@field public fastFallEvent CName
 audioLocomotionWaterSettings = {}
 
----@param fields? table
+---@param fields? audioLocomotionWaterSettings
 ---@return audioLocomotionWaterSettings
 function audioLocomotionWaterSettings.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public superheroFallTime Float
 SuperheroLandEvents = {}
 
----@param fields? table
+---@param fields? SuperheroLandEvents
 ---@return SuperheroLandEvents
 function SuperheroLandEvents.new(fields) return end
 

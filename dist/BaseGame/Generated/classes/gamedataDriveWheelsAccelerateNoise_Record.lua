@@ -4,7 +4,7 @@
 ---@class gamedataDriveWheelsAccelerateNoise_Record: gamedataDriveHelper_Record
 gamedataDriveWheelsAccelerateNoise_Record = {}
 
----@param fields? table
+---@param fields? gamedataDriveWheelsAccelerateNoise_Record
 ---@return gamedataDriveWheelsAccelerateNoise_Record
 function gamedataDriveWheelsAccelerateNoise_Record.new(fields) return end
 

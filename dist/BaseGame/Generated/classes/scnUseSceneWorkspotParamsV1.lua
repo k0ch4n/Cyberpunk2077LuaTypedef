@@ -7,6 +7,6 @@
 ---@field public itemOverride workWorkspotItemOverride
 scnUseSceneWorkspotParamsV1 = {}
 
----@param fields? table
+---@param fields? scnUseSceneWorkspotParamsV1
 ---@return scnUseSceneWorkspotParamsV1
 function scnUseSceneWorkspotParamsV1.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public nodeId scnNodeId
 scnUseSceneWorkspotCommand = {}
 
----@param fields? table
+---@param fields? scnUseSceneWorkspotCommand
 ---@return scnUseSceneWorkspotCommand
 function scnUseSceneWorkspotCommand.new(fields) return end

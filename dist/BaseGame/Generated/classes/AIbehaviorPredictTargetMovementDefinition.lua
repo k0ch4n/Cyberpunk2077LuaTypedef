@@ -7,6 +7,6 @@
 ---@field public result AIArgumentMapping
 AIbehaviorPredictTargetMovementDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPredictTargetMovementDefinition
 ---@return AIbehaviorPredictTargetMovementDefinition
 function AIbehaviorPredictTargetMovementDefinition.new(fields) return end

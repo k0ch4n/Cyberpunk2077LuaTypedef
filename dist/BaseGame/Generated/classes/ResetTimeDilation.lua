@@ -6,6 +6,6 @@
 ---@field public global Bool
 ResetTimeDilation = {}
 
----@param fields? table
+---@param fields? ResetTimeDilation
 ---@return ResetTimeDilation
 function ResetTimeDilation.new(fields) return end

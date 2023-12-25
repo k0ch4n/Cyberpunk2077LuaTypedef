@@ -13,6 +13,6 @@
 ---@field public chestSquareScale Float
 animLookAtPreset_FullControl = {}
 
----@param fields? table
+---@param fields? animLookAtPreset_FullControl
 ---@return animLookAtPreset_FullControl
 function animLookAtPreset_FullControl.new(fields) return end

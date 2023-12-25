@@ -10,7 +10,7 @@
 ---@field public pictureTweak TweakDBID
 gameJournalEmail = {}
 
----@param fields? table
+---@param fields? gameJournalEmail
 ---@return gameJournalEmail
 function gameJournalEmail.new(fields) return end
 

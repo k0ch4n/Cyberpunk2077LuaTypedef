@@ -5,7 +5,7 @@
 ---@field protected closeButtonWidget inkWidgetReference
 ComputerFullBannerWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerFullBannerWidgetController
 ---@return ComputerFullBannerWidgetController
 function ComputerFullBannerWidgetController.new(fields) return end
 

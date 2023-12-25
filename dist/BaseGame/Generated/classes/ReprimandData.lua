@@ -9,6 +9,6 @@
 ---@field public count Int32
 ReprimandData = {}
 
----@param fields? table
+---@param fields? ReprimandData
 ---@return ReprimandData
 function ReprimandData.new(fields) return end

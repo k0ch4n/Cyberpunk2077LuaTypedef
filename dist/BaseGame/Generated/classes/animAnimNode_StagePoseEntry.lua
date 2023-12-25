@@ -6,6 +6,6 @@
 ---@field public parentInput animPoseLink
 animAnimNode_StagePoseEntry = {}
 
----@param fields? table
+---@param fields? animAnimNode_StagePoseEntry
 ---@return animAnimNode_StagePoseEntry
 function animAnimNode_StagePoseEntry.new(fields) return end

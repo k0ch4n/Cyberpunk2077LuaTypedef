@@ -4,7 +4,7 @@
 ---@class SetTimeStampToArgumentFloat: SetArguments
 SetTimeStampToArgumentFloat = {}
 
----@param fields? table
+---@param fields? SetTimeStampToArgumentFloat
 ---@return SetTimeStampToArgumentFloat
 function SetTimeStampToArgumentFloat.new(fields) return end
 

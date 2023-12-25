@@ -4,7 +4,7 @@
 ---@class gamedataMappinUIPreventionSettings_Record: gamedataTweakDBRecord
 gamedataMappinUIPreventionSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUIPreventionSettings_Record
 ---@return gamedataMappinUIPreventionSettings_Record
 function gamedataMappinUIPreventionSettings_Record.new(fields) return end
 

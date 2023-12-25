@@ -13,6 +13,6 @@
 ---@field public customTransitionAnim CName
 animFacialEmotionTransitionEditData = {}
 
----@param fields? table
+---@param fields? animFacialEmotionTransitionEditData
 ---@return animFacialEmotionTransitionEditData
 function animFacialEmotionTransitionEditData.new(fields) return end

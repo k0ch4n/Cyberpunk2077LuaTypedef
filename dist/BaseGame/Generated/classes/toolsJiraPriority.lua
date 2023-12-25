@@ -5,6 +5,6 @@
 ---@field public name String
 toolsJiraPriority = {}
 
----@param fields? table
+---@param fields? toolsJiraPriority
 ---@return toolsJiraPriority
 function toolsJiraPriority.new(fields) return end

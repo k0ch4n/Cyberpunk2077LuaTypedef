@@ -9,6 +9,6 @@
 ---@field public tickComponent Bool
 gameStatusEffectComponentPS = {}
 
----@param fields? table
+---@param fields? gameStatusEffectComponentPS
 ---@return gameStatusEffectComponentPS
 function gameStatusEffectComponentPS.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public height Float
 CutCone = {}
 
----@param fields? table
+---@param fields? CutCone
 ---@return CutCone
 function CutCone.new(fields) return end

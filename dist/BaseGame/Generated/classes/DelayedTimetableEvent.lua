@@ -6,6 +6,6 @@
 ---@field public targetPS ScriptableDeviceComponentPS
 DelayedTimetableEvent = {}
 
----@param fields? table
+---@param fields? DelayedTimetableEvent
 ---@return DelayedTimetableEvent
 function DelayedTimetableEvent.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public trafficTryNeighborsForEnd Bool
 questvehicleFollowParams = {}
 
----@param fields? table
+---@param fields? questvehicleFollowParams
 ---@return questvehicleFollowParams
 function questvehicleFollowParams.new(fields) return end

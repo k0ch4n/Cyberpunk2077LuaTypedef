@@ -5,6 +5,6 @@
 ---@field public journalPath gameJournalPath
 questJournalNotification_ConditionType = {}
 
----@param fields? table
+---@param fields? questJournalNotification_ConditionType
 ---@return questJournalNotification_ConditionType
 function questJournalNotification_ConditionType.new(fields) return end

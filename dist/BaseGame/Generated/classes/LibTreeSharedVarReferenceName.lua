@@ -5,6 +5,6 @@
 ---@field public name CName
 LibTreeSharedVarReferenceName = {}
 
----@param fields? table
+---@param fields? LibTreeSharedVarReferenceName
 ---@return LibTreeSharedVarReferenceName
 function LibTreeSharedVarReferenceName.new(fields) return end

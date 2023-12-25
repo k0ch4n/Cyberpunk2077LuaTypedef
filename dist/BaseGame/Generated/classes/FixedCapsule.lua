@@ -6,6 +6,6 @@
 ---@field public Height Float
 FixedCapsule = {}
 
----@param fields? table
+---@param fields? FixedCapsule
 ---@return FixedCapsule
 function FixedCapsule.new(fields) return end

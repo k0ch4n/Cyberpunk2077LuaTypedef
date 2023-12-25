@@ -6,6 +6,6 @@
 ---@field public vehicle Bool
 worldNavigationDeniedAreaNode = {}
 
----@param fields? table
+---@param fields? worldNavigationDeniedAreaNode
 ---@return worldNavigationDeniedAreaNode
 function worldNavigationDeniedAreaNode.new(fields) return end

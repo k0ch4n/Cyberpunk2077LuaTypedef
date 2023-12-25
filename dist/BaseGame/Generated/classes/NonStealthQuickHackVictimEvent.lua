@@ -5,7 +5,7 @@
 ---@field public instigatorID entEntityID
 NonStealthQuickHackVictimEvent = {}
 
----@param fields? table
+---@param fields? NonStealthQuickHackVictimEvent
 ---@return NonStealthQuickHackVictimEvent
 function NonStealthQuickHackVictimEvent.new(fields) return end
 

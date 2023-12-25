@@ -7,6 +7,6 @@
 ---@field public duration Float
 gameTransformAnimationTrackItem = {}
 
----@param fields? table
+---@param fields? gameTransformAnimationTrackItem
 ---@return gameTransformAnimationTrackItem
 function gameTransformAnimationTrackItem.new(fields) return end

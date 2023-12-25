@@ -54,7 +54,7 @@
 ---@field private unlockState Int32
 NewPerksScreenLogicController = {}
 
----@param fields? table
+---@param fields? NewPerksScreenLogicController
 ---@return NewPerksScreenLogicController
 function NewPerksScreenLogicController.new(fields) return end
 

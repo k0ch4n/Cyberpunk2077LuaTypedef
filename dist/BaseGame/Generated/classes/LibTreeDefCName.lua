@@ -7,6 +7,6 @@
 ---@field public v CName
 LibTreeDefCName = {}
 
----@param fields? table
+---@param fields? LibTreeDefCName
 ---@return LibTreeDefCName
 function LibTreeDefCName.new(fields) return end

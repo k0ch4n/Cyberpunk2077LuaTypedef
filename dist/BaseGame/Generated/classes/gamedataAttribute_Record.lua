@@ -4,7 +4,7 @@
 ---@class gamedataAttribute_Record: gamedataStat_Record
 gamedataAttribute_Record = {}
 
----@param fields? table
+---@param fields? gamedataAttribute_Record
 ---@return gamedataAttribute_Record
 function gamedataAttribute_Record.new(fields) return end
 

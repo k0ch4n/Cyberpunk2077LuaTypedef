@@ -10,7 +10,7 @@
 ---@field protected delayEvaluationCbId Uint32
 PassiveCombatConditions = {}
 
----@param fields? table
+---@param fields? PassiveCombatConditions
 ---@return PassiveCombatConditions
 function PassiveCombatConditions.new(fields) return end
 

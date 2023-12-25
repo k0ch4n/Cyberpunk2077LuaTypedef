@@ -5,7 +5,7 @@
 ---@field private isShown Bool
 WallScreenControllerPS = {}
 
----@param fields? table
+---@param fields? WallScreenControllerPS
 ---@return WallScreenControllerPS
 function WallScreenControllerPS.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public listener StatusEffectPrereqListener
 StatusEffectPrereqState = {}
 
----@param fields? table
+---@param fields? StatusEffectPrereqState
 ---@return StatusEffectPrereqState
 function StatusEffectPrereqState.new(fields) return end
 

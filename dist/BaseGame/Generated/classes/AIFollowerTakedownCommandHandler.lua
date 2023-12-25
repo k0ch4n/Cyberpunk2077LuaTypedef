@@ -5,7 +5,7 @@
 ---@field public inCommand AIArgumentMapping
 AIFollowerTakedownCommandHandler = {}
 
----@param fields? table
+---@param fields? AIFollowerTakedownCommandHandler
 ---@return AIFollowerTakedownCommandHandler
 function AIFollowerTakedownCommandHandler.new(fields) return end
 

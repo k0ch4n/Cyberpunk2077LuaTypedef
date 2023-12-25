@@ -6,6 +6,6 @@
 ---@field public material CName
 entCorpseComponent = {}
 
----@param fields? table
+---@param fields? entCorpseComponent
 ---@return entCorpseComponent
 function entCorpseComponent.new(fields) return end

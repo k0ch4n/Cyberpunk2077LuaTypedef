@@ -4,6 +4,6 @@
 ---@class gameBlockAmmoDrop: gameScriptableSystemRequest
 gameBlockAmmoDrop = {}
 
----@param fields? table
+---@param fields? gameBlockAmmoDrop
 ---@return gameBlockAmmoDrop
 function gameBlockAmmoDrop.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public entriesVisibility questHUDEntryVisibilityData[]
 gameuiRootHudSaveData = {}
 
----@param fields? table
+---@param fields? gameuiRootHudSaveData
 ---@return gameuiRootHudSaveData
 function gameuiRootHudSaveData.new(fields) return end

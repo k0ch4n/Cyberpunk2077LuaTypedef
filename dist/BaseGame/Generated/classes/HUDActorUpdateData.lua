@@ -20,6 +20,6 @@
 ---@field public isIconForcedVisibleThroughWallsValue Bool
 HUDActorUpdateData = {}
 
----@param fields? table
+---@param fields? HUDActorUpdateData
 ---@return HUDActorUpdateData
 function HUDActorUpdateData.new(fields) return end

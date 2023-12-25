@@ -4,6 +4,6 @@
 ---@class inkGameNotificationsLayer: inkFullScreenLayer
 inkGameNotificationsLayer = {}
 
----@param fields? table
+---@param fields? inkGameNotificationsLayer
 ---@return inkGameNotificationsLayer
 function inkGameNotificationsLayer.new(fields) return end

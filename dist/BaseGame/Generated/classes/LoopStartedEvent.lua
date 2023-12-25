@@ -4,6 +4,6 @@
 ---@class LoopStartedEvent: redEvent
 LoopStartedEvent = {}
 
----@param fields? table
+---@param fields? LoopStartedEvent
 ---@return LoopStartedEvent
 function LoopStartedEvent.new(fields) return end

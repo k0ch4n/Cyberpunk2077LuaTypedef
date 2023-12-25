@@ -20,6 +20,6 @@
 ---@field public genericCombatSingleEnemyVOContexts CName[]
 audioCombatVoManagerSettings = {}
 
----@param fields? table
+---@param fields? audioCombatVoManagerSettings
 ---@return audioCombatVoManagerSettings
 function audioCombatVoManagerSettings.new(fields) return end

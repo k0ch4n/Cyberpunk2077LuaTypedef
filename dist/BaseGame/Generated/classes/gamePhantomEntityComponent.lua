@@ -6,6 +6,6 @@
 ---@field public effectBinding gameEffectComponentBinding
 gamePhantomEntityComponent = {}
 
----@param fields? table
+---@param fields? gamePhantomEntityComponent
 ---@return gamePhantomEntityComponent
 function gamePhantomEntityComponent.new(fields) return end

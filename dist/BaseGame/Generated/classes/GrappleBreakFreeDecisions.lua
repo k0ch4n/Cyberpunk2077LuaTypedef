@@ -4,7 +4,7 @@
 ---@class GrappleBreakFreeDecisions: GrappleStandEvents
 GrappleBreakFreeDecisions = {}
 
----@param fields? table
+---@param fields? GrappleBreakFreeDecisions
 ---@return GrappleBreakFreeDecisions
 function GrappleBreakFreeDecisions.new(fields) return end
 

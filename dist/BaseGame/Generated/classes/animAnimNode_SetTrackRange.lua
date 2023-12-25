@@ -14,6 +14,6 @@
 ---@field public debug Bool
 animAnimNode_SetTrackRange = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetTrackRange
 ---@return animAnimNode_SetTrackRange
 function animAnimNode_SetTrackRange.new(fields) return end

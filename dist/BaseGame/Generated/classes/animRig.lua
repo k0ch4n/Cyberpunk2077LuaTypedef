@@ -21,6 +21,6 @@
 ---@field public ragdollNames physicsRagdollBodyNames[]
 animRig = {}
 
----@param fields? table
+---@param fields? animRig
 ---@return animRig
 function animRig.new(fields) return end

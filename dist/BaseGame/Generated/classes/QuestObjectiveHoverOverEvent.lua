@@ -4,6 +4,6 @@
 ---@class QuestObjectiveHoverOverEvent: redEvent
 QuestObjectiveHoverOverEvent = {}
 
----@param fields? table
+---@param fields? QuestObjectiveHoverOverEvent
 ---@return QuestObjectiveHoverOverEvent
 function QuestObjectiveHoverOverEvent.new(fields) return end

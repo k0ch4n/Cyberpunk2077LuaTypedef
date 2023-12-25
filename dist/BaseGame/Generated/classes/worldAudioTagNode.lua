@@ -6,6 +6,6 @@
 ---@field public radius Float
 worldAudioTagNode = {}
 
----@param fields? table
+---@param fields? worldAudioTagNode
 ---@return worldAudioTagNode
 function worldAudioTagNode.new(fields) return end

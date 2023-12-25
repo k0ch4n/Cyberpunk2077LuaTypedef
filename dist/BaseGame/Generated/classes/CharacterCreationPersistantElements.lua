@@ -19,7 +19,7 @@
 ---@field public c_fluffMaxY Float
 CharacterCreationPersistantElements = {}
 
----@param fields? table
+---@param fields? CharacterCreationPersistantElements
 ---@return CharacterCreationPersistantElements
 function CharacterCreationPersistantElements.new(fields) return end
 

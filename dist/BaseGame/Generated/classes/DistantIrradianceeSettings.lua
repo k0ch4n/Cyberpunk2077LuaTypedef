@@ -9,6 +9,6 @@
 ---@field public blendDistance curveData
 DistantIrradianceeSettings = {}
 
----@param fields? table
+---@param fields? DistantIrradianceeSettings
 ---@return DistantIrradianceeSettings
 function DistantIrradianceeSettings.new(fields) return end

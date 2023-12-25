@@ -5,6 +5,6 @@
 ---@field public isAnyInput Bool
 TCSInputXYAxisEvent = {}
 
----@param fields? table
+---@param fields? TCSInputXYAxisEvent
 ---@return TCSInputXYAxisEvent
 function TCSInputXYAxisEvent.new(fields) return end

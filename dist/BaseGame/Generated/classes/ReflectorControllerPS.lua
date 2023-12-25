@@ -4,7 +4,7 @@
 ---@class ReflectorControllerPS: BlindingLightControllerPS
 ReflectorControllerPS = {}
 
----@param fields? table
+---@param fields? ReflectorControllerPS
 ---@return ReflectorControllerPS
 function ReflectorControllerPS.new(fields) return end
 

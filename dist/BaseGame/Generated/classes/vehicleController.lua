@@ -7,7 +7,7 @@
 ---@field public overrideHeadlightsSettingsForPlayer Bool
 vehicleController = {}
 
----@param fields? table
+---@param fields? vehicleController
 ---@return vehicleController
 function vehicleController.new(fields) return end
 

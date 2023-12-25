@@ -8,6 +8,6 @@
 ---@field public maxCount Uint32
 worldDebugColoring_TrianglesPerMesh = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_TrianglesPerMesh
 ---@return worldDebugColoring_TrianglesPerMesh
 function worldDebugColoring_TrianglesPerMesh.new(fields) return end

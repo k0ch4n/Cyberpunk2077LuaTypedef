@@ -11,6 +11,6 @@
 ---@field public offset QsTransform
 animStackTransformsExtender_Entry = {}
 
----@param fields? table
+---@param fields? animStackTransformsExtender_Entry
 ---@return animStackTransformsExtender_Entry
 function animStackTransformsExtender_Entry.new(fields) return end

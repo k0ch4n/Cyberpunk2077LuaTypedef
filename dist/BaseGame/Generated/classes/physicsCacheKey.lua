@@ -6,6 +6,6 @@
 ---@field public entryIndex Uint32
 physicsCacheKey = {}
 
----@param fields? table
+---@param fields? physicsCacheKey
 ---@return physicsCacheKey
 function physicsCacheKey.new(fields) return end

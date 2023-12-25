@@ -9,6 +9,6 @@
 ---@field public tryDriveAwayFromPlayer Bool
 questvehiclePanicParams = {}
 
----@param fields? table
+---@param fields? questvehiclePanicParams
 ---@return questvehiclePanicParams
 function questvehiclePanicParams.new(fields) return end

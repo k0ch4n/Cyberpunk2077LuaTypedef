@@ -17,6 +17,6 @@
 ---@field public compiledEntityLODFlags Uint16
 entEntityTemplate = {}
 
----@param fields? table
+---@param fields? entEntityTemplate
 ---@return entEntityTemplate
 function entEntityTemplate.new(fields) return end

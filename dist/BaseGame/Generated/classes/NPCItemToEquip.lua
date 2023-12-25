@@ -7,6 +7,6 @@
 ---@field public bodySlotID TweakDBID
 NPCItemToEquip = {}
 
----@param fields? table
+---@param fields? NPCItemToEquip
 ---@return NPCItemToEquip
 function NPCItemToEquip.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamePrereqState: IScriptable
 gamePrereqState = {}
 
----@param fields? table
+---@param fields? gamePrereqState
 ---@return gamePrereqState
 function gamePrereqState.new(fields) return end
 

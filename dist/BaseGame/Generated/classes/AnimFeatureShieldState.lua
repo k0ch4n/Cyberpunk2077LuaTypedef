@@ -5,6 +5,6 @@
 ---@field public state Int32
 AnimFeatureShieldState = {}
 
----@param fields? table
+---@param fields? AnimFeatureShieldState
 ---@return AnimFeatureShieldState
 function AnimFeatureShieldState.new(fields) return end

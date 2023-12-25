@@ -5,6 +5,6 @@
 ---@field public passToEntity Bool
 RefreshFloorAuthorizationDataEvent = {}
 
----@param fields? table
+---@param fields? RefreshFloorAuthorizationDataEvent
 ---@return RefreshFloorAuthorizationDataEvent
 function RefreshFloorAuthorizationDataEvent.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public ESL ESecurityAccessLevel
 AuthorizePlayerInSecuritySystem = {}
 
----@param fields? table
+---@param fields? AuthorizePlayerInSecuritySystem
 ---@return AuthorizePlayerInSecuritySystem
 function AuthorizePlayerInSecuritySystem.new(fields) return end
 

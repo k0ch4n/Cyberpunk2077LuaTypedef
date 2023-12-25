@@ -6,6 +6,6 @@
 ---@field public paymentMoney Int32
 PaymentBluelinePart = {}
 
----@param fields? table
+---@param fields? PaymentBluelinePart
 ---@return PaymentBluelinePart
 function PaymentBluelinePart.new(fields) return end

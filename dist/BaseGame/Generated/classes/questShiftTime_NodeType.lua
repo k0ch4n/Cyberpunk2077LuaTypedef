@@ -9,6 +9,6 @@
 ---@field public seconds Uint32
 questShiftTime_NodeType = {}
 
----@param fields? table
+---@param fields? questShiftTime_NodeType
 ---@return questShiftTime_NodeType
 function questShiftTime_NodeType.new(fields) return end

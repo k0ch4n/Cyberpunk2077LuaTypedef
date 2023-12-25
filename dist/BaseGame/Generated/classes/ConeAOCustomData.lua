@@ -4,6 +4,6 @@
 ---@class ConeAOCustomData: ICameraStorageCustomData
 ConeAOCustomData = {}
 
----@param fields? table
+---@param fields? ConeAOCustomData
 ---@return ConeAOCustomData
 function ConeAOCustomData.new(fields) return end

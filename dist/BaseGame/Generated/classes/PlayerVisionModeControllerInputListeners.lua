@@ -8,6 +8,6 @@
 ---@field public driverCombatButtonActivate Uint32
 PlayerVisionModeControllerInputListeners = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerInputListeners
 ---@return PlayerVisionModeControllerInputListeners
 function PlayerVisionModeControllerInputListeners.new(fields) return end

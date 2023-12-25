@@ -5,7 +5,7 @@
 ---@field public textLayerId Uint32
 Stagger = {}
 
----@param fields? table
+---@param fields? Stagger
 ---@return Stagger
 function Stagger.new(fields) return end
 

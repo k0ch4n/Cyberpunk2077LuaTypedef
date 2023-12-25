@@ -4,7 +4,7 @@
 ---@class gamedataLifePath_Record: gamedataTweakDBRecord
 gamedataLifePath_Record = {}
 
----@param fields? table
+---@param fields? gamedataLifePath_Record
 ---@return gamedataLifePath_Record
 function gamedataLifePath_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class vehicleVehicleProxyBlendCamera: gameCameraComponent
 vehicleVehicleProxyBlendCamera = {}
 
----@param fields? table
+---@param fields? vehicleVehicleProxyBlendCamera
 ---@return vehicleVehicleProxyBlendCamera
 function vehicleVehicleProxyBlendCamera.new(fields) return end

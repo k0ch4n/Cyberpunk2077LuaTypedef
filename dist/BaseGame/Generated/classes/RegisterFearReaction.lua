@@ -4,7 +4,7 @@
 ---@class RegisterFearReaction: AIbehaviortaskScript
 RegisterFearReaction = {}
 
----@param fields? table
+---@param fields? RegisterFearReaction
 ---@return RegisterFearReaction
 function RegisterFearReaction.new(fields) return end
 

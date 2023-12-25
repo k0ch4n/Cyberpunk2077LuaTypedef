@@ -6,6 +6,6 @@
 ---@field public data Variant
 MaterialParameterInstance = {}
 
----@param fields? table
+---@param fields? MaterialParameterInstance
 ---@return MaterialParameterInstance
 function MaterialParameterInstance.new(fields) return end

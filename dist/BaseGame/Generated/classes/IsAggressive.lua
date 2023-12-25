@@ -4,7 +4,7 @@
 ---@class IsAggressive: AIbehaviorconditionScript
 IsAggressive = {}
 
----@param fields? table
+---@param fields? IsAggressive
 ---@return IsAggressive
 function IsAggressive.new(fields) return end
 

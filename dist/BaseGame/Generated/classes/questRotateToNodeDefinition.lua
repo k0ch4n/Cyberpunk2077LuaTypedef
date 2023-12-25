@@ -6,6 +6,6 @@
 ---@field public params questRotateToParams
 questRotateToNodeDefinition = {}
 
----@param fields? table
+---@param fields? questRotateToNodeDefinition
 ---@return questRotateToNodeDefinition
 function questRotateToNodeDefinition.new(fields) return end

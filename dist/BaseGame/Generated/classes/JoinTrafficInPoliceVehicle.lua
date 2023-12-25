@@ -6,7 +6,7 @@
 ---@field public panicDrivingCmd AIVehiclePanicCommand
 JoinTrafficInPoliceVehicle = {}
 
----@param fields? table
+---@param fields? JoinTrafficInPoliceVehicle
 ---@return JoinTrafficInPoliceVehicle
 function JoinTrafficInPoliceVehicle.new(fields) return end
 

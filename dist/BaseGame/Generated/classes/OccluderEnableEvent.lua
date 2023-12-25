@@ -4,6 +4,6 @@
 ---@class OccluderEnableEvent: redEvent
 OccluderEnableEvent = {}
 
----@param fields? table
+---@param fields? OccluderEnableEvent
 ---@return OccluderEnableEvent
 function OccluderEnableEvent.new(fields) return end

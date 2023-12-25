@@ -4,7 +4,7 @@
 ---@class gameGameTagSystem: gameIGameSystem
 gameGameTagSystem = {}
 
----@param fields? table
+---@param fields? gameGameTagSystem
 ---@return gameGameTagSystem
 function gameGameTagSystem.new(fields) return end
 

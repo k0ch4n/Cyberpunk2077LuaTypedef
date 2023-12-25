@@ -8,6 +8,6 @@
 ---@field public mesh CMesh
 worldInstancedOccluderNode = {}
 
----@param fields? table
+---@param fields? worldInstancedOccluderNode
 ---@return worldInstancedOccluderNode
 function worldInstancedOccluderNode.new(fields) return end

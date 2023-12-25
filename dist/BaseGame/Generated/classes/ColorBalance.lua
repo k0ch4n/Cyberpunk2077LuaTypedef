@@ -8,6 +8,6 @@
 ---@field public Luminance Float
 ColorBalance = {}
 
----@param fields? table
+---@param fields? ColorBalance
 ---@return ColorBalance
 function ColorBalance.new(fields) return end

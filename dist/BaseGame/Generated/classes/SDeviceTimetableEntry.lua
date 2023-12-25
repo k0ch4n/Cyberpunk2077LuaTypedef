@@ -7,6 +7,6 @@
 ---@field public entryID Uint32
 SDeviceTimetableEntry = {}
 
----@param fields? table
+---@param fields? SDeviceTimetableEntry
 ---@return SDeviceTimetableEntry
 function SDeviceTimetableEntry.new(fields) return end

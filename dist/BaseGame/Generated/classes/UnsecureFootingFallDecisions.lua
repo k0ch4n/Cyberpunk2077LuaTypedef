@@ -4,7 +4,7 @@
 ---@class UnsecureFootingFallDecisions: FallDecisions
 UnsecureFootingFallDecisions = {}
 
----@param fields? table
+---@param fields? UnsecureFootingFallDecisions
 ---@return UnsecureFootingFallDecisions
 function UnsecureFootingFallDecisions.new(fields) return end
 

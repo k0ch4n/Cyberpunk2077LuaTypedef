@@ -5,6 +5,6 @@
 ---@field public value Vector4
 gamestateMachineeventPostponedParameterVector = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventPostponedParameterVector
 ---@return gamestateMachineeventPostponedParameterVector
 function gamestateMachineeventPostponedParameterVector.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public sfxToCache gamedataStatusEffectFX_Record[]
 CacheStatusEffectFXEvent = {}
 
----@param fields? table
+---@param fields? CacheStatusEffectFXEvent
 ---@return CacheStatusEffectFXEvent
 function CacheStatusEffectFXEvent.new(fields) return end

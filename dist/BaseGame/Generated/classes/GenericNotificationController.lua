@@ -15,7 +15,7 @@
 ---@field protected customInputActionName CName
 GenericNotificationController = {}
 
----@param fields? table
+---@param fields? GenericNotificationController
 ---@return GenericNotificationController
 function GenericNotificationController.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public statValue Int32
 MinimalItemTooltipDataStatRequirement = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipDataStatRequirement
 ---@return MinimalItemTooltipDataStatRequirement
 function MinimalItemTooltipDataStatRequirement.new(fields) return end

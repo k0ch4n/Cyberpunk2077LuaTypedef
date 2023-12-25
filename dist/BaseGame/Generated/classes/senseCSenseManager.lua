@@ -4,7 +4,7 @@
 ---@class senseCSenseManager: senseISenseManager
 senseCSenseManager = {}
 
----@param fields? table
+---@param fields? senseCSenseManager
 ---@return senseCSenseManager
 function senseCSenseManager.new(fields) return end
 

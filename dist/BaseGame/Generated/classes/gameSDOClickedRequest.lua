@@ -6,6 +6,6 @@
 ---@field public key CName
 gameSDOClickedRequest = {}
 
----@param fields? table
+---@param fields? gameSDOClickedRequest
 ---@return gameSDOClickedRequest
 function gameSDOClickedRequest.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public Context ScreenDisplayContext
 ScreenDisplayContextData = {}
 
----@param fields? table
+---@param fields? ScreenDisplayContextData
 ---@return ScreenDisplayContextData
 function ScreenDisplayContextData.new(fields) return end
 

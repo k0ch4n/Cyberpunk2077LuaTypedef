@@ -5,6 +5,6 @@
 ---@field public entries animAnimNode_SetDrivenKey_InternalsEntry[]
 animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline = {}
 
----@param fields? table
+---@param fields? animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline
 ---@return animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline
 function animAnimNode_SetDrivenKey_InternalsSetDrivenKeyEntryProviderInline.new(fields) return end

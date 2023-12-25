@@ -10,6 +10,6 @@
 ---@field public locomotionMode gamedataLocomotionMode[]
 AIActionNPCStates = {}
 
----@param fields? table
+---@param fields? AIActionNPCStates
 ---@return AIActionNPCStates
 function AIActionNPCStates.new(fields) return end

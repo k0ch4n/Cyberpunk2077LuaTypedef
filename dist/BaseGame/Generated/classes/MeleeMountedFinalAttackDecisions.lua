@@ -4,7 +4,7 @@
 ---@class MeleeMountedFinalAttackDecisions: MeleeFinalAttackDecisions
 MeleeMountedFinalAttackDecisions = {}
 
----@param fields? table
+---@param fields? MeleeMountedFinalAttackDecisions
 ---@return MeleeMountedFinalAttackDecisions
 function MeleeMountedFinalAttackDecisions.new(fields) return end
 

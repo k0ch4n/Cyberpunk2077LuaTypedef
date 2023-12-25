@@ -9,6 +9,6 @@
 ---@field public uiAnimation TweakDBID
 gameJournalQuestMapPin = {}
 
----@param fields? table
+---@param fields? gameJournalQuestMapPin
 ---@return gameJournalQuestMapPin
 function gameJournalQuestMapPin.new(fields) return end

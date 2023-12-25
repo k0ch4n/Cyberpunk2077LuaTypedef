@@ -6,6 +6,6 @@
 ---@field public entryID Int32
 RecipientData = {}
 
----@param fields? table
+---@param fields? RecipientData
 ---@return RecipientData
 function RecipientData.new(fields) return end

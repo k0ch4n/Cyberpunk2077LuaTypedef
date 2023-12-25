@@ -9,6 +9,6 @@
 ---@field public twoSided Bool
 visOccluderMeshResource = {}
 
----@param fields? table
+---@param fields? visOccluderMeshResource
 ---@return visOccluderMeshResource
 function visOccluderMeshResource.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public suppressOutgoingEvents Bool
 SecuritySystemData = {}
 
----@param fields? table
+---@param fields? SecuritySystemData
 ---@return SecuritySystemData
 function SecuritySystemData.new(fields) return end
 

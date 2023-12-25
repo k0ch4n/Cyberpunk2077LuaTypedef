@@ -7,6 +7,6 @@
 ---@field public oneMinus Bool
 animAnimNode_TagValue = {}
 
----@param fields? table
+---@param fields? animAnimNode_TagValue
 ---@return animAnimNode_TagValue
 function animAnimNode_TagValue.new(fields) return end

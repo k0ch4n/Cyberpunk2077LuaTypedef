@@ -12,7 +12,7 @@
 ---@field private main_canvas inkWidget
 TerminalMainLayoutWidgetController = {}
 
----@param fields? table
+---@param fields? TerminalMainLayoutWidgetController
 ---@return TerminalMainLayoutWidgetController
 function TerminalMainLayoutWidgetController.new(fields) return end
 

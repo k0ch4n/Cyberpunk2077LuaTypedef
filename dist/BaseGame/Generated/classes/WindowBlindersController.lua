@@ -4,7 +4,7 @@
 ---@class WindowBlindersController: ScriptableDeviceComponent
 WindowBlindersController = {}
 
----@param fields? table
+---@param fields? WindowBlindersController
 ---@return WindowBlindersController
 function WindowBlindersController.new(fields) return end
 

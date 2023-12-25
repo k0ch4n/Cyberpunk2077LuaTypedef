@@ -6,6 +6,6 @@
 ---@field public GlobalMetadata CName
 questAnimationEventsOverrideNode = {}
 
----@param fields? table
+---@param fields? questAnimationEventsOverrideNode
 ---@return questAnimationEventsOverrideNode
 function questAnimationEventsOverrideNode.new(fields) return end

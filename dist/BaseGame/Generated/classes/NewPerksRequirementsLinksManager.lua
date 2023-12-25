@@ -5,7 +5,7 @@
 ---@field public cache NewPerksRequirementsLinks[]
 NewPerksRequirementsLinksManager = {}
 
----@param fields? table
+---@param fields? NewPerksRequirementsLinksManager
 ---@return NewPerksRequirementsLinksManager
 function NewPerksRequirementsLinksManager.new(fields) return end
 

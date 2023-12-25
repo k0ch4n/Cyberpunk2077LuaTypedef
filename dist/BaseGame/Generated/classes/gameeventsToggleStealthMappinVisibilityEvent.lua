@@ -5,6 +5,6 @@
 ---@field public show Bool
 gameeventsToggleStealthMappinVisibilityEvent = {}
 
----@param fields? table
+---@param fields? gameeventsToggleStealthMappinVisibilityEvent
 ---@return gameeventsToggleStealthMappinVisibilityEvent
 function gameeventsToggleStealthMappinVisibilityEvent.new(fields) return end

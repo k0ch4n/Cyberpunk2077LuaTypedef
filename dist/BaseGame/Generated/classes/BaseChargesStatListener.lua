@@ -11,7 +11,7 @@
 ---@field public finalString String
 BaseChargesStatListener = {}
 
----@param fields? table
+---@param fields? BaseChargesStatListener
 ---@return BaseChargesStatListener
 function BaseChargesStatListener.new(fields) return end
 

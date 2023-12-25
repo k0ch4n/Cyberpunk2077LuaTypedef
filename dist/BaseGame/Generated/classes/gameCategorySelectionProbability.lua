@@ -5,6 +5,6 @@
 ---@field public probabilities gameSpotSequenceCategory[]
 gameCategorySelectionProbability = {}
 
----@param fields? table
+---@param fields? gameCategorySelectionProbability
 ---@return gameCategorySelectionProbability
 function gameCategorySelectionProbability.new(fields) return end

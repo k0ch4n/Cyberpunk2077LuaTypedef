@@ -10,7 +10,7 @@
 ---@field private armed Bool
 ClaymoreMine = {}
 
----@param fields? table
+---@param fields? ClaymoreMine
 ---@return ClaymoreMine
 function ClaymoreMine.new(fields) return end
 

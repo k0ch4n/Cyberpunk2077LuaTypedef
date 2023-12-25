@@ -4,7 +4,7 @@
 ---@class NumericDisplayController: ScriptableDeviceComponent
 NumericDisplayController = {}
 
----@param fields? table
+---@param fields? NumericDisplayController
 ---@return NumericDisplayController
 function NumericDisplayController.new(fields) return end
 

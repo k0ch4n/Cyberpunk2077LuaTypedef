@@ -14,7 +14,7 @@
 ---@field private canSkipTime Bool
 HubTimeSkipController = {}
 
----@param fields? table
+---@param fields? HubTimeSkipController
 ---@return HubTimeSkipController
 function HubTimeSkipController.new(fields) return end
 

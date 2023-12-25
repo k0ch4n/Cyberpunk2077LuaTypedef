@@ -10,7 +10,7 @@
 ---@field private debugFFSceneThrehsold Int32
 BraindanceSystem = {}
 
----@param fields? table
+---@param fields? BraindanceSystem
 ---@return BraindanceSystem
 function BraindanceSystem.new(fields) return end
 

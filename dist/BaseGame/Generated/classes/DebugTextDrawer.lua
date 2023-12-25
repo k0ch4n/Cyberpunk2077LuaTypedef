@@ -6,7 +6,7 @@
 ---@field private color Color
 DebugTextDrawer = {}
 
----@param fields? table
+---@param fields? DebugTextDrawer
 ---@return DebugTextDrawer
 function DebugTextDrawer.new(fields) return end
 

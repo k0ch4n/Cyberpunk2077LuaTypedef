@@ -6,6 +6,6 @@
 ---@field public permanentlyEnabledByDefault Bool
 worldCrowdNullAreaNode = {}
 
----@param fields? table
+---@param fields? worldCrowdNullAreaNode
 ---@return worldCrowdNullAreaNode
 function worldCrowdNullAreaNode.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public visuals questPhoneCallVisuals
 questTriggerCallRequest = {}
 
----@param fields? table
+---@param fields? questTriggerCallRequest
 ---@return questTriggerCallRequest
 function questTriggerCallRequest.new(fields) return end

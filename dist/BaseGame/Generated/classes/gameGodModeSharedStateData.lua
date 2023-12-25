@@ -6,6 +6,6 @@
 ---@field public flags Int32
 gameGodModeSharedStateData = {}
 
----@param fields? table
+---@param fields? gameGodModeSharedStateData
 ---@return gameGodModeSharedStateData
 function gameGodModeSharedStateData.new(fields) return end

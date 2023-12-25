@@ -4,6 +4,6 @@
 ---@class scnDummyAlwaysTrueReturnCondition: scnIReturnCondition
 scnDummyAlwaysTrueReturnCondition = {}
 
----@param fields? table
+---@param fields? scnDummyAlwaysTrueReturnCondition
 ---@return scnDummyAlwaysTrueReturnCondition
 function scnDummyAlwaysTrueReturnCondition.new(fields) return end

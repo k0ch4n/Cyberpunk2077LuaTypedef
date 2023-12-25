@@ -4,6 +4,6 @@
 ---@class ClearAllRevealRequestsEvent: redEvent
 ClearAllRevealRequestsEvent = {}
 
----@param fields? table
+---@param fields? ClearAllRevealRequestsEvent
 ---@return ClearAllRevealRequestsEvent
 function ClearAllRevealRequestsEvent.new(fields) return end

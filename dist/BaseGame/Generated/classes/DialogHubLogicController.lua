@@ -34,7 +34,7 @@
 ---@field private spawnTokens inkAsyncSpawnRequest[]
 DialogHubLogicController = {}
 
----@param fields? table
+---@param fields? DialogHubLogicController
 ---@return DialogHubLogicController
 function DialogHubLogicController.new(fields) return end
 

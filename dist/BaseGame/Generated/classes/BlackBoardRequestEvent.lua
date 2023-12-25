@@ -7,7 +7,7 @@
 ---@field protected entryTag CName
 BlackBoardRequestEvent = {}
 
----@param fields? table
+---@param fields? BlackBoardRequestEvent
 ---@return BlackBoardRequestEvent
 function BlackBoardRequestEvent.new(fields) return end
 

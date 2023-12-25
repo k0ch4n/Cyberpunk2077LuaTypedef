@@ -5,7 +5,7 @@
 ---@field private hudController gameuiHUDGameController
 OverclockHudListener = {}
 
----@param fields? table
+---@param fields? OverclockHudListener
 ---@return OverclockHudListener
 function OverclockHudListener.new(fields) return end
 

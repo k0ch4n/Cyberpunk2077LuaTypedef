@@ -4,6 +4,6 @@
 ---@class inkEngagementScreenState: inkIStateMachineState
 inkEngagementScreenState = {}
 
----@param fields? table
+---@param fields? inkEngagementScreenState
 ---@return inkEngagementScreenState
 function inkEngagementScreenState.new(fields) return end

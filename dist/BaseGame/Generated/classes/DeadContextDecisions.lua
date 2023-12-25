@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 DeadContextDecisions = {}
 
----@param fields? table
+---@param fields? DeadContextDecisions
 ---@return DeadContextDecisions
 function DeadContextDecisions.new(fields) return end
 

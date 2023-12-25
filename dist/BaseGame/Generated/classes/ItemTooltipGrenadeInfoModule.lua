@@ -15,7 +15,7 @@
 ---@field private deliveryText inkTextWidgetReference
 ItemTooltipGrenadeInfoModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipGrenadeInfoModule
 ---@return ItemTooltipGrenadeInfoModule
 function ItemTooltipGrenadeInfoModule.new(fields) return end
 

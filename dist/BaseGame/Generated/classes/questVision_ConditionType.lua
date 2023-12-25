@@ -9,6 +9,6 @@
 ---@field public isInstant Bool
 questVision_ConditionType = {}
 
----@param fields? table
+---@param fields? questVision_ConditionType
 ---@return questVision_ConditionType
 function questVision_ConditionType.new(fields) return end

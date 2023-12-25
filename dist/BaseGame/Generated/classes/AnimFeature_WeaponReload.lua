@@ -9,6 +9,6 @@
 ---@field public emptyDuration Float
 AnimFeature_WeaponReload = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponReload
 ---@return AnimFeature_WeaponReload
 function AnimFeature_WeaponReload.new(fields) return end

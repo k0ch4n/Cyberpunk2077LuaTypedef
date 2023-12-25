@@ -8,6 +8,6 @@
 ---@field public instant Bool
 gameEquipParam = {}
 
----@param fields? table
+---@param fields? gameEquipParam
 ---@return gameEquipParam
 function gameEquipParam.new(fields) return end

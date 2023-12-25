@@ -10,6 +10,6 @@
 ---@field public timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisInteractionChoiceHubData = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisInteractionChoiceHubData
 ---@return gameinteractionsvisInteractionChoiceHubData
 function gameinteractionsvisInteractionChoiceHubData.new(fields) return end

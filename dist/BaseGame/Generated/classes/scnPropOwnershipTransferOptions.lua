@@ -7,6 +7,6 @@
 ---@field public removeFromInventory Bool
 scnPropOwnershipTransferOptions = {}
 
----@param fields? table
+---@param fields? scnPropOwnershipTransferOptions
 ---@return scnPropOwnershipTransferOptions
 function scnPropOwnershipTransferOptions.new(fields) return end

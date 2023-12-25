@@ -7,6 +7,6 @@
 ---@field public negateOutput Bool
 animAnimNode_LookAtPose360Direction = {}
 
----@param fields? table
+---@param fields? animAnimNode_LookAtPose360Direction
 ---@return animAnimNode_LookAtPose360Direction
 function animAnimNode_LookAtPose360Direction.new(fields) return end

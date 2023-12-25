@@ -5,7 +5,7 @@
 ---@field public ragdollReenabled Bool
 DropEvents = {}
 
----@param fields? table
+---@param fields? DropEvents
 ---@return DropEvents
 function DropEvents.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected paperdollPuppet gamePuppet
 ItemInPaperdollSlotCallback = {}
 
----@param fields? table
+---@param fields? ItemInPaperdollSlotCallback
 ---@return ItemInPaperdollSlotCallback
 function ItemInPaperdollSlotCallback.new(fields) return end
 

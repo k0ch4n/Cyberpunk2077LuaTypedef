@@ -4,7 +4,7 @@
 ---@class gamedataSmartGunTargetSortConfigurations_Record: gamedataTweakDBRecord
 gamedataSmartGunTargetSortConfigurations_Record = {}
 
----@param fields? table
+---@param fields? gamedataSmartGunTargetSortConfigurations_Record
 ---@return gamedataSmartGunTargetSortConfigurations_Record
 function gamedataSmartGunTargetSortConfigurations_Record.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public revealMaster Bool
 RevealDevicesGridEvent = {}
 
----@param fields? table
+---@param fields? RevealDevicesGridEvent
 ---@return RevealDevicesGridEvent
 function RevealDevicesGridEvent.new(fields) return end

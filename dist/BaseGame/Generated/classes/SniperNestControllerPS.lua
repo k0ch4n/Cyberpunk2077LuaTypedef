@@ -6,7 +6,7 @@
 ---@field private isRippedOff Bool
 SniperNestControllerPS = {}
 
----@param fields? table
+---@param fields? SniperNestControllerPS
 ---@return SniperNestControllerPS
 function SniperNestControllerPS.new(fields) return end
 

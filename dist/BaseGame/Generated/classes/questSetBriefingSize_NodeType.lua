@@ -5,6 +5,6 @@
 ---@field public briefingSize questJournalSizeEventType
 questSetBriefingSize_NodeType = {}
 
----@param fields? table
+---@param fields? questSetBriefingSize_NodeType
 ---@return questSetBriefingSize_NodeType
 function questSetBriefingSize_NodeType.new(fields) return end

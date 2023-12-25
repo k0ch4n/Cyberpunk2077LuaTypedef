@@ -4,7 +4,7 @@
 ---@class DeviceDirectInteractionCondition: gameinteractionsInteractionScriptedCondition
 DeviceDirectInteractionCondition = {}
 
----@param fields? table
+---@param fields? DeviceDirectInteractionCondition
 ---@return DeviceDirectInteractionCondition
 function DeviceDirectInteractionCondition.new(fields) return end
 

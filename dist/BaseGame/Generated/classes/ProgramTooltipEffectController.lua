@@ -4,7 +4,7 @@
 ---@class ProgramTooltipEffectController: ItemTooltipModController
 ProgramTooltipEffectController = {}
 
----@param fields? table
+---@param fields? ProgramTooltipEffectController
 ---@return ProgramTooltipEffectController
 function ProgramTooltipEffectController.new(fields) return end
 

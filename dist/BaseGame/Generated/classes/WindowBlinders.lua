@@ -13,7 +13,7 @@
 ---@field protected interactionBlockingCollider entIPlacedComponent
 WindowBlinders = {}
 
----@param fields? table
+---@param fields? WindowBlinders
 ---@return WindowBlinders
 function WindowBlinders.new(fields) return end
 

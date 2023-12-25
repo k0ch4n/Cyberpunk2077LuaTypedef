@@ -4,6 +4,6 @@
 ---@class ArmorBarFinalizedEvent: redEvent
 ArmorBarFinalizedEvent = {}
 
----@param fields? table
+---@param fields? ArmorBarFinalizedEvent
 ---@return ArmorBarFinalizedEvent
 function ArmorBarFinalizedEvent.new(fields) return end

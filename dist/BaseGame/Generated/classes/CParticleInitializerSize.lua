@@ -6,6 +6,6 @@
 ---@field public scale Float
 CParticleInitializerSize = {}
 
----@param fields? table
+---@param fields? CParticleInitializerSize
 ---@return CParticleInitializerSize
 function CParticleInitializerSize.new(fields) return end

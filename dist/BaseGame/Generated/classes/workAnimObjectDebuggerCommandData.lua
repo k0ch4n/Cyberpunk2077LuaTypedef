@@ -4,6 +4,6 @@
 ---@class workAnimObjectDebuggerCommandData: workDebuggerCommandData
 workAnimObjectDebuggerCommandData = {}
 
----@param fields? table
+---@param fields? workAnimObjectDebuggerCommandData
 ---@return workAnimObjectDebuggerCommandData
 function workAnimObjectDebuggerCommandData.new(fields) return end

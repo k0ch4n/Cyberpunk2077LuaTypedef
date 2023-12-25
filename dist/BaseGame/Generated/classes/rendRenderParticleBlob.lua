@@ -7,6 +7,6 @@
 ---@field public gpuSimShaders rendEmitterSimulationShaders
 rendRenderParticleBlob = {}
 
----@param fields? table
+---@param fields? rendRenderParticleBlob
 ---@return rendRenderParticleBlob
 function rendRenderParticleBlob.new(fields) return end

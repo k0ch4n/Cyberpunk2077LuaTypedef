@@ -4,7 +4,7 @@
 ---@class MenuScenario_DeathMenu: MenuScenario_BaseMenu
 MenuScenario_DeathMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_DeathMenu
 ---@return MenuScenario_DeathMenu
 function MenuScenario_DeathMenu.new(fields) return end
 

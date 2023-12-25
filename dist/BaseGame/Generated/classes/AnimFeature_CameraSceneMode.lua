@@ -7,6 +7,6 @@
 ---@field public scene_settings_mode Float
 AnimFeature_CameraSceneMode = {}
 
----@param fields? table
+---@param fields? AnimFeature_CameraSceneMode
 ---@return AnimFeature_CameraSceneMode
 function AnimFeature_CameraSceneMode.new(fields) return end

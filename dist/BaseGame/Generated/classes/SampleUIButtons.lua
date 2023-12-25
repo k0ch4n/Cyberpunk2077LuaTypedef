@@ -10,7 +10,7 @@
 ---@field private Text inkTextWidgetReference
 SampleUIButtons = {}
 
----@param fields? table
+---@param fields? SampleUIButtons
 ---@return SampleUIButtons
 function SampleUIButtons.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questMappinGPSComparison_ConditionType = {}
 
----@param fields? table
+---@param fields? questMappinGPSComparison_ConditionType
 ---@return questMappinGPSComparison_ConditionType
 function questMappinGPSComparison_ConditionType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameSourceShootComponent: entIComponent
 gameSourceShootComponent = {}
 
----@param fields? table
+---@param fields? gameSourceShootComponent
 ---@return gameSourceShootComponent
 function gameSourceShootComponent.new(fields) return end
 

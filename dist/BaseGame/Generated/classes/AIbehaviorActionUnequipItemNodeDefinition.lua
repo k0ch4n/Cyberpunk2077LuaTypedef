@@ -6,6 +6,6 @@
 ---@field public duration AIArgumentMapping
 AIbehaviorActionUnequipItemNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionUnequipItemNodeDefinition
 ---@return AIbehaviorActionUnequipItemNodeDefinition
 function AIbehaviorActionUnequipItemNodeDefinition.new(fields) return end

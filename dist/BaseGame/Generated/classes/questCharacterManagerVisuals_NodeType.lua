@@ -5,6 +5,6 @@
 ---@field public subtype questICharacterManagerVisuals_NodeSubType
 questCharacterManagerVisuals_NodeType = {}
 
----@param fields? table
+---@param fields? questCharacterManagerVisuals_NodeType
 ---@return questCharacterManagerVisuals_NodeType
 function questCharacterManagerVisuals_NodeType.new(fields) return end

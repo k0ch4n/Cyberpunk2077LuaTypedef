@@ -12,6 +12,6 @@
 ---@field public debugLayer inkDebugLayerDefinition
 inkLayerDefinitionCollection = {}
 
----@param fields? table
+---@param fields? inkLayerDefinitionCollection
 ---@return inkLayerDefinitionCollection
 function inkLayerDefinitionCollection.new(fields) return end

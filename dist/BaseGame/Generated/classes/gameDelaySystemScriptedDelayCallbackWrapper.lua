@@ -4,7 +4,7 @@
 ---@class gameDelaySystemScriptedDelayCallbackWrapper: IScriptable
 gameDelaySystemScriptedDelayCallbackWrapper = {}
 
----@param fields? table
+---@param fields? gameDelaySystemScriptedDelayCallbackWrapper
 ---@return gameDelaySystemScriptedDelayCallbackWrapper
 function gameDelaySystemScriptedDelayCallbackWrapper.new(fields) return end
 

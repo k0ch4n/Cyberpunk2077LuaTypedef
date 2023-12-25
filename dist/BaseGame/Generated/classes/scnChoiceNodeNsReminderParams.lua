@@ -11,6 +11,6 @@
 ---@field public waitTimeForLooping scnSceneTime
 scnChoiceNodeNsReminderParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsReminderParams
 ---@return scnChoiceNodeNsReminderParams
 function scnChoiceNodeNsReminderParams.new(fields) return end

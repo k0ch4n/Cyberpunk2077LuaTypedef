@@ -13,6 +13,6 @@
 ---@field public ignoresRPG Bool
 gameGetActionsContext = {}
 
----@param fields? table
+---@param fields? gameGetActionsContext
 ---@return gameGetActionsContext
 function gameGetActionsContext.new(fields) return end

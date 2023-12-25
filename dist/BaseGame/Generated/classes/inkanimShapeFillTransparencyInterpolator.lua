@@ -6,7 +6,7 @@
 ---@field public endValue Float
 inkanimShapeFillTransparencyInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimShapeFillTransparencyInterpolator
 ---@return inkanimShapeFillTransparencyInterpolator
 function inkanimShapeFillTransparencyInterpolator.new(fields) return end
 

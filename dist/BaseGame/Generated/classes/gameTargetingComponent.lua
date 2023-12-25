@@ -9,7 +9,7 @@
 ---@field public alwaysInTestRange Bool
 gameTargetingComponent = {}
 
----@param fields? table
+---@param fields? gameTargetingComponent
 ---@return gameTargetingComponent
 function gameTargetingComponent.new(fields) return end
 

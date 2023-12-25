@@ -15,7 +15,7 @@
 ---@field private vehicleSummonStateCallback redCallbackObject
 VehicleMinimapMappinComponent = {}
 
----@param fields? table
+---@param fields? VehicleMinimapMappinComponent
 ---@return VehicleMinimapMappinComponent
 function VehicleMinimapMappinComponent.new(fields) return end
 

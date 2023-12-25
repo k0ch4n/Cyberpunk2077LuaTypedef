@@ -7,6 +7,6 @@
 ---@field public hasItemObject Bool
 gameAttachmentSlotReplicatedState = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotReplicatedState
 ---@return gameAttachmentSlotReplicatedState
 function gameAttachmentSlotReplicatedState.new(fields) return end

@@ -24,7 +24,7 @@
 ---@field private showScanBountyAnimProxy inkanimProxy
 ScannerBountySystemGameController = {}
 
----@param fields? table
+---@param fields? ScannerBountySystemGameController
 ---@return ScannerBountySystemGameController
 function ScannerBountySystemGameController.new(fields) return end
 

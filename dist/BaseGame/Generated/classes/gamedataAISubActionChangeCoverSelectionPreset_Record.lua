@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionChangeCoverSelectionPreset_Record: gamedataAISubAction_Record
 gamedataAISubActionChangeCoverSelectionPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionChangeCoverSelectionPreset_Record
 ---@return gamedataAISubActionChangeCoverSelectionPreset_Record
 function gamedataAISubActionChangeCoverSelectionPreset_Record.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field private alive Bool
 BaseBullet = {}
 
----@param fields? table
+---@param fields? BaseBullet
 ---@return BaseBullet
 function BaseBullet.new(fields) return end
 

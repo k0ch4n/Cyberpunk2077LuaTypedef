@@ -4,6 +4,6 @@
 ---@class inkButtonSelectionCallback: inkCallbackBase
 inkButtonSelectionCallback = {}
 
----@param fields? table
+---@param fields? inkButtonSelectionCallback
 ---@return inkButtonSelectionCallback
 function inkButtonSelectionCallback.new(fields) return end

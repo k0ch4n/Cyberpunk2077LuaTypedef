@@ -4,7 +4,7 @@
 ---@class QuestOpen: ActionBool
 QuestOpen = {}
 
----@param fields? table
+---@param fields? QuestOpen
 ---@return QuestOpen
 function QuestOpen.new(fields) return end
 

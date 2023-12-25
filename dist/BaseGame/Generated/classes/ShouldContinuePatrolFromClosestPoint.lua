@@ -5,7 +5,7 @@
 ---@field public patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromClosestPoint = {}
 
----@param fields? table
+---@param fields? ShouldContinuePatrolFromClosestPoint
 ---@return ShouldContinuePatrolFromClosestPoint
 function ShouldContinuePatrolFromClosestPoint.new(fields) return end
 

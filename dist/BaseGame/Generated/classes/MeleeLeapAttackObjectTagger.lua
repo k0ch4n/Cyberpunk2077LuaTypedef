@@ -10,7 +10,7 @@
 ---@field private minDistanceToTarget Float
 MeleeLeapAttackObjectTagger = {}
 
----@param fields? table
+---@param fields? MeleeLeapAttackObjectTagger
 ---@return MeleeLeapAttackObjectTagger
 function MeleeLeapAttackObjectTagger.new(fields) return end
 

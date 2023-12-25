@@ -4,7 +4,7 @@
 ---@class MoveObstacle: ActionBool
 MoveObstacle = {}
 
----@param fields? table
+---@param fields? MoveObstacle
 ---@return MoveObstacle
 function MoveObstacle.new(fields) return end
 

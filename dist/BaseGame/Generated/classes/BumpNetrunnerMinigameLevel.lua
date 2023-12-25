@@ -5,7 +5,7 @@
 ---@field public completedMinigameLevel Int32
 BumpNetrunnerMinigameLevel = {}
 
----@param fields? table
+---@param fields? BumpNetrunnerMinigameLevel
 ---@return BumpNetrunnerMinigameLevel
 function BumpNetrunnerMinigameLevel.new(fields) return end
 

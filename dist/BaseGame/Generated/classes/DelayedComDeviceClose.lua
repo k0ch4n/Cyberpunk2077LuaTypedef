@@ -4,6 +4,6 @@
 ---@class DelayedComDeviceClose: redEvent
 DelayedComDeviceClose = {}
 
----@param fields? table
+---@param fields? DelayedComDeviceClose
 ---@return DelayedComDeviceClose
 function DelayedComDeviceClose.new(fields) return end

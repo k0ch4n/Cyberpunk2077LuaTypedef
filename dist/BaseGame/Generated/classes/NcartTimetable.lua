@@ -6,7 +6,7 @@
 ---@field private shortGlitchDelayID gameDelayID
 NcartTimetable = {}
 
----@param fields? table
+---@param fields? NcartTimetable
 ---@return NcartTimetable
 function NcartTimetable.new(fields) return end
 

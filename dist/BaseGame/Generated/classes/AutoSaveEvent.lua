@@ -6,6 +6,6 @@
 ---@field public isForced Bool
 AutoSaveEvent = {}
 
----@param fields? table
+---@param fields? AutoSaveEvent
 ---@return AutoSaveEvent
 function AutoSaveEvent.new(fields) return end

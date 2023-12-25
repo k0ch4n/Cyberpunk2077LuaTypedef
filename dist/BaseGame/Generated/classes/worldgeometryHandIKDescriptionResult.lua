@@ -6,6 +6,6 @@
 ---@field public grabPointEnd Vector4
 worldgeometryHandIKDescriptionResult = {}
 
----@param fields? table
+---@param fields? worldgeometryHandIKDescriptionResult
 ---@return worldgeometryHandIKDescriptionResult
 function worldgeometryHandIKDescriptionResult.new(fields) return end

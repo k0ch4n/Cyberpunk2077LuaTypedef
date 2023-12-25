@@ -6,7 +6,7 @@
 ---@field public vehCommand AIVehicleChaseCommand
 InVehicleCombatDecorator = {}
 
----@param fields? table
+---@param fields? InVehicleCombatDecorator
 ---@return InVehicleCombatDecorator
 function InVehicleCombatDecorator.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public defaultValue Float
 LibTreeDefTreeVariableFloat = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableFloat
 ---@return LibTreeDefTreeVariableFloat
 function LibTreeDefTreeVariableFloat.new(fields) return end

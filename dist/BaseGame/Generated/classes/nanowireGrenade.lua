@@ -12,7 +12,7 @@
 ---@field private alive Bool
 nanowireGrenade = {}
 
----@param fields? table
+---@param fields? nanowireGrenade
 ---@return nanowireGrenade
 function nanowireGrenade.new(fields) return end
 

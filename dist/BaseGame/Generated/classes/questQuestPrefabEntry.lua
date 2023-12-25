@@ -5,6 +5,6 @@
 ---@field public prefabNodeRef NodeRef
 questQuestPrefabEntry = {}
 
----@param fields? table
+---@param fields? questQuestPrefabEntry
 ---@return questQuestPrefabEntry
 function questQuestPrefabEntry.new(fields) return end

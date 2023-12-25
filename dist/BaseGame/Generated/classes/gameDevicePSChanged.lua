@@ -4,6 +4,6 @@
 ---@class gameDevicePSChanged: redEvent
 gameDevicePSChanged = {}
 
----@param fields? table
+---@param fields? gameDevicePSChanged
 ---@return gameDevicePSChanged
 function gameDevicePSChanged.new(fields) return end

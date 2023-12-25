@@ -5,6 +5,6 @@
 ---@field public dynamicQuestMappinRepInfo gamemappinsDynamicQuestMappinRepInfo[]
 gamemappinsQuestMappinManagerReplicatedState = {}
 
----@param fields? table
+---@param fields? gamemappinsQuestMappinManagerReplicatedState
 ---@return gamemappinsQuestMappinManagerReplicatedState
 function gamemappinsQuestMappinManagerReplicatedState.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class rendRenderTextureBlobStreamable: rendIRenderTextureBlob
 rendRenderTextureBlobStreamable = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobStreamable
 ---@return rendRenderTextureBlobStreamable
 function rendRenderTextureBlobStreamable.new(fields) return end

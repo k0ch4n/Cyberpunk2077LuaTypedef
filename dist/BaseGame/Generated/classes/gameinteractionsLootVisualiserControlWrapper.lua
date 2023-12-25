@@ -4,7 +4,7 @@
 ---@class gameinteractionsLootVisualiserControlWrapper
 gameinteractionsLootVisualiserControlWrapper = {}
 
----@param fields? table
+---@param fields? gameinteractionsLootVisualiserControlWrapper
 ---@return gameinteractionsLootVisualiserControlWrapper
 function gameinteractionsLootVisualiserControlWrapper.new(fields) return end
 

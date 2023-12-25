@@ -5,6 +5,6 @@
 ---@field public ownerHash Uint64
 worldDestructibleProxyMeshNode = {}
 
----@param fields? table
+---@param fields? worldDestructibleProxyMeshNode
 ---@return worldDestructibleProxyMeshNode
 function worldDestructibleProxyMeshNode.new(fields) return end

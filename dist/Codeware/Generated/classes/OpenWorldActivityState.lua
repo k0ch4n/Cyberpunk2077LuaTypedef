@@ -10,6 +10,6 @@
 ---@field public discovered Bool
 OpenWorldActivityState = {}
 
----@param fields? table
+---@param fields? OpenWorldActivityState
 ---@return OpenWorldActivityState
 function OpenWorldActivityState.new(fields) return end

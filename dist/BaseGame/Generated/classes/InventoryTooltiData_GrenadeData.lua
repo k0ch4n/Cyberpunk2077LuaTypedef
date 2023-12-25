@@ -14,6 +14,6 @@
 ---@field public grenadeType EGrenadeType
 InventoryTooltiData_GrenadeData = {}
 
----@param fields? table
+---@param fields? InventoryTooltiData_GrenadeData
 ---@return InventoryTooltiData_GrenadeData
 function InventoryTooltiData_GrenadeData.new(fields) return end

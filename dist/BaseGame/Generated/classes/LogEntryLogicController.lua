@@ -8,7 +8,7 @@
 ---@field private animProxyFadeOut inkanimProxy
 LogEntryLogicController = {}
 
----@param fields? table
+---@param fields? LogEntryLogicController
 ---@return LogEntryLogicController
 function LogEntryLogicController.new(fields) return end
 

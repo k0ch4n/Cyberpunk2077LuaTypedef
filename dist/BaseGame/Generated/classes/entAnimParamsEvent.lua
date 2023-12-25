@@ -4,7 +4,7 @@
 ---@class entAnimParamsEvent: redEvent
 entAnimParamsEvent = {}
 
----@param fields? table
+---@param fields? entAnimParamsEvent
 ---@return entAnimParamsEvent
 function entAnimParamsEvent.new(fields) return end
 

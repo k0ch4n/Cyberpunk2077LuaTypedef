@@ -6,6 +6,6 @@
 ---@field public type Int32
 AnimFeature_SuperheroLand = {}
 
----@param fields? table
+---@param fields? AnimFeature_SuperheroLand
 ---@return AnimFeature_SuperheroLand
 function AnimFeature_SuperheroLand.new(fields) return end

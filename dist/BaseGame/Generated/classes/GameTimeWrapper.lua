@@ -5,6 +5,6 @@
 ---@field public gameTime GameTime
 GameTimeWrapper = {}
 
----@param fields? table
+---@param fields? GameTimeWrapper
 ---@return GameTimeWrapper
 function GameTimeWrapper.new(fields) return end

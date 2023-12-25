@@ -16,7 +16,7 @@
 ---@field private keepIconOnClamping Bool
 MinimapPOIMappinController = {}
 
----@param fields? table
+---@param fields? MinimapPOIMappinController
 ---@return MinimapPOIMappinController
 function MinimapPOIMappinController.new(fields) return end
 

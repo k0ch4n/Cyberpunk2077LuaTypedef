@@ -4,7 +4,7 @@
 ---@class inkScrollAreaWidgetReference: inkCompoundWidgetReference
 inkScrollAreaWidgetReference = {}
 
----@param fields? table
+---@param fields? inkScrollAreaWidgetReference
 ---@return inkScrollAreaWidgetReference
 function inkScrollAreaWidgetReference.new(fields) return end
 

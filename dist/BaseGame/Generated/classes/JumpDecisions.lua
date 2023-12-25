@@ -5,7 +5,7 @@
 ---@field protected jumpPressed Bool
 JumpDecisions = {}
 
----@param fields? table
+---@param fields? JumpDecisions
 ---@return JumpDecisions
 function JumpDecisions.new(fields) return end
 

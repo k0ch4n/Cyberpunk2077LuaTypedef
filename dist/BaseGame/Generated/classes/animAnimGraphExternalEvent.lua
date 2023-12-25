@@ -5,6 +5,6 @@
 ---@field public eventName CName
 animAnimGraphExternalEvent = {}
 
----@param fields? table
+---@param fields? animAnimGraphExternalEvent
 ---@return animAnimGraphExternalEvent
 function animAnimGraphExternalEvent.new(fields) return end

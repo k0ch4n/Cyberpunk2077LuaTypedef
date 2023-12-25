@@ -5,7 +5,7 @@
 ---@field protected keep AIArgumentMapping
 SetKeepStrategyOnSearch = {}
 
----@param fields? table
+---@param fields? SetKeepStrategyOnSearch
 ---@return SetKeepStrategyOnSearch
 function SetKeepStrategyOnSearch.new(fields) return end
 

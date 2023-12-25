@@ -10,6 +10,6 @@
 ---@field public debugDrawSlideLines Bool
 AIActionSlideParams = {}
 
----@param fields? table
+---@param fields? AIActionSlideParams
 ---@return AIActionSlideParams
 function AIActionSlideParams.new(fields) return end

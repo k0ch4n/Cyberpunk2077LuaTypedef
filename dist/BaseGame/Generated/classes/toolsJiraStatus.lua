@@ -6,6 +6,6 @@
 ---@field public id String
 toolsJiraStatus = {}
 
----@param fields? table
+---@param fields? toolsJiraStatus
 ---@return toolsJiraStatus
 function toolsJiraStatus.new(fields) return end

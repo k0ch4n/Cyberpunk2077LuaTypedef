@@ -6,7 +6,7 @@
 ---@field public disconnectBtn inkWidgetReference
 CrossplayInfoPanelController = {}
 
----@param fields? table
+---@param fields? CrossplayInfoPanelController
 ---@return CrossplayInfoPanelController
 function CrossplayInfoPanelController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public innerConstraints animIDyngConstraint[]
 animDyngConstraintMulti = {}
 
----@param fields? table
+---@param fields? animDyngConstraintMulti
 ---@return animDyngConstraintMulti
 function animDyngConstraintMulti.new(fields) return end

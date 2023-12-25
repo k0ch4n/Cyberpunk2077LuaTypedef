@@ -6,7 +6,7 @@
 ---@field public amount Int32
 DispenseStackOfItems = {}
 
----@param fields? table
+---@param fields? DispenseStackOfItems
 ---@return DispenseStackOfItems
 function DispenseStackOfItems.new(fields) return end
 

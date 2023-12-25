@@ -5,7 +5,7 @@
 ---@field public bdSystem BraindanceSystem
 BraindanceInputChangeEvent = {}
 
----@param fields? table
+---@param fields? BraindanceInputChangeEvent
 ---@return BraindanceInputChangeEvent
 function BraindanceInputChangeEvent.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field public delay Float
 PulseAnimation = {}
 
----@param fields? table
+---@param fields? PulseAnimation
 ---@return PulseAnimation
 function PulseAnimation.new(fields) return end
 

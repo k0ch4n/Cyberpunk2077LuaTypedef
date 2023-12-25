@@ -5,6 +5,6 @@
 ---@field public inputNode animFloatLink
 animAnimNode_FloatToBoolConverter = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatToBoolConverter
 ---@return animAnimNode_FloatToBoolConverter
 function animAnimNode_FloatToBoolConverter.new(fields) return end

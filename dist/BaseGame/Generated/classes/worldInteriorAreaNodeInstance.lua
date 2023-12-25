@@ -4,6 +4,6 @@
 ---@class worldInteriorAreaNodeInstance: worldTriggerAreaNodeInstance
 worldInteriorAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldInteriorAreaNodeInstance
 ---@return worldInteriorAreaNodeInstance
 function worldInteriorAreaNodeInstance.new(fields) return end

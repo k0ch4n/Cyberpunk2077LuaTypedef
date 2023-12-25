@@ -8,6 +8,6 @@
 ---@field public repeatPatternStartOffset Uint32
 gameuiRoadEditorDecorationSettings = {}
 
----@param fields? table
+---@param fields? gameuiRoadEditorDecorationSettings
 ---@return gameuiRoadEditorDecorationSettings
 function gameuiRoadEditorDecorationSettings.new(fields) return end

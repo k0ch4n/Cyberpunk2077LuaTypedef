@@ -16,7 +16,7 @@
 ---@field private objectivesDistances QuestListDistanceData[]
 QuestListItemData = {}
 
----@param fields? table
+---@param fields? QuestListItemData
 ---@return QuestListItemData
 function QuestListItemData.new(fields) return end
 

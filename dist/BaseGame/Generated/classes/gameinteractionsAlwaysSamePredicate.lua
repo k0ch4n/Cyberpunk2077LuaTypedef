@@ -5,6 +5,6 @@
 ---@field public priority Float
 gameinteractionsAlwaysSamePredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsAlwaysSamePredicate
 ---@return gameinteractionsAlwaysSamePredicate
 function gameinteractionsAlwaysSamePredicate.new(fields) return end

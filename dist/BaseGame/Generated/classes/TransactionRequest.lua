@@ -6,6 +6,6 @@
 ---@field public items TransactionRequestData[]
 TransactionRequest = {}
 
----@param fields? table
+---@param fields? TransactionRequest
 ---@return TransactionRequest
 function TransactionRequest.new(fields) return end

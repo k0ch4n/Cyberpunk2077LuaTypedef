@@ -4,7 +4,7 @@
 ---@class gamedataBaseDrivingParameters_Record: gamedataTweakDBRecord
 gamedataBaseDrivingParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataBaseDrivingParameters_Record
 ---@return gamedataBaseDrivingParameters_Record
 function gamedataBaseDrivingParameters_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameinteractionsTargetFilter_Logical: gametargetingSystemTargetFilter_Closest
 gameinteractionsTargetFilter_Logical = {}
 
----@param fields? table
+---@param fields? gameinteractionsTargetFilter_Logical
 ---@return gameinteractionsTargetFilter_Logical
 function gameinteractionsTargetFilter_Logical.new(fields) return end

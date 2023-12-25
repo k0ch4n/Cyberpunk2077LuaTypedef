@@ -9,6 +9,6 @@
 ---@field public beardDefinitionName CName
 questCharacterManagerVisuals_OverridePlayerHairstyleAppearance = {}
 
----@param fields? table
+---@param fields? questCharacterManagerVisuals_OverridePlayerHairstyleAppearance
 ---@return questCharacterManagerVisuals_OverridePlayerHairstyleAppearance
 function questCharacterManagerVisuals_OverridePlayerHairstyleAppearance.new(fields) return end

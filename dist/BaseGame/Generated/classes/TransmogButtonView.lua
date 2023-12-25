@@ -6,7 +6,7 @@
 ---@field private isActive Bool
 TransmogButtonView = {}
 
----@param fields? table
+---@param fields? TransmogButtonView
 ---@return TransmogButtonView
 function TransmogButtonView.new(fields) return end
 

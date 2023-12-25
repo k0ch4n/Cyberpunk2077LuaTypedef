@@ -7,6 +7,6 @@
 ---@field public max Float
 animInertializationFloatClamp = {}
 
----@param fields? table
+---@param fields? animInertializationFloatClamp
 ---@return animInertializationFloatClamp
 function animInertializationFloatClamp.new(fields) return end

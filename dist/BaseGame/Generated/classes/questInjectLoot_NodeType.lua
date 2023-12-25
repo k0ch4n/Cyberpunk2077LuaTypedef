@@ -5,6 +5,6 @@
 ---@field public params questInjectLoot_NodeTypeParams[]
 questInjectLoot_NodeType = {}
 
----@param fields? table
+---@param fields? questInjectLoot_NodeType
 ---@return questInjectLoot_NodeType
 function questInjectLoot_NodeType.new(fields) return end

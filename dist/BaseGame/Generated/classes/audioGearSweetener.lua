@@ -9,6 +9,6 @@
 ---@field public burnoutFactor Float
 audioGearSweetener = {}
 
----@param fields? table
+---@param fields? audioGearSweetener
 ---@return audioGearSweetener
 function audioGearSweetener.new(fields) return end

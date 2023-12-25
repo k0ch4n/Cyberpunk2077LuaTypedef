@@ -16,7 +16,7 @@
 ---@field private barAnimationProxy inkanimProxy
 ProgressionNotification = {}
 
----@param fields? table
+---@param fields? ProgressionNotification
 ---@return ProgressionNotification
 function ProgressionNotification.new(fields) return end
 

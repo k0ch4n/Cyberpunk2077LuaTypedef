@@ -8,7 +8,7 @@
 ---@field private combatStateListener redCallbackObject
 ArcadeMachineControllerPS = {}
 
----@param fields? table
+---@param fields? ArcadeMachineControllerPS
 ---@return ArcadeMachineControllerPS
 function ArcadeMachineControllerPS.new(fields) return end
 

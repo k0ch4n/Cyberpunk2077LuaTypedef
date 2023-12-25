@@ -4,7 +4,7 @@
 ---@class gameScriptedPrereqPSChangeListenerWrapper: IScriptable
 gameScriptedPrereqPSChangeListenerWrapper = {}
 
----@param fields? table
+---@param fields? gameScriptedPrereqPSChangeListenerWrapper
 ---@return gameScriptedPrereqPSChangeListenerWrapper
 function gameScriptedPrereqPSChangeListenerWrapper.new(fields) return end
 

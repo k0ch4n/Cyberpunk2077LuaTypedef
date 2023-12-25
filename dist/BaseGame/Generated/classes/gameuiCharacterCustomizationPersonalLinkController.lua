@@ -5,6 +5,6 @@
 ---@field public simpleLinkGroup CName
 gameuiCharacterCustomizationPersonalLinkController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationPersonalLinkController
 ---@return gameuiCharacterCustomizationPersonalLinkController
 function gameuiCharacterCustomizationPersonalLinkController.new(fields) return end

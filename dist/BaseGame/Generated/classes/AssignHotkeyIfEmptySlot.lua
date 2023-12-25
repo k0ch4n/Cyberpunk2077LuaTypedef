@@ -5,7 +5,7 @@
 ---@field private itemID gameItemID
 AssignHotkeyIfEmptySlot = {}
 
----@param fields? table
+---@param fields? AssignHotkeyIfEmptySlot
 ---@return AssignHotkeyIfEmptySlot
 function AssignHotkeyIfEmptySlot.new(fields) return end
 

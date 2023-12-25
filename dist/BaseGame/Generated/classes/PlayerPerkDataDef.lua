@@ -13,7 +13,7 @@
 ---@field public StartedUsingHealingItemOrCyberware gamebbScriptID_Uint32
 PlayerPerkDataDef = {}
 
----@param fields? table
+---@param fields? PlayerPerkDataDef
 ---@return PlayerPerkDataDef
 function PlayerPerkDataDef.new(fields) return end
 

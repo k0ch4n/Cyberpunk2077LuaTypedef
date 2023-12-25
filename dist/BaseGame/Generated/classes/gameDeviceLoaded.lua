@@ -4,6 +4,6 @@
 ---@class gameDeviceLoaded: redEvent
 gameDeviceLoaded = {}
 
----@param fields? table
+---@param fields? gameDeviceLoaded
 ---@return gameDeviceLoaded
 function gameDeviceLoaded.new(fields) return end

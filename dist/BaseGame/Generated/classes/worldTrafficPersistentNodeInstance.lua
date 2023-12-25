@@ -4,6 +4,6 @@
 ---@class worldTrafficPersistentNodeInstance: worldINodeInstance
 worldTrafficPersistentNodeInstance = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentNodeInstance
 ---@return worldTrafficPersistentNodeInstance
 function worldTrafficPersistentNodeInstance.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field protected speed AIArgumentMapping
 AIMoveRotateToCommandHandler = {}
 
----@param fields? table
+---@param fields? AIMoveRotateToCommandHandler
 ---@return AIMoveRotateToCommandHandler
 function AIMoveRotateToCommandHandler.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private isCleared Bool
 StillageControllerPS = {}
 
----@param fields? table
+---@param fields? StillageControllerPS
 ---@return StillageControllerPS
 function StillageControllerPS.new(fields) return end
 

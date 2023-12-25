@@ -5,6 +5,6 @@
 ---@field public items worldFoliageRawItem[]
 worldFoliageRawData = {}
 
----@param fields? table
+---@param fields? worldFoliageRawData
 ---@return worldFoliageRawData
 function worldFoliageRawData.new(fields) return end

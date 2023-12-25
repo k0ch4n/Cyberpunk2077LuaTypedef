@@ -5,7 +5,7 @@
 ---@field private controller gameuiCrosshairBaseGameController
 OpticalCamoListener = {}
 
----@param fields? table
+---@param fields? OpticalCamoListener
 ---@return OpticalCamoListener
 function OpticalCamoListener.new(fields) return end
 

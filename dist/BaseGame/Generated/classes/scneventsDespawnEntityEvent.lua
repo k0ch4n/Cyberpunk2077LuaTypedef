@@ -5,6 +5,6 @@
 ---@field public params scneventsDespawnEntityEventParams
 scneventsDespawnEntityEvent = {}
 
----@param fields? table
+---@param fields? scneventsDespawnEntityEvent
 ---@return scneventsDespawnEntityEvent
 function scneventsDespawnEntityEvent.new(fields) return end

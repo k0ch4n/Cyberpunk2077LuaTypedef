@@ -6,7 +6,7 @@
 ---@field public targetPersistentID gamePersistentID
 SampleInteractiveEntityThatBumpsTheCounter = {}
 
----@param fields? table
+---@param fields? SampleInteractiveEntityThatBumpsTheCounter
 ---@return SampleInteractiveEntityThatBumpsTheCounter
 function SampleInteractiveEntityThatBumpsTheCounter.new(fields) return end
 

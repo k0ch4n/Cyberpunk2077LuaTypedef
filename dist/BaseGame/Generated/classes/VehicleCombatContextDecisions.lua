@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 VehicleCombatContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleCombatContextDecisions
 ---@return VehicleCombatContextDecisions
 function VehicleCombatContextDecisions.new(fields) return end
 

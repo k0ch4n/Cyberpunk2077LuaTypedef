@@ -6,6 +6,6 @@
 ---@field public serialNumber scnRidSerialNumber
 scnRidTag = {}
 
----@param fields? table
+---@param fields? scnRidTag
 ---@return scnRidTag
 function scnRidTag.new(fields) return end

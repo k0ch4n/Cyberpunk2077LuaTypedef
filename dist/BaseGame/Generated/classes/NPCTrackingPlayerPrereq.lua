@@ -5,7 +5,7 @@
 ---@field public invert Bool
 NPCTrackingPlayerPrereq = {}
 
----@param fields? table
+---@param fields? NPCTrackingPlayerPrereq
 ---@return NPCTrackingPlayerPrereq
 function NPCTrackingPlayerPrereq.new(fields) return end
 

@@ -12,7 +12,7 @@
 ---@field public GameInstance ScriptGameInstance
 StatPoolChangeOverTimePrereqState = {}
 
----@param fields? table
+---@param fields? StatPoolChangeOverTimePrereqState
 ---@return StatPoolChangeOverTimePrereqState
 function StatPoolChangeOverTimePrereqState.new(fields) return end
 

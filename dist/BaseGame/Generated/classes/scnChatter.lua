@@ -6,6 +6,6 @@
 ---@field public voicesetComponent scnVoicesetComponent
 scnChatter = {}
 
----@param fields? table
+---@param fields? scnChatter
 ---@return scnChatter
 function scnChatter.new(fields) return end

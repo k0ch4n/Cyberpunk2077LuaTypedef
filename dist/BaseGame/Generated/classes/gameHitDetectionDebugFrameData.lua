@@ -8,6 +8,6 @@
 ---@field public apes gameHitDetectionDebugFrameDataShapeEntry[]
 gameHitDetectionDebugFrameData = {}
 
----@param fields? table
+---@param fields? gameHitDetectionDebugFrameData
 ---@return gameHitDetectionDebugFrameData
 function gameHitDetectionDebugFrameData.new(fields) return end

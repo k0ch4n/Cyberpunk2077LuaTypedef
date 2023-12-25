@@ -5,7 +5,7 @@
 ---@field public itemID gameItemID
 BuyItemFromVendor = {}
 
----@param fields? table
+---@param fields? BuyItemFromVendor
 ---@return BuyItemFromVendor
 function BuyItemFromVendor.new(fields) return end
 

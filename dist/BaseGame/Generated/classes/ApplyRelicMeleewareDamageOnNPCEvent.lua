@@ -9,6 +9,6 @@
 ---@field public weaponType gamedataItemType
 ApplyRelicMeleewareDamageOnNPCEvent = {}
 
----@param fields? table
+---@param fields? ApplyRelicMeleewareDamageOnNPCEvent
 ---@return ApplyRelicMeleewareDamageOnNPCEvent
 function ApplyRelicMeleewareDamageOnNPCEvent.new(fields) return end

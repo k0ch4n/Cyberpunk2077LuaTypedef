@@ -6,7 +6,7 @@
 ---@field public owner gameObject
 RefreshPingEffector = {}
 
----@param fields? table
+---@param fields? RefreshPingEffector
 ---@return RefreshPingEffector
 function RefreshPingEffector.new(fields) return end
 

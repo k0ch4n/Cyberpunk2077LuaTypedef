@@ -10,6 +10,6 @@
 ---@field public motionConstrainedTierDataParams gameMotionConstrainedTierDataParams
 questSetTier_NodeType = {}
 
----@param fields? table
+---@param fields? questSetTier_NodeType
 ---@return questSetTier_NodeType
 function questSetTier_NodeType.new(fields) return end

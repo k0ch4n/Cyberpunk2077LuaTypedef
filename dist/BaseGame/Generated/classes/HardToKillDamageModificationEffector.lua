@@ -5,7 +5,7 @@
 ---@field public criticalHealthThreshold Float
 HardToKillDamageModificationEffector = {}
 
----@param fields? table
+---@param fields? HardToKillDamageModificationEffector
 ---@return HardToKillDamageModificationEffector
 function HardToKillDamageModificationEffector.new(fields) return end
 

@@ -13,7 +13,7 @@
 ---@field private characterCustomizationSystem gameuiICharacterCustomizationSystem
 gameuiCharacterCreationPuppetPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCreationPuppetPreviewGameController
 ---@return gameuiCharacterCreationPuppetPreviewGameController
 function gameuiCharacterCreationPuppetPreviewGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gameCameraSystem: gameICameraSystem
 gameCameraSystem = {}
 
----@param fields? table
+---@param fields? gameCameraSystem
 ---@return gameCameraSystem
 function gameCameraSystem.new(fields) return end
 

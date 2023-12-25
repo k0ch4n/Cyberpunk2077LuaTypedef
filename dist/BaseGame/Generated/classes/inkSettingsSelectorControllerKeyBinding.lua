@@ -8,7 +8,7 @@
 ---@field private editOpacity Float
 inkSettingsSelectorControllerKeyBinding = {}
 
----@param fields? table
+---@param fields? inkSettingsSelectorControllerKeyBinding
 ---@return inkSettingsSelectorControllerKeyBinding
 function inkSettingsSelectorControllerKeyBinding.new(fields) return end
 

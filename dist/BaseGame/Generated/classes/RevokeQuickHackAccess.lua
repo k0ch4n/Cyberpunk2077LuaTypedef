@@ -4,6 +4,6 @@
 ---@class RevokeQuickHackAccess: redEvent
 RevokeQuickHackAccess = {}
 
----@param fields? table
+---@param fields? RevokeQuickHackAccess
 ---@return RevokeQuickHackAccess
 function RevokeQuickHackAccess.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class NPCAfterDeathOrDefeatEvent: redEvent
 NPCAfterDeathOrDefeatEvent = {}
 
----@param fields? table
+---@param fields? NPCAfterDeathOrDefeatEvent
 ---@return NPCAfterDeathOrDefeatEvent
 function NPCAfterDeathOrDefeatEvent.new(fields) return end

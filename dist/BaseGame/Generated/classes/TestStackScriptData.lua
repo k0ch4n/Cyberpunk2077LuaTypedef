@@ -6,6 +6,6 @@
 ---@field public anotherVar CName
 TestStackScriptData = {}
 
----@param fields? table
+---@param fields? TestStackScriptData
 ---@return TestStackScriptData
 function TestStackScriptData.new(fields) return end

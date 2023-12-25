@@ -4,6 +4,6 @@
 ---@class gameuiCharacterReplicaInitializedEvent: redEvent
 gameuiCharacterReplicaInitializedEvent = {}
 
----@param fields? table
+---@param fields? gameuiCharacterReplicaInitializedEvent
 ---@return gameuiCharacterReplicaInitializedEvent
 function gameuiCharacterReplicaInitializedEvent.new(fields) return end

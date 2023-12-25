@@ -7,6 +7,6 @@
 ---@field public isTracked Bool
 MapMenuUserData = {}
 
----@param fields? table
+---@param fields? MapMenuUserData
 ---@return MapMenuUserData
 function MapMenuUserData.new(fields) return end

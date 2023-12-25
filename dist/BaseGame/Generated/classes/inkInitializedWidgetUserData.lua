@@ -4,6 +4,6 @@
 ---@class inkInitializedWidgetUserData: inkUserData
 inkInitializedWidgetUserData = {}
 
----@param fields? table
+---@param fields? inkInitializedWidgetUserData
 ---@return inkInitializedWidgetUserData
 function inkInitializedWidgetUserData.new(fields) return end

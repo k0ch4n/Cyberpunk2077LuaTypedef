@@ -4,6 +4,6 @@
 ---@class PurgeAllTransitions: redEvent
 PurgeAllTransitions = {}
 
----@param fields? table
+---@param fields? PurgeAllTransitions
 ---@return PurgeAllTransitions
 function PurgeAllTransitions.new(fields) return end

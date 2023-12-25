@@ -4,6 +4,6 @@
 ---@class gameJournalPhoneChoiceGroup: gameJournalContainerEntry
 gameJournalPhoneChoiceGroup = {}
 
----@param fields? table
+---@param fields? gameJournalPhoneChoiceGroup
 ---@return gameJournalPhoneChoiceGroup
 function gameJournalPhoneChoiceGroup.new(fields) return end

@@ -10,7 +10,7 @@
 ---@field public maxRange Float
 gameFriendlyFireParams = {}
 
----@param fields? table
+---@param fields? gameFriendlyFireParams
 ---@return gameFriendlyFireParams
 function gameFriendlyFireParams.new(fields) return end
 

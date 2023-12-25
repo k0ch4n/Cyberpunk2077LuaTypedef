@@ -4,7 +4,7 @@
 ---@class SendSpiderbotToOverloadDevice: ActionBool
 SendSpiderbotToOverloadDevice = {}
 
----@param fields? table
+---@param fields? SendSpiderbotToOverloadDevice
 ---@return SendSpiderbotToOverloadDevice
 function SendSpiderbotToOverloadDevice.new(fields) return end
 

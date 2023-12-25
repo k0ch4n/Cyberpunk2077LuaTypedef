@@ -9,6 +9,6 @@
 ---@field public combatVolume Float
 audioVoiceTriggerLimits = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerLimits
 ---@return audioVoiceTriggerLimits
 function audioVoiceTriggerLimits.new(fields) return end

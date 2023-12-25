@@ -6,6 +6,6 @@
 ---@field public flippedDigitNames CName[]
 gameuiCasinoChips = {}
 
----@param fields? table
+---@param fields? gameuiCasinoChips
 ---@return gameuiCasinoChips
 function gameuiCasinoChips.new(fields) return end

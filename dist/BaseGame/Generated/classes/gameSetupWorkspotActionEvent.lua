@@ -4,6 +4,6 @@
 ---@class gameSetupWorkspotActionEvent: senseStimuliData
 gameSetupWorkspotActionEvent = {}
 
----@param fields? table
+---@param fields? gameSetupWorkspotActionEvent
 ---@return gameSetupWorkspotActionEvent
 function gameSetupWorkspotActionEvent.new(fields) return end

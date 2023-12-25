@@ -8,6 +8,6 @@
 ---@field public audioVOList gameuiVOWithDelay[]
 gameuiOnscreenVOPlayerController = {}
 
----@param fields? table
+---@param fields? gameuiOnscreenVOPlayerController
 ---@return gameuiOnscreenVOPlayerController
 function gameuiOnscreenVOPlayerController.new(fields) return end

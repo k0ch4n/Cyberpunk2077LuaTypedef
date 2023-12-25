@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsActionProjectileDetach: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsActionProjectileDetach = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsActionProjectileDetach
 ---@return gamestateMachineplayeractionsActionProjectileDetach
 function gamestateMachineplayeractionsActionProjectileDetach.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataCompoundSelectionPreset_Record: gamedataTweakDBRecord
 gamedataCompoundSelectionPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataCompoundSelectionPreset_Record
 ---@return gamedataCompoundSelectionPreset_Record
 function gamedataCompoundSelectionPreset_Record.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public layers worldHeatmapLayer[]
 worldHeatmapResource = {}
 
----@param fields? table
+---@param fields? worldHeatmapResource
 ---@return worldHeatmapResource
 function worldHeatmapResource.new(fields) return end

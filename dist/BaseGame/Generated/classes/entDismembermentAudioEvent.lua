@@ -6,6 +6,6 @@
 ---@field public position Vector4
 entDismembermentAudioEvent = {}
 
----@param fields? table
+---@param fields? entDismembermentAudioEvent
 ---@return entDismembermentAudioEvent
 function entDismembermentAudioEvent.new(fields) return end

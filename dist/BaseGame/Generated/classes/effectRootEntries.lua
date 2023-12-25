@@ -6,6 +6,6 @@
 ---@field public roots effectRootEntry[]
 effectRootEntries = {}
 
----@param fields? table
+---@param fields? effectRootEntries
 ---@return effectRootEntries
 function effectRootEntries.new(fields) return end

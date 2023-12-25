@@ -4,6 +4,6 @@
 ---@class inkInitializeUserScreenState: inkIStateMachineState
 inkInitializeUserScreenState = {}
 
----@param fields? table
+---@param fields? inkInitializeUserScreenState
 ---@return inkInitializeUserScreenState
 function inkInitializeUserScreenState.new(fields) return end

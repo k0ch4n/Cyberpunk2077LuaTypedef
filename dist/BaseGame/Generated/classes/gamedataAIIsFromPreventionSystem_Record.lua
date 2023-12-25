@@ -4,6 +4,6 @@
 ---@class gamedataAIIsFromPreventionSystem_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsFromPreventionSystem_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIIsFromPreventionSystem_Record
 ---@return gamedataAIIsFromPreventionSystem_Record
 function gamedataAIIsFromPreventionSystem_Record.new(fields) return end

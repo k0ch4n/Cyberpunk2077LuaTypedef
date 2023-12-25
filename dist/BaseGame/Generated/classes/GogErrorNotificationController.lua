@@ -5,7 +5,7 @@
 ---@field public errorMessageWidget inkWidgetReference
 GogErrorNotificationController = {}
 
----@param fields? table
+---@param fields? GogErrorNotificationController
 ---@return GogErrorNotificationController
 function GogErrorNotificationController.new(fields) return end
 

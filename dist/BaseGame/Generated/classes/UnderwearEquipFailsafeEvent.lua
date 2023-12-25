@@ -5,6 +5,6 @@
 ---@field public bottom Bool
 UnderwearEquipFailsafeEvent = {}
 
----@param fields? table
+---@param fields? UnderwearEquipFailsafeEvent
 ---@return UnderwearEquipFailsafeEvent
 function UnderwearEquipFailsafeEvent.new(fields) return end

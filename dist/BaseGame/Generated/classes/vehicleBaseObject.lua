@@ -31,7 +31,7 @@
 ---@field private abandoned Bool
 vehicleBaseObject = {}
 
----@param fields? table
+---@param fields? vehicleBaseObject
 ---@return vehicleBaseObject
 function vehicleBaseObject.new(fields) return end
 

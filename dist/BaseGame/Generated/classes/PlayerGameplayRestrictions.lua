@@ -4,7 +4,7 @@
 ---@class PlayerGameplayRestrictions: IScriptable
 PlayerGameplayRestrictions = {}
 
----@param fields? table
+---@param fields? PlayerGameplayRestrictions
 ---@return PlayerGameplayRestrictions
 function PlayerGameplayRestrictions.new(fields) return end
 

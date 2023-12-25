@@ -4,7 +4,7 @@
 ---@class PlayerNotInBraindancePrereq: gameIScriptablePrereq
 PlayerNotInBraindancePrereq = {}
 
----@param fields? table
+---@param fields? PlayerNotInBraindancePrereq
 ---@return PlayerNotInBraindancePrereq
 function PlayerNotInBraindancePrereq.new(fields) return end
 

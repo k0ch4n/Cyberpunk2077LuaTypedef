@@ -4,7 +4,7 @@
 ---@class AIReactionSystem: AIIReactionSystem
 AIReactionSystem = {}
 
----@param fields? table
+---@param fields? AIReactionSystem
 ---@return AIReactionSystem
 function AIReactionSystem.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public mute Bool
 questToggleEventExecutionTag_NodeType = {}
 
----@param fields? table
+---@param fields? questToggleEventExecutionTag_NodeType
 ---@return questToggleEventExecutionTag_NodeType
 function questToggleEventExecutionTag_NodeType.new(fields) return end

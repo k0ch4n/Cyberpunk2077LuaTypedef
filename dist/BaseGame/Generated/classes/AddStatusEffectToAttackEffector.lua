@@ -8,7 +8,7 @@
 ---@field public stacks Float
 AddStatusEffectToAttackEffector = {}
 
----@param fields? table
+---@param fields? AddStatusEffectToAttackEffector
 ---@return AddStatusEffectToAttackEffector
 function AddStatusEffectToAttackEffector.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field protected isCrafting Bool
 ItemTooltipModController = {}
 
----@param fields? table
+---@param fields? ItemTooltipModController
 ---@return ItemTooltipModController
 function ItemTooltipModController.new(fields) return end
 

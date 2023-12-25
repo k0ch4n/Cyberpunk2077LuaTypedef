@@ -4,6 +4,6 @@
 ---@class questCharacterEquippedItemInventoryListener: gameIInventoryListener
 questCharacterEquippedItemInventoryListener = {}
 
----@param fields? table
+---@param fields? questCharacterEquippedItemInventoryListener
 ---@return questCharacterEquippedItemInventoryListener
 function questCharacterEquippedItemInventoryListener.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameDelayID
 gameDelayID = {}
 
----@param fields? table
+---@param fields? gameDelayID
 ---@return gameDelayID
 function gameDelayID.new(fields) return end

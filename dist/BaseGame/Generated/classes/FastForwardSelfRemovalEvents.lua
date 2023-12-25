@@ -4,7 +4,7 @@
 ---@class FastForwardSelfRemovalEvents: ScenesFastForwardTransition
 FastForwardSelfRemovalEvents = {}
 
----@param fields? table
+---@param fields? FastForwardSelfRemovalEvents
 ---@return FastForwardSelfRemovalEvents
 function FastForwardSelfRemovalEvents.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public invert Bool
 CurrentHighLevelNPCStatePrereq = {}
 
----@param fields? table
+---@param fields? CurrentHighLevelNPCStatePrereq
 ---@return CurrentHighLevelNPCStatePrereq
 function CurrentHighLevelNPCStatePrereq.new(fields) return end
 

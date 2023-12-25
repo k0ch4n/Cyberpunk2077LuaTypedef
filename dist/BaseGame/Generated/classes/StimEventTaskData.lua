@@ -7,6 +7,6 @@
 ---@field public id Uint32
 StimEventTaskData = {}
 
----@param fields? table
+---@param fields? StimEventTaskData
 ---@return StimEventTaskData
 function StimEventTaskData.new(fields) return end

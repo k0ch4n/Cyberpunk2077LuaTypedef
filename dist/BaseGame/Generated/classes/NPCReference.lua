@@ -6,7 +6,7 @@
 ---@field public entryName CName
 NPCReference = {}
 
----@param fields? table
+---@param fields? NPCReference
 ---@return NPCReference
 function NPCReference.new(fields) return end
 

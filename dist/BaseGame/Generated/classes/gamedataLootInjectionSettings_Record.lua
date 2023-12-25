@@ -4,7 +4,7 @@
 ---@class gamedataLootInjectionSettings_Record: gamedataTweakDBRecord
 gamedataLootInjectionSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataLootInjectionSettings_Record
 ---@return gamedataLootInjectionSettings_Record
 function gamedataLootInjectionSettings_Record.new(fields) return end
 

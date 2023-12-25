@@ -8,7 +8,7 @@
 ---@field private comparedBars UIInventoryItemWeaponBars
 UIInventoryItemWeaponBars = {}
 
----@param fields? table
+---@param fields? UIInventoryItemWeaponBars
 ---@return UIInventoryItemWeaponBars
 function UIInventoryItemWeaponBars.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public phase CName
 animAnimNode_SkPhaseAnim = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkPhaseAnim
 ---@return animAnimNode_SkPhaseAnim
 function animAnimNode_SkPhaseAnim.new(fields) return end

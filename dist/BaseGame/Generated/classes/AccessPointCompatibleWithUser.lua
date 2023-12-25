@@ -4,7 +4,7 @@
 ---@class AccessPointCompatibleWithUser: gameinteractionsInteractionScriptedCondition
 AccessPointCompatibleWithUser = {}
 
----@param fields? table
+---@param fields? AccessPointCompatibleWithUser
 ---@return AccessPointCompatibleWithUser
 function AccessPointCompatibleWithUser.new(fields) return end
 

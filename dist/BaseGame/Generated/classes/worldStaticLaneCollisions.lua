@@ -7,6 +7,6 @@
 ---@field public deadEndStart Float
 worldStaticLaneCollisions = {}
 
----@param fields? table
+---@param fields? worldStaticLaneCollisions
 ---@return worldStaticLaneCollisions
 function worldStaticLaneCollisions.new(fields) return end

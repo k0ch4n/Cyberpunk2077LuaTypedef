@@ -8,7 +8,7 @@
 ---@field public W Vector4
 Matrix = {}
 
----@param fields? table
+---@param fields? Matrix
 ---@return Matrix
 function Matrix.new(fields) return end
 

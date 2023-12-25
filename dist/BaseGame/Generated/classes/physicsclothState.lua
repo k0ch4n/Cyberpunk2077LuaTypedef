@@ -9,6 +9,6 @@
 ---@field public runtimeInfo physicsclothRuntimeInfo
 physicsclothState = {}
 
----@param fields? table
+---@param fields? physicsclothState
 ---@return physicsclothState
 function physicsclothState.new(fields) return end

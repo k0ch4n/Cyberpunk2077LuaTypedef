@@ -5,7 +5,7 @@
 ---@field public patrolProgress AIArgumentMapping
 IsPatrolProgressValid = {}
 
----@param fields? table
+---@param fields? IsPatrolProgressValid
 ---@return IsPatrolProgressValid
 function IsPatrolProgressValid.new(fields) return end
 

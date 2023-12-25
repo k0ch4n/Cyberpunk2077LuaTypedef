@@ -8,7 +8,7 @@
 ---@field private animProxy inkanimProxy
 IncomingCallLogicController = {}
 
----@param fields? table
+---@param fields? IncomingCallLogicController
 ---@return IncomingCallLogicController
 function IncomingCallLogicController.new(fields) return end
 

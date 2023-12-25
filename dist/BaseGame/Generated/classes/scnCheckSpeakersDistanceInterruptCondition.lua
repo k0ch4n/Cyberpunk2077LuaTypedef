@@ -5,6 +5,6 @@
 ---@field public params scnCheckSpeakersDistanceInterruptConditionParams
 scnCheckSpeakersDistanceInterruptCondition = {}
 
----@param fields? table
+---@param fields? scnCheckSpeakersDistanceInterruptCondition
 ---@return scnCheckSpeakersDistanceInterruptCondition
 function scnCheckSpeakersDistanceInterruptCondition.new(fields) return end

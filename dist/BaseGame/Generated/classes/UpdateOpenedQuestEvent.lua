@@ -5,6 +5,6 @@
 ---@field public openedQuest gameJournalQuest
 UpdateOpenedQuestEvent = {}
 
----@param fields? table
+---@param fields? UpdateOpenedQuestEvent
 ---@return UpdateOpenedQuestEvent
 function UpdateOpenedQuestEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected areaComponent gameStaticTriggerAreaComponent
 ActivatedDeviceTrap = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceTrap
 ---@return ActivatedDeviceTrap
 function ActivatedDeviceTrap.new(fields) return end
 

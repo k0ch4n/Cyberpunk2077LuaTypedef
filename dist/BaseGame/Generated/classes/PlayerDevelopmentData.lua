@@ -22,7 +22,7 @@
 ---@field private progressionBuildSetCompleted Bool
 PlayerDevelopmentData = {}
 
----@param fields? table
+---@param fields? PlayerDevelopmentData
 ---@return PlayerDevelopmentData
 function PlayerDevelopmentData.new(fields) return end
 

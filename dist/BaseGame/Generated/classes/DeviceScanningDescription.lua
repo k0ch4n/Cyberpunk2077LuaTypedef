@@ -8,7 +8,7 @@
 ---@field public DeviceRoleActionsDescriptions TweakDBID[]
 DeviceScanningDescription = {}
 
----@param fields? table
+---@param fields? DeviceScanningDescription
 ---@return DeviceScanningDescription
 function DeviceScanningDescription.new(fields) return end
 

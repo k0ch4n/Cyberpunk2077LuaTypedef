@@ -4,6 +4,6 @@
 ---@class gameEntityStubComponentPlacedProxy: entIPlacedComponent
 gameEntityStubComponentPlacedProxy = {}
 
----@param fields? table
+---@param fields? gameEntityStubComponentPlacedProxy
 ---@return gameEntityStubComponentPlacedProxy
 function gameEntityStubComponentPlacedProxy.new(fields) return end

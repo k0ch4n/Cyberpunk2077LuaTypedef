@@ -9,6 +9,6 @@
 ---@field public DescriptionLocalizationPackage gameUILocalizationDataPackage
 MaterialTooltipData = {}
 
----@param fields? table
+---@param fields? MaterialTooltipData
 ---@return MaterialTooltipData
 function MaterialTooltipData.new(fields) return end

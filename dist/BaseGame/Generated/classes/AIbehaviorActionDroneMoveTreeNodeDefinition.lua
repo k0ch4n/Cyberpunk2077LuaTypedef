@@ -12,6 +12,6 @@
 ---@field public rotateEntity AIArgumentMapping
 AIbehaviorActionDroneMoveTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionDroneMoveTreeNodeDefinition
 ---@return AIbehaviorActionDroneMoveTreeNodeDefinition
 function AIbehaviorActionDroneMoveTreeNodeDefinition.new(fields) return end

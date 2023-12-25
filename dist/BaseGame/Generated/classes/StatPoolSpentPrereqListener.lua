@@ -6,7 +6,7 @@
 ---@field protected overallSpentValue Float
 StatPoolSpentPrereqListener = {}
 
----@param fields? table
+---@param fields? StatPoolSpentPrereqListener
 ---@return StatPoolSpentPrereqListener
 function StatPoolSpentPrereqListener.new(fields) return end
 

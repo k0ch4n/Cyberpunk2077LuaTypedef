@@ -6,7 +6,7 @@
 ---@field public endValue HDRColor
 inkanimColorInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimColorInterpolator
 ---@return inkanimColorInterpolator
 function inkanimColorInterpolator.new(fields) return end
 

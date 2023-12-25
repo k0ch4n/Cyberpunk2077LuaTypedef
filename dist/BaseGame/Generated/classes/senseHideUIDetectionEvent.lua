@@ -5,6 +5,6 @@
 ---@field public shouldHideUIDetection Bool
 senseHideUIDetectionEvent = {}
 
----@param fields? table
+---@param fields? senseHideUIDetectionEvent
 ---@return senseHideUIDetectionEvent
 function senseHideUIDetectionEvent.new(fields) return end

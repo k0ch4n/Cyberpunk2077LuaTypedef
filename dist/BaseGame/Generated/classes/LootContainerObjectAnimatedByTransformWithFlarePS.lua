@@ -4,6 +4,6 @@
 ---@class LootContainerObjectAnimatedByTransformWithFlarePS: LootContainerObjectAnimatedByTransformPS
 LootContainerObjectAnimatedByTransformWithFlarePS = {}
 
----@param fields? table
+---@param fields? LootContainerObjectAnimatedByTransformWithFlarePS
 ---@return LootContainerObjectAnimatedByTransformWithFlarePS
 function LootContainerObjectAnimatedByTransformWithFlarePS.new(fields) return end

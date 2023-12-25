@@ -6,6 +6,6 @@
 ---@field public inputParameterOverride CName
 effectEffectParameterEvaluatorVector = {}
 
----@param fields? table
+---@param fields? effectEffectParameterEvaluatorVector
 ---@return effectEffectParameterEvaluatorVector
 function effectEffectParameterEvaluatorVector.new(fields) return end

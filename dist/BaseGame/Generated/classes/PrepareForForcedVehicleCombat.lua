@@ -4,6 +4,6 @@
 ---@class PrepareForForcedVehicleCombat: redEvent
 PrepareForForcedVehicleCombat = {}
 
----@param fields? table
+---@param fields? PrepareForForcedVehicleCombat
 ---@return PrepareForForcedVehicleCombat
 function PrepareForForcedVehicleCombat.new(fields) return end

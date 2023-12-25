@@ -8,6 +8,6 @@
 ---@field public isFocusClue Bool
 scnSectionNode = {}
 
----@param fields? table
+---@param fields? scnSectionNode
 ---@return scnSectionNode
 function scnSectionNode.new(fields) return end

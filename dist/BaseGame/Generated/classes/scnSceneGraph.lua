@@ -7,6 +7,6 @@
 ---@field public endNodes scnNodeId[]
 scnSceneGraph = {}
 
----@param fields? table
+---@param fields? scnSceneGraph
 ---@return scnSceneGraph
 function scnSceneGraph.new(fields) return end

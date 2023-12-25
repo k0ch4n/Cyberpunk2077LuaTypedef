@@ -15,6 +15,6 @@
 ---@field public patrolInProgress gamebbScriptID_Bool
 AIPatrolDef = {}
 
----@param fields? table
+---@param fields? AIPatrolDef
 ---@return AIPatrolDef
 function AIPatrolDef.new(fields) return end

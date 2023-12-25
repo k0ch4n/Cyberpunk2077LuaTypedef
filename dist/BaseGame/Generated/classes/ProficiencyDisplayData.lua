@@ -17,7 +17,7 @@
 ---@field public unlockedLevel Int32
 ProficiencyDisplayData = {}
 
----@param fields? table
+---@param fields? ProficiencyDisplayData
 ---@return ProficiencyDisplayData
 function ProficiencyDisplayData.new(fields) return end
 

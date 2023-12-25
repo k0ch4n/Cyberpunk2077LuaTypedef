@@ -5,6 +5,6 @@
 ---@field public chunks gameuiRoachRaceChunk[]
 gameuiRoachRaceChunkLayer = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceChunkLayer
 ---@return gameuiRoachRaceChunkLayer
 function gameuiRoachRaceChunkLayer.new(fields) return end

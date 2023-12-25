@@ -6,6 +6,6 @@
 ---@field public weight Float
 animRigPartBone = {}
 
----@param fields? table
+---@param fields? animRigPartBone
 ---@return animRigPartBone
 function animRigPartBone.new(fields) return end

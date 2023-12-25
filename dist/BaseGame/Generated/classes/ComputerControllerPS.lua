@@ -13,7 +13,7 @@
 ---@field private computerUIpreset gamedataComputerStyleUIDefinition_Record
 ComputerControllerPS = {}
 
----@param fields? table
+---@param fields? ComputerControllerPS
 ---@return ComputerControllerPS
 function ComputerControllerPS.new(fields) return end
 

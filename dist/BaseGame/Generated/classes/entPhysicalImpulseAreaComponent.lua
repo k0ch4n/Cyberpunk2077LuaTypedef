@@ -6,6 +6,6 @@
 ---@field public impulseRadius Float
 entPhysicalImpulseAreaComponent = {}
 
----@param fields? table
+---@param fields? entPhysicalImpulseAreaComponent
 ---@return entPhysicalImpulseAreaComponent
 function entPhysicalImpulseAreaComponent.new(fields) return end

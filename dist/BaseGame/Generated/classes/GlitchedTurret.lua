@@ -5,7 +5,7 @@
 ---@field public animFeature AnimFeature_SensorDevice
 GlitchedTurret = {}
 
----@param fields? table
+---@param fields? GlitchedTurret
 ---@return GlitchedTurret
 function GlitchedTurret.new(fields) return end
 

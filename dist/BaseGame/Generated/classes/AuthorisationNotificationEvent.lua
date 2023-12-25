@@ -5,6 +5,6 @@
 ---@field public type gameuiAuthorisationNotificationType
 AuthorisationNotificationEvent = {}
 
----@param fields? table
+---@param fields? AuthorisationNotificationEvent
 ---@return AuthorisationNotificationEvent
 function AuthorisationNotificationEvent.new(fields) return end

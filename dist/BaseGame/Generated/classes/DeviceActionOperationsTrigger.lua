@@ -5,7 +5,7 @@
 ---@field protected triggerData DeviceActionOperationTriggerData
 DeviceActionOperationsTrigger = {}
 
----@param fields? table
+---@param fields? DeviceActionOperationsTrigger
 ---@return DeviceActionOperationsTrigger
 function DeviceActionOperationsTrigger.new(fields) return end
 

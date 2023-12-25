@@ -4,6 +4,6 @@
 ---@class gameuiDelayedNextVOEvt: redEvent
 gameuiDelayedNextVOEvt = {}
 
----@param fields? table
+---@param fields? gameuiDelayedNextVOEvt
 ---@return gameuiDelayedNextVOEvt
 function gameuiDelayedNextVOEvt.new(fields) return end

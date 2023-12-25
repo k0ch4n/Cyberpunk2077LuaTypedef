@@ -18,6 +18,6 @@
 ---@field public swimmingState gamePSMSwimming
 questCharacterState_PlayerSubType = {}
 
----@param fields? table
+---@param fields? questCharacterState_PlayerSubType
 ---@return questCharacterState_PlayerSubType
 function questCharacterState_PlayerSubType.new(fields) return end

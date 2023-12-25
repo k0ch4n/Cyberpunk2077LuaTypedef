@@ -6,6 +6,6 @@
 ---@field public policies movePolicies
 moveReplicatedMovePolicies = {}
 
----@param fields? table
+---@param fields? moveReplicatedMovePolicies
 ---@return moveReplicatedMovePolicies
 function moveReplicatedMovePolicies.new(fields) return end

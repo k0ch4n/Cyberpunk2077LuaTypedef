@@ -17,6 +17,6 @@
 ---@field public cachedSamplesForGridPoints_weightsForPoints Float[]
 animAnimNode_BlendSpace_InternalsBlendSpace = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendSpace_InternalsBlendSpace
 ---@return animAnimNode_BlendSpace_InternalsBlendSpace
 function animAnimNode_BlendSpace_InternalsBlendSpace.new(fields) return end

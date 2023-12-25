@@ -8,6 +8,6 @@
 ---@field public blendTime Float
 animCurvePathBakerUserInput = {}
 
----@param fields? table
+---@param fields? animCurvePathBakerUserInput
 ---@return animCurvePathBakerUserInput
 function animCurvePathBakerUserInput.new(fields) return end

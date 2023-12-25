@@ -4,6 +4,6 @@
 ---@class AICombatSquad: AISquadBase
 AICombatSquad = {}
 
----@param fields? table
+---@param fields? AICombatSquad
 ---@return AICombatSquad
 function AICombatSquad.new(fields) return end

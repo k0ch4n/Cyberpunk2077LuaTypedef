@@ -5,7 +5,7 @@
 ---@field private cachedEvent UseSecurityLocker
 SecurityLocker = {}
 
----@param fields? table
+---@param fields? SecurityLocker
 ---@return SecurityLocker
 function SecurityLocker.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class MergedMesh: CMesh
 MergedMesh = {}
 
----@param fields? table
+---@param fields? MergedMesh
 ---@return MergedMesh
 function MergedMesh.new(fields) return end

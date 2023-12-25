@@ -4,7 +4,7 @@
 ---@class StatPoolEffector: gameEffector
 StatPoolEffector = {}
 
----@param fields? table
+---@param fields? StatPoolEffector
 ---@return StatPoolEffector
 function StatPoolEffector.new(fields) return end
 

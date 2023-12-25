@@ -10,6 +10,6 @@
 ---@field public useSimTimeForTick Bool
 gameEffectSettings = {}
 
----@param fields? table
+---@param fields? gameEffectSettings
 ---@return gameEffectSettings
 function gameEffectSettings.new(fields) return end

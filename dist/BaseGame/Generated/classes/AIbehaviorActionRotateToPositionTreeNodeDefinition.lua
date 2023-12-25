@@ -4,6 +4,6 @@
 ---@class AIbehaviorActionRotateToPositionTreeNodeDefinition: AIbehaviorActionRotateBaseTreeNodeDefinition
 AIbehaviorActionRotateToPositionTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionRotateToPositionTreeNodeDefinition
 ---@return AIbehaviorActionRotateToPositionTreeNodeDefinition
 function AIbehaviorActionRotateToPositionTreeNodeDefinition.new(fields) return end

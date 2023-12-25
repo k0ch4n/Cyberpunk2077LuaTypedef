@@ -7,6 +7,6 @@
 ---@field public factmode EVarDBMode
 SDebugChoice = {}
 
----@param fields? table
+---@param fields? SDebugChoice
 ---@return SDebugChoice
 function SDebugChoice.new(fields) return end

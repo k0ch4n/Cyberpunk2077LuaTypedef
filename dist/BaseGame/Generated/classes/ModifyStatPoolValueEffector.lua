@@ -8,7 +8,7 @@
 ---@field public setValue Bool
 ModifyStatPoolValueEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatPoolValueEffector
 ---@return ModifyStatPoolValueEffector
 function ModifyStatPoolValueEffector.new(fields) return end
 

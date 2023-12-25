@@ -11,7 +11,7 @@
 ---@field public ObstructedTargetAttitude gamebbScriptID_Int32
 UI_TargetingInfoDef = {}
 
----@param fields? table
+---@param fields? UI_TargetingInfoDef
 ---@return UI_TargetingInfoDef
 function UI_TargetingInfoDef.new(fields) return end
 

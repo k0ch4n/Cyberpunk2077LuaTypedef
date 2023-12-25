@@ -5,6 +5,6 @@
 ---@field public setsSerialized gameRazerChromaAnimationSet[]
 gameRazerChromaAnimationDatabase = {}
 
----@param fields? table
+---@param fields? gameRazerChromaAnimationDatabase
 ---@return gameRazerChromaAnimationDatabase
 function gameRazerChromaAnimationDatabase.new(fields) return end

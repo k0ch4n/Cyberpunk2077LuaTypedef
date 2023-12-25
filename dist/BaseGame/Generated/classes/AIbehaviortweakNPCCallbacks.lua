@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakNPCCallbacks
 AIbehaviortweakNPCCallbacks = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakNPCCallbacks
 ---@return AIbehaviortweakNPCCallbacks
 function AIbehaviortweakNPCCallbacks.new(fields) return end

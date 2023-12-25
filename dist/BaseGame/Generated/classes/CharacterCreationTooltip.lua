@@ -8,7 +8,7 @@
 ---@field protected attribiuteLevelLabel inkWidgetReference
 CharacterCreationTooltip = {}
 
----@param fields? table
+---@param fields? CharacterCreationTooltip
 ---@return CharacterCreationTooltip
 function CharacterCreationTooltip.new(fields) return end
 

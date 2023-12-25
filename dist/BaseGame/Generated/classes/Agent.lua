@@ -10,7 +10,7 @@
 ---@field public cachedDelayDuration Float
 Agent = {}
 
----@param fields? table
+---@param fields? Agent
 ---@return Agent
 function Agent.new(fields) return end
 

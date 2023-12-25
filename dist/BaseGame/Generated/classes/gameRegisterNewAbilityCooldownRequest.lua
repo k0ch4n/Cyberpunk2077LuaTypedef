@@ -12,6 +12,6 @@
 ---@field public abilityType gamedataStatType
 gameRegisterNewAbilityCooldownRequest = {}
 
----@param fields? table
+---@param fields? gameRegisterNewAbilityCooldownRequest
 ---@return gameRegisterNewAbilityCooldownRequest
 function gameRegisterNewAbilityCooldownRequest.new(fields) return end

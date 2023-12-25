@@ -4,7 +4,7 @@
 ---@class DeadState: ChangeHighLevelStateAbstract
 DeadState = {}
 
----@param fields? table
+---@param fields? DeadState
 ---@return DeadState
 function DeadState.new(fields) return end
 

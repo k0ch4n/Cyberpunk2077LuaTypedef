@@ -4,7 +4,7 @@
 ---@class QuickHackableHelper: IScriptable
 QuickHackableHelper = {}
 
----@param fields? table
+---@param fields? QuickHackableHelper
 ---@return QuickHackableHelper
 function QuickHackableHelper.new(fields) return end
 

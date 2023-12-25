@@ -4,6 +4,6 @@
 ---@class inkUserData: IScriptable
 inkUserData = {}
 
----@param fields? table
+---@param fields? inkUserData
 ---@return inkUserData
 function inkUserData.new(fields) return end

@@ -15,7 +15,7 @@
 ---@field private vfxInstance gameFxInstance
 Radio = {}
 
----@param fields? table
+---@param fields? Radio
 ---@return Radio
 function Radio.new(fields) return end
 

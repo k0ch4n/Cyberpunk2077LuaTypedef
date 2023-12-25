@@ -4,7 +4,7 @@
 ---@class DropWeaponTask: StatusEffectTasks
 DropWeaponTask = {}
 
----@param fields? table
+---@param fields? DropWeaponTask
 ---@return DropWeaponTask
 function DropWeaponTask.new(fields) return end
 

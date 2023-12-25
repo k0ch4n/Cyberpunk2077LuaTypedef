@@ -7,7 +7,7 @@
 ---@field public caretSize Vector2
 Codeware_UI_TextInput_Viewport = {}
 
----@param fields? table
+---@param fields? Codeware_UI_TextInput_Viewport
 ---@return Codeware_UI_TextInput_Viewport
 function Codeware_UI_TextInput_Viewport.new(fields) return end
 

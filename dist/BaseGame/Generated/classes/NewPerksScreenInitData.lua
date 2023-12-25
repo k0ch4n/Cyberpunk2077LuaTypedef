@@ -9,6 +9,6 @@
 ---@field public isPlayerInCombat Bool
 NewPerksScreenInitData = {}
 
----@param fields? table
+---@param fields? NewPerksScreenInitData
 ---@return NewPerksScreenInitData
 function NewPerksScreenInitData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public bodyID entEntityID
 CameraDeadBodyData = {}
 
----@param fields? table
+---@param fields? CameraDeadBodyData
 ---@return CameraDeadBodyData
 function CameraDeadBodyData.new(fields) return end

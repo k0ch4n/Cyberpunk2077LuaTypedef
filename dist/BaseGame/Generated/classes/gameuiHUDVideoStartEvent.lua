@@ -14,6 +14,6 @@
 ---@field public forceVideoFrameRate Bool
 gameuiHUDVideoStartEvent = {}
 
----@param fields? table
+---@param fields? gameuiHUDVideoStartEvent
 ---@return gameuiHUDVideoStartEvent
 function gameuiHUDVideoStartEvent.new(fields) return end

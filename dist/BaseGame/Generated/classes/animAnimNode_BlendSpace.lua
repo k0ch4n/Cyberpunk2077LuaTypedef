@@ -10,6 +10,6 @@
 ---@field public isLooped Bool
 animAnimNode_BlendSpace = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendSpace
 ---@return animAnimNode_BlendSpace
 function animAnimNode_BlendSpace.new(fields) return end

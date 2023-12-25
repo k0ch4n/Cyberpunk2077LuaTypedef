@@ -7,6 +7,6 @@
 ---@field public variableNames CName[]
 animAnimSetupEntry = {}
 
----@param fields? table
+---@param fields? animAnimSetupEntry
 ---@return animAnimSetupEntry
 function animAnimSetupEntry.new(fields) return end

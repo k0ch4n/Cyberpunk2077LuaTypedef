@@ -6,6 +6,6 @@
 ---@field public defaultValue CName
 AIArgumentCNameValue = {}
 
----@param fields? table
+---@param fields? AIArgumentCNameValue
 ---@return AIArgumentCNameValue
 function AIArgumentCNameValue.new(fields) return end

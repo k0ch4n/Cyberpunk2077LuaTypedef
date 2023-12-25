@@ -8,6 +8,6 @@
 ---@field public fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorActionUseCommunityWorkspotNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionUseCommunityWorkspotNodeDefinition
 ---@return AIbehaviorActionUseCommunityWorkspotNodeDefinition
 function AIbehaviorActionUseCommunityWorkspotNodeDefinition.new(fields) return end

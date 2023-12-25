@@ -4,7 +4,7 @@
 ---@class IsNPCDriver: AIVehicleConditionAbstract
 IsNPCDriver = {}
 
----@param fields? table
+---@param fields? IsNPCDriver
 ---@return IsNPCDriver
 function IsNPCDriver.new(fields) return end
 

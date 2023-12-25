@@ -7,6 +7,6 @@
 ---@field public removeItemFromEquipSlot Bool
 EquipmentSystemWeaponManipulationRequest = {}
 
----@param fields? table
+---@param fields? EquipmentSystemWeaponManipulationRequest
 ---@return EquipmentSystemWeaponManipulationRequest
 function EquipmentSystemWeaponManipulationRequest.new(fields) return end

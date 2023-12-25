@@ -38,7 +38,7 @@
 ---@field public Popup_Radio_Enabled gamebbScriptID_Bool
 UIGameDataDef = {}
 
----@param fields? table
+---@param fields? UIGameDataDef
 ---@return UIGameDataDef
 function UIGameDataDef.new(fields) return end
 

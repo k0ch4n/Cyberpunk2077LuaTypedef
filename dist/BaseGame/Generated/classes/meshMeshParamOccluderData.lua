@@ -7,6 +7,6 @@
 ---@field public autoHideDistanceScale Uint8
 meshMeshParamOccluderData = {}
 
----@param fields? table
+---@param fields? meshMeshParamOccluderData
 ---@return meshMeshParamOccluderData
 function meshMeshParamOccluderData.new(fields) return end

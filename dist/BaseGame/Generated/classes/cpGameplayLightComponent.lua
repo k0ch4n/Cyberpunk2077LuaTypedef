@@ -9,6 +9,6 @@
 ---@field public delayRange GameTime
 cpGameplayLightComponent = {}
 
----@param fields? table
+---@param fields? cpGameplayLightComponent
 ---@return cpGameplayLightComponent
 function cpGameplayLightComponent.new(fields) return end

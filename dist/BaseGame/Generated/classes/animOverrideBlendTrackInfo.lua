@@ -6,6 +6,6 @@
 ---@field public weight Float
 animOverrideBlendTrackInfo = {}
 
----@param fields? table
+---@param fields? animOverrideBlendTrackInfo
 ---@return animOverrideBlendTrackInfo
 function animOverrideBlendTrackInfo.new(fields) return end

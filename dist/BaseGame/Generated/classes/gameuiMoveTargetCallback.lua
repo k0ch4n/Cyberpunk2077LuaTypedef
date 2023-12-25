@@ -4,6 +4,6 @@
 ---@class gameuiMoveTargetCallback: inkCallbackBase
 gameuiMoveTargetCallback = {}
 
----@param fields? table
+---@param fields? gameuiMoveTargetCallback
 ---@return gameuiMoveTargetCallback
 function gameuiMoveTargetCallback.new(fields) return end

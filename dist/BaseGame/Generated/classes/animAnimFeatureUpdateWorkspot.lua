@@ -25,6 +25,6 @@
 ---@field public globalBlendIn Bool
 animAnimFeatureUpdateWorkspot = {}
 
----@param fields? table
+---@param fields? animAnimFeatureUpdateWorkspot
 ---@return animAnimFeatureUpdateWorkspot
 function animAnimFeatureUpdateWorkspot.new(fields) return end

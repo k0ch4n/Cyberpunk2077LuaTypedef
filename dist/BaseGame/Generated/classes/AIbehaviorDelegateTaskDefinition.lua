@@ -7,6 +7,6 @@
 ---@field public onDeactivate AIbehaviorDelegateTaskRef
 AIbehaviorDelegateTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDelegateTaskDefinition
 ---@return AIbehaviorDelegateTaskDefinition
 function AIbehaviorDelegateTaskDefinition.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public version questJournalQuestEntry_NodeTypeNodeVersion
 questJournalQuestEntry_NodeType = {}
 
----@param fields? table
+---@param fields? questJournalQuestEntry_NodeType
 ---@return questJournalQuestEntry_NodeType
 function questJournalQuestEntry_NodeType.new(fields) return end

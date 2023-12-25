@@ -6,6 +6,6 @@
 ---@field public blendDuration Float
 animPoseCorrectionParams = {}
 
----@param fields? table
+---@param fields? animPoseCorrectionParams
 ---@return animPoseCorrectionParams
 function animPoseCorrectionParams.new(fields) return end

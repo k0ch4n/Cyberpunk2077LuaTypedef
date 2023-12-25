@@ -4,7 +4,7 @@
 ---@class gamedataPreventionMinimapData_Record: gamedataTweakDBRecord
 gamedataPreventionMinimapData_Record = {}
 
----@param fields? table
+---@param fields? gamedataPreventionMinimapData_Record
 ---@return gamedataPreventionMinimapData_Record
 function gamedataPreventionMinimapData_Record.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAIThrowCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIThrowCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIThrowCond_Record
 ---@return gamedataAIThrowCond_Record
 function gamedataAIThrowCond_Record.new(fields) return end
 

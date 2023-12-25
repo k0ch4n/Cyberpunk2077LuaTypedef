@@ -15,6 +15,6 @@
 ---@field public minDamageToInterruptVoWithPainLong Float
 audioCombatVoSettings = {}
 
----@param fields? table
+---@param fields? audioCombatVoSettings
 ---@return audioCombatVoSettings
 function audioCombatVoSettings.new(fields) return end

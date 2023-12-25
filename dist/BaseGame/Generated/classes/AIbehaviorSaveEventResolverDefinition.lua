@@ -5,6 +5,6 @@
 ---@field public eventData AIArgumentMapping
 AIbehaviorSaveEventResolverDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSaveEventResolverDefinition
 ---@return AIbehaviorSaveEventResolverDefinition
 function AIbehaviorSaveEventResolverDefinition.new(fields) return end

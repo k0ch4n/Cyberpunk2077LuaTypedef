@@ -11,6 +11,6 @@
 ---@field public workspotReactionType CName
 ReactionOutput = {}
 
----@param fields? table
+---@param fields? ReactionOutput
 ---@return ReactionOutput
 function ReactionOutput.new(fields) return end

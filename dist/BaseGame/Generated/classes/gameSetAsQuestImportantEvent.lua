@@ -6,7 +6,7 @@
 ---@field public propagateToSlaves Bool
 gameSetAsQuestImportantEvent = {}
 
----@param fields? table
+---@param fields? gameSetAsQuestImportantEvent
 ---@return gameSetAsQuestImportantEvent
 function gameSetAsQuestImportantEvent.new(fields) return end
 

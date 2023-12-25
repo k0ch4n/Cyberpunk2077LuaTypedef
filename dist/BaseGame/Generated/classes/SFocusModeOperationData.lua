@@ -7,6 +7,6 @@
 ---@field public operation SBaseDeviceOperationData
 SFocusModeOperationData = {}
 
----@param fields? table
+---@param fields? SFocusModeOperationData
 ---@return SFocusModeOperationData
 function SFocusModeOperationData.new(fields) return end

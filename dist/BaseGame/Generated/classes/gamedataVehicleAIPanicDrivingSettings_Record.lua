@@ -4,7 +4,7 @@
 ---@class gamedataVehicleAIPanicDrivingSettings_Record: gamedataTweakDBRecord
 gamedataVehicleAIPanicDrivingSettings_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleAIPanicDrivingSettings_Record
 ---@return gamedataVehicleAIPanicDrivingSettings_Record
 function gamedataVehicleAIPanicDrivingSettings_Record.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class VeryHardLandDecisions: FailedLandingAbstractDecisions
 VeryHardLandDecisions = {}
 
----@param fields? table
+---@param fields? VeryHardLandDecisions
 ---@return VeryHardLandDecisions
 function VeryHardLandDecisions.new(fields) return end

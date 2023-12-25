@@ -8,6 +8,6 @@
 ---@field public revealPropagationSpeed Float
 audioShockwaveGlobalSettings = {}
 
----@param fields? table
+---@param fields? audioShockwaveGlobalSettings
 ---@return audioShockwaveGlobalSettings
 function audioShockwaveGlobalSettings.new(fields) return end

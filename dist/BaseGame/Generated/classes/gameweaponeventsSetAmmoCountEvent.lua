@@ -6,6 +6,6 @@
 ---@field public count Uint32
 gameweaponeventsSetAmmoCountEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsSetAmmoCountEvent
 ---@return gameweaponeventsSetAmmoCountEvent
 function gameweaponeventsSetAmmoCountEvent.new(fields) return end

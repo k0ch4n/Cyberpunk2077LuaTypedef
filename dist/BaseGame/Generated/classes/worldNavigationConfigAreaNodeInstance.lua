@@ -4,6 +4,6 @@
 ---@class worldNavigationConfigAreaNodeInstance: worldAreaShapeNodeInstance
 worldNavigationConfigAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldNavigationConfigAreaNodeInstance
 ---@return worldNavigationConfigAreaNodeInstance
 function worldNavigationConfigAreaNodeInstance.new(fields) return end

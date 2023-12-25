@@ -6,6 +6,6 @@
 ---@field public byteOffsets Uint32
 rendVertexBufferChunk = {}
 
----@param fields? table
+---@param fields? rendVertexBufferChunk
 ---@return rendVertexBufferChunk
 function rendVertexBufferChunk.new(fields) return end

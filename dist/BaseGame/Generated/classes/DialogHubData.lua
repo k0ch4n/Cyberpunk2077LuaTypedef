@@ -10,6 +10,6 @@
 ---@field public argTotalCountAcrossHubs Int32
 DialogHubData = {}
 
----@param fields? table
+---@param fields? DialogHubData
 ---@return DialogHubData
 function DialogHubData.new(fields) return end

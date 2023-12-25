@@ -4,6 +4,6 @@
 ---@class UninstallCyberwareRequest: UnequipRequest
 UninstallCyberwareRequest = {}
 
----@param fields? table
+---@param fields? UninstallCyberwareRequest
 ---@return UninstallCyberwareRequest
 function UninstallCyberwareRequest.new(fields) return end

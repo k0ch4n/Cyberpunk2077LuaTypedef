@@ -4,6 +4,6 @@
 ---@class ResetNPCFinishedDelayedRequest: gameScriptableSystemRequest
 ResetNPCFinishedDelayedRequest = {}
 
----@param fields? table
+---@param fields? ResetNPCFinishedDelayedRequest
 ---@return ResetNPCFinishedDelayedRequest
 function ResetNPCFinishedDelayedRequest.new(fields) return end

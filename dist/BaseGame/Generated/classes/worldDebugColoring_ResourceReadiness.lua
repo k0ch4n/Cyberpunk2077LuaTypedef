@@ -4,6 +4,6 @@
 ---@class worldDebugColoring_ResourceReadiness: worldEditorDebugColoringSettings
 worldDebugColoring_ResourceReadiness = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_ResourceReadiness
 ---@return worldDebugColoring_ResourceReadiness
 function worldDebugColoring_ResourceReadiness.new(fields) return end

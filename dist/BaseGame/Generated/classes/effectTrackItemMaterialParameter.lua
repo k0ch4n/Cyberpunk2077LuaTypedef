@@ -12,6 +12,6 @@
 ---@field public customParameter3 effectEffectParameterEvaluator
 effectTrackItemMaterialParameter = {}
 
----@param fields? table
+---@param fields? effectTrackItemMaterialParameter
 ---@return effectTrackItemMaterialParameter
 function effectTrackItemMaterialParameter.new(fields) return end

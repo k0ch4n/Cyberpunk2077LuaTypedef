@@ -6,7 +6,7 @@
 ---@field public proficiency gamedataProficiencyType
 InvestedPerksPrereq = {}
 
----@param fields? table
+---@param fields? InvestedPerksPrereq
 ---@return InvestedPerksPrereq
 function InvestedPerksPrereq.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public entryTangent AIArgumentMapping
 AIbehaviorFindClosestPointOnPathTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindClosestPointOnPathTaskDefinition
 ---@return AIbehaviorFindClosestPointOnPathTaskDefinition
 function AIbehaviorFindClosestPointOnPathTaskDefinition.new(fields) return end

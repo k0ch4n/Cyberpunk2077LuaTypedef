@@ -6,6 +6,6 @@
 ---@field public OperationResult Bool
 QuickSlotUIStructure = {}
 
----@param fields? table
+---@param fields? QuickSlotUIStructure
 ---@return QuickSlotUIStructure
 function QuickSlotUIStructure.new(fields) return end

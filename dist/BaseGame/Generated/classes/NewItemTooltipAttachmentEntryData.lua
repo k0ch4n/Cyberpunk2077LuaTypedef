@@ -8,7 +8,7 @@
 ---@field public attunementData UIInventoryItemModAttunementData
 NewItemTooltipAttachmentEntryData = {}
 
----@param fields? table
+---@param fields? NewItemTooltipAttachmentEntryData
 ---@return NewItemTooltipAttachmentEntryData
 function NewItemTooltipAttachmentEntryData.new(fields) return end
 

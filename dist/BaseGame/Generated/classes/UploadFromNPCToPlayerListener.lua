@@ -15,7 +15,7 @@
 ---@field private useInterruptionPrereqs Bool
 UploadFromNPCToPlayerListener = {}
 
----@param fields? table
+---@param fields? UploadFromNPCToPlayerListener
 ---@return UploadFromNPCToPlayerListener
 function UploadFromNPCToPlayerListener.new(fields) return end
 

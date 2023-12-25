@@ -6,6 +6,6 @@
 ---@field public Icon CName
 UIInventoryItemModAttunementData = {}
 
----@param fields? table
+---@param fields? UIInventoryItemModAttunementData
 ---@return UIInventoryItemModAttunementData
 function UIInventoryItemModAttunementData.new(fields) return end

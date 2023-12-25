@@ -6,6 +6,6 @@
 ---@field public id Uint8
 gameSmartObjectTransformSequenceDictionaryEntry = {}
 
----@param fields? table
+---@param fields? gameSmartObjectTransformSequenceDictionaryEntry
 ---@return gameSmartObjectTransformSequenceDictionaryEntry
 function gameSmartObjectTransformSequenceDictionaryEntry.new(fields) return end

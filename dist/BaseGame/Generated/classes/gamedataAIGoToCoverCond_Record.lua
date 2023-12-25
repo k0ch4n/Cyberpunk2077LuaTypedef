@@ -4,7 +4,7 @@
 ---@class gamedataAIGoToCoverCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIGoToCoverCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIGoToCoverCond_Record
 ---@return gamedataAIGoToCoverCond_Record
 function gamedataAIGoToCoverCond_Record.new(fields) return end
 

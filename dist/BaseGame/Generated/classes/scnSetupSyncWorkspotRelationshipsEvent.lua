@@ -5,6 +5,6 @@
 ---@field public syncedWorkspotIds scnSceneWorkspotInstanceId
 scnSetupSyncWorkspotRelationshipsEvent = {}
 
----@param fields? table
+---@param fields? scnSetupSyncWorkspotRelationshipsEvent
 ---@return scnSetupSyncWorkspotRelationshipsEvent
 function scnSetupSyncWorkspotRelationshipsEvent.new(fields) return end

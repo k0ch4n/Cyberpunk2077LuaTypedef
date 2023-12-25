@@ -13,7 +13,7 @@
 ---@field private localizedText String
 characterCreationLifePathBtn = {}
 
----@param fields? table
+---@param fields? characterCreationLifePathBtn
 ---@return characterCreationLifePathBtn
 function characterCreationLifePathBtn.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 CityFluffScreenSelector = {}
 
----@param fields? table
+---@param fields? CityFluffScreenSelector
 ---@return CityFluffScreenSelector
 function CityFluffScreenSelector.new(fields) return end
 

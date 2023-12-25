@@ -5,6 +5,6 @@
 ---@field public eventType ETakedownActionType
 TakedownActionDataTrackingRequest = {}
 
----@param fields? table
+---@param fields? TakedownActionDataTrackingRequest
 ---@return TakedownActionDataTrackingRequest
 function TakedownActionDataTrackingRequest.new(fields) return end

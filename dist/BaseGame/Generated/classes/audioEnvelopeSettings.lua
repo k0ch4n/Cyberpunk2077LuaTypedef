@@ -7,6 +7,6 @@
 ---@field public holdTime Float
 audioEnvelopeSettings = {}
 
----@param fields? table
+---@param fields? audioEnvelopeSettings
 ---@return audioEnvelopeSettings
 function audioEnvelopeSettings.new(fields) return end

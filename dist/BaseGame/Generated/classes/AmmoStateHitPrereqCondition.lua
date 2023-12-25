@@ -7,7 +7,7 @@
 ---@field public comparisonType EComparisonType
 AmmoStateHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? AmmoStateHitPrereqCondition
 ---@return AmmoStateHitPrereqCondition
 function AmmoStateHitPrereqCondition.new(fields) return end
 

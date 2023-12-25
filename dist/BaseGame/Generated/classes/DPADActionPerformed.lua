@@ -9,6 +9,6 @@
 ---@field public successful Bool
 DPADActionPerformed = {}
 
----@param fields? table
+---@param fields? DPADActionPerformed
 ---@return DPADActionPerformed
 function DPADActionPerformed.new(fields) return end

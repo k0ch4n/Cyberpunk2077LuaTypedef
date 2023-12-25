@@ -13,6 +13,6 @@
 ---@field public stat gamedataStatType
 NewPerksPerkItemInitData = {}
 
----@param fields? table
+---@param fields? NewPerksPerkItemInitData
 ---@return NewPerksPerkItemInitData
 function NewPerksPerkItemInitData.new(fields) return end

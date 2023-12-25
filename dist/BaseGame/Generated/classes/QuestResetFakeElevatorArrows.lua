@@ -4,7 +4,7 @@
 ---@class QuestResetFakeElevatorArrows: ActionBool
 QuestResetFakeElevatorArrows = {}
 
----@param fields? table
+---@param fields? QuestResetFakeElevatorArrows
 ---@return QuestResetFakeElevatorArrows
 function QuestResetFakeElevatorArrows.new(fields) return end
 

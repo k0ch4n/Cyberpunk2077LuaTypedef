@@ -4,7 +4,7 @@
 ---@class VehicleQuestRestrictedContextDecisions: InputContextTransitionDecisions
 VehicleQuestRestrictedContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleQuestRestrictedContextDecisions
 ---@return VehicleQuestRestrictedContextDecisions
 function VehicleQuestRestrictedContextDecisions.new(fields) return end
 

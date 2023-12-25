@@ -8,7 +8,7 @@
 ---@field public delayID gameDelayID
 TemporalPrereqState = {}
 
----@param fields? table
+---@param fields? TemporalPrereqState
 ---@return TemporalPrereqState
 function TemporalPrereqState.new(fields) return end
 

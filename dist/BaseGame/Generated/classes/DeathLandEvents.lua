@@ -4,7 +4,7 @@
 ---@class DeathLandEvents: FailedLandingAbstractEvents
 DeathLandEvents = {}
 
----@param fields? table
+---@param fields? DeathLandEvents
 ---@return DeathLandEvents
 function DeathLandEvents.new(fields) return end
 

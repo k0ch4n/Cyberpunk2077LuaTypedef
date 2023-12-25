@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionConditionalFailure_Record: gamedataAISubAction_Record
 gamedataAISubActionConditionalFailure_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionConditionalFailure_Record
 ---@return gamedataAISubActionConditionalFailure_Record
 function gamedataAISubActionConditionalFailure_Record.new(fields) return end
 

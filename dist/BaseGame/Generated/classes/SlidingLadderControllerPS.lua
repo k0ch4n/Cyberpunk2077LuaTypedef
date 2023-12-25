@@ -6,7 +6,7 @@
 ---@field protected animationTime Float
 SlidingLadderControllerPS = {}
 
----@param fields? table
+---@param fields? SlidingLadderControllerPS
 ---@return SlidingLadderControllerPS
 function SlidingLadderControllerPS.new(fields) return end
 

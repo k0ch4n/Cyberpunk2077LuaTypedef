@@ -7,7 +7,7 @@
 ---@field public slotToEmpty TweakDBID
 RemoveItemPart = {}
 
----@param fields? table
+---@param fields? RemoveItemPart
 ---@return RemoveItemPart
 function RemoveItemPart.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class EffectExecutor_PuppetForceVisionAppearance: gameEffectExecutor_Scripted
 EffectExecutor_PuppetForceVisionAppearance = {}
 
----@param fields? table
+---@param fields? EffectExecutor_PuppetForceVisionAppearance
 ---@return EffectExecutor_PuppetForceVisionAppearance
 function EffectExecutor_PuppetForceVisionAppearance.new(fields) return end
 

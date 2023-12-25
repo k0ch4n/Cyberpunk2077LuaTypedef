@@ -7,6 +7,6 @@
 ---@field public inputPoseNode animPoseLink
 animAnimNode_RagdollControl = {}
 
----@param fields? table
+---@param fields? animAnimNode_RagdollControl
 ---@return animAnimNode_RagdollControl
 function animAnimNode_RagdollControl.new(fields) return end

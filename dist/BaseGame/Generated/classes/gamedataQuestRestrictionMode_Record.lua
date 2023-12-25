@@ -4,7 +4,7 @@
 ---@class gamedataQuestRestrictionMode_Record: gamedataTweakDBRecord
 gamedataQuestRestrictionMode_Record = {}
 
----@param fields? table
+---@param fields? gamedataQuestRestrictionMode_Record
 ---@return gamedataQuestRestrictionMode_Record
 function gamedataQuestRestrictionMode_Record.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field private locMgr UILocalizationMap
 InventoryDataManager = {}
 
----@param fields? table
+---@param fields? InventoryDataManager
 ---@return InventoryDataManager
 function InventoryDataManager.new(fields) return end
 

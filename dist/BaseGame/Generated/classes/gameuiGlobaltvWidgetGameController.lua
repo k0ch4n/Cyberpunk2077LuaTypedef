@@ -5,6 +5,6 @@
 ---@field public overlayContainer inkCompoundWidgetReference
 gameuiGlobaltvWidgetGameController = {}
 
----@param fields? table
+---@param fields? gameuiGlobaltvWidgetGameController
 ---@return gameuiGlobaltvWidgetGameController
 function gameuiGlobaltvWidgetGameController.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public iconRef inkImageWidgetReference
 gameuiInputHintGroupController = {}
 
----@param fields? table
+---@param fields? gameuiInputHintGroupController
 ---@return gameuiInputHintGroupController
 function gameuiInputHintGroupController.new(fields) return end

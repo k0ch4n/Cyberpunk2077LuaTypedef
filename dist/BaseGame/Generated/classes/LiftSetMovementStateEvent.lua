@@ -5,6 +5,6 @@
 ---@field public movementState gamePlatformMovementState
 LiftSetMovementStateEvent = {}
 
----@param fields? table
+---@param fields? LiftSetMovementStateEvent
 ---@return LiftSetMovementStateEvent
 function LiftSetMovementStateEvent.new(fields) return end

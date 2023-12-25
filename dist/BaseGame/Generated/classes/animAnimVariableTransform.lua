@@ -6,6 +6,6 @@
 ---@field public default QsTransform
 animAnimVariableTransform = {}
 
----@param fields? table
+---@param fields? animAnimVariableTransform
 ---@return animAnimVariableTransform
 function animAnimVariableTransform.new(fields) return end

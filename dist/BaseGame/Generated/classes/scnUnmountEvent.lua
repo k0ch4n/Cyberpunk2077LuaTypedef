@@ -5,6 +5,6 @@
 ---@field public performer scnPerformerId
 scnUnmountEvent = {}
 
----@param fields? table
+---@param fields? scnUnmountEvent
 ---@return scnUnmountEvent
 function scnUnmountEvent.new(fields) return end

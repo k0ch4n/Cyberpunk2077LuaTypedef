@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakConditionStatusEffectListener: gameIStatusEffectListener
 AIbehaviortweakConditionStatusEffectListener = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakConditionStatusEffectListener
 ---@return AIbehaviortweakConditionStatusEffectListener
 function AIbehaviortweakConditionStatusEffectListener.new(fields) return end

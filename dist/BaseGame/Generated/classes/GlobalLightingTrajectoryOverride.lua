@@ -9,6 +9,6 @@
 ---@field public timeOfYearSeason ETimeOfYearSeason
 GlobalLightingTrajectoryOverride = {}
 
----@param fields? table
+---@param fields? GlobalLightingTrajectoryOverride
 ---@return GlobalLightingTrajectoryOverride
 function GlobalLightingTrajectoryOverride.new(fields) return end

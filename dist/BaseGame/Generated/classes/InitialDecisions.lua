@@ -4,7 +4,7 @@
 ---@class InitialDecisions: LocomotionGroundDecisions
 InitialDecisions = {}
 
----@param fields? table
+---@param fields? InitialDecisions
 ---@return InitialDecisions
 function InitialDecisions.new(fields) return end
 

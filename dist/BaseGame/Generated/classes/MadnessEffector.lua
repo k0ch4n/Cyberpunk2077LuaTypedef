@@ -6,7 +6,7 @@
 ---@field public owner ScriptedPuppet
 MadnessEffector = {}
 
----@param fields? table
+---@param fields? MadnessEffector
 ---@return MadnessEffector
 function MadnessEffector.new(fields) return end
 

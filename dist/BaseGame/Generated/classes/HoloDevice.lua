@@ -5,7 +5,7 @@
 ---@field private questFactName CName
 HoloDevice = {}
 
----@param fields? table
+---@param fields? HoloDevice
 ---@return HoloDevice
 function HoloDevice.new(fields) return end
 

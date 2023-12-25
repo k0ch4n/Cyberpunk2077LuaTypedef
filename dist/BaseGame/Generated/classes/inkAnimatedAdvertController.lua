@@ -6,6 +6,6 @@
 ---@field public loopType inkanimLoopType
 inkAnimatedAdvertController = {}
 
----@param fields? table
+---@param fields? inkAnimatedAdvertController
 ---@return inkAnimatedAdvertController
 function inkAnimatedAdvertController.new(fields) return end

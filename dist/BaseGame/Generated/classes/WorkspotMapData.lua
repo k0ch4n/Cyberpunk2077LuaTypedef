@@ -6,7 +6,7 @@
 ---@field public workspots WorkspotEntryData[]
 WorkspotMapData = {}
 
----@param fields? table
+---@param fields? WorkspotMapData
 ---@return WorkspotMapData
 function WorkspotMapData.new(fields) return end
 

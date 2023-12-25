@@ -12,6 +12,6 @@
 ---@field public trafficTryNeighborsForEnd AIArgumentMapping
 AIbehaviorDriveToPointTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveToPointTreeNodeDefinition
 ---@return AIbehaviorDriveToPointTreeNodeDefinition
 function AIbehaviorDriveToPointTreeNodeDefinition.new(fields) return end

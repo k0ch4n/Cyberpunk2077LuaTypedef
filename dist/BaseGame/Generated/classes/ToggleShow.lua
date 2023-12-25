@@ -4,7 +4,7 @@
 ---@class ToggleShow: ActionBool
 ToggleShow = {}
 
----@param fields? table
+---@param fields? ToggleShow
 ---@return ToggleShow
 function ToggleShow.new(fields) return end
 

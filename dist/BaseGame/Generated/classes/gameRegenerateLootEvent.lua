@@ -4,6 +4,6 @@
 ---@class gameRegenerateLootEvent: redEvent
 gameRegenerateLootEvent = {}
 
----@param fields? table
+---@param fields? gameRegenerateLootEvent
 ---@return gameRegenerateLootEvent
 function gameRegenerateLootEvent.new(fields) return end

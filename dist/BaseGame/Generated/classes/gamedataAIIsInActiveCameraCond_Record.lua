@@ -4,7 +4,7 @@
 ---@class gamedataAIIsInActiveCameraCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsInActiveCameraCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIIsInActiveCameraCond_Record
 ---@return gamedataAIIsInActiveCameraCond_Record
 function gamedataAIIsInActiveCameraCond_Record.new(fields) return end
 

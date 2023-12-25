@@ -7,6 +7,6 @@
 ---@field public MemoryCost Int32
 OverclockDamagePreview = {}
 
----@param fields? table
+---@param fields? OverclockDamagePreview
 ---@return OverclockDamagePreview
 function OverclockDamagePreview.new(fields) return end

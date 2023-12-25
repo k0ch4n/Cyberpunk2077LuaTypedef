@@ -9,6 +9,6 @@
 ---@field public isStaticRemains Bool
 meshRegionData = {}
 
----@param fields? table
+---@param fields? meshRegionData
 ---@return meshRegionData
 function meshRegionData.new(fields) return end

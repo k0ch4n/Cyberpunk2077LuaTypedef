@@ -5,6 +5,6 @@
 ---@field public type questIRenderFxManagerNodeType
 questRenderFxManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questRenderFxManagerNodeDefinition
 ---@return questRenderFxManagerNodeDefinition
 function questRenderFxManagerNodeDefinition.new(fields) return end

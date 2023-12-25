@@ -4,7 +4,7 @@
 ---@class RadioViabilityInterpreter: IScriptable
 RadioViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? RadioViabilityInterpreter
 ---@return RadioViabilityInterpreter
 function RadioViabilityInterpreter.new(fields) return end
 

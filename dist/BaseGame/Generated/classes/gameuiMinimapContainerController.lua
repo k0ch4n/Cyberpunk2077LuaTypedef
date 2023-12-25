@@ -41,7 +41,7 @@
 ---@field private messageCounterController inkCompoundWidget
 gameuiMinimapContainerController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapContainerController
 ---@return gameuiMinimapContainerController
 function gameuiMinimapContainerController.new(fields) return end
 

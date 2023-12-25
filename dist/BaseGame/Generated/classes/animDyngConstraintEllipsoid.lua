@@ -9,6 +9,6 @@
 ---@field public constraintScale2 Float
 animDyngConstraintEllipsoid = {}
 
----@param fields? table
+---@param fields? animDyngConstraintEllipsoid
 ---@return animDyngConstraintEllipsoid
 function animDyngConstraintEllipsoid.new(fields) return end

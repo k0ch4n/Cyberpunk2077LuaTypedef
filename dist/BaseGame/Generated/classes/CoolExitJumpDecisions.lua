@@ -4,7 +4,7 @@
 ---@class CoolExitJumpDecisions: LocomotionAirDecisions
 CoolExitJumpDecisions = {}
 
----@param fields? table
+---@param fields? CoolExitJumpDecisions
 ---@return CoolExitJumpDecisions
 function CoolExitJumpDecisions.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ForceLockElevator: ToggleLock
 ForceLockElevator = {}
 
----@param fields? table
+---@param fields? ForceLockElevator
 ---@return ForceLockElevator
 function ForceLockElevator.new(fields) return end
 

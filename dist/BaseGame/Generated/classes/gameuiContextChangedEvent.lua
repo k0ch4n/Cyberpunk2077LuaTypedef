@@ -6,6 +6,6 @@
 ---@field public newContext gameuiContext
 gameuiContextChangedEvent = {}
 
----@param fields? table
+---@param fields? gameuiContextChangedEvent
 ---@return gameuiContextChangedEvent
 function gameuiContextChangedEvent.new(fields) return end

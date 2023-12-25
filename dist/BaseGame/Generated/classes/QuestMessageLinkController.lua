@@ -10,7 +10,7 @@
 ---@field private phoneSystem PhoneSystem
 QuestMessageLinkController = {}
 
----@param fields? table
+---@param fields? QuestMessageLinkController
 ---@return QuestMessageLinkController
 function QuestMessageLinkController.new(fields) return end
 

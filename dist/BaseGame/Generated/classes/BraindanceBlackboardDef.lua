@@ -14,7 +14,7 @@
 ---@field public PlaybackDirection gamebbScriptID_Variant
 BraindanceBlackboardDef = {}
 
----@param fields? table
+---@param fields? BraindanceBlackboardDef
 ---@return BraindanceBlackboardDef
 function BraindanceBlackboardDef.new(fields) return end
 

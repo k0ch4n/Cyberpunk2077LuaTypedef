@@ -10,6 +10,6 @@
 ---@field public forcedStartSpeed Float
 AIVehicleDrivePatrolCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleDrivePatrolCommand
 ---@return AIVehicleDrivePatrolCommand
 function AIVehicleDrivePatrolCommand.new(fields) return end

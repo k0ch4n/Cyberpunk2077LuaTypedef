@@ -9,7 +9,7 @@
 ---@field public widgetData Variant
 AsyncSpawnData = {}
 
----@param fields? table
+---@param fields? AsyncSpawnData
 ---@return AsyncSpawnData
 function AsyncSpawnData.new(fields) return end
 

@@ -12,6 +12,6 @@
 ---@field public progressTrack animNamedTrackIndex
 animAnimNode_SimpleSpline = {}
 
----@param fields? table
+---@param fields? animAnimNode_SimpleSpline
 ---@return animAnimNode_SimpleSpline
 function animAnimNode_SimpleSpline.new(fields) return end

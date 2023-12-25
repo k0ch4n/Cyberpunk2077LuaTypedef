@@ -6,6 +6,6 @@
 ---@field public defaultPositionBoneName CName
 animLookAtPartInfo = {}
 
----@param fields? table
+---@param fields? animLookAtPartInfo
 ---@return animLookAtPartInfo
 function animLookAtPartInfo.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SurveillanceCameraStatus: BaseDeviceStatus
 SurveillanceCameraStatus = {}
 
----@param fields? table
+---@param fields? SurveillanceCameraStatus
 ---@return SurveillanceCameraStatus
 function SurveillanceCameraStatus.new(fields) return end
 

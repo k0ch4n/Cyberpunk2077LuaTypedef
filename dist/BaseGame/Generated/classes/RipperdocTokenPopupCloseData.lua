@@ -8,6 +8,6 @@
 ---@field public costData CyberwareUpgradeCostData
 RipperdocTokenPopupCloseData = {}
 
----@param fields? table
+---@param fields? RipperdocTokenPopupCloseData
 ---@return RipperdocTokenPopupCloseData
 function RipperdocTokenPopupCloseData.new(fields) return end

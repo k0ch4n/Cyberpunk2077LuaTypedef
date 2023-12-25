@@ -7,7 +7,7 @@
 ---@field public toggledLevels Int32[]
 VirtualNestedListDataView = {}
 
----@param fields? table
+---@param fields? VirtualNestedListDataView
 ---@return VirtualNestedListDataView
 function VirtualNestedListDataView.new(fields) return end
 

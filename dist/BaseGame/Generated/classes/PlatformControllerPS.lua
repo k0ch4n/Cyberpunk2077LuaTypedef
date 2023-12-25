@@ -17,7 +17,7 @@
 ---@field private pausingTime Float
 PlatformControllerPS = {}
 
----@param fields? table
+---@param fields? PlatformControllerPS
 ---@return PlatformControllerPS
 function PlatformControllerPS.new(fields) return end
 

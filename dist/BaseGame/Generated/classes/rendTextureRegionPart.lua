@@ -6,6 +6,6 @@
 ---@field public outerRegion Vector4
 rendTextureRegionPart = {}
 
----@param fields? table
+---@param fields? rendTextureRegionPart
 ---@return rendTextureRegionPart
 function rendTextureRegionPart.new(fields) return end

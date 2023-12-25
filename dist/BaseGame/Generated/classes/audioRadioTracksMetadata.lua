@@ -5,6 +5,6 @@
 ---@field public radioTracks audioRadioTrack[]
 audioRadioTracksMetadata = {}
 
----@param fields? table
+---@param fields? audioRadioTracksMetadata
 ---@return audioRadioTracksMetadata
 function audioRadioTracksMetadata.new(fields) return end

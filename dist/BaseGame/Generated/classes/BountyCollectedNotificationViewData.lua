@@ -4,7 +4,7 @@
 ---@class BountyCollectedNotificationViewData: gameuiGenericNotificationViewData
 BountyCollectedNotificationViewData = {}
 
----@param fields? table
+---@param fields? BountyCollectedNotificationViewData
 ---@return BountyCollectedNotificationViewData
 function BountyCollectedNotificationViewData.new(fields) return end
 

@@ -20,6 +20,6 @@
 ---@field public fixedRaycastPitch Float
 audioReflectionEmitterSettings = {}
 
----@param fields? table
+---@param fields? audioReflectionEmitterSettings
 ---@return audioReflectionEmitterSettings
 function audioReflectionEmitterSettings.new(fields) return end

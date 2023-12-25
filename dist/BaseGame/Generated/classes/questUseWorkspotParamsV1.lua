@@ -27,6 +27,6 @@
 ---@field public dangleResetSimulation Bool
 questUseWorkspotParamsV1 = {}
 
----@param fields? table
+---@param fields? questUseWorkspotParamsV1
 ---@return questUseWorkspotParamsV1
 function questUseWorkspotParamsV1.new(fields) return end

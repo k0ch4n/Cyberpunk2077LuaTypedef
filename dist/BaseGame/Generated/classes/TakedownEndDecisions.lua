@@ -4,7 +4,7 @@
 ---@class TakedownEndDecisions: LocomotionTakedownDecisions
 TakedownEndDecisions = {}
 
----@param fields? table
+---@param fields? TakedownEndDecisions
 ---@return TakedownEndDecisions
 function TakedownEndDecisions.new(fields) return end
 

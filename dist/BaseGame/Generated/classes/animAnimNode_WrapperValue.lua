@@ -7,6 +7,6 @@
 ---@field public oneMinus Bool
 animAnimNode_WrapperValue = {}
 
----@param fields? table
+---@param fields? animAnimNode_WrapperValue
 ---@return animAnimNode_WrapperValue
 function animAnimNode_WrapperValue.new(fields) return end

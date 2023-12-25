@@ -4,6 +4,6 @@
 ---@class IsInFocusModePSMPrereqState: PlayerStateMachinePrereqState
 IsInFocusModePSMPrereqState = {}
 
----@param fields? table
+---@param fields? IsInFocusModePSMPrereqState
 ---@return IsInFocusModePSMPrereqState
 function IsInFocusModePSMPrereqState.new(fields) return end

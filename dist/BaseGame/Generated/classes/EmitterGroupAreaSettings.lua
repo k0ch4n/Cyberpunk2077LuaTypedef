@@ -6,6 +6,6 @@
 ---@field public EmitterGroupParams EmitterGroupAreaParams[]
 EmitterGroupAreaSettings = {}
 
----@param fields? table
+---@param fields? EmitterGroupAreaSettings
 ---@return EmitterGroupAreaSettings
 function EmitterGroupAreaSettings.new(fields) return end

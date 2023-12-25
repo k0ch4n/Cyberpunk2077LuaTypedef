@@ -27,6 +27,6 @@
 ---@field public radioPlaysWhenEngineStartsProbability Float
 audioVehicleMetadata = {}
 
----@param fields? table
+---@param fields? audioVehicleMetadata
 ---@return audioVehicleMetadata
 function audioVehicleMetadata.new(fields) return end

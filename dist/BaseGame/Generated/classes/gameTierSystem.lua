@@ -4,6 +4,6 @@
 ---@class gameTierSystem: gameITierSystem
 gameTierSystem = {}
 
----@param fields? table
+---@param fields? gameTierSystem
 ---@return gameTierSystem
 function gameTierSystem.new(fields) return end

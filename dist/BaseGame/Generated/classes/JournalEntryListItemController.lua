@@ -4,7 +4,7 @@
 ---@class JournalEntryListItemController: inkListItemController
 JournalEntryListItemController = {}
 
----@param fields? table
+---@param fields? JournalEntryListItemController
 ---@return JournalEntryListItemController
 function JournalEntryListItemController.new(fields) return end
 

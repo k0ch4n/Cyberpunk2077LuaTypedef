@@ -5,6 +5,6 @@
 ---@field public hitReactionBehaviorData HitReactionBehaviorData
 LastHitDataEvent = {}
 
----@param fields? table
+---@param fields? LastHitDataEvent
 ---@return LastHitDataEvent
 function LastHitDataEvent.new(fields) return end

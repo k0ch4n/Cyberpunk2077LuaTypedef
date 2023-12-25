@@ -4,6 +4,6 @@
 ---@class inkItemPositionProviderWrapper: IScriptable
 inkItemPositionProviderWrapper = {}
 
----@param fields? table
+---@param fields? inkItemPositionProviderWrapper
 ---@return inkItemPositionProviderWrapper
 function inkItemPositionProviderWrapper.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public value Uint32
 gameEffectParameter_IntEvaluator_ValueOrBlackboard = {}
 
----@param fields? table
+---@param fields? gameEffectParameter_IntEvaluator_ValueOrBlackboard
 ---@return gameEffectParameter_IntEvaluator_ValueOrBlackboard
 function gameEffectParameter_IntEvaluator_ValueOrBlackboard.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public toggle Bool
 ToggleTargetingComponentsEvent = {}
 
----@param fields? table
+---@param fields? ToggleTargetingComponentsEvent
 ---@return ToggleTargetingComponentsEvent
 function ToggleTargetingComponentsEvent.new(fields) return end

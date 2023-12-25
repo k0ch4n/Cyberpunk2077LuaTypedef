@@ -4,6 +4,6 @@
 ---@class UnlockAllAchievementsRequest: gameScriptableSystemRequest
 UnlockAllAchievementsRequest = {}
 
----@param fields? table
+---@param fields? UnlockAllAchievementsRequest
 ---@return UnlockAllAchievementsRequest
 function UnlockAllAchievementsRequest.new(fields) return end

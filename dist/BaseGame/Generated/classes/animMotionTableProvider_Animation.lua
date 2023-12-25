@@ -4,6 +4,6 @@
 ---@class animMotionTableProvider_Animation: animIMotionTableProvider
 animMotionTableProvider_Animation = {}
 
----@param fields? table
+---@param fields? animMotionTableProvider_Animation
 ---@return animMotionTableProvider_Animation
 function animMotionTableProvider_Animation.new(fields) return end

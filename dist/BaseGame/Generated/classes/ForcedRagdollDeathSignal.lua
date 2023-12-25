@@ -5,6 +5,6 @@
 ---@field public value Bool
 ForcedRagdollDeathSignal = {}
 
----@param fields? table
+---@param fields? ForcedRagdollDeathSignal
 ---@return ForcedRagdollDeathSignal
 function ForcedRagdollDeathSignal.new(fields) return end

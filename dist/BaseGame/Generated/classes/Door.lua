@@ -49,7 +49,7 @@
 ---@field private playerInWorkspot PlayerPuppet
 Door = {}
 
----@param fields? table
+---@param fields? Door
 ---@return Door
 function Door.new(fields) return end
 

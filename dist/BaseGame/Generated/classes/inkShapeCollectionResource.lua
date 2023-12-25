@@ -5,6 +5,6 @@
 ---@field public presets inkShapePreset[]
 inkShapeCollectionResource = {}
 
----@param fields? table
+---@param fields? inkShapeCollectionResource
 ---@return inkShapeCollectionResource
 function inkShapeCollectionResource.new(fields) return end

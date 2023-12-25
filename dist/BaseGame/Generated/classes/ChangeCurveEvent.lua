@@ -7,6 +7,6 @@
 ---@field public loop Bool
 ChangeCurveEvent = {}
 
----@param fields? table
+---@param fields? ChangeCurveEvent
 ---@return ChangeCurveEvent
 function ChangeCurveEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameDebugDrawHistorySystem: gameIDebugDrawHistorySystem
 gameDebugDrawHistorySystem = {}
 
----@param fields? table
+---@param fields? gameDebugDrawHistorySystem
 ---@return gameDebugDrawHistorySystem
 function gameDebugDrawHistorySystem.new(fields) return end

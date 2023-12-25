@@ -10,6 +10,6 @@
 ---@field public eventFlags audioAudioEventFlags
 entAudioEvent = {}
 
----@param fields? table
+---@param fields? entAudioEvent
 ---@return entAudioEvent
 function entAudioEvent.new(fields) return end

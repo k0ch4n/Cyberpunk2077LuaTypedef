@@ -49,7 +49,7 @@
 ---@field private targetWidgetPoolSize Int32
 gameuiPanzerHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiPanzerHUDGameController
 ---@return gameuiPanzerHUDGameController
 function gameuiPanzerHUDGameController.new(fields) return end
 

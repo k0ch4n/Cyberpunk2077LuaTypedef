@@ -6,6 +6,6 @@
 ---@field public actionToForward ScriptableDeviceAction
 ForwardAction = {}
 
----@param fields? table
+---@param fields? ForwardAction
 ---@return ForwardAction
 function ForwardAction.new(fields) return end

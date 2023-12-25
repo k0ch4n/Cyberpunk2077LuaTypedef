@@ -14,7 +14,7 @@
 ---@field private barSize Vector2
 gameuiPhoneWaveformGameController = {}
 
----@param fields? table
+---@param fields? gameuiPhoneWaveformGameController
 ---@return gameuiPhoneWaveformGameController
 function gameuiPhoneWaveformGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class InCrouchStanceState: AINPCStanceStateCheck
 InCrouchStanceState = {}
 
----@param fields? table
+---@param fields? InCrouchStanceState
 ---@return InCrouchStanceState
 function InCrouchStanceState.new(fields) return end
 

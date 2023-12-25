@@ -6,6 +6,6 @@
 ---@field public vitals Int32
 gamemappinsRemotePlayerMappin = {}
 
----@param fields? table
+---@param fields? gamemappinsRemotePlayerMappin
 ---@return gamemappinsRemotePlayerMappin
 function gamemappinsRemotePlayerMappin.new(fields) return end

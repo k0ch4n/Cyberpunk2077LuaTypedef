@@ -4,6 +4,6 @@
 ---@class HitIsRicochetPrereq: GenericHitPrereq
 HitIsRicochetPrereq = {}
 
----@param fields? table
+---@param fields? HitIsRicochetPrereq
 ---@return HitIsRicochetPrereq
 function HitIsRicochetPrereq.new(fields) return end

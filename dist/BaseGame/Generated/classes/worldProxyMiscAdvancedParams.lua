@@ -30,6 +30,6 @@
 ---@field public backgroundColor Color
 worldProxyMiscAdvancedParams = {}
 
----@param fields? table
+---@param fields? worldProxyMiscAdvancedParams
 ---@return worldProxyMiscAdvancedParams
 function worldProxyMiscAdvancedParams.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field protected FalseRecordName String
 ToggleActivate = {}
 
----@param fields? table
+---@param fields? ToggleActivate
 ---@return ToggleActivate
 function ToggleActivate.new(fields) return end
 

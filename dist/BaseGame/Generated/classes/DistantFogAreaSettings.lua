@@ -22,6 +22,6 @@
 ---@field public skyOpacity curveData
 DistantFogAreaSettings = {}
 
----@param fields? table
+---@param fields? DistantFogAreaSettings
 ---@return DistantFogAreaSettings
 function DistantFogAreaSettings.new(fields) return end

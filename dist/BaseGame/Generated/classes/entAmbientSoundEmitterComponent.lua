@@ -9,6 +9,6 @@
 ---@field public obstructionChangeTime Float
 entAmbientSoundEmitterComponent = {}
 
----@param fields? table
+---@param fields? entAmbientSoundEmitterComponent
 ---@return entAmbientSoundEmitterComponent
 function entAmbientSoundEmitterComponent.new(fields) return end

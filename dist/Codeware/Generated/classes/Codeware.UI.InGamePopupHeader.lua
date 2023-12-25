@@ -7,7 +7,7 @@
 ---@field public fluffRight inkTextWidget
 Codeware_UI_InGamePopupHeader = {}
 
----@param fields? table
+---@param fields? Codeware_UI_InGamePopupHeader
 ---@return Codeware_UI_InGamePopupHeader
 function Codeware_UI_InGamePopupHeader.new(fields) return end
 

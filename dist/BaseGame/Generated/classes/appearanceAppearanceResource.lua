@@ -21,6 +21,6 @@
 ---@field public generatePlayerBlockingCollisionForProxy Bool
 appearanceAppearanceResource = {}
 
----@param fields? table
+---@param fields? appearanceAppearanceResource
 ---@return appearanceAppearanceResource
 function appearanceAppearanceResource.new(fields) return end

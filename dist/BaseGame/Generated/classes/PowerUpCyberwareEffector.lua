@@ -8,7 +8,7 @@
 ---@field public owner gameObject
 PowerUpCyberwareEffector = {}
 
----@param fields? table
+---@param fields? PowerUpCyberwareEffector
 ---@return PowerUpCyberwareEffector
 function PowerUpCyberwareEffector.new(fields) return end
 

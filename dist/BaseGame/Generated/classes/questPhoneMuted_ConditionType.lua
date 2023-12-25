@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questPhoneMuted_ConditionType = {}
 
----@param fields? table
+---@param fields? questPhoneMuted_ConditionType
 ---@return questPhoneMuted_ConditionType
 function questPhoneMuted_ConditionType.new(fields) return end

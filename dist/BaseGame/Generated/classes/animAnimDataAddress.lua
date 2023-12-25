@@ -7,6 +7,6 @@
 ---@field public zeInBytes Uint32
 animAnimDataAddress = {}
 
----@param fields? table
+---@param fields? animAnimDataAddress
 ---@return animAnimDataAddress
 function animAnimDataAddress.new(fields) return end

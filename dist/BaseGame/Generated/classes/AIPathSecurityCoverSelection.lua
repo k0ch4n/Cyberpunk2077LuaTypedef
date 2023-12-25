@@ -4,6 +4,6 @@
 ---@class AIPathSecurityCoverSelection: AICoverSelectionParameters
 AIPathSecurityCoverSelection = {}
 
----@param fields? table
+---@param fields? AIPathSecurityCoverSelection
 ---@return AIPathSecurityCoverSelection
 function AIPathSecurityCoverSelection.new(fields) return end

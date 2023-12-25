@@ -9,7 +9,7 @@
 ---@field private factUnblockCallbackID Uint32
 CPOMissionDevice = {}
 
----@param fields? table
+---@param fields? CPOMissionDevice
 ---@return CPOMissionDevice
 function CPOMissionDevice.new(fields) return end
 

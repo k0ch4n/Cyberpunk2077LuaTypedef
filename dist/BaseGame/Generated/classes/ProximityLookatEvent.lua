@@ -4,6 +4,6 @@
 ---@class ProximityLookatEvent: redEvent
 ProximityLookatEvent = {}
 
----@param fields? table
+---@param fields? ProximityLookatEvent
 ---@return ProximityLookatEvent
 function ProximityLookatEvent.new(fields) return end

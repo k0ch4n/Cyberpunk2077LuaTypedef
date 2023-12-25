@@ -4,6 +4,6 @@
 ---@class gameAugmentedRealitySign: gameObject
 gameAugmentedRealitySign = {}
 
----@param fields? table
+---@param fields? gameAugmentedRealitySign
 ---@return gameAugmentedRealitySign
 function gameAugmentedRealitySign.new(fields) return end

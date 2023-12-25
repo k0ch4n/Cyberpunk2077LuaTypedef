@@ -26,7 +26,7 @@
 ---@field private isOverHead Bool
 ChatterLineLogicController = {}
 
----@param fields? table
+---@param fields? ChatterLineLogicController
 ---@return ChatterLineLogicController
 function ChatterLineLogicController.new(fields) return end
 

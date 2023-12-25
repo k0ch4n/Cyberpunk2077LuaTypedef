@@ -4,7 +4,7 @@
 ---@class gamedataAngleRange_Record: gamedataSenseShape_Record
 gamedataAngleRange_Record = {}
 
----@param fields? table
+---@param fields? gamedataAngleRange_Record
 ---@return gamedataAngleRange_Record
 function gamedataAngleRange_Record.new(fields) return end
 

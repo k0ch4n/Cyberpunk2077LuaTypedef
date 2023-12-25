@@ -4,6 +4,6 @@
 ---@class gameItemDropStorageInventoryListener
 gameItemDropStorageInventoryListener = {}
 
----@param fields? table
+---@param fields? gameItemDropStorageInventoryListener
 ---@return gameItemDropStorageInventoryListener
 function gameItemDropStorageInventoryListener.new(fields) return end

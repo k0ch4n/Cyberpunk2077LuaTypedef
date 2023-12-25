@@ -4,6 +4,6 @@
 ---@class worldSaveSanitizationForbiddenAreaNodeInstance: worldTriggerAreaNodeInstance
 worldSaveSanitizationForbiddenAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldSaveSanitizationForbiddenAreaNodeInstance
 ---@return worldSaveSanitizationForbiddenAreaNodeInstance
 function worldSaveSanitizationForbiddenAreaNodeInstance.new(fields) return end

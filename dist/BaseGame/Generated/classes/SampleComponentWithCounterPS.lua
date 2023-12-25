@@ -5,7 +5,7 @@
 ---@field protected counter Int32
 SampleComponentWithCounterPS = {}
 
----@param fields? table
+---@param fields? SampleComponentWithCounterPS
 ---@return SampleComponentWithCounterPS
 function SampleComponentWithCounterPS.new(fields) return end
 

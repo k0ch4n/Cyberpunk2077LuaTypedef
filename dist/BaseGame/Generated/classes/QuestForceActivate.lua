@@ -4,7 +4,7 @@
 ---@class QuestForceActivate: ActionBool
 QuestForceActivate = {}
 
----@param fields? table
+---@param fields? QuestForceActivate
 ---@return QuestForceActivate
 function QuestForceActivate.new(fields) return end
 

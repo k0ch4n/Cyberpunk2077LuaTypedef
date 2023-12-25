@@ -8,7 +8,7 @@
 ---@field public itemIdName TweakDBID
 EquipItemCommandDelegate = {}
 
----@param fields? table
+---@param fields? EquipItemCommandDelegate
 ---@return EquipItemCommandDelegate
 function EquipItemCommandDelegate.new(fields) return end
 

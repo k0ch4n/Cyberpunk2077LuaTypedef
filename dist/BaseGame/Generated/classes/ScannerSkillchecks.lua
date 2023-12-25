@@ -7,7 +7,7 @@
 ---@field private isPlayerAuthorized Bool
 ScannerSkillchecks = {}
 
----@param fields? table
+---@param fields? ScannerSkillchecks
 ---@return ScannerSkillchecks
 function ScannerSkillchecks.new(fields) return end
 

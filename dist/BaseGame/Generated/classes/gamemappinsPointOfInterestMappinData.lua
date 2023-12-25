@@ -11,6 +11,6 @@
 ---@field public dynamicMappinDef TweakDBID
 gamemappinsPointOfInterestMappinData = {}
 
----@param fields? table
+---@param fields? gamemappinsPointOfInterestMappinData
 ---@return gamemappinsPointOfInterestMappinData
 function gamemappinsPointOfInterestMappinData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected investigateData senseStimInvestigateData
 SetControllerStimSource = {}
 
----@param fields? table
+---@param fields? SetControllerStimSource
 ---@return SetControllerStimSource
 function SetControllerStimSource.new(fields) return end
 

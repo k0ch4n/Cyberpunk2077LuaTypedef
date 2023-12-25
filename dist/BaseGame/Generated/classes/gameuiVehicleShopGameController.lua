@@ -26,7 +26,7 @@
 ---@field private c_discountValuesTDBID TweakDBID
 gameuiVehicleShopGameController = {}
 
----@param fields? table
+---@param fields? gameuiVehicleShopGameController
 ---@return gameuiVehicleShopGameController
 function gameuiVehicleShopGameController.new(fields) return end
 

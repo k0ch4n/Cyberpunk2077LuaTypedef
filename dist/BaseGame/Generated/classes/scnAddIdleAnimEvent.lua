@@ -7,6 +7,6 @@
 ---@field public weight Float
 scnAddIdleAnimEvent = {}
 
----@param fields? table
+---@param fields? scnAddIdleAnimEvent
 ---@return scnAddIdleAnimEvent
 function scnAddIdleAnimEvent.new(fields) return end

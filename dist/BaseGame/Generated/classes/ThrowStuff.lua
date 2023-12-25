@@ -4,7 +4,7 @@
 ---@class ThrowStuff: ActionBool
 ThrowStuff = {}
 
----@param fields? table
+---@param fields? ThrowStuff
 ---@return ThrowStuff
 function ThrowStuff.new(fields) return end
 

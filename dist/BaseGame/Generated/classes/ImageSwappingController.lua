@@ -9,7 +9,7 @@
 ---@field private Buttons inkCanvasWidget[]
 ImageSwappingController = {}
 
----@param fields? table
+---@param fields? ImageSwappingController
 ---@return ImageSwappingController
 function ImageSwappingController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field private chargeBar inkImageWidget
 megatronChargeController = {}
 
----@param fields? table
+---@param fields? megatronChargeController
 ---@return megatronChargeController
 function megatronChargeController.new(fields) return end
 

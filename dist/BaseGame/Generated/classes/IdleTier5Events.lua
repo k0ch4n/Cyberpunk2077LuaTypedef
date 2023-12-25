@@ -4,7 +4,7 @@
 ---@class IdleTier5Events: LocomotionGroundEvents
 IdleTier5Events = {}
 
----@param fields? table
+---@param fields? IdleTier5Events
 ---@return IdleTier5Events
 function IdleTier5Events.new(fields) return end
 

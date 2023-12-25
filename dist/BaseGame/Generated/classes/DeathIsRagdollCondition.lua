@@ -4,7 +4,7 @@
 ---@class DeathIsRagdollCondition: AIbehaviorconditionScript
 DeathIsRagdollCondition = {}
 
----@param fields? table
+---@param fields? DeathIsRagdollCondition
 ---@return DeathIsRagdollCondition
 function DeathIsRagdollCondition.new(fields) return end
 

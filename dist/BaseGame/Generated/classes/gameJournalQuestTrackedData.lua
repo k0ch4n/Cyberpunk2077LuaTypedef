@@ -7,6 +7,6 @@
 ---@field public state gameJournalEntryState
 gameJournalQuestTrackedData = {}
 
----@param fields? table
+---@param fields? gameJournalQuestTrackedData
 ---@return gameJournalQuestTrackedData
 function gameJournalQuestTrackedData.new(fields) return end

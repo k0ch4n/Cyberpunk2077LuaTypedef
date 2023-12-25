@@ -4,7 +4,7 @@
 ---@class StillageController: ScriptableDeviceComponent
 StillageController = {}
 
----@param fields? table
+---@param fields? StillageController
 ---@return StillageController
 function StillageController.new(fields) return end
 

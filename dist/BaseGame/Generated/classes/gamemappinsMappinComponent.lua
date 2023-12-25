@@ -5,6 +5,6 @@
 ---@field public data gamemappinsMappinData
 gamemappinsMappinComponent = {}
 
----@param fields? table
+---@param fields? gamemappinsMappinComponent
 ---@return gamemappinsMappinComponent
 function gamemappinsMappinComponent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiProgramsGridGenRule: gameuiMinigameGenerationRule
 gameuiProgramsGridGenRule = {}
 
----@param fields? table
+---@param fields? gameuiProgramsGridGenRule
 ---@return gameuiProgramsGridGenRule
 function gameuiProgramsGridGenRule.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public bikeCurves vehicleBikeCurveSet[]
 gameVehicleCurvesLibrary = {}
 
----@param fields? table
+---@param fields? gameVehicleCurvesLibrary
 ---@return gameVehicleCurvesLibrary
 function gameVehicleCurvesLibrary.new(fields) return end

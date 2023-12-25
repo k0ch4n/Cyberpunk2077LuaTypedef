@@ -7,7 +7,7 @@
 ---@field protected image inkImageWidgetReference
 MessagePopupDisplayController = {}
 
----@param fields? table
+---@param fields? MessagePopupDisplayController
 ---@return MessagePopupDisplayController
 function MessagePopupDisplayController.new(fields) return end
 

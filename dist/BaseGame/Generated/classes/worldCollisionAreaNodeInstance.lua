@@ -4,6 +4,6 @@
 ---@class worldCollisionAreaNodeInstance: worldAreaShapeNodeInstance
 worldCollisionAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldCollisionAreaNodeInstance
 ---@return worldCollisionAreaNodeInstance
 function worldCollisionAreaNodeInstance.new(fields) return end

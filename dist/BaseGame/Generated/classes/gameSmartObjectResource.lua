@@ -9,6 +9,6 @@
 ---@field public type gameSmartObjectType
 gameSmartObjectResource = {}
 
----@param fields? table
+---@param fields? gameSmartObjectResource
 ---@return gameSmartObjectResource
 function gameSmartObjectResource.new(fields) return end

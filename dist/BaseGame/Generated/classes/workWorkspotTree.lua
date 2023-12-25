@@ -31,6 +31,6 @@
 ---@field public blacklistVisualTags redTagList
 workWorkspotTree = {}
 
----@param fields? table
+---@param fields? workWorkspotTree
 ---@return workWorkspotTree
 function workWorkspotTree.new(fields) return end

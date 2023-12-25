@@ -8,7 +8,7 @@
 ---@field public forceArriveFromBehind Bool
 vehicleBaseStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleBaseStrategyRequest
 ---@return vehicleBaseStrategyRequest
 function vehicleBaseStrategyRequest.new(fields) return end
 

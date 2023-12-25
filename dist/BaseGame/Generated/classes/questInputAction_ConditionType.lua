@@ -10,6 +10,6 @@
 ---@field public valueMoreThan Float
 questInputAction_ConditionType = {}
 
----@param fields? table
+---@param fields? questInputAction_ConditionType
 ---@return questInputAction_ConditionType
 function questInputAction_ConditionType.new(fields) return end

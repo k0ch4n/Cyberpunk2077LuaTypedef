@@ -5,7 +5,7 @@
 ---@field private controller ChargebarController
 ChargebarStatsListener = {}
 
----@param fields? table
+---@param fields? ChargebarStatsListener
 ---@return ChargebarStatsListener
 function ChargebarStatsListener.new(fields) return end
 

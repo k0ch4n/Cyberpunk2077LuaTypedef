@@ -5,7 +5,7 @@
 ---@field protected isControlled Bool
 RetractableAdControllerPS = {}
 
----@param fields? table
+---@param fields? RetractableAdControllerPS
 ---@return RetractableAdControllerPS
 function RetractableAdControllerPS.new(fields) return end
 

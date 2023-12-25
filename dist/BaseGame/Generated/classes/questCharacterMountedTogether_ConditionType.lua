@@ -7,6 +7,6 @@
 ---@field public characters questMountedObjectInfo[]
 questCharacterMountedTogether_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterMountedTogether_ConditionType
 ---@return questCharacterMountedTogether_ConditionType
 function questCharacterMountedTogether_ConditionType.new(fields) return end

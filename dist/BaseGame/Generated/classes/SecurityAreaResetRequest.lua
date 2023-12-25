@@ -4,6 +4,6 @@
 ---@class SecurityAreaResetRequest: gameScriptableSystemRequest
 SecurityAreaResetRequest = {}
 
----@param fields? table
+---@param fields? SecurityAreaResetRequest
 ---@return SecurityAreaResetRequest
 function SecurityAreaResetRequest.new(fields) return end

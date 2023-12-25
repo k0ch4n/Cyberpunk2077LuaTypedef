@@ -10,7 +10,7 @@
 ---@field protected currentVisibleIndex Int32
 WorldMapTooltipContainer = {}
 
----@param fields? table
+---@param fields? WorldMapTooltipContainer
 ---@return WorldMapTooltipContainer
 function WorldMapTooltipContainer.new(fields) return end
 

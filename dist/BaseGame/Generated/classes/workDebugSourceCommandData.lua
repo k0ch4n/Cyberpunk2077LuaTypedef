@@ -4,6 +4,6 @@
 ---@class workDebugSourceCommandData: workIWorkspotCommandData
 workDebugSourceCommandData = {}
 
----@param fields? table
+---@param fields? workDebugSourceCommandData
 ---@return workDebugSourceCommandData
 function workDebugSourceCommandData.new(fields) return end

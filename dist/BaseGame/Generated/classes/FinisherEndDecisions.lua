@@ -4,6 +4,6 @@
 ---@class FinisherEndDecisions: FinisherTransition
 FinisherEndDecisions = {}
 
----@param fields? table
+---@param fields? FinisherEndDecisions
 ---@return FinisherEndDecisions
 function FinisherEndDecisions.new(fields) return end

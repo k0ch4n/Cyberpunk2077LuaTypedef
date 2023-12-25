@@ -4,7 +4,7 @@
 ---@class LaserDetectorController: ScriptableDeviceComponent
 LaserDetectorController = {}
 
----@param fields? table
+---@param fields? LaserDetectorController
 ---@return LaserDetectorController
 function LaserDetectorController.new(fields) return end
 

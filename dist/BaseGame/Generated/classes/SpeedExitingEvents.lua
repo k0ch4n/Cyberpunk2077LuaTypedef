@@ -5,7 +5,7 @@
 ---@field public exitForce Vector4
 SpeedExitingEvents = {}
 
----@param fields? table
+---@param fields? SpeedExitingEvents
 ---@return SpeedExitingEvents
 function SpeedExitingEvents.new(fields) return end
 

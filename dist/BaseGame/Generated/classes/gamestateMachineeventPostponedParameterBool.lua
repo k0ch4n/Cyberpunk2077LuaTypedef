@@ -5,6 +5,6 @@
 ---@field public value Bool
 gamestateMachineeventPostponedParameterBool = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventPostponedParameterBool
 ---@return gamestateMachineeventPostponedParameterBool
 function gamestateMachineeventPostponedParameterBool.new(fields) return end

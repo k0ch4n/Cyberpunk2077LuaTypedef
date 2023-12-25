@@ -8,7 +8,7 @@
 ---@field private lookedAt Bool
 sampleVisWireMaster = {}
 
----@param fields? table
+---@param fields? sampleVisWireMaster
 ---@return sampleVisWireMaster
 function sampleVisWireMaster.new(fields) return end
 

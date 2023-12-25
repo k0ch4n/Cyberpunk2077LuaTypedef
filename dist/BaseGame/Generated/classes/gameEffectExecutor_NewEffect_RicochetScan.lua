@@ -7,6 +7,6 @@
 ---@field public onlyForPlayer Bool
 gameEffectExecutor_NewEffect_RicochetScan = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_NewEffect_RicochetScan
 ---@return gameEffectExecutor_NewEffect_RicochetScan
 function gameEffectExecutor_NewEffect_RicochetScan.new(fields) return end

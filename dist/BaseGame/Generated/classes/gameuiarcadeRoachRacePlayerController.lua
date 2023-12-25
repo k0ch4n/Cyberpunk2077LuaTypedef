@@ -25,6 +25,6 @@
 ---@field public carrotPowerupStopSFX CName
 gameuiarcadeRoachRacePlayerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRacePlayerController
 ---@return gameuiarcadeRoachRacePlayerController
 function gameuiarcadeRoachRacePlayerController.new(fields) return end

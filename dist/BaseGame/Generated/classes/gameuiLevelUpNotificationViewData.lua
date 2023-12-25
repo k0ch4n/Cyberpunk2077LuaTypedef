@@ -8,7 +8,7 @@
 ---@field public profString String
 gameuiLevelUpNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiLevelUpNotificationViewData
 ---@return gameuiLevelUpNotificationViewData
 function gameuiLevelUpNotificationViewData.new(fields) return end
 

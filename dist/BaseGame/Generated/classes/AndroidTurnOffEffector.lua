@@ -4,7 +4,7 @@
 ---@class AndroidTurnOffEffector: gameEffector
 AndroidTurnOffEffector = {}
 
----@param fields? table
+---@param fields? AndroidTurnOffEffector
 ---@return AndroidTurnOffEffector
 function AndroidTurnOffEffector.new(fields) return end
 

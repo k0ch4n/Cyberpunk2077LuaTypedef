@@ -32,7 +32,7 @@
 ---@field private refreshTime Float
 SecSystemDebugger = {}
 
----@param fields? table
+---@param fields? SecSystemDebugger
 ---@return SecSystemDebugger
 function SecSystemDebugger.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field public maxReprimandsPerDEVICE Int32
 AgentRegistry = {}
 
----@param fields? table
+---@param fields? AgentRegistry
 ---@return AgentRegistry
 function AgentRegistry.new(fields) return end
 

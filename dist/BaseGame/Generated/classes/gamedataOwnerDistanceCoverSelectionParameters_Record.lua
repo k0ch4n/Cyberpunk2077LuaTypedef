@@ -4,7 +4,7 @@
 ---@class gamedataOwnerDistanceCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataOwnerDistanceCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataOwnerDistanceCoverSelectionParameters_Record
 ---@return gamedataOwnerDistanceCoverSelectionParameters_Record
 function gamedataOwnerDistanceCoverSelectionParameters_Record.new(fields) return end
 

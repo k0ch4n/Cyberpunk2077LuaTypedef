@@ -13,6 +13,6 @@
 ---@field public weightFloatTrack animNamedTrackIndex
 animAnimNode_MultipleParentConstraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_MultipleParentConstraint
 ---@return animAnimNode_MultipleParentConstraint
 function animAnimNode_MultipleParentConstraint.new(fields) return end

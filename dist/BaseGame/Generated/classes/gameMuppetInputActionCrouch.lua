@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionCrouch: gameIMuppetInputAction
 gameMuppetInputActionCrouch = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionCrouch
 ---@return gameMuppetInputActionCrouch
 function gameMuppetInputActionCrouch.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public minStreamingDistance Float
 AIAdjustableStreamingRangeTarget = {}
 
----@param fields? table
+---@param fields? AIAdjustableStreamingRangeTarget
 ---@return AIAdjustableStreamingRangeTarget
 function AIAdjustableStreamingRangeTarget.new(fields) return end

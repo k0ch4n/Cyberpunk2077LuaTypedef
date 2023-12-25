@@ -4,6 +4,6 @@
 ---@class gameuiPhotoModeRegisaterCallbacksEvent: redEvent
 gameuiPhotoModeRegisaterCallbacksEvent = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeRegisaterCallbacksEvent
 ---@return gameuiPhotoModeRegisaterCallbacksEvent
 function gameuiPhotoModeRegisaterCallbacksEvent.new(fields) return end

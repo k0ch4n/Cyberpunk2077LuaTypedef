@@ -14,7 +14,7 @@
 ---@field private isItemToggled Bool
 CodexListVirtualEntry = {}
 
----@param fields? table
+---@param fields? CodexListVirtualEntry
 ---@return CodexListVirtualEntry
 function CodexListVirtualEntry.new(fields) return end
 

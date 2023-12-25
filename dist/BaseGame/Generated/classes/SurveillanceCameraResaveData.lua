@@ -13,6 +13,6 @@
 ---@field public questFactOnDetection CName
 SurveillanceCameraResaveData = {}
 
----@param fields? table
+---@param fields? SurveillanceCameraResaveData
 ---@return SurveillanceCameraResaveData
 function SurveillanceCameraResaveData.new(fields) return end

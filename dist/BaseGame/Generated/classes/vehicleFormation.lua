@@ -4,6 +4,6 @@
 ---@class vehicleFormation
 vehicleFormation = {}
 
----@param fields? table
+---@param fields? vehicleFormation
 ---@return vehicleFormation
 function vehicleFormation.new(fields) return end

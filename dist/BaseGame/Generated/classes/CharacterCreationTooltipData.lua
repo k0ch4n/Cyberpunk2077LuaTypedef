@@ -6,6 +6,6 @@
 ---@field public maxedOrMinimumLabelText String
 CharacterCreationTooltipData = {}
 
----@param fields? table
+---@param fields? CharacterCreationTooltipData
 ---@return CharacterCreationTooltipData
 function CharacterCreationTooltipData.new(fields) return end

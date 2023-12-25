@@ -7,6 +7,6 @@
 ---@field public impactPoints entRagdollImpactPointData[]
 entRagdollImpactEvent = {}
 
----@param fields? table
+---@param fields? entRagdollImpactEvent
 ---@return entRagdollImpactEvent
 function entRagdollImpactEvent.new(fields) return end

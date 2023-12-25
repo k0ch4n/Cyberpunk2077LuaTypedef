@@ -4,6 +4,6 @@
 ---@class ForkliftCompleteActivateEvent: redEvent
 ForkliftCompleteActivateEvent = {}
 
----@param fields? table
+---@param fields? ForkliftCompleteActivateEvent
 ---@return ForkliftCompleteActivateEvent
 function ForkliftCompleteActivateEvent.new(fields) return end

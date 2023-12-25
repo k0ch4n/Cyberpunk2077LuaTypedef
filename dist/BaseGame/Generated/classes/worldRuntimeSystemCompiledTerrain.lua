@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemCompiledTerrain: worldIRuntimeSystem
 worldRuntimeSystemCompiledTerrain = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemCompiledTerrain
 ---@return worldRuntimeSystemCompiledTerrain
 function worldRuntimeSystemCompiledTerrain.new(fields) return end

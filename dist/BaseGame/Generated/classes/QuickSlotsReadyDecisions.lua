@@ -4,6 +4,6 @@
 ---@class QuickSlotsReadyDecisions: QuickSlotsDecisions
 QuickSlotsReadyDecisions = {}
 
----@param fields? table
+---@param fields? QuickSlotsReadyDecisions
 ---@return QuickSlotsReadyDecisions
 function QuickSlotsReadyDecisions.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private weaponDropedInWounded Bool
 StatusEffectManagerComponent = {}
 
----@param fields? table
+---@param fields? StatusEffectManagerComponent
 ---@return StatusEffectManagerComponent
 function StatusEffectManagerComponent.new(fields) return end
 

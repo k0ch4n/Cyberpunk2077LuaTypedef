@@ -5,6 +5,6 @@
 ---@field public signals CName[]
 gameHardcodedSignalPriorityDefinition = {}
 
----@param fields? table
+---@param fields? gameHardcodedSignalPriorityDefinition
 ---@return gameHardcodedSignalPriorityDefinition
 function gameHardcodedSignalPriorityDefinition.new(fields) return end

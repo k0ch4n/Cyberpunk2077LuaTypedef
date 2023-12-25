@@ -5,6 +5,6 @@
 ---@field public remainingJobs HUDJob[]
 IterateModulesRequest = {}
 
----@param fields? table
+---@param fields? IterateModulesRequest
 ---@return IterateModulesRequest
 function IterateModulesRequest.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsVehicleExiting: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsVehicleExiting = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsVehicleExiting
 ---@return gamestateMachineplayeractionsVehicleExiting
 function gamestateMachineplayeractionsVehicleExiting.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public initializers communitySpawnInitializer[]
 communitySpawnEntry = {}
 
----@param fields? table
+---@param fields? communitySpawnEntry
 ---@return communitySpawnEntry
 function communitySpawnEntry.new(fields) return end

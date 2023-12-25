@@ -11,6 +11,6 @@
 ---@field public durationCut Float
 animAnimNode_LookAtPose360 = {}
 
----@param fields? table
+---@param fields? animAnimNode_LookAtPose360
 ---@return animAnimNode_LookAtPose360
 function animAnimNode_LookAtPose360.new(fields) return end

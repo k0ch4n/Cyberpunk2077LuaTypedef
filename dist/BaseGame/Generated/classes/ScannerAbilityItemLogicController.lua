@@ -6,7 +6,7 @@
 ---@field private abilityIcon inkImageWidgetReference
 ScannerAbilityItemLogicController = {}
 
----@param fields? table
+---@param fields? ScannerAbilityItemLogicController
 ---@return ScannerAbilityItemLogicController
 function ScannerAbilityItemLogicController.new(fields) return end
 

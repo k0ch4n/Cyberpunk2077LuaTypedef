@@ -5,6 +5,6 @@
 ---@field public type gameVisionModeType
 gameVisionModePrereq = {}
 
----@param fields? table
+---@param fields? gameVisionModePrereq
 ---@return gameVisionModePrereq
 function gameVisionModePrereq.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public dynamicEntityUniqueName CName
 gameEntityReference = {}
 
----@param fields? table
+---@param fields? gameEntityReference
 ---@return gameEntityReference
 function gameEntityReference.new(fields) return end

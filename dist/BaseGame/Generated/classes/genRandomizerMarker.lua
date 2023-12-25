@@ -7,6 +7,6 @@
 ---@field public probability Float
 genRandomizerMarker = {}
 
----@param fields? table
+---@param fields? genRandomizerMarker
 ---@return genRandomizerMarker
 function genRandomizerMarker.new(fields) return end

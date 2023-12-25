@@ -6,7 +6,7 @@
 ---@field public perk gamedataPerkType
 PerkPrereq = {}
 
----@param fields? table
+---@param fields? PerkPrereq
 ---@return PerkPrereq
 function PerkPrereq.new(fields) return end
 

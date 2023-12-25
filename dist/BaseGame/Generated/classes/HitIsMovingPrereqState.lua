@@ -4,7 +4,7 @@
 ---@class HitIsMovingPrereqState: GenericHitPrereqState
 HitIsMovingPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsMovingPrereqState
 ---@return HitIsMovingPrereqState
 function HitIsMovingPrereqState.new(fields) return end
 

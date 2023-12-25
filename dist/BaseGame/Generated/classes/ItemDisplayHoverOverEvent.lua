@@ -14,6 +14,6 @@
 ---@field public displayContextData ItemDisplayContextData
 ItemDisplayHoverOverEvent = {}
 
----@param fields? table
+---@param fields? ItemDisplayHoverOverEvent
 ---@return ItemDisplayHoverOverEvent
 function ItemDisplayHoverOverEvent.new(fields) return end

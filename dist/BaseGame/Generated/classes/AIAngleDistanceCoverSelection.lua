@@ -4,6 +4,6 @@
 ---@class AIAngleDistanceCoverSelection: AICoverSelectionParameters
 AIAngleDistanceCoverSelection = {}
 
----@param fields? table
+---@param fields? AIAngleDistanceCoverSelection
 ---@return AIAngleDistanceCoverSelection
 function AIAngleDistanceCoverSelection.new(fields) return end

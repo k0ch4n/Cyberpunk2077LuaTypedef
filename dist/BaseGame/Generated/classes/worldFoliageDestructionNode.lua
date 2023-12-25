@@ -7,6 +7,6 @@
 ---@field public dataVersion Uint32
 worldFoliageDestructionNode = {}
 
----@param fields? table
+---@param fields? worldFoliageDestructionNode
 ---@return worldFoliageDestructionNode
 function worldFoliageDestructionNode.new(fields) return end

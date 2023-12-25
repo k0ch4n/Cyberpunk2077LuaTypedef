@@ -9,6 +9,6 @@
 ---@field public type gameSimpleMessageType
 gameSimpleScreenMessage = {}
 
----@param fields? table
+---@param fields? gameSimpleScreenMessage
 ---@return gameSimpleScreenMessage
 function gameSimpleScreenMessage.new(fields) return end

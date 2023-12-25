@@ -6,6 +6,6 @@
 ---@field public role AIFiniteRoleType
 questCharacterRoleFinished_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterRoleFinished_ConditionType
 ---@return questCharacterRoleFinished_ConditionType
 function questCharacterRoleFinished_ConditionType.new(fields) return end

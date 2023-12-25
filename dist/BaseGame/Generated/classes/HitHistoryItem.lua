@@ -7,6 +7,6 @@
 ---@field public attackType gamedataAttackType
 HitHistoryItem = {}
 
----@param fields? table
+---@param fields? HitHistoryItem
 ---@return HitHistoryItem
 function HitHistoryItem.new(fields) return end

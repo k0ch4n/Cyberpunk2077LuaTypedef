@@ -4,7 +4,7 @@
 ---@class HasVehicleAssigned: AIVehicleConditionAbstract
 HasVehicleAssigned = {}
 
----@param fields? table
+---@param fields? HasVehicleAssigned
 ---@return HasVehicleAssigned
 function HasVehicleAssigned.new(fields) return end
 

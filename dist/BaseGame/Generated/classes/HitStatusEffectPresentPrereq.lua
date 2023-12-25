@@ -7,7 +7,7 @@
 ---@field public tag CName
 HitStatusEffectPresentPrereq = {}
 
----@param fields? table
+---@param fields? HitStatusEffectPresentPrereq
 ---@return HitStatusEffectPresentPrereq
 function HitStatusEffectPresentPrereq.new(fields) return end
 

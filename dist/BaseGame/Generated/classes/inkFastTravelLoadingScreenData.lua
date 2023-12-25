@@ -4,6 +4,6 @@
 ---@class inkFastTravelLoadingScreenData: inkILoadingScreenPersistentData
 inkFastTravelLoadingScreenData = {}
 
----@param fields? table
+---@param fields? inkFastTravelLoadingScreenData
 ---@return inkFastTravelLoadingScreenData
 function inkFastTravelLoadingScreenData.new(fields) return end

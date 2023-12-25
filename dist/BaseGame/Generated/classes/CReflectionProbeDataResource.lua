@@ -9,6 +9,6 @@
 ---@field public faceDepth Float[]
 CReflectionProbeDataResource = {}
 
----@param fields? table
+---@param fields? CReflectionProbeDataResource
 ---@return CReflectionProbeDataResource
 function CReflectionProbeDataResource.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class QuestEnableWardrobeSetRequest: gamePlayerScriptableSystemRequest
 QuestEnableWardrobeSetRequest = {}
 
----@param fields? table
+---@param fields? QuestEnableWardrobeSetRequest
 ---@return QuestEnableWardrobeSetRequest
 function QuestEnableWardrobeSetRequest.new(fields) return end

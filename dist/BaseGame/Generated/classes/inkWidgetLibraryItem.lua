@@ -7,6 +7,6 @@
 ---@field public packageData DataBuffer
 inkWidgetLibraryItem = {}
 
----@param fields? table
+---@param fields? inkWidgetLibraryItem
 ---@return inkWidgetLibraryItem
 function inkWidgetLibraryItem.new(fields) return end

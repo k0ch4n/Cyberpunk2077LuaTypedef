@@ -13,7 +13,7 @@
 ---@field private currentElementAnimation Int32
 PhotoModeListController = {}
 
----@param fields? table
+---@param fields? PhotoModeListController
 ---@return PhotoModeListController
 function PhotoModeListController.new(fields) return end
 

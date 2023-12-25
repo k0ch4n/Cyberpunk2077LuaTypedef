@@ -6,7 +6,7 @@
 ---@field protected FalseRecord String
 ToggleGlassTint = {}
 
----@param fields? table
+---@param fields? ToggleGlassTint
 ---@return ToggleGlassTint
 function ToggleGlassTint.new(fields) return end
 

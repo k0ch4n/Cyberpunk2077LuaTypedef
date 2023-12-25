@@ -5,6 +5,6 @@
 ---@field public value Float
 entAnimWrapperWeightSetter = {}
 
----@param fields? table
+---@param fields? entAnimWrapperWeightSetter
 ---@return entAnimWrapperWeightSetter
 function entAnimWrapperWeightSetter.new(fields) return end

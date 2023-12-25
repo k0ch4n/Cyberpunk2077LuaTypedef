@@ -4,7 +4,7 @@
 ---@class gamedataVehicleCameraManager_Record: gamedataTweakDBRecord
 gamedataVehicleCameraManager_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleCameraManager_Record
 ---@return gamedataVehicleCameraManager_Record
 function gamedataVehicleCameraManager_Record.new(fields) return end
 

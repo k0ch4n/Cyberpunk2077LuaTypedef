@@ -4,6 +4,6 @@
 ---@class gameChaseSpawnComponent: entIComponent
 gameChaseSpawnComponent = {}
 
----@param fields? table
+---@param fields? gameChaseSpawnComponent
 ---@return gameChaseSpawnComponent
 function gameChaseSpawnComponent.new(fields) return end

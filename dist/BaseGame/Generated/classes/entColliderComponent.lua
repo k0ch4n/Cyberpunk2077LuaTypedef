@@ -16,7 +16,7 @@
 ---@field public dynamicTrafficSetting TrafficGenDynamicTrafficSetting
 entColliderComponent = {}
 
----@param fields? table
+---@param fields? entColliderComponent
 ---@return entColliderComponent
 function entColliderComponent.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class senseBaseStimuliEvent: AIAIEvent
 senseBaseStimuliEvent = {}
 
----@param fields? table
+---@param fields? senseBaseStimuliEvent
 ---@return senseBaseStimuliEvent
 function senseBaseStimuliEvent.new(fields) return end

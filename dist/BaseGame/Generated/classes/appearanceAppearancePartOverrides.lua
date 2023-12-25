@@ -6,6 +6,6 @@
 ---@field public componentsOverrides appearancePartComponentOverrides[]
 appearanceAppearancePartOverrides = {}
 
----@param fields? table
+---@param fields? appearanceAppearancePartOverrides
 ---@return appearanceAppearancePartOverrides
 function appearanceAppearancePartOverrides.new(fields) return end

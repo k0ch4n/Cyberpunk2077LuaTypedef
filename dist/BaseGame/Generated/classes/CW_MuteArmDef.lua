@@ -6,7 +6,7 @@
 ---@field public MuteArmRadius gamebbScriptID_Float
 CW_MuteArmDef = {}
 
----@param fields? table
+---@param fields? CW_MuteArmDef
 ---@return CW_MuteArmDef
 function CW_MuteArmDef.new(fields) return end
 

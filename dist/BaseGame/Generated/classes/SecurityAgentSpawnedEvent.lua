@@ -7,7 +7,7 @@
 ---@field public securityAreas SecurityAreaControllerPS[]
 SecurityAgentSpawnedEvent = {}
 
----@param fields? table
+---@param fields? SecurityAgentSpawnedEvent
 ---@return SecurityAgentSpawnedEvent
 function SecurityAgentSpawnedEvent.new(fields) return end
 

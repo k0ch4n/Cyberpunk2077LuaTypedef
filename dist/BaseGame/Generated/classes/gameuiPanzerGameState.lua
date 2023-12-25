@@ -4,6 +4,6 @@
 ---@class gameuiPanzerGameState: gameuiSideScrollerMiniGameStateAdvanced
 gameuiPanzerGameState = {}
 
----@param fields? table
+---@param fields? gameuiPanzerGameState
 ---@return gameuiPanzerGameState
 function gameuiPanzerGameState.new(fields) return end

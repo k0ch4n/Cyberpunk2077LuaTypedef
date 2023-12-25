@@ -6,6 +6,6 @@
 ---@field public showExpansionHint Bool
 SingleplayerMenuData = {}
 
----@param fields? table
+---@param fields? SingleplayerMenuData
 ---@return SingleplayerMenuData
 function SingleplayerMenuData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PatchNotePopupController: gameuiWidgetGameController
 PatchNotePopupController = {}
 
----@param fields? table
+---@param fields? PatchNotePopupController
 ---@return PatchNotePopupController
 function PatchNotePopupController.new(fields) return end
 

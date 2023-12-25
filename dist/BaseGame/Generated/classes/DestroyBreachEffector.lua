@@ -4,7 +4,7 @@
 ---@class DestroyBreachEffector: gameEffector
 DestroyBreachEffector = {}
 
----@param fields? table
+---@param fields? DestroyBreachEffector
 ---@return DestroyBreachEffector
 function DestroyBreachEffector.new(fields) return end
 

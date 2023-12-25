@@ -7,6 +7,6 @@
 ---@field public breakAllLoopsOnStop Bool
 animAnimEvent_ItemEffectDuration = {}
 
----@param fields? table
+---@param fields? animAnimEvent_ItemEffectDuration
 ---@return animAnimEvent_ItemEffectDuration
 function animAnimEvent_ItemEffectDuration.new(fields) return end

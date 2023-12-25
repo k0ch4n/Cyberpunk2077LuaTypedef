@@ -16,6 +16,6 @@
 ---@field public innerSquareScale Float
 animLookAtPartsDependency = {}
 
----@param fields? table
+---@param fields? animLookAtPartsDependency
 ---@return animLookAtPartsDependency
 function animLookAtPartsDependency.new(fields) return end

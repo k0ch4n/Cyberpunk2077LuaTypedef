@@ -4,7 +4,7 @@
 ---@class TakedownAndDisposeBody: ActionDisposal
 TakedownAndDisposeBody = {}
 
----@param fields? table
+---@param fields? TakedownAndDisposeBody
 ---@return TakedownAndDisposeBody
 function TakedownAndDisposeBody.new(fields) return end
 

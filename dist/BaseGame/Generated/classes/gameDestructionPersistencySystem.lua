@@ -4,6 +4,6 @@
 ---@class gameDestructionPersistencySystem: gameIDestructionPersistencySystem
 gameDestructionPersistencySystem = {}
 
----@param fields? table
+---@param fields? gameDestructionPersistencySystem
 ---@return gameDestructionPersistencySystem
 function gameDestructionPersistencySystem.new(fields) return end

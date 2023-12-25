@@ -4,6 +4,6 @@
 ---@class inkStepperChangedCallback: inkCallbackBase
 inkStepperChangedCallback = {}
 
----@param fields? table
+---@param fields? inkStepperChangedCallback
 ---@return inkStepperChangedCallback
 function inkStepperChangedCallback.new(fields) return end

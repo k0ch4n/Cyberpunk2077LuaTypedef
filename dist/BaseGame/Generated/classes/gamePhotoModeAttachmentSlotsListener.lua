@@ -4,6 +4,6 @@
 ---@class gamePhotoModeAttachmentSlotsListener: gameIAttachmentSlotsListener
 gamePhotoModeAttachmentSlotsListener = {}
 
----@param fields? table
+---@param fields? gamePhotoModeAttachmentSlotsListener
 ---@return gamePhotoModeAttachmentSlotsListener
 function gamePhotoModeAttachmentSlotsListener.new(fields) return end

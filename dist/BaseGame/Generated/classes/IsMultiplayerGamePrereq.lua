@@ -4,7 +4,7 @@
 ---@class IsMultiplayerGamePrereq: gameIScriptablePrereq
 IsMultiplayerGamePrereq = {}
 
----@param fields? table
+---@param fields? IsMultiplayerGamePrereq
 ---@return IsMultiplayerGamePrereq
 function IsMultiplayerGamePrereq.new(fields) return end
 

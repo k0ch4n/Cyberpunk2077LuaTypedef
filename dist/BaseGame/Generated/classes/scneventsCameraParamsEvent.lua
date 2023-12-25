@@ -18,6 +18,6 @@
 ---@field public targetSlot CName
 scneventsCameraParamsEvent = {}
 
----@param fields? table
+---@param fields? scneventsCameraParamsEvent
 ---@return scneventsCameraParamsEvent
 function scneventsCameraParamsEvent.new(fields) return end

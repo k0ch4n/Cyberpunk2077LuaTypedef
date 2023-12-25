@@ -4,6 +4,6 @@
 ---@class gameInventoryPrereqState: gamePrereqState
 gameInventoryPrereqState = {}
 
----@param fields? table
+---@param fields? gameInventoryPrereqState
 ---@return gameInventoryPrereqState
 function gameInventoryPrereqState.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public halfHeight Float
 senseAngleRange = {}
 
----@param fields? table
+---@param fields? senseAngleRange
 ---@return senseAngleRange
 function senseAngleRange.new(fields) return end

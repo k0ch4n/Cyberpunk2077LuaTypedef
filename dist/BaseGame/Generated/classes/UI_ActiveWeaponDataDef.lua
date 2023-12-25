@@ -9,7 +9,7 @@
 ---@field public ShootEvent gamebbScriptID_Variant
 UI_ActiveWeaponDataDef = {}
 
----@param fields? table
+---@param fields? UI_ActiveWeaponDataDef
 ---@return UI_ActiveWeaponDataDef
 function UI_ActiveWeaponDataDef.new(fields) return end
 

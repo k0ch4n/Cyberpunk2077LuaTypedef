@@ -23,7 +23,7 @@
 ---@field private radioVolumeSettingsController RadioVolumeSettingsController
 VehicleRadioPopupGameController = {}
 
----@param fields? table
+---@param fields? VehicleRadioPopupGameController
 ---@return VehicleRadioPopupGameController
 function VehicleRadioPopupGameController.new(fields) return end
 

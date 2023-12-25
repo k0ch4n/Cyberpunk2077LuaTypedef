@@ -8,7 +8,7 @@
 ---@field private isAdditive Bool
 AnimationsConstructor = {}
 
----@param fields? table
+---@param fields? AnimationsConstructor
 ---@return AnimationsConstructor
 function AnimationsConstructor.new(fields) return end
 

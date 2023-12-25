@@ -6,7 +6,7 @@
 ---@field public handGestureAnimNumber gamebbScriptID_Int32
 BlackwallAnimDef = {}
 
----@param fields? table
+---@param fields? BlackwallAnimDef
 ---@return BlackwallAnimDef
 function BlackwallAnimDef.new(fields) return end
 

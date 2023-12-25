@@ -5,6 +5,6 @@
 ---@field public value AIArgumentMapping
 AIbehaviorMappingConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMappingConditionDefinition
 ---@return AIbehaviorMappingConditionDefinition
 function AIbehaviorMappingConditionDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class VehicleForwardRaceClockUpdateEvent: redEvent
 VehicleForwardRaceClockUpdateEvent = {}
 
----@param fields? table
+---@param fields? VehicleForwardRaceClockUpdateEvent
 ---@return VehicleForwardRaceClockUpdateEvent
 function VehicleForwardRaceClockUpdateEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public enable Bool
 gameweaponeventsEnableSmartGunHandlerEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsEnableSmartGunHandlerEvent
 ---@return gameweaponeventsEnableSmartGunHandlerEvent
 function gameweaponeventsEnableSmartGunHandlerEvent.new(fields) return end

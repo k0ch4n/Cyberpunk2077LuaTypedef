@@ -5,6 +5,6 @@
 ---@field public type scnEndNodeNsType
 scnEndNode = {}
 
----@param fields? table
+---@param fields? scnEndNode
 ---@return scnEndNode
 function scnEndNode.new(fields) return end

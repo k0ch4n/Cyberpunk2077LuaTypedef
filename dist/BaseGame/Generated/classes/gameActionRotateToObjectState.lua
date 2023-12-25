@@ -6,6 +6,6 @@
 ---@field public completeWhenRotated Bool
 gameActionRotateToObjectState = {}
 
----@param fields? table
+---@param fields? gameActionRotateToObjectState
 ---@return gameActionRotateToObjectState
 function gameActionRotateToObjectState.new(fields) return end

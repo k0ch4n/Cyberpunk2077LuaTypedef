@@ -8,6 +8,6 @@
 ---@field public heightMappingMax Float
 interopTerrainEditToolCreationSlotInfo = {}
 
----@param fields? table
+---@param fields? interopTerrainEditToolCreationSlotInfo
 ---@return interopTerrainEditToolCreationSlotInfo
 function interopTerrainEditToolCreationSlotInfo.new(fields) return end

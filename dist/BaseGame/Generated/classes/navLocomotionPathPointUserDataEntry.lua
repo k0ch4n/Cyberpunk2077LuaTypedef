@@ -6,6 +6,6 @@
 ---@field public nextUserData Uint32
 navLocomotionPathPointUserDataEntry = {}
 
----@param fields? table
+---@param fields? navLocomotionPathPointUserDataEntry
 ---@return navLocomotionPathPointUserDataEntry
 function navLocomotionPathPointUserDataEntry.new(fields) return end

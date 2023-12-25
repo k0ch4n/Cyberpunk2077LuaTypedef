@@ -5,7 +5,7 @@
 ---@field public distancesToIntersectionRatio Float
 vehicleInterceptAtNextIntersectionStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleInterceptAtNextIntersectionStrategyRequest
 ---@return vehicleInterceptAtNextIntersectionStrategyRequest
 function vehicleInterceptAtNextIntersectionStrategyRequest.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public lights Int32
 FuseData = {}
 
----@param fields? table
+---@param fields? FuseData
 ---@return FuseData
 function FuseData.new(fields) return end

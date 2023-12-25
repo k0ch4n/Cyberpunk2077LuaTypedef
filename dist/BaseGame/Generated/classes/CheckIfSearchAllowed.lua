@@ -4,7 +4,7 @@
 ---@class CheckIfSearchAllowed: AIDebugConditions
 CheckIfSearchAllowed = {}
 
----@param fields? table
+---@param fields? CheckIfSearchAllowed
 ---@return CheckIfSearchAllowed
 function CheckIfSearchAllowed.new(fields) return end
 

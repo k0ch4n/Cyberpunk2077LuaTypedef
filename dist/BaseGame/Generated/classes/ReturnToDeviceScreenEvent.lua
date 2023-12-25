@@ -4,6 +4,6 @@
 ---@class ReturnToDeviceScreenEvent: redEvent
 ReturnToDeviceScreenEvent = {}
 
----@param fields? table
+---@param fields? ReturnToDeviceScreenEvent
 ---@return ReturnToDeviceScreenEvent
 function ReturnToDeviceScreenEvent.new(fields) return end

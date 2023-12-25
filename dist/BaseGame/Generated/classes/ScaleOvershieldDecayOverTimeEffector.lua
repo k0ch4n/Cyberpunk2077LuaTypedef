@@ -16,7 +16,7 @@
 ---@field public markedForReset Bool
 ScaleOvershieldDecayOverTimeEffector = {}
 
----@param fields? table
+---@param fields? ScaleOvershieldDecayOverTimeEffector
 ---@return ScaleOvershieldDecayOverTimeEffector
 function ScaleOvershieldDecayOverTimeEffector.new(fields) return end
 

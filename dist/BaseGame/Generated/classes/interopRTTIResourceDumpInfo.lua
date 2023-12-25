@@ -7,6 +7,6 @@
 ---@field public friendlyDescription String
 interopRTTIResourceDumpInfo = {}
 
----@param fields? table
+---@param fields? interopRTTIResourceDumpInfo
 ---@return interopRTTIResourceDumpInfo
 function interopRTTIResourceDumpInfo.new(fields) return end

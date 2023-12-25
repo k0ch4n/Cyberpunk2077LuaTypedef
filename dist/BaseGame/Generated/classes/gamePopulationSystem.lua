@@ -4,6 +4,6 @@
 ---@class gamePopulationSystem: gameIPopulationSystem
 gamePopulationSystem = {}
 
----@param fields? table
+---@param fields? gamePopulationSystem
 ---@return gamePopulationSystem
 function gamePopulationSystem.new(fields) return end

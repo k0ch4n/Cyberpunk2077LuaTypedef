@@ -5,6 +5,6 @@
 ---@field public areaIds Uint64[]
 gamePreventionSpawnSystemSavedState = {}
 
----@param fields? table
+---@param fields? gamePreventionSpawnSystemSavedState
 ---@return gamePreventionSpawnSystemSavedState
 function gamePreventionSpawnSystemSavedState.new(fields) return end

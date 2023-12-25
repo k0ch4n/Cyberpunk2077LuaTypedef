@@ -5,6 +5,6 @@
 ---@field public securitySystemID gamePersistentID
 PreventionPoliceSecuritySystemRequest = {}
 
----@param fields? table
+---@param fields? PreventionPoliceSecuritySystemRequest
 ---@return PreventionPoliceSecuritySystemRequest
 function PreventionPoliceSecuritySystemRequest.new(fields) return end

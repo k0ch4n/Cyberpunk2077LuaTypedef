@@ -4,6 +4,6 @@
 ---@class worlduiWorldInteractionChangeCallback: inkCallbackBase
 worlduiWorldInteractionChangeCallback = {}
 
----@param fields? table
+---@param fields? worlduiWorldInteractionChangeCallback
 ---@return worlduiWorldInteractionChangeCallback
 function worlduiWorldInteractionChangeCallback.new(fields) return end

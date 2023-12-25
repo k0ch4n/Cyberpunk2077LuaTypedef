@@ -10,7 +10,7 @@
 ---@field public transactionSystem gameTransactionSystem
 CasinoTableGameController = {}
 
----@param fields? table
+---@param fields? CasinoTableGameController
 ---@return CasinoTableGameController
 function CasinoTableGameController.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public randomNewsFeedPack TweakDBID
 questGlobalTvScheduler_NodeType = {}
 
----@param fields? table
+---@param fields? questGlobalTvScheduler_NodeType
 ---@return questGlobalTvScheduler_NodeType
 function questGlobalTvScheduler_NodeType.new(fields) return end

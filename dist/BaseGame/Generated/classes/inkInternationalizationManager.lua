@@ -4,6 +4,6 @@
 ---@class inkInternationalizationManager: ISerializable
 inkInternationalizationManager = {}
 
----@param fields? table
+---@param fields? inkInternationalizationManager
 ---@return inkInternationalizationManager
 function inkInternationalizationManager.new(fields) return end

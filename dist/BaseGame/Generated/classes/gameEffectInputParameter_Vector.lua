@@ -5,7 +5,7 @@
 ---@field public evaluator gameIEffectParameter_VectorEvaluator
 gameEffectInputParameter_Vector = {}
 
----@param fields? table
+---@param fields? gameEffectInputParameter_Vector
 ---@return gameEffectInputParameter_Vector
 function gameEffectInputParameter_Vector.new(fields) return end
 

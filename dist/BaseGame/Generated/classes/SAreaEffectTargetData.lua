@@ -7,6 +7,6 @@
 ---@field public onSlaves Bool
 SAreaEffectTargetData = {}
 
----@param fields? table
+---@param fields? SAreaEffectTargetData
 ---@return SAreaEffectTargetData
 function SAreaEffectTargetData.new(fields) return end

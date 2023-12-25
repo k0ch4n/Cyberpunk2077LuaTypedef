@@ -9,6 +9,6 @@
 ---@field public endActionUserData gameSignalUserDataDefinition
 AIbehaviorSendSignalTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSendSignalTaskDefinition
 ---@return AIbehaviorSendSignalTaskDefinition
 function AIbehaviorSendSignalTaskDefinition.new(fields) return end

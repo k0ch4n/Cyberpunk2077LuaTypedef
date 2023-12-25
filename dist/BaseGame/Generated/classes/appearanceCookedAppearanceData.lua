@@ -6,6 +6,6 @@
 ---@field public totalSizeOnDisk Uint32
 appearanceCookedAppearanceData = {}
 
----@param fields? table
+---@param fields? appearanceCookedAppearanceData
 ---@return appearanceCookedAppearanceData
 function appearanceCookedAppearanceData.new(fields) return end

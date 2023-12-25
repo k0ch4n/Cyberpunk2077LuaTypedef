@@ -7,6 +7,6 @@
 ---@field public parent inkCompoundWidgetReference
 GridUserData = {}
 
----@param fields? table
+---@param fields? GridUserData
 ---@return GridUserData
 function GridUserData.new(fields) return end

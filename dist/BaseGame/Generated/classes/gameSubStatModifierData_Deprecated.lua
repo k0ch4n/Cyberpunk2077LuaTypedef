@@ -5,6 +5,6 @@
 ---@field public refStatType gamedataStatType
 gameSubStatModifierData_Deprecated = {}
 
----@param fields? table
+---@param fields? gameSubStatModifierData_Deprecated
 ---@return gameSubStatModifierData_Deprecated
 function gameSubStatModifierData_Deprecated.new(fields) return end

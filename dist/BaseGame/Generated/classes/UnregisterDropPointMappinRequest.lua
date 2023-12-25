@@ -6,6 +6,6 @@
 ---@field public removeFromSystem Bool
 UnregisterDropPointMappinRequest = {}
 
----@param fields? table
+---@param fields? UnregisterDropPointMappinRequest
 ---@return UnregisterDropPointMappinRequest
 function UnregisterDropPointMappinRequest.new(fields) return end

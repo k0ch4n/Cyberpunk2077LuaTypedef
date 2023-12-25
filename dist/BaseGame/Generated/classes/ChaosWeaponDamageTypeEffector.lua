@@ -5,7 +5,7 @@
 ---@field public damageTypeModGroups TweakDBID[]
 ChaosWeaponDamageTypeEffector = {}
 
----@param fields? table
+---@param fields? ChaosWeaponDamageTypeEffector
 ---@return ChaosWeaponDamageTypeEffector
 function ChaosWeaponDamageTypeEffector.new(fields) return end
 

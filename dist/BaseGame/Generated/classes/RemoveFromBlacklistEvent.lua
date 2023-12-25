@@ -6,6 +6,6 @@
 ---@field public isPlayerEntity Bool
 RemoveFromBlacklistEvent = {}
 
----@param fields? table
+---@param fields? RemoveFromBlacklistEvent
 ---@return RemoveFromBlacklistEvent
 function RemoveFromBlacklistEvent.new(fields) return end

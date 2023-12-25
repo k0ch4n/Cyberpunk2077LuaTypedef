@@ -11,6 +11,6 @@
 ---@field public smoothInterpolations Bool
 gameEffectAction_ChildEffectsMovingInCone = {}
 
----@param fields? table
+---@param fields? gameEffectAction_ChildEffectsMovingInCone
 ---@return gameEffectAction_ChildEffectsMovingInCone
 function gameEffectAction_ChildEffectsMovingInCone.new(fields) return end

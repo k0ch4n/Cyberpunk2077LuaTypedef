@@ -6,6 +6,6 @@
 ---@field public globalWorkspotNodeRef NodeRef
 AITrafficExternalWorkspotDefinition = {}
 
----@param fields? table
+---@param fields? AITrafficExternalWorkspotDefinition
 ---@return AITrafficExternalWorkspotDefinition
 function AITrafficExternalWorkspotDefinition.new(fields) return end

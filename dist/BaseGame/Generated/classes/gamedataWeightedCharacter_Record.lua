@@ -4,7 +4,7 @@
 ---@class gamedataWeightedCharacter_Record: gamedataTweakDBRecord
 gamedataWeightedCharacter_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeightedCharacter_Record
 ---@return gamedataWeightedCharacter_Record
 function gamedataWeightedCharacter_Record.new(fields) return end
 

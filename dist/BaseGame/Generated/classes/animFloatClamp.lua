@@ -8,6 +8,6 @@
 ---@field public max Float
 animFloatClamp = {}
 
----@param fields? table
+---@param fields? animFloatClamp
 ---@return animFloatClamp
 function animFloatClamp.new(fields) return end

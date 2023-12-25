@@ -4,7 +4,7 @@
 ---@class AOEEffectorController: ScriptableDeviceComponent
 AOEEffectorController = {}
 
----@param fields? table
+---@param fields? AOEEffectorController
 ---@return AOEEffectorController
 function AOEEffectorController.new(fields) return end
 

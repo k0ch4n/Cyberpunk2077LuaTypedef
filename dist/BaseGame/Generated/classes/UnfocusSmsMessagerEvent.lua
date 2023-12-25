@@ -4,6 +4,6 @@
 ---@class UnfocusSmsMessagerEvent: redEvent
 UnfocusSmsMessagerEvent = {}
 
----@param fields? table
+---@param fields? UnfocusSmsMessagerEvent
 ---@return UnfocusSmsMessagerEvent
 function UnfocusSmsMessagerEvent.new(fields) return end

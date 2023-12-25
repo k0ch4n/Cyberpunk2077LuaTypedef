@@ -5,6 +5,6 @@
 ---@field public itemTDBID TweakDBID
 ProcessVisualTags = {}
 
----@param fields? table
+---@param fields? ProcessVisualTags
 ---@return ProcessVisualTags
 function ProcessVisualTags.new(fields) return end

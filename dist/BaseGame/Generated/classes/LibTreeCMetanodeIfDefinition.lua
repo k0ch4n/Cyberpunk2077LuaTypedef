@@ -7,6 +7,6 @@
 ---@field public elseBranch LibTreeINodeDefinition
 LibTreeCMetanodeIfDefinition = {}
 
----@param fields? table
+---@param fields? LibTreeCMetanodeIfDefinition
 ---@return LibTreeCMetanodeIfDefinition
 function LibTreeCMetanodeIfDefinition.new(fields) return end

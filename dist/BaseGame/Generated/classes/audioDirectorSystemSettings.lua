@@ -31,6 +31,6 @@
 ---@field public highGearAccelerationThreshold Float
 audioDirectorSystemSettings = {}
 
----@param fields? table
+---@param fields? audioDirectorSystemSettings
 ---@return audioDirectorSystemSettings
 function audioDirectorSystemSettings.new(fields) return end

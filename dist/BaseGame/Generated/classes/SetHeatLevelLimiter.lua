@@ -8,7 +8,7 @@
 ---@field public source CName
 SetHeatLevelLimiter = {}
 
----@param fields? table
+---@param fields? SetHeatLevelLimiter
 ---@return SetHeatLevelLimiter
 function SetHeatLevelLimiter.new(fields) return end
 

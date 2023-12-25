@@ -6,7 +6,7 @@
 ---@field private playerClassIcon inkImageWidgetReference
 PlayerListEntryLogicController = {}
 
----@param fields? table
+---@param fields? PlayerListEntryLogicController
 ---@return PlayerListEntryLogicController
 function PlayerListEntryLogicController.new(fields) return end
 

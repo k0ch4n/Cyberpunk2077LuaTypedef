@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemMarkers: worldIRuntimeSystem
 worldRuntimeSystemMarkers = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemMarkers
 ---@return worldRuntimeSystemMarkers
 function worldRuntimeSystemMarkers.new(fields) return end

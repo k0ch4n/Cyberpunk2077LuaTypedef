@@ -4,6 +4,6 @@
 ---@class worldPhysicalFractureFieldNodeInstance: worldINodeInstance
 worldPhysicalFractureFieldNodeInstance = {}
 
----@param fields? table
+---@param fields? worldPhysicalFractureFieldNodeInstance
 ---@return worldPhysicalFractureFieldNodeInstance
 function worldPhysicalFractureFieldNodeInstance.new(fields) return end

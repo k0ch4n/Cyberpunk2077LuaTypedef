@@ -5,6 +5,6 @@
 ---@field public state Int32
 animAnimFeature_PlayerCoverActionState = {}
 
----@param fields? table
+---@param fields? animAnimFeature_PlayerCoverActionState
 ---@return animAnimFeature_PlayerCoverActionState
 function animAnimFeature_PlayerCoverActionState.new(fields) return end

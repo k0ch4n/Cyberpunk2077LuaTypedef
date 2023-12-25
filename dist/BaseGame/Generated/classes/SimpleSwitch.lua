@@ -6,7 +6,7 @@
 ---@field protected animationSpeed Float
 SimpleSwitch = {}
 
----@param fields? table
+---@param fields? SimpleSwitch
 ---@return SimpleSwitch
 function SimpleSwitch.new(fields) return end
 

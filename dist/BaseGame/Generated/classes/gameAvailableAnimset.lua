@@ -6,6 +6,6 @@
 ---@field public resourcePath String
 gameAvailableAnimset = {}
 
----@param fields? table
+---@param fields? gameAvailableAnimset
 ---@return gameAvailableAnimset
 function gameAvailableAnimset.new(fields) return end

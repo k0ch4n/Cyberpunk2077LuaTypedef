@@ -7,7 +7,7 @@
 ---@field private oneFrame Bool
 RevealRequestEvent = {}
 
----@param fields? table
+---@param fields? RevealRequestEvent
 ---@return RevealRequestEvent
 function RevealRequestEvent.new(fields) return end
 

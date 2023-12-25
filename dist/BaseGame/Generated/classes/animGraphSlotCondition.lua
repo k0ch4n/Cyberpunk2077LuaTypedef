@@ -6,6 +6,6 @@
 ---@field public graph animAnimGraph
 animGraphSlotCondition = {}
 
----@param fields? table
+---@param fields? animGraphSlotCondition
 ---@return animGraphSlotCondition
 function animGraphSlotCondition.new(fields) return end

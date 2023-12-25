@@ -5,7 +5,7 @@
 ---@field protected libraryID CName
 SpawnLibraryItemController = {}
 
----@param fields? table
+---@param fields? SpawnLibraryItemController
 ---@return SpawnLibraryItemController
 function SpawnLibraryItemController.new(fields) return end
 

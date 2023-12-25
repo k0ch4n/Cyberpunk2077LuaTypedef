@@ -5,6 +5,6 @@
 ---@field public fontBuffer DataBuffer
 rendFont = {}
 
----@param fields? table
+---@param fields? rendFont
 ---@return rendFont
 function rendFont.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public captionParts gameinteractionsChoiceCaption
 gameinteractionsvisInteractionChoiceData = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisInteractionChoiceData
 ---@return gameinteractionsvisInteractionChoiceData
 function gameinteractionsvisInteractionChoiceData.new(fields) return end

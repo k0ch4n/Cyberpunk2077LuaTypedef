@@ -4,7 +4,7 @@
 ---@class gameGameplayLogicPackageSystem: gameIGameplayLogicPackageSystem
 gameGameplayLogicPackageSystem = {}
 
----@param fields? table
+---@param fields? gameGameplayLogicPackageSystem
 ---@return gameGameplayLogicPackageSystem
 function gameGameplayLogicPackageSystem.new(fields) return end
 

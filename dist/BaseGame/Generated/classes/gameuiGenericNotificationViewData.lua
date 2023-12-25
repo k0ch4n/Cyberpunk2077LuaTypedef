@@ -9,7 +9,7 @@
 ---@field public action GenericNotificationBaseAction
 gameuiGenericNotificationViewData = {}
 
----@param fields? table
+---@param fields? gameuiGenericNotificationViewData
 ---@return gameuiGenericNotificationViewData
 function gameuiGenericNotificationViewData.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public requesterID entEntityID
 RegisterFastTravelPointRequest = {}
 
----@param fields? table
+---@param fields? RegisterFastTravelPointRequest
 ---@return RegisterFastTravelPointRequest
 function RegisterFastTravelPointRequest.new(fields) return end

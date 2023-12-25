@@ -5,7 +5,7 @@
 ---@field public hitReactionToCheck animHitReactionType
 CheckLastHitReaction = {}
 
----@param fields? table
+---@param fields? CheckLastHitReaction
 ---@return CheckLastHitReaction
 function CheckLastHitReaction.new(fields) return end
 

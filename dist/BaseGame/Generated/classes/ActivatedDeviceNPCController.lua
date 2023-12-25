@@ -4,7 +4,7 @@
 ---@class ActivatedDeviceNPCController: ScriptableDeviceComponent
 ActivatedDeviceNPCController = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceNPCController
 ---@return ActivatedDeviceNPCController
 function ActivatedDeviceNPCController.new(fields) return end
 

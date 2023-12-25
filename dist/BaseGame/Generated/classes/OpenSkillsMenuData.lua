@@ -5,6 +5,6 @@
 ---@field public openSkills Bool
 OpenSkillsMenuData = {}
 
----@param fields? table
+---@param fields? OpenSkillsMenuData
 ---@return OpenSkillsMenuData
 function OpenSkillsMenuData.new(fields) return end

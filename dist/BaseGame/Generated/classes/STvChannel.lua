@@ -11,6 +11,6 @@
 ---@field public channelTweakID TweakDBID
 STvChannel = {}
 
----@param fields? table
+---@param fields? STvChannel
 ---@return STvChannel
 function STvChannel.new(fields) return end

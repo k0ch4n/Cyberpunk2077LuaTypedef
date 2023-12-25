@@ -4,7 +4,7 @@
 ---@class StrikeExecutor_Kill: gameEffectExecutor_Scripted
 StrikeExecutor_Kill = {}
 
----@param fields? table
+---@param fields? StrikeExecutor_Kill
 ---@return StrikeExecutor_Kill
 function StrikeExecutor_Kill.new(fields) return end
 

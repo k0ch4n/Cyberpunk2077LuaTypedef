@@ -9,6 +9,6 @@
 ---@field public priority Int32
 animIKTargetRequest = {}
 
----@param fields? table
+---@param fields? animIKTargetRequest
 ---@return animIKTargetRequest
 function animIKTargetRequest.new(fields) return end

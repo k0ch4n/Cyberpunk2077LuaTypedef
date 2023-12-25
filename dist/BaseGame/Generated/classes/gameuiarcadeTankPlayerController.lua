@@ -9,6 +9,6 @@
 ---@field public projectileSpawner inkWidgetReference
 gameuiarcadeTankPlayerController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankPlayerController
 ---@return gameuiarcadeTankPlayerController
 function gameuiarcadeTankPlayerController.new(fields) return end

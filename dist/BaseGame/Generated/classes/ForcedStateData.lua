@@ -8,6 +8,6 @@
 ---@field public savable Bool
 ForcedStateData = {}
 
----@param fields? table
+---@param fields? ForcedStateData
 ---@return ForcedStateData
 function ForcedStateData.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public effectTag CName
 gameTransformAnimation_BreakEffectLoop = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_BreakEffectLoop
 ---@return gameTransformAnimation_BreakEffectLoop
 function gameTransformAnimation_BreakEffectLoop.new(fields) return end

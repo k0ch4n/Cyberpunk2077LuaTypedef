@@ -8,6 +8,6 @@
 ---@field public continuousAttack gameReplicatedContinuousAttack
 gameWeaponReplicationHistory = {}
 
----@param fields? table
+---@param fields? gameWeaponReplicationHistory
 ---@return gameWeaponReplicationHistory
 function gameWeaponReplicationHistory.new(fields) return end

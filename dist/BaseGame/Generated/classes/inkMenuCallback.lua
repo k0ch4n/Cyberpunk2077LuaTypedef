@@ -4,6 +4,6 @@
 ---@class inkMenuCallback: inkCallbackBase
 inkMenuCallback = {}
 
----@param fields? table
+---@param fields? inkMenuCallback
 ---@return inkMenuCallback
 function inkMenuCallback.new(fields) return end

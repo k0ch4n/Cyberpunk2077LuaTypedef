@@ -5,7 +5,7 @@
 ---@field public attackType TweakDBID
 TriggerNotifier_BarbedWire = {}
 
----@param fields? table
+---@param fields? TriggerNotifier_BarbedWire
 ---@return TriggerNotifier_BarbedWire
 function TriggerNotifier_BarbedWire.new(fields) return end
 

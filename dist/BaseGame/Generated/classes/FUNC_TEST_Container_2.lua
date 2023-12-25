@@ -11,6 +11,6 @@
 ---@field public TweakBox TweakDBID
 FUNC_TEST_Container_2 = {}
 
----@param fields? table
+---@param fields? FUNC_TEST_Container_2
 ---@return FUNC_TEST_Container_2
 function FUNC_TEST_Container_2.new(fields) return end

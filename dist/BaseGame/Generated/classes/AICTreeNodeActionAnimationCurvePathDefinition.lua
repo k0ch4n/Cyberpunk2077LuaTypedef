@@ -20,6 +20,6 @@
 ---@field public stopSnapToTerrainBlendTime LibTreeDefFloat
 AICTreeNodeActionAnimationCurvePathDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeActionAnimationCurvePathDefinition
 ---@return AICTreeNodeActionAnimationCurvePathDefinition
 function AICTreeNodeActionAnimationCurvePathDefinition.new(fields) return end

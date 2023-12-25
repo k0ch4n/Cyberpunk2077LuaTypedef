@@ -16,7 +16,7 @@
 ---@field private maximizedSize Vector2
 BriefingScreenLogic = {}
 
----@param fields? table
+---@param fields? BriefingScreenLogic
 ---@return BriefingScreenLogic
 function BriefingScreenLogic.new(fields) return end
 

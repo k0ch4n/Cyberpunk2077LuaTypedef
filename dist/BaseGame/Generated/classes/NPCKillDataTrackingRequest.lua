@@ -7,6 +7,6 @@
 ---@field public isDownedRecorded Bool
 NPCKillDataTrackingRequest = {}
 
----@param fields? table
+---@param fields? NPCKillDataTrackingRequest
 ---@return NPCKillDataTrackingRequest
 function NPCKillDataTrackingRequest.new(fields) return end

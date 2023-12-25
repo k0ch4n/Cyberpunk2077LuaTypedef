@@ -4,7 +4,7 @@
 ---@class CombatExitingEvents: ExitingEvents
 CombatExitingEvents = {}
 
----@param fields? table
+---@param fields? CombatExitingEvents
 ---@return CombatExitingEvents
 function CombatExitingEvents.new(fields) return end
 

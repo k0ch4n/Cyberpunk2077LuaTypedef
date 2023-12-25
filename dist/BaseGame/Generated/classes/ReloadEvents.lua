@@ -16,7 +16,7 @@
 ---@field public isCoolPerkReload Bool
 ReloadEvents = {}
 
----@param fields? table
+---@param fields? ReloadEvents
 ---@return ReloadEvents
 function ReloadEvents.new(fields) return end
 

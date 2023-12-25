@@ -6,7 +6,7 @@
 ---@field public enable Bool
 ToggleQuestPreventionTrigger = {}
 
----@param fields? table
+---@param fields? ToggleQuestPreventionTrigger
 ---@return ToggleQuestPreventionTrigger
 function ToggleQuestPreventionTrigger.new(fields) return end
 

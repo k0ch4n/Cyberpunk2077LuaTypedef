@@ -4,7 +4,7 @@
 ---@class SteetCredDataHelper: IScriptable
 SteetCredDataHelper = {}
 
----@param fields? table
+---@param fields? SteetCredDataHelper
 ---@return SteetCredDataHelper
 function SteetCredDataHelper.new(fields) return end
 

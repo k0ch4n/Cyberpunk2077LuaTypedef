@@ -6,7 +6,7 @@
 ---@field public timeToLive Float
 AIAIEvent = {}
 
----@param fields? table
+---@param fields? AIAIEvent
 ---@return AIAIEvent
 function AIAIEvent.new(fields) return end
 

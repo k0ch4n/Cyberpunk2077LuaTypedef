@@ -9,7 +9,7 @@
 ---@field private tabRoot TabRadioGroup
 SettingControllerScheme = {}
 
----@param fields? table
+---@param fields? SettingControllerScheme
 ---@return SettingControllerScheme
 function SettingControllerScheme.new(fields) return end
 

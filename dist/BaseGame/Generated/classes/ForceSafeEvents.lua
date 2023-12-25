@@ -6,7 +6,7 @@
 ---@field public weaponObjectID TweakDBID
 ForceSafeEvents = {}
 
----@param fields? table
+---@param fields? ForceSafeEvents
 ---@return ForceSafeEvents
 function ForceSafeEvents.new(fields) return end
 

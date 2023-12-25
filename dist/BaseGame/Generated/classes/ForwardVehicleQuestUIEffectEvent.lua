@@ -10,6 +10,6 @@
 ---@field public panamScreenType4 Bool
 ForwardVehicleQuestUIEffectEvent = {}
 
----@param fields? table
+---@param fields? ForwardVehicleQuestUIEffectEvent
 ---@return ForwardVehicleQuestUIEffectEvent
 function ForwardVehicleQuestUIEffectEvent.new(fields) return end

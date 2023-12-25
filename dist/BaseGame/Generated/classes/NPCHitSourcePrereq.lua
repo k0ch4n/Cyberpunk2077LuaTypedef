@@ -6,7 +6,7 @@
 ---@field public invert Bool
 NPCHitSourcePrereq = {}
 
----@param fields? table
+---@param fields? NPCHitSourcePrereq
 ---@return NPCHitSourcePrereq
 function NPCHitSourcePrereq.new(fields) return end
 

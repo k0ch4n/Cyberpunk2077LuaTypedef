@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionFastExitWorkspot_Record: gamedataAISubAction_Record
 gamedataAISubActionFastExitWorkspot_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionFastExitWorkspot_Record
 ---@return gamedataAISubActionFastExitWorkspot_Record
 function gamedataAISubActionFastExitWorkspot_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public value animFloatLink
 animAnimNode_TrackSetter = {}
 
----@param fields? table
+---@param fields? animAnimNode_TrackSetter
 ---@return animAnimNode_TrackSetter
 function animAnimNode_TrackSetter.new(fields) return end

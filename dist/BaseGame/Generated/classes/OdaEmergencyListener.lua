@@ -11,7 +11,7 @@
 ---@field private heal5HealthPercentage Float
 OdaEmergencyListener = {}
 
----@param fields? table
+---@param fields? OdaEmergencyListener
 ---@return OdaEmergencyListener
 function OdaEmergencyListener.new(fields) return end
 

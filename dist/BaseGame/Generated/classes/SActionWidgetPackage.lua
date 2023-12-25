@@ -7,6 +7,6 @@
 ---@field public dependendActions gamedeviceAction[]
 SActionWidgetPackage = {}
 
----@param fields? table
+---@param fields? SActionWidgetPackage
 ---@return SActionWidgetPackage
 function SActionWidgetPackage.new(fields) return end

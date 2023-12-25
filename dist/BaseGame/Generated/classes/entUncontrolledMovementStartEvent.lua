@@ -7,7 +7,7 @@
 ---@field public calculateEarlyPositionGroundHeight Bool
 entUncontrolledMovementStartEvent = {}
 
----@param fields? table
+---@param fields? entUncontrolledMovementStartEvent
 ---@return entUncontrolledMovementStartEvent
 function entUncontrolledMovementStartEvent.new(fields) return end
 

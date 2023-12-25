@@ -6,6 +6,6 @@
 ---@field public fadeOut Float
 gameaudioeventsStopDialogLine = {}
 
----@param fields? table
+---@param fields? gameaudioeventsStopDialogLine
 ---@return gameaudioeventsStopDialogLine
 function gameaudioeventsStopDialogLine.new(fields) return end

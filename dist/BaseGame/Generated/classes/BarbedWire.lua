@@ -4,7 +4,7 @@
 ---@class BarbedWire: ActivatedDeviceTrap
 BarbedWire = {}
 
----@param fields? table
+---@param fields? BarbedWire
 ---@return BarbedWire
 function BarbedWire.new(fields) return end
 

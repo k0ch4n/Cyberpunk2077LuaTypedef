@@ -6,6 +6,6 @@
 ---@field public operation SBaseDeviceOperationData
 DelayedOperationEvent = {}
 
----@param fields? table
+---@param fields? DelayedOperationEvent
 ---@return DelayedOperationEvent
 function DelayedOperationEvent.new(fields) return end

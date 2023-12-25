@@ -5,6 +5,6 @@
 ---@field public item HubVendorMenuItems
 VendorHubMenuChanged = {}
 
----@param fields? table
+---@param fields? VendorHubMenuChanged
 ---@return VendorHubMenuChanged
 function VendorHubMenuChanged.new(fields) return end

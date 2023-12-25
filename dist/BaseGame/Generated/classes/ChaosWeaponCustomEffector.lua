@@ -9,7 +9,7 @@
 ---@field public modGroupID Uint64
 ChaosWeaponCustomEffector = {}
 
----@param fields? table
+---@param fields? ChaosWeaponCustomEffector
 ---@return ChaosWeaponCustomEffector
 function ChaosWeaponCustomEffector.new(fields) return end
 

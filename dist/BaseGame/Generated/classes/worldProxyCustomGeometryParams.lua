@@ -6,6 +6,6 @@
 ---@field public uvType worldProxyMeshUVType
 worldProxyCustomGeometryParams = {}
 
----@param fields? table
+---@param fields? worldProxyCustomGeometryParams
 ---@return worldProxyCustomGeometryParams
 function worldProxyCustomGeometryParams.new(fields) return end

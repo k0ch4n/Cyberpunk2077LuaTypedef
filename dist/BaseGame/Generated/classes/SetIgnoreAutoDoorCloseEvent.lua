@@ -5,6 +5,6 @@
 ---@field public set Bool
 SetIgnoreAutoDoorCloseEvent = {}
 
----@param fields? table
+---@param fields? SetIgnoreAutoDoorCloseEvent
 ---@return SetIgnoreAutoDoorCloseEvent
 function SetIgnoreAutoDoorCloseEvent.new(fields) return end

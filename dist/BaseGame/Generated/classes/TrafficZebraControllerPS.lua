@@ -4,7 +4,7 @@
 ---@class TrafficZebraControllerPS: TrafficLightControllerPS
 TrafficZebraControllerPS = {}
 
----@param fields? table
+---@param fields? TrafficZebraControllerPS
 ---@return TrafficZebraControllerPS
 function TrafficZebraControllerPS.new(fields) return end
 

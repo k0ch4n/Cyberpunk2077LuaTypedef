@@ -7,7 +7,7 @@
 ---@field public rechargeGoingOn gamebbScriptID_Bool
 ChargedGrenadesBlackBoardDef = {}
 
----@param fields? table
+---@param fields? ChargedGrenadesBlackBoardDef
 ---@return ChargedGrenadesBlackBoardDef
 function ChargedGrenadesBlackBoardDef.new(fields) return end
 

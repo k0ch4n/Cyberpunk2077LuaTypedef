@@ -4,6 +4,6 @@
 ---@class gameuiHoldIndicatorProgressCallback: inkCallbackBase
 gameuiHoldIndicatorProgressCallback = {}
 
----@param fields? table
+---@param fields? gameuiHoldIndicatorProgressCallback
 ---@return gameuiHoldIndicatorProgressCallback
 function gameuiHoldIndicatorProgressCallback.new(fields) return end

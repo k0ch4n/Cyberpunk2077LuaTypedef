@@ -5,7 +5,7 @@
 ---@field public description LocalizationString
 gameJournalQuestDescription = {}
 
----@param fields? table
+---@param fields? gameJournalQuestDescription
 ---@return gameJournalQuestDescription
 function gameJournalQuestDescription.new(fields) return end
 

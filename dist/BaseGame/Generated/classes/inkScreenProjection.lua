@@ -8,7 +8,7 @@
 ---@field public uvPosition Vector2
 inkScreenProjection = {}
 
----@param fields? table
+---@param fields? inkScreenProjection
 ---@return inkScreenProjection
 function inkScreenProjection.new(fields) return end
 

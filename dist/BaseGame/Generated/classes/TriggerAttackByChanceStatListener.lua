@@ -5,7 +5,7 @@
 ---@field public effector TriggerAttackByChanceEffector
 TriggerAttackByChanceStatListener = {}
 
----@param fields? table
+---@param fields? TriggerAttackByChanceStatListener
 ---@return TriggerAttackByChanceStatListener
 function TriggerAttackByChanceStatListener.new(fields) return end
 

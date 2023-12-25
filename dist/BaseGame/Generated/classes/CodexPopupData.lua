@@ -5,6 +5,6 @@
 ---@field public entry gameJournalEntry
 CodexPopupData = {}
 
----@param fields? table
+---@param fields? CodexPopupData
 ---@return CodexPopupData
 function CodexPopupData.new(fields) return end

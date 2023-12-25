@@ -7,6 +7,6 @@
 ---@field public subdistrictName inkTextWidgetReference
 inkStreetNameSignLogicController = {}
 
----@param fields? table
+---@param fields? inkStreetNameSignLogicController
 ---@return inkStreetNameSignLogicController
 function inkStreetNameSignLogicController.new(fields) return end

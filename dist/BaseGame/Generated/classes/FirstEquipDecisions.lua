@@ -6,7 +6,7 @@
 ---@field public stateMachineInitData EquipmentInitData
 FirstEquipDecisions = {}
 
----@param fields? table
+---@param fields? FirstEquipDecisions
 ---@return FirstEquipDecisions
 function FirstEquipDecisions.new(fields) return end
 

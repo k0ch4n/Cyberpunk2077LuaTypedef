@@ -4,6 +4,6 @@
 ---@class worldEntityProxyMeshNodeInstance: worldPrefabProxyMeshNodeInstance
 worldEntityProxyMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldEntityProxyMeshNodeInstance
 ---@return worldEntityProxyMeshNodeInstance
 function worldEntityProxyMeshNodeInstance.new(fields) return end

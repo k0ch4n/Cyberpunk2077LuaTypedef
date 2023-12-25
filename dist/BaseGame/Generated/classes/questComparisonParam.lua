@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questComparisonParam = {}
 
----@param fields? table
+---@param fields? questComparisonParam
 ---@return questComparisonParam
 function questComparisonParam.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataTPPLookAtPresets_Record: gamedataTweakDBRecord
 gamedataTPPLookAtPresets_Record = {}
 
----@param fields? table
+---@param fields? gamedataTPPLookAtPresets_Record
 ---@return gamedataTPPLookAtPresets_Record
 function gamedataTPPLookAtPresets_Record.new(fields) return end
 

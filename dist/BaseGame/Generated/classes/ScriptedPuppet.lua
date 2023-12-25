@@ -69,7 +69,7 @@
 ---@field private attemptedShards gameItemID[]
 ScriptedPuppet = {}
 
----@param fields? table
+---@param fields? ScriptedPuppet
 ---@return ScriptedPuppet
 function ScriptedPuppet.new(fields) return end
 

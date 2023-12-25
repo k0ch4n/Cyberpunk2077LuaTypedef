@@ -4,6 +4,6 @@
 ---@class VehiclePSMPrereqState: PlayerStateMachinePrereqState
 VehiclePSMPrereqState = {}
 
----@param fields? table
+---@param fields? VehiclePSMPrereqState
 ---@return VehiclePSMPrereqState
 function VehiclePSMPrereqState.new(fields) return end

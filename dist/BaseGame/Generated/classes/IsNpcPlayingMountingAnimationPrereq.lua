@@ -6,7 +6,7 @@
 ---@field protected isCheckInverted Bool
 IsNpcPlayingMountingAnimationPrereq = {}
 
----@param fields? table
+---@param fields? IsNpcPlayingMountingAnimationPrereq
 ---@return IsNpcPlayingMountingAnimationPrereq
 function IsNpcPlayingMountingAnimationPrereq.new(fields) return end
 

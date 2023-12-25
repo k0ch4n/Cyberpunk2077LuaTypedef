@@ -6,6 +6,6 @@
 ---@field public positionRefWidget inkWidgetReference
 metroMapPlayerPositionReferences = {}
 
----@param fields? table
+---@param fields? metroMapPlayerPositionReferences
 ---@return metroMapPlayerPositionReferences
 function metroMapPlayerPositionReferences.new(fields) return end

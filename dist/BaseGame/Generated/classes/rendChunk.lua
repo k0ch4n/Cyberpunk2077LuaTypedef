@@ -14,6 +14,6 @@
 ---@field public lodMask Uint8
 rendChunk = {}
 
----@param fields? table
+---@param fields? rendChunk
 ---@return rendChunk
 function rendChunk.new(fields) return end

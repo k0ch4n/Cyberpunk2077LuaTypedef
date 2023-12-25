@@ -11,6 +11,6 @@
 ---@field public landFrameId Uint32
 gameMuppetMoveState = {}
 
----@param fields? table
+---@param fields? gameMuppetMoveState
 ---@return gameMuppetMoveState
 function gameMuppetMoveState.new(fields) return end

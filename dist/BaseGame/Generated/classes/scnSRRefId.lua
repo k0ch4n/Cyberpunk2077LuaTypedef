@@ -5,6 +5,6 @@
 ---@field public id Uint32
 scnSRRefId = {}
 
----@param fields? table
+---@param fields? scnSRRefId
 ---@return scnSRRefId
 function scnSRRefId.new(fields) return end

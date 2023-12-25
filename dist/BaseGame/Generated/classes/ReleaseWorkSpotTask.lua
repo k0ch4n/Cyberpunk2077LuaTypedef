@@ -6,7 +6,7 @@
 ---@field public workspotObject gameObject
 ReleaseWorkSpotTask = {}
 
----@param fields? table
+---@param fields? ReleaseWorkSpotTask
 ---@return ReleaseWorkSpotTask
 function ReleaseWorkSpotTask.new(fields) return end
 

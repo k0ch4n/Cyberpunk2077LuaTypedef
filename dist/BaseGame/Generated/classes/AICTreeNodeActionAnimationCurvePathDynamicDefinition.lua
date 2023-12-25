@@ -17,6 +17,6 @@
 ---@field public stopSnapToTerrainBlendTime Float
 AICTreeNodeActionAnimationCurvePathDynamicDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeActionAnimationCurvePathDynamicDefinition
 ---@return AICTreeNodeActionAnimationCurvePathDynamicDefinition
 function AICTreeNodeActionAnimationCurvePathDynamicDefinition.new(fields) return end

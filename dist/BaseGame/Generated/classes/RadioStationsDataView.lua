@@ -4,7 +4,7 @@
 ---@class RadioStationsDataView: inkScriptableDataViewWrapper
 RadioStationsDataView = {}
 
----@param fields? table
+---@param fields? RadioStationsDataView
 ---@return RadioStationsDataView
 function RadioStationsDataView.new(fields) return end
 

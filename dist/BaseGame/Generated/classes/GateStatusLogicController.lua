@@ -5,7 +5,7 @@
 ---@field public textStatus inkTextWidgetReference
 GateStatusLogicController = {}
 
----@param fields? table
+---@param fields? GateStatusLogicController
 ---@return GateStatusLogicController
 function GateStatusLogicController.new(fields) return end
 

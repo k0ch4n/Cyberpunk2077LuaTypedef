@@ -5,7 +5,7 @@
 ---@field public ContagiousTarget ScriptedPuppet
 OnMonowireQuickhackContagiousTargetStatusAppliedCallback = {}
 
----@param fields? table
+---@param fields? OnMonowireQuickhackContagiousTargetStatusAppliedCallback
 ---@return OnMonowireQuickhackContagiousTargetStatusAppliedCallback
 function OnMonowireQuickhackContagiousTargetStatusAppliedCallback.new(fields) return end
 

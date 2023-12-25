@@ -4,7 +4,7 @@
 ---@class PhoneOnEvents: ComDeviceTransition
 PhoneOnEvents = {}
 
----@param fields? table
+---@param fields? PhoneOnEvents
 ---@return PhoneOnEvents
 function PhoneOnEvents.new(fields) return end
 

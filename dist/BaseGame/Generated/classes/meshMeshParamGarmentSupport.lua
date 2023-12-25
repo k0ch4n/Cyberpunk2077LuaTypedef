@@ -6,6 +6,6 @@
 ---@field public customMorph Bool
 meshMeshParamGarmentSupport = {}
 
----@param fields? table
+---@param fields? meshMeshParamGarmentSupport
 ---@return meshMeshParamGarmentSupport
 function meshMeshParamGarmentSupport.new(fields) return end

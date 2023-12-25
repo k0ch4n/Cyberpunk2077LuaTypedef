@@ -4,7 +4,7 @@
 ---@class RequestStatsBB: gamePlayerScriptableSystemRequest
 RequestStatsBB = {}
 
----@param fields? table
+---@param fields? RequestStatsBB
 ---@return RequestStatsBB
 function RequestStatsBB.new(fields) return end
 

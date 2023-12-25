@@ -4,6 +4,6 @@
 ---@class DelayedUpdateLayoutCompletedEvent: redEvent
 DelayedUpdateLayoutCompletedEvent = {}
 
----@param fields? table
+---@param fields? DelayedUpdateLayoutCompletedEvent
 ---@return DelayedUpdateLayoutCompletedEvent
 function DelayedUpdateLayoutCompletedEvent.new(fields) return end

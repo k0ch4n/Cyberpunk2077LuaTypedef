@@ -4,6 +4,6 @@
 ---@class effectTrackItemLoopMarker: effectTrackItemMetadata
 effectTrackItemLoopMarker = {}
 
----@param fields? table
+---@param fields? effectTrackItemLoopMarker
 ---@return effectTrackItemLoopMarker
 function effectTrackItemLoopMarker.new(fields) return end

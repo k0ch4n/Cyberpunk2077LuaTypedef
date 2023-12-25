@@ -8,7 +8,7 @@
 ---@field protected commandDuration Float
 HoldPositionCommandTask = {}
 
----@param fields? table
+---@param fields? HoldPositionCommandTask
 ---@return HoldPositionCommandTask
 function HoldPositionCommandTask.new(fields) return end
 

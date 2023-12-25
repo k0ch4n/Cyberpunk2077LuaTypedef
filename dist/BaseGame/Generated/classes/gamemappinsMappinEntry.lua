@@ -7,6 +7,6 @@
 ---@field public worldPosition Vector4
 gamemappinsMappinEntry = {}
 
----@param fields? table
+---@param fields? gamemappinsMappinEntry
 ---@return gamemappinsMappinEntry
 function gamemappinsMappinEntry.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataClosestToOwnerCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataClosestToOwnerCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataClosestToOwnerCoverSelectionParameters_Record
 ---@return gamedataClosestToOwnerCoverSelectionParameters_Record
 function gamedataClosestToOwnerCoverSelectionParameters_Record.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public inplaceResources CResource[]
 worldStreamingSectorInplaceContent = {}
 
----@param fields? table
+---@param fields? worldStreamingSectorInplaceContent
 ---@return worldStreamingSectorInplaceContent
 function worldStreamingSectorInplaceContent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestSetLiftSpeed: ActionFloat
 QuestSetLiftSpeed = {}
 
----@param fields? table
+---@param fields? QuestSetLiftSpeed
 ---@return QuestSetLiftSpeed
 function QuestSetLiftSpeed.new(fields) return end
 

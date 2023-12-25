@@ -4,6 +4,6 @@
 ---@class GrenadeLookAtDecisions: lookAtPresetItemBaseDecisions
 GrenadeLookAtDecisions = {}
 
----@param fields? table
+---@param fields? GrenadeLookAtDecisions
 ---@return GrenadeLookAtDecisions
 function GrenadeLookAtDecisions.new(fields) return end

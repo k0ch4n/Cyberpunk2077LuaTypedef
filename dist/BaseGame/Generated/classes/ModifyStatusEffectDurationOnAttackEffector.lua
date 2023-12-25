@@ -9,7 +9,7 @@
 ---@field public gameInstance ScriptGameInstance
 ModifyStatusEffectDurationOnAttackEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatusEffectDurationOnAttackEffector
 ---@return ModifyStatusEffectDurationOnAttackEffector
 function ModifyStatusEffectDurationOnAttackEffector.new(fields) return end
 

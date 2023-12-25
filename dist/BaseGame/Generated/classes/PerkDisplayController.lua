@@ -19,7 +19,7 @@
 ---@field protected cool_out_proxy inkanimProxy
 PerkDisplayController = {}
 
----@param fields? table
+---@param fields? PerkDisplayController
 ---@return PerkDisplayController
 function PerkDisplayController.new(fields) return end
 

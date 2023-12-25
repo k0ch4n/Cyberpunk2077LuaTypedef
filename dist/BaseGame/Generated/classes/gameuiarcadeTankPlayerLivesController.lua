@@ -4,6 +4,6 @@
 ---@class gameuiarcadeTankPlayerLivesController: inkWidgetLogicController
 gameuiarcadeTankPlayerLivesController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankPlayerLivesController
 ---@return gameuiarcadeTankPlayerLivesController
 function gameuiarcadeTankPlayerLivesController.new(fields) return end

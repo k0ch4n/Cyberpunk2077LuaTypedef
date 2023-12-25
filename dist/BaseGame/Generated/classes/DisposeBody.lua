@@ -4,7 +4,7 @@
 ---@class DisposeBody: ActionDisposal
 DisposeBody = {}
 
----@param fields? table
+---@param fields? DisposeBody
 ---@return DisposeBody
 function DisposeBody.new(fields) return end
 

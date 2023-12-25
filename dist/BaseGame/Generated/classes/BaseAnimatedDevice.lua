@@ -9,7 +9,7 @@
 ---@field protected animationType EAnimationType
 BaseAnimatedDevice = {}
 
----@param fields? table
+---@param fields? BaseAnimatedDevice
 ---@return BaseAnimatedDevice
 function BaseAnimatedDevice.new(fields) return end
 

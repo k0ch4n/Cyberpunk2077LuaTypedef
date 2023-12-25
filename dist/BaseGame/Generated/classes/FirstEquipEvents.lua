@@ -6,7 +6,7 @@
 ---@field public stateMachineInitData EquipmentInitData
 FirstEquipEvents = {}
 
----@param fields? table
+---@param fields? FirstEquipEvents
 ---@return FirstEquipEvents
 function FirstEquipEvents.new(fields) return end
 

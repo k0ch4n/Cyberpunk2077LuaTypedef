@@ -12,6 +12,6 @@
 ---@field public audio vehicleAudioPSData
 vehiclePersistentDataPS = {}
 
----@param fields? table
+---@param fields? vehiclePersistentDataPS
 ---@return vehiclePersistentDataPS
 function vehiclePersistentDataPS.new(fields) return end

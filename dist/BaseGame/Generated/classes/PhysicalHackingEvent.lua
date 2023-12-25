@@ -5,6 +5,6 @@
 ---@field public deviceName String
 PhysicalHackingEvent = {}
 
----@param fields? table
+---@param fields? PhysicalHackingEvent
 ---@return PhysicalHackingEvent
 function PhysicalHackingEvent.new(fields) return end

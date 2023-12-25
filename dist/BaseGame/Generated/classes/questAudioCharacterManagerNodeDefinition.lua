@@ -5,6 +5,6 @@
 ---@field public type questIAudioCharacterManager_NodeType
 questAudioCharacterManagerNodeDefinition = {}
 
----@param fields? table
+---@param fields? questAudioCharacterManagerNodeDefinition
 ---@return questAudioCharacterManagerNodeDefinition
 function questAudioCharacterManagerNodeDefinition.new(fields) return end

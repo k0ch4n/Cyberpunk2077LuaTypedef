@@ -5,6 +5,6 @@
 ---@field public effectName CName
 entBreakEffectLoopEvent = {}
 
----@param fields? table
+---@param fields? entBreakEffectLoopEvent
 ---@return entBreakEffectLoopEvent
 function entBreakEffectLoopEvent.new(fields) return end

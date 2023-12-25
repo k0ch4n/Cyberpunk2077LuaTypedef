@@ -6,6 +6,6 @@
 ---@field public defaultValue worldGlobalNodeID
 AIArgumentGlobalNodeIdValue = {}
 
----@param fields? table
+---@param fields? AIArgumentGlobalNodeIdValue
 ---@return AIArgumentGlobalNodeIdValue
 function AIArgumentGlobalNodeIdValue.new(fields) return end

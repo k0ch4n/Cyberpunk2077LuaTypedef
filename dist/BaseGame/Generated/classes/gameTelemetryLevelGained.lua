@@ -10,6 +10,6 @@
 ---@field public isDebugEvt Bool
 gameTelemetryLevelGained = {}
 
----@param fields? table
+---@param fields? gameTelemetryLevelGained
 ---@return gameTelemetryLevelGained
 function gameTelemetryLevelGained.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public allowVolumetricFog Bool
 RenderFeaturesAreaSettings = {}
 
----@param fields? table
+---@param fields? RenderFeaturesAreaSettings
 ---@return RenderFeaturesAreaSettings
 function RenderFeaturesAreaSettings.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private cachedState EDeviceStatus
 BaseStateOperations = {}
 
----@param fields? table
+---@param fields? BaseStateOperations
 ---@return BaseStateOperations
 function BaseStateOperations.new(fields) return end
 

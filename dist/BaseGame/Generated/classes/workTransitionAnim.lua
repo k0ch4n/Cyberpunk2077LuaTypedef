@@ -8,6 +8,6 @@
 ---@field public transitionBtoA CName
 workTransitionAnim = {}
 
----@param fields? table
+---@param fields? workTransitionAnim
 ---@return workTransitionAnim
 function workTransitionAnim.new(fields) return end

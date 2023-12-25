@@ -5,6 +5,6 @@
 ---@field public type CName
 PerfectChargeUIEvent = {}
 
----@param fields? table
+---@param fields? PerfectChargeUIEvent
 ---@return PerfectChargeUIEvent
 function PerfectChargeUIEvent.new(fields) return end

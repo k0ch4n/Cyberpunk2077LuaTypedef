@@ -6,7 +6,7 @@
 ---@field private isCivilian Bool
 ScannerRarity = {}
 
----@param fields? table
+---@param fields? ScannerRarity
 ---@return ScannerRarity
 function ScannerRarity.new(fields) return end
 

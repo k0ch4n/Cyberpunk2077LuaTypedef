@@ -15,6 +15,6 @@
 ---@field public enableScanner Bool
 questBriefingSequencePlayer_NodeType = {}
 
----@param fields? table
+---@param fields? questBriefingSequencePlayer_NodeType
 ---@return questBriefingSequencePlayer_NodeType
 function questBriefingSequencePlayer_NodeType.new(fields) return end

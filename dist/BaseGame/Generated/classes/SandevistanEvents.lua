@@ -5,7 +5,7 @@
 ---@field private lastTimeDilation Float
 SandevistanEvents = {}
 
----@param fields? table
+---@param fields? SandevistanEvents
 ---@return SandevistanEvents
 function SandevistanEvents.new(fields) return end
 

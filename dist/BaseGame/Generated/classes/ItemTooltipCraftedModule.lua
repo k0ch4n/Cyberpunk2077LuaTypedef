@@ -4,7 +4,7 @@
 ---@class ItemTooltipCraftedModule: ItemTooltipModuleController
 ItemTooltipCraftedModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipCraftedModule
 ---@return ItemTooltipCraftedModule
 function ItemTooltipCraftedModule.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionShootToPoint_Record: gamedataAISubActionShootWithWeapon_Record
 gamedataAISubActionShootToPoint_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionShootToPoint_Record
 ---@return gamedataAISubActionShootToPoint_Record
 function gamedataAISubActionShootToPoint_Record.new(fields) return end
 

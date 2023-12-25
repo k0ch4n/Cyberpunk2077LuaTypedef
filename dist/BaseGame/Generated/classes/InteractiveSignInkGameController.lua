@@ -4,7 +4,7 @@
 ---@class InteractiveSignInkGameController: DeviceInkGameControllerBase
 InteractiveSignInkGameController = {}
 
----@param fields? table
+---@param fields? InteractiveSignInkGameController
 ---@return InteractiveSignInkGameController
 function InteractiveSignInkGameController.new(fields) return end
 

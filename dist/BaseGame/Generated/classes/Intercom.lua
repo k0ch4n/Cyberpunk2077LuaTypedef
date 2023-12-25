@@ -11,7 +11,7 @@
 ---@field protected answeredSound CName
 Intercom = {}
 
----@param fields? table
+---@param fields? Intercom
 ---@return Intercom
 function Intercom.new(fields) return end
 

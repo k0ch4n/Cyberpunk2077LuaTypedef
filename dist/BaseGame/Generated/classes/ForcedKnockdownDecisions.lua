@@ -4,7 +4,7 @@
 ---@class ForcedKnockdownDecisions: KnockdownDecisions
 ForcedKnockdownDecisions = {}
 
----@param fields? table
+---@param fields? ForcedKnockdownDecisions
 ---@return ForcedKnockdownDecisions
 function ForcedKnockdownDecisions.new(fields) return end
 

@@ -10,7 +10,7 @@
 ---@field public multiplyDecelerationModifier gameStatModifierData_Deprecated
 SlideEvents = {}
 
----@param fields? table
+---@param fields? SlideEvents
 ---@return SlideEvents
 function SlideEvents.new(fields) return end
 

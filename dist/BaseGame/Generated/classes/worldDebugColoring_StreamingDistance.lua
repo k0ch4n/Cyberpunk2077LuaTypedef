@@ -4,6 +4,6 @@
 ---@class worldDebugColoring_StreamingDistance: worldEditorDebugColoringSettings
 worldDebugColoring_StreamingDistance = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_StreamingDistance
 ---@return worldDebugColoring_StreamingDistance
 function worldDebugColoring_StreamingDistance.new(fields) return end

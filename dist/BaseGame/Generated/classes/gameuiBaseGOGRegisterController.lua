@@ -4,7 +4,7 @@
 ---@class gameuiBaseGOGRegisterController: inkWidgetLogicController
 gameuiBaseGOGRegisterController = {}
 
----@param fields? table
+---@param fields? gameuiBaseGOGRegisterController
 ---@return gameuiBaseGOGRegisterController
 function gameuiBaseGOGRegisterController.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public cooldown Float
 animAnimNode_Signal = {}
 
----@param fields? table
+---@param fields? animAnimNode_Signal
 ---@return animAnimNode_Signal
 function animAnimNode_Signal.new(fields) return end

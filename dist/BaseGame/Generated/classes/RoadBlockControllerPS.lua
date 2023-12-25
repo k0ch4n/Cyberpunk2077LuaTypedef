@@ -8,7 +8,7 @@
 ---@field protected nameForUnblocking TweakDBID
 RoadBlockControllerPS = {}
 
----@param fields? table
+---@param fields? RoadBlockControllerPS
 ---@return RoadBlockControllerPS
 function RoadBlockControllerPS.new(fields) return end
 

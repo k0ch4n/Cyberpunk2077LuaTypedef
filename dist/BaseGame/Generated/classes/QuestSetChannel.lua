@@ -4,7 +4,7 @@
 ---@class QuestSetChannel: ActionInt
 QuestSetChannel = {}
 
----@param fields? table
+---@param fields? QuestSetChannel
 ---@return QuestSetChannel
 function QuestSetChannel.new(fields) return end
 

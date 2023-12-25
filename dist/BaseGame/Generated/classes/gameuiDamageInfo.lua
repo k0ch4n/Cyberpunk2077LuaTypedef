@@ -11,6 +11,6 @@
 ---@field public userData gameuiDamageInfoUserData
 gameuiDamageInfo = {}
 
----@param fields? table
+---@param fields? gameuiDamageInfo
 ---@return gameuiDamageInfo
 function gameuiDamageInfo.new(fields) return end

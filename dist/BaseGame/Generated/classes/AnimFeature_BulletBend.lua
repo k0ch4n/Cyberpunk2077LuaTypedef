@@ -7,6 +7,6 @@
 ---@field public isResetting Bool
 AnimFeature_BulletBend = {}
 
----@param fields? table
+---@param fields? AnimFeature_BulletBend
 ---@return AnimFeature_BulletBend
 function AnimFeature_BulletBend.new(fields) return end

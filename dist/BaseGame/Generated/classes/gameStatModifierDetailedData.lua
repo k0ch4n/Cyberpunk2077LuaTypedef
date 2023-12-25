@@ -6,6 +6,6 @@
 ---@field public modifierType gameStatModifierType
 gameStatModifierDetailedData = {}
 
----@param fields? table
+---@param fields? gameStatModifierDetailedData
 ---@return gameStatModifierDetailedData
 function gameStatModifierDetailedData.new(fields) return end

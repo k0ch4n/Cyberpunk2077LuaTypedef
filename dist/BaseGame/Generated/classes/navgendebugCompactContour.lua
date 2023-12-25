@@ -10,6 +10,6 @@
 ---@field public box Box
 navgendebugCompactContour = {}
 
----@param fields? table
+---@param fields? navgendebugCompactContour
 ---@return navgendebugCompactContour
 function navgendebugCompactContour.new(fields) return end

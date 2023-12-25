@@ -4,7 +4,7 @@
 ---@class audiouiAudioHandler: IScriptable
 audiouiAudioHandler = {}
 
----@param fields? table
+---@param fields? audiouiAudioHandler
 ---@return audiouiAudioHandler
 function audiouiAudioHandler.new(fields) return end
 

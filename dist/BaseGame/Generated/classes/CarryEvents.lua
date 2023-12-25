@@ -5,7 +5,7 @@
 ---@field public knockdownImmunityModifier gameStatModifierData_Deprecated
 CarryEvents = {}
 
----@param fields? table
+---@param fields? CarryEvents
 ---@return CarryEvents
 function CarryEvents.new(fields) return end
 

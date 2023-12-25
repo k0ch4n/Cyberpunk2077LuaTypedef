@@ -9,6 +9,6 @@
 ---@field public limitOnZAxis animFloatClamp
 animAnimNode_TranslationLimit = {}
 
----@param fields? table
+---@param fields? animAnimNode_TranslationLimit
 ---@return animAnimNode_TranslationLimit
 function animAnimNode_TranslationLimit.new(fields) return end

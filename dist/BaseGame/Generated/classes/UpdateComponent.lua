@@ -4,7 +4,7 @@
 ---@class UpdateComponent: gameScriptableComponent
 UpdateComponent = {}
 
----@param fields? table
+---@param fields? UpdateComponent
 ---@return UpdateComponent
 function UpdateComponent.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private menuID String
 ComputerMenuButtonController = {}
 
----@param fields? table
+---@param fields? ComputerMenuButtonController
 ---@return ComputerMenuButtonController
 function ComputerMenuButtonController.new(fields) return end
 

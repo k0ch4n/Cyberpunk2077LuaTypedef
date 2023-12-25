@@ -4,6 +4,6 @@
 ---@class worldStaticVectorFieldNodeInstance: worldINodeInstance
 worldStaticVectorFieldNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticVectorFieldNodeInstance
 ---@return worldStaticVectorFieldNodeInstance
 function worldStaticVectorFieldNodeInstance.new(fields) return end

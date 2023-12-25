@@ -14,7 +14,7 @@
 ---@field protected isCrafting Bool
 ItemTooltipModEntryController = {}
 
----@param fields? table
+---@param fields? ItemTooltipModEntryController
 ---@return ItemTooltipModEntryController
 function ItemTooltipModEntryController.new(fields) return end
 

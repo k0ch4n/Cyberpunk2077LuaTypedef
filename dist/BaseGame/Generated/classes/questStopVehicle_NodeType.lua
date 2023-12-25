@@ -7,6 +7,6 @@
 ---@field public detachFromSpline Bool
 questStopVehicle_NodeType = {}
 
----@param fields? table
+---@param fields? questStopVehicle_NodeType
 ---@return questStopVehicle_NodeType
 function questStopVehicle_NodeType.new(fields) return end

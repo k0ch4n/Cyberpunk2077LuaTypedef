@@ -7,6 +7,6 @@
 ---@field public osockMappings CName[]
 scnQuestNode = {}
 
----@param fields? table
+---@param fields? scnQuestNode
 ---@return scnQuestNode
 function scnQuestNode.new(fields) return end

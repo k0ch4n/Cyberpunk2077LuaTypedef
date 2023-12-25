@@ -7,6 +7,6 @@
 ---@field public unequippedEvent CName
 audioWeaponHandlingSettings = {}
 
----@param fields? table
+---@param fields? audioWeaponHandlingSettings
 ---@return audioWeaponHandlingSettings
 function audioWeaponHandlingSettings.new(fields) return end

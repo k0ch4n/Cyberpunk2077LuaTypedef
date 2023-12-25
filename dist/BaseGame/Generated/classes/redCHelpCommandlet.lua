@@ -4,6 +4,6 @@
 ---@class redCHelpCommandlet: redICommandlet
 redCHelpCommandlet = {}
 
----@param fields? table
+---@param fields? redCHelpCommandlet
 ---@return redCHelpCommandlet
 function redCHelpCommandlet.new(fields) return end

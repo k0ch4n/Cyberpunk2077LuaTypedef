@@ -4,6 +4,6 @@
 ---@class gameSimpleOccupantSlotSpawner: entIComponent
 gameSimpleOccupantSlotSpawner = {}
 
----@param fields? table
+---@param fields? gameSimpleOccupantSlotSpawner
 ---@return gameSimpleOccupantSlotSpawner
 function gameSimpleOccupantSlotSpawner.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public isGPUBased Bool
 CParticleDrawerEmitterOrientation = {}
 
----@param fields? table
+---@param fields? CParticleDrawerEmitterOrientation
 ---@return CParticleDrawerEmitterOrientation
 function CParticleDrawerEmitterOrientation.new(fields) return end

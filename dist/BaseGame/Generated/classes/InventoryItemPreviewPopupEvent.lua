@@ -5,6 +5,6 @@
 ---@field public data InventoryItemPreviewData
 InventoryItemPreviewPopupEvent = {}
 
----@param fields? table
+---@param fields? InventoryItemPreviewPopupEvent
 ---@return InventoryItemPreviewPopupEvent
 function InventoryItemPreviewPopupEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questVehicleDestruction_ConditionType = {}
 
----@param fields? table
+---@param fields? questVehicleDestruction_ConditionType
 ---@return questVehicleDestruction_ConditionType
 function questVehicleDestruction_ConditionType.new(fields) return end

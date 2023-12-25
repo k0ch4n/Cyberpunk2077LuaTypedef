@@ -4,6 +4,6 @@
 ---@class gameRenderGameplayEffectsManagerSystem: gameIRenderGameplayEffectsManagerSystem
 gameRenderGameplayEffectsManagerSystem = {}
 
----@param fields? table
+---@param fields? gameRenderGameplayEffectsManagerSystem
 ---@return gameRenderGameplayEffectsManagerSystem
 function gameRenderGameplayEffectsManagerSystem.new(fields) return end

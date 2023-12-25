@@ -4,6 +4,6 @@
 ---@class inkRootWidgetIdentifier: inkUserData
 inkRootWidgetIdentifier = {}
 
----@param fields? table
+---@param fields? inkRootWidgetIdentifier
 ---@return inkRootWidgetIdentifier
 function inkRootWidgetIdentifier.new(fields) return end

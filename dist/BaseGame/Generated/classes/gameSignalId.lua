@@ -5,6 +5,6 @@
 ---@field public value Uint16
 gameSignalId = {}
 
----@param fields? table
+---@param fields? gameSignalId
 ---@return gameSignalId
 function gameSignalId.new(fields) return end

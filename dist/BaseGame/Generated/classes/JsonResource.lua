@@ -5,6 +5,6 @@
 ---@field public root ISerializable
 JsonResource = {}
 
----@param fields? table
+---@param fields? JsonResource
 ---@return JsonResource
 function JsonResource.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public playbackTime Float
 animAnimFeature_NPCExploration = {}
 
----@param fields? table
+---@param fields? animAnimFeature_NPCExploration
 ---@return animAnimFeature_NPCExploration
 function animAnimFeature_NPCExploration.new(fields) return end

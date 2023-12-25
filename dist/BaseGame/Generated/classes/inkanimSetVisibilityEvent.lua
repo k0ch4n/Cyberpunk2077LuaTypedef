@@ -5,7 +5,7 @@
 ---@field public isVisible Bool
 inkanimSetVisibilityEvent = {}
 
----@param fields? table
+---@param fields? inkanimSetVisibilityEvent
 ---@return inkanimSetVisibilityEvent
 function inkanimSetVisibilityEvent.new(fields) return end
 

@@ -20,6 +20,6 @@
 ---@field public namesEndingOffset Vector2
 gameuiarcadeShooterArcadeScoreboardController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterArcadeScoreboardController
 ---@return gameuiarcadeShooterArcadeScoreboardController
 function gameuiarcadeShooterArcadeScoreboardController.new(fields) return end

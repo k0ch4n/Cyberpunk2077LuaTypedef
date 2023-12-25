@@ -9,7 +9,7 @@
 ---@field private maxAvailableCharges Int32
 NetworkAreaControllerPS = {}
 
----@param fields? table
+---@param fields? NetworkAreaControllerPS
 ---@return NetworkAreaControllerPS
 function NetworkAreaControllerPS.new(fields) return end
 

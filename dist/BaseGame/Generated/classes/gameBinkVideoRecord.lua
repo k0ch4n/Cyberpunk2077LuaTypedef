@@ -6,6 +6,6 @@
 ---@field public binkDuration Float
 gameBinkVideoRecord = {}
 
----@param fields? table
+---@param fields? gameBinkVideoRecord
 ---@return gameBinkVideoRecord
 function gameBinkVideoRecord.new(fields) return end

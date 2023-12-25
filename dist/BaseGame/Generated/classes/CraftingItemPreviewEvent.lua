@@ -6,6 +6,6 @@
 ---@field public isGarment Bool
 CraftingItemPreviewEvent = {}
 
----@param fields? table
+---@param fields? CraftingItemPreviewEvent
 ---@return CraftingItemPreviewEvent
 function CraftingItemPreviewEvent.new(fields) return end

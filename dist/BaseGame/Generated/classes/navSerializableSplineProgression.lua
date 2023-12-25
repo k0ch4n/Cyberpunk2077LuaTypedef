@@ -6,6 +6,6 @@
 ---@field public alpha Float
 navSerializableSplineProgression = {}
 
----@param fields? table
+---@param fields? navSerializableSplineProgression
 ---@return navSerializableSplineProgression
 function navSerializableSplineProgression.new(fields) return end

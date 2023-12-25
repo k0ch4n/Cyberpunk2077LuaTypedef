@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questTagged_ConditionType = {}
 
----@param fields? table
+---@param fields? questTagged_ConditionType
 ---@return questTagged_ConditionType
 function questTagged_ConditionType.new(fields) return end

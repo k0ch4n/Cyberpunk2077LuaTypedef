@@ -4,6 +4,6 @@
 ---@class ExpressionTreeCGeneralOrNodeDefinition: ExpressionTreeCGeneralCompositeNodeDefinition
 ExpressionTreeCGeneralOrNodeDefinition = {}
 
----@param fields? table
+---@param fields? ExpressionTreeCGeneralOrNodeDefinition
 ---@return ExpressionTreeCGeneralOrNodeDefinition
 function ExpressionTreeCGeneralOrNodeDefinition.new(fields) return end

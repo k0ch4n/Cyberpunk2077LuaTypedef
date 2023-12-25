@@ -4,6 +4,6 @@
 ---@class gameBinkMeshTargetAttachment: entIAttachment
 gameBinkMeshTargetAttachment = {}
 
----@param fields? table
+---@param fields? gameBinkMeshTargetAttachment
 ---@return gameBinkMeshTargetAttachment
 function gameBinkMeshTargetAttachment.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class MinigameGenerationRuleOverridePrograms: gameuiMinigameGenerationRule
 MinigameGenerationRuleOverridePrograms = {}
 
----@param fields? table
+---@param fields? MinigameGenerationRuleOverridePrograms
 ---@return MinigameGenerationRuleOverridePrograms
 function MinigameGenerationRuleOverridePrograms.new(fields) return end
 

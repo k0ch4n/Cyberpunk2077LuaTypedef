@@ -9,7 +9,7 @@
 ---@field private was_used Bool
 FakeFeature = {}
 
----@param fields? table
+---@param fields? FakeFeature
 ---@return FakeFeature
 function FakeFeature.new(fields) return end
 

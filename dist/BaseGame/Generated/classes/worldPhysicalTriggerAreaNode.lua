@@ -7,6 +7,6 @@
 ---@field public filterData physicsFilterData
 worldPhysicalTriggerAreaNode = {}
 
----@param fields? table
+---@param fields? worldPhysicalTriggerAreaNode
 ---@return worldPhysicalTriggerAreaNode
 function worldPhysicalTriggerAreaNode.new(fields) return end

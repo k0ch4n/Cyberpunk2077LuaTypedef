@@ -4,7 +4,7 @@
 ---@class gameDebugVisualizerSystem: gameIDebugVisualizerSystem
 gameDebugVisualizerSystem = {}
 
----@param fields? table
+---@param fields? gameDebugVisualizerSystem
 ---@return gameDebugVisualizerSystem
 function gameDebugVisualizerSystem.new(fields) return end
 

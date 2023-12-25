@@ -6,7 +6,7 @@
 ---@field public register Bool
 RegisterFastTravelPointsRequest = {}
 
----@param fields? table
+---@param fields? RegisterFastTravelPointsRequest
 ---@return RegisterFastTravelPointsRequest
 function RegisterFastTravelPointsRequest.new(fields) return end
 

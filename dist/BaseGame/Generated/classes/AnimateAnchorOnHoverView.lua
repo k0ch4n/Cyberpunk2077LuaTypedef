@@ -9,7 +9,7 @@
 ---@field private AnimTime Float
 AnimateAnchorOnHoverView = {}
 
----@param fields? table
+---@param fields? AnimateAnchorOnHoverView
 ---@return AnimateAnchorOnHoverView
 function AnimateAnchorOnHoverView.new(fields) return end
 

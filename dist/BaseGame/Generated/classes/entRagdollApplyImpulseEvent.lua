@@ -7,6 +7,6 @@
 ---@field public influenceRadius Float
 entRagdollApplyImpulseEvent = {}
 
----@param fields? table
+---@param fields? entRagdollApplyImpulseEvent
 ---@return entRagdollApplyImpulseEvent
 function entRagdollApplyImpulseEvent.new(fields) return end

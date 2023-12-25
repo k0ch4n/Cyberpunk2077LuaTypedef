@@ -5,7 +5,7 @@
 ---@field public outlineType EOutlineType
 EffectExecutor_GameObjectOutline = {}
 
----@param fields? table
+---@param fields? EffectExecutor_GameObjectOutline
 ---@return EffectExecutor_GameObjectOutline
 function EffectExecutor_GameObjectOutline.new(fields) return end
 

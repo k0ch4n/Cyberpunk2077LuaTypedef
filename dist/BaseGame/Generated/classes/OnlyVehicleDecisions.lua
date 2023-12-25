@@ -7,7 +7,7 @@
 ---@field private hasStatusEffect Bool
 OnlyVehicleDecisions = {}
 
----@param fields? table
+---@param fields? OnlyVehicleDecisions
 ---@return OnlyVehicleDecisions
 function OnlyVehicleDecisions.new(fields) return end
 

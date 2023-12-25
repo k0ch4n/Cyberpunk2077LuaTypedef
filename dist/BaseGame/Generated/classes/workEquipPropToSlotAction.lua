@@ -9,6 +9,6 @@
 ---@field public customOffsetRot Quaternion
 workEquipPropToSlotAction = {}
 
----@param fields? table
+---@param fields? workEquipPropToSlotAction
 ---@return workEquipPropToSlotAction
 function workEquipPropToSlotAction.new(fields) return end

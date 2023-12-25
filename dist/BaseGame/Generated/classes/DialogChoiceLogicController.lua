@@ -48,7 +48,7 @@
 ---@field private animIntroProxy inkanimProxy
 DialogChoiceLogicController = {}
 
----@param fields? table
+---@param fields? DialogChoiceLogicController
 ---@return DialogChoiceLogicController
 function DialogChoiceLogicController.new(fields) return end
 

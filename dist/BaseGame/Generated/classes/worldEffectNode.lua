@@ -6,6 +6,6 @@
 ---@field public streamingDistanceOverride Float
 worldEffectNode = {}
 
----@param fields? table
+---@param fields? worldEffectNode
 ---@return worldEffectNode
 function worldEffectNode.new(fields) return end

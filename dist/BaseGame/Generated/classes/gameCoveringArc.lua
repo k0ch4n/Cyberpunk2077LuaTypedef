@@ -7,6 +7,6 @@
 ---@field public verticalAngle Float
 gameCoveringArc = {}
 
----@param fields? table
+---@param fields? gameCoveringArc
 ---@return gameCoveringArc
 function gameCoveringArc.new(fields) return end

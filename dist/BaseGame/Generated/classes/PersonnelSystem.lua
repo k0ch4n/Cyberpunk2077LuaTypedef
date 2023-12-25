@@ -5,7 +5,7 @@
 ---@field private EnableE3QuickHacks Bool
 PersonnelSystem = {}
 
----@param fields? table
+---@param fields? PersonnelSystem
 ---@return PersonnelSystem
 function PersonnelSystem.new(fields) return end
 

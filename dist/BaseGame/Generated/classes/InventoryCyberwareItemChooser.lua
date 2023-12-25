@@ -7,7 +7,7 @@
 ---@field private itemData gameInventoryItemData
 InventoryCyberwareItemChooser = {}
 
----@param fields? table
+---@param fields? InventoryCyberwareItemChooser
 ---@return InventoryCyberwareItemChooser
 function InventoryCyberwareItemChooser.new(fields) return end
 

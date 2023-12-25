@@ -4,6 +4,6 @@
 ---@class ActiveSkillScreenChangedEvent: redEvent
 ActiveSkillScreenChangedEvent = {}
 
----@param fields? table
+---@param fields? ActiveSkillScreenChangedEvent
 ---@return ActiveSkillScreenChangedEvent
 function ActiveSkillScreenChangedEvent.new(fields) return end

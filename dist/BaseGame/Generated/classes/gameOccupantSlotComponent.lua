@@ -5,6 +5,6 @@
 ---@field public slotData gameOccupantSlotData[]
 gameOccupantSlotComponent = {}
 
----@param fields? table
+---@param fields? gameOccupantSlotComponent
 ---@return gameOccupantSlotComponent
 function gameOccupantSlotComponent.new(fields) return end

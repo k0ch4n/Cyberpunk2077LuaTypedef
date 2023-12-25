@@ -4,7 +4,7 @@
 ---@class GlitchedTurretControllerPS: ScriptableDeviceComponentPS
 GlitchedTurretControllerPS = {}
 
----@param fields? table
+---@param fields? GlitchedTurretControllerPS
 ---@return GlitchedTurretControllerPS
 function GlitchedTurretControllerPS.new(fields) return end
 

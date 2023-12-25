@@ -6,6 +6,6 @@
 ---@field public skipTime Float
 gameReplAnimTransformSkipRequest = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformSkipRequest
 ---@return gameReplAnimTransformSkipRequest
 function gameReplAnimTransformSkipRequest.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public actionName inkActionName
 PerksMenuAttributeItemHoldStart = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeItemHoldStart
 ---@return PerksMenuAttributeItemHoldStart
 function PerksMenuAttributeItemHoldStart.new(fields) return end

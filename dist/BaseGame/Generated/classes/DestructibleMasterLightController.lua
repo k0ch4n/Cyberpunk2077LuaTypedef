@@ -4,7 +4,7 @@
 ---@class DestructibleMasterLightController: DestructibleMasterDeviceController
 DestructibleMasterLightController = {}
 
----@param fields? table
+---@param fields? DestructibleMasterLightController
 ---@return DestructibleMasterLightController
 function DestructibleMasterLightController.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public comOffset Transform
 physicsSystemBodyParams = {}
 
----@param fields? table
+---@param fields? physicsSystemBodyParams
 ---@return physicsSystemBodyParams
 function physicsSystemBodyParams.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public duration Float
 AnimFeature_PartData = {}
 
----@param fields? table
+---@param fields? AnimFeature_PartData
 ---@return AnimFeature_PartData
 function AnimFeature_PartData.new(fields) return end

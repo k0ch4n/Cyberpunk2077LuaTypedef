@@ -5,6 +5,6 @@
 ---@field public sourceRig animRig
 animRigRetarget = {}
 
----@param fields? table
+---@param fields? animRigRetarget
 ---@return animRigRetarget
 function animRigRetarget.new(fields) return end

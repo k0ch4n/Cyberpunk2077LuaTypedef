@@ -18,7 +18,7 @@
 ---@field public gameplaySpreadMultiplier Float
 CrosshairGameController_Basic = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Basic
 ---@return CrosshairGameController_Basic
 function CrosshairGameController_Basic.new(fields) return end
 

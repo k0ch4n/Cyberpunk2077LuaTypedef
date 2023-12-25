@@ -16,7 +16,7 @@
 ---@field private journalManager gameJournalManager
 QuestDataWrapper = {}
 
----@param fields? table
+---@param fields? QuestDataWrapper
 ---@return QuestDataWrapper
 function QuestDataWrapper.new(fields) return end
 

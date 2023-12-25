@@ -4,7 +4,7 @@
 ---@class gamedataLCDScreen_Record: gamedataBaseSign_Record
 gamedataLCDScreen_Record = {}
 
----@param fields? table
+---@param fields? gamedataLCDScreen_Record
 ---@return gamedataLCDScreen_Record
 function gamedataLCDScreen_Record.new(fields) return end
 

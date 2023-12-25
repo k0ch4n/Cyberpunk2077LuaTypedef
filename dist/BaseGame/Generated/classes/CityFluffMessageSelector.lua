@@ -5,7 +5,7 @@
 ---@field private recordID TweakDBID
 CityFluffMessageSelector = {}
 
----@param fields? table
+---@param fields? CityFluffMessageSelector
 ---@return CityFluffMessageSelector
 function CityFluffMessageSelector.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class NanoWireProjectileCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 NanoWireProjectileCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? NanoWireProjectileCollisionEvaluator
 ---@return NanoWireProjectileCollisionEvaluator
 function NanoWireProjectileCollisionEvaluator.new(fields) return end
 

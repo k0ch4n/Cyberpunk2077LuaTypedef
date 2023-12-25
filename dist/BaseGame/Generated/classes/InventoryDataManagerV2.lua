@@ -42,7 +42,7 @@
 ---@field private uiInventorySystem UIInventoryScriptableSystem
 InventoryDataManagerV2 = {}
 
----@param fields? table
+---@param fields? InventoryDataManagerV2
 ---@return InventoryDataManagerV2
 function InventoryDataManagerV2.new(fields) return end
 

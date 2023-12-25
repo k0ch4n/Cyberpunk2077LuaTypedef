@@ -8,6 +8,6 @@
 ---@field public isAppliedOnSpawn Bool
 gameeventsApplyStatusEffectEvent = {}
 
----@param fields? table
+---@param fields? gameeventsApplyStatusEffectEvent
 ---@return gameeventsApplyStatusEffectEvent
 function gameeventsApplyStatusEffectEvent.new(fields) return end

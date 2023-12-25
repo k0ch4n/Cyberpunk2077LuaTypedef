@@ -24,6 +24,6 @@
 ---@field public indexBufferOffset Uint32
 rendRenderMeshBlobHeader = {}
 
----@param fields? table
+---@param fields? rendRenderMeshBlobHeader
 ---@return rendRenderMeshBlobHeader
 function rendRenderMeshBlobHeader.new(fields) return end

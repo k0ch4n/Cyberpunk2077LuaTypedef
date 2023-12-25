@@ -6,7 +6,7 @@
 ---@field public range Float
 RefreshQhWithTagInAreaEffector = {}
 
----@param fields? table
+---@param fields? RefreshQhWithTagInAreaEffector
 ---@return RefreshQhWithTagInAreaEffector
 function RefreshQhWithTagInAreaEffector.new(fields) return end
 

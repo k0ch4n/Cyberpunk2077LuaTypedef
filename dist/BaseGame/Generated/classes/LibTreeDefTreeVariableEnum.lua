@@ -7,6 +7,6 @@
 ---@field public defaultValue Int64
 LibTreeDefTreeVariableEnum = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableEnum
 ---@return LibTreeDefTreeVariableEnum
 function LibTreeDefTreeVariableEnum.new(fields) return end

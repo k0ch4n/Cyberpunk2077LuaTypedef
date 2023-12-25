@@ -5,6 +5,6 @@
 ---@field public animFeatureName CName
 gameContainerObjectAnimated = {}
 
----@param fields? table
+---@param fields? gameContainerObjectAnimated
 ---@return gameContainerObjectAnimated
 function gameContainerObjectAnimated.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public completeWhenRotated AIArgumentMapping
 AIbehaviorActionRotateToObjectTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionRotateToObjectTreeNodeDefinition
 ---@return AIbehaviorActionRotateToObjectTreeNodeDefinition
 function AIbehaviorActionRotateToObjectTreeNodeDefinition.new(fields) return end

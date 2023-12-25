@@ -4,6 +4,6 @@
 ---@class navLocomotionPathPointUserData: ISerializable
 navLocomotionPathPointUserData = {}
 
----@param fields? table
+---@param fields? navLocomotionPathPointUserData
 ---@return navLocomotionPathPointUserData
 function navLocomotionPathPointUserData.new(fields) return end

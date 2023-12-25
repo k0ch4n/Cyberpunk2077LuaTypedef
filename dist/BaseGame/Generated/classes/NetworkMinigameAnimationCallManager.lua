@@ -4,7 +4,7 @@
 ---@class NetworkMinigameAnimationCallManager: inkWidgetLogicController
 NetworkMinigameAnimationCallManager = {}
 
----@param fields? table
+---@param fields? NetworkMinigameAnimationCallManager
 ---@return NetworkMinigameAnimationCallManager
 function NetworkMinigameAnimationCallManager.new(fields) return end
 

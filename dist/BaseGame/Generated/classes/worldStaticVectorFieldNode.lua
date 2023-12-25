@@ -6,6 +6,6 @@
 ---@field public autoHideDistance Float
 worldStaticVectorFieldNode = {}
 
----@param fields? table
+---@param fields? worldStaticVectorFieldNode
 ---@return worldStaticVectorFieldNode
 function worldStaticVectorFieldNode.new(fields) return end

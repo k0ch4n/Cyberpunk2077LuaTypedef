@@ -8,6 +8,6 @@
 ---@field public choice gameinteractionsChoice
 gameinteractionsAttemptedChoice = {}
 
----@param fields? table
+---@param fields? gameinteractionsAttemptedChoice
 ---@return gameinteractionsAttemptedChoice
 function gameinteractionsAttemptedChoice.new(fields) return end

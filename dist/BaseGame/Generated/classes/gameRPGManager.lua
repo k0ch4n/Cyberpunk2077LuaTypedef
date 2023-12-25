@@ -4,7 +4,7 @@
 ---@class gameRPGManager: IScriptable
 gameRPGManager = {}
 
----@param fields? table
+---@param fields? gameRPGManager
 ---@return gameRPGManager
 function gameRPGManager.new(fields) return end
 

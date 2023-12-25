@@ -4,6 +4,6 @@
 ---@class gameImpostorComponentAttachEvent: redEvent
 gameImpostorComponentAttachEvent = {}
 
----@param fields? table
+---@param fields? gameImpostorComponentAttachEvent
 ---@return gameImpostorComponentAttachEvent
 function gameImpostorComponentAttachEvent.new(fields) return end

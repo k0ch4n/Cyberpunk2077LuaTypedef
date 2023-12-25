@@ -17,6 +17,6 @@
 ---@field public attemptToSendEarlyDismountCommand AIArgumentMapping
 AIbehaviorDriveAvSimpleTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveAvSimpleTreeNodeDefinition
 ---@return AIbehaviorDriveAvSimpleTreeNodeDefinition
 function AIbehaviorDriveAvSimpleTreeNodeDefinition.new(fields) return end

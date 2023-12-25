@@ -4,7 +4,7 @@
 ---@class gameEffectScriptContext
 gameEffectScriptContext = {}
 
----@param fields? table
+---@param fields? gameEffectScriptContext
 ---@return gameEffectScriptContext
 function gameEffectScriptContext.new(fields) return end
 

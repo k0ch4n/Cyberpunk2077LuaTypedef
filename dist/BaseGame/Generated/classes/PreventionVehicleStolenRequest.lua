@@ -6,6 +6,6 @@
 ---@field public vehicleAffiliation gamedataAffiliation
 PreventionVehicleStolenRequest = {}
 
----@param fields? table
+---@param fields? PreventionVehicleStolenRequest
 ---@return PreventionVehicleStolenRequest
 function PreventionVehicleStolenRequest.new(fields) return end

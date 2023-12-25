@@ -4,7 +4,7 @@
 ---@class gamedataBikeDriveModelData_Record: gamedataVehicleDriveModelData_Record
 gamedataBikeDriveModelData_Record = {}
 
----@param fields? table
+---@param fields? gamedataBikeDriveModelData_Record
 ---@return gamedataBikeDriveModelData_Record
 function gamedataBikeDriveModelData_Record.new(fields) return end
 

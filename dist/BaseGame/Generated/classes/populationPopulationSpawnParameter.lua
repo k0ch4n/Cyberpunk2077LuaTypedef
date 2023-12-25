@@ -4,6 +4,6 @@
 ---@class populationPopulationSpawnParameter: gameObjectSpawnParameter
 populationPopulationSpawnParameter = {}
 
----@param fields? table
+---@param fields? populationPopulationSpawnParameter
 ---@return populationPopulationSpawnParameter
 function populationPopulationSpawnParameter.new(fields) return end

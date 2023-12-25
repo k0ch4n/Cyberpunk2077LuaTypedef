@@ -9,6 +9,6 @@
 ---@field public requiredQualityDistanceCategory Uint32
 animAnimNode_State = {}
 
----@param fields? table
+---@param fields? animAnimNode_State
 ---@return animAnimNode_State
 function animAnimNode_State.new(fields) return end

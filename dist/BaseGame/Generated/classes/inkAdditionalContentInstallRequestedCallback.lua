@@ -4,6 +4,6 @@
 ---@class inkAdditionalContentInstallRequestedCallback: inkCallbackBase
 inkAdditionalContentInstallRequestedCallback = {}
 
----@param fields? table
+---@param fields? inkAdditionalContentInstallRequestedCallback
 ---@return inkAdditionalContentInstallRequestedCallback
 function inkAdditionalContentInstallRequestedCallback.new(fields) return end

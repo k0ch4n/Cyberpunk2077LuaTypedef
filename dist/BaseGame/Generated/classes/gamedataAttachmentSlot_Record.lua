@@ -4,7 +4,7 @@
 ---@class gamedataAttachmentSlot_Record: gamedataTweakDBRecord
 gamedataAttachmentSlot_Record = {}
 
----@param fields? table
+---@param fields? gamedataAttachmentSlot_Record
 ---@return gamedataAttachmentSlot_Record
 function gamedataAttachmentSlot_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 MemoryListener = {}
 
----@param fields? table
+---@param fields? MemoryListener
 ---@return MemoryListener
 function MemoryListener.new(fields) return end
 

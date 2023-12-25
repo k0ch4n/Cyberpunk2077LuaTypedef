@@ -4,7 +4,7 @@
 ---@class AlwaysTruePrereq: gameIScriptablePrereq
 AlwaysTruePrereq = {}
 
----@param fields? table
+---@param fields? AlwaysTruePrereq
 ---@return AlwaysTruePrereq
 function AlwaysTruePrereq.new(fields) return end
 

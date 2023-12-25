@@ -4,7 +4,7 @@
 ---@class PuppetNotBossPrereq: gameIScriptablePrereq
 PuppetNotBossPrereq = {}
 
----@param fields? table
+---@param fields? PuppetNotBossPrereq
 ---@return PuppetNotBossPrereq
 function PuppetNotBossPrereq.new(fields) return end
 

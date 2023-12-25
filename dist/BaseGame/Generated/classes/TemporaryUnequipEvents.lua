@@ -6,7 +6,7 @@
 ---@field private hadStrongArmsEquipped Bool
 TemporaryUnequipEvents = {}
 
----@param fields? table
+---@param fields? TemporaryUnequipEvents
 ---@return TemporaryUnequipEvents
 function TemporaryUnequipEvents.new(fields) return end
 

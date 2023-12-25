@@ -4,7 +4,7 @@
 ---@class RefreshPerkAreas: gamePlayerScriptableSystemRequest
 RefreshPerkAreas = {}
 
----@param fields? table
+---@param fields? RefreshPerkAreas
 ---@return RefreshPerkAreas
 function RefreshPerkAreas.new(fields) return end
 

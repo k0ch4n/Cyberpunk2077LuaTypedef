@@ -4,7 +4,7 @@
 ---@class MovableWallScreenController: DoorController
 MovableWallScreenController = {}
 
----@param fields? table
+---@param fields? MovableWallScreenController
 ---@return MovableWallScreenController
 function MovableWallScreenController.new(fields) return end
 

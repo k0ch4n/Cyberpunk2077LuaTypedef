@@ -5,6 +5,6 @@
 ---@field public definition gameinteractionsCHotSpotDefinition
 gameinteractionsInteractionDescriptorResource = {}
 
----@param fields? table
+---@param fields? gameinteractionsInteractionDescriptorResource
 ---@return gameinteractionsInteractionDescriptorResource
 function gameinteractionsInteractionDescriptorResource.new(fields) return end

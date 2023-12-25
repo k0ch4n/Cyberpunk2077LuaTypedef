@@ -5,7 +5,7 @@
 ---@field public thickness Float
 inkBorderWidget = {}
 
----@param fields? table
+---@param fields? inkBorderWidget
 ---@return inkBorderWidget
 function inkBorderWidget.new(fields) return end
 

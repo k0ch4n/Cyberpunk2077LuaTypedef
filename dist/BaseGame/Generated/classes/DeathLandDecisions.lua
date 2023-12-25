@@ -4,6 +4,6 @@
 ---@class DeathLandDecisions: FailedLandingAbstractDecisions
 DeathLandDecisions = {}
 
----@param fields? table
+---@param fields? DeathLandDecisions
 ---@return DeathLandDecisions
 function DeathLandDecisions.new(fields) return end

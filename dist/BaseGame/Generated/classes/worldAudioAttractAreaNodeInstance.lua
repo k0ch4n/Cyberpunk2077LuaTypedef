@@ -4,6 +4,6 @@
 ---@class worldAudioAttractAreaNodeInstance: worldTriggerAreaNodeInstance
 worldAudioAttractAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAudioAttractAreaNodeInstance
 ---@return worldAudioAttractAreaNodeInstance
 function worldAudioAttractAreaNodeInstance.new(fields) return end

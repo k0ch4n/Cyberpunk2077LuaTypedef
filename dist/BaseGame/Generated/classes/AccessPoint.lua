@@ -9,7 +9,7 @@
 ---@field private upload_program_listener_id Uint32
 AccessPoint = {}
 
----@param fields? table
+---@param fields? AccessPoint
 ---@return AccessPoint
 function AccessPoint.new(fields) return end
 

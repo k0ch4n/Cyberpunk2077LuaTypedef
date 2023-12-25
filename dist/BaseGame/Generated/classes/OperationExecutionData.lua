@@ -9,6 +9,6 @@
 ---@field public isDelayActive Bool
 OperationExecutionData = {}
 
----@param fields? table
+---@param fields? OperationExecutionData
 ---@return OperationExecutionData
 function OperationExecutionData.new(fields) return end

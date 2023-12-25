@@ -24,7 +24,7 @@
 ---@field private hitReactionMax Int32
 gamedamageAttackData = {}
 
----@param fields? table
+---@param fields? gamedamageAttackData
 ---@return gamedamageAttackData
 function gamedamageAttackData.new(fields) return end
 

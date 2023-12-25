@@ -5,6 +5,6 @@
 ---@field public ignoredNames CName[]
 audioWwiseIgnoredNames = {}
 
----@param fields? table
+---@param fields? audioWwiseIgnoredNames
 ---@return audioWwiseIgnoredNames
 function audioWwiseIgnoredNames.new(fields) return end

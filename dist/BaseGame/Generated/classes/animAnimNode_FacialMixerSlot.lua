@@ -5,6 +5,6 @@
 ---@field public lookAtDefinitions animLookAtAnimationDefinition[]
 animAnimNode_FacialMixerSlot = {}
 
----@param fields? table
+---@param fields? animAnimNode_FacialMixerSlot
 ---@return animAnimNode_FacialMixerSlot
 function animAnimNode_FacialMixerSlot.new(fields) return end

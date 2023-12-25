@@ -4,7 +4,7 @@
 ---@class gamedataSpawnableObjectPriority_Record: gamedataTweakDBRecord
 gamedataSpawnableObjectPriority_Record = {}
 
----@param fields? table
+---@param fields? gamedataSpawnableObjectPriority_Record
 ---@return gamedataSpawnableObjectPriority_Record
 function gamedataSpawnableObjectPriority_Record.new(fields) return end
 

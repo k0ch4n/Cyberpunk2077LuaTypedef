@@ -5,6 +5,6 @@
 ---@field public requesterData PSOwnerData
 UnregisterTimetableRequest = {}
 
----@param fields? table
+---@param fields? UnregisterTimetableRequest
 ---@return UnregisterTimetableRequest
 function UnregisterTimetableRequest.new(fields) return end

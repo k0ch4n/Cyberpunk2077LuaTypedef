@@ -5,6 +5,6 @@
 ---@field public status CName
 questSetPhoneStatusRequest = {}
 
----@param fields? table
+---@param fields? questSetPhoneStatusRequest
 ---@return questSetPhoneStatusRequest
 function questSetPhoneStatusRequest.new(fields) return end

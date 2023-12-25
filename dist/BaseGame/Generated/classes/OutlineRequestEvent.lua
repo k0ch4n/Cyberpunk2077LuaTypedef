@@ -7,6 +7,6 @@
 ---@field public outlineDuration Float
 OutlineRequestEvent = {}
 
----@param fields? table
+---@param fields? OutlineRequestEvent
 ---@return OutlineRequestEvent
 function OutlineRequestEvent.new(fields) return end

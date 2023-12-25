@@ -8,7 +8,7 @@
 ---@field private arrow inkImageWidgetReference
 ItemTooltipClothingInfoModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipClothingInfoModule
 ---@return ItemTooltipClothingInfoModule
 function ItemTooltipClothingInfoModule.new(fields) return end
 

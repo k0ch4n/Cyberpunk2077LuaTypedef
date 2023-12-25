@@ -5,6 +5,6 @@
 ---@field public footPhase animEFootPhase
 animAnimStateTransitionCondition_FootPhaseEvent = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_FootPhaseEvent
 ---@return animAnimStateTransitionCondition_FootPhaseEvent
 function animAnimStateTransitionCondition_FootPhaseEvent.new(fields) return end

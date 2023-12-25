@@ -10,6 +10,6 @@
 ---@field public tongue animFacialSetup_OneSermoBufferInfo
 animFacialSetup_BufferInfo = {}
 
----@param fields? table
+---@param fields? animFacialSetup_BufferInfo
 ---@return animFacialSetup_BufferInfo
 function animFacialSetup_BufferInfo.new(fields) return end

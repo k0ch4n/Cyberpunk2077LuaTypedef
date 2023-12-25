@@ -18,6 +18,6 @@
 ---@field public metadataArray worldPrefabMetadata[]
 worldNodesGroup = {}
 
----@param fields? table
+---@param fields? worldNodesGroup
 ---@return worldNodesGroup
 function worldNodesGroup.new(fields) return end

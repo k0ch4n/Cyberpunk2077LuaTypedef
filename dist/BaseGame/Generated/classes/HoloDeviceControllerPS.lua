@@ -5,7 +5,7 @@
 ---@field private isPlaying Bool
 HoloDeviceControllerPS = {}
 
----@param fields? table
+---@param fields? HoloDeviceControllerPS
 ---@return HoloDeviceControllerPS
 function HoloDeviceControllerPS.new(fields) return end
 

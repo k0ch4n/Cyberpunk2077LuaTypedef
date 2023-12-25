@@ -4,7 +4,7 @@
 ---@class SetAuthorizationModuleOFF: ActionBool
 SetAuthorizationModuleOFF = {}
 
----@param fields? table
+---@param fields? SetAuthorizationModuleOFF
 ---@return SetAuthorizationModuleOFF
 function SetAuthorizationModuleOFF.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field public forceScene Bool
 VehicleQuestChangeDoorStateEvent = {}
 
----@param fields? table
+---@param fields? VehicleQuestChangeDoorStateEvent
 ---@return VehicleQuestChangeDoorStateEvent
 function VehicleQuestChangeDoorStateEvent.new(fields) return end
 

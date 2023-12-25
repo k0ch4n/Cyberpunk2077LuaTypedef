@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 NoAmmoDecisions = {}
 
----@param fields? table
+---@param fields? NoAmmoDecisions
 ---@return NoAmmoDecisions
 function NoAmmoDecisions.new(fields) return end
 

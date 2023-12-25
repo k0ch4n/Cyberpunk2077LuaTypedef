@@ -8,6 +8,6 @@
 ---@field public behaviorCallbackName CName
 AIbehaviorMountEventResolverDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMountEventResolverDefinition
 ---@return AIbehaviorMountEventResolverDefinition
 function AIbehaviorMountEventResolverDefinition.new(fields) return end

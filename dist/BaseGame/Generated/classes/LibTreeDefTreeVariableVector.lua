@@ -6,6 +6,6 @@
 ---@field public defaultValue Vector3
 LibTreeDefTreeVariableVector = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableVector
 ---@return LibTreeDefTreeVariableVector
 function LibTreeDefTreeVariableVector.new(fields) return end

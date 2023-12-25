@@ -5,7 +5,7 @@
 ---@field private fxResource gameFxResource
 EffectExecutor_PingNetwork = {}
 
----@param fields? table
+---@param fields? EffectExecutor_PingNetwork
 ---@return EffectExecutor_PingNetwork
 function EffectExecutor_PingNetwork.new(fields) return end
 

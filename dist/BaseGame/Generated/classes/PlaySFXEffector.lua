@@ -11,7 +11,7 @@
 ---@field public owner gameObject
 PlaySFXEffector = {}
 
----@param fields? table
+---@param fields? PlaySFXEffector
 ---@return PlaySFXEffector
 function PlaySFXEffector.new(fields) return end
 

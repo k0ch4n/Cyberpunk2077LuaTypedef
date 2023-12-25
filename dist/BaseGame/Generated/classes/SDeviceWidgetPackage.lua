@@ -7,6 +7,6 @@
 ---@field public actionWidgets SActionWidgetPackage[]
 SDeviceWidgetPackage = {}
 
----@param fields? table
+---@param fields? SDeviceWidgetPackage
 ---@return SDeviceWidgetPackage
 function SDeviceWidgetPackage.new(fields) return end

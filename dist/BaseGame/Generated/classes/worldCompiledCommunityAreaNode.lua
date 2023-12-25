@@ -6,6 +6,6 @@
 ---@field public sourceObjectId entEntityID
 worldCompiledCommunityAreaNode = {}
 
----@param fields? table
+---@param fields? worldCompiledCommunityAreaNode
 ---@return worldCompiledCommunityAreaNode
 function worldCompiledCommunityAreaNode.new(fields) return end

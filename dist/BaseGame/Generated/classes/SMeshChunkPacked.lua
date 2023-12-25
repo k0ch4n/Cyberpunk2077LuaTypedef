@@ -17,6 +17,6 @@
 ---@field public lodMask Uint8
 SMeshChunkPacked = {}
 
----@param fields? table
+---@param fields? SMeshChunkPacked
 ---@return SMeshChunkPacked
 function SMeshChunkPacked.new(fields) return end

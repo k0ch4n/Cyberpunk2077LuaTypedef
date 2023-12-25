@@ -4,7 +4,7 @@
 ---@class HitIsRarityPrereqState: GenericHitPrereqState
 HitIsRarityPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsRarityPrereqState
 ---@return HitIsRarityPrereqState
 function HitIsRarityPrereqState.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public mode questAudioEventPrefetchMode
 questAudioEventPrefetchStruct = {}
 
----@param fields? table
+---@param fields? questAudioEventPrefetchStruct
 ---@return questAudioEventPrefetchStruct
 function questAudioEventPrefetchStruct.new(fields) return end

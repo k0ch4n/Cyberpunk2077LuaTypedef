@@ -4,6 +4,6 @@
 ---@class audioAdvertPositionStrategy: audioApplySoundPositionStrategy
 audioAdvertPositionStrategy = {}
 
----@param fields? table
+---@param fields? audioAdvertPositionStrategy
 ---@return audioAdvertPositionStrategy
 function audioAdvertPositionStrategy.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public taggedObjectsList gamebbScriptID_Variant
 TaggedObjectsListDef = {}
 
----@param fields? table
+---@param fields? TaggedObjectsListDef
 ---@return TaggedObjectsListDef
 function TaggedObjectsListDef.new(fields) return end
 

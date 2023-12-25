@@ -6,6 +6,6 @@
 ---@field public meshComponentNames CName[]
 gameForceVisionModuleQuestEvent = {}
 
----@param fields? table
+---@param fields? gameForceVisionModuleQuestEvent
 ---@return gameForceVisionModuleQuestEvent
 function gameForceVisionModuleQuestEvent.new(fields) return end

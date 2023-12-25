@@ -5,6 +5,6 @@
 ---@field public events animAnimEvent[]
 animAnimSetEntryAudioData = {}
 
----@param fields? table
+---@param fields? animAnimSetEntryAudioData
 ---@return animAnimSetEntryAudioData
 function animAnimSetEntryAudioData.new(fields) return end

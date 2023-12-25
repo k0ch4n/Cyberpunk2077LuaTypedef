@@ -6,7 +6,7 @@
 ---@field public restore Bool
 StimTargetsEvent = {}
 
----@param fields? table
+---@param fields? StimTargetsEvent
 ---@return StimTargetsEvent
 function StimTargetsEvent.new(fields) return end
 

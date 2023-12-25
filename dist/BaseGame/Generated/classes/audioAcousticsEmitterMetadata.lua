@@ -14,6 +14,6 @@
 ---@field public leakingFloorHack Bool
 audioAcousticsEmitterMetadata = {}
 
----@param fields? table
+---@param fields? audioAcousticsEmitterMetadata
 ---@return audioAcousticsEmitterMetadata
 function audioAcousticsEmitterMetadata.new(fields) return end

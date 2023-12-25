@@ -6,6 +6,6 @@
 ---@field public checkForHazards Bool
 GetOffAVDelayedEvent = {}
 
----@param fields? table
+---@param fields? GetOffAVDelayedEvent
 ---@return GetOffAVDelayedEvent
 function GetOffAVDelayedEvent.new(fields) return end

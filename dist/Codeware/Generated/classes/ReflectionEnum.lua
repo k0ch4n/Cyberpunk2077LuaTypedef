@@ -4,7 +4,7 @@
 ---@class ReflectionEnum: ReflectionType
 ReflectionEnum = {}
 
----@param fields? table
+---@param fields? ReflectionEnum
 ---@return ReflectionEnum
 function ReflectionEnum.new(fields) return end
 

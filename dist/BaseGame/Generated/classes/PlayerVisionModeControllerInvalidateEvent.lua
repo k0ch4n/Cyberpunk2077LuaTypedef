@@ -5,6 +5,6 @@
 ---@field public active Bool
 PlayerVisionModeControllerInvalidateEvent = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeControllerInvalidateEvent
 ---@return PlayerVisionModeControllerInvalidateEvent
 function PlayerVisionModeControllerInvalidateEvent.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field protected customNumber Int32
 LcdScreenILogicController = {}
 
----@param fields? table
+---@param fields? LcdScreenILogicController
 ---@return LcdScreenILogicController
 function LcdScreenILogicController.new(fields) return end
 

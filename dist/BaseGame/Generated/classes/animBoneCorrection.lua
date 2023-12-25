@@ -6,6 +6,6 @@
 ---@field public additiveCorrection Quaternion
 animBoneCorrection = {}
 
----@param fields? table
+---@param fields? animBoneCorrection
 ---@return animBoneCorrection
 function animBoneCorrection.new(fields) return end

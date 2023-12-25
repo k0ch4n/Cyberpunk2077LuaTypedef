@@ -5,7 +5,7 @@
 ---@field protected state GenericHitPrereqState
 HitCallback = {}
 
----@param fields? table
+---@param fields? HitCallback
 ---@return HitCallback
 function HitCallback.new(fields) return end
 

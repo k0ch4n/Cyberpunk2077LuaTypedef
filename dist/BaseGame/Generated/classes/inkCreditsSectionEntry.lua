@@ -7,6 +7,6 @@
 ---@field public displayMode inkDisplayMode
 inkCreditsSectionEntry = {}
 
----@param fields? table
+---@param fields? inkCreditsSectionEntry
 ---@return inkCreditsSectionEntry
 function inkCreditsSectionEntry.new(fields) return end

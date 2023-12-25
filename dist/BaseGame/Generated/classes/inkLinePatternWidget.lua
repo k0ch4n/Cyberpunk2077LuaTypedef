@@ -12,7 +12,7 @@
 ---@field public patternDirection inkEChildOrder
 inkLinePatternWidget = {}
 
----@param fields? table
+---@param fields? inkLinePatternWidget
 ---@return inkLinePatternWidget
 function inkLinePatternWidget.new(fields) return end
 

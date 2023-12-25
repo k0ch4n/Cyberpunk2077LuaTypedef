@@ -4,7 +4,7 @@
 ---@class ClearArgumentObject: SetArguments
 ClearArgumentObject = {}
 
----@param fields? table
+---@param fields? ClearArgumentObject
 ---@return ClearArgumentObject
 function ClearArgumentObject.new(fields) return end
 

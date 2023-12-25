@@ -10,6 +10,6 @@
 ---@field public rootItemName CName
 questVendorPanel_NodeType = {}
 
----@param fields? table
+---@param fields? questVendorPanel_NodeType
 ---@return questVendorPanel_NodeType
 function questVendorPanel_NodeType.new(fields) return end

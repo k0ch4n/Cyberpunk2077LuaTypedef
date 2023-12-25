@@ -5,6 +5,6 @@
 ---@field public sequences gameSmartObjectTransformSequenceDictionaryEntry[]
 gameSmartObjectTransformSequenceDictionary = {}
 
----@param fields? table
+---@param fields? gameSmartObjectTransformSequenceDictionary
 ---@return gameSmartObjectTransformSequenceDictionary
 function gameSmartObjectTransformSequenceDictionary.new(fields) return end

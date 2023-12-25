@@ -7,6 +7,6 @@
 ---@field public timesPlayed Uint32
 STransformAnimationPlayEventData = {}
 
----@param fields? table
+---@param fields? STransformAnimationPlayEventData
 ---@return STransformAnimationPlayEventData
 function STransformAnimationPlayEventData.new(fields) return end

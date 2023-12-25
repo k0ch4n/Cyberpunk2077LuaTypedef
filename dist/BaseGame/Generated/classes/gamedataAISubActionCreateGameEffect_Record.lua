@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionCreateGameEffect_Record: gamedataAISubAction_Record
 gamedataAISubActionCreateGameEffect_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionCreateGameEffect_Record
 ---@return gamedataAISubActionCreateGameEffect_Record
 function gamedataAISubActionCreateGameEffect_Record.new(fields) return end
 

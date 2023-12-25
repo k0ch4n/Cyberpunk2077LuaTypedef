@@ -15,7 +15,7 @@
 ---@field private OnRedrawIcon_3Callback redCallbackObject
 hudButtonReminderGameController = {}
 
----@param fields? table
+---@param fields? hudButtonReminderGameController
 ---@return hudButtonReminderGameController
 function hudButtonReminderGameController.new(fields) return end
 

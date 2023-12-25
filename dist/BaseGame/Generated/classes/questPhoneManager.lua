@@ -4,7 +4,7 @@
 ---@class questPhoneManager: questIPhoneManager
 questPhoneManager = {}
 
----@param fields? table
+---@param fields? questPhoneManager
 ---@return questPhoneManager
 function questPhoneManager.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public requesterID gamePersistentID
 FillTakeOverChainBBoardEvent = {}
 
----@param fields? table
+---@param fields? FillTakeOverChainBBoardEvent
 ---@return FillTakeOverChainBBoardEvent
 function FillTakeOverChainBBoardEvent.new(fields) return end

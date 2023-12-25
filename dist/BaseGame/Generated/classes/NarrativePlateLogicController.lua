@@ -7,7 +7,7 @@
 ---@field private root inkWidgetReference
 NarrativePlateLogicController = {}
 
----@param fields? table
+---@param fields? NarrativePlateLogicController
 ---@return NarrativePlateLogicController
 function NarrativePlateLogicController.new(fields) return end
 

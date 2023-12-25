@@ -4,7 +4,7 @@
 ---@class AIbehaviorScriptExecutionContext
 AIbehaviorScriptExecutionContext = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptExecutionContext
 ---@return AIbehaviorScriptExecutionContext
 function AIbehaviorScriptExecutionContext.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class DialerContactTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 DialerContactTemplateClassifier = {}
 
----@param fields? table
+---@param fields? DialerContactTemplateClassifier
 ---@return DialerContactTemplateClassifier
 function DialerContactTemplateClassifier.new(fields) return end
 

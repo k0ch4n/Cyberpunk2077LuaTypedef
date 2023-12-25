@@ -4,7 +4,7 @@
 ---@class MenuScenario_ArcadeMinigame: MenuScenario_BaseMenu
 MenuScenario_ArcadeMinigame = {}
 
----@param fields? table
+---@param fields? MenuScenario_ArcadeMinigame
 ---@return MenuScenario_ArcadeMinigame
 function MenuScenario_ArcadeMinigame.new(fields) return end
 

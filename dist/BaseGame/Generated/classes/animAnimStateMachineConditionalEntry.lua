@@ -9,6 +9,6 @@
 ---@field public isForcedToTrue Bool
 animAnimStateMachineConditionalEntry = {}
 
----@param fields? table
+---@param fields? animAnimStateMachineConditionalEntry
 ---@return animAnimStateMachineConditionalEntry
 function animAnimStateMachineConditionalEntry.new(fields) return end

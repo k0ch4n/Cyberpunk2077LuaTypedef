@@ -4,7 +4,7 @@
 ---@class DeviceHelper
 DeviceHelper = {}
 
----@param fields? table
+---@param fields? DeviceHelper
 ---@return DeviceHelper
 function DeviceHelper.new(fields) return end
 

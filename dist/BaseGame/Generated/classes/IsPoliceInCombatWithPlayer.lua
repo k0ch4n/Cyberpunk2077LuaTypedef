@@ -4,7 +4,7 @@
 ---@class IsPoliceInCombatWithPlayer: PreventionConditionAbstract
 IsPoliceInCombatWithPlayer = {}
 
----@param fields? table
+---@param fields? IsPoliceInCombatWithPlayer
 ---@return IsPoliceInCombatWithPlayer
 function IsPoliceInCombatWithPlayer.new(fields) return end
 

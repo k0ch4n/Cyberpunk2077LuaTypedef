@@ -4,6 +4,6 @@
 ---@class inkVisualStatePopStateMachineEvent: redEvent
 inkVisualStatePopStateMachineEvent = {}
 
----@param fields? table
+---@param fields? inkVisualStatePopStateMachineEvent
 ---@return inkVisualStatePopStateMachineEvent
 function inkVisualStatePopStateMachineEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public type scnAnimNameType
 scnAnimName = {}
 
----@param fields? table
+---@param fields? scnAnimName
 ---@return scnAnimName
 function scnAnimName.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class InvisibleSceneStashController: ScriptableDeviceComponent
 InvisibleSceneStashController = {}
 
----@param fields? table
+---@param fields? InvisibleSceneStashController
 ---@return InvisibleSceneStashController
 function InvisibleSceneStashController.new(fields) return end
 

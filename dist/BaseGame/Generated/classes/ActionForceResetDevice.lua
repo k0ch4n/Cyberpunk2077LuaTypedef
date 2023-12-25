@@ -5,6 +5,6 @@
 ---@field public restartDuration Int32
 ActionForceResetDevice = {}
 
----@param fields? table
+---@param fields? ActionForceResetDevice
 ---@return ActionForceResetDevice
 function ActionForceResetDevice.new(fields) return end

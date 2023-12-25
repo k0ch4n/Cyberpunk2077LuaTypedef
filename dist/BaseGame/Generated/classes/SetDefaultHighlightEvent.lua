@@ -5,7 +5,7 @@
 ---@field public highlightData HighlightEditableData
 SetDefaultHighlightEvent = {}
 
----@param fields? table
+---@param fields? SetDefaultHighlightEvent
 ---@return SetDefaultHighlightEvent
 function SetDefaultHighlightEvent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public collisionRoundedShapes animCollisionRoundedShape[]
 animCollisionShapesCollection = {}
 
----@param fields? table
+---@param fields? animCollisionShapesCollection
 ---@return animCollisionShapesCollection
 function animCollisionShapesCollection.new(fields) return end

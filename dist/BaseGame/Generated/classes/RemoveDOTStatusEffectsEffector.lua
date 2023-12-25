@@ -6,7 +6,7 @@
 ---@field protected delay Float
 RemoveDOTStatusEffectsEffector = {}
 
----@param fields? table
+---@param fields? RemoveDOTStatusEffectsEffector
 ---@return RemoveDOTStatusEffectsEffector
 function RemoveDOTStatusEffectsEffector.new(fields) return end
 

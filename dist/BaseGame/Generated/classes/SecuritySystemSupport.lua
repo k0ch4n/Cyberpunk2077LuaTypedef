@@ -5,6 +5,6 @@
 ---@field public supportGranted Bool
 SecuritySystemSupport = {}
 
----@param fields? table
+---@param fields? SecuritySystemSupport
 ---@return SecuritySystemSupport
 function SecuritySystemSupport.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public isAiming Bool
 gameweaponeventsOwnerAimEvent = {}
 
----@param fields? table
+---@param fields? gameweaponeventsOwnerAimEvent
 ---@return gameweaponeventsOwnerAimEvent
 function gameweaponeventsOwnerAimEvent.new(fields) return end

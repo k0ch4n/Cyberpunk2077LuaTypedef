@@ -6,6 +6,6 @@
 ---@field public data String[][]
 C2dArray = {}
 
----@param fields? table
+---@param fields? C2dArray
 ---@return C2dArray
 function C2dArray.new(fields) return end

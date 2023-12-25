@@ -5,6 +5,6 @@
 ---@field public specificControlSettingsMatrix audioUiSpecificControlSettingsMapItem[]
 audioUiSpecificControlSettingsMap = {}
 
----@param fields? table
+---@param fields? audioUiSpecificControlSettingsMap
 ---@return audioUiSpecificControlSettingsMap
 function audioUiSpecificControlSettingsMap.new(fields) return end

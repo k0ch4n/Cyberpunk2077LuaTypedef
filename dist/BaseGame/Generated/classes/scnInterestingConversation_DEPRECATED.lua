@@ -5,6 +5,6 @@
 ---@field public sceneFilename scnSceneResource
 scnInterestingConversation_DEPRECATED = {}
 
----@param fields? table
+---@param fields? scnInterestingConversation_DEPRECATED
 ---@return scnInterestingConversation_DEPRECATED
 function scnInterestingConversation_DEPRECATED.new(fields) return end

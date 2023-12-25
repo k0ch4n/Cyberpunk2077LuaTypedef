@@ -4,7 +4,7 @@
 ---@class gamedataDriveHelper_Record: gamedataTweakDBRecord
 gamedataDriveHelper_Record = {}
 
----@param fields? table
+---@param fields? gamedataDriveHelper_Record
 ---@return gamedataDriveHelper_Record
 function gamedataDriveHelper_Record.new(fields) return end
 

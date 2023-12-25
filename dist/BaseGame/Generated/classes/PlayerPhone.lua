@@ -4,7 +4,7 @@
 ---@class PlayerPhone: gameScriptableComponent
 PlayerPhone = {}
 
----@param fields? table
+---@param fields? PlayerPhone
 ---@return PlayerPhone
 function PlayerPhone.new(fields) return end
 

@@ -16,6 +16,6 @@
 ---@field public mIndexHistogramData rendOpacityMicromapUsageCounts[]
 rendOpacityMicromapChunk = {}
 
----@param fields? table
+---@param fields? rendOpacityMicromapChunk
 ---@return rendOpacityMicromapChunk
 function rendOpacityMicromapChunk.new(fields) return end

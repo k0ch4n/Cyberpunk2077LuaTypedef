@@ -4,6 +4,6 @@
 ---@class worlduiMeshTargetAttachment: entIAttachment
 worlduiMeshTargetAttachment = {}
 
----@param fields? table
+---@param fields? worlduiMeshTargetAttachment
 ---@return worlduiMeshTargetAttachment
 function worlduiMeshTargetAttachment.new(fields) return end

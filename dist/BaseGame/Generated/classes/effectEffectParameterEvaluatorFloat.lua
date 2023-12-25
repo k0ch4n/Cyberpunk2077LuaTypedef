@@ -7,6 +7,6 @@
 ---@field public inputParameterIsPostMultiplier Bool
 effectEffectParameterEvaluatorFloat = {}
 
----@param fields? table
+---@param fields? effectEffectParameterEvaluatorFloat
 ---@return effectEffectParameterEvaluatorFloat
 function effectEffectParameterEvaluatorFloat.new(fields) return end

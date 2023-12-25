@@ -4,7 +4,7 @@
 ---@class QuickHackToggleBlockade: ToggleBlockade
 QuickHackToggleBlockade = {}
 
----@param fields? table
+---@param fields? QuickHackToggleBlockade
 ---@return QuickHackToggleBlockade
 function QuickHackToggleBlockade.new(fields) return end
 

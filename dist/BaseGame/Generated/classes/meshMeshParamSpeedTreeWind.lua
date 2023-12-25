@@ -4,6 +4,6 @@
 ---@class meshMeshParamSpeedTreeWind: meshMeshParameter
 meshMeshParamSpeedTreeWind = {}
 
----@param fields? table
+---@param fields? meshMeshParamSpeedTreeWind
 ---@return meshMeshParamSpeedTreeWind
 function meshMeshParamSpeedTreeWind.new(fields) return end

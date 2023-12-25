@@ -5,6 +5,6 @@
 ---@field public squadName CName
 ClearPingedSquadRequest = {}
 
----@param fields? table
+---@param fields? ClearPingedSquadRequest
 ---@return ClearPingedSquadRequest
 function ClearPingedSquadRequest.new(fields) return end

@@ -19,6 +19,6 @@
 ---@field public audioMetadata CName
 entBakedDestructionComponent = {}
 
----@param fields? table
+---@param fields? entBakedDestructionComponent
 ---@return entBakedDestructionComponent
 function entBakedDestructionComponent.new(fields) return end

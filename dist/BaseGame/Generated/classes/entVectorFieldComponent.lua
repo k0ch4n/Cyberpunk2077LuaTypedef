@@ -6,6 +6,6 @@
 ---@field public isEnabled Bool
 entVectorFieldComponent = {}
 
----@param fields? table
+---@param fields? entVectorFieldComponent
 ---@return entVectorFieldComponent
 function entVectorFieldComponent.new(fields) return end

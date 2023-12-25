@@ -7,6 +7,6 @@
 ---@field public v NodeRef
 LibTreeDefNodeRef = {}
 
----@param fields? table
+---@param fields? LibTreeDefNodeRef
 ---@return LibTreeDefNodeRef
 function LibTreeDefNodeRef.new(fields) return end

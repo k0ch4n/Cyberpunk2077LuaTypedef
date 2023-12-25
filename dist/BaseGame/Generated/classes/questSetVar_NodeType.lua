@@ -7,6 +7,6 @@
 ---@field public setExactValue Bool
 questSetVar_NodeType = {}
 
----@param fields? table
+---@param fields? questSetVar_NodeType
 ---@return questSetVar_NodeType
 function questSetVar_NodeType.new(fields) return end

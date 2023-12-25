@@ -8,6 +8,6 @@
 ---@field public voMapChunks JsonResource[]
 locVoLanguageDataEntry = {}
 
----@param fields? table
+---@param fields? locVoLanguageDataEntry
 ---@return locVoLanguageDataEntry
 function locVoLanguageDataEntry.new(fields) return end

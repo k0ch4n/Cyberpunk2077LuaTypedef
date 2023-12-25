@@ -12,7 +12,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 TerminalInkGameControllerBase = {}
 
----@param fields? table
+---@param fields? TerminalInkGameControllerBase
 ---@return TerminalInkGameControllerBase
 function TerminalInkGameControllerBase.new(fields) return end
 

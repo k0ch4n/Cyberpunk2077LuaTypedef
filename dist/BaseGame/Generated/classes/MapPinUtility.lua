@@ -4,7 +4,7 @@
 ---@class MapPinUtility: IScriptable
 MapPinUtility = {}
 
----@param fields? table
+---@param fields? MapPinUtility
 ---@return MapPinUtility
 function MapPinUtility.new(fields) return end
 

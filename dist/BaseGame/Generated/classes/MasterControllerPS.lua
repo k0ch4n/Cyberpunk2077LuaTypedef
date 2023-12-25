@@ -5,7 +5,7 @@
 ---@field protected clearance gamedeviceClearance
 MasterControllerPS = {}
 
----@param fields? table
+---@param fields? MasterControllerPS
 ---@return MasterControllerPS
 function MasterControllerPS.new(fields) return end
 

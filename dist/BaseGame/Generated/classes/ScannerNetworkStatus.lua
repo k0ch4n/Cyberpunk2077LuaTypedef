@@ -5,7 +5,7 @@
 ---@field private networkStatus ScannerNetworkState
 ScannerNetworkStatus = {}
 
----@param fields? table
+---@param fields? ScannerNetworkStatus
 ---@return ScannerNetworkStatus
 function ScannerNetworkStatus.new(fields) return end
 

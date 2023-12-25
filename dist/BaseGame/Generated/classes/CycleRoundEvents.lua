@@ -7,7 +7,7 @@
 ---@field public blockAimDuration Float
 CycleRoundEvents = {}
 
----@param fields? table
+---@param fields? CycleRoundEvents
 ---@return CycleRoundEvents
 function CycleRoundEvents.new(fields) return end
 

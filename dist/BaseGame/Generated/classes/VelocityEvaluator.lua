@@ -4,6 +4,6 @@
 ---@class VelocityEvaluator: PhysicsParticleInitializer
 VelocityEvaluator = {}
 
----@param fields? table
+---@param fields? VelocityEvaluator
 ---@return VelocityEvaluator
 function VelocityEvaluator.new(fields) return end

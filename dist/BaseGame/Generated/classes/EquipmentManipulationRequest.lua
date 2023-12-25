@@ -7,6 +7,6 @@
 ---@field public equipAnim gameEquipAnimationType
 EquipmentManipulationRequest = {}
 
----@param fields? table
+---@param fields? EquipmentManipulationRequest
 ---@return EquipmentManipulationRequest
 function EquipmentManipulationRequest.new(fields) return end

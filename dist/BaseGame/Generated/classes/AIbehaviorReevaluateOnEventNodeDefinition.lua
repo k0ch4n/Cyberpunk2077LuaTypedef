@@ -5,6 +5,6 @@
 ---@field public eventName CName
 AIbehaviorReevaluateOnEventNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorReevaluateOnEventNodeDefinition
 ---@return AIbehaviorReevaluateOnEventNodeDefinition
 function AIbehaviorReevaluateOnEventNodeDefinition.new(fields) return end

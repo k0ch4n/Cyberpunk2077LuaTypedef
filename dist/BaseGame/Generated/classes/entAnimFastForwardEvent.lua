@@ -4,6 +4,6 @@
 ---@class entAnimFastForwardEvent: redEvent
 entAnimFastForwardEvent = {}
 
----@param fields? table
+---@param fields? entAnimFastForwardEvent
 ---@return entAnimFastForwardEvent
 function entAnimFastForwardEvent.new(fields) return end

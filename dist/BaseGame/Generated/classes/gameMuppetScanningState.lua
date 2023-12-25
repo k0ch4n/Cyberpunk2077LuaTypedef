@@ -5,6 +5,6 @@
 ---@field public isScanning Bool
 gameMuppetScanningState = {}
 
----@param fields? table
+---@param fields? gameMuppetScanningState
 ---@return gameMuppetScanningState
 function gameMuppetScanningState.new(fields) return end

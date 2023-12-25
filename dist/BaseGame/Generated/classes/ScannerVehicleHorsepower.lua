@@ -5,7 +5,7 @@
 ---@field private horsepower Int32
 ScannerVehicleHorsepower = {}
 
----@param fields? table
+---@param fields? ScannerVehicleHorsepower
 ---@return ScannerVehicleHorsepower
 function ScannerVehicleHorsepower.new(fields) return end
 

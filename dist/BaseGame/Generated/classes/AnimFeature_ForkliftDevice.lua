@@ -7,6 +7,6 @@
 ---@field public distract Bool
 AnimFeature_ForkliftDevice = {}
 
----@param fields? table
+---@param fields? AnimFeature_ForkliftDevice
 ---@return AnimFeature_ForkliftDevice
 function AnimFeature_ForkliftDevice.new(fields) return end

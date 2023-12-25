@@ -6,6 +6,6 @@
 ---@field public transitionsCount Uint16
 AIFSMTransitionListDefinition = {}
 
----@param fields? table
+---@param fields? AIFSMTransitionListDefinition
 ---@return AIFSMTransitionListDefinition
 function AIFSMTransitionListDefinition.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public maxDistance Float
 animAnimNode_LocomotionAdjuster = {}
 
----@param fields? table
+---@param fields? animAnimNode_LocomotionAdjuster
 ---@return animAnimNode_LocomotionAdjuster
 function animAnimNode_LocomotionAdjuster.new(fields) return end

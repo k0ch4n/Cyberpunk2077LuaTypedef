@@ -5,6 +5,6 @@
 ---@field public value Uint64
 AIObjectId = {}
 
----@param fields? table
+---@param fields? AIObjectId
 ---@return AIObjectId
 function AIObjectId.new(fields) return end

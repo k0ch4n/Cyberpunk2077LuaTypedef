@@ -7,6 +7,6 @@
 ---@field public foliageShadowCascadeGradientDistanceRange Float
 FoliageShadowConfig = {}
 
----@param fields? table
+---@param fields? FoliageShadowConfig
 ---@return FoliageShadowConfig
 function FoliageShadowConfig.new(fields) return end

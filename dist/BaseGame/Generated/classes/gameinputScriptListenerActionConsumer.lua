@@ -4,7 +4,7 @@
 ---@class gameinputScriptListenerActionConsumer
 gameinputScriptListenerActionConsumer = {}
 
----@param fields? table
+---@param fields? gameinputScriptListenerActionConsumer
 ---@return gameinputScriptListenerActionConsumer
 function gameinputScriptListenerActionConsumer.new(fields) return end
 

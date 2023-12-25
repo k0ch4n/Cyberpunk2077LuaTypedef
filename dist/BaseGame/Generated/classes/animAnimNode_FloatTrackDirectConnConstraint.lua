@@ -11,6 +11,6 @@
 ---@field public mulFactorNode animFloatLink
 animAnimNode_FloatTrackDirectConnConstraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatTrackDirectConnConstraint
 ---@return animAnimNode_FloatTrackDirectConnConstraint
 function animAnimNode_FloatTrackDirectConnConstraint.new(fields) return end

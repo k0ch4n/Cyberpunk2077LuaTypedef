@@ -7,6 +7,6 @@
 ---@field public definition CName
 gameuiCustomizationAppearance = {}
 
----@param fields? table
+---@param fields? gameuiCustomizationAppearance
 ---@return gameuiCustomizationAppearance
 function gameuiCustomizationAppearance.new(fields) return end

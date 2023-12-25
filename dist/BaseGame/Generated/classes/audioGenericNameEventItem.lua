@@ -6,6 +6,6 @@
 ---@field public value CName
 audioGenericNameEventItem = {}
 
----@param fields? table
+---@param fields? audioGenericNameEventItem
 ---@return audioGenericNameEventItem
 function audioGenericNameEventItem.new(fields) return end

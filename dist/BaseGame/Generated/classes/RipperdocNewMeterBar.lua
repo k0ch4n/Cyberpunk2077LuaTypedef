@@ -10,7 +10,7 @@
 ---@field private pulse PulseAnimation
 RipperdocNewMeterBar = {}
 
----@param fields? table
+---@param fields? RipperdocNewMeterBar
 ---@return RipperdocNewMeterBar
 function RipperdocNewMeterBar.new(fields) return end
 

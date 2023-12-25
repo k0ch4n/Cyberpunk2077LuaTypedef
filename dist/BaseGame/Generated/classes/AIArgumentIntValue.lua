@@ -6,6 +6,6 @@
 ---@field public defaultValue Int32
 AIArgumentIntValue = {}
 
----@param fields? table
+---@param fields? AIArgumentIntValue
 ---@return AIArgumentIntValue
 function AIArgumentIntValue.new(fields) return end

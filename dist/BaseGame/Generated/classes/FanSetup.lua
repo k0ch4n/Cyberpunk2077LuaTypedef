@@ -9,6 +9,6 @@
 ---@field public timeToMaxRotation Float
 FanSetup = {}
 
----@param fields? table
+---@param fields? FanSetup
 ---@return FanSetup
 function FanSetup.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public maxValue Float
 gameRange = {}
 
----@param fields? table
+---@param fields? gameRange
 ---@return gameRange
 function gameRange.new(fields) return end

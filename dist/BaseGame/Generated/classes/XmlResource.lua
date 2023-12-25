@@ -5,6 +5,6 @@
 ---@field public data String
 XmlResource = {}
 
----@param fields? table
+---@param fields? XmlResource
 ---@return XmlResource
 function XmlResource.new(fields) return end

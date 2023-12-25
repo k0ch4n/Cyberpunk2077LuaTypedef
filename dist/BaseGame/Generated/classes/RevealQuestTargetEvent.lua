@@ -8,7 +8,7 @@
 ---@field public timeout Float
 RevealQuestTargetEvent = {}
 
----@param fields? table
+---@param fields? RevealQuestTargetEvent
 ---@return RevealQuestTargetEvent
 function RevealQuestTargetEvent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public effectName CName
 entReleasePreloadedEffectEvent = {}
 
----@param fields? table
+---@param fields? entReleasePreloadedEffectEvent
 ---@return entReleasePreloadedEffectEvent
 function entReleasePreloadedEffectEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private isStarted Bool
 InputDeviceController = {}
 
----@param fields? table
+---@param fields? InputDeviceController
 ---@return InputDeviceController
 function InputDeviceController.new(fields) return end
 

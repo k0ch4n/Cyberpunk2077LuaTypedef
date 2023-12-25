@@ -7,6 +7,6 @@
 ---@field public message String
 scndevEvent = {}
 
----@param fields? table
+---@param fields? scndevEvent
 ---@return scndevEvent
 function scndevEvent.new(fields) return end

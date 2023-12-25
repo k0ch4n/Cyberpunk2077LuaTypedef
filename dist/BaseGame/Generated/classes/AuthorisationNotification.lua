@@ -4,7 +4,7 @@
 ---@class AuthorisationNotification: GenericNotificationController
 AuthorisationNotification = {}
 
----@param fields? table
+---@param fields? AuthorisationNotification
 ---@return AuthorisationNotification
 function AuthorisationNotification.new(fields) return end
 

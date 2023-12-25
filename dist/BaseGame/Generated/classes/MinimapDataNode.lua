@@ -8,6 +8,6 @@
 ---@field public allInteriorShapes Bool
 MinimapDataNode = {}
 
----@param fields? table
+---@param fields? MinimapDataNode
 ---@return MinimapDataNode
 function MinimapDataNode.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkVORequestEvt: redEvent
 inkVORequestEvt = {}
 
----@param fields? table
+---@param fields? inkVORequestEvt
 ---@return inkVORequestEvt
 function inkVORequestEvt.new(fields) return end

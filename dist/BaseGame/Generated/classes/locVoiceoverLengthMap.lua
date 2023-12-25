@@ -5,6 +5,6 @@
 ---@field public entries locVoLengthEntry[]
 locVoiceoverLengthMap = {}
 
----@param fields? table
+---@param fields? locVoiceoverLengthMap
 ---@return locVoiceoverLengthMap
 function locVoiceoverLengthMap.new(fields) return end

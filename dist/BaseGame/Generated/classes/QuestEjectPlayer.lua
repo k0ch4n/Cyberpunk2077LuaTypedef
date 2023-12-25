@@ -4,7 +4,7 @@
 ---@class QuestEjectPlayer: ActionBool
 QuestEjectPlayer = {}
 
----@param fields? table
+---@param fields? QuestEjectPlayer
 ---@return QuestEjectPlayer
 function QuestEjectPlayer.new(fields) return end
 

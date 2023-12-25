@@ -5,6 +5,6 @@
 ---@field public awarded Bool
 SetBountyAwardedEvent = {}
 
----@param fields? table
+---@param fields? SetBountyAwardedEvent
 ---@return SetBountyAwardedEvent
 function SetBountyAwardedEvent.new(fields) return end

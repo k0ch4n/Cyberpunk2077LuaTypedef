@@ -8,6 +8,6 @@
 ---@field public tags redTagList
 gameuiIndexedMorphName = {}
 
----@param fields? table
+---@param fields? gameuiIndexedMorphName
 ---@return gameuiIndexedMorphName
 function gameuiIndexedMorphName.new(fields) return end

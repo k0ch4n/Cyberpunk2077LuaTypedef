@@ -4,7 +4,7 @@
 ---@class IsDeviceFilter: gameEffectObjectSingleFilter_Scripted
 IsDeviceFilter = {}
 
----@param fields? table
+---@param fields? IsDeviceFilter
 ---@return IsDeviceFilter
 function IsDeviceFilter.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataThreatTrackingPresetBase_Record: gamedataTweakDBRecord
 gamedataThreatTrackingPresetBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataThreatTrackingPresetBase_Record
 ---@return gamedataThreatTrackingPresetBase_Record
 function gamedataThreatTrackingPresetBase_Record.new(fields) return end
 

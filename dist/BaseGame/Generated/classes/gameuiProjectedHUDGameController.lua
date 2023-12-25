@@ -4,7 +4,7 @@
 ---@class gameuiProjectedHUDGameController: gameuiHUDGameController
 gameuiProjectedHUDGameController = {}
 
----@param fields? table
+---@param fields? gameuiProjectedHUDGameController
 ---@return gameuiProjectedHUDGameController
 function gameuiProjectedHUDGameController.new(fields) return end
 

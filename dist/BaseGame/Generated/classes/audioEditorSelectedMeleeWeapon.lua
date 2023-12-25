@@ -5,6 +5,6 @@
 ---@field public selectedWeaponConfigurationName CName
 audioEditorSelectedMeleeWeapon = {}
 
----@param fields? table
+---@param fields? audioEditorSelectedMeleeWeapon
 ---@return audioEditorSelectedMeleeWeapon
 function audioEditorSelectedMeleeWeapon.new(fields) return end

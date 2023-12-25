@@ -4,7 +4,7 @@
 ---@class DispenseFreeItem: redEvent
 DispenseFreeItem = {}
 
----@param fields? table
+---@param fields? DispenseFreeItem
 ---@return DispenseFreeItem
 function DispenseFreeItem.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public itemID gameItemID
 DetonateC4 = {}
 
----@param fields? table
+---@param fields? DetonateC4
 ---@return DetonateC4
 function DetonateC4.new(fields) return end
 

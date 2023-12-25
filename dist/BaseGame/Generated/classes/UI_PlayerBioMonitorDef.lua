@@ -13,7 +13,7 @@
 ---@field public MemoryPercent gamebbScriptID_Float
 UI_PlayerBioMonitorDef = {}
 
----@param fields? table
+---@param fields? UI_PlayerBioMonitorDef
 ---@return UI_PlayerBioMonitorDef
 function UI_PlayerBioMonitorDef.new(fields) return end
 

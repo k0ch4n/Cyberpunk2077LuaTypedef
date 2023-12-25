@@ -5,6 +5,6 @@
 ---@field public executor gameObject
 SendSpiderbotToPerformActionEvent = {}
 
----@param fields? table
+---@param fields? SendSpiderbotToPerformActionEvent
 ---@return SendSpiderbotToPerformActionEvent
 function SendSpiderbotToPerformActionEvent.new(fields) return end

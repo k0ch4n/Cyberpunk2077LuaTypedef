@@ -20,7 +20,7 @@
 ---@field private playReversed Bool
 sampleUIAnimationController = {}
 
----@param fields? table
+---@param fields? sampleUIAnimationController
 ---@return sampleUIAnimationController
 function sampleUIAnimationController.new(fields) return end
 

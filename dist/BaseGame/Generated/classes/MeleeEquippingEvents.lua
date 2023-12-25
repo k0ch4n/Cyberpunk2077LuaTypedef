@@ -4,7 +4,7 @@
 ---@class MeleeEquippingEvents: MeleeRumblingEvents
 MeleeEquippingEvents = {}
 
----@param fields? table
+---@param fields? MeleeEquippingEvents
 ---@return MeleeEquippingEvents
 function MeleeEquippingEvents.new(fields) return end
 

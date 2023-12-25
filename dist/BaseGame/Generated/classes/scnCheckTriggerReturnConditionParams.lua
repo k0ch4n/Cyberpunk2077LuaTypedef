@@ -6,6 +6,6 @@
 ---@field public triggerArea NodeRef
 scnCheckTriggerReturnConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckTriggerReturnConditionParams
 ---@return scnCheckTriggerReturnConditionParams
 function scnCheckTriggerReturnConditionParams.new(fields) return end

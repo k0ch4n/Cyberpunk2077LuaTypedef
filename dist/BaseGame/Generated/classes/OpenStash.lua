@@ -4,7 +4,7 @@
 ---@class OpenStash: ActionBool
 OpenStash = {}
 
----@param fields? table
+---@param fields? OpenStash
 ---@return OpenStash
 function OpenStash.new(fields) return end
 

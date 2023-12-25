@@ -5,6 +5,6 @@
 ---@field public metadataName CName
 worldAudioAttractAreaNodeSettings = {}
 
----@param fields? table
+---@param fields? worldAudioAttractAreaNodeSettings
 ---@return worldAudioAttractAreaNodeSettings
 function worldAudioAttractAreaNodeSettings.new(fields) return end

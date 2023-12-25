@@ -4,7 +4,7 @@
 ---@class WindowController: DoorController
 WindowController = {}
 
----@param fields? table
+---@param fields? WindowController
 ---@return WindowController
 function WindowController.new(fields) return end
 

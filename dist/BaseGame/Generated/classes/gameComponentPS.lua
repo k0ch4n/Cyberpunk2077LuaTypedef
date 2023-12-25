@@ -4,6 +4,6 @@
 ---@class gameComponentPS: gamePersistentState
 gameComponentPS = {}
 
----@param fields? table
+---@param fields? gameComponentPS
 ---@return gameComponentPS
 function gameComponentPS.new(fields) return end

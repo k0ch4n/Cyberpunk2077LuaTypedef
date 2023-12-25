@@ -15,6 +15,6 @@
 ---@field public isOom Bool
 gameTelemetryPostMortem = {}
 
----@param fields? table
+---@param fields? gameTelemetryPostMortem
 ---@return gameTelemetryPostMortem
 function gameTelemetryPostMortem.new(fields) return end

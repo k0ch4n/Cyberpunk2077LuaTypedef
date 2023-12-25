@@ -13,7 +13,7 @@
 ---@field private perkDot inkImageWidgetReference
 ItemTooltipRequirementsModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipRequirementsModule
 ---@return ItemTooltipRequirementsModule
 function ItemTooltipRequirementsModule.new(fields) return end
 

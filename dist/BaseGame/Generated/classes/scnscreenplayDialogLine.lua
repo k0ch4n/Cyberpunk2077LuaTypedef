@@ -11,6 +11,6 @@
 ---@field public femaleLipsyncAnimationName CName
 scnscreenplayDialogLine = {}
 
----@param fields? table
+---@param fields? scnscreenplayDialogLine
 ---@return scnscreenplayDialogLine
 function scnscreenplayDialogLine.new(fields) return end

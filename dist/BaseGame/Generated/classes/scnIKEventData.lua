@@ -8,6 +8,6 @@
 ---@field public request animIKTargetRequest
 scnIKEventData = {}
 
----@param fields? table
+---@param fields? scnIKEventData
 ---@return scnIKEventData
 function scnIKEventData.new(fields) return end

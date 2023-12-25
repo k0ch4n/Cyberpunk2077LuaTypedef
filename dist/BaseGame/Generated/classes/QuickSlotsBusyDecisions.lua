@@ -4,7 +4,7 @@
 ---@class QuickSlotsBusyDecisions: QuickSlotsDecisions
 QuickSlotsBusyDecisions = {}
 
----@param fields? table
+---@param fields? QuickSlotsBusyDecisions
 ---@return QuickSlotsBusyDecisions
 function QuickSlotsBusyDecisions.new(fields) return end
 

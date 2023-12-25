@@ -11,7 +11,7 @@
 ---@field private AnimOptions inkanimPlaybackOptions
 DisassemblePopupLogicController = {}
 
----@param fields? table
+---@param fields? DisassemblePopupLogicController
 ---@return DisassemblePopupLogicController
 function DisassemblePopupLogicController.new(fields) return end
 

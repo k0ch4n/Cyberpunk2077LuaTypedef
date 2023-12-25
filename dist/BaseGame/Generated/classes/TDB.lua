@@ -4,7 +4,7 @@
 ---@class TDB: gamedataTweakDBInterface
 TDB = {}
 
----@param fields? table
+---@param fields? TDB
 ---@return TDB
 function TDB.new(fields) return end
 

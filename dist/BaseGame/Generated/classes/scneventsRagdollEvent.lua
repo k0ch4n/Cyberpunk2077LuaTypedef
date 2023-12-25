@@ -6,6 +6,6 @@
 ---@field public enableRagdoll Bool
 scneventsRagdollEvent = {}
 
----@param fields? table
+---@param fields? scneventsRagdollEvent
 ---@return scneventsRagdollEvent
 function scneventsRagdollEvent.new(fields) return end

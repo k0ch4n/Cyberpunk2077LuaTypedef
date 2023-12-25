@@ -9,6 +9,6 @@
 ---@field public params gameprojectileWeaponParams
 gameprojectileShootEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileShootEvent
 ---@return gameprojectileShootEvent
 function gameprojectileShootEvent.new(fields) return end

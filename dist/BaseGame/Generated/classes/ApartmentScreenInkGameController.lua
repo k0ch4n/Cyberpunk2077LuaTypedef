@@ -5,7 +5,7 @@
 ---@field protected backgroundFrameWidget inkImageWidget
 ApartmentScreenInkGameController = {}
 
----@param fields? table
+---@param fields? ApartmentScreenInkGameController
 ---@return ApartmentScreenInkGameController
 function ApartmentScreenInkGameController.new(fields) return end
 

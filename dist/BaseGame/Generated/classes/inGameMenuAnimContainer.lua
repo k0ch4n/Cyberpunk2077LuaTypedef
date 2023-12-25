@@ -5,6 +5,6 @@
 ---@field public animProxy inkanimProxy
 inGameMenuAnimContainer = {}
 
----@param fields? table
+---@param fields? inGameMenuAnimContainer
 ---@return inGameMenuAnimContainer
 function inGameMenuAnimContainer.new(fields) return end

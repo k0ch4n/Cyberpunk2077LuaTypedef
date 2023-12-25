@@ -5,6 +5,6 @@
 ---@field public state PlayerCombatState
 PlayerCombatControllerInvalidateEvent = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerInvalidateEvent
 ---@return PlayerCombatControllerInvalidateEvent
 function PlayerCombatControllerInvalidateEvent.new(fields) return end

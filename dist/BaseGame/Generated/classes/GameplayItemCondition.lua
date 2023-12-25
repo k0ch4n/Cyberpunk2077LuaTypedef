@@ -5,7 +5,7 @@
 ---@field public itemToCheck TweakDBID
 GameplayItemCondition = {}
 
----@param fields? table
+---@param fields? GameplayItemCondition
 ---@return GameplayItemCondition
 function GameplayItemCondition.new(fields) return end
 

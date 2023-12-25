@@ -5,7 +5,7 @@
 ---@field private associatedBuild gamedataBuildType
 BuildButtonItemController = {}
 
----@param fields? table
+---@param fields? BuildButtonItemController
 ---@return BuildButtonItemController
 function BuildButtonItemController.new(fields) return end
 

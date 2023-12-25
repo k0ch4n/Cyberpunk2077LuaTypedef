@@ -5,6 +5,6 @@
 ---@field public lightColor worldTrafficLightColor
 worldTrafficLightChangeEvent = {}
 
----@param fields? table
+---@param fields? worldTrafficLightChangeEvent
 ---@return worldTrafficLightChangeEvent
 function worldTrafficLightChangeEvent.new(fields) return end

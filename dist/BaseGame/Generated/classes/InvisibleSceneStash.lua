@@ -4,7 +4,7 @@
 ---@class InvisibleSceneStash: Device
 InvisibleSceneStash = {}
 
----@param fields? table
+---@param fields? InvisibleSceneStash
 ---@return InvisibleSceneStash
 function InvisibleSceneStash.new(fields) return end
 

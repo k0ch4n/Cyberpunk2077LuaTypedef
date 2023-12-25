@@ -9,6 +9,6 @@
 ---@field public empty Bool
 scannerDataStructure = {}
 
----@param fields? table
+---@param fields? scannerDataStructure
 ---@return scannerDataStructure
 function scannerDataStructure.new(fields) return end

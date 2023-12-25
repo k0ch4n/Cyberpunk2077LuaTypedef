@@ -6,6 +6,6 @@
 ---@field public weaponSpread Float
 AnimFeature_WeaponHandlingStats = {}
 
----@param fields? table
+---@param fields? AnimFeature_WeaponHandlingStats
 ---@return AnimFeature_WeaponHandlingStats
 function AnimFeature_WeaponHandlingStats.new(fields) return end

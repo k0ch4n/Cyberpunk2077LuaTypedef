@@ -4,6 +4,6 @@
 ---@class vehicleToggleQuestCustomFPPLockOffEvent: redEvent
 vehicleToggleQuestCustomFPPLockOffEvent = {}
 
----@param fields? table
+---@param fields? vehicleToggleQuestCustomFPPLockOffEvent
 ---@return vehicleToggleQuestCustomFPPLockOffEvent
 function vehicleToggleQuestCustomFPPLockOffEvent.new(fields) return end

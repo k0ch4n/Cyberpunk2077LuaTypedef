@@ -11,6 +11,6 @@
 ---@field public acceptDismemberment Bool
 appearancePartComponentOverrides = {}
 
----@param fields? table
+---@param fields? appearancePartComponentOverrides
 ---@return appearancePartComponentOverrides
 function appearancePartComponentOverrides.new(fields) return end

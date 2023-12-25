@@ -4,6 +4,6 @@
 ---@class audioIndexedSinglePositionStrategy: audioApplySoundPositionStrategy
 audioIndexedSinglePositionStrategy = {}
 
----@param fields? table
+---@param fields? audioIndexedSinglePositionStrategy
 ---@return audioIndexedSinglePositionStrategy
 function audioIndexedSinglePositionStrategy.new(fields) return end

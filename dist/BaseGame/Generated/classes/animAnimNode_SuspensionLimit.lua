@@ -8,6 +8,6 @@
 ---@field public axis animAxis
 animAnimNode_SuspensionLimit = {}
 
----@param fields? table
+---@param fields? animAnimNode_SuspensionLimit
 ---@return animAnimNode_SuspensionLimit
 function animAnimNode_SuspensionLimit.new(fields) return end

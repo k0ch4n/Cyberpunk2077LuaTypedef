@@ -7,6 +7,6 @@
 ---@field public isActive Bool
 gameuiGridCell = {}
 
----@param fields? table
+---@param fields? gameuiGridCell
 ---@return gameuiGridCell
 function gameuiGridCell.new(fields) return end

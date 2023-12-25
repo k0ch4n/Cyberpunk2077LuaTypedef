@@ -8,7 +8,7 @@
 ---@field public displayData AttributeDisplayData
 AttributeTooltipData = {}
 
----@param fields? table
+---@param fields? AttributeTooltipData
 ---@return AttributeTooltipData
 function AttributeTooltipData.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private InputAnimation inkanimProxy
 PlayLibraryAnimationButtonView = {}
 
----@param fields? table
+---@param fields? PlayLibraryAnimationButtonView
 ---@return PlayLibraryAnimationButtonView
 function PlayLibraryAnimationButtonView.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameAreaProvider
 gameAreaProvider = {}
 
----@param fields? table
+---@param fields? gameAreaProvider
 ---@return gameAreaProvider
 function gameAreaProvider.new(fields) return end

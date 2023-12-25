@@ -14,7 +14,7 @@
 ---@field private onSoldOutListener redCallbackObject
 VendingMachineInkGameController = {}
 
----@param fields? table
+---@param fields? VendingMachineInkGameController
 ---@return VendingMachineInkGameController
 function VendingMachineInkGameController.new(fields) return end
 

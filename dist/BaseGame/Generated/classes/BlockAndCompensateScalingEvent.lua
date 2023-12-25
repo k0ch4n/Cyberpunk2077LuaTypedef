@@ -4,6 +4,6 @@
 ---@class BlockAndCompensateScalingEvent: redEvent
 BlockAndCompensateScalingEvent = {}
 
----@param fields? table
+---@param fields? BlockAndCompensateScalingEvent
 ---@return BlockAndCompensateScalingEvent
 function BlockAndCompensateScalingEvent.new(fields) return end

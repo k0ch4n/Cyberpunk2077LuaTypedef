@@ -6,7 +6,7 @@
 ---@field protected currentCommand AIAimAtTargetCommand
 AimAtTargetCommandHandler = {}
 
----@param fields? table
+---@param fields? AimAtTargetCommandHandler
 ---@return AimAtTargetCommandHandler
 function AimAtTargetCommandHandler.new(fields) return end
 

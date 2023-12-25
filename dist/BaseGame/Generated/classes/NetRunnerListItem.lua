@@ -5,7 +5,7 @@
 ---@field public highlight inkWidgetReference
 NetRunnerListItem = {}
 
----@param fields? table
+---@param fields? NetRunnerListItem
 ---@return NetRunnerListItem
 function NetRunnerListItem.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public effector ScaleOvershieldDecayOverTimeEffector
 OvershieldMinValueListener = {}
 
----@param fields? table
+---@param fields? OvershieldMinValueListener
 ---@return OvershieldMinValueListener
 function OvershieldMinValueListener.new(fields) return end
 

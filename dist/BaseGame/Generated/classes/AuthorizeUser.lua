@@ -8,7 +8,7 @@
 ---@field private isforced Bool
 AuthorizeUser = {}
 
----@param fields? table
+---@param fields? AuthorizeUser
 ---@return AuthorizeUser
 function AuthorizeUser.new(fields) return end
 

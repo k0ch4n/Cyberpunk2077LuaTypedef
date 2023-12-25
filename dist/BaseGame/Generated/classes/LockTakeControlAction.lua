@@ -5,7 +5,7 @@
 ---@field public isLocked Bool
 LockTakeControlAction = {}
 
----@param fields? table
+---@param fields? LockTakeControlAction
 ---@return LockTakeControlAction
 function LockTakeControlAction.new(fields) return end
 

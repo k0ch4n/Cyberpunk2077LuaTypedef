@@ -4,6 +4,6 @@
 ---@class worldPreventionFreeAreaNodeInstance: worldAreaShapeNodeInstance
 worldPreventionFreeAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldPreventionFreeAreaNodeInstance
 ---@return worldPreventionFreeAreaNodeInstance
 function worldPreventionFreeAreaNodeInstance.new(fields) return end

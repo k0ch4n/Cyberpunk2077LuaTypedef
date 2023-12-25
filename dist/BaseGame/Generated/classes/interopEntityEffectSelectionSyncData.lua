@@ -6,6 +6,6 @@
 ---@field public effectIDPath toolsEditorObjectIDPath
 interopEntityEffectSelectionSyncData = {}
 
----@param fields? table
+---@param fields? interopEntityEffectSelectionSyncData
 ---@return interopEntityEffectSelectionSyncData
 function interopEntityEffectSelectionSyncData.new(fields) return end

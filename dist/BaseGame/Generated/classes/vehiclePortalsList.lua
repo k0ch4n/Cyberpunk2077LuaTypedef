@@ -5,6 +5,6 @@
 ---@field public listPoints NodeRef[]
 vehiclePortalsList = {}
 
----@param fields? table
+---@param fields? vehiclePortalsList
 ---@return vehiclePortalsList
 function vehiclePortalsList.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value redEvent
 gameReplicatedEntityEvent = {}
 
----@param fields? table
+---@param fields? gameReplicatedEntityEvent
 ---@return gameReplicatedEntityEvent
 function gameReplicatedEntityEvent.new(fields) return end

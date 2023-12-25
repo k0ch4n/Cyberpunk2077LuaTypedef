@@ -10,6 +10,6 @@
 ---@field public specularTint curveData
 worldWorldGlobalLightParameters = {}
 
----@param fields? table
+---@param fields? worldWorldGlobalLightParameters
 ---@return worldWorldGlobalLightParameters
 function worldWorldGlobalLightParameters.new(fields) return end

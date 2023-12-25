@@ -29,7 +29,7 @@
 ---@field private currentOptions gameinteractionsvisInteractionChoiceData[]
 interactionWidgetGameController = {}
 
----@param fields? table
+---@param fields? interactionWidgetGameController
 ---@return interactionWidgetGameController
 function interactionWidgetGameController.new(fields) return end
 

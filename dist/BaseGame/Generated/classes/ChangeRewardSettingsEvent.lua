@@ -6,6 +6,6 @@
 ---@field public disableKillReward Bool
 ChangeRewardSettingsEvent = {}
 
----@param fields? table
+---@param fields? ChangeRewardSettingsEvent
 ---@return ChangeRewardSettingsEvent
 function ChangeRewardSettingsEvent.new(fields) return end

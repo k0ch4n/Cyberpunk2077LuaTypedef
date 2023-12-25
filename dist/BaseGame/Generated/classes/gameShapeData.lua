@@ -8,6 +8,6 @@
 ---@field public hitShapeName CName
 gameShapeData = {}
 
----@param fields? table
+---@param fields? gameShapeData
 ---@return gameShapeData
 function gameShapeData.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public dependencies CResource[]
 worldCookedPrefabData = {}
 
----@param fields? table
+---@param fields? worldCookedPrefabData
 ---@return worldCookedPrefabData
 function worldCookedPrefabData.new(fields) return end

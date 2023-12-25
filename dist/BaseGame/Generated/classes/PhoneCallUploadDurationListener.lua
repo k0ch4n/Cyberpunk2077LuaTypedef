@@ -9,7 +9,7 @@
 ---@field public statPoolType gamedataStatPoolType
 PhoneCallUploadDurationListener = {}
 
----@param fields? table
+---@param fields? PhoneCallUploadDurationListener
 ---@return PhoneCallUploadDurationListener
 function PhoneCallUploadDurationListener.new(fields) return end
 

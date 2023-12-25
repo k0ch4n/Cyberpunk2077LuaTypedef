@@ -4,6 +4,6 @@
 ---@class VehicleLightSetupEvent: redEvent
 VehicleLightSetupEvent = {}
 
----@param fields? table
+---@param fields? VehicleLightSetupEvent
 ---@return VehicleLightSetupEvent
 function VehicleLightSetupEvent.new(fields) return end

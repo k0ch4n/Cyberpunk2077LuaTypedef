@@ -5,7 +5,7 @@
 ---@field public sceneListener gameScriptedPrereqSceneInspectionListenerWrapper
 NPCInScenePrereqState = {}
 
----@param fields? table
+---@param fields? NPCInScenePrereqState
 ---@return NPCInScenePrereqState
 function NPCInScenePrereqState.new(fields) return end
 

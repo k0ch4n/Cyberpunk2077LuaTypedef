@@ -6,7 +6,7 @@
 ---@field private vehicle vehicleBaseObject
 GetFollowTarget = {}
 
----@param fields? table
+---@param fields? GetFollowTarget
 ---@return GetFollowTarget
 function GetFollowTarget.new(fields) return end
 

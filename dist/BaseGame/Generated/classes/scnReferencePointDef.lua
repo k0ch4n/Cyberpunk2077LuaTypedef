@@ -7,6 +7,6 @@
 ---@field public originMarker scnMarker
 scnReferencePointDef = {}
 
----@param fields? table
+---@param fields? scnReferencePointDef
 ---@return scnReferencePointDef
 function scnReferencePointDef.new(fields) return end

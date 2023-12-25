@@ -8,6 +8,6 @@
 ---@field public useEntitySetup Bool
 questTransformAnimatorNode_Action_Play = {}
 
----@param fields? table
+---@param fields? questTransformAnimatorNode_Action_Play
 ---@return questTransformAnimatorNode_Action_Play
 function questTransformAnimatorNode_Action_Play.new(fields) return end

@@ -12,7 +12,7 @@
 ---@field private stateDisabled CName
 MessangerReplyItemRenderer = {}
 
----@param fields? table
+---@param fields? MessangerReplyItemRenderer
 ---@return MessangerReplyItemRenderer
 function MessangerReplyItemRenderer.new(fields) return end
 

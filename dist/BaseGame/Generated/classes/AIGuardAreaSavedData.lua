@@ -6,6 +6,6 @@
 ---@field public nodeRef NodeRef
 AIGuardAreaSavedData = {}
 
----@param fields? table
+---@param fields? AIGuardAreaSavedData
 ---@return AIGuardAreaSavedData
 function AIGuardAreaSavedData.new(fields) return end

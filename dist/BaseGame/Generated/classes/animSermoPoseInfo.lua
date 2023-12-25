@@ -7,6 +7,6 @@
 ---@field public trackIndex Uint16
 animSermoPoseInfo = {}
 
----@param fields? table
+---@param fields? animSermoPoseInfo
 ---@return animSermoPoseInfo
 function animSermoPoseInfo.new(fields) return end

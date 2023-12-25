@@ -13,7 +13,7 @@
 ---@field private c_grenadeFlashSalePerkType gamedataNewPerkType
 ChargedHotkeyItemGadgetController = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemGadgetController
 ---@return ChargedHotkeyItemGadgetController
 function ChargedHotkeyItemGadgetController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public weaponLoweringSpeedOverride Float
 SceneForceWeaponSafe = {}
 
----@param fields? table
+---@param fields? SceneForceWeaponSafe
 ---@return SceneForceWeaponSafe
 function SceneForceWeaponSafe.new(fields) return end
 

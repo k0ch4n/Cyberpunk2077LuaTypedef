@@ -4,7 +4,7 @@
 ---@class EquipAction: BaseItemAction
 EquipAction = {}
 
----@param fields? table
+---@param fields? EquipAction
 ---@return EquipAction
 function EquipAction.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class HasDeescalatedFromCombatWithPlayer: PreventionConditionAbstract
 HasDeescalatedFromCombatWithPlayer = {}
 
----@param fields? table
+---@param fields? HasDeescalatedFromCombatWithPlayer
 ---@return HasDeescalatedFromCombatWithPlayer
 function HasDeescalatedFromCombatWithPlayer.new(fields) return end
 

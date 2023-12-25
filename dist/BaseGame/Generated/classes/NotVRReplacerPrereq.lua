@@ -4,7 +4,7 @@
 ---@class NotVRReplacerPrereq: gameIScriptablePrereq
 NotVRReplacerPrereq = {}
 
----@param fields? table
+---@param fields? NotVRReplacerPrereq
 ---@return NotVRReplacerPrereq
 function NotVRReplacerPrereq.new(fields) return end
 

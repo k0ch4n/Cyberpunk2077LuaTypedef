@@ -4,6 +4,6 @@
 ---@class entSceneAnimSetEvent: redEvent
 entSceneAnimSetEvent = {}
 
----@param fields? table
+---@param fields? entSceneAnimSetEvent
 ---@return entSceneAnimSetEvent
 function entSceneAnimSetEvent.new(fields) return end

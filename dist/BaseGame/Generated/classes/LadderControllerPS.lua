@@ -4,7 +4,7 @@
 ---@class LadderControllerPS: ScriptableDeviceComponentPS
 LadderControllerPS = {}
 
----@param fields? table
+---@param fields? LadderControllerPS
 ---@return LadderControllerPS
 function LadderControllerPS.new(fields) return end
 

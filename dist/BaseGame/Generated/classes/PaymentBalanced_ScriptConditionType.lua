@@ -6,7 +6,7 @@
 ---@field public difficulty EGameplayChallengeLevel
 PaymentBalanced_ScriptConditionType = {}
 
----@param fields? table
+---@param fields? PaymentBalanced_ScriptConditionType
 ---@return PaymentBalanced_ScriptConditionType
 function PaymentBalanced_ScriptConditionType.new(fields) return end
 

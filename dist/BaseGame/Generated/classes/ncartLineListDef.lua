@@ -9,6 +9,6 @@
 ---@field public lineIsLooped Bool
 ncartLineListDef = {}
 
----@param fields? table
+---@param fields? ncartLineListDef
 ---@return ncartLineListDef
 function ncartLineListDef.new(fields) return end

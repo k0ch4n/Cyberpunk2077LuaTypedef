@@ -7,6 +7,6 @@
 ---@field public target AIArgumentMapping
 AIbehaviorLineOfSightClearConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorLineOfSightClearConditionDefinition
 ---@return AIbehaviorLineOfSightClearConditionDefinition
 function AIbehaviorLineOfSightClearConditionDefinition.new(fields) return end

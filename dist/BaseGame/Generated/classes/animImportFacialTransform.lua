@@ -7,6 +7,6 @@
 ---@field public scale Vector3
 animImportFacialTransform = {}
 
----@param fields? table
+---@param fields? animImportFacialTransform
 ---@return animImportFacialTransform
 function animImportFacialTransform.new(fields) return end

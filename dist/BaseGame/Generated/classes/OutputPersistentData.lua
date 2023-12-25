@@ -14,7 +14,7 @@
 ---@field public id Int32
 OutputPersistentData = {}
 
----@param fields? table
+---@param fields? OutputPersistentData
 ---@return OutputPersistentData
 function OutputPersistentData.new(fields) return end
 

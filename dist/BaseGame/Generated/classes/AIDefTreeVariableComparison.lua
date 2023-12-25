@@ -11,6 +11,6 @@
 ---@field public referenceValue Variant
 AIDefTreeVariableComparison = {}
 
----@param fields? table
+---@param fields? AIDefTreeVariableComparison
 ---@return AIDefTreeVariableComparison
 function AIDefTreeVariableComparison.new(fields) return end

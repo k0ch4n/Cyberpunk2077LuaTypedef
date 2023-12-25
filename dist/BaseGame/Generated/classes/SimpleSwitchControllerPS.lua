@@ -7,7 +7,7 @@
 ---@field protected nameForOFF TweakDBID
 SimpleSwitchControllerPS = {}
 
----@param fields? table
+---@param fields? SimpleSwitchControllerPS
 ---@return SimpleSwitchControllerPS
 function SimpleSwitchControllerPS.new(fields) return end
 

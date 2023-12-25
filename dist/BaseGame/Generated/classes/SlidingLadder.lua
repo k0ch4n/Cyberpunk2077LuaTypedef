@@ -8,7 +8,7 @@
 ---@field private wasShot Bool
 SlidingLadder = {}
 
----@param fields? table
+---@param fields? SlidingLadder
 ---@return SlidingLadder
 function SlidingLadder.new(fields) return end
 

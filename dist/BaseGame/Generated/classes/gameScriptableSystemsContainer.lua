@@ -4,7 +4,7 @@
 ---@class gameScriptableSystemsContainer: gameIScriptableSystemsContainer
 gameScriptableSystemsContainer = {}
 
----@param fields? table
+---@param fields? gameScriptableSystemsContainer
 ---@return gameScriptableSystemsContainer
 function gameScriptableSystemsContainer.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public effect gameStatusEffectTDBPicker
 SStatusEffectOperationData = {}
 
----@param fields? table
+---@param fields? SStatusEffectOperationData
 ---@return SStatusEffectOperationData
 function SStatusEffectOperationData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public invert Bool
 ConnectedToBackdoorPrereq = {}
 
----@param fields? table
+---@param fields? ConnectedToBackdoorPrereq
 ---@return ConnectedToBackdoorPrereq
 function ConnectedToBackdoorPrereq.new(fields) return end
 

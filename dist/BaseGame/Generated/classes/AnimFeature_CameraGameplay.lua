@@ -10,6 +10,6 @@
 ---@field public is_yaw_off Float
 AnimFeature_CameraGameplay = {}
 
----@param fields? table
+---@param fields? AnimFeature_CameraGameplay
 ---@return AnimFeature_CameraGameplay
 function AnimFeature_CameraGameplay.new(fields) return end

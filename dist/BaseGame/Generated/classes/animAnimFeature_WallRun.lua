@@ -7,7 +7,7 @@
 ---@field public wallNormal Vector4
 animAnimFeature_WallRun = {}
 
----@param fields? table
+---@param fields? animAnimFeature_WallRun
 ---@return animAnimFeature_WallRun
 function animAnimFeature_WallRun.new(fields) return end
 

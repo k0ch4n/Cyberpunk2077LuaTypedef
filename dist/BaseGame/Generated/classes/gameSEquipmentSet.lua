@@ -7,6 +7,6 @@
 ---@field public setType gameEquipmentSetType
 gameSEquipmentSet = {}
 
----@param fields? table
+---@param fields? gameSEquipmentSet
 ---@return gameSEquipmentSet
 function gameSEquipmentSet.new(fields) return end

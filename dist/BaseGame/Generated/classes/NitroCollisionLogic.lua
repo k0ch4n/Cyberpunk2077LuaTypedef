@@ -4,7 +4,7 @@
 ---@class NitroCollisionLogic: QuadRacerBonusCollisionLogic
 NitroCollisionLogic = {}
 
----@param fields? table
+---@param fields? NitroCollisionLogic
 ---@return NitroCollisionLogic
 function NitroCollisionLogic.new(fields) return end
 

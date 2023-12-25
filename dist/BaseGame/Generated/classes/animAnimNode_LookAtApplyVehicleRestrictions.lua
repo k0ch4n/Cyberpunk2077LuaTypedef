@@ -7,6 +7,6 @@
 ---@field public referenceBone animTransformIndex
 animAnimNode_LookAtApplyVehicleRestrictions = {}
 
----@param fields? table
+---@param fields? animAnimNode_LookAtApplyVehicleRestrictions
 ---@return animAnimNode_LookAtApplyVehicleRestrictions
 function animAnimNode_LookAtApplyVehicleRestrictions.new(fields) return end

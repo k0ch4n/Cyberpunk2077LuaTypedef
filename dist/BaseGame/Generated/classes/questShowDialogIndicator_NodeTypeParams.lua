@@ -6,6 +6,6 @@
 ---@field public show Bool
 questShowDialogIndicator_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questShowDialogIndicator_NodeTypeParams
 ---@return questShowDialogIndicator_NodeTypeParams
 function questShowDialogIndicator_NodeTypeParams.new(fields) return end

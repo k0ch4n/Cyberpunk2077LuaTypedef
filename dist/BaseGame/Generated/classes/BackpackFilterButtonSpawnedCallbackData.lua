@@ -6,6 +6,6 @@
 ---@field public savedFilter Int32
 BackpackFilterButtonSpawnedCallbackData = {}
 
----@param fields? table
+---@param fields? BackpackFilterButtonSpawnedCallbackData
 ---@return BackpackFilterButtonSpawnedCallbackData
 function BackpackFilterButtonSpawnedCallbackData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SetBackOffAnimFeature: AIbehaviortaskScript
 SetBackOffAnimFeature = {}
 
----@param fields? table
+---@param fields? SetBackOffAnimFeature
 ---@return SetBackOffAnimFeature
 function SetBackOffAnimFeature.new(fields) return end
 

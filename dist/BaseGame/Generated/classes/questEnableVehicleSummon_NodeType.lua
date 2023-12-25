@@ -5,6 +5,6 @@
 ---@field public enable Bool
 questEnableVehicleSummon_NodeType = {}
 
----@param fields? table
+---@param fields? questEnableVehicleSummon_NodeType
 ---@return questEnableVehicleSummon_NodeType
 function questEnableVehicleSummon_NodeType.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public additionalCyberArmAppearances appearanceAppearanceResource[]
 gameuiCharacterCustomizationArmCyberwareController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationArmCyberwareController
 ---@return gameuiCharacterCustomizationArmCyberwareController
 function gameuiCharacterCustomizationArmCyberwareController.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public forcedApplySource CName
 questSetPhoneRestriction_NodeType = {}
 
----@param fields? table
+---@param fields? questSetPhoneRestriction_NodeType
 ---@return questSetPhoneRestriction_NodeType
 function questSetPhoneRestriction_NodeType.new(fields) return end

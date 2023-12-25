@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 DelayHackedEvent = {}
 
----@param fields? table
+---@param fields? DelayHackedEvent
 ---@return DelayHackedEvent
 function DelayHackedEvent.new(fields) return end

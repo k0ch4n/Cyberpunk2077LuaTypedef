@@ -7,6 +7,6 @@
 ---@field public scale Vector4
 animAnimNode_TransformConstant = {}
 
----@param fields? table
+---@param fields? animAnimNode_TransformConstant
 ---@return animAnimNode_TransformConstant
 function animAnimNode_TransformConstant.new(fields) return end

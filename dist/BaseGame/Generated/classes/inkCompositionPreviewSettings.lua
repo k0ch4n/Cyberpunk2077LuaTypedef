@@ -10,6 +10,6 @@
 ---@field public texturePart CName
 inkCompositionPreviewSettings = {}
 
----@param fields? table
+---@param fields? inkCompositionPreviewSettings
 ---@return inkCompositionPreviewSettings
 function inkCompositionPreviewSettings.new(fields) return end

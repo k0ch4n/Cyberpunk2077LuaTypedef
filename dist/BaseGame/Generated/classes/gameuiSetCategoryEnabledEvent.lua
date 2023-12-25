@@ -4,6 +4,6 @@
 ---@class gameuiSetCategoryEnabledEvent: redEvent
 gameuiSetCategoryEnabledEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetCategoryEnabledEvent
 ---@return gameuiSetCategoryEnabledEvent
 function gameuiSetCategoryEnabledEvent.new(fields) return end

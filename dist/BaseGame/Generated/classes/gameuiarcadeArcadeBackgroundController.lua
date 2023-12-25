@@ -5,6 +5,6 @@
 ---@field public backgroundLayerList inkWidgetReference[]
 gameuiarcadeArcadeBackgroundController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeBackgroundController
 ---@return gameuiarcadeArcadeBackgroundController
 function gameuiarcadeArcadeBackgroundController.new(fields) return end

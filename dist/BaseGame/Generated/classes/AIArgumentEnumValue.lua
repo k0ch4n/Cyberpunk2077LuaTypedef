@@ -7,6 +7,6 @@
 ---@field public defaultValue Int64
 AIArgumentEnumValue = {}
 
----@param fields? table
+---@param fields? AIArgumentEnumValue
 ---@return AIArgumentEnumValue
 function AIArgumentEnumValue.new(fields) return end

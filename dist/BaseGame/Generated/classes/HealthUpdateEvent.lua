@@ -6,6 +6,6 @@
 ---@field public healthDifference Float
 HealthUpdateEvent = {}
 
----@param fields? table
+---@param fields? HealthUpdateEvent
 ---@return HealthUpdateEvent
 function HealthUpdateEvent.new(fields) return end

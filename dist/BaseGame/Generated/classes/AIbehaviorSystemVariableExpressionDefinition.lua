@@ -5,6 +5,6 @@
 ---@field public variable AIbehaviorSystemVariableExpressionTypes
 AIbehaviorSystemVariableExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSystemVariableExpressionDefinition
 ---@return AIbehaviorSystemVariableExpressionDefinition
 function AIbehaviorSystemVariableExpressionDefinition.new(fields) return end

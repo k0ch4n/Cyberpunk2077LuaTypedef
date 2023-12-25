@@ -4,6 +4,6 @@
 ---@class audioLocomotionEventMetadata: audioAudioMetadata
 audioLocomotionEventMetadata = {}
 
----@param fields? table
+---@param fields? audioLocomotionEventMetadata
 ---@return audioLocomotionEventMetadata
 function audioLocomotionEventMetadata.new(fields) return end

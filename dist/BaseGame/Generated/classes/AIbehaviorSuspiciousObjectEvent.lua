@@ -6,6 +6,6 @@
 ---@field public description CName
 AIbehaviorSuspiciousObjectEvent = {}
 
----@param fields? table
+---@param fields? AIbehaviorSuspiciousObjectEvent
 ---@return AIbehaviorSuspiciousObjectEvent
 function AIbehaviorSuspiciousObjectEvent.new(fields) return end

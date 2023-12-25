@@ -11,6 +11,6 @@
 ---@field public actionType VendorSellJunkActionType
 VendorSellJunkPopupData = {}
 
----@param fields? table
+---@param fields? VendorSellJunkPopupData
 ---@return VendorSellJunkPopupData
 function VendorSellJunkPopupData.new(fields) return end

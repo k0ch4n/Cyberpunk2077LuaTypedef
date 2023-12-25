@@ -6,6 +6,6 @@
 ---@field public selectedNodeIDPath toolsEditorObjectIDPath
 toolsLastNodeSelection = {}
 
----@param fields? table
+---@param fields? toolsLastNodeSelection
 ---@return toolsLastNodeSelection
 function toolsLastNodeSelection.new(fields) return end

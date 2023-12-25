@@ -6,6 +6,6 @@
 ---@field public platformImageDetails gameuiarcadeShooterPlatformImageDetail[]
 gameuiarcadeShooterExplodingPlatformsImageWidgetDetail = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterExplodingPlatformsImageWidgetDetail
 ---@return gameuiarcadeShooterExplodingPlatformsImageWidgetDetail
 function gameuiarcadeShooterExplodingPlatformsImageWidgetDetail.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public FoliageBrush worldFoliageBrush
 worldAutoFoliageMappingItem = {}
 
----@param fields? table
+---@param fields? worldAutoFoliageMappingItem
 ---@return worldAutoFoliageMappingItem
 function worldAutoFoliageMappingItem.new(fields) return end

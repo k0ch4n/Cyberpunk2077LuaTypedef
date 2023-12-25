@@ -9,6 +9,6 @@
 ---@field public skipAnimation Bool
 questSetHUDEntryForcedVisibility_NodeType = {}
 
----@param fields? table
+---@param fields? questSetHUDEntryForcedVisibility_NodeType
 ---@return questSetHUDEntryForcedVisibility_NodeType
 function questSetHUDEntryForcedVisibility_NodeType.new(fields) return end

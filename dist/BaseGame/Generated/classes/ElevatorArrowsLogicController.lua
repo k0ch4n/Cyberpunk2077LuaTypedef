@@ -15,7 +15,7 @@
 ---@field private animOptions3 inkanimPlaybackOptions
 ElevatorArrowsLogicController = {}
 
----@param fields? table
+---@param fields? ElevatorArrowsLogicController
 ---@return ElevatorArrowsLogicController
 function ElevatorArrowsLogicController.new(fields) return end
 

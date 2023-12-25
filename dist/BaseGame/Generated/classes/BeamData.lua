@@ -8,6 +8,6 @@
 ---@field public target gameObject
 BeamData = {}
 
----@param fields? table
+---@param fields? BeamData
 ---@return BeamData
 function BeamData.new(fields) return end

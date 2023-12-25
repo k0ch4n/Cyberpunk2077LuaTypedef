@@ -4,6 +4,6 @@
 ---@class AIbehaviorCreateAlertedInfluenceMapTaskDefinition: AIbehaviorTaskDefinition
 AIbehaviorCreateAlertedInfluenceMapTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCreateAlertedInfluenceMapTaskDefinition
 ---@return AIbehaviorCreateAlertedInfluenceMapTaskDefinition
 function AIbehaviorCreateAlertedInfluenceMapTaskDefinition.new(fields) return end

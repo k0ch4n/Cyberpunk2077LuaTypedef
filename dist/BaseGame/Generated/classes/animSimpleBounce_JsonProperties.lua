@@ -14,6 +14,6 @@
 ---@field public outputDriverTrack animNamedTrackIndex
 animSimpleBounce_JsonProperties = {}
 
----@param fields? table
+---@param fields? animSimpleBounce_JsonProperties
 ---@return animSimpleBounce_JsonProperties
 function animSimpleBounce_JsonProperties.new(fields) return end

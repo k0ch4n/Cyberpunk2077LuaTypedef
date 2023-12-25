@@ -4,7 +4,7 @@
 ---@class BackgroundDisplayVirtualController: inkVirtualCompoundBackgroundController
 BackgroundDisplayVirtualController = {}
 
----@param fields? table
+---@param fields? BackgroundDisplayVirtualController
 ---@return BackgroundDisplayVirtualController
 function BackgroundDisplayVirtualController.new(fields) return end
 

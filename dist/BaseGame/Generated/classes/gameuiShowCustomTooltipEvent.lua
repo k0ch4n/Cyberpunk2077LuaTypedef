@@ -6,6 +6,6 @@
 ---@field public inputAction String
 gameuiShowCustomTooltipEvent = {}
 
----@param fields? table
+---@param fields? gameuiShowCustomTooltipEvent
 ---@return gameuiShowCustomTooltipEvent
 function gameuiShowCustomTooltipEvent.new(fields) return end

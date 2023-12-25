@@ -6,6 +6,6 @@
 ---@field public data gameGodModeEntityData
 gameGodModeSaveEntityData = {}
 
----@param fields? table
+---@param fields? gameGodModeSaveEntityData
 ---@return gameGodModeSaveEntityData
 function gameGodModeSaveEntityData.new(fields) return end

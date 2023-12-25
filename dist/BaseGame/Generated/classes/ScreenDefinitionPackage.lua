@@ -6,6 +6,6 @@
 ---@field public style gamedataWidgetStyle_Record
 ScreenDefinitionPackage = {}
 
----@param fields? table
+---@param fields? ScreenDefinitionPackage
 ---@return ScreenDefinitionPackage
 function ScreenDefinitionPackage.new(fields) return end

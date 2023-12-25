@@ -4,6 +4,6 @@
 ---@class gameItemDropStorageManager
 gameItemDropStorageManager = {}
 
----@param fields? table
+---@param fields? gameItemDropStorageManager
 ---@return gameItemDropStorageManager
 function gameItemDropStorageManager.new(fields) return end

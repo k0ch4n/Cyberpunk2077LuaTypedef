@@ -12,7 +12,7 @@
 ---@field private alive Bool
 piercingGrenade = {}
 
----@param fields? table
+---@param fields? piercingGrenade
 ---@return piercingGrenade
 function piercingGrenade.new(fields) return end
 

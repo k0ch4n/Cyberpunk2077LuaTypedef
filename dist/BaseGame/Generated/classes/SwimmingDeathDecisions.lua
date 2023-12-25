@@ -4,7 +4,7 @@
 ---@class SwimmingDeathDecisions: DeathDecisionsWithResurrection
 SwimmingDeathDecisions = {}
 
----@param fields? table
+---@param fields? SwimmingDeathDecisions
 ---@return SwimmingDeathDecisions
 function SwimmingDeathDecisions.new(fields) return end
 

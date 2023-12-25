@@ -18,6 +18,6 @@
 ---@field public errorMargin Float
 LiftSetup = {}
 
----@param fields? table
+---@param fields? LiftSetup
 ---@return LiftSetup
 function LiftSetup.new(fields) return end

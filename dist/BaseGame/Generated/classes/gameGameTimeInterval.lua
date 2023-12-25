@@ -7,6 +7,6 @@
 ---@field public ignoreDays Bool
 gameGameTimeInterval = {}
 
----@param fields? table
+---@param fields? gameGameTimeInterval
 ---@return gameGameTimeInterval
 function gameGameTimeInterval.new(fields) return end

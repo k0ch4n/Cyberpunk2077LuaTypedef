@@ -5,6 +5,6 @@
 ---@field public xt String
 attrLabel = {}
 
----@param fields? table
+---@param fields? attrLabel
 ---@return attrLabel
 function attrLabel.new(fields) return end

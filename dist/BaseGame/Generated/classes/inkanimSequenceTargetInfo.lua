@@ -5,6 +5,6 @@
 ---@field public path Uint32[]
 inkanimSequenceTargetInfo = {}
 
----@param fields? table
+---@param fields? inkanimSequenceTargetInfo
 ---@return inkanimSequenceTargetInfo
 function inkanimSequenceTargetInfo.new(fields) return end

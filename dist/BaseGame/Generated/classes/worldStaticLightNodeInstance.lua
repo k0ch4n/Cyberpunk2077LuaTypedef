@@ -4,6 +4,6 @@
 ---@class worldStaticLightNodeInstance: worldINodeInstance
 worldStaticLightNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticLightNodeInstance
 ---@return worldStaticLightNodeInstance
 function worldStaticLightNodeInstance.new(fields) return end

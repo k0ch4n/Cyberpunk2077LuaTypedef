@@ -12,6 +12,6 @@
 ---@field public offsets QsTransform[]
 animAnimNode_StackTransformsExtender = {}
 
----@param fields? table
+---@param fields? animAnimNode_StackTransformsExtender
 ---@return animAnimNode_StackTransformsExtender
 function animAnimNode_StackTransformsExtender.new(fields) return end

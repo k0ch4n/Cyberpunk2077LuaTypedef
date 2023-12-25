@@ -7,6 +7,6 @@
 ---@field public comparisonType EComparisonType
 questDynamicSpawnSystemEnemies_ConditionType = {}
 
----@param fields? table
+---@param fields? questDynamicSpawnSystemEnemies_ConditionType
 ---@return questDynamicSpawnSystemEnemies_ConditionType
 function questDynamicSpawnSystemEnemies_ConditionType.new(fields) return end

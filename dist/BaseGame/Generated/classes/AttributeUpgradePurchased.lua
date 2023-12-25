@@ -6,6 +6,6 @@
 ---@field public attributeData AttributeData
 AttributeUpgradePurchased = {}
 
----@param fields? table
+---@param fields? AttributeUpgradePurchased
 ---@return AttributeUpgradePurchased
 function AttributeUpgradePurchased.new(fields) return end

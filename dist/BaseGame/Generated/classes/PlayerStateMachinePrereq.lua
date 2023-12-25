@@ -8,7 +8,7 @@
 ---@field public valueToListen Int32
 PlayerStateMachinePrereq = {}
 
----@param fields? table
+---@param fields? PlayerStateMachinePrereq
 ---@return PlayerStateMachinePrereq
 function PlayerStateMachinePrereq.new(fields) return end
 

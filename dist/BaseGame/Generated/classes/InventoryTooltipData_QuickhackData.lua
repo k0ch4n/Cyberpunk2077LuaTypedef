@@ -13,6 +13,6 @@
 ---@field public cooldownDiff Float
 InventoryTooltipData_QuickhackData = {}
 
----@param fields? table
+---@param fields? InventoryTooltipData_QuickhackData
 ---@return InventoryTooltipData_QuickhackData
 function InventoryTooltipData_QuickhackData.new(fields) return end

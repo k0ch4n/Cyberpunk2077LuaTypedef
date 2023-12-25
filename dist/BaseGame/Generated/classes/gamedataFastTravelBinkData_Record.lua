@@ -4,7 +4,7 @@
 ---@class gamedataFastTravelBinkData_Record: gamedataTweakDBRecord
 gamedataFastTravelBinkData_Record = {}
 
----@param fields? table
+---@param fields? gamedataFastTravelBinkData_Record
 ---@return gamedataFastTravelBinkData_Record
 function gamedataFastTravelBinkData_Record.new(fields) return end
 

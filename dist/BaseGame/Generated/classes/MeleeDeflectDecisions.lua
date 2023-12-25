@@ -4,7 +4,7 @@
 ---@class MeleeDeflectDecisions: MeleeTransition
 MeleeDeflectDecisions = {}
 
----@param fields? table
+---@param fields? MeleeDeflectDecisions
 ---@return MeleeDeflectDecisions
 function MeleeDeflectDecisions.new(fields) return end
 

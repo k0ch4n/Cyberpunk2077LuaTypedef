@@ -8,7 +8,7 @@
 ---@field protected ProgressBar inkWidgetReference
 SettingsSelectorControllerRange = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerRange
 ---@return SettingsSelectorControllerRange
 function SettingsSelectorControllerRange.new(fields) return end
 

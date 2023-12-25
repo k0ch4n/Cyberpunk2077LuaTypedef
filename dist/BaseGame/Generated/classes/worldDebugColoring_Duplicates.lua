@@ -8,6 +8,6 @@
 ---@field public refresh Bool
 worldDebugColoring_Duplicates = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_Duplicates
 ---@return worldDebugColoring_Duplicates
 function worldDebugColoring_Duplicates.new(fields) return end

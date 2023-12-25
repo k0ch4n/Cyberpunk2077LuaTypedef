@@ -10,6 +10,6 @@
 ---@field public stiffness Float
 animSBehaviorConstraintNodeFloorIKVerticalBoneData = {}
 
----@param fields? table
+---@param fields? animSBehaviorConstraintNodeFloorIKVerticalBoneData
 ---@return animSBehaviorConstraintNodeFloorIKVerticalBoneData
 function animSBehaviorConstraintNodeFloorIKVerticalBoneData.new(fields) return end

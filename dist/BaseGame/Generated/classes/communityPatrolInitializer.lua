@@ -5,6 +5,6 @@
 ---@field public patrolRole AIPatrolRole
 communityPatrolInitializer = {}
 
----@param fields? table
+---@param fields? communityPatrolInitializer
 ---@return communityPatrolInitializer
 function communityPatrolInitializer.new(fields) return end

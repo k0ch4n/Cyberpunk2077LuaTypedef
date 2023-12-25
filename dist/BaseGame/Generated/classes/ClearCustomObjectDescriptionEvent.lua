@@ -4,7 +4,7 @@
 ---@class ClearCustomObjectDescriptionEvent: redEvent
 ClearCustomObjectDescriptionEvent = {}
 
----@param fields? table
+---@param fields? ClearCustomObjectDescriptionEvent
 ---@return ClearCustomObjectDescriptionEvent
 function ClearCustomObjectDescriptionEvent.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public appearanceName CName
 questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry = {}
 
----@param fields? table
+---@param fields? questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
 ---@return questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
 function questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry.new(fields) return end

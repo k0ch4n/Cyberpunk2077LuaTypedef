@@ -4,7 +4,7 @@
 ---@class gameAttachmentSlotEventsItemRemovedFromSlot: redEvent
 gameAttachmentSlotEventsItemRemovedFromSlot = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotEventsItemRemovedFromSlot
 ---@return gameAttachmentSlotEventsItemRemovedFromSlot
 function gameAttachmentSlotEventsItemRemovedFromSlot.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public numElements Uint32
 worldRenderProxyTransformBuffer = {}
 
----@param fields? table
+---@param fields? worldRenderProxyTransformBuffer
 ---@return worldRenderProxyTransformBuffer
 function worldRenderProxyTransformBuffer.new(fields) return end

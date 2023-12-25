@@ -17,6 +17,6 @@
 ---@field public initialRotationDuration Float
 animAnimFeature_HitReactionsData = {}
 
----@param fields? table
+---@param fields? animAnimFeature_HitReactionsData
 ---@return animAnimFeature_HitReactionsData
 function animAnimFeature_HitReactionsData.new(fields) return end

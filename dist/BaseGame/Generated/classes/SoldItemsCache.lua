@@ -5,7 +5,7 @@
 ---@field private cache SoldItem[]
 SoldItemsCache = {}
 
----@param fields? table
+---@param fields? SoldItemsCache
 ---@return SoldItemsCache
 function SoldItemsCache.new(fields) return end
 

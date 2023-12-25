@@ -10,7 +10,7 @@
 ---@field protected previousInstance ModuleInstance
 ModuleInstance = {}
 
----@param fields? table
+---@param fields? ModuleInstance
 ---@return ModuleInstance
 function ModuleInstance.new(fields) return end
 

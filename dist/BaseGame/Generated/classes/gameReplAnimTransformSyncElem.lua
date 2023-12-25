@@ -10,6 +10,6 @@
 ---@field public playing Bool
 gameReplAnimTransformSyncElem = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformSyncElem
 ---@return gameReplAnimTransformSyncElem
 function gameReplAnimTransformSyncElem.new(fields) return end

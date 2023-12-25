@@ -4,7 +4,7 @@
 ---@class gamedataScannableData_Record: gamedataTweakDBRecord
 gamedataScannableData_Record = {}
 
----@param fields? table
+---@param fields? gamedataScannableData_Record
 ---@return gamedataScannableData_Record
 function gamedataScannableData_Record.new(fields) return end
 

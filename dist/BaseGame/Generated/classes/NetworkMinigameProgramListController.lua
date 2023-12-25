@@ -10,7 +10,7 @@
 ---@field private headerBG inkWidgetReference
 NetworkMinigameProgramListController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameProgramListController
 ---@return NetworkMinigameProgramListController
 function NetworkMinigameProgramListController.new(fields) return end
 

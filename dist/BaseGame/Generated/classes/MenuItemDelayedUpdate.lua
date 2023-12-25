@@ -4,6 +4,6 @@
 ---@class MenuItemDelayedUpdate: redEvent
 MenuItemDelayedUpdate = {}
 
----@param fields? table
+---@param fields? MenuItemDelayedUpdate
 ---@return MenuItemDelayedUpdate
 function MenuItemDelayedUpdate.new(fields) return end

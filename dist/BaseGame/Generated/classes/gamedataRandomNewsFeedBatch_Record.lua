@@ -4,7 +4,7 @@
 ---@class gamedataRandomNewsFeedBatch_Record: gamedataTweakDBRecord
 gamedataRandomNewsFeedBatch_Record = {}
 
----@param fields? table
+---@param fields? gamedataRandomNewsFeedBatch_Record
 ---@return gamedataRandomNewsFeedBatch_Record
 function gamedataRandomNewsFeedBatch_Record.new(fields) return end
 

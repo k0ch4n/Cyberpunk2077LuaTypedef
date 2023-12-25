@@ -5,7 +5,7 @@
 ---@field public clearance gamedeviceClearance
 gameMasterDeviceComponent = {}
 
----@param fields? table
+---@param fields? gameMasterDeviceComponent
 ---@return gameMasterDeviceComponent
 function gameMasterDeviceComponent.new(fields) return end
 

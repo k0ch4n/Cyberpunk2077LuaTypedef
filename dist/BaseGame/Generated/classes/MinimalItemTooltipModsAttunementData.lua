@@ -6,6 +6,6 @@
 ---@field public icon CName
 MinimalItemTooltipModsAttunementData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipModsAttunementData
 ---@return MinimalItemTooltipModsAttunementData
 function MinimalItemTooltipModsAttunementData.new(fields) return end

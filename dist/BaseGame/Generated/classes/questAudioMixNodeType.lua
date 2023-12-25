@@ -5,6 +5,6 @@
 ---@field public mixSignpost CName
 questAudioMixNodeType = {}
 
----@param fields? table
+---@param fields? questAudioMixNodeType
 ---@return questAudioMixNodeType
 function questAudioMixNodeType.new(fields) return end

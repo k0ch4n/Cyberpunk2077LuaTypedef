@@ -4,6 +4,6 @@
 ---@class OnRelative: inkPointerEvent
 OnRelative = {}
 
----@param fields? table
+---@param fields? OnRelative
 ---@return OnRelative
 function OnRelative.new(fields) return end

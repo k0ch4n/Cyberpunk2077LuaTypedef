@@ -5,6 +5,6 @@
 ---@field public parameterBuffers serializationDeferredDataBuffer[]
 entEntityParametersBuffer = {}
 
----@param fields? table
+---@param fields? entEntityParametersBuffer
 ---@return entEntityParametersBuffer
 function entEntityParametersBuffer.new(fields) return end

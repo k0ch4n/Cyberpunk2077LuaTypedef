@@ -7,6 +7,6 @@
 ---@field public usedTextures Uint32[]
 inkSingleDrawMetric = {}
 
----@param fields? table
+---@param fields? inkSingleDrawMetric
 ---@return inkSingleDrawMetric
 function inkSingleDrawMetric.new(fields) return end

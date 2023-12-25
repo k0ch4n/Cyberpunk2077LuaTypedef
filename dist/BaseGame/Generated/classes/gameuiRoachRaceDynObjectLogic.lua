@@ -8,6 +8,6 @@
 ---@field public availableY Float[]
 gameuiRoachRaceDynObjectLogic = {}
 
----@param fields? table
+---@param fields? gameuiRoachRaceDynObjectLogic
 ---@return gameuiRoachRaceDynObjectLogic
 function gameuiRoachRaceDynObjectLogic.new(fields) return end

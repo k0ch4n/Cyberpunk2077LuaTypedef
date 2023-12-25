@@ -7,6 +7,6 @@
 ---@field public weights Uint8[]
 scnRandomizerNode = {}
 
----@param fields? table
+---@param fields? scnRandomizerNode
 ---@return scnRandomizerNode
 function scnRandomizerNode.new(fields) return end

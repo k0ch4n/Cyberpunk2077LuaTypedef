@@ -7,6 +7,6 @@
 ---@field public nodeRef NodeRef
 scnWorldMarker = {}
 
----@param fields? table
+---@param fields? scnWorldMarker
 ---@return scnWorldMarker
 function scnWorldMarker.new(fields) return end

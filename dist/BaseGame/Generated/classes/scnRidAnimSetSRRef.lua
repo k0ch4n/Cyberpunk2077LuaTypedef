@@ -5,6 +5,6 @@
 ---@field public animations scnSRRefId[]
 scnRidAnimSetSRRef = {}
 
----@param fields? table
+---@param fields? scnRidAnimSetSRRef
 ---@return scnRidAnimSetSRRef
 function scnRidAnimSetSRRef.new(fields) return end

@@ -18,7 +18,7 @@
 ---@field protected bbCallbacksRegistered Bool
 DeviceInkGameControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceInkGameControllerBase
 ---@return DeviceInkGameControllerBase
 function DeviceInkGameControllerBase.new(fields) return end
 

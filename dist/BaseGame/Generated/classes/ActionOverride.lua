@@ -4,7 +4,7 @@
 ---@class ActionOverride: ActionBool
 ActionOverride = {}
 
----@param fields? table
+---@param fields? ActionOverride
 ---@return ActionOverride
 function ActionOverride.new(fields) return end
 

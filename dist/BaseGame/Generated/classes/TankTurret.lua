@@ -4,7 +4,7 @@
 ---@class TankTurret: gameWeakspotObject
 TankTurret = {}
 
----@param fields? table
+---@param fields? TankTurret
 ---@return TankTurret
 function TankTurret.new(fields) return end
 

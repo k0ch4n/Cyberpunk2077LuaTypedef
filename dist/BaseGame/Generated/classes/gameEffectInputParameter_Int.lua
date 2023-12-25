@@ -5,7 +5,7 @@
 ---@field public evaluator gameIEffectParameter_IntEvaluator
 gameEffectInputParameter_Int = {}
 
----@param fields? table
+---@param fields? gameEffectInputParameter_Int
 ---@return gameEffectInputParameter_Int
 function gameEffectInputParameter_Int.new(fields) return end
 

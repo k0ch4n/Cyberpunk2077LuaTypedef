@@ -6,6 +6,6 @@
 ---@field public fontStyles inkFontStyle[]
 inkFontFamilyResource = {}
 
----@param fields? table
+---@param fields? inkFontFamilyResource
 ---@return inkFontFamilyResource
 function inkFontFamilyResource.new(fields) return end

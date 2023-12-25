@@ -5,6 +5,6 @@
 ---@field public gameplayEvent CName
 audioGenericGameplayEventOccurredASTCD = {}
 
----@param fields? table
+---@param fields? audioGenericGameplayEventOccurredASTCD
 ---@return audioGenericGameplayEventOccurredASTCD
 function audioGenericGameplayEventOccurredASTCD.new(fields) return end

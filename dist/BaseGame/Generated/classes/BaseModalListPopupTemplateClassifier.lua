@@ -4,7 +4,7 @@
 ---@class BaseModalListPopupTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 BaseModalListPopupTemplateClassifier = {}
 
----@param fields? table
+---@param fields? BaseModalListPopupTemplateClassifier
 ---@return BaseModalListPopupTemplateClassifier
 function BaseModalListPopupTemplateClassifier.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public ownerPuppet ScriptedPuppet
 SetDeviceControllerInvestigationData = {}
 
----@param fields? table
+---@param fields? SetDeviceControllerInvestigationData
 ---@return SetDeviceControllerInvestigationData
 function SetDeviceControllerInvestigationData.new(fields) return end
 

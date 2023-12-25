@@ -8,6 +8,6 @@
 ---@field public enable Bool
 questEntityManagerToggleComponent_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questEntityManagerToggleComponent_NodeTypeParams
 ---@return questEntityManagerToggleComponent_NodeTypeParams
 function questEntityManagerToggleComponent_NodeTypeParams.new(fields) return end

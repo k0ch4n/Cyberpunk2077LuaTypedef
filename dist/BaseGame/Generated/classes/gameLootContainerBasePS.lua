@@ -9,7 +9,7 @@
 ---@field protected started Bool
 gameLootContainerBasePS = {}
 
----@param fields? table
+---@param fields? gameLootContainerBasePS
 ---@return gameLootContainerBasePS
 function gameLootContainerBasePS.new(fields) return end
 

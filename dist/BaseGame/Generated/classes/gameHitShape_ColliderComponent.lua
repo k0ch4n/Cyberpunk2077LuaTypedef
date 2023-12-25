@@ -5,6 +5,6 @@
 ---@field public componentNames CName[]
 gameHitShape_ColliderComponent = {}
 
----@param fields? table
+---@param fields? gameHitShape_ColliderComponent
 ---@return gameHitShape_ColliderComponent
 function gameHitShape_ColliderComponent.new(fields) return end

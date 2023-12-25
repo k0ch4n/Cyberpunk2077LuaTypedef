@@ -4,7 +4,7 @@
 ---@class QuestForceRoadBlockadeDeactivate: ActionBool
 QuestForceRoadBlockadeDeactivate = {}
 
----@param fields? table
+---@param fields? QuestForceRoadBlockadeDeactivate
 ---@return QuestForceRoadBlockadeDeactivate
 function QuestForceRoadBlockadeDeactivate.new(fields) return end
 

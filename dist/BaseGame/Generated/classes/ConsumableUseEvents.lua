@@ -7,7 +7,7 @@
 ---@field public activeConsumable gameItemID
 ConsumableUseEvents = {}
 
----@param fields? table
+---@param fields? ConsumableUseEvents
 ---@return ConsumableUseEvents
 function ConsumableUseEvents.new(fields) return end
 

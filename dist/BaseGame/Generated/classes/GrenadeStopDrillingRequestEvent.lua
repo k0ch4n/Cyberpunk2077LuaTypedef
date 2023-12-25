@@ -4,6 +4,6 @@
 ---@class GrenadeStopDrillingRequestEvent: redEvent
 GrenadeStopDrillingRequestEvent = {}
 
----@param fields? table
+---@param fields? GrenadeStopDrillingRequestEvent
 ---@return GrenadeStopDrillingRequestEvent
 function GrenadeStopDrillingRequestEvent.new(fields) return end

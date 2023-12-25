@@ -8,7 +8,7 @@
 ---@field public r Float
 Quaternion = {}
 
----@param fields? table
+---@param fields? Quaternion
 ---@return Quaternion
 function Quaternion.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public id Uint32
 scnEffectInstanceId = {}
 
----@param fields? table
+---@param fields? scnEffectInstanceId
 ---@return scnEffectInstanceId
 function scnEffectInstanceId.new(fields) return end

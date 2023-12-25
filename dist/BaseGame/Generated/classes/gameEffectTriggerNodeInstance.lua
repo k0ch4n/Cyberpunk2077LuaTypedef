@@ -4,6 +4,6 @@
 ---@class gameEffectTriggerNodeInstance: worldAreaShapeNodeInstance
 gameEffectTriggerNodeInstance = {}
 
----@param fields? table
+---@param fields? gameEffectTriggerNodeInstance
 ---@return gameEffectTriggerNodeInstance
 function gameEffectTriggerNodeInstance.new(fields) return end

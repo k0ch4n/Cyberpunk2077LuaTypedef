@@ -5,6 +5,6 @@
 ---@field public data worldTrafficCollisionDebug
 worldTrafficCollisionDebugResource = {}
 
----@param fields? table
+---@param fields? worldTrafficCollisionDebugResource
 ---@return worldTrafficCollisionDebugResource
 function worldTrafficCollisionDebugResource.new(fields) return end

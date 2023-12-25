@@ -8,6 +8,6 @@
 ---@field public direction Float
 animAnimFeature_AIAction = {}
 
----@param fields? table
+---@param fields? animAnimFeature_AIAction
 ---@return animAnimFeature_AIAction
 function animAnimFeature_AIAction.new(fields) return end

@@ -13,6 +13,6 @@
 ---@field public facialIdleKey_FemaleAnimation CName
 workReactionSequence = {}
 
----@param fields? table
+---@param fields? workReactionSequence
 ---@return workReactionSequence
 function workReactionSequence.new(fields) return end

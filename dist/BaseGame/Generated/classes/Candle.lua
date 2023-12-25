@@ -4,7 +4,7 @@
 ---@class Candle: gameObject
 Candle = {}
 
----@param fields? table
+---@param fields? Candle
 ---@return Candle
 function Candle.new(fields) return end
 

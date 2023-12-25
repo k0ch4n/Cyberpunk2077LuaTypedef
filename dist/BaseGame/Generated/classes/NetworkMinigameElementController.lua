@@ -15,7 +15,7 @@
 ---@field private root inkWidget
 NetworkMinigameElementController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameElementController
 ---@return NetworkMinigameElementController
 function NetworkMinigameElementController.new(fields) return end
 

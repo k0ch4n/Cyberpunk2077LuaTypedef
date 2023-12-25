@@ -6,7 +6,7 @@
 ---@field public type HUDActorType
 HUDManagerRegistrationRequest = {}
 
----@param fields? table
+---@param fields? HUDManagerRegistrationRequest
 ---@return HUDManagerRegistrationRequest
 function HUDManagerRegistrationRequest.new(fields) return end
 

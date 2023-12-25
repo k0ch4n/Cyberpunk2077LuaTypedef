@@ -5,7 +5,7 @@
 ---@field private characterRecordId TweakDBID
 CpoCharacterButtonItemController = {}
 
----@param fields? table
+---@param fields? CpoCharacterButtonItemController
 ---@return CpoCharacterButtonItemController
 function CpoCharacterButtonItemController.new(fields) return end
 

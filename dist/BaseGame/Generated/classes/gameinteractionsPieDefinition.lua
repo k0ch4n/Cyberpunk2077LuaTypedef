@@ -9,6 +9,6 @@
 ---@field public angle Float
 gameinteractionsPieDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsPieDefinition
 ---@return gameinteractionsPieDefinition
 function gameinteractionsPieDefinition.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public video_XB1 Bink
 inkPlatformSpecificVideoController = {}
 
----@param fields? table
+---@param fields? inkPlatformSpecificVideoController
 ---@return inkPlatformSpecificVideoController
 function inkPlatformSpecificVideoController.new(fields) return end

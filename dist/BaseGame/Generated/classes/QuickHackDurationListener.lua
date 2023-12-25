@@ -4,7 +4,7 @@
 ---@class QuickHackDurationListener: ActionUploadListener
 QuickHackDurationListener = {}
 
----@param fields? table
+---@param fields? QuickHackDurationListener
 ---@return QuickHackDurationListener
 function QuickHackDurationListener.new(fields) return end
 

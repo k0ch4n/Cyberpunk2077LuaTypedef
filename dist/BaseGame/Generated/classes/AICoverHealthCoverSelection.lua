@@ -4,6 +4,6 @@
 ---@class AICoverHealthCoverSelection: AICoverSelectionParameters
 AICoverHealthCoverSelection = {}
 
----@param fields? table
+---@param fields? AICoverHealthCoverSelection
 ---@return AICoverHealthCoverSelection
 function AICoverHealthCoverSelection.new(fields) return end

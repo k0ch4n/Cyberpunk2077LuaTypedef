@@ -8,7 +8,7 @@
 ---@field public DamageProjection gamebbScriptID_Int32
 UI_NameplateDataDef = {}
 
----@param fields? table
+---@param fields? UI_NameplateDataDef
 ---@return UI_NameplateDataDef
 function UI_NameplateDataDef.new(fields) return end
 

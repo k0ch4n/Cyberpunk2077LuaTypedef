@@ -4,7 +4,7 @@
 ---@class gamedataFacialPreset_Record: gamedataTweakDBRecord
 gamedataFacialPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataFacialPreset_Record
 ---@return gamedataFacialPreset_Record
 function gamedataFacialPreset_Record.new(fields) return end
 

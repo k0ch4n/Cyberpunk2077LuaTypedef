@@ -7,6 +7,6 @@
 ---@field public components CName[]
 questForceVMModule_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questForceVMModule_NodeTypeParams
 ---@return questForceVMModule_NodeTypeParams
 function questForceVMModule_NodeTypeParams.new(fields) return end

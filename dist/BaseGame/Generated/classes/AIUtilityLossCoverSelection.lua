@@ -4,6 +4,6 @@
 ---@class AIUtilityLossCoverSelection: AICoverSelectionParameters
 AIUtilityLossCoverSelection = {}
 
----@param fields? table
+---@param fields? AIUtilityLossCoverSelection
 ---@return AIUtilityLossCoverSelection
 function AIUtilityLossCoverSelection.new(fields) return end

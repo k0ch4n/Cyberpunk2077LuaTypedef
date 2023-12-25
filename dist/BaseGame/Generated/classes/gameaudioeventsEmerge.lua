@@ -5,6 +5,6 @@
 ---@field public oxygen Float
 gameaudioeventsEmerge = {}
 
----@param fields? table
+---@param fields? gameaudioeventsEmerge
 ---@return gameaudioeventsEmerge
 function gameaudioeventsEmerge.new(fields) return end

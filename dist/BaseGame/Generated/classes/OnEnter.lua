@@ -4,6 +4,6 @@
 ---@class OnEnter: inkPointerEvent
 OnEnter = {}
 
----@param fields? table
+---@param fields? OnEnter
 ---@return OnEnter
 function OnEnter.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SwimmingClimbEvents: ClimbEvents
 SwimmingClimbEvents = {}
 
----@param fields? table
+---@param fields? SwimmingClimbEvents
 ---@return SwimmingClimbEvents
 function SwimmingClimbEvents.new(fields) return end
 

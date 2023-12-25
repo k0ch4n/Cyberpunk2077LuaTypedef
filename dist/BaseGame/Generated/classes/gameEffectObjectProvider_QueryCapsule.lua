@@ -6,6 +6,6 @@
 ---@field public queryPreset physicsQueryPreset
 gameEffectObjectProvider_QueryCapsule = {}
 
----@param fields? table
+---@param fields? gameEffectObjectProvider_QueryCapsule
 ---@return gameEffectObjectProvider_QueryCapsule
 function gameEffectObjectProvider_QueryCapsule.new(fields) return end

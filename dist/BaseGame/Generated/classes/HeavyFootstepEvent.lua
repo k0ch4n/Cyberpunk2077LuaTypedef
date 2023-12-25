@@ -6,6 +6,6 @@
 ---@field public audioEventName CName
 HeavyFootstepEvent = {}
 
----@param fields? table
+---@param fields? HeavyFootstepEvent
 ---@return HeavyFootstepEvent
 function HeavyFootstepEvent.new(fields) return end

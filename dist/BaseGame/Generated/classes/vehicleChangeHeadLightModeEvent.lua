@@ -4,6 +4,6 @@
 ---@class vehicleChangeHeadLightModeEvent: redEvent
 vehicleChangeHeadLightModeEvent = {}
 
----@param fields? table
+---@param fields? vehicleChangeHeadLightModeEvent
 ---@return vehicleChangeHeadLightModeEvent
 function vehicleChangeHeadLightModeEvent.new(fields) return end

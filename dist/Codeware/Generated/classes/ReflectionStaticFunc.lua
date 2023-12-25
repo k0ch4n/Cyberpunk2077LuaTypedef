@@ -4,7 +4,7 @@
 ---@class ReflectionStaticFunc: ReflectionFunc
 ReflectionStaticFunc = {}
 
----@param fields? table
+---@param fields? ReflectionStaticFunc
 ---@return ReflectionStaticFunc
 function ReflectionStaticFunc.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public achievement gamedataAchievement
 questSetAchievementProgressRequest = {}
 
----@param fields? table
+---@param fields? questSetAchievementProgressRequest
 ---@return questSetAchievementProgressRequest
 function questSetAchievementProgressRequest.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private customNumber Int32
 SetMessageDeviceOperation = {}
 
----@param fields? table
+---@param fields? SetMessageDeviceOperation
 ---@return SetMessageDeviceOperation
 function SetMessageDeviceOperation.new(fields) return end
 

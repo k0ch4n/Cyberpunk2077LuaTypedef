@@ -4,6 +4,6 @@
 ---@class RetrofixCyberwaresEvent: redEvent
 RetrofixCyberwaresEvent = {}
 
----@param fields? table
+---@param fields? RetrofixCyberwaresEvent
 ---@return RetrofixCyberwaresEvent
 function RetrofixCyberwaresEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public invertTrafficEvents Bool
 TrafficLightResaveData = {}
 
----@param fields? table
+---@param fields? TrafficLightResaveData
 ---@return TrafficLightResaveData
 function TrafficLightResaveData.new(fields) return end

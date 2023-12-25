@@ -4,6 +4,6 @@
 ---@class RemoveAllFastTravelLocksRequest: gameScriptableSystemRequest
 RemoveAllFastTravelLocksRequest = {}
 
----@param fields? table
+---@param fields? RemoveAllFastTravelLocksRequest
 ---@return RemoveAllFastTravelLocksRequest
 function RemoveAllFastTravelLocksRequest.new(fields) return end

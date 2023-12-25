@@ -5,6 +5,6 @@
 ---@field public state Int32
 AnimFeature_HoverJumpData = {}
 
----@param fields? table
+---@param fields? AnimFeature_HoverJumpData
 ---@return AnimFeature_HoverJumpData
 function AnimFeature_HoverJumpData.new(fields) return end

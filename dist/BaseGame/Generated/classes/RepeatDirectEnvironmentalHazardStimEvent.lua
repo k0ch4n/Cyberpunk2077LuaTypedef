@@ -5,6 +5,6 @@
 ---@field public target gameObject
 RepeatDirectEnvironmentalHazardStimEvent = {}
 
----@param fields? table
+---@param fields? RepeatDirectEnvironmentalHazardStimEvent
 ---@return RepeatDirectEnvironmentalHazardStimEvent
 function RepeatDirectEnvironmentalHazardStimEvent.new(fields) return end

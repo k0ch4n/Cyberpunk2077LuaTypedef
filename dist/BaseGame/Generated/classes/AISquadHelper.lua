@@ -4,7 +4,7 @@
 ---@class AISquadHelper: IScriptable
 AISquadHelper = {}
 
----@param fields? table
+---@param fields? AISquadHelper
 ---@return AISquadHelper
 function AISquadHelper.new(fields) return end
 

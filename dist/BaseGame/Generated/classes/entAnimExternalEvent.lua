@@ -5,6 +5,6 @@
 ---@field public name CName
 entAnimExternalEvent = {}
 
----@param fields? table
+---@param fields? entAnimExternalEvent
 ---@return entAnimExternalEvent
 function entAnimExternalEvent.new(fields) return end

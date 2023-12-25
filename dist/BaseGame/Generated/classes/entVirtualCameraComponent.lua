@@ -9,7 +9,7 @@
 ---@field public isEnabled Bool
 entVirtualCameraComponent = {}
 
----@param fields? table
+---@param fields? entVirtualCameraComponent
 ---@return entVirtualCameraComponent
 function entVirtualCameraComponent.new(fields) return end
 

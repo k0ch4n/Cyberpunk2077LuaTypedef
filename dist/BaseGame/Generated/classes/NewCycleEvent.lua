@@ -5,6 +5,6 @@
 ---@field public cyclesCount Uint16
 NewCycleEvent = {}
 
----@param fields? table
+---@param fields? NewCycleEvent
 ---@return NewCycleEvent
 function NewCycleEvent.new(fields) return end

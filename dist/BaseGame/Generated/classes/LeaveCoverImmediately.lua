@@ -8,7 +8,7 @@
 ---@field public triggered Bool
 LeaveCoverImmediately = {}
 
----@param fields? table
+---@param fields? LeaveCoverImmediately
 ---@return LeaveCoverImmediately
 function LeaveCoverImmediately.new(fields) return end
 

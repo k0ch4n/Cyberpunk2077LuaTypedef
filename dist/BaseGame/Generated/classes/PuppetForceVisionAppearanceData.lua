@@ -14,6 +14,6 @@
 ---@field public effectName String
 PuppetForceVisionAppearanceData = {}
 
----@param fields? table
+---@param fields? PuppetForceVisionAppearanceData
 ---@return PuppetForceVisionAppearanceData
 function PuppetForceVisionAppearanceData.new(fields) return end

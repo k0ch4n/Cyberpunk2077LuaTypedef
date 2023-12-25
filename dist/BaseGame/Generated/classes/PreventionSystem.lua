@@ -112,7 +112,7 @@
 ---@field private setCallRejectionIncrement Bool
 PreventionSystem = {}
 
----@param fields? table
+---@param fields? PreventionSystem
 ---@return PreventionSystem
 function PreventionSystem.new(fields) return end
 

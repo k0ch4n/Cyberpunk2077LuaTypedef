@@ -8,7 +8,7 @@
 ---@field private agentAreas SecurityAreaControllerPS[]
 PlayerSpotted = {}
 
----@param fields? table
+---@param fields? PlayerSpotted
 ---@return PlayerSpotted
 function PlayerSpotted.new(fields) return end
 

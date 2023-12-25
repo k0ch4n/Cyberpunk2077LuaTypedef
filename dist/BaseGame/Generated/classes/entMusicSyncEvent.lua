@@ -6,6 +6,6 @@
 ---@field public syncParameter Float
 entMusicSyncEvent = {}
 
----@param fields? table
+---@param fields? entMusicSyncEvent
 ---@return entMusicSyncEvent
 function entMusicSyncEvent.new(fields) return end

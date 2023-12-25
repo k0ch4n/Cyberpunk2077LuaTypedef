@@ -4,7 +4,7 @@
 ---@class SurveillanceSystem: DeviceSystemBase
 SurveillanceSystem = {}
 
----@param fields? table
+---@param fields? SurveillanceSystem
 ---@return SurveillanceSystem
 function SurveillanceSystem.new(fields) return end
 

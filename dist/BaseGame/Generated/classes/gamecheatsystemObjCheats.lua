@@ -6,6 +6,6 @@
 ---@field public flags Int32
 gamecheatsystemObjCheats = {}
 
----@param fields? table
+---@param fields? gamecheatsystemObjCheats
 ---@return gamecheatsystemObjCheats
 function gamecheatsystemObjCheats.new(fields) return end

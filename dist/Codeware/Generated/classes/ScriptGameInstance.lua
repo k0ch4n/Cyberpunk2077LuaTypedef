@@ -4,9 +4,8 @@
 ---@class ScriptGameInstance
 ScriptGameInstance = {}
 
----@param fields? table
 ---@return ScriptGameInstance
-function ScriptGameInstance.new(fields) return end
+function ScriptGameInstance.new() return end
 
 ---@return CallbackSystem
 function ScriptGameInstance.GetCallbackSystem() return end

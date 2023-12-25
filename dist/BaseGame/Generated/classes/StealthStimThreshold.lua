@@ -5,7 +5,7 @@
 ---@field public stealthThresholdNumber Int32
 StealthStimThreshold = {}
 
----@param fields? table
+---@param fields? StealthStimThreshold
 ---@return StealthStimThreshold
 function StealthStimThreshold.new(fields) return end
 

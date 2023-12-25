@@ -4,6 +4,6 @@
 ---@class gameComponentsStateSaveComponent: entIComponent
 gameComponentsStateSaveComponent = {}
 
----@param fields? table
+---@param fields? gameComponentsStateSaveComponent
 ---@return gameComponentsStateSaveComponent
 function gameComponentsStateSaveComponent.new(fields) return end

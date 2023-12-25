@@ -4,7 +4,7 @@
 ---@class QuestSetDetectionToTrue: ActionBool
 QuestSetDetectionToTrue = {}
 
----@param fields? table
+---@param fields? QuestSetDetectionToTrue
 ---@return QuestSetDetectionToTrue
 function QuestSetDetectionToTrue.new(fields) return end
 

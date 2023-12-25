@@ -7,7 +7,7 @@
 ---@field public characterRecord gamedataCharacter_Record
 NPCDebugInfo = {}
 
----@param fields? table
+---@param fields? NPCDebugInfo
 ---@return NPCDebugInfo
 function NPCDebugInfo.new(fields) return end
 

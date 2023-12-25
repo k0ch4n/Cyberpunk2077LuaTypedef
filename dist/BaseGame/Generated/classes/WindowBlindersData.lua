@@ -8,6 +8,6 @@
 ---@field public hasQuickHack Bool
 WindowBlindersData = {}
 
----@param fields? table
+---@param fields? WindowBlindersData
 ---@return WindowBlindersData
 function WindowBlindersData.new(fields) return end

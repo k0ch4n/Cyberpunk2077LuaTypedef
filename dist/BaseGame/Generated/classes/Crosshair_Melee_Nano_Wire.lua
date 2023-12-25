@@ -15,7 +15,7 @@
 ---@field private anim_HoverExitEnemy inkanimProxy
 Crosshair_Melee_Nano_Wire = {}
 
----@param fields? table
+---@param fields? Crosshair_Melee_Nano_Wire
 ---@return Crosshair_Melee_Nano_Wire
 function Crosshair_Melee_Nano_Wire.new(fields) return end
 

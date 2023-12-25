@@ -4,7 +4,7 @@
 ---@class GrenadeCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 GrenadeCollisionEvaluator = {}
 
----@param fields? table
+---@param fields? GrenadeCollisionEvaluator
 ---@return GrenadeCollisionEvaluator
 function GrenadeCollisionEvaluator.new(fields) return end
 

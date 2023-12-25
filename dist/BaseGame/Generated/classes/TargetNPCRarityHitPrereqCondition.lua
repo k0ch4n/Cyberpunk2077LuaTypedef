@@ -5,7 +5,7 @@
 ---@field public rarity gamedataNPCRarity
 TargetNPCRarityHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? TargetNPCRarityHitPrereqCondition
 ---@return TargetNPCRarityHitPrereqCondition
 function TargetNPCRarityHitPrereqCondition.new(fields) return end
 

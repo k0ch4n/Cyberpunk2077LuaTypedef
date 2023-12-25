@@ -87,7 +87,7 @@
 ---@field private isPopupPending Bool
 FullscreenVendorGameController = {}
 
----@param fields? table
+---@param fields? FullscreenVendorGameController
 ---@return FullscreenVendorGameController
 function FullscreenVendorGameController.new(fields) return end
 

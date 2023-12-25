@@ -21,7 +21,7 @@
 ---@field private defaultAtlasPath redResourceReferenceScriptToken
 ContinueGameTooltip = {}
 
----@param fields? table
+---@param fields? ContinueGameTooltip
 ---@return ContinueGameTooltip
 function ContinueGameTooltip.new(fields) return end
 

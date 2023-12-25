@@ -8,6 +8,6 @@
 ---@field public forcedLodDistance entForcedLodDistance
 entVisualControllerComponent = {}
 
----@param fields? table
+---@param fields? entVisualControllerComponent
 ---@return entVisualControllerComponent
 function entVisualControllerComponent.new(fields) return end

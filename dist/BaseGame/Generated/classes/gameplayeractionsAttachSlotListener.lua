@@ -4,6 +4,6 @@
 ---@class gameplayeractionsAttachSlotListener: gameIAttachmentSlotsListener
 gameplayeractionsAttachSlotListener = {}
 
----@param fields? table
+---@param fields? gameplayeractionsAttachSlotListener
 ---@return gameplayeractionsAttachSlotListener
 function gameplayeractionsAttachSlotListener.new(fields) return end

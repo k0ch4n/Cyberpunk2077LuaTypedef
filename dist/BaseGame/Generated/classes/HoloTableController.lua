@@ -4,7 +4,7 @@
 ---@class HoloTableController: MediaDeviceController
 HoloTableController = {}
 
----@param fields? table
+---@param fields? HoloTableController
 ---@return HoloTableController
 function HoloTableController.new(fields) return end
 

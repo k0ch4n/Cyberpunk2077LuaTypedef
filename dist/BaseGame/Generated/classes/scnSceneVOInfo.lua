@@ -8,6 +8,6 @@
 ---@field public id Uint16
 scnSceneVOInfo = {}
 
----@param fields? table
+---@param fields? scnSceneVOInfo
 ---@return scnSceneVOInfo
 function scnSceneVOInfo.new(fields) return end

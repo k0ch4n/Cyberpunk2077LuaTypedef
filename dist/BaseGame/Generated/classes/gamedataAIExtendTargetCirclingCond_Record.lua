@@ -4,7 +4,7 @@
 ---@class gamedataAIExtendTargetCirclingCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIExtendTargetCirclingCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIExtendTargetCirclingCond_Record
 ---@return gamedataAIExtendTargetCirclingCond_Record
 function gamedataAIExtendTargetCirclingCond_Record.new(fields) return end
 

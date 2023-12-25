@@ -6,6 +6,6 @@
 ---@field public togglePower SDeviceActionBoolData
 SGenericDeviceActionsData = {}
 
----@param fields? table
+---@param fields? SGenericDeviceActionsData
 ---@return SGenericDeviceActionsData
 function SGenericDeviceActionsData.new(fields) return end

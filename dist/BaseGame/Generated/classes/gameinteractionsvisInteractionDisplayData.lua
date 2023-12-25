@@ -10,6 +10,6 @@
 ---@field public oice gameinteractionsChoice
 gameinteractionsvisInteractionDisplayData = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisInteractionDisplayData
 ---@return gameinteractionsvisInteractionDisplayData
 function gameinteractionsvisInteractionDisplayData.new(fields) return end

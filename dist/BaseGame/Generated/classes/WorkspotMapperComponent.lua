@@ -5,7 +5,7 @@
 ---@field public workspotsMap WorkspotMapData[]
 WorkspotMapperComponent = {}
 
----@param fields? table
+---@param fields? WorkspotMapperComponent
 ---@return WorkspotMapperComponent
 function WorkspotMapperComponent.new(fields) return end
 

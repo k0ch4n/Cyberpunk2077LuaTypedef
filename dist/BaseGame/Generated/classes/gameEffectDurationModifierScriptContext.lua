@@ -4,7 +4,7 @@
 ---@class gameEffectDurationModifierScriptContext
 gameEffectDurationModifierScriptContext = {}
 
----@param fields? table
+---@param fields? gameEffectDurationModifierScriptContext
 ---@return gameEffectDurationModifierScriptContext
 function gameEffectDurationModifierScriptContext.new(fields) return end
 

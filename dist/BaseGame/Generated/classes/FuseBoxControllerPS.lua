@@ -7,7 +7,7 @@
 ---@field private isOverloaded Bool
 FuseBoxControllerPS = {}
 
----@param fields? table
+---@param fields? FuseBoxControllerPS
 ---@return FuseBoxControllerPS
 function FuseBoxControllerPS.new(fields) return end
 

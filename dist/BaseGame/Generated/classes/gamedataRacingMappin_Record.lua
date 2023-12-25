@@ -4,7 +4,7 @@
 ---@class gamedataRacingMappin_Record: gamedataTweakDBRecord
 gamedataRacingMappin_Record = {}
 
----@param fields? table
+---@param fields? gamedataRacingMappin_Record
 ---@return gamedataRacingMappin_Record
 function gamedataRacingMappin_Record.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public cameraTargetWeight Float
 vehicleAnimFeature_VehicleProceduralCamera = {}
 
----@param fields? table
+---@param fields? vehicleAnimFeature_VehicleProceduralCamera
 ---@return vehicleAnimFeature_VehicleProceduralCamera
 function vehicleAnimFeature_VehicleProceduralCamera.new(fields) return end

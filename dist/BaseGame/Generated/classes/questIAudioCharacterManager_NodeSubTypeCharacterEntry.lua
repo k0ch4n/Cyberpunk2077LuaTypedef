@@ -7,6 +7,6 @@
 ---@field public enableSubSystem Bool
 questIAudioCharacterManager_NodeSubTypeCharacterEntry = {}
 
----@param fields? table
+---@param fields? questIAudioCharacterManager_NodeSubTypeCharacterEntry
 ---@return questIAudioCharacterManager_NodeSubTypeCharacterEntry
 function questIAudioCharacterManager_NodeSubTypeCharacterEntry.new(fields) return end

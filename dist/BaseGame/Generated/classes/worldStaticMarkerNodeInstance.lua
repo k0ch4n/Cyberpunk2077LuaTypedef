@@ -4,6 +4,6 @@
 ---@class worldStaticMarkerNodeInstance: worldSocketNodeInstance
 worldStaticMarkerNodeInstance = {}
 
----@param fields? table
+---@param fields? worldStaticMarkerNodeInstance
 ---@return worldStaticMarkerNodeInstance
 function worldStaticMarkerNodeInstance.new(fields) return end

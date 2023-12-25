@@ -10,6 +10,6 @@
 ---@field public displayText String
 gameuiPinInfo = {}
 
----@param fields? table
+---@param fields? gameuiPinInfo
 ---@return gameuiPinInfo
 function gameuiPinInfo.new(fields) return end

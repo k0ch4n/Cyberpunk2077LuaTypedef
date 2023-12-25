@@ -6,6 +6,6 @@
 ---@field public type gameuiChoiceListVisualizerType
 gameuiInkChoiceVisualizer = {}
 
----@param fields? table
+---@param fields? gameuiInkChoiceVisualizer
 ---@return gameuiInkChoiceVisualizer
 function gameuiInkChoiceVisualizer.new(fields) return end

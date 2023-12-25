@@ -5,7 +5,7 @@
 ---@field private previousTarget entEntity
 LaserSight = {}
 
----@param fields? table
+---@param fields? LaserSight
 ---@return LaserSight
 function LaserSight.new(fields) return end
 

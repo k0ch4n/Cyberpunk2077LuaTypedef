@@ -6,7 +6,7 @@
 ---@field private result Bool
 SimpleSprintHarassCondition = {}
 
----@param fields? table
+---@param fields? SimpleSprintHarassCondition
 ---@return SimpleSprintHarassCondition
 function SimpleSprintHarassCondition.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameCoverInstance: gameSmartObjectWorkspotInstance
 gameCoverInstance = {}
 
----@param fields? table
+---@param fields? gameCoverInstance
 ---@return gameCoverInstance
 function gameCoverInstance.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class animAnimFeature: IScriptable
 animAnimFeature = {}
 
----@param fields? table
+---@param fields? animAnimFeature
 ---@return animAnimFeature
 function animAnimFeature.new(fields) return end

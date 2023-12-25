@@ -5,6 +5,6 @@
 ---@field public text String
 LabeledCursorData = {}
 
----@param fields? table
+---@param fields? LabeledCursorData
 ---@return LabeledCursorData
 function LabeledCursorData.new(fields) return end

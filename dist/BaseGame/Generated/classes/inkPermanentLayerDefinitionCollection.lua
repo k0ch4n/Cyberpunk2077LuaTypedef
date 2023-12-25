@@ -8,6 +8,6 @@
 ---@field public waitingSignLayerDefinition inkWaitingSignLayerDefinition
 inkPermanentLayerDefinitionCollection = {}
 
----@param fields? table
+---@param fields? inkPermanentLayerDefinitionCollection
 ---@return inkPermanentLayerDefinitionCollection
 function inkPermanentLayerDefinitionCollection.new(fields) return end

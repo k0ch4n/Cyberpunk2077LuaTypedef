@@ -6,6 +6,6 @@
 ---@field public blockHighlight Bool
 WeakspotRequestAttributeChangeEvent = {}
 
----@param fields? table
+---@param fields? WeakspotRequestAttributeChangeEvent
 ---@return WeakspotRequestAttributeChangeEvent
 function WeakspotRequestAttributeChangeEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public briefingPath gameJournalPath
 questOpenBriefing_NodeType = {}
 
----@param fields? table
+---@param fields? questOpenBriefing_NodeType
 ---@return questOpenBriefing_NodeType
 function questOpenBriefing_NodeType.new(fields) return end

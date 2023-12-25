@@ -4,7 +4,7 @@
 ---@class Debug_AimingLookatTestEnabled: AIDebugConditions
 Debug_AimingLookatTestEnabled = {}
 
----@param fields? table
+---@param fields? Debug_AimingLookatTestEnabled
 ---@return Debug_AimingLookatTestEnabled
 function Debug_AimingLookatTestEnabled.new(fields) return end
 

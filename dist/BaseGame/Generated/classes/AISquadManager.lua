@@ -4,6 +4,6 @@
 ---@class AISquadManager: AIISquadManager
 AISquadManager = {}
 
----@param fields? table
+---@param fields? AISquadManager
 ---@return AISquadManager
 function AISquadManager.new(fields) return end

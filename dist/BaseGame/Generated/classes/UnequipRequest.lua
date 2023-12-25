@@ -7,6 +7,6 @@
 ---@field public force Bool
 UnequipRequest = {}
 
----@param fields? table
+---@param fields? UnequipRequest
 ---@return UnequipRequest
 function UnequipRequest.new(fields) return end

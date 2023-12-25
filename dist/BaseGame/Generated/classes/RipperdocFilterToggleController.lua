@@ -4,7 +4,7 @@
 ---@class RipperdocFilterToggleController: ToggleController
 RipperdocFilterToggleController = {}
 
----@param fields? table
+---@param fields? RipperdocFilterToggleController
 ---@return RipperdocFilterToggleController
 function RipperdocFilterToggleController.new(fields) return end
 

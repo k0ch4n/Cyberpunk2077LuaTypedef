@@ -5,6 +5,6 @@
 ---@field public void Bool
 audioVehicleNpcOcclusionMetadata = {}
 
----@param fields? table
+---@param fields? audioVehicleNpcOcclusionMetadata
 ---@return audioVehicleNpcOcclusionMetadata
 function audioVehicleNpcOcclusionMetadata.new(fields) return end

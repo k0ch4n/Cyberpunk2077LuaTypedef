@@ -7,6 +7,6 @@
 ---@field public destructionLevelData physicsDestructionLevelData[]
 worldFoliagePhysicalDestructionMapping = {}
 
----@param fields? table
+---@param fields? worldFoliagePhysicalDestructionMapping
 ---@return worldFoliagePhysicalDestructionMapping
 function worldFoliagePhysicalDestructionMapping.new(fields) return end

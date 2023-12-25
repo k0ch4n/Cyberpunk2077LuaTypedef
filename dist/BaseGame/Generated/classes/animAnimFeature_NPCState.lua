@@ -5,6 +5,6 @@
 ---@field public state Int32
 animAnimFeature_NPCState = {}
 
----@param fields? table
+---@param fields? animAnimFeature_NPCState
 ---@return animAnimFeature_NPCState
 function animAnimFeature_NPCState.new(fields) return end

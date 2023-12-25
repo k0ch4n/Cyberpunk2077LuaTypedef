@@ -4,7 +4,7 @@
 ---@class gamestateMachineFunctor: IScriptable
 gamestateMachineFunctor = {}
 
----@param fields? table
+---@param fields? gamestateMachineFunctor
 ---@return gamestateMachineFunctor
 function gamestateMachineFunctor.new(fields) return end
 

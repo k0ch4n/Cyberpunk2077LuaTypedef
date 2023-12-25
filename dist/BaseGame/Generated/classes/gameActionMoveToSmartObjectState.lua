@@ -16,6 +16,6 @@
 ---@field public isInSmartObject Bool
 gameActionMoveToSmartObjectState = {}
 
----@param fields? table
+---@param fields? gameActionMoveToSmartObjectState
 ---@return gameActionMoveToSmartObjectState
 function gameActionMoveToSmartObjectState.new(fields) return end

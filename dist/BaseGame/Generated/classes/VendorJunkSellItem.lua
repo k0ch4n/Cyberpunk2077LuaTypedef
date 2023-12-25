@@ -6,6 +6,6 @@
 ---@field public quantity Int32
 VendorJunkSellItem = {}
 
----@param fields? table
+---@param fields? VendorJunkSellItem
 ---@return VendorJunkSellItem
 function VendorJunkSellItem.new(fields) return end

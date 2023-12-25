@@ -18,7 +18,7 @@
 ---@field private outroAnimation inkanimProxy
 ItemModeGridContainer = {}
 
----@param fields? table
+---@param fields? ItemModeGridContainer
 ---@return ItemModeGridContainer
 function ItemModeGridContainer.new(fields) return end
 

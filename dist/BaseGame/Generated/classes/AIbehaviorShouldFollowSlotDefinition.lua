@@ -4,6 +4,6 @@
 ---@class AIbehaviorShouldFollowSlotDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorShouldFollowSlotDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorShouldFollowSlotDefinition
 ---@return AIbehaviorShouldFollowSlotDefinition
 function AIbehaviorShouldFollowSlotDefinition.new(fields) return end

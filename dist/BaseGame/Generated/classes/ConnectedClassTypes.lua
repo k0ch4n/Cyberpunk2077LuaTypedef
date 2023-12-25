@@ -7,6 +7,6 @@
 ---@field public puppet Bool
 ConnectedClassTypes = {}
 
----@param fields? table
+---@param fields? ConnectedClassTypes
 ---@return ConnectedClassTypes
 function ConnectedClassTypes.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public cyberDismemberments Uint32
 gameDismemberedLimbCount = {}
 
----@param fields? table
+---@param fields? gameDismemberedLimbCount
 ---@return gameDismemberedLimbCount
 function gameDismemberedLimbCount.new(fields) return end

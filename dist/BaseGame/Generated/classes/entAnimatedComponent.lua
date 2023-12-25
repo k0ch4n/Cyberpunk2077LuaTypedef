@@ -18,6 +18,6 @@
 ---@field public clientForcedVisibility Bool
 entAnimatedComponent = {}
 
----@param fields? table
+---@param fields? entAnimatedComponent
 ---@return entAnimatedComponent
 function entAnimatedComponent.new(fields) return end

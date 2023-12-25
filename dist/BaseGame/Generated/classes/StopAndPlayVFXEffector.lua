@@ -7,7 +7,7 @@
 ---@field public owner gameObject
 StopAndPlayVFXEffector = {}
 
----@param fields? table
+---@param fields? StopAndPlayVFXEffector
 ---@return StopAndPlayVFXEffector
 function StopAndPlayVFXEffector.new(fields) return end
 

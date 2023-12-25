@@ -6,6 +6,6 @@
 ---@field public files gamedeviceGenericDataContent[]
 gamedeviceComputerUIData = {}
 
----@param fields? table
+---@param fields? gamedeviceComputerUIData
 ---@return gamedeviceComputerUIData
 function gamedeviceComputerUIData.new(fields) return end

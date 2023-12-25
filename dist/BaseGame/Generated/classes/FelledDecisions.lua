@@ -6,7 +6,7 @@
 ---@field private callbackIDs redCallbackObject[]
 FelledDecisions = {}
 
----@param fields? table
+---@param fields? FelledDecisions
 ---@return FelledDecisions
 function FelledDecisions.new(fields) return end
 

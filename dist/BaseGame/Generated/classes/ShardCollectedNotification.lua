@@ -7,7 +7,7 @@
 ---@field private animProxy inkanimProxy
 ShardCollectedNotification = {}
 
----@param fields? table
+---@param fields? ShardCollectedNotification
 ---@return ShardCollectedNotification
 function ShardCollectedNotification.new(fields) return end
 

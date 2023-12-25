@@ -4,6 +4,6 @@
 ---@class redCVersionCommandlet: redICommandlet
 redCVersionCommandlet = {}
 
----@param fields? table
+---@param fields? redCVersionCommandlet
 ---@return redCVersionCommandlet
 function redCVersionCommandlet.new(fields) return end

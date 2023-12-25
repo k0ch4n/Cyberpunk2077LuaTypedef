@@ -27,6 +27,6 @@
 ---@field public systemsToNotifyFlags Uint16
 worldInstancedDestructibleMeshNode = {}
 
----@param fields? table
+---@param fields? worldInstancedDestructibleMeshNode
 ---@return worldInstancedDestructibleMeshNode
 function worldInstancedDestructibleMeshNode.new(fields) return end

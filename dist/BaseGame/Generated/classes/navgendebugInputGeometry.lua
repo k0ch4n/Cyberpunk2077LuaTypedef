@@ -7,6 +7,6 @@
 ---@field public extrudedBoundingBox Box
 navgendebugInputGeometry = {}
 
----@param fields? table
+---@param fields? navgendebugInputGeometry
 ---@return navgendebugInputGeometry
 function navgendebugInputGeometry.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public renderTextureResource rendRenderTextureResource
 CTextureArray = {}
 
----@param fields? table
+---@param fields? CTextureArray
 ---@return CTextureArray
 function CTextureArray.new(fields) return end

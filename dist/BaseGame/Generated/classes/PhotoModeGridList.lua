@@ -23,7 +23,7 @@
 ---@field private isVisibleOnscreen Bool
 PhotoModeGridList = {}
 
----@param fields? table
+---@param fields? PhotoModeGridList
 ---@return PhotoModeGridList
 function PhotoModeGridList.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class QuestFluffShardLinkController: BaseCodexLinkController
 QuestFluffShardLinkController = {}
 
----@param fields? table
+---@param fields? QuestFluffShardLinkController
 ---@return QuestFluffShardLinkController
 function QuestFluffShardLinkController.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public multipliers audioVehicleMultipliers
 questAudioVehicleMultipliers_NodeType = {}
 
----@param fields? table
+---@param fields? questAudioVehicleMultipliers_NodeType
 ---@return questAudioVehicleMultipliers_NodeType
 function questAudioVehicleMultipliers_NodeType.new(fields) return end

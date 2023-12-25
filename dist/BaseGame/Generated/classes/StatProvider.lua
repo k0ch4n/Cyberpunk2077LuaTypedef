@@ -8,7 +8,7 @@
 ---@field private dataSource gameEStatProviderDataSource
 StatProvider = {}
 
----@param fields? table
+---@param fields? StatProvider
 ---@return StatProvider
 function StatProvider.new(fields) return end
 

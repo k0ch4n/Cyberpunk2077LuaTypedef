@@ -4,6 +4,6 @@
 ---@class DeescalateFearInVehicle: redEvent
 DeescalateFearInVehicle = {}
 
----@param fields? table
+---@param fields? DeescalateFearInVehicle
 ---@return DeescalateFearInVehicle
 function DeescalateFearInVehicle.new(fields) return end

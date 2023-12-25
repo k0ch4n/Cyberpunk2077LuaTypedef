@@ -8,6 +8,6 @@
 ---@field public wasScheduled Bool
 SecurityAreaTypeChangedNotification = {}
 
----@param fields? table
+---@param fields? SecurityAreaTypeChangedNotification
 ---@return SecurityAreaTypeChangedNotification
 function SecurityAreaTypeChangedNotification.new(fields) return end

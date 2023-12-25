@@ -4,7 +4,7 @@
 ---@class PatrolAlertedControllerTask: AIbehaviortaskScript
 PatrolAlertedControllerTask = {}
 
----@param fields? table
+---@param fields? PatrolAlertedControllerTask
 ---@return PatrolAlertedControllerTask
 function PatrolAlertedControllerTask.new(fields) return end
 

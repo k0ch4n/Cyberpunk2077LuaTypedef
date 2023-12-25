@@ -5,7 +5,7 @@
 ---@field public damages SDamageOperationData[]
 ApplyDamageDeviceOperation = {}
 
----@param fields? table
+---@param fields? ApplyDamageDeviceOperation
 ---@return ApplyDamageDeviceOperation
 function ApplyDamageDeviceOperation.new(fields) return end
 

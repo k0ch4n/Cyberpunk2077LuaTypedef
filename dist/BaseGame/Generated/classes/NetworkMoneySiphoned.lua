@@ -4,6 +4,6 @@
 ---@class NetworkMoneySiphoned: redEvent
 NetworkMoneySiphoned = {}
 
----@param fields? table
+---@param fields? NetworkMoneySiphoned
 ---@return NetworkMoneySiphoned
 function NetworkMoneySiphoned.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public DescriptionLocalizationPackage gameUILocalizationDataPackage
 MessageTooltipData = {}
 
----@param fields? table
+---@param fields? MessageTooltipData
 ---@return MessageTooltipData
 function MessageTooltipData.new(fields) return end

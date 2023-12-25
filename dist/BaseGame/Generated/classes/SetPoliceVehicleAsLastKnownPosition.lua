@@ -4,7 +4,7 @@
 ---@class SetPoliceVehicleAsLastKnownPosition: AIbehaviortaskScript
 SetPoliceVehicleAsLastKnownPosition = {}
 
----@param fields? table
+---@param fields? SetPoliceVehicleAsLastKnownPosition
 ---@return SetPoliceVehicleAsLastKnownPosition
 function SetPoliceVehicleAsLastKnownPosition.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class MinimalItemTooltipModData: IScriptable
 MinimalItemTooltipModData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipModData
 ---@return MinimalItemTooltipModData
 function MinimalItemTooltipModData.new(fields) return end

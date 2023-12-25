@@ -4,7 +4,7 @@
 ---@class NotReadyDecisions: WeaponReadyListenerTransition
 NotReadyDecisions = {}
 
----@param fields? table
+---@param fields? NotReadyDecisions
 ---@return NotReadyDecisions
 function NotReadyDecisions.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class CombatGadgetStartEvents: DefaultTransition
 CombatGadgetStartEvents = {}
 
----@param fields? table
+---@param fields? CombatGadgetStartEvents
 ---@return CombatGadgetStartEvents
 function CombatGadgetStartEvents.new(fields) return end

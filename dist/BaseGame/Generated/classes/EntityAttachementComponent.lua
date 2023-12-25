@@ -5,7 +5,7 @@
 ---@field public parentAttachementData EntityAttachementData
 EntityAttachementComponent = {}
 
----@param fields? table
+---@param fields? EntityAttachementComponent
 ---@return EntityAttachementComponent
 function EntityAttachementComponent.new(fields) return end
 

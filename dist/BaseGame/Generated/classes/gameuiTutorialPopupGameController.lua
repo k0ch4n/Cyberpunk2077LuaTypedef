@@ -27,7 +27,7 @@
 ---@field private onInputDeviceChangedCallbackID redCallbackObject
 gameuiTutorialPopupGameController = {}
 
----@param fields? table
+---@param fields? gameuiTutorialPopupGameController
 ---@return gameuiTutorialPopupGameController
 function gameuiTutorialPopupGameController.new(fields) return end
 

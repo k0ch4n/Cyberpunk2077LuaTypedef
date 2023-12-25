@@ -5,7 +5,7 @@
 ---@field private duration Float
 UIInGameNotificationQueue = {}
 
----@param fields? table
+---@param fields? UIInGameNotificationQueue
 ---@return UIInGameNotificationQueue
 function UIInGameNotificationQueue.new(fields) return end
 

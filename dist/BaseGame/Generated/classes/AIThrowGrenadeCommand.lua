@@ -8,6 +8,6 @@
 ---@field public once Bool
 AIThrowGrenadeCommand = {}
 
----@param fields? table
+---@param fields? AIThrowGrenadeCommand
 ---@return AIThrowGrenadeCommand
 function AIThrowGrenadeCommand.new(fields) return end

@@ -12,6 +12,6 @@
 ---@field public uv DataBuffer
 garmentMeshParamGarmentChunkData = {}
 
----@param fields? table
+---@param fields? garmentMeshParamGarmentChunkData
 ---@return garmentMeshParamGarmentChunkData
 function garmentMeshParamGarmentChunkData.new(fields) return end

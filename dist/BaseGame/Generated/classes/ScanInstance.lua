@@ -5,7 +5,7 @@
 ---@field public isScanningCluesBlocked Bool
 ScanInstance = {}
 
----@param fields? table
+---@param fields? ScanInstance
 ---@return ScanInstance
 function ScanInstance.new(fields) return end
 

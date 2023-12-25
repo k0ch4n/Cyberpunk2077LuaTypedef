@@ -4,7 +4,7 @@
 ---@class inkMenuLayer_SetMenuModeEvent: redEvent
 inkMenuLayer_SetMenuModeEvent = {}
 
----@param fields? table
+---@param fields? inkMenuLayer_SetMenuModeEvent
 ---@return inkMenuLayer_SetMenuModeEvent
 function inkMenuLayer_SetMenuModeEvent.new(fields) return end
 

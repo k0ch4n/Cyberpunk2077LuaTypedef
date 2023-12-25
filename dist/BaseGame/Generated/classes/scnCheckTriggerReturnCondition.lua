@@ -5,6 +5,6 @@
 ---@field public params scnCheckTriggerReturnConditionParams
 scnCheckTriggerReturnCondition = {}
 
----@param fields? table
+---@param fields? scnCheckTriggerReturnCondition
 ---@return scnCheckTriggerReturnCondition
 function scnCheckTriggerReturnCondition.new(fields) return end

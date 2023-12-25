@@ -41,7 +41,7 @@
 ---@field private signalBarSize Vector2
 HUDSignalProgressBarController = {}
 
----@param fields? table
+---@param fields? HUDSignalProgressBarController
 ---@return HUDSignalProgressBarController
 function HUDSignalProgressBarController.new(fields) return end
 

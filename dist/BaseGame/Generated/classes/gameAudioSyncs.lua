@@ -8,6 +8,6 @@
 ---@field public parameterEvents audioAudParameter[]
 gameAudioSyncs = {}
 
----@param fields? table
+---@param fields? gameAudioSyncs
 ---@return gameAudioSyncs
 function gameAudioSyncs.new(fields) return end

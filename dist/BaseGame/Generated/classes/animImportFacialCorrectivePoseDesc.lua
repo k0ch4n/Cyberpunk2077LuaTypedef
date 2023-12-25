@@ -18,6 +18,6 @@
 ---@field public useGlobalWeight Bool
 animImportFacialCorrectivePoseDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialCorrectivePoseDesc
 ---@return animImportFacialCorrectivePoseDesc
 function animImportFacialCorrectivePoseDesc.new(fields) return end

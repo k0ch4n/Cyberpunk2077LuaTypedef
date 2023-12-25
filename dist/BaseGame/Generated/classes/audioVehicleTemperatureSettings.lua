@@ -7,6 +7,6 @@
 ---@field public cooldownTime Float
 audioVehicleTemperatureSettings = {}
 
----@param fields? table
+---@param fields? audioVehicleTemperatureSettings
 ---@return audioVehicleTemperatureSettings
 function audioVehicleTemperatureSettings.new(fields) return end

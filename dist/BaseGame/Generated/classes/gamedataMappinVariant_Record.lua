@@ -4,7 +4,7 @@
 ---@class gamedataMappinVariant_Record: gamedataTweakDBRecord
 gamedataMappinVariant_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinVariant_Record
 ---@return gamedataMappinVariant_Record
 function gamedataMappinVariant_Record.new(fields) return end
 

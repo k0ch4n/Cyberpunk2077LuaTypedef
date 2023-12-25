@@ -4,6 +4,6 @@
 ---@class entEntityPreview: entEntity
 entEntityPreview = {}
 
----@param fields? table
+---@param fields? entEntityPreview
 ---@return entEntityPreview
 function entEntityPreview.new(fields) return end

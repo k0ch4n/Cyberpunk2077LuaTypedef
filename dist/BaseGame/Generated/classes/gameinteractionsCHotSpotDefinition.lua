@@ -6,6 +6,6 @@
 ---@field public layersDefinition gameinteractionsCLinkedLayersDefinition[]
 gameinteractionsCHotSpotDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCHotSpotDefinition
 ---@return gameinteractionsCHotSpotDefinition
 function gameinteractionsCHotSpotDefinition.new(fields) return end

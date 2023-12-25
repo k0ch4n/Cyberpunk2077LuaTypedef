@@ -7,6 +7,6 @@
 ---@field public clGeneratedIds String[]
 localizationPersistenceCLNumberDateContainer = {}
 
----@param fields? table
+---@param fields? localizationPersistenceCLNumberDateContainer
 ---@return localizationPersistenceCLNumberDateContainer
 function localizationPersistenceCLNumberDateContainer.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public playerGodModeModifierData gameStatModifierData_Deprecated
 StatsManager = {}
 
----@param fields? table
+---@param fields? StatsManager
 ---@return StatsManager
 function StatsManager.new(fields) return end
 

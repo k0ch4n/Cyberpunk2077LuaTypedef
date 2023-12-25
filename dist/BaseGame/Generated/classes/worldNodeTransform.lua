@@ -7,6 +7,6 @@
 ---@field public scale Vector3
 worldNodeTransform = {}
 
----@param fields? table
+---@param fields? worldNodeTransform
 ---@return worldNodeTransform
 function worldNodeTransform.new(fields) return end

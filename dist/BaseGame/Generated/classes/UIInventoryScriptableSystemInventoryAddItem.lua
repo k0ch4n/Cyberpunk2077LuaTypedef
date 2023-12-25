@@ -6,6 +6,6 @@
 ---@field public itemData gameItemData
 UIInventoryScriptableSystemInventoryAddItem = {}
 
----@param fields? table
+---@param fields? UIInventoryScriptableSystemInventoryAddItem
 ---@return UIInventoryScriptableSystemInventoryAddItem
 function UIInventoryScriptableSystemInventoryAddItem.new(fields) return end

@@ -21,6 +21,6 @@
 ---@field public effectInstance gameEffectInstance
 SAreaEffectData = {}
 
----@param fields? table
+---@param fields? SAreaEffectData
 ---@return SAreaEffectData
 function SAreaEffectData.new(fields) return end

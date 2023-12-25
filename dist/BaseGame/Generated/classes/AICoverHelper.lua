@@ -4,7 +4,7 @@
 ---@class AICoverHelper: IScriptable
 AICoverHelper = {}
 
----@param fields? table
+---@param fields? AICoverHelper
 ---@return AICoverHelper
 function AICoverHelper.new(fields) return end
 

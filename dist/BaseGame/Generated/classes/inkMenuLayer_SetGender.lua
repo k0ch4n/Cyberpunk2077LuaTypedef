@@ -4,7 +4,7 @@
 ---@class inkMenuLayer_SetGender: redEvent
 inkMenuLayer_SetGender = {}
 
----@param fields? table
+---@param fields? inkMenuLayer_SetGender
 ---@return inkMenuLayer_SetGender
 function inkMenuLayer_SetGender.new(fields) return end
 

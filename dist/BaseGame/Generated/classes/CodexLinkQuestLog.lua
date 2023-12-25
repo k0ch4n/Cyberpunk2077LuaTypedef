@@ -4,7 +4,7 @@
 ---@class CodexLinkQuestLog: CodexImageButton
 CodexLinkQuestLog = {}
 
----@param fields? table
+---@param fields? CodexLinkQuestLog
 ---@return CodexLinkQuestLog
 function CodexLinkQuestLog.new(fields) return end
 

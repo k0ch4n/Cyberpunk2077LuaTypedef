@@ -6,6 +6,6 @@
 ---@field public killInfo gameuiKillInfo
 gamedamageServerKillData = {}
 
----@param fields? table
+---@param fields? gamedamageServerKillData
 ---@return gamedamageServerKillData
 function gamedamageServerKillData.new(fields) return end

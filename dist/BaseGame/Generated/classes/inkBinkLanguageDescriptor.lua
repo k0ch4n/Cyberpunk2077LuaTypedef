@@ -6,6 +6,6 @@
 ---@field public languageId inkLanguageId
 inkBinkLanguageDescriptor = {}
 
----@param fields? table
+---@param fields? inkBinkLanguageDescriptor
 ---@return inkBinkLanguageDescriptor
 function inkBinkLanguageDescriptor.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public permanent Bool
 questCutControlNodeDefinition = {}
 
----@param fields? table
+---@param fields? questCutControlNodeDefinition
 ---@return questCutControlNodeDefinition
 function questCutControlNodeDefinition.new(fields) return end

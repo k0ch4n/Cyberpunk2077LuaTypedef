@@ -6,6 +6,6 @@
 ---@field public footSide animEventSide
 entFootPlantedEvent = {}
 
----@param fields? table
+---@param fields? entFootPlantedEvent
 ---@return entFootPlantedEvent
 function entFootPlantedEvent.new(fields) return end

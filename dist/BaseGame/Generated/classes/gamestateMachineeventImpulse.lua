@@ -5,6 +5,6 @@
 ---@field public impulse Vector4
 gamestateMachineeventImpulse = {}
 
----@param fields? table
+---@param fields? gamestateMachineeventImpulse
 ---@return gamestateMachineeventImpulse
 function gamestateMachineeventImpulse.new(fields) return end

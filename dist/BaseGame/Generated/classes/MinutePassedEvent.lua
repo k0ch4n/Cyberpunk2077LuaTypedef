@@ -4,6 +4,6 @@
 ---@class MinutePassedEvent: redEvent
 MinutePassedEvent = {}
 
----@param fields? table
+---@param fields? MinutePassedEvent
 ---@return MinutePassedEvent
 function MinutePassedEvent.new(fields) return end

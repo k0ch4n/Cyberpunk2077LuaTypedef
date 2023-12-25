@@ -6,6 +6,6 @@
 ---@field public equipmentSets gameSEquipmentSet[]
 gameSLoadout = {}
 
----@param fields? table
+---@param fields? gameSLoadout
 ---@return gameSLoadout
 function gameSLoadout.new(fields) return end

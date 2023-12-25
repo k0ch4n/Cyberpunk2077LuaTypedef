@@ -4,7 +4,7 @@
 ---@class AudioFunctionalTests: IScriptable
 AudioFunctionalTests = {}
 
----@param fields? table
+---@param fields? AudioFunctionalTests
 ---@return AudioFunctionalTests
 function AudioFunctionalTests.new(fields) return end
 

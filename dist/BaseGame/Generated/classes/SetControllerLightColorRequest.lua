@@ -8,6 +8,6 @@
 ---@field public notQuest Bool
 SetControllerLightColorRequest = {}
 
----@param fields? table
+---@param fields? SetControllerLightColorRequest
 ---@return SetControllerLightColorRequest
 function SetControllerLightColorRequest.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class SafeDecisions: WeaponTransition
 SafeDecisions = {}
 
----@param fields? table
+---@param fields? SafeDecisions
 ---@return SafeDecisions
 function SafeDecisions.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public tracks Float
 scnCameraAnimationLOD = {}
 
----@param fields? table
+---@param fields? scnCameraAnimationLOD
 ---@return scnCameraAnimationLOD
 function scnCameraAnimationLOD.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameShootingAccuracySystem: gameIShootingAccuracySystem
 gameShootingAccuracySystem = {}
 
----@param fields? table
+---@param fields? gameShootingAccuracySystem
 ---@return gameShootingAccuracySystem
 function gameShootingAccuracySystem.new(fields) return end

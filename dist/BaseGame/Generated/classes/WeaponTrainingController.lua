@@ -4,7 +4,7 @@
 ---@class WeaponTrainingController: ScriptableDeviceComponent
 WeaponTrainingController = {}
 
----@param fields? table
+---@param fields? WeaponTrainingController
 ---@return WeaponTrainingController
 function WeaponTrainingController.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private PartName String
 InputProgressView = {}
 
----@param fields? table
+---@param fields? InputProgressView
 ---@return InputProgressView
 function InputProgressView.new(fields) return end
 

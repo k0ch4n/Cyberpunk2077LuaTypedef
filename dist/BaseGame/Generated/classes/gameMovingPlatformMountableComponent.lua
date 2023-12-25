@@ -4,6 +4,6 @@
 ---@class gameMovingPlatformMountableComponent: gamemountingMountableComponent
 gameMovingPlatformMountableComponent = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformMountableComponent
 ---@return gameMovingPlatformMountableComponent
 function gameMovingPlatformMountableComponent.new(fields) return end

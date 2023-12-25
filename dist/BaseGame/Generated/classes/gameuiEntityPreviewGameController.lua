@@ -5,7 +5,7 @@
 ---@field public entityToPreview entEntityTemplate
 gameuiEntityPreviewGameController = {}
 
----@param fields? table
+---@param fields? gameuiEntityPreviewGameController
 ---@return gameuiEntityPreviewGameController
 function gameuiEntityPreviewGameController.new(fields) return end
 

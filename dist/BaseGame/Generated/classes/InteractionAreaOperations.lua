@@ -5,7 +5,7 @@
 ---@field protected interactionAreaOperations SInteractionAreaOperationData[]
 InteractionAreaOperations = {}
 
----@param fields? table
+---@param fields? InteractionAreaOperations
 ---@return InteractionAreaOperations
 function InteractionAreaOperations.new(fields) return end
 

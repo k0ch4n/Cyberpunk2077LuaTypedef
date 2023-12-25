@@ -4,7 +4,7 @@
 ---@class SniperNestController: SensorDeviceController
 SniperNestController = {}
 
----@param fields? table
+---@param fields? SniperNestController
 ---@return SniperNestController
 function SniperNestController.new(fields) return end
 

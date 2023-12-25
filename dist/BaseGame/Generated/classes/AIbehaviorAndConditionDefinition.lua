@@ -4,6 +4,6 @@
 ---@class AIbehaviorAndConditionDefinition: AIbehaviorCompositeConditionDefinition
 AIbehaviorAndConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorAndConditionDefinition
 ---@return AIbehaviorAndConditionDefinition
 function AIbehaviorAndConditionDefinition.new(fields) return end

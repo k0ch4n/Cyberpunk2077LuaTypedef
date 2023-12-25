@@ -4,7 +4,7 @@
 ---@class GTFManager: IScriptable
 GTFManager = {}
 
----@param fields? table
+---@param fields? GTFManager
 ---@return GTFManager
 function GTFManager.new(fields) return end
 

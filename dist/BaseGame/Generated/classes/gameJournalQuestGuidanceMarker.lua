@@ -7,6 +7,6 @@
 ---@field public isPortal Bool
 gameJournalQuestGuidanceMarker = {}
 
----@param fields? table
+---@param fields? gameJournalQuestGuidanceMarker
 ---@return gameJournalQuestGuidanceMarker
 function gameJournalQuestGuidanceMarker.new(fields) return end

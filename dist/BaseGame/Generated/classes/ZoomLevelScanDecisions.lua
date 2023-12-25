@@ -4,7 +4,7 @@
 ---@class ZoomLevelScanDecisions: ZoomDecisionsTransition
 ZoomLevelScanDecisions = {}
 
----@param fields? table
+---@param fields? ZoomLevelScanDecisions
 ---@return ZoomLevelScanDecisions
 function ZoomLevelScanDecisions.new(fields) return end
 

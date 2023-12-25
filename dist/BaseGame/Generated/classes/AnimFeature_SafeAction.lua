@@ -7,6 +7,6 @@
 ---@field public safeActionDuration Float
 AnimFeature_SafeAction = {}
 
----@param fields? table
+---@param fields? AnimFeature_SafeAction
 ---@return AnimFeature_SafeAction
 function AnimFeature_SafeAction.new(fields) return end

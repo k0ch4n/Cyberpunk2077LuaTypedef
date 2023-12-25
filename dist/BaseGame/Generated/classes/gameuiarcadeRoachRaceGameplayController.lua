@@ -18,6 +18,6 @@
 ---@field public invincibilityCooldownIndicator inkWidgetReference
 gameuiarcadeRoachRaceGameplayController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeRoachRaceGameplayController
 ---@return gameuiarcadeRoachRaceGameplayController
 function gameuiarcadeRoachRaceGameplayController.new(fields) return end

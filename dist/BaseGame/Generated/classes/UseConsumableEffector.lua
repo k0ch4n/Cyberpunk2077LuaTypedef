@@ -4,7 +4,7 @@
 ---@class UseConsumableEffector: gameEffector
 UseConsumableEffector = {}
 
----@param fields? table
+---@param fields? UseConsumableEffector
 ---@return UseConsumableEffector
 function UseConsumableEffector.new(fields) return end
 

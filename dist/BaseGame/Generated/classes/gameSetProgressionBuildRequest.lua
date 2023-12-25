@@ -5,6 +5,6 @@
 ---@field public buildID TweakDBID
 gameSetProgressionBuildRequest = {}
 
----@param fields? table
+---@param fields? gameSetProgressionBuildRequest
 ---@return gameSetProgressionBuildRequest
 function gameSetProgressionBuildRequest.new(fields) return end

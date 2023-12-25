@@ -7,6 +7,6 @@
 ---@field public inputLink animPoseLink
 animAnimNode_GraphSlot = {}
 
----@param fields? table
+---@param fields? animAnimNode_GraphSlot
 ---@return animAnimNode_GraphSlot
 function animAnimNode_GraphSlot.new(fields) return end

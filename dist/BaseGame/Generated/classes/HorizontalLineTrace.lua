@@ -9,7 +9,7 @@
 ---@field public azimuth AIArgumentMapping
 HorizontalLineTrace = {}
 
----@param fields? table
+---@param fields? HorizontalLineTrace
 ---@return HorizontalLineTrace
 function HorizontalLineTrace.new(fields) return end
 

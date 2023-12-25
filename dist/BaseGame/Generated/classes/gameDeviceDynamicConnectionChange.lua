@@ -4,6 +4,6 @@
 ---@class gameDeviceDynamicConnectionChange: redEvent
 gameDeviceDynamicConnectionChange = {}
 
----@param fields? table
+---@param fields? gameDeviceDynamicConnectionChange
 ---@return gameDeviceDynamicConnectionChange
 function gameDeviceDynamicConnectionChange.new(fields) return end

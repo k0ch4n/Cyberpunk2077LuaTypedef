@@ -19,7 +19,7 @@
 ---@field private overrideTakeOverRotation Float
 SurveillanceCameraControllerPS = {}
 
----@param fields? table
+---@param fields? SurveillanceCameraControllerPS
 ---@return SurveillanceCameraControllerPS
 function SurveillanceCameraControllerPS.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class DeviceActionPropertyFunctions: IScriptable
 DeviceActionPropertyFunctions = {}
 
----@param fields? table
+---@param fields? DeviceActionPropertyFunctions
 ---@return DeviceActionPropertyFunctions
 function DeviceActionPropertyFunctions.new(fields) return end
 

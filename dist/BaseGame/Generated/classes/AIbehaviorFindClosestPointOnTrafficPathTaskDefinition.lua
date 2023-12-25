@@ -14,6 +14,6 @@
 ---@field public joinTrafficSettings AIArgumentMapping
 AIbehaviorFindClosestPointOnTrafficPathTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFindClosestPointOnTrafficPathTaskDefinition
 ---@return AIbehaviorFindClosestPointOnTrafficPathTaskDefinition
 function AIbehaviorFindClosestPointOnTrafficPathTaskDefinition.new(fields) return end

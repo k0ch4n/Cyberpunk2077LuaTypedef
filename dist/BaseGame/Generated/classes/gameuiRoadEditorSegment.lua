@@ -9,6 +9,6 @@
 ---@field public decorationSettings gameuiRoadEditorDecorationSettings[]
 gameuiRoadEditorSegment = {}
 
----@param fields? table
+---@param fields? gameuiRoadEditorSegment
 ---@return gameuiRoadEditorSegment
 function gameuiRoadEditorSegment.new(fields) return end

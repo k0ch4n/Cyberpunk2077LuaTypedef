@@ -6,6 +6,6 @@
 ---@field public oldValue Float
 UpdateWeaponChargeEvent = {}
 
----@param fields? table
+---@param fields? UpdateWeaponChargeEvent
 ---@return UpdateWeaponChargeEvent
 function UpdateWeaponChargeEvent.new(fields) return end

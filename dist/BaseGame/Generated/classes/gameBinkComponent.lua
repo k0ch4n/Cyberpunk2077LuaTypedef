@@ -11,7 +11,7 @@
 ---@field public isEnabled Bool
 gameBinkComponent = {}
 
----@param fields? table
+---@param fields? gameBinkComponent
 ---@return gameBinkComponent
 function gameBinkComponent.new(fields) return end
 

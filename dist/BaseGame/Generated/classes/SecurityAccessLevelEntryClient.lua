@@ -5,7 +5,7 @@
 ---@field public level ESecurityAccessLevel
 SecurityAccessLevelEntryClient = {}
 
----@param fields? table
+---@param fields? SecurityAccessLevelEntryClient
 ---@return SecurityAccessLevelEntryClient
 function SecurityAccessLevelEntryClient.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private projection inkScreenProjection
 sampleScreenProjectionLogicController = {}
 
----@param fields? table
+---@param fields? sampleScreenProjectionLogicController
 ---@return sampleScreenProjectionLogicController
 function sampleScreenProjectionLogicController.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public duration Float
 AIMeleeAttackCommand = {}
 
----@param fields? table
+---@param fields? AIMeleeAttackCommand
 ---@return AIMeleeAttackCommand
 function AIMeleeAttackCommand.new(fields) return end

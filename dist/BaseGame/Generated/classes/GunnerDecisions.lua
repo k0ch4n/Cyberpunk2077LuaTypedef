@@ -4,7 +4,7 @@
 ---@class GunnerDecisions: VehicleTransition
 GunnerDecisions = {}
 
----@param fields? table
+---@param fields? GunnerDecisions
 ---@return GunnerDecisions
 function GunnerDecisions.new(fields) return end
 

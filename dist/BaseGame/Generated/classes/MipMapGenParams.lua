@@ -7,6 +7,6 @@
 ---@field public applyToksvig_sourceNormalMap CBitmapTexture
 MipMapGenParams = {}
 
----@param fields? table
+---@param fields? MipMapGenParams
 ---@return MipMapGenParams
 function MipMapGenParams.new(fields) return end

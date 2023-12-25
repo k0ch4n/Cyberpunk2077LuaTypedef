@@ -11,6 +11,6 @@
 ---@field public ears Uint32
 entFacialCustomizationComponent = {}
 
----@param fields? table
+---@param fields? entFacialCustomizationComponent
 ---@return entFacialCustomizationComponent
 function entFacialCustomizationComponent.new(fields) return end

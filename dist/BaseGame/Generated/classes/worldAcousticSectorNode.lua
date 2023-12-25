@@ -10,6 +10,6 @@
 ---@field public edgeMask Uint8
 worldAcousticSectorNode = {}
 
----@param fields? table
+---@param fields? worldAcousticSectorNode
 ---@return worldAcousticSectorNode
 function worldAcousticSectorNode.new(fields) return end

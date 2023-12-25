@@ -4,7 +4,7 @@
 ---@class SceneTierIIIDecisions: SceneTierAbstractDecisions
 SceneTierIIIDecisions = {}
 
----@param fields? table
+---@param fields? SceneTierIIIDecisions
 ---@return SceneTierIIIDecisions
 function SceneTierIIIDecisions.new(fields) return end
 

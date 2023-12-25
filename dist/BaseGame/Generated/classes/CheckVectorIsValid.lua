@@ -6,7 +6,7 @@
 ---@field public value Vector4
 CheckVectorIsValid = {}
 
----@param fields? table
+---@param fields? CheckVectorIsValid
 ---@return CheckVectorIsValid
 function CheckVectorIsValid.new(fields) return end
 

@@ -22,6 +22,6 @@
 ---@field public additionalContentIds CName[]
 saveMetadata = {}
 
----@param fields? table
+---@param fields? saveMetadata
 ---@return saveMetadata
 function saveMetadata.new(fields) return end

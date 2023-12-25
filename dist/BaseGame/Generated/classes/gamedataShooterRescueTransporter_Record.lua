@@ -4,6 +4,6 @@
 ---@class gamedataShooterRescueTransporter_Record: gamedataShooterAI_Record
 gamedataShooterRescueTransporter_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterRescueTransporter_Record
 ---@return gamedataShooterRescueTransporter_Record
 function gamedataShooterRescueTransporter_Record.new(fields) return end

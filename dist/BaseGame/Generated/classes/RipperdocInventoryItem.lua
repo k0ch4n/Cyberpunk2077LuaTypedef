@@ -7,7 +7,7 @@
 ---@field protected widget InventoryItemDisplayController
 RipperdocInventoryItem = {}
 
----@param fields? table
+---@param fields? RipperdocInventoryItem
 ---@return RipperdocInventoryItem
 function RipperdocInventoryItem.new(fields) return end
 

@@ -18,6 +18,6 @@
 ---@field public highlight effectEffectParameterEvaluatorVector
 effectTrackItemColorGradeV2 = {}
 
----@param fields? table
+---@param fields? effectTrackItemColorGradeV2
 ---@return effectTrackItemColorGradeV2
 function effectTrackItemColorGradeV2.new(fields) return end

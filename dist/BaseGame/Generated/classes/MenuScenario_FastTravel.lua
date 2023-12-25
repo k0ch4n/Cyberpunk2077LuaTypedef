@@ -4,7 +4,7 @@
 ---@class MenuScenario_FastTravel: MenuScenario_BaseMenu
 MenuScenario_FastTravel = {}
 
----@param fields? table
+---@param fields? MenuScenario_FastTravel
 ---@return MenuScenario_FastTravel
 function MenuScenario_FastTravel.new(fields) return end
 

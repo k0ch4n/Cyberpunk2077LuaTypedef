@@ -5,6 +5,6 @@
 ---@field public statusEffectType gamedataStatusEffectType
 RemoveAllStatusEffectOfTypeEvent = {}
 
----@param fields? table
+---@param fields? RemoveAllStatusEffectOfTypeEvent
 ---@return RemoveAllStatusEffectOfTypeEvent
 function RemoveAllStatusEffectOfTypeEvent.new(fields) return end

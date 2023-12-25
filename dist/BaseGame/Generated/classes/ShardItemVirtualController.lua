@@ -17,7 +17,7 @@
 ---@field private clicked Bool
 ShardItemVirtualController = {}
 
----@param fields? table
+---@param fields? ShardItemVirtualController
 ---@return ShardItemVirtualController
 function ShardItemVirtualController.new(fields) return end
 

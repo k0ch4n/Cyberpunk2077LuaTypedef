@@ -5,7 +5,7 @@
 ---@field private currentSecurityState ESecuritySystemState
 SecurityAlarmBreachResponse = {}
 
----@param fields? table
+---@param fields? SecurityAlarmBreachResponse
 ---@return SecurityAlarmBreachResponse
 function SecurityAlarmBreachResponse.new(fields) return end
 

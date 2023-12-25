@@ -5,7 +5,7 @@
 ---@field protected items ItemLabelController[]
 ItemLabelContainerController = {}
 
----@param fields? table
+---@param fields? ItemLabelContainerController
 ---@return ItemLabelContainerController
 function ItemLabelContainerController.new(fields) return end
 

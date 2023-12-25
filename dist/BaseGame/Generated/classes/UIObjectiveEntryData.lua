@@ -10,6 +10,6 @@
 ---@field public isOptional Bool
 UIObjectiveEntryData = {}
 
----@param fields? table
+---@param fields? UIObjectiveEntryData
 ---@return UIObjectiveEntryData
 function UIObjectiveEntryData.new(fields) return end

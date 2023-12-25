@@ -4,6 +4,6 @@
 ---@class CuttingGrenadeDespawnEffectsEvent: redEvent
 CuttingGrenadeDespawnEffectsEvent = {}
 
----@param fields? table
+---@param fields? CuttingGrenadeDespawnEffectsEvent
 ---@return CuttingGrenadeDespawnEffectsEvent
 function CuttingGrenadeDespawnEffectsEvent.new(fields) return end

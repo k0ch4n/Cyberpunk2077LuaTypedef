@@ -8,6 +8,6 @@
 ---@field public hasEntityWithdrawn Bool
 SuppressSecuritySystemReaction = {}
 
----@param fields? table
+---@param fields? SuppressSecuritySystemReaction
 ---@return SuppressSecuritySystemReaction
 function SuppressSecuritySystemReaction.new(fields) return end

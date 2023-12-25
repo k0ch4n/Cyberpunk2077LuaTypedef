@@ -4,7 +4,7 @@
 ---@class ActionTeleportScriptProxy: CActionScriptProxy
 ActionTeleportScriptProxy = {}
 
----@param fields? table
+---@param fields? ActionTeleportScriptProxy
 ---@return ActionTeleportScriptProxy
 function ActionTeleportScriptProxy.new(fields) return end
 

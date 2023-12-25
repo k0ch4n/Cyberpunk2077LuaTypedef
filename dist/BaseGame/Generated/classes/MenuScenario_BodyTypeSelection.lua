@@ -4,7 +4,7 @@
 ---@class MenuScenario_BodyTypeSelection: MenuScenario_PreGameSubMenu
 MenuScenario_BodyTypeSelection = {}
 
----@param fields? table
+---@param fields? MenuScenario_BodyTypeSelection
 ---@return MenuScenario_BodyTypeSelection
 function MenuScenario_BodyTypeSelection.new(fields) return end
 

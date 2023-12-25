@@ -5,6 +5,6 @@
 ---@field public distance Float
 senseVisibleObjectDistanceEvent = {}
 
----@param fields? table
+---@param fields? senseVisibleObjectDistanceEvent
 ---@return senseVisibleObjectDistanceEvent
 function senseVisibleObjectDistanceEvent.new(fields) return end

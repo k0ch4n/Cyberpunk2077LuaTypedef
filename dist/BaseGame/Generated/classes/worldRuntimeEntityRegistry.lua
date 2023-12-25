@@ -4,6 +4,6 @@
 ---@class worldRuntimeEntityRegistry: worldIRuntimeSystem
 worldRuntimeEntityRegistry = {}
 
----@param fields? table
+---@param fields? worldRuntimeEntityRegistry
 ---@return worldRuntimeEntityRegistry
 function worldRuntimeEntityRegistry.new(fields) return end

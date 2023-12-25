@@ -4,7 +4,7 @@
 ---@class TakedownGameEffectHelper: IScriptable
 TakedownGameEffectHelper = {}
 
----@param fields? table
+---@param fields? TakedownGameEffectHelper
 ---@return TakedownGameEffectHelper
 function TakedownGameEffectHelper.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class QuestSetIndustrialArmAnimationOverride: ActionInt
 QuestSetIndustrialArmAnimationOverride = {}
 
----@param fields? table
+---@param fields? QuestSetIndustrialArmAnimationOverride
 ---@return QuestSetIndustrialArmAnimationOverride
 function QuestSetIndustrialArmAnimationOverride.new(fields) return end
 

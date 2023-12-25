@@ -8,6 +8,6 @@
 ---@field public hitNormal Vector3
 vehicleVehicleBumpEvent = {}
 
----@param fields? table
+---@param fields? vehicleVehicleBumpEvent
 ---@return vehicleVehicleBumpEvent
 function vehicleVehicleBumpEvent.new(fields) return end

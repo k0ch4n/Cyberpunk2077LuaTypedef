@@ -7,6 +7,6 @@
 ---@field public source CName
 gameStatusEffectReplicatedInfo = {}
 
----@param fields? table
+---@param fields? gameStatusEffectReplicatedInfo
 ---@return gameStatusEffectReplicatedInfo
 function gameStatusEffectReplicatedInfo.new(fields) return end

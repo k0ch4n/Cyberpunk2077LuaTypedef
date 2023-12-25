@@ -4,6 +4,6 @@
 ---@class gameuiUIIconsGeneratorSystem: gameuiIUIIconsGeneratorSystem
 gameuiUIIconsGeneratorSystem = {}
 
----@param fields? table
+---@param fields? gameuiUIIconsGeneratorSystem
 ---@return gameuiUIIconsGeneratorSystem
 function gameuiUIIconsGeneratorSystem.new(fields) return end

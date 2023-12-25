@@ -4,6 +4,6 @@
 ---@class worldEffectNodeInstance: worldINodeInstance
 worldEffectNodeInstance = {}
 
----@param fields? table
+---@param fields? worldEffectNodeInstance
 ---@return worldEffectNodeInstance
 function worldEffectNodeInstance.new(fields) return end

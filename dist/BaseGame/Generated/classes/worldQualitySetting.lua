@@ -6,6 +6,6 @@
 ---@field public xEntitiesBudget Uint32
 worldQualitySetting = {}
 
----@param fields? table
+---@param fields? worldQualitySetting
 ---@return worldQualitySetting
 function worldQualitySetting.new(fields) return end

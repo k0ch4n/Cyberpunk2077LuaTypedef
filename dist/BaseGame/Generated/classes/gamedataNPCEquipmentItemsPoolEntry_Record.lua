@@ -4,7 +4,7 @@
 ---@class gamedataNPCEquipmentItemsPoolEntry_Record: gamedataTweakDBRecord
 gamedataNPCEquipmentItemsPoolEntry_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCEquipmentItemsPoolEntry_Record
 ---@return gamedataNPCEquipmentItemsPoolEntry_Record
 function gamedataNPCEquipmentItemsPoolEntry_Record.new(fields) return end
 

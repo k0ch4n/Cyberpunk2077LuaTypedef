@@ -10,6 +10,6 @@
 ---@field public nodeColor Color
 questAICommandNodeFunction = {}
 
----@param fields? table
+---@param fields? questAICommandNodeFunction
 ---@return questAICommandNodeFunction
 function questAICommandNodeFunction.new(fields) return end

@@ -62,7 +62,7 @@
 ---@field public IsIconic Bool
 gameInventoryItemData = {}
 
----@param fields? table
+---@param fields? gameInventoryItemData
 ---@return gameInventoryItemData
 function gameInventoryItemData.new(fields) return end
 

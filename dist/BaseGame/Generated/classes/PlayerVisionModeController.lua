@@ -15,7 +15,7 @@
 ---@field private owner gameObject
 PlayerVisionModeController = {}
 
----@param fields? table
+---@param fields? PlayerVisionModeController
 ---@return PlayerVisionModeController
 function PlayerVisionModeController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldGroupProxyMeshBuildParams: worldProxyMeshBuildParams
 worldGroupProxyMeshBuildParams = {}
 
----@param fields? table
+---@param fields? worldGroupProxyMeshBuildParams
 ---@return worldGroupProxyMeshBuildParams
 function worldGroupProxyMeshBuildParams.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class animAnimDebuggerCommand_WeightChanges: animIAnimDebuggerCommand
 animAnimDebuggerCommand_WeightChanges = {}
 
----@param fields? table
+---@param fields? animAnimDebuggerCommand_WeightChanges
 ---@return animAnimDebuggerCommand_WeightChanges
 function animAnimDebuggerCommand_WeightChanges.new(fields) return end

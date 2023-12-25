@@ -23,7 +23,7 @@
 ---@field public cooldownAfterBreach Float
 gameBreachFinderComponent = {}
 
----@param fields? table
+---@param fields? gameBreachFinderComponent
 ---@return gameBreachFinderComponent
 function gameBreachFinderComponent.new(fields) return end
 

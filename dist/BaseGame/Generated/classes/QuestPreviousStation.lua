@@ -4,7 +4,7 @@
 ---@class QuestPreviousStation: ActionBool
 QuestPreviousStation = {}
 
----@param fields? table
+---@param fields? QuestPreviousStation
 ---@return QuestPreviousStation
 function QuestPreviousStation.new(fields) return end
 

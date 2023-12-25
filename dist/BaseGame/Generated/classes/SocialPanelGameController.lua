@@ -10,7 +10,7 @@
 ---@field private JournalMgr gameJournalManager
 SocialPanelGameController = {}
 
----@param fields? table
+---@param fields? SocialPanelGameController
 ---@return SocialPanelGameController
 function SocialPanelGameController.new(fields) return end
 

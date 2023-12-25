@@ -12,7 +12,7 @@
 ---@field private controllingDevice Bool
 CrouchDecisions = {}
 
----@param fields? table
+---@param fields? CrouchDecisions
 ---@return CrouchDecisions
 function CrouchDecisions.new(fields) return end
 

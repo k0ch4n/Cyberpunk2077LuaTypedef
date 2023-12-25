@@ -10,6 +10,6 @@
 ---@field public cause gamedebugFailure
 gamedebugFailure = {}
 
----@param fields? table
+---@param fields? gamedebugFailure
 ---@return gamedebugFailure
 function gamedebugFailure.new(fields) return end

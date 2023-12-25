@@ -5,6 +5,6 @@
 ---@field public itemTDBID TweakDBID
 DLCAddedItemDisplayHoverOverEvent = {}
 
----@param fields? table
+---@param fields? DLCAddedItemDisplayHoverOverEvent
 ---@return DLCAddedItemDisplayHoverOverEvent
 function DLCAddedItemDisplayHoverOverEvent.new(fields) return end

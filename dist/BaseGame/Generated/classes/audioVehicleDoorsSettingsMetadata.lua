@@ -7,6 +7,6 @@
 ---@field public hood audioVehicleDoorsSettings
 audioVehicleDoorsSettingsMetadata = {}
 
----@param fields? table
+---@param fields? audioVehicleDoorsSettingsMetadata
 ---@return audioVehicleDoorsSettingsMetadata
 function audioVehicleDoorsSettingsMetadata.new(fields) return end

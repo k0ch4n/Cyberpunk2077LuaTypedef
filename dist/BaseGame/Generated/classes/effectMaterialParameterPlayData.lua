@@ -4,6 +4,6 @@
 ---@class effectMaterialParameterPlayData: effectVisualComponentTrackItemPlayData
 effectMaterialParameterPlayData = {}
 
----@param fields? table
+---@param fields? effectMaterialParameterPlayData
 ---@return effectMaterialParameterPlayData
 function effectMaterialParameterPlayData.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class EnteringDecisions: VehicleTransition
 EnteringDecisions = {}
 
----@param fields? table
+---@param fields? EnteringDecisions
 ---@return EnteringDecisions
 function EnteringDecisions.new(fields) return end
 

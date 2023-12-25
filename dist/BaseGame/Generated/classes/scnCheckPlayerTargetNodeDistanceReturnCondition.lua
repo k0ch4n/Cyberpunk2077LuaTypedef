@@ -5,6 +5,6 @@
 ---@field public params scnCheckPlayerTargetNodeDistanceReturnConditionParams
 scnCheckPlayerTargetNodeDistanceReturnCondition = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerTargetNodeDistanceReturnCondition
 ---@return scnCheckPlayerTargetNodeDistanceReturnCondition
 function scnCheckPlayerTargetNodeDistanceReturnCondition.new(fields) return end

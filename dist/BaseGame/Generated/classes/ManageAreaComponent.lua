@@ -5,6 +5,6 @@
 ---@field public enable Bool
 ManageAreaComponent = {}
 
----@param fields? table
+---@param fields? ManageAreaComponent
 ---@return ManageAreaComponent
 function ManageAreaComponent.new(fields) return end

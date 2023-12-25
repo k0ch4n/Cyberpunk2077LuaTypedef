@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsLocomotionSimple: gamestateMachineplayeractionsLocomotionBase
 gamestateMachineplayeractionsLocomotionSimple = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsLocomotionSimple
 ---@return gamestateMachineplayeractionsLocomotionSimple
 function gamestateMachineplayeractionsLocomotionSimple.new(fields) return end

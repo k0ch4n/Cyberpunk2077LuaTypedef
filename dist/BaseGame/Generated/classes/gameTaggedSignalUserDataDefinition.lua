@@ -5,6 +5,6 @@
 ---@field public tags CName[]
 gameTaggedSignalUserDataDefinition = {}
 
----@param fields? table
+---@param fields? gameTaggedSignalUserDataDefinition
 ---@return gameTaggedSignalUserDataDefinition
 function gameTaggedSignalUserDataDefinition.new(fields) return end

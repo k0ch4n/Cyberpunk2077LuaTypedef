@@ -4,6 +4,6 @@
 ---@class gameuiWorldMapPlayerInitData: gameuiMappinControllerCustomData
 gameuiWorldMapPlayerInitData = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapPlayerInitData
 ---@return gameuiWorldMapPlayerInitData
 function gameuiWorldMapPlayerInitData.new(fields) return end

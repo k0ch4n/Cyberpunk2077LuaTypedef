@@ -4,6 +4,6 @@
 ---@class inkUserIdResult: inkCallbackBase
 inkUserIdResult = {}
 
----@param fields? table
+---@param fields? inkUserIdResult
 ---@return inkUserIdResult
 function inkUserIdResult.new(fields) return end

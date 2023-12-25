@@ -4,6 +4,6 @@
 ---@class gameuiOnHitCallback: inkCallbackBase
 gameuiOnHitCallback = {}
 
----@param fields? table
+---@param fields? gameuiOnHitCallback
 ---@return gameuiOnHitCallback
 function gameuiOnHitCallback.new(fields) return end

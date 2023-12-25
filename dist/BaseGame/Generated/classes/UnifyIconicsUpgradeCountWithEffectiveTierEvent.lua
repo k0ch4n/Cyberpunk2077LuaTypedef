@@ -4,6 +4,6 @@
 ---@class UnifyIconicsUpgradeCountWithEffectiveTierEvent: redEvent
 UnifyIconicsUpgradeCountWithEffectiveTierEvent = {}
 
----@param fields? table
+---@param fields? UnifyIconicsUpgradeCountWithEffectiveTierEvent
 ---@return UnifyIconicsUpgradeCountWithEffectiveTierEvent
 function UnifyIconicsUpgradeCountWithEffectiveTierEvent.new(fields) return end

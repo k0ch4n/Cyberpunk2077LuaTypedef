@@ -8,6 +8,6 @@
 ---@field public duration Float
 DebugOutlineEvent = {}
 
----@param fields? table
+---@param fields? DebugOutlineEvent
 ---@return DebugOutlineEvent
 function DebugOutlineEvent.new(fields) return end

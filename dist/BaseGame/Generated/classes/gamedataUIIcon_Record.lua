@@ -4,7 +4,7 @@
 ---@class gamedataUIIcon_Record: gamedataTweakDBRecord
 gamedataUIIcon_Record = {}
 
----@param fields? table
+---@param fields? gamedataUIIcon_Record
 ---@return gamedataUIIcon_Record
 function gamedataUIIcon_Record.new(fields) return end
 

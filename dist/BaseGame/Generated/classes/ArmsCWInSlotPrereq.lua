@@ -9,7 +9,7 @@
 ---@field public invert Bool
 ArmsCWInSlotPrereq = {}
 
----@param fields? table
+---@param fields? ArmsCWInSlotPrereq
 ---@return ArmsCWInSlotPrereq
 function ArmsCWInSlotPrereq.new(fields) return end
 

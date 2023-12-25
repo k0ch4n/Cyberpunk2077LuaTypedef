@@ -4,6 +4,6 @@
 ---@class AIbehaviorSelectorTreeNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
 AIbehaviorSelectorTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSelectorTreeNodeDefinition
 ---@return AIbehaviorSelectorTreeNodeDefinition
 function AIbehaviorSelectorTreeNodeDefinition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkanimTextReplaceInterpolator: inkanimTextInterpolator
 inkanimTextReplaceInterpolator = {}
 
----@param fields? table
+---@param fields? inkanimTextReplaceInterpolator
 ---@return inkanimTextReplaceInterpolator
 function inkanimTextReplaceInterpolator.new(fields) return end

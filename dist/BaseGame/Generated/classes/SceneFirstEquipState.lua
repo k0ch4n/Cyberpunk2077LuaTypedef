@@ -5,7 +5,7 @@
 ---@field public prevented Bool
 SceneFirstEquipState = {}
 
----@param fields? table
+---@param fields? SceneFirstEquipState
 ---@return SceneFirstEquipState
 function SceneFirstEquipState.new(fields) return end
 

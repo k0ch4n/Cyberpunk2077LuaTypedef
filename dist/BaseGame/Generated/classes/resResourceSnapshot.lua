@@ -5,6 +5,6 @@
 ---@field public resources CResource[]
 resResourceSnapshot = {}
 
----@param fields? table
+---@param fields? resResourceSnapshot
 ---@return resResourceSnapshot
 function resResourceSnapshot.new(fields) return end

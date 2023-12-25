@@ -5,6 +5,6 @@
 ---@field public data questCustomQuestNotificationData
 CustomQuestNotificationUserData = {}
 
----@param fields? table
+---@param fields? CustomQuestNotificationUserData
 ---@return CustomQuestNotificationUserData
 function CustomQuestNotificationUserData.new(fields) return end

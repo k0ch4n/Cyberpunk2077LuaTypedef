@@ -5,6 +5,6 @@
 ---@field public slave entAnimationControllerComponent
 workDynamicSyncBindAnimComponentCommandData = {}
 
----@param fields? table
+---@param fields? workDynamicSyncBindAnimComponentCommandData
 ---@return workDynamicSyncBindAnimComponentCommandData
 function workDynamicSyncBindAnimComponentCommandData.new(fields) return end

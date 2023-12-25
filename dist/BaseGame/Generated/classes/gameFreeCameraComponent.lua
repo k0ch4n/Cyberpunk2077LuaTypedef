@@ -4,6 +4,6 @@
 ---@class gameFreeCameraComponent: gameCameraComponent
 gameFreeCameraComponent = {}
 
----@param fields? table
+---@param fields? gameFreeCameraComponent
 ---@return gameFreeCameraComponent
 function gameFreeCameraComponent.new(fields) return end

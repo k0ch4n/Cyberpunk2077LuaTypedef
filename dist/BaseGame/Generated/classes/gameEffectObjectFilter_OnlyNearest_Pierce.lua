@@ -6,6 +6,6 @@
 ---@field public includePierced Bool
 gameEffectObjectFilter_OnlyNearest_Pierce = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_OnlyNearest_Pierce
 ---@return gameEffectObjectFilter_OnlyNearest_Pierce
 function gameEffectObjectFilter_OnlyNearest_Pierce.new(fields) return end

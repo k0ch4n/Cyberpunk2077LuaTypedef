@@ -4,7 +4,7 @@
 ---@class MenuScenario_PlayRecordedSession: MenuScenario_PreGameSubMenu
 MenuScenario_PlayRecordedSession = {}
 
----@param fields? table
+---@param fields? MenuScenario_PlayRecordedSession
 ---@return MenuScenario_PlayRecordedSession
 function MenuScenario_PlayRecordedSession.new(fields) return end
 

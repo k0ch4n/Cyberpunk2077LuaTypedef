@@ -4,7 +4,7 @@
 ---@class gameRichPresenceSystem: gameIRichPresenceSystem
 gameRichPresenceSystem = {}
 
----@param fields? table
+---@param fields? gameRichPresenceSystem
 ---@return gameRichPresenceSystem
 function gameRichPresenceSystem.new(fields) return end
 

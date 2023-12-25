@@ -43,6 +43,6 @@
 ---@field public stadiaOrbisIconsAtlas inkTextureAtlas
 inkGameSettingsResource = {}
 
----@param fields? table
+---@param fields? inkGameSettingsResource
 ---@return inkGameSettingsResource
 function inkGameSettingsResource.new(fields) return end

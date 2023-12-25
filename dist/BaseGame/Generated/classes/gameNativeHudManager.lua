@@ -4,7 +4,7 @@
 ---@class gameNativeHudManager: gameScriptableSystem
 gameNativeHudManager = {}
 
----@param fields? table
+---@param fields? gameNativeHudManager
 ---@return gameNativeHudManager
 function gameNativeHudManager.new(fields) return end
 

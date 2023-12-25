@@ -4,7 +4,7 @@
 ---@class NewPerkFinisherCondition: gameinteractionsInteractionScriptedCondition
 NewPerkFinisherCondition = {}
 
----@param fields? table
+---@param fields? NewPerkFinisherCondition
 ---@return NewPerkFinisherCondition
 function NewPerkFinisherCondition.new(fields) return end
 

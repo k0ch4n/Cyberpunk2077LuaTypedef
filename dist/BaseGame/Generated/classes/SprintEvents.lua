@@ -9,7 +9,7 @@
 ---@field public sprintAnimBlocked Bool
 SprintEvents = {}
 
----@param fields? table
+---@param fields? SprintEvents
 ---@return SprintEvents
 function SprintEvents.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public ikTargetRef animIKTargetRef
 entIKTargetRemoveEvent = {}
 
----@param fields? table
+---@param fields? entIKTargetRemoveEvent
 ---@return entIKTargetRemoveEvent
 function entIKTargetRemoveEvent.new(fields) return end
 

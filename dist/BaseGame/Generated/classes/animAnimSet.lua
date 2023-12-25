@@ -17,6 +17,6 @@
 ---@field public version Uint32
 animAnimSet = {}
 
----@param fields? table
+---@param fields? animAnimSet
 ---@return animAnimSet
 function animAnimSet.new(fields) return end

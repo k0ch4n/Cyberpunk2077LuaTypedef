@@ -5,7 +5,7 @@
 ---@field protected killDelay Float
 OverloadDevice = {}
 
----@param fields? table
+---@param fields? OverloadDevice
 ---@return OverloadDevice
 function OverloadDevice.new(fields) return end
 

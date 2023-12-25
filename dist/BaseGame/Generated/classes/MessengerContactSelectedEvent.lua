@@ -7,6 +7,6 @@
 ---@field public level Int32
 MessengerContactSelectedEvent = {}
 
----@param fields? table
+---@param fields? MessengerContactSelectedEvent
 ---@return MessengerContactSelectedEvent
 function MessengerContactSelectedEvent.new(fields) return end

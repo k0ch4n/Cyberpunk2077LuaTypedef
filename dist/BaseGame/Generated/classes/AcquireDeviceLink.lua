@@ -4,6 +4,6 @@
 ---@class AcquireDeviceLink: redEvent
 AcquireDeviceLink = {}
 
----@param fields? table
+---@param fields? AcquireDeviceLink
 ---@return AcquireDeviceLink
 function AcquireDeviceLink.new(fields) return end

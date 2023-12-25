@@ -8,6 +8,6 @@
 ---@field public inputWithTracks animPoseLink
 animAnimNode_SkFrameAnimByTrack = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkFrameAnimByTrack
 ---@return animAnimNode_SkFrameAnimByTrack
 function animAnimNode_SkFrameAnimByTrack.new(fields) return end

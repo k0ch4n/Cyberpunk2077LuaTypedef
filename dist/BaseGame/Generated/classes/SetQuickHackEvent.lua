@@ -6,6 +6,6 @@
 ---@field public quickHackName CName
 SetQuickHackEvent = {}
 
----@param fields? table
+---@param fields? SetQuickHackEvent
 ---@return SetQuickHackEvent
 function SetQuickHackEvent.new(fields) return end

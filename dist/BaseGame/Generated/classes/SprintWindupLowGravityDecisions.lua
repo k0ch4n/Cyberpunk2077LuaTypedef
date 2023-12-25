@@ -4,7 +4,7 @@
 ---@class SprintWindupLowGravityDecisions: SprintLowGravityDecisions
 SprintWindupLowGravityDecisions = {}
 
----@param fields? table
+---@param fields? SprintWindupLowGravityDecisions
 ---@return SprintWindupLowGravityDecisions
 function SprintWindupLowGravityDecisions.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class FactInvoker: InteractiveMasterDevice
 FactInvoker = {}
 
----@param fields? table
+---@param fields? FactInvoker
 ---@return FactInvoker
 function FactInvoker.new(fields) return end
 

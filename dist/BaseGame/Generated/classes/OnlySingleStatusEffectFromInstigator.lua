@@ -4,7 +4,7 @@
 ---@class OnlySingleStatusEffectFromInstigator: gameEffectObjectSingleFilter_Scripted
 OnlySingleStatusEffectFromInstigator = {}
 
----@param fields? table
+---@param fields? OnlySingleStatusEffectFromInstigator
 ---@return OnlySingleStatusEffectFromInstigator
 function OnlySingleStatusEffectFromInstigator.new(fields) return end
 

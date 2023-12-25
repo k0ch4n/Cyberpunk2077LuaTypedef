@@ -9,7 +9,7 @@
 ---@field private data gameInventoryItemData
 ShoppingCartListItem = {}
 
----@param fields? table
+---@param fields? ShoppingCartListItem
 ---@return ShoppingCartListItem
 function ShoppingCartListItem.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field private value Int32
 CompareBuilder = {}
 
----@param fields? table
+---@param fields? CompareBuilder
 ---@return CompareBuilder
 function CompareBuilder.new(fields) return end
 

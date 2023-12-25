@@ -7,6 +7,6 @@
 ---@field public visibleObjectType gamedataSenseObjectType
 senseVisibleObject = {}
 
----@param fields? table
+---@param fields? senseVisibleObject
 ---@return senseVisibleObject
 function senseVisibleObject.new(fields) return end

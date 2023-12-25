@@ -4,7 +4,7 @@
 ---@class PlayerSquadInterface: PuppetSquadInterface
 PlayerSquadInterface = {}
 
----@param fields? table
+---@param fields? PlayerSquadInterface
 ---@return PlayerSquadInterface
 function PlayerSquadInterface.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class CasinoTableIdlePageLogicController: inkWidgetLogicController
 CasinoTableIdlePageLogicController = {}
 
----@param fields? table
+---@param fields? CasinoTableIdlePageLogicController
 ---@return CasinoTableIdlePageLogicController
 function CasinoTableIdlePageLogicController.new(fields) return end
 

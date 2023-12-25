@@ -5,7 +5,7 @@
 ---@field private controller GenericHotkeyController
 HotkeyWidgetStatsListener = {}
 
----@param fields? table
+---@param fields? HotkeyWidgetStatsListener
 ---@return HotkeyWidgetStatsListener
 function HotkeyWidgetStatsListener.new(fields) return end
 

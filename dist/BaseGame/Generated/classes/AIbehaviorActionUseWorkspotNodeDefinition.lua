@@ -11,6 +11,6 @@
 ---@field public fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorActionUseWorkspotNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionUseWorkspotNodeDefinition
 ---@return AIbehaviorActionUseWorkspotNodeDefinition
 function AIbehaviorActionUseWorkspotNodeDefinition.new(fields) return end

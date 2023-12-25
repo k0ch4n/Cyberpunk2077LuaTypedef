@@ -6,6 +6,6 @@
 ---@field public postProcess animIAnimNode_PostProcess
 animAnimNode_Retarget = {}
 
----@param fields? table
+---@param fields? animAnimNode_Retarget
 ---@return animAnimNode_Retarget
 function animAnimNode_Retarget.new(fields) return end

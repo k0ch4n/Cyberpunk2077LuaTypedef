@@ -5,6 +5,6 @@
 ---@field public negatedPrereq gameIPrereq
 gameNotPrereq = {}
 
----@param fields? table
+---@param fields? gameNotPrereq
 ---@return gameNotPrereq
 function gameNotPrereq.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 MeleeAttackCommandCleanup = {}
 
----@param fields? table
+---@param fields? MeleeAttackCommandCleanup
 ---@return MeleeAttackCommandCleanup
 function MeleeAttackCommandCleanup.new(fields) return end
 

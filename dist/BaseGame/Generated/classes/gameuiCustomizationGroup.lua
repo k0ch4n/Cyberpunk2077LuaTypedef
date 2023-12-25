@@ -7,6 +7,6 @@
 ---@field public morphs gameuiCustomizationMorph[]
 gameuiCustomizationGroup = {}
 
----@param fields? table
+---@param fields? gameuiCustomizationGroup
 ---@return gameuiCustomizationGroup
 function gameuiCustomizationGroup.new(fields) return end

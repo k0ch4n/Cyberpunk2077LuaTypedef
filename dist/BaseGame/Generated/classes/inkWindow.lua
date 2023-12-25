@@ -4,6 +4,6 @@
 ---@class inkWindow: inkCanvasWidget
 inkWindow = {}
 
----@param fields? table
+---@param fields? inkWindow
 ---@return inkWindow
 function inkWindow.new(fields) return end

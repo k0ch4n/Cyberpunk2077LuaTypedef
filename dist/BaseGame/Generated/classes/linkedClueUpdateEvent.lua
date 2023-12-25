@@ -7,6 +7,6 @@
 ---@field public updatePS Bool
 linkedClueUpdateEvent = {}
 
----@param fields? table
+---@param fields? linkedClueUpdateEvent
 ---@return linkedClueUpdateEvent
 function linkedClueUpdateEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuickMeleeHitExecutor: gameEffectExecutor_Scripted
 QuickMeleeHitExecutor = {}
 
----@param fields? table
+---@param fields? QuickMeleeHitExecutor
 ---@return QuickMeleeHitExecutor
 function QuickMeleeHitExecutor.new(fields) return end
 

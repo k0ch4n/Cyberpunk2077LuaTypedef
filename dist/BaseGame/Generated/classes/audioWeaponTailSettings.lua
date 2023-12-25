@@ -15,6 +15,6 @@
 ---@field public exteriorBadlandsCanyon CName
 audioWeaponTailSettings = {}
 
----@param fields? table
+---@param fields? audioWeaponTailSettings
 ---@return audioWeaponTailSettings
 function audioWeaponTailSettings.new(fields) return end

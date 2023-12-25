@@ -6,6 +6,6 @@
 ---@field public referenceName CName
 gamestateMachineStateMachineIdentifier = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateMachineIdentifier
 ---@return gamestateMachineStateMachineIdentifier
 function gamestateMachineStateMachineIdentifier.new(fields) return end

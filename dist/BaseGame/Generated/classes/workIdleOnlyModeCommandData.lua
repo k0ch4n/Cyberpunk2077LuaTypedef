@@ -4,6 +4,6 @@
 ---@class workIdleOnlyModeCommandData: workIWorkspotCommandData
 workIdleOnlyModeCommandData = {}
 
----@param fields? table
+---@param fields? workIdleOnlyModeCommandData
 ---@return workIdleOnlyModeCommandData
 function workIdleOnlyModeCommandData.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public animationSN scnRidSerialNumber
 scnRidCameraAnimationSRRef = {}
 
----@param fields? table
+---@param fields? scnRidCameraAnimationSRRef
 ---@return scnRidCameraAnimationSRRef
 function scnRidCameraAnimationSRRef.new(fields) return end

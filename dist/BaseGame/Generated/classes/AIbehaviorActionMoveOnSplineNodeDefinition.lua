@@ -21,6 +21,6 @@
 ---@field public allowCrowdOnPath AIArgumentMapping
 AIbehaviorActionMoveOnSplineNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionMoveOnSplineNodeDefinition
 ---@return AIbehaviorActionMoveOnSplineNodeDefinition
 function AIbehaviorActionMoveOnSplineNodeDefinition.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public freeAreas Uint32[]
 worldBlockoutData = {}
 
----@param fields? table
+---@param fields? worldBlockoutData
 ---@return worldBlockoutData
 function worldBlockoutData.new(fields) return end

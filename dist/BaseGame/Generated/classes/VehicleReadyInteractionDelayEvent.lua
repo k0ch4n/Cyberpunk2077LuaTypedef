@@ -4,6 +4,6 @@
 ---@class VehicleReadyInteractionDelayEvent: redEvent
 VehicleReadyInteractionDelayEvent = {}
 
----@param fields? table
+---@param fields? VehicleReadyInteractionDelayEvent
 ---@return VehicleReadyInteractionDelayEvent
 function VehicleReadyInteractionDelayEvent.new(fields) return end

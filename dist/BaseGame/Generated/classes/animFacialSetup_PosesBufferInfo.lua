@@ -7,6 +7,6 @@
 ---@field public eyes animFacialSetup_OneSermoPoseBufferInfo
 animFacialSetup_PosesBufferInfo = {}
 
----@param fields? table
+---@param fields? animFacialSetup_PosesBufferInfo
 ---@return animFacialSetup_PosesBufferInfo
 function animFacialSetup_PosesBufferInfo.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public str String
 gameDebugPath = {}
 
----@param fields? table
+---@param fields? gameDebugPath
 ---@return gameDebugPath
 function gameDebugPath.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class BaseCrosshairState: DefaultTransition
 BaseCrosshairState = {}
 
----@param fields? table
+---@param fields? BaseCrosshairState
 ---@return BaseCrosshairState
 function BaseCrosshairState.new(fields) return end
 

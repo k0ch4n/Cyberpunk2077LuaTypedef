@@ -5,7 +5,7 @@
 ---@field public effector ModifyDamageEffector
 ModifyDamageEffectorStatListener = {}
 
----@param fields? table
+---@param fields? ModifyDamageEffectorStatListener
 ---@return ModifyDamageEffectorStatListener
 function ModifyDamageEffectorStatListener.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public targets inkWidgetReference[]
 gameuiSongbirdAudioCallGameController = {}
 
----@param fields? table
+---@param fields? gameuiSongbirdAudioCallGameController
 ---@return gameuiSongbirdAudioCallGameController
 function gameuiSongbirdAudioCallGameController.new(fields) return end

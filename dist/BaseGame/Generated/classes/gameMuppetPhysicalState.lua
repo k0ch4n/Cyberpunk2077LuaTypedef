@@ -9,6 +9,6 @@
 ---@field public groundNormal Vector4
 gameMuppetPhysicalState = {}
 
----@param fields? table
+---@param fields? gameMuppetPhysicalState
 ---@return gameMuppetPhysicalState
 function gameMuppetPhysicalState.new(fields) return end

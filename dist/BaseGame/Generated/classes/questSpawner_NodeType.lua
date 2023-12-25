@@ -5,6 +5,6 @@
 ---@field public spawnerReference NodeRef
 questSpawner_NodeType = {}
 
----@param fields? table
+---@param fields? questSpawner_NodeType
 ---@return questSpawner_NodeType
 function questSpawner_NodeType.new(fields) return end

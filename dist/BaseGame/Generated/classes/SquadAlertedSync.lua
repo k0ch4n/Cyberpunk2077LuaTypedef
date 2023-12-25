@@ -4,7 +4,7 @@
 ---@class SquadAlertedSync: SquadTask
 SquadAlertedSync = {}
 
----@param fields? table
+---@param fields? SquadAlertedSync
 ---@return SquadAlertedSync
 function SquadAlertedSync.new(fields) return end
 

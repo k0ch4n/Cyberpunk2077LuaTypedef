@@ -6,6 +6,6 @@
 ---@field public ignoreParentPrefabs Bool
 gameLocationPrefabMetadata = {}
 
----@param fields? table
+---@param fields? gameLocationPrefabMetadata
 ---@return gameLocationPrefabMetadata
 function gameLocationPrefabMetadata.new(fields) return end

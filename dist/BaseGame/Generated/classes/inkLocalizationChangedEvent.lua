@@ -4,6 +4,6 @@
 ---@class inkLocalizationChangedEvent: inkEvent
 inkLocalizationChangedEvent = {}
 
----@param fields? table
+---@param fields? inkLocalizationChangedEvent
 ---@return inkLocalizationChangedEvent
 function inkLocalizationChangedEvent.new(fields) return end

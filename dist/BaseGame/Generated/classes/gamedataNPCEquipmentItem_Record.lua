@@ -4,7 +4,7 @@
 ---@class gamedataNPCEquipmentItem_Record: gamedataNPCEquipmentGroupEntry_Record
 gamedataNPCEquipmentItem_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCEquipmentItem_Record
 ---@return gamedataNPCEquipmentItem_Record
 function gamedataNPCEquipmentItem_Record.new(fields) return end
 

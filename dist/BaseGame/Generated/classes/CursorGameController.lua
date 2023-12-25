@@ -13,7 +13,7 @@
 ---@field private clickAnimProxy inkanimProxy
 CursorGameController = {}
 
----@param fields? table
+---@param fields? CursorGameController
 ---@return CursorGameController
 function CursorGameController.new(fields) return end
 

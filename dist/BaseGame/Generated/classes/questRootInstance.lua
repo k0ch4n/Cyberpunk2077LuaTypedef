@@ -4,6 +4,6 @@
 ---@class questRootInstance: questPhaseInstance
 questRootInstance = {}
 
----@param fields? table
+---@param fields? questRootInstance
 ---@return questRootInstance
 function questRootInstance.new(fields) return end

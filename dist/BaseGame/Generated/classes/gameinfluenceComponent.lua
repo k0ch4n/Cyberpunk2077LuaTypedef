@@ -5,7 +5,7 @@
 ---@field public isEnabled Bool
 gameinfluenceComponent = {}
 
----@param fields? table
+---@param fields? gameinfluenceComponent
 ---@return gameinfluenceComponent
 function gameinfluenceComponent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataWorldMapZoomLevel_Record: gamedataTweakDBRecord
 gamedataWorldMapZoomLevel_Record = {}
 
----@param fields? table
+---@param fields? gamedataWorldMapZoomLevel_Record
 ---@return gamedataWorldMapZoomLevel_Record
 function gamedataWorldMapZoomLevel_Record.new(fields) return end
 

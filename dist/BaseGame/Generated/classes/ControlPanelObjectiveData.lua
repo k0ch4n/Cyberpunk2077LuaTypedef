@@ -4,6 +4,6 @@
 ---@class ControlPanelObjectiveData: GemplayObjectiveData
 ControlPanelObjectiveData = {}
 
----@param fields? table
+---@param fields? ControlPanelObjectiveData
 ---@return ControlPanelObjectiveData
 function ControlPanelObjectiveData.new(fields) return end

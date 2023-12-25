@@ -4,7 +4,7 @@
 ---@class gameTimeSystem: gameITimeSystem
 gameTimeSystem = {}
 
----@param fields? table
+---@param fields? gameTimeSystem
 ---@return gameTimeSystem
 function gameTimeSystem.new(fields) return end
 

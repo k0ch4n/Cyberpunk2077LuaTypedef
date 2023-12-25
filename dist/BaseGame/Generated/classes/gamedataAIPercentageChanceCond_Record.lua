@@ -4,7 +4,7 @@
 ---@class gamedataAIPercentageChanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIPercentageChanceCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIPercentageChanceCond_Record
 ---@return gamedataAIPercentageChanceCond_Record
 function gamedataAIPercentageChanceCond_Record.new(fields) return end
 

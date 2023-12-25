@@ -5,7 +5,7 @@
 ---@field protected isLiftDoor Bool
 PlayerUnauthorized = {}
 
----@param fields? table
+---@param fields? PlayerUnauthorized
 ---@return PlayerUnauthorized
 function PlayerUnauthorized.new(fields) return end
 

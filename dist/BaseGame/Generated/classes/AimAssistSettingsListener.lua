@@ -14,7 +14,7 @@
 ---@field public settingsRecords gamedataAimAssistSettings_Record[]
 AimAssistSettingsListener = {}
 
----@param fields? table
+---@param fields? AimAssistSettingsListener
 ---@return AimAssistSettingsListener
 function AimAssistSettingsListener.new(fields) return end
 

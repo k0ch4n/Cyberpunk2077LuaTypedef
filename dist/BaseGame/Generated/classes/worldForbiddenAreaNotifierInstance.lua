@@ -4,6 +4,6 @@
 ---@class worldForbiddenAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldForbiddenAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldForbiddenAreaNotifierInstance
 ---@return worldForbiddenAreaNotifierInstance
 function worldForbiddenAreaNotifierInstance.new(fields) return end

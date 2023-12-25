@@ -5,6 +5,6 @@
 ---@field public data String
 NewCodexEntryUserData = {}
 
----@param fields? table
+---@param fields? NewCodexEntryUserData
 ---@return NewCodexEntryUserData
 function NewCodexEntryUserData.new(fields) return end

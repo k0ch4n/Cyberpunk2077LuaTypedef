@@ -8,6 +8,6 @@
 ---@field public maxRange AIArgumentMapping
 AIbehaviorCheckLineOfFireTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCheckLineOfFireTaskDefinition
 ---@return AIbehaviorCheckLineOfFireTaskDefinition
 function AIbehaviorCheckLineOfFireTaskDefinition.new(fields) return end

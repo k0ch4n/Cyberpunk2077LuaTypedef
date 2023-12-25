@@ -4,7 +4,7 @@
 ---@class PuppetAction: ScriptableDeviceAction
 PuppetAction = {}
 
----@param fields? table
+---@param fields? PuppetAction
 ---@return PuppetAction
 function PuppetAction.new(fields) return end
 

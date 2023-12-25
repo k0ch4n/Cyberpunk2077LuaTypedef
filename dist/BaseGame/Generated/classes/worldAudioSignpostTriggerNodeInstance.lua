@@ -4,6 +4,6 @@
 ---@class worldAudioSignpostTriggerNodeInstance: worldTriggerAreaNodeInstance
 worldAudioSignpostTriggerNodeInstance = {}
 
----@param fields? table
+---@param fields? worldAudioSignpostTriggerNodeInstance
 ---@return worldAudioSignpostTriggerNodeInstance
 function worldAudioSignpostTriggerNodeInstance.new(fields) return end

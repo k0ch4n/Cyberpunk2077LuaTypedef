@@ -4,6 +4,6 @@
 ---@class entReleasePreloadedEffectsEvent: redEvent
 entReleasePreloadedEffectsEvent = {}
 
----@param fields? table
+---@param fields? entReleasePreloadedEffectsEvent
 ---@return entReleasePreloadedEffectsEvent
 function entReleasePreloadedEffectsEvent.new(fields) return end

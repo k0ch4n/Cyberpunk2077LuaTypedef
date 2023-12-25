@@ -8,7 +8,7 @@
 ---@field public targetPath_DpadRight inkWidget
 inkButtonDpadSupportedController = {}
 
----@param fields? table
+---@param fields? inkButtonDpadSupportedController
 ---@return inkButtonDpadSupportedController
 function inkButtonDpadSupportedController.new(fields) return end
 

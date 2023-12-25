@@ -4,7 +4,7 @@
 ---@class RadioStationDataProvider: IScriptable
 RadioStationDataProvider = {}
 
----@param fields? table
+---@param fields? RadioStationDataProvider
 ---@return RadioStationDataProvider
 function RadioStationDataProvider.new(fields) return end
 

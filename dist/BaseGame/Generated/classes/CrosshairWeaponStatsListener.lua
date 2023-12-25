@@ -5,7 +5,7 @@
 ---@field private controller BaseTechCrosshairController
 CrosshairWeaponStatsListener = {}
 
----@param fields? table
+---@param fields? CrosshairWeaponStatsListener
 ---@return CrosshairWeaponStatsListener
 function CrosshairWeaponStatsListener.new(fields) return end
 

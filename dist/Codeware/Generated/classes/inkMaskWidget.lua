@@ -4,7 +4,7 @@
 ---@class inkMaskWidget: inkLeafWidget
 inkMaskWidget = {}
 
----@param fields? table
+---@param fields? inkMaskWidget
 ---@return inkMaskWidget
 function inkMaskWidget.new(fields) return end
 

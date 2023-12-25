@@ -5,7 +5,7 @@
 ---@field public weapon EquipmentPriority
 AddWeapon = {}
 
----@param fields? table
+---@param fields? AddWeapon
 ---@return AddWeapon
 function AddWeapon.new(fields) return end
 

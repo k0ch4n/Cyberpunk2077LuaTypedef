@@ -7,6 +7,6 @@
 ---@field public shouldModifyInteractionState Bool
 TriggerVehicleRemoteControlEvent = {}
 
----@param fields? table
+---@param fields? TriggerVehicleRemoteControlEvent
 ---@return TriggerVehicleRemoteControlEvent
 function TriggerVehicleRemoteControlEvent.new(fields) return end

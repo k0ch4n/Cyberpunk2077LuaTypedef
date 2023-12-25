@@ -15,6 +15,6 @@
 ---@field public invalid Bool
 animLookAtRequest = {}
 
----@param fields? table
+---@param fields? animLookAtRequest
 ---@return animLookAtRequest
 function animLookAtRequest.new(fields) return end

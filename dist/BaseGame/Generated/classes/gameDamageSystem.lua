@@ -7,7 +7,7 @@
 ---@field public previewRWLockTemp ScriptReentrantRWLock
 gameDamageSystem = {}
 
----@param fields? table
+---@param fields? gameDamageSystem
 ---@return gameDamageSystem
 function gameDamageSystem.new(fields) return end
 

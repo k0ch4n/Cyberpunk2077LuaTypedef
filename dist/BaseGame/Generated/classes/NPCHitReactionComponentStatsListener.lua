@@ -5,7 +5,7 @@
 ---@field public npc NPCPuppet
 NPCHitReactionComponentStatsListener = {}
 
----@param fields? table
+---@param fields? NPCHitReactionComponentStatsListener
 ---@return NPCHitReactionComponentStatsListener
 function NPCHitReactionComponentStatsListener.new(fields) return end
 

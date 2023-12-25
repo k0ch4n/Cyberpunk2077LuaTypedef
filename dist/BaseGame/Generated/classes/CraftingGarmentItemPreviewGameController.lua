@@ -6,7 +6,7 @@
 ---@field private previewedItem gameItemID
 CraftingGarmentItemPreviewGameController = {}
 
----@param fields? table
+---@param fields? CraftingGarmentItemPreviewGameController
 ---@return CraftingGarmentItemPreviewGameController
 function CraftingGarmentItemPreviewGameController.new(fields) return end
 

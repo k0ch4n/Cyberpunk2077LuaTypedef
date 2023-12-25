@@ -5,6 +5,6 @@
 ---@field public scavengableBySpiderbot Bool
 SpiderbotScavengeOptions = {}
 
----@param fields? table
+---@param fields? SpiderbotScavengeOptions
 ---@return SpiderbotScavengeOptions
 function SpiderbotScavengeOptions.new(fields) return end

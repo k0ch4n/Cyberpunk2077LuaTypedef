@@ -4,6 +4,6 @@
 ---@class StartRagdollDamageEvent: redEvent
 StartRagdollDamageEvent = {}
 
----@param fields? table
+---@param fields? StartRagdollDamageEvent
 ---@return StartRagdollDamageEvent
 function StartRagdollDamageEvent.new(fields) return end

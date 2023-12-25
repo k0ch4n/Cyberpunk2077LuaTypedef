@@ -7,7 +7,7 @@
 ---@field private requestTriggerType RequestType
 CooldownRequest = {}
 
----@param fields? table
+---@param fields? CooldownRequest
 ---@return CooldownRequest
 function CooldownRequest.new(fields) return end
 

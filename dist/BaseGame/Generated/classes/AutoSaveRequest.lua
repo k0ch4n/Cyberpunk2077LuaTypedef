@@ -4,6 +4,6 @@
 ---@class AutoSaveRequest: gameScriptableSystemRequest
 AutoSaveRequest = {}
 
----@param fields? table
+---@param fields? AutoSaveRequest
 ---@return AutoSaveRequest
 function AutoSaveRequest.new(fields) return end

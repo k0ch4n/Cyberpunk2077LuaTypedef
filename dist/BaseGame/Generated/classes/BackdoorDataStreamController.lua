@@ -18,7 +18,7 @@
 ---@field private canvasC4 inkWidgetReference
 BackdoorDataStreamController = {}
 
----@param fields? table
+---@param fields? BackdoorDataStreamController
 ---@return BackdoorDataStreamController
 function BackdoorDataStreamController.new(fields) return end
 

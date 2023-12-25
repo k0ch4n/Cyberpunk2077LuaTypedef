@@ -4,7 +4,7 @@
 ---@class ReactAfterDodge: AIbehaviorconditionScript
 ReactAfterDodge = {}
 
----@param fields? table
+---@param fields? ReactAfterDodge
 ---@return ReactAfterDodge
 function ReactAfterDodge.new(fields) return end
 

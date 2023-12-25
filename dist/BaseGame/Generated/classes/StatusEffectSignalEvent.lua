@@ -9,6 +9,6 @@
 ---@field public repeatSignalDelay Float
 StatusEffectSignalEvent = {}
 
----@param fields? table
+---@param fields? StatusEffectSignalEvent
 ---@return StatusEffectSignalEvent
 function StatusEffectSignalEvent.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private activatedDeviceNPCSetup ActivatedDeviceNPCSetup
 ActivatedDeviceNPCControllerPS = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceNPCControllerPS
 ---@return ActivatedDeviceNPCControllerPS
 function ActivatedDeviceNPCControllerPS.new(fields) return end
 

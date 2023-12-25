@@ -4,7 +4,7 @@
 ---@class gamedataIconsGeneratorContext_Record: gamedataTweakDBRecord
 gamedataIconsGeneratorContext_Record = {}
 
----@param fields? table
+---@param fields? gamedataIconsGeneratorContext_Record
 ---@return gamedataIconsGeneratorContext_Record
 function gamedataIconsGeneratorContext_Record.new(fields) return end
 

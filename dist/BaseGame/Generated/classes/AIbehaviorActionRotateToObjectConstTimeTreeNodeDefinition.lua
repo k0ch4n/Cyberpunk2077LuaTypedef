@@ -9,6 +9,6 @@
 ---@field public keepUpdatingTarget AIArgumentMapping
 AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition
 ---@return AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition
 function AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition.new(fields) return end

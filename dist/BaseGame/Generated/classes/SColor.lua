@@ -4,7 +4,7 @@
 ---@class SColor
 SColor = {}
 
----@param fields? table
+---@param fields? SColor
 ---@return SColor
 function SColor.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field protected value Bool
 AIBehaviorCallbackExpression = {}
 
----@param fields? table
+---@param fields? AIBehaviorCallbackExpression
 ---@return AIBehaviorCallbackExpression
 function AIBehaviorCallbackExpression.new(fields) return end
 

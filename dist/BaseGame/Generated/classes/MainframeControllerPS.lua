@@ -5,7 +5,7 @@
 ---@field protected factName ComputerQuickHackData
 MainframeControllerPS = {}
 
----@param fields? table
+---@param fields? MainframeControllerPS
 ---@return MainframeControllerPS
 function MainframeControllerPS.new(fields) return end
 

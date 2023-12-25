@@ -12,7 +12,7 @@
 ---@field public tooltipProvider TooltipProvider
 gameuiInteractionsHubGameController = {}
 
----@param fields? table
+---@param fields? gameuiInteractionsHubGameController
 ---@return gameuiInteractionsHubGameController
 function gameuiInteractionsHubGameController.new(fields) return end
 

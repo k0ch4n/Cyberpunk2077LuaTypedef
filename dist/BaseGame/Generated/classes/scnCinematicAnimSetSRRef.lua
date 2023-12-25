@@ -7,6 +7,6 @@
 ---@field public isOverride Bool
 scnCinematicAnimSetSRRef = {}
 
----@param fields? table
+---@param fields? scnCinematicAnimSetSRRef
 ---@return scnCinematicAnimSetSRRef
 function scnCinematicAnimSetSRRef.new(fields) return end

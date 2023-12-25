@@ -4,7 +4,7 @@
 ---@class gamedataInAirGravityModifier_Record: gamedataDriveHelper_Record
 gamedataInAirGravityModifier_Record = {}
 
----@param fields? table
+---@param fields? gamedataInAirGravityModifier_Record
 ---@return gamedataInAirGravityModifier_Record
 function gamedataInAirGravityModifier_Record.new(fields) return end
 

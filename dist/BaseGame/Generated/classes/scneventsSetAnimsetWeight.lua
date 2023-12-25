@@ -7,6 +7,6 @@
 ---@field public weight Float
 scneventsSetAnimsetWeight = {}
 
----@param fields? table
+---@param fields? scneventsSetAnimsetWeight
 ---@return scneventsSetAnimsetWeight
 function scneventsSetAnimsetWeight.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class inkScreenProjectionCallback: inkCallbackBase
 inkScreenProjectionCallback = {}
 
----@param fields? table
+---@param fields? inkScreenProjectionCallback
 ---@return inkScreenProjectionCallback
 function inkScreenProjectionCallback.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gamedataAISquadANDCondition_Record: gamedataAITicketCheck_Record
 gamedataAISquadANDCondition_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISquadANDCondition_Record
 ---@return gamedataAISquadANDCondition_Record
 function gamedataAISquadANDCondition_Record.new(fields) return end
 

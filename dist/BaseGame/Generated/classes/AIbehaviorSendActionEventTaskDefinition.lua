@@ -5,6 +5,6 @@
 ---@field public event gameActionEvent
 AIbehaviorSendActionEventTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSendActionEventTaskDefinition
 ---@return AIbehaviorSendActionEventTaskDefinition
 function AIbehaviorSendActionEventTaskDefinition.new(fields) return end

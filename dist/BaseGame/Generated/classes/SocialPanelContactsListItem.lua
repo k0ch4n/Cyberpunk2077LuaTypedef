@@ -6,7 +6,7 @@
 ---@field private ContactInfo SocialPanelContactInfo
 SocialPanelContactsListItem = {}
 
----@param fields? table
+---@param fields? SocialPanelContactsListItem
 ---@return SocialPanelContactsListItem
 function SocialPanelContactsListItem.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class questQuestsSystem: questIQuestsSystem
 questQuestsSystem = {}
 
----@param fields? table
+---@param fields? questQuestsSystem
 ---@return questQuestsSystem
 function questQuestsSystem.new(fields) return end
 

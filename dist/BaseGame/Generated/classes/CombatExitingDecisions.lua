@@ -4,7 +4,7 @@
 ---@class CombatExitingDecisions: ExitingDecisions
 CombatExitingDecisions = {}
 
----@param fields? table
+---@param fields? CombatExitingDecisions
 ---@return CombatExitingDecisions
 function CombatExitingDecisions.new(fields) return end
 

@@ -35,7 +35,7 @@
 ---@field public UseCarAlarmStim gamebbScriptID_Bool
 VehicleDef = {}
 
----@param fields? table
+---@param fields? VehicleDef
 ---@return VehicleDef
 function VehicleDef.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldRuntimeSystemNavigation: worldIRuntimeSystemNavigation
 worldRuntimeSystemNavigation = {}
 
----@param fields? table
+---@param fields? worldRuntimeSystemNavigation
 ---@return worldRuntimeSystemNavigation
 function worldRuntimeSystemNavigation.new(fields) return end

@@ -9,7 +9,7 @@
 ---@field protected TrainGlobalRef CName
 NcartStationMarker = {}
 
----@param fields? table
+---@param fields? NcartStationMarker
 ---@return NcartStationMarker
 function NcartStationMarker.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class ToggleJuryrigTrap: ActionBool
 ToggleJuryrigTrap = {}
 
----@param fields? table
+---@param fields? ToggleJuryrigTrap
 ---@return ToggleJuryrigTrap
 function ToggleJuryrigTrap.new(fields) return end
 

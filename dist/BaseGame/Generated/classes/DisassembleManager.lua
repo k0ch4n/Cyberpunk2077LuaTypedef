@@ -19,7 +19,7 @@
 ---@field private CraftingBBID redCallbackObject
 DisassembleManager = {}
 
----@param fields? table
+---@param fields? DisassembleManager
 ---@return DisassembleManager
 function DisassembleManager.new(fields) return end
 

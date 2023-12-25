@@ -7,6 +7,6 @@
 ---@field public enableQueries Bool
 questComponentCollisionMapArrayElement = {}
 
----@param fields? table
+---@param fields? questComponentCollisionMapArrayElement
 ---@return questComponentCollisionMapArrayElement
 function questComponentCollisionMapArrayElement.new(fields) return end

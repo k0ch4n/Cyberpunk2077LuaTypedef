@@ -5,6 +5,6 @@
 ---@field public interruptionOperations scnIInterruptionOperation[]
 scnInterruptManagerNode = {}
 
----@param fields? table
+---@param fields? scnInterruptManagerNode
 ---@return scnInterruptManagerNode
 function scnInterruptManagerNode.new(fields) return end

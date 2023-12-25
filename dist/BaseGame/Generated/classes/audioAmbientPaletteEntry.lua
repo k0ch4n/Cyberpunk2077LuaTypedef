@@ -5,6 +5,6 @@
 ---@field public brushCategory CName
 audioAmbientPaletteEntry = {}
 
----@param fields? table
+---@param fields? audioAmbientPaletteEntry
 ---@return audioAmbientPaletteEntry
 function audioAmbientPaletteEntry.new(fields) return end

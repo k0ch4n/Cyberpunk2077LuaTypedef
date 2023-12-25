@@ -8,6 +8,6 @@
 ---@field public rightLegIK animSTwoBonesIKSolverData
 animAnimNode_FloorIk = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloorIk
 ---@return animAnimNode_FloorIk
 function animAnimNode_FloorIk.new(fields) return end

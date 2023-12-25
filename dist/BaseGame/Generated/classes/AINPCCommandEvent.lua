@@ -5,6 +5,6 @@
 ---@field public command AICommand
 AINPCCommandEvent = {}
 
----@param fields? table
+---@param fields? AINPCCommandEvent
 ---@return AINPCCommandEvent
 function AINPCCommandEvent.new(fields) return end

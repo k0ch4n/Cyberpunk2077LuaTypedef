@@ -6,7 +6,7 @@
 ---@field public name CName
 vehicleGarageVehicleID = {}
 
----@param fields? table
+---@param fields? vehicleGarageVehicleID
 ---@return vehicleGarageVehicleID
 function vehicleGarageVehicleID.new(fields) return end
 

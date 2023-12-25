@@ -5,7 +5,7 @@
 ---@field public forceSecuritySystemIntoStrictQuestControl Bool
 SuppressSecuritySystemStateChange = {}
 
----@param fields? table
+---@param fields? SuppressSecuritySystemStateChange
 ---@return SuppressSecuritySystemStateChange
 function SuppressSecuritySystemStateChange.new(fields) return end
 

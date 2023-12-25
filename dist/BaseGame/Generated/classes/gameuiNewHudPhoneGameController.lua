@@ -17,7 +17,7 @@
 ---@field public notificationMarker inkWidgetReference
 gameuiNewHudPhoneGameController = {}
 
----@param fields? table
+---@param fields? gameuiNewHudPhoneGameController
 ---@return gameuiNewHudPhoneGameController
 function gameuiNewHudPhoneGameController.new(fields) return end
 

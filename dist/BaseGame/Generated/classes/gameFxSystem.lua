@@ -4,7 +4,7 @@
 ---@class gameFxSystem: gameIFxSystem
 gameFxSystem = {}
 
----@param fields? table
+---@param fields? gameFxSystem
 ---@return gameFxSystem
 function gameFxSystem.new(fields) return end
 

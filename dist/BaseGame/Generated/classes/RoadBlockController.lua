@@ -4,7 +4,7 @@
 ---@class RoadBlockController: ScriptableDeviceComponent
 RoadBlockController = {}
 
----@param fields? table
+---@param fields? RoadBlockController
 ---@return RoadBlockController
 function RoadBlockController.new(fields) return end
 

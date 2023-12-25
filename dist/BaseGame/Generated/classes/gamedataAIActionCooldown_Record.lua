@@ -4,7 +4,7 @@
 ---@class gamedataAIActionCooldown_Record: gamedataTweakDBRecord
 gamedataAIActionCooldown_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIActionCooldown_Record
 ---@return gamedataAIActionCooldown_Record
 function gamedataAIActionCooldown_Record.new(fields) return end
 

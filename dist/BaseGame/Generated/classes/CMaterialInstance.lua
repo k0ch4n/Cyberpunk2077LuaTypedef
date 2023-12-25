@@ -8,6 +8,6 @@
 ---@field public resourceVersion Uint8
 CMaterialInstance = {}
 
----@param fields? table
+---@param fields? CMaterialInstance
 ---@return CMaterialInstance
 function CMaterialInstance.new(fields) return end

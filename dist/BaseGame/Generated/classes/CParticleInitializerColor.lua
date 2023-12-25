@@ -5,6 +5,6 @@
 ---@field public color IEvaluatorColor
 CParticleInitializerColor = {}
 
----@param fields? table
+---@param fields? CParticleInitializerColor
 ---@return CParticleInitializerColor
 function CParticleInitializerColor.new(fields) return end

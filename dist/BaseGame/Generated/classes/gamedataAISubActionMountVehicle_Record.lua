@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionMountVehicle_Record: gamedataAISubAction_Record
 gamedataAISubActionMountVehicle_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionMountVehicle_Record
 ---@return gamedataAISubActionMountVehicle_Record
 function gamedataAISubActionMountVehicle_Record.new(fields) return end
 

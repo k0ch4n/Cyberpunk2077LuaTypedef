@@ -13,6 +13,6 @@
 ---@field public changeType gameJournalChangeType
 gameJournalEntryStateChangeData = {}
 
----@param fields? table
+---@param fields? gameJournalEntryStateChangeData
 ---@return gameJournalEntryStateChangeData
 function gameJournalEntryStateChangeData.new(fields) return end

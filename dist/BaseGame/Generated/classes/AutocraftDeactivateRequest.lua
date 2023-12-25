@@ -5,6 +5,6 @@
 ---@field public resetMemory Bool
 AutocraftDeactivateRequest = {}
 
----@param fields? table
+---@param fields? AutocraftDeactivateRequest
 ---@return AutocraftDeactivateRequest
 function AutocraftDeactivateRequest.new(fields) return end

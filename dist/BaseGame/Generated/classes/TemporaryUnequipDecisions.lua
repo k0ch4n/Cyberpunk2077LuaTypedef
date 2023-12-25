@@ -4,7 +4,7 @@
 ---@class TemporaryUnequipDecisions: UpperBodyTransition
 TemporaryUnequipDecisions = {}
 
----@param fields? table
+---@param fields? TemporaryUnequipDecisions
 ---@return TemporaryUnequipDecisions
 function TemporaryUnequipDecisions.new(fields) return end
 

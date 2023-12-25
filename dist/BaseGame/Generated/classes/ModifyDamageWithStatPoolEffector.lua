@@ -9,7 +9,7 @@
 ---@field public refObj String
 ModifyDamageWithStatPoolEffector = {}
 
----@param fields? table
+---@param fields? ModifyDamageWithStatPoolEffector
 ---@return ModifyDamageWithStatPoolEffector
 function ModifyDamageWithStatPoolEffector.new(fields) return end
 

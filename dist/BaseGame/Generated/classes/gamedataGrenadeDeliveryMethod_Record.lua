@@ -4,7 +4,7 @@
 ---@class gamedataGrenadeDeliveryMethod_Record: gamedataTweakDBRecord
 gamedataGrenadeDeliveryMethod_Record = {}
 
----@param fields? table
+---@param fields? gamedataGrenadeDeliveryMethod_Record
 ---@return gamedataGrenadeDeliveryMethod_Record
 function gamedataGrenadeDeliveryMethod_Record.new(fields) return end
 

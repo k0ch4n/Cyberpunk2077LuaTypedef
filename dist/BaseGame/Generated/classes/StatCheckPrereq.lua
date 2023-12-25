@@ -5,7 +5,7 @@
 ---@field protected statToCheck gamedataStatType
 StatCheckPrereq = {}
 
----@param fields? table
+---@param fields? StatCheckPrereq
 ---@return StatCheckPrereq
 function StatCheckPrereq.new(fields) return end
 

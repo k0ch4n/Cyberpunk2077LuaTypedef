@@ -4,7 +4,7 @@
 ---@class WorkspotDecisions: LocomotionGroundDecisions
 WorkspotDecisions = {}
 
----@param fields? table
+---@param fields? WorkspotDecisions
 ---@return WorkspotDecisions
 function WorkspotDecisions.new(fields) return end
 

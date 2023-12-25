@@ -4,7 +4,7 @@
 ---@class QuestForceTakeControlOverCameraWithChain: ActionBool
 QuestForceTakeControlOverCameraWithChain = {}
 
----@param fields? table
+---@param fields? QuestForceTakeControlOverCameraWithChain
 ---@return QuestForceTakeControlOverCameraWithChain
 function QuestForceTakeControlOverCameraWithChain.new(fields) return end
 

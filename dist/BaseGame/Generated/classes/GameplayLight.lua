@@ -4,7 +4,7 @@
 ---@class GameplayLight: InteractiveDevice
 GameplayLight = {}
 
----@param fields? table
+---@param fields? GameplayLight
 ---@return GameplayLight
 function GameplayLight.new(fields) return end
 

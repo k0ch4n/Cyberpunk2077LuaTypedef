@@ -4,7 +4,7 @@
 ---@class gamedataDistrictPrereq_Record: gamedataIPrereq_Record
 gamedataDistrictPrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataDistrictPrereq_Record
 ---@return gamedataDistrictPrereq_Record
 function gamedataDistrictPrereq_Record.new(fields) return end
 

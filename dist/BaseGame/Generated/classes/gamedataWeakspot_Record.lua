@@ -4,7 +4,7 @@
 ---@class gamedataWeakspot_Record: gamedataSpawnableObject_Record
 gamedataWeakspot_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeakspot_Record
 ---@return gamedataWeakspot_Record
 function gamedataWeakspot_Record.new(fields) return end
 

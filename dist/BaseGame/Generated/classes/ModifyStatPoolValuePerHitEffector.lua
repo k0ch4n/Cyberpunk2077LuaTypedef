@@ -5,7 +5,7 @@
 ---@field public damageScaleFactor Float
 ModifyStatPoolValuePerHitEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatPoolValuePerHitEffector
 ---@return ModifyStatPoolValuePerHitEffector
 function ModifyStatPoolValuePerHitEffector.new(fields) return end
 

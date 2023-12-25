@@ -4,6 +4,6 @@
 ---@class gameeventsUnconsciousEvent: redEvent
 gameeventsUnconsciousEvent = {}
 
----@param fields? table
+---@param fields? gameeventsUnconsciousEvent
 ---@return gameeventsUnconsciousEvent
 function gameeventsUnconsciousEvent.new(fields) return end

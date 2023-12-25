@@ -7,6 +7,6 @@
 ---@field public unequipDuration Float
 AnimFeature_EquipType = {}
 
----@param fields? table
+---@param fields? AnimFeature_EquipType
 ---@return AnimFeature_EquipType
 function AnimFeature_EquipType.new(fields) return end

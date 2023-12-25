@@ -4,6 +4,6 @@
 ---@class inkWidgetCompositor
 inkWidgetCompositor = {}
 
----@param fields? table
+---@param fields? inkWidgetCompositor
 ---@return inkWidgetCompositor
 function inkWidgetCompositor.new(fields) return end

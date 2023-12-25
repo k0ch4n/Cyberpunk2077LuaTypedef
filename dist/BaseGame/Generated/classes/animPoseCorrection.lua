@@ -8,6 +8,6 @@
 ---@field public boneCorrections animBoneCorrection
 animPoseCorrection = {}
 
----@param fields? table
+---@param fields? animPoseCorrection
 ---@return animPoseCorrection
 function animPoseCorrection.new(fields) return end

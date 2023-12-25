@@ -5,6 +5,6 @@
 ---@field public function EasingFunction
 gameTransformAnimation_Movement_PredefinedFunction = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Movement_PredefinedFunction
 ---@return gameTransformAnimation_Movement_PredefinedFunction
 function gameTransformAnimation_Movement_PredefinedFunction.new(fields) return end

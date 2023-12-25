@@ -5,6 +5,6 @@
 ---@field public scale IEvaluatorFloat
 CParticleInitializerVelocityInherit = {}
 
----@param fields? table
+---@param fields? CParticleInitializerVelocityInherit
 ---@return CParticleInitializerVelocityInherit
 function CParticleInitializerVelocityInherit.new(fields) return end

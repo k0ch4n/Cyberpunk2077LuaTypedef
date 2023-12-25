@@ -4,6 +4,6 @@
 ---@class DeathMenuDelayEvent: redEvent
 DeathMenuDelayEvent = {}
 
----@param fields? table
+---@param fields? DeathMenuDelayEvent
 ---@return DeathMenuDelayEvent
 function DeathMenuDelayEvent.new(fields) return end

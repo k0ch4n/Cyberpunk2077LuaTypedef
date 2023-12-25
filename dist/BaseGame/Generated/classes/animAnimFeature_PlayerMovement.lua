@@ -9,7 +9,7 @@
 ---@field public standingTerrainAngle Float
 animAnimFeature_PlayerMovement = {}
 
----@param fields? table
+---@param fields? animAnimFeature_PlayerMovement
 ---@return animAnimFeature_PlayerMovement
 function animAnimFeature_PlayerMovement.new(fields) return end
 

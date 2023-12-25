@@ -5,7 +5,7 @@
 ---@field protected roleCbId Uint32
 PassiveIsPlayerCompanionCondition = {}
 
----@param fields? table
+---@param fields? PassiveIsPlayerCompanionCondition
 ---@return PassiveIsPlayerCompanionCondition
 function PassiveIsPlayerCompanionCondition.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public timeDeltaMultiplier Float
 worldCurvePathNode = {}
 
----@param fields? table
+---@param fields? worldCurvePathNode
 ---@return worldCurvePathNode
 function worldCurvePathNode.new(fields) return end

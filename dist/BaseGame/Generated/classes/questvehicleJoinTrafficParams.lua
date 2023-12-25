@@ -4,6 +4,6 @@
 ---@class questvehicleJoinTrafficParams: questVehicleSpecificCommandParams
 questvehicleJoinTrafficParams = {}
 
----@param fields? table
+---@param fields? questvehicleJoinTrafficParams
 ---@return questvehicleJoinTrafficParams
 function questvehicleJoinTrafficParams.new(fields) return end

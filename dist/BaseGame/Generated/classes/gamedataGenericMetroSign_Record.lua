@@ -4,7 +4,7 @@
 ---@class gamedataGenericMetroSign_Record: gamedataBaseSign_Record
 gamedataGenericMetroSign_Record = {}
 
----@param fields? table
+---@param fields? gamedataGenericMetroSign_Record
 ---@return gamedataGenericMetroSign_Record
 function gamedataGenericMetroSign_Record.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public isInverted Bool
 questSceneTier_ConditionType = {}
 
----@param fields? table
+---@param fields? questSceneTier_ConditionType
 ---@return questSceneTier_ConditionType
 function questSceneTier_ConditionType.new(fields) return end

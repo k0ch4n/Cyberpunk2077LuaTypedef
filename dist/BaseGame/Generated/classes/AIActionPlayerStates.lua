@@ -10,6 +10,6 @@
 ---@field public combatStates gamePSMCombat[]
 AIActionPlayerStates = {}
 
----@param fields? table
+---@param fields? AIActionPlayerStates
 ---@return AIActionPlayerStates
 function AIActionPlayerStates.new(fields) return end

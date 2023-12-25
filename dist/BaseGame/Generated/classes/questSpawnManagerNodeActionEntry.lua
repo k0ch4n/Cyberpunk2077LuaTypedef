@@ -5,6 +5,6 @@
 ---@field public type questSpawnManagerNodeType
 questSpawnManagerNodeActionEntry = {}
 
----@param fields? table
+---@param fields? questSpawnManagerNodeActionEntry
 ---@return questSpawnManagerNodeActionEntry
 function questSpawnManagerNodeActionEntry.new(fields) return end

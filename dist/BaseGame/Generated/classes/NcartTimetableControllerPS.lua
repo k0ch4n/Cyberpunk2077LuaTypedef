@@ -7,7 +7,7 @@
 ---@field private currentLine Int32
 NcartTimetableControllerPS = {}
 
----@param fields? table
+---@param fields? NcartTimetableControllerPS
 ---@return NcartTimetableControllerPS
 function NcartTimetableControllerPS.new(fields) return end
 

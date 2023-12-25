@@ -5,7 +5,7 @@
 ---@field public listener sampleTimeListener
 sampleTimeDilatable = {}
 
----@param fields? table
+---@param fields? sampleTimeDilatable
 ---@return sampleTimeDilatable
 function sampleTimeDilatable.new(fields) return end
 

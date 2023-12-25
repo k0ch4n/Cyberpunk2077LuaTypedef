@@ -7,6 +7,6 @@
 ---@field public itemId TweakDBID
 scneventsEquipItemToPerformer = {}
 
----@param fields? table
+---@param fields? scneventsEquipItemToPerformer
 ---@return scneventsEquipItemToPerformer
 function scneventsEquipItemToPerformer.new(fields) return end

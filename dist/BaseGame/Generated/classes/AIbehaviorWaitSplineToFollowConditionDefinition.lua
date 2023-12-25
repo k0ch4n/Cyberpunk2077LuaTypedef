@@ -4,6 +4,6 @@
 ---@class AIbehaviorWaitSplineToFollowConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitSplineToFollowConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitSplineToFollowConditionDefinition
 ---@return AIbehaviorWaitSplineToFollowConditionDefinition
 function AIbehaviorWaitSplineToFollowConditionDefinition.new(fields) return end

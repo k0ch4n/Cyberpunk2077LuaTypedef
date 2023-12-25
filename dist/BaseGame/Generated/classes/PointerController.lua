@@ -9,7 +9,7 @@
 ---@field private currentIndex Int32
 PointerController = {}
 
----@param fields? table
+---@param fields? PointerController
 ---@return PointerController
 function PointerController.new(fields) return end
 

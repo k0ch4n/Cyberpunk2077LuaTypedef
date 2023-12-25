@@ -8,7 +8,7 @@
 ---@field public imagePart CName
 gameJournalTarot = {}
 
----@param fields? table
+---@param fields? gameJournalTarot
 ---@return gameJournalTarot
 function gameJournalTarot.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public acceptNotInstant Bool
 MountRequestCondition = {}
 
----@param fields? table
+---@param fields? MountRequestCondition
 ---@return MountRequestCondition
 function MountRequestCondition.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field private animLoop inkanimProxy
 PauseMenuButtonItem = {}
 
----@param fields? table
+---@param fields? PauseMenuButtonItem
 ---@return PauseMenuButtonItem
 function PauseMenuButtonItem.new(fields) return end
 

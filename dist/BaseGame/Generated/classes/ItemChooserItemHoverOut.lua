@@ -5,6 +5,6 @@
 ---@field public sourceEvent inkPointerEvent
 ItemChooserItemHoverOut = {}
 
----@param fields? table
+---@param fields? ItemChooserItemHoverOut
 ---@return ItemChooserItemHoverOut
 function ItemChooserItemHoverOut.new(fields) return end

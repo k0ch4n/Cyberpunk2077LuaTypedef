@@ -8,7 +8,7 @@
 ---@field public category CName
 AICommand = {}
 
----@param fields? table
+---@param fields? AICommand
 ---@return AICommand
 function AICommand.new(fields) return end
 

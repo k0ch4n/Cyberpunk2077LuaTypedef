@@ -4,7 +4,7 @@
 ---@class vehicleVehicleTirePuncturedEvent: redEvent
 vehicleVehicleTirePuncturedEvent = {}
 
----@param fields? table
+---@param fields? vehicleVehicleTirePuncturedEvent
 ---@return vehicleVehicleTirePuncturedEvent
 function vehicleVehicleTirePuncturedEvent.new(fields) return end
 

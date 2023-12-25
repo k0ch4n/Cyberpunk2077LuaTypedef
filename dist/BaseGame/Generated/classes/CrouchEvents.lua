@@ -4,7 +4,7 @@
 ---@class CrouchEvents: LocomotionGroundEvents
 CrouchEvents = {}
 
----@param fields? table
+---@param fields? CrouchEvents
 ---@return CrouchEvents
 function CrouchEvents.new(fields) return end
 

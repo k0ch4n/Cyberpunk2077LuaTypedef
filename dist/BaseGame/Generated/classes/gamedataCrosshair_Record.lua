@@ -4,7 +4,7 @@
 ---@class gamedataCrosshair_Record: gamedataTweakDBRecord
 gamedataCrosshair_Record = {}
 
----@param fields? table
+---@param fields? gamedataCrosshair_Record
 ---@return gamedataCrosshair_Record
 function gamedataCrosshair_Record.new(fields) return end
 

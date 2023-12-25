@@ -6,6 +6,6 @@
 ---@field public options scnscreenplayChoiceOption[]
 scnscreenplayStore = {}
 
----@param fields? table
+---@param fields? scnscreenplayStore
 ---@return scnscreenplayStore
 function scnscreenplayStore.new(fields) return end

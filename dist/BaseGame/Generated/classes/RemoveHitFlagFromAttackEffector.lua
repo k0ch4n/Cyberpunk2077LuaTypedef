@@ -6,7 +6,7 @@
 ---@field public reason CName
 RemoveHitFlagFromAttackEffector = {}
 
----@param fields? table
+---@param fields? RemoveHitFlagFromAttackEffector
 ---@return RemoveHitFlagFromAttackEffector
 function RemoveHitFlagFromAttackEffector.new(fields) return end
 

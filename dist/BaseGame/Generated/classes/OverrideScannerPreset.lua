@@ -5,7 +5,7 @@
 ---@field public scannerPreset TweakDBID
 OverrideScannerPreset = {}
 
----@param fields? table
+---@param fields? OverrideScannerPreset
 ---@return OverrideScannerPreset
 function OverrideScannerPreset.new(fields) return end
 

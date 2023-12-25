@@ -4,7 +4,7 @@
 ---@class gamedataPerkArea_Record: gamedataTweakDBRecord
 gamedataPerkArea_Record = {}
 
----@param fields? table
+---@param fields? gamedataPerkArea_Record
 ---@return gamedataPerkArea_Record
 function gamedataPerkArea_Record.new(fields) return end
 

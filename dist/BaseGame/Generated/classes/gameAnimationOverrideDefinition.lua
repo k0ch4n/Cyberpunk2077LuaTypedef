@@ -6,6 +6,6 @@
 ---@field public variables CName[]
 gameAnimationOverrideDefinition = {}
 
----@param fields? table
+---@param fields? gameAnimationOverrideDefinition
 ---@return gameAnimationOverrideDefinition
 function gameAnimationOverrideDefinition.new(fields) return end

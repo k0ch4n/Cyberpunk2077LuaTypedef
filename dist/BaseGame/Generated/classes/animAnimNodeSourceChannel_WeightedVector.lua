@@ -8,6 +8,6 @@
 ---@field public weightFloatTrack animNamedTrackIndex
 animAnimNodeSourceChannel_WeightedVector = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_WeightedVector
 ---@return animAnimNodeSourceChannel_WeightedVector
 function animAnimNodeSourceChannel_WeightedVector.new(fields) return end

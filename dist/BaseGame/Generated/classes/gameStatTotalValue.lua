@@ -6,6 +6,6 @@
 ---@field public value Float
 gameStatTotalValue = {}
 
----@param fields? table
+---@param fields? gameStatTotalValue
 ---@return gameStatTotalValue
 function gameStatTotalValue.new(fields) return end

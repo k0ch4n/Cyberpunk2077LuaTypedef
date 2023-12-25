@@ -7,6 +7,6 @@
 ---@field public stopIfPlaying Bool
 PlayNewPerksSoundEvent = {}
 
----@param fields? table
+---@param fields? PlayNewPerksSoundEvent
 ---@return PlayNewPerksSoundEvent
 function PlayNewPerksSoundEvent.new(fields) return end

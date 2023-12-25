@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsVehicleDrive: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsVehicleDrive = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsVehicleDrive
 ---@return gamestateMachineplayeractionsVehicleDrive
 function gamestateMachineplayeractionsVehicleDrive.new(fields) return end

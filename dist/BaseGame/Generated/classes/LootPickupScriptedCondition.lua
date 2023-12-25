@@ -4,7 +4,7 @@
 ---@class LootPickupScriptedCondition: gameinteractionsInteractionScriptedCondition
 LootPickupScriptedCondition = {}
 
----@param fields? table
+---@param fields? LootPickupScriptedCondition
 ---@return LootPickupScriptedCondition
 function LootPickupScriptedCondition.new(fields) return end
 

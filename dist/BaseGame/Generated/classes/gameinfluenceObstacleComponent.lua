@@ -8,7 +8,7 @@
 ---@field public isEnabled Bool
 gameinfluenceObstacleComponent = {}
 
----@param fields? table
+---@param fields? gameinfluenceObstacleComponent
 ---@return gameinfluenceObstacleComponent
 function gameinfluenceObstacleComponent.new(fields) return end
 

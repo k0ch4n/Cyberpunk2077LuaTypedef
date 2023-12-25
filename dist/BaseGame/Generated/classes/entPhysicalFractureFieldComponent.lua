@@ -5,6 +5,6 @@
 ---@field public fractureFieldParams physicsFractureFieldParams
 entPhysicalFractureFieldComponent = {}
 
----@param fields? table
+---@param fields? entPhysicalFractureFieldComponent
 ---@return entPhysicalFractureFieldComponent
 function entPhysicalFractureFieldComponent.new(fields) return end

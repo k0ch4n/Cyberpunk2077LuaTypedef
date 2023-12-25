@@ -8,6 +8,6 @@
 ---@field public show Bool
 questShowOnscreen_NodeType = {}
 
----@param fields? table
+---@param fields? questShowOnscreen_NodeType
 ---@return questShowOnscreen_NodeType
 function questShowOnscreen_NodeType.new(fields) return end

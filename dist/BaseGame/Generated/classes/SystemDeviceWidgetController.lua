@@ -6,7 +6,7 @@
 ---@field protected connectedDevicesHolder inkWidgetReference
 SystemDeviceWidgetController = {}
 
----@param fields? table
+---@param fields? SystemDeviceWidgetController
 ---@return SystemDeviceWidgetController
 function SystemDeviceWidgetController.new(fields) return end
 

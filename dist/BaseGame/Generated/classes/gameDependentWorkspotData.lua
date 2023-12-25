@@ -4,6 +4,6 @@
 ---@class gameDependentWorkspotData: ISerializable
 gameDependentWorkspotData = {}
 
----@param fields? table
+---@param fields? gameDependentWorkspotData
 ---@return gameDependentWorkspotData
 function gameDependentWorkspotData.new(fields) return end

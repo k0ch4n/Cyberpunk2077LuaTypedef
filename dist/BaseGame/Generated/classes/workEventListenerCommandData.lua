@@ -4,6 +4,6 @@
 ---@class workEventListenerCommandData: workIWorkspotCommandData
 workEventListenerCommandData = {}
 
----@param fields? table
+---@param fields? workEventListenerCommandData
 ---@return workEventListenerCommandData
 function workEventListenerCommandData.new(fields) return end

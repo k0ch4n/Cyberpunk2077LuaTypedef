@@ -4,7 +4,7 @@
 ---@class gameuiInGameCharacterCustomizationGameController: gameuiBaseMenuGameController
 gameuiInGameCharacterCustomizationGameController = {}
 
----@param fields? table
+---@param fields? gameuiInGameCharacterCustomizationGameController
 ---@return gameuiInGameCharacterCustomizationGameController
 function gameuiInGameCharacterCustomizationGameController.new(fields) return end
 

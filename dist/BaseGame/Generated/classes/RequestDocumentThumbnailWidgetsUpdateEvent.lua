@@ -5,6 +5,6 @@
 ---@field public documentType EDocumentType
 RequestDocumentThumbnailWidgetsUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestDocumentThumbnailWidgetsUpdateEvent
 ---@return RequestDocumentThumbnailWidgetsUpdateEvent
 function RequestDocumentThumbnailWidgetsUpdateEvent.new(fields) return end

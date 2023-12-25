@@ -10,6 +10,6 @@
 ---@field public allowCrowdOnPath Bool
 questSimpleMoveOnSplineParams = {}
 
----@param fields? table
+---@param fields? questSimpleMoveOnSplineParams
 ---@return questSimpleMoveOnSplineParams
 function questSimpleMoveOnSplineParams.new(fields) return end

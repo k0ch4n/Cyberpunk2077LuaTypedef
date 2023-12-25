@@ -4,7 +4,7 @@
 ---@class PlayerHasMantisBladesEquippedPrereq: gameIScriptablePrereq
 PlayerHasMantisBladesEquippedPrereq = {}
 
----@param fields? table
+---@param fields? PlayerHasMantisBladesEquippedPrereq
 ---@return PlayerHasMantisBladesEquippedPrereq
 function PlayerHasMantisBladesEquippedPrereq.new(fields) return end
 

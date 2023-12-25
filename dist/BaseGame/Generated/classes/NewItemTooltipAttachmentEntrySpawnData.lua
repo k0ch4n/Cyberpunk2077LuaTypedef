@@ -5,6 +5,6 @@
 ---@field public index Int32
 NewItemTooltipAttachmentEntrySpawnData = {}
 
----@param fields? table
+---@param fields? NewItemTooltipAttachmentEntrySpawnData
 ---@return NewItemTooltipAttachmentEntrySpawnData
 function NewItemTooltipAttachmentEntrySpawnData.new(fields) return end

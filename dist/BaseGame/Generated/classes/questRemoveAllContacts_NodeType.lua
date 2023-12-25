@@ -5,6 +5,6 @@
 ---@field public excludedContacts gameJournalPath[]
 questRemoveAllContacts_NodeType = {}
 
----@param fields? table
+---@param fields? questRemoveAllContacts_NodeType
 ---@return questRemoveAllContacts_NodeType
 function questRemoveAllContacts_NodeType.new(fields) return end

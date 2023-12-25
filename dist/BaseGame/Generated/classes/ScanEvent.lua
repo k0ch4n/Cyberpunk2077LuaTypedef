@@ -6,6 +6,6 @@
 ---@field public isAvailable Bool
 ScanEvent = {}
 
----@param fields? table
+---@param fields? ScanEvent
 ---@return ScanEvent
 function ScanEvent.new(fields) return end

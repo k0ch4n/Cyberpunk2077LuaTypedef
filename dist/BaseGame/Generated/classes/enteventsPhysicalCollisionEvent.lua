@@ -11,6 +11,6 @@
 ---@field public impulse Float
 enteventsPhysicalCollisionEvent = {}
 
----@param fields? table
+---@param fields? enteventsPhysicalCollisionEvent
 ---@return enteventsPhysicalCollisionEvent
 function enteventsPhysicalCollisionEvent.new(fields) return end

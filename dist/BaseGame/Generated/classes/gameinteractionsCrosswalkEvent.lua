@@ -8,6 +8,6 @@
 ---@field public distanceLeft Float
 gameinteractionsCrosswalkEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsCrosswalkEvent
 ---@return gameinteractionsCrosswalkEvent
 function gameinteractionsCrosswalkEvent.new(fields) return end

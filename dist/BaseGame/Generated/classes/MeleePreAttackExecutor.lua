@@ -4,7 +4,7 @@
 ---@class MeleePreAttackExecutor: gameEffectExecutor_Scripted
 MeleePreAttackExecutor = {}
 
----@param fields? table
+---@param fields? MeleePreAttackExecutor
 ---@return MeleePreAttackExecutor
 function MeleePreAttackExecutor.new(fields) return end
 

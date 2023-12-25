@@ -4,7 +4,7 @@
 ---@class ChargeMaxDecisions: WeaponTransition
 ChargeMaxDecisions = {}
 
----@param fields? table
+---@param fields? ChargeMaxDecisions
 ---@return ChargeMaxDecisions
 function ChargeMaxDecisions.new(fields) return end
 

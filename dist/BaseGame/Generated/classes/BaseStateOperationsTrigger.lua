@@ -7,7 +7,7 @@
 ---@field private cachedState EDeviceStatus
 BaseStateOperationsTrigger = {}
 
----@param fields? table
+---@param fields? BaseStateOperationsTrigger
 ---@return BaseStateOperationsTrigger
 function BaseStateOperationsTrigger.new(fields) return end
 

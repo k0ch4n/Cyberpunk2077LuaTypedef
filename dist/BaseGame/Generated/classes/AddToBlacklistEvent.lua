@@ -7,6 +7,6 @@
 ---@field public reason BlacklistReason
 AddToBlacklistEvent = {}
 
----@param fields? table
+---@param fields? AddToBlacklistEvent
 ---@return AddToBlacklistEvent
 function AddToBlacklistEvent.new(fields) return end

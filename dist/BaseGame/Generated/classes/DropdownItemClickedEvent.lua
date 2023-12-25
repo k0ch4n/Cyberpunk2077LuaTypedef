@@ -7,6 +7,6 @@
 ---@field public identifier Variant
 DropdownItemClickedEvent = {}
 
----@param fields? table
+---@param fields? DropdownItemClickedEvent
 ---@return DropdownItemClickedEvent
 function DropdownItemClickedEvent.new(fields) return end

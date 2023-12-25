@@ -4,6 +4,6 @@
 ---@class gameBreachSystem: gameIBreachSystem
 gameBreachSystem = {}
 
----@param fields? table
+---@param fields? gameBreachSystem
 ---@return gameBreachSystem
 function gameBreachSystem.new(fields) return end

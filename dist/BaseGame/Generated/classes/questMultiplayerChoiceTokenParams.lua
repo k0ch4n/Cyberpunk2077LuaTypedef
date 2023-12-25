@@ -6,6 +6,6 @@
 ---@field public compatibleDeviceName CName
 questMultiplayerChoiceTokenParams = {}
 
----@param fields? table
+---@param fields? questMultiplayerChoiceTokenParams
 ---@return questMultiplayerChoiceTokenParams
 function questMultiplayerChoiceTokenParams.new(fields) return end

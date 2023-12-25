@@ -4,6 +4,6 @@
 ---@class gameDisableAimAssist: redEvent
 gameDisableAimAssist = {}
 
----@param fields? table
+---@param fields? gameDisableAimAssist
 ---@return gameDisableAimAssist
 function gameDisableAimAssist.new(fields) return end

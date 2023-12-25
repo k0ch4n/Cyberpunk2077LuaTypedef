@@ -4,7 +4,7 @@
 ---@class gameTelemetryTelemetrySystem: gameITelemetrySystem
 gameTelemetryTelemetrySystem = {}
 
----@param fields? table
+---@param fields? gameTelemetryTelemetrySystem
 ---@return gameTelemetryTelemetrySystem
 function gameTelemetryTelemetrySystem.new(fields) return end
 

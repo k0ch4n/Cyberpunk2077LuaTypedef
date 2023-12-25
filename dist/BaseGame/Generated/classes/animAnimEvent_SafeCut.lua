@@ -4,6 +4,6 @@
 ---@class animAnimEvent_SafeCut: animAnimEvent
 animAnimEvent_SafeCut = {}
 
----@param fields? table
+---@param fields? animAnimEvent_SafeCut
 ---@return animAnimEvent_SafeCut
 function animAnimEvent_SafeCut.new(fields) return end

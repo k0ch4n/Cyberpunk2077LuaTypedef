@@ -6,6 +6,6 @@
 ---@field public height Float
 AreaShapeOutline = {}
 
----@param fields? table
+---@param fields? AreaShapeOutline
 ---@return AreaShapeOutline
 function AreaShapeOutline.new(fields) return end

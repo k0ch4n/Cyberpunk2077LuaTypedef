@@ -7,6 +7,6 @@
 ---@field public color Color
 gameuiNarrationEvent = {}
 
----@param fields? table
+---@param fields? gameuiNarrationEvent
 ---@return gameuiNarrationEvent
 function gameuiNarrationEvent.new(fields) return end

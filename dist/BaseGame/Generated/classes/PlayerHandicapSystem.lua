@@ -6,7 +6,7 @@
 ---@field private canDropAmmo Bool
 PlayerHandicapSystem = {}
 
----@param fields? table
+---@param fields? PlayerHandicapSystem
 ---@return PlayerHandicapSystem
 function PlayerHandicapSystem.new(fields) return end
 

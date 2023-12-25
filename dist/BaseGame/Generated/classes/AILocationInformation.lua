@@ -6,6 +6,6 @@
 ---@field public direction Vector4
 AILocationInformation = {}
 
----@param fields? table
+---@param fields? AILocationInformation
 ---@return AILocationInformation
 function AILocationInformation.new(fields) return end

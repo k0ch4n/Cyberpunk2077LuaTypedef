@@ -5,6 +5,6 @@
 ---@field public tags CName[]
 animAnimNode_TagSwitch = {}
 
----@param fields? table
+---@param fields? animAnimNode_TagSwitch
 ---@return animAnimNode_TagSwitch
 function animAnimNode_TagSwitch.new(fields) return end

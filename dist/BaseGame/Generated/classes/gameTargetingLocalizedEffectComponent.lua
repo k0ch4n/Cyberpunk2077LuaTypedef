@@ -6,6 +6,6 @@
 ---@field public visibleTargetRange Float
 gameTargetingLocalizedEffectComponent = {}
 
----@param fields? table
+---@param fields? gameTargetingLocalizedEffectComponent
 ---@return gameTargetingLocalizedEffectComponent
 function gameTargetingLocalizedEffectComponent.new(fields) return end

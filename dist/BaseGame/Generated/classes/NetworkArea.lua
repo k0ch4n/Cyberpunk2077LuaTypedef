@@ -5,7 +5,7 @@
 ---@field private area gameStaticTriggerAreaComponent
 NetworkArea = {}
 
----@param fields? table
+---@param fields? NetworkArea
 ---@return NetworkArea
 function NetworkArea.new(fields) return end
 

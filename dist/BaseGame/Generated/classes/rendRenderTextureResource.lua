@@ -5,6 +5,6 @@
 ---@field public renderResourceBlobPC IRenderResourceBlob
 rendRenderTextureResource = {}
 
----@param fields? table
+---@param fields? rendRenderTextureResource
 ---@return rendRenderTextureResource
 function rendRenderTextureResource.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameStatPoolsSystem: gameIStatPoolsSystem
 gameStatPoolsSystem = {}
 
----@param fields? table
+---@param fields? gameStatPoolsSystem
 ---@return gameStatPoolsSystem
 function gameStatPoolsSystem.new(fields) return end
 

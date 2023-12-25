@@ -25,6 +25,6 @@
 ---@field public bptMinResetInputMag Float
 gameaimAssistAimRequest = {}
 
----@param fields? table
+---@param fields? gameaimAssistAimRequest
 ---@return gameaimAssistAimRequest
 function gameaimAssistAimRequest.new(fields) return end

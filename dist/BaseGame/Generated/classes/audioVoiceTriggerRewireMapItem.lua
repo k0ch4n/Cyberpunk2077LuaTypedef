@@ -9,6 +9,6 @@
 ---@field public allowReuse Bool
 audioVoiceTriggerRewireMapItem = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerRewireMapItem
 ---@return audioVoiceTriggerRewireMapItem
 function audioVoiceTriggerRewireMapItem.new(fields) return end

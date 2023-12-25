@@ -4,7 +4,7 @@
 ---@class FastForwardAvailableDecisions: ScenesFastForwardTransition
 FastForwardAvailableDecisions = {}
 
----@param fields? table
+---@param fields? FastForwardAvailableDecisions
 ---@return FastForwardAvailableDecisions
 function FastForwardAvailableDecisions.new(fields) return end
 

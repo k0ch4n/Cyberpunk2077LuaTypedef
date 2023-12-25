@@ -13,7 +13,7 @@
 ---@field protected hasNetworkBackdoor Bool
 SharedGameplayPS = {}
 
----@param fields? table
+---@param fields? SharedGameplayPS
 ---@return SharedGameplayPS
 function SharedGameplayPS.new(fields) return end
 

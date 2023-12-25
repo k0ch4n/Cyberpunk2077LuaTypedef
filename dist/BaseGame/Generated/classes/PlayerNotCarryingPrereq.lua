@@ -4,7 +4,7 @@
 ---@class PlayerNotCarryingPrereq: gameIScriptablePrereq
 PlayerNotCarryingPrereq = {}
 
----@param fields? table
+---@param fields? PlayerNotCarryingPrereq
 ---@return PlayerNotCarryingPrereq
 function PlayerNotCarryingPrereq.new(fields) return end
 

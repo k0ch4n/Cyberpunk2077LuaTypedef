@@ -10,6 +10,6 @@
 ---@field public flags Uint32
 rendRenderTextureBlobHeader = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobHeader
 ---@return rendRenderTextureBlobHeader
 function rendRenderTextureBlobHeader.new(fields) return end

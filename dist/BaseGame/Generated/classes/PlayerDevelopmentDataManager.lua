@@ -7,7 +7,7 @@
 ---@field private parentGameCtrl gameuiWidgetGameController
 PlayerDevelopmentDataManager = {}
 
----@param fields? table
+---@param fields? PlayerDevelopmentDataManager
 ---@return PlayerDevelopmentDataManager
 function PlayerDevelopmentDataManager.new(fields) return end
 

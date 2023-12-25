@@ -8,7 +8,7 @@
 ---@field public slotName CName
 GetOnWindowCombatDecorator = {}
 
----@param fields? table
+---@param fields? GetOnWindowCombatDecorator
 ---@return GetOnWindowCombatDecorator
 function GetOnWindowCombatDecorator.new(fields) return end
 

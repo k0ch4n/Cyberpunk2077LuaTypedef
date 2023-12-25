@@ -4,7 +4,7 @@
 ---@class CheckDroppedThreat: CheckThreat
 CheckDroppedThreat = {}
 
----@param fields? table
+---@param fields? CheckDroppedThreat
 ---@return CheckDroppedThreat
 function CheckDroppedThreat.new(fields) return end
 

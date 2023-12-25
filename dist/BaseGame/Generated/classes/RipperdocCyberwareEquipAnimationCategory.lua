@@ -8,7 +8,7 @@
 ---@field public equipCount Int32
 RipperdocCyberwareEquipAnimationCategory = {}
 
----@param fields? table
+---@param fields? RipperdocCyberwareEquipAnimationCategory
 ---@return RipperdocCyberwareEquipAnimationCategory
 function RipperdocCyberwareEquipAnimationCategory.new(fields) return end
 

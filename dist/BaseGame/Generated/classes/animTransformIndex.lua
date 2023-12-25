@@ -5,6 +5,6 @@
 ---@field public name CName
 animTransformIndex = {}
 
----@param fields? table
+---@param fields? animTransformIndex
 ---@return animTransformIndex
 function animTransformIndex.new(fields) return end

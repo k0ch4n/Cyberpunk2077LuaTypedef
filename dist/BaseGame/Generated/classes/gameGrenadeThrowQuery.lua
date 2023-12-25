@@ -4,6 +4,6 @@
 ---@class gameGrenadeThrowQuery
 gameGrenadeThrowQuery = {}
 
----@param fields? table
+---@param fields? gameGrenadeThrowQuery
 ---@return gameGrenadeThrowQuery
 function gameGrenadeThrowQuery.new(fields) return end

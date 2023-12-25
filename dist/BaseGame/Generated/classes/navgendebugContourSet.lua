@@ -12,6 +12,6 @@
 ---@field public maxError Float
 navgendebugContourSet = {}
 
----@param fields? table
+---@param fields? navgendebugContourSet
 ---@return navgendebugContourSet
 function navgendebugContourSet.new(fields) return end

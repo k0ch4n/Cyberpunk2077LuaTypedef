@@ -9,6 +9,6 @@
 ---@field public size Vector2
 gameTutorialBracketData = {}
 
----@param fields? table
+---@param fields? gameTutorialBracketData
 ---@return gameTutorialBracketData
 function gameTutorialBracketData.new(fields) return end

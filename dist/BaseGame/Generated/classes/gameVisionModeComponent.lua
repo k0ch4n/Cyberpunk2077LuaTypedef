@@ -12,7 +12,7 @@
 ---@field private slaveObjectsToHighlight entEntityID[]
 gameVisionModeComponent = {}
 
----@param fields? table
+---@param fields? gameVisionModeComponent
 ---@return gameVisionModeComponent
 function gameVisionModeComponent.new(fields) return end
 

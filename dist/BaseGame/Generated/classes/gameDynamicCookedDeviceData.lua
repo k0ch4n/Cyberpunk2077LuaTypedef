@@ -5,6 +5,6 @@
 ---@field public componentName CName
 gameDynamicCookedDeviceData = {}
 
----@param fields? table
+---@param fields? gameDynamicCookedDeviceData
 ---@return gameDynamicCookedDeviceData
 function gameDynamicCookedDeviceData.new(fields) return end

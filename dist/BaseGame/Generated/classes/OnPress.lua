@@ -4,6 +4,6 @@
 ---@class OnPress: inkPointerEvent
 OnPress = {}
 
----@param fields? table
+---@param fields? OnPress
 ---@return OnPress
 function OnPress.new(fields) return end

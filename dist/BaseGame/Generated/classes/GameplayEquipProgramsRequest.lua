@@ -5,6 +5,6 @@
 ---@field public programIDs gameItemID[]
 GameplayEquipProgramsRequest = {}
 
----@param fields? table
+---@param fields? GameplayEquipProgramsRequest
 ---@return GameplayEquipProgramsRequest
 function GameplayEquipProgramsRequest.new(fields) return end

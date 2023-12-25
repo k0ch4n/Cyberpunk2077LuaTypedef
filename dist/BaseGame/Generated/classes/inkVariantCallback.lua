@@ -4,6 +4,6 @@
 ---@class inkVariantCallback: inkCallbackBase
 inkVariantCallback = {}
 
----@param fields? table
+---@param fields? inkVariantCallback
 ---@return inkVariantCallback
 function inkVariantCallback.new(fields) return end

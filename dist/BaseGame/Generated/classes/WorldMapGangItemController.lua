@@ -6,7 +6,7 @@
 ---@field private factionIconImage inkImageWidgetReference
 WorldMapGangItemController = {}
 
----@param fields? table
+---@param fields? WorldMapGangItemController
 ---@return WorldMapGangItemController
 function WorldMapGangItemController.new(fields) return end
 

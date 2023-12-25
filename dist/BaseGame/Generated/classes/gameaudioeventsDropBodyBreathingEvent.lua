@@ -4,6 +4,6 @@
 ---@class gameaudioeventsDropBodyBreathingEvent: redEvent
 gameaudioeventsDropBodyBreathingEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsDropBodyBreathingEvent
 ---@return gameaudioeventsDropBodyBreathingEvent
 function gameaudioeventsDropBodyBreathingEvent.new(fields) return end

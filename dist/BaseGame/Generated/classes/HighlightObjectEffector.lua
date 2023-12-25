@@ -5,7 +5,7 @@
 ---@field public reason CName
 HighlightObjectEffector = {}
 
----@param fields? table
+---@param fields? HighlightObjectEffector
 ---@return HighlightObjectEffector
 function HighlightObjectEffector.new(fields) return end
 

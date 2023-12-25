@@ -4,7 +4,7 @@
 ---@class gameEffectInfo
 gameEffectInfo = {}
 
----@param fields? table
+---@param fields? gameEffectInfo
 ---@return gameEffectInfo
 function gameEffectInfo.new(fields) return end
 

@@ -11,7 +11,7 @@
 ---@field protected driveDownTheRoadIndefinitely AIArgumentMapping
 InVehicleDriveToPointAutonomousDecorator = {}
 
----@param fields? table
+---@param fields? InVehicleDriveToPointAutonomousDecorator
 ---@return InVehicleDriveToPointAutonomousDecorator
 function InVehicleDriveToPointAutonomousDecorator.new(fields) return end
 

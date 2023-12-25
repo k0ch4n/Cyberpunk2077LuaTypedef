@@ -9,6 +9,6 @@
 ---@field public projectionType animPositionProjectionType
 animDangleConstraint_SimulationPositionProjection = {}
 
----@param fields? table
+---@param fields? animDangleConstraint_SimulationPositionProjection
 ---@return animDangleConstraint_SimulationPositionProjection
 function animDangleConstraint_SimulationPositionProjection.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public inputDisplayKeyboard String
 gameinputActionDisplayData = {}
 
----@param fields? table
+---@param fields? gameinputActionDisplayData
 ---@return gameinputActionDisplayData
 function gameinputActionDisplayData.new(fields) return end

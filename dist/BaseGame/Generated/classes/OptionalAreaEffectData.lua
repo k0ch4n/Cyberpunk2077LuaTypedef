@@ -6,7 +6,7 @@
 ---@field private aoeData AreaEffectData
 OptionalAreaEffectData = {}
 
----@param fields? table
+---@param fields? OptionalAreaEffectData
 ---@return OptionalAreaEffectData
 function OptionalAreaEffectData.new(fields) return end
 

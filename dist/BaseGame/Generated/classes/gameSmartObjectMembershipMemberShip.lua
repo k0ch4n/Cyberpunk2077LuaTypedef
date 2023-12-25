@@ -6,6 +6,6 @@
 ---@field public index Uint32
 gameSmartObjectMembershipMemberShip = {}
 
----@param fields? table
+---@param fields? gameSmartObjectMembershipMemberShip
 ---@return gameSmartObjectMembershipMemberShip
 function gameSmartObjectMembershipMemberShip.new(fields) return end

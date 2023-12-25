@@ -17,6 +17,6 @@
 ---@field public snapFrameId Uint32
 gameMuppetState = {}
 
----@param fields? table
+---@param fields? gameMuppetState
 ---@return gameMuppetState
 function gameMuppetState.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PlayerHasCPOMissionDataPrereq: gameIScriptablePrereq
 PlayerHasCPOMissionDataPrereq = {}
 
----@param fields? table
+---@param fields? PlayerHasCPOMissionDataPrereq
 ---@return PlayerHasCPOMissionDataPrereq
 function PlayerHasCPOMissionDataPrereq.new(fields) return end
 

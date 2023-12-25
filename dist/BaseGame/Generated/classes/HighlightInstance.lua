@@ -6,7 +6,7 @@
 ---@field public instant Bool
 HighlightInstance = {}
 
----@param fields? table
+---@param fields? HighlightInstance
 ---@return HighlightInstance
 function HighlightInstance.new(fields) return end
 

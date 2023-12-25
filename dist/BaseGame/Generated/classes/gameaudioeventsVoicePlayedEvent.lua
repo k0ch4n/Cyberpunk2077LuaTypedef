@@ -7,6 +7,6 @@
 ---@field public isV Bool
 gameaudioeventsVoicePlayedEvent = {}
 
----@param fields? table
+---@param fields? gameaudioeventsVoicePlayedEvent
 ---@return gameaudioeventsVoicePlayedEvent
 function gameaudioeventsVoicePlayedEvent.new(fields) return end

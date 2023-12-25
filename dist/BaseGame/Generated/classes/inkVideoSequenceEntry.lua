@@ -9,6 +9,6 @@
 ---@field public loop Bool
 inkVideoSequenceEntry = {}
 
----@param fields? table
+---@param fields? inkVideoSequenceEntry
 ---@return inkVideoSequenceEntry
 function inkVideoSequenceEntry.new(fields) return end

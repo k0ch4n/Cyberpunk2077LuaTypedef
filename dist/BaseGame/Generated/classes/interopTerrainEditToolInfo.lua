@@ -15,6 +15,6 @@
 ---@field public creationSlots interopTerrainEditToolCreationSlotInfo[]
 interopTerrainEditToolInfo = {}
 
----@param fields? table
+---@param fields? interopTerrainEditToolInfo
 ---@return interopTerrainEditToolInfo
 function interopTerrainEditToolInfo.new(fields) return end

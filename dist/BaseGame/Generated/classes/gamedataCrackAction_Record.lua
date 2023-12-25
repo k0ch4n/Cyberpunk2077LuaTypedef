@@ -4,7 +4,7 @@
 ---@class gamedataCrackAction_Record: gamedataItemAction_Record
 gamedataCrackAction_Record = {}
 
----@param fields? table
+---@param fields? gamedataCrackAction_Record
 ---@return gamedataCrackAction_Record
 function gamedataCrackAction_Record.new(fields) return end
 

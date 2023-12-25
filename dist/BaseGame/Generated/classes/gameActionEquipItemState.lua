@@ -10,6 +10,6 @@
 ---@field public spawnDelay Float
 gameActionEquipItemState = {}
 
----@param fields? table
+---@param fields? gameActionEquipItemState
 ---@return gameActionEquipItemState
 function gameActionEquipItemState.new(fields) return end

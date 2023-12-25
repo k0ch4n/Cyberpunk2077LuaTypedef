@@ -5,6 +5,6 @@
 ---@field public itemInLeftHand Bool
 animAnimFeature_LeftHandItem = {}
 
----@param fields? table
+---@param fields? animAnimFeature_LeftHandItem
 ---@return animAnimFeature_LeftHandItem
 function animAnimFeature_LeftHandItem.new(fields) return end

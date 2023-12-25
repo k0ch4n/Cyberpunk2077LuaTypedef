@@ -4,7 +4,7 @@
 ---@class Stash: InteractiveDevice
 Stash = {}
 
----@param fields? table
+---@param fields? Stash
 ---@return Stash
 function Stash.new(fields) return end
 

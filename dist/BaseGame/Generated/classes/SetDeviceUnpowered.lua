@@ -4,7 +4,7 @@
 ---@class SetDeviceUnpowered: ActionBool
 SetDeviceUnpowered = {}
 
----@param fields? table
+---@param fields? SetDeviceUnpowered
 ---@return SetDeviceUnpowered
 function SetDeviceUnpowered.new(fields) return end
 

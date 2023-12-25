@@ -5,6 +5,6 @@
 ---@field public effectDescs entEffectDesc[]
 entEffectSpawnerComponent = {}
 
----@param fields? table
+---@param fields? entEffectSpawnerComponent
 ---@return entEffectSpawnerComponent
 function entEffectSpawnerComponent.new(fields) return end

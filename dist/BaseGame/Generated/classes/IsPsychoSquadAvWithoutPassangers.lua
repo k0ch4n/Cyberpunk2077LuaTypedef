@@ -4,7 +4,7 @@
 ---@class IsPsychoSquadAvWithoutPassangers: PreventionConditionAbstract
 IsPsychoSquadAvWithoutPassangers = {}
 
----@param fields? table
+---@param fields? IsPsychoSquadAvWithoutPassangers
 ---@return IsPsychoSquadAvWithoutPassangers
 function IsPsychoSquadAvWithoutPassangers.new(fields) return end
 

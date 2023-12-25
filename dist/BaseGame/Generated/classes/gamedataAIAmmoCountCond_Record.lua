@@ -4,7 +4,7 @@
 ---@class gamedataAIAmmoCountCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIAmmoCountCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIAmmoCountCond_Record
 ---@return gamedataAIAmmoCountCond_Record
 function gamedataAIAmmoCountCond_Record.new(fields) return end
 

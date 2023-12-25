@@ -8,7 +8,7 @@
 ---@field private game ScriptGameInstance
 SimpleCanUseCover = {}
 
----@param fields? table
+---@param fields? SimpleCanUseCover
 ---@return SimpleCanUseCover
 function SimpleCanUseCover.new(fields) return end
 

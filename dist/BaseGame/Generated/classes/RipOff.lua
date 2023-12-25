@@ -4,7 +4,7 @@
 ---@class RipOff: ActionBool
 RipOff = {}
 
----@param fields? table
+---@param fields? RipOff
 ---@return RipOff
 function RipOff.new(fields) return end
 

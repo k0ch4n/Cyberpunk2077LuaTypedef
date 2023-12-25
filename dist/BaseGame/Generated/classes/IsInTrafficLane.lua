@@ -4,7 +4,7 @@
 ---@class IsInTrafficLane: AIbehaviorconditionScript
 IsInTrafficLane = {}
 
----@param fields? table
+---@param fields? IsInTrafficLane
 ---@return IsInTrafficLane
 function IsInTrafficLane.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public target NPCPuppet
 HidePuppetDelayEvent = {}
 
----@param fields? table
+---@param fields? HidePuppetDelayEvent
 ---@return HidePuppetDelayEvent
 function HidePuppetDelayEvent.new(fields) return end

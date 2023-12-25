@@ -5,6 +5,6 @@
 ---@field public mappings inkLanguageFontMapping[]
 inkLanguageFontMapper = {}
 
----@param fields? table
+---@param fields? inkLanguageFontMapper
 ---@return inkLanguageFontMapper
 function inkLanguageFontMapper.new(fields) return end

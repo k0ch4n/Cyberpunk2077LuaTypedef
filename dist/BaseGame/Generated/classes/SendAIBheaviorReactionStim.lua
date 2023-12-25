@@ -5,7 +5,7 @@
 ---@field public stimToSend gamedataStimType
 SendAIBheaviorReactionStim = {}
 
----@param fields? table
+---@param fields? SendAIBheaviorReactionStim
 ---@return SendAIBheaviorReactionStim
 function SendAIBheaviorReactionStim.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public show Bool
 questPrefabVariantReplicatedInfo = {}
 
----@param fields? table
+---@param fields? questPrefabVariantReplicatedInfo
 ---@return questPrefabVariantReplicatedInfo
 function questPrefabVariantReplicatedInfo.new(fields) return end

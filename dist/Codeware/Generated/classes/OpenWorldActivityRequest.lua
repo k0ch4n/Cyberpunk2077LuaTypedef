@@ -8,6 +8,6 @@
 ---@field public force Bool
 OpenWorldActivityRequest = {}
 
----@param fields? table
+---@param fields? OpenWorldActivityRequest
 ---@return OpenWorldActivityRequest
 function OpenWorldActivityRequest.new(fields) return end

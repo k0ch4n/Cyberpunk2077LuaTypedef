@@ -7,6 +7,6 @@
 ---@field public tpp CName
 gameuiPerspectiveInfo = {}
 
----@param fields? table
+---@param fields? gameuiPerspectiveInfo
 ---@return gameuiPerspectiveInfo
 function gameuiPerspectiveInfo.new(fields) return end

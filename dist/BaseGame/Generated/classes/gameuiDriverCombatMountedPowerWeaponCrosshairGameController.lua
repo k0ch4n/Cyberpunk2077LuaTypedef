@@ -14,7 +14,7 @@
 ---@field private uiActiveVehicleCameraChangedCallback redCallbackObject
 gameuiDriverCombatMountedPowerWeaponCrosshairGameController = {}
 
----@param fields? table
+---@param fields? gameuiDriverCombatMountedPowerWeaponCrosshairGameController
 ---@return gameuiDriverCombatMountedPowerWeaponCrosshairGameController
 function gameuiDriverCombatMountedPowerWeaponCrosshairGameController.new(fields) return end
 

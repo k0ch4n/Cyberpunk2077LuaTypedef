@@ -17,7 +17,7 @@
 ---@field private pointOfNoReturnRewardScreenDef UI_PointOfNoReturnRewardScreenDef
 PonrRewardsGameController = {}
 
----@param fields? table
+---@param fields? PonrRewardsGameController
 ---@return PonrRewardsGameController
 function PonrRewardsGameController.new(fields) return end
 

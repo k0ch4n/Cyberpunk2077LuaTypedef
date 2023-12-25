@@ -5,6 +5,6 @@
 ---@field public requestResult gameSpawnRequestResult
 PreventionUnitSpawnedRequest = {}
 
----@param fields? table
+---@param fields? PreventionUnitSpawnedRequest
 ---@return PreventionUnitSpawnedRequest
 function PreventionUnitSpawnedRequest.new(fields) return end

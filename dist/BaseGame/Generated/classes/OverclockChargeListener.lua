@@ -4,7 +4,7 @@
 ---@class OverclockChargeListener: BaseChargesStatListener
 OverclockChargeListener = {}
 
----@param fields? table
+---@param fields? OverclockChargeListener
 ---@return OverclockChargeListener
 function OverclockChargeListener.new(fields) return end
 

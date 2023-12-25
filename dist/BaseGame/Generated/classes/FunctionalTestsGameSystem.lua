@@ -4,7 +4,7 @@
 ---@class FunctionalTestsGameSystem: FunctionalTestsIGameSystem
 FunctionalTestsGameSystem = {}
 
----@param fields? table
+---@param fields? FunctionalTestsGameSystem
 ---@return FunctionalTestsGameSystem
 function FunctionalTestsGameSystem.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field private dlcSettingsGroup userSettingsGroup
 DlcMenuGameController = {}
 
----@param fields? table
+---@param fields? DlcMenuGameController
 ---@return DlcMenuGameController
 function DlcMenuGameController.new(fields) return end
 

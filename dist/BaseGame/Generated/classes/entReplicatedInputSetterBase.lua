@@ -6,6 +6,6 @@
 ---@field public applyServerTime netTime
 entReplicatedInputSetterBase = {}
 
----@param fields? table
+---@param fields? entReplicatedInputSetterBase
 ---@return entReplicatedInputSetterBase
 function entReplicatedInputSetterBase.new(fields) return end

@@ -14,6 +14,6 @@
 ---@field public killOnCollision Bool
 CParticleModificatorCollision = {}
 
----@param fields? table
+---@param fields? CParticleModificatorCollision
 ---@return CParticleModificatorCollision
 function CParticleModificatorCollision.new(fields) return end

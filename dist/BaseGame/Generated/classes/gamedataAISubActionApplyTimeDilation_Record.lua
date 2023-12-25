@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionApplyTimeDilation_Record: gamedataAISubAction_Record
 gamedataAISubActionApplyTimeDilation_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionApplyTimeDilation_Record
 ---@return gamedataAISubActionApplyTimeDilation_Record
 function gamedataAISubActionApplyTimeDilation_Record.new(fields) return end
 

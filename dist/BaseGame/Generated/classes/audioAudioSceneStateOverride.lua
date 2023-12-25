@@ -7,6 +7,6 @@
 ---@field public exitEventOverride CName
 audioAudioSceneStateOverride = {}
 
----@param fields? table
+---@param fields? audioAudioSceneStateOverride
 ---@return audioAudioSceneStateOverride
 function audioAudioSceneStateOverride.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class IsPlayerFarFromLKP: PreventionConditionAbstract
 IsPlayerFarFromLKP = {}
 
----@param fields? table
+---@param fields? IsPlayerFarFromLKP
 ---@return IsPlayerFarFromLKP
 function IsPlayerFarFromLKP.new(fields) return end
 

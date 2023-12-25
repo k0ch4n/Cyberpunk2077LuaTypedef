@@ -7,6 +7,6 @@
 ---@field public wrappingPolicy textWrappingPolicy
 textWrappingInfo = {}
 
----@param fields? table
+---@param fields? textWrappingInfo
 ---@return textWrappingInfo
 function textWrappingInfo.new(fields) return end

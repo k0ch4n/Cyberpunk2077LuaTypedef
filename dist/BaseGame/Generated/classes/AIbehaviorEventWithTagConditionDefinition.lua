@@ -6,6 +6,6 @@
 ---@field public consumeEvent Bool
 AIbehaviorEventWithTagConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEventWithTagConditionDefinition
 ---@return AIbehaviorEventWithTagConditionDefinition
 function AIbehaviorEventWithTagConditionDefinition.new(fields) return end

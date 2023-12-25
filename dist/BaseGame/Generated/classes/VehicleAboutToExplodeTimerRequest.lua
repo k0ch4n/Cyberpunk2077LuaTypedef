@@ -7,6 +7,6 @@
 ---@field public abort Bool
 VehicleAboutToExplodeTimerRequest = {}
 
----@param fields? table
+---@param fields? VehicleAboutToExplodeTimerRequest
 ---@return VehicleAboutToExplodeTimerRequest
 function VehicleAboutToExplodeTimerRequest.new(fields) return end

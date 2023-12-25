@@ -8,6 +8,6 @@
 ---@field public limitOnZ animInertializationFloatClamp
 animInertializationRotationLimit = {}
 
----@param fields? table
+---@param fields? animInertializationRotationLimit
 ---@return animInertializationRotationLimit
 function animInertializationRotationLimit.new(fields) return end

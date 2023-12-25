@@ -71,7 +71,7 @@
 ---@field private animDynamicCritDelay Float
 DamageDigitLogicController = {}
 
----@param fields? table
+---@param fields? DamageDigitLogicController
 ---@return DamageDigitLogicController
 function DamageDigitLogicController.new(fields) return end
 

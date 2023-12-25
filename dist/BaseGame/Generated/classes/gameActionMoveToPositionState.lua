@@ -11,6 +11,6 @@
 ---@field public strafingTarget gameObject
 gameActionMoveToPositionState = {}
 
----@param fields? table
+---@param fields? gameActionMoveToPositionState
 ---@return gameActionMoveToPositionState
 function gameActionMoveToPositionState.new(fields) return end

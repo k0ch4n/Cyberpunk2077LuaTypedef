@@ -4,6 +4,6 @@
 ---@class vehicleSummonLogic
 vehicleSummonLogic = {}
 
----@param fields? table
+---@param fields? vehicleSummonLogic
 ---@return vehicleSummonLogic
 function vehicleSummonLogic.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private cachedPuppetID entEntityID
 CCTVCamera = {}
 
----@param fields? table
+---@param fields? CCTVCamera
 ---@return CCTVCamera
 function CCTVCamera.new(fields) return end
 

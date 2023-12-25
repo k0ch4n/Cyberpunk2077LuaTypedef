@@ -5,7 +5,7 @@
 ---@field public inside gamebbScriptID_Bool
 PlayerSecureAreaDef = {}
 
----@param fields? table
+---@param fields? PlayerSecureAreaDef
 ---@return PlayerSecureAreaDef
 function PlayerSecureAreaDef.new(fields) return end
 

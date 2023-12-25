@@ -29,7 +29,7 @@
 ---@field public weaponPlane SWeaponPlaneParams
 gameCameraComponent = {}
 
----@param fields? table
+---@param fields? gameCameraComponent
 ---@return gameCameraComponent
 function gameCameraComponent.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public mediaDeviceData MediaDeviceData
 MediaResaveData = {}
 
----@param fields? table
+---@param fields? MediaResaveData
 ---@return MediaResaveData
 function MediaResaveData.new(fields) return end

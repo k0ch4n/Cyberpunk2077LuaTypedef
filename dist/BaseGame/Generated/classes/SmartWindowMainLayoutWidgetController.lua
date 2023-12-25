@@ -8,7 +8,7 @@
 ---@field private menuDevicesSlot inkWidgetReference
 SmartWindowMainLayoutWidgetController = {}
 
----@param fields? table
+---@param fields? SmartWindowMainLayoutWidgetController
 ---@return SmartWindowMainLayoutWidgetController
 function SmartWindowMainLayoutWidgetController.new(fields) return end
 

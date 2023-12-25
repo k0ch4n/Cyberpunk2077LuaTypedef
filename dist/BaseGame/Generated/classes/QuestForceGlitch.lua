@@ -4,7 +4,7 @@
 ---@class QuestForceGlitch: ActionBool
 QuestForceGlitch = {}
 
----@param fields? table
+---@param fields? QuestForceGlitch
 ---@return QuestForceGlitch
 function QuestForceGlitch.new(fields) return end
 

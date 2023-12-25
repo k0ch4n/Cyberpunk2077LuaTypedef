@@ -5,7 +5,7 @@
 ---@field public stateMachineInitData TurretInitData
 TurretRipOffEvents = {}
 
----@param fields? table
+---@param fields? TurretRipOffEvents
 ---@return TurretRipOffEvents
 function TurretRipOffEvents.new(fields) return end
 

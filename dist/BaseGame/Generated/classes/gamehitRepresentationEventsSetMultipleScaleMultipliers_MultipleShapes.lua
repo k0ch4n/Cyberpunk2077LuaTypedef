@@ -6,6 +6,6 @@
 ---@field public shapeNames CName[]
 gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes = {}
 
----@param fields? table
+---@param fields? gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes
 ---@return gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes
 function gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public value Float
 CheckFloatIsValid = {}
 
----@param fields? table
+---@param fields? CheckFloatIsValid
 ---@return CheckFloatIsValid
 function CheckFloatIsValid.new(fields) return end
 

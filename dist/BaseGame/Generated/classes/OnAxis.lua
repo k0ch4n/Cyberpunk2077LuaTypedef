@@ -4,6 +4,6 @@
 ---@class OnAxis: inkPointerEvent
 OnAxis = {}
 
----@param fields? table
+---@param fields? OnAxis
 ---@return OnAxis
 function OnAxis.new(fields) return end

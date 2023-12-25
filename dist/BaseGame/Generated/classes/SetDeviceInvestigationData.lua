@@ -6,7 +6,7 @@
 ---@field public listener gameObject
 SetDeviceInvestigationData = {}
 
----@param fields? table
+---@param fields? SetDeviceInvestigationData
 ---@return SetDeviceInvestigationData
 function SetDeviceInvestigationData.new(fields) return end
 

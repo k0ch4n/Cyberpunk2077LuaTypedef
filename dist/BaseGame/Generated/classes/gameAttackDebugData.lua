@@ -7,6 +7,6 @@
 ---@field public bulletStartPosition Vector4
 gameAttackDebugData = {}
 
----@param fields? table
+---@param fields? gameAttackDebugData
 ---@return gameAttackDebugData
 function gameAttackDebugData.new(fields) return end

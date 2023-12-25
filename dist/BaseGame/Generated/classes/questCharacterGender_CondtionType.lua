@@ -7,6 +7,6 @@
 ---@field public gender CName
 questCharacterGender_CondtionType = {}
 
----@param fields? table
+---@param fields? questCharacterGender_CondtionType
 ---@return questCharacterGender_CondtionType
 function questCharacterGender_CondtionType.new(fields) return end

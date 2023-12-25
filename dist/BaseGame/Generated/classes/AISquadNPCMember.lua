@@ -4,6 +4,6 @@
 ---@class AISquadNPCMember: AISquadMemberBase
 AISquadNPCMember = {}
 
----@param fields? table
+---@param fields? AISquadNPCMember
 ---@return AISquadNPCMember
 function AISquadNPCMember.new(fields) return end

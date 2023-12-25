@@ -7,6 +7,6 @@
 ---@field public blendTime Float
 workLookAtDrivenTurn = {}
 
----@param fields? table
+---@param fields? workLookAtDrivenTurn
 ---@return workLookAtDrivenTurn
 function workLookAtDrivenTurn.new(fields) return end

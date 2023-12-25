@@ -9,6 +9,6 @@
 ---@field public forwardVector Vector4
 animAnimNode_MotionAdjuster = {}
 
----@param fields? table
+---@param fields? animAnimNode_MotionAdjuster
 ---@return animAnimNode_MotionAdjuster
 function animAnimNode_MotionAdjuster.new(fields) return end

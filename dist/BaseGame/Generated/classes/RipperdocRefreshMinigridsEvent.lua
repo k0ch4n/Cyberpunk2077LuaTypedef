@@ -4,6 +4,6 @@
 ---@class RipperdocRefreshMinigridsEvent: redEvent
 RipperdocRefreshMinigridsEvent = {}
 
----@param fields? table
+---@param fields? RipperdocRefreshMinigridsEvent
 ---@return RipperdocRefreshMinigridsEvent
 function RipperdocRefreshMinigridsEvent.new(fields) return end

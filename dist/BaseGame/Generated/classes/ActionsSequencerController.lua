@@ -4,7 +4,7 @@
 ---@class ActionsSequencerController: ScriptableDeviceComponent
 ActionsSequencerController = {}
 
----@param fields? table
+---@param fields? ActionsSequencerController
 ---@return ActionsSequencerController
 function ActionsSequencerController.new(fields) return end
 

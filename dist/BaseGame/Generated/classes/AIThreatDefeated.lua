@@ -8,6 +8,6 @@
 ---@field public detected Bool
 AIThreatDefeated = {}
 
----@param fields? table
+---@param fields? AIThreatDefeated
 ---@return AIThreatDefeated
 function AIThreatDefeated.new(fields) return end

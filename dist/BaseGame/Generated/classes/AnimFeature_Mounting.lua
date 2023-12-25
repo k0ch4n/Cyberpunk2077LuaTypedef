@@ -7,6 +7,6 @@
 ---@field public parentHorizontalSpeed Float
 AnimFeature_Mounting = {}
 
----@param fields? table
+---@param fields? AnimFeature_Mounting
 ---@return AnimFeature_Mounting
 function AnimFeature_Mounting.new(fields) return end

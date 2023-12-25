@@ -5,7 +5,7 @@
 ---@field public timeoutParamName String
 CharParamTimeout = {}
 
----@param fields? table
+---@param fields? CharParamTimeout
 ---@return CharParamTimeout
 function CharParamTimeout.new(fields) return end
 

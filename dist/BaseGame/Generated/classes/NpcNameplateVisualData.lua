@@ -5,6 +5,6 @@
 ---@field public npcNextToCrosshair gameuiNPCNextToTheCrosshair
 NpcNameplateVisualData = {}
 
----@param fields? table
+---@param fields? NpcNameplateVisualData
 ---@return NpcNameplateVisualData
 function NpcNameplateVisualData.new(fields) return end

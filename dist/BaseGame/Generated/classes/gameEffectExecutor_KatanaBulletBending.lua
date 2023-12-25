@@ -5,7 +5,7 @@
 ---@field public effects gameEffectExecutor_KatanaBulletBendingEffectEntry[]
 gameEffectExecutor_KatanaBulletBending = {}
 
----@param fields? table
+---@param fields? gameEffectExecutor_KatanaBulletBending
 ---@return gameEffectExecutor_KatanaBulletBending
 function gameEffectExecutor_KatanaBulletBending.new(fields) return end
 

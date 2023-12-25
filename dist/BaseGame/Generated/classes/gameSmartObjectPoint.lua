@@ -5,6 +5,6 @@
 ---@field public isReachable Bool
 gameSmartObjectPoint = {}
 
----@param fields? table
+---@param fields? gameSmartObjectPoint
 ---@return gameSmartObjectPoint
 function gameSmartObjectPoint.new(fields) return end

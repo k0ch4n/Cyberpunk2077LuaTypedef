@@ -15,6 +15,6 @@
 ---@field public zoomDefault Float
 gameuiEntityPreviewCameraSettings = {}
 
----@param fields? table
+---@param fields? gameuiEntityPreviewCameraSettings
 ---@return gameuiEntityPreviewCameraSettings
 function gameuiEntityPreviewCameraSettings.new(fields) return end

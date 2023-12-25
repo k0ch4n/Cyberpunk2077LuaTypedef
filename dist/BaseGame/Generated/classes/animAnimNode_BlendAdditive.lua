@@ -17,6 +17,6 @@
 ---@field public maskName CName
 animAnimNode_BlendAdditive = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendAdditive
 ---@return animAnimNode_BlendAdditive
 function animAnimNode_BlendAdditive.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field public state ESecuritySystemState
 SetSecuritySystemState = {}
 
----@param fields? table
+---@param fields? SetSecuritySystemState
 ---@return SetSecuritySystemState
 function SetSecuritySystemState.new(fields) return end
 

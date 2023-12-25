@@ -14,6 +14,6 @@
 ---@field public inputNodes animPoseLink[]
 animAnimNode_BlendMultiple = {}
 
----@param fields? table
+---@param fields? animAnimNode_BlendMultiple
 ---@return animAnimNode_BlendMultiple
 function animAnimNode_BlendMultiple.new(fields) return end

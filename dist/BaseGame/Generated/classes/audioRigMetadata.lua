@@ -6,6 +6,6 @@
 ---@field public defaultBone CName
 audioRigMetadata = {}
 
----@param fields? table
+---@param fields? audioRigMetadata
 ---@return audioRigMetadata
 function audioRigMetadata.new(fields) return end

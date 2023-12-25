@@ -7,6 +7,6 @@
 ---@field public visualItem gameItemID
 gameSSlotVisualInfo = {}
 
----@param fields? table
+---@param fields? gameSSlotVisualInfo
 ---@return gameSSlotVisualInfo
 function gameSSlotVisualInfo.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameEffectInstance: gameIEffect
 gameEffectInstance = {}
 
----@param fields? table
+---@param fields? gameEffectInstance
 ---@return gameEffectInstance
 function gameEffectInstance.new(fields) return end
 

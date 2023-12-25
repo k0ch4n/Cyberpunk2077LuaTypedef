@@ -17,7 +17,7 @@
 ---@field public genderChanged Bool
 Codeware_Localization_LocalizationSystem = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_LocalizationSystem
 ---@return Codeware_Localization_LocalizationSystem
 function Codeware_Localization_LocalizationSystem.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public entityReference gameEntityReference
 questScene_NodeType = {}
 
----@param fields? table
+---@param fields? questScene_NodeType
 ---@return questScene_NodeType
 function questScene_NodeType.new(fields) return end

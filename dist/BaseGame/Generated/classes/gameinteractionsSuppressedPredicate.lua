@@ -4,6 +4,6 @@
 ---@class gameinteractionsSuppressedPredicate: gameinteractionsIPredicateType
 gameinteractionsSuppressedPredicate = {}
 
----@param fields? table
+---@param fields? gameinteractionsSuppressedPredicate
 ---@return gameinteractionsSuppressedPredicate
 function gameinteractionsSuppressedPredicate.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public killer entEntity
 OnSquadmateDied = {}
 
----@param fields? table
+---@param fields? OnSquadmateDied
 ---@return OnSquadmateDied
 function OnSquadmateDied.new(fields) return end

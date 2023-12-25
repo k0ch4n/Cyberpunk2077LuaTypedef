@@ -4,7 +4,7 @@
 ---@class HoverJumpDecisions: LocomotionAirDecisions
 HoverJumpDecisions = {}
 
----@param fields? table
+---@param fields? HoverJumpDecisions
 ---@return HoverJumpDecisions
 function HoverJumpDecisions.new(fields) return end
 

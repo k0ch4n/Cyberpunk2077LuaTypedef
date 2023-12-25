@@ -7,6 +7,6 @@
 ---@field public disableKillReward Bool
 NPCKillDelayEvent = {}
 
----@param fields? table
+---@param fields? NPCKillDelayEvent
 ---@return NPCKillDelayEvent
 function NPCKillDelayEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public instigator gameObject
 ExplosiveDeviceDelayedEvent = {}
 
----@param fields? table
+---@param fields? ExplosiveDeviceDelayedEvent
 ---@return ExplosiveDeviceDelayedEvent
 function ExplosiveDeviceDelayedEvent.new(fields) return end

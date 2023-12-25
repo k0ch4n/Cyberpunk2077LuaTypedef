@@ -5,6 +5,6 @@
 ---@field public postMortem gameTelemetryPostMortem
 gameTelemetryPostMortemContainer = {}
 
----@param fields? table
+---@param fields? gameTelemetryPostMortemContainer
 ---@return gameTelemetryPostMortemContainer
 function gameTelemetryPostMortemContainer.new(fields) return end

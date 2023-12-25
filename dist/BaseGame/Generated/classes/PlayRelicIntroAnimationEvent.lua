@@ -4,6 +4,6 @@
 ---@class PlayRelicIntroAnimationEvent: redEvent
 PlayRelicIntroAnimationEvent = {}
 
----@param fields? table
+---@param fields? PlayRelicIntroAnimationEvent
 ---@return PlayRelicIntroAnimationEvent
 function PlayRelicIntroAnimationEvent.new(fields) return end

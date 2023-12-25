@@ -9,6 +9,6 @@
 ---@field public parent String
 FunctionalTestsDataMemoryPoolStaticData = {}
 
----@param fields? table
+---@param fields? FunctionalTestsDataMemoryPoolStaticData
 ---@return FunctionalTestsDataMemoryPoolStaticData
 function FunctionalTestsDataMemoryPoolStaticData.new(fields) return end

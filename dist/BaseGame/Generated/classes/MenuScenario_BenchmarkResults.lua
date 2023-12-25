@@ -5,7 +5,7 @@
 ---@field private callbackData inkCallbackConnectorData
 MenuScenario_BenchmarkResults = {}
 
----@param fields? table
+---@param fields? MenuScenario_BenchmarkResults
 ---@return MenuScenario_BenchmarkResults
 function MenuScenario_BenchmarkResults.new(fields) return end
 

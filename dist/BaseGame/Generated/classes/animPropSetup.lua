@@ -4,6 +4,6 @@
 ---@class animPropSetup
 animPropSetup = {}
 
----@param fields? table
+---@param fields? animPropSetup
 ---@return animPropSetup
 function animPropSetup.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public comparisonType EComparisonType
 HitDistanceCoveredPrereq = {}
 
----@param fields? table
+---@param fields? HitDistanceCoveredPrereq
 ---@return HitDistanceCoveredPrereq
 function HitDistanceCoveredPrereq.new(fields) return end
 

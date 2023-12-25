@@ -4,7 +4,7 @@
 ---@class gameGeometryDescriptionSystem: IScriptable
 gameGeometryDescriptionSystem = {}
 
----@param fields? table
+---@param fields? gameGeometryDescriptionSystem
 ---@return gameGeometryDescriptionSystem
 function gameGeometryDescriptionSystem.new(fields) return end
 

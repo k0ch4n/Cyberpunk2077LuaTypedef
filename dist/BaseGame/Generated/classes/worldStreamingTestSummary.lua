@@ -15,6 +15,6 @@
 ---@field public averageFps Float
 worldStreamingTestSummary = {}
 
----@param fields? table
+---@param fields? worldStreamingTestSummary
 ---@return worldStreamingTestSummary
 function worldStreamingTestSummary.new(fields) return end

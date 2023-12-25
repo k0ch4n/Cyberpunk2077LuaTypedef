@@ -4,7 +4,7 @@
 ---@class gamePlayerObstacleSystem: IScriptable
 gamePlayerObstacleSystem = {}
 
----@param fields? table
+---@param fields? gamePlayerObstacleSystem
 ---@return gamePlayerObstacleSystem
 function gamePlayerObstacleSystem.new(fields) return end
 

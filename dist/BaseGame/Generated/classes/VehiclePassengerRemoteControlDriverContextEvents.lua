@@ -4,6 +4,6 @@
 ---@class VehiclePassengerRemoteControlDriverContextEvents: VehiclePassengerContextEvents
 VehiclePassengerRemoteControlDriverContextEvents = {}
 
----@param fields? table
+---@param fields? VehiclePassengerRemoteControlDriverContextEvents
 ---@return VehiclePassengerRemoteControlDriverContextEvents
 function VehiclePassengerRemoteControlDriverContextEvents.new(fields) return end

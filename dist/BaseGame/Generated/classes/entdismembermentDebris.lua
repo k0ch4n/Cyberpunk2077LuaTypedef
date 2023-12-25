@@ -5,6 +5,6 @@
 ---@field public items entdismembermentDebrisResourceItem[]
 entdismembermentDebris = {}
 
----@param fields? table
+---@param fields? entdismembermentDebris
 ---@return entdismembermentDebris
 function entdismembermentDebris.new(fields) return end

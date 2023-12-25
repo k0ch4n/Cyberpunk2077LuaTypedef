@@ -4,7 +4,7 @@
 ---@class CameraTagSeenEnemies: ActionBool
 CameraTagSeenEnemies = {}
 
----@param fields? table
+---@param fields? CameraTagSeenEnemies
 ---@return CameraTagSeenEnemies
 function CameraTagSeenEnemies.new(fields) return end
 

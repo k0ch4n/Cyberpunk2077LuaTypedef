@@ -6,7 +6,7 @@
 ---@field private maxEntries Int32
 HitHistory = {}
 
----@param fields? table
+---@param fields? HitHistory
 ---@return HitHistory
 function HitHistory.new(fields) return end
 

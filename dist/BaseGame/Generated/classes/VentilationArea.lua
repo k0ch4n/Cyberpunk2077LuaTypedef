@@ -10,7 +10,7 @@
 ---@field private highLightActive Bool
 VentilationArea = {}
 
----@param fields? table
+---@param fields? VentilationArea
 ---@return VentilationArea
 function VentilationArea.new(fields) return end
 

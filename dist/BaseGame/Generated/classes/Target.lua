@@ -7,7 +7,7 @@
 ---@field private isVisible Bool
 Target = {}
 
----@param fields? table
+---@param fields? Target
 ---@return Target
 function Target.new(fields) return end
 

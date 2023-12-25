@@ -7,6 +7,6 @@
 ---@field public HasSortDataBuilt Bool
 InventoryItemDataWrapper = {}
 
----@param fields? table
+---@param fields? InventoryItemDataWrapper
 ---@return InventoryItemDataWrapper
 function InventoryItemDataWrapper.new(fields) return end

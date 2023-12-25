@@ -7,7 +7,7 @@
 ---@field private root inkWidget
 RipperdocCwPreviewItemController = {}
 
----@param fields? table
+---@param fields? RipperdocCwPreviewItemController
 ---@return RipperdocCwPreviewItemController
 function RipperdocCwPreviewItemController.new(fields) return end
 

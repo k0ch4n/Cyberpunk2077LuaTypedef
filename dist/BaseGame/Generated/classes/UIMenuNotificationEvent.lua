@@ -7,6 +7,6 @@
 ---@field public animContainer inGameMenuAnimContainer
 UIMenuNotificationEvent = {}
 
----@param fields? table
+---@param fields? UIMenuNotificationEvent
 ---@return UIMenuNotificationEvent
 function UIMenuNotificationEvent.new(fields) return end

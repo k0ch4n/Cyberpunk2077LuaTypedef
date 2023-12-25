@@ -4,6 +4,6 @@
 ---@class attrDynamicChoice: attrAttribute
 attrDynamicChoice = {}
 
----@param fields? table
+---@param fields? attrDynamicChoice
 ---@return attrDynamicChoice
 function attrDynamicChoice.new(fields) return end

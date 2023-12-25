@@ -8,6 +8,6 @@
 ---@field public requestingDevice entEntityID
 HighlightConnectionsRequest = {}
 
----@param fields? table
+---@param fields? HighlightConnectionsRequest
 ---@return HighlightConnectionsRequest
 function HighlightConnectionsRequest.new(fields) return end

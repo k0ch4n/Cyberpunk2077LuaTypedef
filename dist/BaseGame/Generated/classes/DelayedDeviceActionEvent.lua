@@ -5,6 +5,6 @@
 ---@field public action ScriptableDeviceAction
 DelayedDeviceActionEvent = {}
 
----@param fields? table
+---@param fields? DelayedDeviceActionEvent
 ---@return DelayedDeviceActionEvent
 function DelayedDeviceActionEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class UiRadialContextDecisions: InputContextTransitionDecisions
 UiRadialContextDecisions = {}
 
----@param fields? table
+---@param fields? UiRadialContextDecisions
 ---@return UiRadialContextDecisions
 function UiRadialContextDecisions.new(fields) return end
 

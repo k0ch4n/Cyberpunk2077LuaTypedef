@@ -11,7 +11,7 @@
 ---@field public gpsPlayerTrackedPathWidget inkLinePatternWidgetReference
 gameuiMappinsContainerController = {}
 
----@param fields? table
+---@param fields? gameuiMappinsContainerController
 ---@return gameuiMappinsContainerController
 function gameuiMappinsContainerController.new(fields) return end
 

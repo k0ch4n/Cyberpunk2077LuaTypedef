@@ -5,6 +5,6 @@
 ---@field public animations scnRidAnimationContainerSRRefAnimContainer[]
 scnRidAnimationContainerSRRef = {}
 
----@param fields? table
+---@param fields? scnRidAnimationContainerSRRef
 ---@return scnRidAnimationContainerSRRef
 function scnRidAnimationContainerSRRef.new(fields) return end

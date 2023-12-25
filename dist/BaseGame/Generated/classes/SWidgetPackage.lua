@@ -14,6 +14,6 @@
 ---@field public textData textTextParameterSet
 SWidgetPackage = {}
 
----@param fields? table
+---@param fields? SWidgetPackage
 ---@return SWidgetPackage
 function SWidgetPackage.new(fields) return end

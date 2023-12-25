@@ -9,6 +9,6 @@
 ---@field public movement gameTransformAnimation_Movement
 gameTransformAnimation_MoveOnSpline = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_MoveOnSpline
 ---@return gameTransformAnimation_MoveOnSpline
 function gameTransformAnimation_MoveOnSpline.new(fields) return end

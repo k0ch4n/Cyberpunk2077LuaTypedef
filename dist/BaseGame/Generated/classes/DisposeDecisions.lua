@@ -4,7 +4,7 @@
 ---@class DisposeDecisions: CarriedObjectDecisions
 DisposeDecisions = {}
 
----@param fields? table
+---@param fields? DisposeDecisions
 ---@return DisposeDecisions
 function DisposeDecisions.new(fields) return end
 

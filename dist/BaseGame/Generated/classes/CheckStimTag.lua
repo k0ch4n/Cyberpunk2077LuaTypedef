@@ -5,7 +5,7 @@
 ---@field public stimTagToCompare CName[]
 CheckStimTag = {}
 
----@param fields? table
+---@param fields? CheckStimTag
 ---@return CheckStimTag
 function CheckStimTag.new(fields) return end
 

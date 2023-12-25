@@ -8,6 +8,6 @@
 ---@field public currentValue Uint32
 questSetProgress_NodeType = {}
 
----@param fields? table
+---@param fields? questSetProgress_NodeType
 ---@return questSetProgress_NodeType
 function questSetProgress_NodeType.new(fields) return end

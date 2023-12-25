@@ -20,6 +20,6 @@
 ---@field public stopSnapToTerrainBlendTime Float
 AIAnimMoveOnSplineCommand = {}
 
----@param fields? table
+---@param fields? AIAnimMoveOnSplineCommand
 ---@return AIAnimMoveOnSplineCommand
 function AIAnimMoveOnSplineCommand.new(fields) return end

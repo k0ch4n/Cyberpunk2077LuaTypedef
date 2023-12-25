@@ -4,7 +4,7 @@
 ---@class gamedataAvoidLineOfSightSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataAvoidLineOfSightSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataAvoidLineOfSightSelectionParameters_Record
 ---@return gamedataAvoidLineOfSightSelectionParameters_Record
 function gamedataAvoidLineOfSightSelectionParameters_Record.new(fields) return end
 

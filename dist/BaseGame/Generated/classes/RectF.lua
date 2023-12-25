@@ -8,6 +8,6 @@
 ---@field public Bottom Float
 RectF = {}
 
----@param fields? table
+---@param fields? RectF
 ---@return RectF
 function RectF.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private meleeStateBlackboardId redCallbackObject
 gameuiCrosshairBaseMelee = {}
 
----@param fields? table
+---@param fields? gameuiCrosshairBaseMelee
 ---@return gameuiCrosshairBaseMelee
 function gameuiCrosshairBaseMelee.new(fields) return end
 

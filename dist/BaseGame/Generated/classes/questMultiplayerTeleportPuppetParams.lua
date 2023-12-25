@@ -9,6 +9,6 @@
 ---@field public areaNodeTriggerRef gameEntityReference
 questMultiplayerTeleportPuppetParams = {}
 
----@param fields? table
+---@param fields? questMultiplayerTeleportPuppetParams
 ---@return questMultiplayerTeleportPuppetParams
 function questMultiplayerTeleportPuppetParams.new(fields) return end

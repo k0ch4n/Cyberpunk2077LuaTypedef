@@ -11,6 +11,6 @@
 ---@field public frontFace PSODescStencilFuncDesc
 PSODescDepthStencilModeDesc = {}
 
----@param fields? table
+---@param fields? PSODescDepthStencilModeDesc
 ---@return PSODescDepthStencilModeDesc
 function PSODescDepthStencilModeDesc.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field public difficulty EGameplayChallengeLevel
 GameplayPerkCondition = {}
 
----@param fields? table
+---@param fields? GameplayPerkCondition
 ---@return GameplayPerkCondition
 function GameplayPerkCondition.new(fields) return end
 

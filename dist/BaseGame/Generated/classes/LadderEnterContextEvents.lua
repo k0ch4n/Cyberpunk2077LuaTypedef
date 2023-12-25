@@ -4,6 +4,6 @@
 ---@class LadderEnterContextEvents: InputContextTransitionEvents
 LadderEnterContextEvents = {}
 
----@param fields? table
+---@param fields? LadderEnterContextEvents
 ---@return LadderEnterContextEvents
 function LadderEnterContextEvents.new(fields) return end

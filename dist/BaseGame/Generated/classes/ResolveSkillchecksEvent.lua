@@ -4,6 +4,6 @@
 ---@class ResolveSkillchecksEvent: redEvent
 ResolveSkillchecksEvent = {}
 
----@param fields? table
+---@param fields? ResolveSkillchecksEvent
 ---@return ResolveSkillchecksEvent
 function ResolveSkillchecksEvent.new(fields) return end

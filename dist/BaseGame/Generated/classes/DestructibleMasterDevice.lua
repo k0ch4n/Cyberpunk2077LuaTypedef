@@ -4,7 +4,7 @@
 ---@class DestructibleMasterDevice: InteractiveMasterDevice
 DestructibleMasterDevice = {}
 
----@param fields? table
+---@param fields? DestructibleMasterDevice
 ---@return DestructibleMasterDevice
 function DestructibleMasterDevice.new(fields) return end
 

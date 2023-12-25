@@ -5,7 +5,7 @@
 ---@field public initData HubMenuInitData
 StartHubMenuEvent = {}
 
----@param fields? table
+---@param fields? StartHubMenuEvent
 ---@return StartHubMenuEvent
 function StartHubMenuEvent.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public skipLastCombatHack Bool
 ModifyStatPoolValueQuickhackCostEffector = {}
 
----@param fields? table
+---@param fields? ModifyStatPoolValueQuickhackCostEffector
 ---@return ModifyStatPoolValueQuickhackCostEffector
 function ModifyStatPoolValueQuickhackCostEffector.new(fields) return end
 

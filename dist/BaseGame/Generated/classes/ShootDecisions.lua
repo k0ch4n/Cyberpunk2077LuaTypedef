@@ -5,7 +5,7 @@
 ---@field public stateBodyDone Bool
 ShootDecisions = {}
 
----@param fields? table
+---@param fields? ShootDecisions
 ---@return ShootDecisions
 function ShootDecisions.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public actionName CName
 animAnimEvent_FoleyAction = {}
 
----@param fields? table
+---@param fields? animAnimEvent_FoleyAction
 ---@return animAnimEvent_FoleyAction
 function animAnimEvent_FoleyAction.new(fields) return end

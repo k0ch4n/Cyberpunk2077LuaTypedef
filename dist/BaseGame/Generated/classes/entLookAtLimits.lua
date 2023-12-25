@@ -8,6 +8,6 @@
 ---@field public backLimitDegrees Float
 entLookAtLimits = {}
 
----@param fields? table
+---@param fields? entLookAtLimits
 ---@return entLookAtLimits
 function entLookAtLimits.new(fields) return end

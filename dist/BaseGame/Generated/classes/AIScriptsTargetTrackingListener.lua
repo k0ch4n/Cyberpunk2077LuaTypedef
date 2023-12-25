@@ -4,7 +4,7 @@
 ---@class AIScriptsTargetTrackingListener: AIITargetTrackingListener
 AIScriptsTargetTrackingListener = {}
 
----@param fields? table
+---@param fields? AIScriptsTargetTrackingListener
 ---@return AIScriptsTargetTrackingListener
 function AIScriptsTargetTrackingListener.new(fields) return end
 

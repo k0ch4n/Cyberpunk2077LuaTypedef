@@ -6,6 +6,6 @@
 ---@field public x Float
 attrMinMax = {}
 
----@param fields? table
+---@param fields? attrMinMax
 ---@return attrMinMax
 function attrMinMax.new(fields) return end

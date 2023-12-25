@@ -5,6 +5,6 @@
 ---@field public storageObject gameObject
 StorageUserData = {}
 
----@param fields? table
+---@param fields? StorageUserData
 ---@return StorageUserData
 function StorageUserData.new(fields) return end

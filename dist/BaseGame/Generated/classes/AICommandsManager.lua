@@ -4,6 +4,6 @@
 ---@class AICommandsManager: AIICommandsManager
 AICommandsManager = {}
 
----@param fields? table
+---@param fields? AICommandsManager
 ---@return AICommandsManager
 function AICommandsManager.new(fields) return end

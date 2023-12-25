@@ -6,6 +6,6 @@
 ---@field public slotID TweakDBID
 vehicleMountedWeaponShootEvent = {}
 
----@param fields? table
+---@param fields? vehicleMountedWeaponShootEvent
 ---@return vehicleMountedWeaponShootEvent
 function vehicleMountedWeaponShootEvent.new(fields) return end

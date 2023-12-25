@@ -4,6 +4,6 @@
 ---@class gamestateMachineplayeractionsActionProjectileAttach: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsActionProjectileAttach = {}
 
----@param fields? table
+---@param fields? gamestateMachineplayeractionsActionProjectileAttach
 ---@return gamestateMachineplayeractionsActionProjectileAttach
 function gamestateMachineplayeractionsActionProjectileAttach.new(fields) return end

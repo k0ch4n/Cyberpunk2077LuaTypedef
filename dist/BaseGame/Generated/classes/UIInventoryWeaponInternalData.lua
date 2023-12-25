@@ -20,6 +20,6 @@
 ---@field public Ammo Int32
 UIInventoryWeaponInternalData = {}
 
----@param fields? table
+---@param fields? UIInventoryWeaponInternalData
 ---@return UIInventoryWeaponInternalData
 function UIInventoryWeaponInternalData.new(fields) return end

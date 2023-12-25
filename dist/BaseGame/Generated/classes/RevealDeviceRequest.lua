@@ -7,6 +7,6 @@
 ---@field public linkData SNetworkLinkData
 RevealDeviceRequest = {}
 
----@param fields? table
+---@param fields? RevealDeviceRequest
 ---@return RevealDeviceRequest
 function RevealDeviceRequest.new(fields) return end

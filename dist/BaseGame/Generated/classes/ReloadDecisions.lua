@@ -4,7 +4,7 @@
 ---@class ReloadDecisions: WeaponTransition
 ReloadDecisions = {}
 
----@param fields? table
+---@param fields? ReloadDecisions
 ---@return ReloadDecisions
 function ReloadDecisions.new(fields) return end
 

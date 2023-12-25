@@ -5,6 +5,6 @@
 ---@field public easeOutCurve CName
 questTimeDilation_Stop = {}
 
----@param fields? table
+---@param fields? questTimeDilation_Stop
 ---@return questTimeDilation_Stop
 function questTimeDilation_Stop.new(fields) return end

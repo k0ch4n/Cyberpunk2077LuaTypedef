@@ -8,7 +8,7 @@
 ---@field public nameOnFalse String
 SDeviceActionBoolData = {}
 
----@param fields? table
+---@param fields? SDeviceActionBoolData
 ---@return SDeviceActionBoolData
 function SDeviceActionBoolData.new(fields) return end
 

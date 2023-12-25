@@ -6,6 +6,6 @@
 ---@field public value CName
 audioEventOverrideDictionaryItem = {}
 
----@param fields? table
+---@param fields? audioEventOverrideDictionaryItem
 ---@return audioEventOverrideDictionaryItem
 function audioEventOverrideDictionaryItem.new(fields) return end

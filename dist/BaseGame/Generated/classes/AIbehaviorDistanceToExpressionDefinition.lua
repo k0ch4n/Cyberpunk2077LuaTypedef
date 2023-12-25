@@ -7,6 +7,6 @@
 ---@field public updatePeriod Float
 AIbehaviorDistanceToExpressionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDistanceToExpressionDefinition
 ---@return AIbehaviorDistanceToExpressionDefinition
 function AIbehaviorDistanceToExpressionDefinition.new(fields) return end

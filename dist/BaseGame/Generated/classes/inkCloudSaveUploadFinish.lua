@@ -4,6 +4,6 @@
 ---@class inkCloudSaveUploadFinish: inkCallbackBase
 inkCloudSaveUploadFinish = {}
 
----@param fields? table
+---@param fields? inkCloudSaveUploadFinish
 ---@return inkCloudSaveUploadFinish
 function inkCloudSaveUploadFinish.new(fields) return end

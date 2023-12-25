@@ -6,6 +6,6 @@
 ---@field public evt inkPointerEvent
 NewPerkHoverOutEvent = {}
 
----@param fields? table
+---@param fields? NewPerkHoverOutEvent
 ---@return NewPerkHoverOutEvent
 function NewPerkHoverOutEvent.new(fields) return end

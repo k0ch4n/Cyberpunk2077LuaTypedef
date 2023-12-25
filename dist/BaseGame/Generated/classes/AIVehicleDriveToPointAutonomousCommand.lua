@@ -11,6 +11,6 @@
 ---@field public driveDownTheRoadIndefinitely Bool
 AIVehicleDriveToPointAutonomousCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleDriveToPointAutonomousCommand
 ---@return AIVehicleDriveToPointAutonomousCommand
 function AIVehicleDriveToPointAutonomousCommand.new(fields) return end

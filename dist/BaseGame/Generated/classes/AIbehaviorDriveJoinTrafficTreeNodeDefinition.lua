@@ -4,6 +4,6 @@
 ---@class AIbehaviorDriveJoinTrafficTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveJoinTrafficTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveJoinTrafficTreeNodeDefinition
 ---@return AIbehaviorDriveJoinTrafficTreeNodeDefinition
 function AIbehaviorDriveJoinTrafficTreeNodeDefinition.new(fields) return end

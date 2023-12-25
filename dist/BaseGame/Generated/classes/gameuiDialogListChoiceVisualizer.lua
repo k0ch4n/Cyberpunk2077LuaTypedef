@@ -4,6 +4,6 @@
 ---@class gameuiDialogListChoiceVisualizer: gameuiIChoiceVisualizer
 gameuiDialogListChoiceVisualizer = {}
 
----@param fields? table
+---@param fields? gameuiDialogListChoiceVisualizer
 ---@return gameuiDialogListChoiceVisualizer
 function gameuiDialogListChoiceVisualizer.new(fields) return end

@@ -11,6 +11,6 @@
 ---@field public passiveConditions AIbehaviorExpressionSocket[]
 AIbehaviorFSMTransitionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorFSMTransitionDefinition
 ---@return AIbehaviorFSMTransitionDefinition
 function AIbehaviorFSMTransitionDefinition.new(fields) return end

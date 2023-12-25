@@ -14,7 +14,7 @@
 ---@field private isValidArchetype Bool
 ScannerNPCHeaderGameController = {}
 
----@param fields? table
+---@param fields? ScannerNPCHeaderGameController
 ---@return ScannerNPCHeaderGameController
 function ScannerNPCHeaderGameController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataWorldMapFilter_Record: gamedataTweakDBRecord
 gamedataWorldMapFilter_Record = {}
 
----@param fields? table
+---@param fields? gamedataWorldMapFilter_Record
 ---@return gamedataWorldMapFilter_Record
 function gamedataWorldMapFilter_Record.new(fields) return end
 

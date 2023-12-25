@@ -11,6 +11,6 @@
 ---@field public seed Uint32
 gameSavedStatsData = {}
 
----@param fields? table
+---@param fields? gameSavedStatsData
 ---@return gameSavedStatsData
 function gameSavedStatsData.new(fields) return end

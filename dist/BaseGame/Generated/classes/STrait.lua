@@ -7,6 +7,6 @@
 ---@field public currLevel Int32
 STrait = {}
 
----@param fields? table
+---@param fields? STrait
 ---@return STrait
 function STrait.new(fields) return end

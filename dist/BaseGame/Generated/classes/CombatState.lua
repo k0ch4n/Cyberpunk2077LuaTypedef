@@ -4,7 +4,7 @@
 ---@class CombatState: ChangeHighLevelStateAbstract
 CombatState = {}
 
----@param fields? table
+---@param fields? CombatState
 ---@return CombatState
 function CombatState.new(fields) return end
 

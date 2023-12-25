@@ -6,6 +6,6 @@
 ---@field public id Uint32
 AIDebugLogScope = {}
 
----@param fields? table
+---@param fields? AIDebugLogScope
 ---@return AIDebugLogScope
 function AIDebugLogScope.new(fields) return end

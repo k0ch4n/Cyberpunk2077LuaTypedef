@@ -4,7 +4,7 @@
 ---@class userSettingsVar: IScriptable
 userSettingsVar = {}
 
----@param fields? table
+---@param fields? userSettingsVar
 ---@return userSettingsVar
 function userSettingsVar.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public value Bool
 UI_DEV_ScriptableSystemUseNewTooltips = {}
 
----@param fields? table
+---@param fields? UI_DEV_ScriptableSystemUseNewTooltips
 ---@return UI_DEV_ScriptableSystemUseNewTooltips
 function UI_DEV_ScriptableSystemUseNewTooltips.new(fields) return end

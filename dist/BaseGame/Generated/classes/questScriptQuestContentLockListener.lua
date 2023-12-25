@@ -4,6 +4,6 @@
 ---@class questScriptQuestContentLockListener: IScriptable
 questScriptQuestContentLockListener = {}
 
----@param fields? table
+---@param fields? questScriptQuestContentLockListener
 ---@return questScriptQuestContentLockListener
 function questScriptQuestContentLockListener.new(fields) return end

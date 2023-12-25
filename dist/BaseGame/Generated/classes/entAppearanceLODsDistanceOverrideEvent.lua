@@ -4,6 +4,6 @@
 ---@class entAppearanceLODsDistanceOverrideEvent: redEvent
 entAppearanceLODsDistanceOverrideEvent = {}
 
----@param fields? table
+---@param fields? entAppearanceLODsDistanceOverrideEvent
 ---@return entAppearanceLODsDistanceOverrideEvent
 function entAppearanceLODsDistanceOverrideEvent.new(fields) return end

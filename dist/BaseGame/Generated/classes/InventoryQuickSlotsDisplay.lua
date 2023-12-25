@@ -4,6 +4,6 @@
 ---@class InventoryQuickSlotsDisplay: inkWidgetLogicController
 InventoryQuickSlotsDisplay = {}
 
----@param fields? table
+---@param fields? InventoryQuickSlotsDisplay
 ---@return InventoryQuickSlotsDisplay
 function InventoryQuickSlotsDisplay.new(fields) return end

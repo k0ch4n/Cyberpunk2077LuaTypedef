@@ -5,6 +5,6 @@
 ---@field public actionName CName
 gameuiLogTutorialHintActionEvent = {}
 
----@param fields? table
+---@param fields? gameuiLogTutorialHintActionEvent
 ---@return gameuiLogTutorialHintActionEvent
 function gameuiLogTutorialHintActionEvent.new(fields) return end

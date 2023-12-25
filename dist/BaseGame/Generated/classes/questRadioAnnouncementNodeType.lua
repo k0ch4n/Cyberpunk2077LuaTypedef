@@ -5,6 +5,6 @@
 ---@field public radioStationEvents questRadioStationAnnouncementEventStruct[]
 questRadioAnnouncementNodeType = {}
 
----@param fields? table
+---@param fields? questRadioAnnouncementNodeType
 ---@return questRadioAnnouncementNodeType
 function questRadioAnnouncementNodeType.new(fields) return end

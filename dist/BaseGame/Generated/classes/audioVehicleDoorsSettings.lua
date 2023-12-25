@@ -6,6 +6,6 @@
 ---@field public closeEvent CName
 audioVehicleDoorsSettings = {}
 
----@param fields? table
+---@param fields? audioVehicleDoorsSettings
 ---@return audioVehicleDoorsSettings
 function audioVehicleDoorsSettings.new(fields) return end

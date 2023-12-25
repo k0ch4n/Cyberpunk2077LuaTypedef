@@ -4,6 +4,6 @@
 ---@class gameWaypoint: worldIMarker
 gameWaypoint = {}
 
----@param fields? table
+---@param fields? gameWaypoint
 ---@return gameWaypoint
 function gameWaypoint.new(fields) return end

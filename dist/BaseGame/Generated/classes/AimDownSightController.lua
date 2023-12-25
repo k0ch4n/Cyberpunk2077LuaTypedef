@@ -5,7 +5,7 @@
 ---@field private isAiming Bool
 AimDownSightController = {}
 
----@param fields? table
+---@param fields? AimDownSightController
 ---@return AimDownSightController
 function AimDownSightController.new(fields) return end
 

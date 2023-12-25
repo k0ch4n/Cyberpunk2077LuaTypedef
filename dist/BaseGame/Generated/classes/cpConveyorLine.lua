@@ -8,6 +8,6 @@
 ---@field public physicsValidRanges Vector2[]
 cpConveyorLine = {}
 
----@param fields? table
+---@param fields? cpConveyorLine
 ---@return cpConveyorLine
 function cpConveyorLine.new(fields) return end

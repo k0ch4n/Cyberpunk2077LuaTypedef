@@ -5,6 +5,6 @@
 ---@field public hash Uint32
 MessengerThreadSelectedEvent = {}
 
----@param fields? table
+---@param fields? MessengerThreadSelectedEvent
 ---@return MessengerThreadSelectedEvent
 function MessengerThreadSelectedEvent.new(fields) return end

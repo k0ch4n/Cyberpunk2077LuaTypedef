@@ -16,7 +16,7 @@
 ---@field private maxChatHistory Int32
 gameuiChatBoxGameController = {}
 
----@param fields? table
+---@param fields? gameuiChatBoxGameController
 ---@return gameuiChatBoxGameController
 function gameuiChatBoxGameController.new(fields) return end
 

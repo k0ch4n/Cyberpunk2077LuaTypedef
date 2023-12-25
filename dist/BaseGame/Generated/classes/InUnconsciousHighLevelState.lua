@@ -4,7 +4,7 @@
 ---@class InUnconsciousHighLevelState: AINPCHighLevelStateCheck
 InUnconsciousHighLevelState = {}
 
----@param fields? table
+---@param fields? InUnconsciousHighLevelState
 ---@return InUnconsciousHighLevelState
 function InUnconsciousHighLevelState.new(fields) return end
 

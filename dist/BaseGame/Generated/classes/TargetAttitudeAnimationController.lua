@@ -8,7 +8,7 @@
 ---@field private attitude EAIAttitude
 TargetAttitudeAnimationController = {}
 
----@param fields? table
+---@param fields? TargetAttitudeAnimationController
 ---@return TargetAttitudeAnimationController
 function TargetAttitudeAnimationController.new(fields) return end
 

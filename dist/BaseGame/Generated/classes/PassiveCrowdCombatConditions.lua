@@ -8,7 +8,7 @@
 ---@field protected crowdCombatConditionCbId Uint32
 PassiveCrowdCombatConditions = {}
 
----@param fields? table
+---@param fields? PassiveCrowdCombatConditions
 ---@return PassiveCrowdCombatConditions
 function PassiveCrowdCombatConditions.new(fields) return end
 

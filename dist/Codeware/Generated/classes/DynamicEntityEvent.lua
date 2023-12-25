@@ -4,7 +4,7 @@
 ---@class DynamicEntityEvent: IScriptable
 DynamicEntityEvent = {}
 
----@param fields? table
+---@param fields? DynamicEntityEvent
 ---@return DynamicEntityEvent
 function DynamicEntityEvent.new(fields) return end
 

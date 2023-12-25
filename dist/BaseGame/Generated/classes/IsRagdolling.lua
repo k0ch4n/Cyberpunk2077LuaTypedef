@@ -5,7 +5,7 @@
 ---@field public npc NPCPuppet
 IsRagdolling = {}
 
----@param fields? table
+---@param fields? IsRagdolling
 ---@return IsRagdolling
 function IsRagdolling.new(fields) return end
 

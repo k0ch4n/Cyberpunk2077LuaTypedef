@@ -4,7 +4,7 @@
 ---@class HealthCollisionLogic: BonusCollisionLogic
 HealthCollisionLogic = {}
 
----@param fields? table
+---@param fields? HealthCollisionLogic
 ---@return HealthCollisionLogic
 function HealthCollisionLogic.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field protected state PerfectDischargePrereqState
 PerfectDischargePrereqListener = {}
 
----@param fields? table
+---@param fields? PerfectDischargePrereqListener
 ---@return PerfectDischargePrereqListener
 function PerfectDischargePrereqListener.new(fields) return end
 

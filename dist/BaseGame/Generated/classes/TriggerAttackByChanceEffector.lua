@@ -11,7 +11,7 @@
 ---@field public statBasedChance Float
 TriggerAttackByChanceEffector = {}
 
----@param fields? table
+---@param fields? TriggerAttackByChanceEffector
 ---@return TriggerAttackByChanceEffector
 function TriggerAttackByChanceEffector.new(fields) return end
 

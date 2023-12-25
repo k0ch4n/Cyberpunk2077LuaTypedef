@@ -4,6 +4,6 @@
 ---@class gameAIDirectorSystem: gameIAIDirectorSystem
 gameAIDirectorSystem = {}
 
----@param fields? table
+---@param fields? gameAIDirectorSystem
 ---@return gameAIDirectorSystem
 function gameAIDirectorSystem.new(fields) return end

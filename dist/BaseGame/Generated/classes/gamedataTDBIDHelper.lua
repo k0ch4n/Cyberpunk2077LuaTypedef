@@ -4,7 +4,7 @@
 ---@class gamedataTDBIDHelper
 gamedataTDBIDHelper = {}
 
----@param fields? table
+---@param fields? gamedataTDBIDHelper
 ---@return gamedataTDBIDHelper
 function gamedataTDBIDHelper.new(fields) return end
 

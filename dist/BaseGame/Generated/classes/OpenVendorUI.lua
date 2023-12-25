@@ -4,7 +4,7 @@
 ---@class OpenVendorUI: ActionBool
 OpenVendorUI = {}
 
----@param fields? table
+---@param fields? OpenVendorUI
 ---@return OpenVendorUI
 function OpenVendorUI.new(fields) return end
 

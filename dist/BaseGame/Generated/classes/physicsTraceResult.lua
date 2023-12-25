@@ -7,7 +7,7 @@
 ---@field public material CName
 physicsTraceResult = {}
 
----@param fields? table
+---@param fields? physicsTraceResult
 ---@return physicsTraceResult
 function physicsTraceResult.new(fields) return end
 

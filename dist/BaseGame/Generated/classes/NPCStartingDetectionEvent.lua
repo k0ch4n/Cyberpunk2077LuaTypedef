@@ -4,6 +4,6 @@
 ---@class NPCStartingDetectionEvent: redEvent
 NPCStartingDetectionEvent = {}
 
----@param fields? table
+---@param fields? NPCStartingDetectionEvent
 ---@return NPCStartingDetectionEvent
 function NPCStartingDetectionEvent.new(fields) return end

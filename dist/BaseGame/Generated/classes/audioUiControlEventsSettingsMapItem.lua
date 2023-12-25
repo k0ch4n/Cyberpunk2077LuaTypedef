@@ -6,6 +6,6 @@
 ---@field public customActionsDictionary audioKeySoundEventDictionary
 audioUiControlEventsSettingsMapItem = {}
 
----@param fields? table
+---@param fields? audioUiControlEventsSettingsMapItem
 ---@return audioUiControlEventsSettingsMapItem
 function audioUiControlEventsSettingsMapItem.new(fields) return end

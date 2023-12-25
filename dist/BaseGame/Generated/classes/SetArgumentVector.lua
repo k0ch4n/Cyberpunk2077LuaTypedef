@@ -5,7 +5,7 @@
 ---@field public newValue AIArgumentMapping
 SetArgumentVector = {}
 
----@param fields? table
+---@param fields? SetArgumentVector
 ---@return SetArgumentVector
 function SetArgumentVector.new(fields) return end
 

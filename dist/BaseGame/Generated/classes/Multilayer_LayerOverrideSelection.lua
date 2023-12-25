@@ -10,6 +10,6 @@
 ---@field public metalLevelsOut CName
 Multilayer_LayerOverrideSelection = {}
 
----@param fields? table
+---@param fields? Multilayer_LayerOverrideSelection
 ---@return Multilayer_LayerOverrideSelection
 function Multilayer_LayerOverrideSelection.new(fields) return end

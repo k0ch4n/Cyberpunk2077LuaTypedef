@@ -5,7 +5,7 @@
 ---@field public attitude EAIAttitude
 NPCAttitudeTowardsPlayerPrereq = {}
 
----@param fields? table
+---@param fields? NPCAttitudeTowardsPlayerPrereq
 ---@return NPCAttitudeTowardsPlayerPrereq
 function NPCAttitudeTowardsPlayerPrereq.new(fields) return end
 

@@ -6,7 +6,7 @@
 ---@field public overrideTier Bool
 VehicleRadioTierEvent = {}
 
----@param fields? table
+---@param fields? VehicleRadioTierEvent
 ---@return VehicleRadioTierEvent
 function VehicleRadioTierEvent.new(fields) return end
 

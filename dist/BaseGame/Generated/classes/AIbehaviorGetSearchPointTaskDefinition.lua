@@ -10,6 +10,6 @@
 ---@field public outSearchPosition AIArgumentMapping
 AIbehaviorGetSearchPointTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorGetSearchPointTaskDefinition
 ---@return AIbehaviorGetSearchPointTaskDefinition
 function AIbehaviorGetSearchPointTaskDefinition.new(fields) return end

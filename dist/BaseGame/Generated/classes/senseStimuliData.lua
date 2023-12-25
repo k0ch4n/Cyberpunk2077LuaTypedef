@@ -4,6 +4,6 @@
 ---@class senseStimuliData: IScriptable
 senseStimuliData = {}
 
----@param fields? table
+---@param fields? senseStimuliData
 ---@return senseStimuliData
 function senseStimuliData.new(fields) return end

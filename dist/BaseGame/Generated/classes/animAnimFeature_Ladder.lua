@@ -8,6 +8,6 @@
 ---@field public entryFromRight Bool
 animAnimFeature_Ladder = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Ladder
 ---@return animAnimFeature_Ladder
 function animAnimFeature_Ladder.new(fields) return end

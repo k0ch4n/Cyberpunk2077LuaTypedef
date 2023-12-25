@@ -11,6 +11,6 @@
 ---@field public isEnabled Bool
 SParticleEmitterLODLevel = {}
 
----@param fields? table
+---@param fields? SParticleEmitterLODLevel
 ---@return SParticleEmitterLODLevel
 function SParticleEmitterLODLevel.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class OnlyNearest_AINavPath_Device: gameEffectObjectGroupFilter_Scripted
 OnlyNearest_AINavPath_Device = {}
 
----@param fields? table
+---@param fields? OnlyNearest_AINavPath_Device
 ---@return OnlyNearest_AINavPath_Device
 function OnlyNearest_AINavPath_Device.new(fields) return end
 

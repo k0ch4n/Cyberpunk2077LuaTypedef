@@ -14,7 +14,7 @@
 ---@field private screenType CharacterScreenType
 PerksPointsDisplayController = {}
 
----@param fields? table
+---@param fields? PerksPointsDisplayController
 ---@return PerksPointsDisplayController
 function PerksPointsDisplayController.new(fields) return end
 

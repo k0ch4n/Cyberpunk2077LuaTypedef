@@ -8,6 +8,6 @@
 ---@field public outChasePosition AIArgumentMapping
 AIbehaviorTryGetChasePointTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorTryGetChasePointTaskDefinition
 ---@return AIbehaviorTryGetChasePointTaskDefinition
 function AIbehaviorTryGetChasePointTaskDefinition.new(fields) return end

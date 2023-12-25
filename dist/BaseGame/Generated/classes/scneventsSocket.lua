@@ -5,6 +5,6 @@
 ---@field public osockStamp scnOutputSocketStamp
 scneventsSocket = {}
 
----@param fields? table
+---@param fields? scneventsSocket
 ---@return scneventsSocket
 function scneventsSocket.new(fields) return end

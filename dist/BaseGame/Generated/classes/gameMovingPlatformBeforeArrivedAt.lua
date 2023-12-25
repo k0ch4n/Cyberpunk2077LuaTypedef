@@ -4,6 +4,6 @@
 ---@class gameMovingPlatformBeforeArrivedAt: redEvent
 gameMovingPlatformBeforeArrivedAt = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformBeforeArrivedAt
 ---@return gameMovingPlatformBeforeArrivedAt
 function gameMovingPlatformBeforeArrivedAt.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public hubPriority Uint8
 gameinteractionsvisDialogVisualizerDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisDialogVisualizerDefinition
 ---@return gameinteractionsvisDialogVisualizerDefinition
 function gameinteractionsvisDialogVisualizerDefinition.new(fields) return end

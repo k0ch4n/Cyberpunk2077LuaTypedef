@@ -4,6 +4,6 @@
 ---@class inkButtonHoldCompleteCallback: inkCallbackBase
 inkButtonHoldCompleteCallback = {}
 
----@param fields? table
+---@param fields? inkButtonHoldCompleteCallback
 ---@return inkButtonHoldCompleteCallback
 function inkButtonHoldCompleteCallback.new(fields) return end

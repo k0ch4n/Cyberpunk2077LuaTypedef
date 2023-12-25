@@ -5,6 +5,6 @@
 ---@field public dissolveRadius Float
 gameBraindanceDissolveComponent = {}
 
----@param fields? table
+---@param fields? gameBraindanceDissolveComponent
 ---@return gameBraindanceDissolveComponent
 function gameBraindanceDissolveComponent.new(fields) return end

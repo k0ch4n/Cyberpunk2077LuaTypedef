@@ -4,7 +4,7 @@
 ---@class ReflectionConst: IScriptable
 ReflectionConst = {}
 
----@param fields? table
+---@param fields? ReflectionConst
 ---@return ReflectionConst
 function ReflectionConst.new(fields) return end
 

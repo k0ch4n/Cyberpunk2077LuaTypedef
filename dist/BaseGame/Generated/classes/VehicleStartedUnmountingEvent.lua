@@ -7,6 +7,6 @@
 ---@field public character gameObject
 VehicleStartedUnmountingEvent = {}
 
----@param fields? table
+---@param fields? VehicleStartedUnmountingEvent
 ---@return VehicleStartedUnmountingEvent
 function VehicleStartedUnmountingEvent.new(fields) return end

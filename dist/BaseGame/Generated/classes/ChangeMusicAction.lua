@@ -6,7 +6,7 @@
 ---@field public settings MusicSettings
 ChangeMusicAction = {}
 
----@param fields? table
+---@param fields? ChangeMusicAction
 ---@return ChangeMusicAction
 function ChangeMusicAction.new(fields) return end
 

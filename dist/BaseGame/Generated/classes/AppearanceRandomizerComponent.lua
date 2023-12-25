@@ -6,7 +6,7 @@
 ---@field public isEnabled Bool
 AppearanceRandomizerComponent = {}
 
----@param fields? table
+---@param fields? AppearanceRandomizerComponent
 ---@return AppearanceRandomizerComponent
 function AppearanceRandomizerComponent.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public instant Bool
 gamestateMachineparameterTypeItemUnequipRequest = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeItemUnequipRequest
 ---@return gamestateMachineparameterTypeItemUnequipRequest
 function gamestateMachineparameterTypeItemUnequipRequest.new(fields) return end

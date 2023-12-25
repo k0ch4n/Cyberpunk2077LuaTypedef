@@ -12,7 +12,7 @@
 ---@field private animProxy inkanimProxy
 NetworkMinigameProgramController = {}
 
----@param fields? table
+---@param fields? NetworkMinigameProgramController
 ---@return NetworkMinigameProgramController
 function NetworkMinigameProgramController.new(fields) return end
 

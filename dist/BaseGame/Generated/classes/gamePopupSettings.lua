@@ -10,6 +10,6 @@
 ---@field public margin inkMargin
 gamePopupSettings = {}
 
----@param fields? table
+---@param fields? gamePopupSettings
 ---@return gamePopupSettings
 function gamePopupSettings.new(fields) return end

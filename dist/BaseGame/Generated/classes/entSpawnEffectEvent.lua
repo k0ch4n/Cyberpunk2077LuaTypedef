@@ -12,6 +12,6 @@
 ---@field public e3hackDeferCount Uint32
 entSpawnEffectEvent = {}
 
----@param fields? table
+---@param fields? entSpawnEffectEvent
 ---@return entSpawnEffectEvent
 function entSpawnEffectEvent.new(fields) return end

@@ -20,7 +20,7 @@
 ---@field protected projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
 ThrowableKnifeNPC = {}
 
----@param fields? table
+---@param fields? ThrowableKnifeNPC
 ---@return ThrowableKnifeNPC
 function ThrowableKnifeNPC.new(fields) return end
 

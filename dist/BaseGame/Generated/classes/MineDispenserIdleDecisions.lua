@@ -4,7 +4,7 @@
 ---@class MineDispenserIdleDecisions: MineDispenserTransition
 MineDispenserIdleDecisions = {}
 
----@param fields? table
+---@param fields? MineDispenserIdleDecisions
 ---@return MineDispenserIdleDecisions
 function MineDispenserIdleDecisions.new(fields) return end
 

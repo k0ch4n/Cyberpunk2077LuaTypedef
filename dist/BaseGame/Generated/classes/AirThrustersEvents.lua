@@ -4,7 +4,7 @@
 ---@class AirThrustersEvents: LocomotionAirEvents
 AirThrustersEvents = {}
 
----@param fields? table
+---@param fields? AirThrustersEvents
 ---@return AirThrustersEvents
 function AirThrustersEvents.new(fields) return end
 

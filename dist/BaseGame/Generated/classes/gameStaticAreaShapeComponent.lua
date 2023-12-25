@@ -7,6 +7,6 @@
 ---@field public isEnabled Bool
 gameStaticAreaShapeComponent = {}
 
----@param fields? table
+---@param fields? gameStaticAreaShapeComponent
 ---@return gameStaticAreaShapeComponent
 function gameStaticAreaShapeComponent.new(fields) return end

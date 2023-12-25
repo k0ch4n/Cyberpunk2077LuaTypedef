@@ -6,7 +6,7 @@
 ---@field public operation EToggleOperationType
 ToggleWeakspotHighlightEvent = {}
 
----@param fields? table
+---@param fields? ToggleWeakspotHighlightEvent
 ---@return ToggleWeakspotHighlightEvent
 function ToggleWeakspotHighlightEvent.new(fields) return end
 

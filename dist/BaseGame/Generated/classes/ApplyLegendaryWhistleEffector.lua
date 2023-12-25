@@ -4,7 +4,7 @@
 ---@class ApplyLegendaryWhistleEffector: gameEffector
 ApplyLegendaryWhistleEffector = {}
 
----@param fields? table
+---@param fields? ApplyLegendaryWhistleEffector
 ---@return ApplyLegendaryWhistleEffector
 function ApplyLegendaryWhistleEffector.new(fields) return end
 

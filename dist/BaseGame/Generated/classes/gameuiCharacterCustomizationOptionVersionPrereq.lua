@@ -6,6 +6,6 @@
 ---@field public definitionName CName
 gameuiCharacterCustomizationOptionVersionPrereq = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationOptionVersionPrereq
 ---@return gameuiCharacterCustomizationOptionVersionPrereq
 function gameuiCharacterCustomizationOptionVersionPrereq.new(fields) return end

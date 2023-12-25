@@ -4,6 +4,6 @@
 ---@class AIbehaviorCancelWorkspotCommandNodeDefinition: AIbehaviorDecoratorNodeDefinition
 AIbehaviorCancelWorkspotCommandNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCancelWorkspotCommandNodeDefinition
 ---@return AIbehaviorCancelWorkspotCommandNodeDefinition
 function AIbehaviorCancelWorkspotCommandNodeDefinition.new(fields) return end

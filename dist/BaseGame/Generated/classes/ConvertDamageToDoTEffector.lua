@@ -8,7 +8,7 @@
 ---@field public ownerID entEntityID
 ConvertDamageToDoTEffector = {}
 
----@param fields? table
+---@param fields? ConvertDamageToDoTEffector
 ---@return ConvertDamageToDoTEffector
 function ConvertDamageToDoTEffector.new(fields) return end
 

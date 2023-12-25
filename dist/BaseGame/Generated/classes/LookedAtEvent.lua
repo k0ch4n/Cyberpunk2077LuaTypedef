@@ -5,6 +5,6 @@
 ---@field public isLookedAt Bool
 LookedAtEvent = {}
 
----@param fields? table
+---@param fields? LookedAtEvent
 ---@return LookedAtEvent
 function LookedAtEvent.new(fields) return end

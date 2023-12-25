@@ -12,6 +12,6 @@
 ---@field public additionalParamsChase questvehicleChaseParams
 questVehicleCommandParams = {}
 
----@param fields? table
+---@param fields? questVehicleCommandParams
 ---@return questVehicleCommandParams
 function questVehicleCommandParams.new(fields) return end

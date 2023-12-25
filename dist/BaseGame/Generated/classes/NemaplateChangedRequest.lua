@@ -5,6 +5,6 @@
 ---@field public playerTarget entEntityID
 NemaplateChangedRequest = {}
 
----@param fields? table
+---@param fields? NemaplateChangedRequest
 ---@return NemaplateChangedRequest
 function NemaplateChangedRequest.new(fields) return end

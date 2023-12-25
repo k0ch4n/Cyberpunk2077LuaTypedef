@@ -22,6 +22,6 @@
 ---@field public overrides CName
 Multilayer_Layer = {}
 
----@param fields? table
+---@param fields? Multilayer_Layer
 ---@return Multilayer_Layer
 function Multilayer_Layer.new(fields) return end

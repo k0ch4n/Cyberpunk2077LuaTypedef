@@ -4,7 +4,7 @@
 ---@class CooldownOnActivation: AICooldown
 CooldownOnActivation = {}
 
----@param fields? table
+---@param fields? CooldownOnActivation
 ---@return CooldownOnActivation
 function CooldownOnActivation.new(fields) return end
 

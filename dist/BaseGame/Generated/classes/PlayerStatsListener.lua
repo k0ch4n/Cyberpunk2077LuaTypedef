@@ -5,7 +5,7 @@
 ---@field public owner gameObject
 PlayerStatsListener = {}
 
----@param fields? table
+---@param fields? PlayerStatsListener
 ---@return PlayerStatsListener
 function PlayerStatsListener.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public nodeId scnNodeId
 scnNotablePoint = {}
 
----@param fields? table
+---@param fields? scnNotablePoint
 ---@return scnNotablePoint
 function scnNotablePoint.new(fields) return end

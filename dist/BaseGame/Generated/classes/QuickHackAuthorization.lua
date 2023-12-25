@@ -4,7 +4,7 @@
 ---@class QuickHackAuthorization: ActionBool
 QuickHackAuthorization = {}
 
----@param fields? table
+---@param fields? QuickHackAuthorization
 ---@return QuickHackAuthorization
 function QuickHackAuthorization.new(fields) return end
 

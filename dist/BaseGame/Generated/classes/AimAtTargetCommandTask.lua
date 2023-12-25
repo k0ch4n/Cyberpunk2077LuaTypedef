@@ -11,7 +11,7 @@
 ---@field protected targetID entEntityID
 AimAtTargetCommandTask = {}
 
----@param fields? table
+---@param fields? AimAtTargetCommandTask
 ---@return AimAtTargetCommandTask
 function AimAtTargetCommandTask.new(fields) return end
 

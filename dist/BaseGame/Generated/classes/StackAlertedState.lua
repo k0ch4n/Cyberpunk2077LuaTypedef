@@ -4,7 +4,7 @@
 ---@class StackAlertedState: StackChangeHighLevelStateAbstract
 StackAlertedState = {}
 
----@param fields? table
+---@param fields? StackAlertedState
 ---@return StackAlertedState
 function StackAlertedState.new(fields) return end
 

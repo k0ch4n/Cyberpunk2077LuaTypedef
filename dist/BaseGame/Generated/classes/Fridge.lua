@@ -6,7 +6,7 @@
 ---@field private factOnDoorOpened CName
 Fridge = {}
 
----@param fields? table
+---@param fields? Fridge
 ---@return Fridge
 function Fridge.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public criminalPosition Vector4
 PreventionCrimeWitnessRequest = {}
 
----@param fields? table
+---@param fields? PreventionCrimeWitnessRequest
 ---@return PreventionCrimeWitnessRequest
 function PreventionCrimeWitnessRequest.new(fields) return end

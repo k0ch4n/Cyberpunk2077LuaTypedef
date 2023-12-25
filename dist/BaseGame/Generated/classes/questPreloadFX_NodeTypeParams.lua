@@ -8,6 +8,6 @@
 ---@field public effectName CName
 questPreloadFX_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questPreloadFX_NodeTypeParams
 ---@return questPreloadFX_NodeTypeParams
 function questPreloadFX_NodeTypeParams.new(fields) return end

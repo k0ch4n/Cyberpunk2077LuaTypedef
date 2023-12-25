@@ -9,7 +9,7 @@
 ---@field public lightTypeMask Int32
 vehicleControllerPS = {}
 
----@param fields? table
+---@param fields? vehicleControllerPS
 ---@return vehicleControllerPS
 function vehicleControllerPS.new(fields) return end
 

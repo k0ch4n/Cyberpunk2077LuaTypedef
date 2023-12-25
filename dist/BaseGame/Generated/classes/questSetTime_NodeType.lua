@@ -8,6 +8,6 @@
 ---@field public source CName
 questSetTime_NodeType = {}
 
----@param fields? table
+---@param fields? questSetTime_NodeType
 ---@return questSetTime_NodeType
 function questSetTime_NodeType.new(fields) return end

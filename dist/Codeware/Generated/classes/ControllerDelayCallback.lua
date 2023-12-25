@@ -6,7 +6,7 @@
 ---@field public event redEvent
 ControllerDelayCallback = {}
 
----@param fields? table
+---@param fields? ControllerDelayCallback
 ---@return ControllerDelayCallback
 function ControllerDelayCallback.new(fields) return end
 

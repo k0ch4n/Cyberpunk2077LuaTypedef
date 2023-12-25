@@ -10,6 +10,6 @@
 ---@field public facialInstantTransition Bool
 scnChangeIdleAnimEvent = {}
 
----@param fields? table
+---@param fields? scnChangeIdleAnimEvent
 ---@return scnChangeIdleAnimEvent
 function scnChangeIdleAnimEvent.new(fields) return end

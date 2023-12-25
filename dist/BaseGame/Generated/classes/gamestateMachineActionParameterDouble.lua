@@ -6,6 +6,6 @@
 ---@field public value Double
 gamestateMachineActionParameterDouble = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterDouble
 ---@return gamestateMachineActionParameterDouble
 function gamestateMachineActionParameterDouble.new(fields) return end

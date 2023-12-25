@@ -4,7 +4,7 @@
 ---@class MinigameGenerationRulePredefinedBoard: gameuiMinigameGenerationRule
 MinigameGenerationRulePredefinedBoard = {}
 
----@param fields? table
+---@param fields? MinigameGenerationRulePredefinedBoard
 ---@return MinigameGenerationRulePredefinedBoard
 function MinigameGenerationRulePredefinedBoard.new(fields) return end
 

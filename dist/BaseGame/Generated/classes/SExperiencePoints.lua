@@ -7,6 +7,6 @@
 ---@field public entity entEntityID
 SExperiencePoints = {}
 
----@param fields? table
+---@param fields? SExperiencePoints
 ---@return SExperiencePoints
 function SExperiencePoints.new(fields) return end

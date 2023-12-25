@@ -45,7 +45,7 @@
 ---@field private stateADS Bool
 CrosshairGameController_Tech_Round = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_Tech_Round
 ---@return CrosshairGameController_Tech_Round
 function CrosshairGameController_Tech_Round.new(fields) return end
 

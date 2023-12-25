@@ -4,6 +4,6 @@
 ---@class vehicleAudio
 vehicleAudio = {}
 
----@param fields? table
+---@param fields? vehicleAudio
 ---@return vehicleAudio
 function vehicleAudio.new(fields) return end

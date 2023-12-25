@@ -4,6 +4,6 @@
 ---@class inkInputKeyIconManager: ISerializable
 inkInputKeyIconManager = {}
 
----@param fields? table
+---@param fields? inkInputKeyIconManager
 ---@return inkInputKeyIconManager
 function inkInputKeyIconManager.new(fields) return end

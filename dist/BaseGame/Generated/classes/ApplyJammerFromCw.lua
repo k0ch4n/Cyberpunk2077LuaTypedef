@@ -4,7 +4,7 @@
 ---@class ApplyJammerFromCw: gameEffectExecutor_Scripted
 ApplyJammerFromCw = {}
 
----@param fields? table
+---@param fields? ApplyJammerFromCw
 ---@return ApplyJammerFromCw
 function ApplyJammerFromCw.new(fields) return end
 

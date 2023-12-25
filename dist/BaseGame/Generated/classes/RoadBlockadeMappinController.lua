@@ -4,7 +4,7 @@
 ---@class RoadBlockadeMappinController: MinimapPOIMappinController
 RoadBlockadeMappinController = {}
 
----@param fields? table
+---@param fields? RoadBlockadeMappinController
 ---@return RoadBlockadeMappinController
 function RoadBlockadeMappinController.new(fields) return end
 

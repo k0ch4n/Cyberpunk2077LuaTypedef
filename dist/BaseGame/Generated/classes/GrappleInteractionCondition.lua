@@ -4,7 +4,7 @@
 ---@class GrappleInteractionCondition: gameinteractionsInteractionScriptedCondition
 GrappleInteractionCondition = {}
 
----@param fields? table
+---@param fields? GrappleInteractionCondition
 ---@return GrappleInteractionCondition
 function GrappleInteractionCondition.new(fields) return end
 

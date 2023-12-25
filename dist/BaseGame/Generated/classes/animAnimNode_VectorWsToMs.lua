@@ -6,6 +6,6 @@
 ---@field public vectorWs animVectorLink
 animAnimNode_VectorWsToMs = {}
 
----@param fields? table
+---@param fields? animAnimNode_VectorWsToMs
 ---@return animAnimNode_VectorWsToMs
 function animAnimNode_VectorWsToMs.new(fields) return end

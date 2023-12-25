@@ -10,6 +10,6 @@
 ---@field public common animSBehaviorConstraintNodeFloorIKCommonData
 animAnimNode_FloorIkBase = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloorIkBase
 ---@return animAnimNode_FloorIkBase
 function animAnimNode_FloorIkBase.new(fields) return end

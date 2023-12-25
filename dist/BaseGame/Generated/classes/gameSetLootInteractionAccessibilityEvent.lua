@@ -5,6 +5,6 @@
 ---@field public accessible Bool
 gameSetLootInteractionAccessibilityEvent = {}
 
----@param fields? table
+---@param fields? gameSetLootInteractionAccessibilityEvent
 ---@return gameSetLootInteractionAccessibilityEvent
 function gameSetLootInteractionAccessibilityEvent.new(fields) return end

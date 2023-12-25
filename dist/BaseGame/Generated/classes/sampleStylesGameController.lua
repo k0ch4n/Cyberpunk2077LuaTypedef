@@ -7,7 +7,7 @@
 ---@field private button2Controller inkButtonController
 sampleStylesGameController = {}
 
----@param fields? table
+---@param fields? sampleStylesGameController
 ---@return sampleStylesGameController
 function sampleStylesGameController.new(fields) return end
 

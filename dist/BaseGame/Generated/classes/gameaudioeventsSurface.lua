@@ -4,6 +4,6 @@
 ---@class gameaudioeventsSurface: redEvent
 gameaudioeventsSurface = {}
 
----@param fields? table
+---@param fields? gameaudioeventsSurface
 ---@return gameaudioeventsSurface
 function gameaudioeventsSurface.new(fields) return end

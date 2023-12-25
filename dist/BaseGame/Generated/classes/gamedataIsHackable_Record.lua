@@ -4,7 +4,7 @@
 ---@class gamedataIsHackable_Record: gamedataTweakDBRecord
 gamedataIsHackable_Record = {}
 
----@param fields? table
+---@param fields? gamedataIsHackable_Record
 ---@return gamedataIsHackable_Record
 function gamedataIsHackable_Record.new(fields) return end
 

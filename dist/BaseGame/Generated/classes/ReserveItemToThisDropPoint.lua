@@ -5,7 +5,7 @@
 ---@field public item TweakDBID
 ReserveItemToThisDropPoint = {}
 
----@param fields? table
+---@param fields? ReserveItemToThisDropPoint
 ---@return ReserveItemToThisDropPoint
 function ReserveItemToThisDropPoint.new(fields) return end
 

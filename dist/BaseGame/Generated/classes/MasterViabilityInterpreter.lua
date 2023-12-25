@@ -4,7 +4,7 @@
 ---@class MasterViabilityInterpreter: IScriptable
 MasterViabilityInterpreter = {}
 
----@param fields? table
+---@param fields? MasterViabilityInterpreter
 ---@return MasterViabilityInterpreter
 function MasterViabilityInterpreter.new(fields) return end
 

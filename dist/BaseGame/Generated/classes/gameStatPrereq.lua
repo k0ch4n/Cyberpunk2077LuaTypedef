@@ -6,6 +6,6 @@
 ---@field public valueToCheck Float
 gameStatPrereq = {}
 
----@param fields? table
+---@param fields? gameStatPrereq
 ---@return gameStatPrereq
 function gameStatPrereq.new(fields) return end

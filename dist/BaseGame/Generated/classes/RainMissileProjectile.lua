@@ -36,7 +36,7 @@
 ---@field private randStartVelocity Float
 RainMissileProjectile = {}
 
----@param fields? table
+---@param fields? RainMissileProjectile
 ---@return RainMissileProjectile
 function RainMissileProjectile.new(fields) return end
 

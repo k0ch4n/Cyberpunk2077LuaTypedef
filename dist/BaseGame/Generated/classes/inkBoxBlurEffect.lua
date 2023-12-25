@@ -7,6 +7,6 @@
 ---@field public blurDimension inkEBlurDimension
 inkBoxBlurEffect = {}
 
----@param fields? table
+---@param fields? inkBoxBlurEffect
 ---@return inkBoxBlurEffect
 function inkBoxBlurEffect.new(fields) return end

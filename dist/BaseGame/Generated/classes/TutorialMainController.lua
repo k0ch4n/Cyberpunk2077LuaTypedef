@@ -9,7 +9,7 @@
 ---@field private currentTutorialStep TutorialStep
 TutorialMainController = {}
 
----@param fields? table
+---@param fields? TutorialMainController
 ---@return TutorialMainController
 function TutorialMainController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldMinimapConfigAreaNodeInstance: worldAreaShapeNodeInstance
 worldMinimapConfigAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldMinimapConfigAreaNodeInstance
 ---@return worldMinimapConfigAreaNodeInstance
 function worldMinimapConfigAreaNodeInstance.new(fields) return end

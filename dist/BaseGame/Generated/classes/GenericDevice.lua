@@ -6,7 +6,7 @@
 ---@field private currentSpiderbotAction CustomDeviceAction
 GenericDevice = {}
 
----@param fields? table
+---@param fields? GenericDevice
 ---@return GenericDevice
 function GenericDevice.new(fields) return end
 

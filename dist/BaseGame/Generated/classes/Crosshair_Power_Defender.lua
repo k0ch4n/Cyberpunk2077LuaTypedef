@@ -8,7 +8,7 @@
 ---@field private botPart inkWidgetReference
 Crosshair_Power_Defender = {}
 
----@param fields? table
+---@param fields? Crosshair_Power_Defender
 ---@return Crosshair_Power_Defender
 function Crosshair_Power_Defender.new(fields) return end
 

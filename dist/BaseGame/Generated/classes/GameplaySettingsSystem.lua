@@ -6,7 +6,7 @@
 ---@field private wasEverJohnny Bool
 GameplaySettingsSystem = {}
 
----@param fields? table
+---@param fields? GameplaySettingsSystem
 ---@return GameplaySettingsSystem
 function GameplaySettingsSystem.new(fields) return end
 

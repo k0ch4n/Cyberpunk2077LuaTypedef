@@ -5,7 +5,7 @@
 ---@field private onOverrideListener redCallbackObject
 ElectricBoxInkGameController = {}
 
----@param fields? table
+---@param fields? ElectricBoxInkGameController
 ---@return ElectricBoxInkGameController
 function ElectricBoxInkGameController.new(fields) return end
 

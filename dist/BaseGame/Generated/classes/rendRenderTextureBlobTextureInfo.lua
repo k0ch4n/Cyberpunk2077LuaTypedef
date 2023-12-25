@@ -10,6 +10,6 @@
 ---@field public mipCount Uint8
 rendRenderTextureBlobTextureInfo = {}
 
----@param fields? table
+---@param fields? rendRenderTextureBlobTextureInfo
 ---@return rendRenderTextureBlobTextureInfo
 function rendRenderTextureBlobTextureInfo.new(fields) return end

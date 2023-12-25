@@ -5,6 +5,6 @@
 ---@field public Path String
 AbsolutePathSerializable = {}
 
----@param fields? table
+---@param fields? AbsolutePathSerializable
 ---@return AbsolutePathSerializable
 function AbsolutePathSerializable.new(fields) return end

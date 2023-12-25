@@ -7,6 +7,6 @@
 ---@field public params questAICommandParams
 questMiscAICommandNode = {}
 
----@param fields? table
+---@param fields? questMiscAICommandNode
 ---@return questMiscAICommandNode
 function questMiscAICommandNode.new(fields) return end

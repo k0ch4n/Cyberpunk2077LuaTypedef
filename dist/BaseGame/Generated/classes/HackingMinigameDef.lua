@@ -16,7 +16,7 @@
 ---@field public LastPlayerHackPosition gamebbScriptID_Vector4
 HackingMinigameDef = {}
 
----@param fields? table
+---@param fields? HackingMinigameDef
 ---@return HackingMinigameDef
 function HackingMinigameDef.new(fields) return end
 

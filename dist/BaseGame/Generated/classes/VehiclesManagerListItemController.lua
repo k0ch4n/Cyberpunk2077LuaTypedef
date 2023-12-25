@@ -8,7 +8,7 @@
 ---@field private vehicleData VehicleListItemData
 VehiclesManagerListItemController = {}
 
----@param fields? table
+---@param fields? VehiclesManagerListItemController
 ---@return VehiclesManagerListItemController
 function VehiclesManagerListItemController.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class gamedataMappinUISpawnProfile_Record: gamedataTweakDBRecord
 gamedataMappinUISpawnProfile_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinUISpawnProfile_Record
 ---@return gamedataMappinUISpawnProfile_Record
 function gamedataMappinUISpawnProfile_Record.new(fields) return end
 

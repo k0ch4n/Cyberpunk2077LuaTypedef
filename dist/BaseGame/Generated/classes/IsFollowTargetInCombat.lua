@@ -4,7 +4,7 @@
 ---@class IsFollowTargetInCombat: AIAutonomousConditions
 IsFollowTargetInCombat = {}
 
----@param fields? table
+---@param fields? IsFollowTargetInCombat
 ---@return IsFollowTargetInCombat
 function IsFollowTargetInCombat.new(fields) return end
 

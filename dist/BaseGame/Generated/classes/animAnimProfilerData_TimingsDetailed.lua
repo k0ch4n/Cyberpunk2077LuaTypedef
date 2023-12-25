@@ -15,6 +15,6 @@
 ---@field public samplesCount Uint32
 animAnimProfilerData_TimingsDetailed = {}
 
----@param fields? table
+---@param fields? animAnimProfilerData_TimingsDetailed
 ---@return animAnimProfilerData_TimingsDetailed
 function animAnimProfilerData_TimingsDetailed.new(fields) return end

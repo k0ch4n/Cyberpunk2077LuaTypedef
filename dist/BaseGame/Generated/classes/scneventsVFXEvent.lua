@@ -10,6 +10,6 @@
 ---@field public muteSound Bool
 scneventsVFXEvent = {}
 
----@param fields? table
+---@param fields? scneventsVFXEvent
 ---@return scneventsVFXEvent
 function scneventsVFXEvent.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class AirDeathEvents: DeathEvents
 AirDeathEvents = {}
 
----@param fields? table
+---@param fields? AirDeathEvents
 ---@return AirDeathEvents
 function AirDeathEvents.new(fields) return end

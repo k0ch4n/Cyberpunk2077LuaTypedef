@@ -4,7 +4,7 @@
 ---@class QuestEnterPlayer: ActionBool
 QuestEnterPlayer = {}
 
----@param fields? table
+---@param fields? QuestEnterPlayer
 ---@return QuestEnterPlayer
 function QuestEnterPlayer.new(fields) return end
 

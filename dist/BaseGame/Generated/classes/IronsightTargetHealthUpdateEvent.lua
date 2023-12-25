@@ -4,6 +4,6 @@
 ---@class IronsightTargetHealthUpdateEvent: redEvent
 IronsightTargetHealthUpdateEvent = {}
 
----@param fields? table
+---@param fields? IronsightTargetHealthUpdateEvent
 ---@return IronsightTargetHealthUpdateEvent
 function IronsightTargetHealthUpdateEvent.new(fields) return end

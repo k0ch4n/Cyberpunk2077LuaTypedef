@@ -4,7 +4,7 @@
 ---@class CallbackSystem: gameIGameSystem
 CallbackSystem = {}
 
----@param fields? table
+---@param fields? CallbackSystem
 ---@return CallbackSystem
 function CallbackSystem.new(fields) return end
 

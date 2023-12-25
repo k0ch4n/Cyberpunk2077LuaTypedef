@@ -4,6 +4,6 @@
 ---@class WidgetHudComponent: WidgetHudComponentInterface
 WidgetHudComponent = {}
 
----@param fields? table
+---@param fields? WidgetHudComponent
 ---@return WidgetHudComponent
 function WidgetHudComponent.new(fields) return end

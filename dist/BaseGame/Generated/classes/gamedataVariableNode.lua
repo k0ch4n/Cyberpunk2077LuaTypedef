@@ -13,6 +13,6 @@
 ---@field public values gamedataVariableNodeVariableValue[]
 gamedataVariableNode = {}
 
----@param fields? table
+---@param fields? gamedataVariableNode
 ---@return gamedataVariableNode
 function gamedataVariableNode.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameaudioFlybySubSystem: gameaudioISoundComponentSubSystem
 gameaudioFlybySubSystem = {}
 
----@param fields? table
+---@param fields? gameaudioFlybySubSystem
 ---@return gameaudioFlybySubSystem
 function gameaudioFlybySubSystem.new(fields) return end

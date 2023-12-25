@@ -5,7 +5,7 @@
 ---@field public controller VendorHubMenuGameController
 RipperdocTimeDilationCallback = {}
 
----@param fields? table
+---@param fields? RipperdocTimeDilationCallback
 ---@return RipperdocTimeDilationCallback
 function RipperdocTimeDilationCallback.new(fields) return end
 

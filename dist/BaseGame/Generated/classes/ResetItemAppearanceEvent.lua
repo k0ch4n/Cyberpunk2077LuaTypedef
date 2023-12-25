@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 ResetItemAppearanceEvent = {}
 
----@param fields? table
+---@param fields? ResetItemAppearanceEvent
 ---@return ResetItemAppearanceEvent
 function ResetItemAppearanceEvent.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class gameWardrobeSystem: gameIWardrobeSystem
 gameWardrobeSystem = {}
 
----@param fields? table
+---@param fields? gameWardrobeSystem
 ---@return gameWardrobeSystem
 function gameWardrobeSystem.new(fields) return end
 

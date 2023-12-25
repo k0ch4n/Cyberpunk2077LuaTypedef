@@ -4,6 +4,6 @@
 ---@class QuickHackCrosshairStateEvents: BaseCrosshairStateEvents
 QuickHackCrosshairStateEvents = {}
 
----@param fields? table
+---@param fields? QuickHackCrosshairStateEvents
 ---@return QuickHackCrosshairStateEvents
 function QuickHackCrosshairStateEvents.new(fields) return end

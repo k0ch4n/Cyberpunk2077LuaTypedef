@@ -6,6 +6,6 @@
 ---@field public valid Float
 AnimFeature_PreClimbing = {}
 
----@param fields? table
+---@param fields? AnimFeature_PreClimbing
 ---@return AnimFeature_PreClimbing
 function AnimFeature_PreClimbing.new(fields) return end

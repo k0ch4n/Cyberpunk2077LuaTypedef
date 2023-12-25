@@ -4,6 +4,6 @@
 ---@class UIUnstreamedEvent: redEvent
 UIUnstreamedEvent = {}
 
----@param fields? table
+---@param fields? UIUnstreamedEvent
 ---@return UIUnstreamedEvent
 function UIUnstreamedEvent.new(fields) return end

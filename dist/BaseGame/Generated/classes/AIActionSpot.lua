@@ -12,6 +12,6 @@
 ---@field public clippingSpaceRange Float
 AIActionSpot = {}
 
----@param fields? table
+---@param fields? AIActionSpot
 ---@return AIActionSpot
 function AIActionSpot.new(fields) return end

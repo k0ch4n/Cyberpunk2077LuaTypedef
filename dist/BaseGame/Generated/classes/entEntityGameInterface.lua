@@ -4,7 +4,7 @@
 ---@class entEntityGameInterface
 entEntityGameInterface = {}
 
----@param fields? table
+---@param fields? entEntityGameInterface
 ---@return entEntityGameInterface
 function entEntityGameInterface.new(fields) return end
 

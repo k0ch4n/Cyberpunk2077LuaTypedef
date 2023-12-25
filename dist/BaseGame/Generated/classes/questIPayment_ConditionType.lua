@@ -5,6 +5,6 @@
 ---@field public scriptCondition IScriptable
 questIPayment_ConditionType = {}
 
----@param fields? table
+---@param fields? questIPayment_ConditionType
 ---@return questIPayment_ConditionType
 function questIPayment_ConditionType.new(fields) return end

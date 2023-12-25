@@ -6,6 +6,6 @@
 ---@field public functionName CName
 inkCallbackListener = {}
 
----@param fields? table
+---@param fields? inkCallbackListener
 ---@return inkCallbackListener
 function inkCallbackListener.new(fields) return end

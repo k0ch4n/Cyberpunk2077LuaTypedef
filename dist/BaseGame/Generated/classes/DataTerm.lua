@@ -15,7 +15,7 @@
 ---@field private hologramMeshRed entIPlacedComponent
 DataTerm = {}
 
----@param fields? table
+---@param fields? DataTerm
 ---@return DataTerm
 function DataTerm.new(fields) return end
 

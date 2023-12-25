@@ -5,7 +5,7 @@
 ---@field public targetID entEntityID
 TakedownExecuteTakedownAndDisposeEvents = {}
 
----@param fields? table
+---@param fields? TakedownExecuteTakedownAndDisposeEvents
 ---@return TakedownExecuteTakedownAndDisposeEvents
 function TakedownExecuteTakedownAndDisposeEvents.new(fields) return end
 

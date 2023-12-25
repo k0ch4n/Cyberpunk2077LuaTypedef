@@ -5,6 +5,6 @@
 ---@field public action gamedataWorkspotActionType
 OnReserveWorkspotEvent = {}
 
----@param fields? table
+---@param fields? OnReserveWorkspotEvent
 ---@return OnReserveWorkspotEvent
 function OnReserveWorkspotEvent.new(fields) return end

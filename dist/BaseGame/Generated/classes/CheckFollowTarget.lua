@@ -4,7 +4,7 @@
 ---@class CheckFollowTarget: AIbehaviorconditionScript
 CheckFollowTarget = {}
 
----@param fields? table
+---@param fields? CheckFollowTarget
 ---@return CheckFollowTarget
 function CheckFollowTarget.new(fields) return end
 

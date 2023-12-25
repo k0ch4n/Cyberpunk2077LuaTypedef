@@ -5,7 +5,7 @@
 ---@field public maxAllowedDelta AIArgumentMapping
 AISpiderbotCheckIfFriendlyMoved = {}
 
----@param fields? table
+---@param fields? AISpiderbotCheckIfFriendlyMoved
 ---@return AISpiderbotCheckIfFriendlyMoved
 function AISpiderbotCheckIfFriendlyMoved.new(fields) return end
 

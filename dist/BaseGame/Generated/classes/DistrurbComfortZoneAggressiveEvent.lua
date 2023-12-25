@@ -4,6 +4,6 @@
 ---@class DistrurbComfortZoneAggressiveEvent: redEvent
 DistrurbComfortZoneAggressiveEvent = {}
 
----@param fields? table
+---@param fields? DistrurbComfortZoneAggressiveEvent
 ---@return DistrurbComfortZoneAggressiveEvent
 function DistrurbComfortZoneAggressiveEvent.new(fields) return end

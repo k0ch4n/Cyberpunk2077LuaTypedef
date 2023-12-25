@@ -35,6 +35,6 @@
 ---@field public maxAvSpawnInterval Float
 gameuiPanzerGameLogicController = {}
 
----@param fields? table
+---@param fields? gameuiPanzerGameLogicController
 ---@return gameuiPanzerGameLogicController
 function gameuiPanzerGameLogicController.new(fields) return end

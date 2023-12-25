@@ -7,7 +7,7 @@
 ---@field public suppressedByStimTypes gamedataStimType[]
 GameEffectExecutor_StimOnHit = {}
 
----@param fields? table
+---@param fields? GameEffectExecutor_StimOnHit
 ---@return GameEffectExecutor_StimOnHit
 function GameEffectExecutor_StimOnHit.new(fields) return end
 

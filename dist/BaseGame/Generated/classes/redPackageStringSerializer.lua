@@ -4,6 +4,6 @@
 ---@class redPackageStringSerializer: redPackageCustomTypeSerializer
 redPackageStringSerializer = {}
 
----@param fields? table
+---@param fields? redPackageStringSerializer
 ---@return redPackageStringSerializer
 function redPackageStringSerializer.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class QuestForceSecuritySystemSafe: ActionBool
 QuestForceSecuritySystemSafe = {}
 
----@param fields? table
+---@param fields? QuestForceSecuritySystemSafe
 ---@return QuestForceSecuritySystemSafe
 function QuestForceSecuritySystemSafe.new(fields) return end
 

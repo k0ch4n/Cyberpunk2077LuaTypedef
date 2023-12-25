@@ -7,6 +7,6 @@
 ---@field public gradientEntriesRootToTip rendGradientEntry[]
 CHairProfile = {}
 
----@param fields? table
+---@param fields? CHairProfile
 ---@return CHairProfile
 function CHairProfile.new(fields) return end

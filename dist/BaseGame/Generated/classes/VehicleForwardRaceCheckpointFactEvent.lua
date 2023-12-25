@@ -4,6 +4,6 @@
 ---@class VehicleForwardRaceCheckpointFactEvent: redEvent
 VehicleForwardRaceCheckpointFactEvent = {}
 
----@param fields? table
+---@param fields? VehicleForwardRaceCheckpointFactEvent
 ---@return VehicleForwardRaceCheckpointFactEvent
 function VehicleForwardRaceCheckpointFactEvent.new(fields) return end

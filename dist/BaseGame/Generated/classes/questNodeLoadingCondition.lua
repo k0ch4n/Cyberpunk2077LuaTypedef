@@ -6,6 +6,6 @@
 ---@field public inverted Bool
 questNodeLoadingCondition = {}
 
----@param fields? table
+---@param fields? questNodeLoadingCondition
 ---@return questNodeLoadingCondition
 function questNodeLoadingCondition.new(fields) return end

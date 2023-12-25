@@ -4,7 +4,7 @@
 ---@class gameWeakspotObject: gameObject
 gameWeakspotObject = {}
 
----@param fields? table
+---@param fields? gameWeakspotObject
 ---@return gameWeakspotObject
 function gameWeakspotObject.new(fields) return end
 

@@ -10,6 +10,6 @@
 ---@field public data IScriptable
 VirutalNestedListData = {}
 
----@param fields? table
+---@param fields? VirutalNestedListData
 ---@return VirutalNestedListData
 function VirutalNestedListData.new(fields) return end

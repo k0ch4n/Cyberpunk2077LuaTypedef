@@ -6,7 +6,7 @@
 ---@field private mixHasDetectedCombat Bool
 gameGameAudioSystem = {}
 
----@param fields? table
+---@param fields? gameGameAudioSystem
 ---@return gameGameAudioSystem
 function gameGameAudioSystem.new(fields) return end
 

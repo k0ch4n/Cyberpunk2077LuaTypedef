@@ -14,7 +14,7 @@
 ---@field public ownerSlotListener gameAttachmentSlotsScriptListener
 ApplyStatGroupEffector = {}
 
----@param fields? table
+---@param fields? ApplyStatGroupEffector
 ---@return ApplyStatGroupEffector
 function ApplyStatGroupEffector.new(fields) return end
 

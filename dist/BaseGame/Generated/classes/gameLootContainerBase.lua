@@ -15,7 +15,7 @@
 ---@field protected activeQualityRangeInteraction CName
 gameLootContainerBase = {}
 
----@param fields? table
+---@param fields? gameLootContainerBase
 ---@return gameLootContainerBase
 function gameLootContainerBase.new(fields) return end
 

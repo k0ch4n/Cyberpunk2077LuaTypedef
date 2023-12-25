@@ -5,6 +5,6 @@
 ---@field public station ENcartStations
 ncartStationListDef = {}
 
----@param fields? table
+---@param fields? ncartStationListDef
 ---@return ncartStationListDef
 function ncartStationListDef.new(fields) return end

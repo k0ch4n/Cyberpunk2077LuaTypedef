@@ -12,6 +12,6 @@
 ---@field public saturation curveData
 ImageBasedFlareAreaSettings = {}
 
----@param fields? table
+---@param fields? ImageBasedFlareAreaSettings
 ---@return ImageBasedFlareAreaSettings
 function ImageBasedFlareAreaSettings.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class inkVideoWidgetReference: inkLeafWidgetReference
 inkVideoWidgetReference = {}
 
----@param fields? table
+---@param fields? inkVideoWidgetReference
 ---@return inkVideoWidgetReference
 function inkVideoWidgetReference.new(fields) return end
 

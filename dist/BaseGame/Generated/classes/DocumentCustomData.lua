@@ -6,6 +6,6 @@
 ---@field public type EDocumentType
 DocumentCustomData = {}
 
----@param fields? table
+---@param fields? DocumentCustomData
 ---@return DocumentCustomData
 function DocumentCustomData.new(fields) return end

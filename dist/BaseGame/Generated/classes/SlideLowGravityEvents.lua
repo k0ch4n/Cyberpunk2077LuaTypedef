@@ -4,7 +4,7 @@
 ---@class SlideLowGravityEvents: CrouchLowGravityEvents
 SlideLowGravityEvents = {}
 
----@param fields? table
+---@param fields? SlideLowGravityEvents
 ---@return SlideLowGravityEvents
 function SlideLowGravityEvents.new(fields) return end
 

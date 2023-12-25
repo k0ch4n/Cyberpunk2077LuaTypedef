@@ -4,7 +4,7 @@
 ---@class NetrunnerChair: InteractiveDevice
 NetrunnerChair = {}
 
----@param fields? table
+---@param fields? NetrunnerChair
 ---@return NetrunnerChair
 function NetrunnerChair.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class NetrunnerChairController: ScriptableDeviceComponent
 NetrunnerChairController = {}
 
----@param fields? table
+---@param fields? NetrunnerChairController
 ---@return NetrunnerChairController
 function NetrunnerChairController.new(fields) return end
 

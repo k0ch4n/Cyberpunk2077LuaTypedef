@@ -6,6 +6,6 @@
 ---@field public targetHintContainer CName
 gameuiDeleteInputHintBySourceEvent = {}
 
----@param fields? table
+---@param fields? gameuiDeleteInputHintBySourceEvent
 ---@return gameuiDeleteInputHintBySourceEvent
 function gameuiDeleteInputHintBySourceEvent.new(fields) return end

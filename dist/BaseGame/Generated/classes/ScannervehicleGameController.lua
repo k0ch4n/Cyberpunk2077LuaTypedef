@@ -35,7 +35,7 @@
 ---@field private vehicleInfoHolder inkWidgetReference
 ScannervehicleGameController = {}
 
----@param fields? table
+---@param fields? ScannervehicleGameController
 ---@return ScannervehicleGameController
 function ScannervehicleGameController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public groupName LocalizationString
 gameJournalCodexGroup = {}
 
----@param fields? table
+---@param fields? gameJournalCodexGroup
 ---@return gameJournalCodexGroup
 function gameJournalCodexGroup.new(fields) return end
 

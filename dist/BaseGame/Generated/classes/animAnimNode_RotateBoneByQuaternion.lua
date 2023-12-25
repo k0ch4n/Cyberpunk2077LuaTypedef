@@ -9,6 +9,6 @@
 ---@field public resetOnActivation Bool
 animAnimNode_RotateBoneByQuaternion = {}
 
----@param fields? table
+---@param fields? animAnimNode_RotateBoneByQuaternion
 ---@return animAnimNode_RotateBoneByQuaternion
 function animAnimNode_RotateBoneByQuaternion.new(fields) return end

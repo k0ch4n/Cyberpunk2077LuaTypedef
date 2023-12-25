@@ -6,6 +6,6 @@
 ---@field public censorFlagAction gameuiCharacterCustomizationActionType
 gameuiCensorshipInfo = {}
 
----@param fields? table
+---@param fields? gameuiCensorshipInfo
 ---@return gameuiCensorshipInfo
 function gameuiCensorshipInfo.new(fields) return end

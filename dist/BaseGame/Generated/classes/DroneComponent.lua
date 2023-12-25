@@ -14,7 +14,7 @@
 ---@field private currentLocomotionWrapper CName
 DroneComponent = {}
 
----@param fields? table
+---@param fields? DroneComponent
 ---@return DroneComponent
 function DroneComponent.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private data NewCodexEntryUserData
 NewCodexEntryGameController = {}
 
----@param fields? table
+---@param fields? NewCodexEntryGameController
 ---@return NewCodexEntryGameController
 function NewCodexEntryGameController.new(fields) return end
 

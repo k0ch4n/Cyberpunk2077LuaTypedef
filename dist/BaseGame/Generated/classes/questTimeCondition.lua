@@ -5,6 +5,6 @@
 ---@field public type questITimeConditionType
 questTimeCondition = {}
 
----@param fields? table
+---@param fields? questTimeCondition
 ---@return questTimeCondition
 function questTimeCondition.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class gameuiBodyPartsControllerCustomizationStateUpdater: gameuiICustomizationStateUpdater
 gameuiBodyPartsControllerCustomizationStateUpdater = {}
 
----@param fields? table
+---@param fields? gameuiBodyPartsControllerCustomizationStateUpdater
 ---@return gameuiBodyPartsControllerCustomizationStateUpdater
 function gameuiBodyPartsControllerCustomizationStateUpdater.new(fields) return end

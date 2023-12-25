@@ -5,7 +5,7 @@
 ---@field public firstWasGenerated Bool
 TestRandomizationSupervisor = {}
 
----@param fields? table
+---@param fields? TestRandomizationSupervisor
 ---@return TestRandomizationSupervisor
 function TestRandomizationSupervisor.new(fields) return end
 

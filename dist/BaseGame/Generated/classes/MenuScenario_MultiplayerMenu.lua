@@ -4,7 +4,7 @@
 ---@class MenuScenario_MultiplayerMenu: MenuScenario_PreGameSubMenu
 MenuScenario_MultiplayerMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_MultiplayerMenu
 ---@return MenuScenario_MultiplayerMenu
 function MenuScenario_MultiplayerMenu.new(fields) return end
 

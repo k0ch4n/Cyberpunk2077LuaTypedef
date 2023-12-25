@@ -11,6 +11,6 @@
 ---@field public reduceSpeedOnTurns Bool
 questMoveOnSplineAndKeepDistance_NodeType = {}
 
----@param fields? table
+---@param fields? questMoveOnSplineAndKeepDistance_NodeType
 ---@return questMoveOnSplineAndKeepDistance_NodeType
 function questMoveOnSplineAndKeepDistance_NodeType.new(fields) return end

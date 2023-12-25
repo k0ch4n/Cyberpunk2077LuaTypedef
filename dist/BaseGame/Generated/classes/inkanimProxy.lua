@@ -4,7 +4,7 @@
 ---@class inkanimProxy: IScriptable
 inkanimProxy = {}
 
----@param fields? table
+---@param fields? inkanimProxy
 ---@return inkanimProxy
 function inkanimProxy.new(fields) return end
 

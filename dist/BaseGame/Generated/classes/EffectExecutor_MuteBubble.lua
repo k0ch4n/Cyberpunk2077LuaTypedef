@@ -4,7 +4,7 @@
 ---@class EffectExecutor_MuteBubble: gameEffectExecutor_Scripted
 EffectExecutor_MuteBubble = {}
 
----@param fields? table
+---@param fields? EffectExecutor_MuteBubble
 ---@return EffectExecutor_MuteBubble
 function EffectExecutor_MuteBubble.new(fields) return end
 

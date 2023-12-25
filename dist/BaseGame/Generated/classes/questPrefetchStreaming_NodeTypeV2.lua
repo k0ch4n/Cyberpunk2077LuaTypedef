@@ -8,6 +8,6 @@
 ---@field public forceEnable Bool
 questPrefetchStreaming_NodeTypeV2 = {}
 
----@param fields? table
+---@param fields? questPrefetchStreaming_NodeTypeV2
 ---@return questPrefetchStreaming_NodeTypeV2
 function questPrefetchStreaming_NodeTypeV2.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public flags Uint64
 FeatureFlagsMask = {}
 
----@param fields? table
+---@param fields? FeatureFlagsMask
 ---@return FeatureFlagsMask
 function FeatureFlagsMask.new(fields) return end

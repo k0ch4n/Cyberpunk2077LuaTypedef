@@ -6,7 +6,7 @@
 ---@field public entityID entEntityID
 IsDead = {}
 
----@param fields? table
+---@param fields? IsDead
 ---@return IsDead
 function IsDead.new(fields) return end
 

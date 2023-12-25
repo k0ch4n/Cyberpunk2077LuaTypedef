@@ -5,6 +5,6 @@
 ---@field public npc gameObject
 ExitCombatOnOpticalCamoActivatedEvent = {}
 
----@param fields? table
+---@param fields? ExitCombatOnOpticalCamoActivatedEvent
 ---@return ExitCombatOnOpticalCamoActivatedEvent
 function ExitCombatOnOpticalCamoActivatedEvent.new(fields) return end

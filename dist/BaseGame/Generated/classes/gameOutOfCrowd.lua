@@ -4,6 +4,6 @@
 ---@class gameOutOfCrowd: redEvent
 gameOutOfCrowd = {}
 
----@param fields? table
+---@param fields? gameOutOfCrowd
 ---@return gameOutOfCrowd
 function gameOutOfCrowd.new(fields) return end

@@ -20,7 +20,7 @@
 ---@field protected timeToActivatePhysics Float
 ActivatedDeviceTrapDestruction = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceTrapDestruction
 ---@return ActivatedDeviceTrapDestruction
 function ActivatedDeviceTrapDestruction.new(fields) return end
 

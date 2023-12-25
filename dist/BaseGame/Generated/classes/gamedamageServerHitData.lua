@@ -7,6 +7,6 @@
 ---@field public instigator gameObject
 gamedamageServerHitData = {}
 
----@param fields? table
+---@param fields? gamedamageServerHitData
 ---@return gamedamageServerHitData
 function gamedamageServerHitData.new(fields) return end

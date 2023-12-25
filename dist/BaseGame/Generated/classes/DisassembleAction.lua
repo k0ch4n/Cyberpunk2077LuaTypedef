@@ -4,7 +4,7 @@
 ---@class DisassembleAction: BaseItemAction
 DisassembleAction = {}
 
----@param fields? table
+---@param fields? DisassembleAction
 ---@return DisassembleAction
 function DisassembleAction.new(fields) return end
 

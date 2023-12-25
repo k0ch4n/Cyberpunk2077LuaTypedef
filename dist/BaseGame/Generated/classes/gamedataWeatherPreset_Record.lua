@@ -4,7 +4,7 @@
 ---@class gamedataWeatherPreset_Record: gamedataSpawnableObject_Record
 gamedataWeatherPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataWeatherPreset_Record
 ---@return gamedataWeatherPreset_Record
 function gamedataWeatherPreset_Record.new(fields) return end
 

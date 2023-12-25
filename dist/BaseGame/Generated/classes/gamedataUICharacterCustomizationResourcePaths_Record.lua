@@ -4,7 +4,7 @@
 ---@class gamedataUICharacterCustomizationResourcePaths_Record: gamedataTweakDBRecord
 gamedataUICharacterCustomizationResourcePaths_Record = {}
 
----@param fields? table
+---@param fields? gamedataUICharacterCustomizationResourcePaths_Record
 ---@return gamedataUICharacterCustomizationResourcePaths_Record
 function gamedataUICharacterCustomizationResourcePaths_Record.new(fields) return end
 

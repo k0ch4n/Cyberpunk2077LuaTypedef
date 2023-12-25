@@ -5,7 +5,7 @@
 ---@field protected inCommand AIArgumentMapping
 AimAtTargetCommandCleanup = {}
 
----@param fields? table
+---@param fields? AimAtTargetCommandCleanup
 ---@return AimAtTargetCommandCleanup
 function AimAtTargetCommandCleanup.new(fields) return end
 

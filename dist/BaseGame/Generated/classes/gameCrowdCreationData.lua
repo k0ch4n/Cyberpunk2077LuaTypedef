@@ -5,6 +5,6 @@
 ---@field public timePeriods gameCrowdPhaseTimePeriod
 gameCrowdCreationData = {}
 
----@param fields? table
+---@param fields? gameCrowdCreationData
 ---@return gameCrowdCreationData
 function gameCrowdCreationData.new(fields) return end

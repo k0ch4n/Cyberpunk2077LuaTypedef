@@ -4,6 +4,6 @@
 ---@class RetrofixQuickhacksEvent: redEvent
 RetrofixQuickhacksEvent = {}
 
----@param fields? table
+---@param fields? RetrofixQuickhacksEvent
 ---@return RetrofixQuickhacksEvent
 function RetrofixQuickhacksEvent.new(fields) return end
