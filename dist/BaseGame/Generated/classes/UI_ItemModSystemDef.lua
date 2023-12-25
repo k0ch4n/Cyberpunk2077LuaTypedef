@@ -6,7 +6,7 @@
 ---@field public ItemModSystemUpgradingInProgress gamebbScriptID_Bool
 UI_ItemModSystemDef = {}
 
----@param fields? table
+---@param fields? UI_ItemModSystemDef
 ---@return UI_ItemModSystemDef
 function UI_ItemModSystemDef.new(fields) return end
 

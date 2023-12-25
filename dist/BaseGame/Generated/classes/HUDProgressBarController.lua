@@ -44,7 +44,7 @@
 ---@field private bumpValue Float
 HUDProgressBarController = {}
 
----@param fields? table
+---@param fields? HUDProgressBarController
 ---@return HUDProgressBarController
 function HUDProgressBarController.new(fields) return end
 

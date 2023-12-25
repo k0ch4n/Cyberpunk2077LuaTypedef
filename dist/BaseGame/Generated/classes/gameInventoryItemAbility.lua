@@ -8,6 +8,6 @@
 ---@field public LocalizationDataPackage gameUILocalizationDataPackage
 gameInventoryItemAbility = {}
 
----@param fields? table
+---@param fields? gameInventoryItemAbility
 ---@return gameInventoryItemAbility
 function gameInventoryItemAbility.new(fields) return end

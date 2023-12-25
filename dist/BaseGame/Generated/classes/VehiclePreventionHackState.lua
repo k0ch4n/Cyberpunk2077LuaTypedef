@@ -13,7 +13,7 @@
 ---@field public appliedHackSpeed EAppliedTriangulationHackSpeed
 VehiclePreventionHackState = {}
 
----@param fields? table
+---@param fields? VehiclePreventionHackState
 ---@return VehiclePreventionHackState
 function VehiclePreventionHackState.new(fields) return end
 

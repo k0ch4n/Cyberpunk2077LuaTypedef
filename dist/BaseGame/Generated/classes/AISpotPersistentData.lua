@@ -8,6 +8,6 @@
 ---@field public isEnabled Bool
 AISpotPersistentData = {}
 
----@param fields? table
+---@param fields? AISpotPersistentData
 ---@return AISpotPersistentData
 function AISpotPersistentData.new(fields) return end

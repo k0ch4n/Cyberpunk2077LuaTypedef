@@ -5,6 +5,6 @@
 ---@field public value Bool
 SetIsPlayerInsideLiftEvent = {}
 
----@param fields? table
+---@param fields? SetIsPlayerInsideLiftEvent
 ---@return SetIsPlayerInsideLiftEvent
 function SetIsPlayerInsideLiftEvent.new(fields) return end

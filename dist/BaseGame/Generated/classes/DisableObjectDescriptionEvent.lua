@@ -5,7 +5,7 @@
 ---@field public isDisabled Bool
 DisableObjectDescriptionEvent = {}
 
----@param fields? table
+---@param fields? DisableObjectDescriptionEvent
 ---@return DisableObjectDescriptionEvent
 function DisableObjectDescriptionEvent.new(fields) return end
 

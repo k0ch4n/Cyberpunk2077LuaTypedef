@@ -8,6 +8,6 @@
 ---@field public waitForEnd Bool
 questCharacterSceneSpot_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterSceneSpot_ConditionType
 ---@return questCharacterSceneSpot_ConditionType
 function questCharacterSceneSpot_ConditionType.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public position Vector3
 gameSetDestinationActionEvent = {}
 
----@param fields? table
+---@param fields? gameSetDestinationActionEvent
 ---@return gameSetDestinationActionEvent
 function gameSetDestinationActionEvent.new(fields) return end

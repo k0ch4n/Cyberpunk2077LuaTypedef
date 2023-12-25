@@ -5,6 +5,6 @@
 ---@field public void Bool
 audioLocomotionCustomActionType = {}
 
----@param fields? table
+---@param fields? audioLocomotionCustomActionType
 ---@return audioLocomotionCustomActionType
 function audioLocomotionCustomActionType.new(fields) return end

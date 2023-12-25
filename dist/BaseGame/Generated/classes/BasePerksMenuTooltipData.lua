@@ -5,7 +5,7 @@
 ---@field public manager PlayerDevelopmentDataManager
 BasePerksMenuTooltipData = {}
 
----@param fields? table
+---@param fields? BasePerksMenuTooltipData
 ---@return BasePerksMenuTooltipData
 function BasePerksMenuTooltipData.new(fields) return end
 

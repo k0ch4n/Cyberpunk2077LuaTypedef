@@ -5,7 +5,7 @@
 ---@field public squadActionName EAISquadAction
 CallOffReactionAction = {}
 
----@param fields? table
+---@param fields? CallOffReactionAction
 ---@return CallOffReactionAction
 function CallOffReactionAction.new(fields) return end
 

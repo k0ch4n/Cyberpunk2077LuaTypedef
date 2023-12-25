@@ -10,6 +10,6 @@
 ---@field public hidden Bool
 gameuiUnlockableProgram = {}
 
----@param fields? table
+---@param fields? gameuiUnlockableProgram
 ---@return gameuiUnlockableProgram
 function gameuiUnlockableProgram.new(fields) return end

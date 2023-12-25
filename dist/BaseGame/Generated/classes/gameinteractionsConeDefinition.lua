@@ -8,6 +8,6 @@
 ---@field public radius2 Float
 gameinteractionsConeDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsConeDefinition
 ---@return gameinteractionsConeDefinition
 function gameinteractionsConeDefinition.new(fields) return end

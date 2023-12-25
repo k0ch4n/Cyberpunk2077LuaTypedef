@@ -10,6 +10,6 @@
 ---@field public maskRotMS Int32[]
 animRigPart = {}
 
----@param fields? table
+---@param fields? animRigPart
 ---@return animRigPart
 function animRigPart.new(fields) return end

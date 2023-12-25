@@ -6,6 +6,6 @@
 ---@field public mappinSettings TweakDBID
 scnChoiceNodeNsMappinParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsMappinParams
 ---@return scnChoiceNodeNsMappinParams
 function scnChoiceNodeNsMappinParams.new(fields) return end

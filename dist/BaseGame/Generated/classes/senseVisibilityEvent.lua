@@ -8,6 +8,6 @@
 ---@field public shapeId TweakDBID
 senseVisibilityEvent = {}
 
----@param fields? table
+---@param fields? senseVisibilityEvent
 ---@return senseVisibilityEvent
 function senseVisibilityEvent.new(fields) return end

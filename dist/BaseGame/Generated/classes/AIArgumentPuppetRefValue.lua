@@ -6,6 +6,6 @@
 ---@field public defaultValue gameEntityReference
 AIArgumentPuppetRefValue = {}
 
----@param fields? table
+---@param fields? AIArgumentPuppetRefValue
 ---@return AIArgumentPuppetRefValue
 function AIArgumentPuppetRefValue.new(fields) return end

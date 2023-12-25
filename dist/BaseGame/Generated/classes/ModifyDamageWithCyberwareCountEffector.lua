@@ -11,7 +11,7 @@
 ---@field public statusEffectRecord gamedataStatusEffect_Record
 ModifyDamageWithCyberwareCountEffector = {}
 
----@param fields? table
+---@param fields? ModifyDamageWithCyberwareCountEffector
 ---@return ModifyDamageWithCyberwareCountEffector
 function ModifyDamageWithCyberwareCountEffector.new(fields) return end
 

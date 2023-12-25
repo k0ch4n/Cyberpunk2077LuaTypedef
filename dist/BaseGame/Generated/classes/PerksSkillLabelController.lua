@@ -4,7 +4,7 @@
 ---@class PerksSkillLabelController: HubMenuLabelController
 PerksSkillLabelController = {}
 
----@param fields? table
+---@param fields? PerksSkillLabelController
 ---@return PerksSkillLabelController
 function PerksSkillLabelController.new(fields) return end
 

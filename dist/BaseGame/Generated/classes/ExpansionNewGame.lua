@@ -23,7 +23,7 @@
 ---@field private isInputLocked Bool
 ExpansionNewGame = {}
 
----@param fields? table
+---@param fields? ExpansionNewGame
 ---@return ExpansionNewGame
 function ExpansionNewGame.new(fields) return end
 

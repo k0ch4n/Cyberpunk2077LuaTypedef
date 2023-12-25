@@ -4,7 +4,7 @@
 ---@class gamedataRoachRacePowerUpList_Record: gamedataTweakDBRecord
 gamedataRoachRacePowerUpList_Record = {}
 
----@param fields? table
+---@param fields? gamedataRoachRacePowerUpList_Record
 ---@return gamedataRoachRacePowerUpList_Record
 function gamedataRoachRacePowerUpList_Record.new(fields) return end
 

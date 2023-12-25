@@ -6,6 +6,6 @@
 ---@field public slotIndex Int32
 AssignToCyberwareWheelRequest = {}
 
----@param fields? table
+---@param fields? AssignToCyberwareWheelRequest
 ---@return AssignToCyberwareWheelRequest
 function AssignToCyberwareWheelRequest.new(fields) return end

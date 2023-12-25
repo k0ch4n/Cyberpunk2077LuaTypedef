@@ -68,6 +68,6 @@
 ---@field public gridCellDisabledSymbol String
 gameuiHackingMinigameLogicController = {}
 
----@param fields? table
+---@param fields? gameuiHackingMinigameLogicController
 ---@return gameuiHackingMinigameLogicController
 function gameuiHackingMinigameLogicController.new(fields) return end

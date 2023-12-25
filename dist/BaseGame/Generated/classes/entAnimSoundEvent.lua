@@ -5,6 +5,6 @@
 ---@field public metadataContext CName
 entAnimSoundEvent = {}
 
----@param fields? table
+---@param fields? entAnimSoundEvent
 ---@return entAnimSoundEvent
 function entAnimSoundEvent.new(fields) return end

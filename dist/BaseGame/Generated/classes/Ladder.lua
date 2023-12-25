@@ -4,7 +4,7 @@
 ---@class Ladder: InteractiveDevice
 Ladder = {}
 
----@param fields? table
+---@param fields? Ladder
 ---@return Ladder
 function Ladder.new(fields) return end
 

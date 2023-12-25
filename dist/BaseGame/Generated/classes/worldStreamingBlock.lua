@@ -6,6 +6,6 @@
 ---@field public index worldStreamingBlockIndex
 worldStreamingBlock = {}
 
----@param fields? table
+---@param fields? worldStreamingBlock
 ---@return worldStreamingBlock
 function worldStreamingBlock.new(fields) return end

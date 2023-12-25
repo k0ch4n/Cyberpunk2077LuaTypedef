@@ -9,7 +9,7 @@
 ---@field protected actionData ResolveActionData
 DeviceWidgetControllerBase = {}
 
----@param fields? table
+---@param fields? DeviceWidgetControllerBase
 ---@return DeviceWidgetControllerBase
 function DeviceWidgetControllerBase.new(fields) return end
 

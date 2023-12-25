@@ -19,6 +19,6 @@
 ---@field public weightNode animFloatLink
 animAnimNode_DirectConnConstraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_DirectConnConstraint
 ---@return animAnimNode_DirectConnConstraint
 function animAnimNode_DirectConnConstraint.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public activeIndex Int32
 gameSEquipArea = {}
 
----@param fields? table
+---@param fields? gameSEquipArea
 ---@return gameSEquipArea
 function gameSEquipArea.new(fields) return end

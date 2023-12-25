@@ -9,7 +9,7 @@
 ---@field protected name CName
 PSD_DetectorPS = {}
 
----@param fields? table
+---@param fields? PSD_DetectorPS
 ---@return PSD_DetectorPS
 function PSD_DetectorPS.new(fields) return end
 

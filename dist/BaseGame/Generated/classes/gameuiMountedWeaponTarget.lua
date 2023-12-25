@@ -6,6 +6,6 @@
 ---@field public targetLocation Vector4
 gameuiMountedWeaponTarget = {}
 
----@param fields? table
+---@param fields? gameuiMountedWeaponTarget
 ---@return gameuiMountedWeaponTarget
 function gameuiMountedWeaponTarget.new(fields) return end

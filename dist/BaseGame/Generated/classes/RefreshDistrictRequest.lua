@@ -5,6 +5,6 @@
 ---@field public preventionPreset gamedataDistrictPreventionData_Record
 RefreshDistrictRequest = {}
 
----@param fields? table
+---@param fields? RefreshDistrictRequest
 ---@return RefreshDistrictRequest
 function RefreshDistrictRequest.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public isManuallySet Bool
 DEBUG_IconErrorInfo = {}
 
----@param fields? table
+---@param fields? DEBUG_IconErrorInfo
 ---@return DEBUG_IconErrorInfo
 function DEBUG_IconErrorInfo.new(fields) return end

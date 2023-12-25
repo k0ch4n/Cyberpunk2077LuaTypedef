@@ -24,6 +24,6 @@
 ---@field public angleToPlayer Float
 animAnimFeature_Crowd = {}
 
----@param fields? table
+---@param fields? animAnimFeature_Crowd
 ---@return animAnimFeature_Crowd
 function animAnimFeature_Crowd.new(fields) return end

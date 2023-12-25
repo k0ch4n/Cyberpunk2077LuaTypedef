@@ -4,6 +4,6 @@
 ---@class TriggerPlayerAreaCheck: redEvent
 TriggerPlayerAreaCheck = {}
 
----@param fields? table
+---@param fields? TriggerPlayerAreaCheck
 ---@return TriggerPlayerAreaCheck
 function TriggerPlayerAreaCheck.new(fields) return end

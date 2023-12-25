@@ -7,6 +7,6 @@
 ---@field public nextCallId Uint32
 gameDelayedFunctionsScheduler = {}
 
----@param fields? table
+---@param fields? gameDelayedFunctionsScheduler
 ---@return gameDelayedFunctionsScheduler
 function gameDelayedFunctionsScheduler.new(fields) return end

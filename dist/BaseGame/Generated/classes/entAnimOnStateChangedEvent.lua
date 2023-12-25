@@ -4,6 +4,6 @@
 ---@class entAnimOnStateChangedEvent: redEvent
 entAnimOnStateChangedEvent = {}
 
----@param fields? table
+---@param fields? entAnimOnStateChangedEvent
 ---@return entAnimOnStateChangedEvent
 function entAnimOnStateChangedEvent.new(fields) return end

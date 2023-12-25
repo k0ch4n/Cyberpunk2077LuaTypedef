@@ -9,6 +9,6 @@
 ---@field public step Float
 gameuiSetupScrollBarForAttributeEvent = {}
 
----@param fields? table
+---@param fields? gameuiSetupScrollBarForAttributeEvent
 ---@return gameuiSetupScrollBarForAttributeEvent
 function gameuiSetupScrollBarForAttributeEvent.new(fields) return end

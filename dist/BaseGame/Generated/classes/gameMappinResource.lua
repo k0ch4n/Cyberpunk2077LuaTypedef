@@ -7,6 +7,6 @@
 ---@field public cookedGpsData gameCookedGpsMappinData[]
 gameMappinResource = {}
 
----@param fields? table
+---@param fields? gameMappinResource
 ---@return gameMappinResource
 function gameMappinResource.new(fields) return end

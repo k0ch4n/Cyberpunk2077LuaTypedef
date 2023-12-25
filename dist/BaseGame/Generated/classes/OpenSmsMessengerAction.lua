@@ -6,7 +6,7 @@
 ---@field public journalEntry gameJournalEntry
 OpenSmsMessengerAction = {}
 
----@param fields? table
+---@param fields? OpenSmsMessengerAction
 ---@return OpenSmsMessengerAction
 function OpenSmsMessengerAction.new(fields) return end
 

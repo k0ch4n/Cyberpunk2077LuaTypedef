@@ -4,7 +4,7 @@
 ---@class MenuScenario_E3EndMenu: MenuScenario_BaseMenu
 MenuScenario_E3EndMenu = {}
 
----@param fields? table
+---@param fields? MenuScenario_E3EndMenu
 ---@return MenuScenario_E3EndMenu
 function MenuScenario_E3EndMenu.new(fields) return end
 

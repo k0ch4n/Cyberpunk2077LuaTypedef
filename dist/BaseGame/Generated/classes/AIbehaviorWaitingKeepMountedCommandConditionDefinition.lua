@@ -4,6 +4,6 @@
 ---@class AIbehaviorWaitingKeepMountedCommandConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitingKeepMountedCommandConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorWaitingKeepMountedCommandConditionDefinition
 ---@return AIbehaviorWaitingKeepMountedCommandConditionDefinition
 function AIbehaviorWaitingKeepMountedCommandConditionDefinition.new(fields) return end

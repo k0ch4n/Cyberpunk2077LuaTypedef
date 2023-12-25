@@ -4,7 +4,7 @@
 ---@class gamedataVehicleSurfaceType_Record: gamedataTweakDBRecord
 gamedataVehicleSurfaceType_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleSurfaceType_Record
 ---@return gamedataVehicleSurfaceType_Record
 function gamedataVehicleSurfaceType_Record.new(fields) return end
 

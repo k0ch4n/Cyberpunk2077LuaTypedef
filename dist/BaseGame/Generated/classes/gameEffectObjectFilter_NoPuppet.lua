@@ -4,6 +4,6 @@
 ---@class gameEffectObjectFilter_NoPuppet: gameEffectObjectGroupFilter
 gameEffectObjectFilter_NoPuppet = {}
 
----@param fields? table
+---@param fields? gameEffectObjectFilter_NoPuppet
 ---@return gameEffectObjectFilter_NoPuppet
 function gameEffectObjectFilter_NoPuppet.new(fields) return end

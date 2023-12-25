@@ -5,6 +5,6 @@
 ---@field public force Bool
 RefreshCrosshairEvent = {}
 
----@param fields? table
+---@param fields? RefreshCrosshairEvent
 ---@return RefreshCrosshairEvent
 function RefreshCrosshairEvent.new(fields) return end

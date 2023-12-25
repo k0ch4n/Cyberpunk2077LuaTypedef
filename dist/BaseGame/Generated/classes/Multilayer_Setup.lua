@@ -7,6 +7,6 @@
 ---@field public useNormal Bool
 Multilayer_Setup = {}
 
----@param fields? table
+---@param fields? Multilayer_Setup
 ---@return Multilayer_Setup
 function Multilayer_Setup.new(fields) return end

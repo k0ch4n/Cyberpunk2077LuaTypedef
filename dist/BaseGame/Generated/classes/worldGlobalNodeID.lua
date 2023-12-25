@@ -5,7 +5,7 @@
 ---@field public hash Uint64
 worldGlobalNodeID = {}
 
----@param fields? table
+---@param fields? worldGlobalNodeID
 ---@return worldGlobalNodeID
 function worldGlobalNodeID.new(fields) return end
 

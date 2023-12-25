@@ -5,6 +5,6 @@
 ---@field public item TweakDBID
 workUnequipItemAction = {}
 
----@param fields? table
+---@param fields? workUnequipItemAction
 ---@return workUnequipItemAction
 function workUnequipItemAction.new(fields) return end

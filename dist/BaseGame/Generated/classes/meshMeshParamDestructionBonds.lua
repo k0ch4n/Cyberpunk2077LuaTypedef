@@ -5,6 +5,6 @@
 ---@field public bonds meshDestructionBond[]
 meshMeshParamDestructionBonds = {}
 
----@param fields? table
+---@param fields? meshMeshParamDestructionBonds
 ---@return meshMeshParamDestructionBonds
 function meshMeshParamDestructionBonds.new(fields) return end

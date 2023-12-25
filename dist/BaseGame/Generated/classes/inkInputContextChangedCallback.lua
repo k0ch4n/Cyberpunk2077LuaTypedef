@@ -4,6 +4,6 @@
 ---@class inkInputContextChangedCallback: inkCallbackBase
 inkInputContextChangedCallback = {}
 
----@param fields? table
+---@param fields? inkInputContextChangedCallback
 ---@return inkInputContextChangedCallback
 function inkInputContextChangedCallback.new(fields) return end

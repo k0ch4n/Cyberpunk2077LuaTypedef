@@ -7,6 +7,6 @@
 ---@field public value Int32
 audioAudioSceneVariableReadActionData = {}
 
----@param fields? table
+---@param fields? audioAudioSceneVariableReadActionData
 ---@return audioAudioSceneVariableReadActionData
 function audioAudioSceneVariableReadActionData.new(fields) return end

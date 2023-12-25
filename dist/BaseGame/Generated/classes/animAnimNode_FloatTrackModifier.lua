@@ -9,6 +9,6 @@
 ---@field public floatInputNode animFloatLink
 animAnimNode_FloatTrackModifier = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatTrackModifier
 ---@return animAnimNode_FloatTrackModifier
 function animAnimNode_FloatTrackModifier.new(fields) return end

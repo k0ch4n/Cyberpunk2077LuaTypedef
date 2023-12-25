@@ -6,6 +6,6 @@
 ---@field public globalLight worldWorldGlobalLightParameters
 worldWorldEnvironmentAreaParameters = {}
 
----@param fields? table
+---@param fields? worldWorldEnvironmentAreaParameters
 ---@return worldWorldEnvironmentAreaParameters
 function worldWorldEnvironmentAreaParameters.new(fields) return end

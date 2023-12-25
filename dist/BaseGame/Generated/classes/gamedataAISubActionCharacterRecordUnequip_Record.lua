@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionCharacterRecordUnequip_Record: gamedataAISubAction_Record
 gamedataAISubActionCharacterRecordUnequip_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionCharacterRecordUnequip_Record
 ---@return gamedataAISubActionCharacterRecordUnequip_Record
 function gamedataAISubActionCharacterRecordUnequip_Record.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class workIScriptedCondition: IScriptable
 workIScriptedCondition = {}
 
----@param fields? table
+---@param fields? workIScriptedCondition
 ---@return workIScriptedCondition
 function workIScriptedCondition.new(fields) return end
 

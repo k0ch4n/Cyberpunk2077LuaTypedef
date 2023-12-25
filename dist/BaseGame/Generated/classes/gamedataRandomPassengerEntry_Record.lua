@@ -4,7 +4,7 @@
 ---@class gamedataRandomPassengerEntry_Record: gamedataTweakDBRecord
 gamedataRandomPassengerEntry_Record = {}
 
----@param fields? table
+---@param fields? gamedataRandomPassengerEntry_Record
 ---@return gamedataRandomPassengerEntry_Record
 function gamedataRandomPassengerEntry_Record.new(fields) return end
 

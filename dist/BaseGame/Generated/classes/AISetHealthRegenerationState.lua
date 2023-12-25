@@ -5,7 +5,7 @@
 ---@field public healthRegeneration Bool
 AISetHealthRegenerationState = {}
 
----@param fields? table
+---@param fields? AISetHealthRegenerationState
 ---@return AISetHealthRegenerationState
 function AISetHealthRegenerationState.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public CodexUpdated gamebbScriptID_Variant
 UI_CodexSystemDef = {}
 
----@param fields? table
+---@param fields? UI_CodexSystemDef
 ---@return UI_CodexSystemDef
 function UI_CodexSystemDef.new(fields) return end
 

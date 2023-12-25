@@ -16,7 +16,7 @@
 ---@field private LineOnOpacity Float
 NcartMetroMapController = {}
 
----@param fields? table
+---@param fields? NcartMetroMapController
 ---@return NcartMetroMapController
 function NcartMetroMapController.new(fields) return end
 

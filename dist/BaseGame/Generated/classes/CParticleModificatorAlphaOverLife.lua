@@ -6,6 +6,6 @@
 ---@field public modulate Bool
 CParticleModificatorAlphaOverLife = {}
 
----@param fields? table
+---@param fields? CParticleModificatorAlphaOverLife
 ---@return CParticleModificatorAlphaOverLife
 function CParticleModificatorAlphaOverLife.new(fields) return end

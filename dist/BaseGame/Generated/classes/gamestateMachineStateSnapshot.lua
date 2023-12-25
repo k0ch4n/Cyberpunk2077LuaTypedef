@@ -10,6 +10,6 @@
 ---@field public transitionJustHappened Bool
 gamestateMachineStateSnapshot = {}
 
----@param fields? table
+---@param fields? gamestateMachineStateSnapshot
 ---@return gamestateMachineStateSnapshot
 function gamestateMachineStateSnapshot.new(fields) return end

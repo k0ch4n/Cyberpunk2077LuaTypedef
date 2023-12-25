@@ -8,6 +8,6 @@
 ---@field public stretchLimit Float
 physicsclothPhaseConfig = {}
 
----@param fields? table
+---@param fields? physicsclothPhaseConfig
 ---@return physicsclothPhaseConfig
 function physicsclothPhaseConfig.new(fields) return end

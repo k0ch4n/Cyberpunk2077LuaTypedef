@@ -15,6 +15,6 @@
 ---@field public enterOffset Float
 gamestateMachineparameterTypeLadderDescription = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeLadderDescription
 ---@return gamestateMachineparameterTypeLadderDescription
 function gamestateMachineparameterTypeLadderDescription.new(fields) return end

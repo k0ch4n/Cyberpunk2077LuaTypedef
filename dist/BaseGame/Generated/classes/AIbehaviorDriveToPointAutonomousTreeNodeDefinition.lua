@@ -11,6 +11,6 @@
 ---@field public driveDownTheRoadIndefinitely AIArgumentMapping
 AIbehaviorDriveToPointAutonomousTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorDriveToPointAutonomousTreeNodeDefinition
 ---@return AIbehaviorDriveToPointAutonomousTreeNodeDefinition
 function AIbehaviorDriveToPointAutonomousTreeNodeDefinition.new(fields) return end

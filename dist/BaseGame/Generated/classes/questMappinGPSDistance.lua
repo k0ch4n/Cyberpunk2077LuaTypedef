@@ -5,6 +5,6 @@
 ---@field public mappinPath gameJournalPath
 questMappinGPSDistance = {}
 
----@param fields? table
+---@param fields? questMappinGPSDistance
 ---@return questMappinGPSDistance
 function questMappinGPSDistance.new(fields) return end

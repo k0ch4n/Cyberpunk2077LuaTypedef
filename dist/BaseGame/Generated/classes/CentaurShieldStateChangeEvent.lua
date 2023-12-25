@@ -5,6 +5,6 @@
 ---@field public newState ECentaurShieldState
 CentaurShieldStateChangeEvent = {}
 
----@param fields? table
+---@param fields? CentaurShieldStateChangeEvent
 ---@return CentaurShieldStateChangeEvent
 function CentaurShieldStateChangeEvent.new(fields) return end

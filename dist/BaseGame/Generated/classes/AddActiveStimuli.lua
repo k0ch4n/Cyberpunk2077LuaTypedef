@@ -6,7 +6,7 @@
 ---@field public lifetime Float
 AddActiveStimuli = {}
 
----@param fields? table
+---@param fields? AddActiveStimuli
 ---@return AddActiveStimuli
 function AddActiveStimuli.new(fields) return end
 

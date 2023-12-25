@@ -4,7 +4,7 @@
 ---@class BasicDistractionDeviceController: ScriptableDeviceComponent
 BasicDistractionDeviceController = {}
 
----@param fields? table
+---@param fields? BasicDistractionDeviceController
 ---@return BasicDistractionDeviceController
 function BasicDistractionDeviceController.new(fields) return end
 

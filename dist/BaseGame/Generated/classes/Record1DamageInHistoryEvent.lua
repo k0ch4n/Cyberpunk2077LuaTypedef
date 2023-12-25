@@ -5,6 +5,6 @@
 ---@field public source gameObject
 Record1DamageInHistoryEvent = {}
 
----@param fields? table
+---@param fields? Record1DamageInHistoryEvent
 ---@return Record1DamageInHistoryEvent
 function Record1DamageInHistoryEvent.new(fields) return end

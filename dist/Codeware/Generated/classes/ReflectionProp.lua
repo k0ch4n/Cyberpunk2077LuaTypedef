@@ -4,7 +4,7 @@
 ---@class ReflectionProp: IScriptable
 ReflectionProp = {}
 
----@param fields? table
+---@param fields? ReflectionProp
 ---@return ReflectionProp
 function ReflectionProp.new(fields) return end
 

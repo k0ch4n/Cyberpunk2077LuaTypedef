@@ -5,7 +5,7 @@
 ---@field public valueToListen gamedataNPCUpperBodyState
 UpperBodyNPCStatePrereq = {}
 
----@param fields? table
+---@param fields? UpperBodyNPCStatePrereq
 ---@return UpperBodyNPCStatePrereq
 function UpperBodyNPCStatePrereq.new(fields) return end
 

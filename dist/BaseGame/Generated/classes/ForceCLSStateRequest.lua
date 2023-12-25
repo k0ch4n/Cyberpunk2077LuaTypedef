@@ -9,7 +9,7 @@
 ---@field public savable Bool
 ForceCLSStateRequest = {}
 
----@param fields? table
+---@param fields? ForceCLSStateRequest
 ---@return ForceCLSStateRequest
 function ForceCLSStateRequest.new(fields) return end
 

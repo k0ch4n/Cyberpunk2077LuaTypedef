@@ -8,6 +8,6 @@
 ---@field public reevaluateOnExecution Bool
 AICTreeNodeConditionDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeConditionDefinition
 ---@return AICTreeNodeConditionDefinition
 function AICTreeNodeConditionDefinition.new(fields) return end

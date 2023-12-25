@@ -6,6 +6,6 @@
 ---@field public worldNormal Vector4
 physicsControllerHit = {}
 
----@param fields? table
+---@param fields? physicsControllerHit
 ---@return physicsControllerHit
 function physicsControllerHit.new(fields) return end

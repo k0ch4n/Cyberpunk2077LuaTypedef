@@ -7,7 +7,7 @@
 ---@field public outTransitionSpeed Float
 entLookAtRemoveEvent = {}
 
----@param fields? table
+---@param fields? entLookAtRemoveEvent
 ---@return entLookAtRemoveEvent
 function entLookAtRemoveEvent.new(fields) return end
 

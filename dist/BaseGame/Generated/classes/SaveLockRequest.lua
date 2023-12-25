@@ -6,6 +6,6 @@
 ---@field public reason CName
 SaveLockRequest = {}
 
----@param fields? table
+---@param fields? SaveLockRequest
 ---@return SaveLockRequest
 function SaveLockRequest.new(fields) return end

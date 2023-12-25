@@ -5,6 +5,6 @@
 ---@field public rotationAdjustment Float
 questSetPlayerMinimapIconRotationAdjustment_NodeType = {}
 
----@param fields? table
+---@param fields? questSetPlayerMinimapIconRotationAdjustment_NodeType
 ---@return questSetPlayerMinimapIconRotationAdjustment_NodeType
 function questSetPlayerMinimapIconRotationAdjustment_NodeType.new(fields) return end

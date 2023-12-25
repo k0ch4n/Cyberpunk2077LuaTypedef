@@ -7,7 +7,7 @@
 ---@field public source String
 VehicleDoorInteractionStateChange = {}
 
----@param fields? table
+---@param fields? VehicleDoorInteractionStateChange
 ---@return VehicleDoorInteractionStateChange
 function VehicleDoorInteractionStateChange.new(fields) return end
 

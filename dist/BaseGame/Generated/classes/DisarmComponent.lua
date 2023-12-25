@@ -7,7 +7,7 @@
 ---@field public requester gameObject
 DisarmComponent = {}
 
----@param fields? table
+---@param fields? DisarmComponent
 ---@return DisarmComponent
 function DisarmComponent.new(fields) return end
 

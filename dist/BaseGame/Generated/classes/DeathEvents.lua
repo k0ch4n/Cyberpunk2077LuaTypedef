@@ -5,7 +5,7 @@
 ---@field protected isDyingEffectPlaying Bool
 DeathEvents = {}
 
----@param fields? table
+---@param fields? DeathEvents
 ---@return DeathEvents
 function DeathEvents.new(fields) return end
 

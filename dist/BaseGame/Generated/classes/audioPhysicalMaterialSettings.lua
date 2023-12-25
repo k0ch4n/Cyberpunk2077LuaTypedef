@@ -22,6 +22,6 @@
 ---@field public bulletImpactNpcRail CName
 audioPhysicalMaterialSettings = {}
 
----@param fields? table
+---@param fields? audioPhysicalMaterialSettings
 ---@return audioPhysicalMaterialSettings
 function audioPhysicalMaterialSettings.new(fields) return end

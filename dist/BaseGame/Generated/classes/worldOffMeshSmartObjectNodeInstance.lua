@@ -4,6 +4,6 @@
 ---@class worldOffMeshSmartObjectNodeInstance: worldOffMeshConnectionNodeInstance
 worldOffMeshSmartObjectNodeInstance = {}
 
----@param fields? table
+---@param fields? worldOffMeshSmartObjectNodeInstance
 ---@return worldOffMeshSmartObjectNodeInstance
 function worldOffMeshSmartObjectNodeInstance.new(fields) return end

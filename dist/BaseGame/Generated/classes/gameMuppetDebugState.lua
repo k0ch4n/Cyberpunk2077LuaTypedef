@@ -7,6 +7,6 @@
 ---@field public subStepsData gameMuppetSubStepData[]
 gameMuppetDebugState = {}
 
----@param fields? table
+---@param fields? gameMuppetDebugState
 ---@return gameMuppetDebugState
 function gameMuppetDebugState.new(fields) return end

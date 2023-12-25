@@ -9,6 +9,6 @@
 ---@field public movementSpeedScale curveData
 HeatHazeAreaSettings = {}
 
----@param fields? table
+---@param fields? HeatHazeAreaSettings
 ---@return HeatHazeAreaSettings
 function HeatHazeAreaSettings.new(fields) return end

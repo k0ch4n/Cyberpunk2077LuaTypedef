@@ -8,6 +8,6 @@
 ---@field public isEnemy Bool
 AINewThreat = {}
 
----@param fields? table
+---@param fields? AINewThreat
 ---@return AINewThreat
 function AINewThreat.new(fields) return end

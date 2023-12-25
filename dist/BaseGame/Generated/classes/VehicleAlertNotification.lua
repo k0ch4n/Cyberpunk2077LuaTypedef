@@ -7,7 +7,7 @@
 ---@field private ZoneLabelText inkTextWidgetReference
 VehicleAlertNotification = {}
 
----@param fields? table
+---@param fields? VehicleAlertNotification
 ---@return VehicleAlertNotification
 function VehicleAlertNotification.new(fields) return end
 

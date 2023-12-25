@@ -16,6 +16,6 @@
 ---@field public lightChannels rendLightChannel
 worldStaticFogVolumeNode = {}
 
----@param fields? table
+---@param fields? worldStaticFogVolumeNode
 ---@return worldStaticFogVolumeNode
 function worldStaticFogVolumeNode.new(fields) return end

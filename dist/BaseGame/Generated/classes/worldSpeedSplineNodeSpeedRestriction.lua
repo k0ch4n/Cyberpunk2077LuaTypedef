@@ -7,6 +7,6 @@
 ---@field public adjustTime Float
 worldSpeedSplineNodeSpeedRestriction = {}
 
----@param fields? table
+---@param fields? worldSpeedSplineNodeSpeedRestriction
 ---@return worldSpeedSplineNodeSpeedRestriction
 function worldSpeedSplineNodeSpeedRestriction.new(fields) return end

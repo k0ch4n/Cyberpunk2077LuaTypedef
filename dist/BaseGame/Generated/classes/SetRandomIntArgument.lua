@@ -7,7 +7,7 @@
 ---@field public ArgumentName CName
 SetRandomIntArgument = {}
 
----@param fields? table
+---@param fields? SetRandomIntArgument
 ---@return SetRandomIntArgument
 function SetRandomIntArgument.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public stateId CName
 gameMuppetStateMachineSnapshot = {}
 
----@param fields? table
+---@param fields? gameMuppetStateMachineSnapshot
 ---@return gameMuppetStateMachineSnapshot
 function gameMuppetStateMachineSnapshot.new(fields) return end

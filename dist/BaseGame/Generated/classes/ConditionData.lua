@@ -6,6 +6,6 @@
 ---@field public requirementList Condition[]
 ConditionData = {}
 
----@param fields? table
+---@param fields? ConditionData
 ---@return ConditionData
 function ConditionData.new(fields) return end

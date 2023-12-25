@@ -5,7 +5,7 @@
 ---@field private armorMultiplier Float
 WeirdTankyPlatingEffector = {}
 
----@param fields? table
+---@param fields? WeirdTankyPlatingEffector
 ---@return WeirdTankyPlatingEffector
 function WeirdTankyPlatingEffector.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameNarrationPlateBlackboardUpdater: ISerializable
 gameNarrationPlateBlackboardUpdater = {}
 
----@param fields? table
+---@param fields? gameNarrationPlateBlackboardUpdater
 ---@return gameNarrationPlateBlackboardUpdater
 function gameNarrationPlateBlackboardUpdater.new(fields) return end

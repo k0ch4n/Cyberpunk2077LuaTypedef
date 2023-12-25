@@ -5,6 +5,6 @@
 ---@field public itemID gameItemID
 UIScriptableSystemWardrobeAddItem = {}
 
----@param fields? table
+---@param fields? UIScriptableSystemWardrobeAddItem
 ---@return UIScriptableSystemWardrobeAddItem
 function UIScriptableSystemWardrobeAddItem.new(fields) return end

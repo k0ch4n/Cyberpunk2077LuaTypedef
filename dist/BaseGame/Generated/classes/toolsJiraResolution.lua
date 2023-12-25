@@ -6,6 +6,6 @@
 ---@field public id String
 toolsJiraResolution = {}
 
----@param fields? table
+---@param fields? toolsJiraResolution
 ---@return toolsJiraResolution
 function toolsJiraResolution.new(fields) return end

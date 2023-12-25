@@ -4,6 +4,6 @@
 ---@class worlduiAdvertisementWidgetComponentWrapper: inkIAdvertisementWidgetComponentWrapper
 worlduiAdvertisementWidgetComponentWrapper = {}
 
----@param fields? table
+---@param fields? worlduiAdvertisementWidgetComponentWrapper
 ---@return worlduiAdvertisementWidgetComponentWrapper
 function worlduiAdvertisementWidgetComponentWrapper.new(fields) return end

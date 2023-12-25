@@ -9,6 +9,6 @@
 ---@field public to entEntityID
 NetworkLinkQuickhackEvent = {}
 
----@param fields? table
+---@param fields? NetworkLinkQuickhackEvent
 ---@return NetworkLinkQuickhackEvent
 function NetworkLinkQuickhackEvent.new(fields) return end

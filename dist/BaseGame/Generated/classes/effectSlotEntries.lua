@@ -6,6 +6,6 @@
 ---@field public slots effectSlotEntry[]
 effectSlotEntries = {}
 
----@param fields? table
+---@param fields? effectSlotEntries
 ---@return effectSlotEntries
 function effectSlotEntries.new(fields) return end

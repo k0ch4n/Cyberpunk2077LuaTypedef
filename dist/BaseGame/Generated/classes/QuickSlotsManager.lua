@@ -25,7 +25,7 @@
 ---@field private OnVehPlayerStateDataChangedCallback redCallbackObject
 QuickSlotsManager = {}
 
----@param fields? table
+---@param fields? QuickSlotsManager
 ---@return QuickSlotsManager
 function QuickSlotsManager.new(fields) return end
 

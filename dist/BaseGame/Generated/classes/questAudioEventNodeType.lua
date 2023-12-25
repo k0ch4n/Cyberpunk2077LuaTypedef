@@ -15,6 +15,6 @@
 ---@field public isPlayer Bool
 questAudioEventNodeType = {}
 
----@param fields? table
+---@param fields? questAudioEventNodeType
 ---@return questAudioEventNodeType
 function questAudioEventNodeType.new(fields) return end

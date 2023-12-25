@@ -6,6 +6,6 @@
 ---@field public style TweakDBID
 SUIScreenDefinition = {}
 
----@param fields? table
+---@param fields? SUIScreenDefinition
 ---@return SUIScreenDefinition
 function SUIScreenDefinition.new(fields) return end

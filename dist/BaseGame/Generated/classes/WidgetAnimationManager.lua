@@ -5,7 +5,7 @@
 ---@field private animations SWidgetAnimationData[]
 WidgetAnimationManager = {}
 
----@param fields? table
+---@param fields? WidgetAnimationManager
 ---@return WidgetAnimationManager
 function WidgetAnimationManager.new(fields) return end
 

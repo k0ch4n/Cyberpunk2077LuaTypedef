@@ -9,7 +9,7 @@
 ---@field private rootRef inkCompoundWidget
 FilterRadioGroup = {}
 
----@param fields? table
+---@param fields? FilterRadioGroup
 ---@return FilterRadioGroup
 function FilterRadioGroup.new(fields) return end
 

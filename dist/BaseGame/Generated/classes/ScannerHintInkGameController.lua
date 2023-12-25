@@ -10,7 +10,7 @@
 ---@field private OnVisionModeChangedCallback redCallbackObject
 ScannerHintInkGameController = {}
 
----@param fields? table
+---@param fields? ScannerHintInkGameController
 ---@return ScannerHintInkGameController
 function ScannerHintInkGameController.new(fields) return end
 

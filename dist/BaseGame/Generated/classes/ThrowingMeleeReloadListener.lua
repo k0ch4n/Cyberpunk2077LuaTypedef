@@ -5,7 +5,7 @@
 ---@field private melee MeleeProjectile
 ThrowingMeleeReloadListener = {}
 
----@param fields? table
+---@param fields? ThrowingMeleeReloadListener
 ---@return ThrowingMeleeReloadListener
 function ThrowingMeleeReloadListener.new(fields) return end
 

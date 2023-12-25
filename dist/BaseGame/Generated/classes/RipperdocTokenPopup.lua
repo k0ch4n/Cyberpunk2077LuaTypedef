@@ -59,7 +59,7 @@
 ---@field private inputListenersRegistered Bool
 RipperdocTokenPopup = {}
 
----@param fields? table
+---@param fields? RipperdocTokenPopup
 ---@return RipperdocTokenPopup
 function RipperdocTokenPopup.new(fields) return end
 

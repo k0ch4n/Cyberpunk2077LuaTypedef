@@ -9,6 +9,6 @@
 ---@field public textLocKey_Scarlett CName
 inkPlatformSpecificTextController = {}
 
----@param fields? table
+---@param fields? inkPlatformSpecificTextController
 ---@return inkPlatformSpecificTextController
 function inkPlatformSpecificTextController.new(fields) return end

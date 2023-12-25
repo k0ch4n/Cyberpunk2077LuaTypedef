@@ -14,7 +14,7 @@
 ---@field private precisionEpsilon Float
 AltimeterController = {}
 
----@param fields? table
+---@param fields? AltimeterController
 ---@return AltimeterController
 function AltimeterController.new(fields) return end
 

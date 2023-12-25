@@ -12,6 +12,6 @@
 ---@field public mask ERenderObjectType[]
 effectTrackItemColorGrade = {}
 
----@param fields? table
+---@param fields? effectTrackItemColorGrade
 ---@return effectTrackItemColorGrade
 function effectTrackItemColorGrade.new(fields) return end

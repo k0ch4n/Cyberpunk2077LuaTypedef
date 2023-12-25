@@ -6,6 +6,6 @@
 ---@field public audioMaterialCoeff Float
 audioVehicleWheelMaterialsMapItem = {}
 
----@param fields? table
+---@param fields? audioVehicleWheelMaterialsMapItem
 ---@return audioVehicleWheelMaterialsMapItem
 function audioVehicleWheelMaterialsMapItem.new(fields) return end

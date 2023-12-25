@@ -5,7 +5,7 @@
 ---@field public baseTweakID TweakDBID
 inkTweakDBIDSelector = {}
 
----@param fields? table
+---@param fields? inkTweakDBIDSelector
 ---@return inkTweakDBIDSelector
 function inkTweakDBIDSelector.new(fields) return end
 

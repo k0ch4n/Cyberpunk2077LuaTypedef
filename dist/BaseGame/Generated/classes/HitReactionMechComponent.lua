@@ -4,7 +4,7 @@
 ---@class HitReactionMechComponent: HitReactionComponent
 HitReactionMechComponent = {}
 
----@param fields? table
+---@param fields? HitReactionMechComponent
 ---@return HitReactionMechComponent
 function HitReactionMechComponent.new(fields) return end
 

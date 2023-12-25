@@ -15,6 +15,6 @@
 ---@field public disableRandomExit Bool
 workExitAnim = {}
 
----@param fields? table
+---@param fields? workExitAnim
 ---@return workExitAnim
 function workExitAnim.new(fields) return end

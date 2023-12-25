@@ -5,7 +5,7 @@
 ---@field private labelHighlight inkTextWidgetReference
 SettingsCategoryItem = {}
 
----@param fields? table
+---@param fields? SettingsCategoryItem
 ---@return SettingsCategoryItem
 function SettingsCategoryItem.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class WeaponStateMachinePrereq: gameIScriptablePrereq
 WeaponStateMachinePrereq = {}
 
----@param fields? table
+---@param fields? WeaponStateMachinePrereq
 ---@return WeaponStateMachinePrereq
 function WeaponStateMachinePrereq.new(fields) return end

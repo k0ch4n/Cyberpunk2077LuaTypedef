@@ -15,6 +15,6 @@
 ---@field public visionBlockerCoefficient Float
 TimeBetweenHitsParameters = {}
 
----@param fields? table
+---@param fields? TimeBetweenHitsParameters
 ---@return TimeBetweenHitsParameters
 function TimeBetweenHitsParameters.new(fields) return end

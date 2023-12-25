@@ -55,7 +55,7 @@
 ---@field private VisionStateBlackboardId redCallbackObject
 scannerBorderGameController = {}
 
----@param fields? table
+---@param fields? scannerBorderGameController
 ---@return scannerBorderGameController
 function scannerBorderGameController.new(fields) return end
 

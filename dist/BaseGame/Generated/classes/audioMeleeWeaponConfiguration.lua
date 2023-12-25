@@ -17,6 +17,6 @@
 ---@field public meleeWeaponConfigurationsByRigTypeMap audioMeleeRigTypeMeleeWeaponConfigurationMap
 audioMeleeWeaponConfiguration = {}
 
----@param fields? table
+---@param fields? audioMeleeWeaponConfiguration
 ---@return audioMeleeWeaponConfiguration
 function audioMeleeWeaponConfiguration.new(fields) return end

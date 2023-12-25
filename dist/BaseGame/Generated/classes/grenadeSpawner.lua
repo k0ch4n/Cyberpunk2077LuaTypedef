@@ -5,6 +5,6 @@
 ---@field public isCombatGadgetActive Bool
 grenadeSpawner = {}
 
----@param fields? table
+---@param fields? grenadeSpawner
 ---@return grenadeSpawner
 function grenadeSpawner.new(fields) return end

@@ -20,7 +20,7 @@
 ---@field public endRecordingMessageSet Bool
 ControlsActiveEvents = {}
 
----@param fields? table
+---@param fields? ControlsActiveEvents
 ---@return ControlsActiveEvents
 function ControlsActiveEvents.new(fields) return end
 

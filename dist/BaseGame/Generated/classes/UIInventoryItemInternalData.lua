@@ -27,6 +27,6 @@
 ---@field public IsBroken Bool
 UIInventoryItemInternalData = {}
 
----@param fields? table
+---@param fields? UIInventoryItemInternalData
 ---@return UIInventoryItemInternalData
 function UIInventoryItemInternalData.new(fields) return end

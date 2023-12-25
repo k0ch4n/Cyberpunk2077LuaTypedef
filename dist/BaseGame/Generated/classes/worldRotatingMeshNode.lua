@@ -7,6 +7,6 @@
 ---@field public reverseDirection Bool
 worldRotatingMeshNode = {}
 
----@param fields? table
+---@param fields? worldRotatingMeshNode
 ---@return worldRotatingMeshNode
 function worldRotatingMeshNode.new(fields) return end

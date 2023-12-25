@@ -5,7 +5,7 @@
 ---@field public path Vector4[]
 worldNavigationScriptPath = {}
 
----@param fields? table
+---@param fields? worldNavigationScriptPath
 ---@return worldNavigationScriptPath
 function worldNavigationScriptPath.new(fields) return end
 

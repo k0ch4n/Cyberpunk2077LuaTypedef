@@ -14,7 +14,7 @@
 ---@field private onBootModuleListener redCallbackObject
 BackdoorInkGameController = {}
 
----@param fields? table
+---@param fields? BackdoorInkGameController
 ---@return BackdoorInkGameController
 function BackdoorInkGameController.new(fields) return end
 

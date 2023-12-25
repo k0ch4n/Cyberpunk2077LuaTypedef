@@ -14,6 +14,6 @@
 ---@field public targetSlotNameToAttachAttackerWeaponLeft CName
 gameRegular1v1FinisherScenario = {}
 
----@param fields? table
+---@param fields? gameRegular1v1FinisherScenario
 ---@return gameRegular1v1FinisherScenario
 function gameRegular1v1FinisherScenario.new(fields) return end

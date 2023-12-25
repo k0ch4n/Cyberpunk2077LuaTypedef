@@ -6,7 +6,7 @@
 ---@field protected onlyDetectsPlayer Bool
 MovableQuestTrigger = {}
 
----@param fields? table
+---@param fields? MovableQuestTrigger
 ---@return MovableQuestTrigger
 function MovableQuestTrigger.new(fields) return end
 

@@ -15,6 +15,6 @@
 ---@field public meleeMaterialType audioMeleeMaterialType
 audioAudioMaterialMetadataMapItem = {}
 
----@param fields? table
+---@param fields? audioAudioMaterialMetadataMapItem
 ---@return audioAudioMaterialMetadataMapItem
 function audioAudioMaterialMetadataMapItem.new(fields) return end

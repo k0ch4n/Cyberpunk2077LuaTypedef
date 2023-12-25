@@ -10,7 +10,7 @@
 ---@field private isBusy Bool
 WeaponVendorActionWidgetController = {}
 
----@param fields? table
+---@param fields? WeaponVendorActionWidgetController
 ---@return WeaponVendorActionWidgetController
 function WeaponVendorActionWidgetController.new(fields) return end
 

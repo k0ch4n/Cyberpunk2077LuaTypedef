@@ -9,7 +9,7 @@
 ---@field private isValidCustomDescription Bool
 ScannerDescriptionGameController = {}
 
----@param fields? table
+---@param fields? ScannerDescriptionGameController
 ---@return ScannerDescriptionGameController
 function ScannerDescriptionGameController.new(fields) return end
 

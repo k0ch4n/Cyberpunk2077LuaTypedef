@@ -6,6 +6,6 @@
 ---@field public defaultValue CName
 LibTreeDefTreeVariableCName = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableCName
 ---@return LibTreeDefTreeVariableCName
 function LibTreeDefTreeVariableCName.new(fields) return end

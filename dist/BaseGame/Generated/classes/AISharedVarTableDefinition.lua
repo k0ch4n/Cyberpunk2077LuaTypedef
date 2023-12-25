@@ -5,6 +5,6 @@
 ---@field public table AISharedVarDefinition[]
 AISharedVarTableDefinition = {}
 
----@param fields? table
+---@param fields? AISharedVarTableDefinition
 ---@return AISharedVarTableDefinition
 function AISharedVarTableDefinition.new(fields) return end

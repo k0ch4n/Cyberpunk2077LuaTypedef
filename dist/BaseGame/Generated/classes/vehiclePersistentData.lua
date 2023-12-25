@@ -4,6 +4,6 @@
 ---@class vehiclePersistentData: gameComponent
 vehiclePersistentData = {}
 
----@param fields? table
+---@param fields? vehiclePersistentData
 ---@return vehiclePersistentData
 function vehiclePersistentData.new(fields) return end

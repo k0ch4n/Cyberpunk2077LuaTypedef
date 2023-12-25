@@ -4,7 +4,7 @@
 ---@class CombatGadgetUnequipEvents: CombatGadgetTransitions
 CombatGadgetUnequipEvents = {}
 
----@param fields? table
+---@param fields? CombatGadgetUnequipEvents
 ---@return CombatGadgetUnequipEvents
 function CombatGadgetUnequipEvents.new(fields) return end
 

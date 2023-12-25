@@ -11,6 +11,6 @@
 ---@field public init CName
 audioNpcGunChoirVoice = {}
 
----@param fields? table
+---@param fields? audioNpcGunChoirVoice
 ---@return audioNpcGunChoirVoice
 function audioNpcGunChoirVoice.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public state EDoorStatus
 DoorStateOperationTriggerData = {}
 
----@param fields? table
+---@param fields? DoorStateOperationTriggerData
 ---@return DoorStateOperationTriggerData
 function DoorStateOperationTriggerData.new(fields) return end

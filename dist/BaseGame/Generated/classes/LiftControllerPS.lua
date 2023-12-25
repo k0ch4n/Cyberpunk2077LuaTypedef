@@ -20,7 +20,7 @@
 ---@field private isAdsDisabled Bool
 LiftControllerPS = {}
 
----@param fields? table
+---@param fields? LiftControllerPS
 ---@return LiftControllerPS
 function LiftControllerPS.new(fields) return end
 

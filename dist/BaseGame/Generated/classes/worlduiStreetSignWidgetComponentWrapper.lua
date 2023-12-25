@@ -4,6 +4,6 @@
 ---@class worlduiStreetSignWidgetComponentWrapper: inkIStreetSignWidgetComponentWrapper
 worlduiStreetSignWidgetComponentWrapper = {}
 
----@param fields? table
+---@param fields? worlduiStreetSignWidgetComponentWrapper
 ---@return worlduiStreetSignWidgetComponentWrapper
 function worlduiStreetSignWidgetComponentWrapper.new(fields) return end

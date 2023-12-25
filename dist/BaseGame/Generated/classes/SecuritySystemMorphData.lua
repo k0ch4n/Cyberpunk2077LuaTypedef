@@ -9,6 +9,6 @@
 ---@field public entitiesAtGate EntitiesAtGate
 SecuritySystemMorphData = {}
 
----@param fields? table
+---@param fields? SecuritySystemMorphData
 ---@return SecuritySystemMorphData
 function SecuritySystemMorphData.new(fields) return end

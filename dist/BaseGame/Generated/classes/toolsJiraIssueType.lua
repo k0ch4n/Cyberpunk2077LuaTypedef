@@ -5,6 +5,6 @@
 ---@field public name String
 toolsJiraIssueType = {}
 
----@param fields? table
+---@param fields? toolsJiraIssueType
 ---@return toolsJiraIssueType
 function toolsJiraIssueType.new(fields) return end

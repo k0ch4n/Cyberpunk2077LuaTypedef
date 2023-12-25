@@ -7,6 +7,6 @@
 ---@field public affectsNPCs Bool
 ToggleOffMeshConnections = {}
 
----@param fields? table
+---@param fields? ToggleOffMeshConnections
 ---@return ToggleOffMeshConnections
 function ToggleOffMeshConnections.new(fields) return end

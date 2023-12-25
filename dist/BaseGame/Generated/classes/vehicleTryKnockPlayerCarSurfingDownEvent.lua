@@ -5,6 +5,6 @@
 ---@field public impactPoint Vector3
 vehicleTryKnockPlayerCarSurfingDownEvent = {}
 
----@param fields? table
+---@param fields? vehicleTryKnockPlayerCarSurfingDownEvent
 ---@return vehicleTryKnockPlayerCarSurfingDownEvent
 function vehicleTryKnockPlayerCarSurfingDownEvent.new(fields) return end

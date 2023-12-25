@@ -13,7 +13,7 @@
 ---@field protected itemIcon inkImageWidgetReference
 LootingItemController = {}
 
----@param fields? table
+---@param fields? LootingItemController
 ---@return LootingItemController
 function LootingItemController.new(fields) return end
 

@@ -8,6 +8,6 @@
 ---@field public errors toolsJiraIssueFieldsResult
 toolsJiraCreateIssueResult = {}
 
----@param fields? table
+---@param fields? toolsJiraCreateIssueResult
 ---@return toolsJiraCreateIssueResult
 function toolsJiraCreateIssueResult.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class UnregisterFromZoomBlackboardEvent: redEvent
 UnregisterFromZoomBlackboardEvent = {}
 
----@param fields? table
+---@param fields? UnregisterFromZoomBlackboardEvent
 ---@return UnregisterFromZoomBlackboardEvent
 function UnregisterFromZoomBlackboardEvent.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public texture CBitmapTexture
 CTextureArrayEntry = {}
 
----@param fields? table
+---@param fields? CTextureArrayEntry
 ---@return CTextureArrayEntry
 function CTextureArrayEntry.new(fields) return end

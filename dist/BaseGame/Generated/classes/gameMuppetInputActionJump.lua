@@ -4,6 +4,6 @@
 ---@class gameMuppetInputActionJump: gameIMuppetInputAction
 gameMuppetInputActionJump = {}
 
----@param fields? table
+---@param fields? gameMuppetInputActionJump
 ---@return gameMuppetInputActionJump
 function gameMuppetInputActionJump.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class CPhysicsDecorationResource: CMesh
 CPhysicsDecorationResource = {}
 
----@param fields? table
+---@param fields? CPhysicsDecorationResource
 ---@return CPhysicsDecorationResource
 function CPhysicsDecorationResource.new(fields) return end

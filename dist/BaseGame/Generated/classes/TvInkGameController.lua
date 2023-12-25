@@ -24,7 +24,7 @@
 ---@field private onGlitchingStateChangedListener redCallbackObject
 TvInkGameController = {}
 
----@param fields? table
+---@param fields? TvInkGameController
 ---@return TvInkGameController
 function TvInkGameController.new(fields) return end
 

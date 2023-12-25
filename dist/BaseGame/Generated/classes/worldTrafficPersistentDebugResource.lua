@@ -6,6 +6,6 @@
 ---@field public brokenUIDsDeadEnds worldTrafficLaneUID[]
 worldTrafficPersistentDebugResource = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentDebugResource
 ---@return worldTrafficPersistentDebugResource
 function worldTrafficPersistentDebugResource.new(fields) return end

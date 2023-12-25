@@ -10,7 +10,7 @@
 ---@field private progressBBID redCallbackObject
 TimerGameController = {}
 
----@param fields? table
+---@param fields? TimerGameController
 ---@return TimerGameController
 function TimerGameController.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class entAnimationControlBinding: entISourceBinding
 entAnimationControlBinding = {}
 
----@param fields? table
+---@param fields? entAnimationControlBinding
 ---@return entAnimationControlBinding
 function entAnimationControlBinding.new(fields) return end

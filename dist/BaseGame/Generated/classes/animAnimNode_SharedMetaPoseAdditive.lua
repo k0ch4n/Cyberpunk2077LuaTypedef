@@ -8,6 +8,6 @@
 ---@field public convertParentPoseToAdditive Bool
 animAnimNode_SharedMetaPoseAdditive = {}
 
----@param fields? table
+---@param fields? animAnimNode_SharedMetaPoseAdditive
 ---@return animAnimNode_SharedMetaPoseAdditive
 function animAnimNode_SharedMetaPoseAdditive.new(fields) return end

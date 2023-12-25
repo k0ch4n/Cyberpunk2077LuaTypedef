@@ -4,7 +4,7 @@
 ---@class QuestForceAuthorizationDisabled: ActionBool
 QuestForceAuthorizationDisabled = {}
 
----@param fields? table
+---@param fields? QuestForceAuthorizationDisabled
 ---@return QuestForceAuthorizationDisabled
 function QuestForceAuthorizationDisabled.new(fields) return end
 

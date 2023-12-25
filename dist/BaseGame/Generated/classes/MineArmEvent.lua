@@ -4,6 +4,6 @@
 ---@class MineArmEvent: redEvent
 MineArmEvent = {}
 
----@param fields? table
+---@param fields? MineArmEvent
 ---@return MineArmEvent
 function MineArmEvent.new(fields) return end

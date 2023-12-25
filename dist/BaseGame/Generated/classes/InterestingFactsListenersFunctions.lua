@@ -5,6 +5,6 @@
 ---@field public zone CName
 InterestingFactsListenersFunctions = {}
 
----@param fields? table
+---@param fields? InterestingFactsListenersFunctions
 ---@return InterestingFactsListenersFunctions
 function InterestingFactsListenersFunctions.new(fields) return end

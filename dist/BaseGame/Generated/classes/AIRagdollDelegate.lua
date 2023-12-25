@@ -9,7 +9,7 @@
 ---@field public poseAllowsRecovery Bool
 AIRagdollDelegate = {}
 
----@param fields? table
+---@param fields? AIRagdollDelegate
 ---@return AIRagdollDelegate
 function AIRagdollDelegate.new(fields) return end
 

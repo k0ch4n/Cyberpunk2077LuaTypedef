@@ -4,6 +4,6 @@
 ---@class ReevaluatePresetEvent: redEvent
 ReevaluatePresetEvent = {}
 
----@param fields? table
+---@param fields? ReevaluatePresetEvent
 ---@return ReevaluatePresetEvent
 function ReevaluatePresetEvent.new(fields) return end

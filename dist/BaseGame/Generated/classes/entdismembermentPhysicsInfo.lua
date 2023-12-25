@@ -5,6 +5,6 @@
 ---@field public DensityScale Float
 entdismembermentPhysicsInfo = {}
 
----@param fields? table
+---@param fields? entdismembermentPhysicsInfo
 ---@return entdismembermentPhysicsInfo
 function entdismembermentPhysicsInfo.new(fields) return end

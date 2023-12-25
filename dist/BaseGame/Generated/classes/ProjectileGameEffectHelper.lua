@@ -4,7 +4,7 @@
 ---@class ProjectileGameEffectHelper: IScriptable
 ProjectileGameEffectHelper = {}
 
----@param fields? table
+---@param fields? ProjectileGameEffectHelper
 ---@return ProjectileGameEffectHelper
 function ProjectileGameEffectHelper.new(fields) return end
 

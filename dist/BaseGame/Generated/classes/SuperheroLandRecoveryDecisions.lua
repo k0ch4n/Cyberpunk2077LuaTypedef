@@ -4,7 +4,7 @@
 ---@class SuperheroLandRecoveryDecisions: AbstractLandDecisions
 SuperheroLandRecoveryDecisions = {}
 
----@param fields? table
+---@param fields? SuperheroLandRecoveryDecisions
 ---@return SuperheroLandRecoveryDecisions
 function SuperheroLandRecoveryDecisions.new(fields) return end
 

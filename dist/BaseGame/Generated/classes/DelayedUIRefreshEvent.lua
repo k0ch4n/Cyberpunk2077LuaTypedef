@@ -4,6 +4,6 @@
 ---@class DelayedUIRefreshEvent: redEvent
 DelayedUIRefreshEvent = {}
 
----@param fields? table
+---@param fields? DelayedUIRefreshEvent
 ---@return DelayedUIRefreshEvent
 function DelayedUIRefreshEvent.new(fields) return end

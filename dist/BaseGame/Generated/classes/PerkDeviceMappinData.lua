@@ -8,7 +8,7 @@
 ---@field private mappinID gameNewMappinID
 PerkDeviceMappinData = {}
 
----@param fields? table
+---@param fields? PerkDeviceMappinData
 ---@return PerkDeviceMappinData
 function PerkDeviceMappinData.new(fields) return end
 

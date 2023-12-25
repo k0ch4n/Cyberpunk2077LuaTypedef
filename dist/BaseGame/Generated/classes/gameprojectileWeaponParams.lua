@@ -16,7 +16,7 @@
 ---@field public range Float
 gameprojectileWeaponParams = {}
 
----@param fields? table
+---@param fields? gameprojectileWeaponParams
 ---@return gameprojectileWeaponParams
 function gameprojectileWeaponParams.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public postJumpPlaySpeed scnPlaySpeed
 questRewindableSectionTimeJump_NodeType = {}
 
----@param fields? table
+---@param fields? questRewindableSectionTimeJump_NodeType
 ---@return questRewindableSectionTimeJump_NodeType
 function questRewindableSectionTimeJump_NodeType.new(fields) return end

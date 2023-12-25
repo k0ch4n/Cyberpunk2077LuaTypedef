@@ -26,7 +26,7 @@
 ---@field private isSelected Bool
 interactionItemLogicController = {}
 
----@param fields? table
+---@param fields? interactionItemLogicController
 ---@return interactionItemLogicController
 function interactionItemLogicController.new(fields) return end
 

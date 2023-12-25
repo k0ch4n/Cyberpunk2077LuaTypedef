@@ -4,6 +4,6 @@
 ---@class RestoreCybWeaponQualitiesEvent: redEvent
 RestoreCybWeaponQualitiesEvent = {}
 
----@param fields? table
+---@param fields? RestoreCybWeaponQualitiesEvent
 ---@return RestoreCybWeaponQualitiesEvent
 function RestoreCybWeaponQualitiesEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public vpEntries scnlocLocStoreEmbeddedVariantPayloadEntry[]
 scnlocLocStoreEmbedded = {}
 
----@param fields? table
+---@param fields? scnlocLocStoreEmbedded
 ---@return scnlocLocStoreEmbedded
 function scnlocLocStoreEmbedded.new(fields) return end

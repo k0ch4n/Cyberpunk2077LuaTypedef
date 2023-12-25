@@ -5,6 +5,6 @@
 ---@field public ownerID entEntityID
 gamePlayerDetachRequest = {}
 
----@param fields? table
+---@param fields? gamePlayerDetachRequest
 ---@return gamePlayerDetachRequest
 function gamePlayerDetachRequest.new(fields) return end

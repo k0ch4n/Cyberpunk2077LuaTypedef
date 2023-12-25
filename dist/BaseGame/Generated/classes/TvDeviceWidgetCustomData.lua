@@ -8,6 +8,6 @@
 ---@field public looped Bool
 TvDeviceWidgetCustomData = {}
 
----@param fields? table
+---@param fields? TvDeviceWidgetCustomData
 ---@return TvDeviceWidgetCustomData
 function TvDeviceWidgetCustomData.new(fields) return end

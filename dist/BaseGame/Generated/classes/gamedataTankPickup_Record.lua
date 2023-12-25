@@ -4,7 +4,7 @@
 ---@class gamedataTankPickup_Record: gamedataArcadeCollidableObject_Record
 gamedataTankPickup_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankPickup_Record
 ---@return gamedataTankPickup_Record
 function gamedataTankPickup_Record.new(fields) return end
 

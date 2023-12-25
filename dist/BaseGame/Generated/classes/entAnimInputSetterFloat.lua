@@ -5,6 +5,6 @@
 ---@field public value Float
 entAnimInputSetterFloat = {}
 
----@param fields? table
+---@param fields? entAnimInputSetterFloat
 ---@return entAnimInputSetterFloat
 function entAnimInputSetterFloat.new(fields) return end

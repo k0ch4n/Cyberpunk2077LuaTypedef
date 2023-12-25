@@ -5,6 +5,6 @@
 ---@field public state EDeviceStatus
 BaseStateOperationTriggerData = {}
 
----@param fields? table
+---@param fields? BaseStateOperationTriggerData
 ---@return BaseStateOperationTriggerData
 function BaseStateOperationTriggerData.new(fields) return end

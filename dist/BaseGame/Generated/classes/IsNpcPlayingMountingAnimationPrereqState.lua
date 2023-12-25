@@ -5,7 +5,7 @@
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcPlayingMountingAnimationPrereqState = {}
 
----@param fields? table
+---@param fields? IsNpcPlayingMountingAnimationPrereqState
 ---@return IsNpcPlayingMountingAnimationPrereqState
 function IsNpcPlayingMountingAnimationPrereqState.new(fields) return end
 

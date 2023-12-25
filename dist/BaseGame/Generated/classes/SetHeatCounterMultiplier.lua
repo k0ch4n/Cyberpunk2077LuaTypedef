@@ -7,7 +7,7 @@
 ---@field public source CName
 SetHeatCounterMultiplier = {}
 
----@param fields? table
+---@param fields? SetHeatCounterMultiplier
 ---@return SetHeatCounterMultiplier
 function SetHeatCounterMultiplier.new(fields) return end
 

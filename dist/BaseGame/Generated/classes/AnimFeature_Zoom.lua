@@ -14,6 +14,6 @@
 ---@field public weaponScopeFov Float
 AnimFeature_Zoom = {}
 
----@param fields? table
+---@param fields? AnimFeature_Zoom
 ---@return AnimFeature_Zoom
 function AnimFeature_Zoom.new(fields) return end

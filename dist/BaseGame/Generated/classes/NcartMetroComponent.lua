@@ -4,7 +4,7 @@
 ---@class NcartMetroComponent: VehicleComponent
 NcartMetroComponent = {}
 
----@param fields? table
+---@param fields? NcartMetroComponent
 ---@return NcartMetroComponent
 function NcartMetroComponent.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public longitude Int32
 gameCoordinates = {}
 
----@param fields? table
+---@param fields? gameCoordinates
 ---@return gameCoordinates
 function gameCoordinates.new(fields) return end

@@ -20,7 +20,7 @@
 ---@field protected attributeData AttributeData
 PerksMenuAttributeDisplayController = {}
 
----@param fields? table
+---@param fields? PerksMenuAttributeDisplayController
 ---@return PerksMenuAttributeDisplayController
 function PerksMenuAttributeDisplayController.new(fields) return end
 

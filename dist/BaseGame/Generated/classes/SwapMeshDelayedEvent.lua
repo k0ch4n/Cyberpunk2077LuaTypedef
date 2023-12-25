@@ -4,6 +4,6 @@
 ---@class SwapMeshDelayedEvent: redEvent
 SwapMeshDelayedEvent = {}
 
----@param fields? table
+---@param fields? SwapMeshDelayedEvent
 ---@return SwapMeshDelayedEvent
 function SwapMeshDelayedEvent.new(fields) return end

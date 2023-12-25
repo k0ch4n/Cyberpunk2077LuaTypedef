@@ -5,6 +5,6 @@
 ---@field public briefingAlignment questJournalAlignmentEventType
 questSetBriefingAlignment_NodeType = {}
 
----@param fields? table
+---@param fields? questSetBriefingAlignment_NodeType
 ---@return questSetBriefingAlignment_NodeType
 function questSetBriefingAlignment_NodeType.new(fields) return end

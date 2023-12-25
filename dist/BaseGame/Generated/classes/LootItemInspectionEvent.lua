@@ -5,6 +5,6 @@
 ---@field public owner gameObject
 LootItemInspectionEvent = {}
 
----@param fields? table
+---@param fields? LootItemInspectionEvent
 ---@return LootItemInspectionEvent
 function LootItemInspectionEvent.new(fields) return end

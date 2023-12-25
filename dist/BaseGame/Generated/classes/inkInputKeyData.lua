@@ -4,7 +4,7 @@
 ---@class inkInputKeyData
 inkInputKeyData = {}
 
----@param fields? table
+---@param fields? inkInputKeyData
 ---@return inkInputKeyData
 function inkInputKeyData.new(fields) return end
 

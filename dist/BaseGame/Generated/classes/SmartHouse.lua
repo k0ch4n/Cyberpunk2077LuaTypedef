@@ -5,7 +5,7 @@
 ---@field protected timetableActive Bool
 SmartHouse = {}
 
----@param fields? table
+---@param fields? SmartHouse
 ---@return SmartHouse
 function SmartHouse.new(fields) return end
 

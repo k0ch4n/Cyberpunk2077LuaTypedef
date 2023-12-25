@@ -23,7 +23,7 @@
 ---@field private tooltipsManagerRef inkWidgetReference
 MenuHubLogicController = {}
 
----@param fields? table
+---@param fields? MenuHubLogicController
 ---@return MenuHubLogicController
 function MenuHubLogicController.new(fields) return end
 

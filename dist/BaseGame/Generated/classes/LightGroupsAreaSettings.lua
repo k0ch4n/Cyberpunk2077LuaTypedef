@@ -5,6 +5,6 @@
 ---@field public groupFade curveData[]
 LightGroupsAreaSettings = {}
 
----@param fields? table
+---@param fields? LightGroupsAreaSettings
 ---@return LightGroupsAreaSettings
 function LightGroupsAreaSettings.new(fields) return end

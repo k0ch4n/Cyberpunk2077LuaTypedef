@@ -8,6 +8,6 @@
 ---@field public childEffectTag CName
 gameEffectAction_NewEffect_SpreadingEffect = {}
 
----@param fields? table
+---@param fields? gameEffectAction_NewEffect_SpreadingEffect
 ---@return gameEffectAction_NewEffect_SpreadingEffect
 function gameEffectAction_NewEffect_SpreadingEffect.new(fields) return end

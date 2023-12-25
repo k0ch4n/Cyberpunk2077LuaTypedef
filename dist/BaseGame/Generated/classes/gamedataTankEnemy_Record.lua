@@ -4,7 +4,7 @@
 ---@class gamedataTankEnemy_Record: gamedataTankDestroyableObject_Record
 gamedataTankEnemy_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankEnemy_Record
 ---@return gamedataTankEnemy_Record
 function gamedataTankEnemy_Record.new(fields) return end
 

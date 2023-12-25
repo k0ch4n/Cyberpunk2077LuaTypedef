@@ -6,6 +6,6 @@
 ---@field public defaultValue Bool
 LibTreeDefTreeVariableBool = {}
 
----@param fields? table
+---@param fields? LibTreeDefTreeVariableBool
 ---@return LibTreeDefTreeVariableBool
 function LibTreeDefTreeVariableBool.new(fields) return end

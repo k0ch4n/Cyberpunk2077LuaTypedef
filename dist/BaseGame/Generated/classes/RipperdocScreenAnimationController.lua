@@ -65,7 +65,7 @@
 ---@field private SLIDE_DURATION Float
 RipperdocScreenAnimationController = {}
 
----@param fields? table
+---@param fields? RipperdocScreenAnimationController
 ---@return RipperdocScreenAnimationController
 function RipperdocScreenAnimationController.new(fields) return end
 

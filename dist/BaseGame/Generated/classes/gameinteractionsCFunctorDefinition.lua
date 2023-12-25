@@ -6,6 +6,6 @@
 ---@field public unaryOperator gameinteractionsEUnaryOperator
 gameinteractionsCFunctorDefinition = {}
 
----@param fields? table
+---@param fields? gameinteractionsCFunctorDefinition
 ---@return gameinteractionsCFunctorDefinition
 function gameinteractionsCFunctorDefinition.new(fields) return end

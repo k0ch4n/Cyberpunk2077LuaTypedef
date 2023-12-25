@@ -4,6 +4,6 @@
 ---@class gameCameraCurveSet: CurveSet
 gameCameraCurveSet = {}
 
----@param fields? table
+---@param fields? gameCameraCurveSet
 ---@return gameCameraCurveSet
 function gameCameraCurveSet.new(fields) return end

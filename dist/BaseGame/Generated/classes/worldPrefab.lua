@@ -37,6 +37,6 @@
 ---@field public customProxyMeshHelper CMesh
 worldPrefab = {}
 
----@param fields? table
+---@param fields? worldPrefab
 ---@return worldPrefab
 function worldPrefab.new(fields) return end

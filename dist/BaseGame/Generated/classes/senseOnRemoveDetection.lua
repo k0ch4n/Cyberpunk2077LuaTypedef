@@ -5,6 +5,6 @@
 ---@field public target gameObject
 senseOnRemoveDetection = {}
 
----@param fields? table
+---@param fields? senseOnRemoveDetection
 ---@return senseOnRemoveDetection
 function senseOnRemoveDetection.new(fields) return end

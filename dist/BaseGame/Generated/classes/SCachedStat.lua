@@ -6,6 +6,6 @@
 ---@field public value Float
 SCachedStat = {}
 
----@param fields? table
+---@param fields? SCachedStat
 ---@return SCachedStat
 function SCachedStat.new(fields) return end

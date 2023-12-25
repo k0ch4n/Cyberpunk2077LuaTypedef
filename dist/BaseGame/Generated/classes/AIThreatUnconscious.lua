@@ -8,6 +8,6 @@
 ---@field public detected Bool
 AIThreatUnconscious = {}
 
----@param fields? table
+---@param fields? AIThreatUnconscious
 ---@return AIThreatUnconscious
 function AIThreatUnconscious.new(fields) return end

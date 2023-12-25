@@ -5,6 +5,6 @@
 ---@field public parameterList gameObjectSpawnParameter[]
 gameObjectSpawnParametersList = {}
 
----@param fields? table
+---@param fields? gameObjectSpawnParametersList
 ---@return gameObjectSpawnParametersList
 function gameObjectSpawnParametersList.new(fields) return end

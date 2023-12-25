@@ -8,6 +8,6 @@
 ---@field public weaponType Int32
 AnimFeature_Reprimand = {}
 
----@param fields? table
+---@param fields? AnimFeature_Reprimand
 ---@return AnimFeature_Reprimand
 function AnimFeature_Reprimand.new(fields) return end

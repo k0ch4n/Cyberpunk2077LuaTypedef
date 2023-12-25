@@ -5,7 +5,7 @@
 ---@field private label inkTextWidgetReference
 QuestListHeaderLogicController = {}
 
----@param fields? table
+---@param fields? QuestListHeaderLogicController
 ---@return QuestListHeaderLogicController
 function QuestListHeaderLogicController.new(fields) return end
 

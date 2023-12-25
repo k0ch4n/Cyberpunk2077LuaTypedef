@@ -5,7 +5,7 @@
 ---@field protected state StatPoolChangeOverTimePrereqState
 StatPoolChangeOverTimePrereqListener = {}
 
----@param fields? table
+---@param fields? StatPoolChangeOverTimePrereqListener
 ---@return StatPoolChangeOverTimePrereqListener
 function StatPoolChangeOverTimePrereqListener.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public state gamedataNPCStanceState
 gameeventsStanceStateChangeEvent = {}
 
----@param fields? table
+---@param fields? gameeventsStanceStateChangeEvent
 ---@return gameeventsStanceStateChangeEvent
 function gameeventsStanceStateChangeEvent.new(fields) return end

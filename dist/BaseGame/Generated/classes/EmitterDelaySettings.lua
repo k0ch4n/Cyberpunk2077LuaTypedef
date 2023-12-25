@@ -8,6 +8,6 @@
 ---@field public useEmitterDelayOnce Bool
 EmitterDelaySettings = {}
 
----@param fields? table
+---@param fields? EmitterDelaySettings
 ---@return EmitterDelaySettings
 function EmitterDelaySettings.new(fields) return end

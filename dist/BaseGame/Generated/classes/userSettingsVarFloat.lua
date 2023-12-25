@@ -4,7 +4,7 @@
 ---@class userSettingsVarFloat: userSettingsVar
 userSettingsVarFloat = {}
 
----@param fields? table
+---@param fields? userSettingsVarFloat
 ---@return userSettingsVarFloat
 function userSettingsVarFloat.new(fields) return end
 

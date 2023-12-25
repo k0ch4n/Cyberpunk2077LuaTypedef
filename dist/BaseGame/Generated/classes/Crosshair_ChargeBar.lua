@@ -12,7 +12,7 @@
 ---@field private chargeBBID redCallbackObject
 Crosshair_ChargeBar = {}
 
----@param fields? table
+---@param fields? Crosshair_ChargeBar
 ---@return Crosshair_ChargeBar
 function Crosshair_ChargeBar.new(fields) return end
 

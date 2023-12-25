@@ -8,6 +8,6 @@
 ---@field public cketCount Uint32
 worldFoliagePopulationSpanInfo = {}
 
----@param fields? table
+---@param fields? worldFoliagePopulationSpanInfo
 ---@return worldFoliagePopulationSpanInfo
 function worldFoliagePopulationSpanInfo.new(fields) return end

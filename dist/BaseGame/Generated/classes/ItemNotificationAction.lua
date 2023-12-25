@@ -5,7 +5,7 @@
 ---@field public eventDispatcher worlduiIWidgetGameController
 ItemNotificationAction = {}
 
----@param fields? table
+---@param fields? ItemNotificationAction
 ---@return ItemNotificationAction
 function ItemNotificationAction.new(fields) return end
 

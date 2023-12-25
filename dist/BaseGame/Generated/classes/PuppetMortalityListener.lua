@@ -5,7 +5,7 @@
 ---@field public state PuppetMortalPrereqState
 PuppetMortalityListener = {}
 
----@param fields? table
+---@param fields? PuppetMortalityListener
 ---@return PuppetMortalityListener
 function PuppetMortalityListener.new(fields) return end
 

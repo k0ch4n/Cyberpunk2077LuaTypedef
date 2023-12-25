@@ -4,7 +4,7 @@
 ---@class SetPendingReactionBB: StatusEffectTasks
 SetPendingReactionBB = {}
 
----@param fields? table
+---@param fields? SetPendingReactionBB
 ---@return SetPendingReactionBB
 function SetPendingReactionBB.new(fields) return end
 

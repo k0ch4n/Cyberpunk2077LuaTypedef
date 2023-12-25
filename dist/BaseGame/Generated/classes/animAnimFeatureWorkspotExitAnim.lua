@@ -4,6 +4,6 @@
 ---@class animAnimFeatureWorkspotExitAnim: animAnimFeature
 animAnimFeatureWorkspotExitAnim = {}
 
----@param fields? table
+---@param fields? animAnimFeatureWorkspotExitAnim
 ---@return animAnimFeatureWorkspotExitAnim
 function animAnimFeatureWorkspotExitAnim.new(fields) return end

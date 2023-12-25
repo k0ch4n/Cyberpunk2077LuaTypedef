@@ -4,7 +4,7 @@
 ---@class InitialiseNPC: AIbehaviortaskScript
 InitialiseNPC = {}
 
----@param fields? table
+---@param fields? InitialiseNPC
 ---@return InitialiseNPC
 function InitialiseNPC.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public appearanceName CName
 questEntityManagerChangeAppearance_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerChangeAppearance_NodeType
 ---@return questEntityManagerChangeAppearance_NodeType
 function questEntityManagerChangeAppearance_NodeType.new(fields) return end

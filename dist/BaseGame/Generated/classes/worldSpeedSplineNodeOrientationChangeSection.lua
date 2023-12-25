@@ -7,6 +7,6 @@
 ---@field public targetOrientation EulerAngles
 worldSpeedSplineNodeOrientationChangeSection = {}
 
----@param fields? table
+---@param fields? worldSpeedSplineNodeOrientationChangeSection
 ---@return worldSpeedSplineNodeOrientationChangeSection
 function worldSpeedSplineNodeOrientationChangeSection.new(fields) return end

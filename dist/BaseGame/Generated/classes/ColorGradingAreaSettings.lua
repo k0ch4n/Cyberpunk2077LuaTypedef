@@ -21,6 +21,6 @@
 ---@field public forceHdrLut Bool
 ColorGradingAreaSettings = {}
 
----@param fields? table
+---@param fields? ColorGradingAreaSettings
 ---@return ColorGradingAreaSettings
 function ColorGradingAreaSettings.new(fields) return end

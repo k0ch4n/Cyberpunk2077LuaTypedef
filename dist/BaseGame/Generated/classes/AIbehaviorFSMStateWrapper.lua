@@ -4,6 +4,6 @@
 ---@class AIbehaviorFSMStateWrapper
 AIbehaviorFSMStateWrapper = {}
 
----@param fields? table
+---@param fields? AIbehaviorFSMStateWrapper
 ---@return AIbehaviorFSMStateWrapper
 function AIbehaviorFSMStateWrapper.new(fields) return end

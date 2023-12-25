@@ -5,6 +5,6 @@
 ---@field public id Uint32
 scnRidFacialAnimSetSRRefId = {}
 
----@param fields? table
+---@param fields? scnRidFacialAnimSetSRRefId
 ---@return scnRidFacialAnimSetSRRefId
 function scnRidFacialAnimSetSRRefId.new(fields) return end

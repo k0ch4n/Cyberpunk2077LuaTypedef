@@ -5,7 +5,7 @@
 ---@field public hitFlag hitFlag
 AddHitFlagToAttackEffector = {}
 
----@param fields? table
+---@param fields? AddHitFlagToAttackEffector
 ---@return AddHitFlagToAttackEffector
 function AddHitFlagToAttackEffector.new(fields) return end
 

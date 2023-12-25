@@ -4,7 +4,7 @@
 ---@class MeleeWeaponPSMPrereq: PlayerStateMachinePrereq
 MeleeWeaponPSMPrereq = {}
 
----@param fields? table
+---@param fields? MeleeWeaponPSMPrereq
 ---@return MeleeWeaponPSMPrereq
 function MeleeWeaponPSMPrereq.new(fields) return end
 

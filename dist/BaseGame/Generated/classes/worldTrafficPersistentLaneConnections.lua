@@ -6,6 +6,6 @@
 ---@field public inLanes worldTrafficConnectivityInLane[]
 worldTrafficPersistentLaneConnections = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentLaneConnections
 ---@return worldTrafficPersistentLaneConnections
 function worldTrafficPersistentLaneConnections.new(fields) return end

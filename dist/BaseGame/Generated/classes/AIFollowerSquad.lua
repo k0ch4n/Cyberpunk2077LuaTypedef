@@ -4,6 +4,6 @@
 ---@class AIFollowerSquad: AISquadBase
 AIFollowerSquad = {}
 
----@param fields? table
+---@param fields? AIFollowerSquad
 ---@return AIFollowerSquad
 function AIFollowerSquad.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field private vehicle vehicleBaseObject
 analogSpeedometerLogicController = {}
 
----@param fields? table
+---@param fields? analogSpeedometerLogicController
 ---@return analogSpeedometerLogicController
 function analogSpeedometerLogicController.new(fields) return end
 

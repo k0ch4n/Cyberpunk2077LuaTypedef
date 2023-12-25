@@ -4,7 +4,7 @@
 ---@class Debug_RotationTestEnabled: AIDebugConditions
 Debug_RotationTestEnabled = {}
 
----@param fields? table
+---@param fields? Debug_RotationTestEnabled
 ---@return Debug_RotationTestEnabled
 function Debug_RotationTestEnabled.new(fields) return end
 

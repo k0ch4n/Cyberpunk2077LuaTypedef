@@ -6,7 +6,7 @@
 ---@field private scoreboardMenu inkWidgetReference
 QuadRacerGameController = {}
 
----@param fields? table
+---@param fields? QuadRacerGameController
 ---@return QuadRacerGameController
 function QuadRacerGameController.new(fields) return end
 

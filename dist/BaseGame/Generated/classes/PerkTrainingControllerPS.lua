@@ -10,7 +10,7 @@
 ---@field private wasDetected Bool
 PerkTrainingControllerPS = {}
 
----@param fields? table
+---@param fields? PerkTrainingControllerPS
 ---@return PerkTrainingControllerPS
 function PerkTrainingControllerPS.new(fields) return end
 

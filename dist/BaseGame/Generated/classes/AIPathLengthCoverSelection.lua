@@ -4,6 +4,6 @@
 ---@class AIPathLengthCoverSelection: AICoverSelectionParameters
 AIPathLengthCoverSelection = {}
 
----@param fields? table
+---@param fields? AIPathLengthCoverSelection
 ---@return AIPathLengthCoverSelection
 function AIPathLengthCoverSelection.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class BodyInvestigated: AIbehaviortaskScript
 BodyInvestigated = {}
 
----@param fields? table
+---@param fields? BodyInvestigated
 ---@return BodyInvestigated
 function BodyInvestigated.new(fields) return end
 

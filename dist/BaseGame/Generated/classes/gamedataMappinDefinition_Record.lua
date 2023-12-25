@@ -4,7 +4,7 @@
 ---@class gamedataMappinDefinition_Record: gamedataBase_MappinDefinition_Record
 gamedataMappinDefinition_Record = {}
 
----@param fields? table
+---@param fields? gamedataMappinDefinition_Record
 ---@return gamedataMappinDefinition_Record
 function gamedataMappinDefinition_Record.new(fields) return end
 

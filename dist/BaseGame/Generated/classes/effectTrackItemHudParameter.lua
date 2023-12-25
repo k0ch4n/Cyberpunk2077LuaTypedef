@@ -10,6 +10,6 @@
 ---@field public blackwallParameter effectEffectParameterEvaluator
 effectTrackItemHudParameter = {}
 
----@param fields? table
+---@param fields? effectTrackItemHudParameter
 ---@return effectTrackItemHudParameter
 function effectTrackItemHudParameter.new(fields) return end

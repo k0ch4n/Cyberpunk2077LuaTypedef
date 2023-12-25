@@ -4,6 +4,6 @@
 ---@class SecretOpenAnimationEvent: redEvent
 SecretOpenAnimationEvent = {}
 
----@param fields? table
+---@param fields? SecretOpenAnimationEvent
 ---@return SecretOpenAnimationEvent
 function SecretOpenAnimationEvent.new(fields) return end

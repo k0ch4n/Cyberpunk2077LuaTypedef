@@ -7,7 +7,7 @@
 ---@field public quickhackAbility gamedataGameplayAbility_Record
 SimpleCombatConditon = {}
 
----@param fields? table
+---@param fields? SimpleCombatConditon
 ---@return SimpleCombatConditon
 function SimpleCombatConditon.new(fields) return end
 

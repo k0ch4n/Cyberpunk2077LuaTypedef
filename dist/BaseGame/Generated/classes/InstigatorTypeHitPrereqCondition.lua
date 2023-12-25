@@ -5,7 +5,7 @@
 ---@field public instigatorType CName
 InstigatorTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? InstigatorTypeHitPrereqCondition
 ---@return InstigatorTypeHitPrereqCondition
 function InstigatorTypeHitPrereqCondition.new(fields) return end
 

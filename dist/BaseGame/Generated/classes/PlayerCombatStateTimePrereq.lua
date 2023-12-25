@@ -6,7 +6,7 @@
 ---@field private maxTime Float
 PlayerCombatStateTimePrereq = {}
 
----@param fields? table
+---@param fields? PlayerCombatStateTimePrereq
 ---@return PlayerCombatStateTimePrereq
 function PlayerCombatStateTimePrereq.new(fields) return end
 

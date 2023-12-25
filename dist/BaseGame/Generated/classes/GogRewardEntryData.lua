@@ -11,6 +11,6 @@
 ---@field public record gamedataGOGReward_Record
 GogRewardEntryData = {}
 
----@param fields? table
+---@param fields? GogRewardEntryData
 ---@return GogRewardEntryData
 function GogRewardEntryData.new(fields) return end

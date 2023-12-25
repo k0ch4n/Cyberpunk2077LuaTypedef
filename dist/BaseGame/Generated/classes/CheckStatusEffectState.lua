@@ -7,7 +7,7 @@
 ---@field public topPrioStatusEffect gameStatusEffect
 CheckStatusEffectState = {}
 
----@param fields? table
+---@param fields? CheckStatusEffectState
 ---@return CheckStatusEffectState
 function CheckStatusEffectState.new(fields) return end
 

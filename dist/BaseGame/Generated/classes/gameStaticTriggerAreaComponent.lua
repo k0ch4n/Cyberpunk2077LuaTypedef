@@ -6,7 +6,7 @@
 ---@field public excludeMask Uint32
 gameStaticTriggerAreaComponent = {}
 
----@param fields? table
+---@param fields? gameStaticTriggerAreaComponent
 ---@return gameStaticTriggerAreaComponent
 function gameStaticTriggerAreaComponent.new(fields) return end
 

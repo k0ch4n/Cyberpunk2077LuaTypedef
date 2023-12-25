@@ -6,6 +6,6 @@
 ---@field public syncOffset Transform
 workSyncAnimClip = {}
 
----@param fields? table
+---@param fields? workSyncAnimClip
 ---@return workSyncAnimClip
 function workSyncAnimClip.new(fields) return end

@@ -29,7 +29,7 @@
 ---@field private quickHackWheelDefIcon CName
 DpadWheelItemController = {}
 
----@param fields? table
+---@param fields? DpadWheelItemController
 ---@return DpadWheelItemController
 function DpadWheelItemController.new(fields) return end
 

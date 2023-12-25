@@ -7,6 +7,6 @@
 ---@field public perfectChargeShootingSound CName
 audioPerfectChargePerkSounds = {}
 
----@param fields? table
+---@param fields? audioPerfectChargePerkSounds
 ---@return audioPerfectChargePerkSounds
 function audioPerfectChargePerkSounds.new(fields) return end

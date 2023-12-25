@@ -5,6 +5,6 @@
 ---@field public sensePreset TweakDBID
 gameHACK_UseSensePresetEvent = {}
 
----@param fields? table
+---@param fields? gameHACK_UseSensePresetEvent
 ---@return gameHACK_UseSensePresetEvent
 function gameHACK_UseSensePresetEvent.new(fields) return end

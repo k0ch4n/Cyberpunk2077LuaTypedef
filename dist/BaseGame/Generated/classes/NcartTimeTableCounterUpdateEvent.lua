@@ -4,6 +4,6 @@
 ---@class NcartTimeTableCounterUpdateEvent: redEvent
 NcartTimeTableCounterUpdateEvent = {}
 
----@param fields? table
+---@param fields? NcartTimeTableCounterUpdateEvent
 ---@return NcartTimeTableCounterUpdateEvent
 function NcartTimeTableCounterUpdateEvent.new(fields) return end

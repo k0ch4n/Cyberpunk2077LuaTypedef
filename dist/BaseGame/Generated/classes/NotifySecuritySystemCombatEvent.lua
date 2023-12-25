@@ -4,6 +4,6 @@
 ---@class NotifySecuritySystemCombatEvent: redEvent
 NotifySecuritySystemCombatEvent = {}
 
----@param fields? table
+---@param fields? NotifySecuritySystemCombatEvent
 ---@return NotifySecuritySystemCombatEvent
 function NotifySecuritySystemCombatEvent.new(fields) return end

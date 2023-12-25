@@ -5,6 +5,6 @@
 ---@field public position Vector3
 gameTransformAnimation_Position_LocalPosition = {}
 
----@param fields? table
+---@param fields? gameTransformAnimation_Position_LocalPosition
 ---@return gameTransformAnimation_Position_LocalPosition
 function gameTransformAnimation_Position_LocalPosition.new(fields) return end

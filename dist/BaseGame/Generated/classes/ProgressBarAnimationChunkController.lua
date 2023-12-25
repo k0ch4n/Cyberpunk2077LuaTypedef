@@ -9,7 +9,7 @@
 ---@field private isNegative Bool
 ProgressBarAnimationChunkController = {}
 
----@param fields? table
+---@param fields? ProgressBarAnimationChunkController
 ---@return ProgressBarAnimationChunkController
 function ProgressBarAnimationChunkController.new(fields) return end
 

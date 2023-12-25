@@ -6,6 +6,6 @@
 ---@field public maxVelocity Float
 gameinfluenceBumpReactionSetting = {}
 
----@param fields? table
+---@param fields? gameinfluenceBumpReactionSetting
 ---@return gameinfluenceBumpReactionSetting
 function gameinfluenceBumpReactionSetting.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public firstLipsyncOverrideTrackIndex Int16
 animImportFacialSetupCombinedDesc = {}
 
----@param fields? table
+---@param fields? animImportFacialSetupCombinedDesc
 ---@return animImportFacialSetupCombinedDesc
 function animImportFacialSetupCombinedDesc.new(fields) return end

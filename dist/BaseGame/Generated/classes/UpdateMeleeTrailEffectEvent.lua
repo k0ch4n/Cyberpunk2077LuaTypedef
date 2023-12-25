@@ -5,6 +5,6 @@
 ---@field public instigator gameObject
 UpdateMeleeTrailEffectEvent = {}
 
----@param fields? table
+---@param fields? UpdateMeleeTrailEffectEvent
 ---@return UpdateMeleeTrailEffectEvent
 function UpdateMeleeTrailEffectEvent.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field public forwardDistance Float
 animAnimFeature_PlayerSpatialAwareness = {}
 
----@param fields? table
+---@param fields? animAnimFeature_PlayerSpatialAwareness
 ---@return animAnimFeature_PlayerSpatialAwareness
 function animAnimFeature_PlayerSpatialAwareness.new(fields) return end
 

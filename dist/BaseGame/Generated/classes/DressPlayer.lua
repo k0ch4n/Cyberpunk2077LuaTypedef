@@ -4,7 +4,7 @@
 ---@class DressPlayer: redEvent
 DressPlayer = {}
 
----@param fields? table
+---@param fields? DressPlayer
 ---@return DressPlayer
 function DressPlayer.new(fields) return end
 

@@ -11,6 +11,6 @@
 ---@field public zoomed Bool
 questCameraFocus_ConditionType = {}
 
----@param fields? table
+---@param fields? questCameraFocus_ConditionType
 ---@return questCameraFocus_ConditionType
 function questCameraFocus_ConditionType.new(fields) return end

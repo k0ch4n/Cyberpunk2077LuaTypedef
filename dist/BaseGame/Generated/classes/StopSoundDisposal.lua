@@ -4,6 +4,6 @@
 ---@class StopSoundDisposal: redEvent
 StopSoundDisposal = {}
 
----@param fields? table
+---@param fields? StopSoundDisposal
 ---@return StopSoundDisposal
 function StopSoundDisposal.new(fields) return end

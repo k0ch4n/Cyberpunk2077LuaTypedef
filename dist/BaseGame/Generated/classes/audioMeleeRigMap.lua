@@ -5,6 +5,6 @@
 ---@field public mapItems audioMeleeRigMapItem[]
 audioMeleeRigMap = {}
 
----@param fields? table
+---@param fields? audioMeleeRigMap
 ---@return audioMeleeRigMap
 function audioMeleeRigMap.new(fields) return end

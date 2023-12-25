@@ -9,7 +9,7 @@
 ---@field private shouldUpdateLayout Bool
 GogRewardsListController = {}
 
----@param fields? table
+---@param fields? GogRewardsListController
 ---@return GogRewardsListController
 function GogRewardsListController.new(fields) return end
 

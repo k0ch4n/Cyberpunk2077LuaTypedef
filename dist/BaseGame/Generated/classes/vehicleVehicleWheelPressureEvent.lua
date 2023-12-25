@@ -6,6 +6,6 @@
 ---@field public impulse Vector3
 vehicleVehicleWheelPressureEvent = {}
 
----@param fields? table
+---@param fields? vehicleVehicleWheelPressureEvent
 ---@return vehicleVehicleWheelPressureEvent
 function vehicleVehicleWheelPressureEvent.new(fields) return end

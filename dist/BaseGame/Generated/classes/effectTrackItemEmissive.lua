@@ -6,6 +6,6 @@
 ---@field public brigtness effectEffectParameterEvaluatorFloat
 effectTrackItemEmissive = {}
 
----@param fields? table
+---@param fields? effectTrackItemEmissive
 ---@return effectTrackItemEmissive
 function effectTrackItemEmissive.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public isReversed Bool
 worldTrafficLaneUID = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneUID
 ---@return worldTrafficLaneUID
 function worldTrafficLaneUID.new(fields) return end

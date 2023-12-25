@@ -7,7 +7,7 @@
 ---@field public Root inkCompoundWidget
 ScannerSkillCheckLogicController = {}
 
----@param fields? table
+---@param fields? ScannerSkillCheckLogicController
 ---@return ScannerSkillCheckLogicController
 function ScannerSkillCheckLogicController.new(fields) return end
 

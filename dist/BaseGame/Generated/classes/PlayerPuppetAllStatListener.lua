@@ -5,7 +5,7 @@
 ---@field public player PlayerPuppet
 PlayerPuppetAllStatListener = {}
 
----@param fields? table
+---@param fields? PlayerPuppetAllStatListener
 ---@return PlayerPuppetAllStatListener
 function PlayerPuppetAllStatListener.new(fields) return end
 

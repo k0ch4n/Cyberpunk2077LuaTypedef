@@ -4,7 +4,7 @@
 ---@class ShootEvents: WeaponEventsTransition
 ShootEvents = {}
 
----@param fields? table
+---@param fields? ShootEvents
 ---@return ShootEvents
 function ShootEvents.new(fields) return end
 

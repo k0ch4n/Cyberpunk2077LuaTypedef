@@ -8,6 +8,6 @@
 ---@field public weapon gameweaponObject
 gameAttackInitContext = {}
 
----@param fields? table
+---@param fields? gameAttackInitContext
 ---@return gameAttackInitContext
 function gameAttackInitContext.new(fields) return end

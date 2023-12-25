@@ -6,6 +6,6 @@
 ---@field public name String
 toolsJiraProject = {}
 
----@param fields? table
+---@param fields? toolsJiraProject
 ---@return toolsJiraProject
 function toolsJiraProject.new(fields) return end

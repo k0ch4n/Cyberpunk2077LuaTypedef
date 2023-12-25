@@ -16,7 +16,7 @@
 ---@field public PersonalLinkStatus gamebbScriptID_Int32
 NetworkBlackboardDef = {}
 
----@param fields? table
+---@param fields? NetworkBlackboardDef
 ---@return NetworkBlackboardDef
 function NetworkBlackboardDef.new(fields) return end
 

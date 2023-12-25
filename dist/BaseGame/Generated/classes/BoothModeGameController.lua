@@ -5,7 +5,7 @@
 ---@field public buttonRef inkWidgetReference
 BoothModeGameController = {}
 
----@param fields? table
+---@param fields? BoothModeGameController
 ---@return BoothModeGameController
 function BoothModeGameController.new(fields) return end
 

@@ -13,6 +13,6 @@
 ---@field public lightAoSpecularStrength curveData
 RTAOAreaSettings = {}
 
----@param fields? table
+---@param fields? RTAOAreaSettings
 ---@return RTAOAreaSettings
 function RTAOAreaSettings.new(fields) return end

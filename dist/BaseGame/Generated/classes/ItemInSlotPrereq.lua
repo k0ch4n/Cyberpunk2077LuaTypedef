@@ -13,7 +13,7 @@
 ---@field public waitForVisuals Bool
 ItemInSlotPrereq = {}
 
----@param fields? table
+---@param fields? ItemInSlotPrereq
 ---@return ItemInSlotPrereq
 function ItemInSlotPrereq.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class Validate: redEvent
 Validate = {}
 
----@param fields? table
+---@param fields? Validate
 ---@return Validate
 function Validate.new(fields) return end

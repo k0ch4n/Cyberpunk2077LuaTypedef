@@ -37,7 +37,7 @@
 ---@field private defaultMargin inkMargin
 QuickhacksListItemController = {}
 
----@param fields? table
+---@param fields? QuickhacksListItemController
 ---@return QuickhacksListItemController
 function QuickhacksListItemController.new(fields) return end
 

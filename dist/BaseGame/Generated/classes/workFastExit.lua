@@ -7,6 +7,6 @@
 ---@field public movementType moveMovementType
 workFastExit = {}
 
----@param fields? table
+---@param fields? workFastExit
 ---@return workFastExit
 function workFastExit.new(fields) return end

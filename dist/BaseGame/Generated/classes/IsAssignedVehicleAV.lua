@@ -4,7 +4,7 @@
 ---@class IsAssignedVehicleAV: PreventionConditionAbstract
 IsAssignedVehicleAV = {}
 
----@param fields? table
+---@param fields? IsAssignedVehicleAV
 ---@return IsAssignedVehicleAV
 function IsAssignedVehicleAV.new(fields) return end
 

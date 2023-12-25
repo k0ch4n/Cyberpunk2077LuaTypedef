@@ -11,6 +11,6 @@
 ---@field public cooldown Float
 animAnimNode_TriggerBranch = {}
 
----@param fields? table
+---@param fields? animAnimNode_TriggerBranch
 ---@return animAnimNode_TriggerBranch
 function animAnimNode_TriggerBranch.new(fields) return end

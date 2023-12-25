@@ -10,7 +10,7 @@
 ---@field private shieldTargetTimeStamp Float
 CentaurShieldLookatController = {}
 
----@param fields? table
+---@param fields? CentaurShieldLookatController
 ---@return CentaurShieldLookatController
 function CentaurShieldLookatController.new(fields) return end
 

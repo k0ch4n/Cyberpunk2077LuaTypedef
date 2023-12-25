@@ -13,6 +13,6 @@
 ---@field public colorMaskLevelsOut Float[]
 Multilayer_LayerTemplate = {}
 
----@param fields? table
+---@param fields? Multilayer_LayerTemplate
 ---@return Multilayer_LayerTemplate
 function Multilayer_LayerTemplate.new(fields) return end

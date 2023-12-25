@@ -16,6 +16,6 @@
 ---@field public overrideVisualStyle Bool
 entGameplayVOEvent = {}
 
----@param fields? table
+---@param fields? entGameplayVOEvent
 ---@return entGameplayVOEvent
 function entGameplayVOEvent.new(fields) return end

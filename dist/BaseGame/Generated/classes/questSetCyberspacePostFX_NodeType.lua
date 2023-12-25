@@ -12,6 +12,6 @@
 ---@field public timeBlend Float
 questSetCyberspacePostFX_NodeType = {}
 
----@param fields? table
+---@param fields? questSetCyberspacePostFX_NodeType
 ---@return questSetCyberspacePostFX_NodeType
 function questSetCyberspacePostFX_NodeType.new(fields) return end

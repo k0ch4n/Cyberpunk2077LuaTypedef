@@ -5,7 +5,7 @@
 ---@field private controller CraftingLogicController
 DelayedReset = {}
 
----@param fields? table
+---@param fields? DelayedReset
 ---@return DelayedReset
 function DelayedReset.new(fields) return end
 

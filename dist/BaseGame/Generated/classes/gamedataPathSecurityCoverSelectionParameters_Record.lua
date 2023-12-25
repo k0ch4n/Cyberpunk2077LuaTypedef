@@ -4,7 +4,7 @@
 ---@class gamedataPathSecurityCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataPathSecurityCoverSelectionParameters_Record = {}
 
----@param fields? table
+---@param fields? gamedataPathSecurityCoverSelectionParameters_Record
 ---@return gamedataPathSecurityCoverSelectionParameters_Record
 function gamedataPathSecurityCoverSelectionParameters_Record.new(fields) return end
 

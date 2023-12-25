@@ -5,7 +5,7 @@
 ---@field private dependableEntities NodeRef[]
 sampleVisClueMaster = {}
 
----@param fields? table
+---@param fields? sampleVisClueMaster
 ---@return sampleVisClueMaster
 function sampleVisClueMaster.new(fields) return end
 

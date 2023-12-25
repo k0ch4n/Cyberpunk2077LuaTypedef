@@ -5,6 +5,6 @@
 ---@field public nodeRef AIArgumentMapping
 AIbehaviorIsNodeStreamedConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsNodeStreamedConditionDefinition
 ---@return AIbehaviorIsNodeStreamedConditionDefinition
 function AIbehaviorIsNodeStreamedConditionDefinition.new(fields) return end

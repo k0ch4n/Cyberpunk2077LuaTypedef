@@ -6,7 +6,7 @@
 ---@field private menuDataIndex Int32
 SubmenuDataBuilder = {}
 
----@param fields? table
+---@param fields? SubmenuDataBuilder
 ---@return SubmenuDataBuilder
 function SubmenuDataBuilder.new(fields) return end
 

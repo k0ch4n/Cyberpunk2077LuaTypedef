@@ -9,6 +9,6 @@
 ---@field public outroDuration Float
 audioRadioStationJingleMetadata = {}
 
----@param fields? table
+---@param fields? audioRadioStationJingleMetadata
 ---@return audioRadioStationJingleMetadata
 function audioRadioStationJingleMetadata.new(fields) return end

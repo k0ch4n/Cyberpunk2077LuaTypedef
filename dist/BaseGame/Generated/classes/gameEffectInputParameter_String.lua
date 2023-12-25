@@ -5,7 +5,7 @@
 ---@field public evaluator gameIEffectParameter_StringEvaluator
 gameEffectInputParameter_String = {}
 
----@param fields? table
+---@param fields? gameEffectInputParameter_String
 ---@return gameEffectInputParameter_String
 function gameEffectInputParameter_String.new(fields) return end
 

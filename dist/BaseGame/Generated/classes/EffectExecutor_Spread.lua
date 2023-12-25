@@ -8,7 +8,7 @@
 ---@field public spreadToAllTargetsInTheArea Bool
 EffectExecutor_Spread = {}
 
----@param fields? table
+---@param fields? EffectExecutor_Spread
 ---@return EffectExecutor_Spread
 function EffectExecutor_Spread.new(fields) return end
 

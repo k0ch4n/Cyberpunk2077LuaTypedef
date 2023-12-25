@@ -7,7 +7,7 @@
 ---@field private iconID TweakDBID
 ClothingSetIconButton = {}
 
----@param fields? table
+---@param fields? ClothingSetIconButton
 ---@return ClothingSetIconButton
 function ClothingSetIconButton.new(fields) return end
 

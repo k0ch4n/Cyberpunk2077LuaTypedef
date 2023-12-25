@@ -6,6 +6,6 @@
 ---@field public head inkWidgetReference
 gameuiarcadeTankEnemyController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankEnemyController
 ---@return gameuiarcadeTankEnemyController
 function gameuiarcadeTankEnemyController.new(fields) return end

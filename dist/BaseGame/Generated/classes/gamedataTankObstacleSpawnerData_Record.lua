@@ -4,7 +4,7 @@
 ---@class gamedataTankObstacleSpawnerData_Record: gamedataTweakDBRecord
 gamedataTankObstacleSpawnerData_Record = {}
 
----@param fields? table
+---@param fields? gamedataTankObstacleSpawnerData_Record
 ---@return gamedataTankObstacleSpawnerData_Record
 function gamedataTankObstacleSpawnerData_Record.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public visibleObject senseVisibleObject
 senseVisibleObjectComponent = {}
 
----@param fields? table
+---@param fields? senseVisibleObjectComponent
 ---@return senseVisibleObjectComponent
 function senseVisibleObjectComponent.new(fields) return end
 

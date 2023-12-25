@@ -5,6 +5,6 @@
 ---@field public transitionCondition gamestateMachineFunctor
 gamestateMachineTransition = {}
 
----@param fields? table
+---@param fields? gamestateMachineTransition
 ---@return gamestateMachineTransition
 function gamestateMachineTransition.new(fields) return end

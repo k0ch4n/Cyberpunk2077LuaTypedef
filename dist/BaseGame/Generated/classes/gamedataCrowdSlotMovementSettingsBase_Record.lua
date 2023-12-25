@@ -4,7 +4,7 @@
 ---@class gamedataCrowdSlotMovementSettingsBase_Record: gamedataTweakDBRecord
 gamedataCrowdSlotMovementSettingsBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataCrowdSlotMovementSettingsBase_Record
 ---@return gamedataCrowdSlotMovementSettingsBase_Record
 function gamedataCrowdSlotMovementSettingsBase_Record.new(fields) return end
 

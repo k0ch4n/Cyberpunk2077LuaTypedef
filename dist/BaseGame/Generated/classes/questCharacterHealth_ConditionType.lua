@@ -8,6 +8,6 @@
 ---@field public comparisonType EComparisonType
 questCharacterHealth_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterHealth_ConditionType
 ---@return questCharacterHealth_ConditionType
 function questCharacterHealth_ConditionType.new(fields) return end

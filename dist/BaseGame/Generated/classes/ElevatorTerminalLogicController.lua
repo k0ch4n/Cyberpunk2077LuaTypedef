@@ -7,7 +7,7 @@
 ---@field private forcedElevatorArrowsState EForcedElevatorArrowsState
 ElevatorTerminalLogicController = {}
 
----@param fields? table
+---@param fields? ElevatorTerminalLogicController
 ---@return ElevatorTerminalLogicController
 function ElevatorTerminalLogicController.new(fields) return end
 

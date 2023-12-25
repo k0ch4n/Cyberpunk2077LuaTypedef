@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionGeneratePointOfInterestTarget_Record: gamedataAISubAction_Record
 gamedataAISubActionGeneratePointOfInterestTarget_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionGeneratePointOfInterestTarget_Record
 ---@return gamedataAISubActionGeneratePointOfInterestTarget_Record
 function gamedataAISubActionGeneratePointOfInterestTarget_Record.new(fields) return end
 

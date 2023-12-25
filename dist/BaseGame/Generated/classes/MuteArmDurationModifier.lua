@@ -5,7 +5,7 @@
 ---@field public initialDuration Float
 MuteArmDurationModifier = {}
 
----@param fields? table
+---@param fields? MuteArmDurationModifier
 ---@return MuteArmDurationModifier
 function MuteArmDurationModifier.new(fields) return end
 

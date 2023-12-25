@@ -4,6 +4,6 @@
 ---@class gameRuntimeSystemLights: worldIRuntimeSystem
 gameRuntimeSystemLights = {}
 
----@param fields? table
+---@param fields? gameRuntimeSystemLights
 ---@return gameRuntimeSystemLights
 function gameRuntimeSystemLights.new(fields) return end

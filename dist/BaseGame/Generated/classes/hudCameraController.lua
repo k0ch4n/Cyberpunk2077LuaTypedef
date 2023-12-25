@@ -43,7 +43,7 @@
 ---@field private canActivateOverclock Bool
 hudCameraController = {}
 
----@param fields? table
+---@param fields? hudCameraController
 ---@return hudCameraController
 function hudCameraController.new(fields) return end
 

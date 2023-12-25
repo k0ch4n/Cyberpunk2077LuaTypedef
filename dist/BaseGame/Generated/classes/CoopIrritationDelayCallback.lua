@@ -5,7 +5,7 @@
 ---@field public companion gameObject
 CoopIrritationDelayCallback = {}
 
----@param fields? table
+---@param fields? CoopIrritationDelayCallback
 ---@return CoopIrritationDelayCallback
 function CoopIrritationDelayCallback.new(fields) return end
 

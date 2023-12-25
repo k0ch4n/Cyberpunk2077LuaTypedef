@@ -10,6 +10,6 @@
 ---@field public reservedSignposts CName[]
 audioDefaultMixingSignposts = {}
 
----@param fields? table
+---@param fields? audioDefaultMixingSignposts
 ---@return audioDefaultMixingSignposts
 function audioDefaultMixingSignposts.new(fields) return end

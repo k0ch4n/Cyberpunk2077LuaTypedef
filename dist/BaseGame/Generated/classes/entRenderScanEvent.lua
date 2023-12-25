@@ -5,6 +5,6 @@
 ---@field public scanState rendPostFx_ScanningState
 entRenderScanEvent = {}
 
----@param fields? table
+---@param fields? entRenderScanEvent
 ---@return entRenderScanEvent
 function entRenderScanEvent.new(fields) return end

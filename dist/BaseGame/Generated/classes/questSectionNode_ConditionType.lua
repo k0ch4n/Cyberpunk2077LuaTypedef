@@ -8,6 +8,6 @@
 ---@field public type questSceneConditionType
 questSectionNode_ConditionType = {}
 
----@param fields? table
+---@param fields? questSectionNode_ConditionType
 ---@return questSectionNode_ConditionType
 function questSectionNode_ConditionType.new(fields) return end

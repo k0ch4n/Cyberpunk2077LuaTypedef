@@ -12,7 +12,7 @@
 ---@field private positiveState CName
 InventoryItemStatItem = {}
 
----@param fields? table
+---@param fields? InventoryItemStatItem
 ---@return InventoryItemStatItem
 function InventoryItemStatItem.new(fields) return end
 

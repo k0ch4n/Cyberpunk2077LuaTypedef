@@ -12,6 +12,6 @@
 ---@field public templateSceneSignalOverrides audioAudioSceneSignalOverride[]
 audioAudioSceneData = {}
 
----@param fields? table
+---@param fields? audioAudioSceneData
 ---@return audioAudioSceneData
 function audioAudioSceneData.new(fields) return end

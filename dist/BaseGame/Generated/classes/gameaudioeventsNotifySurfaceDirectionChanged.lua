@@ -5,6 +5,6 @@
 ---@field public surfaceDirection gameaudioeventsSurfaceDirection
 gameaudioeventsNotifySurfaceDirectionChanged = {}
 
----@param fields? table
+---@param fields? gameaudioeventsNotifySurfaceDirectionChanged
 ---@return gameaudioeventsNotifySurfaceDirectionChanged
 function gameaudioeventsNotifySurfaceDirectionChanged.new(fields) return end

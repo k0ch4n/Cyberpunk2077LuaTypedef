@@ -14,7 +14,7 @@
 ---@field private fact5ListenerId Uint32
 hudCorpoController = {}
 
----@param fields? table
+---@param fields? hudCorpoController
 ---@return hudCorpoController
 function hudCorpoController.new(fields) return end
 

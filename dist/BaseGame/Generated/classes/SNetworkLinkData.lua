@@ -23,6 +23,6 @@
 ---@field public weakLink Bool
 SNetworkLinkData = {}
 
----@param fields? table
+---@param fields? SNetworkLinkData
 ---@return SNetworkLinkData
 function SNetworkLinkData.new(fields) return end

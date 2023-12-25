@@ -12,6 +12,6 @@
 ---@field public faceVector Vector3
 inkWorldLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkWorldLayerDefinition
 ---@return inkWorldLayerDefinition
 function inkWorldLayerDefinition.new(fields) return end

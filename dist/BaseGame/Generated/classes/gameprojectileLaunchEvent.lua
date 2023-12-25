@@ -8,6 +8,6 @@
 ---@field public projectileParams gameprojectileWeaponParams
 gameprojectileLaunchEvent = {}
 
----@param fields? table
+---@param fields? gameprojectileLaunchEvent
 ---@return gameprojectileLaunchEvent
 function gameprojectileLaunchEvent.new(fields) return end

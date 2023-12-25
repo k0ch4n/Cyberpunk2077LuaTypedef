@@ -5,6 +5,6 @@
 ---@field public connectedFragments worldTrafficLaneCrowdFragment[]
 worldTrafficLaneCrowdCreationInfo = {}
 
----@param fields? table
+---@param fields? worldTrafficLaneCrowdCreationInfo
 ---@return worldTrafficLaneCrowdCreationInfo
 function worldTrafficLaneCrowdCreationInfo.new(fields) return end

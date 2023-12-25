@@ -4,6 +4,6 @@
 ---@class gameAttachmentSlotsListenerData
 gameAttachmentSlotsListenerData = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotsListenerData
 ---@return gameAttachmentSlotsListenerData
 function gameAttachmentSlotsListenerData.new(fields) return end

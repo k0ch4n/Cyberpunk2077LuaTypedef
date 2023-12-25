@@ -8,7 +8,7 @@
 ---@field public breachesScale Float
 gameBreachControllerComponent = {}
 
----@param fields? table
+---@param fields? gameBreachControllerComponent
 ---@return gameBreachControllerComponent
 function gameBreachControllerComponent.new(fields) return end
 

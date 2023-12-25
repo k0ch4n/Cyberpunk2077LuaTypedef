@@ -7,6 +7,6 @@
 ---@field public isOpened Bool
 SetDocumentStateEvent = {}
 
----@param fields? table
+---@param fields? SetDocumentStateEvent
 ---@return SetDocumentStateEvent
 function SetDocumentStateEvent.new(fields) return end

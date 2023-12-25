@@ -8,7 +8,7 @@
 ---@field private panelWidget inkBasePanelWidget
 sampleUIPathAndReferenceGameController = {}
 
----@param fields? table
+---@param fields? sampleUIPathAndReferenceGameController
 ---@return sampleUIPathAndReferenceGameController
 function sampleUIPathAndReferenceGameController.new(fields) return end
 

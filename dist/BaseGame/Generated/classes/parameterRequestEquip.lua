@@ -6,6 +6,6 @@
 ---@field public itemID gameItemID
 parameterRequestEquip = {}
 
----@param fields? table
+---@param fields? parameterRequestEquip
 ---@return parameterRequestEquip
 function parameterRequestEquip.new(fields) return end

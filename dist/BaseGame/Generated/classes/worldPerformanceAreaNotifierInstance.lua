@@ -4,6 +4,6 @@
 ---@class worldPerformanceAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldPerformanceAreaNotifierInstance = {}
 
----@param fields? table
+---@param fields? worldPerformanceAreaNotifierInstance
 ---@return worldPerformanceAreaNotifierInstance
 function worldPerformanceAreaNotifierInstance.new(fields) return end

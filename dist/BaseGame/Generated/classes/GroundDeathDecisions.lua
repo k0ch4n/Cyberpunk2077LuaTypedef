@@ -4,7 +4,7 @@
 ---@class GroundDeathDecisions: DeathDecisionsWithResurrection
 GroundDeathDecisions = {}
 
----@param fields? table
+---@param fields? GroundDeathDecisions
 ---@return GroundDeathDecisions
 function GroundDeathDecisions.new(fields) return end
 

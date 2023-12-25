@@ -6,6 +6,6 @@
 ---@field public overrideMovementTarget gameObject
 SpiderbotOrderDeviceEvent = {}
 
----@param fields? table
+---@param fields? SpiderbotOrderDeviceEvent
 ---@return SpiderbotOrderDeviceEvent
 function SpiderbotOrderDeviceEvent.new(fields) return end

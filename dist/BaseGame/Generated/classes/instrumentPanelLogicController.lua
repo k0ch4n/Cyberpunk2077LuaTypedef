@@ -9,7 +9,7 @@
 ---@field private vehBB gameIBlackboard
 instrumentPanelLogicController = {}
 
----@param fields? table
+---@param fields? instrumentPanelLogicController
 ---@return instrumentPanelLogicController
 function instrumentPanelLogicController.new(fields) return end
 

@@ -5,7 +5,7 @@
 ---@field public faction String
 ScannerFaction = {}
 
----@param fields? table
+---@param fields? ScannerFaction
 ---@return ScannerFaction
 function ScannerFaction.new(fields) return end
 

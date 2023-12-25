@@ -5,7 +5,7 @@
 ---@field protected moduleType EGameSessionDataType
 GameSessionDataModule = {}
 
----@param fields? table
+---@param fields? GameSessionDataModule
 ---@return GameSessionDataModule
 function GameSessionDataModule.new(fields) return end
 

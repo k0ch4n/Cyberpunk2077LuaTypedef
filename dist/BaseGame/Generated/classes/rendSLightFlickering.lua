@@ -7,6 +7,6 @@
 ---@field public flickerPeriod Float
 rendSLightFlickering = {}
 
----@param fields? table
+---@param fields? rendSLightFlickering
 ---@return rendSLightFlickering
 function rendSLightFlickering.new(fields) return end

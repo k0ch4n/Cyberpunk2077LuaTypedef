@@ -4,7 +4,7 @@
 ---@class VehiclePlayerTrunk: ActionBool
 VehiclePlayerTrunk = {}
 
----@param fields? table
+---@param fields? VehiclePlayerTrunk
 ---@return VehiclePlayerTrunk
 function VehiclePlayerTrunk.new(fields) return end
 

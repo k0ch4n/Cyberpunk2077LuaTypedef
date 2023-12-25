@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakStateConditionData
 AIbehaviortweakStateConditionData = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakStateConditionData
 ---@return AIbehaviortweakStateConditionData
 function AIbehaviortweakStateConditionData.new(fields) return end

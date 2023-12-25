@@ -10,6 +10,6 @@
 ---@field public Params animfssBodyOfflineParams
 animAnimNode_FootStepScaling = {}
 
----@param fields? table
+---@param fields? animAnimNode_FootStepScaling
 ---@return animAnimNode_FootStepScaling
 function animAnimNode_FootStepScaling.new(fields) return end

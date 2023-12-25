@@ -8,6 +8,6 @@
 ---@field public defaultColor Color
 worldDebugColoring_StreamingCullingFlag = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_StreamingCullingFlag
 ---@return worldDebugColoring_StreamingCullingFlag
 function worldDebugColoring_StreamingCullingFlag.new(fields) return end

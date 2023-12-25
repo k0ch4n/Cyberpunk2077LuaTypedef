@@ -4,7 +4,7 @@
 ---@class SetSearchInfluenceTask: AIbehaviortaskScript
 SetSearchInfluenceTask = {}
 
----@param fields? table
+---@param fields? SetSearchInfluenceTask
 ---@return SetSearchInfluenceTask
 function SetSearchInfluenceTask.new(fields) return end
 

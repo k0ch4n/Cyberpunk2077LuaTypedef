@@ -21,7 +21,7 @@
 ---@field private fadeInOutDelay Float
 gameuiBaseWorldMapMappinController = {}
 
----@param fields? table
+---@param fields? gameuiBaseWorldMapMappinController
 ---@return gameuiBaseWorldMapMappinController
 function gameuiBaseWorldMapMappinController.new(fields) return end
 

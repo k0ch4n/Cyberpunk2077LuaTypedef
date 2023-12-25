@@ -4,7 +4,7 @@
 ---@class gamedataLandingFxPackage_Record: gamedataTweakDBRecord
 gamedataLandingFxPackage_Record = {}
 
----@param fields? table
+---@param fields? gamedataLandingFxPackage_Record
 ---@return gamedataLandingFxPackage_Record
 function gamedataLandingFxPackage_Record.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public queryDetect CName[]
 physicsCustomFilterData = {}
 
----@param fields? table
+---@param fields? physicsCustomFilterData
 ---@return physicsCustomFilterData
 function physicsCustomFilterData.new(fields) return end

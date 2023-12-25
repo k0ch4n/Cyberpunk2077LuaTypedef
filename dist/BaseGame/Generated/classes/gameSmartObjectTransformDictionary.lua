@@ -5,6 +5,6 @@
 ---@field public transforms gameSmartObjectTransformDictionaryTransformEntry[]
 gameSmartObjectTransformDictionary = {}
 
----@param fields? table
+---@param fields? gameSmartObjectTransformDictionary
 ---@return gameSmartObjectTransformDictionary
 function gameSmartObjectTransformDictionary.new(fields) return end

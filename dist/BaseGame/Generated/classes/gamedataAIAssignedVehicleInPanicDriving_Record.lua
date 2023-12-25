@@ -4,7 +4,7 @@
 ---@class gamedataAIAssignedVehicleInPanicDriving_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleInPanicDriving_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIAssignedVehicleInPanicDriving_Record
 ---@return gamedataAIAssignedVehicleInPanicDriving_Record
 function gamedataAIAssignedVehicleInPanicDriving_Record.new(fields) return end
 

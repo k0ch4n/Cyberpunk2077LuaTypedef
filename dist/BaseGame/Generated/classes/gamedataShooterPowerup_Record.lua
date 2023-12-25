@@ -4,7 +4,7 @@
 ---@class gamedataShooterPowerup_Record: gamedataShooterObject_Record
 gamedataShooterPowerup_Record = {}
 
----@param fields? table
+---@param fields? gamedataShooterPowerup_Record
 ---@return gamedataShooterPowerup_Record
 function gamedataShooterPowerup_Record.new(fields) return end
 

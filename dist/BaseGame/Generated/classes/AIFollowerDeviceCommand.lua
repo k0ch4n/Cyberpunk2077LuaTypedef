@@ -6,6 +6,6 @@
 ---@field public overrideMovementTarget gameObject
 AIFollowerDeviceCommand = {}
 
----@param fields? table
+---@param fields? AIFollowerDeviceCommand
 ---@return AIFollowerDeviceCommand
 function AIFollowerDeviceCommand.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public WheelDirection EDPadSlot
 QuickWheelEndUIStructure = {}
 
----@param fields? table
+---@param fields? QuickWheelEndUIStructure
 ---@return QuickWheelEndUIStructure
 function QuickWheelEndUIStructure.new(fields) return end

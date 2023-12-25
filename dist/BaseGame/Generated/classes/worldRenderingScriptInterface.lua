@@ -4,7 +4,7 @@
 ---@class worldRenderingScriptInterface: IScriptable
 worldRenderingScriptInterface = {}
 
----@param fields? table
+---@param fields? worldRenderingScriptInterface
 ---@return worldRenderingScriptInterface
 function worldRenderingScriptInterface.new(fields) return end
 

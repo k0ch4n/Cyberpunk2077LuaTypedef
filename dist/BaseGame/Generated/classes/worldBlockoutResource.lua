@@ -5,6 +5,6 @@
 ---@field public blockoutData worldBlockoutData
 worldBlockoutResource = {}
 
----@param fields? table
+---@param fields? worldBlockoutResource
 ---@return worldBlockoutResource
 function worldBlockoutResource.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public threateningEntityCanTriggersCombat Bool
 AIRemovedAsHostileThreat = {}
 
----@param fields? table
+---@param fields? AIRemovedAsHostileThreat
 ---@return AIRemovedAsHostileThreat
 function AIRemovedAsHostileThreat.new(fields) return end

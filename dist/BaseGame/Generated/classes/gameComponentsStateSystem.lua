@@ -4,6 +4,6 @@
 ---@class gameComponentsStateSystem: gameIComponentsStateSystem
 gameComponentsStateSystem = {}
 
----@param fields? table
+---@param fields? gameComponentsStateSystem
 ---@return gameComponentsStateSystem
 function gameComponentsStateSystem.new(fields) return end

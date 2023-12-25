@@ -4,7 +4,7 @@
 ---@class SetDeviceON: ActionBool
 SetDeviceON = {}
 
----@param fields? table
+---@param fields? SetDeviceON
 ---@return SetDeviceON
 function SetDeviceON.new(fields) return end
 

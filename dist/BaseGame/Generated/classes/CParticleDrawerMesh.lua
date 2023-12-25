@@ -6,6 +6,6 @@
 ---@field public orientationMode EMeshParticleOrientationMode
 CParticleDrawerMesh = {}
 
----@param fields? table
+---@param fields? CParticleDrawerMesh
 ---@return CParticleDrawerMesh
 function CParticleDrawerMesh.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public componentName CName
 entVisualControllerDependency = {}
 
----@param fields? table
+---@param fields? entVisualControllerDependency
 ---@return entVisualControllerDependency
 function entVisualControllerDependency.new(fields) return end

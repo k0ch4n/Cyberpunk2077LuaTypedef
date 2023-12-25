@@ -6,7 +6,7 @@
 ---@field public unitThreshold Float
 ModifyDamageWithVelocity = {}
 
----@param fields? table
+---@param fields? ModifyDamageWithVelocity
 ---@return ModifyDamageWithVelocity
 function ModifyDamageWithVelocity.new(fields) return end
 

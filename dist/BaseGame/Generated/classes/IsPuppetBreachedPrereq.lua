@@ -5,7 +5,7 @@
 ---@field private isBreached Bool
 IsPuppetBreachedPrereq = {}
 
----@param fields? table
+---@param fields? IsPuppetBreachedPrereq
 ---@return IsPuppetBreachedPrereq
 function IsPuppetBreachedPrereq.new(fields) return end
 

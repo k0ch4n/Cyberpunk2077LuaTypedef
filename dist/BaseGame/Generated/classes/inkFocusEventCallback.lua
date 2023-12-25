@@ -4,6 +4,6 @@
 ---@class inkFocusEventCallback: inkCallbackBase
 inkFocusEventCallback = {}
 
----@param fields? table
+---@param fields? inkFocusEventCallback
 ---@return inkFocusEventCallback
 function inkFocusEventCallback.new(fields) return end

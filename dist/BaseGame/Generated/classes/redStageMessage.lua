@@ -8,6 +8,6 @@
 ---@field public ids Uint32[]
 redStageMessage = {}
 
----@param fields? table
+---@param fields? redStageMessage
 ---@return redStageMessage
 function redStageMessage.new(fields) return end

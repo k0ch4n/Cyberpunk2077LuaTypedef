@@ -4,6 +4,6 @@
 ---@class AIbehaviortweakInstanceRef
 AIbehaviortweakInstanceRef = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakInstanceRef
 ---@return AIbehaviortweakInstanceRef
 function AIbehaviortweakInstanceRef.new(fields) return end

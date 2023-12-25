@@ -7,7 +7,7 @@
 ---@field public abilities gameInventoryItemAbility[]
 ProgramEntry = {}
 
----@param fields? table
+---@param fields? ProgramEntry
 ---@return ProgramEntry
 function ProgramEntry.new(fields) return end
 

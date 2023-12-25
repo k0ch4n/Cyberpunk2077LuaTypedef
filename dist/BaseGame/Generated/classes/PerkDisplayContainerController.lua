@@ -10,7 +10,7 @@
 ---@field protected controller PerkDisplayController
 PerkDisplayContainerController = {}
 
----@param fields? table
+---@param fields? PerkDisplayContainerController
 ---@return PerkDisplayContainerController
 function PerkDisplayContainerController.new(fields) return end
 

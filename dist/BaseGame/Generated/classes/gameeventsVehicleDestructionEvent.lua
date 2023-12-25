@@ -8,6 +8,6 @@
 ---@field public hitComponent entIPlacedComponent
 gameeventsVehicleDestructionEvent = {}
 
----@param fields? table
+---@param fields? gameeventsVehicleDestructionEvent
 ---@return gameeventsVehicleDestructionEvent
 function gameeventsVehicleDestructionEvent.new(fields) return end

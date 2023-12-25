@@ -8,6 +8,6 @@
 ---@field public transitions inkCompositionTransition[]
 inkCompositionPreset = {}
 
----@param fields? table
+---@param fields? inkCompositionPreset
 ---@return inkCompositionPreset
 function inkCompositionPreset.new(fields) return end

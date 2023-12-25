@@ -13,6 +13,6 @@
 ---@field public isFirstEquip Bool
 gameSlotWeaponData = {}
 
----@param fields? table
+---@param fields? gameSlotWeaponData
 ---@return gameSlotWeaponData
 function gameSlotWeaponData.new(fields) return end

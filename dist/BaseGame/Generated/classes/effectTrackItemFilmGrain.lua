@@ -8,6 +8,6 @@
 ---@field public mask ERenderObjectType[]
 effectTrackItemFilmGrain = {}
 
----@param fields? table
+---@param fields? effectTrackItemFilmGrain
 ---@return effectTrackItemFilmGrain
 function effectTrackItemFilmGrain.new(fields) return end

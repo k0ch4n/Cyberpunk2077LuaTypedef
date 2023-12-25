@@ -4,7 +4,7 @@
 ---@class gamedataHandicapLootList_Record: gamedataTweakDBRecord
 gamedataHandicapLootList_Record = {}
 
----@param fields? table
+---@param fields? gamedataHandicapLootList_Record
 ---@return gamedataHandicapLootList_Record
 function gamedataHandicapLootList_Record.new(fields) return end
 

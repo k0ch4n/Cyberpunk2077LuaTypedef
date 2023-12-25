@@ -4,7 +4,7 @@
 ---@class CombatConditions: AIAutonomousConditions
 CombatConditions = {}
 
----@param fields? table
+---@param fields? CombatConditions
 ---@return CombatConditions
 function CombatConditions.new(fields) return end
 

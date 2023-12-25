@@ -4,7 +4,7 @@
 ---@class MeasurementUtils
 MeasurementUtils = {}
 
----@param fields? table
+---@param fields? MeasurementUtils
 ---@return MeasurementUtils
 function MeasurementUtils.new(fields) return end
 

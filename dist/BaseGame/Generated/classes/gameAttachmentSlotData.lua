@@ -9,6 +9,6 @@
 ---@field public appearanceItemID gameItemID
 gameAttachmentSlotData = {}
 
----@param fields? table
+---@param fields? gameAttachmentSlotData
 ---@return gameAttachmentSlotData
 function gameAttachmentSlotData.new(fields) return end

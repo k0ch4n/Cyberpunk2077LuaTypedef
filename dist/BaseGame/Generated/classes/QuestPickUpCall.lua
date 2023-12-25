@@ -4,7 +4,7 @@
 ---@class QuestPickUpCall: ActionBool
 QuestPickUpCall = {}
 
----@param fields? table
+---@param fields? QuestPickUpCall
 ---@return QuestPickUpCall
 function QuestPickUpCall.new(fields) return end
 

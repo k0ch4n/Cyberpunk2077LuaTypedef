@@ -5,6 +5,6 @@
 ---@field public vector Vector4
 CMaterialParameterVector = {}
 
----@param fields? table
+---@param fields? CMaterialParameterVector
 ---@return CMaterialParameterVector
 function CMaterialParameterVector.new(fields) return end

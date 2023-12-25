@@ -30,7 +30,7 @@
 ---@field public resultPopupAnimProxy inkanimProxy
 OpeningGateScreenGameController = {}
 
----@param fields? table
+---@param fields? OpeningGateScreenGameController
 ---@return OpeningGateScreenGameController
 function OpeningGateScreenGameController.new(fields) return end
 

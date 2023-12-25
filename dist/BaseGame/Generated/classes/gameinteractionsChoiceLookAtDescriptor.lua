@@ -8,6 +8,6 @@
 ---@field public orbId gameinteractionsOrbID
 gameinteractionsChoiceLookAtDescriptor = {}
 
----@param fields? table
+---@param fields? gameinteractionsChoiceLookAtDescriptor
 ---@return gameinteractionsChoiceLookAtDescriptor
 function gameinteractionsChoiceLookAtDescriptor.new(fields) return end

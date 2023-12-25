@@ -7,6 +7,6 @@
 ---@field public seed Uint32
 gameStatsSeedKey = {}
 
----@param fields? table
+---@param fields? gameStatsSeedKey
 ---@return gameStatsSeedKey
 function gameStatsSeedKey.new(fields) return end

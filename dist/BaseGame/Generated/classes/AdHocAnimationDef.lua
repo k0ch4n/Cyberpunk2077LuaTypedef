@@ -9,7 +9,7 @@
 ---@field public AnimationDuration gamebbScriptID_Float
 AdHocAnimationDef = {}
 
----@param fields? table
+---@param fields? AdHocAnimationDef
 ---@return AdHocAnimationDef
 function AdHocAnimationDef.new(fields) return end
 

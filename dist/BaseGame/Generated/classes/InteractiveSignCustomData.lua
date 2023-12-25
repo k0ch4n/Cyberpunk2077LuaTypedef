@@ -6,7 +6,7 @@
 ---@field private signShape SignShape
 InteractiveSignCustomData = {}
 
----@param fields? table
+---@param fields? InteractiveSignCustomData
 ---@return InteractiveSignCustomData
 function InteractiveSignCustomData.new(fields) return end
 

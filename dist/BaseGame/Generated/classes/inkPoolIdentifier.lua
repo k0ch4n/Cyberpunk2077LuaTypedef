@@ -4,6 +4,6 @@
 ---@class inkPoolIdentifier: inkUserData
 inkPoolIdentifier = {}
 
----@param fields? table
+---@param fields? inkPoolIdentifier
 ---@return inkPoolIdentifier
 function inkPoolIdentifier.new(fields) return end

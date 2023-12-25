@@ -6,7 +6,7 @@
 ---@field protected withSelfDamage Bool
 EffectPreAction_PreAttack = {}
 
----@param fields? table
+---@param fields? EffectPreAction_PreAttack
 ---@return EffectPreAction_PreAttack
 function EffectPreAction_PreAttack.new(fields) return end
 

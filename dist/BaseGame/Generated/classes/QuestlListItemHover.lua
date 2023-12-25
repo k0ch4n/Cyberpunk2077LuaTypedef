@@ -5,6 +5,6 @@
 ---@field public hash Int32
 QuestlListItemHover = {}
 
----@param fields? table
+---@param fields? QuestlListItemHover
 ---@return QuestlListItemHover
 function QuestlListItemHover.new(fields) return end

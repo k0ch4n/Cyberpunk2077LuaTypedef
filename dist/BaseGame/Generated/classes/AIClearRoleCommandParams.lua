@@ -4,7 +4,7 @@
 ---@class AIClearRoleCommandParams: questScriptedAICommandParams
 AIClearRoleCommandParams = {}
 
----@param fields? table
+---@param fields? AIClearRoleCommandParams
 ---@return AIClearRoleCommandParams
 function AIClearRoleCommandParams.new(fields) return end
 

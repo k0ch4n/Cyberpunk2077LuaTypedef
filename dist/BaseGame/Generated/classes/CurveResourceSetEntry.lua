@@ -6,6 +6,6 @@
 ---@field public curveResRef CurveSet
 CurveResourceSetEntry = {}
 
----@param fields? table
+---@param fields? CurveResourceSetEntry
 ---@return CurveResourceSetEntry
 function CurveResourceSetEntry.new(fields) return end

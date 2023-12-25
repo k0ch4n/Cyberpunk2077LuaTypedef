@@ -8,7 +8,7 @@
 ---@field private animProxy inkanimProxy
 GamepadHoldIndicatorGameController = {}
 
----@param fields? table
+---@param fields? GamepadHoldIndicatorGameController
 ---@return GamepadHoldIndicatorGameController
 function GamepadHoldIndicatorGameController.new(fields) return end
 

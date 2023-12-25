@@ -6,6 +6,6 @@
 ---@field public resolver AIbehaviorEventResolverDefinition
 AIbehaviorEventHandlerNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEventHandlerNodeDefinition
 ---@return AIbehaviorEventHandlerNodeDefinition
 function AIbehaviorEventHandlerNodeDefinition.new(fields) return end

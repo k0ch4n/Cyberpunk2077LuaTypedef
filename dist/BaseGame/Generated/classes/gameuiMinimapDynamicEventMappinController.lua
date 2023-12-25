@@ -9,7 +9,7 @@
 ---@field private pulseAnim inkanimProxy
 gameuiMinimapDynamicEventMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapDynamicEventMappinController
 ---@return gameuiMinimapDynamicEventMappinController
 function gameuiMinimapDynamicEventMappinController.new(fields) return end
 

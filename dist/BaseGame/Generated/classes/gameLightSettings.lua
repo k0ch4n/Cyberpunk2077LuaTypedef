@@ -10,6 +10,6 @@
 ---@field public outerAngle Float
 gameLightSettings = {}
 
----@param fields? table
+---@param fields? gameLightSettings
 ---@return gameLightSettings
 function gameLightSettings.new(fields) return end

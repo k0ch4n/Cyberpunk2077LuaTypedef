@@ -4,7 +4,7 @@
 ---@class AIbehaviorUniqueActiveCommandList
 AIbehaviorUniqueActiveCommandList = {}
 
----@param fields? table
+---@param fields? AIbehaviorUniqueActiveCommandList
 ---@return AIbehaviorUniqueActiveCommandList
 function AIbehaviorUniqueActiveCommandList.new(fields) return end
 

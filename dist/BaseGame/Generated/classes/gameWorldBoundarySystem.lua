@@ -4,6 +4,6 @@
 ---@class gameWorldBoundarySystem: gameIWorldBoundarySystem
 gameWorldBoundarySystem = {}
 
----@param fields? table
+---@param fields? gameWorldBoundarySystem
 ---@return gameWorldBoundarySystem
 function gameWorldBoundarySystem.new(fields) return end

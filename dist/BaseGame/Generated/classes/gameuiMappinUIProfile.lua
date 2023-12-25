@@ -8,7 +8,7 @@
 ---@field public runtime gamedataMappinUIRuntimeProfile_Record
 gameuiMappinUIProfile = {}
 
----@param fields? table
+---@param fields? gameuiMappinUIProfile
 ---@return gameuiMappinUIProfile
 function gameuiMappinUIProfile.new(fields) return end
 

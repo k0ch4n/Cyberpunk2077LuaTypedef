@@ -4,7 +4,7 @@
 ---@class SetOpened: ActionBool
 SetOpened = {}
 
----@param fields? table
+---@param fields? SetOpened
 ---@return SetOpened
 function SetOpened.new(fields) return end
 

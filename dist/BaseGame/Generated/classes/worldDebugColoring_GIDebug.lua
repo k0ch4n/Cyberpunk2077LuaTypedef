@@ -6,6 +6,6 @@
 ---@field public GITransparentColor Color
 worldDebugColoring_GIDebug = {}
 
----@param fields? table
+---@param fields? worldDebugColoring_GIDebug
 ---@return worldDebugColoring_GIDebug
 function worldDebugColoring_GIDebug.new(fields) return end

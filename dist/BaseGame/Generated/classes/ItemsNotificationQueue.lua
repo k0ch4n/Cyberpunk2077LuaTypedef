@@ -18,7 +18,7 @@
 ---@field private delaySystem gameDelaySystem
 ItemsNotificationQueue = {}
 
----@param fields? table
+---@param fields? ItemsNotificationQueue
 ---@return ItemsNotificationQueue
 function ItemsNotificationQueue.new(fields) return end
 

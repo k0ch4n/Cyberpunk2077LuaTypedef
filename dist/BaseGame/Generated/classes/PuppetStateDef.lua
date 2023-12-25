@@ -23,7 +23,7 @@
 ---@field public DetectionPercentage gamebbScriptID_Float
 PuppetStateDef = {}
 
----@param fields? table
+---@param fields? PuppetStateDef
 ---@return PuppetStateDef
 function PuppetStateDef.new(fields) return end
 

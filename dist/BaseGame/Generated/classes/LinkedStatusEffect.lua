@@ -7,6 +7,6 @@
 ---@field public statusEffectList TweakDBID[]
 LinkedStatusEffect = {}
 
----@param fields? table
+---@param fields? LinkedStatusEffect
 ---@return LinkedStatusEffect
 function LinkedStatusEffect.new(fields) return end

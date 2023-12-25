@@ -4,6 +4,6 @@
 ---@class vehicleAutopilot
 vehicleAutopilot = {}
 
----@param fields? table
+---@param fields? vehicleAutopilot
 ---@return vehicleAutopilot
 function vehicleAutopilot.new(fields) return end

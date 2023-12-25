@@ -4,7 +4,7 @@
 ---@class InTauntUpperBodyState: AINPCUpperBodyStateCheck
 InTauntUpperBodyState = {}
 
----@param fields? table
+---@param fields? InTauntUpperBodyState
 ---@return InTauntUpperBodyState
 function InTauntUpperBodyState.new(fields) return end
 

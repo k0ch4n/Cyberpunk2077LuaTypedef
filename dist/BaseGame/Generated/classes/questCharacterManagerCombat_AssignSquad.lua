@@ -7,6 +7,6 @@
 ---@field public squadType AISquadType
 questCharacterManagerCombat_AssignSquad = {}
 
----@param fields? table
+---@param fields? questCharacterManagerCombat_AssignSquad
 ---@return questCharacterManagerCombat_AssignSquad
 function questCharacterManagerCombat_AssignSquad.new(fields) return end

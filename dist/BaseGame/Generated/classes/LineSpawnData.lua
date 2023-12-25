@@ -5,7 +5,7 @@
 ---@field public lineData scnDialogLineData
 LineSpawnData = {}
 
----@param fields? table
+---@param fields? LineSpawnData
 ---@return LineSpawnData
 function LineSpawnData.new(fields) return end
 

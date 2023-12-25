@@ -7,7 +7,7 @@
 ---@field private activeLinkedClue LinkedFocusClueData
 FocusCluesSystem = {}
 
----@param fields? table
+---@param fields? FocusCluesSystem
 ---@return FocusCluesSystem
 function FocusCluesSystem.new(fields) return end
 

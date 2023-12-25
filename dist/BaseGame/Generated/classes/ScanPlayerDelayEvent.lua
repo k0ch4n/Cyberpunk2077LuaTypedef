@@ -4,6 +4,6 @@
 ---@class ScanPlayerDelayEvent: redEvent
 ScanPlayerDelayEvent = {}
 
----@param fields? table
+---@param fields? ScanPlayerDelayEvent
 ---@return ScanPlayerDelayEvent
 function ScanPlayerDelayEvent.new(fields) return end

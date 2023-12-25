@@ -6,6 +6,6 @@
 ---@field public hits Int32
 CuttingGrenadePotentialTarget = {}
 
----@param fields? table
+---@param fields? CuttingGrenadePotentialTarget
 ---@return CuttingGrenadePotentialTarget
 function CuttingGrenadePotentialTarget.new(fields) return end

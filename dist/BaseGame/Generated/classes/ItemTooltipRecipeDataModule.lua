@@ -12,7 +12,7 @@
 ---@field private damageTypesContainer inkCompoundWidgetReference
 ItemTooltipRecipeDataModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipRecipeDataModule
 ---@return ItemTooltipRecipeDataModule
 function ItemTooltipRecipeDataModule.new(fields) return end
 

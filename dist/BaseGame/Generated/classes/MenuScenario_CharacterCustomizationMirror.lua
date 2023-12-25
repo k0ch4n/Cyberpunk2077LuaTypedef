@@ -5,7 +5,7 @@
 ---@field private morphMenuUserData MorphMenuUserData
 MenuScenario_CharacterCustomizationMirror = {}
 
----@param fields? table
+---@param fields? MenuScenario_CharacterCustomizationMirror
 ---@return MenuScenario_CharacterCustomizationMirror
 function MenuScenario_CharacterCustomizationMirror.new(fields) return end
 

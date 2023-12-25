@@ -25,6 +25,6 @@
 ---@field public isDelayActive Bool
 SBaseDeviceOperationData = {}
 
----@param fields? table
+---@param fields? SBaseDeviceOperationData
 ---@return SBaseDeviceOperationData
 function SBaseDeviceOperationData.new(fields) return end

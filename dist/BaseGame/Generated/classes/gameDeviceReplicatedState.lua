@@ -4,6 +4,6 @@
 ---@class gameDeviceReplicatedState: IScriptable
 gameDeviceReplicatedState = {}
 
----@param fields? table
+---@param fields? gameDeviceReplicatedState
 ---@return gameDeviceReplicatedState
 function gameDeviceReplicatedState.new(fields) return end

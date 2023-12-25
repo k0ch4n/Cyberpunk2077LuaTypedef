@@ -13,6 +13,6 @@
 ---@field public trafficLaneExitTangent AIArgumentMapping
 AIbehaviorMoveAlongTrafficPathActionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorMoveAlongTrafficPathActionNodeDefinition
 ---@return AIbehaviorMoveAlongTrafficPathActionNodeDefinition
 function AIbehaviorMoveAlongTrafficPathActionNodeDefinition.new(fields) return end

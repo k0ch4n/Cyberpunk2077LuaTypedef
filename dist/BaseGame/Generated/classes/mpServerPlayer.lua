@@ -4,6 +4,6 @@
 ---@class mpServerPlayer: mpPlayer
 mpServerPlayer = {}
 
----@param fields? table
+---@param fields? mpServerPlayer
 ---@return mpServerPlayer
 function mpServerPlayer.new(fields) return end

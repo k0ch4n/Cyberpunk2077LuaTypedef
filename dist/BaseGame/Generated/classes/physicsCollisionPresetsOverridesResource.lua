@@ -5,6 +5,6 @@
 ---@field public overrides physicsCollisionPresetOverride[]
 physicsCollisionPresetsOverridesResource = {}
 
----@param fields? table
+---@param fields? physicsCollisionPresetsOverridesResource
 ---@return physicsCollisionPresetsOverridesResource
 function physicsCollisionPresetsOverridesResource.new(fields) return end

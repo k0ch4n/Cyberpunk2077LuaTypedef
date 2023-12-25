@@ -4,7 +4,7 @@
 ---@class PingSystemMappinController: gameuiInteractionMappinController
 PingSystemMappinController = {}
 
----@param fields? table
+---@param fields? PingSystemMappinController
 ---@return PingSystemMappinController
 function PingSystemMappinController.new(fields) return end
 

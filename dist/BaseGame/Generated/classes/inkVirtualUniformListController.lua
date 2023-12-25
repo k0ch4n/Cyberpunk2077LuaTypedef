@@ -5,6 +5,6 @@
 ---@field public itemTemplate inkWidgetLibraryReference
 inkVirtualUniformListController = {}
 
----@param fields? table
+---@param fields? inkVirtualUniformListController
 ---@return inkVirtualUniformListController
 function inkVirtualUniformListController.new(fields) return end

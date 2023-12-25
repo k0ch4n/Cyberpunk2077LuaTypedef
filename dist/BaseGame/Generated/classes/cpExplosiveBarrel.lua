@@ -6,6 +6,6 @@
 ---@field public destructionComponentName CName
 cpExplosiveBarrel = {}
 
----@param fields? table
+---@param fields? cpExplosiveBarrel
 ---@return cpExplosiveBarrel
 function cpExplosiveBarrel.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public quality gamedataQuality
 gameTelemetryQuickHack = {}
 
----@param fields? table
+---@param fields? gameTelemetryQuickHack
 ---@return gameTelemetryQuickHack
 function gameTelemetryQuickHack.new(fields) return end

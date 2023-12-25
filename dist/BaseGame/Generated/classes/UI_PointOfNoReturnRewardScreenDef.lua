@@ -5,7 +5,7 @@
 ---@field public Rewards gamebbScriptID_Variant
 UI_PointOfNoReturnRewardScreenDef = {}
 
----@param fields? table
+---@param fields? UI_PointOfNoReturnRewardScreenDef
 ---@return UI_PointOfNoReturnRewardScreenDef
 function UI_PointOfNoReturnRewardScreenDef.new(fields) return end
 

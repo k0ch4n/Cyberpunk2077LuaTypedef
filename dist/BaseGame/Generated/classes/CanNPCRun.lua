@@ -5,7 +5,7 @@
 ---@field public maxRunners Int32
 CanNPCRun = {}
 
----@param fields? table
+---@param fields? CanNPCRun
 ---@return CanNPCRun
 function CanNPCRun.new(fields) return end
 

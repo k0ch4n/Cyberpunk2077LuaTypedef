@@ -6,6 +6,6 @@
 ---@field public nodeID Uint64
 worldRelativeNodePathElement = {}
 
----@param fields? table
+---@param fields? worldRelativeNodePathElement
 ---@return worldRelativeNodePathElement
 function worldRelativeNodePathElement.new(fields) return end

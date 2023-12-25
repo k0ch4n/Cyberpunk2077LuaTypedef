@@ -5,7 +5,7 @@
 ---@field public hackingCheck HackingSkillCheck
 HackingContainer = {}
 
----@param fields? table
+---@param fields? HackingContainer
 ---@return HackingContainer
 function HackingContainer.new(fields) return end
 

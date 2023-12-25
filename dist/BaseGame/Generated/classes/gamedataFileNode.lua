@@ -9,6 +9,6 @@
 ---@field public groups gamedataGroupNode[]
 gamedataFileNode = {}
 
----@param fields? table
+---@param fields? gamedataFileNode
 ---@return gamedataFileNode
 function gamedataFileNode.new(fields) return end

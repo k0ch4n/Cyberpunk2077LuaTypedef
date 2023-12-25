@@ -13,6 +13,6 @@
 ---@field public mapEndBorder Vector2
 gameuiarcadeShooterLevelController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeShooterLevelController
 ---@return gameuiarcadeShooterLevelController
 function gameuiarcadeShooterLevelController.new(fields) return end

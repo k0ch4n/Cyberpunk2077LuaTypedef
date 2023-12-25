@@ -8,6 +8,6 @@
 ---@field public resetDof Bool
 scneventsCameraOverrideSettings = {}
 
----@param fields? table
+---@param fields? scneventsCameraOverrideSettings
 ---@return scneventsCameraOverrideSettings
 function scneventsCameraOverrideSettings.new(fields) return end

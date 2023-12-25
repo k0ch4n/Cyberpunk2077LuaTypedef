@@ -5,7 +5,7 @@
 ---@field public invert Bool
 IsPuppetActivePrereq = {}
 
----@param fields? table
+---@param fields? IsPuppetActivePrereq
 ---@return IsPuppetActivePrereq
 function IsPuppetActivePrereq.new(fields) return end
 

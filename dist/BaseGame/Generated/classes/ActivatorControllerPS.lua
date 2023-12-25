@@ -12,7 +12,7 @@
 ---@field private alternativeInteractionString String
 ActivatorControllerPS = {}
 
----@param fields? table
+---@param fields? ActivatorControllerPS
 ---@return ActivatorControllerPS
 function ActivatorControllerPS.new(fields) return end
 

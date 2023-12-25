@@ -4,6 +4,6 @@
 ---@class gameuiSetPhotoModeKeyEnabledCallback: inkCallbackBase
 gameuiSetPhotoModeKeyEnabledCallback = {}
 
----@param fields? table
+---@param fields? gameuiSetPhotoModeKeyEnabledCallback
 ---@return gameuiSetPhotoModeKeyEnabledCallback
 function gameuiSetPhotoModeKeyEnabledCallback.new(fields) return end

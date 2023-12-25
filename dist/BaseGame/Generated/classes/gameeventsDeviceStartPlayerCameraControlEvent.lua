@@ -10,6 +10,6 @@
 ---@field public maxPitch Float
 gameeventsDeviceStartPlayerCameraControlEvent = {}
 
----@param fields? table
+---@param fields? gameeventsDeviceStartPlayerCameraControlEvent
 ---@return gameeventsDeviceStartPlayerCameraControlEvent
 function gameeventsDeviceStartPlayerCameraControlEvent.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public vehicleInteractionState vehicleVehicleDoorInteractionState
 vehicleVehicleSlotsState = {}
 
----@param fields? table
+---@param fields? vehicleVehicleSlotsState
 ---@return vehicleVehicleSlotsState
 function vehicleVehicleSlotsState.new(fields) return end

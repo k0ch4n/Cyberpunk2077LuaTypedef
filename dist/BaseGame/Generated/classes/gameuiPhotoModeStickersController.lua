@@ -34,7 +34,7 @@
 ---@field private isInPhotoMode Bool
 gameuiPhotoModeStickersController = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeStickersController
 ---@return gameuiPhotoModeStickersController
 function gameuiPhotoModeStickersController.new(fields) return end
 

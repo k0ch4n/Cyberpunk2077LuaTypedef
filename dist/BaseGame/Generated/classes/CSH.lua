@@ -4,7 +4,7 @@
 ---@class CSH: IScriptable
 CSH = {}
 
----@param fields? table
+---@param fields? CSH
 ---@return CSH
 function CSH.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class moveMoveComponentVelocityProvider: entIVelocityProvider
 moveMoveComponentVelocityProvider = {}
 
----@param fields? table
+---@param fields? moveMoveComponentVelocityProvider
 ---@return moveMoveComponentVelocityProvider
 function moveMoveComponentVelocityProvider.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorEntityReuseEventResolverDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorEntityReuseEventResolverDefinition
 ---@return AIbehaviorEntityReuseEventResolverDefinition
 function AIbehaviorEntityReuseEventResolverDefinition.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public tags CName[]
 audioPanicModeVirtualizeList = {}
 
----@param fields? table
+---@param fields? audioPanicModeVirtualizeList
 ---@return audioPanicModeVirtualizeList
 function audioPanicModeVirtualizeList.new(fields) return end

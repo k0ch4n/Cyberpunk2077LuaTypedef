@@ -4,6 +4,6 @@
 ---@class inkSaveMetadataRequestResult: inkCallbackBase
 inkSaveMetadataRequestResult = {}
 
----@param fields? table
+---@param fields? inkSaveMetadataRequestResult
 ---@return inkSaveMetadataRequestResult
 function inkSaveMetadataRequestResult.new(fields) return end

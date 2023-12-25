@@ -6,7 +6,7 @@
 ---@field protected conditionGroups ConditionGroupData[]
 GameplayConditionContainer = {}
 
----@param fields? table
+---@param fields? GameplayConditionContainer
 ---@return GameplayConditionContainer
 function GameplayConditionContainer.new(fields) return end
 

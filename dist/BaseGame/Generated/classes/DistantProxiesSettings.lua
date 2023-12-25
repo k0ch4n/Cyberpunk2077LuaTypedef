@@ -8,6 +8,6 @@
 ---@field public distantProxiesBboxzBlend Float
 DistantProxiesSettings = {}
 
----@param fields? table
+---@param fields? DistantProxiesSettings
 ---@return DistantProxiesSettings
 function DistantProxiesSettings.new(fields) return end

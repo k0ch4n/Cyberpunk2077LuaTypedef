@@ -4,7 +4,7 @@
 ---@class PauseBraindance: redEvent
 PauseBraindance = {}
 
----@param fields? table
+---@param fields? PauseBraindance
 ---@return PauseBraindance
 function PauseBraindance.new(fields) return end
 

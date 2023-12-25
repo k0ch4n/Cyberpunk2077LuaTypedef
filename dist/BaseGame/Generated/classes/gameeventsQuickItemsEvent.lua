@@ -5,6 +5,6 @@
 ---@field public questName CName
 gameeventsQuickItemsEvent = {}
 
----@param fields? table
+---@param fields? gameeventsQuickItemsEvent
 ---@return gameeventsQuickItemsEvent
 function gameeventsQuickItemsEvent.new(fields) return end

@@ -17,6 +17,6 @@
 ---@field public modifyOuterAngle Bool
 EditableGameLightSettings = {}
 
----@param fields? table
+---@param fields? EditableGameLightSettings
 ---@return EditableGameLightSettings
 function EditableGameLightSettings.new(fields) return end

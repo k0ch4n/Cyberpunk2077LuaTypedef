@@ -4,7 +4,7 @@
 ---@class questAICommandNodeFunctionProvider: IScriptable
 questAICommandNodeFunctionProvider = {}
 
----@param fields? table
+---@param fields? questAICommandNodeFunctionProvider
 ---@return questAICommandNodeFunctionProvider
 function questAICommandNodeFunctionProvider.new(fields) return end
 

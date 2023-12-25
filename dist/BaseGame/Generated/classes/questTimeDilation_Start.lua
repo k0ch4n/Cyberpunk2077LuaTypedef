@@ -8,6 +8,6 @@
 ---@field public easeOutCurve CName
 questTimeDilation_Start = {}
 
----@param fields? table
+---@param fields? questTimeDilation_Start
 ---@return questTimeDilation_Start
 function questTimeDilation_Start.new(fields) return end

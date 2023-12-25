@@ -6,6 +6,6 @@
 ---@field public show Bool
 questToggleStealthMappinVisibility_NodeSubType = {}
 
----@param fields? table
+---@param fields? questToggleStealthMappinVisibility_NodeSubType
 ---@return questToggleStealthMappinVisibility_NodeSubType
 function questToggleStealthMappinVisibility_NodeSubType.new(fields) return end

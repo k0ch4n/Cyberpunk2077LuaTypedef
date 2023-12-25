@@ -6,7 +6,7 @@
 ---@field private CYBMETA1695 Bool
 ItemModificationSystem = {}
 
----@param fields? table
+---@param fields? ItemModificationSystem
 ---@return ItemModificationSystem
 function ItemModificationSystem.new(fields) return end
 

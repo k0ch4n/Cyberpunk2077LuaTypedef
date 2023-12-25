@@ -6,6 +6,6 @@
 ---@field public featurePropertyName CName
 animAnimStateTransitionCondition_IntEdgeFeature = {}
 
----@param fields? table
+---@param fields? animAnimStateTransitionCondition_IntEdgeFeature
 ---@return animAnimStateTransitionCondition_IntEdgeFeature
 function animAnimStateTransitionCondition_IntEdgeFeature.new(fields) return end

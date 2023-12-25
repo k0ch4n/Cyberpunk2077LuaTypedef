@@ -9,6 +9,6 @@
 ---@field public preserveLength Bool
 worldPersistentSnapData = {}
 
----@param fields? table
+---@param fields? worldPersistentSnapData
 ---@return worldPersistentSnapData
 function worldPersistentSnapData.new(fields) return end

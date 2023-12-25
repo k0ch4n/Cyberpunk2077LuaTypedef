@@ -4,6 +4,6 @@
 ---@class animLookAtVehicleRestrictionParams: ISerializable
 animLookAtVehicleRestrictionParams = {}
 
----@param fields? table
+---@param fields? animLookAtVehicleRestrictionParams
 ---@return animLookAtVehicleRestrictionParams
 function animLookAtVehicleRestrictionParams.new(fields) return end

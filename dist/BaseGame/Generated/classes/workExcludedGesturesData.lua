@@ -4,6 +4,6 @@
 ---@class workExcludedGesturesData: workIWorkspotCommandData
 workExcludedGesturesData = {}
 
----@param fields? table
+---@param fields? workExcludedGesturesData
 ---@return workExcludedGesturesData
 function workExcludedGesturesData.new(fields) return end

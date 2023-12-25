@@ -4,7 +4,7 @@
 ---@class BasicInteractionInterpreter: IScriptable
 BasicInteractionInterpreter = {}
 
----@param fields? table
+---@param fields? BasicInteractionInterpreter
 ---@return BasicInteractionInterpreter
 function BasicInteractionInterpreter.new(fields) return end
 

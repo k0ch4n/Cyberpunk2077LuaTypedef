@@ -4,6 +4,6 @@
 ---@class animAnimFeatureMarkUnstable: animAnimFeature
 animAnimFeatureMarkUnstable = {}
 
----@param fields? table
+---@param fields? animAnimFeatureMarkUnstable
 ---@return animAnimFeatureMarkUnstable
 function animAnimFeatureMarkUnstable.new(fields) return end

@@ -38,7 +38,7 @@
 ---@field private menuToOpen EComputerMenuType
 ComputerMainLayoutWidgetController = {}
 
----@param fields? table
+---@param fields? ComputerMainLayoutWidgetController
 ---@return ComputerMainLayoutWidgetController
 function ComputerMainLayoutWidgetController.new(fields) return end
 

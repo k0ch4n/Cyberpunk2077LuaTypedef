@@ -4,6 +4,6 @@
 ---@class LiftMovementLoadEvent: redEvent
 LiftMovementLoadEvent = {}
 
----@param fields? table
+---@param fields? LiftMovementLoadEvent
 ---@return LiftMovementLoadEvent
 function LiftMovementLoadEvent.new(fields) return end

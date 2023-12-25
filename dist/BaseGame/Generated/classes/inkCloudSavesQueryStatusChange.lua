@@ -4,6 +4,6 @@
 ---@class inkCloudSavesQueryStatusChange: inkCallbackBase
 inkCloudSavesQueryStatusChange = {}
 
----@param fields? table
+---@param fields? inkCloudSavesQueryStatusChange
 ---@return inkCloudSavesQueryStatusChange
 function inkCloudSavesQueryStatusChange.new(fields) return end

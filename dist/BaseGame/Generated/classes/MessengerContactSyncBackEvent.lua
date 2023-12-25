@@ -4,6 +4,6 @@
 ---@class MessengerContactSyncBackEvent: redEvent
 MessengerContactSyncBackEvent = {}
 
----@param fields? table
+---@param fields? MessengerContactSyncBackEvent
 ---@return MessengerContactSyncBackEvent
 function MessengerContactSyncBackEvent.new(fields) return end

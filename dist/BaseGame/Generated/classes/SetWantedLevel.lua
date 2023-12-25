@@ -9,7 +9,7 @@
 ---@field public forceIgnoreSecurityAreas Bool
 SetWantedLevel = {}
 
----@param fields? table
+---@param fields? SetWantedLevel
 ---@return SetWantedLevel
 function SetWantedLevel.new(fields) return end
 

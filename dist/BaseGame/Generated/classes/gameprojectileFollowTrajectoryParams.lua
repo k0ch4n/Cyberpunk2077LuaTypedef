@@ -9,6 +9,6 @@
 ---@field public targetOffset Vector4
 gameprojectileFollowTrajectoryParams = {}
 
----@param fields? table
+---@param fields? gameprojectileFollowTrajectoryParams
 ---@return gameprojectileFollowTrajectoryParams
 function gameprojectileFollowTrajectoryParams.new(fields) return end

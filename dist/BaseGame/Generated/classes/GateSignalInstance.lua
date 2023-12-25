@@ -7,6 +7,6 @@
 ---@field public consumeTags CName[]
 GateSignalInstance = {}
 
----@param fields? table
+---@param fields? GateSignalInstance
 ---@return GateSignalInstance
 function GateSignalInstance.new(fields) return end

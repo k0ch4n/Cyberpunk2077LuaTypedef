@@ -8,6 +8,6 @@
 ---@field public playbackOptions inkanimPlaybackOptions
 inkWidgetStateAnimatedTransition = {}
 
----@param fields? table
+---@param fields? inkWidgetStateAnimatedTransition
 ---@return inkWidgetStateAnimatedTransition
 function inkWidgetStateAnimatedTransition.new(fields) return end

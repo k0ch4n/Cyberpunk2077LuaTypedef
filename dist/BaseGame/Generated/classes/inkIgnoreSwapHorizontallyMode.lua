@@ -4,6 +4,6 @@
 ---@class inkIgnoreSwapHorizontallyMode: inkUserData
 inkIgnoreSwapHorizontallyMode = {}
 
----@param fields? table
+---@param fields? inkIgnoreSwapHorizontallyMode
 ---@return inkIgnoreSwapHorizontallyMode
 function inkIgnoreSwapHorizontallyMode.new(fields) return end

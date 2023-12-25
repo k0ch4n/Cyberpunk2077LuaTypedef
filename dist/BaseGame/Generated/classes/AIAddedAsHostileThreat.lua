@@ -6,6 +6,6 @@
 ---@field public threateningEntityCanTriggersCombat Bool
 AIAddedAsHostileThreat = {}
 
----@param fields? table
+---@param fields? AIAddedAsHostileThreat
 ---@return AIAddedAsHostileThreat
 function AIAddedAsHostileThreat.new(fields) return end

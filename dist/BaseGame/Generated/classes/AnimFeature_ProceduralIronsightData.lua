@@ -10,6 +10,6 @@
 ---@field public rotation Quaternion
 AnimFeature_ProceduralIronsightData = {}
 
----@param fields? table
+---@param fields? AnimFeature_ProceduralIronsightData
 ---@return AnimFeature_ProceduralIronsightData
 function AnimFeature_ProceduralIronsightData.new(fields) return end

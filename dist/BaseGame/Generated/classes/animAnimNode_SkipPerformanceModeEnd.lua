@@ -5,6 +5,6 @@
 ---@field public inputLink animPoseLink
 animAnimNode_SkipPerformanceModeEnd = {}
 
----@param fields? table
+---@param fields? animAnimNode_SkipPerformanceModeEnd
 ---@return animAnimNode_SkipPerformanceModeEnd
 function animAnimNode_SkipPerformanceModeEnd.new(fields) return end

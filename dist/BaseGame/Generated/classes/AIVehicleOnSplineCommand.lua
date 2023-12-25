@@ -22,6 +22,6 @@
 ---@field public audioCurvesParam vehicleAudioCurvesParam
 AIVehicleOnSplineCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleOnSplineCommand
 ---@return AIVehicleOnSplineCommand
 function AIVehicleOnSplineCommand.new(fields) return end

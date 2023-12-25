@@ -8,6 +8,6 @@
 ---@field public npcSilenced CName
 audioWeaponSettingsGroup = {}
 
----@param fields? table
+---@param fields? audioWeaponSettingsGroup
 ---@return audioWeaponSettingsGroup
 function audioWeaponSettingsGroup.new(fields) return end

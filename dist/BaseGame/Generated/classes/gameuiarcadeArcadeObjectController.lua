@@ -6,6 +6,6 @@
 ---@field public colliderList gameuiarcadeArcadeColliderData[]
 gameuiarcadeArcadeObjectController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeArcadeObjectController
 ---@return gameuiarcadeArcadeObjectController
 function gameuiarcadeArcadeObjectController.new(fields) return end

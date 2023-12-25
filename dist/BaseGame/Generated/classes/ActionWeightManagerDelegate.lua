@@ -8,7 +8,7 @@
 ---@field public selectedActionIndex Int32
 ActionWeightManagerDelegate = {}
 
----@param fields? table
+---@param fields? ActionWeightManagerDelegate
 ---@return ActionWeightManagerDelegate
 function ActionWeightManagerDelegate.new(fields) return end
 

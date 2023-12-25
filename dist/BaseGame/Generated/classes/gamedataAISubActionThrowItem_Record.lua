@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionThrowItem_Record: gamedataAISubAction_Record
 gamedataAISubActionThrowItem_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionThrowItem_Record
 ---@return gamedataAISubActionThrowItem_Record
 function gamedataAISubActionThrowItem_Record.new(fields) return end
 

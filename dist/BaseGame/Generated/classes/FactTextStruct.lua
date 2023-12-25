@@ -7,6 +7,6 @@
 ---@field public factName CName
 FactTextStruct = {}
 
----@param fields? table
+---@param fields? FactTextStruct
 ---@return FactTextStruct
 function FactTextStruct.new(fields) return end

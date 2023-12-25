@@ -7,7 +7,7 @@
 ---@field public request animIKTargetRequest
 entIKTargetAddEvent = {}
 
----@param fields? table
+---@param fields? entIKTargetAddEvent
 ---@return entIKTargetAddEvent
 function entIKTargetAddEvent.new(fields) return end
 

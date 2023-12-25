@@ -5,7 +5,7 @@
 ---@field private bounty BountyUI
 ScannerBountySystem = {}
 
----@param fields? table
+---@param fields? ScannerBountySystem
 ---@return ScannerBountySystem
 function ScannerBountySystem.new(fields) return end
 

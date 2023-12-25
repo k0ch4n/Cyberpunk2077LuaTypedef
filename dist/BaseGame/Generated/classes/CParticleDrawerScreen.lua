@@ -5,6 +5,6 @@
 ---@field public isGPUBased Bool
 CParticleDrawerScreen = {}
 
----@param fields? table
+---@param fields? CParticleDrawerScreen
 ---@return CParticleDrawerScreen
 function CParticleDrawerScreen.new(fields) return end

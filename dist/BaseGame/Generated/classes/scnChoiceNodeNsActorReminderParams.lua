@@ -12,6 +12,6 @@
 ---@field public waitTimeToCutReminder Float
 scnChoiceNodeNsActorReminderParams = {}
 
----@param fields? table
+---@param fields? scnChoiceNodeNsActorReminderParams
 ---@return scnChoiceNodeNsActorReminderParams
 function scnChoiceNodeNsActorReminderParams.new(fields) return end

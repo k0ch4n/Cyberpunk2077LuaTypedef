@@ -6,7 +6,7 @@
 ---@field public ShowTooltip gamebbScriptID_Bool
 UI_HudTooltipDef = {}
 
----@param fields? table
+---@param fields? UI_HudTooltipDef
 ---@return UI_HudTooltipDef
 function UI_HudTooltipDef.new(fields) return end
 

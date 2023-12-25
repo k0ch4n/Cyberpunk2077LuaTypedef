@@ -5,6 +5,6 @@
 ---@field public compatibleDeviceName CName
 CPOMissionPlayerVotedEvent = {}
 
----@param fields? table
+---@param fields? CPOMissionPlayerVotedEvent
 ---@return CPOMissionPlayerVotedEvent
 function CPOMissionPlayerVotedEvent.new(fields) return end

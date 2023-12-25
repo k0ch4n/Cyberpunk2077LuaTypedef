@@ -39,7 +39,7 @@
 ---@field public currentRequest OpenMenuRequest
 RadialMenuHubGameController = {}
 
----@param fields? table
+---@param fields? RadialMenuHubGameController
 ---@return RadialMenuHubGameController
 function RadialMenuHubGameController.new(fields) return end
 

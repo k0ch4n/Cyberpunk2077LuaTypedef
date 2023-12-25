@@ -6,6 +6,6 @@
 ---@field public targetName CName
 gameuiCustomizationMorph = {}
 
----@param fields? table
+---@param fields? gameuiCustomizationMorph
 ---@return gameuiCustomizationMorph
 function gameuiCustomizationMorph.new(fields) return end

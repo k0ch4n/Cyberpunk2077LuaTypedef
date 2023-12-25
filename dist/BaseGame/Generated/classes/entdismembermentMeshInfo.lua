@@ -14,6 +14,6 @@
 ---@field public Physics entdismembermentPhysicsInfo
 entdismembermentMeshInfo = {}
 
----@param fields? table
+---@param fields? entdismembermentMeshInfo
 ---@return entdismembermentMeshInfo
 function entdismembermentMeshInfo.new(fields) return end

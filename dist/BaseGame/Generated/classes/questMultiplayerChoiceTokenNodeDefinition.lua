@@ -5,6 +5,6 @@
 ---@field public params questMultiplayerChoiceTokenParams
 questMultiplayerChoiceTokenNodeDefinition = {}
 
----@param fields? table
+---@param fields? questMultiplayerChoiceTokenNodeDefinition
 ---@return questMultiplayerChoiceTokenNodeDefinition
 function questMultiplayerChoiceTokenNodeDefinition.new(fields) return end

@@ -10,6 +10,6 @@
 ---@field public debugSource CName
 questEntityManagerForceStat_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerForceStat_NodeType
 ---@return questEntityManagerForceStat_NodeType
 function questEntityManagerForceStat_NodeType.new(fields) return end

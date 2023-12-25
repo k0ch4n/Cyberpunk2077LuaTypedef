@@ -5,7 +5,7 @@
 ---@field public myOwner gameObject
 BreachViewTimeListener = {}
 
----@param fields? table
+---@param fields? BreachViewTimeListener
 ---@return BreachViewTimeListener
 function BreachViewTimeListener.new(fields) return end
 

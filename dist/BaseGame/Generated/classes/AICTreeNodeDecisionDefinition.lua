@@ -7,6 +7,6 @@
 ---@field public interruption AIInterruptionSignal
 AICTreeNodeDecisionDefinition = {}
 
----@param fields? table
+---@param fields? AICTreeNodeDecisionDefinition
 ---@return AICTreeNodeDecisionDefinition
 function AICTreeNodeDecisionDefinition.new(fields) return end

@@ -7,7 +7,7 @@
 ---@field public linkImageId TweakDBID
 gameJournalCodexEntry = {}
 
----@param fields? table
+---@param fields? gameJournalCodexEntry
 ---@return gameJournalCodexEntry
 function gameJournalCodexEntry.new(fields) return end
 

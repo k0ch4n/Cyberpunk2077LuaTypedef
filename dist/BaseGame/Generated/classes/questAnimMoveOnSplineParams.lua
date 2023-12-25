@@ -17,6 +17,6 @@
 ---@field public stopSnapToTerrainBlendTime Float
 questAnimMoveOnSplineParams = {}
 
----@param fields? table
+---@param fields? questAnimMoveOnSplineParams
 ---@return questAnimMoveOnSplineParams
 function questAnimMoveOnSplineParams.new(fields) return end

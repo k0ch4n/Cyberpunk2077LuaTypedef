@@ -4,7 +4,7 @@
 ---@class inkMenuEventDispatcher: IScriptable
 inkMenuEventDispatcher = {}
 
----@param fields? table
+---@param fields? inkMenuEventDispatcher
 ---@return inkMenuEventDispatcher
 function inkMenuEventDispatcher.new(fields) return end
 

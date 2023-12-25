@@ -5,6 +5,6 @@
 ---@field public isEnabled Bool
 ScanLongDescriptionCall = {}
 
----@param fields? table
+---@param fields? ScanLongDescriptionCall
 ---@return ScanLongDescriptionCall
 function ScanLongDescriptionCall.new(fields) return end

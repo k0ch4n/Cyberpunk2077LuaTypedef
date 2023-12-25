@@ -6,7 +6,7 @@
 ---@field public areaDisplays EquipmentAreaDisplays[]
 EquipmentAreaCategory = {}
 
----@param fields? table
+---@param fields? EquipmentAreaCategory
 ---@return EquipmentAreaCategory
 function EquipmentAreaCategory.new(fields) return end
 

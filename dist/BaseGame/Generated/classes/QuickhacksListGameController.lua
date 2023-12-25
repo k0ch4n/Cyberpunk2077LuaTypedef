@@ -82,7 +82,7 @@
 ---@field public playerObject gameObject
 QuickhacksListGameController = {}
 
----@param fields? table
+---@param fields? QuickhacksListGameController
 ---@return QuickhacksListGameController
 function QuickhacksListGameController.new(fields) return end
 

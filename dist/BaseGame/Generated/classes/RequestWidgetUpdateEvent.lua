@@ -6,6 +6,6 @@
 ---@field public screenDefinition ScreenDefinitionPackage
 RequestWidgetUpdateEvent = {}
 
----@param fields? table
+---@param fields? RequestWidgetUpdateEvent
 ---@return RequestWidgetUpdateEvent
 function RequestWidgetUpdateEvent.new(fields) return end

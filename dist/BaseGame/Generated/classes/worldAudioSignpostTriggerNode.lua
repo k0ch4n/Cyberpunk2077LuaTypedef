@@ -9,6 +9,6 @@
 ---@field public exitCooldown Float
 worldAudioSignpostTriggerNode = {}
 
----@param fields? table
+---@param fields? worldAudioSignpostTriggerNode
 ---@return worldAudioSignpostTriggerNode
 function worldAudioSignpostTriggerNode.new(fields) return end

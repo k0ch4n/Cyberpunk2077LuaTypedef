@@ -4,7 +4,7 @@
 ---@class Sample_RPC_Class: IScriptable
 Sample_RPC_Class = {}
 
----@param fields? table
+---@param fields? Sample_RPC_Class
 ---@return Sample_RPC_Class
 function Sample_RPC_Class.new(fields) return end
 

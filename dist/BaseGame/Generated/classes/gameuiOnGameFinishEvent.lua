@@ -6,6 +6,6 @@
 ---@field public gameName CName
 gameuiOnGameFinishEvent = {}
 
----@param fields? table
+---@param fields? gameuiOnGameFinishEvent
 ---@return gameuiOnGameFinishEvent
 function gameuiOnGameFinishEvent.new(fields) return end

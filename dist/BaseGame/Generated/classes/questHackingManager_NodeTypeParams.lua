@@ -6,6 +6,6 @@
 ---@field public actions questHackingManager_ActionType[]
 questHackingManager_NodeTypeParams = {}
 
----@param fields? table
+---@param fields? questHackingManager_NodeTypeParams
 ---@return questHackingManager_NodeTypeParams
 function questHackingManager_NodeTypeParams.new(fields) return end

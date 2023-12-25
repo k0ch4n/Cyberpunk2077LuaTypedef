@@ -7,6 +7,6 @@
 ---@field public doNavTest Bool
 AITeleportCommand = {}
 
----@param fields? table
+---@param fields? AITeleportCommand
 ---@return AITeleportCommand
 function AITeleportCommand.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public hash Uint64
 UIInventoryItemAdded = {}
 
----@param fields? table
+---@param fields? UIInventoryItemAdded
 ---@return UIInventoryItemAdded
 function UIInventoryItemAdded.new(fields) return end

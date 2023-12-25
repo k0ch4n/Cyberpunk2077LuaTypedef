@@ -6,6 +6,6 @@
 ---@field public isBenchmarkSettings Bool
 SettingsMenuUserData = {}
 
----@param fields? table
+---@param fields? SettingsMenuUserData
 ---@return SettingsMenuUserData
 function SettingsMenuUserData.new(fields) return end

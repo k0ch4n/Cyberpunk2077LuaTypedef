@@ -5,7 +5,7 @@
 ---@field public npcHitTypeTimeout gamebbScriptID_Variant
 AIPrereqsDataDef = {}
 
----@param fields? table
+---@param fields? AIPrereqsDataDef
 ---@return AIPrereqsDataDef
 function AIPrereqsDataDef.new(fields) return end
 

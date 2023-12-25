@@ -5,6 +5,6 @@
 ---@field public entries gameSquadMemberDataEntry[]
 gameSquadMemberComponentPS = {}
 
----@param fields? table
+---@param fields? gameSquadMemberComponentPS
 ---@return gameSquadMemberComponentPS
 function gameSquadMemberComponentPS.new(fields) return end

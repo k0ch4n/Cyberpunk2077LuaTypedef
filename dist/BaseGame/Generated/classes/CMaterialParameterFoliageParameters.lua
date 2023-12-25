@@ -5,6 +5,6 @@
 ---@field public foliageProfile CFoliageProfile
 CMaterialParameterFoliageParameters = {}
 
----@param fields? table
+---@param fields? CMaterialParameterFoliageParameters
 ---@return CMaterialParameterFoliageParameters
 function CMaterialParameterFoliageParameters.new(fields) return end

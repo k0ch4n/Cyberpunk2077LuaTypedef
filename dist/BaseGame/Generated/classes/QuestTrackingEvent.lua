@@ -6,6 +6,6 @@
 ---@field public objective QuestItemController
 QuestTrackingEvent = {}
 
----@param fields? table
+---@param fields? QuestTrackingEvent
 ---@return QuestTrackingEvent
 function QuestTrackingEvent.new(fields) return end

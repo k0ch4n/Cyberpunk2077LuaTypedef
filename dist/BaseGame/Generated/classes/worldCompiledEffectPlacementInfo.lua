@@ -8,6 +8,6 @@
 ---@field public flags Uint8
 worldCompiledEffectPlacementInfo = {}
 
----@param fields? table
+---@param fields? worldCompiledEffectPlacementInfo
 ---@return worldCompiledEffectPlacementInfo
 function worldCompiledEffectPlacementInfo.new(fields) return end

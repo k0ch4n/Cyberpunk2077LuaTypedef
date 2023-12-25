@@ -9,7 +9,7 @@
 ---@field protected ownerDecidesOnTransfer Bool
 CPOMissionDataAccessPoint = {}
 
----@param fields? table
+---@param fields? CPOMissionDataAccessPoint
 ---@return CPOMissionDataAccessPoint
 function CPOMissionDataAccessPoint.new(fields) return end
 

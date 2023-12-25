@@ -4,7 +4,7 @@
 ---@class AIGuardAreaManager: AIIGuardAreaManager
 AIGuardAreaManager = {}
 
----@param fields? table
+---@param fields? AIGuardAreaManager
 ---@return AIGuardAreaManager
 function AIGuardAreaManager.new(fields) return end
 

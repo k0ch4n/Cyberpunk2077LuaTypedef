@@ -6,6 +6,6 @@
 ---@field public points Vector2[]
 inkShapePreset = {}
 
----@param fields? table
+---@param fields? inkShapePreset
 ---@return inkShapePreset
 function inkShapePreset.new(fields) return end

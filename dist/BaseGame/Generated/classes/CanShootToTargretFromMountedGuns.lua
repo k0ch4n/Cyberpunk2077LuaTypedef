@@ -4,7 +4,7 @@
 ---@class CanShootToTargretFromMountedGuns: PreventionConditionAbstract
 CanShootToTargretFromMountedGuns = {}
 
----@param fields? table
+---@param fields? CanShootToTargretFromMountedGuns
 ---@return CanShootToTargretFromMountedGuns
 function CanShootToTargretFromMountedGuns.new(fields) return end
 

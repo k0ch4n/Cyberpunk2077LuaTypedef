@@ -4,7 +4,7 @@
 ---@class WaitForEquipEvents: UpperBodyEventsTransition
 WaitForEquipEvents = {}
 
----@param fields? table
+---@param fields? WaitForEquipEvents
 ---@return WaitForEquipEvents
 function WaitForEquipEvents.new(fields) return end
 

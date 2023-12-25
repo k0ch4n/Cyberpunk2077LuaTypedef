@@ -8,6 +8,6 @@
 ---@field public bottom Int32
 Rect = {}
 
----@param fields? table
+---@param fields? Rect
 ---@return Rect
 function Rect.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class DriveDecisions: VehicleTransition
 DriveDecisions = {}
 
----@param fields? table
+---@param fields? DriveDecisions
 ---@return DriveDecisions
 function DriveDecisions.new(fields) return end
 

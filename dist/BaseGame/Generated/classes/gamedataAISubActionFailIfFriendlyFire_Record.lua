@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionFailIfFriendlyFire_Record: gamedataAISubAction_Record
 gamedataAISubActionFailIfFriendlyFire_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionFailIfFriendlyFire_Record
 ---@return gamedataAISubActionFailIfFriendlyFire_Record
 function gamedataAISubActionFailIfFriendlyFire_Record.new(fields) return end
 

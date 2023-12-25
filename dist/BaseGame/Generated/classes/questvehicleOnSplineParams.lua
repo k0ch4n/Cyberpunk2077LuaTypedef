@@ -15,6 +15,6 @@
 ---@field public audioCurvesParam vehicleAudioCurvesParam
 questvehicleOnSplineParams = {}
 
----@param fields? table
+---@param fields? questvehicleOnSplineParams
 ---@return questvehicleOnSplineParams
 function questvehicleOnSplineParams.new(fields) return end

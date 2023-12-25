@@ -10,6 +10,6 @@
 ---@field public transformVariables animAnimVariableTransform[]
 animAnimVariableContainer = {}
 
----@param fields? table
+---@param fields? animAnimVariableContainer
 ---@return animAnimVariableContainer
 function animAnimVariableContainer.new(fields) return end

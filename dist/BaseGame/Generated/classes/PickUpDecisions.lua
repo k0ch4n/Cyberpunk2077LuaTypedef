@@ -4,7 +4,7 @@
 ---@class PickUpDecisions: CanTransitionToThrowDecisions
 PickUpDecisions = {}
 
----@param fields? table
+---@param fields? PickUpDecisions
 ---@return PickUpDecisions
 function PickUpDecisions.new(fields) return end
 

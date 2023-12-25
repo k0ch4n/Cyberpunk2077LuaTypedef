@@ -4,6 +4,6 @@
 ---@class vehicleReadyToParkEvent: redEvent
 vehicleReadyToParkEvent = {}
 
----@param fields? table
+---@param fields? vehicleReadyToParkEvent
 ---@return vehicleReadyToParkEvent
 function vehicleReadyToParkEvent.new(fields) return end

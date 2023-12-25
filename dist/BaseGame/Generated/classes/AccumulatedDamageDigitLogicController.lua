@@ -80,7 +80,7 @@
 ---@field private animDynamicFadeInDuration Float
 AccumulatedDamageDigitLogicController = {}
 
----@param fields? table
+---@param fields? AccumulatedDamageDigitLogicController
 ---@return AccumulatedDamageDigitLogicController
 function AccumulatedDamageDigitLogicController.new(fields) return end
 

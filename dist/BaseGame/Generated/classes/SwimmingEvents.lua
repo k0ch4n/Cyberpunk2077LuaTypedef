@@ -4,7 +4,7 @@
 ---@class SwimmingEvents: HighLevelTransition
 SwimmingEvents = {}
 
----@param fields? table
+---@param fields? SwimmingEvents
 ---@return SwimmingEvents
 function SwimmingEvents.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class worldPackageNodeRefSerializer: redPackageCustomTypeSerializer
 worldPackageNodeRefSerializer = {}
 
----@param fields? table
+---@param fields? worldPackageNodeRefSerializer
 ---@return worldPackageNodeRefSerializer
 function worldPackageNodeRefSerializer.new(fields) return end

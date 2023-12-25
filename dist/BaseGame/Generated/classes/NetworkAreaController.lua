@@ -4,7 +4,7 @@
 ---@class NetworkAreaController: MasterController
 NetworkAreaController = {}
 
----@param fields? table
+---@param fields? NetworkAreaController
 ---@return NetworkAreaController
 function NetworkAreaController.new(fields) return end
 

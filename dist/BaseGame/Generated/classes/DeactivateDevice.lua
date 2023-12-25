@@ -4,7 +4,7 @@
 ---@class DeactivateDevice: ActionBool
 DeactivateDevice = {}
 
----@param fields? table
+---@param fields? DeactivateDevice
 ---@return DeactivateDevice
 function DeactivateDevice.new(fields) return end
 

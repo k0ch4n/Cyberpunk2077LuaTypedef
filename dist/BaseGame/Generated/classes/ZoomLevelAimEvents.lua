@@ -5,7 +5,7 @@
 ---@field public isAmingWithWeapon Bool
 ZoomLevelAimEvents = {}
 
----@param fields? table
+---@param fields? ZoomLevelAimEvents
 ---@return ZoomLevelAimEvents
 function ZoomLevelAimEvents.new(fields) return end
 

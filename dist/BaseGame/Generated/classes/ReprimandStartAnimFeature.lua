@@ -4,7 +4,7 @@
 ---@class ReprimandStartAnimFeature: AIbehaviortaskScript
 ReprimandStartAnimFeature = {}
 
----@param fields? table
+---@param fields? ReprimandStartAnimFeature
 ---@return ReprimandStartAnimFeature
 function ReprimandStartAnimFeature.new(fields) return end
 

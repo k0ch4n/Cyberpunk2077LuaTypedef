@@ -4,7 +4,7 @@
 ---@class TimeDilationEventsTransitions: TimeDilationTransitions
 TimeDilationEventsTransitions = {}
 
----@param fields? table
+---@param fields? TimeDilationEventsTransitions
 ---@return TimeDilationEventsTransitions
 function TimeDilationEventsTransitions.new(fields) return end
 

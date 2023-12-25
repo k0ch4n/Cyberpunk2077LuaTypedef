@@ -24,7 +24,7 @@
 ---@field private C_EXCLUDED_STATUS_EFFECT_NAME String
 SingleCooldownManager = {}
 
----@param fields? table
+---@param fields? SingleCooldownManager
 ---@return SingleCooldownManager
 function SingleCooldownManager.new(fields) return end
 

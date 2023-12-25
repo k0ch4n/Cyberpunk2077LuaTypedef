@@ -5,6 +5,6 @@
 ---@field public ID entEntityID
 UnregisterNetworkLinksByIDRequest = {}
 
----@param fields? table
+---@param fields? UnregisterNetworkLinksByIDRequest
 ---@return UnregisterNetworkLinksByIDRequest
 function UnregisterNetworkLinksByIDRequest.new(fields) return end

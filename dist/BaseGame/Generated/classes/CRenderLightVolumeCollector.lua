@@ -4,6 +4,6 @@
 ---@class CRenderLightVolumeCollector: ICameraStorageCustomData
 CRenderLightVolumeCollector = {}
 
----@param fields? table
+---@param fields? CRenderLightVolumeCollector
 ---@return CRenderLightVolumeCollector
 function CRenderLightVolumeCollector.new(fields) return end

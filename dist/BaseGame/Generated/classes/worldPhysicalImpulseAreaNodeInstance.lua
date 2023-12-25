@@ -4,6 +4,6 @@
 ---@class worldPhysicalImpulseAreaNodeInstance: worldPhysicalTriggerAreaNodeInstance
 worldPhysicalImpulseAreaNodeInstance = {}
 
----@param fields? table
+---@param fields? worldPhysicalImpulseAreaNodeInstance
 ---@return worldPhysicalImpulseAreaNodeInstance
 function worldPhysicalImpulseAreaNodeInstance.new(fields) return end

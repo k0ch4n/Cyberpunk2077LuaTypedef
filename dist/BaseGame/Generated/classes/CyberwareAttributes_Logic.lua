@@ -8,7 +8,7 @@
 ---@field protected connectorRef inkWidgetReference
 CyberwareAttributes_Logic = {}
 
----@param fields? table
+---@param fields? CyberwareAttributes_Logic
 ---@return CyberwareAttributes_Logic
 function CyberwareAttributes_Logic.new(fields) return end
 

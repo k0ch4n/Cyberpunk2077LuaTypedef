@@ -5,7 +5,7 @@
 ---@field private pathParamsModified Bool
 AlertedRoleHandler = {}
 
----@param fields? table
+---@param fields? AlertedRoleHandler
 ---@return AlertedRoleHandler
 function AlertedRoleHandler.new(fields) return end
 

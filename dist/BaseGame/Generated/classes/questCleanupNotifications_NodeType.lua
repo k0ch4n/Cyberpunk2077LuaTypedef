@@ -4,6 +4,6 @@
 ---@class questCleanupNotifications_NodeType: questIUIManagerNodeType
 questCleanupNotifications_NodeType = {}
 
----@param fields? table
+---@param fields? questCleanupNotifications_NodeType
 ---@return questCleanupNotifications_NodeType
 function questCleanupNotifications_NodeType.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public variableName CName
 animAnimNode_VectorVariable = {}
 
----@param fields? table
+---@param fields? animAnimNode_VectorVariable
 ---@return animAnimNode_VectorVariable
 function animAnimNode_VectorVariable.new(fields) return end

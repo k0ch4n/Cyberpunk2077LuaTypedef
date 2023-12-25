@@ -6,6 +6,6 @@
 ---@field public customActions SCustomDeviceActionsData
 GenericDeviceActionsData = {}
 
----@param fields? table
+---@param fields? GenericDeviceActionsData
 ---@return GenericDeviceActionsData
 function GenericDeviceActionsData.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field private value inkTextWidgetReference
 RadioVolumeSettingsController = {}
 
----@param fields? table
+---@param fields? RadioVolumeSettingsController
 ---@return RadioVolumeSettingsController
 function RadioVolumeSettingsController.new(fields) return end
 

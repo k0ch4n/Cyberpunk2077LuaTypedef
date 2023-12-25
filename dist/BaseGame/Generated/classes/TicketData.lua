@@ -8,6 +8,6 @@
 ---@field public isFallback Bool
 TicketData = {}
 
----@param fields? table
+---@param fields? TicketData
 ---@return TicketData
 function TicketData.new(fields) return end

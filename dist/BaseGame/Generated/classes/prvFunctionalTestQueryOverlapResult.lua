@@ -6,6 +6,6 @@
 ---@field public position Vector3
 prvFunctionalTestQueryOverlapResult = {}
 
----@param fields? table
+---@param fields? prvFunctionalTestQueryOverlapResult
 ---@return prvFunctionalTestQueryOverlapResult
 function prvFunctionalTestQueryOverlapResult.new(fields) return end

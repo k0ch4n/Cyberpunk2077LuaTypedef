@@ -5,7 +5,7 @@
 ---@field public value String
 Codeware_Localization_GenderNeutralEntry = {}
 
----@param fields? table
+---@param fields? Codeware_Localization_GenderNeutralEntry
 ---@return Codeware_Localization_GenderNeutralEntry
 function Codeware_Localization_GenderNeutralEntry.new(fields) return end
 

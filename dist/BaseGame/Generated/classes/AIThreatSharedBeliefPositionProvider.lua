@@ -4,6 +4,6 @@
 ---@class AIThreatSharedBeliefPositionProvider: AIThreatPositionProvider
 AIThreatSharedBeliefPositionProvider = {}
 
----@param fields? table
+---@param fields? AIThreatSharedBeliefPositionProvider
 ---@return AIThreatSharedBeliefPositionProvider
 function AIThreatSharedBeliefPositionProvider.new(fields) return end

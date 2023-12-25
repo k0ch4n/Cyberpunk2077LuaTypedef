@@ -27,7 +27,7 @@
 ---@field private tooltipsManager gameuiTooltipsManager
 PerkScreenController = {}
 
----@param fields? table
+---@param fields? PerkScreenController
 ---@return PerkScreenController
 function PerkScreenController.new(fields) return end
 

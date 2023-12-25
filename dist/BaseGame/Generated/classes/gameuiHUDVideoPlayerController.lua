@@ -5,6 +5,6 @@
 ---@field public playOnHud Bool
 gameuiHUDVideoPlayerController = {}
 
----@param fields? table
+---@param fields? gameuiHUDVideoPlayerController
 ---@return gameuiHUDVideoPlayerController
 function gameuiHUDVideoPlayerController.new(fields) return end

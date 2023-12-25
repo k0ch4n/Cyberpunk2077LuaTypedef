@@ -5,7 +5,7 @@
 ---@field private area gameStaticTriggerAreaComponent
 SecurityArea = {}
 
----@param fields? table
+---@param fields? SecurityArea
 ---@return SecurityArea
 function SecurityArea.new(fields) return end
 

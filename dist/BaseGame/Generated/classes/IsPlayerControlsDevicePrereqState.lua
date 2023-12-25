@@ -5,7 +5,7 @@
 ---@field public listenerInfo redCallbackObject
 IsPlayerControlsDevicePrereqState = {}
 
----@param fields? table
+---@param fields? IsPlayerControlsDevicePrereqState
 ---@return IsPlayerControlsDevicePrereqState
 function IsPlayerControlsDevicePrereqState.new(fields) return end
 

@@ -37,7 +37,7 @@
 ---@field private rootWidget inkWidget
 SimpleQuestListItemController = {}
 
----@param fields? table
+---@param fields? SimpleQuestListItemController
 ---@return SimpleQuestListItemController
 function SimpleQuestListItemController.new(fields) return end
 

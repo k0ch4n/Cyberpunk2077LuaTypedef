@@ -8,6 +8,6 @@
 ---@field public sortingPriority Int32
 gameuiInputHintGroupData = {}
 
----@param fields? table
+---@param fields? gameuiInputHintGroupData
 ---@return gameuiInputHintGroupData
 function gameuiInputHintGroupData.new(fields) return end

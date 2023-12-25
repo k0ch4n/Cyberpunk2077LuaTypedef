@@ -6,6 +6,6 @@
 ---@field public perkData NewPerkDisplayData
 RefreshPerkTooltipEvent = {}
 
----@param fields? table
+---@param fields? RefreshPerkTooltipEvent
 ---@return RefreshPerkTooltipEvent
 function RefreshPerkTooltipEvent.new(fields) return end

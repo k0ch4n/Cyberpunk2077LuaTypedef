@@ -6,6 +6,6 @@
 ---@field public entryType audioAmbientPaletteBrushDictionaryItem
 audioAmbientPaletteBrushDictionary = {}
 
----@param fields? table
+---@param fields? audioAmbientPaletteBrushDictionary
 ---@return audioAmbientPaletteBrushDictionary
 function audioAmbientPaletteBrushDictionary.new(fields) return end

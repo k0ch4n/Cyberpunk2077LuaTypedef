@@ -5,6 +5,6 @@
 ---@field public requests gameEquipParam[]
 gamestateMachineparameterTypeRequestItem = {}
 
----@param fields? table
+---@param fields? gamestateMachineparameterTypeRequestItem
 ---@return gamestateMachineparameterTypeRequestItem
 function gamestateMachineparameterTypeRequestItem.new(fields) return end

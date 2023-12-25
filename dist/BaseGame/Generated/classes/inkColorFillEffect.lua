@@ -9,6 +9,6 @@
 ---@field public saturation Float
 inkColorFillEffect = {}
 
----@param fields? table
+---@param fields? inkColorFillEffect
 ---@return inkColorFillEffect
 function inkColorFillEffect.new(fields) return end

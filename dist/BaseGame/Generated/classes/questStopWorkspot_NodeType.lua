@@ -6,6 +6,6 @@
 ---@field public exitAnim CName
 questStopWorkspot_NodeType = {}
 
----@param fields? table
+---@param fields? questStopWorkspot_NodeType
 ---@return questStopWorkspot_NodeType
 function questStopWorkspot_NodeType.new(fields) return end

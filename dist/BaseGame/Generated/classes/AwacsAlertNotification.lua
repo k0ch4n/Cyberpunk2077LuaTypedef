@@ -7,7 +7,7 @@
 ---@field private ZoneLabelText inkTextWidgetReference
 AwacsAlertNotification = {}
 
----@param fields? table
+---@param fields? AwacsAlertNotification
 ---@return AwacsAlertNotification
 function AwacsAlertNotification.new(fields) return end
 

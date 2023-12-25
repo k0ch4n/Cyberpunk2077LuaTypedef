@@ -4,6 +4,6 @@
 ---@class worldRoadProxyMeshNode: worldPrefabProxyMeshNode
 worldRoadProxyMeshNode = {}
 
----@param fields? table
+---@param fields? worldRoadProxyMeshNode
 ---@return worldRoadProxyMeshNode
 function worldRoadProxyMeshNode.new(fields) return end

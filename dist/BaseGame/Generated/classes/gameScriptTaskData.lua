@@ -4,6 +4,6 @@
 ---@class gameScriptTaskData: IScriptable
 gameScriptTaskData = {}
 
----@param fields? table
+---@param fields? gameScriptTaskData
 ---@return gameScriptTaskData
 function gameScriptTaskData.new(fields) return end

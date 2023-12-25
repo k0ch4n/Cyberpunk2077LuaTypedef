@@ -5,6 +5,6 @@
 ---@field public enable Bool
 gameConveyorControlEvent = {}
 
----@param fields? table
+---@param fields? gameConveyorControlEvent
 ---@return gameConveyorControlEvent
 function gameConveyorControlEvent.new(fields) return end

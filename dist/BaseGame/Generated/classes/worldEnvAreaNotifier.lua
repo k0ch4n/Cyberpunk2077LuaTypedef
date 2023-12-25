@@ -14,6 +14,6 @@
 ---@field public resourceVersion Uint8
 worldEnvAreaNotifier = {}
 
----@param fields? table
+---@param fields? worldEnvAreaNotifier
 ---@return worldEnvAreaNotifier
 function worldEnvAreaNotifier.new(fields) return end

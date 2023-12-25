@@ -7,7 +7,7 @@
 ---@field public prevValue Int32
 NPCStatePrereqState = {}
 
----@param fields? table
+---@param fields? NPCStatePrereqState
 ---@return NPCStatePrereqState
 function NPCStatePrereqState.new(fields) return end
 

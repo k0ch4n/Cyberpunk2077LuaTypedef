@@ -5,6 +5,6 @@
 ---@field public target ScriptedPuppet
 RemoveTargetFromHighlightEvent = {}
 
----@param fields? table
+---@param fields? RemoveTargetFromHighlightEvent
 ---@return RemoveTargetFromHighlightEvent
 function RemoveTargetFromHighlightEvent.new(fields) return end

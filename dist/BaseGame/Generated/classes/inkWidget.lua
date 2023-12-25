@@ -24,7 +24,7 @@
 ---@field public effects inkIEffect[]
 inkWidget = {}
 
----@param fields? table
+---@param fields? inkWidget
 ---@return inkWidget
 function inkWidget.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class TrafficZebra: TrafficLight
 TrafficZebra = {}
 
----@param fields? table
+---@param fields? TrafficZebra
 ---@return TrafficZebra
 function TrafficZebra.new(fields) return end
 

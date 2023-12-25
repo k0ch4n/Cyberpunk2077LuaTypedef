@@ -5,7 +5,7 @@
 ---@field public effector KiroshiHighlightEffector
 KiroshiEffectorTechPreviewStatListener = {}
 
----@param fields? table
+---@param fields? KiroshiEffectorTechPreviewStatListener
 ---@return KiroshiEffectorTechPreviewStatListener
 function KiroshiEffectorTechPreviewStatListener.new(fields) return end
 

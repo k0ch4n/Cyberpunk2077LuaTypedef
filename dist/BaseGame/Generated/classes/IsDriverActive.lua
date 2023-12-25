@@ -4,7 +4,7 @@
 ---@class IsDriverActive: AIVehicleConditionAbstract
 IsDriverActive = {}
 
----@param fields? table
+---@param fields? IsDriverActive
 ---@return IsDriverActive
 function IsDriverActive.new(fields) return end
 

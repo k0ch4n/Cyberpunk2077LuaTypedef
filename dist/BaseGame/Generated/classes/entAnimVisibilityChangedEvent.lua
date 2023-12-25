@@ -5,6 +5,6 @@
 ---@field public isVisible Bool
 entAnimVisibilityChangedEvent = {}
 
----@param fields? table
+---@param fields? entAnimVisibilityChangedEvent
 ---@return entAnimVisibilityChangedEvent
 function entAnimVisibilityChangedEvent.new(fields) return end

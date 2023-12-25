@@ -4,7 +4,7 @@
 ---@class SettingsSelectorControllerListInt: SettingsSelectorControllerList
 SettingsSelectorControllerListInt = {}
 
----@param fields? table
+---@param fields? SettingsSelectorControllerListInt
 ---@return SettingsSelectorControllerListInt
 function SettingsSelectorControllerListInt.new(fields) return end
 

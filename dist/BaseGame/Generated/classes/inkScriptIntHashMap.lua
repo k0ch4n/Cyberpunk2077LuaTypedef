@@ -4,7 +4,7 @@
 ---@class inkScriptIntHashMap: IScriptable
 inkScriptIntHashMap = {}
 
----@param fields? table
+---@param fields? inkScriptIntHashMap
 ---@return inkScriptIntHashMap
 function inkScriptIntHashMap.new(fields) return end
 

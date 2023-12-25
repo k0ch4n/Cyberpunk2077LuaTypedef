@@ -11,6 +11,6 @@
 ---@field public rubberBandingParam questParamRubberbanding
 questvehicleRacingParams = {}
 
----@param fields? table
+---@param fields? questvehicleRacingParams
 ---@return questvehicleRacingParams
 function questvehicleRacingParams.new(fields) return end

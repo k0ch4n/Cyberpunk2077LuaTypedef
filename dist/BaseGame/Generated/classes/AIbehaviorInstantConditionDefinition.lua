@@ -5,6 +5,6 @@
 ---@field public condition AIbehaviorConditionDefinition
 AIbehaviorInstantConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorInstantConditionDefinition
 ---@return AIbehaviorInstantConditionDefinition
 function AIbehaviorInstantConditionDefinition.new(fields) return end

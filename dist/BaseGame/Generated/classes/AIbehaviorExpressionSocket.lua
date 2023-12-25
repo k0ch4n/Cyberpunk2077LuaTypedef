@@ -6,6 +6,6 @@
 ---@field public expression AIbehaviorPassiveExpressionDefinition
 AIbehaviorExpressionSocket = {}
 
----@param fields? table
+---@param fields? AIbehaviorExpressionSocket
 ---@return AIbehaviorExpressionSocket
 function AIbehaviorExpressionSocket.new(fields) return end

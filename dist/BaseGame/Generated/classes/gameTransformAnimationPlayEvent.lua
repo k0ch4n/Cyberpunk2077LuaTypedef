@@ -8,6 +8,6 @@
 ---@field public useEntitySetup Bool
 gameTransformAnimationPlayEvent = {}
 
----@param fields? table
+---@param fields? gameTransformAnimationPlayEvent
 ---@return gameTransformAnimationPlayEvent
 function gameTransformAnimationPlayEvent.new(fields) return end

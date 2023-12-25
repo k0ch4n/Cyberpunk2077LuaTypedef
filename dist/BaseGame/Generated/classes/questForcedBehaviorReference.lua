@@ -4,6 +4,6 @@
 ---@class questForcedBehaviorReference: AIResourceReference
 questForcedBehaviorReference = {}
 
----@param fields? table
+---@param fields? questForcedBehaviorReference
 ---@return questForcedBehaviorReference
 function questForcedBehaviorReference.new(fields) return end

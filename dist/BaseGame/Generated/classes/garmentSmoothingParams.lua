@@ -9,6 +9,6 @@
 ---@field public smoothNormalsEnabled Bool
 garmentSmoothingParams = {}
 
----@param fields? table
+---@param fields? garmentSmoothingParams
 ---@return garmentSmoothingParams
 function garmentSmoothingParams.new(fields) return end

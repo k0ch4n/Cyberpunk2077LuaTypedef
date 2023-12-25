@@ -6,7 +6,7 @@
 ---@field public className CName
 PSD_Trigger = {}
 
----@param fields? table
+---@param fields? PSD_Trigger
 ---@return PSD_Trigger
 function PSD_Trigger.new(fields) return end
 

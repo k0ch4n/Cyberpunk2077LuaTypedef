@@ -5,6 +5,6 @@
 ---@field public target gameObject
 OrderTakedownEvent = {}
 
----@param fields? table
+---@param fields? OrderTakedownEvent
 ---@return OrderTakedownEvent
 function OrderTakedownEvent.new(fields) return end

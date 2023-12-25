@@ -6,7 +6,7 @@
 ---@field private isUp Bool
 ForkliftControllerPS = {}
 
----@param fields? table
+---@param fields? ForkliftControllerPS
 ---@return ForkliftControllerPS
 function ForkliftControllerPS.new(fields) return end
 

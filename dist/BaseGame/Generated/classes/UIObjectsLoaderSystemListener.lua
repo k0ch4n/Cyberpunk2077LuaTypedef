@@ -4,6 +4,6 @@
 ---@class UIObjectsLoaderSystemListener: gameuiIUIObjectsLoaderSystemListener
 UIObjectsLoaderSystemListener = {}
 
----@param fields? table
+---@param fields? UIObjectsLoaderSystemListener
 ---@return UIObjectsLoaderSystemListener
 function UIObjectsLoaderSystemListener.new(fields) return end

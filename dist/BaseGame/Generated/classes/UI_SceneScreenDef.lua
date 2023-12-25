@@ -5,7 +5,7 @@
 ---@field public AnimName gamebbScriptID_CName
 UI_SceneScreenDef = {}
 
----@param fields? table
+---@param fields? UI_SceneScreenDef
 ---@return UI_SceneScreenDef
 function UI_SceneScreenDef.new(fields) return end
 

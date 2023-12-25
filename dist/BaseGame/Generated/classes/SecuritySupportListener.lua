@@ -5,7 +5,7 @@
 ---@field public npc ScriptedPuppet
 SecuritySupportListener = {}
 
----@param fields? table
+---@param fields? SecuritySupportListener
 ---@return SecuritySupportListener
 function SecuritySupportListener.new(fields) return end
 

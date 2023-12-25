@@ -6,6 +6,6 @@
 ---@field public animOptions inkanimPlaybackOptions
 AnimationElement = {}
 
----@param fields? table
+---@param fields? AnimationElement
 ---@return AnimationElement
 function AnimationElement.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public value String
 toolsJiraCustomFieldValue = {}
 
----@param fields? table
+---@param fields? toolsJiraCustomFieldValue
 ---@return toolsJiraCustomFieldValue
 function toolsJiraCustomFieldValue.new(fields) return end

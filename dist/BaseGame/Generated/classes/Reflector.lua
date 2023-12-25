@@ -4,7 +4,7 @@
 ---@class Reflector: BlindingLight
 Reflector = {}
 
----@param fields? table
+---@param fields? Reflector
 ---@return Reflector
 function Reflector.new(fields) return end
 

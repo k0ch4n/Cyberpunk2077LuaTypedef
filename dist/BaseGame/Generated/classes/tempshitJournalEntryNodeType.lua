@@ -4,6 +4,6 @@
 ---@class tempshitJournalEntryNodeType: tempshitIJournalNodeType
 tempshitJournalEntryNodeType = {}
 
----@param fields? table
+---@param fields? tempshitJournalEntryNodeType
 ---@return tempshitJournalEntryNodeType
 function tempshitJournalEntryNodeType.new(fields) return end

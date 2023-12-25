@@ -9,7 +9,7 @@
 ---@field private reloadingInProgress Bool
 ReloadFromEmptyPrereqState = {}
 
----@param fields? table
+---@param fields? ReloadFromEmptyPrereqState
 ---@return ReloadFromEmptyPrereqState
 function ReloadFromEmptyPrereqState.new(fields) return end
 

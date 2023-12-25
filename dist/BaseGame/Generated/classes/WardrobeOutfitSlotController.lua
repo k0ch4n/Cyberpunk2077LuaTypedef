@@ -11,7 +11,7 @@
 ---@field private isNew Bool
 WardrobeOutfitSlotController = {}
 
----@param fields? table
+---@param fields? WardrobeOutfitSlotController
 ---@return WardrobeOutfitSlotController
 function WardrobeOutfitSlotController.new(fields) return end
 

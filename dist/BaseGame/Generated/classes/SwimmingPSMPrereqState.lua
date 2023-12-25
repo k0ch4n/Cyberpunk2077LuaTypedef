@@ -4,6 +4,6 @@
 ---@class SwimmingPSMPrereqState: PlayerStateMachinePrereqState
 SwimmingPSMPrereqState = {}
 
----@param fields? table
+---@param fields? SwimmingPSMPrereqState
 ---@return SwimmingPSMPrereqState
 function SwimmingPSMPrereqState.new(fields) return end

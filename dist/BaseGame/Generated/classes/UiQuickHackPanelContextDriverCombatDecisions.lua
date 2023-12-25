@@ -4,7 +4,7 @@
 ---@class UiQuickHackPanelContextDriverCombatDecisions: UiQuickHackPanelContextDecisions
 UiQuickHackPanelContextDriverCombatDecisions = {}
 
----@param fields? table
+---@param fields? UiQuickHackPanelContextDriverCombatDecisions
 ---@return UiQuickHackPanelContextDriverCombatDecisions
 function UiQuickHackPanelContextDriverCombatDecisions.new(fields) return end
 

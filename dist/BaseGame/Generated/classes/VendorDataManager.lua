@@ -14,7 +14,7 @@
 ---@field private openTime GameTime
 VendorDataManager = {}
 
----@param fields? table
+---@param fields? VendorDataManager
 ---@return VendorDataManager
 function VendorDataManager.new(fields) return end
 

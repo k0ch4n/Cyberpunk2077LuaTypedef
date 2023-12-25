@@ -6,6 +6,6 @@
 ---@field public equipAnimationType gameEquipAnimationType
 gameDrawItemByContextRequest = {}
 
----@param fields? table
+---@param fields? gameDrawItemByContextRequest
 ---@return gameDrawItemByContextRequest
 function gameDrawItemByContextRequest.new(fields) return end

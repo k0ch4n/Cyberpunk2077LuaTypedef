@@ -4,7 +4,7 @@
 ---@class CycleTriggerModeDecisions: WeaponTransition
 CycleTriggerModeDecisions = {}
 
----@param fields? table
+---@param fields? CycleTriggerModeDecisions
 ---@return CycleTriggerModeDecisions
 function CycleTriggerModeDecisions.new(fields) return end
 

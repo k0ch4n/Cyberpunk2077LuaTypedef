@@ -10,7 +10,7 @@
 ---@field public effectTimeStamp Float
 gameMuppet = {}
 
----@param fields? table
+---@param fields? gameMuppet
 ---@return gameMuppet
 function gameMuppet.new(fields) return end
 

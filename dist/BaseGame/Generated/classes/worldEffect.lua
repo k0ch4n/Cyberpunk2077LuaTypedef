@@ -10,6 +10,6 @@
 ---@field public effectLoops effectLoopData[]
 worldEffect = {}
 
----@param fields? table
+---@param fields? worldEffect
 ---@return worldEffect
 function worldEffect.new(fields) return end

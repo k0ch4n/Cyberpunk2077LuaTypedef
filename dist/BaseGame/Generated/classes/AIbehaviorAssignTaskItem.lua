@@ -6,6 +6,6 @@
 ---@field public rightHandSide AIArgumentMapping
 AIbehaviorAssignTaskItem = {}
 
----@param fields? table
+---@param fields? AIbehaviorAssignTaskItem
 ---@return AIbehaviorAssignTaskItem
 function AIbehaviorAssignTaskItem.new(fields) return end

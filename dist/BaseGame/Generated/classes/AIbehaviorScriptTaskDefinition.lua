@@ -6,6 +6,6 @@
 ---@field public disableLazyInitialization Bool
 AIbehaviorScriptTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorScriptTaskDefinition
 ---@return AIbehaviorScriptTaskDefinition
 function AIbehaviorScriptTaskDefinition.new(fields) return end

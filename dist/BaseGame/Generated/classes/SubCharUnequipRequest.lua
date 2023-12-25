@@ -5,6 +5,6 @@
 ---@field public subCharType gamedataSubCharacter
 SubCharUnequipRequest = {}
 
----@param fields? table
+---@param fields? SubCharUnequipRequest
 ---@return SubCharUnequipRequest
 function SubCharUnequipRequest.new(fields) return end

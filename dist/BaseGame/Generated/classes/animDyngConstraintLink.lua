@@ -10,6 +10,6 @@
 ---@field public lookAtAxis Vector3
 animDyngConstraintLink = {}
 
----@param fields? table
+---@param fields? animDyngConstraintLink
 ---@return animDyngConstraintLink
 function animDyngConstraintLink.new(fields) return end

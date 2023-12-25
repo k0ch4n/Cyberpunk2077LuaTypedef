@@ -5,7 +5,7 @@
 ---@field public loopAnimation EIndustrialArmAnimations
 ActivatedDeviceIndustrialArm = {}
 
----@param fields? table
+---@param fields? ActivatedDeviceIndustrialArm
 ---@return ActivatedDeviceIndustrialArm
 function ActivatedDeviceIndustrialArm.new(fields) return end
 

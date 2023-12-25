@@ -5,7 +5,7 @@
 ---@field public type gamedataTraitType
 TraitDisplayData = {}
 
----@param fields? table
+---@param fields? TraitDisplayData
 ---@return TraitDisplayData
 function TraitDisplayData.new(fields) return end
 

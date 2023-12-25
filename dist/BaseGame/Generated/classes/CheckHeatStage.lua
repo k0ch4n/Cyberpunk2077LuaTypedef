@@ -8,7 +8,7 @@
 ---@field public system PreventionSystem
 CheckHeatStage = {}
 
----@param fields? table
+---@param fields? CheckHeatStage
 ---@return CheckHeatStage
 function CheckHeatStage.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public forcedVisibleOnlyInFrustum Bool
 ToggleVisibilityInAnimSystemRequest = {}
 
----@param fields? table
+---@param fields? ToggleVisibilityInAnimSystemRequest
 ---@return ToggleVisibilityInAnimSystemRequest
 function ToggleVisibilityInAnimSystemRequest.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private itemsUsed gameItemID[]
 AutocraftSystem = {}
 
----@param fields? table
+---@param fields? AutocraftSystem
 ---@return AutocraftSystem
 function AutocraftSystem.new(fields) return end
 

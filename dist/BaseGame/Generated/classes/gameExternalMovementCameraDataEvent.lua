@@ -4,6 +4,6 @@
 ---@class gameExternalMovementCameraDataEvent: redEvent
 gameExternalMovementCameraDataEvent = {}
 
----@param fields? table
+---@param fields? gameExternalMovementCameraDataEvent
 ---@return gameExternalMovementCameraDataEvent
 function gameExternalMovementCameraDataEvent.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public moveStyle Uint32
 gameActionMoveToState = {}
 
----@param fields? table
+---@param fields? gameActionMoveToState
 ---@return gameActionMoveToState
 function gameActionMoveToState.new(fields) return end

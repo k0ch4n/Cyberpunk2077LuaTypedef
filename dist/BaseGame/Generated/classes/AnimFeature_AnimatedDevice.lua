@@ -6,6 +6,6 @@
 ---@field public isOff Bool
 AnimFeature_AnimatedDevice = {}
 
----@param fields? table
+---@param fields? AnimFeature_AnimatedDevice
 ---@return AnimFeature_AnimatedDevice
 function AnimFeature_AnimatedDevice.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private data CyberwareSlotTooltipData
 CyberwareTooltipSlotListItem = {}
 
----@param fields? table
+---@param fields? CyberwareTooltipSlotListItem
 ---@return CyberwareTooltipSlotListItem
 function CyberwareTooltipSlotListItem.new(fields) return end
 

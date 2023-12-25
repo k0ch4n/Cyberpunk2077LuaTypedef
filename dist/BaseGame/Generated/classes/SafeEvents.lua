@@ -4,7 +4,7 @@
 ---@class SafeEvents: WeaponEventsTransition
 SafeEvents = {}
 
----@param fields? table
+---@param fields? SafeEvents
 ---@return SafeEvents
 function SafeEvents.new(fields) return end
 

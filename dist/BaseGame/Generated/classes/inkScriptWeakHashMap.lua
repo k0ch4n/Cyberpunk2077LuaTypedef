@@ -4,7 +4,7 @@
 ---@class inkScriptWeakHashMap: IScriptable
 inkScriptWeakHashMap = {}
 
----@param fields? table
+---@param fields? inkScriptWeakHashMap
 ---@return inkScriptWeakHashMap
 function inkScriptWeakHashMap.new(fields) return end
 

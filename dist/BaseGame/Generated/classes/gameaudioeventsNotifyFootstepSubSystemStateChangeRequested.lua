@@ -4,6 +4,6 @@
 ---@class gameaudioeventsNotifyFootstepSubSystemStateChangeRequested: redEvent
 gameaudioeventsNotifyFootstepSubSystemStateChangeRequested = {}
 
----@param fields? table
+---@param fields? gameaudioeventsNotifyFootstepSubSystemStateChangeRequested
 ---@return gameaudioeventsNotifyFootstepSubSystemStateChangeRequested
 function gameaudioeventsNotifyFootstepSubSystemStateChangeRequested.new(fields) return end

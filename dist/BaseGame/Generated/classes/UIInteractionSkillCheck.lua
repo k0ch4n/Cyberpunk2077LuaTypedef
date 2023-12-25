@@ -15,6 +15,6 @@
 ---@field public ownerID entEntityID
 UIInteractionSkillCheck = {}
 
----@param fields? table
+---@param fields? UIInteractionSkillCheck
 ---@return UIInteractionSkillCheck
 function UIInteractionSkillCheck.new(fields) return end

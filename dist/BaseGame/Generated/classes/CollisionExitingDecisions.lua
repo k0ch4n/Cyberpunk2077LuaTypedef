@@ -4,7 +4,7 @@
 ---@class CollisionExitingDecisions: ExitingDecisions
 CollisionExitingDecisions = {}
 
----@param fields? table
+---@param fields? CollisionExitingDecisions
 ---@return CollisionExitingDecisions
 function CollisionExitingDecisions.new(fields) return end
 

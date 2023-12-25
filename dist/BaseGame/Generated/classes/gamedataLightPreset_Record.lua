@@ -4,7 +4,7 @@
 ---@class gamedataLightPreset_Record: gamedataTweakDBRecord
 gamedataLightPreset_Record = {}
 
----@param fields? table
+---@param fields? gamedataLightPreset_Record
 ---@return gamedataLightPreset_Record
 function gamedataLightPreset_Record.new(fields) return end
 

@@ -7,7 +7,7 @@
 ---@field private arePasswordsInitialized Bool
 FactInvokerControllerPS = {}
 
----@param fields? table
+---@param fields? FactInvokerControllerPS
 ---@return FactInvokerControllerPS
 function FactInvokerControllerPS.new(fields) return end
 

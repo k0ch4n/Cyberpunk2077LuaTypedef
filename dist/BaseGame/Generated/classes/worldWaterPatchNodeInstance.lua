@@ -4,6 +4,6 @@
 ---@class worldWaterPatchNodeInstance: worldMeshNodeInstance
 worldWaterPatchNodeInstance = {}
 
----@param fields? table
+---@param fields? worldWaterPatchNodeInstance
 ---@return worldWaterPatchNodeInstance
 function worldWaterPatchNodeInstance.new(fields) return end

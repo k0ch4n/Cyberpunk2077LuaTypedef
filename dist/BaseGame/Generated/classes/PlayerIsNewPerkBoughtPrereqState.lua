@@ -6,7 +6,7 @@
 ---@field public owner gameObject
 PlayerIsNewPerkBoughtPrereqState = {}
 
----@param fields? table
+---@param fields? PlayerIsNewPerkBoughtPrereqState
 ---@return PlayerIsNewPerkBoughtPrereqState
 function PlayerIsNewPerkBoughtPrereqState.new(fields) return end
 

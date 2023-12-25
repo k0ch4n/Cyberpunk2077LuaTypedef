@@ -7,7 +7,7 @@
 ---@field private cachedState EDoorStatus
 DoorStateOperations = {}
 
----@param fields? table
+---@param fields? DoorStateOperations
 ---@return DoorStateOperations
 function DoorStateOperations.new(fields) return end
 

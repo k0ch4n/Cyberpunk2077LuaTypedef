@@ -4,7 +4,7 @@
 ---@class UnsecureFootingFallEvents: FallEvents
 UnsecureFootingFallEvents = {}
 
----@param fields? table
+---@param fields? UnsecureFootingFallEvents
 ---@return UnsecureFootingFallEvents
 function UnsecureFootingFallEvents.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class UnconsciousState: ChangeHighLevelStateAbstract
 UnconsciousState = {}
 
----@param fields? table
+---@param fields? UnconsciousState
 ---@return UnconsciousState
 function UnconsciousState.new(fields) return end
 

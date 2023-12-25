@@ -4,6 +4,6 @@
 ---@class AIbehaviorIsStunnedVehicleDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorIsStunnedVehicleDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorIsStunnedVehicleDefinition
 ---@return AIbehaviorIsStunnedVehicleDefinition
 function AIbehaviorIsStunnedVehicleDefinition.new(fields) return end

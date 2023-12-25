@@ -5,7 +5,7 @@
 ---@field public defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties
 gameWeakspotComponent = {}
 
----@param fields? table
+---@param fields? gameWeakspotComponent
 ---@return gameWeakspotComponent
 function gameWeakspotComponent.new(fields) return end
 

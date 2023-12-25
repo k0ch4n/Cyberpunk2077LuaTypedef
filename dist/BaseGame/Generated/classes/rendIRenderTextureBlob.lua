@@ -6,6 +6,6 @@
 ---@field public textureData serializationDeferredDataBuffer
 rendIRenderTextureBlob = {}
 
----@param fields? table
+---@param fields? rendIRenderTextureBlob
 ---@return rendIRenderTextureBlob
 function rendIRenderTextureBlob.new(fields) return end

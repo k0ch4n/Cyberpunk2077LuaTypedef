@@ -5,7 +5,7 @@
 ---@field public animFeatureStatusEffect AnimFeature_StatusEffect
 CollisionExitingEvents = {}
 
----@param fields? table
+---@param fields? CollisionExitingEvents
 ---@return CollisionExitingEvents
 function CollisionExitingEvents.new(fields) return end
 

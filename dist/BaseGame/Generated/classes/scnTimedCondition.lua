@@ -7,6 +7,6 @@
 ---@field public timeLimitedFinish Bool
 scnTimedCondition = {}
 
----@param fields? table
+---@param fields? scnTimedCondition
 ---@return scnTimedCondition
 function scnTimedCondition.new(fields) return end

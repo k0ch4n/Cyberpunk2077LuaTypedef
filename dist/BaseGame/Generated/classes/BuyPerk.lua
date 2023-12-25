@@ -5,7 +5,7 @@
 ---@field public perkType gamedataPerkType
 BuyPerk = {}
 
----@param fields? table
+---@param fields? BuyPerk
 ---@return BuyPerk
 function BuyPerk.new(fields) return end
 

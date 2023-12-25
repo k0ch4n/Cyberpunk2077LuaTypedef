@@ -4,7 +4,7 @@
 ---@class TrafficIntersectionManagerController: MasterController
 TrafficIntersectionManagerController = {}
 
----@param fields? table
+---@param fields? TrafficIntersectionManagerController
 ---@return TrafficIntersectionManagerController
 function TrafficIntersectionManagerController.new(fields) return end
 

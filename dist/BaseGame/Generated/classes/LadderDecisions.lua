@@ -4,7 +4,7 @@
 ---@class LadderDecisions: LocomotionGroundDecisions
 LadderDecisions = {}
 
----@param fields? table
+---@param fields? LadderDecisions
 ---@return LadderDecisions
 function LadderDecisions.new(fields) return end
 

@@ -18,6 +18,6 @@
 ---@field public failWhenStoppedByCollision AIArgumentMapping
 AIbehaviorActionMoveTreeNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionMoveTreeNodeDefinition
 ---@return AIbehaviorActionMoveTreeNodeDefinition
 function AIbehaviorActionMoveTreeNodeDefinition.new(fields) return end

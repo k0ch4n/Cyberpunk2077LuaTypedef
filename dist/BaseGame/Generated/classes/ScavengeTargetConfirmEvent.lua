@@ -5,6 +5,6 @@
 ---@field public target gameObject
 ScavengeTargetConfirmEvent = {}
 
----@param fields? table
+---@param fields? ScavengeTargetConfirmEvent
 ---@return ScavengeTargetConfirmEvent
 function ScavengeTargetConfirmEvent.new(fields) return end

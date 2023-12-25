@@ -4,7 +4,7 @@
 ---@class gameLocationManager: gameILocationManager
 gameLocationManager = {}
 
----@param fields? table
+---@param fields? gameLocationManager
 ---@return gameLocationManager
 function gameLocationManager.new(fields) return end
 

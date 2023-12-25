@@ -13,7 +13,7 @@
 ---@field public MountedPowerWeaponAmmo gamebbScriptID_Uint32
 UI_ActiveVehicleDataDef = {}
 
----@param fields? table
+---@param fields? UI_ActiveVehicleDataDef
 ---@return UI_ActiveVehicleDataDef
 function UI_ActiveVehicleDataDef.new(fields) return end
 

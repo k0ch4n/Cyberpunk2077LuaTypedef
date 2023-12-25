@@ -6,6 +6,6 @@
 ---@field public cycleNavigation Bool
 inkVirtualListController = {}
 
----@param fields? table
+---@param fields? inkVirtualListController
 ---@return inkVirtualListController
 function inkVirtualListController.new(fields) return end

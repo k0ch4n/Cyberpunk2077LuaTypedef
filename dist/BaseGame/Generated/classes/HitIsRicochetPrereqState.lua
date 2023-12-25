@@ -4,7 +4,7 @@
 ---@class HitIsRicochetPrereqState: GenericHitPrereqState
 HitIsRicochetPrereqState = {}
 
----@param fields? table
+---@param fields? HitIsRicochetPrereqState
 ---@return HitIsRicochetPrereqState
 function HitIsRicochetPrereqState.new(fields) return end
 

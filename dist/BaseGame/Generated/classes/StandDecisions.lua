@@ -4,7 +4,7 @@
 ---@class StandDecisions: LocomotionGroundDecisions
 StandDecisions = {}
 
----@param fields? table
+---@param fields? StandDecisions
 ---@return StandDecisions
 function StandDecisions.new(fields) return end
 

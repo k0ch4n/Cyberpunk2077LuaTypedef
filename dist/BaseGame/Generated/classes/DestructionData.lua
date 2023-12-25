@@ -6,6 +6,6 @@
 ---@field public canBeFixed Bool
 DestructionData = {}
 
----@param fields? table
+---@param fields? DestructionData
 ---@return DestructionData
 function DestructionData.new(fields) return end

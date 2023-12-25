@@ -5,7 +5,7 @@
 ---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
 SelfRemovalEvents = {}
 
----@param fields? table
+---@param fields? SelfRemovalEvents
 ---@return SelfRemovalEvents
 function SelfRemovalEvents.new(fields) return end
 

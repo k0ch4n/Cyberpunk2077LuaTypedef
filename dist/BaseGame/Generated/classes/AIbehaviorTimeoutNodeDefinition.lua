@@ -5,6 +5,6 @@
 ---@field public time AIArgumentMapping
 AIbehaviorTimeoutNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorTimeoutNodeDefinition
 ---@return AIbehaviorTimeoutNodeDefinition
 function AIbehaviorTimeoutNodeDefinition.new(fields) return end

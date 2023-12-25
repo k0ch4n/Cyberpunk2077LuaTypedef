@@ -10,7 +10,7 @@
 ---@field private chargeBBID redCallbackObject
 Crosshair_Tech_Omaha = {}
 
----@param fields? table
+---@param fields? Crosshair_Tech_Omaha
 ---@return Crosshair_Tech_Omaha
 function Crosshair_Tech_Omaha.new(fields) return end
 

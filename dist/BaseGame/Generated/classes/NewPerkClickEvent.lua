@@ -6,6 +6,6 @@
 ---@field public action CName
 NewPerkClickEvent = {}
 
----@param fields? table
+---@param fields? NewPerkClickEvent
 ---@return NewPerkClickEvent
 function NewPerkClickEvent.new(fields) return end

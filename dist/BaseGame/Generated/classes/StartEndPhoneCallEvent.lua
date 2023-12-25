@@ -9,6 +9,6 @@
 ---@field public statPoolName String
 StartEndPhoneCallEvent = {}
 
----@param fields? table
+---@param fields? StartEndPhoneCallEvent
 ---@return StartEndPhoneCallEvent
 function StartEndPhoneCallEvent.new(fields) return end

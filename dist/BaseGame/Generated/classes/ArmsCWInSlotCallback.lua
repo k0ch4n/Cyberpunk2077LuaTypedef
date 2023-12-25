@@ -5,7 +5,7 @@
 ---@field protected state ArmsCWInSlotPrereqState
 ArmsCWInSlotCallback = {}
 
----@param fields? table
+---@param fields? ArmsCWInSlotCallback
 ---@return ArmsCWInSlotCallback
 function ArmsCWInSlotCallback.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class entCollisionPredictionPositionProvider: entIPositionProvider
 entCollisionPredictionPositionProvider = {}
 
----@param fields? table
+---@param fields? entCollisionPredictionPositionProvider
 ---@return entCollisionPredictionPositionProvider
 function entCollisionPredictionPositionProvider.new(fields) return end

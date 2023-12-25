@@ -4,7 +4,7 @@
 ---@class gamedataCurrencyReward_Record: gamedataTweakDBRecord
 gamedataCurrencyReward_Record = {}
 
----@param fields? table
+---@param fields? gamedataCurrencyReward_Record
 ---@return gamedataCurrencyReward_Record
 function gamedataCurrencyReward_Record.new(fields) return end
 

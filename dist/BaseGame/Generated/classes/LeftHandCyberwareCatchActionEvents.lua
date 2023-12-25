@@ -4,7 +4,7 @@
 ---@class LeftHandCyberwareCatchActionEvents: LeftHandCyberwareActionAbstractEvents
 LeftHandCyberwareCatchActionEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareCatchActionEvents
 ---@return LeftHandCyberwareCatchActionEvents
 function LeftHandCyberwareCatchActionEvents.new(fields) return end
 

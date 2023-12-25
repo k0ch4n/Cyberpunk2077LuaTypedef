@@ -6,6 +6,6 @@
 ---@field public extraEvaluationDistance Float
 senseVisibleObjectetSecondaryDistanceEvent = {}
 
----@param fields? table
+---@param fields? senseVisibleObjectetSecondaryDistanceEvent
 ---@return senseVisibleObjectetSecondaryDistanceEvent
 function senseVisibleObjectetSecondaryDistanceEvent.new(fields) return end

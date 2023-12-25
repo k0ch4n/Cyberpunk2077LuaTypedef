@@ -4,7 +4,7 @@
 ---@class gamedataSectorSelector_Record: gamedataTweakDBRecord
 gamedataSectorSelector_Record = {}
 
----@param fields? table
+---@param fields? gamedataSectorSelector_Record
 ---@return gamedataSectorSelector_Record
 function gamedataSectorSelector_Record.new(fields) return end
 

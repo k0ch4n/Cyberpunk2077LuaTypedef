@@ -10,7 +10,7 @@
 ---@field private animProxy inkanimProxy
 ReloadingExpansionPopupController = {}
 
----@param fields? table
+---@param fields? ReloadingExpansionPopupController
 ---@return ReloadingExpansionPopupController
 function ReloadingExpansionPopupController.new(fields) return end
 

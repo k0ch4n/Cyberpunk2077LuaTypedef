@@ -27,7 +27,7 @@
 ---@field private forcedCooldownOptions inkanimPlaybackOptions
 Crosshair_Custom_HMG = {}
 
----@param fields? table
+---@param fields? Crosshair_Custom_HMG
 ---@return Crosshair_Custom_HMG
 function Crosshair_Custom_HMG.new(fields) return end
 

@@ -13,6 +13,6 @@
 ---@field public optimiseCombinedModifiers Bool
 gameStatModifierGroup = {}
 
----@param fields? table
+---@param fields? gameStatModifierGroup
 ---@return gameStatModifierGroup
 function gameStatModifierGroup.new(fields) return end

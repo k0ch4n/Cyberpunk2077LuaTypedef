@@ -4,7 +4,7 @@
 ---@class SwimmingDivingDecisions: LocomotionSwimming
 SwimmingDivingDecisions = {}
 
----@param fields? table
+---@param fields? SwimmingDivingDecisions
 ---@return SwimmingDivingDecisions
 function SwimmingDivingDecisions.new(fields) return end
 

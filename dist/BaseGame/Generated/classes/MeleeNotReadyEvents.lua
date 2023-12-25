@@ -4,7 +4,7 @@
 ---@class MeleeNotReadyEvents: MeleeEventsTransition
 MeleeNotReadyEvents = {}
 
----@param fields? table
+---@param fields? MeleeNotReadyEvents
 ---@return MeleeNotReadyEvents
 function MeleeNotReadyEvents.new(fields) return end
 

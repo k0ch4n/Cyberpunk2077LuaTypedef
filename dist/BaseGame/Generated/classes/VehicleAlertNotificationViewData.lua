@@ -5,7 +5,7 @@
 ---@field public canBeMerged Bool
 VehicleAlertNotificationViewData = {}
 
----@param fields? table
+---@param fields? VehicleAlertNotificationViewData
 ---@return VehicleAlertNotificationViewData
 function VehicleAlertNotificationViewData.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameSpawnOccupantsEvent: redEvent
 gameSpawnOccupantsEvent = {}
 
----@param fields? table
+---@param fields? gameSpawnOccupantsEvent
 ---@return gameSpawnOccupantsEvent
 function gameSpawnOccupantsEvent.new(fields) return end

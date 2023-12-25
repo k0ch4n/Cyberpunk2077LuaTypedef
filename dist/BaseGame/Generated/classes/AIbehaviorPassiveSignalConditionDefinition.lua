@@ -6,6 +6,6 @@
 ---@field public deactivateSignal Bool
 AIbehaviorPassiveSignalConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorPassiveSignalConditionDefinition
 ---@return AIbehaviorPassiveSignalConditionDefinition
 function AIbehaviorPassiveSignalConditionDefinition.new(fields) return end

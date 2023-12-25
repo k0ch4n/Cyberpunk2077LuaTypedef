@@ -4,6 +4,6 @@
 ---@class questTestNodeDefinition: questDisableableNodeDefinition
 questTestNodeDefinition = {}
 
----@param fields? table
+---@param fields? questTestNodeDefinition
 ---@return questTestNodeDefinition
 function questTestNodeDefinition.new(fields) return end

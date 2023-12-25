@@ -6,6 +6,6 @@
 ---@field public conditions questIBaseCondition[]
 questLogicalCondition = {}
 
----@param fields? table
+---@param fields? questLogicalCondition
 ---@return questLogicalCondition
 function questLogicalCondition.new(fields) return end

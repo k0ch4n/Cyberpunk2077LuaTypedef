@@ -4,7 +4,7 @@
 ---@class QuestRemoveQuickHacks: ActionBool
 QuestRemoveQuickHacks = {}
 
----@param fields? table
+---@param fields? QuestRemoveQuickHacks
 ---@return QuestRemoveQuickHacks
 function QuestRemoveQuickHacks.new(fields) return end
 

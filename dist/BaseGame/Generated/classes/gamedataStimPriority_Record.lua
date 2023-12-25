@@ -4,7 +4,7 @@
 ---@class gamedataStimPriority_Record: gamedataTweakDBRecord
 gamedataStimPriority_Record = {}
 
----@param fields? table
+---@param fields? gamedataStimPriority_Record
 ---@return gamedataStimPriority_Record
 function gamedataStimPriority_Record.new(fields) return end
 

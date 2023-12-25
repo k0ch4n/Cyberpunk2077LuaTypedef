@@ -4,6 +4,6 @@
 ---@class DestroyLink: redEvent
 DestroyLink = {}
 
----@param fields? table
+---@param fields? DestroyLink
 ---@return DestroyLink
 function DestroyLink.new(fields) return end

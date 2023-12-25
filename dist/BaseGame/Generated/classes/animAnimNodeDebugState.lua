@@ -6,6 +6,6 @@
 ---@field public active Bool
 animAnimNodeDebugState = {}
 
----@param fields? table
+---@param fields? animAnimNodeDebugState
 ---@return animAnimNodeDebugState
 function animAnimNodeDebugState.new(fields) return end

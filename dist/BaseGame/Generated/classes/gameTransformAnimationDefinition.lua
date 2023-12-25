@@ -12,6 +12,6 @@
 ---@field public timeline gameTransformAnimationTimeline
 gameTransformAnimationDefinition = {}
 
----@param fields? table
+---@param fields? gameTransformAnimationDefinition
 ---@return gameTransformAnimationDefinition
 function gameTransformAnimationDefinition.new(fields) return end

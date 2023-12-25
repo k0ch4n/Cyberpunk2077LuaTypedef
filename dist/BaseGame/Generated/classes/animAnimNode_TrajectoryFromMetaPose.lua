@@ -5,6 +5,6 @@
 ---@field public metaPoseTrajectoryLs animTransformIndex
 animAnimNode_TrajectoryFromMetaPose = {}
 
----@param fields? table
+---@param fields? animAnimNode_TrajectoryFromMetaPose
 ---@return animAnimNode_TrajectoryFromMetaPose
 function animAnimNode_TrajectoryFromMetaPose.new(fields) return end

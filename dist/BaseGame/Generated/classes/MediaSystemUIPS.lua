@@ -4,7 +4,7 @@
 ---@class MediaSystemUIPS: VirtualSystemPS
 MediaSystemUIPS = {}
 
----@param fields? table
+---@param fields? MediaSystemUIPS
 ---@return MediaSystemUIPS
 function MediaSystemUIPS.new(fields) return end
 

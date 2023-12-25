@@ -5,7 +5,7 @@
 ---@field public vRoomFake Bool
 ToggleStreamFeed = {}
 
----@param fields? table
+---@param fields? ToggleStreamFeed
 ---@return ToggleStreamFeed
 function ToggleStreamFeed.new(fields) return end
 

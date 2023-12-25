@@ -13,6 +13,6 @@
 ---@field public vehicleEntityID entEntityID
 gameinteractionsBumpEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsBumpEvent
 ---@return gameinteractionsBumpEvent
 function gameinteractionsBumpEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public investigationPositionsArray Vector4[]
 InvestigationData = {}
 
----@param fields? table
+---@param fields? InvestigationData
 ---@return InvestigationData
 function InvestigationData.new(fields) return end

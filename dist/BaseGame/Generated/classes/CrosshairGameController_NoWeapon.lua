@@ -23,7 +23,7 @@
 ---@field private argZoomBuffered Float
 CrosshairGameController_NoWeapon = {}
 
----@param fields? table
+---@param fields? CrosshairGameController_NoWeapon
 ---@return CrosshairGameController_NoWeapon
 function CrosshairGameController_NoWeapon.new(fields) return end
 

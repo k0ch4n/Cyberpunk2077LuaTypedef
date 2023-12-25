@@ -8,6 +8,6 @@
 ---@field public delayID gameDelayID
 StimIdentificationData = {}
 
----@param fields? table
+---@param fields? StimIdentificationData
 ---@return StimIdentificationData
 function StimIdentificationData.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class DelayedUpdateDeviceStateEvent: redEvent
 DelayedUpdateDeviceStateEvent = {}
 
----@param fields? table
+---@param fields? DelayedUpdateDeviceStateEvent
 ---@return DelayedUpdateDeviceStateEvent
 function DelayedUpdateDeviceStateEvent.new(fields) return end

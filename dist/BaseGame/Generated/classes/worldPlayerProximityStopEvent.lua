@@ -5,6 +5,6 @@
 ---@field public profile CName
 worldPlayerProximityStopEvent = {}
 
----@param fields? table
+---@param fields? worldPlayerProximityStopEvent
 ---@return worldPlayerProximityStopEvent
 function worldPlayerProximityStopEvent.new(fields) return end

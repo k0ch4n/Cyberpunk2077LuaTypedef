@@ -4,6 +4,6 @@
 ---@class worldCompiledNodeInstanceSetupInfoBuffer
 worldCompiledNodeInstanceSetupInfoBuffer = {}
 
----@param fields? table
+---@param fields? worldCompiledNodeInstanceSetupInfoBuffer
 ---@return worldCompiledNodeInstanceSetupInfoBuffer
 function worldCompiledNodeInstanceSetupInfoBuffer.new(fields) return end

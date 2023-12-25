@@ -8,7 +8,7 @@
 ---@field public originalAttachRight Bool
 lookAtPresetGunBaseEvents = {}
 
----@param fields? table
+---@param fields? lookAtPresetGunBaseEvents
 ---@return lookAtPresetGunBaseEvents
 function lookAtPresetGunBaseEvents.new(fields) return end
 

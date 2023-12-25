@@ -4,7 +4,7 @@
 ---@class gamedataAIRingType_Record: gamedataTweakDBRecord
 gamedataAIRingType_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIRingType_Record
 ---@return gamedataAIRingType_Record
 function gamedataAIRingType_Record.new(fields) return end
 

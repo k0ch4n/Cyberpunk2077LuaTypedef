@@ -8,7 +8,7 @@
 ---@field public animPerfectCharge inkanimProxy
 CrosshairLogicController_RasetsuAimFire = {}
 
----@param fields? table
+---@param fields? CrosshairLogicController_RasetsuAimFire
 ---@return CrosshairLogicController_RasetsuAimFire
 function CrosshairLogicController_RasetsuAimFire.new(fields) return end
 

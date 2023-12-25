@@ -15,6 +15,6 @@
 ---@field public AoeDamageVFX gameFxResource
 RadioSetup = {}
 
----@param fields? table
+---@param fields? RadioSetup
 ---@return RadioSetup
 function RadioSetup.new(fields) return end

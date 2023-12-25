@@ -7,7 +7,7 @@
 ---@field private anim inkanimProxy
 QuickHackQueueItem = {}
 
----@param fields? table
+---@param fields? QuickHackQueueItem
 ---@return QuickHackQueueItem
 function QuickHackQueueItem.new(fields) return end
 

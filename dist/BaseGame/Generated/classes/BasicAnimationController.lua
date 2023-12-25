@@ -9,7 +9,7 @@
 ---@field protected currentAnimation CName
 BasicAnimationController = {}
 
----@param fields? table
+---@param fields? BasicAnimationController
 ---@return BasicAnimationController
 function BasicAnimationController.new(fields) return end
 

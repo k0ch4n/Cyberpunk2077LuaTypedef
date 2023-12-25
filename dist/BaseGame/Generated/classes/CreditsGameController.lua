@@ -18,7 +18,7 @@
 ---@field private isCounting Bool
 CreditsGameController = {}
 
----@param fields? table
+---@param fields? CreditsGameController
 ---@return CreditsGameController
 function CreditsGameController.new(fields) return end
 

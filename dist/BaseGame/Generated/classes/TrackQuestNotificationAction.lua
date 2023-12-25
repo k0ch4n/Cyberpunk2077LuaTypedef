@@ -6,7 +6,7 @@
 ---@field public journalMgr gameJournalManager
 TrackQuestNotificationAction = {}
 
----@param fields? table
+---@param fields? TrackQuestNotificationAction
 ---@return TrackQuestNotificationAction
 function TrackQuestNotificationAction.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public emitterInfo rendRenderParticleBlobEmitterInfo
 rendRenderParticleBlobHeader = {}
 
----@param fields? table
+---@param fields? rendRenderParticleBlobHeader
 ---@return rendRenderParticleBlobHeader
 function rendRenderParticleBlobHeader.new(fields) return end

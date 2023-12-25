@@ -4,7 +4,7 @@
 ---@class DeviceConnectionHighlightComponent: gameScriptableComponent
 DeviceConnectionHighlightComponent = {}
 
----@param fields? table
+---@param fields? DeviceConnectionHighlightComponent
 ---@return DeviceConnectionHighlightComponent
 function DeviceConnectionHighlightComponent.new(fields) return end
 

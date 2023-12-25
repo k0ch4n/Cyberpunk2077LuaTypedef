@@ -9,7 +9,7 @@
 ---@field private radialListener redCallbackObject
 CarHotkeyController = {}
 
----@param fields? table
+---@param fields? CarHotkeyController
 ---@return CarHotkeyController
 function CarHotkeyController.new(fields) return end
 

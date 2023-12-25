@@ -19,6 +19,6 @@
 ---@field public isWorldRenderPlane Bool
 AnimFeature_VehicleData = {}
 
----@param fields? table
+---@param fields? AnimFeature_VehicleData
 ---@return AnimFeature_VehicleData
 function AnimFeature_VehicleData.new(fields) return end

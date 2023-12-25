@@ -10,6 +10,6 @@
 ---@field public queuePriority Int32
 questInputHint_NodeType = {}
 
----@param fields? table
+---@param fields? questInputHint_NodeType
 ---@return questInputHint_NodeType
 function questInputHint_NodeType.new(fields) return end

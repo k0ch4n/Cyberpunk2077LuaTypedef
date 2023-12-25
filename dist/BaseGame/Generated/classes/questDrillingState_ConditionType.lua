@@ -6,6 +6,6 @@
 ---@field public state questDrillingState
 questDrillingState_ConditionType = {}
 
----@param fields? table
+---@param fields? questDrillingState_ConditionType
 ---@return questDrillingState_ConditionType
 function questDrillingState_ConditionType.new(fields) return end

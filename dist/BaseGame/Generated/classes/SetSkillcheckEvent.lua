@@ -5,7 +5,7 @@
 ---@field public skillcheckContainer BaseSkillCheckContainer
 SetSkillcheckEvent = {}
 
----@param fields? table
+---@param fields? SetSkillcheckEvent
 ---@return SetSkillcheckEvent
 function SetSkillcheckEvent.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class PerksScreenStaticData: IScriptable
 PerksScreenStaticData = {}
 
----@param fields? table
+---@param fields? PerksScreenStaticData
 ---@return PerksScreenStaticData
 function PerksScreenStaticData.new(fields) return end
 

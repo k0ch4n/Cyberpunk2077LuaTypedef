@@ -6,6 +6,6 @@
 ---@field public boneName CName
 entFallbackSlot = {}
 
----@param fields? table
+---@param fields? entFallbackSlot
 ---@return entFallbackSlot
 function entFallbackSlot.new(fields) return end

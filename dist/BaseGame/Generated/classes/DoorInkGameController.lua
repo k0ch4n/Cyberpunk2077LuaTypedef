@@ -5,7 +5,7 @@
 ---@field private doorStaturTextWidget inkTextWidget
 DoorInkGameController = {}
 
----@param fields? table
+---@param fields? DoorInkGameController
 ---@return DoorInkGameController
 function DoorInkGameController.new(fields) return end
 

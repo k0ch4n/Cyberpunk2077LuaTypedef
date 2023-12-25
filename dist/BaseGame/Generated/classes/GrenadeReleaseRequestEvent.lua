@@ -4,6 +4,6 @@
 ---@class GrenadeReleaseRequestEvent: redEvent
 GrenadeReleaseRequestEvent = {}
 
----@param fields? table
+---@param fields? GrenadeReleaseRequestEvent
 ---@return GrenadeReleaseRequestEvent
 function GrenadeReleaseRequestEvent.new(fields) return end

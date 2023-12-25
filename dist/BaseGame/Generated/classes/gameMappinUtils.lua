@@ -4,7 +4,7 @@
 ---@class gameMappinUtils
 gameMappinUtils = {}
 
----@param fields? table
+---@param fields? gameMappinUtils
 ---@return gameMappinUtils
 function gameMappinUtils.new(fields) return end
 

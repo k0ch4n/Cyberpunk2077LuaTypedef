@@ -22,6 +22,6 @@
 ---@field public volumeChannels rendLightChannel
 entEnvProbeComponent = {}
 
----@param fields? table
+---@param fields? entEnvProbeComponent
 ---@return entEnvProbeComponent
 function entEnvProbeComponent.new(fields) return end

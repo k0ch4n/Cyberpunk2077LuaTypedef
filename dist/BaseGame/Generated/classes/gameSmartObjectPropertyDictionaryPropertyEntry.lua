@@ -14,6 +14,6 @@
 ---@field public overObstacle Bool
 gameSmartObjectPropertyDictionaryPropertyEntry = {}
 
----@param fields? table
+---@param fields? gameSmartObjectPropertyDictionaryPropertyEntry
 ---@return gameSmartObjectPropertyDictionaryPropertyEntry
 function gameSmartObjectPropertyDictionaryPropertyEntry.new(fields) return end

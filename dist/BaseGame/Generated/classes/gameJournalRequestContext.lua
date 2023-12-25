@@ -6,7 +6,7 @@
 ---@field public classFilter gameJournalRequestClassFilter
 gameJournalRequestContext = {}
 
----@param fields? table
+---@param fields? gameJournalRequestContext
 ---@return gameJournalRequestContext
 function gameJournalRequestContext.new(fields) return end
 

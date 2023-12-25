@@ -6,7 +6,7 @@
 ---@field protected isCheckInverted Bool
 IsVehicleDoorLocked = {}
 
----@param fields? table
+---@param fields? IsVehicleDoorLocked
 ---@return IsVehicleDoorLocked
 function IsVehicleDoorLocked.new(fields) return end
 

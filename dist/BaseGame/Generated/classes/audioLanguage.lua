@@ -7,6 +7,6 @@
 ---@field public hasVO Bool
 audioLanguage = {}
 
----@param fields? table
+---@param fields? audioLanguage
 ---@return audioLanguage
 function audioLanguage.new(fields) return end

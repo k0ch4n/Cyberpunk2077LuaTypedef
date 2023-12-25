@@ -9,6 +9,6 @@
 ---@field public isObjectPerPositionEmitter Bool
 audioEntityEmitterSettings = {}
 
----@param fields? table
+---@param fields? audioEntityEmitterSettings
 ---@return audioEntityEmitterSettings
 function audioEntityEmitterSettings.new(fields) return end

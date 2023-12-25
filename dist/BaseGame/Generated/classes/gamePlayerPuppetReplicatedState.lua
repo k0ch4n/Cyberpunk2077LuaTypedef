@@ -4,6 +4,6 @@
 ---@class gamePlayerPuppetReplicatedState: gamePuppetReplicatedState
 gamePlayerPuppetReplicatedState = {}
 
----@param fields? table
+---@param fields? gamePlayerPuppetReplicatedState
 ---@return gamePlayerPuppetReplicatedState
 function gamePlayerPuppetReplicatedState.new(fields) return end

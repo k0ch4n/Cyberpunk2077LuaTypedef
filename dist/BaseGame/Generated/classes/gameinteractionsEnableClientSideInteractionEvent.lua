@@ -4,6 +4,6 @@
 ---@class gameinteractionsEnableClientSideInteractionEvent: redEvent
 gameinteractionsEnableClientSideInteractionEvent = {}
 
----@param fields? table
+---@param fields? gameinteractionsEnableClientSideInteractionEvent
 ---@return gameinteractionsEnableClientSideInteractionEvent
 function gameinteractionsEnableClientSideInteractionEvent.new(fields) return end

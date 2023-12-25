@@ -4,6 +4,6 @@
 ---@class SampleDeviceClass: gameObject
 SampleDeviceClass = {}
 
----@param fields? table
+---@param fields? SampleDeviceClass
 ---@return SampleDeviceClass
 function SampleDeviceClass.new(fields) return end

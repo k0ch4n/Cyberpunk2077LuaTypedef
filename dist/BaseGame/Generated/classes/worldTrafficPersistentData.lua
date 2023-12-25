@@ -6,6 +6,6 @@
 ---@field public neighborGroups Uint16[][]
 worldTrafficPersistentData = {}
 
----@param fields? table
+---@param fields? worldTrafficPersistentData
 ---@return worldTrafficPersistentData
 function worldTrafficPersistentData.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public layerName CName
 gameinteractionsActiveLayerData = {}
 
----@param fields? table
+---@param fields? gameinteractionsActiveLayerData
 ---@return gameinteractionsActiveLayerData
 function gameinteractionsActiveLayerData.new(fields) return end

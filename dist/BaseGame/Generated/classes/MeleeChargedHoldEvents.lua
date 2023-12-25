@@ -6,7 +6,7 @@
 ---@field public effectiveRangeMod gameStatModifierData_Deprecated
 MeleeChargedHoldEvents = {}
 
----@param fields? table
+---@param fields? MeleeChargedHoldEvents
 ---@return MeleeChargedHoldEvents
 function MeleeChargedHoldEvents.new(fields) return end
 

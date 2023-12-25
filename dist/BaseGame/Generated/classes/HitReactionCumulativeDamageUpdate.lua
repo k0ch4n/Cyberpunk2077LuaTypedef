@@ -5,6 +5,6 @@
 ---@field public prevUpdateTime Float
 HitReactionCumulativeDamageUpdate = {}
 
----@param fields? table
+---@param fields? HitReactionCumulativeDamageUpdate
 ---@return HitReactionCumulativeDamageUpdate
 function HitReactionCumulativeDamageUpdate.new(fields) return end

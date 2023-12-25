@@ -6,6 +6,6 @@
 ---@field public entryType audioKeyUiSoundPairDictionaryItem
 audioKeyUiSoundDictionary = {}
 
----@param fields? table
+---@param fields? audioKeyUiSoundDictionary
 ---@return audioKeyUiSoundDictionary
 function audioKeyUiSoundDictionary.new(fields) return end

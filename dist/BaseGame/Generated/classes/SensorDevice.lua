@@ -78,7 +78,7 @@
 ---@field protected maxYaw Float
 SensorDevice = {}
 
----@param fields? table
+---@param fields? SensorDevice
 ---@return SensorDevice
 function SensorDevice.new(fields) return end
 

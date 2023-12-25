@@ -6,6 +6,6 @@
 ---@field public source CName
 gameGodModeData = {}
 
----@param fields? table
+---@param fields? gameGodModeData
 ---@return gameGodModeData
 function gameGodModeData.new(fields) return end

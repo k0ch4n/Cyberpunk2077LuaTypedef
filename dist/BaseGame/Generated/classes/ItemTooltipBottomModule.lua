@@ -8,7 +8,7 @@
 ---@field private priceText inkTextWidgetReference
 ItemTooltipBottomModule = {}
 
----@param fields? table
+---@param fields? ItemTooltipBottomModule
 ---@return ItemTooltipBottomModule
 function ItemTooltipBottomModule.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public visited Bool
 questJournalEntryVisited_ConditionType = {}
 
----@param fields? table
+---@param fields? questJournalEntryVisited_ConditionType
 ---@return questJournalEntryVisited_ConditionType
 function questJournalEntryVisited_ConditionType.new(fields) return end

@@ -4,7 +4,7 @@
 ---@class PriorityCheckEventCondition: AISignalCondition
 PriorityCheckEventCondition = {}
 
----@param fields? table
+---@param fields? PriorityCheckEventCondition
 ---@return PriorityCheckEventCondition
 function PriorityCheckEventCondition.new(fields) return end
 

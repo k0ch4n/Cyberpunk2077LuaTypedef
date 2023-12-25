@@ -10,6 +10,6 @@
 ---@field public exitDelayTime Float
 audioVehicleInteriorParameterData = {}
 
----@param fields? table
+---@param fields? audioVehicleInteriorParameterData
 ---@return audioVehicleInteriorParameterData
 function audioVehicleInteriorParameterData.new(fields) return end

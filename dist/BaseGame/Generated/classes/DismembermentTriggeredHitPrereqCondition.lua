@@ -5,7 +5,7 @@
 ---@field private currValue Uint32
 DismembermentTriggeredHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? DismembermentTriggeredHitPrereqCondition
 ---@return DismembermentTriggeredHitPrereqCondition
 function DismembermentTriggeredHitPrereqCondition.new(fields) return end
 

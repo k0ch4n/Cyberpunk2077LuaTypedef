@@ -14,6 +14,6 @@
 ---@field public systemsToNotifyFlags Uint16
 worldPhysicalDestructionNode = {}
 
----@param fields? table
+---@param fields? worldPhysicalDestructionNode
 ---@return worldPhysicalDestructionNode
 function worldPhysicalDestructionNode.new(fields) return end

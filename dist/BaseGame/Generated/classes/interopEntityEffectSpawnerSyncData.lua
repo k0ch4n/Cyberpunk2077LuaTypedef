@@ -11,6 +11,6 @@
 ---@field public included Bool
 interopEntityEffectSpawnerSyncData = {}
 
----@param fields? table
+---@param fields? interopEntityEffectSpawnerSyncData
 ---@return interopEntityEffectSpawnerSyncData
 function interopEntityEffectSpawnerSyncData.new(fields) return end

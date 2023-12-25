@@ -4,6 +4,6 @@
 ---@class worldgeometryCoverDescriptionQuery: ISerializable
 worldgeometryCoverDescriptionQuery = {}
 
----@param fields? table
+---@param fields? worldgeometryCoverDescriptionQuery
 ---@return worldgeometryCoverDescriptionQuery
 function worldgeometryCoverDescriptionQuery.new(fields) return end

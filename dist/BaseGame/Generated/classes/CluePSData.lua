@@ -9,7 +9,7 @@
 ---@field private conclusionQuestState EConclusionQuestState
 CluePSData = {}
 
----@param fields? table
+---@param fields? CluePSData
 ---@return CluePSData
 function CluePSData.new(fields) return end
 

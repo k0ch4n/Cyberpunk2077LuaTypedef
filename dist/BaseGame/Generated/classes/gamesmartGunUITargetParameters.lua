@@ -13,6 +13,6 @@
 ---@field public attachedBoneName CName
 gamesmartGunUITargetParameters = {}
 
----@param fields? table
+---@param fields? gamesmartGunUITargetParameters
 ---@return gamesmartGunUITargetParameters
 function gamesmartGunUITargetParameters.new(fields) return end

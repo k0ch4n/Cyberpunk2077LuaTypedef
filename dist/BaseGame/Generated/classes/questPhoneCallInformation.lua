@@ -13,6 +13,6 @@
 ---@field public visuals questPhoneCallVisuals
 questPhoneCallInformation = {}
 
----@param fields? table
+---@param fields? questPhoneCallInformation
 ---@return questPhoneCallInformation
 function questPhoneCallInformation.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public logicOperator ELogicOperator
 gameinteractionsvisBluelineDescription = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisBluelineDescription
 ---@return gameinteractionsvisBluelineDescription
 function gameinteractionsvisBluelineDescription.new(fields) return end

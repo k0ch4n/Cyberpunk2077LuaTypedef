@@ -6,6 +6,6 @@
 ---@field public styleResource inkStyleResource
 inkStyleTheme = {}
 
----@param fields? table
+---@param fields? inkStyleTheme
 ---@return inkStyleTheme
 function inkStyleTheme.new(fields) return end

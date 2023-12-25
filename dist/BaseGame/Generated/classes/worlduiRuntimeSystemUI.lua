@@ -4,6 +4,6 @@
 ---@class worlduiRuntimeSystemUI: worldIRuntimeSystem
 worlduiRuntimeSystemUI = {}
 
----@param fields? table
+---@param fields? worlduiRuntimeSystemUI
 ---@return worlduiRuntimeSystemUI
 function worlduiRuntimeSystemUI.new(fields) return end

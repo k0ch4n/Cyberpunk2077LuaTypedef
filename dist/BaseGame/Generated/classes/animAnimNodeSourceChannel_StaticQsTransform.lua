@@ -5,6 +5,6 @@
 ---@field public data QsTransform
 animAnimNodeSourceChannel_StaticQsTransform = {}
 
----@param fields? table
+---@param fields? animAnimNodeSourceChannel_StaticQsTransform
 ---@return animAnimNodeSourceChannel_StaticQsTransform
 function animAnimNodeSourceChannel_StaticQsTransform.new(fields) return end

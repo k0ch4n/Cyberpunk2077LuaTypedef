@@ -6,6 +6,6 @@
 ---@field public dsFormat GpuWrapApieTextureFormat
 PSODescRenderTargetSetup = {}
 
----@param fields? table
+---@param fields? PSODescRenderTargetSetup
 ---@return PSODescRenderTargetSetup
 function PSODescRenderTargetSetup.new(fields) return end

@@ -5,6 +5,6 @@
 ---@field public active Bool
 AnimFeature_Felled = {}
 
----@param fields? table
+---@param fields? AnimFeature_Felled
 ---@return AnimFeature_Felled
 function AnimFeature_Felled.new(fields) return end

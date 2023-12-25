@@ -4,7 +4,7 @@
 ---@class SetDeviceTagKillMode: ActionBool
 SetDeviceTagKillMode = {}
 
----@param fields? table
+---@param fields? SetDeviceTagKillMode
 ---@return SetDeviceTagKillMode
 function SetDeviceTagKillMode.new(fields) return end
 

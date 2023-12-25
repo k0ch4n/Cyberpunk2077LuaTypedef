@@ -12,7 +12,7 @@
 ---@field private c_fullChargeOpacity Float
 ChargeIndicatorGameController = {}
 
----@param fields? table
+---@param fields? ChargeIndicatorGameController
 ---@return ChargeIndicatorGameController
 function ChargeIndicatorGameController.new(fields) return end
 

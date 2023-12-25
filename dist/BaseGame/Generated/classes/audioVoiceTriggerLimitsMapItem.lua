@@ -6,6 +6,6 @@
 ---@field public limits audioVoiceTriggerLimits
 audioVoiceTriggerLimitsMapItem = {}
 
----@param fields? table
+---@param fields? audioVoiceTriggerLimitsMapItem
 ---@return audioVoiceTriggerLimitsMapItem
 function audioVoiceTriggerLimitsMapItem.new(fields) return end

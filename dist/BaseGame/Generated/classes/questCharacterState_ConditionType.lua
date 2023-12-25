@@ -5,6 +5,6 @@
 ---@field public subType questICharacterConditionSubType
 questCharacterState_ConditionType = {}
 
----@param fields? table
+---@param fields? questCharacterState_ConditionType
 ---@return questCharacterState_ConditionType
 function questCharacterState_ConditionType.new(fields) return end

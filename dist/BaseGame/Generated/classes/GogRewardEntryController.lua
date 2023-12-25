@@ -10,7 +10,7 @@
 ---@field private isUnlocked Bool
 GogRewardEntryController = {}
 
----@param fields? table
+---@param fields? GogRewardEntryController
 ---@return GogRewardEntryController
 function GogRewardEntryController.new(fields) return end
 

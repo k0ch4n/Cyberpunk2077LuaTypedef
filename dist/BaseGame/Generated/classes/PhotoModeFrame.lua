@@ -9,7 +9,7 @@
 ---@field private opacity Float
 PhotoModeFrame = {}
 
----@param fields? table
+---@param fields? PhotoModeFrame
 ---@return PhotoModeFrame
 function PhotoModeFrame.new(fields) return end
 

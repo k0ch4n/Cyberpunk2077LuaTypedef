@@ -4,7 +4,7 @@
 ---@class ToggleActivation: ActionBool
 ToggleActivation = {}
 
----@param fields? table
+---@param fields? ToggleActivation
 ---@return ToggleActivation
 function ToggleActivation.new(fields) return end
 

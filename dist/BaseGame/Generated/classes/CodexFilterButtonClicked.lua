@@ -6,6 +6,6 @@
 ---@field public toggled Bool
 CodexFilterButtonClicked = {}
 
----@param fields? table
+---@param fields? CodexFilterButtonClicked
 ---@return CodexFilterButtonClicked
 function CodexFilterButtonClicked.new(fields) return end

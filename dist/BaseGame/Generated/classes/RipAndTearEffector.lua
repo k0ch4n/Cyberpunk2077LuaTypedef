@@ -8,7 +8,7 @@
 ---@field public prevCleanupTime EngineTime
 RipAndTearEffector = {}
 
----@param fields? table
+---@param fields? RipAndTearEffector
 ---@return RipAndTearEffector
 function RipAndTearEffector.new(fields) return end
 

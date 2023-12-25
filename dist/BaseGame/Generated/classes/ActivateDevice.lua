@@ -5,7 +5,7 @@
 ---@field public tweakDBChoiceName String
 ActivateDevice = {}
 
----@param fields? table
+---@param fields? ActivateDevice
 ---@return ActivateDevice
 function ActivateDevice.new(fields) return end
 

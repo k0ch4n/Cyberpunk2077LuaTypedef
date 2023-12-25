@@ -8,6 +8,6 @@
 ---@field public settings HackTargetSettings
 HackTargetEvent = {}
 
----@param fields? table
+---@param fields? HackTargetEvent
 ---@return HackTargetEvent
 function HackTargetEvent.new(fields) return end

@@ -8,7 +8,7 @@
 ---@field private hovered Bool
 NewPerksSkillLevelLogicController = {}
 
----@param fields? table
+---@param fields? NewPerksSkillLevelLogicController
 ---@return NewPerksSkillLevelLogicController
 function NewPerksSkillLevelLogicController.new(fields) return end
 

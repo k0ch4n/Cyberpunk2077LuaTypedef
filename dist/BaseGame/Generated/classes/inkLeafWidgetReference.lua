@@ -4,6 +4,6 @@
 ---@class inkLeafWidgetReference: inkWidgetReference
 inkLeafWidgetReference = {}
 
----@param fields? table
+---@param fields? inkLeafWidgetReference
 ---@return inkLeafWidgetReference
 function inkLeafWidgetReference.new(fields) return end

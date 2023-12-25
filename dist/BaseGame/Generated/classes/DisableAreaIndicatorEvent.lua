@@ -4,6 +4,6 @@
 ---@class DisableAreaIndicatorEvent: redEvent
 DisableAreaIndicatorEvent = {}
 
----@param fields? table
+---@param fields? DisableAreaIndicatorEvent
 ---@return DisableAreaIndicatorEvent
 function DisableAreaIndicatorEvent.new(fields) return end

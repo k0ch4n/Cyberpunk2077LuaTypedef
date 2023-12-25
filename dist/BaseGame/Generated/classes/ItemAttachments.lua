@@ -6,7 +6,7 @@
 ---@field public attachmentSlotID TweakDBID
 ItemAttachments = {}
 
----@param fields? table
+---@param fields? ItemAttachments
 ---@return ItemAttachments
 function ItemAttachments.new(fields) return end
 

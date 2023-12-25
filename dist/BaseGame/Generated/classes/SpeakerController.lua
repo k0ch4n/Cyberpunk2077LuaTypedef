@@ -4,7 +4,7 @@
 ---@class SpeakerController: ScriptableDeviceComponent
 SpeakerController = {}
 
----@param fields? table
+---@param fields? SpeakerController
 ---@return SpeakerController
 function SpeakerController.new(fields) return end
 

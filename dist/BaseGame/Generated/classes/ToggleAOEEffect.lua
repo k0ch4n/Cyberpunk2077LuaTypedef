@@ -4,7 +4,7 @@
 ---@class ToggleAOEEffect: ActionBool
 ToggleAOEEffect = {}
 
----@param fields? table
+---@param fields? ToggleAOEEffect
 ---@return ToggleAOEEffect
 function ToggleAOEEffect.new(fields) return end
 

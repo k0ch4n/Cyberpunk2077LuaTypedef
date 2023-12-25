@@ -6,6 +6,6 @@
 ---@field public template entEntityTemplate
 entTemplateInclude = {}
 
----@param fields? table
+---@param fields? entTemplateInclude
 ---@return entTemplateInclude
 function entTemplateInclude.new(fields) return end

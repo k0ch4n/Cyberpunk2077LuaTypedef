@@ -5,7 +5,7 @@
 ---@field public unmountCalled Bool
 GrappleForceShovePreyEvents = {}
 
----@param fields? table
+---@param fields? GrappleForceShovePreyEvents
 ---@return GrappleForceShovePreyEvents
 function GrappleForceShovePreyEvents.new(fields) return end
 

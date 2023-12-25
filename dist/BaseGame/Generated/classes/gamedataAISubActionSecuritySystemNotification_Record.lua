@@ -4,7 +4,7 @@
 ---@class gamedataAISubActionSecuritySystemNotification_Record: gamedataAISubAction_Record
 gamedataAISubActionSecuritySystemNotification_Record = {}
 
----@param fields? table
+---@param fields? gamedataAISubActionSecuritySystemNotification_Record
 ---@return gamedataAISubActionSecuritySystemNotification_Record
 function gamedataAISubActionSecuritySystemNotification_Record.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public health inkWidgetReference
 gameuiarcadeTankPlayerHealthController = {}
 
----@param fields? table
+---@param fields? gameuiarcadeTankPlayerHealthController
 ---@return gameuiarcadeTankPlayerHealthController
 function gameuiarcadeTankPlayerHealthController.new(fields) return end

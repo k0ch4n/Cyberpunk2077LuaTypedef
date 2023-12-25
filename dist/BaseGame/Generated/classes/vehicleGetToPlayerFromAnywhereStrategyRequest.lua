@@ -4,7 +4,7 @@
 ---@class vehicleGetToPlayerFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
 vehicleGetToPlayerFromAnywhereStrategyRequest = {}
 
----@param fields? table
+---@param fields? vehicleGetToPlayerFromAnywhereStrategyRequest
 ---@return vehicleGetToPlayerFromAnywhereStrategyRequest
 function vehicleGetToPlayerFromAnywhereStrategyRequest.new(fields) return end
 

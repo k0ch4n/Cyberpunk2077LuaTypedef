@@ -9,6 +9,6 @@
 ---@field public includeContracts Bool
 gameQuestTypeRequestFilter = {}
 
----@param fields? table
+---@param fields? gameQuestTypeRequestFilter
 ---@return gameQuestTypeRequestFilter
 function gameQuestTypeRequestFilter.new(fields) return end

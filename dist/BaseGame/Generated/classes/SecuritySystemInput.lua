@@ -15,7 +15,7 @@
 ---@field private stimTypeTriggeredAlarm gamedataStimType
 SecuritySystemInput = {}
 
----@param fields? table
+---@param fields? SecuritySystemInput
 ---@return SecuritySystemInput
 function SecuritySystemInput.new(fields) return end
 

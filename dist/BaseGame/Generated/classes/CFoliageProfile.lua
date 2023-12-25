@@ -16,6 +16,6 @@
 ---@field public preserveOriginalColor Float
 CFoliageProfile = {}
 
----@param fields? table
+---@param fields? CFoliageProfile
 ---@return CFoliageProfile
 function CFoliageProfile.new(fields) return end

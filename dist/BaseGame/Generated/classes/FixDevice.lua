@@ -4,7 +4,7 @@
 ---@class FixDevice: ActionBool
 FixDevice = {}
 
----@param fields? table
+---@param fields? FixDevice
 ---@return FixDevice
 function FixDevice.new(fields) return end
 

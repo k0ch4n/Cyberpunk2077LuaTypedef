@@ -10,7 +10,7 @@
 ---@field private timeStamps Float[]
 NanoTechPlatesEffector = {}
 
----@param fields? table
+---@param fields? NanoTechPlatesEffector
 ---@return NanoTechPlatesEffector
 function NanoTechPlatesEffector.new(fields) return end
 

@@ -6,6 +6,6 @@
 ---@field public height Float
 inkSize = {}
 
----@param fields? table
+---@param fields? inkSize
 ---@return inkSize
 function inkSize.new(fields) return end

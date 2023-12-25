@@ -6,6 +6,6 @@
 ---@field public overlayId Uint32
 gameTutorialOverlayUserData = {}
 
----@param fields? table
+---@param fields? gameTutorialOverlayUserData
 ---@return gameTutorialOverlayUserData
 function gameTutorialOverlayUserData.new(fields) return end

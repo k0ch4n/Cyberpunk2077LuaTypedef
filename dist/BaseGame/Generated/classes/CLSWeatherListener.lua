@@ -5,7 +5,7 @@
 ---@field private owner CityLightSystem
 CLSWeatherListener = {}
 
----@param fields? table
+---@param fields? CLSWeatherListener
 ---@return CLSWeatherListener
 function CLSWeatherListener.new(fields) return end
 

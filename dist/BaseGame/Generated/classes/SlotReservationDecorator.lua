@@ -6,7 +6,7 @@
 ---@field private mountEventData gameMountEventData
 SlotReservationDecorator = {}
 
----@param fields? table
+---@param fields? SlotReservationDecorator
 ---@return SlotReservationDecorator
 function SlotReservationDecorator.new(fields) return end
 

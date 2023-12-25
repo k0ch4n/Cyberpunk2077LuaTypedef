@@ -5,6 +5,6 @@
 ---@field public type questIRecordingNodeType
 questRecordingNodeDefinition = {}
 
----@param fields? table
+---@param fields? questRecordingNodeDefinition
 ---@return questRecordingNodeDefinition
 function questRecordingNodeDefinition.new(fields) return end

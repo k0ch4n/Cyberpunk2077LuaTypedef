@@ -5,6 +5,6 @@
 ---@field public context gamedeviceRequestType
 AddActiveContextEvent = {}
 
----@param fields? table
+---@param fields? AddActiveContextEvent
 ---@return AddActiveContextEvent
 function AddActiveContextEvent.new(fields) return end

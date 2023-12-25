@@ -10,6 +10,6 @@
 ---@field public renderProxyAddressForDebug Uint64
 worldInspectorNodeInstanceProperties = {}
 
----@param fields? table
+---@param fields? worldInspectorNodeInstanceProperties
 ---@return worldInspectorNodeInstanceProperties
 function worldInspectorNodeInstanceProperties.new(fields) return end

@@ -6,7 +6,7 @@
 ---@field private password CName
 FactInvokerDataEntry = {}
 
----@param fields? table
+---@param fields? FactInvokerDataEntry
 ---@return FactInvokerDataEntry
 function FactInvokerDataEntry.new(fields) return end
 

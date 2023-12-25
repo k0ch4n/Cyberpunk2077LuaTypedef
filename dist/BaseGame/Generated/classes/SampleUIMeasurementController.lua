@@ -10,7 +10,7 @@
 ---@field private valueDecreaseButton inkWidgetReference
 SampleUIMeasurementController = {}
 
----@param fields? table
+---@param fields? SampleUIMeasurementController
 ---@return SampleUIMeasurementController
 function SampleUIMeasurementController.new(fields) return end
 

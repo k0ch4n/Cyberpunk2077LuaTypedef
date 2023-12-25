@@ -6,6 +6,6 @@
 ---@field public multiplier Float
 worldEditorForceAutoHideDistance = {}
 
----@param fields? table
+---@param fields? worldEditorForceAutoHideDistance
 ---@return worldEditorForceAutoHideDistance
 function worldEditorForceAutoHideDistance.new(fields) return end

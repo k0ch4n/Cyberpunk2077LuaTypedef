@@ -8,6 +8,6 @@
 ---@field public scanningAvailableEvent CName
 audioScanningSettings = {}
 
----@param fields? table
+---@param fields? audioScanningSettings
 ---@return audioScanningSettings
 function audioScanningSettings.new(fields) return end

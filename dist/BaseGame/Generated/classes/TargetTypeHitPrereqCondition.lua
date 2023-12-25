@@ -5,7 +5,7 @@
 ---@field public targetType CName
 TargetTypeHitPrereqCondition = {}
 
----@param fields? table
+---@param fields? TargetTypeHitPrereqCondition
 ---@return TargetTypeHitPrereqCondition
 function TargetTypeHitPrereqCondition.new(fields) return end
 

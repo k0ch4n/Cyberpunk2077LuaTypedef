@@ -5,6 +5,6 @@
 ---@field public isEnabled Bool
 UpdateDropPointEvent = {}
 
----@param fields? table
+---@param fields? UpdateDropPointEvent
 ---@return UpdateDropPointEvent
 function UpdateDropPointEvent.new(fields) return end

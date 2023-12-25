@@ -5,6 +5,6 @@
 ---@field public runner entEntity
 UnregisterFleeingNPC = {}
 
----@param fields? table
+---@param fields? UnregisterFleeingNPC
 ---@return UnregisterFleeingNPC
 function UnregisterFleeingNPC.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public requiredValue Float
 gameSItemStackRequirementData = {}
 
----@param fields? table
+---@param fields? gameSItemStackRequirementData
 ---@return gameSItemStackRequirementData
 function gameSItemStackRequirementData.new(fields) return end

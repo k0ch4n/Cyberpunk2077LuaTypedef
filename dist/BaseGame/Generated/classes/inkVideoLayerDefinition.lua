@@ -4,6 +4,6 @@
 ---@class inkVideoLayerDefinition: inkLayerDefinition
 inkVideoLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkVideoLayerDefinition
 ---@return inkVideoLayerDefinition
 function inkVideoLayerDefinition.new(fields) return end

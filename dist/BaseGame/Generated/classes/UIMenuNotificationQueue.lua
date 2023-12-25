@@ -5,7 +5,7 @@
 ---@field private duration Float
 UIMenuNotificationQueue = {}
 
----@param fields? table
+---@param fields? UIMenuNotificationQueue
 ---@return UIMenuNotificationQueue
 function UIMenuNotificationQueue.new(fields) return end
 

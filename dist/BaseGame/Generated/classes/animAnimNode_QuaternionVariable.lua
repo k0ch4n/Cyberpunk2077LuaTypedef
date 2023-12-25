@@ -5,6 +5,6 @@
 ---@field public variableName CName
 animAnimNode_QuaternionVariable = {}
 
----@param fields? table
+---@param fields? animAnimNode_QuaternionVariable
 ---@return animAnimNode_QuaternionVariable
 function animAnimNode_QuaternionVariable.new(fields) return end

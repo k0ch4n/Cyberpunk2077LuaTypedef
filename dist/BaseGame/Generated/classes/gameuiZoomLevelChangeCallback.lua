@@ -4,6 +4,6 @@
 ---@class gameuiZoomLevelChangeCallback: inkCallbackBase
 gameuiZoomLevelChangeCallback = {}
 
----@param fields? table
+---@param fields? gameuiZoomLevelChangeCallback
 ---@return gameuiZoomLevelChangeCallback
 function gameuiZoomLevelChangeCallback.new(fields) return end

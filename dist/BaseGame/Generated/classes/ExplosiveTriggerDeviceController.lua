@@ -4,7 +4,7 @@
 ---@class ExplosiveTriggerDeviceController: ExplosiveDeviceController
 ExplosiveTriggerDeviceController = {}
 
----@param fields? table
+---@param fields? ExplosiveTriggerDeviceController
 ---@return ExplosiveTriggerDeviceController
 function ExplosiveTriggerDeviceController.new(fields) return end
 

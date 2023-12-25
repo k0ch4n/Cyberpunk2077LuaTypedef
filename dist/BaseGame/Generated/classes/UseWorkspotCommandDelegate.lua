@@ -6,7 +6,7 @@
 ---@field public movementType moveMovementType
 UseWorkspotCommandDelegate = {}
 
----@param fields? table
+---@param fields? UseWorkspotCommandDelegate
 ---@return UseWorkspotCommandDelegate
 function UseWorkspotCommandDelegate.new(fields) return end
 

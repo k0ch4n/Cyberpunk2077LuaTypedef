@@ -6,6 +6,6 @@
 ---@field public dataBuffer Uint8[]
 rendOpacityMicromapDatabase = {}
 
----@param fields? table
+---@param fields? rendOpacityMicromapDatabase
 ---@return rendOpacityMicromapDatabase
 function rendOpacityMicromapDatabase.new(fields) return end

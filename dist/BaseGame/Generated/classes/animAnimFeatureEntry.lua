@@ -7,6 +7,6 @@
 ---@field public forceAllocate Bool
 animAnimFeatureEntry = {}
 
----@param fields? table
+---@param fields? animAnimFeatureEntry
 ---@return animAnimFeatureEntry
 function animAnimFeatureEntry.new(fields) return end

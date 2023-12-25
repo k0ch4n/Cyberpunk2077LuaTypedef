@@ -10,6 +10,6 @@
 ---@field public rotationTime Float
 gameActionRotateBaseState = {}
 
----@param fields? table
+---@param fields? gameActionRotateBaseState
 ---@return gameActionRotateBaseState
 function gameActionRotateBaseState.new(fields) return end

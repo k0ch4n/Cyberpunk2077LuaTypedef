@@ -6,6 +6,6 @@
 ---@field public applyDirectionalForce Bool
 KnockOverBikeEvent = {}
 
----@param fields? table
+---@param fields? KnockOverBikeEvent
 ---@return KnockOverBikeEvent
 function KnockOverBikeEvent.new(fields) return end

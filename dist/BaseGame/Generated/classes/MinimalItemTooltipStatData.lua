@@ -17,6 +17,6 @@
 ---@field public flipNegative Bool
 MinimalItemTooltipStatData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipStatData
 ---@return MinimalItemTooltipStatData
 function MinimalItemTooltipStatData.new(fields) return end

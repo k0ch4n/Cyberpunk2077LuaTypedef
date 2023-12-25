@@ -4,6 +4,6 @@
 ---@class inkVideoInstanceDoneCallback: inkCallbackBase
 inkVideoInstanceDoneCallback = {}
 
----@param fields? table
+---@param fields? inkVideoInstanceDoneCallback
 ---@return inkVideoInstanceDoneCallback
 function inkVideoInstanceDoneCallback.new(fields) return end

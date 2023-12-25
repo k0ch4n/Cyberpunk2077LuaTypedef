@@ -5,7 +5,7 @@
 ---@field private currentDataView ShardsNestedListDataView
 ShardsVirtualNestedListController = {}
 
----@param fields? table
+---@param fields? ShardsVirtualNestedListController
 ---@return ShardsVirtualNestedListController
 function ShardsVirtualNestedListController.new(fields) return end
 

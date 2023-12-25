@@ -7,7 +7,7 @@
 ---@field public Roll Float
 EulerAngles = {}
 
----@param fields? table
+---@param fields? EulerAngles
 ---@return EulerAngles
 function EulerAngles.new(fields) return end
 

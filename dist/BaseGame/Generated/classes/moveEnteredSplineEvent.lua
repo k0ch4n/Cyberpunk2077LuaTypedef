@@ -5,6 +5,6 @@
 ---@field public useDoors Bool
 moveEnteredSplineEvent = {}
 
----@param fields? table
+---@param fields? moveEnteredSplineEvent
 ---@return moveEnteredSplineEvent
 function moveEnteredSplineEvent.new(fields) return end

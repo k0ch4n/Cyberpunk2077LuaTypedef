@@ -5,7 +5,7 @@
 ---@field public isRequestedFormOtherDevice Bool
 ToggleTakeOverControl = {}
 
----@param fields? table
+---@param fields? ToggleTakeOverControl
 ---@return ToggleTakeOverControl
 function ToggleTakeOverControl.new(fields) return end
 

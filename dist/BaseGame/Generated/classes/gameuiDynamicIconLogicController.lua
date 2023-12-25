@@ -4,7 +4,7 @@
 ---@class gameuiDynamicIconLogicController: inkWidgetLogicController
 gameuiDynamicIconLogicController = {}
 
----@param fields? table
+---@param fields? gameuiDynamicIconLogicController
 ---@return gameuiDynamicIconLogicController
 function gameuiDynamicIconLogicController.new(fields) return end
 

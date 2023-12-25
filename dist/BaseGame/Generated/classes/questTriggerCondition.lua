@@ -8,6 +8,6 @@
 ---@field public isPlayerActivator Bool
 questTriggerCondition = {}
 
----@param fields? table
+---@param fields? questTriggerCondition
 ---@return questTriggerCondition
 function questTriggerCondition.new(fields) return end

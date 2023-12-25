@@ -9,6 +9,6 @@
 ---@field public hitObject entEntity
 gamePingEntry = {}
 
----@param fields? table
+---@param fields? gamePingEntry
 ---@return gamePingEntry
 function gamePingEntry.new(fields) return end

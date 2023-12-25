@@ -5,6 +5,6 @@
 ---@field public subtype questIEntityManagerSetAttachment_NodeSubType
 questEntityManagerSetAttachment_NodeType = {}
 
----@param fields? table
+---@param fields? questEntityManagerSetAttachment_NodeType
 ---@return questEntityManagerSetAttachment_NodeType
 function questEntityManagerSetAttachment_NodeType.new(fields) return end

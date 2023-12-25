@@ -4,7 +4,7 @@
 ---@class gameuiSideScrollerMiniGameDynObjectLogicAdvanced: inkWidgetLogicController
 gameuiSideScrollerMiniGameDynObjectLogicAdvanced = {}
 
----@param fields? table
+---@param fields? gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 ---@return gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 function gameuiSideScrollerMiniGameDynObjectLogicAdvanced.new(fields) return end
 

@@ -4,7 +4,7 @@
 ---@class QuestForceTintGlass: ActionBool
 QuestForceTintGlass = {}
 
----@param fields? table
+---@param fields? QuestForceTintGlass
 ---@return QuestForceTintGlass
 function QuestForceTintGlass.new(fields) return end
 

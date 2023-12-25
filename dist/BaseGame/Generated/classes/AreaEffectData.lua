@@ -24,7 +24,7 @@
 ---@field public gameEffectOverrideName CName
 AreaEffectData = {}
 
----@param fields? table
+---@param fields? AreaEffectData
 ---@return AreaEffectData
 function AreaEffectData.new(fields) return end
 

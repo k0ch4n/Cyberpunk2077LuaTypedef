@@ -4,7 +4,7 @@
 ---@class InactiveCoverEvents: CoverActionEventsTransition
 InactiveCoverEvents = {}
 
----@param fields? table
+---@param fields? InactiveCoverEvents
 ---@return InactiveCoverEvents
 function InactiveCoverEvents.new(fields) return end
 

@@ -8,7 +8,7 @@
 ---@field public isInTPP Bool
 DriverCombatListener = {}
 
----@param fields? table
+---@param fields? DriverCombatListener
 ---@return DriverCombatListener
 function DriverCombatListener.new(fields) return end
 

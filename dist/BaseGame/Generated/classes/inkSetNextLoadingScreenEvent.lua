@@ -4,7 +4,7 @@
 ---@class inkSetNextLoadingScreenEvent: redEvent
 inkSetNextLoadingScreenEvent = {}
 
----@param fields? table
+---@param fields? inkSetNextLoadingScreenEvent
 ---@return inkSetNextLoadingScreenEvent
 function inkSetNextLoadingScreenEvent.new(fields) return end
 

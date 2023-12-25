@@ -14,6 +14,6 @@
 ---@field public trafficTryNeighborsForEnd Bool
 AIVehicleToNodeCommand = {}
 
----@param fields? table
+---@param fields? AIVehicleToNodeCommand
 ---@return AIVehicleToNodeCommand
 function AIVehicleToNodeCommand.new(fields) return end

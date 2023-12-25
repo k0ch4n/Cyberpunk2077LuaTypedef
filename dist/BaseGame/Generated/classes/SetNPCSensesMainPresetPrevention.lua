@@ -4,7 +4,7 @@
 ---@class SetNPCSensesMainPresetPrevention: SetNPCSensesMainPreset
 SetNPCSensesMainPresetPrevention = {}
 
----@param fields? table
+---@param fields? SetNPCSensesMainPresetPrevention
 ---@return SetNPCSensesMainPresetPrevention
 function SetNPCSensesMainPresetPrevention.new(fields) return end
 

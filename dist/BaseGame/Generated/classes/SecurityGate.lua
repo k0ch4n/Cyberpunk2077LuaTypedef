@@ -8,7 +8,7 @@
 ---@field private trespassersDataList TrespasserEntry[]
 SecurityGate = {}
 
----@param fields? table
+---@param fields? SecurityGate
 ---@return SecurityGate
 function SecurityGate.new(fields) return end
 

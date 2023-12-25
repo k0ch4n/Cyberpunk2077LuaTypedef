@@ -7,6 +7,6 @@
 ---@field public id TweakDBID
 SAttribute = {}
 
----@param fields? table
+---@param fields? SAttribute
 ---@return SAttribute
 function SAttribute.new(fields) return end

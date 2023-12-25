@@ -15,6 +15,6 @@
 ---@field public diffuseAlphaAsEmissive Bool
 worldProxyTextureParams = {}
 
----@param fields? table
+---@param fields? worldProxyTextureParams
 ---@return worldProxyTextureParams
 function worldProxyTextureParams.new(fields) return end

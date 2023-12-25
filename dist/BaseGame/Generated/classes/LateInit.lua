@@ -4,6 +4,6 @@
 ---@class LateInit: redEvent
 LateInit = {}
 
----@param fields? table
+---@param fields? LateInit
 ---@return LateInit
 function LateInit.new(fields) return end

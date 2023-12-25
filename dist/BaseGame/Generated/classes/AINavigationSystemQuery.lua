@@ -12,6 +12,6 @@
 ---@field public usePredictionTime Bool
 AINavigationSystemQuery = {}
 
----@param fields? table
+---@param fields? AINavigationSystemQuery
 ---@return AINavigationSystemQuery
 function AINavigationSystemQuery.new(fields) return end

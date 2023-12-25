@@ -5,7 +5,7 @@
 ---@field public flag hitFlag
 HitFlagPrereq = {}
 
----@param fields? table
+---@param fields? HitFlagPrereq
 ---@return HitFlagPrereq
 function HitFlagPrereq.new(fields) return end
 

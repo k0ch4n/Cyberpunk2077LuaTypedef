@@ -12,6 +12,6 @@
 ---@field public target AIArgumentMapping
 AIbehaviorExitWorkspotNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorExitWorkspotNodeDefinition
 ---@return AIbehaviorExitWorkspotNodeDefinition
 function AIbehaviorExitWorkspotNodeDefinition.new(fields) return end

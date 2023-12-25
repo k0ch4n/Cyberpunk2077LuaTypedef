@@ -9,6 +9,6 @@
 ---@field public customActionEvents audioLocomotionCustomActionEventDictionary
 audioFootwearVsMaterialMetadata = {}
 
----@param fields? table
+---@param fields? audioFootwearVsMaterialMetadata
 ---@return audioFootwearVsMaterialMetadata
 function audioFootwearVsMaterialMetadata.new(fields) return end

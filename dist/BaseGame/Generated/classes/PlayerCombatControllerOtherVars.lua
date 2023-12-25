@@ -5,6 +5,6 @@
 ---@field public state PlayerCombatState
 PlayerCombatControllerOtherVars = {}
 
----@param fields? table
+---@param fields? PlayerCombatControllerOtherVars
 ---@return PlayerCombatControllerOtherVars
 function PlayerCombatControllerOtherVars.new(fields) return end

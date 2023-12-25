@@ -11,7 +11,7 @@
 ---@field private highLevelStateCallbackId Uint32
 MountRequestPassiveCondition = {}
 
----@param fields? table
+---@param fields? MountRequestPassiveCondition
 ---@return MountRequestPassiveCondition
 function MountRequestPassiveCondition.new(fields) return end
 

@@ -9,6 +9,6 @@
 ---@field public panelSelectionEvent CName
 audioElevatorSettings = {}
 
----@param fields? table
+---@param fields? audioElevatorSettings
 ---@return audioElevatorSettings
 function audioElevatorSettings.new(fields) return end

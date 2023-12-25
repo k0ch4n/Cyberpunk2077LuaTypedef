@@ -6,6 +6,6 @@
 ---@field public imageType CodexImageType
 CodexEntryData = {}
 
----@param fields? table
+---@param fields? CodexEntryData
 ---@return CodexEntryData
 function CodexEntryData.new(fields) return end

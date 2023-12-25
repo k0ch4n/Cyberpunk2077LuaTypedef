@@ -5,7 +5,7 @@
 ---@field private oxygenBar OxygenbarWidgetGameController
 OxygenListener = {}
 
----@param fields? table
+---@param fields? OxygenListener
 ---@return OxygenListener
 function OxygenListener.new(fields) return end
 

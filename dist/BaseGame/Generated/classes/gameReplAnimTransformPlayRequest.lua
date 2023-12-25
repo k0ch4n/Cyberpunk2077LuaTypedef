@@ -7,6 +7,6 @@
 ---@field public timesToPlay Int32
 gameReplAnimTransformPlayRequest = {}
 
----@param fields? table
+---@param fields? gameReplAnimTransformPlayRequest
 ---@return gameReplAnimTransformPlayRequest
 function gameReplAnimTransformPlayRequest.new(fields) return end

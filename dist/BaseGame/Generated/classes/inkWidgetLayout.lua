@@ -12,6 +12,6 @@
 ---@field public sizeCoefficient Float
 inkWidgetLayout = {}
 
----@param fields? table
+---@param fields? inkWidgetLayout
 ---@return inkWidgetLayout
 function inkWidgetLayout.new(fields) return end

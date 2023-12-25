@@ -15,6 +15,6 @@
 ---@field public offsetEulerRotationLS animVectorLink
 animAnimNode_ParentConstraint = {}
 
----@param fields? table
+---@param fields? animAnimNode_ParentConstraint
 ---@return animAnimNode_ParentConstraint
 function animAnimNode_ParentConstraint.new(fields) return end

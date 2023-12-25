@@ -6,6 +6,6 @@
 ---@field public captionIconRecordId TweakDBID
 gameinteractionsvisBluelinePart = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisBluelinePart
 ---@return gameinteractionsvisBluelinePart
 function gameinteractionsvisBluelinePart.new(fields) return end

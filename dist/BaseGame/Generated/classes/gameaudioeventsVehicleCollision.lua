@@ -4,6 +4,6 @@
 ---@class gameaudioeventsVehicleCollision: redEvent
 gameaudioeventsVehicleCollision = {}
 
----@param fields? table
+---@param fields? gameaudioeventsVehicleCollision
 ---@return gameaudioeventsVehicleCollision
 function gameaudioeventsVehicleCollision.new(fields) return end

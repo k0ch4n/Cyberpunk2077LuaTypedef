@@ -5,6 +5,6 @@
 ---@field public target ScriptedPuppet
 TargetLostEvent = {}
 
----@param fields? table
+---@param fields? TargetLostEvent
 ---@return TargetLostEvent
 function TargetLostEvent.new(fields) return end

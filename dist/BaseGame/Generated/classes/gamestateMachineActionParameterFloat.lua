@@ -6,6 +6,6 @@
 ---@field public value Float
 gamestateMachineActionParameterFloat = {}
 
----@param fields? table
+---@param fields? gamestateMachineActionParameterFloat
 ---@return gamestateMachineActionParameterFloat
 function gamestateMachineActionParameterFloat.new(fields) return end

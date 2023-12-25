@@ -4,7 +4,7 @@
 ---@class gamedataRandomVariant_Record: gamedataTweakDBRecord
 gamedataRandomVariant_Record = {}
 
----@param fields? table
+---@param fields? gamedataRandomVariant_Record
 ---@return gamedataRandomVariant_Record
 function gamedataRandomVariant_Record.new(fields) return end
 

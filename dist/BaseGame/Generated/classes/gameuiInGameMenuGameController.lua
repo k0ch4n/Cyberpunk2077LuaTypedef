@@ -21,7 +21,7 @@
 ---@field private player gameObject
 gameuiInGameMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiInGameMenuGameController
 ---@return gameuiInGameMenuGameController
 function gameuiInGameMenuGameController.new(fields) return end
 

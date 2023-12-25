@@ -4,7 +4,7 @@
 ---@class SceneEvents: VehicleEventsTransition
 SceneEvents = {}
 
----@param fields? table
+---@param fields? SceneEvents
 ---@return SceneEvents
 function SceneEvents.new(fields) return end
 

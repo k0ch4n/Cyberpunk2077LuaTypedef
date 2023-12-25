@@ -17,7 +17,7 @@
 ---@field private pendingNotifyPlayerAboutTransition Bool
 SecurityAreaControllerPS = {}
 
----@param fields? table
+---@param fields? SecurityAreaControllerPS
 ---@return SecurityAreaControllerPS
 function SecurityAreaControllerPS.new(fields) return end
 

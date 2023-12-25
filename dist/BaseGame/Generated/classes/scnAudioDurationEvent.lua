@@ -7,6 +7,6 @@
 ---@field public playbackDirectionSupport scnAudioPlaybackDirectionSupportFlag
 scnAudioDurationEvent = {}
 
----@param fields? table
+---@param fields? scnAudioDurationEvent
 ---@return scnAudioDurationEvent
 function scnAudioDurationEvent.new(fields) return end

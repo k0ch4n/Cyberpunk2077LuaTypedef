@@ -4,7 +4,7 @@
 ---@class gamedataTVBase_Record: gamedataDevice_Record
 gamedataTVBase_Record = {}
 
----@param fields? table
+---@param fields? gamedataTVBase_Record
 ---@return gamedataTVBase_Record
 function gamedataTVBase_Record.new(fields) return end
 

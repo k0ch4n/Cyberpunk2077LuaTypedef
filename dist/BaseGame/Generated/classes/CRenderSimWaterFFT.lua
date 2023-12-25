@@ -9,6 +9,6 @@
 ---@field public lambda Float
 CRenderSimWaterFFT = {}
 
----@param fields? table
+---@param fields? CRenderSimWaterFFT
 ---@return CRenderSimWaterFFT
 function CRenderSimWaterFFT.new(fields) return end

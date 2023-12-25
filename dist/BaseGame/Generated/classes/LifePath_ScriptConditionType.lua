@@ -6,7 +6,7 @@
 ---@field public inverted Bool
 LifePath_ScriptConditionType = {}
 
----@param fields? table
+---@param fields? LifePath_ScriptConditionType
 ---@return LifePath_ScriptConditionType
 function LifePath_ScriptConditionType.new(fields) return end
 

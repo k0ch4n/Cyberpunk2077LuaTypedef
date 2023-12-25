@@ -4,6 +4,6 @@
 ---@class entWetnessComponent: entIComponent
 entWetnessComponent = {}
 
----@param fields? table
+---@param fields? entWetnessComponent
 ---@return entWetnessComponent
 function entWetnessComponent.new(fields) return end

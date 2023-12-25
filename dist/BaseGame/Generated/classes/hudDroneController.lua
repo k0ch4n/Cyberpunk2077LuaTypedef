@@ -13,7 +13,7 @@
 ---@field private currentTime GameTime
 hudDroneController = {}
 
----@param fields? table
+---@param fields? hudDroneController
 ---@return hudDroneController
 function hudDroneController.new(fields) return end
 

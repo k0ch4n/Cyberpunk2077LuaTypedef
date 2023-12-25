@@ -7,6 +7,6 @@
 ---@field public finalAnimSetCollection animAnimSetCollection
 animAnimationSetup = {}
 
----@param fields? table
+---@param fields? animAnimationSetup
 ---@return animAnimationSetup
 function animAnimationSetup.new(fields) return end

@@ -37,7 +37,7 @@
 ---@field private anim inkanimProxy
 InventorySlotTooltip = {}
 
----@param fields? table
+---@param fields? InventorySlotTooltip
 ---@return InventorySlotTooltip
 function InventorySlotTooltip.new(fields) return end
 

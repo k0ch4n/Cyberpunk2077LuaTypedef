@@ -6,7 +6,7 @@
 ---@field public maxProjectiles Int32
 LeftHandCyberwareChargeRepeatActionEvents = {}
 
----@param fields? table
+---@param fields? LeftHandCyberwareChargeRepeatActionEvents
 ---@return LeftHandCyberwareChargeRepeatActionEvents
 function LeftHandCyberwareChargeRepeatActionEvents.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class gameTransformsHistorySystem: gameITransformsHistorySystem
 gameTransformsHistorySystem = {}
 
----@param fields? table
+---@param fields? gameTransformsHistorySystem
 ---@return gameTransformsHistorySystem
 function gameTransformsHistorySystem.new(fields) return end

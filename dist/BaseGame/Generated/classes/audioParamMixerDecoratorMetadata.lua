@@ -8,6 +8,6 @@
 ---@field public globalOutput Bool
 audioParamMixerDecoratorMetadata = {}
 
----@param fields? table
+---@param fields? audioParamMixerDecoratorMetadata
 ---@return audioParamMixerDecoratorMetadata
 function audioParamMixerDecoratorMetadata.new(fields) return end

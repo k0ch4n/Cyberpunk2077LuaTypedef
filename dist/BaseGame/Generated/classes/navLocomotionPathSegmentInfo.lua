@@ -7,6 +7,6 @@
 ---@field public offMeshLink Uint64
 navLocomotionPathSegmentInfo = {}
 
----@param fields? table
+---@param fields? navLocomotionPathSegmentInfo
 ---@return navLocomotionPathSegmentInfo
 function navLocomotionPathSegmentInfo.new(fields) return end

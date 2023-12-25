@@ -5,7 +5,7 @@
 ---@field protected storedItems gameItemID[]
 InvisibleSceneStashControllerPS = {}
 
----@param fields? table
+---@param fields? InvisibleSceneStashControllerPS
 ---@return InvisibleSceneStashControllerPS
 function InvisibleSceneStashControllerPS.new(fields) return end
 

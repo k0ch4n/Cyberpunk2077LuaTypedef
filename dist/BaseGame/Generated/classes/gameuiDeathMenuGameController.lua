@@ -9,7 +9,7 @@
 ---@field private dpadInputReceived Bool
 gameuiDeathMenuGameController = {}
 
----@param fields? table
+---@param fields? gameuiDeathMenuGameController
 ---@return gameuiDeathMenuGameController
 function gameuiDeathMenuGameController.new(fields) return end
 

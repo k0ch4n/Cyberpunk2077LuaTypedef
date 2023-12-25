@@ -5,6 +5,6 @@
 ---@field public visible Bool
 gameuiPhotoModeUIVisibilityEvent = {}
 
----@param fields? table
+---@param fields? gameuiPhotoModeUIVisibilityEvent
 ---@return gameuiPhotoModeUIVisibilityEvent
 function gameuiPhotoModeUIVisibilityEvent.new(fields) return end

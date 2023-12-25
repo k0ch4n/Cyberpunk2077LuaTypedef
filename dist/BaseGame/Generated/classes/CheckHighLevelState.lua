@@ -5,7 +5,7 @@
 ---@field public state gamedataNPCHighLevelState
 CheckHighLevelState = {}
 
----@param fields? table
+---@param fields? CheckHighLevelState
 ---@return CheckHighLevelState
 function CheckHighLevelState.new(fields) return end
 

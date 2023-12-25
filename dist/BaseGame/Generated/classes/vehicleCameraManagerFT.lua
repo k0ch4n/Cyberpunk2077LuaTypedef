@@ -4,7 +4,7 @@
 ---@class vehicleCameraManagerFT: vehicleCameraManager
 vehicleCameraManagerFT = {}
 
----@param fields? table
+---@param fields? vehicleCameraManagerFT
 ---@return vehicleCameraManagerFT
 function vehicleCameraManagerFT.new(fields) return end
 

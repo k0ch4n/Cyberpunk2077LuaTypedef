@@ -4,6 +4,6 @@
 ---@class worldAIDirectorSpawnMarker: worldIMarker
 worldAIDirectorSpawnMarker = {}
 
----@param fields? table
+---@param fields? worldAIDirectorSpawnMarker
 ---@return worldAIDirectorSpawnMarker
 function worldAIDirectorSpawnMarker.new(fields) return end

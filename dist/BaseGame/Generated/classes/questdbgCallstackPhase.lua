@@ -6,6 +6,6 @@
 ---@field public blocks Uint64[]
 questdbgCallstackPhase = {}
 
----@param fields? table
+---@param fields? questdbgCallstackPhase
 ---@return questdbgCallstackPhase
 function questdbgCallstackPhase.new(fields) return end

@@ -5,7 +5,7 @@
 ---@field protected bigAdScreen IWorldWidgetComponent
 WeaponVendingMachine = {}
 
----@param fields? table
+---@param fields? WeaponVendingMachine
 ---@return WeaponVendingMachine
 function WeaponVendingMachine.new(fields) return end
 

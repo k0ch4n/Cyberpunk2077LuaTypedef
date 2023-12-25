@@ -4,6 +4,6 @@
 ---@class worlduiMeshTargetBinding: entISourceBinding
 worlduiMeshTargetBinding = {}
 
----@param fields? table
+---@param fields? worlduiMeshTargetBinding
 ---@return worlduiMeshTargetBinding
 function worlduiMeshTargetBinding.new(fields) return end

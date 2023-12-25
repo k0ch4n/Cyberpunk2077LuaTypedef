@@ -13,7 +13,7 @@
 ---@field public redDelay Float
 Activator = {}
 
----@param fields? table
+---@param fields? Activator
 ---@return Activator
 function Activator.new(fields) return end
 

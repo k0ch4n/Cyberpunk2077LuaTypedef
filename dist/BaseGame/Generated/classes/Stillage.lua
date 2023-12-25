@@ -5,7 +5,7 @@
 ---@field private collider entIPlacedComponent
 Stillage = {}
 
----@param fields? table
+---@param fields? Stillage
 ---@return Stillage
 function Stillage.new(fields) return end
 

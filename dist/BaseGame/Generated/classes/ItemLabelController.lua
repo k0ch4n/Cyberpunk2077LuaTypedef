@@ -7,7 +7,7 @@
 ---@field protected type ItemLabelType
 ItemLabelController = {}
 
----@param fields? table
+---@param fields? ItemLabelController
 ---@return ItemLabelController
 function ItemLabelController.new(fields) return end
 

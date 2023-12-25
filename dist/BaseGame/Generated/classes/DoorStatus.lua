@@ -4,7 +4,7 @@
 ---@class DoorStatus: BaseDeviceStatus
 DoorStatus = {}
 
----@param fields? table
+---@param fields? DoorStatus
 ---@return DoorStatus
 function DoorStatus.new(fields) return end
 

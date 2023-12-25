@@ -11,7 +11,7 @@
 ---@field private uiSystem gameuiGameSystemUI
 QuestContactLinkController = {}
 
----@param fields? table
+---@param fields? QuestContactLinkController
 ---@return QuestContactLinkController
 function QuestContactLinkController.new(fields) return end
 

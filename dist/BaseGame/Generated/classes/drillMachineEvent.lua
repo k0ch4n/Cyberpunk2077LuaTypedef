@@ -6,6 +6,6 @@
 ---@field public newIsActive Bool
 drillMachineEvent = {}
 
----@param fields? table
+---@param fields? drillMachineEvent
 ---@return drillMachineEvent
 function drillMachineEvent.new(fields) return end

@@ -6,6 +6,6 @@
 ---@field public worldTransform WorldTransform
 gameCompiledSmartObjectNode = {}
 
----@param fields? table
+---@param fields? gameCompiledSmartObjectNode
 ---@return gameCompiledSmartObjectNode
 function gameCompiledSmartObjectNode.new(fields) return end

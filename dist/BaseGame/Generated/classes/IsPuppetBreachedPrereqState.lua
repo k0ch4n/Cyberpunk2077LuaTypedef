@@ -5,7 +5,7 @@
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper
 IsPuppetBreachedPrereqState = {}
 
----@param fields? table
+---@param fields? IsPuppetBreachedPrereqState
 ---@return IsPuppetBreachedPrereqState
 function IsPuppetBreachedPrereqState.new(fields) return end
 

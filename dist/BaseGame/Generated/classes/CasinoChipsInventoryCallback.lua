@@ -6,7 +6,7 @@
 ---@field public slot CasinoTableSlot
 CasinoChipsInventoryCallback = {}
 
----@param fields? table
+---@param fields? CasinoChipsInventoryCallback
 ---@return CasinoChipsInventoryCallback
 function CasinoChipsInventoryCallback.new(fields) return end
 

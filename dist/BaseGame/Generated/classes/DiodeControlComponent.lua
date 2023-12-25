@@ -10,7 +10,7 @@
 ---@field private secondaryPresetRemovalID gameDelayID
 DiodeControlComponent = {}
 
----@param fields? table
+---@param fields? DiodeControlComponent
 ---@return DiodeControlComponent
 function DiodeControlComponent.new(fields) return end
 

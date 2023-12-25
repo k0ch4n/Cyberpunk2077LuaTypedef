@@ -4,6 +4,6 @@
 ---@class AIAbsoluteZLimiter: AICoverSelectionParameters
 AIAbsoluteZLimiter = {}
 
----@param fields? table
+---@param fields? AIAbsoluteZLimiter
 ---@return AIAbsoluteZLimiter
 function AIAbsoluteZLimiter.new(fields) return end

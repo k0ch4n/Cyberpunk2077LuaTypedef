@@ -4,7 +4,7 @@
 ---@class BarbedWireController: ActivatedDeviceController
 BarbedWireController = {}
 
----@param fields? table
+---@param fields? BarbedWireController
 ---@return BarbedWireController
 function BarbedWireController.new(fields) return end
 

@@ -23,7 +23,7 @@
 ---@field private isHyperlink Bool
 MenuItemController = {}
 
----@param fields? table
+---@param fields? MenuItemController
 ---@return MenuItemController
 function MenuItemController.new(fields) return end
 

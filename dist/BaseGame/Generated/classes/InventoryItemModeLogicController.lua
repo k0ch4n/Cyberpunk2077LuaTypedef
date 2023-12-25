@@ -74,7 +74,7 @@
 ---@field private HACK_lastItemDisplayEvent ItemDisplayClickEvent
 InventoryItemModeLogicController = {}
 
----@param fields? table
+---@param fields? InventoryItemModeLogicController
 ---@return InventoryItemModeLogicController
 function InventoryItemModeLogicController.new(fields) return end
 

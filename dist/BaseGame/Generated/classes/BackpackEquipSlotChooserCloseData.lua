@@ -7,6 +7,6 @@
 ---@field public slotIndex Int32
 BackpackEquipSlotChooserCloseData = {}
 
----@param fields? table
+---@param fields? BackpackEquipSlotChooserCloseData
 ---@return BackpackEquipSlotChooserCloseData
 function BackpackEquipSlotChooserCloseData.new(fields) return end

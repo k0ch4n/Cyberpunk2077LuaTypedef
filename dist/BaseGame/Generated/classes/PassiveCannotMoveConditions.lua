@@ -5,7 +5,7 @@
 ---@field protected statusEffectRemovedId Uint32
 PassiveCannotMoveConditions = {}
 
----@param fields? table
+---@param fields? PassiveCannotMoveConditions
 ---@return PassiveCannotMoveConditions
 function PassiveCannotMoveConditions.new(fields) return end
 

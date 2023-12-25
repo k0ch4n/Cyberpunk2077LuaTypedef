@@ -7,6 +7,6 @@
 ---@field public currentlyHittingBreach Bool
 previewTargetStruct = {}
 
----@param fields? table
+---@param fields? previewTargetStruct
 ---@return previewTargetStruct
 function previewTargetStruct.new(fields) return end

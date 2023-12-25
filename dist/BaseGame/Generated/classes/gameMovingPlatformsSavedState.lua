@@ -6,6 +6,6 @@
 ---@field public data gameMovingPlatformSavedData[]
 gameMovingPlatformsSavedState = {}
 
----@param fields? table
+---@param fields? gameMovingPlatformsSavedState
 ---@return gameMovingPlatformsSavedState
 function gameMovingPlatformsSavedState.new(fields) return end

@@ -7,6 +7,6 @@
 ---@field public restorePower Bool
 DeviceTimetableEvent = {}
 
----@param fields? table
+---@param fields? DeviceTimetableEvent
 ---@return DeviceTimetableEvent
 function DeviceTimetableEvent.new(fields) return end

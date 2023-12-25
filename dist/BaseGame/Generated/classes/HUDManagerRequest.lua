@@ -5,7 +5,7 @@
 ---@field public ownerID entEntityID
 HUDManagerRequest = {}
 
----@param fields? table
+---@param fields? HUDManagerRequest
 ---@return HUDManagerRequest
 function HUDManagerRequest.new(fields) return end
 

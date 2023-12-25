@@ -7,6 +7,6 @@
 ---@field public spots worldTrafficSpotDefinition[]
 worldPatrolSplineNode = {}
 
----@param fields? table
+---@param fields? worldPatrolSplineNode
 ---@return worldPatrolSplineNode
 function worldPatrolSplineNode.new(fields) return end

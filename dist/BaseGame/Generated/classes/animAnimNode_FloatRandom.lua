@@ -8,6 +8,6 @@
 ---@field public max Float
 animAnimNode_FloatRandom = {}
 
----@param fields? table
+---@param fields? animAnimNode_FloatRandom
 ---@return animAnimNode_FloatRandom
 function animAnimNode_FloatRandom.new(fields) return end

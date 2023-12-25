@@ -9,6 +9,6 @@
 ---@field public debugSpawnAll Bool
 genLevelRandomizer = {}
 
----@param fields? table
+---@param fields? genLevelRandomizer
 ---@return genLevelRandomizer
 function genLevelRandomizer.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public overrideGeneratedCoverAngles Bool
 gameCoverDefinition = {}
 
----@param fields? table
+---@param fields? gameCoverDefinition
 ---@return gameCoverDefinition
 function gameCoverDefinition.new(fields) return end

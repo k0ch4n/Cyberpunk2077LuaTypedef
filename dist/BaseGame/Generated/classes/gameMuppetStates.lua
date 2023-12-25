@@ -4,6 +4,6 @@
 ---@class gameMuppetStates
 gameMuppetStates = {}
 
----@param fields? table
+---@param fields? gameMuppetStates
 ---@return gameMuppetStates
 function gameMuppetStates.new(fields) return end

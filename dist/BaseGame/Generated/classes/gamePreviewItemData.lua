@@ -4,6 +4,6 @@
 ---@class gamePreviewItemData: gameUniqueItemData
 gamePreviewItemData = {}
 
----@param fields? table
+---@param fields? gamePreviewItemData
 ---@return gamePreviewItemData
 function gamePreviewItemData.new(fields) return end

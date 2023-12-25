@@ -5,6 +5,6 @@
 ---@field public type questIUIConditionType
 questUICondition = {}
 
----@param fields? table
+---@param fields? questUICondition
 ---@return questUICondition
 function questUICondition.new(fields) return end

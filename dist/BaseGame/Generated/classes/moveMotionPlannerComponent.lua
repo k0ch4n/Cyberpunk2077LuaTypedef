@@ -5,6 +5,6 @@
 ---@field public snapToGround Bool
 moveMotionPlannerComponent = {}
 
----@param fields? table
+---@param fields? moveMotionPlannerComponent
 ---@return moveMotionPlannerComponent
 function moveMotionPlannerComponent.new(fields) return end

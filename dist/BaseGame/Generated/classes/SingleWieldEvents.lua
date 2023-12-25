@@ -5,7 +5,7 @@
 ---@field public hasInstantEquipHackBeenApplied Bool
 SingleWieldEvents = {}
 
----@param fields? table
+---@param fields? SingleWieldEvents
 ---@return SingleWieldEvents
 function SingleWieldEvents.new(fields) return end
 

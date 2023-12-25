@@ -4,7 +4,7 @@
 ---@class InStandStanceState: AINPCStanceStateCheck
 InStandStanceState = {}
 
----@param fields? table
+---@param fields? InStandStanceState
 ---@return InStandStanceState
 function InStandStanceState.new(fields) return end
 

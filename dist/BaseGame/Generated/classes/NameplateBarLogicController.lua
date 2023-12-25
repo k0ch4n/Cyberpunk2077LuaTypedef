@@ -5,7 +5,7 @@
 ---@field private damagePreview DamagePreviewController
 NameplateBarLogicController = {}
 
----@param fields? table
+---@param fields? NameplateBarLogicController
 ---@return NameplateBarLogicController
 function NameplateBarLogicController.new(fields) return end
 

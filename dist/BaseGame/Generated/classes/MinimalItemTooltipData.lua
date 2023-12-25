@@ -59,7 +59,7 @@
 ---@field private managerRef UIInventoryItemsManager
 MinimalItemTooltipData = {}
 
----@param fields? table
+---@param fields? MinimalItemTooltipData
 ---@return MinimalItemTooltipData
 function MinimalItemTooltipData.new(fields) return end
 

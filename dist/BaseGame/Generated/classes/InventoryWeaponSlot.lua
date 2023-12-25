@@ -9,7 +9,7 @@
 ---@field private IntroPlayed Bool
 InventoryWeaponSlot = {}
 
----@param fields? table
+---@param fields? InventoryWeaponSlot
 ---@return InventoryWeaponSlot
 function InventoryWeaponSlot.new(fields) return end
 

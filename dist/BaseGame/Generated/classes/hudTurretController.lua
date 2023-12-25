@@ -37,7 +37,7 @@
 ---@field private isOverclockActive Bool
 hudTurretController = {}
 
----@param fields? table
+---@param fields? hudTurretController
 ---@return hudTurretController
 function hudTurretController.new(fields) return end
 

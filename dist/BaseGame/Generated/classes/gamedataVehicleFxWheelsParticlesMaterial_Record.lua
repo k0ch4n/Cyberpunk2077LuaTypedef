@@ -4,7 +4,7 @@
 ---@class gamedataVehicleFxWheelsParticlesMaterial_Record: gamedataTweakDBRecord
 gamedataVehicleFxWheelsParticlesMaterial_Record = {}
 
----@param fields? table
+---@param fields? gamedataVehicleFxWheelsParticlesMaterial_Record
 ---@return gamedataVehicleFxWheelsParticlesMaterial_Record
 function gamedataVehicleFxWheelsParticlesMaterial_Record.new(fields) return end
 

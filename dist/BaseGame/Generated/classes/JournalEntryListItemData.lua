@@ -6,6 +6,6 @@
 ---@field public extraData IScriptable
 JournalEntryListItemData = {}
 
----@param fields? table
+---@param fields? JournalEntryListItemData
 ---@return JournalEntryListItemData
 function JournalEntryListItemData.new(fields) return end

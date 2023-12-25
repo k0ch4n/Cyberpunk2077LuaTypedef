@@ -7,7 +7,7 @@
 ---@field public target gameStatsObjectID
 RemoveAllModifiersEffector = {}
 
----@param fields? table
+---@param fields? RemoveAllModifiersEffector
 ---@return RemoveAllModifiersEffector
 function RemoveAllModifiersEffector.new(fields) return end
 

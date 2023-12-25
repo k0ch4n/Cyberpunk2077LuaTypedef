@@ -6,6 +6,6 @@
 ---@field public comparisonOperator EComparisonType
 AIbehaviorCheckDistanceToCompanionConditionDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorCheckDistanceToCompanionConditionDefinition
 ---@return AIbehaviorCheckDistanceToCompanionConditionDefinition
 function AIbehaviorCheckDistanceToCompanionConditionDefinition.new(fields) return end

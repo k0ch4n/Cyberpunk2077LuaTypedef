@@ -7,6 +7,6 @@
 ---@field public SceneVersion scnSceneVersionCheck
 scnBraindanceRewinding_ConditionType = {}
 
----@param fields? table
+---@param fields? scnBraindanceRewinding_ConditionType
 ---@return scnBraindanceRewinding_ConditionType
 function scnBraindanceRewinding_ConditionType.new(fields) return end

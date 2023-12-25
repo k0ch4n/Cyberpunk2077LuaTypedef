@@ -7,6 +7,6 @@
 ---@field public alwaysUseStealth Bool
 AIMoveCommand = {}
 
----@param fields? table
+---@param fields? AIMoveCommand
 ---@return AIMoveCommand
 function AIMoveCommand.new(fields) return end

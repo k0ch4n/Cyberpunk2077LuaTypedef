@@ -6,6 +6,6 @@
 ---@field public hdrMode ITonemappingMode
 TonemappingAreaSettings = {}
 
----@param fields? table
+---@param fields? TonemappingAreaSettings
 ---@return TonemappingAreaSettings
 function TonemappingAreaSettings.new(fields) return end

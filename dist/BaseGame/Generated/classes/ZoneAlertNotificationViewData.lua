@@ -6,7 +6,7 @@
 ---@field public securityZoneData ESecurityAreaType
 ZoneAlertNotificationViewData = {}
 
----@param fields? table
+---@param fields? ZoneAlertNotificationViewData
 ---@return ZoneAlertNotificationViewData
 function ZoneAlertNotificationViewData.new(fields) return end
 

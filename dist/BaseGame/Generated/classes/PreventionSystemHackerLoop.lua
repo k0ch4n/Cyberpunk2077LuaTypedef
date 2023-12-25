@@ -15,7 +15,7 @@
 ---@field private waitingForUpdate Bool
 PreventionSystemHackerLoop = {}
 
----@param fields? table
+---@param fields? PreventionSystemHackerLoop
 ---@return PreventionSystemHackerLoop
 function PreventionSystemHackerLoop.new(fields) return end
 

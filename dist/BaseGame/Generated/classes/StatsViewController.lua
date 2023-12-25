@@ -8,7 +8,7 @@
 ---@field private stat gameStatViewData
 StatsViewController = {}
 
----@param fields? table
+---@param fields? StatsViewController
 ---@return StatsViewController
 function StatsViewController.new(fields) return end
 

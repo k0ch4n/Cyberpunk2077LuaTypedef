@@ -5,7 +5,7 @@
 ---@field private callbackID redCallbackObject
 VehicleNoDriveContextDecisions = {}
 
----@param fields? table
+---@param fields? VehicleNoDriveContextDecisions
 ---@return VehicleNoDriveContextDecisions
 function VehicleNoDriveContextDecisions.new(fields) return end
 

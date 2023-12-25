@@ -7,7 +7,7 @@
 ---@field private psmLocomotionStateChangedCallback redCallbackObject
 CrouchIndicatorGameController = {}
 
----@param fields? table
+---@param fields? CrouchIndicatorGameController
 ---@return CrouchIndicatorGameController
 function CrouchIndicatorGameController.new(fields) return end
 

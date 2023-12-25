@@ -7,6 +7,6 @@
 ---@field public LastDamageInstigator gamePuppet
 gameWeakSpotReplicatedInfo = {}
 
----@param fields? table
+---@param fields? gameWeakSpotReplicatedInfo
 ---@return gameWeakSpotReplicatedInfo
 function gameWeakSpotReplicatedInfo.new(fields) return end

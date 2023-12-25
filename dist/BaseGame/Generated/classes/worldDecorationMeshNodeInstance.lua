@@ -4,6 +4,6 @@
 ---@class worldDecorationMeshNodeInstance: worldMeshNodeInstance
 worldDecorationMeshNodeInstance = {}
 
----@param fields? table
+---@param fields? worldDecorationMeshNodeInstance
 ---@return worldDecorationMeshNodeInstance
 function worldDecorationMeshNodeInstance.new(fields) return end

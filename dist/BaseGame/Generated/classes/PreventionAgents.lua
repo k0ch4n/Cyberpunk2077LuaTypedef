@@ -6,7 +6,7 @@
 ---@field private requsteredAgents SPreventionAgentData[]
 PreventionAgents = {}
 
----@param fields? table
+---@param fields? PreventionAgents
 ---@return PreventionAgents
 function PreventionAgents.new(fields) return end
 

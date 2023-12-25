@@ -5,7 +5,7 @@
 ---@field private pocketRadio PocketRadio
 PocketRadioQuestContentLockListener = {}
 
----@param fields? table
+---@param fields? PocketRadioQuestContentLockListener
 ---@return PocketRadioQuestContentLockListener
 function PocketRadioQuestContentLockListener.new(fields) return end
 

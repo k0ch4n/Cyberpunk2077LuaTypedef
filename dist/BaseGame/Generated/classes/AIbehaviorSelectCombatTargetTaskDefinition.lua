@@ -6,6 +6,6 @@
 ---@field public targetClosest Bool
 AIbehaviorSelectCombatTargetTaskDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorSelectCombatTargetTaskDefinition
 ---@return AIbehaviorSelectCombatTargetTaskDefinition
 function AIbehaviorSelectCombatTargetTaskDefinition.new(fields) return end

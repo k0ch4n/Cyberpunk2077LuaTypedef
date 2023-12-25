@@ -4,7 +4,7 @@
 ---@class gameVisionModeSystem: gameIVisionModeSystem
 gameVisionModeSystem = {}
 
----@param fields? table
+---@param fields? gameVisionModeSystem
 ---@return gameVisionModeSystem
 function gameVisionModeSystem.new(fields) return end
 

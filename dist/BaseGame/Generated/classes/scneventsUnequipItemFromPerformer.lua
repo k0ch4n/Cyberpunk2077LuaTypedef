@@ -7,6 +7,6 @@
 ---@field public restoreGameplayItem Bool
 scneventsUnequipItemFromPerformer = {}
 
----@param fields? table
+---@param fields? scneventsUnequipItemFromPerformer
 ---@return scneventsUnequipItemFromPerformer
 function scneventsUnequipItemFromPerformer.new(fields) return end

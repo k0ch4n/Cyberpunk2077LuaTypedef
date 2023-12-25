@@ -4,7 +4,7 @@
 ---@class PatrolAction: TweakAIActionSmartComposite
 PatrolAction = {}
 
----@param fields? table
+---@param fields? PatrolAction
 ---@return PatrolAction
 function PatrolAction.new(fields) return end
 

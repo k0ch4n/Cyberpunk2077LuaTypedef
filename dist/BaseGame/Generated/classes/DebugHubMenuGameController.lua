@@ -15,7 +15,7 @@
 ---@field private Transaction gameTransactionSystem
 DebugHubMenuGameController = {}
 
----@param fields? table
+---@param fields? DebugHubMenuGameController
 ---@return DebugHubMenuGameController
 function DebugHubMenuGameController.new(fields) return end
 

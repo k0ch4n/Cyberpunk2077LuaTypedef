@@ -6,6 +6,6 @@
 ---@field public cursorResource inkWidgetLibraryResource
 inkMenuLayerDefinition = {}
 
----@param fields? table
+---@param fields? inkMenuLayerDefinition
 ---@return inkMenuLayerDefinition
 function inkMenuLayerDefinition.new(fields) return end

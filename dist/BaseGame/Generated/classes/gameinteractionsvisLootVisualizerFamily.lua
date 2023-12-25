@@ -4,6 +4,6 @@
 ---@class gameinteractionsvisLootVisualizerFamily: gameinteractionsvisFamilyBase
 gameinteractionsvisLootVisualizerFamily = {}
 
----@param fields? table
+---@param fields? gameinteractionsvisLootVisualizerFamily
 ---@return gameinteractionsvisLootVisualizerFamily
 function gameinteractionsvisLootVisualizerFamily.new(fields) return end

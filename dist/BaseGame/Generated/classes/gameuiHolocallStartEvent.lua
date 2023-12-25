@@ -4,7 +4,7 @@
 ---@class gameuiHolocallStartEvent: redEvent
 gameuiHolocallStartEvent = {}
 
----@param fields? table
+---@param fields? gameuiHolocallStartEvent
 ---@return gameuiHolocallStartEvent
 function gameuiHolocallStartEvent.new(fields) return end
 

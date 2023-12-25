@@ -6,7 +6,7 @@
 ---@field public waitForVisuals Bool
 ItemInSlotCallback = {}
 
----@param fields? table
+---@param fields? ItemInSlotCallback
 ---@return ItemInSlotCallback
 function ItemInSlotCallback.new(fields) return end
 

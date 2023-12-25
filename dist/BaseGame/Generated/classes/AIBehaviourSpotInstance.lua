@@ -4,6 +4,6 @@
 ---@class AIBehaviourSpotInstance: AISmartSpotInstance
 AIBehaviourSpotInstance = {}
 
----@param fields? table
+---@param fields? AIBehaviourSpotInstance
 ---@return AIBehaviourSpotInstance
 function AIBehaviourSpotInstance.new(fields) return end

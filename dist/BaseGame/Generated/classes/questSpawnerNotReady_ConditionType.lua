@@ -6,6 +6,6 @@
 ---@field public communityEntryNames CName[]
 questSpawnerNotReady_ConditionType = {}
 
----@param fields? table
+---@param fields? questSpawnerNotReady_ConditionType
 ---@return questSpawnerNotReady_ConditionType
 function questSpawnerNotReady_ConditionType.new(fields) return end

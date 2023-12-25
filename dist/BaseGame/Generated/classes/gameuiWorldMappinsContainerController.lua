@@ -4,7 +4,7 @@
 ---@class gameuiWorldMappinsContainerController: gameuiMappinsContainerController
 gameuiWorldMappinsContainerController = {}
 
----@param fields? table
+---@param fields? gameuiWorldMappinsContainerController
 ---@return gameuiWorldMappinsContainerController
 function gameuiWorldMappinsContainerController.new(fields) return end
 

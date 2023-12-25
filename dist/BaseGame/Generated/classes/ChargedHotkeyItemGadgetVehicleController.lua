@@ -4,7 +4,7 @@
 ---@class ChargedHotkeyItemGadgetVehicleController: ChargedHotkeyItemGadgetController
 ChargedHotkeyItemGadgetVehicleController = {}
 
----@param fields? table
+---@param fields? ChargedHotkeyItemGadgetVehicleController
 ---@return ChargedHotkeyItemGadgetVehicleController
 function ChargedHotkeyItemGadgetVehicleController.new(fields) return end
 

@@ -5,6 +5,6 @@
 ---@field public resource gameSmartObjectsCompiledResource
 worldCompiledSmartObjectsNode = {}
 
----@param fields? table
+---@param fields? worldCompiledSmartObjectsNode
 ---@return worldCompiledSmartObjectsNode
 function worldCompiledSmartObjectsNode.new(fields) return end

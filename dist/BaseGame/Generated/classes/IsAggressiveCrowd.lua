@@ -7,7 +7,7 @@
 ---@field public npc NPCPuppet
 IsAggressiveCrowd = {}
 
----@param fields? table
+---@param fields? IsAggressiveCrowd
 ---@return IsAggressiveCrowd
 function IsAggressiveCrowd.new(fields) return end
 

@@ -24,7 +24,7 @@
 ---@field private isMaxTacAV Bool
 gameuiMinimapPreventionVehicleMappinController = {}
 
----@param fields? table
+---@param fields? gameuiMinimapPreventionVehicleMappinController
 ---@return gameuiMinimapPreventionVehicleMappinController
 function gameuiMinimapPreventionVehicleMappinController.new(fields) return end
 

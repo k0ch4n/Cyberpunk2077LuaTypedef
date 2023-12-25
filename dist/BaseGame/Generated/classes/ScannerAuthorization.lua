@@ -6,7 +6,7 @@
 ---@field private password Bool
 ScannerAuthorization = {}
 
----@param fields? table
+---@param fields? ScannerAuthorization
 ---@return ScannerAuthorization
 function ScannerAuthorization.new(fields) return end
 

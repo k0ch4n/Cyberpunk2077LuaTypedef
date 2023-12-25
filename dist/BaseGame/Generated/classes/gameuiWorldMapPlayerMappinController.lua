@@ -5,7 +5,7 @@
 ---@field public coneIconWidget inkImageWidgetReference
 gameuiWorldMapPlayerMappinController = {}
 
----@param fields? table
+---@param fields? gameuiWorldMapPlayerMappinController
 ---@return gameuiWorldMapPlayerMappinController
 function gameuiWorldMapPlayerMappinController.new(fields) return end
 

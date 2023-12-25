@@ -4,7 +4,7 @@
 ---@class QuestHangUpCall: ActionBool
 QuestHangUpCall = {}
 
----@param fields? table
+---@param fields? QuestHangUpCall
 ---@return QuestHangUpCall
 function QuestHangUpCall.new(fields) return end
 

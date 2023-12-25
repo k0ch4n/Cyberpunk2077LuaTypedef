@@ -6,6 +6,6 @@
 ---@field public colorVariants CName[]
 gameEntityAppearanceColorVariantsArray = {}
 
----@param fields? table
+---@param fields? gameEntityAppearanceColorVariantsArray
 ---@return gameEntityAppearanceColorVariantsArray
 function gameEntityAppearanceColorVariantsArray.new(fields) return end

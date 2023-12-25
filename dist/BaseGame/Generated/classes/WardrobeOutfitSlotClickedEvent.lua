@@ -6,6 +6,6 @@
 ---@field public equipped Bool
 WardrobeOutfitSlotClickedEvent = {}
 
----@param fields? table
+---@param fields? WardrobeOutfitSlotClickedEvent
 ---@return WardrobeOutfitSlotClickedEvent
 function WardrobeOutfitSlotClickedEvent.new(fields) return end

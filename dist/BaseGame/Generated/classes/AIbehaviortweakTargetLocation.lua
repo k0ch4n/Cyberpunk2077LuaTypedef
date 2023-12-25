@@ -10,6 +10,6 @@
 ---@field public hasSpeed Bool
 AIbehaviortweakTargetLocation = {}
 
----@param fields? table
+---@param fields? AIbehaviortweakTargetLocation
 ---@return AIbehaviortweakTargetLocation
 function AIbehaviortweakTargetLocation.new(fields) return end

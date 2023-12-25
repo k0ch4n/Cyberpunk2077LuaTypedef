@@ -6,6 +6,6 @@
 ---@field public useMovePlanner Bool
 AIbehaviorActionSlideToWorldPositionNodeDefinition = {}
 
----@param fields? table
+---@param fields? AIbehaviorActionSlideToWorldPositionNodeDefinition
 ---@return AIbehaviorActionSlideToWorldPositionNodeDefinition
 function AIbehaviorActionSlideToWorldPositionNodeDefinition.new(fields) return end

@@ -11,7 +11,7 @@
 ---@field public spreadGroup gameConstantStatModifierData_Deprecated[]
 PlayerWeaponHandlingModifiers = {}
 
----@param fields? table
+---@param fields? PlayerWeaponHandlingModifiers
 ---@return PlayerWeaponHandlingModifiers
 function PlayerWeaponHandlingModifiers.new(fields) return end
 

@@ -7,6 +7,6 @@
 ---@field public shouldPay Bool
 DispenseRequest = {}
 
----@param fields? table
+---@param fields? DispenseRequest
 ---@return DispenseRequest
 function DispenseRequest.new(fields) return end

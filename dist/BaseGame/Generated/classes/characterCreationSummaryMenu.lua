@@ -22,7 +22,7 @@
 ---@field private glitchClicks Int32
 characterCreationSummaryMenu = {}
 
----@param fields? table
+---@param fields? characterCreationSummaryMenu
 ---@return characterCreationSummaryMenu
 function characterCreationSummaryMenu.new(fields) return end
 

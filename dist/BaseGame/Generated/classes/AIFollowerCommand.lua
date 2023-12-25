@@ -5,7 +5,7 @@
 ---@field public combatCommand Bool
 AIFollowerCommand = {}
 
----@param fields? table
+---@param fields? AIFollowerCommand
 ---@return AIFollowerCommand
 function AIFollowerCommand.new(fields) return end
 

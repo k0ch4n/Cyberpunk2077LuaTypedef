@@ -4,7 +4,7 @@
 ---@class StatsSystemHelper: IScriptable
 StatsSystemHelper = {}
 
----@param fields? table
+---@param fields? StatsSystemHelper
 ---@return StatsSystemHelper
 function StatsSystemHelper.new(fields) return end
 

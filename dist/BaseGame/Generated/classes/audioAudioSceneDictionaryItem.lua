@@ -6,6 +6,6 @@
 ---@field public value CName
 audioAudioSceneDictionaryItem = {}
 
----@param fields? table
+---@param fields? audioAudioSceneDictionaryItem
 ---@return audioAudioSceneDictionaryItem
 function audioAudioSceneDictionaryItem.new(fields) return end

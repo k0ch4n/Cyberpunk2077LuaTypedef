@@ -7,6 +7,6 @@
 ---@field public bloomColorScale effectEffectParameterEvaluatorFloat
 effectTrackItemBloom = {}
 
----@param fields? table
+---@param fields? effectTrackItemBloom
 ---@return effectTrackItemBloom
 function effectTrackItemBloom.new(fields) return end

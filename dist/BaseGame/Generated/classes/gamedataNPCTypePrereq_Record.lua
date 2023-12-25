@@ -4,7 +4,7 @@
 ---@class gamedataNPCTypePrereq_Record: gamedataIPrereq_Record
 gamedataNPCTypePrereq_Record = {}
 
----@param fields? table
+---@param fields? gamedataNPCTypePrereq_Record
 ---@return gamedataNPCTypePrereq_Record
 function gamedataNPCTypePrereq_Record.new(fields) return end
 

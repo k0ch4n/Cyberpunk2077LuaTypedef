@@ -11,6 +11,6 @@
 ---@field public simulation Uint16[]
 meshGfxClothChunkData = {}
 
----@param fields? table
+---@param fields? meshGfxClothChunkData
 ---@return meshGfxClothChunkData
 function meshGfxClothChunkData.new(fields) return end

@@ -14,7 +14,7 @@
 ---@field private imageId TweakDBID
 MessangerItemRenderer = {}
 
----@param fields? table
+---@param fields? MessangerItemRenderer
 ---@return MessangerItemRenderer
 function MessangerItemRenderer.new(fields) return end
 

@@ -4,6 +4,6 @@
 ---@class SysDebuggerEvent: gameTickableEvent
 SysDebuggerEvent = {}
 
----@param fields? table
+---@param fields? SysDebuggerEvent
 ---@return SysDebuggerEvent
 function SysDebuggerEvent.new(fields) return end

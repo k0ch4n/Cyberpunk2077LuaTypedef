@@ -9,6 +9,6 @@
 ---@field public postFlattenReduce Bool
 worldProxySurfaceFlattenParams = {}
 
----@param fields? table
+---@param fields? worldProxySurfaceFlattenParams
 ---@return worldProxySurfaceFlattenParams
 function worldProxySurfaceFlattenParams.new(fields) return end

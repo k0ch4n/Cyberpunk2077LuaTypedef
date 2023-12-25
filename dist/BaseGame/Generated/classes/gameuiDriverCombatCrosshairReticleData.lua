@@ -6,6 +6,6 @@
 ---@field public opacity Float
 gameuiDriverCombatCrosshairReticleData = {}
 
----@param fields? table
+---@param fields? gameuiDriverCombatCrosshairReticleData
 ---@return gameuiDriverCombatCrosshairReticleData
 function gameuiDriverCombatCrosshairReticleData.new(fields) return end

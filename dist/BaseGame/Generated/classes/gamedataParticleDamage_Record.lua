@@ -4,7 +4,7 @@
 ---@class gamedataParticleDamage_Record: gamedataTweakDBRecord
 gamedataParticleDamage_Record = {}
 
----@param fields? table
+---@param fields? gamedataParticleDamage_Record
 ---@return gamedataParticleDamage_Record
 function gamedataParticleDamage_Record.new(fields) return end
 

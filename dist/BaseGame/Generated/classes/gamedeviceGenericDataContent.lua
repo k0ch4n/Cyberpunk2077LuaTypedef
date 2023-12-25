@@ -6,6 +6,6 @@
 ---@field public content gamedeviceDataElement[]
 gamedeviceGenericDataContent = {}
 
----@param fields? table
+---@param fields? gamedeviceGenericDataContent
 ---@return gamedeviceGenericDataContent
 function gamedeviceGenericDataContent.new(fields) return end

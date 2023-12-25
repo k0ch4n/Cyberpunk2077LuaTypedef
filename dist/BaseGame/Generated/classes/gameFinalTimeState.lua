@@ -4,6 +4,6 @@
 ---@class gameFinalTimeState: gameITimeState
 gameFinalTimeState = {}
 
----@param fields? table
+---@param fields? gameFinalTimeState
 ---@return gameFinalTimeState
 function gameFinalTimeState.new(fields) return end

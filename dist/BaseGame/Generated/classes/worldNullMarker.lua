@@ -4,6 +4,6 @@
 ---@class worldNullMarker: worldIMarker
 worldNullMarker = {}
 
----@param fields? table
+---@param fields? worldNullMarker
 ---@return worldNullMarker
 function worldNullMarker.new(fields) return end

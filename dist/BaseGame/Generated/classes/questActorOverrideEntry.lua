@@ -6,6 +6,6 @@
 ---@field public ActorName CName
 questActorOverrideEntry = {}
 
----@param fields? table
+---@param fields? questActorOverrideEntry
 ---@return questActorOverrideEntry
 function questActorOverrideEntry.new(fields) return end

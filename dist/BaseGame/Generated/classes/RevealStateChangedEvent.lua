@@ -7,6 +7,6 @@
 ---@field public transitionTime Float
 RevealStateChangedEvent = {}
 
----@param fields? table
+---@param fields? RevealStateChangedEvent
 ---@return RevealStateChangedEvent
 function RevealStateChangedEvent.new(fields) return end

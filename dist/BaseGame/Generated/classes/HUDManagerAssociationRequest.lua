@@ -6,6 +6,6 @@
 ---@field public isRegistering Bool
 HUDManagerAssociationRequest = {}
 
----@param fields? table
+---@param fields? HUDManagerAssociationRequest
 ---@return HUDManagerAssociationRequest
 function HUDManagerAssociationRequest.new(fields) return end

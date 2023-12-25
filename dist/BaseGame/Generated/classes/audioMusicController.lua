@@ -8,6 +8,6 @@
 ---@field public unmuteEvent CName
 audioMusicController = {}
 
----@param fields? table
+---@param fields? audioMusicController
 ---@return audioMusicController
 function audioMusicController.new(fields) return end

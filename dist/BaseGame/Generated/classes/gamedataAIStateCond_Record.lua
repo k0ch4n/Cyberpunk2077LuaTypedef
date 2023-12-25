@@ -4,7 +4,7 @@
 ---@class gamedataAIStateCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIStateCond_Record = {}
 
----@param fields? table
+---@param fields? gamedataAIStateCond_Record
 ---@return gamedataAIStateCond_Record
 function gamedataAIStateCond_Record.new(fields) return end
 

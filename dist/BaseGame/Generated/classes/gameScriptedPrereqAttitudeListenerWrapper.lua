@@ -4,7 +4,7 @@
 ---@class gameScriptedPrereqAttitudeListenerWrapper: IScriptable
 gameScriptedPrereqAttitudeListenerWrapper = {}
 
----@param fields? table
+---@param fields? gameScriptedPrereqAttitudeListenerWrapper
 ---@return gameScriptedPrereqAttitudeListenerWrapper
 function gameScriptedPrereqAttitudeListenerWrapper.new(fields) return end
 

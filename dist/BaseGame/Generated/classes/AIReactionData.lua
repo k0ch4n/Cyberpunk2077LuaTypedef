@@ -21,6 +21,6 @@
 ---@field public escalateProvoke Bool
 AIReactionData = {}
 
----@param fields? table
+---@param fields? AIReactionData
 ---@return AIReactionData
 function AIReactionData.new(fields) return end

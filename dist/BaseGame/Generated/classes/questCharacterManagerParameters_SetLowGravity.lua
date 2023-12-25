@@ -5,6 +5,6 @@
 ---@field public enable Bool
 questCharacterManagerParameters_SetLowGravity = {}
 
----@param fields? table
+---@param fields? questCharacterManagerParameters_SetLowGravity
 ---@return questCharacterManagerParameters_SetLowGravity
 function questCharacterManagerParameters_SetLowGravity.new(fields) return end

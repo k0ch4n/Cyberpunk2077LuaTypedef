@@ -6,7 +6,7 @@
 ---@field public tryBlendToWalk Bool
 ExitFromVehicle = {}
 
----@param fields? table
+---@param fields? ExitFromVehicle
 ---@return ExitFromVehicle
 function ExitFromVehicle.new(fields) return end
 

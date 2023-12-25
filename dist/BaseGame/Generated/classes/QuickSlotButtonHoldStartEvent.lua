@@ -5,6 +5,6 @@
 ---@field public dPadItemDirection EDPadSlot
 QuickSlotButtonHoldStartEvent = {}
 
----@param fields? table
+---@param fields? QuickSlotButtonHoldStartEvent
 ---@return QuickSlotButtonHoldStartEvent
 function QuickSlotButtonHoldStartEvent.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public slotComponent entSlotComponent
 gameActionDieState = {}
 
----@param fields? table
+---@param fields? gameActionDieState
 ---@return gameActionDieState
 function gameActionDieState.new(fields) return end

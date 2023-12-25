@@ -4,7 +4,7 @@
 ---@class GameSessionEvent: NamedEvent
 GameSessionEvent = {}
 
----@param fields? table
+---@param fields? GameSessionEvent
 ---@return GameSessionEvent
 function GameSessionEvent.new(fields) return end
 

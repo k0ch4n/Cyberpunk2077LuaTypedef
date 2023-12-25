@@ -8,7 +8,7 @@
 ---@field public isCritical Bool
 DismemberEffector = {}
 
----@param fields? table
+---@param fields? DismemberEffector
 ---@return DismemberEffector
 function DismemberEffector.new(fields) return end
 

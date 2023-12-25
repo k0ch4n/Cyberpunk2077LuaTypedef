@@ -5,7 +5,7 @@
 ---@field public preventSkippingDeathAnimation Bool
 NPCInitTask = {}
 
----@param fields? table
+---@param fields? NPCInitTask
 ---@return NPCInitTask
 function NPCInitTask.new(fields) return end
 

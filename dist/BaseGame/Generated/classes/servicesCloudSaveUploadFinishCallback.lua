@@ -4,6 +4,6 @@
 ---@class servicesCloudSaveUploadFinishCallback: inkCallbackBase
 servicesCloudSaveUploadFinishCallback = {}
 
----@param fields? table
+---@param fields? servicesCloudSaveUploadFinishCallback
 ---@return servicesCloudSaveUploadFinishCallback
 function servicesCloudSaveUploadFinishCallback.new(fields) return end

@@ -9,6 +9,6 @@
 ---@field public nonlethalTakedownActionName TweakDBID
 DisposalDeviceSetup = {}
 
----@param fields? table
+---@param fields? DisposalDeviceSetup
 ---@return DisposalDeviceSetup
 function DisposalDeviceSetup.new(fields) return end

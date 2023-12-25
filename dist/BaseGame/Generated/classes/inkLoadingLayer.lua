@@ -4,6 +4,6 @@
 ---@class inkLoadingLayer: inkFullScreenLayer
 inkLoadingLayer = {}
 
----@param fields? table
+---@param fields? inkLoadingLayer
 ---@return inkLoadingLayer
 function inkLoadingLayer.new(fields) return end

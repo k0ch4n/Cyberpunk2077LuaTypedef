@@ -7,7 +7,7 @@
 ---@field public shouldCheckDeathStimName Bool
 CheckCurrentHitReaction = {}
 
----@param fields? table
+---@param fields? CheckCurrentHitReaction
 ---@return CheckCurrentHitReaction
 function CheckCurrentHitReaction.new(fields) return end
 

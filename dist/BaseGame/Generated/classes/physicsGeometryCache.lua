@@ -10,6 +10,6 @@
 ---@field public alwaysLoadedSectorDDB serializationDeferredDataBuffer
 physicsGeometryCache = {}
 
----@param fields? table
+---@param fields? physicsGeometryCache
 ---@return physicsGeometryCache
 function physicsGeometryCache.new(fields) return end

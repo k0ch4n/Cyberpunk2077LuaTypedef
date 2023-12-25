@@ -5,6 +5,6 @@
 ---@field public linksIDs Int32[]
 ActivateLinksRequest = {}
 
----@param fields? table
+---@param fields? ActivateLinksRequest
 ---@return ActivateLinksRequest
 function ActivateLinksRequest.new(fields) return end

@@ -8,6 +8,6 @@
 ---@field public forcedAutoHideRange Float
 worldStaticParticleNode = {}
 
----@param fields? table
+---@param fields? worldStaticParticleNode
 ---@return worldStaticParticleNode
 function worldStaticParticleNode.new(fields) return end

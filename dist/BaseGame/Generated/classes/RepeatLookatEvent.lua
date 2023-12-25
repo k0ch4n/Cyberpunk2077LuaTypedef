@@ -5,6 +5,6 @@
 ---@field public target entEntity
 RepeatLookatEvent = {}
 
----@param fields? table
+---@param fields? RepeatLookatEvent
 ---@return RepeatLookatEvent
 function RepeatLookatEvent.new(fields) return end

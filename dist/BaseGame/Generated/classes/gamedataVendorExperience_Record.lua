@@ -4,7 +4,7 @@
 ---@class gamedataVendorExperience_Record: gamedataVendorWare_Record
 gamedataVendorExperience_Record = {}
 
----@param fields? table
+---@param fields? gamedataVendorExperience_Record
 ---@return gamedataVendorExperience_Record
 function gamedataVendorExperience_Record.new(fields) return end
 

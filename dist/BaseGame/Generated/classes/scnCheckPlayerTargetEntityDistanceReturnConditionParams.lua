@@ -7,6 +7,6 @@
 ---@field public targetEntity gameEntityReference
 scnCheckPlayerTargetEntityDistanceReturnConditionParams = {}
 
----@param fields? table
+---@param fields? scnCheckPlayerTargetEntityDistanceReturnConditionParams
 ---@return scnCheckPlayerTargetEntityDistanceReturnConditionParams
 function scnCheckPlayerTargetEntityDistanceReturnConditionParams.new(fields) return end

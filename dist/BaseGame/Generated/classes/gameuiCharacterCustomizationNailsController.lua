@@ -5,6 +5,6 @@
 ---@field public nailsGroupName CName
 gameuiCharacterCustomizationNailsController = {}
 
----@param fields? table
+---@param fields? gameuiCharacterCustomizationNailsController
 ---@return gameuiCharacterCustomizationNailsController
 function gameuiCharacterCustomizationNailsController.new(fields) return end

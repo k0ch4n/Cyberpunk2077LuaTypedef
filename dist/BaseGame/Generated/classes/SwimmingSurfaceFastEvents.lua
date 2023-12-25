@@ -10,7 +10,7 @@
 ---@field public movementImpulseOffset Float
 SwimmingSurfaceFastEvents = {}
 
----@param fields? table
+---@param fields? SwimmingSurfaceFastEvents
 ---@return SwimmingSurfaceFastEvents
 function SwimmingSurfaceFastEvents.new(fields) return end
 

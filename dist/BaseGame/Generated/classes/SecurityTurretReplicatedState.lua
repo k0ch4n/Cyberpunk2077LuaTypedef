@@ -8,6 +8,6 @@
 ---@field public health Float
 SecurityTurretReplicatedState = {}
 
----@param fields? table
+---@param fields? SecurityTurretReplicatedState
 ---@return SecurityTurretReplicatedState
 function SecurityTurretReplicatedState.new(fields) return end

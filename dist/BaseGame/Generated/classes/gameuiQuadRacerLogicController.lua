@@ -43,7 +43,7 @@
 ---@field private lastTime Int32
 gameuiQuadRacerLogicController = {}
 
----@param fields? table
+---@param fields? gameuiQuadRacerLogicController
 ---@return gameuiQuadRacerLogicController
 function gameuiQuadRacerLogicController.new(fields) return end
 

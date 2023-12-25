@@ -17,6 +17,6 @@
 ---@field public noAIDriving Bool
 worldTrafficSplineNode = {}
 
----@param fields? table
+---@param fields? worldTrafficSplineNode
 ---@return worldTrafficSplineNode
 function worldTrafficSplineNode.new(fields) return end

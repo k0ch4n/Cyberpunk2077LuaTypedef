@@ -6,7 +6,7 @@
 ---@field public blockReactionFlag gamebbScriptID_Bool
 PuppetReactionDef = {}
 
----@param fields? table
+---@param fields? PuppetReactionDef
 ---@return PuppetReactionDef
 function PuppetReactionDef.new(fields) return end
 

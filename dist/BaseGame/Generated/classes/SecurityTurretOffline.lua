@@ -4,6 +4,6 @@
 ---@class SecurityTurretOffline: redEvent
 SecurityTurretOffline = {}
 
----@param fields? table
+---@param fields? SecurityTurretOffline
 ---@return SecurityTurretOffline
 function SecurityTurretOffline.new(fields) return end

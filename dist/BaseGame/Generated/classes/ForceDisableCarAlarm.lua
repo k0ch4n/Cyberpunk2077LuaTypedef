@@ -4,7 +4,7 @@
 ---@class ForceDisableCarAlarm: ActionBool
 ForceDisableCarAlarm = {}
 
----@param fields? table
+---@param fields? ForceDisableCarAlarm
 ---@return ForceDisableCarAlarm
 function ForceDisableCarAlarm.new(fields) return end
 

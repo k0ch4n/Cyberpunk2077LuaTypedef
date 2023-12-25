@@ -6,6 +6,6 @@
 ---@field public font rendFont
 inkFontStyle = {}
 
----@param fields? table
+---@param fields? inkFontStyle
 ---@return inkFontStyle
 function inkFontStyle.new(fields) return end

@@ -4,6 +4,6 @@
 ---@class servicesCloudSavesQueryStatusChangeCallback: inkCallbackBase
 servicesCloudSavesQueryStatusChangeCallback = {}
 
----@param fields? table
+---@param fields? servicesCloudSavesQueryStatusChangeCallback
 ---@return servicesCloudSavesQueryStatusChangeCallback
 function servicesCloudSavesQueryStatusChangeCallback.new(fields) return end

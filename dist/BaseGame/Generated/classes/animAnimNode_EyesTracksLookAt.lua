@@ -10,6 +10,6 @@
 ---@field public debug Bool
 animAnimNode_EyesTracksLookAt = {}
 
----@param fields? table
+---@param fields? animAnimNode_EyesTracksLookAt
 ---@return animAnimNode_EyesTracksLookAt
 function animAnimNode_EyesTracksLookAt.new(fields) return end

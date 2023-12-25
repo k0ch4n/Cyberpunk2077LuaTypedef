@@ -6,6 +6,6 @@
 ---@field public enable Bool
 questEnableScanning_NodeType = {}
 
----@param fields? table
+---@param fields? questEnableScanning_NodeType
 ---@return questEnableScanning_NodeType
 function questEnableScanning_NodeType.new(fields) return end

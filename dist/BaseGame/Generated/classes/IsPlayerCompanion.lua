@@ -4,7 +4,7 @@
 ---@class IsPlayerCompanion: AIAutonomousConditions
 IsPlayerCompanion = {}
 
----@param fields? table
+---@param fields? IsPlayerCompanion
 ---@return IsPlayerCompanion
 function IsPlayerCompanion.new(fields) return end
 

@@ -9,7 +9,7 @@
 ---@field private isValueSet Bool
 UIInventoryItemWeaponBar = {}
 
----@param fields? table
+---@param fields? UIInventoryItemWeaponBar
 ---@return UIInventoryItemWeaponBar
 function UIInventoryItemWeaponBar.new(fields) return end
 

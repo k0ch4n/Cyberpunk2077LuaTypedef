@@ -6,6 +6,6 @@
 ---@field public value Float
 SStatPoolValue = {}
 
----@param fields? table
+---@param fields? SStatPoolValue
 ---@return SStatPoolValue
 function SStatPoolValue.new(fields) return end

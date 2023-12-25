@@ -5,6 +5,6 @@
 ---@field public spawnedObject gameObject
 gameNetrunnerPrototypeSpawnCompletedEvent = {}
 
----@param fields? table
+---@param fields? gameNetrunnerPrototypeSpawnCompletedEvent
 ---@return gameNetrunnerPrototypeSpawnCompletedEvent
 function gameNetrunnerPrototypeSpawnCompletedEvent.new(fields) return end

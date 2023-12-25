@@ -8,6 +8,6 @@
 ---@field public fluff_header String
 CustomNotificationEvent = {}
 
----@param fields? table
+---@param fields? CustomNotificationEvent
 ---@return CustomNotificationEvent
 function CustomNotificationEvent.new(fields) return end

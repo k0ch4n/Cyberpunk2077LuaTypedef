@@ -4,6 +4,6 @@
 ---@class inkHUDLayer: inkFullScreenLayer
 inkHUDLayer = {}
 
----@param fields? table
+---@param fields? inkHUDLayer
 ---@return inkHUDLayer
 function inkHUDLayer.new(fields) return end

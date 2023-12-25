@@ -7,7 +7,7 @@
 ---@field public shouldDelay Bool
 SimpleTriggerAttackEffect = {}
 
----@param fields? table
+---@param fields? SimpleTriggerAttackEffect
 ---@return SimpleTriggerAttackEffect
 function SimpleTriggerAttackEffect.new(fields) return end
 

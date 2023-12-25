@@ -4,6 +4,6 @@
 ---@class AIbehaviorTreeNodeDebugInfo: AIbehaviorDebugInfoBase
 AIbehaviorTreeNodeDebugInfo = {}
 
----@param fields? table
+---@param fields? AIbehaviorTreeNodeDebugInfo
 ---@return AIbehaviorTreeNodeDebugInfo
 function AIbehaviorTreeNodeDebugInfo.new(fields) return end

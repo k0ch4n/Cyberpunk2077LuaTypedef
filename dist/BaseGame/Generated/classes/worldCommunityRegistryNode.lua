@@ -9,6 +9,6 @@
 ---@field public representsCrowd Bool
 worldCommunityRegistryNode = {}
 
----@param fields? table
+---@param fields? worldCommunityRegistryNode
 ---@return worldCommunityRegistryNode
 function worldCommunityRegistryNode.new(fields) return end
