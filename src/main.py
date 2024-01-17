@@ -30,16 +30,16 @@ class Flags:
 
     class Function(IntFlag):
         # fmt: off
-        isNative         = 1 << 0x0
-        isStatic         = 1 << 0x1
-        isFinal          = 1 << 0x2
-        isEvent          = 1 << 0x3
-        isExec           = 1 << 0x4
-        hasUndefinedBody = 1 << 0x5
-        isTimer          = 1 << 0x6
-        isPrivate        = 1 << 0x7
-        isProtected      = 1 << 0x8
-        isPublic         = 1 << 0x9
+        isNative         = 1 << 0x00
+        isStatic         = 1 << 0x01
+        isFinal          = 1 << 0x02
+        isEvent          = 1 << 0x03
+        isExec           = 1 << 0x04
+        hasUndefinedBody = 1 << 0x05
+        isTimer          = 1 << 0x06
+        isPrivate        = 1 << 0x07
+        isProtected      = 1 << 0x08
+        isPublic         = 1 << 0x09
         isConst          = 1 << 0x0D
         isQuest          = 1 << 0x0E
         isThreadsafe     = 1 << 0x0F
