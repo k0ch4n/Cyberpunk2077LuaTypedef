@@ -90,7 +90,7 @@ function gameInventoryItemData.IsGarment(self) return end
 function gameInventoryItemData.IsWeapon(self) return end
 
 ---@param self gameInventoryItemData
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return nil
 function gameInventoryItemData.AddPlacementSlot(self, slot) return end
 
@@ -355,7 +355,7 @@ function gameInventoryItemData.IsVendorItem(self) return end
 function gameInventoryItemData.IsVisualsEquipped(self) return end
 
 ---@param self gameInventoryItemData
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return Bool
 function gameInventoryItemData.PlacementSlotsContains(self, slot) return end
 
@@ -620,7 +620,7 @@ function gameInventoryItemData.SetSecondaryStats(self, secondaryStats) return en
 function gameInventoryItemData.SetShape(self, shape) return end
 
 ---@param self gameInventoryItemData
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function gameInventoryItemData.SetSlotID(self, id) return end
 

@@ -16,7 +16,7 @@ function PlayerCombatStateTimePrereq.new(fields) return end
 function PlayerCombatStateTimePrereq:Evaluate(owner, value) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PlayerCombatStateTimePrereq:Initialize(recordID) return end
 

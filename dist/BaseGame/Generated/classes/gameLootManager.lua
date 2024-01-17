@@ -8,7 +8,7 @@ gameLootManager = {}
 ---@return gameLootManager
 function gameLootManager.new(fields) return end
 
----@param lootID TweakDBID
+---@param lootID TweakDBID|string
 ---@param gameNode? gameObject
 ---@return nil, gameItemModParams[] itemList
 function gameLootManager:GenerateLoot(lootID, gameNode) return end

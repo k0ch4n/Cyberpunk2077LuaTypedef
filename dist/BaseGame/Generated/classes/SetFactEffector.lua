@@ -16,7 +16,7 @@ function SetFactEffector.new(fields) return end
 function SetFactEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SetFactEffector:Initialize(record, parentRecord) return end

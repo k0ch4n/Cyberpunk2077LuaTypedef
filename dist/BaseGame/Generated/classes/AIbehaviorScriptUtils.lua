@@ -82,7 +82,7 @@ function AIbehaviorScriptUtils.CheckCooldownConditions(context, check) return en
 ---@return nil
 function AIbehaviorScriptUtils.DebugLog(entityId, category, message) return end
 
----@param recordId TweakDBID
+---@param recordId TweakDBID|string
 ---@return Bool, TweakDBID actionName
 function AIbehaviorScriptUtils.GetActionNameFromRecord(recordId) return end
 
@@ -92,7 +92,7 @@ function AIbehaviorScriptUtils.GetActionNameFromRecord(recordId) return end
 function AIbehaviorScriptUtils.GetActionTarget(context, target) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param targetId TweakDBID
+---@param targetId TweakDBID|string
 ---@param predictionTime Float
 ---@return Bool, gameObject object, Vector4 position, Uint64 coverId
 function AIbehaviorScriptUtils.GetActionTarget2(context, targetId, predictionTime) return end
@@ -120,7 +120,7 @@ function AIbehaviorScriptUtils.GetTicketType(ticketName, puppet, fallbackSquad) 
 ---@return Bool, Float outWaterLevel
 function AIbehaviorScriptUtils.GetWaterLevel(position) return end
 
----@param recordId TweakDBID
+---@param recordId TweakDBID|string
 ---@return Bool
 function AIbehaviorScriptUtils.IsArchetypeAction(recordId) return end
 

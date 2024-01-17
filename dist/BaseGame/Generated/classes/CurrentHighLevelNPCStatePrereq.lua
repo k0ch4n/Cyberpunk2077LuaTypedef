@@ -11,7 +11,7 @@ CurrentHighLevelNPCStatePrereq = {}
 function CurrentHighLevelNPCStatePrereq.new(fields) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function CurrentHighLevelNPCStatePrereq:Initialize(record) return end
 

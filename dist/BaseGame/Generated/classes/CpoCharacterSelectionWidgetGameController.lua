@@ -23,12 +23,12 @@ function CpoCharacterSelectionWidgetGameController:OnUninitialize() return end
 ---@private
 ---@param parent inkHorizontalPanelWidget
 ---@param argText String
----@param characterRecordId TweakDBID
+---@param characterRecordId TweakDBID|string
 ---@return nil
 function CpoCharacterSelectionWidgetGameController:CreateCharacterButton(parent, argText, characterRecordId) return end
 
 ---@private
----@param characterRecordId TweakDBID
+---@param characterRecordId TweakDBID|string
 ---@return nil
 function CpoCharacterSelectionWidgetGameController:FillTooltip(characterRecordId) return end
 

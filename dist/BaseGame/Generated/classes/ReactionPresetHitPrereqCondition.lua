@@ -13,6 +13,6 @@ function ReactionPresetHitPrereqCondition.new(fields) return end
 ---@return Bool
 function ReactionPresetHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ReactionPresetHitPrereqCondition:SetData(recordID) return end

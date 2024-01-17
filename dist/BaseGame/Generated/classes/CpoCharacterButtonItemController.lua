@@ -13,6 +13,6 @@ function CpoCharacterButtonItemController.new(fields) return end
 function CpoCharacterButtonItemController:GetCharacterRecordId() return end
 
 ---@param text String
----@param characterRecordId TweakDBID
+---@param characterRecordId TweakDBID|string
 ---@return nil
 function CpoCharacterButtonItemController:SetButtonDetails(text, characterRecordId) return end

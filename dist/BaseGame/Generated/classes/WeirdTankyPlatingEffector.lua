@@ -15,8 +15,8 @@ function WeirdTankyPlatingEffector.new(fields) return end
 function WeirdTankyPlatingEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function WeirdTankyPlatingEffector:Initialize(record, parentRecord) return end
 

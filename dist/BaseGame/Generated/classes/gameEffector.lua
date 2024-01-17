@@ -55,8 +55,8 @@ function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) ret
 function gameEffector:GetApplicationTargetAsStatsObjectID(effectorOwner, applicationTarget) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function gameEffector:Initialize(record, parentRecord) return end
 

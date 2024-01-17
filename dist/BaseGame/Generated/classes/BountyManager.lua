@@ -17,11 +17,11 @@ function BountyManager.CompleteBounty(target) return end
 function BountyManager.GenerateBounty(target) return end
 
 ---@private
----@param transgressions TweakDBID[]
+---@param transgressions TweakDBID[]|string[]
 ---@return gamedataTransgression_Record[]
 function BountyManager.GetTransgressionRecords(transgressions) return end
 
----@param bountyID TweakDBID
+---@param bountyID TweakDBID|string
 ---@param target NPCPuppet
 ---@return Bounty
 function BountyManager.SetBountyFromID(bountyID, target) return end

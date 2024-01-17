@@ -14,6 +14,6 @@ function DistanceCoveredHitPrereqCondition.new(fields) return end
 ---@return Bool
 function DistanceCoveredHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function DistanceCoveredHitPrereqCondition:SetData(recordID) return end

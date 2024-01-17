@@ -144,8 +144,8 @@ function ScriptableDeviceComponentPS:ActionEngineering(context) return end
 function ScriptableDeviceComponentPS:ActionFixDevice() return end
 
 ---@protected
----@param actionID TweakDBID
----@param programID TweakDBID
+---@param actionID TweakDBID|string
+---@param programID TweakDBID|string
 ---@param timeout? Float
 ---@return GlitchScreen
 function ScriptableDeviceComponentPS:ActionGlitchScreen(actionID, programID, timeout) return end
@@ -450,7 +450,7 @@ function ScriptableDeviceComponentPS:AddAvailableSpiderbotActions(SpiderbotActio
 ---@return nil
 function ScriptableDeviceComponentPS:AddPlaystyle(playstyle) return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return nil
 function ScriptableDeviceComponentPS:AddQuickHackVulnerability(data) return end
 
@@ -538,7 +538,7 @@ function ScriptableDeviceComponentPS:CanPerformReprimand() return end
 ---@return Bool
 function ScriptableDeviceComponentPS:CanPlayerTakeOverControl() return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return Bool
 function ScriptableDeviceComponentPS:CanPlayerUseQuickHackVulnerability(data) return end
 
@@ -591,7 +591,7 @@ function ScriptableDeviceComponentPS:DetermineInteractionState(interactionCompon
 ---@return nil
 function ScriptableDeviceComponentPS:DisableDevice() return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return nil
 function ScriptableDeviceComponentPS:DisbaleRPGChecksForAction(actionID) return end
 
@@ -627,7 +627,7 @@ function ScriptableDeviceComponentPS:EnableDebugQuickHacks(val) return end
 ---@return nil
 function ScriptableDeviceComponentPS:EnableDevice() return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return nil
 function ScriptableDeviceComponentPS:EnableRPGChecksForAction(actionID) return end
 
@@ -903,7 +903,7 @@ function ScriptableDeviceComponentPS:GetFullAuthorizationData() return end
 
 ---@private
 ---@param passwords CName[]|string[]
----@param keycards TweakDBID[]
+---@param keycards TweakDBID[]|string[]
 ---@return nil
 function ScriptableDeviceComponentPS:GetFullAuthorizationDataSegregated(passwords, keycards) return end
 
@@ -923,12 +923,12 @@ function ScriptableDeviceComponentPS:GetInkWidgetTweakDBID(context) return end
 function ScriptableDeviceComponentPS:GetJuryrigTrapState() return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return String
 function ScriptableDeviceComponentPS:GetKeycardLocalizedString(record) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return gamedataItem_Record
 function ScriptableDeviceComponentPS:GetKeycardRecord(record) return end
 
@@ -1178,7 +1178,7 @@ function ScriptableDeviceComponentPS:HasPersonalLinkSlot() return end
 ---@return Bool
 function ScriptableDeviceComponentPS:HasPlaystyle(playstyle) return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return Bool
 function ScriptableDeviceComponentPS:HasQuickHackVulnerability(data) return end
 
@@ -1232,7 +1232,7 @@ function ScriptableDeviceComponentPS:InitializeStats() return end
 function ScriptableDeviceComponentPS:InitializeWrapper(container) return end
 
 ---@private
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Bool
 function ScriptableDeviceComponentPS:IsActionRPGRequirementDisabled(actionID) return end
 
@@ -2033,7 +2033,7 @@ function ScriptableDeviceComponentPS:RemoveAvailableSpiderbotActions(SpiderbotAc
 ---@return nil
 function ScriptableDeviceComponentPS:RemovePlaystyle(playstyle) return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return nil
 function ScriptableDeviceComponentPS:RemoveQuickHackVoulnerability(data) return end
 

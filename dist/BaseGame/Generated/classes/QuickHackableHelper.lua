@@ -56,7 +56,7 @@ function QuickHackableHelper.TranslateActionsIntoQuickSlotCommands(actions, comm
 function QuickHackableHelper.TryToCycleOverclockedState(player) return end
 
 ---@param playerRef PlayerPuppet
----@param targetRecordId TweakDBID
+---@param targetRecordId TweakDBID|string
 ---@param action ScriptableDeviceAction
 ---@param programItemID? gameItemID
 ---@return Bool

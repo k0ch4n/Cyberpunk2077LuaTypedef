@@ -163,7 +163,7 @@ function EquipmentSystem:Debug_SetupESSlotButton(slotIndex, areaStr, ownerGameOb
 function EquipmentSystem:Debug_SetupEquipmentSystemOverlay(dataOwner) return end
 
 ---@param player PlayerPuppet
----@param tdbid TweakDBID
+---@param tdbid TweakDBID|string
 ---@return nil
 function EquipmentSystem:EquipCyberwareByTDBID(player, tdbid) return end
 

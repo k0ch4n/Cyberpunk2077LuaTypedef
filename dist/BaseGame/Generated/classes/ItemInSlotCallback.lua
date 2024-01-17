@@ -10,17 +10,17 @@ ItemInSlotCallback = {}
 ---@return ItemInSlotCallback
 function ItemInSlotCallback.new(fields) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ItemInSlotCallback:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ItemInSlotCallback:OnItemEquippedVisual(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ItemInSlotCallback:OnItemUnequipped(slot, item) return end

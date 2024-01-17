@@ -16,8 +16,8 @@ function RemoveHitFlagFromAttackEffector.new(fields) return end
 function RemoveHitFlagFromAttackEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function RemoveHitFlagFromAttackEffector:Initialize(record, parentRecord) return end
 

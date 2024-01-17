@@ -693,7 +693,7 @@ function Device:AdjustInteractionComponent() return end
 
 ---@protected
 ---@param target entEntityID
----@param statusEffect TweakDBID
+---@param statusEffect TweakDBID|string
 ---@return nil
 function Device:ApplyActiveStatusEffect(target, statusEffect) return end
 
@@ -733,7 +733,7 @@ function Device:CanPassEngineeringSkillCheck() return end
 ---@return Bool
 function Device:CanPassHackingSkillCheck() return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return Bool
 function Device:CanPlayerUseQuickHackVulnerability(data) return end
 
@@ -1699,12 +1699,12 @@ function Device:SendSetIsSpiderbotInteractionOrderedEvent(value) return end
 function Device:SendSkillCheckInfo(display) return end
 
 ---@protected
----@param program TweakDBID
+---@param program TweakDBID|string
 ---@return nil
 function Device:SetActiveProgramToUploadOnNPC(program) return end
 
 ---@protected
----@param effect TweakDBID
+---@param effect TweakDBID|string
 ---@return nil
 function Device:SetActiveStatusEffect(effect) return end
 

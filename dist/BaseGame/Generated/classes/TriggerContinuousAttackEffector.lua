@@ -20,8 +20,8 @@ function TriggerContinuousAttackEffector.new(fields) return end
 function TriggerContinuousAttackEffector:ContinuousAction(owner, instigator) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function TriggerContinuousAttackEffector:Initialize(record, parentRecord) return end
 

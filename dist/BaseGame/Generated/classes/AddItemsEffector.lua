@@ -15,7 +15,7 @@ function AddItemsEffector.new(fields) return end
 function AddItemsEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function AddItemsEffector:Initialize(record, parentRecord) return end

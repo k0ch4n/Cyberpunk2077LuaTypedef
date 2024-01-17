@@ -12,7 +12,7 @@ function CyberwareUtility.new(fields) return end
 ---@return TweakDBID
 function CyberwareUtility.GetActiveCyberwareItem(player) return end
 
----@param item TweakDBID
+---@param item TweakDBID|string
 ---@return Float
 function CyberwareUtility.GetMaxActiveTimeFromTweak(item) return end
 

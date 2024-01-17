@@ -51,7 +51,7 @@ function gameTelemetryTelemetrySystem:LogDamageByVehicle(hitEvent) return end
 ---@return nil
 function gameTelemetryTelemetrySystem:LogDamageDealt(damage) return end
 
----@param addDevPointEffectorTDBID TweakDBID
+---@param addDevPointEffectorTDBID TweakDBID|string
 ---@param amount Int32
 ---@param type gamedataDevelopmentPointType
 ---@return nil
@@ -87,7 +87,7 @@ function gameTelemetryTelemetrySystem:LogHitDefense(defenseType) return end
 ---@return nil
 function gameTelemetryTelemetrySystem:LogInventoryMenuClosed() return end
 
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@param meanOfAcquisition String
 ---@return nil
 function gameTelemetryTelemetrySystem:LogItemAcquired(itemTDBID, meanOfAcquisition) return end
@@ -144,7 +144,7 @@ function gameTelemetryTelemetrySystem:LogNumberOfCombatants(numberOfCombatants) 
 
 ---@param modifiedItem gameTelemetryInventoryItem
 ---@param itemPart gameTelemetryInventoryItem
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function gameTelemetryTelemetrySystem:LogPartInstalled(modifiedItem, itemPart, slotID) return end
 
@@ -188,7 +188,7 @@ function gameTelemetryTelemetrySystem:LogPlayerVehicleImpact() return end
 function gameTelemetryTelemetrySystem:LogQuickHack(telemetryQuickHack) return end
 
 ---@param rewardName CName|string
----@param rewardTDBID TweakDBID
+---@param rewardTDBID TweakDBID|string
 ---@param rewardMoney Int32
 ---@return nil
 function gameTelemetryTelemetrySystem:LogRewardGiven(rewardName, rewardTDBID, rewardMoney) return end
@@ -207,7 +207,7 @@ function gameTelemetryTelemetrySystem:LogSpecialMovementPerformed(mvtType) retur
 ---@return nil
 function gameTelemetryTelemetrySystem:LogTakedown(takedownAction, target) return end
 
----@param vendorid TweakDBID
+---@param vendorid TweakDBID|string
 ---@param isOpening Bool
 ---@return nil
 function gameTelemetryTelemetrySystem:LogVendorMenuState(vendorid, isOpening) return end
@@ -220,7 +220,7 @@ function gameTelemetryTelemetrySystem:LogWardrobeUsed(slotsUsed) return end
 ---@return nil
 function gameTelemetryTelemetrySystem:LogWeaponAttackPerformed(weapon) return end
 
----@param xpRecordID TweakDBID
+---@param xpRecordID TweakDBID|string
 ---@param amount Int32
 ---@param type gamedataProficiencyType
 ---@return nil

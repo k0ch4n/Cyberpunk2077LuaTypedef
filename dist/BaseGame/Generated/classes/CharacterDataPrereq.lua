@@ -10,7 +10,7 @@ CharacterDataPrereq = {}
 function CharacterDataPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function CharacterDataPrereq:Initialize(recordID) return end
 

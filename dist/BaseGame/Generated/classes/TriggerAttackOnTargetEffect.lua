@@ -28,8 +28,8 @@ function TriggerAttackOnTargetEffect:ActionOn(owner) return end
 function TriggerAttackOnTargetEffect:GetAttackPosition(obj) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function TriggerAttackOnTargetEffect:Initialize(record, parentRecord) return end
 

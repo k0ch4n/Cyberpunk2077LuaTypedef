@@ -10,7 +10,7 @@ IsMountedByPreventionNPCPrereq = {}
 function IsMountedByPreventionNPCPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsMountedByPreventionNPCPrereq:Initialize(recordID) return end
 

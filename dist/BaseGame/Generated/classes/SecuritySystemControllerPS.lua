@@ -59,14 +59,14 @@ function SecuritySystemControllerPS:ActionThumbnailUI() return end
 
 ---@param entryLevel ESecurityAccessLevel
 ---@param password? CName|string
----@param keycard? TweakDBID
+---@param keycard? TweakDBID|string
 ---@return nil
 function SecuritySystemControllerPS:AddAccessLevelData(entryLevel, password, keycard) return end
 
 ---@private
 ---@param level SecurityAccessLevelEntry[]
 ---@param password? CName|string
----@param keycard? TweakDBID
+---@param keycard? TweakDBID|string
 ---@return nil
 function SecuritySystemControllerPS:AddAccessLevelEntry(level, password, keycard) return end
 
@@ -820,7 +820,7 @@ function SecuritySystemControllerPS:SetSecurityStateAndTriggerResponse(newState,
 function SecuritySystemControllerPS:SetSecuritySystemAttitude(desiredAttitude, input, isComingFromQuest) return end
 
 ---@protected
----@param newAttitude TweakDBID
+---@param newAttitude TweakDBID|string
 ---@return nil
 function SecuritySystemControllerPS:SetSecuritySystemAttitudeGroup(newAttitude) return end
 

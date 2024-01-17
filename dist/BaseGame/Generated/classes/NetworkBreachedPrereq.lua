@@ -10,7 +10,7 @@ NetworkBreachedPrereq = {}
 function NetworkBreachedPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NetworkBreachedPrereq:Initialize(recordID) return end
 

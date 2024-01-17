@@ -25,8 +25,8 @@ function ModifyStatPoolValueEffector:ActionOn(owner) return end
 function ModifyStatPoolValueEffector:GetStatPoolValue(owner, record, applicationTargetID) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyStatPoolValueEffector:Initialize(record, parentRecord) return end
 

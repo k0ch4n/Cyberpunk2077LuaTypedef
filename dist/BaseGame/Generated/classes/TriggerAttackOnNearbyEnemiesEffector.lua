@@ -41,8 +41,8 @@ function TriggerAttackOnNearbyEnemiesEffector:CanRaycastBetweenTwoPositions(spat
 function TriggerAttackOnNearbyEnemiesEffector:GetClosestEnemies(hitevent, threats) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function TriggerAttackOnNearbyEnemiesEffector:Initialize(record, parentRecord) return end
 

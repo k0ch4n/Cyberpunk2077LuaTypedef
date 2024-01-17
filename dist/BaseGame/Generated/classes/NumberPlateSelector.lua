@@ -12,6 +12,6 @@ function NumberPlateSelector.new(fields) return end
 ---@return TweakDBID
 function NumberPlateSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NumberPlateSelector:SetRecordID(recordID) return end

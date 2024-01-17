@@ -16,8 +16,8 @@ function InitiateCyberwareExplosionEffector.new(fields) return end
 function InitiateCyberwareExplosionEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function InitiateCyberwareExplosionEffector:Initialize(record, parentRecord) return end
 

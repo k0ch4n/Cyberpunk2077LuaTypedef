@@ -11,7 +11,7 @@ PerkPrereq = {}
 function PerkPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PerkPrereq:Initialize(recordID) return end
 

@@ -22,7 +22,7 @@ function StatPrereq.new(fields) return end
 function StatPrereq:GetObjectToCheck(context) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatPrereq:Initialize(recordID) return end
 

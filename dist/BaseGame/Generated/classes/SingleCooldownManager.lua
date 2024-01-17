@@ -67,7 +67,7 @@ function SingleCooldownManager:HideCooldownWidget() return end
 ---@return nil
 function SingleCooldownManager:Init(pool, grid) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return Bool
 function SingleCooldownManager:IsIDMatch(id) return end
 

@@ -22,7 +22,7 @@ function DropPointPackage:Record() return end
 ---@return nil
 function DropPointPackage:SetHolder(_holder) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function DropPointPackage:SetRecord(record) return end
 

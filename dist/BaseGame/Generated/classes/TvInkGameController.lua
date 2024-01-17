@@ -63,7 +63,7 @@ function TvInkGameController:GetColorFromArray(colorArray) return end
 function TvInkGameController:GetGlobalTVSlot() return end
 
 ---@private
----@param messageID TweakDBID
+---@param messageID TweakDBID|string
 ---@return gamedataScreenMessageData_Record
 function TvInkGameController:GetMessageRecord(messageID) return end
 
@@ -76,7 +76,7 @@ function TvInkGameController:GetOwner() return end
 function TvInkGameController:HideAllGlobalTVChannels() return end
 
 ---@private
----@param channelID TweakDBID
+---@param channelID TweakDBID|string
 ---@return nil
 function TvInkGameController:HideGlobalTVChannel(channelID) return end
 
@@ -126,7 +126,7 @@ function TvInkGameController:SelectChannel(value, force) return end
 
 ---@private
 ---@param imageWidget inkImageWidget
----@param textureID TweakDBID
+---@param textureID TweakDBID|string
 ---@return nil
 function TvInkGameController:SetBackgroundTexture(imageWidget, textureID) return end
 
@@ -155,7 +155,7 @@ function TvInkGameController:SetSecuredText(text) return end
 function TvInkGameController:SetupWidgets() return end
 
 ---@private
----@param channelID TweakDBID
+---@param channelID TweakDBID|string
 ---@return Bool
 function TvInkGameController:ShowGlobalTVChannel(channelID) return end
 

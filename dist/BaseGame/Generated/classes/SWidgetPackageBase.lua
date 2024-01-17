@@ -32,6 +32,6 @@ function SWidgetPackageBase.GetLibraryIDPackage(widgetDef, screenTypeDef, styleD
 ---@return redResourceReferenceScriptToken
 function SWidgetPackageBase.GetLibraryPath(widgetDef) return end
 
----@param widgetTweakDBID TweakDBID
+---@param widgetTweakDBID TweakDBID|string
 ---@return Bool, CName id, redResourceReferenceScriptToken path
 function SWidgetPackageBase.ResolveWidgetTweakDBData(widgetTweakDBID) return end

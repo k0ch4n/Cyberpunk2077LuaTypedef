@@ -45,7 +45,7 @@ function ItemInSlotPrereq:Evaluate(weaponEvolution) return end
 function ItemInSlotPrereq:Evaluate(itemID, tag) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ItemInSlotPrereq:Initialize(recordID) return end
 
@@ -53,7 +53,7 @@ function ItemInSlotPrereq:Initialize(recordID) return end
 ---@return Bool
 function ItemInSlotPrereq:IsFulfilled(context) return end
 
----@param tweakDBID TweakDBID
+---@param tweakDBID TweakDBID|string
 ---@param quality Int32
 ---@return Bool
 function ItemInSlotPrereq:IsGenericWeaponMod(tweakDBID, quality) return end

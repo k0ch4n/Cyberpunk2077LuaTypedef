@@ -284,7 +284,7 @@ function gameRPGManager.CanItemBeDisassembled(itemID) return end
 function gameRPGManager.CanItemBeDropped(puppet, itemData) return end
 
 ---@param data gameInventoryItemData
----@param slotId TweakDBID
+---@param slotId TweakDBID|string
 ---@return Bool
 function gameRPGManager.CanPartBeUnequipped(data, slotId) return end
 
@@ -410,12 +410,12 @@ function gameRPGManager.CyberwareHasSideUpgrade(itemID) return end
 ---@return Bool, gamedataItem_Record upgradeItemRecord
 function gameRPGManager.CyberwareHasUpgrade(itemID, currentQuality, desiredQuality) return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return nil
 function gameRPGManager.DecrementQuickHackBlackboard(actionID) return end
 
 ---@param player PlayerPuppet
----@param quickHackTweak TweakDBID
+---@param quickHackTweak TweakDBID|string
 ---@return Bool
 function gameRPGManager.DoesPlayerHaveQuickHack(player, quickHackTweak) return end
 
@@ -431,7 +431,7 @@ function gameRPGManager.DropManyItems(obj, items) return end
 function gameRPGManager.ExtractItemsOfEquipArea(type, input, output) return end
 
 ---@param puppet gameObject
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@param addToInv Bool
 ---@return nil
 function gameRPGManager.ForceEquipItemOnPlayer(puppet, itemTDBID, addToInv) return end
@@ -452,7 +452,7 @@ function gameRPGManager.ForceEquipStrongArms(player, instantStatChange) return e
 function gameRPGManager.ForceItemTier(obj, itemData, forcedQuality) return end
 
 ---@param puppet gameObject
----@param slotTDBID TweakDBID
+---@param slotTDBID TweakDBID|string
 ---@param removeItem Bool
 ---@return nil
 function gameRPGManager.ForceUnequipItemFromPlayer(puppet, slotTDBID, removeItem) return end
@@ -547,7 +547,7 @@ function gameRPGManager.GetCyberwareUpgradeData(owner, itemData, upgradeItemReco
 ---@private
 ---@param owner gameObject
 ---@param upgradeItemRecord gamedataItem_Record
----@param statsShardTDBID TweakDBID
+---@param statsShardTDBID TweakDBID|string
 ---@param seed Uint32
 ---@param offset Int32
 ---@return gameItemData
@@ -594,7 +594,7 @@ function gameRPGManager.GetItemActions(itemID) return end
 function gameRPGManager.GetItemCategory(itemID) return end
 
 ---@param object gameObject
----@param item TweakDBID
+---@param item TweakDBID|string
 ---@return gameItemID
 function gameRPGManager.GetItemFromInventory(object, item) return end
 
@@ -711,7 +711,7 @@ function gameRPGManager.GetPlayerQuickHackList(player) return end
 ---@return PlayerQuickhackData[]
 function gameRPGManager.GetPlayerQuickHackListWithQuality(player) return end
 
----@param contentAssignmentID TweakDBID
+---@param contentAssignmentID TweakDBID|string
 ---@return Float
 function gameRPGManager.GetPowerLevelFromContentAssignment(contentAssignmentID) return end
 
@@ -777,20 +777,20 @@ function gameRPGManager.GetWeaponAmmoTDBID(weaponID) return end
 ---@return gamedataWeaponEvolution
 function gameRPGManager.GetWeaponEvolution(itemID) return end
 
----@param rewardID TweakDBID
+---@param rewardID TweakDBID|string
 ---@param target? gameStatsObjectID
 ---@param moneyMultiplier? Float
 ---@return nil
 function gameRPGManager.GiveReward(rewardID, target, moneyMultiplier) return end
 
----@param rewardID TweakDBID
+---@param rewardID TweakDBID|string
 ---@param amount Int32
 ---@param target? gameStatsObjectID
 ---@param moneyMultiplier? Float
 ---@return nil
 function gameRPGManager.GiveReward(rewardID, amount, target, moneyMultiplier) return end
 
----@param rewardID TweakDBID
+---@param rewardID TweakDBID|string
 ---@param scavengeTargetEntityID entEntityID
 ---@return nil
 function gameRPGManager.GiveScavengeReward(rewardID, scavengeTargetEntityID) return end
@@ -811,7 +811,7 @@ function gameRPGManager.HasDownloadFundsAction(itemID) return end
 function gameRPGManager.HasItem(obj, id) return end
 
 ---@param obj gameObject
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return Bool
 function gameRPGManager.HasItem(obj, id) return end
 
@@ -828,7 +828,7 @@ function gameRPGManager.HasStatFlag(owner, flag) return end
 ---@return nil
 function gameRPGManager.HealPuppetAfterQuickhack(executor) return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return nil
 function gameRPGManager.IncrementQuickHackBlackboard(actionID) return end
 
@@ -858,7 +858,7 @@ function gameRPGManager.IsDamageStat(stat) return end
 ---@return Bool
 function gameRPGManager.IsInventoryEmpty(object) return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return Bool
 function gameRPGManager.IsItemAdaptiveStemCells(itemID) return end
 
@@ -933,7 +933,7 @@ function gameRPGManager.IsItemWeapon(itemID) return end
 function gameRPGManager.IsMuzzleAttachment(type) return end
 
 ---@private
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return Bool
 function gameRPGManager.IsNonModifableSlot(slot) return end
 
@@ -977,7 +977,7 @@ function gameRPGManager.ItemQualityNameToValue(q) return end
 
 ---@param instigator gameObject
 ---@param source gameObject
----@param attackName TweakDBID
+---@param attackName TweakDBID|string
 ---@param position? Vector4
 ---@param hitFlags? SHitFlag[]
 ---@param target? gameObject

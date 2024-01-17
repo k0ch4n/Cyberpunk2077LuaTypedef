@@ -10,7 +10,7 @@ PlayerDoesntHaveQuickhackPrereq = {}
 function PlayerDoesntHaveQuickhackPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PlayerDoesntHaveQuickhackPrereq:Initialize(recordID) return end
 

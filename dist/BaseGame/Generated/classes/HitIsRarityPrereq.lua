@@ -11,6 +11,6 @@ HitIsRarityPrereq = {}
 function HitIsRarityPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitIsRarityPrereq:Initialize(recordID) return end

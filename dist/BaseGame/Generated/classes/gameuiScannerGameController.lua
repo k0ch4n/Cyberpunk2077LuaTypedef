@@ -105,7 +105,7 @@ function gameuiScannerGameController:OnWeaponSwap(value) return end
 ---@private
 ---@param cat CName|string
 ---@param entry CName|string
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function gameuiScannerGameController:AddQuestData(cat, entry, recordID) return end
 

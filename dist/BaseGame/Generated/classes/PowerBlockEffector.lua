@@ -15,8 +15,8 @@ function PowerBlockEffector.new(fields) return end
 function PowerBlockEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PowerBlockEffector:Initialize(record, parentRecord) return end
 

@@ -13,6 +13,6 @@ function AttackSubtypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function AttackSubtypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function AttackSubtypeHitPrereqCondition:SetData(recordID) return end

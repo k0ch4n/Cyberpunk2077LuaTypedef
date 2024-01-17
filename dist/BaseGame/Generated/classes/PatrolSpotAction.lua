@@ -13,7 +13,7 @@ function PatrolSpotAction.new(fields) return end
 function PatrolSpotAction:GetFriendlyName() return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param smartCompositeID TweakDBID
+---@param smartCompositeID TweakDBID|string
 ---@param smartCompositeDebugName String
 ---@return Bool, gamedataAIActionSmartComposite_Record smartCompositeRecord
 function PatrolSpotAction:GetSmartCompositeRecord(context, smartCompositeID, smartCompositeDebugName) return end

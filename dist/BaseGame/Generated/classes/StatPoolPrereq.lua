@@ -37,7 +37,7 @@ function StatPoolPrereq:GetStatsObjectID(owner) return end
 function StatPoolPrereq:GetValueToCheck(state) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatPoolPrereq:Initialize(recordID) return end
 

@@ -30,8 +30,8 @@ function PlaySFXEffector:ActionOn(owner) return end
 function PlaySFXEffector:Deactivate() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PlaySFXEffector:Initialize(record, parentRecord) return end
 

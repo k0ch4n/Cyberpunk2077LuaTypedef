@@ -86,6 +86,6 @@ function AIActionParams.PushBackNPCState(npcStates, stateName) return end
 ---@return nil
 function AIActionParams.PushBackPlayerState(playerStates, stateName) return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Bool
 function AIActionParams.TempGetIsValid(actionID) return end

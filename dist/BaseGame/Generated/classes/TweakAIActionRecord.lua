@@ -5,7 +5,7 @@
 TweakAIActionRecord = {}
 
 ---@param context AIbehaviorScriptExecutionContext
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord
 function TweakAIActionRecord.GetActionRecord(context, actionID, actionDebugName) return end
@@ -22,12 +22,12 @@ function TweakAIActionRecord.GetActionRecordFromSelector(context, selectorRecord
 ---@return Bool, gamedataAIAction_Record actionRecord, Int32 sequenceIterator, Bool shouldCallAgain
 function TweakAIActionRecord.GetActionRecordFromSequence(context, sequenceRecord, actionDebugName) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@param debugStringName String
 ---@return Bool
 function TweakAIActionRecord.GetDebugActionNameFromRecord(record, debugStringName) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@param nodeName String
 ---@return String
 function TweakAIActionRecord.GetFriendlyName(record, nodeName) return end
@@ -37,24 +37,24 @@ function TweakAIActionRecord.GetFriendlyName(record, nodeName) return end
 function TweakAIActionRecord.GetHeldItemType(context) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param selectorID TweakDBID
+---@param selectorID TweakDBID|string
 ---@param selectorDebugName String
 ---@return Bool, gamedataAIActionSelector_Record selectorRecord
 function TweakAIActionRecord.GetSelectorRecord(context, selectorID, selectorDebugName) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param sequenceID TweakDBID
+---@param sequenceID TweakDBID|string
 ---@param sequenceDebugName String
 ---@return Bool, gamedataAIActionSequence_Record sequenceRecord
 function TweakAIActionRecord.GetSequenceRecord(context, sequenceID, sequenceDebugName) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param smartCompositeID TweakDBID
+---@param smartCompositeID TweakDBID|string
 ---@param smartCompositeDebugName String
 ---@return Bool, gamedataAIActionSmartComposite_Record smartCompositeRecord
 function TweakAIActionRecord.GetSmartCompositeRecord(context, smartCompositeID, smartCompositeDebugName) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return Bool
 function TweakAIActionRecord.IsArchetypeAction(record) return end
 

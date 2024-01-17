@@ -13,7 +13,7 @@ ActionTargetInDistancePrereq = {}
 function ActionTargetInDistancePrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ActionTargetInDistancePrereq:Initialize(recordID) return end
 

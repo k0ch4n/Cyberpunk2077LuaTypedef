@@ -12,6 +12,6 @@ function MetroSignSelector.new(fields) return end
 ---@return TweakDBID
 function MetroSignSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function MetroSignSelector:SetRecordID(recordID) return end

@@ -20,8 +20,8 @@ function OvershieldEffectorBase.new(fields) return end
 function OvershieldEffectorBase:ContinuousAction(owner, instigator) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function OvershieldEffectorBase:Initialize(record, parentRecord) return end
 

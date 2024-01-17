@@ -155,7 +155,7 @@ function InventoryDataManagerV2.IsItemBlacklisted(itemData, forceShowCurrencyOnH
 ---@return Bool
 function InventoryDataManagerV2.IsItemCraftingMaterial(itemData) return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function InventoryDataManagerV2.IsProgramSlot(slotID) return end
 
@@ -302,7 +302,7 @@ function InventoryDataManagerV2:GetAmmoCountForAllAmmoTypes() return end
 ---@return Int32
 function InventoryDataManagerV2:GetAmmoForWeaponType(itemData) return end
 
----@param targetItem TweakDBID
+---@param targetItem TweakDBID|string
 ---@return TweakDBID
 function InventoryDataManagerV2:GetAmmoTypeForWeapon(targetItem) return end
 
@@ -317,8 +317,8 @@ function InventoryDataManagerV2:GetAttachements(owner, itemId, itemData, attachm
 
 ---@param owner gameObject
 ---@param itemData gameItemData
----@param usedSlots TweakDBID[]
----@param emptySlots TweakDBID[]
+---@param usedSlots TweakDBID[]|string[]
+---@param emptySlots TweakDBID[]|string[]
 ---@param mods MinimalItemTooltipModData[]
 ---@param dedicatedMods MinimalItemTooltipModAttachmentData[]
 ---@return nil
@@ -498,7 +498,7 @@ function InventoryDataManagerV2:GetGrenadeRange(grenadeRecord) return end
 ---@return InventoryTooltiData_GrenadeData
 function InventoryDataManagerV2:GetGrenadeTooltipData(tooltipItemData) return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@param itemData gameItemData
 ---@return InventoryTooltiData_GrenadeData
 function InventoryDataManagerV2:GetGrenadeTooltipData(itemID, itemData) return end
@@ -508,7 +508,7 @@ function InventoryDataManagerV2:GetGrenadeTooltipData(itemID, itemData) return e
 ---@return Float
 function InventoryDataManagerV2:GetGrenadeTotalDamageFromStats(itemData) return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return EGrenadeType
 function InventoryDataManagerV2:GetGrenadeType(itemID) return end
 
@@ -588,7 +588,7 @@ function InventoryDataManagerV2:GetItemDataFromIDInLoadout(id) return end
 ---@return gameInventoryItemData
 function InventoryDataManagerV2:GetItemFromRecord(tweakPath) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return gameInventoryItemData
 function InventoryDataManagerV2:GetItemFromRecord(id) return end
 
@@ -667,7 +667,7 @@ function InventoryDataManagerV2:GetPartInventoryItemData(owner, innerItemData, p
 ---@return Int32
 function InventoryDataManagerV2:GetPlayerAmmoCount(itemRecord) return end
 
----@param targetItem TweakDBID
+---@param targetItem TweakDBID|string
 ---@return Int32
 function InventoryDataManagerV2:GetPlayerAmmoCount(targetItem) return end
 
@@ -750,33 +750,33 @@ function InventoryDataManagerV2:GetPlayerInventoryItemsExcludingCraftingMaterial
 ---@return gameItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryItemsExcludingLoadout() return end
 
----@param slotId TweakDBID
+---@param slotId TweakDBID|string
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryParts(slotId) return end
 
 ---@param item gameItemID
----@param slotIDs TweakDBID[]
+---@param slotIDs TweakDBID[]|string[]
 ---@return gameItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryPartsDataForItem(item, slotIDs) return end
 
 ---@param item gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryPartsForItem(item, slotID) return end
 
 ---@param item gameItemID
----@param slotIDs TweakDBID[]
+---@param slotIDs TweakDBID[]|string[]
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerInventoryPartsForItem(item, slotIDs) return end
 
 ---@param item gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param outputItems gameInventoryItemData[]
 ---@return nil
 function InventoryDataManagerV2:GetPlayerInventoryPartsForItemRef(item, slotID, outputItems) return end
 
 ---@param item gameItemID
----@param slotIDs TweakDBID[]
+---@param slotIDs TweakDBID[]|string[]
 ---@param outputItems gameInventoryItemData[]
 ---@return nil
 function InventoryDataManagerV2:GetPlayerInventoryPartsForItemRef(item, slotIDs, outputItems) return end
@@ -806,7 +806,7 @@ function InventoryDataManagerV2:GetPlayerItems() return end
 function InventoryDataManagerV2:GetPlayerItemsByType(type, skipEquippedItems, additionalTagFilters, filteredItems) return end
 
 ---@param item? gameInventoryItemData
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param skipEquipped? Bool
@@ -825,7 +825,7 @@ function InventoryDataManagerV2:GetPlayerItemsIDsByType(type, items) return end
 function InventoryDataManagerV2:GetPlayerItemsIDsByTypes(types, items) return end
 
 ---@param item? gameItemID
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param skipEquipped? Bool
@@ -841,12 +841,12 @@ function InventoryDataManagerV2:GetPlayerLevel() return end
 function InventoryDataManagerV2:GetPlayerOtherStats(statsList) return end
 
 ---@private
----@param slotIDs TweakDBID[]
+---@param slotIDs TweakDBID[]|string[]
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerPartsInventoryData(slotIDs) return end
 
 ---@private
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetPlayerPartsInventoryData(slotID) return end
 
@@ -923,7 +923,7 @@ function InventoryDataManagerV2:GetProgramComparisionTooltipsData(equippedItem, 
 ---@return gamedataObjectAction_Record
 function InventoryDataManagerV2:GetQuickhackBaseObjectActionRecord() return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return InventoryTooltipData_QuickhackData
 function InventoryDataManagerV2:GetQuickhackTooltipData(itemID) return end
 
@@ -956,7 +956,7 @@ function InventoryDataManagerV2:GetSellPrice(itemID) return end
 function InventoryDataManagerV2:GetSellPrice(itemData) return end
 
 ---@private
----@param mapPath TweakDBID
+---@param mapPath TweakDBID|string
 ---@param statProvider StatProvider
 ---@param primeStatsList gameStatViewData[]
 ---@param secondStatsList gameStatViewData[]
@@ -965,7 +965,7 @@ function InventoryDataManagerV2:GetSellPrice(itemData) return end
 function InventoryDataManagerV2:GetStatsList(mapPath, statProvider, primeStatsList, secondStatsList, compareWithData) return end
 
 ---@private
----@param mapPath TweakDBID
+---@param mapPath TweakDBID|string
 ---@param itemData gameInnerItemData
 ---@param primeStatsList gameStatViewData[]
 ---@param secondStatsList gameStatViewData[]
@@ -974,7 +974,7 @@ function InventoryDataManagerV2:GetStatsList(mapPath, statProvider, primeStatsLi
 function InventoryDataManagerV2:GetStatsList(mapPath, itemData, primeStatsList, secondStatsList, compareWithData) return end
 
 ---@private
----@param mapPath TweakDBID
+---@param mapPath TweakDBID|string
 ---@param itemData gameInventoryItemData
 ---@param primeStatsList gameStatViewData[]
 ---@param secondStatsList gameStatViewData[]
@@ -983,7 +983,7 @@ function InventoryDataManagerV2:GetStatsList(mapPath, itemData, primeStatsList, 
 function InventoryDataManagerV2:GetStatsList(mapPath, itemData, primeStatsList, secondStatsList, compareWithData) return end
 
 ---@private
----@param mapPath TweakDBID
+---@param mapPath TweakDBID|string
 ---@param itemData gameItemData
 ---@param primeStatsList gameStatViewData[]
 ---@param secondStatsList gameStatViewData[]
@@ -1071,18 +1071,18 @@ function InventoryDataManagerV2:Initialize(player, owner) return end
 
 ---@param itemData gameInventoryItemData
 ---@param partID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryDataManagerV2:InstallPart(itemData, partID, slotID) return end
 
 ---@param itemId gameItemID
 ---@param partId gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryDataManagerV2:InstallPart(itemId, partId, slotID) return end
 
 ---@private
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function InventoryDataManagerV2:IsAttachmentDedicated(slotID) return end
 
@@ -1115,7 +1115,7 @@ function InventoryDataManagerV2:MarkToRebuild() return end
 
 ---@private
 ---@param staticData gamedataItem_Record
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function InventoryDataManagerV2:PlacementSlotsContains(staticData, slotID) return end
 
@@ -1195,7 +1195,7 @@ function InventoryDataManagerV2:RemoveInventoryItemFromCache(itemId) return end
 
 ---@private
 ---@param itemId gameItemID
----@param slotId TweakDBID
+---@param slotId TweakDBID|string
 ---@return nil
 function InventoryDataManagerV2:RemovePart(itemId, slotId) return end
 
@@ -1248,7 +1248,7 @@ function InventoryDataManagerV2:StatModifiersExcept(statModifiers, except) retur
 ---@private
 ---@param itemId gameItemID
 ---@param partId gameItemID
----@param slotId TweakDBID
+---@param slotId TweakDBID|string
 ---@return nil
 function InventoryDataManagerV2:SwapPart(itemId, partId, slotId) return end
 

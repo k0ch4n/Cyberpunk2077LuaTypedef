@@ -274,7 +274,7 @@ function InventoryItemModeLogicController:EquipItem(itemData, slotIndex) return 
 
 ---@private
 ---@param itemData gameInventoryItemData
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:EquipPart(itemData, slotID) return end
 
@@ -364,7 +364,7 @@ function InventoryItemModeLogicController:IsItemCyberware(itemType) return end
 ---@private
 ---@param itemData gameInventoryItemData
 ---@param partItemData gameInventoryItemData
----@param targetSlot TweakDBID
+---@param targetSlot TweakDBID|string
 ---@return Bool
 function InventoryItemModeLogicController:IsMatchingSlot(itemData, partItemData, targetSlot) return end
 
@@ -522,14 +522,14 @@ function InventoryItemModeLogicController:ShowTooltipsForItemData(equippedItem, 
 ---@private
 ---@param modifiedItem gameInventoryItemData
 ---@param itemPart gameInventoryItemData
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) return end
 
 ---@private
 ---@param modifiedItem gameTelemetryInventoryItem
 ---@param itemPart gameTelemetryInventoryItem
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) return end
 
@@ -541,7 +541,7 @@ function InventoryItemModeLogicController:UnequipItem(controller, itemData) retu
 
 ---@private
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:UninstallMod(itemID, slotID) return end
 

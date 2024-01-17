@@ -11,7 +11,7 @@ NPCRarityPrereq = {}
 function NPCRarityPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCRarityPrereq:Initialize(recordID) return end
 

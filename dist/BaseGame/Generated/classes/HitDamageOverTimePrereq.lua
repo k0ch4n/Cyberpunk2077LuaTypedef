@@ -10,6 +10,6 @@ HitDamageOverTimePrereq = {}
 function HitDamageOverTimePrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitDamageOverTimePrereq:Initialize(recordID) return end

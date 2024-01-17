@@ -19,8 +19,8 @@ function ModifyDamageWithStatPoolEffector.new(fields) return end
 function ModifyDamageWithStatPoolEffector:GetRefObject(hitEvent) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyDamageWithStatPoolEffector:Initialize(record, parentRecord) return end
 

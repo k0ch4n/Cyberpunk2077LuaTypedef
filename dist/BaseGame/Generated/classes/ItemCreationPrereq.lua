@@ -13,7 +13,7 @@ ItemCreationPrereq = {}
 function ItemCreationPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ItemCreationPrereq:Initialize(recordID) return end
 

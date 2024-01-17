@@ -13,7 +13,7 @@ function FirstEquipSystem.new(fields) return end
 ---@return FirstEquipSystem
 function FirstEquipSystem.GetInstance(owner) return end
 
----@param weaponID TweakDBID
+---@param weaponID TweakDBID|string
 ---@return Bool
 function FirstEquipSystem:HasPlayedFirstEquip(weaponID) return end
 

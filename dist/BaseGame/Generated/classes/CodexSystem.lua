@@ -18,30 +18,30 @@ function CodexSystem:AddCodexRecord(record) return end
 ---@return SCodexRecord[]
 function CodexSystem:GetCodex() return end
 
----@param recordTweak TweakDBID
+---@param recordTweak TweakDBID|string
 ---@return Int32
 function CodexSystem:GetCodexRecordIndex(recordTweak) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param partName CName|string
 ---@return String
 function CodexSystem:GetCodexRecordPartContent(recordID, partName) return end
 
----@param recordTweak TweakDBID
+---@param recordTweak TweakDBID|string
 ---@return SCodexRecordPart[]
 function CodexSystem:GetCodexRecordParts(recordTweak) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return Bool
 function CodexSystem:IsRecordLocked(recordID) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param partName CName|string
 ---@return Bool
 function CodexSystem:IsRecordPartLocked(recordID, partName) return end
 
 ---@private
----@param recordTweak TweakDBID
+---@param recordTweak TweakDBID|string
 ---@return nil
 function CodexSystem:LockRecord(recordTweak) return end
 
@@ -74,13 +74,13 @@ function CodexSystem:OnUnlockCodexPartRequest(request) return end
 function CodexSystem:SendCallback() return end
 
 ---@private
----@param recordTweak TweakDBID
+---@param recordTweak TweakDBID|string
 ---@param partName CName|string
 ---@return nil
 function CodexSystem:UnlockCodexPart(recordTweak, partName) return end
 
 ---@private
----@param recordTweak TweakDBID
+---@param recordTweak TweakDBID|string
 ---@return nil
 function CodexSystem:UnlockRecord(recordTweak) return end
 

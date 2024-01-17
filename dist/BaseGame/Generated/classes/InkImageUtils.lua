@@ -10,26 +10,26 @@ function InkImageUtils.new(fields) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidgetReference
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@return nil
 function InkImageUtils.RequestAvatarOrUnknown(controller, target, iconID) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidgetReference
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@return nil
 function InkImageUtils.RequestAvatarOrUnknown(controller, target, iconID) return end
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidget
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidget
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
@@ -71,14 +71,14 @@ function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunct
 
 ---@param controller inkIWidgetController
 ---@param target inkImageWidgetReference
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end
 
 ---@param controller inkWidgetLogicController
 ---@param target inkImageWidgetReference
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@param callbackFunction? CName|string
 ---@return nil
 function InkImageUtils.RequestSetImage(controller, target, iconID, callbackFunction) return end

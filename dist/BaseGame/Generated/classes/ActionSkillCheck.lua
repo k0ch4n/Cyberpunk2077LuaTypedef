@@ -27,7 +27,7 @@ function ActionSkillCheck:AvailableOnUnpowered() return end
 ---@param requester gameObject
 ---@param actions? gamedeviceAction[]
 ---@param alternativeMainChoiceRecord? String
----@param alternativeMainChoiceRecordID? TweakDBID
+---@param alternativeMainChoiceRecordID? TweakDBID|string
 ---@return nil
 function ActionSkillCheck:CreateInteraction(requester, actions, alternativeMainChoiceRecord, alternativeMainChoiceRecordID) return end
 

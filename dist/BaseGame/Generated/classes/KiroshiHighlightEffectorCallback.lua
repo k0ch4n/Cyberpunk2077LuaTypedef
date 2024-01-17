@@ -9,12 +9,12 @@ KiroshiHighlightEffectorCallback = {}
 ---@return KiroshiHighlightEffectorCallback
 function KiroshiHighlightEffectorCallback.new(fields) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function KiroshiHighlightEffectorCallback:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function KiroshiHighlightEffectorCallback:OnItemUnequipped(slot, item) return end

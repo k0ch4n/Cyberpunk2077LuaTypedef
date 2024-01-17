@@ -124,7 +124,7 @@ function gamedamageAttackData.IsWhip(attackType) return end
 ---@return nil
 function gamedamageAttackData:AddFlag(flag, sourceName) return end
 
----@param effect TweakDBID
+---@param effect TweakDBID|string
 ---@param stacks Float
 ---@return nil
 function gamedamageAttackData:AddStatusEffect(effect, stacks) return end

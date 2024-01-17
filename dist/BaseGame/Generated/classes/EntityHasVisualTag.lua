@@ -11,7 +11,7 @@ EntityHasVisualTag = {}
 function EntityHasVisualTag.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function EntityHasVisualTag:Initialize(recordID) return end
 

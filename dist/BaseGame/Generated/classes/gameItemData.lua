@@ -21,7 +21,7 @@ function gameItemData:GetEmptySlotsOnItem() return end
 ---@return gameItemID
 function gameItemData:GetID() return end
 
----@param slotId TweakDBID
+---@param slotId TweakDBID|string
 ---@return nil, gameInnerItemData part
 function gameItemData:GetItemPart(slotId) return end
 
@@ -66,15 +66,15 @@ function gameItemData:GetVariant() return end
 ---@return Bool
 function gameItemData:HasAnyOfTags(tags) return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameItemData:HasAttachmentSlot(slotID) return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameItemData:HasPartInSlot(slotID) return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameItemData:HasPlacementSlot(slotID) return end
 

@@ -38,12 +38,12 @@ function ClothingSetIconsPopup:AddButtonHints(actionName, label) return end
 
 ---@private
 ---@param success Bool
----@param iconID? TweakDBID
+---@param iconID? TweakDBID|string
 ---@return nil
 function ClothingSetIconsPopup:Close(success, iconID) return end
 
 ---@private
----@param iconIDs TweakDBID[]
+---@param iconIDs TweakDBID[]|string[]
 ---@return nil
 function ClothingSetIconsPopup:FillIconGrid(iconIDs) return end
 

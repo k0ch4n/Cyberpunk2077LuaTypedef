@@ -17,7 +17,7 @@ function NPCHitReactionTypePrereq.new(fields) return end
 function NPCHitReactionTypePrereq:EvaluateCondition(puppet, hitType) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCHitReactionTypePrereq:Initialize(recordID) return end
 

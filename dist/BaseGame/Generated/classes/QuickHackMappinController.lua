@@ -61,7 +61,7 @@ function QuickHackMappinController:GetVisualData() return end
 
 ---@private
 ---@param currImage inkImageWidgetReference
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@return nil
 function QuickHackMappinController:HelperSetIcon(currImage, iconID) return end
 

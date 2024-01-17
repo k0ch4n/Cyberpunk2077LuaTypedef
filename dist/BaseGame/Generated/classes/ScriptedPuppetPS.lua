@@ -118,7 +118,7 @@ function ScriptedPuppetPS:DrawBetweenEntities(shouldDraw, focusModeOnly, fxResou
 function ScriptedPuppetPS:ExecutePSAction(action, persistentState) return end
 
 ---@private
----@param programs TweakDBID[]
+---@param programs TweakDBID[]|string[]
 ---@return nil
 function ScriptedPuppetPS:FilterRedundantPrograms(programs) return end
 
@@ -259,7 +259,7 @@ function ScriptedPuppetPS:Initialize() return end
 ---@return nil
 function ScriptedPuppetPS:InitializeCooldownStorage() return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Bool
 function ScriptedPuppetPS:IsActionReady(actionID) return end
 
@@ -284,7 +284,7 @@ function ScriptedPuppetPS:IsPreventionNotified() return end
 ---@return Bool
 function ScriptedPuppetPS:IsQuickHacksExposed() return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return nil
 function ScriptedPuppetPS:ManuallyTriggerActionCooldown(actionID) return end
 
@@ -347,7 +347,7 @@ function ScriptedPuppetPS:PushChoicesToInteractionComponent(interactionComponent
 ---@return nil
 function ScriptedPuppetPS:RemoveActiveContext(context) return end
 
----@param preset TweakDBID
+---@param preset TweakDBID|string
 ---@return nil
 function ScriptedPuppetPS:SetForcedScannerPreset(preset) return end
 
@@ -380,7 +380,7 @@ function ScriptedPuppetPS:SetIsIncapacitated(isIncapacitated) return end
 ---@return nil
 function ScriptedPuppetPS:SetIsPreventionNotified(isPreventionNotified) return end
 
----@param presetID TweakDBID
+---@param presetID TweakDBID|string
 ---@return nil
 function ScriptedPuppetPS:SetReactionPresetID(presetID) return end
 
@@ -392,8 +392,8 @@ function ScriptedPuppetPS:SetRevealedInNetworkPing(wasRevealed) return end
 ---@return nil
 function ScriptedPuppetPS:SetWasIncapacitated(wasIncapacitated) return end
 
----@param bountyID TweakDBID
----@param transgressions TweakDBID[]
+---@param bountyID TweakDBID|string
+---@param transgressions TweakDBID[]|string[]
 ---@return nil
 function ScriptedPuppetPS:StoreBountyData(bountyID, transgressions) return end
 

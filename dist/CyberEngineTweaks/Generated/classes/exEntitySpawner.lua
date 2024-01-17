@@ -15,11 +15,11 @@ function exEntitySpawner.Despawn(entity) return end
 ---@param entityPath CResource
 ---@param worldTransform WorldTransform
 ---@param appearance? CName|string
----@param recordID? TweakDBID
+---@param recordID? TweakDBID|string
 ---@return entEntityID
 function exEntitySpawner.Spawn(entityPath, worldTransform, appearance, recordID) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param worldTransform WorldTransform
 ---@param appearance? CName|string
 ---@return entEntityID

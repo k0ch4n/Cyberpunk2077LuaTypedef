@@ -21,6 +21,6 @@ function gamePhotoModeSystem:IsExitLocked() return end
 ---@return Bool
 function gamePhotoModeSystem:IsPhotoModeActive() return end
 
----@param stickerID TweakDBID
+---@param stickerID TweakDBID|string
 ---@return Bool
 function gamePhotoModeSystem:UnlockPhotoModeItem(stickerID) return end

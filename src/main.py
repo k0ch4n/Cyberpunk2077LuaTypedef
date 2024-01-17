@@ -265,8 +265,8 @@ class Annotation:
                 types.append(f'{param["type"]} {param["name"]}')
                 continue
 
-            if re.match(r"CName(\[\])*", param["type"]):
-                param["type"] += "|" + param["type"].replace("CName", "string")
+            if re.match(r"(CName|TweakDBID)(\[\])*", param["type"]):
+                param["type"] += "|" + re.sub(r"(CName|TweakDBID)", "string", param["type"])
 
             self.add_param(param["name"], param["type"], param["flags"])
             param_names.append(param["name"])

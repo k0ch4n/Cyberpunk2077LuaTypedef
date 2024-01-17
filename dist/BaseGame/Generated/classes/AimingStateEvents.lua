@@ -98,12 +98,12 @@ function AimingStateEvents:OnEnter(stateContext, scriptInterface) return end
 ---@return nil
 function AimingStateEvents:OnExit(stateContext, scriptInterface) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function AimingStateEvents:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function AimingStateEvents:OnItemUnequipped(slot, item) return end

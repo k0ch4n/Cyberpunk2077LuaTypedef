@@ -15,8 +15,8 @@ function SystemCollapseModifyRevealBarEffector.new(fields) return end
 function SystemCollapseModifyRevealBarEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SystemCollapseModifyRevealBarEffector:Initialize(record, parentRecord) return end
 

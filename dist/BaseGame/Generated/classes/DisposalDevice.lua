@@ -152,7 +152,7 @@ function DisposalDevice:DeterminGameplayRoleMappinVisuaState(data) return end
 function DisposalDevice:Distract(index) return end
 
 ---@private
----@param damageType TweakDBID
+---@param damageType TweakDBID|string
 ---@return nil
 function DisposalDevice:DoAttack(damageType) return end
 
@@ -167,7 +167,7 @@ function DisposalDevice:EnableLethalTakedownComponents() return end
 function DisposalDevice:Explode(index, instigator) return end
 
 ---@protected
----@param attackTDBID TweakDBID
+---@param attackTDBID TweakDBID|string
 ---@return Float
 function DisposalDevice:GetAttackRange(attackTDBID) return end
 

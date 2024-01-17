@@ -8,15 +8,15 @@ gameLevelAssignmentSystem = {}
 ---@return gameLevelAssignmentSystem
 function gameLevelAssignmentSystem.new(fields) return end
 
----@param levelAssignmentTDBID TweakDBID
+---@param levelAssignmentTDBID TweakDBID|string
 ---@return Int32
 function gameLevelAssignmentSystem:GetLevelAssignment(levelAssignmentTDBID) return end
 
----@param levelAssignmentTDBID TweakDBID
+---@param levelAssignmentTDBID TweakDBID|string
 ---@return Bool
 function gameLevelAssignmentSystem:IsLocked(levelAssignmentTDBID) return end
 
----@param levelAssignmentTDBID TweakDBID
+---@param levelAssignmentTDBID TweakDBID|string
 ---@return nil
 function gameLevelAssignmentSystem:LockLevelAssignment(levelAssignmentTDBID) return end
 

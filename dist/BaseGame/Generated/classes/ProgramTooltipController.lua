@@ -120,7 +120,7 @@ function ProgramTooltipController:UpdateDamage() return end
 function ProgramTooltipController:UpdateDescription() return end
 
 ---@private
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@param targetWidget inkWidgetReference
 ---@param key String
 ---@param value Float

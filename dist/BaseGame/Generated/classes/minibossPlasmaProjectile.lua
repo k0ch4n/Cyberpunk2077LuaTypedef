@@ -60,7 +60,7 @@ function minibossPlasmaProjectile:OnTick(eventData) return end
 function minibossPlasmaProjectile:DealDamage(eventData) return end
 
 ---@private
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function minibossPlasmaProjectile:Explode(record) return end
 

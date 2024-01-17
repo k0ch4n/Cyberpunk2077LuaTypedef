@@ -127,14 +127,14 @@ function ItemActionsHelper.PerformItemAction(executor, itemID) return end
 
 ---@param executor gameObject
 ---@param itemData gameItemData
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@param fromInventory Bool
 ---@return Bool
 function ItemActionsHelper.ProcessItemAction(executor, itemData, actionID, fromInventory) return end
 
 ---@param executor gameObject
 ---@param itemData gameItemData
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@param fromInventory Bool
 ---@param quantity Int32
 ---@return Bool
@@ -147,7 +147,7 @@ function ItemActionsHelper.ReadItem(executor, itemID) return end
 
 ---@param executor gameObject
 ---@param itemData gameItemData
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@param fromInventory Bool
 ---@return BaseItemAction
 function ItemActionsHelper.SetupItemAction(executor, itemData, actionID, fromInventory) return end

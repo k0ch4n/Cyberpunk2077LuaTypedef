@@ -28,8 +28,8 @@ function StatPoolBasedTimeBankEffector:ContinuousAction(owner, instigator) retur
 function StatPoolBasedTimeBankEffector:EvaluateStatPoolCooldown() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function StatPoolBasedTimeBankEffector:Initialize(record, parentRecord) return end
 

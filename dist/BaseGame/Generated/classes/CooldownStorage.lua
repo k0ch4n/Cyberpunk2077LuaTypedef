@@ -22,7 +22,7 @@ function CooldownStorage:AttachUniqueLabel() return end
 ---@return Bool
 function CooldownStorage:CancelCooldown(id) return end
 
----@param action TweakDBID
+---@param action TweakDBID|string
 ---@return Bool
 function CooldownStorage:CancelCooldown(action) return end
 
@@ -42,7 +42,7 @@ function CooldownStorage:FindMapEntry(id) return end
 function CooldownStorage:FindMapEntry(package) return end
 
 ---@private
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Int32
 function CooldownStorage:FindPackageIndexByAction(actionID) return end
 
@@ -61,7 +61,7 @@ function CooldownStorage:GenerateLabel(id) return end
 function CooldownStorage:GetPackage(label) return end
 
 ---@private
----@param action TweakDBID
+---@param action TweakDBID|string
 ---@return CooldownPackage
 function CooldownStorage:GetPackage(action) return end
 
@@ -70,7 +70,7 @@ function CooldownStorage:GetPackage(action) return end
 ---@return nil
 function CooldownStorage:Initialize(id, className) return end
 
----@param action TweakDBID
+---@param action TweakDBID|string
 ---@return Bool
 function CooldownStorage:IsActionReady(action) return end
 
@@ -86,7 +86,7 @@ function CooldownStorage:IsActionReady(index) return end
 ---@return EBOOL
 function CooldownStorage:IsInitialized() return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Bool
 function CooldownStorage:ManuallyTriggerCooldown(actionID) return end
 
@@ -101,7 +101,7 @@ function CooldownStorage:ProcessNewPackage(request) return end
 function CooldownStorage:RemoveCooldown(label) return end
 
 ---@private
----@param action TweakDBID
+---@param action TweakDBID|string
 ---@return Bool
 function CooldownStorage:RemoveCooldown(action) return end
 

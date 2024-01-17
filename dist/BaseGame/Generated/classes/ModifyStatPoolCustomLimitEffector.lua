@@ -24,8 +24,8 @@ function ModifyStatPoolCustomLimitEffector:ActionOff(owner) return end
 function ModifyStatPoolCustomLimitEffector:ActionOn(owner) return end
 
 ---@protected
----@param recordID TweakDBID
----@param parentRecord TweakDBID
+---@param recordID TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyStatPoolCustomLimitEffector:Initialize(recordID, parentRecord) return end
 

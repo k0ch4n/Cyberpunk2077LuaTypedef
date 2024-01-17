@@ -15,7 +15,7 @@ function IsPlayerOnGroundPrereq.new(fields) return end
 function IsPlayerOnGroundPrereq:Evaluate(owner, value) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsPlayerOnGroundPrereq:Initialize(recordID) return end
 

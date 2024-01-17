@@ -11,7 +11,7 @@ CanPlayerHijackMountedNpcPrereq = {}
 function CanPlayerHijackMountedNpcPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function CanPlayerHijackMountedNpcPrereq:Initialize(recordID) return end
 

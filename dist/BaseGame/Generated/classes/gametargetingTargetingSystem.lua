@@ -184,7 +184,7 @@ function gametargetingTargetingSystem:RemoveIgnoredCollisionEntities(entity) ret
 function gametargetingTargetingSystem:RemoveIgnoredLookAtEntity(instigator, ignoredEntityId) return end
 
 ---@param owner gameObject
----@param presetId TweakDBID
+---@param presetId TweakDBID|string
 ---@return nil
 function gametargetingTargetingSystem:SetAimAssistConfig(owner, presetId) return end
 

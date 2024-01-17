@@ -11,7 +11,7 @@ IsNpcMountedInSlotPrereq = {}
 function IsNpcMountedInSlotPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsNpcMountedInSlotPrereq:Initialize(recordID) return end
 

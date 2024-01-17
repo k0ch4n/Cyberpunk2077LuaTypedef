@@ -11,7 +11,7 @@ IsVehicleDoorQuestLocked = {}
 function IsVehicleDoorQuestLocked.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsVehicleDoorQuestLocked:Initialize(recordID) return end
 

@@ -16,7 +16,7 @@ function ICECounterHackEffector.new(fields) return end
 function ICECounterHackEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ICECounterHackEffector:Initialize(record, parentRecord) return end

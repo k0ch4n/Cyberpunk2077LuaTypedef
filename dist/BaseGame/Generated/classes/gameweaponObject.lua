@@ -335,7 +335,7 @@ function gameweaponObject:PrepareContinuousAttack(startPos, startDir) return end
 ---@return nil
 function gameweaponObject:RemoveWeaponEffects() return end
 
----@param attackID TweakDBID
+---@param attackID TweakDBID|string
 ---@return Bool
 function gameweaponObject:SetAttack(attackID) return end
 
@@ -490,7 +490,7 @@ function gameweaponObject:GetAppearanceNameFromComponent(componentName) return e
 ---@return Int32
 function gameweaponObject:GetBlackboardIntVariable(id) return end
 
----@param property TweakDBID
+---@param property TweakDBID|string
 ---@return Bool
 function gameweaponObject:GetBoolPropertyFromWeaponDefinition(property) return end
 
@@ -504,7 +504,7 @@ function gameweaponObject:GetCurrentMeleeTrailEffectName() return end
 ---@return Float
 function gameweaponObject:GetMaxChargeTreshold() return end
 
----@param property TweakDBID
+---@param property TweakDBID|string
 ---@return CName
 function gameweaponObject:GetNamePropertyFromWeaponDefinition(property) return end
 

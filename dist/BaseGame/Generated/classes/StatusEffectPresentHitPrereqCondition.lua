@@ -16,6 +16,6 @@ function StatusEffectPresentHitPrereqCondition.new(fields) return end
 ---@return Bool
 function StatusEffectPresentHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatusEffectPresentHitPrereqCondition:SetData(recordID) return end

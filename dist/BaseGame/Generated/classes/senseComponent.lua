@@ -42,7 +42,7 @@ function senseComponent.RequestDetectionOverwriteReevaluation(obj, target, delay
 function senseComponent.RequestMainPresetChange(obj, presetName) return end
 
 ---@param obj gameObject
----@param presetID TweakDBID
+---@param presetID TweakDBID|string
 ---@param mainPreset Bool
 ---@return nil
 function senseComponent.RequestPresetChange(obj, presetID, mainPreset) return end
@@ -53,7 +53,7 @@ function senseComponent.RequestPresetChange(obj, presetID, mainPreset) return en
 function senseComponent.RequestSecondaryPresetChange(obj, presetName) return end
 
 ---@param obj gameObject
----@param presetID TweakDBID
+---@param presetID TweakDBID|string
 ---@return nil
 function senseComponent.RequestSecondaryPresetChange(obj, presetID) return end
 
@@ -236,7 +236,7 @@ function senseComponent:SetVisionBlockersIgnoredBySensor(ignoredVisionBlockers) 
 ---@return nil
 function senseComponent:UpdateCrowdMappin() return end
 
----@param presetID TweakDBID
+---@param presetID TweakDBID|string
 ---@return Bool
 function senseComponent:UsePreset(presetID) return end
 

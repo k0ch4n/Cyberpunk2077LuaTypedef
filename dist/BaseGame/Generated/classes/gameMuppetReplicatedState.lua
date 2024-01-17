@@ -17,6 +17,6 @@ function gameMuppetReplicatedState.new(fields) return end
 ---@return nil
 function gameMuppetReplicatedState:Muppet_ReplicateInputStates(compressedInputStates) return end
 
----@param loadoutTBID TweakDBID
+---@param loadoutTBID TweakDBID|string
 ---@return nil
 function gameMuppetReplicatedState:Muppet_UseLoadout(loadoutTBID) return end

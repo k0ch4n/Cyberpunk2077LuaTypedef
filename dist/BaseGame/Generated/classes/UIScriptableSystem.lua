@@ -62,7 +62,7 @@ function UIScriptableSystem:IsAvailableCarNew(carFact) return end
 ---@return Bool
 function UIScriptableSystem:IsComparisionTooltipDisabled() return end
 
----@param itemTweakDBID TweakDBID
+---@param itemTweakDBID TweakDBID|string
 ---@return Bool
 function UIScriptableSystem:IsDLCAddedActiveItem(itemTweakDBID) return end
 

@@ -11,7 +11,7 @@ CurrentStanceNPCStatePrereq = {}
 function CurrentStanceNPCStatePrereq.new(fields) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function CurrentStanceNPCStatePrereq:Initialize(record) return end
 

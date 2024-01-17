@@ -15,7 +15,7 @@ function DestroyWeakspotEffector.new(fields) return end
 function DestroyWeakspotEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function DestroyWeakspotEffector:Initialize(record, parentRecord) return end

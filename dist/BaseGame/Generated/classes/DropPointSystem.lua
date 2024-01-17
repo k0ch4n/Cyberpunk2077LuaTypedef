@@ -17,7 +17,7 @@ function DropPointSystem.new(fields) return end
 ---@return nil
 function DropPointSystem:AddDropPointSystemLock(reason) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@param dropPoint gamePersistentID
 ---@return Bool
 function DropPointSystem:CanDeposit(record, dropPoint) return end
@@ -57,16 +57,16 @@ function DropPointSystem:HasMeaningfulItems(items, dropPoint) return end
 ---@return nil
 function DropPointSystem:HideDropPointMappins(informDevice) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@param status DropPointPackageStatus
 ---@return Bool
 function DropPointSystem:Is(record, status) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return Bool
 function DropPointSystem:IsActive(record) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return Bool
 function DropPointSystem:IsCollected(record) return end
 

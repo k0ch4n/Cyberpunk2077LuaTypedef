@@ -26,7 +26,7 @@ function TvDeviceWidgetController:OnGLobalChannelSpawned(widget, userData) retur
 function TvDeviceWidgetController:GetColorFromArray(colorArray) return end
 
 ---@private
----@param messageID TweakDBID
+---@param messageID TweakDBID|string
 ---@return gamedataScreenMessageData_Record
 function TvDeviceWidgetController:GetMessageRecord(messageID) return end
 
@@ -65,7 +65,7 @@ function TvDeviceWidgetController:ResolveMessegeRecord(record) return end
 
 ---@private
 ---@param imageWidget inkImageWidget
----@param textureID TweakDBID
+---@param textureID TweakDBID|string
 ---@return nil
 function TvDeviceWidgetController:SetBackgroundTexture(imageWidget, textureID) return end
 

@@ -520,7 +520,7 @@ Cast = Game.Cast
 function Game.Cast(a) return end
 Cast = Game.Cast
 
----@param a TweakDBID
+---@param a TweakDBID|string
 ---@return vehicleGarageVehicleID
 function Game.Cast(a) return end
 Cast = Game.Cast
@@ -1156,7 +1156,7 @@ function Game.MP_Heist_MessagePlayerReady(peerID) return end
 MP_Heist_MessagePlayerReady = Game.MP_Heist_MessagePlayerReady
 
 ---@param peerID netPeerID
----@param characterRecordID TweakDBID
+---@param characterRecordID TweakDBID|string
 ---@return nil
 function Game.MP_Heist_SetPlayerCharacterClass(peerID, characterRecordID) return end
 MP_Heist_SetPlayerCharacterClass = Game.MP_Heist_SetPlayerCharacterClass
@@ -1366,8 +1366,8 @@ OperatorAdd = Game.OperatorAdd
 function Game.OperatorAdd() return end
 OperatorAdd = Game.OperatorAdd
 
----@param a TweakDBID
----@param b TweakDBID
+---@param a TweakDBID|string
+---@param b TweakDBID|string
 ---@return TweakDBID
 function Game.OperatorAdd(a, b) return end
 OperatorAdd = Game.OperatorAdd
@@ -1538,7 +1538,7 @@ OperatorAssignAdd = Game.OperatorAssignAdd
 function Game.OperatorAssignAdd(b) return end
 OperatorAssignAdd = Game.OperatorAssignAdd
 
----@param b TweakDBID
+---@param b TweakDBID|string
 ---@return TweakDBID, TweakDBID a
 function Game.OperatorAssignAdd(b) return end
 OperatorAssignAdd = Game.OperatorAssignAdd
@@ -2140,8 +2140,8 @@ OperatorEqual = Game.OperatorEqual
 function Game.OperatorEqual(a, b) return end
 OperatorEqual = Game.OperatorEqual
 
----@param a TweakDBID
----@param b TweakDBID
+---@param a TweakDBID|string
+---@param b TweakDBID|string
 ---@return Bool
 function Game.OperatorEqual(a, b) return end
 OperatorEqual = Game.OperatorEqual
@@ -2813,8 +2813,8 @@ OperatorNotEqual = Game.OperatorNotEqual
 function Game.OperatorNotEqual(a, b) return end
 OperatorNotEqual = Game.OperatorNotEqual
 
----@param a TweakDBID
----@param b TweakDBID
+---@param a TweakDBID|string
+---@param b TweakDBID|string
 ---@return Bool
 function Game.OperatorNotEqual(a, b) return end
 OperatorNotEqual = Game.OperatorNotEqual
@@ -3887,7 +3887,7 @@ OperatorEqual = Game.OperatorEqual
 function Game.OperatorEqual(l1, l2) return end
 OperatorEqual = Game.OperatorEqual
 
----@param record_1 TweakDBID
+---@param record_1 TweakDBID|string
 ---@param record_2 gameItemID
 ---@return Bool
 function Game.OperatorEqual(record_1, record_2) return end
@@ -3924,7 +3924,7 @@ function Game.OperatorEqual(ps, link) return end
 OperatorEqual = Game.OperatorEqual
 
 ---@param record_1 gameItemID
----@param record_2 TweakDBID
+---@param record_2 TweakDBID|string
 ---@return Bool
 function Game.OperatorEqual(record_1, record_2) return end
 OperatorEqual = Game.OperatorEqual
@@ -4079,7 +4079,7 @@ OperatorLessEqual = Game.OperatorLessEqual
 function Game.OperatorLessEqual(q1, q2) return end
 OperatorLessEqual = Game.OperatorLessEqual
 
----@param a TweakDBID
+---@param a TweakDBID|string
 ---@return Bool
 function Game.OperatorLogicNot(a) return end
 OperatorLogicNot = Game.OperatorLogicNot

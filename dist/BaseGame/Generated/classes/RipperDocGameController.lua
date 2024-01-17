@@ -200,7 +200,7 @@ function RipperDocGameController.GetItemAttribute(itemData, attribute, player) r
 function RipperDocGameController.GetItemType(itemType) return end
 
 ---@private
----@param tweakDBID TweakDBID
+---@param tweakDBID TweakDBID|string
 ---@param player gameObject
 ---@return Float
 function RipperDocGameController.GetTutorialItemCapacityRequirement(tweakDBID, player) return end
@@ -757,7 +757,7 @@ function RipperDocGameController:RegisterInventoryListener(player) return end
 function RipperDocGameController:RemoveCachedVendorItem(itemID) return end
 
 ---@private
----@param tweak TweakDBID
+---@param tweak TweakDBID|string
 ---@return nil
 function RipperDocGameController:RequestHandleEquippedOnItemAdded(tweak) return end
 
@@ -907,7 +907,7 @@ function RipperDocGameController:UpdateCachedVendorItemCounters(equipArea, newCo
 function RipperDocGameController:UpdateCapacityBar(isPurchase) return end
 
 ---@private
----@param materialTweakDBID TweakDBID
+---@param materialTweakDBID TweakDBID|string
 ---@param skipAnim? Bool
 ---@return nil
 function RipperDocGameController:UpdateCraftingMaterial(materialTweakDBID, skipAnim) return end

@@ -27,8 +27,8 @@ function PlayVFXEffector:ActionOn(owner) return end
 function PlayVFXEffector:Deactivate() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PlayVFXEffector:Initialize(record, parentRecord) return end
 

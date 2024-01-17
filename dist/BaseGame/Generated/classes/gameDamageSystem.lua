@@ -98,7 +98,7 @@ function gameDamageSystem:AllowWeaponCrit(attackData) return end
 ---@private
 ---@param hitEvent gameeventsHitEvent
 ---@param statType gamedataStatType
----@param effect TweakDBID
+---@param effect TweakDBID|string
 ---@return nil
 function gameDamageSystem:ApplyStatusEffectByApplicationRate(hitEvent, statType, effect) return end
 
@@ -270,7 +270,7 @@ function gameDamageSystem:InvulnerabilityCheck(hitEvent, cache) return end
 
 ---@private
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param attackData gamedamageAttackData
 ---@return Bool
 function gameDamageSystem:IsImmune(target, statusEffectID, attackData) return end

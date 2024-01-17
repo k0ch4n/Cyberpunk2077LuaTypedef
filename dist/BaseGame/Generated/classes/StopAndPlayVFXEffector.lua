@@ -17,8 +17,8 @@ function StopAndPlayVFXEffector.new(fields) return end
 function StopAndPlayVFXEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function StopAndPlayVFXEffector:Initialize(record, parentRecord) return end
 

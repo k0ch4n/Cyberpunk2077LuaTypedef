@@ -14,6 +14,6 @@ function BodyPartHitPrereqCondition.new(fields) return end
 ---@return Bool
 function BodyPartHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function BodyPartHitPrereqCondition:SetData(recordID) return end

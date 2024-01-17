@@ -23,7 +23,7 @@ function UsingCoverPSMPrereq:GetCurrentPSMStateIndex(bb) return end
 function UsingCoverPSMPrereq:GetStateMachineEnum() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function UsingCoverPSMPrereq:Initialize(recordID) return end
 

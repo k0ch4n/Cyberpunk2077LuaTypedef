@@ -27,12 +27,12 @@ function ActivatorControllerPS:ActionDemolition(context) return end
 function ActivatorControllerPS:ActionEngineering(context) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return SpiderbotActivateActivator
 function ActivatorControllerPS:ActionSpiderbotActivateActivator(interactionTDBID) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return ToggleActivation
 function ActivatorControllerPS:ActionToggleActivation(interactionTDBID) return end
 

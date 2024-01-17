@@ -13,6 +13,6 @@ function TriggerModeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function TriggerModeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function TriggerModeHitPrereqCondition:SetData(recordID) return end

@@ -16,7 +16,7 @@ function EntityNoticedPlayerPrereq.new(fields) return end
 function EntityNoticedPlayerPrereq:Evaluate(owner, value) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function EntityNoticedPlayerPrereq:Initialize(recordID) return end
 

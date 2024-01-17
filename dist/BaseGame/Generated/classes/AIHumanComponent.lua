@@ -79,7 +79,7 @@ function AIHumanComponent:OverrideAssignedVehicleInfoForPreventionBlockade() ret
 ---@return nil
 function AIHumanComponent:SetMovementParams(params) return end
 
----@param paramsID TweakDBID
+---@param paramsID TweakDBID|string
 ---@return Bool
 function AIHumanComponent:SetTDBMovementParams(paramsID) return end
 

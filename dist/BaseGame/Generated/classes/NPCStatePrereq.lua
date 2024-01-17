@@ -18,7 +18,7 @@ function NPCStatePrereq.new(fields) return end
 function NPCStatePrereq:Evaluate(owner, newValue, prevValue) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return String
 function NPCStatePrereq:GetStateName(recordID) return end
 
@@ -27,7 +27,7 @@ function NPCStatePrereq:GetStateName(recordID) return end
 function NPCStatePrereq:GetStateToCheck() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatePrereq:Initialize(recordID) return end
 

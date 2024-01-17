@@ -27,7 +27,7 @@ function ToggleBlockade.IsDefaultConditionMet(device, context) return end
 function ToggleBlockade:GetTweakDBChoiceRecord() return end
 
 ---@param isActive Bool
----@param nameOnTrue TweakDBID
----@param nameOnFalse TweakDBID
+---@param nameOnTrue TweakDBID|string
+---@param nameOnFalse TweakDBID|string
 ---@return nil
 function ToggleBlockade:SetProperties(isActive, nameOnTrue, nameOnFalse) return end

@@ -13,6 +13,6 @@ function StatusEffectRemovedPrereq.new(fields) return end
 function StatusEffectRemovedPrereq:Evaluate(statusEffect) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatusEffectRemovedPrereq:Initialize(recordID) return end

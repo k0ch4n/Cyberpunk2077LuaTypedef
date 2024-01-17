@@ -17,7 +17,7 @@ function ApplyObjectActionEffector.new(fields) return end
 function ApplyObjectActionEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyObjectActionEffector:Initialize(record, parentRecord) return end

@@ -96,7 +96,7 @@ function RadialMenuItemController:SetHoverPanel(hoverPanel) return end
 function RadialMenuItemController:SetHyperlink(value) return end
 
 ---@param label String
----@param iconTweak TweakDBID
+---@param iconTweak TweakDBID|string
 ---@return nil
 function RadialMenuItemController:UpdateButton(label, iconTweak) return end
 

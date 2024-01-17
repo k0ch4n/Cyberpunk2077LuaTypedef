@@ -127,7 +127,7 @@ function NetworkSystem:ActivateNetworkLinks(toActivate) return end
 ---@param linkType ELinkType
 ---@param revealNetworkAtEnd Bool
 ---@param fxResource gameFxResource
----@param virtualNetworkShapeID TweakDBID
+---@param virtualNetworkShapeID TweakDBID|string
 ---@return nil
 function NetworkSystem:AddActivePing(source, pingType, duration, linkType, revealNetworkAtEnd, fxResource, virtualNetworkShapeID) return end
 

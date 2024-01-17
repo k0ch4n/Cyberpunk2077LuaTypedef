@@ -15,7 +15,7 @@ function NPCHitSourcePrereq.new(fields) return end
 function NPCHitSourcePrereq:EvaluateCondition(hitSource) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCHitSourcePrereq:Initialize(recordID) return end
 

@@ -16,7 +16,7 @@ function PlayerElevationPrereq.new(fields) return end
 function PlayerElevationPrereq:Evaluate(owner, minElevationVal, maxElevationVal) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PlayerElevationPrereq:Initialize(recordID) return end
 

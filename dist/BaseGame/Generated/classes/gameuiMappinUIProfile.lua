@@ -13,13 +13,13 @@ gameuiMappinUIProfile = {}
 function gameuiMappinUIProfile.new(fields) return end
 
 ---@param _widgetResource redResourceReferenceScriptToken
----@param spawnProfile TweakDBID
+---@param spawnProfile TweakDBID|string
 ---@return gameuiMappinUIProfile
 function gameuiMappinUIProfile.Create(_widgetResource, spawnProfile) return end
 
 ---@param _widgetResource redResourceReferenceScriptToken
----@param spawnProfile TweakDBID
----@param runtimeProfile TweakDBID
+---@param spawnProfile TweakDBID|string
+---@param runtimeProfile TweakDBID|string
 ---@return gameuiMappinUIProfile
 function gameuiMappinUIProfile.Create(_widgetResource, spawnProfile, runtimeProfile) return end
 

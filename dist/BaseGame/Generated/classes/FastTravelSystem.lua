@@ -20,13 +20,13 @@ FastTravelSystem = {}
 function FastTravelSystem.new(fields) return end
 
 ---@param reason CName|string
----@param statusEffectID? TweakDBID
+---@param statusEffectID? TweakDBID|string
 ---@return nil
 function FastTravelSystem.AddFastTravelLock(reason, statusEffectID) return end
 
 ---@param enable Bool
 ---@param reason CName|string
----@param statusEffectID? TweakDBID
+---@param statusEffectID? TweakDBID|string
 ---@return nil
 function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) return end
 
@@ -34,7 +34,7 @@ function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) r
 function FastTravelSystem.RemoveAllFastTravelLocks() return end
 
 ---@param reason CName|string
----@param statusEffectID? TweakDBID
+---@param statusEffectID? TweakDBID|string
 ---@return nil
 function FastTravelSystem.RemoveFastTravelLock(reason, statusEffectID) return end
 
@@ -45,7 +45,7 @@ function FastTravelSystem:OnLoadingScreenFinished(value) return end
 
 ---@private
 ---@param reason CName|string
----@param statusEffectID? TweakDBID
+---@param statusEffectID? TweakDBID|string
 ---@return nil
 function FastTravelSystem:AddFastTravelLock(reason, statusEffectID) return end
 

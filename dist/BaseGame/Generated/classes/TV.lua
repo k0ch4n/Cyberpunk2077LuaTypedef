@@ -87,7 +87,7 @@ function TV:OnTogglePower(evt) return end
 
 ---@protected
 ---@param target entEntityID
----@param statusEffect TweakDBID
+---@param statusEffect TweakDBID|string
 ---@return nil
 function TV:ApplyActiveStatusEffect(target, statusEffect) return end
 

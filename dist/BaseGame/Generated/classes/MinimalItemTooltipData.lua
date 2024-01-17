@@ -92,7 +92,7 @@ function MinimalItemTooltipData.GetDefaultModAttachmentData(data, index, type) r
 ---@private
 ---@param isEmpty Bool
 ---@param qualityName CName|string
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemName String
 ---@param abilities gameInventoryItemAbility[]
 ---@param type gameInventoryItemAttachmentType
@@ -122,7 +122,7 @@ function MinimalItemTooltipData.GetMinimalTooltipDataRequirements(itemData, tool
 ---@param itemRecord gamedataItem_Record
 ---@param displayContext InventoryTooltipDisplayContext
 ---@param parentItemData? gameItemData
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param mods MinimalItemTooltipModData[]
 ---@return nil
 function MinimalItemTooltipData.GetModsDataPackages(itemData, itemRecord, displayContext, parentItemData, slotID, mods) return end

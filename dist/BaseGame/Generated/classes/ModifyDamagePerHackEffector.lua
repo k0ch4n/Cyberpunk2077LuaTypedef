@@ -15,8 +15,8 @@ function ModifyDamagePerHackEffector.new(fields) return end
 function ModifyDamagePerHackEffector:CountEffects(list) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyDamagePerHackEffector:Initialize(record, parentRecord) return end
 

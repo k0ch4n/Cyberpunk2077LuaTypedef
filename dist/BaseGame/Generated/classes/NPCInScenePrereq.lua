@@ -14,7 +14,7 @@ function NPCInScenePrereq.new(fields) return end
 function NPCInScenePrereq:Evaluate(isEntityInScene) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCInScenePrereq:Initialize(recordID) return end
 

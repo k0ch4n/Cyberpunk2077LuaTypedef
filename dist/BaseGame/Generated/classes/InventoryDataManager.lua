@@ -83,7 +83,7 @@ function InventoryDataManager:GetPlayerItemStats(itemId, compareItemId) return e
 function InventoryDataManager:GetPlayerStats(statsList) return end
 
 ---@private
----@param mapPath TweakDBID
+---@param mapPath TweakDBID|string
 ---@param itemData gameItemData
 ---@param primeStatsList gameStatViewData[]
 ---@param secondStatsList gameStatViewData[]

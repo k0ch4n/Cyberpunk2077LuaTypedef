@@ -27,8 +27,8 @@ function SetFriendlyEffector:ActionOn(owner) return end
 function SetFriendlyEffector:ChangeAttitude(owner, target) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SetFriendlyEffector:Initialize(record, parentRecord) return end
 

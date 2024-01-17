@@ -12,7 +12,7 @@ CachedCraftingMaterial = {}
 ---@return CachedCraftingMaterial
 function CachedCraftingMaterial.new(fields) return end
 
----@param tweakID TweakDBID
+---@param tweakID TweakDBID|string
 ---@return CachedCraftingMaterial
 function CachedCraftingMaterial.Make(tweakID) return end
 

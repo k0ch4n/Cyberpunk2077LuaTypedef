@@ -57,6 +57,6 @@ function gameuiICharacterCustomizationState:SetIsBrainGenderMale(isMale) return 
 ---@return nil
 function gameuiICharacterCustomizationState:SetIsExpansionStandalone(isExpansionStandalone) return end
 
----@param lifepath TweakDBID
+---@param lifepath TweakDBID|string
 ---@return nil
 function gameuiICharacterCustomizationState:SetLifePath(lifepath) return end

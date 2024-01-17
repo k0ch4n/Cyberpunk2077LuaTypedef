@@ -16,7 +16,7 @@ function NPCLocomotionTypePrereq.new(fields) return end
 function NPCLocomotionTypePrereq:Evaluate(owner, value) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCLocomotionTypePrereq:Initialize(recordID) return end
 

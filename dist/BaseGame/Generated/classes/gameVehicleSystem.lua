@@ -54,7 +54,7 @@ function gameVehicleSystem:GetPlayerVehicles() return end
 ---@return Bool
 function gameVehicleSystem:IsActivePlayerVehicleOnCooldown(vehicleType) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return Bool
 function gameVehicleSystem:IsVehiclePlayerUnlocked(recordID) return end
 

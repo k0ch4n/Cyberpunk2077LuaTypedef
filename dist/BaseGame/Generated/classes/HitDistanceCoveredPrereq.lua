@@ -11,6 +11,6 @@ HitDistanceCoveredPrereq = {}
 function HitDistanceCoveredPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitDistanceCoveredPrereq:Initialize(recordID) return end

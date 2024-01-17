@@ -17,7 +17,7 @@ function FactValuePrereq.new(fields) return end
 function FactValuePrereq:Evaluate(value) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function FactValuePrereq:Initialize(recordID) return end
 

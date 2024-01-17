@@ -810,7 +810,7 @@ function SensorDevice:SetSenseObjectType(type) return end
 function SensorDevice:SetSensePresetBasedOnSSState() return end
 
 ---@private
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param position? Vector4
 ---@param otherTarget? gameObject
 ---@return entLookAtAddEvent

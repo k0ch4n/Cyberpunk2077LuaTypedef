@@ -19,8 +19,8 @@ function BloodlustHealingEffector.new(fields) return end
 function BloodlustHealingEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function BloodlustHealingEffector:Initialize(record, parentRecord) return end
 

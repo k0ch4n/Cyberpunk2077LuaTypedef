@@ -15,7 +15,7 @@ function PuppetMortalPrereq.new(fields) return end
 function PuppetMortalPrereq:Evaluate(owner, godModeType) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function PuppetMortalPrereq:Initialize(record) return end
 

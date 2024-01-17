@@ -10,7 +10,7 @@ NPCIsCrowdPrereq = {}
 function NPCIsCrowdPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCIsCrowdPrereq:Initialize(recordID) return end
 

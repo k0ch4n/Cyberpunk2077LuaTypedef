@@ -17,8 +17,8 @@ function ConvertDamageToStatPoolEffector.new(fields) return end
 function ConvertDamageToStatPoolEffector:ActionOn(owner) return end
 
 ---@protected
----@param recordID TweakDBID
----@param parentRecord TweakDBID
+---@param recordID TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ConvertDamageToStatPoolEffector:Initialize(recordID, parentRecord) return end
 

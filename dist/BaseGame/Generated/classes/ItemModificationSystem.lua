@@ -36,13 +36,13 @@ function ItemModificationSystem.HasThisShardInstalled(obj, cyberdeckID, shardID)
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function ItemModificationSystem.IsBasePart(obj, itemID, slotID) return end
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function ItemModificationSystem.IsItemSlotTaken(obj, itemID, slotID) return end
 
@@ -54,7 +54,7 @@ function ItemModificationSystem:CYBMETA1695() return end
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param partItemID gameItemID
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@return Bool
 function ItemModificationSystem:InstallItemPart(obj, itemID, partItemID, slotID) return end
 
@@ -90,7 +90,7 @@ function ItemModificationSystem:RemoveAllModsFromClothing() return end
 ---@private
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param shouldUpdateEntity Bool
 ---@return gameItemID
 function ItemModificationSystem:RemoveItemPart(obj, itemID, slotID, shouldUpdateEntity) return end
@@ -127,6 +127,6 @@ function ItemModificationSystem:SetPingTutorialFact(itemID, isUnequip, obj) retu
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param partItemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function ItemModificationSystem:SwapItemPart(obj, itemID, partItemID, slotID) return end

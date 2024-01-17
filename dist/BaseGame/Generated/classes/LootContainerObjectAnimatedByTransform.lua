@@ -25,7 +25,7 @@ function LootContainerObjectAnimatedByTransform:OnResetContainerEvent(evt) retur
 function LootContainerObjectAnimatedByTransform:OnToggleContainerLockEvent(evt) return end
 
 ---@private
----@param itemId TweakDBID
+---@param itemId TweakDBID|string
 ---@return Bool
 function LootContainerObjectAnimatedByTransform:HasTransactionFromTweakID(itemId) return end
 

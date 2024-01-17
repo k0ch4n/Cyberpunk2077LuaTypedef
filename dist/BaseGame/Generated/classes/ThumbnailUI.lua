@@ -13,7 +13,7 @@ function ThumbnailUI.new(fields) return end
 ---@return nil
 function ThumbnailUI:CreateThumbnailWidgetPackage(status) return end
 
----@param widgetTweakDBID TweakDBID
+---@param widgetTweakDBID TweakDBID|string
 ---@param status? String
 ---@return nil
 function ThumbnailUI:CreateThumbnailWidgetPackage(widgetTweakDBID, status) return end

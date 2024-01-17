@@ -15,8 +15,8 @@ function UnlockMinigameProgramEffector.new(fields) return end
 function UnlockMinigameProgramEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function UnlockMinigameProgramEffector:Initialize(record, parentRecord) return end
 

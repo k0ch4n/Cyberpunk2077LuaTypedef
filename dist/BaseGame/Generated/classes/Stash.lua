@@ -40,7 +40,7 @@ function Stash.CreateInstallPartRequest_Mod(stashObj, itemData, part) return end
 ---@private
 ---@param stashObj gameObject
 ---@param item gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return RemoveItemPart
 function Stash.CreateRemovePartRequest(stashObj, item, slotID) return end
 

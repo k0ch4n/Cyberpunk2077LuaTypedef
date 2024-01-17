@@ -11,7 +11,7 @@ NPCTypePrereq = {}
 function NPCTypePrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCTypePrereq:Initialize(recordID) return end
 

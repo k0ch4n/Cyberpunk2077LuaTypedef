@@ -13,6 +13,6 @@ function TargetNPCTypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function TargetNPCTypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function TargetNPCTypeHitPrereqCondition:SetData(recordID) return end

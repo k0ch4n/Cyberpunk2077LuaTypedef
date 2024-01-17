@@ -10,7 +10,7 @@ IsHumanPrereq = {}
 function IsHumanPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsHumanPrereq:Initialize(recordID) return end
 

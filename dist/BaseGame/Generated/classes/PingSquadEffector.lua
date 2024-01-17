@@ -29,8 +29,8 @@ function PingSquadEffector:ActionOn(owner) return end
 function PingSquadEffector:GetPingLevel(level) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PingSquadEffector:Initialize(record, parentRecord) return end
 

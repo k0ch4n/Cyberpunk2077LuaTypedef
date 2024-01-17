@@ -11,7 +11,7 @@ NPCReactionPresetPrereq = {}
 function NPCReactionPresetPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCReactionPresetPrereq:Initialize(recordID) return end
 

@@ -9,7 +9,7 @@ gameStatusEffectSystem = {}
 function gameStatusEffectSystem.new(fields) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return Bool
 function gameStatusEffectSystem.ObjectHasStatusEffect(target, statusEffectID) return end
 
@@ -34,8 +34,8 @@ function gameStatusEffectSystem.ObjectHasStatusEffectWithTag(target, tag) return
 function gameStatusEffectSystem.ObjectHasStatusEffectWithTags(target, tag) return end
 
 ---@param objID entEntityID
----@param statusEffectID TweakDBID
----@param instigatorID? TweakDBID
+---@param statusEffectID TweakDBID|string
+---@param instigatorID? TweakDBID|string
 ---@param instigatorEntityID? entEntityID
 ---@param applyCount? Uint32
 ---@param direction? Vector4
@@ -60,7 +60,7 @@ function gameStatusEffectSystem:GetAppliedEffectsOfType(objID, statusEffectType)
 function gameStatusEffectSystem:GetAppliedEffectsOfTypeName(objID, statusEffectTypeName, outappliedEffects) return end
 
 ---@param objID entEntityID
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return nil, gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffectsWithID(objID, statusEffectID) return end
 
@@ -70,7 +70,7 @@ function gameStatusEffectSystem:GetAppliedEffectsWithID(objID, statusEffectID) r
 function gameStatusEffectSystem:GetAppliedEffectsWithTag(objID, tag) return end
 
 ---@param objID entEntityID
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return Bool
 function gameStatusEffectSystem:HasStatusEffect(objID, statusEffectID) return end
 
@@ -100,13 +100,13 @@ function gameStatusEffectSystem:RegisterListener(objID, listener) return end
 function gameStatusEffectSystem:RemoveAllStatusEffectOfType(objID, statusEffectType) return end
 
 ---@param objID entEntityID
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param removeCount? Uint32
 ---@return Bool
 function gameStatusEffectSystem:RemoveStatusEffect(objID, statusEffectID, removeCount) return end
 
 ---@param objID entEntityID
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param duration Float
 ---@return Bool
 function gameStatusEffectSystem:SetStatusEffectRemainingDuration(objID, statusEffectID, duration) return end

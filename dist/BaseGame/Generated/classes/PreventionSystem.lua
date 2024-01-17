@@ -451,7 +451,7 @@ function PreventionSystem:GetCharacterRecordFromPool(pool) return end
 ---@private
 ---@param recordsCount Int32
 ---@param pool gamedataPreventionUnitPoolData_Record[]
----@param recordIDs TweakDBID[]
+---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
 function PreventionSystem:GetCharacterRecordsFromPool(recordsCount, pool, recordIDs) return end
 
@@ -463,7 +463,7 @@ function PreventionSystem:GetDamageToPlayerMultiplier() return end
 
 ---@private
 ---@param heatStage EPreventionHeatStage
----@param characterRecords TweakDBID[]
+---@param characterRecords TweakDBID[]|string[]
 ---@return Bool, Vector2 spawnRange, Uint32 unitsCount, Float spawnInterval, Bool hasRecon
 function PreventionSystem:GetDataTableForCurrentHeat(heatStage, characterRecords) return end
 
@@ -1072,7 +1072,7 @@ function PreventionSystem:RemovePreventionInputLockRequest() return end
 function PreventionSystem:RequestAVSpawnAtPosition(position) return end
 
 ---@private
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param spawnTransform WorldTransform
 ---@return nil
 function PreventionSystem:RequestUnitSpawn(recordID, spawnTransform) return end
@@ -1242,7 +1242,7 @@ function PreventionSystem:ShouldWorkSpotPoliceJoinChase(puppet) return end
 
 ---@private
 ---@param spawnPoints Vector3[]
----@param characterRecords TweakDBID[]
+---@param characterRecords TweakDBID[]|string[]
 ---@param unitCount Uint32
 ---@return Int32
 function PreventionSystem:SpawnFallbackUnits(spawnPoints, characterRecords, unitCount) return end
@@ -1262,7 +1262,7 @@ function PreventionSystem:SpawnRoadblockade(heatStage) return end
 
 ---@private
 ---@param spawnPoints Vector3[]
----@param characterRecords TweakDBID[]
+---@param characterRecords TweakDBID[]|string[]
 ---@param unitCount Uint32
 ---@return Bool, Int32 sentRequests
 function PreventionSystem:SpawnUnits(spawnPoints, characterRecords, unitCount) return end
@@ -1334,7 +1334,7 @@ function PreventionSystem:TogglePreventionSystem(toggle) return end
 function PreventionSystem:TryGetAVSpawnPointsCallback(requestResult) return end
 
 ---@private
----@param recordIDs TweakDBID[]
+---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
 function PreventionSystem:TryGetDistinctUnitDataFromHeatStage(recordIDs) return end
 
@@ -1350,14 +1350,14 @@ function PreventionSystem:TryGetRoadblockDataFromHeatStage(heatStage) return end
 ---@private
 ---@param heatStage EPreventionHeatStage
 ---@param recordsCount Int32
----@param recordIDs TweakDBID[]
+---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
 function PreventionSystem:TryGetUnitDataFromHeatStage(heatStage, recordsCount, recordIDs) return end
 
 ---@private
 ---@param vehicleRecord gamedataVehicle_Record
 ---@param recordsCount Int32
----@param recordIDs TweakDBID[]
+---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
 function PreventionSystem:TryGetUnitDataFromVehicleRecord(vehicleRecord, recordsCount, recordIDs) return end
 

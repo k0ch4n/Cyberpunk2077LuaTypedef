@@ -74,7 +74,7 @@ function CodexUtils.GetShardsDataArray(journal, activeDataSync) return end
 ---@return VirutalNestedListData[]
 function CodexUtils.GetTutorialsData(journal, activeDataSync, offset) return end
 
----@param imageId TweakDBID
+---@param imageId TweakDBID|string
 ---@return Bool
 function CodexUtils.IsImageValid(imageId) return end
 

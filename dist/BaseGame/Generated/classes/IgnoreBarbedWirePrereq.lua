@@ -11,7 +11,7 @@ IgnoreBarbedWirePrereq = {}
 function IgnoreBarbedWirePrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IgnoreBarbedWirePrereq:Initialize(recordID) return end
 

@@ -124,6 +124,6 @@ function VehicleSummonWidgetGameController:TryUpdateActiveVehicleData(id) return
 function VehicleSummonWidgetGameController:UpdateDistanceLabel() return end
 
 ---@private
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function VehicleSummonWidgetGameController:UpdateVehicleNotificationData(id) return end

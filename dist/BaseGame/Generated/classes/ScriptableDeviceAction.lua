@@ -50,7 +50,7 @@ function ScriptableDeviceAction:ClearIllegal() return end
 ---@return nil
 function ScriptableDeviceAction:CompleteAction() return end
 
----@param widgetTweakDBID TweakDBID
+---@param widgetTweakDBID TweakDBID|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
 function ScriptableDeviceAction:CreateActionWidgetPackage(widgetTweakDBID, actions) return end
@@ -62,14 +62,14 @@ function ScriptableDeviceAction:CreateActionWidgetPackage(actions) return end
 ---@param actions? gamedeviceAction[]
 ---@param customName1 String
 ---@param customName2 String
----@param customID1? TweakDBID
----@param customID2? TweakDBID
+---@param customID1? TweakDBID|string
+---@param customID2? TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:CreateCustomInteraction(actions, customName1, customName2, customID1, customID2) return end
 
 ---@param actions? gamedeviceAction[]
 ---@param alternativeMainChoiceRecord? String
----@param alternativeMainChoiceTweakDBID? TweakDBID
+---@param alternativeMainChoiceTweakDBID? TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:CreateInteraction(actions, alternativeMainChoiceRecord, alternativeMainChoiceTweakDBID) return end
 
@@ -98,7 +98,7 @@ function ScriptableDeviceAction:GetDefaultActionName() return end
 ---@return String
 function ScriptableDeviceAction:GetDeviceName() return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return Float
 function ScriptableDeviceAction:GetDurationFromTDBRecord(record) return end
 
@@ -175,7 +175,7 @@ function ScriptableDeviceAction:ResolveAction(data) return end
 ---@return nil
 function ScriptableDeviceAction:ResolveActionWidgetTweakDBData() return end
 
----@param effectID TweakDBID
+---@param effectID TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:SetActiveStatusEffectTweakDBID(effectID) return end
 
@@ -186,7 +186,7 @@ function ScriptableDeviceAction:SetAsQuickHack(wasExecutedAtLeastOnce) return en
 ---@return nil
 function ScriptableDeviceAction:SetAsSpiderbotAction() return end
 
----@param programID TweakDBID
+---@param programID TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:SetAttachedProgramTweakDBID(programID) return end
 
@@ -225,11 +225,11 @@ function ScriptableDeviceAction:SetInactiveReasonAsCaption() return end
 ---@return nil
 function ScriptableDeviceAction:SetInactiveWithReason(isActiveIf, reason) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:SetInkWidgetTweakDBID(id) return end
 
----@param iconType TweakDBID
+---@param iconType TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:SetInteractionIcon(iconType) return end
 
@@ -237,7 +237,7 @@ function ScriptableDeviceAction:SetInteractionIcon(iconType) return end
 ---@return nil
 function ScriptableDeviceAction:SetInteractionLayer(layer) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function ScriptableDeviceAction:SetObjectActionID(id) return end
 

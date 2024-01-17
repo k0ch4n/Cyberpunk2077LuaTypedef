@@ -13,7 +13,7 @@ function SkillCheckPrereq.new(fields) return end
 function SkillCheckPrereq:GetSkillToCheck() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function SkillCheckPrereq:Initialize(recordID) return end
 

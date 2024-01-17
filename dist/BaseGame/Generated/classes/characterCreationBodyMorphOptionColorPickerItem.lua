@@ -44,6 +44,6 @@ function characterCreationBodyMorphOptionColorPickerItem:MoveCursorToItem() retu
 function characterCreationBodyMorphOptionColorPickerItem:SetSelected(selected, moveCursor) return end
 
 ---@param color Color
----@param icon TweakDBID
+---@param icon TweakDBID|string
 ---@return nil
 function characterCreationBodyMorphOptionColorPickerItem:SetTintColor(color, icon) return end

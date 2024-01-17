@@ -68,7 +68,7 @@ function DriverCombatFirearmsEvents:OnExit(stateContext, scriptInterface) return
 function DriverCombatFirearmsEvents:OnForcedExit(stateContext, scriptInterface) return end
 
 ---@private
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function DriverCombatFirearmsEvents:OnItemEquipped(slot, item) return end

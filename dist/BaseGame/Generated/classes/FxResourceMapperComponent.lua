@@ -42,14 +42,14 @@ function FxResourceMapperComponent:CopyEffectToFxMapClass(areaEffectsInFocusMode
 function FxResourceMapperComponent:CreateAreaEffectTargetData(mainEffect) return end
 
 ---@private
----@param attackTDBID TweakDBID
+---@param attackTDBID TweakDBID|string
 ---@param index Int32
 ---@param gameEffectNameOverride? CName|string
 ---@param dontHighlightOnLookat? Bool
 ---@return nil
 function FxResourceMapperComponent:CreateData(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) return end
 
----@param attackTDBID TweakDBID
+---@param attackTDBID TweakDBID|string
 ---@param index Int32
 ---@param gameEffectNameOverride? CName|string
 ---@param dontHighlightOnLookat? Bool

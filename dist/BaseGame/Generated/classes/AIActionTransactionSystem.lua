@@ -77,7 +77,7 @@ function AIActionTransactionSystem.GetFirstItemID(owner, itemCategory, itemTag) 
 
 ---@param obj ScriptedPuppet
 ---@param itemRecord gamedataItem_Record
----@param onBodySlotID TweakDBID
+---@param onBodySlotID TweakDBID|string
 ---@return Bool, gameItemID itemID
 function AIActionTransactionSystem.GetItemID(obj, itemRecord, onBodySlotID) return end
 
@@ -101,7 +101,7 @@ function AIActionTransactionSystem.GetOnBodyEquipment(obj, itemsToEquip) return 
 function AIActionTransactionSystem.GetOnBodyEquipmentRecords(obj, outEquipmentRecords) return end
 
 ---@param owner gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function AIActionTransactionSystem.IsSlotEmptySpawningItem(owner, slotID) return end
 

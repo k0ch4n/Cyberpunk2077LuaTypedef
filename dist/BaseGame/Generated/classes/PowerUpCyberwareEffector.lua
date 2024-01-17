@@ -24,8 +24,8 @@ function PowerUpCyberwareEffector.PowerUpCyberwareInSlot(owner, targetEquipArea,
 function PowerUpCyberwareEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PowerUpCyberwareEffector:Initialize(record, parentRecord) return end
 

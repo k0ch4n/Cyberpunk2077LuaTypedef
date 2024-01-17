@@ -22,6 +22,6 @@ function StatHitPrereqCondition:CompareValues(hitEvent) return end
 function StatHitPrereqCondition:Evaluate(hitEvent) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatHitPrereqCondition:SetData(recordID) return end

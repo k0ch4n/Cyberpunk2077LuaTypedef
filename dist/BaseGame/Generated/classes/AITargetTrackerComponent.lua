@@ -182,7 +182,7 @@ function AITargetTrackerComponent:ResetRecentlyDroppedThreat(delay) return end
 ---@return nil
 function AITargetTrackerComponent:ResetRecentlyDroppedThreatNoCallbacks() return end
 
----@param presetId TweakDBID
+---@param presetId TweakDBID|string
 ---@return nil
 function AITargetTrackerComponent:SetCurrentPreset(presetId) return end
 

@@ -28,8 +28,8 @@ function SetFactBasedOnClearAreaEffector:ActionOn(owner) return end
 function SetFactBasedOnClearAreaEffector:HasSpaceInFront(owner, rotation) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SetFactBasedOnClearAreaEffector:Initialize(record, parentRecord) return end
 

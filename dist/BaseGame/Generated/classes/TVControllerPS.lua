@@ -99,7 +99,7 @@ function TVControllerPS:GetDeviceIconTweakDBID() return end
 ---@return SDeviceWidgetPackage
 function TVControllerPS:GetDeviceWidget(context) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return Int32
 function TVControllerPS:GetGlobalTVChannelIDX(id) return end
 
@@ -125,12 +125,12 @@ function TVControllerPS:GetQuestActions(context) return end
 function TVControllerPS:GetQuickHackActions(context) return end
 
 ---@private
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return ETVChannel
 function TVControllerPS:GlobalTVChannelIDToEnum(id) return end
 
 ---@private
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return Int32
 function TVControllerPS:GlobalTVChannelIDToInt(id) return end
 

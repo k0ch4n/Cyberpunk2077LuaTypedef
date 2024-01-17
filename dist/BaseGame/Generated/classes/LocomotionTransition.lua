@@ -253,7 +253,7 @@ function LocomotionTransition:SetupSprintInputLock(stateContext, scriptInterface
 function LocomotionTransition:ShowDebugText(text, scriptInterface) return end
 
 ---@protected
----@param attackId TweakDBID
+---@param attackId TweakDBID|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
 function LocomotionTransition:SpawnLandingFxGameEffect(attackId, scriptInterface) return end

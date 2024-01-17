@@ -14,7 +14,7 @@ StatPoolChangeOverTimePrereq = {}
 function StatPoolChangeOverTimePrereq.new(fields) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function StatPoolChangeOverTimePrereq:Initialize(record) return end
 

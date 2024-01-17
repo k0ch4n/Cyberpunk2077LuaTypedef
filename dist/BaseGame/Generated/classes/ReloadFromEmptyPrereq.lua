@@ -10,7 +10,7 @@ ReloadFromEmptyPrereq = {}
 function ReloadFromEmptyPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ReloadFromEmptyPrereq:Initialize(recordID) return end
 

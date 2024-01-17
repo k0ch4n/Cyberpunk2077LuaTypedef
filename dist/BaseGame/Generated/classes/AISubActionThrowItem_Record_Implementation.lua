@@ -11,7 +11,7 @@ function AISubActionThrowItem_Record_Implementation.Activate(context, record) re
 
 ---@private
 ---@param target gameObject
----@param paramsTDBRecord TweakDBID
+---@param paramsTDBRecord TweakDBID|string
 ---@param predictionTime Float
 ---@return gameprojectileTrajectoryParams
 function AISubActionThrowItem_Record_Implementation.CreateCurvedTrajectory(target, paramsTDBRecord, predictionTime) return end
@@ -19,7 +19,7 @@ function AISubActionThrowItem_Record_Implementation.CreateCurvedTrajectory(targe
 ---@private
 ---@param target gameObject
 ---@param slotName CName|string
----@param paramsTDBRecord TweakDBID
+---@param paramsTDBRecord TweakDBID|string
 ---@return gameprojectileTrajectoryParams
 function AISubActionThrowItem_Record_Implementation.CreateCurvedTrajectoryFollowTargetSlot(target, slotName, paramsTDBRecord) return end
 
@@ -48,7 +48,7 @@ function AISubActionThrowItem_Record_Implementation.DropItem(context, record) re
 function AISubActionThrowItem_Record_Implementation.GetCachedGrenadeQuery(context, outStartType) return end
 
 ---@private
----@param paramsTDBRecord TweakDBID
+---@param paramsTDBRecord TweakDBID|string
 ---@return nil, gameprojectileFollowCurveTrajectoryParams trajectoryParams
 function AISubActionThrowItem_Record_Implementation.ReadCurvedTrajectoryTDBParams(paramsTDBRecord) return end
 

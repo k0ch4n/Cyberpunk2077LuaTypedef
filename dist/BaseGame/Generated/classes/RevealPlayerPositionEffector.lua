@@ -19,7 +19,7 @@ function RevealPlayerPositionEffector:ActionOff(owner) return end
 function RevealPlayerPositionEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function RevealPlayerPositionEffector:Initialize(record, parentRecord) return end

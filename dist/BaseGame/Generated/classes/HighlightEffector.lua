@@ -21,8 +21,8 @@ function HighlightEffector.new(fields) return end
 function HighlightEffector:ContinuousAction(owner, instigator) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function HighlightEffector:Initialize(record, parentRecord) return end
 

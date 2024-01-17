@@ -31,7 +31,7 @@ function GlitchScreen:GetInteractionIcon() return end
 function GlitchScreen:GetTweakDBChoiceRecord() return end
 
 ---@param isGlitching Bool
----@param actionID TweakDBID
----@param programID TweakDBID
+---@param actionID TweakDBID|string
+---@param programID TweakDBID|string
 ---@return nil
 function GlitchScreen:SetProperties(isGlitching, actionID, programID) return end

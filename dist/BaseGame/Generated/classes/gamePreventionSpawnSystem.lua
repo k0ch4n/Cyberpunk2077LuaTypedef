@@ -25,7 +25,7 @@ function gamePreventionSpawnSystem:DebugTryOverrideWithForcedStrategy() return e
 ---@param radiusMin Float
 ---@param radiusMax Float
 ---@param unitCount Uint32
----@param characterRecords TweakDBID[]
+---@param characterRecords TweakDBID[]|string[]
 ---@param navVisCheck Bool
 ---@param agentSize NavGenAgentSize
 ---@param scriptable IScriptable
@@ -109,13 +109,13 @@ function gamePreventionSpawnSystem:RegisterEntityDeathCallback(scriptable, funct
 ---@return nil
 function gamePreventionSpawnSystem:ReinitAll() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param spawnDistanceRange Vector2
 ---@param useOffTrafficPoints Bool
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestAVSpawn(recordID, spawnDistanceRange, useOffTrafficPoints) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param location Vector3
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestAVSpawnAtLocation(recordID, location) return end
@@ -128,8 +128,8 @@ function gamePreventionSpawnSystem:RequestAVSpawnAtLocation(recordID, location) 
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestAVSpawnPoints(scriptable, functionName, spawnDistanceRange, maxSpawnPoints, useOffTrafficPoints) return end
 
----@param vehicleRecordID TweakDBID
----@param passengersRecordIDs TweakDBID[]
+---@param vehicleRecordID TweakDBID|string
+---@param passengersRecordIDs TweakDBID[]|string[]
 ---@param strategy vehicleBaseStrategyRequest
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestChaseVehicle(vehicleRecordID, passengersRecordIDs, strategy) return end
@@ -146,13 +146,13 @@ function gamePreventionSpawnSystem:RequestDespawnAll(shouldUseAggressiveDespawn)
 ---@return nil
 function gamePreventionSpawnSystem:RequestDespawnVehicleAndPassengers(vehicle) return end
 
----@param vehiclessRecordIDs TweakDBID[]
+---@param vehiclessRecordIDs TweakDBID[]|string[]
 ---@param spawnDistanceRange Vector2
 ---@param numberNPCsPerCar Uint32
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestRoadBlockadeSpawn(vehiclessRecordIDs, spawnDistanceRange, numberNPCsPerCar) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param spawnTransform WorldTransform
 ---@return Uint32
 function gamePreventionSpawnSystem:RequestUnitSpawn(recordID, spawnTransform) return end

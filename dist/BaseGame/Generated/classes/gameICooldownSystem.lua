@@ -18,7 +18,7 @@ function gameICooldownSystem:GetCIDByItemID(itemId) return end
 function gameICooldownSystem:GetCIDByOwnerAndName(owner, cdName) return end
 
 ---@param owner entEntity
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return Int32
 function gameICooldownSystem:GetCIDByRecord(owner, record) return end
 

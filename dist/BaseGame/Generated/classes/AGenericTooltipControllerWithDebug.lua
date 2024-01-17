@@ -30,6 +30,6 @@ function AGenericTooltipControllerWithDebug:OnUninitialize() return end
 function AGenericTooltipControllerWithDebug:DEBUG_UpdateDebugInfo() return end
 
 ---@protected
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@return nil
 function AGenericTooltipControllerWithDebug:OpenTweakDBRecordInVSCodeIfRequested(tdbID) return end

@@ -11,7 +11,7 @@ RarityOfEquippedConsumableItemPrereq = {}
 function RarityOfEquippedConsumableItemPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function RarityOfEquippedConsumableItemPrereq:Initialize(recordID) return end
 

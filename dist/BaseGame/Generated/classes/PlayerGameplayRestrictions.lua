@@ -17,7 +17,7 @@ function PlayerGameplayRestrictions.AcquireHotkeyRestrictionTags(hotkey, hotkeyT
 ---@param enable Bool
 ---@param reason CName|string
 ---@param player PlayerPuppet
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return nil
 function PlayerGameplayRestrictions.ChangeFastTravelSystemState(enable, reason, player, statusEffectID) return end
 

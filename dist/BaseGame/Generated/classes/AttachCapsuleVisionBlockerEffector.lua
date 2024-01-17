@@ -29,8 +29,8 @@ function AttachCapsuleVisionBlockerEffector:ActionOff(owner) return end
 function AttachCapsuleVisionBlockerEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function AttachCapsuleVisionBlockerEffector:Initialize(record, parentRecord) return end
 

@@ -133,13 +133,13 @@ function ExplosiveDevice:DeterminGameplayRoleMappinRange(data) return end
 function ExplosiveDevice:DoAdditionalGameEffect(additionalGameEffect) return end
 
 ---@private
----@param damageType TweakDBID
+---@param damageType TweakDBID|string
 ---@param instigator? gameObject
 ---@return nil
 function ExplosiveDevice:DoAttack(damageType, instigator) return end
 
 ---@private
----@param damageType TweakDBID
+---@param damageType TweakDBID|string
 ---@return nil
 function ExplosiveDevice:DoPhysicsPulse(damageType) return end
 
@@ -155,7 +155,7 @@ function ExplosiveDevice:Explode(index, instigator) return end
 function ExplosiveDevice:Explosion(index) return end
 
 ---@protected
----@param attackTDBID TweakDBID
+---@param attackTDBID TweakDBID|string
 ---@return Float
 function ExplosiveDevice:GetAttackRange(attackTDBID) return end
 

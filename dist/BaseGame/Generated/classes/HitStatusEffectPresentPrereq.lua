@@ -12,6 +12,6 @@ HitStatusEffectPresentPrereq = {}
 function HitStatusEffectPresentPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitStatusEffectPresentPrereq:Initialize(recordID) return end

@@ -164,7 +164,7 @@ function gamestateMachineGameScriptInterface:GetInteractionManager() return end
 ---@return gameInventoryManager
 function gamestateMachineGameScriptInterface:GetInventoryManager() return end
 
----@param slotName TweakDBID
+---@param slotName TweakDBID|string
 ---@return gameItemID
 function gamestateMachineGameScriptInterface:GetItemIdInSlot(slotName) return end
 
@@ -454,7 +454,7 @@ function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end_) 
 ---@return Bool, physicsTraceResult result
 function gamestateMachineGameScriptInterface:LocomotionSweepTest(primitiveDimension, position, rotation, direction, distance, assumeInitialPositionClear) return end
 
----@param prereqName TweakDBID
+---@param prereqName TweakDBID|string
 ---@return Bool
 function gamestateMachineGameScriptInterface:MeetsPrerequisites(prereqName) return end
 
@@ -501,7 +501,7 @@ function gamestateMachineGameScriptInterface:RaycastMultipleHits(start, end_, qu
 ---@return physicsTraceResult
 function gamestateMachineGameScriptInterface:RaycastWithASingleGroup(start, end_, queryGroup) return end
 
----@param slotName TweakDBID
+---@param slotName TweakDBID|string
 ---@param itemId gameItemID
 ---@return nil
 function gamestateMachineGameScriptInterface:RequestWeaponEquipOnServer(slotName, itemId) return end

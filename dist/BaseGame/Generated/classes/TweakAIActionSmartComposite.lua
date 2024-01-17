@@ -46,7 +46,7 @@ function TweakAIActionSmartComposite:GetActionRecord(context, actionDebugName) r
 function TweakAIActionSmartComposite:GetFriendlyName() return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param smartCompositeID TweakDBID
+---@param smartCompositeID TweakDBID|string
 ---@param smartCompositeStringName String
 ---@return Bool, gamedataAIActionSmartComposite_Record smartCompositeRecord
 function TweakAIActionSmartComposite:GetSmartCompositeRecord(context, smartCompositeID, smartCompositeStringName) return end

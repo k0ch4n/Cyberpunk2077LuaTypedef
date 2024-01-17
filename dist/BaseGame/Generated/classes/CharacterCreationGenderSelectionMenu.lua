@@ -82,7 +82,7 @@ function CharacterCreationGenderSelectionMenu:OnOutro() return end
 function CharacterCreationGenderSelectionMenu:PlayAnim(animName, animProxy, callBack) return end
 
 ---@private
----@param lifePath TweakDBID
+---@param lifePath TweakDBID|string
 ---@return nil
 function CharacterCreationGenderSelectionMenu:SetAttributePreset(lifePath) return end
 

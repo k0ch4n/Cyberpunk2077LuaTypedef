@@ -15,8 +15,8 @@ function HardToKillDamageModificationEffector.new(fields) return end
 function HardToKillDamageModificationEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function HardToKillDamageModificationEffector:Initialize(record, parentRecord) return end
 

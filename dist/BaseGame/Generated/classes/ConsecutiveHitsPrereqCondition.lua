@@ -22,6 +22,6 @@ function ConsecutiveHitsPrereqCondition:Evaluate(hitEvent) return end
 ---@return nil
 function ConsecutiveHitsPrereqCondition:OnMissTriggered(missEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ConsecutiveHitsPrereqCondition:SetData(recordID) return end

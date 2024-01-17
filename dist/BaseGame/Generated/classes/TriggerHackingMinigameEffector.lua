@@ -28,8 +28,8 @@ function TriggerHackingMinigameEffector:OnItemCracked(value) return end
 function TriggerHackingMinigameEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function TriggerHackingMinigameEffector:Initialize(record, parentRecord) return end
 

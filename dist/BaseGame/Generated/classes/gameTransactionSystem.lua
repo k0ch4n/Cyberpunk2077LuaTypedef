@@ -9,7 +9,7 @@ gameTransactionSystem = {}
 function gameTransactionSystem.new(fields) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@param highPriority? Bool
 ---@param itemObject? gameItemObject
@@ -25,25 +25,25 @@ function gameTransactionSystem:AddItemToSlot(obj, slotID, itemID, highPriority, 
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param partItemID gameItemID
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@return Bool
 function gameTransactionSystem:AddPart(obj, itemID, partItemID, slotID) return end
 
 ---@param obj gameObject
 ---@param rootPartID gameItemID
 ---@param replacementPartID gameItemID
----@param slotIdForReplacement TweakDBID
+---@param slotIdForReplacement TweakDBID|string
 ---@return gameStatsBundleHandler
 function gameTransactionSystem:CalculateTemporaryStatsBundle(obj, rootPartID, replacementPartID, slotIdForReplacement) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:CanItemBeActiveInSlot(obj, slotID, itemID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:CanPlaceItemInSlot(obj, slotID, itemID) return end
@@ -64,7 +64,7 @@ function gameTransactionSystem:ChangeItemAppearanceByName(obj, itemID, newAppear
 function gameTransactionSystem:ChangeItemAppearanceWithItemData() return end
 
 ---@param obj gameObject
----@param newSlotID TweakDBID
+---@param newSlotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:ChangeItemToSlot(obj, newSlotID, itemID) return end
@@ -74,7 +74,7 @@ function gameTransactionSystem:ChangeItemToSlot(obj, newSlotID, itemID) return e
 function gameTransactionSystem:ClearAllSlots(obj) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function gameTransactionSystem:ClearAttachmentAppearance(obj, slotID) return end
 
@@ -83,12 +83,12 @@ function gameTransactionSystem:ClearAttachmentAppearance(obj, slotID) return end
 function gameTransactionSystem:CreatePreviewItemID(itemID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameItemID
 function gameTransactionSystem:CycleActiveItemInSlot(obj, slotID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param shouldDestroyEntity? Bool
 ---@param keepWorldTransform? Bool
 ---@param skipSendAnimEquipEvents? Bool
@@ -96,7 +96,7 @@ function gameTransactionSystem:CycleActiveItemInSlot(obj, slotID) return end
 function gameTransactionSystem:DropItemFromSlot(obj, slotID, shouldDestroyEntity, keepWorldTransform, skipSendAnimEquipEvents) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param highPriority Bool
 ---@return Bool
 function gameTransactionSystem:EquipActiveItemInSlot(obj, slotID, highPriority) return end
@@ -104,12 +104,12 @@ function gameTransactionSystem:EquipActiveItemInSlot(obj, slotID, highPriority) 
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param partItemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameTransactionSystem:ForcePartInSlot(obj, itemID, partItemID, slotID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameItemID
 function gameTransactionSystem:GetActiveItemInSlot(obj, slotID) return end
 
@@ -139,12 +139,12 @@ function gameTransactionSystem:GetItemData(obj, itemID) return end
 function gameTransactionSystem:GetItemDataByOwnerEntityId(id, itemID) return end
 
 ---@param obj gameObject
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return gameItemData
 function gameTransactionSystem:GetItemDataByTDBID(obj, itemTDBID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameItemObject
 function gameTransactionSystem:GetItemInSlot(obj, slotID) return end
 
@@ -195,12 +195,12 @@ function gameTransactionSystem:GetItemQuantityWithDuplicates(obj, itemID) return
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil, gameItemID[] installableItems
 function gameTransactionSystem:GetItemsInstallableInSlot(obj, itemID, slotID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return gameItemID
 function gameTransactionSystem:GetNextActiveItemInSlot(obj, slotID) return end
 
@@ -236,7 +236,7 @@ function gameTransactionSystem:GetVisualTagsByItemID(itemID, owner) return end
 function gameTransactionSystem:GiveItem(obj, itemID, amount, dynamicTags) return end
 
 ---@param obj gameObject
----@param itemQueryTDBID TweakDBID
+---@param itemQueryTDBID TweakDBID|string
 ---@param seed? Uint64
 ---@return Bool
 function gameTransactionSystem:GiveItemByItemArrayQuery(obj, itemQueryTDBID, seed) return end
@@ -247,7 +247,7 @@ function gameTransactionSystem:GiveItemByItemArrayQuery(obj, itemQueryTDBID, see
 function gameTransactionSystem:GiveItemByItemData(obj, itemData) return end
 
 ---@param obj gameObject
----@param itemQueryTDBID TweakDBID
+---@param itemQueryTDBID TweakDBID|string
 ---@param amount? Uint32
 ---@param seed? Uint64
 ---@param telemetryLogSource? String
@@ -255,7 +255,7 @@ function gameTransactionSystem:GiveItemByItemData(obj, itemData) return end
 function gameTransactionSystem:GiveItemByItemQuery(obj, itemQueryTDBID, amount, seed, telemetryLogSource) return end
 
 ---@param obj gameObject
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@param amount Int32
 ---@return Bool
 function gameTransactionSystem:GiveItemByTDBID(obj, tdbID, amount) return end
@@ -287,7 +287,7 @@ function gameTransactionSystem:GivePreviewItemByItemID(obj, itemID) return end
 function gameTransactionSystem:HasItem(obj, itemID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:HasItemDataInSlot(obj, slotID, itemID) return end
@@ -298,7 +298,7 @@ function gameTransactionSystem:HasItemDataInSlot(obj, slotID, itemID) return end
 function gameTransactionSystem:HasItemInAnySlot(obj, itemID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:HasItemInSlot(obj, slotID, itemID) return end
@@ -314,12 +314,12 @@ function gameTransactionSystem:HasTag(obj, tag, itemID) return end
 function gameTransactionSystem:InitializeSlots(obj) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameTransactionSystem:IsSlotEmpty(obj, slotID) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return Bool
 function gameTransactionSystem:IsSlotEmptySpawningItem(obj, slotID) return end
 
@@ -388,7 +388,7 @@ function gameTransactionSystem:RemoveAllItems(obj) return end
 function gameTransactionSystem:RemoveItem(obj, itemID, amount) return end
 
 ---@param obj gameObject
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@param amount Int32
 ---@param checkMultipleInstances? Bool
 ---@return Bool
@@ -402,7 +402,7 @@ function gameTransactionSystem:RemoveItemByTDBID(obj, tdbID, amount, checkMultip
 function gameTransactionSystem:RemoveItemFromAnySlot(obj, itemID, shouldDestroyEntity, keepWorldTransform) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param shouldDestroyEntity? Bool
 ---@param keepWorldTransform? Bool
 ---@param skipSendAnimEquipEvents? Bool
@@ -417,7 +417,7 @@ function gameTransactionSystem:RemoveMoney(obj, amount, currency) return end
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param shouldUpdateEntity? Bool
 ---@return gameItemID
 function gameTransactionSystem:RemovePart(obj, itemID, slotID, shouldUpdateEntity) return end
@@ -427,15 +427,15 @@ function gameTransactionSystem:RemovePart(obj, itemID, slotID, shouldUpdateEntit
 ---@return nil
 function gameTransactionSystem:ResetItemAppearance(obj, itemID) return end
 
----@param itemQueryTDBID TweakDBID
----@param excludeItems? TweakDBID[]
+---@param itemQueryTDBID TweakDBID|string
+---@param excludeItems? TweakDBID[]|string[]
 ---@param uniquesOnly? Bool
 ---@param context? gameObject
 ---@param seed? Uint64
 ---@return nil, gamedataItem_Record[] itemRecords
 function gameTransactionSystem:RunItemArrayQuery(itemQueryTDBID, excludeItems, uniquesOnly, context, seed) return end
 
----@param itemQueryTDBID TweakDBID
+---@param itemQueryTDBID TweakDBID|string
 ---@param context? gameObject
 ---@param seed? Uint64
 ---@return gamedataItem_Record
@@ -460,7 +460,7 @@ function gameTransactionSystem:SellItem(seller, buyer, itemID, amount, currency,
 function gameTransactionSystem:SellItemStrict(seller, buyer, itemID, amount, currency, price) return end
 
 ---@param obj gameObject
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@return Bool
 function gameTransactionSystem:SetActiveItemInSlot(obj, slotID, itemID) return end

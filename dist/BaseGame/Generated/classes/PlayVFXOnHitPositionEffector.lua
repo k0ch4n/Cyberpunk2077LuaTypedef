@@ -17,8 +17,8 @@ function PlayVFXOnHitPositionEffector.new(fields) return end
 function PlayVFXOnHitPositionEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function PlayVFXOnHitPositionEffector:Initialize(record, parentRecord) return end
 

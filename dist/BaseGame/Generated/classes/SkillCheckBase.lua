@@ -51,7 +51,7 @@ function SkillCheckBase:IsDynamic() return end
 ---@return Bool
 function SkillCheckBase:IsPassed() return end
 
----@param name TweakDBID
+---@param name TweakDBID|string
 ---@return nil
 function SkillCheckBase:SetAlternativeName(name) return end
 

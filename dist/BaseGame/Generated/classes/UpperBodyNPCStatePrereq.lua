@@ -14,7 +14,7 @@ function UpperBodyNPCStatePrereq.new(fields) return end
 function UpperBodyNPCStatePrereq:GetStateToCheck() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function UpperBodyNPCStatePrereq:Initialize(recordID) return end
 

@@ -20,8 +20,8 @@ function OverrideRangedAttackPackageEffector:ActionOff(owner) return end
 function OverrideRangedAttackPackageEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function OverrideRangedAttackPackageEffector:Initialize(record, parentRecord) return end
 

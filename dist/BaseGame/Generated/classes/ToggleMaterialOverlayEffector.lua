@@ -22,8 +22,8 @@ function ToggleMaterialOverlayEffector:ActionOff(owner) return end
 function ToggleMaterialOverlayEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ToggleMaterialOverlayEffector:Initialize(record, parentRecord) return end
 

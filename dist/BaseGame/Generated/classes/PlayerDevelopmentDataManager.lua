@@ -32,20 +32,20 @@ function PlayerDevelopmentDataManager:GetAreaDisplayData(perkArea, proficiency, 
 
 ---@param perkArea gamedataPerkArea
 ---@param proficiency gamedataProficiencyType
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@param playerDevelopmentData? PlayerDevelopmentData
 ---@return AreaDisplayData
 function PlayerDevelopmentDataManager:GetAreaDisplayData(perkArea, proficiency, attributeId, playerDevelopmentData) return end
 
----@param attributeID TweakDBID
+---@param attributeID TweakDBID|string
 ---@return AttributeData
 function PlayerDevelopmentDataManager:GetAttribute(attributeID) return end
 
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@return AttributeDisplayData
 function PlayerDevelopmentDataManager:GetAttributeData(attributeId) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return PerkMenuAttribute
 function PlayerDevelopmentDataManager:GetAttributeEnumFromRecordID(recordID) return end
 
@@ -75,7 +75,7 @@ function PlayerDevelopmentDataManager:GetAttributes() return end
 ---@param perkType gamedataNewPerkType
 ---@param perkArea gamedataNewPerkSlotType
 ---@param proficiency gamedataProficiencyType
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@param isRipperdoc Bool
 ---@param playerDevelopmentData? PlayerDevelopmentData
 ---@return NewPerkDisplayData
@@ -97,7 +97,7 @@ function PlayerDevelopmentDataManager:GetPassiveBonusDisplayData(proficiencyReco
 ---@param perkType gamedataPerkType
 ---@param perkArea gamedataPerkArea
 ---@param proficiency gamedataProficiencyType
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@param playerDevelopmentData? PlayerDevelopmentData
 ---@return PerkDisplayData
 function PlayerDevelopmentDataManager:GetPerkDisplayData(perkType, perkArea, proficiency, attributeId, playerDevelopmentData) return end
@@ -131,7 +131,7 @@ function PlayerDevelopmentDataManager:GetPlayerDevelopmentSystem() return end
 function PlayerDevelopmentDataManager:GetProficiencyDisplayData(proficiency) return end
 
 ---@param proficiency gamedataProficiencyType
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@return ProficiencyDisplayData
 function PlayerDevelopmentDataManager:GetProficiencyDisplayData(proficiency, attributeId) return end
 
@@ -172,15 +172,15 @@ function PlayerDevelopmentDataManager:GetSpyPerkPoints() return end
 ---@return Int32
 function PlayerDevelopmentDataManager:GetTotalRespecCost() return end
 
----@param traitRecordId TweakDBID
----@param attributeId TweakDBID
+---@param traitRecordId TweakDBID|string
+---@param attributeId TweakDBID|string
 ---@param proficiency gamedataProficiencyType
 ---@param playerDevelopmentData? PlayerDevelopmentData
 ---@return TraitDisplayData
 function PlayerDevelopmentDataManager:GetTraitDisplayData(traitRecordId, attributeId, proficiency, playerDevelopmentData) return end
 
 ---@param traitType gamedataTraitType
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@param proficiency gamedataProficiencyType
 ---@param playerDevelopmentData? PlayerDevelopmentData
 ---@return TraitDisplayData
@@ -224,7 +224,7 @@ function PlayerDevelopmentDataManager:IsNewPerkRefundable(data) return end
 function PlayerDevelopmentDataManager:IsPerkUpgradeable(data, showNotification) return end
 
 ---@private
----@param attributeId TweakDBID
+---@param attributeId TweakDBID|string
 ---@return nil
 function PlayerDevelopmentDataManager:NotifyAttributeUpdate(attributeId) return end
 

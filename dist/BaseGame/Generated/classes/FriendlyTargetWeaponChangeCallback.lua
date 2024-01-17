@@ -9,7 +9,7 @@ FriendlyTargetWeaponChangeCallback = {}
 ---@return FriendlyTargetWeaponChangeCallback
 function FriendlyTargetWeaponChangeCallback.new(fields) return end
 
----@param slotIDArg TweakDBID
+---@param slotIDArg TweakDBID|string
 ---@param itemIDArg gameItemID
 ---@return nil
 function FriendlyTargetWeaponChangeCallback:OnItemEquipped(slotIDArg, itemIDArg) return end

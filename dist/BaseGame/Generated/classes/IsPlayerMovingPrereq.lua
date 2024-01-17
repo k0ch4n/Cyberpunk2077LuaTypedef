@@ -23,7 +23,7 @@ function IsPlayerMovingPrereq:GetCurrentPSMStateIndex(bb) return end
 function IsPlayerMovingPrereq:GetStateMachineEnum() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsPlayerMovingPrereq:Initialize(recordID) return end
 

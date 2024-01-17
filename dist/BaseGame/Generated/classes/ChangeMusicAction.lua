@@ -33,6 +33,6 @@ function ChangeMusicAction:GetTweakDBChoiceRecord() return end
 function ChangeMusicAction:SetProperties(settings) return end
 
 ---@param settings MusicSettings
----@param nameOnTrue TweakDBID
+---@param nameOnTrue TweakDBID|string
 ---@return nil
 function ChangeMusicAction:SetProperties(settings, nameOnTrue) return end

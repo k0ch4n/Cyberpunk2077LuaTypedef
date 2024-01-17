@@ -15,8 +15,8 @@ function SadismEffector.new(fields) return end
 function SadismEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SadismEffector:Initialize(record, parentRecord) return end
 

@@ -24,7 +24,7 @@ function ClothingSetIconButton:OnSetIconClick(e) return end
 ---@return Bool
 function ClothingSetIconButton:OnUninitialize() return end
 
----@param iconID TweakDBID
+---@param iconID TweakDBID|string
 ---@param choosen Bool
 ---@return nil
 function ClothingSetIconButton:SetIcon(iconID, choosen) return end

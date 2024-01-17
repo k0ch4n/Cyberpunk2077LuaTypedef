@@ -15,6 +15,6 @@ function AmmoStateHitPrereqCondition.new(fields) return end
 ---@return Bool
 function AmmoStateHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function AmmoStateHitPrereqCondition:SetData(recordID) return end

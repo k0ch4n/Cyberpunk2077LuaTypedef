@@ -23,8 +23,8 @@ function ApplyShaderOnEquipmentEffector:ActionOn(owner) return end
 function ApplyShaderOnEquipmentEffector:GetAttachmentSlotsForEquipment() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyShaderOnEquipmentEffector:Initialize(record, parentRecord) return end
 

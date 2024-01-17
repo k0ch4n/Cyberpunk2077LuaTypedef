@@ -11,7 +11,7 @@ CraftBook = {}
 ---@return CraftBook
 function CraftBook.new(fields) return end
 
----@param targetItem TweakDBID
+---@param targetItem TweakDBID|string
 ---@param hideOnItemsAdded? gamedataItem_Record[]
 ---@param amount? Int32
 ---@return nil
@@ -23,15 +23,15 @@ function CraftBook:GetCraftableItems() return end
 ---@return gameObject
 function CraftBook:GetOwner() return end
 
----@param Recipe TweakDBID
+---@param Recipe TweakDBID|string
 ---@return ItemRecipe
 function CraftBook:GetRecipeData(Recipe) return end
 
----@param recipe TweakDBID
+---@param recipe TweakDBID|string
 ---@return Int32
 function CraftBook:GetRecipeIndex(recipe) return end
 
----@param recipe TweakDBID
+---@param recipe TweakDBID|string
 ---@param shouldHide Bool
 ---@return Bool
 function CraftBook:HideRecipe(recipe, shouldHide) return end
@@ -48,17 +48,17 @@ function CraftBook:InitializeCraftBook(owner, recipes) return end
 ---@return nil
 function CraftBook:InitializeCraftBookOwner(owner) return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return Bool
 function CraftBook:IsRecipeNew(itemID) return end
 
----@param recipe TweakDBID
+---@param recipe TweakDBID|string
 ---@return Bool
 function CraftBook:KnowsRecipe(recipe) return end
 
 ---@return nil
 function CraftBook:ResetRecipeCraftedAmount() return end
 
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return nil
 function CraftBook:SetRecipeInspected(itemID) return end

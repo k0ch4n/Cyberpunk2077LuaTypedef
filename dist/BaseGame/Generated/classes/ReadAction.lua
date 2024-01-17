@@ -8,7 +8,7 @@ ReadAction = {}
 ---@return ReadAction
 function ReadAction.new(fields) return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return String
 function ReadAction.GetJournalEntryFromAction(actionID) return end
 

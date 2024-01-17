@@ -43,23 +43,23 @@ function HoloAudioCallLogicController:SetStatusText(statusText) return end
 ---@return nil
 function HoloAudioCallLogicController:Show() return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HoloAudioCallLogicController:ShowEndCallContact(avatarID, contactName) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HoloAudioCallLogicController:ShowIncomingContact(avatarID, contactName) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@param showAvatar Bool
 ---@return nil
 function HoloAudioCallLogicController:StartAudiocall(avatarID, contactName, showAvatar) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HoloAudioCallLogicController:StartHolocall(avatarID, contactName) return end

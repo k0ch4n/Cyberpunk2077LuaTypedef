@@ -12,7 +12,7 @@ function IdleActions.new(fields) return end
 function IdleActions:GetFriendlyName() return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param smartCompositeID TweakDBID
+---@param smartCompositeID TweakDBID|string
 ---@param smartCompositeDebugName String
 ---@return Bool, gamedataAIActionSmartComposite_Record smartCompositeRecord
 function IdleActions:GetSmartCompositeRecord(context, smartCompositeID, smartCompositeDebugName) return end

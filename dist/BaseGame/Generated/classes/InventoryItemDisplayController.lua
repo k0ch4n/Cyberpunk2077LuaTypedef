@@ -578,14 +578,14 @@ function InventoryItemDisplayController:Setup(tooltipData) return end
 
 ---@param inventoryDataManager InventoryDataManagerV2
 ---@param itemData gameInventoryItemData
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param displayContext? gameItemDisplayContext
 ---@param forceUpdateCounter? Bool
 ---@return nil
 function InventoryItemDisplayController:Setup(inventoryDataManager, itemData, slotID, displayContext, forceUpdateCounter) return end
 
 ---@param itemData gameInventoryItemData
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
 function InventoryItemDisplayController:Setup(itemData, slotID, displayContext) return end
@@ -637,7 +637,7 @@ function InventoryItemDisplayController:UpdateIsNewIndicator() return end
 function InventoryItemDisplayController:UpdateItemName() return end
 
 ---@param item? gameInventoryItemData
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool
@@ -658,7 +658,7 @@ function InventoryItemDisplayController:UpdateMods() return end
 
 ---@protected
 ---@param item? gameInventoryItemData
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool
@@ -695,7 +695,7 @@ function InventoryItemDisplayController:UpdateRecipeIcon() return end
 function InventoryItemDisplayController:UpdateRequirements() return end
 
 ---@param item? gameInventoryItemData
----@param slotID? TweakDBID
+---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool

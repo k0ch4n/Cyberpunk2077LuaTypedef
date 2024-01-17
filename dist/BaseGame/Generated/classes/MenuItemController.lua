@@ -101,7 +101,7 @@ function MenuItemController:SetHoverPanel(hoverPanel) return end
 function MenuItemController:SetHyperlink(value) return end
 
 ---@param label String
----@param iconTweak TweakDBID
+---@param iconTweak TweakDBID|string
 ---@return nil
 function MenuItemController:UpdateButton(label, iconTweak) return end
 

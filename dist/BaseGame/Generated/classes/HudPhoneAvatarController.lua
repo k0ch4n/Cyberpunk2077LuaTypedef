@@ -79,7 +79,7 @@ function HudPhoneAvatarController:OnElementAnimationsFinished() return end
 function HudPhoneAvatarController:PlayElementAnimations() return end
 
 ---@private
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@param mode EHudAvatarMode
 ---@return nil
@@ -106,23 +106,23 @@ function HudPhoneAvatarController:SetStatusText(statusText) return end
 ---@return nil
 function HudPhoneAvatarController:ShowAvatar(showAvatar) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HudPhoneAvatarController:ShowEndCallContact(avatarID, contactName) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HudPhoneAvatarController:ShowIncomingContact(avatarID, contactName) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@param showAvatar Bool
 ---@return nil
 function HudPhoneAvatarController:StartAudiocall(avatarID, contactName, showAvatar) return end
 
----@param avatarID TweakDBID
+---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
 function HudPhoneAvatarController:StartHolocall(avatarID, contactName) return end

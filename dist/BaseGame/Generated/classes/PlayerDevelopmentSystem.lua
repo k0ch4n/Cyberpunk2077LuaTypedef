@@ -341,8 +341,8 @@ function PlayerDevelopmentSystem:ResetProgressionForNewPerks() return end
 ---@private
 ---@param player PlayerPuppet
 ---@param transactionSystem gameTransactionSystem
----@param requirementID TweakDBID
----@param itemIDs TweakDBID[]
+---@param requirementID TweakDBID|string
+---@param itemIDs TweakDBID[]|string[]
 ---@return Bool
 function PlayerDevelopmentSystem:RetrofixCraftingComponent(player, transactionSystem, requirementID, itemIDs) return end
 

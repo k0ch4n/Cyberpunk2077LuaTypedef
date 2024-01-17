@@ -108,7 +108,7 @@ function AIbehaviorScriptExecutionContext.GetLOD(context) return end
 function AIbehaviorScriptExecutionContext.GetMappingValue(context, mapping) return end
 
 ---@param context AIbehaviorScriptExecutionContext
----@param nodeId TweakDBID
+---@param nodeId TweakDBID|string
 ---@param lookupDefault Bool
 ---@return Bool, gamedataAIRecord_Record result
 function AIbehaviorScriptExecutionContext.GetOverriddenNode(context, nodeId, lookupDefault) return end

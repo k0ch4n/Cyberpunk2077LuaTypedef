@@ -23,7 +23,7 @@ function PlayerPuppetPS.new(fields) return end
 function PlayerPuppetPS:AddMinigameProgram(program) return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return gameuiMinigameProgramData
 function PlayerPuppetPS:DecideProgramToAdd(id) return end
 
@@ -50,12 +50,12 @@ function PlayerPuppetPS:GetPermanentStaminaBonus() return end
 function PlayerPuppetPS:HasAutoReveal() return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return Bool
 function PlayerPuppetPS:HasProgram(id) return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@param programs gameuiMinigameProgramData[]
 ---@return Bool
 function PlayerPuppetPS:HasProgram(id, programs) return end
@@ -74,7 +74,7 @@ function PlayerPuppetPS:OnStoreMinigameProgram(evt) return end
 function PlayerPuppetPS:RemoveMinigameProgram(program) return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function PlayerPuppetPS:RemoveProgram(id) return end
 
@@ -103,6 +103,6 @@ function PlayerPuppetPS:SetPermanentMemoryBonus(value) return end
 function PlayerPuppetPS:SetPermanentStaminaBonus(value) return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function PlayerPuppetPS:UpgradePrograms(id) return end

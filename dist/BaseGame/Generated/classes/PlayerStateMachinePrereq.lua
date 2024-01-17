@@ -28,7 +28,7 @@ function PlayerStateMachinePrereq:GetCurrentPSMStateIndex(bb) return end
 function PlayerStateMachinePrereq:GetStateMachineEnum() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PlayerStateMachinePrereq:Initialize(recordID) return end
 

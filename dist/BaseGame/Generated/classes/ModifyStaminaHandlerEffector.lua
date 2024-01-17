@@ -20,8 +20,8 @@ function ModifyStaminaHandlerEffector:ActionOff(owner) return end
 function ModifyStaminaHandlerEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyStaminaHandlerEffector:Initialize(record, parentRecord) return end
 

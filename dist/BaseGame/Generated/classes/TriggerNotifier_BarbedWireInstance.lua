@@ -24,7 +24,7 @@ function TriggerNotifier_BarbedWireInstance:OnAreaExit(evt) return end
 function TriggerNotifier_BarbedWireInstance:CanAttackActivator(activator) return end
 
 ---@protected
----@param attackRecord TweakDBID
+---@param attackRecord TweakDBID|string
 ---@param target gameObject
 ---@return nil
 function TriggerNotifier_BarbedWireInstance:DoAttack(attackRecord, target) return end

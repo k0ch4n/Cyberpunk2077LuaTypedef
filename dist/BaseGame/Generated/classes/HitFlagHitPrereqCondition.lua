@@ -14,6 +14,6 @@ function HitFlagHitPrereqCondition.new(fields) return end
 ---@return Bool
 function HitFlagHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitFlagHitPrereqCondition:SetData(recordID) return end

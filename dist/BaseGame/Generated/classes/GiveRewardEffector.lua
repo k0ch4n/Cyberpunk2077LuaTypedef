@@ -21,8 +21,8 @@ function GiveRewardEffector:ActionOff(owner) return end
 function GiveRewardEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function GiveRewardEffector:Initialize(record, parentRecord) return end
 

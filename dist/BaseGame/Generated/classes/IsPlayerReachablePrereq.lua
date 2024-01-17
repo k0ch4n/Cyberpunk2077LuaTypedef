@@ -21,7 +21,7 @@ function IsPlayerReachablePrereq.new(fields) return end
 function IsPlayerReachablePrereq:GetFinalResult(result) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsPlayerReachablePrereq:Initialize(recordID) return end
 

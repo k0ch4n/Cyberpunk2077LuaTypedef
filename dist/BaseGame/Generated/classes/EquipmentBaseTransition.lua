@@ -70,7 +70,7 @@ function EquipmentBaseTransition:ClearRightHandItemParam(stateContext) return en
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param weaponTweakID TweakDBID
+---@param weaponTweakID TweakDBID|string
 ---@return nil
 function EquipmentBaseTransition:CreateAndSendFirstEquipEndRequest(scriptInterface, weaponTweakID) return end
 

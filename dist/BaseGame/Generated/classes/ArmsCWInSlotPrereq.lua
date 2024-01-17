@@ -31,7 +31,7 @@ function ArmsCWInSlotPrereq:EvaluateTag(itemID, tag) return end
 function ArmsCWInSlotPrereq:EvaluateType(itemType) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ArmsCWInSlotPrereq:Initialize(recordID) return end
 

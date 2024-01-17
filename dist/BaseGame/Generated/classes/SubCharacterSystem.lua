@@ -11,11 +11,11 @@ SubCharacterSystem = {}
 ---@return SubCharacterSystem
 function SubCharacterSystem.new(fields) return end
 
----@param characterID? TweakDBID
+---@param characterID? TweakDBID|string
 ---@return Bool
 function SubCharacterSystem.CancelDespawnRequest(characterID) return end
 
----@param characterID? TweakDBID
+---@param characterID? TweakDBID|string
 ---@return Bool
 function SubCharacterSystem.DespawnRequest(characterID) return end
 
@@ -26,7 +26,7 @@ function SubCharacterSystem.GetInstance() return end
 ---@return Bool
 function SubCharacterSystem.IsFlathead(object) return end
 
----@param characterID? TweakDBID
+---@param characterID? TweakDBID|string
 ---@return Bool
 function SubCharacterSystem.IsSubCharacterSpawned(characterID) return end
 

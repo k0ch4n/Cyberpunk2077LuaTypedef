@@ -33,8 +33,8 @@ function DetectionMeterEffector:ActionOff(owner) return end
 function DetectionMeterEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function DetectionMeterEffector:Initialize(record, parentRecord) return end
 

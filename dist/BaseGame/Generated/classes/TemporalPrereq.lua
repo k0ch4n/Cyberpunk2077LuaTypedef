@@ -10,7 +10,7 @@ TemporalPrereq = {}
 function TemporalPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function TemporalPrereq:Initialize(recordID) return end
 

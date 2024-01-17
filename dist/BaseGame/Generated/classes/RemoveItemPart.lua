@@ -13,6 +13,6 @@ function RemoveItemPart.new(fields) return end
 
 ---@param object gameObject
 ---@param item gameItemID
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return nil
 function RemoveItemPart:Set(object, item, slot) return end

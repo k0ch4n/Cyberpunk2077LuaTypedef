@@ -32,7 +32,7 @@ function gameuiWardrobeSetPreviewGameController:PreviewEquipItem(itemID) return 
 ---@return nil
 function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromEquipmentArea(equipmentArea) return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromSlot(slotID) return end
 
@@ -78,7 +78,7 @@ function gameuiWardrobeSetPreviewGameController:OnUninitialize() return end
 ---@return nil
 function gameuiWardrobeSetPreviewGameController:CleanUpPuppet() return end
 
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@return nil
 function gameuiWardrobeSetPreviewGameController:DelayedResetItemAppearanceInSlot(slotID) return end
 

@@ -10,8 +10,8 @@ SetAttackHitTypeEffector = {}
 function SetAttackHitTypeEffector.new(fields) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SetAttackHitTypeEffector:Initialize(record, parentRecord) return end
 

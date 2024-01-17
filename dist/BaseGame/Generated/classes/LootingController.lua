@@ -109,7 +109,7 @@ function LootingController:GetOrCreateUIInventoryItem(itemData) return end
 function LootingController:GetShardData(itemRecord) return end
 
 ---@private
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return gameJournalOnscreen
 function LootingController:GetShardData(itemTDBID) return end
 

@@ -18,8 +18,8 @@ function ConvertDamageToDoTEffector.new(fields) return end
 function ConvertDamageToDoTEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ConvertDamageToDoTEffector:Initialize(record, parentRecord) return end
 

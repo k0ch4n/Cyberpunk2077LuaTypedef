@@ -10,7 +10,7 @@ NPCIsAggressivePrereq = {}
 function NPCIsAggressivePrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCIsAggressivePrereq:Initialize(recordID) return end
 

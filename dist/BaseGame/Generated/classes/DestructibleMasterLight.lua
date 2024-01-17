@@ -42,7 +42,7 @@ function DestructibleMasterLight:OnTakeControl(ri) return end
 
 ---@private
 ---@param light gameLightComponent
----@param preset TweakDBID
+---@param preset TweakDBID|string
 ---@return nil
 function DestructibleMasterLight:ApplyPreset(light, preset) return end
 

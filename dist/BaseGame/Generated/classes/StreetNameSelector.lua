@@ -12,6 +12,6 @@ function StreetNameSelector.new(fields) return end
 ---@return TweakDBID
 function StreetNameSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StreetNameSelector:SetRecordID(recordID) return end

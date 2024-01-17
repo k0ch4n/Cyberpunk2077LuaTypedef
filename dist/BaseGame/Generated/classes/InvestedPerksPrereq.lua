@@ -17,7 +17,7 @@ function InvestedPerksPrereq:GetProficiencyType() return end
 function InvestedPerksPrereq:GetRequiredAmount() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function InvestedPerksPrereq:Initialize(recordID) return end
 

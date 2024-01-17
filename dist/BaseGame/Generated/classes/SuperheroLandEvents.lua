@@ -34,7 +34,7 @@ function SuperheroLandEvents:OnUpdate(timeDelta, stateContext, scriptInterface) 
 
 ---@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@param propagationRate Float
 ---@param rangeModifier Float
 ---@param height Float

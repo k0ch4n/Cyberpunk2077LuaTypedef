@@ -10,7 +10,7 @@ AmmoStateHitTriggeredPrereq = {}
 function AmmoStateHitTriggeredPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function AmmoStateHitTriggeredPrereq:Initialize(recordID) return end
 

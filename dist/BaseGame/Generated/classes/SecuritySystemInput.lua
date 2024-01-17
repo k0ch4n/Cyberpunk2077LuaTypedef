@@ -108,7 +108,7 @@ function SecuritySystemInput:SetProperties(lkp, whoBreached, reporter, type, can
 ---@return nil
 function SecuritySystemInput:SetProperties(lkp, whoBreached, reporter, type, canDoReprimand, shouldLeadReprimand, id, customRecipients, isSharingRestricted) return end
 
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function SecuritySystemInput:SetPuppetCharacterRecord(record) return end
 

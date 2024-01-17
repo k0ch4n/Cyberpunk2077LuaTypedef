@@ -9,17 +9,17 @@ ArmsCWInSlotCallback = {}
 ---@return ArmsCWInSlotCallback
 function ArmsCWInSlotCallback.new(fields) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ArmsCWInSlotCallback:OnAttachmentRefreshed(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ArmsCWInSlotCallback:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function ArmsCWInSlotCallback:OnItemUnequipped(slot, item) return end

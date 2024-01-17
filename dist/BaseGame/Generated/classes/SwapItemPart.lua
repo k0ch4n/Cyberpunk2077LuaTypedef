@@ -15,6 +15,6 @@ function SwapItemPart.new(fields) return end
 ---@param object gameObject
 ---@param item gameItemID
 ---@param part gameItemID
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return nil
 function SwapItemPart:Set(object, item, part, slot) return end

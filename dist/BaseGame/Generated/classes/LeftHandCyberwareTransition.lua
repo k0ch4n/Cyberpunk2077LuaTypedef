@@ -63,7 +63,7 @@ function LeftHandCyberwareTransition:GetMaxActiveTime(scriptInterface) return en
 function LeftHandCyberwareTransition:GetMaxChargeThreshold(scriptInterface) return end
 
 ---@protected
----@param weaponTweak TweakDBID
+---@param weaponTweak TweakDBID|string
 ---@return CName
 function LeftHandCyberwareTransition:GetProjectileTemplateNameFromWeaponDefinition(weaponTweak) return end
 

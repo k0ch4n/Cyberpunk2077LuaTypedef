@@ -13,8 +13,8 @@ ModifyCritWithDistance = {}
 function ModifyCritWithDistance.new(fields) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyCritWithDistance:Initialize(record, parentRecord) return end
 

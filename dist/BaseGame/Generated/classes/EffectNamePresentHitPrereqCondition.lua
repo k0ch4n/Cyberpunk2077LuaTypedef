@@ -13,6 +13,6 @@ function EffectNamePresentHitPrereqCondition.new(fields) return end
 ---@return Bool
 function EffectNamePresentHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function EffectNamePresentHitPrereqCondition:SetData(recordID) return end

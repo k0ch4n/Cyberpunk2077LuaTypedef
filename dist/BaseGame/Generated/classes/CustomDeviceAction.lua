@@ -30,7 +30,7 @@ function CustomDeviceAction:GetActivationTime() return end
 ---@return Bool
 function CustomDeviceAction:IsCustomClearanceValid(clearance) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function CustomDeviceAction:SetObjectActionID(id) return end
 

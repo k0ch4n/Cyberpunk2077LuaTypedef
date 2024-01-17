@@ -43,8 +43,8 @@ function StatPoolBasedStatusEffectEffector:ActionOn(owner) return end
 function StatPoolBasedStatusEffectEffector:Clear() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function StatPoolBasedStatusEffectEffector:Initialize(record, parentRecord) return end
 

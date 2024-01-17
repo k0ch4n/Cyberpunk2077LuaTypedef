@@ -19,8 +19,8 @@ function LimfaticNanoChargeSystemEffector.new(fields) return end
 function LimfaticNanoChargeSystemEffector:ContinuousAction(owner, instigator) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function LimfaticNanoChargeSystemEffector:Initialize(record, parentRecord) return end
 

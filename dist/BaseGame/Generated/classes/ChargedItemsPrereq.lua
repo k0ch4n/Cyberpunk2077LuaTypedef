@@ -11,7 +11,7 @@ ChargedItemsPrereq = {}
 function ChargedItemsPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ChargedItemsPrereq:Initialize(recordID) return end
 

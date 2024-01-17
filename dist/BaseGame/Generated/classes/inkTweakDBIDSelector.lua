@@ -12,6 +12,6 @@ function inkTweakDBIDSelector.new(fields) return end
 ---@return TweakDBID
 function inkTweakDBIDSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function inkTweakDBIDSelector:SetRecordID(recordID) return end

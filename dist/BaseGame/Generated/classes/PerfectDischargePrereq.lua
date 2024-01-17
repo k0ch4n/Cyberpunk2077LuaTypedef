@@ -16,7 +16,7 @@ function PerfectDischargePrereq.new(fields) return end
 function PerfectDischargePrereq:AddTimeWindow(player, isDischargePerfect, state) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PerfectDischargePrereq:Initialize(recordID) return end
 

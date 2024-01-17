@@ -39,7 +39,7 @@ function EquipmentSystemPlayerData.UpdateArmSlot(owner, itemToDraw, equipHolster
 
 ---@private
 ---@param transactionSystem gameTransactionSystem
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param itemID gameItemID
 ---@param area gamedataEquipmentArea
 ---@return Bool
@@ -57,7 +57,7 @@ function EquipmentSystemPlayerData:AddVisualItemToSlot(transactionSystem, area) 
 function EquipmentSystemPlayerData:ApplyEquipGLPs(itemID) return end
 
 ---@private
----@param equipSlotID TweakDBID
+---@param equipSlotID TweakDBID|string
 ---@return nil
 function EquipmentSystemPlayerData:ApplySlotGLPs(equipSlotID) return end
 
@@ -307,7 +307,7 @@ function EquipmentSystemPlayerData:GetEquipAreaFromItemID(item) return end
 function EquipmentSystemPlayerData:GetEquipAreaIndex(areaType) return end
 
 ---@private
----@param equipAreaID TweakDBID
+---@param equipAreaID TweakDBID|string
 ---@return Int32
 function EquipmentSystemPlayerData:GetEquipAreaIndex(equipAreaID) return end
 
@@ -354,7 +354,7 @@ function EquipmentSystemPlayerData:GetInventoryManager() return end
 function EquipmentSystemPlayerData:GetItemAppearanceForGender(itemID) return end
 
 ---@private
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@return gamedataGameplayLogicPackage_Record[]
 function EquipmentSystemPlayerData:GetItemGLPs(itemID) return end
 
@@ -513,7 +513,7 @@ function EquipmentSystemPlayerData:GetSlotActiveItemStruct() return end
 function EquipmentSystemPlayerData:GetSlotActiveWeapon() return end
 
 ---@private
----@param equipSlotID TweakDBID
+---@param equipSlotID TweakDBID|string
 ---@return gamedataGameplayLogicPackage_Record[]
 function EquipmentSystemPlayerData:GetSlotGLPs(equipSlotID) return end
 
@@ -937,7 +937,7 @@ function EquipmentSystemPlayerData:RemoveItemFromEquipSlot(item) return end
 function EquipmentSystemPlayerData:RemoveItemFromSlotActiveItem(item) return end
 
 ---@private
----@param equipSlotID TweakDBID
+---@param equipSlotID TweakDBID|string
 ---@return nil
 function EquipmentSystemPlayerData:RemoveSlotGLPs(equipSlotID) return end
 
@@ -985,7 +985,7 @@ function EquipmentSystemPlayerData:SendPSMWeaponManipulationRequest(reqType, req
 ---@private
 ---@param area gameSEquipArea
 ---@param equipped Bool
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param slotindex? Int32
 ---@param ignoreSlot? Bool
 ---@param force? Bool

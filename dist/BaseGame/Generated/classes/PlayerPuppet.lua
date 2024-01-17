@@ -992,7 +992,7 @@ function PlayerPuppet:ActivateIconicCyberware() return end
 
 ---@private
 ---@param psmBB gameIBlackboard
----@param actionRestrictionRecordID TweakDBID
+---@param actionRestrictionRecordID TweakDBID|string
 ---@return nil
 function PlayerPuppet:AddGameplayRestriction(psmBB, actionRestrictionRecordID) return end
 
@@ -1028,7 +1028,7 @@ function PlayerPuppet:BlockScaling(itemData) return end
 function PlayerPuppet:CPOMissionDataOnPlayerDetach() return end
 
 ---@private
----@param actionRestrictionRecordID TweakDBID
+---@param actionRestrictionRecordID TweakDBID|string
 ---@return nil
 function PlayerPuppet:CacheGameplayRestriction(actionRestrictionRecordID) return end
 
@@ -1139,7 +1139,7 @@ function PlayerPuppet:GetAimAssistLevel() return end
 
 ---@private
 ---@param quality Int32
----@param baseCWRecord TweakDBID
+---@param baseCWRecord TweakDBID|string
 ---@return gamedataItem_Record
 function PlayerPuppet:GetAppropriateCWByQuality(quality, baseCWRecord) return end
 
@@ -1391,7 +1391,7 @@ function PlayerPuppet:IsCallingVehicleRestricted() return end
 ---@return Bool
 function PlayerPuppet:IsCombatStartBufferActive(buffer) return end
 
----@param actionID TweakDBID
+---@param actionID TweakDBID|string
 ---@return Bool
 function PlayerPuppet:IsCooldownForActionActive(actionID) return end
 
@@ -1539,12 +1539,12 @@ function PlayerPuppet:OnHitUI(hitEvent) return end
 ---@return nil
 function PlayerPuppet:OnIncapacitated() return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function PlayerPuppet:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function PlayerPuppet:OnItemUnequipped(slot, item) return end
@@ -1684,7 +1684,7 @@ function PlayerPuppet:RemoveCyberwareParts(item) return end
 
 ---@private
 ---@param psmBB gameIBlackboard
----@param actionRestrictionRecordID TweakDBID
+---@param actionRestrictionRecordID TweakDBID|string
 ---@return nil
 function PlayerPuppet:RemoveGameplayRestriction(psmBB, actionRestrictionRecordID) return end
 

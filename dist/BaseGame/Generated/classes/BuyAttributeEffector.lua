@@ -15,7 +15,7 @@ function BuyAttributeEffector.new(fields) return end
 function BuyAttributeEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function BuyAttributeEffector:Initialize(record, parentRecord) return end

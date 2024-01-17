@@ -169,14 +169,14 @@ function NPCStatesComponent:OnAttack() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnBulky(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnBulkyStaggerMin(statSystem, entityID, recordID) return end
 
@@ -227,28 +227,28 @@ function NPCStatesComponent:OnFear() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnForceImpact(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnForceKnockdown(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnForceStagger(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnFragile(statSystem, entityID, recordID) return end
 
@@ -294,7 +294,7 @@ function NPCStatesComponent:OnParry() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnRegular(statSystem, entityID, recordID) return end
 
@@ -313,7 +313,7 @@ function NPCStatesComponent:OnShoot() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnStaggerMin(statSystem, entityID, recordID) return end
 
@@ -336,28 +336,28 @@ function NPCStatesComponent:OnSwim() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnTough(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnUnstoppable(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnUnstoppableTwitchMin(statSystem, entityID, recordID) return end
 
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnUnstoppableTwitchNone(statSystem, entityID, recordID) return end
 
@@ -372,7 +372,7 @@ function NPCStatesComponent:OnVehicle() return end
 ---@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCStatesComponent:OnWeak(statSystem, entityID, recordID) return end
 

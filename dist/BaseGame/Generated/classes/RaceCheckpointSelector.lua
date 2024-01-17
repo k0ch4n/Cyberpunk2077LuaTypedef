@@ -12,6 +12,6 @@ function RaceCheckpointSelector.new(fields) return end
 ---@return TweakDBID
 function RaceCheckpointSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function RaceCheckpointSelector:SetRecordID(recordID) return end

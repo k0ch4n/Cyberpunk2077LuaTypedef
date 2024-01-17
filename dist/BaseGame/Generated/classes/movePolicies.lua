@@ -216,7 +216,7 @@ function movePolicies:SetStrafingRotationOffset(angle) return end
 ---@return nil
 function movePolicies:SetStrafingTarget(object) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function movePolicies:SetTweakDBID(id) return end
 

@@ -11,6 +11,6 @@ ItemAttachments = {}
 function ItemAttachments.new(fields) return end
 
 ---@param itemID gameItemID
----@param attachmentSlotID TweakDBID
+---@param attachmentSlotID TweakDBID|string
 ---@return ItemAttachments
 function ItemAttachments.Create(itemID, attachmentSlotID) return end

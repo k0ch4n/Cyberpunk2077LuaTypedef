@@ -33,7 +33,7 @@ function AccessPointControllerPS:ActionSpiderbotEnableAccessPoint() return end
 
 ---@private
 ---@param TS gameTransactionSystem
----@param itemTweakID TweakDBID
+---@param itemTweakID TweakDBID|string
 ---@param amount? Uint32
 ---@return nil
 function AccessPointControllerPS:AddHackReward(TS, itemTweakID, amount) return end
@@ -45,7 +45,7 @@ function AccessPointControllerPS:AddPingedSquad(squadName) return end
 
 ---@private
 ---@param TS gameTransactionSystem
----@param itemQueryTDBID TweakDBID
+---@param itemQueryTDBID TweakDBID|string
 ---@param amount? Uint32
 ---@return nil
 function AccessPointControllerPS:AddReward(TS, itemQueryTDBID, amount) return end
@@ -85,7 +85,7 @@ function AccessPointControllerPS:DebugBreachConnectedDevices() return end
 function AccessPointControllerPS:ExtractActions() return end
 
 ---@private
----@param programs TweakDBID[]
+---@param programs TweakDBID[]|string[]
 ---@return nil
 function AccessPointControllerPS:FilterRedundantPrograms(programs) return end
 
@@ -135,7 +135,7 @@ function AccessPointControllerPS:GetNetworkSizeCount() return end
 
 ---@private
 ---@param TS gameTransactionSystem
----@param hacksPool TweakDBID[]
+---@param hacksPool TweakDBID[]|string[]
 ---@param quality gamedataQuality
 ---@return TweakDBID[], TweakDBID[] playerHacksTweak
 function AccessPointControllerPS:GetPlayersUniqueHacks(TS, hacksPool, quality) return end

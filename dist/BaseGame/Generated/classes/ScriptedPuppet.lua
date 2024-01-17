@@ -97,12 +97,12 @@ function ScriptedPuppet.CreateCustomBlackboard(obj, blackboard) return end
 function ScriptedPuppet.CreateCustomBlackboardFromDef(obj, blackboardDef) return end
 
 ---@param obj gameObject
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return nil
 function ScriptedPuppet.DropItemFromSlot(obj, slot) return end
 
 ---@param obj gameObject
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@return nil
 function ScriptedPuppet.DropWeaponFromSlot(obj, slot) return end
 
@@ -965,7 +965,7 @@ function ScriptedPuppet:GetPuppetReactionPresetType() return end
 function ScriptedPuppet:GetPuppetStateBlackboard() return end
 
 ---@private
----@param quickHackID TweakDBID
+---@param quickHackID TweakDBID|string
 ---@param rootObject gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigatorID entEntityID
@@ -1561,7 +1561,7 @@ function ScriptedPuppet:SetKiller(killer) return end
 ---@return nil
 function ScriptedPuppet:SetMainTrackedObject(target) return end
 
----@param presetID TweakDBID
+---@param presetID TweakDBID|string
 ---@return nil
 function ScriptedPuppet:SetReactionPresetID(presetID) return end
 
@@ -1602,7 +1602,7 @@ function ScriptedPuppet:ShouldSpawnBloodPuddle() return end
 ---@param duration Float
 ---@param statType gamedataStatType
 ---@param statPoolType gamedataStatPoolType
----@param statPoolID TweakDBID
+---@param statPoolID TweakDBID|string
 ---@return nil
 function ScriptedPuppet:ShowPhoneCallDuration(duration, statType, statPoolType, statPoolID) return end
 

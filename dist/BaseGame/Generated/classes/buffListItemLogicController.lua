@@ -30,7 +30,7 @@ function buffListItemLogicController:GetStatusEffectRecord() return end
 ---@return nil
 function buffListItemLogicController:SetData(icon, time, totalTime, stackCount) return end
 
----@param icon TweakDBID
+---@param icon TweakDBID|string
 ---@param time Float
 ---@param totalTime Float
 ---@return nil

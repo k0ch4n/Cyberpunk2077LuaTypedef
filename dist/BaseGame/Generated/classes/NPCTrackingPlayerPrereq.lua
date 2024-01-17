@@ -14,7 +14,7 @@ function NPCTrackingPlayerPrereq.new(fields) return end
 function NPCTrackingPlayerPrereq:EvaluateCondition(isTrackingPlayer) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCTrackingPlayerPrereq:Initialize(recordID) return end
 

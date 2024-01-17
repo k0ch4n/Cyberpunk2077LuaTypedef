@@ -32,7 +32,7 @@ function District:GetPresetID() return end
 ---@return CName
 function District:GetRadioEntryName() return end
 
----@param district TweakDBID
+---@param district TweakDBID|string
 ---@return nil
 function District:Initialize(district) return end
 

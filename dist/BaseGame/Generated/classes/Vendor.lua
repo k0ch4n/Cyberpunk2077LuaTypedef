@@ -37,7 +37,7 @@ function Vendor.ShouldDiscardQualityForNewCWs() return end
 function Vendor:AddItemsToStock(itemStack) return end
 
 ---@private
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return Bool
 function Vendor:AlwaysInStock(itemTDBID) return end
 
@@ -185,7 +185,7 @@ function Vendor:InitPlayerHacks() return end
 ---@return nil, gameSItemStack itemStack
 function Vendor:InitSingleItemStack(itemRecord, itemID) return end
 
----@param vendorID TweakDBID
+---@param vendorID TweakDBID|string
 ---@param vendorObject gameObject
 ---@return nil
 function Vendor:Initialize(vendorID, vendorObject) return end
@@ -197,11 +197,11 @@ function Vendor:InitializeStock() return end
 ---@return Bool
 function Vendor:IsAttached() return end
 
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return Bool
 function Vendor:IsNewItem(itemTDBID) return end
 
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return nil
 function Vendor:ItemInspected(itemTDBID) return end
 
@@ -274,7 +274,7 @@ function Vendor:SetPersistentID(persistentID) return end
 function Vendor:SetPriceMultiplier(value) return end
 
 ---@private
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return Bool
 function Vendor:ShouldRegenerateItem(itemTDBID) return end
 

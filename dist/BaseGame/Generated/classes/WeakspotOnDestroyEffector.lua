@@ -19,7 +19,7 @@ function WeakspotOnDestroyEffector:ActionOff(owner) return end
 function WeakspotOnDestroyEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function WeakspotOnDestroyEffector:Initialize(record, parentRecord) return end

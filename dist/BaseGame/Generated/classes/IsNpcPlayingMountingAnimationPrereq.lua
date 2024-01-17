@@ -11,7 +11,7 @@ IsNpcPlayingMountingAnimationPrereq = {}
 function IsNpcPlayingMountingAnimationPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsNpcPlayingMountingAnimationPrereq:Initialize(recordID) return end
 

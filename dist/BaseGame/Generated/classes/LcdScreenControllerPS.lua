@@ -55,6 +55,6 @@ function LcdScreenControllerPS:HasCustomNumber() return end
 function LcdScreenControllerPS:OnSetMessageRecord(evt) return end
 
 ---@protected
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function LcdScreenControllerPS:SetMessageRecordID(id) return end

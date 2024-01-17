@@ -78,7 +78,7 @@ function LcdScreenInkGameController:ResolveMessegeRecord(record) return end
 
 ---@private
 ---@param imageWidget inkImageWidget
----@param textureID TweakDBID
+---@param textureID TweakDBID|string
 ---@return nil
 function LcdScreenInkGameController:SetBackgroundTexture(imageWidget, textureID) return end
 

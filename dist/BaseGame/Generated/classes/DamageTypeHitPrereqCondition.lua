@@ -13,6 +13,6 @@ function DamageTypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function DamageTypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function DamageTypeHitPrereqCondition:SetData(recordID) return end

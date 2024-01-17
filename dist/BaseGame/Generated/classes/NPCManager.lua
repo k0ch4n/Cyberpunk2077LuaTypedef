@@ -9,7 +9,7 @@ NPCManager = {}
 ---@return NPCManager
 function NPCManager.new(fields) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param tags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAllTags(recordID, tags) return end
@@ -19,7 +19,7 @@ function NPCManager.HasAllTags(recordID, tags) return end
 ---@return Bool
 function NPCManager.HasAllVisualTags(puppet, visualTags) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param tags CName[]|string[]
 ---@return Bool
 function NPCManager.HasAnyTags(recordID, tags) return end
@@ -29,7 +29,7 @@ function NPCManager.HasAnyTags(recordID, tags) return end
 ---@return Bool
 function NPCManager.HasAnyVisualTags(puppet, visualTags) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param tag CName|string
 ---@return Bool
 function NPCManager.HasTag(recordID, tag) return end

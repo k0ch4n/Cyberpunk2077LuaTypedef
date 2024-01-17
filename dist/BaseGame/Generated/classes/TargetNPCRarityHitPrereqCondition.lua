@@ -13,6 +13,6 @@ function TargetNPCRarityHitPrereqCondition.new(fields) return end
 ---@return Bool
 function TargetNPCRarityHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function TargetNPCRarityHitPrereqCondition:SetData(recordID) return end

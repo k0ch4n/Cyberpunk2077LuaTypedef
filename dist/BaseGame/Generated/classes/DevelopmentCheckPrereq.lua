@@ -10,6 +10,6 @@ DevelopmentCheckPrereq = {}
 function DevelopmentCheckPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function DevelopmentCheckPrereq:Initialize(recordID) return end

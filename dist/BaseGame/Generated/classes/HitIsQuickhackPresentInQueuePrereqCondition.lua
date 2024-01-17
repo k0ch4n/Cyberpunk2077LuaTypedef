@@ -14,6 +14,6 @@ function HitIsQuickhackPresentInQueuePrereqCondition.new(fields) return end
 ---@return Bool
 function HitIsQuickhackPresentInQueuePrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitIsQuickhackPresentInQueuePrereqCondition:SetData(recordID) return end

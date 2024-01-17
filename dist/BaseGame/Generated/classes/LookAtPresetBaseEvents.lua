@@ -8,7 +8,7 @@
 LookAtPresetBaseEvents = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@param priority Int32
 ---@param lookAtEventsArray entLookAtAddEvent[]
 ---@return nil, Bool attachLeft, Bool attachRight

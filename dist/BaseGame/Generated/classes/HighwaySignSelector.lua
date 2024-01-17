@@ -12,6 +12,6 @@ function HighwaySignSelector.new(fields) return end
 ---@return TweakDBID
 function HighwaySignSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HighwaySignSelector:SetRecordID(recordID) return end

@@ -40,7 +40,7 @@ function ToggleON:GetTweakDBChoiceRecord() return end
 function ToggleON:SetProperties(status) return end
 
 ---@param status EDeviceStatus
----@param nameOnTrue TweakDBID
----@param nameOnFalse TweakDBID
+---@param nameOnTrue TweakDBID|string
+---@param nameOnFalse TweakDBID|string
 ---@return nil
 function ToggleON:SetProperties(status, nameOnTrue, nameOnFalse) return end

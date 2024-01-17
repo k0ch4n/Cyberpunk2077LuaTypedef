@@ -15,7 +15,7 @@ function StatsSystemHelper.new(fields) return end
 function StatsSystemHelper.GetDetailedStatInfo(obj, statType, statData) return end
 
 ---@param ownerID gameStatsObjectID
----@param statPrereqID TweakDBID
+---@param statPrereqID TweakDBID|string
 ---@return Float
 function StatsSystemHelper.GetStatPrereqModifiersValue(ownerID, statPrereqID) return end
 

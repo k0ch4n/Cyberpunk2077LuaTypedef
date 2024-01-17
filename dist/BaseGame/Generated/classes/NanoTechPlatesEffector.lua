@@ -26,8 +26,8 @@ function NanoTechPlatesEffector:ActionOn(owner) return end
 function NanoTechPlatesEffector:CleanUpTimeStamps(owner, currentTime) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function NanoTechPlatesEffector:Initialize(record, parentRecord) return end
 

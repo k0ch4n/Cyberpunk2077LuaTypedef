@@ -111,12 +111,12 @@ function AimingStateDecisions:OnAttach(stateContext, scriptInterface) return end
 ---@return nil
 function AimingStateDecisions:OnDetach(stateContext, scriptInterface) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function AimingStateDecisions:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function AimingStateDecisions:OnItemUnequipped(slot, item) return end

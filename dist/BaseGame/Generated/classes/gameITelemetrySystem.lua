@@ -29,7 +29,7 @@ function gameITelemetrySystem:LogInitialChoiceBrainGenderSelected(isMale) return
 ---@return nil
 function gameITelemetrySystem:LogInitialChoiceDifficultySelected(difficulty) return end
 
----@param lifePathID TweakDBID
+---@param lifePathID TweakDBID|string
 ---@return nil
 function gameITelemetrySystem:LogInitialChoiceLifePathSelected(lifePathID) return end
 

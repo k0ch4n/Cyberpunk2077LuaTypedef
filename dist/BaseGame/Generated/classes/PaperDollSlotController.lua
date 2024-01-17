@@ -51,6 +51,6 @@ function PaperDollSlotController:SetButtonDetails(argText, equipArea, slotIndex,
 ---@return nil
 function PaperDollSlotController:SetItemInSlot(itemID) return end
 
----@param slotTweak TweakDBID
+---@param slotTweak TweakDBID|string
 ---@return nil
 function PaperDollSlotController:SetSlotLocked(slotTweak) return end

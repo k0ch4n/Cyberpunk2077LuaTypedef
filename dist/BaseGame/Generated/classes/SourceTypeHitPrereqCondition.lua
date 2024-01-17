@@ -13,6 +13,6 @@ function SourceTypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function SourceTypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function SourceTypeHitPrereqCondition:SetData(recordID) return end

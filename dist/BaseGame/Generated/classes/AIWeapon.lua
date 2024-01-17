@@ -20,7 +20,7 @@ function AIWeapon.CompareAIPatternRecordArrays(arr1, arr2) return end
 ---@param requestedTriggerMode gamedataTriggerMode
 ---@param targetPosition? Vector4
 ---@param target? gameObject
----@param rangedAttack? TweakDBID
+---@param rangedAttack? TweakDBID|string
 ---@param maxSpreadOverride? Float
 ---@param aimingDelay? Float
 ---@param offset? Vector4
@@ -160,7 +160,7 @@ function AIWeapon.SelectShootingPatternPackage(weaponOwner, weapon, records) ret
 
 ---@param owner gameObject
 ---@param weapon gameweaponObject
----@param overrideRangedAttack? TweakDBID
+---@param overrideRangedAttack? TweakDBID|string
 ---@return nil
 function AIWeapon.SetAttackBasedOnTimeDilation(owner, weapon, overrideRangedAttack) return end
 

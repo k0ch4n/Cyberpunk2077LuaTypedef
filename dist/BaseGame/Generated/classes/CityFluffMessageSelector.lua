@@ -12,6 +12,6 @@ function CityFluffMessageSelector.new(fields) return end
 ---@return TweakDBID
 function CityFluffMessageSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function CityFluffMessageSelector:SetRecordID(recordID) return end

@@ -42,7 +42,7 @@ function NcartTimetable:OnTakeControl(ri) return end
 
 ---@protected
 ---@param target entEntityID
----@param statusEffect TweakDBID
+---@param statusEffect TweakDBID|string
 ---@return nil
 function NcartTimetable:ApplyActiveStatusEffect(target, statusEffect) return end
 

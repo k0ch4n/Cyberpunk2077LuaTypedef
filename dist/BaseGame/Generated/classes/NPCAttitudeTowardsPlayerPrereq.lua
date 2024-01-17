@@ -10,7 +10,7 @@ NPCAttitudeTowardsPlayerPrereq = {}
 function NPCAttitudeTowardsPlayerPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCAttitudeTowardsPlayerPrereq:Initialize(recordID) return end
 

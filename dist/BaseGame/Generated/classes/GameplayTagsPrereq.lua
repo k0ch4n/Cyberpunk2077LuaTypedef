@@ -11,7 +11,7 @@ GameplayTagsPrereq = {}
 function GameplayTagsPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function GameplayTagsPrereq:Initialize(recordID) return end
 

@@ -15,7 +15,7 @@ function WeaponShootPrereq.new(fields) return end
 function WeaponShootPrereq:Evaluate(owner, remainingAttacks) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function WeaponShootPrereq:Initialize(recordID) return end
 

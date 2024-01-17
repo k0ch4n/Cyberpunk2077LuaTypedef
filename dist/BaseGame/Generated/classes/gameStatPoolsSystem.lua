@@ -69,7 +69,7 @@ function gameStatPoolsSystem:HasStatPoolValueReachedMin(objID, statPoolType) ret
 
 ---@param objID gameStatsObjectID
 ---@param statPoolType gamedataStatPoolType
----@param modifierRecordID TweakDBID
+---@param modifierRecordID TweakDBID|string
 ---@return nil
 function gameStatPoolsSystem:IsExtraModifierApplied(objID, statPoolType, modifierRecordID) return end
 
@@ -86,12 +86,12 @@ function gameStatPoolsSystem:IsStatPoolModificationDelayed(objID, statPoolType) 
 ---@param objID gameStatsObjectID
 ---@param statPoolType gamedataStatPoolType
 ---@param type gameStatPoolModificationTypes
----@param modifierRecordID TweakDBID
+---@param modifierRecordID TweakDBID|string
 ---@return nil
 function gameStatPoolsSystem:RequestAddingExtraModifier(objID, statPoolType, type, modifierRecordID) return end
 
 ---@param objID gameStatsObjectID
----@param statPoolRecordID TweakDBID
+---@param statPoolRecordID TweakDBID|string
 ---@param forceCreateStatPools? Bool
 ---@return nil
 function gameStatPoolsSystem:RequestAddingStatPool(objID, statPoolRecordID, forceCreateStatPools) return end
@@ -119,7 +119,7 @@ function gameStatPoolsSystem:RequestRegisteringListener(objID, statPoolType, lis
 
 ---@param objID gameStatsObjectID
 ---@param statPoolType gamedataStatPoolType
----@param modifierRecordID TweakDBID
+---@param modifierRecordID TweakDBID|string
 ---@return nil
 function gameStatPoolsSystem:RequestRemovingExtraModifier(objID, statPoolType, modifierRecordID) return end
 
@@ -144,7 +144,7 @@ function gameStatPoolsSystem:RequestSettingModifier(objID, statPoolType, type, m
 ---@param objID gameStatsObjectID
 ---@param statPoolType gamedataStatPoolType
 ---@param type gameStatPoolModificationTypes
----@param modifierRecordID TweakDBID
+---@param modifierRecordID TweakDBID|string
 ---@return nil
 function gameStatPoolsSystem:RequestSettingModifierWithRecord(objID, statPoolType, type, modifierRecordID) return end
 

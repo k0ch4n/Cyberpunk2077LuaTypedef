@@ -116,19 +116,19 @@ function UIInventoryItemsManager.QualityToInt(quality) return end
 ---@return CName
 function UIInventoryItemsManager.QualityToName(quality) return end
 
----@param itemTweakID TweakDBID
+---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param manager UIInventoryItemsManager
 ---@return String
 function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, manager) return end
 
----@param itemTweakID TweakDBID
+---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param useMaleIcon Bool
 ---@return String
 function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, useMaleIcon) return end
 
----@param itemTweakID TweakDBID
+---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param player PlayerPuppet
 ---@return String

@@ -14,7 +14,7 @@ function HighLevelNPCStatePrereq.new(fields) return end
 function HighLevelNPCStatePrereq:GetStateToCheck() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HighLevelNPCStatePrereq:Initialize(recordID) return end
 

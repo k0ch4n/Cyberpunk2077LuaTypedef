@@ -23,8 +23,8 @@ function ModifyStatPoolValueQuickhackCostEffector:ActionOn(owner) return end
 function ModifyStatPoolValueQuickhackCostEffector:GetActiveQuickhackActionHistory(target) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ModifyStatPoolValueQuickhackCostEffector:Initialize(record, parentRecord) return end
 

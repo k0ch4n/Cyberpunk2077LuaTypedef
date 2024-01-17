@@ -23,7 +23,7 @@ function ToggleActivate:GetTweakDBChoiceRecord() return end
 function ToggleActivate:SetProperties(activationStatus) return end
 
 ---@param isActive Bool
----@param nameOnTrue TweakDBID
----@param nameOnFalse TweakDBID
+---@param nameOnTrue TweakDBID|string
+---@param nameOnFalse TweakDBID|string
 ---@return nil
 function ToggleActivate:SetProperties(isActive, nameOnTrue, nameOnFalse) return end

@@ -180,7 +180,7 @@ function NPCPuppet.RevealPlayerPositionIfNeeded(ownerPuppet, playerID, isPrevent
 function NPCPuppet.SendNPCHitDataTrackingRequest(owner, telemetryData, modifyValue) return end
 
 ---@param npc NPCPuppet
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@param value Float
 ---@return nil
@@ -188,7 +188,7 @@ function NPCPuppet.SetAnimWrapperBasedOnEquippedItem(npc, slotID, itemID, value)
 
 ---@param npc NPCPuppet
 ---@param wrapperNameBasedOnID CName|string
----@param slotID TweakDBID
+---@param slotID TweakDBID|string
 ---@param itemID gameItemID
 ---@param value Float
 ---@return nil
@@ -1131,7 +1131,7 @@ function NPCPuppet:SendRevealStateToAllWeakspots(revealState) return end
 ---@param priority Float
 ---@param tags CName[]|string[]
 ---@param flags EAIGateSignalFlags[]
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param repeatSignalDelay Float
 ---@param remainingStatusEffectDuration Float
 ---@return nil
@@ -1294,7 +1294,7 @@ function NPCPuppet:TriggerStatusEffectBehavior(evt, alwaysTrigger, checkCachedSE
 ---@param priority Float
 ---@param tags CName[]|string[]
 ---@param flags EAIGateSignalFlags[]
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param repeatSignalDelay Float
 ---@param remainingStatusEffectDuration Float
 ---@return nil

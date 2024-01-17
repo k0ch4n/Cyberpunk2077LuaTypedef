@@ -10,6 +10,6 @@ HitFlagPrereq = {}
 function HitFlagPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitFlagPrereq:Initialize(recordID) return end

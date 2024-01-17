@@ -10,7 +10,7 @@ ItemSlotsFilledPrereq = {}
 function ItemSlotsFilledPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function ItemSlotsFilledPrereq:Initialize(recordID) return end
 

@@ -69,7 +69,7 @@ function MarketSystem.GetVendorMoney(vendorObject) return end
 function MarketSystem.GetVendorSoldItems(vendorObject) return end
 
 ---@param player PlayerPuppet
----@param vendorID TweakDBID
+---@param vendorID TweakDBID|string
 ---@return Bool
 function MarketSystem.IsAccessible(player, vendorID) return end
 
@@ -78,17 +78,17 @@ function MarketSystem.IsAccessible(player, vendorID) return end
 function MarketSystem.IsAttached(vendorObject) return end
 
 ---@param vendorObject gameObject
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return Bool
 function MarketSystem.IsNewItem(vendorObject, itemTDBID) return end
 
 ---@param player PlayerPuppet
----@param vendorID TweakDBID
+---@param vendorID TweakDBID|string
 ---@return Bool
 function MarketSystem.IsVisibleOnMap(player, vendorID) return end
 
 ---@param vendorObject gameObject
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return nil
 function MarketSystem.ItemInspected(vendorObject, itemTDBID) return end
 
@@ -114,7 +114,7 @@ function MarketSystem:GetOrAddVendor(vendorObject) return end
 function MarketSystem:GetVendor(vendorObject) return end
 
 ---@private
----@param vendorDataID TweakDBID
+---@param vendorDataID TweakDBID|string
 ---@return Vendor
 function MarketSystem:GetVendorByTDBID(vendorDataID) return end
 

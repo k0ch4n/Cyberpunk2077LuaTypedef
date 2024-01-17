@@ -268,7 +268,7 @@ function gameJournalManager:SetScriptedQuestMappinEntityID(templateQuestEntryId,
 ---@param templateQuestEntryId String
 ---@param uniqueId String
 ---@param templatePhaseObjectiveAndMappinPath String
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return Bool
 function gameJournalManager:SetScriptedQuestMappinSlotName(templateQuestEntryId, uniqueId, templatePhaseObjectiveAndMappinPath, recordID) return end
 

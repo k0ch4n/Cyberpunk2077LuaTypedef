@@ -13,7 +13,7 @@ function gameVehicleSystem.new(fields) return end
 ---@return Bool
 function gameVehicleSystem:ToggleGarageVehicle(garageID, enable) return end
 
----@param vehicleID TweakDBID
+---@param vehicleID TweakDBID|string
 ---@param enable Bool
 ---@param despawnIfDisabling? Bool
 ---@return Bool

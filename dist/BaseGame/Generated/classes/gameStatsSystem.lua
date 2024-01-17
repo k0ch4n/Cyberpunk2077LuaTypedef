@@ -34,7 +34,7 @@ function gameStatsSystem:ApplyModifierGroup(objID, groupID) return end
 function gameStatsSystem:CalculateModifierListValue(objID, modifierData) return end
 
 ---@param groupID Uint64
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return Bool
 function gameStatsSystem:DefineModifierGroupFromRecord(groupID, recordID) return end
 
@@ -43,7 +43,7 @@ function gameStatsSystem:DefineModifierGroupFromRecord(groupID, recordID) return
 ---@return Bool
 function gameStatsSystem:ForceModifier(objID, modifierData) return end
 
----@param damageTypeRecordId TweakDBID
+---@param damageTypeRecordId TweakDBID|string
 ---@return gamedataDamageType_Record
 function gameStatsSystem:GetDamageRecordFromId(damageTypeRecordId) return end
 
@@ -59,7 +59,7 @@ function gameStatsSystem:GetDamageRecordId(damageType) return end
 ---@return gamedataDamageType
 function gameStatsSystem:GetDamageType(statType) return end
 
----@param damageTypeRecordId TweakDBID
+---@param damageTypeRecordId TweakDBID|string
 ---@return gamedataDamageType
 function gameStatsSystem:GetDamageTypeByRecordID(damageTypeRecordId) return end
 

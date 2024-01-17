@@ -11,6 +11,6 @@ HitIsMovingPrereq = {}
 function HitIsMovingPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function HitIsMovingPrereq:Initialize(recordID) return end

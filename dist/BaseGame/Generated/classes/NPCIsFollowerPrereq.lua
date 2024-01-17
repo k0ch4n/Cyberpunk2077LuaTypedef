@@ -10,7 +10,7 @@ NPCIsFollowerPrereq = {}
 function NPCIsFollowerPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCIsFollowerPrereq:Initialize(recordID) return end
 

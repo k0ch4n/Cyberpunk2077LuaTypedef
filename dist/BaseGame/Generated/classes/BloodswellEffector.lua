@@ -25,8 +25,8 @@ function BloodswellEffector:ColdBloodSpend() return end
 function BloodswellEffector:ColdbloodAcquired() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function BloodswellEffector:Initialize(record, parentRecord) return end
 

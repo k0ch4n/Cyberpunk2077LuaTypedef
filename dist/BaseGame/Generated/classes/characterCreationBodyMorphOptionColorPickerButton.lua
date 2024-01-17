@@ -38,7 +38,7 @@ function characterCreationBodyMorphOptionColorPickerButton:OnUninitialize() retu
 function characterCreationBodyMorphOptionColorPickerButton:IsTriggered() return end
 
 ---@param color Color
----@param icon TweakDBID
+---@param icon TweakDBID|string
 ---@return nil
 function characterCreationBodyMorphOptionColorPickerButton:SetTintColor(color, icon) return end
 

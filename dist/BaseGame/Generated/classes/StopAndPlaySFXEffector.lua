@@ -17,8 +17,8 @@ function StopAndPlaySFXEffector.new(fields) return end
 function StopAndPlaySFXEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function StopAndPlaySFXEffector:Initialize(record, parentRecord) return end
 

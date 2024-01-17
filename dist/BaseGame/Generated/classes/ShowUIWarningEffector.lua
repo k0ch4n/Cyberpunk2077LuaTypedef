@@ -18,7 +18,7 @@ function ShowUIWarningEffector.new(fields) return end
 function ShowUIWarningEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ShowUIWarningEffector:Initialize(record, parentRecord) return end

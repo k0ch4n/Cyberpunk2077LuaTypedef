@@ -12,7 +12,7 @@ function ConsumablesChargesHelper.new(fields) return end
 ---@return CName
 function ConsumablesChargesHelper.GetConsumableTag(tags) return end
 
----@param recipeToHide TweakDBID
+---@param recipeToHide TweakDBID|string
 ---@return nil
 function ConsumablesChargesHelper.HideConsumableRecipe(recipeToHide) return end
 

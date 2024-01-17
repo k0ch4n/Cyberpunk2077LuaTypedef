@@ -41,8 +41,8 @@ function ScaleOvershieldDecayOverTimeEffector:AddModifier() return end
 function ScaleOvershieldDecayOverTimeEffector:ContinuousAction(owner, instigator) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ScaleOvershieldDecayOverTimeEffector:Initialize(record, parentRecord) return end
 

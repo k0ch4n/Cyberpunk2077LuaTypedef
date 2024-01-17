@@ -22,6 +22,6 @@ function StatPoolHitPrereqCondition:ComparePoolValues(hitEvent) return end
 function StatPoolHitPrereqCondition:Evaluate(hitEvent) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatPoolHitPrereqCondition:SetData(recordID) return end

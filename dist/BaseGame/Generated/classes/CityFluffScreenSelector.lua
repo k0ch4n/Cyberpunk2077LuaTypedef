@@ -12,6 +12,6 @@ function CityFluffScreenSelector.new(fields) return end
 ---@return TweakDBID
 function CityFluffScreenSelector:GetRecordID() return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function CityFluffScreenSelector:SetRecordID(recordID) return end

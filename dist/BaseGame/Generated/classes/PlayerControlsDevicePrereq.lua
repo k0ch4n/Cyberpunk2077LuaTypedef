@@ -10,7 +10,7 @@ PlayerControlsDevicePrereq = {}
 function PlayerControlsDevicePrereq.new(fields) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function PlayerControlsDevicePrereq:Initialize(record) return end
 

@@ -52,7 +52,7 @@ function UIInventoryItem.Make(owner, itemData, manager) return end
 
 ---@param owner gameObject
 ---@param itemData gameItemData
----@param itemTweakID TweakDBID
+---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param manager? UIInventoryItemsManager
 ---@return UIInventoryItem

@@ -138,7 +138,7 @@ function UIInventoryItemStatsManager:GetWeaponBarsType(itemType, itemData) retur
 
 ---@private
 ---@param statType gamedataStatType
----@param statId TweakDBID
+---@param statId TweakDBID|string
 ---@param skipEmpty Bool
 ---@return UIInventoryItemStat
 function UIInventoryItemStatsManager:InternalFetchStatByType(statType, statId, skipEmpty) return end

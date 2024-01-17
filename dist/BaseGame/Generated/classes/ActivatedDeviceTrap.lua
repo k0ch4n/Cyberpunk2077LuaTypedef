@@ -39,7 +39,7 @@ function ActivatedDeviceTrap:OnTimerEvent(evt) return end
 function ActivatedDeviceTrap:Distract() return end
 
 ---@protected
----@param attackRecord TweakDBID
+---@param attackRecord TweakDBID|string
 ---@return nil
 function ActivatedDeviceTrap:DoAttack(attackRecord) return end
 

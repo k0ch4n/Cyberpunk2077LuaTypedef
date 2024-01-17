@@ -4,7 +4,7 @@
 ---@class gameIPrereq: IScriptable
 gameIPrereq = {}
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return gameIPrereq
 function gameIPrereq.CreatePrereq(id) return end
 

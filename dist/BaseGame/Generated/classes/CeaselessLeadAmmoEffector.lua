@@ -15,8 +15,8 @@ function CeaselessLeadAmmoEffector.new(fields) return end
 function CeaselessLeadAmmoEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function CeaselessLeadAmmoEffector:Initialize(record, parentRecord) return end
 

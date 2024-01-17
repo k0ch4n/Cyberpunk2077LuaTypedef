@@ -24,7 +24,7 @@ function StatusEffectPrereq:Evaluate(statusEffect) return end
 function StatusEffectPrereq:GetObjectToCheck(context) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatusEffectPrereq:Initialize(recordID) return end
 

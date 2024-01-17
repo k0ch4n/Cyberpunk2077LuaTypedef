@@ -10,7 +10,7 @@ IsPlayerPrereq = {}
 function IsPlayerPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function IsPlayerPrereq:Initialize(recordID) return end
 

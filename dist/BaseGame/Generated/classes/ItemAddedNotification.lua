@@ -18,7 +18,7 @@ function ItemAddedNotification.new(fields) return end
 function ItemAddedNotification:OnIconCallback(e) return end
 
 ---@private
----@param itemID TweakDBID
+---@param itemID TweakDBID|string
 ---@param rarity CName|string
 ---@return nil
 function ItemAddedNotification:SetIcon(itemID, rarity) return end

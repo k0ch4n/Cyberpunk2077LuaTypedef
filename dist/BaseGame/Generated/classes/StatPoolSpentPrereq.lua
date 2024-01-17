@@ -11,7 +11,7 @@ StatPoolSpentPrereq = {}
 function StatPoolSpentPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StatPoolSpentPrereq:Initialize(recordID) return end
 

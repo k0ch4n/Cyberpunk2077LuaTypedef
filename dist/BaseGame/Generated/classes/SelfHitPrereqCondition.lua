@@ -12,6 +12,6 @@ function SelfHitPrereqCondition.new(fields) return end
 ---@return Bool
 function SelfHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function SelfHitPrereqCondition:SetData(recordID) return end

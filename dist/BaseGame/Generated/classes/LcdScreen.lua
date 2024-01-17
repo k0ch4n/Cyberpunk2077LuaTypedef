@@ -37,7 +37,7 @@ function LcdScreen:OnTakeControl(ri) return end
 
 ---@protected
 ---@param target entEntityID
----@param statusEffect TweakDBID
+---@param statusEffect TweakDBID|string
 ---@return nil
 function LcdScreen:ApplyActiveStatusEffect(target, statusEffect) return end
 

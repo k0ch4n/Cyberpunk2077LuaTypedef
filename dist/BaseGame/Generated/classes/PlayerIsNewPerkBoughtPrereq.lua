@@ -12,7 +12,7 @@ PlayerIsNewPerkBoughtPrereq = {}
 function PlayerIsNewPerkBoughtPrereq.new(fields) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function PlayerIsNewPerkBoughtPrereq:Initialize(recordID) return end
 

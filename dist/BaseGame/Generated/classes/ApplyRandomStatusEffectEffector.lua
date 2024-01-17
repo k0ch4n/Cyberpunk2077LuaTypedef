@@ -23,8 +23,8 @@ function ApplyRandomStatusEffectEffector:ActionOff(owner) return end
 function ApplyRandomStatusEffectEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyRandomStatusEffectEffector:Initialize(record, parentRecord) return end
 

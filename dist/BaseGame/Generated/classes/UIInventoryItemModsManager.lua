@@ -19,7 +19,7 @@ function UIInventoryItemModsManager.new(fields) return end
 ---@return UIInventoryItemModsManager
 function UIInventoryItemModsManager.Make(inventoryItem, transactionSystem) return end
 
----@param slotName TweakDBID
+---@param slotName TweakDBID|string
 ---@return Bool
 function UIInventoryItemModsManager:EmptySlotsContains(slotName) return end
 
@@ -85,6 +85,6 @@ function UIInventoryItemModsManager:GetUsedSlot(index) return end
 ---@return Int32
 function UIInventoryItemModsManager:GetUsedSlotsSize() return end
 
----@param slotName TweakDBID
+---@param slotName TweakDBID|string
 ---@return Bool
 function UIInventoryItemModsManager:UsedSlotsContains(slotName) return end

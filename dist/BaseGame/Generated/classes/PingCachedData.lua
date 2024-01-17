@@ -44,7 +44,7 @@ function PingCachedData:IncrementLinkCounter() return end
 ---@param revealNetworkAtEnd Bool
 ---@param fxResource gameFxResource
 ---@param position Vector4
----@param virtualNetworkShapeID TweakDBID
+---@param virtualNetworkShapeID TweakDBID|string
 ---@return nil
 function PingCachedData:Initialize(sourceID, timeout, ammountOfIntervals, pingType, gameEffect, revealNetworkAtEnd, fxResource, position, virtualNetworkShapeID) return end
 

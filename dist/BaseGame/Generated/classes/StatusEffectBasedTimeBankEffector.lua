@@ -12,13 +12,13 @@ StatusEffectBasedTimeBankEffector = {}
 ---@return StatusEffectBasedTimeBankEffector
 function StatusEffectBasedTimeBankEffector.new(fields) return end
 
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return nil
 function StatusEffectBasedTimeBankEffector:EvaluateCyberwareCooldown(statusEffectID) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function StatusEffectBasedTimeBankEffector:Initialize(record, parentRecord) return end
 

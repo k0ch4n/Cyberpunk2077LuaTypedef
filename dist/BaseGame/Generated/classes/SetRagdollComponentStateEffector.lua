@@ -15,7 +15,7 @@ function SetRagdollComponentStateEffector.new(fields) return end
 function SetRagdollComponentStateEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SetRagdollComponentStateEffector:Initialize(record, parentRecord) return end

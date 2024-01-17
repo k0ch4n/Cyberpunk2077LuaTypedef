@@ -22,7 +22,7 @@ function GenericHitPrereq.new(fields) return end
 function GenericHitPrereq:CreateHitCondition(record) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function GenericHitPrereq:Initialize(recordID) return end
 

@@ -13,6 +13,6 @@ function DamageOverTimeTypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function DamageOverTimeTypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function DamageOverTimeTypeHitPrereqCondition:SetData(recordID) return end

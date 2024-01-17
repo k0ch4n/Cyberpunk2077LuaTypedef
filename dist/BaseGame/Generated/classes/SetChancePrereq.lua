@@ -10,7 +10,7 @@ SetChancePrereq = {}
 function SetChancePrereq.new(fields) return end
 
 ---@protected
----@param record TweakDBID
+---@param record TweakDBID|string
 ---@return nil
 function SetChancePrereq:Initialize(record) return end
 

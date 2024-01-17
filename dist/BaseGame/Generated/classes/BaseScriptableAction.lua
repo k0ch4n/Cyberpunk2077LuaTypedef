@@ -216,7 +216,7 @@ function BaseScriptableAction:SetInactive() return end
 ---@return nil
 function BaseScriptableAction:SetIsActionRPGCheckDissabled(value) return end
 
----@param id TweakDBID
+---@param id TweakDBID|string
 ---@return nil
 function BaseScriptableAction:SetObjectActionID(id) return end
 

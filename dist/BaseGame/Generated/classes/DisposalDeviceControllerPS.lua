@@ -16,12 +16,12 @@ DisposalDeviceControllerPS = {}
 function DisposalDeviceControllerPS.new(fields) return end
 
 ---@private
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return DisposeBody
 function DisposalDeviceControllerPS:ActionDisposeBody(interactionTweak) return end
 
 ---@private
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return NonlethalTakedownAndDisposeBody
 function DisposalDeviceControllerPS:ActionNonlethalTakedownAndDisposeBody(interactionTweak) return end
 
@@ -30,7 +30,7 @@ function DisposalDeviceControllerPS:ActionNonlethalTakedownAndDisposeBody(intera
 function DisposalDeviceControllerPS:ActionOverchargeDevice() return end
 
 ---@protected
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return QuickHackDistraction
 function DisposalDeviceControllerPS:ActionQuickHackDistraction(interactionTweak) return end
 
@@ -53,12 +53,12 @@ function DisposalDeviceControllerPS:ActionSpiderbotExplodeExplosiveDevicePerform
 function DisposalDeviceControllerPS:ActionSpiderbotExplosion(interactionName) return end
 
 ---@private
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return TakedownAndDisposeBody
 function DisposalDeviceControllerPS:ActionTakedownAndDisposeBody(interactionTweak) return end
 
 ---@protected
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return ToggleActivation
 function DisposalDeviceControllerPS:ActionToggleActivation(interactionTweak) return end
 

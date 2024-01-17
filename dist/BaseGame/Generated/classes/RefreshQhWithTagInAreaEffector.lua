@@ -16,8 +16,8 @@ function RefreshQhWithTagInAreaEffector.new(fields) return end
 function RefreshQhWithTagInAreaEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function RefreshQhWithTagInAreaEffector:Initialize(record, parentRecord) return end
 

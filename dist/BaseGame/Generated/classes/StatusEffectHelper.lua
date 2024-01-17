@@ -9,39 +9,39 @@ StatusEffectHelper = {}
 function StatusEffectHelper.new(fields) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param delay? Float
 ---@return Bool
 function StatusEffectHelper.ApplyStatusEffect(target, statusEffectID, delay) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param instigatorEntityID entEntityID
 ---@return Bool
 function StatusEffectHelper.ApplyStatusEffect(target, statusEffectID, instigatorEntityID) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
----@param instigatorID TweakDBID
+---@param statusEffectID TweakDBID|string
+---@param instigatorID TweakDBID|string
 ---@return Bool
 function StatusEffectHelper.ApplyStatusEffect(target, statusEffectID, instigatorID) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param instigatorEntityID entEntityID
 ---@param proxyEntityID entEntityID
 ---@return Bool
 function StatusEffectHelper.ApplyStatusEffect(target, statusEffectID, instigatorEntityID, proxyEntityID) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param instigatorEntityID entEntityID
 ---@param delay Float
 ---@param duration Float
 ---@return nil
 function StatusEffectHelper.ApplyStatusEffectForTimeWindow(target, statusEffectID, instigatorEntityID, delay, duration) return end
 
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param entityID entEntityID
 ---@return Bool
 function StatusEffectHelper.ApplyStatusEffectOnSelf(statusEffectID, entityID) return end
@@ -78,7 +78,7 @@ function StatusEffectHelper.GetForcedKnockdownImpulseKey() return end
 function StatusEffectHelper.GetStateStartTimeKey() return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return gameStatusEffect
 function StatusEffectHelper.GetStatusEffectByID(target, statusEffectID) return end
 
@@ -102,7 +102,7 @@ function StatusEffectHelper.GetTopPriorityEffect(target) return end
 function StatusEffectHelper.HasStatusEffectAttack(statusEffect) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param instigator entEntityID
 ---@return Bool
 function StatusEffectHelper.HasStatusEffectFromInstigator(target, statusEffectID, instigator) return end
@@ -140,7 +140,7 @@ function StatusEffectHelper.RemoveAllStatusEffectsByType(target, type) return en
 
 ---@param target gameObject
 ---@param gameplayTag CName|string
----@param beside TweakDBID
+---@param beside TweakDBID|string
 ---@return nil
 function StatusEffectHelper.RemoveAllStatusEffectsWithTagBeside(target, gameplayTag, beside) return end
 
@@ -151,13 +151,13 @@ function StatusEffectHelper.RemoveAllStatusEffectsWithTagBeside(target, gameplay
 function StatusEffectHelper.RemoveStatusEffect(target, statusEffect, removeCount) return end
 
 ---@param target gameObject
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@param removeCount? Uint32
 ---@return Bool
 function StatusEffectHelper.RemoveStatusEffect(target, statusEffectID, removeCount) return end
 
 ---@param target gameObject
----@param instigatorID TweakDBID
+---@param instigatorID TweakDBID|string
 ---@return nil
 function StatusEffectHelper.RemoveStatusEffectsByInstigatorID(target, instigatorID) return end
 

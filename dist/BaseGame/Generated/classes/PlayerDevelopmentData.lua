@@ -847,7 +847,7 @@ function PlayerDevelopmentData:SetIsProgressionBuildSetCompleted(value) return e
 ---@return nil
 function PlayerDevelopmentData:SetLevel(type, lvl, telemetryGainReason, isDebug) return end
 
----@param lifePath TweakDBID
+---@param lifePath TweakDBID|string
 ---@return nil
 function PlayerDevelopmentData:SetLifePath(lifePath) return end
 
@@ -870,7 +870,7 @@ function PlayerDevelopmentData:SetProficiencyStat(type, level) return end
 ---@return nil
 function PlayerDevelopmentData:SetProgressionBuild(build, isDebugBuild) return end
 
----@param buildID TweakDBID
+---@param buildID TweakDBID|string
 ---@param isDebugBuild? Bool
 ---@return nil
 function PlayerDevelopmentData:SetProgressionBuild(buildID, isDebugBuild) return end

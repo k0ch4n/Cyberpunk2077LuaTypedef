@@ -21,8 +21,8 @@ function SpawnSubCharacterEffector:ActionOff(owner) return end
 function SpawnSubCharacterEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function SpawnSubCharacterEffector:Initialize(record, parentRecord) return end
 

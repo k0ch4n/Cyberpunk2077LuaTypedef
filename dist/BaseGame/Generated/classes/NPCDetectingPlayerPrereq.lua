@@ -15,7 +15,7 @@ function NPCDetectingPlayerPrereq.new(fields) return end
 function NPCDetectingPlayerPrereq:Evaluate(owner, percentage) return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function NPCDetectingPlayerPrereq:Initialize(recordID) return end
 

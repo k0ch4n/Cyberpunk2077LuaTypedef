@@ -40,7 +40,7 @@ function Fan:OnTakeControl(ri) return end
 function Fan:CutPower() return end
 
 ---@private
----@param damageType TweakDBID
+---@param damageType TweakDBID|string
 ---@return nil
 function Fan:DoAttack(damageType) return end
 

@@ -9,7 +9,7 @@ WeaponChangedListener = {}
 ---@return WeaponChangedListener
 function WeaponChangedListener.new(fields) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function WeaponChangedListener:OnItemEquipped(slot, item) return end

@@ -12,23 +12,23 @@ gameItemID = {}
 ---@return gameItemID
 function gameItemID.new(fields) return end
 
----@param newItemTDBID TweakDBID
+---@param newItemTDBID TweakDBID|string
 ---@param seed Uint32
 ---@param offset Int32
 ---@return gameItemID
 function gameItemID.CreateFromSeedWithOffset(newItemTDBID, seed, offset) return end
 
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@return gameItemID
 function gameItemID.CreateQuery(tdbID) return end
 
 ---@param referenceItemID gameItemID
----@param newItemTDBID TweakDBID
+---@param newItemTDBID TweakDBID|string
 ---@param offset Int32
 ---@return gameItemID
 function gameItemID.DuplicateRandomSeedWithOffset(referenceItemID, newItemTDBID, offset) return end
 
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@return gameItemID
 function gameItemID.FromTDBID(tdbID) return end
 
@@ -54,7 +54,7 @@ function gameItemID.GetTDBID(itemID) return end
 function gameItemID.HasFlag(itemID, flag) return end
 
 ---@param itemID gameItemID
----@param tdbID TweakDBID
+---@param tdbID TweakDBID|string
 ---@return Bool
 function gameItemID.IsOfTDBID(itemID, tdbID) return end
 

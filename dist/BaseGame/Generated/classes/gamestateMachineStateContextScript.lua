@@ -262,7 +262,7 @@ function gamestateMachineStateContextScript:SetConditionIntParameter(parameterNa
 function gamestateMachineStateContextScript:SetConditionScriptableParameter(parameterName, value, force) return end
 
 ---@param parameterName CName|string
----@param value TweakDBID
+---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
 function gamestateMachineStateContextScript:SetConditionTweakDBIDParameter(parameterName, value, force) return end
@@ -310,7 +310,7 @@ function gamestateMachineStateContextScript:SetPermanentIntParameter(parameterNa
 function gamestateMachineStateContextScript:SetPermanentScriptableParameter(parameterName, value, force) return end
 
 ---@param parameterName CName|string
----@param value TweakDBID
+---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
 function gamestateMachineStateContextScript:SetPermanentTweakDBIDParameter(parameterName, value, force) return end
@@ -352,7 +352,7 @@ function gamestateMachineStateContextScript:SetTemporaryIntParameter(parameterNa
 function gamestateMachineStateContextScript:SetTemporaryScriptableParameter(parameterName, value, force) return end
 
 ---@param parameterName CName|string
----@param value TweakDBID
+---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
 function gamestateMachineStateContextScript:SetTemporaryTweakDBIDParameter(parameterName, value, force) return end

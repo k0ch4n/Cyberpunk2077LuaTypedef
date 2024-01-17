@@ -13,7 +13,7 @@ ActivatedDeviceControllerPS = {}
 function ActivatedDeviceControllerPS.new(fields) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return ActivateDevice
 function ActivatedDeviceControllerPS:ActionActivateDevice(interactionTDBID) return end
 
@@ -32,17 +32,17 @@ function ActivatedDeviceControllerPS:ActionQuestSetIndustrialArmAnimationOverrid
 function ActivatedDeviceControllerPS:ActionQuestToggleAutomaticAttack(toggle) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return ActivateDevice
 function ActivatedDeviceControllerPS:ActionQuickHackActivateDevice(interactionTDBID) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return QuickHackDistraction
 function ActivatedDeviceControllerPS:ActionQuickHackDistraction(interactionTDBID) return end
 
 ---@protected
----@param interactionTDBID TweakDBID
+---@param interactionTDBID TweakDBID|string
 ---@return SpiderbotActivateActivator
 function ActivatedDeviceControllerPS:ActionSpiderbotActivateActivator(interactionTDBID) return end
 

@@ -9,7 +9,7 @@ InventoryUtils = {}
 function InventoryUtils.new(fields) return end
 
 ---@param item gameItemData
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param stat gamedataStatType
 ---@return Float
 function InventoryUtils.GetInnerItemStatValueByType(item, slot, stat) return end
@@ -27,6 +27,6 @@ function InventoryUtils.GetPartType(attachmentData) return end
 ---@return gameInventoryItemAttachments[]
 function InventoryUtils.GetParts(itemData) return end
 
----@param attachmentSlotID TweakDBID
+---@param attachmentSlotID TweakDBID|string
 ---@return Bool
 function InventoryUtils.IsPart(attachmentSlotID) return end

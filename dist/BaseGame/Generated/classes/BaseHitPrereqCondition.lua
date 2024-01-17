@@ -30,6 +30,6 @@ function BaseHitPrereqCondition:GetObjectToCheck(obj, hitEvent) return end
 ---@return nil
 function BaseHitPrereqCondition:OnMissTriggered(missEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function BaseHitPrereqCondition:SetData(recordID) return end

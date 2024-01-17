@@ -678,7 +678,7 @@ function gameObject:CanPassHackingSkillCheck() return end
 ---@return Bool
 function gameObject:CanPlayerScanThroughWalls() return end
 
----@param data TweakDBID
+---@param data TweakDBID|string
 ---@return Bool
 function gameObject:CanPlayerUseQuickHackVulnerability(data) return end
 

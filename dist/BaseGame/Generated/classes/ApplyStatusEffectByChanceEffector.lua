@@ -23,8 +23,8 @@ function ApplyStatusEffectByChanceEffector:ActionOff(owner) return end
 function ApplyStatusEffectByChanceEffector:ApplyStatusEffect() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyStatusEffectByChanceEffector:Initialize(record, parentRecord) return end
 

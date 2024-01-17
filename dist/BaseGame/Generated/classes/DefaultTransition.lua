@@ -992,12 +992,12 @@ function DefaultTransition:IsWeaponStateBlockingAiming(scriptInterface) return e
 ---@return Int32
 function DefaultTransition:ItemsInLootData(scriptInterface) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function DefaultTransition:OnItemEquipped(slot, item) return end
 
----@param slot TweakDBID
+---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
 function DefaultTransition:OnItemUnequipped(slot, item) return end

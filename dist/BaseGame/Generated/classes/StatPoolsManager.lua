@@ -57,7 +57,7 @@ function StatPoolsManager.ApplyLocalizedDamageSingle(hitEvent, dmg, dmgType, poo
 
 ---@param hitEvent gameeventsHitEvent
 ---@param resistPoolRecord gamedataStatPool_Record
----@param statusEffectID TweakDBID
+---@param statusEffectID TweakDBID|string
 ---@return nil
 function StatPoolsManager.ApplyStatusEffectDamage(hitEvent, resistPoolRecord, statusEffectID) return end
 

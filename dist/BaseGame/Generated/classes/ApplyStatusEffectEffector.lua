@@ -35,8 +35,8 @@ function ApplyStatusEffectEffector:ApplyStatusEffect() return end
 function ApplyStatusEffectEffector:GetInstigator() return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyStatusEffectEffector:Initialize(record, parentRecord) return end
 

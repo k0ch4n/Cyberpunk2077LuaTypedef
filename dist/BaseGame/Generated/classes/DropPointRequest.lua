@@ -11,7 +11,7 @@ DropPointRequest = {}
 ---@return DropPointRequest
 function DropPointRequest.new(fields) return end
 
----@param _record TweakDBID
+---@param _record TweakDBID|string
 ---@param _status DropPointPackageStatus
 ---@param _holder? gamePersistentID
 ---@return nil

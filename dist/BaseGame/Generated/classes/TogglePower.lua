@@ -31,7 +31,7 @@ function TogglePower:GetTweakDBChoiceRecord() return end
 function TogglePower:SetProperties(status) return end
 
 ---@param status EDeviceStatus
----@param nameOnTrue TweakDBID
----@param nameOnFalse TweakDBID
+---@param nameOnTrue TweakDBID|string
+---@param nameOnFalse TweakDBID|string
 ---@return nil
 function TogglePower:SetProperties(status, nameOnTrue, nameOnFalse) return end

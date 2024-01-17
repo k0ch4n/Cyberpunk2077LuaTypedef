@@ -14,7 +14,7 @@ function StanceNPCStatePrereq.new(fields) return end
 function StanceNPCStatePrereq:GetStateToCheck() return end
 
 ---@protected
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function StanceNPCStatePrereq:Initialize(recordID) return end
 

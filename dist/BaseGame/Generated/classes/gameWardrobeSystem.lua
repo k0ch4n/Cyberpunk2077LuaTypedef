@@ -46,7 +46,7 @@ function gameWardrobeSystem:GetFilteredInventoryItemsData(equipmentArea, invento
 ---@return gameItemID[]
 function gameWardrobeSystem:GetFilteredStoredItemIDs(equipmentArea) return end
 
----@param item TweakDBID
+---@param item TweakDBID|string
 ---@return gameItemID
 function gameWardrobeSystem:GetStoredItemID(item) return end
 

@@ -13,6 +13,6 @@ function WeaponItemTypeHitPrereqCondition.new(fields) return end
 ---@return Bool
 function WeaponItemTypeHitPrereqCondition:Evaluate(hitEvent) return end
 
----@param recordID TweakDBID
+---@param recordID TweakDBID|string
 ---@return nil
 function WeaponItemTypeHitPrereqCondition:SetData(recordID) return end

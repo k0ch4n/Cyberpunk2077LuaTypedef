@@ -8,6 +8,6 @@ gameuiDynamicIconLogicController = {}
 ---@return gameuiDynamicIconLogicController
 function gameuiDynamicIconLogicController.new(fields) return end
 
----@param icon TweakDBID
+---@param icon TweakDBID|string
 ---@return nil
 function gameuiDynamicIconLogicController:SetIcon(icon) return end

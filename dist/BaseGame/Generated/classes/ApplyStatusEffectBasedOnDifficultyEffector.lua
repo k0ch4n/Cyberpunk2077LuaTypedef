@@ -18,8 +18,8 @@ function ApplyStatusEffectBasedOnDifficultyEffector.new(fields) return end
 function ApplyStatusEffectBasedOnDifficultyEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function ApplyStatusEffectBasedOnDifficultyEffector:Initialize(record, parentRecord) return end
 

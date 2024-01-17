@@ -11,7 +11,7 @@ MovableDeviceControllerPS = {}
 function MovableDeviceControllerPS.new(fields) return end
 
 ---@protected
----@param interactionTweak TweakDBID
+---@param interactionTweak TweakDBID|string
 ---@return MoveObstacle
 function MovableDeviceControllerPS:ActionMoveObstacle(interactionTweak) return end
 

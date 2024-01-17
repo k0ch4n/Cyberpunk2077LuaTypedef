@@ -246,7 +246,7 @@ function inkWidgetLogicController:GetWidget(widgetNamePath) return end
 
 ---@protected
 ---@param imageRef inkImageWidgetReference
----@param textureID TweakDBID
+---@param textureID TweakDBID|string
 ---@return nil
 function inkWidgetLogicController:SetTexture(imageRef, textureID) return end
 
@@ -264,6 +264,6 @@ function inkWidgetLogicController:SetTexture(imageRef, textureRecord) return end
 
 ---@protected
 ---@param imageWidget inkImageWidget
----@param textureID TweakDBID
+---@param textureID TweakDBID|string
 ---@return nil
 function inkWidgetLogicController:SetTexture(imageWidget, textureID) return end

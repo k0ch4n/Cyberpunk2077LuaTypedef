@@ -19,7 +19,7 @@ function TestEffector:ActionOff(owner) return end
 function TestEffector:ActionOn(owner) return end
 
 ---@protected
----@param record TweakDBID
----@param parentRecord TweakDBID
+---@param record TweakDBID|string
+---@param parentRecord TweakDBID|string
 ---@return nil
 function TestEffector:Initialize(record, parentRecord) return end

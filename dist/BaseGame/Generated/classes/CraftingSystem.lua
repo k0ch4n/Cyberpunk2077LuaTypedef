@@ -13,7 +13,7 @@ CraftingSystem = {}
 ---@return CraftingSystem
 function CraftingSystem.new(fields) return end
 
----@param ammoId TweakDBID
+---@param ammoId TweakDBID|string
 ---@return Int32
 function CraftingSystem.GetAmmoBulletAmount(ammoId) return end
 
@@ -269,7 +269,7 @@ function CraftingSystem:HidePipeWrenchRecipes() return end
 ---@return nil
 function CraftingSystem:InstallModsToRedesignedItems() return end
 
----@param recipe TweakDBID
+---@param recipe TweakDBID|string
 ---@param playerCraftBook CraftBook
 ---@return Bool
 function CraftingSystem:IsRecipeKnown(recipe, playerCraftBook) return end
@@ -355,7 +355,7 @@ function CraftingSystem:ProcessGritModsPurge() return end
 function CraftingSystem:ProcessIconicRevampRestoration() return end
 
 ---@private
----@param itemTDBID TweakDBID
+---@param itemTDBID TweakDBID|string
 ---@return nil
 function CraftingSystem:ProcessProgramCrafting(itemTDBID) return end
 

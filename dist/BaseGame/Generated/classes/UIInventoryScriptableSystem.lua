@@ -119,7 +119,7 @@ function UIInventoryScriptableSystem:Internal_FetchNonInventoryItem(hash, itemDa
 function UIInventoryScriptableSystem:IsPreview(itemID) return end
 
 ---@private
----@param tweakDBID TweakDBID
+---@param tweakDBID TweakDBID|string
 ---@return Bool
 function UIInventoryScriptableSystem:IsStatDependantItem(tweakDBID) return end
 
@@ -179,11 +179,11 @@ function UIInventoryScriptableSystem:OnPlayerAttach(request) return end
 ---@return nil
 function UIInventoryScriptableSystem:OnSellNewPerk(request) return end
 
----@param tweakID TweakDBID
+---@param tweakID TweakDBID|string
 ---@return UIInventoryItem
 function UIInventoryScriptableSystem:QueryNonInventoryItem(tweakID) return end
 
----@param tweakID TweakDBID
+---@param tweakID TweakDBID|string
 ---@return UIInventoryItem
 function UIInventoryScriptableSystem:QueryPlayerItem(tweakID) return end
 
