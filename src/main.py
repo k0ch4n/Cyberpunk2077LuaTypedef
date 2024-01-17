@@ -1,15 +1,27 @@
-import json
 import os
 import re
 import shutil
+import time
 from enum import IntFlag
 from pathlib import Path
+
+import orjson
 
 PROJECT_ROOT_DIR = Path(__file__).parents[1]
 GAME_BASE_DIR = Path(os.getenv("ProgramFiles(x86)")).joinpath("GOG Galaxy\\Games\\Cyberpunk 2077")  # type: ignore
 RTTI_DUMP_DIR = PROJECT_ROOT_DIR.joinpath("dumps", "BaseGame")
 
 BASE_DIST_DIR = PROJECT_ROOT_DIR.joinpath("dist")
+
+
+def bench_mark(fn):
+    def _wrapper(*args, **keywargs):
+        start = time.time()
+        ret = fn(*args, **keywargs)
+        print(f"[bench_mark] {fn.__qualname__}: {time.time() - start:.3f} sec")
+        return ret
+
+    return _wrapper
 
 
 class Flags:
@@ -67,7 +79,7 @@ class Dump:
     @classmethod
     def load(cls):
         redmod_metadata_path = GAME_BASE_DIR.joinpath("tools", "redmod", "metadata.json")
-        cls.redmod = json.loads(redmod_metadata_path.read_text())
+        cls.redmod = orjson.loads(redmod_metadata_path.read_text())
 
         cls.rtti = cls.dir_to_dict(RTTI_DUMP_DIR)
 
@@ -91,73 +103,52 @@ class Dump:
 
             if not current_dict.get(file_rel_path.stem):
                 file_text = file_path.read_text()
-                current_dict[file_rel_path.stem] = json.loads(file_text)
+                current_dict[file_rel_path.stem] = orjson.loads(file_text)
 
         return dict
 
     class Diff:
+        @bench_mark
         def __init__(self, dump_dir: Path, is_set: bool = False) -> None:
             self.base_rtti = Dump.rtti.copy()
             self.diff_rtti = Dump.dir_to_dict(dump_dir)
 
             # globals
-            for idx in range(len(self.diff_rtti.get("globals", {}).get("funcs", [])) - 1, -1, -1):
-                func_name = self.diff_rtti["globals"]["funcs"][idx]["fullName"]
-
-                for base_func in self.base_rtti["globals"]["funcs"]:
-                    if base_func["fullName"] != func_name:
-                        continue
-
-                    self.diff_rtti["globals"]["funcs"].pop(idx)
-                    break
+            base_func_names = {func["fullName"] for func in self.base_rtti["globals"]["funcs"]}
+            self.diff_rtti["globals"]["funcs"] = [
+                func for func in self.diff_rtti["globals"]["funcs"] if func["fullName"] not in base_func_names
+            ]
 
             # bitfields
-            for bitfield_name in list(self.diff_rtti.get("bitfields", {}).keys()):
-                for base_bitfield in self.base_rtti["bitfields"].values():
-                    if base_bitfield["name"] != bitfield_name:
-                        continue
-
-                    self.diff_rtti["bitfields"].pop(bitfield_name)
+            base_bitfield_names = self.base_rtti["bitfields"].keys()
+            self.diff_rtti["bitfields"] = {
+                name: bitfield
+                for name, bitfield in self.diff_rtti["bitfields"].items()
+                if name not in base_bitfield_names
+            }
 
             # classes
-            for class_name in list(self.diff_rtti.get("classes", {}).keys()):
-                for base_class in self.base_rtti["classes"].values():
-                    if base_class["name"] != class_name:
-                        continue
+            for class_name, diff_class in list(self.diff_rtti.get("classes", {}).items()):
+                base_class = self.base_rtti["classes"].get(class_name)
+                if base_class:
+                    base_prop_names = {prop["name"] for prop in base_class.get("props", [])}
+                    diff_class["props"] = [
+                        prop for prop in diff_class.get("props", []) if prop["name"] not in base_prop_names
+                    ]
 
-                    for idx in range(len(self.diff_rtti["classes"][class_name].get("props", {})) - 1, -1, -1):
-                        prop_name = self.diff_rtti["classes"][class_name]["props"][idx]["name"]
+                    base_func_names = {func["fullName"] for func in base_class.get("funcs", [])}
+                    diff_class["funcs"] = [
+                        func for func in diff_class.get("funcs", []) if func["fullName"] not in base_func_names
+                    ]
 
-                        for base_prop in base_class.get("props", []):
-                            if base_prop["name"] != prop_name:
-                                continue
-
-                            self.diff_rtti["classes"][class_name]["props"].pop(idx)
-                            break
-
-                    for idx in range(len(self.diff_rtti["classes"][class_name].get("funcs", {})) - 1, -1, -1):
-                        func_name = self.diff_rtti["classes"][class_name]["funcs"][idx]["fullName"]
-
-                        for base_func in base_class.get("funcs", []):
-                            if base_func["fullName"] != func_name:
-                                continue
-
-                            self.diff_rtti["classes"][class_name]["funcs"].pop(idx)
-                            break
-
-                    prop_count = len(self.diff_rtti["classes"][class_name].get("props", {}))
-                    func_count = len(self.diff_rtti["classes"][class_name].get("funcs", {}))
-
-                    if prop_count + func_count == 0:
+                    if not diff_class["props"] and not diff_class["funcs"]:
                         self.diff_rtti["classes"].pop(class_name)
 
             # enums
-            for enum_name in list(self.diff_rtti.get("enums", {}).keys()):
-                for base_enum in self.base_rtti["enums"].values():
-                    if base_enum["name"] != enum_name:
-                        continue
-
-                    self.diff_rtti["enums"].pop(enum_name)
+            base_enum_names = self.base_rtti["enums"].keys()
+            self.diff_rtti["enums"] = {
+                name: enum for name, enum in self.diff_rtti["enums"].items() if name not in base_enum_names
+            }
 
             if is_set:
                 self.set()
