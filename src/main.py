@@ -14,14 +14,18 @@ RTTI_DUMP_DIR = PROJECT_ROOT_DIR.joinpath("dumps", "BaseGame")
 BASE_DIST_DIR = PROJECT_ROOT_DIR.joinpath("dist")
 
 
-def bench_mark(fn):
-    def _wrapper(*args, **keywargs):
-        start = time.time()
-        ret = fn(*args, **keywargs)
-        print(f"[bench_mark] {fn.__qualname__}: {time.time() - start:.3f} sec")
-        return ret
+def bench_mark(comment, pre_flash=True):
+    def _bench_mark(fn):
+        def _wrapper(*args, **kwargs):
+            if pre_flash:
+                print(f"[---.--- sec] {comment}", end="", flush=True)
+            start = time.time()
+            fn(*args, **kwargs)
+            print(f"\r[{time.time() - start:7.3f} sec] {comment}")
 
-    return _wrapper
+        return _wrapper
+
+    return _bench_mark
 
 
 class Flags:
@@ -77,6 +81,7 @@ class Flags:
 
 class Dump:
     @classmethod
+    @bench_mark("Loading REDmod metadata file.")
     def load(cls):
         redmod_metadata_path = GAME_BASE_DIR.joinpath("tools", "redmod", "metadata.json")
         cls.redmod = orjson.loads(redmod_metadata_path.read_text())
@@ -108,7 +113,6 @@ class Dump:
         return dict
 
     class Diff:
-        @bench_mark
         def __init__(self, dump_dir: Path, is_set: bool = False) -> None:
             self.base_rtti = Dump.rtti.copy()
             self.diff_rtti = Dump.dir_to_dict(dump_dir)
@@ -363,11 +367,11 @@ class NameParser:
 
 
 class Writer:
-    DIST_DIR: Path
+    def __init__(self, dist_dir: Path) -> None:
+        self.__DIST_DIR = dist_dir
 
-    @classmethod
-    def simple_types(cls):
-        out_path = cls.DIST_DIR.joinpath("Generated", "simple_types.lua")
+    def simple_types(self):
+        out_path = self.__DIST_DIR.joinpath("Generated", "simple_types.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -407,9 +411,8 @@ class Writer:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(annotation.get(), newline="")
 
-    @classmethod
-    def classes(cls):
-        out_dir = cls.DIST_DIR.joinpath("Generated", "classes")
+    def classes(self):
+        out_dir = self.__DIST_DIR.joinpath("Generated", "classes")
 
         for class_data in Dump.rtti["classes"].values():
             class_name = class_data["name"]
@@ -433,7 +436,7 @@ class Writer:
 
             if "funcs" in class_data:
                 for func_data in class_data["funcs"]:
-                    func_name, func_type, func_params, func_flags = cls.process_function(func_data)
+                    func_name, func_type, func_params, func_flags = self.process_function(func_data)
 
                     annotation.add_function(func_name, func_type, func_params, func_flags)
                     annotation.add_custom("\n", False)
@@ -441,9 +444,8 @@ class Writer:
             out_dir.mkdir(parents=True, exist_ok=True)
             out_dir.joinpath(class_name + ".lua").write_text(annotation.get(), newline="")
 
-    @classmethod
-    def enums(cls):
-        out_dir = cls.DIST_DIR.joinpath("Generated", "enums")
+    def enums(self):
+        out_dir = self.__DIST_DIR.joinpath("Generated", "enums")
 
         for enum_data in Dump.rtti["enums"].values():
             enum_name = enum_data["name"]
@@ -459,9 +461,8 @@ class Writer:
             out_dir.mkdir(parents=True, exist_ok=True)
             out_dir.joinpath(enum_name + ".lua").write_text(annotation.get(), newline="")
 
-    @classmethod
-    def global_functions(cls):
-        out_path = cls.DIST_DIR.joinpath("Generated", "global_functions.lua")
+    def global_functions(self):
+        out_path = self.__DIST_DIR.joinpath("Generated", "global_functions.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -469,7 +470,7 @@ class Writer:
         annotation.add_class("Game", "ScriptGameInstance", Flags.Class.isAbstract)
 
         for func_data in Dump.rtti["globals"]["funcs"]:
-            name, type, params, flags = cls.process_function(func_data)
+            name, type, params, flags = self.process_function(func_data)
 
             annotation.add_function(name, type, params, flags)
 
@@ -481,9 +482,8 @@ class Writer:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(annotation.get(), newline="")
 
-    @classmethod
-    def bitfields(cls):
-        out_dir = cls.DIST_DIR.joinpath("Generated", "bitfields")
+    def bitfields(self):
+        out_dir = self.__DIST_DIR.joinpath("Generated", "bitfields")
 
         for bitfield_metadata in Dump.rtti["bitfields"].values():
             name = bitfield_metadata["name"]
@@ -497,9 +497,8 @@ class Writer:
             out_dir.mkdir(parents=True, exist_ok=True)
             out_dir.joinpath(name + ".lua").write_text(annotation.get(), newline="")
 
-    @classmethod
-    def aliases(cls):
-        out_path = cls.DIST_DIR.joinpath("Generated", "aliases.lua")
+    def aliases(self):
+        out_path = self.__DIST_DIR.joinpath("Generated", "aliases.lua")
 
         annotation = Annotation()
         annotation.add_meta()
@@ -529,65 +528,65 @@ class Writer:
         return name, type, params, flags
 
 
+@bench_mark("Done!", False)
 def main() -> None:
-    Writer.DIST_DIR = BASE_DIST_DIR.joinpath("BaseGame")
+    @bench_mark("Deleting previous artifacts.")
+    def _clean_dist():
+        if BASE_DIST_DIR.exists():
+            shutil.rmtree(BASE_DIST_DIR)
 
-    print("Loading metadata.")
+    @bench_mark("Generating BaseGame annotation files.")
+    def _write():
+        writer = Writer(BASE_DIST_DIR.joinpath("BaseGame"))
+
+        writer.simple_types()
+        writer.global_functions()
+        writer.classes()
+        writer.enums()
+        writer.bitfields()
+        writer.aliases()
+
+    _clean_dist()
+
     Dump.load()
 
-    print("Generating simple_types.")
-    Writer.simple_types()
-
-    print("Generating globals.")
-    Writer.global_functions()
-
-    print("Generating classes.")
-    Writer.classes()
-
-    print("Generating enums.")
-    Writer.enums()
-
-    print("Generating bitfields.")
-    Writer.bitfields()
-
-    print("Generating aliases.")
-    Writer.aliases()
+    _write()
+    community_tools()
 
 
-def third() -> None:
-    codeware = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "Codeware"), True)
-    if codeware.is_init_ok:
-        print("Generating Codeware annotation files.")
-        Writer.DIST_DIR = BASE_DIST_DIR.joinpath("Codeware")
-        Writer.global_functions()
-        Writer.classes()
-        Writer.enums()
-        Writer.bitfields()
+def community_tools() -> None:
+    @bench_mark("Generating Codeware annotation files.")
+    def _codeware():
+        codeware = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "Codeware"), True)
+        if codeware.is_init_ok:
+            writer = Writer(BASE_DIST_DIR.joinpath("Codeware"))
 
-        codeware.unset()
+            writer.global_functions()
+            writer.classes()
+            writer.enums()
+            writer.bitfields()
 
-    cyber_engine_tweaks = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "CyberEngineTweaks"), True)
-    if cyber_engine_tweaks.is_init_ok:
-        print("Copying CyberEngineTweaks annotation files.")
-        shutil.copytree(
-            Path(__file__).parent.joinpath("CyberEngineTweaks"),
-            BASE_DIST_DIR.joinpath("CyberEngineTweaks"),
-        )
+            codeware.unset()
 
-        print("Generating CyberEngineTweaks annotation files.")
-        Writer.DIST_DIR = BASE_DIST_DIR.joinpath("CyberEngineTweaks")
-        Writer.global_functions()
-        Writer.classes()
-        Writer.enums()
-        Writer.bitfields()
+    @bench_mark("Generating CyberEngineTweaks annotation files.")
+    def _cyber_engine_tweaks():
+        cyber_engine_tweaks = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "CyberEngineTweaks"), True)
+        if cyber_engine_tweaks.is_init_ok:
+            dist_dir = BASE_DIST_DIR.joinpath("CyberEngineTweaks")
+            shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), dist_dir)
 
-        cyber_engine_tweaks.unset()
+            writer = Writer(dist_dir)
+
+            writer.global_functions()
+            writer.classes()
+            writer.enums()
+            writer.bitfields()
+
+            cyber_engine_tweaks.unset()
+
+    _codeware()
+    _cyber_engine_tweaks()
 
 
 if __name__ == "__main__":
-    if BASE_DIST_DIR.exists():
-        print("Deleting previous artifacts.")
-        shutil.rmtree(BASE_DIST_DIR)
-
     main()
-    third()

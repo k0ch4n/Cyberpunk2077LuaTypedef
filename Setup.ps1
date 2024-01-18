@@ -2,7 +2,7 @@ param ([switch]$Run, [switch]$Clean)
 
 Set-Location -Path $PSScriptRoot
 
-if (($Clean) -and (Test-Path -Path ".venv")) {
+if ($Clean -and (Test-Path -Path ".venv")) {
     Remove-Item -Path ".venv" -Recurse -Force
 }
 
