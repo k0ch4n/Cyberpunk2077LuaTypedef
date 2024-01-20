@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
+    "settings": {
+        "runtime": {
+            "builtin": {
+                "basic": "enable",
+                "bit": "disable",
+                "bit32": "enable",
+                "builtin": "enable",
+                "coroutine": "disable",
+                "debug": "disable",
+                "ffi": "disable",
+                "io": "enable",
+                "jit": "enable",
+                "jit.profile": "disable",
+                "jit.util": "disable",
+                "math": "enable",
+                "os": "enable",
+                "package": "enable",
+                "string": "enable",
+                "string.buffer": "disable",
+                "table": "enable",
+                "table.clear": "disable",
+                "table.new": "disable",
+                "utf8": "disable"
+            },
+            "unicodeName": false,
+            "version": "LuaJIT"
+        },
+        "workspace": {
+            "maxPreload": 20000,
+            "preloadFileSize": 1000
+        }
+    }
+}

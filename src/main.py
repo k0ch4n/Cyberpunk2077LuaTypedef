@@ -519,7 +519,7 @@ def main() -> None:
 
     @bench_mark("Generating BaseGame annotation files.")
     def _write():
-        writer = Writer(BASE_DIST_DIR.joinpath("BaseGame"))
+        writer = Writer(BASE_DIST_DIR.joinpath("library", "BaseGame"))
 
         writer.simple_types()
         writer.global_functions()
@@ -535,13 +535,15 @@ def main() -> None:
     _write()
     community_tools()
 
+    shutil.copy(Path(__file__).parent.joinpath("config.json"), BASE_DIST_DIR)
+
 
 def community_tools() -> None:
     @bench_mark("Generating Codeware annotation files.")
     def _codeware():
         codeware = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "Codeware"), True)
         if codeware.is_init_ok:
-            writer = Writer(BASE_DIST_DIR.joinpath("Codeware"))
+            writer = Writer(BASE_DIST_DIR.joinpath("library", "Codeware"))
 
             writer.global_functions()
             writer.classes()
@@ -554,7 +556,7 @@ def community_tools() -> None:
     def _cyber_engine_tweaks():
         cyber_engine_tweaks = Dump.Diff(PROJECT_ROOT_DIR.joinpath("dumps", "CyberEngineTweaks"), True)
         if cyber_engine_tweaks.is_init_ok:
-            dist_dir = BASE_DIST_DIR.joinpath("CyberEngineTweaks")
+            dist_dir = BASE_DIST_DIR.joinpath("library", "CyberEngineTweaks")
             shutil.copytree(Path(__file__).parent.joinpath("CyberEngineTweaks"), dist_dir)
 
             writer = Writer(dist_dir)
