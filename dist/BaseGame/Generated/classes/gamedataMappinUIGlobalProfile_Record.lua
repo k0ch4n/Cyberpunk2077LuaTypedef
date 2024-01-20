@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUIGlobalProfile_Record: gamedataTweakDBRecord
 gamedataMappinUIGlobalProfile_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsMaterialTagType: Enum
 ---@field AIVisibility Enum 0

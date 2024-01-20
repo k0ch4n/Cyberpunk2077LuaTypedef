@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStreetCredTier_ConditionType: questIStatsConditionType
 ---@field public tierID TweakDBID

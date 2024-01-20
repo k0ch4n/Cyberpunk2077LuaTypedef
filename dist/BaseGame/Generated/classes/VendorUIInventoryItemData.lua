@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorUIInventoryItemData: WrappedInventoryItemData
 ---@field public ItemPrice Float

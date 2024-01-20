@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootingListItemController: inkWidgetLogicController
 ---@field protected widgetWrapper inkWidgetReference

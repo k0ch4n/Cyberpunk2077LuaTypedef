@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAnimParamSlotsOption
 ---@field public slotID TweakDBID

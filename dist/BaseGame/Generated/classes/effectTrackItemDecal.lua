@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemDecal: effectTrackItem
 ---@field public material IMaterial

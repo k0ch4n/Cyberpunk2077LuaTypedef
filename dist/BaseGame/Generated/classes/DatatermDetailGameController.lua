@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DatatermDetailGameController: BaseBunkerComputerGameController
 ---@field public authFactsSet AuthorizationFactsSet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioStationSongEventStruct
 ---@field public radioStationName CName

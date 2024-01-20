@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNode: ISerializable
 ---@field public isVisibleInGame Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageRawData: ISerializable
 ---@field public items worldFoliageRawItem[]

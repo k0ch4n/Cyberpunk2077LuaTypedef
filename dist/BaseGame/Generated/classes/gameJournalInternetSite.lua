@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalInternetSite: gameJournalFileEntry
 ---@field public shortName LocalizationString

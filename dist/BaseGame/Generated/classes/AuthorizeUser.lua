@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AuthorizeUser: ActionBool
 ---@field private enteredPassword CName

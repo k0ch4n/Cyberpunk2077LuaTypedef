@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameUILocalizationDataPackage: IScriptable
 ---@field public floatValues Float[]

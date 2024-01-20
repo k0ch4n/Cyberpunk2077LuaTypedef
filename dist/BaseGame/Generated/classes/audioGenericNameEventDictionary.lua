@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioGenericNameEventDictionary: audioInlinedAudioMetadata
 ---@field public entries audioGenericNameEventItem[]

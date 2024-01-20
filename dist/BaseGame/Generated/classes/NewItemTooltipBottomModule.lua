@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipBottomModule: NewItemTooltipModuleController
 ---@field private weightWrapper inkWidgetReference

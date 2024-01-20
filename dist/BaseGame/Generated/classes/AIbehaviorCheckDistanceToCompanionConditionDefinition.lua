@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCheckDistanceToCompanionConditionDefinition: AIbehaviorCompanionConditionDefinition
 ---@field public distance AIArgumentMapping

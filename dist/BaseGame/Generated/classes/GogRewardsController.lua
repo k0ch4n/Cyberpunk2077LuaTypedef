@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GogRewardsController: inkWidgetLogicController
 ---@field public containerWidget inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Hercules: CrosshairGameController_Smart_Rifl
 CrosshairGameController_Hercules = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_ActivityLogDef: gamebbScriptDefinition
 ---@field public activityLogHide gamebbScriptID_Bool

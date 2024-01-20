@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnVehicleMoveOnSpline_Overrides: questIVehicleMoveOnSpline_Overrides
 ---@field public useEntry Bool

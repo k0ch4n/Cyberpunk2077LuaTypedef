@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDeviceManager_NodeType: questIInteractiveObjectManagerNodeType
 ---@field public params questDeviceManager_NodeTypeParams[]

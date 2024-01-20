@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorClearUsedAlertedSpotsTaskDefinition: AIbehaviorTaskDefinition
 ---@field public usedTokens AIArgumentMapping

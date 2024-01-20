@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSetBoneTransform_JsonEntry
 ---@field public transformToChange CName

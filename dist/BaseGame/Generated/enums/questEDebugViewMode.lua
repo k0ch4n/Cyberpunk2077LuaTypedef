@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEDebugViewMode: Enum
 ---@field NONE Enum 0

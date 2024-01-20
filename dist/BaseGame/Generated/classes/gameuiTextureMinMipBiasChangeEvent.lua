@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTextureMinMipBiasChangeEvent: redEvent
 ---@field public textureMinMipBias Uint32

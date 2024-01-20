@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArchetypeSet: CResource
 ---@field public archetypeResources AIArchetypeSetEntry[]

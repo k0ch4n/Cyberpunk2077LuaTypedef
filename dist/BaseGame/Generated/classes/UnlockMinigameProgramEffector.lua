@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnlockMinigameProgramEffector: gameEffector
 ---@field public minigameProgram gameuiMinigameProgramData

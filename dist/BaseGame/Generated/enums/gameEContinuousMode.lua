@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEContinuousMode: Enum
 ---@field None Enum 0

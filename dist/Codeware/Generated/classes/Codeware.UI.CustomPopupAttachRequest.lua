@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_CustomPopupAttachRequest: IScriptable
 ---@field public controller Codeware_UI_CustomPopup

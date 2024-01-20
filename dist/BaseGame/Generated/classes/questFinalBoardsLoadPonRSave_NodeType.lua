@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFinalBoardsLoadPonRSave_NodeType: questIUIManagerNodeType
 ---@field public loadPointOfNoReturnSave Bool

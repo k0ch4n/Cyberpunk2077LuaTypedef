@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairModule: HUDModule
 ---@field private activeCrosshairs Crosshair[]

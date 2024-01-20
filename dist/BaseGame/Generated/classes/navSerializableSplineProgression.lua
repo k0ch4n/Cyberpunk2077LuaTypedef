@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navSerializableSplineProgression
 ---@field public sectionIdx Uint32

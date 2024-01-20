@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatform: entIPlacedComponent
 ---@field public loopType gameMovingPlatformLoopType

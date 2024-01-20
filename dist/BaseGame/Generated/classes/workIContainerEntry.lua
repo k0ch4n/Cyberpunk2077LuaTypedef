@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workIContainerEntry: workIEntry
 ---@field public list workIEntry[]

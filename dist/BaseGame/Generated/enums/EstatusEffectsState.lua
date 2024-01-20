@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EstatusEffectsState: Enum
 ---@field Deactivated Enum 0

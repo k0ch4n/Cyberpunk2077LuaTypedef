@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MetaQuestStatus
 ---@field public MetaQuest1Hidden Bool

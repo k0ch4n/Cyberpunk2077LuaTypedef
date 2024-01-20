@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpeedExitingEvents: ExitingEvents
 ---@field public exitForce Vector4

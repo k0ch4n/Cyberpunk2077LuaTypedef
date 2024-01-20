@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIThreatDeath: AIAIEvent
 ---@field public owner entEntity

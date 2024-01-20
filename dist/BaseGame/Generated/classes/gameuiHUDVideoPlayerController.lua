@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHUDVideoPlayerController: gameuiHUDGameController
 ---@field public playOnHud Bool

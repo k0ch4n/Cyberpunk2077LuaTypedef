@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetMoveState
 ---@field public desiredSpeed Float

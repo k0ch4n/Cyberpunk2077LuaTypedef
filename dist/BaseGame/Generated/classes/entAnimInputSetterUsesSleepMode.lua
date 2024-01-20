@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterUsesSleepMode: redEvent
 ---@field public value Bool

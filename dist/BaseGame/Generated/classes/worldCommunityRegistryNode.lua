@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCommunityRegistryNode: worldNode
 ---@field public spawnSetNameToCommunityID gameCommunitySpawnSetNameToID

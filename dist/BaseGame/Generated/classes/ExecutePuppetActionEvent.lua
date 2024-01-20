@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExecutePuppetActionEvent: redEvent
 ---@field public actionID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBriefingPlayerType: Enum
 ---@field Fullscreen Enum 0

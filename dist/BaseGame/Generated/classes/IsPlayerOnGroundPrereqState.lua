@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsPlayerOnGroundPrereqState: gamePrereqState
 ---@field public bbValue Bool

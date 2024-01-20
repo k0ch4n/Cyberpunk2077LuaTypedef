@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Rotation: ISerializable
 gameTransformAnimation_Rotation = {}

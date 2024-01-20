@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTrialPeriodTimerController: inkGenericSystemNotificationLogicController
 ---@field public timerText inkTextWidgetReference

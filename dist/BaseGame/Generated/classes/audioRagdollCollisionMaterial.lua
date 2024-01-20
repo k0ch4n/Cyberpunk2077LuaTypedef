@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRagdollCollisionMaterial: audioAudioMetadata
 ---@field public lightCollisionEventName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetStateComparisonReport
 ---@field public frameID Uint32

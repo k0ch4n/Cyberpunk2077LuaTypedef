@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetUIGameContext_NodeType: questIUIManagerNodeType
 ---@field public requestType questUIGameContextRequestType

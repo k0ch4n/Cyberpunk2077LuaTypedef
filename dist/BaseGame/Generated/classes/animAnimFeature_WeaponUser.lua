@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_WeaponUser: animAnimFeature
 ---@field public ikLeftHandLocalPosition Vector4

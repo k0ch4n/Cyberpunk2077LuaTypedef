@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGroupNode: gamedataDataNode
 ---@field public name String

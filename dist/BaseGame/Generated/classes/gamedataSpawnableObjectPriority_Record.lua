@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSpawnableObjectPriority_Record: gamedataTweakDBRecord
 gamedataSpawnableObjectPriority_Record = {}

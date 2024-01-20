@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrafficPersistentData
 ---@field public invertTrafficEvents Bool

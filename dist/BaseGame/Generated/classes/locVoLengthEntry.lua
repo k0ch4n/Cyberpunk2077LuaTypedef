@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoLengthEntry
 ---@field public stringId CRUID

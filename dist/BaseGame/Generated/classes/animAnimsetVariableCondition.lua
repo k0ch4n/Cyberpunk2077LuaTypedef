@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimsetVariableCondition: animIRuntimeCondition
 ---@field public variableToCompare CName

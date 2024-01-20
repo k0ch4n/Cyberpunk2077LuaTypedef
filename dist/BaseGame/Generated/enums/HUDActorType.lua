@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDActorType: Enum
 ---@field UNINITIALIZED Enum 0

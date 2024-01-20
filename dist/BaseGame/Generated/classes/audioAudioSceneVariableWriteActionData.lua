@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioSceneVariableWriteActionData
 ---@field public name CName

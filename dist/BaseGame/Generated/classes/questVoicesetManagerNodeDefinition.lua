@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVoicesetManagerNodeDefinition: questDisableableNodeDefinition
 ---@field public type questIVoicesetManager_NodeType

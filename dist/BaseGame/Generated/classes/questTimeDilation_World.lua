@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_World: questTimeDilation_NodeTypeParam
 ---@field public reason CName

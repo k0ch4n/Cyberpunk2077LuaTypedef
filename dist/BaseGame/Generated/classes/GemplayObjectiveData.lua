@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GemplayObjectiveData: IScriptable
 ---@field protected questUniqueId String

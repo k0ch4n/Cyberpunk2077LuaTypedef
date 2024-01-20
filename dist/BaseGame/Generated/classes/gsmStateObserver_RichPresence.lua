@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmStateObserver_RichPresence: gsmIStateObserver
 gsmStateObserver_RichPresence = {}

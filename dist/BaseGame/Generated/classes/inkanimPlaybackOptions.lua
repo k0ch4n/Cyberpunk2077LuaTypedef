@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPlaybackOptions
 ---@field public playReversed Bool

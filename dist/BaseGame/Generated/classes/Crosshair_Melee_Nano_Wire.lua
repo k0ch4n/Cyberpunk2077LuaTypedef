@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Melee_Nano_Wire: CrosshairGameController_Melee
 ---@field private animEnterADS inkanimProxy

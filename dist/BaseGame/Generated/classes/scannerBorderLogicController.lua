@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scannerBorderLogicController: inkWidgetLogicController
 ---@field private braindanceSetVisible inkWidgetReference[]

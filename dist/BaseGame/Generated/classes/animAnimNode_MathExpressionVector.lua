@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MathExpressionVector: animAnimNode_VectorValue
 ---@field public expressionData animMathExpressionNodeData

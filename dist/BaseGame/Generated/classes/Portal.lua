@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Portal: InteractiveDevice
 ---@field private exitNode NodeRef

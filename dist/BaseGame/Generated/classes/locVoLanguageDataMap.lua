@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoLanguageDataMap: ISerializable
 ---@field public entries locVoLanguageDataEntry[]

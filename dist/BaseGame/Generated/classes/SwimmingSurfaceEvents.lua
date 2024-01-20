@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SwimmingSurfaceEvents: LocomotionSwimmingEvents
 ---@field public lapsedTime Float

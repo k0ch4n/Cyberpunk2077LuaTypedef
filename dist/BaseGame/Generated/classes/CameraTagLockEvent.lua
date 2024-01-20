@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraTagLockEvent: redEvent
 ---@field public isLocked Bool

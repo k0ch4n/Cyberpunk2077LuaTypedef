@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetScanningAngleThreshold_NodeType: questIVisionModeNodeType
 ---@field public angleThreshold Float

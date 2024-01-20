@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolValueListener: gameScriptStatPoolsListener
 ---@field public effector StatPoolBasedTimeBankEffector

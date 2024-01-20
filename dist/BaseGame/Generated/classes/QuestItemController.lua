@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestItemController: inkButtonController
 ---@field private QuestTitle inkTextWidgetReference

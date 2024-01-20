@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootBag: gameObject
 ---@field private lootQuality gamedataQuality

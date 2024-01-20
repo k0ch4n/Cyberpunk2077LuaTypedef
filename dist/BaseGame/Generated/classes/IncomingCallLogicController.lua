@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IncomingCallLogicController: inkWidgetLogicController
 ---@field private contactNameWidget inkTextWidgetReference

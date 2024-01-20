@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questvehiclePanicParams: questVehicleSpecificCommandParams
 ---@field public allowSimplifiedMovement Bool

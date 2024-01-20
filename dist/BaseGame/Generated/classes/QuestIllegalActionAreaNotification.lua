@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestIllegalActionAreaNotification: redEvent
 ---@field public revealPlayerSettings RevealPlayerSettings

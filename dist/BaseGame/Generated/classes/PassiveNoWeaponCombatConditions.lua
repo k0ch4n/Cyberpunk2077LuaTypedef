@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveNoWeaponCombatConditions: PassiveAutonomousCondition
 ---@field protected delayEvaluationCbId Uint32

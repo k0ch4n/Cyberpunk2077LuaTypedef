@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendEmitterLOD
 ---@field public lodSwitchDistance Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWorldMapDebugOutlineLogicController: inkWidgetLogicController
 ---@field public outlineWidget inkShapeWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animIKTargetParams_Add: ISerializable
 animIKTargetParams_Add = {}

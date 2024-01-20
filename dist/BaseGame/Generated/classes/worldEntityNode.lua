@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEntityNode: worldNode
 ---@field public entityTemplate entEntityTemplate

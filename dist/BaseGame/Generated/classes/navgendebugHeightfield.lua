@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugHeightfield: ISerializable
 ---@field public bounds Box

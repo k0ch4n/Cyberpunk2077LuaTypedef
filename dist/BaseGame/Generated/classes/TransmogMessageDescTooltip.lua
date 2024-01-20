@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransmogMessageDescTooltip: MessageTooltip
 ---@field protected titleWrapper inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SimpleIkSystem: animAnimFeature
 ---@field public isEnable Bool

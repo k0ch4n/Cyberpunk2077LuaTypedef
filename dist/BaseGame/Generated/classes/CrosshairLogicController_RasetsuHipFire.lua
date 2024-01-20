@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairLogicController_RasetsuHipFire: inkWidgetLogicController
 ---@field public offsetLeftRight Float

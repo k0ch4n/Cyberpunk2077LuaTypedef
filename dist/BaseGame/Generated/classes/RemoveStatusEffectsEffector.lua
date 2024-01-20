@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveStatusEffectsEffector: gameEffector
 ---@field private effectTypes String[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_DriverCombatWeaponData: animAnimFeature
 ---@field public weaponType Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterNPCRequest: gameScriptableSystemRequest
 ---@field public puppet ScriptedPuppet

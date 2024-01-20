@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListVirtualDataView: inkScriptableDataViewWrapper
 ---@field private filterType QuestListItemType

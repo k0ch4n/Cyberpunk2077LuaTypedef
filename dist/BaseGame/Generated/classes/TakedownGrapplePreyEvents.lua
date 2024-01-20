@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TakedownGrapplePreyEvents: LocomotionTakedownEvents
 ---@field public isGrappleReactionVOPlayed Bool

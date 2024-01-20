@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ENcartDistricts: Enum
 ---@field WATSON Enum 0

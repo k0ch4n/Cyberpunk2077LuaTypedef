@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPlaySoundEvent: inkanimEvent
 ---@field public soundEventName CName

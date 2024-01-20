@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MultiBoolToFloatValue: animAnimNode_FloatValue
 ---@field public allMustBeTrue Bool

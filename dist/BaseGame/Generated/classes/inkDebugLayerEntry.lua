@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkDebugLayerEntry
 ---@field public widgetResource inkWidgetLibraryResource

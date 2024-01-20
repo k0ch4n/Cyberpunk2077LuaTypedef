@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeLeapEvents: MeleeEventsTransition
 ---@field public enableVaultFromLeapAttack Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSetItemAsTarget_Record: gamedataAISubActionSetTargetByTag_Record
 gamedataAISubActionSetItemAsTarget_Record = {}

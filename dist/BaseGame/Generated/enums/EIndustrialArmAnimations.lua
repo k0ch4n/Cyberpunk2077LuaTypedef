@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EIndustrialArmAnimations: Enum
 ---@field Idle Enum 0

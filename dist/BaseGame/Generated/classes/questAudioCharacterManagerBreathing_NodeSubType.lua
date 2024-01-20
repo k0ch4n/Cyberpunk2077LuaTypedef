@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioCharacterManagerBreathing_NodeSubType: questIAudioCharacterManager_NodeSubType
 questAudioCharacterManagerBreathing_NodeSubType = {}

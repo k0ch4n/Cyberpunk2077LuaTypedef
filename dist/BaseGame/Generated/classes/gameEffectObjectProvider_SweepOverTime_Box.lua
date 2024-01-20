@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_SweepOverTime_Box: gameEffectObjectProvider_SweepOverTime
 gameEffectObjectProvider_SweepOverTime_Box = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDyngParticlesContainer
 ---@field public externalForceWS Vector3

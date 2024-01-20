@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TurretInitData: IScriptable
 ---@field public turret gameObject

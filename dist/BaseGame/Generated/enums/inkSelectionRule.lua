@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSelectionRule: Enum
 ---@field Single Enum 0

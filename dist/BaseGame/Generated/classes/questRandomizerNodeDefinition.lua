@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRandomizerNodeDefinition: questDisableableNodeDefinition
 ---@field public mode questRandomizerMode

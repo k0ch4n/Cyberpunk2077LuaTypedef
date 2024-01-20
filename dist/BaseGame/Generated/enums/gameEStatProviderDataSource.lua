@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEStatProviderDataSource: Enum
 ---@field gameItemData Enum 0

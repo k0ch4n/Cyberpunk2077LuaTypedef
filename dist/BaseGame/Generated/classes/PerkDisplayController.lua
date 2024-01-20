@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayController: inkButtonController
 ---@field protected levelText inkTextWidgetReference

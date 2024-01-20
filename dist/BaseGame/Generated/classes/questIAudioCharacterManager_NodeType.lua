@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIAudioCharacterManager_NodeType: questINodeType
 questIAudioCharacterManager_NodeType = {}

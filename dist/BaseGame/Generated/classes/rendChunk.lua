@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendChunk
 ---@field public chunkVertices rendVertexBufferChunk

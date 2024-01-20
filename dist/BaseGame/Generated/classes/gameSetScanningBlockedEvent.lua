@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetScanningBlockedEvent: redEvent
 ---@field public isBlocked Bool

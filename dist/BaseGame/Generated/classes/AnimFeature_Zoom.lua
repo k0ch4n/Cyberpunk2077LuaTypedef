@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_Zoom: animAnimFeature
 ---@field public finalZoomLevel Float

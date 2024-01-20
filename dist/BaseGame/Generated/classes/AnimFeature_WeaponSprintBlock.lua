@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponSprintBlock: animAnimFeature
 ---@field public active Bool

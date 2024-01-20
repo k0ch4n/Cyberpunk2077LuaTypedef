@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PayActionWidgetController: DeviceActionWidgetControllerBase
 ---@field protected priceContainer inkWidgetReference

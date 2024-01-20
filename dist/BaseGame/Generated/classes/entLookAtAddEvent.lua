@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLookAtAddEvent: entAnimTargetAddEvent
 ---@field public outLookAtRef animLookAtRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleGridDestructionEvent: redEvent
 ---@field public state Float[]

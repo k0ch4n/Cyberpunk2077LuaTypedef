@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryCyberwareDisplayController: InventoryItemDisplayController
 ---@field protected ownedFrame inkWidgetReference

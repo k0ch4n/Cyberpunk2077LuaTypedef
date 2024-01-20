@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedHotkeyItemCyberwareController: ChargedHotkeyItemBaseController
 ---@field private currentStatPoolType gamedataStatPoolType

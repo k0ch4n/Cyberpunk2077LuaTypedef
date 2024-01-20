@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleMessengerItemVirtualController: inkVirtualCompoundItemController
 ---@field private label inkTextWidgetReference

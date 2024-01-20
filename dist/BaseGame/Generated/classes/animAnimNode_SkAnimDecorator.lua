@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkAnimDecorator: animAnimNode_SkAnim
 ---@field public Fallback animPoseLink

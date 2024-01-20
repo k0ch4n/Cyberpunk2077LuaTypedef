@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectObjectProvider_TrapEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_TrapEntities = {}

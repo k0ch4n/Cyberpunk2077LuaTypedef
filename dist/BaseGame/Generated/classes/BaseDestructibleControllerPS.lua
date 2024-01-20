@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseDestructibleControllerPS: ScriptableDeviceComponentPS
 ---@field protected destroyed Bool

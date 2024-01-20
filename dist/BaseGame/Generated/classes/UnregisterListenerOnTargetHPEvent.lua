@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnregisterListenerOnTargetHPEvent: redEvent
 ---@field public listener TargetedObjectDeathListener

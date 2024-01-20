@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_PlayerMovement: animAnimFeature_Movement
 ---@field public facingDirection Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCraftingPackage_Record: gamedataTweakDBRecord
 gamedataCraftingPackage_Record = {}

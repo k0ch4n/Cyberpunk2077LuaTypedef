@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Smart_Rifl_Bucket: inkWidgetLogicController
 ---@field public lockingAnimationLength Float

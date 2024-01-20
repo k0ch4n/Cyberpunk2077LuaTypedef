@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubCharEquipRequest: gameEquipRequest
 ---@field public subCharType gamedataSubCharacter

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGodModeSaveEntityData
 ---@field public entityId entEntityID

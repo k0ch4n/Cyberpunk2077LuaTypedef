@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioNpcWeaponSettings: audioWeaponSettings
 ---@field public gunChoir CName

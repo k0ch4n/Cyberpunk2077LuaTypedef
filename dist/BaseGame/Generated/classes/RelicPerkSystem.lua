@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RelicPerkSystem: gameScriptableSystem
 ---@field private registeredPerkDevices PerkDeviceMappinData[]

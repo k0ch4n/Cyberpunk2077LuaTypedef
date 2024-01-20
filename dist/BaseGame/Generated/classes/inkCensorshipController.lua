@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCensorshipController: inkWidgetLogicController
 ---@field public censorshipFlags CensorshipFlags

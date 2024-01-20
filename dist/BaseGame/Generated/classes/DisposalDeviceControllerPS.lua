@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisposalDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field private DisposalDeviceSetup DisposalDeviceSetup

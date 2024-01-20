@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioBreathingSubSystem: gameaudioISoundComponentSubSystem
 ---@field public metadataName CName

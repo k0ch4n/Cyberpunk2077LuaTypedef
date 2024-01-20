@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRequestPushContextEvent: redEvent
 ---@field public context UIGameContext

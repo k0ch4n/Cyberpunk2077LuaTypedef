@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleAgent: AICAgent
 ---@field private keepStrategyOnSearch Bool

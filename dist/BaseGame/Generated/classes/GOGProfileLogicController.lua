@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GOGProfileLogicController: inkWidgetLogicController
 ---@field public gogMenuState EGOGMenuState

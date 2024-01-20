@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCoverTypeCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataCoverTypeCoverSelectionParameters_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioReflectionVariant: Enum
 ---@field WorldSpaceFixedDrections Enum 0

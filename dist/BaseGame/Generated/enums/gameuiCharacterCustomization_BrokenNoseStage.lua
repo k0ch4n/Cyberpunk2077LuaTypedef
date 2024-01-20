@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomization_BrokenNoseStage: Enum
 ---@field CCBN_Disabled Enum 0

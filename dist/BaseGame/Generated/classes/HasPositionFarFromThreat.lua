@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HasPositionFarFromThreat: AIbehaviorconditionScript
 ---@field public desiredDistance Float

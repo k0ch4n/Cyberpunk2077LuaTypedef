@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public params questTimeDilation_NodeTypeParam[]

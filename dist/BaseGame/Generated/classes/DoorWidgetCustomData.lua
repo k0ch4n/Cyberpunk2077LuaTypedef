@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorWidgetCustomData: WidgetCustomData
 ---@field private passcode Int32

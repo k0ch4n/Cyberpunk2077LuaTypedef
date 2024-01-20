@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerCombatReturnCondition: scnIReturnCondition
 ---@field public params scnCheckPlayerCombatReturnConditionParams

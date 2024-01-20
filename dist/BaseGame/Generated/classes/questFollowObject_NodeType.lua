@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFollowObject_NodeType: questIVehicleManagerNodeType
 ---@field public vehicleRef gameEntityReference

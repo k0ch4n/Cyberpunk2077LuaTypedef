@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindowBlindersController: ScriptableDeviceComponent
 WindowBlindersController = {}

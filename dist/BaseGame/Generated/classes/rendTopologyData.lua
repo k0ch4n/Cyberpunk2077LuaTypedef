@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendTopologyData
 ---@field public data Uint8[]

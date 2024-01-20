@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetRenderLayer_NodeType: questIRenderFxManagerNodeType
 ---@field public renderSceneLayer RenderSceneLayer

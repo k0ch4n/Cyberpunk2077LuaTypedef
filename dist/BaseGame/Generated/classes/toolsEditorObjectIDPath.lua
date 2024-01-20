@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsEditorObjectIDPath
 ---@field public elements EditorObjectID[]

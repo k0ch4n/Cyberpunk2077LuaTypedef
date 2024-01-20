@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemPreferredComparisonResolver: IScriptable
 ---@field private cacheadAreaItems InventoryItemPreferredAreaItems[]

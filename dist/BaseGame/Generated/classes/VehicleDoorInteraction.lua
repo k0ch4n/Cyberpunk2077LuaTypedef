@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDoorInteraction: ActionBool
 ---@field public slotID CName

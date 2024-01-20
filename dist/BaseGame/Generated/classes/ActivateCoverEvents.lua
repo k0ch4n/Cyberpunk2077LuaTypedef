@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivateCoverEvents: CoverActionEventsTransition
 ---@field public usingCover Bool

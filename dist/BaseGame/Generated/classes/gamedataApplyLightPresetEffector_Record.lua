@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataApplyLightPresetEffector_Record: gamedataEffector_Record
 gamedataApplyLightPresetEffector_Record = {}

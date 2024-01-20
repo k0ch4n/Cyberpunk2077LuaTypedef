@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewGameMenuGameController: PreGameSubMenuGameController
 ---@field private categories inkSelectorController

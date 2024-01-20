@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPingType: Enum
 ---@field DIRECT Enum 0

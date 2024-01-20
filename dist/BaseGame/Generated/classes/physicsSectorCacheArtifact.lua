@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsSectorCacheArtifact: CResource
 ---@field public sectorGeometryKeys physicsGeometryKey[]

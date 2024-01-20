@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimDebuggerCommand_HooksRegistered: animIAnimDebuggerCommand
 animAnimDebuggerCommand_HooksRegistered = {}

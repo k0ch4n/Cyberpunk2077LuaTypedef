@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddUserEvent: redEvent
 ---@field public userEntry SecuritySystemClearanceEntry

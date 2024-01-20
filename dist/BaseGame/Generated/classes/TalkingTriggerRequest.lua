@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TalkingTriggerRequest: gameScriptableSystemRequest
 ---@field public isPlayerCalling Bool

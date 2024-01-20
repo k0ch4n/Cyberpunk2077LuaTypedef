@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerDoesntHaveQuickhackPrereq: gameIScriptablePrereq
 ---@field public quickhackID TweakDBID

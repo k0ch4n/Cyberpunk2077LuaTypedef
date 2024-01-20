@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectPrereqState: gamePrereqState
 ---@field public prereq StatusEffectPrereq

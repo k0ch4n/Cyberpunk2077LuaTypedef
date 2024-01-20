@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsInteractionDescriptorResource: CResource
 ---@field public definition gameinteractionsCHotSpotDefinition

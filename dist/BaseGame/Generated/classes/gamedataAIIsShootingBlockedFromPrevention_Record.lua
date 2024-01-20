@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsShootingBlockedFromPrevention_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsShootingBlockedFromPrevention_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOverrideReturnConditions_Operation: scnIInterruptManager_Operation
 ---@field public returnConditions scnIReturnCondition[]

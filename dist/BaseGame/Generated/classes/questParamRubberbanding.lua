@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questParamRubberbanding: ISerializable
 ---@field public targetRef questUniversalRef

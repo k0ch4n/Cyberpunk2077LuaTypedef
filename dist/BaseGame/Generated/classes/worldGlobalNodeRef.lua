@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldGlobalNodeRef
 ---@field public hash Uint64

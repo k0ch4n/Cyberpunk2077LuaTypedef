@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPatrolRole: AIRole
 ---@field protected pathParams AIPatrolPathParameters

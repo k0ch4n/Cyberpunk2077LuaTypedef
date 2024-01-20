@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QsTransform
 ---@field public Translation Vector4

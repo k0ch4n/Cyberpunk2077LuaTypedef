@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplaySettingsListener: userSettingsVarListener
 ---@field private player PlayerPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sharedResourceCommandOutcome
 ---@field public result sharedCommandResult

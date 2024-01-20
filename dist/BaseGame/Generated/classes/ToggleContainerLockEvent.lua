@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleContainerLockEvent: redEvent
 ---@field public isLocked Bool

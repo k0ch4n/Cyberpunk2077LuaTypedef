@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksPerkItemInitData: IScriptable
 ---@field public perkRecord gamedataNewPerk_Record

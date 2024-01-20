@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataArcadeBackgroundLayer_Record: gamedataTweakDBRecord
 gamedataArcadeBackgroundLayer_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFastTravelScreenDataGroup_Record: gamedataTweakDBRecord
 gamedataFastTravelScreenDataGroup_Record = {}

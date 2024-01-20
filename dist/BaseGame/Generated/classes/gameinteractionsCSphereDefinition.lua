@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCSphereDefinition: gameinteractionsIShapeDefinition
 ---@field public position Vector4

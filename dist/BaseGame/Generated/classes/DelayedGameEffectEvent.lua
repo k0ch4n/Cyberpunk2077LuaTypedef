@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedGameEffectEvent: redEvent
 ---@field public activator gameObject

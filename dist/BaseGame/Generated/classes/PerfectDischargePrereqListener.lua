@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerfectDischargePrereqListener: gameScriptStatPoolsListener
 ---@field protected state PerfectDischargePrereqState

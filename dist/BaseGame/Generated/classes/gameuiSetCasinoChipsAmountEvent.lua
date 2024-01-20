@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSetCasinoChipsAmountEvent: redEvent
 ---@field public value Uint32

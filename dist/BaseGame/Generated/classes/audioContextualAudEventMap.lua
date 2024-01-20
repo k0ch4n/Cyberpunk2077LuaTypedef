@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioContextualAudEventMap: audioAudioMetadata
 ---@field public contextualAudEventMapItems audioContextualAudEventMapItem[]

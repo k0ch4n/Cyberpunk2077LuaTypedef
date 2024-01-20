@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HudPhoneAvatarController: HUDPhoneElement
 ---@field private ContactAvatar inkImageWidgetReference

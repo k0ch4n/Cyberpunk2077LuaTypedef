@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_TrackTargets: gameEffectExecutor_Scripted
 EffectExecutor_TrackTargets = {}

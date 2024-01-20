@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsStopTaggedSounds: redEvent
 ---@field public audioTag CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetExposeQuickHacks: ActionBool
 ---@field public isRemote Bool

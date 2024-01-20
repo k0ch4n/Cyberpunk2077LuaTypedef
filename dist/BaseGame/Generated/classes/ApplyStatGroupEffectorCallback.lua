@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyStatGroupEffectorCallback: gameAttachmentSlotsScriptCallback
 ---@field public effector ApplyStatGroupEffector

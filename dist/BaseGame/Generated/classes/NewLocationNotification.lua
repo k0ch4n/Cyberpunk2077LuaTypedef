@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewLocationNotification: JournalNotification
 ---@field private districtName inkTextWidgetReference

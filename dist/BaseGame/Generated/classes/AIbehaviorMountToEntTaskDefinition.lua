@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMountToEntTaskDefinition: AIbehaviorTaskDefinition
 ---@field public mountData AIArgumentMapping

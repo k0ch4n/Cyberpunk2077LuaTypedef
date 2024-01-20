@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEasingType: Enum
 ---@field EET_In Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAimAssistFinishing_Record: gamedataTweakDBRecord
 gamedataAimAssistFinishing_Record = {}

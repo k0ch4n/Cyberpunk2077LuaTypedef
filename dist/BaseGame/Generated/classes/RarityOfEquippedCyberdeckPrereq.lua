@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RarityOfEquippedCyberdeckPrereq: gameIScriptablePrereq
 ---@field public minimumQuality Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_CookedResource: worldEditorDebugColoringSettings
 ---@field public alpha Uint8

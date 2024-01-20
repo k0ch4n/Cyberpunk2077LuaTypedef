@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficCollisionDebug: ISerializable
 ---@field public overlapBoxes worldDbgOverlapBox[]

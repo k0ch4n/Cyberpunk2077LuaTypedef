@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardReadPopupData: inkGameNotificationData
 ---@field public title String

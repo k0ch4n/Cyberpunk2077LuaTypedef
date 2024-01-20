@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDoorOpeningType: Enum
 ---@field SLIDING_HORIZONTALLY Enum 0

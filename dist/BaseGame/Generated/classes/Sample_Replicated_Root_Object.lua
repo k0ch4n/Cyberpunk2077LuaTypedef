@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Replicated_Root_Object
 ---@field public bool Bool

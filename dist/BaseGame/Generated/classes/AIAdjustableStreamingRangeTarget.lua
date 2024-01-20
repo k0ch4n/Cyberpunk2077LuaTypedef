@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAdjustableStreamingRangeTarget: gameObject
 ---@field public minStreamingDistance Float

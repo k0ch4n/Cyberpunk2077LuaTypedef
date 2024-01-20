@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StopAndPlaySFXEffector: gameEffector
 ---@field public sfxToStop CName

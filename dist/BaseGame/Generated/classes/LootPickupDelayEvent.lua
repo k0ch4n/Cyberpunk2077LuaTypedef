@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootPickupDelayEvent: redEvent
 ---@field public enableLootInteraction Bool

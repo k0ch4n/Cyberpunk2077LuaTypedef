@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELauncherActionType: Enum
 ---@field QuickAction Enum 0

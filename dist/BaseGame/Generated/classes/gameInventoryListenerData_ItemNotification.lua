@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryListenerData_ItemNotification: gameInventoryListenerData_Base
 gameInventoryListenerData_ItemNotification = {}

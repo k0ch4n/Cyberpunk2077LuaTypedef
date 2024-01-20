@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorHubMenuGameController: gameuiMenuGameController
 ---@field private notificationRoot inkWidgetReference

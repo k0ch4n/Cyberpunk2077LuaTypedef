@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickhacksListGameController: gameuiHUDGameController
 ---@field private timeBetweenIntroAndIntroDescription Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCableMeshNode: worldBendedMeshNode
 ---@field public destructionHashes Uint64[]

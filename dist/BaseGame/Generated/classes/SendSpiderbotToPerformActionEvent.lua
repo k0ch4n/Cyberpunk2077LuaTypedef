@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SendSpiderbotToPerformActionEvent: redEvent
 ---@field public executor gameObject

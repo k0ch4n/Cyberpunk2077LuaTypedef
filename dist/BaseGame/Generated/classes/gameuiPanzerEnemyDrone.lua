@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPanzerEnemyDrone: gameuiPanzerEnemy
 ---@field public speed Float

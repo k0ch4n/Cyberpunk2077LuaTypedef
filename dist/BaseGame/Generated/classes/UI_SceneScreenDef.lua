@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_SceneScreenDef: gamebbScriptDefinition
 ---@field public AnimName gamebbScriptID_CName

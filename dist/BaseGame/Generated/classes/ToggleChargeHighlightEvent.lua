@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleChargeHighlightEvent: redEvent
 ---@field public active Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightShadowCastingMode: Enum
 ---@field LSCM_None Enum 0

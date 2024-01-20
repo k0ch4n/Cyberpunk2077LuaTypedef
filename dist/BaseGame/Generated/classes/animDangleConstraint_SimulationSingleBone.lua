@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_SimulationSingleBone: animDangleConstraint_Simulation
 ---@field public dangleBone animTransformIndex

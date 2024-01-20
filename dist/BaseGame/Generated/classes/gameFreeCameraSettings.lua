@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFreeCameraSettings
 ---@field public movPrecision Float

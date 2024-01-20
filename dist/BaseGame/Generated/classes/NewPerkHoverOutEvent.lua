@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkHoverOutEvent: redEvent
 ---@field public controller NewPerksPerkItemLogicController

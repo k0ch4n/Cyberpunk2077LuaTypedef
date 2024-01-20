@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreloadAnimationsEvent: redEvent
 ---@field public streamingContextName CName

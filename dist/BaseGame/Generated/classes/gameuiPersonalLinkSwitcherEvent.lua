@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPersonalLinkSwitcherEvent: redEvent
 ---@field public isAdvanced Bool

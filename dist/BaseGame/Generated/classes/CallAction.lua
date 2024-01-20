@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CallAction: redEvent
 ---@field public calledAction QuickSlotActionType

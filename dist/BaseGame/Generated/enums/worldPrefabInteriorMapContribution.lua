@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPrefabInteriorMapContribution: Enum
 ---@field Auto Enum 0

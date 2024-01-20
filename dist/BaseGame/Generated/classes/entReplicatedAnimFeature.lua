@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedAnimFeature: entReplicatedItem
 ---@field public name CName

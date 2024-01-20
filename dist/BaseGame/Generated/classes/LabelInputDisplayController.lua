@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LabelInputDisplayController: inkInputDisplayController
 ---@field private inputLabel inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedItemsPrereqState: gamePrereqState
 ---@field public chargesState EChargesAmount

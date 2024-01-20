@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneAnimationMotionActionParamsPlacementMode: Enum
 ---@field Blend Enum 0

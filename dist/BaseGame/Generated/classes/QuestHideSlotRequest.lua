@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestHideSlotRequest: gamePlayerScriptableSystemRequest
 ---@field public slot gamedataEquipmentArea

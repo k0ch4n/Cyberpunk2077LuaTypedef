@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryStatsList: inkWidgetLogicController
 ---@field private titleText inkTextWidget

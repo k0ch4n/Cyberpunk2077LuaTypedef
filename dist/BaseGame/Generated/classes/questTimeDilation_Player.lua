@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_Player: questTimeDilation_NodeTypeParam
 ---@field public operation questTimeDilation_Operation

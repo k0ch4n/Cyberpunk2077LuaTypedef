@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_PlayerBioMonitorDef: gamebbScriptDefinition
 ---@field public PlayerStatsInfo gamebbScriptID_Variant

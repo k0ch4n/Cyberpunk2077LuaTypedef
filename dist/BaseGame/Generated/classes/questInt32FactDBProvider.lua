@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInt32FactDBProvider: questIInt32ValueProvider
 ---@field public factName CName

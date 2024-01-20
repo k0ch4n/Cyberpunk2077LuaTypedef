@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowerCommand: AICommand
 ---@field public combatCommand Bool

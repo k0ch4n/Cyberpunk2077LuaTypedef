@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerfectDischargePrereq: StatPoolPrereq
 ---@field public invert Bool

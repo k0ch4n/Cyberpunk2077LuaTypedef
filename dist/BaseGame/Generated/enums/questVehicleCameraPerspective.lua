@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleCameraPerspective: Enum
 ---@field FPP Enum 1

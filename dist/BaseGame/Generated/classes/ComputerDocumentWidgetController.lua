@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerDocumentWidgetController: DeviceInkLogicControllerBase
 ---@field protected titleWidget inkTextWidgetReference

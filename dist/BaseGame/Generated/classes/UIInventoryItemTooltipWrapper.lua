@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemTooltipWrapper: ATooltipData
 ---@field public data UIInventoryItem

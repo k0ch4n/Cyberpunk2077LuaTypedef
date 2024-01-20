@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questChoiceSection_ConditionTypeMode: Enum
 ---@field Highlight Enum 0

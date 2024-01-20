@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_VectorEvaluator_Value: gameIEffectParameter_VectorEvaluator
 ---@field public value Vector4

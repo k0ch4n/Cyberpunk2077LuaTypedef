@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkShapeWidget: inkBaseShapeWidget
 ---@field public shapeResource inkShapeCollectionResource

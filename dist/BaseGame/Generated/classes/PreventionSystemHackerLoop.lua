@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionSystemHackerLoop: gameScriptableSystem
 ---@field private firstVehicle vehicleBaseObject

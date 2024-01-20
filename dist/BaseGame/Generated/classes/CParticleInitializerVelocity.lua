@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerVelocity: IParticleInitializer
 ---@field public velocity IEvaluatorVector

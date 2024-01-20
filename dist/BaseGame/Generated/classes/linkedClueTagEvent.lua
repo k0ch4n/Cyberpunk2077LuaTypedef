@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class linkedClueTagEvent: redEvent
 ---@field public tag Bool

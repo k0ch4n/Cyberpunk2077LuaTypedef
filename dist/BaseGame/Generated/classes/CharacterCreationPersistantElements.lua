@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationPersistantElements: inkWidgetLogicController
 ---@field private headerHolder inkCompoundWidgetReference

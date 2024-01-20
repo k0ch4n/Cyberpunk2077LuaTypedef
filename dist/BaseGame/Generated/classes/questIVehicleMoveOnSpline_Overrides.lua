@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIVehicleMoveOnSpline_Overrides: ISerializable
 questIVehicleMoveOnSpline_Overrides = {}

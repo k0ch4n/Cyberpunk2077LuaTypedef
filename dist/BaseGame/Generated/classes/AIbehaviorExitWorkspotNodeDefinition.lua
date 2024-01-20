@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorExitWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public skipExitAnimation AIArgumentMapping

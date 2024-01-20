@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleSpawned_ConditionType: questIVehicleConditionType
 ---@field public vehicleType questSpawnedVehicleType

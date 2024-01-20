@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetNPCSensesMainPreset: AIbehaviortaskScript
 ---@field public newSensesPresetName String

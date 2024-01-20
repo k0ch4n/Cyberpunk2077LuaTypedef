@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMenuState_ConditionType: questIUIConditionType
 ---@field public state questEUIMenuState

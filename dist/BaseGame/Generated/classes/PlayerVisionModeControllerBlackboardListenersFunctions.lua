@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeControllerBlackboardListenersFunctions
 ---@field public kerenzikov CName

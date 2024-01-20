@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickHackTimeDilationOverride: redEvent
 ---@field public overrideDilationToTutorialPreset Bool

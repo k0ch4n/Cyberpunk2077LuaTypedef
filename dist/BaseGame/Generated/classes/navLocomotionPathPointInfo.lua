@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navLocomotionPathPointInfo
 ---@field public point navSerializableSplineProgression

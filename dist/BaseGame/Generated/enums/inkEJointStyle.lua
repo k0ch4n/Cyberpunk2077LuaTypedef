@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEJointStyle: Enum
 ---@field MITER Enum 0

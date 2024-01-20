@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUISpawnProfile_Record: gamedataTweakDBRecord
 gamedataMappinUISpawnProfile_Record = {}

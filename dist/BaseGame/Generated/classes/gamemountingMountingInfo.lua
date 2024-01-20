@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemountingMountingInfo
 ---@field public childId entEntityID

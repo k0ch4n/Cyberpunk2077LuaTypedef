@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_IntLatch: animAnimNode_IntValue
 ---@field public input animIntLink

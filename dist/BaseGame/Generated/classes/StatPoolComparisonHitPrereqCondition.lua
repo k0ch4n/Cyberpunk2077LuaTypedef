@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolComparisonHitPrereqCondition: BaseHitPrereqCondition
 ---@field public comparisonSource CName

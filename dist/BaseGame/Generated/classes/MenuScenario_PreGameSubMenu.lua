@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_PreGameSubMenu: inkMenuScenario
 ---@field protected prevScenario CName

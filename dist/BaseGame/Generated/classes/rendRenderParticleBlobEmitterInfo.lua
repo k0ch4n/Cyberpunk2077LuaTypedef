@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderParticleBlobEmitterInfo
 ---@field public emitterHash Uint64

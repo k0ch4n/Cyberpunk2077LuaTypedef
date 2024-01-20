@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreviousMenuData: IScriptable
 ---@field public openMenuRequest OpenMenuRequest

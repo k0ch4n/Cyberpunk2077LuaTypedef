@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericHitPrereq: gameIScriptablePrereq
 ---@field public isSync Bool

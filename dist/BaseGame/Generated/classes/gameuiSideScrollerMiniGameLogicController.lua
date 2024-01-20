@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSideScrollerMiniGameLogicController: inkWidgetLogicController
 ---@field public gameName CName

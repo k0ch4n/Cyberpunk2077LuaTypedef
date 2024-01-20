@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDepthCollisionEffect: Enum
 ---@field DCE_Bounce Enum 1

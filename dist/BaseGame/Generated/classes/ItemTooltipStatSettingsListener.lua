@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipStatSettingsListener: userSettingsVarListener
 ---@field private ctrl ItemTooltipStatController

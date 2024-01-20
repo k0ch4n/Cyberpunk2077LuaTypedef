@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class visIOccluderResource: ISerializable
 ---@field public resourceHash Uint32

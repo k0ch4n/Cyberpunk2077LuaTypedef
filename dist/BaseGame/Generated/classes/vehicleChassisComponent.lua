@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleChassisComponent: entIPlacedComponent
 ---@field public collisionResource physicsSystemResource

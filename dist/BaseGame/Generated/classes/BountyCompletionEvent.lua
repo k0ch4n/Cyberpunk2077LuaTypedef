@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BountyCompletionEvent: redEvent
 ---@field public streetCredAwarded Int32

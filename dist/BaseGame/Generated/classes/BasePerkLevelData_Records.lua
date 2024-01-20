@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BasePerkLevelData_Records: IScriptable
 BasePerkLevelData_Records = {}

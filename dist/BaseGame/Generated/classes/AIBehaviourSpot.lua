@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIBehaviourSpot: AISmartSpot
 ---@field public behaviour AIResourceReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleCollisionMap: audioAudioMetadata
 ---@field public minImpactVelocityThreshold Float

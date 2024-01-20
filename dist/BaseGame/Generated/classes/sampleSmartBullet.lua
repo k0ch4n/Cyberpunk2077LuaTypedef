@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleSmartBullet: BaseProjectile
 ---@field private meshComponent entIComponent

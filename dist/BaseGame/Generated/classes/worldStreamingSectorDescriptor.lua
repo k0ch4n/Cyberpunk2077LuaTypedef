@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingSectorDescriptor
 ---@field public data worldStreamingSector

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIActionEvent: redEvent
 ---@field public action gamedeviceAction

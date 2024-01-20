@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEchoPositionType: Enum
 ---@field DynamicEnvironment Enum 0

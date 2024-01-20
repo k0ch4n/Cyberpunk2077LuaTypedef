@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EngineeringContainer: BaseSkillCheckContainer
 ---@field public engineeringCheck EngineeringSkillCheck

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatPoolValueEffector: HitEventEffector
 ---@field public statPoolUpdates gamedataStatPoolUpdate_Record[]

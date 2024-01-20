@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisVisualizersInfo
 ---@field public activeVisId Int32

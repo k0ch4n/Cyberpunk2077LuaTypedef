@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorTrackPatrolProgressNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public pathParameters AIArgumentMapping

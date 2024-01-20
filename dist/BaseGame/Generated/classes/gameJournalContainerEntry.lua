@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalContainerEntry: gameJournalEntry
 ---@field public entries gameJournalEntry[]

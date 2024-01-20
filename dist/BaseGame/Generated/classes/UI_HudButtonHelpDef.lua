@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_HudButtonHelpDef: gamebbScriptDefinition
 ---@field public button1_Text gamebbScriptID_String

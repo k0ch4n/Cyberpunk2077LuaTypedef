@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneContactHiddenEvent: redEvent
 ---@field public HiddenItem inkVirtualCompoundItemController

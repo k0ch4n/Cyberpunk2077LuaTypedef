@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerManageBinkComponent_NodeType: questIEntityManager_NodeType
 ---@field public params questEntityManagerManageBinkComponent_NodeTypeParams[]

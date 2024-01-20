@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponGrenadeReplicatedState: netIEntityState
 ---@field public instigator gameObject

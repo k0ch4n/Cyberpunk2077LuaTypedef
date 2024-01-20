@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttack_Projectile: gameIAttack
 gameAttack_Projectile = {}

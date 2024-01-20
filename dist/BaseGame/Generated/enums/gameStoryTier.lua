@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStoryTier: Enum
 ---@field Gameplay Enum 0

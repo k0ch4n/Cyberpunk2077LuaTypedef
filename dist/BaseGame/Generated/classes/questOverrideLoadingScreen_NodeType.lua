@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questOverrideLoadingScreen_NodeType: questIUIManagerNodeType
 ---@field public video Bink

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSwitchToScenario_NodeType: questIUIManagerNodeType
 ---@field public startScenarioName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorGetEntryPointOnPathTaskDefinition: AIbehaviorTaskDefinition
 ---@field public patrolProgress AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EdgrunnerPerkEvent: redEvent
 ---@field public isPurchased Bool

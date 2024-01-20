@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCType: Enum
 ---@field Android Enum 0

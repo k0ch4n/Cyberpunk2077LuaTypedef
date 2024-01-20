@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MaintenancePanel: InteractiveMasterDevice
 ---@field private animFeature AnimFeature_SimpleDevice

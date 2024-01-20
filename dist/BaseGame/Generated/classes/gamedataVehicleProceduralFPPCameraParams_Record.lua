@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleProceduralFPPCameraParams_Record: gamedataTweakDBRecord
 gamedataVehicleProceduralFPPCameraParams_Record = {}

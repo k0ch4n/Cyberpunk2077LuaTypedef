@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetAsQuestImportantEvent: redEvent
 ---@field public isImportant Bool

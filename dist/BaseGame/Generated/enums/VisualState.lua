@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VisualState: Enum
 ---@field OFF Enum 0

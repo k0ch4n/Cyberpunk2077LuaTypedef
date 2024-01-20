@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSD_DetectorPS: gameDeviceComponentPS
 ---@field protected counter Int32

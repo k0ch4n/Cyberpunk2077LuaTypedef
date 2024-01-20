@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameControllerPersistentDot: gameuiHUDGameController
 ---@field private settings userSettingsUserSettings

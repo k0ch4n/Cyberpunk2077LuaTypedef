@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEditorForceAutoHideDistance: ISerializable
 ---@field public minAutoHideDistance Float

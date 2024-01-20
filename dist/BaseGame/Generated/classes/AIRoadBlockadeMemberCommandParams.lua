@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIRoadBlockadeMemberCommandParams: questScriptedAICommandParams
 ---@field public duration Float

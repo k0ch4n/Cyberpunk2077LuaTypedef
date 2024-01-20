@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCameraComponent: entBaseCameraComponent
 ---@field public animParamFovOverrideWeight CName

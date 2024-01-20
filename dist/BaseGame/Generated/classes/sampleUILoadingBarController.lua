@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUILoadingBarController: inkWidgetLogicController
 ---@field public minSize Vector2

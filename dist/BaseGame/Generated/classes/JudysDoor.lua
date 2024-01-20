@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JudysDoor: InteractiveDevice
 ---@field protected animationController entAnimationControllerComponent

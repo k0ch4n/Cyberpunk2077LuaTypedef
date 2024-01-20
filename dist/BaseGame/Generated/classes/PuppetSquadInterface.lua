@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetSquadInterface: AICombatSquadScriptInterface
 ---@field private baseSquadRecord gamedataAISquadParams_Record

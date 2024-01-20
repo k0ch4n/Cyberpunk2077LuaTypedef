@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetPossesion_NodeType: questISceneManagerNodeType
 ---@field public playerPossesion gamedataPlayerPossesion

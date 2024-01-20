@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneTier2Data: gameSceneTierData
 ---@field public walkType Tier2WalkType

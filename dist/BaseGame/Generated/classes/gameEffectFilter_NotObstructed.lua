@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectFilter_NotObstructed: gameEffectObjectSingleFilter
 ---@field public forwardOffset Float

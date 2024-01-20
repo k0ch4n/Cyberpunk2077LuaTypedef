@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSaveEventResolverDefinition: AIbehaviorEventResolverDefinition
 ---@field public eventData AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorDepthCollision: IParticleModificator
 ---@field public maxCollisions Uint32

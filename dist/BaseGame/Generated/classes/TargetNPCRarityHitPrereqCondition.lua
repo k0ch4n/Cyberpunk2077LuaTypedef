@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetNPCRarityHitPrereqCondition: BaseHitPrereqCondition
 ---@field public rarity gamedataNPCRarity

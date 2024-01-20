@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshCookedClothMeshTopologyData
 ---@field public cookedData DataBuffer

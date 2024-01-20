@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVisionGroup_Record: gamedataTweakDBRecord
 gamedataVisionGroup_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_Scripted: gameEffectPostAction
 gameEffectPostAction_Scripted = {}

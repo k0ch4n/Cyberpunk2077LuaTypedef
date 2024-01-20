@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericDeviceActionsData
 ---@field public stateActionsOverrides SGenericDeviceActionsData

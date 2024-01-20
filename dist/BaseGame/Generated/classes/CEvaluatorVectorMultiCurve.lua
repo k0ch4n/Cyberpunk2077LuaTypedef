@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorVectorMultiCurve: IEvaluatorVector
 ---@field public curves multiChannelCurve

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidDeformationAnimSetSRRefId
 ---@field public id Uint32

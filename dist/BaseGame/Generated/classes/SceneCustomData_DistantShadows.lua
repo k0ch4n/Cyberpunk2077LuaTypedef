@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneCustomData_DistantShadows: SceneCustomData_DistantShadowsCommon
 SceneCustomData_DistantShadows = {}

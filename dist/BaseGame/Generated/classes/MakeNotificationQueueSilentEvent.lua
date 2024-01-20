@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MakeNotificationQueueSilentEvent: redEvent
 ---@field public notificationType GenericNotificationType

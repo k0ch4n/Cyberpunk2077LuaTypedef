@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCRoleChangeEvent: redEvent
 ---@field public newRole AIRole

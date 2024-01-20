@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnTalkOnReturn_Operation: scnIInterruptManager_Operation
 ---@field public talkOnReturn Bool

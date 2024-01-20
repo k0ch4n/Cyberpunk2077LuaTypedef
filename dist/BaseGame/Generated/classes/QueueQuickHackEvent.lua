@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QueueQuickHackEvent: redEvent
 ---@field public mappinID gameNewMappinID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSideScrollerMiniGameCollisionLogic: inkWidgetLogicController
 ---@field public colliderPositionOffset Vector2

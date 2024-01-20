@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetGender_NodeTypeParams
 ---@field public puppetRef gameEntityReference

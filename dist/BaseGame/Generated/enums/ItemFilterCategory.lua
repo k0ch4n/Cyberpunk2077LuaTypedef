@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemFilterCategory: Enum
 ---@field RangedWeapons Enum 0

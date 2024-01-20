@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectAndDamageEventData: gameScriptTaskData
 ---@field public hitevent gameeventsHitEvent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorkspotReactionType: Enum
 ---@field Anger Enum 0

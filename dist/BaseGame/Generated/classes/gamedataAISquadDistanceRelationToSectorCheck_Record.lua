@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadDistanceRelationToSectorCheck_Record: gamedataAITicketCheck_Record
 gamedataAISquadDistanceRelationToSectorCheck_Record = {}

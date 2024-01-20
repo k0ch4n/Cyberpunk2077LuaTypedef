@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneMarkerInternalsWorkspotEntrySocket
 ---@field public name CName

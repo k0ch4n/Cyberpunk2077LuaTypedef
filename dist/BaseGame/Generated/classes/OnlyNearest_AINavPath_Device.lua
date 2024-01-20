@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnlyNearest_AINavPath_Device: gameEffectObjectGroupFilter_Scripted
 OnlyNearest_AINavPath_Device = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMessageSender: Enum
 ---@field NPC Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiItemAddedNotificationViewData: gameuiGenericNotificationViewData
 ---@field public itemID gameItemID

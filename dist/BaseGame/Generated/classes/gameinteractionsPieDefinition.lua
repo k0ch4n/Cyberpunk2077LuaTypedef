@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsPieDefinition: gameinteractionsIShapeDefinition
 ---@field public center Vector4

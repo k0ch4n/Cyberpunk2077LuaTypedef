@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackGroup: effectTrackBase
 ---@field public tracks effectTrackBase[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetFadeInOut_NodeType: questIRenderFxManagerNodeType
 ---@field public fadeColor Color

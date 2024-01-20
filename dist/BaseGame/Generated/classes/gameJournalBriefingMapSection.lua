@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalBriefingMapSection: gameJournalBriefingBaseSection
 ---@field public mapLocation Vector3

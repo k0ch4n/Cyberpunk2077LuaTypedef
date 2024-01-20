@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClothingSetController: BaseButtonView
 ---@field protected setName inkTextWidgetReference

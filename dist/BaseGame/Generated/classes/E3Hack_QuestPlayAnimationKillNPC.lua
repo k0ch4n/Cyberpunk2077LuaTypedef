@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class E3Hack_QuestPlayAnimationKillNPC: ActionBool
 E3Hack_QuestPlayAnimationKillNPC = {}

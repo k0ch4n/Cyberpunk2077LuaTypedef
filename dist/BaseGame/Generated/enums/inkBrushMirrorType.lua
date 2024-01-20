@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkBrushMirrorType: Enum
 ---@field NoMirror Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionInAir_Record_Implementation: IScriptable
 AISubActionInAir_Record_Implementation = {}

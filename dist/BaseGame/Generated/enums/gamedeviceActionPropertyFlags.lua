@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedeviceActionPropertyFlags: Enum
 ---@field None Enum 0

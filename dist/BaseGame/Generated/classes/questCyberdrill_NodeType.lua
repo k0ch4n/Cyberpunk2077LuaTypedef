@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCyberdrill_NodeType: questIInteractiveObjectManagerNodeType
 ---@field public params questCyberdrill_NodeTypeParams[]

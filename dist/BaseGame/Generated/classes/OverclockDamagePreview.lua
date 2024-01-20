@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OverclockDamagePreview: redEvent
 ---@field public IsHovering Bool

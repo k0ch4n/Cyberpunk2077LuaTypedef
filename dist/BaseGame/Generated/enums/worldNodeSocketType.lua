@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNodeSocketType: Enum
 ---@field Bidirectional Enum 0

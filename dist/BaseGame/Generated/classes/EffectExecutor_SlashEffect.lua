@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_SlashEffect: gameEffectExecutor_Scripted
 ---@field private entries EffectExecutor_SlashEffect_Entry[]

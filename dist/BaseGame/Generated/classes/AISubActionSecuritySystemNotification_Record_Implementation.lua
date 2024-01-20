@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSecuritySystemNotification_Record_Implementation: IScriptable
 AISubActionSecuritySystemNotification_Record_Implementation = {}

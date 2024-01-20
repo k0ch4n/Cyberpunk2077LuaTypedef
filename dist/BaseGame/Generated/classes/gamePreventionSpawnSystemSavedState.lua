@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePreventionSpawnSystemSavedState: ISerializable
 ---@field public areaIds Uint64[]

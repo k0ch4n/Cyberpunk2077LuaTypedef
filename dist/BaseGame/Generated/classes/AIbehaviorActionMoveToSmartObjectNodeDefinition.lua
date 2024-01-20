@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionMoveToSmartObjectNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public smartObjectId AIArgumentMapping

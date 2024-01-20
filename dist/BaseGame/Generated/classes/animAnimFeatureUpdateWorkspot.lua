@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeatureUpdateWorkspot: animAnimFeature
 ---@field public animName CName

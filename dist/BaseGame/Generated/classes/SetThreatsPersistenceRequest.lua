@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetThreatsPersistenceRequest: AIAIEvent
 ---@field public et entEntity

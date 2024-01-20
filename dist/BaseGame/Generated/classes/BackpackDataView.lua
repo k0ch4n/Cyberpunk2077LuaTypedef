@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackpackDataView: inkScriptableDataViewWrapper
 ---@field private itemSortMode ItemSortMode

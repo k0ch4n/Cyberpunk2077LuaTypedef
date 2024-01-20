@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInkAnimationPlaybackOption: Enum
 ---@field PLAY Enum 0

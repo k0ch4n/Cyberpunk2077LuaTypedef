@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorColorRandom: IEvaluatorColor
 ---@field public min Color

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindanceJumpInProgress_ConditionType: scnIBraindanceConditionType
 ---@field public inProgress Bool

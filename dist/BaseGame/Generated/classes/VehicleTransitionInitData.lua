@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleTransitionInitData: IScriptable
 ---@field public instant Bool

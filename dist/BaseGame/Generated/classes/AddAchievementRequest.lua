@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddAchievementRequest: gamePlayerScriptableSystemRequest
 ---@field public achievement gamedataAchievement

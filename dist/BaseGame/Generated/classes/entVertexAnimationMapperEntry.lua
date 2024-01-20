@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVertexAnimationMapperEntry
 ---@field public sources entVertexAnimationMapperSource

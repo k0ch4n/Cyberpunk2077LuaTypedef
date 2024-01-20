@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSelectWorkspotEntryTaskDefinition: AIbehaviorTaskDefinition
 ---@field public workspotData AIArgumentMapping

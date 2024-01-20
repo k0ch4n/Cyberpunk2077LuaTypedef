@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemDisplayContextData: IScriptable
 ---@field private player gameObject

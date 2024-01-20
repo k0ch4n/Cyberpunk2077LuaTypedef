@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCBehaviorState_Record: gamedataTweakDBRecord
 gamedataNPCBehaviorState_Record = {}

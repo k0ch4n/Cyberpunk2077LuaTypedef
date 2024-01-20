@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArgumentType: Enum
 ---@field Bool Enum 0

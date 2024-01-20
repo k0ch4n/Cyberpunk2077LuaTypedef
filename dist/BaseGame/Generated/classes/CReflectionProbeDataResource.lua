@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CReflectionProbeDataResource: resStreamedResource
 ---@field public data DataBuffer

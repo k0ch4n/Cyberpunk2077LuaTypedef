@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLocomotionMode: Enum
 ---@field Moving Enum 0

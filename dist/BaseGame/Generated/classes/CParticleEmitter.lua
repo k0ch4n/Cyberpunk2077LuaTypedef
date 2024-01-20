@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleEmitter: IParticleModule
 ---@field public modules IParticleModule[]

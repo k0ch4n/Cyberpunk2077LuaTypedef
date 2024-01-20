@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FacialSharedMetaPose: animAnimNode_OnePoseInput
 animAnimNode_FacialSharedMetaPose = {}

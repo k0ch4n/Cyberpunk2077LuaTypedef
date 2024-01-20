@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class textWrappingInfo
 ---@field public autoWrappingEnabled Bool

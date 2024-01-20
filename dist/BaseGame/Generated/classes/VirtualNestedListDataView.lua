@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirtualNestedListDataView: inkScriptableDataViewWrapper
 ---@field public compareBuilder CompareBuilder

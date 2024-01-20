@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChoiceCaptionPartType_Record: gamedataTweakDBRecord
 gamedataChoiceCaptionPartType_Record = {}

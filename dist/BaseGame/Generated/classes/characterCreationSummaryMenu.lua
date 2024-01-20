@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationSummaryMenu: gameuiBaseCharacterCreationController
 ---@field public backstoryTitle inkTextWidgetReference

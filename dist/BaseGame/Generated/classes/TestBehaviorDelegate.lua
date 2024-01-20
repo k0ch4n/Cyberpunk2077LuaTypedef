@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestBehaviorDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public integer Int32

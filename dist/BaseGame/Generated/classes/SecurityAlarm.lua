@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAlarm: InteractiveMasterDevice
 ---@field protected workingAlarm entMeshComponent

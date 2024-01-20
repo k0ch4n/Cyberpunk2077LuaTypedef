@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTarotCardAddedNotificationViewData: gameuiGenericNotificationViewData
 ---@field public imagePart CName

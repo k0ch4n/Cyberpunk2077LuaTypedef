@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeasurementSystem: Enum
 ---@field Metric Enum 0

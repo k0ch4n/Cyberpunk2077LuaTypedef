@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSubstat_Record: gamedataStat_Record
 gamedataSubstat_Record = {}

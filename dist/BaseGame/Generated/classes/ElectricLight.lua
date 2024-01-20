@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElectricLight: Device
 ---@field private lightComponents gameLightComponent[]

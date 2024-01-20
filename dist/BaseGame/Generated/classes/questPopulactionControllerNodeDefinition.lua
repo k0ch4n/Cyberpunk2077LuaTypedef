@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPopulactionControllerNodeDefinition: questBaseObjectNodeDefinition
 ---@field public enable Bool

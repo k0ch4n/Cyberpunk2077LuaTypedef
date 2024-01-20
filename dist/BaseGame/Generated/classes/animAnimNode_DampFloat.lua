@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DampFloat: animAnimNode_FloatValue
 ---@field public defaultIncreaseSpeed Float

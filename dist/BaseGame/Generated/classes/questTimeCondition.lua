@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeCondition: questTypedCondition
 ---@field public type questITimeConditionType

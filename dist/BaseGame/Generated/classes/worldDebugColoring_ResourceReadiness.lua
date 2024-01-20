@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_ResourceReadiness: worldEditorDebugColoringSettings
 worldDebugColoring_ResourceReadiness = {}

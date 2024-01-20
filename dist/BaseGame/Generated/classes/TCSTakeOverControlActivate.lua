@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TCSTakeOverControlActivate: redEvent
 ---@field public IsQuickhack Bool

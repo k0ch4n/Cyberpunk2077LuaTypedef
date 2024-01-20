@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVehicleCurve: Enum
 ---@field SpeedToWheelMaxTurn Enum 0

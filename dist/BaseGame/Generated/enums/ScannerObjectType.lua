@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerObjectType: Enum
 ---@field INVALID Enum 0

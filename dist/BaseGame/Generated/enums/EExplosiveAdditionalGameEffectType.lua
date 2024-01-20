@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EExplosiveAdditionalGameEffectType: Enum
 ---@field none Enum 0

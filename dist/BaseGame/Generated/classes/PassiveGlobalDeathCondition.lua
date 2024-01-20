@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveGlobalDeathCondition: AIbehaviorexpressionScript
 ---@field protected onDeathCbId Uint32

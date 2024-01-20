@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSpeedSplineNodeSpeedRestriction
 ---@field public speed Float

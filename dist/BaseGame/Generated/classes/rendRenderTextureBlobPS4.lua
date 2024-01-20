@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderTextureBlobPS4: rendIRenderTextureBlob
 rendRenderTextureBlobPS4 = {}

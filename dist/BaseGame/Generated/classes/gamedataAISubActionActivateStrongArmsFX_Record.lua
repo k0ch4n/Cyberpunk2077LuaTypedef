@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionActivateStrongArmsFX_Record: gamedataAISubAction_Record
 gamedataAISubActionActivateStrongArmsFX_Record = {}

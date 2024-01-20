@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhoneElementVisibility
 ---@field public tierVisibility worlduiContextVisibility

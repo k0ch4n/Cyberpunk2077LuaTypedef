@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SSensesOperationData
 ---@field public isActivatorPlayer Bool

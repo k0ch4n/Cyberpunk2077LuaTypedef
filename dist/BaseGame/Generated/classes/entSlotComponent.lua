@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entSlotComponent: entIPlacedComponent
 ---@field public slots entSlot[]

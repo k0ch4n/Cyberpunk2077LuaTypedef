@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDifficulty_ConditionType: questIStatsConditionType
 ---@field public difficulty gameDifficulty

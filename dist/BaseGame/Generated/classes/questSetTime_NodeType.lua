@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTime_NodeType: questITimeManagerNodeType
 ---@field public hours Int32

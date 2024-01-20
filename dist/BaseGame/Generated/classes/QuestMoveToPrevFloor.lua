@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestMoveToPrevFloor: ActionBool
 ---@field public floor NodeRef

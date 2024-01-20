@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERTTIType: Enum
 ---@field Name Enum 0

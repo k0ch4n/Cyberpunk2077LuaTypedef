@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectAction_KillFXAction: Enum
 ---@field Stop Enum 0

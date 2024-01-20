@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttachmentSlotReplicatedState
 ---@field public slotID TweakDBID

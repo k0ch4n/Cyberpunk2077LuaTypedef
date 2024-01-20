@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDriveWheelsAccelerateNoise_Record: gamedataDriveHelper_Record
 gamedataDriveWheelsAccelerateNoise_Record = {}

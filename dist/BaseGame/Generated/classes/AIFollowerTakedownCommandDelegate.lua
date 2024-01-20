@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowerTakedownCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public inCommand AIArgumentMapping

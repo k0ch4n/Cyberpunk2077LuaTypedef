@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCHealthListener: gameScriptStatPoolsListener
 ---@field public npc NPCPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkIWidgetSlotController: inkWidgetLogicController
 ---@field public slotID CName

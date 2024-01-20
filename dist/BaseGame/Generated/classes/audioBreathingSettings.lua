@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioBreathingSettings: audioAudioMetadata
 ---@field public exhaustionRtpc CName

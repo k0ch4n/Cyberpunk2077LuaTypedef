@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectableObjectComponent: gameScriptableComponent
 ---@field public factToAdd CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EHitReactionZone: Enum
 ---@field Head Enum 0

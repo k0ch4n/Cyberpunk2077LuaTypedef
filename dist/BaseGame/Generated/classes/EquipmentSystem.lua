@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentSystem: gameIEquipmentSystem
 ---@field private ownerData EquipmentSystemPlayerData[]

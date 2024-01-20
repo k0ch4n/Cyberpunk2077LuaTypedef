@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SamplerStateInfo
 ---@field public filteringMin ETextureFilteringMin

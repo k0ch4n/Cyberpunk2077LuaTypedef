@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionTargetPrereq: gameIScriptablePrereq
 ---@field public targetRecord gamedataAIActionTarget_Record

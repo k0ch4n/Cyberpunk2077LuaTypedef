@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDynamicEventsWithInterval
 ---@field public events CName[]

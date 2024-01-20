@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class blunderbussWeaponController: gameuiWidgetGameController
 ---@field private chargeWidgetInitialY Float

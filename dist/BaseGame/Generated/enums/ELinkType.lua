@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELinkType: Enum
 ---@field NETWORK Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPaymentFixedAmount_ConditionType: questIPayment_ConditionType
 questPaymentFixedAmount_ConditionType = {}

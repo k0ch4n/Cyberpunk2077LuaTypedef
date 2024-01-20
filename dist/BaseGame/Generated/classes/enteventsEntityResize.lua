@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsEntityResize: redEvent
 ---@field public extents Vector3

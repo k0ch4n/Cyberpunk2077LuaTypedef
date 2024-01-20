@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPreventionMinimapData_Record: gamedataTweakDBRecord
 gamedataPreventionMinimapData_Record = {}

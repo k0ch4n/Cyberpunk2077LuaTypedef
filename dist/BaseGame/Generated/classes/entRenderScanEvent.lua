@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRenderScanEvent: redEvent
 ---@field public scanState rendPostFx_ScanningState

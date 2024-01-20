@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipAnimationUpdateData: IScriptable
 ---@field public equipArea gamedataEquipmentArea

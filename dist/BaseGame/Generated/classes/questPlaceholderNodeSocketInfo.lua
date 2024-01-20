@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlaceholderNodeSocketInfo
 ---@field public name CName

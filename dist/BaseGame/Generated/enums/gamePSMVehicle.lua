@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMVehicle: Enum
 ---@field Any Enum -1

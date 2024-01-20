@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCAttitudeTowardsPlayerPrereq: gameIScriptablePrereq
 ---@field public attitude EAIAttitude

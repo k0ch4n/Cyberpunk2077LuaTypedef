@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class mpPersistentTestBoxState: netIEntityState
 ---@field public isOn Bool

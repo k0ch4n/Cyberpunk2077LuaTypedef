@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMoveToParams: questAICommandParams
 ---@field public movementTargetRef questUniversalRef

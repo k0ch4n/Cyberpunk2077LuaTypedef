@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticQuestMarkerNode: worldNode
 ---@field public questType worldQuestType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsVisualizerStyle: Enum
 ---@field onScreen Enum 0

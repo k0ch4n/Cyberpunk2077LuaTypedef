@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowerDeviceCommand: AIFollowerCommand
 ---@field public target gameObject

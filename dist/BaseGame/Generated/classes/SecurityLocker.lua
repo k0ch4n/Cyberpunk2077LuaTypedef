@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityLocker: InteractiveDevice
 ---@field private cachedEvent UseSecurityLocker

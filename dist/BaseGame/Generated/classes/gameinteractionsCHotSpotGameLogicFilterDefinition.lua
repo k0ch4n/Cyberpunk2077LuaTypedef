@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCHotSpotGameLogicFilterDefinition: ISerializable
 ---@field public hotSpotPrereq gameIPrereq

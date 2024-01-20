@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayEnv_OverrideGlobalLight: questIEnvironmentManagerNodeType
 ---@field public params worldWorldGlobalLightOverrideWithColorParameters

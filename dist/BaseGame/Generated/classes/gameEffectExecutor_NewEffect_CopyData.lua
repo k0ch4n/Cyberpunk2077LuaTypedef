@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_NewEffect_CopyData: gameEffectExecutor_NewEffect
 gameEffectExecutor_NewEffect_CopyData = {}

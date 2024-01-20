@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataActionWidgetDefinition_Record: gamedataWidgetDefinition_Record
 gamedataActionWidgetDefinition_Record = {}

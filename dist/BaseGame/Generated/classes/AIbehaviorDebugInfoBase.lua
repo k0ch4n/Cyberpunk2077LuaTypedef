@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDebugInfoBase: ISerializable
 ---@field public caption String

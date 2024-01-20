@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerPuppetAttachmentSlotsCallback: gameAttachmentSlotsScriptCallback
 ---@field public player PlayerPuppet

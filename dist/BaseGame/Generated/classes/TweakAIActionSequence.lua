@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TweakAIActionSequence: TweakAIActionAbstract
 ---@field public sequence TweakDBID

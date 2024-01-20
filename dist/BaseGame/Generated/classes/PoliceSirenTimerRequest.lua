@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PoliceSirenTimerRequest: gameScriptableSystemRequest
 ---@field public red Bool

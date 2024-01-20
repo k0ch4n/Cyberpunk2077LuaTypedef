@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceContentAssignment_Record: gamedataContentAssignment_Record
 gamedataDeviceContentAssignment_Record = {}

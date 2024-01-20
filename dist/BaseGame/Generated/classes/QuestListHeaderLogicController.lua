@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListHeaderLogicController: inkWidgetLogicController
 ---@field private label inkTextWidgetReference

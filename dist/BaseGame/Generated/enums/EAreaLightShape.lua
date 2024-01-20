@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAreaLightShape: Enum
 ---@field ALS_Sphere Enum 0

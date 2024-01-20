@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataEquipmentArea: Enum
 ---@field AbilityCW Enum 0

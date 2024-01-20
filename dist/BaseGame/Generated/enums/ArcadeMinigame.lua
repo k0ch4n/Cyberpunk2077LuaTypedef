@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArcadeMinigame: Enum
 ---@field Quadracer Enum 0

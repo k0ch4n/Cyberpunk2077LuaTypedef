@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class megatronModeInfoController: TriggerModeLogicController
 ---@field private ammoBarVisibility inkWidget

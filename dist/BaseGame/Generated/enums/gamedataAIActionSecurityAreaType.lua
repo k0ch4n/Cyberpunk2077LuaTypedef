@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionSecurityAreaType: Enum
 ---@field DANGEROUS Enum 0

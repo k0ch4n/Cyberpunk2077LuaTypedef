@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleOverrideAccelerate: ActionBool
 ---@field public isRequestedFormOtherDevice Bool

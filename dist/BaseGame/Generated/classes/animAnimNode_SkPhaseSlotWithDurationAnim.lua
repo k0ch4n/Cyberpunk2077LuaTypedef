@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkPhaseSlotWithDurationAnim: animAnimNode_SkPhaseWithDurationAnim
 ---@field public animFeatureName CName

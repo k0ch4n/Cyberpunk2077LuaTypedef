@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficLaneCrowdFragment
 ---@field public desiredSlotCountsPerTimePeriod worldDesiredSlotsCountInfo

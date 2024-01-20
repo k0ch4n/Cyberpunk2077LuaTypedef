@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanAIReactToStimTypeFilter: gameEffectObjectSingleFilter_Scripted
 CanAIReactToStimTypeFilter = {}

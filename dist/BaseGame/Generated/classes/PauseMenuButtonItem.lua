@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PauseMenuButtonItem: AnimatedListItemController
 ---@field private Fluff inkTextWidgetReference

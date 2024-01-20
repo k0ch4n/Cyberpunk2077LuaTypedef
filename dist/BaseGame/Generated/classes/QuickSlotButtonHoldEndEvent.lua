@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotButtonHoldEndEvent: redEvent
 ---@field public dPadItemDirection EDPadSlot

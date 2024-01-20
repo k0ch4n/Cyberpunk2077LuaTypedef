@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCEquipmentGroupEntry_Record: gamedataTweakDBRecord
 gamedataNPCEquipmentGroupEntry_Record = {}

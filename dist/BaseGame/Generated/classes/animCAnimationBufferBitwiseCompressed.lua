@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCAnimationBufferBitwiseCompressed: animIAnimationBuffer
 ---@field public version Uint32

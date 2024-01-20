@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSpawnableObjectPriority: Enum
 ---@field Crowd Enum 0

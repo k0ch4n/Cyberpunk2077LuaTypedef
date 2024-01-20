@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateMiniGameProgramsEvent: redEvent
 ---@field public program gameuiMinigameProgramData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_RadialHubMenu: MenuScenario_BaseMenu
 ---@field public hubMenuInitData HubMenuInitData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentAppearanceMatch
 ---@field public Character CName

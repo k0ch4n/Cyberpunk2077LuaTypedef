@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinesDataDef: gamebbScriptDefinition
 ---@field public CurrentNormal gamebbScriptID_Vector4

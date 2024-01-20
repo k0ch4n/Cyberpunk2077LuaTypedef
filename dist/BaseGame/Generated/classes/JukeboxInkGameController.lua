@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JukeboxInkGameController: DeviceInkGameControllerBase
 ---@field private ActionsPanel inkHorizontalPanelWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListDistanceData: IScriptable
 ---@field public objective gameJournalQuestObjective

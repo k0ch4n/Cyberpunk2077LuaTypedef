@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPhotoModePose_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModePose_Record = {}

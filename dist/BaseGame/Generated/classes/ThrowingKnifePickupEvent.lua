@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowingKnifePickupEvent: redEvent
 ---@field public throwCooldownSE TweakDBID

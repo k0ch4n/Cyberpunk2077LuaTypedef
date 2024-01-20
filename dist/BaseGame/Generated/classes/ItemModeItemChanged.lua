@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemModeItemChanged: redEvent
 ---@field public equipmentArea gamedataEquipmentArea

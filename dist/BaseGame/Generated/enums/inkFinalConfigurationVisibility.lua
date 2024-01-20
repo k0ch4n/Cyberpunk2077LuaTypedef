@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFinalConfigurationVisibility: Enum
 ---@field VisibleOnlyInFinal Enum 0

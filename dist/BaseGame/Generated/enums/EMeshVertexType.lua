@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeshVertexType: Enum
 ---@field MVT_StaticMesh Enum 0

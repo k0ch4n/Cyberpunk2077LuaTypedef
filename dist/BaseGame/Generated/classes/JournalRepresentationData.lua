@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JournalRepresentationData: ListItemData
 ---@field public Data gameJournalEntry

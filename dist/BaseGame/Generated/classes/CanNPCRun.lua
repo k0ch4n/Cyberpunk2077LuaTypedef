@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanNPCRun: AIbehaviorconditionScript
 ---@field public maxRunners Int32

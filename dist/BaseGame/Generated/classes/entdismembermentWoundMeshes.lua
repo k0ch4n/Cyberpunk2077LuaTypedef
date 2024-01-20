@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentWoundMeshes
 ---@field public ResourceSet entdismembermentResourceSetE

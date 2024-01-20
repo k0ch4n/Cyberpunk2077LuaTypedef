@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleSeatReservationEvent: redEvent
 ---@field public slotID CName

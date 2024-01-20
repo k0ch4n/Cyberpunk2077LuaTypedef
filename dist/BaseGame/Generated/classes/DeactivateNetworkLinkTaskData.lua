@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeactivateNetworkLinkTaskData: gameScriptTaskData
 ---@field public linkIndex Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMaskWidget: inkLeafWidget
 ---@field public textureAtlas inkTextureAtlas

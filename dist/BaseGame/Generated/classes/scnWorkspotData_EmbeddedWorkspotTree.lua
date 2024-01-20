@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorkspotData_EmbeddedWorkspotTree: scnWorkspotData
 ---@field public workspotTree workWorkspotTree

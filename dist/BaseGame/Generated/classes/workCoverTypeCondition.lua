@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workCoverTypeCondition: workIWorkspotCondition
 ---@field public isHighCover Bool

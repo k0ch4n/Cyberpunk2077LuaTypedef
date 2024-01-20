@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseChargesStatListener: gameCustomValueStatPoolsListener
 ---@field public player PlayerPuppet

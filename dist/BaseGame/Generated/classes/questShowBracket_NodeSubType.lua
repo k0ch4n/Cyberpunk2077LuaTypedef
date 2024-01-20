@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowBracket_NodeSubType: questITutorial_NodeSubType
 ---@field public bracketID CName

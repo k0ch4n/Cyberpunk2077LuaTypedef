@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStopAndStickPerpendicular_Record: gamedataProjectileCollision_Record
 gamedataStopAndStickPerpendicular_Record = {}

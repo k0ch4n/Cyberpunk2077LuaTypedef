@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_VehicleData: animAnimFeature
 ---@field public isInVehicle Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ReadIkRequest: animAnimNode_OnePoseInput
 ---@field public ikChain CName

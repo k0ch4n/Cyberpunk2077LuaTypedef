@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamUICollisionData: meshMeshParameter
 ---@field public uvs Vector2[]

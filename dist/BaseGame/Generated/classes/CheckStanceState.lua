@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckStanceState: AINPCStanceStateCheck
 ---@field public state gamedataNPCStanceState

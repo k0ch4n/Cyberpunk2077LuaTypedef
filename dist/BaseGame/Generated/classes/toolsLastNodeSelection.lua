@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsLastNodeSelection
 ---@field public editorName String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTimeSystemReplicatedState: gameIGameSystemReplicatedState
 ---@field public paused Bool

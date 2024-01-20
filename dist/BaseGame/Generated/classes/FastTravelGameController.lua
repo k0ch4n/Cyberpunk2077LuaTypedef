@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FastTravelGameController: gameuiWidgetGameController
 ---@field private fastTravelPointsList inkCompoundWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FunctionalTestsDataTimeStatsData: ISerializable
 ---@field public engineTick Uint64

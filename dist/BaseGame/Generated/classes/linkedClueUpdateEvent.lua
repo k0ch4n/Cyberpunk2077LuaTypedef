@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class linkedClueUpdateEvent: redEvent
 ---@field public linkedCluekData LinkedFocusClueData

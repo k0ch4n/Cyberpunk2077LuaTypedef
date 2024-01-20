@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipEvolutionModule: ItemTooltipModuleController
 ---@field private weaponEvolutionIcon inkImageWidgetReference

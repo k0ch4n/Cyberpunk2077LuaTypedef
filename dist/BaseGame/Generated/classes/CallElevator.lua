@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CallElevator: ActionBool
 ---@field public destination Int32

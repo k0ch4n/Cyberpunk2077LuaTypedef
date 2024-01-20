@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MorphTargetsDiffTextureSize: Enum
 ---@field TEXTURE_SIZE_1024x1024 Enum 0

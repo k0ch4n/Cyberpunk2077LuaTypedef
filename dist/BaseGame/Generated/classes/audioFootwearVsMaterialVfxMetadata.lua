@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFootwearVsMaterialVfxMetadata: audioAudioMetadata
 ---@field public footwearType CName

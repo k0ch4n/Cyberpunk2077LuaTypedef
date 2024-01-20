@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorExtractMountParentStubPositionTaskDefinition: AIbehaviorTaskDefinition
 ---@field public mountData AIArgumentMapping

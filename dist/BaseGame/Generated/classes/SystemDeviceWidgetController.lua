@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SystemDeviceWidgetController: DeviceWidgetControllerBase
 ---@field protected slavesConnectedCount inkTextWidgetReference

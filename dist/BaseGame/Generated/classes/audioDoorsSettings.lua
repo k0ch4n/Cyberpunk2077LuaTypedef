@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDoorsSettings: audioDeviceSettings
 ---@field public openEvent CName

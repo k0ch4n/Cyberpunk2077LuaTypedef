@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneWorkspotInstanceId
 ---@field public id Uint32

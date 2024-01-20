@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LineSpawnData: IScriptable
 ---@field public lineData scnDialogLineData

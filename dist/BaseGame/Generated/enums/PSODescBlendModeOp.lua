@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescBlendModeOp: Enum
 ---@field OP_Add Enum 0

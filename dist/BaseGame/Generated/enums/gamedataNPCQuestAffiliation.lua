@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCQuestAffiliation: Enum
 ---@field General Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionFailIfFriendlyFire_Record_Implementation: IScriptable
 AISubActionFailIfFriendlyFire_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamGpuBuffer: meshMeshParameter
 ---@field public stride Uint32

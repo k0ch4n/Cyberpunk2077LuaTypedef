@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubTimeSkipController: inkWidgetLogicController
 ---@field private gameTimeText inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBase_MappinDefinition_Record: gamedataTweakDBRecord
 gamedataBase_MappinDefinition_Record = {}

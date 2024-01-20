@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 ---@field protected hasTriggered Bool

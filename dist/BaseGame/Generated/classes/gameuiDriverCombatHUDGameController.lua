@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDriverCombatHUDGameController: gameuiHUDGameController
 ---@field public inWeaponizedVehicle Bool

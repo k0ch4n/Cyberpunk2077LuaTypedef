@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedHotkeyItemStatListener: gameScriptStatPoolsListener
 ---@field private hotkeyController ChargedHotkeyItemBaseController

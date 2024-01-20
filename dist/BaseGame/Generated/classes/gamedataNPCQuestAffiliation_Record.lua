@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCQuestAffiliation_Record: gamedataTweakDBRecord
 gamedataNPCQuestAffiliation_Record = {}

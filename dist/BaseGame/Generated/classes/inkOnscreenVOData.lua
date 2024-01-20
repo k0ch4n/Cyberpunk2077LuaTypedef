@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkOnscreenVOData
 ---@field public text CRUID

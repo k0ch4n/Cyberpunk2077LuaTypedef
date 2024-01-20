@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeControllerRefreshPolicyEnum: Enum
 ---@field Persistent Enum 0

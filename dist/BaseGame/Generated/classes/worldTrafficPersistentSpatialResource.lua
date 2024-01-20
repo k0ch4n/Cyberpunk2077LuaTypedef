@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficPersistentSpatialResource: resStreamedResource
 ---@field public neighborGroups Uint16[][]

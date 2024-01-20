@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatusEffect: gameStatusEffectBase
 ---@field public durationID Uint32

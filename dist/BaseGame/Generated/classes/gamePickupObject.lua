@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePickupObject: gameObject
 ---@field public interactionTag CName

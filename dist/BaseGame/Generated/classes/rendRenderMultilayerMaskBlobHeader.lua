@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMultilayerMaskBlobHeader
 ---@field public version Uint32

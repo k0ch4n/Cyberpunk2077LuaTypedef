@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StopSFXEffector: gameEffector
 ---@field public sfxName CName

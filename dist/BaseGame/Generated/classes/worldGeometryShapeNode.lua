@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldGeometryShapeNode: worldNode
 ---@field public color Color

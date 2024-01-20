@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameUnTagObjectRequest: gameScriptableSystemRequest
 ---@field public object gameObject

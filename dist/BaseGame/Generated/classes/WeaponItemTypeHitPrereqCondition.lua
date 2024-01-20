@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponItemTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field public itemType gamedataItemType

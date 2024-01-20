@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRoachRaceObstacle_Record: gamedataRoachRaceObject_Record
 gamedataRoachRaceObstacle_Record = {}

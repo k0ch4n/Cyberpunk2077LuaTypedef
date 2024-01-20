@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStartRecording_NodeType: questIRecordingNodeType
 ---@field public enabled Bool

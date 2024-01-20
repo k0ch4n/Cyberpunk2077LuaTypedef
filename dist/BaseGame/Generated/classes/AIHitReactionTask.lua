@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHitReactionTask: AIbehaviortaskScript
 ---@field protected activationTimeStamp Float

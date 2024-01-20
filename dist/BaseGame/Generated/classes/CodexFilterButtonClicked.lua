@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexFilterButtonClicked: redEvent
 ---@field public category CodexCategoryType

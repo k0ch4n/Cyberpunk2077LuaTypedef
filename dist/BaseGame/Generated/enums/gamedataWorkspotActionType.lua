@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorkspotActionType: Enum
 ---@field DeviceInvestigation Enum 0

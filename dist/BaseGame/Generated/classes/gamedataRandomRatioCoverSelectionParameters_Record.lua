@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRandomRatioCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataRandomRatioCoverSelectionParameters_Record = {}

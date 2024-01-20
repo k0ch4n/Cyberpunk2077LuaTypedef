@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetAttitudeAnimationController: BasicAnimationController
 ---@field private hostileShowAnimation CName

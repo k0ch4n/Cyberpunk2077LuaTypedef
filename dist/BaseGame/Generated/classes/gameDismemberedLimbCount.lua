@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDismemberedLimbCount
 ---@field public fleshDismemberments Uint32

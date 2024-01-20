@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttack_Continuous: gameAttack_GameEffect
 gameAttack_Continuous = {}

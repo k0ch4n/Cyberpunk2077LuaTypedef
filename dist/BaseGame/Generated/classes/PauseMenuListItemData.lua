@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PauseMenuListItemData: ListItemData
 ---@field public eventName CName

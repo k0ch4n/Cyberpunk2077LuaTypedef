@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProcessRelevantDevicesForNetworkGridEvent: ProcessDevicesEvent
 ---@field public ignoreRevealed Bool

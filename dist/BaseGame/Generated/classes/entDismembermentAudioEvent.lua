@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDismembermentAudioEvent: redEvent
 ---@field public bodyPart entAudioDismembermentPart

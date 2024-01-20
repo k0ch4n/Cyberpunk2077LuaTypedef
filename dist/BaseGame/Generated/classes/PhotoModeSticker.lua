@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeSticker: inkWidgetLogicController
 ---@field private image inkImageWidgetReference

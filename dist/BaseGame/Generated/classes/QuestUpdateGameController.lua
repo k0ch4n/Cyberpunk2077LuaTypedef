@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestUpdateGameController: gameuiHUDGameController
 ---@field private header inkTextWidgetReference

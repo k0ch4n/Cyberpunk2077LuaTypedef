@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatPoolPrereq_Record: gamedataIPrereq_Record
 gamedataStatPoolPrereq_Record = {}

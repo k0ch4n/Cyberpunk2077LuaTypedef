@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorBoughtItemEvent: redEvent
 ---@field public items gameItemID[]

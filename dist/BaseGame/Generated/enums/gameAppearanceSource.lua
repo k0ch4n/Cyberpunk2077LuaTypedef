@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAppearanceSource: Enum
 ---@field EntityResource Enum 0

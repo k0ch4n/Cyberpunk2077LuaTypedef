@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCrowdManagerNodeType_ControlCrowd: questICrowdManager_NodeType
 ---@field public action questControlCrowdAction

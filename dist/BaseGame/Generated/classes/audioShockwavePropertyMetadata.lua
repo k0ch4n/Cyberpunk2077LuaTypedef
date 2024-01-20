@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioShockwavePropertyMetadata: audioAudioMetadata
 ---@field public eventName CName

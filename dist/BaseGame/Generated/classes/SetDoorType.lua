@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDoorType: redEvent
 ---@field public doorTypeSideOne EDoorType

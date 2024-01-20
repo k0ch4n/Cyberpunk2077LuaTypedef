@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSettingsSelectorControllerKeyBinding: inkSettingsSelectorController
 ---@field private text inkRichTextBoxWidgetReference

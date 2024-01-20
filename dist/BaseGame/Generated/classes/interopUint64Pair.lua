@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopUint64Pair
 ---@field public first Uint64

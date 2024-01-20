@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPatrolDef: AIBlackboardDef
 ---@field public patrolPathOverride gamebbScriptID_Variant

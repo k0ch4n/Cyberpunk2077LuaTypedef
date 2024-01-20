@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCombatModeTaskDefinition: AIbehaviorTaskDefinition
 ---@field public mode AIbehaviorCombatModes

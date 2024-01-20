@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUpdateEntityHealthListeners_NodeType: questIUIManagerNodeType
 ---@field public entityRef gameEntityReference

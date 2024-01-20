@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetOwnPosition: AIbehaviortaskScript
 ---@field protected outPosition AIArgumentMapping

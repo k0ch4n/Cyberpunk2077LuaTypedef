@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_RotatingObject: animAnimFeature
 ---@field public rotateClockwise Bool

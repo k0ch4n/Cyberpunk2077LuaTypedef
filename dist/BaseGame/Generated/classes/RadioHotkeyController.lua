@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioHotkeyController: GenericHotkeyController
 ---@field private vehicleBB gameIBlackboard

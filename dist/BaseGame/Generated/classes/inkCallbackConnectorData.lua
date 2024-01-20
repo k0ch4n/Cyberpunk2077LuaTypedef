@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCallbackConnectorData: IScriptable
 ---@field public userData IScriptable

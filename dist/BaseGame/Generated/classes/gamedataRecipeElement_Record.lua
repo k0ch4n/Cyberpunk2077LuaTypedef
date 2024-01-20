@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRecipeElement_Record: gamedataTweakDBRecord
 gamedataRecipeElement_Record = {}

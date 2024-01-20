@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCDetectingPlayerPrereqState: gamePrereqState
 ---@field public owner gameObject

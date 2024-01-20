@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerTargetEntityDistanceInterruptCondition: scnIInterruptCondition
 ---@field public params scnCheckPlayerTargetEntityDistanceInterruptConditionParams

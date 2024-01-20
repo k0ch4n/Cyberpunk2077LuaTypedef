@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestAnimationMappinController: gameuiQuestMappinController
 ---@field private mappin gamemappinsQuestMappin

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankPickupType: Enum
 ---@field Patch_Kit Enum 0

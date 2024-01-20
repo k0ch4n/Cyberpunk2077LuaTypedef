@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SampleDeviceClassPS: gameObjectPS
 ---@field protected counter Int32

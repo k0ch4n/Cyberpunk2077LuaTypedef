@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexCategoryType: Enum
 ---@field All Enum 0

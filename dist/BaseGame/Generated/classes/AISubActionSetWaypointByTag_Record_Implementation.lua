@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetWaypointByTag_Record_Implementation: IScriptable
 AISubActionSetWaypointByTag_Record_Implementation = {}

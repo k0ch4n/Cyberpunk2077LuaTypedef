@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCheckLineOfFireTaskDefinition: AIbehaviorTaskDefinition
 ---@field public slotName AIArgumentMapping

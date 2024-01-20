@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNavigationScriptFindPointResult
 ---@field public status worldNavigationRequestStatus

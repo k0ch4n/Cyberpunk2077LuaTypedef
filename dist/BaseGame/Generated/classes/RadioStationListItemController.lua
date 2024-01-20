@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioStationListItemController: inkVirtualCompoundItemController
 ---@field private label inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsMainGameController: gameuiSettingsMenuGameController
 ---@field private scrollPanel inkWidgetReference

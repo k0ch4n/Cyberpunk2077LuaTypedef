@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsNotifySurfaceDirectionChanged: redEvent
 ---@field public surfaceDirection gameaudioeventsSurfaceDirection

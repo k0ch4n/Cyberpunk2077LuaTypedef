@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetDebugState: ISerializable
 ---@field public comparisonReports gameMuppetStateComparisonReport[]

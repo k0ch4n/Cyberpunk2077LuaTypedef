@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnUnmountEvent: scnSceneEvent
 ---@field public performer scnPerformerId

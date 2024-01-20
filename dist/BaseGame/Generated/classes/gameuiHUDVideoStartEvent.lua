@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHUDVideoStartEvent
 ---@field public videoPathHash Uint64

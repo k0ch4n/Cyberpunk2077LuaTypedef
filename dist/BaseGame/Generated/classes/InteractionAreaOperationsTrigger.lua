@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractionAreaOperationsTrigger: DeviceOperationsTrigger
 ---@field protected triggerData InteractionAreaOperationTriggerData

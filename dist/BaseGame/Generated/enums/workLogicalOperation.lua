@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workLogicalOperation: Enum
 ---@field AND Enum 0

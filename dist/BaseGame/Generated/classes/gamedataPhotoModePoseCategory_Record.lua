@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPhotoModePoseCategory_Record: gamedataTweakDBRecord
 gamedataPhotoModePoseCategory_Record = {}

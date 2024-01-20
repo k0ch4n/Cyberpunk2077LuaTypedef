@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionEquipOnBody_Record_Implementation: IScriptable
 AISubActionEquipOnBody_Record_Implementation = {}

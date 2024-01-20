@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileLinearTrajectoryParams: gameprojectileTrajectoryParams
 ---@field public startVel Float

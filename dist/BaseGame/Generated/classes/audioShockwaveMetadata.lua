@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioShockwaveMetadata: audioEmitterMetadata
 ---@field public explosionMetadataName CName

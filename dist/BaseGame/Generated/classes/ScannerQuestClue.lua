@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerQuestClue: inkWidgetLogicController
 ---@field private CategoryTextRef inkTextWidgetReference

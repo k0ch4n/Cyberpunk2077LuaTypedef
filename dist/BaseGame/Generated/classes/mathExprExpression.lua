@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class mathExprExpression: ISerializable
 ---@field public tokenData Uint32[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamDeformableShapesData: meshMeshParameter
 ---@field public ownerIndex Uint8[]

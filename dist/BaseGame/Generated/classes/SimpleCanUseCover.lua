@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleCanUseCover: AIbehaviorconditionScript
 ---@field private ability gamedataGameplayAbility_Record

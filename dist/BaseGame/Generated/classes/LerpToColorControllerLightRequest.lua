@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LerpToColorControllerLightRequest: gameScriptableSystemRequest
 ---@field public rgb Vector3

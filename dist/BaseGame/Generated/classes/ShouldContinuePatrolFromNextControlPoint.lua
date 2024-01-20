@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShouldContinuePatrolFromNextControlPoint: AIbehaviorconditionScript
 ---@field public patrolContinuationPolicy AIArgumentMapping

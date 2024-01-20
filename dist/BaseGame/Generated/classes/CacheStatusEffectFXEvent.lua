@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CacheStatusEffectFXEvent: redEvent
 ---@field public vfxToCache gamedataStatusEffectFX_Record[]

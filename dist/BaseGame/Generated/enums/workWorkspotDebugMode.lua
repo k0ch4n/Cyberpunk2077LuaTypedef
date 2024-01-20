@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotDebugMode: Enum
 ---@field VisualLogToogle Enum 2

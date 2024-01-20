@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDynamicReverbSettings: audioAudioMetadata
 ---@field public reverbType audioDynamicReverbType

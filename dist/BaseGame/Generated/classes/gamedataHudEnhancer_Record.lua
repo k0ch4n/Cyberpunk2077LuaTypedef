@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHudEnhancer_Record: gamedataTweakDBRecord
 gamedataHudEnhancer_Record = {}

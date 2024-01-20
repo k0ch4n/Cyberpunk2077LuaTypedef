@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVoiceContextAnswer
 ---@field public answerContext CName

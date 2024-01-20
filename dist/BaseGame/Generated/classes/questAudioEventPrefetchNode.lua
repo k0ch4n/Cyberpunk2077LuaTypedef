@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioEventPrefetchNode: questIAudioNodeType
 ---@field public prefetchEvents questAudioEventPrefetchStruct[]

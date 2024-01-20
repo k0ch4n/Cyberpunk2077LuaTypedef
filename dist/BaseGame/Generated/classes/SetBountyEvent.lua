@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBountyEvent: redEvent
 ---@field public bountyID TweakDBID

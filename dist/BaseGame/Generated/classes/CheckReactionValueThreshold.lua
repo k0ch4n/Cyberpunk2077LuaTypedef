@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckReactionValueThreshold: AIbehaviorconditionScript
 ---@field public reactionValue EReactionValue

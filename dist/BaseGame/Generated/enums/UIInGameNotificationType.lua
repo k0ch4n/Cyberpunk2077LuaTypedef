@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInGameNotificationType: Enum
 ---@field ActionRestriction Enum 0

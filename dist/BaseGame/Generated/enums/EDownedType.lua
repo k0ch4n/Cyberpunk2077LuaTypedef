@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDownedType: Enum
 ---@field Killed Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBodyTriggerDestructionComponent: gameITriggerDestructionComponent
 ---@field public colliderComponentName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkTabsArrowController: inkWidgetLogicController
 ---@field private direction NewPerkTabsArrowDirection

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyDamageEffector: ModifyAttackEffector
 ---@field protected operationType EMathOperator

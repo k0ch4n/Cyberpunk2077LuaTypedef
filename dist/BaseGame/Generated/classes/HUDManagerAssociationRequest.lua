@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDManagerAssociationRequest: HUDManagerRequest
 ---@field public associatedID entEntityID

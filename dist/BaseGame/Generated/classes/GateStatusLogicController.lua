@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GateStatusLogicController: inkWidgetLogicController
 ---@field public textStatus inkTextWidgetReference

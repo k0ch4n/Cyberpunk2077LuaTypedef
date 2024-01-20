@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpreadEffector: gameEffector
 ---@field public objectActionRecord gamedataObjectAction_Record

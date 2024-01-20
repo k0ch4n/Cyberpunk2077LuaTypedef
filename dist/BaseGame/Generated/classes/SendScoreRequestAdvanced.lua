@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SendScoreRequestAdvanced: gameScriptableSystemRequest
 ---@field public gameState gameuiSideScrollerMiniGameStateAdvanced

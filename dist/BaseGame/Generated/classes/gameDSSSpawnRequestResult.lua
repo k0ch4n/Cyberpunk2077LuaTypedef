@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDSSSpawnRequestResult
 ---@field public requestID Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIWeakSpotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWeakSpotCond_Record = {}

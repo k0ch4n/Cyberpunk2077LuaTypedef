@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LifePath_ScriptConditionType: BluelineConditionTypeBase
 ---@field public lifePathId TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendFont: CResource
 ---@field public fontBuffer DataBuffer

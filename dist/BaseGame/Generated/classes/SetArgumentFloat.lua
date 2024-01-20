@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetArgumentFloat: SetArguments
 ---@field public customVar Float

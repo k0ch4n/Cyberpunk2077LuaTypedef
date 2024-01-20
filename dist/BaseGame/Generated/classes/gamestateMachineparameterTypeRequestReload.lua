@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeRequestReload: IScriptable
 ---@field public item gameItemObject

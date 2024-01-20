@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECompanionDistancePreset: Enum
 ---@field Medium Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseEnabledEvent: redEvent
 ---@field public isEnabled Bool

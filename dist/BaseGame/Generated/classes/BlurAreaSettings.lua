@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlurAreaSettings: IAreaSettings
 ---@field public circularBlurRadius Float

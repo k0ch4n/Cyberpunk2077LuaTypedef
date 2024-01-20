@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_GraphSlotConditions: animAnimNode_GraphSlot
 ---@field public conditions animGraphSlotCondition[]

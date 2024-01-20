@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScanningComponentPS: gameComponentPS
 ---@field public scanningState gameScanningState

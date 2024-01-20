@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryWideItemDisplay: InventoryItemDisplay
 ---@field protected itemNameText inkTextWidgetReference

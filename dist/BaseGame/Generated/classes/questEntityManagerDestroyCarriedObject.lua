@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerDestroyCarriedObject: questIEntityManagerSetAttachment_NodeSubType
 ---@field public attachmentRef NodeRef

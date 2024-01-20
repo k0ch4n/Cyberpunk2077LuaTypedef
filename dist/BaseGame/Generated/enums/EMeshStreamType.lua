@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeshStreamType: Enum
 ---@field MST_Position_3F Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerDelayedReactionEvent: DelayedCrowdReactionEvent
 ---@field public initAnim Bool

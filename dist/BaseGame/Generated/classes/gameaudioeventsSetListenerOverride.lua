@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsSetListenerOverride: redEvent
 ---@field public enable Bool

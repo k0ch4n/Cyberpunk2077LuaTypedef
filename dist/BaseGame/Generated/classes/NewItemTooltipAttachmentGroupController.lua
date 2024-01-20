@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipAttachmentGroupController: inkWidgetLogicController
 ---@field private indicatorContainer inkWidgetReference

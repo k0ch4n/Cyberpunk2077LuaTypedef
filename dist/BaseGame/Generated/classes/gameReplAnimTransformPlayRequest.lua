@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameReplAnimTransformPlayRequest: gameReplAnimTransformRequestBase
 ---@field public animName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackpackCraftingMaterialItemCallbackData: IScriptable
 ---@field public craftingMaterial CachedCraftingMaterial

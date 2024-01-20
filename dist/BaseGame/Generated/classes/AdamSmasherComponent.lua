@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdamSmasherComponent: gameScriptableComponent
 ---@field private owner NPCPuppet

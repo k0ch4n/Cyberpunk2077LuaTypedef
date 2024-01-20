@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMoveOnSplineParams: questAICommandParams
 ---@field public splineNodeRef NodeRef

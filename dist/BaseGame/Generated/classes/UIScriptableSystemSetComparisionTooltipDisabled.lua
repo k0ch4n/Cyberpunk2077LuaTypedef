@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemSetComparisionTooltipDisabled: gameScriptableSystemRequest
 ---@field public value Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerPersistentData
 ---@field public mails gamedeviceGenericDataContent[]

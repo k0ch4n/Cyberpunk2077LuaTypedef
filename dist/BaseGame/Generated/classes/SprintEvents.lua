@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SprintEvents: LocomotionGroundEvents
 ---@field public previousStimTimeStamp Float

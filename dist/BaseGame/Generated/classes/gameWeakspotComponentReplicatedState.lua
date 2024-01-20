@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeakspotComponentReplicatedState: netIComponentState
 ---@field public WeakspotRepInfos gameWeakSpotReplicatedInfo[]

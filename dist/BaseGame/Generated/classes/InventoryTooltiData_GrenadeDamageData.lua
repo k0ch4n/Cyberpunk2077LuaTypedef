@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltiData_GrenadeDamageData: IScriptable
 ---@field public statType gamedataStatType

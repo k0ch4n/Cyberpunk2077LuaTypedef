@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOffsetMode: Enum
 ---@field useRealOffset Enum 0

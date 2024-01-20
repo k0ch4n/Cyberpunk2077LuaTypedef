@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventPostponedParameterCName: gamestateMachineeventPostponedParameterBase
 ---@field public value CName

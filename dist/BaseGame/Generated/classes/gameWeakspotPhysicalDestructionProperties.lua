@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeakspotPhysicalDestructionProperties
 ---@field public velocity Float

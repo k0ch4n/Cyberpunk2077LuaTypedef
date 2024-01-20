@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TCSInputYAxisEvent: redEvent
 ---@field public value Float

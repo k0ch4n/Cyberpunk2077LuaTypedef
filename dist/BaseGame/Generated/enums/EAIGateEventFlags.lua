@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIGateEventFlags: Enum
 ---@field AIGEF_Undefined Enum 0

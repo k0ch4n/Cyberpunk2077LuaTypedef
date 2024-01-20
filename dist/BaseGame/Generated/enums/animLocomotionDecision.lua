@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLocomotionDecision: Enum
 ---@field LD_None Enum 0

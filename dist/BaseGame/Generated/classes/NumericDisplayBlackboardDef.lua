@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NumericDisplayBlackboardDef: DeviceBaseBlackboardDef
 ---@field public CurrentNumber gamebbScriptID_Int32

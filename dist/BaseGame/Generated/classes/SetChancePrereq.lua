@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetChancePrereq: gameIScriptablePrereq
 ---@field public setChance Float

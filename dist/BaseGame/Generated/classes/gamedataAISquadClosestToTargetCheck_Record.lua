@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadClosestToTargetCheck_Record: gamedataAISquadDistanceRelationToTargetCheck_Record
 gamedataAISquadClosestToTargetCheck_Record = {}

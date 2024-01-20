@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_HitRepresentation_Capsule: gameEffectObjectFilter_HitRepresentation
 ---@field public flattenCapsuleToHeight Bool

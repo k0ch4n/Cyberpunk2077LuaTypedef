@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SurveillanceCameraControllerPS: SensorDeviceControllerPS
 ---@field private cameraProperties CameraSetup

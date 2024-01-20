@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdvanceInteractionStateResolveEvent: redEvent
 ---@field public toggle Bool

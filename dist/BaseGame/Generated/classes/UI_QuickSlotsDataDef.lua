@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_QuickSlotsDataDef: gamebbScriptDefinition
 ---@field public UIRadialContextRequest gamebbScriptID_Bool

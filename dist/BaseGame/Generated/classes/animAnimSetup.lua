@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimSetup
 ---@field public cinematics animAnimSetupEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SPreventionAgentData: IScriptable
 ---@field public ps gamePersistentState

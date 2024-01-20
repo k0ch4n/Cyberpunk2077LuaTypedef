@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_RevealObject: gameEffectExecutor
 ---@field public reason CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HackingDataDef: gamebbScriptDefinition
 ---@field public SpreadMap gamebbScriptID_Variant

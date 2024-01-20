@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent: redEvent
 gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent = {}

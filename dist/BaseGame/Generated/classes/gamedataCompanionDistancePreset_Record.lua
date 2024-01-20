@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCompanionDistancePreset_Record: gamedataTweakDBRecord
 gamedataCompanionDistancePreset_Record = {}

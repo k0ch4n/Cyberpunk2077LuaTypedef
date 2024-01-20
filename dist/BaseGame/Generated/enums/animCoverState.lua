@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCoverState: Enum
 ---@field LowCover Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetInputActionDebugCommand: gameIMuppetInputAction
 ---@field public debugCommand gameMuppetDebugCommand

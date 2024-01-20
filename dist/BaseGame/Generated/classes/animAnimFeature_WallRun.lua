@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_WallRun: animAnimFeature
 ---@field public wallOnRightSide Bool

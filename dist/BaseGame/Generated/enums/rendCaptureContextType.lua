@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendCaptureContextType: Enum
 ---@field SceneGamedef Enum 0

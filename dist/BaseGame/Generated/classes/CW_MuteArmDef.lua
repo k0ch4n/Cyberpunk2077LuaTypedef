@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CW_MuteArmDef: gamebbScriptDefinition
 ---@field public MuteArmActive gamebbScriptID_Bool

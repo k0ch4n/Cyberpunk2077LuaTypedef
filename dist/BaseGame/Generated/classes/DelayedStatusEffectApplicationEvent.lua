@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedStatusEffectApplicationEvent: redEvent
 ---@field public statusEffectEvent gameeventsApplyStatusEffectEvent

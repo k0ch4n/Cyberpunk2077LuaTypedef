@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestObjectiveWrapper: ABaseQuestObjectiveWrapper
 ---@field private questSubObjectives QuestSubObjectiveWrapper[]

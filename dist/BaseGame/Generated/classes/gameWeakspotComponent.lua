@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeakspotComponent: entIComponent
 ---@field public defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties

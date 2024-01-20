@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SHitStatusEffect
 ---@field public stacks Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsSectorCacheEntry
 ---@field public entryOffset Uint32

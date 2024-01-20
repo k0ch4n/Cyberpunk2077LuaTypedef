@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugFilterSetting_MeshResource: worldEditorDebugFilterSettings
 ---@field public resourcePaths String[]

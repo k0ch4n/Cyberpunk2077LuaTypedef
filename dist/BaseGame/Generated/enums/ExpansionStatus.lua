@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionStatus: Enum
 ---@field NotAvailable Enum 0

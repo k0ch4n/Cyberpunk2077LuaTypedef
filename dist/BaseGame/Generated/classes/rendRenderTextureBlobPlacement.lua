@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderTextureBlobPlacement
 ---@field public offset Uint32

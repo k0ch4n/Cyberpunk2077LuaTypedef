@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGarmentSwitchEffectController
 ---@field public sceneName CName

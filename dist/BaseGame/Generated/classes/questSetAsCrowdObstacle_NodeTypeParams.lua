@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetAsCrowdObstacle_NodeTypeParams
 ---@field public puppetRef gameEntityReference

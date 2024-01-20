@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemotePlayerMappinController: gameuiInteractionMappinController
 ---@field private mappin gamemappinsRemotePlayerMappin

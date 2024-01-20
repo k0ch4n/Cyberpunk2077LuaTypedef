@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimExecuteCodeEventEvent: inkanimEvent
 ---@field public eventToExecute redEvent

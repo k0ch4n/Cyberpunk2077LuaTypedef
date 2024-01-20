@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangePresetEvent: redEvent
 ---@field public presetID ESmartHousePreset

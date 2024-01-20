@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmState_SessionRestoreFromSave: gsmState
 gsmState_SessionRestoreFromSave = {}

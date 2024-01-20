@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseBunkerComputerGameController: gameuiBaseBunkerComputerGameController
 ---@field public factsSet BunkerSystemsFactsSet

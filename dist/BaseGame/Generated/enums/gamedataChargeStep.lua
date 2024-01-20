@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChargeStep: Enum
 ---@field Idle Enum 0

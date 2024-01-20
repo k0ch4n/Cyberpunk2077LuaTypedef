@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtAdditionalPreset_Eyes: animLookAtAdditionalPreset
 ---@field public softLimitAngle Float

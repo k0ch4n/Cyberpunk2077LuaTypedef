@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnUseSceneWorkspotCommand: AIBaseUseWorkspotCommand
 ---@field public sceneInstanceId scnSceneInstanceId

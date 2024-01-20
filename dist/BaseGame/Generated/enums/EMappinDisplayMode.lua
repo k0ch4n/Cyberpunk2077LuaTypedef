@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMappinDisplayMode: Enum
 ---@field PLAYSTYLE Enum 0

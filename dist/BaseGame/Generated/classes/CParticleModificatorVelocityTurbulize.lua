@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorVelocityTurbulize: IParticleModificator
 ---@field public scale IEvaluatorVector

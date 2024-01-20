@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuCharacterItems: Enum
 ---@field Skills Enum 0

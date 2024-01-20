@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexFilterButtonController: inkWidgetLogicController
 ---@field protected root inkWidgetReference

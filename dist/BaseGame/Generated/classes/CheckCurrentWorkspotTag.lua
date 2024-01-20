@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckCurrentWorkspotTag: AIbehaviorconditionScript
 ---@field public tag AIArgumentMapping

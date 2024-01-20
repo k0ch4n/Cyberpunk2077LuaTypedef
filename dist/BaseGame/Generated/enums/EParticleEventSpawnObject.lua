@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EParticleEventSpawnObject: Enum
 ---@field PESO_Particle Enum 0

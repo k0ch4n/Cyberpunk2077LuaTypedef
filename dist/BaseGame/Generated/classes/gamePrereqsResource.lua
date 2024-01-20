@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePrereqsResource: CResource
 ---@field public prereqs gamePrereqDefinition[]

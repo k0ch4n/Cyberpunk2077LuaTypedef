@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUINameplate_Record: gamedataTweakDBRecord
 gamedataUINameplate_Record = {}

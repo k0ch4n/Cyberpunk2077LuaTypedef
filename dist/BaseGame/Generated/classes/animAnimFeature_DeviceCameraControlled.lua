@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_DeviceCameraControlled: animAnimFeature
 ---@field public currentRotation Vector4

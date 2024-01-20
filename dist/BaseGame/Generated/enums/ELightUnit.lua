@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightUnit: Enum
 ---@field LU_Lumen Enum 0

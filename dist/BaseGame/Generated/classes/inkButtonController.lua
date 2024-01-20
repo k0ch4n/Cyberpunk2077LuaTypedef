@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkButtonController: inkDiscreteNavigationController
 ---@field public ButtonClick inkButtonClickCallback

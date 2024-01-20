@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetPerkDeviceAsUsedRequest: gameScriptableSystemRequest
 ---@field public ownerID entEntityID

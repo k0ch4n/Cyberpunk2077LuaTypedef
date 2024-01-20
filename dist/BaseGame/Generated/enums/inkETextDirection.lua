@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkETextDirection: Enum
 ---@field LeftToRight Enum 0

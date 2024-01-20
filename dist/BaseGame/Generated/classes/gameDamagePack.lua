@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDamagePack: IScriptable
 ---@field public damageList gameDamage[]

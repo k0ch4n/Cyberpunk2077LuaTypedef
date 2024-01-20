@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSetupScrollBarForAttributeEvent: redEvent
 ---@field public attribute Uint32

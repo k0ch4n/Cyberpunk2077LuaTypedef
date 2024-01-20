@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questQuestContentType: Enum
 ---@field EP1_MainQuest Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopMaterialListDescriptor
 ---@field public chunksInfo String

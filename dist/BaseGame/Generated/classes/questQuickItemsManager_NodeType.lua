@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questQuickItemsManager_NodeType: questIUIManagerNodeType
 ---@field public set questQuickItemsSet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalQuestObjectiveCounterData
 ---@field public entryPath gameJournalPath

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationArmCyberwareController: gameuiCharacterCustomizationBodyPartsController
 ---@field public defaultGroupName CName

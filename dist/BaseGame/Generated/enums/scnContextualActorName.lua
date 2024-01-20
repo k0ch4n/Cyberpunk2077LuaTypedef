@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnContextualActorName: Enum
 ---@field Player Enum 0

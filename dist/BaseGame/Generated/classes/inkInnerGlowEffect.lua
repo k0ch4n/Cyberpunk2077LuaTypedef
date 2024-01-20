@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkInnerGlowEffect: inkIEffect
 ---@field public colorR Float

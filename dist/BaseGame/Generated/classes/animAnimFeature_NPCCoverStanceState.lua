@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_NPCCoverStanceState: animAnimFeature_NPCState
 animAnimFeature_NPCCoverStanceState = {}

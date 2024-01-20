@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficLanePersistentFlags: Enum
 ---@field FromRoadSpline Enum 1

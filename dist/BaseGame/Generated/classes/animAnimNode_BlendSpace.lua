@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendSpace: animAnimNode_Base
 ---@field public inputLinks animFloatLink[]

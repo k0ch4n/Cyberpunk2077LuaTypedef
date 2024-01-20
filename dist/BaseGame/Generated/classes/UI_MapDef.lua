@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_MapDef: gamebbScriptDefinition
 ---@field public currentLocation gamebbScriptID_String

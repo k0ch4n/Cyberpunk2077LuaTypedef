@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResolveQualityRangeInteractionLayerEvent: redEvent
 ---@field public itemData gameItemData

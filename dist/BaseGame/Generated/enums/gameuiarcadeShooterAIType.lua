@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterAIType: Enum
 ---@field MELEE Enum 0

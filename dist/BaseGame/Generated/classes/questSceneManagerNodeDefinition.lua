@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSceneManagerNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public type questISceneManagerNodeType

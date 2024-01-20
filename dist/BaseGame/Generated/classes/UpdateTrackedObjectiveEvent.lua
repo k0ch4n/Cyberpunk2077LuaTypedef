@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateTrackedObjectiveEvent: redEvent
 ---@field public trackedObjective gameJournalQuestObjective

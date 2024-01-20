@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayInitFearAnimation: AIbehaviorconditionScript
 ---@field public grenadePanic Bool

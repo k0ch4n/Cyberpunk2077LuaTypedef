@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyDroneLocomotionWrapperEvent: redEvent
 ---@field public movementType CName

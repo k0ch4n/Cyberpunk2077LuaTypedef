@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckTriggerReturnCondition: scnIReturnCondition
 ---@field public params scnCheckTriggerReturnConditionParams

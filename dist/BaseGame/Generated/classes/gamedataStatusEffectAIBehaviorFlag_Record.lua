@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatusEffectAIBehaviorFlag_Record: gamedataTweakDBRecord
 gamedataStatusEffectAIBehaviorFlag_Record = {}

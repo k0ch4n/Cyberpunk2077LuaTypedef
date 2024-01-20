@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialSetup_BufferInfo
 ---@field public tracksMapping animFacialSetup_TracksMapping

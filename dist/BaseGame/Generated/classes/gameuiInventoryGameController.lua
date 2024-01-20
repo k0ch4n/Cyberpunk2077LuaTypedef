@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInventoryGameController: gameuiMenuGameController
 ---@field private TooltipsManagerRef inkWidgetReference

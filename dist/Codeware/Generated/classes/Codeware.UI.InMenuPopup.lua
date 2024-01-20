@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_InMenuPopup: Codeware_UI_CustomPopup
 ---@field public container inkCompoundWidget

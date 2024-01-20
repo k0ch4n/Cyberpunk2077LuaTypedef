@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponAnimFeature_AimPlayer: animAnimFeature_BasicAim
 ---@field public zoomLevel Float

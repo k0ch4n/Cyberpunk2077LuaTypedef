@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EGameplayRole: Enum
 ---@field UnAssigned Enum 0

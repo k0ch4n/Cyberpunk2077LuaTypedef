@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MuteArmDurationModifier: gameEffectDurationModifier_Scripted
 ---@field public initialDuration Float

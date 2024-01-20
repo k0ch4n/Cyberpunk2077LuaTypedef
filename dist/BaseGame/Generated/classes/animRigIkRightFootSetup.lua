@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animRigIkRightFootSetup: animRigIk2Setup
 animRigIkRightFootSetup = {}

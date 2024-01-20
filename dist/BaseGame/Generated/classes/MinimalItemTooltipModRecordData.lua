@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipModRecordData: MinimalItemTooltipModData
 ---@field public dataPackage gameUILocalizationDataPackage

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTVBase_Record: gamedataDevice_Record
 gamedataTVBase_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAITargetInUnmountingRangeCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetInUnmountingRangeCond_Record = {}

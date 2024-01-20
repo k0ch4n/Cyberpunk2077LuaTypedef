@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TVControllerPS: MediaDeviceControllerPS
 ---@field protected tvSetup TVSetup

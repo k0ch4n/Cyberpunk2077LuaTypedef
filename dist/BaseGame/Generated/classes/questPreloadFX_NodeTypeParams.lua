@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPreloadFX_NodeTypeParams
 ---@field public preload Bool

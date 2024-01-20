@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestStopFollowingTarget: ActionBool
 ---@field public targetEntityID entEntityID

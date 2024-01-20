@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TarotMainGameController: gameuiMenuGameController
 ---@field protected buttonHintsManagerRef inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateOverheatEvent: redEvent
 ---@field public value Float

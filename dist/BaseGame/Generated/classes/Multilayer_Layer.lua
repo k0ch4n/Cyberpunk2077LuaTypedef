@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_Layer
 ---@field public matTile Float

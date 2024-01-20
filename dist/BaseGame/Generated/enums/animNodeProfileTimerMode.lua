@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animNodeProfileTimerMode: Enum
 ---@field Begin Enum 0

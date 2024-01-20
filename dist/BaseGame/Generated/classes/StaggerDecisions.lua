@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaggerDecisions: ReactionTransition
 ---@field public textLayerId Uint32

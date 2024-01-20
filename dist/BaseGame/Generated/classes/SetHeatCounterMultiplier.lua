@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetHeatCounterMultiplier: gameScriptableSystemRequest
 ---@field public heatMultiplier Float

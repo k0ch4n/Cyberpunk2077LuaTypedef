@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVoiceTriggerLimitsMap: audioAudioMetadata
 ---@field public includes CName[]

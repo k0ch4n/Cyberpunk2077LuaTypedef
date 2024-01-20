@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSpawnRequestResult
 ---@field public requestID Uint32

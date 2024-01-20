@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MasterDeviceBaseBlackboardDef: DeviceBaseBlackboardDef
 ---@field public ThumbnailWidgetsData gamebbScriptID_Variant

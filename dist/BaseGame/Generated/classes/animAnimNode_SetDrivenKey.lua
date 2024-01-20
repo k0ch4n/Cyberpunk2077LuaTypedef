@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetDrivenKey: animAnimNode_Base
 ---@field public inputLink animPoseLink

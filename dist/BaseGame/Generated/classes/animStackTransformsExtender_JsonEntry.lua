@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStackTransformsExtender_JsonEntry
 ---@field public name CName

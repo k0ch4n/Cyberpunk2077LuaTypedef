@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransformAnimatorNode_ActionType: questIBaseNodeType
 questTransformAnimatorNode_ActionType = {}

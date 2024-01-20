@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDisabledReason: Enum
 ---@field FrontTire Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEnableHUDScaleOverride: inkInitializedWidgetUserData
 ---@field public scalingInterpolationValue Float

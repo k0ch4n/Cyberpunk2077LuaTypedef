@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChimeraHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field private owner NPCPuppet

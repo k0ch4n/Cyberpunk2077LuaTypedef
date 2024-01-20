@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemInventoryRemoveItem: gameScriptableSystemRequest
 ---@field public itemID gameItemID

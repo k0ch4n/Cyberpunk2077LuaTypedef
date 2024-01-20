@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProjectileLauncherRoundCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 ---@field private collisionAction gamedataProjectileOnCollisionAction

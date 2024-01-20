@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IncreaseTraitLevel: gamePlayerScriptableSystemRequest
 ---@field public trait gamedataTraitType

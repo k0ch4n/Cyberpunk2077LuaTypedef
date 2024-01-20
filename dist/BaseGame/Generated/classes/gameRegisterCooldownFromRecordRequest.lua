@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameRegisterCooldownFromRecordRequest
 ---@field public owner entEntity

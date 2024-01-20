@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceIndustrialArm: ActivatedDeviceTrap
 ---@field public loopAnimation EIndustrialArmAnimations

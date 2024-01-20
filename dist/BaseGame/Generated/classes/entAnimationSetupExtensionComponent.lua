@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimationSetupExtensionComponent: entIComponent
 ---@field public animations animAnimSetup

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformLoopType: Enum
 ---@field NoLooping Enum 0

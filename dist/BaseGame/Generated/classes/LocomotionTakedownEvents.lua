@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LocomotionTakedownEvents: LocomotionEventsTransition
 ---@field public stateMachineInitData LocomotionTakedownInitData

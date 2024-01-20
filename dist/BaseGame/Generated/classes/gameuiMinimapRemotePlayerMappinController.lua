@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapRemotePlayerMappinController: gameuiBaseMinimapMappinController
 ---@field public rootWidget inkWidgetReference

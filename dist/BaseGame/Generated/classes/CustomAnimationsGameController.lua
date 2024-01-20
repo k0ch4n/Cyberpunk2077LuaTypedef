@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomAnimationsGameController: gameuiWidgetGameController
 ---@field protected customAnimations WidgetAnimationManager

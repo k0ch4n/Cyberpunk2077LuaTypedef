@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_RebalanceItemEvent: redEvent
 ---@field public reqLevel Float

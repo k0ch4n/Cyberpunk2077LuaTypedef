@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameESlotState: Enum
 ---@field Taken Enum 0

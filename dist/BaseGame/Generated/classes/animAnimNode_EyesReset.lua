@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_EyesReset: animAnimNode_OnePoseInput
 animAnimNode_EyesReset = {}

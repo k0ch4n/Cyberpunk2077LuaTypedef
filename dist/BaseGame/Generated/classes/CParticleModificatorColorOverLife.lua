@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorColorOverLife: IParticleModificator
 ---@field public color IEvaluatorColor

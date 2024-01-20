@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScaleOvershieldDecayOverTimeEffector: gameContinuousEffector
 ---@field public effectApplied Bool

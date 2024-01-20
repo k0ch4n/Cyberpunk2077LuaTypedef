@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnRegisterInputListenerRequest: gameScriptableSystemRequest
 ---@field public object gameObject

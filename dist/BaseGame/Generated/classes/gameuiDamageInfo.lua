@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDamageInfo
 ---@field public hitPosition Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questForbiddenTrigger_NodeType: questIVehicleManagerNodeType
 ---@field public triggerNodeRef NodeRef

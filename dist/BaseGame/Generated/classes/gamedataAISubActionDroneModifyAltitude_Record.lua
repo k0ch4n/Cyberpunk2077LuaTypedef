@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionDroneModifyAltitude_Record: gamedataAISubAction_Record
 gamedataAISubActionDroneModifyAltitude_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerAlpha: IParticleInitializer
 ---@field public alpha IEvaluatorFloat

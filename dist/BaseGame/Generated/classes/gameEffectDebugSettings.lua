@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectDebugSettings
 ---@field public overrideGlobalSettings Bool

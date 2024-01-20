@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class genLevelRandomizerDataSource: Enum
 ---@field Entries Enum 0

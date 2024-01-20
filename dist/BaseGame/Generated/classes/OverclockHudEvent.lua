@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OverclockHudEvent: redEvent
 ---@field public activated Bool

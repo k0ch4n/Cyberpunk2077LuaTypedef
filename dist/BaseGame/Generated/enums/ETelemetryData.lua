@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETelemetryData: Enum
 ---@field MeleeAttacksMade Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartTimetable: InteractiveDevice
 ---@field private isShortGlitchActive Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAnimationBufferDataCompressionMethod: Enum
 ---@field ABDCM_Invalid Enum 0

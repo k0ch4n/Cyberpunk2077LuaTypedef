@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentDebris: CResource
 ---@field public items entdismembermentDebrisResourceItem[]

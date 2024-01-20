@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractionsInputView: inkWidgetLogicController
 ---@field private TopArrowRef inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCommunityParams
 ---@field public reference NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorFloatStartEnd: IEvaluatorFloat
 ---@field public start Float

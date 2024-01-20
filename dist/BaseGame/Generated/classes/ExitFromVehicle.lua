@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExitFromVehicle: AIVehicleTaskAbstract
 ---@field public useFastExit Bool

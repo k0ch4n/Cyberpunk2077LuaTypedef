@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDoorSkillcheckSide: Enum
 ---@field BOTH Enum 0

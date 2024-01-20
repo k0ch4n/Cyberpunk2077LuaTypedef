@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMultiPrereq: gameIPrereq
 ---@field public aggregationType gameAggregationType

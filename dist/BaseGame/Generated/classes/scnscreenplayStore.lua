@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnscreenplayStore
 ---@field public lines scnscreenplayDialogLine[]

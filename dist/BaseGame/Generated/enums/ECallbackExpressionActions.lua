@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECallbackExpressionActions: Enum
 ---@field SetTrue Enum 0

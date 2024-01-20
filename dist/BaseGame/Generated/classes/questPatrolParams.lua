@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPatrolParams: questAICommandParams
 ---@field public pathParams AIPatrolPathParameters

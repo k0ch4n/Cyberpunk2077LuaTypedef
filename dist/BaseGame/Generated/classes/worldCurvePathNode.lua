@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCurvePathNode: worldSplineNode
 ---@field public userInput animCurvePathBakerUserInput

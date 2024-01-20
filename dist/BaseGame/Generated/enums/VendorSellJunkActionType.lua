@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorSellJunkActionType: Enum
 ---@field Sell Enum 0

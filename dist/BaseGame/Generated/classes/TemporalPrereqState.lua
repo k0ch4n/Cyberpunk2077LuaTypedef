@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TemporalPrereqState: gamePrereqState
 ---@field public delaySystem gameDelaySystem

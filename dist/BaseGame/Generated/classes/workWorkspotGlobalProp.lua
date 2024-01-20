@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotGlobalProp
 ---@field public id CName

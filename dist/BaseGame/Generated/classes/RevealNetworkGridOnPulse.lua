@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealNetworkGridOnPulse: redEvent
 ---@field public duration Float

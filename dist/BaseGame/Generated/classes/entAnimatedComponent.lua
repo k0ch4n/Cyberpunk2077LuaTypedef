@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimatedComponent: entISkinableComponent
 ---@field public controlBinding entAnimationControlBinding

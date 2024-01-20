@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SBannerWidgetPackage: SWidgetPackage
 ---@field public title String

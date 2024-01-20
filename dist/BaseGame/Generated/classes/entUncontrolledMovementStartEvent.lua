@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entUncontrolledMovementStartEvent: redEvent
 ---@field public ragdollNoGroundThreshold Float

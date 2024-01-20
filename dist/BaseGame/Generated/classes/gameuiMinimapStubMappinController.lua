@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapStubMappinController: gameuiBaseMinimapMappinController
 ---@field private regularIconContainer inkCompoundWidgetReference

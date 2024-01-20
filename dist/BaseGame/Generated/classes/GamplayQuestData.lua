@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GamplayQuestData: IScriptable
 ---@field public questUniqueID String

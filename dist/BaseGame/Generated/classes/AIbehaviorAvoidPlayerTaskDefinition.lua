@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorAvoidPlayerTaskDefinition: AIbehaviorTaskDefinition
 ---@field public threatRadius AIArgumentMapping

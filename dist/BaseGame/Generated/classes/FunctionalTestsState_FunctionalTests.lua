@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FunctionalTestsState_FunctionalTests: gsmState
 FunctionalTestsState_FunctionalTests = {}

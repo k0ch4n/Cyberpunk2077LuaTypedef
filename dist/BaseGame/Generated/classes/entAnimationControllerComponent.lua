@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimationControllerComponent: entIComponent
 ---@field public actionAnimDatabaseRef animActionAnimDatabase

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureRawFormat: Enum
 ---@field TRF_Invalid Enum 0

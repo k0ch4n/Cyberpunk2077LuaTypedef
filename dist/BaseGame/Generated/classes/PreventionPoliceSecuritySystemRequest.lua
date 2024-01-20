@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionPoliceSecuritySystemRequest: gameScriptableSystemRequest
 ---@field public securitySystemID gamePersistentID

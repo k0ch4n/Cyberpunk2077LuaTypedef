@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class damageSystemLogFlags: Enum
 ---@field GENERAL Enum 1

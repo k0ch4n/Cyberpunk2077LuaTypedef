@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_AimConstraint_ObjectUp: animAnimNode_OnePoseInput
 ---@field public targetTransform animTransformIndex

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTier3CameraSettings
 ---@field public yawLeftLimit Float

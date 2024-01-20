@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_VehiclePassenger: animAnimFeature
 ---@field public overallForceMS Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Crowd: animAnimFeature
 ---@field public stopType Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMovePuppetNodeDefinition: questConfigurableAICommandNode
 ---@field public entityReference gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialCustomizationTargetEntryTemp
 ---@field public setup animFacialSetup

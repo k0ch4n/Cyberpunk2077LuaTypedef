@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMaskDataSource: Enum
 ---@field TextureAtlas Enum 0

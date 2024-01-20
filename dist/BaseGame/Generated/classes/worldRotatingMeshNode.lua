@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRotatingMeshNode: worldMeshNode
 ---@field public rotationAxis worldRotatingMeshNodeAxis

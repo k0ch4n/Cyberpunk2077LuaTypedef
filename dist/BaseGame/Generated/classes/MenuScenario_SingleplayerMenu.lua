@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_SingleplayerMenu: MenuScenario_PreGameSubMenu
 ---@field private expansionHintShown Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsSetEnableEvent: redEvent
 ---@field public enable Bool

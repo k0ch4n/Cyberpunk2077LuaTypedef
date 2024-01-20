@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldMinimapModeOverrideAreaNode: worldTriggerAreaNode
 ---@field public streamingOcclusion worldPrefabStreamingOcclusion

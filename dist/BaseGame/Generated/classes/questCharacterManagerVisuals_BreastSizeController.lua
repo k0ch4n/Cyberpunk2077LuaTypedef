@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_BreastSizeController: questICharacterManagerVisuals_NodeSubType
 ---@field public bodyGroupName CName

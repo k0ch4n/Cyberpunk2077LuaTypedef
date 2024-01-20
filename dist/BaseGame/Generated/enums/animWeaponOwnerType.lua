@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animWeaponOwnerType: Enum
 ---@field Player Enum 0

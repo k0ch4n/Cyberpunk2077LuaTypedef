@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class graphGraphResource: CResource
 ---@field public graph graphGraphDefinition

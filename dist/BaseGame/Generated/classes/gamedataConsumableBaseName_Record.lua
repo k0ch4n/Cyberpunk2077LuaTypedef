@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataConsumableBaseName_Record: gamedataTweakDBRecord
 gamedataConsumableBaseName_Record = {}

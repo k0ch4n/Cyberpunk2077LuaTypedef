@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WardrobeOutfitInfoTooltipController: AGenericTooltipController
 ---@field public videoWidget inkVideoWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputContextSystem: gameScriptableSystem
 ---@field private activeContext inputContextType

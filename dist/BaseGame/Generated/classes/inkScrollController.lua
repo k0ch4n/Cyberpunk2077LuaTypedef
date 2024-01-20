@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkScrollController: inkWidgetLogicController
 ---@field public ScrollArea inkScrollAreaWidgetReference

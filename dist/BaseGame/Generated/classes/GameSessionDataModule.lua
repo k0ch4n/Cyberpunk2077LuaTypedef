@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameSessionDataModule: IScriptable
 ---@field protected moduleType EGameSessionDataType

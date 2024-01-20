@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_QueryBox: gameEffectObjectProvider
 ---@field public filterData physicsFilterData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NCPDJobDoneNotification: JournalNotification
 ---@field private NCPD_Reward inkWidgetReference

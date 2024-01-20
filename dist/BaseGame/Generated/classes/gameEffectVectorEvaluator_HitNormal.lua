@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectVectorEvaluator_HitNormal: gameEffectVectorEvaluator
 gameEffectVectorEvaluator_HitNormal = {}

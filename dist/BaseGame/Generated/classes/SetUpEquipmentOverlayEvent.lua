@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetUpEquipmentOverlayEvent: redEvent
 ---@field public meshOverlayEffectName CName

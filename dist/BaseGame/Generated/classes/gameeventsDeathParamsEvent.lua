@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsDeathParamsEvent: redEvent
 ---@field public noAnimation Bool

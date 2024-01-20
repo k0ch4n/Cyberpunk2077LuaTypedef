@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIPlayerSquadOrder: Enum
 ---@field Takedown Enum 0

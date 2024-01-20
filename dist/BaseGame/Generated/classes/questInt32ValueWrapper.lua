@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInt32ValueWrapper
 ---@field public valueProvider questIInt32ValueProvider

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkUserData: IScriptable
 ---@field public statType gamedataStatType

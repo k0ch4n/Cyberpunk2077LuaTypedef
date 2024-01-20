@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckDistractedReturnCondition: scnIReturnCondition
 ---@field public params scnCheckDistractedReturnConditionParams

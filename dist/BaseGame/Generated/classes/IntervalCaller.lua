@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IntervalCaller: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field public preventionSystem PreventionSystem

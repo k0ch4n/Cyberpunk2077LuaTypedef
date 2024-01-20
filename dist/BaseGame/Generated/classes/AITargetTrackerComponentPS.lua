@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITargetTrackerComponentPS: gameComponentPS
 ---@field public threatsSaveData AIThreatSaveData[]

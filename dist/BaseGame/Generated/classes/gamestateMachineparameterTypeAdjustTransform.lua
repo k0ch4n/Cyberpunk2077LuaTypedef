@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeAdjustTransform: IScriptable
 ---@field public position Vector4

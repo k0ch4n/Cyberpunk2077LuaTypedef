@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendingMachineSFX
 ---@field public glitchingStart CName

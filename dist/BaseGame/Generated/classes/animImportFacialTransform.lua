@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animImportFacialTransform
 ---@field public rotation Quaternion

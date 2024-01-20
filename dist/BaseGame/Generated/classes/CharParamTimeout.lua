@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharParamTimeout: AITimeoutCondition
 ---@field public timeoutParamName String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCommunityRegistryItemAreaNodeType: Enum
 ---@field Regular Enum 0

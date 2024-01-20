@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArmsCWInSlotPrereqState: gamePrereqState
 ---@field public listener ArmsCWInSlotCallback

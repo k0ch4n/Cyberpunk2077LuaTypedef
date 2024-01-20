@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLandingFxPackage_Record: gamedataTweakDBRecord
 gamedataLandingFxPackage_Record = {}

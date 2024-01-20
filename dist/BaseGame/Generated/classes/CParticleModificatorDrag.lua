@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorDrag: IParticleModificator
 ---@field public dragCoefficient IEvaluatorFloat

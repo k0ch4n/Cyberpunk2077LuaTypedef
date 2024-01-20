@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_KnockOffData: animAnimFeature
 ---@field public knockedOff Bool

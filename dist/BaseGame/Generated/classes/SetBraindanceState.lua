@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBraindanceState: gameScriptableSystemRequest
 ---@field public newState Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FunctionalTestsDataMemoryPoolStaticData: ISerializable
 ---@field public poolName String

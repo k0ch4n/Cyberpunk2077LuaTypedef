@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IMaterialDataProviderDescEParameterType: Enum
 ---@field PT_None Enum 0

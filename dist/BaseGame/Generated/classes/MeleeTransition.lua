@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeTransition: DefaultTransition
 ---@field public stateNameString String

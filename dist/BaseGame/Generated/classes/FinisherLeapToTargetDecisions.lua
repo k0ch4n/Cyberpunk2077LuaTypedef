@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FinisherLeapToTargetDecisions: FinisherTransition
 ---@field public stateMachineInitData FinisherInitData

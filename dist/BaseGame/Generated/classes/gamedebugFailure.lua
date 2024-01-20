@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedebugFailure: ISerializable
 ---@field public id gamedebugFailureId

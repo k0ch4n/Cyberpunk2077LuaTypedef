@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DLCSettingsVarListener: userSettingsVarListener
 ---@field private ctrl DlcDescriptionController

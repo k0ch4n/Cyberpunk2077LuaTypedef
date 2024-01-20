@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApiVertexPackingePackingType: Enum
 ---@field PT_Invalid Enum -1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedeviceUIScreenDefinition
 ---@field public screenType TweakDBID

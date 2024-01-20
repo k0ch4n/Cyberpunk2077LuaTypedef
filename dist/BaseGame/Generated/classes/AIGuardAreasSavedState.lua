@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIGuardAreasSavedState: ISerializable
 ---@field public data AIGuardAreaSavedData[]

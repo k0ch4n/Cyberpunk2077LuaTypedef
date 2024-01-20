@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InvisibleSceneStashControllerPS: ScriptableDeviceComponentPS
 ---@field protected storedItems gameItemID[]

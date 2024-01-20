@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_FastForwardDef: gamebbScriptDefinition
 ---@field public FastForwardAvailable gamebbScriptID_Bool

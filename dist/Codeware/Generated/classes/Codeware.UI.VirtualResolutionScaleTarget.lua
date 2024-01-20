@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_VirtualResolutionScaleTarget: Codeware_UI_VirtualResolutionTarget
 Codeware_UI_VirtualResolutionScaleTarget = {}

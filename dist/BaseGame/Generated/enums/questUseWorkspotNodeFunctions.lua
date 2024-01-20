@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWorkspotNodeFunctions: Enum
 ---@field UseWorkspot Enum 0

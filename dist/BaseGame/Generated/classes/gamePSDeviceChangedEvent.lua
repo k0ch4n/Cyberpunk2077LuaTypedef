@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSDeviceChangedEvent: redEvent
 ---@field public persistentID gamePersistentID

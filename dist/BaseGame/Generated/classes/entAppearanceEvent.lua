@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAppearanceEvent: redEvent
 ---@field public appearanceName CName

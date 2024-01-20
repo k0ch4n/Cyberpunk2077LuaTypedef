@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimationSkipEvent: gameTransformAnimationEvent
 ---@field public time Float

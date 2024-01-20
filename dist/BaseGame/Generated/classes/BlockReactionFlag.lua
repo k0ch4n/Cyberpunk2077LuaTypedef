@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlockReactionFlag: AIbehaviortaskScript
 ---@field public target gameObject

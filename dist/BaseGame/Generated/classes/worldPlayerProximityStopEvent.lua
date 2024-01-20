@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPlayerProximityStopEvent: redEvent
 ---@field public profile CName

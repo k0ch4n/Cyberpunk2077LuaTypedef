@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDynamicVehicleSpawn_NodeType: questIDynamicSpawnSystemType
 ---@field public VehicleData TweakDBID[]

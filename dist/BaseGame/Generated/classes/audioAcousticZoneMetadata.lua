@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAcousticZoneMetadata: audioAudioMetadata
 ---@field public priority Int32

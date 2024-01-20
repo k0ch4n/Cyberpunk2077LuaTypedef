@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MetaQuestLogicController: inkWidgetLogicController
 ---@field private MetaQuestHint inkWidgetReference

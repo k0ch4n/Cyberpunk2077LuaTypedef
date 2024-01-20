@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayTooltipSettingsListener: userSettingsVarListener
 ---@field private ctrl PerkDisplayTooltipController

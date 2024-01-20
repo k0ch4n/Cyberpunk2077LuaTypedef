@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questToggleSwitchSeatsForPlayer_NodeType: questIVehicleManagerNodeType
 questToggleSwitchSeatsForPlayer_NodeType = {}

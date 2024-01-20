@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationOptionVersionUpdateInfo
 ---@field public curOptionNames CName[]

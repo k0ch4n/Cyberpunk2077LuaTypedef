@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpPlayerDetectorPS: gameObjectPS
 ---@field public secondsCounter Int32

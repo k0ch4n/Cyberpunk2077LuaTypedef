@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVisionModeType: Enum
 ---@field Undefined Enum 0

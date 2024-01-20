@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioUiGenericControlSettingsMap: audioAudioMetadata
 ---@field public uiControlMatrix audioUiGenericControlSettingsMapItem[]

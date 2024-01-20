@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_EntityTypeEntityTypeFilter: Enum
 ---@field Puppet Enum 0

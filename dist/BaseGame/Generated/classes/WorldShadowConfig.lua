@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorldShadowConfig
 ---@field public contactShadows ContactShadowsConfig

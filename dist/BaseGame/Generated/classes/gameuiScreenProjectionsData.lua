@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiScreenProjectionsData: IScriptable
 ---@field public data inkScreenProjection[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CFoliageProfile: CResource
 ---@field public cutoffAlphaMinMip Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Reprimand: MorphData
 ---@field public reprimandData ReprimandData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TooltipSpecialAbilityList: inkWidgetLogicController
 ---@field private libraryItemName CName

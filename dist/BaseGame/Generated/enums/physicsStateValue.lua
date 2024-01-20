@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsStateValue: Enum
 ---@field Position Enum 1

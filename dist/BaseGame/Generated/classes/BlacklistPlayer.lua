@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlacklistPlayer: redEvent
 ---@field public blacklist Bool

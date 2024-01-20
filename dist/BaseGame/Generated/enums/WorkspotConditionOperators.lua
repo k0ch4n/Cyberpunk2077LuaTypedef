@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorkspotConditionOperators: Enum
 ---@field OR Enum 0

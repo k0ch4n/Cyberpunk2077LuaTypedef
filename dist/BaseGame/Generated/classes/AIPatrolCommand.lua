@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPatrolCommand: AIMoveCommand
 ---@field public pathParams AIPatrolPathParameters

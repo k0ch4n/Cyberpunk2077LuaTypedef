@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RaceCheckpointSelector: StreetSignSelector
 ---@field private recordID TweakDBID

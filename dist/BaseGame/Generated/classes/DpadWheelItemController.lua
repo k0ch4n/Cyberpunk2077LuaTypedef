@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DpadWheelItemController: inkWidgetLogicController
 ---@field private selectorWrapper inkWidgetReference

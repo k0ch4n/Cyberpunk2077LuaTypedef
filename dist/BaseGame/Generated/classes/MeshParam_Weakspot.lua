@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeshParam_Weakspot: animAnimFeature
 ---@field public hidden Int32

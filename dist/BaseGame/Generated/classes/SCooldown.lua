@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SCooldown
 ---@field public delayId gameDelayID

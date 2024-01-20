@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCInScenePrereq: gameIScriptablePrereq
 ---@field public invert Bool

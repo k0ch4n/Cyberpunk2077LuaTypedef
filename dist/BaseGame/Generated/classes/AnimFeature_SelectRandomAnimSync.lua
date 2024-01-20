@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SelectRandomAnimSync: animAnimFeature
 ---@field public value Int32

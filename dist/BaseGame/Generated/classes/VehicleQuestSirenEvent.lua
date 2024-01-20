@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestSirenEvent: redEvent
 ---@field public lights Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStateTag: Enum
 ---@field ST_Invalid Enum 0

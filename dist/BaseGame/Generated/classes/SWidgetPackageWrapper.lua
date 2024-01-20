@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SWidgetPackageWrapper: IScriptable
 ---@field public WidgetPackage SWidgetPackage

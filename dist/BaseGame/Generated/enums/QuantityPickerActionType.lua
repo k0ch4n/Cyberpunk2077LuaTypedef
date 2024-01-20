@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuantityPickerActionType: Enum
 ---@field Buy Enum 0

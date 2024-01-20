@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWidgetStyle_Record: gamedataTweakDBRecord
 gamedataWidgetStyle_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatPrereq: gameIRPGPrereq
 ---@field public statType gamedataStatType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericNotificationController: gameuiGenericNotificationReceiverGameController
 ---@field protected titleRef inkTextWidgetReference

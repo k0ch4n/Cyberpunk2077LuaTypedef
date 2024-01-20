@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBlockTokenActivation_NodeSubType: questIContentTokenManager_NodeSubType
 ---@field public action questBlockAction

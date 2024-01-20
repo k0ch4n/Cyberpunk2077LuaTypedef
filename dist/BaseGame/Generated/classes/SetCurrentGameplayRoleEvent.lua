@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetCurrentGameplayRoleEvent: redEvent
 ---@field public gameplayRole EGameplayRole

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionDataDef: AIBlackboardDef
 ---@field public ownerMeleeAttackBlockedCount gamebbScriptID_Int32

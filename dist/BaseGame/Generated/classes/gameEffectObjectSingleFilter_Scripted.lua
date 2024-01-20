@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectSingleFilter_Scripted: gameEffectObjectSingleFilter
 gameEffectObjectSingleFilter_Scripted = {}

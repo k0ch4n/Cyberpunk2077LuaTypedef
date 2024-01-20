@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionSlideToWorldPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
 ---@field public worldPosition AIArgumentMapping

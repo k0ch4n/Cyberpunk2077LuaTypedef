@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinVariant_Record: gamedataTweakDBRecord
 gamedataMappinVariant_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWidgetLibraryResource: CResource
 ---@field public libraryItems inkWidgetLibraryItem[]

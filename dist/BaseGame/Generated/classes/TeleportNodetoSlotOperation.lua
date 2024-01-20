@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TeleportNodetoSlotOperation: DeviceOperationBase
 ---@field public slotName CName

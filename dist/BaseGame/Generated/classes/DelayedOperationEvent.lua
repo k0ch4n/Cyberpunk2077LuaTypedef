@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedOperationEvent: redEvent
 ---@field public operationHandler DeviceOperations

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GiveRewardEffector: gameEffector
 ---@field public reward TweakDBID

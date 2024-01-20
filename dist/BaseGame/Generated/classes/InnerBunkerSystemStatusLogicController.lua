@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InnerBunkerSystemStatusLogicController: inkWidgetLogicController
 ---@field public onlineRoot inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentInstigatedInfo
 ---@field public target gameObject

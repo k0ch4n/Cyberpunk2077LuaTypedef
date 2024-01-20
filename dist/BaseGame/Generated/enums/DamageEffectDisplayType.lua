@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageEffectDisplayType: Enum
 ---@field Flat Enum 0

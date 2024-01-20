@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootContainerBasePS: gameObjectPS
 ---@field protected markAsQuest Bool

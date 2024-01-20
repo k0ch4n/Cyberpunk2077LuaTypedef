@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Stance: animAnimFeature
 ---@field public stanceState Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMReaction: Enum
 ---@field Default Enum 0

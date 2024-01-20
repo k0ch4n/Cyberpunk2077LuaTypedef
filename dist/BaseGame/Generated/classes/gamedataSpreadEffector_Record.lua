@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSpreadEffector_Record: gamedataEffector_Record
 gamedataSpreadEffector_Record = {}

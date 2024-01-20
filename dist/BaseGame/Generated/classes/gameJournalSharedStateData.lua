@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalSharedStateData
 ---@field public pathHash Uint32

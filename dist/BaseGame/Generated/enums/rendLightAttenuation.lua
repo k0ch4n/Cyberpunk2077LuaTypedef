@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendLightAttenuation: Enum
 ---@field LA_InverseSquare Enum 0

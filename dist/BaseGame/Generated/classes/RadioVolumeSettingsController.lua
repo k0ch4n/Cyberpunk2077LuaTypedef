@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioVolumeSettingsController: inkSettingsSelectorController
 ---@field private value inkTextWidgetReference

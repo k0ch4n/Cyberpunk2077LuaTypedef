@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataArchetypeType: Enum
 ---@field AndroidMeleeT1 Enum 0

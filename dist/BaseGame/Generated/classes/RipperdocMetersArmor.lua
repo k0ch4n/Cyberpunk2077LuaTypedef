@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocMetersArmor: RipperdocMetersBase
 ---@field private barScale Float

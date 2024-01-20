@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimStopAnimEvent: inkanimEvent
 ---@field public animName CName

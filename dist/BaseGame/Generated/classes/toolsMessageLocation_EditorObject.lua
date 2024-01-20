@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageLocation_EditorObject: toolsIMessageLocation
 ---@field public path toolsEditorObjectIDPath

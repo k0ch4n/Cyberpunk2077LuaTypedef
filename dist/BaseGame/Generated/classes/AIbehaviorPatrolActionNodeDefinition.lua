@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPatrolActionNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public path AIArgumentMapping

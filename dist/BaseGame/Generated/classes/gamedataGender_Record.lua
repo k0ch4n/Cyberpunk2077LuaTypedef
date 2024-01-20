@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGender_Record: gamedataTweakDBRecord
 gamedataGender_Record = {}

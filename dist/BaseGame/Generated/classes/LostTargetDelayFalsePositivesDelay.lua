@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LostTargetDelayFalsePositivesDelay: redEvent
 ---@field public target gameObject

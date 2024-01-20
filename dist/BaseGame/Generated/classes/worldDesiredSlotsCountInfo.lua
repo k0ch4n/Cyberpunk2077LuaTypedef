@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDesiredSlotsCountInfo
 ---@field public siredSlotsCount Float

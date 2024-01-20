@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FPPCameraSharedVar: animAnimNode_FloatValue
 animAnimNode_FPPCameraSharedVar = {}

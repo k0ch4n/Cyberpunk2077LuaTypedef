@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryWeaponSlot: InventoryEquipmentSlot
 ---@field protected DamageIndicatorRef inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeResourcePoolListener: gameScriptStatPoolsListener
 ---@field private meleeCrosshair CrosshairGameController_Melee

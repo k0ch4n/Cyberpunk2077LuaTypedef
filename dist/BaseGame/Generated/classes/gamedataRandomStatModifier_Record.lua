@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRandomStatModifier_Record: gamedataStatModifier_Record
 gamedataRandomStatModifier_Record = {}

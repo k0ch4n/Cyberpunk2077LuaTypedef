@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetManouverPosition: AIbehaviortaskScript
 ---@field public distance Float

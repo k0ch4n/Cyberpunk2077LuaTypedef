@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReflexesMasterPerk1Effector: ModifyAttackEffector
 ---@field private operationType EMathOperator

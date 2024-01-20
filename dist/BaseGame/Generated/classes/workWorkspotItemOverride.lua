@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotItemOverride
 ---@field public propOverrides workWorkspotItemOverridePropOverride[]

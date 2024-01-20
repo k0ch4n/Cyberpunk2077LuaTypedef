@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_RuntimeSwitch: animAnimNode_Base
 ---@field public condition animIRuntimeCondition

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_DamageInfoDef: gamebbScriptDefinition
 ---@field public DamageList gamebbScriptID_Variant

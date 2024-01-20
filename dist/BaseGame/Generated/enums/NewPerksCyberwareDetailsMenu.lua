@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksCyberwareDetailsMenu: Enum
 ---@field MantisBlades Enum 0

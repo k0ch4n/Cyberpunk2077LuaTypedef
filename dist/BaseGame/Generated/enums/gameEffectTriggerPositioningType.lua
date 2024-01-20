@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectTriggerPositioningType: Enum
 ---@field PlayerRoot Enum 0

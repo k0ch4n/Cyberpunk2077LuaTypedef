@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EReprimandInstructions: Enum
 ---@field INITIATE_FIRST Enum 0

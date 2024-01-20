@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFastTravelLoadingScreenLogicController: inkILoadingLogicController
 ---@field public mainBackgroundImage inkImageWidgetReference

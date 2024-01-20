@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnscreenDisplayManager: inkWidgetLogicController
 ---@field protected contentText inkTextWidgetReference

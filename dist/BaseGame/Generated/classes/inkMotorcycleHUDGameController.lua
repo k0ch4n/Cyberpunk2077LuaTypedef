@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMotorcycleHUDGameController: gameuiBaseVehicleHUDGameController
 ---@field private vehicleBlackboard gameIBlackboard

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceVisionApperanceEvent: redEvent
 ---@field public forcedHighlight FocusForcedHighlightData

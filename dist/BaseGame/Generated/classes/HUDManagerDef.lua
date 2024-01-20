@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDManagerDef: gamebbScriptDefinition
 ---@field public ShowHudHintMessege gamebbScriptID_Bool

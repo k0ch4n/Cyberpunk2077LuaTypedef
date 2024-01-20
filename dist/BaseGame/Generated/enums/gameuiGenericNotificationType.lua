@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGenericNotificationType: Enum
 ---@field Generic Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayBreathingAnimationEffector: gameEffector
 ---@field public animFeature AnimFeature_CameraBreathing

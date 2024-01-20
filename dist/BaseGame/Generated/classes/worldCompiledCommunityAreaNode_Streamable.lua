@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCompiledCommunityAreaNode_Streamable: worldCompiledCommunityAreaNode
 ---@field public streamingDistance Float

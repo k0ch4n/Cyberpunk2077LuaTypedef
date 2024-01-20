@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsVFXBraindanceEvent: scnSceneEvent
 ---@field public performerId scnPerformerId

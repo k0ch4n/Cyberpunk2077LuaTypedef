@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkPoinsActionRequest: gamePlayerScriptableSystemRequest
 ---@field public pointDiff Int32

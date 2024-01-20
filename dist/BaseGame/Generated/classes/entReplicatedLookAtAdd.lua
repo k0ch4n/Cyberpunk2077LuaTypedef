@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedLookAtAdd: entReplicatedLookAtData
 ---@field public bodyPart CName

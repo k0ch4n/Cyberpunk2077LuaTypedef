@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HandleReactionEvent: redEvent
 ---@field public fearPhase Int32

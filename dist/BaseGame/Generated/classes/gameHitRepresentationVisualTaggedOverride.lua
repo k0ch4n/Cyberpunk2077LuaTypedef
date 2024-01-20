@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitRepresentationVisualTaggedOverride: ISerializable
 ---@field public visualTags redTagList

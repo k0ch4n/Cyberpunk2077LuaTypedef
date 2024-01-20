@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRadioAnnouncementNodeType: questIAudioNodeType
 ---@field public radioStationEvents questRadioStationAnnouncementEventStruct[]

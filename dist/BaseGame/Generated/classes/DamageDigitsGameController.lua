@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageDigitsGameController: gameuiProjectedHUDGameController
 ---@field public maxVisible Int32

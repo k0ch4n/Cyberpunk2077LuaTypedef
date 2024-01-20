@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DataEntryRequest: gameScriptableSystemRequest
 ---@field public dataType EGameSessionDataType

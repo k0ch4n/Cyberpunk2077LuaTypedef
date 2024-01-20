@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsTargetObjectPlayer: AIbehaviorconditionScript
 ---@field protected targetObject AIArgumentMapping

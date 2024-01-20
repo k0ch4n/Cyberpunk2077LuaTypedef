@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class movePolicies: IScriptable
 ---@field public destination Vector3

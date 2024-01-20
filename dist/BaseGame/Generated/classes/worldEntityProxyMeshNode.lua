@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEntityProxyMeshNode: worldPrefabProxyMeshNode
 ---@field public ownerGlobalId worldGlobalNodeID

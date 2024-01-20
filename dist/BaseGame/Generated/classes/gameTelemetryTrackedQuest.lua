@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTelemetryTrackedQuest
 ---@field public name String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindanceLayer_ConditionType: scnIBraindanceConditionType
 ---@field public layer scnBraindanceLayer

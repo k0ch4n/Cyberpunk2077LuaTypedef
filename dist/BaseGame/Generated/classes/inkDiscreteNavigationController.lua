@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkDiscreteNavigationController: inkWidgetLogicController
 ---@field public shouldUpdateScrollController Bool

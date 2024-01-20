@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEnvAreaNotifier: worldITriggerAreaNotifer
 ---@field public priority Uint8

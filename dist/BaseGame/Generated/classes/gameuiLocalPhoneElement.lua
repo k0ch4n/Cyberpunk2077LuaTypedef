@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiLocalPhoneElement: gameuiPhoneElementVisibility
 ---@field public libraryID CName

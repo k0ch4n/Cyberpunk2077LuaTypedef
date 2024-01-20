@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InstanceState: Enum
 ---@field DISABLED Enum 0

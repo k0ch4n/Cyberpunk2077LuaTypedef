@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldOffMeshConnectionType: Enum
 ---@field Door Enum 0

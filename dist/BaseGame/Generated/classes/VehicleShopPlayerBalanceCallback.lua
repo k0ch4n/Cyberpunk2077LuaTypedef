@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleShopPlayerBalanceCallback: gameInventoryScriptCallback
 ---@field public owner gameuiVehicleShopGameController

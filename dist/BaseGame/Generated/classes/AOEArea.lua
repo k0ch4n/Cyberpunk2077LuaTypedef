@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AOEArea: InteractiveMasterDevice
 ---@field protected areaComponent gameStaticTriggerAreaComponent

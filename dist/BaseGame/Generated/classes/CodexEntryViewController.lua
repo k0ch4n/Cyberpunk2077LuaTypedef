@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexEntryViewController: inkWidgetLogicController
 ---@field private titleText inkTextWidgetReference

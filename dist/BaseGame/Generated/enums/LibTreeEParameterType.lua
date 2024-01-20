@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeEParameterType: Enum
 ---@field PARAM_Bool Enum 0

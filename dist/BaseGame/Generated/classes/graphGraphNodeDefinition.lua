@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class graphGraphNodeDefinition: graphIGraphObjectDefinition
 ---@field public sockets graphGraphSocketDefinition[]

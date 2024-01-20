@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleFollowCommand: AIVehicleCommand
 ---@field public target gameObject

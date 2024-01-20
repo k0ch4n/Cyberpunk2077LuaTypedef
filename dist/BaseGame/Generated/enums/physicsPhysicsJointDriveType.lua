@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointDriveType: Enum
 ---@field AxisX Enum 0

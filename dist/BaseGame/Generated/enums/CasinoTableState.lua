@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CasinoTableState: Enum
 ---@field Idle Enum 0

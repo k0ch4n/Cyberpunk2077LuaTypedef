@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDroneGlobalSettings: audioAudioMetadata
 ---@field public speedRtpc CName

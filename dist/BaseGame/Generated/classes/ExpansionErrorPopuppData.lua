@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionErrorPopuppData: inkGameNotificationData
 ---@field public title CName

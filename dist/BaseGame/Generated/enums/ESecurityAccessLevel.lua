@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityAccessLevel: Enum
 ---@field ESL_NONE Enum 0

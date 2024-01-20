@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetProgressionBuild: gamePlayerScriptableSystemRequest
 ---@field public buildType gamedataBuildType

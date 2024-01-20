@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorUnaryConditionDefinition: AIbehaviorConditionDefinition
 ---@field public child AIbehaviorConditionDefinition

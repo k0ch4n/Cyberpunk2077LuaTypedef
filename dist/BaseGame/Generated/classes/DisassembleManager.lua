@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisassembleManager: gameuiMenuGameController
 ---@field private listRef inkCompoundWidgetReference

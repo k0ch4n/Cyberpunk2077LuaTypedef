@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DatatermLoginGameController: BaseBunkerComputerGameController
 ---@field public loopAnimName CName

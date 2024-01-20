@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenCodexPopupEvent: redEvent
 ---@field public entry gameJournalEntry

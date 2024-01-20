@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReflexesMasterPerk1EffectorListener: gameScriptedDamageSystemListener
 ---@field public owner ReflexesMasterPerk1Effector

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTutorialOverlayShowEvent: redEvent
 ---@field public itemName CName

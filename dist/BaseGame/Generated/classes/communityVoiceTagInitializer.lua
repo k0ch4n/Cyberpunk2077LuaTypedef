@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityVoiceTagInitializer: communitySpawnInitializer
 ---@field public voiceTagName CName

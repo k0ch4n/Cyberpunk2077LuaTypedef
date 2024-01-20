@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleModel: Enum
 ---@field Aerondight Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questProximityProgressBar_ConditionType: questIUIConditionType
 ---@field public action questProximityProgressBarAction

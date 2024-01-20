@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNetrunnerPrototypeSpawnRequestEvent: redEvent
 ---@field public whatToSpawn CName

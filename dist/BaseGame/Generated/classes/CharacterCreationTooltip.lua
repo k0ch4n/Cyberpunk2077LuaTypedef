@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationTooltip: MessageTooltip
 ---@field protected attribiuteLevel inkTextWidgetReference

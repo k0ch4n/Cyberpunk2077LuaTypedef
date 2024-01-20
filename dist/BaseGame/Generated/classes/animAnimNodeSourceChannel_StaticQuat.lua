@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_StaticQuat: animIAnimNodeSourceChannel_Quat
 ---@field public data Quaternion

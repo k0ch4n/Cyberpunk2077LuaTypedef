@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmStateObserver_SessionChanged: gsmIStateObserver
 gsmStateObserver_SessionChanged = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksMenuProficiencyItemClicked: PerksMenuAttributeItemClicked
 ---@field public index Int32

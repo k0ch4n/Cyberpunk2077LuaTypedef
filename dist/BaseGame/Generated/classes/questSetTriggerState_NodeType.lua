@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTriggerState_NodeType: questITriggerManagerNodeType
 ---@field public params questSetTriggerState_NodeTypeParams[]

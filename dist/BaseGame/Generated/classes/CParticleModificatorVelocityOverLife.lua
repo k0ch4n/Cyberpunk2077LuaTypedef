@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorVelocityOverLife: IParticleModificator
 ---@field public velocity IEvaluatorVector

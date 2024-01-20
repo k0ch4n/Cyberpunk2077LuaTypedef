@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionMoveToDynamicNodeState: gameActionMoveToState
 ---@field public target gameObject

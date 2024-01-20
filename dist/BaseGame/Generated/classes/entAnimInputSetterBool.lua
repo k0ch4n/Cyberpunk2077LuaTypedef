@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterBool: entAnimInputSetter
 ---@field public value Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericMessageNotificationResult: Enum
 ---@field Cancel Enum 0

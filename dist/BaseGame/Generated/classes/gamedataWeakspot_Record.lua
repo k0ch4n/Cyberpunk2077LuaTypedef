@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeakspot_Record: gamedataSpawnableObject_Record
 gamedataWeakspot_Record = {}

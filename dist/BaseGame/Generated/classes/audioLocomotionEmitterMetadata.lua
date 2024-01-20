@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLocomotionEmitterMetadata: audioEmitterMetadata
 ---@field public customMaterialLookup CName

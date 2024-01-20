@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationFeetController: gameuiCharacterCustomizationBodyPartsController
 ---@field public liftedFeetGroupName CName

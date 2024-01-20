@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrMinMaxVector3: attrAttribute
 ---@field public n Vector3

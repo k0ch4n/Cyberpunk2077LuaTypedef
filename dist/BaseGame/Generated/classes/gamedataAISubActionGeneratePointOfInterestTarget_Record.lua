@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionGeneratePointOfInterestTarget_Record: gamedataAISubAction_Record
 gamedataAISubActionGeneratePointOfInterestTarget_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowOverlay_NodeSubType: questITutorial_NodeSubType
 ---@field public overlayLibrary inkWidgetLibraryResource

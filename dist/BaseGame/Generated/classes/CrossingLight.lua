@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrossingLight: TrafficLight
 ---@field protected audioLightIsGreen Bool

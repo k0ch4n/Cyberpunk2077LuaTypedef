@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeftHandCyberwareActionAbstractEvents: LeftHandCyberwareEventsTransition
 ---@field public projectileReleased Bool

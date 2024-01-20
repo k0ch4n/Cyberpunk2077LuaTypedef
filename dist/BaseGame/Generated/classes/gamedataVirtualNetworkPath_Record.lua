@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVirtualNetworkPath_Record: gamedataTweakDBRecord
 gamedataVirtualNetworkPath_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePuppetTriggerDestructionComponent: gameITriggerDestructionComponent
 ---@field public projectionDist Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRoachRaceLevel_Record: gamedataTweakDBRecord
 gamedataRoachRaceLevel_Record = {}

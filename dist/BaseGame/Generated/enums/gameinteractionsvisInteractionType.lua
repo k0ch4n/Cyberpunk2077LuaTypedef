@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisInteractionType: Enum
 ---@field LookAt Enum 0

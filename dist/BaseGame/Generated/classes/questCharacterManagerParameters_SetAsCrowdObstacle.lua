@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetAsCrowdObstacle: questICharacterManagerParameters_NodeSubType
 ---@field public params questSetAsCrowdObstacle_NodeTypeParams[]

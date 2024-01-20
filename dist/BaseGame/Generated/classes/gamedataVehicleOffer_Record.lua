@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleOffer_Record: gamedataPurchaseOffer_Record
 gamedataVehicleOffer_Record = {}

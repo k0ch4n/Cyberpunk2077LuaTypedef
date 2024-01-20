@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorldMarker
 ---@field public type scnWorldMarkerType

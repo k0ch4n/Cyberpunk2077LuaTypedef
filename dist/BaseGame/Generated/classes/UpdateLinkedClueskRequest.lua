@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateLinkedClueskRequest: gameScriptableSystemRequest
 ---@field public linkedCluekData LinkedFocusClueData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAnimationType: Enum
 ---@field REGULAR Enum 0

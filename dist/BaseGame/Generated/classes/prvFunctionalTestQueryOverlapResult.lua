@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class prvFunctionalTestQueryOverlapResult
 ---@field public entityID entEntityID

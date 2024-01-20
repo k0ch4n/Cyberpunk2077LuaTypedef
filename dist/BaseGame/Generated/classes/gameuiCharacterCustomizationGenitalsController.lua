@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationGenitalsController: gameuiCharacterCustomizationBodyPartsController
 ---@field public upperBodyGroupName CName

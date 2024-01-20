@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESoundStatusEffects: Enum
 ---@field NONE Enum 0

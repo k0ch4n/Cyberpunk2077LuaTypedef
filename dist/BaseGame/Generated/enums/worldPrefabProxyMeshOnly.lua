@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPrefabProxyMeshOnly: Enum
 ---@field SettingFromResource Enum 0

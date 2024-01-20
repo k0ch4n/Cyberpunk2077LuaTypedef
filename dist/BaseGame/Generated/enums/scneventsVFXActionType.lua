@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsVFXActionType: Enum
 ---@field Play Enum 0

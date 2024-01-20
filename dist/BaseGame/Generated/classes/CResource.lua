@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CResource: ISerializable
 ---@field public cookingPlatform ECookingPlatform

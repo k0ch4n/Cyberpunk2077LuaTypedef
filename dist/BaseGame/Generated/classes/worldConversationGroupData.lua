@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldConversationGroupData: ISerializable
 ---@field public conversationGroup scnInterestingConversationsResource

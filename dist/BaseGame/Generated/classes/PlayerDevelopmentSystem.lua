@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerDevelopmentSystem: gameScriptableSystem
 ---@field private playerData PlayerDevelopmentData[]

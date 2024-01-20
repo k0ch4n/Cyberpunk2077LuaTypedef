@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnLookAtBodyPartPropertiesAdvanced
 ---@field public bodyPartName CName

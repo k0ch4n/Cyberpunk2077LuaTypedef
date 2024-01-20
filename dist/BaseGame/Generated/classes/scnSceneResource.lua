@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneResource: CResource
 ---@field public entryPoints scnEntryPoint[]

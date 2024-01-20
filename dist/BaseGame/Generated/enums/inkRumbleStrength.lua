@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkRumbleStrength: Enum
 ---@field SuperLight Enum 0

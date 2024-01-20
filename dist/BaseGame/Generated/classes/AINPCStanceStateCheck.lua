@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AINPCStanceStateCheck: AINPCStateCheck
 ---@field public blackboard gameIBlackboard

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVehicleCommonCurve: Enum
 ---@field RPMLimit Enum 0

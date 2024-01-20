@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_Idle: inkMenuScenario
 MenuScenario_Idle = {}

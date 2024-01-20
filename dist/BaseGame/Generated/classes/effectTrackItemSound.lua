@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemSound: effectTrackItem
 ---@field public eventName CName

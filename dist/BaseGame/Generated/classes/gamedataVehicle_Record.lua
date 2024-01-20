@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicle_Record: gamedataSpawnableObject_Record
 gamedataVehicle_Record = {}

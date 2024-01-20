@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FastTravelPrefetchRequest: gameScriptableSystemRequest
 ---@field public destinationRef NodeRef

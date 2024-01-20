@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_PingNetwork: gameEffectExecutor_Scripted
 ---@field private fxResource gameFxResource

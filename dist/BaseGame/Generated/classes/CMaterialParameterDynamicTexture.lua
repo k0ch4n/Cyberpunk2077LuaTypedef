@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterDynamicTexture: CMaterialParameter
 ---@field public texture ITexture

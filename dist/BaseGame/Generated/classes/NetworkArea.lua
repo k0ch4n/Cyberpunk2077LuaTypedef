@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkArea: InteractiveMasterDevice
 ---@field private area gameStaticTriggerAreaComponent

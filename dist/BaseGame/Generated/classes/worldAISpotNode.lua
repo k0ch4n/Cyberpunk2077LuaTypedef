@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAISpotNode: worldSocketNode
 ---@field public spot AISpot

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerStateMachinePrereq: gameIScriptablePrereq
 ---@field private previousState Bool

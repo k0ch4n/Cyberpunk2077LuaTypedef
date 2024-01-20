@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMinigameActionType: Enum
 ---@field AccessPoint Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIMenuNotificationViewData: gameuiGenericNotificationViewData
 ---@field public animContainer inGameMenuAnimContainer

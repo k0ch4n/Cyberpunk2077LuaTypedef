@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCameraFocus_ConditionType: questISystemConditionType
 ---@field public objectRef gameEntityReference

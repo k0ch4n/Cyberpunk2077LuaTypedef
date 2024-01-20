@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionTriggerStim_Record: gamedataAISubAction_Record
 gamedataAISubActionTriggerStim_Record = {}

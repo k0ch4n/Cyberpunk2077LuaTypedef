@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMotionTag: Enum
 ---@field MT_Invalid Enum 0

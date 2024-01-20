@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealRequestEvent: redEvent
 ---@field private shouldReveal Bool

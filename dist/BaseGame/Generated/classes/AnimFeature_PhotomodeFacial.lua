@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PhotomodeFacial: animAnimFeature
 ---@field public facialPoseIndex Int32

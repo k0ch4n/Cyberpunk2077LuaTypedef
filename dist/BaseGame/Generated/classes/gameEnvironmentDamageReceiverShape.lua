@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEnvironmentDamageReceiverShape: ISerializable
 ---@field public transform Transform

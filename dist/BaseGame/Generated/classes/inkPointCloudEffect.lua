@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkPointCloudEffect: inkIEffect
 ---@field public repeat Float

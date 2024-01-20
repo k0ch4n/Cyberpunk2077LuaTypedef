@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeSetSplineMovementTargetDefinition: AICTreeNodeDecoratorDefinition
 ---@field public splineNode LibTreeSharedVarReferenceName

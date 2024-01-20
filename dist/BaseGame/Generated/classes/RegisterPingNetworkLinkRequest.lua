@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterPingNetworkLinkRequest: gameScriptableSystemRequest
 ---@field public linksData SNetworkLinkData[]

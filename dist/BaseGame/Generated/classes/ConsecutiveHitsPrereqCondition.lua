@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConsecutiveHitsPrereqCondition: BaseHitPrereqCondition
 ---@field private timeOut Float

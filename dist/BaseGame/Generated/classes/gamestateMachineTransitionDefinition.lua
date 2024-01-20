@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineTransitionDefinition: graphGraphConnectionDefinition
 ---@field public priority Float

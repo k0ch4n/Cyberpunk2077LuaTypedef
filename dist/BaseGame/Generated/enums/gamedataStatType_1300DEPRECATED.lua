@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatType_1300DEPRECATED: Enum
 ---@field Acceleration Enum 0

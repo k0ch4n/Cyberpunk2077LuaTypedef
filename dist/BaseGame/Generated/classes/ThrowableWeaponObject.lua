@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowableWeaponObject: gameweaponObject
 ---@field protected projectileComponent gameprojectileComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamCloth_Graphical: meshMeshParameter
 ---@field public lodChunkIndices Uint16[][]

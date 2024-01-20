@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICoverDataDef: AIBlackboardDef
 ---@field public exposureMethod gamebbScriptID_CName

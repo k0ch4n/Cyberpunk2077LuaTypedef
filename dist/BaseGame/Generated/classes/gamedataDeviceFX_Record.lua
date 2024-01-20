@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceFX_Record: gamedataTweakDBRecord
 gamedataDeviceFX_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltipData: ATooltipData
 ---@field public itemID gameItemID

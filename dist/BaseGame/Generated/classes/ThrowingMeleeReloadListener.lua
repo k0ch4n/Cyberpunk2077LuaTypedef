@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowingMeleeReloadListener: gameScriptStatPoolsListener
 ---@field private melee MeleeProjectile

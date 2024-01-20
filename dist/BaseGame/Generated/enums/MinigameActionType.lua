@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinigameActionType: Enum
 ---@field Device Enum 0

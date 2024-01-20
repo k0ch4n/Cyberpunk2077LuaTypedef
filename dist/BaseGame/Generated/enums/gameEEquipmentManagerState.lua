@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEEquipmentManagerState: Enum
 ---@field InfiniteAmmo Enum 1

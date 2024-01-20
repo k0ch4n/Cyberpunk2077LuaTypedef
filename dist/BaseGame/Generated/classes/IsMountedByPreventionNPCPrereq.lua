@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsMountedByPreventionNPCPrereq: gameIScriptablePrereq
 ---@field protected isCheckInverted Bool

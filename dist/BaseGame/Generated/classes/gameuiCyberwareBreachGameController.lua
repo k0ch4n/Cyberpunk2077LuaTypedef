@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCyberwareBreachGameController: gameuiWidgetGameController
 ---@field public strokeHealthDepleation inkWidgetReference

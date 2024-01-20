@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorConvertToDynamicWorkspotTaskDefinition: AIbehaviorTaskDefinition
 ---@field public workspotData AIArgumentMapping

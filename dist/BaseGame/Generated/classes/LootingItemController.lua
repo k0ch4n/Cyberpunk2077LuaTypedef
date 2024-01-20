@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootingItemController: inkWidgetLogicController
 ---@field private itemNameText inkTextWidget

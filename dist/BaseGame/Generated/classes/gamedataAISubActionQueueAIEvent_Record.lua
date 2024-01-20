@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionQueueAIEvent_Record: gamedataAISubAction_Record
 gamedataAISubActionQueueAIEvent_Record = {}

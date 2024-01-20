@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SuppressNPCInSecuritySystem: redEvent
 ---@field public suppressIncomingEvents Bool

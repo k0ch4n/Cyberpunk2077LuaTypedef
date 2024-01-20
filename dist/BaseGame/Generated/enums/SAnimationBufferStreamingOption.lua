@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAnimationBufferStreamingOption: Enum
 ---@field ABSO_NonStreamable Enum 0

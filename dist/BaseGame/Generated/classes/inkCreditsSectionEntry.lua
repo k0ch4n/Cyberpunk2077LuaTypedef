@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCreditsSectionEntry
 ---@field public sectionTitle String

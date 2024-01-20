@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StartedUsingHealingItemOrCyberwarePrereqState: gamePrereqState
 ---@field public listenerInfo redCallbackObject

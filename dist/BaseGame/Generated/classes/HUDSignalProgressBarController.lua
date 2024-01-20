@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDSignalProgressBarController: gameuiHUDGameController
 ---@field private bar inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SlotMachineSlot: inkWidgetLogicController
 ---@field private winningRowIndex Int32

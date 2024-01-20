@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_QuaternionInput: animAnimNode_QuaternionValue
 ---@field public group CName

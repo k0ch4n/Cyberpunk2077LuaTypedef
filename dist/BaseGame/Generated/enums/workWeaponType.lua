@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWeaponType: Enum
 ---@field Any Enum 0

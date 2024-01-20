@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LevelUpUserData: inkGameNotificationData
 ---@field public data questLevelUpData

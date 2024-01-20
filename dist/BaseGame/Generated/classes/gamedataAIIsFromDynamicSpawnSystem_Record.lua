@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsFromDynamicSpawnSystem_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsFromDynamicSpawnSystem_Record = {}

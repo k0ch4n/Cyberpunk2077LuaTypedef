@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition: AIbehaviorTaskDefinition
 ---@field public mountData AIArgumentMapping

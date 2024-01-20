@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionMoveToSmartObjectState: gameActionMoveToState
 ---@field public targetHash Uint64

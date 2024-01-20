@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformAttachEntity: redEvent
 ---@field public entity entEntity

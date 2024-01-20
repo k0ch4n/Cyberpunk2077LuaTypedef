@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISetCombatPresetCommandParams: questScriptedAICommandParams
 ---@field public combatPreset EAICombatPreset

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorFloatCurve: IEvaluatorFloat
 ---@field public curves curveData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterSpawnerCondition: Enum
 ---@field ScreenLeft Enum 0

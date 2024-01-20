@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsCameraShakeEvent: redEvent
 ---@field public shakeStrength Float

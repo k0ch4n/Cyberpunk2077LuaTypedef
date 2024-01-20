@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionActivateLightPreset_Record_Implementation: IScriptable
 AISubActionActivateLightPreset_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsPatrolProgressValid: AIbehaviorconditionScript
 ---@field public patrolProgress AIArgumentMapping

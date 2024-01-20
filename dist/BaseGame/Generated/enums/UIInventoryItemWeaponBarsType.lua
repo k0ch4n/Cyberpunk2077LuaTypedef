@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemWeaponBarsType: Enum
 ---@field Ranged Enum 0

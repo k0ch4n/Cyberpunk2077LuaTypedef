@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TEMP_ScanningEvent: redEvent
 ---@field public clue CName

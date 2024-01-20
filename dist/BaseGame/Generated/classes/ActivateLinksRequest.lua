@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivateLinksRequest: gameScriptableSystemRequest
 ---@field public linksIDs Int32[]

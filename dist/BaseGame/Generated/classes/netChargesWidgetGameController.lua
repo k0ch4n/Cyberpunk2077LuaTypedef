@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class netChargesWidgetGameController: gameuiHUDGameController
 ---@field private bbPlayerStats gameIBlackboard

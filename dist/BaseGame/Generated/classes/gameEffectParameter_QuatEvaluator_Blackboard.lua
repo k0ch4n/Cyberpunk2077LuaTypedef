@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_QuatEvaluator_Blackboard: gameIEffectParameter_QuatEvaluator
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnSquadmateDied: redEvent
 ---@field public squad CName

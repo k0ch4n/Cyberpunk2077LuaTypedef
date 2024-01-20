@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltiData_CyberwareUpgradeData: IScriptable
 ---@field public upgradeQuality gamedataQuality

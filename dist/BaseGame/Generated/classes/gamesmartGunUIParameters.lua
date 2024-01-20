@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamesmartGunUIParameters: IScriptable
 ---@field public targets gamesmartGunUITargetParameters[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TooltipSpawnedCallbackData: IScriptable
 ---@field public index Int32

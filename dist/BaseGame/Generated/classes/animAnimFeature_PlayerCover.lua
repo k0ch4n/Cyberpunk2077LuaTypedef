@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_PlayerCover: animAnimFeature
 ---@field public cameraPositionMS Vector4

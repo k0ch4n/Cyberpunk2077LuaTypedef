@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_NarrativePlateDef: gamebbScriptDefinition
 ---@field public PlateData gamebbScriptID_Variant

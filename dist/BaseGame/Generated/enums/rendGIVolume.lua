@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendGIVolume: Enum
 ---@field GI_Exterior Enum 0

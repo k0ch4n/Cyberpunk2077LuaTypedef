@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshQhWithTagInAreaEffector: gameEffector
 ---@field public tags CName[]

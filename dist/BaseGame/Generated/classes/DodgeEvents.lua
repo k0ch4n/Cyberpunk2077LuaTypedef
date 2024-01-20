@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DodgeEvents: LocomotionGroundEvents
 ---@field public blockStatFlag gameStatModifierData_Deprecated

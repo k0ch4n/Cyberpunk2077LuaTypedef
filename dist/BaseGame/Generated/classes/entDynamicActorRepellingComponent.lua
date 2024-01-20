@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDynamicActorRepellingComponent: entIPlacedComponent
 ---@field public type entRepellingType

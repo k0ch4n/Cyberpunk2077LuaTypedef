@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCHitReactionComponentStatsListener: gameScriptStatsListener
 ---@field public npc NPCPuppet

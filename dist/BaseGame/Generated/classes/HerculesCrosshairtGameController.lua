@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HerculesCrosshairtGameController: IronsightGameController
 ---@field protected appearanceFill Int32

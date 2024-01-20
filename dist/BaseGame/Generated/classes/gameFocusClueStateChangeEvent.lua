@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFocusClueStateChangeEvent: redEvent
 ---@field public clueIndex Int32

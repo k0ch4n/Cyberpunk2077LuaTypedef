@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnInterestingConversationsGroup: ISerializable
 ---@field public condition questIBaseCondition

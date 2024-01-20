@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowPopup_NodeSubType: questITutorial_NodeSubType
 ---@field public path gameJournalPath

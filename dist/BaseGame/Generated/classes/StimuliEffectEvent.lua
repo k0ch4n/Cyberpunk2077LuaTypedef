@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StimuliEffectEvent: redEvent
 ---@field public stimuliEventName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNpcPuppetReplicatedState: gamePuppetReplicatedState
 ---@field public weaponStates gameWeaponsReplicatedState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePhotoModeBackgroundViewComponent: entIComponent
 ---@field public backgroundPrefabRef NodeRef

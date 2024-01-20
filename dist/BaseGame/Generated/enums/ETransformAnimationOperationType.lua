@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETransformAnimationOperationType: Enum
 ---@field PLAY Enum 0

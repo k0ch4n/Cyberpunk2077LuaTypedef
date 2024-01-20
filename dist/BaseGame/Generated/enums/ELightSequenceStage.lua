@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightSequenceStage: Enum
 ---@field NONE Enum 0

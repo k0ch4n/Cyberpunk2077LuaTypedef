@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entCorpseParameter: entEntityParameter
 ---@field public lod Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BroadcastEvent: redEvent
 ---@field public broadcastType EBroadcasteingType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWindowDrawMetrics
 ---@field public allTextures Vector2[]

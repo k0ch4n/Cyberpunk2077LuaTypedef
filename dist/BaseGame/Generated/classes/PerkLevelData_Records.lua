@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkLevelData_Records: BasePerkLevelData_Records
 ---@field private arr gamedataPerkLevelData_Record[]

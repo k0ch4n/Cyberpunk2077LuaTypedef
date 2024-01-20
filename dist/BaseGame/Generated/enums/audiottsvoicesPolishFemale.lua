@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audiottsvoicesPolishFemale: Enum
 ---@field Iwona Enum 16

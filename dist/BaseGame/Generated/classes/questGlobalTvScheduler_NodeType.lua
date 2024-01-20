@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGlobalTvScheduler_NodeType: questIUIManagerNodeType
 ---@field public channelId TweakDBID

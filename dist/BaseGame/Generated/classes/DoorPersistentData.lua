@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorPersistentData
 ---@field public doorType EDoorType

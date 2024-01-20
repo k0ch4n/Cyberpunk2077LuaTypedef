@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BoolConstant: animAnimNode_BoolValue
 ---@field public value Bool

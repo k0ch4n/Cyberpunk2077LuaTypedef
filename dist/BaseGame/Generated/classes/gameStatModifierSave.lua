@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatModifierSave
 ---@field public statModifierUnions gameStatModifierData_Deprecated[]

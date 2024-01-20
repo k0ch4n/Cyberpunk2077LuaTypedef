@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerVehicleProdYears: ScannerChunk
 ---@field private vehicleProdYears String

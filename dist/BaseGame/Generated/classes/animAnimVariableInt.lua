@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimVariableInt: animAnimVariable
 ---@field public value Int32

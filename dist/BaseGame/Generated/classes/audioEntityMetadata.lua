@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEntityMetadata: audioAudioMetadata
 ---@field public fallbackDecorators CName[]

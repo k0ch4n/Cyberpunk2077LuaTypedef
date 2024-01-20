@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_OnlyNearest_BB: gameEffectObjectFilter_OnlyNearest
 ---@field public parameter gameEffectInputParameter_Int

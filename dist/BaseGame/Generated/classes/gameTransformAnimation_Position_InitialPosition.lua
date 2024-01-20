@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Position_InitialPosition: gameTransformAnimation_Position
 ---@field public offset Vector3

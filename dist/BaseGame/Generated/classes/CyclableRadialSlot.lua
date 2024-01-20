@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyclableRadialSlot: WeaponRadialSlot
 ---@field public leftArrowEmpty inkWidgetReference

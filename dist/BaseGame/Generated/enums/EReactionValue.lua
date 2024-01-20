@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EReactionValue: Enum
 ---@field Fear Enum 0

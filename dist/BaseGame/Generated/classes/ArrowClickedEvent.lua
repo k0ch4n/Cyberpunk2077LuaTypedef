@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArrowClickedEvent: redEvent
 ---@field public direction Direction

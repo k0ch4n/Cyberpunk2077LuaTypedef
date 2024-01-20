@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SocialPanelContactsListItem: inkToggleController
 ---@field private Label inkTextWidgetReference

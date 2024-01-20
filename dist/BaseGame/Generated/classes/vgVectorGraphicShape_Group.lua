@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicShape_Group: vgBaseVectorGraphicShape
 ---@field public childShapes vgBaseVectorGraphicShape[]

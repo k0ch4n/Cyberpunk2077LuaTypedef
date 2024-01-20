@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalQuestMapPinLink: gameJournalEntry
 ---@field public path gameJournalPath

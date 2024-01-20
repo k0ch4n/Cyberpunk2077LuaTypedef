@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUIFilterGroup_Record: gamedataTweakDBRecord
 gamedataMappinUIFilterGroup_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIParameterizationType: Enum
 ---@field BehaviorArgument Enum 0

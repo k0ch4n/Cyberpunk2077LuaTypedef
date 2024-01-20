@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterMount_ConditionType: questICharacterConditionType
 ---@field public anyParent Bool

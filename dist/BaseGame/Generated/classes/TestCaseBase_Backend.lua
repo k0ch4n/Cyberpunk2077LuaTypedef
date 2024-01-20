@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestCaseBase_Backend: IScriptable
 TestCaseBase_Backend = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLocomotion_Style: Enum
 ---@field LS_Idle Enum 0

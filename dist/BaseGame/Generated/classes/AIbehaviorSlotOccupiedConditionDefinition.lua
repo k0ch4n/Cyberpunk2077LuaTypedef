@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSlotOccupiedConditionDefinition: AIbehaviorConditionDefinition
 ---@field public slot AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsPointOfInterestMappinData: gamemappinsIMappinData
 ---@field public typedVariant gamemappinsIPointOfInterestVariant

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTutorialBracketShowEvent: redEvent
 ---@field public data gameTutorialBracketData

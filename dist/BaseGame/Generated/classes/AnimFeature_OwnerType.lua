@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_OwnerType: animAnimFeature
 ---@field public ownerEnum Int32

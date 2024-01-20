@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleRemoteControlDrivingUIData
 ---@field public remoteControlledVehicle vehicleBaseObject

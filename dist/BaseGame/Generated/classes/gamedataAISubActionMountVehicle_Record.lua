@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionMountVehicle_Record: gamedataAISubAction_Record
 gamedataAISubActionMountVehicle_Record = {}

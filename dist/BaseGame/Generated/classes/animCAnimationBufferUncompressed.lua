@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCAnimationBufferUncompressed: animIAnimationBuffer
 ---@field public transforms QsTransform[][]

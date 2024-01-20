@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraTagEnemyLimitDataModule: GameSessionDataModule
 ---@field public cameraLimit Int32

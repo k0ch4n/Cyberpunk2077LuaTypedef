@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrIcon: attrAttribute
 ---@field public onName String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNavigationRequestStatus: Enum
 ---@field OK Enum 0

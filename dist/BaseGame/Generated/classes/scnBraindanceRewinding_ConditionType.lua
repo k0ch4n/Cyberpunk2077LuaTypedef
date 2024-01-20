@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindanceRewinding_ConditionType: scnIBraindanceConditionType
 ---@field public speed scnBraindanceSpeed

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmMainQuest: ISerializable
 ---@field public questFile questQuestResource

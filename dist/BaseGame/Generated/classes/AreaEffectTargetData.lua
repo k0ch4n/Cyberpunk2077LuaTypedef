@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AreaEffectTargetData: IScriptable
 ---@field public areaEffectID CName

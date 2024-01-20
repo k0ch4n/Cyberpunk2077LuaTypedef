@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CarriedObjectEvents: CarriedObjectTransition
 ---@field public animFeature AnimFeature_Mounting

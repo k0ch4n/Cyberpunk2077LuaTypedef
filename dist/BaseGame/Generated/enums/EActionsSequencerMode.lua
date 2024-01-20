@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EActionsSequencerMode: Enum
 ---@field REGULAR_INTERVALS Enum 0

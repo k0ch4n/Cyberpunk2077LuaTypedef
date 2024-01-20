@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleOfferLogicController: BaseButtonView
 ---@field private vehicleImage inkImageWidgetReference

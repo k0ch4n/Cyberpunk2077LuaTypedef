@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLocalizationStringMapEntry
 ---@field public key CName

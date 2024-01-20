@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsTimedAction: Enum
 ---@field appear Enum 0

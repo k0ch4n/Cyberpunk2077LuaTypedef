@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneGraphNode: ISerializable
 ---@field public nodeId scnNodeId

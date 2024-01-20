@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerAttackEffectorWithDelay: redEvent
 ---@field public attack gameAttack_GameEffect

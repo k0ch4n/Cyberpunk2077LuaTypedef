@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_LocalizationSystem: gameScriptableSystem
 ---@field public interfaceLanguage CName

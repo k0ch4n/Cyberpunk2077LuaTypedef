@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entPhysicalImpulseAreaComponent: entPhysicalTriggerComponent
 ---@field public impulse Vector3

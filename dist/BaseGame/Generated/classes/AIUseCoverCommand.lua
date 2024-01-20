@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIUseCoverCommand: AICombatRelatedCommand
 ---@field public coverNodeRef NodeRef

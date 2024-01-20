@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsChoiceCaptionBluelinePart: gameinteractionsChoiceCaptionPart
 ---@field public blueline gameinteractionsvisBluelineDescription

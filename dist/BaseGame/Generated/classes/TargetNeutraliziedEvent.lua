@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetNeutraliziedEvent: redEvent
 ---@field public type ENeutralizeType

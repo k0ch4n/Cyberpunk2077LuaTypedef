@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entGarmentParameter: entEntityParameter
 ---@field public componentsData entGarmentParameterComponentData[]

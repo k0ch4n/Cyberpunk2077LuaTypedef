@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDocumentType: Enum
 ---@field FILE Enum 0

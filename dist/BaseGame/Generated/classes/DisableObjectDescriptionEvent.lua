@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisableObjectDescriptionEvent: redEvent
 ---@field public isDisabled Bool

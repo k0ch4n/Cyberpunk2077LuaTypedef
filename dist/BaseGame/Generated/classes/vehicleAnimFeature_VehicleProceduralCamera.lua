@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAnimFeature_VehicleProceduralCamera: animAnimFeature
 ---@field public cameraTranslationVS Vector4

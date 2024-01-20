@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SStatPoolValue
 ---@field public type gamedataStatPoolType

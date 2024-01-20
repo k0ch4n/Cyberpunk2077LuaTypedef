@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCPredicateDefinition
 ---@field public predicateType gameinteractionsIPredicateType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDebuggerColor: Enum
 ---@field RED Enum 0

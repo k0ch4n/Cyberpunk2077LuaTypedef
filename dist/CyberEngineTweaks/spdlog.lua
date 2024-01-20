@@ -1,5 +1,4 @@
----@meta spdlog
----@diagnostic disable
+---@meta
 
 ---
 ---[View documents](https://wiki.redmodding.org/cyber-engine-tweaks/cet-functions/misc/debug-functions#spdlog)

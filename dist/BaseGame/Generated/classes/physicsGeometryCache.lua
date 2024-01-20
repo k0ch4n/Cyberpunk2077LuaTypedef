@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsGeometryCache: CResource
 ---@field public bufferTableSectors serializationDeferredDataBuffer[]

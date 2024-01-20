@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetCustomObjectDescriptionEvent: redEvent
 ---@field private objectDescription ObjectScanningDescription

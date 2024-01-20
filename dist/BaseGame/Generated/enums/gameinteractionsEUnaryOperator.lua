@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsEUnaryOperator: Enum
 ---@field EUnaryOperator_empty Enum 0

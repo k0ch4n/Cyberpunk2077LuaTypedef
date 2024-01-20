@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESwitchAction: Enum
 ---@field ToggleOn Enum 0

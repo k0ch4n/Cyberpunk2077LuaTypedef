@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAreaData
 ---@field public securityArea SecurityAreaControllerPS

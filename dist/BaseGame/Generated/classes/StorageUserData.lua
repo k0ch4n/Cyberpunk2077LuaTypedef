@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StorageUserData: IScriptable
 ---@field public storageObject gameObject

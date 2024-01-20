@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponRadialSlot: RadialSlot
 ---@field private equipmentArea gamedataEquipmentArea

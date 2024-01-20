@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class visOccluderMeshResource: visIOccluderResource
 ---@field public resourceVersion Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entTriggerNotifier_EntityInstance: worldITriggerAreaNotiferInstance
 entTriggerNotifier_EntityInstance = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidResource: CResource
 ---@field public actors scnActorRid[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceHackCategory: Enum
 ---@field ControlHack Enum 0

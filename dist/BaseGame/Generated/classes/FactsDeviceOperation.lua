@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactsDeviceOperation: DeviceOperationBase
 ---@field public facts SFactOperationData[]

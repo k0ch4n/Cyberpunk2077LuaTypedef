@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerTeleportPuppetNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public params questMultiplayerTeleportPuppetParams

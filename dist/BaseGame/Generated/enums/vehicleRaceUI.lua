@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleRaceUI: Enum
 ---@field PreRaceSetup Enum 0

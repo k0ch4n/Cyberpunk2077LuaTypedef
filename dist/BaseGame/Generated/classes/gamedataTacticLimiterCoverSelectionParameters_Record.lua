@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTacticLimiterCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataTacticLimiterCoverSelectionParameters_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputDeviceController: gameScriptableComponent
 ---@field private isStarted Bool

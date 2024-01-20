@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_GraphSlot: animAnimNode_Base
 ---@field public name CName

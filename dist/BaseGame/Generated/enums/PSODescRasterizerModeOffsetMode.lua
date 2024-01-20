@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescRasterizerModeOffsetMode: Enum
 ---@field OFFSET_None Enum 0

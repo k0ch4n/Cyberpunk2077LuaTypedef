@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWeaponRosterInfo
 ---@field public ammoCurrent Int32

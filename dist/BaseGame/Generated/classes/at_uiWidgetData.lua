@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class at_uiWidgetData
 ---@field public widgetATID String

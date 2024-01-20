@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BuyPerk: gamePlayerScriptableSystemRequest
 ---@field public perkType gamedataPerkType

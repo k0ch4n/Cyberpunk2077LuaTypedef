@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIRoleCondition: AIbehaviorconditionScript
 ---@field public role EAIRole

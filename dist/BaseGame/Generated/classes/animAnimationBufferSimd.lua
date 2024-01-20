@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimationBufferSimd: animIAnimationBuffer
 ---@field public duration Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleFlatTireSimulation_Record: gamedataTweakDBRecord
 gamedataVehicleFlatTireSimulation_Record = {}

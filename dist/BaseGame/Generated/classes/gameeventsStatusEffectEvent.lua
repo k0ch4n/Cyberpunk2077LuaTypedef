@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsStatusEffectEvent: redEvent
 ---@field public staticData gamedataStatusEffect_Record

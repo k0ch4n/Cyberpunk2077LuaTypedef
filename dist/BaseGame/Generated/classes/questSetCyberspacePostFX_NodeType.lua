@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetCyberspacePostFX_NodeType: questIRenderFxManagerNodeType
 ---@field public enabled Bool

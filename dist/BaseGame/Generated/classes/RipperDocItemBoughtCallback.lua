@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperDocItemBoughtCallback: gameInventoryScriptCallback
 ---@field private eventTarget RipperDocGameController

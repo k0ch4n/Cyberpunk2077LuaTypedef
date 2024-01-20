@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_SimulationSpring: animDangleConstraint_SimulationSingleBone
 ---@field public constraintSphereRadius Float

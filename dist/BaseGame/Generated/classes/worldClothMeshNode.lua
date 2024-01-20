@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldClothMeshNode: worldMeshNode
 ---@field public affectedByWind Bool

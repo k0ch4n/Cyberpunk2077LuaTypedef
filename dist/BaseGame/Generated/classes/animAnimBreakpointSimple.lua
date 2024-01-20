@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimBreakpointSimple: animIAnimBreakpoint
 ---@field public hitCount Uint32

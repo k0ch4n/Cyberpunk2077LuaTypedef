@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SharpeningAreaSettings: IAreaSettings
 ---@field public sharpeningStrength Float

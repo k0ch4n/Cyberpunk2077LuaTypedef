@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBlockoutEdge
 ---@field public points Uint32[]

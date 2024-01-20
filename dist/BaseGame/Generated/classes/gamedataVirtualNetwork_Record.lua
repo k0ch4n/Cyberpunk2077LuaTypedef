@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVirtualNetwork_Record: gamedataTweakDBRecord
 gamedataVirtualNetwork_Record = {}

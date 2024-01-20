@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPoseInfoLoggerEntry_Transform: animPoseInfoLoggerEntry
 ---@field public transform animTransformIndex

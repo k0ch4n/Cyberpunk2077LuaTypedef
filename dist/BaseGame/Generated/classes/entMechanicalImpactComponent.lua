@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entMechanicalImpactComponent: entIComponent
 ---@field private c_impulseMagThreshold Float

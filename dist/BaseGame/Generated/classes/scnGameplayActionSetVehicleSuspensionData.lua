@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnGameplayActionSetVehicleSuspensionData: scnIGameplayActionData
 ---@field public active Bool

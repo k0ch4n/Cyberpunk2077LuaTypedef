@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FanControllerPS: BasicDistractionDeviceControllerPS
 ---@field private fanSetup FanSetup

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentSystemPlayerData: IScriptable
 ---@field public owner ScriptedPuppet

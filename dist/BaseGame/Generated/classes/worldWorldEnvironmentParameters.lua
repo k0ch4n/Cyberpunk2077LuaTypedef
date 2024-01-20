@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldWorldEnvironmentParameters
 ---@field public globalLightingTrajectory GlobalLightingTrajectory

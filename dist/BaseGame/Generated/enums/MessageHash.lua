@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageHash: Enum
 ---@field Invalid Enum 0

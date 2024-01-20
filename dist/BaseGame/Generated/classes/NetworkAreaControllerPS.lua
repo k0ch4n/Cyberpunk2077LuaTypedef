@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkAreaControllerPS: MasterControllerPS
 ---@field private isActive Bool

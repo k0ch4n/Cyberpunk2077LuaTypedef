@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIsquadsOrder
 ---@field public squadAction CName

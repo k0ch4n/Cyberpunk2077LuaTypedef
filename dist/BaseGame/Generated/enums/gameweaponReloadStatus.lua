@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponReloadStatus: Enum
 ---@field Standard Enum 0

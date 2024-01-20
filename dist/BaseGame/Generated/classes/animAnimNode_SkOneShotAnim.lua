@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkOneShotAnim: animAnimNode_SkAnim
 ---@field public Input animPoseLink

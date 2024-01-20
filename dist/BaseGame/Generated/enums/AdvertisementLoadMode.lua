@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdvertisementLoadMode: Enum
 ---@field TweakDB Enum 0

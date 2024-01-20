@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITrafficExternalWorkspotDefinition: worldTrafficSpotDefinition
 ---@field public nearestPointEntry Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPanzerBonus: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 ---@field public fallingSpeed Float

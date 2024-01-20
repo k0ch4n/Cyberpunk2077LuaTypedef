@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderProxyType: Enum
 ---@field RPT_None Enum 0

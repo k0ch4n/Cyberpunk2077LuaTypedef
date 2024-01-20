@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetPhaseState: AIActionHelperTask
 ---@field public phaseStateValue ENPCPhaseState

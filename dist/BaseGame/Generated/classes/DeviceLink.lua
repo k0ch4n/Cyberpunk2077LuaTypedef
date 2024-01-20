@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceLink
 ---@field private PSID gamePersistentID

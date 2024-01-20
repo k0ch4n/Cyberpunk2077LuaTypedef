@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataConsumableChargesPrereq_Record: gamedataStatPoolPrereq_Record
 gamedataConsumableChargesPrereq_Record = {}

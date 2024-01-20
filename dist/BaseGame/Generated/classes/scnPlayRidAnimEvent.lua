@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlayRidAnimEvent: scnPlayFPPControlAnimEvent
 ---@field public ridVersinon Uint32

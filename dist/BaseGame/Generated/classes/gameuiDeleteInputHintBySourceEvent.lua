@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDeleteInputHintBySourceEvent: redEvent
 ---@field public source CName

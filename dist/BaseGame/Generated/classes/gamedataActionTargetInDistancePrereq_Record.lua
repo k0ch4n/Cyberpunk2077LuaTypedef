@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataActionTargetInDistancePrereq_Record: gamedataIPrereq_Record
 gamedataActionTargetInDistancePrereq_Record = {}

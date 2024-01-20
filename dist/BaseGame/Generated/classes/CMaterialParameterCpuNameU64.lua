@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterCpuNameU64: CMaterialParameter
 ---@field public name CName

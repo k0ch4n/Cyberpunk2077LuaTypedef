@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SToggleDeviceOperationData
 ---@field public operationName CName

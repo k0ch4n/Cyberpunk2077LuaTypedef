@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDocumentAdress
 ---@field public folderID Int32

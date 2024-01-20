@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeDebugState: ISerializable
 ---@field public nodeId Uint32

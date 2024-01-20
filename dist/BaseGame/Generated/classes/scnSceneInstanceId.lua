@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneInstanceId
 ---@field public sceneId scnSceneId

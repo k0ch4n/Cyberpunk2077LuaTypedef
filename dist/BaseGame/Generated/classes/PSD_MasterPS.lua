@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSD_MasterPS: gameDeviceComponentPS
 PSD_MasterPS = {}

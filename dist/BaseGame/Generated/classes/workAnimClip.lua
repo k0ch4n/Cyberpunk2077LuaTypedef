@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workAnimClip: workIEntry
 ---@field public animName CName

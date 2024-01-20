@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PUPPET_ACtor: gameHudActor
 PUPPET_ACtor = {}

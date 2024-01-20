@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAssignRoleCommand: AICommand
 ---@field public role AIRole

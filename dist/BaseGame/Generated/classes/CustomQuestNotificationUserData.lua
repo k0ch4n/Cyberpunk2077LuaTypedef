@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomQuestNotificationUserData: inkGameNotificationData
 ---@field public data questCustomQuestNotificationData

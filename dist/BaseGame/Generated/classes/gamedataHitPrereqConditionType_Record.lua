@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHitPrereqConditionType_Record: gamedataTweakDBRecord
 gamedataHitPrereqConditionType_Record = {}

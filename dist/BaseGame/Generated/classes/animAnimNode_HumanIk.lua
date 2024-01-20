@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_HumanIk: animAnimNode_OnePoseInput
 ---@field public ikTargetsControllers animTEMP_IKTargetsControllerBodyType[]

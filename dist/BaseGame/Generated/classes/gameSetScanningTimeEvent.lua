@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetScanningTimeEvent: redEvent
 ---@field public time Float

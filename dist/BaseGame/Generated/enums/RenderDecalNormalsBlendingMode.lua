@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RenderDecalNormalsBlendingMode: Enum
 ---@field AlphaBlending Enum 0

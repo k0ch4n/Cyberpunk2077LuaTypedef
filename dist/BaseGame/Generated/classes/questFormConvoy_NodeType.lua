@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFormConvoy_NodeType: questIVehicleManagerNodeType
 ---@field public leaderRef gameEntityReference

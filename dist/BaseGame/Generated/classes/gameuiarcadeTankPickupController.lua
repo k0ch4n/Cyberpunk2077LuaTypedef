@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankPickupController: gameuiarcadeArcadeObjectController
 ---@field public pickup inkWidgetReference

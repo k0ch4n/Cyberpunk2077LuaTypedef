@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponScopeData: animAnimFeature
 ---@field public ironsightAngleWithScope Float

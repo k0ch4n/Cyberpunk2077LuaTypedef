@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionDieState: gameActionReplicatedState
 ---@field public owner gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinotaurOnStatusEffectAppliedListener: gameScriptStatusEffectListener
 ---@field public owner NPCPuppet

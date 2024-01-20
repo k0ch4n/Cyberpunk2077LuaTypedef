@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionDisableAimAssist_Record_Implementation: IScriptable
 AISubActionDisableAimAssist_Record_Implementation = {}

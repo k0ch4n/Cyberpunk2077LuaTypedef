@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_IntFeature: animIAnimStateTransitionCondition
 ---@field public compareValue Int32

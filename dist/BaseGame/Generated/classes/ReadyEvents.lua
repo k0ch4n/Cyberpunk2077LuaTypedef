@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReadyEvents: WeaponEventsTransition
 ---@field public timeStamp Float

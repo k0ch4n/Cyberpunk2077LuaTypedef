@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTimer_NodeType: questIGameManagerNodeType
 ---@field public enable Bool

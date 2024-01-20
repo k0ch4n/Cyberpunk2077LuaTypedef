@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeCurveEvent: redEvent
 ---@field public time Float

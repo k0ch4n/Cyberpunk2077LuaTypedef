@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveDeviceControllerPS: BasicDistractionDeviceControllerPS
 ---@field protected explosiveSkillChecks EngDemoContainer

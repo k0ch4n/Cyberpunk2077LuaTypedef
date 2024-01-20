@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSynchronizeAttachmentSlotRequest: gamePlayerScriptableSystemRequest
 ---@field public slotID TweakDBID

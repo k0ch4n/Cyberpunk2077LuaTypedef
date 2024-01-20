@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryItemAbility
 ---@field public IconPath CName

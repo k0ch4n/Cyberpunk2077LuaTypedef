@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SComputerMenuButtonWidgetPackage: SWidgetPackage
 ---@field public counter Int32

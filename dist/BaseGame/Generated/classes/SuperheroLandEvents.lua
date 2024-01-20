@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SuperheroLandEvents: AbstractLandEvents
 ---@field public spawnedLandingAttack Bool

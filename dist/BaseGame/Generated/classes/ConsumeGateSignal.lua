@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConsumeGateSignal: GateSignal
 ---@field public consumeCallName CName

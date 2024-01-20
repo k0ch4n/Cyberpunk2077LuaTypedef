@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_CombatGadget: animAnimFeature
 ---@field public isQuickthrow Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ParticleDamage: ISerializable
 ---@field public boundingBoxes Box[]

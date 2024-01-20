@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeStrongAttackEvents: MeleeAttackGenericEvents
 ---@field public slowMoSet Bool

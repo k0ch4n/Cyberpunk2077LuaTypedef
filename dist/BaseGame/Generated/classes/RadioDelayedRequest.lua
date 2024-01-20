@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioDelayedRequest: gameScriptableSystemRequest
 ---@field public data PlayRadioArgs

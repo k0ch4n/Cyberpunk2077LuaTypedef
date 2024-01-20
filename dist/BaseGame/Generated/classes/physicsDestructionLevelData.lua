@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsDestructionLevelData
 ---@field public filterData physicsFilterData

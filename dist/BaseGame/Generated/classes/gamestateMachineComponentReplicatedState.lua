@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineComponentReplicatedState: netIComponentState
 ---@field public stateContext gamestateMachineStateContext

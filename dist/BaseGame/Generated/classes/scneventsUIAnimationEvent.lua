@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsUIAnimationEvent: scnSceneEvent
 ---@field public animationName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddOrRemoveListenerEvent: redEvent
 ---@field public listener PuppetListener

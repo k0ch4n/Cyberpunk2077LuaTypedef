@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animOverrideBlendTrackInfo
 ---@field public track animNamedTrackIndex

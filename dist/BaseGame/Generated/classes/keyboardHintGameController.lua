@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class keyboardHintGameController: gameuiHUDGameController
 ---@field private TopElementName CName

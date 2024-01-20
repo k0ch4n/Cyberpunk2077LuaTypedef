@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AmmoStateChangeEvent: redEvent
 ---@field public weaponOwner gameObject

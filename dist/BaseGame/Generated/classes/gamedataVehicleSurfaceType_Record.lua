@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleSurfaceType_Record: gamedataTweakDBRecord
 gamedataVehicleSurfaceType_Record = {}

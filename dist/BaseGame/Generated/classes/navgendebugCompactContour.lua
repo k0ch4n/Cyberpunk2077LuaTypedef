@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugCompactContour
 ---@field public rawVertices Int32[]

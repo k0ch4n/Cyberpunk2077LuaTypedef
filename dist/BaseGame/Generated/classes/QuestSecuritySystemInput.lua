@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestSecuritySystemInput: redEvent
 ---@field public notificationScope SecurityEventScopeSettings

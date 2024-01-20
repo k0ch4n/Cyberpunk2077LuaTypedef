@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseTracingFreq: Enum
 ---@field Never Enum 0

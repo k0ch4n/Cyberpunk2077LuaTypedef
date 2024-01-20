@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerContinuousAttackEffector: gameContinuousEffector
 ---@field public owner gameObject

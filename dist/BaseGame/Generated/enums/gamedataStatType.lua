@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatType: Enum
 ---@field ADSSpeedPercentBonus Enum 0

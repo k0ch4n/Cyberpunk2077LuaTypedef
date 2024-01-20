@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ContactSelectionChangedEvent: redEvent
 ---@field public ContactData ContactData

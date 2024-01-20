@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hubSelectorSingleCarouselController: inkSelectorController
 ---@field protected NUMBER_OF_WIDGETS Int32

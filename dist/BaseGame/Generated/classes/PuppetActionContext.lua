@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetActionContext
 ---@field public requesterID entEntityID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CPOMissionDataTransferred: redEvent
 ---@field public dataDownloaded Bool

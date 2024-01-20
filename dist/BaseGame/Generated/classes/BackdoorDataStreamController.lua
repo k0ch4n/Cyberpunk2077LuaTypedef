@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackdoorDataStreamController: BackdoorInkGameController
 ---@field private idleGroup inkWidgetReference

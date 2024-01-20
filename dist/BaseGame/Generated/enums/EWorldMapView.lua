@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EWorldMapView: Enum
 ---@field Map Enum 0

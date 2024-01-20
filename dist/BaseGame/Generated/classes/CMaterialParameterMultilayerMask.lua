@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterMultilayerMask: CMaterialParameter
 ---@field public mask Multilayer_Mask

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRecordingNodeDefinition: questDisableableNodeDefinition
 ---@field public type questIRecordingNodeType

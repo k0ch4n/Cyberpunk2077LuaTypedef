@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TweakAIActionCondition: TweakAIActionConditionAbstract
 ---@field public record TweakDBID

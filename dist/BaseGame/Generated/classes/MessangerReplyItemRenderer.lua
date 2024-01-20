@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessangerReplyItemRenderer: JournalEntryListItemController
 ---@field private selectedState Bool

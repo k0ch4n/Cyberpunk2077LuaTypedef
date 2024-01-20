@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMappinGPSDistance: questIDistance
 ---@field public mappinPath gameJournalPath

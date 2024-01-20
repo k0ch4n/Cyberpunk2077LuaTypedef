@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayTooltipController: AGenericTooltipControllerWithDebug
 ---@field private root inkWidgetReference

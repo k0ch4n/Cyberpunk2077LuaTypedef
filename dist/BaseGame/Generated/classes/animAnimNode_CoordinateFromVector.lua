@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_CoordinateFromVector: animAnimNode_FloatValue
 ---@field public vectorCoodrinateType animVectorCoordinateType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberdeckTooltip: AGenericTooltipController
 ---@field protected itemNameText inkTextWidgetReference

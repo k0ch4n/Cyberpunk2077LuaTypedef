@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUICondition: questTypedCondition
 ---@field public type questIUIConditionType

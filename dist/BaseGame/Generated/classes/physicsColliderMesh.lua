@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsColliderMesh: physicsICollider
 ---@field public faceMaterials CName[]

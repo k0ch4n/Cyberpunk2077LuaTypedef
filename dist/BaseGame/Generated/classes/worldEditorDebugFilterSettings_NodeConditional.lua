@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEditorDebugFilterSettings_NodeConditional: worldEditorDebugFilterSettings
 ---@field public isDiscarded Bool

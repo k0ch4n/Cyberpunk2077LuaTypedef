@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsNpcMountedInSlotPrereqState: gamePrereqState
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper

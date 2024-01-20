@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_StatsAdjustment: MenuScenario_PreGameSubMenu
 MenuScenario_StatsAdjustment = {}

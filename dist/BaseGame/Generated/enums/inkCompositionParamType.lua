@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCompositionParamType: Enum
 ---@field FLOAT Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnEntityAcquisitionPlan: Enum
 ---@field findInContext Enum 1

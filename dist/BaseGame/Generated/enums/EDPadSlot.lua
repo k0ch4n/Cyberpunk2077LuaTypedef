@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDPadSlot: Enum
 ---@field Left Enum 0

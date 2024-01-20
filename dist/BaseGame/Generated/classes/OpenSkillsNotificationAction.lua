@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenSkillsNotificationAction: GenericNotificationBaseAction
 ---@field public eventDispatcher worlduiIWidgetGameController

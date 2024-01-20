@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartTimetableSetup
 ---@field public departFrequency Int32

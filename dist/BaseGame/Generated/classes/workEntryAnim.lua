@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workEntryAnim: workIEntry
 ---@field public animName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntityTemplateDefaultAppearancePreset: ISerializable
 ---@field public defaultAppearancePresets gameDefaultAppearancePreset_Entity[]

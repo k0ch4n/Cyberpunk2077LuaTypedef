@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MipMapGenParams
 ---@field public applyToksvig_ShouldInvChannel Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetLocationName_NodeType: questIUIManagerNodeType
 ---@field public locationName String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkImageWidget: inkLeafWidget
 ---@field public useExternalDynamicTexture Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleHijackEvent: redEvent
 ---@field public driverAllowedToGetAggressive Bool

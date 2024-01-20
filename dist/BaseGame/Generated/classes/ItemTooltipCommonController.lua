@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipCommonController: AGenericTooltipControllerWithDebug
 ---@field protected backgroundContainer inkWidgetReference

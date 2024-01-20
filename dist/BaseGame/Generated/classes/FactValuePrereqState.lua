@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactValuePrereqState: gamePrereqState
 ---@field public listenerID Uint32

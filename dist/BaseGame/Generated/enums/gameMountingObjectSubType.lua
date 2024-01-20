@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMountingObjectSubType: Enum
 ---@field Invalid Enum -1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Replicated_Unique_Pointer_Property
 Sample_Replicated_Unique_Pointer_Property = {}

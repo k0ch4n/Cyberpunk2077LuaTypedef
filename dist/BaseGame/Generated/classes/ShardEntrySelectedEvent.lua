@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardEntrySelectedEvent: redEvent
 ---@field public hash Uint32

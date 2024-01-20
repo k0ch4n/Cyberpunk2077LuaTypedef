@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeControllerActiveFlags
 ---@field public kerenzikov Bool

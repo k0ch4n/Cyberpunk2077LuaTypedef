@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiShowCustomTooltipEvent: redEvent
 ---@field public text String

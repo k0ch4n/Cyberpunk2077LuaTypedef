@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TurnONTurretAfterDuration: redEvent
 ---@field public duration Int32

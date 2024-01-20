@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkPhaseWithDurationAnim: animAnimNode_SkPhaseAnim
 ---@field public durationLink animFloatLink

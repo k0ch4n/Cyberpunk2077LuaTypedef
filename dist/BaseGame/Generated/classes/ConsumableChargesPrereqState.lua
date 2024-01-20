@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConsumableChargesPrereqState: gamePrereqState
 ---@field public owner PlayerPuppet

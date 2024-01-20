@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InGameConfigChangeReason: Enum
 ---@field Invalid Enum -1

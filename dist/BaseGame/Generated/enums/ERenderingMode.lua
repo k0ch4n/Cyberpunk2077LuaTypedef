@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderingMode: Enum
 ---@field RM_HitProxies Enum 2

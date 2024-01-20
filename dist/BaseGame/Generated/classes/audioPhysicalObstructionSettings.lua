@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPhysicalObstructionSettings: audioAudioMetadata
 ---@field public initialAbsorbtion Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MapMenuUserData: IScriptable
 ---@field public moveTo Vector3

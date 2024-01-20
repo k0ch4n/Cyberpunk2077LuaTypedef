@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnScalingData_KeepRelationWithOtherEvents: scnIScalingData
 ---@field public groupRfrncNdspaceStarttime scnSceneTime

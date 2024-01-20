@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemObjectLookedAtEvent: redEvent
 ---@field public ownerID entEntityID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnDialogLineDuplicationParams
 ---@field public executionTag Uint8

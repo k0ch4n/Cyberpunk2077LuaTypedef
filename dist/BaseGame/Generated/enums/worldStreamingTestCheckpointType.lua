@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingTestCheckpointType: Enum
 ---@field BeginMove Enum 0

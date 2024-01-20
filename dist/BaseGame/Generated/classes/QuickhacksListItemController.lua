@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickhacksListItemController: inkListItemController
 ---@field private expandAnimationDuration Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshCrosshairEvent: redEvent
 ---@field public force Bool

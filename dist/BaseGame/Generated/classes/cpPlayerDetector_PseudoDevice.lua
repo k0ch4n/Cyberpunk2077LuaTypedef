@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpPlayerDetector_PseudoDevice: gameObject
 ---@field public playerDetector NodeRef

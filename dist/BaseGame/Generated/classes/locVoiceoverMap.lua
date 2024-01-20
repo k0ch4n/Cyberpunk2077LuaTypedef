@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoiceoverMap: ISerializable
 ---@field public entries locVoLineEntry[]

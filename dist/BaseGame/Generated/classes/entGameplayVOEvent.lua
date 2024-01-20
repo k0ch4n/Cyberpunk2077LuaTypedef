@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entGameplayVOEvent: redEvent
 ---@field public voContext CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubExperienceBarController: inkWidgetLogicController
 ---@field protected foregroundContainer inkWidgetReference

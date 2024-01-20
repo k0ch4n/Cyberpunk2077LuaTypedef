@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorNodeStatusDebuggerCommand: AIbehaviorIDebuggerCommand
 ---@field public behaviorResourceHash Uint32

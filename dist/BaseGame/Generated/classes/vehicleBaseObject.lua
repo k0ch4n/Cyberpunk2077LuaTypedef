@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleBaseObject: gameObject
 ---@field public archetype AIArchetype

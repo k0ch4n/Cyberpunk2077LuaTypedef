@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleShopPurchaseEvent: redEvent
 ---@field public offerRecord gamedataVehicleOffer_Record

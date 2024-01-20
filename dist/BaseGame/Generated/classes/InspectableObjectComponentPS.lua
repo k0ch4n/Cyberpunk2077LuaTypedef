@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectableObjectComponentPS: gameComponentPS
 ---@field private isStarted Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionAnimDirection_Record: gamedataTweakDBRecord
 gamedataAIActionAnimDirection_Record = {}

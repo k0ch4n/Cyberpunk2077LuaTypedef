@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_CharacterCustomizationMirror: MenuScenario_BaseMenu
 ---@field private morphMenuUserData MorphMenuUserData

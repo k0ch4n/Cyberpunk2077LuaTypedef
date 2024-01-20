@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EVisionBlockerType: Enum
 ---@field Smoke Enum 0

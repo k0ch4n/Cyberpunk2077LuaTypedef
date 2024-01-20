@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsSpawnEntityEventFallbackData
 ---@field public owner scnPerformerId

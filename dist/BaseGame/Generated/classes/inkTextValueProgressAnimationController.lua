@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextValueProgressAnimationController: inkTextAnimationController
 ---@field public baseValue Float

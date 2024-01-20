@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiControllerSettingsGameController: gameuiMenuGameController
 ---@field public defaultWidgets inkWidgetReference[]

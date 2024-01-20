@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerDocumentThumbnailWidgetController: DeviceButtonLogicControllerBase
 ---@field protected documentIconWidget inkImageWidgetReference

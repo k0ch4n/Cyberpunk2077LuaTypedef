@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalPhoneChoiceEntry: gameJournalEntry
 ---@field public text LocalizationString

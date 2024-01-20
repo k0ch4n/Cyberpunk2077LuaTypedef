@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DriveEvents: VehicleEventsTransition
 ---@field private inCombatBlockingForbiddenZone Bool

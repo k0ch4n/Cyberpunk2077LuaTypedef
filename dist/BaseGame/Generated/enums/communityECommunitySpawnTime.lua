@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityECommunitySpawnTime: Enum
 ---@field Morning Enum 0

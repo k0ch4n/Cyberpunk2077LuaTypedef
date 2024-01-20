@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAlarmControllerPS: MasterControllerPS
 ---@field protected securityAlarmSetup SecurityAlarmSetup

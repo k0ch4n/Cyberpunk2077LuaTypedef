@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimsetWithOverridesTagCondition: animIRuntimeCondition
 ---@field public animsetTags redTagList

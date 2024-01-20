@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AccumulatedDamageDigitLogicController: inkWidgetLogicController
 ---@field private critWidget inkTextWidgetReference

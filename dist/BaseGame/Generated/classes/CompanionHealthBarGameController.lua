@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CompanionHealthBarGameController: gameuiHUDGameController
 ---@field private healthbar inkWidgetReference

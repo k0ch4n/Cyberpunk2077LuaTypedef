@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questNewPlayerPuppetAttached_ConditionType: questISceneConditionType
 questNewPlayerPuppetAttached_ConditionType = {}

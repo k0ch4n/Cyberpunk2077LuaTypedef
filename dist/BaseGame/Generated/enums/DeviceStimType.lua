@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceStimType: Enum
 ---@field Distract Enum 0

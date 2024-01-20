@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LevelBarsController: inkWidgetLogicController
 ---@field protected bar0 inkWidgetReference

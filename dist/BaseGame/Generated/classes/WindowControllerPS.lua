@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindowControllerPS: DoorControllerPS
 ---@field private windowSkillChecks EngDemoContainer

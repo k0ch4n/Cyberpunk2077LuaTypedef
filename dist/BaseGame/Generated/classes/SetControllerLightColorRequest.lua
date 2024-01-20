@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetControllerLightColorRequest: gameScriptableSystemRequest
 ---@field public red Uint8

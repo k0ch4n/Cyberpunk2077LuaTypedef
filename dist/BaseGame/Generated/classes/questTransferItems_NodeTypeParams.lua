@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransferItems_NodeTypeParams
 ---@field public giver questUniversalRef

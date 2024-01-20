@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageStatListener: gameScriptStatsListener
 ---@field public weapon gameweaponObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudButtonReminderGameController: gameuiHUDGameController
 ---@field private Button1 inkCompoundWidgetReference

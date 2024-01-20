@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleePublicSafeEvents: MeleeRumblingEvents
 ---@field public unequipTime Float

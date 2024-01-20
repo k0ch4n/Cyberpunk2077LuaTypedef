@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDistanceToExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public target AIbehaviorExpressionSocket

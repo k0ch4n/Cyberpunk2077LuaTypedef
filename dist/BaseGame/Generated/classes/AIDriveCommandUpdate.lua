@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDriveCommandUpdate: IScriptable
 ---@field public minSpeed Float

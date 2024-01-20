@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWwiseIgnoredNames: audioAudioMetadata
 ---@field public ignoredNames CName[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CombatTarget
 ---@field public puppet ScriptedPuppet

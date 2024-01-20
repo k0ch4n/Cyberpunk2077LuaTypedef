@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFootstepComponent: entIComponent
 ---@field public tweakDBID TweakDBID

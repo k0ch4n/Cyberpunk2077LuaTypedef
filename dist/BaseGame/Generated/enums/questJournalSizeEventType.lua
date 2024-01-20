@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJournalSizeEventType: Enum
 ---@field Maximize Enum 0

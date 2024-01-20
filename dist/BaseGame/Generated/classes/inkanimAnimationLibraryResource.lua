@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimAnimationLibraryResource: CResource
 ---@field public sequences inkanimSequence[]

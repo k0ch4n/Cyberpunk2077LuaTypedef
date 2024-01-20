@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scndevEventType: Enum
 ---@field NodeFailed Enum 1

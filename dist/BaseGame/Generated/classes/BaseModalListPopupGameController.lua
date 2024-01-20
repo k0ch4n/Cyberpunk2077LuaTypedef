@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseModalListPopupGameController: gameuiWidgetGameController
 ---@field protected content inkWidgetReference

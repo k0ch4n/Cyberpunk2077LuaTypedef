@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questToggleMinimapVisibility_NodeSubType: questIUIManagerNodeType
 ---@field public entityReference gameEntityReference

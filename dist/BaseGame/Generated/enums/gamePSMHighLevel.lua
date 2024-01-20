@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMHighLevel: Enum
 ---@field Any Enum -1

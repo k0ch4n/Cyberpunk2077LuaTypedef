@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RewardNotificationCurrencyDelayed: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field private notificationQueue ItemsNotificationQueue

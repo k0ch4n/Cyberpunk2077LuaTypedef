@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeDeflectEvents: MeleeEventsTransition
 ---@field public deflectStatFlag gameStatModifierData_Deprecated

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnderwearEquipFailsafeEvent: redEvent
 ---@field public bottom Bool

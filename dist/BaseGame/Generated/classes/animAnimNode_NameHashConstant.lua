@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_NameHashConstant: animAnimNode_IntValue
 ---@field public value CName

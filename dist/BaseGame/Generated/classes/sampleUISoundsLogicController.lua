@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUISoundsLogicController: inkWidgetLogicController
 ---@field private textWidget inkTextWidget

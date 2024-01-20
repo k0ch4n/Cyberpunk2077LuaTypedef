@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankPlayerHealthController: inkWidgetLogicController
 ---@field public health inkWidgetReference

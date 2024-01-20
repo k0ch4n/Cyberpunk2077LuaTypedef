@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsCameraOverrideSettings
 ---@field public overrideFov Bool

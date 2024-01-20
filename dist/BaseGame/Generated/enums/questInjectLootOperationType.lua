@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInjectLootOperationType: Enum
 ---@field Inject Enum 0

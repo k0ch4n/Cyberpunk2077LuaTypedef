@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftControllerPS: MasterControllerPS
 ---@field protected liftSetup LiftSetup

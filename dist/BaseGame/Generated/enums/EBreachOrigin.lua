@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EBreachOrigin: Enum
 ---@field LOCAL Enum 0

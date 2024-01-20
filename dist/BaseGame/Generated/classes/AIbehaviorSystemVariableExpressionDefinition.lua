@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSystemVariableExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public variable AIbehaviorSystemVariableExpressionTypes

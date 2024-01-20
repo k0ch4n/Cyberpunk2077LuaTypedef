@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseAngleRange: senseIShape
 ---@field public position Vector4

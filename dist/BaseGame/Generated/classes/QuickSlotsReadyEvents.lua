@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotsReadyEvents: QuickSlotsEvents
 ---@field public shouldSendEvent Bool

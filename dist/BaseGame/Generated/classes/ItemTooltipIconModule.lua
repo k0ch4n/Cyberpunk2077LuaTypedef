@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipIconModule: ItemTooltipModuleController
 ---@field private container inkImageWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyTelemetryVariable: gamePlayerScriptableSystemRequest
 ---@field public dataTrackingFact ETelemetryData

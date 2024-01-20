@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkPropertyManager: ISerializable
 ---@field public bindings inkPropertyBinding[]

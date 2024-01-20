@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationVersionUpdateInfo
 ---@field public newVersion Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemSlotsFilledPrereq: gameIScriptablePrereq
 ---@field public equipAreas gamedataEquipmentArea[]

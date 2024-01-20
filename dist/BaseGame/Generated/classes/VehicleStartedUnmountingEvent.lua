@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleStartedUnmountingEvent: redEvent
 ---@field public slotID CName

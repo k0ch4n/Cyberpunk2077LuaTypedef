@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedItemsPrereqListener: BaseStatPoolPrereqListener
 ---@field protected state ChargedItemsPrereqState

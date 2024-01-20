@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleGameplayMappinVisibilityEvent: redEvent
 ---@field public isHidden Bool

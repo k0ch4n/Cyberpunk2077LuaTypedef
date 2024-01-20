@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRandomNewsFeedBatch_Record: gamedataTweakDBRecord
 gamedataRandomNewsFeedBatch_Record = {}

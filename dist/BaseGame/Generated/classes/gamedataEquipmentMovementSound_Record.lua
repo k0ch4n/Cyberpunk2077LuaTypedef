@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataEquipmentMovementSound_Record: gamedataTweakDBRecord
 gamedataEquipmentMovementSound_Record = {}

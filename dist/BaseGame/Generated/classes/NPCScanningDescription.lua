@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCScanningDescription: ObjectScanningDescription
 ---@field protected NPCGameplayDescription TweakDBID

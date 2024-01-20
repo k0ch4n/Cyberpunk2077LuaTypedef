@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestEngineLockState: Enum
 ---@field DontToggleIfLocked Enum 0

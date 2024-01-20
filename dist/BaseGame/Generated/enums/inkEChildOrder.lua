@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEChildOrder: Enum
 ---@field Forward Enum 0

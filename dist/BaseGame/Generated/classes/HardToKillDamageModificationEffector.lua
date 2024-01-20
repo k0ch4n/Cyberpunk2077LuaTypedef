@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HardToKillDamageModificationEffector: ModifyAttackEffector
 ---@field public criticalHealthThreshold Float

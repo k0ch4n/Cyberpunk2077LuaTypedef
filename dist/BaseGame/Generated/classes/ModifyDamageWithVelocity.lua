@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyDamageWithVelocity: ModifyDamageEffector
 ---@field public percentMult Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDeviceActionData
 ---@field public hasInteraction Bool

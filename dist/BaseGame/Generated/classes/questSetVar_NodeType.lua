@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetVar_NodeType: questIFactsDBManagerNodeType
 ---@field public factName String

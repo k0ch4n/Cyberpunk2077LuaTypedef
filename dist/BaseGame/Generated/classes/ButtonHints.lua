@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ButtonHints: inkWidgetLogicController
 ---@field public horizontalHolder inkCompoundWidgetReference

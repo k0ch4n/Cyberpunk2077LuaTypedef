@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSceneRecordingNodeFilter
 ---@field public streamInNodesWithStreamingDistanceMoreThan Float

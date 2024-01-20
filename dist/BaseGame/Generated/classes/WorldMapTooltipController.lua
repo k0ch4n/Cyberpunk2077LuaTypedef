@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorldMapTooltipController: WorldMapTooltipBaseController
 ---@field protected titleText inkTextWidgetReference

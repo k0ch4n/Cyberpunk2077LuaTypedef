@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerStateMachineDef: gamebbScriptDefinition
 ---@field public Locomotion gamebbScriptID_Int32

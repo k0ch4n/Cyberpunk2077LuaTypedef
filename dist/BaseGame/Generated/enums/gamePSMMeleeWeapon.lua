@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMMeleeWeapon: Enum
 ---@field NotReady Enum 0

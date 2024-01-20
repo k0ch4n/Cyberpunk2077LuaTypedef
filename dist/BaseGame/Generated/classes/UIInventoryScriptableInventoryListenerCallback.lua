@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryScriptableInventoryListenerCallback: gameInventoryScriptCallback
 ---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem

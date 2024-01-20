@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIVoicesetManager_NodeType: questObjectNodeType
 questIVoicesetManager_NodeType = {}

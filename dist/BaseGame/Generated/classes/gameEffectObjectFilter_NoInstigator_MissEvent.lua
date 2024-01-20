@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_NoInstigator_MissEvent: gameEffectObjectGroupFilter
 ---@field public npcMissEvents Bool

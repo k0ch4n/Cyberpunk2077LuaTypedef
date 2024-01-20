@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioSceneData: audioAudioMetadata
 ---@field public anyStateArray audioAudioStateData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDelegateExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public delegateAttribute AIbehaviorDelegateAttrRef

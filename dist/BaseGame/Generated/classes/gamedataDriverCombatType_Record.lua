@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDriverCombatType_Record: gamedataTweakDBRecord
 gamedataDriverCombatType_Record = {}

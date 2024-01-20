@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckVectorIsValid: AIbehaviorconditionScript
 ---@field public actionTweakIDMapping AIArgumentMapping

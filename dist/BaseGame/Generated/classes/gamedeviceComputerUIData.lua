@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedeviceComputerUIData
 ---@field public mails gamedeviceGenericDataContent[]

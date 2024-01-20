@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationOption: IScriptable
 ---@field public info gameuiCharacterCustomizationInfo

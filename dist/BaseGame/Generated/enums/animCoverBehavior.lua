@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCoverBehavior: Enum
 ---@field Idle Enum 0

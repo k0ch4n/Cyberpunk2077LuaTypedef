@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStaticAreaShapeComponent: entIPlacedComponent
 ---@field public outline AreaShapeOutline

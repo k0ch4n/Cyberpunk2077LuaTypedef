@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IEvaluatorVector: IEvaluator
 ---@field public freeAxes EFreeVectorAxes

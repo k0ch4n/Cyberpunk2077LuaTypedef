@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnReserveWorkspotEvent: OnWorkspotAvailabilityEvent
 ---@field public action gamedataWorkspotActionType

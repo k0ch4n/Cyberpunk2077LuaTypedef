@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entPhysicalSkinnedMeshComponent: entSkinnedMeshComponent
 ---@field public simulationType physicsSimulationType

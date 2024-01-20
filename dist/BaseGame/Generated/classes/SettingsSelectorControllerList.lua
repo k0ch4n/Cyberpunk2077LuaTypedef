@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsSelectorControllerList: SettingsSelectorControllerRange
 ---@field protected dotsContainer inkHorizontalPanelWidgetReference

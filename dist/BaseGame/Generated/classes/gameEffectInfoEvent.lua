@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectInfoEvent: redEvent
 ---@field public tag String

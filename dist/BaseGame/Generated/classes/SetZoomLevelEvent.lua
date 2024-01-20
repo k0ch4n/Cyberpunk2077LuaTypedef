@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetZoomLevelEvent: redEvent
 ---@field public value Int32

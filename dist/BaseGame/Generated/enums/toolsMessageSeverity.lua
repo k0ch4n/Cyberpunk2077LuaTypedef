@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageSeverity: Enum
 ---@field Success Enum 0

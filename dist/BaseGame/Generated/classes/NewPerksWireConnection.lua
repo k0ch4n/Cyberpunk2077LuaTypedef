@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksWireConnection
 ---@field public targetSlot gamedataNewPerkSlotType

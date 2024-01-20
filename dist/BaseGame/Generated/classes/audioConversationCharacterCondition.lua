@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioConversationCharacterCondition
 ---@field public voiceTag CName

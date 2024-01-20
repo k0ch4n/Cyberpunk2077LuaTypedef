@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIBackgroundCombatCommand: AICommand
 ---@field public steps AIBackgroundCombatStep[]

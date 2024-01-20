@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrafficGenMeshImpact: Enum
 ---@field UseNavigation Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionActivateLightPreset_Record: gamedataAISubAction_Record
 gamedataAISubActionActivateLightPreset_Record = {}

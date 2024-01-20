@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipAndTearEffector: ModifyDamageEffector
 ---@field public sfxName CName

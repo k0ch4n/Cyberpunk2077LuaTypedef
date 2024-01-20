@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBinkVideoEvent: redEvent
 ---@field public videoPath String

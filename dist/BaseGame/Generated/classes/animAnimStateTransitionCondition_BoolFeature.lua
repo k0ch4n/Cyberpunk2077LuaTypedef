@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_BoolFeature: animIAnimStateTransitionCondition
 ---@field public compareValue Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeDefTreeVariablesList
 ---@field public list LibTreeDefTreeVariable[]

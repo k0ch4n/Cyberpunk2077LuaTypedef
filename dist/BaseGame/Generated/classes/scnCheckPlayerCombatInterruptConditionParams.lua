@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerCombatInterruptConditionParams
 ---@field public isInCombat Bool

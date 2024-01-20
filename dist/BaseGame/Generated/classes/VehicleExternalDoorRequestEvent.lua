@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleExternalDoorRequestEvent: redEvent
 ---@field public slotName CName

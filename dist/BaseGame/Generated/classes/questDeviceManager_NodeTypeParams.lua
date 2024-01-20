@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDeviceManager_NodeTypeParams: ISerializable
 ---@field public objectRef NodeRef

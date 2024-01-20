@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhoneTalkingState: Enum
 ---@field Ended Enum 0

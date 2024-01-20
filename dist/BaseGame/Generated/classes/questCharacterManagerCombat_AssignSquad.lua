@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerCombat_AssignSquad: questICharacterManagerCombat_NodeSubType
 ---@field public presetID TweakDBID

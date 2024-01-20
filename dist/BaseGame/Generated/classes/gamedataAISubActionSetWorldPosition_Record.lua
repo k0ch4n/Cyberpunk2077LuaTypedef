@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSetWorldPosition_Record: gamedataAISubAction_Record
 gamedataAISubActionSetWorldPosition_Record = {}

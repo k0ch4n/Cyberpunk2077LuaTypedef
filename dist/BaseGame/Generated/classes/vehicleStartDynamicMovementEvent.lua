@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleStartDynamicMovementEvent: redEvent
 ---@field public targetPosition Vector3

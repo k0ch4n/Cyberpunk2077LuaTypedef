@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEnablePlayerVehicle_NodeType: questIVehicleManagerNodeType
 ---@field public vehicle String

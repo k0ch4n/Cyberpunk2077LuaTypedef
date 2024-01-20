@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerControlComponent: gameScriptableComponent
 ---@field private currentScanType MechanicalScanType

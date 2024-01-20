@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCacheWidget: inkCompoundWidget
 ---@field public innerScale Vector2

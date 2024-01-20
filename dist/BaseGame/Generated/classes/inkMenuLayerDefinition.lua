@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMenuLayerDefinition: inkLayerDefinition
 ---@field public menuResource inkMenuResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransferItems_NodeTypeParams_TagOperationData
 ---@field public tagToTransfer CName

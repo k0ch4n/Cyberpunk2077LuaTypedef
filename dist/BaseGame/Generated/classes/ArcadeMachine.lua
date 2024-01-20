@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArcadeMachine: InteractiveDevice
 ---@field protected arcadeMachineType ArcadeMachineType

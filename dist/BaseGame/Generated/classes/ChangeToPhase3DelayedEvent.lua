@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeToPhase3DelayedEvent: DelayEvent
 ChangeToPhase3DelayedEvent = {}

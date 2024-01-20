@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorFindClosestPointOnTrafficPathTaskDefinition: AIbehaviorTaskDefinition
 ---@field public enterClosest AIArgumentMapping

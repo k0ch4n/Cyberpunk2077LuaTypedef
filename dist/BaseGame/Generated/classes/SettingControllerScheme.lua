@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingControllerScheme: inkWidgetLogicController
 ---@field private tabRootRef inkWidgetReference

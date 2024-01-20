@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleAlertNotification: GenericNotificationController
 ---@field private animation inkanimProxy

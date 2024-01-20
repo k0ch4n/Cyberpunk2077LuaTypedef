@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MuteArm: gameweaponObject
 ---@field private gameEffectRef gameEffectRef

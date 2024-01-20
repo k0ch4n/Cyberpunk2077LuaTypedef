@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InRelaxedHighLevelState: AINPCHighLevelStateCheck
 InRelaxedHighLevelState = {}

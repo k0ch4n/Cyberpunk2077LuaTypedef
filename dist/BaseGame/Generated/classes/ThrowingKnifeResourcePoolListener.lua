@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowingKnifeResourcePoolListener: gameScriptStatPoolsListener
 ---@field private Crosshair Crosshair_Melee_Knife

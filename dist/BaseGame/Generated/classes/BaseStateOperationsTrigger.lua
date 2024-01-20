@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseStateOperationsTrigger: DeviceOperationsTrigger
 ---@field protected triggerData BaseStateOperationTriggerData

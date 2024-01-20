@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMoveOnSplineControlRubberbanding_NodeType: questIVehicleManagerNodeType
 ---@field public enable Bool

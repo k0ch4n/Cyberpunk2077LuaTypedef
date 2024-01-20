@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectColorGradeV2PlayData: effectPlacedTrackItemPlayData
 effectColorGradeV2PlayData = {}

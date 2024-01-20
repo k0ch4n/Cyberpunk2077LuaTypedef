@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCLocomotionTypePrereqState: gamePrereqState
 ---@field public owner gameObject

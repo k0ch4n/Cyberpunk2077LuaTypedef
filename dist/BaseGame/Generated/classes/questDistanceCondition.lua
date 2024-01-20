@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDistanceCondition: questTypedCondition
 ---@field public type questIDistanceConditionType

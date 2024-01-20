@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterLifePath_ConditionType: questICharacterConditionType
 ---@field public lifePathID TweakDBID

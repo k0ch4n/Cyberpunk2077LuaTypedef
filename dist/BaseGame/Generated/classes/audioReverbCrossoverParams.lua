@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioReverbCrossoverParams
 ---@field public dist Float

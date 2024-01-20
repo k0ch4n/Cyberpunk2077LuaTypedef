@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLootTokenManager_NodeTypeParams
 ---@field public tokenNodeRef NodeRef

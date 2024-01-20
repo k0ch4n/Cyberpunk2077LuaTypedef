@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRainIntensity: Enum
 ---@field NoRain Enum 0

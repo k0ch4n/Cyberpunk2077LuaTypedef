@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_PlayerIgnoreFriendlyAndAlive: gameEffectObjectGroupFilter
 ---@field public ignoreCharacterRecord TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorNaryExpressionOperators: Enum
 ---@field LogicalAnd Enum 0

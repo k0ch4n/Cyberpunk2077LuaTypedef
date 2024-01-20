@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StimTargetsEvent: redEvent
 ---@field public targets StimTargetData[]

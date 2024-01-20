@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeControllerBBValuesIds
 ---@field public kerenzikov gamebbScriptID_Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Window: Door
 ---@field protected soloCollider entIComponent

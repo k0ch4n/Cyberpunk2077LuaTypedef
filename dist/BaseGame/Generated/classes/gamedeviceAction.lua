@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedeviceAction: redEvent
 ---@field public actionName CName

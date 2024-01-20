@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTickDelay_ConditionType: questITimeConditionType
 ---@field public tickCount Uint32

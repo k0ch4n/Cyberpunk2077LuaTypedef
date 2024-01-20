@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProficiencyProgressEvent: redEvent
 ---@field public type gamedataProficiencyType

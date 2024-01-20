@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVectorFieldComponent: entIVisualComponent
 ---@field public direction Vector3

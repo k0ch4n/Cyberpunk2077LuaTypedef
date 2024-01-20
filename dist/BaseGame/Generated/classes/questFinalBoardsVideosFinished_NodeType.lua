@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFinalBoardsVideosFinished_NodeType: questIUIManagerNodeType
 questFinalBoardsVideosFinished_NodeType = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkLinkQuickhackEvent: redEvent
 ---@field public netrunnerID entEntityID

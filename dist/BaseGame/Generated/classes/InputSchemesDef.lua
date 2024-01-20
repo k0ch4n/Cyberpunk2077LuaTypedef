@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputSchemesDef: gamebbScriptDefinition
 ---@field public Device gamebbScriptID_Uint32

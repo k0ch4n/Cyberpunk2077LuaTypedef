@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questETimeShiftType: Enum
 ---@field ShiftByTime Enum 0

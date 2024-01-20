@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class redConvexHullEx
 ---@field public data DataBuffer

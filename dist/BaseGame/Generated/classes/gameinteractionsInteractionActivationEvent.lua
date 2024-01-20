@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsInteractionActivationEvent: gameinteractionsInteractionBaseEvent
 ---@field public eventType gameinteractionsEInteractionEventType

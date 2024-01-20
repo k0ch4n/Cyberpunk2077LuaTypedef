@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AgentRegistry: IScriptable
 ---@field protected isInitialized Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetKeepStrategyOnSearch: AIVehicleTaskAbstract
 ---@field protected keep AIArgumentMapping

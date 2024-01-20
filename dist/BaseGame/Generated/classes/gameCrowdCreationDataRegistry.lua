@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCrowdCreationDataRegistry: ISerializable
 ---@field public creationData gameCrowdCreationData[]

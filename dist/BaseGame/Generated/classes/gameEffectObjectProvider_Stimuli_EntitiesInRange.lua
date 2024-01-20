@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_Stimuli_EntitiesInRange: gameEffectObjectProvider
 gameEffectObjectProvider_Stimuli_EntitiesInRange = {}

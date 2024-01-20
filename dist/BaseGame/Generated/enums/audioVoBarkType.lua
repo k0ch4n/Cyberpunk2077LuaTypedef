@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVoBarkType: Enum
 ---@field None Enum 0

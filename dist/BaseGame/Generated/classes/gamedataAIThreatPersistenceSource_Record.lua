@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIThreatPersistenceSource_Record: gamedataTweakDBRecord
 gamedataAIThreatPersistenceSource_Record = {}

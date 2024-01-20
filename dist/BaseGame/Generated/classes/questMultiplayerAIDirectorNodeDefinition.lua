@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerAIDirectorNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public params questMultiplayerAIDirectorParams

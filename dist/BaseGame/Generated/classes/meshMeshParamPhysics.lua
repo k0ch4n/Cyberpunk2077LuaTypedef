@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamPhysics: meshMeshParameter
 ---@field public physicsData physicsSystemResource

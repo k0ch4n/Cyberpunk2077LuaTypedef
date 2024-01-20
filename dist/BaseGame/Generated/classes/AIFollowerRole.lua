@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowerRole: AIRole
 ---@field protected followerRef gameEntityReference

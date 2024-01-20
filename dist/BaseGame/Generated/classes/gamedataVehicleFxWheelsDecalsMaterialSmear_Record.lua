@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleFxWheelsDecalsMaterialSmear_Record: gamedataVehicleFxWheelsDecalsMaterial_Record
 gamedataVehicleFxWheelsDecalsMaterialSmear_Record = {}

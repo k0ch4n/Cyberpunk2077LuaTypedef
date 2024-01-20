@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDeviceActionBoolData: SDeviceActionData
 ---@field public nameOnTrueRecord TweakDBID

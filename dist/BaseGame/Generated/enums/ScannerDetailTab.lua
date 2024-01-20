@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerDetailTab: Enum
 ---@field Data Enum 0

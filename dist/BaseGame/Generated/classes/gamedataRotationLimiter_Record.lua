@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRotationLimiter_Record: gamedataDriveHelper_Record
 gamedataRotationLimiter_Record = {}

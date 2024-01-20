@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConfigGraphicsQualityLevel: Enum
 ---@field Low Enum 0

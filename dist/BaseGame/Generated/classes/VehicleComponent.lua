@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleComponent: ScriptableDeviceComponent
 ---@field public interaction gameinteractionsComponent

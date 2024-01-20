@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkAnim: animAnimNode_Base
 ---@field public animation CName

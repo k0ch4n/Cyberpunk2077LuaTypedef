@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_Stop: questTimeDilation_Operation
 ---@field public easeOutCurve CName

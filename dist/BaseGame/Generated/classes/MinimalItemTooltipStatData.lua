@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipStatData: IScriptable
 ---@field public value Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVendorProgressionBasedStock_Record: gamedataTweakDBRecord
 gamedataVendorProgressionBasedStock_Record = {}

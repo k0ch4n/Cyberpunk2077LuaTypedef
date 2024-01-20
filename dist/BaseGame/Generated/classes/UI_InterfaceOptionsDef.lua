@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_InterfaceOptionsDef: gamebbScriptDefinition
 ---@field public CrowdsOnMinimap gamebbScriptID_Bool

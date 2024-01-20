@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleSurfaceBinding_Record: gamedataTweakDBRecord
 gamedataVehicleSurfaceBinding_Record = {}

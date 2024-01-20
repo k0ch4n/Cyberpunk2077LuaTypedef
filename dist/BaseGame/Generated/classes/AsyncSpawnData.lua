@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AsyncSpawnData: IScriptable
 ---@field public callbackTarget IScriptable

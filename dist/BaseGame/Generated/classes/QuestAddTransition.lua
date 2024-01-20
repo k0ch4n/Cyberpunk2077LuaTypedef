@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestAddTransition: redEvent
 ---@field public transition AreaTypeTransition

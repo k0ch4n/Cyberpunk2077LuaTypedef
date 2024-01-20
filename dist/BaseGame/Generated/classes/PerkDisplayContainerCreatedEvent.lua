@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayContainerCreatedEvent: redEvent
 ---@field public index Int32

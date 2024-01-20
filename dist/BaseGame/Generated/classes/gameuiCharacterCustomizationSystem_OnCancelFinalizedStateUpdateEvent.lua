@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationSystem_OnCancelFinalizedStateUpdateEvent: redEvent
 gameuiCharacterCustomizationSystem_OnCancelFinalizedStateUpdateEvent = {}

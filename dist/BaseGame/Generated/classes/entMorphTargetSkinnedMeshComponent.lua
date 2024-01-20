@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entMorphTargetSkinnedMeshComponent: entISkinTargetComponent
 ---@field public morphResource MorphTargetMesh

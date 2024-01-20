@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamImportedSnapPoint: meshMeshParameter
 ---@field public snapFeatureData meshMeshImportedSnapPoint[]

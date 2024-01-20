@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DistantLightsAreaSettings: IAreaSettings
 ---@field public distantLightStartDistance Float

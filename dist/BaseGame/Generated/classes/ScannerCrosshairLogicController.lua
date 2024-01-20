@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerCrosshairLogicController: inkWidgetLogicController
 ---@field private rootWidget inkWidget

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HideRecipeRequest: gamePlayerScriptableSystemRequest
 ---@field public recipe TweakDBID

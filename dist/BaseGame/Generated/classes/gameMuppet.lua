@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppet: gamePuppetBase
 ---@field private hitRepresantation entSlotComponent

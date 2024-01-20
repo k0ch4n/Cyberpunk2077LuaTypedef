@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkScrollAreaWidget: inkCompoundWidget
 ---@field public horizontalScrolling Float

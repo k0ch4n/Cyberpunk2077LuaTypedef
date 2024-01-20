@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendVertexBufferChunk
 ---@field public vertexLayout GpuWrapApiVertexLayoutDesc

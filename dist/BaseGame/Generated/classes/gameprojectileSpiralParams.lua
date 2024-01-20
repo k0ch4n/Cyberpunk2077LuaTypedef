@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSpiralParams: IScriptable
 ---@field public enabled Bool

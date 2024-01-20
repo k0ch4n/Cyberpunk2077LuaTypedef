@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTutorialBracketData
 ---@field public bracketID CName

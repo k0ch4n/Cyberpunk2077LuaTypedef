@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRadioStation_Record: gamedataTweakDBRecord
 gamedataRadioStation_Record = {}

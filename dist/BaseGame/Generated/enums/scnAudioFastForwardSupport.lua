@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAudioFastForwardSupport: Enum
 ---@field MuteDuringFastForward Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterEquippedWeapon_ConditionType: questICharacterConditionType
 ---@field public anyWeaponEquipped Bool

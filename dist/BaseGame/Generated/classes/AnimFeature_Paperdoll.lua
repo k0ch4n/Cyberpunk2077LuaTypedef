@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_Paperdoll: animAnimFeature
 ---@field public genderSelection Bool

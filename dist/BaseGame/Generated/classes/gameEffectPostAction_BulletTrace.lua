@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_BulletTrace: gameEffectPostAction_BeamVFX
 gameEffectPostAction_BulletTrace = {}

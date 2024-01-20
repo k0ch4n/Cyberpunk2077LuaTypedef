@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERentStatus: Enum
 ---@field PAID Enum 0

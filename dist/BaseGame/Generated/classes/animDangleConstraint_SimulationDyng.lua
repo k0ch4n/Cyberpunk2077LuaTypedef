@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_SimulationDyng: animDangleConstraint_Simulation
 ---@field public HACK_checkDangleTeleport Bool

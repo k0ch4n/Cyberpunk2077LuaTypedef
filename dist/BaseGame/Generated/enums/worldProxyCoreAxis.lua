@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyCoreAxis: Enum
 ---@field X Enum 0

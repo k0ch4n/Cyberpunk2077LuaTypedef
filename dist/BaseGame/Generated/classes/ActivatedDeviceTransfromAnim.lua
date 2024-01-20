@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceTransfromAnim: InteractiveDevice
 ---@field private animationState Int32

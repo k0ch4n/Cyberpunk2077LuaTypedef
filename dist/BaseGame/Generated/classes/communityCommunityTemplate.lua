@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityCommunityTemplate: CResource
 ---@field public communityTemplate communityCommunityTemplateData

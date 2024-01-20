@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipPrimaryWeaponCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public command AISwitchToPrimaryWeaponCommand

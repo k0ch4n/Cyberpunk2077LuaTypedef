@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDriverCombatType: Enum
 ---@field CrystalDome Enum 0

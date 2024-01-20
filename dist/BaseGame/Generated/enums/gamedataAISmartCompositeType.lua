@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISmartCompositeType: Enum
 ---@field Selector Enum 0

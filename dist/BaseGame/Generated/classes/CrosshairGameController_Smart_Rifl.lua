@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Smart_Rifl: gameuiCrosshairBaseGameController
 ---@field protected txtAccuracy inkTextWidgetReference

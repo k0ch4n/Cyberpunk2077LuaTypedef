@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questElevator_ManageNPCAttachment_NodeType: questIInteractiveObjectManagerNodeType
 ---@field public params questElevator_ManageNPCAttachment_NodeTypeParams[]

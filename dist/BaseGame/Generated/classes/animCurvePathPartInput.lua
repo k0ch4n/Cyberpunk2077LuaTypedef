@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCurvePathPartInput
 ---@field public curveLengthStart Float

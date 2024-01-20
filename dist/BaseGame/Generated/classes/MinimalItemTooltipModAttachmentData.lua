@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipModAttachmentData: MinimalItemTooltipModData
 ---@field public isEmpty Bool

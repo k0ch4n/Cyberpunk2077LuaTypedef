@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialSelectMenuRequest: redEvent
 ---@field public eventData RadialMenuItemController

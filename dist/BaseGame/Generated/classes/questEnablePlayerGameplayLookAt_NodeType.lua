@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEnablePlayerGameplayLookAt_NodeType: questISceneManagerNodeType
 ---@field public enable Bool

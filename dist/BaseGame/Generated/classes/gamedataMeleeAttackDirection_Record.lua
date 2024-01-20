@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMeleeAttackDirection_Record: gamedataTweakDBRecord
 gamedataMeleeAttackDirection_Record = {}

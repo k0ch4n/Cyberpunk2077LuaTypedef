@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LocalPlayerDef: gamebbScriptDefinition
 ---@field public InsideVehicleForbiddenAreasCount gamebbScriptID_Int32

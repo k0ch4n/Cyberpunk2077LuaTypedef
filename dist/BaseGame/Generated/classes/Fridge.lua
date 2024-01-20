@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Fridge: InteractiveDevice
 ---@field private animFeature AnimFeature_SimpleDevice

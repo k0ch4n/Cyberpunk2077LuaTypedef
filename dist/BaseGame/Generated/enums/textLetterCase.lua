@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class textLetterCase: Enum
 ---@field OriginalCase Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitShapeBVH
 ---@field public nodeName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterExplodingPlatformSpawnDetail
 ---@field public spawnPlatformName CName

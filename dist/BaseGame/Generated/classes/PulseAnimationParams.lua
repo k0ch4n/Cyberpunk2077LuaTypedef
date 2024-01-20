@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PulseAnimationParams
 ---@field public topOpacity Float

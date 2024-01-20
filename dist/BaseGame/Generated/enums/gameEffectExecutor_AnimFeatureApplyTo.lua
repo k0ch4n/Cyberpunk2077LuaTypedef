@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_AnimFeatureApplyTo: Enum
 ---@field Target Enum 0

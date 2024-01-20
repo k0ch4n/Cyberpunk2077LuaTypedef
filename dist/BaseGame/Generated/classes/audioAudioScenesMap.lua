@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioScenesMap: audioAudioMetadata
 ---@field public defaultScene CName

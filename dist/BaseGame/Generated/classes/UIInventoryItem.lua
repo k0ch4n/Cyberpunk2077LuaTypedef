@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItem: IScriptable
 ---@field public ID gameItemID

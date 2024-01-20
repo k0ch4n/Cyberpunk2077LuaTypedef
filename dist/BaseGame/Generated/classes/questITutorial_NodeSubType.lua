@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questITutorial_NodeSubType: questIRetNodeType
 questITutorial_NodeSubType = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameRegular1v1FinisherScenarioPivotSetting: Enum
 ---@field AttackerSlidesAndRotates_TargetStandsStill Enum 0

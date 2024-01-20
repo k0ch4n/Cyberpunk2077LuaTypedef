@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareTabModsRequest: redEvent
 ---@field public open Bool

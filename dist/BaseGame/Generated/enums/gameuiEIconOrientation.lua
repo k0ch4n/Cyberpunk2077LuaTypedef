@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiEIconOrientation: Enum
 ---@field Upright Enum 0

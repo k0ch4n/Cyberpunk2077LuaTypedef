@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeThrowReloadEvents: MeleeEventsTransition
 ---@field public isSwitchingWeapon Bool

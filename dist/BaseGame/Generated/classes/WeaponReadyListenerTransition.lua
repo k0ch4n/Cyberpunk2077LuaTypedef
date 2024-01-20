@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponReadyListenerTransition: WeaponTransition
 ---@field protected executionOwner gameObject

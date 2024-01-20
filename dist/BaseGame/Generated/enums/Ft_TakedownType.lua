@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Ft_TakedownType: Enum
 ---@field Lethal Enum 0

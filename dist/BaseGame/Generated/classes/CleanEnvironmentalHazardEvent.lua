@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CleanEnvironmentalHazardEvent: redEvent
 ---@field public stimEvent senseStimuliEvent

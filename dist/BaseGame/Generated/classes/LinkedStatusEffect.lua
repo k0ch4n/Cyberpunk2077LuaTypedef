@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LinkedStatusEffect
 ---@field public netrunnerIDs entEntityID[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NavGenNavmeshImpact: Enum
 ---@field Ignored Enum 1

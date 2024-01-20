@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectBasedTimeBankEffector: gameEffector
 ---@field private player gameObject

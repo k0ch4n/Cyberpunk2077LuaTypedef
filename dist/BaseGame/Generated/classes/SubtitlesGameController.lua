@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubtitlesGameController: BaseSubtitlesGameController
 ---@field private sceneComment inkTextWidget

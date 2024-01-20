@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOutputSocketStamp
 ---@field public name Uint16

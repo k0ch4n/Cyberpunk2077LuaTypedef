@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerAIDirectorStatus: Enum
 ---@field Enabled Enum 0

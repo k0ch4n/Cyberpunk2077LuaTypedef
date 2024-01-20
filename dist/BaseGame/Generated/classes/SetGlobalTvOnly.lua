@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetGlobalTvOnly: redEvent
 ---@field public isGlobalTvOnly Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentTriggeredPrereqState: gamePrereqState
 ---@field public owner gameObject

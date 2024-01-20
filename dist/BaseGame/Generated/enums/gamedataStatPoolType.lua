@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatPoolType: Enum
 ---@field AccumulatedDoT Enum 0

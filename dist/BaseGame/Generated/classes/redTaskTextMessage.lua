@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class redTaskTextMessage
 ---@field public taskId Uint32

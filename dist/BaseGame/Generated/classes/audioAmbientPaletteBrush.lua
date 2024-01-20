@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientPaletteBrush
 ---@field public distributionBucketSize Float

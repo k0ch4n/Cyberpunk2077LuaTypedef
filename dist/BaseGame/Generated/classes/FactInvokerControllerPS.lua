@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactInvokerControllerPS: MasterControllerPS
 ---@field private factDataEntries FactInvokerDataEntry[]

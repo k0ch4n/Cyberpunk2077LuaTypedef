@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorJunkSellItem: IScriptable
 ---@field public item gameItemData

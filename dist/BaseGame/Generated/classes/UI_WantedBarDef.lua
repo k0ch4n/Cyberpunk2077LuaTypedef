@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_WantedBarDef: gamebbScriptDefinition
 ---@field public CurrentWantedLevel gamebbScriptID_Int32

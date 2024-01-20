@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendingMachineControllerPS: ScriptableDeviceComponentPS
 ---@field private vendingMachineSetup VendingMachineSetup

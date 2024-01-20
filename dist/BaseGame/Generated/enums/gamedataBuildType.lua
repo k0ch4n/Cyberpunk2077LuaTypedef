@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBuildType: Enum
 ---@field Avg_10_Int_Netrunner Enum 0

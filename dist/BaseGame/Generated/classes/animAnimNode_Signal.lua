@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Signal: animAnimNode_FloatValue
 ---@field public blendIn Float

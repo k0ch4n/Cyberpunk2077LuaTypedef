@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatPoolCustomLimitEffector: gameEffector
 ---@field public statPoolType gamedataStatPoolType

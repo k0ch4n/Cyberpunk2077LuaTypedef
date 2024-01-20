@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetTargetHealthEffector: gameEffector
 ---@field public healthValueToSet Float

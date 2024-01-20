@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IgnoreAlreadyAffectedEntities: gameEffectObjectSingleFilter_Scripted
 IgnoreAlreadyAffectedEntities = {}

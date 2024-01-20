@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecuritySystemOutput: ActionBool
 ---@field private currentSecurityState ESecuritySystemState

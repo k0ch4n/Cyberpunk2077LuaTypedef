@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeGridButton: inkToggleController
 ---@field private FrameImg inkImageWidgetReference

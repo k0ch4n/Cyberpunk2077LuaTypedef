@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackpackInventoryListenerCallback: gameInventoryScriptCallback
 ---@field private backpackInstance gameuiBackpackMainGameController

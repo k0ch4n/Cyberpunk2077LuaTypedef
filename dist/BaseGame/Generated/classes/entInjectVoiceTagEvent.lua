@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entInjectVoiceTagEvent: redEvent
 ---@field public voiceTagName CName

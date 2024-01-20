@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrenadeTrackerTargetAcquiredEvent: redEvent
 ---@field public target ScriptedPuppet

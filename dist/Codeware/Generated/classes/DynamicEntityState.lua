@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DynamicEntityState: IScriptable
 ---@field public entityID entEntityID

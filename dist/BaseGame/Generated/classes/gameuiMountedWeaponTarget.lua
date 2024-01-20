@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMountedWeaponTarget
 ---@field public weaponIndex Int32

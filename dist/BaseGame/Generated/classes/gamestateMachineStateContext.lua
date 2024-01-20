@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineStateContext
 ---@field public snapshot gamestateMachineStateSnapshotsContainer

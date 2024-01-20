@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyAppearanceName: audioAudioMetadata
 ---@field public void Bool

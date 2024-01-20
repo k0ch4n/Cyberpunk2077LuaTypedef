@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IdleTier4Events: LocomotionGroundEvents
 IdleTier4Events = {}

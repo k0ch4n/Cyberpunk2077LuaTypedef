@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckStimRevealsInstigatorPosition: AIbehaviorconditionScript
 ---@field public checkStimType Bool

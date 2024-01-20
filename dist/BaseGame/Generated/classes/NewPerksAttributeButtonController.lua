@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksAttributeButtonController: inkWidgetLogicController
 ---@field private attributePointsButton inkWidgetReference

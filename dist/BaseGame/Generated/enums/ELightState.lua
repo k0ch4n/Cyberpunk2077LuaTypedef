@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightState: Enum
 ---@field Reset Enum 0

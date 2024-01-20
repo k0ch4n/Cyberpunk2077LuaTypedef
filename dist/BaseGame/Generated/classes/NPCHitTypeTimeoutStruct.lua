@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCHitTypeTimeoutStruct
 ---@field public timeout Float

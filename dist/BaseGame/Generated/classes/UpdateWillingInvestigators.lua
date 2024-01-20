@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateWillingInvestigators: redEvent
 ---@field public investigator entEntityID

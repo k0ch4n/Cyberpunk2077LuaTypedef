@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class renderDevSurfelView: Enum
 ---@field ALBEDO Enum 0

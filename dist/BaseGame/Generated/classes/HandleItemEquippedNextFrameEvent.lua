@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HandleItemEquippedNextFrameEvent: redEvent
 ---@field public itemID gameItemID

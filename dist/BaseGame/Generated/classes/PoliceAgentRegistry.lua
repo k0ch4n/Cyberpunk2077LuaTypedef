@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PoliceAgentRegistry: IScriptable
 ---@field private game ScriptGameInstance

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DialerContactDataView: inkScriptableDataViewWrapper
 ---@field private compareBuilder CompareBuilder

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResetSignal: redEvent
 ---@field public signalName CName

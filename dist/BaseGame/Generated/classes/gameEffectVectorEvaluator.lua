@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectVectorEvaluator: ISerializable
 ---@field public modifier Float

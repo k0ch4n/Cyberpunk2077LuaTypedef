@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WardrobeControllerPS: ScriptableDeviceComponentPS
 ---@field protected clothingSets gameClothingSet[]

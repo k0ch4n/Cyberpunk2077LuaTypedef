@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectDuration_Infinite: gameEffectDurationModifier
 gameEffectDuration_Infinite = {}

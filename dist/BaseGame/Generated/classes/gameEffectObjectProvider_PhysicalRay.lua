@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_PhysicalRay: gameEffectObjectProvider
 ---@field public inputPosition gameEffectInputParameter_Vector

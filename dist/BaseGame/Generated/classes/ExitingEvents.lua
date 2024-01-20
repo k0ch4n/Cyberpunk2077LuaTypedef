@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExitingEvents: ExitingEventsBase
 ---@field public fromDriverCombat Bool

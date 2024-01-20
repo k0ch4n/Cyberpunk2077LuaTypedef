@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SampleMapArrayElement
 ---@field public myKey Uint32

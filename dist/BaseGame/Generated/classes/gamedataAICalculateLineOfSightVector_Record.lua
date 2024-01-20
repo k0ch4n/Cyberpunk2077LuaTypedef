@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAICalculateLineOfSightVector_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculateLineOfSightVector_Record = {}

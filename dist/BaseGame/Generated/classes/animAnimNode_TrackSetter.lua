@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TrackSetter: animAnimNode_OnePoseInput
 ---@field public track animNamedTrackIndex

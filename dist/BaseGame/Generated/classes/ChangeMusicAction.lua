@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeMusicAction: ActionBool
 ---@field protected interactionRecordName String

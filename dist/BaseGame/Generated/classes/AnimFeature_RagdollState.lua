@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_RagdollState: animAnimFeature
 ---@field public isActive Bool

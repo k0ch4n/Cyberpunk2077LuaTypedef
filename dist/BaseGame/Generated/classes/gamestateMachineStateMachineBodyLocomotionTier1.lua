@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineStateMachineBodyLocomotionTier1: gamestateMachineStateMachineBody
 gamestateMachineStateMachineBodyLocomotionTier1 = {}

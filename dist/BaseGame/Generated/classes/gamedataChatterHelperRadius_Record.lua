@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChatterHelperRadius_Record: gamedataTweakDBRecord
 gamedataChatterHelperRadius_Record = {}

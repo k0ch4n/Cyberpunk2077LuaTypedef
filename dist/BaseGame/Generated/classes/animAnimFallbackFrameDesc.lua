@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFallbackFrameDesc
 ---@field public mPositions Uint16

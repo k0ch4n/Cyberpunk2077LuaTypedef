@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
 ---@field public resource appearanceAppearanceResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnIInterruptManager_Operation: ISerializable
 scnIInterruptManager_Operation = {}

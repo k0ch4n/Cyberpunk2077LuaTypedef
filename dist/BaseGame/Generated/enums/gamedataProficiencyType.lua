@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProficiencyType: Enum
 ---@field Assault Enum 0

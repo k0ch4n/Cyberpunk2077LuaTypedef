@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeRoachRaceObstacleSpawnerController: gameuiarcadeArcadeSpawnerController
 ---@field public initialMinimumSpawnTime Float

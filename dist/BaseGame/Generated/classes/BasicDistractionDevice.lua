@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BasicDistractionDevice: InteractiveDevice
 ---@field protected animFeatureDataDistractor AnimFeature_DistractionState

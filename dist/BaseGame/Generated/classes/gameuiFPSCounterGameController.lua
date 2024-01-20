@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiFPSCounterGameController: gameuiHUDGameController
 ---@field public counterWidget inkTextWidgetReference

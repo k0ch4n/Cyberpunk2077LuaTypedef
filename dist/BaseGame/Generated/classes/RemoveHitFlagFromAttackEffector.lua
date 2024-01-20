@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveHitFlagFromAttackEffector: ModifyAttackEffector
 ---@field public hitFlag hitFlag

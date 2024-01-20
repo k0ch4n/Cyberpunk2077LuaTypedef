@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingDataView: inkScriptableDataViewWrapper
 ---@field private itemFilterType ItemFilterCategory

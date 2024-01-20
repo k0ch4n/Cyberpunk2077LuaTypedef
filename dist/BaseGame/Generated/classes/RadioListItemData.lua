@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioListItemData: IScriptable
 ---@field public record gamedataRadioStation_Record

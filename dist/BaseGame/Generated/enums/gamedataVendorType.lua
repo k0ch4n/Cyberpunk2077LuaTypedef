@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVendorType: Enum
 ---@field Armorsmith Enum 0

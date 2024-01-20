@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StrikeFilterSingle_NPC: gameEffectObjectSingleFilter_Scripted
 ---@field public onlyAlive Bool

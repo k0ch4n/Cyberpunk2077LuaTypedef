@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class localizationPersistenceSubtitleEntries: ISerializable
 ---@field public entries localizationPersistenceSubtitleEntry[]

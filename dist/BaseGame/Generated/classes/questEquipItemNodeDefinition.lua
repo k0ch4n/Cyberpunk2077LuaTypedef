@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEquipItemNodeDefinition: questAICommandNodeBase
 ---@field public entityReference questObservableUniversalRef

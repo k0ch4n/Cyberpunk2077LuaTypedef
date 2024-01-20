@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrappleBreakFreeEvents: GrappleStandEvents
 ---@field public playerPositionVerified Bool

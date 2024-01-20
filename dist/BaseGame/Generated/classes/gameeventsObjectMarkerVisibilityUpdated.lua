@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsObjectMarkerVisibilityUpdated: redEvent
 ---@field public canHaveObjectMarker Bool

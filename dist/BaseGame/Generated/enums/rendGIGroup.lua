@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendGIGroup: Enum
 ---@field GI_Group0 Enum 0

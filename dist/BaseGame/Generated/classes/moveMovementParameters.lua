@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveMovementParameters
 ---@field public type moveMovementType

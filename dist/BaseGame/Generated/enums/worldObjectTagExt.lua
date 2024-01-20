@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldObjectTagExt: Enum
 ---@field None Enum 1701736270

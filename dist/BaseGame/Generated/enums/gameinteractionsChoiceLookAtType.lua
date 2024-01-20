@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsChoiceLookAtType: Enum
 ---@field Root Enum 0

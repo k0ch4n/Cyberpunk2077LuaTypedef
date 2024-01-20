@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBriefingSequencePlayer_NodeType: questIUIManagerNodeType
 ---@field public function questBriefingSequencePlayerFunction

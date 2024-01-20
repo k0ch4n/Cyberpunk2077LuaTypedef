@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryDataManagerV2: IScriptable
 ---@field private owner gameuiHUDGameController

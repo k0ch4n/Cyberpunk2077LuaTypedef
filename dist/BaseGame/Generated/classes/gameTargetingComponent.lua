@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTargetingComponent: entIPlacedComponent
 ---@field public isPrimary Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldQuestType: Enum
 ---@field MainQuest Enum 0

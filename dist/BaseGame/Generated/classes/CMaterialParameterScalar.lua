@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterScalar: CMaterialParameter
 ---@field public scalar Float

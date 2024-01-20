@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopRTTIResourceDumpInfo
 ---@field public extension String

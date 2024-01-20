@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PushAnimEventDelayed: gameScriptableSystemRequest
 ---@field public eventName CName

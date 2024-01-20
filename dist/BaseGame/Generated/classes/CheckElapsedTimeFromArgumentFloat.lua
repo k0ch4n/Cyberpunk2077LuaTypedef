@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckElapsedTimeFromArgumentFloat: CheckArguments
 ---@field public customVar Float

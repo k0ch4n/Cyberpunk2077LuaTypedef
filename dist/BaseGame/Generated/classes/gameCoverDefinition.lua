@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCoverDefinition: gameSmartObjectWorkspotDefinition
 ---@field public overridenCoveringFOVDegrees Float

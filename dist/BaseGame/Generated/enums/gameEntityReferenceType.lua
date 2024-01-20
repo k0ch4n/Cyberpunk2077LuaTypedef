@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntityReferenceType: Enum
 ---@field EntityRef Enum 0

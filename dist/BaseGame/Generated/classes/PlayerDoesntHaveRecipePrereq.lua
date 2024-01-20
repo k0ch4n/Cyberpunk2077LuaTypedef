@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerDoesntHaveRecipePrereq: gameIScriptablePrereq
 ---@field public recipeID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtPartsDependency
 ---@field public masterPart CName

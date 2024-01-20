@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCompressedSmartObjectPointProperties
 ---@field public propertyId Uint16

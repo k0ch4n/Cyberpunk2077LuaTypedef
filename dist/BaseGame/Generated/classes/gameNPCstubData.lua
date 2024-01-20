@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNPCstubData
 ---@field public spawnerID entEntityID

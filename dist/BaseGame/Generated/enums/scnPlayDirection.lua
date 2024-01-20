@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlayDirection: Enum
 ---@field Forward Enum 0

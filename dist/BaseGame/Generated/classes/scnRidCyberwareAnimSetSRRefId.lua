@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidCyberwareAnimSetSRRefId
 ---@field public id Uint32

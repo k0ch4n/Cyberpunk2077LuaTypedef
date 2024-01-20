@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_IndustrialArm: animAnimFeature
 ---@field public idleAnimNumber Int32

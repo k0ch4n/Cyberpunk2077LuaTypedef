@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_BlackwallForce: CrosshairGameController_Smart_Rifl
 ---@field public lastSmartParams gamesmartGunUIParameters

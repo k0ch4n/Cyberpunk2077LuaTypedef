@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayEnv_ForceRelitEnvProbe: questIEnvironmentManagerNodeType
 questPlayEnv_ForceRelitEnvProbe = {}

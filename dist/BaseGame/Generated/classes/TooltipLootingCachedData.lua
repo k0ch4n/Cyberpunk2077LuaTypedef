@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TooltipLootingCachedData: IScriptable
 ---@field public externalItemData gameItemData

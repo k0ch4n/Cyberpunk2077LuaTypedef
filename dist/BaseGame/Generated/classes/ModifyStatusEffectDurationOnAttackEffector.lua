@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatusEffectDurationOnAttackEffector: ModifyAttackEffector
 ---@field public tags CName[]

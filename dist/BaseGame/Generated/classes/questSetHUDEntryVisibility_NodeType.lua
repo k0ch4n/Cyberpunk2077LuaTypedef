@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetHUDEntryVisibility_NodeType: questIUIManagerNodeType
 ---@field public hudEntryName CName[]

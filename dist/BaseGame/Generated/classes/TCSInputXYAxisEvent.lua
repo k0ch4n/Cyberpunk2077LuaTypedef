@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TCSInputXYAxisEvent: redEvent
 ---@field public isAnyInput Bool

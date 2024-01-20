@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleCameraType: Enum
 ---@field FPP Enum 0

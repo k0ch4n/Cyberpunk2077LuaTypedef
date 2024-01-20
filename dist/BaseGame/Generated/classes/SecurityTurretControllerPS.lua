@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityTurretControllerPS: SensorDeviceControllerPS
 ---@field private pendingSecuritySystemDisableRequest Bool

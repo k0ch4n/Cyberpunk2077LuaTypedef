@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingMainLogicController: inkWidgetLogicController
 ---@field private TIME_UNTIL_SELECTION Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsSoundParameter: redEvent
 ---@field public parameterName CName

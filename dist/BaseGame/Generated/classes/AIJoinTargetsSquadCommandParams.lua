@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIJoinTargetsSquadCommandParams: questScriptedAICommandParams
 ---@field public targetPuppetRef gameEntityReference

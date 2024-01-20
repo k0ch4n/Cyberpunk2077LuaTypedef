@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrenadeSetTargetTrackerStateEvent: redEvent
 ---@field public state Bool

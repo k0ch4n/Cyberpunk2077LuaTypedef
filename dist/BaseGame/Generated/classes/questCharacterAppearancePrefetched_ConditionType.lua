@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterAppearancePrefetched_ConditionType: questICharacterConditionType
 ---@field public puppetRef gameEntityReference

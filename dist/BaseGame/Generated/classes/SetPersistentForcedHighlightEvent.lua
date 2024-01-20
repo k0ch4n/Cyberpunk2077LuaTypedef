@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetPersistentForcedHighlightEvent: redEvent
 ---@field public sourceName CName

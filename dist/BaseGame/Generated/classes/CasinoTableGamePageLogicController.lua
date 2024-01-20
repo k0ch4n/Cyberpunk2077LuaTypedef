@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CasinoTableGamePageLogicController: inkWidgetLogicController
 ---@field public cash inkTextWidgetReference

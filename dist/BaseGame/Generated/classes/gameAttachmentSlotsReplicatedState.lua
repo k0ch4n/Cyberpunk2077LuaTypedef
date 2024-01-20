@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttachmentSlotsReplicatedState: netIComponentState
 ---@field public stateVersion Uint32

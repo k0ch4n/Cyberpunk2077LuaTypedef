@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProficiencyTabButtonController: TabButtonController
 ---@field private bottom_bar inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerToggleComponent_NodeType: questIEntityManager_NodeType
 ---@field public params questEntityManagerToggleComponent_NodeTypeParams[]

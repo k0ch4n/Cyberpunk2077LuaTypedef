@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalEntryStateChangeDelayData
 ---@field public entryPath gameJournalPath

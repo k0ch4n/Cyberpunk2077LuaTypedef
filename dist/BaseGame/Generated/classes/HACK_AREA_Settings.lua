@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HACK_AREA_Settings: IAreaSettings
 ---@field public surfelScale Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISwitchToPrimaryWeaponCommand: AICommand
 ---@field public unEquip Bool

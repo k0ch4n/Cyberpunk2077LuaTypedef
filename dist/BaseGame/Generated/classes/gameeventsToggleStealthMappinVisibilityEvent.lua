@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsToggleStealthMappinVisibilityEvent: redEvent
 ---@field public show Bool

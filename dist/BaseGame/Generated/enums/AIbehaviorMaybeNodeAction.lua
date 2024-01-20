@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMaybeNodeAction: Enum
 ---@field Succeed Enum 0

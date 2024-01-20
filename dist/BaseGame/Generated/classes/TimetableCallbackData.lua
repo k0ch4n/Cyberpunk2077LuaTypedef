@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimetableCallbackData: IScriptable
 ---@field private time SSimpleGameTime

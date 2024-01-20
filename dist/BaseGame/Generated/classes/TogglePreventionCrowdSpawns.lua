@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TogglePreventionCrowdSpawns: gameScriptableSystemRequest
 ---@field public toggle Bool

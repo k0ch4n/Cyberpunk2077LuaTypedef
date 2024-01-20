@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FastTRavelSystemDef: gamebbScriptDefinition
 ---@field public DestinationPoint gamebbScriptID_Variant

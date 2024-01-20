@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsNotifyItemEquippedEvent: redEvent
 ---@field public itemName CName

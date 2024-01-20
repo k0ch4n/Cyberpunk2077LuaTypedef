@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataForceDismembermentEffector_Record: gamedataEffector_Record
 gamedataForceDismembermentEffector_Record = {}

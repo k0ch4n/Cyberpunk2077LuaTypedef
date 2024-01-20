@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EJuryrigTrapState: Enum
 ---@field UNARMED Enum 0

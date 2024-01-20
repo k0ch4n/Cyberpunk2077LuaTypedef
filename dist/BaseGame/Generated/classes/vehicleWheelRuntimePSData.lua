@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleWheelRuntimePSData
 ---@field public previousTouchedMaterial CName

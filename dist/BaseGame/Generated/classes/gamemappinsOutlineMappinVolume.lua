@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsOutlineMappinVolume: gamemappinsIMappinVolume
 ---@field public height Float

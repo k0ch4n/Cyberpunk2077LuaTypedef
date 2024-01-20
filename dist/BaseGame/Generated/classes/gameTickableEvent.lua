@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTickableEvent: redEvent
 ---@field public state gameTickableEventState

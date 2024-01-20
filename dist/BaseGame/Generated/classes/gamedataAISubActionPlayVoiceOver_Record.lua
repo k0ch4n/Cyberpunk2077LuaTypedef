@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionPlayVoiceOver_Record: gamedataAISubAction_Record
 gamedataAISubActionPlayVoiceOver_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTweakDBIDSelector: IScriptable
 ---@field public baseTweakID TweakDBID

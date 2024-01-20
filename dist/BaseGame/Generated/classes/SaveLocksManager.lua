@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SaveLocksManager: gameScriptableSystem
 ---@field private saveLocks CName[]

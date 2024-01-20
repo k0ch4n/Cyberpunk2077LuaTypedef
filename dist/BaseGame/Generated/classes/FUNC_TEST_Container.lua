@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FUNC_TEST_Container
 ---@field public BasePanel inkBasePanelWidgetReference

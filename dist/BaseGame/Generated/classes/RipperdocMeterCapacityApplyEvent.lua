@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocMeterCapacityApplyEvent: redEvent
 ---@field public CurrentCapacity Int32

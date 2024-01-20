@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleTemperatureSettings
 ---@field public rpmThreshold Float

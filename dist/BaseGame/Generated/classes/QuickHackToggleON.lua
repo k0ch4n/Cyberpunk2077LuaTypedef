@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickHackToggleON: ActionBool
 ---@field public Repeat Bool

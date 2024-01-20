@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkTraining: InteractiveDevice
 ---@field private progressBarHeaderText String

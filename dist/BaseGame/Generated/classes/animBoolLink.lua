@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animBoolLink
 ---@field public node animAnimNode_BoolValue

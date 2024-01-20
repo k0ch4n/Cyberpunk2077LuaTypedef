@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ServerState: Enum
 ---@field Inactive Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_AnimEnd: animIAnimStateTransitionCondition
 ---@field public eventName CName

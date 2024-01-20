@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animOverrideBlendBoneInfo
 ---@field public transformIndex animTransformIndex

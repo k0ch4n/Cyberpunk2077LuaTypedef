@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAdvertisementGroup_Record: gamedataTweakDBRecord
 gamedataAdvertisementGroup_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleEQuestVehicleWindowState: Enum
 ---@field ForceOpen Enum 0

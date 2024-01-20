@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnUseSceneWorkspotParamsV1: questUseWorkspotParamsV1
 ---@field public workspotInstanceId scnSceneWorkspotInstanceId

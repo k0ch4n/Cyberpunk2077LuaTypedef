@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorScriptConditionDefinition: AIbehaviorConditionDefinition
 ---@field public script AIbehaviorconditionScript

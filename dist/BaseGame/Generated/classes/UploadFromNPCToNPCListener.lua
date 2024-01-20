@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UploadFromNPCToNPCListener: QuickHackUploadListener
 ---@field public npcPuppet ScriptedPuppet

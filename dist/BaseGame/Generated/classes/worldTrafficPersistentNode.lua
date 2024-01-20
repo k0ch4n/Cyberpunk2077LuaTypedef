@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficPersistentNode: worldNode
 ---@field public resource worldTrafficPersistentResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIBehaviorCallbackExpression: AIbehaviorexpressionScript
 ---@field protected callbackName CName

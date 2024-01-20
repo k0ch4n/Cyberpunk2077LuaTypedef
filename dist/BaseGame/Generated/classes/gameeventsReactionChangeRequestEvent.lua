@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsReactionChangeRequestEvent: redEvent
 ---@field public reactionPresetRecord gamedataReactionPreset_Record

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CTextureRegionSet: CResource
 ---@field public regions rendTextureRegion[]

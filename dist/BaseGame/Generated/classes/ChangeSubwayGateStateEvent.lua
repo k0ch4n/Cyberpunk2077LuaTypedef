@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeSubwayGateStateEvent: redEvent
 ---@field public open Bool

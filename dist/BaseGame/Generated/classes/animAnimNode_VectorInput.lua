@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_VectorInput: animAnimNode_VectorValue
 ---@field public group CName

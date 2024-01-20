@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioEventPrefetchMode: Enum
 ---@field AddEventPrefetch Enum 0

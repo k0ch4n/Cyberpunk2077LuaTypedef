@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioRagdollSubSystem: gameaudioISoundComponentSubSystem
 ---@field public defaultMaterialMetadata CName

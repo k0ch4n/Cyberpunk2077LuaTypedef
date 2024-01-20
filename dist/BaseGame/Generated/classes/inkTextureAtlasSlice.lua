@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextureAtlasSlice
 ---@field public partName CName

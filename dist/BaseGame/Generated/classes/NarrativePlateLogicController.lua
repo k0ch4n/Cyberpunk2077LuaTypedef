@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NarrativePlateLogicController: inkWidgetLogicController
 ---@field private textWidget inkWidgetReference

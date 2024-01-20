@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIShootCommand: AICombatRelatedCommand
 ---@field public targetOverrideNodeRef NodeRef

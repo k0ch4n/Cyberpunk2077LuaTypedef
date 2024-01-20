@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_DamageProjection: gameEffectExecutor
 gameEffectExecutor_DamageProjection = {}

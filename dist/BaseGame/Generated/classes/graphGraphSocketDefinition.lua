@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class graphGraphSocketDefinition: graphIGraphObjectDefinition
 ---@field public name CName

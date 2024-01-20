@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTutorialOverlayUserData: inkUserData
 ---@field public hideOnInput Bool

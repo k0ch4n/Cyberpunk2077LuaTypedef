@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class grenadeSpawner: gameweaponObject
 ---@field public isCombatGadgetActive Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConnectionEndedEvent: redEvent
 ---@field private togglePersonalLinkAction TogglePersonalLink

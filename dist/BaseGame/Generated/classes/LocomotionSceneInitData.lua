@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LocomotionSceneInitData: IScriptable
 ---@field public previousLocomotionState Int32

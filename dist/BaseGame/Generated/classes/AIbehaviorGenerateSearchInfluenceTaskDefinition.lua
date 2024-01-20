@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorGenerateSearchInfluenceTaskDefinition: AIbehaviorTaskDefinition
 ---@field public position AIArgumentMapping

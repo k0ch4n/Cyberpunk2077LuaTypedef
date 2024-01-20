@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplaySettingsDef: gamebbScriptDefinition
 ---@field public DisableAutomaticSwitchToVehicleTPP gamebbScriptID_Bool

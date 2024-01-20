@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DevelopmentCheckPrereq: gameIScriptablePrereq
 ---@field protected requiredLevel Float

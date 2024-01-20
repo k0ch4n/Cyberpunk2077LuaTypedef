@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCoverSelectionPreset_Record: gamedataTweakDBRecord
 gamedataCoverSelectionPreset_Record = {}

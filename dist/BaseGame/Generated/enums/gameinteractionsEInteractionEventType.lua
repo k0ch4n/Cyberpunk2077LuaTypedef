@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsEInteractionEventType: Enum
 ---@field EIET_activate Enum 0

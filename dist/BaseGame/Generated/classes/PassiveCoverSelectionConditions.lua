@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveCoverSelectionConditions: PassiveAutonomousCondition
 ---@field private statsChangedCbId Uint32

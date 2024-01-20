@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SandevistanEvents: TimeDilationEventsTransitions
 ---@field private lastTimeDilation Float

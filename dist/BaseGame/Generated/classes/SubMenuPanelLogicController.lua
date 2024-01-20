@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubMenuPanelLogicController: PlayerStatsUIHolder
 ---@field private levelValue inkTextWidgetReference

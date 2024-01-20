@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitDetectionDebugFrameData
 ---@field public t Bool

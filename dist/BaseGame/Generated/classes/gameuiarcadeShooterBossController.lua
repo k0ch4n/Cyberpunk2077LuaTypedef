@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterBossController: gameuiarcadeShooterAIBase
 ---@field public customBoundSize Bool

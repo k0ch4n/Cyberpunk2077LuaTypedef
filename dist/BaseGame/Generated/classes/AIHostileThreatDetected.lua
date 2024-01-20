@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHostileThreatDetected: AIAIEvent
 ---@field public owner entEntity

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AutocraftSystem: gameScriptableSystem
 ---@field private active Bool

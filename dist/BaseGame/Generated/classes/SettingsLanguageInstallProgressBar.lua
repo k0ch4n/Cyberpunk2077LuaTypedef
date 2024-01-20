@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsLanguageInstallProgressBar: inkWidgetLogicController
 ---@field private progressBarRoot inkWidgetReference

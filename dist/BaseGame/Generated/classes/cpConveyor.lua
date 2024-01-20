@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpConveyor: gameObject
 ---@field public lines cpConveyorLine[]

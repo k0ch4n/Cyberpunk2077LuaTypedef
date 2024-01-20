@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevokeAuthorization: redEvent
 ---@field public user entEntityID

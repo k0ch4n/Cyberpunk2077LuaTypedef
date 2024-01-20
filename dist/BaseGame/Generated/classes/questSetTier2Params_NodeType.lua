@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTier2Params_NodeType: questISceneManagerNodeType
 ---@field public playerWalkType Tier2WalkType

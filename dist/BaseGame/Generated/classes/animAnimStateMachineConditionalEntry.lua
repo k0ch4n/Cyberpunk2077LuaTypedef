@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateMachineConditionalEntry: ISerializable
 ---@field public targetStateIndex Uint32

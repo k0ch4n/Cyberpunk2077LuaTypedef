@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingSector: CResource
 ---@field public localInplaceResource CResource[]

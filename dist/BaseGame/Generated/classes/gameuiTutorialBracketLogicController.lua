@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTutorialBracketLogicController: inkWidgetLogicController
 ---@field private loopAnim inkanimProxy

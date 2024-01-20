@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESaveFormat: Enum
 ---@field SF_PNG Enum 2

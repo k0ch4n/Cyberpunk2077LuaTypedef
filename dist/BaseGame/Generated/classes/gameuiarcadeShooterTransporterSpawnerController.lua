@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterTransporterSpawnerController: inkWidgetLogicController
 ---@field public spawnDelay Float

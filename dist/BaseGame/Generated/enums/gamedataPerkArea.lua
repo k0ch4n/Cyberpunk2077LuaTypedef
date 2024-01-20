@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPerkArea: Enum
 ---@field Assault_Area_01 Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddCombatLogMessage_NodeType: questIUIManagerNodeType
 ---@field public message String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightType: Enum
 ---@field LT_Point Enum 0

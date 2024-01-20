@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_AdHocAnimation: animAnimFeature
 ---@field public isActive Bool

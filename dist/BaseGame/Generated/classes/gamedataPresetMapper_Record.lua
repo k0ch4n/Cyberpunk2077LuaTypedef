@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPresetMapper_Record: gamedataTweakDBRecord
 gamedataPresetMapper_Record = {}

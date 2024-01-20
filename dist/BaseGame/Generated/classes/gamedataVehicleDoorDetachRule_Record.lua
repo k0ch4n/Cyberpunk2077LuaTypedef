@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleDoorDetachRule_Record: gamedataTweakDBRecord
 gamedataVehicleDoorDetachRule_Record = {}

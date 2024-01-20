@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDeviceStatus: Enum
 ---@field DISABLED Enum -2

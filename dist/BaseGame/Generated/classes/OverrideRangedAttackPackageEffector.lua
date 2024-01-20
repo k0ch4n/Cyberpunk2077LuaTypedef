@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OverrideRangedAttackPackageEffector: gameEffector
 ---@field public attackPackage gamedataRangedAttackPackage_Record

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIResource: LibTreeCTreeResource
 ---@field public root AICTreeNodeDefinition

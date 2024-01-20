@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetReactionDef: gamebbScriptDefinition
 ---@field public exitReactionFlag gamebbScriptID_Bool

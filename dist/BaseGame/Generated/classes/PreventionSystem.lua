@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionSystem: gameScriptableSystem
 ---@field private districtManager DistrictManager

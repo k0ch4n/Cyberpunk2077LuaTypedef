@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workEquipInventoryWeaponAction: workIWorkspotItemAction
 ---@field public weaponType workWeaponType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransmogMessageTooltipData: MessageTooltipData
 ---@field public TransmogItem gameItemID

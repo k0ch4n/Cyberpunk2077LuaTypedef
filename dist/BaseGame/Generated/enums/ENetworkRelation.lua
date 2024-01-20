@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ENetworkRelation: Enum
 ---@field MASTER Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitIsTheSameTargetPrereqState: GenericHitPrereqState
 ---@field public previousTarget gameObject

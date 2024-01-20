@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePopupPosition: Enum
 ---@field Undefined Enum 0

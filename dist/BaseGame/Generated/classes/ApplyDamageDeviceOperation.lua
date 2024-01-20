@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyDamageDeviceOperation: DeviceOperationBase
 ---@field public damages SDamageOperationData[]

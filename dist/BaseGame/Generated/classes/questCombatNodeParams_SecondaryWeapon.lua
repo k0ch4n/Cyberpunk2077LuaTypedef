@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeParams_SecondaryWeapon: questCombatNodeParams
 ---@field public unEquip Bool

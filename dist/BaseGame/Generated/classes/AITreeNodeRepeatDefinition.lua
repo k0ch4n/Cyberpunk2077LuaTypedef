@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITreeNodeRepeatDefinition: AICTreeNodeDecoratorDefinition
 ---@field public limit LibTreeDefInt32

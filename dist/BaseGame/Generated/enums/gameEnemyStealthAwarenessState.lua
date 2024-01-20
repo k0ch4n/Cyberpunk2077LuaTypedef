@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEnemyStealthAwarenessState: Enum
 ---@field Relaxed Enum 0

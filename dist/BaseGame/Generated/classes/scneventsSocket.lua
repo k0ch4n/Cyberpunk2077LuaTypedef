@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsSocket: scnSceneEvent
 ---@field public osockStamp scnOutputSocketStamp

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioEventMetadataArrayElement: ISerializable
 ---@field public redId CName

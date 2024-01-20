@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorkspotEntryData: IScriptable
 ---@field public workspotRef NodeRef

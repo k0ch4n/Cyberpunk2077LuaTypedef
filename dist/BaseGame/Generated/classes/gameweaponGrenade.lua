@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponGrenade: gameItemObject
 ---@field public lastHitNormal Vector4

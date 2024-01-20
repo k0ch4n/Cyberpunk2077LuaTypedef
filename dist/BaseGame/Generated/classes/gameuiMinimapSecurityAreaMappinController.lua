@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapSecurityAreaMappinController: gameuiBaseMinimapMappinController
 ---@field public playerInArea Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetRandomThreat: AIRandomTasks
 ---@field public outThreatArgument AIArgumentMapping

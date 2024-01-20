@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questForceVMModule_NodeTypeParams
 ---@field public reference gameEntityReference

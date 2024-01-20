@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workBodytypeCondition: workIWorkspotCondition
 ---@field public rig animRig

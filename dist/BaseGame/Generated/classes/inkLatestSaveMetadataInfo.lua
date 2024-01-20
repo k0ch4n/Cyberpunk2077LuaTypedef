@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLatestSaveMetadataInfo: IScriptable
 ---@field public locationName String

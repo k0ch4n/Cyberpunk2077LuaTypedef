@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnregisterFleeingNPC: gameScriptableSystemRequest
 ---@field public runner entEntity

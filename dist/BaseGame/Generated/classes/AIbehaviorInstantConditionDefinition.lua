@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorInstantConditionDefinition: ISerializable
 ---@field public condition AIbehaviorConditionDefinition

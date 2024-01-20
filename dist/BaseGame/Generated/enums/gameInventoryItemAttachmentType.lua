@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryItemAttachmentType: Enum
 ---@field Generic Enum 0

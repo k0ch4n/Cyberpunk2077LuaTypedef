@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetMortalPrereq: gameIScriptablePrereq
 ---@field public invert Bool

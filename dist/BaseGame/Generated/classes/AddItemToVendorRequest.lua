@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddItemToVendorRequest: gameScriptableSystemRequest
 ---@field public vendorID TweakDBID

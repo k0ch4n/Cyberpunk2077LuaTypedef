@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemChooserUnequipMod: redEvent
 ---@field public itemData gameInventoryItemData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PingSquad: PuppetAction
 ---@field private shouldForward Bool

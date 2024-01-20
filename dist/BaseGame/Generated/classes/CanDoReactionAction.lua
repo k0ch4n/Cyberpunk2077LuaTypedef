@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanDoReactionAction: AIbehaviorconditionScript
 ---@field public reactionName CName

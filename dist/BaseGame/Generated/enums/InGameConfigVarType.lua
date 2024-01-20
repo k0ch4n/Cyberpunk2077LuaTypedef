@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InGameConfigVarType: Enum
 ---@field Bool Enum 0

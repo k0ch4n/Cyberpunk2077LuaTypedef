@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_ChangeEntityAppearance: questCharacterManagerVisuals_EntityAppearanceOperationBase
 questCharacterManagerVisuals_ChangeEntityAppearance = {}

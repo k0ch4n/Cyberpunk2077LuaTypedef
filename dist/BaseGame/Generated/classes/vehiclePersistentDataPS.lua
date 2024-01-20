@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehiclePersistentDataPS: gameComponentPS
 ---@field public flags Uint32

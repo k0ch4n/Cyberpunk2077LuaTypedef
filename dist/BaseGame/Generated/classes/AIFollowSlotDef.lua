@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowSlotDef: gamebbScriptDefinition
 ---@field public slotID gamebbScriptID_Int32

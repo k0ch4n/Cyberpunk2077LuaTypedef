@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerColor: IParticleInitializer
 ---@field public color IEvaluatorColor

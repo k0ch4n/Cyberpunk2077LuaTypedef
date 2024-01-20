@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProximityDetector: Device
 ---@field protected scanningAreaName CName

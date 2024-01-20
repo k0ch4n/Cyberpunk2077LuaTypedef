@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPerkType: Enum
 ---@field Assault_Area_01_Perk_1 Enum 0

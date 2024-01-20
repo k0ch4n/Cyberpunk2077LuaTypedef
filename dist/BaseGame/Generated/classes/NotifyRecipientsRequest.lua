@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NotifyRecipientsRequest: gameScriptableSystemRequest
 ---@field public recipients RecipientData[]

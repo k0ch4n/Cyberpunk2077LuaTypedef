@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleGranade: BaseProjectile
 ---@field private countTime Float

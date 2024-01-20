@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEnemyState: Enum
 ---@field InCombat Enum 0

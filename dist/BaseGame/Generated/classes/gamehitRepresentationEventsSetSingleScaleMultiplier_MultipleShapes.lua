@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamehitRepresentationEventsSetSingleScaleMultiplier_MultipleShapes: gamehitRepresentationEventsSetSingleScaleMultiplier_AllShapes
 ---@field public shapeNames CName[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeMenuListItemData: ListItemData
 ---@field public attributeKey Uint32

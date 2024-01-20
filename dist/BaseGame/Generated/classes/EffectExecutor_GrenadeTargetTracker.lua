@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_GrenadeTargetTracker: gameEffectExecutor_Scripted
 ---@field public potentialTargetSlots CName[]

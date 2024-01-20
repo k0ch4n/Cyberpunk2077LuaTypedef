@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SharedGameplayPS: gameDeviceComponentPS
 ---@field protected deviceState EDeviceStatus

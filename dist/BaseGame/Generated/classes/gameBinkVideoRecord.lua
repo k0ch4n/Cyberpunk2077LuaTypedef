@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBinkVideoRecord: ISerializable
 ---@field public resourceHash Uint64

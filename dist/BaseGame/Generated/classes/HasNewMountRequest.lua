@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HasNewMountRequest: AIVehicleConditionAbstract
 ---@field protected mountRequest AIArgumentMapping

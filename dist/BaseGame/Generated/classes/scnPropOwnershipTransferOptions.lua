@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPropOwnershipTransferOptions
 ---@field public type scnPropOwnershipTransferOptionsType

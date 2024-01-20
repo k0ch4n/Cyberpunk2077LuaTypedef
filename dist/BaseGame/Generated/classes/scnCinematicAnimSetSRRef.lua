@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCinematicAnimSetSRRef
 ---@field public asyncAnimSet animAnimSet

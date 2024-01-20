@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELaunchMode: Enum
 ---@field Primary Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLanguageFontMapping
 ---@field public languageCode CName

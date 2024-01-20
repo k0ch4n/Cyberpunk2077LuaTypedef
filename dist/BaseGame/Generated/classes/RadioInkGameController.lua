@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioInkGameController: DeviceInkGameControllerBase
 ---@field protected stationNameWidget inkTextWidgetReference

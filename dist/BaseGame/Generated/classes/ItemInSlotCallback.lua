@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemInSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field protected state ItemInSlotPrereqState

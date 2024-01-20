@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetArgumentInt: SetArguments
 ---@field public customVar Int32

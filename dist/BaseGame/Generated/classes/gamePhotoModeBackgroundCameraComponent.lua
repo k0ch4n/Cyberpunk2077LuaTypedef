@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePhotoModeBackgroundCameraComponent: entBaseCameraComponent
 ---@field public isEnabled Bool

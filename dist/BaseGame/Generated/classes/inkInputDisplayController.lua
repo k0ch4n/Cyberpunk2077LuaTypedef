@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkInputDisplayController: inkWidgetLogicController
 ---@field public iconRef inkWidgetReference

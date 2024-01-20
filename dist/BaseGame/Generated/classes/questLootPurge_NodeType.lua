@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLootPurge_NodeType: questIGameManagerNonSignalStoppingNodeType
 questLootPurge_NodeType = {}

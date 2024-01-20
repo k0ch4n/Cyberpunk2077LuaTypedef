@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitDistanceCoveredPrereq: GenericHitPrereq
 ---@field public distanceRequired Float

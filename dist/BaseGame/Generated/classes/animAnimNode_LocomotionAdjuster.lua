@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LocomotionAdjuster: animAnimNode_OnePoseInput
 ---@field public targetPosition animVectorLink

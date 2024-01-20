@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StillageControllerPS: ScriptableDeviceComponentPS
 ---@field private isCleared Bool

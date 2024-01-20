@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMixingActionData
 ---@field public actionType audioMixingActionType

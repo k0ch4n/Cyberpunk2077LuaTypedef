@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhotoModeUIInteractiveEvent: redEvent
 ---@field public interactive Bool

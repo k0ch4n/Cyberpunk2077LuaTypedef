@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimInterpolationDirection: Enum
 ---@field To Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsRemotePlayerMappin: gamemappinsRuntimeMappin
 ---@field public hasMissionData Bool

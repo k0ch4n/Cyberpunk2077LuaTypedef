@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrafficGenDynamicImpact: Enum
 ---@field Ignored Enum 0

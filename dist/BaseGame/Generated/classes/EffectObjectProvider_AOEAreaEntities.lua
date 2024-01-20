@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectObjectProvider_AOEAreaEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_AOEAreaEntities = {}

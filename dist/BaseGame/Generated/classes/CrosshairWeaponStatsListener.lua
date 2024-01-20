@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairWeaponStatsListener: gameScriptStatsListener
 ---@field private controller BaseTechCrosshairController

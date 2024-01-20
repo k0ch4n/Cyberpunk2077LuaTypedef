@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerAIDirectorParams: ISerializable
 ---@field public function questMultiplayerAIDirectorFunction

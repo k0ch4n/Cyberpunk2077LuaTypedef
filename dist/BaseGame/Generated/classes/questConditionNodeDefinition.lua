@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questConditionNodeDefinition: questDisableableNodeDefinition
 ---@field public condition questIBaseCondition

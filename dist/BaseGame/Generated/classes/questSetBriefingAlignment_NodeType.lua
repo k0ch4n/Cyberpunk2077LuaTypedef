@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetBriefingAlignment_NodeType: questIUIManagerNodeType
 ---@field public briefingAlignment questJournalAlignmentEventType

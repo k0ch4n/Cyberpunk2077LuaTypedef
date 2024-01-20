@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeIncludedTreeDefinition: AICTreeNodeDefinition
 ---@field public tree LibTreeDefTree

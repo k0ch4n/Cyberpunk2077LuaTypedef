@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questToggleEventExecutionTag_NodeType: questISceneManagerNodeType
 ---@field public sceneFile scnSceneResource

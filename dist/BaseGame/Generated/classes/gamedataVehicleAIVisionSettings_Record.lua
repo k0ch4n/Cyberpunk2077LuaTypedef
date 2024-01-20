@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleAIVisionSettings_Record: gamedataTweakDBRecord
 gamedataVehicleAIVisionSettings_Record = {}

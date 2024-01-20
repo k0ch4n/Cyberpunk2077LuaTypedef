@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemDropSettings_Record: gamedataTweakDBRecord
 gamedataItemDropSettings_Record = {}

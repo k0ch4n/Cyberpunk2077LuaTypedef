@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerStateMachinePrereqState: gamePrereqState
 ---@field public owner gameObject

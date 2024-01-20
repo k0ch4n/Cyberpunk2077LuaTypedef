@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWeapon_MissileRainGrid_NodeType: questUseWeapon_NodeType
 ---@field public source questEUseWeapon_MissileOffsetsSource

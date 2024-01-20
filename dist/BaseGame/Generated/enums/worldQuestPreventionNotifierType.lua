@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldQuestPreventionNotifierType: Enum
 ---@field Deescalation Enum 0

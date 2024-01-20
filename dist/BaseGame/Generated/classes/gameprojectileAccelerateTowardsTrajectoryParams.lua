@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileAccelerateTowardsTrajectoryParams: gameprojectileTrajectoryParams
 ---@field public accelerationSpeed Float

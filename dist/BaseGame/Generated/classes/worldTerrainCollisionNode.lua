@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTerrainCollisionNode: worldNode
 ---@field public materials CName[]

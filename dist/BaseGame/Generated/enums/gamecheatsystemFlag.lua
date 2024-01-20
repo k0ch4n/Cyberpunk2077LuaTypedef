@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamecheatsystemFlag: Enum
 ---@field God_Immortal Enum 1

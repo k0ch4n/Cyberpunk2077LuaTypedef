@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApiVertexLayoutDesc
 ---@field public elements GpuWrapApiVertexPackingPackingElement

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimProfilerData_TreeItem: ISerializable
 ---@field public className CName

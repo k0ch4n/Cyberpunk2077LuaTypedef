@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LightAreaSettings: IAreaSettings
 ---@field public latitude curveData

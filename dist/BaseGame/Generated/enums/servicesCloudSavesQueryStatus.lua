@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class servicesCloudSavesQueryStatus: Enum
 ---@field NotFetched Enum 0

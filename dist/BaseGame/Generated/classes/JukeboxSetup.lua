@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JukeboxSetup
 ---@field public randomizeStartingStation Bool

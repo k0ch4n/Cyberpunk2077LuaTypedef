@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ZoomLevel5Events: ZoomEventsTransition
 ZoomLevel5Events = {}

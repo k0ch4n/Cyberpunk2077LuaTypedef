@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectEffectParameterEvaluator
 ---@field public evaluator IEvaluator

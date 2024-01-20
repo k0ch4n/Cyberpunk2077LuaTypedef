@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSpawnerReady_ConditionType: questISpawnerConditionType
 ---@field public spawnerReference NodeRef

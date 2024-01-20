@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FridgeControllerPS: ScriptableDeviceComponentPS
 ---@field private isOpen Bool

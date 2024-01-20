@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseTechCrosshairController: gameuiCrosshairBaseGameController
 ---@field private player gameObject

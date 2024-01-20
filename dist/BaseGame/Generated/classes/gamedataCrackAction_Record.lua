@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCrackAction_Record: gamedataItemAction_Record
 gamedataCrackAction_Record = {}

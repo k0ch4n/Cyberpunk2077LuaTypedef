@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryWeaponInternalData: IScriptable
 ---@field public fetchedFlags Int32

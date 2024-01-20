@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ForegroundSegmentBegin: animAnimNode_OnePoseInput
 animAnimNode_ForegroundSegmentBegin = {}

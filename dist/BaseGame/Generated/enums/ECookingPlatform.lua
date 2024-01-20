@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECookingPlatform: Enum
 ---@field PLATFORM_None Enum 0

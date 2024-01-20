@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGameNotificationsLayerDefinition: inkLayerDefinition
 ---@field public cursorResource inkWidgetLibraryResource

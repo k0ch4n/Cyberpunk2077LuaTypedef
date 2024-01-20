@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlaceholderNodeDefinition: questDisableableNodeDefinition
 ---@field public replacedNodeClassName CName

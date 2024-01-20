@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisibleObjectComponent: entIPlacedComponent
 ---@field public visibleObject senseVisibleObject

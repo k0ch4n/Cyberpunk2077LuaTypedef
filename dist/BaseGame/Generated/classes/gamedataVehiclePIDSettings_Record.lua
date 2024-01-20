@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehiclePIDSettings_Record: gamedataTweakDBRecord
 gamedataVehiclePIDSettings_Record = {}

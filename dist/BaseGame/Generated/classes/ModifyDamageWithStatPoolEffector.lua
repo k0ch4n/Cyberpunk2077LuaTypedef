@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyDamageWithStatPoolEffector: ModifyDamageEffector
 ---@field public statPool gamedataStatPoolType

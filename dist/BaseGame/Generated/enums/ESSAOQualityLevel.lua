@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESSAOQualityLevel: Enum
 ---@field SSAOQUALITY_VeryLow Enum 0

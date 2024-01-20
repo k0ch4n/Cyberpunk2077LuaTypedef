@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInjectLoot_NodeTypeParams_OperationData: ISerializable
 ---@field public operationType questInjectLootOperationType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleDrawerFacingBeam: IParticleDrawer
 ---@field public texturesPerUnit Float

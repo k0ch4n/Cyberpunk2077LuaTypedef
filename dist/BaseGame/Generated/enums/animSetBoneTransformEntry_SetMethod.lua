@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSetBoneTransformEntry_SetMethod: Enum
 ---@field NoSnapping Enum 0

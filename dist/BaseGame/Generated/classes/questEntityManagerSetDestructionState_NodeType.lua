@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerSetDestructionState_NodeType: questIEntityManager_NodeType
 ---@field public action questSetDestructionStateAction

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWidgetReference
 ---@field public widget inkWidget

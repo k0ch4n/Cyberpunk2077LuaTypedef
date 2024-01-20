@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Terminal: InteractiveMasterDevice
 ---@field protected cameraFeed ScriptableVirtualCameraViewComponent

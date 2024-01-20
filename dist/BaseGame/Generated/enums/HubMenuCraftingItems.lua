@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuCraftingItems: Enum
 ---@field Crafting Enum 0

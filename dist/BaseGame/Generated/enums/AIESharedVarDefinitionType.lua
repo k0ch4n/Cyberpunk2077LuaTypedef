@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIESharedVarDefinitionType: Enum
 ---@field SVInt Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindanceSpeed: Enum
 ---@field Any Enum 0

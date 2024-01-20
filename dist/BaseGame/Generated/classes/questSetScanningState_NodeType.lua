@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetScanningState_NodeType: questIVisionModeNodeType
 ---@field public objectRef gameEntityReference

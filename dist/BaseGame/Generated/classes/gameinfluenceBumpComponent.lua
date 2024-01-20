@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceBumpComponent: entIPlacedComponent
 ---@field public isPlayerControlled Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SSAOAreaSettings: IAreaSettings
 ---@field public noiseFilterTolerance curveData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleDoor_ConditionType: questIVehicleConditionType
 ---@field public vehicleRef gameEntityReference

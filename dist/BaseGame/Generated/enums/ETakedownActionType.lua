@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETakedownActionType: Enum
 ---@field GrappleFailed Enum 0

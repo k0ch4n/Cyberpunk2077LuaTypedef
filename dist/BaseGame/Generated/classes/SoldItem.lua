@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SoldItem: IScriptable
 ---@field public itemID gameItemID

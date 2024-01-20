@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescStencilFuncDesc
 ---@field public stencilPassOp PSODescDepthStencilModeStencilOpMode

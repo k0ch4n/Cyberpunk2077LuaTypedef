@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SlideEvents: CrouchEvents
 ---@field public rumblePlayed Bool

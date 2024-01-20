@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DodgeToAvoidCombatEvent: redEvent
 ---@field public delayID gameDelayID

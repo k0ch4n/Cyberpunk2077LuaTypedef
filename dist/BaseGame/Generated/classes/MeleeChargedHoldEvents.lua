@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeChargedHoldEvents: MeleeRumblingEvents
 ---@field public clearWeaponCharge Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetInputActionMoveForward: gameIMuppetInputAction
 ---@field public direction Vector2

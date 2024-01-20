@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioSoundComponent: gameaudioSoundComponentBase
 ---@field public subSystems gameaudioSoundComponentSubSystemWrapper[]

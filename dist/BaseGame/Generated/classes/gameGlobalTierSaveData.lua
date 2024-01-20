@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGlobalTierSaveData
 ---@field public subtype gameGlobalTierSubtype

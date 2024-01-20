@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAccessLevelEntry
 ---@field public keycard TweakDBID

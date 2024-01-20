@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHUD_Preset_Entry_Record: gamedataTweakDBRecord
 gamedataHUD_Preset_Entry_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BloodPuddleEvent: redEvent
 ---@field public slotName CName

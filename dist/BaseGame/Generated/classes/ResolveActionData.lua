@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResolveActionData: IScriptable
 ---@field public password String

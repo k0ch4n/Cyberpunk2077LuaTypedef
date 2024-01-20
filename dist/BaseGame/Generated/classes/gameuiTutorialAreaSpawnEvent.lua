@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTutorialAreaSpawnEvent: redEvent
 ---@field public bracketID CName

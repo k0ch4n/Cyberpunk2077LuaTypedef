@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioSceneSignalOverride
 ---@field public templateSignal CName

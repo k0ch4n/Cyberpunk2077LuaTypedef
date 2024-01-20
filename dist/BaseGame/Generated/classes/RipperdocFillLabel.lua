@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocFillLabel: inkWidgetLogicController
 ---@field private label inkTextWidgetReference

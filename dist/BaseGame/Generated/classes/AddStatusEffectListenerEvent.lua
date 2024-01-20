@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddStatusEffectListenerEvent: redEvent
 ---@field public listener StatusEffectTriggerListener

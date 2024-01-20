@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterQuickHacked_ConditionType: questICharacterConditionType
 ---@field public objectRef gameEntityReference

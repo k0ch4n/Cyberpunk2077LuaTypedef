@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entCharacterCustomizationSkinnedMeshComponent: entSkinnedMeshComponent
 ---@field public tags redTagList

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questHackingManager_NodeTypeParams
 ---@field public objectRef NodeRef

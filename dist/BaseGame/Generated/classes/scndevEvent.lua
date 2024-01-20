@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scndevEvent
 ---@field public nodeId scnNodeId

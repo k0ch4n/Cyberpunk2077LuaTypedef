@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_ScreenHelper: IScriptable
 Codeware_UI_ScreenHelper = {}

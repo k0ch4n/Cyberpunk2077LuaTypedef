@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HoloTable: InteractiveDevice
 ---@field public componentCounter Int32

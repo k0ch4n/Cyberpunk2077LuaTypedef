@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MusicSettings: IScriptable
 ---@field protected statusEffect ESoundStatusEffects

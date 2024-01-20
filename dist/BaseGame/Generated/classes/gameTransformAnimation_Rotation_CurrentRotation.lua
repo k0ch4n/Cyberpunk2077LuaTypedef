@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Rotation_CurrentRotation: gameTransformAnimation_Rotation
 ---@field public offset Quaternion

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InitiateScanner: redEvent
 ---@field public trespasserEntryIndex Int32

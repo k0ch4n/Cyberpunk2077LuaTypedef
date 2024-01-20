@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PaymentStatus: Enum
 ---@field DEFAULT Enum 0

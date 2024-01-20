@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldgeometryDescriptionQueryStatus: Enum
 ---@field OK Enum 0

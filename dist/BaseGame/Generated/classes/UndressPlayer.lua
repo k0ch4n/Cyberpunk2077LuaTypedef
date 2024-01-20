@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UndressPlayer: redEvent
 ---@field public isCensored Bool

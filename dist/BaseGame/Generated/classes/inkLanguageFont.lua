@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLanguageFont
 ---@field public font inkFontFamilyResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OutlineRequest: IScriptable
 ---@field private requester CName

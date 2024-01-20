@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionQuickHack_Record: gamedataAISubAction_Record
 gamedataAISubActionQuickHack_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStaticTriggerAreaComponent: gameStaticAreaShapeComponent
 ---@field public includeMask Uint32

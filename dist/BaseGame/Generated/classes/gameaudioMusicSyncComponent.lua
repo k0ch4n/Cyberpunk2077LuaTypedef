@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioMusicSyncComponent: entIComponent
 ---@field public notifyBeats Bool

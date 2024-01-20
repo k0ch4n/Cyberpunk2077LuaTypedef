@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAdvertIndoorFilter: Enum
 ---@field Always Enum 0

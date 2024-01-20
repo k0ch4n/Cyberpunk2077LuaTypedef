@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDoorDecoratorMetadata: audioEmitterMetadata
 ---@field public startOpen CName

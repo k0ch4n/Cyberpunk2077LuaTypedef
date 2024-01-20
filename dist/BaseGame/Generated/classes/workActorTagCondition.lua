@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workActorTagCondition: workIWorkspotCondition
 ---@field public tag CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSceneRecordingContentObserverNode: worldNode
 ---@field public filter worldSceneRecordingNodeFilter

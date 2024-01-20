@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_ItemLogDef: gamebbScriptDefinition
 ---@field public ItemLogItem gamebbScriptID_Variant

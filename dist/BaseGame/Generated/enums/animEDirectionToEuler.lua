@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEDirectionToEuler: Enum
 ---@field Pitch Enum 0

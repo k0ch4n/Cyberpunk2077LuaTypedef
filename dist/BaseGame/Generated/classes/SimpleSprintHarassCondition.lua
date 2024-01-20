@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSprintHarassCondition: AIbehaviorconditionScript
 ---@field private initialized Bool

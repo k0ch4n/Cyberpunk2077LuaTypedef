@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecuritySystem: DeviceSystemBase
 ---@field private savedOutputCache OutputValidationDataStruct[]

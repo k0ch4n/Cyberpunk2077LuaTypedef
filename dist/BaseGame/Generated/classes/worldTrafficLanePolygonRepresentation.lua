@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficLanePolygonRepresentation
 ---@field public outline Vector3[]

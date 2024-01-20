@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneDecisions: VehicleTransition
 ---@field public sceneTierCallback redCallbackObject

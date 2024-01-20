@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendMultiple: animAnimNode_Base
 ---@field public inputValues Float[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemInventoryMiniGrid: inkWidgetLogicController
 ---@field private gridList inkCompoundWidgetReference

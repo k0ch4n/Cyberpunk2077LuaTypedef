@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficLaneCrowdCreationInfo
 ---@field public connectedFragments worldTrafficLaneCrowdFragment[]

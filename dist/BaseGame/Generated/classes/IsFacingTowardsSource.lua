@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsFacingTowardsSource: gameEffectObjectSingleFilter_Scripted
 ---@field public applyForPlayer Bool

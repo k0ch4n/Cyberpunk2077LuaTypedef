@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPhysicalMaterialToAudioMetadataMatrix: audioAudioMetadata
 ---@field public physicalToAudioMaterialAssignments audioAudioMaterialMetadataMapItem[]

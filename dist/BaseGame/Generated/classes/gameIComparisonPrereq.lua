@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameIComparisonPrereq: gameIPrereq
 ---@field public comparisonType gameComparisonType

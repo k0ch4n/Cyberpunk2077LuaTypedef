@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnDynamicAnimSetSRRefId
 ---@field public id Uint32

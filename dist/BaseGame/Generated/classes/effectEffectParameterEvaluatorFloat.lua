@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectEffectParameterEvaluatorFloat
 ---@field public evaluator IEvaluatorFloat

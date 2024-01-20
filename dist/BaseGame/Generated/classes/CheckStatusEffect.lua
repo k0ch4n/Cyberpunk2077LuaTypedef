@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckStatusEffect: AIStatusEffectCondition
 ---@field public statusEffectID TweakDBID

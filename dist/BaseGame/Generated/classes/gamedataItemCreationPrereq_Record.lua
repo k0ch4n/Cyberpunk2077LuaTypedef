@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemCreationPrereq_Record: gamedataStatPrereq_Record
 gamedataItemCreationPrereq_Record = {}

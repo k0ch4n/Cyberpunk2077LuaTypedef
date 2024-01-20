@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingDataGroup: Enum
 ---@field Base Enum 0

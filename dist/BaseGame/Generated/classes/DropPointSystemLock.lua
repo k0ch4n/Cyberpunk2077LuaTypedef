@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointSystemLock
 ---@field public lockReason CName

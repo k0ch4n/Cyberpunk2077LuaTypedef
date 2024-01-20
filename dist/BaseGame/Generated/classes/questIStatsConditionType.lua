@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIStatsConditionType: questIConditionType
 ---@field public entityRef questUniversalRef

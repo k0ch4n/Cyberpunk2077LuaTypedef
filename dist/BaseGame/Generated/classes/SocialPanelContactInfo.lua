@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SocialPanelContactInfo
 ---@field public Hash Int32

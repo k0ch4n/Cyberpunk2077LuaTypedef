@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BrowserController: inkWidgetLogicController
 ---@field protected homeButton inkWidgetReference

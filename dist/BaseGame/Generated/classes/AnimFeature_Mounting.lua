@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_Mounting: animAnimFeature
 ---@field public mountingState Int32

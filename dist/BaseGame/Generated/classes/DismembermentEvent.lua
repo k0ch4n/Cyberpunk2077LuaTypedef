@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentEvent: redEvent
 ---@field public bodyPart gameDismBodyPart

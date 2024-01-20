@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyBBoxSyncOptions: Enum
 ---@field Do_Nothing Enum 0

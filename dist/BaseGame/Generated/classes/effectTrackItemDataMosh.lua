@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemDataMosh: effectTrackItem
 ---@field public override Bool

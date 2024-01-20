@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModePrereq: gameIPrereq
 ---@field public type gameVisionModeType

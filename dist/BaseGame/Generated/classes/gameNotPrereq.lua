@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNotPrereq: gameIPrereq
 ---@field public negatedPrereq gameIPrereq

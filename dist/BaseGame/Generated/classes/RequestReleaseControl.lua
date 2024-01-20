@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestReleaseControl: gameScriptableSystemRequest
 ---@field public followupEvent redEvent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnsimActionsScenariosNodeScenarios
 ---@field public nodeId scnNodeId

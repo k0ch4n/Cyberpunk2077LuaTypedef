@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorParallelNodeChildState: Enum
 ---@field Inactive Enum 0

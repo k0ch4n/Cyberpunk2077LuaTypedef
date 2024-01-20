@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIMovingInCirclesCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIMovingInCirclesCond_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_StagePoseEntry: animAnimNode_Base
 ---@field public inputName CName

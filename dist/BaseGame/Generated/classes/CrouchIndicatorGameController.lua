@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrouchIndicatorGameController: gameuiHUDGameController
 ---@field private crouchIcon inkImageWidgetReference

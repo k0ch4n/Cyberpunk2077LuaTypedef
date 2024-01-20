@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEntityEmitterContextType: Enum
 ---@field ["Entity Emitter"] Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OrderTakedownEvent: redEvent
 ---@field public target gameObject

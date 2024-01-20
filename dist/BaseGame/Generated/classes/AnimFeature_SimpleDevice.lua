@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SimpleDevice: animAnimFeatureMarkUnstable
 ---@field public isOpen Bool

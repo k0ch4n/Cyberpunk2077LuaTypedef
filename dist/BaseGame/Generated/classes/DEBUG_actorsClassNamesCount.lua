@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_actorsClassNamesCount: IScriptable
 ---@field public className CName

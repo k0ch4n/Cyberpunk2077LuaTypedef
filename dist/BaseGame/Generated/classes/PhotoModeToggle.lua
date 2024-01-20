@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeToggle: inkToggleController
 ---@field private SelectedWidget inkWidgetReference

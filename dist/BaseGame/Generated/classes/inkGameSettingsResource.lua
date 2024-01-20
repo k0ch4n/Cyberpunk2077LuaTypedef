@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGameSettingsResource: CResource
 ---@field public compositionResource inkFullscreenCompositionResource

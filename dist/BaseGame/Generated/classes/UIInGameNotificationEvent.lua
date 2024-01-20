@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInGameNotificationEvent: redEvent
 ---@field public notificationType UIInGameNotificationType

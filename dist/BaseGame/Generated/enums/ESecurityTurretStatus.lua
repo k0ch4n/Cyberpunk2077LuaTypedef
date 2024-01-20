@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityTurretStatus: Enum
 ---@field THREAT Enum -1

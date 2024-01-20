@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IterateModulesRequest: gameScriptableSystemRequest
 ---@field public remainingJobs HUDJob[]

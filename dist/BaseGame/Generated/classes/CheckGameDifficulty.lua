@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckGameDifficulty: AIbehaviorconditionScript
 ---@field public comparedDifficulty gameDifficulty

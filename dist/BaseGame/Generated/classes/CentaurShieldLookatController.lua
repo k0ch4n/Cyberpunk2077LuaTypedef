@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CentaurShieldLookatController: AILookatTask
 ---@field private mainShieldLookat entLookAtAddEvent

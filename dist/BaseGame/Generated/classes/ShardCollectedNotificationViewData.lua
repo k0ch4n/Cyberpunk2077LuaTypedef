@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardCollectedNotificationViewData: gameuiGenericNotificationViewData
 ---@field public entry gameJournalOnscreen

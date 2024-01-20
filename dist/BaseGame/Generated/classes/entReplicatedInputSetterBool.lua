@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedInputSetterBool: entReplicatedInputSetterBase
 ---@field public value Bool

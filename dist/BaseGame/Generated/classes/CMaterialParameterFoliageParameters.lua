@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterFoliageParameters: CMaterialParameter
 ---@field public foliageProfile CFoliageProfile

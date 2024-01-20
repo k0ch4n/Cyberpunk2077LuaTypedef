@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMappinsContainerController: gameuiProjectedHUDGameController
 ---@field public psmVision gamePSMVision

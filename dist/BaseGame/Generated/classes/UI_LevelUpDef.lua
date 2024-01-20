@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_LevelUpDef: gamebbScriptDefinition
 ---@field public level gamebbScriptID_Variant

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsNotificationListener: userSettingsNotificationListener
 ---@field private ctrl SettingsMainGameController

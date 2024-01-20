@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddStatusEffectToAttackEffector: ModifyAttackEffector
 ---@field public isRandom Bool

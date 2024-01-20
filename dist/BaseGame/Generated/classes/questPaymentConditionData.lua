@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPaymentConditionData
 ---@field public isInverted Bool

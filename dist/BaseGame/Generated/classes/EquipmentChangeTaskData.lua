@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentChangeTaskData: gameScriptTaskData
 ---@field public eqData SPaperdollEquipData

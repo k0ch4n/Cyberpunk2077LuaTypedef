@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsSimulationFilter
 ---@field public mask1 Uint64

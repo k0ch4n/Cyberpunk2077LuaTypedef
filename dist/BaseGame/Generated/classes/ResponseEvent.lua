@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResponseEvent: redEvent
 ---@field public responseData IScriptable

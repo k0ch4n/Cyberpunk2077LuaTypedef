@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterRadioItemHoverOut: redEvent
 ---@field public target inkWidget

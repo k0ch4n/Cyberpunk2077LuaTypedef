@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleDrawerMesh: IParticleDrawer
 ---@field public meshes CMesh[]

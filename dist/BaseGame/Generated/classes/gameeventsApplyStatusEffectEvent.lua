@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsApplyStatusEffectEvent: gameeventsStatusEffectEvent
 ---@field public isNewApplication Bool

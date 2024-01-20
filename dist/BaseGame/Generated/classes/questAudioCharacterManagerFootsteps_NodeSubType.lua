@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioCharacterManagerFootsteps_NodeSubType: questIAudioCharacterManager_NodeSubType
 questAudioCharacterManagerFootsteps_NodeSubType = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorStateOperations: DeviceOperations
 ---@field protected doorStateOperations SDoorStateOperationData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlindingLight: BasicDistractionDevice
 ---@field protected areaComponent gameStaticTriggerAreaComponent

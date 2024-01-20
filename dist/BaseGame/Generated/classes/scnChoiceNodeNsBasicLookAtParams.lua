@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsBasicLookAtParams: scnChoiceNodeNsLookAtParams
 ---@field public slotName CName

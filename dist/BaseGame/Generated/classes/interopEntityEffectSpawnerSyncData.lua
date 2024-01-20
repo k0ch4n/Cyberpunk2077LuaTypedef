@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopEntityEffectSpawnerSyncData
 ---@field public componentID EditorObjectID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PresetTimetableEvent: redEvent
 ---@field public arrayPosition Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerWokrspotDeviceOperation: DeviceOperationBase
 ---@field public playerWorkspot SWorkspotData

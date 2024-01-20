@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleSearchFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
 ---@field public angleRange Vector2

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetDrivenKey_InternalsEntry
 ---@field public curve curveData

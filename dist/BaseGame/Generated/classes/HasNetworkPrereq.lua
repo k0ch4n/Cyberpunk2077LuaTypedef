@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HasNetworkPrereq: gameIScriptablePrereq
 ---@field public invert Bool

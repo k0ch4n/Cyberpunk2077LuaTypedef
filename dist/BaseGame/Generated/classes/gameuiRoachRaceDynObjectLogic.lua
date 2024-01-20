@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRoachRaceDynObjectLogic: gameuiSideScrollerMiniGameDynObjectLogic
 ---@field public minSpawnY Float

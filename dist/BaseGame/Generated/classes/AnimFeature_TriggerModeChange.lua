@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_TriggerModeChange: animAnimFeature
 ---@field public cycleTime Float

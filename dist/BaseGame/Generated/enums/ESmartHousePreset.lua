@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESmartHousePreset: Enum
 ---@field MorningPreset Enum 0

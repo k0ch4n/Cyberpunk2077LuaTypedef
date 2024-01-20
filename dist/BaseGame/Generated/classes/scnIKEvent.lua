@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnIKEvent: scnSceneEvent
 ---@field public ikData scnIKEventData

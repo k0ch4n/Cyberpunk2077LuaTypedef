@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckSpeakersDistanceReturnCondition: scnIReturnCondition
 ---@field public params scnCheckSpeakersDistanceReturnConditionParams

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseToggleView: inkWidgetLogicController
 ---@field protected ToggleController inkToggleController

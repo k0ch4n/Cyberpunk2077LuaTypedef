@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMultiChildren: inkChildren
 ---@field public children inkWidget[]

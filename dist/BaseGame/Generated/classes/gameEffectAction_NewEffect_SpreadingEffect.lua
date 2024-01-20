@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectAction_NewEffect_SpreadingEffect: gameEffectPostAction
 ---@field public tagInThisFile CName

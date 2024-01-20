@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUIGameContextRequestType: Enum
 ---@field Push Enum 0

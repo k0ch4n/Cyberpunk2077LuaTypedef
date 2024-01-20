@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HoverEvent: redEvent
 ---@field public hooverOn Bool

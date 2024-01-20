@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponReload: animAnimFeature
 ---@field public emptyReload Bool

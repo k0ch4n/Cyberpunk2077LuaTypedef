@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SensorJammed: redEvent
 ---@field public sensor SensorDevice

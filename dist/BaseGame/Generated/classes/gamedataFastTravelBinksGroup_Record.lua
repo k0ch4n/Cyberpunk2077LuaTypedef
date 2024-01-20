@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFastTravelBinksGroup_Record: gamedataTweakDBRecord
 gamedataFastTravelBinksGroup_Record = {}

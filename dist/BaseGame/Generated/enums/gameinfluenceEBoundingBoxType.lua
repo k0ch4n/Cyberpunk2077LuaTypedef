@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceEBoundingBoxType: Enum
 ---@field Colider Enum 0

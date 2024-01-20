@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBountyAwardedEvent: redEvent
 ---@field public awarded Bool

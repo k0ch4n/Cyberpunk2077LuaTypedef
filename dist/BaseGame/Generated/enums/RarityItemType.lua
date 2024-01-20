@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RarityItemType: Enum
 ---@field Item Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSearchFilterMaskTypeCondition_Record: gamedataTweakDBRecord
 gamedataSearchFilterMaskTypeCondition_Record = {}

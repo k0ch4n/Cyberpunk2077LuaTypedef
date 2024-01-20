@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PublicSafeDecisions: WeaponReadyListenerTransition
 ---@field private isSprinting Bool

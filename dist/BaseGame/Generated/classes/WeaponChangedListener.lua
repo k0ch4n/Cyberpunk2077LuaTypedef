@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponChangedListener: gameAttachmentSlotsScriptCallback
 ---@field public gameController TargetHitIndicatorGameController

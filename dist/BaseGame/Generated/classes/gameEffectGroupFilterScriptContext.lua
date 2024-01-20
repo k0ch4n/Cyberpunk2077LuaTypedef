@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectGroupFilterScriptContext
 ---@field public resultIndices Int32[]

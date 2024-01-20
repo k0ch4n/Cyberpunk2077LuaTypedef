@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnFastForwardStrategy: Enum
 ---@field automatic Enum 0

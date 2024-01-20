@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleVehicleDoorState: Enum
 ---@field Closed Enum 0

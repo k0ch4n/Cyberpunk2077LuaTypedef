@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FocusCluesSystem: gameScriptableSystem
 ---@field private linkedClues LinkedFocusClueData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshRegionData
 ---@field public chunkDataIntact meshChunkOffset[]

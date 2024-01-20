@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSignalConditionModes: Enum
 ---@field CurrentValue Enum 0

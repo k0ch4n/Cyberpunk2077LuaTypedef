@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questHUDEntryAnimationEvent
 ---@field public hudEntry CName

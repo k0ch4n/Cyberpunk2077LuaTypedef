@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexUnlockRecordRequest: gameScriptableSystemRequest
 ---@field public codexRecordID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_VisualizerComponent: gameScriptableComponent
 ---@field private records DEBUG_VisualRecord[]

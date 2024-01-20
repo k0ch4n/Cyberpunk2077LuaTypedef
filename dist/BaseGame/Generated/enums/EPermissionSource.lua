@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPermissionSource: Enum
 ---@field GAMEPLAY Enum 0

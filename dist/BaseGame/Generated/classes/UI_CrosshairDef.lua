@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_CrosshairDef: gamebbScriptDefinition
 ---@field public EnemyNeutralized gamebbScriptID_Variant

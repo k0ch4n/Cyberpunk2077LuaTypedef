@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterTimetableRequest: gameScriptableSystemRequest
 ---@field public requesterData PSOwnerData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELayoutType: Enum
 ---@field Generic Enum 0

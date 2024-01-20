@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiETooltipPlacement: Enum
 ---@field LeftCenter Enum 0

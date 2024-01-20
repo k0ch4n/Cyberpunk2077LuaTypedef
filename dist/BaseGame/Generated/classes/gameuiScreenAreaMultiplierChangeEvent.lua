@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiScreenAreaMultiplierChangeEvent: redEvent
 ---@field public screenAreaMultiplier Float

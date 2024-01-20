@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSimpleBounceTransformOutput_ChannelEntry
 ---@field public transformChannel animTransformChannel

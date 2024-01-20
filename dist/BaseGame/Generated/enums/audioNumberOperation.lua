@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioNumberOperation: Enum
 ---@field SetEqual Enum 0

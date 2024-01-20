@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDecalRenderMode: Enum
 ---@field DRM_AllStatic Enum 0

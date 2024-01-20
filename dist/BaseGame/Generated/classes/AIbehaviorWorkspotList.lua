@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorWorkspotList: IScriptable
 ---@field public spots NodeRef[]

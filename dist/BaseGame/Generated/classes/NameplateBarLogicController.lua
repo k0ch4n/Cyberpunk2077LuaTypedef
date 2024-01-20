@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NameplateBarLogicController: ProgressBarSimpleWidgetLogicController
 ---@field private damagePreview DamagePreviewController

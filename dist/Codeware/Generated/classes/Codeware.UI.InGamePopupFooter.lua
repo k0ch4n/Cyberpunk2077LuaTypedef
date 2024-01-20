@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_InGamePopupFooter: Codeware_UI_inkCustomController
 ---@field public fluffIcon inkImageWidget

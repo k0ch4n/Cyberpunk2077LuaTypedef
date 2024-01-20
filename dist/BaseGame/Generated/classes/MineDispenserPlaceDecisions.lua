@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MineDispenserPlaceDecisions: MineDispenserTransition
 ---@field private spawnPosition Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSelectCoverTaskDefinition: AIbehaviorTaskDefinition
 ---@field public cover AIArgumentMapping

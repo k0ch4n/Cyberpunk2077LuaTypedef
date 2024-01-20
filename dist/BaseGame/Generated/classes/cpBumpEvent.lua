@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpBumpEvent: redEvent
 ---@field public amount Uint32

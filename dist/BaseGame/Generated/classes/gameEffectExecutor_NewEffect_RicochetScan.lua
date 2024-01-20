@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_NewEffect_RicochetScan: gameEffectExecutor_NewEffect
 ---@field public box Vector4

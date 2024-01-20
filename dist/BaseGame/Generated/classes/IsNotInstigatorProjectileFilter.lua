@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsNotInstigatorProjectileFilter: gameEffectObjectSingleFilter_Scripted
 IsNotInstigatorProjectileFilter = {}

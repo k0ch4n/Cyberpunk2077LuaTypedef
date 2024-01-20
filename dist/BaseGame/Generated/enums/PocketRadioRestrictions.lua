@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PocketRadioRestrictions: Enum
 ---@field SceneTier Enum 0

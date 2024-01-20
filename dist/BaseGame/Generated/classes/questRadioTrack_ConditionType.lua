@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRadioTrack_ConditionType: questISystemConditionType
 ---@field public radioTrack CName

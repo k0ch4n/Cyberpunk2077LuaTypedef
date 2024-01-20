@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseComponent: entIPlacedComponent
 ---@field public enableBeingDetectable Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Device: gameDeviceBase
 ---@field protected controller ScriptableDeviceComponent

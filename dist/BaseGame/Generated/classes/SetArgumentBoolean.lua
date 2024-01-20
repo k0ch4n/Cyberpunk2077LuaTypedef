@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetArgumentBoolean: SetArguments
 ---@field public customVar Bool

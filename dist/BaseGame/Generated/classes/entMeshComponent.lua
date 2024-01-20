@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entMeshComponent: entIVisualComponent
 ---@field public mesh CMesh

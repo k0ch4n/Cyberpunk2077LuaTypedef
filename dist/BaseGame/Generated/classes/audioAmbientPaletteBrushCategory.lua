@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientPaletteBrushCategory: audioAudioMetadata
 ---@field public brushes audioAmbientPaletteBrushDictionary

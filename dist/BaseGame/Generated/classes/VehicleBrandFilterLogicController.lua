@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleBrandFilterLogicController: BaseButtonView
 ---@field private brandLogo inkImageWidgetReference

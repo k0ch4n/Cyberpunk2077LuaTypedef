@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReserveItemToThisDropPoint: ScriptableDeviceAction
 ---@field public item TweakDBID

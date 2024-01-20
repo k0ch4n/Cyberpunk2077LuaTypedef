@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSelectCombatTargetTaskDefinition: AIbehaviorTaskDefinition
 ---@field public target AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponTailEnvironment: Enum
 ---@field InteriorDefault Enum 0

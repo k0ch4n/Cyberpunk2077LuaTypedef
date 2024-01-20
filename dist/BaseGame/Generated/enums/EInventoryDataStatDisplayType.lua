@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInventoryDataStatDisplayType: Enum
 ---@field CompareBar Enum 0

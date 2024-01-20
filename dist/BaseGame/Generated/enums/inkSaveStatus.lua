@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSaveStatus: Enum
 ---@field Invalid Enum 0

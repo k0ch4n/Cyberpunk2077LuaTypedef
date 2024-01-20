@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_AnimFeatureVector: animIAnimNodeSourceChannel_Vector
 animAnimNodeSourceChannel_AnimFeatureVector = {}

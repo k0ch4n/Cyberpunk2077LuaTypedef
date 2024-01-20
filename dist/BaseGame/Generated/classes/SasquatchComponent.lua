@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SasquatchComponent: gameScriptableComponent
 ---@field private owner NPCPuppet

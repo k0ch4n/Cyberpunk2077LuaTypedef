@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIThreatCalculationEvent: redEvent
 ---@field public set Bool

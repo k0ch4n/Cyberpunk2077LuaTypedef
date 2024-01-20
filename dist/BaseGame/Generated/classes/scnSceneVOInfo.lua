@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneVOInfo
 ---@field public inVoTrigger CName

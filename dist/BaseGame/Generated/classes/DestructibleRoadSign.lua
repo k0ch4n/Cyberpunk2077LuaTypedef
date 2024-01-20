@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestructibleRoadSign: BaseDestructibleDevice
 ---@field protected frameMesh entMeshComponent

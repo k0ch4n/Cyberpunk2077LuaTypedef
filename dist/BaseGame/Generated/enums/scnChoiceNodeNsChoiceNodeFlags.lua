@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsChoiceNodeFlags: Enum
 ---@field IsFocusClue Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointSystem: gameScriptableSystem
 ---@field private packages DropPointPackage[]

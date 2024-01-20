@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArmsCWInSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field protected state ArmsCWInSlotPrereqState

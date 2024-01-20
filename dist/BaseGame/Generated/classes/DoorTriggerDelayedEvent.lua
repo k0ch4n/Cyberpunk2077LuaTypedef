@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorTriggerDelayedEvent: redEvent
 ---@field public activator gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirtualItem_TEMP: gameObject
 ---@field public item String

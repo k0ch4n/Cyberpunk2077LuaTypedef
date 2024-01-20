@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCommandHandlerNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public commandName CName

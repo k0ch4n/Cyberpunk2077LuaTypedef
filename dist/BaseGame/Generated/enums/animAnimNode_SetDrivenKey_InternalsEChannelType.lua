@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetDrivenKey_InternalsEChannelType: Enum
 ---@field FloatTrack Enum 0

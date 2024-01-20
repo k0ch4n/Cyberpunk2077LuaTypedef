@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_CompositeSimultaneous: animIAnimStateTransitionCondition
 ---@field public conditions animIAnimStateTransitionCondition[]

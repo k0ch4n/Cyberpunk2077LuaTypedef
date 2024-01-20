@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_VisionModeDef: gamebbScriptDefinition
 ---@field public isEnabled gamebbScriptID_Bool

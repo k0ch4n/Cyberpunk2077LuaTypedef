@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLifePath: Enum
 ---@field Corporate Enum 0

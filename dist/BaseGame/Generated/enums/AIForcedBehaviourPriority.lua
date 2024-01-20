@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIForcedBehaviourPriority: Enum
 ---@field AboveIdle Enum 0

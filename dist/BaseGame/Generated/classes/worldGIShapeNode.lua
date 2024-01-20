@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldGIShapeNode: worldGeometryShapeNode
 ---@field public priority Uint32

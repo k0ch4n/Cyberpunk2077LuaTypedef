@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestRandomizationSupervisor: genScriptedRandomizationSupervisor
 ---@field public firstWasGenerated Bool

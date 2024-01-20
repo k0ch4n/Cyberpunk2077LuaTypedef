@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SecurityTurretData: animAnimFeature
 ---@field public Shoot Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EGrenadeType: Enum
 ---@field Frag Enum 0

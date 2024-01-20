@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtAdditionalPreset_BothArms: animLookAtAdditionalPreset
 ---@field public rightHanded Bool

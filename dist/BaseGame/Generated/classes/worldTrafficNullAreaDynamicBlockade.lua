@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficNullAreaDynamicBlockade
 ---@field public areaID Uint64

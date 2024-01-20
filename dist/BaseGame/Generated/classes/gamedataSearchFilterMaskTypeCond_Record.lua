@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSearchFilterMaskTypeCond_Record: gamedataSearchFilterMaskTypeCondition_Record
 gamedataSearchFilterMaskTypeCond_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSpawnSetParams
 ---@field public reference NodeRef

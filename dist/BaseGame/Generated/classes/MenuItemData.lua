@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuItemData: IScriptable
 ---@field public menuData MenuData

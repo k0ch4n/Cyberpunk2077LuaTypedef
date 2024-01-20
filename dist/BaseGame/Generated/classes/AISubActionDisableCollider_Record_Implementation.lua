@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionDisableCollider_Record_Implementation: IScriptable
 AISubActionDisableCollider_Record_Implementation = {}

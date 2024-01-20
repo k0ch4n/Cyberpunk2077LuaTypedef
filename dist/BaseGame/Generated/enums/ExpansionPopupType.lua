@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionPopupType: Enum
 ---@field Default Enum 0

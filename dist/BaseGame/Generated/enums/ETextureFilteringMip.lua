@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureFilteringMip: Enum
 ---@field TFMip_None Enum 0

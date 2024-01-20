@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemSetBackpackFilter: gameScriptableSystemRequest
 ---@field public filterMode Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionActivateStrongArmsFX_Record_Implementation: IScriptable
 AISubActionActivateStrongArmsFX_Record_Implementation = {}

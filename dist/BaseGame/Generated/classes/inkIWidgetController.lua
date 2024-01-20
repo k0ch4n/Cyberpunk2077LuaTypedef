@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkIWidgetController: IScriptable
 ---@field public audioMetadataName CName

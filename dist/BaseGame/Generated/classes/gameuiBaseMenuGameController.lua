@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBaseMenuGameController: gameuiWidgetGameController
 ---@field public puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class grsGatherAreaReplicatedInfo
 ---@field public enteredPlayerIDs netPeerID

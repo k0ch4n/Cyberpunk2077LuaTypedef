@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleEventReceiverSpawn: IParticleEvent
 ---@field public spawnObject EParticleEventSpawnObject

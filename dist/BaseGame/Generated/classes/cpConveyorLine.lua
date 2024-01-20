@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpConveyorLine
 ---@field public spline NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDirectorSystemSettings: audioAudioMetadata
 ---@field public combatVoManagerSettingsName CName

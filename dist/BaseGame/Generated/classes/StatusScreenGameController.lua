@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusScreenGameController: BaseBunkerComputerGameController
 ---@field protected alphaSys inkWidgetReference

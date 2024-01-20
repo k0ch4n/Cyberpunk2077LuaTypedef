@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SParticleEmitterLODLevel
 ---@field public emitterDurationSettings EmitterDurationSettings

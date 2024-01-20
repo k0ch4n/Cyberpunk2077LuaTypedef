@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PresetAction: ActionBool
 ---@field protected preset SmartHousePreset

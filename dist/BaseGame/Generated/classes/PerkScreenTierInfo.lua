@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkScreenTierInfo
 ---@field public wrapper inkWidgetReference

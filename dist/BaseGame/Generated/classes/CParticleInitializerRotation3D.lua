@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerRotation3D: IParticleInitializer
 ---@field public rotation IEvaluatorVector

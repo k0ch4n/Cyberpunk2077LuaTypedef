@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericDeviceOperation: DeviceOperationBase
 ---@field private fxInstances SVfxInstanceData[]

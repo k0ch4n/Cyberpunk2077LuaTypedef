@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_MeleeAttack: animAnimFeature
 ---@field public hit Bool

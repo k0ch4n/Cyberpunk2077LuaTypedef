@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDyngConstraintLink: animIDyngConstraint
 ---@field public bone1 animTransformIndex

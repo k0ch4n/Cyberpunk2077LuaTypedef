@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FinisherEffectorActionOn: redEvent
 ---@field public instigator gameObject

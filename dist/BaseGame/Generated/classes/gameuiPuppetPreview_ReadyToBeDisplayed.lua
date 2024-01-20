@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPuppetPreview_ReadyToBeDisplayed: redEvent
 ---@field public isMale Bool

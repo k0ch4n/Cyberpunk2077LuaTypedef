@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionAnimSlot_Record: gamedataTweakDBRecord
 gamedataAIActionAnimSlot_Record = {}

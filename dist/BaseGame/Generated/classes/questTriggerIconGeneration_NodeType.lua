@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTriggerIconGeneration_NodeType: questIUIManagerNodeType
 questTriggerIconGeneration_NodeType = {}

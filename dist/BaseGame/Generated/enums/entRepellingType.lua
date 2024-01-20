@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRepellingType: Enum
 ---@field Debris Enum 0

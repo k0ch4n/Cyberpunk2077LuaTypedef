@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_ApplyEffector: gameEffectExecutor_Scripted
 ---@field public effector TweakDBID

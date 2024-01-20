@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectInstanceEntryType: Enum
 ---@field UseEntryAnimation Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseShapes
 ---@field public shapes senseIShape[]

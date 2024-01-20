@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsEBinaryOperator: Enum
 ---@field EBinaryOperator_and Enum 0

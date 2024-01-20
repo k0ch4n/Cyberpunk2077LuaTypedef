@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inputESimplifiedInputDevice: Enum
 ---@field KBM Enum 0

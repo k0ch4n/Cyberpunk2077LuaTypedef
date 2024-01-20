@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitShapeBase: gameIHitShape
 ---@field public translation Vector3

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAITargetType: Enum
 ---@field AITT_Undefined Enum 0

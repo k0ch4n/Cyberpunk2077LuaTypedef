@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGlitchLoadingScreen_NodeType: questIUIManagerNodeType
 questGlitchLoadingScreen_NodeType = {}

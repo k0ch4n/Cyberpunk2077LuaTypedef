@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpawnSubCharacterEffector: gameEffector
 ---@field public owner gameObject

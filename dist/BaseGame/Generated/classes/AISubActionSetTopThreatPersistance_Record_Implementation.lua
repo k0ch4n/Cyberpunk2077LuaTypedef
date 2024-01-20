@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetTopThreatPersistance_Record_Implementation: IScriptable
 AISubActionSetTopThreatPersistance_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRoachRaceObstacleTexturePartPair_Record: gamedataTweakDBRecord
 gamedataRoachRaceObstacleTexturePartPair_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsInActiveCameraCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsInActiveCameraCond_Record = {}

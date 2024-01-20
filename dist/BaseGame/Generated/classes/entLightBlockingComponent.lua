@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLightBlockingComponent: entIVisualComponent
 ---@field public radius Float

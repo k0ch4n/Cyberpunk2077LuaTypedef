@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowNarrativeEvent_NodeType: questIUIManagerNodeType
 ---@field public eventText String

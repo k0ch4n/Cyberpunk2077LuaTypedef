@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPuppetAIManagerNodeDefinitionEntry
 ---@field public entityReference gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleOffMeshConnectionsDeviceOperation: DeviceOperationBase
 ---@field public enable Bool

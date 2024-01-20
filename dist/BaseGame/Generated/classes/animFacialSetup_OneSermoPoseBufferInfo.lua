@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialSetup_OneSermoPoseBufferInfo
 ---@field public numMainPoses Uint16

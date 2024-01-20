@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkESliderDirection: Enum
 ---@field Horizontal Enum 0

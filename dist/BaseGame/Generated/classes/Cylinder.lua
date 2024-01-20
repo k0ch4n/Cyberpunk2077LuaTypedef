@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Cylinder
 ---@field public positionAndRadius Vector4

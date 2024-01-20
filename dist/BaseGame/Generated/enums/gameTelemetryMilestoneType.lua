@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTelemetryMilestoneType: Enum
 ---@field StartFact Enum 0

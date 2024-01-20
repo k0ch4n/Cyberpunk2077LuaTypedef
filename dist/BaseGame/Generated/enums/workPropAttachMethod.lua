@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workPropAttachMethod: Enum
 ---@field BonePosition Enum 0

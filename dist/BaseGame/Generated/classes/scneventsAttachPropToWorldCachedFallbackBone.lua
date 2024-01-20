@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsAttachPropToWorldCachedFallbackBone
 ---@field public boneName CName

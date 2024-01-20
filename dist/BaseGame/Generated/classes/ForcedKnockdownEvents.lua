@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForcedKnockdownEvents: KnockdownEvents
 ---@field public firstUpdate Bool

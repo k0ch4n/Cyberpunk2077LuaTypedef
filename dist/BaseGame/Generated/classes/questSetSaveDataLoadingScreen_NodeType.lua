@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetSaveDataLoadingScreen_NodeType: questIUIManagerNodeType
 ---@field public selectedLoading TweakDBID

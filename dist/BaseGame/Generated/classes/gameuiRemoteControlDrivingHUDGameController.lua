@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRemoteControlDrivingHUDGameController: gameuiHUDGameController
 ---@field private overlay inkWidgetReference

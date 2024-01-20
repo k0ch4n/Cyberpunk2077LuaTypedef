@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleRequestCameraPerspectiveEvent: redEvent
 ---@field public cameraPerspective vehicleCameraPerspective

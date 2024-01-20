@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questValueDistance: questIDistance
 ---@field public distanceValue Float

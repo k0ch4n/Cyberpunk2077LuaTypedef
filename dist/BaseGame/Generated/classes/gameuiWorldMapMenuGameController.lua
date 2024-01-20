@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWorldMapMenuGameController: gameuiMappinsContainerController
 ---@field public settingsRecordID TweakDBID

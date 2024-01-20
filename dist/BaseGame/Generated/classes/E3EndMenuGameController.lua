@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class E3EndMenuGameController: gameuiMenuItemListGameController
 E3EndMenuGameController = {}

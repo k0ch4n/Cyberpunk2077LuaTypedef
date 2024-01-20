@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class metroMapPlayerPositionReferences
 ---@field public lineNumber Uint32

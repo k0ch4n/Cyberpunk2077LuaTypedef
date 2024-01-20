@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSystem: gameIGameSystem
 ---@field public clipboard String

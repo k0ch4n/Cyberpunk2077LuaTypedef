@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerDescriptionGameController: BaseChunkGameController
 ---@field private descriptionText inkTextWidgetReference

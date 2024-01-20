@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VolumetricFogAreaSettings: IAreaSettings
 ---@field public albedo curveData

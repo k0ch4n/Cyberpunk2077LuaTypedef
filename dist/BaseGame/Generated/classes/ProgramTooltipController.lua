@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgramTooltipController: AGenericTooltipControllerWithDebug
 ---@field protected backgroundContainer inkCompoundWidgetReference

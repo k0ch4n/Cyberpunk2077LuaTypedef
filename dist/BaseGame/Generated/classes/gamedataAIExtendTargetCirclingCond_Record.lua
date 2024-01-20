@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIExtendTargetCirclingCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIExtendTargetCirclingCond_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendingTerminal: InteractiveDevice
 ---@field public position Vector4

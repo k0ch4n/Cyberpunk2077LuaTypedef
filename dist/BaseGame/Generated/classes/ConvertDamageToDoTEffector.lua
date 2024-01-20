@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConvertDamageToDoTEffector: ModifyAttackEffector
 ---@field public DamageToDoTConversion Float

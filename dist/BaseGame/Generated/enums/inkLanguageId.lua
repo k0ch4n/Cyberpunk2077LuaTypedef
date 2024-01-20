@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLanguageId: Enum
 ---@field EN Enum 0

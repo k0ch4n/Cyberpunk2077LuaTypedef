@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScriptableDeviceAction: BaseScriptableAction
 ---@field public prop gamedeviceActionProperty

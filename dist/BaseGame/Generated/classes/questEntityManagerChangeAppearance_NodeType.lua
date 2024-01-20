@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerChangeAppearance_NodeType: questIEntityManager_NodeType
 ---@field public entityRef gameEntityReference

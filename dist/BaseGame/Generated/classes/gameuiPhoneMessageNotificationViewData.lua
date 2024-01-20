@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhoneMessageNotificationViewData: gameuiQuestUpdateNotificationViewData
 ---@field public threadHash Int32

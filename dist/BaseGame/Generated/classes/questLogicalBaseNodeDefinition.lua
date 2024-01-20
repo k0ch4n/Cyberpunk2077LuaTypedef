@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLogicalBaseNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public inputSocketCount Uint32

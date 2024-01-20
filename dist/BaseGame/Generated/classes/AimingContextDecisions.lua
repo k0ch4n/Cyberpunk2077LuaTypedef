@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AimingContextDecisions: InputContextTransitionDecisions
 ---@field private leftHandChargeCallbackID redCallbackObject

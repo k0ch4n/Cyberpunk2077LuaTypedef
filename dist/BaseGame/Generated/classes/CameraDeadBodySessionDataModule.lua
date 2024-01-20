@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraDeadBodySessionDataModule: GameSessionDataModule
 ---@field public cameraDeadBodyData CameraDeadBodyInternalData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLogGameController: gameuiMenuGameController
 ---@field private virtualList inkWidgetReference

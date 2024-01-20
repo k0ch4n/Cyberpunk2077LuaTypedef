@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsHeatStage5Active_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsHeatStage5Active_Record = {}

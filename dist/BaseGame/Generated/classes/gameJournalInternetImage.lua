@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalInternetImage: gameJournalInternetBase
 ---@field public textureAtlas inkTextureAtlas

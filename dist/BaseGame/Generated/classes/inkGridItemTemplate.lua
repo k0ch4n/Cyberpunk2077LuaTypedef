@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGridItemTemplate
 ---@field public sizeX Uint32

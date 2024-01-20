@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gearboxLogicController: IVehicleModuleController
 ---@field private gearboxRImageWidget inkImageWidgetReference

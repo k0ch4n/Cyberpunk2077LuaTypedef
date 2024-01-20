@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksTabAttributeInvestHoldFinished: redEvent
 ---@field public attribute PerkMenuAttribute

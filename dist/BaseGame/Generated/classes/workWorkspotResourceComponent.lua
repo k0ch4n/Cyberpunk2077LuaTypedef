@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotResourceComponent: entIPlacedComponent
 ---@field public workspotResource workWorkspotResource

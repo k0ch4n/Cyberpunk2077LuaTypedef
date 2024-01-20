@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTrapTooltipDisplayer: inkWidgetLogicController
 ---@field public trap gamedataMiniGame_Trap_Record

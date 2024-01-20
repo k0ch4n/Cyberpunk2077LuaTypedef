@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HackingMinigameDef: gamebbScriptDefinition
 ---@field public DeviceID gamebbScriptID_EntityID

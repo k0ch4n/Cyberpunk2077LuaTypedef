@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInspect_ConditionType: questIObjectConditionType
 ---@field public objectID String

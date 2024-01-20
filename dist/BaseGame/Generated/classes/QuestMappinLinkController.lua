@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestMappinLinkController: BaseCodexLinkController
 ---@field private mappinEntry gameJournalQuestMapPinBase

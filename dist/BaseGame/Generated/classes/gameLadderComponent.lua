@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLadderComponent: entIComponent
 ---@field public heightOfBottomPart Float

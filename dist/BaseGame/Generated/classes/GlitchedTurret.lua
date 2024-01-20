@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GlitchedTurret: Device
 ---@field public animFeature AnimFeature_SensorDevice

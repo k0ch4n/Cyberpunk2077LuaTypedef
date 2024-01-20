@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataClearLineOfSightCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataClearLineOfSightCoverSelectionParameters_Record = {}

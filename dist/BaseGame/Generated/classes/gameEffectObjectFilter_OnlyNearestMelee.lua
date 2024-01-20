@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_OnlyNearestMelee: gameEffectObjectGroupFilter
 ---@field public count Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldQuestPrefabLoadingMode: Enum
 ---@field Disable Enum 0

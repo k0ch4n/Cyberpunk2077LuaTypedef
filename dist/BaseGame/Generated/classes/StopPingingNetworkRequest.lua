@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StopPingingNetworkRequest: gameScriptableSystemRequest
 ---@field public source gameObject

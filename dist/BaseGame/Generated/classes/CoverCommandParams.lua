@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CoverCommandParams: IScriptable
 ---@field public exposureMethods AICoverExposureMethod[]

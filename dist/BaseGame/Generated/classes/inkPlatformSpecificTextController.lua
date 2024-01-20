@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkPlatformSpecificTextController: inkWidgetLogicController
 ---@field public textLocKey CName

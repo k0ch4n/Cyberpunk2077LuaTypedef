@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCrowdSlotMovementSettingsBase_Record: gamedataTweakDBRecord
 gamedataCrowdSlotMovementSettingsBase_Record = {}

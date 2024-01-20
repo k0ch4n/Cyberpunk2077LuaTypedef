@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScrollToJournalEntryEvent: redEvent
 ---@field public hash Int32

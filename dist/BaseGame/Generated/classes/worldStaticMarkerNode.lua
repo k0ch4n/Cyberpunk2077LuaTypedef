@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticMarkerNode: worldSocketNode
 ---@field public isEnabled Bool

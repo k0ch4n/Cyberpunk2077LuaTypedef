@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttributeTooltipData: BasePerksMenuTooltipData
 ---@field public attributeId TweakDBID

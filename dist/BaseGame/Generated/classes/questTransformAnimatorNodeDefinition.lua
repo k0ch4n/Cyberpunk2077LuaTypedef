@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransformAnimatorNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public objectRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProficiency_Record: gamedataTweakDBRecord
 gamedataProficiency_Record = {}

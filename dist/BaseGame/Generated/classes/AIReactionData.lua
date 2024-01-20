@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIReactionData: IScriptable
 ---@field public reactionPriority Int32

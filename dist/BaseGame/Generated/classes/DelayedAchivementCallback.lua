@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedAchivementCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field protected id Int32

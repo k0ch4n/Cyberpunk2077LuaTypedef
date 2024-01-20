@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_TextInput_Selection: Codeware_UI_inkCustomController
 ---@field public selection inkRectangleWidget

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OdaCementBag: InteractiveDevice
 ---@field private onCooldown Bool

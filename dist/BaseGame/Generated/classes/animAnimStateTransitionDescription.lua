@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionDescription: ISerializable
 ---@field public targetStateIndex Uint32

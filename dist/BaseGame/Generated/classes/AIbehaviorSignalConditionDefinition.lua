@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSignalConditionDefinition: AIbehaviorConditionDefinition
 ---@field public signalName CName

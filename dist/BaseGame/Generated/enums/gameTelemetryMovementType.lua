@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTelemetryMovementType: Enum
 ---@field Jump Enum 0

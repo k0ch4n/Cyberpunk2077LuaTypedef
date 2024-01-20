@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class genLevelRandomizerEntry
 ---@field public id String

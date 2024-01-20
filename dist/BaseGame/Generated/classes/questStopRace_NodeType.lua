@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStopRace_NodeType: questIVehicleManagerNodeType
 questStopRace_NodeType = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIApproachingAreaEvent: AIAIEvent
 ---@field public isApproachCancellation Bool

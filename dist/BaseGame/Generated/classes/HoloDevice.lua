@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HoloDevice: InteractiveDevice
 ---@field private questFactName CName

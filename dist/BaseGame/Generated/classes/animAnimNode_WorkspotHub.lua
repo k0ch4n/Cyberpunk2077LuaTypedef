@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_WorkspotHub: animAnimNode_Base
 ---@field public additionalLinkIds workWorkEntryId[]

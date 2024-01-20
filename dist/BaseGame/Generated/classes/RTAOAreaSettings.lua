@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RTAOAreaSettings: IAreaSettings
 ---@field public RangeNear curveData

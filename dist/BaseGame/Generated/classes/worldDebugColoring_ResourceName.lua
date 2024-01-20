@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_ResourceName: worldEditorDebugColoringSettings
 ---@field public names worldNameColorPair[]

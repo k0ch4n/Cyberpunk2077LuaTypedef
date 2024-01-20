@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextureAtlas: CResource
 ---@field public activeTexture inkTextureType

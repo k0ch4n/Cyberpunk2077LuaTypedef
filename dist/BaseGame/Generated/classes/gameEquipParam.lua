@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEquipParam
 ---@field public slotID TweakDBID

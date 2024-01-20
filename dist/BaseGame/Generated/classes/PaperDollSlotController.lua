@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PaperDollSlotController: inkButtonDpadSupportedController
 ---@field protected equipArea gamedataEquipmentArea

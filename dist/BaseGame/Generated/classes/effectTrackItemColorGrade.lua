@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemColorGrade: effectTrackItem
 ---@field public contrast effectEffectParameterEvaluatorFloat

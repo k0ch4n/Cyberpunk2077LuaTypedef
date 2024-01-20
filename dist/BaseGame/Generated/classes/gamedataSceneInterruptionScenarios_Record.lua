@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSceneInterruptionScenarios_Record: gamedataTweakDBRecord
 gamedataSceneInterruptionScenarios_Record = {}

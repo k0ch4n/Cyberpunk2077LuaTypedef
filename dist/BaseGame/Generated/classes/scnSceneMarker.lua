@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneMarker: worldIMarker
 ---@field public markers scnSceneMarkerInternalsAnimEventEntry[]

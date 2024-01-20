@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IncomingCallGameController: gameuiNewPhoneRelatedHUDGameController
 ---@field private contactNameWidget inkTextWidgetReference

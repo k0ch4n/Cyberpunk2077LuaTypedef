@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_PostProcess_Footlock: animIAnimNode_PostProcess
 animAnimNode_PostProcess_Footlock = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerTeleportPuppetParams
 ---@field public teleportAllPlayers Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_ForceRagdoll: animAnimEvent
 animAnimEvent_ForceRagdoll = {}

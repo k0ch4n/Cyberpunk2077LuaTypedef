@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPoseCorrectionGroup
 ---@field public poseCorrections animPoseCorrection

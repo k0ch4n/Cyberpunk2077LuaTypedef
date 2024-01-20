@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimeDilationFocusModeEvents: TimeDilationEventsTransitions
 ---@field public timeDilation Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArgumentMapping: IScriptable
 ---@field public type AIArgumentType

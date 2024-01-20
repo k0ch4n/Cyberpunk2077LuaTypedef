@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatMathOp: animAnimNode_FloatValue
 ---@field public operationType animEAnimGraphMathOp

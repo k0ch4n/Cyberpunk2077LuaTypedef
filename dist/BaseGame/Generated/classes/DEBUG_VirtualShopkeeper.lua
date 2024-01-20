@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_VirtualShopkeeper: gameObject
 ---@field protected vendorID String

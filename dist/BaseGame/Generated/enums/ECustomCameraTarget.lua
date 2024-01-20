@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECustomCameraTarget: Enum
 ---@field ECCTV_All Enum 0

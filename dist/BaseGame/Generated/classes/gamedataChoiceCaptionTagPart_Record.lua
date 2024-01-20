@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChoiceCaptionTagPart_Record: gamedataChoiceCaptionPart_Record
 gamedataChoiceCaptionTagPart_Record = {}

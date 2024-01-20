@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAINodeMapField_Record: gamedataTweakDBRecord
 gamedataAINodeMapField_Record = {}

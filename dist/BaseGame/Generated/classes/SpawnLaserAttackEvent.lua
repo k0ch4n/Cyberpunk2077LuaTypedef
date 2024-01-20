@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpawnLaserAttackEvent: redEvent
 ---@field public attackRecord gamedataAttack_Record

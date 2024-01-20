@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VenodrRequestQueueEntry: IScriptable
 ---@field public requestID Int32

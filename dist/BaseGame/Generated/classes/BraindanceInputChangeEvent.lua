@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BraindanceInputChangeEvent: redEvent
 ---@field public bdSystem BraindanceSystem

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatPoolModifierEffector: gameEffector
 ---@field public owner gameObject

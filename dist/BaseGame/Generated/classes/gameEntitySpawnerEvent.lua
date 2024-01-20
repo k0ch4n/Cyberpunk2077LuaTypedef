@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntitySpawnerEvent: redEvent
 ---@field public spawnedEntityId entEntityID

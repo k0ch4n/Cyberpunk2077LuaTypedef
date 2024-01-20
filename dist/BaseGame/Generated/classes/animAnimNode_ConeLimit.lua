@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ConeLimit: animAnimNode_OnePoseInput
 ---@field public coneTransform animTransformIndex

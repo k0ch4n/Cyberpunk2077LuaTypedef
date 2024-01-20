@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatClamp: animAnimNode_FloatValue
 ---@field public min Float

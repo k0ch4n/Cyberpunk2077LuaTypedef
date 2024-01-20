@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipGrenadeInfoModule: ItemTooltipModuleController
 ---@field private headerText inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageDestructionResource: CResource
 ---@field public mappings worldFoliageDestructionMapping[]

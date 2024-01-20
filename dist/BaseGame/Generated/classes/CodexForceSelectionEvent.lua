@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexForceSelectionEvent: redEvent
 ---@field public selectionIndex Int32

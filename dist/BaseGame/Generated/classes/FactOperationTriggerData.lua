@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactOperationTriggerData: DeviceOperationTriggerData
 ---@field public comparisionType EComparisonOperator

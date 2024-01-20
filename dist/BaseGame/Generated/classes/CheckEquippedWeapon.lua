@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckEquippedWeapon: AIItemHandlingCondition
 ---@field public slotID AIArgumentMapping

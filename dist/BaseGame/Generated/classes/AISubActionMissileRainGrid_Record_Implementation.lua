@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionMissileRainGrid_Record_Implementation: IScriptable
 AISubActionMissileRainGrid_Record_Implementation = {}

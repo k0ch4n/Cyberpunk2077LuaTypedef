@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkListItemController: inkButtonController
 ---@field public ToggledOff inkListItemControllerCallback

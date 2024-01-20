@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleLightQuestChangeColorEvent: redEvent
 ---@field public color Color

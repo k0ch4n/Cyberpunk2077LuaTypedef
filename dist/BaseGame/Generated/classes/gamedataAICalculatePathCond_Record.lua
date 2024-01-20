@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAICalculatePathCond_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculatePathCond_Record = {}

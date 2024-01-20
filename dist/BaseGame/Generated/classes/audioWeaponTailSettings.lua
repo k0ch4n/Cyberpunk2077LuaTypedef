@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponTailSettings: audioAudioMetadata
 ---@field public interiorDefault CName

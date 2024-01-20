@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSpeedSplineNode: worldSplineNode
 ---@field public speedChangeSections worldSpeedSplineNodeSpeedChangeSection[]

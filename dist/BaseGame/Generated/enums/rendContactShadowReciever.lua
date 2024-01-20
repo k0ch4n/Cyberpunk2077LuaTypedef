@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendContactShadowReciever: Enum
 ---@field CSR_None Enum 0

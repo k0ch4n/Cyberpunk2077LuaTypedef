@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityTurretReplicatedState: gameDeviceReplicatedState
 ---@field public isOn Bool

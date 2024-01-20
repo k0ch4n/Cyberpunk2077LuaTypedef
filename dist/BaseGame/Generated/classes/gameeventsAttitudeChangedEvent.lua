@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsAttitudeChangedEvent: redEvent
 ---@field public otherAgent gameAttitudeAgent

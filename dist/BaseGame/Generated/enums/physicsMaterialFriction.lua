@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsMaterialFriction: Enum
 ---@field Enabled Enum 0

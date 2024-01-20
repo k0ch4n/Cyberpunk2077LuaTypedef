@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BeingTargetByLaserSightUpdateEvent: redEvent
 ---@field public weapon gameweaponObject

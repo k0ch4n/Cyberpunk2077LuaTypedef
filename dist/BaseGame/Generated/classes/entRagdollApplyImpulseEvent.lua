@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRagdollApplyImpulseEvent: redEvent
 ---@field public worldImpulsePos Vector4

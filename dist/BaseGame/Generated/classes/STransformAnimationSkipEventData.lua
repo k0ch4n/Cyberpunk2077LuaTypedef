@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class STransformAnimationSkipEventData
 ---@field public time Float

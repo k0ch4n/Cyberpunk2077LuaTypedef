@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDInstruction: redEvent
 ---@field public scannerInstructions ScanInstance

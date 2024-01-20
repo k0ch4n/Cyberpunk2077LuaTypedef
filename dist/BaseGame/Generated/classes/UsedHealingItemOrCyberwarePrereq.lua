@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UsedHealingItemOrCyberwarePrereq: gameIScriptablePrereq
 ---@field public curValue Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmState_ReconnectController: gsmState
 gsmState_ReconnectController = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipAttachmentEntryController: inkWidgetLogicController
 ---@field protected text inkTextWidgetReference

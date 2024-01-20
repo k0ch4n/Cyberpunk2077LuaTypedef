@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatPoolDataStatPoolModificationStatus: Enum
 ---@field Regeneration Enum 0

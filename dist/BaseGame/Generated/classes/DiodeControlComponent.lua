@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DiodeControlComponent: gameScriptableComponent
 ---@field private affectedLights CName[]

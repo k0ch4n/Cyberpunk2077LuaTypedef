@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAudioCurvesParam: IScriptable
 ---@field public audioCurves vehicleAudioVehicleCurveSet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ControllerDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field public controller IScriptable

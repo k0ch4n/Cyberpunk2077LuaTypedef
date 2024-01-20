@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPlayerWeaponSettings: audioWeaponSettings
 ---@field public fireSound CName

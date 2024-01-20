@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetLifePath: questICharacterManagerParameters_NodeSubType
 ---@field public lifePathID TweakDBID

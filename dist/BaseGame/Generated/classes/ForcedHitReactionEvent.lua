@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForcedHitReactionEvent: redEvent
 ---@field public hitIntensity Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SBreadCrumbUpdateData
 ---@field public elementName String

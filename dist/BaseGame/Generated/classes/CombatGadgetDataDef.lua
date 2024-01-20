@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CombatGadgetDataDef: gamebbScriptDefinition
 ---@field public throwUnequip gamebbScriptID_Bool

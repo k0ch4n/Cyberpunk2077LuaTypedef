@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerMountPuppet_NodeType: questIEntityManager_NodeType
 ---@field public parentRef gameEntityReference

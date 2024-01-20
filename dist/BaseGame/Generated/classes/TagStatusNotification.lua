@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TagStatusNotification: HUDManagerRequest
 ---@field public isTagged Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClueRecordData
 ---@field public clueRecord TweakDBID

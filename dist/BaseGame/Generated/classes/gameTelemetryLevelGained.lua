@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTelemetryLevelGained
 ---@field public playerPuppet gameObject

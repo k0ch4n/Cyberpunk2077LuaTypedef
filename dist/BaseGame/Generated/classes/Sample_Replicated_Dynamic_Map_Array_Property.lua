@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Replicated_Dynamic_Map_Array_Property
 ---@field public property SampleMapArrayElement[]

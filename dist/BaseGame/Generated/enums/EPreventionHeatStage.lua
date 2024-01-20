@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPreventionHeatStage: Enum
 ---@field Heat_0 Enum 0

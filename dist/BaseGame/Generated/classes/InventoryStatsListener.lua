@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryStatsListener: gameScriptStatsListener
 ---@field public owner gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSquadFenceBase_Record: gamedataTweakDBRecord
 gamedataSquadFenceBase_Record = {}

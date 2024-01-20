@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExhaustedDecisions: StaminaTransition
 ---@field private staminaRatioEnterCondition Float

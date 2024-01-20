@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDynamicCookedDeviceData: gameCookedDeviceData
 ---@field public componentName CName

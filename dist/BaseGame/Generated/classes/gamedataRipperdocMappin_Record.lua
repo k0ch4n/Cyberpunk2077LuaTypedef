@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRipperdocMappin_Record: gamedataUIIcon_Record
 gamedataRipperdocMappin_Record = {}

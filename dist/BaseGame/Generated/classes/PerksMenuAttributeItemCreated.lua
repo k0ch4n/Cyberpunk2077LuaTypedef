@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksMenuAttributeItemCreated: redEvent
 ---@field public perksMenuAttributeItem PerksMenuAttributeItemController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TutorialMainController: gameuiWidgetGameController
 ---@field private instructionPanel inkWidgetReference

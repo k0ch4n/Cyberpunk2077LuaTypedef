@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataQuestSystemSetup_Record: gamedataTweakDBRecord
 gamedataQuestSystemSetup_Record = {}

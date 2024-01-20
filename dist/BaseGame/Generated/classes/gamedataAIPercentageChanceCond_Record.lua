@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIPercentageChanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIPercentageChanceCond_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_ChatBoxDef: gamebbScriptDefinition
 ---@field public TextList gamebbScriptID_Variant

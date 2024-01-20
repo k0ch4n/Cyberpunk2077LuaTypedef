@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationBodyMorphOption: CharacterCreationBodyMorphBaseOption
 ---@field private optionLabel inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Replicated_Enum: Enum
 ---@field One Enum 0

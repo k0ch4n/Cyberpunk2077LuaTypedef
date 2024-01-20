@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FeatureFlagsMask
 ---@field public flags Uint64

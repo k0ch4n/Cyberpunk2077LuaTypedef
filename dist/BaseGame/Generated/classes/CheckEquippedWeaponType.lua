@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckEquippedWeaponType: AIItemHandlingCondition
 ---@field public weaponTypeToCheck CName

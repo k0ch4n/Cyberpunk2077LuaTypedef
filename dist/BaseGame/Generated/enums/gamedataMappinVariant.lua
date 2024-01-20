@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinVariant: Enum
 ---@field ActionDealDamageVariant Enum 0

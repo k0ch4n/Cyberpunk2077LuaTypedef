@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSplashScreenLoadingScreenLogicController: inkILoadingLogicController
 ---@field public logoTrainWBBink Bink

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSpawnSet_NodeType: questSpawnManagerNodeType
 ---@field public reference NodeRef

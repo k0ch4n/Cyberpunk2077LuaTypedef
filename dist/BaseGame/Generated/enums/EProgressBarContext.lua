@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EProgressBarContext: Enum
 ---@field QuickHack Enum 0

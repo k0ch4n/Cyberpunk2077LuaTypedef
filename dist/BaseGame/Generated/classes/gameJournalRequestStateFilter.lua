@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalRequestStateFilter
 ---@field public inactive Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsMappinData: gamemappinsIMappinData
 ---@field public mappinType TweakDBID

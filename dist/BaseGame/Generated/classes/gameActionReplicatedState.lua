@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionReplicatedState
 ---@field public replicationId Uint32

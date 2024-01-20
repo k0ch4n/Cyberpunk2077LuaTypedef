@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestDelayedHornEvent: redEvent
 ---@field public honkTime Float

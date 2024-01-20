@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalEntryState: Enum
 ---@field Undefined Enum 0

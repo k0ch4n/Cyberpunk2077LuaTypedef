@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSendActionEventTaskDefinition: AIbehaviorTaskDefinition
 ---@field public event gameActionEvent

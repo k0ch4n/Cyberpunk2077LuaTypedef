@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsCacheKey
 ---@field public key physicsGeometryKey

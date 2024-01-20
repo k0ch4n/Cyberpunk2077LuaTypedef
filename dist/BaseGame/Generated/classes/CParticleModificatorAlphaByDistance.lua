@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorAlphaByDistance: IParticleModificator
 ---@field public nearBlendDistance Vector2

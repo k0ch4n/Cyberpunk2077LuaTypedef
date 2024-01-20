@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questContentLock_ConditionType: questIContentConditionType
 ---@field public isContentBlocked Bool

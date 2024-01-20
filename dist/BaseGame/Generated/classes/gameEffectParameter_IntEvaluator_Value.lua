@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_IntEvaluator_Value: gameIEffectParameter_IntEvaluator
 ---@field public value Uint32

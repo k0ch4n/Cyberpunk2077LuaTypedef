@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_EventValue: animAnimNode_FloatValue
 ---@field public eventName CName

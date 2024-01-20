@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiAuthorisationNotificationViewData: gameuiGenericNotificationViewData
 ---@field public authType gameuiAuthorisationNotificationType

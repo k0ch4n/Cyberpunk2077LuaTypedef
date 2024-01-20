@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapDynamicEventMappinController: gameuiBaseMinimapMappinController
 ---@field public pulseEnabled Bool

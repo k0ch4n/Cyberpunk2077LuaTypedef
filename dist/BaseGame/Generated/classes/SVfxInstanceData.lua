@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SVfxInstanceData
 ---@field public fx gameFxInstance

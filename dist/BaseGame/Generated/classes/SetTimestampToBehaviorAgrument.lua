@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetTimestampToBehaviorAgrument: AIbehaviortaskScript
 ---@field public timestampArgument CName

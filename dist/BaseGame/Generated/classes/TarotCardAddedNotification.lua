@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TarotCardAddedNotification: GenericNotificationController
 ---@field protected cardImage inkImageWidgetReference

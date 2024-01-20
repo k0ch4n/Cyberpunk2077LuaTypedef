@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputProgressView: inkWidgetLogicController
 ---@field private TargetImage inkImageWidget

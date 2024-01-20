@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CoderControllerPS: BasicDistractionDeviceControllerPS
 ---@field private providedAuthorizationLevel ESecurityAccessLevel

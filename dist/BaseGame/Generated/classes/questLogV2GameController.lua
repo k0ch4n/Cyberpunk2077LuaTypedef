@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLogV2GameController: gameuiMenuGameController
 ---@field private QuestDetailsRef inkWidgetReference

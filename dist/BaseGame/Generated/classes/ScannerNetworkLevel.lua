@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerNetworkLevel: ScannerChunk
 ---@field private networkLevel Int32

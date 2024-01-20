@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectFilter_ReachableByAcousticGraph: gameEffectObjectSingleFilter
 ---@field public maxPathLength gameEffectInputParameter_Float

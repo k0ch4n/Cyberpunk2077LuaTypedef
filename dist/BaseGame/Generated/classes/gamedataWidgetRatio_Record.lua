@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWidgetRatio_Record: gamedataTweakDBRecord
 gamedataWidgetRatio_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneStatusEffectListener: gameScriptStatusEffectListener
 ---@field private phoneSystem PhoneSystem

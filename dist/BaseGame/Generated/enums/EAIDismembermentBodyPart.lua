@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIDismembermentBodyPart: Enum
 ---@field NONE Enum -1

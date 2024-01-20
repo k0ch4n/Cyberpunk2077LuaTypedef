@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMoveCommand: AICommand
 ---@field public removeAfterCombat Bool

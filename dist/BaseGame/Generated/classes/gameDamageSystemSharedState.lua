@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDamageSystemSharedState: gameIGameSystemReplicatedState
 ---@field public hitHistory gamedamageServerHitData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudJohnnyController: gameuiHUDGameController
 ---@field private tourHeader inkTextWidgetReference

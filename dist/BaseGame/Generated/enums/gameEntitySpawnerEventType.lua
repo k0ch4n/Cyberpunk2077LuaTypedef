@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntitySpawnerEventType: Enum
 ---@field Spawn Enum 2

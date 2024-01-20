@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCHighLevelState: Enum
 ---@field Alerted Enum 0

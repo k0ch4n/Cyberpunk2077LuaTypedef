@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animActionAnimDatabase_DatabaseRow
 ---@field public animFeatureName CName

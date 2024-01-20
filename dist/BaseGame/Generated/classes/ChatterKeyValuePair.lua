@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChatterKeyValuePair
 ---@field public Key CRUID

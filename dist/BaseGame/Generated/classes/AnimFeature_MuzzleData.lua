@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_MuzzleData: animAnimFeature
 ---@field public muzzleOffset Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SThumbnailWidgetPackage: SWidgetPackage
 ---@field public thumbnailAction ThumbnailUI

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class customGameNotificationDataSet: inkGameNotificationData
 ---@field public customText CName

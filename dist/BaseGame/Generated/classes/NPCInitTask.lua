@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCInitTask: AIbehaviortaskStackScript
 ---@field public preventSkippingDeathAnimation Bool

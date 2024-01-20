@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAimAssistAimSnap_Record: gamedataTweakDBRecord
 gamedataAimAssistAimSnap_Record = {}

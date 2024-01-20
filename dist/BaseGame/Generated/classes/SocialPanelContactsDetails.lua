@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SocialPanelContactsDetails: inkWidgetLogicController
 ---@field private ContactAvatarRef inkImageWidgetReference

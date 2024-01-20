@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Simple: gameuiCrosshairBaseGameController
 ---@field private topPart inkWidgetReference

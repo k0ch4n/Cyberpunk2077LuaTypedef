@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPerfectChargePerkSounds
 ---@field public perfectChargeChargingSound CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorFSMTransitionDefinition: AIbehaviorBehaviorComponentDefinition
 ---@field public inState Uint16

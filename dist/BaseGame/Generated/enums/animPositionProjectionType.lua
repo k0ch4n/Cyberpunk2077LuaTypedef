@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPositionProjectionType: Enum
 ---@field Disabled Enum 0

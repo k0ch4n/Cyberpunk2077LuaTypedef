@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_GameObjectOutline: gameEffectExecutor_Scripted
 ---@field public outlineType EOutlineType

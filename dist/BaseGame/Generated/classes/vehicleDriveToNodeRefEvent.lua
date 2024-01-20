@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDriveToNodeRefEvent: redEvent
 ---@field public targetRef NodeRef

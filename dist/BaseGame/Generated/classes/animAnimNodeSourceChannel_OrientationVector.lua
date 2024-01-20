@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_OrientationVector: animIAnimNodeSourceChannel_Vector
 ---@field public transformIndex animTransformIndex

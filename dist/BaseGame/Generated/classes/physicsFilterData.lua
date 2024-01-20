@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsFilterData: ISerializable
 ---@field public simulationFilter physicsSimulationFilter

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLocomotionStateType: audioAudioMetadata
 ---@field public void Bool

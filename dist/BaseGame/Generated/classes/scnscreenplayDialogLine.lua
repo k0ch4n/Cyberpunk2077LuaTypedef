@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnscreenplayDialogLine
 ---@field public itemId scnscreenplayItemId

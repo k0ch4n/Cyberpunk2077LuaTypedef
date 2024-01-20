@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScreenMessageSelector: inkTweakDBIDSelector
 ---@field protected replaceTextWithCustomNumber Bool

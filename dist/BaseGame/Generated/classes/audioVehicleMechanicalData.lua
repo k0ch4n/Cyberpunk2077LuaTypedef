@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleMechanicalData
 ---@field public engineStartEvent CName

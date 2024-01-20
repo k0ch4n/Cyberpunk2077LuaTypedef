@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MountRequestCondition: AIbehaviorconditionScript
 ---@field public testMountRequest Bool

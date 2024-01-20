@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLootTokenManager_NodeType: questIItemManagerNodeType
 ---@field public params questLootTokenManager_NodeTypeParams[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EChargesItem: Enum
 ---@field Grenade Enum 0

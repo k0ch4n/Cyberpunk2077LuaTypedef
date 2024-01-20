@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EntityNotificationType: Enum
 ---@field DoNotNotifyEntity Enum 0

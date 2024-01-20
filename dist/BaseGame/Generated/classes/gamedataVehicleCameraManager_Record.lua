@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleCameraManager_Record: gamedataTweakDBRecord
 gamedataVehicleCameraManager_Record = {}

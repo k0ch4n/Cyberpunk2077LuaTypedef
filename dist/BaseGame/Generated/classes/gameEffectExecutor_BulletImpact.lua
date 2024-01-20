@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_BulletImpact: gameEffectExecutor
 ---@field public isBackfaceImpact Bool

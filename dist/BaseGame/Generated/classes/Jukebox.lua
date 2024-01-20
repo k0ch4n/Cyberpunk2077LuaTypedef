@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Jukebox: InteractiveDevice
 ---@field protected uiComponentBig IWorldWidgetComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerRemoteControlVehicle_NodeType: questIEntityManager_NodeType
 ---@field public parentRef gameEntityReference

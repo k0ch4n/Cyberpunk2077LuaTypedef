@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetVendorPriceMultiplierRequest: gameScriptableSystemRequest
 ---@field public vendorID TweakDBID

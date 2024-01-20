@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksMenuAttributeItemController: inkWidgetLogicController
 ---@field protected attributeDisplay inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleExitDirection: Enum
 ---@field NoDirection Enum -1

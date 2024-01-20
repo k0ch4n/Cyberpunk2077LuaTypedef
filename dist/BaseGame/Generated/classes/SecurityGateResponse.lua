@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGateResponse: redEvent
 ---@field public scanSuccessful Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterCollisionController: inkWidgetLogicController
 ---@field public explosionPlatformDelay Float

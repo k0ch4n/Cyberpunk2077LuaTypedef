@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBreachControllerComponent: entIComponent
 ---@field public canHaveBreaches Bool

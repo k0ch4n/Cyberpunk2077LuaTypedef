@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNode: scnSceneGraphNode
 ---@field public displayNameOverride String

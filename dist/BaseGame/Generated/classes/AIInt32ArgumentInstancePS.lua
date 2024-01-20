@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIInt32ArgumentInstancePS: AIArgumentInstancePS
 ---@field public value Int32

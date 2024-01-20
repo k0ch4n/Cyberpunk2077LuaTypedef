@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataJournalIcon_Record: gamedataUIIcon_Record
 gamedataJournalIcon_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEquipItemParams: questAICommandParams
 ---@field public slotId TweakDBID

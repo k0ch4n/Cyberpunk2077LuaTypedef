@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class C4ControllerPS: ExplosiveDeviceControllerPS
 ---@field private itemTweakDBString CName

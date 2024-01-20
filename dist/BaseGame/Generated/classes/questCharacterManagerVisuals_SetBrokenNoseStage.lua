@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_SetBrokenNoseStage: questICharacterManagerVisuals_NodeSubType
 ---@field public brokenNoseStage gameuiCharacterCustomization_BrokenNoseStage

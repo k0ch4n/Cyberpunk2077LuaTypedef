@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowDialogIndicator_NodeType: questIUIManagerNodeType
 ---@field public params questShowDialogIndicator_NodeTypeParams[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileTickEvent: redEvent
 ---@field public deltaTime Float

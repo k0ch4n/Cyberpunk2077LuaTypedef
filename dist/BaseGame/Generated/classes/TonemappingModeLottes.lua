@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TonemappingModeLottes: ITonemappingMode
 ---@field public maxInput Float

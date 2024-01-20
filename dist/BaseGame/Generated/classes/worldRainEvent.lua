@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRainEvent: redEvent
 ---@field public rainIntensity worldRainIntensity

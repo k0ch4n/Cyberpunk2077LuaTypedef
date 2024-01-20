@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerControllerPS: TerminalControllerPS
 ---@field protected computerSetup ComputerSetup

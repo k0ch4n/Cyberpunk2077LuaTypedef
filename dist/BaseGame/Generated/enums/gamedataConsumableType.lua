@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataConsumableType: Enum
 ---@field Drug Enum 0

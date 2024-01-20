@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceUIDefinition_Record: gamedataTweakDBRecord
 gamedataDeviceUIDefinition_Record = {}

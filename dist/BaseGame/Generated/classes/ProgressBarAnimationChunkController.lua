@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgressBarAnimationChunkController: inkWidgetLogicController
 ---@field private rootCanvas inkWidgetReference

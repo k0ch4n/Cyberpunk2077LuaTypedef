@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionHitReactionState: gameActionReplicatedState
 ---@field public animFeature animAnimFeature_HitReactionsData

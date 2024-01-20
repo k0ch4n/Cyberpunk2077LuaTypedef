@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJournalNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public type questIJournal_NodeType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponRegisterChargeStatListener: redEvent
 ---@field public register Bool

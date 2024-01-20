@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeReadWorkspotParamsDefinition: AICTreeNodeDecoratorDefinition
 ---@field public workspotNodeVarName CName

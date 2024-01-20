@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPaddingInterpolator: inkanimInterpolator
 ---@field public startValue inkMargin

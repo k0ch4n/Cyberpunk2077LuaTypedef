@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVector2Callback: inkCallbackBase
 inkVector2Callback = {}

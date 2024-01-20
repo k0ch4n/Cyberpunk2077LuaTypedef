@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipAttachmentEntryData: IScriptable
 ---@field public text String

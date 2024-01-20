@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICoverExposureMethod: Enum
 ---@field Standing_Step_Left Enum 0

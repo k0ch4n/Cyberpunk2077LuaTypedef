@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CurveResourceSet: CResource
 ---@field public curveResources CurveResourceSetEntry[]

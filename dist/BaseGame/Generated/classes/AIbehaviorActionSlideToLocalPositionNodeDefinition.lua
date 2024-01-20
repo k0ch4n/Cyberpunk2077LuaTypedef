@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionSlideToLocalPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
 ---@field public localOffset AIArgumentMapping

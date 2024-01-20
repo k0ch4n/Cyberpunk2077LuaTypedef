@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CGIDataResource: resStreamedResource
 ---@field public data serializationDeferredDataBuffer

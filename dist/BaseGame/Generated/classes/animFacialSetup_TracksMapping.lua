@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialSetup_TracksMapping
 ---@field public numEnvelopes Uint16

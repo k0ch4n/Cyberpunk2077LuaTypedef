@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAssignRoleTask: AIbehaviortaskScript
 ---@field public inCommand AIArgumentMapping

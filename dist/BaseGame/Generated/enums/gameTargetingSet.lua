@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTargetingSet: Enum
 ---@field Visible Enum 0

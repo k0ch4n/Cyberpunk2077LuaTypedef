@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeLoopCurveEvent: redEvent
 ---@field public loopTime Float

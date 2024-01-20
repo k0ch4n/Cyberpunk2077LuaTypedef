@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatusEffectType: Enum
 ---@field AndroidTurnOff Enum 0

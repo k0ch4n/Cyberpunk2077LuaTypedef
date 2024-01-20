@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpMeatBag: gameObject
 ---@field public rotationLerpFactor Float

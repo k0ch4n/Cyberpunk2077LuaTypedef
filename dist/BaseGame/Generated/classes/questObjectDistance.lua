@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questObjectDistance: questIDistance
 ---@field public entityRef questUniversalRef

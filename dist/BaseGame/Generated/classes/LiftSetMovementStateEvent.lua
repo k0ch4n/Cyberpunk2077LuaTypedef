@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftSetMovementStateEvent: redEvent
 ---@field public movementState gamePlatformMovementState

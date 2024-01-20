@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMathExpressionNodeData
 ---@field public expression mathExprExpression

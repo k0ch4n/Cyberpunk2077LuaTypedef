@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleRemoteControlEvent: gameActionEvent
 ---@field public remoteControl Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_LocalizationEntry: IScriptable
 ---@field public key String

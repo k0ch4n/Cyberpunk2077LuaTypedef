@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryWeaponItemChooser: InventoryGenericItemChooser
 ---@field protected scopeRootContainer inkCompoundWidgetReference

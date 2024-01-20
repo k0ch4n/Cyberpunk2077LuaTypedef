@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemModsManager: IScriptable
 ---@field private emptySlots TweakDBID[]

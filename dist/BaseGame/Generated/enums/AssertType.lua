@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AssertType: Enum
 ---@field EQ Enum 0

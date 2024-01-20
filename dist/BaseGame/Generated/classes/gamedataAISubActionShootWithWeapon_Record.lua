@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionShootWithWeapon_Record: gamedataAISubAction_Record
 gamedataAISubActionShootWithWeapon_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficLaneUID
 ---@field public nodeRefHash Uint64

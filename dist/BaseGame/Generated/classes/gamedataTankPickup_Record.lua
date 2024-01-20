@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankPickup_Record: gamedataArcadeCollidableObject_Record
 gamedataTankPickup_Record = {}

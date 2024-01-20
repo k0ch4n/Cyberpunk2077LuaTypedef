@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_Timed: animIAnimStateTransitionCondition
 ---@field public timeToFireTransition Float

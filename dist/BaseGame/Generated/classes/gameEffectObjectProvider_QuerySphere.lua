@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_QuerySphere: gameEffectObjectProvider
 ---@field public gatherOnlyPuppets Bool

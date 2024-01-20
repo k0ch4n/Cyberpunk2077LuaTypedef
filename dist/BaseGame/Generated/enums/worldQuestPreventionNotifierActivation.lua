@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldQuestPreventionNotifierActivation: Enum
 ---@field OnFootOnly Enum 0

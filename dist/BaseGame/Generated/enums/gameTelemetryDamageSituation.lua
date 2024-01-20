@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTelemetryDamageSituation: Enum
 ---@field Irrelevant Enum 0

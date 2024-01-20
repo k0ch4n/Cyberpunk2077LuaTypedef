@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameImpostorComponent: entIComponent
 ---@field public isCharacterReplica Bool

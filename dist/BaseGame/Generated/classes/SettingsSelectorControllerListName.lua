@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsSelectorControllerListName: SettingsSelectorControllerList
 ---@field protected realValue userSettingsVarListName

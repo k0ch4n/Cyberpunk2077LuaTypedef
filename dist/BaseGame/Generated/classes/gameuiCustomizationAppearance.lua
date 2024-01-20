@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCustomizationAppearance: gameuiCensorshipInfo
 ---@field public name CName

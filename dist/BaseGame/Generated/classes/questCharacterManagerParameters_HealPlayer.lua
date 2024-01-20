@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_HealPlayer: questICharacterManagerParameters_NodeSubType
 ---@field public puppetRef gameEntityReference

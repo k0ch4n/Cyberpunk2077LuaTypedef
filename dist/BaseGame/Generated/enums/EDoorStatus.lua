@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDoorStatus: Enum
 ---@field SEALED Enum -2

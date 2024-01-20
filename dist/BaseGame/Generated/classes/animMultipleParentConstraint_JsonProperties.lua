@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMultipleParentConstraint_JsonProperties: ISerializable
 ---@field public parentsTransforms animMultipleParentConstraint_JsonEntry[]

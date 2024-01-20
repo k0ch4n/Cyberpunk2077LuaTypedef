@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_NotObstructed: gameEffectObjectGroupFilter
 ---@field public filterData physicsFilterData

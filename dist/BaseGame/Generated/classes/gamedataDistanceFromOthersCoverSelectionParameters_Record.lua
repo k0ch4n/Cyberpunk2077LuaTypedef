@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDistanceFromOthersCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataDistanceFromOthersCoverSelectionParameters_Record = {}

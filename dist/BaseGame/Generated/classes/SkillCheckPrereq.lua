@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SkillCheckPrereq: DevelopmentCheckPrereq
 ---@field protected skillToCheck gamedataProficiencyType

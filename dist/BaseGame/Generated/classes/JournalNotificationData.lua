@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JournalNotificationData: inkGameNotificationData
 ---@field public journalEntry gameJournalEntry

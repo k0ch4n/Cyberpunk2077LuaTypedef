@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimShapeFillTransparencyInterpolator: inkanimInterpolator
 ---@field public startValue Float

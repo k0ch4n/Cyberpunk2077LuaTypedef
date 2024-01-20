@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_Mask: CResource
 ---@field public renderResourceBlob rendRenderMultilayerMaskResource

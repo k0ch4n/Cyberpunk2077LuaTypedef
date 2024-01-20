@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CIESDataResource: CResource
 ---@field public samples Uint16[]

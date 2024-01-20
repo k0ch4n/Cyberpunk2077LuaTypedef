@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendOpacityMicromapChunk
 ---@field public mChunkIndex Uint32

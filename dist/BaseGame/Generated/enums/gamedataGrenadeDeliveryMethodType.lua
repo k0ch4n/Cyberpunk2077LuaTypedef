@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGrenadeDeliveryMethodType: Enum
 ---@field Homing Enum 0

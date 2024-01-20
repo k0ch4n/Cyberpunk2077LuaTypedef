@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPrefabVariantReplicatedInfo
 ---@field public variantNameKey CName

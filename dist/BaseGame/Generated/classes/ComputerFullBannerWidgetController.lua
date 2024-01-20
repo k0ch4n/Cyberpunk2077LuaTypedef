@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerFullBannerWidgetController: ComputerBannerWidgetController
 ---@field protected closeButtonWidget inkWidgetReference

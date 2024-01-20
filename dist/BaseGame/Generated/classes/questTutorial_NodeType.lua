@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTutorial_NodeType: questIUIManagerNodeType
 ---@field public subtype questITutorial_NodeSubType

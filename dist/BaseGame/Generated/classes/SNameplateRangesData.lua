@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SNameplateRangesData
 ---@field private c_DisplayRange Float

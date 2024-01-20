@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocNewMeterBar: inkWidgetLogicController
 ---@field private bar inkWidgetReference

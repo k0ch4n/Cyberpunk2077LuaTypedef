@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSimpleValueNode: gamedataValueDataNode
 ---@field public type gamedataSimpleValueNodeValueType

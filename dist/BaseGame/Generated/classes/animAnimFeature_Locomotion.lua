@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Locomotion: animAnimFeature
 ---@field public action Int32

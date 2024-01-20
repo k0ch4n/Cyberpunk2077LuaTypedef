@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetApartmentScreenStatusEvent: redEvent
 ---@field public rentStatus ERentStatus

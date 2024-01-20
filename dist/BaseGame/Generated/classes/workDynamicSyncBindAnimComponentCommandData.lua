@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workDynamicSyncBindAnimComponentCommandData: workSyncBindBaseCommandData
 ---@field public slave entAnimationControllerComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DebugHubMenuLogicController: inkWidgetLogicController
 ---@field private selectorWidget inkWidget

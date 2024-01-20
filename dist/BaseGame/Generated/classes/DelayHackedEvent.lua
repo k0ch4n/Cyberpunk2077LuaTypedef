@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayHackedEvent: redEvent
 ---@field public itemID gameItemID

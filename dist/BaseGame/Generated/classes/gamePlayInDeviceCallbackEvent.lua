@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayInDeviceCallbackEvent: redEvent
 ---@field public wasPlayInDeviceSuccessful Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DialogHubLogicController: inkWidgetLogicController
 ---@field public progressBarHolder inkWidgetReference

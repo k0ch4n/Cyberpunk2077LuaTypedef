@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CGradient: CResource
 ---@field public gradientEntries rendGradientEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetProgressionBuild: questICharacterManagerParameters_NodeSubType
 ---@field public buildID TweakDBID

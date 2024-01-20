@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PlayerDeathAnimation: animAnimFeature
 ---@field public animation Int32

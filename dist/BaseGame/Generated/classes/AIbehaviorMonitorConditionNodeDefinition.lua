@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMonitorConditionNodeDefinition: AIbehaviorConditionNodeDefinition
 ---@field public timeout Float

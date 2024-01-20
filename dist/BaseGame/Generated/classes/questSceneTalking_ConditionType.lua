@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSceneTalking_ConditionType: questISceneConditionType
 ---@field public GlobalEntityRef gameEntityReference

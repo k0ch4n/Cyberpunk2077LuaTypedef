@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePointOfInterestMappinResource: CResource
 ---@field public cookedData gameCookedPointOfInterestMappinData[]

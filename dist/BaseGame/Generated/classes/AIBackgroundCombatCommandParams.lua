@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIBackgroundCombatCommandParams: questScriptedAICommandParams
 ---@field public steps AIBackgroundCombatStep[]

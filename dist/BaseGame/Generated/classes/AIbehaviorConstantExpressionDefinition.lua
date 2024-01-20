@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorConstantExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public type AIbehaviorTypeRef

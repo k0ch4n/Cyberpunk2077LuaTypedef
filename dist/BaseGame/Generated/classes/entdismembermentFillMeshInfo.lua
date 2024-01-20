@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentFillMeshInfo: entdismembermentMeshInfo
 ---@field public Placement entdismembermentPlacementE

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnDistractedConditionTarget: Enum
 ---@field Anyone Enum 0

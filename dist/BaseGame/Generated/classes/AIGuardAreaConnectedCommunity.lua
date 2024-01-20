@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIGuardAreaConnectedCommunity
 ---@field public communityArea gameEntityReference

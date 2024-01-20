@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLightComponent: entLightComponent
 ---@field public emissiveOnly Bool

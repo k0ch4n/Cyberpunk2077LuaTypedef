@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrappleForceShovePreyEvents: LocomotionTakedownEvents
 ---@field public unmountCalled Bool

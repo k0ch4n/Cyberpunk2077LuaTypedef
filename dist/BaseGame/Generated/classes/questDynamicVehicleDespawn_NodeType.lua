@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDynamicVehicleDespawn_NodeType: questIDynamicSpawnSystemType
 ---@field public ImmediateDespawn Bool

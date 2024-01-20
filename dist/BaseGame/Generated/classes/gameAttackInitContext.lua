@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttackInitContext
 ---@field public record gamedataAttack_Record

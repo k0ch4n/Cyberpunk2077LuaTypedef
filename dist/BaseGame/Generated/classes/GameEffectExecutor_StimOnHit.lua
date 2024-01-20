@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameEffectExecutor_StimOnHit: gameEffectExecutor_Scripted
 ---@field public stimType gamedataStimType

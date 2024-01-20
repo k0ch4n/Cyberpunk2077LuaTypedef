@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_DroneActionAltitudeOffset: animAnimFeature
 ---@field public desiredOffset Float

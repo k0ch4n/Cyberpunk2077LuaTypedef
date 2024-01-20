@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TooltipWidgetStyledReference
 ---@field public identifier CName

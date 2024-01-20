@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestEntryUserData: IScriptable
 ---@field public categoryName CName

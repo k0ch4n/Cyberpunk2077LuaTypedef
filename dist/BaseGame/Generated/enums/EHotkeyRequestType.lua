@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EHotkeyRequestType: Enum
 ---@field Assign Enum 0

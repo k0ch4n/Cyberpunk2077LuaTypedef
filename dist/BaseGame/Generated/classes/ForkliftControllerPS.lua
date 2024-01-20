@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForkliftControllerPS: ScriptableDeviceComponentPS
 ---@field private forkliftSetup ForkliftSetup

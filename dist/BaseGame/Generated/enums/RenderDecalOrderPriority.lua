@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RenderDecalOrderPriority: Enum
 ---@field Priority0 Enum 0

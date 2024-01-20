@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkESizeRule: Enum
 ---@field Fixed Enum 0

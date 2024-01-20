@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_ContainerBase: animAnimFeature
 ---@field public opened Bool

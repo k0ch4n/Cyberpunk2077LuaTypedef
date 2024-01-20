@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeRequestItem: IScriptable
 ---@field public requests gameEquipParam[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhoneMuted_ConditionType: questISystemConditionType
 ---@field public groupName CName

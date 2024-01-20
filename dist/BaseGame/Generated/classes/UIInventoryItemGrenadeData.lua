@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemGrenadeData: IScriptable
 ---@field public Type GrenadeDamageType

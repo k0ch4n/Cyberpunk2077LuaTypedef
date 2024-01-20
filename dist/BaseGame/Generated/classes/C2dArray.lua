@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class C2dArray: CResource
 ---@field public headers String[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuEventBlackboardDef: gamebbScriptDefinition
 ---@field public MenuEventToTrigger gamebbScriptID_CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EmissiveColorSettings: IAreaSettings
 ---@field public tint curveData

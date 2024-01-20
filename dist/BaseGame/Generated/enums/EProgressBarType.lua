@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EProgressBarType: Enum
 ---@field UPLOAD Enum 0

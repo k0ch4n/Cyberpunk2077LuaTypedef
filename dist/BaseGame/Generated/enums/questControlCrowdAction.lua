@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questControlCrowdAction: Enum
 ---@field Disable Enum 0

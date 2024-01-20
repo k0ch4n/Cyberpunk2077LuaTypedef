@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveMovementOrientationType: Enum
 ---@field NotSet Enum 0

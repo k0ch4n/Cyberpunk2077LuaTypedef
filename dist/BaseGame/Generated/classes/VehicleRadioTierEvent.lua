@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleRadioTierEvent: redEvent
 ---@field public radioTier Uint32

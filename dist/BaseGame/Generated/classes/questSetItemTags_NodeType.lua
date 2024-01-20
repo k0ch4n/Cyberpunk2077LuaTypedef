@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetItemTags_NodeType: questIItemManagerNodeType
 ---@field public params questSetItemTags_NodeTypeParams[]

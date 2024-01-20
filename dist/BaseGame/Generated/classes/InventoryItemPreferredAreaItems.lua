@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemPreferredAreaItems: IScriptable
 ---@field public equipmentArea gamedataEquipmentArea

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorldMapFreeCameraSettings_Record: gamedataTweakDBRecord
 gamedataWorldMapFreeCameraSettings_Record = {}

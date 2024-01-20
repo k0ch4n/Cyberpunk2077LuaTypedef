@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTeleportPuppetNodeDefinition: questAICommandNodeBase
 ---@field public entityReference questUniversalRef

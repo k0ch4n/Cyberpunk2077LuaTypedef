@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleDeformableZone_Record: gamedataTweakDBRecord
 gamedataVehicleDeformableZone_Record = {}

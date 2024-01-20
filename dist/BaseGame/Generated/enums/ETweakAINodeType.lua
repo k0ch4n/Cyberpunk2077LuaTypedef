@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETweakAINodeType: Enum
 ---@field Action Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IntercomBlackboardDef: DeviceBaseBlackboardDef
 ---@field public DisplayString gamebbScriptID_String

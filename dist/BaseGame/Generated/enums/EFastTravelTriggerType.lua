@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFastTravelTriggerType: Enum
 ---@field Manual Enum 0

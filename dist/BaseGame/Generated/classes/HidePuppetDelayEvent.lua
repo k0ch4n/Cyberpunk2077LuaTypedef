@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HidePuppetDelayEvent: redEvent
 ---@field public target NPCPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorRequirementsNotMetNotificationData: IScriptable
 ---@field public data gameSItemStackRequirementData

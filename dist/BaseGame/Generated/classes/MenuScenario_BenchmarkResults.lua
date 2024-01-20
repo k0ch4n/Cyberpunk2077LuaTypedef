@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_BenchmarkResults: MenuScenario_BaseMenu
 ---@field private callbackData inkCallbackConnectorData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHitType: Enum
 ---@field Miss Enum 0

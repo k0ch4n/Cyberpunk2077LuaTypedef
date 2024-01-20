@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetFollowTarget: FollowVehicleTask
 ---@field private blackboard gameIBlackboard

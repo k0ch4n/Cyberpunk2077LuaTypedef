@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionMinimapMappinComponent: IScriptable
 ---@field private minimapStealthMappinController gameuiMinimapStealthMappinController

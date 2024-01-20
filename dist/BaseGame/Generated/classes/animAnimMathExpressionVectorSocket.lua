@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimMathExpressionVectorSocket
 ---@field public link animVectorLink

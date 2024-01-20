@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DerivedFilterResult: Enum
 ---@field False Enum 0

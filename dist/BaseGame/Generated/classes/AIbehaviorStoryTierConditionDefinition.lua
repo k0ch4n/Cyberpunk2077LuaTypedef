@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorStoryTierConditionDefinition: AIbehaviorConditionDefinition
 ---@field public tier gameStoryTier

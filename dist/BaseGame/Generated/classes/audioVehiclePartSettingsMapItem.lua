@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehiclePartSettingsMapItem
 ---@field public name CName

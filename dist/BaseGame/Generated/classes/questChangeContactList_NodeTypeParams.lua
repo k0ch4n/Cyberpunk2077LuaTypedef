@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questChangeContactList_NodeTypeParams
 ---@field public contact gameJournalPath

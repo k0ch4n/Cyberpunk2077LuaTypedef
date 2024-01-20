@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAnimationCategory: Enum
 ---@field Body Enum 0

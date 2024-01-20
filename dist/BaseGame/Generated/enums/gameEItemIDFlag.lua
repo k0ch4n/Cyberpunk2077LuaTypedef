@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEItemIDFlag: Enum
 ---@field Preview Enum 1

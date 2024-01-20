@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IngredientListItemLogicController: inkButtonController
 ---@field private itemName inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyShaderOnObjectEffector: gameEffector
 ---@field private applicationTargetName CName

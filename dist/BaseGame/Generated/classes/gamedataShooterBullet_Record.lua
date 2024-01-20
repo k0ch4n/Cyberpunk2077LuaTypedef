@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterBullet_Record: gamedataShooterObject_Record
 gamedataShooterBullet_Record = {}

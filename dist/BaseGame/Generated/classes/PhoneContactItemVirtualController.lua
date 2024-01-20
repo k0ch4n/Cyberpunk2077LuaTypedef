@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneContactItemVirtualController: inkVirtualCompoundItemController
 ---@field protected label inkTextWidgetReference

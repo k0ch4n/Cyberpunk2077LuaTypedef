@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRoadEditorDecorationSettings
 ---@field public libraryName CName

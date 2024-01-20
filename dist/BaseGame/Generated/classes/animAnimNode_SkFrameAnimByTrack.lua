@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkFrameAnimByTrack: animAnimNode_SkFrameAnim
 ---@field public progressFloatTrack animNamedTrackIndex

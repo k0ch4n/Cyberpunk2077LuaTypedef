@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animcompressionBufferTypePreset: Enum
 ---@field Spline Enum 0

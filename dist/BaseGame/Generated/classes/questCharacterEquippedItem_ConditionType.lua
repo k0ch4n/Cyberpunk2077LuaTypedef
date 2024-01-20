@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterEquippedItem_ConditionType: questICharacterConditionType
 ---@field public isPlayer Bool

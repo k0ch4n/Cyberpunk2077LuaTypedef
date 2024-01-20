@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSceneNode_ConditionType: questISceneConditionType
 ---@field public sceneFile scnSceneResource

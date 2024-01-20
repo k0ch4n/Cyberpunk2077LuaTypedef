@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPrereqListener: gameScriptStatsListener
 ---@field protected state StatPrereqState

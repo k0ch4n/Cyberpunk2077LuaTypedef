@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDistantLightsNode: worldNode
 ---@field public data CDistantLightsResource

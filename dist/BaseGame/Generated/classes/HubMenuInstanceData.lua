@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuInstanceData: IScriptable
 ---@field public ID Uint32

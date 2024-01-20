@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedInputSetterInt: entReplicatedInputSetterBase
 ---@field public value Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankProjectile_Record: gamedataArcadeCollidableObject_Record
 gamedataTankProjectile_Record = {}

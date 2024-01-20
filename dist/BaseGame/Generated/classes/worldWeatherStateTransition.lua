@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldWeatherStateTransition: ISerializable
 ---@field public probability curveData

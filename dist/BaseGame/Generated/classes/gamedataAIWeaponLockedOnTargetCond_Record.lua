@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIWeaponLockedOnTargetCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWeaponLockedOnTargetCond_Record = {}

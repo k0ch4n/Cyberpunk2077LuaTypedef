@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSocketDefinition: graphGraphSocketDefinition
 ---@field public type questSocketType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPlaylistTrackEventStruct
 ---@field public playlistName CName

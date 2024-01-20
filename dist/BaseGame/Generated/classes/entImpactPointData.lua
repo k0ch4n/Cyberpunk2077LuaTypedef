@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entImpactPointData
 ---@field public worldPosition WorldPosition

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleVehicleAudioMultipliersEvent: redEvent
 ---@field public multipliers audioVehicleMultipliers

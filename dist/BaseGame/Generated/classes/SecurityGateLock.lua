@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGateLock: InteractiveDevice
 ---@field private enteringArea gameStaticTriggerAreaComponent

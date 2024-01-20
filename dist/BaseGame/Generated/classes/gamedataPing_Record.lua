@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPing_Record: gamedataTweakDBRecord
 gamedataPing_Record = {}

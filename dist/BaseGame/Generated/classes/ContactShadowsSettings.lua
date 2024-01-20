@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ContactShadowsSettings: IAreaSettings
 ---@field public contactShadows ContactShadowsConfig

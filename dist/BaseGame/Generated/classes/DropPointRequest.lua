@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointRequest: gameScriptableSystemRequest
 ---@field private record TweakDBID

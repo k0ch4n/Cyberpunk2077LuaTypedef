@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTracking_Record: gamedataProjectileLaunch_Record
 gamedataTracking_Record = {}

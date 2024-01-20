@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponObject: gameItemObject
 ---@field public effect gameEffectSet

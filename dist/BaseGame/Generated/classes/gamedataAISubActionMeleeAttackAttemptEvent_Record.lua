@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionMeleeAttackAttemptEvent_Record: gamedataAISubAction_Record
 gamedataAISubActionMeleeAttackAttemptEvent_Record = {}

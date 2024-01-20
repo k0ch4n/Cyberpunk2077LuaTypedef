@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSpawnFX_Record_Implementation: IScriptable
 AISubActionSpawnFX_Record_Implementation = {}

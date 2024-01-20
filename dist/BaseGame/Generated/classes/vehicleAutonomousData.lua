@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAutonomousData: ISerializable
 ---@field public owner vehicleBaseObject

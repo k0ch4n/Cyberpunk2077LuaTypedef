@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameContainerObjectSingleItem: gameContainerObjectBase
 ---@field public itemTDBID TweakDBID

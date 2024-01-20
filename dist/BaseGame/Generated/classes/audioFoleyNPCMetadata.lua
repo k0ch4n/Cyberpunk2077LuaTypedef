@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyNPCMetadata: audioAudioMetadata
 ---@field public fastHeavy audioMeleeSound

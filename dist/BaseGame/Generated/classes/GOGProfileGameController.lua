@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GOGProfileGameController: gameuiBaseGOGProfileController
 ---@field public retryButton inkWidgetReference

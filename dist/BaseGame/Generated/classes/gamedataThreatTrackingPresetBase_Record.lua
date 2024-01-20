@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataThreatTrackingPresetBase_Record: gamedataTweakDBRecord
 gamedataThreatTrackingPresetBase_Record = {}

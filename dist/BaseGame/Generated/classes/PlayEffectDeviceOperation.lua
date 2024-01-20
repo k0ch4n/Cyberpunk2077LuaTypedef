@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayEffectDeviceOperation: DeviceOperationBase
 ---@field public VFXs SVFXOperationData[]

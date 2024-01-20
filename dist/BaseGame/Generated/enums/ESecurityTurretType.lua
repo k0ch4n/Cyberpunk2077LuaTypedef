@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityTurretType: Enum
 ---@field SIMPLE Enum 0

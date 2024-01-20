@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WantedBarGameController: gameuiHUDGameController
 ---@field private starsWidget inkWidgetReference[]

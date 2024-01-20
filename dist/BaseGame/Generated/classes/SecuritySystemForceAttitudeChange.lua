@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecuritySystemForceAttitudeChange: ScriptableDeviceAction
 ---@field public newAttitude CName

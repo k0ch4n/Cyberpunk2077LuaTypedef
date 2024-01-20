@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveSign: Device
 ---@field private signShape SignShape

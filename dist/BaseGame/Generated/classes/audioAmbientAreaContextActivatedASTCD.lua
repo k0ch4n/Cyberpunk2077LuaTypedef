@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientAreaContextActivatedASTCD: audioAudioStateTransitionConditionData
 ---@field public areaMixingContext CName

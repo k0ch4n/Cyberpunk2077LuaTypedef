@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanPlayerHijackMountedNpcPrereq: gameIScriptablePrereq
 ---@field protected slotName CName

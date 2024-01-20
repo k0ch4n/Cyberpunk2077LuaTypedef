@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnScenesVersionsChangedRecord
 ---@field public changeInVersion Uint32

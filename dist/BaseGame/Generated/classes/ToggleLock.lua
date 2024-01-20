@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleLock: ActionBool
 ---@field protected shouldOpen Bool

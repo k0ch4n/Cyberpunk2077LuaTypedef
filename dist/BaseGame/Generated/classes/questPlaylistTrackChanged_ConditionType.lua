@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlaylistTrackChanged_ConditionType: questISystemConditionType
 ---@field public playlistName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiNewsFeedDataProvider: IScriptable
 ---@field public newsTitleTweak TweakDBID

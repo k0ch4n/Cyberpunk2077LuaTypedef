@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectAction_ChildEffectsMovingInCone: gameEffectPostAction
 ---@field public effectsCount Uint32

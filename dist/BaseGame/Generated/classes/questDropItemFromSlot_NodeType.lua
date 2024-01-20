@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDropItemFromSlot_NodeType: questIItemManagerNodeType
 ---@field public params questDropItemFromSlot_NodeTypeParams[]

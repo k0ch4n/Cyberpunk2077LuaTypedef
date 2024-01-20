@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAndNode: scnSceneGraphNode
 ---@field public numInSockets Uint32

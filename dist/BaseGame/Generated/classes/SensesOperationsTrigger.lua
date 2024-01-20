@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SensesOperationsTrigger: DeviceOperationsTrigger
 ---@field protected triggerData SensesOperationTriggerData

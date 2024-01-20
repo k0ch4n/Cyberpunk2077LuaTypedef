@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpticalCamoListener: gameScriptStatusEffectListener
 ---@field private controller gameuiCrosshairBaseGameController

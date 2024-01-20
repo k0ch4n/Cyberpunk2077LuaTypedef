@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneScreen: gameObject
 ---@field public uiAnimationsData SceneScreenUIAnimationsData

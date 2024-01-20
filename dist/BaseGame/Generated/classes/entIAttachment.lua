@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entIAttachment: ISerializable
 ---@field public source entIComponent

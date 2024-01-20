@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateWhistleCustomWorldPosition: UpdateWhistlePosition
 ---@field public outPositionArgument AIArgumentMapping

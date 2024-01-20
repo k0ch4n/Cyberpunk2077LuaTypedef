@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleEVehicleSpeedConditionType: Enum
 ---@field CT_EQUAL Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsELookAtTest: Enum
 ---@field Targeting Enum 0

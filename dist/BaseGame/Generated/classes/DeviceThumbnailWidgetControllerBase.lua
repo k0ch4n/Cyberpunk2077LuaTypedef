@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceThumbnailWidgetControllerBase: DeviceButtonLogicControllerBase
 ---@field protected deviceIconRef inkImageWidgetReference

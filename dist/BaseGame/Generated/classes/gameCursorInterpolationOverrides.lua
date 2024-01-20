@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCursorInterpolationOverrides: inkUserData
 ---@field public minSpeed Vector2

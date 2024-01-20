@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsVFXEvent: scnSceneEvent
 ---@field public effectEntry scnEffectEntry

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIAttitude: Enum
 ---@field AIA_Friendly Enum 0

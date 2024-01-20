@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialTemplate: IMaterialDefinition
 ---@field public name CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleDrawerBeam: CParticleDrawerFacingBeam
 ---@field public rotation Float

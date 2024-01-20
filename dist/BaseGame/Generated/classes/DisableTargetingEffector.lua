@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisableTargetingEffector: gameEffector
 ---@field private owner gameObject

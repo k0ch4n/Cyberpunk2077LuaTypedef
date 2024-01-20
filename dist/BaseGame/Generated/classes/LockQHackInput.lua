@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LockQHackInput: gameScriptableSystemRequest
 ---@field public isLocked Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetStateDef: gamebbScriptDefinition
 ---@field public HighLevel gamebbScriptID_Int32

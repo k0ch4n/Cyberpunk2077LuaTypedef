@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkBorderWidget: inkLeafWidget
 ---@field public thickness Float

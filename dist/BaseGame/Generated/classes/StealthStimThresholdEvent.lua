@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StealthStimThresholdEvent: redEvent
 ---@field public reset Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyStatusEffectByChanceEffector: gameEffector
 ---@field public targetEntityID entEntityID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElectricBoxBlackboardDef: DeviceBaseBlackboardDef
 ---@field public isOverriden gamebbScriptID_Bool

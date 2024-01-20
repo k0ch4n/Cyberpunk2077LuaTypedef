@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemType: Enum
 ---@field Clo_Face Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICommandQueuePS: gameComponentPS
 ---@field public behaviorArgumentList AIArgumentInstancePS[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisInteractionChoiceHubData
 ---@field public id Int32

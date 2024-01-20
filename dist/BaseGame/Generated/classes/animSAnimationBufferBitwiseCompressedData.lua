@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSAnimationBufferBitwiseCompressedData
 ---@field public dt Float

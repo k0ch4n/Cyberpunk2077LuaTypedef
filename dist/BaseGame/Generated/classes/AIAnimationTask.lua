@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAnimationTask: AIbehaviortaskScript
 ---@field protected record TweakDBID

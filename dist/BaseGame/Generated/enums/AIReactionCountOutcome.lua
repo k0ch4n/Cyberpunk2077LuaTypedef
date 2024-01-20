@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIReactionCountOutcome: Enum
 ---@field Failed Enum 0

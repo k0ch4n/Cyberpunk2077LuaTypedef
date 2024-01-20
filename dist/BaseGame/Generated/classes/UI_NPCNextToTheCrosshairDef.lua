@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_NPCNextToTheCrosshairDef: gamebbScriptDefinition
 ---@field public NameplateData gamebbScriptID_Variant

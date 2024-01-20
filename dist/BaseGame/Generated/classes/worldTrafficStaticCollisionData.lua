@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficStaticCollisionData: ISerializable
 ---@field public laneCollisions worldStaticLaneCollisions[]

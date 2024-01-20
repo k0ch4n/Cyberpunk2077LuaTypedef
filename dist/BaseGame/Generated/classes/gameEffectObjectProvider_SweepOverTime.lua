@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_SweepOverTime: gameEffectObjectProvider
 ---@field public filterData physicsFilterData

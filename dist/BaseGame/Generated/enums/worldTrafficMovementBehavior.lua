@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficMovementBehavior: Enum
 ---@field Pedestrian Enum 0

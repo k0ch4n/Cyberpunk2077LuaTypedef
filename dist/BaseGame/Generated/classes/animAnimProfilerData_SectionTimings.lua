@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimProfilerData_SectionTimings
 ---@field public sectionName CName

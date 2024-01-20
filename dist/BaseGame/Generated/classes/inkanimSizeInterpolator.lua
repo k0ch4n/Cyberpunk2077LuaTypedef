@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimSizeInterpolator: inkanimInterpolator
 ---@field public startValue Vector2

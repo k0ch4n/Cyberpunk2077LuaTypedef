@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUIContextState_ConditionType: questIUIConditionType
 ---@field public state gameuiContext

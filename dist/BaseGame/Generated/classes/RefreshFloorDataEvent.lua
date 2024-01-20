@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshFloorDataEvent: redEvent
 ---@field public passToEntity Bool

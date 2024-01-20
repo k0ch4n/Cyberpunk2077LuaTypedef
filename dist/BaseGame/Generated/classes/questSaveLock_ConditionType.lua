@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSaveLock_ConditionType: questISystemConditionType
 ---@field public inverted Bool

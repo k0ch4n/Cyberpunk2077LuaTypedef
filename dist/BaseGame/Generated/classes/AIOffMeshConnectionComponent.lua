@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIOffMeshConnectionComponent: entIComponent
 ---@field public offMeshConnectionNodesRefs NodeRef[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescRasterizerModeFrontFaceWinding: Enum
 ---@field FRONTFACE_CCW Enum 0

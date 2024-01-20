@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPassiveProficiencyBonus_Record: gamedataTweakDBRecord
 gamedataPassiveProficiencyBonus_Record = {}

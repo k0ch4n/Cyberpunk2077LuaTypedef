@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpSplinePlacementProvider_Distance: cpSplinePlacementProvider
 ---@field public distance Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetHitIndicatorLogicController: inkWidgetLogicController
 ---@field public animName CName

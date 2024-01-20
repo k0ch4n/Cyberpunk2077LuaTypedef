@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeTopBarController: inkRadioGroupController
 ---@field private photoModeTogglesArray inkWidgetReference[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_NearestWeakspotIfAny: gameEffectObjectGroupFilter
 gameEffectObjectFilter_NearestWeakspotIfAny = {}

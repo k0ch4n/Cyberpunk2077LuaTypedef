@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DirectConnConstraint: animAnimNode_OnePoseInput
 ---@field public sourceTransform animIAnimNodeSourceChannel_QsTransform

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_PlayerSpatialAwareness: animAnimFeature
 ---@field public leftClosestVector Vector4

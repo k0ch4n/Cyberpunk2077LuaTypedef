@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class redStageMessage
 ---@field public parent Uint32

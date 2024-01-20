@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleCorrectlyPlaced_ConditionType: questIVehicleConditionType
 ---@field public vehicleRef gameEntityReference

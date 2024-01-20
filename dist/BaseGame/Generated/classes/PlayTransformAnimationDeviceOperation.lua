@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayTransformAnimationDeviceOperation: DeviceOperationBase
 ---@field public transformAnimations STransformAnimationData[]

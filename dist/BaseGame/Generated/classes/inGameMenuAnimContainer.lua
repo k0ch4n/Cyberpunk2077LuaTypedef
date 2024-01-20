@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inGameMenuAnimContainer: IScriptable
 ---@field public animProxy inkanimProxy

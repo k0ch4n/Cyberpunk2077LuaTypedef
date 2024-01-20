@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAudioPlaybackDirectionSupportFlag: Enum
 ---@field Forward Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameOverrideMissShotOffset: redEvent
 ---@field public overrideRecord String

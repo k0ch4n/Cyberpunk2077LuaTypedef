@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_NoWeapon: gameuiCrosshairBaseGameController
 ---@field private AimDownSightContainer inkCompoundWidgetReference

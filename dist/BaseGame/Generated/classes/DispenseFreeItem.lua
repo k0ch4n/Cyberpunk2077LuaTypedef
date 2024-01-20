@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DispenseFreeItem: redEvent
 DispenseFreeItem = {}

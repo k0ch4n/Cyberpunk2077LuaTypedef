@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AlarmLightControllerPS: BasicDistractionDeviceControllerPS
 ---@field protected securityAlarmState ESecuritySystemState

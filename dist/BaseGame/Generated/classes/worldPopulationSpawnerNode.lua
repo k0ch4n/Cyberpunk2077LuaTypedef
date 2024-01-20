@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPopulationSpawnerNode: worldNode
 ---@field public objectRecordId TweakDBID

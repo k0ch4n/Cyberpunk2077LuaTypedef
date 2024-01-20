@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PingCachedData: IScriptable
 ---@field public sourceID entEntityID

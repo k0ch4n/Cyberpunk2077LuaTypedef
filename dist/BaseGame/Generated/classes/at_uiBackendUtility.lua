@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class at_uiBackendUtility: IScriptable
 at_uiBackendUtility = {}

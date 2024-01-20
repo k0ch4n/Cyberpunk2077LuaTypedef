@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveMotionPlannerComponent: moveIMotionPlannerComponent
 ---@field public snapToGround Bool

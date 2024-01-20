@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PartData: animAnimFeatureMarkUnstable
 ---@field public state Int32

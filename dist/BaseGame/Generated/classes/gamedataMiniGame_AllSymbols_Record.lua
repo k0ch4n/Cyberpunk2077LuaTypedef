@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMiniGame_AllSymbols_Record: gamedataTweakDBRecord
 gamedataMiniGame_AllSymbols_Record = {}

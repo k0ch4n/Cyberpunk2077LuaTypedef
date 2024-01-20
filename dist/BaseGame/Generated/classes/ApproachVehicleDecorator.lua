@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApproachVehicleDecorator: AIVehicleTaskAbstract
 ---@field protected mountData AIArgumentMapping

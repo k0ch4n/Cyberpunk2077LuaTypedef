@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EvaluateVisionModeRequest: gameScriptableSystemRequest
 ---@field public mode gameVisionModeType

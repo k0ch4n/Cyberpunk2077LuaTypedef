@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisBluelineDescription: IScriptable
 ---@field public parts gameinteractionsvisBluelinePart[]

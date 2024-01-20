@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBikeDriveModelData_Record: gamedataVehicleDriveModelData_Record
 gamedataBikeDriveModelData_Record = {}

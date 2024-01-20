@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugInputGeometry
 ---@field public triangles navgendebugInputGeometryTriangle[]

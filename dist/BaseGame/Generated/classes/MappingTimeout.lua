@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MappingTimeout: AITimeoutCondition
 ---@field public timeoutMapping AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorStateCompletionStatus: Enum
 ---@field ForwardBehaviorStatus Enum 0

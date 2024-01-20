@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISignalCondition: AIbehaviorconditionScript
 ---@field public requiredFlags AISignalFlags[]

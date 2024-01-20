@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePreventionSystemDebugData
 ---@field public totalCrimeScore Float

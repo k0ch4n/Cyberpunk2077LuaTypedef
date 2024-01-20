@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionFastExitWorkspot_Record_Implementation: IScriptable
 AISubActionFastExitWorkspot_Record_Implementation = {}

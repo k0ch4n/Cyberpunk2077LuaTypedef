@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MorphMenuUserData: inkUserData
 ---@field public optionsListInitialized Bool

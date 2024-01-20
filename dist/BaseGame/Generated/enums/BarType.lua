@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BarType: Enum
 ---@field Armor Enum 0

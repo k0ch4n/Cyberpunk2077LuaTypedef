@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EActionType: Enum
 ---@field QuickAction Enum 0

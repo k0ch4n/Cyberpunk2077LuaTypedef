@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questOpenBriefing_NodeType: questIUIManagerNodeType
 ---@field public briefingPath gameJournalPath

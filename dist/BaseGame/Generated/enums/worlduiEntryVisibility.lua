@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worlduiEntryVisibility: Enum
 ---@field TierVisibility Enum 0

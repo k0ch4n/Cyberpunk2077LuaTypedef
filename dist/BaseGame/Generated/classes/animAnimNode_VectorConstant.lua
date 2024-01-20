@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_VectorConstant: animAnimNode_VectorValue
 ---@field public value Vector4

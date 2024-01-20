@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBenchmarkSummary: IScriptable
 ---@field public gameVersion String

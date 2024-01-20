@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeControllerInputActiveFlags
 ---@field public buttonHold Bool

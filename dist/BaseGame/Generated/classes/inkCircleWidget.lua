@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCircleWidget: inkBaseShapeWidget
 ---@field public segmentsNumber Uint32

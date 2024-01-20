@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleTimeDilatable: gameTimeDilatable
 ---@field public listener sampleTimeListener

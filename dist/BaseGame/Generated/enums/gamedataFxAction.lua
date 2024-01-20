@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFxAction: Enum
 ---@field EnterCharge Enum 0

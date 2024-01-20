@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIShootingPatternRange: Enum
 ---@field Close Enum 0

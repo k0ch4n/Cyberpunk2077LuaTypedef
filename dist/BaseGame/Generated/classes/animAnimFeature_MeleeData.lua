@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_MeleeData: animAnimFeature
 ---@field public isMeleeWeaponEquipped Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotItemOverrideItemOverride
 ---@field public prevItemId TweakDBID

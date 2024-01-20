@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PingNetworkGridEvent: redEvent
 ---@field public ownerEntityPosition Vector4

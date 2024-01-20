@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InterpolatorsShowcaseController: inkWidgetLogicController
 ---@field public interpolationType inkanimInterpolationType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CRenderSimWaterImpulse: IDynamicTextureGenerator
 ---@field public resolution Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCItemToEquip
 ---@field public itemID gameItemID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class STonemappingACESParams
 ---@field public minStops Float

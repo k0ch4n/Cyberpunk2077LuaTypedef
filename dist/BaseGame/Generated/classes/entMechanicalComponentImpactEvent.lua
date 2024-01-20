@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entMechanicalComponentImpactEvent: redEvent
 ---@field public otherEntity entEntity

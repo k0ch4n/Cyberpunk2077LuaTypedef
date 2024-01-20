@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureAddressing: Enum
 ---@field TA_Wrap Enum 0

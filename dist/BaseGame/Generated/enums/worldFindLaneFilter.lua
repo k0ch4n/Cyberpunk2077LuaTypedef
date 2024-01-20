@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFindLaneFilter: Enum
 ---@field None Enum 0

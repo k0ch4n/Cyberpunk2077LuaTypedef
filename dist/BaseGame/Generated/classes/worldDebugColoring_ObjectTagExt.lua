@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_ObjectTagExt: worldEditorDebugColoringSettings
 ---@field public tag worldObjectTagExt

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSmartGunTargetSortConfigurations_Record: gamedataTweakDBRecord
 gamedataSmartGunTargetSortConfigurations_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemSearchFilterMaskValue: Enum
 ---@field Obj_Player Enum 1

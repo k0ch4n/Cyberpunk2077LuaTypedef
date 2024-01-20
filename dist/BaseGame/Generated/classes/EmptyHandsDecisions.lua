@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EmptyHandsDecisions: UpperBodyTransition
 ---@field public stateBodyDone Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentPriority: Enum
 ---@field Primary Enum 0

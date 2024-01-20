@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class renderDevTXAADebugMode: Enum
 ---@field TXAA_NoDebug Enum 0

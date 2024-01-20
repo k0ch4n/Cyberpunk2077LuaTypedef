@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioSpatialSoundLimitMetadata: audioAudioMetadata
 ---@field public eventNames CName[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationUiPreset: CResource
 ---@field public isMaleVO Bool

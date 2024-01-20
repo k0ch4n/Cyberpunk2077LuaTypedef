@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AHintItemController: inkWidgetLogicController
 ---@field protected Icon inkImageWidgetReference

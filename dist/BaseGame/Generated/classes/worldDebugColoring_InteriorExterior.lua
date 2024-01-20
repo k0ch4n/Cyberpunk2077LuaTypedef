@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_InteriorExterior: worldEditorDebugColoringSettings
 ---@field public interiorColor Color

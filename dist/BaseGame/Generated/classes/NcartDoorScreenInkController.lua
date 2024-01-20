@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartDoorScreenInkController: NcartTrainInkControllerBase
 ---@field private LinesList ncartDoorScreenLineDataDef[]

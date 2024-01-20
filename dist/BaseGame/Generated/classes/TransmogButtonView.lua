@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransmogButtonView: BaseButtonView
 ---@field private container inkWidgetReference

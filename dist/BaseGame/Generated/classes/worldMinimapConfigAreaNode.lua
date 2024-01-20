@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldMinimapConfigAreaNode: worldAreaShapeNode
 ---@field public streamingRadius Float

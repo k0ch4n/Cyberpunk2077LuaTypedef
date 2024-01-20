@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareAttributes_ContainersStruct
 ---@field public widgetBody inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioESoundCurveType: Enum
 ---@field Log3 Enum 0

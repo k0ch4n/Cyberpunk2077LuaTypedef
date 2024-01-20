@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpeningGateScreenGameController: BaseBunkerComputerGameController
 ---@field public systemConsole inkWidgetReference

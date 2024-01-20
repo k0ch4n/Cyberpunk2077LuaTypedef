@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Attack_Beam: gameAttack_Continuous
 Attack_Beam = {}

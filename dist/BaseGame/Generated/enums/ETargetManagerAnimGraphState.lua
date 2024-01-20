@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETargetManagerAnimGraphState: Enum
 ---@field MODELOOKAT Enum 0

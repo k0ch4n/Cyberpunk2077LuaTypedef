@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EActionInactivityReson: Enum
 ---@field Ready Enum 0

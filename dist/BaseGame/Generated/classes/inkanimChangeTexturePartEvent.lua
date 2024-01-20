@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimChangeTexturePartEvent: inkanimEvent
 ---@field public imageTexturePartName CName

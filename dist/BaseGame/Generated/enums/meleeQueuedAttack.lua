@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meleeQueuedAttack: Enum
 ---@field Block Enum 0

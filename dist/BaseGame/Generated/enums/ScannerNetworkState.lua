@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerNetworkState: Enum
 ---@field NOT_CONNECTED Enum 0

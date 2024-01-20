@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCensorshipEffect: inkGlitchEffect
 ---@field public censorshipFlags CensorshipFlags

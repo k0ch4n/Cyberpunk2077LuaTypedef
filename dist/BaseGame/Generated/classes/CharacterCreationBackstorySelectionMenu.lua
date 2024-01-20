@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationBackstorySelectionMenu: gameuiBaseCharacterCreationController
 ---@field public nomad inkWidgetReference

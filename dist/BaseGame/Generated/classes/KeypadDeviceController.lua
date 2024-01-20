@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KeypadDeviceController: DeviceWidgetControllerBase
 ---@field private hasButtonAuthorization Bool

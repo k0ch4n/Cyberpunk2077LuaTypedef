@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseSensorObject: ISerializable
 ---@field public presetID TweakDBID

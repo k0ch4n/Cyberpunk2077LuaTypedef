@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIHitBodyPart: Enum
 ---@field None Enum -1

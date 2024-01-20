@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayMappinController: QuestMappinController
 ---@field private anim inkanimProxy

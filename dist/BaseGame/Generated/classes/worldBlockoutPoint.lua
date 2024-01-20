@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBlockoutPoint: ISerializable
 ---@field public position Vector2

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolSpentPrereqState: gamePrereqState
 ---@field public neededValue Float

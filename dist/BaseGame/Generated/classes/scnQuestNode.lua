@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnQuestNode: scnSceneGraphNode
 ---@field public questNode questNodeDefinition

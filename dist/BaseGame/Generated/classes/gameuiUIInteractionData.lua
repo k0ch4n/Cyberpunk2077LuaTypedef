@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiUIInteractionData
 ---@field public interactionListActive Bool

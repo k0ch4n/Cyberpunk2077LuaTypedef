@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerfectDischargePrereqState: StatPoolPrereqState
 ---@field public owner gameObject

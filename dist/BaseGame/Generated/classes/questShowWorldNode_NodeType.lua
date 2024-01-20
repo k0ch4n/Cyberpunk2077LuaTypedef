@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowWorldNode_NodeType: questIWorldDataManagerNodeType
 ---@field public objectRef NodeRef

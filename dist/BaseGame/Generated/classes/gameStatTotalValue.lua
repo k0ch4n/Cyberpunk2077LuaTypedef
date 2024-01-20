@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatTotalValue
 ---@field public statType gamedataStatType

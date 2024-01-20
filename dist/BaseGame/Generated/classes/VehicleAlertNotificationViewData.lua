@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleAlertNotificationViewData: gameuiGenericNotificationViewData
 ---@field public canBeMerged Bool

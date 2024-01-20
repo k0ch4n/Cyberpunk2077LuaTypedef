@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StartEndPhoneCallEvent: redEvent
 ---@field public callDuration Float

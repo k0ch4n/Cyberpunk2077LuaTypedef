@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIJournal_NodeType: questIRetNodeType
 questIJournal_NodeType = {}

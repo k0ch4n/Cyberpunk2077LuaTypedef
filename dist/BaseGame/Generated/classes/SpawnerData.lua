@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpawnerData
 ---@field public spawnerID entEntityID

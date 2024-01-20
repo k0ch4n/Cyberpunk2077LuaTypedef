@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderMaterialType: Enum
 ---@field RMT_Standard Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameItemIconGender: Enum
 ---@field Female Enum 0

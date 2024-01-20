@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeaponManufacturer: Enum
 ---@field Corporation Enum 0

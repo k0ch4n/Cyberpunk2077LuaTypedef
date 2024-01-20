@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWeapon_ChimeraMetalstorm_NodeType: questUseWeapon_NodeType
 questUseWeapon_ChimeraMetalstorm_NodeType = {}

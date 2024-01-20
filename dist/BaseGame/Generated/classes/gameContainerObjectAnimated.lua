@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameContainerObjectAnimated: gameContainerObjectBase
 ---@field public animFeatureName CName

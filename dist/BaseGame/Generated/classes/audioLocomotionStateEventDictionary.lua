@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLocomotionStateEventDictionary: audioInlinedAudioMetadata
 ---@field public entries audioLocomotionStateEventDictionaryItem[]

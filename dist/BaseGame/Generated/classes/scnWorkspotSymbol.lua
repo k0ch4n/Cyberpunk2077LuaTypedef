@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorkspotSymbol
 ---@field public wsInstance scnSceneWorkspotInstanceId

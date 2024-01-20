@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_DistanceAbstractBase: worldEditorDebugColoringSettings
 ---@field public maxColor Color

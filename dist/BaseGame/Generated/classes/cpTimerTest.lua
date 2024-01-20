@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpTimerTest: gameObject
 ---@field public counter Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCreditsController: gameuiWidgetGameController
 ---@field public creditsResourcePS4 inkCreditsResource

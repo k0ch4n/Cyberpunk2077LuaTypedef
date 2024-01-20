@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsCollisionPresetDefinition: ISerializable
 ---@field public Name CName

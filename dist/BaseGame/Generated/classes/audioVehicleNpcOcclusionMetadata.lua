@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleNpcOcclusionMetadata: audioEmitterMetadata
 ---@field public void Bool

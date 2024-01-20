@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSettingsSelectorController: inkWidgetLogicController
 ---@field protected LabelText inkTextWidgetReference

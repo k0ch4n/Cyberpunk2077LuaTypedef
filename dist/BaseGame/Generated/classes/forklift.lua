@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class forklift: InteractiveDevice
 ---@field protected reversed Bool

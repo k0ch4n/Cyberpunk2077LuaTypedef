@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCharacterEventType: Enum
 ---@field CharInput Enum 0

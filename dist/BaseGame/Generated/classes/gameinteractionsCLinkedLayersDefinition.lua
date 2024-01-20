@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCLinkedLayersDefinition: gameinteractionsNodeDefinition
 ---@field public layersDefinitions gameinteractionsCHotSpotLayerDefinition[]

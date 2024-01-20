@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionInitialReactionParams_Record_Implementation: IScriptable
 AISubActionInitialReactionParams_Record_Implementation = {}

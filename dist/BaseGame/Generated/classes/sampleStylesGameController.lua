@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleStylesGameController: gameuiWidgetGameController
 ---@field private stateText inkTextWidget

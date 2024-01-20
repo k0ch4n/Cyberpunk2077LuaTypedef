@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkMinigameElementController: inkWidgetLogicController
 ---@field protected data ElementData

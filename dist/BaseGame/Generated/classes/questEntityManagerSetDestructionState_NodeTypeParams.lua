@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerSetDestructionState_NodeTypeParams
 ---@field public objectRef gameEntityReference

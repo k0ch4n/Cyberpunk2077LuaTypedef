@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDeathTask: AIDeathReactionsTask
 ---@field public vehNPCDeathData AnimFeature_VehicleNPCDeathData

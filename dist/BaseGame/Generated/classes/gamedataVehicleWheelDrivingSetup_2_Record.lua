@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleWheelDrivingSetup_2_Record: gamedataVehicleWheelDrivingSetup_Record
 gamedataVehicleWheelDrivingSetup_2_Record = {}

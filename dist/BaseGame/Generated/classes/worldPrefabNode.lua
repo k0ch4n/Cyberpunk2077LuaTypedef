@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPrefabNode: worldNode
 ---@field public prefab worldPrefab

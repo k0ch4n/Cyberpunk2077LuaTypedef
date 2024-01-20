@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveDevice: BasicDistractionDevice
 ---@field protected numberOfComponentsToON Int32

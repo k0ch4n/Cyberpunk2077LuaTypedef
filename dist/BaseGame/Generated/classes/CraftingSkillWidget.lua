@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingSkillWidget: gameuiWidgetGameController
 ---@field protected amountText inkTextWidgetReference

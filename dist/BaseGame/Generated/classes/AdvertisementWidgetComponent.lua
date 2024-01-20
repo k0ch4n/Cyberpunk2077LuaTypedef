@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdvertisementWidgetComponent: IWorldWidgetComponent
 ---@field public format AdvertisementFormat

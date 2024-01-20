@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDeviceComponentPS: gameComponentPS
 ---@field protected markAsQuest Bool

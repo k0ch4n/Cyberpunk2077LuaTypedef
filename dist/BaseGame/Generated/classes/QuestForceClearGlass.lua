@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestForceClearGlass: ActionBool
 QuestForceClearGlass = {}

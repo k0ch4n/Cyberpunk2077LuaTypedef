@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineConsumableParameterInt: gamestateMachineActionParameterInt
 ---@field public consumed Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInputHintGroupController: inkWidgetLogicController
 ---@field public titleTextRef inkTextWidgetReference

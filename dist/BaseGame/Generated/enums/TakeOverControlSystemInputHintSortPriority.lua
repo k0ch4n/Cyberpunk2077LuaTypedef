@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TakeOverControlSystemInputHintSortPriority: Enum
 ---@field Shoot Enum 0

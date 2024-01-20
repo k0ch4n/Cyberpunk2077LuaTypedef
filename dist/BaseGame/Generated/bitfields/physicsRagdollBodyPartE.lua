@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@enum physicsRagdollBodyPartE
 physicsRagdollBodyPartE = {

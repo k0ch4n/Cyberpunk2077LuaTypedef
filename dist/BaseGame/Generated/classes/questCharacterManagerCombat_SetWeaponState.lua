@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerCombat_SetWeaponState: questICharacterManagerCombat_NodeSubType
 ---@field public areaType gameCityAreaType

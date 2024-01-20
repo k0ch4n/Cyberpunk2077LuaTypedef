@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIPathAndReferenceGameController: gameuiWidgetGameController
 ---@field public textWidget inkTextWidgetReference

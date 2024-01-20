@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGOGReward_ConditionType: questISystemConditionType
 ---@field public rewardRecordId TweakDBID

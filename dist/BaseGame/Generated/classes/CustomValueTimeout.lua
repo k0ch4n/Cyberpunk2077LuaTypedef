@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomValueTimeout: AITimeoutCondition
 ---@field public timeoutValue Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workAnimClipWithItem: workAnimClip
 ---@field public itemActions workIWorkspotItemAction[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UILocalizationMap: IScriptable
 ---@field private map UILocRecord[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponEquipEvent: redEvent
 ---@field public animFeature AnimFeature_EquipType

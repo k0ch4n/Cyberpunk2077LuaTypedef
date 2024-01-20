@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetSensePreset: questICharacterManagerParameters_NodeSubType
 ---@field public puppetRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemAdditionalInfoType: Enum
 ---@field NONE Enum 0

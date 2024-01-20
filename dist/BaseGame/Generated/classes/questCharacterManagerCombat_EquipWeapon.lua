@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerCombat_EquipWeapon: questICharacterManagerCombat_NodeSubType
 ---@field public equip Bool

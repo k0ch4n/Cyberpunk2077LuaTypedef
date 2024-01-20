@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAITicketType: Enum
 ---@field AndroidMelee Enum 0

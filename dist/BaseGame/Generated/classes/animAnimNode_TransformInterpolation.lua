@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TransformInterpolation: animAnimNode_TransformValue
 ---@field public interpolationType animQuaternionInterpolationType

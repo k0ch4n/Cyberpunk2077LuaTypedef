@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BrowserGameController: gameuiWidgetGameController
 ---@field public logicControllerRef inkWidgetReference

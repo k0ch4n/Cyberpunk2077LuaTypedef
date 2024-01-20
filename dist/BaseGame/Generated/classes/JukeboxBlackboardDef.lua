@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JukeboxBlackboardDef: DeviceBaseBlackboardDef
 ---@field public IsPlaying gamebbScriptID_Bool

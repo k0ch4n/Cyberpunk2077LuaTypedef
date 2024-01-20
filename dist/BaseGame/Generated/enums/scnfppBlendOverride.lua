@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnfppBlendOverride: Enum
 ---@field Centering Enum 0

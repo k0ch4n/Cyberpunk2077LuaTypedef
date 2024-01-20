@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemQuery_Record: gamedataQuery_Record
 gamedataItemQuery_Record = {}

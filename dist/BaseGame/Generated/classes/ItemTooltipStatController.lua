@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipStatController: inkWidgetLogicController
 ---@field protected statName inkTextWidgetReference

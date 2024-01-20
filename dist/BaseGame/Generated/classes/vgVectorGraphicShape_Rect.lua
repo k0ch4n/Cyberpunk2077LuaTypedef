@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicShape_Rect: vgBaseVectorGraphicShape
 ---@field public mensions Vector2

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUseConsumableEffector_Record: gamedataEffector_Record
 gamedataUseConsumableEffector_Record = {}

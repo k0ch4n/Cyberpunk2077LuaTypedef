@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IParticleInitializer: IParticleModule
 ---@field public seed Uint32

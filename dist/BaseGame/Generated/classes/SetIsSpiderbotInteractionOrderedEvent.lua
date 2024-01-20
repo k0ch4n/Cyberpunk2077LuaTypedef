@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetIsSpiderbotInteractionOrderedEvent: redEvent
 ---@field public value Bool

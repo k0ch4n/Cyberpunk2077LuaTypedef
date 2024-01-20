@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ButtonHintListItem: inkWidgetLogicController
 ---@field private inputDisplay inkWidgetReference

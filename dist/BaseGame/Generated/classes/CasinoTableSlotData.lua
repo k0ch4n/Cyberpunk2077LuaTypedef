@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CasinoTableSlotData
 ---@field public widget inkWidgetReference

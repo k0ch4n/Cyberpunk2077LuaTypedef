@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NonStealthQuickHackVictimEvent: redEvent
 ---@field public instigatorID entEntityID

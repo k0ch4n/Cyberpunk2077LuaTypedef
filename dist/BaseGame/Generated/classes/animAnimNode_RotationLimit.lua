@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_RotationLimit: animAnimNode_OnePoseInput
 ---@field public constrainedTransform animTransformIndex

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleEventsTransition: VehicleTransition
 ---@field protected isCameraTogglePressed Bool

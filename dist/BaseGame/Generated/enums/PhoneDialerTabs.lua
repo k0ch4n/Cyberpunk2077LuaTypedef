@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneDialerTabs: Enum
 ---@field Unread Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCheckpointNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public saveLock Bool

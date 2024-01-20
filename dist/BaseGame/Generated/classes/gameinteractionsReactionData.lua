@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsReactionData: IScriptable
 ---@field public choiceName CName

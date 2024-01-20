@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVertexAnimationMapperDestination
 ---@field public vertexCustomSlotIndex Uint32

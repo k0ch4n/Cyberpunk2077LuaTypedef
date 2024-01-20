@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questHackingManager_ActionType: ISerializable
 questHackingManager_ActionType = {}

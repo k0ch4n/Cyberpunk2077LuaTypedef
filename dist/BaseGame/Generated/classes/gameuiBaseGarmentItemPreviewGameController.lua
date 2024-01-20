@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBaseGarmentItemPreviewGameController: gameuiInventoryPuppetPreviewGameController
 ---@field protected placementSlot TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeActionAnimationCurvePathDefinition: AICTreeNodeActionDefinition
 ---@field public nodeReference LibTreeDefNodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataComputerScreenType_Record: gamedataDeviceScreenType_Record
 gamedataComputerScreenType_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFootwearType: audioAudioMetadata
 ---@field public itemNames CName[]

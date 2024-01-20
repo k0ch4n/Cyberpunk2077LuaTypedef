@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TagValue: animAnimNode_FloatValue
 ---@field public tag CName

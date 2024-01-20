@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetTargetByTag_Record_Implementation: IScriptable
 AISubActionSetTargetByTag_Record_Implementation = {}

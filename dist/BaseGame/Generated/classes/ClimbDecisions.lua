@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClimbDecisions: LocomotionGroundDecisions
 ---@field public stateBodyDone Bool

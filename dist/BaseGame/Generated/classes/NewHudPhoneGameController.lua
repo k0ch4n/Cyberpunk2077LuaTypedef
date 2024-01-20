@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewHudPhoneGameController: gameuiNewHudPhoneGameController
 ---@field public player PlayerPuppet

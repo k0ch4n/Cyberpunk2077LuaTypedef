@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIBackgroundCombatStep: Enum
 ---@field ChangeCover Enum 0

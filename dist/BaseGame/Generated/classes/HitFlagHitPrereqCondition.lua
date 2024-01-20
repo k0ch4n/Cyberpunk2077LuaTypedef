@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitFlagHitPrereqCondition: BaseHitPrereqCondition
 ---@field public hitFlag hitFlag

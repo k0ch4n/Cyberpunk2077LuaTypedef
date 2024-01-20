@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MovableDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field private MovableDeviceSetup MovableDeviceSetup

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleGlassDestructionEvent: redEvent
 ---@field public glassName CName

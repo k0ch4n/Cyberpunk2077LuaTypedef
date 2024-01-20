@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaminaTransition: DefaultTransition
 ---@field public staminaChangeToggle Bool

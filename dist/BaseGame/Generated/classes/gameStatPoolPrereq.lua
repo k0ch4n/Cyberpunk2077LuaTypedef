@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatPoolPrereq: gameIComparisonPrereq
 ---@field public statPoolType gamedataStatPoolType

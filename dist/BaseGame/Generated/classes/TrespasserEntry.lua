@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrespasserEntry
 ---@field public trespasser gameObject

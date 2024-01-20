@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksRequirementsLinks: IScriptable
 ---@field public perk gamedataNewPerkType

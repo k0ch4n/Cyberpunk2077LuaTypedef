@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemModeGridContainer: inkWidgetLogicController
 ---@field protected scrollControllerWidget inkCompoundWidgetReference

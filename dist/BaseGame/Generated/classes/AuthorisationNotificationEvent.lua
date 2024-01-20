@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AuthorisationNotificationEvent: redEvent
 ---@field public type gameuiAuthorisationNotificationType

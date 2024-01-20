@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_HitType: gameEffectObjectSingleFilter
 ---@field public action gameEffectObjectFilter_HitTypeAction

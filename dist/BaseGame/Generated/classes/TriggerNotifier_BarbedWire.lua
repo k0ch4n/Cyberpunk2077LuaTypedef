@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerNotifier_BarbedWire: entTriggerNotifier_Script
 ---@field public attackType TweakDBID

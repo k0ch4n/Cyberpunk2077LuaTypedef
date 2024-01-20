@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaminaPoolListener: gameScriptStatPoolsListener
 ---@field private staminaBar StaminabarWidgetGameController

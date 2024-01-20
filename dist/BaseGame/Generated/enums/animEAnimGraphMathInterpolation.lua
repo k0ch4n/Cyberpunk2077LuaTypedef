@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEAnimGraphMathInterpolation: Enum
 ---@field AGMI_LINEAR Enum 0

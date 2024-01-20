@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIBaseUseWorkspotCommand: AICommand
 ---@field public moveToWorkspot Bool

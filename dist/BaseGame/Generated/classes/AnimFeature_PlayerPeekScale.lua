@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PlayerPeekScale: animAnimFeature
 ---@field public peekScale Float

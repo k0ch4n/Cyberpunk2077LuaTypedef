@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameOnlineSystemErrors: Enum
 ---@field None Enum 0

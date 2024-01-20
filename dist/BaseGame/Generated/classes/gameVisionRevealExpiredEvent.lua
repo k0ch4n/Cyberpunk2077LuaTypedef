@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionRevealExpiredEvent: redEvent
 ---@field public revealId gameVisionModeSystemRevealIdentifier

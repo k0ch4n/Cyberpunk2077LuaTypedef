@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadJustSelfFilter_Record: gamedataAITicketFilter_Record
 gamedataAISquadJustSelfFilter_Record = {}

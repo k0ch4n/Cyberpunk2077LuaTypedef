@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerLevelUpProficiency_NodeType: questIEntityManager_NodeType
 ---@field public type gamedataProficiencyType

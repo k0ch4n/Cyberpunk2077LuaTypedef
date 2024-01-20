@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LocomotionSwitch: animAnimNode_Switch
 ---@field public audioTagsPerInput CName[]

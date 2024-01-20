@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PingSquadEffector: gameEffector
 ---@field public squadMembers entEntityID[]

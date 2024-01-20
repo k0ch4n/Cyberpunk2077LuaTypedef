@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FuseData
 ---@field public psOwnerData PSOwnerData

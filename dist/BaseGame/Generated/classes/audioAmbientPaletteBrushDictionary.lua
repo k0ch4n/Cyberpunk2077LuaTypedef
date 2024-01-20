@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientPaletteBrushDictionary: audioInlinedAudioMetadata
 ---@field public entries audioAmbientPaletteBrushDictionaryItem[]

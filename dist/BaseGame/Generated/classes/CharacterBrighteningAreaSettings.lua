@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterBrighteningAreaSettings: IAreaSettings
 ---@field public effectStrengthMultiplier Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workReactionSequence: workIContainerEntry
 ---@field public forcedBlendIn Float

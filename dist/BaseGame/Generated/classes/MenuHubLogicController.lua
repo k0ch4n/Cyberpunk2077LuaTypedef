@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuHubLogicController: inkWidgetLogicController
 ---@field private menuObject inkWidgetReference

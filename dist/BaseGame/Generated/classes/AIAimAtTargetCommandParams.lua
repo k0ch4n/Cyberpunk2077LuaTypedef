@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAimAtTargetCommandParams: questScriptedAICommandParams
 ---@field public targetOverrideNodeRef NodeRef

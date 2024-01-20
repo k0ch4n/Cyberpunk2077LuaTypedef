@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FirstEquipSystem: gameScriptableSystem
 ---@field protected equipDataArray EFirstEquipData[]

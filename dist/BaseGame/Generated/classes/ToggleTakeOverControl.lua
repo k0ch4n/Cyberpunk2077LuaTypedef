@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleTakeOverControl: ActionBool
 ---@field public isRequestedFormOtherDevice Bool

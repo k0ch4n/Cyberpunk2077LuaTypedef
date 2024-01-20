@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsNpcMountedInSlotPrereq: gameIScriptablePrereq
 ---@field protected slotName CName

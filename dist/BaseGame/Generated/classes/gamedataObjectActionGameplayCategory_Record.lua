@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataObjectActionGameplayCategory_Record: gamedataScannableData_Record
 gamedataObjectActionGameplayCategory_Record = {}

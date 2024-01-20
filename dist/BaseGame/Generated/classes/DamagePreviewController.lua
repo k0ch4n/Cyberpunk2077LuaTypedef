@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamagePreviewController: inkWidgetLogicController
 ---@field public fullBar inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionAnimationState: gameActionReplicatedState
 ---@field public animFeatureName CName

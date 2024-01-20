@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedHealingBlackBoardDef: gamebbScriptDefinition
 ---@field public currHealingItemCharge gamebbScriptID_Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleMappinComponent: IScriptable
 ---@field private questMappinController QuestMappinController

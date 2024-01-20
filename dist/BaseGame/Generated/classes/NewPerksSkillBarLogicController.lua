@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksSkillBarLogicController: inkVirtualCompoundItemController
 ---@field private statsProgressWidget inkWidgetReference

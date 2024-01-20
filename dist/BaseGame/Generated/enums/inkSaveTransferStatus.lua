@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSaveTransferStatus: Enum
 ---@field ExportStarted Enum 0

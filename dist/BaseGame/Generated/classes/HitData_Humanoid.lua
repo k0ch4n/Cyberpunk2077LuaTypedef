@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitData_Humanoid: HitData_Base
 ---@field public reactionZonesSide ReactionZones_Humanoid_Side

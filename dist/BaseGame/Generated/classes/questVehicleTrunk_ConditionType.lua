@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleTrunk_ConditionType: questIVehicleConditionType
 ---@field public anyVehicle Bool

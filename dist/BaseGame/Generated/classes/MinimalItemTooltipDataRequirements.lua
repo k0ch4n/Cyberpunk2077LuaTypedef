@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipDataRequirements: IScriptable
 ---@field public isLevelRequirementNotMet Bool

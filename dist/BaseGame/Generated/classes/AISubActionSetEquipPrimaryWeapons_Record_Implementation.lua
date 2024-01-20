@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetEquipPrimaryWeapons_Record_Implementation: IScriptable
 AISubActionSetEquipPrimaryWeapons_Record_Implementation = {}

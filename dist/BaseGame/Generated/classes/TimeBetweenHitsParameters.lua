@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimeBetweenHitsParameters
 ---@field public baseCoefficient Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityCommunityEntryPhaseSpotsData
 ---@field public timePeriodsData communityCommunityEntryPhaseTimePeriodData[]

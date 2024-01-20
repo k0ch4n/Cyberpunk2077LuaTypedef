@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LockPerkArea: gamePlayerScriptableSystemRequest
 ---@field public perkArea gamedataPerkArea

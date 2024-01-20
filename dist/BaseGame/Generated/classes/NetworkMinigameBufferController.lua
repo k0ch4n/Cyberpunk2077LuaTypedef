@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkMinigameBufferController: inkWidgetLogicController
 ---@field protected bufferSlotsContainer inkWidgetReference

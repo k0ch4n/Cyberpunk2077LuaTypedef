@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AutomaticDeescalationEvent: redEvent
 ---@field public originalNotification SecuritySystemInput

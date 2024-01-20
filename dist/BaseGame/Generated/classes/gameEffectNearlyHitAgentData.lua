@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectNearlyHitAgentData
 ---@field public hitPosition Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMeleeAttackData: IScriptable
 ---@field public trailAttackSide String

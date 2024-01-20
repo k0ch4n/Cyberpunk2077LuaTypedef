@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorldMarkerType: Enum
 ---@field Tag Enum 0

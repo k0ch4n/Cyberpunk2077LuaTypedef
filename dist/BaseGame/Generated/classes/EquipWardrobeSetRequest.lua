@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipWardrobeSetRequest: gamePlayerScriptableSystemRequest
 ---@field public setID gameWardrobeClothingSetIndex

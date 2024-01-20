@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionStatusEffect_Record: gamedataAISubAction_Record
 gamedataAISubActionStatusEffect_Record = {}

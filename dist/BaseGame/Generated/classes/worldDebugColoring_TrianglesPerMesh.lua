@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_TrianglesPerMesh: worldEditorDebugColoringSettings
 ---@field public maxColor Color

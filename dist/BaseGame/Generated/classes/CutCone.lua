@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CutCone
 ---@field public positionAndRadius1 Vector4

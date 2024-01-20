@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneCustomData_ColorFadeParams: ISceneStorageCustomData
 SceneCustomData_ColorFadeParams = {}

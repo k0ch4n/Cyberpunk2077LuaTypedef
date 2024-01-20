@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EntitiesAtGate: MorphData
 ---@field public entitiesAtGate entEntityID[]

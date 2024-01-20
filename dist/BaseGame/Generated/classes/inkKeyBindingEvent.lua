@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkKeyBindingEvent: redEvent
 ---@field public keyName CName

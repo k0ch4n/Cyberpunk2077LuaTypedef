@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTaggedEvent: redEvent
 ---@field public state Bool

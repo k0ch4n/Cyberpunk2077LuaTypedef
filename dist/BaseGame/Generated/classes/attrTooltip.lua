@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrTooltip: attrAttribute
 ---@field public xt String

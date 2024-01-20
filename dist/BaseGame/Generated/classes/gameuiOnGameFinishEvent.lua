@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiOnGameFinishEvent: redEvent
 ---@field public gameState gameuiMinigameState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDrivePanicTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field public allowSimplifiedMovement AIArgumentMapping

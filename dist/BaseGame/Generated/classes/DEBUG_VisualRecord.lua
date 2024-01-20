@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_VisualRecord
 ---@field public layerIDs Uint32[]

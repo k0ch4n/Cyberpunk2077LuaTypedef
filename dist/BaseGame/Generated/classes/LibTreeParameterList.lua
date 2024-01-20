@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeParameterList
 ---@field public parameters LibTreeParameter[]

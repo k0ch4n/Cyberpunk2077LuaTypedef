@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDistrict: Enum
 ---@field ArasakaWaterfront Enum 0

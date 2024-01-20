@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataConsumableBaseName: Enum
 ---@field Alcohol Enum 0

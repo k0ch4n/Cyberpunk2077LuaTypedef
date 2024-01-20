@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldInspectorNodeInstanceProperties: ISerializable
 ---@field public setupInfo worldCompiledNodeInstanceSetupInfo

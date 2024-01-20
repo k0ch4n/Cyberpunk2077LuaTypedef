@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimChangeStateEvent: inkanimEvent
 ---@field public state CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeaponReplicationHistory
 ---@field public weaponSlot TweakDBID

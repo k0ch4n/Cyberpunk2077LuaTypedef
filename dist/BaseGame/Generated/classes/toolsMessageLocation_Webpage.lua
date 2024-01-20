@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageLocation_Webpage: toolsIMessageLocation
 ---@field public link String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsSetChoicesEvent: redEvent
 ---@field public choices gameinteractionsChoice[]

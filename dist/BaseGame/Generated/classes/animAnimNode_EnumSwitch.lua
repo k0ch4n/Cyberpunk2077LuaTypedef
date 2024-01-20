@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_EnumSwitch: animAnimNode_InputSwitch
 ---@field public enumName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkComboBoxController: inkWidgetLogicController
 ---@field public comboBoxObjectRef inkWidgetReference

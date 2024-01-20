@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDeviceResource: CResource
 ---@field public data gameDeviceResourceData

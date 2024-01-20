@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddActiveContextEvent: redEvent
 ---@field public context gamedeviceRequestType

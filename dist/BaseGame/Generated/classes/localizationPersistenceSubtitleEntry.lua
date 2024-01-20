@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class localizationPersistenceSubtitleEntry
 ---@field public stringId CRUID

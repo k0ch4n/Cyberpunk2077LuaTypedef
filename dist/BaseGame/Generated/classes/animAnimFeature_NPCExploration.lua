@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_NPCExploration: animAnimFeature
 ---@field public explorationType Int32

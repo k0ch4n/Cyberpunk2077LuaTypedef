@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessengerTypingIndicator: inkWidgetLogicController
 ---@field private container inkWidgetReference

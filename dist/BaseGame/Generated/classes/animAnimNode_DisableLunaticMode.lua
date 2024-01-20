@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DisableLunaticMode: animAnimNode_OnePoseInput
 animAnimNode_DisableLunaticMode = {}

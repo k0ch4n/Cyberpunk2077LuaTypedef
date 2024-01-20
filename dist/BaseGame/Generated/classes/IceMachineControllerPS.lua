@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IceMachineControllerPS: VendingMachineControllerPS
 ---@field private vendorTweakID TweakDBID

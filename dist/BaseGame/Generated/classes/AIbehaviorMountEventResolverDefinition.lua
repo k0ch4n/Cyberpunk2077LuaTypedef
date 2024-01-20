@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMountEventResolverDefinition: AIbehaviorEventResolverDefinition
 ---@field public mountData AIArgumentMapping

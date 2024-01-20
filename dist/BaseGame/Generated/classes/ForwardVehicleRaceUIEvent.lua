@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForwardVehicleRaceUIEvent: redEvent
 ---@field public mode vehicleRaceUI

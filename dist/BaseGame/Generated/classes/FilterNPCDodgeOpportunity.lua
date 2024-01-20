@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterNPCDodgeOpportunity: gameEffectObjectGroupFilter_Scripted
 ---@field private applyToTechWeapons Bool

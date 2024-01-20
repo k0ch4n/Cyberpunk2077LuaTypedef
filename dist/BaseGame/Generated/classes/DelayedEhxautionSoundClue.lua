@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedEhxautionSoundClue: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field private puppet gameObject

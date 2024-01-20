@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAssignConvoy_NodeType: questIVehicleManagerNodeType
 ---@field public Followers gameEntityReference[]

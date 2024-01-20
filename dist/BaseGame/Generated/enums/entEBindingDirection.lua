@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEBindingDirection: Enum
 ---@field BindToSource Enum 0

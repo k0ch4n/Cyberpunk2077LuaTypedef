@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAgentSpawnedEvent: redEvent
 ---@field public spawnedAgent DeviceLink

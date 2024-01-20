@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMBodyCarryingStyle: Enum
 ---@field Any Enum 0

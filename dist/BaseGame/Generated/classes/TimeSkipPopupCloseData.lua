@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimeSkipPopupCloseData: inkGameNotificationData
 ---@field public timeChanged Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EScreenRatio: Enum
 ---@field Screen_21x9 Enum 0

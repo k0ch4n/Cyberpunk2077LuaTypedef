@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitOperations: DeviceOperations
 ---@field protected hitOperations SHitOperationData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JournalWrapper: ABaseWrapper
 ---@field private journalManager gameJournalManager

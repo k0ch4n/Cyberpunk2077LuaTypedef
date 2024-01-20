@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleForbiddenAreaState
 ---@field public globalNodeIDHash Uint64

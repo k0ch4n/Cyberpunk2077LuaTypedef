@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModeMappinEvent: redEvent
 ---@field public show Bool

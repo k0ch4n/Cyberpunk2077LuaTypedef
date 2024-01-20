@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReactiveEventSender: AISignalSenderTask
 ---@field public behaviorArgumentNameTag CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEventActionType: Enum
 ---@field Play Enum 0

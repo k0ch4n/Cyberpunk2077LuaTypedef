@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleRadioStationChanged: redEvent
 ---@field public isActive Bool

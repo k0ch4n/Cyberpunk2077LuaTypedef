@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIPatternsPackage_Record: gamedataTweakDBRecord
 gamedataAIPatternsPackage_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CluePSData: IScriptable
 ---@field private id Int32

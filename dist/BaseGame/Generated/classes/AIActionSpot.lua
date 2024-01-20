@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionSpot: AISmartSpot
 ---@field public resource workWorkspotResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PlayerHitReactionData: animAnimFeature
 ---@field public hitDirection Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChoiceCaptionPartType: Enum
 ---@field Blueline Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_DangleExternalInput: animAnimFeature
 ---@field public fictitiousAccelerationWs Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckPhaseState: AIbehaviorconditionScript
 ---@field public phaseStateValue ENPCPhaseState

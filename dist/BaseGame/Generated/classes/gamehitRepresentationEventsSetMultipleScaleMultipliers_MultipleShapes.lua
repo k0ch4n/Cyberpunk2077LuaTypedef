@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes: redEvent
 ---@field public scaleMultipliers Vector4[]

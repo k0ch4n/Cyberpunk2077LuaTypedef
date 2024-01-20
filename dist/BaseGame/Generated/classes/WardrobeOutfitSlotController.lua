@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WardrobeOutfitSlotController: inkWidgetLogicController
 ---@field private slotNumberText inkTextWidgetReference

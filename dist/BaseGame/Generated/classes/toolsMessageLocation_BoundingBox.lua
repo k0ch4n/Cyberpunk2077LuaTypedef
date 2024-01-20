@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageLocation_BoundingBox: toolsIMessageLocation
 ---@field public resourcePath MessageResourcePath

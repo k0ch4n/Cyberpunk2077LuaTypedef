@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHostLeftSquad: AIAIEvent
 ---@field public squadInterface AISquadScriptInterface

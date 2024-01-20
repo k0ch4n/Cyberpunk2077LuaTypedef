@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAimAssistMelee_Record: gamedataTweakDBRecord
 gamedataAimAssistMelee_Record = {}

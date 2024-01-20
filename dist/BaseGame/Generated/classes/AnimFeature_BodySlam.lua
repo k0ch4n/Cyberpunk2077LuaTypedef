@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_BodySlam: animAnimFeature
 ---@field public chargeLevel Int32

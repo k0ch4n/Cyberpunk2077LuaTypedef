@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSetInfluenceMap_Record: gamedataAISubAction_Record
 gamedataAISubActionSetInfluenceMap_Record = {}

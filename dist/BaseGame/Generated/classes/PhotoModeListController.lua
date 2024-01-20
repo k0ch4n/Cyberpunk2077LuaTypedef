@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeListController: inkListController
 ---@field private LogoWidget inkWidgetReference

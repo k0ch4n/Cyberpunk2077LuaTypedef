@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AbilityUserData: IScriptable
 ---@field public abilityID TweakDBID

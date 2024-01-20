@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStreetCredTier_Record: gamedataTweakDBRecord
 gamedataStreetCredTier_Record = {}

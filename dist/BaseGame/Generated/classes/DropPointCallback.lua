@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointCallback: gameInventoryScriptCallback
 ---@field public dps DropPointSystem

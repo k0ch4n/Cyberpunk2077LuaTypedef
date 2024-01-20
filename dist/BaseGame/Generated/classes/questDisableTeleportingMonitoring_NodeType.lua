@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDisableTeleportingMonitoring_NodeType: questIWorldDataManagerNodeType
 questDisableTeleportingMonitoring_NodeType = {}

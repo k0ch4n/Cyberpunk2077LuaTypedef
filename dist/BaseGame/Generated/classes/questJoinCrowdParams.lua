@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJoinCrowdParams: questAICommandParams
 ---@field public repeatCommandOnInterrupt Bool

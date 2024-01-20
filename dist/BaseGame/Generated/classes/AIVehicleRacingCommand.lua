@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleRacingCommand: AIVehicleCommand
 ---@field public splineRef NodeRef

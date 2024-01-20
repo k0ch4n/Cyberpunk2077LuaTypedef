@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CookedMultilayer_Setup: CResource
 ---@field public dependencies Multilayer_Setup[]

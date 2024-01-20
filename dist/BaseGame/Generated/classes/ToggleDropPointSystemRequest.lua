@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleDropPointSystemRequest: gameScriptableSystemRequest
 ---@field public isEnabled Bool

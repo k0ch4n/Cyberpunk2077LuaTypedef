@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RagdollDamagePollData
 ---@field public worldPosition WorldPosition

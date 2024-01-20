@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorConditionNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public condition AIbehaviorConditionDefinition

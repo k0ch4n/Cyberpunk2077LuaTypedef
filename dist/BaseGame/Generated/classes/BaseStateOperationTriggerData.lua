@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseStateOperationTriggerData: DeviceOperationTriggerData
 ---@field public state EDeviceStatus

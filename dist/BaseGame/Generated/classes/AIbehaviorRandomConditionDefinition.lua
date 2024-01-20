@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorRandomConditionDefinition: AIbehaviorConditionDefinition
 ---@field public chance Float

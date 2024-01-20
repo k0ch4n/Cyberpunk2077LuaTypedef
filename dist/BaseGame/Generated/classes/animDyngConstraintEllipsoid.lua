@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDyngConstraintEllipsoid: animIDyngConstraint
 ---@field public bone animTransformIndex

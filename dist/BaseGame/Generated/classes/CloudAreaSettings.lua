@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CloudAreaSettings: IAreaSettings
 ---@field public cloudSunShadowFaloff curveData

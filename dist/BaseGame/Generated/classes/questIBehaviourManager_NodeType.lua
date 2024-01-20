@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIBehaviourManager_NodeType: questIRetNodeType
 ---@field public puppetRef gameEntityReference

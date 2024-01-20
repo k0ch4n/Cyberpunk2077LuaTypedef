@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsDespawnEntityEvent: scnSceneEvent
 ---@field public params scneventsDespawnEntityEventParams

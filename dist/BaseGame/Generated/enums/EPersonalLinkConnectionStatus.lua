@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPersonalLinkConnectionStatus: Enum
 ---@field NOT_CONNECTED Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehiclePlayerVehicle
 ---@field public name CName

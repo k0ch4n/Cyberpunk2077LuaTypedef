@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinotaurMechComponent: gameScriptableComponent
 ---@field public deathAttackRecordID TweakDBID

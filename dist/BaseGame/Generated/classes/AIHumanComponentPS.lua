@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHumanComponentPS: AICommandQueuePS
 ---@field public spotUsageToken AISpotUsageToken

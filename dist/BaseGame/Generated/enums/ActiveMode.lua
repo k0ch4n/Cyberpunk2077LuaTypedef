@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActiveMode: Enum
 ---@field UNINITIALIZED Enum 0

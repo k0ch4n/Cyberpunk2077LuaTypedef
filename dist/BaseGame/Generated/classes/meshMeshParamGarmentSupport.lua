@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamGarmentSupport: meshMeshParameter
 ---@field public chunkCapVertices Uint32[][]

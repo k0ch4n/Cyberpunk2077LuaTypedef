@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehiclePanicCommand: AIVehicleCommand
 ---@field public allowSimplifiedMovement Bool

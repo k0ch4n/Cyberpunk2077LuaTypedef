@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderMeshStreams: Enum
 ---@field RMS_PositionSkinning Enum 1

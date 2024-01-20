@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIVideoPlayer: inkWidgetLogicController
 ---@field public videoWidgetPath CName

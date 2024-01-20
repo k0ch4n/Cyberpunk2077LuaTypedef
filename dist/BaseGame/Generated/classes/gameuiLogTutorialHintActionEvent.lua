@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiLogTutorialHintActionEvent: redEvent
 ---@field public actionName CName

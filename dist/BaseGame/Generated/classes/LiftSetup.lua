@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftSetup
 ---@field public startingFloorTerminal Int32

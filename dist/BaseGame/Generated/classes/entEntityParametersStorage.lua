@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEntityParametersStorage: ISerializable
 ---@field public parameters entEntityParameter[]

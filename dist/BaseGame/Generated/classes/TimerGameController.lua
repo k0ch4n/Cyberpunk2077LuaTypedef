@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimerGameController: gameuiHUDGameController
 ---@field private value inkTextWidgetReference

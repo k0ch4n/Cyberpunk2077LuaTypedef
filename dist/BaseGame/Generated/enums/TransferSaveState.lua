@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransferSaveState: Enum
 ---@field ExportConfirmation Enum 0

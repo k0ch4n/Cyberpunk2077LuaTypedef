@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EComparisonOperator: Enum
 ---@field Equal Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeakFence: InteractiveDevice
 ---@field protected impulseForce Float

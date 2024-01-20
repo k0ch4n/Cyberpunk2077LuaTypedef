@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceReservationAgent: gameinfluenceIAgent
 ---@field public radius Float

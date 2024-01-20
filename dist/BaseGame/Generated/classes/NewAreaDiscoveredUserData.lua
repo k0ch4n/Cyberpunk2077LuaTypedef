@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewAreaDiscoveredUserData: inkGameNotificationData
 ---@field public data String

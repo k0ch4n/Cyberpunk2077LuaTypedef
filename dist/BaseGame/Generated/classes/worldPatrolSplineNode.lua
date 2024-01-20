@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPatrolSplineNode: worldSplineNode
 ---@field public patrolPointDefs worldPatrolSplinePointDefinition[]

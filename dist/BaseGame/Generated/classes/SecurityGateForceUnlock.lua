@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGateForceUnlock: redEvent
 ---@field public entranceAllowedFor entEntityID

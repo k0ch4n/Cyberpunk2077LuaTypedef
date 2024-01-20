@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksSkillsLevelsContainerController: inkWidgetLogicController
 ---@field protected topRowItemsContainer inkCompoundWidgetReference

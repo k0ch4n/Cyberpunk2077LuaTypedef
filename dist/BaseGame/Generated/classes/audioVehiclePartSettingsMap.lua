@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehiclePartSettingsMap: audioAudioMetadata
 ---@field public minAcousticsIsolationFactorValue Float

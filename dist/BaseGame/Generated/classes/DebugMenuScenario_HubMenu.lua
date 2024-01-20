@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DebugMenuScenario_HubMenu: MenuScenario_BaseMenu
 ---@field private defaultMenu CName

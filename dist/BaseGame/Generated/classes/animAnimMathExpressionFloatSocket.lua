@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimMathExpressionFloatSocket
 ---@field public link animFloatLink

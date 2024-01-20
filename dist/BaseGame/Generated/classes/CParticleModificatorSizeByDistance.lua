@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorSizeByDistance: IParticleModificator
 ---@field public nearDistanceRangeStart IEvaluatorFloat

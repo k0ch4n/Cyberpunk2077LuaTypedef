@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentCollarAreaParams
 ---@field public enable Bool

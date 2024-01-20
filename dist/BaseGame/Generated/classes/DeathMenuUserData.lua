@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeathMenuUserData: IScriptable
 ---@field public playInitAnimation Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponeventsSetMaxChargeEvent: redEvent
 ---@field public maxCharge Float

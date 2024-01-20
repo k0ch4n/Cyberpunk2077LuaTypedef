@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceObstacleAgent: gameinfluenceIAgent
 ---@field public useMeshes Bool

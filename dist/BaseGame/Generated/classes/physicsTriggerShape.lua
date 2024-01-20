@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsTriggerShape
 ---@field public shapeType physicsShapeType

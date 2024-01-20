@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleQuestListItemController: inkVirtualCompoundItemController
 ---@field private title inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIFriendlyFireCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIFriendlyFireCond_Record = {}

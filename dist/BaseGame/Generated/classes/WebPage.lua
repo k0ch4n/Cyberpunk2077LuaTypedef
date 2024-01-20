@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WebPage: inkWidgetLogicController
 ---@field protected textList inkTextWidgetReference[]

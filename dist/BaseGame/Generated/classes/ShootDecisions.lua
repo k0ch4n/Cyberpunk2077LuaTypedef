@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShootDecisions: WeaponTransition
 ---@field public stateBodyDone Bool

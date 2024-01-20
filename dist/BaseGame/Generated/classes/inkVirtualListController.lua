@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVirtualListController: inkVirtualCompoundController
 ---@field public itemTemplates inkWidgetLibraryReference[]

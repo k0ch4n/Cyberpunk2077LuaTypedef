@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareAttributesSkills: gameuiWidgetGameController
 ---@field protected attributes CyberwareAttributes_ContainersStruct

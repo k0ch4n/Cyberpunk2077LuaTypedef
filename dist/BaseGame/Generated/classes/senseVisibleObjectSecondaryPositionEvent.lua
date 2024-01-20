@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisibleObjectSecondaryPositionEvent: redEvent
 ---@field public offset Vector3

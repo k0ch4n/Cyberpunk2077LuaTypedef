@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class coverLeanDirection: Enum
 ---@field Top Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TeleportCommandHandler: AICommandHandlerBase
 ---@field protected position AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameChangeDestination: gameActionInternalEvent
 ---@field public destination Vector4

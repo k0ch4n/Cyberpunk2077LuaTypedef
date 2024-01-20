@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataValueAssignment_Record: gamedataContentAssignment_Record
 gamedataValueAssignment_Record = {}

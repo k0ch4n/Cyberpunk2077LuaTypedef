@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navNavAreaID: Enum
 ---@field Unwalkable Enum 0

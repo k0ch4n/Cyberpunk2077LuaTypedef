@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectPropertyDictionaryPropertyEntry
 ---@field public id Uint16

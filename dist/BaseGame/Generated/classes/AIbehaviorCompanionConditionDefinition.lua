@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCompanionConditionDefinition: AIbehaviorConditionDefinition
 ---@field public spline AIArgumentMapping

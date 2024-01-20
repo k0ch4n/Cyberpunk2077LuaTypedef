@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerPerkDataDef: gamebbScriptDefinition
 ---@field public WoundedInstigated gamebbScriptID_Uint32

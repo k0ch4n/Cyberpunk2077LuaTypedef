@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_SendStimuli: gameEffectExecutor
 gameEffectExecutor_SendStimuli = {}

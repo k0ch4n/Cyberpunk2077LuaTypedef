@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDismembermentSoundSettings: audioAudioMetadata
 ---@field public headEvent CName

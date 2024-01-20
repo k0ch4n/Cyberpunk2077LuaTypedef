@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectDecisions: LocomotionGroundDecisions
 ---@field private executionOwner gameObject

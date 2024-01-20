@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimSetTextEvent: inkanimEvent
 ---@field public localizationString String

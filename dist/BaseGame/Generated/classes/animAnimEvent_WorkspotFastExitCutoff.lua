@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_WorkspotFastExitCutoff: animAnimEvent
 animAnimEvent_WorkspotFastExitCutoff = {}

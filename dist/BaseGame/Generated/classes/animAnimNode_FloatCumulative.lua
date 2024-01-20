@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatCumulative: animAnimNode_FloatValue
 ---@field public clamp Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMusicSyncType: Enum
 ---@field Beat Enum 1

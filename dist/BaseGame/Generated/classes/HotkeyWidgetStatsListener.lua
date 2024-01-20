@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HotkeyWidgetStatsListener: gameScriptStatusEffectListener
 ---@field private controller GenericHotkeyController

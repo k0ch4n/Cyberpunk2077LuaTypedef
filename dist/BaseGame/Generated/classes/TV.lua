@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TV: InteractiveDevice
 ---@field private isShortGlitchActive Bool

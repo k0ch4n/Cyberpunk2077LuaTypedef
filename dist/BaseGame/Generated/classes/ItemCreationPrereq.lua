@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemCreationPrereq: gameIScriptablePrereq
 ---@field public fireAndForget Bool

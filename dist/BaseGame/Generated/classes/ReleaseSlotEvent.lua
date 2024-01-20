@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReleaseSlotEvent: redEvent
 ---@field public slotID Int32

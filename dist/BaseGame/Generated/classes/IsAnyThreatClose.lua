@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsAnyThreatClose: AIAutonomousConditions
 ---@field public distance Float

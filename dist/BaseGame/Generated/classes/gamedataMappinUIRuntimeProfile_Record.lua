@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUIRuntimeProfile_Record: gamedataTweakDBRecord
 gamedataMappinUIRuntimeProfile_Record = {}

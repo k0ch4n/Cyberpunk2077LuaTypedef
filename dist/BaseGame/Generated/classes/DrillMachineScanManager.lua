@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DrillMachineScanManager: gameScriptableComponent
 ---@field private ppStarting Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceHackCategory_Record: gamedataTweakDBRecord
 gamedataDeviceHackCategory_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseDeviceData
 ---@field public deviceState EDeviceStatus

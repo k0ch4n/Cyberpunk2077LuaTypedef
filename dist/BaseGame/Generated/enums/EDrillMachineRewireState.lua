@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDrillMachineRewireState: Enum
 ---@field InsideInteractionRange Enum 0

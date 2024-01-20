@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIEquipCommand: AICommand
 ---@field public slotId TweakDBID

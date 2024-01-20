@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeHitEvent: redEvent
 ---@field public instigator gameObject

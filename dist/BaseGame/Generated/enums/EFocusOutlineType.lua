@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFocusOutlineType: Enum
 ---@field HOSTILE Enum 0

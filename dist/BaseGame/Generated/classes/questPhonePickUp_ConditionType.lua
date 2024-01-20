@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhonePickUp_ConditionType: questISystemConditionType
 ---@field public caller gameJournalPath

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FunctionalTestsDataMemoryStatsData: ISerializable
 ---@field public totalPhysicalMemory Uint64

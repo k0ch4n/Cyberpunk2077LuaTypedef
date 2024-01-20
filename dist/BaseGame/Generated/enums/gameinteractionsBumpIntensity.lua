@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsBumpIntensity: Enum
 ---@field Invalid Enum 0

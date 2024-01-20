@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_DEV_ScriptableSystemUseNewTooltips: gameScriptableSystemRequest
 ---@field public value Bool

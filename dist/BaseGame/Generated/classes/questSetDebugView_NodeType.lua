@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetDebugView_NodeType: questIRenderFxManagerNodeType
 ---@field public mode questEDebugViewMode

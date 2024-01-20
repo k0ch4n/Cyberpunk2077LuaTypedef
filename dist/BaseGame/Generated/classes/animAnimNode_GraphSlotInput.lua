@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_GraphSlotInput: animAnimNode_Base
 animAnimNode_GraphSlotInput = {}

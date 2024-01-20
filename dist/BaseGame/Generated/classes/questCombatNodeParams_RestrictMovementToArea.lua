@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeParams_RestrictMovementToArea: questCombatNodeParams
 ---@field public area NodeRef

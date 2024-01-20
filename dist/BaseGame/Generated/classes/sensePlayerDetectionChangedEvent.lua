@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sensePlayerDetectionChangedEvent: redEvent
 ---@field public oldDetectionValue Float

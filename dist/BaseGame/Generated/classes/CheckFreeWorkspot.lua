@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckFreeWorkspot: AIbehaviorconditionScript
 ---@field public AIAction gamedataWorkspotActionType

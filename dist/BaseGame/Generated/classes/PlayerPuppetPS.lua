@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerPuppetPS: ScriptedPuppetPS
 ---@field private keybindigs KeyBindings

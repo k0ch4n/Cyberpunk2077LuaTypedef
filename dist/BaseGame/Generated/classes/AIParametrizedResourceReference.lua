@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIParametrizedResourceReference: AIResourceReference
 ---@field public overrides LibTreeParametersForwarder

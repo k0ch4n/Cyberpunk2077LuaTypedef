@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CLSWeatherListener: worldWeatherScriptListener
 ---@field private owner CityLightSystem

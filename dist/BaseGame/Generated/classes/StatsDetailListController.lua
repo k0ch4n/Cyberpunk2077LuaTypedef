@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatsDetailListController: inkWidgetLogicController
 ---@field private StatLabelRef inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_DistractionState: animAnimFeature
 ---@field public isOn Bool

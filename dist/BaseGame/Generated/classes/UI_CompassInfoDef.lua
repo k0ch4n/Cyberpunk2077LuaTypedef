@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_CompassInfoDef: gamebbScriptDefinition
 ---@field public NorthOffset gamebbScriptID_Float

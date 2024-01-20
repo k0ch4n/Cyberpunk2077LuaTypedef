@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanSellNewPerkResult
 ---@field public success Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_OverridePlayerCustomizations: questICharacterManagerVisuals_NodeSubType
 ---@field public customizationData gameuiForcePlayerCustomizationData[]

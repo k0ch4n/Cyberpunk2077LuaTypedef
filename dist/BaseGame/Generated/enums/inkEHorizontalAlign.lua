@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEHorizontalAlign: Enum
 ---@field Fill Enum 0

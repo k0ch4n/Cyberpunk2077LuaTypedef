@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_CamberData: animAnimFeatureMarkUnstable
 ---@field public rightFrontCamber Float

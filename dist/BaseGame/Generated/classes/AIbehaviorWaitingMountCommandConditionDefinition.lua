@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorWaitingMountCommandConditionDefinition: AIbehaviorConditionDefinition
 ---@field public requestArgument AIArgumentMapping

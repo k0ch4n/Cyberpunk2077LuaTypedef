@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickHackLockHacks: redEvent
 ---@field public IsLocked Bool

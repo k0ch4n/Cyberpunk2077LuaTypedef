@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_RPC_Class: IScriptable
 Sample_RPC_Class = {}

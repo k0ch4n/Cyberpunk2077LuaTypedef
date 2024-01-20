@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyMeshBuildType: Enum
 ---@field ProxyFromScratch Enum 1

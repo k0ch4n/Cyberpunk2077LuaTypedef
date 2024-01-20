@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsSetAnimsetWeight: scnSceneEvent
 ---@field public actorId scnActorId

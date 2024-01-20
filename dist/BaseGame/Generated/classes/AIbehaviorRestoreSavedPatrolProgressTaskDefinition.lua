@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorRestoreSavedPatrolProgressTaskDefinition: AIbehaviorTaskDefinition
 ---@field public path AIArgumentMapping

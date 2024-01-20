@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChromaticAberrationAreaSettings: IAreaSettings
 ---@field public chromaticAberrationEnabled Bool

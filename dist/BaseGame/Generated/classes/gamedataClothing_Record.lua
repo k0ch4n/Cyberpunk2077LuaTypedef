@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataClothing_Record: gamedataItem_Record
 gamedataClothing_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectSingleFilter_BlackboardBoolCondition: gameEffectObjectSingleFilter
 ---@field public parameter gameEffectInputParameter_Bool

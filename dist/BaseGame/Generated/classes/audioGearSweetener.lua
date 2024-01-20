@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioGearSweetener: audioAudioMetadata
 ---@field public gear Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HorizontalLineTrace: AIbehaviorconditionScript
 ---@field public source AIArgumentMapping

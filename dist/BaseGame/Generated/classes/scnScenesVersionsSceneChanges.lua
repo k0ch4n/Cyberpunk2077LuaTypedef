@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnScenesVersionsSceneChanges
 ---@field public scene scnSceneResource

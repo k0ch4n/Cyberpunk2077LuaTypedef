@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalInternetBase: IScriptable
 ---@field public name CName

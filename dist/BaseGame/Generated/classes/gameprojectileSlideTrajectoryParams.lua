@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSlideTrajectoryParams: gameprojectileTrajectoryParams
 ---@field public stickiness Float

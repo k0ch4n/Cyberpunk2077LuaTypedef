@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worlduiSceneWidgetProperties
 ---@field public projectionPlaneSize Vector2

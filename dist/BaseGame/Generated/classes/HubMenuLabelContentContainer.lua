@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuLabelContentContainer: inkWidgetLogicController
 ---@field protected label inkTextWidgetReference

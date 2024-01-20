@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageHistoryEntry
 ---@field public hitEvent gameeventsHitEvent

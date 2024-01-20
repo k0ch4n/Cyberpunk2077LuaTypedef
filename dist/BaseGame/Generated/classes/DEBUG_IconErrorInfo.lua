@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_IconErrorInfo: IScriptable
 ---@field public itemName String

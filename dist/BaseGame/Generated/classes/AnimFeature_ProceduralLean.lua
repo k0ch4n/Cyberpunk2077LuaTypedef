@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_ProceduralLean: animAnimFeature
 ---@field public angle_threshold Float

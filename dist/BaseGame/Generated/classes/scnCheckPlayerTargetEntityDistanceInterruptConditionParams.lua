@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 ---@field public distance Float

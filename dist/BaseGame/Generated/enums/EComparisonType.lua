@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EComparisonType: Enum
 ---@field Greater Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HudPhoneGameController: gameuiSongbirdAudioCallGameController
 ---@field private isAudioCall Bool

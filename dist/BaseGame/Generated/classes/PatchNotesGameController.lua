@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PatchNotesGameController: gameuiWidgetGameController
 ---@field private ["21NotesContainerRef"] inkWidgetReference

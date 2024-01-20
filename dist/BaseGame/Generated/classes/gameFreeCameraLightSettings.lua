@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFreeCameraLightSettings
 ---@field public s Vector3

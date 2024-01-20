@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectSharedDataDef: gamebbScriptDefinition
 ---@field public attackStatModList gamebbScriptID_Variant

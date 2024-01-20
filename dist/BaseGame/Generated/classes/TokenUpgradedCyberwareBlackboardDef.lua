@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TokenUpgradedCyberwareBlackboardDef: gamebbScriptDefinition
 ---@field public CyberwareTypes gamebbScriptID_Variant

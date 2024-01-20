@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEAnchor: Enum
 ---@field TopLeft Enum 0

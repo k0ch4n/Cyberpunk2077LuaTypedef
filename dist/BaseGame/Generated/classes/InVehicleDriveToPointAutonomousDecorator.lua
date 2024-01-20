@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InVehicleDriveToPointAutonomousDecorator: AIVehicleTaskAbstract
 ---@field public vehCommand AIVehicleDriveToPointAutonomousCommand

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DriverCombatFirearmsEvents: DriverCombatEvents
 ---@field protected attachmentSlotListener gameAttachmentSlotsScriptListener

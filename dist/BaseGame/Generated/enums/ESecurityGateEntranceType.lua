@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityGateEntranceType: Enum
 ---@field OnlySideA Enum 0

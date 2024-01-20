@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorIsThreatOnPathConditionDefinition: AIbehaviorConditionDefinition
 ---@field public threatObject AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAIPathTrafficDeletionMode: Enum
 ---@field INSTANT Enum 0

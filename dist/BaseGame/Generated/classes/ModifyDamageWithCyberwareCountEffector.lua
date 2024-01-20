@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyDamageWithCyberwareCountEffector: ModifyDamageEffector
 ---@field public minPlayerHealthPercentage Float

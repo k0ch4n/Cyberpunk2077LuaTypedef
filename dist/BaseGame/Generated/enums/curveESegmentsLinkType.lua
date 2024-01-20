@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class curveESegmentsLinkType: Enum
 ---@field ESLT_Normal Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAppearanceToNPCMetadata
 ---@field public appearances CName[]

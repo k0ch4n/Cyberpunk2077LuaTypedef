@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeParams_CombatTarget: questCombatNodeParams
 ---@field public targetNode NodeRef

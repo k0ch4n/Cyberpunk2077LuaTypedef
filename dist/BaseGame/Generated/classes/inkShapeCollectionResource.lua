@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkShapeCollectionResource: CResource
 ---@field public presets inkShapePreset[]

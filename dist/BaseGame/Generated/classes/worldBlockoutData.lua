@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBlockoutData: ISerializable
 ---@field public points worldBlockoutPoint[]

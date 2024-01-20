@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleManufacturer_Record: gamedataTweakDBRecord
 gamedataVehicleManufacturer_Record = {}

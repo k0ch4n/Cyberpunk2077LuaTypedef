@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRagdollImpactPointData
 ---@field public worldPosition WorldPosition

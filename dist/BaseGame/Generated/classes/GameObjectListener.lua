@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameObjectListener: IScriptable
 ---@field public prereqOwner gamePrereqState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCompositionInterpolator
 ---@field public parameter CName

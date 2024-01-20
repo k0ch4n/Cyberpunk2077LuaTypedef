@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRenderFxManagerNodeDefinition: questDisableableNodeDefinition
 ---@field public type questIRenderFxManagerNodeType

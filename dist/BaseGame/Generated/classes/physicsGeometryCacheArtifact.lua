@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsGeometryCacheArtifact: CResource
 ---@field public buffer serializationDeferredDataBuffer

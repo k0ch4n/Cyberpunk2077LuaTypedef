@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolSpentPrereq: gameIScriptablePrereq
 ---@field public statPoolType gamedataStatPoolType

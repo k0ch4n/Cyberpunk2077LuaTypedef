@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemsFactoryAppearanceSuffixBase_Record: gamedataTweakDBRecord
 gamedataItemsFactoryAppearanceSuffixBase_Record = {}

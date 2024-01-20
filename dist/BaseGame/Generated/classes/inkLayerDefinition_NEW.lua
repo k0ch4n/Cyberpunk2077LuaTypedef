@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLayerDefinition_NEW
 ---@field public name CName

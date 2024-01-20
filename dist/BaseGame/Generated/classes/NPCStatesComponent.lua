@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCStatesComponent: gameAINetStateComponent
 ---@field private aimingLookatEvent entLookAtAddEvent

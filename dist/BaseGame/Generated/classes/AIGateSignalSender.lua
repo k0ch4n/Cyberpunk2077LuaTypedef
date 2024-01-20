@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIGateSignalSender: AIbehaviortaskStackScript
 ---@field public tags CName[]

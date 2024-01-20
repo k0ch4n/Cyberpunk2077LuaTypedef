@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CurrencyNotificationAnimState: Enum
 ---@field Inactive Enum 0

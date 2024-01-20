@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CooldownPackageDelayIDs
 ---@field public packageID CooldownStorageID

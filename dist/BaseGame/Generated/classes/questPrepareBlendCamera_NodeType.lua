@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPrepareBlendCamera_NodeType: questISceneManagerNodeType
 questPrepareBlendCamera_NodeType = {}

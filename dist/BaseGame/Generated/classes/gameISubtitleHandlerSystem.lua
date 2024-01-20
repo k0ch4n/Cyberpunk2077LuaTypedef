@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameISubtitleHandlerSystem: gameIGameSystem
 gameISubtitleHandlerSystem = {}

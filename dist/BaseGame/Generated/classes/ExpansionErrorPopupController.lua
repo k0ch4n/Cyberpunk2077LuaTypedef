@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionErrorPopupController: gameuiWidgetGameController
 ---@field private title inkTextWidgetReference

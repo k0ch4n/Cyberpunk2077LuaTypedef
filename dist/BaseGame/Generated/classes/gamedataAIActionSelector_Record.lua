@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionSelector_Record: gamedataAINode_Record
 gamedataAIActionSelector_Record = {}

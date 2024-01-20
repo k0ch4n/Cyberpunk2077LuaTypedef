@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEntityUserComponentResolutionMode: Enum
 ---@field Select Enum 0

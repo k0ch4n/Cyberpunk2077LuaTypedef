@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KiroshiEffectorTechPreviewStatListener: gameScriptStatsListener
 ---@field public effector KiroshiHighlightEffector

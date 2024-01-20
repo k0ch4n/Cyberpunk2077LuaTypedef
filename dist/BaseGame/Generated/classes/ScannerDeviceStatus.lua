@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerDeviceStatus: ScannerChunk
 ---@field private deviceStatus String

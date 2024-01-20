@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmState_SessionActive: gsmState_SessionStreamingAware
 gsmState_SessionActive = {}

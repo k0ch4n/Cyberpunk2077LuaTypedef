@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class aimTypeEnum: Enum
 ---@field AimIn Enum 0

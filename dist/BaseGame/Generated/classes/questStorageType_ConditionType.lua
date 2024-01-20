@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStorageType_ConditionType: questISystemConditionType
 ---@field public storage questStorage

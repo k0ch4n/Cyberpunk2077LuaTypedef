@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioSoundsLimiterMetadata: audioAudioMetadata
 ---@field public tooManyPlayingGruntsAndVOsLimitation audioLimitedSound[]

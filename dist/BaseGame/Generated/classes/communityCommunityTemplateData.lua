@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityCommunityTemplateData: ISerializable
 ---@field public entries communitySpawnEntry[]

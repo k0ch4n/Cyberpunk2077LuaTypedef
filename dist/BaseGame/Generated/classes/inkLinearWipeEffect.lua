@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLinearWipeEffect: inkIEffect
 ---@field public angle Float

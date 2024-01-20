@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitReactionCumulativeDamageUpdate: redEvent
 ---@field public prevUpdateTime Float

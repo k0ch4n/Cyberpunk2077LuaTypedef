@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentExplosionEvent: redEvent
 ---@field public epicentrum Vector4

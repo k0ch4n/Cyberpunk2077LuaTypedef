@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSBehaviorConstraintNodeFloorIKLegsData
 ---@field public ["Min rel offset"] Float

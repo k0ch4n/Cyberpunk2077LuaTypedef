@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerSpawnCircle: IParticleInitializer
 ---@field public innerRadius IEvaluatorFloat

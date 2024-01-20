@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_SmartObject: animAnimFeature
 ---@field public state Int32

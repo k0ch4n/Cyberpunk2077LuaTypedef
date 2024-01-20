@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponVendingMachineControllerPS: VendingMachineControllerPS
 ---@field private weaponVendingMachineSetup WeaponVendingMachineSetup

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisibleObject: IScriptable
 ---@field public description CName

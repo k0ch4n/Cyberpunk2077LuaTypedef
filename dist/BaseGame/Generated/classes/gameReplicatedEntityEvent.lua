@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameReplicatedEntityEvent: entReplicatedItem
 ---@field public value redEvent

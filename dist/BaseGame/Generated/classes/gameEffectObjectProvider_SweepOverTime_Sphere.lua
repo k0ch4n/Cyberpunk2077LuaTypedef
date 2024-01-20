@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_SweepOverTime_Sphere: gameEffectObjectProvider_SweepOverTime
 ---@field public radius Float

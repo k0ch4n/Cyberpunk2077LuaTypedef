@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowPointOfNoReturnPrompt_NodeType: questIUIManagerNodeType
 questShowPointOfNoReturnPrompt_NodeType = {}

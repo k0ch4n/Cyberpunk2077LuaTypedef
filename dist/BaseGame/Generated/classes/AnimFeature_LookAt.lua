@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_LookAt: animAnimFeature
 ---@field public enableLookAt Int32

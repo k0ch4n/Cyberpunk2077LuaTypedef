@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERevealPlayerType: Enum
 ---@field DONT_REVEAL Enum 0

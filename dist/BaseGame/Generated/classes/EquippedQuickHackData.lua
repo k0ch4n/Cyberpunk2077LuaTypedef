@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquippedQuickHackData: IScriptable
 ---@field private programEntries ProgramEntry[]

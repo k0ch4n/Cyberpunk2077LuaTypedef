@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRandomizerMode: Enum
 ---@field Random Enum 0

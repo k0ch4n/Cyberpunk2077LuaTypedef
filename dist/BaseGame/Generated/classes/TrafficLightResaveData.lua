@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrafficLightResaveData
 ---@field public transitionDuration Float

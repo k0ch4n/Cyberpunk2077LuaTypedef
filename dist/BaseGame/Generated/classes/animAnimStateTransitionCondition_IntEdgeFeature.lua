@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_IntEdgeFeature: animIAnimStateTransitionCondition
 ---@field public featureName CName

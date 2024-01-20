@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrLabel: attrAttribute
 ---@field public xt String

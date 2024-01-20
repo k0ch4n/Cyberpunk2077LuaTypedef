@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeInteractionDescription: IScriptable
 ---@field public interactionEntity entEntity

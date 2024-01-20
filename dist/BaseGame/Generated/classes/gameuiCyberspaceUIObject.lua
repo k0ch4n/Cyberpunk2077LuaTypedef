@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCyberspaceUIObject: gameObject
 ---@field public slotName CName

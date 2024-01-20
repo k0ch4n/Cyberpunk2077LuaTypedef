@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LedColors_SensorDevice
 ---@field public off ScriptLightSettings

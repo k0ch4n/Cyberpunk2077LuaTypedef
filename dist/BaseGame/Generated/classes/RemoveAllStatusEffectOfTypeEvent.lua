@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveAllStatusEffectOfTypeEvent: redEvent
 ---@field public statusEffectType gamedataStatusEffectType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInteractionSkillCheck
 ---@field public isValid Bool

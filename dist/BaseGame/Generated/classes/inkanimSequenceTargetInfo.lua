@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimSequenceTargetInfo: ISerializable
 ---@field public path Uint32[]

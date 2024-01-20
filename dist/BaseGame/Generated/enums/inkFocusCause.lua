@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFocusCause: Enum
 ---@field Mouse Enum 0

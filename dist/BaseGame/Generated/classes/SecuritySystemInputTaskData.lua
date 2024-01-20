@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecuritySystemInputTaskData: gameScriptTaskData
 ---@field public cachedEvt SecuritySystemInput

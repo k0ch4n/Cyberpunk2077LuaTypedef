@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EVendorMode: Enum
 ---@field BuyItems Enum 0

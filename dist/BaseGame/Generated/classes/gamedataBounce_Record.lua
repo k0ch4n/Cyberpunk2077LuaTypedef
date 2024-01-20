@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBounce_Record: gamedataProjectileCollision_Record
 gamedataBounce_Record = {}

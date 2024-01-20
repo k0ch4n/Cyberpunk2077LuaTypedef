@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneEventSymbol
 ---@field public editorEventId Uint64

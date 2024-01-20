@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemModificationSystem: gameScriptableSystem
 ---@field private blackboard gameIBlackboard

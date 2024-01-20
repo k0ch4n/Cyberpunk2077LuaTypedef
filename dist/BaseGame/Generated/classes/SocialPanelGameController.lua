@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SocialPanelGameController: gameuiMenuGameController
 ---@field private SocialPanelContactsListRef inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApieTextureType: Enum
 ---@field TEXTYPE_2D Enum 0

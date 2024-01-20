@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIThreatPersistenceStatus: Enum
 ---@field ThreatNotFound Enum 0

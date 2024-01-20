@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AgentMovingHitPrereqCondition: BaseHitPrereqCondition
 ---@field public isMoving Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyNormalAngleStepSize: Enum
 ---@field STEP_90 Enum 0

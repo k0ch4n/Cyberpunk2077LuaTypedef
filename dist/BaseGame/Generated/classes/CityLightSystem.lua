@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CityLightSystem: gameScriptableSystem
 ---@field private timeSystemCallbacks TimetableCallbackData[]

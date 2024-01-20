@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemLabelContainerController: inkWidgetLogicController
 ---@field protected items ItemLabelController[]

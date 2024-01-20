@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIInteractionWidgetLogicController: inkWidgetLogicController
 ---@field public enableStateColor Color

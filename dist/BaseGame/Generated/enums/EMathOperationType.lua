@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMathOperationType: Enum
 ---@field Add Enum 0

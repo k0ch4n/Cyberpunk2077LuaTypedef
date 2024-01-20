@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkListController: inkWidgetLogicController
 ---@field public itemLibraryID CName

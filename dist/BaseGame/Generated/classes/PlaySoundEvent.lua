@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlaySoundEvent: MusicSettings
 ---@field protected soundEvent CName

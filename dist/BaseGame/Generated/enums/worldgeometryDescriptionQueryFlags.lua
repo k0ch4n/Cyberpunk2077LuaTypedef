@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldgeometryDescriptionQueryFlags: Enum
 ---@field DistanceVector Enum 1

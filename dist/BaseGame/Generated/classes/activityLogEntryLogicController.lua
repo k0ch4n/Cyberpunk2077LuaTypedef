@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class activityLogEntryLogicController: inkWidgetLogicController
 ---@field private available Bool

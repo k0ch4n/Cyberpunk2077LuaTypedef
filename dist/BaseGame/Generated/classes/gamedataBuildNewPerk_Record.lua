@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBuildNewPerk_Record: gamedataTweakDBRecord
 gamedataBuildNewPerk_Record = {}

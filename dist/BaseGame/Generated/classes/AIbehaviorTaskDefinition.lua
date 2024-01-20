@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorTaskDefinition: ISerializable
 ---@field public ignoreTaskCompletion Bool

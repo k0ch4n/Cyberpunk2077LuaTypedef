@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDestructibleObject_Record: gamedataBaseObject_Record
 gamedataDestructibleObject_Record = {}

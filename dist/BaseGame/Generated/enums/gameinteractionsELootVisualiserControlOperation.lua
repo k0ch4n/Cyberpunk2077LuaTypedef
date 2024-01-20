@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsELootVisualiserControlOperation: Enum
 ---@field Locked Enum 1

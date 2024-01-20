@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtPreset_FullControl: animLookAtPreset
 ---@field public limits animLookAtLimits

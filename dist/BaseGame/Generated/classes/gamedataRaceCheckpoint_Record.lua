@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRaceCheckpoint_Record: gamedataLCDScreen_Record
 gamedataRaceCheckpoint_Record = {}

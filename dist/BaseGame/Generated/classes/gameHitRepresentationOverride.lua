@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitRepresentationOverride: ISerializable
 ---@field public represenationOverride gameHitShapeContainer

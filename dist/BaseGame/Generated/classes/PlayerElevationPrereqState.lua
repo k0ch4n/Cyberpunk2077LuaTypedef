@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerElevationPrereqState: gamePrereqState
 ---@field public minElevationValue Float

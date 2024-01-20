@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_NewEffect_ReflectedVector: gameEffectExecutor
 gameEffectExecutor_NewEffect_ReflectedVector = {}

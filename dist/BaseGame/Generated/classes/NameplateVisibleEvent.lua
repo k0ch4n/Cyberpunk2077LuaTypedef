@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NameplateVisibleEvent: redEvent
 ---@field public isNameplateVisible Bool

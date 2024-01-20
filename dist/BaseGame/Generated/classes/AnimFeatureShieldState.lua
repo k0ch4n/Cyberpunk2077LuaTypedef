@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeatureShieldState: AnimFeatureCustom
 ---@field public state Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerVehicleRemoteControlEvent: redEvent
 ---@field public enable Bool

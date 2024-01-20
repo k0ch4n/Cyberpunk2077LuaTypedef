@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DebugTextDrawer: gameObject
 ---@field private text String

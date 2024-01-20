@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class renddimEPreset: Enum
 ---@field ["228x128"] Enum 0

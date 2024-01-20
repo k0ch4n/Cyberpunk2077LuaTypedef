@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PointerController: inkWidgetLogicController
 ---@field private connectors inkWidgetReference[]

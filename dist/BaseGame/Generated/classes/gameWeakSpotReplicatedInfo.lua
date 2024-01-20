@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeakSpotReplicatedInfo
 ---@field public weakSpotRecordID Uint64

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectInputParameter_Int
 ---@field public evaluator gameIEffectParameter_IntEvaluator

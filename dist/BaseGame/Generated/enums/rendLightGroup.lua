@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendLightGroup: Enum
 ---@field LG_Group0 Enum 0

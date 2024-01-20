@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SendEquipWeaponCommand: AIbehaviortaskScript
 ---@field public secondary Bool

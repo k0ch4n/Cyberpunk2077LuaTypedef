@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questdbgCallstackData
 ---@field public resourceHash Uint64

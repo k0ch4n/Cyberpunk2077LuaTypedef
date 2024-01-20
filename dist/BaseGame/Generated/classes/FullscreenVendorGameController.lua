@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FullscreenVendorGameController: gameuiMenuGameController
 ---@field private TooltipsManagerRef inkWidgetReference

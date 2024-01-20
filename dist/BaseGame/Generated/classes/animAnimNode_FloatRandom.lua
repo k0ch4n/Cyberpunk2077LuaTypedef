@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatRandom: animAnimNode_FloatValue
 ---@field public rand Bool

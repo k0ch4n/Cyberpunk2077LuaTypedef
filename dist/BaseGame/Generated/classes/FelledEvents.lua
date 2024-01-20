@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FelledEvents: LocomotionGroundEvents
 ---@field private animFeatureFelled AnimFeature_Felled

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_Entity: questTimeDilation_NodeTypeParam
 ---@field public operation questTimeDilation_Operation

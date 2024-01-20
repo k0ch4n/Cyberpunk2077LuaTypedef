@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_PoseCorrection: animAnimNode_OnePoseInput
 animAnimNode_PoseCorrection = {}

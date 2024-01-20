@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneAnimationMotionActionParams: IScriptable
 ---@field public motionType gameSceneAnimationMotionActionParamsMotionType

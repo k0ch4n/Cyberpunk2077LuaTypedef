@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workTagNode: workIEntry
 ---@field public tag CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_StaticVector: animIAnimNodeSourceChannel_Vector
 ---@field public data Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIRingTicket_Record: gamedataAITicket_Record
 gamedataAIRingTicket_Record = {}

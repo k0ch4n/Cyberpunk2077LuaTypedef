@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSwitcherInfo: gameuiCharacterCustomizationInfo
 ---@field public uiSlots CName[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerRequirementItemLogicController: inkWidgetLogicController
 ---@field private requirementNameText inkTextWidgetReference

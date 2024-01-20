@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexEntryData: GenericCodexEntryData
 ---@field public category Int32

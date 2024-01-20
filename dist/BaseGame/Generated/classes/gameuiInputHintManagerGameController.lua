@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInputHintManagerGameController: gameuiWidgetGameController
 ---@field public hintContainerId CName

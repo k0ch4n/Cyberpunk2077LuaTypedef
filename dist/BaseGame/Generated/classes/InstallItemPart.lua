@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InstallItemPart: gameScriptableSystemRequest
 ---@field public obj gameObject

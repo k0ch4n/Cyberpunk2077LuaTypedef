@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStimuliMergeInfo
 ---@field public position Vector4

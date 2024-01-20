@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimapDataNode: worldNode
 ---@field public encodedShapesRef minimapEncodedShapes

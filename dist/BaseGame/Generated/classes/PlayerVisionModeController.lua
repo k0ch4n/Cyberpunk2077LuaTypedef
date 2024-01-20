@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerVisionModeController: IScriptable
 ---@field private gameplayActiveFlagsRefreshPolicy PlayerVisionModeControllerRefreshPolicy

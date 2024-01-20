@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlayAnimEvent: scnSceneEvent
 ---@field public animData scneventsPlayAnimEventExData

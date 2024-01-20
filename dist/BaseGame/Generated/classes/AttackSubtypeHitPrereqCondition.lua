@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttackSubtypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field public attackSubtype gamedataAttackSubtype

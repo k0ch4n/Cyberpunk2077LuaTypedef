@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCrowdPhaseTimePeriod: communityTimePeriod
 ---@field public mergeMode gameCrowdCreationDataMergeMode

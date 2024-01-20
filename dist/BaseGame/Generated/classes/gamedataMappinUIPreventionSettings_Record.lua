@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUIPreventionSettings_Record: gamedataTweakDBRecord
 gamedataMappinUIPreventionSettings_Record = {}

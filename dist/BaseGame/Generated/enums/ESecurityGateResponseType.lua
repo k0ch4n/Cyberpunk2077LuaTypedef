@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityGateResponseType: Enum
 ---@field AUDIOVISUAL_ONLY Enum 0

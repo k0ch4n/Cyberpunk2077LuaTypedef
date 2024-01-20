@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navLocomotionPathPointUserDataEntry
 ---@field public userData navLocomotionPathPointUserData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddTargetToHighlightEvent: redEvent
 ---@field public target CombatTarget

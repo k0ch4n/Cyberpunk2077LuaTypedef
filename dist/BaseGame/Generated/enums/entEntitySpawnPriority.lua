@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEntitySpawnPriority: Enum
 ---@field Background Enum 0

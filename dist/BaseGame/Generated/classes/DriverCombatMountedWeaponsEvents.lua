@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DriverCombatMountedWeaponsEvents: DriverCombatEvents
 ---@field private activeWeapons gameweaponObject[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimateAnchorOnHoverView: inkWidgetLogicController
 ---@field private Raycaster inkWidgetReference

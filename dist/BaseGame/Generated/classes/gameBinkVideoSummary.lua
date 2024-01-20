@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBinkVideoSummary
 ---@field public currentTimeMs Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_SoundFromEmitter: animAnimEvent
 ---@field public emitterName CName

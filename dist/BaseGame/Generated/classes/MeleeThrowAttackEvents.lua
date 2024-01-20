@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeThrowAttackEvents: MeleeAttackGenericEvents
 ---@field public projectileThrown Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloorIk: animAnimNode_FloorIkBase
 ---@field public pelvis animSBehaviorConstraintNodeFloorIKVerticalBoneData

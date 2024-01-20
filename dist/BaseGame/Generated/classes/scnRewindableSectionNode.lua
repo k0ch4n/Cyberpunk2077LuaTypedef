@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRewindableSectionNode: scnSceneGraphNode
 ---@field public events scnSceneEvent[]

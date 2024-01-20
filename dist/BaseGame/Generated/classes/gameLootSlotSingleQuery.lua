@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootSlotSingleQuery: gameLootSlot
 ---@field public queryTDBID TweakDBID

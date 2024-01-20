@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryListenerData_InventoryEmpty: gameInventoryListenerData_Base
 gameInventoryListenerData_InventoryEmpty = {}

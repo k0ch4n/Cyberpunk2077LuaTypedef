@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmartHouseControllerPS: MasterControllerPS
 ---@field protected timetable SPresetTimetableEntry[]

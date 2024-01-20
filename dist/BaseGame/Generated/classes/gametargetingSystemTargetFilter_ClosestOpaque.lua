@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemTargetFilter_ClosestOpaque: gametargetingSystemTargetFilter_Closest
 gametargetingSystemTargetFilter_ClosestOpaque = {}

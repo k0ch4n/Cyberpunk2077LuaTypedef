@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponPartType: Enum
 ---@field Scope Enum 0

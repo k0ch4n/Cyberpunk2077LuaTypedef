@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLocomotionMode_Record: gamedataTweakDBRecord
 gamedataLocomotionMode_Record = {}

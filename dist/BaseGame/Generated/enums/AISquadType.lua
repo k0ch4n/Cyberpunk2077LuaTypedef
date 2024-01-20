@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISquadType: Enum
 ---@field Community Enum 0

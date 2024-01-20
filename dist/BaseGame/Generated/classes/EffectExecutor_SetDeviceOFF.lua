@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_SetDeviceOFF: EffectExecutor_Device
 EffectExecutor_SetDeviceOFF = {}

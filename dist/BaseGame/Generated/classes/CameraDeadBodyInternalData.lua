@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraDeadBodyInternalData: IScriptable
 ---@field public ownerID entEntityID

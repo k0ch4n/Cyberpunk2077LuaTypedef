@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiEntityPreviewGameObject: gameObject
 ---@field public cameraSettings gameuiEntityPreviewCameraSettings

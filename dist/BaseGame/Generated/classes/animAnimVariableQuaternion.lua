@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimVariableQuaternion: animAnimVariable
 ---@field public roll Float

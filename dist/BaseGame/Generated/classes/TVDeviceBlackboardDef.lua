@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TVDeviceBlackboardDef: DeviceBaseBlackboardDef
 ---@field public PreviousChannel gamebbScriptID_Int32

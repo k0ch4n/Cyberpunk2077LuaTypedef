@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxySurfaceFlattenParams
 ---@field public flatten Bool

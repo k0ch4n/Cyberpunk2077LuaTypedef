@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddExperience: gamePlayerScriptableSystemRequest
 ---@field public amount Int32

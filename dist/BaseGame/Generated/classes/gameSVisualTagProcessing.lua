@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSVisualTagProcessing
 ---@field public areaType gamedataEquipmentArea

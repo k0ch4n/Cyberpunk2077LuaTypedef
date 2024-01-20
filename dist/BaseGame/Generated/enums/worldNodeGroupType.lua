@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNodeGroupType: Enum
 ---@field RegularGroup Enum 0

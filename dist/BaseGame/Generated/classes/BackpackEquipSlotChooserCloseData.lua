@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackpackEquipSlotChooserCloseData: inkGameNotificationData
 ---@field public confirm Bool

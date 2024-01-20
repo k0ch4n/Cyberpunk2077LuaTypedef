@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResetAvoidLOSTimeStamp: AIbehaviortaskScript
 ---@field public onDeactivation Bool

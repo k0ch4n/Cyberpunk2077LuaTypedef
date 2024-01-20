@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animUncompressedMotionExtraction: animIMotionExtraction
 ---@field public frames Vector4[]

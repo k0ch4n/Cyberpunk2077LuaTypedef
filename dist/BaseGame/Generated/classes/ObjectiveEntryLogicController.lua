@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ObjectiveEntryLogicController: inkWidgetLogicController
 ---@field public blinkInterval Float

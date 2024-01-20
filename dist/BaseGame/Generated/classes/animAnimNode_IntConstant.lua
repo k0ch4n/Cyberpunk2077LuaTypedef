@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_IntConstant: animAnimNode_IntValue
 ---@field public value Int32

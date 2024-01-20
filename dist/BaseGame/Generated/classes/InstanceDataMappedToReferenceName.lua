@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InstanceDataMappedToReferenceName
 ---@field public itemHandlingFeatureName CName

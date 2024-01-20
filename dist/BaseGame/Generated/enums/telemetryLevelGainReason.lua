@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class telemetryLevelGainReason: Enum
 ---@field Ignore Enum 0

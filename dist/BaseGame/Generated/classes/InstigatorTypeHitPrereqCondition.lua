@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InstigatorTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field public instigatorType CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNumberPlate_Record: gamedataLCDScreen_Record
 gamedataNumberPlate_Record = {}

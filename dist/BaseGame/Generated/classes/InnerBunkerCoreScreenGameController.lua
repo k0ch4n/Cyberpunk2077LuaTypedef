@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InnerBunkerCoreScreenGameController: BaseInnerBunkerComputerGameController
 ---@field public systems inkWidgetReference[]

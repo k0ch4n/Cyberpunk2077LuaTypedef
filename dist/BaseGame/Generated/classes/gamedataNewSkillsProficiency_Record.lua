@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNewSkillsProficiency_Record: gamedataProficiency_Record
 gamedataNewSkillsProficiency_Record = {}

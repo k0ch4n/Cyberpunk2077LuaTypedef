@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FollowNPCDef: gamebbScriptDefinition
 ---@field public Position gamebbScriptID_Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterQuaternion: entAnimInputSetter
 ---@field public value Quaternion

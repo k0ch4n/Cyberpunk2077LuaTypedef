@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageDigitUserData: IScriptable
 ---@field public controllerIndex Int32

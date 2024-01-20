@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleFlippedOverEvent: redEvent
 ---@field public isFlippedOver Bool

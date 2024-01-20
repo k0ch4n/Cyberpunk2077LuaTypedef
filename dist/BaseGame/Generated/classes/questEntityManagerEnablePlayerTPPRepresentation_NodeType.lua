@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerEnablePlayerTPPRepresentation_NodeType: questIEntityManager_NodeType
 ---@field public enable Bool

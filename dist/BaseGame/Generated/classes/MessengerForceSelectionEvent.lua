@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessengerForceSelectionEvent: redEvent
 ---@field public selectionIndex Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class netTime
 ---@field public milliSecs Uint64

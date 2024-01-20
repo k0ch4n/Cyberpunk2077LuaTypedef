@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionPlaySound_Record_Implementation: IScriptable
 AISubActionPlaySound_Record_Implementation = {}

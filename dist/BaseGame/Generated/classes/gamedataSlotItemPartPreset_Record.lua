@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSlotItemPartPreset_Record: gamedataTweakDBRecord
 gamedataSlotItemPartPreset_Record = {}

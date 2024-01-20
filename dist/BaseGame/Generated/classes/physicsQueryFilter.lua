@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsQueryFilter
 ---@field public mask1 Uint64

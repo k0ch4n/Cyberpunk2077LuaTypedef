@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeMaterialType: Enum
 ---@field Hard Enum 0

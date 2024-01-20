@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MonoDisc: BaseProjectile
 ---@field private throwtype ThrowType

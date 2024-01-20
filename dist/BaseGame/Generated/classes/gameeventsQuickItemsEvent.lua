@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsQuickItemsEvent: redEvent
 ---@field public questName CName

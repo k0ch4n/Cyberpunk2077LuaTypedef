@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGameNotificationLayer_SetCursorVisibility: redEvent
 inkGameNotificationLayer_SetCursorVisibility = {}

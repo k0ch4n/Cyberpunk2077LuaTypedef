@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SignShape: Enum
 ---@field RECTANGLE Enum 0

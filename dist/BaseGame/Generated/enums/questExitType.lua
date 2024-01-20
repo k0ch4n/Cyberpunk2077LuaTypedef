@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questExitType: Enum
 ---@field Terminating Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialPointerController: inkWidgetLogicController
 ---@field private pointer inkImageWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AimingStateEvents: UpperBodyEventsTransition
 ---@field private aim gameweaponAnimFeature_AimPlayer

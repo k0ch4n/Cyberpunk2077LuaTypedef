@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSetEquipSecondaryWeapons_Record: gamedataAISubActionCharacterRecordEquip_Record
 gamedataAISubActionSetEquipSecondaryWeapons_Record = {}

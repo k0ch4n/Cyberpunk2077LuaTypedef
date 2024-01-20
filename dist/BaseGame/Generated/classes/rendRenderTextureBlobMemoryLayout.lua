@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderTextureBlobMemoryLayout
 ---@field public rowPitch Uint32

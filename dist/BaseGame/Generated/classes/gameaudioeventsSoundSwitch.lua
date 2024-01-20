@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsSoundSwitch: redEvent
 ---@field public switchName CName

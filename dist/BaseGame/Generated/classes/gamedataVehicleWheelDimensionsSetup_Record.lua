@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleWheelDimensionsSetup_Record: gamedataTweakDBRecord
 gamedataVehicleWheelDimensionsSetup_Record = {}

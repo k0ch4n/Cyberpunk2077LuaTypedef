@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBodyPositionEvent: redEvent
 ---@field public bodyPosition Vector4

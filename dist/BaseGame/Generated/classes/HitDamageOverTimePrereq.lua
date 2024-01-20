@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitDamageOverTimePrereq: GenericHitPrereq
 ---@field public dotType gamedataStatusEffectType

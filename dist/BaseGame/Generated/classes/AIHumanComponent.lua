@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHumanComponent: AICAgent
 ---@field public movementParamsRecord TweakDBID

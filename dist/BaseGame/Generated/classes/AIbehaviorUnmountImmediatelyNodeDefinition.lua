@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorUnmountImmediatelyNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public mountData AIArgumentMapping

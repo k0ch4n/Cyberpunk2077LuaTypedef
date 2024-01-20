@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSpawnPlayerVehicle_NodeType: questIVehicleManagerNodeType
 ---@field public despawn Bool

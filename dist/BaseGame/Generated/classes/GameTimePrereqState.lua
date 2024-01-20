@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameTimePrereqState: gamePrereqState
 ---@field public listener Uint32

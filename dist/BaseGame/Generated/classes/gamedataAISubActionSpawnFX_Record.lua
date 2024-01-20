@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSpawnFX_Record: gamedataAISubAction_Record
 gamedataAISubActionSpawnFX_Record = {}

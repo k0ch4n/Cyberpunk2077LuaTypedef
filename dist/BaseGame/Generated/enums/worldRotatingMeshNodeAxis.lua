@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRotatingMeshNodeAxis: Enum
 ---@field X Enum 0

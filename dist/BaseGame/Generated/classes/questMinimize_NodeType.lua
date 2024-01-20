@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMinimize_NodeType: questIPhoneManagerNodeType
 ---@field public minimize Bool

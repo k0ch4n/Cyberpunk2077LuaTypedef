@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsRidCameraPlacement: Enum
 ---@field SceneOrigin Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleTankDriverContextDecisions: InputContextTransitionDecisions
 ---@field private callbackID redCallbackObject

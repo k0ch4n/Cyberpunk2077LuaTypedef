@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntryScanned_ConditionType: questIObjectConditionType
 ---@field public objectRef gameEntityReference

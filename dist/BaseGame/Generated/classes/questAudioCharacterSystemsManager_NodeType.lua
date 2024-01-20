@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioCharacterSystemsManager_NodeType: questIAudioCharacterManager_NodeType
 ---@field public subType questIAudioCharacterManager_NodeSubType

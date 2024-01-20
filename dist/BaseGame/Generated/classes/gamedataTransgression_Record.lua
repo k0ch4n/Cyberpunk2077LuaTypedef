@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTransgression_Record: gamedataTweakDBRecord
 gamedataTransgression_Record = {}

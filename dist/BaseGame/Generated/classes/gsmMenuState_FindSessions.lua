@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmMenuState_FindSessions: gsmMenuState
 gsmMenuState_FindSessions = {}

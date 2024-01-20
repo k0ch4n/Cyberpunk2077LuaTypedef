@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TooltipProvider: inkWidgetLogicController
 ---@field private TooltipsData ATooltipData[]

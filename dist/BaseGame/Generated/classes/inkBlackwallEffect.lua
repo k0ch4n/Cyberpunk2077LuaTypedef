@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkBlackwallEffect: inkGlitchEffect
 ---@field public scaleX Float

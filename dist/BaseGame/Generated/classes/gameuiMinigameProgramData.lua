@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinigameProgramData
 ---@field public actionID TweakDBID

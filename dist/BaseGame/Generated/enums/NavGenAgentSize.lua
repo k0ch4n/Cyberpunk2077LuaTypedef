@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NavGenAgentSize: Enum
 ---@field Human Enum 0

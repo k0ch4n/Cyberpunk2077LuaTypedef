@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animUncompressedAllAnglesMotionExtraction: animIMotionExtraction
 ---@field public duration Float

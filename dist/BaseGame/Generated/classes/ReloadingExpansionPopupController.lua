@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReloadingExpansionPopupController: inkWidgetLogicController
 ---@field private progressBarRef inkWidgetReference

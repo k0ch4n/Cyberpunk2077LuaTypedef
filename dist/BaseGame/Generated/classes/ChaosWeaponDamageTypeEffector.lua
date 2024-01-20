@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChaosWeaponDamageTypeEffector: ChaosWeaponCustomEffector
 ---@field public damageTypeModGroups TweakDBID[]

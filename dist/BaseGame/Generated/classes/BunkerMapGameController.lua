@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerMapGameController: StatusScreenGameController
 ---@field public mapPosition01 inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedInputSetterVector: entReplicatedInputSetterBase
 ---@field public value Vector4

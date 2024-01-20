@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEBlendTracksMode: Enum
 ---@field AGBT_BasePose Enum 0

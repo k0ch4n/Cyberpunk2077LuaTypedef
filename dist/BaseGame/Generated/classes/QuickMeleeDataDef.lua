@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickMeleeDataDef: gamebbScriptDefinition
 ---@field public NPCHit gamebbScriptID_Bool

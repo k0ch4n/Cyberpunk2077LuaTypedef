@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpressionTreeCConstFloatNodeDefinition: ExpressionTreeCGeneralNodeDefinition
 ---@field public value Float

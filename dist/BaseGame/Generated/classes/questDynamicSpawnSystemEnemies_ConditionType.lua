@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDynamicSpawnSystemEnemies_ConditionType: questIDistanceConditionType
 ---@field public distanceDefinition1 questDynamicSpawnSystemEnemyDistance

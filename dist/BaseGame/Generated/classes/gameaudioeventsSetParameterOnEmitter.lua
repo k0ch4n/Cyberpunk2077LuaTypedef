@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsSetParameterOnEmitter: gameaudioeventsEmitterEvent
 ---@field public paramName CName

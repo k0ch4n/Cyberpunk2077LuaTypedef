@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpeedIndicatorIconsManager: inkWidgetLogicController
 ---@field private speedIndicator inkImageWidgetReference

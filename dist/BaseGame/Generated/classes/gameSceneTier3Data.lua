@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneTier3Data: gameSceneTierDataMotionConstrained
 ---@field public cameraSettings gameTier3CameraSettings

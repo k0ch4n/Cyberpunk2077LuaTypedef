@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClearItemAppearanceEvent: redEvent
 ---@field public itemID gameItemID

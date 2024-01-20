@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TraitTooltipData: BasePerksMenuTooltipData
 ---@field public traitType gamedataTraitType

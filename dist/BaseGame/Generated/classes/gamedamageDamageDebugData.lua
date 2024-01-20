@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedamageDamageDebugData: IScriptable
 ---@field public statPoolType gamedataStatPoolType

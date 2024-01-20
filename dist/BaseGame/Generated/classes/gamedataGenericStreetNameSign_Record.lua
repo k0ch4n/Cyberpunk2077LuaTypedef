@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGenericStreetNameSign_Record: gamedataBaseSign_Record
 gamedataGenericStreetNameSign_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendingMachineDeviceBlackboardDef: DeviceBaseBlackboardDef
 ---@field public ActionStatus gamebbScriptID_Variant

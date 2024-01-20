@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionInAir_Record: gamedataAISubAction_Record
 gamedataAISubActionInAir_Record = {}

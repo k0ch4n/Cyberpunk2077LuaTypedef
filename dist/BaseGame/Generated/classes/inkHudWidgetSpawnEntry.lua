@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkHudWidgetSpawnEntry
 ---@field public hudEntryName CName

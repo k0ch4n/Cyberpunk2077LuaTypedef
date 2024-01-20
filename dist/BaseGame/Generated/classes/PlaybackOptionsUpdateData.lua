@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlaybackOptionsUpdateData: IScriptable
 ---@field public playbackOptions inkanimPlaybackOptions

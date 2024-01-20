@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LocomotionTakedownInitData: IScriptable
 ---@field public target gameObject

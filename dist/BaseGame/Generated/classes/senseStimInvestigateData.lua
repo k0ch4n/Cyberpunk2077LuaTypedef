@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseStimInvestigateData
 ---@field public distrationPoint Vector4

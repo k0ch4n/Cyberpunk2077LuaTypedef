@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSermoTestController
 ---@field public faceEnvelope Float

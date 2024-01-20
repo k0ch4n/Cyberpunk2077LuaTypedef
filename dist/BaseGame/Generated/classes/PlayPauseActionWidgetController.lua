@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayPauseActionWidgetController: NextPreviousActionWidgetController
 ---@field protected playContainer inkWidgetReference

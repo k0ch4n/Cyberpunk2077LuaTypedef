@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ParentConstraint: animAnimNode_OnePoseInput
 ---@field public parentTransform animIAnimNodeSourceChannel_QsTransform

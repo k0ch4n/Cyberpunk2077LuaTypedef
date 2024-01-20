@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterInt: entAnimInputSetter
 ---@field public value Int32

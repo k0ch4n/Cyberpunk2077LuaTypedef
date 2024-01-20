@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LifePathBluelinePart: gameinteractionsvisBluelinePart
 ---@field public record gamedataLifePath_Record

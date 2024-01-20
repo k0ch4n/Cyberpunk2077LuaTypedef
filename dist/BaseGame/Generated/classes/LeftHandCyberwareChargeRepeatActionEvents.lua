@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeftHandCyberwareChargeRepeatActionEvents: LeftHandCyberwareActionAbstractEvents
 ---@field public maxSpread Float

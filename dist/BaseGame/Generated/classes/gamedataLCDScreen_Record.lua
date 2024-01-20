@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLCDScreen_Record: gamedataBaseSign_Record
 gamedataLCDScreen_Record = {}

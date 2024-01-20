@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCloseMessage_NodeType: questIPhoneManagerNodeType
 ---@field public msg gameJournalPath

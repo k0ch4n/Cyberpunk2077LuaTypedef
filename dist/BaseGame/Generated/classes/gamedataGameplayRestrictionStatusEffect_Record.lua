@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGameplayRestrictionStatusEffect_Record: gamedataStatusEffect_Record
 gamedataGameplayRestrictionStatusEffect_Record = {}

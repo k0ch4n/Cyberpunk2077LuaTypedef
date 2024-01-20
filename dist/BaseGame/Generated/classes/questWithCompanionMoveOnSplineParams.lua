@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questWithCompanionMoveOnSplineParams
 ---@field public movementType AIMovementTypeSpec

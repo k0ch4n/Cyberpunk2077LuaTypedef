@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTraitType: Enum
 ---@field AssaultTrait01 Enum 0

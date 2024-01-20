@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveCustomMoveEvent: gameActionEvent
 ---@field public test Int32

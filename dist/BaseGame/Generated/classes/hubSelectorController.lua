@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hubSelectorController: inkSelectorController
 ---@field public leftArrowWidget inkWidgetReference

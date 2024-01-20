@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorInstantRunAwayConditionDefinition: AIbehaviorConditionDefinition
 ---@field public destination AIArgumentMapping

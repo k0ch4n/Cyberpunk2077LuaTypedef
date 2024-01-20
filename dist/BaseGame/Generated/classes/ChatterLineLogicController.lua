@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChatterLineLogicController: BaseSubtitleLineLogicController
 ---@field private TextContainer inkWidgetReference

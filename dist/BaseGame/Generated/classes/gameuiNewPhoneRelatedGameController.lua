@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiNewPhoneRelatedGameController: gameuiWidgetGameController
 ---@field public isNewPhoneEnabled Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDeviceAttitude: ActionBool
 ---@field public Repeat Bool

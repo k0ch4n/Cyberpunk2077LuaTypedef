@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class minimapuiGeometryWidget: inkCanvasWidget
 ---@field public widgetTemplates inkWidgetReference[]

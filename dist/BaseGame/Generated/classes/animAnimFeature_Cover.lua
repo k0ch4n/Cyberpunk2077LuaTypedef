@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Cover: animAnimFeature
 ---@field public coverPosition Vector4

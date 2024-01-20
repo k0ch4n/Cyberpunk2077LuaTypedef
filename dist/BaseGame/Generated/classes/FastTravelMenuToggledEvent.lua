@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FastTravelMenuToggledEvent: gameScriptableSystemRequest
 ---@field public isEnabled Bool

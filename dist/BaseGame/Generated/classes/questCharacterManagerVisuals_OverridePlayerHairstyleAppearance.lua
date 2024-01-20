@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_OverridePlayerHairstyleAppearance: questICharacterManagerVisuals_NodeSubType
 ---@field public hairstyleIndex Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TemporalPrereq: gameIScriptablePrereq
 ---@field public totalDuration Float

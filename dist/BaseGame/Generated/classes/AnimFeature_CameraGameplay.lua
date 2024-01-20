@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_CameraGameplay: animAnimFeature
 ---@field public is_forward_offset Float

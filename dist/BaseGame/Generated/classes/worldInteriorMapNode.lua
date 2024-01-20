@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldInteriorMapNode: worldNode
 ---@field public version Uint32

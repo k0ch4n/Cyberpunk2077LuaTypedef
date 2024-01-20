@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitStatPoolComparisonPrereq: GenericHitPrereq
 ---@field public comparisonSource String

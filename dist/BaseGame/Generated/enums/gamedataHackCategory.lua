@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHackCategory: Enum
 ---@field BreachingHack Enum 0

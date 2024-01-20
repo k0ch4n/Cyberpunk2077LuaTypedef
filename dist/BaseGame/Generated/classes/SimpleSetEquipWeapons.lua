@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSetEquipWeapons: AIbehaviortaskScript
 ---@field public primary Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityPatrolInitializer: communitySpawnInitializer
 ---@field public patrolRole AIPatrolRole

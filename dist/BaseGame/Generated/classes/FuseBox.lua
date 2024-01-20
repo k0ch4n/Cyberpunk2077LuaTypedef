@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FuseBox: InteractiveMasterDevice
 ---@field private isShortGlitchActive Bool

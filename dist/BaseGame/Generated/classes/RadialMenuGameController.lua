@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialMenuGameController: gameuiHUDGameController
 ---@field private containerRef inkCompoundWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeshParticleOrientationMode: Enum
 ---@field MPOM_Normal Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerHealth: ScannerChunk
 ---@field private currentHealth Int32

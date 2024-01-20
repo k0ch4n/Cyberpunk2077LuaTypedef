@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFeatureFlag: Enum
 ---@field FEATFLAG_Default Enum 0

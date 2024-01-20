@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPoseCorrectionEvent: scnSceneEvent
 ---@field public performerId scnPerformerId

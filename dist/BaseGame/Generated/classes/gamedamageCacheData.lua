@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedamageCacheData: IScriptable
 ---@field public targetImmortalityMode gameGodModeType

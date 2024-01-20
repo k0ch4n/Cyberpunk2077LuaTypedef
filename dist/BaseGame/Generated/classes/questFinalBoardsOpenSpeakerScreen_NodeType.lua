@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFinalBoardsOpenSpeakerScreen_NodeType: questIUIManagerNodeType
 ---@field public openSpeakerScreen Bool

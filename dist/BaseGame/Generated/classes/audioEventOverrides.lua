@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEventOverrides: audioAudioMetadata
 ---@field public eventOverrides audioEventOverrideDictionary

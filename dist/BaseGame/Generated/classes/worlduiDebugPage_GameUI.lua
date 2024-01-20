@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worlduiDebugPage_GameUI
 worlduiDebugPage_GameUI = {}

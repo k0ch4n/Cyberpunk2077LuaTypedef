@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseScriptableAction: gamedeviceAction
 ---@field protected requesterID entEntityID

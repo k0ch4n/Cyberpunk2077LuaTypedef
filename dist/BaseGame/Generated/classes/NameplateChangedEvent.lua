@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NameplateChangedEvent: gameScriptableSystemRequest
 ---@field public entity entEntityID

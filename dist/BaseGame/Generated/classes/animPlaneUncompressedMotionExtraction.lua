@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPlaneUncompressedMotionExtraction: animIMotionExtraction
 ---@field public frames Vector3[]

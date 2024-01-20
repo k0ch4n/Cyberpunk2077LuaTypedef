@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBox_Record: gamedataSenseShape_Record
 gamedataBox_Record = {}

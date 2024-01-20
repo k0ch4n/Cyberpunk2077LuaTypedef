@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSetAttackHitTypeEffector_Record: gamedataEffector_Record
 gamedataSetAttackHitTypeEffector_Record = {}

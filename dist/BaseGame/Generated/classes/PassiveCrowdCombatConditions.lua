@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveCrowdCombatConditions: PassiveAutonomousCondition
 ---@field protected threatCbId Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneTier4Data: gameSceneTierDataMotionConstrained
 gameSceneTier4Data = {}

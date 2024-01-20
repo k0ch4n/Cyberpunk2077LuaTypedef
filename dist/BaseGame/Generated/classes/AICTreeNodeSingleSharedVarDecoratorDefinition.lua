@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeSingleSharedVarDecoratorDefinition: AICTreeNodeSharedVarsBaseDecoratorDefinition
 ---@field public sharedVarName LibTreeSharedVarRegistrationName

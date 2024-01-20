@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgressionNotification: GenericNotificationController
 ---@field private progression_data gameuiProgressionViewData

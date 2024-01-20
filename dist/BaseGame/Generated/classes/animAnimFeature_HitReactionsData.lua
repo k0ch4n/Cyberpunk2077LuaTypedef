@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_HitReactionsData: animAnimFeature
 ---@field public hitIntensity Int32

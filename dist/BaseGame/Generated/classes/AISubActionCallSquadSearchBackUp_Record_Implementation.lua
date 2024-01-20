@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionCallSquadSearchBackUp_Record_Implementation: IScriptable
 AISubActionCallSquadSearchBackUp_Record_Implementation = {}

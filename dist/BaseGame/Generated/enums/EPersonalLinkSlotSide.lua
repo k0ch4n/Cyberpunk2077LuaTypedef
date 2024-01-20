@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPersonalLinkSlotSide: Enum
 ---@field FRONT Enum 0

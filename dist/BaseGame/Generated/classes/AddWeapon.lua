@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddWeapon: AIbehaviortaskScript
 ---@field public weapon EquipmentPriority

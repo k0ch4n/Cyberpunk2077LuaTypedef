@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HotkeysWidgetController: gameuiNewPhoneRelatedHUDGameController
 ---@field private phoneSlot inkCompoundWidgetReference

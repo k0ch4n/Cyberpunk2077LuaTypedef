@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioGroupingLimitMetadata: audioAudioMetadata
 ---@field public limit Float

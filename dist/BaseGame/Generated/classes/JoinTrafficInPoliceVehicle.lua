@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JoinTrafficInPoliceVehicle: AIVehicleTaskAbstract
 ---@field public vehicle vehicleBaseObject

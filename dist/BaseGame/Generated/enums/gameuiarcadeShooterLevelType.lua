@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterLevelType: Enum
 ---@field HORIZONTAL Enum 0

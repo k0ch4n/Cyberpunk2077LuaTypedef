@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatusEffectComponentReplicatedState: netIComponentState
 ---@field public replicatedInfo gameStatusEffectReplicatedInfo[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_LayerTemplateOverrides
 ---@field public colorScale Multilayer_LayerTemplateOverridesColor[]

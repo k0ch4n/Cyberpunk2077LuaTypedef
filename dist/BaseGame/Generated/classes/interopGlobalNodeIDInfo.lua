@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopGlobalNodeIDInfo
 ---@field public globalName String

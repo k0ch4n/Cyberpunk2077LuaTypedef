@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLoopingSoundController
 ---@field public playEvent CName

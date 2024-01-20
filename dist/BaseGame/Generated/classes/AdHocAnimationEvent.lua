@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdHocAnimationEvent: redEvent
 ---@field public animationIndex Int32

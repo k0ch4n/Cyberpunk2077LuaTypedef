@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeasurementUnit: Enum
 ---@field Millimeter Enum 0

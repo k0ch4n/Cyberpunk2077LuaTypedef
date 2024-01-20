@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCyberspaceBoundaryNode: worldTriggerAreaNode
 ---@field public marker1Ref NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProp_Record: gamedataSpawnableObject_Record
 gamedataProp_Record = {}

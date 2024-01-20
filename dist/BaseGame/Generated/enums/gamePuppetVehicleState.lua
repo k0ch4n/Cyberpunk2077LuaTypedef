@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePuppetVehicleState: Enum
 ---@field IdleMounted Enum 0

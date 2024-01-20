@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFlatheadSetSoloModeCommand: AIFollowerCommand
 ---@field public soloModeState Bool

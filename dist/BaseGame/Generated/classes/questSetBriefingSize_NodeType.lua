@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetBriefingSize_NodeType: questIUIManagerNodeType
 ---@field public briefingSize questJournalSizeEventType

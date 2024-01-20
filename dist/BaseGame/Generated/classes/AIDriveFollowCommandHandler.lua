@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDriveFollowCommandHandler: AICommandHandlerBase
 ---@field protected outUseKinematic AIArgumentMapping

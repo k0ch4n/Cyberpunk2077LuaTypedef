@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExhaustedEvents: StaminaEventsTransition
 ---@field public staminaVfxBlackboard worldEffectBlackboard

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCurveStatModifierData_Deprecated: gameStatModifierData_Deprecated
 ---@field public curveName CName

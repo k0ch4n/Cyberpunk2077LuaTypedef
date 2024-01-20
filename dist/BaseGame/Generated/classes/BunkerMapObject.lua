@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerMapObject: gameObject
 ---@field public mapIndex Int32

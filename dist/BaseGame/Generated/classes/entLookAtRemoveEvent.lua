@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLookAtRemoveEvent: redEvent
 ---@field public lookAtRef animLookAtRef

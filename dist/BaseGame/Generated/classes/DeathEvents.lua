@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeathEvents: HighLevelTransition
 ---@field protected isDyingEffectPlaying Bool

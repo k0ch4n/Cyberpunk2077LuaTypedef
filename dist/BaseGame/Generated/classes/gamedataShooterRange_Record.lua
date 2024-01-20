@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterRange_Record: gamedataShooterProjectileAI_Record
 gamedataShooterRange_Record = {}

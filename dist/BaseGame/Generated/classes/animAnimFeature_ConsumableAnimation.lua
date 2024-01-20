@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_ConsumableAnimation: animAnimFeature
 ---@field public consumableType Int32

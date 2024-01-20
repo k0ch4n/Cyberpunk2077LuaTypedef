@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_RegisterProviderRequest: gameScriptableSystemRequest
 ---@field public provider Codeware_Localization_ModLocalizationProvider

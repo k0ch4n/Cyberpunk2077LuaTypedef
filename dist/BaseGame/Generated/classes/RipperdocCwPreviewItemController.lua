@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocCwPreviewItemController: inkWidgetLogicController
 ---@field private itemIcon inkWidgetReference

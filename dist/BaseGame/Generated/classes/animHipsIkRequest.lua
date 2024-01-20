@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animHipsIkRequest
 ---@field public leftLegIkChain CName

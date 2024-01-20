@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceOperationTriggerData: IScriptable
 ---@field public operationsToExecute OperationExecutionData[]

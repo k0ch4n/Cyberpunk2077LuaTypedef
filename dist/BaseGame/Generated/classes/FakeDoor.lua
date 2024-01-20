@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FakeDoor: gameObject
 ---@field public interaction gameinteractionsComponent

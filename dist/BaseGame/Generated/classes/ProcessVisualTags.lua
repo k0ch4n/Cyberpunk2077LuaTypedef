@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProcessVisualTags: gamePlayerScriptableSystemRequest
 ---@field public itemTDBID TweakDBID

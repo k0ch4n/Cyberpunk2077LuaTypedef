@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSimpleBounceTrackOutput
 ---@field public targetTrack animNamedTrackIndex

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkStepperController: inkWidgetLogicController
 ---@field public cycledNavigation Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerSecureAreaDef: gamebbScriptDefinition
 ---@field public inside gamebbScriptID_Bool

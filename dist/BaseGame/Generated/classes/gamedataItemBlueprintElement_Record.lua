@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemBlueprintElement_Record: gamedataTweakDBRecord
 gamedataItemBlueprintElement_Record = {}

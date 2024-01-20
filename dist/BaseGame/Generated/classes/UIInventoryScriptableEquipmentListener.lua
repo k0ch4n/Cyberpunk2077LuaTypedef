@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryScriptableEquipmentListener: IScriptable
 ---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem

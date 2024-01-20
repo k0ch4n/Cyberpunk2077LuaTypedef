@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionGameplayLogicPackage_Record: gamedataAISubAction_Record
 gamedataAISubActionGameplayLogicPackage_Record = {}

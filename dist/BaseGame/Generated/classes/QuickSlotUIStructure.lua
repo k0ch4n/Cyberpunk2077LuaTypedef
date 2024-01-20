@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotUIStructure
 ---@field public ItemIndex Int32

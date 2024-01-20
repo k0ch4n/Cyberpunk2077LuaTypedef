@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EArgumentType: Enum
 ---@field Object Enum 0

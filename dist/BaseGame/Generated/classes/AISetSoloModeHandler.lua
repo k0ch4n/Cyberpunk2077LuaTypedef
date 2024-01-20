@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISetSoloModeHandler: AIbehaviortaskScript
 ---@field public inCommand AIArgumentMapping

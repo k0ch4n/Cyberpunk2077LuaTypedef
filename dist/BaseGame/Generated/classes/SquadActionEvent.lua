@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SquadActionEvent: redEvent
 ---@field public squadActionName CName

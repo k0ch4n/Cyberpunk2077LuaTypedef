@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlayAnimEventData
 ---@field public blendIn Float

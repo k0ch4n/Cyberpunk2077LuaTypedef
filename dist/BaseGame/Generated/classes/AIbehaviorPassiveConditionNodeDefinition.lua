@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPassiveConditionNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public condition AIbehaviorPassiveConditionDefinition

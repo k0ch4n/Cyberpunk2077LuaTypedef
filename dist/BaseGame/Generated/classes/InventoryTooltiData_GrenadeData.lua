@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltiData_GrenadeData: IScriptable
 ---@field public type GrenadeDamageType

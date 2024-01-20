@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponEvolutionHitPrereqCondition: BaseHitPrereqCondition
 ---@field public weaponEvolution gamedataWeaponEvolution

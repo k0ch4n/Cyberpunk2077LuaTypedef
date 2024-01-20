@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemAddAvailableCar: gameScriptableSystemRequest
 ---@field public carFact CName

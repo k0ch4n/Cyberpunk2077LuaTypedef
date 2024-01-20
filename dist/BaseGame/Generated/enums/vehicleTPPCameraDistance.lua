@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleTPPCameraDistance: Enum
 ---@field Close Enum 0

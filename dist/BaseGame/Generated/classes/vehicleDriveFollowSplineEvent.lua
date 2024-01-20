@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDriveFollowSplineEvent: redEvent
 ---@field public splineRef NodeRef

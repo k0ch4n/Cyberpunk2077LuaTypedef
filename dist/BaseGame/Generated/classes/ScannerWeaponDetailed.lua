@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerWeaponDetailed: ScannerWeaponBasic
 ---@field private damage CName

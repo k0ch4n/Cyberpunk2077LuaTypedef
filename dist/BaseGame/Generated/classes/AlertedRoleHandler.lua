@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AlertedRoleHandler: AIbehaviortaskScript
 ---@field private pathParamsModified Bool

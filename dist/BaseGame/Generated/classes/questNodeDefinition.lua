@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questNodeDefinition: graphGraphNodeDefinition
 ---@field public id Uint16

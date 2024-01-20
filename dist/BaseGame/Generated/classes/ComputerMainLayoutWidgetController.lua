@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerMainLayoutWidgetController: inkWidgetLogicController
 ---@field protected screenSaverSlot inkWidgetReference

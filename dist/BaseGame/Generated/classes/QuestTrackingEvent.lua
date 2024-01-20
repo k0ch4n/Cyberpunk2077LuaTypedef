@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestTrackingEvent: redEvent
 ---@field public journalEntry gameJournalQuestObjectiveBase

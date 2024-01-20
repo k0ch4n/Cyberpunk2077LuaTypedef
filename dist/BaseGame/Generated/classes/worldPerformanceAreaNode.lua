@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPerformanceAreaNode: worldTriggerAreaNode
 ---@field public qualitySettingsArray worldQualitySetting[]

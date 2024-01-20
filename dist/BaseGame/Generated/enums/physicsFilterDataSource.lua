@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsFilterDataSource: Enum
 ---@field Parent Enum 0

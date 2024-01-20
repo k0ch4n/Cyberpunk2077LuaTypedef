@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindowBlinders: InteractiveDevice
 ---@field private animFeature AnimFeature_SimpleDevice

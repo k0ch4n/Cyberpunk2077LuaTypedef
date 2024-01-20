@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineConsumableParameterWeakIScriptable: gamestateMachineActionParameterWeakIScriptable
 ---@field public consumed Bool

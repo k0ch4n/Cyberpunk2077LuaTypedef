@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FTNpcMountingState: Enum
 ---@field Mounted Enum 0

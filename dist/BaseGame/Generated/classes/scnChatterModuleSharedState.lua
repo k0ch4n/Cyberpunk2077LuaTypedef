@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChatterModuleSharedState: ISerializable
 ---@field public chatterHistory scnChatter[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionDroneModifyAltitude_Record_Implementation: IScriptable
 AISubActionDroneModifyAltitude_Record_Implementation = {}

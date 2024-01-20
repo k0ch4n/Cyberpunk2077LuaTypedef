@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questOpenPhotoMode_NodeType: questIUIManagerNodeType
 ---@field public factName String

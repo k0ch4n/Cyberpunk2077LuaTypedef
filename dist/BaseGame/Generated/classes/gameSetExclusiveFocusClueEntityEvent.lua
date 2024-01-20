@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetExclusiveFocusClueEntityEvent: redEvent
 ---@field public isSetExclusive Bool

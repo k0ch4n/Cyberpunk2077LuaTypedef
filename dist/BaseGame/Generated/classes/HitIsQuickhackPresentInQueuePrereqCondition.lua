@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitIsQuickhackPresentInQueuePrereqCondition: BaseHitPrereqCondition
 ---@field public hackCategory gamedataHackCategory_Record

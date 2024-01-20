@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAvailableAnimset
 ---@field public hash Uint64

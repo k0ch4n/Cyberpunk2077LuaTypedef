@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_StaticQsTransform: animIAnimNodeSourceChannel_QsTransform
 ---@field public data QsTransform

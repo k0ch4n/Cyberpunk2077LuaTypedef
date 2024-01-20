@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitResult
 ---@field public hitPositionEnter Vector4

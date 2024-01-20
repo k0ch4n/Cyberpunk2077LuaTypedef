@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataParticleDamage_Record: gamedataTweakDBRecord
 gamedataParticleDamage_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProtectedEntities: MorphData
 ---@field public protectedEntities entEntityID[]

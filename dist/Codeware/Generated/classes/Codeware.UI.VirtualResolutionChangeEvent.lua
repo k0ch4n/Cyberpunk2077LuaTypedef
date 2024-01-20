@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_VirtualResolutionChangeEvent: inkEvent
 ---@field public state Codeware_UI_VirtualResolutionData

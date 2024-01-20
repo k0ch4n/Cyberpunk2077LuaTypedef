@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShaftsAreaSettings
 ---@field public shaftsLevelIndex Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinputActionType: Enum
 ---@field BUTTON_PRESSED Enum 0

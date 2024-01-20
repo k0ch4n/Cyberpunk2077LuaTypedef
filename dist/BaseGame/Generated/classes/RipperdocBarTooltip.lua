@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocBarTooltip: AGenericTooltipController
 ---@field private statsHolder inkWidgetReference

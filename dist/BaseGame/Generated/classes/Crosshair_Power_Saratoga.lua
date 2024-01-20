@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Power_Saratoga: gameuiCrosshairBaseGameController
 ---@field private leftPart inkWidgetReference

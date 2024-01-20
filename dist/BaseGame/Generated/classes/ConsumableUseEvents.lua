@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConsumableUseEvents: ConsumableTransitions
 ---@field public effectsApplied Bool

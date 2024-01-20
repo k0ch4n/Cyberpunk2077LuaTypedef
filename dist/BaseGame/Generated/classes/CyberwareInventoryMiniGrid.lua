@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareInventoryMiniGrid: inkWidgetLogicController
 ---@field private isLeftAligned Bool

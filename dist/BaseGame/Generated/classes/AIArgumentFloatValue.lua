@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArgumentFloatValue: AIArgumentDefinition
 ---@field public type AIArgumentType

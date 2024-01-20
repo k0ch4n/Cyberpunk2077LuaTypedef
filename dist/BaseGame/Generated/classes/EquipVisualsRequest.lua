@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipVisualsRequest: gamePlayerScriptableSystemRequest
 ---@field public itemID gameItemID

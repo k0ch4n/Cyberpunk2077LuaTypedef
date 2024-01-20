@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TerminalSystemCustomData: WidgetCustomData
 ---@field public connectedDevices Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BodyPartHitPrereqCondition: BaseHitPrereqCondition
 ---@field public bodyPart CName

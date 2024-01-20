@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_VehicleState: animAnimFeatureMarkUnstable
 ---@field public tppEnabled Bool

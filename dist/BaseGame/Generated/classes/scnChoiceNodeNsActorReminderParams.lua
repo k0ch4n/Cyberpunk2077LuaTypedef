@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsActorReminderParams: ISerializable
 ---@field public useCustomReminder Bool

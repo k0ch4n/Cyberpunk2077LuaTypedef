@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SNetworkLinkData
 ---@field public beam gameFxInstance

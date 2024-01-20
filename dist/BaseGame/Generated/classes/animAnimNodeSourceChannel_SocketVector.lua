@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_SocketVector: animIAnimNodeSourceChannel_Vector
 animAnimNodeSourceChannel_SocketVector = {}

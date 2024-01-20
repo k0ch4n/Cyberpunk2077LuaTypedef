@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayEnv_SetWeather: questIEnvironmentManagerNodeType
 ---@field public reset Bool

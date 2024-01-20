@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedForceAboutToExplodeStateRequest: gameScriptableSystemRequest
 ---@field public state VehiclePreventionHackState

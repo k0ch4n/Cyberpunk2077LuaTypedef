@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Example_FxSpawning: gameScriptableComponent
 ---@field private effect gameFxResource

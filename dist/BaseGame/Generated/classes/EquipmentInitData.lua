@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentInitData: IScriptable
 ---@field public eqManipulationVarName CName

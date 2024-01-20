@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataContinuousEffector_Record: gamedataEffector_Record
 gamedataContinuousEffector_Record = {}

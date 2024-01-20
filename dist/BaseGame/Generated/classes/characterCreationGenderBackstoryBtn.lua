@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationGenderBackstoryBtn: inkButtonController
 ---@field public selector inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BloodswellEffectorHealthListener: gameScriptStatPoolsListener
 ---@field public effector BloodswellEffector

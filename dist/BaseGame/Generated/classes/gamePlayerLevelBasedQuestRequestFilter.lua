@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayerLevelBasedQuestRequestFilter: gameCustomRequestFilter
 ---@field public percentMargin Uint32

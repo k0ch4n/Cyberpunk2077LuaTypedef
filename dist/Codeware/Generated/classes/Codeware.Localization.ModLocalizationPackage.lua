@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_ModLocalizationPackage: IScriptable
 ---@field public interfaceEntries inkScriptHashMap

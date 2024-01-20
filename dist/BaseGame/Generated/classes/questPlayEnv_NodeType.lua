@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayEnv_NodeType: questIEnvironmentManagerNodeType
 ---@field public params questPlayEnv_NodeTypeParams

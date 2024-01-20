@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetQuickHackableMask: redEvent
 ---@field public isQuickHackable Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAcousticZoneParameterMapItem: audioAudioMetadata
 ---@field public param CName

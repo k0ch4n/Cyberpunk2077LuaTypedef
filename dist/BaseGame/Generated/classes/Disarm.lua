@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Disarm: redEvent
 ---@field public requester gameObject

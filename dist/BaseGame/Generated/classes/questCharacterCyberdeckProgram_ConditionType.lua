@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterCyberdeckProgram_ConditionType: questICharacterConditionType
 ---@field public cyberdeckProgramID TweakDBID

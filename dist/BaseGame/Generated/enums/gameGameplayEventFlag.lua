@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGameplayEventFlag: Enum
 ---@field Ai Enum 1

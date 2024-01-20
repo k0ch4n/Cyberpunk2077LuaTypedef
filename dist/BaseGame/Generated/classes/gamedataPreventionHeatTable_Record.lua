@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPreventionHeatTable_Record: gamedataTweakDBRecord
 gamedataPreventionHeatTable_Record = {}

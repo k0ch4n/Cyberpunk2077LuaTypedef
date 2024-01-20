@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEResetTypeNode: Enum
 ---@field RT_Reference Enum 0

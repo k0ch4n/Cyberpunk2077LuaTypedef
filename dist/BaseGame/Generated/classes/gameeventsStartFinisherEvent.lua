@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsStartFinisherEvent: redEvent
 ---@field public target gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionConditionalFailure_Record_Implementation: IScriptable
 AISubActionConditionalFailure_Record_Implementation = {}

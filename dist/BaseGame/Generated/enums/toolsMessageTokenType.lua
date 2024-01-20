@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageTokenType: Enum
 ---@field Text Enum 0

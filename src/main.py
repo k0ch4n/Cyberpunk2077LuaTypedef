@@ -204,9 +204,8 @@ class Annotation:
 
         self.lua_code += custom
 
-    def add_meta(self, name: str = "_"):
-        self.add_custom(f"---@meta {name}")
-        self.add_custom(f"---@diagnostic disable\n")
+    def add_meta(self, name: str = ""):
+        self.add_custom(f"---@meta{' ' + name if name else ''}\n")
 
     def add_alias(self, name: str, type: str):
         self.add_custom(f"---@alias {name} {type}")
@@ -214,10 +213,7 @@ class Annotation:
     def add_class(self, name: str, parent: str, flags: int, fields: list[dict] = []):
         self.class_name = name
 
-        if len(parent) > 0:
-            parent = f": {parent}"
-
-        self.add_custom(f"---@class {name}{parent}")
+        self.add_custom(f"---@class {name}{': ' + parent if parent else parent}")
 
         for field in fields:
             self.add_field(field["name"], field["type"], field["flags"])

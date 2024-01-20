@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddOrRemoveListenerForGOEvent: redEvent
 ---@field public listener GameObjectListener

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeftHandCyberwareChargeEvents: LeftHandCyberwareEventsTransition
 ---@field private chargeModeAim gameweaponAnimFeature_AimPlayer

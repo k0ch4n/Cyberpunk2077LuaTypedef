@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceTimeTableManager: IScriptable
 ---@field protected timeTable SDeviceTimetableEntry[]

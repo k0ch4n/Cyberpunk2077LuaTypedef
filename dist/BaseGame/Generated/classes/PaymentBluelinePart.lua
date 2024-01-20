@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PaymentBluelinePart: gameinteractionsvisBluelinePart
 ---@field public playerMoney Int32

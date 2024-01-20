@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_FocusMode: animAnimFeature
 ---@field public isFocusModeActive Bool

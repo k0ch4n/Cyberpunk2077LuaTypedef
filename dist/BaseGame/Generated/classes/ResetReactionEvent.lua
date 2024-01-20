@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResetReactionEvent: redEvent
 ---@field public data AIReactionData

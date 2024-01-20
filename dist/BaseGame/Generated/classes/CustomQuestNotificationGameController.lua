@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomQuestNotificationGameController: gameuiHUDGameController
 ---@field private label inkTextWidgetReference

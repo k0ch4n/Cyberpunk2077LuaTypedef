@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JumpPod: gameObject
 ---@field private activationLight entIVisualComponent

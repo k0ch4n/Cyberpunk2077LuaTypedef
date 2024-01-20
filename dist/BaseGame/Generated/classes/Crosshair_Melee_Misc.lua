@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Melee_Misc: gameuiCrosshairBaseGameController
 ---@field private targetColorChange inkWidgetReference

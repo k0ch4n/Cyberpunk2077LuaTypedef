@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStackTransformsExtender_SnapToBoneMethod: Enum
 ---@field NoSnapping Enum 0

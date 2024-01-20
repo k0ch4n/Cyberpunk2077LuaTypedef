@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPhotoModeItem_Record: gamedataTweakDBRecord
 gamedataPhotoModeItem_Record = {}

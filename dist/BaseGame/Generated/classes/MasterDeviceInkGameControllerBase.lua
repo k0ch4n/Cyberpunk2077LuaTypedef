@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MasterDeviceInkGameControllerBase: DeviceInkGameControllerBase
 ---@field protected thumbnailWidgetsData SThumbnailWidgetPackage[]

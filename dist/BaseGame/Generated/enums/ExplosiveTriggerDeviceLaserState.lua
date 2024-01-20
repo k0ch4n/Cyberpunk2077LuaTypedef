@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveTriggerDeviceLaserState: Enum
 ---@field GREEN Enum 0

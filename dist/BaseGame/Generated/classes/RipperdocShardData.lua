@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocShardData: IScriptable
 ---@field public Count Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionThrowItem_Record_Implementation: IScriptable
 AISubActionThrowItem_Record_Implementation = {}

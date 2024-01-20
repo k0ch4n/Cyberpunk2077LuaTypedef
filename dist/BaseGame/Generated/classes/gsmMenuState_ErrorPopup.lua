@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmMenuState_ErrorPopup: gsmPopupState
 gsmMenuState_ErrorPopup = {}

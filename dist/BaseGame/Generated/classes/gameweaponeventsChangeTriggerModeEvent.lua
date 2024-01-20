@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponeventsChangeTriggerModeEvent: redEvent
 ---@field public triggerMode gamedataTriggerMode

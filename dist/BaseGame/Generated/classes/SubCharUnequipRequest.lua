@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubCharUnequipRequest: UnequipRequest
 ---@field public subCharType gamedataSubCharacter

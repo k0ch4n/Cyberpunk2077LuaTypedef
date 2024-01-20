@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PullSquadSyncRequest: AIAIEvent
 ---@field public squadType AISquadType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BoothModeGameController: gameuiWidgetGameController
 ---@field public buttonRef inkWidgetReference

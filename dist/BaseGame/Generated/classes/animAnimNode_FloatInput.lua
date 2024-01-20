@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatInput: animAnimNode_FloatValue
 ---@field public group CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPoseBlendMethod_Mask: animIPoseBlendMethod
 ---@field public maskName CName

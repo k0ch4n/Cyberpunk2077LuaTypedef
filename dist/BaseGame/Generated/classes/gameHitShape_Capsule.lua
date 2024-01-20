@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitShape_Capsule: gameHitShapeBase
 ---@field public radius Float

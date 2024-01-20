@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeStanceStateAbstract: AIbehaviortaskScript
 ---@field public changeStateOnDeactivate Bool

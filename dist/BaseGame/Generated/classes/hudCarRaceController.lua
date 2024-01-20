@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudCarRaceController: gameuiHUDGameController
 ---@field private Countdown inkCanvasWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmState_BoothModeMainMenu: gsmMenuState
 gsmState_BoothModeMainMenu = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckQuestFact: AIbehaviorconditionScript
 ---@field public questFactName CName

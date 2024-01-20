@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBehind_ConditionType: questISensesConditionType
 ---@field public targetRef gameEntityReference

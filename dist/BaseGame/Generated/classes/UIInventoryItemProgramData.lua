@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemProgramData: IScriptable
 ---@field public MemoryCost Int32

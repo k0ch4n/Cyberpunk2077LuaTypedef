@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPredictTargetMovementDefinition: AIbehaviorTaskDefinition
 ---@field public target AIArgumentMapping

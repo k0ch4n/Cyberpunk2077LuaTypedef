@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlacklistEntry: IScriptable
 ---@field private entryID entEntityID

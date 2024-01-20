@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCreditsPositionController: inkWidgetLogicController
 ---@field public titleText inkTextWidgetReference

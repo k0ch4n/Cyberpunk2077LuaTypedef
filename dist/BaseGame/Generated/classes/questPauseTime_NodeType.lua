@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPauseTime_NodeType: questITimeManagerNodeType
 ---@field public pause Bool

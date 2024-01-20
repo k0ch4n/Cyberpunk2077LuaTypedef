@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponOwnerVehicleData: animAnimFeature
 ---@field public isOwnerDriver Bool

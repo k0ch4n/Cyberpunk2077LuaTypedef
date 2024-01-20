@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureFilteringMin: Enum
 ---@field TFMin_Point Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStackTransformsExtender_Entry
 ---@field public transformInfo animTransformInfo

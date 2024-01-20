@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ZoomLevel6Decisions: ZoomDecisionsTransition
 ZoomLevel6Decisions = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOverrideInterruptionScenario_InterruptionOperation: scnIInterruptionOperation
 ---@field public scenarioId scnInterruptionScenarioId

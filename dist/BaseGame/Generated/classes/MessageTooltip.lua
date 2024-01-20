@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageTooltip: AGenericTooltipController
 ---@field protected Title inkTextWidgetReference

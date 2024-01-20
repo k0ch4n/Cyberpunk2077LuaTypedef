@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStimPriority_Record: gamedataTweakDBRecord
 gamedataStimPriority_Record = {}

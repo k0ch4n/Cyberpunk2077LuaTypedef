@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendEStreamingObserverMode: Enum
 ---@field Point Enum 0

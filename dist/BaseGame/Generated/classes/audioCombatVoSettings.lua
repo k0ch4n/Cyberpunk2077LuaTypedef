@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioCombatVoSettings: audioAudioMetadata
 ---@field public answerGroupName CName

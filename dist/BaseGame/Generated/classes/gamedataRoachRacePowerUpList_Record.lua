@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRoachRacePowerUpList_Record: gamedataTweakDBRecord
 gamedataRoachRacePowerUpList_Record = {}

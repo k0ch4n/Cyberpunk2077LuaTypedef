@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTagSpawParameter: gameObjectSpawnParameter
 ---@field public tags CName[]

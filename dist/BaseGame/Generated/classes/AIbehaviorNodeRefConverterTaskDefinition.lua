@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorNodeRefConverterTaskDefinition: AIbehaviorTaskDefinition
 ---@field public nodeRef AIArgumentMapping

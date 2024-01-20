@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemCraftedDataTrackingRequest: gamePlayerScriptableSystemRequest
 ---@field public targetItem gameItemID

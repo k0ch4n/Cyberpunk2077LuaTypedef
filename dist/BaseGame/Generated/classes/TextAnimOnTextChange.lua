@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TextAnimOnTextChange: inkWidgetLogicController
 ---@field private textField inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisDeviceVisualizerDefinition: gameinteractionsvisIVisualizerDefinition
 ---@field public interactionType gameinteractionsvisInteractionType

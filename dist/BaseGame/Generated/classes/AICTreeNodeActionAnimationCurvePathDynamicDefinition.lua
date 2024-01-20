@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeActionAnimationCurvePathDynamicDefinition: AICTreeNodeActionDefinition
 ---@field public targetSplineVarName CName

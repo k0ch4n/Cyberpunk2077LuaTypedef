@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionDelayedSpawnBaseRequest: gameScriptableSystemRequest
 ---@field public heatStage EPreventionHeatStage

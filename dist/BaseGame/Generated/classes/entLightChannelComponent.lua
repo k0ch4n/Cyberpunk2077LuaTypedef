@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLightChannelComponent: entIVisualComponent
 ---@field public isEnabled Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryDataManager: IScriptable
 ---@field private gameInstance ScriptGameInstance

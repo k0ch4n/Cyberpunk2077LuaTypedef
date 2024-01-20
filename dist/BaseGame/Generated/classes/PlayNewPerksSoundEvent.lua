@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayNewPerksSoundEvent: redEvent
 ---@field public soundName CName

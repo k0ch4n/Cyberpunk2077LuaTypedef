@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponJammedAction: StatusEffectActions
 ---@field public jammedWeaponDuration Float

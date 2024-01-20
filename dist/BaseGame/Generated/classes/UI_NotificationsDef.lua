@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_NotificationsDef: gamebbScriptDefinition
 ---@field public WarningMessage gamebbScriptID_Variant

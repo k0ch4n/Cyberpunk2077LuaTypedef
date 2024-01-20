@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audiobreathingLoopBehavior: Enum
 ---@field TimedBreathing Enum 0

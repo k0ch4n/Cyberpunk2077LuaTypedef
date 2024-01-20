@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextMotherTongueController: inkWidgetLogicController
 ---@field public preTranslatedTextWidget inkTextWidgetReference

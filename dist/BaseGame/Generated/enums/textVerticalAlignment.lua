@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class textVerticalAlignment: Enum
 ---@field Top Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFactChangedEvent: redEvent
 ---@field public factName CName

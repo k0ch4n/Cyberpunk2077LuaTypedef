@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLocationAction: Enum
 ---@field Entered Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCameraAnimationLOD
 ---@field public trajectory scnAnimationMotionSample

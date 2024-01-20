@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIWorldBoundariesDef: gamebbScriptDefinition
 ---@field public IsPlayerCloseToBoundary gamebbScriptID_Bool

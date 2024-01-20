@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PatrolRoleCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public patrolWithWeapon Bool

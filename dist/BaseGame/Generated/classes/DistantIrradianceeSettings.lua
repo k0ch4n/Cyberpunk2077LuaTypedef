@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DistantIrradianceeSettings: IAreaSettings
 ---@field public distantRange curveData

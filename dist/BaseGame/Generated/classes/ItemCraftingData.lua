@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemCraftingData: IScriptable
 ---@field public inventoryItem gameInventoryItemData

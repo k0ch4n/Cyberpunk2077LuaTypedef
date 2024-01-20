@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckUpperBodyState: AINPCUpperBodyStateCheck
 ---@field public state gamedataNPCUpperBodyState

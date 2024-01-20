@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExposureCompensationAreaSettings: IAreaSettings
 ---@field public exposureCompensation Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class panzerBootupUI: Enum
 ---@field UnbootedIdle Enum 0

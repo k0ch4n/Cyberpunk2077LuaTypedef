@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsReactionComponent: entIComponent
 ---@field public reactions gameinteractionsReactionData[]

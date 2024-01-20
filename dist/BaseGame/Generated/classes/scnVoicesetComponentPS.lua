@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnVoicesetComponentPS: gameComponentPS
 ---@field public blockedInputs entVoicesetInputToBlock[]

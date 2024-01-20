@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindanceResetting_ConditionType: scnIBraindanceConditionType
 ---@field public sceneFile scnSceneResource

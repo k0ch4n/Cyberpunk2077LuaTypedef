@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubCharacterSystem: gameScriptableSystem
 ---@field private uniqueSubCharacters SSubCharacter[]

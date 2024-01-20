@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingSystemInventoryCallback: gameInventoryScriptCallback
 ---@field public player PlayerPuppet

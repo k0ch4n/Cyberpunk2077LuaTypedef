@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceDebugDef: gamebbScriptDefinition
 ---@field public CurrentlyDebuggedDevice gamebbScriptID_CName

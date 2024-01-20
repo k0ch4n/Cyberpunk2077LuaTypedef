@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleDrivePatrolCommand: AIVehicleCommand
 ---@field public maxSpeed Float

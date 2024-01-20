@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animBoneTraceCondition: ISerializable
 ---@field public boneIndex Int16

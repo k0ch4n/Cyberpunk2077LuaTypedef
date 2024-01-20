@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIOptimalDistanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIOptimalDistanceCond_Record = {}

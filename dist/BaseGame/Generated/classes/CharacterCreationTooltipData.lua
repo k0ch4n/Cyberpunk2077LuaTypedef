@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationTooltipData: MessageTooltipData
 ---@field public attribiuteLevel String

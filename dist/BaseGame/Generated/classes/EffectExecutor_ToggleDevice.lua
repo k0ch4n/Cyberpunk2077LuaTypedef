@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_ToggleDevice: EffectExecutor_Device
 EffectExecutor_ToggleDevice = {}

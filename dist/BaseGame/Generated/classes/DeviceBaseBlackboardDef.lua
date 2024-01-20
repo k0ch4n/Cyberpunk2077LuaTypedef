@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceBaseBlackboardDef: gamebbScriptDefinition
 ---@field public ActionWidgetsData gamebbScriptID_Variant

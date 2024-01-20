@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsCoverHitEvent: gameeventsHitEvent
 ---@field public cover gameObject

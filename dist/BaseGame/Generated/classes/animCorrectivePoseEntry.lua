@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCorrectivePoseEntry
 ---@field public comparePose CName

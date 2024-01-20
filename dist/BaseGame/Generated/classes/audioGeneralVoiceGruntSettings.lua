@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioGeneralVoiceGruntSettings
 ---@field public variationsCount Uint32

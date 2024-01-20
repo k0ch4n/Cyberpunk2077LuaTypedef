@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_UniqueInstanceMeshNode: worldEditorDebugColoringSettings
 worldDebugColoring_UniqueInstanceMeshNode = {}

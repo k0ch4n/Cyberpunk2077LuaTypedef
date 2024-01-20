@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnDisableAreaData
 ---@field public agent gamePersistentID

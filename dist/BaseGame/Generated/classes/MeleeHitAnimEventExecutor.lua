@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeHitAnimEventExecutor: gameEffectExecutor_Scripted
 ---@field private ignoreWaterImpacts Bool

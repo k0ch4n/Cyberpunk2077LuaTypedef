@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksPerkContainerLogicController: inkWidgetLogicController
 ---@field private slotIdentifier gamedataNewPerkSlotType

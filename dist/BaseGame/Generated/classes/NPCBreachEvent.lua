@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCBreachEvent: redEvent
 ---@field public state gameuiHackingMinigameState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HDRSettingsVarListener: userSettingsVarListener
 ---@field private ctrl gameuiHDRSettingsGameController

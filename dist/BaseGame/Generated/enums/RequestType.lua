@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestType: Enum
 ---@field INSTANTLY_TRIGGER Enum 0

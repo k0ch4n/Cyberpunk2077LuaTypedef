@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPropOwnershipTransferOptionsType: Enum
 ---@field TransferToWorkspotSystem_Automatic Enum 0

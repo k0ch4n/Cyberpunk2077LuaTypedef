@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IncrementArgumentInt: AIbehaviortaskScript
 ---@field public argumentIntName CName

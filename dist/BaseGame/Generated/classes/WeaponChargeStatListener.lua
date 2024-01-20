@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponChargeStatListener: gameCustomValueStatPoolsListener
 ---@field public weapon gameweaponObject

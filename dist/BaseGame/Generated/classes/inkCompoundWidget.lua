@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCompoundWidget: inkWidget
 ---@field public childOrder inkEChildOrder

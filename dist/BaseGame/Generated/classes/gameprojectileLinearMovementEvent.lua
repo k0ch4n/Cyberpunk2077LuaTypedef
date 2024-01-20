@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileLinearMovementEvent: redEvent
 ---@field public targetPosition Vector4

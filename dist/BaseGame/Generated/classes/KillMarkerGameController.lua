@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KillMarkerGameController: gameuiWidgetGameController
 ---@field private targetNeutralized redCallbackObject

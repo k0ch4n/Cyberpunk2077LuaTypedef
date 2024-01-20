@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFinalConfigurationController: inkWidgetLogicController
 ---@field public visibilityFlag inkFinalConfigurationVisibility

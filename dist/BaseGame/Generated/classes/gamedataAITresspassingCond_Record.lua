@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAITresspassingCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITresspassingCond_Record = {}

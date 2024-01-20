@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entPhysicalDestructionEvent: redEvent
 ---@field public componentName CName

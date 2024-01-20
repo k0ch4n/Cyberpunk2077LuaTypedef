@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_CompanionDef: gamebbScriptDefinition
 ---@field public flatHeadSpawned gamebbScriptID_Bool

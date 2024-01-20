@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MarketSystemRequest: gameScriptableSystemRequest
 ---@field public owner gameObject

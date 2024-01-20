@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckSpeakersDistanceInterruptCondition: scnIInterruptCondition
 ---@field public params scnCheckSpeakersDistanceInterruptConditionParams

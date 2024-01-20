@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalOnscreen: gameJournalEntry
 ---@field public tag CName

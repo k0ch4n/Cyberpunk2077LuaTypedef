@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPreviewGameController: gameuiMenuGameController
 ---@field public yawSpeed Float

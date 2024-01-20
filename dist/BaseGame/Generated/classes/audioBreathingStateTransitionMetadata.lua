@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioBreathingStateTransitionMetadata: audioAudioMetadata
 ---@field public fromNames CName[]

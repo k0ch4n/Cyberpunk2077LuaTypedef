@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DataTermDeviceBlackboardDef: DeviceBaseBlackboardDef
 ---@field public fastTravelPoint gamebbScriptID_Variant

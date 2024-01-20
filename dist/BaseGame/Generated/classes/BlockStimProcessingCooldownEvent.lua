@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlockStimProcessingCooldownEvent: redEvent
 ---@field public stimData StimIdentificationData

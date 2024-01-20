@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeProjectile: BaseProjectile
 ---@field protected resourceLibraryComponent ResourceLibraryComponent

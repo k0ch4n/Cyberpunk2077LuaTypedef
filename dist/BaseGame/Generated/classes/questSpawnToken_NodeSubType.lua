@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSpawnToken_NodeSubType: questIContentTokenManager_NodeSubType
 ---@field public immediate Bool

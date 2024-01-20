@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMotionTableProvider_MasterSlaveBlend: animIMotionTableProvider
 ---@field public masterInputIdx Uint8

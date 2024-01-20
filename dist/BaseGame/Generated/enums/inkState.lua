@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkState: Enum
 ---@field InitEngine Enum 0

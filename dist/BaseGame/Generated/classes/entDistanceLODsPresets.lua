@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDistanceLODsPresets: ISerializable
 ---@field public definitions entLODDefinition

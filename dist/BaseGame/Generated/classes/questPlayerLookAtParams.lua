@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayerLookAtParams: ISerializable
 ---@field public useOffsetToPlayer Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_DodgeData: animAnimFeature
 ---@field public dodgeType Int32

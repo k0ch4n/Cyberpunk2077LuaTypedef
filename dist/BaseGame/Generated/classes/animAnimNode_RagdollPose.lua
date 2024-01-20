@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_RagdollPose: animAnimNode_Base
 animAnimNode_RagdollPose = {}

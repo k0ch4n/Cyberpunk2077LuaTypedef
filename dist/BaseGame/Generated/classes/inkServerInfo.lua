@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkServerInfo: IScriptable
 ---@field public number Int32

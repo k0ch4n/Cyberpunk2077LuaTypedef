@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinigameGenerationRule_Test: gameuiMinigameGenerationRule
 MinigameGenerationRule_Test = {}

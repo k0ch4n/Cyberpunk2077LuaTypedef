@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsSetVisibility: redEvent
 ---@field public visible Bool

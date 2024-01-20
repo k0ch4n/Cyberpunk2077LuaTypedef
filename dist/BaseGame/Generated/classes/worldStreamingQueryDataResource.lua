@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingQueryDataResource: CResource
 ---@field public roadDatas worldStreamingQueryRoadData[]

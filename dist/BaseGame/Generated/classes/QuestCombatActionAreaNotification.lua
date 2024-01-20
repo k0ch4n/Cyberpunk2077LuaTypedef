@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestCombatActionAreaNotification: redEvent
 ---@field public revealPlayerSettings RevealPlayerSettings

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectFilter_ReachableByNavigation: gameEffectObjectSingleFilter
 ---@field public maxPathLength gameEffectInputParameter_Float

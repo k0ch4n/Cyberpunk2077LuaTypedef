@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataIPrereq_Record: gamedataTweakDBRecord
 gamedataIPrereq_Record = {}

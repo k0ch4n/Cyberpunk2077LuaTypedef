@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEAnimGraphAdditiveType: Enum
 ---@field AGAT_Local Enum 0

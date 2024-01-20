@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISmartCompositeType_Record: gamedataTweakDBRecord
 gamedataAISmartCompositeType_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowEquipmentRequest: gamePlayerScriptableSystemRequest
 ---@field public itemObject gameItemObject

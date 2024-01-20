@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetControllerStimSource: AIbehaviortaskScript
 ---@field protected investigateData senseStimInvestigateData

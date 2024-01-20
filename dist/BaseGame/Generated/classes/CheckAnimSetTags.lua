@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckAnimSetTags: AIbehaviorconditionScript
 ---@field public animsetTagToCompare CName[]

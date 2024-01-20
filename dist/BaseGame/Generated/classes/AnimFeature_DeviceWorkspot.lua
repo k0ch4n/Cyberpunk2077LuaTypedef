@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_DeviceWorkspot: animAnimFeature
 ---@field public e3_lockInReferencePose Bool

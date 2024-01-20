@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIAnimationController: inkWidgetLogicController
 ---@field private rotation_anim inkanimDefinition

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MadnessEffector: gameEffector
 ---@field public squadMembers entEntityID[]

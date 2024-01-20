@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_WorkspotPlayFacialAnim: animAnimEvent
 ---@field public facialAnimName CName

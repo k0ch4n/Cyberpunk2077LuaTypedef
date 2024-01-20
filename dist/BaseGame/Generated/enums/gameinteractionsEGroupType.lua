@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsEGroupType: Enum
 ---@field EGT_default Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescDepthStencilModeComparisonMode: Enum
 ---@field COMPARISON_Never Enum 0

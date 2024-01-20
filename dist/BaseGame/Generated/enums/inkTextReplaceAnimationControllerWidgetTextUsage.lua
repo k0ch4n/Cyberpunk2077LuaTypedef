@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextReplaceAnimationControllerWidgetTextUsage: Enum
 ---@field BaseText Enum 0

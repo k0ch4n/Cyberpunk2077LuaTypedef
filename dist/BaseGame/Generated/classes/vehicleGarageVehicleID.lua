@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleGarageVehicleID
 ---@field public recordID TweakDBID

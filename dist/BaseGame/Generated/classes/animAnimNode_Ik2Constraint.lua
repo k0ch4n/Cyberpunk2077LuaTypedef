@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Ik2Constraint: animAnimNode_OnePoseInput
 ---@field public inputTarget animIAnimNodeSourceChannel_Vector

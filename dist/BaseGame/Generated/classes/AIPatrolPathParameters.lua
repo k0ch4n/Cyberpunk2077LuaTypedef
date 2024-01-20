@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPatrolPathParameters: IScriptable
 ---@field public path NodeRef

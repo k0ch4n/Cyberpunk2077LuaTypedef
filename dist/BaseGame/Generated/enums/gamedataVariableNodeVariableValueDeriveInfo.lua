@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVariableNodeVariableValueDeriveInfo: Enum
 ---@field NotDerived Enum 0

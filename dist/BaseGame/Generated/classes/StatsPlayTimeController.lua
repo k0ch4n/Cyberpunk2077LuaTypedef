@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatsPlayTimeController: inkWidgetLogicController
 ---@field private playTimeRef inkTextWidgetReference

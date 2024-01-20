@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttributeBoughtEvent: redEvent
 ---@field public attributeType gamedataStatType

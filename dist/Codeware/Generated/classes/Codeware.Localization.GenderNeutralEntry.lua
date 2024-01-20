@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_GenderNeutralEntry: Codeware_Localization_LocalizationEntry
 ---@field public value String

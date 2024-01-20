@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SItemTransaction
 ---@field public itemStack gameSItemStack

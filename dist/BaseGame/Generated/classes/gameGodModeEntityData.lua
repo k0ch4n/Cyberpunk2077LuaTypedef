@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGodModeEntityData
 ---@field public overrides gameGodModeData[]

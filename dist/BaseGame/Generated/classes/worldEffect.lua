@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEffect: resStreamedResource
 ---@field public name CName

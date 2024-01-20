@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeDiodeLightSettingsEvent: redEvent
 ---@field public colorValues Int32[]

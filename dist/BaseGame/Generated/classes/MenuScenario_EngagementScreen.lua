@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_EngagementScreen: MenuScenario_PreGameSubMenu
 MenuScenario_EngagementScreen = {}

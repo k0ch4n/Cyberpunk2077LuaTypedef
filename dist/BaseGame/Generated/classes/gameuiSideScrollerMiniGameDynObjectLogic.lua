@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSideScrollerMiniGameDynObjectLogic: inkWidgetLogicController
 ---@field public spawnPoolSize Uint32

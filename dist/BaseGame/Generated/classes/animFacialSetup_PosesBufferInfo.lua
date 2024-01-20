@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialSetup_PosesBufferInfo
 ---@field public face animFacialSetup_OneSermoPoseBufferInfo

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SensorDevice: animAnimFeature
 ---@field public isCeiling Bool

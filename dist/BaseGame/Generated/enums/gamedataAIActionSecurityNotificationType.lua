@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionSecurityNotificationType: Enum
 ---@field COMBAT Enum 0

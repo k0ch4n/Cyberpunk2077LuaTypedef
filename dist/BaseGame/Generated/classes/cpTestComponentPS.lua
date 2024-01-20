@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpTestComponentPS: gameComponentPS
 ---@field public something Int32

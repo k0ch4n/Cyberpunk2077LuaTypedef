@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderObjectType: Enum
 ---@field ROT_Static Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RainAreaSettings: IAreaSettings
 ---@field public numParticles Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorkspotCategory: Enum
 ---@field Any Enum 0

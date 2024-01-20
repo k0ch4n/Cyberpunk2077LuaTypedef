@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSetCharacterCreationDataRequest: gamePlayerScriptableSystemRequest
 ---@field public lifepath TweakDBID

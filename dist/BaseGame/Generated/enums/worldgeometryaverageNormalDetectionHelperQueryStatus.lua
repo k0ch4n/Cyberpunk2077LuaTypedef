@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldgeometryaverageNormalDetectionHelperQueryStatus: Enum
 ---@field Finished Enum 0

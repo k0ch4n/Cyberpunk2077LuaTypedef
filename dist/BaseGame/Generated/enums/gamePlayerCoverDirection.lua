@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayerCoverDirection: Enum
 ---@field None Enum -1

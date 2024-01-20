@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerCompanionCacheDataEvent: redEvent
 ---@field public isPlayerCompanionCached Bool

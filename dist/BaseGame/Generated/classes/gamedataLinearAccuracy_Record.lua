@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLinearAccuracy_Record: gamedataAccuracy_Record
 gamedataLinearAccuracy_Record = {}

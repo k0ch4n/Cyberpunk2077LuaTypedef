@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairLogicController_RasetsuAimFire: inkWidgetLogicController
 ---@field public chargebarContainer inkWidgetReference

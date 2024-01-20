@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClueLockNotification: HUDManagerRequest
 ---@field public isLocked Bool

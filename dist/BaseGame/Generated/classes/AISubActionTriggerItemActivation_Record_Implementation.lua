@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionTriggerItemActivation_Record_Implementation: IScriptable
 AISubActionTriggerItemActivation_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_BoothMode: MenuScenario_PreGameSubMenu
 MenuScenario_BoothMode = {}

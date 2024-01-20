@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWorldMapPlayerMappinController: gameuiBaseWorldMapMappinController
 ---@field public coneIconWidget inkImageWidgetReference

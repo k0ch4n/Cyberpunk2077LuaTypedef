@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questQuestPrefabEntry
 ---@field public prefabNodeRef NodeRef

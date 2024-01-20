@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Movement_CurveSet: gameTransformAnimation_Movement
 gameTransformAnimation_Movement_CurveSet = {}

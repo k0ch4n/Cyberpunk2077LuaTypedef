@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ListItemsGroupController: CodexListItemController
 ---@field protected menuList inkCompoundWidgetReference

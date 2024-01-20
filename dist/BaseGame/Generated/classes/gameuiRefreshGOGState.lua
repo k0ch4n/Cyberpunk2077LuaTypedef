@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRefreshGOGState: redEvent
 ---@field public status gameOnlineSystemStatus

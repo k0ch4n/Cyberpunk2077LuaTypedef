@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransparencyAnimationToggleView: BaseToggleView
 ---@field private AnimationTime Float

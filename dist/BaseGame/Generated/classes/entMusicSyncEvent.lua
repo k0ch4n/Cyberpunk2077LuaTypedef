@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entMusicSyncEvent: redEvent
 ---@field public syncType audioMusicSyncType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemSetBackpackSorting: gameScriptableSystemRequest
 ---@field public sortMode Int32

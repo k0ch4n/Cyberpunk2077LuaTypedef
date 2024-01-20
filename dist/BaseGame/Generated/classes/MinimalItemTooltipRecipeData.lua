@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipRecipeData: IScriptable
 ---@field public statsNumber Int32

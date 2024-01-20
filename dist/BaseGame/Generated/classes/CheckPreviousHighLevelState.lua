@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckPreviousHighLevelState: AINPCPreviousHighLevelStateCheck
 ---@field public state gamedataNPCHighLevelState

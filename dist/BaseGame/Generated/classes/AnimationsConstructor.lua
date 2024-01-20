@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimationsConstructor: IScriptable
 ---@field private duration Float

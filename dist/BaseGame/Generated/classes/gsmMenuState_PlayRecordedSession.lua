@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmMenuState_PlayRecordedSession: gsmMenuState
 gsmMenuState_PlayRecordedSession = {}

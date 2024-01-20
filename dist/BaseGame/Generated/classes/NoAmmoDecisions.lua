@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NoAmmoDecisions: WeaponTransition
 ---@field private callbackID redCallbackObject

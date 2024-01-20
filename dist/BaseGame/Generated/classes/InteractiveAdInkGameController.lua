@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveAdInkGameController: DeviceInkGameControllerBase
 ---@field private ProcessingVideo inkVideoWidgetReference

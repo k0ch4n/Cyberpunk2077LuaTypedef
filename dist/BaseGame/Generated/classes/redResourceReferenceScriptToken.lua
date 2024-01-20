@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class redResourceReferenceScriptToken
 ---@field public resource CResource

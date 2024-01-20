@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_Operation: ISerializable
 questTimeDilation_Operation = {}

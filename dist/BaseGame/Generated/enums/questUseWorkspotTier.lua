@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWorkspotTier: Enum
 ---@field Tier3 Enum 0

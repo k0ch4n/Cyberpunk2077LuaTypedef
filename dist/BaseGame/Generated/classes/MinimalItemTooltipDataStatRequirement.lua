@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalItemTooltipDataStatRequirement: IScriptable
 ---@field public statName String

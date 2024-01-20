@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIStatsScriptConditionType: questIStatsConditionType
 ---@field public scriptCondition IScriptable

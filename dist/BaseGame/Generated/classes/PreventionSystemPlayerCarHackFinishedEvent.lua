@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionSystemPlayerCarHackFinishedEvent: gameScriptableSystemRequest
 ---@field public state VehiclePreventionHackState

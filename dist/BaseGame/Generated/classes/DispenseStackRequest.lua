@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DispenseStackRequest: MarketSystemRequest
 ---@field public position Vector4

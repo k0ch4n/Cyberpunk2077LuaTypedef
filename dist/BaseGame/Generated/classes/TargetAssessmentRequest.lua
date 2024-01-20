@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetAssessmentRequest: ScriptableDeviceAction
 ---@field public targetToAssess gameObject

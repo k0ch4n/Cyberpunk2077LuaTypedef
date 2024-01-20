@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeHalfLights: redEvent
 ---@field public isAuthorization Bool

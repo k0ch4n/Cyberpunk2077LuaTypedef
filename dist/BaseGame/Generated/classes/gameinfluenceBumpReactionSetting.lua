@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceBumpReactionSetting: ISerializable
 ---@field public reaction gameinteractionsBumpIntensity

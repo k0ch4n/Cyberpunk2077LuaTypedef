@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetrunnerChairControllerPS: ScriptableDeviceComponentPS
 ---@field protected killDelay Float

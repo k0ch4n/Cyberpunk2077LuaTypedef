@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudSniperNestController: gameuiHUDGameController
 ---@field private psmBlackboard gameIBlackboard

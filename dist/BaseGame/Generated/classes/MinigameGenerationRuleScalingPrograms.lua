@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinigameGenerationRuleScalingPrograms: gameuiMinigameGenerationRule
 ---@field public bbNetwork gameIBlackboard

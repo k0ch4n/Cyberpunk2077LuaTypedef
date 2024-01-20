@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionMeleeAttackManager_Record: gamedataAISubAction_Record
 gamedataAISubActionMeleeAttackManager_Record = {}

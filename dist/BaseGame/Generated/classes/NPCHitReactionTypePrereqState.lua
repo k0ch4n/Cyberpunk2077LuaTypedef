@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCHitReactionTypePrereqState: gamePrereqState
 ---@field public listener PuppetListener

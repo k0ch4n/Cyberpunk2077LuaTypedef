@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectEvents: LocomotionGroundEvents
 ---@field public statusEffectRecord gamedataStatusEffect_Record

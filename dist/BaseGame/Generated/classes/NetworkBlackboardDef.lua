@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkBlackboardDef: gamebbScriptDefinition
 ---@field public MinigameDef gamebbScriptID_Variant

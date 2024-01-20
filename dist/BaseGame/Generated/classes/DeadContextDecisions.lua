@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeadContextDecisions: InputContextTransitionDecisions
 ---@field private callbackID redCallbackObject

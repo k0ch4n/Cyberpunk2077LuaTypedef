@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animConditionalSegmentCondition
 ---@field public lod Int32

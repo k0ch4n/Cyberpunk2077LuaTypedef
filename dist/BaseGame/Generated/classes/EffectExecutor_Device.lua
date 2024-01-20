@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_Device: gameEffectExecutor_Scripted
 ---@field public maxDelay Float

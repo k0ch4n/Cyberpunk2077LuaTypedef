@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerRequirementsGameController: BaseChunkGameController
 ---@field private ScannerRequirementsRightPanel inkCompoundWidgetReference

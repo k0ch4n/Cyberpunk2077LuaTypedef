@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioTrafficVehicleAudioAction: Enum
 ---@field StartEngine Enum 0

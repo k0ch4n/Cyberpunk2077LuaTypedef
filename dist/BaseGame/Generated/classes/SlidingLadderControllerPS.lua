@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SlidingLadderControllerPS: BaseAnimatedDeviceControllerPS
 ---@field protected isShootable Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponTransition: DefaultTransition
 ---@field public magazineID TweakDBID

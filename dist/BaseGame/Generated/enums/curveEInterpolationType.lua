@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class curveEInterpolationType: Enum
 ---@field EIT_Constant Enum 0

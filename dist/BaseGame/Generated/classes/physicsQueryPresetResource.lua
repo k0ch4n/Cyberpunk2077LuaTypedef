@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsQueryPresetResource: ISerializable
 ---@field public presets physicsQueryPresetDefinition[]

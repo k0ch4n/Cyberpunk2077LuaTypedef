@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CarriedObjectData: IScriptable
 ---@field public instant Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LifetimeStatus: Enum
 ---@field Base Enum 0

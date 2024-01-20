@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsDistrictEnteredEvent: gameScriptableSystemRequest
 ---@field public entered Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StuckInEffector: gameContinuousEffector
 ---@field public maxEnemyDistance Float

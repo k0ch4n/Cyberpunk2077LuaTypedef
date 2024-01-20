@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAppliedTriangulationHackSpeed: Enum
 ---@field NotAssigned Enum 0

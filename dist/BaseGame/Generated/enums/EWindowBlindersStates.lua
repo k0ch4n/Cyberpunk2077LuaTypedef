@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EWindowBlindersStates: Enum
 ---@field NonInteractive Enum 0

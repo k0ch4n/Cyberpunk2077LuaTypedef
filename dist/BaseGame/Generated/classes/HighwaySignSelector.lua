@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HighwaySignSelector: StreetSignSelector
 ---@field private recordID TweakDBID

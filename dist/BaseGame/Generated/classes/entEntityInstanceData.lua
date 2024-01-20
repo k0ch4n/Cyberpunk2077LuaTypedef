@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEntityInstanceData: ISerializable
 ---@field public buffer DataBuffer

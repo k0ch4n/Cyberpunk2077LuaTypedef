@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECraftingIconPositioning: Enum
 ---@field generic Enum 0

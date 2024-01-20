@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SlideExitingEvents: ExitingEvents
 ---@field public exitMomentum Vector4

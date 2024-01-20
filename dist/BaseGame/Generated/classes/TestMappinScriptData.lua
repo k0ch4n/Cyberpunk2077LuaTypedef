@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestMappinScriptData: gamemappinsMappinScriptData
 ---@field public test Int32

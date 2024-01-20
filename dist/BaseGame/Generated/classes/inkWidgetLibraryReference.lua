@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWidgetLibraryReference
 ---@field public widgetLibrary inkWidgetLibraryResourceWrapper

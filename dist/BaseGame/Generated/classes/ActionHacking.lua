@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionHacking: ActionSkillCheck
 ActionHacking = {}

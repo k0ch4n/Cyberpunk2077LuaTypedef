@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCyberspaceElementType: Enum
 ---@field CyberspaceNPC Enum 0

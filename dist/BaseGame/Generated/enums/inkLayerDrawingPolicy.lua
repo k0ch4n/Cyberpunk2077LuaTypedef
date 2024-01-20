@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLayerDrawingPolicy: Enum
 ---@field InOrder Enum 0

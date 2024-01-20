@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTrackingMode: Enum
 ---@field BeliefPosition Enum 0

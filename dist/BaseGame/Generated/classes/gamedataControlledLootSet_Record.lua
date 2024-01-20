@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataControlledLootSet_Record: gamedataTweakDBRecord
 gamedataControlledLootSet_Record = {}

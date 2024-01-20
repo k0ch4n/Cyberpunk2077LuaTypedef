@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionsSequencerControllerPS: MasterControllerPS
 ---@field private sequenceDuration Float

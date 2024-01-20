@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamecarryReplicatedEntitySetAttachmentToEntity: netEntityAttachmentInterface
 ---@field public entity entEntity

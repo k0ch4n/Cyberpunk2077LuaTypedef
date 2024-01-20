@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioBreathingTransitionType: Enum
 ---@field PlayerSpeed Enum 0

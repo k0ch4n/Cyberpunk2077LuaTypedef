@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioSecurityTurretMetadata: audioCustomEmitterMetadata
 ---@field public singleFire CName

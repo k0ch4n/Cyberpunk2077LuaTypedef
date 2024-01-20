@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksTabArrowClickedEvent: redEvent
 ---@field public direction NewPerkTabsArrowDirection

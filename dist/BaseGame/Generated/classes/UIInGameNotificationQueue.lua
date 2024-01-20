@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInGameNotificationQueue: gameuiGenericNotificationGameController
 ---@field private duration Float

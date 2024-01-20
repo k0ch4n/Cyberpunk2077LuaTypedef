@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sphere
 ---@field public CenterRadius2 Vector4

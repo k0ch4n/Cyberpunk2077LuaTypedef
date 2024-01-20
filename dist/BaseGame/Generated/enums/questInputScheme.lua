@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInputScheme: Enum
 ---@field Legacy Enum 0

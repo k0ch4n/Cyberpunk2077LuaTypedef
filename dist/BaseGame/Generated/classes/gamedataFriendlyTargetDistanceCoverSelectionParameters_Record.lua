@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFriendlyTargetDistanceCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataFriendlyTargetDistanceCoverSelectionParameters_Record = {}

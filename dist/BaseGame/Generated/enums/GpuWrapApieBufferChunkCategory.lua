@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApieBufferChunkCategory: Enum
 ---@field BCC_Staging Enum 0

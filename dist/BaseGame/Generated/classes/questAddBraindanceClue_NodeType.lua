@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddBraindanceClue_NodeType: questIUIManagerNodeType
 ---@field public clueName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPanzerHUDGameController: gameuiHUDGameController
 ---@field private vehicle vehicleBaseObject

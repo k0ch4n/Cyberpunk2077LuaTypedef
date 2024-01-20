@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLookAtAction: Enum
 ---@field Nothing Enum 0

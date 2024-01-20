@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_GameplayVo: animAnimEvent
 ---@field public voContext CName

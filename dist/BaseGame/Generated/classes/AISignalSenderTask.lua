@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISignalSenderTask: AIbehaviortaskScript
 ---@field public tags CName[]

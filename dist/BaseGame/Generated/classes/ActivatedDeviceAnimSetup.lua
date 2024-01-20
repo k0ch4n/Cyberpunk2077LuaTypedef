@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceAnimSetup
 ---@field public animationTime Float

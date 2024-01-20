@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayItemCondition: GameplayConditionBase
 ---@field public itemToCheck TweakDBID

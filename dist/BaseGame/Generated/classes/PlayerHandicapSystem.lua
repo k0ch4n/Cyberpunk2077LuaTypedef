@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerHandicapSystem: gameIPlayerHandicapSystem
 ---@field private canDropHealingConsumable Bool

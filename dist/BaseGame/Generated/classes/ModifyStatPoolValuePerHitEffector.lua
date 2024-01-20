@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatPoolValuePerHitEffector: ModifyStatPoolValueEffector
 ---@field public damageScaleFactor Float

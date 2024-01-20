@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class minimapuiELayerType: Enum
 ---@field Floor Enum 0

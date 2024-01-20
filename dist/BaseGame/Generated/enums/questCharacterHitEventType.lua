@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterHitEventType: Enum
 ---@field Bullet Enum 0

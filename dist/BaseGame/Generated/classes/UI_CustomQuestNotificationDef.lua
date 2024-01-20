@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_CustomQuestNotificationDef: gamebbScriptDefinition
 ---@field public data gamebbScriptID_Variant

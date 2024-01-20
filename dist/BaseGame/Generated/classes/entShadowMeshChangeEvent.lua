@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entShadowMeshChangeEvent: redEvent
 ---@field public requestedState entAppearanceStatus

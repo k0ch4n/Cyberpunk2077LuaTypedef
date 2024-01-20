@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_QuaternionJoin: animAnimNode_QuaternionValue
 ---@field public input animQuaternionLink

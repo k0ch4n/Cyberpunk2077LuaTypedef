@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleRadioLogicController: inkWidgetLogicController
 ---@field public isSoundStopped Bool

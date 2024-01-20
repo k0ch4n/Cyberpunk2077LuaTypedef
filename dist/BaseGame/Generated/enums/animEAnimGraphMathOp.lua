@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEAnimGraphMathOp: Enum
 ---@field AGMO_Add Enum 0

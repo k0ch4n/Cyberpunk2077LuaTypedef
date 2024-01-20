@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@alias CDateTime userdata
 ---@alias CGUID userdata

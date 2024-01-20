@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_DOFControl: animAnimFeature
 ---@field public dofIntensity Float

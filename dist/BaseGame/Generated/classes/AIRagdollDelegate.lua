@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIRagdollDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public ragdollInstigator gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Tetrahedron
 ---@field public point1 Vector4

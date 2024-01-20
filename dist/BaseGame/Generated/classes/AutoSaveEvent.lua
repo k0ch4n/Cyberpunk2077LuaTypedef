@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AutoSaveEvent: redEvent
 ---@field public maxAttempts Int32

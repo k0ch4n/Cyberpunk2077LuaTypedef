@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendSpace_InternalsBlendSpace
 ---@field public spaceDimension Uint32

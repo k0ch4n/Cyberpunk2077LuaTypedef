@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehiclePatrolNearbyStrategyRequest: vehicleBaseStrategyRequest
 ---@field public angleRange Vector2

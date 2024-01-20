@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerSetup: TerminalSetup
 ---@field public startingMenu EComputerMenuType

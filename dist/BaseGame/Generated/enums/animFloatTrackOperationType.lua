@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFloatTrackOperationType: Enum
 ---@field Override Enum 0

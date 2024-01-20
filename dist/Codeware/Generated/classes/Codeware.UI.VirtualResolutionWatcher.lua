@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_VirtualResolutionWatcher: userSettingsVarListener
 ---@field public initialized Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@enum entdismembermentGoreTypeE
 entdismembermentGoreTypeE = {

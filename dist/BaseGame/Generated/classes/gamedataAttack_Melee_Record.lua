@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAttack_Melee_Record: gamedataAttack_GameEffect_Record
 gamedataAttack_Melee_Record = {}

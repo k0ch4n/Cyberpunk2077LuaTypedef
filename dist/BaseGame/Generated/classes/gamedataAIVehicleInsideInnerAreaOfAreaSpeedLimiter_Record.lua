@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record: gamedataAIActionSubCondition_Record
 gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record = {}

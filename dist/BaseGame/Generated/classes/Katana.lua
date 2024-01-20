@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Katana: gameweaponObject
 ---@field private bentBulletTemplateName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopTerrainEditToolInfo
 ---@field public defaultHeightmapMode Int32

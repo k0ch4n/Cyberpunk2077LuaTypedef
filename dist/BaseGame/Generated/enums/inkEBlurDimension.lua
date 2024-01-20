@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEBlurDimension: Enum
 ---@field Horizontal Enum 0

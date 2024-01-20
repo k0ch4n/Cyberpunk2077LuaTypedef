@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PathTracingSettings: IAreaSettings
 ---@field public albedoModulation Float

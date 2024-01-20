@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Ik2: animAnimNode_Base
 ---@field public firstBone animTransformIndex

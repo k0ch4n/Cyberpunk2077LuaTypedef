@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileHitEvent: redEvent
 ---@field public hitInstances gameprojectileHitInstance[]

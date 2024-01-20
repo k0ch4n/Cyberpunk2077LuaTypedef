@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhotoModeStickersController: gameuiWidgetGameController
 ---@field public backgroundPrefabRef NodeRef

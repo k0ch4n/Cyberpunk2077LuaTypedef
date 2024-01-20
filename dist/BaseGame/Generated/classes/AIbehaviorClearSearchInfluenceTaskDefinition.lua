@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorClearSearchInfluenceTaskDefinition: AIbehaviorTaskDefinition
 ---@field public clearedAreaRadius AIArgumentMapping

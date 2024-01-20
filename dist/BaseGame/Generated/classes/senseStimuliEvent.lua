@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseStimuliEvent: senseBaseStimuliEvent
 ---@field public sourceObject gameObject

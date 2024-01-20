@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CRenderSimWaterFFT: IDynamicTextureGenerator
 ---@field public windDir Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFollowParams: questAICommandParams
 ---@field public companionRef questUniversalRef

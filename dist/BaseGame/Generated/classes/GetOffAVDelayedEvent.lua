@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetOffAVDelayedEvent: gameScriptableSystemRequest
 ---@field public go gameObject

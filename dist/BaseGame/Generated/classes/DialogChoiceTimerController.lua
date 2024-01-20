@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DialogChoiceTimerController: inkWidgetLogicController
 ---@field public bar inkWidgetReference

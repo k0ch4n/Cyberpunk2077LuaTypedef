@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetScriptExecutionContextEvent: redEvent
 ---@field public scriptExecutionContext AIbehaviorScriptExecutionContext

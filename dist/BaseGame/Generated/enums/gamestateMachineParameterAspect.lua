@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineParameterAspect: Enum
 ---@field Temporary Enum 0

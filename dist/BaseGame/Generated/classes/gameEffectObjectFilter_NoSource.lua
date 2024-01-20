@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_NoSource: gameEffectObjectGroupFilter
 gameEffectObjectFilter_NoSource = {}

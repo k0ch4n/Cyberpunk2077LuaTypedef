@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleDefaultState_Record: gamedataTweakDBRecord
 gamedataVehicleDefaultState_Record = {}

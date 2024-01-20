@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartStationMarker: gameObject
 ---@field protected station ENcartStations

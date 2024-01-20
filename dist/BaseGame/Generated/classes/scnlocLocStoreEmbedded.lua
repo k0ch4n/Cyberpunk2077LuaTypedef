@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnlocLocStoreEmbedded
 ---@field public vdEntries scnlocLocStoreEmbeddedVariantDescriptorEntry[]

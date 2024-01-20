@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questHackingManager_SetEnabled: questHackingManager_ActionType
 ---@field public enabled Bool

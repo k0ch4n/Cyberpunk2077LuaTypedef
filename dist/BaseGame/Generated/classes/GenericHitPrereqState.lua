@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericHitPrereqState: gamePrereqState
 ---@field public listener HitCallback

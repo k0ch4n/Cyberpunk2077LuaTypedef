@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFSMTransitionDefinition
 ---@field public destination Uint16

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameChildEffectsMovingInCone_State
 gameChildEffectsMovingInCone_State = {}

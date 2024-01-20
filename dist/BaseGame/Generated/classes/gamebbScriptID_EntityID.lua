@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamebbScriptID_EntityID: gamebbScriptID
 gamebbScriptID_EntityID = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UiRadialContextEvents: InputContextTransitionEvents
 ---@field public mouse Vector4

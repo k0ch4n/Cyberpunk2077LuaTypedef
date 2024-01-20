@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_PopupButton: Codeware_UI_CustomButton
 ---@field public isFlipped Bool

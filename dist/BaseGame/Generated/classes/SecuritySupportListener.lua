@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecuritySupportListener: AIScriptsTargetTrackingListener
 ---@field public npc ScriptedPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStreamingTestMovePlayerOnSpline_NodeType: questIWorldDataManagerNodeType
 ---@field public splineRef NodeRef

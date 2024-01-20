@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMinimizeCallRequest: gameScriptableSystemRequest
 ---@field public minimized Bool

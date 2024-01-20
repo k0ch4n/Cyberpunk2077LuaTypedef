@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerDeviceBlackboardDef: MasterDeviceBaseBlackboardDef
 ---@field public MailThumbnailWidgetsData gamebbScriptID_Variant

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomWeaponWheelSlot: Enum
 ---@field FreeHands Enum 0

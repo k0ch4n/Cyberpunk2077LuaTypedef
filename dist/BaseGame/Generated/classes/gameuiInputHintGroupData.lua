@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInputHintGroupData
 ---@field public iconReference TweakDBID

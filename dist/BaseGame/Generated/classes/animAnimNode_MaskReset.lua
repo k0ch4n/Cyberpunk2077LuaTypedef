@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MaskReset: animAnimNode_OnePoseInput
 ---@field public weightNode animFloatLink

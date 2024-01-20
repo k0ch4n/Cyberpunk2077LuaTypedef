@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBaseObjectNodeDefinition: questDisableableNodeDefinition
 ---@field public reference NodeRef

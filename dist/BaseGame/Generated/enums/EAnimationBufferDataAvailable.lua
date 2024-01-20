@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAnimationBufferDataAvailable: Enum
 ---@field ABDA_None Enum 0

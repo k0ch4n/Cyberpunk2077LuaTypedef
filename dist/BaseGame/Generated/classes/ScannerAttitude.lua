@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerAttitude: ScannerChunk
 ---@field private attitude EAIAttitude

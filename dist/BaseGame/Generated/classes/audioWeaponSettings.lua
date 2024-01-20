@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponSettings: audioAudioMetadata
 ---@field public bulletType audioWeaponBulletType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetCanGetKilledByDamagePrereqCondition: BaseHitPrereqCondition
 ---@field private lastTarget gameObject

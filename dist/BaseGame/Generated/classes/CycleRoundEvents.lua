@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CycleRoundEvents: WeaponEventsTransition
 ---@field public hasBlockedAiming Bool

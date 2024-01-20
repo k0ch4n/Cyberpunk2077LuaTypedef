@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexPopupData: inkGameNotificationData
 ---@field public entry gameJournalEntry

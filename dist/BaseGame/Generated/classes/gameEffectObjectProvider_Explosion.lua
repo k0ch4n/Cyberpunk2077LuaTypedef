@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_Explosion: gameEffectObjectProvider
 ---@field public puppets Bool

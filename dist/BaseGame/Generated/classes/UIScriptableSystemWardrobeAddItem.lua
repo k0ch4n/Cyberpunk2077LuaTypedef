@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemWardrobeAddItem: gameScriptableSystemRequest
 ---@field public itemID gameItemID

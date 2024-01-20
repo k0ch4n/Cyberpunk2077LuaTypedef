@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CurrencyUpdateCallback: gameInventoryScriptCallback
 ---@field public playerStatsUIHolder PlayerStatsUIHolder

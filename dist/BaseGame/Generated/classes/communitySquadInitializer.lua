@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communitySquadInitializer: communitySpawnInitializer
 ---@field public entries communitySquadInitializerEntry[]

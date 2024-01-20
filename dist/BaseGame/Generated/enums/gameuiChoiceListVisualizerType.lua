@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiChoiceListVisualizerType: Enum
 ---@field Interaction Enum 0

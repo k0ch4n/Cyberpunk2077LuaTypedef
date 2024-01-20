@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCyberspacePixelsortEffectParams
 ---@field public fullscreen Bool

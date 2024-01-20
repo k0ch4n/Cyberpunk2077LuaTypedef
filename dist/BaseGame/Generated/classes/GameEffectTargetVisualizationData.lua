@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameEffectTargetVisualizationData: IScriptable
 ---@field private bucketName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAnimNameType: Enum
 ---@field direct Enum 0

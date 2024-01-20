@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NarrationJournalGameController: gameuiHUDGameController
 ---@field private entriesContainer inkCompoundWidgetReference

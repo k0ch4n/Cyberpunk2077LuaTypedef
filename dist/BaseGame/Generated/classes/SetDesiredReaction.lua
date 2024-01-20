@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDesiredReaction: AIbehaviortaskScript
 ---@field public behaviorArgumentNameTag CName

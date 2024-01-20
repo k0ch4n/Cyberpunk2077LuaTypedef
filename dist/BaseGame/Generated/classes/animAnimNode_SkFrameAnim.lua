@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkFrameAnim: animAnimNode_SkAnim
 ---@field public progressLink animFloatLink

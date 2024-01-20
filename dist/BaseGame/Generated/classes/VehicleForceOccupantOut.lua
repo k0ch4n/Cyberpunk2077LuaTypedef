@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleForceOccupantOut: ActionBool
 ---@field public slotID CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ComputerMenuWidgetController: inkWidgetLogicController
 ---@field protected thumbnailsListWidget inkWidgetReference

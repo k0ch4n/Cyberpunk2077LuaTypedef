@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animRigPartBoneTree
 ---@field public rootBone CName

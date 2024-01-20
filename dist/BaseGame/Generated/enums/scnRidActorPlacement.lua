@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidActorPlacement: Enum
 ---@field SceneOrigin Enum 0

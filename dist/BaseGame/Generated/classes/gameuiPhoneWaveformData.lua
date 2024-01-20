@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhoneWaveformData: IScriptable
 ---@field public points Vector4[]

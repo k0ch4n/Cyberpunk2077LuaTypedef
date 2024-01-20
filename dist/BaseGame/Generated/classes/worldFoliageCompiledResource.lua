@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageCompiledResource: CResource
 ---@field public version Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ATUIComputerTestStepMode: Enum
 ---@field SINGLE_ACTION Enum 0

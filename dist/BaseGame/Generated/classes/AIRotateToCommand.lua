@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIRotateToCommand: AIMoveCommand
 ---@field public target AIPositionSpec

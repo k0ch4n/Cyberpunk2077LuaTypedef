@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationStatsAttributeBtn: inkWidgetLogicController
 ---@field public value inkTextWidgetReference

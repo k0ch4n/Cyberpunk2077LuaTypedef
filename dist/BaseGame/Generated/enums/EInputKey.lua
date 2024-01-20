@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInputKey: Enum
 ---@field IK_None Enum 0

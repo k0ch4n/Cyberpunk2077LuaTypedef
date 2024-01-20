@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VRoomFeed: redEvent
 ---@field public On Bool

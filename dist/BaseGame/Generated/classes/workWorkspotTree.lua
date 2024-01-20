@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotTree: ISerializable
 ---@field public workspotRig animRig

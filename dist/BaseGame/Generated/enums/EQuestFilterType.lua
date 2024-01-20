@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EQuestFilterType: Enum
 ---@field DONT_CHANGE Enum 0

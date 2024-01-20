@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TrajectoryFromMetaPose: animAnimNode_OnePoseInput
 ---@field public metaPoseTrajectoryLs animTransformIndex

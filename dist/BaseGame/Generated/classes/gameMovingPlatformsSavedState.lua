@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformsSavedState: ISerializable
 ---@field public mapping entEntityID[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleControllerPS: gameComponentPS
 ---@field public vehicleDoors vehicleVehicleSlotsState

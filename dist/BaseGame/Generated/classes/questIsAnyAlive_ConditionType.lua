@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIsAnyAlive_ConditionType: questIDynamicSpawnSystemConditionType
 ---@field public waveTag CName

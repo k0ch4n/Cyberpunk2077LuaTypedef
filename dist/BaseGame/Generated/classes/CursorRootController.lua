@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CursorRootController: inkWidgetLogicController
 ---@field public mainCursor inkWidgetReference

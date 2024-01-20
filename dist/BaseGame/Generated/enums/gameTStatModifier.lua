@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTStatModifier: Enum
 ---@field Constant Enum 0

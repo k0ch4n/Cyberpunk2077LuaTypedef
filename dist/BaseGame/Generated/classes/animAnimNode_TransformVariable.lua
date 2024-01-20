@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TransformVariable: animAnimNode_TransformValue
 ---@field public variableName CName

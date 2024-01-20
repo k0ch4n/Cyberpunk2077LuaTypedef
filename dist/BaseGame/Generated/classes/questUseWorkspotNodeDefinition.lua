@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWorkspotNodeDefinition: questAICommandNodeBase
 ---@field public entityReference gameEntityReference

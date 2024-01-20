@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Radio: InteractiveDevice
 ---@field private effectAction ScriptableDeviceAction

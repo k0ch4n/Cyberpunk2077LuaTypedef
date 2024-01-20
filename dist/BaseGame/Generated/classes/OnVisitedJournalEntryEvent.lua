@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnVisitedJournalEntryEvent: redEvent
 ---@field public entry gameJournalEntry

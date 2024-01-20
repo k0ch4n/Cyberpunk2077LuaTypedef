@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataThumbnailWidgetDefinition_Record: gamedataWidgetDefinition_Record
 gamedataThumbnailWidgetDefinition_Record = {}

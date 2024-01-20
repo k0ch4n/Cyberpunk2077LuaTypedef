@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DistrictManager: IScriptable
 ---@field private system PreventionSystem

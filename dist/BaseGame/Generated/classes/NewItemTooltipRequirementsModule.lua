@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipRequirementsModule: NewItemTooltipModuleController
 ---@field private smartlinkGunWrapper inkWidgetReference

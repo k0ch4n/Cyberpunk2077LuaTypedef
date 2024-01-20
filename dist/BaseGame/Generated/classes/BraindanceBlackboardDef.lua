@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BraindanceBlackboardDef: gamebbScriptDefinition
 ---@field public activeBraindanceVisionMode gamebbScriptID_Int32

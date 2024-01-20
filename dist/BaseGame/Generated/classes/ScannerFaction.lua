@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerFaction: ScannerChunk
 ---@field public faction String

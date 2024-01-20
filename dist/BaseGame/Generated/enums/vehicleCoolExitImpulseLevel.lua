@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleCoolExitImpulseLevel: Enum
 ---@field NoExit Enum 0

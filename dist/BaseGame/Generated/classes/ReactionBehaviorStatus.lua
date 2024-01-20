@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReactionBehaviorStatus: redEvent
 ---@field public status AIbehaviorUpdateOutcome

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDeviceWidgetPackage: SWidgetPackage
 ---@field public deviceStatus String

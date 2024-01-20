@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetProficiencyLevel: gamePlayerScriptableSystemRequest
 ---@field public newLevel Int32

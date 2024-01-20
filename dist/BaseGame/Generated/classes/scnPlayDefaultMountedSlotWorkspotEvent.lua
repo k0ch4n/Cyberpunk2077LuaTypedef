@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlayDefaultMountedSlotWorkspotEvent: scnSceneEvent
 ---@field public performer scnPerformerId

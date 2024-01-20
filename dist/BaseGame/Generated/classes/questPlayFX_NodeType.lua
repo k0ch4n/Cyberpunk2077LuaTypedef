@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayFX_NodeType: questIFXManagerNodeType
 ---@field public params questPlayFX_NodeTypeParams[]

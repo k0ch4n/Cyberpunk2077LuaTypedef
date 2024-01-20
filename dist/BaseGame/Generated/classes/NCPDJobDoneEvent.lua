@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NCPDJobDoneEvent: redEvent
 ---@field public levelXPAwarded Int32

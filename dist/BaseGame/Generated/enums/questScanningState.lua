@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questScanningState: Enum
 ---@field NotScanned Enum 0

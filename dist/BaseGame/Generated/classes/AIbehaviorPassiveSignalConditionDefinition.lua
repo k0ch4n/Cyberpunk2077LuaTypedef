@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPassiveSignalConditionDefinition: AIbehaviorPassiveConditionDefinition
 ---@field public tag CName

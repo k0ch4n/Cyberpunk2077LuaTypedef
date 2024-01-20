@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScanningEvent: redEvent
 ---@field public state gameScanningState

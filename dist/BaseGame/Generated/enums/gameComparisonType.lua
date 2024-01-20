@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameComparisonType: Enum
 ---@field EQUAL Enum 0

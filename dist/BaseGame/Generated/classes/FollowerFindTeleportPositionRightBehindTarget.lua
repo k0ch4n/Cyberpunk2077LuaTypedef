@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FollowerFindTeleportPositionRightBehindTarget: AIbehaviortaskScript
 ---@field public target AIArgumentMapping

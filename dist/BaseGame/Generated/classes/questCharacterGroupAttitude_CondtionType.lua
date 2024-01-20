@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterGroupAttitude_CondtionType: questICharacterConditionType
 ---@field public group1Name CName

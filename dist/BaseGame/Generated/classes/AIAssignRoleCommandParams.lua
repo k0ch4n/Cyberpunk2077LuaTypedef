@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAssignRoleCommandParams: questScriptedAICommandParams
 ---@field public role AIRole

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomNotificationEvent: redEvent
 ---@field public header String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiStadiaControllersGameController: gameuiMenuGameController
 ---@field public stadiaControllerPage inkWidgetReference

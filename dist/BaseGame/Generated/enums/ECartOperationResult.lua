@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECartOperationResult: Enum
 ---@field Success Enum 0

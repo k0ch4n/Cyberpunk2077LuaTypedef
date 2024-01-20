@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestroyWeakspot: AIActionHelperTask
 ---@field public weakspotIndex Int32

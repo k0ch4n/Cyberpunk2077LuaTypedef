@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshDistrictRequest: gameScriptableSystemRequest
 ---@field public preventionPreset gamedataDistrictPreventionData_Record

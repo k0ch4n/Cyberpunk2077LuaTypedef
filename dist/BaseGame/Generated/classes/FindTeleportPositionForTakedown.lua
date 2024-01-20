@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FindTeleportPositionForTakedown: AIbehaviorconditionScript
 ---@field public target AIArgumentMapping

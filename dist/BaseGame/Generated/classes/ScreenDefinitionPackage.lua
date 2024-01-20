@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScreenDefinitionPackage
 ---@field public screenDefinition gamedataDeviceUIDefinition_Record

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDynamicReverbType: Enum
 ---@field Dynamic Enum 0

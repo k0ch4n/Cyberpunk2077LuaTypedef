@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SniperNestControllerPS: SensorDeviceControllerPS
 ---@field private vfxNameOnShoot CName

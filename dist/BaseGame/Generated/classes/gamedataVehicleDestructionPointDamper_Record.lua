@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleDestructionPointDamper_Record: gamedataTweakDBRecord
 gamedataVehicleDestructionPointDamper_Record = {}

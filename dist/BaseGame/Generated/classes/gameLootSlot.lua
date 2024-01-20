@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootSlot: gameLootContainerBase
 ---@field public immovableAfterDrop Bool

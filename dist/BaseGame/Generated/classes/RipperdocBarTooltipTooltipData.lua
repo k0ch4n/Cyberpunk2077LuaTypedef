@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocBarTooltipTooltipData: ATooltipData
 ---@field public barType BarType

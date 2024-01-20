@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewCycleEvent: redEvent
 ---@field public cyclesCount Uint16

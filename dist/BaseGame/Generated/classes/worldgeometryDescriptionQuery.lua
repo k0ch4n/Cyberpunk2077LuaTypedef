@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldgeometryDescriptionQuery: IScriptable
 ---@field public refPosition Vector4

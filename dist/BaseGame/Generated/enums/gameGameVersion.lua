@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGameVersion: Enum
 ---@field CP77_Initial Enum 0

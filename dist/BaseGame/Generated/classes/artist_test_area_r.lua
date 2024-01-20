@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class artist_test_area_r: gameuiHUDGameController
 ---@field private rootWidget inkWidget

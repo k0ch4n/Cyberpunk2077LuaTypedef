@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LimfaticNanoChargeSystemEffector: gameContinuousEffector
 ---@field public maxDistance Float

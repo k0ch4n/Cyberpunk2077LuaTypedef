@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListHeaderData: IScriptable
 ---@field public type Int32

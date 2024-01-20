@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsEPredicateType: Enum
 ---@field EPredicateFunction_true Enum 0

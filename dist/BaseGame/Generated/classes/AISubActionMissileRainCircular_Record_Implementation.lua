@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionMissileRainCircular_Record_Implementation: IScriptable
 AISubActionMissileRainCircular_Record_Implementation = {}

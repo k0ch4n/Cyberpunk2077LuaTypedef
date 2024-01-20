@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureComparisonFunction: Enum
 ---@field TCF_None Enum 0

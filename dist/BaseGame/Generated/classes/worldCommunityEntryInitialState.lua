@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCommunityEntryInitialState
 ---@field public entryName CName

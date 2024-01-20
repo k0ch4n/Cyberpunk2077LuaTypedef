@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDelayContext: Enum
 ---@field Standard_TD Enum 1

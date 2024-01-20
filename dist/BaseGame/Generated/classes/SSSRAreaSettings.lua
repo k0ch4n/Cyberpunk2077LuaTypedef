@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SSSRAreaSettings: IAreaSettings
 ---@field public depthFadeStart Float

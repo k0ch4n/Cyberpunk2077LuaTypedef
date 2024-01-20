@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrSlider: attrAttribute
 ---@field public ep Float

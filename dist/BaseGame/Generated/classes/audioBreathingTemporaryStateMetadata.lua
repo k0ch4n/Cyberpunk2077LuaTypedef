@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioBreathingTemporaryStateMetadata: audioAudioMetadata
 ---@field public inhaleSound CName

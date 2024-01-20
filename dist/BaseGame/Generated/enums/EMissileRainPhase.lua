@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMissileRainPhase: Enum
 ---@field Init Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CacheStatusEffectAnimEvent: redEvent
 ---@field public removeCachedStatusEffect Bool

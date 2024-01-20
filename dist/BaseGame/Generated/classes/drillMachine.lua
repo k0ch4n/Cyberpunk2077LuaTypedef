@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class drillMachine: gameweaponObject
 ---@field private rewireComponent RewireComponent

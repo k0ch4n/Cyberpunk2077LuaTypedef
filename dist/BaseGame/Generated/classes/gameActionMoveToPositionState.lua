@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionMoveToPositionState: gameActionReplicatedState
 ---@field public target Vector3

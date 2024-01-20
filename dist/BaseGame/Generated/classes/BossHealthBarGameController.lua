@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BossHealthBarGameController: gameuiHUDGameController
 ---@field private healthControllerRef inkWidgetReference

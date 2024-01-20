@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiUpdateInputHintEvent: redEvent
 ---@field public data gameuiInputHintData

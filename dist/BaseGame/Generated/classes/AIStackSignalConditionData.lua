@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIStackSignalConditionData
 ---@field public callbackId Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldHeatmapLayer: CResource
 ---@field public minValue Uint32

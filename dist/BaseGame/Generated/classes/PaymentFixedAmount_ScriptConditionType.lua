@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PaymentFixedAmount_ScriptConditionType: PaymentConditionTypeBase
 ---@field public payAmount Uint32

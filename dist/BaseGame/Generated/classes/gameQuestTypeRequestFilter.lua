@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameQuestTypeRequestFilter: gameCustomRequestFilter
 ---@field public includeMainQuests Bool

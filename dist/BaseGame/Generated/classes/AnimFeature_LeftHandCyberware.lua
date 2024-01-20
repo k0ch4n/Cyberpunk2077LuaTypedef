@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_LeftHandCyberware: animAnimFeature
 ---@field public actionDuration Float

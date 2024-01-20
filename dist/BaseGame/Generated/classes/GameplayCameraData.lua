@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayCameraData: IScriptable
 ---@field public is_forward_offset Float

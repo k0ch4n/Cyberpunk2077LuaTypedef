@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleGameplayContextDecisions: InputContextTransitionDecisions
 ---@field private callbackID redCallbackObject

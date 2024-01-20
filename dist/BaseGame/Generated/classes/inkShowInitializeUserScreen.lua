@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkShowInitializeUserScreen: IScriptable
 ---@field public show Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioTrack
 ---@field public trackEventName CName

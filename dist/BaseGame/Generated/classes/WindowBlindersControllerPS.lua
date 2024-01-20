@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindowBlindersControllerPS: ScriptableDeviceComponentPS
 ---@field private windowBlindersSkillChecks EngDemoContainer

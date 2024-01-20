@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsShapeType: Enum
 ---@field Box Enum 0

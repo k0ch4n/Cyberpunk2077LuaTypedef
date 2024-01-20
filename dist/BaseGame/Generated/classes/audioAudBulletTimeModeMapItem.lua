@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudBulletTimeModeMapItem: audioAudioMetadata
 ---@field public enterEvent CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftStartDelayEvent: redEvent
 ---@field public targetFloor Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class megatronChargeController: ChargeLogicController
 ---@field private chargeBar inkImageWidget

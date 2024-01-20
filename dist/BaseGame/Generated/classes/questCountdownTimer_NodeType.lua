@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCountdownTimer_NodeType: questIUIManagerNodeType
 ---@field public duration Float

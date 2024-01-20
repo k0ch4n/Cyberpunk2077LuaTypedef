@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMorphTargetMeshBlob: IRenderResourceBlob
 ---@field public header rendRenderMorphTargetMeshBlobHeader

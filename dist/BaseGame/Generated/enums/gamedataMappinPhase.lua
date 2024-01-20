@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinPhase: Enum
 ---@field CompletedPhase Enum 0

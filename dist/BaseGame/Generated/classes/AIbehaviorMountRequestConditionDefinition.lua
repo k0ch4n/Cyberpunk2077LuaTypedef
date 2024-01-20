@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMountRequestConditionDefinition: AIbehaviorConditionDefinition
 ---@field public testMountRequest Bool

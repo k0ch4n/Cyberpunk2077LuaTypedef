@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_Ricochet: gameEffectExecutor
 ---@field public outputRicochetVector gameEffectOutputParameter_Vector

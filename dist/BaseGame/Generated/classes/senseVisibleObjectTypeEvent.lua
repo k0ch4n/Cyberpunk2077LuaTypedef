@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisibleObjectTypeEvent: redEvent
 ---@field public type gamedataSenseObjectType

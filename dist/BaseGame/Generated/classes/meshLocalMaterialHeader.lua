@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshLocalMaterialHeader
 ---@field public offset Uint32

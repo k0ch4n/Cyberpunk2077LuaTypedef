@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FullSystemRestart: ActionBool
 ---@field public restartDuration Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DistrictPrereq: gameIScriptablePrereq
 ---@field private district gamedataDistrict_Record

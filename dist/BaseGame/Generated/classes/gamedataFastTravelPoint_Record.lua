@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFastTravelPoint_Record: gamedataTweakDBRecord
 gamedataFastTravelPoint_Record = {}

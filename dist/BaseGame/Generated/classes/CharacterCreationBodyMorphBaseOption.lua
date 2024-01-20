@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationBodyMorphBaseOption: inkWidgetLogicController
 ---@field protected isPrevOrNextBtnHoveredOver Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForcedVisibilityInAnimSystemData: IScriptable
 ---@field public sourceName CName

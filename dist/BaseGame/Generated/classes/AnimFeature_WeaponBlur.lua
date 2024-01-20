@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponBlur: animAnimFeature
 ---@field public weaponNearPlane Float

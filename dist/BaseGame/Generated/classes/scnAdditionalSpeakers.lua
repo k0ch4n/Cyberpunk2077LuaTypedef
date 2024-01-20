@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAdditionalSpeakers
 ---@field public executionTag Uint8

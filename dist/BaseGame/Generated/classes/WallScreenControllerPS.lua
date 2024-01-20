@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WallScreenControllerPS: TVControllerPS
 ---@field private isShown Bool

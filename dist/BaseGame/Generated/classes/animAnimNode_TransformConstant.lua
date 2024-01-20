@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TransformConstant: animAnimNode_TransformValue
 ---@field public pos Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPhaseStateEventHandlerComponent: AIRelatedComponents
 ---@field public phaseStateValue ENPCPhaseState

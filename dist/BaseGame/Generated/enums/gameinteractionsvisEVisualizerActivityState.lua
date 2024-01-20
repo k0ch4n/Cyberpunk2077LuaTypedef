@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisEVisualizerActivityState: Enum
 ---@field None Enum 0

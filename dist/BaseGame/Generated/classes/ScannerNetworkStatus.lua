@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerNetworkStatus: ScannerChunk
 ---@field private networkStatus ScannerNetworkState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameExistingWorkspotFinisherScenario: gameIFinisherScenario
 ---@field public playerWorkspot workWorkspotResource

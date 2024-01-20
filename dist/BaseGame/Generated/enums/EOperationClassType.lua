@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EOperationClassType: Enum
 ---@field Local Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModeVisualEvent: redEvent
 ---@field public group TweakDBID

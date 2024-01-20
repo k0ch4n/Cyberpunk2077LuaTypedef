@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationSummaryListItem: inkListItemController
 ---@field public headerLabel inkTextWidgetReference

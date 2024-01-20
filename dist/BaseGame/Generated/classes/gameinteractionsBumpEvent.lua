@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsBumpEvent: redEvent
 ---@field public side gameinteractionsBumpSide

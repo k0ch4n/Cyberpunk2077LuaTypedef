@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryStatsEntryController: inkWidgetLogicController
 ---@field protected iconWidget inkImageWidgetReference

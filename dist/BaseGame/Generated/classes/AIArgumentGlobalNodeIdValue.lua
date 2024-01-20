@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArgumentGlobalNodeIdValue: AIArgumentDefinition
 ---@field public type AIArgumentType

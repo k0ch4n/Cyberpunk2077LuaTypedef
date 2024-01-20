@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioMixNodeType: questIAudioNodeType
 ---@field public mixSignpost CName

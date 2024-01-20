@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrenadeAnimFeatureChangeEvent: redEvent
 ---@field public newState Int32

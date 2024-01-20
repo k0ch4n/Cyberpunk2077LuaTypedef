@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWidgetLibraryUnpackedView: ISerializable
 ---@field public libraryItems inkWidgetLibraryItemUnpackedView[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCoverAction: Enum
 ---@field NoAction Enum 0

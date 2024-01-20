@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectsCompiledResource: resStreamedResource
 ---@field public animationDatabase gameSmartObjectAnimationDatabase

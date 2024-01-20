@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameIEffectParameter_CNameEvaluator: ISerializable
 gameIEffectParameter_CNameEvaluator = {}

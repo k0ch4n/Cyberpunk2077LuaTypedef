@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class grsHeistPlayerGameInfo
 ---@field public peerID netPeerID

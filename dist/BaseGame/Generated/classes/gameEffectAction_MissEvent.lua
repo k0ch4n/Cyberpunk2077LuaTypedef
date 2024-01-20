@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectAction_MissEvent: gameEffectAction
 ---@field public npcMissEvents Bool

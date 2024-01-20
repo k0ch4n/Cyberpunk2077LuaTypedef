@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialMenuItemController: inkWidgetLogicController
 ---@field public menuData MenuData

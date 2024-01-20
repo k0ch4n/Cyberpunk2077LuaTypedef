@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseProjectile: gameItemObject
 ---@field protected projectileComponent gameprojectileComponent

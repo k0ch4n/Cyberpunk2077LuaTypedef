@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopDispatchPrefabProxyJobsResult
 ---@field public numProxyJobsDispatched Uint32

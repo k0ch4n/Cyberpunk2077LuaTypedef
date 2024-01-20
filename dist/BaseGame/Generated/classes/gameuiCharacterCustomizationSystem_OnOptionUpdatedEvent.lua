@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationSystem_OnOptionUpdatedEvent: redEvent
 ---@field public option gameuiCharacterCustomizationOption

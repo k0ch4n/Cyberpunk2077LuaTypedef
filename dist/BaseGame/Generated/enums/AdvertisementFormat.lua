@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AdvertisementFormat: Enum
 ---@field Format_0_7x1 Enum 0

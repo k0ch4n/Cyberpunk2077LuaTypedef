@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ENoiseType: Enum
 ---@field NT_Random Enum 0

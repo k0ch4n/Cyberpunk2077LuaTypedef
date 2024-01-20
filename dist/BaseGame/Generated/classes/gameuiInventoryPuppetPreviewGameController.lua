@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInventoryPuppetPreviewGameController: gameuiPuppetPreviewGameController
 ---@field public sceneName CName

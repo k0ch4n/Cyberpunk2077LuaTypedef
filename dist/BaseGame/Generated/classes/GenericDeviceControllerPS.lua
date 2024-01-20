@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field private isRecognizableBySenses Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animTransformLink
 ---@field public node animAnimNode_TransformValue

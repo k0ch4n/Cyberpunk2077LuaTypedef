@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnequipRequest: gamePlayerScriptableSystemRequest
 ---@field public areaType gamedataEquipmentArea

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsStaticCollisionShapeDebugInfo
 ---@field public sourceMeshPathHash Uint64

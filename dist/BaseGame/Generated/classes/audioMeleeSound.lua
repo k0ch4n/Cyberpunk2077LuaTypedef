@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeSound
 ---@field public events audioMeleeEvent[]

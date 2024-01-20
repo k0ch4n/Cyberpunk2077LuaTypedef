@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapContainerController: gameuiMappinsContainerController
 ---@field public settings gameMinimapSettings

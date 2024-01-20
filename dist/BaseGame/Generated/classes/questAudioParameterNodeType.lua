@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioParameterNodeType: questIAudioNodeType
 ---@field public param audioAudParameter

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkQuadShapeWidget: inkBaseShapeWidget
 ---@field public textureAtlas inkTextureAtlas

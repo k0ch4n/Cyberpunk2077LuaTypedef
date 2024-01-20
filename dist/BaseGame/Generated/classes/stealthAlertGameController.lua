@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class stealthAlertGameController: gameuiHUDGameController
 ---@field private label inkTextWidgetReference

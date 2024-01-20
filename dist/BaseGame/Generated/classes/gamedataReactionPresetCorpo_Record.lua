@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataReactionPresetCorpo_Record: gamedataReactionPreset_Record
 gamedataReactionPresetCorpo_Record = {}

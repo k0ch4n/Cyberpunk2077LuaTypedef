@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseGrenade: gameweaponGrenade
 ---@field protected projectileComponent gameprojectileComponent

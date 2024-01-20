@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResolveSensorDeviceBehaviour: redEvent
 ---@field public iteration Int32

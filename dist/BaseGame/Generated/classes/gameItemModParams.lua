@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameItemModParams
 ---@field public itemID gameItemID

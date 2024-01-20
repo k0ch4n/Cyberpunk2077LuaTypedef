@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyMiscAdvancedParams
 ---@field public useLod1 Bool

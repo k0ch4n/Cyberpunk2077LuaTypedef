@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNewPerkCategoryType: Enum
 ---@field MasterNewPerkCategory Enum 0

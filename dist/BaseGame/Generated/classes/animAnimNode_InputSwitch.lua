@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_InputSwitch: animAnimNode_BaseSwitch
 ---@field public selectIntNode animIntLink

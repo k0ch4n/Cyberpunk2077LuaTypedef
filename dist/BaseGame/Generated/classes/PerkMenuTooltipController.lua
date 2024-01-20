@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkMenuTooltipController: AGenericTooltipController
 ---@field protected titleContainer inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_ProceduralDriverCombatData: animAnimFeature
 ---@field public isEnabled Bool

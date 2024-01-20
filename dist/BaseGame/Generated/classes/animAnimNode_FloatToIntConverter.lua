@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatToIntConverter: animAnimNode_IntValue
 ---@field public inputNode animFloatLink

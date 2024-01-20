@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LastHitDataEvent: redEvent
 ---@field public hitReactionBehaviorData HitReactionBehaviorData

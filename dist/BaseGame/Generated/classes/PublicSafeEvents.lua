@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PublicSafeEvents: WeaponEventsTransition
 ---@field public weaponUnequipRequestSent Bool

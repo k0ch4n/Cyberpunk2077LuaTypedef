@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedeviceQuestInfo
 ---@field public isHighlighted Bool

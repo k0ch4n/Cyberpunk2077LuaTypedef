@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalManagerSharedState: gameIGameSystemReplicatedState
 ---@field public entryData gameJournalSharedStateData[]

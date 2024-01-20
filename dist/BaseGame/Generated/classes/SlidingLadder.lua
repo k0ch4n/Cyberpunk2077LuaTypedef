@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SlidingLadder: BaseAnimatedDevice
 ---@field protected offMeshConnectionDown AIOffMeshConnectionComponent

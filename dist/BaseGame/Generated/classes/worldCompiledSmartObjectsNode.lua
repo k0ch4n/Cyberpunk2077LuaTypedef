@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCompiledSmartObjectsNode: worldNode
 ---@field public resource gameSmartObjectsCompiledResource

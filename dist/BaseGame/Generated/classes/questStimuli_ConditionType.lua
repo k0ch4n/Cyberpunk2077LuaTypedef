@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStimuli_ConditionType: questISensesConditionType
 ---@field public instigatorRef gameEntityReference

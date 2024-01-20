@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPeksActiveScreen: Enum
 ---@field Categories Enum 0

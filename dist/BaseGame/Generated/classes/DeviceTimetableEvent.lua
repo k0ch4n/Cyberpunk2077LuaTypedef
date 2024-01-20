@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceTimetableEvent: redEvent
 ---@field public state EDeviceStatus

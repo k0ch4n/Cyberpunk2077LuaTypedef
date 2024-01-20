@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class appearanceAppearanceDefinition: ISerializable
 ---@field public name CName

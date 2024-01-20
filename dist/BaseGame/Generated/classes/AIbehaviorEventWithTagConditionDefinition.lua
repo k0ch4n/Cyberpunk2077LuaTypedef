@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorEventWithTagConditionDefinition: AIbehaviorConditionDefinition
 ---@field public tag CName

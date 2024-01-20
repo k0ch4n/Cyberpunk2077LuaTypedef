@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCOrientedBoxDefinition: gameinteractionsIShapeDefinition
 ---@field public position Vector4

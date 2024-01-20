@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowCustomQuestNotification_NodeType: questIUIManagerNodeType
 ---@field public customQuestNotificationData questCustomQuestNotificationData

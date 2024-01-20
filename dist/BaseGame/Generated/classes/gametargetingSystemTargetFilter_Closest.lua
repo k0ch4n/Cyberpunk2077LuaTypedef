@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemTargetFilter_Closest: gametargetingSystemTargetFilter
 gametargetingSystemTargetFilter_Closest = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareTooltipSlotListItem: AGenericTooltipController
 ---@field private icon inkImageWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMultilayerMaskBlobPS4: rendRenderMultilayerMaskBlob
 rendRenderMultilayerMaskBlobPS4 = {}

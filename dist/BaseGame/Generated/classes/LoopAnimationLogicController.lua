@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LoopAnimationLogicController: inkWidgetLogicController
 ---@field private defaultAnimation CName

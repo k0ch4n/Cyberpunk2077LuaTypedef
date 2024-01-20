@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoiceoverExpression: Enum
 ---@field Vo_Expression_Spoken Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMixingActionType: Enum
 ---@field VoContext Enum 0

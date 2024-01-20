@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameObjectScanStats
 ---@field public scannerData scannerDataStructure

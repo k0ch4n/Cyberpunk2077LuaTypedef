@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingSystem: gameScriptableSystem
 ---@field private lastActionStatus Bool

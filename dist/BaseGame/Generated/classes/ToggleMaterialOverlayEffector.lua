@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleMaterialOverlayEffector: gameEffector
 ---@field private effectPath String

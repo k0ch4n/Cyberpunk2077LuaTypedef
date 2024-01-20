@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionCompleteCommand_Record: gamedataAISubAction_Record
 gamedataAISubActionCompleteCommand_Record = {}

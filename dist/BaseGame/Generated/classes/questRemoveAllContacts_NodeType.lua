@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRemoveAllContacts_NodeType: questIPhoneManagerNodeType
 ---@field public excludedContacts gameJournalPath[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsAccessPointFilter: gameEffectObjectSingleFilter_Scripted
 IsAccessPointFilter = {}

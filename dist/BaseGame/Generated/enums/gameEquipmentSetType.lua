@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEquipmentSetType: Enum
 ---@field Offensive Enum 0

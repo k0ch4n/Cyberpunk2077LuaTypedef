@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorForce: IParticleModificator
 ---@field public pivot Vector3

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioFoliageMaterial
 ---@field public loopStart CName

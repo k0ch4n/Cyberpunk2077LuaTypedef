@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPuppetPreviewCameraController
 ---@field public cameraSetup gameuiPuppetPreviewCameraSetup[]

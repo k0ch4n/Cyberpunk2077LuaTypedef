@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolBasedTimeBankEffector: gameContinuousEffector
 ---@field public TimeBankValue Float

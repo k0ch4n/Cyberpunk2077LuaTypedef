@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElevatorArrowsLogicController: DeviceInkLogicControllerBase
 ---@field private arrow1Widget inkWidgetReference

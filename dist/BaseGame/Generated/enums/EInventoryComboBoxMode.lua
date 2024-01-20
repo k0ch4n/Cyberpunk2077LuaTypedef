@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInventoryComboBoxMode: Enum
 ---@field FromInventory Enum 0

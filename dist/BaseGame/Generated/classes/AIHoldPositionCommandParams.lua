@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHoldPositionCommandParams: questScriptedAICommandParams
 ---@field public duration Float

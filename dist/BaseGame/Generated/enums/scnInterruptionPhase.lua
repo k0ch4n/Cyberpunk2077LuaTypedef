@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnInterruptionPhase: Enum
 ---@field WaitForInterruption Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBriefingSequencePlayerFunction: Enum
 ---@field StartSequence Enum 0

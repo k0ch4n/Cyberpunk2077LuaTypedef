@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HighLevelNPCStatePrereq: NPCStatePrereq
 ---@field public valueToListen gamedataNPCHighLevelState

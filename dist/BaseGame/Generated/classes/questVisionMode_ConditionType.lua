@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVisionMode_ConditionType: questISystemConditionType
 ---@field public timeInterval Float

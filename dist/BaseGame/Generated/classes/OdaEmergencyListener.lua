@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OdaEmergencyListener: gameCustomValueStatPoolsListener
 ---@field public owner NPCPuppet

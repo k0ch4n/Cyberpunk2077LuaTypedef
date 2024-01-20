@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionMoveToWorkspotNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public workspotSetup AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateDebuggerRequest: gameScriptableSystemRequest
 ---@field public system SecuritySystemControllerPS

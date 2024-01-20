@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorFindLaneTaskDefinition: AIbehaviorTaskDefinition
 ---@field public pointOnLane AIArgumentMapping

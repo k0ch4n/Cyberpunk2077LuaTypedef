@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRadioSongNodeType: questIAudioNodeType
 ---@field public radioStationEvents audioRadioStationSongEventStruct[]

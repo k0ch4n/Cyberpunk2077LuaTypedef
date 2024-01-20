@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkRadialWipeEffect: inkIEffect
 ---@field public startAngle Float

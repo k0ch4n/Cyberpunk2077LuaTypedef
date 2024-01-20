@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkMinigameAnimatedElementController: NetworkMinigameElementController
 ---@field protected onConsumeAnimation CName

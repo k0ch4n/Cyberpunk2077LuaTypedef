@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VolCloudsCustomData: ICameraStorageCustomData
 VolCloudsCustomData = {}

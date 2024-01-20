@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkToggleController: inkButtonController
 ---@field public ToggleChanged inkToggleChangedCallback

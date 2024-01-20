@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questdbgCallstackPhase: questdbgCallstackBlock
 ---@field public phases Uint64[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPropertyType: Enum
 ---@field Size Enum 0

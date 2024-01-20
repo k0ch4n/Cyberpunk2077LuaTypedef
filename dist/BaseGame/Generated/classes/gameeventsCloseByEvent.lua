@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsCloseByEvent: redEvent
 ---@field public position Vector4

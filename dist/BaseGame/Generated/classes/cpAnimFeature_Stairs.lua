@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpAnimFeature_Stairs: animAnimFeature
 ---@field public onOff Bool

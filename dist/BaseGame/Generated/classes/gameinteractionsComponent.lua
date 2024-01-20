@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsComponent: entIPlacedComponent
 ---@field public definitionResource gameinteractionsInteractionDescriptorResource

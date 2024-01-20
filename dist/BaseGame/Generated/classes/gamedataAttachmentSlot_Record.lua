@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAttachmentSlot_Record: gamedataTweakDBRecord
 gamedataAttachmentSlot_Record = {}

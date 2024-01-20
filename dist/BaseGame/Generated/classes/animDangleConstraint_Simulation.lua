@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_Simulation: ISerializable
 ---@field public collisionRoundedShapes animCollisionRoundedShape[]

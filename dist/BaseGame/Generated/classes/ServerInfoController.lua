@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ServerInfoController: inkListItemController
 ---@field private settingsListCtrl inkListController

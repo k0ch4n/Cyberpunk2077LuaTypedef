@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIInjectCombatThreatCommand: AICombatRelatedCommand
 ---@field public targetNodeRef NodeRef

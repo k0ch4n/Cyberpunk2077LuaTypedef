@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxWindowsType: Enum
 ---@field SkipWindows Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatVariable: animAnimNode_FloatValue
 ---@field public variableName CName

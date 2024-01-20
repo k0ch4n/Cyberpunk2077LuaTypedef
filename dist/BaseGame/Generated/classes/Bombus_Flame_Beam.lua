@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Bombus_Flame_Beam: gameAttack_Continuous
 Bombus_Flame_Beam = {}

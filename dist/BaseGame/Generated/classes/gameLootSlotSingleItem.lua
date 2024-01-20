@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootSlotSingleItem: gameLootSlot
 ---@field public itemTDBID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class speedometerLogicController: IVehicleModuleController
 ---@field private speedTextWidget inkTextWidgetReference

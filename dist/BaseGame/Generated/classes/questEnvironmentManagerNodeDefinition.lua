@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEnvironmentManagerNodeDefinition: questDisableableNodeDefinition
 ---@field public type questIEnvironmentManagerNodeType

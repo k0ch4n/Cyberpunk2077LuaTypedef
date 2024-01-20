@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkScreenProjection: IScriptable
 ---@field public distanceToCamera Float

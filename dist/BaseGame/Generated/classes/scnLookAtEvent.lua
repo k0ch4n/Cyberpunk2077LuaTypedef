@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnLookAtEvent: scnSceneEvent
 ---@field public basicData scnLookAtBasicEventData

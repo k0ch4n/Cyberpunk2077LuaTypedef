@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_Setup: CResource
 ---@field public layers Multilayer_Layer[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgressBarButton: inkWidgetLogicController
 ---@field protected craftingFill inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStopRecording_NodeType: questIRecordingNodeType
 questStopRecording_NodeType = {}

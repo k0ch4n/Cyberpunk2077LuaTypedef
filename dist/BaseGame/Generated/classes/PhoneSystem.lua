@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneSystem: gameScriptableSystem
 ---@field private BlackboardSystem gameBlackboardSystem

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugPolyMesh: ISerializable
 ---@field public vertices Vector3[]

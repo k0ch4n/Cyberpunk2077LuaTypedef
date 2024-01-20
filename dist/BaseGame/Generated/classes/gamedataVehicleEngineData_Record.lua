@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleEngineData_Record: gamedataTweakDBRecord
 gamedataVehicleEngineData_Record = {}

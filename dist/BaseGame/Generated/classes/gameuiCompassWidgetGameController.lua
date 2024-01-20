@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCompassWidgetGameController: gameuiHUDGameController
 ---@field public compassWidget inkWidgetReference

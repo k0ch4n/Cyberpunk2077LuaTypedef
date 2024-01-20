@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimExternalEvent: redEvent
 ---@field public name CName

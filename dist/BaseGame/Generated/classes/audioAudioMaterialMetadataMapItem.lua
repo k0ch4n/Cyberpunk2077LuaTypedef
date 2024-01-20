@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioMaterialMetadataMapItem: audioAudioMetadata
 ---@field public footstepsMetadata CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileParabolicUnknownVariable: Enum
 ---@field TargetPoint Enum 0

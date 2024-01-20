@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animETransformAxis: Enum
 ---@field X_Axis Enum 1

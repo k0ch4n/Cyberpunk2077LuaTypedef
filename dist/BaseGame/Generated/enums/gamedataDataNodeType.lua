@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDataNodeType: Enum
 ---@field File Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpiderbotOrderDeviceEvent: redEvent
 ---@field public target gameObject

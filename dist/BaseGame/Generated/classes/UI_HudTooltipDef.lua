@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_HudTooltipDef: gamebbScriptDefinition
 ---@field public ItemId gamebbScriptID_Variant

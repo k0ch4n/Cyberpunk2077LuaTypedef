@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataContainerType: Enum
 ---@field AmmoCase Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIArchetype: CResource
 ---@field public behaviorDefinition AIbehaviorParameterizedBehavior

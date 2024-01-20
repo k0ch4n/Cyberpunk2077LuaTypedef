@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FindTeleportPositionKurt: AIbehaviortaskScript
 ---@field public target AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questForceModule_NodeType: questIVisionModeNodeType
 ---@field public params questForceVMModule_NodeTypeParams[]

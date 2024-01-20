@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatToBoolConverter: animAnimNode_BoolValue
 ---@field public inputNode animFloatLink

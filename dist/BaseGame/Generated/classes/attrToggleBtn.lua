@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrToggleBtn: attrAttribute
 ---@field public nLabel String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDrivePatrolUpdate: AIDriveCommandUpdate
 ---@field public numPatrolLoops Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayBinkDeviceOperation: DeviceOperationBase
 ---@field public bink SBinkperationData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIDifficulty: Enum
 ---@field Easy Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVisualControllerDependency
 ---@field public mesh CMesh

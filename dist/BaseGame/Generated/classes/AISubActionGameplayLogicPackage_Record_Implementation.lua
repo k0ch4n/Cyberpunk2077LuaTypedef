@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionGameplayLogicPackage_Record_Implementation: IScriptable
 AISubActionGameplayLogicPackage_Record_Implementation = {}

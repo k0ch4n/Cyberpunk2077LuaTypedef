@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiQuadRacerLogicController: gameuiSideScrollerMiniGameLogicController
 ---@field public endgameDelay Float

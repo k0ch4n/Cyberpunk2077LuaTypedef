@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SequenceVideo
 ---@field public videoPath redResourceReferenceScriptToken

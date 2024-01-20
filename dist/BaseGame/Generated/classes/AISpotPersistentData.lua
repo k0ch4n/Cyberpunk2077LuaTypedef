@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISpotPersistentData
 ---@field public worldPosition WorldPosition

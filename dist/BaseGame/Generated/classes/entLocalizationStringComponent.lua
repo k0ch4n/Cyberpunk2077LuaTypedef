@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entLocalizationStringComponent: entIComponent
 ---@field public Strings entLocalizationStringMapEntry[]

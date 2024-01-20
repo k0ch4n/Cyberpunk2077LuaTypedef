@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SellItemToVendor: ActionBool
 ---@field public itemID gameItemID

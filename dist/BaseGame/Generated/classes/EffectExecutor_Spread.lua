@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_Spread: gameEffectExecutor_Scripted
 ---@field public objectActionRecord gamedataObjectAction_Record

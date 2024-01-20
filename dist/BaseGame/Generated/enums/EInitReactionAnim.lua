@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInitReactionAnim: Enum
 ---@field Shock Enum 0

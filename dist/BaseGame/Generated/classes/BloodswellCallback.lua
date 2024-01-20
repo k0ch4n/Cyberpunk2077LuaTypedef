@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BloodswellCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field private bloodswellEffector BloodswellEffector

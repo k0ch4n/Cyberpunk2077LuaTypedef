@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatProvider: IScriptable
 ---@field private GameItemData gameItemData

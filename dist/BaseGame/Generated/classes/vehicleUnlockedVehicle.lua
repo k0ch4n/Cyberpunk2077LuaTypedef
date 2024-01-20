@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleUnlockedVehicle
 ---@field public vehicleID vehicleGarageVehicleID

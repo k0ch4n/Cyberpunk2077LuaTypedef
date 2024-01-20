@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisassembleItemRequest: gamePlayerScriptableSystemRequest
 ---@field public target gameObject

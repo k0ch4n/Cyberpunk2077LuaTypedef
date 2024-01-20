@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EBOOL: Enum
 ---@field UNINITIALZED Enum 0

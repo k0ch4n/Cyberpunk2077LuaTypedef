@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECooldownGameControllerMode: Enum
 ---@field COOLDOWNS Enum 0

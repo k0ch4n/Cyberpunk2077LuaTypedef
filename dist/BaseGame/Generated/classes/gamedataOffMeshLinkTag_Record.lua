@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataOffMeshLinkTag_Record: gamedataTweakDBRecord
 gamedataOffMeshLinkTag_Record = {}

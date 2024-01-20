@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNodeEditorData: ISerializable
 ---@field public id Uint64

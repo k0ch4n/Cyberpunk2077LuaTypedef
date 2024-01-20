@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDriveToPointEvent: redEvent
 ---@field public targetPos Vector3

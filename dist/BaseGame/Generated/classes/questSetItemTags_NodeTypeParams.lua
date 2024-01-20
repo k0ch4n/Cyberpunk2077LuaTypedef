@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetItemTags_NodeTypeParams
 ---@field public objectRef questUniversalRef

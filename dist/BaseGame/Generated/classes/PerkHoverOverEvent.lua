@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkHoverOverEvent: redEvent
 ---@field public widget inkWidget

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleTrafficSuspension_Record: gamedataTweakDBRecord
 gamedataVehicleTrafficSuspension_Record = {}

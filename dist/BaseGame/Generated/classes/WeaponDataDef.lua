@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponDataDef: gamebbScriptDefinition
 ---@field public Charge gamebbScriptID_Float

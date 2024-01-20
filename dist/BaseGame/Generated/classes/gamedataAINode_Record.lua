@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAINode_Record: gamedataAIRecord_Record
 gamedataAINode_Record = {}

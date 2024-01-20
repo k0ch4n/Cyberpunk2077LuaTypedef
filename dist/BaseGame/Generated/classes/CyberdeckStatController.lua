@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberdeckStatController: inkWidgetLogicController
 ---@field protected label inkTextWidgetReference

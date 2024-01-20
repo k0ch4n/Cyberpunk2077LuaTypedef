@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForcedStateData
 ---@field public state ECLSForcedState

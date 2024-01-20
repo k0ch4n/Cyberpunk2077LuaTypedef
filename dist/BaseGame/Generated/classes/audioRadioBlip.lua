@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioBlip
 ---@field public blipEventName CName

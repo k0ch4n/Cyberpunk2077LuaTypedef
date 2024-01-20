@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScriptableDeviceComponentPS: SharedGameplayPS
 ---@field protected isInitialized Bool

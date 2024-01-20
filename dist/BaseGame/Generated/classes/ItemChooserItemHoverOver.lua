@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemChooserItemHoverOver: redEvent
 ---@field public sourceEvent inkPointerEvent

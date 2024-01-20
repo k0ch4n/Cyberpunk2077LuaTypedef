@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIVendorItemsSoldEvent: redEvent
 ---@field public requestID Int32

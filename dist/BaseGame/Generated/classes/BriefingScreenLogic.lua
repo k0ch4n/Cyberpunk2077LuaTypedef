@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BriefingScreenLogic: inkWidgetLogicController
 ---@field protected lastSizeSet Vector2

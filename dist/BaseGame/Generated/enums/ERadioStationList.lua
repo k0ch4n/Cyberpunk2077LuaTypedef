@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERadioStationList: Enum
 ---@field AGGRO_INDUSTRIAL Enum 0

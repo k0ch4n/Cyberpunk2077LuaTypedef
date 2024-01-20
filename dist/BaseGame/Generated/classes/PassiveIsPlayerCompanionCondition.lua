@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveIsPlayerCompanionCondition: PassiveAutonomousCondition
 ---@field protected roleCbId Uint32

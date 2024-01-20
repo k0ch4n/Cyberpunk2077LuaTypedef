@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MasterControllerPS: ScriptableDeviceComponentPS
 ---@field protected clearance gamedeviceClearance

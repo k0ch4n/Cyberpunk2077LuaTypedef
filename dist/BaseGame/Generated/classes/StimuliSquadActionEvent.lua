@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StimuliSquadActionEvent: senseBaseStimuliEvent
 ---@field public squadActionName CName

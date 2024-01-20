@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArcadeMachineType: Enum
 ---@field Default Enum 0

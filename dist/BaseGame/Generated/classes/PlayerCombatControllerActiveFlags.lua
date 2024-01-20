@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerCombatControllerActiveFlags
 ---@field public crouchActive Bool

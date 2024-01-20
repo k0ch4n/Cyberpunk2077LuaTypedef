@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EParticleEventType: Enum
 ---@field PET_Any Enum 5

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_KillEffect: gameTransformAnimation_Effects
 ---@field public effectTag CName

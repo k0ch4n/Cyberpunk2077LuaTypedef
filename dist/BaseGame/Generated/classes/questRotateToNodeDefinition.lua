@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRotateToNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public entityReference gameEntityReference

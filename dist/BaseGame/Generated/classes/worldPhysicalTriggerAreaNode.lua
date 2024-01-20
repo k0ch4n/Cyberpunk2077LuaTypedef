@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPhysicalTriggerAreaNode: worldNode
 ---@field public simulationType physicsSimulationType

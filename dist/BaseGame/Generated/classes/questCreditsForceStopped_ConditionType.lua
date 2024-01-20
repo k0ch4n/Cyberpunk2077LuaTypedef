@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCreditsForceStopped_ConditionType: questIUIConditionType
 questCreditsForceStopped_ConditionType = {}

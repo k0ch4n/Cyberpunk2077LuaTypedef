@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animGenericAnimDatabase_DatabaseRow
 ---@field public inputValues Int32[]

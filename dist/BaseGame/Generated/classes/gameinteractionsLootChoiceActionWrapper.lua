@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsLootChoiceActionWrapper
 ---@field public removeItem Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class envUtilsNeighborMode: Enum
 ---@field eCLOSEST Enum 0

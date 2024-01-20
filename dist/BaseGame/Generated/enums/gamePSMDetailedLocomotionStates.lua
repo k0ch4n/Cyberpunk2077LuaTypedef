@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMDetailedLocomotionStates: Enum
 ---@field NotInBaseLocomotion Enum 0

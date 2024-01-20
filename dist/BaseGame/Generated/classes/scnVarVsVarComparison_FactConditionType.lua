@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnVarVsVarComparison_FactConditionType: scnInterruptFactConditionType
 ---@field public params scnVarVsVarComparison_FactConditionTypeParams

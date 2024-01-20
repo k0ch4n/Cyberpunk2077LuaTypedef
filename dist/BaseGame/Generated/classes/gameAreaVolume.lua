@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAreaVolume: gameObject
 ---@field public areaData gameAreaData

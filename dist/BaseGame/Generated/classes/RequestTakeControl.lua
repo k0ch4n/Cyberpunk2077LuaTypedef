@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestTakeControl: gameScriptableSystemRequest
 ---@field public requestSource entEntityID

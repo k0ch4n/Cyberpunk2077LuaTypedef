@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescBlendModeFactor: Enum
 ---@field FAC_Zero Enum 0

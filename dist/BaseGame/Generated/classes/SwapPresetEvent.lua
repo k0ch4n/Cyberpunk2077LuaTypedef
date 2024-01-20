@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SwapPresetEvent: redEvent
 ---@field public mappingName String

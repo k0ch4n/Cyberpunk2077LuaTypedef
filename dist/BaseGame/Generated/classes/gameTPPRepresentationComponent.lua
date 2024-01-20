@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTPPRepresentationComponent: entIComponent
 ---@field public detachedObjectInfo gameFppRepDetachedObjectInfo[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSendAICommandNodeDefinition: questAICommandNodeBase
 ---@field public puppet gameEntityReference

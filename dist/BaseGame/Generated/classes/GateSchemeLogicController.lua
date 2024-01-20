@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GateSchemeLogicController: inkWidgetLogicController
 ---@field public sfxFactsSet SoundFxFactsSet

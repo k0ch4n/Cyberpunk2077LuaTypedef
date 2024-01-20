@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RecurrentStimuliEvent: redEvent
 ---@field public requestID StimRequestID

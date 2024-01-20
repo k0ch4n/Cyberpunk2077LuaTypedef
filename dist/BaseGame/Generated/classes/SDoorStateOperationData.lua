@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDoorStateOperationData
 ---@field public state EDoorStatus

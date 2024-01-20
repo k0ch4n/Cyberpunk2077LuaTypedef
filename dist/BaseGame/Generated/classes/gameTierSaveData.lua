@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTierSaveData: ISerializable
 ---@field public globalTiers gameGlobalTierSaveData[]

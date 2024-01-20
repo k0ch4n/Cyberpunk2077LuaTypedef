@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SwitchSeatsEvents: VehicleEventsTransition
 ---@field public workspotSystem gameWorkspotGameSystem

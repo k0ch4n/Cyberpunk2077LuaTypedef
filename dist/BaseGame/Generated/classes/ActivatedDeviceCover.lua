@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceCover: ActivatedDeviceTransfromAnim
 ---@field protected offMeshConnection AIOffMeshConnectionComponent

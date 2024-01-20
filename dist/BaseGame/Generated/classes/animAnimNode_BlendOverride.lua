@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendOverride: animAnimNode_Base
 ---@field public inputNode animPoseLink

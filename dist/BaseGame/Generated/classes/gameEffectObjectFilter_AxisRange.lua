@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_AxisRange: gameEffectObjectSingleFilter
 ---@field public axis gameEffectObjectFilter_AxisRangeAxis

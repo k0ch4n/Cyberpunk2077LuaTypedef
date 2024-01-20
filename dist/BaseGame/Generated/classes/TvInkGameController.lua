@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TvInkGameController: DeviceInkGameControllerBase
 ---@field private defaultUI inkCanvasWidget

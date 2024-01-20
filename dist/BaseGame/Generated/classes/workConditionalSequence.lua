@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workConditionalSequence: workSequence
 ---@field public multipleConditionOperator workLogicalOperation

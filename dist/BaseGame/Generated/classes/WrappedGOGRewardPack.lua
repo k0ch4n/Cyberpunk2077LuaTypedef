@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WrappedGOGRewardPack: IScriptable
 ---@field public index Uint64

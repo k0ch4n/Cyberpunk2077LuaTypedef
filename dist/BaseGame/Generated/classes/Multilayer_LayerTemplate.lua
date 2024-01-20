@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_LayerTemplate: CResource
 ---@field public overrides Multilayer_LayerTemplateOverrides

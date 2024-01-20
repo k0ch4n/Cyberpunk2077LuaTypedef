@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCharacterCustomizationBrokenNoseController: gameuiICharacterCustomizationComponent
 ---@field public stage1App gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance

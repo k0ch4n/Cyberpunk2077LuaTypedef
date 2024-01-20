@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_FootPlant: animAnimEvent
 ---@field public side animEventSide

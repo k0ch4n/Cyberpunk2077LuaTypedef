@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsOperationMode: Enum
 ---@field attachToActor Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FirstEquipDecisions: EquipmentBaseDecisions
 ---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData

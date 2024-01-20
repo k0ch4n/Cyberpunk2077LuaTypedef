@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerStatsListener: gameScriptStatsListener
 ---@field public owner gameObject

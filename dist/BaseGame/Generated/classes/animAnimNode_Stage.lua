@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Stage: animAnimNode_Container
 ---@field public inputPoses animPoseLink[]

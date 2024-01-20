@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactInvokerDataEntry: IScriptable
 ---@field private fact CName

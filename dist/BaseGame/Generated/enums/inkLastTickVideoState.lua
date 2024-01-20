@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLastTickVideoState: Enum
 ---@field NotDrawn Enum 0

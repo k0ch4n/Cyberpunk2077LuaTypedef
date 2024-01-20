@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navPathQueryDebugStatus: Enum
 ---@field InvalidQuery Enum 0

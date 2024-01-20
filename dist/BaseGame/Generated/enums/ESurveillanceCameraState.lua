@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESurveillanceCameraState: Enum
 ---@field Off Enum 0

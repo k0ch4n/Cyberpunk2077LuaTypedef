@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_EntityType: gameEffectObjectGroupFilter
 ---@field public typeFilter gameEffectObjectFilter_EntityTypeEntityTypeFilter

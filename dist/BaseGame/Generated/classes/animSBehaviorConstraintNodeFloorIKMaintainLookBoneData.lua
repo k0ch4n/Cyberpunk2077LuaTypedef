@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSBehaviorConstraintNodeFloorIKMaintainLookBoneData
 ---@field public bone CName

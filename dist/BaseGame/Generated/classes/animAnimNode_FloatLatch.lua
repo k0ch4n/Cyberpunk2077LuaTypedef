@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatLatch: animAnimNode_FloatValue
 ---@field public input animFloatLink

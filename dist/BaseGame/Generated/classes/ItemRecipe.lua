@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemRecipe
 ---@field public targetItem TweakDBID

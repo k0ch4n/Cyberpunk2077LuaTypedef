@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionStatusEffect_Record_Implementation: IScriptable
 AISubActionStatusEffect_Record_Implementation = {}

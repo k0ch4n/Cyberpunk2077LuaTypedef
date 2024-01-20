@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAchievement: Enum
 ---@field AllThePresidentsMen Enum 0

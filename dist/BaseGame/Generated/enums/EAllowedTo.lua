@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAllowedTo: Enum
 ---@field UNDEFINED Enum 0

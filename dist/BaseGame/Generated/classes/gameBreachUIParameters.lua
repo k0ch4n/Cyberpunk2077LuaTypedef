@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBreachUIParameters: IScriptable
 ---@field public trackingChange gameBreachUITrackingChange

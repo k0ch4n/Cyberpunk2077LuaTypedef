@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPhysicalPropSettings: audioAudioMetadata
 ---@field public shockwaveSound CName

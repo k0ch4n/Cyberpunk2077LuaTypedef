@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnDialogLineVisualStyle: Enum
 ---@field regular Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StopAndPlayVFXEffector: gameEffector
 ---@field public vfxToStop CName

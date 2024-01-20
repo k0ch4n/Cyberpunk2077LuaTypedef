@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorTryGetChasePointTaskDefinition: AIbehaviorTaskDefinition
 ---@field public inPlayerPositionDelay AIArgumentMapping

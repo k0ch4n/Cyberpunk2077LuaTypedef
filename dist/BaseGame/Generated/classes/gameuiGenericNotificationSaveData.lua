@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGenericNotificationSaveData: gameuiBaseUIData
 ---@field public notificationsData gameuiGenericNotificationData[]

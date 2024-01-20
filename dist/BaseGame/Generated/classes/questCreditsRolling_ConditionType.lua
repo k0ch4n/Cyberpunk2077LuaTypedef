@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCreditsRolling_ConditionType: questIUIConditionType
 questCreditsRolling_ConditionType = {}

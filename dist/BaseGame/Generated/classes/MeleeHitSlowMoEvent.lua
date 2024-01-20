@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeHitSlowMoEvent: redEvent
 ---@field public isStrongAttack Bool

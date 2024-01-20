@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsLayerActivatedPredicate: gameinteractionsIPredicateType
 ---@field public linkedLayersName CName

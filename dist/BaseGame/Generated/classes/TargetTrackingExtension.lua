@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetTrackingExtension: AITargetTrackerComponent
 ---@field private trackedCombatSquads AICombatSquadScriptInterface[]

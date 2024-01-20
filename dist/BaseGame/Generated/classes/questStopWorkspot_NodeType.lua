@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStopWorkspot_NodeType: questIBehaviourManager_NodeType
 ---@field public allowCurrAnimToFinish Bool

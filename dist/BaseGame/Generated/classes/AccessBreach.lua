@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AccessBreach: PuppetAction
 ---@field public attempt Int32

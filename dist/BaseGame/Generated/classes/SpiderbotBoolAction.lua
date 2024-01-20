@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpiderbotBoolAction: ActionBool
 ---@field protected TrueRecord String

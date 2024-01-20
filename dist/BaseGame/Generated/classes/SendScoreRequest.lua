@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SendScoreRequest: gameScriptableSystemRequest
 ---@field public score Int32

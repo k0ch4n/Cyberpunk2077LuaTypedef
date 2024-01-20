@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CoverActionDataDef: gamebbScriptDefinition
 ---@field public coverActionStateId gamebbScriptID_Int32

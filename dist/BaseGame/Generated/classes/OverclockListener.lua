@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OverclockListener: gameScriptStatusEffectListener
 ---@field private healthBar gameuiHudHealthbarGameController

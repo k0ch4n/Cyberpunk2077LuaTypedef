@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DifficultySelectionMenu: gameuiBaseCharacterCreationController
 ---@field public difficultyTitle inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnEndNode: scnSceneGraphNode
 ---@field public type scnEndNodeNsType

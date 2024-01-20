@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimProfilerData_TimingsDetailedRoot: ISerializable
 ---@field public sections animAnimProfilerData_SectionTimings[]

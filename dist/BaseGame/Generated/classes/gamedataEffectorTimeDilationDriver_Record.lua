@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataEffectorTimeDilationDriver_Record: gamedataTweakDBRecord
 gamedataEffectorTimeDilationDriver_Record = {}

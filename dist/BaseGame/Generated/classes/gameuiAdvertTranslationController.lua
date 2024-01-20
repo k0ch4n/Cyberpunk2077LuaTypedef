@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiAdvertTranslationController: gameuiWidgetGameController
 ---@field public advertText inkTextWidgetReference

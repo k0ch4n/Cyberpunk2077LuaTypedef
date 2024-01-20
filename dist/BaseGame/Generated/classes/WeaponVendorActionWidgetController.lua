@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponVendorActionWidgetController: DeviceActionWidgetControllerBase
 ---@field protected buttonText inkTextWidgetReference

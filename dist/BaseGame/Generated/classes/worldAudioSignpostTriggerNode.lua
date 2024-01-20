@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAudioSignpostTriggerNode: worldTriggerAreaNode
 ---@field public enterSignpost CName

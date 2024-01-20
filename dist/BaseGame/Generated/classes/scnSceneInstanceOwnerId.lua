@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneInstanceOwnerId
 ---@field public hash Uint64

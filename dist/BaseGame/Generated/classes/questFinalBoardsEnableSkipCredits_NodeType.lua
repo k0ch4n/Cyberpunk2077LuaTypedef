@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFinalBoardsEnableSkipCredits_NodeType: questIUIManagerNodeType
 ---@field public enableSkipping Bool

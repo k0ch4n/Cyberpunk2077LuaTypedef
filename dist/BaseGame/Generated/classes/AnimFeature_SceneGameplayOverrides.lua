@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SceneGameplayOverrides: animAnimFeature
 ---@field public aimForced Bool

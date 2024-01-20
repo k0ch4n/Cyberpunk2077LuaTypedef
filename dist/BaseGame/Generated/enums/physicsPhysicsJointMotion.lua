@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointMotion: Enum
 ---@field Locked Enum 0

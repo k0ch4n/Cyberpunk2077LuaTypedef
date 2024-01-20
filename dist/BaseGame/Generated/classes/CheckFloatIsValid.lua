@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckFloatIsValid: AIbehaviorconditionScript
 ---@field public actionTweakIDMapping AIArgumentMapping

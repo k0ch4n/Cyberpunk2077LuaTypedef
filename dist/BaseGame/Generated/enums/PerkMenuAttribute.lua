@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkMenuAttribute: Enum
 ---@field Body Enum 0

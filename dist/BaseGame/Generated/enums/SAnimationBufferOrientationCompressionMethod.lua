@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAnimationBufferOrientationCompressionMethod: Enum
 ---@field ABOCM_PackIn64bitsW Enum 0

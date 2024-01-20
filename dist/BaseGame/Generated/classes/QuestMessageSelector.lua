@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestMessageSelector: ScreenMessageSelector
 ---@field private recordID TweakDBID

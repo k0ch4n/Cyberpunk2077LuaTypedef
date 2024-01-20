@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexListVirtualEntry: inkVirtualCompoundItemController
 ---@field protected title inkTextWidgetReference

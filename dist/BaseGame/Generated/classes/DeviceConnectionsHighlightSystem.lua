@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceConnectionsHighlightSystem: gameScriptableSystem
 ---@field private highlightedDeviceID entEntityID

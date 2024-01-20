@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBlackboardSerializableID
 ---@field public blackboardName CName

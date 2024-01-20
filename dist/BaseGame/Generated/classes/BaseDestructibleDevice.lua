@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseDestructibleDevice: Device
 ---@field protected minTime Float

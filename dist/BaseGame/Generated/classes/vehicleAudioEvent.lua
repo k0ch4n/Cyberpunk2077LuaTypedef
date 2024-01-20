@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAudioEvent: redEvent
 ---@field public action vehicleAudioEventAction

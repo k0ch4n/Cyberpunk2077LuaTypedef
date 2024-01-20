@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugContourSet
 ---@field public contours navgendebugCompactContour[]

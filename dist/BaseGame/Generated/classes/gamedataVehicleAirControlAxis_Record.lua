@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleAirControlAxis_Record: gamedataTweakDBRecord
 gamedataVehicleAirControlAxis_Record = {}

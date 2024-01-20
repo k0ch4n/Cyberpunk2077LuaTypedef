@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponPositionComponent: gameScriptableComponent
 ---@field private playerPuppet PlayerPuppet

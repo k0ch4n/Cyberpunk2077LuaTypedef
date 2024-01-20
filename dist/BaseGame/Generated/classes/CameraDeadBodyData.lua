@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraDeadBodyData: IScriptable
 ---@field public dataType EGameSessionDataType

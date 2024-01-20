@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ObjectMoverStatus: redEvent
 ---@field public ownerName CName

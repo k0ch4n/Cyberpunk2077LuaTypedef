@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeaponFxPackage_Record: gamedataTweakDBRecord
 gamedataWeaponFxPackage_Record = {}

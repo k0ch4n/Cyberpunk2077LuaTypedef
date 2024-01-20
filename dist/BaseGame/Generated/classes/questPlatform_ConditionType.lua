@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlatform_ConditionType: questISystemConditionType
 ---@field public platform questPlatform

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_IntEdgeGreaterFromZeroFeature: animAnimStateTransitionCondition_IntEdgeFeature
 ---@field public greaterThenValue Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMountEventOptions: IScriptable
 ---@field public silentUnmount Bool

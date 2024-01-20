@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldMirrorNode: worldMeshNode
 ---@field public cullingBoxExtents Vector3

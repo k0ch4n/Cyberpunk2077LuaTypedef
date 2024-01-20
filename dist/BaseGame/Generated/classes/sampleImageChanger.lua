@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleImageChanger: inkWidgetLogicController
 ---@field public imagePath CName

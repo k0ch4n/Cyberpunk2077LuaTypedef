@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPlayerBuild: Enum
 ---@field Cool Enum 0

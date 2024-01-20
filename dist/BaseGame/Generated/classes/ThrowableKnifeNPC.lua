@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowableKnifeNPC: BaseProjectile
 ---@field private visualComponent entIComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerDoor: Door
 ---@field private loudAnnouncementOpenSoundName CName

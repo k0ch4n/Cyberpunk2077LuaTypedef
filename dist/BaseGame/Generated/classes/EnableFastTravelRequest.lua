@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EnableFastTravelRequest: gameScriptableSystemRequest
 ---@field public isEnabled Bool

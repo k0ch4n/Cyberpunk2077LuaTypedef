@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTargetingQueryRange_NodeType: questISceneManagerNodeType
 ---@field public targetingQueryRange Float

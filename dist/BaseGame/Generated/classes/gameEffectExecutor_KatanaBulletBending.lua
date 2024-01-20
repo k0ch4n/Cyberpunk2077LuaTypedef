@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_KatanaBulletBending: gameEffectExecutor_Scripted
 ---@field public effects gameEffectExecutor_KatanaBulletBendingEffectEntry[]

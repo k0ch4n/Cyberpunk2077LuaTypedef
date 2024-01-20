@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SnapToTargetExecutor: gameEffectExecutor_Scripted
 SnapToTargetExecutor = {}

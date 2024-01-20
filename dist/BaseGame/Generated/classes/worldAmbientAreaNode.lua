@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAmbientAreaNode: worldTriggerAreaNode
 ---@field public useCustomColor Bool

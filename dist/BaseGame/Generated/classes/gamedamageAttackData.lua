@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedamageAttackData: IScriptable
 ---@field public attackType gamedataAttackType

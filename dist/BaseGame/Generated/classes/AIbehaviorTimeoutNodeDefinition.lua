@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorTimeoutNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public time AIArgumentMapping

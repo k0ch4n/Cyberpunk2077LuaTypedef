@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECustomFilterDPadNavigationOption: Enum
 ---@field SelectNext Enum 0

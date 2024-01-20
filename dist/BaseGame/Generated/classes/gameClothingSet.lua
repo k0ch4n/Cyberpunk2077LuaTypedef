@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameClothingSet: IScriptable
 ---@field public setID gameWardrobeClothingSetIndex

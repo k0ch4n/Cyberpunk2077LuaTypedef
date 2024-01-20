@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Retarget: animAnimNode_OnePoseInput
 ---@field public refRig animRig

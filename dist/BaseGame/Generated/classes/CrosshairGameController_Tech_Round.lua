@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Tech_Round: BaseTechCrosshairController
 ---@field private root inkWidget

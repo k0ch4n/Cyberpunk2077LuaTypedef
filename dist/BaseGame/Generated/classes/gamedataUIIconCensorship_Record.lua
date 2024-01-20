@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUIIconCensorship_Record: gamedataTweakDBRecord
 gamedataUIIconCensorship_Record = {}

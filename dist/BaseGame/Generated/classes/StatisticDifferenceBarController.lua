@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatisticDifferenceBarController: inkWidgetLogicController
 ---@field private filled inkWidgetReference

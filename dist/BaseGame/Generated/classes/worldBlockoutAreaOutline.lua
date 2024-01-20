@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBlockoutAreaOutline: ISerializable
 ---@field public points Uint32[]

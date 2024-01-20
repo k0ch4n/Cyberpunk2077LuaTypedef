@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgramEffect: Enum
 ---@field GrantAccess Enum 0

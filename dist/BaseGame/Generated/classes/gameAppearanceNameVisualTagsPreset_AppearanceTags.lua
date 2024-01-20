@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAppearanceNameVisualTagsPreset_AppearanceTags: ISerializable
 ---@field public appearanceName CName

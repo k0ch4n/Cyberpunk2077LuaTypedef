@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneDialerLogicController: inkWidgetLogicController
 ---@field public tabsContainer inkWidgetReference

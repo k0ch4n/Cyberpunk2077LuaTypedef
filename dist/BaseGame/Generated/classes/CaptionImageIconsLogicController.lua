@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CaptionImageIconsLogicController: inkWidgetLogicController
 ---@field private GenericIcon inkImageWidgetReference

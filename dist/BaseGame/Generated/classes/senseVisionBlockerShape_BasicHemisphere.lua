@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisionBlockerShape_BasicHemisphere: senseIVisionBlockerShape
 senseVisionBlockerShape_BasicHemisphere = {}

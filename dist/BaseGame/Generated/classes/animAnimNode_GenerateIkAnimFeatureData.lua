@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_GenerateIkAnimFeatureData: animAnimNode_OnePoseInput
 ---@field public ikChainSettings animIKChainSettings[]

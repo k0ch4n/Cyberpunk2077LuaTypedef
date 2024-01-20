@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerVehicleMass: ScannerChunk
 ---@field private mass Int32

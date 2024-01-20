@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckCurrentHitReaction: HitConditions
 ---@field public HitReactionTypeToCompare animHitReactionType

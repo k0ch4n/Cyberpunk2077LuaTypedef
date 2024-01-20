@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCrowdTemplateEntry
 ---@field public entryName CName

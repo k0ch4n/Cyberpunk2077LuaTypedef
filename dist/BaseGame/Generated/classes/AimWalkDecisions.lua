@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AimWalkDecisions: LocomotionGroundDecisions
 ---@field public callbackIDs redCallbackObject[]

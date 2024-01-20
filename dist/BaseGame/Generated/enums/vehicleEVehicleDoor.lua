@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleEVehicleDoor: Enum
 ---@field seat_front_left Enum 0

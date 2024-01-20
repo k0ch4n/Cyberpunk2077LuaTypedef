@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InvestedPerksPrereq: gameIScriptablePrereq
 ---@field public amount Int32

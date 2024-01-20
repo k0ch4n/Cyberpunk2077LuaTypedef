@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PointData: IScriptable
 ---@field public position Vector4

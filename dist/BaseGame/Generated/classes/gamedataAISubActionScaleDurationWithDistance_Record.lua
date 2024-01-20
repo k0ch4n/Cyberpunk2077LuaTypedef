@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionScaleDurationWithDistance_Record: gamedataAISubAction_Record
 gamedataAISubActionScaleDurationWithDistance_Record = {}

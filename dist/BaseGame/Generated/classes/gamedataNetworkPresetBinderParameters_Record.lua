@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNetworkPresetBinderParameters_Record: gamedataTweakDBRecord
 gamedataNetworkPresetBinderParameters_Record = {}

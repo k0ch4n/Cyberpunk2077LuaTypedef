@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animVectorCoordinateType: Enum
 ---@field X Enum 0

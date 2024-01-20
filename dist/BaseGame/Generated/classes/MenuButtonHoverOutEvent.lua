@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuButtonHoverOutEvent: redEvent
 ---@field public buttonId Int32

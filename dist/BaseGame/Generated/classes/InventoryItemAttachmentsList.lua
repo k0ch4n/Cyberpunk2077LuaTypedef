@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemAttachmentsList: inkWidgetLogicController
 ---@field private libraryItemName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropdownItemDirection: Enum
 ---@field None Enum 0

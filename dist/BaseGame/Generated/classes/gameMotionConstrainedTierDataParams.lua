@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMotionConstrainedTierDataParams
 ---@field public splineRef NodeRef

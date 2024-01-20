@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScriptedReactionSystem: gameScriptableSystem
 ---@field private fleeingNPCs Int32

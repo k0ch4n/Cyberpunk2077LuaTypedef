@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TakedownSlideToPreyDecisions: LocomotionTakedownDecisions
 ---@field public stateMachineInitData LocomotionTakedownInitData

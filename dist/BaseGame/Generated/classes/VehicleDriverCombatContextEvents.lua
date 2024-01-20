@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDriverCombatContextEvents: InputContextTransitionEvents
 ---@field protected weapon gameweaponObject

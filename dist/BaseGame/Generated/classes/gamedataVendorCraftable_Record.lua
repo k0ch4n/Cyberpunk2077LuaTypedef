@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVendorCraftable_Record: gamedataVendorWare_Record
 gamedataVendorCraftable_Record = {}

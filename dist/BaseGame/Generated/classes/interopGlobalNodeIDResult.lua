@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopGlobalNodeIDResult
 ---@field public errorMessage String

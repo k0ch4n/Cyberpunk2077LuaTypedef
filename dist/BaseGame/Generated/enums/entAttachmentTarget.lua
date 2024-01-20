@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAttachmentTarget: Enum
 ---@field Transform Enum 0

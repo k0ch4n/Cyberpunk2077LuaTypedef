@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsDamageBlockedByNanoTechPlatesEvent: redEvent
 ---@field public hitEvent gameeventsHitEvent

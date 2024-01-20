@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsFractureFieldEffect: Enum
 ---@field FE_Fracture Enum 0

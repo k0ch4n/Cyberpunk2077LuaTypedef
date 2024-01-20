@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopTerrainEditToolCreationSlotInfo
 ---@field public scale Vector2

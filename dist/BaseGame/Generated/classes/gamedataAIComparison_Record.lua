@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIComparison_Record: gamedataTweakDBRecord
 gamedataAIComparison_Record = {}

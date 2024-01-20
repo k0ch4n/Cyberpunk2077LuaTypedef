@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayRoleComponent: gameScriptableComponent
 ---@field private gameplayRole EGameplayRole

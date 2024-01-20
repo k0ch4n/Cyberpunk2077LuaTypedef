@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HealthConsumable: gameCpoPickableItem
 ---@field private interactionComponent gameinteractionsComponent

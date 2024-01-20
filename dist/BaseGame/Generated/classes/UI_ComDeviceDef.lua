@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_ComDeviceDef: gamebbScriptDefinition
 ---@field public comDeviceSetStatusText gamebbScriptID_CName

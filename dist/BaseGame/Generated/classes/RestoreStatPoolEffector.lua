@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RestoreStatPoolEffector: gameEffector
 ---@field public statPoolType gamedataStatPoolType

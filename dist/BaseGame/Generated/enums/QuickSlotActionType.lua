@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotActionType: Enum
 ---@field Undefined Enum 0

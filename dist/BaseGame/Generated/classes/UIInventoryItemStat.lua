@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemStat: IScriptable
 ---@field public Type gamedataStatType

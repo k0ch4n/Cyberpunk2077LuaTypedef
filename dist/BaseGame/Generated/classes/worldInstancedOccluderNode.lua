@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldInstancedOccluderNode: worldNode
 ---@field public worldBounds Box

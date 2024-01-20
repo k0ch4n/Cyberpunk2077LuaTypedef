@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterHairParameters: CMaterialParameter
 ---@field public hairProfile CHairProfile

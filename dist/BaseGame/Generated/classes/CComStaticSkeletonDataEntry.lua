@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CComStaticSkeletonDataEntry
 ---@field public boneIndex Int32

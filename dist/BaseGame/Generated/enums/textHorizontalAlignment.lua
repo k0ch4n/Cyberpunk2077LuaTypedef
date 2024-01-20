@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class textHorizontalAlignment: Enum
 ---@field Left Enum 0

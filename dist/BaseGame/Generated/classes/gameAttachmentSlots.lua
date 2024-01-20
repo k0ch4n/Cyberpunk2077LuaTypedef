@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttachmentSlots: entIComponent
 ---@field public animParams gameAnimParamSlotsOption[]

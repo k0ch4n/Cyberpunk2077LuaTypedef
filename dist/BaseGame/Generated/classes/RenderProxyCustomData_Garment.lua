@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RenderProxyCustomData_Garment: IRenderProxyCustomData
 RenderProxyCustomData_Garment = {}

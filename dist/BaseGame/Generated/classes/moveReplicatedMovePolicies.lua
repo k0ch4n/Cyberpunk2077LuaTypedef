@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveReplicatedMovePolicies: entReplicatedItem
 ---@field public key Uint64

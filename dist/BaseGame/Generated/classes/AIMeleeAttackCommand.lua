@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMeleeAttackCommand: AICombatRelatedCommand
 ---@field public targetOverrideNodeRef NodeRef

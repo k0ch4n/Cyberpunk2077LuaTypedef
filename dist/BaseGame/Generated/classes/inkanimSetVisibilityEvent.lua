@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimSetVisibilityEvent: inkanimEvent
 ---@field public isVisible Bool

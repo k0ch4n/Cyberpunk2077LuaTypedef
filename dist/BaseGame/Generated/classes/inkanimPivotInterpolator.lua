@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPivotInterpolator: inkanimInterpolator
 ---@field public startValue Vector2

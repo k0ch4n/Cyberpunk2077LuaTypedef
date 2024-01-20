@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInputHintGroup_NodeType: questIUIManagerNodeType
 ---@field public show Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyStatusEffectDeviceOperation: DeviceOperationBase
 ---@field public statusEffects SStatusEffectOperationData[]

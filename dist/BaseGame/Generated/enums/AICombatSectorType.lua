@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICombatSectorType: Enum
 ---@field ToBackLeft Enum 0

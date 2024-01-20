@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCleanupNotifications_NodeType: questIUIManagerNodeType
 questCleanupNotifications_NodeType = {}

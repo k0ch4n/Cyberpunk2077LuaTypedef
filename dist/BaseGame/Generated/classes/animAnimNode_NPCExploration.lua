@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_NPCExploration: animAnimNode_Base
 animAnimNode_NPCExploration = {}

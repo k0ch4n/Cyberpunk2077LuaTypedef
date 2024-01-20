@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entBaseCameraComponent: entIPlacedComponent
 ---@field public fov Float

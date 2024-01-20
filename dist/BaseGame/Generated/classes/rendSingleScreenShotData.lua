@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendSingleScreenShotData: ISerializable
 ---@field public mode rendScreenshotMode

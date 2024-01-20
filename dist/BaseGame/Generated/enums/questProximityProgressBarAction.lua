@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questProximityProgressBarAction: Enum
 ---@field Activated Enum 0

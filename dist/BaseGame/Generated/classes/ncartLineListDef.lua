@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ncartLineListDef
 ---@field public lineNumber Uint32

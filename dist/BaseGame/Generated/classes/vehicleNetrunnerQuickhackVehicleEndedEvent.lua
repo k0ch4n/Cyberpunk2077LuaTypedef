@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleNetrunnerQuickhackVehicleEndedEvent: redEvent
 ---@field public vehicleNetrunnerQuickhackType vehicleVehicleNetrunnerQuickhackType

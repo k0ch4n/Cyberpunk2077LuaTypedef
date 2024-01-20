@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVoiceContextMap: audioAudioMetadata
 ---@field public includes CName[]

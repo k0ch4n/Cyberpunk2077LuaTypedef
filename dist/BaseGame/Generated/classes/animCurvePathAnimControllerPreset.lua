@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animCurvePathAnimControllerPreset
 ---@field public name CName

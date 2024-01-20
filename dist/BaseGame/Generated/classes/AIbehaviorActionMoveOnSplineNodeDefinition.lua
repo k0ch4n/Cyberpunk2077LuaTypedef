@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionMoveOnSplineNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public spline AIArgumentMapping

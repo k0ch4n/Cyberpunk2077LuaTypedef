@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsMappinComponent: entIPlacedComponent
 ---@field public data gamemappinsMappinData

@@ -1,5 +1,4 @@
----@meta IconGlyphs
----@diagnostic disable
+---@meta
 
 IconGlyphs = {
     AbTesting = "\u{f01c9}",                              -- U+F01C9 ab-testing, tags: Developer / Languages

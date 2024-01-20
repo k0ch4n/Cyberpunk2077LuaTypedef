@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PartInstallRequest: gamePlayerScriptableSystemRequest
 ---@field public itemID gameItemID

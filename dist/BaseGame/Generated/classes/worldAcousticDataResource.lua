@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAcousticDataResource: resStreamedResource
 ---@field public cells worldAcousticDataCell[]

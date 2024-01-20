@@ -1,5 +1,4 @@
----@meta TweakDB
----@diagnostic disable
+---@meta
 
 ---
 ---[View documents](https://wiki.redmodding.org/cyber-engine-tweaks/cet-functions/tweakdb)

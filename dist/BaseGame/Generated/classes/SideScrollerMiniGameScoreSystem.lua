@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SideScrollerMiniGameScoreSystem: gameScriptableSystem
 ---@field private scoreData Int32[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformMovementInitializationType: Enum
 ---@field Time Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHudSafezonesEditorGameController: gameuiMenuGameController
 ---@field public rootWidget inkCompoundWidgetReference

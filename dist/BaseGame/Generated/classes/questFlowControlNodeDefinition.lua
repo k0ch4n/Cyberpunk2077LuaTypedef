@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questFlowControlNodeDefinition: questDisableableNodeDefinition
 ---@field public isOpen Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataObjectActionCost_Record: gamedataTweakDBRecord
 gamedataObjectActionCost_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JournalEntryNotificationRemoveRequestData: IScriptable
 ---@field public entryHash Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SurveillanceCameraResaveData
 ---@field public shouldRotate Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OvershieldListener: gameScriptStatPoolsListener
 ---@field private healthBar gameuiHudHealthbarGameController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_RotateOnAxisAxis: Enum
 ---@field X Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindowBlindersReplicatedState: gameDeviceReplicatedState
 ---@field public isOpen Bool

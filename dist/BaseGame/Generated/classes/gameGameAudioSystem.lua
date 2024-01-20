@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGameAudioSystem: gameIGameAudioSystem
 ---@field private enemyPingStimCount Uint8

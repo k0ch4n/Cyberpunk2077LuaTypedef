@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModuleEvent: redEvent
 ---@field public changedModule CName

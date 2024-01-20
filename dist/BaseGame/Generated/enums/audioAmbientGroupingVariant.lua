@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientGroupingVariant: Enum
 ---@field AllEntities Enum 0

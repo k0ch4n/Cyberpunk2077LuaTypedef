@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterGradient: CMaterialParameter
 ---@field public gradient CGradient

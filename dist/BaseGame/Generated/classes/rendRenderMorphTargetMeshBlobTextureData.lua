@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMorphTargetMeshBlobTextureData
 ---@field public targetDiffScale Vector4

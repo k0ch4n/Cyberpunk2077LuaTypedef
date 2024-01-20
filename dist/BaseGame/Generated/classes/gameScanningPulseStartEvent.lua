@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScanningPulseStartEvent: redEvent
 ---@field public targetsAffected Int32

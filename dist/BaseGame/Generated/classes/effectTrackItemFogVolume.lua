@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemFogVolume: effectTrackItem
 ---@field public priority Uint8

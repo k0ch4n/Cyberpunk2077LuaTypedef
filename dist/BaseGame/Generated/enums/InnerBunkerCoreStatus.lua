@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InnerBunkerCoreStatus: Enum
 ---@field Online Enum 0

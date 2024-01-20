@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MathExpressionQuaternion: animAnimNode_QuaternionValue
 ---@field public expressionData animMathExpressionNodeData

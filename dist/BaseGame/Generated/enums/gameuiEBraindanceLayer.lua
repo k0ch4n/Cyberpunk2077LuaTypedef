@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiEBraindanceLayer: Enum
 ---@field Visual Enum 0

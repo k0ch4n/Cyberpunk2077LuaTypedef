@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SBreadcrumbElementData
 ---@field public elementName String

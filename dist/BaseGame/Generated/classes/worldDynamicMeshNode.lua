@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDynamicMeshNode: worldMeshNode
 ---@field public startAsleep Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMTimeDilation: Enum
 ---@field Any Enum -1

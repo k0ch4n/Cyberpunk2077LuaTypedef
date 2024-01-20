@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_SlashEffect_Entry
 ---@field public attackNumber Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorkspotData: ISerializable
 ---@field public dataId scnSceneWorkspotDataId

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_StageFloatEntry: animAnimNode_FloatValue
 animAnimNode_StageFloatEntry = {}

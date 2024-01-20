@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_SimulationPositionProjection: animDangleConstraint_SimulationSingleBone
 ---@field public collisionCapsuleRadius Float

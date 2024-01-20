@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMetaQuest: Enum
 ---@field MetaQuest1 Enum 0

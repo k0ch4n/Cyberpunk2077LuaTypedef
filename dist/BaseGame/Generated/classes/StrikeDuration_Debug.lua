@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StrikeDuration_Debug: gameEffectDurationModifier_Scripted
 StrikeDuration_Debug = {}

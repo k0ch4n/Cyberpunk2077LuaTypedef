@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AltimeterController: inkWidgetLogicController
 ---@field private faceUp inkWidgetReference

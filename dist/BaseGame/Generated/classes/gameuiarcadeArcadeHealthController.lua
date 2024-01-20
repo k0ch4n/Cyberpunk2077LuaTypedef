@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeArcadeHealthController: inkWidgetLogicController
 ---@field public widget inkWidget

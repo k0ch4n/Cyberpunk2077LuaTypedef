@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPerkUtility: Enum
 ---@field ActiveUtility Enum 0

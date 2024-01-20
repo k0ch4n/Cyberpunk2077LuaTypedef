@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HoloFeederControllerPS: ScriptableDeviceComponentPS
 ---@field protected turnOnSFX CName

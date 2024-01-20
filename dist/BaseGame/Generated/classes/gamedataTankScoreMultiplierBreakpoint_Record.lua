@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankScoreMultiplierBreakpoint_Record: gamedataTweakDBRecord
 gamedataTankScoreMultiplierBreakpoint_Record = {}

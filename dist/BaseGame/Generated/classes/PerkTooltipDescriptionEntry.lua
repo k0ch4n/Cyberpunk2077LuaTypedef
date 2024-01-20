@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkTooltipDescriptionEntry
 ---@field public wrapper inkWidgetReference

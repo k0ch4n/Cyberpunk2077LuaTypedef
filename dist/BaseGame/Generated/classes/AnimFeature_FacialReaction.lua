@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_FacialReaction: animAnimFeature
 ---@field public category Int32

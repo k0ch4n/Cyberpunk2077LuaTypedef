@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataActionMap_Record: gamedataTweakDBRecord
 gamedataActionMap_Record = {}

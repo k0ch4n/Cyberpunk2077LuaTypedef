@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponEventOverride: audioInlinedAudioMetadata
 ---@field public key CName

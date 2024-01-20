@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AimAtTargetCommandCleanup: AIbehaviortaskScript
 ---@field protected inCommand AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimatedSign: InteractiveDevice
 ---@field private animFeature AnimFeature_AnimatedDevice

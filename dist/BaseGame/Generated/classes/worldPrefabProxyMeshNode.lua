@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPrefabProxyMeshNode: worldMeshNode
 ---@field public nearAutoHideDistance Float

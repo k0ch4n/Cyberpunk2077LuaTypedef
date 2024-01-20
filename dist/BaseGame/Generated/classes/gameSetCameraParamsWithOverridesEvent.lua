@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetCameraParamsWithOverridesEvent: redEvent
 ---@field public paramsName CName

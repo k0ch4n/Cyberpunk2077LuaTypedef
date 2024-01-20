@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioSetup
 ---@field public randomizeStartingStation Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LookAtPresetBaseEvents: DefaultTransition
 ---@field public lookAtEvents entLookAtAddEvent[]

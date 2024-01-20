@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Debug_AimingLookatTestEnabled: AIDebugConditions
 Debug_AimingLookatTestEnabled = {}

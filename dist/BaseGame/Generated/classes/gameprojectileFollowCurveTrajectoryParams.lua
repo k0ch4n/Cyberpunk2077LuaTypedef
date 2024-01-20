@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileFollowCurveTrajectoryParams: gameprojectileTrajectoryParams
 ---@field public target gameObject

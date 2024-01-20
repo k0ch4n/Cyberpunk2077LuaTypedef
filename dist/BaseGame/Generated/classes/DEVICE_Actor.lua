@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEVICE_Actor: gameHudActor
 DEVICE_Actor = {}

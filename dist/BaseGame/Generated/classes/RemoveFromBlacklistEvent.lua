@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveFromBlacklistEvent: redEvent
 ---@field public entityIDToRemove entEntityID

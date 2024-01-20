@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNavigationTileResource: resStreamedResource
 ---@field public localBoundingBox Box

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedDeviceActionEvent: redEvent
 ---@field public action ScriptableDeviceAction

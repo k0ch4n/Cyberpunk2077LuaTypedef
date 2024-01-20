@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SChannelEnumData
 ---@field public channel ETVChannel

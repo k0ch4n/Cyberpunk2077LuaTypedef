@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTriggerAreaEventInfo
 ---@field public nodeInstance worldTriggerAreaNodeInstance

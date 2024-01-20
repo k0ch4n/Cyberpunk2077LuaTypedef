@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeHitPerMaterialType: Enum
 ---@field Light Enum 0

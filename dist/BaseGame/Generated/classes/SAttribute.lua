@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAttribute
 ---@field public attributeName gamedataStatType

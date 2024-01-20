@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_CameraBodyOffset: animAnimFeature
 ---@field public lookat_pitch_forward_offset Float

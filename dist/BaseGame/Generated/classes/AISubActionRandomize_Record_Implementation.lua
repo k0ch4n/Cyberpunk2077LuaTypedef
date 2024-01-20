@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionRandomize_Record_Implementation: IScriptable
 AISubActionRandomize_Record_Implementation = {}

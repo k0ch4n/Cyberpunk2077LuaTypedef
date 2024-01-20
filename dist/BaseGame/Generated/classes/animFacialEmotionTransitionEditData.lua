@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialEmotionTransitionEditData
 ---@field public toIdleMale CName

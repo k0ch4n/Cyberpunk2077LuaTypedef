@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeactivateC4: ActionBool
 ---@field public itemID gameItemID

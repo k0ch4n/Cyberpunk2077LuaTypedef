@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestWidgetUpdateEvent: redEvent
 ---@field public requester gamePersistentID

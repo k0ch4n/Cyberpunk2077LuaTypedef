@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSubCharacter: Enum
 ---@field Flathead Enum 0

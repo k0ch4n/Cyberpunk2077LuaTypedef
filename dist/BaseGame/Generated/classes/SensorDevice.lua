@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SensorDevice: ExplosiveDevice
 ---@field protected attitudeAgent gameAttitudeAgent

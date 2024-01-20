@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMenuLayer_SetCursorVisibility: redEvent
 inkMenuLayer_SetCursorVisibility = {}

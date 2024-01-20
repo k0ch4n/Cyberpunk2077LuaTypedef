@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceActionWidgetControllerBase: DeviceButtonLogicControllerBase
 ---@field protected actions gamedeviceAction[]

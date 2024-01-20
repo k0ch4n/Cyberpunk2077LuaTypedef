@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveCommandCondition: AIbehaviorexpressionScript
 ---@field public commandName CName

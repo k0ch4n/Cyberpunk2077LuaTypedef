@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiOneTimeMessage: Enum
 ---@field XboxCompatibilityLimitation Enum 0

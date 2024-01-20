@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpreadAreaEffector: gameEffector
 ---@field public maxTargetNum Int32

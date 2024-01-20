@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorRotationRateOverLife: IParticleModificator
 ---@field public rotationRate IEvaluatorFloat

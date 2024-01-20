@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsELootChoiceType: Enum
 ---@field Available Enum 0

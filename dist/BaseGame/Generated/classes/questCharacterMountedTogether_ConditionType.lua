@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterMountedTogether_ConditionType: questICharacterConditionType
 ---@field public vehicleType questMountVehicleType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficNullAreaCollisionData: ISerializable
 ---@field public header worldCrowdNullAreaCollisionHeader

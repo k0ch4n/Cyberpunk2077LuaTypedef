@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScanningTooltipElementData
 ---@field public recordID TweakDBID

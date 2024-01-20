@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopTerrainImportParams
 ---@field public cellRes Uint32

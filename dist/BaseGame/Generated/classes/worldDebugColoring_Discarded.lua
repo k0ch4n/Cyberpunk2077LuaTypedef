@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_Discarded: worldEditorDebugColoringSettings
 ---@field public color Color

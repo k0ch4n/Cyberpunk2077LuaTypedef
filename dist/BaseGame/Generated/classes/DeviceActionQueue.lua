@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceActionQueue: IScriptable
 ---@field private actionsInQueue gamedeviceAction[]

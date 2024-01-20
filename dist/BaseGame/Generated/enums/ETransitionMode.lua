@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETransitionMode: Enum
 ---@field GENTLE Enum 0

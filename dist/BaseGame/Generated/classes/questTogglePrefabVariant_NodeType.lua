@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTogglePrefabVariant_NodeType: questIWorldDataManagerNodeType
 ---@field public params questTogglePrefabVariant_NodeTypeParams[]

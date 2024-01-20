@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPrereq_ConditionType: questISystemConditionType
 ---@field public objectRef gameEntityReference

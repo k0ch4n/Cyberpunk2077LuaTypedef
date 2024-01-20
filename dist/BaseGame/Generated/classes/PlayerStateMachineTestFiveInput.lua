@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerStateMachineTestFiveInput: IScriptable
 ---@field public counter Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionSecurityAreaType_Record: gamedataTweakDBRecord
 gamedataAIActionSecurityAreaType_Record = {}

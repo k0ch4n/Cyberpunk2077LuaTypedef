@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDrivePatrolTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field public maxSpeed AIArgumentMapping

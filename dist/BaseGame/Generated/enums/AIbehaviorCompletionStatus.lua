@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCompletionStatus: Enum
 ---@field FAILURE Enum 0

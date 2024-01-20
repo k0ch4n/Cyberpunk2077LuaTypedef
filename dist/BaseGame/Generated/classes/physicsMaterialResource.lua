@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsMaterialResource: CResource
 ---@field public staticFriction Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BloomAreaSettings: IAreaSettings
 ---@field public blurSizeX Float

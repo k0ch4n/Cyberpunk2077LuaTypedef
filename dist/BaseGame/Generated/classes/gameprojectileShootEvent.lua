@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileShootEvent: gameprojectileSetUpEvent
 ---@field public localToWorld Matrix

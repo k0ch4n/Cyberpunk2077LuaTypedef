@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageEntry
 ---@field public damageInfo gameuiDamageInfo

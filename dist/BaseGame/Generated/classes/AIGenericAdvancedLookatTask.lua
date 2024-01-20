@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIGenericAdvancedLookatTask: AIGenericLookatTask
 ---@field private lookAtEvent entLookAtAddEvent

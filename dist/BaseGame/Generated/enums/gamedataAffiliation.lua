@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAffiliation: Enum
 ---@field AfterlifeMercs Enum 0

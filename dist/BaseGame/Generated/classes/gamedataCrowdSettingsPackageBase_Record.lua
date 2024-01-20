@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCrowdSettingsPackageBase_Record: gamedataTweakDBRecord
 gamedataCrowdSettingsPackageBase_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataParentAttachmentType: Enum
 ---@field Animated Enum 0

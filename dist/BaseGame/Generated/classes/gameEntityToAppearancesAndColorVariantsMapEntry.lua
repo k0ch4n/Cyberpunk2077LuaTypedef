@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntityToAppearancesAndColorVariantsMapEntry: ISerializable
 ---@field public entityPathHash Uint64

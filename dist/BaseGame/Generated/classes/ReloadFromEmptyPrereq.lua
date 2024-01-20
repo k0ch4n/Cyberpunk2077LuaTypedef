@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReloadFromEmptyPrereq: gameIScriptablePrereq
 ---@field private minAmountOfAmmoReloaded Int32

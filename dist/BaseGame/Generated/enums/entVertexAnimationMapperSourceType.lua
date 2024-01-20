@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVertexAnimationMapperSourceType: Enum
 ---@field FloatTrack Enum 0

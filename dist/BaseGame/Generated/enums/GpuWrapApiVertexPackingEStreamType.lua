@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApiVertexPackingEStreamType: Enum
 ---@field ST_Invalid Enum -1

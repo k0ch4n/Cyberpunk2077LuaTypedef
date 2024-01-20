@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAIDirectorSpawnAreaNode: worldAreaShapeNode
 ---@field public groupKey CName

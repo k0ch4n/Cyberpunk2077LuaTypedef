@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrowdSettingsEvent: redEvent
 ---@field public movementType CName

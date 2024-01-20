@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSystemVariableExpressionTypes: Enum
 ---@field IsFPSLow Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionTargetStates
 ---@field public npcStates AIActionNPCStates

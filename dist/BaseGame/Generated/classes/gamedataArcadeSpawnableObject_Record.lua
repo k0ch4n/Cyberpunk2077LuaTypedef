@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataArcadeSpawnableObject_Record: gamedataTweakDBRecord
 gamedataArcadeSpawnableObject_Record = {}

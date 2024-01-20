@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MountType: Enum
 ---@field Hijack Enum 0

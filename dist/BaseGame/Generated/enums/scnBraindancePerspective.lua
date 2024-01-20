@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnBraindancePerspective: Enum
 ---@field FirstPerson Enum 0

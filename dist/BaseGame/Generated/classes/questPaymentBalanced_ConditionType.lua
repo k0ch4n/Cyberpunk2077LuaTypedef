@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPaymentBalanced_ConditionType: questIPayment_ConditionType
 questPaymentBalanced_ConditionType = {}

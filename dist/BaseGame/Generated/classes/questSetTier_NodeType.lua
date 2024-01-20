@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTier_NodeType: questISceneManagerNodeType
 ---@field public tier GameplayTier

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsPhaseVariant: gamemappinsIPointOfInterestVariant
 ---@field public phase gamedataMappinPhase

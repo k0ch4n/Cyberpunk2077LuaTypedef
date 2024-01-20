@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgressBarsController: inkWidgetLogicController
 ---@field protected mask inkWidgetReference

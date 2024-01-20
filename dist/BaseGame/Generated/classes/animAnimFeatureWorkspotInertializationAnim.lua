@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeatureWorkspotInertializationAnim: animAnimFeature
 ---@field public duration Float

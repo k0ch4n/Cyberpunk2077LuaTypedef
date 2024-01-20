@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitShape_ColliderComponent: gameHitShapeBase
 ---@field public componentNames CName[]

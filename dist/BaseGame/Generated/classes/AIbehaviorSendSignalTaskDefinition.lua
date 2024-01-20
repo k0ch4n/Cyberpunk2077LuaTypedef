@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSendSignalTaskDefinition: AIbehaviorTaskDefinition
 ---@field public signalName CName

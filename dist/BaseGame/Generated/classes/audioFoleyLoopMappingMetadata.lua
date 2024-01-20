@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyLoopMappingMetadata: audioAudioMetadata
 ---@field public loopsPerAppearance audioAppearanceToFoleyLoopMetadata[]

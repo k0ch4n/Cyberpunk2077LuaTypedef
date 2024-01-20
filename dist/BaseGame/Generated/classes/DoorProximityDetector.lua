@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorProximityDetector: ProximityDetector
 ---@field private triggeredAlarmID gameDelayID

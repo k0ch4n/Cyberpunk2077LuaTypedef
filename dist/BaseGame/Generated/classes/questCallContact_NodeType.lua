@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCallContact_NodeType: questIPhoneManagerNodeType
 ---@field public caller gameJournalPath

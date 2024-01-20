@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleToNodeCommand: AIVehicleCommand
 ---@field public nodeRef NodeRef

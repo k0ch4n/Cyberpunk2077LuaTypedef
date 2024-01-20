@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestCrystalDomeEvent: redEvent
 ---@field public toggle Bool

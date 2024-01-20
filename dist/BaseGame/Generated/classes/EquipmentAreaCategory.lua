@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentAreaCategory: IScriptable
 ---@field public parentCategory InventoryItemDisplayCategoryArea

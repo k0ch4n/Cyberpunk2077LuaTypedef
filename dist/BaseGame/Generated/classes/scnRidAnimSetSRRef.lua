@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidAnimSetSRRef
 ---@field public animations scnSRRefId[]

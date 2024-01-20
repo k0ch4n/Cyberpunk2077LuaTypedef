@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleUIactivateEvent: redEvent
 ---@field public activate Bool

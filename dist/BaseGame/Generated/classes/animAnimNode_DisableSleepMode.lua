@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DisableSleepMode: animAnimNode_OnePoseInput
 ---@field public forceUpdate Bool

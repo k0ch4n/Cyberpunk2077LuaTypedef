@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_GraphSlot_Test: animAnimNode_GraphSlot
 ---@field public graph_TEST animAnimGraph

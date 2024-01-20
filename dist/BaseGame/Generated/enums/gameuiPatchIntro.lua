@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPatchIntro: Enum
 ---@field Patch1500_NextGen Enum 0

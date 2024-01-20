@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsSpawnEntityEventCachedFallbackBone
 ---@field public boneName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatIDType: Enum
 ---@field EntityID Enum 0

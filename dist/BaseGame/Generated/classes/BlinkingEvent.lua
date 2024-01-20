@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlinkingEvent: redEvent
 ---@field public requestNumber Int32

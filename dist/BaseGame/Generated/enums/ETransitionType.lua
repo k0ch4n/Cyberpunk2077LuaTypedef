@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETransitionType: Enum
 ---@field EET_Linear Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisposalDeviceSetup
 ---@field public numberOfUses Int32

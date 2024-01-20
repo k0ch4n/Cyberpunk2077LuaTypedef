@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationBodyMorphOptionColorPicker: inkWidgetLogicController
 ---@field private grid inkUniformGridWidgetReference

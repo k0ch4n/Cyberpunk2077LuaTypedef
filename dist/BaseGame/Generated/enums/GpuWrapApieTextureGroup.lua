@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApieTextureGroup: Enum
 ---@field TEXG_Generic_Color Enum 1

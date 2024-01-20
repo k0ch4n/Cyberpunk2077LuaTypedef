@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public type questICharacterManager_NodeType

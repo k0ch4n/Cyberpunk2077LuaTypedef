@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalContact: gameJournalFileEntry
 ---@field public name LocalizationString

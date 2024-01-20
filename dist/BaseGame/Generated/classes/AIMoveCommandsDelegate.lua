@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMoveCommandsDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field protected animMoveOnSplineCommand AIAnimMoveOnSplineCommand

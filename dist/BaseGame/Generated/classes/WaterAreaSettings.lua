@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WaterAreaSettings: IAreaSettings
 ---@field public blurMin Float

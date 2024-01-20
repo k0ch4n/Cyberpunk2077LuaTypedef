@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMaskEffect: inkIEffect
 ---@field public angle Float

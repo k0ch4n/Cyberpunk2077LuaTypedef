@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiAuthorisationNotificationType: Enum
 ---@field Unknown Enum 0

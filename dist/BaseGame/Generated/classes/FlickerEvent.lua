@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FlickerEvent: redEvent
 ---@field public strength Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAddStatusEffectToAttackEffector_inline0_Record: gamedataConstantStatModifier_Record
 gamedataAddStatusEffectToAttackEffector_inline0_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageTooltipData: ATooltipData
 ---@field public Title String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDroneAnimationSetup_Record: gamedataTweakDBRecord
 gamedataDroneAnimationSetup_Record = {}

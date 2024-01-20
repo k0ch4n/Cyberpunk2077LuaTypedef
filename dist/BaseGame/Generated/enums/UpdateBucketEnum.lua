@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateBucketEnum: Enum
 ---@field Vehicle Enum 0

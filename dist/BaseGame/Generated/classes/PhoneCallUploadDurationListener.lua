@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneCallUploadDurationListener: gameCustomValueStatPoolsListener
 ---@field public gameInstance ScriptGameInstance

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsReactionState: Enum
 ---@field Idle Enum 0

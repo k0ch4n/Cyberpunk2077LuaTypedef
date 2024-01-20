@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAlertedStateDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public attackInstigatorPosition Vector4

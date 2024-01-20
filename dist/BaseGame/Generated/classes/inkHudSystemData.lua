@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkHudSystemData: inkILayerSystemData
 ---@field public rootLibrary inkWidgetLibraryResource

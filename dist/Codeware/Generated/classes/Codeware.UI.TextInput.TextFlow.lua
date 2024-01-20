@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_TextInput_TextFlow: Codeware_UI_inkCustomController
 ---@field public text inkTextWidget

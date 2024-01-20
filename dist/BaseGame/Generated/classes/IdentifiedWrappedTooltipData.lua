@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IdentifiedWrappedTooltipData: ATooltipData
 ---@field public identifier CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMovementPolicy_Record: gamedataTweakDBRecord
 gamedataMovementPolicy_Record = {}

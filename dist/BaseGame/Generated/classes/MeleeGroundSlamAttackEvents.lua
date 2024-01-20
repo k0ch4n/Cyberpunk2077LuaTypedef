@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeGroundSlamAttackEvents: MeleeAttackGenericEvents
 ---@field public knockdownImmunityModifier gameStatModifierData_Deprecated

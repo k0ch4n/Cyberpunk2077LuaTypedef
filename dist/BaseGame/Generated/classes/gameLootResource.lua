@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootResource: CResource
 ---@field public data gameLootResourceData

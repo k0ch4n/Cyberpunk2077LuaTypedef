@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectAnimationDatabase: ISerializable
 ---@field public animationData gameAnimationExtractedData[]

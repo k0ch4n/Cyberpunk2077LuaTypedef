@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleAirtime_ConditionType: questIVehicleConditionType
 ---@field public seconds Float

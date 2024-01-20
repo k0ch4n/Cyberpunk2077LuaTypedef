@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JsonResource: CResource
 ---@field public root ISerializable

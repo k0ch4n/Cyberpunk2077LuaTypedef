@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectPreAction_PreAttack: gameEffectPreAction_Scripted
 ---@field protected withFriendlyFire Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scannerDetailsGameController: gameuiHUDGameController
 ---@field private scannerCountainer inkCompoundWidgetReference

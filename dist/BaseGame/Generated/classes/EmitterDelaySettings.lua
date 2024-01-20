@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EmitterDelaySettings
 ---@field public emitterDelay Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderTextureResource
 ---@field public renderResourceBlobPC IRenderResourceBlob

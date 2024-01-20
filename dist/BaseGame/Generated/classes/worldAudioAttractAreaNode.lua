@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAudioAttractAreaNode: worldTriggerAreaNode
 ---@field public interestingConversationsNodeRef NodeRef

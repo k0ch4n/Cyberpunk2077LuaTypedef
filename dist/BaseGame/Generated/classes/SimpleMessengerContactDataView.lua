@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleMessengerContactDataView: inkScriptableDataViewWrapper
 ---@field private compareBuilder CompareBuilder

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_CpoCharacterSelectionDef: gamebbScriptDefinition
 ---@field public SelectionMenuVisible gamebbScriptID_Bool

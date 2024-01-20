@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EHudAvatarMode: Enum
 ---@field Connecting Enum 0

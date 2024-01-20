@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshInteractionTaskData: gameScriptTaskData
 ---@field public requestType gamedeviceRequestType

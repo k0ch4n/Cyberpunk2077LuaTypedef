@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StimEventTaskData: gameScriptTaskData
 ---@field public cachedEvt senseStimuliEvent

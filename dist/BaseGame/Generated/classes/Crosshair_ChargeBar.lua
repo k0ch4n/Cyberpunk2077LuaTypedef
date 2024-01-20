@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_ChargeBar: gameuiCrosshairBaseGameController
 ---@field private bar inkWidgetReference

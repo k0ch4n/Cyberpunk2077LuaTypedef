@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FakeFeature: gameObject
 ---@field private choices SFakeFeatureChoice[]

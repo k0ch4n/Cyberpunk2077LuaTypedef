@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioNpcGunChoirSettings: audioAudioMetadata
 ---@field public voices CName[]

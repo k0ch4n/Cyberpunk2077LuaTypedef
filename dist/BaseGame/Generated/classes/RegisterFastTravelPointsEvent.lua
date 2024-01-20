@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterFastTravelPointsEvent: redEvent
 ---@field public fastTravelNodes gameFastTravelPointData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ControlledDevicesInkGameController: gameuiWidgetGameController
 ---@field protected rootWidget inkCanvasWidget

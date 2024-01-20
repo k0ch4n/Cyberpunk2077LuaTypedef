@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModeHideEvent: redEvent
 ---@field public hide Bool

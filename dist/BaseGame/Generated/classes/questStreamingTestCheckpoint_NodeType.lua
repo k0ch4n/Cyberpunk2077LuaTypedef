@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStreamingTestCheckpoint_NodeType: questIWorldDataManagerNodeType
 ---@field public checkpointType worldStreamingTestCheckpointType

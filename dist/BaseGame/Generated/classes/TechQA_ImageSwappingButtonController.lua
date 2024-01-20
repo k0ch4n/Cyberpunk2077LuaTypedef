@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TechQA_ImageSwappingButtonController: inkWidgetLogicController
 ---@field public textWidgetPath CName

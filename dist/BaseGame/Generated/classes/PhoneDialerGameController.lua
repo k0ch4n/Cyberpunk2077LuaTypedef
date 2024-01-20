@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneDialerGameController: gameuiNewPhoneRelatedHUDGameController
 ---@field private contactsList inkWidgetReference

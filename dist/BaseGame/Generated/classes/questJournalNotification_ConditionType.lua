@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJournalNotification_ConditionType: questIUIConditionType
 ---@field public journalPath gameJournalPath

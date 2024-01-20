@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PatrolAlertedCommandHandler: AIbehaviortaskScript
 ---@field public inCommand AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFollowerInterpolateFollowingSpeed: AIbehaviortaskScript
 ---@field public enterCondition TweakDBID

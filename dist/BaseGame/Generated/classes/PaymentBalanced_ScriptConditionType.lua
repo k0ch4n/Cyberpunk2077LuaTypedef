@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PaymentBalanced_ScriptConditionType: PaymentConditionTypeBase
 ---@field public questAssignment TweakDBID

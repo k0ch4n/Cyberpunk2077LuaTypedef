@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTeleport_NodeType: questIVehicleManagerNodeType
 ---@field public entityReference gameEntityReference

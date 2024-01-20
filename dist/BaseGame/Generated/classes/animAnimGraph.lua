@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimGraph: CResource
 ---@field public rootNode animAnimNode_Root

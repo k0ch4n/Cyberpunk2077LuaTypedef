@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetProgress_NodeType: questIAchievementManagerNodeType
 ---@field public achievement TweakDBID

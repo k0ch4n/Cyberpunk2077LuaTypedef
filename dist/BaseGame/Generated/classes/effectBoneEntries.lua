@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectBoneEntries: effectIPlacementEntries
 ---@field public inheritRotation Bool

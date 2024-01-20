@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PhotomodePoseCategory: animAnimFeature
 ---@field public poseCategoryIndex Int32

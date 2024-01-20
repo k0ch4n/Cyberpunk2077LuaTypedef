@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimVariableContainer: ISerializable
 ---@field public boolVariables animAnimVariableBool[]

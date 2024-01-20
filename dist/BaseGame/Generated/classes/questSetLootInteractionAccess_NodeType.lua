@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetLootInteractionAccess_NodeType: questIItemManagerNodeType
 ---@field public objectRef gameEntityReference

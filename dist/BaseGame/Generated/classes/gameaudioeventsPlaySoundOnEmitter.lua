@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsPlaySoundOnEmitter: gameaudioeventsEmitterEvent
 ---@field public eventName CName

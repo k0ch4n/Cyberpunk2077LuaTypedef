@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomButtonType: Enum
 ---@field UnlockAllVehicles Enum 0

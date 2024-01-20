@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClimbEvents: LocomotionGroundEvents
 ---@field public ikHandEvents entIKTargetAddEvent[]

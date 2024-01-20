@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questChangeGameDifficulty_NodeSubType: questIGameManagerNonSignalStoppingNodeType
 ---@field public difficulty gameDifficulty

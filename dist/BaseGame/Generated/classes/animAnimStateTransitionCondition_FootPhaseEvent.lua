@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_FootPhaseEvent: animIAnimStateTransitionCondition
 ---@field public footPhase animEFootPhase

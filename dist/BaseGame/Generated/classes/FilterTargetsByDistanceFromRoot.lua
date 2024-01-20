@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterTargetsByDistanceFromRoot: gameEffectObjectSingleFilter_Scripted
 ---@field private rootOffset_Z Float

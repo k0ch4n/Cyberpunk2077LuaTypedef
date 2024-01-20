@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animIKTargetRequest
 ---@field public weightPosition Float

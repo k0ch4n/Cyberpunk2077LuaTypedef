@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterGender_CondtionType: questICharacterConditionType
 ---@field public objectRef gameEntityReference

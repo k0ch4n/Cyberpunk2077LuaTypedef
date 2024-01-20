@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListItemHoverOverEvent: redEvent
 ---@field public isQuestResolved Bool

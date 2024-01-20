@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitIsMovingPrereq: GenericHitPrereq
 ---@field public isMoving Bool

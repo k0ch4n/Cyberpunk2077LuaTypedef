@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkSyncedSlaveAnim: animAnimNode_SkAnim
 ---@field public syncTag CName

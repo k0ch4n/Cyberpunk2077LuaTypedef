@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexListItemController: inkListItemController
 ---@field protected doMarkNew Bool

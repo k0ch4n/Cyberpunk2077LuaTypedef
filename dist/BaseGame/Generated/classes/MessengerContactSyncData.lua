@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessengerContactSyncData: IScriptable
 ---@field public type MessengerContactType

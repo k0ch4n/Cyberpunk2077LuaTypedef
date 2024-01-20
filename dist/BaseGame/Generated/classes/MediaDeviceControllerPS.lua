@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MediaDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field protected previousStation Int32

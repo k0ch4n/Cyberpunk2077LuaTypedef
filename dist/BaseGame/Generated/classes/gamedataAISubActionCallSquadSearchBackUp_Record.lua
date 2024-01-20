@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionCallSquadSearchBackUp_Record: gamedataAISubAction_Record
 gamedataAISubActionCallSquadSearchBackUp_Record = {}

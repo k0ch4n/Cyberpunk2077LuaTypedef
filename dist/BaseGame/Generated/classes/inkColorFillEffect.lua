@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkColorFillEffect: inkIEffect
 ---@field public colorR Float

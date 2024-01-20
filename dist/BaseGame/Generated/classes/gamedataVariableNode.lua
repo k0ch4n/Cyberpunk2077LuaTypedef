@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVariableNode: gamedataDataNode
 ---@field public hashedName CName

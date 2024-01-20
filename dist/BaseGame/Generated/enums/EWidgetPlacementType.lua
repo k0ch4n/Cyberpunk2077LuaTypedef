@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EWidgetPlacementType: Enum
 ---@field DOCKED Enum 0

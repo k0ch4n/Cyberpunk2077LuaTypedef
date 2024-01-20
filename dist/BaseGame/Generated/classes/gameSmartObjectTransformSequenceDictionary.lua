@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectTransformSequenceDictionary: ISerializable
 ---@field public sequences gameSmartObjectTransformSequenceDictionaryEntry[]

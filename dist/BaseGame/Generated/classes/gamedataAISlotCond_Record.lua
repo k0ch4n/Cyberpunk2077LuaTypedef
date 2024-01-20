@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISlotCond_Record: gamedataAIItemCond_Record
 gamedataAISlotCond_Record = {}

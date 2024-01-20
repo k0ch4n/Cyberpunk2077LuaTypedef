@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVisualTagToFoleyLoopMetadata
 ---@field public visualtags CName[]

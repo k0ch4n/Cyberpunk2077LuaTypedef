@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeleteWardrobeSetRequest: gamePlayerScriptableSystemRequest
 ---@field public setID gameWardrobeClothingSetIndex

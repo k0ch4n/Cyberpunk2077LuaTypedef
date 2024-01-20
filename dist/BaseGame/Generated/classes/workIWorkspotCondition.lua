@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workIWorkspotCondition: ISerializable
 ---@field public expectedResult workWorkspotLogic

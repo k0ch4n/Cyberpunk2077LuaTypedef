@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScreenshot360CameraComponent: gameCameraComponent
 gameScreenshot360CameraComponent = {}

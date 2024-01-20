@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerDevelopmentData: IScriptable
 ---@field public owner gameObject

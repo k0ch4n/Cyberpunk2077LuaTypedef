@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_StealthDef: gamebbScriptDefinition
 ---@field public CombatDebug gamebbScriptID_Bool

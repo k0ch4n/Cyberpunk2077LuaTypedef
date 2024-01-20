@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointDriveVelocity
 ---@field public linearVelocity Vector4

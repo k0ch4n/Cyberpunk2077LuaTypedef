@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimProfileData_RootItem: ISerializable
 ---@field public timeMS Float

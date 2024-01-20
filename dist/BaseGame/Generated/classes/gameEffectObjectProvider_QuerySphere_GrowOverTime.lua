@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_QuerySphere_GrowOverTime: gameEffectObjectProvider_QuerySphere
 gameEffectObjectProvider_QuerySphere_GrowOverTime = {}

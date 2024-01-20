@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ColorGradingAreaSettings: IAreaSettings
 ---@field public contrast Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorStoryActionType: Enum
 ---@field Setup Enum 0

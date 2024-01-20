@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamebbAllScriptDefinitions: IScriptable
 ---@field public PlayerStateMachine PlayerStateMachineDef

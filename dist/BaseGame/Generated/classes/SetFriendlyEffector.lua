@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetFriendlyEffector: gameEffector
 ---@field public target gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StrikeExecutor_Kill: gameEffectExecutor_Scripted
 StrikeExecutor_Kill = {}

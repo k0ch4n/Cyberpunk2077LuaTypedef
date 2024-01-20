@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SMeshChunkPacked
 ---@field public vertexType EMeshVertexType

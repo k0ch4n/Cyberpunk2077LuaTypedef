@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareMainGameController: gameuiWidgetGameController
 ---@field private MainViewRoot inkWidgetReference

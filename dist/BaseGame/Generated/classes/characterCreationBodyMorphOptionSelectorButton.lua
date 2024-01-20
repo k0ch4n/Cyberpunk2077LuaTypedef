@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationBodyMorphOptionSelectorButton: inkWidgetLogicController
 ---@field private overArrow inkWidgetReference

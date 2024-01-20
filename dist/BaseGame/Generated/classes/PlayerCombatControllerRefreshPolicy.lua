@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerCombatControllerRefreshPolicy
 ---@field public crouchActive PlayerCombatControllerRefreshPolicyEnum

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisableBraindanceActions: redEvent
 ---@field public actionMask SBraindanceInputMask

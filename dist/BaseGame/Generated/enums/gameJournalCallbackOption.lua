@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalCallbackOption: Enum
 ---@field DoNotFire Enum 0

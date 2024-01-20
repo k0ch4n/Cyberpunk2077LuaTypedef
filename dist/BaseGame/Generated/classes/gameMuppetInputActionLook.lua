@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetInputActionLook: gameIMuppetInputAction
 ---@field public rotation Vector2

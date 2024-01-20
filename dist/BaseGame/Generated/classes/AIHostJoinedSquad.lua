@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHostJoinedSquad: AIAIEvent
 ---@field public squad CName

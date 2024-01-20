@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimapPOIMappinController: gameuiBaseMinimapMappinController
 ---@field protected pulseWidget inkWidgetReference

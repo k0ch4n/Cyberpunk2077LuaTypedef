@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSItemStackRequirementData
 ---@field public statType gamedataStatType

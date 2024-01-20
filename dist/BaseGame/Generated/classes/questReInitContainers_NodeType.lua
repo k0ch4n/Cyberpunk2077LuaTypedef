@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questReInitContainers_NodeType: questIItemManagerNodeType
 ---@field public params questReInitContainers_NodeTypeParams[]

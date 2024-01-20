@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inputContextType: Enum
 ---@field Action Enum 0

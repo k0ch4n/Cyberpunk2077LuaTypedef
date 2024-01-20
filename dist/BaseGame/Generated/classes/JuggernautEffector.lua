@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JuggernautEffector: gameContinuousEffector
 ---@field public modifiersAdded Bool

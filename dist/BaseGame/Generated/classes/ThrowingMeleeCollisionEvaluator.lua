@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowingMeleeCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 ---@field private projectileStopAndStick Bool

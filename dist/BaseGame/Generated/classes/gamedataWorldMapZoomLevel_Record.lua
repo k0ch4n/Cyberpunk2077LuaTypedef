@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorldMapZoomLevel_Record: gamedataTweakDBRecord
 gamedataWorldMapZoomLevel_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SignalType: Enum
 ---@field DEFAULT Enum 0

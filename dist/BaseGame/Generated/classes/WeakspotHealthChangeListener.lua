@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeakspotHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field public self gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workSyncAnimClip: workAnimClip
 ---@field public slotName CName

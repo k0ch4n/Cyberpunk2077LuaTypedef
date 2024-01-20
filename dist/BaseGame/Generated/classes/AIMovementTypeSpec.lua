@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMovementTypeSpec
 ---@field public useNPCMovementParams Bool

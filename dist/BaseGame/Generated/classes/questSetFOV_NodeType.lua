@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetFOV_NodeType: questISceneManagerNodeType
 ---@field public FOV Float

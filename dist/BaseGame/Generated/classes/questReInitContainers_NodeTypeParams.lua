@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questReInitContainers_NodeTypeParams
 ---@field public containerNodeRef NodeRef

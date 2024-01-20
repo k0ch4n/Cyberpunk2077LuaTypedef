@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorJoinFollowerSquadWithTargetDefinition: AIbehaviorTaskDefinition
 ---@field public follower AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayRoleMappinData: gamemappinsMappinScriptData
 ---@field public mappinVisualState EMappinVisualState

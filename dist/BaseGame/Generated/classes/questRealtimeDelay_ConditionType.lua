@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRealtimeDelay_ConditionType: questITimeConditionType
 ---@field public hours Uint32

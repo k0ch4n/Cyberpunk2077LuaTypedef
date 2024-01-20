@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StealthMappinGameController: gameuiWidgetGameController
 ---@field private controller gameuiStealthMappinController

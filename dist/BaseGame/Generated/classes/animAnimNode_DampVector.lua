@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DampVector: animAnimNode_VectorValue
 ---@field public defaultIncreaseSpeed Vector4

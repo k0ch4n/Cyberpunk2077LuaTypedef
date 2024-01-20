@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_WeightedVector: ISerializable
 ---@field public channel animIAnimNodeSourceChannel_Vector

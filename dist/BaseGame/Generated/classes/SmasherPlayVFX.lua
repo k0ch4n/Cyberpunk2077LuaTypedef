@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmasherPlayVFX: AIbehaviortaskScript
 ---@field private vfxOffset Vector3

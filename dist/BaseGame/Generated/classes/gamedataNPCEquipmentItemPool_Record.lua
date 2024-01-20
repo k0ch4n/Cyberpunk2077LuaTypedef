@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCEquipmentItemPool_Record: gamedataNPCEquipmentGroupEntry_Record
 gamedataNPCEquipmentItemPool_Record = {}

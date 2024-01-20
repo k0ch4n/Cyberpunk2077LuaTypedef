@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSetBoneTransform_JsonProperties: ISerializable
 ---@field public entries animSetBoneTransform_JsonEntry[]

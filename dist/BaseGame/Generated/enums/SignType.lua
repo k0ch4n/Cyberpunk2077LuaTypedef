@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SignType: Enum
 ---@field INFORMATION Enum 0

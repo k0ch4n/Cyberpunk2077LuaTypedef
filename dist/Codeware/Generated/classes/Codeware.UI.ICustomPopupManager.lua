@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_ICustomPopupManager: IScriptable
 Codeware_UI_ICustomPopupManager = {}

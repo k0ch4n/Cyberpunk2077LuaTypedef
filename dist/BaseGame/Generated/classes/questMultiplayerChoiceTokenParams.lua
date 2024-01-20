@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerChoiceTokenParams
 ---@field public timeout Uint32

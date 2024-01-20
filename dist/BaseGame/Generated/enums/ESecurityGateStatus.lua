@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityGateStatus: Enum
 ---@field READY Enum 0

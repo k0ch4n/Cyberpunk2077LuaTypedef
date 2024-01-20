@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIHoldPositionCommand: AIMoveCommand
 ---@field public duration Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannervehicleGameController: BaseChunkGameController
 ---@field private vehicleNameCallbackID redCallbackObject

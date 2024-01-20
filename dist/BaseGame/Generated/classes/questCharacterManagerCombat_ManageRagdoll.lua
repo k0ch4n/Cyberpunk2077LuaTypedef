@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerCombat_ManageRagdoll: questICharacterManagerCombat_NodeSubType
 ---@field public puppetRef gameEntityReference

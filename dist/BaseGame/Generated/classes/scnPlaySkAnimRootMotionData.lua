@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlaySkAnimRootMotionData
 ---@field public enabled Bool

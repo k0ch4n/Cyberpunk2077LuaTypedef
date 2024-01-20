@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionChangeCoverSelectionPreset_Record_Implementation: IScriptable
 AISubActionChangeCoverSelectionPreset_Record_Implementation = {}

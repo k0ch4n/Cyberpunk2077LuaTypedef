@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransformAnimatorNode_Action_Reset: questTransformAnimatorNode_ActionType
 questTransformAnimatorNode_Action_Reset = {}

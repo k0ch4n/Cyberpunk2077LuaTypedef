@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisEVisualizerType: Enum
 ---@field Device Enum 0

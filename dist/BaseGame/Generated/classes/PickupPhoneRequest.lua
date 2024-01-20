@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PickupPhoneRequest: gameScriptableSystemRequest
 ---@field public CallInformation questPhoneCallInformation

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MixerSlot: animAnimNode_OnePoseInput
 ---@field public maxNormalAnimEntriesCount Uint16

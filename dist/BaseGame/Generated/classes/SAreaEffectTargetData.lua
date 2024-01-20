@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAreaEffectTargetData
 ---@field public areaEffectID CName

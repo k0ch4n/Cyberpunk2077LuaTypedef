@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrappleStandDecisions: LocomotionTakedownDecisions
 ---@field public stateMachineInitData LocomotionTakedownInitData

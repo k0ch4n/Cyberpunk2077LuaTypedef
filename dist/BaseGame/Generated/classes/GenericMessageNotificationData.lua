@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericMessageNotificationData: inkGameNotificationData
 ---@field public identifier Int32

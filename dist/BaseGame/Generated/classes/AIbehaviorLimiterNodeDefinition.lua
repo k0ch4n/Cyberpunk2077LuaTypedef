@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorLimiterNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public activationLimitPerFrame Uint32

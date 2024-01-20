@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestWindowDestructionEvent: redEvent
 ---@field public windowName CName

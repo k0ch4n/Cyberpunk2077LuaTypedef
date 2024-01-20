@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetAttackHitTypeEffector: ModifyAttackEffector
 ---@field public hitType gameuiHitType

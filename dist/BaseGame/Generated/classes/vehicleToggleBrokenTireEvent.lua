@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleToggleBrokenTireEvent: redEvent
 ---@field public tireIndex Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankEnemy_Record: gamedataTankDestroyableObject_Record
 gamedataTankEnemy_Record = {}

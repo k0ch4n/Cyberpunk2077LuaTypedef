@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AbstractLandEvents: LocomotionGroundEvents
 ---@field public blockLandingStimBroadcasting Bool

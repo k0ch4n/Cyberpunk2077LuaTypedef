@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRoadMaterial: Enum
 ---@field Concrete Enum 0

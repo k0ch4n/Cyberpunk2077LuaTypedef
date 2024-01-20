@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestructibleMasterDeviceControllerPS: MasterControllerPS
 ---@field protected isDestroyed Bool

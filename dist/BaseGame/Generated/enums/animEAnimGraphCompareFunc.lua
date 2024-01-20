@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEAnimGraphCompareFunc: Enum
 ---@field AGCF_Equal Enum 0

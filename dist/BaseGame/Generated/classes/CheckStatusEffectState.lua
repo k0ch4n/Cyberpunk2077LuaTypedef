@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckStatusEffectState: AIStatusEffectCondition
 ---@field public statusEffectType gamedataStatusEffectType

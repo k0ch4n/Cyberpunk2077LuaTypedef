@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePrereqParams
 ---@field public objectID gameStatsObjectID

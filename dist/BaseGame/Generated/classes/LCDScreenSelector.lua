@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LCDScreenSelector: inkTweakDBIDSelector
 ---@field protected customMessageID TweakDBID

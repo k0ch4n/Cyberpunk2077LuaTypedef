@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioSetListenerOverrideNodeType: questIAudioNodeType
 ---@field public enable Bool

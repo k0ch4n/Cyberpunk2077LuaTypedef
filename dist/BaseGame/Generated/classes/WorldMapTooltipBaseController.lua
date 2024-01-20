@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorldMapTooltipBaseController: inkWidgetLogicController
 ---@field protected root inkWidgetReference

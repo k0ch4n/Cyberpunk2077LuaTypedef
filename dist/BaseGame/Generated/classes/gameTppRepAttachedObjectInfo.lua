@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTppRepAttachedObjectInfo
 ---@field public slotID TweakDBID

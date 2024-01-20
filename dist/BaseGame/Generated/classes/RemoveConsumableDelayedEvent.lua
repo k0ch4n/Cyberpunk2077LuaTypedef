@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveConsumableDelayedEvent: redEvent
 ---@field public consumeAction ConsumeAction

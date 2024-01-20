@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectPrereq: gameIScriptablePrereq
 ---@field public statusEffectRecordID TweakDBID

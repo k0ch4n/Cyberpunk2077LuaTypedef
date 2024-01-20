@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CombatGadgetChargeEvents: CombatGadgetTransitions
 ---@field public initiated Bool

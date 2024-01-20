@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorVectorConst: IEvaluatorVector
 ---@field public value Vector4

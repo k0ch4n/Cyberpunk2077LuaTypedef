@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioReflectionMaterialSettings: audioAudioMetadata
 ---@field public lowPass Float

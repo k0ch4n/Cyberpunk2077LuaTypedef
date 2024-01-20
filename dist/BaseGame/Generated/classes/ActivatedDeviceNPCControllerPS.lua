@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceNPCControllerPS: ActivatedDeviceControllerPS
 ---@field private activatedDeviceNPCSetup ActivatedDeviceNPCSetup

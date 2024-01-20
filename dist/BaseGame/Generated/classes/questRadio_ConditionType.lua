@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRadio_ConditionType: questISystemConditionType
 ---@field public inverted Bool

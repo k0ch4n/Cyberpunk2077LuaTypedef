@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataKnifeThrowDelivery_Record: gamedataGrenadeDeliveryMethod_Record
 gamedataKnifeThrowDelivery_Record = {}

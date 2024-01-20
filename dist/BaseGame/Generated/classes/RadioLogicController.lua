@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadioLogicController: IVehicleModuleController
 ---@field private radioTextWidget inkTextWidgetReference

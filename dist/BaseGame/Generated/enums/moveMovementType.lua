@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveMovementType: Enum
 ---@field Walk Enum 0

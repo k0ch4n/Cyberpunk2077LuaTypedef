@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CompareBuilder: IScriptable
 ---@field private FLOAT_EQUAL_EPSILON Float

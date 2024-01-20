@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsPlayerLookAtEventParams
 ---@field public slotName CName

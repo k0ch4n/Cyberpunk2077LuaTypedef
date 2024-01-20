@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSelectorController: inkWidgetLogicController
 ---@field public index Int32

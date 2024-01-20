@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RagdollToggleDelayEvent: redEvent
 ---@field public target gameObject

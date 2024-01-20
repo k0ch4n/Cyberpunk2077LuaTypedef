@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerPosition: IParticleInitializer
 ---@field public offset Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterFloat: entAnimInputSetter
 ---@field public value Float

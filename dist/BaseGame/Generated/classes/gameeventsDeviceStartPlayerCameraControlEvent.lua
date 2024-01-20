@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsDeviceStartPlayerCameraControlEvent: redEvent
 ---@field public playerController gameObject

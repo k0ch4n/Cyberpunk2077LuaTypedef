@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITeleportCommand: AICommand
 ---@field public position Vector4

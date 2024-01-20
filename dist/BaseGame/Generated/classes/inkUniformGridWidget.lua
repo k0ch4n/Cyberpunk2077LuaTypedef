@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkUniformGridWidget: inkCompoundWidget
 ---@field public wrappingWidgetCount Uint32

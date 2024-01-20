@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFirstEquipData
 ---@field public weaponID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCombinedStatOperation: Enum
 ---@field Addition Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRagdollComponentReplicatedState: netIComponentState
 ---@field public transforms Transform[]

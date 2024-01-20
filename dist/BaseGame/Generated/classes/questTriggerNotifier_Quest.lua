@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTriggerNotifier_Quest: worldITriggerAreaNotifer
 questTriggerNotifier_Quest = {}

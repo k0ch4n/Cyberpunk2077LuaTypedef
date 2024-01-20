@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhotoModeDef: gamebbScriptDefinition
 ---@field public IsActive gamebbScriptID_Bool

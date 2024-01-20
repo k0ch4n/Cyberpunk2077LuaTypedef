@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberdeckDeviceHackIcon: inkWidgetLogicController
 ---@field protected image inkImageWidgetReference

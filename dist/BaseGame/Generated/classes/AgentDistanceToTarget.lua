@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AgentDistanceToTarget
 ---@field public distance Float

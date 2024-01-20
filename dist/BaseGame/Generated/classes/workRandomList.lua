@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workRandomList: workIContainerEntry
 ---@field public minClips Int8

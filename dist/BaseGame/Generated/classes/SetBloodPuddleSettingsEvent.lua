@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBloodPuddleSettingsEvent: redEvent
 ---@field public shouldSpawnBloodPuddle Bool

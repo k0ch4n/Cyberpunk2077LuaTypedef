@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetProgressionBuildRequest: gamePlayerScriptableSystemRequest
 ---@field public buildID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeshShadowImportanceBias: Enum
 ---@field MSIB_EvenLessImportant Enum -2

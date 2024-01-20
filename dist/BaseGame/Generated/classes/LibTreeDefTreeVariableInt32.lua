@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeDefTreeVariableInt32: LibTreeDefTreeVariable
 ---@field public exportAsProperty Bool

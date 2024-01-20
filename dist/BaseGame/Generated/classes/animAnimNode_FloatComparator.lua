@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatComparator: animAnimNode_FloatValue
 ---@field public firstValue Float

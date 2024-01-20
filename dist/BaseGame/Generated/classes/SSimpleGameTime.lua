@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SSimpleGameTime
 ---@field public hours Int32

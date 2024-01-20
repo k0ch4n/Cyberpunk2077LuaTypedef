@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhaseNodeDefinition: questEmbeddedGraphNodeDefinition
 ---@field public saveLock Bool

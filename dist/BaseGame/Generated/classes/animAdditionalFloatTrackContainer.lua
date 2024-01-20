@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAdditionalFloatTrackContainer
 ---@field public entries animAdditionalFloatTrackEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LcdScreenSignInkGameController: DeviceInkGameControllerBase
 ---@field protected messegeRecord gamedataScreenMessageData_Record

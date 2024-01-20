@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NarrativePlateGameController: gameuiProjectedHUDGameController
 ---@field private plateHolder inkWidgetReference

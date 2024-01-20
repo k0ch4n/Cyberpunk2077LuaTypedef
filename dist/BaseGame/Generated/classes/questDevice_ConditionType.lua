@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDevice_ConditionType: questIObjectConditionType
 ---@field public objectRef NodeRef

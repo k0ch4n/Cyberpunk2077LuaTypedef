@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ValueBySpeed: animAnimNode_FloatValue
 ---@field public defaultValue Float

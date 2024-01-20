@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSceneCameraDoF_Record: gamedataTweakDBRecord
 gamedataSceneCameraDoF_Record = {}

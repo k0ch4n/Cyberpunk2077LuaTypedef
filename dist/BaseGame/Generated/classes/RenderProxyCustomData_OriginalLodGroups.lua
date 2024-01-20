@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RenderProxyCustomData_OriginalLodGroups: IRenderProxyCustomData
 RenderProxyCustomData_OriginalLodGroups = {}

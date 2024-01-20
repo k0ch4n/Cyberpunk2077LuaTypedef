@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemBloom: effectTrackItem
 ---@field public override Bool

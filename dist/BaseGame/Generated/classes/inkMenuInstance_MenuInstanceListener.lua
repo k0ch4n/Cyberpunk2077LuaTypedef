@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMenuInstance_MenuInstanceListener: redEvent
 inkMenuInstance_MenuInstanceListener = {}

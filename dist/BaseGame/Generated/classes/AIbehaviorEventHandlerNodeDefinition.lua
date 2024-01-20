@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorEventHandlerNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public eventName CName

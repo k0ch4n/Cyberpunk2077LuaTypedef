@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AVSpawnedRequest: gameScriptableSystemRequest
 ---@field public spawnedObjects gameObject[]

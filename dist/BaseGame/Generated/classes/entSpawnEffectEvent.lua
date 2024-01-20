@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entSpawnEffectEvent: redEvent
 ---@field public blackboard worldEffectBlackboard

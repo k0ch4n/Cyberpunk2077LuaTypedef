@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveSubCharacterRequest: gameScriptableSystemRequest
 ---@field public subCharType gamedataSubCharacter

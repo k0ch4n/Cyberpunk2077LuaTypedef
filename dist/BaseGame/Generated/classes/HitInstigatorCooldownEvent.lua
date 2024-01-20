@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitInstigatorCooldownEvent: redEvent
 ---@field public instigatorID entEntityID

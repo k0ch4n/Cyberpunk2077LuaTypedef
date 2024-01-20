@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIONodeDefinition: questDisableableNodeDefinition
 ---@field public socketName CName

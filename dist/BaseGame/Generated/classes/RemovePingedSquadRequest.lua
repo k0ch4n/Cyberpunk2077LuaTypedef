@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemovePingedSquadRequest: gameScriptableSystemRequest
 ---@field public squadName CName

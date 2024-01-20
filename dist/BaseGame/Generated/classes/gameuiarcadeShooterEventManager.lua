@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterEventManager: inkWidgetLogicController
 ---@field public nextLevelThreshold Vector2

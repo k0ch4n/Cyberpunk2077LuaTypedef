@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotsHoldEvents: QuickSlotsEvents
 ---@field public holdDirection EDPadSlot

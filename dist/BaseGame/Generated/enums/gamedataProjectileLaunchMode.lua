@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProjectileLaunchMode: Enum
 ---@field Regular Enum 0

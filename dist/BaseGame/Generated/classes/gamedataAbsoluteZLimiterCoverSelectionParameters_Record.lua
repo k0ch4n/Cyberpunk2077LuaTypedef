@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAbsoluteZLimiterCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataAbsoluteZLimiterCoverSelectionParameters_Record = {}

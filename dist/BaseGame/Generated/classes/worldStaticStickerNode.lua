@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticStickerNode: worldNode
 ---@field public labels String[]

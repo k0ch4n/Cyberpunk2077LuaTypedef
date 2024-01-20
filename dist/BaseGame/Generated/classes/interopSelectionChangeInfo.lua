@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopSelectionChangeInfo
 ---@field public selected Uint64[]

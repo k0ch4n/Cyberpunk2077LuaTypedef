@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRewardEvent: redEvent
 ---@field public rewardName TweakDBID

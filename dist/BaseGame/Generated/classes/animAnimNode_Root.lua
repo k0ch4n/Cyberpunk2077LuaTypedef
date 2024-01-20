@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Root: animAnimNode_Container
 ---@field public outputNode animPoseLink

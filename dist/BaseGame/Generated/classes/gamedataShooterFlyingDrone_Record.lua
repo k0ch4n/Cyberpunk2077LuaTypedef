@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterFlyingDrone_Record: gamedataShooterProjectileAI_Record
 gamedataShooterFlyingDrone_Record = {}

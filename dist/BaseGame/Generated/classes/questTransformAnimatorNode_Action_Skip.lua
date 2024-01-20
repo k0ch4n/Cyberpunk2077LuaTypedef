@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransformAnimatorNode_Action_Skip: questTransformAnimatorNode_ActionType
 ---@field public skipTo Float

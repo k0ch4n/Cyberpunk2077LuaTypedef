@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRewindableSectionEvent: redEvent
 ---@field public active Bool

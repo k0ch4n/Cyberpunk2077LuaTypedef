@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsPlayerControlsDevicePrereqState: gamePrereqState
 ---@field public listenerInfo redCallbackObject

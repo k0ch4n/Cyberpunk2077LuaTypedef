@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_FinalBoardsEp1: MenuScenario_BaseMenu
 MenuScenario_FinalBoardsEp1 = {}

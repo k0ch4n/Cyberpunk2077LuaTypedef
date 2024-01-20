@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questContentTokenManager_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public subtype questIContentTokenManager_NodeSubType

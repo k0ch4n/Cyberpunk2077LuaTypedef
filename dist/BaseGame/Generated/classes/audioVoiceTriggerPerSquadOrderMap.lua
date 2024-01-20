@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVoiceTriggerPerSquadOrderMap: audioAudioMetadata
 ---@field public items audioVoiceTriggerPerSquadOrderMapItem[]

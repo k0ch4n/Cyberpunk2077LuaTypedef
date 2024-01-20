@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeatureDoor: animAnimFeature
 ---@field public progress Float

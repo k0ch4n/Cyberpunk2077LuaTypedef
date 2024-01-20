@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECustomMaterialParam: Enum
 ---@field ECMP_CustomParam0 Enum 1

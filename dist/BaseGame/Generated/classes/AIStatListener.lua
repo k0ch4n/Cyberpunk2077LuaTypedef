@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIStatListener: gameScriptStatsListener
 ---@field private owner ScriptedPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureAnimationMode: Enum
 ---@field TAM_Speed Enum 0

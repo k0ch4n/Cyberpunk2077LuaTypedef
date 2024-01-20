@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWeaponShootParams
 ---@field public fromWorldPosition Vector4

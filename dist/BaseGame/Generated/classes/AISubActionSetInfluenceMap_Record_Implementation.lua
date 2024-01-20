@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetInfluenceMap_Record_Implementation: IScriptable
 AISubActionSetInfluenceMap_Record_Implementation = {}

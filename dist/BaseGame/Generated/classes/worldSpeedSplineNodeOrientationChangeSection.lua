@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSpeedSplineNodeOrientationChangeSection
 ---@field public pos Float

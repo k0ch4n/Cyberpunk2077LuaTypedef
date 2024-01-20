@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Interaction: animAnimFeature
 ---@field public interactionDuration Float

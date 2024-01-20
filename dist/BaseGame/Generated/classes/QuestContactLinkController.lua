@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestContactLinkController: BaseCodexLinkController
 ---@field private msgLabel inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnIKEventData
 ---@field public orientation Quaternion

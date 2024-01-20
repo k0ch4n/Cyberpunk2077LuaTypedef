@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAreaControllerPS: MasterControllerPS
 ---@field private system SecuritySystemControllerPS

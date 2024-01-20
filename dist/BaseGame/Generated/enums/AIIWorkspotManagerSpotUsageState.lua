@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIIWorkspotManagerSpotUsageState: Enum
 ---@field Reserved Enum 0

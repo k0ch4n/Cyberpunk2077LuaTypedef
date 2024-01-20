@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameECharacterStance: Enum
 ---@field Stance_Stand Enum 0

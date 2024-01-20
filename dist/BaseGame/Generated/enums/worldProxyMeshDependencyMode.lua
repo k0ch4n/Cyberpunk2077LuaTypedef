@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyMeshDependencyMode: Enum
 ---@field Auto Enum 0

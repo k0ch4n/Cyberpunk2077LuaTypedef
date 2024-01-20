@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedInputSetters
 ---@field public serverReplicatedTime netTime

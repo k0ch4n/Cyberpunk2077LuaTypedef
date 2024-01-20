@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetActiveItemInEquipmentArea: gamePlayerScriptableSystemRequest
 ---@field public itemID gameItemID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMetroSignLogicController: inkIStreetNameSignLogicController
 ---@field public stationName inkTextWidgetReference

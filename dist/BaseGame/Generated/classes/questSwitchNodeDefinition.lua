@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSwitchNodeDefinition: questDisableableNodeDefinition
 ---@field public behaviour questESwitchBehaviourType

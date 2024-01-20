@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataImprovementRelation: Enum
 ---@field Direct Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorInventoryItemData: WrappedInventoryItemData
 ---@field public IsVendorItem Bool

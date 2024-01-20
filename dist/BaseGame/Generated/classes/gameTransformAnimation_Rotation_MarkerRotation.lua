@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Rotation_MarkerRotation: gameTransformAnimation_Rotation
 ---@field public markerNode NodeRef

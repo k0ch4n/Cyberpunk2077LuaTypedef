@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyDamagePerHackEffector: ModifyDamageEffector
 ---@field public countOnlyUnique Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamCompiledPhysics: meshMeshParameter
 ---@field public collection physicsDeferredCollection

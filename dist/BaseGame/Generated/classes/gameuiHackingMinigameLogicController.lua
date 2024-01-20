@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHackingMinigameLogicController: inkWidgetLogicController
 ---@field public grid inkUniformGridWidgetReference

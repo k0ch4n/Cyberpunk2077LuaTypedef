@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventPostponedParameterFloat: gamestateMachineeventPostponedParameterBase
 ---@field public value Float

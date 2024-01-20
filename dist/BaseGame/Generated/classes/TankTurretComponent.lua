@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TankTurretComponent: gameScriptableComponent
 ---@field public attackRecord TweakDBID

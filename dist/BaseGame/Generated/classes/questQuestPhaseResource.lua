@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questQuestPhaseResource: graphGraphResource
 ---@field public phasePrefabs questQuestPrefabEntry[]

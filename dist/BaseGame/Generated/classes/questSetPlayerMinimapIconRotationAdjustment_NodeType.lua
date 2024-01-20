@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetPlayerMinimapIconRotationAdjustment_NodeType: questIUIManagerNodeType
 ---@field public rotationAdjustment Float

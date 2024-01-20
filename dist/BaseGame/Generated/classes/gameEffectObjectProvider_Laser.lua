@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_Laser: gameEffectObjectProvider_PhysicalRay
 ---@field public inputTracesPerSecond Uint32

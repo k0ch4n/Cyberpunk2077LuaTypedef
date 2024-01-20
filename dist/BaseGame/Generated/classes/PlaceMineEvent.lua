@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlaceMineEvent: redEvent
 ---@field public position Vector4

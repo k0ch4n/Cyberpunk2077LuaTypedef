@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioElevatorSettings: audioEntitySettings
 ---@field public musicEvents audioMusicController

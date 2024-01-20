@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class envUtilsReflectionProbeAmbientContributionMode: Enum
 ---@field eNO_AMBIENT_CONTRIBUTION Enum 0

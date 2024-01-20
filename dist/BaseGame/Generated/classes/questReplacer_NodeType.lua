@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questReplacer_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public enable Bool

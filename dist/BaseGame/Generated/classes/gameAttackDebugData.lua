@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttackDebugData
 ---@field public pointOfViewTransform WorldTransform

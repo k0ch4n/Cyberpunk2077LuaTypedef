@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetCompressedInputStates
 ---@field public usesCompression Bool

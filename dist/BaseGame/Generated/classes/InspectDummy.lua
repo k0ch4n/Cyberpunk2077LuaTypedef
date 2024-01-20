@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectDummy: gameObject
 ---@field public mesh entPhysicalMeshComponent

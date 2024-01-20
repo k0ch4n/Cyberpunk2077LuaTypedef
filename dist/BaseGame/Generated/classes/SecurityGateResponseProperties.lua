@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGateResponseProperties
 ---@field public securityGateResponseType ESecurityGateResponseType

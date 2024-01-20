@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animRigIk2Setup: animIRigIkSetup
 ---@field public firstBone CName

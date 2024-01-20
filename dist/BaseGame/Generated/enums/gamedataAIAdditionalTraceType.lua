@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIAdditionalTraceType: Enum
 ---@field Chest Enum 0

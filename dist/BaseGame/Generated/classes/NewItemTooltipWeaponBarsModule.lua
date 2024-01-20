@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipWeaponBarsModule: NewItemTooltipModuleController
 ---@field public wrapper inkWidgetReference

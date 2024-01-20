@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationGenderSelectionMenu: gameuiBaseCharacterCreationController
 ---@field public streetRat_male inkWidgetReference

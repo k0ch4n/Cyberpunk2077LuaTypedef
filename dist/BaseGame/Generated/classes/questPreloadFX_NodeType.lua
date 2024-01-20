@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPreloadFX_NodeType: questIFXManagerNodeType
 ---@field public params questPreloadFX_NodeTypeParams[]

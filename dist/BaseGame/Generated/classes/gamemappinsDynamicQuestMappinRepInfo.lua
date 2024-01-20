@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsDynamicQuestMappinRepInfo
 ---@field public journalPathHash Uint32

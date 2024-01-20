@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DrillScanEvent: redEvent
 ---@field public IsScanning Bool

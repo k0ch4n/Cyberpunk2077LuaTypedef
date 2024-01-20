@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBlackboardPropertyBindingDefinition
 ---@field public serializableID gameBlackboardSerializableID

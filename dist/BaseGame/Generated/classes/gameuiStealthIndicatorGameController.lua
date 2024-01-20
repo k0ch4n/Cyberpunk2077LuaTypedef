@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiStealthIndicatorGameController: gameuiHUDGameController
 ---@field private rootWidget inkCompoundWidget

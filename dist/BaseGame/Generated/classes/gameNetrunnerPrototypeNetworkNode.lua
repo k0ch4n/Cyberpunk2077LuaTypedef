@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNetrunnerPrototypeNetworkNode: gameObject
 ---@field public colorIndex Int8

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseSimpleSphere: senseIShape
 ---@field public sphere Sphere

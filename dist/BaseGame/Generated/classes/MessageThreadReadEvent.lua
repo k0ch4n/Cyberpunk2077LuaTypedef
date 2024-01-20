@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageThreadReadEvent: redEvent
 ---@field public parentHash Int32

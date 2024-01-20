@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterPowerUpList_Record: gamedataTweakDBRecord
 gamedataShooterPowerUpList_Record = {}

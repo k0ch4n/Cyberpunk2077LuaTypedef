@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseSimpleBox: senseIShape
 ---@field public box Box

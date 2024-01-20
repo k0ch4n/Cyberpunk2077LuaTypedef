@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectSet: CResource
 ---@field public effects gameEffectDefinition[]

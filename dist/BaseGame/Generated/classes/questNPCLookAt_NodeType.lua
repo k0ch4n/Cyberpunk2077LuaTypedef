@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questNPCLookAt_NodeType: questISceneManagerNodeType
 ---@field public puppetRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Dangle: animAnimNode_OnePoseInput
 ---@field public dangleConstraint animDangleConstraint_Simulation

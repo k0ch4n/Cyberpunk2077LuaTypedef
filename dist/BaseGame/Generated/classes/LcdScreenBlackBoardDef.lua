@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LcdScreenBlackBoardDef: DeviceBaseBlackboardDef
 ---@field public MessegeData gamebbScriptID_Variant

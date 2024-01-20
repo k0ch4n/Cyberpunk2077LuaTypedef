@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleSummonDataDef: gamebbScriptDefinition
 ---@field public GarageState gamebbScriptID_Uint32

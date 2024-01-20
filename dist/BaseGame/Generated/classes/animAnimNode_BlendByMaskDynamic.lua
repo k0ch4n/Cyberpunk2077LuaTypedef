@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendByMaskDynamic: animAnimNode_Base
 ---@field public base animPoseLink

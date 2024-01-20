@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestStep: IScriptable
 ---@field public stepName CName

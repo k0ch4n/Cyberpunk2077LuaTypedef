@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AssignRestrictMovementAreaTask: AIbehaviortaskScript
 ---@field public restrictMovementAreaRef AIArgumentMapping

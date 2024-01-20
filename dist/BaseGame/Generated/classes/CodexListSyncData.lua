@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexListSyncData: IScriptable
 ---@field public entryHash Int32

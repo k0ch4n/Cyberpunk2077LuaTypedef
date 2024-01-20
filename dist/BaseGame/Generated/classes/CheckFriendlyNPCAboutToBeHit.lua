@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckFriendlyNPCAboutToBeHit: StatusEffectTasks
 ---@field public outStatusArgument AIArgumentMapping

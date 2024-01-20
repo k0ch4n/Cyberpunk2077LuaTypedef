@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionShootFromCar_Record_Implementation: IScriptable
 AISubActionShootFromCar_Record_Implementation = {}

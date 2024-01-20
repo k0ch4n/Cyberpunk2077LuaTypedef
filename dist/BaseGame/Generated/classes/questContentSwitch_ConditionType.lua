@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questContentSwitch_ConditionType: questISystemConditionType
 ---@field public switchName CName

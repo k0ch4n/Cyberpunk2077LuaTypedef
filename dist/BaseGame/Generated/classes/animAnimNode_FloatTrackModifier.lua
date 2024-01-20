@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FloatTrackModifier: animAnimNode_Base
 ---@field public floatTrack animNamedTrackIndex

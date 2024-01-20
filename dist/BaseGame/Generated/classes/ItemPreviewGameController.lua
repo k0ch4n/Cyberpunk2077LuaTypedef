@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemPreviewGameController: gameuiItemPreviewGameController
 ---@field private colliderWidgetRef inkWidgetReference

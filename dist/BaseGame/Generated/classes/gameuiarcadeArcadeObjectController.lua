@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeArcadeObjectController: inkWidgetLogicController
 ---@field public image inkWidgetReference

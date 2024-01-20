@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FSR2CustomData: ICameraStorageCustomData
 FSR2CustomData = {}

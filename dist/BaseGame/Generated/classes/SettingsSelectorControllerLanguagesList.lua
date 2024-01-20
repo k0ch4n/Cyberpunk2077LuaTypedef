@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsSelectorControllerLanguagesList: SettingsSelectorControllerListName
 ---@field protected downloadButton inkWidgetReference

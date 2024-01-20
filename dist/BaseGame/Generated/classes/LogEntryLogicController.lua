@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LogEntryLogicController: inkWidgetLogicController
 ---@field private root inkWidget

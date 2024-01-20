@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animESpace: Enum
 ---@field Local Enum 0

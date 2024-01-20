@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_RoboticArm: animAnimFeature
 ---@field public state Int32

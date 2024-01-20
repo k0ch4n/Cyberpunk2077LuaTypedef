@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldWeatherState: ISerializable
 ---@field public minDuration curveData

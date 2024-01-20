@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveSecureFootingParameters
 ---@field public unsecureCollisionFilterName CName

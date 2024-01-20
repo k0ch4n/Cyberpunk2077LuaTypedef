@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataParentAttachmentType_Record: gamedataTweakDBRecord
 gamedataParentAttachmentType_Record = {}

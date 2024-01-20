@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetTimeDilationEffector: gameEffector
 ---@field public owner gameObject

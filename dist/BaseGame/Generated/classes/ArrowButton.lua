@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArrowButton: inkButtonController
 ---@field private direction Direction

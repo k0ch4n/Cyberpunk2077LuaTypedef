@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceHackTier: Enum
 ---@field Tier1DeviceHack Enum 0

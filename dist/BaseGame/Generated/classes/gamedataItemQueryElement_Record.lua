@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemQueryElement_Record: gamedataLootTableElement_Record
 gamedataItemQueryElement_Record = {}

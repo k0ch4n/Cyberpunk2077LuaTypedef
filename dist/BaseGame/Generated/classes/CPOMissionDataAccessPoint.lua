@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CPOMissionDataAccessPoint: CPOMissionDevice
 ---@field protected hasDataToDownload Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSmartObjectWorkspotDefinition: gameSmartObjectDefinition
 ---@field public workspotTemplate workWorkspotResource

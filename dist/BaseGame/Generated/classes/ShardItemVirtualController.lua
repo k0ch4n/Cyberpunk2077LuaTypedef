@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardItemVirtualController: inkVirtualCompoundItemController
 ---@field private icon inkWidgetReference

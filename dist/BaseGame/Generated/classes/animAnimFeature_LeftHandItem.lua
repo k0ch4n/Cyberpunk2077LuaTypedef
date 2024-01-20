@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_LeftHandItem: animAnimFeature
 ---@field public itemInLeftHand Bool

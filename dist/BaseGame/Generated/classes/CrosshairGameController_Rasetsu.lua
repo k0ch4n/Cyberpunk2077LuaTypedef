@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Rasetsu: gameuiCrosshairBaseGameController
 ---@field public hipFire inkWidgetReference

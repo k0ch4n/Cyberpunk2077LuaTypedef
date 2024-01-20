@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LightSwitchRequest: redEvent
 ---@field public requestNumber Int32

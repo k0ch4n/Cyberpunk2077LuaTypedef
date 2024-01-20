@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMeleeAttackType: Enum
 ---@field Combo Enum 0

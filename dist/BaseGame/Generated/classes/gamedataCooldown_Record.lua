@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCooldown_Record: gamedataTweakDBRecord
 gamedataCooldown_Record = {}

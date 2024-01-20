@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAdditionalTransformEntry: ISerializable
 ---@field public transformInfo animTransformInfo

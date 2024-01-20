@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleSummonStartedEvent: redEvent
 ---@field public state vehicleSummonState

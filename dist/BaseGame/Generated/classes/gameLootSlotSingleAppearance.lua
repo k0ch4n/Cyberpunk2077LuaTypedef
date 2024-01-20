@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootSlotSingleAppearance: gameLootSlotSingleItem
 ---@field public lootAppearance CName

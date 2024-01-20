@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EColorChannel: Enum
 ---@field COLCHANNEL_Red Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldLightChannelShapeNode: worldGeometryShapeNode
 ---@field public channels rendLightChannel

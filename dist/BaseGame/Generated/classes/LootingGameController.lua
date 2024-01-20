@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootingGameController: gameuiWidgetGameController
 ---@field private dataManager InventoryDataManagerV2

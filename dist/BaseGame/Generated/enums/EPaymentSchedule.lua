@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPaymentSchedule: Enum
 ---@field WEEKLY Enum 0

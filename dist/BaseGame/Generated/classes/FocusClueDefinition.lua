@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FocusClueDefinition
 ---@field public extendedClueRecords ClueRecordData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioKeyUiControlDictionary: audioInlinedAudioMetadata
 ---@field public entries audioKeyUiControlPairDictionaryItem[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestMappinController: gameuiQuestMappinController
 ---@field protected arrowCanvas inkWidgetReference

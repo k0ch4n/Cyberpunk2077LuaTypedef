@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAimAssistBulletMagnetism_Record: gamedataTweakDBRecord
 gamedataAimAssistBulletMagnetism_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeaponVFXAction_Record: gamedataTweakDBRecord
 gamedataWeaponVFXAction_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGameplayLogicPackage_Record: gamedataTweakDBRecord
 gamedataGameplayLogicPackage_Record = {}

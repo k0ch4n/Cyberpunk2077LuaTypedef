@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraCustomData_CPFocusMode: ICameraStorageCustomData
 CameraCustomData_CPFocusMode = {}

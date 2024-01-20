@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsSystemResource: CResource
 ---@field public bodies physicsSystemBody[]

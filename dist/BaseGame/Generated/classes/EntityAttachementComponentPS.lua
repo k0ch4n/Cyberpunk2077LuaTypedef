@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EntityAttachementComponentPS: gameComponentPS
 ---@field private pendingChildAttachements EntityAttachementData[]

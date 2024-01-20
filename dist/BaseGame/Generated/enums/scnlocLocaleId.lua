@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnlocLocaleId: Enum
 ---@field db_db Enum 0

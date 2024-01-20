@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAdvertisementFormatDef_Record: gamedataTweakDBRecord
 gamedataAdvertisementFormatDef_Record = {}

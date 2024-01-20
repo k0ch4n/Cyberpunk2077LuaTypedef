@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayRadioArgs: IScriptable
 ---@field public instance ScriptGameInstance

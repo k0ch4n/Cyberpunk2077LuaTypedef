@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Power_Overture: gameuiCrosshairBaseGameController
 ---@field private leftPart inkWidgetReference

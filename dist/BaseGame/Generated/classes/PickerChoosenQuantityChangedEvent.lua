@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PickerChoosenQuantityChangedEvent: inkGameNotificationData
 ---@field public choosenQuantity Int32

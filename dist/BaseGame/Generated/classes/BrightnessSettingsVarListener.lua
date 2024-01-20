@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BrightnessSettingsVarListener: userSettingsVarListener
 ---@field private ctrl BrightnessSettingsGameController

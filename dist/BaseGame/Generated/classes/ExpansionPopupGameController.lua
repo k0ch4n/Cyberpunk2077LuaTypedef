@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionPopupGameController: gameuiWidgetGameController
 ---@field private popupCanvasAnchor inkWidgetReference

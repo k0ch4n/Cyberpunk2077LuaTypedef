@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DrawNetworkSquadEvent: redEvent
 ---@field public shouldDraw Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareSlotTooltipData: ATooltipData
 ---@field public Empty Bool

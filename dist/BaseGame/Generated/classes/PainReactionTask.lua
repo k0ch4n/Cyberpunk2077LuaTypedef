@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PainReactionTask: AIHitReactionTask
 ---@field protected weaponOverride AnimFeature_WeaponOverride

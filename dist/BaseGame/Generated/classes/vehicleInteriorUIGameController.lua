@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleInteriorUIGameController: gameuiHUDGameController
 ---@field private vehicleBlackboard gameIBlackboard

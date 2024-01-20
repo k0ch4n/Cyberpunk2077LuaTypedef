@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTooltipsManager: inkWidgetLogicController
 ---@field public tooltipsContainer inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnWorkspotData_ExternalWorkspotResource: scnWorkspotData
 ---@field public workspotResource workWorkspotResource

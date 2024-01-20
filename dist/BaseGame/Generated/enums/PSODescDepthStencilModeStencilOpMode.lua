@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescDepthStencilModeStencilOpMode: Enum
 ---@field STENCILOP_Keep Enum 0

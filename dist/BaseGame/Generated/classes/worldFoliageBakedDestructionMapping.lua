@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageBakedDestructionMapping: worldFoliageDestructionMapping
 ---@field public numFrames Float

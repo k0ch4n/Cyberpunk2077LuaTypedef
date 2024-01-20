@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MonowireSpreadableNPC: IScriptable
 ---@field public NPCPuppet NPCPuppet

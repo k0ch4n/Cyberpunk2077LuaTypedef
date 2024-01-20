@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyGroupingNormals: Enum
 ---@field Around_Core_Axis Enum 0

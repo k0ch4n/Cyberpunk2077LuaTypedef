@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomActionOperations: DeviceOperations
 ---@field public customActions SCustomDeviceActionsData

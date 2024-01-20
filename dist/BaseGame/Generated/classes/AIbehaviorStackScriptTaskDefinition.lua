@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorStackScriptTaskDefinition: AIbehaviorTaskDefinition
 ---@field public script AIbehaviortaskStackScript

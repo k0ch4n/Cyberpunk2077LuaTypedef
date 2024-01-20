@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMVitals: Enum
 ---@field Alive Enum 0

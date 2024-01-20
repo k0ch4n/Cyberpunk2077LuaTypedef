@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorScriptEventResolverDefinition: AIbehaviorEventResolverDefinition
 ---@field public script AIbehavioreventResolverScript

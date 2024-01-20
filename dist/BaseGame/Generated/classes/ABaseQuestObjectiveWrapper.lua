@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ABaseQuestObjectiveWrapper: AJournalEntryWrapper
 ---@field protected questObjective gameJournalQuestObjectiveBase

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Launcher: gameuiCrosshairBaseGameController
 ---@field private weaponBBID redCallbackObject

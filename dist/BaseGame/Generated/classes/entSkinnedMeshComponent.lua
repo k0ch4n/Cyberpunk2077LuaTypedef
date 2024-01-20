@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entSkinnedMeshComponent: entISkinTargetComponent
 ---@field public mesh CMesh

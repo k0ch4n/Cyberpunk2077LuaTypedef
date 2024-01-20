@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankDestroyableObject_Record: gamedataArcadeCollidableObject_Record
 gamedataTankDestroyableObject_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputContextTransitionEvents: InputContextTransition
 ---@field public gameplaySettings GameplaySettingsSystem

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConnectedToBackdoorPrereq: gameIScriptablePrereq
 ---@field public invert Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShouldExitVehicle: AIVehicleConditionAbstract
 ---@field protected bb gameIBlackboard

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVertexAnimationComponent: entIComponent
 ---@field public vertexAnimationMapper entVertexAnimationMapper

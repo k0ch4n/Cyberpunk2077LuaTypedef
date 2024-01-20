@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAVSpawnPointsRequestResult
 ---@field public requestID Uint32

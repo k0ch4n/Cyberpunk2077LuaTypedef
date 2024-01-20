@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnMarkerType: Enum
 ---@field Local Enum 0

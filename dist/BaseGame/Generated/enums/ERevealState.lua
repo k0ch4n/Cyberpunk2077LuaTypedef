@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERevealState: Enum
 ---@field STARTED Enum 0

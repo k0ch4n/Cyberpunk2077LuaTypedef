@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataXPPoints_Record: gamedataTweakDBRecord
 gamedataXPPoints_Record = {}

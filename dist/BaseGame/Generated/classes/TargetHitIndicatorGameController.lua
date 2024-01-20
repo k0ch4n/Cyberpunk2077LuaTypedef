@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetHitIndicatorGameController: gameuiWidgetGameController
 ---@field private currentAnim inkanimProxy

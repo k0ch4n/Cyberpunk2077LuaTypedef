@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleStyleManagerGameController: gameuiWidgetGameController
 ---@field public stylePath1 redResourceReferenceScriptToken

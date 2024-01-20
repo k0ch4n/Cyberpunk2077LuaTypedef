@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RoadBlockControllerPS: ScriptableDeviceComponentPS
 ---@field protected isBlocking Bool

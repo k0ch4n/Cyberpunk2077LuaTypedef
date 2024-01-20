@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuadRacerGameController: gameuiSideScrollerMiniGameController
 ---@field private gameMenu inkWidgetReference

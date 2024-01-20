@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioShockwaveGlobalSettings: audioAudioMetadata
 ---@field public explosionPropagationSpeed Float

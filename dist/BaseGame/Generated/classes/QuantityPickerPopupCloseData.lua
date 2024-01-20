@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuantityPickerPopupCloseData: inkGameNotificationData
 ---@field public choosenQuantity Int32

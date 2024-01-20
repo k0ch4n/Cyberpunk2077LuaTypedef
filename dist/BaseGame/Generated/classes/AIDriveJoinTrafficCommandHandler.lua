@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDriveJoinTrafficCommandHandler: AICommandHandlerBase
 ---@field protected outUseKinematic AIArgumentMapping

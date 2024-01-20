@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_WorkspotAnim: animAnimNode_Base
 ---@field public collectEvents Bool

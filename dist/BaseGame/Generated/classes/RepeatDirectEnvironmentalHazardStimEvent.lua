@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RepeatDirectEnvironmentalHazardStimEvent: redEvent
 ---@field public target gameObject

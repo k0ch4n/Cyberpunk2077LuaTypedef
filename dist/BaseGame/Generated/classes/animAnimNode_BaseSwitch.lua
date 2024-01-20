@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BaseSwitch: animAnimNode_Base
 ---@field public blendTime Float

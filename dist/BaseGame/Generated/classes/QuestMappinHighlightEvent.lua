@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestMappinHighlightEvent: redEvent
 ---@field public hash Uint32

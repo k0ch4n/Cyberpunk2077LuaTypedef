@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EBarkList: Enum
 ---@field vo_enemy_reaction_surprised_combat_start Enum 0

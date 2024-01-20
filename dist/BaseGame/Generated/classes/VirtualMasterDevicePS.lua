@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirtualMasterDevicePS: ScriptableDeviceComponentPS
 ---@field public owner IScriptable

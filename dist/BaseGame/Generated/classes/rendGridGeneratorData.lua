@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendGridGeneratorData
 ---@field public startingPosition Vector3

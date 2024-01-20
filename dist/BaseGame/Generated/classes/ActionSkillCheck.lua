@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionSkillCheck: ActionBool
 ---@field protected skillCheck SkillCheckBase

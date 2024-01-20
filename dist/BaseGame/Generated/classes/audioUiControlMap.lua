@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioUiControlMap: audioAudioMetadata
 ---@field public uiControlsByName audioKeyUiControlDictionary

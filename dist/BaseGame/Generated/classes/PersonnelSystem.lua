@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PersonnelSystem: DeviceSystemBase
 ---@field private EnableE3QuickHacks Bool

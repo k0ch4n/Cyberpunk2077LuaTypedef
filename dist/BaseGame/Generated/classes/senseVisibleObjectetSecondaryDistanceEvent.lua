@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseVisibleObjectetSecondaryDistanceEvent: redEvent
 ---@field public distance Float

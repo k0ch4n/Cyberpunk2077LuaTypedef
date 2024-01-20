@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicShape_Text: vgBaseVectorGraphicShape
 ---@field public xt String

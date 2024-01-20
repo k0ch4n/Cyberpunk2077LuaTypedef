@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNewsFeedTitle_Record: gamedataTweakDBRecord
 gamedataNewsFeedTitle_Record = {}

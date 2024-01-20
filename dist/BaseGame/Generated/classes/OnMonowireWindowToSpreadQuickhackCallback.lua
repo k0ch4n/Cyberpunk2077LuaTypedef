@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnMonowireWindowToSpreadQuickhackCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field public MonoWireApplyQuickhackEffector MonoWireQuickHackApplyEffector

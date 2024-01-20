@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RestoreVisualSlot: redEvent
 ---@field public slot TransmogSlots

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatPoolData
 ---@field public ownerID gameStatsObjectID

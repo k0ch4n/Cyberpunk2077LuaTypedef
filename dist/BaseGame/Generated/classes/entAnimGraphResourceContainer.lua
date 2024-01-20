@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimGraphResourceContainer: entIComponent
 ---@field public animGraphLookupTable entAnimGraphResourceContainerEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TCSInputDeviceAttack: redEvent
 ---@field public value Bool

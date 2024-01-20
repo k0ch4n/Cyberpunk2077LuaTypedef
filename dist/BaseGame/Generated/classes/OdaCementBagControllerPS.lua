@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OdaCementBagControllerPS: ScriptableDeviceComponentPS
 ---@field protected cementEffectCooldown Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceLinkComponentPS: SharedGameplayPS
 ---@field private parentDevice DeviceLink

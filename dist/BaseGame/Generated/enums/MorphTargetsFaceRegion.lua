@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MorphTargetsFaceRegion: Enum
 ---@field FACE_REGION_EYES Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TabRadioGroup: inkRadioGroupController
 ---@field private root inkCompoundWidgetReference

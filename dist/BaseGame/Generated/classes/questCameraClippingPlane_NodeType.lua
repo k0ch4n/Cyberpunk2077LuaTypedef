@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCameraClippingPlane_NodeType: questISceneManagerNodeType
 ---@field public preset questCameraPlanesPreset

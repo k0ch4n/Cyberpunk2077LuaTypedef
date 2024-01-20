@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemappinsVerticalPositioning: Enum
 ---@field Above Enum 0

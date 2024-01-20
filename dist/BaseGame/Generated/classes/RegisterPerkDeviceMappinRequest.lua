@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterPerkDeviceMappinRequest: gameScriptableSystemRequest
 ---@field public ownerID entEntityID

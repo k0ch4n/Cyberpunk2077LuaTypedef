@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEmitterGroup: Enum
 ---@field EG_Default Enum 0

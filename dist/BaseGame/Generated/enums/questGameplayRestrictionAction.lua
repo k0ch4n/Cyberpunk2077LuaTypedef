@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGameplayRestrictionAction: Enum
 ---@field AddRestriction Enum 0

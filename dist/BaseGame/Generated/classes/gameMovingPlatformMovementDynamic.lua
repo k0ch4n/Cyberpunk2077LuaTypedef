@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformMovementDynamic: gameIMovingPlatformMovementPointToPoint
 ---@field public curveName CName

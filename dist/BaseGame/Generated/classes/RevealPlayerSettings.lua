@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealPlayerSettings
 ---@field public revealPlayer ERevealPlayerType

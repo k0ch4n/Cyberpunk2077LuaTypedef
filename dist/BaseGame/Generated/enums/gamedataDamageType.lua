@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDamageType: Enum
 ---@field Chemical Enum 0

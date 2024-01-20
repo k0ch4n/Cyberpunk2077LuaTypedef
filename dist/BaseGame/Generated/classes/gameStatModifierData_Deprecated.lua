@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatModifierData_Deprecated: IScriptable
 ---@field public statType gamedataStatType

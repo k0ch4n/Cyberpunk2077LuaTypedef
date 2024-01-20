@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgramTooltipStatController: inkWidgetLogicController
 ---@field private arrow inkImageWidgetReference

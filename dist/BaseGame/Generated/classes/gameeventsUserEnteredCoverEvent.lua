@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsUserEnteredCoverEvent: redEvent
 ---@field public actionsPoints WorldTransform[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SBaseActionOperationData
 ---@field public action ScriptableDeviceAction

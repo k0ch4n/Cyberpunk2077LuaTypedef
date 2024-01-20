@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsCAabbDefinition: gameinteractionsIShapeDefinition
 ---@field public min Vector4

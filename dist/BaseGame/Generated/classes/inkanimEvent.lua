@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimEvent: IScriptable
 ---@field public startTime Float

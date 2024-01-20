@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFastTravelDeviceType: Enum
 ---@field DataTerm Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventImpulse: gamestateMachineeventBaseEvent
 ---@field public impulse Vector4

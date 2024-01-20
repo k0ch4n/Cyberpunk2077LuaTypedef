@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemRequirementsManager: IScriptable
 ---@field private itemRequiredLevel Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectTriggerEffectDesc: ISerializable
 ---@field public effect worldEffect

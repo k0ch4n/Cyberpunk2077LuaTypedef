@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveAdControllerPS: ScriptableDeviceComponentPS
 ---@field protected showAd Bool

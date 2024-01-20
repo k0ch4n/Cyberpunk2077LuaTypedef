@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenWorldMapNotificationAction: GenericNotificationBaseAction
 ---@field public eventDispatcher worlduiIWidgetGameController

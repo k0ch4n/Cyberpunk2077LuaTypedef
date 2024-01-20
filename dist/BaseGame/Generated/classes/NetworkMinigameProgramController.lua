@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkMinigameProgramController: inkWidgetLogicController
 ---@field protected text inkTextWidgetReference

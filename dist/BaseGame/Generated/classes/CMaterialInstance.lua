@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialInstance: IMaterial
 ---@field public baseMaterial IMaterial

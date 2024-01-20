@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatPoolsSystemSave: ISerializable
 ---@field public mapping gameStatsObjectID[]

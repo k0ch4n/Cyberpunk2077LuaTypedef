@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePhantomEntityComponent: entIComponent
 ---@field public params gamePhantomEntityParameters

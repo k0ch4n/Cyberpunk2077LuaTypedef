@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatusEffectManagerComponent: AIMandatoryComponents
 ---@field private weaponDropedInWounded Bool

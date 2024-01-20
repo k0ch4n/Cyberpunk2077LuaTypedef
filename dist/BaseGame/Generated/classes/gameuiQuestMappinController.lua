@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiQuestMappinController: gameuiInteractionMappinController
 ---@field public nameplateVisible Bool

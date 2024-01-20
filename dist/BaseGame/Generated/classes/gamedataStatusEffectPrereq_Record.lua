@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatusEffectPrereq_Record: gamedataIPrereq_Record
 gamedataStatusEffectPrereq_Record = {}

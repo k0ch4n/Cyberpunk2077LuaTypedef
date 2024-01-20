@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FillTakeOverChainBBoardEvent: redEvent
 ---@field public requesterID gamePersistentID

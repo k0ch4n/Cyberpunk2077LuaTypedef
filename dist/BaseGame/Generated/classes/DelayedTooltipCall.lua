@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedTooltipCall: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field public controller UpgradingScreenController

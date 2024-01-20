@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EventEquipSlotSelectDelayedInventoryEvent: redEvent
 ---@field public controller InventoryItemDisplayController

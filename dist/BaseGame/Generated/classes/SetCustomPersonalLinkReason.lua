@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetCustomPersonalLinkReason: ScriptableDeviceAction
 ---@field public reason TweakDBID

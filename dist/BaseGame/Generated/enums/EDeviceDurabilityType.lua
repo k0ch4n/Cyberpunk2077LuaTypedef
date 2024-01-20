@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDeviceDurabilityType: Enum
 ---@field INVULNERABLE Enum 0

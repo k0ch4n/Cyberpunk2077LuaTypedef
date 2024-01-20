@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAvailableVehicleType: Enum
 ---@field AnyCar Enum 0

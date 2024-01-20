@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAssignGuardAreaCommand: AICommand
 ---@field public restrictMovementAreaRef NodeRef

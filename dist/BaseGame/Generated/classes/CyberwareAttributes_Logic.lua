@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareAttributes_Logic: inkWidgetLogicController
 ---@field protected textValue inkTextWidgetReference

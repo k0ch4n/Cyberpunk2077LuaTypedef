@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_NewEffect_ChimeraMissileExplosion: gameEffectPostAction
 ---@field public tagInThisFile CName

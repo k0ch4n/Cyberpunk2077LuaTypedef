@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointControllerPS: BasicDistractionDeviceControllerPS
 ---@field private vendorRecord String

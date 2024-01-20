@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudRecordingController: gameuiHUDGameController
 ---@field private root inkCompoundWidget

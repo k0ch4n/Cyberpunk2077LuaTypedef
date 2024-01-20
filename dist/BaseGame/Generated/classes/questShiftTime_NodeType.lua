@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShiftTime_NodeType: questITimeManagerNodeType
 ---@field public timeShiftType questETimeShiftType

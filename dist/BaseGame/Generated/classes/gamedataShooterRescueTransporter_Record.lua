@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterRescueTransporter_Record: gamedataShooterAI_Record
 gamedataShooterRescueTransporter_Record = {}

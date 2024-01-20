@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectObjectProvider_VentilationAreaEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_VentilationAreaEntities = {}

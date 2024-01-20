@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_PhysicalFractureField: gameEffectExecutor
 ---@field public fromHitPosition Bool

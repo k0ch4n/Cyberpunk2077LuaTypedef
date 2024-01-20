@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questToggleCombatForPlayer_NodeType: questIVehicleManagerNodeType
 ---@field public startCombat Bool

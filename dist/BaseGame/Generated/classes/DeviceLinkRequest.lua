@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceLinkRequest: redEvent
 ---@field private deviceLink DeviceLink

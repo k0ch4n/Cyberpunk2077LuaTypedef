@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidAnimationSRRef
 ---@field public resourceId scnRidResourceId

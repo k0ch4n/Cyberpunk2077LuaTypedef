@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UseCoverCommandHandler: AIbehaviortaskScript
 ---@field protected inCommand AIArgumentMapping

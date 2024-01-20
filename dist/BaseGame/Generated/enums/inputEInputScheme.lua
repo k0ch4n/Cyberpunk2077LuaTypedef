@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inputEInputScheme: Enum
 ---@field LEGACY Enum 0

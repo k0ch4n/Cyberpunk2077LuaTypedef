@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AmmoLogicController: inkWidgetLogicController
 ---@field protected count Uint32

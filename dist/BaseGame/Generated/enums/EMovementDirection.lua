@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMovementDirection: Enum
 ---@field left Enum 0

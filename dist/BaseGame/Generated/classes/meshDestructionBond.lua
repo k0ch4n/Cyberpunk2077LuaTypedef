@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshDestructionBond
 ---@field public bondIndex Uint16

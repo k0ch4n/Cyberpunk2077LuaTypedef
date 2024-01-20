@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KiroshiHighlightEffector: HighlightEffector
 ---@field private onlyWhileAiming Bool

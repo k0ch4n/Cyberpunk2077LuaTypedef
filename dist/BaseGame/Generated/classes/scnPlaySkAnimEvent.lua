@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPlaySkAnimEvent: scnPlayFPPControlAnimEvent
 ---@field public animName scnAnimName

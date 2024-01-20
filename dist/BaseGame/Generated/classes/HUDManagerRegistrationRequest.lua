@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDManagerRegistrationRequest: HUDManagerRequest
 ---@field public isRegistering Bool

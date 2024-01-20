@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetDef: gamebbScriptDefinition
 ---@field public IsCrowd gamebbScriptID_Bool

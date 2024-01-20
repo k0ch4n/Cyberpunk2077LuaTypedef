@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatusEffectBase: IScriptable
 ---@field public statusEffectRecordID TweakDBID

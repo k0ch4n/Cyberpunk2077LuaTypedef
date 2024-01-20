@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendHairProfileGradientEntry: ISerializable
 ---@field public value Float

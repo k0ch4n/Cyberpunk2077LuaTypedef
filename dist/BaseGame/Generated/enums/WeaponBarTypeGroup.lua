@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponBarTypeGroup: Enum
 ---@field AttackSpeed Enum 0

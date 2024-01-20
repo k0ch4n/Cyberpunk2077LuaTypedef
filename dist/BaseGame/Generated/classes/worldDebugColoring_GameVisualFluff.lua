@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_GameVisualFluff: worldEditorDebugColoringSettings
 worldDebugColoring_GameVisualFluff = {}

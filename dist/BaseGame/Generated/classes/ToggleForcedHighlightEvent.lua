@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleForcedHighlightEvent: redEvent
 ---@field public sourceName CName

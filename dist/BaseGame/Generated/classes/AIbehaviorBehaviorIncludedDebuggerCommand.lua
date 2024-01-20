@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorBehaviorIncludedDebuggerCommand: AIbehaviorIDebuggerCommand
 ---@field public entries AIbehaviorBehaviorIncludedDebuggerCommandEntry[]

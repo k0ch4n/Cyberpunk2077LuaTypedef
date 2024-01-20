@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadItemCategoryPriorityFilter_Record: gamedataAISquadItemPriorityFilter_Record
 gamedataAISquadItemCategoryPriorityFilter_Record = {}

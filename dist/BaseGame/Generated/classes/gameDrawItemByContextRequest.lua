@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDrawItemByContextRequest: gamePlayerScriptableSystemRequest
 ---@field public itemEquipContext gameItemEquipContexts

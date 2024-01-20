@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ContactsSortMethod: Enum
 ---@field ByTime Enum 0

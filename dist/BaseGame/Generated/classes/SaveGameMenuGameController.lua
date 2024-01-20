@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SaveGameMenuGameController: gameuiSaveHandlingController
 ---@field private list inkCompoundWidgetReference

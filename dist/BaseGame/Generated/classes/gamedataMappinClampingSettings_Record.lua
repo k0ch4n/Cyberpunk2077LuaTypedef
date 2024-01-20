@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinClampingSettings_Record: gamedataTweakDBRecord
 gamedataMappinClampingSettings_Record = {}

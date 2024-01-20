@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VisibilitySimpleControllerBase: inkWidgetLogicController
 ---@field public affectedWidgets CName[]

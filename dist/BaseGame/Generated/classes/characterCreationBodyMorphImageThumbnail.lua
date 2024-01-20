@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationBodyMorphImageThumbnail: inkButtonAnimatedController
 ---@field public selector inkWidgetReference

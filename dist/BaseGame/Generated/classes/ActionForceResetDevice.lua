@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionForceResetDevice: ActionBool
 ---@field public restartDuration Int32

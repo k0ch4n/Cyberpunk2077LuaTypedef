@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGrenadeDeliveryMethodType_Record: gamedataTweakDBRecord
 gamedataGrenadeDeliveryMethodType_Record = {}

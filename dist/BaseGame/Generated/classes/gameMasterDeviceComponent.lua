@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMasterDeviceComponent: gameComponent
 ---@field public clearance gamedeviceClearance

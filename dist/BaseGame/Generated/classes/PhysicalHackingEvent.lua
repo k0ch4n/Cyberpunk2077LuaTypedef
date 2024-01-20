@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhysicalHackingEvent: redEvent
 ---@field public deviceName String

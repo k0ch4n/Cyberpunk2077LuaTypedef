@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameReplAnimTransformRequestBase
 ---@field public applyServerTime netTime

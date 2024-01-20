@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_RegistrySystem: gameScriptableSystem
 ---@field public container inkScriptHashMap

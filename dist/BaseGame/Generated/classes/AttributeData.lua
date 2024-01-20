@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttributeData: IDisplayData
 ---@field public label String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPaymentCondition: questTypedCondition
 ---@field public type questIPayment_ConditionType

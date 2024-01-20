@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLookAtDrivenTurnsMode: Enum
 ---@field Start Enum 0

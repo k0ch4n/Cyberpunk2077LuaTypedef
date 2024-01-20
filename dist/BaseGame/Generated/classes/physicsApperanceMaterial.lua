@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsApperanceMaterial
 ---@field public apperanceName CName

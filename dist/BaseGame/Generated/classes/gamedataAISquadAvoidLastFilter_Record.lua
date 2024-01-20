@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadAvoidLastFilter_Record: gamedataAITicketFilter_Record
 gamedataAISquadAvoidLastFilter_Record = {}

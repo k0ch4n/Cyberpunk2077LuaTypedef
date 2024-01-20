@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KerenzikovDecisions: TimeDilationTransitions
 ---@field public statListener DefaultTransitionStatListener

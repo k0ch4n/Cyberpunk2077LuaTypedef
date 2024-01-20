@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataOwnerAngleCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataOwnerAngleCoverSelectionParameters_Record = {}

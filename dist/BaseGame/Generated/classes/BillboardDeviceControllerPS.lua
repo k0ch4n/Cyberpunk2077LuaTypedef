@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BillboardDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field public glitchSFX CName

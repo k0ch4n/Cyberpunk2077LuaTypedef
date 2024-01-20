@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBreachUITrackingChange: Enum
 ---@field NoChange Enum 0

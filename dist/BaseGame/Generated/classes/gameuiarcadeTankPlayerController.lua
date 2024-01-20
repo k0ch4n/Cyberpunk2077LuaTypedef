@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankPlayerController: gameuiarcadeArcadePlayerController
 ---@field public avatarRef inkWidgetReference

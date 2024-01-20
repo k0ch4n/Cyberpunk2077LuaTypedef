@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorParallelNodeWaitFor: Enum
 ---@field LeftChild Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSenseObjectType: Enum
 ---@field Camera Enum 0

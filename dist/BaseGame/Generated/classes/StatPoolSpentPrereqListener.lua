@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolSpentPrereqListener: BaseStatPoolPrereqListener
 ---@field protected state StatPoolSpentPrereqState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInventory_ConditionType: questIObjectConditionType
 ---@field public objectRef gameEntityReference

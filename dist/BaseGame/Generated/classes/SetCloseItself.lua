@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetCloseItself: redEvent
 ---@field public automaticallyClosesItself Bool

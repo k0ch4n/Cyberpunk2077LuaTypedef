@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JukeboxBigGameController: DeviceInkGameControllerBase
 ---@field private onTogglePlayListener redCallbackObject

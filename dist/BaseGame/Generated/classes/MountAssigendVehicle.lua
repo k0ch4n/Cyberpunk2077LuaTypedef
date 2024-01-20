@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MountAssigendVehicle: AIVehicleTaskAbstract
 ---@field private result AIbehaviorUpdateOutcome

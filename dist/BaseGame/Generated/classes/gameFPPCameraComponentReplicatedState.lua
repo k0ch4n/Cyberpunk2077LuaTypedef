@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFPPCameraComponentReplicatedState: netIComponentState
 ---@field public ["lookAtData.m_pitchInput"] Float

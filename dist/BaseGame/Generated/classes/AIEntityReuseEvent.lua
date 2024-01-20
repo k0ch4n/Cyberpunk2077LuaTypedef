@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIEntityReuseEvent: AIAIEvent
 ---@field public destination worldGlobalNodeID

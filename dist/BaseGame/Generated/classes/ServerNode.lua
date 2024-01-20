@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ServerNode: InteractiveDevice
 ---@field private minWeaponCharge Float

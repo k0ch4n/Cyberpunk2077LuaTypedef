@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SingleplayerMenuData: inkUserData
 ---@field public mainMenuShownFirstTime Bool

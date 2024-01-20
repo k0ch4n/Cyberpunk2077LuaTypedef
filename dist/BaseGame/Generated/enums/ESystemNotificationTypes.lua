@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESystemNotificationTypes: Enum
 ---@field DiscOperationIndicator Enum 0

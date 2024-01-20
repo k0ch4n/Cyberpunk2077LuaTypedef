@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityPhaseTimePeriod: communityTimePeriod
 ---@field public quantity Uint16

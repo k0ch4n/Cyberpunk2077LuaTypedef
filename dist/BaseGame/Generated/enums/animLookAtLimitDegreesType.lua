@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtLimitDegreesType: Enum
 ---@field Narrow Enum 0

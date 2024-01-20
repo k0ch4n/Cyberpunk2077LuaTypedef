@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LookAtPose360: animAnimNode_Base
 ---@field public speedInDegreesPerSecond Float

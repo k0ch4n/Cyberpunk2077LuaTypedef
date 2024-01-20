@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInputHintSortingPriority: Enum
 ---@field Top Enum -2147483648

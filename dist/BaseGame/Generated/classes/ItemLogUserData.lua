@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemLogUserData: inkGameNotificationData
 ---@field public itemID gameItemID

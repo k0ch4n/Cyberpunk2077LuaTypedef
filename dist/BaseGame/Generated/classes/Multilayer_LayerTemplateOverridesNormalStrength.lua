@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_LayerTemplateOverridesNormalStrength
 ---@field public n CName

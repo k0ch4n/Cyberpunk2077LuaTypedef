@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldWaterPatchNode: worldMeshNode
 ---@field public type worldWaterPatchNodeType

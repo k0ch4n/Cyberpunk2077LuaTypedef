@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargeIndicatorGameController: ChargedHotkeyItemBaseController
 ---@field private itemIcon inkImageWidgetReference

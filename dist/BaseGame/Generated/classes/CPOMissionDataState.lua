@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CPOMissionDataState: IScriptable
 ---@field public CPOMissionDataDamagesPreset CName

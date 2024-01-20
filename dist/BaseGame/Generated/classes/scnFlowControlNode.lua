@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnFlowControlNode: scnSceneGraphNode
 ---@field public isOpen Bool

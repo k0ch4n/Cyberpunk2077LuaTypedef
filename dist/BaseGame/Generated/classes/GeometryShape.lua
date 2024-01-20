@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GeometryShape: ISerializable
 ---@field public vertices Vector3[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsHitCharacterControllerEvent: redEvent
 ---@field public entity entEntity

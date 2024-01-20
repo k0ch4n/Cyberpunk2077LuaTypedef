@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_PhysicalImpulseFromInstigator: gameEffectExecutor
 gameEffectExecutor_PhysicalImpulseFromInstigator = {}

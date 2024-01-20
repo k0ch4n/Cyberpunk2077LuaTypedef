@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIGateSignalFlags: Enum
 ---@field AIGSF_Undefined Enum 0

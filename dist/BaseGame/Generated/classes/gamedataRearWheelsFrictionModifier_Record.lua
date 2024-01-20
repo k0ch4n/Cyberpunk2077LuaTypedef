@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRearWheelsFrictionModifier_Record: gamedataDriveHelper_Record
 gamedataRearWheelsFrictionModifier_Record = {}

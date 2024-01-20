@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_SceneItem: animAnimEvent
 ---@field public boneName CName

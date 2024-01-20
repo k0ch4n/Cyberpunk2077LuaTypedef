@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_RagdollControl: animAnimNode_Base
 ---@field public blendInDuration Float

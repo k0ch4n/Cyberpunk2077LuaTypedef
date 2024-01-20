@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFearStage: Enum
 ---@field Relaxed Enum 0

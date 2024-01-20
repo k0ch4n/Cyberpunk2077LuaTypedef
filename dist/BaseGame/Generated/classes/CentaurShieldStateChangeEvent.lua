@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CentaurShieldStateChangeEvent: redEvent
 ---@field public newState ECentaurShieldState

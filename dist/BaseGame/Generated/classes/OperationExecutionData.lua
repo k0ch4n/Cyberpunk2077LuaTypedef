@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OperationExecutionData: IScriptable
 ---@field public operationName CName

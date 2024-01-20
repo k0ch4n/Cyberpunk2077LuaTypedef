@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemStructure: Enum
 ---@field BlueprintStackable Enum 0

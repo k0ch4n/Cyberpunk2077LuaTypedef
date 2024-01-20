@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataIconsGeneratorContext_Record: gamedataTweakDBRecord
 gamedataIconsGeneratorContext_Record = {}

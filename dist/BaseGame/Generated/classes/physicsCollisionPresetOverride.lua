@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsCollisionPresetOverride
 ---@field public from CName

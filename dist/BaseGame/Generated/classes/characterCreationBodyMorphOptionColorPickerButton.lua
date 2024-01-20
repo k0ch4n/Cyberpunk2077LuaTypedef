@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationBodyMorphOptionColorPickerButton: inkWidgetLogicController
 ---@field private background inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameRemoveCooldownRequest
 ---@field public id Uint32

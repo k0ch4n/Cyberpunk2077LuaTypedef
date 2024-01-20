@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DamageTypePrereq: GenericHitPrereq
 ---@field public damageType gamedataDamageType

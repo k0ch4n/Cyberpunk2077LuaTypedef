@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickHackMappinController: gameuiInteractionMappinController
 ---@field private bar inkWidgetReference

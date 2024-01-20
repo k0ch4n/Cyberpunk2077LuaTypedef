@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DetectionParameters
 ---@field public canDetectIntruders Bool

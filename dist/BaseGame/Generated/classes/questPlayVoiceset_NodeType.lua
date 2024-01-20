@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayVoiceset_NodeType: questIVoicesetManager_NodeType
 ---@field public params questPlayVoiceset_NodeTypeParams[]

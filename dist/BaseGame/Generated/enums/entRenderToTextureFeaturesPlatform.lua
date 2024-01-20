@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRenderToTextureFeaturesPlatform: Enum
 ---@field RTFP_All Enum 0

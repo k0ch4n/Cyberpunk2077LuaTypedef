@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkInkGameController: gameuiWidgetGameController
 ---@field private turn String

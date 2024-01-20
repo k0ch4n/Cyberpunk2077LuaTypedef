@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityEventScopeSettings: Enum
 ---@field GLOBAL Enum 0

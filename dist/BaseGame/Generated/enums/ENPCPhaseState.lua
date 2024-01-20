@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ENPCPhaseState: Enum
 ---@field Phase1 Enum 0

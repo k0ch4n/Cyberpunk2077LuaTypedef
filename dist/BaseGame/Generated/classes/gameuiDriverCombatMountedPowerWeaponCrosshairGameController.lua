@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDriverCombatMountedPowerWeaponCrosshairGameController: gameuiCrosshairBaseGameController
 ---@field private reticleLeft inkWidgetReference

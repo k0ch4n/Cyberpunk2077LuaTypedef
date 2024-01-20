@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DEBUG_ItemRebalancer: gameObject
 ---@field public nodeRef NodeRef

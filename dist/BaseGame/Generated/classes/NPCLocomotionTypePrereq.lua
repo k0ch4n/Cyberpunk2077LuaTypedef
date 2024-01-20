@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCLocomotionTypePrereq: gameIScriptablePrereq
 ---@field public locomotionMode gamedataLocomotionMode[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDeviceAreaAttack_Record: gamedataAttack_GameEffect_Record
 gamedataDeviceAreaAttack_Record = {}

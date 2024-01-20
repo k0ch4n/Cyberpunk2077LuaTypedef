@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemScriptFilter: Enum
 ---@field Melee Enum 1

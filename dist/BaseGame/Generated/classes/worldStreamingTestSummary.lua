@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStreamingTestSummary: ISerializable
 ---@field public gameDefinition String

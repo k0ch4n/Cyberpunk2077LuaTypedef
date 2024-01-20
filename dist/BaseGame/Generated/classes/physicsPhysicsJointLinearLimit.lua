@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointLinearLimit: physicsPhysicsJointLimitBase
 ---@field public x physicsPhysicsJointMotion

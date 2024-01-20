@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldOffMeshConnectionNode: worldSplineNode
 ---@field public isBidirectional Bool

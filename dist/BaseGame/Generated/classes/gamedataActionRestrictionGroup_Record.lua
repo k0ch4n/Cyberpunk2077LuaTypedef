@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataActionRestrictionGroup_Record: gamedataTweakDBRecord
 gamedataActionRestrictionGroup_Record = {}

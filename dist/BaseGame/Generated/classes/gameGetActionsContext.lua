@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGetActionsContext
 ---@field public clearance gamedeviceClearance

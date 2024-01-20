@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioTriggerEffectMode: Enum
 ---@field Off Enum 0

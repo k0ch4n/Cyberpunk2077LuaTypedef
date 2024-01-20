@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAnimationTransforms
 ---@field public extractedMotion Transform[]

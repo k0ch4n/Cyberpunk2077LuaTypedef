@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeExtendableNodeDefinition: AICTreeNodeDefinition
 ---@field public optionalChild LibTreeINodeDefinition

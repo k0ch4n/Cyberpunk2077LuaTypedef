@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BrightnessSettingsGameController: gameuiMenuGameController
 ---@field private s_brightnessGroup CName

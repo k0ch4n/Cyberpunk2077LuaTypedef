@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRigMetadata: audioAudioMetadata
 ---@field public positionBones CName[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRPGDataPackage_Record: gamedataTweakDBRecord
 gamedataRPGDataPackage_Record = {}

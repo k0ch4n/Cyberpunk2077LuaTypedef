@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlatformMovementState: Enum
 ---@field Stopped Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReloadFromEmptyPrereqState: gamePrereqState
 ---@field public owner gameObject

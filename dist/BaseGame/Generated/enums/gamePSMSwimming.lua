@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMSwimming: Enum
 ---@field Any Enum -1

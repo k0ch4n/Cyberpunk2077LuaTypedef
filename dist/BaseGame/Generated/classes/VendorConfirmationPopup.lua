@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorConfirmationPopup: gameuiWidgetGameController
 ---@field private itemNameText inkTextWidgetReference

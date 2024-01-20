@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnEventBlendWorkspotSetupParameters: ISerializable
 ---@field public workspotId scnSceneWorkspotInstanceId

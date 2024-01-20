@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAttributeDataType: Enum
 ---@field BodyAttributeData Enum 0

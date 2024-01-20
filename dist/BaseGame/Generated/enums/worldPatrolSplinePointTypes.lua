@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPatrolSplinePointTypes: Enum
 ---@field Workspot Enum 0

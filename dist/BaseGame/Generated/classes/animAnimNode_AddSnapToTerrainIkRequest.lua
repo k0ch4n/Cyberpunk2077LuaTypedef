@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_AddSnapToTerrainIkRequest: animAnimNode_OnePoseInput
 ---@field public animDeltaZ animFloatLink

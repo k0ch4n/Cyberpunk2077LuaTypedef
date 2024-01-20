@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTargetShootComponent: entIComponent
 ---@field public weaponRecord gamedataWeaponItem_Record

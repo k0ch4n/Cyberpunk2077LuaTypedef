@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InitiateCyberwareExplosionEffector: gameEffector
 ---@field public maxRangeAddition Float

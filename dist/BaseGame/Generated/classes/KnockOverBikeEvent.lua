@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KnockOverBikeEvent: redEvent
 ---@field public forceKnockdown Bool

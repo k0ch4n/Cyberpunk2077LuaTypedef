@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInputHintController: inkWidgetLogicController
 ---@field public inputDisplayLibRef inkWidgetLibraryReference

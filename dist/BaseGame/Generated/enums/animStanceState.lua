@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStanceState: Enum
 ---@field Stand Enum 0

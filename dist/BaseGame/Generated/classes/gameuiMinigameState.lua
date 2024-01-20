@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinigameState: IScriptable
 ---@field public currentLives Int32

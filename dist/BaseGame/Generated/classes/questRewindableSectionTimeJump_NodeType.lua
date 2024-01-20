@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRewindableSectionTimeJump_NodeType: questISceneManagerNodeType
 ---@field public sceneFile scnSceneResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIInjectCombatThreatCommandParams: questScriptedAICommandParams
 ---@field public targetNodeRef NodeRef

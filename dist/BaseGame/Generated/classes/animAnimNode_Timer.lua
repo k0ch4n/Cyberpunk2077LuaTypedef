@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Timer: animAnimNode_FloatValue
 animAnimNode_Timer = {}

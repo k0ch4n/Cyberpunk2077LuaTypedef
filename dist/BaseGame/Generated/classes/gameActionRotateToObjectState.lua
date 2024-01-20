@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionRotateToObjectState: gameActionRotateBaseState
 ---@field public targetObject gameObject

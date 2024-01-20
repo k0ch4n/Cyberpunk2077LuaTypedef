@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBinkVideoAction: Enum
 ---@field Undefined Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponStats: animAnimFeature
 ---@field public magazineCapacity Int32

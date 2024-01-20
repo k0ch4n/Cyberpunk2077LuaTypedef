@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DlcDescriptionData: inkUserData
 ---@field public title CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEnvManagerModifier: Enum
 ---@field EMM_None Enum 0

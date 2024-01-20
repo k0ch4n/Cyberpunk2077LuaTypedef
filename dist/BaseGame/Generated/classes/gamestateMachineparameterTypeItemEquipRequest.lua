@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeItemEquipRequest: IScriptable
 ---@field public slotId TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AntiRadar: gameweaponObject
 ---@field private colliderComponent entIComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_VectorWsToMs: animAnimNode_VectorValue
 ---@field public type animEVectorWsToMsType

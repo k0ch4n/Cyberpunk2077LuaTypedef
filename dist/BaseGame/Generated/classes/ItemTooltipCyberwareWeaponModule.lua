@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipCyberwareWeaponModule: ItemTooltipModuleController
 ---@field public wrapper inkWidgetReference

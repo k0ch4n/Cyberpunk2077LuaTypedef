@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransferItem_NodeType: questIItemManagerNodeType
 ---@field public params questTransferItems_NodeTypeParams[]

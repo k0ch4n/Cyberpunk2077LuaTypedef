@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamTopologyData: meshMeshParameter
 ---@field public data DataBuffer

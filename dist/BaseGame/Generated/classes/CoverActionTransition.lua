@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CoverActionTransition: LocomotionTransition
 ---@field protected gameInstance ScriptGameInstance

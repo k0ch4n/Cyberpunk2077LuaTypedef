@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkStyleResource: CResource
 ---@field public styles inkStyle[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DefaultTransitionStatListener: gameScriptStatsListener
 ---@field public transitionOwner DefaultTransition

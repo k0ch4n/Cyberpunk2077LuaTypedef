@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleOperationEvent: redEvent
 ---@field public enable Bool

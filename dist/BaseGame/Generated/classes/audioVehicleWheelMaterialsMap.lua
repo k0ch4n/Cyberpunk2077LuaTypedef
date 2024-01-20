@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleWheelMaterialsMap: audioAudioMetadata
 ---@field public vehicleWheelMaterials audioVehicleWheelMaterialsMapItem[]

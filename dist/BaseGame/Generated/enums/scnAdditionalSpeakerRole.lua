@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAdditionalSpeakerRole: Enum
 ---@field Full Enum 0

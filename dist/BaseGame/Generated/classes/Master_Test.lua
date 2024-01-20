@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Master_Test: gameObject
 ---@field public deviceComponent gameMasterDeviceComponent

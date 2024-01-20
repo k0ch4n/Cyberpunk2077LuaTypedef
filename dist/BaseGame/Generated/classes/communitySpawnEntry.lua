@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communitySpawnEntry: ISerializable
 ---@field public entryName CName

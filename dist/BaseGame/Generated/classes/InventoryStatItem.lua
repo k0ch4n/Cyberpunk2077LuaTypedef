@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryStatItem: inkWidgetLogicController
 ---@field private label inkTextWidget

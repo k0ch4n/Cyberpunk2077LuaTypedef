@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStoryTierChangedEvent: AIAIEvent
 ---@field public newTier gameStoryTier

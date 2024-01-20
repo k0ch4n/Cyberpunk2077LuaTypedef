@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsCoverDevice: gameEffectObjectSingleFilter_Scripted
 IsCoverDevice = {}

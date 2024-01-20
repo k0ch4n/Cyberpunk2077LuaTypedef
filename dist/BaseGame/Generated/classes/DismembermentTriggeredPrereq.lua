@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentTriggeredPrereq: gameIScriptablePrereq
 ---@field public currValue Uint32

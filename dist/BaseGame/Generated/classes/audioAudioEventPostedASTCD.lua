@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioEventPostedASTCD: audioAudioStateTransitionConditionData
 ---@field public audioEvent CName

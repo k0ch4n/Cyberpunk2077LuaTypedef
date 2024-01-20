@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InnerSubsystemScreenGameController: BaseInnerBunkerComputerGameController
 ---@field public loopAnimName CName[]

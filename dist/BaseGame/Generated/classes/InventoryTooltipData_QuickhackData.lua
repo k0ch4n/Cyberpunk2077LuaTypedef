@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltipData_QuickhackData
 ---@field public memorycost Int32

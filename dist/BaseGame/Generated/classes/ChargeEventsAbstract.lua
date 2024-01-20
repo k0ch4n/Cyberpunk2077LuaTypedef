@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargeEventsAbstract: WeaponEventsTransition
 ---@field protected layerId Uint32

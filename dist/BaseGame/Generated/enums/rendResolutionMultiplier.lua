@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendResolutionMultiplier: Enum
 ---@field X1 Enum 1

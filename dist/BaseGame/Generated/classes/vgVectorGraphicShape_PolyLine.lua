@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicShape_PolyLine: vgBaseVectorGraphicShape
 ---@field public ints Vector2[]

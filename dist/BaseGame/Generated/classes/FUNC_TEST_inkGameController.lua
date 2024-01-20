@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FUNC_TEST_inkGameController: gameuiWidgetGameController
 ---@field public Canvas inkCanvasWidgetReference

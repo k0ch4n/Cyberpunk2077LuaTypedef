@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrossplayInfoPanelController: inkWidgetLogicController
 ---@field private signOutEnabled Bool

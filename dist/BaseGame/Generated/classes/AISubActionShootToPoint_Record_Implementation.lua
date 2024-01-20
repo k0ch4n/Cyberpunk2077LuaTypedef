@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionShootToPoint_Record_Implementation: IScriptable
 AISubActionShootToPoint_Record_Implementation = {}

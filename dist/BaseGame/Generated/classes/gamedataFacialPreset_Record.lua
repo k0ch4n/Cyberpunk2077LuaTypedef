@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFacialPreset_Record: gamedataTweakDBRecord
 gamedataFacialPreset_Record = {}

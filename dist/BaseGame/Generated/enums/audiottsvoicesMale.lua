@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audiottsvoicesMale: Enum
 ---@field Andrew Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSaveSanitizationForbiddenAreaNode: worldTriggerAreaNode
 ---@field public safeSpotOffset Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsChoiceCaption
 ---@field public parts gameinteractionsChoiceCaptionPart[]

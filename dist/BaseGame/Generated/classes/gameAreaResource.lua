@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAreaResource: CResource
 ---@field public cookedData gameCookedAreaData[]

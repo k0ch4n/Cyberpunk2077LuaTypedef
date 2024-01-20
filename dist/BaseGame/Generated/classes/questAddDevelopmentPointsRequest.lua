@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddDevelopmentPointsRequest: gamePlayerScriptableSystemRequest
 ---@field public amountOfPoints Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LocoState: animAnimNode_State
 ---@field public type animLocoStateType

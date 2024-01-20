@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryGenericItemChooser: inkWidgetLogicController
 ---@field protected itemContainer inkCompoundWidgetReference

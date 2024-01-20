@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddRemoveItem_NodeType: questIItemManagerNodeType
 ---@field public params questAddRemoveItem_NodeTypeParams[]

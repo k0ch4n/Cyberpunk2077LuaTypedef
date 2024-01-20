@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisplayGlass: InteractiveDevice
 ---@field protected collider entIPlacedComponent

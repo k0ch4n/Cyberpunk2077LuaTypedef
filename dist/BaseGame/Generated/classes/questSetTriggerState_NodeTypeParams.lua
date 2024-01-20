@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTriggerState_NodeTypeParams
 ---@field public objectRef NodeRef

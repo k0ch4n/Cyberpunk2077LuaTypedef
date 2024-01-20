@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public workspotData AIArgumentMapping

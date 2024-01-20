@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMiniGame_SymbolsWithRarity_Record: gamedataTweakDBRecord
 gamedataMiniGame_SymbolsWithRarity_Record = {}

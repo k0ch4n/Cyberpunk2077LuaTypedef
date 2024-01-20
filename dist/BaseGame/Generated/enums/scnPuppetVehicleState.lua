@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPuppetVehicleState: Enum
 ---@field IdleMounted Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsPhysicalCollisionEvent: redEvent
 ---@field public myComponent IScriptable

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddItemsEffector: gameEffector
 ---@field public items gamedataInventoryItem_Record[]

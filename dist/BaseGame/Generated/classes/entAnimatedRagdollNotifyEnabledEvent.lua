@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimatedRagdollNotifyEnabledEvent: redEvent
 ---@field public instigator entEntityID

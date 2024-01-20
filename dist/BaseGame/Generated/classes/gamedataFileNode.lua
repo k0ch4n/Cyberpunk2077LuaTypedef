@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFileNode: gamedataDataNode
 ---@field public packageName String

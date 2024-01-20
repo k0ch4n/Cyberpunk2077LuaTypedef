@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDynamicDecalSpawnPriority: Enum
 ---@field RDDS_Normal Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorldMapFilter: Enum
 ---@field ApartmentToPurchaseFilter Enum 0

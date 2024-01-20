@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmartHousePreset: IScriptable
 ---@field protected timetable SPresetTimetableEntry

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionAddFact_Record: gamedataAISubAction_Record
 gamedataAISubActionAddFact_Record = {}

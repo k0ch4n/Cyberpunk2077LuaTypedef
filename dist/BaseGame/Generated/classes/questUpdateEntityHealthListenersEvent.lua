@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUpdateEntityHealthListenersEvent: redEvent
 ---@field public entityRef gameEntityReference

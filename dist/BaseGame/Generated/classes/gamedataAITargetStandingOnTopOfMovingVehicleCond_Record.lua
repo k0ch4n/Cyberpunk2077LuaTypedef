@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAITargetStandingOnTopOfMovingVehicleCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetStandingOnTopOfMovingVehicleCond_Record = {}

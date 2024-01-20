@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDynamicEventNode: worldAreaShapeNode
 ---@field public mappinRef NodeRef

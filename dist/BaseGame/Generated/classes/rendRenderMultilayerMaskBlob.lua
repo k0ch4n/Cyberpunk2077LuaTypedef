@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMultilayerMaskBlob: IRenderResourceBlob
 ---@field public header rendRenderMultilayerMaskBlobHeader

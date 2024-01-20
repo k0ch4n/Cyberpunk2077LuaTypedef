@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PoliceChaseParamsDef: gamebbScriptDefinition
 ---@field public SearchAreaRadius gamebbScriptID_Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectHitDataType: Enum
 ---@field Entity Enum 0

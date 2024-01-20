@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataActionPayment_Record: gamedataObjectAction_Record
 gamedataActionPayment_Record = {}

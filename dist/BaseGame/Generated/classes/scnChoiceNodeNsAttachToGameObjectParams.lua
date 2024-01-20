@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsAttachToGameObjectParams
 ---@field public nodeRef NodeRef

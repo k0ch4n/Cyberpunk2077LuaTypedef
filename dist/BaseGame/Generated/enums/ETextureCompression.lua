@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureCompression: Enum
 ---@field TCM_None Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalResource: gameJournalBaseResource
 ---@field public entry gameJournalEntry

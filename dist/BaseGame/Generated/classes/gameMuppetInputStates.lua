@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetInputStates: gameMuppetComponent
 ---@field public replicationTime netTime

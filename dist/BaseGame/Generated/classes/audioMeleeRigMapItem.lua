@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeRigMapItem: audioAudioMetadata
 ---@field public matchingRigs CName[]

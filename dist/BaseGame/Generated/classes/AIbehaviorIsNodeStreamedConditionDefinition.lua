@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorIsNodeStreamedConditionDefinition: AIbehaviorConditionDefinition
 ---@field public nodeRef AIArgumentMapping

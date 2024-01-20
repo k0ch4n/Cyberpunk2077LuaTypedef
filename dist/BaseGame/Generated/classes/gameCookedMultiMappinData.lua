@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCookedMultiMappinData
 ---@field public journalPathHash Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePSMStamina: Enum
 ---@field Rested Enum 0

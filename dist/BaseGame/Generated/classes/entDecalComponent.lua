@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDecalComponent: entIVisualComponent
 ---@field public material IMaterial

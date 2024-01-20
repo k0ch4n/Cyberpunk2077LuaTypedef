@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DischargeEvents: WeaponEventsTransition
 ---@field public layerId Uint32

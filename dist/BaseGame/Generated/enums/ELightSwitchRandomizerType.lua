@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightSwitchRandomizerType: Enum
 ---@field RANDOM Enum 0

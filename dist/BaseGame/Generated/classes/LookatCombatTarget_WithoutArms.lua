@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LookatCombatTarget_WithoutArms: AIGenericEntityLookatTask
 LookatCombatTarget_WithoutArms = {}

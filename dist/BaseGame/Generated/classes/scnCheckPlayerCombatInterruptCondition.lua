@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerCombatInterruptCondition: scnIInterruptCondition
 ---@field public params scnCheckPlayerCombatInterruptConditionParams

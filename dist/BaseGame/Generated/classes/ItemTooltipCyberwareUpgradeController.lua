@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipCyberwareUpgradeController: ItemTooltipModuleController
 ---@field private componentsContainer inkCompoundWidgetReference

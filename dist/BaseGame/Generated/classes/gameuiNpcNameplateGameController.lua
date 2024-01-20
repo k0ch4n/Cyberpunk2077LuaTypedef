@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiNpcNameplateGameController: gameuiProjectedHUDGameController
 ---@field public projection inkWidgetReference

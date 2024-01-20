@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatsManager: IScriptable
 ---@field public playerGodModeModifierData gameStatModifierData_Deprecated

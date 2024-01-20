@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttitudeChange: Enum
 ---@field DONT_CHANGE Enum 0

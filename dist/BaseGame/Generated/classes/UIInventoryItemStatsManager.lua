@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemStatsManager: IScriptable
 ---@field public Stats UIInventoryItemStat[]

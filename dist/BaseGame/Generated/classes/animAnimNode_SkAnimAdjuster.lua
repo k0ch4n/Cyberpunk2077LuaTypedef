@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkAnimAdjuster: animAnimNode_SkAnim
 ---@field public targetPositionWs animVectorLink

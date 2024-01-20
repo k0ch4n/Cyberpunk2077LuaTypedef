@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_BeamVFX_Custom: gameEffectPostAction_BeamVFX
 ---@field public effect worldEffect

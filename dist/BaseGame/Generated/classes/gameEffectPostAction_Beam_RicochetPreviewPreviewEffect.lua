@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
 ---@field public effect worldEffect

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterVector: CMaterialParameter
 ---@field public vector Vector4

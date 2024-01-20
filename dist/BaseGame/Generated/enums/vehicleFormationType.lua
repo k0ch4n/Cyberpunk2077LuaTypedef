@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleFormationType: Enum
 ---@field FORMATION_TRIANGLE Enum 0

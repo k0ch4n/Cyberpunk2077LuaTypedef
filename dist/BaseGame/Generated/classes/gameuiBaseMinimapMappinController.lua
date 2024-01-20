@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBaseMinimapMappinController: gameuiMappinBaseController
 ---@field public iconOrientation gameuiEIconOrientation

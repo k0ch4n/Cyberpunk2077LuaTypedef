@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimDebuggerCommand_IntOutputApplied: animIAnimDebuggerCommand
 animAnimDebuggerCommand_IntOutputApplied = {}

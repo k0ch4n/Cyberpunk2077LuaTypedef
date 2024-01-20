@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimMultiBoolToFloatEntry
 ---@field public group CName

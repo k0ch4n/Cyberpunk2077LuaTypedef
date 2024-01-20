@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenSkillsMenuData: IScriptable
 ---@field public openSkills Bool

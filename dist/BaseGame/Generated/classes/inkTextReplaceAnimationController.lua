@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextReplaceAnimationController: inkTextAnimationController
 ---@field public timeToSkip Float

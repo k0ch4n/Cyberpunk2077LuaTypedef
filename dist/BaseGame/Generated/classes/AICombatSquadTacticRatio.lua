@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICombatSquadTacticRatio
 ---@field public ratioSum Float

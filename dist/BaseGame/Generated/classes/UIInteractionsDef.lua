@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInteractionsDef: gamebbScriptDefinition
 ---@field public InteractionChoiceHub gamebbScriptID_Variant

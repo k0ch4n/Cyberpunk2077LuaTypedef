@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class saveMetadataContainer: ISerializable
 ---@field public metadata saveMetadata

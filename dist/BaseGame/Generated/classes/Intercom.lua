@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Intercom: InteractiveDevice
 ---@field private isShortGlitchActive Bool

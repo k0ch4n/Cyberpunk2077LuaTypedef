@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitShape_OBB: gameHitShapeBase
 ---@field public dimensions Vector3

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSensesCondition: questTypedCondition
 ---@field public type questISensesConditionType

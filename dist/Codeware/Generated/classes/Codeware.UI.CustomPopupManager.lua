@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_CustomPopupManager: Codeware_UI_ICustomPopupManager
 ---@field public gameController gameuiWidgetGameController

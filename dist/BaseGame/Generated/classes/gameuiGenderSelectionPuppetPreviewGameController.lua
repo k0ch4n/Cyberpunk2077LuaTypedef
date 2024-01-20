@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGenderSelectionPuppetPreviewGameController: gameuiPuppetPreviewGameController
 ---@field public sceneName CName

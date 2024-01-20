@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerMuntedToMyVehicle: redEvent
 ---@field public player PlayerPuppet

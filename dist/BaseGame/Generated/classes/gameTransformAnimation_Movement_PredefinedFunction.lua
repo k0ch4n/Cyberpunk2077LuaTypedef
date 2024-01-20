@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Movement_PredefinedFunction: gameTransformAnimation_Movement
 ---@field public function EasingFunction

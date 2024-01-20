@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVision_ConditionType: questISensesConditionType
 ---@field public observerPuppetRef gameEntityReference

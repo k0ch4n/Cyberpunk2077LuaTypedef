@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AreaEffectVisualisationRequest: redEvent
 ---@field public areaEffectID CName

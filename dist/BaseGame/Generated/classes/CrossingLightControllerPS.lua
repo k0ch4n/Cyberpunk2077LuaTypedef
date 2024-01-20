@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrossingLightControllerPS: TrafficLightControllerPS
 ---@field protected crossingLightSFXSetup CrossingLightSetup

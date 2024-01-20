@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleSplineSlot_NonAnimSpline
 vehicleSplineSlot_NonAnimSpline = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingNotification: GenericNotificationController
 ---@field private introAnimation inkanimProxy

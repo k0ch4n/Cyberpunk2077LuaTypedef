@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaggerReactionTask: AIHitReactionTask
 ---@field public tweakDBPackage TweakDBID

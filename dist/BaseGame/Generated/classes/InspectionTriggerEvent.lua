@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectionTriggerEvent: redEvent
 ---@field public item String

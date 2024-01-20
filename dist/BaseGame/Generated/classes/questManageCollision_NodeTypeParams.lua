@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questManageCollision_NodeTypeParams
 ---@field public objectRef NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPrereqsDataDef: AIBlackboardDef
 ---@field public npcHitTypeTimeout gamebbScriptID_Variant

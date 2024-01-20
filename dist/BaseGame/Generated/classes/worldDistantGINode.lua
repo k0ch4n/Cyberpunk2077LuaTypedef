@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDistantGINode: worldNode
 ---@field public dataAlbedo CBitmapTexture

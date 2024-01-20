@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehiclePortalsList: IScriptable
 ---@field public listPoints NodeRef[]

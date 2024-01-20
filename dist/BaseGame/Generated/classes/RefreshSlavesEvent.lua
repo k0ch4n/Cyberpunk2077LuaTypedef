@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshSlavesEvent: ProcessDevicesEvent
 ---@field public onInitialize Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsVisualTagsRoot: ISerializable
 ---@field public schemas toolsVisualTagsSchema[]

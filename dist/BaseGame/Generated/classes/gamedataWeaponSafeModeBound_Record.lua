@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeaponSafeModeBound_Record: gamedataTweakDBRecord
 gamedataWeaponSafeModeBound_Record = {}

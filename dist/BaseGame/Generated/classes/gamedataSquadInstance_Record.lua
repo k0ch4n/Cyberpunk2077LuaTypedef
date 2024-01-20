@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSquadInstance_Record: gamedataTweakDBRecord
 gamedataSquadInstance_Record = {}

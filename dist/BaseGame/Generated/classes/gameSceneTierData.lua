@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneTierData: IScriptable
 ---@field public tier GameplayTier

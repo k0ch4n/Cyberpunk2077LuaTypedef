@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioCombatVoManagerSettings: audioAudioMetadata
 ---@field public thresholdDbForCombatDialog Float

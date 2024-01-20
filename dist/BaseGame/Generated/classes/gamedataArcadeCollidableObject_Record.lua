@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataArcadeCollidableObject_Record: gamedataArcadeObject_Record
 gamedataArcadeCollidableObject_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderDynamicDecalAtlas: Enum
 ---@field RDDA_1x1 Enum 0

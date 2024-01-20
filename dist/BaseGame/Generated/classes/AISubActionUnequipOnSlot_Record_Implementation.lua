@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionUnequipOnSlot_Record_Implementation: IScriptable
 AISubActionUnequipOnSlot_Record_Implementation = {}

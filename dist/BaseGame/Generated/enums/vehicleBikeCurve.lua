@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleBikeCurve: Enum
 ---@field SpeedToTilt Enum 0

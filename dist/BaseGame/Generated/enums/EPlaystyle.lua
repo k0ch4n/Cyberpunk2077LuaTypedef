@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPlaystyle: Enum
 ---@field NETRUNNER Enum 0

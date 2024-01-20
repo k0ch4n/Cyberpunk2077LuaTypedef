@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetRandomPositionAroundPoint: AIRandomTasks
 ---@field public originPoint AIArgumentMapping

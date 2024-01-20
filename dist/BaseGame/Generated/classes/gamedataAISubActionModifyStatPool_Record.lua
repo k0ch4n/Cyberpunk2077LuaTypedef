@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionModifyStatPool_Record: gamedataAISubAction_Record
 gamedataAISubActionModifyStatPool_Record = {}

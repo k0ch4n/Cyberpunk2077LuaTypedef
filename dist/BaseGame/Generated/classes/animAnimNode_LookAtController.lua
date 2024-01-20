@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LookAtController: animAnimNode_OnePoseInput
 ---@field public E3_HACK_offset animVectorLink

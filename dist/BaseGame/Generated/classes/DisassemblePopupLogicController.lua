@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisassemblePopupLogicController: inkWidgetLogicController
 ---@field private quantity inkTextWidgetReference

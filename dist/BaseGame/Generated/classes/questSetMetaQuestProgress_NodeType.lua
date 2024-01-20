@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetMetaQuestProgress_NodeType: questIUIManagerNodeType
 ---@field public metaQuestId gamedataMetaQuest

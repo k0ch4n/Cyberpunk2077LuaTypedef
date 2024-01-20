@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataOwnerThreatCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataOwnerThreatCoverSelectionParameters_Record = {}

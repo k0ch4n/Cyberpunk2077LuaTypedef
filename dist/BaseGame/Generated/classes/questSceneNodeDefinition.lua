@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSceneNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public sceneFile scnSceneResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSecuritySystemNotification_Record: gamedataAISubAction_Record
 gamedataAISubActionSecuritySystemNotification_Record = {}

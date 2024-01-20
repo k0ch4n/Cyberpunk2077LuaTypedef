@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataComplexValueNode: gamedataValueDataNode
 ---@field public data String[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RootMotionCommandHandler: AICommandHandlerBase
 ---@field protected params AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIAnimMoveOnSplineCommand: AIMoveCommand
 ---@field public spline NodeRef

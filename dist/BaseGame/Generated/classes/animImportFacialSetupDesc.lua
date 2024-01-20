@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animImportFacialSetupDesc
 ---@field public initialPose animImportFacialInitialPoseEntryDesc[]

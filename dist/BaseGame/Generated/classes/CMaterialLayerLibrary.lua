@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialLayerLibrary: CResource
 ---@field public uvTiling Float

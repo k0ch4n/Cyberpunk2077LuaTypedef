@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCallbackData: IScriptable
 ---@field public loadResult inkIconResult

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BraindanceSystem: gameScriptableSystem
 ---@field private inputMask SBraindanceInputMask

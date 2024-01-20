@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMappinGPSComparison_ConditionType: questIDistanceConditionType
 ---@field public distanceDefinition1 questMappinGPSDistance

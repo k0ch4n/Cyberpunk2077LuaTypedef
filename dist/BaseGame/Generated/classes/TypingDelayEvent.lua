@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TypingDelayEvent: redEvent
 ---@field public conversationHash Int32

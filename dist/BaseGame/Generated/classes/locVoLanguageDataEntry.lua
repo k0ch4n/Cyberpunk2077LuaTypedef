@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoLanguageDataEntry
 ---@field public languageCode CName

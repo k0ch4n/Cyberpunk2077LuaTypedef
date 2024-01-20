@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBaseDirectionalIndicatorPartLogicController: inkWidgetLogicController
 ---@field public defaultForwardFovRange Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyMeshTexRes: Enum
 ---@field RES_64 Enum 0

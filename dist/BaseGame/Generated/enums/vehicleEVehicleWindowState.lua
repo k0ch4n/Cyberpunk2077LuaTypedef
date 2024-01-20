@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleEVehicleWindowState: Enum
 ---@field Closed Enum 0

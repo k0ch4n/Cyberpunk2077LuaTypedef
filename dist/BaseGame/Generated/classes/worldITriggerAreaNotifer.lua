@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldITriggerAreaNotifer: IScriptable
 ---@field public isEnabled Bool

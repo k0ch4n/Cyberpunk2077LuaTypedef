@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPhysicalImpulseAreaNode: worldPhysicalTriggerAreaNode
 ---@field public impulse Vector3

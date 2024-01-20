@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class aiscriptSharedVarTarget
 ---@field public varName LibTreeSharedVarReferenceName

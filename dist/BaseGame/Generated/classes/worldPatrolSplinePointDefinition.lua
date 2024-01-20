@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPatrolSplinePointDefinition: ISerializable
 ---@field public pointType worldPatrolSplinePointTypes

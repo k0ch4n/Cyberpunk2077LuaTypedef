@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FastTravelPointsUpdated: redEvent
 ---@field public updateTrackingAlternative Bool

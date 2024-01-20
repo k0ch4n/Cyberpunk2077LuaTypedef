@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleELightMode: Enum
 ---@field Off Enum 0

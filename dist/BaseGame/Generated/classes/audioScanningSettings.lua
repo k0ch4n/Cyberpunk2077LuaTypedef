@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioScanningSettings
 ---@field public scanningStartEvent CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessengerContactType: Enum
 ---@field SingleThread Enum 0

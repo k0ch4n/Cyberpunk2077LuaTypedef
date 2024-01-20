@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataScannerModuleVisibilityPreset_Record: gamedataTweakDBRecord
 gamedataScannerModuleVisibilityPreset_Record = {}

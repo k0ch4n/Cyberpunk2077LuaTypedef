@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialSubMenuPanelLogicController: PlayerStatsUIHolder
 ---@field private levelValue inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
 ---@field public puppetRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartMetroMapController: CustomAnimationsHudGameController
 ---@field private playerMarkerPane inkWidgetReference

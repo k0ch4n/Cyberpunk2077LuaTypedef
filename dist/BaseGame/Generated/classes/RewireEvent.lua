@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RewireEvent: redEvent
 ---@field public ownerID entEntityID

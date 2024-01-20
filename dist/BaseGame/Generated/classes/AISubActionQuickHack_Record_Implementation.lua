@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionQuickHack_Record_Implementation: IScriptable
 AISubActionQuickHack_Record_Implementation = {}

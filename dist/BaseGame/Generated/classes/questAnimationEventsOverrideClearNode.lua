@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAnimationEventsOverrideClearNode: questIAudioNodeType
 ---@field public resetGlobalOverride Bool

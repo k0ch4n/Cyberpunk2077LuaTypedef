@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SAnimationBufferBitwiseCompressionPreset: Enum
 ---@field ABBCP_Custom Enum 0

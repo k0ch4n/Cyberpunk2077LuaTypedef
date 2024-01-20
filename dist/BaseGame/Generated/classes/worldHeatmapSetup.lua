@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldHeatmapSetup
 ---@field public volumeBox Box

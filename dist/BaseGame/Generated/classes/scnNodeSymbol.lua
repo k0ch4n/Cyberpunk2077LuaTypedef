@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnNodeSymbol
 ---@field public nodeId scnNodeId

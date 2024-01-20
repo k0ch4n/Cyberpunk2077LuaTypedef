@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtPreset_DroneHorizontal: animLookAtPreset
 ---@field public softLimitDegrees Float

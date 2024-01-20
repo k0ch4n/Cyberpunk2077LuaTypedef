@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentEffectResource: ISerializable
 ---@field public Name CName

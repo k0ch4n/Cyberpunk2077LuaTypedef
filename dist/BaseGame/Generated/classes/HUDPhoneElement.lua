@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDPhoneElement: inkWidgetLogicController
 ---@field protected RootWidget inkWidget

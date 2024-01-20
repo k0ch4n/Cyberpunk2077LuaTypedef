@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnInterruptAvailability_Operation: scnIInterruptManager_Operation
 ---@field public available Bool

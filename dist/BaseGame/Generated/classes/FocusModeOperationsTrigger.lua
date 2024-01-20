@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FocusModeOperationsTrigger: DeviceOperationsTrigger
 ---@field public triggerData FocusModeOperationTriggerData

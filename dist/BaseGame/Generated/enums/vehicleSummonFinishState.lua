@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleSummonFinishState: Enum
 ---@field Arrived Enum 0

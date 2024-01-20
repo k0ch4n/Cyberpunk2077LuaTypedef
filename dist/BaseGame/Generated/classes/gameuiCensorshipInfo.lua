@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCensorshipInfo
 ---@field public censorFlag CensorshipFlags

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldOffMeshSmartObjectNode: worldOffMeshConnectionNode
 ---@field public object gameSmartObjectDefinition

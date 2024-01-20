@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterWeaponList_Record: gamedataTweakDBRecord
 gamedataShooterWeaponList_Record = {}

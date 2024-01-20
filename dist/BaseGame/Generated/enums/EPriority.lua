@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPriority: Enum
 ---@field VeryLow Enum 0

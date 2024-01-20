@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entColliderComponent: entIPlacedComponent
 ---@field public colliders physicsICollider[]

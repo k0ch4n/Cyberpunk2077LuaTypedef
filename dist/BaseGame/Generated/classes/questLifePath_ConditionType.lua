@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLifePath_ConditionType: questIStatsScriptConditionType
 questLifePath_ConditionType = {}

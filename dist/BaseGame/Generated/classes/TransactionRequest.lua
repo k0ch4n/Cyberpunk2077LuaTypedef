@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TransactionRequest: MarketSystemRequest
 ---@field public requestID Int32

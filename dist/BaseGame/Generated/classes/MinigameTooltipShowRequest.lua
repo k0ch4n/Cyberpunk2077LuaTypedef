@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinigameTooltipShowRequest: redEvent
 ---@field public data MessageTooltipData

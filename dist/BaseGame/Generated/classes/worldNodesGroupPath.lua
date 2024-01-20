@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNodesGroupPath
 ---@field public elements CName[]

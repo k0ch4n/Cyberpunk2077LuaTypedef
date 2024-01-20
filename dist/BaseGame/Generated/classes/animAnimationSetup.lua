@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimationSetup
 ---@field public cinematics animAnimSetCollection

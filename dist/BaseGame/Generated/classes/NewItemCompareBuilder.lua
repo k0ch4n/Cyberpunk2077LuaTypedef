@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemCompareBuilder: IScriptable
 ---@field private sortData1 UIInventoryItem

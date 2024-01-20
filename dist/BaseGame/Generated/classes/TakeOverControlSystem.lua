@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TakeOverControlSystem: gameScriptableSystem
 ---@field private controlledObject gameObject

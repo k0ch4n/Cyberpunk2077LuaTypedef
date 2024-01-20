@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSetUpAndLaunchEvent: gameprojectileLaunchEvent
 ---@field public trajectoryParams gameprojectileTrajectoryParams

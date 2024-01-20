@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationStatsMenu: gameuiBaseCharacterCreationController
 ---@field public attribute_01 inkWidgetReference

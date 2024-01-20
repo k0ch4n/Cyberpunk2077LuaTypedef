@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCThrowingGrenadeEvent: redEvent
 ---@field public target gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSetWorldPosition_Record_Implementation: IScriptable
 AISubActionSetWorldPosition_Record_Implementation = {}

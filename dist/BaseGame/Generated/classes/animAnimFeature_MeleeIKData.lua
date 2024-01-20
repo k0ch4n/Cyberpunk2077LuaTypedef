@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_MeleeIKData: animAnimFeature
 ---@field public isValid Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataChoiceCaptionIconPart_Record: gamedataChoiceCaptionPart_Record
 gamedataChoiceCaptionIconPart_Record = {}

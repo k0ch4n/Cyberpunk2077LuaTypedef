@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnWorkspotAvailabilityEvent: redEvent
 ---@field public workspotRef NodeRef

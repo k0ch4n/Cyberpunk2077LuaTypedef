@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerDescription: ScannerChunk
 ---@field private defaultFluffDescription String

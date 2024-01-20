@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponShootPrereq: gameIScriptablePrereq
 ---@field public howManyAttacks Int32

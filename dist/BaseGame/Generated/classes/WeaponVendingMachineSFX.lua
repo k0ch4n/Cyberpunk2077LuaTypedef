@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponVendingMachineSFX: VendingMachineSFX
 ---@field public processing CName

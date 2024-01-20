@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseOnBeingDetectedEvent: redEvent
 ---@field public source senseSensorObject

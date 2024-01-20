@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionBannerController: inkWidgetLogicController
 ---@field private statusTextRef inkTextWidgetReference

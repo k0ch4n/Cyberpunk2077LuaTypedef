@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsMaterialTagProjectilePenetration: Enum
 ---@field TechOnly Enum 0

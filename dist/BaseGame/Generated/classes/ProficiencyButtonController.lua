@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProficiencyButtonController: inkButtonController
 ---@field private labelText inkTextWidgetReference

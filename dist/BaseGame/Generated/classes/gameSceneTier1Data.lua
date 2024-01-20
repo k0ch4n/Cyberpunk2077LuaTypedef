@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSceneTier1Data: gameSceneTierData
 gameSceneTier1Data = {}

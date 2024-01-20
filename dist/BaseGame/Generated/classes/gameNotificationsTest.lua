@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameNotificationsTest: gameuiWidgetGameController
 ---@field public token inkGameNotificationToken

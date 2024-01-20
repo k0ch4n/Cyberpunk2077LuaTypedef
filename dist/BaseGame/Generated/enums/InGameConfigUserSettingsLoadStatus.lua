@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InGameConfigUserSettingsLoadStatus: Enum
 ---@field NotLoaded Enum 0

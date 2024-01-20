@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatusEffect_inline0_Record: gamedataStatModifierGroup_Record
 gamedataStatusEffect_inline0_Record = {}

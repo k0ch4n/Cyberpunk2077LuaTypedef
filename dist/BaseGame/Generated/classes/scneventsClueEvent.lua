@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsClueEvent: scnSceneEvent
 ---@field public clueEntity gameEntityReference

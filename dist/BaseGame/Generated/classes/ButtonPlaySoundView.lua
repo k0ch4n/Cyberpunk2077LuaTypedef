@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ButtonPlaySoundView: BaseButtonView
 ---@field private SoundPrefix CName

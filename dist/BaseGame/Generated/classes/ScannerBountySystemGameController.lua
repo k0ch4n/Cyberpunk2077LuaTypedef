@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerBountySystemGameController: BaseChunkGameController
 ---@field private moneyReward inkTextWidgetReference

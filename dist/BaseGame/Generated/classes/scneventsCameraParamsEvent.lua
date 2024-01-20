@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsCameraParamsEvent: scnSceneEvent
 ---@field public cameraRef NodeRef

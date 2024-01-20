@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGradientMode: Enum
 ---@field Linear Enum 0

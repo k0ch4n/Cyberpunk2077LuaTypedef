@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemountingUnmountingEvent: redEvent
 ---@field public request gamemountingUnmountingRequest

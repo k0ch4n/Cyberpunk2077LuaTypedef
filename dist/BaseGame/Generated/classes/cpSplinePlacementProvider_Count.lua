@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cpSplinePlacementProvider_Count: cpSplinePlacementProvider_Distance
 ---@field public count Uint32

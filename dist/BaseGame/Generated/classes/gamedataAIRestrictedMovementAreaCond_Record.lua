@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIRestrictedMovementAreaCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIRestrictedMovementAreaCond_Record = {}

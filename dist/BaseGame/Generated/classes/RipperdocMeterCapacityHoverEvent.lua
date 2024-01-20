@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocMeterCapacityHoverEvent: redEvent
 ---@field public IsHover Bool

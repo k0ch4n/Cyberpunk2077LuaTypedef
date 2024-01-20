@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendingMachineFinishedEvent: redEvent
 ---@field public itemID gameItemID

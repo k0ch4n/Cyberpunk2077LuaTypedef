@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RTXDIAreaSettings: IAreaSettings
 ---@field public diffuseSkyScale Float

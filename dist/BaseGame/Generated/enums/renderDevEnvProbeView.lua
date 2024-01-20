@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class renderDevEnvProbeView: Enum
 ---@field RADIANCE Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMaterialMeleeSoundDictionary: audioInlinedAudioMetadata
 ---@field public entries audioMaterialMeleeSoundDictionaryItem[]

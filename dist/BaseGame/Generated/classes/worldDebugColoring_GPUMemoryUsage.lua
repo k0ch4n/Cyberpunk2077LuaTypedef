@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_GPUMemoryUsage: worldDebugColoring_MetricsUsageAbstractBase
 worldDebugColoring_GPUMemoryUsage = {}

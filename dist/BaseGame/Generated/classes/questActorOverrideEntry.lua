@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questActorOverrideEntry
 ---@field public MetadataForOverride CName

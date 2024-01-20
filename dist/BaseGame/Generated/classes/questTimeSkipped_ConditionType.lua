@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeSkipped_ConditionType: questIUIConditionType
 ---@field public mode questTimeSkipMode

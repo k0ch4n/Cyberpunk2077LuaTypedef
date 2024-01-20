@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animcompressionFrameratePreset: Enum
 ---@field USE_30_HZ Enum 0

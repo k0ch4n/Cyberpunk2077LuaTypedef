@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEventsContainer: ISerializable
 ---@field public events animAnimEvent[]

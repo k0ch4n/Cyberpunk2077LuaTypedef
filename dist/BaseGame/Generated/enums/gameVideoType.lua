@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVideoType: Enum
 ---@field Tutorial_720x405 Enum 0

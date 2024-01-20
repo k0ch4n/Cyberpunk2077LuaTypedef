@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityLockerControllerPS: ScriptableDeviceComponentPS
 ---@field private securityLockerProperties SecurityLockerProperties

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UploadProgramProgressEvent: redEvent
 ---@field public state EUploadProgramState

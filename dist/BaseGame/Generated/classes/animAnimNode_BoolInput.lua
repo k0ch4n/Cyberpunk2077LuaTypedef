@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BoolInput: animAnimNode_BoolValue
 ---@field public group CName

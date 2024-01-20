@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorRepeatNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public limit AIArgumentMapping

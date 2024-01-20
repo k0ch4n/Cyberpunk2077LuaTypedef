@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVendorPanelData: IScriptable
 ---@field public data gameVendorData

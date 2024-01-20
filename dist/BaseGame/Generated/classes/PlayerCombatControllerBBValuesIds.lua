@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerCombatControllerBBValuesIds
 ---@field public crouchActive gamebbScriptID_Int32

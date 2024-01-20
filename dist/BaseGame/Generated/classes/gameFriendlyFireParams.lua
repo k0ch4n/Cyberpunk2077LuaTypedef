@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFriendlyFireParams: IScriptable
 ---@field public attitude gameAttitudeAgent

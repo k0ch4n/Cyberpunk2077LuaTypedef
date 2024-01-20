@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class saveMetadata: saveGameMetadata
 ---@field public saveVersion Uint32

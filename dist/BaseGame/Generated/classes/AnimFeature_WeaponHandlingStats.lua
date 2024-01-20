@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_WeaponHandlingStats: animAnimFeature
 ---@field public weaponRecoil Float

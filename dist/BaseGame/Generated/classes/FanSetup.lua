@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FanSetup
 ---@field public animationType EAnimationType

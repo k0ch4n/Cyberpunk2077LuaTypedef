@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanPlayerHijackMountedNpcPrereqState: gamePrereqState
 ---@field public mountingListener gameScriptedPrereqMountingListenerWrapper

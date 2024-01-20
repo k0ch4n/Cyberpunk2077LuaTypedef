@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataObjectActionType: Enum
 ---@field DeviceQuickHack Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PerkDeviceData: animAnimFeature
 ---@field public isUsed Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navLocomotionPath: ISerializable
 ---@field public splineNodeRef NodeRef

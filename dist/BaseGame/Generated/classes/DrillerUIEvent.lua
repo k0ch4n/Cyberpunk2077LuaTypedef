@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DrillerUIEvent: redEvent
 ---@field public actionChosen gameinteractionsChoice

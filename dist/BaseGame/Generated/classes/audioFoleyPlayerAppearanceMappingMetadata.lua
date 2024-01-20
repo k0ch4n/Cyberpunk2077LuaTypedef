@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyPlayerAppearanceMappingMetadata: audioAudioMetadata
 ---@field public fallbackMetadata CName

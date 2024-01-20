@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficSyncPointDefinition
 ---@field public laneRefs NodeRef[]

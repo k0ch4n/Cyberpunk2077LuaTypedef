@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextureType: Enum
 ---@field StaticTexture Enum 0

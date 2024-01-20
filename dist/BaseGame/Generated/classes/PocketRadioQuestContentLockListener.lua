@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PocketRadioQuestContentLockListener: questScriptQuestContentLockListener
 ---@field private pocketRadio PocketRadio

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_UpdateTranslationsRequest: gameScriptableSystemRequest
 ---@field public force Bool

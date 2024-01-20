@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LaserDetector: ProximityDetector
 ---@field private lasers handle[]

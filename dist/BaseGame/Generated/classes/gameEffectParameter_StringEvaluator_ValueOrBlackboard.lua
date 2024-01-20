@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_StringEvaluator_ValueOrBlackboard: gameIEffectParameter_StringEvaluator
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition

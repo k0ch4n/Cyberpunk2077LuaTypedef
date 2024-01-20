@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DialogChoiceLogicController: inkWidgetLogicController
 ---@field private InputViewRef inkWidgetReference

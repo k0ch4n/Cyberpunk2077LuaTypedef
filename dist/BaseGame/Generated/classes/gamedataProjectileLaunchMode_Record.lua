@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProjectileLaunchMode_Record: gamedataTweakDBRecord
 gamedataProjectileLaunchMode_Record = {}

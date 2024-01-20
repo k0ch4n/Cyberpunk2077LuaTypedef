@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioObstructionTestPattern: Enum
 ---@field Direct Enum 0

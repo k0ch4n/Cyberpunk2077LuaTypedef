@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterButtonSpawnedData: IScriptable
 ---@field public type Int32

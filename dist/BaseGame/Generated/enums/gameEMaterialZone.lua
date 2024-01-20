@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEMaterialZone: Enum
 ---@field Zero Enum 0

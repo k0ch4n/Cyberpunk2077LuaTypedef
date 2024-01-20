@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEntityEmitterSettings
 ---@field public emitterName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_InventoryDef: gamebbScriptDefinition
 ---@field public itemAdded gamebbScriptID_Variant

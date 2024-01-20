@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankPickupSpawnerData_Record: gamedataTweakDBRecord
 gamedataTankPickupSpawnerData_Record = {}

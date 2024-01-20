@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsStaticCollisionShapeCategory: Enum
 ---@field Interior Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class curveSingleChannelCurve
 ---@field public interpolationType curveEInterpolationType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionRegisterRequest: gameScriptableSystemRequest
 ---@field public requester gamePersistentState

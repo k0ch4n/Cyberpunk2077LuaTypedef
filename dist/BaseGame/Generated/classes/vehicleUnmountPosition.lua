@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleUnmountPosition
 ---@field public direction vehicleExitDirection

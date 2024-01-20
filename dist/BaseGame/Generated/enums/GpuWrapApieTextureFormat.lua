@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApieTextureFormat: Enum
 ---@field TEXFMT_A8_Unorm Enum 0

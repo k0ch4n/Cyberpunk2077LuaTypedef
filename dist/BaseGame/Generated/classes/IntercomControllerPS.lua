@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IntercomControllerPS: ScriptableDeviceComponentPS
 ---@field protected isCalling Bool

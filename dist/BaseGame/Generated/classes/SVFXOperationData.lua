@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SVFXOperationData
 ---@field public vfxName CName

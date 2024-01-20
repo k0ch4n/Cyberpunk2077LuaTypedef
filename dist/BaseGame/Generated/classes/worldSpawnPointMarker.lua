@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSpawnPointMarker: worldIMarker
 ---@field public type Uint32

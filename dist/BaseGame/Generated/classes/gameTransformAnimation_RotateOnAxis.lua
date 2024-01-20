@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_RotateOnAxis: gameTransformAnimationTrackItemImpl
 ---@field public axis gameTransformAnimation_RotateOnAxisAxis

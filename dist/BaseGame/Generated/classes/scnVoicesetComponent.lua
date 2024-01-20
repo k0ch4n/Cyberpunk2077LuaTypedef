@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnVoicesetComponent: gameComponent
 ---@field public combatVoSettingsName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActivationStatus: Enum
 ---@field NOT_ACTIVATED Enum 0

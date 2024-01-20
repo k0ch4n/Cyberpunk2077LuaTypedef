@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataInteractionMountBase_Record: gamedataInteractionBase_Record
 gamedataInteractionMountBase_Record = {}

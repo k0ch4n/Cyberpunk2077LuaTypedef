@@ -1,7 +1,5 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResourceAsyncReference
 ---@field hash integer
 ResourceAsyncReference = {}
-

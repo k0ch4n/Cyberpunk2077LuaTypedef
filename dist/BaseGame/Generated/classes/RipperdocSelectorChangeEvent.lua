@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocSelectorChangeEvent: redEvent
 ---@field public Index Int32

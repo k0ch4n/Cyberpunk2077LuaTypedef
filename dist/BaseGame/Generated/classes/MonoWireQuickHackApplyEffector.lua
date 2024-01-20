@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MonoWireQuickHackApplyEffector: AbstractApplyQuickhackEffector
 ---@field public hasSpreadWindowBeenOpened Bool

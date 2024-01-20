@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class JamWeaponE3HackEvent: redEvent
 JamWeaponE3HackEvent = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSwitchWeaponModes: Enum
 ---@field PrimaryWeapon Enum 0

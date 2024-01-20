@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BraindanceGameController: gameuiHUDGameController
 ---@field private currentTimerMarker inkWidgetReference

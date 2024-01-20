@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLifePath_Record: gamedataTweakDBRecord
 gamedataLifePath_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmState_PreGameSession: gsmState_Session
 gsmState_PreGameSession = {}

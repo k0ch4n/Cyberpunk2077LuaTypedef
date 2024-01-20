@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ConfigTextureQualityLevel: Enum
 ---@field Console Enum 0

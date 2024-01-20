@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyDroneProceduralAnimFeatureEvent: redEvent
 ---@field public feature AnimFeature_DroneProcedural

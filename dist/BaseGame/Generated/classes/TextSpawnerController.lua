@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TextSpawnerController: inkWidgetLogicController
 ---@field private amountOfRows Int32

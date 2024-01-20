@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionChimeraMetalstorm_Record_Implementation: IScriptable
 AISubActionChimeraMetalstorm_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioeventsDialogLine: redEvent
 ---@field public data audioDialogLineEventData

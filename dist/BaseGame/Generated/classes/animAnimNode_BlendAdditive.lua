@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_BlendAdditive: animAnimNode_Base
 ---@field public biasValue Float

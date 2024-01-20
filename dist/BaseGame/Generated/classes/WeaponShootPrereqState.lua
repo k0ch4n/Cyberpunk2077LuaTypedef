@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponShootPrereqState: gamePrereqState
 ---@field public listenerWeaponInt redCallbackObject

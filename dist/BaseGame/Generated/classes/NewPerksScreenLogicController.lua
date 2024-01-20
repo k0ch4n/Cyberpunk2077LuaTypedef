@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksScreenLogicController: inkWidgetLogicController
 ---@field private perksWidgets inkWidgetReference[]

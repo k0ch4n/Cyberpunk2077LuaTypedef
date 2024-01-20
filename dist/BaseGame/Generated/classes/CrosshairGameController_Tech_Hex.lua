@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Tech_Hex: BaseTechCrosshairController
 ---@field private leftBracket inkImageWidget

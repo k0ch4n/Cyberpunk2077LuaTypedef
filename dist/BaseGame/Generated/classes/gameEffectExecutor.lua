@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor: gameEffectNode
 ---@field public usesHitCooldown Bool

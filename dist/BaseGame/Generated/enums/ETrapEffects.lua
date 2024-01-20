@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETrapEffects: Enum
 ---@field Explosion Enum 0

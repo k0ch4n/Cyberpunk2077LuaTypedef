@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInputController_ConditionType: questISystemConditionType
 ---@field public inputController questInputDevice

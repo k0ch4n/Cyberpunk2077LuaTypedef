@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRandomizerMode: Enum
 ---@field Random Enum 0

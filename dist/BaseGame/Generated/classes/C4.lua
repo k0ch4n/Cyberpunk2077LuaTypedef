@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class C4: ExplosiveDevice
 C4 = {}

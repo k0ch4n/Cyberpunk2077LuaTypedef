@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterNPCsByType: gameEffectObjectSingleFilter_Scripted
 ---@field public allowedTypes gamedataNPCType[]

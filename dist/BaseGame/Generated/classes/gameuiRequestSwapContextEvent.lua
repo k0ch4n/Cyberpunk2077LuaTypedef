@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRequestSwapContextEvent: redEvent
 ---@field public oldContext UIGameContext

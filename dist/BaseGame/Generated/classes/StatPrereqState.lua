@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPrereqState: gamePrereqState
 ---@field public listener StatPrereqListener

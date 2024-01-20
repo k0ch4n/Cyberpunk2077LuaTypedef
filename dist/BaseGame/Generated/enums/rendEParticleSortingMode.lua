@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendEParticleSortingMode: Enum
 ---@field PSM_None Enum 0

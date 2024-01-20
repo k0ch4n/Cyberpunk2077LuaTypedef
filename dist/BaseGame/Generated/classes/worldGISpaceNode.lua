@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldGISpaceNode: worldAreaShapeNode
 ---@field public priority Uint32

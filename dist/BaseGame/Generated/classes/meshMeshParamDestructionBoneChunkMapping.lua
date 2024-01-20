@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamDestructionBoneChunkMapping: meshMeshParameter
 ---@field public boneChunkMasks Uint64[]

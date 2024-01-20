@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataEffectorTimeDilationDriver: Enum
 ---@field Source Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDebug_ShapeComponent: entIVisualComponent
 ---@field public shape entDebug_ShapeType

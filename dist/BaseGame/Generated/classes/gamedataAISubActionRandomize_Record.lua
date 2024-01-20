@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionRandomize_Record: gamedataAISubAction_Record
 gamedataAISubActionRandomize_Record = {}

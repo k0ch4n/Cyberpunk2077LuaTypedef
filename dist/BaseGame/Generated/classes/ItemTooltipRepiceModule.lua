@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipRepiceModule: ItemTooltipModuleController
 ---@field private itemNameText inkTextWidgetReference

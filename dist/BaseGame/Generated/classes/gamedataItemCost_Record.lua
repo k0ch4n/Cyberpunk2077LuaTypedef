@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemCost_Record: gamedataObjectActionCost_Record
 gamedataItemCost_Record = {}

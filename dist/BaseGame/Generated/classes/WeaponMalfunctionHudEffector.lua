@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponMalfunctionHudEffector: gameEffector
 ---@field public bb gameIBlackboard

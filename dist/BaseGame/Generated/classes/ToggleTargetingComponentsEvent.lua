@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleTargetingComponentsEvent: redEvent
 ---@field public toggle Bool

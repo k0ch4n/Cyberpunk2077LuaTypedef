@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FocusModeOperations: DeviceOperations
 ---@field protected focusModeOperations SFocusModeOperationData[]

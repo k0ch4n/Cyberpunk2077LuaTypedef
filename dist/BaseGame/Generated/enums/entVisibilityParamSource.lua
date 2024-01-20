@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entVisibilityParamSource: Enum
 ---@field PhantomEntitySystem Enum 7

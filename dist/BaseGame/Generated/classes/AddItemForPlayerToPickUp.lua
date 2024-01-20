@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddItemForPlayerToPickUp: ScriptableDeviceAction
 ---@field public lootTable TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewHitDataEvent: redEvent
 ---@field public hitIntensity Int32

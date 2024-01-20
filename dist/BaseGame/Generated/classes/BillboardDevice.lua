@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BillboardDevice: InteractiveDevice
 ---@field protected advUiComponent entIComponent

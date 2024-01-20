@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DodgeDecisions: LocomotionGroundDecisions
 ---@field public shouldDisableEnterCondition Bool

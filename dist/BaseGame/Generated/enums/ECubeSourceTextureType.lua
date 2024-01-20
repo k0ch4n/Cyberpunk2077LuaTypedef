@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECubeSourceTextureType: Enum
 ---@field CST_CrossHorizontal Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SandevistanDecisions: TimeDilationTransitions
 ---@field private statListener DefaultTransitionStatListener

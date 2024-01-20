@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestructibleMasterLight: DestructibleMasterDevice
 ---@field private lightComponents gameLightComponent[]

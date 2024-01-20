@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCollisionAreaNode: worldAreaShapeNode
 ---@field public material CName

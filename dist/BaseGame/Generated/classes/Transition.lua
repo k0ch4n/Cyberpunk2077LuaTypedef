@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Transition: redEvent
 ---@field public listenerID Uint32

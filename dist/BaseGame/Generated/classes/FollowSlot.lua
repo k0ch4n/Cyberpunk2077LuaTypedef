@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FollowSlot: IScriptable
 ---@field public id Int32

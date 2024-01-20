@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetTrackRange: animAnimNode_OnePoseInput
 ---@field public min Float

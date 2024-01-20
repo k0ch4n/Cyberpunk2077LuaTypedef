@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class muliplayerInteractionTest: gameObject
 ---@field public counter Int32

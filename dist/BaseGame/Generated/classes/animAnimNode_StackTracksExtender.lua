@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_StackTracksExtender: animAnimNode_OnePoseInput
 ---@field public tag CName

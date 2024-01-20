@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimDefinition: IScriptable
 ---@field public interpolators inkanimInterpolator[]

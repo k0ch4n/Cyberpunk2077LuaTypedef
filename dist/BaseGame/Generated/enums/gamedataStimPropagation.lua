@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStimPropagation: Enum
 ---@field Audio Enum 0

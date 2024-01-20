@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilterStimTargets: gameEffectObjectSingleFilter_Scripted
 FilterStimTargets = {}

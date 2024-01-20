@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFontFamilyResource: CResource
 ---@field public familyName CName

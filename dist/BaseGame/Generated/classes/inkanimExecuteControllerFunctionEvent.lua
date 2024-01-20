@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimExecuteControllerFunctionEvent: inkanimEvent
 ---@field public controllerType CName

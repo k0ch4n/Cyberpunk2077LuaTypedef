@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entTemplateComponentBackendDataOverrideInfo
 ---@field public componentName CName

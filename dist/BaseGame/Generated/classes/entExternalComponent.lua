@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entExternalComponent: entIComponent
 ---@field public externalComponentName CName

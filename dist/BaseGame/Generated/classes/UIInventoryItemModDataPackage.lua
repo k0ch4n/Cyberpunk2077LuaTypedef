@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemModDataPackage: UIInventoryItemMod
 ---@field public Description String

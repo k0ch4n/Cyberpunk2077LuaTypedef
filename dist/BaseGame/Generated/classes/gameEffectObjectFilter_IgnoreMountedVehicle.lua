@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_IgnoreMountedVehicle: gameEffectObjectGroupFilter
 gameEffectObjectFilter_IgnoreMountedVehicle = {}

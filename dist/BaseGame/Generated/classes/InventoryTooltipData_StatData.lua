@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltipData_StatData
 ---@field public statType gamedataStatType

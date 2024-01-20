@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISpiderbotFindBoredMovePosition: AIFindPositionAroundSelf
 ---@field public maxWanderDistance AIArgumentMapping

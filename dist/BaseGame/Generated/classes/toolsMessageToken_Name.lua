@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageToken_Name: toolsIMessageToken
 ---@field public name CName

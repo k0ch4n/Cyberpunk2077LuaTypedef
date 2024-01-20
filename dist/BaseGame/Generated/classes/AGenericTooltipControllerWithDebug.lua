@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AGenericTooltipControllerWithDebug: AGenericTooltipController
 ---@field protected DEBUG_showDebug Bool

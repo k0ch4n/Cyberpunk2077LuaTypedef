@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterVector: entAnimInputSetter
 ---@field public value Vector4

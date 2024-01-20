@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttitudeAgent: gameComponent
 ---@field public baseAttitudeGroup CName

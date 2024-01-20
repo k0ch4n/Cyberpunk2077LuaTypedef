@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDeviceSettings: audioEntitySettings
 ---@field public deviceSettings audioDeviceStateSettings

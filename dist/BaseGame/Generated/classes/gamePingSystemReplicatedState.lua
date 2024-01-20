@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePingSystemReplicatedState: gameIGameSystemReplicatedState
 ---@field public replicatedPingEntries gamePingEntry[]

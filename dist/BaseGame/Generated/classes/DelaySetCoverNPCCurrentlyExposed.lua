@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelaySetCoverNPCCurrentlyExposed: redEvent
 ---@field public exposed Bool

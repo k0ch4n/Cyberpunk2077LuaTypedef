@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RefreshCLSOnSlavesEvent: redEvent
 ---@field public slaves gameDeviceComponentPS[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCompanionDistancePreset: Enum
 ---@field Close Enum 0

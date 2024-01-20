@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkButtonDpadSupportedController: inkButtonAnimatedController
 ---@field public targetPath_DpadUp inkWidget

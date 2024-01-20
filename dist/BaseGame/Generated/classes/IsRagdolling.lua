@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsRagdolling: AIbehaviorconditionScript
 ---@field public npc NPCPuppet

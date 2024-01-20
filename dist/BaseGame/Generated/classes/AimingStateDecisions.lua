@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AimingStateDecisions: UpperBodyTransition
 ---@field private callbackIDs redCallbackObject[]

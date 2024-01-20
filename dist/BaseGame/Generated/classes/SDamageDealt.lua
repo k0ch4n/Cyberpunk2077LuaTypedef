@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDamageDealt
 ---@field public type gamedataDamageType

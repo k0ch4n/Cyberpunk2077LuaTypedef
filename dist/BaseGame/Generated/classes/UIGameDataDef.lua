@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIGameDataDef: gamebbScriptDefinition
 ---@field public BreachUIParams gamebbScriptID_Variant

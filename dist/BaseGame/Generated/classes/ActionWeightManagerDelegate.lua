@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionWeightManagerDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public actionsConditions String[]

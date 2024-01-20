@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorEntityReuseEventResolverDefinition: AIbehaviorEventResolverDefinition
 ---@field public destination AIArgumentMapping

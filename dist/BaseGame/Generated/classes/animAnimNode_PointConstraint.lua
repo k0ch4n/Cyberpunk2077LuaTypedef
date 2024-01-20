@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_PointConstraint: animAnimNode_OnePoseInput
 ---@field public areSourceChannelsResaved Bool

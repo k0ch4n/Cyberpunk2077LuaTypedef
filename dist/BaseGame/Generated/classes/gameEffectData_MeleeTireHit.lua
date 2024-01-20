@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectData_MeleeTireHit
 gameEffectData_MeleeTireHit = {}

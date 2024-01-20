@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLimitedSound
 ---@field public soundType audioLimitedSoundType

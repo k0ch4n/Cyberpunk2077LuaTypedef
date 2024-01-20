@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimStateTransitionCondition_WrapperValue: animIAnimStateTransitionCondition
 ---@field public wrapperName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkInputHintKeyCombinationType: Enum
 ---@field Or Enum 0

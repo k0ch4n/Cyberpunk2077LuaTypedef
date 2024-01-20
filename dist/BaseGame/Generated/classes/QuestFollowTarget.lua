@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestFollowTarget: ActionEntityReference
 ---@field public ForcedTarget entEntityID

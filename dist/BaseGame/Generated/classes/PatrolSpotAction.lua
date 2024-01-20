@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PatrolSpotAction: TweakAIActionSmartComposite
 ---@field public patrolAction AIArgumentMapping

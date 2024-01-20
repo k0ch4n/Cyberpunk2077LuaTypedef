@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryListenerData_PartAdded: gameInventoryListenerData_Base
 gameInventoryListenerData_PartAdded = {}

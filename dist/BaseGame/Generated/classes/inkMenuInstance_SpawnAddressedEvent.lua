@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMenuInstance_SpawnAddressedEvent: inkMenuInstance_SpawnEvent
 inkMenuInstance_SpawnAddressedEvent = {}

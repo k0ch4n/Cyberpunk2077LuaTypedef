@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SampleUIMeasurementController: inkWidgetLogicController
 ---@field private value Float

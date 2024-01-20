@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePrereqCheckData
 ---@field public prereqType gameEPrerequisiteType

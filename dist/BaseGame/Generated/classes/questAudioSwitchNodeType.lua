@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioSwitchNodeType: questIAudioNodeType
 ---@field public switch audioAudSwitch

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipAttachmentEntrySpawnData: IScriptable
 ---@field public index Int32

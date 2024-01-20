@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMaterialShadingRateMode: Enum
 ---@field MSRM_Default Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_TargetingObjectsInCone: gameEffectObjectProvider
 ---@field public filterData physicsFilterData

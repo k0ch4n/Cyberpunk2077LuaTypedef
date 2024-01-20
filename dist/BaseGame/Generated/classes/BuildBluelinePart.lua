@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BuildBluelinePart: gameinteractionsvisBluelinePart
 ---@field public record gamedataPlayerBuild_Record

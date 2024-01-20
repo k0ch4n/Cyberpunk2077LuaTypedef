@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetMessageRecordEvent: redEvent
 ---@field public messageRecordID TweakDBID

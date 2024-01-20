@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWorkspotCommandParams: questAICommandParams
 ---@field public workspotNode NodeRef

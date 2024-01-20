@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectDurationModifier_Scripted: gameEffectDurationModifier
 gameEffectDurationModifier_Scripted = {}

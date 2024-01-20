@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveCommand: AIbehaviortaskScript
 ---@field protected inCommand AIArgumentMapping

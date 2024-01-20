@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentDebrisEvent: redEvent
 ---@field public resourcePath String

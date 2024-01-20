@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartTimetableControllerPS: ScriptableDeviceComponentPS
 ---@field private ncartTimetableSetup NcartTimetableSetup

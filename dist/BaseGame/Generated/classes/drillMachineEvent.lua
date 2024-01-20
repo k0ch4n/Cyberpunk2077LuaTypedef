@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class drillMachineEvent: redEvent
 ---@field public newTargetDevice gameObject

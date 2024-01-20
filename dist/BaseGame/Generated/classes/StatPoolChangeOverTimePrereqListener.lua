@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolChangeOverTimePrereqListener: BaseStatPoolPrereqListener
 ---@field protected state StatPoolChangeOverTimePrereqState

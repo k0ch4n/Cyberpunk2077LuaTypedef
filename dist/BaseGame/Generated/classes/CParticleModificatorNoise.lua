@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorNoise: IParticleModificator
 ---@field public amplitude IEvaluatorVector

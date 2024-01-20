@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsPlayAnimEventData
 ---@field public blendIn Float

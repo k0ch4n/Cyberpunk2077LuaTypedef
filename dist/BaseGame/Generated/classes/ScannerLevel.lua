@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerLevel: ScannerChunk
 ---@field private level Int32

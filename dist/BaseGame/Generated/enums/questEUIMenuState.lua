@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEUIMenuState: Enum
 ---@field Open Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropPointPackage: IScriptable
 ---@field private itemID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_HitReactions: animAnimFeature
 ---@field public hitDirection Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EDeviceDurabilityState: Enum
 ---@field NOMINAL Enum 0

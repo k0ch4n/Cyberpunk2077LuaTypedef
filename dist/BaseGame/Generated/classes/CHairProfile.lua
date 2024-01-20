@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CHairProfile: CResource
 ---@field public sampleCount Uint16

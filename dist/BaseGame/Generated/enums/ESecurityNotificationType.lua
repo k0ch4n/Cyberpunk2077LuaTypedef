@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityNotificationType: Enum
 ---@field REPRIMAND_SUCCESSFUL Enum -2

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtPreset_EyesHead: animLookAtPreset
 ---@field public suppressHeadAnimation Float

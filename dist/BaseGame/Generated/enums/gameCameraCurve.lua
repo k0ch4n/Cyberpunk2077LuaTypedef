@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCameraCurve: Enum
 ---@field CentricPitchOfSpeed Enum 0

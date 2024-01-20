@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_HotkeysDef: gamebbScriptDefinition
 ---@field public ModifiedHotkey gamebbScriptID_Variant

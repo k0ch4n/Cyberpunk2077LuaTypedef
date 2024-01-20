@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAttackType: Enum
 ---@field ChargedWhipAttack Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_ScannerDef: gamebbScriptDefinition
 ---@field public Scannables gamebbScriptID_Variant

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHudHealthbarGameController: gameuiHUDGameController
 ---@field private bbPlayerStats gameIBlackboard

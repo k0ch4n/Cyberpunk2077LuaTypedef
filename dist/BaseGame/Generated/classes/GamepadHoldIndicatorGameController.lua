@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GamepadHoldIndicatorGameController: gameuiHoldIndicatorGameController
 ---@field private image inkImageWidgetReference

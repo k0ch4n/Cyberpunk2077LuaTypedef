@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBlockAction: Enum
 ---@field Block Enum 0

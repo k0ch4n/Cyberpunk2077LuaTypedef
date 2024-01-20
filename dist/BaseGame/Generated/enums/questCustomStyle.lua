@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCustomStyle: Enum
 ---@field PlacidePhone Enum 0

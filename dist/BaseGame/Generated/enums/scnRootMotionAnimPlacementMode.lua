@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRootMotionAnimPlacementMode: Enum
 ---@field Blend Enum 0

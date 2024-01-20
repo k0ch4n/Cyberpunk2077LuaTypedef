@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerHackingMinigameEffector: gameEffector
 ---@field public owner gameObject

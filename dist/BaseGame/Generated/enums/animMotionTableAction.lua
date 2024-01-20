@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMotionTableAction: Enum
 ---@field MTA_None Enum 0

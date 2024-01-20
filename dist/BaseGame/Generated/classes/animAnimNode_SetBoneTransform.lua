@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetBoneTransform: animAnimNode_OnePoseInput
 ---@field public entries animSetBoneTransformEntry[]

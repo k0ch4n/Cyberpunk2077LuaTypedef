@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendIndexBufferChunk
 ---@field public pe GpuWrapApieIndexBufferChunkType

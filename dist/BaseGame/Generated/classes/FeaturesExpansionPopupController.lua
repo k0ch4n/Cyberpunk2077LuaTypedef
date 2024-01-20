@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FeaturesExpansionPopupController: inkWidgetLogicController
 ---@field private hoverAnimationName CName

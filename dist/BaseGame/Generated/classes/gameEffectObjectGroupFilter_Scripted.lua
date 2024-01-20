@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectGroupFilter_Scripted: gameEffectObjectGroupFilter
 gameEffectObjectGroupFilter_Scripted = {}

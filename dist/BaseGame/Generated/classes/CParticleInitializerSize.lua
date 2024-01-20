@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerSize: IParticleInitializer
 ---@field public size IEvaluatorVector

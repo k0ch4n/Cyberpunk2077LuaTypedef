@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioReflectionEmitterSettings: audioAudioMetadata
 ---@field public reflectionEvent CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedatanpc_scanning_data_Record: gamedataScannableData_Record
 gamedatanpc_scanning_data_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaticShaderInputLayout: Enum
 ---@field DebugVertexBase Enum 0

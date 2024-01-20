@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TraitBoughtEvent: redEvent
 ---@field public traitType gamedataTraitType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCurrencyReward_inline0_Record: gamedataConstantStatModifier_Record
 gamedataCurrencyReward_inline0_Record = {}

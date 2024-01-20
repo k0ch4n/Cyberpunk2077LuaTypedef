@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetArgumentVector: SetArguments
 ---@field public newValue AIArgumentMapping

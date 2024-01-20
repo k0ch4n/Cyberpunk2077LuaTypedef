@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimDatabaseCollection
 ---@field public animDatabases animAnimDatabaseCollectionEntry[]

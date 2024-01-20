@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneSharedState: ISerializable
 ---@field public entrypoint CName

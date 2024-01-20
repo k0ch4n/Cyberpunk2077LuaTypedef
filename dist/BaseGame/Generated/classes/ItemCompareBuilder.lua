@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemCompareBuilder: IScriptable
 ---@field private sortData1 gameInventoryItemSortData

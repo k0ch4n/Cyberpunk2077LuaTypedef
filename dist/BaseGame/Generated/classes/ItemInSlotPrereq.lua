@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemInSlotPrereq: gameIScriptablePrereq
 ---@field public slotID TweakDBID

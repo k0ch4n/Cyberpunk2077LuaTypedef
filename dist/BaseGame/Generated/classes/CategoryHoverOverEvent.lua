@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CategoryHoverOverEvent: redEvent
 ---@field public equipArea gamedataEquipmentArea

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animGenericAnimDatabase: CResource
 ---@field public rows animGenericAnimDatabase_DatabaseRow[]

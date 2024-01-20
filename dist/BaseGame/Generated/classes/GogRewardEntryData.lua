@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GogRewardEntryData: IScriptable
 ---@field public title String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataConvertDamageToStatPoolEffector_Record: gamedataEffector_Record
 gamedataConvertDamageToStatPoolEffector_Record = {}

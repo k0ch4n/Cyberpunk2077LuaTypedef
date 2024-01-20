@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LookedAtEvent: redEvent
 ---@field public isLookedAt Bool

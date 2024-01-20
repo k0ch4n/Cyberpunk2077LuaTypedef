@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkColorCorrectionEffect: inkIEffect
 ---@field public brightness Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryScriptableSystem: gameScriptableSystem
 ---@field private attachedPlayer PlayerPuppet

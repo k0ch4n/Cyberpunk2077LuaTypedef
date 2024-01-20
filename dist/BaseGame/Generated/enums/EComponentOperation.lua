@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EComponentOperation: Enum
 ---@field Enable Enum 0

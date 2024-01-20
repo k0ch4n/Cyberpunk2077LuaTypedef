@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMovementPolicyTaskFunctions: Enum
 ---@field SetMovementType Enum 0

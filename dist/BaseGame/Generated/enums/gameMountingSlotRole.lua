@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMountingSlotRole: Enum
 ---@field Invalid Enum -1

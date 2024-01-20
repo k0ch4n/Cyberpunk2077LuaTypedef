@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionMoveWithPolicyTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public stopWhenDestinationReached Bool

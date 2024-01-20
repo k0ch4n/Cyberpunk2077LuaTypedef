@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAnimName: ISerializable
 ---@field public type scnAnimNameType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_CreditsPickerPause: MenuScenario_BaseMenu
 MenuScenario_CreditsPickerPause = {}

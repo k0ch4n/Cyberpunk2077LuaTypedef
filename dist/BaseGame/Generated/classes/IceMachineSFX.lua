@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IceMachineSFX: VendingMachineSFX
 ---@field public iceFalls CName

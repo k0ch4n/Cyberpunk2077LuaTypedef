@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_EquipType: animAnimFeature
 ---@field public firstEquip Bool

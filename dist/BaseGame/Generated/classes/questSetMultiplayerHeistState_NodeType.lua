@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetMultiplayerHeistState_NodeType: questIMultiplayerHeistNodeType
 ---@field public state questMultiplayerHeistState

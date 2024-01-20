@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MovableWallScreen: Door
 ---@field private animationLength Float

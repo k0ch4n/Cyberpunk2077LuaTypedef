@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetRevealedInNetwork: redEvent
 ---@field public wasRevealed Bool

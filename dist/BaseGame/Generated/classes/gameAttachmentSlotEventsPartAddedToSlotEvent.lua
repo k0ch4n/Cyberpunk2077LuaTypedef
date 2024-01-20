@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttachmentSlotEventsPartAddedToSlotEvent: redEvent
 ---@field public itemID gameItemID

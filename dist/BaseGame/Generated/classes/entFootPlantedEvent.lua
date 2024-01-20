@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entFootPlantedEvent: redEvent
 ---@field public customAction CName

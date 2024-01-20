@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Pose360: animAnimNode_Base
 ---@field public angle animFloatLink

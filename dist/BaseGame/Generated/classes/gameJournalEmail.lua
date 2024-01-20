@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalEmail: gameJournalEntry
 ---@field public sender LocalizationString

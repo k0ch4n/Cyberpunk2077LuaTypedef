@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyCritWithDistance: ModifyAttackEffector
 ---@field public critChanceBonus Float

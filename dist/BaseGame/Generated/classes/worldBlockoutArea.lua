@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldBlockoutArea: ISerializable
 ---@field public name String

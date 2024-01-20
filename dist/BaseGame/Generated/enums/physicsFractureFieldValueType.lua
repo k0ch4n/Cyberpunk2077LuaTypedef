@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsFractureFieldValueType: Enum
 ---@field FFVT_Impulse Enum 0

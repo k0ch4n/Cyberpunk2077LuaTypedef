@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleEngageMovingFasterInterpolationData
 ---@field public enterCurveType audioESoundCurveType

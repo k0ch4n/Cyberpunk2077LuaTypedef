@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectDuration_PredefinedTimeout: gameEffectDurationModifier
 ---@field public timeToLive Float

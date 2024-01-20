@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtLimitDistanceType: Enum
 ---@field Short Enum 0

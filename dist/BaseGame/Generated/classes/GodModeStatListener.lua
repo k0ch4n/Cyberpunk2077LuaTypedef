@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GodModeStatListener: gameScriptStatsListener
 ---@field public healthbar gameuiHudHealthbarGameController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseSensorOwnerChangedEvent: redEvent
 ---@field public newOwnerId entEntityID

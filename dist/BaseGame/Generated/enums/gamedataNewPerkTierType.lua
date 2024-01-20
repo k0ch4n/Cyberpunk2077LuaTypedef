@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNewPerkTierType: Enum
 ---@field AdeptNewPerkTier Enum 0

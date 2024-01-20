@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseCodexLinkController: inkWidgetLogicController
 ---@field protected linkImage inkImageWidgetReference

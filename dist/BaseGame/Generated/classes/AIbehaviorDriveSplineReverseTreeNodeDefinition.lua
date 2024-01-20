@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDriveSplineReverseTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field public spline AIArgumentMapping

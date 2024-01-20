@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHDRSettingsGameController: gameuiMenuGameController
 ---@field public callibrationScreen CBitmapTexture

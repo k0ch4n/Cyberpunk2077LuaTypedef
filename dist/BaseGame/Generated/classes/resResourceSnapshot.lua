@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class resResourceSnapshot: CResource
 ---@field public resources CResource[]

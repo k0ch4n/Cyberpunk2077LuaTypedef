@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraSearchIssuesResult: ISerializable
 ---@field public startAt Uint32

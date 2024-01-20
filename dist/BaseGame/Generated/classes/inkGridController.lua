@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGridController: inkVirtualCompoundController
 ---@field public height Uint32

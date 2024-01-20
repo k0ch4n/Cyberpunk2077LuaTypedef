@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProgramEntry: IScriptable
 ---@field public itemID gameItemID

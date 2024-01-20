@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtAnimationDefinition
 ---@field public minTransitionDuration Float

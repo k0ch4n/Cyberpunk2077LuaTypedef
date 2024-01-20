@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeSharedVarRegistrationName
 ---@field public name CName

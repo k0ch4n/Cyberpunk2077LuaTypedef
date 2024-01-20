@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVisualTagAppearanceMapping: audioAudioMetadata
 ---@field public mappings audioVisualTagAppearanceGroup[]

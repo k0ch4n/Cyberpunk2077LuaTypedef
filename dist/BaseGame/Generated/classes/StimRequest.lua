@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StimRequest: IScriptable
 ---@field public stimuli senseStimuliEvent

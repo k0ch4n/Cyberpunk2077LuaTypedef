@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityRole: ISerializable
 ---@field public roleName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialSlot: IScriptable
 ---@field public slotAnchorRef inkWidgetReference

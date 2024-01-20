@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsPlayerReachablePrereq: gameIScriptablePrereq
 ---@field public invert Bool

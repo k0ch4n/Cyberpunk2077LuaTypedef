@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceMoveInCombatWhistleEffector: ForceMoveInCombatEffector
 ---@field public targetPosition Vector4

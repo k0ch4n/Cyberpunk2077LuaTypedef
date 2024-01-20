@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDocumentStateEvent: redEvent
 ---@field public documentType EDocumentType

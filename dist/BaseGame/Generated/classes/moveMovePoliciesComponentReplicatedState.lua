@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveMovePoliciesComponentReplicatedState: netIComponentState
 ---@field public movePolicies moveReplicatedMovePoliciesState

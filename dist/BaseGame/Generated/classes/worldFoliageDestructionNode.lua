@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageDestructionNode: worldCollisionNode
 ---@field public populationIndex Uint32[]

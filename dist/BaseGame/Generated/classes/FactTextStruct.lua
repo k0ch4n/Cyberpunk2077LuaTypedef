@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FactTextStruct
 ---@field public locKeyList CName[]

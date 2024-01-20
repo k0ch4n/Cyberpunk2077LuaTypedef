@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleDriveToPointAutonomousCommand: AIVehicleCommand
 ---@field public targetPosition Vector3

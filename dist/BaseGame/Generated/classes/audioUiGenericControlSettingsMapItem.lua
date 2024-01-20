@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioUiGenericControlSettingsMapItem: audioAudioMetadata
 ---@field public uiEventToAudioEventDictionary audioKeySoundEventDictionary

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BumpNetrunnerMinigameLevel: gamePlayerScriptableSystemRequest
 ---@field public completedMinigameLevel Int32

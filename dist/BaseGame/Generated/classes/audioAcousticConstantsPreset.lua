@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAcousticConstantsPreset: audioAudioMetadata
 ---@field public dopplerFactor Float

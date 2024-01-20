@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDefaultMixingSignposts: audioAudioMetadata
 ---@field public endOfCombat CName

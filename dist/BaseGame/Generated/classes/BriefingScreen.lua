@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BriefingScreen: gameuiHUDGameController
 ---@field public logicControllerRef inkWidgetReference

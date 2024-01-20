@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MineDispenserPlaceEvents: MineDispenserEventsTransition
 ---@field private spawnPosition Vector4

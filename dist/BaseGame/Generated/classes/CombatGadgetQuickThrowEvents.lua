@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CombatGadgetQuickThrowEvents: CombatGadgetTransitions
 ---@field public grenadeThrown Bool

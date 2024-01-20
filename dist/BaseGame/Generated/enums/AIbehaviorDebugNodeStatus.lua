@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDebugNodeStatus: Enum
 ---@field Undefined Enum 0

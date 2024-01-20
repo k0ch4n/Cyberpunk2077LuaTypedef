@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveCombatConditions: PassiveAutonomousCondition
 ---@field protected combatCommandCbId Uint32

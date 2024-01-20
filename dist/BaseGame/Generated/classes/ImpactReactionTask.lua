@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ImpactReactionTask: AIHitReactionTask
 ---@field public tweakDBPackage TweakDBID

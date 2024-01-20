@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFlattenedLootData
 ---@field public lootID TweakDBID

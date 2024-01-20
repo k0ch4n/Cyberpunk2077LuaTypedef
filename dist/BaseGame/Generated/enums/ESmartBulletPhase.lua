@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESmartBulletPhase: Enum
 ---@field Init Enum 0

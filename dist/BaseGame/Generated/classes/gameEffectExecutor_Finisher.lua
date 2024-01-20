@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_Finisher: gameEffectExecutor
 ---@field public InfluencedByPlayerCostBlock Bool

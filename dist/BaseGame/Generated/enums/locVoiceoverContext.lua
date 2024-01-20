@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locVoiceoverContext: Enum
 ---@field Vo_Context_Quest Enum 0

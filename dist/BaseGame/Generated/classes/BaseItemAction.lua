@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseItemAction: BaseScriptableAction
 ---@field private itemData gameItemData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimePeriod_ConditionType: questITimeConditionType
 ---@field public begin GameTime

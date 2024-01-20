@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlindingLightControllerPS: BasicDistractionDeviceControllerPS
 ---@field protected reflectorSFX ReflectorSFX

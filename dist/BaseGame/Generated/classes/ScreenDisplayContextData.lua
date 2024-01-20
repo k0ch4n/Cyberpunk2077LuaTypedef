@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScreenDisplayContextData: IScriptable
 ---@field public Context ScreenDisplayContext

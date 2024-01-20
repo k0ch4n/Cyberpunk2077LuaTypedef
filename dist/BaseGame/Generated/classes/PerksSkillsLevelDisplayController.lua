@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksSkillsLevelDisplayController: inkWidgetLogicController
 ---@field protected tint inkWidgetReference

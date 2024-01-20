@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDeviceInvestigationData: AIbehaviortaskScript
 ---@field public ownerPuppet ScriptedPuppet

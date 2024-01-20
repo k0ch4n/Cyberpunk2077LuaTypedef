@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerQuestCluesGameController: BaseChunkGameController
 ---@field private ScannerQuestPanel inkCompoundWidgetReference

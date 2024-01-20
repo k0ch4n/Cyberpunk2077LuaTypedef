@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugTileGenerationDebugData: ISerializable
 ---@field public tileIndex Uint32

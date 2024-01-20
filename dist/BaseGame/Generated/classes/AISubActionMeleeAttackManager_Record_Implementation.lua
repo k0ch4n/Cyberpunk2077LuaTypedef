@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionMeleeAttackManager_Record_Implementation: IScriptable
 AISubActionMeleeAttackManager_Record_Implementation = {}

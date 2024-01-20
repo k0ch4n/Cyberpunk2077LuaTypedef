@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkETextureResolution: Enum
 ---@field UltraHD_3840_2160 Enum 0

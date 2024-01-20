@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectExecutor_PhysicalImpulseFromInstigator_Value: gameEffectExecutor
 ---@field public magnitude Float

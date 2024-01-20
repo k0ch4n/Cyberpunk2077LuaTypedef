@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questStorage: Enum
 ---@field Slow Enum 0

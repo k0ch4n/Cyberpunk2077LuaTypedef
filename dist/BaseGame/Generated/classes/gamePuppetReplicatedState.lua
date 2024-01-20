@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePuppetReplicatedState: netIEntityState
 ---@field public initialOrientation EulerAngles

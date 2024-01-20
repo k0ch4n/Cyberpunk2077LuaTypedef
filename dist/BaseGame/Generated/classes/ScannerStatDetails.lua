@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerStatDetails
 ---@field public statType gamedataStatType

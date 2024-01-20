@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineparameterTypeActionLocomotionParameters: IScriptable
 ---@field public imperfectTurn Bool

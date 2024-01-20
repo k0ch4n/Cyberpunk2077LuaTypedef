@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeadOnInitTask: AIbehaviortaskScript
 ---@field public preventSkippingDeathAnimation Bool

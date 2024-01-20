@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class resDlcManifest: CResource
 ---@field public tweakBlob CResource

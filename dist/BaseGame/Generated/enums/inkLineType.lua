@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLineType: Enum
 ---@field RegularPatternSpacing Enum 0

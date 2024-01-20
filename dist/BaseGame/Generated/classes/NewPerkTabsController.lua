@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkTabsController: inkWidgetLogicController
 ---@field private tabText inkTextWidgetReference

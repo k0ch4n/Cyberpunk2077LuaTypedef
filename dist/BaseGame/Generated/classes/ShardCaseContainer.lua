@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardCaseContainer: gameContainerObjectSingleItem
 ---@field public wasOpened Bool

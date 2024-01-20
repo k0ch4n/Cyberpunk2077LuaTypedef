@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrafficLight: Device
 ---@field protected lightState worldTrafficLightColor

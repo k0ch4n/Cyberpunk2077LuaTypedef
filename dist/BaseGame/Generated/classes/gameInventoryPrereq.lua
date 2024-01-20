@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameInventoryPrereq: gameIComparisonPrereq
 ---@field public itemID gameItemID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTutorialArea: inkWidgetLogicController
 ---@field public bracketID CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAngleRange_Record: gamedataSenseShape_Record
 gamedataAngleRange_Record = {}

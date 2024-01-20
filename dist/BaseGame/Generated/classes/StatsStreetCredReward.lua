@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatsStreetCredReward: inkWidgetLogicController
 ---@field private prevRewardsList inkCompoundWidgetReference

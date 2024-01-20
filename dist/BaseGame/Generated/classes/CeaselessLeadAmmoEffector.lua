@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CeaselessLeadAmmoEffector: gameEffector
 ---@field public percentToRefund Float

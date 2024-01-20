@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EmitterGroupAreaSettings: IAreaSettings
 ---@field public emitterGroupParams EmitterGroupParams[]

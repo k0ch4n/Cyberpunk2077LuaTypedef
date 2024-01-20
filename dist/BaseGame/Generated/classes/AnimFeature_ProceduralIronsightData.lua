@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_ProceduralIronsightData: animAnimFeature
 ---@field public hasScope Bool

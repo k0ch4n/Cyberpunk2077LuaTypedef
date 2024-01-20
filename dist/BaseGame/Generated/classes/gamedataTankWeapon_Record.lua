@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTankWeapon_Record: gamedataArcadeObject_Record
 gamedataTankWeapon_Record = {}

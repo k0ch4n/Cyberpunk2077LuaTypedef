@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCooldownGameController: gameuiWidgetGameController
 ---@field private maxCooldowns Int32

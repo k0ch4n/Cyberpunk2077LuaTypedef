@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTypographyResource: CResource
 ---@field public languages inkLanguageDefinition[]

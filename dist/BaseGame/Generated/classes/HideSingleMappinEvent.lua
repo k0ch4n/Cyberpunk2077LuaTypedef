@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HideSingleMappinEvent: redEvent
 ---@field public index Int32

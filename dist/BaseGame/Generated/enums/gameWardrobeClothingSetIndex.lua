@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWardrobeClothingSetIndex: Enum
 ---@field Slot1 Enum 0

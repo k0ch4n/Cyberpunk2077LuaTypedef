@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerDoorControllerPS: DoorControllerPS
 ---@field private NpcOpenSpeed Float

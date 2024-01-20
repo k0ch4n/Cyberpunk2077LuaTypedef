@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberdeckDeviceQuickhackData
 ---@field public UIIcon gamedataUIIcon_Record

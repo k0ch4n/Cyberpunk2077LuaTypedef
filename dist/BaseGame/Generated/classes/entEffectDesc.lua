@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEffectDesc: ISerializable
 ---@field public id CRUID

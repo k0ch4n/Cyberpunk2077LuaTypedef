@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPoseBlendMethod_BoneBranch: animIPoseBlendMethod
 ---@field public bones animOverrideBlendBoneInfo[]

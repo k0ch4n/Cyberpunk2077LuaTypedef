@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RetractableAdControllerPS: BaseAnimatedDeviceControllerPS
 ---@field protected isControlled Bool

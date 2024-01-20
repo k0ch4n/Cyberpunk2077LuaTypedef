@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRemoveAllModifiersEffector_Record: gamedataEffector_Record
 gamedataRemoveAllModifiersEffector_Record = {}

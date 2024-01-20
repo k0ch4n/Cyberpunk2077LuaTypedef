@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamDestructionBonds: meshMeshParameter
 ---@field public bonds meshDestructionBond[]

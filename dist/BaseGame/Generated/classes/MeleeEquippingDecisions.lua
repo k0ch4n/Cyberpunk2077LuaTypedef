@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeEquippingDecisions: MeleeIdleDecisions
 ---@field public hasEquipAttack Bool

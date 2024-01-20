@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIEInterruptionOutcome: Enum
 ---@field INTERRUPTION_SUCCESS Enum 0

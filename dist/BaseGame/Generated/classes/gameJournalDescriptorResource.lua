@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalDescriptorResource: gameJournalBaseResource
 ---@field public entriesActivatedAtStart String[]

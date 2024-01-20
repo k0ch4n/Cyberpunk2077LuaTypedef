@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIsInMirrorsAreaMapArrayElement
 ---@field public objectRef NodeRef

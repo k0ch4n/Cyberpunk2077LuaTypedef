@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedamageHitDebugData: IScriptable
 ---@field public sourceHitPosition Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_DampQuaternion: animAnimNode_QuaternionValue
 ---@field public defaultRotationSpeed Float

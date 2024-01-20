@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiRoachRaceGameState: gameuiMinigameState
 ---@field public invincibleTime Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBounty_Record: gamedataTweakDBRecord
 gamedataBounty_Record = {}

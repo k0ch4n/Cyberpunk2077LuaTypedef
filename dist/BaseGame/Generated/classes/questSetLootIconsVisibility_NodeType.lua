@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetLootIconsVisibility_NodeType: questIUIManagerNodeType
 ---@field public lootIconsVisible Bool

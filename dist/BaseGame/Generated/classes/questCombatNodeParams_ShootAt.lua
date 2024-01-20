@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeParams_ShootAt: questCombatNodeParams
 ---@field public targetOverrideNode NodeRef

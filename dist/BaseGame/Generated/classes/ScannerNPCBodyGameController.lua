@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerNPCBodyGameController: BaseChunkGameController
 ---@field private factionText inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMultiplayerChoiceTokenNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public params questMultiplayerChoiceTokenParams

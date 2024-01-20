@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMoveToCoverCommandParams: questScriptedAICommandParams
 ---@field public coverNodeRef NodeRef

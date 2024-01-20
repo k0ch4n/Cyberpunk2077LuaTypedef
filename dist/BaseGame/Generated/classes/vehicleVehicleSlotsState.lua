@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleVehicleSlotsState: ISerializable
 ---@field public vehicleDoorState vehicleVehicleDoorState

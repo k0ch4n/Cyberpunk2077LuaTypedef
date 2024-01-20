@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataProjectileOnCollisionAction: Enum
 ---@field Bounce Enum 0

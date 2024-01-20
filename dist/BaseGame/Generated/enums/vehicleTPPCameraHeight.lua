@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleTPPCameraHeight: Enum
 ---@field Low Enum 0

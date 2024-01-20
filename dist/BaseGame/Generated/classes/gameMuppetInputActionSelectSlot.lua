@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetInputActionSelectSlot: gameIMuppetInputAction
 ---@field public targetSlot Int32

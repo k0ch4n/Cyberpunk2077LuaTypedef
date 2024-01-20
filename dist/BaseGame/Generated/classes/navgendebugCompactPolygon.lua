@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class navgendebugCompactPolygon: ISerializable
 ---@field public index Uint16

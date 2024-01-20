@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeConditionDefinition: AICTreeNodeCompositeDefinition
 ---@field public expressions LibTreeINodeDefinition[]

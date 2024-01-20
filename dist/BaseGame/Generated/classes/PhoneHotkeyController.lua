@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneHotkeyController: GenericHotkeyController
 ---@field private mainIcon inkImageWidgetReference

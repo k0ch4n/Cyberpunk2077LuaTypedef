@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemDisplayCategoryArea: inkWidgetLogicController
 ---@field protected areasToHide inkWidgetReference[]

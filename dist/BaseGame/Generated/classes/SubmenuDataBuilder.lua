@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubmenuDataBuilder: IScriptable
 ---@field private menuBuilder MenuDataBuilder

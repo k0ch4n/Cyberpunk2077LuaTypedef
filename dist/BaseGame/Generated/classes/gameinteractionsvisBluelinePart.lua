@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisBluelinePart: IScriptable
 ---@field public passed Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNavigationScriptCostModCircle: IScriptable
 ---@field public pos Vector4

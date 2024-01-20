@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemLookAtObjectChangedEvent: redEvent
 ---@field public lookatObject gameObject

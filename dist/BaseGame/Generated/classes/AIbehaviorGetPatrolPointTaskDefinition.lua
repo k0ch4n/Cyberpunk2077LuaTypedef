@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorGetPatrolPointTaskDefinition: AIbehaviorTaskDefinition
 ---@field public inPatrolDistance AIArgumentMapping

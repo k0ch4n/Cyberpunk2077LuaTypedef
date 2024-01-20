@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIEquipmentReplacedEvent: redEvent
 ---@field public itemID gameItemID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorParallelNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
 ---@field public waitFor AIbehaviorParallelNodeWaitFor

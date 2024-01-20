@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionUploadListener: gameCustomValueStatPoolsListener
 ---@field public action ScriptableDeviceAction

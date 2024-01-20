@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WindAreaSettings: IAreaSettings
 ---@field public strength curveData

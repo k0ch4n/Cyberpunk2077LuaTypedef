@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameScanningControllerSaveData: ISerializable
 ---@field public taggedObjectIDs entEntityID[]

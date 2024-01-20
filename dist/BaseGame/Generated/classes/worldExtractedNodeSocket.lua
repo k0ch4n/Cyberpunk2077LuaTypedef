@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldExtractedNodeSocket
 ---@field public name CName

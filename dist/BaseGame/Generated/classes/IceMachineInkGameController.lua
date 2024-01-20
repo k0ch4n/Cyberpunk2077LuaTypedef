@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IceMachineInkGameController: DeviceInkGameControllerBase
 ---@field private buttonContainer inkWidgetReference

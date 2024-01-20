@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipCycleInitEvents: EquipmentBaseEvents
 ---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData

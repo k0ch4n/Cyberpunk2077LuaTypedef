@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnregisterNetworkLinkRequest: gameScriptableSystemRequest
 ---@field public linksData SNetworkLinkData[]

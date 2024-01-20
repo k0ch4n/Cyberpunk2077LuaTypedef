@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIISerializableArgumentInstancePS: AIArgumentInstancePS
 ---@field public value ISerializable

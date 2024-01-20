@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSwitch: InteractiveMasterDevice
 ---@field protected animationType EAnimationType

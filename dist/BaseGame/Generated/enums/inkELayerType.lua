@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkELayerType: Enum
 ---@field Watermarks Enum 0

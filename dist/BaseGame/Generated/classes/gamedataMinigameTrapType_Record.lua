@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMinigameTrapType_Record: gamedataTweakDBRecord
 gamedataMinigameTrapType_Record = {}

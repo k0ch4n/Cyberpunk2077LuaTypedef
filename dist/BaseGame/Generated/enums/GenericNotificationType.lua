@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericNotificationType: Enum
 ---@field Generic Enum 0

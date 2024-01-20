@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SUIScreenDefinition
 ---@field public screenDefinition TweakDBID

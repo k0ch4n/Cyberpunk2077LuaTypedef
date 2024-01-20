@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemPartListElement_Record: gamedataTweakDBRecord
 gamedataItemPartListElement_Record = {}

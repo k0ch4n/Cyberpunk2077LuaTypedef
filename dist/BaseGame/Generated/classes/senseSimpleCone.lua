@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseSimpleCone: senseIShape
 ---@field public position1 Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ButtonCursorStateView: BaseButtonView
 ---@field private HoverStateName CName

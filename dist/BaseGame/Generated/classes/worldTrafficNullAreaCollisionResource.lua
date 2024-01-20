@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficNullAreaCollisionResource: CResource
 ---@field public nullAreasCollisionData worldTrafficNullAreaCollisionData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorFindNavigablePointTaskDefinition: AIbehaviorTaskDefinition
 ---@field public destination AIArgumentMapping

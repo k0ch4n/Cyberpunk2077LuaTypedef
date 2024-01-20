@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_Wardrobe: MenuScenario_BaseMenu
 MenuScenario_Wardrobe = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_FloatEvaluator_Value: gameIEffectParameter_FloatEvaluator
 ---@field public value Float

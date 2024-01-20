@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnScenesVersions: CResource
 ---@field public currentVersion Uint32

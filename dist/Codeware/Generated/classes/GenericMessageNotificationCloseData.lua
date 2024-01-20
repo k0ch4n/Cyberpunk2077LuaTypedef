@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericMessageNotificationCloseData: inkGameNotificationData
 ---@field public input String

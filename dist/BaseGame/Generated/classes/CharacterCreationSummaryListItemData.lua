@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationSummaryListItemData: IScriptable
 ---@field public label String

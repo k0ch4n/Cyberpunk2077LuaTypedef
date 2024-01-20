@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GrenadeLvl4HackEffector: gameEffector
 ---@field private grenadeChangeEntity gameObject

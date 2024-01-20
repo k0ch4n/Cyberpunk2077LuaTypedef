@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickhackData: IScriptable
 ---@field public actionOwner entEntityID

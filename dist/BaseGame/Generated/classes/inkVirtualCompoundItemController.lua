@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVirtualCompoundItemController: inkButtonController
 ---@field public ToggledOff inkVirtualCompoundItemControllerCallback

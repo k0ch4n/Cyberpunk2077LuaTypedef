@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_MeleeSlotData: animAnimFeature
 ---@field public attackType Int32

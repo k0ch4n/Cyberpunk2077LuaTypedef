@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneSolutionHashHash
 ---@field public sceneSolutionHashDate Uint64

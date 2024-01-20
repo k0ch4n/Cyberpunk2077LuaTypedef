@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDModule: IScriptable
 ---@field protected hud HUDManager

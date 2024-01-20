@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldGuardAreaNode: worldAreaShapeNode
 ---@field public communityEntries AIGuardAreaConnectedCommunity[]

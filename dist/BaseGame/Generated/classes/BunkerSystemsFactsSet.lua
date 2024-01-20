@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerSystemsFactsSet
 ---@field public ALPHA_FACT CName

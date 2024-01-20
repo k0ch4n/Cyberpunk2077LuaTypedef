@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimGraphResourceContainerEntry
 ---@field public graphName CName

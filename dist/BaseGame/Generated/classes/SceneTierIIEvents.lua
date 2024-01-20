@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneTierIIEvents: SceneTierAbstractEvents
 ---@field public cachedSpeedValue Float

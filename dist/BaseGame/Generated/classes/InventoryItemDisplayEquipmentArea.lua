@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemDisplayEquipmentArea: inkWidgetLogicController
 ---@field protected equipmentAreas gamedataEquipmentArea[]

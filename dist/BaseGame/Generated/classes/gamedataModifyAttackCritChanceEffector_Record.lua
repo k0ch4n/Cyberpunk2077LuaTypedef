@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataModifyAttackCritChanceEffector_Record: gamedataEffector_Record
 gamedataModifyAttackCritChanceEffector_Record = {}

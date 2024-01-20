@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleWater_ConditionType: questIVehicleConditionType
 ---@field public anyVehicle Bool

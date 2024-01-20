@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTriggerMode_Record: gamedataTweakDBRecord
 gamedataTriggerMode_Record = {}

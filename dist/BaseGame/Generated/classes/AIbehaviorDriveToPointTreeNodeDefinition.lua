@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDriveToPointTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field public targetPosition AIArgumentMapping

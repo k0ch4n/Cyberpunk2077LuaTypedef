@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AOEEffectorControllerPS: ActivatedDeviceControllerPS
 ---@field protected effectsToPlay CName[]

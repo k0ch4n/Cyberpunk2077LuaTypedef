@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionPlayerStates
 ---@field public locomotionStates gamePSMLocomotionStates[]

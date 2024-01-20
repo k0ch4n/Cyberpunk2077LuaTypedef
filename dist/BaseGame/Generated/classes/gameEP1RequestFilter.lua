@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEP1RequestFilter: gameCustomRequestFilter
 ---@field public isEP1 Bool

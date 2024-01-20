@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemEntityTargetedEvent: redEvent
 ---@field public targetingEntity entEntity

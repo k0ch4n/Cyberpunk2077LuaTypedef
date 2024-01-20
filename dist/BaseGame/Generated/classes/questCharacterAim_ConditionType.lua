@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterAim_ConditionType: questICharacterConditionType
 ---@field public isPlayer Bool

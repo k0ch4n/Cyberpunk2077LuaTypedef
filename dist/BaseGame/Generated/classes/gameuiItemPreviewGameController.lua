@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiItemPreviewGameController: gameuiPreviewGameController
 ---@field public root inkWidgetReference

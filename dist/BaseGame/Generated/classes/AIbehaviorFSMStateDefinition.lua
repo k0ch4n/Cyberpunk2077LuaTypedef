@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorFSMStateDefinition: AIbehaviorTreeNodeDefinition
 ---@field public behaviorRoot AIbehaviorTreeNodeDefinition

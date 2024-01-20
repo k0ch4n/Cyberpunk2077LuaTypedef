@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerResistancesGameController: BaseChunkGameController
 ---@field private physicalResistText inkTextWidgetReference

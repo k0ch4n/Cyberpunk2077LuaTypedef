@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyItemPriority: Enum
 ---@field P0 Enum 0

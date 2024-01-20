@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DPADActionPerformed: redEvent
 ---@field public ownerID entEntityID

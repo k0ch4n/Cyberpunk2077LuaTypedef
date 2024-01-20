@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamegpsSettings
 ---@field public lineEffectOnFoot worldEffect

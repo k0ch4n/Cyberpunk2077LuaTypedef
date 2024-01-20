@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameELootGenerationType: Enum
 ---@field DropChance Enum 0

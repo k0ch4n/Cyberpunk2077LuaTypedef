@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipTransmogModule: ItemTooltipModuleController
 ---@field private buttonHintWidgetRef inkWidgetReference

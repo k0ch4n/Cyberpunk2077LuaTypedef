@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CallActionWidgetController: DeviceActionWidgetControllerBase
 ---@field protected statusText inkTextWidgetReference

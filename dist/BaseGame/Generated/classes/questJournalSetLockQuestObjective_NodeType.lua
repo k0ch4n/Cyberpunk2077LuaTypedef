@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJournalSetLockQuestObjective_NodeType: questIJournal_NodeType
 ---@field public path gameJournalPath

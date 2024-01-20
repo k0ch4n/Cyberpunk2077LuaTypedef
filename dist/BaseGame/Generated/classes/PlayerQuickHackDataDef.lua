@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerQuickHackDataDef: gamebbScriptDefinition
 ---@field public CachedQuickHackList gamebbScriptID_Variant

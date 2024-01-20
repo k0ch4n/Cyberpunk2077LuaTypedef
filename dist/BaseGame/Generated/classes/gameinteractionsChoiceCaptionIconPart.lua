@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsChoiceCaptionIconPart: gameinteractionsChoiceCaptionPart
 ---@field public iconRecord gamedataChoiceCaptionIconPart_Record

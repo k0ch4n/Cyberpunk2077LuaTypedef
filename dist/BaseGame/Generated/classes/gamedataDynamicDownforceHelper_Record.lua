@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDynamicDownforceHelper_Record: gamedataDriveHelper_Record
 gamedataDynamicDownforceHelper_Record = {}

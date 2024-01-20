@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionVehicleStolenRequest: gameScriptableSystemRequest
 ---@field public requesterPosition Vector4

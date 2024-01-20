@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RewireComponent: gameScriptableComponent
 ---@field public miniGameVideoPath redResourceReferenceScriptToken

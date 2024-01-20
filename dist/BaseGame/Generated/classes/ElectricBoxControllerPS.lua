@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElectricBoxControllerPS: MasterControllerPS
 ---@field private techieSkillChecks EngineeringContainer

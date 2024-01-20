@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetedObjectDeathListener: gameCustomValueStatPoolsListener
 ---@field public lsitener SensorDevice

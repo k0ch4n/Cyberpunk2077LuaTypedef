@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questBuild_ConditionType: questIStatsScriptConditionType
 questBuild_ConditionType = {}

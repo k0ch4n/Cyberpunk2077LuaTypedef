@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUIIcon_Record: gamedataTweakDBRecord
 gamedataUIIcon_Record = {}

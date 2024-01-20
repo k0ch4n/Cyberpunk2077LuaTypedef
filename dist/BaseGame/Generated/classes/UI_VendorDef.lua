@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_VendorDef: gamebbScriptDefinition
 ---@field public VendorData gamebbScriptID_Variant

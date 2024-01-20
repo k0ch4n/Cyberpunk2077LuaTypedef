@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankEnemyController: gameuiarcadeTankDestroyableObjectController
 ---@field public headParent inkWidgetReference

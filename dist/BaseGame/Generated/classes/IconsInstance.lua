@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IconsInstance: ModuleInstance
 ---@field public isForcedVisibleThroughWalls Bool

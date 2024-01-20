@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMP: gameEffectExecutor_Scripted
 EMP = {}

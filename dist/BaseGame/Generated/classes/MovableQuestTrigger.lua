@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MovableQuestTrigger: gameObject
 ---@field protected factName CName

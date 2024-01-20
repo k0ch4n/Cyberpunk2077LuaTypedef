@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickhackInstance: ModuleInstance
 ---@field private open Bool

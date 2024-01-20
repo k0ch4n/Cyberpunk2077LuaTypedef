@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMinigameTrapType: Enum
 ---@field Both Enum 0

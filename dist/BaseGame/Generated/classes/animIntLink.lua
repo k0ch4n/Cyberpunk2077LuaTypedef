@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animIntLink
 ---@field public node animAnimNode_IntValue

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIThreatExpectationInvalid: AIAIEvent
 ---@field public owner entEntity

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraEditIssueBody: ISerializable
 ---@field public fields toolsJiraIssueFields

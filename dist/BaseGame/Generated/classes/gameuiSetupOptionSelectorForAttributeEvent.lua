@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSetupOptionSelectorForAttributeEvent: redEvent
 ---@field public attribute Uint32

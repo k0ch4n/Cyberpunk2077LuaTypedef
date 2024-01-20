@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopTerrainNodeInfo
 ---@field public width Uint32

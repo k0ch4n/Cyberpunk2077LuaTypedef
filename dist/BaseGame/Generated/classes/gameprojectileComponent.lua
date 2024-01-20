@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileComponent: entIPlacedComponent
 ---@field public onCollisionAction gameprojectileOnCollisionAction

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDeleteInputGroupEvent: redEvent
 ---@field public groupId CName

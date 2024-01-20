@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDManagerRegistrationTaskData: gameScriptTaskData
 ---@field public shouldRegister Bool

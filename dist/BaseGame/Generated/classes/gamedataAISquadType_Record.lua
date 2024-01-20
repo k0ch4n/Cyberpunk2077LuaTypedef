@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadType_Record: gamedataTweakDBRecord
 gamedataAISquadType_Record = {}

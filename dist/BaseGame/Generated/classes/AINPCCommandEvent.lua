@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AINPCCommandEvent: AIAIEvent
 ---@field public command AICommand

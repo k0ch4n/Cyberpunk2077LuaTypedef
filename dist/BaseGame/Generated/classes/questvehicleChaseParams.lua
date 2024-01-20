@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questvehicleChaseParams: questVehicleSpecificCommandParams
 ---@field public targetEntRef gameEntityReference

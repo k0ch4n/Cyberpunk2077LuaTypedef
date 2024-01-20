@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questControlObject_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public objectRef gameEntityReference

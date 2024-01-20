@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentSmoothingParams
 ---@field public smoothingStrength Float

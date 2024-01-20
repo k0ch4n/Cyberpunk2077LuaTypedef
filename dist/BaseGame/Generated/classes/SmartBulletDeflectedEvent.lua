@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmartBulletDeflectedEvent: redEvent
 ---@field public localToWorld Matrix

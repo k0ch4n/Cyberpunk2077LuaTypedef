@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_QueryShockwave: gameEffectObjectProvider_QuerySphere
 gameEffectObjectProvider_QueryShockwave = {}

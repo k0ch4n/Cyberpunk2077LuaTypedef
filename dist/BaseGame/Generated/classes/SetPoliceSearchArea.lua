@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetPoliceSearchArea: gameScriptableSystemRequest
 ---@field public SearchAreaRadius Float

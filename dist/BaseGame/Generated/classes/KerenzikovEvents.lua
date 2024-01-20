@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KerenzikovEvents: TimeDilationEventsTransitions
 ---@field public allowMovementModifier gameStatModifierData_Deprecated

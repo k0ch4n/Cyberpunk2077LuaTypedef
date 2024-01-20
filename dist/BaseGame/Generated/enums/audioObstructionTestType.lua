@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioObstructionTestType: Enum
 ---@field SingleShot Enum 0

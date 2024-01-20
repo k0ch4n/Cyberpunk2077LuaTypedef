@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhoneManagerNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public type questIPhoneManagerNodeType

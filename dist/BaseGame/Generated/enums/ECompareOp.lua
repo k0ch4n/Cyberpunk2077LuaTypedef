@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECompareOp: Enum
 ---@field CO_Lesser Enum 0

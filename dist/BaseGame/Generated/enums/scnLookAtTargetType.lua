@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnLookAtTargetType: Enum
 ---@field Actor Enum 0

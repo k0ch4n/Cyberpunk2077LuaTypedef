@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForkliftSetup
 ---@field public actionActivateName CName

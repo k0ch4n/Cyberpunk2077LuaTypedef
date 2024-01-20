@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerSkillchecks: ScannerChunk
 ---@field private skillchecks UIInteractionSkillCheck[]

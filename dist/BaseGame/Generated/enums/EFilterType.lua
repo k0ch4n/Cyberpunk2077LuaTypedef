@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFilterType: Enum
 ---@field ALLOW_NONE Enum 0

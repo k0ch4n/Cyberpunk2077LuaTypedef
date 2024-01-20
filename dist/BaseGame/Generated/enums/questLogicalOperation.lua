@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLogicalOperation: Enum
 ---@field AND Enum 0

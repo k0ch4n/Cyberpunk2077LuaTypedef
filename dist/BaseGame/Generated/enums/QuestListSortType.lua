@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListSortType: Enum
 ---@field Updated Enum 0

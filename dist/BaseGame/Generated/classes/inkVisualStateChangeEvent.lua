@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVisualStateChangeEvent: redEvent
 ---@field public visualState CName

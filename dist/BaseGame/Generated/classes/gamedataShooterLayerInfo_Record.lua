@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterLayerInfo_Record: gamedataTweakDBRecord
 gamedataShooterLayerInfo_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCUpperBodyState: Enum
 ---@field Aim Enum 0

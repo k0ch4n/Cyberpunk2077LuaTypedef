@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EColorMappingFunction: Enum
 ---@field CMF_Linear Enum 0

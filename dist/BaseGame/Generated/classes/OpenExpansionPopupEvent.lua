@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenExpansionPopupEvent: redEvent
 ---@field public type ExpansionPopupType

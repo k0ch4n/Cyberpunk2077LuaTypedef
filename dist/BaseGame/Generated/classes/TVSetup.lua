@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TVSetup
 ---@field public channels STvChannel[]

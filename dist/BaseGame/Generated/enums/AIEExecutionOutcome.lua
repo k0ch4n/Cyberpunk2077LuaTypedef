@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIEExecutionOutcome: Enum
 ---@field OUTCOME_FAILURE Enum 0

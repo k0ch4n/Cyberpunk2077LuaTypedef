@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAudioEmitterComponent: entIPlacedComponent
 ---@field public EmitterName CName

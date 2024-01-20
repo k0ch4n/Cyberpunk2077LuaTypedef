@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeatherPreset_Record: gamedataSpawnableObject_Record
 gamedataWeatherPreset_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataIsHackable: Enum
 ---@field Always Enum 0

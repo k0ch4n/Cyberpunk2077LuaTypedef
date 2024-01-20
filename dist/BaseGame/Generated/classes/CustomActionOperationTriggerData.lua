@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomActionOperationTriggerData: DeviceOperationTriggerData
 ---@field public actionID CName

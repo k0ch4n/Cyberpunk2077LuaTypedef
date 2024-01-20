@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomCentaurBlackboardDef: CustomBlackboardDef
 ---@field public ShieldState gamebbScriptID_Int32

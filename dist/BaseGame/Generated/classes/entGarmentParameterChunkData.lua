@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entGarmentParameterChunkData
 ---@field public morphOffsetScales Uint8[]

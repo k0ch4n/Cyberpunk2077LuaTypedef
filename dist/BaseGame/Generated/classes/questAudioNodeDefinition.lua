@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAudioNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public type questIAudioNodeType

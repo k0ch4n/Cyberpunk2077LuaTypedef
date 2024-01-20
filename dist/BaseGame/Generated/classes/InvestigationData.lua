@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InvestigationData
 ---@field public globalNodeRef worldGlobalNodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEnvironmentDamageReceiverBox: gameEnvironmentDamageReceiverShape
 ---@field public dimensions Vector3

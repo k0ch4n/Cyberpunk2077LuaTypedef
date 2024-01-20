@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_inkCustomController: inkWidgetLogicController
 ---@field public isCreated Bool

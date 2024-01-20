@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGodModeSaveData: ISerializable
 ---@field public gods gameGodModeSaveEntityData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveCannotMoveConditions: PassiveAutonomousCondition
 ---@field protected statusEffectRemovedId Uint32

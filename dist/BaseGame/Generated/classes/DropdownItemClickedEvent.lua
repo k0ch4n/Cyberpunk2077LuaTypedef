@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropdownItemClickedEvent: redEvent
 ---@field public owner IScriptable

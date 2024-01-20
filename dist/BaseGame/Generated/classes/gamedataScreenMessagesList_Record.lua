@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataScreenMessagesList_Record: gamedataTweakDBRecord
 gamedataScreenMessagesList_Record = {}

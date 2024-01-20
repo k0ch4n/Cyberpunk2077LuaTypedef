@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendRenderMorphTargetMeshBlobHeader
 ---@field public version Uint32

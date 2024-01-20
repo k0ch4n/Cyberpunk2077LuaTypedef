@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HandleRagdollOnDeathEvent: redEvent
 ---@field public handleUncontrolledMovement Bool

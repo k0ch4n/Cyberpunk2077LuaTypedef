@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BasicDistractionDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field protected distractorType EPlaystyleType

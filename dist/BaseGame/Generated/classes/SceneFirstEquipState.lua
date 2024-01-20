@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneFirstEquipState: redEvent
 ---@field public prevented Bool

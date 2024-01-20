@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleHealthStatPoolListener: gameCustomValueStatPoolsListener
 ---@field public owner vehicleBaseObject

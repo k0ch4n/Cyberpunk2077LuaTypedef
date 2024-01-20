@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioClassificationMethod: Enum
 ---@field HasAnyTag Enum 0

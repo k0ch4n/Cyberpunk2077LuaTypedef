@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InGameConfigNotificationType: Enum
 ---@field RestartRequiredConfirmed Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftDevice: InteractiveMasterDevice
 ---@field protected advertismentNames CName[]

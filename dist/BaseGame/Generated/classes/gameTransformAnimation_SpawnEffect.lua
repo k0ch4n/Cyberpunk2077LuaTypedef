@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_SpawnEffect: gameTransformAnimation_Effects
 ---@field public effectName CName

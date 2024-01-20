@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataApplyStatusEffectByChanceEffector_Record: gamedataApplyStatusEffectEffector_Record
 gamedataApplyStatusEffectByChanceEffector_Record = {}

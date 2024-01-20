@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSceneTier_ConditionType: questISceneConditionType
 ---@field public tier GameplayTier

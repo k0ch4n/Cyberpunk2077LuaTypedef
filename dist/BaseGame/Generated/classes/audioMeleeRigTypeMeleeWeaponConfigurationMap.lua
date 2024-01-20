@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeRigTypeMeleeWeaponConfigurationMap
 ---@field public mapItems audioMeleeRigTypeMeleeWeaponConfigurationMapItem[]

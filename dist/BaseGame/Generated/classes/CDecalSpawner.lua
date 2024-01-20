@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CDecalSpawner: ISerializable
 ---@field public materialStatic IMaterial

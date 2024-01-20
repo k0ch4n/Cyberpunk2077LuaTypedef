@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldCompiledCrowdParkingSpaceNode: worldNode
 ---@field public crowdCreationIndex Uint32

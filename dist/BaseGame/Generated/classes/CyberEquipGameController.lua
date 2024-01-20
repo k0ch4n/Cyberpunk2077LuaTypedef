@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberEquipGameController: ArmorEquipGameController
 ---@field private eyesTags CName[]

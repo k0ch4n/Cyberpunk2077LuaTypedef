@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRagdollActivationRequestEvent: redEvent
 ---@field public data entragdollActivationRequestData

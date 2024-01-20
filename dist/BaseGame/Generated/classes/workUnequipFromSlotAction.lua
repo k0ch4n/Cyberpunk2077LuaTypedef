@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workUnequipFromSlotAction: workIWorkspotItemAction
 ---@field public itemSlot TweakDBID

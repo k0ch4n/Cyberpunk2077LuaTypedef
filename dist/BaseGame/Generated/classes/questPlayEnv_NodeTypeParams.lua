@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayEnv_NodeTypeParams
 ---@field public enable Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_SingleRicochetTarget: gameEffectObjectProvider
 ---@field public filterData physicsFilterData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_HitRepresentation_Sphere: gameEffectObjectFilter_HitRepresentation
 gameEffectObjectFilter_HitRepresentation_Sphere = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questLanguage_ConditionType: questISystemConditionType
 ---@field public mode questLanguageMode

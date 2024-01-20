@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSermoPoseInfo
 ---@field public lod Uint8

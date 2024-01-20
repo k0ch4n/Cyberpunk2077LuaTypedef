@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReactionZones_Humanoid_Side: Enum
 ---@field Head Enum 0

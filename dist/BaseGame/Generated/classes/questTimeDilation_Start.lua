@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeDilation_Start: questTimeDilation_Operation
 ---@field public dilation Float

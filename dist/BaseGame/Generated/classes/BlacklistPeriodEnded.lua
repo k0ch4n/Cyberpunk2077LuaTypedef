@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BlacklistPeriodEnded: redEvent
 ---@field public entityID entEntityID

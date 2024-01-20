@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUseWorkspotParamsV1: questAICommandParams
 ---@field public function questUseWorkspotNodeFunctions

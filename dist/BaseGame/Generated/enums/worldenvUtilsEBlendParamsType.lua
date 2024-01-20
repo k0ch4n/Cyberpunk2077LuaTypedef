@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldenvUtilsEBlendParamsType: Enum
 ---@field EBPS_Tick Enum 0

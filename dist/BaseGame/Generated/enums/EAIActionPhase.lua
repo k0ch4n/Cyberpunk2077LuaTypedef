@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIActionPhase: Enum
 ---@field Inactive Enum 0

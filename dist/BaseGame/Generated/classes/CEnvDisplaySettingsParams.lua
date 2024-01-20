@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEnvDisplaySettingsParams
 ---@field public enableInstantAdaptation Bool

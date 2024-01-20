@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetVehicleCamera_NodeType: questIVehicleManagerNodeType
 ---@field public cameraType questVehicleCameraType

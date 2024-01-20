@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotStartedEvent: redEvent
 ---@field public nodeId worldGlobalNodeID

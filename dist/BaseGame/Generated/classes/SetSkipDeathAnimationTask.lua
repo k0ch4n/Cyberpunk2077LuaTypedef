@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetSkipDeathAnimationTask: AIbehaviortaskScript
 ---@field public value Bool

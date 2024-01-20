@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BackDoorDeviceBlackboardDef: MasterDeviceBaseBlackboardDef
 ---@field public isInDefaultState gamebbScriptID_Bool

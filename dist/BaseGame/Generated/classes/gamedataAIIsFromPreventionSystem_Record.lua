@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsFromPreventionSystem_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsFromPreventionSystem_Record = {}

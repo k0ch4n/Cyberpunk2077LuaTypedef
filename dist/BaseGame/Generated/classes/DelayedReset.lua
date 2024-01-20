@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedReset: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field private controller CraftingLogicController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElevatorDeviceBlackboardDef: DeviceBaseBlackboardDef
 ---@field public CurrentFloor gamebbScriptID_String

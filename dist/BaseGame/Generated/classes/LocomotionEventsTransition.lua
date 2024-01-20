@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LocomotionEventsTransition: LocomotionTransition
 ---@field public causeContactDestruction Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorHubMenuChanged: redEvent
 ---@field public item HubVendorMenuItems

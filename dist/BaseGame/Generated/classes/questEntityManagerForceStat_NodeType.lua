@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerForceStat_NodeType: questIEntityManager_NodeType
 ---@field public objectRef gameEntityReference

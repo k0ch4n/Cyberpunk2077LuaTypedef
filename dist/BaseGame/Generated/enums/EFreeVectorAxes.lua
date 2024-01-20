@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFreeVectorAxes: Enum
 ---@field FVA_One Enum 1

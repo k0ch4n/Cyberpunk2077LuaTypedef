@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animTEMP_IKTargetsControllerBodyType
 ---@field public genderTag CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Switch: animAnimNode_MotionTableSwitch
 ---@field public numInputs Uint32

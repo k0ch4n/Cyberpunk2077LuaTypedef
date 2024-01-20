@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreviousFearPhaseCheck: AIbehaviorconditionScript
 ---@field public fearPhase Int32

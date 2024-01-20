@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetComparisonReportItem
 ---@field public type gameMuppetComparisonReportItemType

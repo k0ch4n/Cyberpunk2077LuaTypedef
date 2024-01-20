@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInjectLoot_NodeTypeParams: ISerializable
 ---@field public objectRef questUniversalRef

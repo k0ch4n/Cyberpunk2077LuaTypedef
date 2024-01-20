@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorTargetNode: IParticleModificator
 ---@field public forceScale IEvaluatorFloat

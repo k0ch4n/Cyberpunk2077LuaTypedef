@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_MoveTo: animAnimFeature
 ---@field public initialFwdVector Vector4

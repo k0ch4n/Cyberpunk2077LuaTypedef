@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISearchingLookat: AIGenericStaticLookatTask
 ---@field public minAngleDifferenceMapping AIArgumentMapping

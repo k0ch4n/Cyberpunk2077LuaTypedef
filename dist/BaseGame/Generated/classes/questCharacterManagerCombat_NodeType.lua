@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerCombat_NodeType: questICharacterManager_NodeType
 ---@field public subtype questICharacterManagerCombat_NodeSubType

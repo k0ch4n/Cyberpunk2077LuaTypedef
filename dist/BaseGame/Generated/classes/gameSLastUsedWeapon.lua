@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSLastUsedWeapon
 ---@field public lastUsedWeapon gameItemID

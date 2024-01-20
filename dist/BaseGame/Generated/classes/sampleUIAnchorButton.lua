@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIAnchorButton: inkWidgetLogicController
 ---@field public anchorLocation inkEAnchor

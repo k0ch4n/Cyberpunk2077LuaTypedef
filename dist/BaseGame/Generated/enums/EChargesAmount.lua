@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EChargesAmount: Enum
 ---@field Empty Enum 0

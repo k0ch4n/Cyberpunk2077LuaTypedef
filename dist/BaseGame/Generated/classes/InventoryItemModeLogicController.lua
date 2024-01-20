@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemModeLogicController: inkWidgetLogicController
 ---@field private itemCategoryList inkCompoundWidgetReference

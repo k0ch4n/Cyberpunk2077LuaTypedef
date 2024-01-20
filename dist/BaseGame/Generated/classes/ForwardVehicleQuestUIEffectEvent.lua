@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForwardVehicleQuestUIEffectEvent: redEvent
 ---@field public glitch Bool

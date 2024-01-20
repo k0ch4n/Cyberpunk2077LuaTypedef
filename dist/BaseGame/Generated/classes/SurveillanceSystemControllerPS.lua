@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SurveillanceSystemControllerPS: DeviceSystemBaseControllerPS
 ---@field private isRevealingEnemies Bool

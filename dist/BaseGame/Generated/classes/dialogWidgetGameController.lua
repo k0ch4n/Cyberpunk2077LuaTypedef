@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class dialogWidgetGameController: InteractionUIBase
 ---@field private root inkCanvasWidget

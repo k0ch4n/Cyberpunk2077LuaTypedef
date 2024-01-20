@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerRarity: ScannerChunk
 ---@field private rarity gamedataNPCRarity

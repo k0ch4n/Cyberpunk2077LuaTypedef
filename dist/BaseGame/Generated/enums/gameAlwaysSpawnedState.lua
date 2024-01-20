@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAlwaysSpawnedState: Enum
 ---@field ["default (false)"] Enum 0

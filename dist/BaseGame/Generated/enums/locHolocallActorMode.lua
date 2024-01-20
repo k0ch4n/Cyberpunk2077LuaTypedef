@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class locHolocallActorMode: Enum
 ---@field Default Enum 0

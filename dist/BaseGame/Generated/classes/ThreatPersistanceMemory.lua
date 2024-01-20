@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThreatPersistanceMemory
 ---@field public threats entEntity[]

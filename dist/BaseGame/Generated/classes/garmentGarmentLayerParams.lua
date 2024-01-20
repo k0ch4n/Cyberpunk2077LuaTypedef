@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentGarmentLayerParams: CResource
 ---@field public bending garmentBendingParams

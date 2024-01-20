@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SWidgetAnimationData
 ---@field public animationName CName

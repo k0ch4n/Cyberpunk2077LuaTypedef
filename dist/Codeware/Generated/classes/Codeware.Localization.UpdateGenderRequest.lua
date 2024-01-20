@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_Localization_UpdateGenderRequest: gameScriptableSystemRequest
 Codeware_Localization_UpdateGenderRequest = {}

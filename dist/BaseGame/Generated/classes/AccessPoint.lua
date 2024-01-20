@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AccessPoint: InteractiveMasterDevice
 ---@field private networkName String

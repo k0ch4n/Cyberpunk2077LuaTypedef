@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemParticles: effectTrackItem
 ---@field public particleSystem CParticleSystem

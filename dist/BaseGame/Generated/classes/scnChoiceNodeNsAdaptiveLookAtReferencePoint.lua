@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnChoiceNodeNsAdaptiveLookAtReferencePoint
 ---@field public referencePoint scnReferencePointId

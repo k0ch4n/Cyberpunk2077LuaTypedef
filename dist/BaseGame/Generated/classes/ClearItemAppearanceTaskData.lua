@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClearItemAppearanceTaskData: gameScriptTaskData
 ---@field public ts gameTransactionSystem

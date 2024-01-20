@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Move: gameTransformAnimationTrackItemImpl
 ---@field public startPositionEvaluator gameTransformAnimation_Position

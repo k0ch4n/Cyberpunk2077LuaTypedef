@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkDebugLayerDefinition: inkLayerDefinition
 ---@field public entries inkDebugLayerEntry[]

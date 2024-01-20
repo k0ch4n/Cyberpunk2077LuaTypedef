@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckPlayerTargetEntityDistanceReturnConditionParams
 ---@field public distance Float

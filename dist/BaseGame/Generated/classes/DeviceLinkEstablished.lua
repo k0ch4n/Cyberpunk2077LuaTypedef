@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceLinkEstablished: redEvent
 ---@field public deviceLinkPS DeviceLinkComponentPS

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemLightParameter: effectTrackItem
 ---@field public scale Float

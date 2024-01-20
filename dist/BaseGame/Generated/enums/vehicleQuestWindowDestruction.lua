@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleQuestWindowDestruction: Enum
 ---@field window_f Enum 0

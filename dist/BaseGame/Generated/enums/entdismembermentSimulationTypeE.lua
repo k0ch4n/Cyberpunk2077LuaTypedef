@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentSimulationTypeE: Enum
 ---@field NONE Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTweakDBIconReference: inkIconReference
 ---@field public iconID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatorControllerPS: MasterControllerPS
 ---@field private hasSpiderbotInteraction Bool

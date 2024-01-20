@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HighlightObjectEffector: gameEffector
 ---@field public reason CName

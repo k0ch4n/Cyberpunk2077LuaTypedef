@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksMainGameController: gameuiMenuGameController
 ---@field private tooltipsManagerRef inkWidgetReference

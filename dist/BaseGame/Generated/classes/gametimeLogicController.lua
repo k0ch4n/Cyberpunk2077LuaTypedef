@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametimeLogicController: IVehicleModuleController
 ---@field private gametimeTextWidget inkTextWidgetReference

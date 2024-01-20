@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveSecureFootingResult
 ---@field public slidingDirection Vector4

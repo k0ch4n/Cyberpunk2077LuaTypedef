@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddRemoveItem_NodeTypeParams: ISerializable
 ---@field public sendNotification Bool

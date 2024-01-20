@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SniperNestDeviceBlackboardDef: gamebbScriptDefinition
 ---@field public IsInTheSniperNest gamebbScriptID_Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPuppetsUnconscious: questPuppetsEffector
 ---@field public setUnconscious Bool

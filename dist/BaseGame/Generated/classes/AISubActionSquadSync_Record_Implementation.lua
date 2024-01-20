@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionSquadSync_Record_Implementation: IScriptable
 AISubActionSquadSync_Record_Implementation = {}

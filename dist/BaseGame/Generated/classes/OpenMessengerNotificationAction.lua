@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenMessengerNotificationAction: GenericNotificationBaseAction
 ---@field public eventDispatcher worlduiIWidgetGameController

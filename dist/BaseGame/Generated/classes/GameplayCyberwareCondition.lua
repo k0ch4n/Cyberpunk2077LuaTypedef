@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayCyberwareCondition: GameplayConditionBase
 ---@field public cyberwareToCheck TweakDBID

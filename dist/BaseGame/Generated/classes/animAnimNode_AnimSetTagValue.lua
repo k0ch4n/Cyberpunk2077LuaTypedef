@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_AnimSetTagValue: animAnimNode_FloatValue
 ---@field public tags redTagList

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPrefetchStreaming_NodeTypeV2: questIWorldDataManagerNodeType
 ---@field public prefetchPositionRef NodeRef

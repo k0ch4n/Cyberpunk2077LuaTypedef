@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNewPerkType: Enum
 ---@field Body_Central_Milestone_1 Enum 0

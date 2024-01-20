@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CooldownPackage: IScriptable
 ---@field private actionID TweakDBID

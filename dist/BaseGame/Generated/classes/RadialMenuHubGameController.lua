@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialMenuHubGameController: gameuiMenuGameController
 ---@field private menusData MenuDataBuilder

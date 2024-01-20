@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entEntityParametersBuffer
 ---@field public parameterBuffers serializationDeferredDataBuffer[]

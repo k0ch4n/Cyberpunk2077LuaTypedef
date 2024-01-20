@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Aim: animAnimFeature_BasicAim
 ---@field public aimPoint Vector4

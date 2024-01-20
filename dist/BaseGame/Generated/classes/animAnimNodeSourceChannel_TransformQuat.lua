@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_TransformQuat: animIAnimNodeSourceChannel_Quat
 ---@field public transformIndex animTransformIndex

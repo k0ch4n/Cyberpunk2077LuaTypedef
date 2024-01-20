@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDeviceMappinData: IScriptable
 ---@field private ownerID entEntityID

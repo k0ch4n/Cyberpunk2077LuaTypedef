@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEventManagerNodeDefinition: questDisableableNodeDefinition
 ---@field public isUiEvent Bool

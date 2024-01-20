@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDef: gamebbScriptDefinition
 ---@field public BikeTilt gamebbScriptID_Float

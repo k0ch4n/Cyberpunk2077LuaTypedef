@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReactionManagerTask: AIbehaviortaskScript
 ---@field protected reactionData AIReactionData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitIndicatorWeaponZoomListener: gameScriptStatsListener
 ---@field public gameController TargetHitIndicatorGameController

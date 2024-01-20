@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CBitmapTexture: ITexture
 ---@field public width Uint32

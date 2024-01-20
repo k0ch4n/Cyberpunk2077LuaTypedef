@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerAuthorization: ScannerChunk
 ---@field private keycard Bool

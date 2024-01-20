@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIShootingDataDef: AIBlackboardDef
 ---@field public shootingPatternPackage gamebbScriptID_Variant

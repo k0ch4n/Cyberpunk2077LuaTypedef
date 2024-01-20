@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDangleConstraint_SimulationPendulum: animDangleConstraint_SimulationSingleBone
 ---@field public constraintType animPendulumConstraintType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCoverObject: gameObject
 ---@field public coverType animCoverState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimEvent_Slide: animAnimEvent
 animAnimEvent_Slide = {}

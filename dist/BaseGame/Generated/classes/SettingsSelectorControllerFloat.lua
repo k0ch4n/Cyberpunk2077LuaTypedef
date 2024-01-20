@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsSelectorControllerFloat: SettingsSelectorControllerRange
 ---@field public newValue Float

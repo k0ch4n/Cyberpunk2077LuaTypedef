@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScavengeComponent: gameScriptableComponent
 ---@field public scavengeTargets gameObject[]

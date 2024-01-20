@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_TopbarHubMenuDef: gamebbScriptDefinition
 ---@field public IsSubmenuHidden gamebbScriptID_Bool

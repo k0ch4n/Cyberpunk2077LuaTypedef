@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataFxActionType: Enum
 ---@field BreakLoop Enum 0

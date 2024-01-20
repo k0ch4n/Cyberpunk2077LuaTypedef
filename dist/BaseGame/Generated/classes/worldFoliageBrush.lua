@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageBrush: CResource
 ---@field public items worldFoliageBrushItem[]

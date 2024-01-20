@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionErrorType: Enum
 ---@field PurchaseFailed Enum 0

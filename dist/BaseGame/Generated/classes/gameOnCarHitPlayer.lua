@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameOnCarHitPlayer: redEvent
 ---@field public hitDirection Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CompassController: inkWidgetLogicController
 ---@field private faceLeft inkWidgetReference

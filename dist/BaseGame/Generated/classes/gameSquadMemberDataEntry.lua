@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSquadMemberDataEntry
 ---@field public squadName CName

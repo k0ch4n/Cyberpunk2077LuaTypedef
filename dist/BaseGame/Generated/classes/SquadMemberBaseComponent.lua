@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SquadMemberBaseComponent: gameSquadMemberComponent
 ---@field private baseSquadRecord gamedataAISquadParams_Record

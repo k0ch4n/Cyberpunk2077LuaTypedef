@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSpringProjectionType: Enum
 ---@field Disabled Enum 0

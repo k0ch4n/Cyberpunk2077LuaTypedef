@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWidgetStyle: Enum
 ---@field Arasaka Enum 0

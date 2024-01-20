@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameLootContainerBase: gameObject
 ---@field public useAreaLoot Bool

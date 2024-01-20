@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCommunitySpawnSetNameToIDEntry
 ---@field public communityId gameCommunityID

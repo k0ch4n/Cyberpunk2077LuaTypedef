@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DronePose: Enum
 ---@field Relaxed Enum 0

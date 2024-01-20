@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GateSignal: gameTaggedSignalUserData
 ---@field public data AISignalSenderTask

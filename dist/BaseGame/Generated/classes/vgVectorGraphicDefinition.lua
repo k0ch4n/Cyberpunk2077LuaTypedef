@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicDefinition: ISerializable
 ---@field public rootShapeGroup vgVectorGraphicShape_Group

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_EntityAppearanceOperationBase: questICharacterManagerVisuals_NodeSubType
 ---@field public appearanceEntries questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry[]

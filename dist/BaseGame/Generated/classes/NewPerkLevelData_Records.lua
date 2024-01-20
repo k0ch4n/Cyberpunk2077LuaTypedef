@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkLevelData_Records: BasePerkLevelData_Records
 ---@field private perkRecord gamedataNewPerk_Record

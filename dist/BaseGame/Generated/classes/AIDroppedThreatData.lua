@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDroppedThreatData
 ---@field public threat entEntity

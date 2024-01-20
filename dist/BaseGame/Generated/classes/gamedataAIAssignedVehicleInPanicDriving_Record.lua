@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIAssignedVehicleInPanicDriving_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleInPanicDriving_Record = {}

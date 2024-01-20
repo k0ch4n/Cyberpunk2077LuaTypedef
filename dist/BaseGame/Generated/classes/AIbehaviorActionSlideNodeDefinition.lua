@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionSlideNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field public duration AIArgumentMapping

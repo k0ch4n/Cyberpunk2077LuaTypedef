@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickHackPanelStateEvent: redEvent
 ---@field public isOpened Bool

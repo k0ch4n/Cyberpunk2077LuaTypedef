@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HealthUpdateEvent: redEvent
 ---@field public value Float

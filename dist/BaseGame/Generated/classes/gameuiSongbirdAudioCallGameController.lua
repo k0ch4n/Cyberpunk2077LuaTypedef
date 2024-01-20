@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiSongbirdAudioCallGameController: gameuiHUDGameController
 ---@field public waveformEnabled Bool

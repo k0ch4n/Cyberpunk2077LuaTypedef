@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entChangeVoicesetStateEvent: redEvent
 ---@field public enableVoicesetLines Bool

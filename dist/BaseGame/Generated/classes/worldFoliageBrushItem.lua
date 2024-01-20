@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliageBrushItem: ISerializable
 ---@field public Mesh CMesh

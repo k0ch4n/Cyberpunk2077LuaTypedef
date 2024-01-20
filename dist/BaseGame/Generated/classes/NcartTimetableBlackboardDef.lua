@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NcartTimetableBlackboardDef: DeviceBaseBlackboardDef
 ---@field public TimeToDepart gamebbScriptID_Int32

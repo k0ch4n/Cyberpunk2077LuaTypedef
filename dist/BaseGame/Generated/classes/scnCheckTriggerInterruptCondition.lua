@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnCheckTriggerInterruptCondition: scnIInterruptCondition
 ---@field public params scnCheckTriggerInterruptConditionParams

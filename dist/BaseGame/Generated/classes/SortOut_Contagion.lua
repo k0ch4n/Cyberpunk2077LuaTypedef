@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SortOut_Contagion: gameEffectObjectGroupFilter_Scripted
 SortOut_Contagion = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CyberwareTooltipData: ATooltipData
 ---@field public label String

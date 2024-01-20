@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplayPerkCondition: GameplayConditionBase
 ---@field public perkToCheck TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetInspectMode_NodeType: questIInteractiveObjectManagerNodeType
 ---@field public objectID String

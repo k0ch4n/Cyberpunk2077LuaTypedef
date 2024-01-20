@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyNewStatusEffectEvent: redEvent
 ---@field public effectID TweakDBID

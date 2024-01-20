@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmGameDefinition: CResource
 ---@field public mainQuests gsmMainQuest[]

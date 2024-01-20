@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDamagePipelineStage: Enum
 ---@field PreProcess Enum 0

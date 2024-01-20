@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeWeaponConfiguration: audioAudioMetadata
 ---@field public fastWhoosh audioMeleeSound

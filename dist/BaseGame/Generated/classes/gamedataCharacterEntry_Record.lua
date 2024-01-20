@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCharacterEntry_Record: gamedataTweakDBRecord
 gamedataCharacterEntry_Record = {}

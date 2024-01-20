@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDetachPartEvent: redEvent
 ---@field public partName CName

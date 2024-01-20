@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Position_LocalPosition: gameTransformAnimation_Position
 ---@field public position Vector3

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class redTOMLArrayInt64: redTOMLBaseValue
 redTOMLArrayInt64 = {}

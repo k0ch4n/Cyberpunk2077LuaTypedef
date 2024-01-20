@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkRumblePosition: Enum
 ---@field Both Enum 0

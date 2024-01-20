@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClaymoreMine: gameweaponObject
 ---@field private visualComponent entMeshComponent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveAd: InteractiveDevice
 ---@field protected triggerComponent gameStaticTriggerAreaComponent

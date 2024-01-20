@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ncartStationListDef
 ---@field public station ENcartStations

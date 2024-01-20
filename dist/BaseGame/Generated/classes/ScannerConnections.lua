@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerConnections: ScannerChunk
 ---@field private deviceConnections DeviceConnectionScannerData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animRig: CResource
 ---@field public boneNames CName[]

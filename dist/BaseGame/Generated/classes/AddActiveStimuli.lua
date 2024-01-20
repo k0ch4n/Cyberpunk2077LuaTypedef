@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddActiveStimuli: AIbehaviortaskScript
 ---@field public stimType gamedataStimType

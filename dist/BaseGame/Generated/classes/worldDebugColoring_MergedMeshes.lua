@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_MergedMeshes: worldEditorDebugColoringSettings
 ---@field public defaultColor Color

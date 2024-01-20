@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorScriptPassiveExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public script AIbehaviorexpressionScript

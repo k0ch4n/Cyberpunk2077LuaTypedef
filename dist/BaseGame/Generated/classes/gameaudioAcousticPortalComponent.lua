@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioAcousticPortalComponent: entIPlacedComponent
 ---@field public radius Uint8

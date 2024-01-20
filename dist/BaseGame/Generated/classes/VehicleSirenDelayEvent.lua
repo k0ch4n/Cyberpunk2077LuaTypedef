@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleSirenDelayEvent: redEvent
 ---@field public lights Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFPPCameraComponent: gameCameraComponent
 ---@field public pitchMin Float

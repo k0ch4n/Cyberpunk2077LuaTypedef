@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorControllerPS: ScriptableDeviceComponentPS
 ---@field protected doorProperties DoorSetup

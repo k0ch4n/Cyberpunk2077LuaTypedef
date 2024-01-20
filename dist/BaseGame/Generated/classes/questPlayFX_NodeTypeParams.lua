@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPlayFX_NodeTypeParams
 ---@field public play Bool

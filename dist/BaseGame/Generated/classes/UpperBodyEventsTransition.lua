@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpperBodyEventsTransition: UpperBodyTransition
 ---@field public switchButtonPushed Bool

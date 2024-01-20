@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LiftFloorSyncDataEvent: redEvent
 ---@field public isHidden Bool

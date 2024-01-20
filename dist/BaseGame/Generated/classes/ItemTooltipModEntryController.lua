@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipModEntryController: inkWidgetLogicController
 ---@field protected modName inkTextWidgetReference

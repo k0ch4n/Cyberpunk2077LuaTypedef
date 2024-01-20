@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryCyberwareItemChooser: InventoryGenericItemChooser
 ---@field protected leftSlotsContainer inkCompoundWidgetReference

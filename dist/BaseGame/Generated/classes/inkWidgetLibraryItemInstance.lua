@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkWidgetLibraryItemInstance: ISerializable
 ---@field public rootWidget inkWidget

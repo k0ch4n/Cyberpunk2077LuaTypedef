@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhaseNodeType: Enum
 ---@field Quest Enum 0

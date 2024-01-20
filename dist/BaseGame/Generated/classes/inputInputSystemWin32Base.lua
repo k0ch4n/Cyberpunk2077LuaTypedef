@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inputInputSystemWin32Base: inputIInputSystem
 inputInputSystemWin32Base = {}

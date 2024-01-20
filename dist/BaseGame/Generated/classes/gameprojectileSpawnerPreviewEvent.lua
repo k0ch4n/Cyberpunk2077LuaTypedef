@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSpawnerPreviewEvent: redEvent
 ---@field public previewActive Bool

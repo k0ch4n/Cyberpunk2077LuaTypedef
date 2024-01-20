@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationVoiceOverSwitcher: CharacterCreationBodyMorphBaseOption
 ---@field private selectedLabel inkTextWidgetReference

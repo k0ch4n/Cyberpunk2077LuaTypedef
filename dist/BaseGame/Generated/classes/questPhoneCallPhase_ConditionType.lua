@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhoneCallPhase_ConditionType: questIPhoneConditionType
 ---@field public callPhase questPhoneCallPhase

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickhackModule: HUDModule
 ---@field private calculateClose Bool

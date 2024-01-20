@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BloodswellEffector: gameEffector
 ---@field private deathListener BloodswellEffectorHealthListener

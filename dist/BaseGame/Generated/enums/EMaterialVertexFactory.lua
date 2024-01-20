@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMaterialVertexFactory: Enum
 ---@field MVF_Terrain Enum 1

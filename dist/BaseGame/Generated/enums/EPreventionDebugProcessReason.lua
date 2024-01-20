@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPreventionDebugProcessReason: Enum
 ---@field Redirected_IsPsycho Enum 0

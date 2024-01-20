@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextWrappingPolicy: Enum
 ---@field SingleLine Enum 0

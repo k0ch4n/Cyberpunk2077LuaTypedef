@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomLightAreaSettings: IAreaSettings
 ---@field public characterLocalLightRoughnesBias curveData

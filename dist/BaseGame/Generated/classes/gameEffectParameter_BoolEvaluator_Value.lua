@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_BoolEvaluator_Value: gameIEffectParameter_BoolEvaluator
 ---@field public value Bool

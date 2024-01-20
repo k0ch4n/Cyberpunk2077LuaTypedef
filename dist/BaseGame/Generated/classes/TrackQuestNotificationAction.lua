@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TrackQuestNotificationAction: GenericNotificationBaseAction
 ---@field public questEntry gameJournalQuest

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SampleBumpEvent: redEvent
 ---@field public amount Int32

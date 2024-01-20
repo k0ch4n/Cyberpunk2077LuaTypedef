@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CooldownStorageID
 ---@field public ID Uint32

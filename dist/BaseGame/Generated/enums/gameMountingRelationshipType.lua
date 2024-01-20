@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMountingRelationshipType: Enum
 ---@field Invalid Enum -1

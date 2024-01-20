@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleController: inkToggleController
 ---@field protected label inkTextWidgetReference

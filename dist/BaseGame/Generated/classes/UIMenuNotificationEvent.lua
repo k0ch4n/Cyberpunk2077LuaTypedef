@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIMenuNotificationEvent: redEvent
 ---@field public notificationType UIMenuNotificationType

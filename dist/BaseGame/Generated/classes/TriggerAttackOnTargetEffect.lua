@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerAttackOnTargetEffect: HitEventEffector
 ---@field public owner gameObject

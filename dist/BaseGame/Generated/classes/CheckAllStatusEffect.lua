@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckAllStatusEffect: AIStatusEffectCondition
 ---@field public behaviorArgumentNameTag CName

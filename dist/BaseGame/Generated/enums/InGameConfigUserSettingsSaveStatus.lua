@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InGameConfigUserSettingsSaveStatus: Enum
 ---@field NotSaved Enum 0

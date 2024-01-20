@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmBaseRequestsHandler: inkISystemRequestsHandler
 ---@field public SavingComplete gsmSavingRequesResult

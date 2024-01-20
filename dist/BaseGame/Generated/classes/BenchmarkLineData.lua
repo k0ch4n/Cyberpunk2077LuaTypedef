@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BenchmarkLineData: IScriptable
 ---@field public label String

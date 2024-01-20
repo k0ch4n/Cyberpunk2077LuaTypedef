@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMovingPlatformMovementStateChanged: redEvent
 ---@field public isMoving Bool

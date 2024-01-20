@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIVehicleCommand: AICommand
 ---@field public useKinematic Bool

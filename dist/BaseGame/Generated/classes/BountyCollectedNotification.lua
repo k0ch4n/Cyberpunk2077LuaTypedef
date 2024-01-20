@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BountyCollectedNotification: GenericNotificationController
 ---@field private bountyCollectedUpdateAnimation CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleBinkGameController: DeviceInkGameControllerBase
 ---@field protected playCommonAd Bool

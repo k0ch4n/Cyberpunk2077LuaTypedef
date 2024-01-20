@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class lookAtPresetGunBaseEvents: LookAtPresetBaseEvents
 ---@field public overrideLookAtEvents entLookAtAddEvent[]

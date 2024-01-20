@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPersistentLootTable_Record: gamedataLootTable_Record
 gamedataPersistentLootTable_Record = {}

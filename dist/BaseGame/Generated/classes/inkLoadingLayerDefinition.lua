@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLoadingLayerDefinition: inkLayerDefinition
 ---@field public splashLoadingScreenResource inkWidgetLibraryResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleLightByNameEvent: ToggleLightEvent
 ---@field public componentName CName

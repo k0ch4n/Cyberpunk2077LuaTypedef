@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingLogicController: CraftingMainLogicController
 ---@field private ingredientsWeaponContainer inkCompoundWidgetReference

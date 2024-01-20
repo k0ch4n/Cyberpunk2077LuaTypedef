@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetIgnoreAutoDoorCloseEvent: redEvent
 ---@field public set Bool

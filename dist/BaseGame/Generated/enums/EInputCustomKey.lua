@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInputCustomKey: Enum
 ---@field ICK_Pad_DigitLeftRight Enum 273

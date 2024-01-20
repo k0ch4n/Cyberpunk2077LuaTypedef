@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEntityHighlightType: Enum
 ---@field EHE_None Enum 0

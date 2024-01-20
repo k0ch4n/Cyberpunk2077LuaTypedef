@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveExplorationEnteredEvent: redEvent
 ---@field public type moveExplorationType

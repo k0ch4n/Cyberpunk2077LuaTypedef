@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorActionSlideToObjectNodeDefinition: AIbehaviorActionSlideNodeDefinition
 ---@field public destination AIArgumentMapping

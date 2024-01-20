@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentMeshParamGarment: meshMeshParameter
 ---@field public chunks garmentMeshParamGarmentChunkData[]

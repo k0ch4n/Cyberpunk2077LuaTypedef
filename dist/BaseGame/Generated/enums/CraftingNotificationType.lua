@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingNotificationType: Enum
 ---@field NoPerks Enum 0

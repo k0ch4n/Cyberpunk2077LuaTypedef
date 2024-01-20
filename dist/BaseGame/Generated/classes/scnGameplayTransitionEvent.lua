@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnGameplayTransitionEvent: scnSceneEvent
 ---@field public performer scnPerformerId

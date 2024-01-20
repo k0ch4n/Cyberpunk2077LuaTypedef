@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleActivate: ActionBool
 ---@field protected TrueRecordName String

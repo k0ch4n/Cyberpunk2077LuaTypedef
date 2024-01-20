@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Movement: animAnimFeature
 ---@field public movementDirection Vector4

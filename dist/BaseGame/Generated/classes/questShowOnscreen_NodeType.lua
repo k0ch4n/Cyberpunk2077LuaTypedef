@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowOnscreen_NodeType: questIUIManagerNodeType
 ---@field public message String

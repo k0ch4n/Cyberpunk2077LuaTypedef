@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCutControlNodeDefinition: questDisableableNodeDefinition
 ---@field public permanent Bool

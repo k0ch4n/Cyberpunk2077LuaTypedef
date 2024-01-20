@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCStateChangeSignal: gameTaggedSignalUserData
 ---@field public highLevelState gamedataNPCHighLevelState

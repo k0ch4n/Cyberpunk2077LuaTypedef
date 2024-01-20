@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageToken_Text: toolsIMessageToken
 ---@field public text String

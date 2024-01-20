@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioSoundType: Enum
 ---@field Song Enum 0

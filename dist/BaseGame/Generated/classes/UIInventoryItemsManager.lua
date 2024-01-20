@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemsManager: IScriptable
 ---@field private iconsNameResolver gameuiIconsNameResolver

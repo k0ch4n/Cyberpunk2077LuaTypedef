@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_HubTextInput: Codeware_UI_TextInput
 ---@field public bg inkImageWidget

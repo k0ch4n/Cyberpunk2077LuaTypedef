@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_BriefingDef: gamebbScriptDefinition
 ---@field public BriefingToOpen gamebbScriptID_String

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NumericDisplayControllerPS: ScriptableDeviceComponentPS
 ---@field private numberToDisplay Int32

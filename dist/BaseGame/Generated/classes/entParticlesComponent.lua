@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entParticlesComponent: entIVisualComponent
 ---@field public emissionRate Float

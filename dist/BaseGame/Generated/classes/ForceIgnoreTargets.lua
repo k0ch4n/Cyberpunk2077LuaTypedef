@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceIgnoreTargets: ActionBool
 ---@field public Repeat Bool

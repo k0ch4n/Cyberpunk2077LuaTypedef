@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeaponVendingMachine: VendingMachine
 ---@field protected bigAdScreen IWorldWidgetComponent

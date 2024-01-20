@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicalJointPin: ISerializable
 ---@field public object physicsISystemObject

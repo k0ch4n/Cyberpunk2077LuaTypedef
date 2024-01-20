@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmStateError: Enum
 ---@field StateError_OK Enum 0

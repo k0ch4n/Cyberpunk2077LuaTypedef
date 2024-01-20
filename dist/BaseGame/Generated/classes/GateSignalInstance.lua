@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GateSignalInstance
 ---@field public gateSignal GateSignal

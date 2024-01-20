@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MarketSystem: gameIMarketSystem
 ---@field private vendors Vendor[]

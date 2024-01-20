@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entHardTransformBinding: entITransformBinding
 ---@field public slotName CName

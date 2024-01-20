@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetCustomShootPosition: AIbehaviortaskScript
 ---@field private offset Vector3

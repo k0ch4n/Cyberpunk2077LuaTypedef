@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleWheelsFrictionMap_Record: gamedataTweakDBRecord
 gamedataVehicleWheelsFrictionMap_Record = {}

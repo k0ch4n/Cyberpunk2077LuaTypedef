@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerBountySystem: ScannerChunk
 ---@field private bounty BountyUI

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEffectOperationType: Enum
 ---@field START Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimColorInterpolator: inkanimInterpolator
 ---@field public startValue HDRColor

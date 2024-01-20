@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorShoppingCartItem
 ---@field public itemData gameItemData

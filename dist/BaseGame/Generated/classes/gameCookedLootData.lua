@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCookedLootData: ISerializable
 ---@field public lootTables TweakDBID[]

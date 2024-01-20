@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsTargetDamageEvent: gameeventsTargetHitEvent
 ---@field public damage Float

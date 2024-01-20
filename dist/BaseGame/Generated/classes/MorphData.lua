@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MorphData: IScriptable
 ---@field public changed Bool

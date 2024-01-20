@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ThrowGrenadeCommandCleanup: AIbehaviortaskScript
 ---@field protected inCommand AIArgumentMapping

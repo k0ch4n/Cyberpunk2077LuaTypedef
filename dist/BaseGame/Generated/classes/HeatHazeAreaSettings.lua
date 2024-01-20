@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HeatHazeAreaSettings: IAreaSettings
 ---@field public effectStrength curveData

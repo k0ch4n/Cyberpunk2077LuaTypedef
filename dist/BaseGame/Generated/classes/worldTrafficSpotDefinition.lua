@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficSpotDefinition: ISerializable
 ---@field public length Float

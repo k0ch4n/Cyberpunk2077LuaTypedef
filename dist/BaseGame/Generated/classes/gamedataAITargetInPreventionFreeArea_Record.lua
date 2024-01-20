@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAITargetInPreventionFreeArea_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetInPreventionFreeArea_Record = {}

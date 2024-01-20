@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyAnimWrappersOnWeapon: AIbehaviortaskScript
 ---@field private wrapperName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TarotCardPreviewPopupEvent: redEvent
 ---@field public data TarotCardPreviewData

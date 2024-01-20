@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FUNC_TEST_Container_2
 ---@field public FloatBox Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldAdvertisementLightData
 ---@field public transform Transform

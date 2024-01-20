@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_InGamePopup: Codeware_UI_CustomPopup
 ---@field public vignette inkImageWidget

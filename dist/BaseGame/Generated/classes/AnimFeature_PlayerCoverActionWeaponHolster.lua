@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PlayerCoverActionWeaponHolster: animAnimFeature
 ---@field public isWeaponHolstered Bool

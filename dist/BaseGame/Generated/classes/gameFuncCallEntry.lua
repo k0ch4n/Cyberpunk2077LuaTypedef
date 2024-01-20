@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameFuncCallEntry: ISerializable
 ---@field public callTime EngineTime

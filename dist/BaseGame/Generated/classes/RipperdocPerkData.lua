@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocPerkData: IScriptable
 ---@field public Perk TweakDBID

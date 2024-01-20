@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityAreaCrossingPerimeter: SecurityAreaEvent
 ---@field private entered Bool

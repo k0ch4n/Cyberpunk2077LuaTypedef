@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemInSlotPrereqState: gamePrereqState
 ---@field public listener ItemInSlotCallback

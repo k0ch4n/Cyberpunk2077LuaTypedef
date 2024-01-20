@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceSafeEvents: UpperBodyEventsTransition
 ---@field public safeAnimFeature AnimFeature_SafeAction

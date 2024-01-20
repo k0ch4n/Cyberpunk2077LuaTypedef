@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponAnimFeature_WeaponData: animAnimFeature
 ---@field public cycleTime Float

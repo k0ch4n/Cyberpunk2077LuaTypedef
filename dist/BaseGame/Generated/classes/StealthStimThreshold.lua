@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StealthStimThreshold: AIbehaviorconditionScript
 ---@field public stealthThresholdNumber Int32

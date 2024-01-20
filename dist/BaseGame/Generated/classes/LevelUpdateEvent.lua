@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LevelUpdateEvent: redEvent
 ---@field public lvl Int32

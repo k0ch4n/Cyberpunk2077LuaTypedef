@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ControlsActiveEvents: BraindanceControlsTransition
 ---@field public BraindanceBB gameIBlackboard

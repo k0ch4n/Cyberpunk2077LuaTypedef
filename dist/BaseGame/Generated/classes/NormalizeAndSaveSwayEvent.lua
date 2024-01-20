@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NormalizeAndSaveSwayEvent: redEvent
 ---@field public sway Vector2

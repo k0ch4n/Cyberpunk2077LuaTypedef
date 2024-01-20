@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDamageCallbackType: Enum
 ---@field HitTriggered Enum 0

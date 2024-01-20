@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerSetMeshAppearance_NodeType: questIEntityManager_NodeType
 ---@field public params questEntityManagerSetMeshAppearance_NodeTypeParams[]

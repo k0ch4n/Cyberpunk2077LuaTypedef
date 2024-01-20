@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDismBodyPart: Enum
 ---@field LEFT_LEG Enum 896

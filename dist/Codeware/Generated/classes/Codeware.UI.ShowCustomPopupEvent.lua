@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_ShowCustomPopupEvent: Codeware_UI_CustomPopupEvent
 Codeware_UI_ShowCustomPopupEvent = {}

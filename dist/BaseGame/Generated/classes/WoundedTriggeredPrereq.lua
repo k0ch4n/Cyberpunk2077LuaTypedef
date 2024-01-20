@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WoundedTriggeredPrereq: gameIScriptablePrereq
 ---@field public currValue Uint32

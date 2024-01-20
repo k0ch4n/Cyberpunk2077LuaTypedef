@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeaveCoverImmediately: AIbehaviortaskScript
 ---@field public delay Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StrikeDuration_Debug_VDB: StrikeDuration_Debug
 ---@field private UPDATE_DELAY Float

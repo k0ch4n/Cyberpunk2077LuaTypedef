@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeather_Record: gamedataTweakDBRecord
 gamedataWeather_Record = {}

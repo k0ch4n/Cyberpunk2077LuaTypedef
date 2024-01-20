@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimationsLoadedTask: AIbehaviortaskScript
 ---@field public coreAnims Bool

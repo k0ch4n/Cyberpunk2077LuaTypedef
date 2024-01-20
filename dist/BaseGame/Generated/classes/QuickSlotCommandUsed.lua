@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotCommandUsed: redEvent
 ---@field public action gamedeviceAction

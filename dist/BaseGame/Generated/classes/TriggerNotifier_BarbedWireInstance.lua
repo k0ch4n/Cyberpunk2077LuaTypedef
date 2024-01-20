@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerNotifier_BarbedWireInstance: entTriggerNotifier_ScriptInstance
 TriggerNotifier_BarbedWireInstance = {}

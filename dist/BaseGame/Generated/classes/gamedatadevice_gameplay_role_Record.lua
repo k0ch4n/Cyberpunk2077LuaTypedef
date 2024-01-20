@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedatadevice_gameplay_role_Record: gamedataScannableData_Record
 gamedatadevice_gameplay_role_Record = {}

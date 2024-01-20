@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestStepLogic: IScriptable
 ---@field public maxExecutionTimeSec Float

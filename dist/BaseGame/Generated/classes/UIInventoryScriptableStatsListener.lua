@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryScriptableStatsListener: gameScriptStatsListener
 ---@field private uiInventoryScriptableSystem UIInventoryScriptableSystem

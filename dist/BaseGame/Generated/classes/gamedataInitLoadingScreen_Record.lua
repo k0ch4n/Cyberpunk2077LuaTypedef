@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataInitLoadingScreen_Record: gamedataTweakDBRecord
 gamedataInitLoadingScreen_Record = {}

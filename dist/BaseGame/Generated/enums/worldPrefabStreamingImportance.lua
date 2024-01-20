@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldPrefabStreamingImportance: Enum
 ---@field Auto Enum 0

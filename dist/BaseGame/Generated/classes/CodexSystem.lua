@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexSystem: gameScriptableSystem
 ---@field private codex SCodexRecord[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BraindanceClueLogicController: inkWidgetLogicController
 ---@field private bg inkWidgetReference

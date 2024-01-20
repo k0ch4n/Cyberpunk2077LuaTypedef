@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponeventsConsumeMagazineAmmo: redEvent
 ---@field public amount Uint16

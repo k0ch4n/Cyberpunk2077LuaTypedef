@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioVehicleCurve: Enum
 ---@field ThrottleInput Enum 0

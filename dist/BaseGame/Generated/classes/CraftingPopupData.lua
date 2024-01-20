@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingPopupData: inkGameNotificationData
 ---@field public itemTooltipData InventoryTooltipData

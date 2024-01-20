@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSectionInternalsActorBehaviorMode: Enum
 ---@field OnlyIfAlive Enum 0

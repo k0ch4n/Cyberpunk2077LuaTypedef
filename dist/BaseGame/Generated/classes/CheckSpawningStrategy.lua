@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckSpawningStrategy: PreventionConditionAbstract
 ---@field public spawningStrategyToCompare AIArgumentMapping

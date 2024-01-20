@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorPuppetRefToGameObjectTaskDefinition: AIbehaviorTaskDefinition
 ---@field public puppetRef AIArgumentMapping

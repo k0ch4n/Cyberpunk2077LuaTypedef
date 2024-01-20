@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsNpcPlayingMountingAnimationPrereq: gameIScriptablePrereq
 ---@field protected slotName CName

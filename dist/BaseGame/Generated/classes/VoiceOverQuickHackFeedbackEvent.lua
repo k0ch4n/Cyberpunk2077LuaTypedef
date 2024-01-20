@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VoiceOverQuickHackFeedbackEvent: redEvent
 ---@field public voName CName

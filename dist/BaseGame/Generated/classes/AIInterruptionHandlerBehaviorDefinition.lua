@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIInterruptionHandlerBehaviorDefinition: AIInterruptionHandlerDefinition
 ---@field public ai LibTreeINodeDefinition

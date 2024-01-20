@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkFastTravelLoadingControllerSupervisor: gameuiWidgetGameController
 ---@field public glitchEffect worldEffect

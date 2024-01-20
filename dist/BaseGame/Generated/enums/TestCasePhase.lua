@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestCasePhase: Enum
 ---@field Setup Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTierPrereq: gameIComparisonPrereq
 ---@field public tier GameplayTier

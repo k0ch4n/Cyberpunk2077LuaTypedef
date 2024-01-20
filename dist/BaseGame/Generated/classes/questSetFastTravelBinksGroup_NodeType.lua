@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetFastTravelBinksGroup_NodeType: questIUIManagerNodeType
 ---@field public selectedBinkDataGroup TweakDBID

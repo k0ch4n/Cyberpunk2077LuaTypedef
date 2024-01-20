@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_TargetingInfoDef: gamebbScriptDefinition
 ---@field public CurrentVisibleTarget gamebbScriptID_EntityID

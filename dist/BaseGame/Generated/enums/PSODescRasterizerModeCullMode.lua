@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescRasterizerModeCullMode: Enum
 ---@field CULL_None Enum 0

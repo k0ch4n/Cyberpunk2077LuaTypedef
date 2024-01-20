@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterState_PlayerSubType: questICharacterConditionSubType
 ---@field public locomotionComparisonType questEComparisonTypeEquality

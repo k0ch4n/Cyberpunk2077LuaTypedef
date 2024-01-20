@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMultiPrereqState: gamePrereqState
 ---@field public nestedStates gamePrereqState[]

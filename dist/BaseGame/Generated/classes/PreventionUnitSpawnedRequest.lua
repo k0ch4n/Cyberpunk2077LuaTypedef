@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionUnitSpawnedRequest: gameScriptableSystemRequest
 ---@field public requestResult gameSpawnRequestResult

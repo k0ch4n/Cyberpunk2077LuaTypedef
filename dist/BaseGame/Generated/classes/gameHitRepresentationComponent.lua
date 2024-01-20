@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHitRepresentationComponent: entSlotComponent
 ---@field public representations gameHitShapeContainer[]

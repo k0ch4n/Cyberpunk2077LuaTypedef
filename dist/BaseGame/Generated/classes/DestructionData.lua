@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestructionData
 ---@field public durabilityType EDeviceDurabilityType

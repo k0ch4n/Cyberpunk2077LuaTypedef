@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardSelectedEvent: redEvent
 ---@field public group Bool

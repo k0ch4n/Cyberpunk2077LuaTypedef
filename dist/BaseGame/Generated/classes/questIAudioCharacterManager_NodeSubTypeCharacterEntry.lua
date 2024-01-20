@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIAudioCharacterManager_NodeSubTypeCharacterEntry
 ---@field public puppetRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class cursorDeviceGameController: gameuiWidgetGameController
 ---@field private bbUIData gameIBlackboard

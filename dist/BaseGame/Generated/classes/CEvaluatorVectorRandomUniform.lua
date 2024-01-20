@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorVectorRandomUniform: IEvaluatorVector
 ---@field public min Vector4

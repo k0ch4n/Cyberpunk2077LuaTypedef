@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeFunctions: Enum
 ---@field CombatTarget Enum 0

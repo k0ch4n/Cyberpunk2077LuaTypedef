@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStickyGDM_Record: gamedataGrenadeDeliveryMethod_Record
 gamedataStickyGDM_Record = {}

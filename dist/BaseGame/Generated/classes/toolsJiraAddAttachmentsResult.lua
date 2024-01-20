@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraAddAttachmentsResult: ISerializable
 ---@field public array toolsJiraAttachment[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArmorEquipInventoryItemController: inkButtonDpadSupportedController
 ---@field protected itemID gameItemID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SWeakPoints
 ---@field public weakPointName CName

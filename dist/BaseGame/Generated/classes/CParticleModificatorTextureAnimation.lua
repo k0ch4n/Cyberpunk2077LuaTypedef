@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorTextureAnimation: IParticleModificator
 ---@field public initialFrame IEvaluatorFloat

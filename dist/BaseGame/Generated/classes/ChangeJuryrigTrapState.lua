@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeJuryrigTrapState: redEvent
 ---@field public newState EJuryrigTrapState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAudioEvent: redEvent
 ---@field public eventName CName

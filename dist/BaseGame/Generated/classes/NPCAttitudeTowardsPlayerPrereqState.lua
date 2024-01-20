@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCAttitudeTowardsPlayerPrereqState: gamePrereqState
 ---@field public attitudeListener gameScriptedPrereqAttitudeListenerWrapper

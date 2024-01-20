@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EVarDBMode: Enum
 ---@field Add Enum 0

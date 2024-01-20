@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDeletionMarkerNodeDefinition: questSignalStoppingNodeDefinition
 ---@field public deletedNodeIds Uint16[]

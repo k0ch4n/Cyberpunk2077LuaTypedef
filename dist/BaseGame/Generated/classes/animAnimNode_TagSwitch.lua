@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_TagSwitch: animAnimNode_BaseSwitch
 ---@field public tags CName[]

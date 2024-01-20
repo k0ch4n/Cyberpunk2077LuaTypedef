@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBaseMenuGameControllerPuppetGenderInfo: Enum
 ---@field Male Enum 0

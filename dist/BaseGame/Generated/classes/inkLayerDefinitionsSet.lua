@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkLayerDefinitionsSet
 ---@field public layersDefinitions inkLayerDefinition_NEW[]

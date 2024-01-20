@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleModificatorRotationRate3DOverLife: IParticleModificator
 ---@field public rotationRate IEvaluatorVector

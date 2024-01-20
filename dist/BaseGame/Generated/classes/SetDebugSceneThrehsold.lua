@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDebugSceneThrehsold: gameScriptableSystemRequest
 ---@field public newThreshold Int32

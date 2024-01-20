@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkAnimSlot: animAnimNode_SkAnim
 ---@field public forFacialIdle Bool

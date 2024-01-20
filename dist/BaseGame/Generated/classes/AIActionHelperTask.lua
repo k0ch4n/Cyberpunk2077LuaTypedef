@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionHelperTask: AIbehaviortaskScript
 ---@field public actionTweakIDMapping AIArgumentMapping

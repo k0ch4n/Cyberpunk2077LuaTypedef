@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Door: InteractiveDevice
 ---@field protected animationController entAnimationControllerComponent

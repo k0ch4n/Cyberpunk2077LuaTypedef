@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questJournalQuestEntry_NodeTypeNodeVersion: Enum
 ---@field Initial Enum 0

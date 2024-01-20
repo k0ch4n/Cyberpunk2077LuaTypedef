@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_HitRepresentation_Raycast: gameEffectObjectFilter_HitRepresentation
 ---@field public isPreview Bool

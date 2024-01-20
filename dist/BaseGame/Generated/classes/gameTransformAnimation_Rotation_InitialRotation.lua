@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_Rotation_InitialRotation: gameTransformAnimation_Rotation
 gameTransformAnimation_Rotation_InitialRotation = {}

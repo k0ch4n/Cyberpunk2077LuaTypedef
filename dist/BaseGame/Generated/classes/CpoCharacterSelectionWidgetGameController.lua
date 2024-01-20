@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CpoCharacterSelectionWidgetGameController: gameuiWidgetGameController
 ---@field public defaultCharacterTexturePart String

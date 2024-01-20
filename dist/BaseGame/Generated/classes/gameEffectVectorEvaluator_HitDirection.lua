@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectVectorEvaluator_HitDirection: gameEffectVectorEvaluator
 gameEffectVectorEvaluator_HitDirection = {}

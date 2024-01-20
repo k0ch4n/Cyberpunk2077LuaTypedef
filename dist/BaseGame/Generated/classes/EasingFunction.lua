@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EasingFunction
 ---@field public transitionType ETransitionType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleUIEventTestLogicController: inkWidgetLogicController
 ---@field public eventTextWidgetPath CName

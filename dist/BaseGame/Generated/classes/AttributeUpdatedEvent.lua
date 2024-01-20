@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AttributeUpdatedEvent: redEvent
 ---@field public attributeId TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnAnimSetDynAnimNames
 ---@field public animVariable CName

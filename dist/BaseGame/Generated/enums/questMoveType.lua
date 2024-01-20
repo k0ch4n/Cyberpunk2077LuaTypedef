@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMoveType: Enum
 ---@field MoveOnSpline Enum 0

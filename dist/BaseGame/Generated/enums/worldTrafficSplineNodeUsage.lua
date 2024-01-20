@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTrafficSplineNodeUsage: Enum
 ---@field Pavement Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scriptOptimizationsHandleWithValue
 ---@field public value Float

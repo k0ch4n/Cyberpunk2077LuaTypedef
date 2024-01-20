@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerformFastTravelRequest: gameScriptableSystemRequest
 ---@field public pointData gameFastTravelPointData

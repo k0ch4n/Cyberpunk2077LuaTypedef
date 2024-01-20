@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceCLSStateRequest: gameScriptableSystemRequest
 ---@field public state ECLSForcedState

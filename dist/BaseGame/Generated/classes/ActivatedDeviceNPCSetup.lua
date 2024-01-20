@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceNPCSetup
 ---@field public npcSpawnerNodeRef NodeRef

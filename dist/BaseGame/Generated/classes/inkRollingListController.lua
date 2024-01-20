@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkRollingListController: inkListController
 ---@field public itemsToDisplay Int32

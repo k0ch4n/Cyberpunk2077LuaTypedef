@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questMappinState_ConditionType: questIJournalConditionType
 ---@field public mappinPath gameJournalPath

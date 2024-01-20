@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_HackingDef: gamebbScriptDefinition
 ---@field public ammoIndicator gamebbScriptID_Bool

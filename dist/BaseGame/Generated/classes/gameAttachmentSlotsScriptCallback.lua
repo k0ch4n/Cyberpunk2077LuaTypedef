@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAttachmentSlotsScriptCallback: IScriptable
 ---@field public slotID TweakDBID

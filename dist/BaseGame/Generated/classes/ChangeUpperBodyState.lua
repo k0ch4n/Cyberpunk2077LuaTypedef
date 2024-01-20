@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeUpperBodyState: ChangeUpperBodyStateAbstract
 ---@field public newState gamedataNPCUpperBodyState

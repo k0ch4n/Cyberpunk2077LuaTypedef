@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataDriveHelperType_Record: gamedataTweakDBRecord
 gamedataDriveHelperType_Record = {}

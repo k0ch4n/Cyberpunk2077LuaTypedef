@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveDeviceResourceDefinition
 ---@field public damageType TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStatusEffectDurationEffector: gameEffector
 ---@field private statusEffectListener OnStatusEffectAppliedListener

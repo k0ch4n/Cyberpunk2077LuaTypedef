@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questParamKeepDistance: ISerializable
 ---@field public companionTargetRef questUniversalRef

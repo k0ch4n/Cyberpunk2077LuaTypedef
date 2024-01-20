@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetTrafficLaneMovementParams: AIbehaviortaskScript
 ---@field public movementType String

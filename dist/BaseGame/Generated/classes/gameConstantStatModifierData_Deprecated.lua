@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameConstantStatModifierData_Deprecated: gameStatModifierData_Deprecated
 ---@field public value Float

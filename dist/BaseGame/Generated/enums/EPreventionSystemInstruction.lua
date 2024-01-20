@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EPreventionSystemInstruction: Enum
 ---@field Safe Enum 0

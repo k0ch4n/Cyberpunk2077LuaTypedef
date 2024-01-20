@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendPostFx_ScanningState: Enum
 ---@field Off Enum 0

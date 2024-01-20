@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleVehicleWheelPressureEvent: redEvent
 ---@field public contactPoint Vector3

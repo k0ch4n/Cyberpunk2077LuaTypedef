@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VideoCarouselController: inkWidgetLogicController
 ---@field private videoTitleRef inkTextWidgetReference

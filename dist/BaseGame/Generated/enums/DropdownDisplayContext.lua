@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropdownDisplayContext: Enum
 ---@field NotSet Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeathTaskData: gameScriptTaskData
 ---@field public instigator gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModuleInstance: IScriptable
 ---@field public isLookedAt Bool

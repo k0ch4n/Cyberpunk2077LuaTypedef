@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsPhysicalDeformShapesEvent: redEvent
 ---@field public shapes Int32[]

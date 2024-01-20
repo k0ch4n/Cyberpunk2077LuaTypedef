@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entFacialCustomizationComponent: entIComponent
 ---@field public debugIgnoreComponent Bool

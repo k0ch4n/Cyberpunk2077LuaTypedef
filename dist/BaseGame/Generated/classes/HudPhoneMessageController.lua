@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HudPhoneMessageController: HUDPhoneElement
 ---@field private MessageText inkTextWidgetReference

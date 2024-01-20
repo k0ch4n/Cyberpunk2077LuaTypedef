@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhotoModeOptionSelectorData
 ---@field public optionData Int32

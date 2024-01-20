@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimEventType: Enum
 ---@field OnLoaded Enum 0

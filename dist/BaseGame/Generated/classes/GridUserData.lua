@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GridUserData: IScriptable
 ---@field public equipArea gamedataEquipmentArea

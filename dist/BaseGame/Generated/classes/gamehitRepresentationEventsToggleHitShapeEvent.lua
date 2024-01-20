@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamehitRepresentationEventsToggleHitShapeEvent: redEvent
 ---@field public enable Bool

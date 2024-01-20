@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAccelerateTowardsParameters_Record: gamedataTweakDBRecord
 gamedataAccelerateTowardsParameters_Record = {}

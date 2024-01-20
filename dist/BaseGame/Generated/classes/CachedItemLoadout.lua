@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CachedItemLoadout
 ---@field public itemID gameItemID

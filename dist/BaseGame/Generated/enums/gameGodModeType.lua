@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameGodModeType: Enum
 ---@field Immortal Enum 1

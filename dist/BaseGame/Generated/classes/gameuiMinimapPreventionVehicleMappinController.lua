@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapPreventionVehicleMappinController: gameuiBaseMinimapMappinController
 ---@field protected pulseWidget inkWidgetReference

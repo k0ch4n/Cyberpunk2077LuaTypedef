@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IronsightTargetHealthChangeListener: gameScriptStatPoolsListener
 ---@field private parentIronsight IronsightGameController

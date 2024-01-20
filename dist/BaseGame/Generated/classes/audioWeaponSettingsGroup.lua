@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponSettingsGroup: audioAudioMetadata
 ---@field public playerSettings CName

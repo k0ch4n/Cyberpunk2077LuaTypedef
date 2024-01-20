@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PhoneMessageNotificationsGameController: gameuiWidgetGameController
 ---@field private maxMessageSize Int32

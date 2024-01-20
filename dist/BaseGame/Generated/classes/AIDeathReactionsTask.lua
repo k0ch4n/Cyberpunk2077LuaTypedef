@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDeathReactionsTask: AIbehaviortaskScript
 ---@field public fastForwardAnimation AIArgumentMapping

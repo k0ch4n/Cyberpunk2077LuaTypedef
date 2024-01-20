@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIInventoryItemComparisonManager: IScriptable
 ---@field public ComparedStats UIInventoryItemStatComparison[]

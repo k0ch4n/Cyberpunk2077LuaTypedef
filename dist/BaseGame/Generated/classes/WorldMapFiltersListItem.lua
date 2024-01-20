@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorldMapFiltersListItem: inkWidgetLogicController
 ---@field private checker inkWidgetReference

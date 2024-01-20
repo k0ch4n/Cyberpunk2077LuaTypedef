@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayedCrowdReactionEvent: redEvent
 ---@field public stimEvent senseStimuliEvent

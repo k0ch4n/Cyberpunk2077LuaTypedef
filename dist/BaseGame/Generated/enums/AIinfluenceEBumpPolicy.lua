@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIinfluenceEBumpPolicy: Enum
 ---@field Static Enum 0

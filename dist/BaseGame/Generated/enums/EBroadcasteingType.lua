@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EBroadcasteingType: Enum
 ---@field Active Enum 0

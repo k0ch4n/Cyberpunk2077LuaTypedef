@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleTPPCameraPresetParams_Record: gamedataTweakDBRecord
 gamedataVehicleTPPCameraPresetParams_Record = {}

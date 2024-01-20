@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineComponent: gamePlayerControlledComponent
 ---@field public packageName String

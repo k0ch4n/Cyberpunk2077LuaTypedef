@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseHideUIDetectionEvent: redEvent
 ---@field public shouldHideUIDetection Bool

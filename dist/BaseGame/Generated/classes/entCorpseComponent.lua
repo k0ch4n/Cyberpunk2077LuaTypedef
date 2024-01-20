@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entCorpseComponent: entISkinableComponent
 ---@field public filterData physicsFilterData

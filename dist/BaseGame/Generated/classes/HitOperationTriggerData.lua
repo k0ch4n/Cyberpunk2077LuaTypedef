@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitOperationTriggerData: DeviceOperationTriggerData
 ---@field public isAttackerPlayer Bool

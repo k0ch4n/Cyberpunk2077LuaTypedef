@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInkChoiceVisualizer: gameuiIChoiceVisualizer
 ---@field public isDynamic Bool

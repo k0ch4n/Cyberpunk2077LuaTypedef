@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@alias Bool boolean
 ---@alias Int8 integer

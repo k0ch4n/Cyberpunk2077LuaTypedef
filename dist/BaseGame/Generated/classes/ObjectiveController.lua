@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ObjectiveController: inkButtonController
 ---@field protected ObjectiveLabel inkTextWidgetReference

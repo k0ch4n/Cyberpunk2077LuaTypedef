@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListController: inkWidgetLogicController
 ---@field private CategoryName inkTextWidgetReference

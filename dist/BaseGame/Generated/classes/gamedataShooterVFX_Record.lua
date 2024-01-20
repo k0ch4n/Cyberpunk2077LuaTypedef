@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataShooterVFX_Record: gamedataShooterObject_Record
 gamedataShooterVFX_Record = {}

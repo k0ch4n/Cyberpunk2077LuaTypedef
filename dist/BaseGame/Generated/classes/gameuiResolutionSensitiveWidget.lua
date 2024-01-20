@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiResolutionSensitiveWidget
 ---@field public widget inkWidgetReference

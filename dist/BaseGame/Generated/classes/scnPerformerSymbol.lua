@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnPerformerSymbol
 ---@field public performerId scnPerformerId

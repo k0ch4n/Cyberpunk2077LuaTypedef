@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MultipleParentConstraint_ParentInfo
 ---@field public parentTransform animTransformIndex

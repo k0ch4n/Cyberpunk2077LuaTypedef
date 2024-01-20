@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIUseWorkspotCommand: AIBaseUseWorkspotCommand
 ---@field public workspotNode NodeRef

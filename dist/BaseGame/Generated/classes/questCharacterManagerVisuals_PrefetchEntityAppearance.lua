@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerVisuals_PrefetchEntityAppearance: questCharacterManagerVisuals_EntityAppearanceOperationBase
 questCharacterManagerVisuals_PrefetchEntityAppearance = {}

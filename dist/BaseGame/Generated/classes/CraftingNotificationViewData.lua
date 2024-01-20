@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingNotificationViewData: gameuiGenericNotificationViewData
 ---@field public canBeMerged Bool

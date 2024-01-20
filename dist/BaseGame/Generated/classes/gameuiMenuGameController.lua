@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMenuGameController: gameuiWidgetGameController
 ---@field private baseEventDispatcher inkMenuEventDispatcher

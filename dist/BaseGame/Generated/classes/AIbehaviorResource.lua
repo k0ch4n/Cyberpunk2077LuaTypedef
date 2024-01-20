@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorResource: CResource
 ---@field public root AIbehaviorTreeNodeDefinition

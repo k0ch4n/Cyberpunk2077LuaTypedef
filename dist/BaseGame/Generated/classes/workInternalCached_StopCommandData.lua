@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workInternalCached_StopCommandData: workIWorkspotCommandData
 workInternalCached_StopCommandData = {}

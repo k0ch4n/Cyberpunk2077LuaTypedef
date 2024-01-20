@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entInstancedAnimationComponent: entISkinableComponent
 ---@field public animations animAnimSet

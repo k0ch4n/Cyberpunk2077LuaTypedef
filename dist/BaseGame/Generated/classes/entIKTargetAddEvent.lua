@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entIKTargetAddEvent: entAnimTargetAddEvent
 ---@field public outIKTargetRef animIKTargetRef

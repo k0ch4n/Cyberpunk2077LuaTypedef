@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class characterCreationLifePathBtn: inkButtonController
 ---@field public selector inkWidgetReference

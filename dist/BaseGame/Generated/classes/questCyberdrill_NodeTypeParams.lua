@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCyberdrill_NodeTypeParams
 ---@field public objectRef NodeRef

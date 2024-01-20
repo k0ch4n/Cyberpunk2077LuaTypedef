@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PickUpEvents: CarriedObjectEvents
 ---@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData

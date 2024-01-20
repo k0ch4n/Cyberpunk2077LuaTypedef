@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetScavengedEvent: redEvent
 ---@field public target gameObject

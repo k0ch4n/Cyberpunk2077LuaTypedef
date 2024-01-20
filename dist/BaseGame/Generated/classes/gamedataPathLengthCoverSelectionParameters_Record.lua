@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPathLengthCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataPathLengthCoverSelectionParameters_Record = {}

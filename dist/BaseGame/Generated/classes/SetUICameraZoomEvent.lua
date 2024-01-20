@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetUICameraZoomEvent: redEvent
 ---@field public hasUICameraZoom Bool

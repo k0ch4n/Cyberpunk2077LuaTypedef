@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirtualNestedListController: inkVirtualListController
 ---@field protected dataView VirtualNestedListDataView

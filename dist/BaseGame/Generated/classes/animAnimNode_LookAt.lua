@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LookAt: animAnimNode_OnePoseInput
 ---@field public transform animTransformIndex

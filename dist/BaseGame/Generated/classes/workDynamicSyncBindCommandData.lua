@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workDynamicSyncBindCommandData: workSyncBindBaseCommandData
 ---@field public masterID entEntityID

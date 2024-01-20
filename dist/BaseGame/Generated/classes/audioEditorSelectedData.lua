@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioEditorSelectedData: audioAudioMetadata
 ---@field public selectedWeaponConfigurationName CName

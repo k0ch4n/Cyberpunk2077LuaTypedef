@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISquadSpatialForOwnTarget_Record: gamedataAITicketFilter_Record
 gamedataAISquadSpatialForOwnTarget_Record = {}

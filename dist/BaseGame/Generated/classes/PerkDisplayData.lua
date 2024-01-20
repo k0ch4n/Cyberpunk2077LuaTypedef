@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayData: BasePerkDisplayData
 ---@field public area gamedataPerkArea

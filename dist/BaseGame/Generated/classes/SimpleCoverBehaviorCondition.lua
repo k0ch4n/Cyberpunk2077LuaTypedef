@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleCoverBehaviorCondition: AIbehaviorconditionScript
 ---@field private initialized Bool

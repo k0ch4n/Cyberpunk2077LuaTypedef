@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questESwitchBehaviourType: Enum
 ---@field ["First Fulfilled"] Enum 0

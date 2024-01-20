@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHomingGDM_Record: gamedataGrenadeDeliveryMethod_Record
 gamedataHomingGDM_Record = {}

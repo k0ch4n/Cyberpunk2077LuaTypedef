@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_SweepMelee_MantisBlades: gameEffectObjectProvider_SweepMelee_Box
 gameEffectObjectProvider_SweepMelee_MantisBlades = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventPostponedParameterScriptable: gamestateMachineeventPostponedParameterBase
 ---@field public value IScriptable

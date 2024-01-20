@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_BeamVFX: gameEffectPostAction
 gameEffectPostAction_BeamVFX = {}

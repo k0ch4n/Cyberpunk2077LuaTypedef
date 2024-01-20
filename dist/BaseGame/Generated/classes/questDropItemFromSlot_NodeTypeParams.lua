@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDropItemFromSlot_NodeTypeParams
 ---@field public objectRef gameEntityReference

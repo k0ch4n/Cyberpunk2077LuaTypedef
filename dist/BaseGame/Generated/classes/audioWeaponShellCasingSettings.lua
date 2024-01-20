@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponShellCasingSettings: audioAudioMetadata
 ---@field public mode audioWeaponShellCasingMode

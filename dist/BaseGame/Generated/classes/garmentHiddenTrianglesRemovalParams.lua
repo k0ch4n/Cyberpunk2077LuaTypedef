@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentHiddenTrianglesRemovalParams
 ---@field public garmentBorderThreshold Float

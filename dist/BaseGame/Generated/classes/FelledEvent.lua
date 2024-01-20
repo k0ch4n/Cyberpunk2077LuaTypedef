@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FelledEvent: redEvent
 ---@field public active Bool

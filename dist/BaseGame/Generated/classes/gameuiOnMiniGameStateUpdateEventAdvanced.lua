@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiOnMiniGameStateUpdateEventAdvanced: redEvent
 ---@field public gameState gameuiSideScrollerMiniGameStateAdvanced

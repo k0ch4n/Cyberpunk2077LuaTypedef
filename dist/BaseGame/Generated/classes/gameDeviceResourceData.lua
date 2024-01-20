@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDeviceResourceData: ISerializable
 ---@field public version Uint32

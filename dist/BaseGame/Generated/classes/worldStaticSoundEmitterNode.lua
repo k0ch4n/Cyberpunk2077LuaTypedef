@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticSoundEmitterNode: worldNode
 ---@field public radius Float

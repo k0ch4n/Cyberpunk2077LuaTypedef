@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GogRegisterController: gameuiBaseGOGRegisterController
 ---@field public linkWidget inkWidgetReference

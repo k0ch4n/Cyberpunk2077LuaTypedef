@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeBlockEvents: MeleeRumblingEvents
 ---@field public blockStatFlag gameStatModifierData_Deprecated

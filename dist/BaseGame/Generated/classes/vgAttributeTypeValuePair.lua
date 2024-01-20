@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgAttributeTypeValuePair: ISerializable
 ---@field public pe vgEStyleAttributeType

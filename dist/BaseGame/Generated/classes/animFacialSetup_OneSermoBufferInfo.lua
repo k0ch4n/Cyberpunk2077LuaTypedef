@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialSetup_OneSermoBufferInfo
 ---@field public numGlobalLimits Uint16

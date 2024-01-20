@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questICharacterManagerParameters_NodeSubType: questICharacterManager_NodeSubType
 questICharacterManagerParameters_NodeSubType = {}

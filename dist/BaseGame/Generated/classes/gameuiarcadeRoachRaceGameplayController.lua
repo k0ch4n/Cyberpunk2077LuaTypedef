@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeRoachRaceGameplayController: gameuiarcadeArcadeGameplayController
 ---@field public defaultWorldVelocity Float

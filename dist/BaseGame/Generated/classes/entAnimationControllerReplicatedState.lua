@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimationControllerReplicatedState: netIComponentState
 ---@field public animWrapperVarsState entReplicatedAnimWrapperVars

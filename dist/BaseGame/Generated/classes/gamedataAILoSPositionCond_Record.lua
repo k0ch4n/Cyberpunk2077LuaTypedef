@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAILoSPositionCond_Record: gamedataAIActionSubCondition_Record
 gamedataAILoSPositionCond_Record = {}

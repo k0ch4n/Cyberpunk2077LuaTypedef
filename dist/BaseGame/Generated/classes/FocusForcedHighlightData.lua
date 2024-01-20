@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FocusForcedHighlightData: IScriptable
 ---@field public sourceID entEntityID

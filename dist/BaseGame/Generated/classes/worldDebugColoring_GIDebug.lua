@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDebugColoring_GIDebug: worldEditorDebugColoringSettings
 ---@field public GIVisibleColor Color

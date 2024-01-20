@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GravityChangeTrigger: gameObject
 ---@field public gravityType EGravityType

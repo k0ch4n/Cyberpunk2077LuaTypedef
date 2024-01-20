@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animTwistOutput
 ---@field public positiveScale Float

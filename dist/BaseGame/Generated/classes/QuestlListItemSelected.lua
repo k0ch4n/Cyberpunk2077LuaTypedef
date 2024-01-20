@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestlListItemSelected: redEvent
 ---@field public questData gameJournalQuest

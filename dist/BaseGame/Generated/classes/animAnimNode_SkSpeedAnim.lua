@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SkSpeedAnim: animAnimNode_SkAnim
 ---@field public Speed animFloatLink

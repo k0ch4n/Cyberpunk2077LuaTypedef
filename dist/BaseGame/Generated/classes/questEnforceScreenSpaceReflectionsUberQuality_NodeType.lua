@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEnforceScreenSpaceReflectionsUberQuality_NodeType: questIRenderFxManagerNodeType
 ---@field public enabled Bool

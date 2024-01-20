@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OutlineData
 ---@field public outlineType EOutlineType

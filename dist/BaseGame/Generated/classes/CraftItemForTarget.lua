@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftItemForTarget: ActionBool
 ---@field public itemID TweakDBID

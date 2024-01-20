@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorBehaviorInstanceCallStack
 ---@field public resourceHashes Uint32[]

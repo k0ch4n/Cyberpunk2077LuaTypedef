@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestRemoveTransition: redEvent
 ---@field public removeTransitionFrom Int32

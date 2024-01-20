@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsAttachPropToNode: scnSceneEvent
 ---@field public propId scnPropId

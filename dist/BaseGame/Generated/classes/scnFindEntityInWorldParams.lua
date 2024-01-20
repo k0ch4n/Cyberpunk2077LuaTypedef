@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnFindEntityInWorldParams
 ---@field public actorRef gameEntityReference

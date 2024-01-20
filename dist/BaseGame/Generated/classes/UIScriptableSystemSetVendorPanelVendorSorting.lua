@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystemSetVendorPanelVendorSorting: gameScriptableSystemRequest
 ---@field public sortMode Int32

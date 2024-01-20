@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsDestructionHierarchyOffset
 ---@field public combined Uint32

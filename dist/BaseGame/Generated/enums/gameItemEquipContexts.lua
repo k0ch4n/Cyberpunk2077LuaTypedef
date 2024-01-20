@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameItemEquipContexts: Enum
 ---@field LastWeaponEquipped Enum 0

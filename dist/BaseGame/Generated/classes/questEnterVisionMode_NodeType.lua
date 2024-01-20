@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEnterVisionMode_NodeType: questIVisionModeNodeType
 ---@field public objectRef gameEntityReference

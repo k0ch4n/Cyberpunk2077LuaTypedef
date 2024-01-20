@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSOwnerData
 ---@field public id gamePersistentID

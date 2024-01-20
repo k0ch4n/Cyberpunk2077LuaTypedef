@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIIsOnNavmeshCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsOnNavmeshCond_Record = {}

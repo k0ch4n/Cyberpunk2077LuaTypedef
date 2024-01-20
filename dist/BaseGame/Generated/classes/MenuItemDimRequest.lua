@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuItemDimRequest: redEvent
 ---@field public dim Bool

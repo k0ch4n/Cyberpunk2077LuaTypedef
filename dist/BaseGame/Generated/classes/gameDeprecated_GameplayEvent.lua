@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDeprecated_GameplayEvent: redEvent
 gameDeprecated_GameplayEvent = {}

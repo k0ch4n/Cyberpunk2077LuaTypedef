@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnLipsyncAnimSetSRRef
 ---@field public lipsyncAnimSet animAnimSet

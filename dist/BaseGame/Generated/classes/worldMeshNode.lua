@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldMeshNode: worldNode
 ---@field public mesh CMesh

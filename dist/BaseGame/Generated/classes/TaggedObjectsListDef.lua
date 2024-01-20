@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TaggedObjectsListDef: gamebbScriptDefinition
 ---@field public taggedObjectsList gamebbScriptID_Variant

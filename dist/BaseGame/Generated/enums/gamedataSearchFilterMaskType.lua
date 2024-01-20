@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSearchFilterMaskType: Enum
 ---@field Att_Friendly Enum 0

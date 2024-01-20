@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Debug_CheckIfShouldReturnToSpawn: AIDebugConditions
 Debug_CheckIfShouldReturnToSpawn = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsclothExportedCapsule
 ---@field public p0 Vector3

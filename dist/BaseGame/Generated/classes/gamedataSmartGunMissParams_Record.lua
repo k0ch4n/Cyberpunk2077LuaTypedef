@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSmartGunMissParams_Record: gamedataTweakDBRecord
 gamedataSmartGunMissParams_Record = {}

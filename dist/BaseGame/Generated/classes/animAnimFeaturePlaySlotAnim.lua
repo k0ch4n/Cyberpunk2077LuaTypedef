@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeaturePlaySlotAnim: animAnimFeature
 ---@field public slotName CName

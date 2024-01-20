@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_FrozenFrame: animAnimNode_OnePoseInput
 ---@field public maxFramesFrozen Int32

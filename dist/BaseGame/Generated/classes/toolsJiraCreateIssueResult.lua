@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraCreateIssueResult: ISerializable
 ---@field public id String

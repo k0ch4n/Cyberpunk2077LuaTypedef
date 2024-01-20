@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EShouldChangeAttitude: Enum
 ---@field PERSISTENTLY Enum 0

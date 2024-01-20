@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LookAtPose360Direction: animAnimNode_FloatValue
 ---@field public angleOffset Float

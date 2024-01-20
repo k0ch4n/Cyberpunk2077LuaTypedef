@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerkClickEvent: redEvent
 ---@field public controller NewPerksPerkItemLogicController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OpenWorldActivityRequest
 ---@field public kind CName

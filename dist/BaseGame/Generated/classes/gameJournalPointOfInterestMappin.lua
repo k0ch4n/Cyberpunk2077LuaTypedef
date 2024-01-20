@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalPointOfInterestMappin: gameJournalEntry
 ---@field public staticNodeRef NodeRef

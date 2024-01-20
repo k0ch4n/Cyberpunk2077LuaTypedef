@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataIsHackable_Record: gamedataTweakDBRecord
 gamedataIsHackable_Record = {}

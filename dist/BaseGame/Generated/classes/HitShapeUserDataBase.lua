@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitShapeUserDataBase: gameHitShapeUserData
 ---@field public hitShapeTag CName

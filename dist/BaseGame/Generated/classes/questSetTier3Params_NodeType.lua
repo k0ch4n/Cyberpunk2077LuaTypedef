@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTier3Params_NodeType: questISceneManagerNodeType
 ---@field public yawLeftLimit Float

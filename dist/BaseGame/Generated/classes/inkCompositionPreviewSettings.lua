@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCompositionPreviewSettings: ISerializable
 ---@field public sourceState CName

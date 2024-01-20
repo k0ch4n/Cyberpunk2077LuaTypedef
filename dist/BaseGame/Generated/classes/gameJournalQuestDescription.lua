@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalQuestDescription: gameJournalEntry
 ---@field public description LocalizationString

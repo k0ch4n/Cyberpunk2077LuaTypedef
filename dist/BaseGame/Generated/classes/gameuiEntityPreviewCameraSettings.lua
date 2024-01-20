@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiEntityPreviewCameraSettings
 ---@field public autoEnable Bool

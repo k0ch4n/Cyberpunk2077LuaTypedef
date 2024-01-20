@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SCachedStat
 ---@field public stat gamedataStatType

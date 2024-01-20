@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questComparisonParam: ISerializable
 ---@field public entireCommunity Bool

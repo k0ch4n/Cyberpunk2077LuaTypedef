@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICommand: IScriptable
 ---@field public id Uint32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectionComponent: gameScriptableComponent
 ---@field public slot String

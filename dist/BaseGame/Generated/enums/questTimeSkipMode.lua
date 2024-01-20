@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTimeSkipMode: Enum
 ---@field PreSkip Enum 0

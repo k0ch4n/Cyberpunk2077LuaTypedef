@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class nanowireGrenade: BaseProjectile
 ---@field private countTime Float

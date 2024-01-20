@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleLightComponent: gameLightComponent
 ---@field public allowSeparateEmissiveColor Bool

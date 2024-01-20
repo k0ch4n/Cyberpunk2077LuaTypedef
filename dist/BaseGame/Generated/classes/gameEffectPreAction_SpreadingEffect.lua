@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPreAction_SpreadingEffect: gameEffectPreAction
 gameEffectPreAction_SpreadingEffect = {}

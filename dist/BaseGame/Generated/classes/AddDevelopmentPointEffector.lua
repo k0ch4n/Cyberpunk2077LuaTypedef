@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AddDevelopmentPointEffector: gameEffector
 ---@field public amount Int32

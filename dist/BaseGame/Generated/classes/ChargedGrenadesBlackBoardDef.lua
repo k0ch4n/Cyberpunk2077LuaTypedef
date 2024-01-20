@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargedGrenadesBlackBoardDef: gamebbScriptDefinition
 ---@field public curentGrenadeCharges gamebbScriptID_Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SpecialProperties
 ---@field public enemyMarker Bool

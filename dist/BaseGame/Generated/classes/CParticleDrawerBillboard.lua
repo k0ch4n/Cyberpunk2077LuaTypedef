@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleDrawerBillboard: IParticleDrawer
 ---@field public isGPUBased Bool

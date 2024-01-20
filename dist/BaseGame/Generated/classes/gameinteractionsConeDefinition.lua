@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsConeDefinition: gameinteractionsIShapeDefinition
 ---@field public pos1 Vector4

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SystemStatusLogicController: inkWidgetLogicController
 ---@field public onlineRoot inkWidgetReference

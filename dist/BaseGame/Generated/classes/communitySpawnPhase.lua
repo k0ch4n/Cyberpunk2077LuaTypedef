@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communitySpawnPhase: ISerializable
 ---@field public phaseName CName

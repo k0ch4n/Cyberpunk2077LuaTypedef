@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectFilter_DamageOverTime: gameEffectObjectSingleFilter_Scripted
 EffectFilter_DamageOverTime = {}

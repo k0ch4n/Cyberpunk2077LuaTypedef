@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITargetTrackerComponent: gameComponent
 ---@field public TriggersCombat Bool

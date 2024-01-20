@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardCaseAnimationEnded: redEvent
 ---@field public activator gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsDeviceRegisterCameraControlOnPuppetEvent: redEvent
 ---@field public component gameDeviceCameraControlComponent

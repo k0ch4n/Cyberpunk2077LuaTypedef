@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResetTimeDilation: redEvent
 ---@field public easeOut CName

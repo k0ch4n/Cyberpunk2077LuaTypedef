@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGlobaltvWidgetGameController: gameuiWidgetGameController
 ---@field public overlayContainer inkCompoundWidgetReference

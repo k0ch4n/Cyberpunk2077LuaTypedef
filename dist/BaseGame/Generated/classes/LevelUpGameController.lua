@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LevelUpGameController: gameuiHUDGameController
 ---@field private value inkTextWidgetReference

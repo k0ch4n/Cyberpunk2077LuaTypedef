@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetQuickHackAttemptEvent: redEvent
 ---@field public wasQuickHackAttempt Bool

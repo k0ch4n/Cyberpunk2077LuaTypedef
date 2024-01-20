@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeActiveContextRequest: gamePlayerScriptableSystemRequest
 ---@field public newContext inputContextType

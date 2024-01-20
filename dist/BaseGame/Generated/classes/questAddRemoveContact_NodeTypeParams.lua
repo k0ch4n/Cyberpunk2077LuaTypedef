@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddRemoveContact_NodeTypeParams
 ---@field public contact CName

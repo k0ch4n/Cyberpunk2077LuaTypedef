@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetRandomIntArgument: AIRandomTasks
 ---@field public MaxValue Int32

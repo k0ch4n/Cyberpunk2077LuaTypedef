@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveSignDeviceWidgetController: DeviceWidgetControllerBase
 ---@field public messageWidgetPath CName

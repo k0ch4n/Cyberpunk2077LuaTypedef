@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArmsCWInSlotPrereq: gameIScriptablePrereq
 ---@field public equipmentArea gamedataEquipmentArea

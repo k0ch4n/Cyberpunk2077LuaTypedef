@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entTemplateComponentResolveMode: Enum
 ---@field AutoSelect Enum 0

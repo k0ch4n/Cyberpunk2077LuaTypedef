@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_BulletBend: animAnimFeature
 ---@field public animProgression Float

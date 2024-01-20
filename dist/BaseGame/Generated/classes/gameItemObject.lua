@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameItemObject: gameTimeDilatable
 ---@field public updateBucket UpdateBucketEnum

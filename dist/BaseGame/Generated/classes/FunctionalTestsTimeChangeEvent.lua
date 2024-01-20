@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FunctionalTestsTimeChangeEvent: redEvent
 ---@field public listenerId Uint32

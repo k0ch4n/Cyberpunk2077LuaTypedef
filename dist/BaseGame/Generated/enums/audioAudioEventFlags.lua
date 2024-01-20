@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioEventFlags: Enum
 ---@field NoEventFlags Enum 0

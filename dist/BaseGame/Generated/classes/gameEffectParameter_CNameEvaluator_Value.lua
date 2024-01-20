@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectParameter_CNameEvaluator_Value: gameIEffectParameter_CNameEvaluator
 ---@field public value CName

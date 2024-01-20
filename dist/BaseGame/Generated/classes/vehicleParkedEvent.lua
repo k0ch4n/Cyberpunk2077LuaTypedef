@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleParkedEvent: redEvent
 ---@field public park Bool

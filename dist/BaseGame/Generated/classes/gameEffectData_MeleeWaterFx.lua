@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectData_MeleeWaterFx
 gameEffectData_MeleeWaterFx = {}

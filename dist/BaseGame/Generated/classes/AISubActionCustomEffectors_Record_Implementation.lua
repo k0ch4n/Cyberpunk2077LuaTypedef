@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionCustomEffectors_Record_Implementation: IScriptable
 AISubActionCustomEffectors_Record_Implementation = {}

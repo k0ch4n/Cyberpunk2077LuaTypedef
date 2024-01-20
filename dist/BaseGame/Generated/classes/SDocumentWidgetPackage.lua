@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SDocumentWidgetPackage: SWidgetPackage
 ---@field public owner String

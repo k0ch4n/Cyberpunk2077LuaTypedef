@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleUnlockType: Enum
 ---@field CourierMissions Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorExtractVehicleSlotWorkspotTaskDefinition: AIbehaviorTaskDefinition
 ---@field public outWorkspotData AIArgumentMapping

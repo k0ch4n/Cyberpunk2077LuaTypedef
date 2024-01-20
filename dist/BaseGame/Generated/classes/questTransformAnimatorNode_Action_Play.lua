@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTransformAnimatorNode_Action_Play: questTransformAnimatorNode_ActionType
 ---@field public timesPlayed Int32

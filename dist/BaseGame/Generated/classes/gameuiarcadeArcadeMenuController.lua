@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeArcadeMenuController: gameuiarcadeIArcadeScreenController
 ---@field public startArrow inkWidgetReference

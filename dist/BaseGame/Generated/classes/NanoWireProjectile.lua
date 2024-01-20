@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NanoWireProjectile: BaseProjectile
 ---@field public maxAttackRange Float

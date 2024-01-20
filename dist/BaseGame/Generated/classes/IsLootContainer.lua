@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsLootContainer: gameEffectObjectSingleFilter_Scripted
 ---@field public invert Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InterestingFactsListenersIds
 ---@field public zone Uint32

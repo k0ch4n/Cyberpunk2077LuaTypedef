@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animOverrideAnimSetRef
 ---@field public animSet animAnimSet

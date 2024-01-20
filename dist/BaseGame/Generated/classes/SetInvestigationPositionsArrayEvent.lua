@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetInvestigationPositionsArrayEvent: redEvent
 ---@field public investigationPositionsArray Vector4[]

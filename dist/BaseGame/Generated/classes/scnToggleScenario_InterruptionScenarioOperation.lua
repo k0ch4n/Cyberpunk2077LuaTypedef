@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnToggleScenario_InterruptionScenarioOperation: scnIInterruptionScenarioOperation
 ---@field public enable Bool

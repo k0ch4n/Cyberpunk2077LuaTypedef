@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldRaceSplineNode: worldSpeedSplineNode
 ---@field public offsets worldRaceSplineNodeOffset[]

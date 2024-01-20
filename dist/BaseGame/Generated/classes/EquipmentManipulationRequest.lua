@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EquipmentManipulationRequest: IScriptable
 ---@field public requestType EquipmentManipulationRequestType

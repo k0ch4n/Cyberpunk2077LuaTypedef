@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrMinMax: attrAttribute
 ---@field public n Float

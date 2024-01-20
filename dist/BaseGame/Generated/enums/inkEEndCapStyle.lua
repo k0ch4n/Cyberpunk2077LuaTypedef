@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEEndCapStyle: Enum
 ---@field BUTT Enum 0

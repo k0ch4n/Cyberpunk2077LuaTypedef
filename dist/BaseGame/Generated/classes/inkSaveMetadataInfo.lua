@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSaveMetadataInfo: IScriptable
 ---@field public saveIndex Int32

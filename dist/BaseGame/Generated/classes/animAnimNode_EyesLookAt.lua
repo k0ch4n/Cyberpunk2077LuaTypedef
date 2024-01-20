@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_EyesLookAt: animAnimNode_OnePoseInput
 ---@field public targetALink animVectorLink

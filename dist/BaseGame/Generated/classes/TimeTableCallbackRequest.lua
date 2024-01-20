@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimeTableCallbackRequest: gameScriptableSystemRequest
 ---@field public callBackID Uint32

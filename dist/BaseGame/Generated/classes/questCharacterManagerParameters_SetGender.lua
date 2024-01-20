@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetGender: questICharacterManagerParameters_NodeSubType
 ---@field public params questSetGender_NodeTypeParams[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemMotionBlurScale: effectTrackItem
 ---@field public scale effectEffectParameterEvaluatorFloat

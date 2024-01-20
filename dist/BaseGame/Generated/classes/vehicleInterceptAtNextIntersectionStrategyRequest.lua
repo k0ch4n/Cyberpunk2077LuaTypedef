@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleInterceptAtNextIntersectionStrategyRequest: vehicleBaseStrategyRequest
 ---@field public distancesToIntersectionRatio Float

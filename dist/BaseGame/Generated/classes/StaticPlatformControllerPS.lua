@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StaticPlatformControllerPS: ScriptableDeviceComponentPS
 ---@field private isTriggered Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_SocketQuat: animIAnimNodeSourceChannel_Quat
 animAnimNodeSourceChannel_SocketQuat = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIPayment_ConditionType: questIConditionType
 ---@field public scriptCondition IScriptable

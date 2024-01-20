@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PowerBlockEffector: ModifyAttackEffector
 ---@field private damageReduction Float

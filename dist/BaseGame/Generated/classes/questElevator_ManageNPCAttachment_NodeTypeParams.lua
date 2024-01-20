@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questElevator_ManageNPCAttachment_NodeTypeParams
 ---@field public elevatorRef NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SearchPatternMappingLookat: AISearchingLookat
 ---@field public targetObjectMapping AIArgumentMapping

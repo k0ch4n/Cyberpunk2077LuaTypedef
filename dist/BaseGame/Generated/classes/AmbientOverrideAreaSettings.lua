@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AmbientOverrideAreaSettings: IAreaSettings
 ---@field public color curveData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCrowdManagerNodeDefinition: questDisableableNodeDefinition
 ---@field public type questICrowdManager_NodeType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextureSlot
 ---@field public texture CBitmapTexture

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHandbrakeFrictionModifier_Record: gamedataDriveHelper_Record
 gamedataHandbrakeFrictionModifier_Record = {}

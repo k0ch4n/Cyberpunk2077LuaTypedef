@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticFogVolumeNode: worldNode
 ---@field public priority Uint8

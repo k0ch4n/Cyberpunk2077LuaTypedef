@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScriptedPuppet: gamePuppet
 ---@field private aiController AIHumanComponent

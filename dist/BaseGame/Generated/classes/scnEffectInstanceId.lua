@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnEffectInstanceId
 ---@field public effectId scnEffectId

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KnockdownEvents: StatusEffectEvents
 ---@field public cachedPlayerVelocity Vector4

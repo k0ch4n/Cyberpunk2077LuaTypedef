@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETextureFilteringMag: Enum
 ---@field TFMag_Point Enum 0

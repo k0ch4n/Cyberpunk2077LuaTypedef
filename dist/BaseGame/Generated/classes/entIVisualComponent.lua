@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entIVisualComponent: entIPlacedComponent
 ---@field public autoHideDistance Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataLoadingTipsGroup_Record: gamedataTweakDBRecord
 gamedataLoadingTipsGroup_Record = {}

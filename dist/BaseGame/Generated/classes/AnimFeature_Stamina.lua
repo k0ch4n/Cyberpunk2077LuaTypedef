@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_Stamina: animAnimFeature
 ---@field public staminaValue Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestTrackerGameController: gameuiHUDGameController
 ---@field private questTrackerContainer inkWidgetReference

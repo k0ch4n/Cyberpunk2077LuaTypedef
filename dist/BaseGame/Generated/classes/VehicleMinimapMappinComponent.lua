@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleMinimapMappinComponent: IScriptable
 ---@field private minimapPOIMappinController MinimapPOIMappinController

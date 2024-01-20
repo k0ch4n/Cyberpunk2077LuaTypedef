@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioSpeakerType: Enum
 ---@field Stanley Enum 0

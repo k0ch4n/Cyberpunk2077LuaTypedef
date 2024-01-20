@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CarSpeedometerSettingsListener: userSettingsVarListener
 ---@field private ctrl hudCarController

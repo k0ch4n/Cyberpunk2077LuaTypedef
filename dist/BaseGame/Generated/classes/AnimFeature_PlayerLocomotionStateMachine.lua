@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_PlayerLocomotionStateMachine: animAnimFeature
 ---@field public inAirState Bool

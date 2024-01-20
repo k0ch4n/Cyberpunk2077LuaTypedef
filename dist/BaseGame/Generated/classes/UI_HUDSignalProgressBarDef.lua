@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_HUDSignalProgressBarDef: gamebbScriptDefinition
 ---@field public TimerID gamebbScriptID_Variant

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DynamicEntityEventType: Enum
 ---@field Created Enum 0

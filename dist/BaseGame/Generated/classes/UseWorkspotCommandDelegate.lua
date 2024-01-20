@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UseWorkspotCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field public inCommand AIArgumentMapping

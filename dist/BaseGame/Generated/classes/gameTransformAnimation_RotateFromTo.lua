@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTransformAnimation_RotateFromTo: gameTransformAnimationTrackItemImpl
 ---@field public startRotationEvaluator gameTransformAnimation_Rotation

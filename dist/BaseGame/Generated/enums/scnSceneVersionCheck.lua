@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneVersionCheck: Enum
 ---@field OlderOrEqual Enum 0

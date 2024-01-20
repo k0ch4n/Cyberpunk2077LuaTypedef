@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiInGameMenuGameControllerItemSceneInfo
 ---@field public sceneName CName

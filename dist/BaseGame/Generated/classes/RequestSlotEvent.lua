@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestSlotEvent: redEvent
 ---@field public blackboard gameIBlackboard

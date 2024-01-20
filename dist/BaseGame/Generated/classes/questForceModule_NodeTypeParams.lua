@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questForceModule_NodeTypeParams
 ---@field public objectRef NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorMaybeNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public onChildSuccess AIbehaviorMaybeNodeAction

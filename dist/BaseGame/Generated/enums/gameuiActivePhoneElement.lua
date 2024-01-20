@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiActivePhoneElement: Enum
 ---@field Call Enum 1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckArgumentName: CheckArguments
 ---@field public customVar CName

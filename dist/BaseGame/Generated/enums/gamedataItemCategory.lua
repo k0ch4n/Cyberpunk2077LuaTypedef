@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataItemCategory: Enum
 ---@field Clothing Enum 0

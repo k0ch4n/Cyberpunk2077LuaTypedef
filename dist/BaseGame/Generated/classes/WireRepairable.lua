@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WireRepairable: gameObject
 ---@field public isBroken Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerSkillCheckConditionDataItemLogicController: inkWidgetLogicController
 ---@field private ConditionDataDescriptionName CName

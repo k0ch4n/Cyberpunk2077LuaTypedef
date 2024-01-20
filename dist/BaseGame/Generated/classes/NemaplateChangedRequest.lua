@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NemaplateChangedRequest: gameScriptableSystemRequest
 ---@field public playerTarget entEntityID

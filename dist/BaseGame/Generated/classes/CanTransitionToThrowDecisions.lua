@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CanTransitionToThrowDecisions: CarriedObjectDecisions
 ---@field protected throwNPCActionReleasedName CName

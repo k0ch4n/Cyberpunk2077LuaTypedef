@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAmbientAreaSettings: audioAudioMetadata
 ---@field public MetadataParent CName

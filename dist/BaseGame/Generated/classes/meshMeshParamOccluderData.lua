@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshMeshParamOccluderData: meshMeshParameter
 ---@field public occluderResource visIOccluderResource

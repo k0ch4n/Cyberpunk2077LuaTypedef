@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerVolumeOperationsTrigger: DeviceOperationsTrigger
 ---@field protected triggerData TriggerVolumeOperationTriggerData

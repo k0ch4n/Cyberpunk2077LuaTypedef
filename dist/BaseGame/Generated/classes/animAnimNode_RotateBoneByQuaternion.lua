@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_RotateBoneByQuaternion: animAnimNode_Base
 ---@field public inputNode animPoseLink

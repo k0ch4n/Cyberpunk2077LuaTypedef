@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPoolValueModifier_Record: gamedataTweakDBRecord
 gamedataPoolValueModifier_Record = {}

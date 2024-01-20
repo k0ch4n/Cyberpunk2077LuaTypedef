@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItem: effectBaseItem
 ---@field public timeBegin Float

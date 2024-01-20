@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLocomotionCustomActionVfxDictionary: audioInlinedAudioMetadata
 ---@field public entries audioLocomotionCustomActionVfxDictionaryItem[]

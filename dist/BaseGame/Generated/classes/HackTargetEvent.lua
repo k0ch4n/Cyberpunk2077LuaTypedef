@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HackTargetEvent: redEvent
 ---@field public netrunnerID entEntityID

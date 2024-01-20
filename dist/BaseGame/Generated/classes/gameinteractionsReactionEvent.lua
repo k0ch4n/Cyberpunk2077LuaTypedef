@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsReactionEvent: redEvent
 ---@field public interactionType CName

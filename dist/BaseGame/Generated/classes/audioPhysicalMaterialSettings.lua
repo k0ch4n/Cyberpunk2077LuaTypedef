@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPhysicalMaterialSettings: audioAudioMetadata
 ---@field public softImpact CName

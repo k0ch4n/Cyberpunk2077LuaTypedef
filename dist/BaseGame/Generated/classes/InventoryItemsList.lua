@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemsList: inkWidgetLogicController
 ---@field protected InventoryItemName CName

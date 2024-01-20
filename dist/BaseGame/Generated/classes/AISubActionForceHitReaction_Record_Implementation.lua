@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionForceHitReaction_Record_Implementation: IScriptable
 AISubActionForceHitReaction_Record_Implementation = {}

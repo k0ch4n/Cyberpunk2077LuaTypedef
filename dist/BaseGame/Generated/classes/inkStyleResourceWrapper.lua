@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkStyleResourceWrapper: ISerializable
 ---@field public styleResource inkStyleResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCTypePrereq: gameIScriptablePrereq
 ---@field public allowedTypes gamedataNPCType[]

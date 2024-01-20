@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class moveEnteredSplineEvent: redEvent
 ---@field public useDoors Bool

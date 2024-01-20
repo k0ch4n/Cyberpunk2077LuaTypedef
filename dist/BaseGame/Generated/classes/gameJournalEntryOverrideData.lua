@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalEntryOverrideData: IScriptable
 ---@field public inputDevice inputESimplifiedInputDevice

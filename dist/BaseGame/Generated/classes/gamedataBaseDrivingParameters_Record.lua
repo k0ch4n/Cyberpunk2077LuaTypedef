@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBaseDrivingParameters_Record: gamedataTweakDBRecord
 gamedataBaseDrivingParameters_Record = {}

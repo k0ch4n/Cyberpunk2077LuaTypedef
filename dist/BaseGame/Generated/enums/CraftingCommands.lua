@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingCommands: Enum
 ---@field CraftingFinished Enum 0

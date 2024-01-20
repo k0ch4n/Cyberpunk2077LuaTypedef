@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gametargetingSystemTargetFilter_Script: gametargetingSystemTargetFilter
 gametargetingSystemTargetFilter_Script = {}

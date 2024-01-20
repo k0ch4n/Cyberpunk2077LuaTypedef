@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UpdateShardFailedDropsRequest: gameScriptableSystemRequest
 ---@field public resetCounter Bool

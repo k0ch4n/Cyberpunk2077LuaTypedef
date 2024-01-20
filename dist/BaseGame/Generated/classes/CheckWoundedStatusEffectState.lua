@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckWoundedStatusEffectState: AIStatusEffectCondition
 ---@field public stateToCheck EstatusEffectsState

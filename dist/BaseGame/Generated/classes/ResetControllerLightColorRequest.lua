@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ResetControllerLightColorRequest: gameScriptableSystemRequest
 ---@field public notQuest Bool

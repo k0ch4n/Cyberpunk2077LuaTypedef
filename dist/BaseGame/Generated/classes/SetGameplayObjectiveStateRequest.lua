@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetGameplayObjectiveStateRequest: gameScriptableSystemRequest
 ---@field public objectiveData GemplayObjectiveData

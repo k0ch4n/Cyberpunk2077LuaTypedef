@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnDialogLineLanguage: Enum
 ---@field Origin Enum 0

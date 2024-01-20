@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocCategoryTooltipData: ATooltipData
 ---@field public category gamedataEquipmentArea

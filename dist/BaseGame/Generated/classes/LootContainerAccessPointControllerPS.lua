@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootContainerAccessPointControllerPS: AccessPointControllerPS
 ---@field protected objRef NodeRef

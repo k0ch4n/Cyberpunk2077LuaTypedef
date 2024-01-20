@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionSetWaypointByTag_Record: gamedataAISubActionSetTargetByTag_Record
 gamedataAISubActionSetWaypointByTag_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCrowdManagerNodeType_EnableNullArea: questICrowdManager_NodeType
 ---@field public areaReference NodeRef

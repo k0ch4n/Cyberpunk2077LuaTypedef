@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CompanionHealthStatListener: gameScriptStatPoolsListener
 ---@field private healthbar CompanionHealthBarGameController

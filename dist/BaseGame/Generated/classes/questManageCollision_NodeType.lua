@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questManageCollision_NodeType: questIWorldDataManagerNodeType
 ---@field public params questManageCollision_NodeTypeParams[]

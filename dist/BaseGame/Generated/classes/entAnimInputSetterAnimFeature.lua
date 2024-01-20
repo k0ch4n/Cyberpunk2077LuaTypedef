@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimInputSetterAnimFeature: entAnimInputSetter
 ---@field public value animAnimFeature

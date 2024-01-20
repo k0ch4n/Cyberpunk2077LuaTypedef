@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BasicAnimationController: inkWidgetLogicController
 ---@field protected showAnimation CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemComparableTypesCache: IScriptable
 ---@field public itemTypeRecord gamedataItemType_Record

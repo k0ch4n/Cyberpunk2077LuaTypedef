@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_CurvePathSlot: animAnimNode_Base
 ---@field public input animPoseLink

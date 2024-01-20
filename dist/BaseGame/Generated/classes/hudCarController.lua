@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class hudCarController: gameuiHUDGameController
 ---@field private SpeedValue inkTextWidgetReference

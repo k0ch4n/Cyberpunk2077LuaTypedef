@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewBackdoorDeviceRequest: gameScriptableSystemRequest
 ---@field public device ScriptableDeviceComponentPS

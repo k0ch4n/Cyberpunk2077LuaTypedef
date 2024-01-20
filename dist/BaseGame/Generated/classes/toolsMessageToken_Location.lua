@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageToken_Location: toolsIMessageToken
 ---@field public location toolsIMessageLocation

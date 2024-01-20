@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorkspotMapData: IScriptable
 ---@field public action gamedataWorkspotActionType

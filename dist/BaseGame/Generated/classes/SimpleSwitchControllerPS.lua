@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSwitchControllerPS: MasterControllerPS
 ---@field protected switchAction ESwitchAction

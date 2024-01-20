@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_IntVariable: animAnimNode_IntValue
 ---@field public variableName CName

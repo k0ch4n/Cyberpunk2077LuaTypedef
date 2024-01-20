@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGiveReward_NodeType: questIRewardManagerNodeType
 ---@field public rewards TweakDBID[]

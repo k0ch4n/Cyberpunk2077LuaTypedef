@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListFilterButtonController: inkWidgetLogicController
 ---@field public icon inkImageWidgetReference

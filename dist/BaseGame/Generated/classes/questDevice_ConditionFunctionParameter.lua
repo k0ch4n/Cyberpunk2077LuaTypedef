@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDevice_ConditionFunctionParameter
 ---@field public name CName

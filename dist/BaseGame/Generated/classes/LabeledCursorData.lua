@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LabeledCursorData: inkUserData
 ---@field public text String

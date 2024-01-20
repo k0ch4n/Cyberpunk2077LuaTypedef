@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemDisplayHoldEvent: redEvent
 ---@field public itemData gameInventoryItemData

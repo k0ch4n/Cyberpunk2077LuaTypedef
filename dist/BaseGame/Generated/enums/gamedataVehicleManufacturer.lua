@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleManufacturer: Enum
 ---@field Arch Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChattersGameController: BaseSubtitlesGameController
 ---@field private c_DisplayRange Float

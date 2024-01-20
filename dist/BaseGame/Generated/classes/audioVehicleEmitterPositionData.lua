@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleEmitterPositionData
 ---@field public engineEmitterPosition Vector3

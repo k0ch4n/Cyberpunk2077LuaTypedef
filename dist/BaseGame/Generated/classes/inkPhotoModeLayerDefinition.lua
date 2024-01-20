@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkPhotoModeLayerDefinition: inkLayerDefinition
 ---@field public photoModeResource inkWidgetLibraryResource

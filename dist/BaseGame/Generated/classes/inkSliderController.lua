@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSliderController: inkWidgetLogicController
 ---@field public slidingAreaRef inkWidgetReference

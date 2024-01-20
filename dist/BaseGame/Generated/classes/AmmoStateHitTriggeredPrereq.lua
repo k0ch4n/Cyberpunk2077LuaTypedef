@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AmmoStateHitTriggeredPrereq: HitTriggeredPrereq
 ---@field public valueToListen EMagazineAmmoState

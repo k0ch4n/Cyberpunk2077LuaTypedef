@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EFocusForcedHighlightType: Enum
 ---@field INTERACTION Enum 0

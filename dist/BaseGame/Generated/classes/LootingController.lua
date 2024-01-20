@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LootingController: inkWidgetLogicController
 ---@field private root inkWidget

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkCursorInfo: inkUserData
 ---@field public pos Vector2

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LaserSight: Attack_Beam
 ---@field private previousTarget entEntity

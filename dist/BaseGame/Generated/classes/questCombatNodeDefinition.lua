@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeDefinition: questConfigurableAICommandNode
 ---@field public entityReference gameEntityReference

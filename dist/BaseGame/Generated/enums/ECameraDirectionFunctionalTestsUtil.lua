@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ECameraDirectionFunctionalTestsUtil: Enum
 ---@field Up Enum 0

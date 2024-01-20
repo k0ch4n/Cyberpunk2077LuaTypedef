@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingPopupController: gameuiWidgetGameController
 ---@field private tooltipContainer inkWidgetReference

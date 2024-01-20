@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorkspotReactionType_Record: gamedataTweakDBRecord
 gamedataWorkspotReactionType_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EForcedElevatorArrowsState: Enum
 ---@field Disabled Enum 0

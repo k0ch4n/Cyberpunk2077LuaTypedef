@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehiclePanzerBootupUIQuestEvent: redEvent
 ---@field public mode panzerBootupUI

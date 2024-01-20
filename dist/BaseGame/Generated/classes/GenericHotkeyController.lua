@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GenericHotkeyController: gameuiNewPhoneRelatedHUDGameController
 ---@field protected hotkeyBackground inkImageWidgetReference

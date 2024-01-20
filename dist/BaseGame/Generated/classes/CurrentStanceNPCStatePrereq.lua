@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CurrentStanceNPCStatePrereq: gameIScriptablePrereq
 ---@field public valueToCheck gamedataNPCStanceState

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraSetup
 ---@field public canStreamVideo Bool

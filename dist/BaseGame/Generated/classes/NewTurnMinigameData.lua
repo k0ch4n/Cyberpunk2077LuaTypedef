@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewTurnMinigameData
 ---@field public position Vector2

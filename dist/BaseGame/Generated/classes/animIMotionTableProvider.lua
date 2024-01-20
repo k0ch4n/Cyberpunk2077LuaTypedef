@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animIMotionTableProvider: ISerializable
 ---@field public id Int32

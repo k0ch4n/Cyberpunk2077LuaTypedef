@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIFloatArgumentInstancePS: AIArgumentInstancePS
 ---@field public value Float

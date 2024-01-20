@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraAreaSettings: IAreaSettings
 ---@field public cameraNearPlane Float

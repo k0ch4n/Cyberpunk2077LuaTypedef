@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InstallModConfirmationData: IScriptable
 ---@field public itemId gameItemID

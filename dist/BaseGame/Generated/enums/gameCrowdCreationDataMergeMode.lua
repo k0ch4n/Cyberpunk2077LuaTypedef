@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCrowdCreationDataMergeMode: Enum
 ---@field Average Enum 0

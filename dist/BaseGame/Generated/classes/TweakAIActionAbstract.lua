@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TweakAIActionAbstract: AIbehaviortaskScript
 ---@field private actionRecord gamedataAIAction_Record

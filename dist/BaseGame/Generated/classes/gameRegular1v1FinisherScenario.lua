@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameRegular1v1FinisherScenario: gameIFinisherScenario
 ---@field public attackerWorkspot workWorkspotResource

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsDropItemEvent: redEvent
 ---@field public slotId TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiBackpackMainGameController: gameuiMenuGameController
 ---@field private commonCraftingMaterialsGrid inkCompoundWidgetReference

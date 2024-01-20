@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerRotationRate: IParticleInitializer
 ---@field public rotationRate IEvaluatorFloat

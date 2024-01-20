@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMPHitEvent: redEvent
 ---@field public lifetime Float

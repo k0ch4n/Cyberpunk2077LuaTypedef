@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questWeaponUsageType: Enum
 ---@field Shoot Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class meshChunkIndicesOffset
 ---@field public start Uint32

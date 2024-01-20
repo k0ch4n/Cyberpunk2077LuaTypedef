@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeTimeoutDefinition: AICTreeExtendableNodeDefinition
 ---@field public timeout Float

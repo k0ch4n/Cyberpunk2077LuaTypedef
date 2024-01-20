@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReloadWeaponEffector: gameEffector
 ---@field private owner gameObject

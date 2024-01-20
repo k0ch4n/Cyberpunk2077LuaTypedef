@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIBlockDirection: Enum
 ---@field Undefined Enum 0

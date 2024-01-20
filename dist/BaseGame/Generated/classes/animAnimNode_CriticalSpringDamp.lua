@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_CriticalSpringDamp: animAnimNode_FloatValue
 ---@field public smoothTime Float

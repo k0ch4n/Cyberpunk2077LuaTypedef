@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkStateTransitionAnimationController: inkWidgetLogicController
 ---@field public transition inkWidgetStateAnimatedTransition[]

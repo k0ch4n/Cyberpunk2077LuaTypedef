@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChestPress: InteractiveDevice
 ---@field private animFeatureData AnimFeature_ChestPress

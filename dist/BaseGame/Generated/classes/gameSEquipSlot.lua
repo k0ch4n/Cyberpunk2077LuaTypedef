@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSEquipSlot
 ---@field public itemID gameItemID

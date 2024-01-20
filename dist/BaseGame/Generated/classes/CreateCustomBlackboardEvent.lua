@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CreateCustomBlackboardEvent: redEvent
 ---@field public blackboardDef CustomBlackboardDef

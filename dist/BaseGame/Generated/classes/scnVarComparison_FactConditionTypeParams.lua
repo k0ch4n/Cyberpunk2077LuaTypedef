@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnVarComparison_FactConditionTypeParams
 ---@field public factName CName

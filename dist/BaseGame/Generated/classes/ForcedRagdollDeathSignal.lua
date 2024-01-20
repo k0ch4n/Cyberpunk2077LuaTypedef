@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForcedRagdollDeathSignal: gameTaggedSignalUserData
 ---@field public value Bool

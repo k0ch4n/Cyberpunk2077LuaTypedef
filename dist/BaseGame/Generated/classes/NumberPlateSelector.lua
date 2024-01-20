@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NumberPlateSelector: LCDScreenSelector
 ---@field private recordID TweakDBID

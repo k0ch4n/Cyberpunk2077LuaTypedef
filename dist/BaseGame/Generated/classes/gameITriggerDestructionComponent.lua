@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameITriggerDestructionComponent: entIComponent
 ---@field public startActive Bool

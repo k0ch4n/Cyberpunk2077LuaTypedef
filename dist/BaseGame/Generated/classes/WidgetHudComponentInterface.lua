@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WidgetHudComponentInterface: WidgetBaseComponent
 ---@field public hudEntriesResource inkHudEntriesResource

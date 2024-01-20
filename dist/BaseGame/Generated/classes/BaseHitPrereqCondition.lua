@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseHitPrereqCondition: IScriptable
 ---@field public invert Bool

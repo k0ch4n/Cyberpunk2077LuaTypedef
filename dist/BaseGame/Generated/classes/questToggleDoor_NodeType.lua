@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questToggleDoor_NodeType: questIVehicleManagerNodeType
 ---@field public vehicleRef gameEntityReference

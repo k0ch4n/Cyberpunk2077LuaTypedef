@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetPhoneStatus_NodeType: questIPhoneManagerNodeType
 ---@field public status questPhoneStatus

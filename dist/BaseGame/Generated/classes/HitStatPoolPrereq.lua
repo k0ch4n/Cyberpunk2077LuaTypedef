@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitStatPoolPrereq: GenericHitPrereq
 ---@field public valueToCheck Float

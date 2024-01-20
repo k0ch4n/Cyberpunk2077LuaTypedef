@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalQuestMultiMapPin: gameJournalQuestMapPinBase
 ---@field public references NodeRef[]

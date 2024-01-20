@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DataTermInkGameController: DeviceInkGameControllerBase
 ---@field private fcPointsPanel inkHorizontalPanelWidget

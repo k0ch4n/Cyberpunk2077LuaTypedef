@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowHighlight_NodeSubType: questITutorial_NodeSubType
 ---@field public entityReference gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerSetAttachment_ToActor: questIEntityManagerSetAttachment_NodeSubType
 ---@field public attachmentRef NodeRef

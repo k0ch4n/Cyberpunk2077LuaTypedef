@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocCyberwareEquipAnimationCategory: IScriptable
 ---@field public factName CName

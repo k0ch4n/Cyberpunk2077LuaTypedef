@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceOperations: IScriptable
 ---@field protected components entIPlacedComponent[]

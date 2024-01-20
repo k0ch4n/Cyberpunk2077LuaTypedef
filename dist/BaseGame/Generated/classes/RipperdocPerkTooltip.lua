@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocPerkTooltip: AGenericTooltipController
 ---@field private perkName inkTextWidgetReference

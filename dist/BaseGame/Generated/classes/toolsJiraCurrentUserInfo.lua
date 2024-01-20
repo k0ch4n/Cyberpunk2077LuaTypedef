@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraCurrentUserInfo: ISerializable
 ---@field public name String

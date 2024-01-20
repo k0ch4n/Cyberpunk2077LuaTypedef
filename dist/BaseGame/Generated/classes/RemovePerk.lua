@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemovePerk: gamePlayerScriptableSystemRequest
 ---@field public perkType gamedataPerkType

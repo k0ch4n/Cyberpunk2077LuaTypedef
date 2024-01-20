@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ETVChannel: Enum
 ---@field CH1 Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicalSystemOwner: Enum
 ---@field Unknown Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamecarryReplicatedEntitySetAttachmentToWorld: netEntityAttachmentInterface
 ---@field public localTransform Transform

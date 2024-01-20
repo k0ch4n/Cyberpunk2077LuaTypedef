@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnSceneCategoryTag: Enum
 ---@field voiceset Enum 0

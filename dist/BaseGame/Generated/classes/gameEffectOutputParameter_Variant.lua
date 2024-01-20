@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectOutputParameter_Variant
 ---@field public blackboardProperty gameBlackboardPropertyBindingDefinition

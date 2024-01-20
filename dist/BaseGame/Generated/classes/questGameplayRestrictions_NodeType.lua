@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGameplayRestrictions_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public action questGameplayRestrictionAction

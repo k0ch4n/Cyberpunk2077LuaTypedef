@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetSkillcheckEvent: redEvent
 ---@field public skillcheckContainer BaseSkillCheckContainer

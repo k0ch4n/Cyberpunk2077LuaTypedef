@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceCollisionTestOutcome: Enum
 ---@field NoCell Enum 0

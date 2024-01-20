@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkPhotoModeCursorStateChangedEvent: redEvent
 ---@field public cursorEnabled Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameCrowdEntryType: Enum
 ---@field Pedestrian Enum 0

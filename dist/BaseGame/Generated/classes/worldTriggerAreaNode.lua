@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldTriggerAreaNode: worldAreaShapeNode
 ---@field public notifiers worldITriggerAreaNotifer[]

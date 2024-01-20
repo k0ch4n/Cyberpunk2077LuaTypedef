@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KeyboardHintItemController: AHintItemController
 ---@field private NumberText inkTextWidgetReference

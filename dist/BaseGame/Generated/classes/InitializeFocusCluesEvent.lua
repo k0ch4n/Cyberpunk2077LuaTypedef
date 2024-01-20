@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InitializeFocusCluesEvent: redEvent
 ---@field public requesterID entEntityID

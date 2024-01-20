@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraCommentIssueBody: ISerializable
 ---@field public body String

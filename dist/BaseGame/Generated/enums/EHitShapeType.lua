@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EHitShapeType: Enum
 ---@field None Enum -1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSandevistanDashShootCondition: AIbehaviorconditionScript
 ---@field private initialized Bool

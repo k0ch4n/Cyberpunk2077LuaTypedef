@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealInteractionWheel: redEvent
 ---@field public lookAtObject gameObject

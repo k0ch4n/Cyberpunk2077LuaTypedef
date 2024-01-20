@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewItemTooltipDescriptionModule: NewItemTooltipModuleController
 ---@field private descriptionText inkTextWidgetReference

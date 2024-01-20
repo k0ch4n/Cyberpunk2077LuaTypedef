@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponAnimFeature_LoopableAction: animAnimFeature
 ---@field public loopDuration Float

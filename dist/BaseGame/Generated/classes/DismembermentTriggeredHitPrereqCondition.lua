@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismembermentTriggeredHitPrereqCondition: BaseHitPrereqCondition
 ---@field private currValue Uint32

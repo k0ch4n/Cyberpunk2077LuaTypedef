@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SquadTicketReceipt
 ---@field public acknowledgedTimeStamp Float

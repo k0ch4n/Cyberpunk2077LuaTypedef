@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionAttackWithWeapon_Record_Implementation: IScriptable
 AISubActionAttackWithWeapon_Record_Implementation = {}

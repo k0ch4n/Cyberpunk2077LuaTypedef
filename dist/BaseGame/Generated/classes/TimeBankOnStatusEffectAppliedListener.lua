@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TimeBankOnStatusEffectAppliedListener: gameScriptStatusEffectListener
 ---@field public effector StatusEffectBasedTimeBankEffector

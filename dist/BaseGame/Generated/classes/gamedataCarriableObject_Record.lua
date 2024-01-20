@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCarriableObject_Record: gamedataSpawnableObject_Record
 gamedataCarriableObject_Record = {}

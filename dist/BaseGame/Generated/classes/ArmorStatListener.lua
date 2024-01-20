@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArmorStatListener: gameScriptStatPoolsListener
 ---@field public ownerPuppet PlayerPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetConveyorState_NodeType: questIInteractiveObjectManagerNodeType
 ---@field public objectRef NodeRef

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WrappedInventoryItemData: IScriptable
 ---@field public ItemData gameInventoryItemData

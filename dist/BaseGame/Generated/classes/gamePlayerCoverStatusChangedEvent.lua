@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayerCoverStatusChangedEvent: redEvent
 ---@field public direction gamePlayerCoverDirection

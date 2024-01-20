@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestChangeTrackedObjective: redEvent
 ---@field public objective gameJournalQuestObjective

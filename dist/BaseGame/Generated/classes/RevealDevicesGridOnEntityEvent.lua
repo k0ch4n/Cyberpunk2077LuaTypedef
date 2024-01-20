@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealDevicesGridOnEntityEvent: redEvent
 ---@field public shouldDraw Bool

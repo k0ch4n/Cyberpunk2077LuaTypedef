@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BaseActionOperations: DeviceOperations
 ---@field protected baseActionsOperations SBaseActionOperationData[]

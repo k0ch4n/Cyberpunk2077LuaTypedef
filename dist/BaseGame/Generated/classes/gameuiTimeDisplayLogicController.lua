@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiTimeDisplayLogicController: inkWidgetLogicController
 ---@field public timerText inkTextWidgetReference

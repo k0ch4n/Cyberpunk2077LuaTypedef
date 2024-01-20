@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeleteEquipmentSetRequest: gamePlayerScriptableSystemRequest
 ---@field public setName String

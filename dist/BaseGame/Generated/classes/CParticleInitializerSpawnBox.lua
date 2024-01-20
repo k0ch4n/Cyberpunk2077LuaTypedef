@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerSpawnBox: IParticleInitializer
 ---@field public extents IEvaluatorVector

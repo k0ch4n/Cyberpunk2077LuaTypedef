@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEInterpolationType: Enum
 ---@field Lerp Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsHitEvent: redEvent
 ---@field public attackData gamedamageAttackData

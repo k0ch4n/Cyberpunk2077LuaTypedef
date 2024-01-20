@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DynamicTextureDataFormat: Enum
 ---@field R_Uint8 Enum 0

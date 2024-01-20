@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgVectorGraphicStyle: ISerializable
 ---@field public attributes vgAttributeTypeValuePair[]

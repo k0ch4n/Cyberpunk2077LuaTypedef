@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsVehicleDoorQuestLocked: gameIScriptablePrereq
 ---@field protected slotName CName

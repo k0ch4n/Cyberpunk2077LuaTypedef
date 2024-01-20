@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SkillRewardHoverOver: redEvent
 ---@field public data LevelRewardDisplayData

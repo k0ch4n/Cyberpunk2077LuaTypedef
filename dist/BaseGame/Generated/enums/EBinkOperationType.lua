@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EBinkOperationType: Enum
 ---@field PLAY Enum 0

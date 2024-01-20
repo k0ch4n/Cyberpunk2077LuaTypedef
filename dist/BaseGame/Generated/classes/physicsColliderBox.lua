@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsColliderBox: physicsICollider
 ---@field public halfExtents Vector3

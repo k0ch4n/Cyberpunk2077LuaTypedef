@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSODescBlendModeWriteMask: Enum
 ---@field MASK_None Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSubStatModifierData_Deprecated: gameStatModifierData_Deprecated
 ---@field public refStatType gamedataStatType

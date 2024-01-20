@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animComponentTagCondition: animIStaticCondition
 ---@field public animTag CName

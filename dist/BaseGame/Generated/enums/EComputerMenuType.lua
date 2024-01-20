@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EComputerMenuType: Enum
 ---@field MAIN Enum 0

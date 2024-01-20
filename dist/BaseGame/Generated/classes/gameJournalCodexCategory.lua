@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalCodexCategory: gameJournalFileEntry
 ---@field public categoryName LocalizationString

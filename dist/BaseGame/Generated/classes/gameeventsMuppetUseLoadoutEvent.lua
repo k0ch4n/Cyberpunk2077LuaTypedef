@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsMuppetUseLoadoutEvent: redEvent
 ---@field public adout gamedataCPOLoadoutBase_Record

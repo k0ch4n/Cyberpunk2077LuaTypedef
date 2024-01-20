@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeftHandCyberwareDataDef: gamebbScriptDefinition
 ---@field public ProjectileCaught gamebbScriptID_Bool

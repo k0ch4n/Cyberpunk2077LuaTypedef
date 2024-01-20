@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleEventGenerator: IParticleEvent
 ---@field public evtType EParticleEventType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendEPathTracingLightUsage: Enum
 ---@field PTLU_Everywhere Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnGameplayActionEvent: scnSceneEvent
 ---@field public performer scnPerformerId

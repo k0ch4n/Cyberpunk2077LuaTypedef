@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolChangeOverTimePrereqState: gamePrereqState
 ---@field public statPoolListener BaseStatPoolPrereqListener

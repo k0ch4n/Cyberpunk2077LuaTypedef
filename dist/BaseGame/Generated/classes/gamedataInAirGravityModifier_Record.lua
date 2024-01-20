@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataInAirGravityModifier_Record: gamedataDriveHelper_Record
 gamedataInAirGravityModifier_Record = {}

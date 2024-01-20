@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPanzerGameLogicController: gameuiSideScrollerMiniGameLogicControllerAdvanced
 ---@field public gameOverDelay Float

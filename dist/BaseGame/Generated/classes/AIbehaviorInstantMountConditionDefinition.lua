@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorInstantMountConditionDefinition: AIbehaviorConditionDefinition
 ---@field public mountData AIArgumentMapping

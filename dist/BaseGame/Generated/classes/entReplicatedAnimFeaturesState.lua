@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedAnimFeaturesState
 ---@field public items entReplicatedAnimFeature[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayerStateMachine: Enum
 ---@field Locomotion Enum 0

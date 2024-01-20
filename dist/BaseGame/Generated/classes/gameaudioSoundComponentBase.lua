@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameaudioSoundComponentBase: entIPlacedComponent
 ---@field public audioName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetBooleanArgumentWhenActive: AIbehaviortaskScript
 ---@field public booleanArgument CName

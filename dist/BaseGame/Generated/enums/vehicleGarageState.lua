@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleGarageState: Enum
 ---@field NoVehiclesAvailable Enum 0

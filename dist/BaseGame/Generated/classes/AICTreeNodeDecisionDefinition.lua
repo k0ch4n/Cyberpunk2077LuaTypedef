@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeDecisionDefinition: AICTreeNodeCompositeDefinition
 ---@field public child LibTreeINodeDefinition

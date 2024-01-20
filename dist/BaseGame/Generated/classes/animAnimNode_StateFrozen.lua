@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_StateFrozen: animAnimNode_State
 animAnimNode_StateFrozen = {}

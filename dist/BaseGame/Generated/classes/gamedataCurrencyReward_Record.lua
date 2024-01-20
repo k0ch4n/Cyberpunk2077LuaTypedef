@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCurrencyReward_Record: gamedataTweakDBRecord
 gamedataCurrencyReward_Record = {}

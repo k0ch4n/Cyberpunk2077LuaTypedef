@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSAnimationBufferBitwiseCompressedBoneTrack
 ---@field public position animSAnimationBufferBitwiseCompressedData

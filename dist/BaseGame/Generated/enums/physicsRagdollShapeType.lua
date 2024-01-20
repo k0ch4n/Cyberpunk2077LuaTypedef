@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsRagdollShapeType: Enum
 ---@field CAPSULE Enum 0

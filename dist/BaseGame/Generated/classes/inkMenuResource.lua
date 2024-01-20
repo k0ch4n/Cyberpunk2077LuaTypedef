@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkMenuResource: CResource
 ---@field public menusEntries inkMenuEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCBehaviorState: Enum
 ---@field State1 Enum 0

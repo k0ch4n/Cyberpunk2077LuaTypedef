@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TakedownActionDataTrackingRequest: gamePlayerScriptableSystemRequest
 ---@field public eventType ETakedownActionType

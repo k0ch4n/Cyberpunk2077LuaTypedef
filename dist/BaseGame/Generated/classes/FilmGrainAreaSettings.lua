@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class FilmGrainAreaSettings: IAreaSettings
 ---@field public strength curveData

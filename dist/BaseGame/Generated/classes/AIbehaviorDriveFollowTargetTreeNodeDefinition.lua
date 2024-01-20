@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDriveFollowTargetTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field public useKinematic AIArgumentMapping

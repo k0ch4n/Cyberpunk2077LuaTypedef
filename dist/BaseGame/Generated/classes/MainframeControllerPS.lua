@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MainframeControllerPS: BaseAnimatedDeviceControllerPS
 ---@field protected factName ComputerQuickHackData

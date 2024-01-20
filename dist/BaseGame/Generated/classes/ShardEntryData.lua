@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShardEntryData: GenericCodexEntryData
 ---@field public isCrypted Bool

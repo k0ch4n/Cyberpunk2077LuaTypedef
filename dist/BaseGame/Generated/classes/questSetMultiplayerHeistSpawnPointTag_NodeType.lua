@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetMultiplayerHeistSpawnPointTag_NodeType: questIMultiplayerHeistNodeType
 ---@field public spawnPointTag CName

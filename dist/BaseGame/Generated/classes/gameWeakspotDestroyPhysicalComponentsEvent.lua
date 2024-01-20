@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameWeakspotDestroyPhysicalComponentsEvent: redEvent
 ---@field public components gameWeakspotPhysicalDestructionComponent[]

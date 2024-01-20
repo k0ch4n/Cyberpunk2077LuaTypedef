@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HUDActorUpdateData: IScriptable
 ---@field public updateVisibility Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataReactionPresetType: Enum
 ---@field Cerberus_Aggressive Enum 0

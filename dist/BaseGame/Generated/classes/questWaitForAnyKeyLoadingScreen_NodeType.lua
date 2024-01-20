@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questWaitForAnyKeyLoadingScreen_NodeType: questIUIManagerNodeType
 questWaitForAnyKeyLoadingScreen_NodeType = {}

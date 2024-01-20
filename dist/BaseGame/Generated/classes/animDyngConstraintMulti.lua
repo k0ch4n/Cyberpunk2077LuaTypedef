@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animDyngConstraintMulti: animIDyngConstraint
 ---@field public innerConstraints animIDyngConstraint[]

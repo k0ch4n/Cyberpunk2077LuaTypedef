@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRepellingShape: Enum
 ---@field Sphere Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTeleportPuppetParamsV1: questAICommandParams
 ---@field public destinationRef questUniversalRef

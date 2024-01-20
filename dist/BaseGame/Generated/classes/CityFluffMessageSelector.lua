@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CityFluffMessageSelector: ScreenMessageSelector
 ---@field private recordID TweakDBID

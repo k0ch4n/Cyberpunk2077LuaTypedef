@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TeleportDeviceOperation: DeviceOperationBase
 ---@field public teleport STeleportOperationData

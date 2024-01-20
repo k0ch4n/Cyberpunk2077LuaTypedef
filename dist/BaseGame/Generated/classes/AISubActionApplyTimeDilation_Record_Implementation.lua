@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionApplyTimeDilation_Record_Implementation: IScriptable
 AISubActionApplyTimeDilation_Record_Implementation = {}

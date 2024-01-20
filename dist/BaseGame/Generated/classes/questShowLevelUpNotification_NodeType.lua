@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowLevelUpNotification_NodeType: questIUIManagerNodeType
 ---@field public levelUpData questLevelUpData

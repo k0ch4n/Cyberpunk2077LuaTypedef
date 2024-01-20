@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorNaryOperatorExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 ---@field public operator AIbehaviorNaryExpressionOperators

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAIThreatCalculationType: Enum
 ---@field Regular Enum 0

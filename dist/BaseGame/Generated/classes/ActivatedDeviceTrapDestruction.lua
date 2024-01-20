@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActivatedDeviceTrapDestruction: ActivatedDeviceTrap
 ---@field protected physicalMeshNames CName[]

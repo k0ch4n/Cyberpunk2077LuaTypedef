@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamesmartGunTargetState: Enum
 ---@field Visible Enum 1

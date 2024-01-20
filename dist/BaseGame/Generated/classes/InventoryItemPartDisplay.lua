@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryItemPartDisplay: inkWidgetLogicController
 ---@field protected PartIconImage inkImageWidgetReference

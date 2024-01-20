@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorDelegateTaskDefinition: AIbehaviorTaskDefinition
 ---@field public onActivate AIbehaviorDelegateTaskRef

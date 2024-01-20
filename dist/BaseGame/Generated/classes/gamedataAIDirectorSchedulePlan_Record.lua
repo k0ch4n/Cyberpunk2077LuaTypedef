@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIDirectorSchedulePlan_Record: gamedataTweakDBRecord
 gamedataAIDirectorSchedulePlan_Record = {}

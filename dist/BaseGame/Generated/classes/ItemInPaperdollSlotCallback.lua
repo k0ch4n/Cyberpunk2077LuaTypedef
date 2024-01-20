@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemInPaperdollSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field protected paperdollPuppet gamePuppet

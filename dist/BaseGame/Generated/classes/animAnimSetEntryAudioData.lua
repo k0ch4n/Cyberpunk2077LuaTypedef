@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimSetEntryAudioData: ISerializable
 ---@field public events animAnimEvent[]

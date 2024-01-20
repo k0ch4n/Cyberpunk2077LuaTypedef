@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TogglePreventionGlobalQuestObjective: gameScriptableSystemRequest
 ---@field public preventionGlobalQuestDisabled Bool

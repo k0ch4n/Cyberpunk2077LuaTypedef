@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MinimalDistanceToLastKnownPosition: PreventionConditionAbstract
 ---@field public desiredDistanceArgument AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WeakspotOnDestroyEvent: redEvent
 ---@field public weakspotRecordData WeakspotRecordData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractionChoiceCaptionQuickhackCostPart: gameinteractionsChoiceCaptionScriptPart
 ---@field public cost Int32

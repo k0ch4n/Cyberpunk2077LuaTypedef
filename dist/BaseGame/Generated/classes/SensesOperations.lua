@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SensesOperations: DeviceOperations
 ---@field protected sensesOperations SSensesOperationData[]

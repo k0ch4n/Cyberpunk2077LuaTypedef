@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVarVsVarComparison_ConditionType: questIFactsDBConditionType
 ---@field public factName1 String

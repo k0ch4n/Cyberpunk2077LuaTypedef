@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageCounterController: gameuiWidgetGameController
 ---@field protected messageCounter inkTextWidgetReference

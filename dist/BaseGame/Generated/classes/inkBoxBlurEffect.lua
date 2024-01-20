@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkBoxBlurEffect: inkIEffect
 ---@field public samples Uint8

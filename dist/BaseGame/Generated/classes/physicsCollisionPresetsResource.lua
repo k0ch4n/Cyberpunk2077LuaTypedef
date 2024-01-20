@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsCollisionPresetsResource: ISerializable
 ---@field public presets physicsCollisionPresetDefinition[]

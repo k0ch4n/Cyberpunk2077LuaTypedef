@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VendorSellJunkPopupCloseData: inkGameNotificationData
 ---@field public confirm Bool

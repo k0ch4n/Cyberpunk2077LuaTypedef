@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleVehicleContactEvent: redEvent
 ---@field public otherVehicle gameObject

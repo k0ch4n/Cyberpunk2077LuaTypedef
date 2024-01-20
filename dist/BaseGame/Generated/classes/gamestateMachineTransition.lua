@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineTransition: graphGraphConnectionDefinition
 ---@field public transitionCondition gamestateMachineFunctor

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMuppetComparisonReportItemType: Enum
 ---@field Different Enum 0

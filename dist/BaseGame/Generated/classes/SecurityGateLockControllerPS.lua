@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGateLockControllerPS: ScriptableDeviceComponentPS
 ---@field public tresspasserList TrespasserEntry[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimWrapperVariableDescription
 ---@field public variableName CName

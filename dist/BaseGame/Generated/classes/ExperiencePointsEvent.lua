@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExperiencePointsEvent: redEvent
 ---@field public amount Int32

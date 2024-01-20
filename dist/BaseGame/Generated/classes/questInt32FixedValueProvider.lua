@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInt32FixedValueProvider: questIInt32ValueProvider
 ---@field public value Int32

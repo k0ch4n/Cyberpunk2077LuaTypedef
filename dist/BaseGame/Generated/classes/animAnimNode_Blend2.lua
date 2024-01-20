@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_Blend2: animAnimNode_Base
 ---@field public minInputValue Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleCrowdHit_ConditionType: questIVehicleConditionType
 ---@field public lethal Bool

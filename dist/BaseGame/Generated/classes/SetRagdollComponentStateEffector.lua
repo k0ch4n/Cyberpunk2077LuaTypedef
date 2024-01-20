@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetRagdollComponentStateEffector: gameEffector
 ---@field public state Bool

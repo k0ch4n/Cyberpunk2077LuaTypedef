@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeCTreeReference: ISerializable
 ---@field public TreeDefinition LibTreeCTreeResource

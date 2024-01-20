@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSpawnedVehicleType: Enum
 ---@field EntityReferenced Enum 0

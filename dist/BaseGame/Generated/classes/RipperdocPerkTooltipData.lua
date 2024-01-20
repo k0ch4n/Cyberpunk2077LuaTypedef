@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocPerkTooltipData: ATooltipData
 ---@field public ripperdocHoverState RipperdocHoverState

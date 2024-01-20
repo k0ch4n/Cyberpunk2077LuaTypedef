@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVideoSequenceEntry
 ---@field public videoResource Bink

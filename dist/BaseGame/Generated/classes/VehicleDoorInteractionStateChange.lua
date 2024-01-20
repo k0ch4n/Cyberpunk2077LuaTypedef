@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDoorInteractionStateChange: ActionBool
 ---@field public door vehicleEVehicleDoor

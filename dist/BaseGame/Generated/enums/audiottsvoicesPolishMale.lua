@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audiottsvoicesPolishMale: Enum
 ---@field Mateusz Enum 14

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGameNotificationData: inkUserData
 ---@field public notificationName CName

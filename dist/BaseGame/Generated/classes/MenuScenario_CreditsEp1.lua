@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_CreditsEp1: MenuScenario_PreGameSubMenu
 MenuScenario_CreditsEp1 = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldWorldListResource: CResource
 ---@field public worlds worldWorldListResourceEntry[]

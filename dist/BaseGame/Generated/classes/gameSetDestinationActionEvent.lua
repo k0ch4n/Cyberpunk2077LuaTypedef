@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSetDestinationActionEvent: gameActionEvent
 ---@field public position Vector3

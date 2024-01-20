@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsclothPhaseConfig
 ---@field public stiffness Float

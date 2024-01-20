@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ESecurityGateScannerIssueType: Enum
 ---@field NoIssues Enum 0

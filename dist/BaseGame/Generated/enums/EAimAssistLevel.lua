@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EAimAssistLevel: Enum
 ---@field Off Enum 0

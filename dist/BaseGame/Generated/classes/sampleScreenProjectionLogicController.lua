@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sampleScreenProjectionLogicController: inkWidgetLogicController
 ---@field private widgetPos inkTextWidget

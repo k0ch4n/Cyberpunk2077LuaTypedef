@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAimAssistConfigPreset_Record: gamedataTweakDBRecord
 gamedataAimAssistConfigPreset_Record = {}

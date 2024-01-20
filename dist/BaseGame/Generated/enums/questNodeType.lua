@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questNodeType: Enum
 ---@field Equip Enum 0

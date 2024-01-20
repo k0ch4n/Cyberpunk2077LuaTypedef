@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MadnessDebuff: redEvent
 ---@field public object gameObject

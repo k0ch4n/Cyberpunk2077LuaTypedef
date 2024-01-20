@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgEStyleAttributeType: Enum
 ---@field FillColor Enum 0

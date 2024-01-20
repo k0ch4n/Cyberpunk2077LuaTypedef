@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class appearanceAppearanceResource: resStreamedResource
 ---@field public alternateAppearanceSettingName CName

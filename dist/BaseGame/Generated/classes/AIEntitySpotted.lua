@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIEntitySpotted: AIAIEvent
 ---@field public spotter entEntity

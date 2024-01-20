@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmartHouseConfiguration
 ---@field public enableInteraction Bool

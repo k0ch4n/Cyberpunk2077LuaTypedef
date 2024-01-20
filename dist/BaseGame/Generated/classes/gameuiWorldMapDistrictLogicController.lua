@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiWorldMapDistrictLogicController: inkWidgetLogicController
 ---@field public record gamedataDistrict_Record

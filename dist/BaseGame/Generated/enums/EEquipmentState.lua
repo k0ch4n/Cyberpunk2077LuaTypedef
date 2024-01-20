@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EEquipmentState: Enum
 ---@field Unequipped Enum 0

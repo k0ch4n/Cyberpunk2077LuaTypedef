@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLocomotionStateEventDictionaryItem: audioInlinedAudioMetadata
 ---@field public key CName

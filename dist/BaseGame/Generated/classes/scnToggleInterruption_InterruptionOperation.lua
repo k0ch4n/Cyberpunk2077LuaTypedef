@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnToggleInterruption_InterruptionOperation: scnIInterruptionOperation
 ---@field public enable Bool

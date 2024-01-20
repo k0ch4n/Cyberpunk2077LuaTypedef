@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleCommandType: Enum
 ---@field ["Move On Spline"] Enum 0

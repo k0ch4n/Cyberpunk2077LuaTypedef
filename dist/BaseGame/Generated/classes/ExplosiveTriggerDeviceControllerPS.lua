@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveTriggerDeviceControllerPS: ExplosiveDeviceControllerPS
 ---@field private playerSafePass Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkGradientWidget: inkBaseShapeWidget
 ---@field public gradientMode inkGradientMode

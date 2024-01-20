@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatsUnit: ISerializable
 ---@field public recordID TweakDBID

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SampleUIButtons: inkWidgetLogicController
 ---@field private Button inkWidgetReference

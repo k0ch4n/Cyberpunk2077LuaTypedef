@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAdvertMetadata: audioEmitterMetadata
 ---@field public advertSoundNames CName[]

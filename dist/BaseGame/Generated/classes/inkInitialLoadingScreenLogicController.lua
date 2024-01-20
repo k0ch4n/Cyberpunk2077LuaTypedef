@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkInitialLoadingScreenLogicController: inkILoadingLogicController
 ---@field public skipButtonPanel inkWidgetReference

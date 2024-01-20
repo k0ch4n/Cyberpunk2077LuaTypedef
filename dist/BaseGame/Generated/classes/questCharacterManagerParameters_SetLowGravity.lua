@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterManagerParameters_SetLowGravity: questICharacterManagerParameters_NodeSubType
 ---@field public enable Bool

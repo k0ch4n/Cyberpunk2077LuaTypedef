@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IParticleDrawer: ISerializable
 ---@field public pivotOffset Float

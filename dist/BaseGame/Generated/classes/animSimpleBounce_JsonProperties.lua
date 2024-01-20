@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSimpleBounce_JsonProperties: ISerializable
 ---@field public multiplier Float

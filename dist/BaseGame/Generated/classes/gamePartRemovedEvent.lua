@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePartRemovedEvent: redEvent
 ---@field public itemID gameItemID

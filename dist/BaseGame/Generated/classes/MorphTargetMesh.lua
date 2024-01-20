@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MorphTargetMesh: resStreamedResource
 ---@field public baseMesh CMesh

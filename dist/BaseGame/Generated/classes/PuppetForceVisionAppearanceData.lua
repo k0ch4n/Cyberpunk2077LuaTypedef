@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PuppetForceVisionAppearanceData: IScriptable
 ---@field public highlightType EFocusForcedHighlightType

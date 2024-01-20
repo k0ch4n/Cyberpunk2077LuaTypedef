@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkDisplayContainerController: inkWidgetLogicController
 ---@field protected index Int32

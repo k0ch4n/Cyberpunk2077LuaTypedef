@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_CurveVectorValue: animAnimNode_VectorValue
 ---@field public curveData curveData

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIPatrolContinuationPolicy: Enum
 ---@field FromNextControlPoint Enum 0

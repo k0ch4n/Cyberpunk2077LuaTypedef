@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animFacialCustomizationSet: CResource
 ---@field public baseSetup animFacialSetup

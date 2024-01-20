@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEActionStatus: Enum
 ---@field STATUS_INVALID Enum 0

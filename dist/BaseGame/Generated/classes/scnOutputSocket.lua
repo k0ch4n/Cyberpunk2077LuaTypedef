@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOutputSocket
 ---@field public stamp scnOutputSocketStamp

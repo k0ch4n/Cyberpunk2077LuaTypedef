@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ImageSwappingController: inkWidgetLogicController
 ---@field public ImageWidgetPath String

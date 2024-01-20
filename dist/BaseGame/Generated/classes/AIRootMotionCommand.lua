@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIRootMotionCommand: AIMoveCommand
 ---@field public params gameSceneAnimationMotionActionParams

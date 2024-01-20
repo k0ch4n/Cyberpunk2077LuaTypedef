@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticVectorFieldNode: worldNode
 ---@field public direction Vector3

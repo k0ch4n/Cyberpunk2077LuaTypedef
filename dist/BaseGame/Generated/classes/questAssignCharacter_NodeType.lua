@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAssignCharacter_NodeType: questIVehicleManagerNodeType
 ---@field public characterRef gameEntityReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SharedMetaPose: animAnimNode_OnePoseInput
 ---@field public weightLink animFloatLink

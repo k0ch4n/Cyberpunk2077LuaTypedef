@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AssignHotkeyIfEmptySlot: gamePlayerScriptableSystemRequest
 ---@field private itemID gameItemID

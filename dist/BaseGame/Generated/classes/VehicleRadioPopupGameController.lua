@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleRadioPopupGameController: BaseModalListPopupGameController
 ---@field private icon inkImageWidgetReference

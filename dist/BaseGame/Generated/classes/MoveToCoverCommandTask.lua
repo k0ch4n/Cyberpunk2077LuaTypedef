@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MoveToCoverCommandTask: AIbehaviortaskScript
 ---@field protected inCommand AIArgumentMapping

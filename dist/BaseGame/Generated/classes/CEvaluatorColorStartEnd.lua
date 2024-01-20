@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CEvaluatorColorStartEnd: IEvaluatorColor
 ---@field public start Color

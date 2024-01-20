@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxyTextureParams
 ---@field public exportVertexColor Bool

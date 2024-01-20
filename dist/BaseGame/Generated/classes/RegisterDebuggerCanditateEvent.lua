@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RegisterDebuggerCanditateEvent: redEvent
 ---@field public device Device

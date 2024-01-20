@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnregisterNetworkLinkBetweenTwoEntitiesRequest: gameScriptableSystemRequest
 ---@field public firstID entEntityID

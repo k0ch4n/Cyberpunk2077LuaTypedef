@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBraindanceDissolveComponent: entIComponent
 ---@field public dissolveRadius Float

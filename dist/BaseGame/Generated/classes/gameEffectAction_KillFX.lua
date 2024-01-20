@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectAction_KillFX: gameEffectAction
 ---@field public action gameEffectAction_KillFXAction

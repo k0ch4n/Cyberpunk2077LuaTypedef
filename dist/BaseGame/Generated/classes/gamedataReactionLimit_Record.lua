@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataReactionLimit_Record: gamedataTweakDBRecord
 gamedataReactionLimit_Record = {}

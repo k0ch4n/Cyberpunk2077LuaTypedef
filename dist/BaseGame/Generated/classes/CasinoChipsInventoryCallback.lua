@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CasinoChipsInventoryCallback: gameInventoryScriptCallback
 ---@field public casinoTableGameController CasinoTableGameController

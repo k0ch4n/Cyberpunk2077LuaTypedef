@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEventSide: Enum
 ---@field Left Enum 0

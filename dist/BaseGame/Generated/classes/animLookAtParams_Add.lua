@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLookAtParams_Add: ISerializable
 animLookAtParams_Add = {}

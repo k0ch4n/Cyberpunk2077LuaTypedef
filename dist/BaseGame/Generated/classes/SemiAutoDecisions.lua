@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SemiAutoDecisions: WeaponTransition
 ---@field public callBackID redCallbackObject

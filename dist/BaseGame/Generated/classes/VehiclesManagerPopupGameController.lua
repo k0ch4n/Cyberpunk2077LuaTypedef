@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehiclesManagerPopupGameController: BaseModalListPopupGameController
 ---@field private repairOverlay inkWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CharacterCreationGenderBackstoryPathHeader: inkWidgetLogicController
 ---@field public label inkTextWidgetReference

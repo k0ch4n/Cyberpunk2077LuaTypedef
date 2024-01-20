@@ -1,5 +1,4 @@
----@meta json
----@diagnostic disable
+---@meta
 
 ---@class json
 ---@field _version "0.1.2"

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIDrivePanicCommandHandler: AICommandHandlerBase
 ---@field protected outAllowSimplifiedMovement AIArgumentMapping

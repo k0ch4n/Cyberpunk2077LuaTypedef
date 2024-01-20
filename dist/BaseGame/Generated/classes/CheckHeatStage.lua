@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CheckHeatStage: PreventionConditionAbstract
 ---@field public heatStageToCompare AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsDistanceFromScreenCenterPredicate: gameinteractionsIPredicateType
 ---@field public height Float

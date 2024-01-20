@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankEnemyMovementType: Enum
 ---@field x_axis Enum 0

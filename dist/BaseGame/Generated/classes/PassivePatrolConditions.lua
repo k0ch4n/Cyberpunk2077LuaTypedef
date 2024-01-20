@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassivePatrolConditions: PassiveAutonomousCondition
 ---@field private roleCbId Uint32

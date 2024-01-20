@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DebugDataDef: gamebbScriptDefinition
 ---@field public WeaponSpread_EvenDistributionRowCount gamebbScriptID_Int32

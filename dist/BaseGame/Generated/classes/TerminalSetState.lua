@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TerminalSetState: redEvent
 ---@field public state gameinteractionsReactionState

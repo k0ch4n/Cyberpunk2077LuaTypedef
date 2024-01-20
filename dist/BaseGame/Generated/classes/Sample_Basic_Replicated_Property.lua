@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Basic_Replicated_Property
 ---@field public property Bool

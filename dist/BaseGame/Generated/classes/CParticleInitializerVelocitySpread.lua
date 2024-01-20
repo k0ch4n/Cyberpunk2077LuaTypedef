@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleInitializerVelocitySpread: IParticleInitializer
 ---@field public scale IEvaluatorFloat

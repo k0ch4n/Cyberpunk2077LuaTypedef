@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Multilayer_LayerTemplateOverridesLevels
 ---@field public n CName

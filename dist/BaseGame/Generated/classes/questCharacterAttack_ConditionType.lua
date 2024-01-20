@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterAttack_ConditionType: questICharacterConditionType
 ---@field public attackerRef gameEntityReference

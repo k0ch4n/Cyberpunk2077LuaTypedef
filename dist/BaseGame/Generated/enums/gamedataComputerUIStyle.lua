@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataComputerUIStyle: Enum
 ---@field DarkBlue Enum 0

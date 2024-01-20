@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EInputAction: Enum
 ---@field IACT_None Enum 0

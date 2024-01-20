@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLoopedSoundEmitterMetadata: audioEmitterMetadata
 ---@field public loopSound CName

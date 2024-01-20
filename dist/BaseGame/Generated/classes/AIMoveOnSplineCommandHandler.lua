@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMoveOnSplineCommandHandler: AICommandHandlerBase
 ---@field protected outSpline AIArgumentMapping

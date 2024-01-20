@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EntityAttachementRequestEvent: redEvent
 ---@field public attachementData EntityAttachementData

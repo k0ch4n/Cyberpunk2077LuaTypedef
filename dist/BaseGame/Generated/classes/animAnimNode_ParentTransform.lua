@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_ParentTransform: animAnimNode_OnePoseInput
 ---@field public mapping animAnimTransformMappingEntry[]

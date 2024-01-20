@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedebugFailureId
 ---@field public threadId Uint32

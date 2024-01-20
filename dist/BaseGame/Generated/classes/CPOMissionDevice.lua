@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CPOMissionDevice: gameObject
 ---@field protected compatibleDeviceName CName

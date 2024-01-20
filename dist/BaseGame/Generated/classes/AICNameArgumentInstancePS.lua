@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICNameArgumentInstancePS: AIArgumentInstancePS
 ---@field public value CName

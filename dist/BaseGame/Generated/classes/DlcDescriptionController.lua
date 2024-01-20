@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DlcDescriptionController: inkWidgetLogicController
 ---@field private titleRef inkTextWidgetReference

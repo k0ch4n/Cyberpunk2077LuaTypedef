@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyObjectActionEffector: gameEffector
 ---@field public actionID TweakDBID

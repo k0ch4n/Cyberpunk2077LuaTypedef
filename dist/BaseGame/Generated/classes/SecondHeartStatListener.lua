@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecondHeartStatListener: gameScriptStatsListener
 ---@field public player PlayerPuppet

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectProvider_PhysicalRayFan: gameEffectObjectProvider_PhysicalRay
 ---@field public inputMinRayAngleDiff gameEffectInputParameter_Float

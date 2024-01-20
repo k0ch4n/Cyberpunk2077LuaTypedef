@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnReminderConditionProcessStep: Enum
 ---@field ReminderA Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinUIParamGroup_Record: gamedataTweakDBRecord
 gamedataMappinUIParamGroup_Record = {}

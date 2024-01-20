@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitReactionBehaviorData: IScriptable
 ---@field public hitReactionType animHitReactionType

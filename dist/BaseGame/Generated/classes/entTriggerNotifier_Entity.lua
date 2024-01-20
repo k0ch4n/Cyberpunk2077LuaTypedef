@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entTriggerNotifier_Entity: worldITriggerAreaNotifer
 ---@field public entityRef NodeRef

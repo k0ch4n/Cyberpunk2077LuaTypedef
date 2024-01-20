@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScannerVehicleHorsepower: ScannerChunk
 ---@field private horsepower Int32

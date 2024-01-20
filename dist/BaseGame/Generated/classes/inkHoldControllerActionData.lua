@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkHoldControllerActionData: inkUserData
 ---@field public actionName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityTurret: SensorDevice
 ---@field private animFeature AnimFeature_SecurityTurretData

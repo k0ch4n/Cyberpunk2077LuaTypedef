@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AOEAreaControllerPS: MasterControllerPS
 ---@field private AOEAreaSetup AOEAreaSetup

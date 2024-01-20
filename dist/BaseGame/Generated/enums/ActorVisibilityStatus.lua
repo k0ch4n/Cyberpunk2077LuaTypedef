@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActorVisibilityStatus: Enum
 ---@field OUTSIDE_CAMERA Enum 0

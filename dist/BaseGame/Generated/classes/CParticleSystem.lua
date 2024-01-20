@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CParticleSystem: resStreamedResource
 ---@field public visibleThroughWalls Bool

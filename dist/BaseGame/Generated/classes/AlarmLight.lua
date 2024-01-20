@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AlarmLight: BasicDistractionDevice
 ---@field protected isGlitching Bool

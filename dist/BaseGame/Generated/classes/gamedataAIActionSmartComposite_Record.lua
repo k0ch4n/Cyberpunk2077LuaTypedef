@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionSmartComposite_Record: gamedataAIRecord_Record
 gamedataAIActionSmartComposite_Record = {}

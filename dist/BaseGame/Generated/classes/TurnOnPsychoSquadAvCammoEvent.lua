@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TurnOnPsychoSquadAvCammoEvent: gameScriptableSystemRequest
 ---@field public go gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BunkerSystems: Enum
 ---@field ALPHA Enum 0

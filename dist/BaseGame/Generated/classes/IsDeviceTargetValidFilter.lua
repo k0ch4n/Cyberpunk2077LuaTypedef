@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsDeviceTargetValidFilter: gameEffectObjectSingleFilter_Scripted
 IsDeviceTargetValidFilter = {}

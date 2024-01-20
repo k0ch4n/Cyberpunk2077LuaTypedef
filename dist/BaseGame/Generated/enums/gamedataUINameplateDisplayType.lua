@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUINameplateDisplayType: Enum
 ---@field AfterScan Enum 0

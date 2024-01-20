@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISpiderbotCheckIfFriendlyMoved: AIAutonomousConditions
 ---@field public maxAllowedDelta AIArgumentMapping

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimSet: CResource
 ---@field public animations animAnimSetEntry[]

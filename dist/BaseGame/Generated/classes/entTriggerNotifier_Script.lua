@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entTriggerNotifier_Script: worldITriggerAreaNotifer
 entTriggerNotifier_Script = {}

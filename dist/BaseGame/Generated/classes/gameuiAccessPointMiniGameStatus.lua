@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiAccessPointMiniGameStatus: redEvent
 ---@field public minigameState gameuiHackingMinigameState

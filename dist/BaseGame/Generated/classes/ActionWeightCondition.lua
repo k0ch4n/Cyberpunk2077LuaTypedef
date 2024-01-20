@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionWeightCondition: AIbehaviorconditionScript
 ---@field public selectedActionIndex AIArgumentMapping

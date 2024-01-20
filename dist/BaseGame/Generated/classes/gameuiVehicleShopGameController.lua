@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiVehicleShopGameController: gameuiWidgetGameController
 ---@field private homePage inkWidgetReference

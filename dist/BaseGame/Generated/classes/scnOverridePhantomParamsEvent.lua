@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnOverridePhantomParamsEvent: scnSceneEvent
 ---@field public params scnOverridePhantomParamsEventParams

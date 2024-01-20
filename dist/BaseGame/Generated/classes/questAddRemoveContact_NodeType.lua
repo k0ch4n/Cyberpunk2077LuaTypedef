@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAddRemoveContact_NodeType: questIPhoneManagerNodeType
 ---@field public params questChangeContactList_NodeTypeParams[]

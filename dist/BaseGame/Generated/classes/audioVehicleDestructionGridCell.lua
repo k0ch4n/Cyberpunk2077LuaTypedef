@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioVehicleDestructionGridCell
 ---@field public impactEvent CName

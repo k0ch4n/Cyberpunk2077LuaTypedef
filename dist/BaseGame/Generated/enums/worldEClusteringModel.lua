@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEClusteringModel: Enum
 ---@field HierarchicalGrid Enum 0

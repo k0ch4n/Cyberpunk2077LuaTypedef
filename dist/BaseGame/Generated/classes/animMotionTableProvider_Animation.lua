@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animMotionTableProvider_Animation: animIMotionTableProvider
 animMotionTableProvider_Animation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HighlightConnectionsRequest: gameScriptableSystemRequest
 ---@field public shouldHighlight Bool

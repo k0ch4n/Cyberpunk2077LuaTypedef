@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopGraphConnectionCreationData
 ---@field public data String

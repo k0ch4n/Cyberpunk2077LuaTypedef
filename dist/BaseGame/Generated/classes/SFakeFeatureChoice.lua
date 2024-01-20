@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SFakeFeatureChoice
 ---@field public choiceID String

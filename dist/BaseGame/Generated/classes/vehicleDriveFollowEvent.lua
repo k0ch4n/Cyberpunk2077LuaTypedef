@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleDriveFollowEvent: redEvent
 ---@field public targetObjToFollow gameObject

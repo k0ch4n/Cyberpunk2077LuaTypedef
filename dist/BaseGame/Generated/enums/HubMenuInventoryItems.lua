@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuInventoryItems: Enum
 ---@field Gear Enum 0

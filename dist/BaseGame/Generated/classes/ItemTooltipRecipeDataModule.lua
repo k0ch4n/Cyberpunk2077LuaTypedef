@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemTooltipRecipeDataModule: ItemTooltipModuleController
 ---@field private randomQualityLabel inkTextWidgetReference

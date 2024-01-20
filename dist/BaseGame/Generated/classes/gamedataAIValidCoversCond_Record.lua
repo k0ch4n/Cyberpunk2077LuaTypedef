@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIValidCoversCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIValidCoversCond_Record = {}

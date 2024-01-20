@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCombatNodeParams_UseCover: questCombatNodeParams
 ---@field public cover NodeRef

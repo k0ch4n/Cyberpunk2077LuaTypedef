@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameComponent: entIComponent
 ---@field public persistentState gamePersistentState

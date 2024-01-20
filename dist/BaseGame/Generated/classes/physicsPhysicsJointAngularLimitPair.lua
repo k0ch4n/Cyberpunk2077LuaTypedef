@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointAngularLimitPair: physicsPhysicsJointLimitBase
 ---@field public twist physicsPhysicsJointMotion

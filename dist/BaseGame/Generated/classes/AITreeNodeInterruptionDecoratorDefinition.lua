@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITreeNodeInterruptionDecoratorDefinition: AICTreeNodeDecoratorDefinition
 ---@field public interruptions AIInterruptionHandlerDefinition[]

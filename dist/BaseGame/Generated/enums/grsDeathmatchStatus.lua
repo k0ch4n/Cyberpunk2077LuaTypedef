@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class grsDeathmatchStatus: Enum
 ---@field Waiting Enum 0

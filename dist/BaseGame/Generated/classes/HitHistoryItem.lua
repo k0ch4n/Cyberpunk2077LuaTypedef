@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitHistoryItem
 ---@field public instigator gameObject

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorkspotMapperComponent: gameScriptableComponent
 ---@field public workspotsMap WorkspotMapData[]

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CPOVotingDevice: CPOMissionDevice
 ---@field protected deviceName CName

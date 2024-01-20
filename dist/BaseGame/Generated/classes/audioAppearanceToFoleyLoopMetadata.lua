@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAppearanceToFoleyLoopMetadata
 ---@field public appearances CName[]

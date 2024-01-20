@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTextKiroshiAnimationController: inkTextAnimationController
 ---@field public timeToSkip Float

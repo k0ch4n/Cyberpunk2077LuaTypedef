@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickMeleeHitExecutor: gameEffectExecutor_Scripted
 QuickMeleeHitExecutor = {}

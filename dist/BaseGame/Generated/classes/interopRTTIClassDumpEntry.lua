@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class interopRTTIClassDumpEntry
 ---@field public i Int32

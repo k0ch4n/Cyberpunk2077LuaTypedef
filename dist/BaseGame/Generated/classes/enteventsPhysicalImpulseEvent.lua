@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsPhysicalImpulseEvent: redEvent
 ---@field public bodyIndex Uint32

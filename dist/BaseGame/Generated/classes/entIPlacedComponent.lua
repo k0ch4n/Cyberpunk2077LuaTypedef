@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entIPlacedComponent: entIComponent
 ---@field public localTransform WorldTransform

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsTargetFilter_Logical: gametargetingSystemTargetFilter_Closest
 gameinteractionsTargetFilter_Logical = {}

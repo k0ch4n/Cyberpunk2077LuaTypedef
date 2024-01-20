@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemPointLight: effectTrackItem
 ---@field public tint effectEffectParameterEvaluatorColor

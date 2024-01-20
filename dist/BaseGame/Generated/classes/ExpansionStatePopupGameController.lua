@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExpansionStatePopupGameController: gameuiWidgetGameController
 ---@field private statusRef inkTextWidgetReference

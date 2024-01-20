@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIThreatPersistenceSource: Enum
 ---@field AddThreat Enum 0

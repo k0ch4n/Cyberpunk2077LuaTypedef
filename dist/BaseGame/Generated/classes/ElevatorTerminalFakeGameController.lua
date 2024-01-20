@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ElevatorTerminalFakeGameController: DeviceInkGameControllerBase
 ---@field private elevatorTerminalWidget inkCanvasWidgetReference

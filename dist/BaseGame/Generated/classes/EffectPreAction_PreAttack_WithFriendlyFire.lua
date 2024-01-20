@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectPreAction_PreAttack_WithFriendlyFire: EffectPreAction_PreAttack
 EffectPreAction_PreAttack_WithFriendlyFire = {}

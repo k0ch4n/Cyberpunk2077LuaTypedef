@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiGenericNotificationReceiverGameController: gameuiWidgetGameController
 ---@field public ItemChanged inkEmptyCallback

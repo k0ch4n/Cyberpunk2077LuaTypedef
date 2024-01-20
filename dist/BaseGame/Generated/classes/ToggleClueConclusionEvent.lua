@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleClueConclusionEvent: redEvent
 ---@field public toggleConclusion Bool

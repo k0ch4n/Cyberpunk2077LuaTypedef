@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SmokeMachine: BasicDistractionDevice
 ---@field protected areaComponent gameStaticTriggerAreaComponent

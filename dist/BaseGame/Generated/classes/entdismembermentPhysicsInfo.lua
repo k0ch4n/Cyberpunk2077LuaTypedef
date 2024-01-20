@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entdismembermentPhysicsInfo
 ---@field public DensityScale Float

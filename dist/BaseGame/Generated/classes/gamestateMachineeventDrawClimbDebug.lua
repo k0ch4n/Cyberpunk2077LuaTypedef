@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventDrawClimbDebug: redEvent
 gamestateMachineeventDrawClimbDebug = {}

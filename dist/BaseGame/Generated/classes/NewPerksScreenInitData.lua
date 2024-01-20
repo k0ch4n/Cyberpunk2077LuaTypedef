@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksScreenInitData: IScriptable
 ---@field public stat gamedataStatType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questQuickItemsSet: Enum
 ---@field Q001_Kereznikov_Heal_Phone Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UnregisterReactionAction: AIbehaviortaskScript
 ---@field public reactionName CName

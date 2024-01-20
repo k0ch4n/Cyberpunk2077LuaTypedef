@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnlocLocStoreEmbeddedVariantPayloadEntry
 ---@field public variantId scnlocVariantId

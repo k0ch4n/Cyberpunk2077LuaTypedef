@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entAnimParamSlotFunction: Enum
 ---@field RenderingPlane Enum 0

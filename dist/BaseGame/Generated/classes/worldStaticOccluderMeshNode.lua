@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticOccluderMeshNode: worldNode
 ---@field public occluderType visWorldOccluderType

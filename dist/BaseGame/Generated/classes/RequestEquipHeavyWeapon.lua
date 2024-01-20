@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestEquipHeavyWeapon: redEvent
 ---@field public itemID gameItemID

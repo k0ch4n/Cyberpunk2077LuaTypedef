@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNodeSourceChannel_FloatTrack: animIAnimNodeSourceChannel_Float
 ---@field public floatTrack animNamedTrackIndex

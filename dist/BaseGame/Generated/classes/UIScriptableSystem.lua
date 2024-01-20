@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIScriptableSystem: gameScriptableSystem
 ---@field private backpackActiveSorting Int32

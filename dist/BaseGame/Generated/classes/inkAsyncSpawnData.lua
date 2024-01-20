@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkAsyncSpawnData: IScriptable
 ---@field public libraryID CName

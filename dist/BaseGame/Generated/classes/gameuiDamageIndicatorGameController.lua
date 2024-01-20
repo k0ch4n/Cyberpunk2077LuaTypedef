@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDamageIndicatorGameController: gameuiHUDGameController
 ---@field public maxVisibleParts Uint8

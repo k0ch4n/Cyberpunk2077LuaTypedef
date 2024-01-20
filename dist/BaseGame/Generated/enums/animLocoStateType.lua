@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animLocoStateType: Enum
 ---@field LS_Pre Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraTagLimitData: IScriptable
 ---@field public add Bool

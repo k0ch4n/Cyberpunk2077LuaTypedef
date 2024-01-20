@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StopCallReinforcements: AIbehaviortaskScript
 ---@field protected puppet ScriptedPuppet

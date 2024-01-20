@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDismWoundType: Enum
 ---@field CLEAN Enum 1

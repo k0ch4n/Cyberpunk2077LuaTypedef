@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsBumpType: Enum
 ---@field Workspot Enum 0

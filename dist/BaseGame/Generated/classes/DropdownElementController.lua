@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DropdownElementController: BaseButtonView
 ---@field protected text inkTextWidgetReference

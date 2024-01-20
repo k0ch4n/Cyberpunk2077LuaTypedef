@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_MotionAdjuster: animAnimNode_Base
 ---@field public inputNode animPoseLink

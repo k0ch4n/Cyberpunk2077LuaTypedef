@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WoundedInstigated: redEvent
 ---@field public bodyPart EHitReactionZone

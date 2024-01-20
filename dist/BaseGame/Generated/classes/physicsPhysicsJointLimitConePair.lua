@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsPhysicsJointLimitConePair: physicsPhysicsJointLimitBase
 ---@field public swingY physicsPhysicsJointMotion

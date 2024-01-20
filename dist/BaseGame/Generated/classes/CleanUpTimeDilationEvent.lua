@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CleanUpTimeDilationEvent: redEvent
 ---@field public reason CName

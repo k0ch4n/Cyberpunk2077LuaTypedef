@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRacingMappin_Record: gamedataTweakDBRecord
 gamedataRacingMappin_Record = {}

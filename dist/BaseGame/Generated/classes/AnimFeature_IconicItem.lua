@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_IconicItem: animAnimFeature
 ---@field public isScanning Bool

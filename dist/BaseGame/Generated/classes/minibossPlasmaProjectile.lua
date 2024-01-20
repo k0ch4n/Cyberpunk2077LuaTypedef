@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class minibossPlasmaProjectile: BaseProjectile
 ---@field private countTime Float

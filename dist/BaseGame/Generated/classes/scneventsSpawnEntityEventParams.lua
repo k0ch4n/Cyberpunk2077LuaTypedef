@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsSpawnEntityEventParams
 ---@field public performer scnPerformerId

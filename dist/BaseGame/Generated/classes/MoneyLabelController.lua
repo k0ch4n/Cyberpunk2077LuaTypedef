@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MoneyLabelController: inkTextValueProgressAnimationController
 ---@field private animation inkanimProxy

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class piercingGrenade: BaseProjectile
 ---@field private piercingEffect gameEffectRef

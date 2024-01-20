@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HitIsRarityPrereq: GenericHitPrereq
 ---@field public invert Bool

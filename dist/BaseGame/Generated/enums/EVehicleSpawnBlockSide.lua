@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EVehicleSpawnBlockSide: Enum
 ---@field Front Enum 0

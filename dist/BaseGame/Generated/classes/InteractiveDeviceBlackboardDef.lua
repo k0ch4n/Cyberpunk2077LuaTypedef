@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InteractiveDeviceBlackboardDef: DeviceBaseBlackboardDef
 ---@field public showAd gamebbScriptID_Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PocketRadio: IScriptable
 ---@field private player PlayerPuppet

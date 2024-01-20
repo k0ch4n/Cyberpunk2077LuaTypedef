@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataHitPrereqConditionType: Enum
 ---@field AgentMoving Enum 0

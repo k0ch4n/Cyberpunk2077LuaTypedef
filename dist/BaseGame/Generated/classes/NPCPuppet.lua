@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCPuppet: ScriptedPuppet
 ---@field private lastHitEvent gameeventsHitEvent

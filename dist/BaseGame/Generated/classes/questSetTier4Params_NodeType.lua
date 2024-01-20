@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetTier4Params_NodeType: questISceneManagerNodeType
 ---@field public objectRef NodeRef

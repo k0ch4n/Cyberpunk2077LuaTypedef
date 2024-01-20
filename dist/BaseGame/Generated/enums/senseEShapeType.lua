@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseEShapeType: Enum
 ---@field INVALID Enum -1

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChargeIndicatorWidgetType: Enum
 ---@field INVALID Enum 0

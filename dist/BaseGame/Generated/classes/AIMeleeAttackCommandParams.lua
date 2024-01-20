@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIMeleeAttackCommandParams: questScriptedAICommandParams
 ---@field public targetOverrideNodeRef NodeRef

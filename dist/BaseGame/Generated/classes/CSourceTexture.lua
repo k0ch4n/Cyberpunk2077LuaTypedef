@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CSourceTexture: ISerializable
 ---@field public width Uint32

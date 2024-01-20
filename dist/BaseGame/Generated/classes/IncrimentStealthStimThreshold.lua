@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IncrimentStealthStimThreshold: AIbehaviortaskScript
 ---@field public thresholdTimeout Float

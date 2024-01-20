@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_Climb: animAnimFeature
 ---@field public verticalPosition Vector4

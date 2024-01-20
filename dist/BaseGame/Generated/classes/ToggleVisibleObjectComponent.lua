@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleVisibleObjectComponent: StatusEffectTasks
 ---@field public componentTargetState Bool

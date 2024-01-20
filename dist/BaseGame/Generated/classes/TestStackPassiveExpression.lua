@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TestStackPassiveExpression: AIbehaviorStackScriptPassiveExpressionDefinition
 ---@field public SomeNameProperty CName

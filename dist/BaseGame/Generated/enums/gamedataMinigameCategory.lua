@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMinigameCategory: Enum
 ---@field CameraAccess Enum 0

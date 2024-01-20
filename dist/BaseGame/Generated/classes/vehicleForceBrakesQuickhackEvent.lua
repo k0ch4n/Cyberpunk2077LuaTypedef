@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleForceBrakesQuickhackEvent: gameActionEvent
 ---@field public alarmDuration Float

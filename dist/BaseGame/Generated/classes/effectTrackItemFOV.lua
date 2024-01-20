@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectTrackItemFOV: effectTrackItem
 ---@field public FOV effectEffectParameterEvaluatorFloat

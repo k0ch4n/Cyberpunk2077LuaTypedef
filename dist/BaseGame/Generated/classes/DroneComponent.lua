@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DroneComponent: gameScriptableComponent
 ---@field private senseComponent senseComponent

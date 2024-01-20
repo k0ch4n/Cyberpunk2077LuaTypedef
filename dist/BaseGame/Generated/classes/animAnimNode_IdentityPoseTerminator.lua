@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_IdentityPoseTerminator: animAnimNode_Base
 animAnimNode_IdentityPoseTerminator = {}

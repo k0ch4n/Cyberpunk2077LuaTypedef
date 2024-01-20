@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorChangeGuardAreaTaskDefinition: AIbehaviorTaskDefinition
 ---@field public guardAreaNodeRef AIArgumentMapping

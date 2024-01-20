@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CrosshairGameController_Jailbreak_Power: gameuiCrosshairBaseGameController
 CrosshairGameController_Jailbreak_Power = {}

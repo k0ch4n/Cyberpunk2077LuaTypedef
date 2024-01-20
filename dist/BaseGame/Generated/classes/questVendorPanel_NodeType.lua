@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVendorPanel_NodeType: questIUIManagerNodeType
 ---@field public scenarioName CName

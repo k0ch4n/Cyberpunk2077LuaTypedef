@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickWheelStartUIStructure
 ---@field public WheelItems QuickSlotCommand[]

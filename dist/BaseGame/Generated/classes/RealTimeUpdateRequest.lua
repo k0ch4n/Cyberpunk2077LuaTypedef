@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RealTimeUpdateRequest: gameScriptableSystemRequest
 ---@field public evt gameTickableEvent

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GogRewardsGroupController: inkWidgetLogicController
 ---@field private label inkTextWidgetReference

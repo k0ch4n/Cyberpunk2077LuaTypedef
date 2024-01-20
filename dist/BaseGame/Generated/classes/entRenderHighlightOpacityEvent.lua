@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRenderHighlightOpacityEvent: redEvent
 ---@field public opacity Float

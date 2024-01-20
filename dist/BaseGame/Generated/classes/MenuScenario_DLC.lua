@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MenuScenario_DLC: MenuScenario_PreGameSubMenu
 MenuScenario_DLC = {}

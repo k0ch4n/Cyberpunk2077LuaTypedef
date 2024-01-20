@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageDescTooltip: MessageTooltip
 ---@field protected titleWrapper inkWidgetReference

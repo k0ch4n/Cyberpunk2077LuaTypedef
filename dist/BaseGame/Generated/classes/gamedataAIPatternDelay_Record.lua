@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIPatternDelay_Record: gamedataTweakDBRecord
 gamedataAIPatternDelay_Record = {}

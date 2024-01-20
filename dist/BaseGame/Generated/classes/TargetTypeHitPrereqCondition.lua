@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field public targetType CName

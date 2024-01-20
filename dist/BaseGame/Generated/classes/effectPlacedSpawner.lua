@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class effectPlacedSpawner: effectSpawner
 ---@field public placement effectIPlacementEntries

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneCustomData_RainMap: SceneCustomData_DistantShadowsCommon
 SceneCustomData_RainMap = {}

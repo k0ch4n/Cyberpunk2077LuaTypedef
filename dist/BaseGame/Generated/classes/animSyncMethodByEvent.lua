@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animSyncMethodByEvent: animISyncMethod
 ---@field public eventName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PowerUpCyberwareEffector: gameEffector
 ---@field public targetEquipArea gamedataEquipmentArea

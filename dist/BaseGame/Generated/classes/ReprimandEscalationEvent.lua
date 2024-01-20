@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReprimandEscalationEvent: redEvent
 ---@field public startReprimand Bool

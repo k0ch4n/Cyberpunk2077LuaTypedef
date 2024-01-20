@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkSaveType: Enum
 ---@field ManualSave Enum 0

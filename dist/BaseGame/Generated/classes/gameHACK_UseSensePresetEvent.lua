@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameHACK_UseSensePresetEvent: redEvent
 ---@field public sensePreset TweakDBID

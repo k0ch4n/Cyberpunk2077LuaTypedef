@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VentilationAreaControllerPS: MasterControllerPS
 ---@field private ventilationAreaSetup VentilationAreaSetup

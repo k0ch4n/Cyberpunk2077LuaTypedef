@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionConsoleInstructionRequest: gameScriptableSystemRequest
 ---@field public instruction EPreventionSystemInstruction

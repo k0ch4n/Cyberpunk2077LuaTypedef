@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ItemAddedInventoryCallback: gameInventoryScriptCallback
 ---@field public notificationQueue ItemsNotificationQueue

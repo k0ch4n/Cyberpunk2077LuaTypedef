@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class garmentMeshParamGarmentChunkData
 ---@field public numVertices Uint32

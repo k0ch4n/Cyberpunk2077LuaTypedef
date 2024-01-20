@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Stillage: InteractiveDevice
 ---@field private collider entIPlacedComponent

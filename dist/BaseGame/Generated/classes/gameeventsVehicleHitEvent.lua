@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsVehicleHitEvent: gameeventsHitEvent
 ---@field public vehicleVelocity Vector4

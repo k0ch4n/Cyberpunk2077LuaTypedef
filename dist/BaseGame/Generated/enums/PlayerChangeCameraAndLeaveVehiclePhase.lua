@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerChangeCameraAndLeaveVehiclePhase: Enum
 ---@field ToggleCamera Enum 0

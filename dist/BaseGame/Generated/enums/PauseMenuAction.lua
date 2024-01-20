@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PauseMenuAction: Enum
 ---@field OpenSubMenu Enum 0

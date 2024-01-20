@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataNPCTypePrereq_Record: gamedataIPrereq_Record
 gamedataNPCTypePrereq_Record = {}

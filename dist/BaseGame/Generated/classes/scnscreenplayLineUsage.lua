@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnscreenplayLineUsage
 ---@field public playerGenderMask scnGenderMask

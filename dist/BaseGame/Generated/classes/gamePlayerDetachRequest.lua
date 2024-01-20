@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePlayerDetachRequest: gamePlayerScriptableSystemRequest
 ---@field public ownerID entEntityID

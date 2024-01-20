@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSpawnComponent: entIPlacedComponent
 ---@field public spawnOffset Vector3

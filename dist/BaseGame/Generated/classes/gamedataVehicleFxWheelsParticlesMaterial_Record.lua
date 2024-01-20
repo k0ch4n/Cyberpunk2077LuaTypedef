@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataVehicleFxWheelsParticlesMaterial_Record: gamedataTweakDBRecord
 gamedataVehicleFxWheelsParticlesMaterial_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataModifyStaminaHandlerEffector_Record: gamedataEffector_Record
 gamedataModifyStaminaHandlerEffector_Record = {}

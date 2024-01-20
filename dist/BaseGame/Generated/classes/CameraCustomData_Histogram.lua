@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CameraCustomData_Histogram: ICameraStorageCustomData
 CameraCustomData_Histogram = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkTutorialOverlayInputRequest: redEvent
 ---@field public isInputRequested Bool

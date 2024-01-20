@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAnimationOverrideDictionary: audioInlinedAudioMetadata
 ---@field public entries audioAnimationOverrideDictionaryItem[]

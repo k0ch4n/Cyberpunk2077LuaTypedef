@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questUIElement_ConditionType: questIUIConditionType
 ---@field public element TweakDBID

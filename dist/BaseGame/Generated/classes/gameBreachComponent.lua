@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameBreachComponent: entIPlacedComponent
 ---@field public radius Float

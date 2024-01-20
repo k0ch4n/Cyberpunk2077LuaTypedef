@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldVehicleForbiddenAreaNotifier: worldITriggerAreaNotifer
 ---@field public innerAreaBoundToOuterArea Bool

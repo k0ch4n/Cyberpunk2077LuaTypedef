@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MessageViewType: Enum
 ---@field Sent Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vehicleAIMountedE3Hack: redEvent
 vehicleAIMountedE3Hack = {}

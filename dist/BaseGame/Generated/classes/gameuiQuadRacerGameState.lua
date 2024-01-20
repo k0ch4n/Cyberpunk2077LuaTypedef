@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiQuadRacerGameState: gameuiMinigameState
 ---@field public timeLeft Float

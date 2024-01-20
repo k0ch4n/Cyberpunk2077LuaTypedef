@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NewPerksSkillLevelLogicController: inkWidgetLogicController
 ---@field private levelText inkTextWidgetReference

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataApplyStatGroupEffector_Record: gamedataEffector_Record
 gamedataApplyStatGroupEffector_Record = {}

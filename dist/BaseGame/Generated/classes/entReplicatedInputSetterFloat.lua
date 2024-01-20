@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entReplicatedInputSetterFloat: entReplicatedInputSetterBase
 ---@field public value Float

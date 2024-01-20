@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSDOClickedRequest: gameScriptableSystemRequest
 ---@field public fullPath CName

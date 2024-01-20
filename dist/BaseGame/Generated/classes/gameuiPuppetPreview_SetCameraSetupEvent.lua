@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPuppetPreview_SetCameraSetupEvent: redEvent
 ---@field public setupIndex Uint32

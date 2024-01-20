@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SprintDecisions: LocomotionGroundDecisions
 ---@field private sprintPressed Bool

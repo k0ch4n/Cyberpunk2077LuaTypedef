@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisassemblableComponent: gameScriptableComponent
 ---@field private disassembled Bool

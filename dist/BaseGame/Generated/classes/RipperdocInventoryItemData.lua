@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocInventoryItemData: IScriptable
 ---@field public InventoryItem gameInventoryItemData

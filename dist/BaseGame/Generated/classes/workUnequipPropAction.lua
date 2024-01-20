@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workUnequipPropAction: workIWorkspotItemAction
 ---@field public itemId CName

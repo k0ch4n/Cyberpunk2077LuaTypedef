@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameTrafficLaneSpanInfo
 ---@field public laneId worldTrafficLaneUID

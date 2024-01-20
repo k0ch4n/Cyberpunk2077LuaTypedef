@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Tech_Omaha: gameuiCrosshairBaseGameController
 ---@field private leftPart inkWidget

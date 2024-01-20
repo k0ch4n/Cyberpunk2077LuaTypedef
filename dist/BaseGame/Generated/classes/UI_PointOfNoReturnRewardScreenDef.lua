@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_PointOfNoReturnRewardScreenDef: gamebbScriptDefinition
 ---@field public Rewards gamebbScriptID_Variant

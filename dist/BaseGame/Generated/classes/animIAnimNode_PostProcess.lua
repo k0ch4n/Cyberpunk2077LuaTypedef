@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animIAnimNode_PostProcess: ISerializable
 ---@field public isEnabled Bool

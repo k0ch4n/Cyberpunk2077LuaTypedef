@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotKeyboardTap: redEvent
 ---@field public keyIndex Int32

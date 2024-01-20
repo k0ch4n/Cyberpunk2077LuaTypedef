@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioLimitedSoundType: Enum
 ---@field Locomotion Enum 0

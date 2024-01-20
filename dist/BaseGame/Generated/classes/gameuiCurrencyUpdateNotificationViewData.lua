@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiCurrencyUpdateNotificationViewData: gameuiGenericNotificationViewData
 ---@field public diff Int32

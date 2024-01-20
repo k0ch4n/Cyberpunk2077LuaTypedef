@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDamageIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
 ---@field public maxDistanceForSharedIndicators Float

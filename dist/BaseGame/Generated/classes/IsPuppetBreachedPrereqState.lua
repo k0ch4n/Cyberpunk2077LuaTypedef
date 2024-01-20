@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsPuppetBreachedPrereqState: gamePrereqState
 ---@field public psListener gameScriptedPrereqPSChangeListenerWrapper

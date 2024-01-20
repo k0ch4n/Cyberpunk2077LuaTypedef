@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuestListHeaderClicked: redEvent
 ---@field public questType Int32

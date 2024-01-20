@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetInspectStateEvent: redEvent
 ---@field public state questObjectInspectEventType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMaterialPriority: Enum
 ---@field EMP_Normal Enum 0

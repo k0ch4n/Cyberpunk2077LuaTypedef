@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EGravityType: Enum
 ---@field LowGravity Enum 0

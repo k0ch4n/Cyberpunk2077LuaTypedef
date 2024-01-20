@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TonemappingModeACES: ITonemappingMode
 ---@field public params STonemappingACESParams

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsJiraCommentIssueResult: ISerializable
 ---@field public errorMessages String[]

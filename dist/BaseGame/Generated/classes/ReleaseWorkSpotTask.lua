@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReleaseWorkSpotTask: WorkSpotTask
 ---@field public workspotRef NodeRef

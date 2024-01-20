@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerControlsDevicePrereq: gameIScriptablePrereq
 ---@field private inverse Bool

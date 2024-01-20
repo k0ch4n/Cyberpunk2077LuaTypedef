@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWorkspotCategory_Record: gamedataTweakDBRecord
 gamedataWorkspotCategory_Record = {}

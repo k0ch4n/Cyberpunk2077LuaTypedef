@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeshAppearanceDeviceOperation: DeviceOperationBase
 ---@field public meshesAppearence CName

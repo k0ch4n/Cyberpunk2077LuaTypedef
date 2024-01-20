@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioFoleyItemType: Enum
 ---@field Jacket Enum 0

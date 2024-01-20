@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamePingComponent: entIPlacedComponent
 ---@field public associatedPingType gamedataPingType

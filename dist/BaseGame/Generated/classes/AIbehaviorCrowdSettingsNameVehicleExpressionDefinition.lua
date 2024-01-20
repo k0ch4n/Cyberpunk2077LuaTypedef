@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCrowdSettingsNameVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
 ---@field public settingsName CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldEnvironmentDefinition: CResource
 ---@field public worldRenderSettings WorldRenderAreaSettings

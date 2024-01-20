@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workWorkspotItemOverridePropOverride
 ---@field public prevItemId CName

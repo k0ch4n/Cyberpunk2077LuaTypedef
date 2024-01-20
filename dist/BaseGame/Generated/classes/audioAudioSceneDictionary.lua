@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAudioSceneDictionary: audioInlinedAudioMetadata
 ---@field public entries audioAudioSceneDictionaryItem[]

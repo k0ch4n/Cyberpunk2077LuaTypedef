@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questGameTimeDelay_ConditionType: questITimeConditionType
 ---@field public days Uint32

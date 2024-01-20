@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PassiveAlertedConditions: PassiveAutonomousCondition
 ---@field protected highLevelCbId Uint32

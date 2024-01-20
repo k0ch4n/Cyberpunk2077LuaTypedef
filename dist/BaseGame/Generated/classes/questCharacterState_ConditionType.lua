@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterState_ConditionType: questICharacterConditionType
 ---@field public subType questICharacterConditionSubType

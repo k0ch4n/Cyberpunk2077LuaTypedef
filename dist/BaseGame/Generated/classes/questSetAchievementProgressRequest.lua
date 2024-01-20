@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questSetAchievementProgressRequest: gamePlayerScriptableSystemRequest
 ---@field public currentValue Int32

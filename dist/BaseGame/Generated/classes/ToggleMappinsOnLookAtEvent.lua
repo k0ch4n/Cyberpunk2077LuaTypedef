@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ToggleMappinsOnLookAtEvent: redEvent
 ---@field public state Bool

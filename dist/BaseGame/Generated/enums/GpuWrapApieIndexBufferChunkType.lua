@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GpuWrapApieIndexBufferChunkType: Enum
 ---@field IBCT_IndexUInt Enum 0

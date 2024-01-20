@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ERenderDynamicDecalProjection: Enum
 ---@field RDDP_Ortho Enum 0

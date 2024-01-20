@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorEntityLODConditions: Enum
 ---@field Crowd Enum 0

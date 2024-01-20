@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Codeware_UI_HubLinkButton: Codeware_UI_CustomButton
 ---@field public icon inkImageWidget

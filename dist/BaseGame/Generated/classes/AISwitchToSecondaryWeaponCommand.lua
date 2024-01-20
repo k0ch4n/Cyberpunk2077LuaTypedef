@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISwitchToSecondaryWeaponCommand: AICommand
 ---@field public unEquip Bool

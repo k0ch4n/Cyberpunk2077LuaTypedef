@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Sample_Replicated_THandle_Property
 ---@field public property Sample_Replicated_Serializable

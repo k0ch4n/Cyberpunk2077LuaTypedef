@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiHoldIndicatorGameController: gameuiWidgetGameController
 ---@field public HoldProgress gameuiHoldIndicatorProgressCallback

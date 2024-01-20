@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveTriggerDevice: ExplosiveDevice
 ---@field private meshTrigger entMeshComponent

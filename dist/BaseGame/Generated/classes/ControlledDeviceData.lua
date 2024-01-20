@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ControlledDeviceData: WidgetCustomData
 ---@field public isActive Bool

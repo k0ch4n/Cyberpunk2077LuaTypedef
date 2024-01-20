@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalTarot: gameJournalEntry
 ---@field public index Int32

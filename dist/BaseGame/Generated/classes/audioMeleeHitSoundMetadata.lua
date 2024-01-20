@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioMeleeHitSoundMetadata: audioAudioMetadata
 ---@field public meleeSoundsByMaterial audioMaterialMeleeSoundDictionary

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class BountyCollectedNotificationQueue: gameuiGenericNotificationGameController
 ---@field protected duration Float

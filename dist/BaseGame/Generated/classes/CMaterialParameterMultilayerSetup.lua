@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CMaterialParameterMultilayerSetup: CMaterialParameter
 ---@field public setup Multilayer_Setup

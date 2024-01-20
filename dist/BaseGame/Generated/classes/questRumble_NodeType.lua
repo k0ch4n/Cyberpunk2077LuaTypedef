@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questRumble_NodeType: questIGameManagerNonSignalStoppingNodeType
 ---@field public rumbleEvent CName

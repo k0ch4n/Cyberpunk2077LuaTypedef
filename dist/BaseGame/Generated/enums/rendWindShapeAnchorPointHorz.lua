@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class rendWindShapeAnchorPointHorz: Enum
 ---@field AP_CENTER Enum 0

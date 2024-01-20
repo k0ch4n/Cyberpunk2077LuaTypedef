@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameAIDirectorTensionEventType: Enum
 ---@field Time Enum 0

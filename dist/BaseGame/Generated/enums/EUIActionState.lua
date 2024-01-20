@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EUIActionState: Enum
 ---@field Invalid Enum 0

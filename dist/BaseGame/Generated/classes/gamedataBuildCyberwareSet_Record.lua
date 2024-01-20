@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataBuildCyberwareSet_Record: gamedataTweakDBRecord
 gamedataBuildCyberwareSet_Record = {}

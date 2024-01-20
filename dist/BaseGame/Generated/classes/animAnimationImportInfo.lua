@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimationImportInfo
 ---@field public AnimationType animAnimationType

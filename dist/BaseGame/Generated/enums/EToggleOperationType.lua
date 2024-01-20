@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EToggleOperationType: Enum
 ---@field ADD Enum 0

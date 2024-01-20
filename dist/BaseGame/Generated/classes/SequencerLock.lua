@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SequencerLock: redEvent
 ---@field public shouldLock Bool

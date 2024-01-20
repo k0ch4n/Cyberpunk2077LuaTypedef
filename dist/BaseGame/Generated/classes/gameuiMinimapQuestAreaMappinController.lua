@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiMinimapQuestAreaMappinController: gameuiBaseMinimapMappinController
 ---@field public areaShapeWidget inkShapeWidgetReference

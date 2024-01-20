@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Crosshair_Custom_HMG: gameuiCrosshairBaseGameController
 ---@field private leftPart inkWidgetReference

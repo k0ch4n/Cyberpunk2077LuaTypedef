@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCyberwareArea_Record: gamedataEquipmentArea_Record
 gamedataCyberwareArea_Record = {}

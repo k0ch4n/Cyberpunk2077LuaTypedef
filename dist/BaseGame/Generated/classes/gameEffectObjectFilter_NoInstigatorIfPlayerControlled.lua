@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectObjectFilter_NoInstigatorIfPlayerControlled: gameEffectObjectSingleFilter
 gameEffectObjectFilter_NoInstigatorIfPlayerControlled = {}

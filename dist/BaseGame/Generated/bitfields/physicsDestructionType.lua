@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@enum physicsDestructionType
 physicsDestructionType = {

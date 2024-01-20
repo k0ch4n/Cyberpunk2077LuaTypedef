@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_CameraRecoil: animAnimFeature
 ---@field public backward_offset Float

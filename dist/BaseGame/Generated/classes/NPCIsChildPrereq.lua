@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NPCIsChildPrereq: gameIScriptablePrereq
 ---@field public invert Bool

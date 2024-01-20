@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIDirectorEntryStartType_Record: gamedataTweakDBRecord
 gamedataAIDirectorEntryStartType_Record = {}

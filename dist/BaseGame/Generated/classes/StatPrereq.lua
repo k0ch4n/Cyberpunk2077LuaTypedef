@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPrereq: gameIScriptablePrereq
 ---@field public notifyOnAnyChange Bool

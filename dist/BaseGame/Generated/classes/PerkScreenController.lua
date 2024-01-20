@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerkScreenController: inkWidgetLogicController
 ---@field protected hubSelector inkWidgetReference

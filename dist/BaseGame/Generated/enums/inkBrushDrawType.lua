@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkBrushDrawType: Enum
 ---@field NoDraw Enum 0

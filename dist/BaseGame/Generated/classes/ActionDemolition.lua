@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ActionDemolition: ActionSkillCheck
 ---@field public slotID gamemountingMountingSlotId

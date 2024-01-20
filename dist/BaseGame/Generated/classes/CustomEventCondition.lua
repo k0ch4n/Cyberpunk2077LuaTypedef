@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CustomEventCondition: AISignalCondition
 ---@field public eventName CName

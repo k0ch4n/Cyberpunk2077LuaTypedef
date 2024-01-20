@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ForceUIRefreshEvent: redEvent
 ---@field public ownerID entEntityID

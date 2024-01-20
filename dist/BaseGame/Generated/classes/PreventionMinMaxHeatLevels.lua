@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionMinMaxHeatLevels: gameScriptableSystemRequest
 ---@field public minLvl Int32

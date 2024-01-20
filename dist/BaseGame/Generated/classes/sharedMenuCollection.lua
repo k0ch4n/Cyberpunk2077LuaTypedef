@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class sharedMenuCollection
 ---@field public items sharedMenuItem[]

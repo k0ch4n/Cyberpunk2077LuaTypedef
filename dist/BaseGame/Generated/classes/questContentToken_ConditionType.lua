@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questContentToken_ConditionType: questIContentConditionType
 ---@field public type questQuestContentType

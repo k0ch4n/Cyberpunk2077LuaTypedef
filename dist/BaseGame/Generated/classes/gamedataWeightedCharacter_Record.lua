@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataWeightedCharacter_Record: gamedataTweakDBRecord
 gamedataWeightedCharacter_Record = {}

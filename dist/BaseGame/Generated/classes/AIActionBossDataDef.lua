@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIActionBossDataDef: AIBlackboardDef
 ---@field public excludedWaypointPosition gamebbScriptID_Variant

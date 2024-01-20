@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class MeleeTargetingEvents: MeleeEventsTransition
 ---@field private aimInTimeRemaining Float

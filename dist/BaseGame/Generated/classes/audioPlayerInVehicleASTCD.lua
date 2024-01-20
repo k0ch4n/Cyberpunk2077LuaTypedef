@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioPlayerInVehicleASTCD: audioAudioStateTransitionConditionData
 ---@field public isInside Bool

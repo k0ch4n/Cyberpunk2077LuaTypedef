@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorIsInDesiredRangeConditionDefinition: AIbehaviorCompanionConditionDefinition
 ---@field public desiredDistance AIArgumentMapping

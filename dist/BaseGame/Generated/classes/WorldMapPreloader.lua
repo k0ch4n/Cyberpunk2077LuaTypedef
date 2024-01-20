@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class WorldMapPreloader: inkWidgetLogicController
 ---@field private splashAnim CName

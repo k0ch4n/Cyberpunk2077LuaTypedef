@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnRidAnimationContainerSRRefAnimContainerContext
 ---@field public genderMask scnGenderMask

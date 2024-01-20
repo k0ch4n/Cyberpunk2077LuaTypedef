@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questIEntityManager_NodeSubType: questObjectNodeType
 questIEntityManager_NodeSubType = {}

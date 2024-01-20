@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestDocumentWidgetUpdateEvent: RequestWidgetUpdateEvent
 ---@field public documentType EDocumentType

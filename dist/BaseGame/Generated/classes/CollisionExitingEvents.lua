@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CollisionExitingEvents: ImmediateExitWithForceEvents
 ---@field public animFeatureStatusEffect AnimFeature_StatusEffect

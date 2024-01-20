@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entRenderHighlightEvent: redEvent
 ---@field public fillIndex Uint8

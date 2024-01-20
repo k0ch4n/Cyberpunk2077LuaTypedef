@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeArcadeGameplayController: gameuiarcadeIArcadeScreenController
 ---@field public score inkWidgetReference

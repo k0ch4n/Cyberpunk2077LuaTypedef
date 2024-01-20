@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SubtitleLineLogicController: BaseSubtitleLineLogicController
 ---@field private speakerNameWidget inkTextWidgetReference

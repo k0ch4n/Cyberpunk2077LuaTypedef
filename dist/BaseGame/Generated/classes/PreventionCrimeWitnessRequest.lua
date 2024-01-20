@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionCrimeWitnessRequest: gameScriptableSystemRequest
 ---@field public criminalPosition Vector4

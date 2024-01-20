@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameSimpleScreenMessage
 ---@field public isShown Bool

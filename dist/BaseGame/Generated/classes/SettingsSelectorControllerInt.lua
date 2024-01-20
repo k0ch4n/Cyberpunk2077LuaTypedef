@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsSelectorControllerInt: SettingsSelectorControllerRange
 ---@field private newValue Int32

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryPartsData
 ---@field public SlotID TweakDBID

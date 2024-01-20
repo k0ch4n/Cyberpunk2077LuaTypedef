@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioRadioStationMetadataMap: audioAudioMetadata
 ---@field public radioStations CName[]

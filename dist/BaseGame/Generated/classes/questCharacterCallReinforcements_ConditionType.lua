@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCharacterCallReinforcements_ConditionType: questICharacterConditionType
 ---@field public puppetRef gameEntityReference

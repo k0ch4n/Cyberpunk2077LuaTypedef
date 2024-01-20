@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkHighwaySignLogicController: inkIStreetNameSignLogicController
 ---@field public districtName inkTextWidgetReference

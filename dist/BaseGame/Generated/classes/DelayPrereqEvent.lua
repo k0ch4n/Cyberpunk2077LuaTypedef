@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DelayPrereqEvent: redEvent
 ---@field public state GameTimePrereqState

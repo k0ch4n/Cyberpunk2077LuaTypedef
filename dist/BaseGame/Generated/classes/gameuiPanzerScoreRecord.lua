@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPanzerScoreRecord: inkWidgetLogicController
 ---@field public nameWidget inkTextWidgetReference

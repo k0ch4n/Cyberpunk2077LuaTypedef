@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITrackedStatusType: Enum
 ---@field Unknown Enum 0

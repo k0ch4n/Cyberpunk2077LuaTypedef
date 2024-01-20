@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UIVendorAttachedEvent: redEvent
 ---@field public vendorID TweakDBID

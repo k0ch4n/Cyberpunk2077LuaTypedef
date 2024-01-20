@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LibTreeCMetanodeIfDefinition: LibTreeCMetanodeDefinition
 ---@field public ifCondition LibTreeDefBool

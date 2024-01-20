@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questShowCustomTooltip_NodeType: questIUIManagerNodeType
 ---@field public setTooltip Bool

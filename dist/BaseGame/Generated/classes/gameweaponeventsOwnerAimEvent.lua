@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameweaponeventsOwnerAimEvent: redEvent
 ---@field public isAiming Bool

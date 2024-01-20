@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questTogglePrefabVariant_NodeTypeParams
 ---@field public prefabNodeRef NodeRef

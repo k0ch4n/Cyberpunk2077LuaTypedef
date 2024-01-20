@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeTankCounterHUDController: inkWidgetLogicController
 ---@field public counterText inkTextWidgetReference

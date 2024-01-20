@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDebug_ShapeType: Enum
 ---@field Sphere Enum 0

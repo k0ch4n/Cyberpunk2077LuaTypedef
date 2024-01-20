@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyStatGroupEffector: gameEffector
 ---@field public target gameStatsObjectID

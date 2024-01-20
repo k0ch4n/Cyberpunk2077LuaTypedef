@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMappinPhase_Record: gamedataTweakDBRecord
 gamedataMappinPhase_Record = {}

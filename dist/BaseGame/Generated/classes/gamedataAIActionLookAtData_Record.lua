@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIActionLookAtData_Record: gamedataTweakDBRecord
 gamedataAIActionLookAtData_Record = {}

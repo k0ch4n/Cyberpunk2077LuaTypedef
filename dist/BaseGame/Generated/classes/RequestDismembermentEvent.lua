@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RequestDismembermentEvent: AIAIEvent
 ---@field public bodyPart gameDismBodyPart

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisposalDevice: InteractiveDevice
 ---@field protected additionalMeshComponent entMeshComponent

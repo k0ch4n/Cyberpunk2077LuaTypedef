@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexListVirtualNestedListController: VirtualNestedListController
 ---@field private currentDataView CodexListVirtualNestedDataView

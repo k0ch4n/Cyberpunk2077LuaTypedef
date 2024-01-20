@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RipperdocTokenManager: IScriptable
 ---@field public player PlayerPuppet

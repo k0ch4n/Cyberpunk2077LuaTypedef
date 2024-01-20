@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerVolumeOperationTriggerData: DeviceOperationTriggerData
 ---@field public isActivatorPlayer Bool

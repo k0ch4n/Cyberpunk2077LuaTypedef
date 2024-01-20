@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workIdleOnlyModeCommandData: workIWorkspotCommandData
 workIdleOnlyModeCommandData = {}

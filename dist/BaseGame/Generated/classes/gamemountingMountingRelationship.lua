@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamemountingMountingRelationship
 ---@field public otherMountableType gameMountingObjectType

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TriggerModeHitPrereqCondition: BaseHitPrereqCondition
 ---@field public triggerMode gamedataTriggerMode

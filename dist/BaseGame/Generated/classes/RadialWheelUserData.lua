@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RadialWheelUserData: IScriptable
 ---@field public Slot RadialSlot

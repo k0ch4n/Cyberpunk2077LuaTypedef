@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class enteventsTriggerDestructionEvent: redEvent
 ---@field public velocity Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldSpeedSplineNodeSpeedChangeSection
 ---@field public start Float

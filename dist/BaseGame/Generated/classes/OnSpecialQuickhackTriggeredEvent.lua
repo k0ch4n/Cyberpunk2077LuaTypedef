@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnSpecialQuickhackTriggeredEvent: DelayEvent
 ---@field public quickhackData QuickhackData

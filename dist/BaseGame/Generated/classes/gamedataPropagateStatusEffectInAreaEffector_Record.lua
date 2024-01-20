@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPropagateStatusEffectInAreaEffector_Record: gamedataEffector_Record
 gamedataPropagateStatusEffectInAreaEffector_Record = {}

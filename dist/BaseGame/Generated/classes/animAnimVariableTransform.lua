@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimVariableTransform: animAnimVariable
 ---@field public value QsTransform

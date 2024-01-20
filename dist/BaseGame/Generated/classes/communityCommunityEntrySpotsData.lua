@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityCommunityEntrySpotsData
 ---@field public phasesData communityCommunityEntryPhaseSpotsData[]

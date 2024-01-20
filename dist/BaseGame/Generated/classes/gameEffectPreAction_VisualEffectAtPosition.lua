@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPreAction_VisualEffectAtPosition: gameEffectPreAction
 ---@field public effect worldEffect

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionApplyTimeDilation_Record: gamedataAISubAction_Record
 gamedataAISubActionApplyTimeDilation_Record = {}

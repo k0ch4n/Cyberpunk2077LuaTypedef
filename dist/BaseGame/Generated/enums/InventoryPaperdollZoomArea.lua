@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryPaperdollZoomArea: Enum
 ---@field Default Enum 0

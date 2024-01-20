@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PSD_Master: gameDeviceComponent
 PSD_Master = {}

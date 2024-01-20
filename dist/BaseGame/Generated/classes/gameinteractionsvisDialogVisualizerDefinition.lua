@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsvisDialogVisualizerDefinition: gameinteractionsvisIVisualizerDefinition
 ---@field public displayNameOverride String

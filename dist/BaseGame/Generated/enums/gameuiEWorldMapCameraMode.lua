@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiEWorldMapCameraMode: Enum
 ---@field TopDown Enum 0

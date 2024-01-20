@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questAICommandNodeFunction
 ---@field public order Uint32

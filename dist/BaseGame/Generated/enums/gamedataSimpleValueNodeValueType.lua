@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataSimpleValueNodeValueType: Enum
 ---@field String Enum 0

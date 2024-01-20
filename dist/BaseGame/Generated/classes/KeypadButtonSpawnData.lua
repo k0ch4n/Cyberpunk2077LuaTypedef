@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class KeypadButtonSpawnData: IScriptable
 ---@field public widgetName CName

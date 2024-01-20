@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class QuickSlotsDisabledDecisions: QuickSlotsDecisions
 ---@field private executionOwner gameObject

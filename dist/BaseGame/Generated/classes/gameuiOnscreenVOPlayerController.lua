@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiOnscreenVOPlayerController: gameuiWidgetGameController
 ---@field public subtitlesContainer inkCompoundWidgetReference

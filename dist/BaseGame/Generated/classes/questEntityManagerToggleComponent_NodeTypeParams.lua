@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerToggleComponent_NodeTypeParams
 ---@field public objectRef gameEntityReference

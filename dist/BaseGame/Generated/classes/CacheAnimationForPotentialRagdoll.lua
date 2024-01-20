@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CacheAnimationForPotentialRagdoll: RagdollTask
 ---@field public currentBehavior CName

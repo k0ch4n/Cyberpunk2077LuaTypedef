@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventoryTooltipData_CyberdeckData: IScriptable
 ---@field public vehicleHackUnlocked Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AJournalEntryWrapper: ABaseWrapper
 ---@field private UniqueId Int32

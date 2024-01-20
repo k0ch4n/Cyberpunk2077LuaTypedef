@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animEVectorWsToMsType: Enum
 ---@field Position Enum 0

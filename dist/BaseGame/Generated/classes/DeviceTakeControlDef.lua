@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DeviceTakeControlDef: gamebbScriptDefinition
 ---@field public DevicesChain gamebbScriptID_Variant

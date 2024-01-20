@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionFastExitWorkspot_Record: gamedataAISubAction_Record
 gamedataAISubActionFastExitWorkspot_Record = {}

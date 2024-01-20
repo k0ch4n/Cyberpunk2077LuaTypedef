@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OverheatDecisions: WeaponTransition
 ---@field private callbackID redCallbackObject

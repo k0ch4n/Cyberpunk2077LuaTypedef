@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questProximityProgressBarOrientation: Enum
 ---@field Undefined Enum 0

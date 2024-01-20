@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AICTreeNodeActionTeleportToPositionDefinition: AICTreeNodeActionDefinition
 ---@field public positionName CName

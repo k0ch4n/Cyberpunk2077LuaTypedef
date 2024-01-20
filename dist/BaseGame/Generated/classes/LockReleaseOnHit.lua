@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LockReleaseOnHit: gameScriptableSystemRequest
 ---@field public isLocked Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameStatObjectsRelation: Enum
 ---@field Self Enum 0

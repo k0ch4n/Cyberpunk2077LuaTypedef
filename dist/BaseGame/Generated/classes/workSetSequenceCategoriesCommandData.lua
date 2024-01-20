@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workSetSequenceCategoriesCommandData: workIWorkspotCommandData
 ---@field public sequenceCategories gameCategorySelectionProbability

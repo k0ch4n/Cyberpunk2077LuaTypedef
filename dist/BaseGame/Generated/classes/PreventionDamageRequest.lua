@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PreventionDamageRequest: gameScriptableSystemRequest
 ---@field public isInternal Bool

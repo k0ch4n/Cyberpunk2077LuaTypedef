@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EffectExecutor_VisualEffectAtTarget: gameEffectExecutor_Scripted
 ---@field public effect gameFxResource

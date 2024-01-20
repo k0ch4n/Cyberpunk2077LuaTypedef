@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisplayGlassControllerPS: ScriptableDeviceComponentPS
 ---@field protected isTinted Bool

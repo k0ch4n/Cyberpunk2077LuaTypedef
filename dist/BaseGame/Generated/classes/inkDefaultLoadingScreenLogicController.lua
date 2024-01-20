@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkDefaultLoadingScreenLogicController: inkILoadingLogicController
 ---@field private progressBarRoot inkWidgetReference

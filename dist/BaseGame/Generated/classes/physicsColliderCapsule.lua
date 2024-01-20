@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class physicsColliderCapsule: physicsICollider
 ---@field public radius Float

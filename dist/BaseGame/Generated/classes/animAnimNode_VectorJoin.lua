@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_VectorJoin: animAnimNode_VectorValue
 ---@field public input animVectorLink

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questInputAction_ConditionType: questISystemConditionType
 ---@field public anyInputAction Bool

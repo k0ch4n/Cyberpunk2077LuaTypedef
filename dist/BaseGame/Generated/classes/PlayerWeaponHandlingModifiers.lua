@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerWeaponHandlingModifiers: IScriptable
 ---@field private player PlayerPuppet

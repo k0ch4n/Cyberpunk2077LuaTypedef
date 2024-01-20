@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SuppressSecuritySystemStateChange: redEvent
 ---@field public forceSecuritySystemIntoStrictQuestControl Bool

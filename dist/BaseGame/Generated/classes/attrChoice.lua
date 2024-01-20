@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class attrChoice: attrAttribute
 ---@field public tions String[]

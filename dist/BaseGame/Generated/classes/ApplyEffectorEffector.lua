@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ApplyEffectorEffector: gameEffector
 ---@field public target entEntityID

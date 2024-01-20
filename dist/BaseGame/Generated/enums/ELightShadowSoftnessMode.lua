@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ELightShadowSoftnessMode: Enum
 ---@field LSSM_ExtraSoft Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Spline: ISerializable
 ---@field public points SplinePoint[]

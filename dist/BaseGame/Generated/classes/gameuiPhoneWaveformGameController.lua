@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhoneWaveformGameController: gameuiWidgetGameController
 ---@field public measurementsIntreval Float

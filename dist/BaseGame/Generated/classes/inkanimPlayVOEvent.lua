@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimPlayVOEvent: inkanimEvent
 ---@field public VOLine String

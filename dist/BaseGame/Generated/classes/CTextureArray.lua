@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CTextureArray: ITexture
 ---@field public setup STextureGroupSetup

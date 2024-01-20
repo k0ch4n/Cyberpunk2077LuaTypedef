@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AgentBase: IScriptable
 ---@field public id entEntityID

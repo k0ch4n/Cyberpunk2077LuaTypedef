@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleQuestVisualDestructionEvent: redEvent
 ---@field public accumulate Bool

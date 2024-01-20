@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SimpleSandevistanHarassCondition: AIbehaviorconditionScript
 ---@field private initialized Bool

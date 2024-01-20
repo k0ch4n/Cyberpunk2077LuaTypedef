@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ChangeStanceState: ChangeStanceStateAbstract
 ---@field public newState gamedataNPCStanceState

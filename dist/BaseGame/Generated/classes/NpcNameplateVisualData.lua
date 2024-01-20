@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NpcNameplateVisualData
 ---@field public npcNextToCrosshair gameuiNPCNextToTheCrosshair

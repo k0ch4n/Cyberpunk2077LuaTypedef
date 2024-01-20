@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ReactionManagerComponent: gameScriptableComponent
 ---@field private activeReaction AIReactionData

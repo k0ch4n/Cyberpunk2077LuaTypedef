@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamestateMachineeventRemoveOnDemandStateMachine: redEvent
 ---@field public stateMachineIdentifier gamestateMachineStateMachineIdentifier

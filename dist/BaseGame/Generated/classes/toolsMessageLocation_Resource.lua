@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class toolsMessageLocation_Resource: toolsIMessageLocation
 ---@field public path MessageResourcePath

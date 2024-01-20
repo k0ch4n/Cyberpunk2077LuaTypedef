@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDistrictTriggerData
 ---@field public district gamedataDistrict

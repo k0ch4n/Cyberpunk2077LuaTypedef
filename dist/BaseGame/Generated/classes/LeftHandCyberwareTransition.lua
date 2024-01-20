@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class LeftHandCyberwareTransition: DefaultTransition
 ---@field public leftCWFeature AnimFeature_LeftHandCyberware

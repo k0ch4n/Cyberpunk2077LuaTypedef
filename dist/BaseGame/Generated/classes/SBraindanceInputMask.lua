@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SBraindanceInputMask
 ---@field public pauseAction Bool

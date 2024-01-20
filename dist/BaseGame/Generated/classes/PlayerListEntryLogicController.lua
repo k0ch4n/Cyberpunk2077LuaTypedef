@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PlayerListEntryLogicController: inkWidgetLogicController
 ---@field private playerNameLabel inkWidgetReference

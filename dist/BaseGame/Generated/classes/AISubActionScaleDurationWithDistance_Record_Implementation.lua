@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionScaleDurationWithDistance_Record_Implementation: IScriptable
 AISubActionScaleDurationWithDistance_Record_Implementation = {}

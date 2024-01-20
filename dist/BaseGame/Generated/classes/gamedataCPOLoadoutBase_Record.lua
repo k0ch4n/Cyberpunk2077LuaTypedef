@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCPOLoadoutBase_Record: gamedataTweakDBRecord
 gamedataCPOLoadoutBase_Record = {}

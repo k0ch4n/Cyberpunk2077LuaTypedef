@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ShouldNPCRetreatFromMaxTacEncounter: PreventionConditionAbstract
 ---@field public agentRegistry PoliceAgentRegistry

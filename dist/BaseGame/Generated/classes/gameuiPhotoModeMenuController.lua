@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPhotoModeMenuController: gameuiWidgetGameController
 ---@field public SetAttributeOptionEnabled gameuiSetPhotoModeKeyEnabledCallback

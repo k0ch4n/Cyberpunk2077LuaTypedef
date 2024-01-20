@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleRaceQuestEvent: redEvent
 ---@field public mode vehicleRaceUI

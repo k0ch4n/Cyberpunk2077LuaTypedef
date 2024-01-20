@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SceneScreenUIAnimationsData: IScriptable
 ---@field public customAnimations WidgetAnimationManager

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyStaminaHandlerEffector: gameEffector
 ---@field private opSymbol CName

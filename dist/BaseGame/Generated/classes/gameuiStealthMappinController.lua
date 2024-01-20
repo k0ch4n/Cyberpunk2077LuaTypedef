@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiStealthMappinController: gameuiInteractionMappinController
 ---@field private arrow inkImageWidgetReference

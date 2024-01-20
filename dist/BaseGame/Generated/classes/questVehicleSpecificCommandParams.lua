@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questVehicleSpecificCommandParams: ISerializable
 ---@field public pushOtherVehiclesAside Bool

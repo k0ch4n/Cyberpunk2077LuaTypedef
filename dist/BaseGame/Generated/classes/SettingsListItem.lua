@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SettingsListItem: inkListItemController
 ---@field private Selector inkWidgetReference

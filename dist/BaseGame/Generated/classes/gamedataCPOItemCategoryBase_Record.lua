@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCPOItemCategoryBase_Record: gamedataTweakDBRecord
 gamedataCPOItemCategoryBase_Record = {}

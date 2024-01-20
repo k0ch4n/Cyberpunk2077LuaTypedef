@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_LODBegin: animAnimNode_OnePoseInput
 ---@field public levelOfDetail Uint32

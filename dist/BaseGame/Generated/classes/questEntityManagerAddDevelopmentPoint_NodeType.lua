@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questEntityManagerAddDevelopmentPoint_NodeType: questIEntityManager_NodeType
 ---@field public value Int32

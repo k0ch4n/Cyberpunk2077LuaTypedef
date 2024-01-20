@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataMeleeAttackDirection: Enum
 ---@field Center Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldNavigationScriptPath: IScriptable
 ---@field public path Vector4[]

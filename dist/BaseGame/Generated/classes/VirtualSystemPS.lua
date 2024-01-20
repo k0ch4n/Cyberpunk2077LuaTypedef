@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirtualSystemPS: MasterControllerPS
 ---@field private owner MasterControllerPS

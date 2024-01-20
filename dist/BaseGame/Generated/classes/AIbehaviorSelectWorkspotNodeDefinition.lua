@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorSelectWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field public spotInstance AIArgumentMapping

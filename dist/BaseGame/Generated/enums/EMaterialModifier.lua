@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EMaterialModifier: Enum
 ---@field EMATMOD_HitProxy Enum 0

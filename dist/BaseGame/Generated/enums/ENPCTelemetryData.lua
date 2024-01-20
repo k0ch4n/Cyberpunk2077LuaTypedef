@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ENPCTelemetryData: Enum
 ---@field HitByLightAttack Enum 0

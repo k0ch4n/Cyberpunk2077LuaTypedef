@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class senseAdditionalTraceType: Enum
 ---@field Knee Enum 0

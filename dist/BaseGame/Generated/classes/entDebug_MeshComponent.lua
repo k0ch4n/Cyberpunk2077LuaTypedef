@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class entDebug_MeshComponent: entMeshComponent
 ---@field public filterName String

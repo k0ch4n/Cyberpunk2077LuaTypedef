@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceTestLineResult: Enum
 ---@field Fail Enum 0

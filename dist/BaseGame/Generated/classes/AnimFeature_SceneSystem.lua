@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AnimFeature_SceneSystem: animAnimFeature
 ---@field public tier Int32

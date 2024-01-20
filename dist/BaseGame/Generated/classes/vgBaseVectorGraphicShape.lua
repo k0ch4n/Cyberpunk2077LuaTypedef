@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class vgBaseVectorGraphicShape: ISerializable
 ---@field public calTransform Matrix

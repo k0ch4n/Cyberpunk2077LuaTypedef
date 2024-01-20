@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioGameplayTierActivatedASTCD: audioAudioStateTransitionConditionData
 ---@field public gameplayTier audioGameplayTier

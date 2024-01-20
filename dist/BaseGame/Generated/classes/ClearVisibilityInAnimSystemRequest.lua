@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ClearVisibilityInAnimSystemRequest: gameScriptableSystemRequest
 ---@field public entityID entEntityID

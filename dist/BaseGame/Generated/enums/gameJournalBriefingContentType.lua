@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameJournalBriefingContentType: Enum
 ---@field MapLocation Enum 0

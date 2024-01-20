@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCompoundSelectionPreset_Record: gamedataTweakDBRecord
 gamedataCompoundSelectionPreset_Record = {}

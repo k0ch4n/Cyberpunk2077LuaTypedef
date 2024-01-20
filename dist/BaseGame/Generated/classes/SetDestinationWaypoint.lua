@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetDestinationWaypoint: AIActionHelperTask
 ---@field public refTargetType EAITargetType

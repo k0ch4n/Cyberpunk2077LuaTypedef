@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Tier2WalkType: Enum
 ---@field Undefined Enum 0

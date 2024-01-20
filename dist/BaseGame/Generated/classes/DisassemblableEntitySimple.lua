@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DisassemblableEntitySimple: InteractiveDevice
 ---@field private mesh entMeshComponent

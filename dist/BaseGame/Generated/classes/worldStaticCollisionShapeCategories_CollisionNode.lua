@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldStaticCollisionShapeCategories_CollisionNode
 ---@field public arr Uint16[][]

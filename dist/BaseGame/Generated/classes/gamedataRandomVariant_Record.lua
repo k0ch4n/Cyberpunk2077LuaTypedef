@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataRandomVariant_Record: gamedataTweakDBRecord
 gamedataRandomVariant_Record = {}

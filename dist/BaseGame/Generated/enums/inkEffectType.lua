@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkEffectType: Enum
 ---@field ScanlineWipe Enum 0

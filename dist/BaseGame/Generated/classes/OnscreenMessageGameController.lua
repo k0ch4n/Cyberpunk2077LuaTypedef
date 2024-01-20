@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OnscreenMessageGameController: gameuiHUDGameController
 ---@field private root inkWidget

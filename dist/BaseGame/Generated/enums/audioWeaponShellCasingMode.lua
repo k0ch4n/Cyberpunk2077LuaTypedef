@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioWeaponShellCasingMode: Enum
 ---@field none Enum 0

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionGeneratePointOfInterestTarget_Record_Implementation: IScriptable
 AISubActionGeneratePointOfInterestTarget_Record_Implementation = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkanimSetStyleEvent: inkanimEvent
 ---@field public style inkStyleResource

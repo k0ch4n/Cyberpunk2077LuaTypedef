@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataPerkPrereq_Record: gamedataIPrereq_Record
 gamedataPerkPrereq_Record = {}

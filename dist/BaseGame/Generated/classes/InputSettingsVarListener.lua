@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InputSettingsVarListener: userSettingsVarListener
 ---@field private ctrl gameuiControllerSettingsGameController

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questDynamicSpawnSystemCondition: questTypedCondition
 ---@field public type questIDynamicSpawnSystemConditionType

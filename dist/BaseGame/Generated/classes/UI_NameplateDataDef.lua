@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class UI_NameplateDataDef: gamebbScriptDefinition
 ---@field public EntityID gamebbScriptID_Variant

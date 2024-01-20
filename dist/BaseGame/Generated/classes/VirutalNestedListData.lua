@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VirutalNestedListData: IScriptable
 ---@field public collapsable Bool

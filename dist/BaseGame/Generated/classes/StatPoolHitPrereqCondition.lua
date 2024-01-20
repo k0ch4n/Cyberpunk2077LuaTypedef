@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class StatPoolHitPrereqCondition: BaseHitPrereqCondition
 ---@field public valueToCheck Float

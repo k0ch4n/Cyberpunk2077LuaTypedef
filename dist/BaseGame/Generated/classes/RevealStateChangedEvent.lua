@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RevealStateChangedEvent: redEvent
 ---@field public state ERevealState

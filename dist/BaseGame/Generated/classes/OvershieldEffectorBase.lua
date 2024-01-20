@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class OvershieldEffectorBase: gameContinuousEffector
 ---@field public statSystem gameStatsSystem

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class PerksPointsDisplayController: inkWidgetLogicController
 ---@field protected desc1Text inkTextWidgetReference

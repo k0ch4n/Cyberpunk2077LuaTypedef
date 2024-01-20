@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class panelApperanceSwitchEvent: redEvent
 ---@field public newApperance CName

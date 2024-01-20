@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class VehicleDoorClose: ActionBool
 ---@field public slotID CName

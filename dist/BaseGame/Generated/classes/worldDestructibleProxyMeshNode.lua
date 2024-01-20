@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldDestructibleProxyMeshNode: worldPrefabProxyMeshNode
 ---@field public ownerHash Uint64

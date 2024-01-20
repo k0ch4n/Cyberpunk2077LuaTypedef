@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AISubActionForceDeath_Record_Implementation: IScriptable
 AISubActionForceDeath_Record_Implementation = {}

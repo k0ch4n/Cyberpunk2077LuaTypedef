@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questCameraParallaxSpace: Enum
 ---@field Trajectory Enum 0

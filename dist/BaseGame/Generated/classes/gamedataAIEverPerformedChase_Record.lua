@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAIEverPerformedChase_Record: gamedataAIActionSubCondition_Record
 gamedataAIEverPerformedChase_Record = {}

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameDeviceVisibilityChangedEvent: redEvent
 ---@field public isVisible Uint32

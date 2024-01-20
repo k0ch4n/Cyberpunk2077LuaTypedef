@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioAdvertSoundMetadata: audioAudioMetadata
 ---@field public audioEvent1 CName

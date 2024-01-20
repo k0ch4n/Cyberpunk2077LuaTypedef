@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisionModeUpdateVisuals: redEvent
 ---@field public pulse Bool

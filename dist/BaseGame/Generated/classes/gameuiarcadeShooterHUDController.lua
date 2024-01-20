@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiarcadeShooterHUDController: inkWidgetLogicController
 ---@field public selectedWeaponSlot inkImageWidgetReference

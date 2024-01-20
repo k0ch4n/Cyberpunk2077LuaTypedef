@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinfluenceHeatAgent: gameinfluenceIAgent
 ---@field public timeToNextUpdate Float

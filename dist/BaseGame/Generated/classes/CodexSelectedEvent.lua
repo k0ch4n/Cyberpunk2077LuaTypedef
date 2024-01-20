@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CodexSelectedEvent: redEvent
 ---@field public group Bool

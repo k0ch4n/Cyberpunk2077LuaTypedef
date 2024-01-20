@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gsmgameStateObserver_FunctionalTests: gsmIStateObserver
 gsmgameStateObserver_FunctionalTests = {}

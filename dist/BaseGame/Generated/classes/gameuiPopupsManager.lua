@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiPopupsManager: gameuiWidgetGameController
 ---@field public bracketsContainer inkCompoundWidgetReference

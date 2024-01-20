@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioDistanceSoundDecoratorMetadata: audioEmitterMetadata
 ---@field public onEnter CName

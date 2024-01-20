@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataAISubActionUpdateFriendlyFireParams_Record: gamedataAISubAction_Record
 gamedataAISubActionUpdateFriendlyFireParams_Record = {}

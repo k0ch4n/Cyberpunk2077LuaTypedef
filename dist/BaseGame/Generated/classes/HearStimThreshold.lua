@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HearStimThreshold: AIbehaviorconditionScript
 ---@field public thresholdNumber Int32

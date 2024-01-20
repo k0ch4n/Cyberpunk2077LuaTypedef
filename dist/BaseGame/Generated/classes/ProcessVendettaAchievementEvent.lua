@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProcessVendettaAchievementEvent: redEvent
 ---@field public deathInstigator gameObject

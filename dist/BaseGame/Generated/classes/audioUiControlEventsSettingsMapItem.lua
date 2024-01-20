@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class audioUiControlEventsSettingsMapItem: audioAudioMetadata
 ---@field public baseEvent CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questdbgCallstackBlock
 ---@field public id Uint64

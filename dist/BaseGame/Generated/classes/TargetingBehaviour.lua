@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class TargetingBehaviour
 ---@field public initialWakeState ESensorDeviceWakeState

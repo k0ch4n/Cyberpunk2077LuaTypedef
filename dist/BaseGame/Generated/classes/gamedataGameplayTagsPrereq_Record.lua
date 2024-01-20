@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataGameplayTagsPrereq_Record: gamedataIPrereq_Record
 gamedataGameplayTagsPrereq_Record = {}

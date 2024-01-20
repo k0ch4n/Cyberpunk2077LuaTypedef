@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataTime_Record: gamedataTweakDBRecord
 gamedataTime_Record = {}

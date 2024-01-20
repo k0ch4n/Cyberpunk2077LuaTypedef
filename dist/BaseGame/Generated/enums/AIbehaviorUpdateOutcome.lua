@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorUpdateOutcome: Enum
 ---@field IN_PROGRESS Enum 0

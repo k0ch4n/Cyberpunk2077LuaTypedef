@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataOutput: Enum
 ---@field AskToFollowOrder Enum 0

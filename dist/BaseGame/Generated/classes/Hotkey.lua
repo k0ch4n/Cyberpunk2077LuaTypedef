@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Hotkey: IScriptable
 ---@field private hotkey gameEHotkey

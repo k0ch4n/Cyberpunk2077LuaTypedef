@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AbstractApplyQuickhackEffector: ModifyAttackEffector
 ---@field protected blackboard gameIBlackboard

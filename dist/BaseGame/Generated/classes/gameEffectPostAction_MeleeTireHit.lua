@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEffectPostAction_MeleeTireHit: gameEffectPostAction
 gameEffectPostAction_MeleeTireHit = {}

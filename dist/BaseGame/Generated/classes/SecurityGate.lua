@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SecurityGate: InteractiveMasterDevice
 ---@field private sideA gameStaticTriggerAreaComponent

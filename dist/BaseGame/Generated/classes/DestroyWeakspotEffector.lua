@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DestroyWeakspotEffector: gameEffector
 ---@field public weakspotIndex Int32

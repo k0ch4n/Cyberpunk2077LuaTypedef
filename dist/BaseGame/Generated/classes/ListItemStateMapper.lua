@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ListItemStateMapper: inkWidgetLogicController
 ---@field private toggled Bool

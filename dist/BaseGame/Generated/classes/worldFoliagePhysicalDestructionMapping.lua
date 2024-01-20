@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldFoliagePhysicalDestructionMapping: worldFoliageDestructionMapping
 ---@field public audioMetadata CName

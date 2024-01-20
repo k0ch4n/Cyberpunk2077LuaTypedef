@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameeventsSquadStartedCombatEvent: redEvent
 ---@field public started Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class communityESquadType: Enum
 ---@field Global Enum 0

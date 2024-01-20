@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimFeature_ExitCover: animAnimFeature_AIAction
 ---@field public coverStance Int32

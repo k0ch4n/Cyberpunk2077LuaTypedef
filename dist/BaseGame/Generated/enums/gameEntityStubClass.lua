@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEntityStubClass: Enum
 ---@field Other Enum 0

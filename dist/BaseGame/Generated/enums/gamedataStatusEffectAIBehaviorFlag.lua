@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataStatusEffectAIBehaviorFlag: Enum
 ---@field AcceptsAdditives Enum 0

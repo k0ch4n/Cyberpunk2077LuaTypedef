@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameEStatFlags: Enum
 ---@field Bool Enum 1

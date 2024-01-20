@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AIbehaviorCompositeTreeNodeDefinition: AIbehaviorTreeNodeDefinition
 ---@field public children AIbehaviorTreeNodeDefinition[]

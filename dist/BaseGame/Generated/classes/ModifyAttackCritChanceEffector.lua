@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ModifyAttackCritChanceEffector: ModifyAttackEffector
 ---@field public applicationChanceMods gamedataStatModifier_Record[]

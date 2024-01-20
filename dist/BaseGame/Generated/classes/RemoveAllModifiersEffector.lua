@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveAllModifiersEffector: gameEffector
 ---@field public statType gamedataStatType

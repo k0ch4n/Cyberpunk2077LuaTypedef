@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ArcadeMachineInkGameController: DeviceInkGameControllerBase
 ---@field private defaultUI inkCanvasWidget

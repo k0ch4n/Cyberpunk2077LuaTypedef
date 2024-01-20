@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSetUpEvent: redEvent
 ---@field public owner gameObject

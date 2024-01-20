@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InspectionObject: gameObject
 ---@field public interaction gameinteractionsComponent

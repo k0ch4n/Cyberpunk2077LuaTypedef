@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animStackTransformsExtender_JsonProperties: ISerializable
 ---@field public entries animStackTransformsExtender_JsonEntry[]

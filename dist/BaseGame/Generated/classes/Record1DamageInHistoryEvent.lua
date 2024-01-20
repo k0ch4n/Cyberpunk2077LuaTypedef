@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class Record1DamageInHistoryEvent: redEvent
 ---@field public source gameObject

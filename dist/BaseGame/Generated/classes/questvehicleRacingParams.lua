@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questvehicleRacingParams: questVehicleSpecificCommandParams
 ---@field public splineRef NodeRef

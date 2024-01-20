@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class inkVisualStateBlackBarsVisibilityChangedEvent: redEvent
 ---@field public blackBarsVisible Bool

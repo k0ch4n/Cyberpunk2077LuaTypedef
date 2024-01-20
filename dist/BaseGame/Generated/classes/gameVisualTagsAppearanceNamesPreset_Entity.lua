@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameVisualTagsAppearanceNamesPreset_Entity: ISerializable
 ---@field public entityPathHash Uint64

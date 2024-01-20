@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameinteractionsAlwaysSamePredicate: gameinteractionsIPredicateType
 ---@field public priority Float

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class netIEntityState
 ---@field public recordID TweakDBID

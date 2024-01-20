@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class AITaggedAIEvent: AIAIEvent
 ---@field public tags CName[]

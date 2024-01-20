@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameMountDescriptorMountType: Enum
 ---@field Unmounted Enum 0

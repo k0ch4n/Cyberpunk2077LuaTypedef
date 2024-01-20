@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class EngagementScreenGameController: gameuiMenuGameController
 ---@field private backgroundVideo inkVideoWidgetReference

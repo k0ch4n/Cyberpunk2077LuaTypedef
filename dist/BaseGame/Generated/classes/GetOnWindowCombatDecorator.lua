@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GetOnWindowCombatDecorator: AIVehicleTaskAbstract
 ---@field public windowOpenEvent VehicleExternalWindowRequestEvent

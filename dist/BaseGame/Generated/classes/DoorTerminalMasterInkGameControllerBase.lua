@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DoorTerminalMasterInkGameControllerBase: MasterDeviceInkGameControllerBase
 ---@field protected currentlyActiveDevices gamePersistentID[]

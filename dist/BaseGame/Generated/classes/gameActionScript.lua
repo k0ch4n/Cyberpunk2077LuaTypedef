@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameActionScript: gameIObjectScriptBase
 ---@field public actionFlags Uint32

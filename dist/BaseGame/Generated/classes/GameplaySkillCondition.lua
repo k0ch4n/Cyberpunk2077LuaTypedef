@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class GameplaySkillCondition: GameplayConditionBase
 ---@field protected skillToCheck TweakDBID

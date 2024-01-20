@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class textTextBlockFontStyle
 ---@field public fontStyle CName

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class worldProxySyncNormalSource: Enum
 ---@field From_Groups Enum 0

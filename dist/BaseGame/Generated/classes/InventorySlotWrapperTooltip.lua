@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class InventorySlotWrapperTooltip: AGenericTooltipController
 ---@field protected itemDisplayController InventoryItemDisplayController

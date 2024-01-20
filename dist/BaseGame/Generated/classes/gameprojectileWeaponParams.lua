@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileWeaponParams
 ---@field public targetPosition Vector4

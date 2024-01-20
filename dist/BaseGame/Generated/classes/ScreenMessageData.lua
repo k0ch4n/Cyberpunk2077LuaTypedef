@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ScreenMessageData: IScriptable
 ---@field public messageRecord gamedataScreenMessageData_Record

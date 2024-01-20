@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ProjectileHitAoEData
 ---@field public source gameObject

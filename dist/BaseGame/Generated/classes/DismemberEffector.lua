@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class DismemberEffector: gameEffector
 ---@field public bodyPart CName

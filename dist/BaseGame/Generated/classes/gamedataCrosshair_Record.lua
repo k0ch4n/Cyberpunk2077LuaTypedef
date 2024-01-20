@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataCrosshair_Record: gamedataTweakDBRecord
 gamedataCrosshair_Record = {}

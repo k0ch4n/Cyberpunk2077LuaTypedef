@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animPendulumConstraintType: Enum
 ---@field Cone Enum 0

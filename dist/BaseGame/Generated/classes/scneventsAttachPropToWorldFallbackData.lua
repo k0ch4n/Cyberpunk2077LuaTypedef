@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scneventsAttachPropToWorldFallbackData
 ---@field public owner scnPerformerId

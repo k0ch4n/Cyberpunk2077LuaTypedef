@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gamedataUICharacterCreationAttribute_Record: gamedataTweakDBRecord
 gamedataUICharacterCreationAttribute_Record = {}

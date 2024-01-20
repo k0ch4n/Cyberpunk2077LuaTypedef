@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameprojectileSpawnerLaunchEvent: redEvent
 ---@field public launchParams gameprojectileLaunchParams

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class IsDead: AIbehaviorconditionScript
 ---@field public statPoolsSystem gameStatPoolsSystem

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class questPhoneCallMode_ConditionType: questIPhoneConditionType
 ---@field public callMode questPhoneCallMode

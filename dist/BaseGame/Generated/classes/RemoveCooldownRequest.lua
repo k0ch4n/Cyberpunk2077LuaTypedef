@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class RemoveCooldownRequest: gameScriptableSystemRequest
 ---@field public cid Int32

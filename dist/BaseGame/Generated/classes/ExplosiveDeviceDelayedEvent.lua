@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class ExplosiveDeviceDelayedEvent: redEvent
 ---@field public arrayIndex Int32

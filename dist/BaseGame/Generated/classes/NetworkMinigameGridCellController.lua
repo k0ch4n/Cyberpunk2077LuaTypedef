@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NetworkMinigameGridCellController: inkButtonController
 ---@field public cellData CellData

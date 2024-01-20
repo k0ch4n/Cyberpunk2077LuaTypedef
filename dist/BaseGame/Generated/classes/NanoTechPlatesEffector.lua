@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class NanoTechPlatesEffector: ModifyAttackEffector
 ---@field private chanceToTrigger Float

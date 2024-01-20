@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class CraftingGarmentItemPreviewGameController: gameuiWardrobeSetPreviewGameController
 ---@field private initialItems gameItemID[]

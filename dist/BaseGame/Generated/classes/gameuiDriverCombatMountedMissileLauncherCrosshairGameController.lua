@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class gameuiDriverCombatMountedMissileLauncherCrosshairGameController: gameuiCrosshairBaseGameController
 ---@field private lockingAnimationWidget inkWidgetReference

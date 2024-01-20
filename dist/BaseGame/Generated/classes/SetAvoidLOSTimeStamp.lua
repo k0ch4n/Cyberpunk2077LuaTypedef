@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class SetAvoidLOSTimeStamp: AIbehaviortaskScript
 ---@field private initialized Bool

@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class workLookAtDrivenTurn: workIEntry
 ---@field public turnAngle Int32

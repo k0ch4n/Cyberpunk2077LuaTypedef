@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class HubMenuDatabaseItems: Enum
 ---@field Codex Enum 0

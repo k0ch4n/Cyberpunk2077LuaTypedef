@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class animAnimNode_SetRequiredDistanceCategory: animAnimNode_OnePoseInput
 ---@field public requiredQualityDistanceCategory Uint32

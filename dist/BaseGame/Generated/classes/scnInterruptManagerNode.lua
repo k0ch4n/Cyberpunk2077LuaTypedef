@@ -1,5 +1,4 @@
----@meta _
----@diagnostic disable
+---@meta
 
 ---@class scnInterruptManagerNode: scnSceneGraphNode
 ---@field public interruptionOperations scnIInterruptionOperation[]
